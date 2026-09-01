@@ -118,7 +118,9 @@ The authority/dependency frontier milestone is complete. A 20-node/20-edge acycl
 
 The safe-source release r2 milestone is complete. Already-pushed commit `43fc787f…0aae` contains 387 paths / 8,535,516 bytes at tree `4e85a8c3…5f70b` and inventory root `53af7d04…13d6b`; exactly two public controls and zero generated/prohibited/oversize paths are tracked. Thirteen/thirteen mutations fail, origin parity holds, and unrelated untracked workspace material remains excluded under ADR-0069.
 
-The active bounded milestone is hardening-release gate r2. Preserve the 53-check r1 result, then append selector compatibility, authority-frontier, safe-source r2, and current ledger validators in a new release revision with no network/provider/upload/download activity.
+The hardening-release gate r2 milestone is complete. The immutable 53-check r1 gate plus seven post-r1 extensions pass 60/60 in an observed 79.280 seconds; 11/11 mutations fail. R1 remains unchanged and activity remains zero network/provider/upload/download/$0 under ADR-0070.
+
+The active bounded milestone is selected-route hardening handoff r2. Supersede the earlier cross-evidence state append-only and bind the latest budget audit, selector/rebuild, release gate, source release, authority frontier, and production ledger without changing the measured renderer result or promoting pending human/production evidence.
 
 ### Authority and data boundaries
 

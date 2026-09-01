@@ -1,0 +1,103 @@
+{
+  "record_type": "HardeningReleaseValidationGate",
+  "schema_version": "1.1",
+  "record_id": "ng-hardening-release-validation-gate-r2",
+  "state": "R1_GATE_AND_ALL_POST_R1_LOCAL_CHECKS_PASS",
+  "supersedes": {
+    "record_id": "ng-hardening-release-validation-gate-r1",
+    "path": "docs/research/evidence/hardening-release-validation-gate-r1.json",
+    "sha256": "b5984e3f4b88cbf27b2bd22cb99385614e336095383078accb4acda32787c3af",
+    "checks": 53
+  },
+  "prior_gate_rewritten": false,
+  "base_gate": {
+    "script": "src/north_garden/validate_hardening_release.py",
+    "script_sha256": "3808e267349ab19aa2a44f1d3de620641555e4eea305a35387ba72224e9aff16",
+    "checks": 53,
+    "passed": 53
+  },
+  "extensions": [
+    {
+      "name": "selector_consumer_compatibility_r2",
+      "script": "src/north_garden/validate_selector_consumer_compatibility_r2.py",
+      "script_sha256": "59b65be17f855858c6039675f4b9a9606a168c4113c0d8979134ff5bdc478d86",
+      "passed": true,
+      "stdout_last_line": "6/6 consumer validators pass; generic control rejected as profile; 15/15 mutations rejected; 0 requests/uploads/$0"
+    },
+    {
+      "name": "selected_route_authority_frontier_r1",
+      "script": "src/north_garden/validate_selected_route_authority_frontier.py",
+      "script_sha256": "c3aae0b070659394948bf7132fd512f4b9cfcfd2e77f9ebaa34c06ec9d1d14aa",
+      "passed": true,
+      "stdout_last_line": "G07 review 0/20; P036 blockers 4 root/9 total; 18/18 mutations rejected; 0 requests/uploads/$0"
+    },
+    {
+      "name": "safe_source_release_manifest_r2",
+      "script": "src/north_garden/validate_safe_source_release_manifest_r2.py",
+      "script_sha256": "97a22d184fb9bd73e21db79fe9a6c43886f8f93783b5638b65635358d320bb2c",
+      "passed": true,
+      "stdout_last_line": "two public controls; zero generated/prohibited/oversize paths; 13/13 mutations rejected; current scope and remote parity valid"
+    },
+    {
+      "name": "production_cost_ledger_r6",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r6.py",
+      "script_sha256": "0b577c05edf773d8f9df3729062545a5b1bace6739c63ad250b914de292cb45c",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (33 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    },
+    {
+      "name": "production_cost_ledger_r7",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r7.py",
+      "script_sha256": "d3648d7aa8500f580c6a506af0bc047d36aad3f99cdffa4c3200e6f68cdee95a",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (34 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    },
+    {
+      "name": "production_cost_ledger_r8",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r8.py",
+      "script_sha256": "313897a32644725a1596c97d6223831133a118cfa30c7c71de031add816b9c30",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (35 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    },
+    {
+      "name": "production_cost_ledger_r9",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r9.py",
+      "script_sha256": "a4ef787ae73fa5c5008855138d21a4c21f2b5c3bf28207c3d69f9b447b288e31",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (36 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    }
+  ],
+  "summary": {
+    "base_checks": 53,
+    "extension_checks": 7,
+    "total_checks": 60,
+    "passed_checks": 60,
+    "failed_checks": 0
+  },
+  "activity": {
+    "network_requests": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "models_downloaded": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "boundaries": [
+    "R1 remains immutable and is executed as the 53-check base gate.",
+    "R2 extensions validate compatibility, dependency accounting, safe-source scope, and append-only cost ledgers only.",
+    "Passing does not create G07 human judgment, CH05 inputs, upload authority, production cap, provider outcome, acceptance, or commercial clearance."
+  ],
+  "observed_runtime": {
+    "base_elapsed_ms": 69944.292,
+    "extension_elapsed_ms": {
+      "selector_consumer_compatibility_r2": 834.494,
+      "selected_route_authority_frontier_r1": 65.016,
+      "safe_source_release_manifest_r2": 8180.741,
+      "production_cost_ledger_r6": 61.912,
+      "production_cost_ledger_r7": 65.894,
+      "production_cost_ledger_r8": 64.996,
+      "production_cost_ledger_r9": 62.208
+    },
+    "total_elapsed_ms": 79279.553,
+    "timing_is_local_nondeterministic": true
+  }
+}

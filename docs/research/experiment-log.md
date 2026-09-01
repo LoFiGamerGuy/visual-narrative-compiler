@@ -794,3 +794,10 @@
 - Inventoried 387 tracked paths / 8,535,516 bytes at Git tree `4e85a8c3f267b9e06dd9f83711882677e375f70b`; canonical inventory root is `53af7d04b36fd02fdff0c35b882ffac88afce72121c846f66c4cf4f84d413d6b`.
 - Exactly two approved public controls and zero generated-experiment, prohibited-extension, or over-10-MiB paths are tracked. Thirteen/thirteen mutations fail under ADR-0069.
 - Current tracked scope/origin parity pass. Untracked imported assets, launchers, generators, and trainer material remain untouched and excluded. Ledger r9 records 36 zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - hardening release gate r2
+
+- Preserved release gate r1 as an exact 53-check base and appended seven compatibility, authority-frontier, safe-source-r2, and cost-ledger validators.
+- R2 passes 60/60 local checks and rejects 11/11 supersession/base/extension/activity/boundary mutations under ADR-0070.
+- Observed local runtime is 79.280 seconds: 69.944 seconds for nested r1 and 9.335 seconds for extensions. Timing is nondeterministic local validation, not provider/human throughput.
+- Production ledger r10 records 37 local zero-cost milestones and remains disabled/no-cap with empty entries/$0. Network/provider/upload/download activity remains zero.

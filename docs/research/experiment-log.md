@@ -890,3 +890,10 @@
 - R5 passes 79/79 local checks in 198.132 seconds and rejects 18/18 supersession/objective/review/authority/activity mutations under ADR-0082.
 - The release states 12/12 engineering requirements complete while keeping human review and production authority incomplete: G07 0/20, CH05 zero inputs/cap/outcomes/acceptances, no approvals, next external action null.
 - Ledger r22 records 50 local zero-cost milestones and remains disabled/no-cap/$0. External activity remains zero.
+
+## 2026-09-01 - final safe-source and Git parity
+
+- Pinned already-pushed release-r5 commit `f1803bdd…b7354` without self-referencing the evidence commit.
+- Safe-source r4 inventories 459 paths / 9,234,040 bytes at tree `aaab99df…35e0c` and inventory root `1ce5104c…b41e6`.
+- Exactly two approved public controls and zero generated-experiment, prohibited-extension, or over-10-MiB paths are tracked; 13/13 mutations fail under ADR-0083.
+- Ledger r23 records 51 local zero-cost milestones and remains disabled/no-cap/$0. Unrelated imported workspace material stays untracked and untouched.

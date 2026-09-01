@@ -144,7 +144,7 @@ The autonomous closeout milestone is complete. Twelve/twelve operating requireme
 
 The final release gate r5 milestone is complete. Immutable r4 (74 checks) plus chronology, closeout, and r19-r21 ledger checks pass 79/79 in 198.132 seconds; 18/18 mutations fail. Engineering scope is 12/12 complete while G07 stays 0/20 and CH05 remains no-input/no-cap/no-outcome/no-acceptance under ADR-0082.
 
-The active bounded milestone is final safe-source and Git parity. Validate explicit staged scope, current tracked-source policy, untracked exclusions, branch/origin parity, and one last zero-cost ledger revision before ending the autonomous run.
+The final safe-source and Git parity milestone is complete. Safe-source r4 pins pushed release-r5 commit `f1803bd` with 459 paths/9,234,040 bytes, two public controls, zero generated/prohibited/oversize paths, and 13/13 mutation rejection. Ledger r23 records 51 local zero-cost milestones. The remaining work is human G07 review and four explicit CH05 authority roots; neither is silently advanced or requested by this engineering closeout.
 
 ### Authority and data boundaries
 

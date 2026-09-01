@@ -72,7 +72,9 @@ The immutable P036 repair-readiness r2 milestone is complete. R2 pins r1's uncha
 
 The chapter-scale repair-policy coverage milestone is complete. All 50 plans remain in order. P019/P026/P036/P044 are the four explicit causal practical-action candidates; only exact P036 has a mechanics policy, three are policy-absent, and 46 have no explicit plan-level repair applicability. No mask is inferred and no P036 policy leaks. Ten/ten mutations fail; approved bases/masks/executable panels/requests/uploads/acceptances remain zero, minutes null, cost $0 under ADR-0045.
 
-The active bounded milestone is next-policy information gain. Compare the three policy-absent causal panels only against topology and repair-mechanics dimensions not yet exercised by P036, record the evidence limits, and select at most one local non-art control target. Do not select from story appeal, author a production mask, or generalize an execution policy.
+The next-policy information-gain milestone is complete. P019/P026/P044 were compared only against uncovered mechanics. P044 uniquely supplies explicit bounded blade/twine contact below twice the 16-pixel feather without requiring P026's new diffuse-effect mechanism. Eight/eight mutations fail. ADR-0046 selects one P044 deterministic abstract control only; no policy, production mask, provider route, or external action changes.
+
+The active bounded milestone is the P044 fixed-boundary stress control. Build deterministic blade/twine contact geometry directly from the ComicPanelPlan and hard assertion, apply the existing 16-pixel inward policy without tuning, and measure feature-core/component survival, lettering clearance, and exterior preservation. Record failure rather than widen the mask or change the policy inside the same experiment.
 
 ### Authority and data boundaries
 

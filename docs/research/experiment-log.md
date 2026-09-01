@@ -610,3 +610,11 @@
 - P036 policy inheritance is prohibited. Motion mode alone neither selects another policy target nor makes a panel executable.
 - Approved bases/masks/executable panels/requests/uploads/accepted panels are 0/0/0/0/0/0, human minutes null, and production cost $0 across the 50-panel denominator.
 - Ten/ten missing/reordered panel, policy leak, execution, invented input, denominator, target-selection, generalization, and AnimationShotPlan mutations fail.
+
+## 2026-09-01 - next local repair-control information gain
+
+- Compared only the three policy-absent explicit causal panels: P019 hand-signal/bridge blocking, P026 hand/ember/smoke, and P044 hands/blade/taut-twine contact.
+- P044 uniquely meets the bounded rule for one local control: explicit sharp geometry, an uncovered sub-32-pixel boundary scale, direct tool contact, and no new renderer/effect mechanism.
+- P026 is deferred because smoke separating fingers is a diffuse/translucent boundary question outside the current opaque inward compositor. P019 is deferred because it does not directly test the uncovered boundary scale. Neither is rejected as a panel.
+- Selection authorizes only deterministic abstract P044 geometry. Production policy/mask/provider changes and external activity remain false/false/false/zero.
+- Eight/eight candidate inventory/order, wrong selection, diffuse-mechanism erasure, missing thin dimension, policy/mask, and external-authority mutations fail.

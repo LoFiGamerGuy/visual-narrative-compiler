@@ -1,0 +1,135 @@
+{
+  "record_type": "ComicRepairPolicyInformationGainSelection",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-next-repair-policy-information-gain-r1",
+  "state": "ONE_LOCAL_CONTROL_TARGET_SELECTED_NO_POLICY_OR_EXECUTION",
+  "sources": {
+    "comic_panel_plans": {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    },
+    "hard_assertion_manifest": {
+      "path": "production/comic/hard-assertion-manifests/ch05-mill-signal-r1.json",
+      "sha256": "2e0a3ad1f0e1b92620e4c8001e8648a84225066ef9b75e50dd931a47fc0d3062"
+    },
+    "chapter_policy_coverage": {
+      "path": "production/comic/repair-readiness/ch05-chapter-repair-policy-coverage-r1.json",
+      "sha256": "5aeb143ea9ab13c814e0efd21071b0354f529af68fba09dfe255363656307866"
+    },
+    "p036_causal_shape_evidence": {
+      "path": "docs/research/evidence/ch05-p036-causal-shape-topology-control-r2.json",
+      "sha256": "824d9d1e1a886c3c0a0d43c48eb670f39459c04744427f04821f6540c6ba2482"
+    }
+  },
+  "current_uncovered_dimensions": [
+    "bounded feature narrower than twice the fixed 16px inward feather",
+    "sharp tool contact with crossing thin geometry",
+    "disconnected-support behavior",
+    "diffuse or translucent effect boundary",
+    "hole topology"
+  ],
+  "selection_rule": [
+    "candidate must be one of the three exact policy-absent explicit causal panels",
+    "plan and hard assertion must provide direct geometry terms",
+    "control must exercise a boundary/topology dimension not established by P036",
+    "control must use the existing local compositor rather than introduce a new effect or renderer mechanism",
+    "selection authorizes one deterministic abstract control only, never a production mask or policy"
+  ],
+  "candidates": [
+    {
+      "panel_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "display_order": 19,
+      "narrative_beat": "Sigrid signals Soren to stay off the open bridge.",
+      "composition_intent": "Sigrid foreground hand signal, Soren held back",
+      "hard_assertion_id": "p019_core_read",
+      "hard_assertion_requirement": "Sigrid signals Soren to stay off the open bridge. Composition requirement: Sigrid foreground hand signal, Soren held back.",
+      "plan_terms": [
+        "foreground hand signal",
+        "open bridge",
+        "second adult held back"
+      ],
+      "new_dimension": "separated protected-role blocking",
+      "bounded_sharp_geometry_testable_with_current_compositor": true,
+      "sub_32px_feature_explicit_in_plan": false,
+      "tool_contact_crossing_explicit_in_plan": false,
+      "diffuse_or_translucent_effect_explicit_in_plan": false,
+      "requires_new_effect_mechanism": false,
+      "directly_tests_uncovered_boundary_scale": false,
+      "qualifies_for_next_local_control": false,
+      "production_mask_inferred": false,
+      "policy_authored": false,
+      "external_execution_authorized": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p026",
+      "plan_revision_id": "ng-ch05-sc01-p026-plan-r1",
+      "display_order": 26,
+      "narrative_beat": "Sigrid tests the heat without disturbing the ember.",
+      "composition_intent": "hand held above drum; smoke separates fingers",
+      "hard_assertion_id": "p026_core_read",
+      "hard_assertion_requirement": "Sigrid tests the heat without disturbing the ember. Composition requirement: hand held above drum; smoke separates fingers.",
+      "plan_terms": [
+        "hand above drum",
+        "ember",
+        "smoke separates fingers"
+      ],
+      "new_dimension": "diffuse translucent effect boundary",
+      "bounded_sharp_geometry_testable_with_current_compositor": false,
+      "sub_32px_feature_explicit_in_plan": false,
+      "tool_contact_crossing_explicit_in_plan": false,
+      "diffuse_or_translucent_effect_explicit_in_plan": true,
+      "requires_new_effect_mechanism": true,
+      "directly_tests_uncovered_boundary_scale": false,
+      "qualifies_for_next_local_control": false,
+      "production_mask_inferred": false,
+      "policy_authored": false,
+      "external_execution_authorized": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p044",
+      "plan_revision_id": "ng-ch05-sc01-p044-plan-r1",
+      "display_order": 44,
+      "narrative_beat": "At the creek, Soren cuts the twine line with a pocket knife.",
+      "composition_intent": "hands, blade, taut twine",
+      "hard_assertion_id": "p044_core_read",
+      "hard_assertion_requirement": "At the creek, Soren cuts the twine line with a pocket knife. Composition requirement: hands, blade, taut twine.",
+      "plan_terms": [
+        "hands",
+        "blade",
+        "taut twine"
+      ],
+      "new_dimension": "fine bounded tool-contact topology below twice the 16px feather width",
+      "bounded_sharp_geometry_testable_with_current_compositor": true,
+      "sub_32px_feature_explicit_in_plan": true,
+      "tool_contact_crossing_explicit_in_plan": true,
+      "diffuse_or_translucent_effect_explicit_in_plan": false,
+      "requires_new_effect_mechanism": false,
+      "directly_tests_uncovered_boundary_scale": true,
+      "qualifies_for_next_local_control": true,
+      "production_mask_inferred": false,
+      "policy_authored": false,
+      "external_execution_authorized": false
+    }
+  ],
+  "decision": {
+    "selected_next_local_control_panel_id": "ng-ch05-sc01-p044",
+    "selected_dimension": "fine bounded tool-contact topology below twice the 16px feather width",
+    "reason": "P044 uniquely supplies explicit bounded blade/twine contact that tests a sub-32px feature under the existing 16px policy without introducing a diffuse-effect mechanism.",
+    "production_policy_selected": false,
+    "production_mask_authored": false,
+    "provider_route_changed": false,
+    "external_action_authorized": false
+  },
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "The sub-32px dimension is a proposed deterministic control parameter derived from the 16px policy, not a measured feature width in absent panel art.",
+    "P019 and P026 remain valid future research questions; they are not rejected as panels or repair candidates.",
+    "P026's smoke/heat boundary implies a different diffuse-effect mechanism and is deliberately not smuggled into the current compositor experiment.",
+    "Selection is for local information gain only and creates no art, input approval, policy inheritance, or production authority."
+  ]
+}

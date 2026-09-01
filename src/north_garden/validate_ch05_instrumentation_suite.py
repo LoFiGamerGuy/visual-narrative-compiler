@@ -45,6 +45,7 @@ CHECKS = [
     ("p036_causal_shape", [PYTHON, "src/north_garden/validate_ch05_p036_causal_shape_control.py"]),
     ("p036_readiness_r2", [PYTHON, "src/north_garden/validate_ch05_p036_repair_readiness_r2.py"]),
     ("chapter_repair_coverage", [PYTHON, "src/north_garden/validate_ch05_chapter_repair_policy_coverage.py"]),
+    ("next_repair_information_gain", [PYTHON, "src/north_garden/validate_ch05_next_repair_information_gain.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

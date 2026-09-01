@@ -1,0 +1,58 @@
+{
+  "record_type": "AgentVisualTriageRecord",
+  "schema_version": "1.0",
+  "record_id": "ng-g07-provider-bakeoff-agent-triage-r1",
+  "state": "NON_GATING_AGENT_TRIAGE_PENDING_AUTHORIZED_HUMAN_REVIEW",
+  "created_at": "2026-09-01T15:45:00Z",
+  "scope": "Four completed fictional geometry-proxy candidates per provider; no character identity, final-art, commercial-clearance, or production-acceptance claim.",
+  "shared_assertion_observations": {
+    "openai_gpt_image_2": {
+      "two_declared_subject_proxies": "pass 4/4",
+      "role_order_orange_left_teal_or_green_right": "pass 4/4",
+      "common_table": "pass 4/4",
+      "non_contact": "pass 4/4",
+      "target_change_teal_to_green": "pass 1/1",
+      "no_change_target_retains_teal": "pass 1/1",
+      "salient_unrequested_structure": "none observed in 4/4"
+    },
+    "gemini_3_1_flash_image": {
+      "two_declared_subject_proxies": "pass 4/4",
+      "role_order_orange_left_teal_or_green_right": "pass 4/4",
+      "common_table": "pass 4/4",
+      "non_contact": "pass 4/4",
+      "target_change_teal_to_green": "pass 1/1",
+      "no_change_target_retains_teal": "pass 1/1",
+      "salient_unrequested_structure": "none observed in 4/4; no-change case globally changes tone and line treatment"
+    },
+    "grok_imagine_image_2": {
+      "two_declared_subject_proxies": "pass 4/4",
+      "role_order_orange_left_teal_or_green_right": "pass 4/4",
+      "common_table": "pass 4/4",
+      "non_contact": "pass 4/4",
+      "target_change_teal_to_green": "pass 1/1",
+      "no_change_target_retains_teal": "pass 1/1",
+      "salient_unrequested_structure": "central vase-like object added in 3/4; large proxy labels added in 2/4"
+    },
+    "bfl_flux_2": {
+      "two_declared_subject_proxies": "pass 4/4",
+      "role_order_orange_left_teal_or_green_right": "pass 4/4",
+      "common_table": "pass 4/4",
+      "non_contact": "pass 4/4",
+      "target_change_teal_to_green": "pass 1/1",
+      "no_change_target_retains_teal": "pass 1/1",
+      "salient_unrequested_structure": "proxy labels added in 3/4; independent repeats and edits globally restyle the stage"
+    }
+  },
+  "authorized_human_review": {
+    "status": "not_yet_performed",
+    "human_minutes": null,
+    "accepted_candidates": 0,
+    "acceptance_decisions": "all false/pending"
+  },
+  "limitations": [
+    "This is agent visual triage, not authorized human review.",
+    "Neutral proxies cannot establish recurring-character identity or narrative-panel quality.",
+    "Pixel drift measures raster change after resizing and cannot establish semantic correctness.",
+    "No provider exposes deterministic seeds for these requests; two samples do not establish statistical reproducibility."
+  ]
+}

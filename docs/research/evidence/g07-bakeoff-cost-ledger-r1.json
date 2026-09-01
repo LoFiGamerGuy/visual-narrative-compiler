@@ -4,9 +4,9 @@
   "record_id": "ng-g07-fictional-aggregate-cost-ledger-r1",
   "bakeoff_id": "ng-renderer-bakeoff-g07-fictional-r1",
   "approved_aggregate_cap_usd": "100.000000",
-  "committed_actual_cost_usd": "0.817377",
+  "committed_actual_cost_usd": "1.057377",
   "held_reservations_usd": "0.000000",
-  "available_usd": "99.182623",
+  "available_usd": "98.942623",
   "currency": "USD",
   "entries": [
     {
@@ -371,10 +371,90 @@
       "outcome": "completed_cost_reconciled",
       "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
       "cost_reconciliation_method": "actual_provider_cost"
+    },
+    {
+      "reservation_id": "ng-g07-budget-9b10208c-59d3-4014-937b-402181bc60ed",
+      "adapter_id": "bfl_flux_2",
+      "request_key": "g07a-independent-01",
+      "state": "committed",
+      "reserved_usd": "0.250000",
+      "actual_cost_usd": "0.060000",
+      "reserved_at": "2026-09-01T15:37:33Z",
+      "reconciled_at": "2026-09-01T15:37:50Z",
+      "provider_request_id": "41558a1a-933a-47ca-95cf-00a7e27a03ec",
+      "provider_usage": {
+        "cost_credits": 6.0,
+        "input_mp": 0.96,
+        "output_mp": 1.5,
+        "credit_value_usd": "0.01"
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "actual_provider_cost"
+    },
+    {
+      "reservation_id": "ng-g07-budget-ceca2072-13a0-4e47-badd-088d34eeb069",
+      "adapter_id": "bfl_flux_2",
+      "request_key": "g07a-independent-02",
+      "state": "committed",
+      "reserved_usd": "0.250000",
+      "actual_cost_usd": "0.060000",
+      "reserved_at": "2026-09-01T15:37:56Z",
+      "reconciled_at": "2026-09-01T15:38:10Z",
+      "provider_request_id": "802dc4d7-3728-4937-ab5b-e5d0f1fc40cc",
+      "provider_usage": {
+        "cost_credits": 6.0,
+        "input_mp": 0.96,
+        "output_mp": 1.5,
+        "credit_value_usd": "0.01"
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "actual_provider_cost"
+    },
+    {
+      "reservation_id": "ng-g07-budget-c5410b75-5f7f-4942-8507-efa8c08123ca",
+      "adapter_id": "bfl_flux_2",
+      "request_key": "g07a-target-change",
+      "state": "committed",
+      "reserved_usd": "0.250000",
+      "actual_cost_usd": "0.060000",
+      "reserved_at": "2026-09-01T15:38:15Z",
+      "reconciled_at": "2026-09-01T15:38:29Z",
+      "provider_request_id": "023c9c77-92da-40f1-b7cd-fb39f96f22b5",
+      "provider_usage": {
+        "cost_credits": 6.0,
+        "input_mp": 0.96,
+        "output_mp": 1.5,
+        "credit_value_usd": "0.01"
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "actual_provider_cost"
+    },
+    {
+      "reservation_id": "ng-g07-budget-dd10ab64-e908-4f73-8fe4-f0374f3539cf",
+      "adapter_id": "bfl_flux_2",
+      "request_key": "g07a-no-change",
+      "state": "committed",
+      "reserved_usd": "0.250000",
+      "actual_cost_usd": "0.060000",
+      "reserved_at": "2026-09-01T15:38:47Z",
+      "reconciled_at": "2026-09-01T15:39:15Z",
+      "provider_request_id": "a7ce9209-1508-4cf2-af94-32d8bd00e179",
+      "provider_usage": {
+        "cost_credits": 6.0,
+        "input_mp": 0.96,
+        "output_mp": 1.5,
+        "credit_value_usd": "0.01"
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "actual_provider_cost"
     }
   ],
   "created_at": "2026-09-01T00:00:00Z",
-  "updated_at": "2026-09-01T15:34:29Z",
+  "updated_at": "2026-09-01T15:39:15Z",
   "reconciliation_rule": "A submitted request with unknown exact cost retains its entire reservation until provider usage or billing is reconciled. Only proven-unsubmitted attempts may be released without cost.",
   "limitations": [
     "The approved cap is a maximum, not a target.",

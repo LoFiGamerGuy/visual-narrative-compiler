@@ -45,7 +45,7 @@ def applicable_assertions(request_id: str) -> dict[str, str]:
 
 def candidate_from_record(record_path: Path, request_id: str) -> dict:
     record = json.loads(record_path.read_text(encoding="utf-8"))
-    assert record["execution_status"] == "completed"
+    assert record["execution_status"] in {"completed", "completed_recovered_from_interaction"}
     candidate = record["candidate"]
     raster = ROOT / candidate["path"]
     assert raster.exists() and sha256(raster) == candidate["sha256"]
@@ -55,6 +55,7 @@ def candidate_from_record(record_path: Path, request_id: str) -> dict:
         "record_sha256": sha256(record_path),
         "candidate_path": candidate["path"],
         "candidate_sha256": candidate["sha256"],
+        "execution_status": record["execution_status"],
         "hard_assertions": applicable_assertions(request_id),
         "failure_tags": [],
         "human_review_status": "not_yet_performed",

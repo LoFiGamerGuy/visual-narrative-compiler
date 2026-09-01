@@ -4,7 +4,7 @@
 
 The local configuration check confirms that credentials are present for OpenAI, Gemini, xAI, and BFL. It deliberately did not print, transmit, or store any credential values.
 
-The fictional-control G07 adapters and frozen input hashes validate. OpenAI and Gemini have completed 4/4 requests each. xAI's first paid request has exact cost evidence but no candidate after temporary URL HTTP 403; direct-base64 response handling is now validated. Aggregate committed cost is $0.537377, with $0 held and $99.462623 available.
+The fictional-control G07 adapters and frozen input hashes validate. OpenAI, Gemini, xAI, and BFL completed 4/4 required requests each. One additional xAI attempt has exact cost evidence but no candidate after temporary URL HTTP 403. Aggregate committed cost is $1.057377, with $0 held and $98.942623 available.
 
 ## Remaining mechanical gates
 
@@ -18,6 +18,10 @@ The fictional-control G07 adapters and frozen input hashes validate. OpenAI and 
 Run each adapter's credential, data-boundary, source-hash, documented endpoint, and aggregate-ledger preflight immediately before its four requests. Preserve any provider rejection as a failure RenderRecord and retain possibly billable reservations until reconciled.
 
 The first OpenAI attempt exposed a local TLS-chain compatibility issue before HTTP submission. Its reservation is released and cost reconciled to $0. The three standard-library adapters now use the OS-native trust store with certificate and hostname verification preserved; live preflight and the OpenAI retry passed. Gemini's first response exposed a local REST-schema parser mismatch after provider completion; official interaction retrieval recovered the output without repeat generation, and the repaired parser now has deterministic fixture coverage.
+
+## Completion state
+
+The gate was exercised to completion: 16/16 required candidates, $1.057377 total experiment cost including one paid xAI transport failure, $0 held, and $98.942623 available. BFL received only the two approved public controls. Review packets are built but authorized human review/minutes remain pending. ADR-0025 selects OpenAI only for local hardening; this readiness record authorizes no new upload.
 
 ## Recommended execution order after the gates close
 

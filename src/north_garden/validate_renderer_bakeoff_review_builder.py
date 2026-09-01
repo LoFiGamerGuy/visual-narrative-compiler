@@ -16,9 +16,11 @@ def main() -> None:
     spec.loader.exec_module(module)
     for adapter_id in module.RECORD_DIRS:
         review = module.build(adapter_id, write=False)
-        assert review["state"] == "PENDING_EXECUTION"
-        assert len(review["missing_execution_records"]) == 4
-        assert review["candidates"] == []
+        assert review["state"] in {"PENDING_EXECUTION", "PENDING_HUMAN_REVIEW"}
+        assert len(review["missing_execution_records"]) + len(review["candidates"]) == 4
+        if review["candidates"]:
+            assert review["state"] == "PENDING_HUMAN_REVIEW"
+            assert all(candidate["decision"] == "pending" for candidate in review["candidates"])
     assert module.applicable_assertions("g07a-target-change")["target_edit"] == "pending_human_review"
     assert module.applicable_assertions("g07a-no-change")["target_nochange"] == "pending_human_review"
     print("0 failures, 0 warnings (renderer bakeoff human-review scaffolding validated)")

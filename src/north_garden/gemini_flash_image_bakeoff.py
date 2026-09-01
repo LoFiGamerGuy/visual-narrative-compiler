@@ -165,6 +165,8 @@ def recover_one(plan: dict, failed_path: Path, api_key: str) -> Path:
         raw_response = response.read()
         result = json.loads(raw_response)
     image_bytes, mime_type = response_image_bytes(result)
+    recovery_ended_at = stamp()
+    recovery_elapsed = round(time.perf_counter() - started, 3)
     OUT.mkdir(parents=True, exist_ok=True)
     output_path = OUT / f"{item['id']}{image_suffix(mime_type)}"
     output_path.write_bytes(image_bytes)
@@ -172,9 +174,9 @@ def recover_one(plan: dict, failed_path: Path, api_key: str) -> Path:
     record.pop("provider_error", None)
     record["failure_tags"] = []
     record.update({
-        "started_at": started_at,
-        "ended_at": stamp(),
-        "elapsed_seconds": round(time.perf_counter() - started, 3),
+        "started_at": failed["started_at"],
+        "ended_at": recovery_ended_at,
+        "elapsed_seconds": round(float(failed["elapsed_seconds"]) + recovery_elapsed, 3),
         "execution_status": "completed_recovered_from_interaction",
         "output_hashes": [sha256(output_path)],
         "candidate": {"path": output_path.relative_to(ROOT).as_posix(), "sha256": sha256(output_path), "mime_type": mime_type},
@@ -184,6 +186,16 @@ def recover_one(plan: dict, failed_path: Path, api_key: str) -> Path:
             "failed_record": failed_path.relative_to(ROOT).as_posix(),
             "failed_record_sha256": sha256(failed_path),
             "method": "official_get_interaction_no_new_generation",
+            "original_provider_attempt": {
+                "started_at": failed["started_at"],
+                "ended_at": failed["ended_at"],
+                "elapsed_seconds": failed["elapsed_seconds"],
+            },
+            "retrieval": {
+                "started_at": started_at,
+                "ended_at": recovery_ended_at,
+                "elapsed_seconds": recovery_elapsed,
+            },
             "retrieval_source": source_provenance(Path(__file__).resolve()),
         },
     })

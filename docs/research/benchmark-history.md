@@ -148,7 +148,7 @@ This is immutable execution/cost evidence awaiting cross-provider human review, 
 | --- | --- |
 | Completed requests | 5/16: OpenAI 4/4, Gemini 1/4 |
 | Provider generation time | OpenAI 128.347 s; Gemini first POST 11.006 s |
-| Retrieval/repair overhead | Gemini existing-interaction GET 0.856 s; no repeat generation |
+| Retrieval/repair overhead | Gemini existing-interaction GET 0.863 s; no repeat generation |
 | Exact output hashes recorded | 5/5 |
 | Provider request IDs and usage | 5/5 |
 | Reconciled documented-rate estimate | $0.265809 |
@@ -156,3 +156,18 @@ This is immutable execution/cost evidence awaiting cross-provider human review, 
 | Human review / accepted | 0 reviewed / 0 accepted |
 
 Later in the same milestone, Gemini reached 4/4 (46.173 seconds, $0.268756 documented-rate estimate). xAI then produced one paid execution failure: $0.07 exact provider ticks and 8.899 seconds, but no candidate because its temporary output URL returned HTTP 403. That failure is operational evidence and is excluded from renderer-quality assertions.
+
+## External fictional G07 completed comparison — 2026-09-01
+
+| Field | Result |
+| --- | --- |
+| Required candidates | 16/16, four per provider |
+| Required-candidate time | 299.995 s |
+| Required-candidate cost | $0.987377 |
+| Additional paid failure | xAI URL transport, 8.899 s / $0.07 / no candidate |
+| Aggregate ledger | $1.057377 committed / $0 held / $98.942623 available |
+| Core proxy triage | 16/16 non-gating agent pass; human review pending |
+| Human minutes / accepted | null / 0 |
+| Selected hardening mechanism | OpenAI GPT Image 2 via ADR-0025; not production acceptance |
+
+Local selected-route hardening then demonstrated byte-identical no-change and zero exterior pixel change under a deterministic target mask at $0 additional external cost. Its rectangular seam remains unacceptable, so no benchmark score or art acceptance follows.

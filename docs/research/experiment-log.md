@@ -423,7 +423,7 @@
 ## 2026-09-01 - Gemini Interactions recovery and first G07 result
 
 - The first Gemini POST completed at the provider in 11.006 seconds, but the adapter initially expected SDK-only `output_image` sugar instead of the REST `steps` schema. The failure RenderRecord retained the interaction ID and full $0.20 reservation; no retry generation was issued.
-- The adapter now pins `Api-Revision: 2026-05-20`, parses image blocks from model-output steps, hashes a redacted response summary, and supports official `GET /interactions/{id}` recovery. A fixture test passes. The existing interaction was recovered in 0.856 seconds as JPEG `523d0255…e5e` with 375 input tokens and one 1K image output.
+- The adapter now pins `Api-Revision: 2026-05-20`, parses image blocks from model-output steps, hashes a redacted response summary, and supports official `GET /interactions/{id}` recovery. A fixture test passes. The existing interaction was recovered in 0.863 seconds as JPEG `523d0255…e5e` with 375 input tokens and one 1K image output.
 - Documented-rate reconciliation is $0.067188 (375 input tokens at $0.50/M plus $0.067 for the 1K output), explicitly an estimate pending invoice-level confirmation. Aggregate state after five completed generations is $0.265809 committed, $0 held, $99.734191 available; review and acceptance remain pending.
 
 ## 2026-09-01 - Gemini G07 completion and xAI hosted-URL failure
@@ -437,3 +437,16 @@
 - The explicit replacement for the failed first case and the remaining three planned cases completed with direct base64 output. Required-candidate latency was 9.177, 13.588, 12.491, and 14.769 seconds (50.025 seconds total); exact provider usage was 700,000,000 ticks ($0.07) per request, $0.28 total.
 - All four required candidate hashes, raw response hashes, request IDs, pinned 1K/medium parameters, and data-control headers are recorded. The prior $0.07 hosted-URL failure remains separate, bringing xAI experiment spend to $0.35 while renderer review still covers only the four complete candidates.
 - Before BFL spend, its adapter was tightened to capture returned credit cost/input/output megapixels, reconcile 1 credit=$0.01 directly, explicitly request PNG, hash submission/poll responses, and run one request ID at a time. This does not alter ADR-0019's public fictional-control-only boundary.
+
+## 2026-09-01 - completed four-provider G07 bakeoff and measured selection
+
+- BFL completed 4/4 in 74.587 seconds at exactly 6 returned credits ($0.06) per request. All four public-control URLs were byte-hash verified immediately before submission; no input beyond the two approved fictional controls was sent.
+- The required 16-candidate bakeoff cost is $0.987377; the preserved xAI hosted-URL failure adds $0.07, making aggregate experiment cost $1.057377. The ledger has $0 held and $98.942623 available. Required-candidate operational time is 299.995 seconds; including the paid failure it is 308.894 seconds.
+- Deterministic instrumentation verifies all candidate hashes and records independent-repeat, target-change, and no-change full-frame drift. Four review packets remain `PENDING_HUMAN_REVIEW`; human minutes are null and accepted count is zero.
+- Non-gating agent triage observes core proxy role/count/order/table/non-contact and target-state success across all 16, while recording xAI's extra central object in 3/4 and BFL/xAI labels. ADR-0025 selects OpenAI for bounded hardening based on cost, structural cleanliness, target/no-change measurements, and provenance—not visual appeal.
+
+## 2026-09-01 - selected-route local targeted-repair hardening r1
+
+- The already-returned OpenAI target candidate was locally resized and composited through a deterministic color-derived rectangular target mask. The mask covers 7.923% of the source; 99.939% of masked pixels change, 71.993% become green-dominant, and exactly 0% outside the mask changes.
+- A no-change compiler short circuit returns the input bytes exactly, with identical SHA-256 and no provider request/cost. The rectangular composite has a visible boundary/style seam and is rejected as art; it proves only exterior-preservation mechanics.
+- Narrative applicability is linked to approved `ng-ch05-sc01-p036-plan-r1` in the CH05 `ComicPanelPlanCollection`. It records the two-adult practical-action intent and lettering safe zone but performs no CH05 render/upload. `animation_shot_plan` remains null; the missing high-information input is an approved panel-specific base raster and causal hand/plank repair mask.

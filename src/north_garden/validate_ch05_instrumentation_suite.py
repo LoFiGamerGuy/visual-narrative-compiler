@@ -37,6 +37,7 @@ CHECKS = [
     ("submission_journal", [PYTHON, "src/north_garden/validate_submission_journal.py"]),
     ("render_record_schema", [PYTHON, "src/north_garden/validate_render_record.py"]),
     ("g07_evidence_vault", [PYTHON, "src/north_garden/validate_g07_evidence_vault.py"]),
+    ("g07_evidence_archive", [PYTHON, "src/north_garden/validate_g07_evidence_archive.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

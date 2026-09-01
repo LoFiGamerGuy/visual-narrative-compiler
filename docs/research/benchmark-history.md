@@ -208,3 +208,5 @@ Submission-journal simulation validates pre-submit release, unknown-outcome hold
 Production evidence schemas validate synthetic success/failure/unknown outcomes and reject 12/12 completeness/contradiction mutations. Unknown incidents cannot contain RenderRecords or candidates. This is schema coverage, not new rendering evidence.
 
 G07 evidence-vault validation hash-matches 19/19 provider records and 16/16 candidates under root `e84b0402…6d3ab`, rejects 5/5 manifest mutations, and proves zero generated experiment paths are tracked. It reconciles $1.057377 total paid and $0 held, including the paid xAI failure and single-charge Gemini recovery. This is retention/accounting integrity only; pending human review, accepted count, renderer-quality evidence, and mechanism selection are unchanged.
+
+The local restoration rehearsal verifies 38/38 exact archive members and rejects 5/5 missing/extra/corrupt/path-escape/duplicate mutations. Archive size is 19,879,277 bytes and SHA-256 is `64bea215…69cad7`. This is recoverability instrumentation, not an additional renderer sample, benchmark score, review, or production result.

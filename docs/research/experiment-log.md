@@ -539,3 +539,11 @@
 - Five/five cost, record-hash, candidate-hash, review-state, and BFL-input manifest mutations fail. Git tracks zero paths below `experiments/`; generated records and pixels remain local and ignored.
 - All 16 candidates remain `not_yet_performed`, null human minutes, false acceptance. Hash completeness adds no visual score, reproducibility claim, commercial clearance, or expanded upload authority.
 - Consolidated offline validation now passes 24/24 checks in 3.021 seconds with zero provider calls, uploads, or new cost.
+
+## 2026-09-01 - G07 evidence restoration rehearsal
+
+- Constructed a deterministic local ignored ZIP from the exact vault inventory: one embedded manifest, two approved public controls, 19 provider records, and 16 candidate rasters. All 38/38 members validate directly from the archive without extraction.
+- Two consecutive in-memory constructions are byte-identical. The archive is 19,879,277 bytes, SHA-256 `64bea215c1d340684046b951507018fe7d5c657d4a8d04ac99e6d24aca69cad7`.
+- Five/five missing, extra, corrupt, path-escaping, and duplicate-member mutations fail. Existing differing archives are not overwritten.
+- This is a same-disk restoration rehearsal, not durable off-device backup. Provider calls/uploads/cost are 0/0/$0; review remains unperformed and accepted candidates remain zero under ADR-0037.
+- Consolidated offline validation now passes 25/25 checks in 3.230 seconds.

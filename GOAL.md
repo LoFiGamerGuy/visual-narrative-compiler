@@ -54,7 +54,9 @@ The production evidence-schema milestone is complete. Synthetic success and expl
 
 The G07 local evidence-vault milestone is complete. The tracked non-art manifest pins 19/19 provider records and 16/16 candidate artifacts under vault root `e84b0402…6d3ab`; all bytes and candidate decodes validate, five/five manifest mutations fail, BFL inputs remain exactly the two approved controls, and Git tracks zero generated experiment paths. Cost reconciliation remains $0.987377 for required candidates plus the $0.07 xAI failure, $1.057377 aggregate paid, $0 held. Human minutes remain null and all candidates remain unaccepted under ADR-0036.
 
-The active bounded milestone is G07 evidence restoration readiness. Build a deterministic local archive from only the manifest-pinned records, candidates, and two public controls; verify every entry and root directly from the archive without provider access; and prove missing, extra, corrupt, or path-escaping entries fail. The archive remains ignored local evidence and cannot authorize rerender, review, or acceptance.
+The G07 evidence-restoration milestone is complete. A deterministic ignored local archive contains exactly 38 entries: the manifest, two public controls, 19 provider records, and 16 candidates. All members verify directly without extraction; repeated construction is byte-identical; five/five missing, extra, corrupt, path-escaping, and duplicate mutations fail. The 19,879,277-byte archive hashes to `64bea215…69cad7`. ADR-0037 records that this same-disk rehearsal is not off-device backup and grants no rerender authority.
+
+The active bounded milestone is blinded G07 human-review instrumentation. Compile the 16 candidates into provider-hidden, case-balanced assignments bound to exact hashes; define assertion-level judgments and append-only timing/decision events; and prove identity leakage, reordered assignments, untimed decisions, and incomplete comparisons fail. Do not invent review results or accept candidates.
 
 ### Authority and data boundaries
 

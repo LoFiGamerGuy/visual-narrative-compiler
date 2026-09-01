@@ -1,0 +1,95 @@
+{
+  "record_type": "ComicPanelRepairReadiness",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p036-openai-repair-readiness-r1",
+  "state": "LOCAL_LAYOUT_CONTROL_COMPLETE_BASE_ART_MISSING_EXTERNAL_EXECUTION_NOT_AUTHORIZED",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "comic_panel_plan": {
+    "collection_path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "collection_sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05",
+    "panel_id": "ng-ch05-sc01-p036",
+    "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+    "display_order": 36
+  },
+  "intent_snapshot": {
+    "visible_adult_cast": ["SOREN", "SIGRID"],
+    "narrative_beat": "Soren reaches it with a fallen plank while Sigrid braces the plank.",
+    "composition_intent": "two-person practical cooperation, no spectacle",
+    "motion_mode": "practical_action",
+    "causal_read": "Make the causal hand/object relationship legible before adding atmospheric texture.",
+    "lettering_safe_zone": {"anchor": "top_right", "rect_norm": [0.66, 0.04, 0.3, 0.18]}
+  },
+  "hard_assertion_manifest": {
+    "path": "production/comic/hard-assertion-manifests/ch05-mill-signal-r1.json",
+    "sha256": "2e0a3ad1f0e1b92620e4c8001e8648a84225066ef9b75e50dd931a47fc0d3062",
+    "applicable_panel_assertion": "p036_core_read"
+  },
+  "selected_mechanism": {
+    "adapter_id": "openai_gpt_image_2",
+    "model_snapshot": "gpt-image-2-2026-04-21",
+    "endpoint": "/v1/images/edits",
+    "selection_adr": "docs/adr/ADR-0025-select-openai-gpt-image-2-for-bounded-targeted-repair-hardening.md",
+    "selection_adr_sha256": "e9aa4fb6faec3ac6b4c35089404666b6b517e8e051b0b10c32c20a2d37e72c94",
+    "execution_authorized": false
+  },
+  "targeted_repair_contract": {
+    "base_raster": null,
+    "target_mask": null,
+    "target_semantics": "causal Soren-hand / fallen-plank / tin reach relationship with Sigrid's brace preserved",
+    "protected_semantics": ["two adult roles", "Sigrid brace", "mill interior", "lettering safe zone", "panel framing"],
+    "mask_requirements": [
+      "Panel-resolution single-channel mask with exact byte hash.",
+      "Include enough hand/plank/tin context to evaluate causality.",
+      "Exclude the top-right lettering safe zone.",
+      "Report inside success and outside change separately.",
+      "Require seam/boundary review; zero outside change alone is insufficient."
+    ],
+    "exterior_change_requirement": 0.0,
+    "nochange_policy": "When the compiled intent delta is empty, return the input bytes without invoking a renderer."
+  },
+  "existing_smoke_evidence": {
+    "path": "experiments/outputs/built_in_imagegen_ch05_mill_signal/ch05-p036-r1.png",
+    "sha256": "15f76dd7399dd528c2bdb6960f18de3493ed94b53611413ad32e61d853185177",
+    "state": "UNACCEPTED_PROVENANCE_LIMITED_RESEARCH_EVIDENCE_NOT_AN_APPROVED_BASE_RASTER",
+    "human_review_status": "not_yet_performed",
+    "human_minutes": null,
+    "accepted": false
+  },
+  "mask_authoring_preflight": {
+    "path": "experiments/results/ch05-p036-mask-authoring-preflight-r1.json",
+    "sha256": "8e4ed5b455decd60200c3b5d40ea5feceb3b03ac4f0861659f8789d984b192b2",
+    "state": "BLOCKED_BASE_COMPOSITION_CONFLICT_NO_MASK_EMITTED",
+    "causal_region_lettering_overlap_fraction": 0.647059
+  },
+  "abstract_layout_control": {
+    "path": "experiments/results/ch05-p036-layout-control-r1.json",
+    "sha256": "651091687041fe000f73761e090da66bffb81a7de352f9376cf8b0271d20ad28",
+    "state": "LOCAL_ABSTRACT_COMIC_LAYOUT_CONTROL_NOT_ART",
+    "role_proxy_count": 2,
+    "target_mask_fraction": 0.052881877,
+    "target_mask_lettering_safe_zone_overlap_fraction": 0.0,
+    "accepted": false
+  },
+  "execution_packet": {
+    "request_body": null,
+    "input_uploads": [],
+    "provider_request_id": null,
+    "budget_reservation_id": null,
+    "render_record": null,
+    "reason": "A panel-specific approved base raster and target mask are absent. No CH05 external upload is authorized."
+  },
+  "review_contract": {
+    "authorized_human_review_required": true,
+    "human_minutes": null,
+    "accepted": false,
+    "required_decisions": ["target causality", "identity/wardrobe continuity", "mask seam", "lettering-safe-zone preservation", "panel acceptance"]
+  },
+  "next_local_action": "Compile the 50-panel CH05 plan collection into chapter-scale preflight classes so panel selection, continuity dependencies, lettering zones, and repair eligibility are measurable before any render.",
+  "prohibited": [
+    "No external upload or provider call from this record.",
+    "No real-person likeness, adult likeness, personal data, child material, LoRA output, or private reference.",
+    "No automatic promotion of smoke art, generated repair, or agent triage.",
+    "No AnimationShotPlan or E-Conte inference."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "record_type": "ComicPanelDemonstrationSlice",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p033-p038-demonstration-slice-r1",
+  "state": "LOCAL_CHAPTER_PREFLIGHT_ONLY_NO_RENDER_AUTHORITY",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "comic_panel_plan_collection": {
+    "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+  },
+  "hard_assertion_manifest": {
+    "path": "production/comic/hard-assertion-manifests/ch05-mill-signal-r1.json",
+    "sha256": "2e0a3ad1f0e1b92620e4c8001e8648a84225066ef9b75e50dd931a47fc0d3062"
+  },
+  "panel_ids": [
+    "ng-ch05-sc01-p033",
+    "ng-ch05-sc01-p034",
+    "ng-ch05-sc01-p035",
+    "ng-ch05-sc01-p036",
+    "ng-ch05-sc01-p037",
+    "ng-ch05-sc01-p038"
+  ],
+  "plan_revision_ids": [
+    "ng-ch05-sc01-p033-plan-r1",
+    "ng-ch05-sc01-p034-plan-r1",
+    "ng-ch05-sc01-p035-plan-r1",
+    "ng-ch05-sc01-p036-plan-r1",
+    "ng-ch05-sc01-p037-plan-r1",
+    "ng-ch05-sc01-p038-plan-r1"
+  ],
+  "display_order": [33, 34, 35, 36, 37, 38],
+  "coverage_goal": [
+    "contiguous narrative causality rather than isolated visual samples",
+    "two-adult held blocking and practical action",
+    "empty-space tension and object-only inserts",
+    "P036 target-repair/no-change compiler contracts",
+    "lettering-safe-zone preservation"
+  ],
+  "selected_mechanism": {
+    "adapter_id": "openai_gpt_image_2",
+    "model_snapshot": "gpt-image-2-2026-04-21",
+    "selection_adr": "docs/adr/ADR-0025-select-openai-gpt-image-2-for-bounded-targeted-repair-hardening.md",
+    "execution_authorized": false
+  },
+  "execution": {
+    "base_rasters": [],
+    "input_uploads": [],
+    "provider_requests": [],
+    "render_records": [],
+    "reason": "No approved base-art package or exact expanded external-upload authorization exists."
+  },
+  "review": {
+    "human_review_status": "not_yet_performed",
+    "human_minutes": null,
+    "accepted_panels": 0
+  },
+  "boundary": "This record selects existing ComicPanelPlans for local compiler preflight only. It creates no new panel direction, art, prompt, provider authority, AnimationShotPlan, or E-Conte."
+}

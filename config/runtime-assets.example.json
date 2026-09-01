@@ -3,9 +3,26 @@
   "state": "EXAMPLE_NO_DOWNLOADS",
   "purpose": "Local-only declaration of heavyweight runtime assets intentionally excluded from Git. Copy to config/runtime-assets.local.json and fill from primary source artifacts after license review.",
   "profiles": {
-    "documentation": {"requires": ["python"], "downloads": false},
-    "baseline_legacy": {"requires": ["ComfyUI", "models", "loras"], "downloads": false},
-    "blender_stage": {"requires": ["Blender"], "downloads": false}
+    "documentation": {
+      "requirements": [{"kind": "executable", "name": "python"}],
+      "downloads": false
+    },
+    "baseline_legacy": {
+      "requirements": [
+        {"kind": "executable", "name": "python"},
+        {"kind": "directory", "path": "ComfyUI"},
+        {"kind": "directory", "path": "ComfyUI/models/checkpoints"},
+        {"kind": "directory", "path": "ComfyUI/models/loras"}
+      ],
+      "downloads": false
+    },
+    "blender_stage": {
+      "requirements": [
+        {"kind": "executable", "name": "python"},
+        {"kind": "executable_or_env_path", "name": "blender", "environment": "NORTH_GARDEN_BLENDER_EXE"}
+      ],
+      "downloads": false
+    }
   },
   "assets": [
     {

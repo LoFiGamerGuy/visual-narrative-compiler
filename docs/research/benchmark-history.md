@@ -171,3 +171,18 @@ Later in the same milestone, Gemini reached 4/4 (46.173 seconds, $0.268756 docum
 | Selected hardening mechanism | OpenAI GPT Image 2 via ADR-0025; not production acceptance |
 
 Local selected-route hardening then demonstrated byte-identical no-change and zero exterior pixel change under a deterministic target mask at $0 additional external cost. Its rectangular seam remains unacceptable, so no benchmark score or art acceptance follows.
+
+## CH05 chapter-production preflight — 2026-09-01
+
+This is compiler/readiness evidence, not rendered coverage or a benchmark score.
+
+| Field | Result |
+| --- | --- |
+| Approved ComicPanelPlans | 50/50 compiled |
+| Cast-count distribution | 18 zero / 15 one / 17 two adults |
+| Motion distribution | 26 observation / 10 directional / 10 sensory / 4 practical |
+| Approved bases / RenderRecords / accepted | 0 / 0 / 0 |
+| P036 smoke causal/lettering overlap | 64.7059%; mask authoring blocked |
+| Abstract P036 mask/lettering overlap | 0%; layout proxy only |
+| Demonstration slice | P033–P038, local no-render |
+| New provider spend/uploads | $0 / 0 |

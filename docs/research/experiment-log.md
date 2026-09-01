@@ -450,3 +450,14 @@
 - The already-returned OpenAI target candidate was locally resized and composited through a deterministic color-derived rectangular target mask. The mask covers 7.923% of the source; 99.939% of masked pixels change, 71.993% become green-dominant, and exactly 0% outside the mask changes.
 - A no-change compiler short circuit returns the input bytes exactly, with identical SHA-256 and no provider request/cost. The rectangular composite has a visible boundary/style seam and is rejected as art; it proves only exterior-preservation mechanics.
 - Narrative applicability is linked to approved `ng-ch05-sc01-p036-plan-r1` in the CH05 `ComicPanelPlanCollection`. It records the two-adult practical-action intent and lettering safe zone but performs no CH05 render/upload. `animation_shot_plan` remains null; the missing high-information input is an approved panel-specific base raster and causal hand/plank repair mask.
+
+## 2026-09-01 - CH05 P036 layout conflict and abstract repair control
+
+- The unaccepted P036 smoke raster places the reaching hand/tin within the approved top-right lettering safe zone. A local overlay measures 64.7059% overlap of the non-gating annotated causal region; mask authoring is blocked and no repair mask was emitted.
+- A deterministic abstract ComicPanelPlan layout control moves the causal hand/tin/plank relationship outside that zone. It uses exactly two neutral role proxies, a 5.288% target-context mask, and 0% mask/safe-zone overlap. It is not art, accepted, or provider input; external requests/cost remain zero.
+
+## 2026-09-01 - CH05 50-panel production preflight and fail-closed inputs
+
+- Compiled all 50 approved ComicPanelPlans: 18 environment/zero-adult, 15 one-adult, 17 two-adult; motion modes 26 observation, 10 directional, 10 sensory, 4 practical action. Approved base rasters, CH05 production RenderRecords, accepted panels, and human minutes remain 0/0/0/null.
+- Selected existing contiguous P033–P038 as a six-panel no-render demonstration slice spanning all four motion modes and the P036 repair contract. Arithmetic-only selected-arm scenarios are $0.297932/192.521 seconds for six and $2.482762/1604.338 seconds for 50; they are not forecasts.
+- Added separate base-raster and mask-review templates plus a fail-closed compiler gate. Empty templates produce 11 and 14 rejection reasons. ADR-0026 prohibits local approval from implying external upload; exact provider/model/endpoint authority remains separate.

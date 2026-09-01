@@ -468,3 +468,10 @@
 - Verified three source-derived continuity contracts: held two-adult blocking from P033 to P034, sealed-tin acquisition through P035–P037, and creek-map detail from P037 to P038. Source-term checks are compiler evidence, not visual continuity evidence.
 - Hardened raster inputs beyond file hashes: supported decodable raster formats, exact declared dimensions, grayscale-PNG masks, and valid nonzero mask fractions are now mandatory. Ten of ten adversarial partial/malformed mutations are rejected.
 - Hardened external scope against self-authorization: record provider/model/endpoint fields do not pass unless a separate caller-supplied authority scope matches exactly. Empty templates now fail for 12 base and 16 mask reasons.
+
+## 2026-09-01 - CH05 deterministic sequence layout control
+
+- Built six local abstract layout controls and six story-occupancy masks for P033–P038. Two consecutive builds reproduce all 13 pinned output hashes (six controls, six masks, one contact sheet).
+- Planned role-proxy counts match 2/2/0/2/0/0; total role proxies are six. Story geometry occupies exactly zero pixels inside every compiled lettering safe zone.
+- Color-token recurrence verifies bell P033–P034, tin P035–P037, and map P037–P038 dependency plumbing. This is not character, acting, style, or visual-continuity evidence; all human minutes remain null and accepted panels remain zero under ADR-0027.
+- Provider requests/uploads/cost are 0/0/$0. The controls are not approved bases or authorized provider inputs.

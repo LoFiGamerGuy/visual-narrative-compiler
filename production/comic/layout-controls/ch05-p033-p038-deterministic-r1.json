@@ -1,0 +1,73 @@
+{
+  "record_type": "ComicPanelSequenceLayoutControlManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p033-p038-deterministic-layout-manifest-r1",
+  "state": "HASH_PINNED_LOCAL_ABSTRACT_CONTROL_NOT_ART",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "source_hashes": {
+    "production/comic/ch05-sc01-panel-plans-v1.json": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05",
+    "production/comic/demonstration-slices/ch05-p033-p038-r1.json": "667e151bebf83de07249ff067b197731d0c7f9f701b52710c30da25180ea538c",
+    "production/comic/demonstration-packets/ch05-p033-p038-no-network-r1.json": "ed5ce138bb15ee3265b1a5f493a2f36676c41876045ecc0c7daa703875b511cc"
+  },
+  "expected_role_proxy_counts": {
+    "ng-ch05-sc01-p033": 2,
+    "ng-ch05-sc01-p034": 2,
+    "ng-ch05-sc01-p035": 0,
+    "ng-ch05-sc01-p036": 2,
+    "ng-ch05-sc01-p037": 0,
+    "ng-ch05-sc01-p038": 0
+  },
+  "continuity_token_chains": [
+    {
+      "id": "bell_p033_p034",
+      "color_token": "bell",
+      "panel_ids": ["ng-ch05-sc01-p033", "ng-ch05-sc01-p034"]
+    },
+    {
+      "id": "tin_p035_p037",
+      "color_token": "tin",
+      "panel_ids": ["ng-ch05-sc01-p035", "ng-ch05-sc01-p036", "ng-ch05-sc01-p037"]
+    },
+    {
+      "id": "map_p037_p038",
+      "color_token": "map",
+      "panel_ids": ["ng-ch05-sc01-p037", "ng-ch05-sc01-p038"]
+    }
+  ],
+  "expected_output_sha256": {
+    "ng-ch05-sc01-p033": {
+      "image": "2acfe0256f5aaa1147387a86e726630bc4121831cdbebc5997a1c0a5a0f31a0e",
+      "story_occupancy_mask": "2fd14ababa74b57177b2f1b44534bea6c274361562f89c1eb5ddf02339c9bf76"
+    },
+    "ng-ch05-sc01-p034": {
+      "image": "94b1a8d51aebb9bb72f6bbf7e7580036d9efad8eee83626dbc174ac9a9baea40",
+      "story_occupancy_mask": "adbd52fa5c69dbc89bba9eb26ce94ef815b6cc0091b708d4fe1e758c5bf59f25"
+    },
+    "ng-ch05-sc01-p035": {
+      "image": "d2184de52b594f7e171f88ad0cf1f2e0de6f7c4c5aadb51b14aff68fbdb58fb3",
+      "story_occupancy_mask": "d530f566c68b2a4c55078e417a80f6fff70cc2d4e8bc8ce6e2fb6e8cd118515f"
+    },
+    "ng-ch05-sc01-p036": {
+      "image": "43fd4912d11ee80069c66fe06985d8cd731766f568c533d4ead2f9d2733701b4",
+      "story_occupancy_mask": "cdafbc85273dd8b1fb5dd4fa27483892e7b068cc635113e16839f2b073067f19"
+    },
+    "ng-ch05-sc01-p037": {
+      "image": "a04fd7dc0e6d32df9f1de0d5cf159cdb6a1c99a5f07cc1005c40fbdeab00208a",
+      "story_occupancy_mask": "378a562313837ae6c7f580135b27c91f22ae297f1f30c140347a7784cb58c08d"
+    },
+    "ng-ch05-sc01-p038": {
+      "image": "59bf8d0185ff681d021810e2e059d1cd69369bcacfd5a7bb037a98fb1712c1ed",
+      "story_occupancy_mask": "e882ccc9193c417046a19e5579fce4acb6aa630afa61b12b16f25cdbbc9d225e"
+    },
+    "contact_sheet": "2dd13c82727ef6f9dc4c0adb65bc7cf36ba0cc867903c8d356fe139343da4544"
+  },
+  "execution": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000",
+    "approved_base_rasters": 0,
+    "accepted_panels": 0
+  },
+  "boundary": "Pinned outputs are deterministic compiler geometry, not panel art, approved repair bases, provider inputs, canon additions, AnimationShotPlans, or E-Conte."
+}

@@ -4,9 +4,9 @@
   "record_id": "ng-g07-fictional-aggregate-cost-ledger-r1",
   "bakeoff_id": "ng-renderer-bakeoff-g07-fictional-r1",
   "approved_aggregate_cap_usd": "100.000000",
-  "committed_actual_cost_usd": "0.265809",
+  "committed_actual_cost_usd": "0.537377",
   "held_reservations_usd": "0.000000",
-  "available_usd": "99.734191",
+  "available_usd": "99.462623",
   "currency": "USD",
   "entries": [
     {
@@ -169,10 +169,144 @@
       "outcome": "completed_cost_reconciled",
       "cost_reconciliation_method": "usage_rate_reconciliation_estimate",
       "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1"
+    },
+    {
+      "reservation_id": "ng-g07-budget-0361da15-d7a3-4d90-bc04-33c2ea438f0c",
+      "adapter_id": "gemini_3_1_flash_image",
+      "request_key": "g07a-independent-02",
+      "state": "committed",
+      "reserved_usd": "0.200000",
+      "actual_cost_usd": "0.067188",
+      "reserved_at": "2026-09-01T15:29:31Z",
+      "reconciled_at": "2026-09-01T15:30:33Z",
+      "provider_request_id": "v1_ChdhTy1XYXBxOE1OLTlzT0lQbGNIb2dRMBIXYU8tV2FwcThNTi05c09JUGxjSG9nUTA",
+      "provider_usage": {
+        "total_tokens": 1738,
+        "total_input_tokens": 375,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 117
+          },
+          {
+            "modality": "image",
+            "tokens": 258
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 1363,
+        "output_tokens_by_modality": [
+          {
+            "modality": "image",
+            "tokens": 1120
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "raw_prompt_token": 1690
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "usage_rate_reconciliation_estimate"
+    },
+    {
+      "reservation_id": "ng-g07-budget-3e95667f-a878-4ddc-8bba-1b2ec8759df2",
+      "adapter_id": "gemini_3_1_flash_image",
+      "request_key": "g07a-target-change",
+      "state": "committed",
+      "reserved_usd": "0.200000",
+      "actual_cost_usd": "0.067190",
+      "reserved_at": "2026-09-01T15:29:45Z",
+      "reconciled_at": "2026-09-01T15:30:34Z",
+      "provider_request_id": "v1_ChdkTy1XYXRqOUk3NjNfdU1QN1AzTWdBcxIXZE8tV2F0ajlJNzYzX3VNUDdQM01nQXM",
+      "provider_usage": {
+        "total_tokens": 1774,
+        "total_input_tokens": 380,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 122
+          },
+          {
+            "modality": "image",
+            "tokens": 258
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 1394,
+        "output_tokens_by_modality": [
+          {
+            "modality": "image",
+            "tokens": 1120
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "raw_prompt_token": 1695
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "usage_rate_reconciliation_estimate"
+    },
+    {
+      "reservation_id": "ng-g07-budget-a01bbcfe-fd60-4cef-b98b-6dabd6cda31c",
+      "adapter_id": "gemini_3_1_flash_image",
+      "request_key": "g07a-no-change",
+      "state": "committed",
+      "reserved_usd": "0.200000",
+      "actual_cost_usd": "0.067190",
+      "reserved_at": "2026-09-01T15:29:57Z",
+      "reconciled_at": "2026-09-01T15:30:35Z",
+      "provider_request_id": "v1_ChZmLS1XYXEzQ0ZvQ3RzT0lQLS1MdkVBEhZmLS1XYXEzQ0ZvQ3RzT0lQLS1MdkVB",
+      "provider_usage": {
+        "total_tokens": 1806,
+        "total_input_tokens": 379,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 121
+          },
+          {
+            "modality": "image",
+            "tokens": 258
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 1427,
+        "output_tokens_by_modality": [
+          {
+            "modality": "image",
+            "tokens": 1120
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "raw_prompt_token": 1694
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "usage_rate_reconciliation_estimate"
+    },
+    {
+      "reservation_id": "ng-g07-budget-fed0eb4b-e622-48f3-9436-57dbe1fefa10",
+      "adapter_id": "grok_imagine_image_2",
+      "request_key": "g07a-independent-01",
+      "state": "committed",
+      "reserved_usd": "0.100000",
+      "actual_cost_usd": "0.070000",
+      "reserved_at": "2026-09-01T15:30:44Z",
+      "reconciled_at": "2026-09-01T15:30:53Z",
+      "provider_request_id": "ad4b2bec-8e43-9cd1-9416-f6ce95a32285",
+      "provider_usage": {
+        "cost_in_usd_ticks": 700000000
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "actual_provider_cost"
     }
   ],
   "created_at": "2026-09-01T00:00:00Z",
-  "updated_at": "2026-09-01T15:26:56Z",
+  "updated_at": "2026-09-01T15:30:53Z",
   "reconciliation_rule": "A submitted request with unknown exact cost retains its entire reservation until provider usage or billing is reconciled. Only proven-unsubmitted attempts may be released without cost.",
   "limitations": [
     "The approved cap is a maximum, not a target.",

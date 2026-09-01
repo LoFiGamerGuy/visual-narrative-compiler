@@ -4,7 +4,7 @@
 
 The local configuration check confirms that credentials are present for OpenAI, Gemini, xAI, and BFL. It deliberately did not print, transmit, or store any credential values.
 
-The fictional-control G07 adapters and frozen input hashes validate. OpenAI has completed 4/4 requests and Gemini 1/4; the aggregate documented-rate estimate is $0.265809, with $0 held and $99.734191 available.
+The fictional-control G07 adapters and frozen input hashes validate. OpenAI and Gemini have completed 4/4 requests each. xAI's first paid request has exact cost evidence but no candidate after temporary URL HTTP 403; direct-base64 response handling is now validated. Aggregate committed cost is $0.537377, with $0 held and $99.462623 available.
 
 ## Remaining mechanical gates
 

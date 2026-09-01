@@ -154,3 +154,5 @@ This is immutable execution/cost evidence awaiting cross-provider human review, 
 | Reconciled documented-rate estimate | $0.265809 |
 | Held reservation / available cap | $0 / $99.734191 |
 | Human review / accepted | 0 reviewed / 0 accepted |
+
+Later in the same milestone, Gemini reached 4/4 (46.173 seconds, $0.268756 documented-rate estimate). xAI then produced one paid execution failure: $0.07 exact provider ticks and 8.899 seconds, but no candidate because its temporary output URL returned HTTP 403. That failure is operational evidence and is excluded from renderer-quality assertions.

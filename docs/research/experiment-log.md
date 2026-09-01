@@ -714,3 +714,10 @@
 - Five optimized wall-clock samples are 1705.740/1700.703/1700.121/1708.702/1708.904 ms (median 1705.740), versus the pinned 10614.524 ms baseline: 83.930132% reduction / 6.222826x speedup under ADR-0058.
 - Actual review remains 0/20 decisions, null minutes, zero accepted, and no human results/composite/ranking. Provider activity remains 0 requests/0 uploads/$0.
 - The complete 44-check suite now passes in 38.687 seconds versus 47.620 seconds immediately before the optimization.
+
+## 2026-09-01 - safe-source pushed release baseline
+
+- Captured already-pushed commit `f5057885b9c953ba102f9b577be229fa42c64ad3` rather than creating a self-referential manifest. Its Git tree is `df2c40bb3efea38e286daf35598799e54bdc5e67`.
+- Inventoried all 346 blobs / 8,184,364 bytes with path, mode, byte count, Git object ID, and SHA-256. Canonical inventory root is `2993f2d405c4404b22b93fa69fb520dcde92785ca8c2475bb02293e2a1a52cde`.
+- Scope contains exactly the two approved public controls and zero tracked `experiments`, prohibited key/model extensions, or files above 10 MiB. Eight/eight commit/tree/count/root/blob/exclusion mutations fail under ADR-0059.
+- `.env`/credentials, generated candidates/review artifacts/runtime records, models/LoRAs/checkpoints/runtimes, datasets/private references, local manifest, and evidence archives remain excluded.

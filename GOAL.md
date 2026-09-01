@@ -96,7 +96,9 @@ The selected-route artifact rebuild milestone is complete. Twenty-six ignored ar
 
 The G07 review-validation runtime milestone is complete. Verified packet/mapping-root derivation now occurs once per process while standalone compiles retain recomputation fallback. Gate hash and 9/9 mutations are unchanged; five runs have 1.706-second median versus 10.615 seconds baseline, an 83.93% reduction under ADR-0058. The 44-check suite falls from 47.620 to 38.687 seconds; review remains 0/20/null/zero.
 
-The active bounded milestone is a safe-source release manifest for the accumulated hardening chain. Pin the exact commit/path/hash inventory, remote parity, tracked-source rules, and exclusions so generated artifacts, credentials, models, datasets, private references, and installed runtimes remain outside Git.
+The safe-source release milestone is complete. Pushed commit `f5057885…c64ad3` pins 346 paths / 8,184,364 bytes, tree `df2c40bb…c5e67`, and SHA-256 inventory root `2993f2d4…a52cde`. Exactly two approved controls and zero generated/prohibited/oversize paths are tracked; 8/8 manifest mutations fail under ADR-0059. Current scope and remote parity validate.
+
+The active bounded milestone is a post-bakeoff aggregate-budget binding audit. Statistically inspect all four paid adapters and the shared policy/ledger to prove reservation precedes network submission, failure paths preserve/release/reconcile holds correctly, no adapter-local $100 path exists, and BFL remains limited to its two approved URL controls. Make no provider call.
 
 ### Authority and data boundaries
 

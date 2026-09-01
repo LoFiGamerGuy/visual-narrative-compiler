@@ -250,3 +250,5 @@ The pinned instrumentation runtime matches CPython 3.14.6, Pillow 12.3.0, and nu
 Two consecutive selected-route rebuilds produce the same 26-file, eight-group, 4,862,061-byte root `0a04832b…d3f3b18`; 8/8 mutations fail. This exact-byte result is bounded to enumerated local artifacts and the measured runtime; it excludes provider outputs, human evidence, timestamps, and throughput claims.
 
 The fail-closed G07 rollup validator improves from 10.615 seconds to a five-run median 1.706 seconds (83.93% lower / 6.22x) by reusing one already-verified mapping root per process. Gate bytes and 9/9 mutations are unchanged. This is local validation runtime, not actual reviewer or provider throughput.
+
+Safe-source baseline `f505788` contains 346 tracked paths / 8,184,364 bytes with exact tree `df2c40bb…c5e67` and SHA-256 inventory root `2993f2d4…a52cde`; 8/8 mutations fail and generated/prohibited/oversize counts are zero. This is source-release integrity, not generated-artifact retention or production output.

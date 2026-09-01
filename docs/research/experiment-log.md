@@ -524,3 +524,10 @@
 - Synthetic pre-submit abort releases its reservation and permits only a consecutively numbered retry that explicitly supersedes it. A synthetic crash after `SUBMISSION_STARTED` enters `OUTCOME_UNKNOWN`, keeps the aggregate reservation held, and blocks both repeat submission and retry.
 - Recovery binds the original provider request ID, exact output hashes/timing, cost reconciliation, and RenderRecord reference before terminal completion. Aggregate production ledger domain/reservation/adapter/input/request/cost must match.
 - Duplicate idempotency keys and 11/11 transition, chain, reservation state, request ID, and cost mutations fail. Provider requests/uploads/real production cost remain 0/0/$0.
+
+## 2026-09-01 - production RenderRecord and unknown-incident completeness
+
+- Added a targeted comic repair RenderRecord template with exact panel/journal/idempotency/provider/request/input/output/timing/usage/cost/failure/review/acceptance fields. Successful candidates remain pending human review and unaccepted.
+- Explicit provider-failure fixtures bind the original request, reconciled cost, and failure record while requiring zero candidate files. Unknown-outcome fixtures use `ProviderSubmissionIncident`, retain the aggregate hold, and categorically require null RenderRecord and no candidates.
+- Synthetic success, explicit failure, and unknown incident validate. Twelve/twelve candidate hash/count, request/journal/cost/timing/usage/review, fabricated failure candidates, missing failure, and incident fabrication/release mutations fail.
+- No real CH05 RenderRecord, candidate, request, upload, human minute, acceptance, or cost was created.

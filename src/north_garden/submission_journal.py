@@ -35,6 +35,11 @@ def canonical_sha256(value: dict) -> str:
     ).hexdigest()
 
 
+def journal_digest(journal: dict) -> str:
+    """Canonical exact-record digest for RenderRecord and incident references."""
+    return canonical_sha256(journal)
+
+
 def make_idempotency_key(
     *, adapter_id: str, panel_id: str, plan_revision_id: str, panel_input_package_sha256: str, attempt_ordinal: int
 ) -> str:

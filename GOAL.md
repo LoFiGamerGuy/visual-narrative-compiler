@@ -50,7 +50,9 @@ The selected-route offline-preflight milestone is complete. P036 stops independe
 
 The crash-safe journaling milestone is complete. A proven pre-submit abort releases and permits an explicitly superseding retry; a post-boundary unknown outcome retains the aggregate hold and blocks retry. Synthetic recovery binds the original provider ID, output/timing, exact cost, and RenderRecord before completion. Duplicate keys plus 11/11 transition, chain, reservation-state, request-ID, and cost mutations fail. No executor or authority was added.
 
-The active bounded milestone is production RenderRecord/incident completeness. Define and validate immutable selected-route success, provider-failure, and unknown-outcome records with exact journal/input/output/request/timing/usage/cost/review fields. Synthetic records may test schemas, but real CH05 records/candidates/acceptance remain zero and unknown outcomes must stay incidents rather than fabricated RenderRecords.
+The production evidence-schema milestone is complete. Synthetic success and explicit-failure RenderRecords preserve journal/input/output/request/timing/usage/cost/review fields; unknown outcome is a held-reservation incident with no candidate or RenderRecord. Twelve/twelve missing or contradictory evidence mutations fail. Real CH05 RenderRecords/candidates/acceptance remain zero.
+
+The active bounded milestone is G07 local evidence-vault integrity. Hash every paid bakeoff RenderRecord and candidate/failure artifact into a tracked, non-art manifest, validate exact local bytes and complete required fields, and keep generated material outside Git. The manifest must detect drift/loss without treating any pending-review candidate as accepted.
 
 ### Authority and data boundaries
 

@@ -204,3 +204,5 @@ Review/progress validation computes a paused 15-minute fixture exactly, rejects 
 Selected-route offline P036 preflight exposes 4/4 real blockers, blocks 6/6 prerequisite mutations, and contains no client/body/executor. The full local suite passes 21/21 checks in 2.652 seconds. These are readiness/integrity measurements; renderer quality and accepted-panel evidence are unchanged.
 
 Submission-journal simulation validates pre-submit release, unknown-outcome hold/non-retry, and recovered completion; duplicate keys plus 11/11 transition/tamper/budget mutations fail. It is crash-integrity evidence only and creates no provider execution result.
+
+Production evidence schemas validate synthetic success/failure/unknown outcomes and reject 12/12 completeness/contradiction mutations. Unknown incidents cannot contain RenderRecords or candidates. This is schema coverage, not new rendering evidence.

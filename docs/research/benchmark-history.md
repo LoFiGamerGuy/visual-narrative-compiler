@@ -196,3 +196,5 @@ The lifecycle-ledger control leaves 6/6 panels at base-approval pending and reje
 Production-budget separation rejects bakeoff-only authority and validates an isolated synthetic reserve/hold/reconcile/release cycle. Candidate intake hash-matches 6/6 deterministic controls but grants 0 approvals or uploads. These are governance/compiler results; provider spend and accepted-panel evidence are unchanged.
 
 Candidate promotion blocks 6/6 deterministic controls and 8/8 prohibited/incomplete review mutations. A synthetic fixture reaches only a validation-only non-approval state. This is gate coverage, not human-review or accepted-art evidence.
+
+The 50-panel run compiler reproduces its pinned root 30/30 times (median 9.120 ms, p95 10.178 ms; 4/4 root mutations detected). All 50 remain base-pending and 250 review task instances remain untimed. Local compiler timing is excluded from provider/human throughput claims.

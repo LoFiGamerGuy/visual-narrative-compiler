@@ -496,3 +496,10 @@
 - Candidate promotion requires exact candidate/raster/panel linkage, completed positive-minute reviewer identity, explicit fictional-adult-only classification, no likeness/child/personal/LoRA material, provenance sufficiency, passing applicable hard assertions, local acceptance, and local repair permission. It categorically refuses external upload authority.
 - All six controls remain blocked even with superficially complete fields. A synthetic eligible-raster fixture exercises the field-validation path but is emitted as `SYNTHETIC_VALIDATION_ONLY_NOT_APPROVAL` and fails the real base gate.
 - Eight of eight review mutations fail: absent minutes, child material, likeness, hash mismatch, failed assertion, insufficient provenance, attempted external permission, and absent local permission. External requests/uploads/cost remain 0/0/$0.
+
+## 2026-09-01 - CH05 50-panel chapter run manifest
+
+- Compiled all 50 stable panels into initial hash-chained run ledgers with one applicable hard-assertion hash per panel. Every current state is `BASE_APPROVAL_PENDING`; stage denominators retain all 50 planned panels and the P033–P038 slice remains exactly six.
+- Pinned chapter root `0498d79f…73664` over ordered panel/plan/assertion/chain-head tuples. It reproduced 30/30 local compiles; chain-head, plan revision, assertion, and panel-order mutations were detected 4/4.
+- Local record compilation measured median 9.120 ms, p95 10.178 ms, maximum 11.094 ms, and 1,802,668 bytes peak Python `tracemalloc` allocation across the validation run. These are not provider or human throughput measurements.
+- Review structure exposes 250 task instances without inventing duration. Executable/submitted/rendered/reviewed/accepted panels, provider requests/uploads, human minutes, and external cost remain 0/0/0/0/0, 0/0, null, and $0.

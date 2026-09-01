@@ -1,0 +1,29 @@
+{
+  "record_type": "ComicChapterRunManifestContract",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-50-panel-run-manifest-contract-r1",
+  "state": "PINNED_LOCAL_COMPILER_CONTRACT_NO_EXECUTION",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "initial_event_time": "2026-09-01T16:26:24Z",
+  "sources": {
+    "production/comic/ch05-sc01-panel-plans-v1.json": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05",
+    "production/comic/hard-assertion-manifests/ch05-mill-signal-r1.json": "2e0a3ad1f0e1b92620e4c8001e8648a84225066ef9b75e50dd931a47fc0d3062",
+    "production/comic/demonstration-slices/ch05-p033-p038-r1.json": "667e151bebf83de07249ff067b197731d0c7f9f701b52710c30da25180ea538c"
+  },
+  "expected_chapter_root_sha256": "0498d79f705334babc60420a974a910a08c9bb9e15fb782d50f9335f43673664",
+  "expected": {
+    "panel_count": 50,
+    "display_order": [1, 50],
+    "base_approval_pending": 50,
+    "demonstration_slice_panels": 6,
+    "review_task_instances": 250,
+    "executable_panels": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000",
+    "accepted_panels": 0,
+    "human_minutes": null
+  },
+  "boundary": "The chapter root pins plan revision, hard assertion, and initial lifecycle chain head for all 50 comic panels. It is not rendered coverage, external authority, AnimationShotPlan, or E-Conte."
+}

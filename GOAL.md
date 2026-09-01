@@ -42,7 +42,9 @@ The budget-domain and local-intake milestone is complete. ADR-0029 separates the
 
 The immutable candidate-review/promotion milestone is complete. All 6/6 deterministic controls are policy-ineligible even when supplied superficially complete review fields. A synthetic eligible fixture exercises review mechanics but is forced into a non-approval state; 8/8 missing or prohibited review mutations fail. Approved bases/uploads remain 0/0 and human minutes remain null.
 
-The active bounded milestone is a 50-panel chapter run-manifest compiler. Construct every initial hash-chained ledger from the approved `ComicPanelPlan` collection, bind applicable assertions and stage denominators, pin a deterministic chapter root, and measure local compile/validation behavior. The manifest must report all 50 panels base-pending, zero executable/accepted, and no provider/cost activity while retaining the six-panel demonstration subset.
+The 50-panel run-manifest milestone is complete. The pinned chapter root reproduces 30/30 local compiles; median compile time is 9.120 ms, p95 10.178 ms, peak traced allocation 1,802,668 bytes, and 4/4 plan/assertion/chain/order mutations are detected. All 50 panels remain base-pending, the six-panel slice remains a subset, 250 review task instances carry null minutes, and executable/accepted/provider/cost counts remain zero.
+
+The active bounded milestone is immutable review-session timing and chapter-progress rollup. Build start/complete review records that calculate elapsed minutes instead of accepting backfilled durations, then validate progress snapshots against the full 50-panel denominator and append-only run chains. Synthetic fixtures may exercise transitions but must not create human-review or acceptance evidence.
 
 ### Authority and data boundaries
 

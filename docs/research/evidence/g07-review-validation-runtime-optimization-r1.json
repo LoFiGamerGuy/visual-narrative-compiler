@@ -1,0 +1,50 @@
+{
+  "record_type": "LocalValidatorRuntimeOptimization",
+  "schema_version": "1.0",
+  "record_id": "ng-g07-review-validation-runtime-optimization-r1",
+  "state": "SEMANTICS_PRESERVED_LOCAL_RUNTIME_REDUCED",
+  "validator": "src/north_garden/validate_g07_review_rollup.py",
+  "baseline": {
+    "source_commit": "6973bf3",
+    "validator_sha256": "0faf207a09ca743b922aca1054b989f3ec57af83d6e3ab375a251879bbe1fc59",
+    "suite_report_path": "experiments/results/ch05-instrumentation-validation-suite-r1.json",
+    "suite_report_sha256": "5475ce2740af26be7ee07b0a52ac746570f53dc7757c47c706ee8d52a8ddfb53",
+    "elapsed_ms": 10614.524
+  },
+  "optimized": {
+    "validator_sha256": "6accd7b366f6cdac626da0e7f637bf2fd1662dc7e8a856b3548e17be375b79a1",
+    "samples_ms": [1705.74, 1700.703, 1700.121, 1708.702, 1708.904],
+    "median_ms": 1705.74,
+    "minimum_ms": 1700.121,
+    "maximum_ms": 1708.904,
+    "speedup_ratio": 6.222826,
+    "elapsed_reduction_fraction": 0.83930132
+  },
+  "change": {
+    "description": "Derive the exact blinded packet and expected deblinding mapping root once in main, then pass that immutable root to fixture and mutation compiles in the same process.",
+    "cross_process_cache": false,
+    "presentation_or_mapping_bytes_changed": false,
+    "pending_gate_bytes_changed": false,
+    "mutation_coverage": "9/9",
+    "gate_path": "docs/research/evidence/g07-human-review-rollup-gate-r1.json",
+    "gate_sha256": "927e76a328b8303fb0ca37f00027e2dba3f90e808f6b24d781bb21e9f224b78c"
+  },
+  "review_state": {
+    "actual_decisions": 0,
+    "human_minutes": null,
+    "accepted_candidates": 0,
+    "human_arm_results": null,
+    "composite_score": null,
+    "automatic_ranking": null
+  },
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "PowerShell wall-clock samples are local and are not a cross-machine benchmark.",
+    "The optimization does not change or accelerate actual human review.",
+    "Packet derivation still verifies every candidate presentation once per process."
+  ]
+}

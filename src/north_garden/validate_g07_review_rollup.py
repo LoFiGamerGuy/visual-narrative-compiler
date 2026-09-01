@@ -109,9 +109,12 @@ def compile_rollup(
     manifest: dict[str, Any],
     *,
     allow_validation_fixture: bool = False,
+    expected_mapping_root_sha256: str | None = None,
 ) -> dict[str, Any]:
-    _expected_packet, expected_mapping = build_packet(manifest, write=False)
-    require(mapping_root(mapping) == mapping_root(expected_mapping), "deblinding mapping root mismatch")
+    if expected_mapping_root_sha256 is None:
+        _expected_packet, expected_mapping = build_packet(manifest, write=False)
+        expected_mapping_root_sha256 = mapping_root(expected_mapping)
+    require(mapping_root(mapping) == expected_mapping_root_sha256, "deblinding mapping root mismatch")
     errors = g07_session_errors(session, packet)
     require(not errors, "invalid G07 review session: " + "; ".join(errors))
     require(session.get("state") == "COMPLETED", "review session is incomplete")
@@ -196,7 +199,7 @@ def pending_gate_errors(gate: dict[str, Any], expected: dict[str, Any]) -> list[
 
 def mutation_checks(
     pending: dict[str, Any], fixture: dict[str, Any], packet: dict[str, Any], mapping: dict[str, str],
-    instrumentation: dict[str, Any], manifest: dict[str, Any]
+    instrumentation: dict[str, Any], manifest: dict[str, Any], expected_mapping_root_sha256: str
 ) -> tuple[int, int]:
     gate_mutations: list[dict[str, Any]] = []
     changed = copy.deepcopy(pending); changed["human_arm_results"] = {}; gate_mutations.append(changed)
@@ -208,7 +211,7 @@ def mutation_checks(
     rejected = sum(bool(pending_gate_errors(item, pending)) for item in gate_mutations)
 
     try:
-        compile_rollup(fixture, packet, mapping, instrumentation, manifest)
+        compile_rollup(fixture, packet, mapping, instrumentation, manifest, expected_mapping_root_sha256=expected_mapping_root_sha256)
     except RollupError:
         rejected += 1
     total = len(gate_mutations) + 1
@@ -216,7 +219,7 @@ def mutation_checks(
     incomplete = copy.deepcopy(fixture)
     incomplete["events"][-1]["data"]["decisions"].pop()
     try:
-        compile_rollup(incomplete, packet, mapping, instrumentation, manifest, allow_validation_fixture=True)
+        compile_rollup(incomplete, packet, mapping, instrumentation, manifest, allow_validation_fixture=True, expected_mapping_root_sha256=expected_mapping_root_sha256)
     except RollupError:
         rejected += 1
     total += 1
@@ -225,7 +228,7 @@ def mutation_checks(
     first, second = list(wrong_mapping)[:2]
     wrong_mapping[first], wrong_mapping[second] = wrong_mapping[second], wrong_mapping[first]
     try:
-        compile_rollup(fixture, packet, wrong_mapping, instrumentation, manifest, allow_validation_fixture=True)
+        compile_rollup(fixture, packet, wrong_mapping, instrumentation, manifest, allow_validation_fixture=True, expected_mapping_root_sha256=expected_mapping_root_sha256)
     except RollupError:
         rejected += 1
     total += 1
@@ -243,6 +246,7 @@ def main() -> int:
         packet = json.loads(PACKET_PATH.read_text(encoding="utf-8"))
         expected_packet, mapping = build_packet(manifest, write=False)
         require(packet == expected_packet, "G07 blinded packet differs before rollup")
+        expected_mapping_root_sha256 = mapping_root(mapping)
         instrumentation = json.loads(INSTRUMENTATION.read_text(encoding="utf-8"))
         expected_gate = build_pending_gate(manifest, packet, mapping, instrumentation)
         if args.emit:
@@ -256,11 +260,12 @@ def main() -> int:
             require(not errors, "; ".join(errors))
         fixture_session = synthetic_session(packet)
         fixture_rollup = compile_rollup(
-            fixture_session, packet, mapping, instrumentation, manifest, allow_validation_fixture=True
+            fixture_session, packet, mapping, instrumentation, manifest, allow_validation_fixture=True,
+            expected_mapping_root_sha256=expected_mapping_root_sha256,
         )
         require(fixture_rollup["state"] == "SYNTHETIC_VALIDATION_ONLY", "fixture leaked into real state")
         require(fixture_rollup["composite_score"] is None, "rollup created a composite score")
-        rejected, total = mutation_checks(expected_gate, fixture_session, packet, mapping, instrumentation, manifest)
+        rejected, total = mutation_checks(expected_gate, fixture_session, packet, mapping, instrumentation, manifest, expected_mapping_root_sha256)
         require(rejected == total, "rollup mutation rejection incomplete")
     except (RollupError, FileNotFoundError, KeyError, json.JSONDecodeError) as error:
         print(f"FAIL: {error}", file=sys.stderr)

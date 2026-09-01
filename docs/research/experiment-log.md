@@ -705,3 +705,12 @@
 - Eight/eight command, count, rebuild-count, root, byte-identity, artifact hash, exclusion, and invented-provider mutations fail under ADR-0057.
 - Timestamps, timing samples, provider records/candidates, human decisions/minutes, and external runtimes are excluded, not normalized. Requests/uploads/downloads/cost remain 0/0/0/$0.
 - With the two-pass rebuild check included, consolidated validation passes 44/44 in 47.620 seconds.
+
+## 2026-09-01 - G07 review-rollup validator runtime optimization
+
+- Profile inspection found that `compile_rollup` regenerated all 16 neutral presentations and the mapping five times per process: once for the main packet and again for fixture/mutation compiles.
+- Main now derives the validated expected mapping root once and supplies it to same-process compiles. Standalone callers without a supplied root retain the full recomputation fallback, and every supplied mapping is still root-compared.
+- The pending gate bytes remain SHA-256 `927e76a3…224b78c`; 9/9 pending, fixture, incomplete-coverage, and wrong-mapping mutations still fail.
+- Five optimized wall-clock samples are 1705.740/1700.703/1700.121/1708.702/1708.904 ms (median 1705.740), versus the pinned 10614.524 ms baseline: 83.930132% reduction / 6.222826x speedup under ADR-0058.
+- Actual review remains 0/20 decisions, null minutes, zero accepted, and no human results/composite/ranking. Provider activity remains 0 requests/0 uploads/$0.
+- The complete 44-check suite now passes in 38.687 seconds versus 47.620 seconds immediately before the optimization.

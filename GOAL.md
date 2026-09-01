@@ -94,7 +94,9 @@ The bootstrap/runtime reproducibility milestone is complete. A separate no-downl
 
 The selected-route artifact rebuild milestone is complete. Twenty-six ignored artifacts across eight exact groups and 4,862,061 bytes rebuild twice to identical root `0a04832b…d3f3b18`; 8/8 inventory/root/exclusion mutations fail under ADR-0057. Nondeterministic timing/provider/human/external-runtime classes are excluded explicitly. The complete suite passes 44/44 in 47.620 seconds.
 
-The active bounded milestone is G07 review-validation runtime optimization. Profile the 10.615-second fail-closed rollup check and remove repeated immutable packet/vault recomputation while preserving exact pending state, synthetic isolation, and 9/9 mutation rejection. This is local validator engineering only.
+The G07 review-validation runtime milestone is complete. Verified packet/mapping-root derivation now occurs once per process while standalone compiles retain recomputation fallback. Gate hash and 9/9 mutations are unchanged; five runs have 1.706-second median versus 10.615 seconds baseline, an 83.93% reduction under ADR-0058. The 44-check suite falls from 47.620 to 38.687 seconds; review remains 0/20/null/zero.
+
+The active bounded milestone is a safe-source release manifest for the accumulated hardening chain. Pin the exact commit/path/hash inventory, remote parity, tracked-source rules, and exclusions so generated artifacts, credentials, models, datasets, private references, and installed runtimes remain outside Git.
 
 ### Authority and data boundaries
 

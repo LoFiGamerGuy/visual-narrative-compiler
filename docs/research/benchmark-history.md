@@ -248,3 +248,5 @@ The repair finalizer reports nine real P036 blockers and emits no outcome, while
 The pinned instrumentation runtime matches CPython 3.14.6, Pillow 12.3.0, and numpy 2.5.1 with exact interpreter/source hashes; a no-write bootstrap completes 43/43 checks in 26.524 seconds and 10/10 runtime mutations fail. This is local reproducibility/readiness timing, not provider or human production throughput.
 
 Two consecutive selected-route rebuilds produce the same 26-file, eight-group, 4,862,061-byte root `0a04832b…d3f3b18`; 8/8 mutations fail. This exact-byte result is bounded to enumerated local artifacts and the measured runtime; it excludes provider outputs, human evidence, timestamps, and throughput claims.
+
+The fail-closed G07 rollup validator improves from 10.615 seconds to a five-run median 1.706 seconds (83.93% lower / 6.22x) by reusing one already-verified mapping root per process. Gate bytes and 9/9 mutations are unchanged. This is local validation runtime, not actual reviewer or provider throughput.

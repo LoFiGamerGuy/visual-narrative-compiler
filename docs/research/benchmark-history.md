@@ -194,3 +194,5 @@ The deterministic sequence-control follow-up reproduces 13/13 pinned output hash
 The lifecycle-ledger control leaves 6/6 panels at base-approval pending and rejects 18/18 illegal transition, chain-tamper, and aggregate reservation-binding mutations. This is production-state integrity evidence, not a renderer benchmark or accepted-panel result.
 
 Production-budget separation rejects bakeoff-only authority and validates an isolated synthetic reserve/hold/reconcile/release cycle. Candidate intake hash-matches 6/6 deterministic controls but grants 0 approvals or uploads. These are governance/compiler results; provider spend and accepted-panel evidence are unchanged.
+
+Candidate promotion blocks 6/6 deterministic controls and 8/8 prohibited/incomplete review mutations. A synthetic fixture reaches only a validation-only non-approval state. This is gate coverage, not human-review or accepted-art evidence.

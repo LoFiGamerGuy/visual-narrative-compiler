@@ -46,6 +46,14 @@ def prepare_candidate(*, panel_id: str, raster_path: Path, candidate_id: str) ->
     panel = next((item for item in plans["plans"] if item["panel_id"] == panel_id), None)
     if panel is None:
         raise CandidateIntakeError(f"unknown ComicPanelPlan panel_id: {panel_id}")
+    relative_raster = raster.relative_to(ROOT).as_posix()
+    is_layout_control = any(
+        marker in relative_raster
+        for marker in (
+            "ch05_p033_p038_sequence_layout_control_r1/",
+            "ch05_p036_layout_control_r1/",
+        )
+    )
     record = {
         "record_type": "ComicPanelBaseRasterCandidate",
         "schema_version": "1.0",
@@ -60,7 +68,7 @@ def prepare_candidate(*, panel_id: str, raster_path: Path, candidate_id: str) ->
             "plan_revision_id": panel["plan_revision_id"],
         },
         "raster": {
-            "path": raster.relative_to(ROOT).as_posix(),
+            "path": relative_raster,
             "sha256": sha256(raster),
             "format": image_format,
             "mode": mode,
@@ -69,9 +77,18 @@ def prepare_candidate(*, panel_id: str, raster_path: Path, candidate_id: str) ->
         },
         "provenance": {
             "intake_method": "local_hash_only_no_copy_no_upload",
+            "candidate_kind": "deterministic_layout_control_not_art" if is_layout_control else "unclassified_raster",
             "source_record_ids": [],
             "source_asset_ids": panel["asset_ids"],
             "render_record": None,
+        },
+        "approval_eligibility": {
+            "eligible": False if is_layout_control else None,
+            "reason": (
+                "ADR-0027 prohibits deterministic layout controls from serving as visual evidence or approved base art."
+                if is_layout_control
+                else "Requires explicit human classification and art/provenance review."
+            ),
         },
         "data_classification": {
             "review_status": "not_yet_performed",

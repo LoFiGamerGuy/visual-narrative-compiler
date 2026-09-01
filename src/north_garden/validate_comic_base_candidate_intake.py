@@ -16,7 +16,7 @@ def main() -> int:
     sequence = json.loads(RESULT.read_text(encoding="utf-8"))
     records = []
     for panel in sequence["panels"]:
-        candidate_id = f"ng-{panel['panel_id']}-layout-control-candidate-r1".replace("ng-ng-", "ng-")
+        candidate_id = f"ng-{panel['panel_id']}-layout-control-candidate-r2".replace("ng-ng-", "ng-")
         out = prepare_candidate(
             panel_id=panel["panel_id"],
             raster_path=ROOT / panel["image"]["path"],
@@ -30,6 +30,8 @@ def main() -> int:
             failures.append(f"candidate review promoted: {panel['panel_id']}")
         if record["permissions"]["local_repair_input_authorized"] or record["permissions"]["external_upload_authorized"]:
             failures.append(f"candidate permission promoted: {panel['panel_id']}")
+        if record["approval_eligibility"]["eligible"] is not False:
+            failures.append(f"layout control not marked permanently ineligible: {panel['panel_id']}")
         gate_errors = base_raster_errors(record, panel["panel_id"], panel["plan_revision_id"])
         if not gate_errors or "base_raster_state_not_approved" not in gate_errors:
             failures.append(f"candidate passed or bypassed base approval gate: {panel['panel_id']}")

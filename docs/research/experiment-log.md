@@ -489,3 +489,10 @@
 - A synthetic isolated policy validates aggregate reserve, hold, cost reconciliation, and proven-unsubmitted release. Actual cost above the reservation ceiling fails for incident review; no provider was contacted.
 - Local candidate intake decodes and hashes all six deterministic sequence controls against their stable panel revisions. All 6/6 hashes match, while classification remains pending/null, human minutes null, permissions false, and the separate base-approval gate rejects every candidate.
 - `.gitignore` now excludes runtime `experiments/` records, candidates, controls, and reviews from accidental staging. Tracked source/evidence remains constrained by the existing scope preflight.
+
+## 2026-09-01 - CH05 candidate review and non-promotion controls
+
+- Built an intake review packet for the six deterministic controls: 6/6 are policy-ineligible under ADR-0027, approved bases/uploads are 0/0, and human minutes remain null.
+- Candidate promotion requires exact candidate/raster/panel linkage, completed positive-minute reviewer identity, explicit fictional-adult-only classification, no likeness/child/personal/LoRA material, provenance sufficiency, passing applicable hard assertions, local acceptance, and local repair permission. It categorically refuses external upload authority.
+- All six controls remain blocked even with superficially complete fields. A synthetic eligible-raster fixture exercises the field-validation path but is emitted as `SYNTHETIC_VALIDATION_ONLY_NOT_APPROVAL` and fails the real base gate.
+- Eight of eight review mutations fail: absent minutes, child material, likeness, hash mismatch, failed assertion, insufficient provenance, attempted external permission, and absent local permission. External requests/uploads/cost remain 0/0/$0.

@@ -40,7 +40,9 @@ The adversarial run-state milestone is complete. Six hash-chained P033–P038 le
 
 The budget-domain and local-intake milestone is complete. ADR-0029 separates the disabled CH05 production policy/ledger/environment from G07; bakeoff capacity alone, a production environment value alone, and a substituted bakeoff ledger all fail. Synthetic production reserve/hold/reconcile/release accounting passes without real authority or spend. Six deterministic controls hash-match local candidate intake while remaining unclassified, unapproved, and rejected by the base gate under ADR-0030.
 
-The active bounded milestone is immutable candidate-review/promotion instrumentation. Build a reviewer-facing packet and promotion validator that requires measured human minutes, explicit data classification, provenance, applicable hard-assertion disposition, and local repair permission without ever implying external upload. The deterministic controls must remain permanently ineligible as art, while a synthetic eligible-raster record exercises the positive path without making a real approval decision.
+The immutable candidate-review/promotion milestone is complete. All 6/6 deterministic controls are policy-ineligible even when supplied superficially complete review fields. A synthetic eligible fixture exercises review mechanics but is forced into a non-approval state; 8/8 missing or prohibited review mutations fail. Approved bases/uploads remain 0/0 and human minutes remain null.
+
+The active bounded milestone is a 50-panel chapter run-manifest compiler. Construct every initial hash-chained ledger from the approved `ComicPanelPlan` collection, bind applicable assertions and stage denominators, pin a deterministic chapter root, and measure local compile/validation behavior. The manifest must report all 50 panels base-pending, zero executable/accepted, and no provider/cost activity while retaining the six-panel demonstration subset.
 
 ### Authority and data boundaries
 

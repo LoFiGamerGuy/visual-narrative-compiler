@@ -48,7 +48,9 @@ The immutable review/progress milestone is complete. A paused synthetic session 
 
 The selected-route offline-preflight milestone is complete. P036 stops independently on missing approved base, mask, exact authority, and distinct production reservation; it has no client/network import, API-key access, request body, or executor. A synthetic complete prerequisite set produces metadata only and 6/6 mutations block it. The consolidated offline suite passes 21/21 checks in 2.652 seconds with exact safe-source/public-control validation and no provider/upload/cost activity.
 
-The active bounded milestone is crash-safe selected-route submission journaling without network. Add deterministic idempotency keys and append-only intent states for pre-submit release, post-submit unknown outcome, provider-ID recovery, cost reconciliation, and immutable completion. Simulate crash boundaries and prove no retry can create a second spend while outcome is unknown. This remains local infrastructure; no executor or authority is added.
+The crash-safe journaling milestone is complete. A proven pre-submit abort releases and permits an explicitly superseding retry; a post-boundary unknown outcome retains the aggregate hold and blocks retry. Synthetic recovery binds the original provider ID, output/timing, exact cost, and RenderRecord before completion. Duplicate keys plus 11/11 transition, chain, reservation-state, request-ID, and cost mutations fail. No executor or authority was added.
+
+The active bounded milestone is production RenderRecord/incident completeness. Define and validate immutable selected-route success, provider-failure, and unknown-outcome records with exact journal/input/output/request/timing/usage/cost/review fields. Synthetic records may test schemas, but real CH05 records/candidates/acceptance remain zero and unknown outcomes must stay incidents rather than fabricated RenderRecords.
 
 ### Authority and data boundaries
 

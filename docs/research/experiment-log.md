@@ -517,3 +517,10 @@
 - Real input-package hash, request envelope, and request body remain null. Static inspection confirms no requests/urllib/httpx/openai/socket/aiohttp import and no API-key access; provider requests/uploads/cost are 0/0/$0.
 - A complete synthetic prerequisite fixture produces metadata-only envelope state with no request body or network executor. Six/six base-hash, mask-overlap, authority-scope/package, and reservation-domain/package mutations block it.
 - Added a consolidated local entry point. Twenty-one of twenty-one offline checks pass in 2.652 seconds, including frozen v2.1.1, runtime, both budgets, input/ledger/review mutations, 50-panel root/progress, selected-route stop, origin URL, and the exact two public-control hashes.
+
+## 2026-09-01 - selected-route submission journal and crash recovery
+
+- Added deterministic idempotency keys over adapter, panel/revision, exact input-package hash, and attempt ordinal plus an append-only submission journal. No network/client executor exists.
+- Synthetic pre-submit abort releases its reservation and permits only a consecutively numbered retry that explicitly supersedes it. A synthetic crash after `SUBMISSION_STARTED` enters `OUTCOME_UNKNOWN`, keeps the aggregate reservation held, and blocks both repeat submission and retry.
+- Recovery binds the original provider request ID, exact output hashes/timing, cost reconciliation, and RenderRecord reference before terminal completion. Aggregate production ledger domain/reservation/adapter/input/request/cost must match.
+- Duplicate idempotency keys and 11/11 transition, chain, reservation state, request ID, and cost mutations fail. Provider requests/uploads/real production cost remain 0/0/$0.

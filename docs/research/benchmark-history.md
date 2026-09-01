@@ -202,3 +202,5 @@ The 50-panel run compiler reproduces its pinned root 30/30 times (median 9.120 m
 Review/progress validation computes a paused 15-minute fixture exactly, rejects 10/10 timer mutations and 22/22 combined run/budget/review mutations, and keeps real CH05 at 0/50 accepted with null minutes. The separate retry fixture produces 2/50 accepted from 3 attempts/1 retry and is excluded from real metrics.
 
 Selected-route offline P036 preflight exposes 4/4 real blockers, blocks 6/6 prerequisite mutations, and contains no client/body/executor. The full local suite passes 21/21 checks in 2.652 seconds. These are readiness/integrity measurements; renderer quality and accepted-panel evidence are unchanged.
+
+Submission-journal simulation validates pre-submit release, unknown-outcome hold/non-retry, and recovered completion; duplicate keys plus 11/11 transition/tamper/budget mutations fail. It is crash-integrity evidence only and creates no provider execution result.

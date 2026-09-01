@@ -750,3 +750,10 @@
 - The widest predeclared-rule pass is 8px: exactly two nonzero/core components, 62.915% ring core, and 25.936% thin-component core. Ten pixels is the first larger failure.
 - Protected-hole and exterior nonzero alpha are zero, and a synthetic composite changes zero hole/exterior pixels.
 - Twelve/twelve geometry, series, selection, component, hole, exterior, policy/profile, invented review, and activity mutations fail under ADR-0063. Provider requests/uploads/cost remain 0/0/$0.
+
+## 2026-09-01 - append-only scale-aware selector r2
+
+- Pinned selector r1 by exact SHA-256 and preserved its two panel profiles unchanged: P036 16px and P044 5px.
+- Added the disconnected/hole 8px result only under a panel-neutral mechanics-control collection. Profile, production-policy, and visual-acceptance eligibility are all false.
+- Aggregate topology passes are now three, while local panel profiles remain two and universal width, exact-panel visual passes, timed seam reviews, production-ready profiles, masks, requests, and uploads remain zero.
+- Thirteen/thirteen supersession, prior rewrite, width leak, generic-control promotion, fake visual/review/production state, and generalization mutations fail under ADR-0064.

@@ -106,7 +106,9 @@ The selected-route hardening-state milestone is complete. The handoff pins the O
 
 The disconnected/holed topology milestone is complete. Fixed panel-neutral ring plus separate 32px thin geometry selects 8px as its widest local pass, retaining two cores at 62.915%/25.936% with exact hole/exterior protection. Twelve/twelve mutations fail under ADR-0063; no profile, policy, mask, review, or authority follows.
 
-The active bounded milestone is append-only selector contract r2. Pin r1 unchanged and add the disconnected/hole control only as panel-neutral topology coverage, while preserving P036=16px, P044=5px, no universal width, zero exact-panel visual passes/reviews/production-ready profiles, and all production blockers.
+The selector-contract r2 milestone is complete. R2 pins r1, preserves P036=16px/P044=5px, and adds the local 8px disconnected/hole result only as a panel-neutral control. Topology passes increase to three while profiles remain two and universal width/visual passes/reviews/production-ready profiles remain zero. Thirteen/thirteen mutations fail under ADR-0064.
+
+The active bounded milestone is exact artifact rebuild r2. Pin rebuild r1 and add the disconnected/hole support and alpha as a ninth bounded group; rebuild the expanded inventory twice without changing any nondeterministic exclusion or external state.
 
 ### Authority and data boundaries
 

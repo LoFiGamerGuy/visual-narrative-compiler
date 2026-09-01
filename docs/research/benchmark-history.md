@@ -260,3 +260,5 @@ Transport audit confirms four HTTPS endpoints, verified native TLS on every `url
 The cross-evidence hardening state preserves OpenAI as engineering route only: selected arm four candidates/$0.198621/128.347s, G07 review 0/20/null/zero, chapter 50 plans/four explicit/two profiles/one policy/nine blockers/zero outcomes; 15/15 promotion mutations fail. It is a handoff state, not a new score or result.
 
 Panel-neutral disconnected/hole stress selects local 8px on fixed ring+32px geometry, retaining two cores at 62.915%/25.936% with exact hole/exterior; 12/12 mutations fail. This expands abstract topology coverage only, not panel applicability or visual acceptance.
+
+Selector r2 preserves two exact panel profiles (P036=16px/P044=5px) and records the 8px disconnected/hole result only as a generic control: three topology passes, zero exact-panel visual/review/production-ready passes; 13/13 promotions fail. No universal width is inferred.

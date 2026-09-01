@@ -1,0 +1,374 @@
+{
+  "record_type": "ComicRepairCausalShapeTopologyControl",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p036-causal-shape-topology-control-r2",
+  "state": "LOCAL_ABSTRACT_CAUSAL_TOPOLOGY_CONTROL_NOT_ART",
+  "intent_bindings": {
+    "comic_panel_plan": {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05",
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1"
+    },
+    "repair_readiness": {
+      "path": "production/comic/repair-readiness/ch05-p036-openai-r1.json",
+      "sha256": "6ea50b944d6dd0c21ca44c6efa3f4cfa4c110d0af47a1e754c89e51d24819ac6",
+      "target_semantics": "causal Soren-hand / fallen-plank / tin reach relationship with Sigrid's brace preserved"
+    },
+    "hard_assertion": {
+      "path": "production/comic/hard-assertion-manifests/ch05-mill-signal-r1.json",
+      "sha256": "2e0a3ad1f0e1b92620e4c8001e8648a84225066ef9b75e50dd931a47fc0d3062",
+      "assertion_id": "p036_core_read"
+    },
+    "continuity_contract": {
+      "path": "production/comic/demonstration-packets/ch05-p033-p038-no-network-r1.json",
+      "sha256": "ed5ce138bb15ee3265b1a5f493a2f36676c41876045ecc0c7daa703875b511cc",
+      "contract_id": "sealed_tin_causal_chain"
+    }
+  },
+  "geometry": {
+    "source": "deterministic coordinates from the existing abstract P036 layout control",
+    "features": {
+      "plank": {
+        "kind": "line",
+        "xyxy": [
+          455,
+          790,
+          850,
+          300
+        ],
+        "base_width_px": 64
+      },
+      "reach": {
+        "kind": "line",
+        "xyxy": [
+          650,
+          380,
+          840,
+          300
+        ],
+        "base_width_px": 42
+      },
+      "hand": {
+        "kind": "ellipse",
+        "bbox_xyxy": [
+          815,
+          270,
+          870,
+          325
+        ]
+      },
+      "tin": {
+        "kind": "rectangle",
+        "bbox_xyxy": [
+          860,
+          245,
+          935,
+          295
+        ]
+      }
+    },
+    "context_padding_variants_px": [
+      0,
+      4,
+      8,
+      12,
+      16
+    ],
+    "boundary_policy": {
+      "id": "cosine-inset-16px",
+      "source": "docs/research/evidence/openai-targeted-repair-boundary-hardening-r2.json",
+      "sha256": "ad3df9d311efe106da3d5d4d93bcb04979b6aaaf315037b59662cae33e2ef3cf"
+    },
+    "selection_rule": "narrowest padding with one support/core/nonzero-alpha component, >=40% union core, >=15% core for every causal feature, <=0.50 rectangularity, and zero lettering overlap"
+  },
+  "variants": [
+    {
+      "context_padding_px": 0,
+      "support_pixels": 51110,
+      "support_fraction": 0.032494863,
+      "support_bbox_xyxy": [
+        430,
+        245,
+        936,
+        811
+      ],
+      "bbox_rectangularity": 0.178459196,
+      "support_component_count": 1,
+      "fully_replaced_core_pixels": 13478,
+      "fully_replaced_core_fraction_of_support": 0.263705733,
+      "fully_replaced_core_component_count": 2,
+      "alpha_nonzero_component_count": 1,
+      "alpha_nonzero_lettering_overlap_pixels": 0,
+      "feature_core_retention": {
+        "plank": {
+          "support_pixels": 39940,
+          "fully_replaced_core_pixels": 12359,
+          "fully_replaced_core_fraction": 0.309439159
+        },
+        "reach": {
+          "support_pixels": 8418,
+          "fully_replaced_core_pixels": 1581,
+          "fully_replaced_core_fraction": 0.187811832
+        },
+        "hand": {
+          "support_pixels": 2448,
+          "fully_replaced_core_pixels": 658,
+          "fully_replaced_core_fraction": 0.26879085
+        },
+        "tin": {
+          "support_pixels": 3876,
+          "fully_replaced_core_pixels": 836,
+          "fully_replaced_core_fraction": 0.215686275
+        }
+      },
+      "qualifies": false
+    },
+    {
+      "context_padding_px": 4,
+      "support_pixels": 58501,
+      "support_fraction": 0.037193934,
+      "support_bbox_xyxy": [
+        427,
+        241,
+        940,
+        814
+      ],
+      "bbox_rectangularity": 0.199017517,
+      "support_component_count": 1,
+      "fully_replaced_core_pixels": 20687,
+      "fully_replaced_core_fraction_of_support": 0.353617887,
+      "fully_replaced_core_component_count": 2,
+      "alpha_nonzero_component_count": 1,
+      "alpha_nonzero_lettering_overlap_pixels": 0,
+      "feature_core_retention": {
+        "plank": {
+          "support_pixels": 45256,
+          "fully_replaced_core_pixels": 17863,
+          "fully_replaced_core_fraction": 0.394710094
+        },
+        "reach": {
+          "support_pixels": 10186,
+          "fully_replaced_core_pixels": 3386,
+          "fully_replaced_core_fraction": 0.332417043
+        },
+        "hand": {
+          "support_pixels": 3212,
+          "fully_replaced_core_pixels": 1202,
+          "fully_replaced_core_fraction": 0.374221669
+        },
+        "tin": {
+          "support_pixels": 4956,
+          "fully_replaced_core_pixels": 1423,
+          "fully_replaced_core_fraction": 0.287126715
+        }
+      },
+      "qualifies": false
+    },
+    {
+      "context_padding_px": 8,
+      "support_pixels": 64992,
+      "support_fraction": 0.041320801,
+      "support_bbox_xyxy": [
+        424,
+        237,
+        944,
+        816
+      ],
+      "bbox_rectangularity": 0.215862894,
+      "support_component_count": 1,
+      "fully_replaced_core_pixels": 27366,
+      "fully_replaced_core_fraction_of_support": 0.421067208,
+      "fully_replaced_core_component_count": 1,
+      "alpha_nonzero_component_count": 1,
+      "alpha_nonzero_lettering_overlap_pixels": 0,
+      "feature_core_retention": {
+        "plank": {
+          "support_pixels": 49780,
+          "fully_replaced_core_pixels": 22634,
+          "fully_replaced_core_fraction": 0.454680595
+        },
+        "reach": {
+          "support_pixels": 11954,
+          "fully_replaced_core_pixels": 5316,
+          "fully_replaced_core_fraction": 0.444704701
+        },
+        "hand": {
+          "support_pixels": 4052,
+          "fully_replaced_core_pixels": 1973,
+          "fully_replaced_core_fraction": 0.486920039
+        },
+        "tin": {
+          "support_pixels": 6164,
+          "fully_replaced_core_pixels": 2366,
+          "fully_replaced_core_fraction": 0.383841661
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "context_padding_px": 12,
+      "support_pixels": 71964,
+      "support_fraction": 0.045753479,
+      "support_bbox_xyxy": [
+        421,
+        233,
+        948,
+        819
+      ],
+      "bbox_rectangularity": 0.23302744,
+      "support_component_count": 1,
+      "fully_replaced_core_pixels": 34418,
+      "fully_replaced_core_fraction_of_support": 0.478266911,
+      "fully_replaced_core_component_count": 1,
+      "alpha_nonzero_component_count": 1,
+      "alpha_nonzero_lettering_overlap_pixels": 0,
+      "feature_core_retention": {
+        "plank": {
+          "support_pixels": 55096,
+          "fully_replaced_core_pixels": 28063,
+          "fully_replaced_core_fraction": 0.509347321
+        },
+        "reach": {
+          "support_pixels": 13340,
+          "fully_replaced_core_pixels": 6886,
+          "fully_replaced_core_fraction": 0.516191904
+        },
+        "hand": {
+          "support_pixels": 5016,
+          "fully_replaced_core_pixels": 2884,
+          "fully_replaced_core_fraction": 0.574960128
+        },
+        "tin": {
+          "support_pixels": 7500,
+          "fully_replaced_core_pixels": 3437,
+          "fully_replaced_core_fraction": 0.458266667
+        }
+      },
+      "qualifies": true
+    },
+    {
+      "context_padding_px": 16,
+      "support_pixels": 78765,
+      "support_fraction": 0.050077438,
+      "support_bbox_xyxy": [
+        418,
+        229,
+        952,
+        821
+      ],
+      "bbox_rectangularity": 0.249155405,
+      "support_component_count": 1,
+      "fully_replaced_core_pixels": 41377,
+      "fully_replaced_core_fraction_of_support": 0.525322161,
+      "fully_replaced_core_component_count": 1,
+      "alpha_nonzero_component_count": 1,
+      "alpha_nonzero_lettering_overlap_pixels": 0,
+      "feature_core_retention": {
+        "plank": {
+          "support_pixels": 60110,
+          "fully_replaced_core_pixels": 33311,
+          "fully_replaced_core_fraction": 0.55416736
+        },
+        "reach": {
+          "support_pixels": 15108,
+          "fully_replaced_core_pixels": 8816,
+          "fully_replaced_core_fraction": 0.583531904
+        },
+        "hand": {
+          "support_pixels": 6068,
+          "fully_replaced_core_pixels": 3932,
+          "fully_replaced_core_fraction": 0.647989453
+        },
+        "tin": {
+          "support_pixels": 8964,
+          "fully_replaced_core_pixels": 4619,
+          "fully_replaced_core_fraction": 0.515283356
+        }
+      },
+      "qualifies": true
+    }
+  ],
+  "decision": {
+    "selected_context_padding_px": 8,
+    "all_four_causal_features_retain_core": true,
+    "connected_fully_replaced_core": true,
+    "concavity_exercised": true,
+    "thin_feature_exercised": true,
+    "mechanics_control_pass": true,
+    "art_accepted": false,
+    "provider_input_authorized": false
+  },
+  "selected_outputs": {
+    "support_mask": {
+      "path": "experiments/outputs/ch05_p036_causal_shape_topology_r2/ch05-p036-causal-shape-mask-pad08-r2.png",
+      "sha256": "f353422e9dc6f66a5b855a7962f11215fec62c96ad57f4d2611365d497aa9069"
+    },
+    "inward_alpha": {
+      "path": "experiments/outputs/ch05_p036_causal_shape_topology_r2/ch05-p036-causal-shape-alpha-pad08-r2.png",
+      "sha256": "26f47b23714ccb9d5746b7ff71d51639e4b641e0521c1a9b9fdaa3b56d2d4a2e"
+    }
+  },
+  "selected_measurements": {
+    "context_padding_px": 8,
+    "support_pixels": 64992,
+    "support_fraction": 0.041320801,
+    "support_bbox_xyxy": [
+      424,
+      237,
+      944,
+      816
+    ],
+    "bbox_rectangularity": 0.215862894,
+    "support_component_count": 1,
+    "fully_replaced_core_pixels": 27366,
+    "fully_replaced_core_fraction_of_support": 0.421067208,
+    "fully_replaced_core_component_count": 1,
+    "alpha_nonzero_component_count": 1,
+    "alpha_nonzero_lettering_overlap_pixels": 0,
+    "feature_core_retention": {
+      "plank": {
+        "support_pixels": 49780,
+        "fully_replaced_core_pixels": 22634,
+        "fully_replaced_core_fraction": 0.454680595
+      },
+      "reach": {
+        "support_pixels": 11954,
+        "fully_replaced_core_pixels": 5316,
+        "fully_replaced_core_fraction": 0.444704701
+      },
+      "hand": {
+        "support_pixels": 4052,
+        "fully_replaced_core_pixels": 1973,
+        "fully_replaced_core_fraction": 0.486920039
+      },
+      "tin": {
+        "support_pixels": 6164,
+        "fully_replaced_core_pixels": 2366,
+        "fully_replaced_core_fraction": 0.383841661
+      }
+    },
+    "qualifies": true,
+    "synthetic_composite_max_abs_difference_outside_support": 0
+  },
+  "comic_boundary": {
+    "comic_panel_plan_only": true,
+    "animation_shot_plan": null
+  },
+  "review": {
+    "human_review_status": "not_yet_performed",
+    "human_minutes": null,
+    "accepted": false
+  },
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "This is labeled deterministic geometry, not a base raster, character design, mask approval, or provider input.",
+    "Concavity and a 42-pixel thin reach feature are exercised; holes and multiple disconnected support components are not.",
+    "Feature-core survival does not establish causal readability, line-art blending, identity continuity, or visual acceptance.",
+    "The fixed coordinates come from the abstract layout control and cannot be transferred to unapproved smoke art."
+  ]
+}

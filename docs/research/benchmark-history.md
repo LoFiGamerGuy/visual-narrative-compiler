@@ -218,3 +218,5 @@ The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate co
 Selected-route boundary hardening compares seven inward-only compositor variants. The 16-pixel cosine boundary is the sole predeclared-rule pass: 91.263% artificial-jump reduction, 99.462% central green signal, zero exterior changes, and zero P036 lettering overlap; 8/8 evidence mutations fail. This is fictional-proxy compositor mechanics, not visual acceptance or narrative-panel evidence.
 
 P036 current-mask topology retains 79.032% core and 1/1 component under the 16-pixel policy with zero exterior/lettering changes, but the source mask is a perfect rectangle and exercises no thin, concave, holed, or multi-component topology. The narrative-topology assertion is therefore not tested, not passed.
+
+The P036 causal-shape control selects 8px context padding from five variants under the fixed 16px boundary: 42.107% connected union core, 4/4 causal features above 15% core retention, rectangularity 0.215863, and zero exterior/lettering change; 10/10 mutations fail. This advances abstract repair topology mechanics only, not panel art or mask approval.

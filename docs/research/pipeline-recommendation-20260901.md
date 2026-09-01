@@ -54,6 +54,8 @@ The selected OpenAI hardening branch now has a measured local boundary policy: a
 
 That first P036 topology gate reveals the existing target-context mask is a filled rectangle. It retains 79.032% core under the policy but cannot establish thin or concave causal-object behavior. Narrative applicability remains gated on a deterministic causal-shape control rather than inferred from the rectangle.
 
+The follow-on causal-shape control exercises a concave plank/reach/hand/tin union and selects 8px context padding by connectivity/core/lettering rules. All four labeled features retain useful fully replaced cores with exact exterior mechanics. This supports a versioned local repair-policy contract, but the proxy mask remains categorically ineligible as a production mask or upload.
+
 The predeclared low-denoise and strength matrices plus a paired d1.0/strength-0.8 replication now close this route: target edit passed only 1/2 observed seeds and target no-change passed 0/2. ADR-0014 rejects mask-boundary optimization until a different renderer mechanism proves both assertions.
 
 The target/no-change matrices and paired replication are now complete. ADR-0014 rejects further same-route mask-boundary tuning; ADR-0015 requires a distinct renderer mechanism. The current recommendation is in `docs/research/renderer-decision-memo-20260901.md`.

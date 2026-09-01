@@ -578,3 +578,11 @@
 - Applying the selected 16-pixel inward policy retains 65,736 of 83,176 support pixels as fully replaced core (79.0324089%), preserves 1/1 connected component, and produces zero exterior or lettering-zone change in a synthetic compositor check.
 - Concavity, holes, multiple components, and thin-feature survival are all untested. The record therefore passes rectangle mechanics but explicitly fails evidence sufficiency for irregular narrative topology under ADR-0041.
 - Eight/eight input, policy, topology metric, lettering, overclaim, and invented-review mutations fail. Provider calls/uploads/cost remain 0/0/$0; art acceptance remains false.
+
+## 2026-09-01 - P036 causal-shape topology control r2
+
+- Bound deterministic plank/reach/hand/tin geometry to P036's ComicPanelPlan, `p036_core_read`, repair-readiness target semantics, and sealed-tin continuity contract. The output is explicitly abstract geometry, not a base or approved mask.
+- Compared 0/4/8/12/16-pixel context pads under the fixed selected 16-pixel inward boundary. The predeclared rule selects 8 pixels as the narrowest single-core pass.
+- Selected measurements: 42.1067208% union fully replaced core, one support/core/nonzero-alpha component, rectangularity 0.215862894, and core retention 45.4680595% plank / 44.4704701% reach / 48.6920039% hand / 38.3841661% tin.
+- Concavity and a 42-pixel thin reach are exercised; holes and disconnected support are not. Synthetic compositor exterior difference and lettering overlap are both zero.
+- Ten/ten intent, variant, boundary, connectivity, feature, spill, authority, and invented-review mutations fail. Calls/uploads/cost remain 0/0/$0.

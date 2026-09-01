@@ -64,7 +64,9 @@ The selected-route mask-boundary milestone is complete. Seven exact-hash local v
 
 The P036 mask-topology compatibility milestone is complete. The current mask is exactly one filled axis-aligned rectangle, not irregular causal geometry. The 16-pixel policy retains 79.032% fully replaced core, preserves 1/1 component, and changes zero exterior/lettering pixels, but exercises no concavity, holes, multiple components, or thin features. Eight/eight overclaim/tamper mutations fail; ADR-0041 marks irregular narrative topology not tested.
 
-The active bounded milestone is a P036 causal-shape topology control. Derive a deterministic non-art mask from the approved ComicPanelPlan's hand/plank/tin causal relationship, deliberately exercise concavity and thin-feature survival, apply the selected 16-pixel policy, and measure whether all required causal components retain useful cores without entering the lettering safe zone. Do not treat geometry labels or proxy pixels as a base raster or provider input.
+The P036 causal-shape topology milestone is complete. Five context paddings were measured with the fixed 16-pixel boundary. Eight pixels is the narrowest predeclared-rule pass: 42.107% connected union core; plank/reach/hand/tin retain 45.468%/44.470%/48.692%/38.384% core; rectangularity 0.215863 exercises concavity and the 42-pixel reach exercises a thin feature; exterior and lettering change remain zero. Ten/ten mutations fail. ADR-0042 keeps the outputs abstract, unapproved, and unauthorized for provider input.
+
+The active bounded milestone is selected-route repair-policy integration without proxy promotion. Compile the measured 16-pixel boundary and 8-pixel causal-context findings into a versioned local policy tied to P036's ComicPanelPlan and hard assertion, then prove the abstract mask cannot satisfy base/mask approval, external scope, reservation, or upload gates. Real offline preflight must remain blocked with no request body/client/executor.
 
 ### Authority and data boundaries
 

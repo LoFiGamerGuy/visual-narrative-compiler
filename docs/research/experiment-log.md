@@ -845,3 +845,10 @@
 - All 11/11 pass. Total observed runtime is 114.636 seconds; nested release/rebuild/source validation contributes 79.872/23.043/8.466 seconds.
 - The run covers 65/65 nested release checks and 32 indexed lineage records. Seventeen/seventeen command/result/hash/activity/limitation mutations fail under ADR-0076.
 - No command is declared network-capable; requests/uploads/downloads/cost remain 0/0/0/$0. Ledger r16 records 43 zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - frozen gauntlet and baseline integrity
+
+- Compared safe-source `f505788` versus `00498df`: all 16 authoritative v2.1.1 paths and four tracked baseline execution/configuration paths are byte-identical.
+- Gauntlet remains `f826b0f1…e9ae`; local untracked `garden/gen3.py` remains `004298df…db8` and matches the untracked baseline bundle declaration.
+- Local Stage-A result remains 12 cases/24 generations/0 assertion-conformant/0 accepted, decision rejected for further benchmarking, and no tuning performed.
+- Fifteen/fifteen path/hash/promotion/tuning/activity mutations fail under ADR-0077. No legacy rerender or imagery inspection occurred. Ledger r17 records 44 zero-cost milestones and remains disabled/no-cap/$0.

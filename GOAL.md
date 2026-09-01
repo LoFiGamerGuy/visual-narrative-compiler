@@ -132,7 +132,9 @@ The current evidence-lineage milestone is complete. Eleven domains resolve acros
 
 The executable evidence-reproducer milestone is complete. All 11/11 current domain commands pass in an observed 114.636 seconds, including the 65-check release, 28-artifact rebuild, source inventory, budget/review/handoff/authority/lattice/cost/readiness checks. Seventeen/seventeen mutations fail with zero requests/uploads/downloads/$0 under ADR-0076.
 
-The active bounded milestone is frozen-target integrity. Compare every frozen v2.1.1 gauntlet and baseline_legacy path in the earliest and latest safe-source snapshots and prove no byte, path, or semantic target changed during selection or hardening.
+The frozen-target integrity milestone is complete. All 16 v2.1.1 and four tracked baseline paths are byte-identical from `f505788` to `00498df`; the local workflow still matches its declared hash and the failure profile stays 0/24 accepted/no tuning. Fifteen/fifteen mutations fail with no rerender or external activity under ADR-0077.
+
+The active bounded milestone is a review/authority handoff packet. Compile the exact G07 human-review action, P036 input/authority/budget roots, current reproducer command, spend, and prohibited inferences into a compact hash-bound packet that leaves every decision and authority field blank.
 
 ### Authority and data boundaries
 

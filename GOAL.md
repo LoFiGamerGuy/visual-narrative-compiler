@@ -124,7 +124,9 @@ The selected-route hardening handoff r2 milestone is complete. Renderer selectio
 
 The P036 prerequisite authority-lattice milestone is complete. All 16 subsets were exercised: 15/15 partial states emit no envelope; the complete validation fixture emits metadata only; the same complete proxy set is blocked outside fixture mode. Seventeen/seventeen mutations fail with zero client/body/network/request/upload/$0 under ADR-0072.
 
-The active bounded milestone is hardening-release gate r3. Preserve the 60-check r2 gate as the immutable base, then append the current handoff r2, prerequisite lattice, and r10-r12 cost-ledger validators as a final no-network integration gate.
+The hardening-release gate r3 milestone is complete. The immutable 60-check r2 gate plus five current handoff/lattice/ledger extensions pass 65/65 in an observed 80.178 seconds; 16/16 mutations fail. G07 remains 0/20, CH05 inputs/cap/outcomes remain zero, P036 remains four root/nine total blockers, and next external action remains null under ADR-0073.
+
+The active bounded milestone is safe-source release r3. Pin the latest already-pushed commit after the handoff and lattice work, inventory the complete tracked source/evidence tree, and re-prove exclusion of generated/prohibited/unrelated local material before the final autonomous handoff.
 
 ### Authority and data boundaries
 

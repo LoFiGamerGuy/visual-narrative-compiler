@@ -816,3 +816,11 @@
 - All 15 incomplete subsets remain blocked with no metadata envelope. Cascading package-hash dependencies remain visible rather than being normalized away.
 - The complete fixture produces one `SYNTHETIC_VALIDATION_ONLY` metadata envelope with null request body and no network executor. The same proxy records in non-fixture mode are blocked as ineligible production inputs.
 - Seventeen/seventeen subset/promotion/request/activity mutations fail under ADR-0072. Ledger r12 records 39 local zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - hardening release gate r3
+
+- Preserved release gate r2 as an exact 60-check base and appended the current handoff r2, prerequisite lattice, and ledgers r10-r12.
+- R3 passes 65/65 local checks and rejects 16/16 supersession/base/extension/boundary/activity mutations under ADR-0073.
+- Observed local runtime is 80.178 seconds: 79.806 seconds for nested r2 and 0.371 seconds for five extensions.
+- The gate embeds the unchanged frontier: G07 0/20; CH05 zero inputs/cap/outcomes; P036 four root/nine total blockers; next external action null.
+- Ledger r13 records 40 local zero-cost milestones and remains disabled/no-cap/$0. Network/provider/upload/download activity remains zero.

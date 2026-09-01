@@ -128,7 +128,9 @@ The hardening-release gate r3 milestone is complete. The immutable 60-check r2 g
 
 The safe-source release r3 milestone is complete. Pushed commit `00498df5…5498` contains 412 paths / 8,791,840 bytes at tree `3052f539…cc6d1` and inventory root `a3a0c65c…3e618`; two controls and zero generated/prohibited/oversize paths are tracked. Thirteen/thirteen mutations fail and unrelated local material remains excluded under ADR-0074.
 
-The active bounded milestone is a current evidence-lineage index. Build a hash-bound, machine-validated map of every latest authoritative record, its superseded revision chain, reproducer command, and human/authority boundary so reviewers do not have to infer current state from stale cross-references.
+The current evidence-lineage milestone is complete. Eleven domains resolve across 32 exact records, including a 14-revision cost chain; every supersession identity/hash and validator command is bound. Current state remains 65/65 release, 412 safe paths, 41 zero-cost milestones, G07 0/20, and CH05 zero accepted/no cap; 18/18 mutations fail under ADR-0075.
+
+The active bounded milestone is an executable evidence-reproducer matrix. Run every current lineage-domain validator from its recorded command, capture exact validator hashes/output/timing, and prove the command set remains no-network and semantically consistent with the lineage index.
 
 ### Authority and data boundaries
 

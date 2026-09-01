@@ -831,3 +831,10 @@
 - Inventoried 412 tracked paths / 8,791,840 bytes at tree `3052f539571c7f1aef9072f8b3af9b4f4a4cc6d1`; canonical root is `a3a0c65c00a8bab78fc25f3f51f04a92655f1f08913de0f94b65e89c0fe3e618`.
 - Exactly two controls and zero generated/prohibited/oversize paths are tracked; 13/13 mutations fail under ADR-0074. Current scope/origin parity pass and unrelated untracked material stays excluded.
 - Ledger r14 records 41 local zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - current evidence lineage index
+
+- Resolved 11 current evidence domains through 32 exact newest-to-oldest records; the CH05 production-cost lineage contains 14 revisions.
+- Verified every supersession path, record/contract identity, and prior SHA-256, plus each current validator path/hash and portable no-network command.
+- Current summary is 65/65 release checks, 412 safe-source paths, 41 zero-cost milestones, G07 0/20, and CH05 zero accepted/no cap.
+- Eighteen/eighteen lineage/current-state/activity mutations fail under ADR-0075. Ledger r15 records 42 zero-cost milestones and remains disabled/no-cap/$0.

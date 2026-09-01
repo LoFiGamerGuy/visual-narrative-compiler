@@ -1,0 +1,532 @@
+{
+  "record_type": "CurrentEvidenceLineageIndex",
+  "schema_version": "1.0",
+  "record_id": "ng-current-evidence-lineage-index-r1",
+  "state": "CURRENT_RECORDS_AND_APPEND_ONLY_LINEAGES_HASH_VALIDATED",
+  "domains": [
+    {
+      "domain": "aggregate_budget_audit",
+      "current_record": {
+        "record_id": "ng-g07-aggregate-budget-binding-audit-r3",
+        "path": "docs/research/evidence/g07-aggregate-budget-binding-audit-r3.json",
+        "sha256": "d65cad3e8d4ac075a9b1d4b7a4c843b251ed7564e7e39b2c773424d47ddee546",
+        "schema_version": "2.1",
+        "state": "POST_BAKEOFF_ALL_PAID_ADAPTERS_SHARED_LEDGER_BOUND_NO_EXECUTION"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "ng-g07-aggregate-budget-binding-audit-r3",
+          "path": "docs/research/evidence/g07-aggregate-budget-binding-audit-r3.json",
+          "sha256": "d65cad3e8d4ac075a9b1d4b7a4c843b251ed7564e7e39b2c773424d47ddee546",
+          "schema_version": "2.1",
+          "state": "POST_BAKEOFF_ALL_PAID_ADAPTERS_SHARED_LEDGER_BOUND_NO_EXECUTION"
+        },
+        {
+          "record_id": "ng-g07-aggregate-budget-binding-audit-r2",
+          "path": "docs/research/evidence/g07-aggregate-budget-binding-audit-r2.json",
+          "sha256": "f1e978b732e1545431364785d1e928fe2c4c9446ab49cbd5dc4eaea0f93e46e9",
+          "schema_version": "2.0",
+          "state": "POST_BAKEOFF_ALL_PAID_ADAPTERS_SHARED_LEDGER_BOUND_NO_EXECUTION"
+        }
+      ],
+      "lineage_depth": 2,
+      "validator": {
+        "path": "src/north_garden/validate_bakeoff_adapter_budget_binding_audit.py",
+        "sha256": "6173309e453a77a2aa05b313dafc4bd47d584905590f9430e30a4c0c183d14e6"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_bakeoff_adapter_budget_binding_audit.py"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    },
+    {
+      "domain": "selector_contract",
+      "current_record": {
+        "record_id": "ng-scale-aware-repair-boundary-selector-contract-r2",
+        "path": "config/scale-aware-repair-boundary-selector-contract-r2.json",
+        "sha256": "36f18c1caacd35cf28ddf963da9460304e37a318d1c6d0dd18e67402dcb6317d",
+        "schema_version": "1.1",
+        "state": "LOCAL_SELECTOR_CONTRACT_EXPANDED_TOPOLOGY_COVERAGE_NO_PRODUCTION_READY_PROFILES"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "ng-scale-aware-repair-boundary-selector-contract-r2",
+          "path": "config/scale-aware-repair-boundary-selector-contract-r2.json",
+          "sha256": "36f18c1caacd35cf28ddf963da9460304e37a318d1c6d0dd18e67402dcb6317d",
+          "schema_version": "1.1",
+          "state": "LOCAL_SELECTOR_CONTRACT_EXPANDED_TOPOLOGY_COVERAGE_NO_PRODUCTION_READY_PROFILES"
+        },
+        {
+          "record_id": "ng-scale-aware-repair-boundary-selector-contract-r1",
+          "path": "config/scale-aware-repair-boundary-selector-contract-r1.json",
+          "sha256": "b0fea65bc4deca76240c50d95471a79452294f3f5209883f2e59eaf6cfc45679",
+          "schema_version": "1.0",
+          "state": "LOCAL_SELECTOR_CONTRACT_NO_PRODUCTION_READY_PROFILES"
+        }
+      ],
+      "lineage_depth": 2,
+      "validator": {
+        "path": "src/north_garden/validate_scale_aware_boundary_selector_r2.py",
+        "sha256": "2dc0fef1dd1d56aa010075cdab4f64be178ec19b48507c8c02e3ba0c6165f0a5"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_scale_aware_boundary_selector_r2.py"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    },
+    {
+      "domain": "artifact_rebuild",
+      "current_record": {
+        "record_id": "ng-selected-route-artifact-rebuild-reproducibility-r2",
+        "path": "docs/research/evidence/selected-route-artifact-rebuild-reproducibility-r2.json",
+        "sha256": "ff5d68ef41eedf4ac26fe50a0727c251b6354946dcc40181e69bb15d25fd88c1",
+        "schema_version": "1.1",
+        "state": "EXPANDED_TWO_CONSECUTIVE_LOCAL_REBUILDS_BYTE_IDENTICAL"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "ng-selected-route-artifact-rebuild-reproducibility-r2",
+          "path": "docs/research/evidence/selected-route-artifact-rebuild-reproducibility-r2.json",
+          "sha256": "ff5d68ef41eedf4ac26fe50a0727c251b6354946dcc40181e69bb15d25fd88c1",
+          "schema_version": "1.1",
+          "state": "EXPANDED_TWO_CONSECUTIVE_LOCAL_REBUILDS_BYTE_IDENTICAL"
+        },
+        {
+          "record_id": "ng-selected-route-artifact-rebuild-reproducibility-r1",
+          "path": "docs/research/evidence/selected-route-artifact-rebuild-reproducibility-r1.json",
+          "sha256": "577da238d6e6ec912292709253fa955be3a048212c0c44d85c9c9aad763af19b",
+          "schema_version": "1.0",
+          "state": "TWO_CONSECUTIVE_LOCAL_REBUILDS_BYTE_IDENTICAL"
+        }
+      ],
+      "lineage_depth": 2,
+      "validator": {
+        "path": "src/north_garden/validate_selected_route_artifact_rebuild_r2.py",
+        "sha256": "73ea7bd62c943199c9a0d20997c1a96c3504d81ac3fd1e8bb08837f2bde8964e"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_selected_route_artifact_rebuild_r2.py"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    },
+    {
+      "domain": "release_gate",
+      "current_record": {
+        "record_id": "ng-hardening-release-validation-gate-r3",
+        "path": "docs/research/evidence/hardening-release-validation-gate-r3.json",
+        "sha256": "81a249e70a04b68f4b4a347a99c8b8e466115642bbb3774fdf7e42374b71466a",
+        "schema_version": "1.2",
+        "state": "R2_GATE_AND_FINAL_LOCAL_HANDOFF_CHECKS_PASS"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "ng-hardening-release-validation-gate-r3",
+          "path": "docs/research/evidence/hardening-release-validation-gate-r3.json",
+          "sha256": "81a249e70a04b68f4b4a347a99c8b8e466115642bbb3774fdf7e42374b71466a",
+          "schema_version": "1.2",
+          "state": "R2_GATE_AND_FINAL_LOCAL_HANDOFF_CHECKS_PASS"
+        },
+        {
+          "record_id": "ng-hardening-release-validation-gate-r2",
+          "path": "docs/research/evidence/hardening-release-validation-gate-r2.json",
+          "sha256": "44f48b33c5318a64fab6e33ab886e53cfd97e53ca944a58d21ef474773878b98",
+          "schema_version": "1.1",
+          "state": "R1_GATE_AND_ALL_POST_R1_LOCAL_CHECKS_PASS"
+        },
+        {
+          "record_id": "ng-hardening-release-validation-gate-r1",
+          "path": "docs/research/evidence/hardening-release-validation-gate-r1.json",
+          "sha256": "b5984e3f4b88cbf27b2bd22cb99385614e336095383078accb4acda32787c3af",
+          "schema_version": "1.0",
+          "state": "ALL_CORE_AND_POST_SUITE_LOCAL_CHECKS_PASS"
+        }
+      ],
+      "lineage_depth": 3,
+      "validator": {
+        "path": "src/north_garden/validate_hardening_release_r3.py",
+        "sha256": "b1903ded6b202995c1bdec883aacdbbe1ac20eefc34c6f3c9ad248c21812deec"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_hardening_release_r3.py"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    },
+    {
+      "domain": "safe_source",
+      "current_record": {
+        "record_id": "ng-safe-source-release-00498df",
+        "path": "docs/research/evidence/safe-source-release-manifest-00498df.json",
+        "sha256": "08731aa2aae24b3062091a68a3a2e5d035089dade654d3b7d269f3c37255e936",
+        "schema_version": "1.2",
+        "state": "PINNED_SAFE_SOURCE_COMMIT_PUSHED"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "ng-safe-source-release-00498df",
+          "path": "docs/research/evidence/safe-source-release-manifest-00498df.json",
+          "sha256": "08731aa2aae24b3062091a68a3a2e5d035089dade654d3b7d269f3c37255e936",
+          "schema_version": "1.2",
+          "state": "PINNED_SAFE_SOURCE_COMMIT_PUSHED"
+        },
+        {
+          "record_id": "ng-safe-source-release-43fc787",
+          "path": "docs/research/evidence/safe-source-release-manifest-43fc787.json",
+          "sha256": "212cd2c8d85f0b1bf14919723aa053044afda09c030e4d6eb85588c4658c48e0",
+          "schema_version": "1.1",
+          "state": "PINNED_SAFE_SOURCE_COMMIT_PUSHED"
+        },
+        {
+          "record_id": "ng-safe-source-release-f505788",
+          "path": "docs/research/evidence/safe-source-release-manifest-f505788.json",
+          "sha256": "f393d3e3ac89929ac1ee4589058ad5b73ebec5d2310758a7b48be32d6e53d91b",
+          "schema_version": "1.0",
+          "state": "PINNED_SAFE_SOURCE_COMMIT_PUSHED"
+        }
+      ],
+      "lineage_depth": 3,
+      "validator": {
+        "path": "src/north_garden/validate_safe_source_release_manifest_r3.py",
+        "sha256": "d024f94462f5c4a131f0672d19effe2054bf8efe0b2ac89a731c43c7771ab8a1"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_safe_source_release_manifest_r3.py",
+          "--allow-unpushed-current"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    },
+    {
+      "domain": "selected_route_handoff",
+      "current_record": {
+        "record_id": "ng-selected-route-hardening-state-r2",
+        "path": "docs/research/evidence/selected-route-hardening-state-r2.json",
+        "sha256": "8162ebdf30b07eec9840ace3fc283e681645834e6cdc001ea5a1639bec14a9cc",
+        "schema_version": "1.1",
+        "state": "ENGINEERING_ROUTE_SELECTED_LATEST_LOCAL_HARDENING_VALIDATED_PRODUCTION_BLOCKED"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "ng-selected-route-hardening-state-r2",
+          "path": "docs/research/evidence/selected-route-hardening-state-r2.json",
+          "sha256": "8162ebdf30b07eec9840ace3fc283e681645834e6cdc001ea5a1639bec14a9cc",
+          "schema_version": "1.1",
+          "state": "ENGINEERING_ROUTE_SELECTED_LATEST_LOCAL_HARDENING_VALIDATED_PRODUCTION_BLOCKED"
+        },
+        {
+          "record_id": "ng-selected-route-hardening-state-r1",
+          "path": "docs/research/evidence/selected-route-hardening-state-r1.json",
+          "sha256": "6c336cde8331ae3eeeeb51d5137c6814aa5c5f2f1363884020c69d5cc43b0216",
+          "schema_version": "1.0",
+          "state": "ENGINEERING_ROUTE_SELECTED_LOCAL_HARDENING_MEASURED_PRODUCTION_BLOCKED"
+        }
+      ],
+      "lineage_depth": 2,
+      "validator": {
+        "path": "src/north_garden/validate_selected_route_hardening_state_r2.py",
+        "sha256": "339b9c91e71b8f60ec1779ace54afb49297d49ccbd862a42caeea02e0d32d467"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_selected_route_hardening_state_r2.py"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    },
+    {
+      "domain": "authority_frontier",
+      "current_record": {
+        "record_id": "ng-selected-route-authority-dependency-frontier-r1",
+        "path": "docs/research/evidence/selected-route-authority-dependency-frontier-r1.json",
+        "sha256": "8646c2a11c27c613754813b66c457a15bdb018292135afe5d660da74b2388696",
+        "schema_version": "1.0",
+        "state": "LOCAL_HARDENING_VALIDATED_REAL_REVIEW_AND_PRODUCTION_AUTHORITY_FRONTIER_EXPLICIT"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "ng-selected-route-authority-dependency-frontier-r1",
+          "path": "docs/research/evidence/selected-route-authority-dependency-frontier-r1.json",
+          "sha256": "8646c2a11c27c613754813b66c457a15bdb018292135afe5d660da74b2388696",
+          "schema_version": "1.0",
+          "state": "LOCAL_HARDENING_VALIDATED_REAL_REVIEW_AND_PRODUCTION_AUTHORITY_FRONTIER_EXPLICIT"
+        }
+      ],
+      "lineage_depth": 1,
+      "validator": {
+        "path": "src/north_garden/validate_selected_route_authority_frontier.py",
+        "sha256": "c3aae0b070659394948bf7132fd512f4b9cfcfd2e77f9ebaa34c06ec9d1d14aa"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_selected_route_authority_frontier.py"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    },
+    {
+      "domain": "prerequisite_lattice",
+      "current_record": {
+        "record_id": "ng-p036-prerequisite-authority-lattice-r1",
+        "path": "docs/research/evidence/p036-prerequisite-authority-lattice-r1.json",
+        "sha256": "69b2b1c6da7aab5462df5af6871c38363d30702f431b2bc5f1d13c9883d8d5cd",
+        "schema_version": "1.0",
+        "state": "ALL_PARTIAL_SUBSETS_BLOCKED_COMPLETE_FIXTURE_METADATA_ONLY"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "ng-p036-prerequisite-authority-lattice-r1",
+          "path": "docs/research/evidence/p036-prerequisite-authority-lattice-r1.json",
+          "sha256": "69b2b1c6da7aab5462df5af6871c38363d30702f431b2bc5f1d13c9883d8d5cd",
+          "schema_version": "1.0",
+          "state": "ALL_PARTIAL_SUBSETS_BLOCKED_COMPLETE_FIXTURE_METADATA_ONLY"
+        }
+      ],
+      "lineage_depth": 1,
+      "validator": {
+        "path": "src/north_garden/validate_p036_prerequisite_authority_lattice.py",
+        "sha256": "784cab39fd07ca55bbd9fb85dedd84098efa8ff16317810c1ac48875a4a6829f"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_p036_prerequisite_authority_lattice.py"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    },
+    {
+      "domain": "ch05_production_cost",
+      "current_record": {
+        "record_id": "ng-ch05-production-cost-ledger-r14",
+        "path": "docs/research/evidence/ch05-production-cost-ledger-r14.json",
+        "sha256": "d098757f19843f7ed8936a0bbef179802aa1ca93bb6b3f25a71a8a805b7413de",
+        "schema_version": "1.13",
+        "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r14",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r14.json",
+          "sha256": "d098757f19843f7ed8936a0bbef179802aa1ca93bb6b3f25a71a8a805b7413de",
+          "schema_version": "1.13",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r13",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r13.json",
+          "sha256": "6601849ba6c93fb7748e6e5cdaf42a216bb9218e37e0028228977859b8f0988b",
+          "schema_version": "1.12",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r12",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r12.json",
+          "sha256": "338f725c66c75213c656c45fca04d58cb16bff8646d64184da886a93b7127d40",
+          "schema_version": "1.11",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r11",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r11.json",
+          "sha256": "ed92b36957b3779035e45fce45367cad6e6925cfb4021b6c29332a9b1f5d780c",
+          "schema_version": "1.10",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r10",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r10.json",
+          "sha256": "59faba69fa9062c2b3684d11517f9409512bbc5e45ee5fa7bce16459d020f4d7",
+          "schema_version": "1.9",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r9",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r9.json",
+          "sha256": "cf2166e9916d40abfc3f3b72614c14d50b5e44b81815525a7331670930321ef4",
+          "schema_version": "1.8",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r8",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r8.json",
+          "sha256": "b0ba84375cd6582845561190cc0baf85a95f6d6f03727ff4b8d014efc5267c83",
+          "schema_version": "1.7",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r7",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r7.json",
+          "sha256": "17772228e6872e067e2847bf7da317bb2e7727621e19816ce5bfa2937eb80af5",
+          "schema_version": "1.6",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r6",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r6.json",
+          "sha256": "b20eea624cd39ca41fff4480e846cfeb19250429383542c2f3e6c5e430a61980",
+          "schema_version": "1.5",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r5",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r5.json",
+          "sha256": "a242cc9280e01a713b52268c531df9ad8b03b669863089e01dde40a2b00bbb4d",
+          "schema_version": "1.4",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r4",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r4.json",
+          "sha256": "9938ecb4cc342a8af24d563249867bc0ce52c1b1b31e486251c47e45ef6ffb7a",
+          "schema_version": "1.3",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r3",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r3.json",
+          "sha256": "f1c095469cbe7e4cca287197b69d2a6f6e73dec6b3c21ff6f006609dc76a0d30",
+          "schema_version": "1.2",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r2",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r2.json",
+          "sha256": "3101ad67460b6bc7fe15bc551f61020fbdd99bb90d2c53335ce01d997468c1ab",
+          "schema_version": "1.1",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        },
+        {
+          "record_id": "ng-ch05-production-cost-ledger-r1",
+          "path": "docs/research/evidence/ch05-production-cost-ledger-r1.json",
+          "sha256": "9dc90cd602ff79ea3d9804e8d88ab8dd7aa5300ecd83a11ce1b9119162dcf1c0",
+          "schema_version": "1.0",
+          "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY"
+        }
+      ],
+      "lineage_depth": 14,
+      "validator": {
+        "path": "src/north_garden/validate_ch05_production_cost_ledger_r14.py",
+        "sha256": "ce54825847e87933458625ea6e70496676aea9141cdde17856938b4e434ae6c4"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_ch05_production_cost_ledger_r14.py"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    },
+    {
+      "domain": "g07_review_gate",
+      "current_record": {
+        "record_id": "g07-human-review-rollup-gate-r1",
+        "path": "docs/research/evidence/g07-human-review-rollup-gate-r1.json",
+        "sha256": "927e76a328b8303fb0ca37f00027e2dba3f90e808f6b24d781bb21e9f224b78c",
+        "schema_version": "1.0",
+        "state": "PENDING_COMPLETE_ELIGIBLE_HUMAN_SESSION"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "g07-human-review-rollup-gate-r1",
+          "path": "docs/research/evidence/g07-human-review-rollup-gate-r1.json",
+          "sha256": "927e76a328b8303fb0ca37f00027e2dba3f90e808f6b24d781bb21e9f224b78c",
+          "schema_version": "1.0",
+          "state": "PENDING_COMPLETE_ELIGIBLE_HUMAN_SESSION"
+        }
+      ],
+      "lineage_depth": 1,
+      "validator": {
+        "path": "src/north_garden/validate_g07_review_rollup.py",
+        "sha256": "6accd7b366f6cdac626da0e7f637bf2fd1662dc7e8a856b3548e17be375b79a1"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_g07_review_rollup.py"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    },
+    {
+      "domain": "ch05_repair_readiness",
+      "current_record": {
+        "record_id": "ng-ch05-repair-evidence-readiness-matrix-r1",
+        "path": "production/comic/repair-readiness/ch05-repair-evidence-readiness-matrix-r1.json",
+        "sha256": "859dd87f0c80837fb414975de21a8cc61926780e733c77e0aa690c4e09aaa1b5",
+        "schema_version": "1.0",
+        "state": "FULL_DENOMINATOR_NO_PRODUCTION_READY_REPAIR_OUTCOMES"
+      },
+      "lineage_newest_to_oldest": [
+        {
+          "record_id": "ng-ch05-repair-evidence-readiness-matrix-r1",
+          "path": "production/comic/repair-readiness/ch05-repair-evidence-readiness-matrix-r1.json",
+          "sha256": "859dd87f0c80837fb414975de21a8cc61926780e733c77e0aa690c4e09aaa1b5",
+          "schema_version": "1.0",
+          "state": "FULL_DENOMINATOR_NO_PRODUCTION_READY_REPAIR_OUTCOMES"
+        }
+      ],
+      "lineage_depth": 1,
+      "validator": {
+        "path": "src/north_garden/validate_ch05_repair_evidence_readiness_matrix.py",
+        "sha256": "566b2fbfa27f68d6378ac6e8bbcdc7250af293538edb762032b80d1dae267e5a"
+      },
+      "reproducer": {
+        "argv": [
+          "python",
+          "src/north_garden/validate_ch05_repair_evidence_readiness_matrix.py"
+        ],
+        "working_directory": ".",
+        "network_expected": false
+      }
+    }
+  ],
+  "summary": {
+    "domains": 11,
+    "lineage_records": 32,
+    "current_release_checks_passed": 65,
+    "current_release_checks_total": 65,
+    "safe_source_paths": 412,
+    "safe_source_generated_paths": 0,
+    "production_zero_cost_milestones": 41,
+    "g07_human_decisions": 0,
+    "g07_human_decisions_required": 20,
+    "ch05_accepted_panels": 0,
+    "ch05_production_cap_usd": null,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "current_boundaries": [
+    "Engineering route selection is not visual acceptance or commercial clearance.",
+    "G07 human review remains incomplete and no decision/minute may be invented.",
+    "CH05 production remains disabled with no cap, approved inputs, upload authority, outcome, or accepted panel.",
+    "ComicPanelPlan remains separate from null AnimationShotPlan and E-Conte records.",
+    "Generated provider candidates and local runtime artifacts remain outside Git."
+  ],
+  "boundary": "The index resolves provenance and reproducer commands only. It is not a new experiment, authority grant, or acceptance decision."
+}

@@ -547,3 +547,11 @@
 - Five/five missing, extra, corrupt, path-escaping, and duplicate-member mutations fail. Existing differing archives are not overwritten.
 - This is a same-disk restoration rehearsal, not durable off-device backup. Provider calls/uploads/cost are 0/0/$0; review remains unperformed and accepted candidates remain zero under ADR-0037.
 - Consolidated offline validation now passes 25/25 checks in 3.230 seconds.
+
+## 2026-09-01 - blinded and timed G07 review protocol
+
+- Re-encoded all 16 candidates into provider-neutral PNG presentations while preserving each source's decoded RGB bytes exactly. Four hidden-arm repeat descriptors pair the two independent requests, giving 20 required decisions.
+- The packet excludes provider/model labels, original provider paths, request IDs, and cost. Assignment root is `98a71467…35387`; packet root is `4b1e5f0c…478161`. Presentation blinding is procedural rather than secrecy against source inspection.
+- Candidate assertions cover proxy role binding/order/count, shared table/blocking, contact, side effects/text, target-change preservation, and strict no-change observation. Repeat assertions cover count/order/blocking consistency and explicit uncontrolled-variation notation.
+- Append-only timer events calculate minutes. Thirteen/thirteen identity leak, reorder, missing coverage, candidate hash, case/pair binding, assertion, manual-minute, and fixture mutations fail.
+- No real reviewer/session/decision was created: decisions 0/20, human minutes null, accepted subjects zero. Consolidated offline validation passes 26/26 in 5.326 seconds.

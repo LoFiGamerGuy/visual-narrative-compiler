@@ -56,7 +56,9 @@ The G07 local evidence-vault milestone is complete. The tracked non-art manifest
 
 The G07 evidence-restoration milestone is complete. A deterministic ignored local archive contains exactly 38 entries: the manifest, two public controls, 19 provider records, and 16 candidates. All members verify directly without extraction; repeated construction is byte-identical; five/five missing, extra, corrupt, path-escaping, and duplicate mutations fail. The 19,879,277-byte archive hashes to `64bea215…69cad7`. ADR-0037 records that this same-disk rehearsal is not off-device backup and grants no rerender authority.
 
-The active bounded milestone is blinded G07 human-review instrumentation. Compile the 16 candidates into provider-hidden, case-balanced assignments bound to exact hashes; define assertion-level judgments and append-only timing/decision events; and prove identity leakage, reordered assignments, untimed decisions, and incomplete comparisons fail. Do not invent review results or accept candidates.
+The blinded G07 human-review instrumentation milestone is complete. Sixteen neutral PNG presentations preserve exact decoded RGB content and four provider-hidden repeat pairs cover the independent samples. Packet root `4b1e5f0c…478161` requires 20 append-only timed decisions across role binding/order/count, shared set/blocking, target/no-change behavior, side effects, and repeat limitations. Thirteen/thirteen identity-leak, ordering, coverage, timing, hash, and assertion mutations fail. Actual decisions remain 0/20, human minutes null, accepted subjects zero under ADR-0038.
+
+The active bounded milestone is fail-closed G07 review rollup. Build a deblinding compiler that accepts only a complete, eligible, exact-packet human session, preserves per-assertion and failure-tag evidence, joins measured cost/latency/drift without inventing a composite score, and emits no real arm result while review is pending. Prove fixture, incomplete, reordered, or mapping-mismatched sessions cannot affect the selected-route evidence.
 
 ### Authority and data boundaries
 

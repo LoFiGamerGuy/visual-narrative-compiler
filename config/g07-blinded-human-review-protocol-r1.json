@@ -1,0 +1,54 @@
+{
+  "acceptance_boundary": "Candidate acceptance is separate from mechanism selection, commercial clearance, and production/upload authority.",
+  "assignment_root_sha256": "98a71467743015810af66ad1d6c68b33a97293c6aced9e70adeb1dc01c035387",
+  "candidate_subjects": 16,
+  "case_order": [
+    "independent-01",
+    "independent-02",
+    "target-change",
+    "no-change"
+  ],
+  "case_specific_assertion_ids": {
+    "independent-01": [
+      "scene_blocking_is_legible"
+    ],
+    "independent-02": [
+      "scene_blocking_is_legible"
+    ],
+    "no-change": [
+      "right_proxy_remains_teal",
+      "orange_proxy_is_preserved",
+      "shared_set_and_blocking_are_preserved",
+      "no_unrequested_visual_change_is_observed"
+    ],
+    "target-change": [
+      "right_proxy_changes_teal_to_green",
+      "orange_proxy_is_preserved",
+      "shared_set_and_blocking_are_preserved"
+    ]
+  },
+  "common_candidate_assertion_ids": [
+    "proxy_role_count_exactly_two",
+    "orange_proxy_is_left_role",
+    "right_proxy_has_case_expected_color",
+    "both_roles_share_one_table_set",
+    "roles_do_not_contact_or_merge",
+    "no_salient_undeclared_object",
+    "no_generated_role_label_or_stray_text"
+  ],
+  "deblinding": "Map blind IDs to provider arms only after a complete valid session; never expose mapping in the presentation packet.",
+  "packet_sha256": "4b1e5f0c4c53688df838c1a6f28a4afa548ac3fb5159a93c5531f23925478161",
+  "protocol_id": "g07-blinded-human-review-protocol-r1",
+  "record_type": "G07BlindedHumanReviewProtocol",
+  "repeat_pair_assertion_ids": [
+    "role_count_consistent_across_repeat",
+    "role_order_consistent_across_repeat",
+    "shared_set_and_blocking_consistent_across_repeat",
+    "uncontrolled_visual_variation_is_explicitly_noted"
+  ],
+  "repeat_pair_subjects": 4,
+  "schema_version": "1.0",
+  "source_vault_root_sha256": "e84b04029ca14b9a40dbdcd2e6d2937c322bf019df2191d032169e062696d3ab",
+  "timing": "Use append-only TimedHumanReviewSession START/PAUSE/RESUME/COMPLETE events; never type minutes manually.",
+  "total_decisions_required": 20
+}

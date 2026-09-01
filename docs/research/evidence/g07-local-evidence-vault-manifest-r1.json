@@ -1,0 +1,515 @@
+{
+  "record_type": "G07LocalEvidenceVaultManifest",
+  "schema_version": "1.0",
+  "manifest_id": "g07-local-evidence-vault-manifest-r1",
+  "scope": {
+    "generated_material_policy": "hashes_and_non_art_metadata_tracked; provider records and raster candidates remain ignored under experiments/",
+    "human_review_state": "not_yet_performed",
+    "acceptance_state": "all_candidates_unaccepted",
+    "rerender_authority": false
+  },
+  "public_controls": [
+    {
+      "path": "public-controls/g07a-no-change-r1.png",
+      "sha256": "867a05c2f3e35f196cd28a9d1dc1954f2ba862f62d33ae34df4f3161a3200436"
+    },
+    {
+      "path": "public-controls/g07a-role-id-r1.png",
+      "sha256": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+    }
+  ],
+  "inventory": {
+    "provider_records": 19,
+    "completed_candidates": 16,
+    "failure_or_intermediate_records": 3,
+    "tracked_generated_experiment_paths": 0
+  },
+  "cost_reconciliation": {
+    "required_candidate_cost_usd": "0.987377",
+    "paid_failure_cost_usd": "0.070000",
+    "aggregate_paid_cost_usd": "1.057377",
+    "held_usd": "0.000000",
+    "approved_cap_usd": "100.000000",
+    "available_usd": "98.942623",
+    "provider_candidate_costs_usd": {
+      "openai_gpt_image_2": "0.198621",
+      "gemini_3_1_flash_image": "0.268756",
+      "grok_imagine_image_2": "0.280000",
+      "bfl_flux_2": "0.240000"
+    },
+    "provider_paid_failure_costs_usd": {
+      "openai_gpt_image_2": "0.000000",
+      "gemini_3_1_flash_image": "0.000000",
+      "grok_imagine_image_2": "0.070000",
+      "bfl_flux_2": "0.000000"
+    },
+    "gemini_recovery_charge_rule": "failed interaction and recovered candidate share one request ID and one generation charge"
+  },
+  "integrity": {
+    "record_hash_root_sha256": "8e4f13bc0f6d7c4b4751abfa81e477395653febaa5ff6fbf3d902f5f818a9a1d",
+    "candidate_artifact_hash_root_sha256": "020e9aa137f57d666e1048677d651e605eec915992fc4cf9fa6ec9e864d41a6f",
+    "vault_root_sha256": "e84b04029ca14b9a40dbdcd2e6d2937c322bf019df2191d032169e062696d3ab"
+  },
+  "records": [
+    {
+      "path": "experiments/records/bfl_flux2_g07_bakeoff_r1/g07a-independent-01.json",
+      "sha256": "87db03c8a8e21f3808d4e0411bcbba080832f1320ea06ea406eca8303d96722c",
+      "adapter_id": "bfl_flux_2",
+      "execution_status": "completed",
+      "request_id": "41558a1a-933a-47ca-95cf-00a7e27a03ec",
+      "elapsed_seconds": 17.237,
+      "cost_usd": "0.060000",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "5eb56bf94eaf3457288bb6109e8914a9d05883372d618ad7d2ab76eafed1075b"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/bfl_flux2_g07_bakeoff_r1/g07a-independent-01.png",
+        "sha256": "5eb56bf94eaf3457288bb6109e8914a9d05883372d618ad7d2ab76eafed1075b",
+        "bytes": 1989994,
+        "mime_type": null
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/bfl_flux2_g07_bakeoff_r1/g07a-independent-02.json",
+      "sha256": "0ed515372f0c8b545e667268ae944ea29b17ce9d50534fe0ad5dac5ee3a929ea",
+      "adapter_id": "bfl_flux_2",
+      "execution_status": "completed",
+      "request_id": "802dc4d7-3728-4937-ab5b-e5d0f1fc40cc",
+      "elapsed_seconds": 14.424,
+      "cost_usd": "0.060000",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "559916d54b8197632c841ac680cdfd947db1aadfe5be432e5da0fdb7dd21147e"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/bfl_flux2_g07_bakeoff_r1/g07a-independent-02.png",
+        "sha256": "559916d54b8197632c841ac680cdfd947db1aadfe5be432e5da0fdb7dd21147e",
+        "bytes": 1743966,
+        "mime_type": null
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/bfl_flux2_g07_bakeoff_r1/g07a-no-change.json",
+      "sha256": "ea5119d1defffcae847c5e915770332ce1e5baf8654eb53df82576b7b7da2006",
+      "adapter_id": "bfl_flux_2",
+      "execution_status": "completed",
+      "request_id": "a7ce9209-1508-4cf2-af94-32d8bd00e179",
+      "elapsed_seconds": 28.578,
+      "cost_usd": "0.060000",
+      "input_hashes": {
+        "g07a-nochange-reference": "867a05c2f3e35f196cd28a9d1dc1954f2ba862f62d33ae34df4f3161a3200436"
+      },
+      "output_hashes": [
+        "b97c2ad08f13f62cdc6ec3fef700d6f6b30833f28070d9ae61ba16540f984f59"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/bfl_flux2_g07_bakeoff_r1/g07a-no-change.png",
+        "sha256": "b97c2ad08f13f62cdc6ec3fef700d6f6b30833f28070d9ae61ba16540f984f59",
+        "bytes": 2337453,
+        "mime_type": null
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/bfl_flux2_g07_bakeoff_r1/g07a-target-change.json",
+      "sha256": "cf107cfc069f9b117b49ba2d5371b50b00ad2efd51c6d2174f05c6a6be1047fd",
+      "adapter_id": "bfl_flux_2",
+      "execution_status": "completed",
+      "request_id": "023c9c77-92da-40f1-b7cd-fb39f96f22b5",
+      "elapsed_seconds": 14.348,
+      "cost_usd": "0.060000",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "415844108bac959c2c84bed1328a0dfd434265cba932d8d00b9a6634421f4a57"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/bfl_flux2_g07_bakeoff_r1/g07a-target-change.png",
+        "sha256": "415844108bac959c2c84bed1328a0dfd434265cba932d8d00b9a6634421f4a57",
+        "bytes": 1654672,
+        "mime_type": null
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/gemini_flash_image_g07_bakeoff_r1/g07a-independent-01-failed.json",
+      "sha256": "55b39e1998b6a282aaca21f86873599ca299183f06a32f1a1e16a2c908535109",
+      "adapter_id": "gemini_3_1_flash_image",
+      "execution_status": "failed",
+      "request_id": "v1_ChdsdTJXYXJDS0Z1RzUzOUlQcHJtM2tRbxIXbHUyV2FyQ0tGdUc1MzlJUHBybTNrUW8",
+      "elapsed_seconds": 11.006,
+      "cost_usd": "not_reported; reconcile against provider billing/usage",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [],
+      "candidate": null,
+      "failure_tags": [
+        "provider_result_processing_failed"
+      ],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/gemini_flash_image_g07_bakeoff_r1/g07a-independent-01.json",
+      "sha256": "90601ca4f159babf7b80bdedd664b456cd74b00f5602e57c3a75626f2797c8a2",
+      "adapter_id": "gemini_3_1_flash_image",
+      "execution_status": "completed_recovered_from_interaction",
+      "request_id": "v1_ChdsdTJXYXJDS0Z1RzUzOUlQcHJtM2tRbxIXbHUyV2FyQ0tGdUc1MzlJUHBybTNrUW8",
+      "elapsed_seconds": 11.869,
+      "cost_usd": "0.067188",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "523d0255c570de799159ce9dfa6de8e8287f3f2c0947cc6e782cd954c8023e5e"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/gemini_flash_image_g07_bakeoff_r1/g07a-independent-01.jpg",
+        "sha256": "523d0255c570de799159ce9dfa6de8e8287f3f2c0947cc6e782cd954c8023e5e",
+        "bytes": 239719,
+        "mime_type": "image/jpeg"
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/gemini_flash_image_g07_bakeoff_r1/g07a-independent-02.json",
+      "sha256": "f293ca841bf8b104dfbf1ca17006b11d4e7bcab7b1854084b509f399056d96d4",
+      "adapter_id": "gemini_3_1_flash_image",
+      "execution_status": "completed",
+      "request_id": "v1_ChdhTy1XYXBxOE1OLTlzT0lQbGNIb2dRMBIXYU8tV2FwcThNTi05c09JUGxjSG9nUTA",
+      "elapsed_seconds": 14.067,
+      "cost_usd": "0.067188",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "2229f6193c60b5d12f3ed4aa0669819be7567c99078ff9b095e86f20f17b8eca"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/gemini_flash_image_g07_bakeoff_r1/g07a-independent-02.jpg",
+        "sha256": "2229f6193c60b5d12f3ed4aa0669819be7567c99078ff9b095e86f20f17b8eca",
+        "bytes": 230728,
+        "mime_type": "image/jpeg"
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/gemini_flash_image_g07_bakeoff_r1/g07a-no-change.json",
+      "sha256": "125a5c313c98c5c53258b260f274090500c5149701a2fcb93d506b1cb85f1994",
+      "adapter_id": "gemini_3_1_flash_image",
+      "execution_status": "completed",
+      "request_id": "v1_ChZmLS1XYXEzQ0ZvQ3RzT0lQLS1MdkVBEhZmLS1XYXEzQ0ZvQ3RzT0lQLS1MdkVB",
+      "elapsed_seconds": 9.948,
+      "cost_usd": "0.067190",
+      "input_hashes": {
+        "g07a-nochange-reference": "867a05c2f3e35f196cd28a9d1dc1954f2ba862f62d33ae34df4f3161a3200436"
+      },
+      "output_hashes": [
+        "8dd93b259f181b1b7ee37a3b042b21a1e60380ef0212bdb878ab9fb4c4960951"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/gemini_flash_image_g07_bakeoff_r1/g07a-no-change.jpg",
+        "sha256": "8dd93b259f181b1b7ee37a3b042b21a1e60380ef0212bdb878ab9fb4c4960951",
+        "bytes": 205717,
+        "mime_type": "image/jpeg"
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/gemini_flash_image_g07_bakeoff_r1/g07a-target-change.json",
+      "sha256": "32f7fcacbbfa21e40c98026b6e03f5c929597a26c22a02efd287945350d31344",
+      "adapter_id": "gemini_3_1_flash_image",
+      "execution_status": "completed",
+      "request_id": "v1_ChdkTy1XYXRqOUk3NjNfdU1QN1AzTWdBcxIXZE8tV2F0ajlJNzYzX3VNUDdQM01nQXM",
+      "elapsed_seconds": 11.152,
+      "cost_usd": "0.067190",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "7b5ca31279bdabb3f8e0f63f8a5300363b53923d604fef13a5825591ba8bf72b"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/gemini_flash_image_g07_bakeoff_r1/g07a-target-change.jpg",
+        "sha256": "7b5ca31279bdabb3f8e0f63f8a5300363b53923d604fef13a5825591ba8bf72b",
+        "bytes": 231878,
+        "mime_type": "image/jpeg"
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-independent-01-failed.json",
+      "sha256": "df91494c2ae424276a1f1cc0b561710e72f60be92eba842f53fb086e3a7d94b2",
+      "adapter_id": "openai_gpt_image_2",
+      "execution_status": "failed",
+      "request_id": null,
+      "elapsed_seconds": 0.332,
+      "cost_usd": "0.000000",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [],
+      "candidate": null,
+      "failure_tags": [
+        "provider_result_processing_failed"
+      ],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-independent-01.json",
+      "sha256": "a8ed12089207e887f8423cad6b89f8205d78de0e3021c1454ecfeb81e55cd66a",
+      "adapter_id": "openai_gpt_image_2",
+      "execution_status": "completed",
+      "request_id": "req_f00e17c1c8ac4f36b16e6a246679558f",
+      "elapsed_seconds": 32.048,
+      "cost_usd": "0.049644",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "321b4013d3aa565a674c35752b72dc17862601c8fab15ca7c719d44bf0c06bc0"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/openai_gpt_image2_g07_bakeoff_r1/g07a-independent-01.png",
+        "sha256": "321b4013d3aa565a674c35752b72dc17862601c8fab15ca7c719d44bf0c06bc0",
+        "bytes": 2304168,
+        "mime_type": null
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-independent-02.json",
+      "sha256": "95f1b9bea19f1795c0532cbe2956667bde7d8aded3ce922c3ebcc929f6cf5f39",
+      "adapter_id": "openai_gpt_image_2",
+      "execution_status": "completed",
+      "request_id": "req_9a9294da008941ac839bb12d7af17c93",
+      "elapsed_seconds": 31.534,
+      "cost_usd": "0.049644",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "7e7b29c17af21ec1ea0a642521ce54a3c0e65d078205ca9959f4a3323db31ac0"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/openai_gpt_image2_g07_bakeoff_r1/g07a-independent-02.png",
+        "sha256": "7e7b29c17af21ec1ea0a642521ce54a3c0e65d078205ca9959f4a3323db31ac0",
+        "bytes": 1949598,
+        "mime_type": null
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-no-change.json",
+      "sha256": "c7301a3d5164a34f83ff3d4a1bfc51fe8a0d4acabe35f852de91befae81bb599",
+      "adapter_id": "openai_gpt_image_2",
+      "execution_status": "completed",
+      "request_id": "req_d94e71cae84b40299e79cbad4c7ee969",
+      "elapsed_seconds": 32.364,
+      "cost_usd": "0.049664",
+      "input_hashes": {
+        "g07a-nochange-reference": "867a05c2f3e35f196cd28a9d1dc1954f2ba862f62d33ae34df4f3161a3200436"
+      },
+      "output_hashes": [
+        "45b9e85820f1692965a32e1d37fb56bb53a47c4fecf886953eba01eab76773c6"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/openai_gpt_image2_g07_bakeoff_r1/g07a-no-change.png",
+        "sha256": "45b9e85820f1692965a32e1d37fb56bb53a47c4fecf886953eba01eab76773c6",
+        "bytes": 2260829,
+        "mime_type": null
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-target-change.json",
+      "sha256": "66f00641b0aeaa56df5eea312b2c3878bca11c26ccb2f919bf0c33a1ce0988b1",
+      "adapter_id": "openai_gpt_image_2",
+      "execution_status": "completed",
+      "request_id": "req_8fd7190fced54cce80f7c99a8d939389",
+      "elapsed_seconds": 32.401,
+      "cost_usd": "0.049669",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "3f9f05b2b3582088f9bd7a3caed9cc90c53ad148fc471656cf2ee534aac22906"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/openai_gpt_image2_g07_bakeoff_r1/g07a-target-change.png",
+        "sha256": "3f9f05b2b3582088f9bd7a3caed9cc90c53ad148fc471656cf2ee534aac22906",
+        "bytes": 1813547,
+        "mime_type": null
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/xai_grok_imagine_g07_bakeoff_r1/g07a-independent-01-failed.json",
+      "sha256": "f08aa2403b6e37325d3f0a815ae669ffcd209bf7aaab960f34765bad0d925b49",
+      "adapter_id": "grok_imagine_image_2",
+      "execution_status": "failed",
+      "request_id": "ad4b2bec-8e43-9cd1-9416-f6ce95a32285",
+      "elapsed_seconds": 8.899,
+      "cost_usd": "0.070000",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [],
+      "candidate": null,
+      "failure_tags": [
+        "provider_request_failed"
+      ],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/xai_grok_imagine_g07_bakeoff_r1/g07a-independent-01.json",
+      "sha256": "573af86f2bfdfcab33bebeed9ae6c188a64ce7f50be4c2d22ba003f5cf6663af",
+      "adapter_id": "grok_imagine_image_2",
+      "execution_status": "completed",
+      "request_id": "7f2d07e5-1814-99b4-9381-9cc97621967c",
+      "elapsed_seconds": 9.177,
+      "cost_usd": "0.070000",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "de1f1c1a709fdce47252464da2ed0cf01b9e42f44abd982ce273064bcc5215c9"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/xai_grok_imagine_g07_bakeoff_r1/g07a-independent-01.jpg",
+        "sha256": "de1f1c1a709fdce47252464da2ed0cf01b9e42f44abd982ce273064bcc5215c9",
+        "bytes": 214063,
+        "mime_type": "image/jpeg"
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/xai_grok_imagine_g07_bakeoff_r1/g07a-independent-02.json",
+      "sha256": "dfa7e9d1482f46edd589c8fdb9a0214cf8a46b043af9c7a7b017958cda8673c2",
+      "adapter_id": "grok_imagine_image_2",
+      "execution_status": "completed",
+      "request_id": "696307ea-0a1b-90a5-851b-51c0d39c9b7e",
+      "elapsed_seconds": 13.588,
+      "cost_usd": "0.070000",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "0d9dfdb84484e07ebd78468ef493938dfcc19cddca02f59a24d4df8e4912a785"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/xai_grok_imagine_g07_bakeoff_r1/g07a-independent-02.jpg",
+        "sha256": "0d9dfdb84484e07ebd78468ef493938dfcc19cddca02f59a24d4df8e4912a785",
+        "bytes": 205176,
+        "mime_type": "image/jpeg"
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/xai_grok_imagine_g07_bakeoff_r1/g07a-no-change.json",
+      "sha256": "f125e4e9f60c452ff7b367a2ddd103f2081e29fe6063d2efdf5fc49981849f1c",
+      "adapter_id": "grok_imagine_image_2",
+      "execution_status": "completed",
+      "request_id": "09d49faf-ee1c-9544-9048-f262a277b1d5",
+      "elapsed_seconds": 14.769,
+      "cost_usd": "0.070000",
+      "input_hashes": {
+        "g07a-nochange-reference": "867a05c2f3e35f196cd28a9d1dc1954f2ba862f62d33ae34df4f3161a3200436"
+      },
+      "output_hashes": [
+        "fd04866be00db988c1468f96d559bb31a1a356db0a8daf9913cf954cd56618b5"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/xai_grok_imagine_g07_bakeoff_r1/g07a-no-change.jpg",
+        "sha256": "fd04866be00db988c1468f96d559bb31a1a356db0a8daf9913cf954cd56618b5",
+        "bytes": 249367,
+        "mime_type": "image/jpeg"
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    },
+    {
+      "path": "experiments/records/xai_grok_imagine_g07_bakeoff_r1/g07a-target-change.json",
+      "sha256": "f91549fe6b533ed4678691007a405f1ad7f6addfa4ee85eda3bca1331c684f8d",
+      "adapter_id": "grok_imagine_image_2",
+      "execution_status": "completed",
+      "request_id": "7161416c-b971-957c-8f87-abb0426e715c",
+      "elapsed_seconds": 12.491,
+      "cost_usd": "0.070000",
+      "input_hashes": {
+        "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+      },
+      "output_hashes": [
+        "67d46ac8d9fab72baf036c84f2cec6b0e10d210bb6004d24afecb8eeb2cc628a"
+      ],
+      "candidate": {
+        "path": "experiments/outputs/xai_grok_imagine_g07_bakeoff_r1/g07a-target-change.jpg",
+        "sha256": "67d46ac8d9fab72baf036c84f2cec6b0e10d210bb6004d24afecb8eeb2cc628a",
+        "bytes": 271768,
+        "mime_type": "image/jpeg"
+      },
+      "failure_tags": [],
+      "human_review_status": "not_yet_performed",
+      "human_minutes": null,
+      "accepted": false
+    }
+  ]
+}

@@ -206,3 +206,5 @@ Selected-route offline P036 preflight exposes 4/4 real blockers, blocks 6/6 prer
 Submission-journal simulation validates pre-submit release, unknown-outcome hold/non-retry, and recovered completion; duplicate keys plus 11/11 transition/tamper/budget mutations fail. It is crash-integrity evidence only and creates no provider execution result.
 
 Production evidence schemas validate synthetic success/failure/unknown outcomes and reject 12/12 completeness/contradiction mutations. Unknown incidents cannot contain RenderRecords or candidates. This is schema coverage, not new rendering evidence.
+
+G07 evidence-vault validation hash-matches 19/19 provider records and 16/16 candidates under root `e84b0402…6d3ab`, rejects 5/5 manifest mutations, and proves zero generated experiment paths are tracked. It reconciles $1.057377 total paid and $0 held, including the paid xAI failure and single-charge Gemini recovery. This is retention/accounting integrity only; pending human review, accepted count, renderer-quality evidence, and mechanism selection are unchanged.

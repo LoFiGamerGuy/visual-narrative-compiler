@@ -531,3 +531,11 @@
 - Explicit provider-failure fixtures bind the original request, reconciled cost, and failure record while requiring zero candidate files. Unknown-outcome fixtures use `ProviderSubmissionIncident`, retain the aggregate hold, and categorically require null RenderRecord and no candidates.
 - Synthetic success, explicit failure, and unknown incident validate. Twelve/twelve candidate hash/count, request/journal/cost/timing/usage/review, fabricated failure candidates, missing failure, and incident fabrication/release mutations fail.
 - No real CH05 RenderRecord, candidate, request, upload, human minute, acceptance, or cost was created.
+
+## 2026-09-01 - G07 local evidence-vault integrity
+
+- Built a tracked non-art manifest over 19/19 provider records, 16/16 candidate rasters, and the two approved public controls. Exact candidate bytes decode and hash-match; vault root is `e84b04029ca14b9a40dbdcd2e6d2937c322bf019df2191d032169e062696d3ab`.
+- Reconciled $0.987377 across the 16 required candidates plus the distinct $0.07 xAI paid transport failure: $1.057377 committed, $0 held, $98.942623 available. Gemini recovery is bound to its original interaction/request ID and one charge.
+- Five/five cost, record-hash, candidate-hash, review-state, and BFL-input manifest mutations fail. Git tracks zero paths below `experiments/`; generated records and pixels remain local and ignored.
+- All 16 candidates remain `not_yet_performed`, null human minutes, false acceptance. Hash completeness adds no visual score, reproducibility claim, commercial clearance, or expanded upload authority.
+- Consolidated offline validation now passes 24/24 checks in 3.021 seconds with zero provider calls, uploads, or new cost.

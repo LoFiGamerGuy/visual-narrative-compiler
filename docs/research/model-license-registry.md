@@ -61,3 +61,7 @@ No service result is accepted, selected, or cleared by this documentation state.
 ## CH05 post-selection compiler boundary — 2026-09-01
 
 The selected OpenAI mechanism's registry status is unchanged by CH05 compiler hardening. P033–P038 packet, layout-control, and run-ledger milestones made zero provider requests/uploads and incurred $0 external cost. They create no new service terms, commercial-clearance, model-selection, or external data-use conclusion; exact expanded upload authority remains absent.
+
+## G07 local evidence integrity boundary — 2026-09-01
+
+The hash-only evidence manifest validates all 19 provider records and 16 candidates without changing any provider/model/license status above. Its vault root is `e84b0402…6d3ab`; generated pixels and runtime records remain ignored local evidence. Exact-byte retention is neither commercial clearance nor output acceptance, and BFL remains closed to every input beyond the two published hash-pinned fictional controls.

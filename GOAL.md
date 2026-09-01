@@ -52,7 +52,9 @@ The crash-safe journaling milestone is complete. A proven pre-submit abort relea
 
 The production evidence-schema milestone is complete. Synthetic success and explicit-failure RenderRecords preserve journal/input/output/request/timing/usage/cost/review fields; unknown outcome is a held-reservation incident with no candidate or RenderRecord. Twelve/twelve missing or contradictory evidence mutations fail. Real CH05 RenderRecords/candidates/acceptance remain zero.
 
-The active bounded milestone is G07 local evidence-vault integrity. Hash every paid bakeoff RenderRecord and candidate/failure artifact into a tracked, non-art manifest, validate exact local bytes and complete required fields, and keep generated material outside Git. The manifest must detect drift/loss without treating any pending-review candidate as accepted.
+The G07 local evidence-vault milestone is complete. The tracked non-art manifest pins 19/19 provider records and 16/16 candidate artifacts under vault root `e84b0402…6d3ab`; all bytes and candidate decodes validate, five/five manifest mutations fail, BFL inputs remain exactly the two approved controls, and Git tracks zero generated experiment paths. Cost reconciliation remains $0.987377 for required candidates plus the $0.07 xAI failure, $1.057377 aggregate paid, $0 held. Human minutes remain null and all candidates remain unaccepted under ADR-0036.
+
+The active bounded milestone is G07 evidence restoration readiness. Build a deterministic local archive from only the manifest-pinned records, candidates, and two public controls; verify every entry and root directly from the archive without provider access; and prove missing, extra, corrupt, or path-escaping entries fail. The archive remains ignored local evidence and cannot authorize rerender, review, or acceptance.
 
 ### Authority and data boundaries
 

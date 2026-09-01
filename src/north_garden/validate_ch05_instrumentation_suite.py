@@ -36,6 +36,7 @@ CHECKS = [
     ("p036_openai_offline_preflight", [PYTHON, "src/north_garden/validate_openai_p036_offline_preflight.py"]),
     ("submission_journal", [PYTHON, "src/north_garden/validate_submission_journal.py"]),
     ("render_record_schema", [PYTHON, "src/north_garden/validate_render_record.py"]),
+    ("g07_evidence_vault", [PYTHON, "src/north_garden/validate_g07_evidence_vault.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

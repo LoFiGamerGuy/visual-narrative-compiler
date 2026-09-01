@@ -274,3 +274,5 @@ The selected-route authority frontier validates a 20-node/20-edge acyclic graph 
 Safe-source r2 pins pushed commit `43fc787` with 387 paths / 8,535,516 bytes, tree `4e85a8c3…5f70b`, and inventory root `53af7d04…13d6b`; 13/13 mutations fail and prohibited/generated/oversize counts remain zero. This is source integrity, not artifact or production evidence.
 
 Release gate r2 runs the immutable 53-check r1 result plus seven post-r1 validators: 60/60 pass in an observed 79.280 seconds and 11/11 mutations fail. This is local release-integrity timing, not renderer, reviewer, or production throughput.
+
+Selected-route handoff r2 preserves all r1 renderer measurements and blocked production counts while binding three topology passes, 28 rebuilt artifacts, 60/60 release checks, 387 safe-source paths, five root authority items, and 37 zero-cost milestones; 18/18 mutations fail. This is current cross-evidence provenance, not new renderer evidence.

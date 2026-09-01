@@ -801,3 +801,11 @@
 - R2 passes 60/60 local checks and rejects 11/11 supersession/base/extension/activity/boundary mutations under ADR-0070.
 - Observed local runtime is 79.280 seconds: 69.944 seconds for nested r1 and 9.335 seconds for extensions. Timing is nondeterministic local validation, not provider/human throughput.
 - Production ledger r10 records 37 local zero-cost milestones and remains disabled/no-cap with empty entries/$0. Network/provider/upload/download activity remains zero.
+
+## 2026-09-01 - selected-route hardening handoff r2
+
+- Issued an exact append-only supersession of handoff r1. The route selection, G07 measured state, full 50-panel readiness, and nine-blocker P036 finalizer state are preserved unchanged.
+- Advanced cross-evidence pointers to budget audit r3, selector/rebuild/release/source r2, selector compatibility, the 20-node authority frontier, and production ledger r10.
+- Current local coverage is three topology passes/two profiles, 28 rebuilt artifacts/nine groups, 60/60 release checks, 387 safe-source paths, five root authority items, and 37 zero-cost milestones.
+- G07 remains 0/20/null/zero and CH05 remains zero approved inputs/outcomes/acceptances/$0. Eighteen/eighteen mutations fail under ADR-0071; next external action is null.
+- Ledger r11 records 38 local zero-cost milestones and remains disabled/no-cap/$0.

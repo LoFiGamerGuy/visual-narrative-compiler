@@ -120,7 +120,9 @@ The safe-source release r2 milestone is complete. Already-pushed commit `43fc787
 
 The hardening-release gate r2 milestone is complete. The immutable 53-check r1 gate plus seven post-r1 extensions pass 60/60 in an observed 79.280 seconds; 11/11 mutations fail. R1 remains unchanged and activity remains zero network/provider/upload/download/$0 under ADR-0070.
 
-The active bounded milestone is selected-route hardening handoff r2. Supersede the earlier cross-evidence state append-only and bind the latest budget audit, selector/rebuild, release gate, source release, authority frontier, and production ledger without changing the measured renderer result or promoting pending human/production evidence.
+The selected-route hardening handoff r2 milestone is complete. Renderer selection/G07 measurements/50-panel readiness/P036 fail-closed state remain byte-identical to r1 while the latest r3 budget, r2 selector/rebuild/release/source, authority frontier, and r10 ledger are bound. G07 stays 0/20, CH05 stays zero outcomes/$0, 18/18 mutations fail, and next external action remains null under ADR-0071.
+
+The active bounded milestone is the P036 prerequisite authority lattice. Exhaustively exercise all 16 subsets of the four exact preflight prerequisites using validation-only synthetic bindings, prove every incomplete subset fails closed, and prove even the complete fixture remains metadata-only with no request body, client, network, upload, or production authority.
 
 ### Authority and data boundaries
 

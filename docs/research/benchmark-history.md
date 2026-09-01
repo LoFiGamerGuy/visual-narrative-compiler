@@ -256,3 +256,5 @@ Safe-source baseline `f505788` contains 346 tracked paths / 8,184,364 bytes with
 Static/no-network aggregate-budget audit confirms 4/4 paid adapters reserve before paid submission with no local cap; 18 ledger entries reconcile to 17 committed/one release/zero held and $1.057377 actual; 10/10 mutations fail. This is post-run control integrity, not new provider execution.
 
 Transport audit confirms four HTTPS endpoints, verified native TLS on every `urlopen`, explicit HTTPS guards on provider-returned Gemini/BFL URLs, exact two input hashes, and six intact prohibited classes; 9/9 mutations fail. This is static security/data-boundary evidence with zero network activity.
+
+The cross-evidence hardening state preserves OpenAI as engineering route only: selected arm four candidates/$0.198621/128.347s, G07 review 0/20/null/zero, chapter 50 plans/four explicit/two profiles/one policy/nine blockers/zero outcomes; 15/15 promotion mutations fail. It is a handoff state, not a new score or result.

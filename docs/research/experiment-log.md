@@ -736,3 +736,10 @@
 - All 19 vault records observe only the two published fictional-control hashes. Six prohibited data classes and unapproved adult-likeness upload remain intact; 9/9 transport/input/authority/activity mutations fail under ADR-0061.
 - Append-only CH05 production ledger r4 pins r3 and adds bootstrap, rebuild, review optimization, safe source, budget audit, and transport audit. It records 27 unique zero-cost milestones, empty reservations, no cap, $0 committed/held, and 8/8 mutations fail.
 - No network request, provider call, upload, or spend occurred.
+
+## 2026-09-01 - selected-route non-promotional hardening state
+
+- Compiled hashes for selection ADR, vault/instrumentation/review/budget/transport, boundary selector/measurement/finalizer, full chapter matrix, exact rebuild, runtime, cost ledger, and safe-source release.
+- Preserved the measured OpenAI arm as four candidates / $0.198621 / 128.347 seconds plus separate repeat/target/no-change raster drift dimensions. The engineering selection is not visual acceptance, commercial clearance, or universal superiority.
+- Real G07 review remains 0/20 decisions, null minutes, zero accepted, and no human arm result/composite/ranking. Chapter state remains 50 plans / four explicit repair candidates / two profiles / one policy / nine P036 blockers / zero production outcomes/$0.
+- Fifteen/fifteen invented acceptance/review/authority/universal width/input/outcome/minutes/budget/AnimationShotPlan and removed-limitation mutations fail under ADR-0062.

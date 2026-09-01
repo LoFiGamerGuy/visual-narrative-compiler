@@ -102,7 +102,9 @@ The post-bakeoff aggregate-budget binding milestone is complete. Four/four adapt
 
 The provider transport/data-boundary milestone is complete. Four endpoints are HTTPS, every `urlopen` uses the native verified context, and Gemini/BFL returned URLs now fail closed unless HTTPS. The observed inputs remain exactly two fictional controls and all six prohibited classes remain intact; 9/9 mutations fail under ADR-0061 with no network activity. Production ledger r4 now records 27 local zero-cost milestones with no cap/reservations/spend.
 
-The active bounded milestone is a selected-route hardening-state manifest. Compile the evidence-backed OpenAI selection, measured local gains, exact reproducibility limits, 50-panel readiness denominator, spend separation, human-review gaps, and authority blockers into one hash-pinned non-promotional handoff record.
+The selected-route hardening-state milestone is complete. The handoff pins the OpenAI engineering route, 16 G07 candidates/$1.057377, selected-arm $0.198621/128.347s and drift dimensions, 0/20/null/zero review, 16px/5px local profiles, 26 exact rebuilt artifacts, 50/4/2/1 chapter readiness, nine real P036 blockers, and zero production outcomes/$0. Fifteen/fifteen promotion/authority/denominator mutations fail under ADR-0062.
+
+The active bounded milestone is a disconnected-and-holed support topology stress. Test the remaining explicitly documented local mechanics gap with a deterministic panel-neutral ring plus thin disconnected component, bounded width series, exact hole/exterior protection, and no geometry tuning or production inference.
 
 ### Authority and data boundaries
 

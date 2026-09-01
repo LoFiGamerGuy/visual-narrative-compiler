@@ -73,3 +73,7 @@ The P036 local mechanics policy does not change OpenAI's registry status or comm
 ## Selected-route boundary evidence schema — 2026-09-01
 
 The v2.1 RenderRecord profile changes no provider, model, endpoint, terms, data-use, license, or commercial-use conclusion. It is an append-only local provenance requirement for any future authorized repair outcome. Its completed fixture is synthetic; it grants no upload, spend, production-input, output-acceptance, or expanded BFL authority.
+
+## Selected-route hardening-state handoff — 2026-09-01
+
+The consolidated hardening state does not change any registry status. OpenAI GPT Image 2 remains an engineering hardening route selected from measured G07 operations/diagnostics, with human review pending and no accepted or commercially cleared output. BFL remains closed beyond its two public fictional controls; all other expanded upload and CH05 production authority remains absent.

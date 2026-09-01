@@ -772,3 +772,10 @@
 - Transport hardening changed Gemini and BFL adapter source hashes after budget audit r2. Preserved r2 and issued append-only r3; 4/4 adapters still reserve through the aggregate ledger before paid submission, 18 entries reconcile to $1.057377 actual/$98.942623 available, and 12/12 mutations fail.
 - Production cost ledger r6 pins r5 and records these two local milestones for 33 unique zero-cost milestones. CH05 remains disabled/no-cap, with empty entries and $0 committed/held.
 - No network request, provider call, upload, download, or external spend occurred. No human review, art acceptance, production authority, or chapter outcome follows.
+
+## 2026-09-01 - selector r2 consumer compatibility
+
+- Canonically compared selector r1 and r2: all six selection gates and both complete P036/P044 profile objects are byte-equivalent after canonical JSON encoding.
+- Validated six direct source consumers and three immutable evidence bindings that intentionally retain exact r1 provenance. Six/six focused validators pass, including the RenderRecord v2.1 boundary-evidence checks.
+- The new `disconnected_holed_support` mechanics control resolves to an empty profile, is absent from the profile map, and remains ineligible for panel profile, production policy, and visual acceptance.
+- Fifteen/fifteen pipeline/profile/binding/generic-promotion/record-rewrite/activity mutations fail under ADR-0067. Production ledger r7 records 34 zero-cost milestones and remains disabled/no-cap/$0.

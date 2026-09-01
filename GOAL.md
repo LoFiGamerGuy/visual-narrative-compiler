@@ -112,7 +112,9 @@ The exact artifact rebuild r2 milestone is complete. R2 pins r1 and adds only th
 
 The hardening-release validation milestone is complete. The unchanged 44-check core plus nine append-only extensions pass 53/53, and 8/8 release-state mutations fail. Aggregate-budget audit r3 preserves r2 while rebinding the transport-hardened adapter hashes; 4/4 adapters still reserve centrally, 18 entries reconcile to $1.057377 actual/$98.942623 available, and 12/12 audit mutations fail. The observed local gate runtime is 69.752 seconds. Activity remains zero requests/uploads/downloads/$0 under ADR-0066.
 
-The active bounded milestone is selector-consumer compatibility. Prove that selector r2's two panel profiles are byte-for-byte semantically identical to r1 for every existing consumer, while the new panel-neutral topology control cannot satisfy a panel profile or silently change RenderRecord v2.1 bindings.
+The selector-consumer compatibility milestone is complete. R1 and r2 have canonically identical six-gate pipelines and two complete panel profiles. Six source consumers, three immutable evidence bindings, and six focused validators pass; the panel-neutral control cannot resolve as a profile, and 15/15 mutations fail under ADR-0067. No historical RenderRecord or evidence record was rewritten.
+
+The active bounded milestone is an authority/dependency frontier. Compile every remaining real G07-review and CH05 selected-route blocker into a hash-bound dependency graph that distinguishes autonomous local work from human judgment, exact input approval, upload authority, and production-budget authority without treating any available G07 cap as CH05 permission.
 
 ### Authority and data boundaries
 

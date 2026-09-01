@@ -266,3 +266,5 @@ Selector r2 preserves two exact panel profiles (P036=16px/P044=5px) and records 
 Expanded rebuild r2 pins r1 and produces identical two-pass inventories of 28 artifacts / nine groups / 4,868,771 bytes at root `18816d3c…e50d64`; 10/10 mutations fail. The two new files are local disconnected/hole mechanics outputs only.
 
 The aggregate hardening release gate passes 44 unchanged core checks plus nine append-only extensions, 53/53 total, in an observed 69.752 seconds; 8/8 release-state mutations fail. Budget audit r3 separately rejects 12/12 mutations and preserves the same 18-entry/$1.057377 reconciliation. These are local integrity timings and counts, not rendering, review, or production throughput.
+
+Selector-consumer compatibility validates six direct source consumers, three immutable evidence bindings, and six focused validators against canonically identical r1/r2 pipelines and P036/P044 profiles; 15/15 mutations fail. This measures provenance compatibility only, not visual quality, review, or production readiness.

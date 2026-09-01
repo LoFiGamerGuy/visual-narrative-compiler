@@ -1,0 +1,174 @@
+{
+  "record_type": "SelectorConsumerCompatibilityEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-selector-consumer-compatibility-r2",
+  "state": "R2_PROFILE_SEMANTICS_IDENTICAL_R1_CONSUMERS_VALID_GENERIC_CONTROL_ISOLATED",
+  "selectors": {
+    "r1": {
+      "record_id": "ng-scale-aware-repair-boundary-selector-contract-r1",
+      "path": "config/scale-aware-repair-boundary-selector-contract-r1.json",
+      "sha256": "b0fea65bc4deca76240c50d95471a79452294f3f5209883f2e59eaf6cfc45679"
+    },
+    "r2": {
+      "record_id": "ng-scale-aware-repair-boundary-selector-contract-r2",
+      "path": "config/scale-aware-repair-boundary-selector-contract-r2.json",
+      "sha256": "36f18c1caacd35cf28ddf963da9460304e37a318d1c6d0dd18e67402dcb6317d"
+    }
+  },
+  "canonical_equivalence": {
+    "selection_pipeline_equal": true,
+    "selection_pipeline_sha256": "c11dd71277af19a81b5d0331701f2eeb640a479725add9da90befa9fe847c4bf",
+    "profiles_equal": true,
+    "profiles_sha256": "18d1b5298f7b59bed834092b73f8c85a2facc2bba1a2a116dc5e3a2342fda55a",
+    "profile_count_r1": 2,
+    "profile_count_r2": 2,
+    "preserved_r1_generalization_rules": 5
+  },
+  "panel_profile_projections": {
+    "ng-ch05-sc01-p036": {
+      "profile_projection_sha256": "c86e9aa95494b01876a6af8cee83bee30f23cebc69ccdde9080f875ed4a11492",
+      "selector_binding": {
+        "record_id": "ng-scale-aware-repair-boundary-selector-contract-r1",
+        "path": "config/scale-aware-repair-boundary-selector-contract-r1.json",
+        "sha256": "b0fea65bc4deca76240c50d95471a79452294f3f5209883f2e59eaf6cfc45679"
+      }
+    },
+    "ng-ch05-sc01-p044": {
+      "profile_projection_sha256": "7bbce4bff528418f7e840769ceccc87ac06f3b431e9cdc38ab8afd921fed1449",
+      "selector_binding": {
+        "record_id": "ng-scale-aware-repair-boundary-selector-contract-r1",
+        "path": "config/scale-aware-repair-boundary-selector-contract-r1.json",
+        "sha256": "b0fea65bc4deca76240c50d95471a79452294f3f5209883f2e59eaf6cfc45679"
+      }
+    }
+  },
+  "generic_control_isolation": {
+    "control_id": "disconnected_holed_support",
+    "selected_local_width_px": 8,
+    "present_in_profiles": false,
+    "expected_profile_result": {},
+    "eligible_as_panel_profile": false,
+    "eligible_as_production_policy": false,
+    "eligible_as_visual_acceptance": false
+  },
+  "source_consumers": [
+    {
+      "path": "src/north_garden/render_record_boundary.py",
+      "sha256": "996b909ad122995f0f6e1eaa7269f779da909c29272317a8a7330fc46c927a8a",
+      "r1_path_binding_count": 1,
+      "role": "RenderRecord v2.1 exact historical selector/profile binding",
+      "binding_state": "INTENTIONAL_IMMUTABLE_R1_NOT_STALE"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_repair_evidence_readiness_matrix.py",
+      "sha256": "566b2fbfa27f68d6378ac6e8bbcdc7250af293538edb762032b80d1dae267e5a",
+      "r1_path_binding_count": 1,
+      "role": "chapter denominator and profile readiness",
+      "binding_state": "INTENTIONAL_IMMUTABLE_R1_NOT_STALE"
+    },
+    {
+      "path": "src/north_garden/validate_disconnected_holed_topology_stress.py",
+      "sha256": "de2a2a8b85f267d682f84254c827ab5884a4e9a610abfefa72f5d831872d7e7b",
+      "r1_path_binding_count": 1,
+      "role": "panel-neutral control baseline",
+      "binding_state": "INTENTIONAL_IMMUTABLE_R1_NOT_STALE"
+    },
+    {
+      "path": "src/north_garden/validate_exact_base_boundary_measurement_packet.py",
+      "sha256": "f45c1c9750ef750eae059aec2a2344f0f962773052958dc89d95186e8c689286",
+      "r1_path_binding_count": 1,
+      "role": "exact-base fixture selector binding",
+      "binding_state": "INTENTIONAL_IMMUTABLE_R1_NOT_STALE"
+    },
+    {
+      "path": "src/north_garden/validate_scale_aware_boundary_selector.py",
+      "sha256": "6baff61aa49659d2792a013715f003c5808344a71dcbfe3379385d1f84ca7fd0",
+      "r1_path_binding_count": 1,
+      "role": "historical r1 contract validation",
+      "binding_state": "INTENTIONAL_IMMUTABLE_R1_NOT_STALE"
+    },
+    {
+      "path": "src/north_garden/validate_selected_route_hardening_state.py",
+      "sha256": "9554bc63798c66629441f6bb70985cb2330d6b064e2395be9a831cccedd1bdf4",
+      "r1_path_binding_count": 1,
+      "role": "non-promotional selected-route state",
+      "binding_state": "INTENTIONAL_IMMUTABLE_R1_NOT_STALE"
+    }
+  ],
+  "immutable_evidence_bindings": [
+    {
+      "path": "docs/research/evidence/exact-base-boundary-measurement-packet-r1.json",
+      "sha256": "c8a479705bd9653842db4a2d33fa4ace166ee32279cfd914fff15e1f3bfa8a3c",
+      "selector_reference_path": "config/scale-aware-repair-boundary-selector-contract-r1.json",
+      "selector_reference_sha256": "b0fea65bc4deca76240c50d95471a79452294f3f5209883f2e59eaf6cfc45679",
+      "binding_state": "EXACT_HISTORICAL_R1_BINDING_PRESERVED"
+    },
+    {
+      "path": "docs/research/evidence/disconnected-holed-mask-topology-stress-r1.json",
+      "sha256": "9de31db246ba2f2bf471c9c536c9678fd66a2903b10aa8f70912a714af63b61e",
+      "selector_reference_path": "config/scale-aware-repair-boundary-selector-contract-r1.json",
+      "selector_reference_sha256": "b0fea65bc4deca76240c50d95471a79452294f3f5209883f2e59eaf6cfc45679",
+      "binding_state": "EXACT_HISTORICAL_R1_BINDING_PRESERVED"
+    },
+    {
+      "path": "docs/research/evidence/selected-route-hardening-state-r1.json",
+      "sha256": "6c336cde8331ae3eeeeb51d5137c6814aa5c5f2f1363884020c69d5cc43b0216",
+      "selector_reference_path": "config/scale-aware-repair-boundary-selector-contract-r1.json",
+      "selector_reference_sha256": "b0fea65bc4deca76240c50d95471a79452294f3f5209883f2e59eaf6cfc45679",
+      "binding_state": "EXACT_HISTORICAL_R1_BINDING_PRESERVED"
+    }
+  ],
+  "validator_results": [
+    {
+      "script": "src/north_garden/validate_scale_aware_boundary_selector.py",
+      "sha256": "6baff61aa49659d2792a013715f003c5808344a71dcbfe3379385d1f84ca7fd0",
+      "passed": true,
+      "stdout_last_line": "10/10 gate/width/visual/production/generalization mutations rejected"
+    },
+    {
+      "script": "src/north_garden/validate_scale_aware_boundary_selector_r2.py",
+      "sha256": "2dc0fef1dd1d56aa010075cdab4f64be178ec19b48507c8c02e3ba0c6165f0a5",
+      "passed": true,
+      "stdout_last_line": "3 topology controls, 0 exact-panel visual/review/production-ready; 13/13 promotion/generalization mutations rejected"
+    },
+    {
+      "script": "src/north_garden/validate_render_record_boundary.py",
+      "sha256": "dbc83a82b29938446d229bd49c0daeac3afee81be497c95257c0816f794050a3",
+      "passed": true,
+      "stdout_last_line": "completed binds exact hash-chained timed seam session; synthetic session is ineligible as real review; unknown binds none"
+    },
+    {
+      "script": "src/north_garden/validate_ch05_repair_evidence_readiness_matrix.py",
+      "sha256": "566b2fbfa27f68d6378ac6e8bbcdc7250af293538edb762032b80d1dae267e5a",
+      "passed": true,
+      "stdout_last_line": "13/13 denominator/inference/width/input/result/review/medium mutations rejected"
+    },
+    {
+      "script": "src/north_garden/validate_exact_base_boundary_measurement_packet.py",
+      "sha256": "f45c1c9750ef750eae059aec2a2344f0f962773052958dc89d95186e8c689286",
+      "passed": true,
+      "stdout_last_line": "14/14 binding/metric/no-change/review/fixture/activity mutations rejected; 0 requests/uploads/$0"
+    },
+    {
+      "script": "src/north_garden/validate_selected_route_hardening_state.py",
+      "sha256": "9554bc63798c66629441f6bb70985cb2330d6b064e2395be9a831cccedd1bdf4",
+      "passed": true,
+      "stdout_last_line": "26 artifacts rebuild exactly; 15/15 promotion/denominator/authority mutations rejected"
+    }
+  ],
+  "summary": {
+    "selection_pipeline_entries_unchanged": 6,
+    "panel_profiles_unchanged": 2,
+    "source_consumers_validated": 6,
+    "immutable_evidence_bindings_validated": 3,
+    "consumer_validators_passed": 6,
+    "generic_controls_rejected_as_profiles": 1,
+    "render_records_rewritten": 0,
+    "production_profiles_added": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "migration_decision": "Existing r1-bound evidence and RenderRecord v2.1 projections remain immutable and valid. R2 is an append-only topology-coverage contract, not a forced consumer migration.",
+  "boundary": "Canonical compatibility does not promote the generic control, create exact-base visual evidence, human review, production authority, or a provider outcome."
+}

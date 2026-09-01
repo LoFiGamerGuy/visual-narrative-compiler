@@ -1,21 +1,22 @@
 param(
-    [ValidateSet('documentation', 'baseline_legacy', 'blender_stage')]
+    [ValidateSet('documentation', 'instrumentation', 'baseline_legacy', 'blender_stage')]
     [string]$Profile = 'documentation',
-    [switch]$WriteLocalRuntimeTemplate
+    [switch]$WriteLocalRuntimeTemplate,
+    [switch]$DryRun
 )
 
 $ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent $PSScriptRoot
 Set-Location $Root
 
-if (-not (Test-Path '.env')) {
+if (-not $DryRun -and -not (Test-Path '.env')) {
     Copy-Item '.env.example' '.env'
     Write-Host 'Created .env from .env.example; fill credentials only if you choose to run an external adapter.'
 }
 
 $template = 'config/runtime-assets.example.json'
 $local = 'config/runtime-assets.local.json'
-if ($WriteLocalRuntimeTemplate -and -not (Test-Path $local)) {
+if (-not $DryRun -and $WriteLocalRuntimeTemplate -and -not (Test-Path $local)) {
     Copy-Item $template $local
     Write-Host "Created $local. Fill exact source URLs, hashes, and license artifacts; this script never downloads models."
 }
@@ -27,6 +28,10 @@ foreach ($requirement in $profileSpec.requirements) {
     if ($requirement.kind -eq 'executable') {
         if (-not (Get-Command $requirement.name -ErrorAction SilentlyContinue)) {
             throw "Required executable is missing for profile '$Profile': $($requirement.name)"
+        }
+        if ($requirement.version -and $requirement.name -eq 'python') {
+            python -c "import platform; assert platform.python_version() == '$($requirement.version)', platform.python_version()"
+            if ($LASTEXITCODE -ne 0) { throw "Python version mismatch for profile '$Profile': expected $($requirement.version)" }
         }
     } elseif ($requirement.kind -eq 'directory') {
         $resolved = Join-Path $Root $requirement.path
@@ -44,6 +49,10 @@ foreach ($requirement in $profileSpec.requirements) {
         if ($LASTEXITCODE -ne 0) {
             throw "Required Python module is missing for profile '$Profile': $($requirement.name) (distribution $($requirement.distribution))"
         }
+        if ($requirement.version) {
+            python -c "import importlib.metadata; assert importlib.metadata.version('$($requirement.distribution)') == '$($requirement.version)', importlib.metadata.version('$($requirement.distribution)')"
+            if ($LASTEXITCODE -ne 0) { throw "Python distribution version mismatch for profile '$Profile': $($requirement.distribution) expected $($requirement.version)" }
+        }
     } else {
         throw "Unknown runtime requirement kind: $($requirement.kind)"
     }
@@ -59,4 +68,10 @@ python research/authoritative/v2.1.1/scripts/validate_research_package.py
 if ($LASTEXITCODE -ne 0) { throw 'Frozen research package validation failed.' }
 python src/north_garden/validate_production_records.py
 if ($LASTEXITCODE -ne 0) { throw 'Production record validation failed.' }
+if ($Profile -eq 'instrumentation') {
+    python src/north_garden/validate_instrumentation_runtime.py
+    if ($LASTEXITCODE -ne 0) { throw 'Instrumentation runtime inventory validation failed.' }
+    python $profileSpec.entrypoint
+    if ($LASTEXITCODE -ne 0) { throw 'Complete instrumentation suite failed.' }
+}
 Write-Host "Bootstrap validation passed for '$Profile'. No model download or provider call was made."

@@ -244,3 +244,5 @@ The synthetic exact-base packet measures 64,992 support / 35,150 transition / 27
 V2.1 completed-fixture validation now derives seam subject, event-chain integrity, reviewer, three active minutes, fixture ineligibility, decision, and four assertions from exact referenced records; 18/18 contradictions fail. This is provenance validation only: the accepted fixture decision is not eligible human evidence and does not change the real zero-review/zero-acceptance state.
 
 The repair finalizer reports nine real P036 blockers and emits no outcome, while two synthetic validation finalizations are digest-identical and fixture promotion fails; 10/10 mutations fail. This measures fail-closed finalization mechanics, not provider, candidate, human-review, or production throughput.
+
+The pinned instrumentation runtime matches CPython 3.14.6, Pillow 12.3.0, and numpy 2.5.1 with exact interpreter/source hashes; a no-write bootstrap completes 43/43 checks in 26.524 seconds and 10/10 runtime mutations fail. This is local reproducibility/readiness timing, not provider or human production throughput.

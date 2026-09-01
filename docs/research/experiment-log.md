@@ -688,3 +688,11 @@
 - Ten/ten missing-blocker, fabricated record/candidate/minutes, fixture promotion, network, invented activity, and AnimationShotPlan mutations fail under ADR-0055.
 - Append-only cost ledger r3 pins r2 and records measurement, session binding, and finalizer milestones. It now totals 21 unique zero-cost milestones with no cap, empty reservations, $0 committed, and $0 held; 8/8 ledger mutations fail.
 - Consolidated offline validation passes 42/42 in 25.569 seconds; real requests/uploads/cost remain 0/0/$0.
+
+## 2026-09-01 - no-download instrumentation runtime and bootstrap dry run
+
+- Added a separate instrumentation profile to the tracked runtime manifest without changing the frozen `baseline_legacy` profile. It pins Python 3.14.6, Pillow 12.3.0, numpy 2.5.1, the suite entrypoint, and false download/network/credential flags.
+- Exact local inventory records CPython/cpython-314 on Windows 11 AMD64, interpreter SHA-256 `03168c01…a0c38`, and exact manifest/bootstrap/suite hashes. Ten/ten runtime/source/dependency/activity mutations fail.
+- Bootstrap `-Profile instrumentation -DryRun` creates neither `.env` nor a local manifest and performs no install/download/provider operation. It preserves the existing ignored legacy local manifest and reports four warnings rather than overwriting it.
+- The complete dry run passes frozen v2.1.1 and 43/43 offline checks in 26.524 seconds. Provider requests/uploads/cost remain 0/0/$0 under ADR-0056.
+- The inventory is a measured local snapshot, not a cross-platform resolver or wheel lock; changes require a new reviewed revision.

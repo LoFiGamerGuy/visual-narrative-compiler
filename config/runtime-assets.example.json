@@ -11,6 +11,17 @@
       ],
       "downloads": false
     },
+    "instrumentation": {
+      "requirements": [
+        {"kind": "executable", "name": "python", "version": "3.14.6"},
+        {"kind": "python_module", "name": "PIL", "distribution": "Pillow", "version": "12.3.0"},
+        {"kind": "python_module", "name": "numpy", "distribution": "numpy", "version": "2.5.1"}
+      ],
+      "entrypoint": "src/north_garden/validate_ch05_instrumentation_suite.py",
+      "network_allowed": false,
+      "provider_credentials_required": false,
+      "downloads": false
+    },
     "baseline_legacy": {
       "requirements": [
         {"kind": "executable", "name": "python"},

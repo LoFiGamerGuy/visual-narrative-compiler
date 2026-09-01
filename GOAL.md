@@ -90,7 +90,9 @@ The hash-chained seam-review milestone is complete. V2.1 completed validation no
 
 The fail-closed repair-outcome finalizer milestone is complete. Real P036 reports nine blockers and emits no RenderRecord/candidate/review/request/cost. Two synthetic finalizations have identical record/journal/ledger digests, and changing the fixture flag cannot promote them; 10/10 mutations fail under ADR-0055. Append-only production cost ledger r3 records 21 zero-cost milestones with no cap/reservations/spend, and the suite passes 42/42.
 
-The active bounded milestone is bootstrap/runtime reproducibility closure for the selected instrumentation route. Add a no-download profile and exact local runtime inventory/dry-run evidence for the complete offline suite without changing `baseline_legacy`, downloading models, installing packages, or exposing credentials.
+The bootstrap/runtime reproducibility milestone is complete. A separate no-download/no-network/no-credential instrumentation profile pins CPython 3.14.6, Pillow 12.3.0, numpy 2.5.1, exact interpreter/bootstrap/manifest/suite hashes, and dry-run behavior while leaving `baseline_legacy` unchanged. Ten/ten runtime mutations fail and a no-write bootstrap passes 43/43 checks in 26.524 seconds under ADR-0056.
+
+The active bounded milestone is selected-route artifact rebuild reproducibility. Inventory the bounded ignored compositor/topology/review fixture outputs, rebuild them twice under the pinned profile, and compare exact path/hash/size roots. Exclude timestamps/performance records explicitly instead of normalizing them into false determinism.
 
 ### Authority and data boundaries
 

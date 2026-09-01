@@ -1,0 +1,76 @@
+{
+  "record_type": "InstrumentationRuntimeInventory",
+  "schema_version": "1.0",
+  "record_id": "ng-instrumentation-runtime-inventory-r1",
+  "state": "LOCAL_EXACT_RUNTIME_MATCH_NO_DOWNLOADS",
+  "sources": {
+    "runtime_manifest": {
+      "path": "config/runtime-assets.example.json",
+      "sha256": "8ca4520e260bc732fd61ff74f93f51dee7bb751cfc11f0d5cdf4fa98e2086c79"
+    },
+    "bootstrap_script": {
+      "path": "scripts/bootstrap-local.ps1",
+      "sha256": "1b2564ec7f2c15e8538dc1f182f723251dc0acc74ddf06d9dab0bab4f8e98786"
+    },
+    "instrumentation_suite": {
+      "path": "src/north_garden/validate_ch05_instrumentation_suite.py",
+      "sha256": "92c5ebe894071ea867b7e7b60c5211605af68edf8f9dd16babf31f389dd8677f"
+    }
+  },
+  "python": {
+    "implementation": "cpython",
+    "version": "3.14.6",
+    "cache_tag": "cpython-314",
+    "executable_basename": "python.exe",
+    "executable_sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38"
+  },
+  "platform": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26200",
+    "machine": "AMD64"
+  },
+  "requirements": [
+    {
+      "kind": "executable",
+      "name": "python",
+      "version": "3.14.6",
+      "actual_version": "3.14.6",
+      "exact_match": true
+    },
+    {
+      "kind": "python_module",
+      "name": "PIL",
+      "distribution": "Pillow",
+      "version": "12.3.0",
+      "actual_version": "12.3.0",
+      "exact_match": true
+    },
+    {
+      "kind": "python_module",
+      "name": "numpy",
+      "distribution": "numpy",
+      "version": "2.5.1",
+      "actual_version": "2.5.1",
+      "exact_match": true
+    }
+  ],
+  "profile": {
+    "entrypoint": "src/north_garden/validate_ch05_instrumentation_suite.py",
+    "downloads": false,
+    "network_allowed": false,
+    "provider_credentials_required": false
+  },
+  "activity": {
+    "packages_installed": 0,
+    "models_downloaded": 0,
+    "provider_calls": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "This is an exact local runtime snapshot, not a cross-platform dependency resolver or wheel lock.",
+    "A different Python executable or OS must create a new reviewed inventory revision rather than edit this record.",
+    "The instrumentation profile excludes provider execution and heavyweight model runtimes."
+  ]
+}

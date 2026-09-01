@@ -27,7 +27,16 @@ def main() -> None:
     warnings = 0
     assert data["schema_version"] == "north_garden.runtime_assets.v1"
     assert data["state"] in {"EXAMPLE_NO_DOWNLOADS", "LOCAL_RUNTIME_DECLARATION"}
-    assert set(data["profiles"]) == {"documentation", "baseline_legacy", "blender_stage"}
+    expected_profiles = {"documentation", "instrumentation", "baseline_legacy", "blender_stage"}
+    actual_profiles = set(data["profiles"])
+    is_ignored_local = args.manifest.name == "runtime-assets.local.json"
+    if not is_ignored_local and data["state"] == "EXAMPLE_NO_DOWNLOADS":
+        assert actual_profiles == expected_profiles
+    else:
+        legacy_profiles = {"documentation", "baseline_legacy", "blender_stage"}
+        assert frozenset(actual_profiles) in {frozenset(expected_profiles), frozenset(legacy_profiles)}
+        if actual_profiles == legacy_profiles:
+            warnings += 1
     for profile_id, profile in data["profiles"].items():
         assert profile["downloads"] is False, profile_id
         requirements = profile.get("requirements")
@@ -51,8 +60,15 @@ def main() -> None:
                 assert requirement["name"]
             if requirement["kind"] == "python_module":
                 assert requirement["distribution"]
+            if "version" in requirement:
+                assert re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+", requirement["version"])
             if requirement["kind"] == "executable_or_env_path":
                 assert requirement["environment"].startswith("NORTH_GARDEN_")
+        if profile_id == "instrumentation":
+            entrypoint = Path(profile["entrypoint"])
+            assert not entrypoint.is_absolute() and ".." not in entrypoint.parts
+            assert profile["network_allowed"] is False
+            assert profile["provider_credentials_required"] is False
     assert data["assets"]
     for asset in data["assets"]:
         assert asset["id"] and asset["local_path"] and asset["license_artifact"] and asset["source_url"]

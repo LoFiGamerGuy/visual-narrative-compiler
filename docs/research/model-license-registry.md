@@ -69,3 +69,7 @@ The hash-only evidence manifest validates all 19 provider records and 16 candida
 ## Selected-route local repair policy boundary — 2026-09-01
 
 The P036 local mechanics policy does not change OpenAI's registry status or commercial-clearance state. It binds the already selected snapshot/endpoint and local compositor evidence only; it contains no request executor, production input approval, upload authority, or production budget. Abstract proxy controls are explicitly ineligible for external submission.
+
+## Selected-route boundary evidence schema — 2026-09-01
+
+The v2.1 RenderRecord profile changes no provider, model, endpoint, terms, data-use, license, or commercial-use conclusion. It is an append-only local provenance requirement for any future authorized repair outcome. Its completed fixture is synthetic; it grants no upload, spend, production-input, output-acceptance, or expanded BFL authority.

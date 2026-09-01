@@ -80,7 +80,9 @@ The P044 adaptive-width milestone is complete. On unchanged hash-pinned geometry
 
 The scale-aware boundary-selector milestone is complete. P036=16px and P044=5px remain distinct local profiles; both pass topology controls while both lack exact approved-panel-base visual-boundary evidence and timed seam review. The contract has no universal width and zero production-ready profiles/masks/requests/uploads. Ten/ten gate, width-leak, visual-overclaim, production, and generalization mutations fail under ADR-0049.
 
-The active bounded milestone is repair RenderRecord boundary-evidence integration. Extend the production repair evidence contract so any future known outcome binds the exact selector contract/profile, chosen width, support/alpha hashes, topology evidence, exact-base visual-boundary state, exterior/no-change result, and timed seam-review status. Unknown incidents must still contain none of these fabricated outcome fields.
+The repair RenderRecord boundary-evidence milestone is complete. Append-only v2.1 completed records bind the exact selector/profile/width, support/alpha, topology, exact-base visual, exterior/no-change, and timed seam-review chain. Explicit failures retain only known input/topology bindings; v1.1 unknown incidents reject every boundary-outcome field. Fifteen/fifteen mutations fail and the consolidated offline suite passes 37/37 in 24.757 seconds under ADR-0050. All real CH05 outcomes remain absent.
+
+The active bounded milestone is a full-denominator CH05 repair-evidence readiness matrix. Compile all 50 ComicPanelPlans against explicit repair applicability, selector profiles, panel policy, approved inputs, authority, budget, exact-base visual evidence, seam review, and v2.1 RenderRecord state. Missing artifacts must remain missing and no mask, profile, policy, result, or acceptance may be inferred.
 
 ### Authority and data boundaries
 

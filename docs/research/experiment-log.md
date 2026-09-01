@@ -642,3 +642,11 @@
 - Both topology controls pass, but exact approved-panel-base visual-boundary passes are 0, timed seam reviews 0, production-ready profiles 0, and approved production masks 0.
 - P036 retains its four production blockers. P044 additionally lacks a panel-specific policy and exact-base boundary evidence.
 - Ten/ten missing gate, width swap, fake visual pass, fake production readiness/review, universal width, and generalization mutations fail. Calls/uploads/cost remain 0/0/$0.
+
+## 2026-09-01 - append-only repair boundary evidence contract
+
+- Preserved the existing v2.0 RenderRecord and v1.0 incident validators unchanged. Added v2.1 `comic_targeted_repair_v2` and v1.1 incident templates plus a layered validator.
+- A completed fixture binds the exact selector contract, P036/plan revision/16px profile, exact support and inward alpha, topology source, base/candidate visual measurement, zero exterior change, explicit no-change result, and a three-minute identified synthetic seam decision. The ordinary candidate review remains pending.
+- An explicit failure binds the known selector/profile/support/alpha/topology inputs but cannot carry visual, exterior, no-change, or seam outcomes. An outcome-unknown incident rejects every such field.
+- Fifteen/fifteen selector, cross-panel width, support/alpha/topology hash, visual-base, exterior, no-change, seam timing, failure-fabrication, and unknown-fabrication mutations fail under ADR-0050.
+- Consolidated offline validation passes 37/37 checks in 24.757 seconds. The accepted seam is validation-only; real requests/uploads/candidates/RenderRecords/seam reviews/human minutes/production cost remain 0/0/0/0/0/null/$0.

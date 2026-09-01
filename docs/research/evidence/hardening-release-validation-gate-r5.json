@@ -1,0 +1,104 @@
+{
+  "record_type": "HardeningReleaseValidationGate",
+  "schema_version": "1.4",
+  "record_id": "ng-hardening-release-validation-gate-r5",
+  "state": "FINAL_AUTONOMOUS_CLOSEOUT_RELEASE_CHECKS_PASS",
+  "supersedes": {
+    "record_id": "ng-hardening-release-validation-gate-r4",
+    "path": "docs/research/evidence/hardening-release-validation-gate-r4.json",
+    "sha256": "3c5b8fadf20666d29e8beef8038299ba904e6305775d7d769a2f59c2529267d0",
+    "checks": 74
+  },
+  "prior_gate_rewritten": false,
+  "base_gate": {
+    "script": "src/north_garden/validate_hardening_release_r4.py",
+    "script_sha256": "3ea4b3075d5e29913f5dfba88617f5386094e280702261b65c3e5c4ee15e79c4",
+    "checks": 74,
+    "passed": 74
+  },
+  "extensions": [
+    {
+      "name": "provider_documentation_pre_spend_chronology_r1",
+      "script": "src/north_garden/validate_provider_documentation_chronology.py",
+      "script_sha256": "eeb696c7956540f702f6e770d05785d53aa4ddb2db2be1eb01a2ee6d47893f40",
+      "passed": true,
+      "stdout_last_line": "documentation led earliest attempt by 490s and earliest positive cost by 695s; 16/16 mutations rejected; audit added 0 requests/uploads/$0"
+    },
+    {
+      "name": "autonomous_research_engineering_closeout_r1",
+      "script": "src/north_garden/validate_autonomous_closeout_state.py",
+      "script_sha256": "33ece8e652f3b18ffef2bb7e5738eb31bf68e971858f4c87884df36ed9ae6286",
+      "passed": true,
+      "stdout_last_line": "G07 review 0/20; CH05 authority gated; 74/74 release/11 reproducers; 22/22 mutations rejected; 0 requests/uploads/$0"
+    },
+    {
+      "name": "production_cost_ledger_r19",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r19.py",
+      "script_sha256": "669a2e63c7cca479497d15ca4a541e454ac5799749d5bbec05e24e04ec4539d4",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (47 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    },
+    {
+      "name": "production_cost_ledger_r20",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r20.py",
+      "script_sha256": "bea7be0822ff31475f2822d5e58a4cf5365ef8ebeffada76af9729f0c224c8e4",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (48 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    },
+    {
+      "name": "production_cost_ledger_r21",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r21.py",
+      "script_sha256": "27d9acfda6e7e74eda5adaa8fec60ae17b7e2da41bc0de766159537e47480df6",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (49 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    }
+  ],
+  "summary": {
+    "base_checks": 74,
+    "extension_checks": 5,
+    "total_checks": 79,
+    "passed_checks": 79,
+    "failed_checks": 0
+  },
+  "objective": {
+    "requirements_complete": 12,
+    "requirements_total": 12,
+    "engineering_scope_achieved": true,
+    "human_review_complete": false,
+    "production_authority_complete": false
+  },
+  "activity": {
+    "network_requests": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "models_downloaded": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "current_boundary_state": {
+    "g07_human_decisions": 0,
+    "g07_human_decisions_required": 20,
+    "ch05_approved_inputs": 0,
+    "ch05_production_cap_usd": null,
+    "real_render_records_v2_1": 0,
+    "accepted_ch05_panels": 0,
+    "approvals_requested_now": [],
+    "next_external_action": null
+  },
+  "boundaries": [
+    "R4 remains immutable as the 74-check base.",
+    "Engineering closeout does not complete human review or production authority.",
+    "Passing creates no request, upload, spend, acceptance, or commercial clearance."
+  ],
+  "observed_runtime": {
+    "base_elapsed_ms": 197779.505,
+    "extension_elapsed_ms": {
+      "provider_documentation_pre_spend_chronology_r1": 67.386,
+      "autonomous_research_engineering_closeout_r1": 105.23,
+      "production_cost_ledger_r19": 59.667,
+      "production_cost_ledger_r20": 60.361,
+      "production_cost_ledger_r21": 60.117
+    },
+    "total_elapsed_ms": 198132.266,
+    "timing_is_local_nondeterministic": true
+  }
+}

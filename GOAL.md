@@ -142,7 +142,9 @@ The provider-documentation chronology milestone is complete. Nineteen official l
 
 The autonomous closeout milestone is complete. Twelve/twelve operating requirements are evidence-bound: the measured OpenAI engineering route, 16-candidate/$1.057377 bakeoff, 0/20 review state, local hardening/50-panel readiness, 74/74 release, 11 reproducers, frozen/source/document chronology, and 48 zero-cost milestones. Twenty-two/twenty-two mutations fail; human and CH05 authority roots remain open under ADR-0081.
 
-The active bounded milestone is final release gate r5. Preserve r4's 74 checks and append the documentation chronology, autonomous closeout, and r19-r21 ledgers into a final no-network validation revision.
+The final release gate r5 milestone is complete. Immutable r4 (74 checks) plus chronology, closeout, and r19-r21 ledger checks pass 79/79 in 198.132 seconds; 18/18 mutations fail. Engineering scope is 12/12 complete while G07 stays 0/20 and CH05 remains no-input/no-cap/no-outcome/no-acceptance under ADR-0082.
+
+The active bounded milestone is final safe-source and Git parity. Validate explicit staged scope, current tracked-source policy, untracked exclusions, branch/origin parity, and one last zero-cost ledger revision before ending the autonomous run.
 
 ### Authority and data boundaries
 

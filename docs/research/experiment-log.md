@@ -883,3 +883,10 @@
 - Bound local boundary/topology/exact-base/finalizer/lattice hardening, 50-panel ComicPanelPlan readiness, 74/74 release checks, 11 reproducers, 32 lineage records, safe-source/frozen targets, and documentation chronology.
 - Twenty-two/twenty-two promotion/review/authority/activity mutations fail under ADR-0081. No approval is requested; next external action stays null.
 - Ledger r21 records 49 local zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - final hardening release gate r5
+
+- Preserved release r4 as an immutable 74-check base and appended provider chronology, autonomous closeout, and ledgers r19-r21.
+- R5 passes 79/79 local checks in 198.132 seconds and rejects 18/18 supersession/objective/review/authority/activity mutations under ADR-0082.
+- The release states 12/12 engineering requirements complete while keeping human review and production authority incomplete: G07 0/20, CH05 zero inputs/cap/outcomes/acceptances, no approvals, next external action null.
+- Ledger r22 records 50 local zero-cost milestones and remains disabled/no-cap/$0. External activity remains zero.

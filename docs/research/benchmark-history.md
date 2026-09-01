@@ -296,3 +296,5 @@ Reproducer matrix r2 passes 11/11 commands in 115.394 seconds using stable termi
 Provider-document chronology binds four sections/19 official links to 19 exact provider records; documentation leads the earliest attempt/positive-cost request by 490/695 seconds and 16/16 mutations fail. This is pre-spend provenance, not a claim that live terms never change.
 
 The autonomous closeout binds 12/12 operating requirements and rejects 22/22 mutations while preserving 16 candidates/$1.057377, G07 0/20, 74/74 release checks, 11 reproducers, 50 ComicPanelPlans, and zero CH05 outcomes/cap. This closes engineering scope only, not human review or production authority.
+
+Final release r5 runs immutable r4 (74 checks) plus five chronology/closeout/ledger checks: 79/79 pass in 198.132 seconds and 18/18 mutations fail. It validates engineering closeout while explicitly retaining incomplete review and production authority.

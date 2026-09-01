@@ -262,3 +262,5 @@ The cross-evidence hardening state preserves OpenAI as engineering route only: s
 Panel-neutral disconnected/hole stress selects local 8px on fixed ring+32px geometry, retaining two cores at 62.915%/25.936% with exact hole/exterior; 12/12 mutations fail. This expands abstract topology coverage only, not panel applicability or visual acceptance.
 
 Selector r2 preserves two exact panel profiles (P036=16px/P044=5px) and records the 8px disconnected/hole result only as a generic control: three topology passes, zero exact-panel visual/review/production-ready passes; 13/13 promotions fail. No universal width is inferred.
+
+Expanded rebuild r2 pins r1 and produces identical two-pass inventories of 28 artifacts / nine groups / 4,868,771 bytes at root `18816d3c…e50d64`; 10/10 mutations fail. The two new files are local disconnected/hole mechanics outputs only.

@@ -108,7 +108,9 @@ The disconnected/holed topology milestone is complete. Fixed panel-neutral ring 
 
 The selector-contract r2 milestone is complete. R2 pins r1, preserves P036=16px/P044=5px, and adds the local 8px disconnected/hole result only as a panel-neutral control. Topology passes increase to three while profiles remain two and universal width/visual passes/reviews/production-ready profiles remain zero. Thirteen/thirteen mutations fail under ADR-0064.
 
-The active bounded milestone is exact artifact rebuild r2. Pin rebuild r1 and add the disconnected/hole support and alpha as a ninth bounded group; rebuild the expanded inventory twice without changing any nondeterministic exclusion or external state.
+The exact artifact rebuild r2 milestone is complete. R2 pins r1 and adds only the disconnected/hole support/alpha: 28 artifacts, nine groups, 4,868,771 bytes, identical two-pass root `18816d3c…e50d64`, and 10/10 mutations rejected under ADR-0065. Production ledger r5 records 31 zero-cost milestones with no cap/reservations/spend.
+
+The active bounded milestone is a hardening-release validation orchestrator. Keep the pinned 44-check suite unchanged, then run it together with every later safe-source, budget, transport, state, topology, selector, rebuild, and cost-ledger validator as one no-network release gate.
 
 ### Authority and data boundaries
 

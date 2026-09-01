@@ -757,3 +757,10 @@
 - Added the disconnected/hole 8px result only under a panel-neutral mechanics-control collection. Profile, production-policy, and visual-acceptance eligibility are all false.
 - Aggregate topology passes are now three, while local panel profiles remain two and universal width, exact-panel visual passes, timed seam reviews, production-ready profiles, masks, requests, and uploads remain zero.
 - Thirteen/thirteen supersession, prior rewrite, width leak, generic-control promotion, fake visual/review/production state, and generalization mutations fail under ADR-0064.
+
+## 2026-09-01 - expanded artifact rebuild r2 and production ledger r5
+
+- Pinned rebuild r1 and retained its original 26-file root. R2 appends the disconnected/hole validator and ninth group without changing prior commands, groups, or nondeterministic exclusions.
+- Two expanded rebuilds each contain 28 artifacts / nine groups / 4,868,771 bytes and canonical root `18816d3cb4a60161440e8dc5fdb9b0aea628c3d0a688cc39a5eb868d6ce50d64`.
+- Ten/ten supersession, rewrite, group/count/root/identity/artifact/activity mutations fail under ADR-0065. Provider calls/uploads/downloads/cost remain 0/0/0/$0.
+- Append-only production cost ledger r5 pins r4 and adds hardening state, disconnected/hole stress, selector r2, and rebuild r2. It now records 31 unique zero-cost milestones, no cap, empty reservations, $0 committed/held, and rejects 8/8 mutations.

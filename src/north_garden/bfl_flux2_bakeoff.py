@@ -10,11 +10,14 @@ import argparse
 import hashlib
 import json
 import os
+import ssl
 import time
 from datetime import UTC, datetime
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
+
+import certifi
 
 from envfile import load_project_env
 from openai_gpt_image2_bakeoff import CAP_ENV, ROOT, load_plan, prompt_for, sha256
@@ -30,6 +33,7 @@ CONTROL_URL_ENVS = {
     "g07a-control": "NORTH_GARDEN_BFL_G07A_CONTROL_URL",
     "g07a-nochange-reference": "NORTH_GARDEN_BFL_G07A_NOCHANGE_CONTROL_URL",
 }
+SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
 
 
 def stamp() -> str:
@@ -43,7 +47,7 @@ def verified_control_url(asset_key: str, asset: dict) -> str:
     url = os.environ.get(env_name, "")
     if not url.startswith("https://"):
         raise SystemExit(f"{env_name} must be an HTTPS URL; no BFL request was sent")
-    with urlopen(url, timeout=30) as response:
+    with urlopen(url, timeout=30, context=SSL_CONTEXT) as response:
         remote_hash = hashlib.sha256(response.read()).hexdigest()
     if remote_hash != asset["sha256"]:
         raise SystemExit("configured public control URL does not equal the frozen local control hash; no BFL request was sent")
@@ -52,7 +56,7 @@ def verified_control_url(asset_key: str, asset: dict) -> str:
 
 def post_json(url: str, key: str, payload: dict) -> dict:
     request = Request(url, data=json.dumps(payload).encode(), method="POST", headers={"accept": "application/json", "x-key": key, "Content-Type": "application/json"})
-    with urlopen(request, timeout=60) as response:
+    with urlopen(request, timeout=60, context=SSL_CONTEXT) as response:
         return json.load(response)
 
 
@@ -60,7 +64,7 @@ def poll(url: str, key: str) -> dict:
     deadline = time.monotonic() + 300
     while time.monotonic() < deadline:
         request = Request(url, headers={"accept": "application/json", "x-key": key})
-        with urlopen(request, timeout=60) as response:
+        with urlopen(request, timeout=60, context=SSL_CONTEXT) as response:
             result = json.load(response)
         if result.get("status") == "Ready":
             return result
@@ -93,7 +97,7 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
         record["request_id"] = submitted["id"]
         result = poll(submitted["polling_url"], api_key)
         sample_url = result["result"]["sample"]
-        with urlopen(sample_url, timeout=180) as response:
+        with urlopen(sample_url, timeout=180, context=SSL_CONTEXT) as response:
             image_bytes = response.read()
     except (HTTPError, KeyError, RuntimeError, TimeoutError) as error:
         record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "failed", "failure_tags": ["provider_request_failed"], "provider_error": str(error)[:2000]})

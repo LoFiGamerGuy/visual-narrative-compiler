@@ -4,7 +4,7 @@
 
 The local configuration check confirms that credentials are present for OpenAI, Gemini, xAI, and BFL. It deliberately did not print, transmit, or store any credential values.
 
-The fictional-control G07 adapters, their frozen input hashes, and their no-network/no-write preflights all validate. No API request has been made and external spend remains $0.
+The fictional-control G07 adapters and frozen input hashes validate. OpenAI has completed 4/4 requests and Gemini 1/4; the aggregate documented-rate estimate is $0.265809, with $0 held and $99.734191 available.
 
 ## Remaining mechanical gates
 
@@ -17,7 +17,7 @@ The fictional-control G07 adapters, their frozen input hashes, and their no-netw
 
 Run each adapter's credential, data-boundary, source-hash, documented endpoint, and aggregate-ledger preflight immediately before its four requests. Preserve any provider rejection as a failure RenderRecord and retain possibly billable reservations until reconciled.
 
-The first OpenAI attempt exposed a local TLS-chain compatibility issue before HTTP submission. Its reservation is released and cost reconciled to $0. The three standard-library adapters now use the OS-native trust store with certificate and hostname verification preserved; revalidation and a fresh live readiness preflight are required before retry.
+The first OpenAI attempt exposed a local TLS-chain compatibility issue before HTTP submission. Its reservation is released and cost reconciled to $0. The three standard-library adapters now use the OS-native trust store with certificate and hostname verification preserved; live preflight and the OpenAI retry passed. Gemini's first response exposed a local REST-schema parser mismatch after provider completion; official interaction retrieval recovered the output without repeat generation, and the repaired parser now has deterministic fixture coverage.
 
 ## Recommended execution order after the gates close
 

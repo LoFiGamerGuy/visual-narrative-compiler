@@ -25,6 +25,13 @@ def main() -> None:
     action = parser.add_mutually_exclusive_group(required=True)
     action.add_argument("--actual-cost-usd")
     action.add_argument("--release-unsubmitted")
+    parser.add_argument(
+        "--method",
+        choices=["actual_provider_cost", "usage_rate_reconciliation_estimate"],
+        default="actual_provider_cost",
+        help="Provenance for a nonzero reconciliation; estimates must be explicit.",
+    )
+    parser.add_argument("--calculation-note")
     args = parser.parse_args()
 
     record = json.loads(args.record.read_text(encoding="utf-8"))
@@ -35,8 +42,9 @@ def main() -> None:
         entry = reconcile_reservation(
             args.reservation_id, args.actual_cost_usd,
             provider_request_id=record.get("request_id"), provider_usage=record.get("provider_usage"),
+            reconciliation_method=args.method,
         )
-        method = "actual_provider_cost"
+        method = args.method
     else:
         entry = release_unsubmitted_reservation(args.reservation_id, args.release_unsubmitted)
         method = "proven_unsubmitted_zero_cost"
@@ -46,6 +54,7 @@ def main() -> None:
         "method": method,
         "reconciled_at": stamp(),
         "reason": args.release_unsubmitted,
+        "calculation_note": args.calculation_note,
     }
     atomic_write(args.record, record)
     print(json.dumps({

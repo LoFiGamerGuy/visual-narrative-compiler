@@ -247,13 +247,16 @@ def hold_for_reconciliation(
     provider_usage: object,
     outcome: str,
 ) -> dict:
-    """Retain the full ceiling when a submitted request's exact cost is unknown."""
+    """Retain the full ceiling while enriching a submitted request's metadata."""
     def update(entry: dict) -> None:
-        if entry.get("state") != "reserved":
-            raise BudgetError(f"reservation {reservation_id} is not in reserved state")
+        if entry.get("state") not in {"reserved", "awaiting_reconciliation"}:
+            raise BudgetError(f"reservation {reservation_id} cannot be held from {entry.get('state')}")
+        existing_request_id = entry.get("provider_request_id")
+        if existing_request_id and provider_request_id and existing_request_id != provider_request_id:
+            raise BudgetError(f"reservation {reservation_id} is already bound to another provider request")
         entry.update({
             "state": "awaiting_reconciliation",
-            "provider_request_id": provider_request_id,
+            "provider_request_id": provider_request_id or existing_request_id,
             "provider_usage": provider_usage,
             "outcome": outcome,
         })
@@ -267,6 +270,7 @@ def reconcile_reservation(
     *,
     provider_request_id: str | None = None,
     provider_usage: object = None,
+    reconciliation_method: str = "actual_provider_cost",
 ) -> dict:
     """Commit actual billed cost and release the unused reservation balance."""
     actual = money(actual_cost_usd, "actual_cost_usd")
@@ -282,6 +286,8 @@ def reconcile_reservation(
             "reconciled_at": stamp(),
             "provider_request_id": provider_request_id or entry.get("provider_request_id"),
             "provider_usage": provider_usage if provider_usage is not None else entry.get("provider_usage"),
+            "cost_reconciliation_method": reconciliation_method,
+            "outcome": "completed_cost_reconciled",
         })
 
     return _update_reservation(reservation_id, update)

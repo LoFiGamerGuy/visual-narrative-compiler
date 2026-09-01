@@ -413,3 +413,15 @@
 - The first OpenAI execution attempt reserved $0.50, then Python's bundled CA validation rejected the locally trusted inspection chain during the TLS handshake (`Basic Constraints of CA cert not marked critical`). No HTTP request, input upload, provider request ID, or charge occurred. The complete local failed RenderRecord preserves adapter/input hashes, elapsed 0.332 seconds, error class, source commit `26a1f5d`, and reservation ID.
 - The reservation was explicitly released as proven unsubmitted and reconciled to $0; the real ledger returned to committed $0, held $0, available $100. No evidence was deleted or overwritten.
 - Certificate verification remains mandatory. OpenAI, Gemini, and xAI adapters now use the native OS trust store, matching the already validated BFL approach. No TLS check or hostname verification was disabled.
+
+## 2026-09-01 - OpenAI G07 bakeoff execution and cost reconciliation
+
+- OpenAI GPT Image 2 completed all four authorized fictional-control requests in 128.347 seconds total (31.534–32.401 seconds/request). Every RenderRecord preserves the snapshot, endpoint, provider request ID, exact input/output hashes, token usage, source commit/adapter hash, pending-review state, and decision=false.
+- Documented token-rate reconciliation is $0.049644, $0.049644, $0.049669, and $0.049664, totaling $0.198621. These are explicitly formula-derived usage estimates pending invoice-level confirmation; no reservation remains held.
+- Output hashes are `321b4013…6bc0`, `7e7b29c…1ac0`, `3f9f05b…2906`, and `45b9e858…73c6`. None has been visually accepted or scored.
+
+## 2026-09-01 - Gemini Interactions recovery and first G07 result
+
+- The first Gemini POST completed at the provider in 11.006 seconds, but the adapter initially expected SDK-only `output_image` sugar instead of the REST `steps` schema. The failure RenderRecord retained the interaction ID and full $0.20 reservation; no retry generation was issued.
+- The adapter now pins `Api-Revision: 2026-05-20`, parses image blocks from model-output steps, hashes a redacted response summary, and supports official `GET /interactions/{id}` recovery. A fixture test passes. The existing interaction was recovered in 0.856 seconds as JPEG `523d0255…e5e` with 375 input tokens and one 1K image output.
+- Documented-rate reconciliation is $0.067188 (375 input tokens at $0.50/M plus $0.067 for the 1K output), explicitly an estimate pending invoice-level confirmation. Aggregate state after five completed generations is $0.265809 committed, $0 held, $99.734191 available; review and acceptance remain pending.

@@ -4,9 +4,9 @@
   "record_id": "ng-g07-fictional-aggregate-cost-ledger-r1",
   "bakeoff_id": "ng-renderer-bakeoff-g07-fictional-r1",
   "approved_aggregate_cap_usd": "100.000000",
-  "committed_actual_cost_usd": "0.000000",
+  "committed_actual_cost_usd": "0.265809",
   "held_reservations_usd": "0.000000",
-  "available_usd": "100.000000",
+  "available_usd": "99.734191",
   "currency": "USD",
   "entries": [
     {
@@ -22,14 +22,161 @@
       "provider_usage": null,
       "outcome": "not_submitted:tls_handshake_failed_before_http_submission",
       "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1"
+    },
+    {
+      "reservation_id": "ng-g07-budget-f5decb02-9722-47de-9c20-05f97c7bbb72",
+      "adapter_id": "openai_gpt_image_2",
+      "request_key": "g07a-independent-01",
+      "state": "committed",
+      "reserved_usd": "0.500000",
+      "actual_cost_usd": "0.049644",
+      "reserved_at": "2026-09-01T15:19:11Z",
+      "reconciled_at": "2026-09-01T15:26:54Z",
+      "provider_request_id": "req_f00e17c1c8ac4f36b16e6a246679558f",
+      "provider_usage": {
+        "input_tokens": 1104,
+        "input_tokens_details": {
+          "image_tokens": 988,
+          "text_tokens": 116
+        },
+        "output_tokens": 1372,
+        "output_tokens_details": {
+          "image_tokens": 1372,
+          "text_tokens": 0
+        },
+        "total_tokens": 2476
+      },
+      "outcome": "completed_cost_reconciled",
+      "cost_reconciliation_method": "usage_rate_reconciliation_estimate",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1"
+    },
+    {
+      "reservation_id": "ng-g07-budget-2516bc86-bd84-49b3-b09d-5b7112a138d5",
+      "adapter_id": "openai_gpt_image_2",
+      "request_key": "g07a-independent-02",
+      "state": "committed",
+      "reserved_usd": "0.500000",
+      "actual_cost_usd": "0.049644",
+      "reserved_at": "2026-09-01T15:19:43Z",
+      "reconciled_at": "2026-09-01T15:26:55Z",
+      "provider_request_id": "req_9a9294da008941ac839bb12d7af17c93",
+      "provider_usage": {
+        "input_tokens": 1104,
+        "input_tokens_details": {
+          "image_tokens": 988,
+          "text_tokens": 116
+        },
+        "output_tokens": 1372,
+        "output_tokens_details": {
+          "image_tokens": 1372,
+          "text_tokens": 0
+        },
+        "total_tokens": 2476
+      },
+      "outcome": "completed_cost_reconciled",
+      "cost_reconciliation_method": "usage_rate_reconciliation_estimate",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1"
+    },
+    {
+      "reservation_id": "ng-g07-budget-3d778ad6-9769-46e5-ba2d-9971edf09c79",
+      "adapter_id": "openai_gpt_image_2",
+      "request_key": "g07a-target-change",
+      "state": "committed",
+      "reserved_usd": "0.500000",
+      "actual_cost_usd": "0.049669",
+      "reserved_at": "2026-09-01T15:20:14Z",
+      "reconciled_at": "2026-09-01T15:26:55Z",
+      "provider_request_id": "req_8fd7190fced54cce80f7c99a8d939389",
+      "provider_usage": {
+        "input_tokens": 1109,
+        "input_tokens_details": {
+          "image_tokens": 988,
+          "text_tokens": 121
+        },
+        "output_tokens": 1372,
+        "output_tokens_details": {
+          "image_tokens": 1372,
+          "text_tokens": 0
+        },
+        "total_tokens": 2481
+      },
+      "outcome": "completed_cost_reconciled",
+      "cost_reconciliation_method": "usage_rate_reconciliation_estimate",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1"
+    },
+    {
+      "reservation_id": "ng-g07-budget-9576c335-7045-479b-8882-1bda36bb0759",
+      "adapter_id": "openai_gpt_image_2",
+      "request_key": "g07a-no-change",
+      "state": "committed",
+      "reserved_usd": "0.500000",
+      "actual_cost_usd": "0.049664",
+      "reserved_at": "2026-09-01T15:20:47Z",
+      "reconciled_at": "2026-09-01T15:26:56Z",
+      "provider_request_id": "req_d94e71cae84b40299e79cbad4c7ee969",
+      "provider_usage": {
+        "input_tokens": 1108,
+        "input_tokens_details": {
+          "image_tokens": 988,
+          "text_tokens": 120
+        },
+        "output_tokens": 1372,
+        "output_tokens_details": {
+          "image_tokens": 1372,
+          "text_tokens": 0
+        },
+        "total_tokens": 2480
+      },
+      "outcome": "completed_cost_reconciled",
+      "cost_reconciliation_method": "usage_rate_reconciliation_estimate",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1"
+    },
+    {
+      "reservation_id": "ng-g07-budget-8b6f7933-24c8-469c-89ca-cef5c4b2ded0",
+      "adapter_id": "gemini_3_1_flash_image",
+      "request_key": "g07a-independent-01",
+      "state": "committed",
+      "reserved_usd": "0.200000",
+      "actual_cost_usd": "0.067188",
+      "reserved_at": "2026-09-01T15:21:47Z",
+      "reconciled_at": "2026-09-01T15:26:56Z",
+      "provider_request_id": "v1_ChdsdTJXYXJDS0Z1RzUzOUlQcHJtM2tRbxIXbHUyV2FyQ0tGdUc1MzlJUHBybTNrUW8",
+      "provider_usage": {
+        "total_tokens": 1853,
+        "total_input_tokens": 375,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 117
+          },
+          {
+            "modality": "image",
+            "tokens": 258
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 1478,
+        "output_tokens_by_modality": [
+          {
+            "modality": "image",
+            "tokens": 1120
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "raw_prompt_token": 1690
+      },
+      "outcome": "completed_cost_reconciled",
+      "cost_reconciliation_method": "usage_rate_reconciliation_estimate",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1"
     }
   ],
   "created_at": "2026-09-01T00:00:00Z",
-  "updated_at": "2026-09-01T15:18:11Z",
+  "updated_at": "2026-09-01T15:26:56Z",
   "reconciliation_rule": "A submitted request with unknown exact cost retains its entire reservation until provider usage or billing is reconciled. Only proven-unsubmitted attempts may be released without cost.",
   "limitations": [
     "The approved cap is a maximum, not a target.",
     "Provider-reported usage and billed cost may arrive later than image output.",
-    "No provider execution is represented by this initial empty ledger."
+    "Committed costs currently use documented usage-rate calculations; invoice-level confirmation is pending and each RenderRecord preserves its calculation method."
   ]
 }

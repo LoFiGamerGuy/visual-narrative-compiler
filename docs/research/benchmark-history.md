@@ -139,3 +139,18 @@ This is governance and adapter-readiness evidence, not a benchmark result and no
 | Real committed / held spend | $0 / $0 |
 | Full-bakeoff reservation ceiling | $4.20 against $100 approved aggregate cap |
 | Accepted candidates | 0; no provider request yet |
+
+## External fictional G07 partial execution — 2026-09-01
+
+This is immutable execution/cost evidence awaiting cross-provider human review, not a mechanism score.
+
+| Field | Result |
+| --- | --- |
+| Completed requests | 5/16: OpenAI 4/4, Gemini 1/4 |
+| Provider generation time | OpenAI 128.347 s; Gemini first POST 11.006 s |
+| Retrieval/repair overhead | Gemini existing-interaction GET 0.856 s; no repeat generation |
+| Exact output hashes recorded | 5/5 |
+| Provider request IDs and usage | 5/5 |
+| Reconciled documented-rate estimate | $0.265809 |
+| Held reservation / available cap | $0 / $99.734191 |
+| Human review / accepted | 0 reviewed / 0 accepted |

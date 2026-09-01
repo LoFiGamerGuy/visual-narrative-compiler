@@ -1,0 +1,336 @@
+{
+  "record_type": "P036PrerequisiteAuthorityLatticeEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-p036-prerequisite-authority-lattice-r1",
+  "state": "ALL_PARTIAL_SUBSETS_BLOCKED_COMPLETE_FIXTURE_METADATA_ONLY",
+  "sources": {
+    "preflight_compiler": {
+      "path": "src/north_garden/preflight_openai_p036_submission.py",
+      "sha256": "18b5e45547be79b7ce8c83098017de2f1740c2e6cac1f8cc10a6f9691071b992"
+    },
+    "fixture_validator": {
+      "path": "src/north_garden/validate_openai_p036_offline_preflight.py",
+      "sha256": "5c18e5dd75c97e0784b008c630708f8028b1e26af628c835594130373ff50f29"
+    },
+    "authority_frontier": {
+      "record_id": "ng-selected-route-authority-dependency-frontier-r1",
+      "path": "docs/research/evidence/selected-route-authority-dependency-frontier-r1.json",
+      "sha256": "8646c2a11c27c613754813b66c457a15bdb018292135afe5d660da74b2388696"
+    },
+    "p036_readiness": {
+      "record_id": "ng-ch05-p036-openai-repair-readiness-r2",
+      "path": "production/comic/repair-readiness/ch05-p036-openai-r2.json",
+      "sha256": "466a00b9cd1786682960476408f9e6005cc3a4e18c85092d6b0c3643ee9c3e9e"
+    }
+  },
+  "prerequisite_order": [
+    "base",
+    "mask",
+    "authority",
+    "reservation"
+  ],
+  "lattice_states": [
+    {
+      "subset_bits_base_mask_authority_reservation": "0000",
+      "provided": [],
+      "blockers": [
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "0001",
+      "provided": [
+        "reservation"
+      ],
+      "blockers": [
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "0010",
+      "provided": [
+        "authority"
+      ],
+      "blockers": [
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "0011",
+      "provided": [
+        "authority",
+        "reservation"
+      ],
+      "blockers": [
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "0100",
+      "provided": [
+        "mask"
+      ],
+      "blockers": [
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "0101",
+      "provided": [
+        "mask",
+        "reservation"
+      ],
+      "blockers": [
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "0110",
+      "provided": [
+        "mask",
+        "authority"
+      ],
+      "blockers": [
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "0111",
+      "provided": [
+        "mask",
+        "authority",
+        "reservation"
+      ],
+      "blockers": [
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "1000",
+      "provided": [
+        "base"
+      ],
+      "blockers": [
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "1001",
+      "provided": [
+        "base",
+        "reservation"
+      ],
+      "blockers": [
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "1010",
+      "provided": [
+        "base",
+        "authority"
+      ],
+      "blockers": [
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "1011",
+      "provided": [
+        "base",
+        "authority",
+        "reservation"
+      ],
+      "blockers": [
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": false,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "1100",
+      "provided": [
+        "base",
+        "mask"
+      ],
+      "blockers": [
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": true,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "1101",
+      "provided": [
+        "base",
+        "mask",
+        "reservation"
+      ],
+      "blockers": [
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": true,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "1110",
+      "provided": [
+        "base",
+        "mask",
+        "authority"
+      ],
+      "blockers": [
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID"
+      ],
+      "panel_input_package_hash_present": true,
+      "metadata_envelope_present": false,
+      "envelope_state": null,
+      "request_body_present": false,
+      "network_submission_implemented": false
+    },
+    {
+      "subset_bits_base_mask_authority_reservation": "1111",
+      "provided": [
+        "base",
+        "mask",
+        "authority",
+        "reservation"
+      ],
+      "blockers": [],
+      "panel_input_package_hash_present": true,
+      "metadata_envelope_present": true,
+      "envelope_state": "SYNTHETIC_VALIDATION_ONLY",
+      "request_body_present": false,
+      "network_submission_implemented": false
+    }
+  ],
+  "blocker_frequency_across_16_subsets": {
+    "APPROVED_BASE_RASTER_MISSING_OR_INVALID": 8,
+    "APPROVED_REPAIR_MASK_MISSING_OR_INVALID": 12,
+    "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID": 15,
+    "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID": 14
+  },
+  "complete_fixture_nonfixture_attempt": {
+    "validation_fixture_mode": false,
+    "state": "BLOCKED_OFFLINE_NO_REQUEST_CONSTRUCTION",
+    "blockers": [
+      "PROXY_CONTROL_INELIGIBLE_AS_PRODUCTION_INPUT"
+    ],
+    "request_envelope": null,
+    "eligible_as_real_production_input": false
+  },
+  "summary": {
+    "prerequisites": 4,
+    "subsets_exhausted": 16,
+    "partial_subsets": 15,
+    "partial_subsets_blocked": 15,
+    "complete_fixture_subsets": 1,
+    "complete_fixture_metadata_envelopes": 1,
+    "request_bodies_constructed": 0,
+    "network_capable_subsets": 0,
+    "real_authorities_created": 0,
+    "real_reservations_created": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "boundary": "Every supplied value is a validation-only synthetic fixture. Exhaustive subset coverage grants no input approval, authority, reservation, request implementation, upload scope, or production outcome."
+}

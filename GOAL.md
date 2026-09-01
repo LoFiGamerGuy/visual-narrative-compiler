@@ -122,7 +122,9 @@ The hardening-release gate r2 milestone is complete. The immutable 53-check r1 g
 
 The selected-route hardening handoff r2 milestone is complete. Renderer selection/G07 measurements/50-panel readiness/P036 fail-closed state remain byte-identical to r1 while the latest r3 budget, r2 selector/rebuild/release/source, authority frontier, and r10 ledger are bound. G07 stays 0/20, CH05 stays zero outcomes/$0, 18/18 mutations fail, and next external action remains null under ADR-0071.
 
-The active bounded milestone is the P036 prerequisite authority lattice. Exhaustively exercise all 16 subsets of the four exact preflight prerequisites using validation-only synthetic bindings, prove every incomplete subset fails closed, and prove even the complete fixture remains metadata-only with no request body, client, network, upload, or production authority.
+The P036 prerequisite authority-lattice milestone is complete. All 16 subsets were exercised: 15/15 partial states emit no envelope; the complete validation fixture emits metadata only; the same complete proxy set is blocked outside fixture mode. Seventeen/seventeen mutations fail with zero client/body/network/request/upload/$0 under ADR-0072.
+
+The active bounded milestone is hardening-release gate r3. Preserve the 60-check r2 gate as the immutable base, then append the current handoff r2, prerequisite lattice, and r10-r12 cost-ledger validators as a final no-network integration gate.
 
 ### Authority and data boundaries
 

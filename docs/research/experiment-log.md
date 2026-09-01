@@ -809,3 +809,10 @@
 - Current local coverage is three topology passes/two profiles, 28 rebuilt artifacts/nine groups, 60/60 release checks, 387 safe-source paths, five root authority items, and 37 zero-cost milestones.
 - G07 remains 0/20/null/zero and CH05 remains zero approved inputs/outcomes/acceptances/$0. Eighteen/eighteen mutations fail under ADR-0071; next external action is null.
 - Ledger r11 records 38 local zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - P036 prerequisite authority lattice
+
+- Exhausted all 16 Boolean subsets of base/mask/exact-authority/distinct-reservation using validation-only synthetic records.
+- All 15 incomplete subsets remain blocked with no metadata envelope. Cascading package-hash dependencies remain visible rather than being normalized away.
+- The complete fixture produces one `SYNTHETIC_VALIDATION_ONLY` metadata envelope with null request body and no network executor. The same proxy records in non-fixture mode are blocked as ineligible production inputs.
+- Seventeen/seventeen subset/promotion/request/activity mutations fail under ADR-0072. Ledger r12 records 39 local zero-cost milestones and remains disabled/no-cap/$0.

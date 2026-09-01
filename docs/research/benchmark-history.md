@@ -276,3 +276,5 @@ Safe-source r2 pins pushed commit `43fc787` with 387 paths / 8,535,516 bytes, tr
 Release gate r2 runs the immutable 53-check r1 result plus seven post-r1 validators: 60/60 pass in an observed 79.280 seconds and 11/11 mutations fail. This is local release-integrity timing, not renderer, reviewer, or production throughput.
 
 Selected-route handoff r2 preserves all r1 renderer measurements and blocked production counts while binding three topology passes, 28 rebuilt artifacts, 60/60 release checks, 387 safe-source paths, five root authority items, and 37 zero-cost milestones; 18/18 mutations fail. This is current cross-evidence provenance, not new renderer evidence.
+
+The P036 prerequisite lattice exhausts 16/16 subsets: 15/15 partial states are blocked, the complete fixture is metadata-only, the complete non-fixture proxy attempt is blocked, and 17/17 mutations fail. This is fail-closed combinatorial coverage, not production authority or throughput.

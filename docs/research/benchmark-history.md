@@ -242,3 +242,5 @@ The 50-row repair-evidence matrix measures four explicit candidate panels, two l
 The synthetic exact-base packet measures 64,992 support / 35,150 transition / 27,366 full-core pixels, exact exterior equality, 98.838% fixture boundary-distance reduction, and byte-identical no-change; 14/14 mutations fail. Its review remains pending with null minutes, so it adds measurement-instrument coverage only—not real panel, renderer-quality, narrative, or acceptance evidence.
 
 V2.1 completed-fixture validation now derives seam subject, event-chain integrity, reviewer, three active minutes, fixture ineligibility, decision, and four assertions from exact referenced records; 18/18 contradictions fail. This is provenance validation only: the accepted fixture decision is not eligible human evidence and does not change the real zero-review/zero-acceptance state.
+
+The repair finalizer reports nine real P036 blockers and emits no outcome, while two synthetic validation finalizations are digest-identical and fixture promotion fails; 10/10 mutations fail. This measures fail-closed finalization mechanics, not provider, candidate, human-review, or production throughput.

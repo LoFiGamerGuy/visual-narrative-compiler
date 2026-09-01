@@ -680,3 +680,11 @@
 - The synthetic session is explicitly a validation fixture and derives `review_evidence_eligible=false`; a real RenderRecord must use a non-fixture eligible session. The ordinary full-candidate review remains separately pending.
 - RenderRecord contradiction coverage increases from 15/15 to 18/18 with exact session/evidence hash and reviewer mutations. Real seam sessions/minutes/accepted outcomes remain 0/null/0 under ADR-0054.
 - Consolidated offline validation remains 40/40 in 25.977 seconds.
+
+## 2026-09-01 - fail-closed repair outcome finalizer and cost ledger r3
+
+- Added a no-network finalizer that consumes only complete journal/ledger/RenderRecord evidence. Current real P036 reports nine blockers: the four production preflight gates plus real exact-base measurement, eligible seam review, completed journal, candidate, and cost reconciliation.
+- Real output fields remain null. Two synthetic validation finalizations produce identical record/journal/ledger digests; changing the fixture flag fails instead of promoting the record.
+- Ten/ten missing-blocker, fabricated record/candidate/minutes, fixture promotion, network, invented activity, and AnimationShotPlan mutations fail under ADR-0055.
+- Append-only cost ledger r3 pins r2 and records measurement, session binding, and finalizer milestones. It now totals 21 unique zero-cost milestones with no cap, empty reservations, $0 committed, and $0 held; 8/8 ledger mutations fail.
+- Consolidated offline validation passes 42/42 in 25.569 seconds; real requests/uploads/cost remain 0/0/$0.

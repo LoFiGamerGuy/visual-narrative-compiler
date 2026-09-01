@@ -88,7 +88,9 @@ The exact-base boundary-measurement milestone is complete. A synthetic exact-byt
 
 The hash-chained seam-review milestone is complete. V2.1 completed validation now loads the tracked measurement packet and exact session, verifies hashes/event chain/subject/reviewer, derives three fixture minutes, checks all four seam assertions, and rejects fixture eligibility as real evidence. RenderRecord mutation rejection increases to 18/18 under ADR-0054; real CH05 sessions/minutes/outcomes remain zero/null/zero. The suite remains 40/40.
 
-The active bounded milestone is a fail-closed repair-outcome finalizer. Compile exact current P036 blockers before any v2.1 outcome can exist, while using only complete synthetic sources to prove deterministic finalization. The current real state must emit no RenderRecord, candidate, review, request, upload, or cost.
+The fail-closed repair-outcome finalizer milestone is complete. Real P036 reports nine blockers and emits no RenderRecord/candidate/review/request/cost. Two synthetic finalizations have identical record/journal/ledger digests, and changing the fixture flag cannot promote them; 10/10 mutations fail under ADR-0055. Append-only production cost ledger r3 records 21 zero-cost milestones with no cap/reservations/spend, and the suite passes 42/42.
+
+The active bounded milestone is bootstrap/runtime reproducibility closure for the selected instrumentation route. Add a no-download profile and exact local runtime inventory/dry-run evidence for the complete offline suite without changing `baseline_legacy`, downloading models, installing packages, or exposing credentials.
 
 ### Authority and data boundaries
 

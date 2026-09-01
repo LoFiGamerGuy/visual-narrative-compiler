@@ -53,6 +53,8 @@ CHECKS = [
     ("production_cost_ledger_r2", [PYTHON, "src/north_garden/validate_ch05_production_cost_ledger_r2.py"]),
     ("repair_evidence_readiness_matrix", [PYTHON, "src/north_garden/validate_ch05_repair_evidence_readiness_matrix.py"]),
     ("exact_base_boundary_measurement_packet", [PYTHON, "src/north_garden/validate_exact_base_boundary_measurement_packet.py"]),
+    ("repair_outcome_finalizer", [PYTHON, "src/north_garden/validate_repair_outcome_finalizer.py"]),
+    ("production_cost_ledger_r3", [PYTHON, "src/north_garden/validate_ch05_production_cost_ledger_r3.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

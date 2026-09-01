@@ -104,7 +104,9 @@ The provider transport/data-boundary milestone is complete. Four endpoints are H
 
 The selected-route hardening-state milestone is complete. The handoff pins the OpenAI engineering route, 16 G07 candidates/$1.057377, selected-arm $0.198621/128.347s and drift dimensions, 0/20/null/zero review, 16px/5px local profiles, 26 exact rebuilt artifacts, 50/4/2/1 chapter readiness, nine real P036 blockers, and zero production outcomes/$0. Fifteen/fifteen promotion/authority/denominator mutations fail under ADR-0062.
 
-The active bounded milestone is a disconnected-and-holed support topology stress. Test the remaining explicitly documented local mechanics gap with a deterministic panel-neutral ring plus thin disconnected component, bounded width series, exact hole/exterior protection, and no geometry tuning or production inference.
+The disconnected/holed topology milestone is complete. Fixed panel-neutral ring plus separate 32px thin geometry selects 8px as its widest local pass, retaining two cores at 62.915%/25.936% with exact hole/exterior protection. Twelve/twelve mutations fail under ADR-0063; no profile, policy, mask, review, or authority follows.
+
+The active bounded milestone is append-only selector contract r2. Pin r1 unchanged and add the disconnected/hole control only as panel-neutral topology coverage, while preserving P036=16px, P044=5px, no universal width, zero exact-panel visual passes/reviews/production-ready profiles, and all production blockers.
 
 ### Authority and data boundaries
 

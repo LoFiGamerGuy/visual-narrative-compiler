@@ -1,0 +1,194 @@
+{
+  "record_type": "DisconnectedHoledMaskTopologyStress",
+  "schema_version": "1.0",
+  "record_id": "ng-disconnected-holed-mask-topology-stress-r1",
+  "state": "LOCAL_PANEL_NEUTRAL_MECHANICS_CONTROL_NOT_PRODUCTION_POLICY",
+  "sources": {
+    "boundary": {
+      "path": "docs/research/evidence/openai-targeted-repair-boundary-hardening-r2.json",
+      "sha256": "ad3df9d311efe106da3d5d4d93bcb04979b6aaaf315037b59662cae33e2ef3cf"
+    },
+    "selector": {
+      "path": "config/scale-aware-repair-boundary-selector-contract-r1.json",
+      "sha256": "b0fea65bc4deca76240c50d95471a79452294f3f5209883f2e59eaf6cfc45679"
+    }
+  },
+  "geometry": {
+    "canvas_width": 640,
+    "canvas_height": 480,
+    "fixed_before_width_series": true,
+    "support_components": 2,
+    "ring_outer_diameter_px": 200,
+    "ring_inner_hole_diameter_px": 90,
+    "ring_wall_px": 55,
+    "thin_component_width_px": 32,
+    "widths_px": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      16,
+      20
+    ],
+    "selection_rule": "widest tested width retaining exactly two nonzero/core components, >=15% core in ring and thin component, exact protected hole and exterior"
+  },
+  "variants": [
+    {
+      "feather_width_px": 2,
+      "support_component_count": 2,
+      "nonzero_alpha_component_count": 2,
+      "fully_replaced_core_component_count": 2,
+      "fully_replaced_core_pixels": 28382,
+      "fully_replaced_core_fraction": 0.884449984,
+      "ring_core_fraction": 0.907286871,
+      "thin_component_core_fraction": 0.800986365,
+      "hole_nonzero_alpha_pixels": 0,
+      "exterior_nonzero_alpha_pixels": 0,
+      "qualifies": true
+    },
+    {
+      "feather_width_px": 4,
+      "support_component_count": 2,
+      "nonzero_alpha_component_count": 2,
+      "fully_replaced_core_component_count": 2,
+      "fully_replaced_core_pixels": 24738,
+      "fully_replaced_core_fraction": 0.77089436,
+      "ring_core_fraction": 0.814573742,
+      "thin_component_core_fraction": 0.611256165,
+      "hole_nonzero_alpha_pixels": 0,
+      "exterior_nonzero_alpha_pixels": 0,
+      "qualifies": true
+    },
+    {
+      "feather_width_px": 6,
+      "support_component_count": 2,
+      "nonzero_alpha_component_count": 2,
+      "fully_replaced_core_component_count": 2,
+      "fully_replaced_core_pixels": 21156,
+      "fully_replaced_core_fraction": 0.659270801,
+      "ring_core_fraction": 0.721860613,
+      "thin_component_core_fraction": 0.430519292,
+      "hole_nonzero_alpha_pixels": 0,
+      "exterior_nonzero_alpha_pixels": 0,
+      "qualifies": true
+    },
+    {
+      "feather_width_px": 8,
+      "support_component_count": 2,
+      "nonzero_alpha_component_count": 2,
+      "fully_replaced_core_component_count": 2,
+      "fully_replaced_core_pixels": 17640,
+      "fully_replaced_core_fraction": 0.549703958,
+      "ring_core_fraction": 0.629147484,
+      "thin_component_core_fraction": 0.259355962,
+      "hole_nonzero_alpha_pixels": 0,
+      "exterior_nonzero_alpha_pixels": 0,
+      "qualifies": true
+    },
+    {
+      "feather_width_px": 10,
+      "support_component_count": 2,
+      "nonzero_alpha_component_count": 2,
+      "fully_replaced_core_component_count": 2,
+      "fully_replaced_core_pixels": 14192,
+      "fully_replaced_core_fraction": 0.442256155,
+      "ring_core_fraction": 0.53659311,
+      "thin_component_core_fraction": 0.097476066,
+      "hole_nonzero_alpha_pixels": 0,
+      "exterior_nonzero_alpha_pixels": 0,
+      "qualifies": false
+    },
+    {
+      "feather_width_px": 12,
+      "support_component_count": 2,
+      "nonzero_alpha_component_count": 2,
+      "fully_replaced_core_component_count": 1,
+      "fully_replaced_core_pixels": 11200,
+      "fully_replaced_core_fraction": 0.349018386,
+      "ring_core_fraction": 0.444515002,
+      "thin_component_core_fraction": 0.0,
+      "hole_nonzero_alpha_pixels": 0,
+      "exterior_nonzero_alpha_pixels": 0,
+      "qualifies": false
+    },
+    {
+      "feather_width_px": 16,
+      "support_component_count": 2,
+      "nonzero_alpha_component_count": 2,
+      "fully_replaced_core_component_count": 1,
+      "fully_replaced_core_pixels": 6560,
+      "fully_replaced_core_fraction": 0.204425055,
+      "ring_core_fraction": 0.260358787,
+      "thin_component_core_fraction": 0.0,
+      "hole_nonzero_alpha_pixels": 0,
+      "exterior_nonzero_alpha_pixels": 0,
+      "qualifies": false
+    },
+    {
+      "feather_width_px": 20,
+      "support_component_count": 2,
+      "nonzero_alpha_component_count": 2,
+      "fully_replaced_core_component_count": 4,
+      "fully_replaced_core_pixels": 2092,
+      "fully_replaced_core_fraction": 0.065191648,
+      "ring_core_fraction": 0.083029052,
+      "thin_component_core_fraction": 0.0,
+      "hole_nonzero_alpha_pixels": 0,
+      "exterior_nonzero_alpha_pixels": 0,
+      "qualifies": false
+    }
+  ],
+  "decision": {
+    "selected_width_px": 8,
+    "selected_measurements": {
+      "feather_width_px": 8,
+      "support_component_count": 2,
+      "nonzero_alpha_component_count": 2,
+      "fully_replaced_core_component_count": 2,
+      "fully_replaced_core_pixels": 17640,
+      "fully_replaced_core_fraction": 0.549703958,
+      "ring_core_fraction": 0.629147484,
+      "thin_component_core_fraction": 0.259355962,
+      "hole_nonzero_alpha_pixels": 0,
+      "exterior_nonzero_alpha_pixels": 0,
+      "qualifies": true
+    },
+    "first_larger_failing_width_px": 10,
+    "mechanics_control_pass": true,
+    "panel_profile_created": false,
+    "production_policy_created": false,
+    "provider_route_changed": false
+  },
+  "outputs": {
+    "support": {
+      "path": "experiments/outputs/disconnected_holed_mask_topology_stress_r1/disconnected-ring-thin-support-r1.png",
+      "sha256": "070676d07aa629953f6a77c766ab7619ccba5cf17b748785e95e936b070726c3"
+    },
+    "selected_alpha": {
+      "path": "experiments/outputs/disconnected_holed_mask_topology_stress_r1/selected-08px-inward-alpha-r1.png",
+      "sha256": "7a1eb90581a7289fcc67657527eb4272ee52da825ea94042a8ced14446494da9"
+    }
+  },
+  "validation": {
+    "synthetic_composite_changed_pixels_outside_support": 0,
+    "synthetic_composite_changed_pixels_inside_hole": 0
+  },
+  "review": {
+    "human_review_status": "not_yet_performed",
+    "human_minutes": null,
+    "accepted": false
+  },
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "Panel-neutral abstract geometry only; no ComicPanelPlan profile, mask, art, or upload authority.",
+    "One ring hole and two disconnected components do not establish arbitrary topology coverage.",
+    "Topology/core retention does not establish seam quality, causality, identity continuity, or narrative applicability.",
+    "The selected width is local to this exact geometry and cannot become a universal default."
+  ]
+}

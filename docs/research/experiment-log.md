@@ -743,3 +743,10 @@
 - Preserved the measured OpenAI arm as four candidates / $0.198621 / 128.347 seconds plus separate repeat/target/no-change raster drift dimensions. The engineering selection is not visual acceptance, commercial clearance, or universal superiority.
 - Real G07 review remains 0/20 decisions, null minutes, zero accepted, and no human arm result/composite/ranking. Chapter state remains 50 plans / four explicit repair candidates / two profiles / one policy / nine P036 blockers / zero production outcomes/$0.
 - Fifteen/fifteen invented acceptance/review/authority/universal width/input/outcome/minutes/budget/AnimationShotPlan and removed-limitation mutations fail under ADR-0062.
+
+## 2026-09-01 - disconnected and protected-hole topology stress
+
+- Fixed a 200px outer/90px inner ring and a separate 32px diagonal component before comparing 2/4/6/8/10/12/16/20px inward boundaries. Geometry is panel-neutral and was not widened or tuned per variant.
+- The widest predeclared-rule pass is 8px: exactly two nonzero/core components, 62.915% ring core, and 25.936% thin-component core. Ten pixels is the first larger failure.
+- Protected-hole and exterior nonzero alpha are zero, and a synthetic composite changes zero hole/exterior pixels.
+- Twelve/twelve geometry, series, selection, component, hole, exterior, policy/profile, invented review, and activity mutations fail under ADR-0063. Provider requests/uploads/cost remain 0/0/$0.

@@ -258,3 +258,5 @@ Static/no-network aggregate-budget audit confirms 4/4 paid adapters reserve befo
 Transport audit confirms four HTTPS endpoints, verified native TLS on every `urlopen`, explicit HTTPS guards on provider-returned Gemini/BFL URLs, exact two input hashes, and six intact prohibited classes; 9/9 mutations fail. This is static security/data-boundary evidence with zero network activity.
 
 The cross-evidence hardening state preserves OpenAI as engineering route only: selected arm four candidates/$0.198621/128.347s, G07 review 0/20/null/zero, chapter 50 plans/four explicit/two profiles/one policy/nine blockers/zero outcomes; 15/15 promotion mutations fail. It is a handoff state, not a new score or result.
+
+Panel-neutral disconnected/hole stress selects local 8px on fixed ring+32px geometry, retaining two cores at 62.915%/25.936% with exact hole/exterior; 12/12 mutations fail. This expands abstract topology coverage only, not panel applicability or visual acceptance.

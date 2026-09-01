@@ -1,0 +1,288 @@
+{
+  "record_type": "ProviderDocumentationPreSpendChronologyEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-provider-documentation-pre-spend-chronology-r1",
+  "state": "OFFICIAL_PRIMARY_DOCUMENTATION_RECORDED_BEFORE_ALL_PROVIDER_ATTEMPTS",
+  "sources": {
+    "documentation": {
+      "path": "docs/research/provider-primary-documentation-20260901.md",
+      "sha256": "3a7a740320ab1115ff26f13bd1f7aad37e39671871ab367bb7ba7f9213b61b9d",
+      "retrieved_at": "2026-09-01T15:07:36Z",
+      "official_urls": 19
+    },
+    "budget_policy": {
+      "record_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "path": "config/g07-bakeoff-budget-policy-r1.json",
+      "sha256": "deac9fd81058077bf92127c110b58fd85904888ebcc31ed0c253fc07419633ad"
+    },
+    "evidence_vault": {
+      "record_id": "g07-local-evidence-vault-manifest-r1",
+      "path": "docs/research/evidence/g07-local-evidence-vault-manifest-r1.json",
+      "sha256": "920d088f800bcdcc797cf66f4a1a7fb006a894ad2038bbe3b0f4f9cee0e128cf"
+    }
+  },
+  "provider_sections": [
+    {
+      "adapter_id": "openai_gpt_image_2",
+      "heading": "## OpenAI GPT Image 2",
+      "model_endpoint_pricing_terms_sources_present": true
+    },
+    {
+      "adapter_id": "gemini_3_1_flash_image",
+      "heading": "## Google Gemini 3.1 Flash Image",
+      "model_endpoint_pricing_terms_sources_present": true
+    },
+    {
+      "adapter_id": "grok_imagine_image_2",
+      "heading": "## SpaceXAI Grok Imagine Image 2.0",
+      "model_endpoint_pricing_terms_sources_present": true
+    },
+    {
+      "adapter_id": "bfl_flux_2",
+      "heading": "## Black Forest Labs FLUX.2 Pro",
+      "model_endpoint_pricing_terms_sources_present": true
+    }
+  ],
+  "attempts": [
+    {
+      "adapter_id": "openai_gpt_image_2",
+      "record_path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-independent-01-failed.json",
+      "record_sha256": "df91494c2ae424276a1f1cc0b561710e72f60be92eba842f53fb086e3a7d94b2",
+      "started_at": "2026-09-01T15:15:46Z",
+      "seconds_after_documentation": 490,
+      "execution_status": "failed",
+      "cost_usd": "0.000000",
+      "api_documentation": "https://developers.openai.com/api/docs/guides/image-generation",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "openai_gpt_image_2",
+      "record_path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-independent-01.json",
+      "record_sha256": "a8ed12089207e887f8423cad6b89f8205d78de0e3021c1454ecfeb81e55cd66a",
+      "started_at": "2026-09-01T15:19:11Z",
+      "seconds_after_documentation": 695,
+      "execution_status": "completed",
+      "cost_usd": "0.049644",
+      "api_documentation": "https://developers.openai.com/api/docs/guides/image-generation",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "openai_gpt_image_2",
+      "record_path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-independent-02.json",
+      "record_sha256": "95f1b9bea19f1795c0532cbe2956667bde7d8aded3ce922c3ebcc929f6cf5f39",
+      "started_at": "2026-09-01T15:19:43Z",
+      "seconds_after_documentation": 727,
+      "execution_status": "completed",
+      "cost_usd": "0.049644",
+      "api_documentation": "https://developers.openai.com/api/docs/guides/image-generation",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "openai_gpt_image_2",
+      "record_path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-target-change.json",
+      "record_sha256": "66f00641b0aeaa56df5eea312b2c3878bca11c26ccb2f919bf0c33a1ce0988b1",
+      "started_at": "2026-09-01T15:20:14Z",
+      "seconds_after_documentation": 758,
+      "execution_status": "completed",
+      "cost_usd": "0.049669",
+      "api_documentation": "https://developers.openai.com/api/docs/guides/image-generation",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "openai_gpt_image_2",
+      "record_path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-no-change.json",
+      "record_sha256": "c7301a3d5164a34f83ff3d4a1bfc51fe8a0d4acabe35f852de91befae81bb599",
+      "started_at": "2026-09-01T15:20:47Z",
+      "seconds_after_documentation": 791,
+      "execution_status": "completed",
+      "cost_usd": "0.049664",
+      "api_documentation": "https://developers.openai.com/api/docs/guides/image-generation",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "gemini_3_1_flash_image",
+      "record_path": "experiments/records/gemini_flash_image_g07_bakeoff_r1/g07a-independent-01-failed.json",
+      "record_sha256": "55b39e1998b6a282aaca21f86873599ca299183f06a32f1a1e16a2c908535109",
+      "started_at": "2026-09-01T15:21:47Z",
+      "seconds_after_documentation": 851,
+      "execution_status": "failed",
+      "cost_usd": "not_reported; reconcile against provider billing/usage",
+      "api_documentation": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "gemini_3_1_flash_image",
+      "record_path": "experiments/records/gemini_flash_image_g07_bakeoff_r1/g07a-independent-01.json",
+      "record_sha256": "90601ca4f159babf7b80bdedd664b456cd74b00f5602e57c3a75626f2797c8a2",
+      "started_at": "2026-09-01T15:21:47Z",
+      "seconds_after_documentation": 851,
+      "execution_status": "completed_recovered_from_interaction",
+      "cost_usd": "0.067188",
+      "api_documentation": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "gemini_3_1_flash_image",
+      "record_path": "experiments/records/gemini_flash_image_g07_bakeoff_r1/g07a-independent-02.json",
+      "record_sha256": "f293ca841bf8b104dfbf1ca17006b11d4e7bcab7b1854084b509f399056d96d4",
+      "started_at": "2026-09-01T15:29:31Z",
+      "seconds_after_documentation": 1315,
+      "execution_status": "completed",
+      "cost_usd": "0.067188",
+      "api_documentation": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "gemini_3_1_flash_image",
+      "record_path": "experiments/records/gemini_flash_image_g07_bakeoff_r1/g07a-target-change.json",
+      "record_sha256": "32f7fcacbbfa21e40c98026b6e03f5c929597a26c22a02efd287945350d31344",
+      "started_at": "2026-09-01T15:29:45Z",
+      "seconds_after_documentation": 1329,
+      "execution_status": "completed",
+      "cost_usd": "0.067190",
+      "api_documentation": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "gemini_3_1_flash_image",
+      "record_path": "experiments/records/gemini_flash_image_g07_bakeoff_r1/g07a-no-change.json",
+      "record_sha256": "125a5c313c98c5c53258b260f274090500c5149701a2fcb93d506b1cb85f1994",
+      "started_at": "2026-09-01T15:29:57Z",
+      "seconds_after_documentation": 1341,
+      "execution_status": "completed",
+      "cost_usd": "0.067190",
+      "api_documentation": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "grok_imagine_image_2",
+      "record_path": "experiments/records/xai_grok_imagine_g07_bakeoff_r1/g07a-independent-01-failed.json",
+      "record_sha256": "f08aa2403b6e37325d3f0a815ae669ffcd209bf7aaab960f34765bad0d925b49",
+      "started_at": "2026-09-01T15:30:44Z",
+      "seconds_after_documentation": 1388,
+      "execution_status": "failed",
+      "cost_usd": "0.070000",
+      "api_documentation": "https://docs.x.ai/developers/model-capabilities/images/editing",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "grok_imagine_image_2",
+      "record_path": "experiments/records/xai_grok_imagine_g07_bakeoff_r1/g07a-independent-01.json",
+      "record_sha256": "573af86f2bfdfcab33bebeed9ae6c188a64ce7f50be4c2d22ba003f5cf6663af",
+      "started_at": "2026-09-01T15:33:32Z",
+      "seconds_after_documentation": 1556,
+      "execution_status": "completed",
+      "cost_usd": "0.070000",
+      "api_documentation": "https://docs.x.ai/developers/model-capabilities/images/editing",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "grok_imagine_image_2",
+      "record_path": "experiments/records/xai_grok_imagine_g07_bakeoff_r1/g07a-independent-02.json",
+      "record_sha256": "dfa7e9d1482f46edd589c8fdb9a0214cf8a46b043af9c7a7b017958cda8673c2",
+      "started_at": "2026-09-01T15:33:47Z",
+      "seconds_after_documentation": 1571,
+      "execution_status": "completed",
+      "cost_usd": "0.070000",
+      "api_documentation": "https://docs.x.ai/developers/model-capabilities/images/editing",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "grok_imagine_image_2",
+      "record_path": "experiments/records/xai_grok_imagine_g07_bakeoff_r1/g07a-target-change.json",
+      "record_sha256": "f91549fe6b533ed4678691007a405f1ad7f6addfa4ee85eda3bca1331c684f8d",
+      "started_at": "2026-09-01T15:34:01Z",
+      "seconds_after_documentation": 1585,
+      "execution_status": "completed",
+      "cost_usd": "0.070000",
+      "api_documentation": "https://docs.x.ai/developers/model-capabilities/images/editing",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "grok_imagine_image_2",
+      "record_path": "experiments/records/xai_grok_imagine_g07_bakeoff_r1/g07a-no-change.json",
+      "record_sha256": "f125e4e9f60c452ff7b367a2ddd103f2081e29fe6063d2efdf5fc49981849f1c",
+      "started_at": "2026-09-01T15:34:14Z",
+      "seconds_after_documentation": 1598,
+      "execution_status": "completed",
+      "cost_usd": "0.070000",
+      "api_documentation": "https://docs.x.ai/developers/model-capabilities/images/editing",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "bfl_flux_2",
+      "record_path": "experiments/records/bfl_flux2_g07_bakeoff_r1/g07a-independent-01.json",
+      "record_sha256": "87db03c8a8e21f3808d4e0411bcbba080832f1320ea06ea406eca8303d96722c",
+      "started_at": "2026-09-01T15:37:33Z",
+      "seconds_after_documentation": 1797,
+      "execution_status": "completed",
+      "cost_usd": "0.060000",
+      "api_documentation": "https://docs.bfl.ai/flux_2/flux2_image_editing",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "bfl_flux_2",
+      "record_path": "experiments/records/bfl_flux2_g07_bakeoff_r1/g07a-independent-02.json",
+      "record_sha256": "0ed515372f0c8b545e667268ae944ea29b17ce9d50534fe0ad5dac5ee3a929ea",
+      "started_at": "2026-09-01T15:37:56Z",
+      "seconds_after_documentation": 1820,
+      "execution_status": "completed",
+      "cost_usd": "0.060000",
+      "api_documentation": "https://docs.bfl.ai/flux_2/flux2_image_editing",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "bfl_flux_2",
+      "record_path": "experiments/records/bfl_flux2_g07_bakeoff_r1/g07a-target-change.json",
+      "record_sha256": "cf107cfc069f9b117b49ba2d5371b50b00ad2efd51c6d2174f05c6a6be1047fd",
+      "started_at": "2026-09-01T15:38:15Z",
+      "seconds_after_documentation": 1839,
+      "execution_status": "completed",
+      "cost_usd": "0.060000",
+      "api_documentation": "https://docs.bfl.ai/flux_2/flux2_image_editing",
+      "documentation_preceded_attempt": true
+    },
+    {
+      "adapter_id": "bfl_flux_2",
+      "record_path": "experiments/records/bfl_flux2_g07_bakeoff_r1/g07a-no-change.json",
+      "record_sha256": "ea5119d1defffcae847c5e915770332ce1e5baf8654eb53df82576b7b7da2006",
+      "started_at": "2026-09-01T15:38:47Z",
+      "seconds_after_documentation": 1871,
+      "execution_status": "completed",
+      "cost_usd": "0.060000",
+      "api_documentation": "https://docs.bfl.ai/flux_2/flux2_image_editing",
+      "documentation_preceded_attempt": true
+    }
+  ],
+  "chronology": {
+    "documentation_retrieved_at": "2026-09-01T15:07:36Z",
+    "earliest_attempt_at": "2026-09-01T15:15:46Z",
+    "earliest_attempt_seconds_after_documentation": 490,
+    "earliest_positive_cost_at": "2026-09-01T15:19:11Z",
+    "earliest_positive_cost_seconds_after_documentation": 695,
+    "first_attempt_by_adapter": {
+      "bfl_flux_2": "2026-09-01T15:37:33Z",
+      "gemini_3_1_flash_image": "2026-09-01T15:21:47Z",
+      "grok_imagine_image_2": "2026-09-01T15:30:44Z",
+      "openai_gpt_image_2": "2026-09-01T15:15:46Z"
+    }
+  },
+  "summary": {
+    "providers": 4,
+    "official_source_urls": 19,
+    "provider_records": 19,
+    "records_after_documentation": 19,
+    "required_candidates": 16,
+    "aggregate_paid_usd": "1.057377",
+    "held_usd": "0.000000",
+    "provider_requests_added_by_audit": 0,
+    "external_uploads_added_by_audit": 0,
+    "external_cost_added_by_audit_usd": "0.000000"
+  },
+  "limitations": [
+    "This chronology proves the dated local primary-document record preceded requests; it does not guarantee provider pages remain unchanged indefinitely.",
+    "Any future CH05 execution requires a fresh current-primary pricing/terms/model/data-use review.",
+    "BFL remains limited to the two approved public fictional controls under ADR-0019."
+  ],
+  "boundary": "Read-only chronology audit. It performs no web retrieval, provider request, upload, spend, or policy expansion."
+}

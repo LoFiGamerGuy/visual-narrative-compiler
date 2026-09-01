@@ -867,3 +867,11 @@
 - Matrix r2 passes 11/11 commands in 115.394 seconds and rejects 17/17 mutations. No evidence semantic, frozen target, review gate, or authority gate changed.
 - R4 then passes immutable r3 (65 checks) plus nine current extensions: 74/74 in 197.859 seconds; 18/18 mutations fail. G07 stays 0/20 and CH05 stays zero outcomes/no cap/no approvals.
 - Ledger r19 records 47 local zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - provider documentation pre-spend chronology
+
+- Bound the official primary-document record and retrieval timestamp to all 19 exact vault provider records.
+- Four provider sections contain model/endpoint, pricing, data/terms, and sources across 19 official links. Every retained record's adapter documentation URL appears in the primary record.
+- Documentation retrieval at 15:07:36Z preceded the first attempted request at 15:15:46Z by 490 seconds and the first positive-cost request at 15:19:11Z by 695 seconds.
+- Sixteen/sixteen chronology/source/denominator/spend/activity mutations fail under ADR-0080. The audit made no web/provider call or spend; future CH05 execution still requires a fresh current-primary review.
+- Ledger r20 records 48 local zero-cost milestones and remains disabled/no-cap/$0.

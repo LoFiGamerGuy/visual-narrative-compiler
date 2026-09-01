@@ -138,7 +138,9 @@ The review/authority handoff milestone is complete. The 20-decision G07 task and
 
 The hardening-release gate r4 milestone is complete. A first attempt correctly failed because matrix r1 overbound a mutable live tracked-path diagnostic; append-only matrix r2 narrows only stdout identity and passes 11/11 commands. R4 then passes the immutable 65-check r3 base plus nine extensions, 74/74 in 197.859 seconds, with 18/18 mutations and all review/authority fields unchanged under ADR-0079.
 
-The active bounded milestone is the autonomous closeout state. Compile the objective checklist, exact latest evidence hashes, commits, measured provider results/spend, hardening measurements, release/reproducer/frozen status, unresolved human/authority roots, and zero-activity boundary into one final machine-validated record.
+The provider-documentation chronology milestone is complete. Nineteen official links cover four model/endpoint/pricing/terms sections; all 19 provider records start later. Documentation led the earliest attempt/positive-cost request by 490/695 seconds, and 16/16 mutations fail under ADR-0080.
+
+The active bounded milestone is the autonomous closeout state. Compile the objective checklist, exact latest evidence hashes, commits, measured provider results/spend, hardening measurements, release/reproducer/frozen/document chronology status, unresolved human/authority roots, and zero-activity boundary into one final machine-validated record.
 
 ### Authority and data boundaries
 

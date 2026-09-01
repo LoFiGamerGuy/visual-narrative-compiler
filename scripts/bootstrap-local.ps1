@@ -39,6 +39,11 @@ foreach ($requirement in $profileSpec.requirements) {
         if (-not $command -and (-not $configured -or -not (Test-Path -LiteralPath $configured -PathType Leaf))) {
             throw "Required executable is missing for profile '$Profile': $($requirement.name); configure $($requirement.environment) with an exact local executable path."
         }
+    } elseif ($requirement.kind -eq 'python_module') {
+        python -c "import importlib; importlib.import_module('$($requirement.name)')"
+        if ($LASTEXITCODE -ne 0) {
+            throw "Required Python module is missing for profile '$Profile': $($requirement.name) (distribution $($requirement.distribution))"
+        }
     } else {
         throw "Unknown runtime requirement kind: $($requirement.kind)"
     }

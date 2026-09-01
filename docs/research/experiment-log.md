@@ -510,3 +510,10 @@
 - Terminal panel decisions now require an exact timed-session digest and matching reviewer, subject, decision, and calculated minutes. The combined run-ledger suite rejects 22/22 transition, tamper, aggregate-budget, and timed-review mutations.
 - The real CH05 rollup retains all 50 planned panels: 50 base-pending, 0 submitted/accepted, null measured human minutes, and $0 committed production cost; current root equals the pinned baseline root.
 - An isolated synthetic scenario exercises one retry: 2 submitted panels, 3 completed attempts, 1 rejected then retried, 2 current accepted panels, accepted-per-planned 0.04 versus accepted-per-submitted-panel 1.0, 15 fixture-only minutes, and $0.45 fixture-only reconciled cost. Four/four missing-panel/cost/session/plan mutations fail. None enters real evidence.
+
+## 2026-09-01 - selected OpenAI P036 offline submission preflight
+
+- Compiled selected-route prerequisites for exact P036 panel/revision and pinned `gpt-image-2-2026-04-21` `/v1/images/edits`. The real record stops on four independent blockers: approved base, approved repair mask, exact external authority, and distinct CH05 production reservation.
+- Real input-package hash, request envelope, and request body remain null. Static inspection confirms no requests/urllib/httpx/openai/socket/aiohttp import and no API-key access; provider requests/uploads/cost are 0/0/$0.
+- A complete synthetic prerequisite fixture produces metadata-only envelope state with no request body or network executor. Six/six base-hash, mask-overlap, authority-scope/package, and reservation-domain/package mutations block it.
+- Added a consolidated local entry point. Twenty-one of twenty-one offline checks pass in 2.652 seconds, including frozen v2.1.1, runtime, both budgets, input/ledger/review mutations, 50-panel root/progress, selected-route stop, origin URL, and the exact two public-control hashes.

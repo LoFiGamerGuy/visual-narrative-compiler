@@ -55,6 +55,8 @@ def image_errors(item: dict, label: str, *, mask: bool = False) -> list[str]:
 
 def common_errors(record: dict, panel_id: str, plan_revision_id: str) -> list[str]:
     errors = []
+    if record.get("synthetic_validation_fixture") is True:
+        errors.append("synthetic_validation_fixture_not_approvable")
     if record.get("medium") != "comic" or record.get("animation_shot_plan") is not None:
         errors.append("medium_or_animation_boundary")
     link = record.get("comic_panel_plan", {})

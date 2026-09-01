@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-ALLOWED_KINDS = {"executable", "directory", "executable_or_env_path"}
+ALLOWED_KINDS = {"executable", "directory", "executable_or_env_path", "python_module"}
 SHA256 = re.compile(r"^[0-9a-f]{64}$")
 
 
@@ -49,6 +49,8 @@ def main() -> None:
                 assert not path.is_absolute() and ".." not in path.parts
             else:
                 assert requirement["name"]
+            if requirement["kind"] == "python_module":
+                assert requirement["distribution"]
             if requirement["kind"] == "executable_or_env_path":
                 assert requirement["environment"].startswith("NORTH_GARDEN_")
     assert data["assets"]

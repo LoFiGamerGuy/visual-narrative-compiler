@@ -46,7 +46,9 @@ The 50-panel run-manifest milestone is complete. The pinned chapter root reprodu
 
 The immutable review/progress milestone is complete. A paused synthetic session computes exactly 15 active minutes and rejects 10/10 timer/decision/chain mutations. Terminal run ledgers now bind exact session digests and reject 22/22 combined lifecycle/budget/review mutations. The real chapter rollup remains 0/50 accepted with null minutes/$0; an isolated synthetic retry scenario reports 2/50 accepted, 3 attempts across 2 panels, 1 retry, 15 fixture-only minutes, and $0.45 fixture cost without leaking into real evidence.
 
-The active bounded milestone is selected-route offline submission preflight plus one-command local validation. Compile the exact P036 OpenAI repair prerequisites from `ComicPanelPlan`/input/authority/budget records, prove it stops before request construction and network while bases/masks/authority/budget remain absent, and add a consolidated validation entry point that exercises frozen, budget, packet, chapter, review, and bootstrap contracts without provider calls.
+The selected-route offline-preflight milestone is complete. P036 stops independently on missing approved base, mask, exact authority, and distinct production reservation; it has no client/network import, API-key access, request body, or executor. A synthetic complete prerequisite set produces metadata only and 6/6 mutations block it. The consolidated offline suite passes 21/21 checks in 2.652 seconds with exact safe-source/public-control validation and no provider/upload/cost activity.
+
+The active bounded milestone is crash-safe selected-route submission journaling without network. Add deterministic idempotency keys and append-only intent states for pre-submit release, post-submit unknown outcome, provider-ID recovery, cost reconciliation, and immutable completion. Simulate crash boundaries and prove no retry can create a second spend while outcome is unknown. This remains local infrastructure; no executor or authority is added.
 
 ### Authority and data boundaries
 

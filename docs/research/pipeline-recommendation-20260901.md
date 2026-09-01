@@ -66,6 +66,8 @@ The information-gain analysis selects P044 for one local blade/twine stress cont
 
 That stress control rejects direct reuse of the 16px width: both fine features lose all fully replaced core. Inward compositing remains viable, but boundary width must become scale-aware and must be tested on unchanged geometry before any second panel policy is considered.
 
+The unchanged-geometry series selects 5px for the P044 control by a topology rule, with 6px the first larger failure. A reusable selector should therefore separate topology ceiling from observed visual-discontinuity evidence; P044 lacks the latter and remains policy-ineligible.
+
 The predeclared low-denoise and strength matrices plus a paired d1.0/strength-0.8 replication now close this route: target edit passed only 1/2 observed seeds and target no-change passed 0/2. ADR-0014 rejects mask-boundary optimization until a different renderer mechanism proves both assertions.
 
 The target/no-change matrices and paired replication are now complete. ADR-0014 rejects further same-route mask-boundary tuning; ADR-0015 requires a distinct renderer mechanism. The current recommendation is in `docs/research/renderer-decision-memo-20260901.md`.

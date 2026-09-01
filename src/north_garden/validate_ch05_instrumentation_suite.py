@@ -47,6 +47,7 @@ CHECKS = [
     ("chapter_repair_coverage", [PYTHON, "src/north_garden/validate_ch05_chapter_repair_policy_coverage.py"]),
     ("next_repair_information_gain", [PYTHON, "src/north_garden/validate_ch05_next_repair_information_gain.py"]),
     ("p044_fixed_boundary_stress", [PYTHON, "src/north_garden/validate_ch05_p044_fixed_boundary_stress.py"]),
+    ("p044_adaptive_boundary", [PYTHON, "src/north_garden/validate_ch05_p044_adaptive_boundary.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

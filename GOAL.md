@@ -76,7 +76,9 @@ The next-policy information-gain milestone is complete. P019/P026/P044 were comp
 
 The P044 fixed-boundary stress milestone is complete. The exact 18-pixel blade/12-pixel twine support is one connected component, clipped from protected hands, and clear of lettering. Applying 16 pixels unchanged leaves zero fully replaced core pixels for both features, while protected/lettering/exterior change remains zero. Nine/nine mutations fail. ADR-0047 rejects the fixed width for this control without rejecting P044, the provider route, or the inward-compositor mechanism.
 
-The active bounded milestone is P044 adaptive boundary width. On the exact unchanged geometry, compare a bounded width series and select at most the widest width that retains one connected fully replaced core, at least 15% core for blade and twine, exact protected/exterior separation, and lettering clearance. Do not modify support geometry or create a production policy.
+The P044 adaptive-width milestone is complete. On unchanged hash-pinned geometry, widths 1/2/3/4/5/6/8/10/12/16 were compared. Five pixels is the widest pass: 18.496% union, 22.945% blade, and 18.170% twine fully replaced core with one core component; six is the first larger failure. Protected/lettering/exterior change remains zero and 9/9 mutations fail. ADR-0048 keeps this a local control, not a universal formula or P044 policy.
+
+The active bounded milestone is a scale-aware boundary selector contract. Encode topology retention, boundary-discontinuity evidence availability, panel/revision binding, and no-change/exterior rules as separate gates; validate the P036 16-pixel policy and P044 5-pixel control without allowing either width to generalize or P044 to become production-ready without visual/base evidence.
 
 ### Authority and data boundaries
 

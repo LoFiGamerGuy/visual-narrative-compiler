@@ -230,3 +230,5 @@ CH05 repair-policy coverage retains 50/50 panels: four explicit causal candidate
 The next-control information-gain record compares the three policy-absent causal panels and selects P044 only for a bounded blade/twine topology stress control; 8/8 selection/mechanism/authority mutations fail. No production policy, mask, renderer sample, or acceptance follows.
 
 The P044 fixed-width stress leaves 0 fully replaced core pixels for an 18px blade and 12px twine under the unchanged 16px boundary, despite one support component and zero protected/lettering/exterior change; 9/9 mutations fail. This rejects absolute-width portability on the control, not the panel or provider route.
+
+P044 adaptive-width control selects 5px as the widest topology pass on unchanged support (18.496% union / 22.945% blade / 18.170% twine core); 6px is the first larger failure and 9/9 mutations fail. This is topology mechanics without visual seam or production-policy evidence.

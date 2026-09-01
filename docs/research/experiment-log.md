@@ -626,3 +626,11 @@
 - Positive separation mechanics remain exact: protected-hand overlap 0 pixels, lettering overlap 0 pixels, synthetic compositor exterior difference 0.
 - The fixed absolute width is rejected for this fine-feature control under ADR-0047. No P044 production policy/mask or renderer change follows.
 - Nine/nine intent, policy, no-tuning, geometry, core, protected separation, overclaim, policy-authoring, and invented-review mutations fail. Calls/uploads/cost remain 0/0/$0.
+
+## 2026-09-01 - P044 adaptive inward-boundary width
+
+- Compared 1/2/3/4/5/6/8/10/12/16 pixels on the exact unchanged stress support. Geometry and support hash were fixed; no widening/redrawing occurred.
+- The rule selects the widest width with one core/nonzero-alpha component, at least 15% union/blade/twine core, zero protected-hand/lettering overlap, and exact exterior.
+- Five pixels is the widest pass: 18.4960036% union core, 22.9446164% blade core, 18.1701855% twine core. Six pixels is the first larger failure because twine core falls below the threshold.
+- Nine/nine support hash, series completeness, geometry, selection, core, exterior, policy/authority, and invented-review mutations fail.
+- This is a P044 abstract-control result only. No seam-quality observation, P044 policy, approved mask, provider call, upload, or cost follows.

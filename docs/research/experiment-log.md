@@ -852,3 +852,10 @@
 - Gauntlet remains `f826b0f1…e9ae`; local untracked `garden/gen3.py` remains `004298df…db8` and matches the untracked baseline bundle declaration.
 - Local Stage-A result remains 12 cases/24 generations/0 assertion-conformant/0 accepted, decision rejected for further benchmarking, and no tuning performed.
 - Fifteen/fifteen path/hash/promotion/tuning/activity mutations fail under ADR-0077. No legacy rerender or imagery inspection occurred. Ledger r17 records 44 zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - review and authority handoff packet
+
+- Bound the ignored local blinded packet's 16 candidate and four repeat-pair presentations to the tracked protocol/gate; 20 timed decisions remain required and 0 are complete.
+- Separated four CH05 roots—exact base, exact mask, exact provider/model/endpoint/input-package authority, and distinct production cap/reservation—from G07 review and from the primary-document refresh trigger.
+- Every reviewer/session/minute/decision/input/cap/authority/reservation/approval-request/external-action field remains null or empty. G07 remains $1.057377 actual/$98.942623 available and non-reusable for CH05.
+- Nineteen/nineteen fabrication/conflation/activity mutations fail under ADR-0078. Ledger r18 records 45 zero-cost milestones and remains disabled/no-cap/$0.

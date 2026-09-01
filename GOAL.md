@@ -134,7 +134,9 @@ The executable evidence-reproducer milestone is complete. All 11/11 current doma
 
 The frozen-target integrity milestone is complete. All 16 v2.1.1 and four tracked baseline paths are byte-identical from `f505788` to `00498df`; the local workflow still matches its declared hash and the failure profile stays 0/24 accepted/no tuning. Fifteen/fifteen mutations fail with no rerender or external activity under ADR-0077.
 
-The active bounded milestone is a review/authority handoff packet. Compile the exact G07 human-review action, P036 input/authority/budget roots, current reproducer command, spend, and prohibited inferences into a compact hash-bound packet that leaves every decision and authority field blank.
+The review/authority handoff milestone is complete. The 20-decision G07 task and four CH05 roots are separate; all human, input, authority, cap, reservation, approval-request, and external-action fields remain blank. Eleven reproducers/65 release checks/frozen integrity bind, and 19/19 mutations fail under ADR-0078.
+
+The active bounded milestone is hardening-release gate r4. Preserve r3's 65-check state and append current lineage, executable reproducer, frozen-target, review/authority handoff, and r14-r18 ledger validation without changing any renderer result or authority field.
 
 ### Authority and data boundaries
 

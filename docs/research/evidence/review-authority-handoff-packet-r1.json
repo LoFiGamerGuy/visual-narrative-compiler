@@ -1,0 +1,153 @@
+{
+  "record_type": "ReviewAuthorityHandoffPacket",
+  "schema_version": "1.0",
+  "record_id": "ng-review-authority-handoff-packet-r1",
+  "state": "READY_FOR_SEPARATE_HUMAN_AND_USER_ACTIONS_NO_FIELDS_FILLED",
+  "sources": {
+    "review_protocol": {
+      "record_id": "g07-blinded-human-review-protocol-r1",
+      "path": "config/g07-blinded-human-review-protocol-r1.json",
+      "sha256": "4fc0c45eef8509e1c095a1becee9691ac04d955ab1ce44bb63a1faf893ed93f2"
+    },
+    "review_gate": {
+      "record_id": "g07-human-review-rollup-gate-r1",
+      "path": "docs/research/evidence/g07-human-review-rollup-gate-r1.json",
+      "sha256": "927e76a328b8303fb0ca37f00027e2dba3f90e808f6b24d781bb21e9f224b78c"
+    },
+    "budget_audit": {
+      "record_id": "ng-g07-aggregate-budget-binding-audit-r3",
+      "path": "docs/research/evidence/g07-aggregate-budget-binding-audit-r3.json",
+      "sha256": "d65cad3e8d4ac075a9b1d4b7a4c843b251ed7564e7e39b2c773424d47ddee546"
+    },
+    "hardening_state": {
+      "record_id": "ng-selected-route-hardening-state-r2",
+      "path": "docs/research/evidence/selected-route-hardening-state-r2.json",
+      "sha256": "8162ebdf30b07eec9840ace3fc283e681645834e6cdc001ea5a1639bec14a9cc"
+    },
+    "authority_frontier": {
+      "record_id": "ng-selected-route-authority-dependency-frontier-r1",
+      "path": "docs/research/evidence/selected-route-authority-dependency-frontier-r1.json",
+      "sha256": "8646c2a11c27c613754813b66c457a15bdb018292135afe5d660da74b2388696"
+    },
+    "reproducer_matrix": {
+      "record_id": "ng-current-evidence-reproducer-matrix-r1",
+      "path": "docs/research/evidence/current-evidence-reproducer-matrix-r1.json",
+      "sha256": "1ebf03265242f66248bcc700f81f95ad1aebefb4307b0f2ee0195f8ab769d0f8"
+    },
+    "frozen_integrity": {
+      "record_id": "ng-frozen-gauntlet-baseline-integrity-r1",
+      "path": "docs/research/evidence/frozen-gauntlet-baseline-integrity-r1.json",
+      "sha256": "9abf582927b7dfccf4757a8745eee5fd260bd70418e4fd350fefeafe6ce9fbd9"
+    },
+    "production_ledger": {
+      "record_id": "ng-ch05-production-cost-ledger-r17",
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r17.json",
+      "sha256": "c5c7731c61c98377a436b9f7864ad62ff3c38513a7d65ee757c27340c472454c"
+    }
+  },
+  "g07_human_review": {
+    "local_packet": {
+      "path": "experiments/review-packets/g07-blinded-human-review-r1/review-packet.json",
+      "sha256": "87a96bcfc8a7f545a41b924437c5d6942ed35ddd363eb6f428614f06c4732afb",
+      "packet_sha256": "4b1e5f0c4c53688df838c1a6f28a4afa548ac3fb5159a93c5531f23925478161",
+      "git_tracked": false
+    },
+    "candidate_presentations": 16,
+    "repeat_pair_presentations": 4,
+    "decisions_required": 20,
+    "decisions_complete": 0,
+    "reviewer_id": null,
+    "review_session_id": null,
+    "human_minutes": null,
+    "accepted_subjects": 0,
+    "human_arm_results": null,
+    "action_owner": "identified human reviewer",
+    "action_boundary": "Complete append-only timed decisions locally, deblind only after a complete eligible session, and do not treat candidate acceptance as commercial or CH05 authority."
+  },
+  "ch05_root_authority_items": [
+    {
+      "node_id": "p036_approved_base_raster",
+      "needed_from": "authorized human input review",
+      "scope": "exact fictional panel base bytes/hash",
+      "current_value": null,
+      "decision_record": null
+    },
+    {
+      "node_id": "p036_approved_repair_mask",
+      "needed_from": "authorized human input review",
+      "scope": "exact panel-specific causal mask bytes/hash",
+      "current_value": null,
+      "decision_record": null
+    },
+    {
+      "node_id": "p036_exact_external_authority",
+      "needed_from": "user",
+      "scope": "exact OpenAI model snapshot, endpoint, and complete input-package hash",
+      "current_value": null,
+      "decision_record": null
+    },
+    {
+      "node_id": "ch05_distinct_production_cap",
+      "needed_from": "user",
+      "scope": "distinct CH05 aggregate cap; G07 remainder cannot be reused",
+      "current_value": null,
+      "decision_record": null
+    }
+  ],
+  "g07_review_root": {
+    "node_id": "g07_eligible_human_session",
+    "needed_from": "identified human reviewer",
+    "scope": "20 immutable blinded decisions; no invented minutes",
+    "current_value": null,
+    "decision_record": null
+  },
+  "pre_execution_research_refresh": {
+    "required": true,
+    "current_action": null,
+    "trigger": "immediately before any separately authorized CH05 paid execution",
+    "scope": "official primary pricing, terms, model snapshot, endpoint, and data-use documentation"
+  },
+  "budget_state": {
+    "g07_approved_cap_usd": "100.000000",
+    "g07_actual_usd": "1.057377",
+    "g07_held_usd": "0.000000",
+    "g07_available_usd": "98.942623",
+    "g07_available_reusable_for_ch05": false,
+    "ch05_approved_cap_usd": null,
+    "ch05_committed_usd": "0.000000",
+    "ch05_held_usd": "0.000000"
+  },
+  "current_integrity": {
+    "reproducer_commands_passed": 11,
+    "release_checks_passed": 65,
+    "lineage_records": 32,
+    "frozen_paths_changed": 0,
+    "baseline_tracked_paths_changed": 0,
+    "baseline_accepted_outputs": 0
+  },
+  "blank_authority_state": {
+    "approved_base_raster": null,
+    "approved_repair_mask": null,
+    "exact_external_upload_authority": null,
+    "distinct_ch05_production_cap": null,
+    "production_reservation": null,
+    "next_external_action": null,
+    "approvals_requested_now": []
+  },
+  "prohibited_inferences": [
+    "G07 remaining capacity grants CH05 production budget",
+    "engineering route selection equals visual acceptance or commercial clearance",
+    "synthetic base/mask/review fixtures are eligible production evidence",
+    "a topology profile grants panel-specific policy or upload authority",
+    "ComicPanelPlan can be replaced by AnimationShotPlan or E-Conte",
+    "a complete local handoff packet authorizes external execution",
+    "unused G07 capacity can fund or authorize a CH05 request"
+  ],
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "models_downloaded": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "boundary": "This packet separates the remaining actions and leaves every human/user field blank. It requests no approval and proposes no external action."
+}

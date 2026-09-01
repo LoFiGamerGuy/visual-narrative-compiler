@@ -288,3 +288,5 @@ The current evidence index resolves 11 domains across 32 exact lineage records a
 The executable reproducer matrix runs all 11 current-domain commands successfully in 114.636 seconds; nested release/rebuild/source timings are 79.872/23.043/8.466 seconds and 17/17 mutations fail. This is local evidence-runtime coverage, not provider or human throughput.
 
 Frozen-target integrity compares 16 authoritative v2.1.1 and four tracked baseline paths from `f505788` to `00498df`: all are byte-identical; baseline stays 0/24 accepted/no tuning and 15/15 mutations fail. This is immutability evidence, not a renderer rerun.
+
+The review/authority handoff separates one 20-decision G07 task from four CH05 root items, keeps every field blank, binds 11 reproducers/65 release checks/frozen integrity, and rejects 19/19 mutations. This is handoff integrity, not completed review or authority.

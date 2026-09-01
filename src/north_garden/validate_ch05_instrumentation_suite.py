@@ -43,6 +43,7 @@ CHECKS = [
     ("selected_route_boundary", [PYTHON, "src/north_garden/validate_openai_boundary_hardening.py"]),
     ("p036_mask_topology", [PYTHON, "src/north_garden/validate_ch05_p036_mask_topology.py"]),
     ("p036_causal_shape", [PYTHON, "src/north_garden/validate_ch05_p036_causal_shape_control.py"]),
+    ("p036_readiness_r2", [PYTHON, "src/north_garden/validate_ch05_p036_repair_readiness_r2.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

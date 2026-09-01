@@ -594,3 +594,11 @@
 - Offline preflight binds the policy hash while retaining exactly four real blockers: approved base, approved mask, exact external authority, and distinct CH05 production reservation. It still has no request envelope/body/client/executor.
 - A non-fixture attempt to wrap proxy controls as approved inputs is blocked. Synthetic fixture mode remains metadata-only. Eleven/eleven input, policy state/route/proxy/executor, authority, and reservation mutations fail.
 - Provider requests/uploads/cost remain 0/0/$0; production policy/cap remains disabled/absent.
+
+## 2026-09-01 - immutable P036 repair readiness r2
+
+- Created `ng-ch05-p036-openai-repair-readiness-r2` as a new record and pinned r1's unchanged SHA-256 `6ea50b94…19ac6`; r1 was not edited.
+- R2 binds the exact ComicPanelPlan, selected route, local mechanics policy, boundary/causal evidence, disabled production budget policy, zero production ledger, and current offline preflight.
+- Real state remains four blockers with zero eligible proxy bases/masks/uploads and null approved base, mask, authority, reservation, input package, request envelope/body, journal, RenderRecord, candidate, review minutes, and acceptance.
+- `ComicPanelPlan` remains the directing record; `AnimationShotPlan` and E-Conte are explicitly null. Eleven/eleven immutability, policy, blocker, input, execution, medium, and invented-review mutations fail.
+- Added five zero-cost CH05 hardening milestones to the production cost ledger. It remains disabled with no cap, $0 committed, and $0 held.

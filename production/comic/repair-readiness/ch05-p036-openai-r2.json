@@ -1,0 +1,162 @@
+{
+  "record_type": "ComicPanelRepairReadiness",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p036-openai-repair-readiness-r2",
+  "state": "LOCAL_MECHANICS_POLICY_COMPLETE_FOUR_PRODUCTION_GATES_BLOCKED",
+  "immutability": {
+    "supersedes_record": {
+      "path": "production/comic/repair-readiness/ch05-p036-openai-r1.json",
+      "sha256": "6ea50b944d6dd0c21ca44c6efa3f4cfa4c110d0af47a1e754c89e51d24819ac6"
+    },
+    "superseded_record_rewritten": false,
+    "revision_reason": "Bind post-selection boundary/topology mechanics and exact fail-closed production state without modifying r1."
+  },
+  "medium": "comic",
+  "comic_panel_plan": {
+    "collection": {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    },
+    "panel_id": "ng-ch05-sc01-p036",
+    "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+    "display_order": 36,
+    "narrative_beat": "Soren reaches it with a fallen plank while Sigrid braces the plank.",
+    "motion_mode": "practical_action",
+    "lettering_safe_zones": [
+      {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      }
+    ]
+  },
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "selected_route": {
+    "adapter_id": "openai_gpt_image_2",
+    "model_snapshot": "gpt-image-2-2026-04-21",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "selection_adr": "ADR-0025",
+    "route_selection_changed": false
+  },
+  "local_repair_policy": {
+    "path": "config/ch05-openai-targeted-repair-policy-r1.json",
+    "sha256": "a9ef9a9a255f8746482ba75ac78666e390d87a3d1c5b51fdf6dc4070a2e06fbb",
+    "policy_id": "ng-ch05-p036-openai-targeted-repair-policy-r1",
+    "boundary_policy": "cosine-inset-16px",
+    "causal_context_padding_px": 8,
+    "nochange_policy": "byte-identical short circuit with no provider invocation",
+    "production_authority_granted": false
+  },
+  "measured_mechanics_evidence": {
+    "boundary": {
+      "path": "docs/research/evidence/openai-targeted-repair-boundary-hardening-r2.json",
+      "sha256": "ad3df9d311efe106da3d5d4d93bcb04979b6aaaf315037b59662cae33e2ef3cf",
+      "selected_compositor_policy": "cosine-inset-16px",
+      "art_accepted": false
+    },
+    "causal_shape": {
+      "path": "docs/research/evidence/ch05-p036-causal-shape-topology-control-r2.json",
+      "sha256": "824d9d1e1a886c3c0a0d43c48eb670f39459c04744427f04821f6540c6ba2482",
+      "selected_context_padding_px": 8,
+      "mechanics_control_pass": true,
+      "art_accepted": false,
+      "provider_input_authorized": false
+    },
+    "scope": "abstract local compositor mechanics only; no visual, identity, or continuity acceptance"
+  },
+  "proxy_control_state": {
+    "controls": [
+      {
+        "kind": "abstract_support_mask",
+        "path": "experiments/outputs/ch05_p036_causal_shape_topology_r2/ch05-p036-causal-shape-mask-pad08-r2.png",
+        "sha256": "f353422e9dc6f66a5b855a7962f11215fec62c96ad57f4d2611365d497aa9069",
+        "eligible_as_production_base": false,
+        "eligible_as_production_mask": false,
+        "external_upload_authorized": false
+      },
+      {
+        "kind": "abstract_inward_alpha",
+        "path": "experiments/outputs/ch05_p036_causal_shape_topology_r2/ch05-p036-causal-shape-alpha-pad08-r2.png",
+        "sha256": "26f47b23714ccb9d5746b7ff71d51639e4b641e0521c1a9b9fdaa3b56d2d4a2e",
+        "eligible_as_production_base": false,
+        "eligible_as_production_mask": false,
+        "external_upload_authorized": false
+      },
+      {
+        "kind": "abstract_layout_base",
+        "path": "experiments/outputs/ch05_p036_layout_control_r1/ch05-p036-layout-control-r1.png",
+        "sha256": "a859557289f2fff25271e5ef5ede5687f7ff2edd7346f5c77813b9465e0dbe1d",
+        "eligible_as_production_base": false,
+        "eligible_as_production_mask": false,
+        "external_upload_authorized": false
+      }
+    ],
+    "eligible_production_bases": 0,
+    "eligible_production_masks": 0,
+    "authorized_external_uploads": 0
+  },
+  "production_inputs": {
+    "approved_base_raster": null,
+    "approved_repair_mask": null,
+    "external_upload_authority": null,
+    "production_budget_reservation": null
+  },
+  "production_budget": {
+    "policy": {
+      "path": "config/ch05-production-budget-policy-r1.json",
+      "sha256": "97dd460cbc6f2976cb315d8ddbf32b09d989ea402ad8f25ec96c39b437a6800b"
+    },
+    "ledger": {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r1.json",
+      "sha256": "9dc90cd602ff79ea3d9804e8d88ab8dd7aa5300ecd83a11ce1b9119162dcf1c0"
+    },
+    "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY",
+    "approved_aggregate_cap_usd": null,
+    "committed_actual_cost_usd": "0.000000",
+    "held_reservations_usd": "0.000000",
+    "g07_budget_reuse_prohibited": true
+  },
+  "offline_preflight": {
+    "path": "experiments/results/ch05-p036-openai-offline-preflight-r1.json",
+    "sha256": "f3f30606b1670c41c5a2daa95f186c2bc9040c429076f2a15e8a4a35dffabac6",
+    "state": "BLOCKED_OFFLINE_NO_REQUEST_CONSTRUCTION",
+    "blockers": [
+      "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+      "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+      "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID",
+      "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID"
+    ],
+    "blocker_count": 4,
+    "panel_input_package_sha256": null,
+    "request_envelope": null,
+    "request_body_constructed": false,
+    "network_capability_present": false
+  },
+  "execution": {
+    "state": "NOT_AUTHORIZED_NOT_REQUEST_CAPABLE",
+    "provider_request_id": null,
+    "submission_journal": null,
+    "render_record": null,
+    "candidate": null,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "review": {
+    "human_review_status": "not_yet_performed",
+    "human_minutes": null,
+    "accepted": false
+  },
+  "next_required_inputs": [
+    "authorized human-reviewed panel-specific fictional base raster",
+    "authorized human-reviewed panel-specific causal repair mask",
+    "exact provider/model/endpoint/input-package external upload authority",
+    "distinct user-approved CH05 production cap and aggregate reservation"
+  ],
+  "boundary": "This readiness revision records local mechanics progress and exact blockers. It authorizes no production input, upload, spend, request construction, execution, review, or acceptance."
+}

@@ -68,7 +68,9 @@ The P036 causal-shape topology milestone is complete. Five context paddings were
 
 The selected-route repair-policy non-promotion milestone is complete. The versioned policy binds P036/`p036_core_read`, OpenAI snapshot/endpoint, 16-pixel boundary, 8-pixel context, exact exterior, and byte-identical no-change. All three abstract controls are explicitly ineligible as production bases/masks/uploads. Real preflight retains four blockers with no envelope/body/client/executor; non-fixture proxy promotion fails; 11/11 mutations fail under ADR-0043.
 
-The active bounded milestone is immutable P036 repair-readiness revision r2. Compile a new production readiness record that supersedes but does not rewrite r1, pins the measured policy and evidence roots, reports the exact four real blockers and zero production activity, and keeps ComicPanelPlan distinct from null AnimationShotPlan/E-Conte. Validate that proxy mechanics cannot be represented as approved inputs or a request-capable state.
+The immutable P036 repair-readiness r2 milestone is complete. R2 pins r1's unchanged hash, P036 ComicPanelPlan, selected route, local policy, boundary/causal evidence, disabled production policy/zero ledger, and exact offline preflight. It retains four blockers, zero eligible proxy inputs, null base/mask/authority/reservation/request/journal/RenderRecord/candidate/review, and explicit null AnimationShotPlan/E-Conte. Eleven/eleven mutations fail under ADR-0044. The production ledger now records five additional zero-cost milestones while remaining no-cap/$0 committed/$0 held.
+
+The active bounded milestone is chapter-scale repair-policy coverage. Evaluate all 50 approved ComicPanelPlans against explicit targeted-repair applicability and current policy availability; retain the full chapter denominator, identify mechanics-policy versus production-ready states without inferring masks, and prove no panel can become executable from motion mode, proxy evidence, or the P036 policy alone.
 
 ### Authority and data boundaries
 

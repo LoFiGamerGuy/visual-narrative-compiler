@@ -222,3 +222,5 @@ P036 current-mask topology retains 79.032% core and 1/1 component under the 16-p
 The P036 causal-shape control selects 8px context padding from five variants under the fixed 16px boundary: 42.107% connected union core, 4/4 causal features above 15% core retention, rectangularity 0.215863, and zero exterior/lettering change; 10/10 mutations fail. This advances abstract repair topology mechanics only, not panel art or mask approval.
 
 The local repair policy pins those mechanics but leaves real P036 preflight at four blockers and zero request capability. Proxy controls fail production-input promotion; 11/11 policy/input/authority/reservation mutations fail. This is policy/gate coverage, not a render or accepted panel.
+
+P036 readiness r2 pins r1 plus policy/mechanics/budget/preflight evidence while retaining four blockers and zero approved inputs or activity; 11/11 immutability/gate/input/execution/medium mutations fail. It is a readiness revision, not an additional renderer benchmark sample.

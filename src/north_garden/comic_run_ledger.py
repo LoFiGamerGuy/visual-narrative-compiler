@@ -159,6 +159,7 @@ def transition_data_errors(to_state: str, data: dict) -> list[str]:
                 errors.append("review:rejection_failure_tags_missing")
             if not review.get("review_subject_id"):
                 errors.append("review:review_subject_id_missing")
+            errors.extend(sha_ref_errors(review.get("timed_review_session"), "review:timed_review_session"))
     return sorted(set(errors))
 
 
@@ -328,4 +329,50 @@ def validate_reservation_bindings(ledger: dict, aggregate_ledger: dict) -> list[
                 errors.append("aggregate_actual_cost_mismatch")
         except (InvalidOperation, ValueError):
             errors.append("aggregate_actual_cost_invalid")
+    return sorted(set(errors))
+
+
+def validate_review_binding(ledger: dict, timed_session: dict, *, validation_mode: bool = False) -> list[str]:
+    """Bind a terminal panel decision to an eligible completed timed session."""
+    from review_session import session_digest, validate_session
+
+    errors = validate_ledger(ledger)
+    if errors:
+        return errors
+    terminal = next(
+        (item for item in reversed(ledger["events"]) if item["to_state"] in {"ACCEPTED", "REJECTED"}),
+        None,
+    )
+    if terminal is None:
+        return []
+    review = terminal["data"]["review"]
+    reference = review["timed_review_session"]
+    if reference.get("record_id") != timed_session.get("record_id"):
+        errors.append("timed_review_session_record_id_mismatch")
+    if reference.get("sha256") != session_digest(timed_session):
+        errors.append("timed_review_session_sha256_mismatch")
+    session_errors = validate_session(timed_session)
+    if session_errors:
+        errors.extend(f"timed_session_invalid:{item}" for item in session_errors)
+    eligible = timed_session.get("summary", {}).get("review_evidence_eligible") is True
+    fixture_allowed = validation_mode and timed_session.get("validation_fixture") is True
+    if timed_session.get("state") != "COMPLETED" or not (eligible or fixture_allowed):
+        errors.append("timed_review_session_not_completed_or_eligible")
+    if timed_session.get("reviewer_id") != review.get("reviewer_id"):
+        errors.append("timed_review_reviewer_mismatch")
+    if timed_session.get("summary", {}).get("human_minutes") != review.get("human_minutes"):
+        errors.append("timed_review_minutes_mismatch")
+    subject_ids = {item.get("record_id") for item in timed_session.get("subjects", [])}
+    if review.get("review_subject_id") not in subject_ids:
+        errors.append("timed_review_subject_missing")
+    decision = next(
+        (
+            item
+            for item in timed_session.get("events", [])[-1].get("data", {}).get("decisions", [])
+            if item.get("subject_record_id") == review.get("review_subject_id")
+        ),
+        None,
+    )
+    if decision is None or decision.get("accepted") is not (terminal["to_state"] == "ACCEPTED"):
+        errors.append("timed_review_decision_mismatch")
     return sorted(set(errors))

@@ -44,7 +44,9 @@ The immutable candidate-review/promotion milestone is complete. All 6/6 determin
 
 The 50-panel run-manifest milestone is complete. The pinned chapter root reproduces 30/30 local compiles; median compile time is 9.120 ms, p95 10.178 ms, peak traced allocation 1,802,668 bytes, and 4/4 plan/assertion/chain/order mutations are detected. All 50 panels remain base-pending, the six-panel slice remains a subset, 250 review task instances carry null minutes, and executable/accepted/provider/cost counts remain zero.
 
-The active bounded milestone is immutable review-session timing and chapter-progress rollup. Build start/complete review records that calculate elapsed minutes instead of accepting backfilled durations, then validate progress snapshots against the full 50-panel denominator and append-only run chains. Synthetic fixtures may exercise transitions but must not create human-review or acceptance evidence.
+The immutable review/progress milestone is complete. A paused synthetic session computes exactly 15 active minutes and rejects 10/10 timer/decision/chain mutations. Terminal run ledgers now bind exact session digests and reject 22/22 combined lifecycle/budget/review mutations. The real chapter rollup remains 0/50 accepted with null minutes/$0; an isolated synthetic retry scenario reports 2/50 accepted, 3 attempts across 2 panels, 1 retry, 15 fixture-only minutes, and $0.45 fixture cost without leaking into real evidence.
+
+The active bounded milestone is selected-route offline submission preflight plus one-command local validation. Compile the exact P036 OpenAI repair prerequisites from `ComicPanelPlan`/input/authority/budget records, prove it stops before request construction and network while bases/masks/authority/budget remain absent, and add a consolidated validation entry point that exercises frozen, budget, packet, chapter, review, and bootstrap contracts without provider calls.
 
 ### Authority and data boundaries
 

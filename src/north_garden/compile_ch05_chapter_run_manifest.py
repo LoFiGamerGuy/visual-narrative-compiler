@@ -22,6 +22,22 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def initial_ledger(plan: dict) -> dict:
+    panel_id = plan["panel_id"]
+    ledger = new_ledger(
+        ledger_id=f"{panel_id}-chapter-run-ledger-r1",
+        panel_id=panel_id,
+        plan_revision_id=plan["plan_revision_id"],
+    )
+    return append_event(
+        ledger,
+        event_id=f"{panel_id}-base-pending-chapter-r1",
+        occurred_at=EVENT_TIME,
+        to_state="BASE_APPROVAL_PENDING",
+        data={"reason": "No approved base raster exists; candidate intake and layout controls do not grant approval."},
+    )
+
+
 def compile_manifest() -> dict:
     started = time.perf_counter()
     plans = json.loads(PLANS.read_text(encoding="utf-8"))
@@ -36,18 +52,7 @@ def compile_manifest() -> dict:
     rows = []
     for plan in plans["plans"]:
         panel_id = plan["panel_id"]
-        ledger = new_ledger(
-            ledger_id=f"{panel_id}-chapter-run-ledger-r1",
-            panel_id=panel_id,
-            plan_revision_id=plan["plan_revision_id"],
-        )
-        ledger = append_event(
-            ledger,
-            event_id=f"{panel_id}-base-pending-chapter-r1",
-            occurred_at=EVENT_TIME,
-            to_state="BASE_APPROVAL_PENDING",
-            data={"reason": "No approved base raster exists; candidate intake and layout controls do not grant approval."},
-        )
+        ledger = initial_ledger(plan)
         ledger_errors = validate_ledger(ledger)
         if ledger_errors:
             raise ValueError(f"invalid generated ledger {panel_id}: {ledger_errors}")

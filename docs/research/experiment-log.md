@@ -503,3 +503,10 @@
 - Pinned chapter root `0498d79f…73664` over ordered panel/plan/assertion/chain-head tuples. It reproduced 30/30 local compiles; chain-head, plan revision, assertion, and panel-order mutations were detected 4/4.
 - Local record compilation measured median 9.120 ms, p95 10.178 ms, maximum 11.094 ms, and 1,802,668 bytes peak Python `tracemalloc` allocation across the validation run. These are not provider or human throughput measurements.
 - Review structure exposes 250 task instances without inventing duration. Executable/submitted/rendered/reviewed/accepted panels, provider requests/uploads, human minutes, and external cost remain 0/0/0/0/0, 0/0, null, and $0.
+
+## 2026-09-01 - immutable review timing and full-denominator progress
+
+- Added hash-chained START/PAUSE/RESUME/COMPLETE review sessions. A synthetic 25-minute wall interval with a 10-minute pause computes exactly 15 active minutes; validation fixtures remain ineligible as real review evidence. Ten/ten timer, decision, transition, chain, and derived-summary mutations fail.
+- Terminal panel decisions now require an exact timed-session digest and matching reviewer, subject, decision, and calculated minutes. The combined run-ledger suite rejects 22/22 transition, tamper, aggregate-budget, and timed-review mutations.
+- The real CH05 rollup retains all 50 planned panels: 50 base-pending, 0 submitted/accepted, null measured human minutes, and $0 committed production cost; current root equals the pinned baseline root.
+- An isolated synthetic scenario exercises one retry: 2 submitted panels, 3 completed attempts, 1 rejected then retried, 2 current accepted panels, accepted-per-planned 0.04 versus accepted-per-submitted-panel 1.0, 15 fixture-only minutes, and $0.45 fixture-only reconciled cost. Four/four missing-panel/cost/session/plan mutations fail. None enters real evidence.

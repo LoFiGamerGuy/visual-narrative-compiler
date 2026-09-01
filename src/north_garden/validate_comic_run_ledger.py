@@ -10,8 +10,11 @@ from comic_run_ledger import (
     append_event,
     new_ledger,
     validate_ledger,
+    validate_review_binding,
     validate_reservation_bindings,
 )
+from review_session import append_event as append_review_event
+from review_session import session_digest, start_session
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -39,7 +42,7 @@ def advance(ledger: dict, index: int, state: str, data: dict) -> dict:
     )
 
 
-def complete_control() -> dict:
+def complete_control(timed_session_ref: dict) -> dict:
     ledger = new_ledger(ledger_id="test-ledger", panel_id="test-panel", plan_revision_id="test-plan-r1")
     steps = [
         ("BASE_APPROVAL_PENDING", {"reason": "test pending"}),
@@ -67,8 +70,9 @@ def complete_control() -> dict:
         ("HUMAN_REVIEW_PENDING", {"review_subject": ref("render-record-1")}),
         ("ACCEPTED", {"review": {
             "review_subject_id": "render-record-1", "human_review_status": "completed",
-            "human_minutes": 1.0, "accepted": True,
+            "reviewer_id": "synthetic-reviewer", "human_minutes": 1.0, "accepted": True,
             "hard_assertions": [{"id": "test-assertion", "passed": True}], "failure_tags": [],
+            "timed_review_session": timed_session_ref,
         }}),
     ]
     for index, (state, data) in enumerate(steps, 1):
@@ -105,7 +109,19 @@ def main() -> int:
     if aggregate["external_cost_usd"] != "0.000000" or aggregate["human_minutes"] is not None:
         failures.append("tracked aggregate cost/minutes invalid")
 
-    completed = complete_control()
+    timed_session = start_session(
+        session_id="timed-session-1", reviewer_id="synthetic-reviewer",
+        subjects=[ref("render-record-1")], started_at="2026-09-01T16:00:00Z", validation_fixture=True,
+    )
+    timed_session = append_review_event(
+        timed_session, event_type="COMPLETE", occurred_at="2026-09-01T16:01:00Z",
+        data={"decisions": [{
+            "subject_record_id": "render-record-1", "accepted": True,
+            "hard_assertions": [{"id": "test-assertion", "passed": True}], "failure_tags": [],
+        }]},
+    )
+    timed_ref = {"record_id": "timed-session-1", "path": "test/timed-session-1.json", "sha256": session_digest(timed_session)}
+    completed = complete_control(timed_ref)
     if validate_ledger(completed) or completed["current_state"] != "ACCEPTED":
         failures.append("valid full lifecycle control did not reach ACCEPTED")
     aggregate = {
@@ -117,6 +133,10 @@ def main() -> int:
     }
     if validate_reservation_bindings(completed, aggregate):
         failures.append("valid aggregate reservation binding did not pass")
+    if validate_review_binding(completed, timed_session, validation_mode=True):
+        failures.append("valid timed review binding did not pass")
+    if not validate_review_binding(completed, timed_session):
+        failures.append("validation fixture counted as real review evidence")
 
     planned = new_ledger(ledger_id="mutation", panel_id="panel", plan_revision_id="plan")
     pending = advance(planned, 1, "BASE_APPROVAL_PENDING", {"reason": "test"})
@@ -173,11 +193,13 @@ def main() -> int:
     before_accept["events"][-1]["event_sha256"] = before_accept["events"][-1]["event_sha256"]
     must_reject("untimed acceptance", lambda: advance(before_accept, 10, "ACCEPTED", {"review": {
         "review_subject_id": "render-record-1", "human_review_status": "completed", "human_minutes": None,
-        "accepted": True, "hard_assertions": [{"id": "test", "passed": True}], "failure_tags": [],
+        "reviewer_id": "synthetic-reviewer", "accepted": True,
+        "hard_assertions": [{"id": "test", "passed": True}], "failure_tags": [], "timed_review_session": timed_ref,
     }}), failures)
     must_reject("failed assertion acceptance", lambda: advance(before_accept, 10, "ACCEPTED", {"review": {
         "review_subject_id": "render-record-1", "human_review_status": "completed", "human_minutes": 1,
-        "accepted": True, "hard_assertions": [{"id": "test", "passed": False}], "failure_tags": [],
+        "reviewer_id": "synthetic-reviewer", "accepted": True,
+        "hard_assertions": [{"id": "test", "passed": False}], "failure_tags": [], "timed_review_session": timed_ref,
     }}), failures)
     must_reject("terminal advance", lambda: advance(completed, 11, "HUMAN_REVIEW_PENDING", {"review_subject": ref("render")}), failures)
 
@@ -192,11 +214,21 @@ def main() -> int:
         if not validate_ledger(candidate):
             failures.append(f"ledger tamper passed: {label}")
 
+    for label, mutate in [
+        ("timed reviewer mismatch", lambda x: x.update(reviewer_id="wrong")),
+        ("timed minutes mismatch", lambda x: x["summary"].update(human_minutes=2.0)),
+        ("timed subject mismatch", lambda x: x["subjects"][0].update(record_id="wrong")),
+    ]:
+        candidate = copy.deepcopy(timed_session)
+        mutate(candidate)
+        if not validate_review_binding(completed, candidate, validation_mode=True):
+            failures.append(f"timed review binding mutation passed: {label}")
+
     for failure in failures:
         print(f"failure: {failure}")
     if failures:
         return 1
-    print("0 failures, 0 warnings (6 ledgers pending; 18/18 transition, tamper, and aggregate-binding mutations rejected)")
+    print("0 failures, 0 warnings (6 ledgers pending; 22/22 transition, tamper, aggregate, and timed-review mutations rejected)")
     return 0
 
 

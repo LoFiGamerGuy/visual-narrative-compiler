@@ -198,3 +198,5 @@ Production-budget separation rejects bakeoff-only authority and validates an iso
 Candidate promotion blocks 6/6 deterministic controls and 8/8 prohibited/incomplete review mutations. A synthetic fixture reaches only a validation-only non-approval state. This is gate coverage, not human-review or accepted-art evidence.
 
 The 50-panel run compiler reproduces its pinned root 30/30 times (median 9.120 ms, p95 10.178 ms; 4/4 root mutations detected). All 50 remain base-pending and 250 review task instances remain untimed. Local compiler timing is excluded from provider/human throughput claims.
+
+Review/progress validation computes a paused 15-minute fixture exactly, rejects 10/10 timer mutations and 22/22 combined run/budget/review mutations, and keeps real CH05 at 0/50 accepted with null minutes. The separate retry fixture produces 2/50 accepted from 3 attempts/1 retry and is excluded from real metrics.

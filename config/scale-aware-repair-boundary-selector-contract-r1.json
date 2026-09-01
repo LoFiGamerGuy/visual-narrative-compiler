@@ -1,0 +1,125 @@
+{
+  "record_type": "ScaleAwareRepairBoundarySelectorContract",
+  "schema_version": "1.0",
+  "contract_id": "ng-scale-aware-repair-boundary-selector-contract-r1",
+  "state": "LOCAL_SELECTOR_CONTRACT_NO_PRODUCTION_READY_PROFILES",
+  "selection_pipeline": [
+    {
+      "gate": "exact_panel_and_support_binding",
+      "requirement": "panel_id, plan_revision_id, support bytes/hash, protected regions, and lettering zones are exact",
+      "failure_state": "BLOCKED_SUPPORT_OR_INTENT_MISMATCH"
+    },
+    {
+      "gate": "topology_width_ceiling",
+      "requirement": "bounded width series retains declared union/feature cores and components with zero protected/lettering overlap",
+      "failure_state": "BLOCKED_TOPOLOGY_COLLAPSE"
+    },
+    {
+      "gate": "exact_base_visual_discontinuity",
+      "requirement": "selected width is measured on the exact approved base and exact candidate/repair layer; proxy transfer is insufficient",
+      "failure_state": "BLOCKED_EXACT_BASE_BOUNDARY_EVIDENCE_MISSING"
+    },
+    {
+      "gate": "exact_exterior_and_nochange",
+      "requirement": "zero exterior change and byte-identical no-change short circuit",
+      "failure_state": "BLOCKED_EXTERIOR_OR_NOCHANGE_FAILURE"
+    },
+    {
+      "gate": "timed_human_seam_review",
+      "requirement": "identified timed review accepts boundary, causality, protected semantics, and lettering clearance",
+      "failure_state": "BLOCKED_TIMED_VISUAL_REVIEW_MISSING"
+    },
+    {
+      "gate": "production_authority",
+      "requirement": "approved base/mask, exact external scope and input package, distinct CH05 reservation, journal and RenderRecord path",
+      "failure_state": "BLOCKED_PRODUCTION_AUTHORITY"
+    }
+  ],
+  "profiles": {
+    "ng-ch05-sc01-p036": {
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "local_width_px": 16,
+      "width_basis": "G07 proxy discontinuity threshold plus P036 causal-shape topology control",
+      "sources": {
+        "local_policy": {
+          "path": "config/ch05-openai-targeted-repair-policy-r1.json",
+          "sha256": "a9ef9a9a255f8746482ba75ac78666e390d87a3d1c5b51fdf6dc4070a2e06fbb"
+        },
+        "boundary": {
+          "path": "docs/research/evidence/openai-targeted-repair-boundary-hardening-r2.json",
+          "sha256": "ad3df9d311efe106da3d5d4d93bcb04979b6aaaf315037b59662cae33e2ef3cf"
+        },
+        "topology": {
+          "path": "docs/research/evidence/ch05-p036-causal-shape-topology-control-r2.json",
+          "sha256": "824d9d1e1a886c3c0a0d43c48eb670f39459c04744427f04821f6540c6ba2482"
+        },
+        "readiness": {
+          "path": "production/comic/repair-readiness/ch05-p036-openai-r2.json",
+          "sha256": "466a00b9cd1786682960476408f9e6005cc3a4e18c85092d6b0c3643ee9c3e9e"
+        }
+      },
+      "topology_gate": "PASS_LOCAL_ABSTRACT_CONTROL",
+      "visual_discontinuity_gate": "BLOCKED_EXACT_P036_APPROVED_BASE_AND_CANDIDATE_MISSING",
+      "timed_human_seam_review": null,
+      "production_ready": false,
+      "production_blockers": [
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID"
+      ]
+    },
+    "ng-ch05-sc01-p044": {
+      "plan_revision_id": "ng-ch05-sc01-p044-plan-r1",
+      "local_width_px": 5,
+      "width_basis": "widest topology-retaining width on exact abstract blade/twine support",
+      "sources": {
+        "fixed_stress": {
+          "path": "docs/research/evidence/ch05-p044-fixed-16px-boundary-stress-r1.json",
+          "sha256": "9a65adc8c6ae63e6b728b93783a884bcf3013286351e8e4ab556e101d7d3888e"
+        },
+        "adaptive_topology": {
+          "path": "docs/research/evidence/ch05-p044-adaptive-boundary-width-r1.json",
+          "sha256": "bb2408492f15e6c9675a6a4d06dbee11a755b1a69cf181749cb7b2dbc5cfbf27"
+        }
+      },
+      "topology_gate": "PASS_LOCAL_ABSTRACT_CONTROL",
+      "visual_discontinuity_gate": "BLOCKED_EXACT_P044_APPROVED_BASE_AND_CANDIDATE_MISSING",
+      "timed_human_seam_review": null,
+      "production_ready": false,
+      "production_blockers": [
+        "PANEL_SPECIFIC_REPAIR_POLICY_MISSING",
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "EXACT_BASE_BOUNDARY_EVIDENCE_MISSING",
+        "TIMED_HUMAN_SEAM_REVIEW_MISSING",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID"
+      ]
+    }
+  },
+  "summary": {
+    "local_profiles": 2,
+    "distinct_local_widths": [
+      5,
+      16
+    ],
+    "universal_width_px": null,
+    "topology_control_passes": 2,
+    "exact_panel_base_visual_boundary_passes": 0,
+    "timed_human_seam_reviews": 0,
+    "production_ready_profiles": 0,
+    "approved_production_masks": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "generalization_rules": {
+    "width_inheritance_between_panels": false,
+    "proxy_visual_metric_transfer_to_panel_art": false,
+    "topology_pass_implies_visual_pass": false,
+    "local_profile_implies_production_policy": false,
+    "motion_mode_implies_profile": false
+  },
+  "boundary": "The contract keeps topology, exact-base visual discontinuity, exterior/no-change, timed review, and production authority as separate gates. It is not an executor or policy grant."
+}

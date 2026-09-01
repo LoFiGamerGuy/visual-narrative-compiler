@@ -634,3 +634,11 @@
 - Five pixels is the widest pass: 18.4960036% union core, 22.9446164% blade core, 18.1701855% twine core. Six pixels is the first larger failure because twine core falls below the threshold.
 - Nine/nine support hash, series completeness, geometry, selection, core, exterior, policy/authority, and invented-review mutations fail.
 - This is a P044 abstract-control result only. No seam-quality observation, P044 policy, approved mask, provider call, upload, or cost follows.
+
+## 2026-09-01 - scale-aware boundary selector contract
+
+- Encoded six separate gates: exact panel/support binding, topology width ceiling, exact-base visual discontinuity, exterior/no-change, timed human seam review, and production authority.
+- P036 remains a 16-pixel local mechanics profile; P044 remains a 5-pixel local topology control. Width inheritance, motion-mode inference, and a universal default are all prohibited.
+- Both topology controls pass, but exact approved-panel-base visual-boundary passes are 0, timed seam reviews 0, production-ready profiles 0, and approved production masks 0.
+- P036 retains its four production blockers. P044 additionally lacks a panel-specific policy and exact-base boundary evidence.
+- Ten/ten missing gate, width swap, fake visual pass, fake production readiness/review, universal width, and generalization mutations fail. Calls/uploads/cost remain 0/0/$0.

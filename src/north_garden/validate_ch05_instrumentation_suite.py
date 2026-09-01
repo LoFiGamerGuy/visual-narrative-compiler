@@ -48,6 +48,7 @@ CHECKS = [
     ("next_repair_information_gain", [PYTHON, "src/north_garden/validate_ch05_next_repair_information_gain.py"]),
     ("p044_fixed_boundary_stress", [PYTHON, "src/north_garden/validate_ch05_p044_fixed_boundary_stress.py"]),
     ("p044_adaptive_boundary", [PYTHON, "src/north_garden/validate_ch05_p044_adaptive_boundary.py"]),
+    ("scale_aware_boundary_selector", [PYTHON, "src/north_garden/validate_scale_aware_boundary_selector.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

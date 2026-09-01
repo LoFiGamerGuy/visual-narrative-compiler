@@ -13,13 +13,14 @@ import os
 import ssl
 import time
 from datetime import UTC, datetime
+from decimal import Decimal
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 import truststore
 
-from bakeoff_budget import CAP_ENV, hold_for_reconciliation, reserve_bakeoff_request
+from bakeoff_budget import CAP_ENV, hold_for_reconciliation, reconcile_reservation, reserve_bakeoff_request
 from envfile import load_project_env
 from openai_gpt_image2_bakeoff import ROOT, load_plan, prompt_for, sha256, source_provenance
 
@@ -77,6 +78,31 @@ def poll(url: str, key: str) -> dict:
     raise TimeoutError("BFL polling exceeded 300 seconds")
 
 
+def provider_usage(submitted: dict) -> dict:
+    return {
+        "cost_credits": submitted.get("cost"),
+        "input_mp": submitted.get("input_mp"),
+        "output_mp": submitted.get("output_mp"),
+        "credit_value_usd": "0.01",
+    }
+
+
+def settle_reservation(reservation: dict, submitted: dict | None, request_id: str | None, outcome: str) -> tuple[dict, str | None]:
+    usage = provider_usage(submitted) if submitted else None
+    if submitted and submitted.get("cost") is not None:
+        actual = Decimal(str(submitted["cost"])) * Decimal("0.01")
+        entry = reconcile_reservation(
+            reservation["reservation_id"], str(actual),
+            provider_request_id=request_id, provider_usage=usage,
+        )
+        return entry, entry["actual_cost_usd"]
+    entry = hold_for_reconciliation(
+        reservation["reservation_id"], provider_request_id=request_id,
+        provider_usage=usage, outcome=outcome,
+    )
+    return entry, None
+
+
 def execute_one(plan: dict, item: dict, api_key: str) -> Path:
     asset_key = item["source_assets"][0]
     asset = plan["source_assets"][asset_key]
@@ -101,9 +127,12 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
     }
     try:
         record["request_body_redacted"]["public_control_url_sha256"] = hashlib.sha256(control_url.encode()).hexdigest()
-        submitted = post_json(ENDPOINT, api_key, {"prompt": prompt, "input_image": control_url, "width": 1536, "height": 1024})
+        submitted = post_json(ENDPOINT, api_key, {"prompt": prompt, "input_image": control_url, "width": 1536, "height": 1024, "output_format": "png"})
         record["request_id"] = submitted["id"]
+        record["provider_usage"] = provider_usage(submitted)
+        record["provider_submission_sha256"] = hashlib.sha256(json.dumps(submitted, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
         result = poll(submitted["polling_url"], api_key)
+        record["provider_result_sha256"] = hashlib.sha256(json.dumps(result, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
         sample_url = result["result"]["sample"]
         with urlopen(sample_url, timeout=180, context=SSL_CONTEXT) as response:
             image_bytes = response.read()
@@ -111,9 +140,9 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
         output_path = OUT / f"{item['id']}.png"
         output_path.write_bytes(image_bytes)
     except Exception as error:
-        record["budget_reservation"] = hold_for_reconciliation(
-            reservation["reservation_id"], provider_request_id=record["request_id"],
-            provider_usage=None, outcome="provider_request_failed_cost_pending",
+        record["budget_reservation"], record["cost_usd"] = settle_reservation(
+            reservation, locals().get("submitted"), record["request_id"],
+            "provider_request_failed_cost_pending",
         )
         record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "failed", "failure_tags": ["provider_request_failed" if isinstance(error, (HTTPError, RuntimeError, TimeoutError)) else "provider_result_processing_failed"], "provider_error": f"{type(error).__name__}: {error}"[:2000]})
         RECORDS.mkdir(parents=True, exist_ok=True)
@@ -121,9 +150,8 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
         path.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
         raise
     record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "completed", "output_hashes": [sha256(output_path)], "candidate": {"path": output_path.relative_to(ROOT).as_posix(), "sha256": sha256(output_path)}, "provider_output_url_sha256": hashlib.sha256(sample_url.encode()).hexdigest()})
-    record["budget_reservation"] = hold_for_reconciliation(
-        reservation["reservation_id"], provider_request_id=record["request_id"],
-        provider_usage="not_reported", outcome="completed_cost_pending",
+    record["budget_reservation"], record["cost_usd"] = settle_reservation(
+        reservation, submitted, record["request_id"], "completed_cost_pending",
     )
     RECORDS.mkdir(parents=True, exist_ok=True)
     path = RECORDS / f"{item['id']}.json"
@@ -134,6 +162,7 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--execute", action="store_true")
+    parser.add_argument("--request-id", choices=["g07a-independent-01", "g07a-independent-02", "g07a-target-change", "g07a-no-change"])
     args = parser.parse_args()
     load_project_env()
     plan = load_plan()
@@ -142,7 +171,8 @@ def main() -> int:
         return 0
     if not os.environ.get("BFL_API_KEY") or not os.environ.get(CAP_ENV):
         raise SystemExit(f"--execute requires BFL_API_KEY and a positive {CAP_ENV}; no request was sent")
-    for item in plan["request_set"]:
+    items = [item for item in plan["request_set"] if not args.request_id or item["id"] == args.request_id]
+    for item in items:
         print(execute_one(plan, item, os.environ["BFL_API_KEY"]))
     return 0
 

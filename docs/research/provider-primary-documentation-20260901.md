@@ -30,6 +30,7 @@ This record establishes model/endpoint and budget preflight evidence only. It do
 
 - Model/endpoint: pinned `flux-2-pro`; the official guide distinguishes the pinned endpoint from `flux-2-pro-preview`. It accepts a public input-image URL and returns an asynchronous request ID/polling URL. Each configured URL is downloaded and byte-hash checked before submission.
 - Output request: 1536x1024 image edit. Official FLUX.2 Pro editing pricing begins at $0.045 and scales with megapixels. A $0.25 per-request reservation ceiling covers this fixed 1.573 MP request conservatively pending exact returned/billed credits.
+- Cost response: the official async response schema includes `cost` in credits plus input/output megapixels; official pricing defines 1 credit as $0.01. The adapter reconciles that returned value directly and hashes both submission and final poll responses.
 - Data/terms: API terms revised 2026-08-04 grant BFL a license to use inputs/outputs for improving services and training. ADR-0019 therefore remains unchanged: only the two published hash-pinned fictional geometry controls may be sent. No likeness, personal data, LoRA output, character reference, or child-related material is permitted.
 - Sources: [overview](https://docs.bfl.ai/flux_2/flux2_overview) (`28e80285…e19d58`), [editing](https://docs.bfl.ai/flux_2/flux2_image_editing) (`54891db6…41abb1`), [pricing](https://docs.bfl.ai/quick_start/pricing) (`993ca0de…d0eb3`), [API terms](https://bfl.ai/legal/flux-api-service-terms) (`9e80e714…a466`).
 

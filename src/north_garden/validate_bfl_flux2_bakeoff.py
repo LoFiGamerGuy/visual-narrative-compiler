@@ -20,6 +20,8 @@ def main() -> None:
     assert module.MODEL == "flux-2-pro" and module.ENDPOINT.endswith("/flux-2-pro")
     assert module.load_plan()["semantic_source"]["sha256"] == plan["semantic_source"]["sha256"]
     assert "may be used to train" in MODULE.read_text(encoding="utf-8")
+    assert '"output_format": "png"' in MODULE.read_text(encoding="utf-8")
+    assert '"cost_credits"' in MODULE.read_text(encoding="utf-8")
     assert all("child" not in module.prompt_for(item["id"]).lower() for item in plan["request_set"])
     print("0 failures, 0 warnings (BFL FLUX.2 fictional G07 adapter preflight validated)")
 

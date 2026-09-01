@@ -4,9 +4,9 @@
   "record_id": "ng-g07-fictional-aggregate-cost-ledger-r1",
   "bakeoff_id": "ng-renderer-bakeoff-g07-fictional-r1",
   "approved_aggregate_cap_usd": "100.000000",
-  "committed_actual_cost_usd": "0.537377",
+  "committed_actual_cost_usd": "0.817377",
   "held_reservations_usd": "0.000000",
-  "available_usd": "99.462623",
+  "available_usd": "99.182623",
   "currency": "USD",
   "entries": [
     {
@@ -303,10 +303,78 @@
       "outcome": "completed_cost_reconciled",
       "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
       "cost_reconciliation_method": "actual_provider_cost"
+    },
+    {
+      "reservation_id": "ng-g07-budget-36ced001-d8f2-4682-a449-53159f5f1281",
+      "adapter_id": "grok_imagine_image_2",
+      "request_key": "g07a-independent-01-retry-b64-01",
+      "state": "committed",
+      "reserved_usd": "0.100000",
+      "actual_cost_usd": "0.070000",
+      "reserved_at": "2026-09-01T15:33:32Z",
+      "reconciled_at": "2026-09-01T15:33:41Z",
+      "provider_request_id": "7f2d07e5-1814-99b4-9381-9cc97621967c",
+      "provider_usage": {
+        "cost_in_usd_ticks": 700000000
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "actual_provider_cost"
+    },
+    {
+      "reservation_id": "ng-g07-budget-58347f05-97f0-4986-8480-f913c0097c00",
+      "adapter_id": "grok_imagine_image_2",
+      "request_key": "g07a-independent-02",
+      "state": "committed",
+      "reserved_usd": "0.100000",
+      "actual_cost_usd": "0.070000",
+      "reserved_at": "2026-09-01T15:33:47Z",
+      "reconciled_at": "2026-09-01T15:34:00Z",
+      "provider_request_id": "696307ea-0a1b-90a5-851b-51c0d39c9b7e",
+      "provider_usage": {
+        "cost_in_usd_ticks": 700000000
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "actual_provider_cost"
+    },
+    {
+      "reservation_id": "ng-g07-budget-5d87a9bb-094c-498d-8edd-ba6f1765c09b",
+      "adapter_id": "grok_imagine_image_2",
+      "request_key": "g07a-target-change",
+      "state": "committed",
+      "reserved_usd": "0.100000",
+      "actual_cost_usd": "0.070000",
+      "reserved_at": "2026-09-01T15:34:01Z",
+      "reconciled_at": "2026-09-01T15:34:13Z",
+      "provider_request_id": "7161416c-b971-957c-8f87-abb0426e715c",
+      "provider_usage": {
+        "cost_in_usd_ticks": 700000000
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "actual_provider_cost"
+    },
+    {
+      "reservation_id": "ng-g07-budget-c9f3b106-55a4-403a-813a-60132cb19da3",
+      "adapter_id": "grok_imagine_image_2",
+      "request_key": "g07a-no-change",
+      "state": "committed",
+      "reserved_usd": "0.100000",
+      "actual_cost_usd": "0.070000",
+      "reserved_at": "2026-09-01T15:34:14Z",
+      "reconciled_at": "2026-09-01T15:34:29Z",
+      "provider_request_id": "09d49faf-ee1c-9544-9048-f262a277b1d5",
+      "provider_usage": {
+        "cost_in_usd_ticks": 700000000
+      },
+      "outcome": "completed_cost_reconciled",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+      "cost_reconciliation_method": "actual_provider_cost"
     }
   ],
   "created_at": "2026-09-01T00:00:00Z",
-  "updated_at": "2026-09-01T15:30:53Z",
+  "updated_at": "2026-09-01T15:34:29Z",
   "reconciliation_rule": "A submitted request with unknown exact cost retains its entire reservation until provider usage or billing is reconciled. Only proven-unsubmitted attempts may be released without cost.",
   "limitations": [
     "The approved cap is a maximum, not a target.",

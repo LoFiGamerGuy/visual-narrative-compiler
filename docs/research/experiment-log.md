@@ -431,3 +431,9 @@
 - Gemini completed the remaining three requests in 14.067, 11.152, and 9.948 seconds. The arm is now 4/4 with exact candidate hashes and request IDs, 46.173 seconds total provider-generation time, and a $0.268756 documented-rate estimate. Review remains pending.
 - xAI's first POST completed in 8.899 seconds and reported an exact billed cost of 700,000,000 ticks ($0.07), but immediate retrieval of the temporary hosted candidate URL returned HTTP 403/code 1010. The paid failure record retains request ID, source/input provenance, exact cost, data-control header, error, and no candidate claim.
 - Current official xAI guidance documents `b64_json` as the direct, non-hosted response format and describes URL output as temporary. The adapter now requests validated base64 bytes, hashes the raw provider response, records MIME, and requires an explicit retry ledger suffix for replacement of a paid failed request. No duplicate was issued before that repair passed validation.
+
+## 2026-09-01 - xAI G07 direct-base64 completion
+
+- The explicit replacement for the failed first case and the remaining three planned cases completed with direct base64 output. Required-candidate latency was 9.177, 13.588, 12.491, and 14.769 seconds (50.025 seconds total); exact provider usage was 700,000,000 ticks ($0.07) per request, $0.28 total.
+- All four required candidate hashes, raw response hashes, request IDs, pinned 1K/medium parameters, and data-control headers are recorded. The prior $0.07 hosted-URL failure remains separate, bringing xAI experiment spend to $0.35 while renderer review still covers only the four complete candidates.
+- Before BFL spend, its adapter was tightened to capture returned credit cost/input/output megapixels, reconcile 1 credit=$0.01 directly, explicitly request PNG, hash submission/poll responses, and run one request ID at a time. This does not alter ADR-0019's public fictional-control-only boundary.

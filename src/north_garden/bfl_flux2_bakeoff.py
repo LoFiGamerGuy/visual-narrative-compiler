@@ -65,6 +65,8 @@ def post_json(url: str, key: str, payload: dict) -> dict:
 
 
 def poll(url: str, key: str) -> dict:
+    if not url.startswith("https://"):
+        raise RuntimeError("BFL returned a non-HTTPS polling URL; refusing retrieval")
     deadline = time.monotonic() + 300
     while time.monotonic() < deadline:
         request = Request(url, headers={"accept": "application/json", "x-key": key})
@@ -134,6 +136,8 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
         result = poll(submitted["polling_url"], api_key)
         record["provider_result_sha256"] = hashlib.sha256(json.dumps(result, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
         sample_url = result["result"]["sample"]
+        if not isinstance(sample_url, str) or not sample_url.startswith("https://"):
+            raise RuntimeError("BFL returned a non-HTTPS sample URL; refusing retrieval")
         with urlopen(sample_url, timeout=180, context=SSL_CONTEXT) as response:
             image_bytes = response.read()
         OUT.mkdir(parents=True, exist_ok=True)

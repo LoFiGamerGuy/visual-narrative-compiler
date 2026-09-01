@@ -254,3 +254,5 @@ The fail-closed G07 rollup validator improves from 10.615 seconds to a five-run 
 Safe-source baseline `f505788` contains 346 tracked paths / 8,184,364 bytes with exact tree `df2c40bb…c5e67` and SHA-256 inventory root `2993f2d4…a52cde`; 8/8 mutations fail and generated/prohibited/oversize counts are zero. This is source-release integrity, not generated-artifact retention or production output.
 
 Static/no-network aggregate-budget audit confirms 4/4 paid adapters reserve before paid submission with no local cap; 18 ledger entries reconcile to 17 committed/one release/zero held and $1.057377 actual; 10/10 mutations fail. This is post-run control integrity, not new provider execution.
+
+Transport audit confirms four HTTPS endpoints, verified native TLS on every `urlopen`, explicit HTTPS guards on provider-returned Gemini/BFL URLs, exact two input hashes, and six intact prohibited classes; 9/9 mutations fail. This is static security/data-boundary evidence with zero network activity.

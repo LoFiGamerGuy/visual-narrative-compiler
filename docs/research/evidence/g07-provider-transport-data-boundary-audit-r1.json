@@ -1,0 +1,100 @@
+{
+  "record_type": "G07ProviderTransportDataBoundaryAudit",
+  "schema_version": "1.0",
+  "record_id": "ng-g07-provider-transport-data-boundary-audit-r1",
+  "state": "DORMANT_ADAPTERS_VERIFIED_TLS_FICTIONAL_CONTROL_BOUNDARY_CLOSED",
+  "sources": {
+    "plan": {
+      "path": "experiments/renderer-bakeoffs/g07-fictional-bakeoff-r1.json",
+      "sha256": "9da5f1872672c163050def07d3a11d38e087c325b1c73599ecb205e2af169956"
+    },
+    "vault": {
+      "path": "docs/research/evidence/g07-local-evidence-vault-manifest-r1.json",
+      "sha256": "920d088f800bcdcc797cf66f4a1a7fb006a894ad2038bbe3b0f4f9cee0e128cf"
+    }
+  },
+  "adapters": [
+    {
+      "adapter_id": "openai_gpt_image_2",
+      "source_path": "src/north_garden/openai_gpt_image2_bakeoff.py",
+      "source_sha256": "517ddf849d8ab0ebe07a134874d4cb6de4dd23c8136efbf549ed9f976880a6bc",
+      "endpoint": "https://api.openai.com/v1/images/edits",
+      "endpoint_https": true,
+      "tls_verification": "defines native truststore PROTOCOL_TLS_CLIENT context",
+      "urlopen_calls_with_verified_context": 1,
+      "insecure_override_tokens": [],
+      "dynamic_https_guards": []
+    },
+    {
+      "adapter_id": "gemini_3_1_flash_image",
+      "source_path": "src/north_garden/gemini_flash_image_bakeoff.py",
+      "source_sha256": "7dca6c57ee41618ecf2fcc1c8592dda5b9d61893ceed7ba8ab66d26e8838e288",
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/interactions",
+      "endpoint_https": true,
+      "tls_verification": "imports native verified context from OpenAI adapter",
+      "urlopen_calls_with_verified_context": 3,
+      "insecure_override_tokens": [],
+      "dynamic_https_guards": [
+        "provider image URI must start https://"
+      ]
+    },
+    {
+      "adapter_id": "grok_imagine_image_2",
+      "source_path": "src/north_garden/xai_grok_imagine_bakeoff.py",
+      "source_sha256": "953719bb929c0d4896f6ae352b09243a5a6f6b14f1f7a4f4b5cebbfb3b486429",
+      "endpoint": "https://api.x.ai/v1/images/edits",
+      "endpoint_https": true,
+      "tls_verification": "imports native verified context from OpenAI adapter",
+      "urlopen_calls_with_verified_context": 1,
+      "insecure_override_tokens": [],
+      "dynamic_https_guards": []
+    },
+    {
+      "adapter_id": "bfl_flux_2",
+      "source_path": "src/north_garden/bfl_flux2_bakeoff.py",
+      "source_sha256": "cd9b169fff3f7d80ee8d8753161e1530f07b79a76fde8a149fbe658986bbbb4f",
+      "endpoint": "https://api.bfl.ai/v1/flux-2-pro",
+      "endpoint_https": true,
+      "tls_verification": "defines native truststore PROTOCOL_TLS_CLIENT context",
+      "urlopen_calls_with_verified_context": 4,
+      "insecure_override_tokens": [],
+      "dynamic_https_guards": [
+        "public control URL must start https://",
+        "provider polling URL must start https://",
+        "provider sample URL must start https://"
+      ]
+    }
+  ],
+  "data_boundary": {
+    "input_classification": "FICTIONAL_ADULT_DESIGN_AND_ORIGINAL_GEOMETRY_ONLY",
+    "prohibited": [
+      "child imagery",
+      "child-like character reference",
+      "real-person likeness",
+      "biometric identity data",
+      "adult-likeness LoRA output",
+      "sensitive personal data"
+    ],
+    "adult_likeness_external_upload": "NOT_AUTHORIZED",
+    "observed_input_hashes": {
+      "g07a-control": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699",
+      "g07a-nochange-reference": "867a05c2f3e35f196cd28a9d1dc1954f2ba862f62d33ae34df4f3161a3200436"
+    },
+    "observed_input_classes": 2,
+    "expanded_upload_authority": false
+  },
+  "tls_boundary": {
+    "all_endpoints_https": true,
+    "all_urlopen_calls_use_verified_context": true,
+    "native_trust_store": true,
+    "insecure_override_tokens_found": 0,
+    "provider_returned_remote_urls_fail_closed_to_https": true
+  },
+  "activity": {
+    "network_requests": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "boundary": "Static audit and local source hardening only. Dormant adapters remain closed; remaining bakeoff capacity grants no execution or production authority."
+}

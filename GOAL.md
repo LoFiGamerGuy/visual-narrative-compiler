@@ -100,7 +100,9 @@ The safe-source release milestone is complete. Pushed commit `f5057885…c64ad3`
 
 The post-bakeoff aggregate-budget binding milestone is complete. Four/four adapters reserve from the shared ledger before paid submission and have no local-cap path. Eighteen entries reconcile to 17 committed/one release/zero held, $1.057377 actual and $98.942623 available; BFL remains two-controls-only. Ten/ten mutations fail under ADR-0060 with no new activity.
 
-The active bounded milestone is provider transport and data-boundary auditing. Verify all four dormant adapters retain HTTPS endpoints, native trust-store TLS verification, no insecure override, exact fictional-control hashes, the full prohibited-data list, and BFL's two-control boundary. Do not make a network request.
+The provider transport/data-boundary milestone is complete. Four endpoints are HTTPS, every `urlopen` uses the native verified context, and Gemini/BFL returned URLs now fail closed unless HTTPS. The observed inputs remain exactly two fictional controls and all six prohibited classes remain intact; 9/9 mutations fail under ADR-0061 with no network activity. Production ledger r4 now records 27 local zero-cost milestones with no cap/reservations/spend.
+
+The active bounded milestone is a selected-route hardening-state manifest. Compile the evidence-backed OpenAI selection, measured local gains, exact reproducibility limits, 50-panel readiness denominator, spend separation, human-review gaps, and authority blockers into one hash-pinned non-promotional handoff record.
 
 ### Authority and data boundaries
 

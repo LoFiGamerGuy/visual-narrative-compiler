@@ -728,3 +728,11 @@
 - OpenAI/Gemini release only proven-unsubmitted TLS failures and otherwise hold for later reconciliation. xAI/BFL reconcile exact returned usage where present and hold unknown cost. Gemini interaction recovery reuses the failed record reservation and creates no new generation/reservation.
 - Final aggregate ledger has 18 entries: 17 committed, one proven-unsubmitted release, zero held; $1.057377 committed and $98.942623 available. Required candidates are $0.987377 plus the $0.07 xAI failure.
 - BFL remains bound to `g07a-control` and `g07a-nochange-reference` with their two approved hashes. Ten/ten cap/order/ledger/BFL/activity mutations fail under ADR-0060. Audit activity is 0 requests/0 uploads/$0.
+
+## 2026-09-01 - provider transport/data-boundary closure and production ledger r4
+
+- Confirmed four HTTPS API endpoints and native trust-store `PROTOCOL_TLS_CLIENT` contexts; every `urlopen` call supplies the verified context and no insecure override token exists.
+- Hardened Gemini provider image-URI retrieval and BFL provider polling/sample retrieval to reject non-HTTPS schemes before I/O. Existing BFL public-control HTTPS/hash verification is unchanged.
+- All 19 vault records observe only the two published fictional-control hashes. Six prohibited data classes and unapproved adult-likeness upload remain intact; 9/9 transport/input/authority/activity mutations fail under ADR-0061.
+- Append-only CH05 production ledger r4 pins r3 and adds bootstrap, rebuild, review optimization, safe source, budget audit, and transport audit. It records 27 unique zero-cost milestones, empty reservations, no cap, $0 committed/held, and 8/8 mutations fail.
+- No network request, provider call, upload, or spend occurred.

@@ -47,7 +47,10 @@ def response_image_bytes(result: dict) -> tuple[bytes, str]:
             if content.get("data"):
                 return base64.b64decode(content["data"]), content.get("mime_type", "image/png")
             if content.get("uri"):
-                with urlopen(content["uri"], timeout=180, context=SSL_CONTEXT) as response:
+                uri = content["uri"]
+                if not isinstance(uri, str) or not uri.startswith("https://"):
+                    raise ValueError("Gemini returned a non-HTTPS image URI; refusing retrieval")
+                with urlopen(uri, timeout=180, context=SSL_CONTEXT) as response:
                     return response.read(), content.get("mime_type", "image/png")
     raise KeyError("no image content in completed interaction steps")
 

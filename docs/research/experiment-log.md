@@ -859,3 +859,11 @@
 - Separated four CH05 roots—exact base, exact mask, exact provider/model/endpoint/input-package authority, and distinct production cap/reservation—from G07 review and from the primary-document refresh trigger.
 - Every reviewer/session/minute/decision/input/cap/authority/reservation/approval-request/external-action field remains null or empty. G07 remains $1.057377 actual/$98.942623 available and non-reusable for CH05.
 - Nineteen/nineteen fabrication/conflation/activity mutations fail under ADR-0078. Ledger r18 records 45 zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - stable reproducer matrix r2 and release gate r4
+
+- First r4 execution failed closed after 199.1 seconds because matrix r1's full stdout hash included the safe-source validator's live tracked-path diagnostic, which correctly increased as safe commits accumulated.
+- Preserved r1 and issued matrix r2 under ADR-0079. It retains exact commands/validator hashes/exit/no-network state, hashes the last two stable result lines, and explicitly excludes mutable leading diagnostics.
+- Matrix r2 passes 11/11 commands in 115.394 seconds and rejects 17/17 mutations. No evidence semantic, frozen target, review gate, or authority gate changed.
+- R4 then passes immutable r3 (65 checks) plus nine current extensions: 74/74 in 197.859 seconds; 18/18 mutations fail. G07 stays 0/20 and CH05 stays zero outcomes/no cap/no approvals.
+- Ledger r19 records 47 local zero-cost milestones and remains disabled/no-cap/$0.

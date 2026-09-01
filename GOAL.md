@@ -136,7 +136,9 @@ The frozen-target integrity milestone is complete. All 16 v2.1.1 and four tracke
 
 The review/authority handoff milestone is complete. The 20-decision G07 task and four CH05 roots are separate; all human, input, authority, cap, reservation, approval-request, and external-action fields remain blank. Eleven reproducers/65 release checks/frozen integrity bind, and 19/19 mutations fail under ADR-0078.
 
-The active bounded milestone is hardening-release gate r4. Preserve r3's 65-check state and append current lineage, executable reproducer, frozen-target, review/authority handoff, and r14-r18 ledger validation without changing any renderer result or authority field.
+The hardening-release gate r4 milestone is complete. A first attempt correctly failed because matrix r1 overbound a mutable live tracked-path diagnostic; append-only matrix r2 narrows only stdout identity and passes 11/11 commands. R4 then passes the immutable 65-check r3 base plus nine extensions, 74/74 in 197.859 seconds, with 18/18 mutations and all review/authority fields unchanged under ADR-0079.
+
+The active bounded milestone is the autonomous closeout state. Compile the objective checklist, exact latest evidence hashes, commits, measured provider results/spend, hardening measurements, release/reproducer/frozen status, unresolved human/authority roots, and zero-activity boundary into one final machine-validated record.
 
 ### Authority and data boundaries
 

@@ -1,0 +1,233 @@
+{
+  "record_type": "CurrentEvidenceReproducerMatrix",
+  "schema_version": "1.1",
+  "record_id": "ng-current-evidence-reproducer-matrix-r2",
+  "state": "ALL_CURRENT_REPRODUCERS_PASS_STABLE_TERMINAL_OUTPUT_BOUND",
+  "supersedes": {
+    "record_id": "ng-current-evidence-reproducer-matrix-r1",
+    "path": "docs/research/evidence/current-evidence-reproducer-matrix-r1.json",
+    "sha256": "1ebf03265242f66248bcc700f81f95ad1aebefb4307b0f2ee0195f8ab769d0f8"
+  },
+  "prior_matrix_rewritten": false,
+  "source_index": {
+    "record_id": "ng-current-evidence-lineage-index-r1",
+    "path": "docs/research/evidence/current-evidence-lineage-index-r1.json",
+    "sha256": "e155e4347e8ef058f0015aef0ebcbcfc14b810a256c258931ec1197e0c810cbd"
+  },
+  "executions": [
+    {
+      "domain": "aggregate_budget_audit",
+      "argv": [
+        "python",
+        "src/north_garden/validate_bakeoff_adapter_budget_binding_audit.py"
+      ],
+      "validator_path": "src/north_garden/validate_bakeoff_adapter_budget_binding_audit.py",
+      "validator_sha256": "6173309e453a77a2aa05b313dafc4bd47d584905590f9430e30a4c0c183d14e6",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "18 entries: 17 committed/1 proven-unsubmitted release/0 held; $1.057377 committed/$98.942623 available",
+        "BFL remains two public controls only; 12/12 mutations rejected; audit made 0 requests/uploads/$0"
+      ],
+      "stable_terminal_sha256": "3729027d6bb62e5a3dd1b8e440dcfd7e08a194fba9463c1cb1275ae97a0065e1"
+    },
+    {
+      "domain": "selector_contract",
+      "argv": [
+        "python",
+        "src/north_garden/validate_scale_aware_boundary_selector_r2.py"
+      ],
+      "validator_path": "src/north_garden/validate_scale_aware_boundary_selector_r2.py",
+      "validator_sha256": "2dc0fef1dd1d56aa010075cdab4f64be178ec19b48507c8c02e3ba0c6165f0a5",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "0 failures, 0 warnings (r1 pinned; P036=16/P044=5; one panel-neutral 8px disconnected/hole control)",
+        "3 topology controls, 0 exact-panel visual/review/production-ready; 13/13 promotion/generalization mutations rejected"
+      ],
+      "stable_terminal_sha256": "df2cf0ef3e74087b33e794b5ce572b0a512ec71f502f30d51341a4aa2044a96a"
+    },
+    {
+      "domain": "artifact_rebuild",
+      "argv": [
+        "python",
+        "src/north_garden/validate_selected_route_artifact_rebuild_r2.py"
+      ],
+      "validator_path": "src/north_garden/validate_selected_route_artifact_rebuild_r2.py",
+      "validator_sha256": "73ea7bd62c943199c9a0d20997c1a96c3504d81ac3fd1e8bb08837f2bde8964e",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "0 failures, 0 warnings (28 artifacts/9 groups/4868771 bytes; root 18816d3cb4a60161440e8dc5fdb9b0aea628c3d0a688cc39a5eb868d6ce50d64)",
+        "two rebuilds exact; r1 pinned; 10/10 mutations rejected; 0 requests/uploads/downloads/$0"
+      ],
+      "stable_terminal_sha256": "cd9e227510011121433e68e215821766774b5e4d74ee8217745d951978c0902a"
+    },
+    {
+      "domain": "release_gate",
+      "argv": [
+        "python",
+        "src/north_garden/validate_hardening_release_r3.py"
+      ],
+      "validator_path": "src/north_garden/validate_hardening_release_r3.py",
+      "validator_sha256": "b1903ded6b202995c1bdec883aacdbbe1ac20eefc34c6f3c9ad248c21812deec",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "0 failures, 0 warnings (60-check r2 base + 5 extensions = 65/65 local checks pass)",
+        "16/16 release-r3 mutations rejected; G07 0/20; CH05 0 outcomes; 0 network/provider/uploads/downloads/$0"
+      ],
+      "stable_terminal_sha256": "914b7dc332382dfa10b5bbb6830bda9c82893dccc93ec0f3d7b8fd323191b563"
+    },
+    {
+      "domain": "safe_source",
+      "argv": [
+        "python",
+        "src/north_garden/validate_safe_source_release_manifest_r3.py",
+        "--allow-unpushed-current"
+      ],
+      "validator_path": "src/north_garden/validate_safe_source_release_manifest_r3.py",
+      "validator_sha256": "d024f94462f5c4a131f0672d19effe2054bf8efe0b2ac89a731c43c7771ab8a1",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "0 failures, 0 warnings (412 paths/8791840 bytes; tree 3052f539571c7f1aef9072f8b3af9b4f4a4cc6d1; root a3a0c65c00a8bab78fc25f3f51f04a92655f1f08913de0f94b65e89c0fe3e618)",
+        "two public controls; zero generated/prohibited/oversize paths; 13/13 mutations rejected; current scope and remote parity valid"
+      ],
+      "stable_terminal_sha256": "477d1f86bd36c06025eab6c32814207139e42864ca6a676069c970a61794adac"
+    },
+    {
+      "domain": "selected_route_handoff",
+      "argv": [
+        "python",
+        "src/north_garden/validate_selected_route_hardening_state_r2.py"
+      ],
+      "validator_path": "src/north_garden/validate_selected_route_hardening_state_r2.py",
+      "validator_sha256": "339b9c91e71b8f60ec1779ace54afb49297d49ccbd862a42caeea02e0d32d467",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "0 failures, 0 warnings (renderer measurements unchanged; latest budget/selector/rebuild/release/source/authority/cost evidence bound)",
+        "G07 review 0/20; CH05 0 outcomes/$0; 18/18 mutations rejected; next external action null"
+      ],
+      "stable_terminal_sha256": "64f53c54dfe98facfb0e2168429e36c6af1ecc6bb66cbd61579d222af5d840d4"
+    },
+    {
+      "domain": "authority_frontier",
+      "argv": [
+        "python",
+        "src/north_garden/validate_selected_route_authority_frontier.py"
+      ],
+      "validator_path": "src/north_garden/validate_selected_route_authority_frontier.py",
+      "validator_sha256": "c3aae0b070659394948bf7132fd512f4b9cfcfd2e77f9ebaa34c06ec9d1d14aa",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "0 failures, 0 warnings (20-node/20-edge acyclic dependency graph; 5 root authority items)",
+        "G07 review 0/20; P036 blockers 4 root/9 total; 18/18 mutations rejected; 0 requests/uploads/$0"
+      ],
+      "stable_terminal_sha256": "272bf9edfe914bc953a56e1d1d4916c3265148ebf62d865f83b6e35103e4063c"
+    },
+    {
+      "domain": "prerequisite_lattice",
+      "argv": [
+        "python",
+        "src/north_garden/validate_p036_prerequisite_authority_lattice.py"
+      ],
+      "validator_path": "src/north_garden/validate_p036_prerequisite_authority_lattice.py",
+      "validator_sha256": "784cab39fd07ca55bbd9fb85dedd84098efa8ff16317810c1ac48875a4a6829f",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "0 failures, 0 warnings (16/16 prerequisite subsets exhausted; 15/15 partial states blocked; complete fixture metadata-only)",
+        "nonfixture proxy blocked; 17/17 mutations rejected; 0 client/body/network/requests/uploads/$0"
+      ],
+      "stable_terminal_sha256": "2a6fba39d5099c16d6ba26eb20e84406c1afef84d8b694c35ec6639fc2f95503"
+    },
+    {
+      "domain": "ch05_production_cost",
+      "argv": [
+        "python",
+        "src/north_garden/validate_ch05_production_cost_ledger_r14.py"
+      ],
+      "validator_path": "src/north_garden/validate_ch05_production_cost_ledger_r14.py",
+      "validator_sha256": "ce54825847e87933458625ea6e70496676aea9141cdde17856938b4e434ae6c4",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "0 failures, 0 warnings (41 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+      ],
+      "stable_terminal_sha256": "d9fa0e61fd140ca6e790fda287b38be33cd3a7c20ac9a166156a37c35bee0ca1"
+    },
+    {
+      "domain": "g07_review_gate",
+      "argv": [
+        "python",
+        "src/north_garden/validate_g07_review_rollup.py"
+      ],
+      "validator_path": "src/north_garden/validate_g07_review_rollup.py",
+      "validator_sha256": "6accd7b366f6cdac626da0e7f637bf2fd1662dc7e8a856b3548e17be375b79a1",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "real review gate: 0/20 decisions, null human minutes, 0 accepted, no human arm results",
+        "9/9 pending/fixture/coverage/mapping mutations rejected"
+      ],
+      "stable_terminal_sha256": "9a4610b52c686ca2c580f01a9e62f752b6ca73614e847a5e78cde216bcf71b77"
+    },
+    {
+      "domain": "ch05_repair_readiness",
+      "argv": [
+        "python",
+        "src/north_garden/validate_ch05_repair_evidence_readiness_matrix.py"
+      ],
+      "validator_path": "src/north_garden/validate_ch05_repair_evidence_readiness_matrix.py",
+      "validator_sha256": "566b2fbfa27f68d6378ac6e8bbcdc7250af293538edb762032b80d1dae267e5a",
+      "returncode": 0,
+      "passed": true,
+      "stable_terminal_lines": [
+        "0 approved bases/masks/authorities/reservations/visual results/seam reviews/RenderRecords/candidates/accepted; minutes null; $0",
+        "13/13 denominator/inference/width/input/result/review/medium mutations rejected"
+      ],
+      "stable_terminal_sha256": "00854133d924f1ead8ca457fae9b8e1aebd7494500bcff851f1b5dadfe27c404"
+    }
+  ],
+  "summary": {
+    "commands": 11,
+    "passed": 11,
+    "failed": 0,
+    "current_release_checks_passed": 65,
+    "current_release_checks_total": 65,
+    "lineage_records_validated": 32,
+    "mutable_leading_diagnostic_lines_excluded": true,
+    "network_expected_commands": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "models_downloaded": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "Only the last two stable result lines are hash-bound; leading diagnostics such as current tracked-path count are observed but intentionally excluded.",
+    "Observed wall-clock timings are local and nondeterministic.",
+    "A passing matrix proves evidence integrity, not provider-output reproducibility across new calls.",
+    "No human review or CH05 provider request is executed."
+  ],
+  "boundary": "R2 narrows stdout identity only. Commands, validators, exit state, no-network expectation, and all authority boundaries remain exact.",
+  "observed_runtime": {
+    "command_elapsed_ms": {
+      "aggregate_budget_audit": 1162.919,
+      "selector_contract": 62.246,
+      "artifact_rebuild": 23326.22,
+      "release_gate": 80223.183,
+      "safe_source": 8560.185,
+      "selected_route_handoff": 65.097,
+      "authority_frontier": 68.481,
+      "prerequisite_lattice": 110.962,
+      "ch05_production_cost": 60.818,
+      "g07_review_gate": 1685.741,
+      "ch05_repair_readiness": 68.278
+    },
+    "total_elapsed_ms": 115394.13,
+    "timing_is_local_nondeterministic": true
+  }
+}

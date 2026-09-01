@@ -1,0 +1,131 @@
+{
+  "record_type": "HardeningReleaseValidationGate",
+  "schema_version": "1.3",
+  "record_id": "ng-hardening-release-validation-gate-r4",
+  "state": "R3_GATE_AND_CURRENT_HANDOFF_REPRODUCIBILITY_CHECKS_PASS",
+  "supersedes": {
+    "record_id": "ng-hardening-release-validation-gate-r3",
+    "path": "docs/research/evidence/hardening-release-validation-gate-r3.json",
+    "sha256": "81a249e70a04b68f4b4a347a99c8b8e466115642bbb3774fdf7e42374b71466a",
+    "checks": 65
+  },
+  "prior_gate_rewritten": false,
+  "base_gate": {
+    "script": "src/north_garden/validate_hardening_release_r3.py",
+    "script_sha256": "b1903ded6b202995c1bdec883aacdbbe1ac20eefc34c6f3c9ad248c21812deec",
+    "checks": 65,
+    "passed": 65
+  },
+  "extensions": [
+    {
+      "name": "current_evidence_lineage_index_r1",
+      "script": "src/north_garden/validate_current_evidence_lineage_index.py",
+      "script_sha256": "ef0ee6ad1ff78bb62c5973900886f6b32a89ac6714a19e5d2185070e61fec937",
+      "passed": true,
+      "stdout_last_line": "65/65 release; G07 0/20; CH05 0 accepted/no cap; 18/18 mutations rejected; 0 requests/uploads/$0"
+    },
+    {
+      "name": "current_evidence_reproducer_matrix_r2",
+      "script": "src/north_garden/validate_current_evidence_reproducer_matrix_r2.py",
+      "script_sha256": "3b1c925755d2501e6e67f0790e5433fca3f28ad424776a4c70e1a2de9889565f",
+      "passed": true,
+      "stdout_last_line": "65/65 nested release checks; 17/17 mutations rejected; 0 requests/uploads/downloads/$0"
+    },
+    {
+      "name": "frozen_gauntlet_baseline_integrity_r1",
+      "script": "src/north_garden/validate_frozen_gauntlet_baseline_integrity.py",
+      "script_sha256": "db520816a6c10f41be7a30b4d564b63e7e66f7498b7cc020e33ce0e523f0c105",
+      "passed": true,
+      "stdout_last_line": "baseline remains 0/24 accepted/no tuning; local workflow pin exact; 15/15 mutations rejected; 0 requests/uploads/$0"
+    },
+    {
+      "name": "review_authority_handoff_packet_r1",
+      "script": "src/north_garden/validate_review_authority_handoff_packet.py",
+      "script_sha256": "79df8e1b647525a18fa0d2a7f229c827cf638e7ee2cd95b7804321ace5a91d0b",
+      "passed": true,
+      "stdout_last_line": "11 reproducers/65 release checks/frozen targets valid; 19/19 mutations rejected; no approval requested/0 requests/uploads/$0"
+    },
+    {
+      "name": "production_cost_ledger_r14",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r14.py",
+      "script_sha256": "ce54825847e87933458625ea6e70496676aea9141cdde17856938b4e434ae6c4",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (41 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    },
+    {
+      "name": "production_cost_ledger_r15",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r15.py",
+      "script_sha256": "2cc4123938577a9db58d3de7d4f084274c4a758f891d11218b3db7bd125bca4b",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (42 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    },
+    {
+      "name": "production_cost_ledger_r16",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r16.py",
+      "script_sha256": "81f1472342d6b1d5f21f9d3d6833bb986bfa0ab986544c5440b7723f7526666a",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (43 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    },
+    {
+      "name": "production_cost_ledger_r17",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r17.py",
+      "script_sha256": "b60ccc20b8e4a52767422775ef42ce31a4b4a4808e9c1148074f46dfd98a7d70",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (44 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    },
+    {
+      "name": "production_cost_ledger_r18",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r18.py",
+      "script_sha256": "767dd8c3deb1327cfc723d602625fa6020122ca2d63296e5ac45fefbad54db3b",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (45 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    }
+  ],
+  "summary": {
+    "base_checks": 65,
+    "extension_checks": 9,
+    "total_checks": 74,
+    "passed_checks": 74,
+    "failed_checks": 0
+  },
+  "activity": {
+    "network_requests": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "models_downloaded": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "current_boundary_state": {
+    "g07_human_decisions": 0,
+    "g07_human_decisions_required": 20,
+    "ch05_approved_inputs": 0,
+    "ch05_production_cap_usd": null,
+    "p036_root_blockers": 4,
+    "p036_total_blockers": 9,
+    "real_render_records_v2_1": 0,
+    "accepted_ch05_panels": 0,
+    "approvals_requested_now": [],
+    "next_external_action": null
+  },
+  "boundaries": [
+    "R3 remains immutable and is executed as the 65-check base gate.",
+    "The reproducer extension executes current local validators but no provider adapter or human review.",
+    "Passing creates no review judgment, input approval, upload authority, production cap, provider outcome, acceptance, or commercial clearance."
+  ],
+  "observed_runtime": {
+    "base_elapsed_ms": 80346.301,
+    "extension_elapsed_ms": {
+      "current_evidence_lineage_index_r1": 73.105,
+      "current_evidence_reproducer_matrix_r2": 114960.654,
+      "frozen_gauntlet_baseline_integrity_r1": 168.106,
+      "review_authority_handoff_packet_r1": 2000.551,
+      "production_cost_ledger_r14": 59.968,
+      "production_cost_ledger_r15": 60.873,
+      "production_cost_ledger_r16": 62.342,
+      "production_cost_ledger_r17": 65.15,
+      "production_cost_ledger_r18": 61.628
+    },
+    "total_elapsed_ms": 197858.678,
+    "timing_is_local_nondeterministic": true
+  }
+}

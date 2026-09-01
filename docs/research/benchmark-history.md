@@ -290,3 +290,5 @@ The executable reproducer matrix runs all 11 current-domain commands successfull
 Frozen-target integrity compares 16 authoritative v2.1.1 and four tracked baseline paths from `f505788` to `00498df`: all are byte-identical; baseline stays 0/24 accepted/no tuning and 15/15 mutations fail. This is immutability evidence, not a renderer rerun.
 
 The review/authority handoff separates one 20-decision G07 task from four CH05 root items, keeps every field blank, binds 11 reproducers/65 release checks/frozen integrity, and rejects 19/19 mutations. This is handoff integrity, not completed review or authority.
+
+Reproducer matrix r2 passes 11/11 commands in 115.394 seconds using stable terminal-result hashes; release r4 passes the immutable 65-check r3 base plus nine extensions, 74/74 in 197.859 seconds, with 18/18 mutations rejected. The first r4 attempt failed on an overbroad mutable diagnostic binding and was not hidden or rewritten.

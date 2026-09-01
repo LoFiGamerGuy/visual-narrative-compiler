@@ -1,0 +1,129 @@
+{
+  "record_type": "ExactBaseRepairBoundaryMeasurementPacket",
+  "schema_version": "1.0",
+  "record_id": "ng-exact-base-boundary-measurement-packet-r1",
+  "state": "SYNTHETIC_EXACT_BYTES_MEASURED_REVIEW_PENDING_NOT_PRODUCTION_EVIDENCE",
+  "synthetic_validation_fixture": true,
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "comic_panel_plan": {
+    "panel_id": "ng-ch05-sc01-p036",
+    "plan_revision_id": "ng-ch05-sc01-p036-plan-r1"
+  },
+  "sources": {
+    "selector_contract": {
+      "record_id": "ng-scale-aware-repair-boundary-selector-contract-r1",
+      "path": "config/scale-aware-repair-boundary-selector-contract-r1.json",
+      "sha256": "b0fea65bc4deca76240c50d95471a79452294f3f5209883f2e59eaf6cfc45679"
+    },
+    "selector_profile": {
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "local_width_px": 16
+    },
+    "topology_evidence": {
+      "record_id": "ng-ch05-p036-causal-shape-topology-control-r2",
+      "path": "docs/research/evidence/ch05-p036-causal-shape-topology-control-r2.json",
+      "sha256": "824d9d1e1a886c3c0a0d43c48eb670f39459c04744427f04821f6540c6ba2482"
+    },
+    "render_record_v2_template": {
+      "path": "config/record-templates/comic-repair-render-record-v2.json",
+      "sha256": "c77584f6553c820c1abb443d2976de711f94aa967a3a9c08e2e6c2d12eca17a3"
+    }
+  },
+  "exact_images": {
+    "base_raster": {
+      "path": "experiments/outputs/ch05_p036_layout_control_r1/ch05-p036-layout-control-r1.png",
+      "sha256": "a859557289f2fff25271e5ef5ede5687f7ff2edd7346f5c77813b9465e0dbe1d",
+      "width": 1536,
+      "height": 1024
+    },
+    "candidate_raster": {
+      "path": "experiments/outputs/render_record_boundary_fixture_r1/p036-synthetic-repair-candidate-r1.png",
+      "sha256": "5614dc70d2bccae5005f07afb17d9a39b41bd06acfe9facc3b2d6ab601b48719",
+      "width": 1536,
+      "height": 1024
+    },
+    "support_mask": {
+      "path": "experiments/outputs/ch05_p036_causal_shape_topology_r2/ch05-p036-causal-shape-mask-pad08-r2.png",
+      "sha256": "f353422e9dc6f66a5b855a7962f11215fec62c96ad57f4d2611365d497aa9069",
+      "width": 1536,
+      "height": 1024
+    },
+    "inward_alpha": {
+      "path": "experiments/outputs/ch05_p036_causal_shape_topology_r2/ch05-p036-causal-shape-alpha-pad08-r2.png",
+      "sha256": "26f47b23714ccb9d5746b7ff71d51639e4b641e0521c1a9b9fdaa3b56d2d4a2e",
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "method": {
+    "candidate_fixture": "deterministic flat fictional-control fill through exact inward alpha",
+    "hard_reference": "same fill through binary support, derived in memory only",
+    "boundary_metric": "mean Euclidean RGB distance for directed support-to-exterior 4-neighbor pairs",
+    "exterior_metric": "pixelwise max absolute RGB difference outside exact support"
+  },
+  "measurement": {
+    "support_pixels": 64992,
+    "alpha_transition_pixels": 35150,
+    "fully_replaced_core_pixels": 27366,
+    "changed_pixels_inside_support": 61261,
+    "changed_pixels_outside_support": 0,
+    "max_abs_channel_difference_outside_support": 0,
+    "boundary_neighbor_pairs": 2484,
+    "hard_reference_mean_boundary_rgb_distance": 85.774243927,
+    "candidate_mean_boundary_rgb_distance": 0.996932347,
+    "mean_boundary_distance_reduction_fraction": 0.988377253
+  },
+  "no_change_short_circuit": {
+    "requested": true,
+    "provider_invoked": false,
+    "input": {
+      "path": "experiments/outputs/ch05_p036_layout_control_r1/ch05-p036-layout-control-r1.png",
+      "sha256": "a859557289f2fff25271e5ef5ede5687f7ff2edd7346f5c77813b9465e0dbe1d",
+      "width": 1536,
+      "height": 1024
+    },
+    "output": {
+      "path": "experiments/outputs/ch05_p036_layout_control_r1/ch05-p036-layout-control-r1.png",
+      "sha256": "a859557289f2fff25271e5ef5ede5687f7ff2edd7346f5c77813b9465e0dbe1d",
+      "width": 1536,
+      "height": 1024
+    },
+    "byte_identical": true
+  },
+  "review_packet": {
+    "packet_id": "ng-p036-synthetic-seam-review-packet-r1",
+    "presentation": {
+      "path": "experiments/outputs/exact_base_boundary_measurement_packet_r1/p036-synthetic-seam-review-presentation-r1.png",
+      "sha256": "3d78d5b998b958837b5fad90c97020c21e6b7d4148c4bdd4b3d80af4a5b6b570",
+      "width": 1620,
+      "height": 570
+    },
+    "source_base_sha256": "a859557289f2fff25271e5ef5ede5687f7ff2edd7346f5c77813b9465e0dbe1d",
+    "source_candidate_sha256": "5614dc70d2bccae5005f07afb17d9a39b41bd06acfe9facc3b2d6ab601b48719",
+    "required_assertions": [
+      "boundary",
+      "causality",
+      "protected_semantics",
+      "lettering_clearance"
+    ],
+    "review_session": null,
+    "human_review_status": "not_yet_performed",
+    "human_minutes": null,
+    "decision": null,
+    "accepted": false
+  },
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "Base and candidate are synthetic validation fixtures, not approved CH05 art or provider output.",
+    "The numeric boundary reduction is fixture-specific and cannot establish seam quality, narrative causality, anatomy, identity continuity, or acceptance.",
+    "The presentation is review-ready but no human session or decision exists.",
+    "No production input, external authority, budget reservation, RenderRecord, or candidate intake follows."
+  ]
+}

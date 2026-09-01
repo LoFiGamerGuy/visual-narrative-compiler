@@ -664,3 +664,11 @@
 - Approved bases/masks/authorities/reservations/visual results/seam reviews/RenderRecords/candidates/accepted panels are all zero, human minutes null, and production activity 0 requests/0 uploads/$0.
 - Thirteen/thirteen denominator, reorder, cross-panel profile, policy leak, width leak, fabricated input/result/review/outcome, invented minutes/selection, and AnimationShotPlan mutations fail under ADR-0052.
 - Consolidated offline validation passes 39/39 checks in 25.734 seconds.
+
+## 2026-09-01 - exact-base boundary measurement packet
+
+- Built a deterministic synthetic candidate from the exact P036 abstract base through the exact 16px inward alpha; recorded exact base/candidate/support/alpha/profile/topology hashes and dimensions.
+- Measured 64,992 support pixels, 35,150 transition pixels, 27,366 fully replaced core pixels, and exact zero exterior changed pixels/max difference. The candidate reduces mean directed support-to-exterior RGB distance 98.838% relative to the in-memory binary hard reference on this fixture.
+- The separate no-change short circuit returns the exact input bytes without provider invocation. A three-view base/candidate/3x-difference crop packet is bound to the exact sources, but review session/decision/minutes remain null and acceptance false.
+- Fourteen/fourteen binding, metric, no-change, review, fixture-label, and invented-activity mutations fail under ADR-0053. Provider requests/uploads/cost remain 0/0/$0.
+- Consolidated offline validation passes 40/40 checks in 25.418 seconds.

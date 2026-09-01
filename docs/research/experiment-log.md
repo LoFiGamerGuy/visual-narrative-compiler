@@ -407,3 +407,9 @@
 - The xAI release changed omitted quality to `auto`; its adapter now pins 1K/medium and converts exact response cost ticks at 10^10 ticks/USD. Other provider costs remain fully reserved until usage/billing reconciliation.
 - Conservative ceilings are $0.50 OpenAI, $0.20 Gemini, $0.10 xAI, and $0.25 BFL per request: $4.20 maximum held for all 16 calls against the approved aggregate $100 cap.
 - Live preflight found all four credentials without exposing values, revalidated frozen local inputs, enforced the data boundary and empty ledger, and downloaded both configured BFL public controls with exact expected SHA-256 values. State: `READY_NO_PROVIDER_API_REQUEST_NO_LEDGER_WRITE`; external spend remains $0.
+
+## 2026-09-01 - OpenAI pre-submission TLS trust-store incident
+
+- The first OpenAI execution attempt reserved $0.50, then Python's bundled CA validation rejected the locally trusted inspection chain during the TLS handshake (`Basic Constraints of CA cert not marked critical`). No HTTP request, input upload, provider request ID, or charge occurred. The complete local failed RenderRecord preserves adapter/input hashes, elapsed 0.332 seconds, error class, source commit `26a1f5d`, and reservation ID.
+- The reservation was explicitly released as proven unsubmitted and reconciled to $0; the real ledger returned to committed $0, held $0, available $100. No evidence was deleted or overwritten.
+- Certificate verification remains mandatory. OpenAI, Gemini, and xAI adapters now use the native OS trust store, matching the already validated BFL approach. No TLS check or hostname verification was disabled.

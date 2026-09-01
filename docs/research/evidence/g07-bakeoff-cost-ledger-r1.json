@@ -8,9 +8,24 @@
   "held_reservations_usd": "0.000000",
   "available_usd": "100.000000",
   "currency": "USD",
-  "entries": [],
+  "entries": [
+    {
+      "reservation_id": "ng-g07-budget-08053891-c4cb-4533-863e-58e1357ad842",
+      "adapter_id": "openai_gpt_image_2",
+      "request_key": "g07a-independent-01",
+      "state": "released",
+      "reserved_usd": "0.500000",
+      "actual_cost_usd": null,
+      "reserved_at": "2026-09-01T15:15:46Z",
+      "reconciled_at": "2026-09-01T15:18:11Z",
+      "provider_request_id": null,
+      "provider_usage": null,
+      "outcome": "not_submitted:tls_handshake_failed_before_http_submission",
+      "policy_id": "ng-g07-fictional-aggregate-budget-policy-r1"
+    }
+  ],
   "created_at": "2026-09-01T00:00:00Z",
-  "updated_at": "2026-09-01T00:00:00Z",
+  "updated_at": "2026-09-01T15:18:11Z",
   "reconciliation_rule": "A submitted request with unknown exact cost retains its entire reservation until provider usage or billing is reconciled. Only proven-unsubmitted attempts may be released without cost.",
   "limitations": [
     "The approved cap is a maximum, not a target.",

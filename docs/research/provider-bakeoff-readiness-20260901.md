@@ -17,6 +17,8 @@ The fictional-control G07 adapters, their frozen input hashes, and their no-netw
 
 Run each adapter's credential, data-boundary, source-hash, documented endpoint, and aggregate-ledger preflight immediately before its four requests. Preserve any provider rejection as a failure RenderRecord and retain possibly billable reservations until reconciled.
 
+The first OpenAI attempt exposed a local TLS-chain compatibility issue before HTTP submission. Its reservation is released and cost reconciled to $0. The three standard-library adapters now use the OS-native trust store with certificate and hostname verification preserved; revalidation and a fresh live readiness preflight are required before retry.
+
 ## Recommended execution order after the gates close
 
 1. Run OpenAI, Gemini, and xAI first, using the exact four-request fictional proxy protocol.

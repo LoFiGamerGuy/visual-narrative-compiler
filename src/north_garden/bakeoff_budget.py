@@ -100,7 +100,8 @@ def atomic_write(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(f".{path.name}.{os.getpid()}.{uuid.uuid4().hex}.tmp")
     try:
-        temporary.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+        with temporary.open("w", encoding="utf-8", newline="\n") as handle:
+            handle.write(json.dumps(payload, indent=2) + "\n")
         os.replace(temporary, path)
     finally:
         if temporary.exists():
@@ -289,7 +290,7 @@ def reconcile_reservation(
 def release_unsubmitted_reservation(reservation_id: str, reason: str) -> dict:
     """Release only when callers can prove no paid request was submitted."""
     def update(entry: dict) -> None:
-        if entry.get("state") != "reserved":
+        if entry.get("state") not in {"reserved", "awaiting_reconciliation"}:
             raise BudgetError(f"reservation {reservation_id} is not releasable")
         entry.update({"state": "released", "outcome": f"not_submitted:{reason}", "reconciled_at": stamp()})
 

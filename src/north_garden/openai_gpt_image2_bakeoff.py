@@ -12,15 +12,18 @@ import hashlib
 import json
 import mimetypes
 import os
+import ssl
 import subprocess
 import time
 import uuid
 from datetime import UTC, datetime
 from pathlib import Path
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-from bakeoff_budget import CAP_ENV, hold_for_reconciliation, reserve_bakeoff_request
+import truststore
+
+from bakeoff_budget import CAP_ENV, hold_for_reconciliation, release_unsubmitted_reservation, reserve_bakeoff_request
 from envfile import load_project_env
 
 
@@ -31,6 +34,7 @@ RECORDS = ROOT / "experiments/records/openai_gpt_image2_g07_bakeoff_r1"
 MODEL = "gpt-image-2-2026-04-21"
 ENDPOINT = "https://api.openai.com/v1/images/edits"
 API_DOC = "https://developers.openai.com/api/docs/guides/image-generation"
+SSL_CONTEXT = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
 
 
 def sha256(path: Path) -> str:
@@ -118,7 +122,7 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
         "execution_source": source_provenance(Path(__file__).resolve()),
     }
     try:
-        with urlopen(request, timeout=180) as response:
+        with urlopen(request, timeout=180, context=SSL_CONTEXT) as response:
             payload = json.load(response)
             record["request_id"] = response.headers.get("x-request-id")
         image_bytes = base64.b64decode(payload["data"][0]["b64_json"])
@@ -131,12 +135,19 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
             provider_error = error.read().decode("utf-8", "replace")[:2000]
         else:
             provider_error = f"{type(error).__name__}: {error}"[:2000]
-        record["budget_reservation"] = hold_for_reconciliation(
-            reservation["reservation_id"], provider_request_id=record["request_id"],
-            provider_usage=locals().get("payload", {}).get("usage") if isinstance(locals().get("payload"), dict) else None,
-            outcome="provider_request_or_result_processing_failed_cost_pending",
-        )
-        record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "failed", "failure_tags": ["provider_request_failed" if isinstance(error, HTTPError) else "provider_result_processing_failed"], "provider_error": provider_error})
+        tls_pre_submission = isinstance(error, URLError) and isinstance(error.reason, ssl.SSLCertVerificationError)
+        if tls_pre_submission:
+            record["budget_reservation"] = release_unsubmitted_reservation(
+                reservation["reservation_id"], "tls_handshake_failed_before_http_submission",
+            )
+            record["cost_usd"] = "0.000000"
+        else:
+            record["budget_reservation"] = hold_for_reconciliation(
+                reservation["reservation_id"], provider_request_id=record["request_id"],
+                provider_usage=locals().get("payload", {}).get("usage") if isinstance(locals().get("payload"), dict) else None,
+                outcome="provider_request_or_result_processing_failed_cost_pending",
+            )
+        record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "failed", "failure_tags": ["provider_request_failed" if isinstance(error, (HTTPError, URLError)) else "provider_result_processing_failed"], "provider_error": provider_error})
         RECORDS.mkdir(parents=True, exist_ok=True)
         path = RECORDS / f"{item['id']}-failed.json"
         path.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")

@@ -70,7 +70,9 @@ The selected-route repair-policy non-promotion milestone is complete. The versio
 
 The immutable P036 repair-readiness r2 milestone is complete. R2 pins r1's unchanged hash, P036 ComicPanelPlan, selected route, local policy, boundary/causal evidence, disabled production policy/zero ledger, and exact offline preflight. It retains four blockers, zero eligible proxy inputs, null base/mask/authority/reservation/request/journal/RenderRecord/candidate/review, and explicit null AnimationShotPlan/E-Conte. Eleven/eleven mutations fail under ADR-0044. The production ledger now records five additional zero-cost milestones while remaining no-cap/$0 committed/$0 held.
 
-The active bounded milestone is chapter-scale repair-policy coverage. Evaluate all 50 approved ComicPanelPlans against explicit targeted-repair applicability and current policy availability; retain the full chapter denominator, identify mechanics-policy versus production-ready states without inferring masks, and prove no panel can become executable from motion mode, proxy evidence, or the P036 policy alone.
+The chapter-scale repair-policy coverage milestone is complete. All 50 plans remain in order. P019/P026/P036/P044 are the four explicit causal practical-action candidates; only exact P036 has a mechanics policy, three are policy-absent, and 46 have no explicit plan-level repair applicability. No mask is inferred and no P036 policy leaks. Ten/ten mutations fail; approved bases/masks/executable panels/requests/uploads/acceptances remain zero, minutes null, cost $0 under ADR-0045.
+
+The active bounded milestone is next-policy information gain. Compare the three policy-absent causal panels only against topology and repair-mechanics dimensions not yet exercised by P036, record the evidence limits, and select at most one local non-art control target. Do not select from story appeal, author a production mask, or generalize an execution policy.
 
 ### Authority and data boundaries
 

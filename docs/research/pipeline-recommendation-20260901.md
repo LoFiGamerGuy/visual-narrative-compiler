@@ -60,6 +60,8 @@ That contract is now versioned and bound into offline preflight. It preserves th
 
 P036 readiness r2 now packages those facts immutably while preserving r1. It still reports four blockers and no request capability. The next useful compiler measurement is chapter-wide policy coverage, not a provider call or an inference that other panels inherit P036's mask mechanics.
 
+Chapter-wide coverage now identifies four explicit causal panels while binding the existing policy only to P036. Three policy-absent panels are candidates for a separate information-gain analysis; none is selected by motion mode or story appeal, and all production gates remain closed.
+
 The predeclared low-denoise and strength matrices plus a paired d1.0/strength-0.8 replication now close this route: target edit passed only 1/2 observed seeds and target no-change passed 0/2. ADR-0014 rejects mask-boundary optimization until a different renderer mechanism proves both assertions.
 
 The target/no-change matrices and paired replication are now complete. ADR-0014 rejects further same-route mask-boundary tuning; ADR-0015 requires a distinct renderer mechanism. The current recommendation is in `docs/research/renderer-decision-memo-20260901.md`.

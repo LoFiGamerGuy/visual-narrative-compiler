@@ -224,3 +224,5 @@ The P036 causal-shape control selects 8px context padding from five variants und
 The local repair policy pins those mechanics but leaves real P036 preflight at four blockers and zero request capability. Proxy controls fail production-input promotion; 11/11 policy/input/authority/reservation mutations fail. This is policy/gate coverage, not a render or accepted panel.
 
 P036 readiness r2 pins r1 plus policy/mechanics/budget/preflight evidence while retaining four blockers and zero approved inputs or activity; 11/11 immutability/gate/input/execution/medium mutations fail. It is a readiness revision, not an additional renderer benchmark sample.
+
+CH05 repair-policy coverage retains 50/50 panels: four explicit causal candidates, one exact panel policy, three policy-absent candidates, and 46 without plan-level applicability. No panel is executable and 10/10 denominator/policy-leak/execution mutations fail. This is chapter compiler coverage, not rendered or accepted coverage.

@@ -602,3 +602,11 @@
 - Real state remains four blockers with zero eligible proxy bases/masks/uploads and null approved base, mask, authority, reservation, input package, request envelope/body, journal, RenderRecord, candidate, review minutes, and acceptance.
 - `ComicPanelPlan` remains the directing record; `AnimationShotPlan` and E-Conte are explicitly null. Eleven/eleven immutability, policy, blocker, input, execution, medium, and invented-review mutations fail.
 - Added five zero-cost CH05 hardening milestones to the production cost ledger. It remains disabled with no cap, $0 committed, and $0 held.
+
+## 2026-09-01 - CH05 full-denominator repair-policy coverage
+
+- Classified all 50 approved ComicPanelPlans without inferring any mask. The explicit rule finds four practical-action panels with the exact causal hand/object direction: P019, P026, P036, and P044.
+- Only P036 has an exact panel/revision mechanics policy. Three explicit candidates are policy-absent; 46 panels have no explicit plan-level targeted-repair applicability. Absence is not treated as proof that repair can never be needed.
+- P036 policy inheritance is prohibited. Motion mode alone neither selects another policy target nor makes a panel executable.
+- Approved bases/masks/executable panels/requests/uploads/accepted panels are 0/0/0/0/0/0, human minutes null, and production cost $0 across the 50-panel denominator.
+- Ten/ten missing/reordered panel, policy leak, execution, invented input, denominator, target-selection, generalization, and AnimationShotPlan mutations fail.

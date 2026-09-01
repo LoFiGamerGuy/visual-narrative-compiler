@@ -98,7 +98,9 @@ The G07 review-validation runtime milestone is complete. Verified packet/mapping
 
 The safe-source release milestone is complete. Pushed commit `f5057885…c64ad3` pins 346 paths / 8,184,364 bytes, tree `df2c40bb…c5e67`, and SHA-256 inventory root `2993f2d4…a52cde`. Exactly two approved controls and zero generated/prohibited/oversize paths are tracked; 8/8 manifest mutations fail under ADR-0059. Current scope and remote parity validate.
 
-The active bounded milestone is a post-bakeoff aggregate-budget binding audit. Statistically inspect all four paid adapters and the shared policy/ledger to prove reservation precedes network submission, failure paths preserve/release/reconcile holds correctly, no adapter-local $100 path exists, and BFL remains limited to its two approved URL controls. Make no provider call.
+The post-bakeoff aggregate-budget binding milestone is complete. Four/four adapters reserve from the shared ledger before paid submission and have no local-cap path. Eighteen entries reconcile to 17 committed/one release/zero held, $1.057377 actual and $98.942623 available; BFL remains two-controls-only. Ten/ten mutations fail under ADR-0060 with no new activity.
+
+The active bounded milestone is provider transport and data-boundary auditing. Verify all four dormant adapters retain HTTPS endpoints, native trust-store TLS verification, no insecure override, exact fictional-control hashes, the full prohibited-data list, and BFL's two-control boundary. Do not make a network request.
 
 ### Authority and data boundaries
 

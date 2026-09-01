@@ -252,3 +252,5 @@ Two consecutive selected-route rebuilds produce the same 26-file, eight-group, 4
 The fail-closed G07 rollup validator improves from 10.615 seconds to a five-run median 1.706 seconds (83.93% lower / 6.22x) by reusing one already-verified mapping root per process. Gate bytes and 9/9 mutations are unchanged. This is local validation runtime, not actual reviewer or provider throughput.
 
 Safe-source baseline `f505788` contains 346 tracked paths / 8,184,364 bytes with exact tree `df2c40bb…c5e67` and SHA-256 inventory root `2993f2d4…a52cde`; 8/8 mutations fail and generated/prohibited/oversize counts are zero. This is source-release integrity, not generated-artifact retention or production output.
+
+Static/no-network aggregate-budget audit confirms 4/4 paid adapters reserve before paid submission with no local cap; 18 ledger entries reconcile to 17 committed/one release/zero held and $1.057377 actual; 10/10 mutations fail. This is post-run control integrity, not new provider execution.

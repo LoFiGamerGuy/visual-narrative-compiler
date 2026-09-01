@@ -721,3 +721,10 @@
 - Inventoried all 346 blobs / 8,184,364 bytes with path, mode, byte count, Git object ID, and SHA-256. Canonical inventory root is `2993f2d405c4404b22b93fa69fb520dcde92785ca8c2475bb02293e2a1a52cde`.
 - Scope contains exactly the two approved public controls and zero tracked `experiments`, prohibited key/model extensions, or files above 10 MiB. Eight/eight commit/tree/count/root/blob/exclusion mutations fail under ADR-0059.
 - `.env`/credentials, generated candidates/review artifacts/runtime records, models/LoRAs/checkpoints/runtimes, datasets/private references, local manifest, and evidence archives remain excluded.
+
+## 2026-09-01 - post-bakeoff aggregate adapter budget audit
+
+- Parsed all four paid adapters and reran their no-network/no-write preflights. Each imports the shared cap and reservation functions, reserves under its exact adapter ID before the paid submission, and contains no adapter-local `$100` literal.
+- OpenAI/Gemini release only proven-unsubmitted TLS failures and otherwise hold for later reconciliation. xAI/BFL reconcile exact returned usage where present and hold unknown cost. Gemini interaction recovery reuses the failed record reservation and creates no new generation/reservation.
+- Final aggregate ledger has 18 entries: 17 committed, one proven-unsubmitted release, zero held; $1.057377 committed and $98.942623 available. Required candidates are $0.987377 plus the $0.07 xAI failure.
+- BFL remains bound to `g07a-control` and `g07a-nochange-reference` with their two approved hashes. Ten/ten cap/order/ledger/BFL/activity mutations fail under ADR-0060. Audit activity is 0 requests/0 uploads/$0.

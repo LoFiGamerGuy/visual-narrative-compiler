@@ -60,7 +60,9 @@ The blinded G07 human-review instrumentation milestone is complete. Sixteen neut
 
 The fail-closed G07 review-rollup milestone is complete. Four/four arms and 16/16 candidates bind to exact cost, latency, and three drift dimensions. Only a complete eligible exact-packet session with the vault-derived mapping root can add assertion/tag results. Nine/nine pending, fixture, coverage, and mapping mutations fail. Pending state remains 0/20 decisions, null human minutes, zero accepted, and null human arm results; no composite score, rank, or automatic route change exists under ADR-0039.
 
-The active bounded milestone is selected-route mask-boundary hardening. Using only existing local selected-route hardening evidence, compare deterministic compositing boundary treatments on exact hashes; measure exterior preservation, boundary discontinuity, affected area, and lettering-safe-zone overlap; and select at most one compositor policy by measured repair mechanics. Do not call a provider or promote the rectangular smoke composite to accepted art.
+The selected-route mask-boundary milestone is complete. Seven exact-hash local variants compare hard and 2/4/8/16/24/32-pixel inward cosine boundaries. Only 16 pixels meets the predeclared rule: 91.263% artificial-jump reduction, unchanged 99.462% central green signal, zero exterior changed pixels, and zero P036 lettering overlap. Eight/eight evidence mutations fail. ADR-0040 selects only this compositor policy for the next mechanics test; provider route and art acceptance are unchanged, with 0 calls/uploads/$0.
+
+The active bounded milestone is P036 mask-topology compatibility. Apply the selected 16-pixel inward policy to the deterministic abstract P036 causal mask, quantify support/core retention, connected-component survival, thin-feature loss, exterior preservation, and lettering clearance, and fail rather than generalize if the mask cannot carry a meaningful repair core. This remains compiler/proxy evidence, not CH05 art or upload authority.
 
 ### Authority and data boundaries
 

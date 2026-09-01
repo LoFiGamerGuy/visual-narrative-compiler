@@ -1,0 +1,256 @@
+{
+  "record_type": "SelectedRouteBoundaryHardeningExperiment",
+  "schema_version": "1.0",
+  "record_id": "ng-openai-targeted-repair-boundary-hardening-r2",
+  "state": "COMPLETED_LOCAL_PROXY_MECHANICS_NOT_ART",
+  "selection_adr": "docs/adr/ADR-0025-select-openai-gpt-image-2-for-bounded-targeted-repair-hardening.md",
+  "inputs": {
+    "source": {
+      "path": "public-controls/g07a-role-id-r1.png",
+      "sha256": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+    },
+    "unaccepted_provider_candidate": {
+      "path": "experiments/outputs/openai_gpt_image2_g07_bakeoff_r1/g07a-target-change.png",
+      "sha256": "3f9f05b2b3582088f9bd7a3caed9cc90c53ad148fc471656cf2ee534aac22906"
+    },
+    "provider_render_record": {
+      "path": "experiments/records/openai_gpt_image2_g07_bakeoff_r1/g07a-target-change.json",
+      "sha256": "66f00641b0aeaa56df5eea312b2c3878bca11c26ccb2f919bf0c33a1ce0988b1"
+    },
+    "comic_panel_plan_collection": {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    }
+  },
+  "method": {
+    "target_bbox_xyxy": [
+      812,
+      274,
+      994,
+      711
+    ],
+    "variants": [
+      0,
+      2,
+      4,
+      8,
+      16,
+      24,
+      32
+    ],
+    "feather": "inward-only cosine alpha; alpha is exactly zero at and outside support boundary",
+    "boundary_metric": "maximum across normal offsets of mean positive composite adjacent-pixel jump above max(source jump, provider jump)",
+    "selection_rule": "narrowest nonzero feather with >=90% hard-boundary artificial-jump reduction, >=99% hard core-green fraction, exact exterior, and zero lettering overlap"
+  },
+  "variants": [
+    {
+      "variant_id": "hard",
+      "feather_width_px": 0,
+      "composite": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-hard-composite.png",
+        "sha256": "10314ddb0bcbf15863b10d37ea1b67e224c7e49ac0010e9a280f8254cb3c4059"
+      },
+      "alpha": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-hard-alpha.png",
+        "sha256": "73e3de888af032e5295bc090b151ec3eb4247f757ba6badf6bc044fd0583e821"
+      },
+      "measurements": {
+        "max_boundary_artificial_jump_mae_0_255": 3.655088853,
+        "cumulative_boundary_artificial_jump_mae_0_255": 3.655088853,
+        "max_observed_boundary_pair_mae_0_255": 5.22186322,
+        "changed_outside_support_fraction": 0.0,
+        "max_abs_channel_difference_outside_support": 0,
+        "changed_full_frame_fraction": 0.078564848,
+        "core_green_dominant_fraction": 0.99461535,
+        "support_lettering_overlap_pixels": 0,
+        "boundary_artificial_jump_reduction_vs_hard": 0.0
+      },
+      "qualifies": false
+    },
+    {
+      "variant_id": "cosine-inset-02px",
+      "feather_width_px": 2,
+      "composite": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-02px-composite.png",
+        "sha256": "f1497d51c3a9b3f0cfdf7c65d63add2105b71340d5a1070736658be3f4f2e387"
+      },
+      "alpha": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-02px-alpha.png",
+        "sha256": "395cddd94ba4ee4dec96aa1d42925f4a7a24df6e4014a043939f8a99adbc990e"
+      },
+      "measurements": {
+        "max_boundary_artificial_jump_mae_0_255": 1.694399569,
+        "cumulative_boundary_artificial_jump_mae_0_255": 3.265212709,
+        "max_observed_boundary_pair_mae_0_255": 3.291060851,
+        "changed_outside_support_fraction": 0.0,
+        "max_abs_channel_difference_outside_support": 0,
+        "changed_full_frame_fraction": 0.077296701,
+        "core_green_dominant_fraction": 0.99461535,
+        "support_lettering_overlap_pixels": 0,
+        "boundary_artificial_jump_reduction_vs_hard": 0.536427256
+      },
+      "qualifies": false
+    },
+    {
+      "variant_id": "cosine-inset-04px",
+      "feather_width_px": 4,
+      "composite": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-04px-composite.png",
+        "sha256": "99b9ca39446bfee3bc57346943e095a4d5ee6e1a9845c2b4cf0938d40d48beb7"
+      },
+      "alpha": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-04px-alpha.png",
+        "sha256": "8cb6ceb5c700cb81b22bf9d5b66805bcfd0dd4f5005bff5a6dc6f8b716bd60db"
+      },
+      "measurements": {
+        "max_boundary_artificial_jump_mae_0_255": 1.120893915,
+        "cumulative_boundary_artificial_jump_mae_0_255": 2.892568659,
+        "max_observed_boundary_pair_mae_0_255": 2.664781906,
+        "changed_outside_support_fraction": 0.0,
+        "max_abs_channel_difference_outside_support": 0,
+        "changed_full_frame_fraction": 0.076602828,
+        "core_green_dominant_fraction": 0.99461535,
+        "support_lettering_overlap_pixels": 0,
+        "boundary_artificial_jump_reduction_vs_hard": 0.693333333
+      },
+      "qualifies": false
+    },
+    {
+      "variant_id": "cosine-inset-08px",
+      "feather_width_px": 8,
+      "composite": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-08px-composite.png",
+        "sha256": "8f4e8d7e26a4de556b505087b2a02786a591012d5146bd94319c71ed1a922947"
+      },
+      "alpha": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-08px-alpha.png",
+        "sha256": "1b3d169b685cd2c4e392b0e49fe1c1d97907cfd31ef800deb583dd3bebb1358b"
+      },
+      "measurements": {
+        "max_boundary_artificial_jump_mae_0_255": 0.507000539,
+        "cumulative_boundary_artificial_jump_mae_0_255": 2.443187938,
+        "max_observed_boundary_pair_mae_0_255": 2.488152935,
+        "changed_outside_support_fraction": 0.0,
+        "max_abs_channel_difference_outside_support": 0,
+        "changed_full_frame_fraction": 0.075477013,
+        "core_green_dominant_fraction": 0.99461535,
+        "support_lettering_overlap_pixels": 0,
+        "boundary_artificial_jump_reduction_vs_hard": 0.861289134
+      },
+      "qualifies": false
+    },
+    {
+      "variant_id": "cosine-inset-16px",
+      "feather_width_px": 16,
+      "composite": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-16px-composite.png",
+        "sha256": "d33ac9e63840eb5582407ae0b35577e0717c01be2d53fa186ab9a60c07820fca"
+      },
+      "alpha": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-16px-alpha.png",
+        "sha256": "86e6d756c295c422a5e2766b64eb2b42a385399ae88005ae6d043e348b6ef46c"
+      },
+      "measurements": {
+        "max_boundary_artificial_jump_mae_0_255": 0.319332256,
+        "cumulative_boundary_artificial_jump_mae_0_255": 2.185783522,
+        "max_observed_boundary_pair_mae_0_255": 4.6453958,
+        "changed_outside_support_fraction": 0.0,
+        "max_abs_channel_difference_outside_support": 0,
+        "changed_full_frame_fraction": 0.072901181,
+        "core_green_dominant_fraction": 0.99461535,
+        "support_lettering_overlap_pixels": 0,
+        "boundary_artificial_jump_reduction_vs_hard": 0.912633518
+      },
+      "qualifies": true
+    },
+    {
+      "variant_id": "cosine-inset-24px",
+      "feather_width_px": 24,
+      "composite": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-24px-composite.png",
+        "sha256": "00fe83e0bbc226779ddb1f97aafb7fdd7702846875b47106db02cd7be87dcaad"
+      },
+      "alpha": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-24px-alpha.png",
+        "sha256": "618a4a18c7445a5d07f535ae96191849213ba5903cc50b615934f0c7b3d4f6d1"
+      },
+      "measurements": {
+        "max_boundary_artificial_jump_mae_0_255": 0.430533118,
+        "cumulative_boundary_artificial_jump_mae_0_255": 3.956650512,
+        "max_observed_boundary_pair_mae_0_255": 8.209208401,
+        "changed_outside_support_fraction": 0.0,
+        "max_abs_channel_difference_outside_support": 0,
+        "changed_full_frame_fraction": 0.070650541,
+        "core_green_dominant_fraction": 0.99461535,
+        "support_lettering_overlap_pixels": 0,
+        "boundary_artificial_jump_reduction_vs_hard": 0.882209945
+      },
+      "qualifies": false
+    },
+    {
+      "variant_id": "cosine-inset-32px",
+      "feather_width_px": 32,
+      "composite": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-32px-composite.png",
+        "sha256": "c5ce0675b4329ff69fd26f9aeddfca1f450fb8eaac5c5b5afdd2ec1c9878182a"
+      },
+      "alpha": {
+        "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-32px-alpha.png",
+        "sha256": "813a24c5acca4fbc3124d74fe74a82be1a6eb1d425cc4afde72f4a21440cce66"
+      },
+      "measurements": {
+        "max_boundary_artificial_jump_mae_0_255": 0.394453419,
+        "cumulative_boundary_artificial_jump_mae_0_255": 5.564620355,
+        "max_observed_boundary_pair_mae_0_255": 6.517501346,
+        "changed_outside_support_fraction": 0.0,
+        "max_abs_channel_difference_outside_support": 0,
+        "changed_full_frame_fraction": 0.068628226,
+        "core_green_dominant_fraction": 0.99461535,
+        "support_lettering_overlap_pixels": 0,
+        "boundary_artificial_jump_reduction_vs_hard": 0.892081031
+      },
+      "qualifies": false
+    }
+  ],
+  "decision": {
+    "selected_compositor_policy": "cosine-inset-16px",
+    "scope": "local fictional-proxy repair mechanics only",
+    "provider_route_selection_changed": false,
+    "art_accepted": false
+  },
+  "narrative_panel_applicability": {
+    "panel_id": "ng-ch05-sc01-p036",
+    "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+    "lettering_safe_zones": [
+      {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      }
+    ],
+    "support_lettering_overlap_pixels": 0,
+    "comic_panel_plan_only": true,
+    "animation_shot_plan": null,
+    "external_execution_state": "NOT_AUTHORIZED"
+  },
+  "review": {
+    "human_review_status": "not_yet_performed",
+    "human_minutes": null,
+    "accepted": false
+  },
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "additional_external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "A rectangular color proxy does not model object-aware boundaries around hands, hair, faces, props, or line art.",
+    "The boundary metric measures adjacent-pixel discontinuity mechanics, not semantic correctness or visual acceptance.",
+    "The source provider candidate remains unaccepted G07 research evidence.",
+    "No CH05 raster, character continuity, page rhythm, lettering render, provider call, or commercial clearance is tested."
+  ]
+}

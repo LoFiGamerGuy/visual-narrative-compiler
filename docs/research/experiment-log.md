@@ -563,3 +563,11 @@
 - Pending evidence deliberately contains no human arm result, composite score, automatic ranking, or selection change. Current state is 0/20 decisions, null human minutes, zero accepted candidates.
 - Nine/nine fabricated pending results, metric/hash drift, adapter removal, fixture leakage, incomplete coverage, and mapping mutations fail. Synthetic compilation is explicitly validation-only.
 - Consolidated offline validation passes 27/27 checks in 15.658 seconds; the increased local runtime is dominated by repeated neutral-presentation verification, not provider activity.
+
+## 2026-09-01 - selected-route boundary hardening r2
+
+- Compared hard, 2, 4, 8, 16, 24, and 32-pixel inward cosine compositor boundaries on the exact existing OpenAI G07 target candidate. All generated composites/alphas remain ignored local evidence; no provider call or upload occurred.
+- The predeclared selection threshold required at least 90% artificial boundary-jump reduction, 99% hard-mask central green retention, exact exterior, and zero P036 lettering overlap. Only 16 pixels qualifies: 91.2633518% reduction, 99.461535% central green, zero exterior changed pixels, zero overlap.
+- Wider variants were not assumed better: 24 and 32 pixels fell below the 90% maximum-artificial-jump threshold because the transition crossed stronger internal gradients. The narrowest passing variant is selected for one topology test under ADR-0040.
+- Eight/eight input, method, metric, selection, spill, core-signal, lettering, and invented-review mutations fail. Candidate acceptance remains false and human minutes null.
+- Consolidated offline validation passes 28/28 checks in 16.458 seconds with $0 additional external cost.

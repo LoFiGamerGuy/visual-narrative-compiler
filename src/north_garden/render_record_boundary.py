@@ -9,6 +9,7 @@ from pathlib import Path
 from PIL import Image
 
 from render_record import ROOT, file_errors, incident_errors, render_record_errors, sha_ref_errors
+from review_session import validate_session
 
 
 SELECTOR_PATH = ROOT / "config/scale-aware-repair-boundary-selector-contract-r1.json"
@@ -28,6 +29,24 @@ def image_binding(value: dict) -> dict:
     with Image.open(path) as image:
         width, height = image.size
     return {"path": value["path"], "sha256": value["sha256"], "width": width, "height": height}
+
+
+def load_json_ref(value: object, label: str) -> tuple[list[str], dict | None]:
+    errors = sha_ref_errors(value, label)
+    if errors or not isinstance(value, dict):
+        return errors, None
+    path = (ROOT / value["path"]).resolve()
+    if not path.is_relative_to(ROOT) or not path.is_file():
+        return errors + [f"{label}:file_missing_or_outside_root"], None
+    if sha256_file(path) != value["sha256"]:
+        return errors + [f"{label}:sha256_mismatch"], None
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return errors + [f"{label}:invalid_json"], None
+    if payload.get("record_id", payload.get("session_id")) != value["record_id"]:
+        errors.append(f"{label}:record_id_mismatch")
+    return errors, payload
 
 
 def expected_profile(panel_id: str) -> dict:
@@ -102,12 +121,17 @@ def boundary_render_record_errors(record: dict, journal: dict, cost_ledger: dict
         exterior = boundary.get("exterior_result")
         no_change = boundary.get("no_change_result")
         seam = boundary.get("timed_seam_review")
-        errors.extend(sha_ref_errors(visual.get("evidence") if isinstance(visual, dict) else None, "visual_boundary_evidence"))
+        visual_ref = visual.get("evidence") if isinstance(visual, dict) else None
+        visual_ref_errors, visual_payload = load_json_ref(visual_ref, "visual_boundary_evidence")
+        errors.extend(visual_ref_errors)
         base_hash = record.get("inputs", {}).get("base_raster", {}).get("sha256")
         candidates = record.get("outputs", {}).get("candidates", [])
         candidate_hash = candidates[0].get("sha256") if len(candidates) == 1 else None
         if not isinstance(visual, dict) or visual.get("state") != "EXACT_BASE_AND_CANDIDATE_MEASURED" or visual.get("base_sha256") != base_hash or visual.get("candidate_sha256") != candidate_hash:
             errors.append("exact_base_visual_boundary_binding_invalid")
+        exact_images = visual_payload.get("exact_images", {}) if isinstance(visual_payload, dict) else {}
+        if visual_payload is None or exact_images.get("base_raster", {}).get("sha256") != base_hash or exact_images.get("candidate_raster", {}).get("sha256") != candidate_hash or exact_images.get("support_mask", {}).get("sha256") != boundary.get("support_mask", {}).get("sha256") or exact_images.get("inward_alpha", {}).get("sha256") != boundary.get("inward_alpha", {}).get("sha256"):
+            errors.append("exact_base_visual_boundary_payload_invalid")
         if not isinstance(exterior, dict) or exterior != {"changed_pixels": 0, "max_abs_channel_difference": 0, "exact": True}:
             errors.append("exterior_result_not_exact_zero")
         if not isinstance(no_change, dict) or not isinstance(no_change.get("requested"), bool) or not isinstance(no_change.get("candidate_byte_identical"), bool):
@@ -117,7 +141,8 @@ def boundary_render_record_errors(record: dict, journal: dict, cost_ledger: dict
         if not isinstance(seam, dict):
             errors.append("timed_seam_review_missing")
         else:
-            errors.extend(sha_ref_errors(seam.get("session"), "timed_seam_review_session"))
+            session_ref_errors, session = load_json_ref(seam.get("session"), "timed_seam_review_session")
+            errors.extend(session_ref_errors)
             assertions = seam.get("assertions", {})
             if seam.get("status") != "COMPLETED" or seam.get("decision") != "ACCEPT_BOUNDARY" or not seam.get("reviewer_id"):
                 errors.append("timed_seam_review_state_invalid")
@@ -125,6 +150,23 @@ def boundary_render_record_errors(record: dict, journal: dict, cost_ledger: dict
                 errors.append("timed_seam_review_minutes_invalid")
             if assertions != {"boundary": True, "causality": True, "protected_semantics": True, "lettering_clearance": True}:
                 errors.append("timed_seam_review_assertions_incomplete")
+            if session is None:
+                errors.append("timed_seam_review_session_missing")
+            else:
+                errors.extend(f"timed_seam_review_session:{item}" for item in validate_session(session))
+                if not isinstance(visual_ref, dict) or session.get("subjects") != [visual_ref]:
+                    errors.append("timed_seam_review_subject_mismatch")
+                summary = session.get("summary", {})
+                if seam.get("active_minutes") != summary.get("human_minutes") or seam.get("reviewer_id") != session.get("reviewer_id"):
+                    errors.append("timed_seam_review_summary_mismatch")
+                fixture = record.get("synthetic_validation_fixture") is True
+                if session.get("validation_fixture") is not fixture or summary.get("review_evidence_eligible") is not (not fixture):
+                    errors.append("timed_seam_review_eligibility_mismatch")
+                decisions = session.get("events", [{}])[-1].get("data", {}).get("decisions", [])
+                expected_assertions = [{"id": name, "passed": True} for name in ("boundary", "causality", "protected_semantics", "lettering_clearance")]
+                visual_record_id = visual_ref.get("record_id") if isinstance(visual_ref, dict) else None
+                if len(decisions) != 1 or decisions[0].get("subject_record_id") != visual_record_id or decisions[0].get("accepted") is not True or decisions[0].get("hard_assertions") != expected_assertions:
+                    errors.append("timed_seam_review_decision_mismatch")
     elif journal.get("state") == "FAILED_RECONCILED":
         if boundary.get("outcome_state") != "PROVIDER_FAILED_NO_CANDIDATE":
             errors.append("failed_boundary_outcome_state_invalid")

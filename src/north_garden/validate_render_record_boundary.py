@@ -9,13 +9,14 @@ from PIL import Image
 
 from render_record import ROOT
 from render_record_boundary import boundary_incident_errors, boundary_render_record_errors, expected_profile
+from review_session import append_event as append_review_event, start_session
 from submission_journal import append_event, journal_digest, new_journal
 from validate_render_record import failure as legacy_failure, image_ref, ref, sha256, unknown as legacy_unknown
 
 
 BASE = ROOT / "experiments/outputs/ch05_p036_layout_control_r1/ch05-p036-layout-control-r1.png"
 CANDIDATE = ROOT / "experiments/outputs/render_record_boundary_fixture_r1/p036-synthetic-repair-candidate-r1.png"
-VISUAL = ROOT / "experiments/results/render-record-boundary-visual-fixture-r1.json"
+VISUAL = ROOT / "docs/research/evidence/exact-base-boundary-measurement-packet-r1.json"
 SESSION = ROOT / "experiments/results/render-record-boundary-seam-session-fixture-r1.json"
 
 
@@ -27,20 +28,19 @@ def write_fixture_files() -> None:
         candidate = Image.composite(fill, base, alpha_image.convert("L"))
     CANDIDATE.parent.mkdir(parents=True, exist_ok=True)
     candidate.save(CANDIDATE, format="PNG", optimize=False, compress_level=9)
-    visual = {
-        "record_type": "SyntheticExactBaseBoundaryMeasurementFixture", "schema_version": "1.0",
-        "synthetic_validation_fixture": True, "base_sha256": sha256(BASE), "candidate_sha256": sha256(CANDIDATE),
-        "support_sha256": binding["support_mask"]["sha256"], "inward_alpha_sha256": binding["inward_alpha"]["sha256"],
-        "changed_pixels_outside_support": 0, "max_abs_channel_difference_outside_support": 0,
-    }
-    session = {
-        "record_type": "SyntheticTimedSeamReviewFixture", "schema_version": "1.0", "synthetic_validation_fixture": True,
-        "reviewer_id": "synthetic-validator", "active_minutes": 3.0, "decision": "ACCEPT_BOUNDARY",
-        "assertions": {"boundary": True, "causality": True, "protected_semantics": True, "lettering_clearance": True},
-    }
-    for path, value in ((VISUAL, visual), (SESSION, session)):
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(value, indent=2) + "\n", encoding="utf-8", newline="\n")
+    visual_ref = local_ref(VISUAL, "ng-exact-base-boundary-measurement-packet-r1")
+    session = start_session(
+        session_id="synthetic-seam-session", reviewer_id="synthetic-validator",
+        subjects=[visual_ref], started_at="2026-09-01T19:10:00Z", validation_fixture=True,
+    )
+    decisions = [{
+        "subject_record_id": visual_ref["record_id"], "accepted": True,
+        "hard_assertions": [{"id": name, "passed": True} for name in ("boundary", "causality", "protected_semantics", "lettering_clearance")],
+        "failure_tags": [],
+    }]
+    session = append_review_event(session, event_type="COMPLETE", occurred_at="2026-09-01T19:13:00Z", data={"decisions": decisions})
+    SESSION.parent.mkdir(parents=True, exist_ok=True)
+    SESSION.write_text(json.dumps(session, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
 def local_ref(path, record_id: str) -> dict:
@@ -72,7 +72,7 @@ def completed() -> tuple[dict, dict, dict]:
     boundary = dict(binding)
     boundary.update({
         "outcome_state": "EXACT_BASE_CANDIDATE_MEASURED_SEAM_ACCEPTED",
-        "exact_base_visual_boundary": {"state": "EXACT_BASE_AND_CANDIDATE_MEASURED", "base_sha256": sha256(BASE), "candidate_sha256": sha256(CANDIDATE), "evidence": local_ref(VISUAL, "synthetic-boundary-visual")},
+        "exact_base_visual_boundary": {"state": "EXACT_BASE_AND_CANDIDATE_MEASURED", "base_sha256": sha256(BASE), "candidate_sha256": sha256(CANDIDATE), "evidence": local_ref(VISUAL, "ng-exact-base-boundary-measurement-packet-r1")},
         "exterior_result": {"changed_pixels": 0, "max_abs_channel_difference": 0, "exact": True},
         "no_change_result": {"requested": False, "candidate_byte_identical": False},
         "timed_seam_review": {"session": local_ref(SESSION, "synthetic-seam-session"), "status": "COMPLETED", "reviewer_id": "synthetic-validator", "active_minutes": 3.0, "decision": "ACCEPT_BOUNDARY", "assertions": {"boundary": True, "causality": True, "protected_semantics": True, "lettering_clearance": True}},
@@ -133,6 +133,9 @@ def main() -> int:
         ("no-change contradiction", success_record, success_journal, success_ledger, lambda x: x["boundary_evidence"]["no_change_result"].update(requested=True), boundary_render_record_errors),
         ("missing seam review", success_record, success_journal, success_ledger, lambda x: x["boundary_evidence"].update(timed_seam_review=None), boundary_render_record_errors),
         ("untimed seam review", success_record, success_journal, success_ledger, lambda x: x["boundary_evidence"]["timed_seam_review"].update(active_minutes=0), boundary_render_record_errors),
+        ("seam session hash", success_record, success_journal, success_ledger, lambda x: x["boundary_evidence"]["timed_seam_review"]["session"].update(sha256="0" * 64), boundary_render_record_errors),
+        ("seam reviewer", success_record, success_journal, success_ledger, lambda x: x["boundary_evidence"]["timed_seam_review"].update(reviewer_id="wrong-reviewer"), boundary_render_record_errors),
+        ("visual evidence hash", success_record, success_journal, success_ledger, lambda x: x["boundary_evidence"]["exact_base_visual_boundary"]["evidence"].update(sha256="0" * 64), boundary_render_record_errors),
         ("failed fabricated visual", failed_record, failed_journal, failed_ledger, lambda x: x["boundary_evidence"].update(exact_base_visual_boundary={}), boundary_render_record_errors),
         ("unknown boundary evidence", incident, unknown_journal, unknown_ledger, lambda x: x.update(boundary_evidence={}), boundary_incident_errors),
         ("unknown selected width", incident, unknown_journal, unknown_ledger, lambda x: x.update(selected_width_px=16), boundary_incident_errors),
@@ -142,8 +145,8 @@ def main() -> int:
         if not validator(changed, journal, ledger): failures.append(f"mutation passed: {label}")
     for message in failures: print(f"failure: {message}")
     if failures: return 1
-    print("0 failures, 0 warnings (v2.1 completed/failure/unknown boundary states; 15/15 mutations rejected)")
-    print("completed binds selector/profile/width/support/alpha/topology/exact-base/exterior/no-change/timed seam; unknown binds none")
+    print("0 failures, 0 warnings (v2.1 completed/failure/unknown boundary states; 18/18 mutations rejected)")
+    print("completed binds exact hash-chained timed seam session; synthetic session is ineligible as real review; unknown binds none")
     return 0
 
 

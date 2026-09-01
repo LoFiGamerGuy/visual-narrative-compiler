@@ -86,7 +86,9 @@ The full-denominator CH05 repair-evidence readiness milestone is complete. All 5
 
 The exact-base boundary-measurement milestone is complete. A synthetic exact-byte packet binds base/candidate/support/alpha/profile/topology and measures 64,992 support, 35,150 transition, 27,366 full-core pixels, exact exterior, 98.838% fixture-specific boundary-distance reduction, and byte-identical no-change. Its review presentation is hash-bound but session/minutes/decision remain null/false; 14/14 mutations fail under ADR-0053. The suite passes 40/40.
 
-The active bounded milestone is hash-chained seam-review binding. Make v2.1 completed repair validation load and verify the exact immutable review session, measurement subject, event chain, active minutes, fixture eligibility, decision, and four seam assertions instead of trusting duplicated summary fields. Real CH05 review must remain absent.
+The hash-chained seam-review milestone is complete. V2.1 completed validation now loads the tracked measurement packet and exact session, verifies hashes/event chain/subject/reviewer, derives three fixture minutes, checks all four seam assertions, and rejects fixture eligibility as real evidence. RenderRecord mutation rejection increases to 18/18 under ADR-0054; real CH05 sessions/minutes/outcomes remain zero/null/zero. The suite remains 40/40.
+
+The active bounded milestone is a fail-closed repair-outcome finalizer. Compile exact current P036 blockers before any v2.1 outcome can exist, while using only complete synthetic sources to prove deterministic finalization. The current real state must emit no RenderRecord, candidate, review, request, upload, or cost.
 
 ### Authority and data boundaries
 

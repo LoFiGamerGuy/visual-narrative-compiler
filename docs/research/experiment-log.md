@@ -672,3 +672,11 @@
 - The separate no-change short circuit returns the exact input bytes without provider invocation. A three-view base/candidate/3x-difference crop packet is bound to the exact sources, but review session/decision/minutes remain null and acceptance false.
 - Fourteen/fourteen binding, metric, no-change, review, fixture-label, and invented-activity mutations fail under ADR-0053. Provider requests/uploads/cost remain 0/0/$0.
 - Consolidated offline validation passes 40/40 checks in 25.418 seconds.
+
+## 2026-09-01 - hash-chained seam-review binding
+
+- Replaced the loose synthetic session summary with the existing immutable `TimedHumanReviewSession` state machine and made the exact tracked measurement packet its sole subject.
+- Completed v2.1 validation now loads and hash-checks both the measurement packet and session, validates the event chain, recomputes three active minutes, and requires the same reviewer, subject, accepted decision, and boundary/causality/protected-semantics/lettering-clearance assertions.
+- The synthetic session is explicitly a validation fixture and derives `review_evidence_eligible=false`; a real RenderRecord must use a non-fixture eligible session. The ordinary full-candidate review remains separately pending.
+- RenderRecord contradiction coverage increases from 15/15 to 18/18 with exact session/evidence hash and reviewer mutations. Real seam sessions/minutes/accepted outcomes remain 0/null/0 under ADR-0054.
+- Consolidated offline validation remains 40/40 in 25.977 seconds.

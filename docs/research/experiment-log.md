@@ -838,3 +838,10 @@
 - Verified every supersession path, record/contract identity, and prior SHA-256, plus each current validator path/hash and portable no-network command.
 - Current summary is 65/65 release checks, 412 safe-source paths, 41 zero-cost milestones, G07 0/20, and CH05 zero accepted/no cap.
 - Eighteen/eighteen lineage/current-state/activity mutations fail under ADR-0075. Ledger r15 records 42 zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - current evidence reproducer matrix
+
+- Executed all 11 portable commands from the current lineage index sequentially and bound validator hashes, normalized stdout hashes, return state, and local timing.
+- All 11/11 pass. Total observed runtime is 114.636 seconds; nested release/rebuild/source validation contributes 79.872/23.043/8.466 seconds.
+- The run covers 65/65 nested release checks and 32 indexed lineage records. Seventeen/seventeen command/result/hash/activity/limitation mutations fail under ADR-0076.
+- No command is declared network-capable; requests/uploads/downloads/cost remain 0/0/0/$0. Ledger r16 records 43 zero-cost milestones and remains disabled/no-cap/$0.

@@ -284,3 +284,5 @@ Release gate r3 runs the immutable 60-check r2 result plus five handoff/lattice/
 Safe-source r3 pins pushed commit `00498df` with 412 paths / 8,791,840 bytes, tree `3052f539…cc6d1`, and inventory root `a3a0c65c…3e618`; 13/13 mutations fail and generated/prohibited/oversize counts remain zero. This is source integrity only.
 
 The current evidence index resolves 11 domains across 32 exact lineage records and validates every supersession/validator hash; 18/18 mutations fail. This is provenance-navigation coverage, not renderer, review, or production throughput.
+
+The executable reproducer matrix runs all 11 current-domain commands successfully in 114.636 seconds; nested release/rebuild/source timings are 79.872/23.043/8.466 seconds and 17/17 mutations fail. This is local evidence-runtime coverage, not provider or human throughput.

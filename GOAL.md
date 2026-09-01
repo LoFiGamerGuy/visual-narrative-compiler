@@ -130,7 +130,9 @@ The safe-source release r3 milestone is complete. Pushed commit `00498df5…5498
 
 The current evidence-lineage milestone is complete. Eleven domains resolve across 32 exact records, including a 14-revision cost chain; every supersession identity/hash and validator command is bound. Current state remains 65/65 release, 412 safe paths, 41 zero-cost milestones, G07 0/20, and CH05 zero accepted/no cap; 18/18 mutations fail under ADR-0075.
 
-The active bounded milestone is an executable evidence-reproducer matrix. Run every current lineage-domain validator from its recorded command, capture exact validator hashes/output/timing, and prove the command set remains no-network and semantically consistent with the lineage index.
+The executable evidence-reproducer milestone is complete. All 11/11 current domain commands pass in an observed 114.636 seconds, including the 65-check release, 28-artifact rebuild, source inventory, budget/review/handoff/authority/lattice/cost/readiness checks. Seventeen/seventeen mutations fail with zero requests/uploads/downloads/$0 under ADR-0076.
+
+The active bounded milestone is frozen-target integrity. Compare every frozen v2.1.1 gauntlet and baseline_legacy path in the earliest and latest safe-source snapshots and prove no byte, path, or semantic target changed during selection or hardening.
 
 ### Authority and data boundaries
 

@@ -114,7 +114,9 @@ The hardening-release validation milestone is complete. The unchanged 44-check c
 
 The selector-consumer compatibility milestone is complete. R1 and r2 have canonically identical six-gate pipelines and two complete panel profiles. Six source consumers, three immutable evidence bindings, and six focused validators pass; the panel-neutral control cannot resolve as a profile, and 15/15 mutations fail under ADR-0067. No historical RenderRecord or evidence record was rewritten.
 
-The active bounded milestone is an authority/dependency frontier. Compile every remaining real G07-review and CH05 selected-route blocker into a hash-bound dependency graph that distinguishes autonomous local work from human judgment, exact input approval, upload authority, and production-budget authority without treating any available G07 cap as CH05 permission.
+The authority/dependency frontier milestone is complete. A 20-node/20-edge acyclic graph distinguishes five root authority items from downstream evidence: G07 is 0/20 human decisions; P036 has four root preflight and nine total finalization blockers; approved inputs/cap/requests/uploads/RenderRecords/acceptances remain zero. Eighteen/eighteen mutations fail and `next_external_action` remains null under ADR-0068.
+
+The active bounded milestone is safe-source release r2. Pin the latest already-pushed source/evidence commit after the release and compatibility milestones, inventory every tracked blob, and prove that generated candidates, credentials, models, runtimes, datasets, private references, and unrelated local workspace material remain excluded.
 
 ### Authority and data boundaries
 

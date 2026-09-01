@@ -268,3 +268,5 @@ Expanded rebuild r2 pins r1 and produces identical two-pass inventories of 28 ar
 The aggregate hardening release gate passes 44 unchanged core checks plus nine append-only extensions, 53/53 total, in an observed 69.752 seconds; 8/8 release-state mutations fail. Budget audit r3 separately rejects 12/12 mutations and preserves the same 18-entry/$1.057377 reconciliation. These are local integrity timings and counts, not rendering, review, or production throughput.
 
 Selector-consumer compatibility validates six direct source consumers, three immutable evidence bindings, and six focused validators against canonically identical r1/r2 pipelines and P036/P044 profiles; 15/15 mutations fail. This measures provenance compatibility only, not visual quality, review, or production readiness.
+
+The selected-route authority frontier validates a 20-node/20-edge acyclic graph with five root authority items, 0/20 G07 decisions, and four root/nine total P036 blockers; 18/18 mutations fail. This is dependency accounting, not authority, execution, or acceptance.

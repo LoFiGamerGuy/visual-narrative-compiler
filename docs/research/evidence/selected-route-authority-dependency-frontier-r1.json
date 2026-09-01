@@ -1,0 +1,407 @@
+{
+  "record_type": "SelectedRouteAuthorityDependencyFrontier",
+  "schema_version": "1.0",
+  "record_id": "ng-selected-route-authority-dependency-frontier-r1",
+  "state": "LOCAL_HARDENING_VALIDATED_REAL_REVIEW_AND_PRODUCTION_AUTHORITY_FRONTIER_EXPLICIT",
+  "sources": {
+    "review_protocol": {
+      "record_id": "g07-blinded-human-review-protocol-r1",
+      "path": "config/g07-blinded-human-review-protocol-r1.json",
+      "sha256": "4fc0c45eef8509e1c095a1becee9691ac04d955ab1ce44bb63a1faf893ed93f2"
+    },
+    "review_gate": {
+      "record_id": "g07-human-review-rollup-gate-r1",
+      "path": "docs/research/evidence/g07-human-review-rollup-gate-r1.json",
+      "sha256": "927e76a328b8303fb0ca37f00027e2dba3f90e808f6b24d781bb21e9f224b78c"
+    },
+    "hardening_state": {
+      "record_id": "ng-selected-route-hardening-state-r1",
+      "path": "docs/research/evidence/selected-route-hardening-state-r1.json",
+      "sha256": "6c336cde8331ae3eeeeb51d5137c6814aa5c5f2f1363884020c69d5cc43b0216"
+    },
+    "chapter_matrix": {
+      "record_id": "ng-ch05-repair-evidence-readiness-matrix-r1",
+      "path": "production/comic/repair-readiness/ch05-repair-evidence-readiness-matrix-r1.json",
+      "sha256": "859dd87f0c80837fb414975de21a8cc61926780e733c77e0aa690c4e09aaa1b5"
+    },
+    "p036_readiness": {
+      "record_id": "ng-ch05-p036-openai-repair-readiness-r2",
+      "path": "production/comic/repair-readiness/ch05-p036-openai-r2.json",
+      "sha256": "466a00b9cd1786682960476408f9e6005cc3a4e18c85092d6b0c3643ee9c3e9e"
+    },
+    "p036_finalizer": {
+      "record_id": "ng-ch05-p036-repair-outcome-finalizer-r1",
+      "path": "production/comic/repair-readiness/ch05-p036-repair-outcome-finalizer-r1.json",
+      "sha256": "483ef73d30f1f8b63ff9434b71b5e8a3df7b2c4fe82d7f754ec8a796f4297ddc"
+    },
+    "production_policy": {
+      "record_id": "ng-ch05-production-budget-policy-r1",
+      "path": "config/ch05-production-budget-policy-r1.json",
+      "sha256": "97dd460cbc6f2976cb315d8ddbf32b09d989ea402ad8f25ec96c39b437a6800b"
+    },
+    "production_ledger": {
+      "record_id": "ng-ch05-production-cost-ledger-r7",
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r7.json",
+      "sha256": "17772228e6872e067e2847bf7da317bb2e7727621e19816ce5bfa2937eb80af5"
+    },
+    "budget_audit": {
+      "record_id": "ng-g07-aggregate-budget-binding-audit-r3",
+      "path": "docs/research/evidence/g07-aggregate-budget-binding-audit-r3.json",
+      "sha256": "d65cad3e8d4ac075a9b1d4b7a4c843b251ed7564e7e39b2c773424d47ddee546"
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "g07_paid_bakeoff_evidence",
+        "state": "COMPLETE_MEASURED",
+        "authority_class": "LOCAL_EVIDENCE",
+        "facts": {
+          "providers": 4,
+          "required_candidates": 16,
+          "aggregate_paid_usd": "1.057377"
+        }
+      },
+      {
+        "id": "g07_blinded_review_packet",
+        "state": "COMPLETE_INSTRUMENTED",
+        "authority_class": "LOCAL_EVIDENCE",
+        "facts": {
+          "required_decisions": 20,
+          "packet_sha256": "4b1e5f0c4c53688df838c1a6f28a4afa548ac3fb5159a93c5531f23925478161"
+        }
+      },
+      {
+        "id": "g07_eligible_human_session",
+        "state": "BLOCKED_HUMAN_JUDGMENT",
+        "authority_class": "IDENTIFIED_HUMAN_REVIEW",
+        "facts": {
+          "completed_decisions": 0,
+          "remaining_decisions": 20,
+          "human_minutes": null
+        }
+      },
+      {
+        "id": "g07_human_dimension_rollup",
+        "state": "WAITING_DEPENDENCY",
+        "authority_class": "DERIVED_AFTER_HUMAN_REVIEW",
+        "facts": {
+          "human_arm_results": null,
+          "automatic_ranking": false
+        }
+      },
+      {
+        "id": "openai_engineering_hardening_route",
+        "state": "COMPLETE_MEASURED_NOT_ART_ACCEPTED",
+        "authority_class": "ENGINEERING_DECISION",
+        "facts": {
+          "adapter_id": "openai_gpt_image_2",
+          "decision": "ADR-0025",
+          "automatic_reselection": false
+        }
+      },
+      {
+        "id": "ch05_comic_panel_plan_denominator",
+        "state": "COMPLETE_LOCAL",
+        "authority_class": "COMIC_PANEL_PLAN_ONLY",
+        "facts": {
+          "planned_panels": 50,
+          "explicit_repair_candidates": 4,
+          "animation_shot_plan": null,
+          "e_conte": null
+        }
+      },
+      {
+        "id": "p036_local_mechanics_policy",
+        "state": "COMPLETE_LOCAL_NOT_PRODUCTION_READY",
+        "authority_class": "LOCAL_ENGINEERING",
+        "facts": {
+          "selector_profiles": 2,
+          "panel_policies": 1
+        }
+      },
+      {
+        "id": "p036_approved_base_raster",
+        "state": "BLOCKED_INPUT_APPROVAL",
+        "authority_class": "IDENTIFIED_HUMAN_INPUT_REVIEW",
+        "facts": {
+          "approved_count": 0
+        }
+      },
+      {
+        "id": "p036_approved_repair_mask",
+        "state": "BLOCKED_INPUT_APPROVAL",
+        "authority_class": "IDENTIFIED_HUMAN_INPUT_REVIEW",
+        "facts": {
+          "approved_count": 0
+        }
+      },
+      {
+        "id": "p036_exact_external_authority",
+        "state": "BLOCKED_USER_AUTHORITY",
+        "authority_class": "EXACT_PROVIDER_MODEL_ENDPOINT_INPUT_PACKAGE_AUTHORITY",
+        "facts": {
+          "authority": null,
+          "expanded_upload_authority": false
+        }
+      },
+      {
+        "id": "ch05_distinct_production_cap",
+        "state": "BLOCKED_USER_AUTHORITY",
+        "authority_class": "DISTINCT_CH05_AGGREGATE_BUDGET_AUTHORITY",
+        "facts": {
+          "approved_cap_usd": null,
+          "g07_available_usd_not_reusable": "98.942623"
+        }
+      },
+      {
+        "id": "current_primary_terms_pricing_data_use_refresh",
+        "state": "REQUIRED_BEFORE_EXTERNAL_EXECUTION",
+        "authority_class": "LOCAL_RESEARCH_THEN_POLICY_REVIEW",
+        "facts": {
+          "refresh_trigger": "before any CH05 paid provider execution"
+        }
+      },
+      {
+        "id": "ch05_aggregate_production_reservation",
+        "state": "WAITING_AUTHORITY",
+        "authority_class": "AGGREGATE_LEDGER",
+        "facts": {
+          "entries": 0,
+          "held_usd": "0.000000"
+        }
+      },
+      {
+        "id": "p036_offline_request_preflight",
+        "state": "BLOCKED_FOUR_PREREQUISITES",
+        "authority_class": "FAIL_CLOSED_LOCAL_COMPILER",
+        "facts": {
+          "blockers": [
+            "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+            "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+            "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID",
+            "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID"
+          ],
+          "request_body_constructed": false,
+          "network_capability_present": false
+        }
+      },
+      {
+        "id": "p036_paid_submission_journal",
+        "state": "WAITING_AUTHORIZED_EXECUTION",
+        "authority_class": "EXTERNAL_EXECUTION",
+        "facts": {
+          "journal": null,
+          "provider_request": null
+        }
+      },
+      {
+        "id": "p036_candidate_and_cost_reconciliation",
+        "state": "WAITING_PROVIDER_OUTCOME",
+        "authority_class": "PROVIDER_RETURNED_EVIDENCE",
+        "facts": {
+          "candidate": null,
+          "cost_reconciliation": null
+        }
+      },
+      {
+        "id": "p036_real_exact_base_boundary_measurement",
+        "state": "WAITING_EXACT_CANDIDATE",
+        "authority_class": "LOCAL_MEASUREMENT_AFTER_OUTPUT",
+        "facts": {
+          "real_results": 0
+        }
+      },
+      {
+        "id": "p036_eligible_timed_seam_review",
+        "state": "WAITING_MEASUREMENT_AND_HUMAN",
+        "authority_class": "IDENTIFIED_HUMAN_REVIEW",
+        "facts": {
+          "sessions": 0,
+          "human_minutes": null
+        }
+      },
+      {
+        "id": "p036_render_record_v2_1_finalization",
+        "state": "BLOCKED_NINE_EVIDENCE_GATES",
+        "authority_class": "FAIL_CLOSED_LOCAL_FINALIZER",
+        "facts": {
+          "blocker_count": 9,
+          "render_record": null
+        }
+      },
+      {
+        "id": "p036_panel_acceptance",
+        "state": "WAITING_ELIGIBLE_HUMAN_DECISION",
+        "authority_class": "IDENTIFIED_HUMAN_ACCEPTANCE",
+        "facts": {
+          "accepted": false
+        }
+      }
+    ],
+    "edges": [
+      {
+        "prerequisite": "g07_paid_bakeoff_evidence",
+        "dependent": "g07_blinded_review_packet"
+      },
+      {
+        "prerequisite": "g07_blinded_review_packet",
+        "dependent": "g07_eligible_human_session"
+      },
+      {
+        "prerequisite": "g07_eligible_human_session",
+        "dependent": "g07_human_dimension_rollup"
+      },
+      {
+        "prerequisite": "g07_paid_bakeoff_evidence",
+        "dependent": "openai_engineering_hardening_route"
+      },
+      {
+        "prerequisite": "ch05_comic_panel_plan_denominator",
+        "dependent": "p036_local_mechanics_policy"
+      },
+      {
+        "prerequisite": "p036_local_mechanics_policy",
+        "dependent": "p036_offline_request_preflight"
+      },
+      {
+        "prerequisite": "p036_approved_base_raster",
+        "dependent": "p036_offline_request_preflight"
+      },
+      {
+        "prerequisite": "p036_approved_repair_mask",
+        "dependent": "p036_offline_request_preflight"
+      },
+      {
+        "prerequisite": "p036_exact_external_authority",
+        "dependent": "p036_offline_request_preflight"
+      },
+      {
+        "prerequisite": "ch05_distinct_production_cap",
+        "dependent": "ch05_aggregate_production_reservation"
+      },
+      {
+        "prerequisite": "ch05_aggregate_production_reservation",
+        "dependent": "p036_offline_request_preflight"
+      },
+      {
+        "prerequisite": "current_primary_terms_pricing_data_use_refresh",
+        "dependent": "p036_paid_submission_journal"
+      },
+      {
+        "prerequisite": "p036_offline_request_preflight",
+        "dependent": "p036_paid_submission_journal"
+      },
+      {
+        "prerequisite": "p036_paid_submission_journal",
+        "dependent": "p036_candidate_and_cost_reconciliation"
+      },
+      {
+        "prerequisite": "p036_candidate_and_cost_reconciliation",
+        "dependent": "p036_real_exact_base_boundary_measurement"
+      },
+      {
+        "prerequisite": "p036_real_exact_base_boundary_measurement",
+        "dependent": "p036_eligible_timed_seam_review"
+      },
+      {
+        "prerequisite": "p036_candidate_and_cost_reconciliation",
+        "dependent": "p036_render_record_v2_1_finalization"
+      },
+      {
+        "prerequisite": "p036_real_exact_base_boundary_measurement",
+        "dependent": "p036_render_record_v2_1_finalization"
+      },
+      {
+        "prerequisite": "p036_eligible_timed_seam_review",
+        "dependent": "p036_render_record_v2_1_finalization"
+      },
+      {
+        "prerequisite": "p036_render_record_v2_1_finalization",
+        "dependent": "p036_panel_acceptance"
+      }
+    ],
+    "topological_order": [
+      "ch05_comic_panel_plan_denominator",
+      "ch05_distinct_production_cap",
+      "ch05_aggregate_production_reservation",
+      "current_primary_terms_pricing_data_use_refresh",
+      "g07_paid_bakeoff_evidence",
+      "g07_blinded_review_packet",
+      "g07_eligible_human_session",
+      "g07_human_dimension_rollup",
+      "openai_engineering_hardening_route",
+      "p036_approved_base_raster",
+      "p036_approved_repair_mask",
+      "p036_exact_external_authority",
+      "p036_local_mechanics_policy",
+      "p036_offline_request_preflight",
+      "p036_paid_submission_journal",
+      "p036_candidate_and_cost_reconciliation",
+      "p036_real_exact_base_boundary_measurement",
+      "p036_eligible_timed_seam_review",
+      "p036_render_record_v2_1_finalization",
+      "p036_panel_acceptance"
+    ],
+    "acyclic": true
+  },
+  "root_authority_frontier": [
+    {
+      "node_id": "g07_eligible_human_session",
+      "needed_from": "identified human reviewer",
+      "scope": "20 immutable blinded decisions; no invented minutes"
+    },
+    {
+      "node_id": "p036_approved_base_raster",
+      "needed_from": "authorized human input review",
+      "scope": "exact fictional panel base bytes/hash"
+    },
+    {
+      "node_id": "p036_approved_repair_mask",
+      "needed_from": "authorized human input review",
+      "scope": "exact panel-specific causal mask bytes/hash"
+    },
+    {
+      "node_id": "p036_exact_external_authority",
+      "needed_from": "user",
+      "scope": "exact OpenAI model snapshot, endpoint, and complete input-package hash"
+    },
+    {
+      "node_id": "ch05_distinct_production_cap",
+      "needed_from": "user",
+      "scope": "distinct CH05 aggregate cap; G07 remainder cannot be reused"
+    }
+  ],
+  "autonomous_local_frontier": [
+    "validate and release safe tracked source/evidence snapshots",
+    "extend no-network release gates append-only as validators advance",
+    "maintain deterministic rebuild/runtime/source manifests",
+    "prepare hash-bound review and production handoff packets without filling human decisions or authority fields"
+  ],
+  "prohibited_inferences": [
+    "G07 remaining capacity grants CH05 production budget",
+    "engineering route selection equals visual acceptance or commercial clearance",
+    "synthetic base/mask/review fixtures are eligible production evidence",
+    "a topology profile grants panel-specific policy or upload authority",
+    "ComicPanelPlan can be replaced by AnimationShotPlan or E-Conte"
+  ],
+  "summary": {
+    "graph_nodes": 20,
+    "graph_edges": 20,
+    "root_authority_items": 5,
+    "g07_review_decisions_complete": 0,
+    "g07_review_decisions_required": 20,
+    "ch05_planned_panels": 50,
+    "p036_root_preflight_blockers": 4,
+    "p036_total_finalization_blockers": 9,
+    "approved_ch05_inputs": 0,
+    "ch05_production_cap_usd": null,
+    "real_render_records_v2_1": 0,
+    "accepted_ch05_panels": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "next_external_action": null,
+  "boundary": "This graph records dependencies; it grants no judgment, input approval, upload scope, production budget, request capability, or acceptance."
+}

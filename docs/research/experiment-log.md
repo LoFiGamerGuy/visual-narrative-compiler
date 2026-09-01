@@ -779,3 +779,11 @@
 - Validated six direct source consumers and three immutable evidence bindings that intentionally retain exact r1 provenance. Six/six focused validators pass, including the RenderRecord v2.1 boundary-evidence checks.
 - The new `disconnected_holed_support` mechanics control resolves to an empty profile, is absent from the profile map, and remains ineligible for panel profile, production policy, and visual acceptance.
 - Fifteen/fifteen pipeline/profile/binding/generic-promotion/record-rewrite/activity mutations fail under ADR-0067. Production ledger r7 records 34 zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - selected-route authority/dependency frontier
+
+- Compiled a 20-node/20-edge acyclic dependency graph over G07 review and selected-route P036 readiness from nine exact source records.
+- Separated five root authority items: one identified-human G07 session, exact human-reviewed P036 base and mask, exact user-authorized provider/model/endpoint/input package, and a distinct user-approved CH05 aggregate cap.
+- G07 remains 0/20 decisions/null minutes. P036 remains four root preflight blockers and nine total finalization blockers; downstream candidate, cost, measurement, seam review, RenderRecord, and acceptance nodes cannot self-activate.
+- Current-primary terms/pricing/data-use refresh is retained immediately before any future paid CH05 execution. G07's $98.942623 remaining capacity is explicitly non-reusable for CH05.
+- Eighteen/eighteen graph/authority/activity mutations fail under ADR-0068. Ledger r8 records 35 local zero-cost milestones and remains disabled/no-cap/$0.

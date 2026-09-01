@@ -16,7 +16,8 @@ ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / "config/runtime-assets.example.json"
 BOOTSTRAP = ROOT / "scripts/bootstrap-local.ps1"
 SUITE = ROOT / "src/north_garden/validate_ch05_instrumentation_suite.py"
-OUTPUT = ROOT / "docs/research/evidence/instrumentation-runtime-inventory-r1.json"
+R1 = ROOT / "docs/research/evidence/instrumentation-runtime-inventory-r1.json"
+OUTPUT = ROOT / "docs/research/evidence/instrumentation-runtime-inventory-r2.json"
 
 
 class RuntimeErrorEvidence(RuntimeError): pass
@@ -42,8 +43,10 @@ def build() -> dict:
         requirements.append(dict(item, actual_version=actual, exact_match=actual == item["version"]))
     executable = Path(sys.executable)
     return {
-        "record_type": "InstrumentationRuntimeInventory", "schema_version": "1.0",
-        "record_id": "ng-instrumentation-runtime-inventory-r1", "state": "LOCAL_EXACT_RUNTIME_MATCH_NO_DOWNLOADS",
+        "record_type": "InstrumentationRuntimeInventory", "schema_version": "1.1",
+        "record_id": "ng-instrumentation-runtime-inventory-r2", "state": "LOCAL_EXACT_RUNTIME_MATCH_NO_DOWNLOADS",
+        "supersedes": {"record_id": "ng-instrumentation-runtime-inventory-r1", "path": R1.relative_to(ROOT).as_posix(), "sha256": sha256(R1)},
+        "prior_record_rewritten": False,
         "sources": {"runtime_manifest": source(MANIFEST), "bootstrap_script": source(BOOTSTRAP), "instrumentation_suite": source(SUITE)},
         "python": {"implementation": sys.implementation.name, "version": platform.python_version(), "cache_tag": sys.implementation.cache_tag, "executable_basename": executable.name, "executable_sha256": sha256(executable)},
         "platform": {"system": platform.system(), "release": platform.release(), "version": platform.version(), "machine": platform.machine()},
@@ -56,6 +59,8 @@ def build() -> dict:
 
 def mutations(expected: dict) -> tuple[int, int]:
     values = []
+    item = copy.deepcopy(expected); item["supersedes"]["sha256"] = "0" * 64; values.append(item)
+    item = copy.deepcopy(expected); item["prior_record_rewritten"] = True; values.append(item)
     item = copy.deepcopy(expected); item["sources"]["bootstrap_script"]["sha256"] = "0" * 64; values.append(item)
     item = copy.deepcopy(expected); item["python"]["version"] = "3.13.0"; values.append(item)
     item = copy.deepcopy(expected); item["python"]["executable_sha256"] = "0" * 64; values.append(item)
@@ -82,7 +87,7 @@ def main() -> int:
     except (RuntimeErrorEvidence, FileNotFoundError, KeyError, json.JSONDecodeError) as error:
         print(f"FAIL: {error}", file=sys.stderr); return 1
     print(f"0 failures, 0 warnings (Python {expected['python']['version']}; Pillow {expected['requirements'][1]['actual_version']}; numpy {expected['requirements'][2]['actual_version']})")
-    print(f"exact executable/profile/source hashes; {rejected}/{total} mutations rejected; no install/download/network/provider activity")
+    print(f"exact executable/profile/source hashes; append-only r2; {rejected}/{total} mutations rejected; no install/download/network/provider activity")
     return 0
 
 

@@ -92,7 +92,9 @@ The fail-closed repair-outcome finalizer milestone is complete. Real P036 report
 
 The bootstrap/runtime reproducibility milestone is complete. A separate no-download/no-network/no-credential instrumentation profile pins CPython 3.14.6, Pillow 12.3.0, numpy 2.5.1, exact interpreter/bootstrap/manifest/suite hashes, and dry-run behavior while leaving `baseline_legacy` unchanged. Ten/ten runtime mutations fail and a no-write bootstrap passes 43/43 checks in 26.524 seconds under ADR-0056.
 
-The active bounded milestone is selected-route artifact rebuild reproducibility. Inventory the bounded ignored compositor/topology/review fixture outputs, rebuild them twice under the pinned profile, and compare exact path/hash/size roots. Exclude timestamps/performance records explicitly instead of normalizing them into false determinism.
+The selected-route artifact rebuild milestone is complete. Twenty-six ignored artifacts across eight exact groups and 4,862,061 bytes rebuild twice to identical root `0a04832b…d3f3b18`; 8/8 inventory/root/exclusion mutations fail under ADR-0057. Nondeterministic timing/provider/human/external-runtime classes are excluded explicitly. The complete suite passes 44/44 in 47.620 seconds.
+
+The active bounded milestone is G07 review-validation runtime optimization. Profile the 10.615-second fail-closed rollup check and remove repeated immutable packet/vault recomputation while preserving exact pending state, synthetic isolation, and 9/9 mutation rejection. This is local validator engineering only.
 
 ### Authority and data boundaries
 

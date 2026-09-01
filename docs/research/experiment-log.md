@@ -696,3 +696,12 @@
 - Bootstrap `-Profile instrumentation -DryRun` creates neither `.env` nor a local manifest and performs no install/download/provider operation. It preserves the existing ignored legacy local manifest and reports four warnings rather than overwriting it.
 - The complete dry run passes frozen v2.1.1 and 43/43 offline checks in 26.524 seconds. Provider requests/uploads/cost remain 0/0/$0 under ADR-0056.
 - The inventory is a measured local snapshot, not a cross-platform resolver or wheel lock; changes require a new reviewed revision.
+
+## 2026-09-01 - selected-route exact artifact rebuild reproducibility
+
+- Advanced the runtime inventory append-only to r2 because the suite entrypoint hash changed; r1 remains pinned. R2 adds supersession/rewrite mutations for 12/12 total runtime mutations rejected.
+- Ran eight local validators twice and inventoried every file in eight bounded ignored groups: layout, boundary variants, mask topology, causal topology, P044 fixed/adaptive, RenderRecord fixture, and measurement presentation.
+- Both inventories contain 26 artifacts / 4,862,061 bytes and have identical canonical root `0a04832b6826d6610b39a92fec7e9e7dd311d8d8e9e69fb017366b425d3f3b18`.
+- Eight/eight command, count, rebuild-count, root, byte-identity, artifact hash, exclusion, and invented-provider mutations fail under ADR-0057.
+- Timestamps, timing samples, provider records/candidates, human decisions/minutes, and external runtimes are excluded, not normalized. Requests/uploads/downloads/cost remain 0/0/0/$0.
+- With the two-pass rebuild check included, consolidated validation passes 44/44 in 47.620 seconds.

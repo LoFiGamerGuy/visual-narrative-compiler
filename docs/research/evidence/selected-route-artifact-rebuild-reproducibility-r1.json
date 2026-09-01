@@ -1,0 +1,239 @@
+{
+  "record_type": "SelectedRouteArtifactRebuildReproducibility",
+  "schema_version": "1.0",
+  "record_id": "ng-selected-route-artifact-rebuild-reproducibility-r1",
+  "state": "TWO_CONSECUTIVE_LOCAL_REBUILDS_BYTE_IDENTICAL",
+  "runtime_inventory": {
+    "path": "docs/research/evidence/instrumentation-runtime-inventory-r2.json",
+    "sha256": "0416c984c0ce812aa5126a71593f95cea92c1951059c223de41157e7469b0360"
+  },
+  "commands": [
+    "src/north_garden/validate_ch05_sequence_layout_control.py",
+    "src/north_garden/validate_openai_boundary_hardening.py",
+    "src/north_garden/validate_ch05_p036_mask_topology.py",
+    "src/north_garden/validate_ch05_p036_causal_shape_control.py",
+    "src/north_garden/validate_ch05_p044_fixed_boundary_stress.py",
+    "src/north_garden/validate_ch05_p044_adaptive_boundary.py",
+    "src/north_garden/validate_render_record_boundary.py",
+    "src/north_garden/validate_exact_base_boundary_measurement_packet.py"
+  ],
+  "groups": [
+    {
+      "path": "experiments/outputs/ch05_p036_layout_control_r1",
+      "artifact_count": 3
+    },
+    {
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "artifact_count": 14
+    },
+    {
+      "path": "experiments/outputs/ch05_p036_mask_topology_r1",
+      "artifact_count": 1
+    },
+    {
+      "path": "experiments/outputs/ch05_p036_causal_shape_topology_r2",
+      "artifact_count": 2
+    },
+    {
+      "path": "experiments/outputs/ch05_p044_fixed_boundary_stress_r1",
+      "artifact_count": 3
+    },
+    {
+      "path": "experiments/outputs/ch05_p044_adaptive_boundary_r1",
+      "artifact_count": 1
+    },
+    {
+      "path": "experiments/outputs/render_record_boundary_fixture_r1",
+      "artifact_count": 1
+    },
+    {
+      "path": "experiments/outputs/exact_base_boundary_measurement_packet_r1",
+      "artifact_count": 1
+    }
+  ],
+  "summary": {
+    "rebuilds": 2,
+    "artifact_groups": 8,
+    "artifacts": 26,
+    "total_bytes": 4862061,
+    "first_root_sha256": "0a04832b6826d6610b39a92fec7e9e7dd311d8d8e9e69fb017366b425d3f3b18",
+    "second_root_sha256": "0a04832b6826d6610b39a92fec7e9e7dd311d8d8e9e69fb017366b425d3f3b18",
+    "byte_identical": true
+  },
+  "artifacts": [
+    {
+      "group": "experiments/outputs/ch05_p036_layout_control_r1",
+      "path": "experiments/outputs/ch05_p036_layout_control_r1/ch05-p036-layout-control-r1.png",
+      "bytes": 15408,
+      "sha256": "a859557289f2fff25271e5ef5ede5687f7ff2edd7346f5c77813b9465e0dbe1d"
+    },
+    {
+      "group": "experiments/outputs/ch05_p036_layout_control_r1",
+      "path": "experiments/outputs/ch05_p036_layout_control_r1/ch05-p036-layout-mask-overlay-r1.png",
+      "bytes": 17974,
+      "sha256": "f78fc47c1625d861088339ee61892564b48342eb9f521e863204d31ab18514a6"
+    },
+    {
+      "group": "experiments/outputs/ch05_p036_layout_control_r1",
+      "path": "experiments/outputs/ch05_p036_layout_control_r1/ch05-p036-target-context-mask-r1.png",
+      "bytes": 2221,
+      "sha256": "a54386313171ec60ec6970442822d391fca7f41615a09ccc625b9deaf7c31467"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-02px-alpha.png",
+      "bytes": 1994,
+      "sha256": "395cddd94ba4ee4dec96aa1d42925f4a7a24df6e4014a043939f8a99adbc990e"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-02px-composite.png",
+      "bytes": 666726,
+      "sha256": "f1497d51c3a9b3f0cfdf7c65d63add2105b71340d5a1070736658be3f4f2e387"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-04px-alpha.png",
+      "bytes": 2025,
+      "sha256": "8cb6ceb5c700cb81b22bf9d5b66805bcfd0dd4f5005bff5a6dc6f8b716bd60db"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-04px-composite.png",
+      "bytes": 666176,
+      "sha256": "99b9ca39446bfee3bc57346943e095a4d5ee6e1a9845c2b4cf0938d40d48beb7"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-08px-alpha.png",
+      "bytes": 2072,
+      "sha256": "1b3d169b685cd2c4e392b0e49fe1c1d97907cfd31ef800deb583dd3bebb1358b"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-08px-composite.png",
+      "bytes": 664676,
+      "sha256": "8f4e8d7e26a4de556b505087b2a02786a591012d5146bd94319c71ed1a922947"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-16px-alpha.png",
+      "bytes": 2149,
+      "sha256": "86e6d756c295c422a5e2766b64eb2b42a385399ae88005ae6d043e348b6ef46c"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-16px-composite.png",
+      "bytes": 662141,
+      "sha256": "d33ac9e63840eb5582407ae0b35577e0717c01be2d53fa186ab9a60c07820fca"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-24px-alpha.png",
+      "bytes": 2223,
+      "sha256": "618a4a18c7445a5d07f535ae96191849213ba5903cc50b615934f0c7b3d4f6d1"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-24px-composite.png",
+      "bytes": 659860,
+      "sha256": "00fe83e0bbc226779ddb1f97aafb7fdd7702846875b47106db02cd7be87dcaad"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-32px-alpha.png",
+      "bytes": 2277,
+      "sha256": "813a24c5acca4fbc3124d74fe74a82be1a6eb1d425cc4afde72f4a21440cce66"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-cosine-inset-32px-composite.png",
+      "bytes": 657902,
+      "sha256": "c5ce0675b4329ff69fd26f9aeddfca1f450fb8eaac5c5b5afdd2ec1c9878182a"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-hard-alpha.png",
+      "bytes": 1982,
+      "sha256": "73e3de888af032e5295bc090b151ec3eb4247f757ba6badf6bc044fd0583e821"
+    },
+    {
+      "group": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2",
+      "path": "experiments/outputs/openai_targeted_repair_boundary_hardening_r2/g07a-hard-composite.png",
+      "bytes": 667452,
+      "sha256": "10314ddb0bcbf15863b10d37ea1b67e224c7e49ac0010e9a280f8254cb3c4059"
+    },
+    {
+      "group": "experiments/outputs/ch05_p036_mask_topology_r1",
+      "path": "experiments/outputs/ch05_p036_mask_topology_r1/ch05-p036-16px-inward-alpha-r1.png",
+      "bytes": 2424,
+      "sha256": "8031e499247c3adea2f145cf0c7d04ca23a0e279af9cf798862b2700eb0c7151"
+    },
+    {
+      "group": "experiments/outputs/ch05_p036_causal_shape_topology_r2",
+      "path": "experiments/outputs/ch05_p036_causal_shape_topology_r2/ch05-p036-causal-shape-alpha-pad08-r2.png",
+      "bytes": 8546,
+      "sha256": "26f47b23714ccb9d5746b7ff71d51639e4b641e0521c1a9b9fdaa3b56d2d4a2e"
+    },
+    {
+      "group": "experiments/outputs/ch05_p036_causal_shape_topology_r2",
+      "path": "experiments/outputs/ch05_p036_causal_shape_topology_r2/ch05-p036-causal-shape-mask-pad08-r2.png",
+      "bytes": 4928,
+      "sha256": "f353422e9dc6f66a5b855a7962f11215fec62c96ad57f4d2611365d497aa9069"
+    },
+    {
+      "group": "experiments/outputs/ch05_p044_fixed_boundary_stress_r1",
+      "path": "experiments/outputs/ch05_p044_fixed_boundary_stress_r1/ch05-p044-blade-twine-support-r1.png",
+      "bytes": 2254,
+      "sha256": "3d7f5f5541df28237f79f7954f47315ee8c8c9dbb0f8e98d4d1a5894d17f65b6"
+    },
+    {
+      "group": "experiments/outputs/ch05_p044_fixed_boundary_stress_r1",
+      "path": "experiments/outputs/ch05_p044_fixed_boundary_stress_r1/ch05-p044-fixed-16px-alpha-r1.png",
+      "bytes": 2749,
+      "sha256": "c32a03e31d29abf2c03cf62411b357cff1562b3cf9ae1c82f88b3f19c0635520"
+    },
+    {
+      "group": "experiments/outputs/ch05_p044_fixed_boundary_stress_r1",
+      "path": "experiments/outputs/ch05_p044_fixed_boundary_stress_r1/ch05-p044-protected-hands-r1.png",
+      "bytes": 2402,
+      "sha256": "2b215754eb7ccefef02f8266198dd4990da1b8db0d993ff54532bc841866a9f2"
+    },
+    {
+      "group": "experiments/outputs/ch05_p044_adaptive_boundary_r1",
+      "path": "experiments/outputs/ch05_p044_adaptive_boundary_r1/ch05-p044-selected-05px-alpha-r1.png",
+      "bytes": 2597,
+      "sha256": "afafe24474bc9dec666aa9c73419eb412fe4babfcfdb224a3bd2c84e6f28fe40"
+    },
+    {
+      "group": "experiments/outputs/render_record_boundary_fixture_r1",
+      "path": "experiments/outputs/render_record_boundary_fixture_r1/p036-synthetic-repair-candidate-r1.png",
+      "bytes": 20374,
+      "sha256": "5614dc70d2bccae5005f07afb17d9a39b41bd06acfe9facc3b2d6ab601b48719"
+    },
+    {
+      "group": "experiments/outputs/exact_base_boundary_measurement_packet_r1",
+      "path": "experiments/outputs/exact_base_boundary_measurement_packet_r1/p036-synthetic-seam-review-presentation-r1.png",
+      "bytes": 120529,
+      "sha256": "3d78d5b998b958837b5fad90c97020c21e6b7d4148c4bdd4b3d80af4a5b6b570"
+    }
+  ],
+  "nondeterministic_exclusions": [
+    "suite started_at and per-check elapsed_ms",
+    "compiler benchmark timing samples",
+    "provider-generated G07 candidates and provider response records",
+    "human-review decisions and minutes",
+    "external runtime/model artifacts"
+  ],
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "models_downloaded": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "This proves exact rebuilds only for the eight enumerated ignored local artifact groups.",
+    "It does not claim provider-output reproducibility, cross-platform PNG identity, visual quality, or art acceptance.",
+    "Timing and timestamp records are excluded rather than normalized."
+  ]
+}

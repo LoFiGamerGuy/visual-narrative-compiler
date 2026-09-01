@@ -56,6 +56,7 @@ CHECKS = [
     ("repair_outcome_finalizer", [PYTHON, "src/north_garden/validate_repair_outcome_finalizer.py"]),
     ("production_cost_ledger_r3", [PYTHON, "src/north_garden/validate_ch05_production_cost_ledger_r3.py"]),
     ("instrumentation_runtime", [PYTHON, "src/north_garden/validate_instrumentation_runtime.py"]),
+    ("selected_route_artifact_rebuild", [PYTHON, "src/north_garden/validate_selected_route_artifact_rebuild.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

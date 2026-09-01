@@ -824,3 +824,10 @@
 - Observed local runtime is 80.178 seconds: 79.806 seconds for nested r2 and 0.371 seconds for five extensions.
 - The gate embeds the unchanged frontier: G07 0/20; CH05 zero inputs/cap/outcomes; P036 four root/nine total blockers; next external action null.
 - Ledger r13 records 40 local zero-cost milestones and remains disabled/no-cap/$0. Network/provider/upload/download activity remains zero.
+
+## 2026-09-01 - safe-source release r3
+
+- Captured already-pushed commit `00498df557e56889ce161095572fcf1d09d95498` and pinned safe-source r2 by exact hash.
+- Inventoried 412 tracked paths / 8,791,840 bytes at tree `3052f539571c7f1aef9072f8b3af9b4f4a4cc6d1`; canonical root is `a3a0c65c00a8bab78fc25f3f51f04a92655f1f08913de0f94b65e89c0fe3e618`.
+- Exactly two controls and zero generated/prohibited/oversize paths are tracked; 13/13 mutations fail under ADR-0074. Current scope/origin parity pass and unrelated untracked material stays excluded.
+- Ledger r14 records 41 local zero-cost milestones and remains disabled/no-cap/$0.

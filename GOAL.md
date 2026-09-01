@@ -126,7 +126,9 @@ The P036 prerequisite authority-lattice milestone is complete. All 16 subsets we
 
 The hardening-release gate r3 milestone is complete. The immutable 60-check r2 gate plus five current handoff/lattice/ledger extensions pass 65/65 in an observed 80.178 seconds; 16/16 mutations fail. G07 remains 0/20, CH05 inputs/cap/outcomes remain zero, P036 remains four root/nine total blockers, and next external action remains null under ADR-0073.
 
-The active bounded milestone is safe-source release r3. Pin the latest already-pushed commit after the handoff and lattice work, inventory the complete tracked source/evidence tree, and re-prove exclusion of generated/prohibited/unrelated local material before the final autonomous handoff.
+The safe-source release r3 milestone is complete. Pushed commit `00498df5…5498` contains 412 paths / 8,791,840 bytes at tree `3052f539…cc6d1` and inventory root `a3a0c65c…3e618`; two controls and zero generated/prohibited/oversize paths are tracked. Thirteen/thirteen mutations fail and unrelated local material remains excluded under ADR-0074.
+
+The active bounded milestone is a current evidence-lineage index. Build a hash-bound, machine-validated map of every latest authoritative record, its superseded revision chain, reproducer command, and human/authority boundary so reviewers do not have to infer current state from stale cross-references.
 
 ### Authority and data boundaries
 

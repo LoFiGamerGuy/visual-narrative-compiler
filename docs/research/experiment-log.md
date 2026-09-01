@@ -475,3 +475,10 @@
 - Planned role-proxy counts match 2/2/0/2/0/0; total role proxies are six. Story geometry occupies exactly zero pixels inside every compiled lettering safe zone.
 - Color-token recurrence verifies bell P033–P034, tin P035–P037, and map P037–P038 dependency plumbing. This is not character, acting, style, or visual-continuity evidence; all human minutes remain null and accepted panels remain zero under ADR-0027.
 - Provider requests/uploads/cost are 0/0/$0. The controls are not approved bases or authorized provider inputs.
+
+## 2026-09-01 - CH05 hash-chained panel run ledgers
+
+- Added append-only SHA-256 lifecycle ledgers for P033–P038; all six stop at `BASE_APPROVAL_PENDING` because no approved base raster exists. Executable panels, provider requests/uploads, accepted panels, and external cost remain 0/0/0/0/$0; human minutes remain null.
+- A synthetic full lifecycle validates base and mask approval, exact external scope, aggregate reservation, submission, RenderRecord plus cost reconciliation, timed hard-assertion review, and acceptance without invoking a provider.
+- Eighteen of eighteen adversarial transition, chain-tamper, and aggregate-binding mutations fail. Missing/released/mismatched reservations, adapter/request/cost mismatches, skipped gates, absent RenderRecords, untimed decisions, and failed-assertion acceptance cannot advance.
+- ADR-0028 keeps `ComicPanelPlan`, lifecycle ledger, `RenderRecord`, and future `AnimationShotPlan / E-Conte` as distinct records.

@@ -36,7 +36,9 @@ The chapter-scale input-instrumentation milestone is complete without a new exte
 
 The deterministic sequence portion of the current milestone is complete: 6/6 output pairs are hash-stable across consecutive builds, all planned role counts match, story occupancy has zero lettering-safe-zone pixels, and three continuity-token chains validate. ADR-0027 limits these results to compiler evidence, not visual continuity or art acceptance.
 
-The active bounded milestone is now adversarial per-panel run-state validation. It must prove that partial approvals, self-declared external scope, missing aggregate reservation, missing/invalid RenderRecords, and untimed acceptance cannot advance a panel. It exits with a hash-chained P033–P038 preflight ledger that remains at base-acquisition pending and a measured mutation suite. Preserve `AnimationShotPlan / E-Conte` as null/separate and keep every provider candidate unaccepted until authorized human review records minutes and decisions.
+The adversarial run-state milestone is complete. Six hash-chained P033–P038 ledgers remain at `BASE_APPROVAL_PENDING`; a full synthetic lifecycle validates, while 18/18 illegal transitions, hash tampers, and aggregate-reservation binding mutations fail. ADR-0028 requires exact reservation/adapter/request/cost reconciliation before a RenderRecord can advance to timed assertion review and acceptance.
+
+The active bounded milestone is budget-domain separation and local base-candidate intake. The unused G07 bakeoff allowance must never become CH05 production authority. Add a separately disabled production-cost ledger/preflight, then create a local-only candidate-intake record that hashes and classifies a raster without approving it. It exits when the deterministic controls can enter candidate intake yet remain unapproved/non-executable, and when any CH05 paid adapter fails before submission absent a distinct production cap and exact upload authority.
 
 ### Authority and data boundaries
 

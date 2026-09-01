@@ -190,3 +190,5 @@ This is compiler/readiness evidence, not rendered coverage or a benchmark score.
 The follow-on P033–P038 no-network packet remains 0/6 executable with 36 structured, untimed review tasks. Three source-derived continuity chains validate, while 10/10 malformed/partial gate mutations are rejected. These are compiler controls, not rendered-panel or quality scores.
 
 The deterministic sequence-control follow-up reproduces 13/13 pinned output hashes across consecutive builds, matches role counts 2/2/0/2/0/0, and has 0 story-occupancy pixels in lettering safe zones. Three continuity-color chains pass. ADR-0027 excludes all of these from visual-continuity and art-quality scoring.
+
+The lifecycle-ledger control leaves 6/6 panels at base-approval pending and rejects 18/18 illegal transition, chain-tamper, and aggregate reservation-binding mutations. This is production-state integrity evidence, not a renderer benchmark or accepted-panel result.

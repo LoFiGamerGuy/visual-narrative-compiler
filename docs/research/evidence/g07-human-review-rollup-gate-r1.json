@@ -1,0 +1,73 @@
+{
+  "accepted_candidate_subjects": 0,
+  "actual_decisions": 0,
+  "aggregation_boundary": "No composite score, weighted rank, or automatic route selection. Preserve dimensions and limitations separately.",
+  "deblinding_mapping_root_sha256": "611ad4881eda12df9a3605b00ae6552e10c96ce8efd6412fce51056b885bf5f9",
+  "human_arm_results": null,
+  "human_minutes": null,
+  "instrumentation_path": "experiments/results/g07-provider-bakeoff-instrumentation-r1.json",
+  "instrumentation_sha256": "dc1b13cb85a8ce62ed729457a396cbaa11b22bc8051c5e54023769b428279150",
+  "measured_nonhuman_arm_evidence": {
+    "bfl_flux_2": {
+      "diagnostic_limit": "Full-frame raster drift after resize is not semantic correctness or reproducibility.",
+      "mean_elapsed_seconds": 18.647,
+      "raster_diagnostics": {
+        "independent_repeat_changed_pixel_fraction_gt_8": 0.997760137,
+        "no_change_changed_pixel_fraction_gt_8": 0.999184926,
+        "target_change_changed_pixel_fraction_gt_8": 0.999717077
+      },
+      "required_candidate_cost_usd": "0.240000",
+      "required_candidates": 4,
+      "total_elapsed_seconds": 74.587
+    },
+    "gemini_3_1_flash_image": {
+      "diagnostic_limit": "Full-frame raster drift after resize is not semantic correctness or reproducibility.",
+      "mean_elapsed_seconds": 11.759,
+      "raster_diagnostics": {
+        "independent_repeat_changed_pixel_fraction_gt_8": 0.710444904,
+        "no_change_changed_pixel_fraction_gt_8": 0.995949143,
+        "target_change_changed_pixel_fraction_gt_8": 0.093763994
+      },
+      "required_candidate_cost_usd": "0.268756",
+      "required_candidates": 4,
+      "total_elapsed_seconds": 47.036
+    },
+    "grok_imagine_image_2": {
+      "diagnostic_limit": "Full-frame raster drift after resize is not semantic correctness or reproducibility.",
+      "mean_elapsed_seconds": 12.506,
+      "raster_diagnostics": {
+        "independent_repeat_changed_pixel_fraction_gt_8": 0.346187554,
+        "no_change_changed_pixel_fraction_gt_8": 0.496000331,
+        "target_change_changed_pixel_fraction_gt_8": 0.631918762
+      },
+      "required_candidate_cost_usd": "0.280000",
+      "required_candidates": 4,
+      "total_elapsed_seconds": 50.025
+    },
+    "openai_gpt_image_2": {
+      "diagnostic_limit": "Full-frame raster drift after resize is not semantic correctness or reproducibility.",
+      "mean_elapsed_seconds": 32.087,
+      "raster_diagnostics": {
+        "independent_repeat_changed_pixel_fraction_gt_8": 0.763252894,
+        "no_change_changed_pixel_fraction_gt_8": 0.51421229,
+        "target_change_changed_pixel_fraction_gt_8": 0.107763926
+      },
+      "required_candidate_cost_usd": "0.198621",
+      "required_candidates": 4,
+      "total_elapsed_seconds": 128.347
+    }
+  },
+  "record_id": "g07-human-review-rollup-gate-r1",
+  "record_type": "G07HumanReviewRollupGate",
+  "required_decisions": 20,
+  "review_packet_sha256": "4b1e5f0c4c53688df838c1a6f28a4afa548ac3fb5159a93c5531f23925478161",
+  "schema_version": "1.0",
+  "selection_state": {
+    "automatic_reselection": false,
+    "existing_engineering_hardening_route": "openai_gpt_image_2",
+    "human_review_selection_change": null,
+    "source_decision": "ADR-0025"
+  },
+  "source_vault_root_sha256": "e84b04029ca14b9a40dbdcd2e6d2937c322bf019df2191d032169e062696d3ab",
+  "state": "PENDING_COMPLETE_ELIGIBLE_HUMAN_SESSION"
+}

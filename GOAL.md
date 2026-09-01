@@ -58,7 +58,9 @@ The G07 evidence-restoration milestone is complete. A deterministic ignored loca
 
 The blinded G07 human-review instrumentation milestone is complete. Sixteen neutral PNG presentations preserve exact decoded RGB content and four provider-hidden repeat pairs cover the independent samples. Packet root `4b1e5f0c…478161` requires 20 append-only timed decisions across role binding/order/count, shared set/blocking, target/no-change behavior, side effects, and repeat limitations. Thirteen/thirteen identity-leak, ordering, coverage, timing, hash, and assertion mutations fail. Actual decisions remain 0/20, human minutes null, accepted subjects zero under ADR-0038.
 
-The active bounded milestone is fail-closed G07 review rollup. Build a deblinding compiler that accepts only a complete, eligible, exact-packet human session, preserves per-assertion and failure-tag evidence, joins measured cost/latency/drift without inventing a composite score, and emits no real arm result while review is pending. Prove fixture, incomplete, reordered, or mapping-mismatched sessions cannot affect the selected-route evidence.
+The fail-closed G07 review-rollup milestone is complete. Four/four arms and 16/16 candidates bind to exact cost, latency, and three drift dimensions. Only a complete eligible exact-packet session with the vault-derived mapping root can add assertion/tag results. Nine/nine pending, fixture, coverage, and mapping mutations fail. Pending state remains 0/20 decisions, null human minutes, zero accepted, and null human arm results; no composite score, rank, or automatic route change exists under ADR-0039.
+
+The active bounded milestone is selected-route mask-boundary hardening. Using only existing local selected-route hardening evidence, compare deterministic compositing boundary treatments on exact hashes; measure exterior preservation, boundary discontinuity, affected area, and lettering-safe-zone overlap; and select at most one compositor policy by measured repair mechanics. Do not call a provider or promote the rectangular smoke composite to accepted art.
 
 ### Authority and data boundaries
 

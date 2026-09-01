@@ -555,3 +555,11 @@
 - Candidate assertions cover proxy role binding/order/count, shared table/blocking, contact, side effects/text, target-change preservation, and strict no-change observation. Repeat assertions cover count/order/blocking consistency and explicit uncontrolled-variation notation.
 - Append-only timer events calculate minutes. Thirteen/thirteen identity leak, reorder, missing coverage, candidate hash, case/pair binding, assertion, manual-minute, and fixture mutations fail.
 - No real reviewer/session/decision was created: decisions 0/20, human minutes null, accepted subjects zero. Consolidated offline validation passes 26/26 in 5.326 seconds.
+
+## 2026-09-01 - fail-closed G07 human-review rollup
+
+- Bound all four arms and 16 candidates to the vault plus exact measured required-candidate cost, total/mean latency, independent-repeat drift, target-change drift, and no-change drift.
+- The deblinding compiler accepts only a complete eligible exact-packet session whose hidden mapping root derives from the vault. It preserves every assertion, failure tag, candidate decision, and repeat-pair decision by arm.
+- Pending evidence deliberately contains no human arm result, composite score, automatic ranking, or selection change. Current state is 0/20 decisions, null human minutes, zero accepted candidates.
+- Nine/nine fabricated pending results, metric/hash drift, adapter removal, fixture leakage, incomplete coverage, and mapping mutations fail. Synthetic compilation is explicitly validation-only.
+- Consolidated offline validation passes 27/27 checks in 15.658 seconds; the increased local runtime is dominated by repeated neutral-presentation verification, not provider activity.

@@ -39,6 +39,7 @@ CHECKS = [
     ("g07_evidence_vault", [PYTHON, "src/north_garden/validate_g07_evidence_vault.py"]),
     ("g07_evidence_archive", [PYTHON, "src/north_garden/validate_g07_evidence_archive.py"]),
     ("g07_blinded_review", [PYTHON, "src/north_garden/validate_g07_blinded_review.py"]),
+    ("g07_review_rollup", [PYTHON, "src/north_garden/validate_g07_review_rollup.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

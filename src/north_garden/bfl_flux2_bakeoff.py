@@ -17,7 +17,7 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
-import certifi
+import truststore
 
 from envfile import load_project_env
 from openai_gpt_image2_bakeoff import CAP_ENV, ROOT, load_plan, prompt_for, sha256
@@ -33,7 +33,9 @@ CONTROL_URL_ENVS = {
     "g07a-control": "NORTH_GARDEN_BFL_G07A_CONTROL_URL",
     "g07a-nochange-reference": "NORTH_GARDEN_BFL_G07A_NOCHANGE_CONTROL_URL",
 }
-SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
+# Use the Windows/macOS/Linux native trust store.  This preserves certificate
+# verification when an organization supplies a locally trusted inspection CA.
+SSL_CONTEXT = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
 
 
 def stamp() -> str:

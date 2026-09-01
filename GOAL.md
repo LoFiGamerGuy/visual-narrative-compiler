@@ -66,7 +66,9 @@ The P036 mask-topology compatibility milestone is complete. The current mask is 
 
 The P036 causal-shape topology milestone is complete. Five context paddings were measured with the fixed 16-pixel boundary. Eight pixels is the narrowest predeclared-rule pass: 42.107% connected union core; plank/reach/hand/tin retain 45.468%/44.470%/48.692%/38.384% core; rectangularity 0.215863 exercises concavity and the 42-pixel reach exercises a thin feature; exterior and lettering change remain zero. Ten/ten mutations fail. ADR-0042 keeps the outputs abstract, unapproved, and unauthorized for provider input.
 
-The active bounded milestone is selected-route repair-policy integration without proxy promotion. Compile the measured 16-pixel boundary and 8-pixel causal-context findings into a versioned local policy tied to P036's ComicPanelPlan and hard assertion, then prove the abstract mask cannot satisfy base/mask approval, external scope, reservation, or upload gates. Real offline preflight must remain blocked with no request body/client/executor.
+The selected-route repair-policy non-promotion milestone is complete. The versioned policy binds P036/`p036_core_read`, OpenAI snapshot/endpoint, 16-pixel boundary, 8-pixel context, exact exterior, and byte-identical no-change. All three abstract controls are explicitly ineligible as production bases/masks/uploads. Real preflight retains four blockers with no envelope/body/client/executor; non-fixture proxy promotion fails; 11/11 mutations fail under ADR-0043.
+
+The active bounded milestone is immutable P036 repair-readiness revision r2. Compile a new production readiness record that supersedes but does not rewrite r1, pins the measured policy and evidence roots, reports the exact four real blockers and zero production activity, and keeps ComicPanelPlan distinct from null AnimationShotPlan/E-Conte. Validate that proxy mechanics cannot be represented as approved inputs or a request-capable state.
 
 ### Authority and data boundaries
 

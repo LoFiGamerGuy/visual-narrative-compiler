@@ -14,10 +14,12 @@ from preflight_openai_p036_submission import (
     MODEL,
     PANEL_ID,
     PLAN_REVISION_ID,
+    POLICY,
     ROOT,
     compile_offline_preflight,
     exact_scope,
     input_package_sha256,
+    repair_policy_errors,
 )
 
 
@@ -110,6 +112,11 @@ def main() -> int:
         failures.append("default preflight constructed or submitted a request")
     if default["network"]["external_cost_usd"] != "0.000000" or default["production_budget_preflight"]["passed"]:
         failures.append("default preflight cost/budget state is invalid")
+    policy = json.loads(POLICY.read_text(encoding="utf-8"))
+    if repair_policy_errors(policy):
+        failures.append("tracked local repair policy is invalid")
+    if default["sources"].get("local_repair_policy", {}).get("sha256") != sha256(POLICY):
+        failures.append("default preflight does not bind local repair policy")
 
     tree = ast.parse(SOURCE.read_text(encoding="utf-8"))
     imported = {
@@ -134,6 +141,13 @@ def main() -> int:
     if fixture["selected_route"]["model_snapshot"] != MODEL:
         failures.append("synthetic fixture selected-route pin changed")
 
+    # The same abstract raster fixtures categorically fail outside validation-fixture mode.
+    proxy_attempt = compile_offline_preflight(
+        base=base, mask=mask, authority=authority, reservation=reservation, validation_fixture_mode=False
+    )
+    if "PROXY_CONTROL_INELIGIBLE_AS_PRODUCTION_INPUT" not in proxy_attempt["blockers"] or proxy_attempt["request_envelope"] is not None:
+        failures.append("abstract proxy controls self-promoted into production inputs")
+
     mutations = [
         ("base hash", lambda b, m, a, r: b["raster"].update(sha256="0" * 64), "APPROVED_BASE_RASTER_MISSING_OR_INVALID"),
         ("mask overlap", lambda b, m, a, r: m["mask"].update(lettering_safe_zone_overlap_fraction=0.1), "APPROVED_REPAIR_MASK_MISSING_OR_INVALID"),
@@ -149,11 +163,23 @@ def main() -> int:
         if expected not in result["blockers"] or result["request_envelope"] is not None:
             failures.append(f"offline preflight mutation passed: {label}")
 
+    policy_mutations = [
+        ("policy state", lambda item: item.update(state="AUTHORIZED")),
+        ("policy route", lambda item: item["selected_route"].update(model_snapshot="wrong")),
+        ("policy proxy", lambda item: item["proxy_controls"][0].update(external_upload_authorized=True)),
+        ("policy executor", lambda item: item["production_gates"].update(request_body_or_executor_implemented=True)),
+    ]
+    for label, mutate in policy_mutations:
+        changed = copy.deepcopy(policy)
+        mutate(changed)
+        if not repair_policy_errors(changed):
+            failures.append(f"repair policy mutation passed: {label}")
+
     for failure in failures:
         print(f"failure: {failure}")
     if failures:
         return 1
-    print("0 failures, 0 warnings (4 real blockers; synthetic metadata envelope only; no client/body/network; 6/6 mutations blocked)")
+    print("0 failures, 0 warnings (4 real blockers; proxy non-promotion; synthetic metadata envelope only; no client/body/network; 11/11 mutations blocked)")
     return 0
 
 

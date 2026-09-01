@@ -220,3 +220,5 @@ Selected-route boundary hardening compares seven inward-only compositor variants
 P036 current-mask topology retains 79.032% core and 1/1 component under the 16-pixel policy with zero exterior/lettering changes, but the source mask is a perfect rectangle and exercises no thin, concave, holed, or multi-component topology. The narrative-topology assertion is therefore not tested, not passed.
 
 The P036 causal-shape control selects 8px context padding from five variants under the fixed 16px boundary: 42.107% connected union core, 4/4 causal features above 15% core retention, rectangularity 0.215863, and zero exterior/lettering change; 10/10 mutations fail. This advances abstract repair topology mechanics only, not panel art or mask approval.
+
+The local repair policy pins those mechanics but leaves real P036 preflight at four blockers and zero request capability. Proxy controls fail production-input promotion; 11/11 policy/input/authority/reservation mutations fail. This is policy/gate coverage, not a render or accepted panel.

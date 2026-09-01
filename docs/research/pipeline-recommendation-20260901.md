@@ -56,6 +56,8 @@ That first P036 topology gate reveals the existing target-context mask is a fill
 
 The follow-on causal-shape control exercises a concave plank/reach/hand/tin union and selects 8px context padding by connectivity/core/lettering rules. All four labeled features retain useful fully replaced cores with exact exterior mechanics. This supports a versioned local repair-policy contract, but the proxy mask remains categorically ineligible as a production mask or upload.
 
+That contract is now versioned and bound into offline preflight. It preserves the four independent production gates and blocks proxy promotion, so the measured mechanics improve implementation readiness without changing the absence of approved CH05 inputs, upload scope, production budget, or executor.
+
 The predeclared low-denoise and strength matrices plus a paired d1.0/strength-0.8 replication now close this route: target edit passed only 1/2 observed seeds and target no-change passed 0/2. ADR-0014 rejects mask-boundary optimization until a different renderer mechanism proves both assertions.
 
 The target/no-change matrices and paired replication are now complete. ADR-0014 rejects further same-route mask-boundary tuning; ADR-0015 requires a distinct renderer mechanism. The current recommendation is in `docs/research/renderer-decision-memo-20260901.md`.

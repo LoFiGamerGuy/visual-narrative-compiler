@@ -13,6 +13,7 @@ from production_budget import DOMAIN, ProductionBudgetError, preflight_productio
 ROOT = Path(__file__).resolve().parents[2]
 READINESS = ROOT / "production/comic/repair-readiness/ch05-p036-openai-r1.json"
 PLANS = ROOT / "production/comic/ch05-sc01-panel-plans-v1.json"
+POLICY = ROOT / "config/ch05-openai-targeted-repair-policy-r1.json"
 OUT = ROOT / "experiments/results/ch05-p036-openai-offline-preflight-r1.json"
 ADAPTER = "openai_gpt_image_2"
 PROVIDER = "OpenAI API"
@@ -46,6 +47,48 @@ def exact_scope() -> dict:
     }
 
 
+def repair_policy_errors(policy: dict) -> list[str]:
+    errors = []
+    if policy.get("record_type") != "ComicTargetedRepairPolicy" or policy.get("schema_version") != "1.0":
+        errors.append("policy_schema_invalid")
+    if policy.get("state") != "LOCAL_MECHANICS_POLICY_PRODUCTION_INPUTS_AND_EXECUTION_NOT_AUTHORIZED":
+        errors.append("policy_state_invalid")
+    plan = policy.get("comic_panel_plan", {})
+    if plan.get("panel_id") != PANEL_ID or plan.get("plan_revision_id") != PLAN_REVISION_ID or plan.get("animation_shot_plan") is not None:
+        errors.append("policy_plan_binding_invalid")
+    route = policy.get("selected_route", {})
+    if route.get("adapter_id") != ADAPTER or route.get("model_snapshot") != MODEL or route.get("endpoint") != ENDPOINT:
+        errors.append("policy_route_binding_invalid")
+    mechanics = policy.get("mechanics", {})
+    if mechanics.get("boundary_policy") != "cosine-inset-16px" or mechanics.get("causal_context_padding_px") != 8:
+        errors.append("policy_mechanics_invalid")
+    for field in ("boundary_evidence", "causal_shape_evidence"):
+        evidence = mechanics.get(field, {})
+        path = ROOT / str(evidence.get("path", "MISSING"))
+        if not path.is_file() or evidence.get("sha256") != sha256(path):
+            errors.append(f"policy_{field}_invalid")
+    controls = policy.get("proxy_controls", [])
+    if len(controls) != 3:
+        errors.append("policy_proxy_inventory_invalid")
+    for control in controls:
+        path = ROOT / str(control.get("path", "MISSING"))
+        if not path.is_file() or control.get("sha256") != sha256(path):
+            errors.append("policy_proxy_hash_invalid")
+        if control.get("eligible_as_production_base") or control.get("eligible_as_production_mask") or control.get("external_upload_authorized"):
+            errors.append("policy_proxy_self_promotion")
+    gates = policy.get("production_gates", {})
+    for gate in (
+        "approved_panel_specific_base_required", "approved_panel_specific_mask_required",
+        "exact_external_upload_authority_required", "distinct_ch05_production_reservation_required",
+        "timed_human_review_required",
+    ):
+        if gates.get(gate) is not True:
+            errors.append(f"policy_gate_disabled:{gate}")
+    if gates.get("request_body_or_executor_implemented") is not False:
+        errors.append("policy_executor_enabled")
+    return sorted(set(errors))
+
+
 def compile_offline_preflight(
     *,
     base: dict | None,
@@ -55,7 +98,11 @@ def compile_offline_preflight(
     validation_fixture_mode: bool = False,
 ) -> dict:
     readiness = json.loads(READINESS.read_text(encoding="utf-8"))
+    policy = json.loads(POLICY.read_text(encoding="utf-8"))
     blockers = []
+    policy_errors = repair_policy_errors(policy)
+    if policy_errors:
+        blockers.append("LOCAL_REPAIR_POLICY_MISSING_OR_INVALID")
     if readiness["comic_panel_plan"]["panel_id"] != PANEL_ID or readiness["comic_panel_plan"]["plan_revision_id"] != PLAN_REVISION_ID:
         blockers.append("READINESS_PLAN_BINDING_MISMATCH")
     selected = readiness["selected_mechanism"]
@@ -74,6 +121,16 @@ def compile_offline_preflight(
     )
     if mask_errors:
         blockers.append("APPROVED_REPAIR_MASK_MISSING_OR_INVALID")
+
+    proxy_errors = []
+    if not validation_fixture_mode:
+        proxy_hashes = {item["sha256"] for item in policy.get("proxy_controls", [])}
+        if base and base.get("raster", {}).get("sha256") in proxy_hashes:
+            proxy_errors.append("abstract_proxy_used_as_base")
+        if mask and mask.get("mask", {}).get("sha256") in proxy_hashes:
+            proxy_errors.append("abstract_proxy_used_as_mask")
+    if proxy_errors:
+        blockers.append("PROXY_CONTROL_INELIGIBLE_AS_PRODUCTION_INPUT")
 
     package_hash = None
     if not base_errors and not mask_errors:
@@ -136,6 +193,12 @@ def compile_offline_preflight(
             },
             "authority_record_id": authority["record_id"],
             "production_reservation_id": reservation["reservation_id"],
+            "local_repair_policy": {
+                "policy_id": policy["policy_id"],
+                "sha256": sha256(POLICY),
+                "boundary_policy": policy["mechanics"]["boundary_policy"],
+                "causal_context_padding_px": policy["mechanics"]["causal_context_padding_px"],
+            },
             "request_body": None,
             "network_submission_implemented": False,
         }
@@ -150,6 +213,7 @@ def compile_offline_preflight(
         "sources": {
             "repair_readiness": {"path": READINESS.relative_to(ROOT).as_posix(), "sha256": sha256(READINESS)},
             "comic_panel_plans": {"path": PLANS.relative_to(ROOT).as_posix(), "sha256": sha256(PLANS)},
+            "local_repair_policy": {"path": POLICY.relative_to(ROOT).as_posix(), "sha256": sha256(POLICY)},
         },
         "selected_route": {"adapter_id": ADAPTER, "provider": PROVIDER, "model_snapshot": MODEL, "endpoint": ENDPOINT},
         "blockers": blockers,
@@ -158,6 +222,8 @@ def compile_offline_preflight(
             "mask_gate_errors": mask_errors,
             "authority_errors": authority_errors,
             "reservation_errors": reservation_errors,
+            "repair_policy_errors": policy_errors,
+            "proxy_control_errors": proxy_errors,
         },
         "panel_input_package_sha256": package_hash,
         "request_envelope": envelope,

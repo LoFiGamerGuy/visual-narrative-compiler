@@ -65,3 +65,7 @@ The selected OpenAI mechanism's registry status is unchanged by CH05 compiler ha
 ## G07 local evidence integrity boundary — 2026-09-01
 
 The hash-only evidence manifest validates all 19 provider records and 16 candidates without changing any provider/model/license status above. Its vault root is `e84b0402…6d3ab`; generated pixels and runtime records remain ignored local evidence. Exact-byte retention is neither commercial clearance nor output acceptance, and BFL remains closed to every input beyond the two published hash-pinned fictional controls.
+
+## Selected-route local repair policy boundary — 2026-09-01
+
+The P036 local mechanics policy does not change OpenAI's registry status or commercial-clearance state. It binds the already selected snapshot/endpoint and local compositor evidence only; it contains no request executor, production input approval, upload authority, or production budget. Abstract proxy controls are explicitly ineligible for external submission.

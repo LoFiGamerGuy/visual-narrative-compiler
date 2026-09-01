@@ -1,0 +1,15 @@
+{
+  "record_type":"AssetRegistry","schema_version":"1.0","record_id":"ng-assets-ch01-r1",
+  "assets":[
+    {"asset_id":"ng-set-kitchen-night-legacy-r1","kind":"set_plate","path":"ComfyUI/output/rm_table_00001_.png","sha256":"78121b674fd8c5526c7ddfd4ba72c53a8186a54a6be5d0d91421be3ea6c784d4","spatial_authority":"calibrated_2d_legacy_only"},
+    {"asset_id":"ng-actor-soren-seated-legacy-r1","kind":"actor_plate","path":"ComfyUI/output/pg_pl_dio_sit_00002_.png","sha256":"f96608388d6ceeed7c619dec184ec8435ac0770592f4d7a6d80f2ff01fcb5c6a","limitations":["embedded_furniture","not_pose_or_prop_separable","sensitive_adult_likeness_local_only"]},
+    {"asset_id":"ng-actor-sigrid-seated-legacy-r1","kind":"actor_plate","path":"ComfyUI/output/pg_pl_thal_sit_00002_.png","sha256":"6b267a044524851784a628641f4ea1fb3737d0415b8dddab8b2f4f24e4926bce","limitations":["embedded_furniture","not_pose_or_prop_separable","sensitive_adult_likeness_local_only"]}
+  ],
+  "inventory_notes": [
+    {"source_family":"pg_pl_dio_look","canonical_candidate":"pg_pl_dio_look_00002_.png","sha256":"43c5a7f945e185a83f0913afea8fd016830b5d90a6ec64ed513904d2afffaa90","role":"SOREN","declared_pose":"looking/leaning","embedded_content":"scene furniture present","matte_separability":"legacy flat-plate key only; not verified clean","usable_for":"existing p006/p008 compositions only","not_usable_for":"generic seated-at-table control"},
+    {"source_family":"pg_pl_dio_sit","canonical_candidate":"pg_pl_dio_sit_00002_.png","sha256":"f96608388d6ceeed7c619dec184ec8435ac0770592f4d7a6d80f2ff01fcb5c6a","role":"SOREN","declared_pose":"seated/leaning","embedded_content":"table and heater present","matte_separability":"legacy flat-plate key only; embedded prop makes pose nonseparable","usable_for":"specific calibrated legacy composition","not_usable_for":"G07 seated-at-common-table control"},
+    {"source_family":"pg_pl_thal_door","canonical_candidate":"pg_pl_thal_door_00002_.png","sha256":"d8b01b89949bfdc77e465a2f13bb329cede3d9aae79a780cf27720a55dedcfe3","role":"SIGRID","declared_pose":"standing at door","embedded_content":"door-context framing","matte_separability":"legacy flat-plate key only; not verified clean","usable_for":"existing p006/p010 compositions","not_usable_for":"seated table assertions"},
+    {"source_family":"pg_pl_thal_sit","canonical_candidate":"pg_pl_thal_sit_00002_.png","sha256":"6b267a044524851784a628641f4ea1fb3737d0415b8dddab8b2f4f24e4926bce","role":"SIGRID","declared_pose":"seated/crouched","embedded_content":"none independently catalogued; pose is not table-specific","matte_separability":"legacy flat-plate key only; not verified clean","usable_for":"specific calibrated legacy composition","not_usable_for":"G07 seated-at-common-table control"}
+  ],
+  "inventory_decision":"No existing adult actor plate is verified pose-, prop-, and camera-separable for a general two-person kitchen assertion. All remain sensitive adult-likeness local-only assets."
+}

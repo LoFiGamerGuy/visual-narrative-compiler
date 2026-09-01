@@ -1,0 +1,12 @@
+{
+  "record_type": "EditionManifest",
+  "schema_version": "2.0",
+  "edition_id": "north-garden-research-edition-002",
+  "supersedes_edition_id": "north-garden-research-edition-001",
+  "publication_state": "INTERNAL_RESEARCH_ACCEPTED_NOT_PUBLISHED",
+  "comic_plan_collection": "production/comic/ch01-sc01-panel-plans-v2.json",
+  "panel_revision_collection": "production/comic/panel-revisions/ch01-sc01-initial-import-r1.json",
+  "selected_panel_revision_ids": ["ng-ch01-sc01-p006-art-r1", "ng-ch01-sc01-p007-art-r1", "ng-ch01-sc01-p008-art-r1", "ng-ch01-sc01-p010-art-r1"],
+  "migration_reason": "Separates stable panel identities from revisions without modifying the archived v1 plan, v1 edition, or selected raster bytes.",
+  "revision_rule": "Published/selected revisions are immutable; corrections create a new PanelRevision and a new edition manifest selection."
+}

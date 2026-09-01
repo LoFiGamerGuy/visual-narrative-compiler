@@ -1,0 +1,331 @@
+{
+  "record_type": "HardAssertionManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-hard-assertions-ch05-mill-signal-r1",
+  "state": "APPROVED_CURRENT_COMIC_PRE_RENDER_NOT_BENCHMARK",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "intent_scope": {
+    "panel_plan_collection": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "spatial_mode": "2d_only",
+    "boundary": "No grounded-stage, final-art, commercial, or animation inference."
+  },
+  "review_rule": "Research acceptance requires every applicable hard assertion and an authorized timed human review; agent visual triage is non-gating.",
+  "assertions": [
+    {
+      "id": "fictional_adult_design_only",
+      "severity": "hard",
+      "requirement": "Use only fictional adult character design inputs; no real-person/adult-likeness input or child data."
+    },
+    {
+      "id": "comic_single_panel",
+      "severity": "hard",
+      "requirement": "One undivided comic panel with declared composition; final lettering is evaluated through a separate layout artifact."
+    },
+    {
+      "id": "practical_wardrobe",
+      "severity": "hard",
+      "requirement": "Soren retains pale oatmeal work coat and Sigrid retains practical plaid wrap unless an explicit future panel plan revision says otherwise."
+    },
+    {
+      "id": "p001_core_read",
+      "applicability": "ng-ch05-sc01-p001",
+      "severity": "hard",
+      "requirement": "The pair leave the farmhouse before the damp grass dries. Composition requirement: wide downhill departure; two small adult figures against the trail."
+    },
+    {
+      "id": "p002_core_read",
+      "applicability": "ng-ch05-sc01-p002",
+      "severity": "hard",
+      "requirement": "Sigrid checks the smoke direction against the folded map. Composition requirement: over-shoulder map insert; smoke mark circled."
+    },
+    {
+      "id": "p003_core_read",
+      "applicability": "ng-ch05-sc01-p003",
+      "severity": "hard",
+      "requirement": "Soren notices that the boot prints now overlap the trail rather than lead it. Composition requirement: low track detail with Soren's boot held back."
+    },
+    {
+      "id": "p004_core_read",
+      "applicability": "ng-ch05-sc01-p004",
+      "severity": "hard",
+      "requirement": "They exchange a look and continue without explaining the change. Composition requirement: two-shot, stopped in opposite thirds of frame."
+    },
+    {
+      "id": "p005_core_read",
+      "applicability": "ng-ch05-sc01-p005",
+      "severity": "hard",
+      "requirement": "Rainwater feeds a shallow runnel across their path. Composition requirement: horizontal environmental insert, no people."
+    },
+    {
+      "id": "p006_core_read",
+      "applicability": "ng-ch05-sc01-p006",
+      "severity": "hard",
+      "requirement": "Sigrid steps the runnel first and points out an older stone marker. Composition requirement: side view, Sigrid foreground, Soren waiting behind."
+    },
+    {
+      "id": "p007_core_read",
+      "applicability": "ng-ch05-sc01-p007",
+      "severity": "hard",
+      "requirement": "The marker bears a simple mill-wheel sketch, not a name. Composition requirement: close stone texture and carved circle."
+    },
+    {
+      "id": "p008_core_read",
+      "applicability": "ng-ch05-sc01-p008",
+      "severity": "hard",
+      "requirement": "Soren folds the map to hide the farmhouse and expose the creek line. Composition requirement: hands and map; no face required."
+    },
+    {
+      "id": "p009_core_read",
+      "applicability": "ng-ch05-sc01-p009",
+      "severity": "hard",
+      "requirement": "The trail narrows under wet branches. Composition requirement: long narrow path; Sigrid leads, Soren follows."
+    },
+    {
+      "id": "p010_core_read",
+      "applicability": "ng-ch05-sc01-p010",
+      "severity": "hard",
+      "requirement": "Sigrid hears the water before it is visible. Composition requirement: close profile listening into blank dark woods."
+    },
+    {
+      "id": "p011_core_read",
+      "applicability": "ng-ch05-sc01-p011",
+      "severity": "hard",
+      "requirement": "Soren finds a length of soot-stained twine caught on a thorn. Composition requirement: hand insert, twine against wet thorn."
+    },
+    {
+      "id": "p012_core_read",
+      "applicability": "ng-ch05-sc01-p012",
+      "severity": "hard",
+      "requirement": "The twine points downhill as if pulled taut and released. Composition requirement: diagonal line across empty trail."
+    },
+    {
+      "id": "p013_core_read",
+      "applicability": "ng-ch05-sc01-p013",
+      "severity": "hard",
+      "requirement": "They follow the creek instead of the tracks. Composition requirement: rear wide; paired figures on a descending bank."
+    },
+    {
+      "id": "p014_core_read",
+      "applicability": "ng-ch05-sc01-p014",
+      "severity": "hard",
+      "requirement": "The smoke briefly disappears behind a shoulder of ridge. Composition requirement: distant landscape, no people."
+    },
+    {
+      "id": "p015_core_read",
+      "applicability": "ng-ch05-sc01-p015",
+      "severity": "hard",
+      "requirement": "Sigrid marks the loss of sight on the map with a wet thumb. Composition requirement: map close; thumb obscures the line."
+    },
+    {
+      "id": "p016_core_read",
+      "applicability": "ng-ch05-sc01-p016",
+      "severity": "hard",
+      "requirement": "Soren says the smoke must be closer than it looks. Composition requirement: two adults walking without facing each other."
+    },
+    {
+      "id": "p017_core_read",
+      "applicability": "ng-ch05-sc01-p017",
+      "severity": "hard",
+      "requirement": "The abandoned mill appears below, roofline broken against pale morning. Composition requirement: establishing wide; mill, creek, no people."
+    },
+    {
+      "id": "p018_core_read",
+      "applicability": "ng-ch05-sc01-p018",
+      "severity": "hard",
+      "requirement": "Smoke rises from behind the mill rather than from its chimney. Composition requirement: telephoto environmental detail."
+    },
+    {
+      "id": "p019_core_read",
+      "applicability": "ng-ch05-sc01-p019",
+      "severity": "hard",
+      "requirement": "Sigrid signals Soren to stay off the open bridge. Composition requirement: Sigrid foreground hand signal, Soren held back."
+    },
+    {
+      "id": "p020_core_read",
+      "applicability": "ng-ch05-sc01-p020",
+      "severity": "hard",
+      "requirement": "They cross the creek on stones below the bridge. Composition requirement: high angle, separated stepping rhythm."
+    },
+    {
+      "id": "p021_core_read",
+      "applicability": "ng-ch05-sc01-p021",
+      "severity": "hard",
+      "requirement": "A freshly tied strip of red cloth moves from a lower branch. Composition requirement: cloth insert, background deliberately unreadable."
+    },
+    {
+      "id": "p022_core_read",
+      "applicability": "ng-ch05-sc01-p022",
+      "severity": "hard",
+      "requirement": "Soren stops Sigrid from touching the cloth. Composition requirement: hands nearly meet but do not touch the marker."
+    },
+    {
+      "id": "p023_core_read",
+      "applicability": "ng-ch05-sc01-p023",
+      "severity": "hard",
+      "requirement": "They circle toward the mill's collapsed loading door. Composition requirement: side tracking composition through grass."
+    },
+    {
+      "id": "p024_core_read",
+      "applicability": "ng-ch05-sc01-p024",
+      "severity": "hard",
+      "requirement": "A thin smoke thread rises from a metal drum hidden behind stone. Composition requirement: revealing insert; no people."
+    },
+    {
+      "id": "p025_core_read",
+      "applicability": "ng-ch05-sc01-p025",
+      "severity": "hard",
+      "requirement": "The drum contains only wet pine needles and a damp ember. Composition requirement: close overhead discovery."
+    },
+    {
+      "id": "p026_core_read",
+      "applicability": "ng-ch05-sc01-p026",
+      "severity": "hard",
+      "requirement": "Sigrid tests the heat without disturbing the ember. Composition requirement: hand held above drum; smoke separates fingers."
+    },
+    {
+      "id": "p027_core_read",
+      "applicability": "ng-ch05-sc01-p027",
+      "severity": "hard",
+      "requirement": "Soren sees a second twine line disappearing through the mill wall. Composition requirement: Soren at left, line exits right into darkness."
+    },
+    {
+      "id": "p028_core_read",
+      "applicability": "ng-ch05-sc01-p028",
+      "severity": "hard",
+      "requirement": "The line is tied to a small brass bell inside the doorway. Composition requirement: bell insert, still and silent."
+    },
+    {
+      "id": "p029_core_read",
+      "applicability": "ng-ch05-sc01-p029",
+      "severity": "hard",
+      "requirement": "Sigrid chooses the wall opening rather than the doorway. Composition requirement: low angled entry; Soren watches the exterior."
+    },
+    {
+      "id": "p030_core_read",
+      "applicability": "ng-ch05-sc01-p030",
+      "severity": "hard",
+      "requirement": "Inside, daylight bars stripe standing water and broken gears. Composition requirement: interior establishing panel, no people."
+    },
+    {
+      "id": "p031_core_read",
+      "applicability": "ng-ch05-sc01-p031",
+      "severity": "hard",
+      "requirement": "Sigrid finds dry footprints ending at the water's edge. Composition requirement: foreground tracks, her crouched silhouette."
+    },
+    {
+      "id": "p032_core_read",
+      "applicability": "ng-ch05-sc01-p032",
+      "severity": "hard",
+      "requirement": "Soren sees the footprints begin again on the far side, facing back. Composition requirement: deep perspective across water."
+    },
+    {
+      "id": "p033_core_read",
+      "applicability": "ng-ch05-sc01-p033",
+      "severity": "hard",
+      "requirement": "A quiet drip rings the brass bell once from outside. Composition requirement: both adults freeze in different depths."
+    },
+    {
+      "id": "p034_core_read",
+      "applicability": "ng-ch05-sc01-p034",
+      "severity": "hard",
+      "requirement": "Neither moves toward the bell. Composition requirement: held wide, doorway as empty negative space."
+    },
+    {
+      "id": "p035_core_read",
+      "applicability": "ng-ch05-sc01-p035",
+      "severity": "hard",
+      "requirement": "Sigrid notices a sealed tin on an upper beam. Composition requirement: upward view; tin isolated in daylight."
+    },
+    {
+      "id": "p036_core_read",
+      "applicability": "ng-ch05-sc01-p036",
+      "severity": "hard",
+      "requirement": "Soren reaches it with a fallen plank while Sigrid braces the plank. Composition requirement: two-person practical cooperation, no spectacle."
+    },
+    {
+      "id": "p037_core_read",
+      "applicability": "ng-ch05-sc01-p037",
+      "severity": "hard",
+      "requirement": "The tin holds dry matches, a hand-drawn creek map, and a blank note card. Composition requirement: object spread on stone."
+    },
+    {
+      "id": "p038_core_read",
+      "applicability": "ng-ch05-sc01-p038",
+      "severity": "hard",
+      "requirement": "The map marks the farmhouse with a small square and the mill with a circle. Composition requirement: map close; two deliberate symbols."
+    },
+    {
+      "id": "p039_core_read",
+      "applicability": "ng-ch05-sc01-p039",
+      "severity": "hard",
+      "requirement": "A third mark is visible upstream, beyond the map edge. Composition requirement: Soren's finger stops at torn paper edge."
+    },
+    {
+      "id": "p040_core_read",
+      "applicability": "ng-ch05-sc01-p040",
+      "severity": "hard",
+      "requirement": "Sigrid decides the smoke was a signal, not a campfire. Composition requirement: close adult profile, calm deduction."
+    },
+    {
+      "id": "p041_core_read",
+      "applicability": "ng-ch05-sc01-p041",
+      "severity": "hard",
+      "requirement": "The hidden drum finally goes out in the rain. Composition requirement: smoke thinning above wet metal."
+    },
+    {
+      "id": "p042_core_read",
+      "applicability": "ng-ch05-sc01-p042",
+      "severity": "hard",
+      "requirement": "The bell rings again, now from the creek side. Composition requirement: empty doorway and a single taut line."
+    },
+    {
+      "id": "p043_core_read",
+      "applicability": "ng-ch05-sc01-p043",
+      "severity": "hard",
+      "requirement": "They leave the tin open on the stone and retreat together. Composition requirement: rear two-shot, careful backward motion."
+    },
+    {
+      "id": "p044_core_read",
+      "applicability": "ng-ch05-sc01-p044",
+      "severity": "hard",
+      "requirement": "At the creek, Soren cuts the twine line with a pocket knife. Composition requirement: hands, blade, taut twine."
+    },
+    {
+      "id": "p045_core_read",
+      "applicability": "ng-ch05-sc01-p045",
+      "severity": "hard",
+      "requirement": "The distant bell does not ring after the cut. Composition requirement: quiet creek and mill exterior."
+    },
+    {
+      "id": "p046_core_read",
+      "applicability": "ng-ch05-sc01-p046",
+      "severity": "hard",
+      "requirement": "Sigrid keeps the creek map inside her wrap rather than the notebook. Composition requirement: wardrobe/prop continuity close."
+    },
+    {
+      "id": "p047_core_read",
+      "applicability": "ng-ch05-sc01-p047",
+      "severity": "hard",
+      "requirement": "They climb back toward the farmhouse under a cleared sky. Composition requirement: wide uphill silhouettes, no smoke visible."
+    },
+    {
+      "id": "p048_core_read",
+      "applicability": "ng-ch05-sc01-p048",
+      "severity": "hard",
+      "requirement": "From the ridge, the farmhouse is visible but its chimney has begun to smoke. Composition requirement: distant house as destination; no people."
+    },
+    {
+      "id": "p049_core_read",
+      "applicability": "ng-ch05-sc01-p049",
+      "severity": "hard",
+      "requirement": "Soren realizes they did not light the stove before leaving. Composition requirement: Soren foreground, house far beyond."
+    },
+    {
+      "id": "p050_core_read",
+      "applicability": "ng-ch05-sc01-p050",
+      "severity": "hard",
+      "requirement": "Sigrid breaks into a run toward the house; Soren follows with the map. Composition requirement: final wide directional rush, two adult figures, house ahead."
+    }
+  ]
+}

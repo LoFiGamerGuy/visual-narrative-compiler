@@ -1,0 +1,78 @@
+{
+  "manifest_id": "geometry-proxy-g07-controls-v1",
+  "state": "NON_SCORING_GEOMETRY_PROXY_CONTROL",
+  "semantic_source": "research/authoritative/v2.1.1/bench/gauntlet.json",
+  "semantic_source_sha256": "f826b0f1d06ed5a999667bde23ba0d04f8ebb22f516095034dab62c7541ae9ae",
+  "adapter_scope": "local deterministic Pillow geometry; no image model, adult likeness asset, child asset, network, or external service",
+  "limitations": [
+    "Role tokens are abstract color/shape conventions, not SOREN/SIGRID identity validation.",
+    "The constructed stage is a geometry-only staging proxy, not a renderer-facing canonical production set.",
+    "This cannot be scored as a frozen renderer benchmark result."
+  ],
+  "cases": [
+    {
+      "case_id": "G07a",
+      "semantic_description": "SOREN left, SIGRID right, both seated at table, not touching",
+      "semantic_spatial_mode": "grounded",
+      "proxy_spatial_mode": "grounded_geometry_proxy",
+      "layout": {
+        "left": "SOREN",
+        "right": "SIGRID"
+      },
+      "hard_assertion_manifest": {
+        "count": {
+          "exact": 2
+        },
+        "role_tokens": {
+          "left": "SOREN",
+          "right": "SIGRID"
+        },
+        "set": "KITCHEN_PROXY",
+        "interaction": "both seated at common table, not touching",
+        "forbidden": [
+          "extra proxy",
+          "child likeness",
+          "duplicate role token",
+          "role swap"
+        ],
+        "proxy_identity_limitation": "token correctness only"
+      },
+      "controls": {
+        "no_change": "bit-identical base-stage copy",
+        "occlusion": "foreground table layer must occlude lower actor geometry"
+      }
+    },
+    {
+      "case_id": "G07b",
+      "semantic_description": "SIGRID left, SOREN right, otherwise identical to G07a",
+      "semantic_spatial_mode": "grounded",
+      "proxy_spatial_mode": "grounded_geometry_proxy",
+      "layout": {
+        "left": "SIGRID",
+        "right": "SOREN"
+      },
+      "hard_assertion_manifest": {
+        "count": {
+          "exact": 2
+        },
+        "role_tokens": {
+          "left": "SIGRID",
+          "right": "SOREN"
+        },
+        "set": "KITCHEN_PROXY",
+        "interaction": "both seated at common table, not touching",
+        "forbidden": [
+          "extra proxy",
+          "child likeness",
+          "duplicate role token",
+          "role swap"
+        ],
+        "proxy_identity_limitation": "token correctness only"
+      },
+      "controls": {
+        "no_change": "bit-identical base-stage copy",
+        "occlusion": "foreground table layer must occlude lower actor geometry"
+      }
+    }
+  ]
+}

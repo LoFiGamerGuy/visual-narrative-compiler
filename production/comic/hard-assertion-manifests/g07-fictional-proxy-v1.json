@@ -1,0 +1,28 @@
+{
+  "record_type": "HardAssertionManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-hard-assertions-g07-fictional-proxy-r1",
+  "state": "ADAPTER_NEUTRAL_INTENT_NOT_FROZEN_BENCHMARK_BUNDLE",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "intent_scope": {
+    "case_ids": ["G07a", "G07b"],
+    "semantic_source": "research/authoritative/v2.1.1/bench/gauntlet.json",
+    "semantic_source_sha256": "f826b0f1d06ed5a999667bde23ba0d04f8ebb22f516095034dab62c7541ae9ae",
+    "spatial_mode": "grounded",
+    "stage_control_bundle": "production/stages/controls/kitchen-table-blender-control-bundle-v2.json",
+    "stage_limit": "The neutral-token control is a geometry proxy. It does not establish recurring-character identity, canonical final set art, or a frozen executable benchmark bundle."
+  },
+  "assertions": [
+    {"id": "two_subjects", "requirement": "Exactly two declared subject proxies are visible.", "review_method": "human_or_adapter_sensor", "severity": "hard"},
+    {"id": "role_order", "requirement": "G07a: SOREN left/SIGRID right; G07b: SIGRID left/SOREN right.", "review_method": "human_or_adapter_sensor", "severity": "hard"},
+    {"id": "common_table", "requirement": "Both proxies share the declared kitchen table/occluder context.", "review_method": "human_or_adapter_sensor", "severity": "hard"},
+    {"id": "non_contact", "requirement": "The declared subjects do not touch.", "review_method": "human_or_adapter_sensor", "severity": "hard"},
+    {"id": "target_edit", "requirement": "When a targeted edit is requested, the declared target changes to the requested state.", "review_method": "human", "severity": "hard", "applicability": "edit only"},
+    {"id": "target_nochange", "requirement": "When no target edit is requested, the declared target retains its source state.", "review_method": "human_or_pixel_sensor", "severity": "hard", "applicability": "no-change only"},
+    {"id": "exterior_preservation", "requirement": "A deterministic post-composite, if used, must report the change fraction outside the declared mask separately from target assertions.", "review_method": "pixel_sensor", "severity": "hard", "applicability": "masked repair only"}
+  ],
+  "decision_rule": "A candidate is accepted only when every applicable hard assertion is pass and an authorized human review records minutes. A proxy-control pass is not production acceptance.",
+  "prohibited_inferences": ["No character identity claim from neutral tokens.", "No final-art or recurring-set claim from the stage proxy.", "No benchmark score or executable-bundle freeze claim.", "No animation-shot direction claim."],
+  "execution_boundary": "RenderRecord, candidate hashes, runtime, cost, and review outcomes are linked by reference in a separate review record; they are not part of this intent manifest."
+}

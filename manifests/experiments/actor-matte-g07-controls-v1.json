@@ -1,0 +1,112 @@
+{
+  "manifest_id": "actor-matte-g07-controls-v1",
+  "state": "NON_SCORING_LEGACY_COMPOSITE_CONTROL",
+  "semantic_source": "research/authoritative/v2.1.1/bench/gauntlet.json",
+  "semantic_source_sha256": "f826b0f1d06ed5a999667bde23ba0d04f8ebb22f516095034dab62c7541ae9ae",
+  "sources": [
+    {
+      "path": "garden/stage.py",
+      "sha256": "e8fa92419957da2c69a6ddf1da513a63d7e6800653b6cfabac083093da71e3c8"
+    },
+    {
+      "path": "garden/rooms_def.py",
+      "sha256": "00826ed2d0a1895cf39909af439ccb0a03f25a95b44b6aed99c0d1de89eecdc9"
+    },
+    {
+      "path": "garden/panelcomp.py",
+      "sha256": "9ebad9496990f2c3a11b6800260aa42a2279f1deba5d07ebad27b764a044eda6"
+    },
+    {
+      "path": "ComfyUI/output/rm_table_00001_.png",
+      "sha256": "78121b674fd8c5526c7ddfd4ba72c53a8186a54a6be5d0d91421be3ea6c784d4"
+    },
+    {
+      "path": "ComfyUI/output/pg_pl_dio_sit_00002_.png",
+      "sha256": "f96608388d6ceeed7c619dec184ec8435ac0770592f4d7a6d80f2ff01fcb5c6a"
+    },
+    {
+      "path": "ComfyUI/output/pg_pl_thal_sit_00002_.png",
+      "sha256": "6b267a044524851784a628641f4ea1fb3737d0415b8dddab8b2f4f24e4926bce"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "G07a",
+      "semantic_description": "SOREN left, SIGRID right, both seated at table, not touching",
+      "semantic_spatial_mode": "grounded",
+      "legacy_execution_limitation": "Calibrated 2D compositor only; it preserves the semantic declaration but cannot establish canonical 3D grounding.",
+      "actor_placements": [
+        {
+          "role": "SOREN",
+          "x": 0.34,
+          "depth": 0.55,
+          "real_height": "H_SEATED",
+          "flip": false
+        },
+        {
+          "role": "SIGRID",
+          "x": 0.68,
+          "depth": 0.5,
+          "real_height": "H_SEATED",
+          "flip": true
+        }
+      ],
+      "hard_assertion_manifest": {
+        "count": {
+          "exact": 2
+        },
+        "roles": {
+          "left": "SOREN",
+          "right": "SIGRID"
+        },
+        "set": "KITCHEN",
+        "interaction": "both seated at table, not touching",
+        "forbidden": [
+          "extra person",
+          "child",
+          "duplicate character",
+          "role swap"
+        ]
+      }
+    },
+    {
+      "case_id": "G07b",
+      "semantic_description": "SIGRID left, SOREN right, otherwise identical to G07a",
+      "semantic_spatial_mode": "grounded",
+      "legacy_execution_limitation": "Calibrated 2D compositor only; it preserves the semantic declaration but cannot establish canonical 3D grounding.",
+      "actor_placements": [
+        {
+          "role": "SIGRID",
+          "x": 0.34,
+          "depth": 0.5,
+          "real_height": "H_SEATED",
+          "flip": false
+        },
+        {
+          "role": "SOREN",
+          "x": 0.68,
+          "depth": 0.55,
+          "real_height": "H_SEATED",
+          "flip": true
+        }
+      ],
+      "hard_assertion_manifest": {
+        "count": {
+          "exact": 2
+        },
+        "roles": {
+          "left": "SIGRID",
+          "right": "SOREN"
+        },
+        "set": "KITCHEN",
+        "interaction": "both seated at table, not touching",
+        "forbidden": [
+          "extra person",
+          "child",
+          "duplicate character",
+          "role swap"
+        ]
+      }
+    }
+  ]
+}

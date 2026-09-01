@@ -1,0 +1,11 @@
+{
+  "record_type": "RendererAdapterControlExperiment",
+  "record_id": "ng-flux2-klein-blender-kitchen-control-g07-r1",
+  "state": "DRAFT_LOCAL_PROXY_CONTROL_NOT_FROZEN_NOT_COMMERCIAL",
+  "semantic_source": {"path": "research/authoritative/v2.1.1/bench/gauntlet.json", "sha256": "f826b0f1d06ed5a999667bde23ba0d04f8ebb22f516095034dab62c7541ae9ae", "rule": "Read/hash-check only; no frozen semantic content is modified."},
+  "controls": {"bundle": "production/stages/controls/kitchen-table-blender-control-bundle-v2.json", "state": "DRAFT_STAGE_A_SEMANTIC_MAPPING_NOT_FROZEN", "mapping": "G07a orange/SOREN left + teal/SIGRID right; G07b swapped."},
+  "execution_adapter": "flux2_klein_local_reference_latent",
+  "scope": ["two abstract non-person tokens", "count", "screen role order", "common table", "non-contact", "reference-stage retention"],
+  "exclusions": ["identity", "adult likeness", "child data", "final art", "production acceptance", "Stage-A score", "commercial eligibility"],
+  "control_protocol": {"renderer_no_change": "not run here; this paired composition run must not be mistaken for the Blender construction no-change control", "review": "record candidate hashes, timing, assertion outcomes, human-review status/minutes, and acceptance decision."}
+}

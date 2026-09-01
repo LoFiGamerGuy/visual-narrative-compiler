@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "publication_state": "INTERNAL_RESEARCH_ACCEPTED_NOT_PUBLISHED",
+  "edition_id": "north-garden-research-edition-001",
+  "sequence_id": "ch01-sc01-kitchen-argument",
+  "narrative_intent": "At the kitchen table, Soren and Sigrid conduct a quiet, practical argument under emergency conditions; the room and their distance carry the tension.",
+  "source_workflow": {
+    "adapter": "baseline_legacy_composite_stage",
+    "composer_source": "garden/make_page03.py",
+    "composer_source_sha256": "6e4b9290608acd745a26f91a64e924e54c1ee785439c1fb2f32f7a7bffadb736",
+    "stage_source": "garden/stage.py",
+    "stage_source_sha256": "e8fa92419957da2c69a6ddf1da513a63d7e6800653b6cfabac083093da71e3c8",
+    "room_definitions_source": "garden/rooms_def.py",
+    "room_definitions_sha256": "00826ed2d0a1895cf39909af439ccb0a03f25a95b44b6aed99c0d1de89eecdc9",
+    "spatial_mode": "grounded",
+    "spatial_authority_limit": "Calibrated 2D room plate geometry and occluder masks, not canonical Blender geometry."
+  },
+  "panels": [
+    {"panel_id":"ng-ch01-sc01-p006-r1","display_order":6,"file":"pagecomp3/page03_p06.png","sha256":"11c85a5a2fc21747d2b92d37df85896b5b8cf564bdb49dfc0e42c68cad13ebda","assertions":{"characters":["SOREN","SIGRID"],"relationship":"Soren seated near table; Sigrid standing farther back at door","set":"KITCHEN_NIGHT"}},
+    {"panel_id":"ng-ch01-sc01-p007-r1","display_order":7,"file":"pagecomp3/page03_p07.png","sha256":"6b7abb266e1f7dd4b18f7a02267efdd5214cbab21d115d8d73b7f8d493430128","assertions":{"characters":["SOREN","SIGRID"],"relationship":"both seated at table; foreground furniture occludes correctly","set":"KITCHEN_NIGHT"}},
+    {"panel_id":"ng-ch01-sc01-p008-r1","display_order":8,"file":"pagecomp3/page03_p08.png","sha256":"e8729c5d287a0c53e492d3d9f360c8fbb72a3e8f19c685eefeccdd75ab033561","assertions":{"characters":["SOREN","SIGRID"],"relationship":"two-person quiet conversation across table","set":"KITCHEN_NIGHT"}},
+    {"panel_id":"ng-ch01-sc01-p010-r1","display_order":10,"file":"pagecomp3/page03_p10.png","sha256":"1f388606cd21e812875a80d1156e8d31e2d2ccfbc1b90bf61123a49557131258","assertions":{"characters":["SOREN","SIGRID"],"relationship":"Soren remains seated at near table; Sigrid is separated near fire","set":"KITCHEN_NIGHT","prop":"mug"}}
+  ],
+  "input_plates": [
+    {"file":"ComfyUI/output/pg_pl_dio_look_00002_.png","sha256":"43c5a7f945e185a83f0913afea8fd016830b5d90a6ec64ed513904d2afffaa90"},
+    {"file":"ComfyUI/output/pg_pl_dio_sit_00002_.png","sha256":"f96608388d6ceeed7c619dec184ec8435ac0770592f4d7a6d80f2ff01fcb5c6a"},
+    {"file":"ComfyUI/output/pg_pl_thal_door_00002_.png","sha256":"d8b01b89949bfdc77e465a2f13bb329cede3d9aae79a780cf27720a55dedcfe3"},
+    {"file":"ComfyUI/output/pg_pl_thal_sit_00002_.png","sha256":"6b267a044524851784a628641f4ea1fb3737d0415b8dddab8b2f4f24e4926bce"}
+  ],
+  "acceptance": {
+    "decision":"ACCEPTED_FOR_INTERNAL_NARRATIVE_RESEARCH",
+    "reviewer":"Codex visual review",
+    "review_basis":"The four panels visibly preserve two adult roles, their depth separation/occlusion, and recurring kitchen cues well enough to serve as a meaningful narrative sequence.",
+    "human_review_status":"not yet performed",
+    "human_minutes":null,
+    "generation_time":"historical source generations were not instrumented",
+    "composition_time":"historical composition was not instrumented",
+    "commercial_release_allowed":false,
+    "limitations":["Adult-likeness LoRA/base-license provenance has not completed commercial review.","No lettering/page-layout pass is included in these four art panels.","This record is archival instrumentation of existing artifacts; it must not be represented as a fully reproducible source generation."]
+  }
+}

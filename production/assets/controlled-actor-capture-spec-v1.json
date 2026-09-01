@@ -1,0 +1,9 @@
+{
+  "record_type":"ControlledActorCaptureSpec","schema_version":"1.0","record_id":"ng-actor-capture-spec-r1","scope":"local-only planning; no capture or generation performed",
+  "links":{"asset_registry":"production/assets/asset-registry-ch01-v1.json","comic_plans":"production/comic/ch01-sc01-panel-plans-v1.json","g07_evidence":"experiments/results/sequential_inpaint_g07_controls_20260831.json"},
+  "required_fields":["fictional_character_id","wardrobe_state_id","pose_id","camera_id","set_id","prop_state","alpha_matte","source_hash","renderer_profile","license_and_consent_gate"],
+  "g07_seated_table_requirement":{"roles":["SOREN","SIGRID"],"pose":"seated_at_common_table","camera":"table_level","set":"KITCHEN","prop_state":"no_embedded_foreign_furniture","matte":"actor-only alpha plus separately declared shadow/occluder mask","assertions":["exactly_two_adults","left_right_role_binding","not_touching","set_preserved_outside_declared_influence"]},
+  "legacy_failures":{"pg_pl_dio_sit_00002_":"embedded table/heater","pg_pl_thal_sit_00002_":"not table-specific seated pose","all_pg_pl":"only legacy flat-plate keying; no verified independent alpha/camera metadata"},
+  "safety":{"adult_likeness":"local only; exact provenance and consent gate before any commercial profile","child_likeness":"prohibited"},
+  "next_experiment_plan":{"state":"PLANNING_ONLY","minimum_asset_set":"one local adult fictional-design/proxy-compatible actor capture per role satisfying the required fields, plus matching kitchen plate/camera and separate masks","evaluation":"run zero-mask reconstruction and actor-only compositing control before a two-seed sequential-inpaint smoke","non_claim":"still not canonical grounded evidence without canonical 3D stage/camera assets"}
+}

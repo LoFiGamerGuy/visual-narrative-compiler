@@ -1,0 +1,20 @@
+{
+  "record_type": "NarrativeDevelopmentPromotionDecision",
+  "schema_version": "1.0",
+  "record_id": "REPLACE_WITH_STABLE_DECISION_ID",
+  "state": "PENDING_OWNER_DECISION",
+  "source_development_script": "REPLACE_WITH_HASH_PINNED_DEVELOPMENT_SCRIPT_PATH",
+  "source_development_script_sha256": "REPLACE_WITH_SOURCE_SHA256",
+  "allowed_states": [
+    "PENDING_OWNER_DECISION",
+    "APPROVED_FOR_CANON_AND_COMIC_PANEL_PLAN_DEVELOPMENT",
+    "APPROVED_WITH_REQUIRED_REWRITE",
+    "REJECTED_RETAIN_AS_HISTORICAL_OR_DEVELOPMENT_ONLY"
+  ],
+  "decision_scope": {
+    "may_promote": ["new StoryState", "new AssetRegistry", "new SceneBeat", "new ComicPanelPlan", "new HardAssertionManifest"],
+    "must_not_promote_automatically": ["RenderRecord", "AcceptedPanelAsset", "PanelRevision", "EditionManifest", "AnimationShotPlan/E-Conte", "commercial/license clearance", "adult likeness material"]
+  },
+  "required_owner_fields": ["decision_maker", "decided_at", "decision_rationale", "continuity_changes", "explicit_canon_status"],
+  "promotion_rule": "A promotion creates new immutable current-production records. It never edits the development script, rewrites a historical source, or treats an approval as renderer execution or art acceptance."
+}

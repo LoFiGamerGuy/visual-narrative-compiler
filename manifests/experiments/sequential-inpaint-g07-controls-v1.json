@@ -1,0 +1,96 @@
+{
+  "manifest_id": "sequential-inpaint-g07-controls-v1",
+  "state": "NON_SCORING_LEGACY_PREFLIGHT",
+  "semantic_source": "research/authoritative/v2.1.1/bench/gauntlet.json",
+  "semantic_source_sha256": "f826b0f1d06ed5a999667bde23ba0d04f8ebb22f516095034dab62c7541ae9ae",
+  "cases": [
+    {
+      "case_id": "G07a",
+      "semantic_description": "SOREN left, SIGRID right, both seated at table, not touching",
+      "semantic_spatial_mode": "grounded",
+      "legacy_execution_limitation": "Calibrated 2D room plate plus rectangular masks; not a canonical 3D stage, actor matte, or valid grounded benchmark implementation.",
+      "asset_hashes": {
+        "plate": "78121b674fd8c5526c7ddfd4ba72c53a8186a54a6be5d0d91421be3ea6c784d4",
+        "left": "d61d7c239d60747447b4e3b4ab3f5ce91be7698dec4819c8f55be8ccae1c3005",
+        "right": "fdc4d33a4028f328075da313bd77278aeb9951076fb4d9466a19815c38bb5e70",
+        "none": "71ce08e25ad8298621d901f928791ab3b26a2b5b0ef13e4fb4cd518e9d8bfbb2"
+      },
+      "layout": {
+        "left": "SOREN",
+        "right": "SIGRID"
+      },
+      "hard_assertion_manifest": {
+        "count": {
+          "exact": 2
+        },
+        "roles": {
+          "left": "SOREN",
+          "right": "SIGRID"
+        },
+        "set": "KITCHEN",
+        "interaction": "both seated at table, not touching",
+        "forbidden": [
+          "extra person",
+          "child",
+          "duplicate character",
+          "role swap"
+        ],
+        "spatial_mode_requirement": "grounded semantic intent retained; legacy execution cannot prove canonical grounding"
+      },
+      "no_change_control": {
+        "seed": 101,
+        "denoise": 0.0,
+        "mask": "no_change_zero_mask_v1.png",
+        "purpose": "Measure VAE/workflow reconstruction drift without an active inpaint region before interpreting identity repair. Active-mask denoise-zero output is retained separately as an invalid-control diagnostic."
+      },
+      "smoke_seeds": [
+        101,
+        202
+      ]
+    },
+    {
+      "case_id": "G07b",
+      "semantic_description": "SIGRID left, SOREN right, otherwise identical to G07a",
+      "semantic_spatial_mode": "grounded",
+      "legacy_execution_limitation": "Calibrated 2D room plate plus rectangular masks; not a canonical 3D stage, actor matte, or valid grounded benchmark implementation.",
+      "asset_hashes": {
+        "plate": "78121b674fd8c5526c7ddfd4ba72c53a8186a54a6be5d0d91421be3ea6c784d4",
+        "left": "d61d7c239d60747447b4e3b4ab3f5ce91be7698dec4819c8f55be8ccae1c3005",
+        "right": "fdc4d33a4028f328075da313bd77278aeb9951076fb4d9466a19815c38bb5e70",
+        "none": "71ce08e25ad8298621d901f928791ab3b26a2b5b0ef13e4fb4cd518e9d8bfbb2"
+      },
+      "layout": {
+        "left": "SIGRID",
+        "right": "SOREN"
+      },
+      "hard_assertion_manifest": {
+        "count": {
+          "exact": 2
+        },
+        "roles": {
+          "left": "SIGRID",
+          "right": "SOREN"
+        },
+        "set": "KITCHEN",
+        "interaction": "both seated at table, not touching",
+        "forbidden": [
+          "extra person",
+          "child",
+          "duplicate character",
+          "role swap"
+        ],
+        "spatial_mode_requirement": "grounded semantic intent retained; legacy execution cannot prove canonical grounding"
+      },
+      "no_change_control": {
+        "seed": 101,
+        "denoise": 0.0,
+        "mask": "no_change_zero_mask_v1.png",
+        "purpose": "Measure VAE/workflow reconstruction drift without an active inpaint region before interpreting identity repair. Active-mask denoise-zero output is retained separately as an invalid-control diagnostic."
+      },
+      "smoke_seeds": [
+        101,
+        202
+      ]
+    }
+  ]
+}

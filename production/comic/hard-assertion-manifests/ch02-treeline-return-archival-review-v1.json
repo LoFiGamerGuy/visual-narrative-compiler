@@ -1,0 +1,17 @@
+{
+  "record_type": "HardAssertionManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-hard-assertions-ch02-treeline-return-archival-r1",
+  "state": "ARCHIVAL_REVIEW_INTENT_RECONSTRUCTED_NOT_PRERENDER",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "intent_scope": {"panel_ids":["ng-ch02-sc01-p001","ng-ch02-sc01-p002","ng-ch02-sc01-p003"],"spatial_mode":"2d_only","boundary":"Assertions reconstruct the observable narrative requirements for review. They were not supplied to the historical renderer and cannot become benchmark evidence."},
+  "assertions": [
+    {"id":"two_adult_subjects","requirement":"Exactly two adult subjects are visibly represented in each selected panel.","severity":"hard","review_method":"human"},
+    {"id":"role_differentiation","requirement":"Soren and Sigrid remain visually differentiated by declared hair/wardrobe markers.","severity":"hard","review_method":"human"},
+    {"id":"scene_action","requirement":"Each panel reads its declared movement, support, or threshold action.","severity":"hard","review_method":"human"},
+    {"id":"no_child_data","requirement":"No child image, child likeness, or child-reference input appears in the linked historical render records.","severity":"hard","review_method":"provenance"}
+  ],
+  "decision_rule":"An archival internal-research selection may pass only if all hard assertions pass in review. It remains non-commercial and does not establish a future renderer's capability.",
+  "prohibited_inferences":["No final art or commercial-release claim.","No canonical 3D set or animation-shot claim.","No Stage-A/Stage-B benchmark claim.","No historical human-minute claim."]
+}

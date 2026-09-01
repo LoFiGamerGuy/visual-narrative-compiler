@@ -1,0 +1,18 @@
+{
+  "record_type": "HardAssertionManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-hard-assertions-ch03-ridge-signal-imagegen-r1",
+  "state": "NARRATIVE_RESEARCH_REVIEW_PENDING_NOT_BENCHMARK",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "intent_scope": {"panel_plan_collection":"production/comic/ch03-sc01-panel-plans-v1.json","spatial_mode":"2d_only","boundary":"No grounded-stage, final-art commercial, or animation inference."},
+  "review_rule": "A panel may be research-accepted only after every applicable assertion passes in an authorized timed human review. Automated/agent triage does not accept a panel.",
+  "assertions": [
+    {"id":"adult_only","requirement":"Exactly two fictional adult humans; no child, animal, monster, or extra human.","severity":"hard"},
+    {"id":"single_panel","requirement":"One undivided landscape comic panel without text, bubbles, logo, or watermark.","severity":"hard"},
+    {"id":"nonsexualized_wardrobe","requirement":"Declared practical non-sexualized wardrobe is respected.","severity":"hard"},
+    {"id":"p001_blocking_and_axes","requirement":"P001 roles/blocking and visible Sigrid axes are clear.","severity":"hard","applicability":"P001"},
+    {"id":"p002_distinct_actions","requirement":"P002 Soren field and Sigrid root-clearing actions are distinct; no axe visible.","severity":"hard","applicability":"P002"},
+    {"id":"p003_threshold_depth","requirement":"P003 doorway/outside versus interior depth roles are clear; no axes or magic visible.","severity":"hard","applicability":"P003"}
+  ]
+}

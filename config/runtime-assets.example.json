@@ -1,0 +1,20 @@
+{
+  "schema_version": "north_garden.runtime_assets.v1",
+  "state": "EXAMPLE_NO_DOWNLOADS",
+  "purpose": "Local-only declaration of heavyweight runtime assets intentionally excluded from Git. Copy to config/runtime-assets.local.json and fill from primary source artifacts after license review.",
+  "profiles": {
+    "documentation": {"requires": ["python"], "downloads": false},
+    "baseline_legacy": {"requires": ["ComfyUI", "models", "loras"], "downloads": false},
+    "blender_stage": {"requires": ["Blender"], "downloads": false}
+  },
+  "assets": [
+    {
+      "id": "example-model",
+      "local_path": "models/REPLACE_ME.safetensors",
+      "sha256": "REPLACE_WITH_EXACT_HASH",
+      "license_artifact": "REPLACE_WITH_PRIMARY_LICENSE_OR_MODEL_CARD_PATH",
+      "source_url": "REPLACE_WITH_PRIMARY_SOURCE_URL",
+      "commercial_state": "UNREVIEWED"
+    }
+  ]
+}

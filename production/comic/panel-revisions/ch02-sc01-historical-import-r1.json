@@ -1,0 +1,14 @@
+{
+  "record_type": "PanelRevisionCollection",
+  "schema_version": "1.0",
+  "record_id": "ng-panel-revisions-ch02-sc01-import-r1",
+  "comic_plan_collection": "production/comic/ch02-sc01-panel-plans-v1.json",
+  "hard_assertion_manifest": "production/comic/hard-assertion-manifests/ch02-treeline-return-archival-review-v1.json",
+  "import_boundary": "Immutable historical imports; embedded workflow exists, but timing/candidate count/human minutes are unavailable and the adult-likeness legacy path is not commercially cleared.",
+  "revisions": [
+    {"panel_id":"ng-ch02-sc01-p001","panel_revision_id":"ng-ch02-sc01-p001-art-r1","asset_path":"ComfyUI/output/duo2_cover_00001_.png","sha256":"854de59acdef659e9fc76f3998e76ef3212ba190bb05c93b979dfcd02dcca060","revision_kind":"historical_import","render_record":"experiments/records/historical_legacy_duo2/ch02-treeline-return-r1.json#historical-legacy_duo2-duo2_cover_00001_","acceptance_state":"INTERNAL_RESEARCH_ACCEPTED","human_review_minutes":null},
+    {"panel_id":"ng-ch02-sc01-p002","panel_revision_id":"ng-ch02-sc01-p002-art-r1","asset_path":"ComfyUI/output/duo2_carry_00001_.png","sha256":"515c93a0c8541ec3c451706ec7093211e85f59be86517128355e7846fceba78d","revision_kind":"historical_import","render_record":"experiments/records/historical_legacy_duo2/ch02-treeline-return-r1.json#historical-legacy_duo2-duo2_carry_00001_","acceptance_state":"INTERNAL_RESEARCH_ACCEPTED","human_review_minutes":null},
+    {"panel_id":"ng-ch02-sc01-p003","panel_revision_id":"ng-ch02-sc01-p003-art-r1","asset_path":"ComfyUI/output/duo2_dark_00001_.png","sha256":"b3e9d42e9d65ee2ddf1bc115dd5deed6749c59d07a4ecb636615a6da4f083589","revision_kind":"historical_import","render_record":"experiments/records/historical_legacy_duo2/ch02-treeline-return-r1.json#historical-legacy_duo2-duo2_dark_00001_","acceptance_state":"INTERNAL_RESEARCH_ACCEPTED","human_review_minutes":null}
+  ],
+  "revision_rule": "Any correction adds a new immutable PanelRevision; no revision object, source file, or prior edition is overwritten."
+}

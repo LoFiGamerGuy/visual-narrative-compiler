@@ -1,0 +1,18 @@
+{
+  "record_type": "NarrativeDevelopmentPromotionDecision",
+  "schema_version": "1.0",
+  "record_id": "ng-decision-ch05-mill-signal-promotion-r1",
+  "state": "APPROVED_FOR_CANON_AND_COMIC_PANEL_PLAN_DEVELOPMENT",
+  "source_development_script": "research/development/clean-ch05-mill-signal-r1.json",
+  "source_development_script_sha256": "26579fbf67a4a17518b28f20e263efa08b3dc6715f5aae85acb721880b6d9daf",
+  "decision_maker": "project owner",
+  "decided_at": "2026-09-01",
+  "decision_rationale": "Owner approved the clean CH05 Mill Signal script, its visual smoke contact sheet, and the promotion template. The historical Dio/Thal pilot remains quarantined under ADR-0022.",
+  "continuity_changes": "None at promotion. The new current records begin after the approved CH04 smoke-column hook and retain fictional Soren/Sigrid development continuity only.",
+  "explicit_canon_status": "APPROVED_CURRENT_COMIC_DEVELOPMENT_PRE_RENDER",
+  "decision_scope": {
+    "may_promote": ["new StoryState", "new AssetRegistry", "new SceneBeat", "new ComicPanelPlan", "new HardAssertionManifest", "new ComicStyleDirection"],
+    "must_not_promote_automatically": ["RenderRecord", "AcceptedPanelAsset", "PanelRevision", "EditionManifest", "AnimationShotPlan/E-Conte", "commercial/license clearance", "adult likeness material"]
+  },
+  "promotion_rule": "Promotion creates new immutable current-production records. It does not edit the development script or retroactively accept any provenance-limited CH05 visual-smoke candidate."
+}

@@ -1,0 +1,16 @@
+{
+  "record_type": "CanonicalStageGeometryBootstrap",
+  "schema_version": "1.0",
+  "record_id": "ng-set-kitchen-table-canonical-geometry-r2",
+  "state": "GEOMETRY_BOOTSTRAP_NEUTRAL_ANCHORS_BLENDER_IMPORTED_NOT_CALIBRATED_FINAL_ART",
+  "supersedes": "ng-set-kitchen-table-canonical-geometry-r1 only for reusable anchor naming; r1 remains immutable evidence.",
+  "asset": {"path": "assets/stages/kitchen-table-stage-v2-neutral-anchors.obj", "sha256": "4a42b2ae7a4eaaa1eedc893c51e18fedf7448078c8e843be79a4e270463f5532", "format": "Wavefront OBJ", "units": "metres", "up_axis": "Y"},
+  "shared_asset_boundary": "Shared canon/set asset. It contains neutral world-coordinate anchors, never ComicPanelPlan roles, AnimationShotPlan roles, likeness, dialogue, or final-art styling.",
+  "objects": {"floor": "Floor", "back_wall": "BackWall", "table_top": "TableTop", "table_legs": "TableLegs", "seated_world_x_negative": "Anchor_Seated_World_X_NEG", "seated_world_x_positive": "Anchor_Seated_World_X_POS", "reference_camera_line": "Camera_Table_Seated_Reference"},
+  "physical_contract": {"table_top_height_m": 0.72, "seated_crown_height_m": 1.3, "world_x_negative_xyz_m": [-0.95, 0.0, -0.95], "world_x_positive_xyz_m": [0.95, 0.0, -0.95], "non_contact_clearance_m": 0.7, "reference_camera_xyz_m": [0.0, 1.1, -2.65]},
+  "projection_mapping": "production/stages/kitchen-table-world-to-comic-panel-projection-v1.json",
+  "blender_import": {"blend_path": "assets/stages/kitchen-table-stage-v2-neutral-anchors.blend", "blend_sha256": "04e59e183addfcf2fe386f80afdaadbda1ff4ebe8f94bf7260db53383e481df6", "blender_version": "5.2.1 LTS", "blender_hash": "9e2066aef7ef", "import_script": "src/north_garden/blender_import_stage_v2.py", "import_script_sha256": "161a4a5eff55efc6bed28c4c4d15a22832fe9e6adb5a86add9e84da8360fcb43"},
+  "adapter_uses": {"comic": "A separate ComicPanelPlan assigns semantic roles to neutral anchors through a declared camera/projection map.", "animation": "May supply set geometry only; a separate AnimationShotPlan/E-Conte assigns staging and shot direction."},
+  "validation": {"required_before_canonical_claim": ["Calibrate a separately declared comic camera, occlusion, and scale against an approved intended production set reference.", "Replace primitive walls/table with versioned controllable set components and licensed textures where used.", "Validate renderer-facing stage-control assets and their no-change protocol in the selected image-renderer adapter."], "completed": ["OBJ imported and named-object set verified in pinned Blender 5.2.1 LTS.", "Neutral world-anchor-to-diagnostic-panel projection was rendered and visually inspected in control bundle v2."]},
+  "limitations": ["The projection mapping is for a declared diagnostic control camera, not a legacy-comic camera or animation shot.", "Not final art, a character asset, or grounded production-panel evidence."]
+}

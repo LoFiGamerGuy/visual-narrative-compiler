@@ -1,0 +1,11 @@
+{
+  "manifest_id": "flux2-klein-geometry-tile-proxy-g07-stage-v1",
+  "state": "DRAFT_FICTIONAL_PROXY_REPRESENTATION_TEST_NOT_FROZEN",
+  "semantic_source": "research/authoritative/v2.1.1/bench/gauntlet.json",
+  "semantic_source_sha256": "f826b0f1d06ed5a999667bde23ba0d04f8ebb22f516095034dab62c7541ae9ae",
+  "purpose": "Isolate the circle-token head/body failure by replacing character-like shapes with two non-figurative colored tiles on the same fixed geometry stage.",
+  "assets": "experiments/results/geometry_proxy_tiles_g07_v1.json",
+  "hard_assertions": ["exactly two tiles", "declared left/right color order", "table/stage composition", "no child/person/face"],
+  "limitations": ["Tile correctness is not character identity or final-art evidence.", "This is not a canonical grounded production stage or frozen executable bundle.", "Reference-conditioned no-change is known to drift globally."],
+  "freeze_condition": "None; this is a representation diagnostic only and must remain distinct from any future production benchmark bundle."
+}

@@ -1,0 +1,24 @@
+{
+  "manifest_id": "sequential-inpaint-stage-a-smoke-v1",
+  "state": "PLANNED_NOT_EXECUTABLE",
+  "semantic_source": "research/authoritative/v2.1.1/bench/gauntlet.json",
+  "semantic_source_sha256": "f826b0f1d06ed5a999667bde23ba0d04f8ebb22f516095034dab62c7541ae9ae",
+  "adapter": "sequential_inpaint_per_character",
+  "purpose": "Stage-A-compatible operational smoke protocol; it names frozen requests without changing their semantic intent.",
+  "frozen_requests": [
+    {"case_id": "G07a", "seeds": [101, 202]},
+    {"case_id": "G07b", "seeds": [101, 202]}
+  ],
+  "required_before_execution": [
+    "A versioned grounded or cheated plate/camera asset for each request, with the chosen spatial mode preserved.",
+    "A versioned target mask or geometry matte for each character and an explicit non-target control region.",
+    "A case-specific prompt compiler mapping checked against the frozen HardAssertionManifest.",
+    "A no-change control run and a review protocol with human-minute timing."
+  ],
+  "non_scoring_preflight": {
+    "asset": "benchmarks/case-bundles/sequential-inpaint-v1.json",
+    "case": "CH01 P07 legacy kitchen repair",
+    "seeds": [101, 202],
+    "reason": "It exercises mechanics only; it is not semantically equivalent to G07a/G07b."
+  }
+}

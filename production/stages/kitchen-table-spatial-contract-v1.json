@@ -1,0 +1,15 @@
+{
+  "record_type": "SpatialStageContract",
+  "schema_version": "1.0",
+  "record_id": "ng-stage-kitchen-table-contract-r1",
+  "set_id": "KITCHEN_NIGHT",
+  "authority_state": "CALIBRATED_2D_LEGACY_REFERENCE_NOT_CANONICAL_3D",
+  "intent_boundary": "Reusable spatial constraints for ComicPanelPlan adapters; not a RenderRecord and not an AnimationShotPlan/E-Conte.",
+  "source_assets": [{"asset_id":"ng-set-kitchen-night-legacy-r1","path":"ComfyUI/output/rm_table_00001_.png","sha256":"78121b674fd8c5526c7ddfd4ba72c53a8186a54a6be5d0d91421be3ea6c784d4"}],
+  "camera_profiles": [{"camera_id":"ng-camera-kitchen-table-seated-r1","kind":"comic_spatial_reference","horizon_y_fraction":0.44,"camera_height_m":1.1,"floor_near_y_fraction":0.99,"floor_far_y_fraction":0.74,"projection":"calibrated_plate_perspective","not_animation_camera":"Animation camera/e-conte must be a separate record."}],
+  "occluders": [{"occluder_id":"ng-occluder-kitchen-table-foreground-r1","polygon_normalized":[[0.4,0.62],[1.0,0.55],[1.0,1.0],[0.18,1.0]],"rule":"Re-composite this foreground table over actors placed behind it."}],
+  "anchor_contract": {"seated_table_left":{"x_range":[0.3,0.42],"depth_range":[0.45,0.65],"role":"comic placement anchor only"},"seated_table_right":{"x_range":[0.58,0.72],"depth_range":[0.45,0.65],"role":"comic placement anchor only"},"non_contact":"Actor influence regions must not overlap unless ComicPanelPlan explicitly declares contact."},
+  "adapter_outputs": {"geometry_proxy":"Permitted deterministic spatial control.","renderer_reference":"Permitted non-final reference input with explicit proxy/control limitations.","final_visible_art":"Not established by this contract."},
+  "freeze_requirements": ["Canonical controllable set asset with source/license provenance.","Camera calibration against canonical stage rather than generated plate.","Renderer-facing assets and no-change protocol validated independently.","Distinct animation-shot camera/e-conte contract when animation branch begins."],
+  "limitations": ["Legacy plate perspective is approximate and cannot establish canonical 3D grounding.","No actor identity, pose separability, or production acceptance follows from this contract.","Comic spatial cheats remain legitimate when declared in ComicPanelPlan."]
+}

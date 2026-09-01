@@ -1,0 +1,11 @@
+{
+  "record_type": "RendererAdapterControlExperiment",
+  "record_id": "ng-illustrious-xl-v2-blender-kitchen-g07-r1",
+  "state": "DRAFT_LOCAL_FICTIONAL_PROXY_NOT_FROZEN",
+  "semantic_source": {"path": "research/authoritative/v2.1.1/bench/gauntlet.json", "sha256": "f826b0f1d06ed5a999667bde23ba0d04f8ebb22f516095034dab62c7541ae9ae", "rule": "Read/hash-check only; do not mutate frozen content."},
+  "renderer_profile": "experiments/render-profiles/illustrious-xl-v2-local-r1.json",
+  "controls": "production/stages/controls/kitchen-table-blender-control-bundle-v2.json",
+  "scope": ["abstract token count", "screen role order", "common-table blocking", "non-contact", "normal-denoise no-change behavior"],
+  "exclusions": ["identity", "adult likeness", "child data", "final art", "production acceptance", "Stage-A score", "commercial eligibility"],
+  "workflow_constraints": {"checkpoint_only": true, "controlnet": "none", "lora": "none", "external_requests": false}
+}

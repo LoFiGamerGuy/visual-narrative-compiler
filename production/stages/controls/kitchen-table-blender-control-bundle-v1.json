@@ -1,0 +1,22 @@
+{
+  "record_type": "BenchmarkCaseBundleControlAsset",
+  "record_id": "ng-kitchen-table-blender-control-bundle-v1",
+  "state": "DRAFT_DIAGNOSTIC_ONLY_NOT_STAGE_A_COMPATIBLE_NOT_FROZEN",
+  "purpose": "Deterministic Blender-derived stage and neutral role-position controls for future adapter experiments. It does not modify or instantiate frozen gauntlet semantics.",
+  "source_authority": {
+    "geometry_manifest": "production/stages/kitchen-table-canonical-geometry-bootstrap-v1.json",
+    "obj_sha256": "20904fc8ddcaf561227a227a95eac3f2181744196da0f8e70da98df81c69effa",
+    "blend_sha256": "20cfdc7eefd5077152aed1c7eaccfdca9ec16daa8732b69eb40d3b4fc10779cd"
+  },
+  "builder": {"path": "src/north_garden/blender_build_kitchen_control_bundle.py", "sha256": "415ecaa39bfde2c9858341363b5bd9b9f2a905e3d4aef41cf0e212824ead2156", "tool": "Blender 5.2.1 LTS (9e2066aef7ef)", "network": false},
+  "camera": {"kind": "wide_diagnostic_control_camera", "xyz_m": [0.0, 2.2, -5.7], "target_xyz_m": [0.0, 0.65, 0.0], "lens_mm": 45, "not": ["legacy-comic-camera-match", "AnimationShotPlan", "final-art-camera"]},
+  "assets": [
+    {"id": "base_stage", "path": "experiments/outputs/blender_kitchen_control_bundle_v1/base-stage-r1.png", "sha256": "e99c3d3c9f4469a110b4b6fc137b16fde0b5dc4dc2930837c7f5352916dceb60"},
+    {"id": "g07a_neutral_role_positions", "path": "experiments/outputs/blender_kitchen_control_bundle_v1/g07a-role-id-r1.png", "sha256": "b5f1326365795389a3a532124f89f4e8b1c243ef556aecfcd2c9a739ee4dd46d", "coordinate_mapping": {"SOREN": "left_anchor_xyz_m [-0.95,0.0,-0.95], orange", "SIGRID": "right_anchor_xyz_m [0.95,0.0,-0.95], teal"}},
+    {"id": "g07b_neutral_role_positions", "path": "experiments/outputs/blender_kitchen_control_bundle_v1/g07b-role-id-r1.png", "sha256": "c6e5db5b43d7cb45e91e622f39525b1da7ff2be8abfe26ffe039db33f57962e5", "coordinate_mapping": {"SIGRID": "left_anchor_xyz_m [-0.95,0.0,-0.95], teal", "SOREN": "right_anchor_xyz_m [0.95,0.0,-0.95], orange"}}
+  ],
+  "no_change_protocol": {"input": "g07a_neutral_role_positions", "rerender": "experiments/outputs/blender_kitchen_control_bundle_v1/g07a-no-change-r1.png", "rerender_sha256": "b5f1326365795389a3a532124f89f4e8b1c243ef556aecfcd2c9a739ee4dd46d", "result": "bit_identical_pass", "scope": "Only deterministic Blender control construction; every image-renderer adapter must run and assess its own no-change controls."},
+  "hard_assertion_template": {"exactly_two_neutral_position_markers": "required", "declared_world_anchor_mapping": "required", "common_table_occluder": "required", "non_contact_separation": "required"},
+  "limitations": ["Colored cuboids are neither characters nor identity controls.", "The r1 source anchor labels are character-named while this camera projects world X-negative to screen-right; therefore this bundle must not support G07 panel-left/panel-right semantic scoring.", "No actual image-renderer run, set texture, camera match, final visible art, or frozen benchmark score is established."],
+  "freeze_gate": ["Version neutral world-coordinate anchors and an explicit world-to-comic-panel projection map (ADR-0012).", "Select a renderer adapter and version its control ingestion/workflow.", "Run renderer-specific no-change and error-injection controls.", "Calibrate a separately declared comic camera against approved production reference.", "Do not alter gauntlet semantic intent while doing so."]
+}

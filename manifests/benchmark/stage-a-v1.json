@@ -1,0 +1,25 @@
+{
+  "manifest_version": "1.0",
+  "purpose": "Frozen Stage-A selection imported from authoritative v2.1.1 without editing semantic cases.",
+  "semantic_source": "research/authoritative/v2.1.1/bench/gauntlet.json",
+  "semantic_source_sha256": "f826b0f1d06ed5a999667bde23ba0d04f8ebb22f516095034dab62c7541ae9ae",
+  "case_ids": [
+    "G07a",
+    "G07b",
+    "G09a",
+    "G09b",
+    "G11a",
+    "G13a",
+    "G13b",
+    "G15a",
+    "G21",
+    "G30",
+    "G20",
+    "G01"
+  ],
+  "seeds_per_case": 2,
+  "seed_selection": "first two frozen case seeds in authoritative source",
+  "renderer_generations": 24,
+  "executable_bundle_state": "NOT_YET_FROZEN",
+  "baseline_note": "baseline_legacy has no canonical 3D stage/control bundle. Its first smoke run is a failure-profile baseline, not a cross-renderer spatial comparison."
+}

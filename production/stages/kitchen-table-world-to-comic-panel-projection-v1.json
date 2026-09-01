@@ -1,0 +1,11 @@
+{
+  "record_type": "WorldToComicPanelProjectionMap",
+  "record_id": "ng-kitchen-table-world-to-comic-panel-diagnostic-r1",
+  "state": "DRAFT_CONTROL_MAPPING_NOT_FINAL_COMIC_CAMERA",
+  "stage_id": "ng-set-kitchen-table-canonical-geometry-r2",
+  "coordinate_frame": {"world": "right-handed Blender coordinates in metres, Y-up", "panel": "viewer-facing screen-left/screen-right"},
+  "camera": {"xyz_m": [0.0, 2.2, -5.7], "target_xyz_m": [0.0, 0.65, 0.0], "lens_mm": 45, "projection": "perspective"},
+  "verified_projection": {"screen_left": "Anchor_Seated_World_X_POS", "screen_right": "Anchor_Seated_World_X_NEG", "evidence": "experiments/outputs/blender_kitchen_control_bundle_v2/g07a-role-id-r1.png"},
+  "semantic_layout_examples": {"G07a": {"screen_left_role": "SOREN", "screen_left_world_anchor": "Anchor_Seated_World_X_POS", "screen_right_role": "SIGRID", "screen_right_world_anchor": "Anchor_Seated_World_X_NEG"}, "G07b": {"screen_left_role": "SIGRID", "screen_left_world_anchor": "Anchor_Seated_World_X_POS", "screen_right_role": "SOREN", "screen_right_world_anchor": "Anchor_Seated_World_X_NEG"}},
+  "boundary": "This map permits comic-plan adapter controls only. It is not embedded in shared set geometry and is not an AnimationShotPlan/E-Conte camera map."
+}

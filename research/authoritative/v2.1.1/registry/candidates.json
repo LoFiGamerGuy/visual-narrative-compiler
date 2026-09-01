@@ -1,0 +1,621 @@
+{
+ "generated": "2026-08-31",
+ "count": 53,
+ "candidates": [
+  {
+   "status": "\ud83d\udfe2",
+   "name": "Qwen-Image-Edit-2511",
+   "fields": [
+    "20B, Nov\u2013Dec 2025 (sources conflict)",
+    "**Apache 2.0**",
+    "**Yes, unrestricted**",
+    "Self-host, none",
+    "ComfyUI native",
+    "24GB w/ fp8 or GGUF; exact VRAM undocumented",
+    "Active",
+    "**Strongest single candidate.** Vendor claims two-person fusion; supports LoRA; primary repair engine"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "Illustrious-XL v2.0",
+   "fields": [
+    "relicensed 2025-04-21",
+    "**CreativeML Open RAIL (SDXL)**",
+    "Yes, w/ Attachment A downstream",
+    "Local",
+    "ComfyUI",
+    "24GB comfortable",
+    "Onoma AI active",
+    "Current base. SDXL family \u21d2 mature ControlNet + Impact Pack work"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "FLUX.2 [klein] 4B",
+   "fields": [
+    "2025-11-25",
+    "**Apache 2.0**",
+    "**Yes, model + outputs + LoRAs**",
+    "Local",
+    "ComfyUI",
+    "~13GB",
+    "BFL active",
+    "Cheap-iteration arm; the clean escape from FLUX licensing"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "FLUX.2 [klein] 9B",
+   "fields": [
+    "2025-11-25",
+    "**Ambiguous**",
+    "**Unresolved**",
+    "\u2014",
+    "\u2014",
+    "\u2014",
+    "Issue #32 open since 2026-01-21, no BFL response",
+    "**Treat as non-permissive until BFL answers**"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "FLUX.2 [dev]",
+   "fields": [
+    "32B",
+    "FLUX Non-Commercial v2.1",
+    "**Model: no. Outputs: yes**",
+    "Local",
+    "\u2014",
+    "24GB w/ aggressive quant, slow",
+    "Active",
+    "Outputs are commercially usable; **LoRA must stay private/undistributed**. \u26a0\ufe0f Verbatim \"Non-Commercial Purpose\" definition is gated (401) \u2014 **read before monetizing**"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "NoobAI-XL",
+   "fields": [
+    "\u2014",
+    "FAIPL 1.0-SD + added NC claim",
+    "**No**",
+    "\u2014",
+    "\u2014",
+    "\u2014",
+    "\u2014",
+    "**FAIPL defines training as modification \u21d2 share-alike on your LoRA.** Disqualifying for a proprietary character bible"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "Anima v1.1",
+   "fields": [
+    "2026-05-15, 2B",
+    "CircleStone NC",
+    "Model no; **selling generated images explicitly permitted**",
+    "Local",
+    "ComfyUI",
+    "Light",
+    "\u2014",
+    "Retired from this project (0.6B encoder), but outputs already made are fine"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "Cosmos-Predict2",
+   "fields": [
+    "NVIDIA OML",
+    "Commercially usable",
+    "Yes",
+    "Local",
+    "\u2014",
+    "\u2014",
+    "NVIDIA",
+    "Two live conditions: **no guardrail circumvention** (auto-terminates licence) and **\"Built on NVIDIA Cosmos\" attribution reaching your about page**"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "ComfyUI native LoRA hooks",
+   "fields": [
+    "**2024-12-02**",
+    "GPL-3.0 (core)",
+    "Yes",
+    "Yes",
+    "Via masks",
+    "Base + N LoRAs; slower than single patch",
+    "**Test first.** Attaches the weight patch to masked conditioning \u2014 the mechanism `ConditioningSetMask` lacked"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "Impact Pack RegionalSampler",
+   "fields": [
+    "v8.28, 2025-11-18",
+    "GPL-3.0",
+    "Yes",
+    "Yes, per-region LoRA",
+    "Via masks + ControlNet",
+    "SDXL-class",
+    "Viable **on Illustrious only**. Docs concede harmony loss; no evidence of Qwen/FLUX.2 support"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "Sequential inpaint (Impact Detailers)",
+   "fields": [
+    "\u2014",
+    "GPL-3.0",
+    "Yes",
+    "Yes, serially",
+    "By construction",
+    "Modest",
+    "**Identity finisher.** Per-node model input \u21d2 two Detailers, one LoRA each. Feathering + crop-factor solve lighting integration"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "Nano Banana Pro",
+   "fields": [
+    "2025-11-20",
+    "Proprietary API",
+    "Yes",
+    "Claims **5 people**",
+    "Named slots, practitioner-documented confusion",
+    "API",
+    "Staging arm. **Paid tier only** \u2014 free tier trains + human review"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "XVerse",
+   "fields": [
+    "NeurIPS 2025",
+    "Apache code / FLUX-dev + InsightFace weights",
+    "**No**",
+    "2\u20133",
+    "Modulation, not spatial",
+    "24GB (2 refs)",
+    "Blocked by weight licensing"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "WithAnyone",
+   "fields": [
+    "ICLR 2026",
+    "FLUX.1[dev] NC v1.1.1",
+    "**No**",
+    "Yes",
+    "**Explicit face bboxes \u2014 best UX found**",
+    "\u2014",
+    "Blocked. **Steal the bbox-conditioning idea**"
+   ]
+  },
+  {
+   "status": "\u2b1c",
+   "name": "MultiCrafter",
+   "fields": [
+    "CVPR 2026",
+    "Unknown",
+    "Unknown",
+    "2 validated",
+    "**Yes \u2014 trained positional supervision**",
+    "\u2014",
+    "Best published multi-human Face-Sim **0.5284**. Watch for code release"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "DiffSensei",
+   "fields": [
+    "last news 2025-02-05",
+    "Unstated",
+    "Unclear",
+    "Manga-specific",
+    "Unclear",
+    "24GB",
+    "Stale, SDXL-era, licence unclear. Deprioritize"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "StoryDiffusion",
+   "fields": [
+    "NeurIPS 2024",
+    "Apache 2.0",
+    "Yes",
+    "**No \u2014 single character across frames**",
+    "No",
+    "\u2014",
+    "Wrong problem"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "Blender",
+   "fields": [
+    "**5.2 LTS, 2026-07-14** (5.2.1, 2026-08-25); LTS to Jul 2028",
+    "GPLv2+",
+    "Yes",
+    "\u2014",
+    "Active",
+    "Spatial truth: camera, scale, occlusion, blocking"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "bpy (headless)",
+   "fields": [
+    "5.2.1 on PyPI, 2026-08-25, **Python 3.13 only**",
+    "GPLv2+",
+    "Yes",
+    "\u2014",
+    "Active",
+    "Scripted staging"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "toyxyz character-bones rig",
+   "fields": [
+    "v101, Gumroad, $0 PWYW, needs Blender 3.5+",
+    "**No licence text published anywhere**",
+    "**Unverified**",
+    "\u2014",
+    "Bus factor 1, no issue tracker",
+    "Emits OpenPose+depth+normal+canny+**per-character seg masks** in one pass. **Use but do not redistribute; keep a scripted fallback**"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "RealityScan 2.0",
+   "fields": [
+    "2025-06-17",
+    "Free below Epic revenue threshold",
+    "Yes",
+    "\u2014",
+    "Epic",
+    "Photogrammetry for 5\u201310 hero objects only"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "3DGS as set geometry",
+   "fields": [
+    "\u2014",
+    "\u2014",
+    "\u2014",
+    "\u2014",
+    "\u2014",
+    "**Retired.** No occlusion boundary; photogrammetry beats it on metric accuracy `PEER_REVIEWED`"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "KIRI 3DGS Render for Blender",
+   "fields": [
+    "v5.0.0, 2026-06-05",
+    "**Apache 2.0**",
+    "Yes",
+    "\u2014",
+    "Active",
+    "The one splat tool with a clean licence. Tracing reference only"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "World Labs Marble",
+   "fields": [
+    "launched 2025-11-12",
+    "Proprietary",
+    "**Pro $35/mo minimum** \u2014 free & Standard have **no commercial rights**",
+    "\u2014",
+    "Active",
+    "Look-dev / establishing only. \u26a0\ufe0f **Claims a training licence on your uploads** (irrevocable free, revocable+opt-out paid). **Never upload photos containing the child**"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "TRELLIS.2-4B",
+   "fields": [
+    "arXiv 2512.14692",
+    "**MIT**",
+    "Yes",
+    "**\u226524GB \u2014 no headroom**",
+    "Microsoft",
+    "Props only, never leads or sets"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "Hunyuan3D / HY-World",
+   "fields": [
+    "HY-World 2.1, Jul 2026",
+    "Tencent Community",
+    "Yes in US; **excludes EU/UK/South Korea**",
+    "\u2014",
+    "Active",
+    "Props / look-dev. Territory exclusion bars EU distribution partners"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "Meshy",
+   "fields": [
+    "\u2014",
+    "Proprietary",
+    "**Free tier = CC BY 4.0 (attribution)**; paid = you own",
+    "API on paid",
+    "Hosted",
+    "Props. States no training without consent (vendor claim)"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "Tripo",
+   "fields": [
+    "Pro $20/mo",
+    "Proprietary",
+    "**Paid only** \u2014 free is public/non-commercial",
+    "Yes",
+    "Hosted",
+    "Props"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "Character Creator 5",
+   "fields": [
+    "2025-08-27; $299 perpetual",
+    "Reallusion",
+    "**Standard License covers comic/film output royalty-free**",
+    "\u2014",
+    "Active",
+    "**Defer to the animation transition**"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "Reallusion Headshot 3",
+   "fields": [
+    "2026-04-27",
+    "\u2014",
+    "\u2014",
+    "Cloud (Nano Banana)",
+    "\u2014",
+    "**FORBIDDEN \u2014 explicitly a digital-double / likeness pipeline**"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "FiftyOne",
+   "fields": [
+    "v1.15.0 docs, Python 3.10\u20133.14",
+    "**Apache 2.0**",
+    "Yes",
+    "**Adopt, don't build.** Local; tagging; embeddings panel shows drift as a visible smear"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "DINOv2",
+   "fields": [
+    "\u2014",
+    "**Apache 2.0**",
+    "Yes",
+    "Structural identity embedding. Safer default than v3"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "DINOv3",
+   "fields": [
+    "2025-08-19",
+    "Bespoke \"DINOv3 License\"",
+    "Yes, w/ conditions",
+    "Better embeddings; **read LICENSE.md before shipping**"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "AuraFace",
+   "fields": [
+    "2024-08-26",
+    "Commercial-safe by design",
+    "Yes",
+    "**Face embedding replacement for InsightFace.** Lower accuracy (CFP-FP 95.18 vs 98.87)"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "InsightFace (antelopev2, buffalo_l, SCRFD, RetinaFace)",
+   "fields": [
+    "repo update 2025-11-24",
+    "Code MIT; **weights non-commercial research only**",
+    "**No**",
+    "\ud83d\udd34 **SILENT CONTAMINANT.** Auto-pulled by InstantID, IP-Adapter-FaceID, ReActor, most face-consistency nodes. **Grep `models/insightface/` now**"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "SAM 2",
+   "fields": [
+    "\u2014",
+    "**Apache 2.0**",
+    "Yes",
+    "Segmentation. **Pin it**"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "SAM 3",
+   "fields": [
+    "LICENSE 2025-11-19",
+    "Bespoke \"SAM License\"",
+    "Conditions",
+    "**Licence regression.** Do not auto-upgrade"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "GroundingDINO",
+   "fields": [
+    "\u2014",
+    "Apache 2.0",
+    "Yes",
+    "Open-vocab prop/character detection"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "ViStoryBench",
+   "fields": [
+    "CVPR 2026; code 2025-08-19",
+    "**Code Apache 2.0 / data MIT**",
+    "Yes",
+    "Metric implementations to reuse. Ensembles 3 face models + CLIP \u2014 take the design"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "Audit & Repair",
+   "fields": [
+    "arXiv 2506.18900, Jun 2025",
+    "\u2014",
+    "\u2014",
+    "**Code never released** (\"coming soon\", ~14 mo). Architectural reference only"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "manga-image-translator / BallonsTranslator",
+   "fields": [
+    "GPL-3.0",
+    "GPL-3.0",
+    "**Copyleft**",
+    "**Harvest ideas or run as a separate process \u2014 do not link.** Useful for *read-back QA* of your own pages"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "Magi",
+   "fields": [
+    "v3 Mar 2025",
+    "**Academic research only**",
+    "**No**",
+    "Excluded, though it is the ideal comic-CV stack"
+   ]
+  },
+  {
+   "status": "\u2b1c",
+   "name": "ToonComposer",
+   "fields": [
+    "ICLR 2026; weights 2025-08-15",
+    "**Unstated \u2014 verify LICENSE**",
+    "**~57GB for 61 frames @480p**",
+    "Exactly the right tool. Does not run on 24GB"
+   ]
+  },
+  {
+   "status": "\u2b1c",
+   "name": "Wan 2.2 Animate-14B",
+   "fields": [
+    "2025-09-19",
+    "**Apache 2.0**",
+    "14\u201316GB fp8+offload; 8\u201310GB GGUF",
+    "Needs a **driving video**. Never drive from child footage"
+   ]
+  },
+  {
+   "status": "\u2b1c",
+   "name": "Wan2.2-Animate-2-14B",
+   "fields": [
+    "2026-08-07",
+    "Apache 2.0",
+    "**8\u00d7 A800 documented**",
+    "Removed pose conditioning \u2014 field moving away from our interface"
+   ]
+  },
+  {
+   "status": "\u2b1c",
+   "name": "SCAIL-2-14B",
+   "fields": [
+    "arXiv 2606.10804",
+    "Apache 2.0",
+    "Undocumented",
+    "Accepts Blender-rendered mesh as driver \u2014 relevant"
+   ]
+  },
+  {
+   "status": "\u2b1c",
+   "name": "LTX-2.5",
+   "fields": [
+    "2026-08-11",
+    "Free commercial <$10M ARR",
+    "**16GB min**",
+    "Best hardware fit found. Officially unverified"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "Cascadeur",
+   "fields": [
+    "2026.2, 2026-08-06",
+    "Indie **$96/yr**, perpetual after 1yr",
+    "\u2014",
+    "Best value in this report. Quadruped-aware; **MCP server for LLM control**"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "Sora API",
+   "fields": [
+    "\u2014",
+    "\u2014",
+    "\u2014",
+    "**Removed 2026-09-24.** Do not build on it"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "Kling",
+   "fields": [
+    "ToS 2026-04-21",
+    "Proprietary",
+    "\u2014",
+    "**\u00a74.6 forbids commercial use of outputs without written permission**"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe1",
+   "name": "Luma",
+   "fields": [
+    "\u2014",
+    "Proprietary",
+    "\u2014",
+    "**Free/Lite output is permanently non-commercial and permanently watermarked.** Never prototype on free"
+   ]
+  },
+  {
+   "status": "\ud83d\udfe2",
+   "name": "Kokoro-82M",
+   "fields": [
+    "\u2014",
+    "**Apache 2.0**",
+    "CPU, faster than realtime",
+    "**Cannot clone by design \u2014 the safety feature.** Recommended default for the child voice"
+   ]
+  },
+  {
+   "status": "\ud83d\udd34",
+   "name": "XTTS v2",
+   "fields": [
+    "\u2014",
+    "CPML **non-commercial**",
+    "\u2014",
+    "Coqui closed Jan 2024. Unmaintained + unusable"
+   ]
+  }
+ ]
+}

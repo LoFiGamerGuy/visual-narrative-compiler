@@ -1,0 +1,124 @@
+{
+  "record_type": "ResolvedComicSpatialInputs",
+  "state": "INTENT_DERIVED_NOT_RENDER_PROVENANCE",
+  "plans_source_sha256": "7cd07559becdbcb926b3f1498ac8f270ece1c0af215fa5b5bef27b46f88deb42",
+  "stage_source_sha256": "d93b19341c9ed1f0a30f0668f13ece085a16f909f4fe2e2c089174b686497851",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "resolved": [
+    {
+      "panel_id": "ng-ch01-sc01-p006-r1",
+      "spatial_mode": "grounded",
+      "camera_profile": "ng-camera-kitchen-table-seated-r1",
+      "occluders": [
+        "ng-occluder-kitchen-table-foreground-r1"
+      ],
+      "placements": [
+        {
+          "role": "SOREN",
+          "anchor": "seated_table_left",
+          "x_normalized": 0.36,
+          "depth_normalized": 0.55
+        },
+        {
+          "role": "SIGRID",
+          "world_xyz_m": [
+            1.9,
+            0.0,
+            1.7
+          ],
+          "posture": "standing_back"
+        }
+      ],
+      "adapter_limitations": [
+        "Legacy plate perspective is approximate and cannot establish canonical 3D grounding.",
+        "No actor identity, pose separability, or production acceptance follows from this contract.",
+        "Comic spatial cheats remain legitimate when declared in ComicPanelPlan."
+      ]
+    },
+    {
+      "panel_id": "ng-ch01-sc01-p007-r1",
+      "spatial_mode": "grounded",
+      "camera_profile": "ng-camera-kitchen-table-seated-r1",
+      "occluders": [
+        "ng-occluder-kitchen-table-foreground-r1"
+      ],
+      "placements": [
+        {
+          "role": "SOREN",
+          "anchor": "seated_table_left",
+          "x_normalized": 0.36,
+          "depth_normalized": 0.55
+        },
+        {
+          "role": "SIGRID",
+          "anchor": "seated_table_right",
+          "x_normalized": 0.6499999999999999,
+          "depth_normalized": 0.55
+        }
+      ],
+      "adapter_limitations": [
+        "Legacy plate perspective is approximate and cannot establish canonical 3D grounding.",
+        "No actor identity, pose separability, or production acceptance follows from this contract.",
+        "Comic spatial cheats remain legitimate when declared in ComicPanelPlan."
+      ]
+    },
+    {
+      "panel_id": "ng-ch01-sc01-p008-r1",
+      "spatial_mode": "grounded",
+      "camera_profile": "ng-camera-kitchen-table-seated-r1",
+      "occluders": [
+        "ng-occluder-kitchen-table-foreground-r1"
+      ],
+      "placements": [
+        {
+          "role": "SOREN",
+          "anchor": "seated_table_left",
+          "x_normalized": 0.36,
+          "depth_normalized": 0.55
+        },
+        {
+          "role": "SIGRID",
+          "anchor": "seated_table_right",
+          "x_normalized": 0.6499999999999999,
+          "depth_normalized": 0.55
+        }
+      ],
+      "adapter_limitations": [
+        "Legacy plate perspective is approximate and cannot establish canonical 3D grounding.",
+        "No actor identity, pose separability, or production acceptance follows from this contract.",
+        "Comic spatial cheats remain legitimate when declared in ComicPanelPlan."
+      ]
+    },
+    {
+      "panel_id": "ng-ch01-sc01-p010-r1",
+      "spatial_mode": "grounded",
+      "camera_profile": "ng-camera-kitchen-table-seated-r1",
+      "occluders": [
+        "ng-occluder-kitchen-table-foreground-r1"
+      ],
+      "placements": [
+        {
+          "role": "SOREN",
+          "anchor": "seated_table_left",
+          "x_normalized": 0.36,
+          "depth_normalized": 0.55
+        },
+        {
+          "role": "SIGRID",
+          "world_xyz_m": [
+            1.65,
+            0.0,
+            1.45
+          ],
+          "posture": "standing_back"
+        }
+      ],
+      "adapter_limitations": [
+        "Legacy plate perspective is approximate and cannot establish canonical 3D grounding.",
+        "No actor identity, pose separability, or production acceptance follows from this contract.",
+        "Comic spatial cheats remain legitimate when declared in ComicPanelPlan."
+      ]
+    }
+  ]
+}

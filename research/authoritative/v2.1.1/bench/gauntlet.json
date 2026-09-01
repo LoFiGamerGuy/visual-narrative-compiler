@@ -1,0 +1,1463 @@
+{
+ "schema_version": "1.2",
+ "semantic_freeze": {
+  "frozen": "2026-08-31",
+  "frozen_ids": "G01-G30 semantic intent is frozen and must not be edited",
+  "note": "SEMANTIC freeze only. This file does NOT yet constitute an executable frozen harness - see executable_bundle_status."
+ },
+ "executable_bundle_status": {
+  "state": "NOT_YET_FROZEN",
+  "reason": "A BenchmarkCaseBundle must additionally pin SpatialStageSpec.mode, the camera/stage bundle, set asset id+version+hash, proxy transforms, mask/depth/control asset hashes, the semantic input/prompt compiler version, and the benchmark adapter version. Until then two arms can receive materially different staging while both claim to have run G13a.",
+  "required_fields": [
+   "spatial_mode",
+   "stage_bundle_hash",
+   "set_asset_id",
+   "set_asset_version",
+   "set_asset_hash",
+   "proxy_transforms_hash",
+   "control_asset_hashes",
+   "prompt_compiler_version",
+   "benchmark_adapter_version"
+  ],
+  "bootstrapping_note": "The bundle cannot be authored before at least one renderer arm exists, because the control-asset set is adapter-dependent. Order: semantic freeze now (done) -> build arm 1 -> author and version BenchmarkCaseBundle v1 -> only then call the harness frozen.",
+  "adapter_rule": "Different renderer adapters MAY translate semantic intent differently. The translation and compiler version MUST be recorded on every RenderRecord."
+ },
+ "tiers": {
+  "N": "Neutral",
+  "O": "Occlusion",
+  "I": "Interaction",
+  "SET": "Set continuity",
+  "VFX": "Effects/expression"
+ },
+ "variant_axes": [
+  "depth_role_swap",
+  "focus_role_swap",
+  "interaction_role_swap",
+  "left_right_swap",
+  "near_far_swap"
+ ],
+ "render_cases": [
+  {
+   "id": "G01",
+   "tier": "N",
+   "set": "KITCHEN",
+   "description": "SOREN alone, seated at table, three-quarter, mid shot",
+   "probe": "single identity baseline",
+   "cast": [
+    "SOREN"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN"
+    ],
+    "wardrobe": {
+     "SOREN": "day0"
+    },
+    "props": [
+     "table",
+     "mug"
+    ],
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G02",
+   "tier": "N",
+   "set": "KITCHEN",
+   "description": "SIGRID alone, close, tired, not looking at viewer",
+   "probe": "single identity close + expression",
+   "cast": [
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SIGRID"
+    ],
+    "wardrobe": {
+     "SIGRID": "day0"
+    },
+    "expression": {
+     "SIGRID": "tired"
+    },
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G03",
+   "tier": "N",
+   "set": "RIDGE",
+   "description": "SOREN alone, full figure, wide, small in frame",
+   "probe": "identity at small scale",
+   "cast": [
+    "SOREN"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN"
+    ],
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G04",
+   "tier": "N",
+   "set": "KITCHEN",
+   "description": "SIGRID day-zero wardrobe: wool coat over pyjamas, no axes, no tattoos",
+   "probe": "wardrobe variant binding",
+   "cast": [
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SIGRID"
+    ],
+    "wardrobe": {
+     "SIGRID": "day0"
+    },
+    "props_forbidden": [
+     "axe",
+     "tattoo",
+     "harness"
+    ],
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G05",
+   "tier": "N",
+   "set": "RIDGE",
+   "description": "SIGRID post-integration: plaid wrap, leather harness, two axes, woad forearms",
+   "probe": "same person different era",
+   "cast": [
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SIGRID"
+    ],
+    "wardrobe": {
+     "SIGRID": "post"
+    },
+    "props": [
+     "axe",
+     "axe"
+    ],
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G06",
+   "tier": "N",
+   "set": "PORCH",
+   "description": "SOREN alone on porch steps, hands on knees, quiet",
+   "probe": "quiet domestic single",
+   "cast": [
+    "SOREN"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN"
+    ],
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G07a",
+   "tier": "N",
+   "set": "KITCHEN",
+   "description": "SOREN left, SIGRID right, both seated at table, not touching",
+   "probe": "two-identity baseline",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "layout": {
+     "left": "SOREN",
+     "right": "SIGRID"
+    },
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "left_right_swap",
+   "variant_discriminator": "layout",
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G07b",
+   "tier": "N",
+   "set": "KITCHEN",
+   "description": "SIGRID left, SOREN right, otherwise identical to G07a",
+   "probe": "mirror: detects learned prompt order",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "layout": {
+     "left": "SIGRID",
+     "right": "SOREN"
+    },
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "left_right_swap",
+   "variant_discriminator": "layout",
+   "paired_variant_of": "G07a",
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G08a",
+   "tier": "N",
+   "set": "RIDGE",
+   "description": "SOREN left, SIGRID right, standing apart, wide",
+   "probe": "two identities wide separated",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "layout": {
+     "left": "SOREN",
+     "right": "SIGRID"
+    },
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "left_right_swap",
+   "variant_discriminator": "layout",
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G08b",
+   "tier": "N",
+   "set": "RIDGE",
+   "description": "mirror of G08a",
+   "probe": "mirror",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "layout": {
+     "left": "SIGRID",
+     "right": "SOREN"
+    },
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "left_right_swap",
+   "variant_discriminator": "layout",
+   "paired_variant_of": "G08a",
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G09a",
+   "tier": "O",
+   "set": "KITCHEN",
+   "description": "SIGRID seated behind table; SOREN standing nearer camera, overlapping her",
+   "probe": "depth ordering + occlusion",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "depth_order": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "occluder": "table",
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "depth_role_swap",
+   "variant_discriminator": "depth_order",
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G09b",
+   "tier": "O",
+   "set": "KITCHEN",
+   "description": "mirror of G09a",
+   "probe": "mirror",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "depth_order": [
+     "SIGRID",
+     "SOREN"
+    ],
+    "occluder": "table",
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "depth_role_swap",
+   "variant_discriminator": "depth_order",
+   "paired_variant_of": "G09a",
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G10a",
+   "tier": "O",
+   "set": "KITCHEN",
+   "description": "SOREN foreground back-to-camera defocused; SIGRID midground facing, in focus",
+   "probe": "fg/bg role binding under defocus",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "depth_order": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "focus": "SIGRID",
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "focus_role_swap",
+   "variant_discriminator": "focus",
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G10b",
+   "tier": "O",
+   "set": "KITCHEN",
+   "description": "mirror of G10a",
+   "probe": "mirror",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "depth_order": [
+     "SIGRID",
+     "SOREN"
+    ],
+    "focus": "SOREN",
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "focus_role_swap",
+   "variant_discriminator": "focus",
+   "paired_variant_of": "G10a",
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G11a",
+   "tier": "O",
+   "set": "RIDGE",
+   "description": "SOREN near and large; SIGRID far and small, both standing",
+   "probe": "scale by depth",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "relative_scale": {
+     "SOREN": "near",
+     "SIGRID": "far"
+    },
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "near_far_swap",
+   "variant_discriminator": "relative_scale",
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G11b",
+   "tier": "O",
+   "set": "RIDGE",
+   "description": "mirror of G11a",
+   "probe": "mirror",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "relative_scale": {
+     "SIGRID": "near",
+     "SOREN": "far"
+    },
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "near_far_swap",
+   "variant_discriminator": "relative_scale",
+   "paired_variant_of": "G11a",
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G12a",
+   "tier": "O",
+   "set": "KITCHEN",
+   "description": "SIGRID in doorway far, entering; SOREN seated near, turned to look back",
+   "probe": "role binding across depth gap",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "relative_scale": {
+     "SOREN": "near",
+     "SIGRID": "far"
+    },
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "near_far_swap",
+   "variant_discriminator": "relative_scale",
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G12b",
+   "tier": "O",
+   "set": "KITCHEN",
+   "description": "mirror of G12a",
+   "probe": "mirror",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "relative_scale": {
+     "SIGRID": "near",
+     "SOREN": "far"
+    },
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "near_far_swap",
+   "variant_discriminator": "relative_scale",
+   "paired_variant_of": "G12a",
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G21",
+   "tier": "O",
+   "set": "KITCHEN",
+   "description": "SOREN seated, BEAST looming behind him, partly cut by frame edge",
+   "probe": "non-humanoid occluder; beast species-neutrality",
+   "cast": [
+    "SOREN",
+    "BEAST"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN"
+    ],
+    "creatures": [
+     "BEAST"
+    ],
+    "forbidden": [
+     "bull",
+     "cow",
+     "deer",
+     "horse",
+     "humanoid enemy"
+    ],
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G24",
+   "tier": "O",
+   "set": "PORCH",
+   "description": "SOREN and SIGRID; SIGRID wearing SOREN's coat",
+   "probe": "adversarial wardrobe cross-binding",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "wardrobe": {
+     "SIGRID": "sorens_coat"
+    },
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G13a",
+   "tier": "I",
+   "set": "KITCHEN",
+   "description": "SIGRID hands a mug to SOREN, hands touching, both seated",
+   "probe": "prop handoff + contact",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "props": [
+     "mug"
+    ],
+    "contact": true,
+    "count": 2,
+    "interaction_roles": {
+     "giver": "SIGRID",
+     "receiver": "SOREN",
+     "object": "mug"
+    }
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "interaction_role_swap",
+   "variant_discriminator": "interaction_roles",
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G13b",
+   "tier": "I",
+   "set": "KITCHEN",
+   "description": "mirror of G13a",
+   "probe": "mirror",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "props": [
+     "mug"
+    ],
+    "contact": true,
+    "count": 2,
+    "interaction_roles": {
+     "giver": "SOREN",
+     "receiver": "SIGRID",
+     "object": "mug"
+    }
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "interaction_role_swap",
+   "variant_discriminator": "interaction_roles",
+   "paired_variant_of": "G13a",
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G14a",
+   "tier": "I",
+   "set": "PORCH",
+   "description": "SOREN takes an axe from SIGRID; axe in both their hands",
+   "probe": "prop contact, canonical object",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "props": [
+     "axe"
+    ],
+    "contact": true,
+    "count": 2,
+    "interaction_roles": {
+     "giver": "SIGRID",
+     "receiver": "SOREN",
+     "object": "axe"
+    }
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "interaction_role_swap",
+   "variant_discriminator": "interaction_roles",
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G14b",
+   "tier": "I",
+   "set": "PORCH",
+   "description": "mirror of G14a",
+   "probe": "mirror",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "props": [
+     "axe"
+    ],
+    "contact": true,
+    "count": 2,
+    "interaction_roles": {
+     "giver": "SOREN",
+     "receiver": "SIGRID",
+     "object": "axe"
+    }
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "interaction_role_swap",
+   "variant_discriminator": "interaction_roles",
+   "paired_variant_of": "G14a",
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G15a",
+   "tier": "I",
+   "set": "RIDGE",
+   "description": "back to back mid-fight, both heads turned toward camera, motion",
+   "probe": "action + contact + two faces",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "contact": true,
+    "action": true,
+    "count": 2,
+    "layout": {
+     "left": "SOREN",
+     "right": "SIGRID"
+    }
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "left_right_swap",
+   "variant_discriminator": "layout",
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "cheated"
+  },
+  {
+   "id": "G15b",
+   "tier": "I",
+   "set": "RIDGE",
+   "description": "mirror of G15a",
+   "probe": "mirror",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "contact": true,
+    "action": true,
+    "count": 2,
+    "layout": {
+     "left": "SIGRID",
+     "right": "SOREN"
+    }
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "left_right_swap",
+   "variant_discriminator": "layout",
+   "paired_variant_of": "G15a",
+   "case_type": "render_case",
+   "spatial_mode": "cheated"
+  },
+  {
+   "id": "G16a",
+   "tier": "I",
+   "set": "RIDGE",
+   "description": "SOREN half-carrying SIGRID out of a treeline, her arm over his shoulders",
+   "probe": "sustained contact, no camera-facing",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "contact": true,
+    "count": 2,
+    "interaction_roles": {
+     "carrier": "SOREN",
+     "carried": "SIGRID"
+    }
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "interaction_role_swap",
+   "variant_discriminator": "interaction_roles",
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G16b",
+   "tier": "I",
+   "set": "RIDGE",
+   "description": "mirror of G16a",
+   "probe": "mirror",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "contact": true,
+    "count": 2,
+    "interaction_roles": {
+     "carrier": "SIGRID",
+     "carried": "SOREN"
+    }
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": "interaction_role_swap",
+   "variant_discriminator": "interaction_roles",
+   "paired_variant_of": "G16a",
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G27",
+   "tier": "I",
+   "set": "RIDGE",
+   "description": "SIGRID charging the BEAST, extreme foreshortening, low angle",
+   "probe": "action vs non-humanoid, extreme perspective",
+   "cast": [
+    "SIGRID",
+    "BEAST"
+   ],
+   "manifest": {
+    "characters": [
+     "SIGRID"
+    ],
+    "creatures": [
+     "BEAST"
+    ],
+    "action": true,
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "cheated"
+  },
+  {
+   "id": "G30",
+   "tier": "I",
+   "set": "KITCHEN",
+   "description": "SOREN and SIGRID arguing across the table without raising voices; max space between them, neither facing camera",
+   "probe": "quiet two-hander domestic acting",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "contact": false,
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G19",
+   "tier": "SET",
+   "set": "KITCHEN",
+   "description": "wide from the doorway",
+   "probe": "set establishing reference",
+   "cast": [],
+   "manifest": {
+    "characters": [],
+    "landmarks": [
+     "woodstove",
+     "table",
+     "laptop",
+     "shelves",
+     "back_door"
+    ],
+    "count": 0
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G20",
+   "tier": "SET",
+   "set": "KITCHEN",
+   "description": "reverse of G19: from the stove looking back at the door",
+   "probe": "reverse angle same-room identity",
+   "cast": [],
+   "manifest": {
+    "characters": [],
+    "landmarks": [
+     "woodstove",
+     "table",
+     "laptop",
+     "shelves",
+     "back_door"
+    ],
+    "count": 0
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G22",
+   "tier": "SET",
+   "set": "KITCHEN",
+   "description": "medium across the table toward the stove",
+   "probe": "recurring view",
+   "cast": [],
+   "manifest": {
+    "characters": [],
+    "landmarks": [
+     "woodstove",
+     "table"
+    ],
+    "count": 0
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G23",
+   "tier": "SET",
+   "set": "KITCHEN",
+   "description": "close on stove corner, firelight on floorboards",
+   "probe": "recurring detail view",
+   "cast": [],
+   "manifest": {
+    "characters": [],
+    "landmarks": [
+     "woodstove"
+    ],
+    "count": 0
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G17",
+   "tier": "SET",
+   "set": "KITCHEN",
+   "description": "two-character shot reusing the G19 camera",
+   "probe": "set + identity together",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "landmarks": [
+     "woodstove",
+     "table"
+    ],
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G18",
+   "tier": "SET",
+   "set": "KITCHEN",
+   "description": "two-character shot reusing the G20 reverse camera",
+   "probe": "set + identity, reverse",
+   "cast": [
+    "SOREN",
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN",
+     "SIGRID"
+    ],
+    "landmarks": [
+     "woodstove",
+     "back_door"
+    ],
+    "count": 2
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "grounded"
+  },
+  {
+   "id": "G28",
+   "tier": "VFX",
+   "set": "RIDGE",
+   "description": "SIGRID additive power: storm light, roots, growth; things appear",
+   "probe": "additive VFX legibility",
+   "cast": [
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SIGRID"
+    ],
+    "vfx": "additive",
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "2d_only"
+  },
+  {
+   "id": "G29",
+   "tier": "VFX",
+   "set": "RIDGE",
+   "description": "SOREN subtractive power: clean circle of absolute black, world bends toward it",
+   "probe": "subtractive VFX; light wardrobe required",
+   "cast": [
+    "SOREN"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN"
+    ],
+    "vfx": "subtractive",
+    "wardrobe": {
+     "SOREN": "light_never_black"
+    },
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "2d_only"
+  },
+  {
+   "id": "G25",
+   "tier": "VFX",
+   "set": "KITCHEN",
+   "description": "SIGRID close, expression fear",
+   "probe": "expression range",
+   "cast": [
+    "SIGRID"
+   ],
+   "manifest": {
+    "characters": [
+     "SIGRID"
+    ],
+    "expression": {
+     "SIGRID": "fear"
+    },
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "2d_only"
+  },
+  {
+   "id": "G26",
+   "tier": "VFX",
+   "set": "KITCHEN",
+   "description": "SOREN close, expression cold anger",
+   "probe": "expression range",
+   "cast": [
+    "SOREN"
+   ],
+   "manifest": {
+    "characters": [
+     "SOREN"
+    ],
+    "expression": {
+     "SOREN": "cold_anger"
+    },
+    "count": 1
+   },
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "variant_axis": null,
+   "variant_discriminator": null,
+   "paired_variant_of": null,
+   "case_type": "render_case",
+   "spatial_mode": "2d_only"
+  }
+ ],
+ "qa_controls": [
+  {
+   "id": "C01",
+   "case_type": "derived_qa_control",
+   "control_of": "G07a",
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "expect_no_change": true,
+   "description": "Re-render of G07a at each shared seed. GROUND TRUTH: nothing changed.",
+   "probe": "any QA flag here is a FABRICATED error (false alarm)"
+  },
+  {
+   "id": "C02",
+   "case_type": "derived_qa_control",
+   "control_of": "G09a",
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "expect_no_change": true,
+   "description": "Re-render of G09a at each shared seed. GROUND TRUTH: nothing changed.",
+   "probe": "any QA flag here is a FABRICATED error (false alarm)"
+  },
+  {
+   "id": "C03",
+   "case_type": "derived_qa_control",
+   "control_of": "G13a",
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "expect_no_change": true,
+   "description": "Re-render of G13a at each shared seed. GROUND TRUTH: nothing changed.",
+   "probe": "any QA flag here is a FABRICATED error (false alarm)"
+  },
+  {
+   "id": "C04",
+   "case_type": "derived_qa_control",
+   "control_of": "G19",
+   "seeds": [
+    101,
+    202,
+    303
+   ],
+   "expect_no_change": true,
+   "description": "Re-render of G19 at each shared seed. GROUND TRUTH: nothing changed.",
+   "probe": "any QA flag here is a FABRICATED error (false alarm)"
+  }
+ ],
+ "qa_error_injection": [
+  {
+   "id": "E01",
+   "case_type": "derived_qa_injection",
+   "derived_from": "G07a",
+   "error_class": "identity_role_swap",
+   "mutation": "swap the two character labels in the manifest, not the image",
+   "expect_detection": true
+  },
+  {
+   "id": "E02",
+   "case_type": "derived_qa_injection",
+   "derived_from": "G07a",
+   "error_class": "wardrobe_mismatch",
+   "mutation": "declare wardrobe day0 where the render shows post_integration",
+   "expect_detection": true
+  },
+  {
+   "id": "E03",
+   "case_type": "derived_qa_injection",
+   "derived_from": "G13a",
+   "error_class": "required_prop_missing",
+   "mutation": "remove the mug from the render by inpainting",
+   "expect_detection": true
+  },
+  {
+   "id": "E04",
+   "case_type": "derived_qa_injection",
+   "derived_from": "G13a",
+   "error_class": "forbidden_prop_present",
+   "mutation": "composite an axe into a day-zero panel",
+   "expect_detection": true
+  },
+  {
+   "id": "E05",
+   "case_type": "derived_qa_injection",
+   "derived_from": "G19",
+   "error_class": "set_landmark_moved",
+   "mutation": "translate the woodstove 1.5m along the wall",
+   "expect_detection": true
+  },
+  {
+   "id": "E06",
+   "case_type": "derived_qa_injection",
+   "derived_from": "G09a",
+   "error_class": "character_count_wrong",
+   "mutation": "duplicate one character into the frame",
+   "expect_detection": true
+  },
+  {
+   "id": "E07",
+   "case_type": "derived_qa_injection",
+   "derived_from": "G11a",
+   "error_class": "left_right_role_altered",
+   "mutation": "horizontally flip the panel without updating the manifest",
+   "expect_detection": true
+  },
+  {
+   "id": "E08",
+   "case_type": "derived_qa_injection",
+   "derived_from": "G25",
+   "error_class": "expression_altered",
+   "mutation": "replace a fearful expression with a neutral one",
+   "expect_detection": true
+  }
+ ],
+ "evaluation_protocol": {
+  "stage_a_smoke": {
+   "purpose": "cheap elimination of non-competitive or operationally impractical candidates",
+   "case_ids": [
+    "G07a",
+    "G07b",
+    "G09a",
+    "G09b",
+    "G11a",
+    "G13a",
+    "G13b",
+    "G15a",
+    "G21",
+    "G30",
+    "G20",
+    "G01"
+   ],
+   "seeds_per_case": 2,
+   "note": "biased toward Interaction, Occlusion and paired variants, plus one reverse-angle and one single-character ceiling check"
+  },
+  "stage_b_full": {
+   "purpose": "finalists only",
+   "case_ids": "all render_cases",
+   "seeds_per_case": 3
+  },
+  "freeze_rule": "Never edit a case to make a candidate look better. Retire and re-ID, or publish a new schema version."
+ },
+ "counting_rules": {
+  "renderer_generations_are": "render_cases x seeds. QA controls and injections are DERIVED and are NOT renderer generations.",
+  "qa_controls_are": "re-renders of an existing parent case at the same seeds; they measure fabricated-error rate only",
+  "qa_injections_are": "mutations of approved outputs; they measure detection recall by error class and must NOT contaminate renderer scoring"
+ }
+}

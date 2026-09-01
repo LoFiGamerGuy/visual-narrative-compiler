@@ -1,7 +1,13 @@
 {
   "record_type": "ProductionCostLedger",
-  "schema_version": "1.0",
-  "record_id": "ng-ch05-production-cost-ledger-r1",
+  "schema_version": "1.1",
+  "record_id": "ng-ch05-production-cost-ledger-r2",
+  "supersedes": {
+    "record_id": "ng-ch05-production-cost-ledger-r1",
+    "path": "docs/research/evidence/ch05-production-cost-ledger-r1.json",
+    "sha256": "9dc90cd602ff79ea3d9804e8d88ab8dd7aa5300ecd83a11ce1b9119162dcf1c0"
+  },
+  "prior_record_rewritten": false,
   "budget_domain": "NORTH_GARDEN_CH05_PRODUCTION",
   "policy_id": "ng-ch05-production-budget-policy-r1",
   "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY",
@@ -101,7 +107,33 @@
       "external_requests": 0,
       "external_uploads": 0,
       "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "scale_aware_repair_boundary_selector_contract_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "repair_render_record_boundary_evidence_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_repair_evidence_readiness_matrix_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
     }
   ],
-  "boundary": "The approved G07 bakeoff cap and its remaining availability are a different budget domain and cannot fund CH05 production."
+  "revision_summary": {
+    "prior_local_milestones": 15,
+    "appended_local_milestones": 3,
+    "total_local_milestones": 18,
+    "external_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "boundary": "Append-only revision. The disabled CH05 domain has no cap or spend authority; G07 availability cannot fund it."
 }

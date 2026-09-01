@@ -650,3 +650,17 @@
 - An explicit failure binds the known selector/profile/support/alpha/topology inputs but cannot carry visual, exterior, no-change, or seam outcomes. An outcome-unknown incident rejects every such field.
 - Fifteen/fifteen selector, cross-panel width, support/alpha/topology hash, visual-base, exterior, no-change, seam timing, failure-fabrication, and unknown-fabrication mutations fail under ADR-0050.
 - Consolidated offline validation passes 37/37 checks in 24.757 seconds. The accepted seam is validation-only; real requests/uploads/candidates/RenderRecords/seam reviews/human minutes/production cost remain 0/0/0/0/0/null/$0.
+
+## 2026-09-01 - append-only CH05 cost ledger r2
+
+- A validation run caught that later local milestones had changed the r1 ledger hash pinned by P036 readiness r2. R1 was restored byte-for-byte; the readiness validator passes again.
+- New ledger r2 pins r1 and appends three unique zero-cost milestones rather than rewriting prior evidence. The combined ledger has 18 local milestones, zero reservation entries, no cap, zero requests/uploads, $0 committed, and $0 held.
+- Eight/eight supersession, rewrite, authority, cap, cost, reservation, request, and summary mutations fail under ADR-0051.
+
+## 2026-09-01 - CH05 repair-evidence readiness matrix
+
+- Compiled all 50 ComicPanelPlans in order against exact applicability, selector, topology, panel policy, approved input, authority, production budget, visual-boundary, exterior/no-change, seam-review, and v2.1 outcome gates.
+- Measured coverage is four explicit repair candidates, two local selector/topology profiles, and one panel-specific policy. P036 is the strongest local row but still lacks every production and outcome gate; P044 lacks a policy; P019/P026 lack profiles and policies.
+- Approved bases/masks/authorities/reservations/visual results/seam reviews/RenderRecords/candidates/accepted panels are all zero, human minutes null, and production activity 0 requests/0 uploads/$0.
+- Thirteen/thirteen denominator, reorder, cross-panel profile, policy leak, width leak, fabricated input/result/review/outcome, invented minutes/selection, and AnimationShotPlan mutations fail under ADR-0052.
+- Consolidated offline validation passes 39/39 checks in 25.734 seconds.

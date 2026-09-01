@@ -50,6 +50,8 @@ CHECKS = [
     ("p044_adaptive_boundary", [PYTHON, "src/north_garden/validate_ch05_p044_adaptive_boundary.py"]),
     ("scale_aware_boundary_selector", [PYTHON, "src/north_garden/validate_scale_aware_boundary_selector.py"]),
     ("repair_boundary_render_record", [PYTHON, "src/north_garden/validate_render_record_boundary.py"]),
+    ("production_cost_ledger_r2", [PYTHON, "src/north_garden/validate_ch05_production_cost_ledger_r2.py"]),
+    ("repair_evidence_readiness_matrix", [PYTHON, "src/north_garden/validate_ch05_repair_evidence_readiness_matrix.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

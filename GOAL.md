@@ -82,7 +82,9 @@ The scale-aware boundary-selector milestone is complete. P036=16px and P044=5px 
 
 The repair RenderRecord boundary-evidence milestone is complete. Append-only v2.1 completed records bind the exact selector/profile/width, support/alpha, topology, exact-base visual, exterior/no-change, and timed seam-review chain. Explicit failures retain only known input/topology bindings; v1.1 unknown incidents reject every boundary-outcome field. Fifteen/fifteen mutations fail and the consolidated offline suite passes 37/37 in 24.757 seconds under ADR-0050. All real CH05 outcomes remain absent.
 
-The active bounded milestone is a full-denominator CH05 repair-evidence readiness matrix. Compile all 50 ComicPanelPlans against explicit repair applicability, selector profiles, panel policy, approved inputs, authority, budget, exact-base visual evidence, seam review, and v2.1 RenderRecord state. Missing artifacts must remain missing and no mask, profile, policy, result, or acceptance may be inferred.
+The full-denominator CH05 repair-evidence readiness milestone is complete. All 50 ComicPanelPlans remain visible: four explicit repair candidates, two selector/topology profiles, and one panel policy. Exact approved bases/masks/authority/reservations/visual-boundary results/seam reviews/v2.1 RenderRecords/candidates/acceptances are all zero, minutes null, and cost $0. Thirteen/thirteen inference/fabrication mutations fail under ADR-0052. ADR-0051 also restores the pinned r1 cost-ledger bytes and advances later zero-cost evidence through append-only r2; the suite passes 39/39.
+
+The active bounded milestone is an exact-base boundary measurement packet. Define a candidate-bound, hash-complete local record for support/alpha boundary bands, exterior equality, no-change identity, and review presentation. Validate it on clearly synthetic exact-byte fixtures while keeping the real 50-panel matrix unchanged and all human decisions pending.
 
 ### Authority and data boundaries
 

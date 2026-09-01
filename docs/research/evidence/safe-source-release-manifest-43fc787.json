@@ -1,0 +1,2749 @@
+{
+  "record_type": "SafeSourceReleaseManifest",
+  "schema_version": "1.1",
+  "record_id": "ng-safe-source-release-43fc787",
+  "state": "PINNED_SAFE_SOURCE_COMMIT_PUSHED",
+  "supersedes": {
+    "record_id": "ng-safe-source-release-f505788",
+    "path": "docs/research/evidence/safe-source-release-manifest-f505788.json",
+    "sha256": "f393d3e3ac89929ac1ee4589058ad5b73ebec5d2310758a7b48be32d6e53d91b",
+    "captured_commit": "f5057885b9c953ba102f9b577be229fa42c64ad3",
+    "inventory_root_sha256": "2993f2d405c4404b22b93fa69fb520dcde92785ca8c2475bb02293e2a1a52cde"
+  },
+  "prior_manifest_rewritten": false,
+  "repository": "https://github.com/LoFiGamerGuy/visual-narrative-compiler",
+  "captured_commit": "43fc787f783236c1c5dae9f4694a6e2a804e0aae",
+  "captured_tree": "4e85a8c3f267b9e06dd9f83711882677e375f70b",
+  "captured_origin_main_commit": "43fc787f783236c1c5dae9f4694a6e2a804e0aae",
+  "remote_parity_at_capture": true,
+  "summary": {
+    "tracked_paths": 387,
+    "total_bytes": 8535516,
+    "inventory_root_sha256": "53af7d04b36fd02fdff0c35b882ffac88afce72121c846f66c4cf4f84d413d6b",
+    "public_controls": 2,
+    "generated_experiment_paths": 0,
+    "prohibited_extensions": 0,
+    "files_over_10_mib": 0
+  },
+  "entries": [
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "bytes": 1575,
+      "git_blob_oid": "678985e26bda3e4e653457e8bcd58fe49b8adae1",
+      "sha256": "a167446e281a616d1ec66d57f1a7bb52aae0efa5e859b11ecdf5cc3f8aba2ae8"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "bytes": 912,
+      "git_blob_oid": "b1c2e38b234a59c0500b939b682c4a0c1b87f14f",
+      "sha256": "21a92e2930e5911b300fe5f01f36006c696d14b8e21b71d7990acda36c2a6c57"
+    },
+    {
+      "path": "AGENT_FIRST_PROMPT.md",
+      "mode": "100644",
+      "bytes": 9854,
+      "git_blob_oid": "bc8f953d3a1244f87e82ae5b11f7edd05fa7c475",
+      "sha256": "4be5fce3fb641798b2cb233de1c45b7efdc79282d382f64bfb03a41f5ce53ceb"
+    },
+    {
+      "path": "BUNDLE_PROVENANCE.json",
+      "mode": "100644",
+      "bytes": 349,
+      "git_blob_oid": "f409629125c76fbfdefdebc4ad758b2c0d0daae5",
+      "sha256": "f6be8a797f1f7034fa4e853458ad1ebd7fe0427b915d1372ed557ddd2458a192"
+    },
+    {
+      "path": "GAP_ANALYSIS.md",
+      "mode": "100644",
+      "bytes": 4374,
+      "git_blob_oid": "5471a32f7b1a3f4b721d58489bb3c045edef5d3a",
+      "sha256": "19fb754efb5b480f501621c5d6e3604b98dca9ba9fb361125370a4b1600bf706"
+    },
+    {
+      "path": "GOAL.md",
+      "mode": "100644",
+      "bytes": 24601,
+      "git_blob_oid": "bfe90bcc5bcdc524c5ab1513f5736f58b4af7f3b",
+      "sha256": "24daee52c6940596a05f97089b08cf91cf48b51dd2759a6bdcda2c389c8dafbf"
+    },
+    {
+      "path": "MANIFEST.sha256",
+      "mode": "100644",
+      "bytes": 2729,
+      "git_blob_oid": "27d1c568ec9392bc00dd4bf66a6d5f35194ade45",
+      "sha256": "e5e55fef05cb47c1471bcf0fa4b131fb07035b66cd3486ded69fd04b05cdbc5f"
+    },
+    {
+      "path": "README_CODEX_BOOTSTRAP.md",
+      "mode": "100644",
+      "bytes": 1440,
+      "git_blob_oid": "2ab4feb62b7e0ee558204f5dca2544863279f906",
+      "sha256": "054385eaadd88c8a450f5a022da3d05335e4038af6fb0cd31455c075939732ae"
+    },
+    {
+      "path": "VALIDATION_AT_PACKAGING.txt",
+      "mode": "100644",
+      "bytes": 1595,
+      "git_blob_oid": "a1e7c18a66a266f0cda020a4a972681469c255be",
+      "sha256": "a96a440929ddc27a9495d8f1807a4abe87a52a80c4b7ccb563859fe57c91ec07"
+    },
+    {
+      "path": "config/ch05-openai-targeted-repair-policy-r1.json",
+      "mode": "100644",
+      "bytes": 3419,
+      "git_blob_oid": "9caaa3bf43c5ad230ad02a56ecf4f493bf2f273d",
+      "sha256": "a9ef9a9a255f8746482ba75ac78666e390d87a3d1c5b51fdf6dc4070a2e06fbb"
+    },
+    {
+      "path": "config/ch05-production-budget-policy-r1.json",
+      "mode": "100644",
+      "bytes": 940,
+      "git_blob_oid": "05162b66fc183203b9f4f029693d3a9bdd938f4e",
+      "sha256": "97dd460cbc6f2976cb315d8ddbf32b09d989ea402ad8f25ec96c39b437a6800b"
+    },
+    {
+      "path": "config/g07-bakeoff-budget-policy-r1.json",
+      "mode": "100644",
+      "bytes": 1359,
+      "git_blob_oid": "068d879255754dd9fb5b520cf8ad6b672d596622",
+      "sha256": "deac9fd81058077bf92127c110b58fd85904888ebcc31ed0c253fc07419633ad"
+    },
+    {
+      "path": "config/g07-blinded-human-review-protocol-r1.json",
+      "mode": "100644",
+      "bytes": 2071,
+      "git_blob_oid": "95f1d2f1085864321c3a68eec215fcc4735ee282",
+      "sha256": "4fc0c45eef8509e1c095a1becee9691ac04d955ab1ce44bb63a1faf893ed93f2"
+    },
+    {
+      "path": "config/record-templates/comic-panel-base-raster-approval-v1.json",
+      "mode": "100644",
+      "bytes": 1105,
+      "git_blob_oid": "ce75638bc52b6620b3c580dcf639464d7aad310d",
+      "sha256": "e28265d7fd320b24360fb7fff26997e319e2cd1a091346efd606f1f80699ee99"
+    },
+    {
+      "path": "config/record-templates/comic-panel-base-raster-candidate-review-v1.json",
+      "mode": "100644",
+      "bytes": 1013,
+      "git_blob_oid": "2711b85d7d3ca253f756464ca9c6ec6b100bd78f",
+      "sha256": "f015c711fa5ba7a6d88e12e664036276427fdf220eae067ac3accf262907a405"
+    },
+    {
+      "path": "config/record-templates/comic-panel-base-raster-candidate-v1.json",
+      "mode": "100644",
+      "bytes": 1271,
+      "git_blob_oid": "3f42ac1985728490959ce6ecd09d1cf674549eb8",
+      "sha256": "6c12d945dbbf9556e75abccea81df9482ac4730c8cda4be4892b7bf5ddf68c64"
+    },
+    {
+      "path": "config/record-templates/comic-panel-repair-mask-review-v1.json",
+      "mode": "100644",
+      "bytes": 1010,
+      "git_blob_oid": "699401efb64f701746d2f173c39eb9afb73f3d7e",
+      "sha256": "f4ea32d589bfbe691301d111ad62e99e00c461fdba86bd051b25b013b643f4f3"
+    },
+    {
+      "path": "config/record-templates/comic-panel-run-ledger-v1.json",
+      "mode": "100644",
+      "bytes": 491,
+      "git_blob_oid": "cf287d3340a7d49350fffdb0de420de0fc755565",
+      "sha256": "910955102a0a4d4fbbc7960b7ef738b860f34cf767b0b01003a21bbb41c072b3"
+    },
+    {
+      "path": "config/record-templates/comic-repair-render-record-v1.json",
+      "mode": "100644",
+      "bytes": 1290,
+      "git_blob_oid": "d4a29c8bb401dc1bb2f8514ba15cf71a0c791ab0",
+      "sha256": "55d8ac71d008a45c7d4c77ce6a7963685600e70b6f7298895113894401f6e67b"
+    },
+    {
+      "path": "config/record-templates/comic-repair-render-record-v2.json",
+      "mode": "100644",
+      "bytes": 1693,
+      "git_blob_oid": "98ddd05de1144539d020ea47186037078335d7b4",
+      "sha256": "c77584f6553c820c1abb443d2976de711f94aa967a3a9c08e2e6c2d12eca17a3"
+    },
+    {
+      "path": "config/record-templates/provider-submission-incident-v1.json",
+      "mode": "100644",
+      "bytes": 820,
+      "git_blob_oid": "884390ccf85756858ba001e4a8cfab01ebfb1958",
+      "sha256": "05a20ab97bd2793cd317841b81080b332edcaeeea6bfcd640c8e0ead8180c8da"
+    },
+    {
+      "path": "config/record-templates/provider-submission-incident-v2.json",
+      "mode": "100644",
+      "bytes": 820,
+      "git_blob_oid": "8d5825aac6a4fc6e08319bbf940a80ee40ab5ce8",
+      "sha256": "2e15e97f0e6332046cdcfe4c9bfd041de042b5e5c93ee1a6ad20de21b6f3d8d2"
+    },
+    {
+      "path": "config/record-templates/provider-submission-journal-v1.json",
+      "mode": "100644",
+      "bytes": 538,
+      "git_blob_oid": "5f6e0b11723e033a087d1b376f2dede85a0e1485",
+      "sha256": "5c724b5e3b7ba7575f1a8595a91c93c775b6261339502124463f33cb601bc979"
+    },
+    {
+      "path": "config/record-templates/timed-human-review-session-v1.json",
+      "mode": "100644",
+      "bytes": 649,
+      "git_blob_oid": "6c870a8c586585d32659b1572322fda61282da47",
+      "sha256": "bb7d8dda67588ad0f3a3c4afffe42a8eab6b80f054a9e9b5bfe875261b308ac7"
+    },
+    {
+      "path": "config/runtime-assets.example.json",
+      "mode": "100644",
+      "bytes": 2008,
+      "git_blob_oid": "65b16060521968605258b8df7a7d078841e83268",
+      "sha256": "8ca4520e260bc732fd61ff74f93f51dee7bb751cfc11f0d5cdf4fa98e2086c79"
+    },
+    {
+      "path": "config/scale-aware-repair-boundary-selector-contract-r1.json",
+      "mode": "100644",
+      "bytes": 5438,
+      "git_blob_oid": "7e7c3c4eda6a6c4bd4f319b779ed88e94cdaa8cb",
+      "sha256": "b0fea65bc4deca76240c50d95471a79452294f3f5209883f2e59eaf6cfc45679"
+    },
+    {
+      "path": "config/scale-aware-repair-boundary-selector-contract-r2.json",
+      "mode": "100644",
+      "bytes": 6599,
+      "git_blob_oid": "b53c542e00022c31b2fb80d4eaef3efdcc465636",
+      "sha256": "36f18c1caacd35cf28ddf963da9460304e37a318d1c6d0dd18e67402dcb6317d"
+    },
+    {
+      "path": "docs/adr/ADR-0001-separate-comic-and-animation-direction.md",
+      "mode": "100644",
+      "bytes": 1227,
+      "git_blob_oid": "1c074ca4f34b67d9051a8ece86abf524bd792817",
+      "sha256": "ce4beb5bfe1641790e135fb3d470d46dd0b392bab2d45f2556a6d7f1f97d9caa"
+    },
+    {
+      "path": "docs/adr/ADR-0002-baseline-legacy-is-a-failure-profile-arm.md",
+      "mode": "100644",
+      "bytes": 1209,
+      "git_blob_oid": "c5ba713bac07e8ea2c369bb0336cca2d924a997b",
+      "sha256": "ed42e673f36b78d8405ec33ba658bbeca1fefccbe5abfaa651c172a31a639ad0"
+    },
+    {
+      "path": "docs/adr/ADR-0003-sequential-inpaint-is-a-separate-repair-arm.md",
+      "mode": "100644",
+      "bytes": 1123,
+      "git_blob_oid": "56aa50cc63ffe92ffd00237f76f05549657225b8",
+      "sha256": "5a5f251de90d46d8c7aada82b049304fd4db0098861f839600b45d2fdf5c4b22"
+    },
+    {
+      "path": "docs/adr/ADR-0004-broad-inpaint-masks-confound-set-continuity.md",
+      "mode": "100644",
+      "bytes": 1122,
+      "git_blob_oid": "dd0b7a7abcdaee858cc07f0972bfe31acd5fbb3a",
+      "sha256": "a74e805ea85f9a977492d3442a9fa1b35e93a66a1211f38dd247c881df02454c"
+    },
+    {
+      "path": "docs/adr/ADR-0005-actor-assets-must-be-pose-and-prop-separable.md",
+      "mode": "100644",
+      "bytes": 1001,
+      "git_blob_oid": "32f38dc20d1b56c98c228979f32a72f2f0cb4736",
+      "sha256": "9c52d05b73976e0b2890940638834254b849473de2a60ef8a689681d237c020a"
+    },
+    {
+      "path": "docs/adr/ADR-0006-geometry-proxies-are-spatial-controls-not-identity-evidence.md",
+      "mode": "100644",
+      "bytes": 1097,
+      "git_blob_oid": "5b99c51b60ceae3996e1f526ef6ba0d844c1604d",
+      "sha256": "7a0f669cd2b698ccde1a27e53361b81a9a441c8ab2d789a7dbafb191cda23ab0"
+    },
+    {
+      "path": "docs/adr/ADR-0007-reference-conditioning-is-not-yet-targeted-repair.md",
+      "mode": "100644",
+      "bytes": 1225,
+      "git_blob_oid": "bb3a43f20c7e8d8ac7cae17a02775b33e0abb527",
+      "sha256": "854262c6f7e64064d6d16eb9bc75d6f4b2aebf211afaa4dcb6ea8110bbfb04d6"
+    },
+    {
+      "path": "docs/adr/ADR-0008-legacy-seated-actor-capture-is-not-a-reliable-separable-asset-route.md",
+      "mode": "100644",
+      "bytes": 1342,
+      "git_blob_oid": "d5514c3524a54061243223bcdb514b582c647100",
+      "sha256": "51b39dc4d3300a4a7f789525cf0fad3028cca7b5503e92d2dd6c5d1d190c9c4a"
+    },
+    {
+      "path": "docs/adr/ADR-0009-renderer-facing-proxy-roles-must-not-look-like-characters.md",
+      "mode": "100644",
+      "bytes": 1432,
+      "git_blob_oid": "730ab20daa7427f7517b66e4b4151cbe393e5eb3",
+      "sha256": "8b363a5aa4ca91c3863ab10e2bba511f27b6846f418ef6cc8623bf5c2c263832"
+    },
+    {
+      "path": "docs/adr/ADR-0010-alpha-separability-does-not-establish-actor-asset-separability.md",
+      "mode": "100644",
+      "bytes": 1040,
+      "git_blob_oid": "b17671edaba8fd1c651f739f1a36302ebe81ce0b",
+      "sha256": "46066d6601cd30e21002404e799ed2849f79abc62ffa2a89121638810c88c3cb"
+    },
+    {
+      "path": "docs/adr/ADR-0011-structural-stage-geometry-and-renderable-calibration-proxies-are-distinct.md",
+      "mode": "100644",
+      "bytes": 1200,
+      "git_blob_oid": "59206116cc3c1d59673b4493e1c188b44bd6930d",
+      "sha256": "e416f144ab2a4f1cd25aff77c6ca4d74210caa3961dfd1de84665263296ebe13"
+    },
+    {
+      "path": "docs/adr/ADR-0012-stage-world-anchors-must-not-be-named-as-panel-roles.md",
+      "mode": "100644",
+      "bytes": 1396,
+      "git_blob_oid": "62abddb7be3d870b23f4a12ef3cc2d5536daf112",
+      "sha256": "73f44963cde93f35e1aa8da8e201ce044bc3609246b9c8f06b87697524804758"
+    },
+    {
+      "path": "docs/adr/ADR-0013-native-repair-and-deterministic-exterior-compositing-are-separate-assertions.md",
+      "mode": "100644",
+      "bytes": 1112,
+      "git_blob_oid": "d0687be17f6cb33e4c2abd04cd46ed0c3e656957",
+      "sha256": "86bce0bd0da66ca048630f6438131a0ff9abe2232093dfc2791418eec357e660"
+    },
+    {
+      "path": "docs/adr/ADR-0014-xinsir-repaint-reliability-gate.md",
+      "mode": "100644",
+      "bytes": 1293,
+      "git_blob_oid": "e99a9678eb9ad15f5aefe40f8f585bba7f5357ef",
+      "sha256": "611db382d52b67ab39a9b57d23f8de055b5630f08e9eb9eb6958111bc6f7287e"
+    },
+    {
+      "path": "docs/adr/ADR-0015-renderer-selection-requires-a-distinct-mechanism.md",
+      "mode": "100644",
+      "bytes": 1272,
+      "git_blob_oid": "0fbd0c07d8eb0fad84224bd8fb6550b14c23f962",
+      "sha256": "43a69c7078dc1c63f33d1d01432d6f0df172f889fb74b75574926a8362194f75"
+    },
+    {
+      "path": "docs/adr/ADR-0016-stable-panel-ids-and-immutable-panel-revisions.md",
+      "mode": "100644",
+      "bytes": 1563,
+      "git_blob_oid": "971f8b09396370cc24cb53d0ed938d3043532f73",
+      "sha256": "54bf2373f242cf432a84762ebbc82e3539684297783098797edfcb1249e8ebdb"
+    },
+    {
+      "path": "docs/adr/ADR-0017-prohibit-child-coded-tags-in-adult-render-prompts.md",
+      "mode": "100644",
+      "bytes": 1217,
+      "git_blob_oid": "2e1659865643727b19fd2382971f9673c5cf4148",
+      "sha256": "131c6c742dcf8de77d8236ece33e7f95aa0f3a61f85ecb350a94d179788c02f2"
+    },
+    {
+      "path": "docs/adr/ADR-0018-cross-provider-fictional-g07-bakeoff-before-renderer-selection.md",
+      "mode": "100644",
+      "bytes": 2137,
+      "git_blob_oid": "a91e2593bdfe231d213d5a4e89ebf7a09658026c",
+      "sha256": "be3bf624fbb4238f1a14692e4b334962e52ba01db717e4395456704f887488ea"
+    },
+    {
+      "path": "docs/adr/ADR-0019-bfl-api-is-fictional-control-only.md",
+      "mode": "100644",
+      "bytes": 1310,
+      "git_blob_oid": "880dc025949db6d3c8efacf6c0aa6aec9da94284",
+      "sha256": "d0d019affd45f0c469b2406ddbf7b2701ccc6dab7602dcc310840357f42482f0"
+    },
+    {
+      "path": "docs/adr/ADR-0020-age-wording-hygiene-incident-in-built-in-imagegen-ch03.md",
+      "mode": "100644",
+      "bytes": 1022,
+      "git_blob_oid": "a47fda17a32aab97f129d2df93f304d9b119644c",
+      "sha256": "262b02e603af0de4d0671d653d1caa84861952d7424fcfa16255da97dfd134c1"
+    },
+    {
+      "path": "docs/adr/ADR-0021-no-detected-vcs-worktree-provenance-gap.md",
+      "mode": "100644",
+      "bytes": 1186,
+      "git_blob_oid": "baa73da41d863f1a8ce91e012f319b79884f5bf2",
+      "sha256": "7c503f159ce31b2ddce9db19cdf169a2e7c70f3ba1b976552350d11186bcf9ca"
+    },
+    {
+      "path": "docs/adr/ADR-0022-quarantine-gardens-anchor-script-and-design-conflict.md",
+      "mode": "100644",
+      "bytes": 2160,
+      "git_blob_oid": "b4e4563e3bd50f2b8838a174603fb33a62e3ce8d",
+      "sha256": "d9ba75093046243d6937286d6ced54e266a4f6c01dd1dcb6c010e1c636d0b350"
+    },
+    {
+      "path": "docs/adr/ADR-0023-aggregate-bakeoff-reservation-ledger.md",
+      "mode": "100644",
+      "bytes": 1527,
+      "git_blob_oid": "26a862b5787bfb58b043432d723c46f6f053e75d",
+      "sha256": "7eeabc93ebaa97abe62499d71d144943307158f61e204fdfe6979cc0e6c80172"
+    },
+    {
+      "path": "docs/adr/ADR-0024-git-main-is-the-safe-source-provenance-anchor.md",
+      "mode": "100644",
+      "bytes": 1079,
+      "git_blob_oid": "edbd20f90d32a1c0a55102c12231711bfd724ec3",
+      "sha256": "18ccdc8525b18e6bfd05a508fc7363a92639c7e83bdb9831c953034b6ed8d262"
+    },
+    {
+      "path": "docs/adr/ADR-0025-select-openai-gpt-image-2-for-bounded-targeted-repair-hardening.md",
+      "mode": "100644",
+      "bytes": 2202,
+      "git_blob_oid": "c054ba75363d888f0b772fd19d2bb00d89110dd3",
+      "sha256": "e9aa4fb6faec3ac6b4c35089404666b6b517e8e051b0b10c32c20a2d37e72c94"
+    },
+    {
+      "path": "docs/adr/ADR-0026-comic-input-approval-does-not-authorize-external-upload.md",
+      "mode": "100644",
+      "bytes": 1884,
+      "git_blob_oid": "4d5757142fefcc6a70aad3efc64b6ab78bfeb0ab",
+      "sha256": "cf584dcaf27cde29f0fb1041a8a0b1493d9e14f361632baf7c7215fa1c8a493a"
+    },
+    {
+      "path": "docs/adr/ADR-0027-deterministic-layout-controls-are-not-visual-continuity-evidence.md",
+      "mode": "100644",
+      "bytes": 1551,
+      "git_blob_oid": "e970cb4ac4dc413890974d4b602c725ab55a1a0a",
+      "sha256": "18d4a3503974355f02d8627d1711a7add3b878d6e27631a34b1c5a69b48e98b4"
+    },
+    {
+      "path": "docs/adr/ADR-0028-panel-production-state-is-an-append-only-hash-chain.md",
+      "mode": "100644",
+      "bytes": 1567,
+      "git_blob_oid": "0b9fa10638e39c31f54484eaf679af7d5d0c5df7",
+      "sha256": "fd6af7d02a186641865cb40b1703268983336a306608c4265c6476aec79b31ee"
+    },
+    {
+      "path": "docs/adr/ADR-0029-bakeoff-budget-cap-is-not-production-budget-authority.md",
+      "mode": "100644",
+      "bytes": 1564,
+      "git_blob_oid": "8b7d6f84e77050c8f58b6bb0b99a6947f378c693",
+      "sha256": "79abc5437d8c3e6add37a0c918486918d909487999357528bb4f8f5a24879261"
+    },
+    {
+      "path": "docs/adr/ADR-0030-local-base-candidate-intake-is-not-approval.md",
+      "mode": "100644",
+      "bytes": 1353,
+      "git_blob_oid": "8fdf637604f706ce1c5f7f5e22cffd5866349cac",
+      "sha256": "9b64c6c5b045d2da0481140e894526e4e82f9fe77fa9cde09644f29b5ddf365d"
+    },
+    {
+      "path": "docs/adr/ADR-0031-chapter-run-root-pins-plans-assertions-and-lifecycle-heads.md",
+      "mode": "100644",
+      "bytes": 1337,
+      "git_blob_oid": "18b0f6f2d0b7f602f410a5bd30e65e243ff2c9b5",
+      "sha256": "d54ac1bed7174db002721d26ee0aac588c54731c914e60420ee5099e19937d5c"
+    },
+    {
+      "path": "docs/adr/ADR-0032-human-minutes-come-from-hash-chained-timers.md",
+      "mode": "100644",
+      "bytes": 1529,
+      "git_blob_oid": "a6a5dee7c993c3987fe372216fbb8d12a47bc1b2",
+      "sha256": "293afb02dac5449026457333c930a29fad7f90b47047d7aee859b052954d261b"
+    },
+    {
+      "path": "docs/adr/ADR-0033-selected-route-preflight-has-no-network-executor.md",
+      "mode": "100644",
+      "bytes": 1443,
+      "git_blob_oid": "32f7fd729babe0436a373306858567f004210854",
+      "sha256": "45af2a01b0b470ae03e3d4c00c4fac00586f48eb39c7d5e46e0d2fe015b7c44b"
+    },
+    {
+      "path": "docs/adr/ADR-0034-unknown-provider-outcome-is-held-and-not-retried.md",
+      "mode": "100644",
+      "bytes": 1370,
+      "git_blob_oid": "843da1fe61872558eee01057b7e93976455304aa",
+      "sha256": "8a51c8230906f275ffee56b074d7342db3723d0ed5c7de3d05102cc11ee83a7c"
+    },
+    {
+      "path": "docs/adr/ADR-0035-unknown-outcome-is-an-incident-not-a-renderrecord.md",
+      "mode": "100644",
+      "bytes": 1306,
+      "git_blob_oid": "6e42413928d5c7912552849dfcc0d4ceef04006a",
+      "sha256": "a3f58fd97d253b81c8a2d2e4dab7fceb3880752366d71c6acfa113a042cc01db"
+    },
+    {
+      "path": "docs/adr/ADR-0036-generated-provider-evidence-is-pinned-by-hash-not-git.md",
+      "mode": "100644",
+      "bytes": 1741,
+      "git_blob_oid": "d9e3156da324d5e3e084103c4f8687061d38a8c1",
+      "sha256": "4ea7ee6c84842645f854a8a3f215cde119f1bbbbdaf40788c3384097bad15c73"
+    },
+    {
+      "path": "docs/adr/ADR-0037-restoration-archives-are-local-and-do-not-authorize-rerenders.md",
+      "mode": "100644",
+      "bytes": 1400,
+      "git_blob_oid": "7c54992cf3d18765edde60fc99fe93d6052eed2f",
+      "sha256": "e3db26246774e7466b990220f0b6e3ff9902aa39a1ea669faf5d05b02287b769"
+    },
+    {
+      "path": "docs/adr/ADR-0038-g07-human-scoring-is-presentation-blinded-and-timed.md",
+      "mode": "100644",
+      "bytes": 1618,
+      "git_blob_oid": "4075c14d019691aebaa0a8ac6e80b642a4fe8fb4",
+      "sha256": "fe85e8087e048c886f2f01d1396e670096e5f3964d1bea1a07220a79060c0545"
+    },
+    {
+      "path": "docs/adr/ADR-0039-human-review-rollup-preserves-dimensions-without-composite-ranking.md",
+      "mode": "100644",
+      "bytes": 1393,
+      "git_blob_oid": "ebf2b13c0f6332e524fc18dc90b590ae4308a2d1",
+      "sha256": "90085ecee9ccec9145b14d3b679d1126b754ea0239e4c659ea39e18e34056608"
+    },
+    {
+      "path": "docs/adr/ADR-0040-use-16px-inward-cosine-feather-for-next-local-repair-mechanics-test.md",
+      "mode": "100644",
+      "bytes": 1523,
+      "git_blob_oid": "e4676630afa234370eabc56c7e500815bf756709",
+      "sha256": "37b49643993bcffae1ad41b001bcd30d85c8ce62fb52161c61ecfea39f2fe2d8"
+    },
+    {
+      "path": "docs/adr/ADR-0041-rectangular-mask-survival-does-not-establish-narrative-repair-topology.md",
+      "mode": "100644",
+      "bytes": 1415,
+      "git_blob_oid": "68faa393aeada32f2ac3da2690662dacbcd57bae",
+      "sha256": "a208b2b1e73d37f7af0d327987949853a8f6e3ea360d6680fce04c06bcbef304"
+    },
+    {
+      "path": "docs/adr/ADR-0042-use-8px-context-padding-for-the-abstract-p036-causal-shape-control.md",
+      "mode": "100644",
+      "bytes": 1584,
+      "git_blob_oid": "2d08e72a0f72189806fbec4b84f92f477cc92d80",
+      "sha256": "a85714287ab7fa30b2dcfc634532faa5ce4547f27c3a8da1cce816cc2e0ab1b9"
+    },
+    {
+      "path": "docs/adr/ADR-0043-local-repair-mechanics-policy-cannot-authorize-production-inputs.md",
+      "mode": "100644",
+      "bytes": 1481,
+      "git_blob_oid": "63a2da4adc7ef784551b1c9ff4b99d6c86c5fa29",
+      "sha256": "8a0c15f38203de97c76e7368a1e6efb1564bce1cd98239d7855dd6517ef25b42"
+    },
+    {
+      "path": "docs/adr/ADR-0044-repair-readiness-revisions-are-append-only-and-gate-complete.md",
+      "mode": "100644",
+      "bytes": 1241,
+      "git_blob_oid": "7970f333d6636d519024e35f389b99105c944b50",
+      "sha256": "22b8548cb4e2ac0d0192f4fae763bb4123392605ccf36fc4ba3aaaf78baf3c69"
+    },
+    {
+      "path": "docs/adr/ADR-0045-repair-policies-are-panel-specific-and-chapter-coverage-keeps-all-plans.md",
+      "mode": "100644",
+      "bytes": 1424,
+      "git_blob_oid": "63fc6d9c13562c5110d7fdbf9745e6479074e343",
+      "sha256": "8eecb1883de611cb298962dff9f0183002a670c69bce5dd829db7eba7bb70a9b"
+    },
+    {
+      "path": "docs/adr/ADR-0046-p044-is-the-next-local-control-not-a-production-policy.md",
+      "mode": "100644",
+      "bytes": 1388,
+      "git_blob_oid": "49963a4883bcd167397aaf36d7566023ab538b36",
+      "sha256": "07162723ffcfd635c3d29c5d3573bd8f1f553955e968c897f6bcd4e038154074"
+    },
+    {
+      "path": "docs/adr/ADR-0047-fixed-16px-boundary-is-rejected-for-sub32px-fine-features.md",
+      "mode": "100644",
+      "bytes": 1226,
+      "git_blob_oid": "68c1cbd790ca64d9e47ac35068d738898028193b",
+      "sha256": "e0485208239105e56059b8b0f5d93678e97f9fe9e2753ae0440f36bf5999e019"
+    },
+    {
+      "path": "docs/adr/ADR-0048-boundary-width-is-mask-scale-specific-and-p044-control-uses-5px.md",
+      "mode": "100644",
+      "bytes": 1236,
+      "git_blob_oid": "581b5080ed500360b3fa465164a865ad7011339d",
+      "sha256": "9dcb3de03cd3e3609770fc0cfc6af8d6e47cd73abc809ec23d67e505977352b9"
+    },
+    {
+      "path": "docs/adr/ADR-0049-topology-width-and-visual-boundary-acceptance-are-separate-gates.md",
+      "mode": "100644",
+      "bytes": 1291,
+      "git_blob_oid": "898fb62ab2f049b6533555163d39e7953dcb11b9",
+      "sha256": "a2898933598640d54519d6a0c914bf81849a9015438b8218905fde41768fec85"
+    },
+    {
+      "path": "docs/adr/ADR-0050-repair-outcome-evidence-is-state-specific-and-append-only.md",
+      "mode": "100644",
+      "bytes": 1709,
+      "git_blob_oid": "e00dcfb14a356dd63ca2f2855c6da827f561fda7",
+      "sha256": "fbf31f5e4b4a24682b74fbae29f4ab90ee7bf33e2e44c4c5b947c96d40045950"
+    },
+    {
+      "path": "docs/adr/ADR-0051-pinned-cost-ledgers-advance-by-revision-not-in-place.md",
+      "mode": "100644",
+      "bytes": 944,
+      "git_blob_oid": "438a693bfba9a93e76bbd896f020de7b9f8b7c42",
+      "sha256": "e45314cdcc0bc1e7321ea972dad7b8c667c3c92a5330e0c7003f4abfa1813c4f"
+    },
+    {
+      "path": "docs/adr/ADR-0052-repair-readiness-keeps-the-full-panel-denominator.md",
+      "mode": "100644",
+      "bytes": 1345,
+      "git_blob_oid": "ba012cca4ab80a50203da6f58f846cbfa72cb9bb",
+      "sha256": "a228370699fbacefbde7e784074be73e55cbda09206c05ddac4988d4be2acd40"
+    },
+    {
+      "path": "docs/adr/ADR-0053-numeric-boundary-measurement-does-not-equal-seam-acceptance.md",
+      "mode": "100644",
+      "bytes": 1373,
+      "git_blob_oid": "f93913aa82e1cd2bd50169dbf2d10edf3cd8a71b",
+      "sha256": "f2b870cd77f85f4f073c5e99fec76e9a897f67b28fbe355f0922daa5ca216692"
+    },
+    {
+      "path": "docs/adr/ADR-0054-seam-review-summary-fields-must-be-derived-from-the-session-chain.md",
+      "mode": "100644",
+      "bytes": 1438,
+      "git_blob_oid": "28a8c9d9bf4015988ec56e5c9412d70b13111b26",
+      "sha256": "754616218615fec18fe6e91d64aa25cf0f3ffd48b7a6dca6c1e3e7b7331dac10"
+    },
+    {
+      "path": "docs/adr/ADR-0055-repair-outcome-finalization-requires-terminal-real-evidence.md",
+      "mode": "100644",
+      "bytes": 1342,
+      "git_blob_oid": "453d6e2bef08e7de01825114a2ce3f913ee51421",
+      "sha256": "ce8f806298cb8145a565eb9cf10beb6a5debe422c4d246bb6d28780b4816fc93"
+    },
+    {
+      "path": "docs/adr/ADR-0056-selected-route-instrumentation-has-a-no-download-runtime-profile.md",
+      "mode": "100644",
+      "bytes": 1434,
+      "git_blob_oid": "ae3cfb0ca060abc1935b0b24948f331260d7fc03",
+      "sha256": "df07b9918a36c48fbec0803776bc72ef1bd36a314ad6552e8eb5383228d8e23b"
+    },
+    {
+      "path": "docs/adr/ADR-0057-reproducibility-claims-require-bounded-exact-artifact-inventories.md",
+      "mode": "100644",
+      "bytes": 1296,
+      "git_blob_oid": "2d6d57f22cee72c75c421c21c83507941f2e16f3",
+      "sha256": "f3fe43a4e632694962f1ce3779aef5b311a80ef21e827e31736ea34946ad323f"
+    },
+    {
+      "path": "docs/adr/ADR-0058-review-rollup-may-cache-only-verified-immutable-derivations-per-process.md",
+      "mode": "100644",
+      "bytes": 1276,
+      "git_blob_oid": "93231d41038c24772a9c7872d58dcf33269f05e1",
+      "sha256": "9ad799fce73be43c24957e0e4ce15a9358304dd1528bac56adde10498f710bdb"
+    },
+    {
+      "path": "docs/adr/ADR-0059-safe-source-releases-pin-a-prior-pushed-commit-tree.md",
+      "mode": "100644",
+      "bytes": 1148,
+      "git_blob_oid": "ef73bfc21bae2ff6c909e6cc0dad7c78a1856ba2",
+      "sha256": "1fb463e8f3d30d29fe8af918fb61d8136c82b34c2f96239fc270362a2513672e"
+    },
+    {
+      "path": "docs/adr/ADR-0060-paid-adapters-have-no-independent-bakeoff-cap.md",
+      "mode": "100644",
+      "bytes": 1284,
+      "git_blob_oid": "ff440e06b4bd20174d80e07021b357f71248b74f",
+      "sha256": "7bb3b91b12fd46282f312c19c6593480c5437375819080e78866fa635da8eb28"
+    },
+    {
+      "path": "docs/adr/ADR-0061-provider-returned-remote-urls-must-also-be-https.md",
+      "mode": "100644",
+      "bytes": 1218,
+      "git_blob_oid": "2b2683317f9c9b06e1a697db124cb8c7e9d9e503",
+      "sha256": "1fcb69181efe9536969ac42e8b326edc2e487592640c2ab0805a18857d372a42"
+    },
+    {
+      "path": "docs/adr/ADR-0062-hardening-state-manifests-cannot-promote-the-selected-route.md",
+      "mode": "100644",
+      "bytes": 1449,
+      "git_blob_oid": "3339d2d4877053ed06f7e7ce7803270d5cec220e",
+      "sha256": "476ff696f057c6e6d605d9e3e77b841f43db808cac0e347e7f66128447d32a38"
+    },
+    {
+      "path": "docs/adr/ADR-0063-disconnected-and-holed-controls-remain-panel-neutral.md",
+      "mode": "100644",
+      "bytes": 1139,
+      "git_blob_oid": "1745100bfc9654e7fd1c5c63ff26ab5c77cf10ac",
+      "sha256": "0d218f4a450f2b92307e5a45d5cbdd5adf65eefcb2259eb9eef3a60ad20e9b90"
+    },
+    {
+      "path": "docs/adr/ADR-0064-generic-topology-coverage-does-not-increase-panel-profile-count.md",
+      "mode": "100644",
+      "bytes": 1072,
+      "git_blob_oid": "822060371b5001c573a9a27a3128ec5ce0acd272",
+      "sha256": "49451eb5adfeb301153254fa7e5a0a17ace97f5943c259d65edc63fd87faf076"
+    },
+    {
+      "path": "docs/adr/ADR-0065-rebuild-inventories-advance-append-only-with-new-artifact-groups.md",
+      "mode": "100644",
+      "bytes": 968,
+      "git_blob_oid": "38746434838e4558c7afd7081bae25e7e84285ec",
+      "sha256": "3e2b7977dfe1ba254396b4405c0a6afa49e328da2c78394eee8a0badc1442d28"
+    },
+    {
+      "path": "docs/adr/ADR-0066-release-validation-keeps-core-and-extensions-separate.md",
+      "mode": "100644",
+      "bytes": 1540,
+      "git_blob_oid": "a58e48b3405375e78d58f771e8ac30168085432f",
+      "sha256": "e716a9c97f55264742b893256a6d810d59244368ab44952ac5b94efd30c18289"
+    },
+    {
+      "path": "docs/adr/ADR-0067-selector-r2-does-not-force-historical-consumer-migration.md",
+      "mode": "100644",
+      "bytes": 1294,
+      "git_blob_oid": "10ee22166bdb0ac91cdb023497b70c87c1890333",
+      "sha256": "be097851cc6d8400bab4c99ccb829bbbbd3a5050f7fa164a185f3cc7a02d4009"
+    },
+    {
+      "path": "docs/adr/ADR-0068-authority-frontier-is-a-dependency-graph-not-a-grant.md",
+      "mode": "100644",
+      "bytes": 1443,
+      "git_blob_oid": "4d0f3f3a85cf272b34241fed4145f41464786b6a",
+      "sha256": "1b91f40526675e07408c86eaa4a5b48418a24404acae9f42e20991c1d709ba7d"
+    },
+    {
+      "path": "docs/architecture/overview.md",
+      "mode": "100644",
+      "bytes": 4599,
+      "git_blob_oid": "e65d51d216d0b2fb4e5cb3899b1376734b38f459",
+      "sha256": "012288724eafb4cd4c593b2c815a01c3ecd75478581dbba69a72029420205523"
+    },
+    {
+      "path": "docs/architecture/source-control-scope-r1.md",
+      "mode": "100644",
+      "bytes": 1810,
+      "git_blob_oid": "9bc0db4d91c7448fd49dc583ad7984eec96842f3",
+      "sha256": "2543c2c56c82e2333cdcfc2ccfc9aad265ebb2470c6bbf51fb4ed47596604dea"
+    },
+    {
+      "path": "docs/research/actor-asset-inventory.md",
+      "mode": "100644",
+      "bytes": 853,
+      "git_blob_oid": "aa0c718a1ce2fe324e8cc4225bef7a8ee9e9344e",
+      "sha256": "36b493f251889f95c0e6e73a6db24a21d49084e0cff18dd3bb029d48b19e6609"
+    },
+    {
+      "path": "docs/research/benchmark-history.md",
+      "mode": "100644",
+      "bytes": 22100,
+      "git_blob_oid": "5c5dd898917fdf002a2367eb28e1d52acccda9ea",
+      "sha256": "1f391537685ad39938d868bb40cccf4f4fd7e2bdd9efe89b62c73dafdfde4d1c"
+    },
+    {
+      "path": "docs/research/ch05-instrumented-production-preflight-20260901.md",
+      "mode": "100644",
+      "bytes": 3347,
+      "git_blob_oid": "199dc69b5e876c8f90b6f72c5999efdcaca93eb8",
+      "sha256": "a9afd5c237c2522c6c3d5bb8fccfa1b11aa3de708cfa5b9118e95f88d5f5b003"
+    },
+    {
+      "path": "docs/research/ch05-visual-direction-assessment-20260901.md",
+      "mode": "100644",
+      "bytes": 3134,
+      "git_blob_oid": "9dad6127e44c52d17d48e8adb88030e63a0ff189",
+      "sha256": "c60420ef1a4f0ef40c3ac105cff9e45982e57c85ab4dbb2a14d768dadcf99f2a"
+    },
+    {
+      "path": "docs/research/decision-memo-20260901-current-authority-gates.md",
+      "mode": "100644",
+      "bytes": 2904,
+      "git_blob_oid": "19d187746dba9a5b612b4509583ca8cba0fbeaba",
+      "sha256": "7bd2f9102409ca0bdc4d922f802296eaa735bb871302bb3280e9276ed1d2e761"
+    },
+    {
+      "path": "docs/research/evidence/ch05-next-repair-policy-information-gain-r1.json",
+      "mode": "100644",
+      "bytes": 6574,
+      "git_blob_oid": "e9a20074ef4f68be84d3e7d366e7a985df82dd55",
+      "sha256": "54ad5b43f852b3de813635074d2929ecdcbda2639b18f8a32de607f31d33aec6"
+    },
+    {
+      "path": "docs/research/evidence/ch05-p036-causal-shape-topology-control-r2.json",
+      "mode": "100644",
+      "bytes": 11757,
+      "git_blob_oid": "62d6a47e9f7c929a01324d142f994ea198bbc984",
+      "sha256": "824d9d1e1a886c3c0a0d43c48eb670f39459c04744427f04821f6540c6ba2482"
+    },
+    {
+      "path": "docs/research/evidence/ch05-p036-mask-topology-compatibility-r1.json",
+      "mode": "100644",
+      "bytes": 3775,
+      "git_blob_oid": "fae0c5154b2f2082352a07bbb72e58ce515147a4",
+      "sha256": "9d6b8dd1577403935e7bf76b13884a6a2df3ac02670274d155697f4311717f37"
+    },
+    {
+      "path": "docs/research/evidence/ch05-p044-adaptive-boundary-width-r1.json",
+      "mode": "100644",
+      "bytes": 7971,
+      "git_blob_oid": "4852a2b8d7af08f378b17dc12c4909818ded68ef",
+      "sha256": "bb2408492f15e6c9675a6a4d06dbee11a755b1a69cf181749cb7b2dbc5cfbf27"
+    },
+    {
+      "path": "docs/research/evidence/ch05-p044-fixed-16px-boundary-stress-r1.json",
+      "mode": "100644",
+      "bytes": 4983,
+      "git_blob_oid": "2d05f3c19a48289bbc8f67fda9c7c19d43ad1dbe",
+      "sha256": "9a65adc8c6ae63e6b728b93783a884bcf3013286351e8e4ab556e101d7d3888e"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r1.json",
+      "mode": "100644",
+      "bytes": 3304,
+      "git_blob_oid": "71901ca2b77004767f34ab282cfc4a5f13d8af55",
+      "sha256": "9dc90cd602ff79ea3d9804e8d88ab8dd7aa5300ecd83a11ce1b9119162dcf1c0"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r2.json",
+      "mode": "100644",
+      "bytes": 4311,
+      "git_blob_oid": "f3ec1f5890b457469ebc0c468d5f31135544f5c7",
+      "sha256": "3101ad67460b6bc7fe15bc551f61020fbdd99bb90d2c53335ce01d997468c1ab"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r3.json",
+      "mode": "100644",
+      "bytes": 4826,
+      "git_blob_oid": "00c6ff9b6fe1a1751874aa3c34026cd7c250b1b1",
+      "sha256": "f1c095469cbe7e4cca287197b69d2a6f6e73dec6b3c21ff6f006609dc76a0d30"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r4.json",
+      "mode": "100644",
+      "bytes": 5883,
+      "git_blob_oid": "83d6ae7bc27ae55c7b20826518436d1843918f15",
+      "sha256": "9938ecb4cc342a8af24d563249867bc0ce52c1b1b31e486251c47e45ef6ffb7a"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r5.json",
+      "mode": "100644",
+      "bytes": 6594,
+      "git_blob_oid": "5b64400b16c5a8858f6d5b9c4f711b32b7b2d52a",
+      "sha256": "a242cc9280e01a713b52268c531df9ad8b03b669863089e01dde40a2b00bbb4d"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r6.json",
+      "mode": "100644",
+      "bytes": 6953,
+      "git_blob_oid": "095cfc5dff68ff75c58790abd944ccc0d1ce60b6",
+      "sha256": "b20eea624cd39ca41fff4480e846cfeb19250429383542c2f3e6c5e430a61980"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r7.json",
+      "mode": "100644",
+      "bytes": 7120,
+      "git_blob_oid": "fbeaaac810c904fba986c0442f780d42263008e0",
+      "sha256": "17772228e6872e067e2847bf7da317bb2e7727621e19816ce5bfa2937eb80af5"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r8.json",
+      "mode": "100644",
+      "bytes": 7300,
+      "git_blob_oid": "bcff98dd12242c74113a492fa57626dddc3beecd",
+      "sha256": "b0ba84375cd6582845561190cc0baf85a95f6d6f03727ff4b8d014efc5267c83"
+    },
+    {
+      "path": "docs/research/evidence/disconnected-holed-mask-topology-stress-r1.json",
+      "mode": "100644",
+      "bytes": 6837,
+      "git_blob_oid": "d2ede28300e459639dc2979393fa6c0609af20a2",
+      "sha256": "9de31db246ba2f2bf471c9c536c9678fd66a2903b10aa8f70912a714af63b61e"
+    },
+    {
+      "path": "docs/research/evidence/exact-base-boundary-measurement-packet-r1.json",
+      "mode": "100644",
+      "bytes": 5372,
+      "git_blob_oid": "c2cfb00deded1a2d62169c6a1823ddf1e3163411",
+      "sha256": "c8a479705bd9653842db4a2d33fa4ace166ee32279cfd914fff15e1f3bfa8a3c"
+    },
+    {
+      "path": "docs/research/evidence/g07-aggregate-budget-binding-audit-r2.json",
+      "mode": "100644",
+      "bytes": 4841,
+      "git_blob_oid": "5c76f9b031e291104c37e1df4f63a57e6ba3f686",
+      "sha256": "f1e978b732e1545431364785d1e928fe2c4c9446ab49cbd5dc4eaea0f93e46e9"
+    },
+    {
+      "path": "docs/research/evidence/g07-aggregate-budget-binding-audit-r3.json",
+      "mode": "100644",
+      "bytes": 5122,
+      "git_blob_oid": "2e6e900967c1e6cb25345addff50b8f26e23c48b",
+      "sha256": "d65cad3e8d4ac075a9b1d4b7a4c843b251ed7564e7e39b2c773424d47ddee546"
+    },
+    {
+      "path": "docs/research/evidence/g07-bakeoff-agent-triage-r1.json",
+      "mode": "100644",
+      "bytes": 2716,
+      "git_blob_oid": "b0ddc515a11ce1049d0b70ea6827ca0ed0fcb020",
+      "sha256": "96183ed38e5935b96ead4e5d43903f3b3d841aa1b3034d5808b7ff3261f2a530"
+    },
+    {
+      "path": "docs/research/evidence/g07-bakeoff-cost-ledger-r1.json",
+      "mode": "100644",
+      "bytes": 16954,
+      "git_blob_oid": "69261a2f8fe8180292d35f0523bd9b02107ae672",
+      "sha256": "a0743b2596cddd0b9cca3208b0de695f872c9142983e73ac06509549a98ceb13"
+    },
+    {
+      "path": "docs/research/evidence/g07-evidence-restoration-rehearsal-r1.json",
+      "mode": "100644",
+      "bytes": 1054,
+      "git_blob_oid": "1d9389be6693ce62be8c54bc0f32659d9fa7ee94",
+      "sha256": "8c2ab1df2af27767942542cf9b95bf0eda37263f6f206d98bad869b2746c4084"
+    },
+    {
+      "path": "docs/research/evidence/g07-human-review-rollup-gate-r1.json",
+      "mode": "100644",
+      "bytes": 3369,
+      "git_blob_oid": "b3d57a01f26fab0775feb8fbf6afe9adee6ba06c",
+      "sha256": "927e76a328b8303fb0ca37f00027e2dba3f90e808f6b24d781bb21e9f224b78c"
+    },
+    {
+      "path": "docs/research/evidence/g07-local-evidence-vault-manifest-r1.json",
+      "mode": "100644",
+      "bytes": 20866,
+      "git_blob_oid": "4f0c9f6119bc6b4526073085066641dec2aa6cc8",
+      "sha256": "920d088f800bcdcc797cf66f4a1a7fb006a894ad2038bbe3b0f4f9cee0e128cf"
+    },
+    {
+      "path": "docs/research/evidence/g07-provider-transport-data-boundary-audit-r1.json",
+      "mode": "100644",
+      "bytes": 4120,
+      "git_blob_oid": "07f3640eed7e39351f051f96b79c442710bf307c",
+      "sha256": "5bf6aafdcd1993e9a84902f8d3db8f474a41867d02b1356889e4a5dfaaae5b28"
+    },
+    {
+      "path": "docs/research/evidence/g07-review-validation-runtime-optimization-r1.json",
+      "mode": "100644",
+      "bytes": 2090,
+      "git_blob_oid": "24515ae4c2da0ec9b57bee3cacdc31799913f2eb",
+      "sha256": "58c2d9f165f513b335e51da9349bf66b9acc1218caa4336b8c9ea0d4dfc880bf"
+    },
+    {
+      "path": "docs/research/evidence/hardening-release-validation-gate-r1.json",
+      "mode": "100644",
+      "bytes": 5095,
+      "git_blob_oid": "8374effd15a642ef3cd4b3c7784a7c3f166cbfc9",
+      "sha256": "b5984e3f4b88cbf27b2bd22cb99385614e336095383078accb4acda32787c3af"
+    },
+    {
+      "path": "docs/research/evidence/instrumentation-runtime-inventory-r1.json",
+      "mode": "100644",
+      "bytes": 2340,
+      "git_blob_oid": "bab16bef21833a9bf144f6db35efde3a9ec13cb0",
+      "sha256": "fe253284925dee1c4e2d72312660fc71c09fb5f2ffffbdc138525d332b5fb2b6"
+    },
+    {
+      "path": "docs/research/evidence/instrumentation-runtime-inventory-r2.json",
+      "mode": "100644",
+      "bytes": 2619,
+      "git_blob_oid": "4e427ae5d51745879811e4ab305884101bdfa03f",
+      "sha256": "0416c984c0ce812aa5126a71593f95cea92c1951059c223de41157e7469b0360"
+    },
+    {
+      "path": "docs/research/evidence/openai-targeted-repair-boundary-hardening-r2.json",
+      "mode": "100644",
+      "bytes": 10940,
+      "git_blob_oid": "14a60a2b71dee46177f640165c72812d1fc7fffd",
+      "sha256": "ad3df9d311efe106da3d5d4d93bcb04979b6aaaf315037b59662cae33e2ef3cf"
+    },
+    {
+      "path": "docs/research/evidence/safe-source-release-manifest-f505788.json",
+      "mode": "100644",
+      "bytes": 98506,
+      "git_blob_oid": "aa5b49ecd7137adfe20556de819e88e2338daa03",
+      "sha256": "f393d3e3ac89929ac1ee4589058ad5b73ebec5d2310758a7b48be32d6e53d91b"
+    },
+    {
+      "path": "docs/research/evidence/selected-route-artifact-rebuild-reproducibility-r1.json",
+      "mode": "100644",
+      "bytes": 10917,
+      "git_blob_oid": "0eaf3bf8fafe8f435c19ac0731767705f215fb59",
+      "sha256": "577da238d6e6ec912292709253fa955be3a048212c0c44d85c9c9aad763af19b"
+    },
+    {
+      "path": "docs/research/evidence/selected-route-artifact-rebuild-reproducibility-r2.json",
+      "mode": "100644",
+      "bytes": 12214,
+      "git_blob_oid": "cc473746f4a57dbbaef154d74983dfaedbc18145",
+      "sha256": "ff5d68ef41eedf4ac26fe50a0727c251b6354946dcc40181e69bb15d25fd88c1"
+    },
+    {
+      "path": "docs/research/evidence/selected-route-authority-dependency-frontier-r1.json",
+      "mode": "100644",
+      "bytes": 14165,
+      "git_blob_oid": "cbbee77d24bedccdc53ad8ebc7d17dfa2471eeaa",
+      "sha256": "8646c2a11c27c613754813b66c457a15bdb018292135afe5d660da74b2388696"
+    },
+    {
+      "path": "docs/research/evidence/selected-route-hardening-state-r1.json",
+      "mode": "100644",
+      "bytes": 8333,
+      "git_blob_oid": "18be94f72e8b786e15c4456d9c3b549d31d3f056",
+      "sha256": "6c336cde8331ae3eeeeb51d5137c6814aa5c5f2f1363884020c69d5cc43b0216"
+    },
+    {
+      "path": "docs/research/evidence/selector-consumer-compatibility-r2.json",
+      "mode": "100644",
+      "bytes": 8454,
+      "git_blob_oid": "5d89c4dbd76a8a2d5e6788466417fca908a0f468",
+      "sha256": "affce44161bfc02d4888686375292c27108e65db1f15fbd0fb8f567c4c262845"
+    },
+    {
+      "path": "docs/research/experiment-log.md",
+      "mode": "100644",
+      "bytes": 104238,
+      "git_blob_oid": "415fc64e3c3bf92acff1b35be3bf01e616115b98",
+      "sha256": "4a7c9fa4d8d0622d9d939046e72a4960bc7273a17fcc069258f95467f2aab79c"
+    },
+    {
+      "path": "docs/research/frontier-renderer-paths-20260901.md",
+      "mode": "100644",
+      "bytes": 8072,
+      "git_blob_oid": "d599c85eeb8176085ad044465533b20dfc55bcbd",
+      "sha256": "79973a953a81d14b47bdbf2f87e3d69684b025cfae0124aae129ddeb25ad140d"
+    },
+    {
+      "path": "docs/research/g07-provider-bakeoff-comparison-20260901.md",
+      "mode": "100644",
+      "bytes": 3248,
+      "git_blob_oid": "3407069435da3d68aa26801b976922a0e3823bd7",
+      "sha256": "c707cdc62e18edfe583bf0ed9388be8d54664cd9d68cb49169f7a2a9ee232580"
+    },
+    {
+      "path": "docs/research/model-license-registry.md",
+      "mode": "100644",
+      "bytes": 15369,
+      "git_blob_oid": "8ceccb80545b8b1d1ec18e8fe0f55f2863d60c0a",
+      "sha256": "02ed2866865e8f9632bd3c27bab68658295a168346bc52b5277acca88485cd1c"
+    },
+    {
+      "path": "docs/research/next-experiment-queue.md",
+      "mode": "100644",
+      "bytes": 27031,
+      "git_blob_oid": "2f1bc06b9084f47a18de91e3f084d8c825de1d2a",
+      "sha256": "6b78b1b48a6bc6f10f241994c04caffddf00319ea052682badaa9208456a9948"
+    },
+    {
+      "path": "docs/research/next-renderer-decision-memo-20260901.md",
+      "mode": "100644",
+      "bytes": 2761,
+      "git_blob_oid": "58bb370b1fc4b2f4adb8daf8ff825a03e911c5ca",
+      "sha256": "c63fbf0d0325ca46741811ee52cf304ea32e839f898238279afea23ecfe51eb9"
+    },
+    {
+      "path": "docs/research/pipeline-recommendation-20260901.md",
+      "mode": "100644",
+      "bytes": 8901,
+      "git_blob_oid": "c376ba2d83942b24ef871eb478e5ee0629913d8a",
+      "sha256": "fd1092dab9950f035fd790dab5d1f1d3e48906172611ede57fc8894e7faa44e3"
+    },
+    {
+      "path": "docs/research/production-time-cost-ledger.md",
+      "mode": "100644",
+      "bytes": 3621,
+      "git_blob_oid": "cc56cd6aa14f9b7d09bf861e0979ddc6ac1ed491",
+      "sha256": "ff9b42e0a293d6ff0f31438baba3f0bae8a9766e621dc2a8b575adffe8e39224"
+    },
+    {
+      "path": "docs/research/production-time-costs.md",
+      "mode": "100644",
+      "bytes": 2640,
+      "git_blob_oid": "56dc2e1297ed73658cfedb878fe67a4d9c78d0ca",
+      "sha256": "a52427d2efc0dde559f9b7a6bb3c6d1cc6b1c668b643cd3a4f769fa101197f95"
+    },
+    {
+      "path": "docs/research/provider-bakeoff-readiness-20260901.md",
+      "mode": "100644",
+      "bytes": 3135,
+      "git_blob_oid": "96f76eeb4fc718c36b85d606c19df13444261cee",
+      "sha256": "9b41af1a15b2ca8f6617aec6dc8f30ecb4f45b03d15c7f810ac980e3abca36c7"
+    },
+    {
+      "path": "docs/research/provider-primary-documentation-20260901.md",
+      "mode": "100644",
+      "bytes": 6676,
+      "git_blob_oid": "e937f72f141fc136387363eed400fd33a55286e0",
+      "sha256": "3a7a740320ab1115ff26f13bd1f7aad37e39671871ab367bb7ba7f9213b61b9d"
+    },
+    {
+      "path": "docs/research/qwen-image-edit-2511-comfy-int8-assessment-20260901.md",
+      "mode": "100644",
+      "bytes": 3011,
+      "git_blob_oid": "e4c6c07bd356aafe6973d6a48351cf223140a72b",
+      "sha256": "1be098ecc7fff8c562bcf0f136f2eca2d70871ca9686c288e592cde9fc9381da"
+    },
+    {
+      "path": "docs/research/qwen-image-edit-2511-feasibility-20260901.md",
+      "mode": "100644",
+      "bytes": 3081,
+      "git_blob_oid": "da5bbff1348f1d0dac3819f320424768ce734eb2",
+      "sha256": "fe1ca49cc533d705e73a3a83495c4c8a4198b61a8d3134e285d591edf43d7dd8"
+    },
+    {
+      "path": "docs/research/renderer-decision-memo-20260901.md",
+      "mode": "100644",
+      "bytes": 4718,
+      "git_blob_oid": "5260e9d9c38e9ace858e07f83a1397094520d8f0",
+      "sha256": "f7da550f35474f9984492f225925b1169f98949fe7961fba6a71bcc5d9519432"
+    },
+    {
+      "path": "manifests/benchmark/stage-a-v1.json",
+      "mode": "100644",
+      "bytes": 842,
+      "git_blob_oid": "9e390b0a9e7ce7bcb83263dd7ad328b8d706959e",
+      "sha256": "4f5bf6d905d7c781c86feda2dcd16b7dc8ffa9f6f47bc78db2d6c9914a85e9ab"
+    },
+    {
+      "path": "manifests/experiments/actor-matte-g07-controls-v1.json",
+      "mode": "100644",
+      "bytes": 3409,
+      "git_blob_oid": "27b98860727a34a8d0248b3858952b68c20d4c53",
+      "sha256": "40110ddc3987fbff10d6c3daf2a79f2044a29ef34dfb5a481beedf795474ea78"
+    },
+    {
+      "path": "manifests/experiments/flux2-klein-blender-kitchen-control-g07-stage-v1.json",
+      "mode": "100644",
+      "bytes": 1268,
+      "git_blob_oid": "204482c385c1758675cf7c9ead9d231a2272c303",
+      "sha256": "1e6f1c6cc7b038664bf335a4b0bb189d4d525c44ad4387edba0e74c2b9fc6d23"
+    },
+    {
+      "path": "manifests/experiments/flux2-klein-geometry-proxy-g07-stage-v1.json",
+      "mode": "100644",
+      "bytes": 2889,
+      "git_blob_oid": "93d7f883602a6dc3308f92b1e666fb5435fefbe7",
+      "sha256": "c711a3abef8af2ace0314ffb0cd514142ee08dfa7f7cfe44228ceec8f34a5253"
+    },
+    {
+      "path": "manifests/experiments/flux2-klein-geometry-tile-proxy-g07-stage-v1.json",
+      "mode": "100644",
+      "bytes": 1044,
+      "git_blob_oid": "a66a604f6ef5b1d9ef83f7de1e921f9c60bc7f6a",
+      "sha256": "c40395ea7db6ccfc4a50a7049c711689827d9aaee46ef8d6f88f57d90580010b"
+    },
+    {
+      "path": "manifests/experiments/geometry-proxy-g07-controls-v1.json",
+      "mode": "100644",
+      "bytes": 2719,
+      "git_blob_oid": "6cdc09488aaf7ed0950512850f2a60fa90efdcf5",
+      "sha256": "d9eeec41538477800d9b8903d9664862d40cf1d621e53f57393b25d87fe2523e"
+    },
+    {
+      "path": "manifests/experiments/illustrious-xl-v2-blender-kitchen-g07-r1.json",
+      "mode": "100644",
+      "bytes": 967,
+      "git_blob_oid": "80cabbae56eb00a7df8570bc50881fb7628dbc3d",
+      "sha256": "ee02efbbe5fed80ecd90ef2af0b1d061a26bdf37b47403c96dd96d4a8130d477"
+    },
+    {
+      "path": "manifests/experiments/sequential-inpaint-g07-controls-v1.json",
+      "mode": "100644",
+      "bytes": 3829,
+      "git_blob_oid": "69c2c7a2ea36373aa13bf1545d959291847ae0a7",
+      "sha256": "db98dbbb713d6b33bd8819f3c7ddb64b911c6fea02dcb5ad0e8a444edef814d2"
+    },
+    {
+      "path": "manifests/experiments/sequential-inpaint-stage-a-smoke-v1.json",
+      "mode": "100644",
+      "bytes": 1267,
+      "git_blob_oid": "43e1f82c60041f7f0303d99d4cab803a41956d11",
+      "sha256": "e4413d79cfb957ac2eadb5afdc24f1eee4ab98d735d6499804c50f195af83ec7"
+    },
+    {
+      "path": "production/accepted/ch01-kitchen-sequence-v1.json",
+      "mode": "100644",
+      "bytes": 3753,
+      "git_blob_oid": "fe711429a721ac7cbb8cb32bc4962c41d4cfcf50",
+      "sha256": "3c67f1e672f24568153f663f8e856aa05a0a640a5746881ad862d4c890d27e32"
+    },
+    {
+      "path": "production/assets/asset-registry-ch01-v1.json",
+      "mode": "100644",
+      "bytes": 2963,
+      "git_blob_oid": "7ef7b487ed2a860364aac39610490d06c444bd70",
+      "sha256": "ed2c7c66556e0622b60f984cbdcacb79821e3ac0aecf229e9ea8b2c77bbefb92"
+    },
+    {
+      "path": "production/assets/asset-registry-ch02-v1.json",
+      "mode": "100644",
+      "bytes": 1147,
+      "git_blob_oid": "348faabba845beb07f4a81b74bf6237950a19c6b",
+      "sha256": "0c51b7745e64e6cb730658462e3254160672342011ef6d92975c0495c433a9a2"
+    },
+    {
+      "path": "production/assets/asset-registry-ch03-r1.json",
+      "mode": "100644",
+      "bytes": 1255,
+      "git_blob_oid": "7cc2b4743d713400b3ac358371a455393b9ebf3a",
+      "sha256": "fc0c2fa98ce892657a50c42dddc5c72d3ae2422fa7c7735ffe77f0e2f35f236d"
+    },
+    {
+      "path": "production/assets/asset-registry-ch04-r1.json",
+      "mode": "100644",
+      "bytes": 1158,
+      "git_blob_oid": "63dd6ce9d60c713f986c8d9d6e7d4b56d1b16afd",
+      "sha256": "57846e0bb558a819c7ed1032ee93423aa9fbb3143426425601d4d99cca1cfc7d"
+    },
+    {
+      "path": "production/assets/asset-registry-ch05-r1.json",
+      "mode": "100644",
+      "bytes": 1109,
+      "git_blob_oid": "95f38474cd5c0f611d8fac642d3eb016d4e5c2a7",
+      "sha256": "a3a4ffb26e029baa8e30c9ab51a60c934dc3a751ecdc35ad3c06952bb28560aa"
+    },
+    {
+      "path": "production/assets/controlled-actor-capture-spec-v1.json",
+      "mode": "100644",
+      "bytes": 1764,
+      "git_blob_oid": "ab576ec6bd8c889c8eef2ca7578f7df0e3bc2f60",
+      "sha256": "b4cde3c03bc8c75e75817689adeec14a8a53c358d58352f0b2208be77dcd5389"
+    },
+    {
+      "path": "production/canon/story-state/ch01-sc01-v1.json",
+      "mode": "100644",
+      "bytes": 503,
+      "git_blob_oid": "35fd020b61e3116f620721421ebbd614d05f1777",
+      "sha256": "f17326bd66bef338ab1a448495a7e17972a49f32b4b0a0f766d852d0af75a530"
+    },
+    {
+      "path": "production/canon/story-state/ch02-sc01-v1.json",
+      "mode": "100644",
+      "bytes": 698,
+      "git_blob_oid": "f63da4f5d9e09f1c87842620a8257fd510567308",
+      "sha256": "5ea8cdb6652feb4dac9aa4058bd7944c7c1254ef3ef7f7a4371a7be57db36e5a"
+    },
+    {
+      "path": "production/canon/story-state/ch03-sc01-r1.json",
+      "mode": "100644",
+      "bytes": 922,
+      "git_blob_oid": "f2c940a91e3175e49aa2cd2b34c096a27da5e9d7",
+      "sha256": "ece8874be3cde3850e6dc685f6259d6d23ad3a4a2ee839b62a4ceecb48e578dc"
+    },
+    {
+      "path": "production/canon/story-state/ch04-sc01-r1.json",
+      "mode": "100644",
+      "bytes": 680,
+      "git_blob_oid": "8619f40421a70469a0d2973d16a3fff000a645f0",
+      "sha256": "8b4e5d63d724dcf238daf4cb876bf6ae7be482c3b557b17ebef139da6246a71f"
+    },
+    {
+      "path": "production/canon/story-state/ch05-sc01-r1.json",
+      "mode": "100644",
+      "bytes": 941,
+      "git_blob_oid": "1e6fee7ddb37df172b759413e81ed57d96988da5",
+      "sha256": "ccd0c34bd23e97ff4f1549c2e28c930c168e754231943cd7e9e719a285463e14"
+    },
+    {
+      "path": "production/comic/ch01-sc01-panel-plans-v1.json",
+      "mode": "100644",
+      "bytes": 2361,
+      "git_blob_oid": "2ab21bf7064dbc2e7a73048e5b42062db2f87afb",
+      "sha256": "7cd07559becdbcb926b3f1498ac8f270ece1c0af215fa5b5bef27b46f88deb42"
+    },
+    {
+      "path": "production/comic/ch01-sc01-panel-plans-v2.json",
+      "mode": "100644",
+      "bytes": 2745,
+      "git_blob_oid": "495f8d1b05bf8aebb4b7d91a519b0b13ed8f593f",
+      "sha256": "09528f979710341c4f72f6b0117ada2a807dbe8a6e4963230b9ffd0a44170495"
+    },
+    {
+      "path": "production/comic/ch02-sc01-panel-plans-v1.json",
+      "mode": "100644",
+      "bytes": 1926,
+      "git_blob_oid": "8e6c7ddc58b8b28ff6ccf518e42aa05334b27756",
+      "sha256": "4a507972457e53158d642be22b856cd2fc89daa95061a01a805b35780b21888c"
+    },
+    {
+      "path": "production/comic/ch03-sc01-panel-plans-v1.json",
+      "mode": "100644",
+      "bytes": 2225,
+      "git_blob_oid": "ccc715369c51ff6532ee544db91b45903908fabc",
+      "sha256": "cbb85998f666d45946d8bf649d167d4dff544e7459111ac0204049a7117508f8"
+    },
+    {
+      "path": "production/comic/ch04-sc01-panel-plans-v1.json",
+      "mode": "100644",
+      "bytes": 1957,
+      "git_blob_oid": "ed644f9492a5ac2eea9da2ceb1acbff64243e9c8",
+      "sha256": "84a44bc76b39a93108b3fdf8ae81ae37b796f66fe72d486d0c48602d73146099"
+    },
+    {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "mode": "100644",
+      "bytes": 67565,
+      "git_blob_oid": "cb3207611fdf8457db2ec2c0eafbae31b1ea9b58",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    },
+    {
+      "path": "production/comic/demonstration-packets/ch05-p033-p038-no-network-r1.json",
+      "mode": "100644",
+      "bytes": 2473,
+      "git_blob_oid": "65604eacaece2ec42fe4e090732eca684441db9f",
+      "sha256": "ed5ce138bb15ee3265b1a5f493a2f36676c41876045ecc0c7daa703875b511cc"
+    },
+    {
+      "path": "production/comic/demonstration-slices/ch05-p033-p038-r1.json",
+      "mode": "100644",
+      "bytes": 2179,
+      "git_blob_oid": "1064cc11914eee90a7c8bc7e73154d10b5f5b3e2",
+      "sha256": "667e151bebf83de07249ff067b197731d0c7f9f701b52710c30da25180ea538c"
+    },
+    {
+      "path": "production/comic/hard-assertion-manifests/ch02-treeline-return-archival-review-v1.json",
+      "mode": "100644",
+      "bytes": 1658,
+      "git_blob_oid": "e5d240a94cb7c376f9f6dc6d6a00d89618946455",
+      "sha256": "2ea4fe2b681ff34d4f4f55f35516183992485ca760a1e4ad1dc5970d589ed0f2"
+    },
+    {
+      "path": "production/comic/hard-assertion-manifests/ch03-ridge-signal-imagegen-r1.json",
+      "mode": "100644",
+      "bytes": 1561,
+      "git_blob_oid": "a3c77434dce591b979132e78244a7527a1aa9d27",
+      "sha256": "b5a88f14f33d1cfe7037151dbc9113e133906d7fdd1841caef7ec45bd26dc29e"
+    },
+    {
+      "path": "production/comic/hard-assertion-manifests/ch04-dawn-trail-imagegen-r1.json",
+      "mode": "100644",
+      "bytes": 1380,
+      "git_blob_oid": "65400092343b5cdc7b2367bc3dc953ac01d13ec8",
+      "sha256": "4a1762fcdb6a2eada59b32d32340113e509aa98989c39be61b32a3bcc86676ae"
+    },
+    {
+      "path": "production/comic/hard-assertion-manifests/ch05-mill-signal-r1.json",
+      "mode": "100644",
+      "bytes": 14614,
+      "git_blob_oid": "4a7ba83f8116886590c7c3b527b7b99bd8238a8e",
+      "sha256": "2e0a3ad1f0e1b92620e4c8001e8648a84225066ef9b75e50dd931a47fc0d3062"
+    },
+    {
+      "path": "production/comic/hard-assertion-manifests/g07-fictional-proxy-v1.json",
+      "mode": "100644",
+      "bytes": 2811,
+      "git_blob_oid": "5439e6dbf03c3186ffc6780bd609c1ce2ae2ca7b",
+      "sha256": "e623ef1d6add23da9b2558f0c628bbc8df54e15adb8de3bacd503e66ebc16191"
+    },
+    {
+      "path": "production/comic/layout-controls/ch05-p033-p038-deterministic-r1.json",
+      "mode": "100644",
+      "bytes": 3110,
+      "git_blob_oid": "b36a44be9728dbe1416251714ed28713f09e19c3",
+      "sha256": "43e833d4e71385542dcca0a9434cc9717efed1e52ec19888c71d60880ac043f1"
+    },
+    {
+      "path": "production/comic/narrative-sequence-registry-r1.json",
+      "mode": "100644",
+      "bytes": 1762,
+      "git_blob_oid": "a9192396527c041deecd771b16ead7aa21a6f13a",
+      "sha256": "6ee5be99a331d2f33fad1ceac42da5aa17e94511ea31b476cb3ebd7c90a44121"
+    },
+    {
+      "path": "production/comic/panel-revisions/ch01-sc01-initial-import-r1.json",
+      "mode": "100644",
+      "bytes": 1897,
+      "git_blob_oid": "b7d3a0f01de65c6b64e49329aae5725446aa21d4",
+      "sha256": "2bf495f993ed802daa0600230b084dd76e5ece2286d453a69a72438edf0960a7"
+    },
+    {
+      "path": "production/comic/panel-revisions/ch02-sc01-historical-import-r1.json",
+      "mode": "100644",
+      "bytes": 2054,
+      "git_blob_oid": "22323fa19462f0d3fab5abe0db41ae860497ba4a",
+      "sha256": "2c6da20bfd1d6a8be639cc4f6207d1e609efc93057add74ee675734ed867b128"
+    },
+    {
+      "path": "production/comic/panel-revisions/ch03-sc01-imagegen-r1.json",
+      "mode": "100644",
+      "bytes": 2128,
+      "git_blob_oid": "9ecd40680efcab1761dfe2b6bed5347288a21a0c",
+      "sha256": "572b5c6d1dead00ff0029489dfb3949ed22bd30fa38db1cdaa726ae4040a289a"
+    },
+    {
+      "path": "production/comic/panel-revisions/ch04-sc01-imagegen-r1.json",
+      "mode": "100644",
+      "bytes": 2037,
+      "git_blob_oid": "00529ac24007e39089c8fc5010f30eab4ec95ec7",
+      "sha256": "ad8e434c1607bf62a3e0e3bce052dbe50ff7df15816a03011dbeb0d881cb31dc"
+    },
+    {
+      "path": "production/comic/repair-readiness/ch05-chapter-repair-policy-coverage-r1.json",
+      "mode": "100644",
+      "bytes": 32590,
+      "git_blob_oid": "4373877673209ea152b37a2d2691d4a783b36497",
+      "sha256": "5aeb143ea9ab13c814e0efd21071b0354f529af68fba09dfe255363656307866"
+    },
+    {
+      "path": "production/comic/repair-readiness/ch05-p036-openai-r1.json",
+      "mode": "100644",
+      "bytes": 4790,
+      "git_blob_oid": "db4ebca72c2d2e6c7a7c95aab97516f7515ecefd",
+      "sha256": "6ea50b944d6dd0c21ca44c6efa3f4cfa4c110d0af47a1e754c89e51d24819ac6"
+    },
+    {
+      "path": "production/comic/repair-readiness/ch05-p036-openai-r2.json",
+      "mode": "100644",
+      "bytes": 6467,
+      "git_blob_oid": "60a5bd159ece977c06a09e6d4813c853ef33903c",
+      "sha256": "466a00b9cd1786682960476408f9e6005cc3a4e18c85092d6b0c3643ee9c3e9e"
+    },
+    {
+      "path": "production/comic/repair-readiness/ch05-p036-repair-outcome-finalizer-r1.json",
+      "mode": "100644",
+      "bytes": 3106,
+      "git_blob_oid": "ef74222abfea025891774a60582b4ca5737d785f",
+      "sha256": "483ef73d30f1f8b63ff9434b71b5e8a3df7b2c4fe82d7f754ec8a796f4297ddc"
+    },
+    {
+      "path": "production/comic/repair-readiness/ch05-repair-evidence-readiness-matrix-r1.json",
+      "mode": "100644",
+      "bytes": 71849,
+      "git_blob_oid": "eaff89b9b038fa410100d3139698bbd8788ca433",
+      "sha256": "859dd87f0c80837fb414975de21a8cc61926780e733c77e0aa690c4e09aaa1b5"
+    },
+    {
+      "path": "production/comic/run-ledgers/ch05-p033-p038-local-preflight-r1.json",
+      "mode": "100644",
+      "bytes": 6301,
+      "git_blob_oid": "ff4791ea8d8856b7dd48a02a40f5a4d0a5c1c266",
+      "sha256": "43ec63260fa0f4d2f93cff750351e57acc5e703b0ae886b91e31384ecf2bad5d"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-50-panel-run-manifest-r1.json",
+      "mode": "100644",
+      "bytes": 1379,
+      "git_blob_oid": "7e0e0194df0aa224e1e96cddaa6e18236bc8cbfe",
+      "sha256": "639bee757d6b9b3c58727e995dc17979a93f57f5a8abdbf05c2fba49b887a168"
+    },
+    {
+      "path": "production/comic/style-direction/ch05-mill-signal-r1.json",
+      "mode": "100644",
+      "bytes": 1029,
+      "git_blob_oid": "d6a9d1cc152d481b771ac8fd7f14e39e8b4536ea",
+      "sha256": "319283195affb949217c7a7661fc58b34c1e92a512bd8ec8e49ed336251fb86a"
+    },
+    {
+      "path": "production/decisions/ng-decision-ch05-mill-signal-promotion-r1.json",
+      "mode": "100644",
+      "bytes": 1515,
+      "git_blob_oid": "a9408d4817ba526bfbd688e73dbad0060e786fdf",
+      "sha256": "b694ba69c70f1e657cc3dc3bb5982230931c6bd074982e98f3b5f90714df7f68"
+    },
+    {
+      "path": "production/editions/north-garden-ch02-research-edition-001.json",
+      "mode": "100644",
+      "bytes": 774,
+      "git_blob_oid": "ad46f989ae79f5657a8d3bfd60e90939af1da3e5",
+      "sha256": "6f17e0f73e6c32563d5e1a56b5e22417d4fd49a4b66e56d13428d5fa10c4f54b"
+    },
+    {
+      "path": "production/editions/north-garden-ch03-imagegen-draft-edition-001.json",
+      "mode": "100644",
+      "bytes": 739,
+      "git_blob_oid": "eca29d3c631d611eba9708754d87f5a37831b5cb",
+      "sha256": "eeb2803ba8452fa8ef6f39ff1c3a5908c3433a0d2a964f8cfeac08e0ffdf05e1"
+    },
+    {
+      "path": "production/editions/north-garden-ch04-imagegen-draft-edition-001.json",
+      "mode": "100644",
+      "bytes": 739,
+      "git_blob_oid": "52f9669c32f32aed3f193ec19900f817c569326a",
+      "sha256": "ee724e5fd92c38f953c457e61cabb82408f07eb1274d57bdc312263b55d729f0"
+    },
+    {
+      "path": "production/editions/north-garden-research-edition-001.json",
+      "mode": "100644",
+      "bytes": 1029,
+      "git_blob_oid": "bd4f8b4ec00e9d69548e9553c01365a7c2823daa",
+      "sha256": "b67f1ab628d874884f4511be3df67460fce5f6dca48b7992f739a80558def84a"
+    },
+    {
+      "path": "production/editions/north-garden-research-edition-002.json",
+      "mode": "100644",
+      "bytes": 869,
+      "git_blob_oid": "5daa33bc10259b87444a706c81169fb18faac7aa",
+      "sha256": "7d85503afe5da6885bd5c63e52bb129dbddcb7f3a6f123a47a0f076a8e99f18b"
+    },
+    {
+      "path": "production/scene-beats/ch01-sc01-argument-v1.json",
+      "mode": "100644",
+      "bytes": 321,
+      "git_blob_oid": "c18056b8a2b8185c4038266440f9871cdbb249d6",
+      "sha256": "ba6a0b669666c8209b96c96b9f300c20e30888141f6e155fd5f92c4bc7186cce"
+    },
+    {
+      "path": "production/scene-beats/ch02-sc01-treeline-return-v1.json",
+      "mode": "100644",
+      "bytes": 592,
+      "git_blob_oid": "0699f8dafb43d8bb252f83bac9643b1f0a6339f6",
+      "sha256": "4651a43339ab4781476ff9efe014c5b4964806e01686deefb04de80995a8bfbe"
+    },
+    {
+      "path": "production/scene-beats/ch03-sc01-ridge-signal-r1.json",
+      "mode": "100644",
+      "bytes": 709,
+      "git_blob_oid": "27fc0c1cd8c0a898998ea9c8e03901babc5c60cc",
+      "sha256": "8cc67680e0ce0d24b220b772233d65a978c5b48d1d6e1ca9f36c142f7e229ac6"
+    },
+    {
+      "path": "production/scene-beats/ch04-sc01-dawn-trail-r1.json",
+      "mode": "100644",
+      "bytes": 553,
+      "git_blob_oid": "8d81ab0aea123f1211a772c016d40458fce21855",
+      "sha256": "7d3daafecfbff665b047a35bbeaf42aa36988ff385245791ffe28771e1a652e1"
+    },
+    {
+      "path": "production/scene-beats/ch05-sc01-mill-signal-r1.json",
+      "mode": "100644",
+      "bytes": 558,
+      "git_blob_oid": "ad1b9ea31044a800a535dbbb22b277b807e914df",
+      "sha256": "563a1ea1264d769692cb236f492a06ab3261ba0e14d45b423e7ba8a5a054b21b"
+    },
+    {
+      "path": "production/stages/controls/kitchen-table-blender-control-bundle-v1.json",
+      "mode": "100644",
+      "bytes": 3413,
+      "git_blob_oid": "386ea2b0c087421510b451a5f495b812984ea384",
+      "sha256": "5de867031a91e4a1f24f17406db601ae630805827aa27227530ac19dcecddd55"
+    },
+    {
+      "path": "production/stages/controls/kitchen-table-blender-control-bundle-v2.json",
+      "mode": "100644",
+      "bytes": 2899,
+      "git_blob_oid": "c2f81ff897c75c41e31ca84ce2bf2d674ba69ff7",
+      "sha256": "26482c1cfe536dae2bc3f2f8369def0a39752abced3c0fb960d22cbad18afe6e"
+    },
+    {
+      "path": "production/stages/kitchen-table-canonical-geometry-bootstrap-v1.json",
+      "mode": "100644",
+      "bytes": 3055,
+      "git_blob_oid": "1d27e8d754834db308e09b5888dbbc13b2fce5d5",
+      "sha256": "086eb70f388a9e25f37866c16f0dda235bbb39e7c3416e94df7586e514314c18"
+    },
+    {
+      "path": "production/stages/kitchen-table-canonical-geometry-bootstrap-v2.json",
+      "mode": "100644",
+      "bytes": 2893,
+      "git_blob_oid": "b7bff85c2478cf694952ddc4ad957154fe71862d",
+      "sha256": "56d172384746923ab570081dcb41a9723cb79bb215578e7d5576bbda55f562ba"
+    },
+    {
+      "path": "production/stages/kitchen-table-spatial-contract-v1.json",
+      "mode": "100644",
+      "bytes": 2283,
+      "git_blob_oid": "9ed06fc0980954ffd3acc5769ac919313b92afde",
+      "sha256": "d93b19341c9ed1f0a30f0668f13ece085a16f909f4fe2e2c089174b686497851"
+    },
+    {
+      "path": "production/stages/kitchen-table-world-to-comic-panel-projection-v1.json",
+      "mode": "100644",
+      "bytes": 1267,
+      "git_blob_oid": "dc500a0af8babf8726e0bfe7de975be2af29032d",
+      "sha256": "99ca5eb1f11ffc1cdd62b2d689df05319fc7d3ade84bb015f912a27c877f6c62"
+    },
+    {
+      "path": "production/stages/resolved/ch01-sc01-kitchen-spatial-inputs-v1.json",
+      "mode": "100644",
+      "bytes": 4121,
+      "git_blob_oid": "ee15c4d4eda14fe6c45643bde1a19b8d2916869d",
+      "sha256": "c41c0fc003f7663b2f8325c196015fc318b024e826113475a157a4a3662ca793"
+    },
+    {
+      "path": "production/templates/narrative-development-promotion-decision-template.json",
+      "mode": "100644",
+      "bytes": 1239,
+      "git_blob_oid": "93cf516bf9aa2a623f7d1c9c1d886427c77efd90",
+      "sha256": "8878d027af2105c4c8e5f5b717b3444d0d508e810740c612940e5f7f14044272"
+    },
+    {
+      "path": "public-controls/g07a-no-change-r1.png",
+      "mode": "100644",
+      "bytes": 936004,
+      "git_blob_oid": "110dba0e97095233b8272cb1bb134e14272a22bb",
+      "sha256": "867a05c2f3e35f196cd28a9d1dc1954f2ba862f62d33ae34df4f3161a3200436"
+    },
+    {
+      "path": "public-controls/g07a-role-id-r1.png",
+      "mode": "100644",
+      "bytes": 936004,
+      "git_blob_oid": "61bac02dbff68d26fb6baaea8c10b2f2616118da",
+      "sha256": "0a7237f655492f4aea7618036b7bac1a5068882f113ae395188ab50abb5a2699"
+    },
+    {
+      "path": "research/authoritative/north-garden-pipeline-brief.pdf",
+      "mode": "100644",
+      "bytes": 4354390,
+      "git_blob_oid": "53a4497ff6d11869a439cec7c011380aa6800c58",
+      "sha256": "07f208a2b33b314779fc21d24fe952f2224ed6aece7a2539bdfe9179f5103b97"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/CHANGELOG_V2_1_1.md",
+      "mode": "100644",
+      "bytes": 5209,
+      "git_blob_oid": "18785d8aa8b6d696449214e123acde90a0242b86",
+      "sha256": "c549b1c7290da1d1c0132c0997db59ce28d6ec104eaf2073da95407df7a2b1d7"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/PACKAGE_STATUS.md",
+      "mode": "100644",
+      "bytes": 798,
+      "git_blob_oid": "ef02c4e19914f1feb5bdb99c075a321f6d49d240",
+      "sha256": "4893cb2cee7d7eff168abb342291ebc9d1cc8f9424bbf29bc3c2bc524eacbb92"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/README.md",
+      "mode": "100644",
+      "bytes": 3698,
+      "git_blob_oid": "589986fe0ba96ea5c2ad995b295568dacd1cd1a2",
+      "sha256": "4dd188400fa5f5fb78e4c824bc77407da527f427ef43a0d235deed92ce4ab585"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/bench/CONTINUITY_GAUNTLET.md",
+      "mode": "100644",
+      "bytes": 15330,
+      "git_blob_oid": "70e8f7444688ab2c2f67ff8e5888bf37d236ae5c",
+      "sha256": "a37df49262e0af2a95c90ab9f114983b6b8a30423c0f31d3dbb8e683ff067ddf"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/bench/gauntlet.json",
+      "mode": "100644",
+      "bytes": 29327,
+      "git_blob_oid": "6b597453ca41339f67042883fc75fbfad7d1f4e7",
+      "sha256": "f826b0f1d06ed5a999667bde23ba0d04f8ebb22f516095034dab62c7541ae9ae"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/docs/ARCHITECTURE_V0_1.md",
+      "mode": "100644",
+      "bytes": 18527,
+      "git_blob_oid": "22b9e2e236fb72e07571b21eecf9a62f2da4ba04",
+      "sha256": "5242a21de8dd5539bd726ba8382f3703ce1367629cbcdab880964b28890617b6"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/docs/CORRECTIONS_V2_1.md",
+      "mode": "100644",
+      "bytes": 13020,
+      "git_blob_oid": "620a2bb50fe3037506bcc9e1b17daa7adc28ad73",
+      "sha256": "bc8065d7673b8027a5db9f29dbd8b351308a5a3326bc0be372cf1a4f9fa79c64"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/docs/DECISION_LOG.md",
+      "mode": "100644",
+      "bytes": 25685,
+      "git_blob_oid": "55c3db9389fcfc3330b6186760e9a774ef84a13a",
+      "sha256": "361de849b8318467b293fe52260a4b016911afe99a3ea823d0796fd5e2b4f5f6"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/docs/EXPERIMENT_BACKLOG.md",
+      "mode": "100644",
+      "bytes": 14546,
+      "git_blob_oid": "09a6d00418ec2cc66fa93ad7a01287ed02e16df6",
+      "sha256": "31eeabd6de807a7822c63261ea3320219108ddc589c15d5a48db0bd308d79b2c"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/docs/HANDOFF_CODEX_V2.md",
+      "mode": "100644",
+      "bytes": 20926,
+      "git_blob_oid": "d1d43a9a12e1d2d24a3bec6824d352eac8758b91",
+      "sha256": "bcfc0aaf6834fe3ef306e4cd2e80f7731a293d75f915c6f7d47ebc499f5a38ee"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/docs/NEXT_ACTIONS.md",
+      "mode": "100644",
+      "bytes": 9185,
+      "git_blob_oid": "ed03bc96ebf897c1e302028ed4e73944a1c33a80",
+      "sha256": "4a40b89e41d4f5a905b43bcea76a1adcb58e6dab2a325ee4f340757e8285dc42"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/docs/RESEARCH_BRIEF_V2.md",
+      "mode": "100644",
+      "bytes": 17218,
+      "git_blob_oid": "72135eb85355ae2632bc3725003255741d649826",
+      "sha256": "dafa36c3716bfa3513774e6c1da4d242a04eb6e9eb17805f13d933209b24767b"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/registry/CANDIDATE_REGISTRY.md",
+      "mode": "100644",
+      "bytes": 12932,
+      "git_blob_oid": "2a59b8ddc40593d497452a2ceab4cdc2cb1a1f0f",
+      "sha256": "65fe3f8b77611907b5d2a768260272429f4525cd8198c6c401f9cb75e2cea17e"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/registry/POLICY_LICENSE_REGISTRY.md",
+      "mode": "100644",
+      "bytes": 16127,
+      "git_blob_oid": "34730771093064dcb627fe325d119679f1484ebe",
+      "sha256": "6a6a61cb55bcbe1b03f37156a413b851ae83ae761897cfab996ec551c2774781"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/registry/candidates.json",
+      "mode": "100644",
+      "bytes": 14348,
+      "git_blob_oid": "bbc0538009e6e65e52d0f1ed1842b20e8db052f5",
+      "sha256": "0d227b3ea7bf8010ded7d7faa0e5780a74391743ed7c8948c613f3a59cbc1c46"
+    },
+    {
+      "path": "research/authoritative/v2.1.1/scripts/validate_research_package.py",
+      "mode": "100644",
+      "bytes": 10013,
+      "git_blob_oid": "4faed0a8dfe11f35414e8bf66fc08fd9bf920694",
+      "sha256": "f5cfb2997c111ab36390963c414c0dc5af4ea32c61a1dea24f4bac5769f48f86"
+    },
+    {
+      "path": "research/development/clean-ch05-mill-signal-r1.json",
+      "mode": "100644",
+      "bytes": 11809,
+      "git_blob_oid": "776cf4ed5241bf83e3ab468424de4fb4ba29247d",
+      "sha256": "26579fbf67a4a17518b28f20e263efa08b3dc6715f5aae85acb721880b6d9daf"
+    },
+    {
+      "path": "research/development/review-packets/clean-ch05-mill-signal-r1.md",
+      "mode": "100644",
+      "bytes": 7376,
+      "git_blob_oid": "68f251eaeaa8a1da98d48a41b10574e6a13cf102",
+      "sha256": "117db46b902fa645a632f77d41089cf773b3a7fa57be4c43e530983ee53a6d58"
+    },
+    {
+      "path": "research/historical/README.md",
+      "mode": "100644",
+      "bytes": 441,
+      "git_blob_oid": "67e7c3f092ce290f23aad9a2fb02ccb1d13ae80b",
+      "sha256": "39ba7c4ba27a8f42b6d0c4c2b41d64d9603418039f9aa54f42acbe65953d26e2"
+    },
+    {
+      "path": "research/historical/inventories/gardens-anchor-pilot-r1.json",
+      "mode": "100644",
+      "bytes": 2597,
+      "git_blob_oid": "b8d37ae620621571d9c09ff01f1e208e21443155",
+      "sha256": "56094a0a089474bf242018157daad0b662b43fa86d5cfd12f7c006d40b03d95d"
+    },
+    {
+      "path": "research/historical/master-research-architecture-brief.md",
+      "mode": "100644",
+      "bytes": 78299,
+      "git_blob_oid": "58d73bd2439b64eeccfe6f37a01cb3e36d00ec39",
+      "sha256": "000a6ab8d66f42d153d8f434a4bcdec12cf8953f057b7c6b9a606b3d7f29d811"
+    },
+    {
+      "path": "scripts/bootstrap-local.ps1",
+      "mode": "100644",
+      "bytes": 4380,
+      "git_blob_oid": "ffd070937f8e8d3f57af2b183e1d2ceeff4d68c2",
+      "sha256": "1b2564ec7f2c15e8538dc1f182f723251dc0acc74ddf06d9dab0bab4f8e98786"
+    },
+    {
+      "path": "scripts/test-git-scope.ps1",
+      "mode": "100644",
+      "bytes": 1332,
+      "git_blob_oid": "b082a259003bf6a92c5a95f73253704126b6a87a",
+      "sha256": "fbd01f3de731d603d7f98d2b94b330490965c5f42605fb3a39d48af47e5ab9e6"
+    },
+    {
+      "path": "scripts/validate-ch05-instrumentation.ps1",
+      "mode": "100644",
+      "bytes": 340,
+      "git_blob_oid": "2347ca9c4e84a7a8f38316e286b411cf71c50d18",
+      "sha256": "7b1bba2a8b969644d02281335e48e91e379113011705573caf2153351473471e"
+    },
+    {
+      "path": "src/north_garden/__init__.py",
+      "mode": "100644",
+      "bytes": 71,
+      "git_blob_oid": "54493e9f8b7adca17271c401262e779ec21e31c4",
+      "sha256": "779194f920cb5c3a1fa6c9528685652b2ac0ffe885f7b691acf945efcb80aee7"
+    },
+    {
+      "path": "src/north_garden/actor_alpha_control.py",
+      "mode": "100644",
+      "bytes": 3513,
+      "git_blob_oid": "14b89957bc8391c7de6179dbff454eb1633c0ed9",
+      "sha256": "bccc814a88602649a9b44486cdb6b734e4516b8cc188af1fdc1305c0faccc048"
+    },
+    {
+      "path": "src/north_garden/actor_matte_g07.py",
+      "mode": "100644",
+      "bytes": 6625,
+      "git_blob_oid": "d83c6c16cdc7b4a6dd1b6fa0c52210bca3f2570b",
+      "sha256": "9e3cca184167ec7deeef93014bf714f482a3a74e8b6f57eb28984bb553890faf"
+    },
+    {
+      "path": "src/north_garden/analyze_ch05_development_coverage.py",
+      "mode": "100644",
+      "bytes": 3119,
+      "git_blob_oid": "b97f6ba168c5f13c12d90608cb15da6f6462d472",
+      "sha256": "9dd48410f0a0b5d14f10fe745d15ef42314d1b1c7517d250d90af771933f60e1"
+    },
+    {
+      "path": "src/north_garden/bakeoff_budget.py",
+      "mode": "100644",
+      "bytes": 13013,
+      "git_blob_oid": "0c443183bebc10b177aa071a5a39febcdf009df1",
+      "sha256": "5d19cdefbed816fa6faa450a79cbff51a1330bbdecefa6036d43d0d8bf0cadf2"
+    },
+    {
+      "path": "src/north_garden/baseline_legacy.py",
+      "mode": "100644",
+      "bytes": 11833,
+      "git_blob_oid": "78c2f8dd3031254849d791d4bfbaf893c687f66e",
+      "sha256": "facdc889fc2ea8f3ecc6f588a9af0a29ea1f3a3fbdc9c6d978da4e4b68a0b52c"
+    },
+    {
+      "path": "src/north_garden/bfl_flux2_bakeoff.py",
+      "mode": "100644",
+      "bytes": 10200,
+      "git_blob_oid": "e3c2124ae60f1d4a2a941aef283f3bc00f2b81e3",
+      "sha256": "cd9b169fff3f7d80ee8d8753161e1530f07b79a76fde8a149fbe658986bbbb4f"
+    },
+    {
+      "path": "src/north_garden/blender_build_kitchen_control_bundle.py",
+      "mode": "100644",
+      "bytes": 3393,
+      "git_blob_oid": "de5da51184d5c2ccf7590d3a0af0c3dcb662ef62",
+      "sha256": "1fb8939a1965a185a497a6e26c304f2eb34478d13292ba1d3e375212dabbf374"
+    },
+    {
+      "path": "src/north_garden/blender_import_stage.py",
+      "mode": "100644",
+      "bytes": 1784,
+      "git_blob_oid": "3b4be9e4e1297f24b2693af9e953f7ec13387abd",
+      "sha256": "67751386cb133e22cd7f4101cd23a8473f5ce8cfd63f9f527e86fba55357e514"
+    },
+    {
+      "path": "src/north_garden/blender_import_stage_v2.py",
+      "mode": "100644",
+      "bytes": 1700,
+      "git_blob_oid": "fb55a2668dac15086a08bb0372c694fa0ff3a277",
+      "sha256": "161a4a5eff55efc6bed28c4c4d15a22832fe9e6adb5a86add9e84da8360fcb43"
+    },
+    {
+      "path": "src/north_garden/blender_render_stage_calibration.py",
+      "mode": "100644",
+      "bytes": 2846,
+      "git_blob_oid": "ec784e316088eab278d3a51268d3975a3cba9d10",
+      "sha256": "0e73efeb5702928c5231b09fc0ede27a6aac40d4a7a8f7072d9368db663c5a0c"
+    },
+    {
+      "path": "src/north_garden/build_ch05_candidate_review_packet.py",
+      "mode": "100644",
+      "bytes": 2524,
+      "git_blob_oid": "1d257e63a1c1bda3c7c4f4511f1022adbd8b6dbf",
+      "sha256": "768300c46a6f6e8d86a98ef53ed2b436c2c44166dbfcc85803bc97c2179d5be5"
+    },
+    {
+      "path": "src/north_garden/build_ch05_demonstration_packet.py",
+      "mode": "100644",
+      "bytes": 7193,
+      "git_blob_oid": "38f6fd8f673f12e175ff8a6f77c985b3c6eb03da",
+      "sha256": "c42b777ffb8654da9dc1ec39a3d9ef0ef20997cffd52013ddc27212fc997cd11"
+    },
+    {
+      "path": "src/north_garden/build_ch05_imagegen_smoke_packet.py",
+      "mode": "100644",
+      "bytes": 2801,
+      "git_blob_oid": "3081cca92642ecee867f02c2a0e8254af5667a07",
+      "sha256": "81fe57f63db501d9acf8a7578c6e4f5cc011edc7fa9e5bd75a9a95d40110a760"
+    },
+    {
+      "path": "src/north_garden/build_ch05_lettering_overlay.py",
+      "mode": "100644",
+      "bytes": 3075,
+      "git_blob_oid": "1c52b7c6ccf0a70bda85cfac87323f8c2a394cb4",
+      "sha256": "24e11c26c707661c9f2b55281cde5c70df2361b4941877a2b3b3d7b70038634f"
+    },
+    {
+      "path": "src/north_garden/build_ch05_p036_layout_control.py",
+      "mode": "100644",
+      "bytes": 6328,
+      "git_blob_oid": "f8538f0b737b851c853e4b70fadb3608e97b2c6e",
+      "sha256": "17e0c68d9731254f9bbc84b4f6f6dd5e2c39230cc5f3c8c35abbe266d6081800"
+    },
+    {
+      "path": "src/north_garden/build_ch05_p036_mask_authoring_preflight.py",
+      "mode": "100644",
+      "bytes": 5627,
+      "git_blob_oid": "f18dd2a43cb7784960abe0acddf5d431269b99bb",
+      "sha256": "db65f73c4c7963abf3a7663bc250f180346f1a8e405ad5530b35f52603873186"
+    },
+    {
+      "path": "src/north_garden/build_ch05_sequence_layout_control.py",
+      "mode": "100644",
+      "bytes": 10293,
+      "git_blob_oid": "4a610620c377d6614684dad0282fa1a001c49403",
+      "sha256": "db3843358340b975b009bd6514a4ce48d1c9ec9bc39be70595ca485c05068795"
+    },
+    {
+      "path": "src/north_garden/build_development_script_review.py",
+      "mode": "100644",
+      "bytes": 1991,
+      "git_blob_oid": "db7767c238070e72405164d94edf9525738e7cc7",
+      "sha256": "76dbcb6924dcc1d25467f2f3994339c91d729ef89f1db867502f2b1a0327ec71"
+    },
+    {
+      "path": "src/north_garden/build_narrative_review_packet.py",
+      "mode": "100644",
+      "bytes": 3780,
+      "git_blob_oid": "75c203eff3abf3230a7b39d5855420821946cd4c",
+      "sha256": "9d977923cf31deb174d4fde9206818267488f22e0324fb3d23c8a150ea5fa32c"
+    },
+    {
+      "path": "src/north_garden/build_renderer_bakeoff_review.py",
+      "mode": "100644",
+      "bytes": 5162,
+      "git_blob_oid": "4007bde146017c9b5e7b744980f9299453d317b0",
+      "sha256": "98ed77f231b31f33aa483387c15cee9e6a7da26ef3d2a5e18d66697e01708ef6"
+    },
+    {
+      "path": "src/north_garden/chapter_draft_readiness.py",
+      "mode": "100644",
+      "bytes": 3910,
+      "git_blob_oid": "e683fd494b3f27a0397d969e68521bd9b89d7273",
+      "sha256": "4abfa362ceb75e75b45841a6d7a47f9f6cefbff497058f69512ac3d77ca96cec"
+    },
+    {
+      "path": "src/north_garden/chapter_lint.py",
+      "mode": "100644",
+      "bytes": 6882,
+      "git_blob_oid": "511b5dee686aae664a01eead911bfbcc16c42953",
+      "sha256": "af2b0eda7a94586a08db4845b20656f8f5cf5620a9c4aa66cd225cd3dfcc974d"
+    },
+    {
+      "path": "src/north_garden/chapter_progress.py",
+      "mode": "100644",
+      "bytes": 7676,
+      "git_blob_oid": "77b7aba5e1f33cd100b938ba0fdb448bc12bf2b2",
+      "sha256": "3543bf50590d0c99dc6a0e1a0a55617d5c2ff65d6633477544283760ee77021c"
+    },
+    {
+      "path": "src/north_garden/comic_input_gate.py",
+      "mode": "100644",
+      "bytes": 6735,
+      "git_blob_oid": "286b133a9d6ed02ed25636eda9c361cf7a8f6f9b",
+      "sha256": "0a335fc2eb104550dcba3fd0811ece4930e17451ecd66e3c219d61ce487e0f1c"
+    },
+    {
+      "path": "src/north_garden/comic_run_ledger.py",
+      "mode": "100644",
+      "bytes": 18212,
+      "git_blob_oid": "73a3a5e270b1bf1bd4b0833e6e65f4410ea4c483",
+      "sha256": "bdd8c4a4a6572c4a043a4e65487bbcd33db35716132bc9c8ccdbe6f6b934deaa"
+    },
+    {
+      "path": "src/north_garden/compile_ch05_chapter_run_manifest.py",
+      "mode": "100644",
+      "bytes": 6396,
+      "git_blob_oid": "8fbfb84603c2c0483206ee9e9f22e8568cf3211a",
+      "sha256": "1929248a610813b681b9b837ebdc4714b2bd38fd737dc70d745c31cbcc2a67bb"
+    },
+    {
+      "path": "src/north_garden/compile_ch05_production_preflight.py",
+      "mode": "100644",
+      "bytes": 6991,
+      "git_blob_oid": "dc3e4905f9ce8731f395b38a0f5adb31866f022f",
+      "sha256": "d033aa482c84abed850d635f75176ce02eb2e96cc9174992e75b930c91efbee0"
+    },
+    {
+      "path": "src/north_garden/controlled_actor_capture.py",
+      "mode": "100644",
+      "bytes": 7326,
+      "git_blob_oid": "ffb82190d768d6bf47247b3890506aab9e9de262",
+      "sha256": "74650af2e2261d1d95cbc66b548ff912d176283d0bd2c508caea765611ca64bf"
+    },
+    {
+      "path": "src/north_garden/controlled_actor_capture_v2.py",
+      "mode": "100644",
+      "bytes": 6038,
+      "git_blob_oid": "6f6a59e95faefab85838d6a5a330529bee040724",
+      "sha256": "cbe1ebf731340ed5886aa952237af4ddef21d3e06a03bfe3342cf19e28b305d1"
+    },
+    {
+      "path": "src/north_garden/envfile.py",
+      "mode": "100644",
+      "bytes": 1127,
+      "git_blob_oid": "fb4b786992c33c02a8732003e5d90b650f70478a",
+      "sha256": "086bfbbf64e70b4462458b93a24fc8082e9a7cce286e9d4c0dc31c7a7d2805a0"
+    },
+    {
+      "path": "src/north_garden/flux2_geometry_proxy_control.py",
+      "mode": "100644",
+      "bytes": 10828,
+      "git_blob_oid": "5a56a0ea13b95314c8eb00c19701ed839abdea6c",
+      "sha256": "38a82dc37c39ee6a1d20195c3dc7c839853ac656e5a92eedbba6609801eabdba"
+    },
+    {
+      "path": "src/north_garden/gemini_flash_image_bakeoff.py",
+      "mode": "100644",
+      "bytes": 12894,
+      "git_blob_oid": "229a2e12300c3ee0971c861947056bb5d37e7157",
+      "sha256": "7dca6c57ee41618ecf2fcc1c8592dda5b9d61893ceed7ba8ab66d26e8838e288"
+    },
+    {
+      "path": "src/north_garden/geometry_proxy_g07.py",
+      "mode": "100644",
+      "bytes": 9858,
+      "git_blob_oid": "c1259be956ab8ffa6577387818672d478474f8ee",
+      "sha256": "61add991c35b80e7eac3bfdc42edf3f1430c7608726955040b68e60cc11452db"
+    },
+    {
+      "path": "src/north_garden/geometry_proxy_tiles_g07.py",
+      "mode": "100644",
+      "bytes": 2603,
+      "git_blob_oid": "9bb334c077561b14318c3311ed27ad7d25715a02",
+      "sha256": "a483ef94dbfb1d31cba31d62b9d69aff3731b862e2a27f521dd5596a91af431f"
+    },
+    {
+      "path": "src/north_garden/illustrious_xl_v2_masked_proxy_edit.py",
+      "mode": "100644",
+      "bytes": 5775,
+      "git_blob_oid": "7a6b1fdc9436aaf5d061c83de27f80ebebaa531b",
+      "sha256": "af4bc57f917389cfddbf21112ab7617afc1a49ff65cc7460dddd3751aad38898"
+    },
+    {
+      "path": "src/north_garden/illustrious_xl_v2_proxy_control.py",
+      "mode": "100644",
+      "bytes": 6779,
+      "git_blob_oid": "a0110d4067a2cac10e4f3d16cb567d1226bf94d0",
+      "sha256": "e7390a7eed5c908fda6178be1afd4ce0bfdfd1b87d5286d21a797a405a24b824"
+    },
+    {
+      "path": "src/north_garden/illustrious_xl_v2_xinsir_repaint_proxy_edit.py",
+      "mode": "100644",
+      "bytes": 7187,
+      "git_blob_oid": "df47661943bd348d807c5733a2f53bcfc14d819e",
+      "sha256": "cd67118093e35f3266ab83772c6936db293923b78481c46b5352f5017cbf60ee"
+    },
+    {
+      "path": "src/north_garden/import_historical_comfy_png.py",
+      "mode": "100644",
+      "bytes": 3257,
+      "git_blob_oid": "252fd03e8dd45c9b3b9282b37a8c441bbbe2da23",
+      "sha256": "04731505807a406b9236174d0c4ee15e0b83a4ba4e5b4f94ca7c9003c045cafd"
+    },
+    {
+      "path": "src/north_garden/inventory_quarantined_pilot.py",
+      "mode": "100644",
+      "bytes": 3349,
+      "git_blob_oid": "22f91d7f528a76dc0fa83f9c23a4bc87ede1e51f",
+      "sha256": "23f107b3a307f37b1df70e58cf23824b350b6759f3bf302429c95aedbed0d6c5"
+    },
+    {
+      "path": "src/north_garden/legacy_duo3.py",
+      "mode": "100644",
+      "bytes": 8220,
+      "git_blob_oid": "a3141dfb61c8a89d699d87d99b800b62fcc4dd4a",
+      "sha256": "de02e72e5c6c03758f080d6501306c22ef3d8ebce48daffecdd5b1094aec3ab0"
+    },
+    {
+      "path": "src/north_garden/make_g07a_right_token_mask.py",
+      "mode": "100644",
+      "bytes": 836,
+      "git_blob_oid": "db4ad7a8d779551865078fca926f346b4f90bbab",
+      "sha256": "5d4a0e6f434fcf5f7a7947d678ebce72eb2db9a9fd2c72587d948e6b840b3213"
+    },
+    {
+      "path": "src/north_garden/make_proxy_tile_qa_injections.py",
+      "mode": "100644",
+      "bytes": 1367,
+      "git_blob_oid": "81bebefdba3df5bf4846cacb6eb2b092d3330308",
+      "sha256": "6749bd2698e60ea948c5744f2df1e9d302ac0090f569457a21522c7eabe34240"
+    },
+    {
+      "path": "src/north_garden/measure_renderer_bakeoff.py",
+      "mode": "100644",
+      "bytes": 7213,
+      "git_blob_oid": "3781b3c4bc9b17925f8d177133131cc3ecb71c84",
+      "sha256": "f805725f6e9d666a280bbd2d48fe7aaee57d98062c2decfced34cd3dc76a5f14"
+    },
+    {
+      "path": "src/north_garden/openai_gpt_image2_bakeoff.py",
+      "mode": "100644",
+      "bytes": 9878,
+      "git_blob_oid": "c99b68ffff640f53f47b8f8a75580131c065536d",
+      "sha256": "517ddf849d8ab0ebe07a134874d4cb6de4dd23c8136efbf549ed9f976880a6bc"
+    },
+    {
+      "path": "src/north_garden/preflight_live_g07_bakeoff.py",
+      "mode": "100644",
+      "bytes": 2088,
+      "git_blob_oid": "f8fe5b5cc4f5c12130a5f0a3a96ac32d467efb32",
+      "sha256": "acf48d0211599784c1c50b8cb87b9bbfde891fc852f52d620b0fb1a2a391b04c"
+    },
+    {
+      "path": "src/north_garden/preflight_openai_p036_submission.py",
+      "mode": "100644",
+      "bytes": 12116,
+      "git_blob_oid": "288897760a87df3a48e07520bfe7757c53029332",
+      "sha256": "18b5e45547be79b7ce8c83098017de2f1740c2e6cac1f8cc10a6f9691071b992"
+    },
+    {
+      "path": "src/north_garden/prepare_comic_base_candidate.py",
+      "mode": "100644",
+      "bytes": 5282,
+      "git_blob_oid": "da71e550d358168c8cc2577bdd6a9df49f1bbb35",
+      "sha256": "29646be3eb584d24db3568d8dfdee5dad4fae2459be5f12f647114435162462c"
+    },
+    {
+      "path": "src/north_garden/production_budget.py",
+      "mode": "100644",
+      "bytes": 10728,
+      "git_blob_oid": "29d042ff12201f48f2f48f48757130e2edaad061",
+      "sha256": "d4ab284696624ddab88fd18bf1ea7c9b8f9cb5369963afdb065d495a92e5e507"
+    },
+    {
+      "path": "src/north_garden/promote_ch05_mill_signal.py",
+      "mode": "100644",
+      "bytes": 10106,
+      "git_blob_oid": "22f13e3f042a3ae99f00293cb8044234661ee545",
+      "sha256": "ad1aa1e1407e4bba0343c85b690eab45bb57d3f1da996b8d0387b4ded0fab9de"
+    },
+    {
+      "path": "src/north_garden/promote_comic_base_candidate.py",
+      "mode": "100644",
+      "bytes": 5974,
+      "git_blob_oid": "3e08c16badbc5d599ddd22a49c27a0938e1286d6",
+      "sha256": "3ee065ec487a33234ded74b2440eb6163ee6ed73836babdbd1f89afcfcff3027"
+    },
+    {
+      "path": "src/north_garden/qa_proxy_tiles.py",
+      "mode": "100644",
+      "bytes": 3814,
+      "git_blob_oid": "b19541bf9e73d5dd5a4ce411d6c430c785a6a9f4",
+      "sha256": "3be8955cee6bcc85e59b6c6f5df0ecc673059a92e95676f82a12b83239cd68a5"
+    },
+    {
+      "path": "src/north_garden/reconcile_bakeoff_budget.py",
+      "mode": "100644",
+      "bytes": 2605,
+      "git_blob_oid": "851f62435b82884f84d5b48eca3840508c79fbba",
+      "sha256": "f0817026ef1953dd49c913218421006ae8da8b26873e478ae02b6389d336e1d6"
+    },
+    {
+      "path": "src/north_garden/reconstruct_xinsir_repaint_composites.py",
+      "mode": "100644",
+      "bytes": 1233,
+      "git_blob_oid": "6550691e75ed2a67e1be7dc6a89a1f749b91950c",
+      "sha256": "b19312db1608914a96e2e99e3425c7c294b69dba779a6158f071222294604a01"
+    },
+    {
+      "path": "src/north_garden/render_record.py",
+      "mode": "100644",
+      "bytes": 10573,
+      "git_blob_oid": "0ce546646b68a81f899f1e221e0b83cc02998470",
+      "sha256": "cddb95b8ce6ee92c38b48de78a2c1b2531f10e5b9e5dce1bc7a7836c3544c474"
+    },
+    {
+      "path": "src/north_garden/render_record_boundary.py",
+      "mode": "100644",
+      "bytes": 10873,
+      "git_blob_oid": "3126697823b169f848e95660a065a1d3cf675651",
+      "sha256": "996b909ad122995f0f6e1eaa7269f779da909c29272317a8a7330fc46c927a8a"
+    },
+    {
+      "path": "src/north_garden/repair_legacy_duo3_records.py",
+      "mode": "100644",
+      "bytes": 5328,
+      "git_blob_oid": "30ac9454dbd17568af31018ea461ca708774b1d0",
+      "sha256": "3092b44d134985460daa047a7bf2fa3ea27f1fea44e96605b946342bc87858ea"
+    },
+    {
+      "path": "src/north_garden/resolve_spatial_stage.py",
+      "mode": "100644",
+      "bytes": 1651,
+      "git_blob_oid": "8ad9ef01cecb5e708287ecd73ffdd1c9e6962222",
+      "sha256": "0dbdebf4230a2d064d90c6774014a4afcdb1c062bd4ca2a169e1d18f3e96d90b"
+    },
+    {
+      "path": "src/north_garden/review_session.py",
+      "mode": "100644",
+      "bytes": 9386,
+      "git_blob_oid": "e621cbbd68e60ac047dbb16862cb6084dd611d73",
+      "sha256": "7199c0fb185bc48fd72e06ca35f798de40b01faebe636d8e4bfd8b599397a806"
+    },
+    {
+      "path": "src/north_garden/run_openai_targeted_repair_hardening.py",
+      "mode": "100644",
+      "bytes": 8279,
+      "git_blob_oid": "062a852414a11bfe9f8b995eb3a8e5ef0c01d1f0",
+      "sha256": "7bc0845dc8c8d890f60d83230bdfa7cb7be462c6366175d4c83255801d22542c"
+    },
+    {
+      "path": "src/north_garden/run_xinsir_repaint_target_nochange_matrix.py",
+      "mode": "100644",
+      "bytes": 6790,
+      "git_blob_oid": "b6c2b3f2aaf0a21d76fc78eb8975d0d4c70dfeb2",
+      "sha256": "f5c014630765c3f07684163f1b1d7a444c8f118ac3a7f27d703babf60eb23610"
+    },
+    {
+      "path": "src/north_garden/sequential_inpaint.py",
+      "mode": "100644",
+      "bytes": 10433,
+      "git_blob_oid": "278903109c76d9525bcd06758e833d2521f0745b",
+      "sha256": "d72cafb36509f585d2a209fd1de35ff295e4aa9155eb9a5296a2dcbfd7227520"
+    },
+    {
+      "path": "src/north_garden/sequential_inpaint_g07.py",
+      "mode": "100644",
+      "bytes": 9956,
+      "git_blob_oid": "afc3b081421731d1e2495592253489688eac1e2c",
+      "sha256": "95617f539eedb163dc9c24fd0bf72635d7db0f52f9f2c11045c541c4603c6d3d"
+    },
+    {
+      "path": "src/north_garden/submission_journal.py",
+      "mode": "100644",
+      "bytes": 15081,
+      "git_blob_oid": "d4d3a9b1267efb9f1456071f33e4e87d5635f058",
+      "sha256": "4090689ae156f4b13127aed0becc18f7228019df4f5fff039a080bc5c7311322"
+    },
+    {
+      "path": "src/north_garden/validate_bakeoff_adapter_budget_binding_audit.py",
+      "mode": "100644",
+      "bytes": 11725,
+      "git_blob_oid": "c4552f02d76e9560797217c7840f03b81247bc6e",
+      "sha256": "6173309e453a77a2aa05b313dafc4bd47d584905590f9430e30a4c0c183d14e6"
+    },
+    {
+      "path": "src/north_garden/validate_bakeoff_adapter_preflights.py",
+      "mode": "100644",
+      "bytes": 2095,
+      "git_blob_oid": "e5c0af12ed7fed345baa5c18b2d1ec449e333c96",
+      "sha256": "7ad5b04915da1f4357c053879e4a47244461218976b409ebab15b8f34bea1524"
+    },
+    {
+      "path": "src/north_garden/validate_bakeoff_budget.py",
+      "mode": "100644",
+      "bytes": 4255,
+      "git_blob_oid": "6ed2d60da25da3d33e81c60dfe9bff84655910fc",
+      "sha256": "746b2ebc370186831756ef6c6de1bb3f40ba4d1be04ce6ad3ef6185f2850f0bc"
+    },
+    {
+      "path": "src/north_garden/validate_bfl_flux2_bakeoff.py",
+      "mode": "100644",
+      "bytes": 1236,
+      "git_blob_oid": "c9400e904f522977893b634b0577816d104840c0",
+      "sha256": "38b3d7527a8737b6a5c9877e3c3674d86c5c7376afaf2e171afc1104b317fc70"
+    },
+    {
+      "path": "src/north_garden/validate_ch03_imagegen_sequence.py",
+      "mode": "100644",
+      "bytes": 2369,
+      "git_blob_oid": "4220892bbb04601bba1004aa67274bf8006a69bf",
+      "sha256": "59b0fdb1f58553254700fc2d1cbf97f2af06b87e27c1dd629ad6827a51ec28d6"
+    },
+    {
+      "path": "src/north_garden/validate_ch04_imagegen_sequence.py",
+      "mode": "100644",
+      "bytes": 1951,
+      "git_blob_oid": "4c8d4f80e4c7c997775863e11f6e546702bcc133",
+      "sha256": "fc421530ef948a57602ded8907daa8e551a13a7bbdb33eca71174db407d27bb1"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_chapter_repair_policy_coverage.py",
+      "mode": "100644",
+      "bytes": 10433,
+      "git_blob_oid": "e62b815fd3e84504a4eec541e9080d340d928ef3",
+      "sha256": "4095444571d3709c7ba4960400cabe8276b491588a857dcd190b57c814794640"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_chapter_run_manifest.py",
+      "mode": "100644",
+      "bytes": 6000,
+      "git_blob_oid": "5bda53703ecc6c1f467b6392bec7617326aebbee",
+      "sha256": "f83e233f3f0f121745a329dbe26940f938fa799cf2280a840caae38abc0cbe5f"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_demonstration_packet.py",
+      "mode": "100644",
+      "bytes": 2635,
+      "git_blob_oid": "98447dc5ae74c77f23e337fee79f6e1b2f16d5cc",
+      "sha256": "7e5bb4a719aba2976ff7040723a9460268b45a932e3f6f8796cbd4ba7c2b3692"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_development_coverage.py",
+      "mode": "100644",
+      "bytes": 1032,
+      "git_blob_oid": "df7bf31845c201c42d7a6105d631ed209cb1896b",
+      "sha256": "5f1f6e9a33558e86542717aa18d723284bb6277ba7c837f1eb178248df3f7113"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_imagegen_smoke.py",
+      "mode": "100644",
+      "bytes": 1812,
+      "git_blob_oid": "85d1f43f0b1480019724b406a41c7416a7ddaf52",
+      "sha256": "ccadc836a644bea3ff109083a55ad7365713dd2c5745411bf09b1fa9b8d8e685"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_instrumentation_suite.py",
+      "mode": "100644",
+      "bytes": 7070,
+      "git_blob_oid": "96451823460bef7b6b47ae355f169d6e2af136f6",
+      "sha256": "ee9f88725a7d63930159fcbc8affedff58f9bd1c3771fe2c31e70dd51761bc38"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_next_repair_information_gain.py",
+      "mode": "100644",
+      "bytes": 10726,
+      "git_blob_oid": "3dca6efa52f6acbacfaa7d6c12c7fec4ecb561d4",
+      "sha256": "fbe4da2295934396138d607c0cfd6438895107315e8ee3ce72b99d4ac375c112"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_p036_causal_shape_control.py",
+      "mode": "100644",
+      "bytes": 16138,
+      "git_blob_oid": "269b14c0be7a3a444331ccc5a43cda5a1ff2f974",
+      "sha256": "c341b18f8d1f564a374a455540f276f02e85d49152ab3253ced2c4c7f49eaad0"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_p036_mask_topology.py",
+      "mode": "100644",
+      "bytes": 12975,
+      "git_blob_oid": "94d263ee68d874b95cce268f137aa6169480d20d",
+      "sha256": "50b7a9695d6be231c5b72f55b916ee70eba3477f1d1d04feca55404bea0d3437"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_p036_repair_readiness.py",
+      "mode": "100644",
+      "bytes": 4294,
+      "git_blob_oid": "9ade7f02b089d05007233db23c84ca8987f19d42",
+      "sha256": "8aaaf1bb28aad88e7c737877ae0f64e3f1e427c28410881ee7e60861aee24755"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_p036_repair_readiness_r2.py",
+      "mode": "100644",
+      "bytes": 12025,
+      "git_blob_oid": "e1f355ef98d4b8516616d0cdf07ab27054539efc",
+      "sha256": "69c79e477a9371fe8e598ee1a2b63dcd8418e49cc2307b7df43ab441618faa95"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_p044_adaptive_boundary.py",
+      "mode": "100644",
+      "bytes": 11865,
+      "git_blob_oid": "a24215d3c9f146d7892c7eb8ae77d74c27b3a816",
+      "sha256": "818ce70bc527c852811f2280ae02f7a63192a5e639b7c8c9053c14ed230ed65e"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_p044_fixed_boundary_stress.py",
+      "mode": "100644",
+      "bytes": 13134,
+      "git_blob_oid": "a063badf07be1ca2424f396a7cc966551057eaf3",
+      "sha256": "cfc0e41cb8460b8a7491631187286464e3638b2cc2c18c35c8e15df79ab61fa1"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_pre_render_records.py",
+      "mode": "100644",
+      "bytes": 2579,
+      "git_blob_oid": "2d6c5a8a33c6827e634c09baec3c461005a8af27",
+      "sha256": "5e9c99619284b28f1e15faa29cc6e389451067c70830fea17643ace1cff89997"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r2.py",
+      "mode": "100644",
+      "bytes": 4413,
+      "git_blob_oid": "5f13f8e28a6e0cc0bf5bf567d1bbdada883ab453",
+      "sha256": "f98bd393b27f73f09f7f0e8122a7c03320c37ff0dd38bb83bc3a5a683d87947d"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r3.py",
+      "mode": "100644",
+      "bytes": 4244,
+      "git_blob_oid": "ae2bbaf4e793aa1a7f06750b64261e42072c732e",
+      "sha256": "1287715b25153ec4b85631940da6b24369297868242645d647c5fd6844f7605c"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r4.py",
+      "mode": "100644",
+      "bytes": 4079,
+      "git_blob_oid": "af4c3739076d2759f8dbc7aff79228e53913c2ca",
+      "sha256": "728d3bbba6ad8b52e954f8e676138124d10faac10b3aa1a450859ea736072a60"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r5.py",
+      "mode": "100644",
+      "bytes": 3215,
+      "git_blob_oid": "f232ddd7c3edaf77040d8b85feb2595b42fd87f1",
+      "sha256": "03c6343a2d71cee35a7f6abd8cb6a53c9ceeed2ec7b7d19eb1ad0b248a51cece"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r6.py",
+      "mode": "100644",
+      "bytes": 3123,
+      "git_blob_oid": "19d2d2074028f7813725c84eef8026bda3b37a6a",
+      "sha256": "0b577c05edf773d8f9df3729062545a5b1bace6739c63ad250b914de292cb45c"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r7.py",
+      "mode": "100644",
+      "bytes": 3061,
+      "git_blob_oid": "6d0619743eeac5dfdf055f87b58aed36ff2fdf00",
+      "sha256": "d3648d7aa8500f580c6a506af0bc047d36aad3f99cdffa4c3200e6f68cdee95a"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r8.py",
+      "mode": "100644",
+      "bytes": 3074,
+      "git_blob_oid": "78cc8ef7b04432eada51e376095729d12e5d6722",
+      "sha256": "313897a32644725a1596c97d6223831133a118cfa30c7c71de031add816b9c30"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_production_preflight.py",
+      "mode": "100644",
+      "bytes": 1765,
+      "git_blob_oid": "d4cff248f83f6caf6b8cbfeecb3259921e68641d",
+      "sha256": "7cbab2aad70f8db5e7671f445387dc1a4e43e9853966b93ee17212ba96076f86"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_repair_evidence_readiness_matrix.py",
+      "mode": "100644",
+      "bytes": 9681,
+      "git_blob_oid": "9e1823929cf430966a01742e6a8b1ccce4c845cf",
+      "sha256": "566b2fbfa27f68d6378ac6e8bbcdc7250af293538edb762032b80d1dae267e5a"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_sequence_layout_control.py",
+      "mode": "100644",
+      "bytes": 4140,
+      "git_blob_oid": "a6c184c93e2bfa7456a48fbbe427a4e743337960",
+      "sha256": "c1d0dd1b9e42c9b2e760f39c719995bc15a583cdba9f723930fa9b997f265285"
+    },
+    {
+      "path": "src/north_garden/validate_chapter_progress.py",
+      "mode": "100644",
+      "bytes": 10290,
+      "git_blob_oid": "cf51297b679c14a9cdbc60a6fd9c765191c5162f",
+      "sha256": "b3a8156c828c665557170b62719e54fcfcf9b63e1197b069f0e62b37fbce7a25"
+    },
+    {
+      "path": "src/north_garden/validate_comic_base_candidate_intake.py",
+      "mode": "100644",
+      "bytes": 2826,
+      "git_blob_oid": "802b50eba19c6545118c5406e242467d425c103c",
+      "sha256": "48d222cdd7c210107344d034a0f2439518fa843a30804fd134273ddffb079cef"
+    },
+    {
+      "path": "src/north_garden/validate_comic_base_candidate_promotion.py",
+      "mode": "100644",
+      "bytes": 4711,
+      "git_blob_oid": "766875fcad5c68578c34c72fb5125216b9944e61",
+      "sha256": "1add4cc4735f515edd5ccc41fcd6fdf6cc09bd738edc16d14d979786becdf36d"
+    },
+    {
+      "path": "src/north_garden/validate_comic_input_gate.py",
+      "mode": "100644",
+      "bytes": 1416,
+      "git_blob_oid": "3fc58f6009ce3706b7ef9da25192b6bec327e814",
+      "sha256": "41abbb484d6ae9aaf003037cac555332354242c4dd8c89826e78a62363293575"
+    },
+    {
+      "path": "src/north_garden/validate_comic_input_gate_mutations.py",
+      "mode": "100644",
+      "bytes": 7129,
+      "git_blob_oid": "a8a38bd3be02812ae32d2f6b32c7bf86302f193d",
+      "sha256": "250272651c01c22dde862c8be01d3f62036ea04b6414929f76ea000406b43d32"
+    },
+    {
+      "path": "src/north_garden/validate_comic_run_ledger.py",
+      "mode": "100644",
+      "bytes": 11818,
+      "git_blob_oid": "0132191acaa8e501104d49b8ddf1437dee7888fa",
+      "sha256": "b193aa0b2fdbe796e6d7cbbddc7cdc1bdad55e24da134271ae7db046b197de8a"
+    },
+    {
+      "path": "src/north_garden/validate_development_ch05_mill_signal.py",
+      "mode": "100644",
+      "bytes": 1206,
+      "git_blob_oid": "7c5e9d340ca31593b5e8a6f5cc578c273e2700c9",
+      "sha256": "ef76280c4e29138ec6c5c26c2554b3317116c80710cdc5b9619b96f152711ade"
+    },
+    {
+      "path": "src/north_garden/validate_disconnected_holed_topology_stress.py",
+      "mode": "100644",
+      "bytes": 8408,
+      "git_blob_oid": "d2b804ba577a830c1eb10fcccc02c19510ecff55",
+      "sha256": "de2a2a8b85f267d682f84254c827ab5884a4e9a610abfefa72f5d831872d7e7b"
+    },
+    {
+      "path": "src/north_garden/validate_exact_base_boundary_measurement_packet.py",
+      "mode": "100644",
+      "bytes": 11038,
+      "git_blob_oid": "d2faef0c3395a1b2ba3ca6ebce2317c6ca443c75",
+      "sha256": "f45c1c9750ef750eae059aec2a2344f0f962773052958dc89d95186e8c689286"
+    },
+    {
+      "path": "src/north_garden/validate_failure_tags.py",
+      "mode": "100644",
+      "bytes": 1247,
+      "git_blob_oid": "99ebcc7dbb9632bf25e9b5a2cca721eaa1468ef7",
+      "sha256": "434cc199b33f77a0408e2db11bf7c8f3464ccd3272b5510fd3d19a6d15e1569b"
+    },
+    {
+      "path": "src/north_garden/validate_g07_blinded_review.py",
+      "mode": "100644",
+      "bytes": 19123,
+      "git_blob_oid": "6aef3723d73c7b82db051e774a3fb9d154f0d62d",
+      "sha256": "64f53c1723071c5b6a6882a807ee25a74ce10e163e5f0ecf5169c1f8a72894f9"
+    },
+    {
+      "path": "src/north_garden/validate_g07_evidence_archive.py",
+      "mode": "100644",
+      "bytes": 10378,
+      "git_blob_oid": "8af8fcd6e764ef0247e72f068eb53d1ea675df90",
+      "sha256": "668825d4c4212be404fea03cf3e704b2c3c45376ee16cf84b113563293143cbe"
+    },
+    {
+      "path": "src/north_garden/validate_g07_evidence_vault.py",
+      "mode": "100644",
+      "bytes": 15086,
+      "git_blob_oid": "5ed3802055b5134fb28c0eff7bf3ce58cc067c51",
+      "sha256": "728c63ce9c4d3eac89bafe2e17cf869f355e8fa0089cd2370df5170e13dc33bb"
+    },
+    {
+      "path": "src/north_garden/validate_g07_review_rollup.py",
+      "mode": "100644",
+      "bytes": 14863,
+      "git_blob_oid": "c9b3217b2c1426732186b7adafdaaf56e3540fd1",
+      "sha256": "6accd7b366f6cdac626da0e7f637bf2fd1662dc7e8a856b3548e17be375b79a1"
+    },
+    {
+      "path": "src/north_garden/validate_gemini_flash_image_bakeoff.py",
+      "mode": "100644",
+      "bytes": 1078,
+      "git_blob_oid": "847dd17058f97f7f66237cdf773c0d86f1a5988b",
+      "sha256": "7ac1bd71866f6c354b6be824c98e8b78e246f4e2a8f9b4a027249f5d1dbd42a8"
+    },
+    {
+      "path": "src/north_garden/validate_hardening_release.py",
+      "mode": "100644",
+      "bytes": 4901,
+      "git_blob_oid": "e523c82c67d700974712a5e1226228ad52cf122a",
+      "sha256": "3808e267349ab19aa2a44f1d3de620641555e4eea305a35387ba72224e9aff16"
+    },
+    {
+      "path": "src/north_garden/validate_instrumentation_runtime.py",
+      "mode": "100644",
+      "bytes": 5873,
+      "git_blob_oid": "0df1fcd63fc71b3972619b031bd8f83adb6edaa4",
+      "sha256": "c508acaa83fcf3145026ec5c4b08173787d26a4b56b553642702c1ef22fe4f24"
+    },
+    {
+      "path": "src/north_garden/validate_legacy_duo3.py",
+      "mode": "100644",
+      "bytes": 2061,
+      "git_blob_oid": "db09b347807dd07ad401d1f391cc0426670375c5",
+      "sha256": "9cb3a788621f5c7ba70ffb00620e2e31e965e9d6b59a04f983e9b9e5ed8ce485"
+    },
+    {
+      "path": "src/north_garden/validate_narrative_sequence_registry.py",
+      "mode": "100644",
+      "bytes": 1526,
+      "git_blob_oid": "e35c6aff11e6866dbac0cc760d4909ca84408460",
+      "sha256": "c9c47a099135c27e0d5e3d23452f3237755a93544f1bf41c23080dd2b0e0dce9"
+    },
+    {
+      "path": "src/north_garden/validate_native_repaint_provenance.py",
+      "mode": "100644",
+      "bytes": 2964,
+      "git_blob_oid": "c098e5293a934267eb284f18348656dcbcdbd0fc",
+      "sha256": "431e53557db2dfb3ac518c08ca83ff574e8f93b33005e5c04d9804c183250bbe"
+    },
+    {
+      "path": "src/north_garden/validate_openai_boundary_hardening.py",
+      "mode": "100644",
+      "bytes": 16724,
+      "git_blob_oid": "7983054afc748888058bce94c7649fbc3f7283ad",
+      "sha256": "dba89ad756212eb23d1c0fdbbe73f2a5661757d0051063290d95d95e42e0d2af"
+    },
+    {
+      "path": "src/north_garden/validate_openai_gpt_image2_bakeoff.py",
+      "mode": "100644",
+      "bytes": 1731,
+      "git_blob_oid": "98bed471b0f25df6c78b2db6c9364f5ad62fec9c",
+      "sha256": "1a7af04908afdb42bf816a8947c3674463ea711b65fbe248d3b9e77b37d184b7"
+    },
+    {
+      "path": "src/north_garden/validate_openai_p036_offline_preflight.py",
+      "mode": "100644",
+      "bytes": 9399,
+      "git_blob_oid": "29e1fbc374e2cc904e90172871c445be6cb1b7cd",
+      "sha256": "5c18e5dd75c97e0784b008c630708f8028b1e26af628c835594130373ff50f29"
+    },
+    {
+      "path": "src/north_garden/validate_production_budget_domain.py",
+      "mode": "100644",
+      "bytes": 6081,
+      "git_blob_oid": "2131300087daea52b59273299c36297673cc2693",
+      "sha256": "4544f3604f1f3e55c04e9e19cf5b994e60764511363a5daaf0d937adc36d3850"
+    },
+    {
+      "path": "src/north_garden/validate_production_records.py",
+      "mode": "100644",
+      "bytes": 9768,
+      "git_blob_oid": "ab80c7f320ee0e6eb2b87ccfd2a5e75743c76080",
+      "sha256": "773c4d0f61f286726ab2ed0b80fd1cd9eca9a0b99a713f2799f1df4cc5f75b15"
+    },
+    {
+      "path": "src/north_garden/validate_provider_transport_data_boundary.py",
+      "mode": "100644",
+      "bytes": 9114,
+      "git_blob_oid": "1b9a941883e4886d785a55d5902780bc3b695b94",
+      "sha256": "809cea1a825723041486a0606f7728f3aef750ad66520a17aa728fbbe9188444"
+    },
+    {
+      "path": "src/north_garden/validate_quarantined_pilot_inventory.py",
+      "mode": "100644",
+      "bytes": 1069,
+      "git_blob_oid": "149f973994da0f9c5859f401644e704d9cfba221",
+      "sha256": "f3d025453d78bfcfda0ad6b6c8ea9324920f49ea1c8da0696f7523a92a8693c0"
+    },
+    {
+      "path": "src/north_garden/validate_qwen_preflight.py",
+      "mode": "100644",
+      "bytes": 1779,
+      "git_blob_oid": "02372555e6177d52eacdd4a43022c7f40d8fa8db",
+      "sha256": "0ee22049507de2aeaec37b6d0f3c6b5a94ddb3cb5ee441cd245ed0cb623cdcf1"
+    },
+    {
+      "path": "src/north_garden/validate_render_profile.py",
+      "mode": "100644",
+      "bytes": 845,
+      "git_blob_oid": "807a3d391974ce402545f5586d8ba6eed37c1158",
+      "sha256": "77547bcce0fad5cdc6e322324d5af6410fbdaa4bf6b71fc6c58800d14ba9ff72"
+    },
+    {
+      "path": "src/north_garden/validate_render_record.py",
+      "mode": "100644",
+      "bytes": 12709,
+      "git_blob_oid": "ed02746cae2a49b597d892172fe45e336d557ea2",
+      "sha256": "d382ed42fdb1e0100a1d9219f52f0a9550e2ce6e0ddd655bf0d63bb1138d2d0c"
+    },
+    {
+      "path": "src/north_garden/validate_render_record_boundary.py",
+      "mode": "100644",
+      "bytes": 12932,
+      "git_blob_oid": "8cc2e14ce920e72b2dd9580000a047cdaff228c9",
+      "sha256": "dbc83a82b29938446d229bd49c0daeac3afee81be497c95257c0816f794050a3"
+    },
+    {
+      "path": "src/north_garden/validate_renderer_bakeoff_plan.py",
+      "mode": "100644",
+      "bytes": 2938,
+      "git_blob_oid": "cb0644ebc22b42992712d625cf76347939cb7d6a",
+      "sha256": "87d73d55f9743508917c4432f247c38bfe01a6cf0482dc0666acc0eb31b326ab"
+    },
+    {
+      "path": "src/north_garden/validate_renderer_bakeoff_review_builder.py",
+      "mode": "100644",
+      "bytes": 1287,
+      "git_blob_oid": "07e94a1953d697c46de19e75c1c8bbaf589c7b05",
+      "sha256": "6bdc0d3bc7e610af963aa814b70d00cdf16d71125cf0b0d72d942b4aba4096ba"
+    },
+    {
+      "path": "src/north_garden/validate_repair_outcome_finalizer.py",
+      "mode": "100644",
+      "bytes": 7651,
+      "git_blob_oid": "a9e7ee02891f8917f84cf5ce07f6002ce0faa3f7",
+      "sha256": "6a4891080a472ecde2dfa4beb6d6732bc3c989abd577de575eb22d2464cad480"
+    },
+    {
+      "path": "src/north_garden/validate_review_session.py",
+      "mode": "100644",
+      "bytes": 4287,
+      "git_blob_oid": "951cdf877aa66741db6c92c6dece17143ee4e01c",
+      "sha256": "6c3629ae7f202980d78e9d421eb3bf4418051bc95024064be55a12c2d71c1670"
+    },
+    {
+      "path": "src/north_garden/validate_runtime_asset_manifest.py",
+      "mode": "100644",
+      "bytes": 4168,
+      "git_blob_oid": "dbb9f60b09dcfb258e201cb3e2d0bdce08b1b728",
+      "sha256": "14937e2f27297921fba022ceb30bf3164cf100663f6e3e0bb348fad72047381b"
+    },
+    {
+      "path": "src/north_garden/validate_safe_source_release_manifest.py",
+      "mode": "100644",
+      "bytes": 7145,
+      "git_blob_oid": "8d71a2170e82051f6cdef9c306c4be9a3489bf7a",
+      "sha256": "bf91de71c9915f67d06944b78ee055858822ddaddf9ef1817f8d20fe8e5fac5d"
+    },
+    {
+      "path": "src/north_garden/validate_scale_aware_boundary_selector.py",
+      "mode": "100644",
+      "bytes": 10568,
+      "git_blob_oid": "70078d90df933ac7f3476982aff9c965d699d575",
+      "sha256": "6baff61aa49659d2792a013715f003c5808344a71dcbfe3379385d1f84ca7fd0"
+    },
+    {
+      "path": "src/north_garden/validate_scale_aware_boundary_selector_r2.py",
+      "mode": "100644",
+      "bytes": 5003,
+      "git_blob_oid": "4fac3566a01816d19ebc3980af3d2135e64f26f3",
+      "sha256": "2dc0fef1dd1d56aa010075cdab4f64be178ec19b48507c8c02e3ba0c6165f0a5"
+    },
+    {
+      "path": "src/north_garden/validate_selected_route_artifact_rebuild.py",
+      "mode": "100644",
+      "bytes": 6510,
+      "git_blob_oid": "7e11c5ca61de3eac058b4a6cf99fc795c75793be",
+      "sha256": "1fda30e3d4146110118074f6a85e6b81884b4947e7f519c013dbdade15eb500f"
+    },
+    {
+      "path": "src/north_garden/validate_selected_route_artifact_rebuild_r2.py",
+      "mode": "100644",
+      "bytes": 5528,
+      "git_blob_oid": "109231d0b0506862e686f86a122808ab087c67f8",
+      "sha256": "73ea7bd62c943199c9a0d20997c1a96c3504d81ac3fd1e8bb08837f2bde8964e"
+    },
+    {
+      "path": "src/north_garden/validate_selected_route_authority_frontier.py",
+      "mode": "100644",
+      "bytes": 17680,
+      "git_blob_oid": "c54c623b26d1e4bef78ae289df1a897c8e7db0ec",
+      "sha256": "c3aae0b070659394948bf7132fd512f4b9cfcfd2e77f9ebaa34c06ec9d1d14aa"
+    },
+    {
+      "path": "src/north_garden/validate_selected_route_hardening_state.py",
+      "mode": "100644",
+      "bytes": 10787,
+      "git_blob_oid": "3d7a57c2cd5319a5ee1327e0eb28f3904143d53d",
+      "sha256": "9554bc63798c66629441f6bb70985cb2330d6b064e2395be9a831cccedd1bdf4"
+    },
+    {
+      "path": "src/north_garden/validate_selector_consumer_compatibility_r2.py",
+      "mode": "100644",
+      "bytes": 12355,
+      "git_blob_oid": "1d476ea780b5652da84294cc0a9fb15e305345bc",
+      "sha256": "59b65be17f855858c6039675f4b9a9606a168c4113c0d8979134ff5bdc478d86"
+    },
+    {
+      "path": "src/north_garden/validate_spatial_stage.py",
+      "mode": "100644",
+      "bytes": 2235,
+      "git_blob_oid": "bcf4e8c369baf1cabb10dadb48bc358eaa8ac07c",
+      "sha256": "1d3de125a9c94ecad9480656e2b9e7902c84cfda930c3203ce60db6f8bc57fbc"
+    },
+    {
+      "path": "src/north_garden/validate_submission_journal.py",
+      "mode": "100644",
+      "bytes": 8034,
+      "git_blob_oid": "deca33d632d554d273abedab0054f0c5c6b1fad1",
+      "sha256": "49c05031dcc5613b85d84cf3ce4b2b9f8ccd85c0189f43ef2dd96077058077ed"
+    },
+    {
+      "path": "src/north_garden/validate_tracked_source_scope.py",
+      "mode": "100644",
+      "bytes": 3947,
+      "git_blob_oid": "0477b899bc7592d0d7f01b518a00599d588ffa59",
+      "sha256": "96aaedb6abfa0378ffbac2a5ae6e647210a875ec8fd0203ac097519c5d55c1d7"
+    },
+    {
+      "path": "src/north_garden/validate_xai_grok_imagine_bakeoff.py",
+      "mode": "100644",
+      "bytes": 1392,
+      "git_blob_oid": "33cf1e76985622dcbde62b80d8563610b2f2b90a",
+      "sha256": "96a6855d48670aa017a92f2a968c6ea6c0ed27505ecfb7253484a4358fd763ca"
+    },
+    {
+      "path": "src/north_garden/xai_grok_imagine_bakeoff.py",
+      "mode": "100644",
+      "bytes": 9192,
+      "git_blob_oid": "ba69a78c8bce7c1ad42feef3f1399338d02d921e",
+      "sha256": "953719bb929c0d4896f6ae352b09243a5a6f6b14f1f7a4f4b5cebbfb3b486429"
+    }
+  ],
+  "explicit_exclusions": [
+    ".env and provider credentials",
+    "experiments and generated candidates/review presentations/runtime records",
+    "model weights, LoRAs, checkpoints, installed runtimes and caches",
+    "datasets and private or likeness references",
+    "local runtime declaration",
+    "same-disk evidence archives",
+    "untracked imported workspace assets, launchers, generators and trainers"
+  ],
+  "boundary": "This manifest pins source and non-art evidence only. It is not an artifact release, model package, dataset, candidate review, commercial clearance, or production authority."
+}

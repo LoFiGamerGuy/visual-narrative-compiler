@@ -787,3 +787,10 @@
 - G07 remains 0/20 decisions/null minutes. P036 remains four root preflight blockers and nine total finalization blockers; downstream candidate, cost, measurement, seam review, RenderRecord, and acceptance nodes cannot self-activate.
 - Current-primary terms/pricing/data-use refresh is retained immediately before any future paid CH05 execution. G07's $98.942623 remaining capacity is explicitly non-reusable for CH05.
 - Eighteen/eighteen graph/authority/activity mutations fail under ADR-0068. Ledger r8 records 35 local zero-cost milestones and remains disabled/no-cap/$0.
+
+## 2026-09-01 - safe-source release r2
+
+- Captured already-pushed commit `43fc787f783236c1c5dae9f4694a6e2a804e0aae`; r2 pins r1's exact manifest/hash rather than rewriting it.
+- Inventoried 387 tracked paths / 8,535,516 bytes at Git tree `4e85a8c3f267b9e06dd9f83711882677e375f70b`; canonical inventory root is `53af7d04b36fd02fdff0c35b882ffac88afce72121c846f66c4cf4f84d413d6b`.
+- Exactly two approved public controls and zero generated-experiment, prohibited-extension, or over-10-MiB paths are tracked. Thirteen/thirteen mutations fail under ADR-0069.
+- Current tracked scope/origin parity pass. Untracked imported assets, launchers, generators, and trainer material remain untouched and excluded. Ledger r9 records 36 zero-cost milestones and remains disabled/no-cap/$0.

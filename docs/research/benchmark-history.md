@@ -270,3 +270,5 @@ The aggregate hardening release gate passes 44 unchanged core checks plus nine a
 Selector-consumer compatibility validates six direct source consumers, three immutable evidence bindings, and six focused validators against canonically identical r1/r2 pipelines and P036/P044 profiles; 15/15 mutations fail. This measures provenance compatibility only, not visual quality, review, or production readiness.
 
 The selected-route authority frontier validates a 20-node/20-edge acyclic graph with five root authority items, 0/20 G07 decisions, and four root/nine total P036 blockers; 18/18 mutations fail. This is dependency accounting, not authority, execution, or acceptance.
+
+Safe-source r2 pins pushed commit `43fc787` with 387 paths / 8,535,516 bytes, tree `4e85a8c3…5f70b`, and inventory root `53af7d04…13d6b`; 13/13 mutations fail and prohibited/generated/oversize counts remain zero. This is source integrity, not artifact or production evidence.

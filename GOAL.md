@@ -116,7 +116,9 @@ The selector-consumer compatibility milestone is complete. R1 and r2 have canoni
 
 The authority/dependency frontier milestone is complete. A 20-node/20-edge acyclic graph distinguishes five root authority items from downstream evidence: G07 is 0/20 human decisions; P036 has four root preflight and nine total finalization blockers; approved inputs/cap/requests/uploads/RenderRecords/acceptances remain zero. Eighteen/eighteen mutations fail and `next_external_action` remains null under ADR-0068.
 
-The active bounded milestone is safe-source release r2. Pin the latest already-pushed source/evidence commit after the release and compatibility milestones, inventory every tracked blob, and prove that generated candidates, credentials, models, runtimes, datasets, private references, and unrelated local workspace material remain excluded.
+The safe-source release r2 milestone is complete. Already-pushed commit `43fc787f…0aae` contains 387 paths / 8,535,516 bytes at tree `4e85a8c3…5f70b` and inventory root `53af7d04…13d6b`; exactly two public controls and zero generated/prohibited/oversize paths are tracked. Thirteen/thirteen mutations fail, origin parity holds, and unrelated untracked workspace material remains excluded under ADR-0069.
+
+The active bounded milestone is hardening-release gate r2. Preserve the 53-check r1 result, then append selector compatibility, authority-frontier, safe-source r2, and current ledger validators in a new release revision with no network/provider/upload/download activity.
 
 ### Authority and data boundaries
 

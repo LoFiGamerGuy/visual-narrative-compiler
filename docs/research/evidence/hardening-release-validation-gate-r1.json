@@ -1,0 +1,112 @@
+{
+  "record_type": "HardeningReleaseValidationGate",
+  "schema_version": "1.0",
+  "record_id": "ng-hardening-release-validation-gate-r1",
+  "state": "ALL_CORE_AND_POST_SUITE_LOCAL_CHECKS_PASS",
+  "core": {
+    "suite_path": "src/north_garden/validate_ch05_instrumentation_suite.py",
+    "suite_sha256": "ee9f88725a7d63930159fcbc8affedff58f9bd1c3771fe2c31e70dd51761bc38",
+    "checks": 44,
+    "passed": 44
+  },
+  "extensions": [
+    {
+      "name": "safe_source_release",
+      "script": "src/north_garden/validate_safe_source_release_manifest.py",
+      "script_sha256": "bf91de71c9915f67d06944b78ee055858822ddaddf9ef1817f8d20fe8e5fac5d",
+      "passed": true,
+      "stdout_last_line": "two public controls; zero generated/prohibited/oversize paths; 8/8 mutations rejected; current scope and remote parity valid"
+    },
+    {
+      "name": "aggregate_budget_binding_audit",
+      "script": "src/north_garden/validate_bakeoff_adapter_budget_binding_audit.py",
+      "script_sha256": "6173309e453a77a2aa05b313dafc4bd47d584905590f9430e30a4c0c183d14e6",
+      "passed": true,
+      "stdout_last_line": "BFL remains two public controls only; 12/12 mutations rejected; audit made 0 requests/uploads/$0"
+    },
+    {
+      "name": "provider_transport_boundary",
+      "script": "src/north_garden/validate_provider_transport_data_boundary.py",
+      "script_sha256": "809cea1a825723041486a0606f7728f3aef750ad66520a17aa728fbbe9188444",
+      "passed": true,
+      "stdout_last_line": "two fictional control hashes only; six prohibited data classes intact; 9/9 mutations rejected; 0 network/uploads/$0"
+    },
+    {
+      "name": "selected_route_hardening_state",
+      "script": "src/north_garden/validate_selected_route_hardening_state.py",
+      "script_sha256": "9554bc63798c66629441f6bb70985cb2330d6b064e2395be9a831cccedd1bdf4",
+      "passed": true,
+      "stdout_last_line": "26 artifacts rebuild exactly; 15/15 promotion/denominator/authority mutations rejected"
+    },
+    {
+      "name": "disconnected_holed_topology",
+      "script": "src/north_garden/validate_disconnected_holed_topology_stress.py",
+      "script_sha256": "de2a2a8b85f267d682f84254c827ab5884a4e9a610abfefa72f5d831872d7e7b",
+      "passed": true,
+      "stdout_last_line": "exact hole/exterior; 12/12 mutations rejected; no profile/policy/review/request/upload/$0"
+    },
+    {
+      "name": "selector_contract_r2",
+      "script": "src/north_garden/validate_scale_aware_boundary_selector_r2.py",
+      "script_sha256": "2dc0fef1dd1d56aa010075cdab4f64be178ec19b48507c8c02e3ba0c6165f0a5",
+      "passed": true,
+      "stdout_last_line": "3 topology controls, 0 exact-panel visual/review/production-ready; 13/13 promotion/generalization mutations rejected"
+    },
+    {
+      "name": "artifact_rebuild_r2",
+      "script": "src/north_garden/validate_selected_route_artifact_rebuild_r2.py",
+      "script_sha256": "73ea7bd62c943199c9a0d20997c1a96c3504d81ac3fd1e8bb08837f2bde8964e",
+      "passed": true,
+      "stdout_last_line": "two rebuilds exact; r1 pinned; 10/10 mutations rejected; 0 requests/uploads/downloads/$0"
+    },
+    {
+      "name": "production_cost_ledger_r4",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r4.py",
+      "script_sha256": "728d3bbba6ad8b52e954f8e676138124d10faac10b3aa1a450859ea736072a60",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (27 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    },
+    {
+      "name": "production_cost_ledger_r5",
+      "script": "src/north_garden/validate_ch05_production_cost_ledger_r5.py",
+      "script_sha256": "03c6343a2d71cee35a7f6abd8cb6a53c9ceeed2ec7b7d19eb1ad0b248a51cece",
+      "passed": true,
+      "stdout_last_line": "0 failures, 0 warnings (31 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected)"
+    }
+  ],
+  "summary": {
+    "core_checks": 44,
+    "extension_checks": 9,
+    "total_checks": 53,
+    "passed_checks": 53,
+    "failed_checks": 0
+  },
+  "activity": {
+    "network_requests": 0,
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "models_downloaded": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "boundaries": [
+    "The gate executes local validators only; dormant provider adapters remain no-execute.",
+    "Core suite remains a distinct pinned entrypoint; later append-only validators are not folded into its historical count.",
+    "Passing mechanics/governance checks does not create human review, art acceptance, commercial clearance, or CH05 authority."
+  ],
+  "observed_runtime": {
+    "core_elapsed_ms": 37032.256,
+    "extension_elapsed_ms": {
+      "safe_source_release": 7342.263,
+      "aggregate_budget_binding_audit": 1143.885,
+      "provider_transport_boundary": 73.12,
+      "selected_route_hardening_state": 66.038,
+      "disconnected_holed_topology": 1263.181,
+      "selector_contract_r2": 61.689,
+      "artifact_rebuild_r2": 22643.55,
+      "production_cost_ledger_r4": 61.062,
+      "production_cost_ledger_r5": 65.369
+    },
+    "total_elapsed_ms": 69752.413,
+    "timing_is_local_nondeterministic": true
+  }
+}

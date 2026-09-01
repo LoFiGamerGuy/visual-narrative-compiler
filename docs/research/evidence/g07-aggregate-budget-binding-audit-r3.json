@@ -1,0 +1,140 @@
+{
+  "record_type": "G07AggregateBudgetAdapterBindingAudit",
+  "schema_version": "2.1",
+  "record_id": "ng-g07-aggregate-budget-binding-audit-r3",
+  "state": "POST_BAKEOFF_ALL_PAID_ADAPTERS_SHARED_LEDGER_BOUND_NO_EXECUTION",
+  "supersedes": {
+    "record_id": "ng-g07-aggregate-budget-binding-audit-r2",
+    "path": "docs/research/evidence/g07-aggregate-budget-binding-audit-r2.json",
+    "sha256": "f1e978b732e1545431364785d1e928fe2c4c9446ab49cbd5dc4eaea0f93e46e9"
+  },
+  "prior_record_rewritten": false,
+  "sources": {
+    "policy": {
+      "path": "config/g07-bakeoff-budget-policy-r1.json",
+      "sha256": "deac9fd81058077bf92127c110b58fd85904888ebcc31ed0c253fc07419633ad"
+    },
+    "ledger": {
+      "path": "docs/research/evidence/g07-bakeoff-cost-ledger-r1.json",
+      "sha256": "a0743b2596cddd0b9cca3208b0de695f872c9142983e73ac06509549a98ceb13"
+    },
+    "vault": {
+      "path": "docs/research/evidence/g07-local-evidence-vault-manifest-r1.json",
+      "sha256": "920d088f800bcdcc797cf66f4a1a7fb006a894ad2038bbe3b0f4f9cee0e128cf"
+    }
+  },
+  "policy": {
+    "aggregate_cap_usd": "100.000000",
+    "maximum_full_bakeoff_reservation_usd": "4.200000",
+    "adapter_request_ceilings_usd": {
+      "openai_gpt_image_2": "0.500000",
+      "gemini_3_1_flash_image": "0.200000",
+      "grok_imagine_image_2": "0.100000",
+      "bfl_flux_2": "0.250000"
+    },
+    "adapter_local_caps_allowed": false
+  },
+  "adapters": [
+    {
+      "adapter_id": "openai_gpt_image_2",
+      "source_path": "src/north_garden/openai_gpt_image2_bakeoff.py",
+      "source_sha256": "517ddf849d8ab0ebe07a134874d4cb6de4dd23c8136efbf549ed9f976880a6bc",
+      "shared_budget_imports": [
+        "CAP_ENV",
+        "hold_for_reconciliation",
+        "release_unsubmitted_reservation",
+        "reserve_bakeoff_request"
+      ],
+      "execute_one_reservation_line": 109,
+      "first_paid_submission_line": 125,
+      "reservation_precedes_paid_submission": true,
+      "adapter_local_cap_literal": false
+    },
+    {
+      "adapter_id": "gemini_3_1_flash_image",
+      "source_path": "src/north_garden/gemini_flash_image_bakeoff.py",
+      "source_sha256": "7dca6c57ee41618ecf2fcc1c8592dda5b9d61893ceed7ba8ab66d26e8838e288",
+      "shared_budget_imports": [
+        "CAP_ENV",
+        "hold_for_reconciliation",
+        "release_unsubmitted_reservation",
+        "reserve_bakeoff_request"
+      ],
+      "execute_one_reservation_line": 91,
+      "first_paid_submission_line": 106,
+      "reservation_precedes_paid_submission": true,
+      "adapter_local_cap_literal": false,
+      "recovery": "official interaction retrieval reuses failed record reservation; no new reserve/generation"
+    },
+    {
+      "adapter_id": "grok_imagine_image_2",
+      "source_path": "src/north_garden/xai_grok_imagine_bakeoff.py",
+      "source_sha256": "953719bb929c0d4896f6ae352b09243a5a6f6b14f1f7a4f4b5cebbfb3b486429",
+      "shared_budget_imports": [
+        "CAP_ENV",
+        "hold_for_reconciliation",
+        "reconcile_reservation",
+        "release_unsubmitted_reservation",
+        "reserve_bakeoff_request"
+      ],
+      "execute_one_reservation_line": 57,
+      "first_paid_submission_line": 72,
+      "reservation_precedes_paid_submission": true,
+      "adapter_local_cap_literal": false
+    },
+    {
+      "adapter_id": "bfl_flux_2",
+      "source_path": "src/north_garden/bfl_flux2_bakeoff.py",
+      "source_sha256": "cd9b169fff3f7d80ee8d8753161e1530f07b79a76fde8a149fbe658986bbbb4f",
+      "shared_budget_imports": [
+        "CAP_ENV",
+        "hold_for_reconciliation",
+        "reconcile_reservation",
+        "reserve_bakeoff_request"
+      ],
+      "execute_one_reservation_line": 115,
+      "first_paid_submission_line": 132,
+      "reservation_precedes_paid_submission": true,
+      "adapter_local_cap_literal": false,
+      "pre_reservation_public_fetch": "no-charge URL/hash verification only",
+      "approved_url_controls": {
+        "g07a-control": "NORTH_GARDEN_BFL_G07A_CONTROL_URL",
+        "g07a-nochange-reference": "NORTH_GARDEN_BFL_G07A_NOCHANGE_CONTROL_URL"
+      }
+    }
+  ],
+  "ledger_reconciliation": {
+    "entries": 18,
+    "entries_by_adapter": {
+      "bfl_flux_2": 4,
+      "gemini_3_1_flash_image": 4,
+      "grok_imagine_image_2": 5,
+      "openai_gpt_image_2": 5
+    },
+    "states": {
+      "committed": 17,
+      "released": 1
+    },
+    "committed_actual_cost_usd": "1.057377",
+    "held_reservations_usd": "0.000000",
+    "available_usd": "98.942623",
+    "required_candidate_cost_usd": "0.987377",
+    "additional_paid_failure_cost_usd": "0.070000"
+  },
+  "bfl_boundary": {
+    "required_candidates": 4,
+    "approved_public_control_keys": [
+      "g07a-control",
+      "g07a-nochange-reference"
+    ],
+    "adult_likeness_or_private_input_allowed": false,
+    "child_related_input_allowed": false,
+    "expanded_upload_authority": false
+  },
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "boundary": "Static post-bakeoff audit only. It neither reopens execution nor converts remaining aggregate availability into production authority."
+}

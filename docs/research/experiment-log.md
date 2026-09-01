@@ -764,3 +764,11 @@
 - Two expanded rebuilds each contain 28 artifacts / nine groups / 4,868,771 bytes and canonical root `18816d3cb4a60161440e8dc5fdb9b0aea628c3d0a688cc39a5eb868d6ce50d64`.
 - Ten/ten supersession, rewrite, group/count/root/identity/artifact/activity mutations fail under ADR-0065. Provider calls/uploads/downloads/cost remain 0/0/0/$0.
 - Append-only production cost ledger r5 pins r4 and adds hardening state, disconnected/hole stress, selector r2, and rebuild r2. It now records 31 unique zero-cost milestones, no cap, empty reservations, $0 committed/held, and rejects 8/8 mutations.
+
+## 2026-09-01 - aggregate hardening release gate and budget audit r3
+
+- Ran the unchanged 44-check core suite followed by nine named safe-source, budget, transport, state, topology, selector, rebuild, and cost-ledger validators. All 53/53 pass and 8/8 release-gate mutations fail under ADR-0066.
+- The tracked local timing observation is 69.752 seconds. It is nondeterministic validation runtime, not provider or human throughput.
+- Transport hardening changed Gemini and BFL adapter source hashes after budget audit r2. Preserved r2 and issued append-only r3; 4/4 adapters still reserve through the aggregate ledger before paid submission, 18 entries reconcile to $1.057377 actual/$98.942623 available, and 12/12 mutations fail.
+- Production cost ledger r6 pins r5 and records these two local milestones for 33 unique zero-cost milestones. CH05 remains disabled/no-cap, with empty entries and $0 committed/held.
+- No network request, provider call, upload, download, or external spend occurred. No human review, art acceptance, production authority, or chapter outcome follows.

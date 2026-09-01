@@ -110,7 +110,9 @@ The selector-contract r2 milestone is complete. R2 pins r1, preserves P036=16px/
 
 The exact artifact rebuild r2 milestone is complete. R2 pins r1 and adds only the disconnected/hole support/alpha: 28 artifacts, nine groups, 4,868,771 bytes, identical two-pass root `18816d3c…e50d64`, and 10/10 mutations rejected under ADR-0065. Production ledger r5 records 31 zero-cost milestones with no cap/reservations/spend.
 
-The active bounded milestone is a hardening-release validation orchestrator. Keep the pinned 44-check suite unchanged, then run it together with every later safe-source, budget, transport, state, topology, selector, rebuild, and cost-ledger validator as one no-network release gate.
+The hardening-release validation milestone is complete. The unchanged 44-check core plus nine append-only extensions pass 53/53, and 8/8 release-state mutations fail. Aggregate-budget audit r3 preserves r2 while rebinding the transport-hardened adapter hashes; 4/4 adapters still reserve centrally, 18 entries reconcile to $1.057377 actual/$98.942623 available, and 12/12 audit mutations fail. The observed local gate runtime is 69.752 seconds. Activity remains zero requests/uploads/downloads/$0 under ADR-0066.
+
+The active bounded milestone is selector-consumer compatibility. Prove that selector r2's two panel profiles are byte-for-byte semantically identical to r1 for every existing consumer, while the new panel-neutral topology control cannot satisfy a panel profile or silently change RenderRecord v2.1 bindings.
 
 ### Authority and data boundaries
 

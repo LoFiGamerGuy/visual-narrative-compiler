@@ -17,7 +17,8 @@ ROOT = Path(__file__).resolve().parents[2]
 POLICY = ROOT / "config/g07-bakeoff-budget-policy-r1.json"
 LEDGER = ROOT / "docs/research/evidence/g07-bakeoff-cost-ledger-r1.json"
 VAULT = ROOT / "docs/research/evidence/g07-local-evidence-vault-manifest-r1.json"
-OUTPUT = ROOT / "docs/research/evidence/g07-aggregate-budget-binding-audit-r2.json"
+R2 = ROOT / "docs/research/evidence/g07-aggregate-budget-binding-audit-r2.json"
+OUTPUT = ROOT / "docs/research/evidence/g07-aggregate-budget-binding-audit-r3.json"
 ADAPTERS = {
     "openai_gpt_image_2": {"path": "src/north_garden/openai_gpt_image2_bakeoff.py", "paid_call": "urlopen", "required": ["reserve_bakeoff_request", "hold_for_reconciliation", "release_unsubmitted_reservation"]},
     "gemini_3_1_flash_image": {"path": "src/north_garden/gemini_flash_image_bakeoff.py", "paid_call": "urlopen", "required": ["reserve_bakeoff_request", "hold_for_reconciliation", "release_unsubmitted_reservation"]},
@@ -94,8 +95,10 @@ def build() -> dict:
     observed_inputs = {key: value for item in bfl_records for key, value in item["input_hashes"].items()}
     require(len(bfl_records) == 4 and observed_inputs == approved_hashes, "BFL vault boundary changed")
     return {
-        "record_type": "G07AggregateBudgetAdapterBindingAudit", "schema_version": "2.0", "record_id": "ng-g07-aggregate-budget-binding-audit-r2",
+        "record_type": "G07AggregateBudgetAdapterBindingAudit", "schema_version": "2.1", "record_id": "ng-g07-aggregate-budget-binding-audit-r3",
         "state": "POST_BAKEOFF_ALL_PAID_ADAPTERS_SHARED_LEDGER_BOUND_NO_EXECUTION",
+        "supersedes": {"record_id": "ng-g07-aggregate-budget-binding-audit-r2", "path": R2.relative_to(ROOT).as_posix(), "sha256": sha256(R2)},
+        "prior_record_rewritten": False,
         "sources": {"policy": {"path": POLICY.relative_to(ROOT).as_posix(), "sha256": sha256(POLICY)}, "ledger": {"path": LEDGER.relative_to(ROOT).as_posix(), "sha256": sha256(LEDGER)}, "vault": {"path": VAULT.relative_to(ROOT).as_posix(), "sha256": sha256(VAULT)}},
         "policy": {"aggregate_cap_usd": policy["maximum_aggregate_cap_usd"], "maximum_full_bakeoff_reservation_usd": policy["maximum_full_bakeoff_reservation_usd"], "adapter_request_ceilings_usd": policy["per_request_reservation_usd"], "adapter_local_caps_allowed": False},
         "adapters": audits,
@@ -108,6 +111,8 @@ def build() -> dict:
 
 def mutations(expected: dict) -> tuple[int, int]:
     values = []
+    item = copy.deepcopy(expected); item["supersedes"]["sha256"] = "0" * 64; values.append(item)
+    item = copy.deepcopy(expected); item["prior_record_rewritten"] = True; values.append(item)
     item = copy.deepcopy(expected); item["policy"]["aggregate_cap_usd"] = "400.000000"; values.append(item)
     item = copy.deepcopy(expected); item["policy"]["adapter_local_caps_allowed"] = True; values.append(item)
     item = copy.deepcopy(expected); item["adapters"][0]["reservation_precedes_paid_submission"] = False; values.append(item)

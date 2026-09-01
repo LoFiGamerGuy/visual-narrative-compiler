@@ -52,6 +52,8 @@ Illustrious XL v2 is now locally installed from its pinned official revision. Th
 
 The selected OpenAI hardening branch now has a measured local boundary policy: a 16-pixel inward cosine feather is the only tested width meeting the predeclared discontinuity/core/exterior/lettering rule. It remains proxy-only and unaccepted; topology on the abstract P036 causal mask is the next gate before any narrative-panel applicability claim.
 
+That first P036 topology gate reveals the existing target-context mask is a filled rectangle. It retains 79.032% core under the policy but cannot establish thin or concave causal-object behavior. Narrative applicability remains gated on a deterministic causal-shape control rather than inferred from the rectangle.
+
 The predeclared low-denoise and strength matrices plus a paired d1.0/strength-0.8 replication now close this route: target edit passed only 1/2 observed seeds and target no-change passed 0/2. ADR-0014 rejects mask-boundary optimization until a different renderer mechanism proves both assertions.
 
 The target/no-change matrices and paired replication are now complete. ADR-0014 rejects further same-route mask-boundary tuning; ADR-0015 requires a distinct renderer mechanism. The current recommendation is in `docs/research/renderer-decision-memo-20260901.md`.

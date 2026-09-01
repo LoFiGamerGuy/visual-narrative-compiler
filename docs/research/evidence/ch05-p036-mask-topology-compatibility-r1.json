@@ -1,0 +1,102 @@
+{
+  "record_type": "ComicRepairMaskTopologyCompatibility",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p036-mask-topology-compatibility-r1",
+  "state": "RECTANGULAR_MECHANICS_PASS_IRREGULAR_NARRATIVE_TOPOLOGY_NOT_TESTED",
+  "inputs": {
+    "comic_panel_plan_collection": {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    },
+    "layout_control_record": {
+      "path": "experiments/results/ch05-p036-layout-control-r1.json",
+      "sha256": "651091687041fe000f73761e090da66bffb81a7de352f9376cf8b0271d20ad28"
+    },
+    "abstract_base": {
+      "path": "experiments/outputs/ch05_p036_layout_control_r1/ch05-p036-layout-control-r1.png",
+      "sha256": "a859557289f2fff25271e5ef5ede5687f7ff2edd7346f5c77813b9465e0dbe1d"
+    },
+    "target_context_mask": {
+      "path": "experiments/outputs/ch05_p036_layout_control_r1/ch05-p036-target-context-mask-r1.png",
+      "sha256": "a54386313171ec60ec6970442822d391fca7f41615a09ccc625b9deaf7c31467"
+    },
+    "selected_boundary_evidence": {
+      "path": "docs/research/evidence/openai-targeted-repair-boundary-hardening-r2.json",
+      "sha256": "ad3df9d311efe106da3d5d4d93bcb04979b6aaaf315037b59662cae33e2ef3cf"
+    }
+  },
+  "policy": {
+    "id": "cosine-inset-16px",
+    "width_px": 16,
+    "source_adr": "ADR-0040"
+  },
+  "measurements": {
+    "canvas": [
+      1536,
+      1024
+    ],
+    "support_bbox_xyxy": [
+      690,
+      225,
+      971,
+      521
+    ],
+    "support_pixels": 83176,
+    "support_fraction": 0.052881877,
+    "bbox_rectangularity": 1.0,
+    "support_component_count": 1,
+    "support_component_sizes": [
+      83176
+    ],
+    "fully_replaced_core_pixels": 65736,
+    "fully_replaced_core_fraction_of_support": 0.790324132,
+    "fully_replaced_core_fraction_of_frame": 0.041793823,
+    "core_component_count": 1,
+    "core_component_survival_fraction": 1.0,
+    "transition_or_zero_alpha_fraction_of_support": 0.209675868,
+    "alpha_nonzero_lettering_overlap_pixels": 0,
+    "synthetic_composite_max_abs_difference_outside_support": 0
+  },
+  "topology_feature_coverage": {
+    "axis_aligned_rectangle": true,
+    "concavity_exercised": false,
+    "hole_exercised": false,
+    "multiple_components_exercised": false,
+    "thin_feature_exercised": false
+  },
+  "decision": {
+    "current_rectangle_mechanics_compatible": true,
+    "evidence_sufficient_for_irregular_narrative_mask": false,
+    "next_required_control": "deterministic causal-shape mask with concavity and thin plank/hand/tin context",
+    "provider_route_selection_changed": false,
+    "art_accepted": false
+  },
+  "output": {
+    "inward_alpha": {
+      "path": "experiments/outputs/ch05_p036_mask_topology_r1/ch05-p036-16px-inward-alpha-r1.png",
+      "sha256": "8031e499247c3adea2f145cf0c7d04ca23a0e279af9cf798862b2700eb0c7151"
+    }
+  },
+  "comic_boundary": {
+    "panel_id": "ng-ch05-sc01-p036",
+    "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+    "comic_panel_plan_only": true,
+    "animation_shot_plan": null
+  },
+  "review": {
+    "human_review_status": "not_yet_performed",
+    "human_minutes": null,
+    "accepted": false
+  },
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "The current P036 target-context mask is a filled axis-aligned rectangle, not an irregular causal-object mask.",
+    "Component and core survival on this rectangle cannot establish thin-feature, concavity, hole, or multi-component behavior.",
+    "The synthetic color layer tests exterior compositing only and is not art or a renderer output.",
+    "No character continuity, causal readability, provider execution, or visual acceptance is tested."
+  ]
+}

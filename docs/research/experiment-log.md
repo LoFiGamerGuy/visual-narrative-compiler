@@ -571,3 +571,10 @@
 - Wider variants were not assumed better: 24 and 32 pixels fell below the 90% maximum-artificial-jump threshold because the transition crossed stronger internal gradients. The narrowest passing variant is selected for one topology test under ADR-0040.
 - Eight/eight input, method, metric, selection, spill, core-signal, lettering, and invented-review mutations fail. Candidate acceptance remains false and human minutes null.
 - Consolidated offline validation passes 28/28 checks in 16.458 seconds with $0 additional external cost.
+
+## 2026-09-01 - P036 current-mask topology audit
+
+- Verified that the existing 5.288% P036 target-context mask is one fully filled axis-aligned rectangle (rectangularity 1.0), not an irregular hand/plank/tin mask.
+- Applying the selected 16-pixel inward policy retains 65,736 of 83,176 support pixels as fully replaced core (79.0324089%), preserves 1/1 connected component, and produces zero exterior or lettering-zone change in a synthetic compositor check.
+- Concavity, holes, multiple components, and thin-feature survival are all untested. The record therefore passes rectangle mechanics but explicitly fails evidence sufficiency for irregular narrative topology under ADR-0041.
+- Eight/eight input, policy, topology metric, lettering, overclaim, and invented-review mutations fail. Provider calls/uploads/cost remain 0/0/$0; art acceptance remains false.

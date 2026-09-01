@@ -216,3 +216,5 @@ The blinded G07 protocol verifies 16/16 neutral candidate presentations and 4/4 
 The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate cost, latency, drift, assertion, and failure-tag dimensions; 9/9 pending/fixture/coverage/mapping mutations fail. With review still pending it emits no human arm results, composite score, rank, or route change. Renderer-quality evidence and ADR-0025 remain unchanged.
 
 Selected-route boundary hardening compares seven inward-only compositor variants. The 16-pixel cosine boundary is the sole predeclared-rule pass: 91.263% artificial-jump reduction, 99.462% central green signal, zero exterior changes, and zero P036 lettering overlap; 8/8 evidence mutations fail. This is fictional-proxy compositor mechanics, not visual acceptance or narrative-panel evidence.
+
+P036 current-mask topology retains 79.032% core and 1/1 component under the 16-pixel policy with zero exterior/lettering changes, but the source mask is a perfect rectangle and exercises no thin, concave, holed, or multi-component topology. The narrative-topology assertion is therefore not tested, not passed.

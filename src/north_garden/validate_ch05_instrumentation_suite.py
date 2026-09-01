@@ -41,6 +41,7 @@ CHECKS = [
     ("g07_blinded_review", [PYTHON, "src/north_garden/validate_g07_blinded_review.py"]),
     ("g07_review_rollup", [PYTHON, "src/north_garden/validate_g07_review_rollup.py"]),
     ("selected_route_boundary", [PYTHON, "src/north_garden/validate_openai_boundary_hardening.py"]),
+    ("p036_mask_topology", [PYTHON, "src/north_garden/validate_ch05_p036_mask_topology.py"]),
     ("tracked_source_scope", [PYTHON, "src/north_garden/validate_tracked_source_scope.py"]),
 ]
 

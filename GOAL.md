@@ -62,7 +62,9 @@ The fail-closed G07 review-rollup milestone is complete. Four/four arms and 16/1
 
 The selected-route mask-boundary milestone is complete. Seven exact-hash local variants compare hard and 2/4/8/16/24/32-pixel inward cosine boundaries. Only 16 pixels meets the predeclared rule: 91.263% artificial-jump reduction, unchanged 99.462% central green signal, zero exterior changed pixels, and zero P036 lettering overlap. Eight/eight evidence mutations fail. ADR-0040 selects only this compositor policy for the next mechanics test; provider route and art acceptance are unchanged, with 0 calls/uploads/$0.
 
-The active bounded milestone is P036 mask-topology compatibility. Apply the selected 16-pixel inward policy to the deterministic abstract P036 causal mask, quantify support/core retention, connected-component survival, thin-feature loss, exterior preservation, and lettering clearance, and fail rather than generalize if the mask cannot carry a meaningful repair core. This remains compiler/proxy evidence, not CH05 art or upload authority.
+The P036 mask-topology compatibility milestone is complete. The current mask is exactly one filled axis-aligned rectangle, not irregular causal geometry. The 16-pixel policy retains 79.032% fully replaced core, preserves 1/1 component, and changes zero exterior/lettering pixels, but exercises no concavity, holes, multiple components, or thin features. Eight/eight overclaim/tamper mutations fail; ADR-0041 marks irregular narrative topology not tested.
+
+The active bounded milestone is a P036 causal-shape topology control. Derive a deterministic non-art mask from the approved ComicPanelPlan's hand/plank/tin causal relationship, deliberately exercise concavity and thin-feature survival, apply the selected 16-pixel policy, and measure whether all required causal components retain useful cores without entering the lettering safe zone. Do not treat geometry labels or proxy pixels as a base raster or provider input.
 
 ### Authority and data boundaries
 

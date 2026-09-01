@@ -46,3 +46,14 @@ These are service routes, not local artifacts.  They have no local model-file ha
 | OpenAI GPT Image 2 API | `EXTERNAL_RESEARCH_CANDIDATE_PENDING_PAID_SERVICE_GATE` | [Official model page](https://developers.openai.com/api/docs/models/gpt-image-2), refreshed 2026-09-01, documents image-generation/edit endpoints and snapshot `gpt-image-2-2026-04-21`. [Business-data privacy](https://openai.com/business-data/) says API inputs/outputs are not used for training by default; retention/ZDR configuration still needs endpoint-specific review. |
 | BFL FLUX.2 API | `EXTERNAL_FICTIONAL_CONTROL_ONLY_PENDING_PAID_SERVICE_GATE` | [Official FLUX.2 image-editing guide](https://docs.bfl.ai/flux_2/flux2_image_editing), refreshed 2026-09-01, documents pinned `flux-2-pro`, polling, and URL-based reference inputs. [Current FLUX API Service Terms](https://bfl.ai/legal/flux-api-service-terms), last revised 2026-08-04 and reviewed 2026-09-01, grant BFL rights to use Inputs/Outputs to improve/train services. Therefore BFL is prohibited for adult likeness/reference data and permitted only for the initial fictional-control bakeoff; no commercial-release conclusion follows. |
 | Built-in image-generation service | `FICTIONAL_FRONTIER_ART_RESEARCH_ONLY_PROVENANCE_LIMITED` | Built-in service generated CH03 fictional adult-design candidates on 2026-09-01. The service did not expose a model snapshot, seed, billable cost, or a project-reviewable commercial terms artifact in the execution result. It may support visual research only; do not represent output as commercially cleared, reproducible, or a provider-comparison score. |
+
+## External-provider pre-execution refresh — 2026-09-01T15:07Z
+
+Current official model, endpoint, pricing, terms/data-use, and content hashes are recorded in `docs/research/provider-primary-documentation-20260901.md` before spend. The four executable candidates are now `EXTERNAL_FICTIONAL_CONTROL_BAKEOFF_READY`, not selected or commercially approved.
+
+- OpenAI remains pinned to `gpt-image-2-2026-04-21` at `/v1/images/edits`; API business data is not used for training by default.
+- Gemini remains stable `gemini-3.1-flash-image` at `/v1beta/interactions`; only the paid-service credential context is permitted for this run.
+- xAI remains `grok-imagine-image-2.0` at `/v1/images/edits`; the adapter now pins 1K/medium and reconciles exact `cost_in_usd_ticks`.
+- BFL remains pinned `flux-2-pro`; current API terms preserve ADR-0019's absolute fictional-control-only boundary.
+
+No service result is accepted, selected, or cleared by this documentation state.

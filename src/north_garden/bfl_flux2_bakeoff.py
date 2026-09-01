@@ -19,8 +19,9 @@ from urllib.request import Request, urlopen
 
 import truststore
 
+from bakeoff_budget import CAP_ENV, hold_for_reconciliation, reserve_bakeoff_request
 from envfile import load_project_env
-from openai_gpt_image2_bakeoff import CAP_ENV, ROOT, load_plan, prompt_for, sha256
+from openai_gpt_image2_bakeoff import ROOT, load_plan, prompt_for, sha256, source_provenance
 
 
 OUT = ROOT / "experiments/outputs/bfl_flux2_g07_bakeoff_r1"
@@ -80,6 +81,10 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
     asset_key = item["source_assets"][0]
     asset = plan["source_assets"][asset_key]
     prompt = prompt_for(item["id"])
+    # URL/hash verification is a no-charge preflight and must complete before
+    # the shared ledger is touched.
+    control_url = verified_control_url(asset_key, asset)
+    reservation = reserve_bakeoff_request("bfl_flux_2", item["id"])
     started_at = stamp()
     started = time.perf_counter()
     record = {
@@ -91,9 +96,10 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
         "accepted": False, "failure_tags": [], "case_id": item["case_id"], "request_kind": item["kind"], "semantic_source_sha256": plan["semantic_source"]["sha256"],
         "intent_manifest": plan["intent_manifest"], "data_boundary": plan["data_boundary"], "api_documentation": API_DOC,
         "provider_terms": {"url": TERMS_URL, "last_reviewed": "2026-09-01", "critical_boundary": "BFL API terms state inputs/outputs may be used to train and improve services; fictional controls only."},
+        "budget_reservation": reservation,
+        "execution_source": source_provenance(Path(__file__).resolve()),
     }
     try:
-        control_url = verified_control_url(asset_key, asset)
         record["request_body_redacted"]["public_control_url_sha256"] = hashlib.sha256(control_url.encode()).hexdigest()
         submitted = post_json(ENDPOINT, api_key, {"prompt": prompt, "input_image": control_url, "width": 1536, "height": 1024})
         record["request_id"] = submitted["id"]
@@ -101,16 +107,24 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
         sample_url = result["result"]["sample"]
         with urlopen(sample_url, timeout=180, context=SSL_CONTEXT) as response:
             image_bytes = response.read()
-    except (HTTPError, KeyError, RuntimeError, TimeoutError) as error:
-        record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "failed", "failure_tags": ["provider_request_failed"], "provider_error": str(error)[:2000]})
+        OUT.mkdir(parents=True, exist_ok=True)
+        output_path = OUT / f"{item['id']}.png"
+        output_path.write_bytes(image_bytes)
+    except Exception as error:
+        record["budget_reservation"] = hold_for_reconciliation(
+            reservation["reservation_id"], provider_request_id=record["request_id"],
+            provider_usage=None, outcome="provider_request_failed_cost_pending",
+        )
+        record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "failed", "failure_tags": ["provider_request_failed" if isinstance(error, (HTTPError, RuntimeError, TimeoutError)) else "provider_result_processing_failed"], "provider_error": f"{type(error).__name__}: {error}"[:2000]})
         RECORDS.mkdir(parents=True, exist_ok=True)
         path = RECORDS / f"{item['id']}-failed.json"
         path.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
         raise
-    OUT.mkdir(parents=True, exist_ok=True)
-    output_path = OUT / f"{item['id']}.png"
-    output_path.write_bytes(image_bytes)
     record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "completed", "output_hashes": [sha256(output_path)], "candidate": {"path": output_path.relative_to(ROOT).as_posix(), "sha256": sha256(output_path)}, "provider_output_url_sha256": hashlib.sha256(sample_url.encode()).hexdigest()})
+    record["budget_reservation"] = hold_for_reconciliation(
+        reservation["reservation_id"], provider_request_id=record["request_id"],
+        provider_usage="not_reported", outcome="completed_cost_pending",
+    )
     RECORDS.mkdir(parents=True, exist_ok=True)
     path = RECORDS / f"{item['id']}.json"
     path.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
@@ -126,11 +140,8 @@ def main() -> int:
     if not args.execute:
         print(json.dumps({"state": "DRY_RUN_NO_NETWORK_NO_FILES_WRITTEN", "adapter": "bfl_flux_2", "model": MODEL, "requests": [item["id"] for item in plan["request_set"]], "required_environment": ["BFL_API_KEY", CAP_ENV, *CONTROL_URL_ENVS.values()], "critical_terms_boundary": "fictional controls only; current BFL API terms permit input/output training use"}, indent=2))
         return 0
-    cap = float(os.environ.get(CAP_ENV, "0"))
-    if not os.environ.get("BFL_API_KEY") or cap <= 0:
+    if not os.environ.get("BFL_API_KEY") or not os.environ.get(CAP_ENV):
         raise SystemExit(f"--execute requires BFL_API_KEY and a positive {CAP_ENV}; no request was sent")
-    if cap > 20:
-        raise SystemExit(f"{CAP_ENV} exceeds the preflighted $20 cap; no request was sent")
     for item in plan["request_set"]:
         print(execute_one(plan, item, os.environ["BFL_API_KEY"]))
     return 0

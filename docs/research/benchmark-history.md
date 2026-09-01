@@ -122,3 +122,20 @@ This is an adapter-operational and proxy repair smoke, not a frozen benchmark sc
 | Main limitation | global reference-conditioned redraw; no demonstrated target-local/no-change guarantee |
 
 Full record: `experiments/results/flux2_klein_proxy_smoke_20260901.json`.
+
+## External fictional G07 pre-execution control — 2026-09-01
+
+This is governance and adapter-readiness evidence, not a benchmark result and not a renderer score.
+
+| Field | Result |
+| --- | --- |
+| Provider arms | OpenAI GPT Image 2, Gemini 3.1 Flash Image, Grok Imagine Image 2.0, BFL FLUX.2 Pro |
+| Frozen semantic mutation | none |
+| Credential presence | 4/4 pass; values not printed or stored |
+| Local source hash checks | 4/4 pass |
+| Data-boundary checks | 4/4 pass |
+| BFL public controls | 2/2 exact byte-hash pass |
+| Aggregate ledger concurrency | pass; competing reservations cannot independently consume cap |
+| Real committed / held spend | $0 / $0 |
+| Full-bakeoff reservation ceiling | $4.20 against $100 approved aggregate cap |
+| Accepted candidates | 0; no provider request yet |

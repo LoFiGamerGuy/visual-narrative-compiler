@@ -8,9 +8,14 @@ The fictional-control G07 adapters, their frozen input hashes, and their no-netw
 
 ## Remaining mechanical gates
 
-1. `NORTH_GARDEN_APPROVED_BAKEOFF_CAP_USD` is not currently a plain numeric value in the supported range `0` through `20`. Set it to a number only, for example `15` or `20`; omit `$`, prose, comments, and URL/code snippets on that line.
-2. BFL's two control fields are not currently HTTPS URLs. BFL's image-edit endpoint requires two public, static HTTPS URLs whose downloaded bytes exactly equal the corresponding hash-pinned fictional control PNG. A code snippet is not an input URL. Leave BFL out of the first run, or provide both URLs after choosing a publication method for the two non-sensitive proxy images.
-3. A per-adapter cap is not yet a cross-provider aggregate-spend control. Before executing multiple providers, add a single bakeoff-level reservation/ledger gate so four independently invoked adapters cannot each interpret the same `$20` as their own allowance.
+1. **Closed:** `NORTH_GARDEN_APPROVED_BAKEOFF_CAP_USD=100` is authorized and configured.
+2. **Closed:** BFL's two public static HTTPS control URLs are configured for the two published fictional controls; byte hashes remain mandatory preflight checks.
+3. **Closed:** ADR-0023 and `bakeoff_budget.py` now enforce a single atomic aggregate reservation ledger across all four adapters. Concurrency validation proves competing reservations cannot each consume the cap.
+4. **Closed:** current primary pricing, model/endpoint, data-use, and terms evidence is recorded in `provider-primary-documentation-20260901.md`. Documented ceilings reserve at most $4.20 for all 16 requests against the $100 aggregate cap.
+
+## Current execution gate
+
+Run each adapter's credential, data-boundary, source-hash, documented endpoint, and aggregate-ledger preflight immediately before its four requests. Preserve any provider rejection as a failure RenderRecord and retain possibly billable reservations until reconciled.
 
 ## Recommended execution order after the gates close
 

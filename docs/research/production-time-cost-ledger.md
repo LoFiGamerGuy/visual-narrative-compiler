@@ -18,4 +18,8 @@ As of 2026-09-01, completed local experiments total **79 renderer generations** 
 | Illustrious XL v2 + Xinsir strength matrix | 4 | 64.807 s | 0 |
 | Illustrious XL v2 + Xinsir d1.0/s0.8 replication | 2 | 41.078 s | 0 |
 
-The complete sourced ledger is `experiments/results/research-time-cost-ledger-20260901.json`. Historical accepted CH01 narrative material is intentionally excluded because its source-generation and human-review timings were not captured; it must not distort current throughput metrics.
+The complete sourced local ledger is `experiments/results/research-time-cost-ledger-20260901.json`. The live aggregate API ledger is `docs/research/evidence/g07-bakeoff-cost-ledger-r1.json`.
+
+Before external execution, ADR-0023 validation measured exactly one successful and one denied competing $6 reservation against a $10 test cap; after a $1.25 reconciliation and a proven-unsubmitted release, available test capacity was $8.75. This used temporary test ledgers and no provider call. The real ledger remains committed $0, held $0, available $100. Officially documented ceilings allow at most $4.20 held for the complete 16-request bakeoff.
+
+Historical accepted CH01 narrative material is intentionally excluded because its source-generation and human-review timings were not captured; it must not distort current throughput metrics.

@@ -12,6 +12,7 @@ import hashlib
 import json
 import mimetypes
 import os
+import subprocess
 import time
 import uuid
 from datetime import UTC, datetime
@@ -19,6 +20,7 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
+from bakeoff_budget import CAP_ENV, hold_for_reconciliation, reserve_bakeoff_request
 from envfile import load_project_env
 
 
@@ -29,7 +31,6 @@ RECORDS = ROOT / "experiments/records/openai_gpt_image2_g07_bakeoff_r1"
 MODEL = "gpt-image-2-2026-04-21"
 ENDPOINT = "https://api.openai.com/v1/images/edits"
 API_DOC = "https://developers.openai.com/api/docs/guides/image-generation"
-CAP_ENV = "NORTH_GARDEN_APPROVED_BAKEOFF_CAP_USD"
 
 
 def sha256(path: Path) -> str:
@@ -38,6 +39,17 @@ def sha256(path: Path) -> str:
 
 def stamp() -> str:
     return datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def source_provenance(adapter_path: Path) -> dict:
+    result = subprocess.run(
+        ["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True, check=False,
+    )
+    return {
+        "git_commit": result.stdout.strip() if result.returncode == 0 else "UNAVAILABLE",
+        "adapter_path": adapter_path.relative_to(ROOT).as_posix(),
+        "adapter_sha256": sha256(adapter_path),
+    }
 
 
 def load_plan() -> dict:
@@ -89,9 +101,10 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
     image_path = ROOT / asset["path"]
     fields = {"model": MODEL, "prompt": prompt_for(item["id"]), "size": "1536x1024", "quality": "medium", "output_format": "png"}
     body, boundary = multipart(fields, image_path)
+    request = Request(ENDPOINT, data=body, method="POST", headers={"Authorization": f"Bearer {api_key}", "Content-Type": f"multipart/form-data; boundary={boundary}"})
+    reservation = reserve_bakeoff_request("openai_gpt_image_2", item["id"])
     started_at = stamp()
     started = time.perf_counter()
-    request = Request(ENDPOINT, data=body, method="POST", headers={"Authorization": f"Bearer {api_key}", "Content-Type": f"multipart/form-data; boundary={boundary}"})
     record = {
         "record_type": "RenderRecord", "schema_version": "1.0", "adapter_id": "openai_gpt_image_2", "provider": "OpenAI API",
         "endpoint": ENDPOINT, "provider_region": "not_reported_by_image_endpoint", "model_version_or_snapshot": MODEL,
@@ -101,22 +114,39 @@ def execute_one(plan: dict, item: dict, api_key: str) -> Path:
         "accepted": False, "failure_tags": [], "case_id": item["case_id"], "request_kind": item["kind"],
         "semantic_source_sha256": plan["semantic_source"]["sha256"], "intent_manifest": plan["intent_manifest"],
         "data_boundary": plan["data_boundary"], "api_documentation": API_DOC,
+        "budget_reservation": reservation,
+        "execution_source": source_provenance(Path(__file__).resolve()),
     }
     try:
         with urlopen(request, timeout=180) as response:
             payload = json.load(response)
             record["request_id"] = response.headers.get("x-request-id")
-    except HTTPError as error:
-        record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "failed", "failure_tags": ["provider_request_failed"], "provider_error": error.read().decode("utf-8", "replace")[:2000]})
+        image_bytes = base64.b64decode(payload["data"][0]["b64_json"])
+        OUT.mkdir(parents=True, exist_ok=True)
+        output_path = OUT / f"{item['id']}.png"
+        output_path.write_bytes(image_bytes)
+    except Exception as error:
+        if isinstance(error, HTTPError):
+            record["request_id"] = record["request_id"] or error.headers.get("x-request-id")
+            provider_error = error.read().decode("utf-8", "replace")[:2000]
+        else:
+            provider_error = f"{type(error).__name__}: {error}"[:2000]
+        record["budget_reservation"] = hold_for_reconciliation(
+            reservation["reservation_id"], provider_request_id=record["request_id"],
+            provider_usage=locals().get("payload", {}).get("usage") if isinstance(locals().get("payload"), dict) else None,
+            outcome="provider_request_or_result_processing_failed_cost_pending",
+        )
+        record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "failed", "failure_tags": ["provider_request_failed" if isinstance(error, HTTPError) else "provider_result_processing_failed"], "provider_error": provider_error})
         RECORDS.mkdir(parents=True, exist_ok=True)
         path = RECORDS / f"{item['id']}-failed.json"
         path.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
         raise
-    image_bytes = base64.b64decode(payload["data"][0]["b64_json"])
-    OUT.mkdir(parents=True, exist_ok=True)
-    output_path = OUT / f"{item['id']}.png"
-    output_path.write_bytes(image_bytes)
-    record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "completed", "output_hashes": [sha256(output_path)], "candidate": {"path": output_path.relative_to(ROOT).as_posix(), "sha256": sha256(output_path)}, "provider_usage": payload.get("usage", "not_reported")})
+    usage = payload.get("usage", "not_reported")
+    record.update({"ended_at": stamp(), "elapsed_seconds": round(time.perf_counter() - started, 3), "execution_status": "completed", "output_hashes": [sha256(output_path)], "candidate": {"path": output_path.relative_to(ROOT).as_posix(), "sha256": sha256(output_path)}, "provider_usage": usage})
+    record["budget_reservation"] = hold_for_reconciliation(
+        reservation["reservation_id"], provider_request_id=record["request_id"],
+        provider_usage=usage, outcome="completed_cost_pending",
+    )
     RECORDS.mkdir(parents=True, exist_ok=True)
     path = RECORDS / f"{item['id']}.json"
     path.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
@@ -134,11 +164,8 @@ def main() -> int:
         print(json.dumps({"state": "DRY_RUN_NO_NETWORK_NO_FILES_WRITTEN", "adapter": "openai_gpt_image_2", "model": MODEL, "requests": [item["id"] for item in items], "required_environment": ["OPENAI_API_KEY", CAP_ENV], "current_api_doc": API_DOC}, indent=2))
         return 0
     api_key = os.environ.get("OPENAI_API_KEY")
-    cap = float(os.environ.get(CAP_ENV, "0"))
-    if not api_key or cap <= 0:
+    if not api_key or not os.environ.get(CAP_ENV):
         raise SystemExit(f"--execute requires OPENAI_API_KEY and a positive {CAP_ENV}; no request was sent")
-    if cap > 20:
-        raise SystemExit(f"{CAP_ENV} exceeds the preflighted $20 cap; no request was sent")
     for item in items:
         print(execute_one(plan, item, api_key))
     return 0

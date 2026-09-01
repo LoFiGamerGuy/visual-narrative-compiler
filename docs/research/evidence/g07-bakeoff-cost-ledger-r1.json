@@ -1,0 +1,20 @@
+{
+  "record_type": "AggregateBakeoffCostLedger",
+  "schema_version": "1.0",
+  "record_id": "ng-g07-fictional-aggregate-cost-ledger-r1",
+  "bakeoff_id": "ng-renderer-bakeoff-g07-fictional-r1",
+  "approved_aggregate_cap_usd": "100.000000",
+  "committed_actual_cost_usd": "0.000000",
+  "held_reservations_usd": "0.000000",
+  "available_usd": "100.000000",
+  "currency": "USD",
+  "entries": [],
+  "created_at": "2026-09-01T00:00:00Z",
+  "updated_at": "2026-09-01T00:00:00Z",
+  "reconciliation_rule": "A submitted request with unknown exact cost retains its entire reservation until provider usage or billing is reconciled. Only proven-unsubmitted attempts may be released without cost.",
+  "limitations": [
+    "The approved cap is a maximum, not a target.",
+    "Provider-reported usage and billed cost may arrive later than image output.",
+    "No provider execution is represented by this initial empty ledger."
+  ]
+}

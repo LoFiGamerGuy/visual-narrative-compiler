@@ -19,6 +19,8 @@ def main() -> None:
     plan = json.loads(PLAN.read_text(encoding="utf-8"))
     assert module.MODEL == "grok-imagine-image-2.0"
     assert module.ENDPOINT.endswith("/v1/images/edits")
+    assert '"quality": "medium"' in MODULE.read_text(encoding="utf-8")
+    assert '"resolution": "1k"' in MODULE.read_text(encoding="utf-8")
     assert module.load_plan()["semantic_source"]["sha256"] == plan["semantic_source"]["sha256"]
     assert all("child" not in module.prompt_for(item["id"]).lower() for item in plan["request_set"])
     print("0 failures, 0 warnings (Grok Imagine Image 2 fictional G07 adapter preflight validated)")

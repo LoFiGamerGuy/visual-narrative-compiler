@@ -30,7 +30,7 @@ The program continues across bounded milestones until it has produced multiple i
 
 ### Current milestone and exit condition
 
-Execute the initial fictional G07 renderer bakeoff once the required provider account/profile access is available. For each authorized arm, preserve two independent two-role renders, one target-change edit, and one paired no-change control, with immutable inputs/outputs and full request/cost/timing/review evidence. Exit only after the cross-arm comparison, ADR, registry updates, and next ranked experiment are complete. In parallel, advance the provenance-limited frontier-art narrative branch only through explicit review/revision records; it cannot substitute for the controlled bakeoff or commercial production path.
+Execute the initial fictional G07 renderer bakeoff under the shared ADR-0023 aggregate reservation ledger. The aggregate-control and current-primary-documentation milestones are complete: all 16 requests reserve at most $4.20 against the approved $100 cap. For each authorized arm, preserve two independent two-role renders, one target-change edit, and one paired no-change control, with immutable inputs/outputs and full request/cost/timing/review evidence. Exit only after the cross-arm comparison, ADR, registry updates, and next ranked experiment are complete. In parallel, advance the provenance-limited frontier-art narrative branch only through explicit review/revision records; it cannot substitute for the controlled bakeoff or commercial production path.
 
 ### Authority and data boundaries
 

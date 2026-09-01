@@ -2,7 +2,7 @@
 
 ## Current remote
 
-`origin` is configured as `https://github.com/LoFiGamerGuy/visual-narrative-compiler.git`. A read-only remote-head check on 2026-09-01 found no branch heads. No commit or push has been made from this workspace.
+`origin` is configured as `https://github.com/LoFiGamerGuy/visual-narrative-compiler.git`. The reviewed safe source scope was initialized and pushed to `origin/main` on 2026-09-01. The large pre-existing untracked runtime/output corpus remains outside that history.
 
 ## Why an indiscriminate initial commit is unsafe
 
@@ -20,6 +20,6 @@ The workspace is approximately 96 GB before Git metadata. Major local-runtime ar
 - datasets, external-reference inputs, and historical materials not cleared for repository distribution;
 - any file containing credentials, private URLs, personal data, or adult-likeness material.
 
-## Next source-control action
+## Ongoing source-control action
 
-Build a reviewed allowlist and a machine-checkable sensitive/large-file preflight before making the initial commit. This preserves the Git remote as a durable project home without falsely treating the entire local GPU workstation as a publishable source tree.
+Stage explicit reviewed allowlist paths, run `scripts/test-git-scope.ps1`, inspect the staged diff, then commit and push at evidence milestones. This preserves the Git remote as a durable project home without falsely treating the entire local GPU workstation as a publishable source tree.

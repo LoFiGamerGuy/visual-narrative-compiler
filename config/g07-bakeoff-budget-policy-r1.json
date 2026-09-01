@@ -1,0 +1,33 @@
+{
+  "record_type": "AggregateBakeoffBudgetPolicy",
+  "schema_version": "1.0",
+  "record_id": "ng-g07-fictional-aggregate-budget-policy-r1",
+  "maximum_aggregate_cap_usd": "100.000000",
+  "approved_cap_environment": "NORTH_GARDEN_APPROVED_BAKEOFF_CAP_USD",
+  "execution_enabled": true,
+  "execution_gate": "Satisfied by docs/research/provider-primary-documentation-20260901.md. Every adapter still requires credential, data-boundary, input-hash, endpoint, and aggregate-ledger preflight.",
+  "per_request_reservation_usd": {
+    "openai_gpt_image_2": "0.500000",
+    "gemini_3_1_flash_image": "0.200000",
+    "grok_imagine_image_2": "0.100000",
+    "bfl_flux_2": "0.250000"
+  },
+  "reservation_rule": "Every paid submission reserves its adapter-specific request ceiling from one shared ledger. Unknown or possibly billable outcomes remain fully held until reconciled to provider usage or billing.",
+  "scope": {
+    "bakeoff_id": "ng-renderer-bakeoff-g07-fictional-r1",
+    "adapters": [
+      "openai_gpt_image_2",
+      "gemini_3_1_flash_image",
+      "grok_imagine_image_2",
+      "bfl_flux_2"
+    ],
+    "requests_per_adapter": 4
+  },
+  "maximum_full_bakeoff_reservation_usd": "4.200000",
+  "documentation_evidence": [
+    {
+      "path": "docs/research/provider-primary-documentation-20260901.md",
+      "retrieved_at": "2026-09-01T15:07:36Z"
+    }
+  ]
+}

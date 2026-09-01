@@ -395,3 +395,15 @@
 
 - Added root `.env` (blank, local-only, Git-ignored) and `.env.example` (shareable) covering the four executable G07 API adapters, BFL's two separately hash-verified fictional-control URLs, and prospective managed-GPU/frontier candidates. The adapter entrypoints now load the local file without third-party dependencies, never override existing process variables, never print values, and still require `--execute` plus the explicit cap before a paid call.
 - Added `.gitignore` before remote setup; no Git repository was initialized or remote contacted. The recommended repository name is `north-garden-visual-narrative-compiler`.
+
+## 2026-09-01 - aggregate bakeoff reservation milestone
+
+- Added a single OS-locked, atomic reserve/hold/reconcile/release ledger used by all four paid adapters. Concurrent validation against a reduced $10 approved cap allowed one competing $6 reservation and denied the other; the successful reservation reconciled to $1.25 and a separate proven-unsubmitted reservation released correctly. Temporary test state ended with $8.75 available. No provider request or real-ledger spend occurred.
+- ADR-0023 requires possibly billable failures and unknown costs to remain fully held. Duplicate active/committed adapter-request keys are refused. The frozen gauntlet and `baseline_legacy` were not opened or changed.
+
+## 2026-09-01 - current provider documentation and live readiness gate
+
+- Retrieved current official model, endpoint, pricing, and terms/data-use pages for OpenAI GPT Image 2, Gemini 3.1 Flash Image, Grok Imagine Image 2.0, and BFL FLUX.2 Pro before spend. Hashable HTTP responses and dated source facts are recorded in `provider-primary-documentation-20260901.md`.
+- The xAI release changed omitted quality to `auto`; its adapter now pins 1K/medium and converts exact response cost ticks at 10^10 ticks/USD. Other provider costs remain fully reserved until usage/billing reconciliation.
+- Conservative ceilings are $0.50 OpenAI, $0.20 Gemini, $0.10 xAI, and $0.25 BFL per request: $4.20 maximum held for all 16 calls against the approved aggregate $100 cap.
+- Live preflight found all four credentials without exposing values, revalidated frozen local inputs, enforced the data boundary and empty ledger, and downloaded both configured BFL public controls with exact expected SHA-256 values. State: `READY_NO_PROVIDER_API_REQUEST_NO_LEDGER_WRITE`; external spend remains $0.

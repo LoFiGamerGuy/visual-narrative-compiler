@@ -461,3 +461,10 @@
 - Compiled all 50 approved ComicPanelPlans: 18 environment/zero-adult, 15 one-adult, 17 two-adult; motion modes 26 observation, 10 directional, 10 sensory, 4 practical action. Approved base rasters, CH05 production RenderRecords, accepted panels, and human minutes remain 0/0/0/null.
 - Selected existing contiguous P033–P038 as a six-panel no-render demonstration slice spanning all four motion modes and the P036 repair contract. Arithmetic-only selected-arm scenarios are $0.297932/192.521 seconds for six and $2.482762/1604.338 seconds for 50; they are not forecasts.
 - Added separate base-raster and mask-review templates plus a fail-closed compiler gate. Empty templates produce 11 and 14 rejection reasons. ADR-0026 prohibits local approval from implying external upload; exact provider/model/endpoint authority remains separate.
+
+## 2026-09-01 - CH05 six-panel no-network packet and adversarial input gate
+
+- Compiled P033–P038 into a local packet with 0/6 executable panels, 0 approved bases/masks, 0 RenderRecords/acceptances, 0 uploads/requests, and $0 new external cost. Thirty-six review task instances are declared while all human-minute fields remain null; task counts are not time estimates.
+- Verified three source-derived continuity contracts: held two-adult blocking from P033 to P034, sealed-tin acquisition through P035–P037, and creek-map detail from P037 to P038. Source-term checks are compiler evidence, not visual continuity evidence.
+- Hardened raster inputs beyond file hashes: supported decodable raster formats, exact declared dimensions, grayscale-PNG masks, and valid nonzero mask fractions are now mandatory. Ten of ten adversarial partial/malformed mutations are rejected.
+- Hardened external scope against self-authorization: record provider/model/endpoint fields do not pass unless a separate caller-supplied authority scope matches exactly. Empty templates now fail for 12 base and 16 mask reasons.

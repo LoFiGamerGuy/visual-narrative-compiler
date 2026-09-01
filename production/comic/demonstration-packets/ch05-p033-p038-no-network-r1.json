@@ -1,0 +1,63 @@
+{
+  "record_type": "ComicPanelDemonstrationPacket",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p033-p038-no-network-packet-r1",
+  "state": "LOCAL_PREFLIGHT_NON_EXECUTABLE",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "comic_panel_plan_slice": "production/comic/demonstration-slices/ch05-p033-p038-r1.json",
+  "panel_ids": [
+    "ng-ch05-sc01-p033",
+    "ng-ch05-sc01-p034",
+    "ng-ch05-sc01-p035",
+    "ng-ch05-sc01-p036",
+    "ng-ch05-sc01-p037",
+    "ng-ch05-sc01-p038"
+  ],
+  "execution": {
+    "network_allowed": false,
+    "provider_requests_allowed": false,
+    "external_upload_authorized": false,
+    "expected_executable_panels": 0
+  },
+  "derived_continuity_contracts": [
+    {
+      "id": "held_two_adult_blocking",
+      "source_panels": ["ng-ch05-sc01-p033"],
+      "target_panels": ["ng-ch05-sc01-p034"],
+      "required_terms": ["both adults freeze", "Neither moves"],
+      "review_task": "Confirm the two adult roles and different-depth freeze survive into the held wide without movement toward the bell."
+    },
+    {
+      "id": "sealed_tin_causal_chain",
+      "source_panels": ["ng-ch05-sc01-p035"],
+      "target_panels": ["ng-ch05-sc01-p036", "ng-ch05-sc01-p037"],
+      "required_terms": ["sealed tin", "fallen plank", "tin holds"],
+      "review_task": "Confirm the isolated sealed tin is the object reached with the braced plank and then opened on the stone."
+    },
+    {
+      "id": "creek_map_detail_chain",
+      "source_panels": ["ng-ch05-sc01-p037"],
+      "target_panels": ["ng-ch05-sc01-p038"],
+      "required_terms": ["hand-drawn creek map", "farmhouse", "mill"],
+      "review_task": "Confirm the creek map in the tin becomes the close map with the farmhouse square and mill circle."
+    }
+  ],
+  "review_workload_contract": {
+    "minutes_are_measured_not_estimated": true,
+    "human_minutes": null,
+    "per_panel_tasks": [
+      "base raster provenance and data-boundary review",
+      "applicable hard-assertion review",
+      "lettering-safe-zone review",
+      "continuity dependency review",
+      "accept/reject decision with measured minutes"
+    ],
+    "repair_only_tasks": [
+      "target and protected semantics review",
+      "mask/lettering overlap review",
+      "context and seam-boundary review"
+    ]
+  },
+  "boundary": "This packet compiles existing ComicPanelPlan intent and derived review dependencies only. It is not art, a prompt, an upload authorization, an AnimationShotPlan, or E-Conte."
+}

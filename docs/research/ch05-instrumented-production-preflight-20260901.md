@@ -22,8 +22,8 @@ Pure arithmetic using the four geometry-control OpenAI observations is $0.297932
 
 ## Fail-closed input contract
 
-ADR-0026 separates local base approval, local mask approval, and external-upload permission. The empty base template fails for 11 reasons and the mask template for 14. Exact file hashes, fictional-only classification, positive timed human review, acceptance, local permissions, target/protected semantics, seam review, and zero lettering overlap are required. External use additionally requires exact provider/model/endpoint authorization.
+ADR-0026 separates local base approval, local mask approval, and external-upload permission. After raster-payload and separate-authority hardening, the empty base template fails for 12 reasons and the mask template for 16. Exact file hashes, decodable raster payloads/dimensions, fictional-only classification, positive timed human review, acceptance, local permissions, target/protected semantics, seam review, and zero lettering overlap are required. External use additionally requires a separately supplied exact provider/model/endpoint authority scope matching the records.
 
 ## Next evidence milestone
 
-Build a no-network demonstration-packet validator that consumes only approved/missing-state records, proves the six panels remain non-executable, and estimates review workload fields without inventing minutes. Then continue bootstrap/source-scope hardening and prepare the exact authority memo only if a future external upload is actually proposed.
+The no-network packet now proves 0/6 panels executable and exposes 36 structured review task instances with null minutes. Three source-derived continuity chains verify against existing plan/assertion text but do not claim visual continuity. The next bounded milestone builds deterministic, non-art sequence layout controls and adversarial run-state validation; prepare an exact authority memo only if a future external upload is actually proposed.

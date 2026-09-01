@@ -11,7 +11,9 @@ A chapter-scale repair pipeline needs approved base rasters and masks, but local
 
 Use separate `ComicPanelBaseRasterApproval` and `ComicPanelRepairMaskReview` records. Both require exact panel/revision linkage, file hashes, applicable semantics, authorized timed human review, and explicit local permission. External execution additionally requires `external_upload_authorized=true` plus exact provider, model snapshot, and endpoint fields.
 
-The compiler gate in `src/north_garden/comic_input_gate.py` fails closed. Template/missing/pending records are never executable. A mask must have zero declared lettering-safe-zone overlap and record target context, protected semantics, and seam review. No `ComicPanelPlan` or local approval record implies an external upload.
+The compiler gate in `src/north_garden/comic_input_gate.py` fails closed. Template/missing/pending records are never executable. Hash-valid files must also decode as supported raster formats with declared dimensions; masks must be grayscale PNGs with valid nonzero fractions, zero declared lettering-safe-zone overlap, target/protected semantics, and seam review. No `ComicPanelPlan` or local approval record implies an external upload.
+
+For external execution, self-declared provider fields are insufficient. The caller must separately supply the exact authorized provider/model/endpoint scope and it must match the reviewed records. An absent or mismatched authority scope is a hard failure.
 
 ## Consequences
 

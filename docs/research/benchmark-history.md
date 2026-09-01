@@ -186,3 +186,5 @@ This is compiler/readiness evidence, not rendered coverage or a benchmark score.
 | Abstract P036 mask/lettering overlap | 0%; layout proxy only |
 | Demonstration slice | P033–P038, local no-render |
 | New provider spend/uploads | $0 / 0 |
+
+The follow-on P033–P038 no-network packet remains 0/6 executable with 36 structured, untimed review tasks. Three source-derived continuity chains validate, while 10/10 malformed/partial gate mutations are rejected. These are compiler controls, not rendered-panel or quality scores.

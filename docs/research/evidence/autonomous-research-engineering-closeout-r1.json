@@ -1,0 +1,353 @@
+{
+  "record_type": "AutonomousResearchEngineeringCloseout",
+  "schema_version": "1.0",
+  "record_id": "ng-autonomous-research-engineering-closeout-r1",
+  "state": "OBJECTIVE_ACHIEVED_ENGINEERING_ROUTE_HARDENED_HUMAN_AND_PRODUCTION_AUTHORITY_GATED",
+  "captured_pushed_commit": "a4800123b53fc6f3e8046cfe12e56f3a3b9b6d1f",
+  "sources": {
+    "selection_adr": {
+      "path": "docs/adr/ADR-0025-select-openai-gpt-image-2-for-bounded-targeted-repair-hardening.md",
+      "sha256": "e9aa4fb6faec3ac6b4c35089404666b6b517e8e051b0b10c32c20a2d37e72c94"
+    },
+    "provider_chronology": {
+      "path": "docs/research/evidence/provider-documentation-pre-spend-chronology-r1.json",
+      "sha256": "7d2f9a639cc2c8246c25d407e0c1e61bac4c6cad4962c28fb568600bef46dd0d",
+      "record_id": "ng-provider-documentation-pre-spend-chronology-r1"
+    },
+    "budget_audit": {
+      "path": "docs/research/evidence/g07-aggregate-budget-binding-audit-r3.json",
+      "sha256": "d65cad3e8d4ac075a9b1d4b7a4c843b251ed7564e7e39b2c773424d47ddee546",
+      "record_id": "ng-g07-aggregate-budget-binding-audit-r3"
+    },
+    "vault": {
+      "path": "docs/research/evidence/g07-local-evidence-vault-manifest-r1.json",
+      "sha256": "920d088f800bcdcc797cf66f4a1a7fb006a894ad2038bbe3b0f4f9cee0e128cf",
+      "record_id": "g07-local-evidence-vault-manifest-r1"
+    },
+    "review_gate": {
+      "path": "docs/research/evidence/g07-human-review-rollup-gate-r1.json",
+      "sha256": "927e76a328b8303fb0ca37f00027e2dba3f90e808f6b24d781bb21e9f224b78c",
+      "record_id": "g07-human-review-rollup-gate-r1"
+    },
+    "hardening_state": {
+      "path": "docs/research/evidence/selected-route-hardening-state-r2.json",
+      "sha256": "8162ebdf30b07eec9840ace3fc283e681645834e6cdc001ea5a1639bec14a9cc",
+      "record_id": "ng-selected-route-hardening-state-r2"
+    },
+    "release_gate": {
+      "path": "docs/research/evidence/hardening-release-validation-gate-r4.json",
+      "sha256": "3c5b8fadf20666d29e8beef8038299ba904e6305775d7d769a2f59c2529267d0",
+      "record_id": "ng-hardening-release-validation-gate-r4"
+    },
+    "reproducer_matrix": {
+      "path": "docs/research/evidence/current-evidence-reproducer-matrix-r2.json",
+      "sha256": "fcbbc155a64755317e9b791c46f46d2ce3ee4ef950b6411d779d28d794871200",
+      "record_id": "ng-current-evidence-reproducer-matrix-r2"
+    },
+    "frozen_integrity": {
+      "path": "docs/research/evidence/frozen-gauntlet-baseline-integrity-r1.json",
+      "sha256": "9abf582927b7dfccf4757a8745eee5fd260bd70418e4fd350fefeafe6ce9fbd9",
+      "record_id": "ng-frozen-gauntlet-baseline-integrity-r1"
+    },
+    "review_authority_handoff": {
+      "path": "docs/research/evidence/review-authority-handoff-packet-r1.json",
+      "sha256": "09b60a37204a18ead9c1980aa4ec42a724577916c3c9ddc05010e10543c4b8db",
+      "record_id": "ng-review-authority-handoff-packet-r1"
+    },
+    "safe_source": {
+      "path": "docs/research/evidence/safe-source-release-manifest-00498df.json",
+      "sha256": "08731aa2aae24b3062091a68a3a2e5d035089dade654d3b7d269f3c37255e936",
+      "record_id": "ng-safe-source-release-00498df"
+    },
+    "lineage_index": {
+      "path": "docs/research/evidence/current-evidence-lineage-index-r1.json",
+      "sha256": "e155e4347e8ef058f0015aef0ebcbcfc14b810a256c258931ec1197e0c810cbd",
+      "record_id": "ng-current-evidence-lineage-index-r1"
+    },
+    "production_cost": {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r20.json",
+      "sha256": "1314e6554cd802b359cd7d04bd3cf36c3ace8945fcaf8cb4882d4921e418065b",
+      "record_id": "ng-ch05-production-cost-ledger-r20"
+    }
+  },
+  "objective_checklist": [
+    {
+      "requirement": "aggregate_budget_ledger",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "One shared cap/reservation ledger is bound across 4/4 paid adapters; 18 entries reconcile to $1.057377 actual/$0 held."
+    },
+    {
+      "requirement": "official_documents_before_paid_execution",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "Four provider sections/19 official URLs preceded all 19 retained provider records."
+    },
+    {
+      "requirement": "four_request_four_provider_bakeoff",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "OpenAI, Gemini, xAI, and BFL each produced four required fictional-control candidates."
+    },
+    {
+      "requirement": "complete_provider_evidence",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "Nineteen records bind requests, hashes, timing, usage/cost, failures, candidates, and pending review state."
+    },
+    {
+      "requirement": "review_packet_and_comparison",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "Sixteen blinded candidates plus four repeat pairs and nonhuman cost/latency/drift dimensions are bound; human review remains pending."
+    },
+    {
+      "requirement": "measured_route_selection",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "ADR-0025 selects OpenAI for engineering hardening from cost/latency/drift/provenance dimensions, not visual appeal."
+    },
+    {
+      "requirement": "smallest_high_information_hardening",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "Boundary, topology, exact-base, no-change, seam-review, finalizer, and prerequisite-lattice mechanics are instrumented locally."
+    },
+    {
+      "requirement": "chapter_scale_instrumentation",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "All 50 ComicPanelPlans remain visible with four explicit repair candidates/two profiles/one policy and zero fabricated outcomes."
+    },
+    {
+      "requirement": "medium_separation",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "ComicPanelPlan remains the active medium; AnimationShotPlan and E-Conte remain null/separate."
+    },
+    {
+      "requirement": "frozen_target_integrity",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "Sixteen v2.1.1 plus four tracked baseline paths are unchanged; baseline remains 0/24 accepted/no tuning."
+    },
+    {
+      "requirement": "reproducible_safe_source",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "Eleven current reproducers pass; 412-path safe-source snapshot tracks two controls and zero generated/prohibited/oversize paths."
+    },
+    {
+      "requirement": "regular_safe_git_history",
+      "status": "COMPLETE_WITH_BOUNDARY_PRESERVED",
+      "evidence": "The capture commit and preceding evidence milestones are pushed; generated art, credentials, models, runtimes, datasets, and unrelated workspace material remain excluded."
+    }
+  ],
+  "selection": {
+    "adapter_id": "openai_gpt_image_2",
+    "model_snapshot": "gpt-image-2-2026-04-21",
+    "endpoint": "https://api.openai.com/v1/images/edits",
+    "decision": "ADR-0025",
+    "basis": "measured required-candidate cost, latency, raster drift/side-effect dimensions, returned provenance, and operational completeness; not visual appeal alone",
+    "engineering_hardening_route_only": true,
+    "candidate_or_art_accepted": false,
+    "commercial_clearance_claimed": false,
+    "expanded_upload_authority": false,
+    "automatic_reselection": false
+  },
+  "bakeoff": {
+    "providers": 4,
+    "required_candidates": 16,
+    "provider_records": 19,
+    "required_candidate_cost_usd": "0.987377",
+    "paid_failure_cost_usd": "0.070000",
+    "aggregate_paid_usd": "1.057377",
+    "held_usd": "0.000000",
+    "available_usd": "98.942623",
+    "nonhuman_arm_evidence": {
+      "bfl_flux_2": {
+        "diagnostic_limit": "Full-frame raster drift after resize is not semantic correctness or reproducibility.",
+        "mean_elapsed_seconds": 18.647,
+        "raster_diagnostics": {
+          "independent_repeat_changed_pixel_fraction_gt_8": 0.997760137,
+          "no_change_changed_pixel_fraction_gt_8": 0.999184926,
+          "target_change_changed_pixel_fraction_gt_8": 0.999717077
+        },
+        "required_candidate_cost_usd": "0.240000",
+        "required_candidates": 4,
+        "total_elapsed_seconds": 74.587
+      },
+      "gemini_3_1_flash_image": {
+        "diagnostic_limit": "Full-frame raster drift after resize is not semantic correctness or reproducibility.",
+        "mean_elapsed_seconds": 11.759,
+        "raster_diagnostics": {
+          "independent_repeat_changed_pixel_fraction_gt_8": 0.710444904,
+          "no_change_changed_pixel_fraction_gt_8": 0.995949143,
+          "target_change_changed_pixel_fraction_gt_8": 0.093763994
+        },
+        "required_candidate_cost_usd": "0.268756",
+        "required_candidates": 4,
+        "total_elapsed_seconds": 47.036
+      },
+      "grok_imagine_image_2": {
+        "diagnostic_limit": "Full-frame raster drift after resize is not semantic correctness or reproducibility.",
+        "mean_elapsed_seconds": 12.506,
+        "raster_diagnostics": {
+          "independent_repeat_changed_pixel_fraction_gt_8": 0.346187554,
+          "no_change_changed_pixel_fraction_gt_8": 0.496000331,
+          "target_change_changed_pixel_fraction_gt_8": 0.631918762
+        },
+        "required_candidate_cost_usd": "0.280000",
+        "required_candidates": 4,
+        "total_elapsed_seconds": 50.025
+      },
+      "openai_gpt_image_2": {
+        "diagnostic_limit": "Full-frame raster drift after resize is not semantic correctness or reproducibility.",
+        "mean_elapsed_seconds": 32.087,
+        "raster_diagnostics": {
+          "independent_repeat_changed_pixel_fraction_gt_8": 0.763252894,
+          "no_change_changed_pixel_fraction_gt_8": 0.51421229,
+          "target_change_changed_pixel_fraction_gt_8": 0.107763926
+        },
+        "required_candidate_cost_usd": "0.198621",
+        "required_candidates": 4,
+        "total_elapsed_seconds": 128.347
+      }
+    },
+    "documentation_records_after_retrieval": 19
+  },
+  "human_review": {
+    "decisions_complete": 0,
+    "decisions_required": 20,
+    "human_minutes": null,
+    "accepted_candidates": 0,
+    "human_arm_results": null
+  },
+  "hardening": {
+    "boundary_policy": {
+      "policy": "cosine-inset-16px",
+      "artificial_jump_reduction_fraction": 0.912633518,
+      "central_green_retention_fraction": 0.99461535,
+      "exterior_changed_pixels": 0,
+      "art_accepted": false
+    },
+    "scale_profiles": {
+      "P036_width_px": 16,
+      "P044_width_px": 5,
+      "universal_width_px": null,
+      "topology_passes": 3,
+      "exact_panel_visual_passes": 0,
+      "timed_seam_reviews": 0,
+      "panel_neutral_mechanics_controls": 1
+    },
+    "artifact_rebuild": {
+      "artifacts": 28,
+      "groups": 9,
+      "bytes": 4868771,
+      "root_sha256": "18816d3cb4a60161440e8dc5fdb9b0aea628c3d0a688cc39a5eb868d6ce50d64",
+      "rebuilds": 2,
+      "byte_identical": true
+    },
+    "chapter_scale_readiness": {
+      "comic_panel_plans": 50,
+      "explicit_repair_candidates": 4,
+      "selector_profiles": 2,
+      "panel_policies": 1,
+      "approved_bases": 0,
+      "approved_masks": 0,
+      "external_authorities": 0,
+      "production_reservations": 0,
+      "exact_visual_results": 0,
+      "eligible_seam_reviews": 0,
+      "render_records_v2_1": 0,
+      "candidates": 0,
+      "accepted_panels": 0,
+      "human_minutes": null,
+      "production_external_cost_usd": "0.000000",
+      "comic_panel_plan_only": true,
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    "p036_fail_closed_state": {
+      "real_p036_blocker_count": 9,
+      "real_p036_blockers": [
+        "APPROVED_BASE_RASTER_MISSING_OR_INVALID",
+        "APPROVED_REPAIR_MASK_MISSING_OR_INVALID",
+        "EXACT_EXTERNAL_AUTHORITY_MISSING_OR_INVALID",
+        "DISTINCT_PRODUCTION_RESERVATION_MISSING_OR_INVALID",
+        "REAL_EXACT_BASE_BOUNDARY_MEASUREMENT_MISSING",
+        "ELIGIBLE_TIMED_SEAM_REVIEW_MISSING",
+        "COMPLETED_SUBMISSION_JOURNAL_MISSING",
+        "CANDIDATE_OUTPUT_MISSING",
+        "PROVIDER_COST_RECONCILIATION_MISSING"
+      ],
+      "render_record": null,
+      "candidate": null,
+      "next_external_action": null
+    }
+  },
+  "integrity": {
+    "release_checks_passed": 74,
+    "release_checks_total": 74,
+    "reproducer_commands_passed": 11,
+    "lineage_domains": 11,
+    "lineage_records": 32,
+    "safe_source_commit": "00498df557e56889ce161095572fcf1d09d95498",
+    "safe_source_paths": 412,
+    "safe_source_inventory_root": "a3a0c65c00a8bab78fc25f3f51f04a92655f1f08913de0f94b65e89c0fe3e618",
+    "frozen_paths_changed": 0,
+    "baseline_tracked_paths_changed": 0,
+    "baseline_accepted_outputs": 0,
+    "local_zero_cost_milestones": 48
+  },
+  "remaining_roots": {
+    "g07_human_review": {
+      "node_id": "g07_eligible_human_session",
+      "needed_from": "identified human reviewer",
+      "scope": "20 immutable blinded decisions; no invented minutes",
+      "current_value": null,
+      "decision_record": null
+    },
+    "ch05": [
+      {
+        "node_id": "p036_approved_base_raster",
+        "needed_from": "authorized human input review",
+        "scope": "exact fictional panel base bytes/hash",
+        "current_value": null,
+        "decision_record": null
+      },
+      {
+        "node_id": "p036_approved_repair_mask",
+        "needed_from": "authorized human input review",
+        "scope": "exact panel-specific causal mask bytes/hash",
+        "current_value": null,
+        "decision_record": null
+      },
+      {
+        "node_id": "p036_exact_external_authority",
+        "needed_from": "user",
+        "scope": "exact OpenAI model snapshot, endpoint, and complete input-package hash",
+        "current_value": null,
+        "decision_record": null
+      },
+      {
+        "node_id": "ch05_distinct_production_cap",
+        "needed_from": "user",
+        "scope": "distinct CH05 aggregate cap; G07 remainder cannot be reused",
+        "current_value": null,
+        "decision_record": null
+      }
+    ],
+    "primary_document_refresh_before_future_execution": {
+      "required": true,
+      "current_action": null,
+      "trigger": "immediately before any separately authorized CH05 paid execution",
+      "scope": "official primary pricing, terms, model snapshot, endpoint, and data-use documentation"
+    },
+    "approvals_requested_now": [],
+    "next_external_action": null
+  },
+  "activity_during_closeout": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "models_downloaded": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "G07 visual judgment is incomplete: 0/20 decisions, null minutes, zero accepted candidates.",
+    "The selected route is an engineering hardening route, not visual acceptance, commercial clearance, or universal superiority.",
+    "CH05 has no approved base/mask, exact upload authority, production cap/reservation, real provider outcome, eligible seam review, RenderRecord v2.1, or accepted panel.",
+    "Provider-output rerun reproducibility is limited; exact local evidence and validation reproducibility are measured separately.",
+    "Any future CH05 paid execution requires a fresh then-current primary documentation review and explicit authority roots."
+  ],
+  "boundary": "The research/engineering objective is achieved at the requested evidence-backed selection and local hardening scope. Human review and production remain intentionally gated; this record grants neither."
+}

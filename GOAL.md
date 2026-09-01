@@ -140,7 +140,9 @@ The hardening-release gate r4 milestone is complete. A first attempt correctly f
 
 The provider-documentation chronology milestone is complete. Nineteen official links cover four model/endpoint/pricing/terms sections; all 19 provider records start later. Documentation led the earliest attempt/positive-cost request by 490/695 seconds, and 16/16 mutations fail under ADR-0080.
 
-The active bounded milestone is the autonomous closeout state. Compile the objective checklist, exact latest evidence hashes, commits, measured provider results/spend, hardening measurements, release/reproducer/frozen/document chronology status, unresolved human/authority roots, and zero-activity boundary into one final machine-validated record.
+The autonomous closeout milestone is complete. Twelve/twelve operating requirements are evidence-bound: the measured OpenAI engineering route, 16-candidate/$1.057377 bakeoff, 0/20 review state, local hardening/50-panel readiness, 74/74 release, 11 reproducers, frozen/source/document chronology, and 48 zero-cost milestones. Twenty-two/twenty-two mutations fail; human and CH05 authority roots remain open under ADR-0081.
+
+The active bounded milestone is final release gate r5. Preserve r4's 74 checks and append the documentation chronology, autonomous closeout, and r19-r21 ledgers into a final no-network validation revision.
 
 ### Authority and data boundaries
 

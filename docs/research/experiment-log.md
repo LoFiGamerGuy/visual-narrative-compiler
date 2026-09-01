@@ -618,3 +618,11 @@
 - P026 is deferred because smoke separating fingers is a diffuse/translucent boundary question outside the current opaque inward compositor. P019 is deferred because it does not directly test the uncovered boundary scale. Neither is rejected as a panel.
 - Selection authorizes only deterministic abstract P044 geometry. Production policy/mask/provider changes and external activity remain false/false/false/zero.
 - Eight/eight candidate inventory/order, wrong selection, diffuse-mechanism erasure, missing thin dimension, policy/mask, and external-authority mutations fail.
+
+## 2026-09-01 - P044 fixed 16-pixel boundary stress
+
+- Built one deterministic abstract support from an 18-pixel blade crossing a 12-pixel taut-twine line, clipped away from two protected hand ellipses and bound to P044/`p044_core_read`.
+- Applied the selected P036 16-pixel inward boundary unchanged and performed no tuning. The support is one connected component, but both blade and twine retain zero fully replaced core pixels; the union core is empty.
+- Positive separation mechanics remain exact: protected-hand overlap 0 pixels, lettering overlap 0 pixels, synthetic compositor exterior difference 0.
+- The fixed absolute width is rejected for this fine-feature control under ADR-0047. No P044 production policy/mask or renderer change follows.
+- Nine/nine intent, policy, no-tuning, geometry, core, protected separation, overclaim, policy-authoring, and invented-review mutations fail. Calls/uploads/cost remain 0/0/$0.

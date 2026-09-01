@@ -1,0 +1,146 @@
+{
+  "record_type": "ComicRepairFineFeatureBoundaryStressControl",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p044-fixed-16px-boundary-stress-r1",
+  "state": "FIXED_16PX_REJECTED_FOR_SUB32PX_FINE_FEATURE_CONTROL",
+  "intent_bindings": {
+    "comic_panel_plan": {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05",
+      "panel_id": "ng-ch05-sc01-p044",
+      "plan_revision_id": "ng-ch05-sc01-p044-plan-r1"
+    },
+    "hard_assertion": {
+      "path": "production/comic/hard-assertion-manifests/ch05-mill-signal-r1.json",
+      "sha256": "2e0a3ad1f0e1b92620e4c8001e8648a84225066ef9b75e50dd931a47fc0d3062",
+      "assertion_id": "p044_core_read"
+    },
+    "information_gain_selection": {
+      "path": "docs/research/evidence/ch05-next-repair-policy-information-gain-r1.json",
+      "sha256": "54ad5b43f852b3de813635074d2929ecdcbda2639b18f8a32de607f31d33aec6"
+    }
+  },
+  "fixed_policy": {
+    "boundary_evidence": {
+      "path": "docs/research/evidence/openai-targeted-repair-boundary-hardening-r2.json",
+      "sha256": "ad3df9d311efe106da3d5d4d93bcb04979b6aaaf315037b59662cae33e2ef3cf"
+    },
+    "policy": {
+      "path": "config/ch05-openai-targeted-repair-policy-r1.json",
+      "sha256": "a9ef9a9a255f8746482ba75ac78666e390d87a3d1c5b51fdf6dc4070a2e06fbb"
+    },
+    "boundary_policy": "cosine-inset-16px",
+    "tuned_within_experiment": false
+  },
+  "geometry": {
+    "canvas": [
+      1536,
+      1024
+    ],
+    "protected_hands": {
+      "ellipses_xyxy": [
+        [
+          675,
+          590,
+          745,
+          660
+        ],
+        [
+          825,
+          410,
+          895,
+          480
+        ]
+      ]
+    },
+    "blade": {
+      "line_xyxy": [
+        710,
+        625,
+        860,
+        445
+      ],
+      "width_px": 18,
+      "clipped_from_protected_hands": true
+    },
+    "twine": {
+      "line_xyxy": [
+        480,
+        535,
+        1000,
+        535
+      ],
+      "width_px": 12,
+      "clipped_from_protected_hands": true
+    },
+    "source_limit": "coordinates are abstract control choices; only hands/blade/taut-twine categories come from the ComicPanelPlan"
+  },
+  "measurements": {
+    "support_pixels": 8883,
+    "support_component_count": 1,
+    "fully_replaced_core_pixels": 0,
+    "fully_replaced_core_component_count": 0,
+    "feature_metrics": {
+      "blade": {
+        "declared_width_px": 18,
+        "support_pixels": 2907,
+        "fully_replaced_core_pixels": 0,
+        "fully_replaced_core_fraction": 0.0,
+        "nonzero_alpha_fraction": 0.839697282
+      },
+      "twine": {
+        "declared_width_px": 12,
+        "support_pixels": 6252,
+        "fully_replaced_core_pixels": 0,
+        "fully_replaced_core_fraction": 0.0,
+        "nonzero_alpha_fraction": 0.836852207
+      }
+    },
+    "support_protected_hand_overlap_pixels": 0,
+    "alpha_nonzero_lettering_overlap_pixels": 0,
+    "synthetic_composite_max_abs_difference_outside_support": 0
+  },
+  "outputs": {
+    "support_mask": {
+      "path": "experiments/outputs/ch05_p044_fixed_boundary_stress_r1/ch05-p044-blade-twine-support-r1.png",
+      "sha256": "3d7f5f5541df28237f79f7954f47315ee8c8c9dbb0f8e98d4d1a5894d17f65b6"
+    },
+    "inward_alpha": {
+      "path": "experiments/outputs/ch05_p044_fixed_boundary_stress_r1/ch05-p044-fixed-16px-alpha-r1.png",
+      "sha256": "c32a03e31d29abf2c03cf62411b357cff1562b3cf9ae1c82f88b3f19c0635520"
+    },
+    "protected_hands_mask": {
+      "path": "experiments/outputs/ch05_p044_fixed_boundary_stress_r1/ch05-p044-protected-hands-r1.png",
+      "sha256": "2b215754eb7ccefef02f8266198dd4990da1b8db0d993ff54532bc841866a9f2"
+    }
+  },
+  "decision": {
+    "fixed_16px_compatible_with_fine_feature_control": false,
+    "rejection_reason": "Both 18px blade and 12px twine lose all fully replaced core under a 16px inward boundary.",
+    "next_required_experiment": "bounded adaptive-width comparison on the same exact geometry; do not widen support or change geometry",
+    "p044_production_policy_authored": false,
+    "production_mask_approved": false,
+    "provider_route_changed": false
+  },
+  "comic_boundary": {
+    "comic_panel_plan_only": true,
+    "animation_shot_plan": null,
+    "e_conte": null
+  },
+  "review": {
+    "human_review_status": "not_yet_performed",
+    "human_minutes": null,
+    "accepted": false
+  },
+  "activity": {
+    "provider_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "limitations": [
+    "Feature widths and coordinates are deliberate stress-control parameters, not measurements from absent P044 art.",
+    "The control proves fixed-width topology collapse, not visual failure on a rendered hand/tool/twine scene.",
+    "Protected-hand clipping tests mask separation mechanically; identity and anatomy are not represented.",
+    "No adaptive boundary is selected in this experiment and no production input or policy is created."
+  ]
+}

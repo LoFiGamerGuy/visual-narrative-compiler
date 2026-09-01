@@ -228,3 +228,5 @@ P036 readiness r2 pins r1 plus policy/mechanics/budget/preflight evidence while 
 CH05 repair-policy coverage retains 50/50 panels: four explicit causal candidates, one exact panel policy, three policy-absent candidates, and 46 without plan-level applicability. No panel is executable and 10/10 denominator/policy-leak/execution mutations fail. This is chapter compiler coverage, not rendered or accepted coverage.
 
 The next-control information-gain record compares the three policy-absent causal panels and selects P044 only for a bounded blade/twine topology stress control; 8/8 selection/mechanism/authority mutations fail. No production policy, mask, renderer sample, or acceptance follows.
+
+The P044 fixed-width stress leaves 0 fully replaced core pixels for an 18px blade and 12px twine under the unchanged 16px boundary, despite one support component and zero protected/lettering/exterior change; 9/9 mutations fail. This rejects absolute-width portability on the control, not the panel or provider route.

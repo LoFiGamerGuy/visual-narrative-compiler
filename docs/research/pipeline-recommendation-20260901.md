@@ -64,6 +64,8 @@ Chapter-wide coverage now identifies four explicit causal panels while binding t
 
 The information-gain analysis selects P044 for one local blade/twine stress control because it directly probes the fixed boundary below 32 pixels without a new effect mechanism. This is a test target, not a second panel policy or a production expansion.
 
+That stress control rejects direct reuse of the 16px width: both fine features lose all fully replaced core. Inward compositing remains viable, but boundary width must become scale-aware and must be tested on unchanged geometry before any second panel policy is considered.
+
 The predeclared low-denoise and strength matrices plus a paired d1.0/strength-0.8 replication now close this route: target edit passed only 1/2 observed seeds and target no-change passed 0/2. ADR-0014 rejects mask-boundary optimization until a different renderer mechanism proves both assertions.
 
 The target/no-change matrices and paired replication are now complete. ADR-0014 rejects further same-route mask-boundary tuning; ADR-0015 requires a distinct renderer mechanism. The current recommendation is in `docs/research/renderer-decision-memo-20260901.md`.

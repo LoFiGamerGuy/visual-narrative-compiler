@@ -74,7 +74,9 @@ The chapter-scale repair-policy coverage milestone is complete. All 50 plans rem
 
 The next-policy information-gain milestone is complete. P019/P026/P044 were compared only against uncovered mechanics. P044 uniquely supplies explicit bounded blade/twine contact below twice the 16-pixel feather without requiring P026's new diffuse-effect mechanism. Eight/eight mutations fail. ADR-0046 selects one P044 deterministic abstract control only; no policy, production mask, provider route, or external action changes.
 
-The active bounded milestone is the P044 fixed-boundary stress control. Build deterministic blade/twine contact geometry directly from the ComicPanelPlan and hard assertion, apply the existing 16-pixel inward policy without tuning, and measure feature-core/component survival, lettering clearance, and exterior preservation. Record failure rather than widen the mask or change the policy inside the same experiment.
+The P044 fixed-boundary stress milestone is complete. The exact 18-pixel blade/12-pixel twine support is one connected component, clipped from protected hands, and clear of lettering. Applying 16 pixels unchanged leaves zero fully replaced core pixels for both features, while protected/lettering/exterior change remains zero. Nine/nine mutations fail. ADR-0047 rejects the fixed width for this control without rejecting P044, the provider route, or the inward-compositor mechanism.
+
+The active bounded milestone is P044 adaptive boundary width. On the exact unchanged geometry, compare a bounded width series and select at most the widest width that retains one connected fully replaced core, at least 15% core for blade and twine, exact protected/exterior separation, and lettering clearance. Do not modify support geometry or create a production policy.
 
 ### Authority and data boundaries
 

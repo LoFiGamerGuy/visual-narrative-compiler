@@ -146,6 +146,8 @@ The final release gate r5 milestone is complete. Immutable r4 (74 checks) plus c
 
 The final safe-source and Git parity milestone is complete. Safe-source r4 pins pushed release-r5 commit `f1803bd` with 459 paths/9,234,040 bytes, two public controls, zero generated/prohibited/oversize paths, and 13/13 mutation rejection. Ledger r23 records 51 local zero-cost milestones. The remaining work is human G07 review and four explicit CH05 authority roots; neither is silently advanced or requested by this engineering closeout.
 
+The owner visual-direction milestone is complete under ADR-0084. The owner's positive qualitative review, conditional transparent-lettering rule, potential-base direction, and request for style/density/action/size exploration are recorded without inventing formal G07 timing or exact CH05 authority. Four text-only candidates now test wide action, tall causal action, corrected lever semantics, and a medium close character beat; all remain pending exact human candidate decisions.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

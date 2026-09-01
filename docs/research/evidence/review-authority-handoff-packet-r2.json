@@ -1,0 +1,81 @@
+{
+  "record_type": "ReviewAuthorityHandoffPacket",
+  "schema_version": "1.1",
+  "record_id": "ng-review-authority-handoff-packet-r2",
+  "state": "OWNER_DIRECTION_APPROVED_NEW_STYLE_PACKET_PENDING_EXACT_PRODUCTION_ROOTS_OPEN",
+  "supersedes": {
+    "record_id": "ng-review-authority-handoff-packet-r1",
+    "path": "docs/research/evidence/review-authority-handoff-packet-r1.json",
+    "sha256": "09b60a37204a18ead9c1980aa4ec42a724577916c3c9ddc05010e10543c4b8db"
+  },
+  "prior_record_rewritten": false,
+  "owner_direction": {
+    "path": "production/decisions/ng-decision-owner-visual-direction-r2.json",
+    "sha256": "52be3bea5dab095d79830d95ffe4d8ba7738eba4af52901b7976e83492e57ba5",
+    "qualitative_review_complete": true,
+    "direction_approved": true,
+    "lettering_rule_approved": "Do not block people or faces; transparent overlap may be acceptable when the visual read remains clear.",
+    "potential_exact_base_direction": true
+  },
+  "g07_formal_review": {
+    "packet_reviewed_qualitatively": true,
+    "timed_decisions_complete": 0,
+    "timed_decisions_required": 20,
+    "human_minutes": null,
+    "deblinded": false,
+    "human_arm_results": null,
+    "boundary": "Owner praise and approval are preserved without inventing subject-specific assertions, failure tags, timer events, minutes, or deblinded arm results."
+  },
+  "new_style_packet": {
+    "exploration": {
+      "path": "docs/research/evidence/ch05-style-density-scale-exploration-r1.json",
+      "sha256": "acbf92c4aa0583dfff75e48aedbec60c1422f78885feadf9b041e28e3e665e28"
+    },
+    "local_packet_manifest": {
+      "path": "docs/research/evidence/ch05-style-density-scale-review-packet-r1.json",
+      "sha256": "73c3e6187b898b2e4df9aab28669f2ff56b342582e8e0c3d42e8506c598c24e9"
+    },
+    "candidate_count": 4,
+    "human_reviewed_candidates": 0,
+    "accepted_exact_bases": 0,
+    "recommended_first_comparison": [
+      "ng-ch05-style-r1-p050-wide-action",
+      "ng-ch05-style-r1-p040-medium-close",
+      "ng-ch05-style-r1-p036-tall-lever-corrected"
+    ],
+    "diagnostic_rejection_candidate": "ng-ch05-style-r1-p036-tall-climb-diagnostic"
+  },
+  "ch05_exact_production_roots": [
+    {
+      "node_id": "p036_approved_base_raster",
+      "current_value": null,
+      "next_action": "select and hash-pin one exact candidate only after review"
+    },
+    {
+      "node_id": "p036_approved_repair_mask",
+      "current_value": null,
+      "next_action": "author against the selected exact base and validate face/hand/prop/lettering exclusions"
+    },
+    {
+      "node_id": "p036_exact_external_authority",
+      "current_value": null,
+      "next_action": "review exact provider/model/endpoint and complete input-package hash"
+    },
+    {
+      "node_id": "ch05_distinct_production_cap",
+      "current_value": null,
+      "next_action": "approve a distinct aggregate cap; G07 remainder is not reusable"
+    }
+  ],
+  "recommended_sequence": [
+    "human compare the four new style/density/scale candidates and confirm the diagnostic P036 rejection",
+    "select one exact P036 base candidate or request one narrower correction",
+    "author and review an exact causal repair mask only after base selection",
+    "refresh current primary provider documentation",
+    "review exact input-package upload authority and distinct CH05 cap",
+    "reserve centrally, execute once, reconcile RenderRecord, measure boundary, and perform timed seam/panel review"
+  ],
+  "next_external_action": null,
+  "approvals_requested_now": [],
+  "boundary": "R2 advances approved visual direction and presents new local candidates. It does not rewrite r1, fabricate formal G07 evidence, select an exact base, authorize an upload, grant a budget, or accept a production panel."
+}

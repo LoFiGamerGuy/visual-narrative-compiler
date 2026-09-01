@@ -83,3 +83,10 @@ Priority reflects expected information gain relative to local effort/cost after 
 | 4 | `fictional_design_or_stage_assisted_actor_assets` | Whether a different controlled-asset mechanism avoids the legacy seated-plate furniture/prop leakage | Existing adult plates remain unsuitable; depends on a selected renderer profile. | None for fictional-only assets; adult likeness remains separate local approval. |
 
 Each candidate needs a distinct render profile, exact source/license record, adapter-specific controls, and a Stage-A manifest before any comparison.
+
+### Owner-directed continuation
+
+| Status | Experiment | Question | Current result | Authority/cost |
+|---|---|---|---|---|
+| completed | `owner_visual_direction_r2` | How owner approval changes lettering, density, action, panel-size, and style direction without fabricating timed review or exact production authority | Owner direction recorded; ComicStyleDirection r2 issued; G07 formal state remains 0/20 and exact CH05 input/cap fields remain null. | None used. |
+| ready for review | `ch05_style_density_scale_exploration_r1` | Which style and panel-format roles best improve action, clarity, density cadence, and face-safe lettering | Four text-only candidates across wide action, tall action, corrected causal semantics, and medium close framing; P050/P040 recommended, corrected P036 retained for comparison. | No paid-provider ledger activity; built-in tool cost unavailable. |

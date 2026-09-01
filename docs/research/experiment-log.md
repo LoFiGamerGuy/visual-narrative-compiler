@@ -897,3 +897,12 @@
 - Safe-source r4 inventories 459 paths / 9,234,040 bytes at tree `aaab99df…35e0c` and inventory root `1ce5104c…b41e6`.
 - Exactly two approved public controls and zero generated-experiment, prohibited-extension, or over-10-MiB paths are tracked; 13/13 mutations fail under ADR-0083.
 - Ledger r23 records 51 local zero-cost milestones and remains disabled/no-cap/$0. Unrelated imported workspace material stays untracked and untouched.
+
+## 2026-09-01 - owner direction and CH05 style/density/scale exploration
+
+- Recorded the owner's positive qualitative review and continued-progress authorization without fabricating the still-missing 20-decision G07 timed session or human minutes.
+- ComicStyleDirection r2 makes face/person-safe lettering, transparency review, variable density, causal action, and wide/tall/medium/insert chapter cadence explicit.
+- Generated four new text-only fictional-adult candidates with no input-image upload: P050 wide action, P036 tall ink/gouache diagnostic, corrected P036 clear-line lever, and P040 medium close cel-painted direction.
+- The first P036 result is a preserved semantic miss because Soren climbs the plank. The corrected prompt grounds both adults and improves the lever read; exact fulcrum/tin causality remains pending human review.
+- Built-in generation did not expose model/endpoint/request/usage/cost, so the candidates are local research evidence rather than paid-provider RenderRecords or production inputs.
+- Review/authority handoff r2 preserves the owner's qualitative approval while leaving formal G07 at 0/20 and all four exact CH05 production roots null; the new four-candidate packet is the next local comparison.

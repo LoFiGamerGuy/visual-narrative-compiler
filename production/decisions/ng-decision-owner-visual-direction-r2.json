@@ -1,0 +1,46 @@
+{
+  "record_type": "OwnerVisualDirectionDecision",
+  "schema_version": "1.0",
+  "record_id": "ng-decision-owner-visual-direction-r2",
+  "state": "OWNER_APPROVED_DIRECTION_WITH_EXPLORATION_AND_EXACT_INPUT_GATES",
+  "decision_maker": "project owner",
+  "decided_at": "2026-09-01",
+  "source_kind": "project-owner direction in active research session",
+  "reviewed_material": {
+    "g07_packet": {
+      "path": "experiments/review-packets/g07-blinded-human-review-r1/review-packet.json",
+      "sha256": "87a96bcfc8a7f545a41b924437c5d6942ed35ddd363eb6f428614f06c4732afb",
+      "owner_report": "reviewed everything; all great; approved"
+    },
+    "ch05_smoke_contact_sheet": {
+      "path": "experiments/review-packets/ch05-mill-signal-imagegen-smoke-r1/contact-sheet-r1.png",
+      "sha256": "47ba7967cf5b43d4fd20ddb73b9314993947a5f5ba075b921b5a031ee7f6035f",
+      "owner_report": "characters look great; art is potentially eligible as an exact production base"
+    }
+  },
+  "approved_direction": {
+    "continue_significant_research_and_engineering": true,
+    "agent_may_make_evidence_backed_recommendations": true,
+    "lettering_quality_direction": "Lettering is approved when it does not block people or faces. Conditional overlap may be acceptable when transparency preserves the character and read.",
+    "art_direction": "Current character direction is strong and may support a production base after an exact candidate is selected and hash-pinned.",
+    "requested_exploration": [
+      "other visual styles with the same fictional adult roles",
+      "lower density and improved phone-size clarity",
+      "higher quality and more exciting causal action",
+      "smaller and larger panel formats within chapter cadence"
+    ]
+  },
+  "evidence_boundaries": {
+    "g07_owner_qualitative_review_complete": true,
+    "g07_formal_timed_decisions_complete": 0,
+    "g07_formal_timed_decisions_required": 20,
+    "g07_human_minutes": null,
+    "g07_deblinding_authorized": false,
+    "exact_ch05_base_raster": null,
+    "exact_ch05_repair_mask": null,
+    "exact_external_input_package_authority": null,
+    "distinct_ch05_production_cap_usd": null,
+    "commercial_clearance_claimed": false
+  },
+  "boundary": "The owner's positive qualitative direction is real and actionable. It is not rewritten as an unobserved timed G07 session, an exact raster/mask selection, a hash-specific upload authorization, a production budget, or commercial clearance."
+}

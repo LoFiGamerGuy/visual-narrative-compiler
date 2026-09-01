@@ -1,0 +1,35 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "1.1",
+  "record_id": "ng-comic-style-ch05-mill-signal-r2",
+  "state": "OWNER_APPROVED_EXPLORATION_DIRECTION_EXACT_BASE_PENDING",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r1",
+    "path": "production/comic/style-direction/ch05-mill-signal-r1.json",
+    "sha256": "319283195affb949217c7a7661fc58b34c1e92a512bd8ec8e49ed336251fb86a"
+  },
+  "owner_direction": "production/decisions/ng-decision-owner-visual-direction-r2.json",
+  "visual_language": {
+    "line_and_value": "Retain strong mature fictional-adult character design while testing clean graphic, ink-and-gouache, clear-line watercolor, and flatter cel-painted treatments.",
+    "density_rule": "Use density as chapter rhythm, not a constant quality proxy. Dense hero/action anchors alternate with lower-density dialogue, deduction, orientation, and transition panels.",
+    "motion_rule": "Prefer causal physical action—footfall, cloth lift, mud, leverage, smoke, taut objects, or weight shift—over generic speed-line texture.",
+    "lettering_rule": "No opaque lettering may cover a person or face. Conditional overlap is allowed only when transparency preserves facial expression, silhouette, causal hands/props, and phone-size readability.",
+    "quality_rule": "Judge role identity, blocking, story-object causality, silhouette, face/hand integrity, and lettering clearance separately from surface polish."
+  },
+  "panel_cadence": {
+    "wide_action_anchor": "Use landscape width for directional travel, pursuit, reveals, and geography; keep one quiet sky or wall field.",
+    "tall_practical_action": "Use portrait height for reach, fall, climb, leverage, shafts, and vertical architecture; causal geometry must remain fully visible.",
+    "medium_character_beat": "Use medium portrait or near-square framing for deduction and dialogue; preserve a face-safe quiet field.",
+    "small_insert": "Use compact inserts for hands, map, twine, tracks, tin, and other story objects when a full character panel would add density without information.",
+    "size_boundary": "Panel size is a comic-layout decision linked to ComicPanelPlan narrative function, not an AnimationShotPlan or E-Conte record."
+  },
+  "current_exploration": {
+    "record": "docs/research/evidence/ch05-style-density-scale-exploration-r1.json",
+    "comic_panel_plan_collection": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "candidate_count": 4,
+    "accepted_exact_bases": 0
+  }
+}

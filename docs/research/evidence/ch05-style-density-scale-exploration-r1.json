@@ -1,0 +1,109 @@
+{
+  "record_type": "ComicStyleDensityScaleExploration",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-style-density-scale-exploration-r1",
+  "state": "FOUR_TEXT_ONLY_CANDIDATES_READY_FOR_HUMAN_COMPARISON",
+  "owner_direction": "production/decisions/ng-decision-owner-visual-direction-r2.json",
+  "style_direction": "production/comic/style-direction/ch05-mill-signal-r2.json",
+  "comic_panel_plans": {
+    "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05",
+    "medium": "comic",
+    "animation_shot_plan": null,
+    "e_conte": null
+  },
+  "execution": {
+    "tool_mode": "built-in image generation",
+    "input_images": 0,
+    "existing_art_uploaded": false,
+    "adult_likeness_uploaded": false,
+    "source": "text-only fictional adult ComicPanelPlan constraints",
+    "model": null,
+    "endpoint": null,
+    "provider_request_id": null,
+    "provider_usage": null,
+    "provider_cost_usd": null,
+    "limitation": "The built-in tool did not expose a model snapshot, endpoint, request identifier, token usage, or billable cost; these candidates cannot become paid-provider RenderRecords."
+  },
+  "candidates": [
+    {
+      "candidate_id": "ng-ch05-style-r1-p050-wide-action",
+      "panel_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+      "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+      "bytes": 2107165,
+      "width": 1693,
+      "height": 929,
+      "format_role": "wide_action_anchor",
+      "style": "clean graphic webcomic with restrained painterly color",
+      "prompt_focus": "two adult figures in grounded uphill run; lower density; unobstructed faces; quiet upper-sky lettering field",
+      "preliminary_observation": "Strongest current cadence probe: clear direction, separation, motion, map continuity, and large face-safe lettering field.",
+      "human_review_status": "pending"
+    },
+    {
+      "candidate_id": "ng-ch05-style-r1-p036-tall-climb-diagnostic",
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-practical-action-ink-gouache-r1.png",
+      "sha256": "94398a7f8ddead73e23f9e9996e08979ba44d920eb5b41e7a8f49a41e835ef0a",
+      "bytes": 2201874,
+      "width": 944,
+      "height": 1666,
+      "format_role": "tall_practical_action",
+      "style": "expressive ink-and-gouache graphic novel",
+      "prompt_focus": "vertical reach, Sigrid brace, reduced texture, protected top-right field",
+      "preliminary_observation": "Diagnostic semantic miss: Soren climbs the plank rather than using it as a lever. Preserve as prompt-sensitivity evidence; do not promote.",
+      "human_review_status": "pending_rejection_confirmation"
+    },
+    {
+      "candidate_id": "ng-ch05-style-r1-p036-tall-lever-corrected",
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+      "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+      "bytes": 2748356,
+      "width": 1122,
+      "height": 1402,
+      "format_role": "tall_practical_action",
+      "style": "clear-line adventure comic with watercolor washes",
+      "prompt_focus": "both adults grounded; plank as lever; full causal geometry; clean upper-right lettering field",
+      "preliminary_observation": "Material improvement over the first P036 probe: grounded feet, readable brace and full lever span. Exact fulcrum/tin interaction still requires human review.",
+      "human_review_status": "pending"
+    },
+    {
+      "candidate_id": "ng-ch05-style-r1-p040-medium-close",
+      "panel_id": "ng-ch05-sc01-p040",
+      "plan_revision_id": "ng-ch05-sc01-p040-plan-r1",
+      "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+      "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+      "bytes": 1942843,
+      "width": 1023,
+      "height": 1537,
+      "format_role": "medium_character_beat",
+      "style": "modern cel-painted webcomic with graphic shadows",
+      "prompt_focus": "mature Sigrid deduction close-up; map; restrained setting; broad face-safe quiet field",
+      "preliminary_observation": "Strong lower-density character beat with mature proportions, clear expression, map continuity, and protected upper-right field.",
+      "human_review_status": "pending"
+    }
+  ],
+  "comparison_dimensions": [
+    "adult role and wardrobe continuity",
+    "narrative-beat correctness",
+    "causal action and object geometry",
+    "phone-size silhouette and face/hand integrity",
+    "background density",
+    "lettering-field clearance and transparent-overlap tolerance",
+    "panel-size contribution to chapter cadence",
+    "style preference and production repeatability"
+  ],
+  "recommendation": "Advance the wide P050 and medium P040 directions to owner comparison. Compare corrected P036 against the diagnostic miss before selecting any exact base. Use at least three panel-format roles in the next controlled chapter slice.",
+  "acceptance": {
+    "human_reviewed_candidates": 0,
+    "accepted_exact_bases": 0,
+    "exact_repair_masks": 0,
+    "render_records": 0,
+    "production_authority": false
+  },
+  "boundary": "These ignored local candidates are new research evidence, not accepted art, paid-provider RenderRecords, exact repair inputs, external-upload authority, or commercial clearance."
+}

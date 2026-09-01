@@ -48,3 +48,7 @@ r[2-9]stage/
 voidtest/
 output/generated/
 outputs/generated/
+# Runtime records, provider candidates, review packets, and generated controls.
+# Their hashes/provenance may be referenced by tracked evidence, but the files
+# themselves remain local until an explicit safe-source review says otherwise.
+experiments/

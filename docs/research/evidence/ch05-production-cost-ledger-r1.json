@@ -1,0 +1,41 @@
+{
+  "record_type": "ProductionCostLedger",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-production-cost-ledger-r1",
+  "budget_domain": "NORTH_GARDEN_CH05_PRODUCTION",
+  "policy_id": "ng-ch05-production-budget-policy-r1",
+  "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY",
+  "approved_aggregate_cap_usd": null,
+  "committed_actual_cost_usd": "0.000000",
+  "held_reservations_usd": "0.000000",
+  "available_usd": null,
+  "currency": "USD",
+  "entries": [],
+  "local_zero_external_cost_evidence": [
+    {
+      "milestone": "ch05_p036_instrumented_repair_readiness_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p033_p038_no_network_demonstration_packet_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p033_p038_deterministic_sequence_control_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_panel_run_state_ledger_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    }
+  ],
+  "boundary": "The approved G07 bakeoff cap and its remaining availability are a different budget domain and cannot fund CH05 production."
+}

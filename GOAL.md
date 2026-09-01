@@ -38,7 +38,9 @@ The deterministic sequence portion of the current milestone is complete: 6/6 out
 
 The adversarial run-state milestone is complete. Six hash-chained P033–P038 ledgers remain at `BASE_APPROVAL_PENDING`; a full synthetic lifecycle validates, while 18/18 illegal transitions, hash tampers, and aggregate-reservation binding mutations fail. ADR-0028 requires exact reservation/adapter/request/cost reconciliation before a RenderRecord can advance to timed assertion review and acceptance.
 
-The active bounded milestone is budget-domain separation and local base-candidate intake. The unused G07 bakeoff allowance must never become CH05 production authority. Add a separately disabled production-cost ledger/preflight, then create a local-only candidate-intake record that hashes and classifies a raster without approving it. It exits when the deterministic controls can enter candidate intake yet remain unapproved/non-executable, and when any CH05 paid adapter fails before submission absent a distinct production cap and exact upload authority.
+The budget-domain and local-intake milestone is complete. ADR-0029 separates the disabled CH05 production policy/ledger/environment from G07; bakeoff capacity alone, a production environment value alone, and a substituted bakeoff ledger all fail. Synthetic production reserve/hold/reconcile/release accounting passes without real authority or spend. Six deterministic controls hash-match local candidate intake while remaining unclassified, unapproved, and rejected by the base gate under ADR-0030.
+
+The active bounded milestone is immutable candidate-review/promotion instrumentation. Build a reviewer-facing packet and promotion validator that requires measured human minutes, explicit data classification, provenance, applicable hard-assertion disposition, and local repair permission without ever implying external upload. The deterministic controls must remain permanently ineligible as art, while a synthetic eligible-raster record exercises the positive path without making a real approval decision.
 
 ### Authority and data boundaries
 

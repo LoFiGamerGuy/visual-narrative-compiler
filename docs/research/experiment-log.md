@@ -482,3 +482,10 @@
 - A synthetic full lifecycle validates base and mask approval, exact external scope, aggregate reservation, submission, RenderRecord plus cost reconciliation, timed hard-assertion review, and acceptance without invoking a provider.
 - Eighteen of eighteen adversarial transition, chain-tamper, and aggregate-binding mutations fail. Missing/released/mismatched reservations, adapter/request/cost mismatches, skipped gates, absent RenderRecords, untimed decisions, and failed-assertion acceptance cannot advance.
 - ADR-0028 keeps `ComicPanelPlan`, lifecycle ledger, `RenderRecord`, and future `AnimationShotPlan / E-Conte` as distinct records.
+
+## 2026-09-01 - CH05 production-budget domain and local candidate intake
+
+- Added a distinct, disabled `NORTH_GARDEN_CH05_PRODUCTION` policy and ledger. The G07 cap environment alone, a production-cap environment value alone, and substitution of the G07 ledger all fail production preflight. No production cap, adapter, upload, reservation, or spend is authorized.
+- A synthetic isolated policy validates aggregate reserve, hold, cost reconciliation, and proven-unsubmitted release. Actual cost above the reservation ceiling fails for incident review; no provider was contacted.
+- Local candidate intake decodes and hashes all six deterministic sequence controls against their stable panel revisions. All 6/6 hashes match, while classification remains pending/null, human minutes null, permissions false, and the separate base-approval gate rejects every candidate.
+- `.gitignore` now excludes runtime `experiments/` records, candidates, controls, and reviews from accidental staging. Tracked source/evidence remains constrained by the existing scope preflight.

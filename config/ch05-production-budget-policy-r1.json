@@ -1,0 +1,25 @@
+{
+  "record_type": "ProductionBudgetPolicy",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-production-budget-policy-r1",
+  "budget_domain": "NORTH_GARDEN_CH05_PRODUCTION",
+  "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY",
+  "execution_enabled": false,
+  "maximum_aggregate_cap_usd": null,
+  "approved_adapters": {},
+  "exact_external_authority_required": true,
+  "bakeoff_budget_reuse_prohibited": true,
+  "scope": {
+    "chapter_id": "ng-story-ch05-sc01-r1",
+    "medium": "comic",
+    "animation_shot_plan": null,
+    "external_upload_authorized": false
+  },
+  "activation_requirements": [
+    "distinct user-approved production aggregate cap",
+    "exact provider, model snapshot, endpoint, and panel input package authority",
+    "approved fictional-only base rasters and masks where applicable",
+    "current primary pricing, terms, and data-use refresh",
+    "aggregate production reservation ledger capacity"
+  ]
+}

@@ -1,0 +1,944 @@
+{
+  "record_type": "CH05VariableCadenceAssemblyEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-variable-cadence-assembly-evidence-r1",
+  "state": "DETERMINISTIC_ASSEMBLY_READY_FOR_OWNER_REVIEW_UNACCEPTED",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "assembly": {
+    "path": "production/comic/assembly/ch05-variable-cadence-assembly-r1.json",
+    "sha256": "622abcaad9f3f996664004de7b05cdb4599cd96ad20133178ba4f0b0f4b14514"
+  },
+  "engineering_review": {
+    "path": "production/comic/review/ch05-variable-cadence-assembly-review-r1.json",
+    "sha256": "df6155db1a3e7085d93401a20d794d322d936ac9c6c860bacbcb69b8617fc934"
+  },
+  "local_packet": {
+    "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/assembly-packet.json",
+    "sha256": "bd2957311f5a0223443764c338d383f09548a3e350714e56610914034c63482d"
+  },
+  "summary": {
+    "selected_panel_count": 14,
+    "sequence_count": 3,
+    "full_width_anchor_count": 4,
+    "medium_or_tall_count": 7,
+    "small_insert_count": 3,
+    "distinct_target_widths": 8,
+    "alignment_modes": [
+      "left",
+      "center",
+      "right"
+    ],
+    "full_scroll_dimensions": [
+      1200,
+      14566
+    ],
+    "phone_scroll_dimensions": [
+      390,
+      4734
+    ],
+    "phone_viewport_slices": 7,
+    "sequence_break_gutter_px": 190,
+    "source_candidate_count": 14,
+    "source_candidates_accepted": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0
+  },
+  "selections": [
+    {
+      "order": 1,
+      "sequence_id": "departure_and_clue",
+      "panel_id": "ng-ch05-sc01-p001",
+      "candidate_id": "c019",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c019-p001-clear_line_watercolor-r1.png",
+      "source_sha256": "91f38cff7dd3f0a83f6e709ce27e3910c0531385f0b2f0b44d0ea98309185254",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "target_width": 1040,
+      "alignment": "center",
+      "gutter_after": 100,
+      "cadence_role": "wide_orientation",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 2,
+      "sequence_id": "departure_and_clue",
+      "panel_id": "ng-ch05-sc01-p002",
+      "candidate_id": "c002",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c002-p002-cel_painted-r1.png",
+      "source_sha256": "753c1a73dd04b49ec2da7a2135b04620fb1fd8a030ae908ea95c63c0b6ce7f69",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "target_width": 760,
+      "alignment": "left",
+      "gutter_after": 80,
+      "cadence_role": "medium_orientation",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 3,
+      "sequence_id": "departure_and_clue",
+      "panel_id": "ng-ch05-sc01-p003",
+      "candidate_id": "h002",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h002-p003-clear_line_watercolor-r1.png",
+      "source_sha256": "abdae79e29ce9c891a27c103d6c56002b1fd3d7a85a6eefc87d8e1e2aec8d9ce",
+      "source_dimensions": [
+        1199,
+        1312
+      ],
+      "target_width": 600,
+      "alignment": "right",
+      "gutter_after": 75,
+      "cadence_role": "small_clue_insert",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 4,
+      "sequence_id": "departure_and_clue",
+      "panel_id": "ng-ch05-sc01-p009",
+      "candidate_id": "c005",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c005-p009-clear_line_watercolor-r1.png",
+      "source_sha256": "239346d94a18f822455dbd98bfc82cd1dae924a860a763468eb211924a225372",
+      "source_dimensions": [
+        941,
+        1672
+      ],
+      "target_width": 720,
+      "alignment": "center",
+      "gutter_after": 190,
+      "cadence_role": "tall_transition",
+      "selection_state": "ENGINEERING_WARN_DENSE_SAFE_ZONE_OWNER_PENDING"
+    },
+    {
+      "order": 5,
+      "sequence_id": "bridge_to_mill",
+      "panel_id": "ng-ch05-sc01-p019",
+      "candidate_id": "c006",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c006-p019-clean_graphic-r1.png",
+      "source_sha256": "6711c1e076086c1d984353338f99b99d72b94c13e541e23debd4ed959c9296b0",
+      "source_dimensions": [
+        1692,
+        930
+      ],
+      "target_width": 1040,
+      "alignment": "center",
+      "gutter_after": 80,
+      "cadence_role": "wide_warning_action",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 6,
+      "sequence_id": "bridge_to_mill",
+      "panel_id": "ng-ch05-sc01-p026",
+      "candidate_id": "c008",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c008-p026-cel_painted-r1.png",
+      "source_sha256": "3153588f5bad4d6a5e39e5609f1ef77d71c5c60258066f93f8ffbf05d6e0792d",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "target_width": 700,
+      "alignment": "left",
+      "gutter_after": 75,
+      "cadence_role": "medium_sensory_insert",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 7,
+      "sequence_id": "bridge_to_mill",
+      "panel_id": "ng-ch05-sc01-p029",
+      "candidate_id": "h004",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h004-p029-clean_graphic-r1.png",
+      "source_sha256": "0a815a965e50a66b32f232c60b716fc8c8b15e501ee9ae9c1ec0172c68a4bcdd",
+      "source_dimensions": [
+        1692,
+        929
+      ],
+      "target_width": 1040,
+      "alignment": "center",
+      "gutter_after": 90,
+      "cadence_role": "wide_dual_target_reveal",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 8,
+      "sequence_id": "bridge_to_mill",
+      "panel_id": "ng-ch05-sc01-p035",
+      "candidate_id": "c010",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c010-p035-clear_line_watercolor-r1.png",
+      "source_sha256": "2a8477c08615c4b8eab31b58ac4cd2bb137a9020817ab439369ddc1cb520ca05",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "target_width": 560,
+      "alignment": "right",
+      "gutter_after": 70,
+      "cadence_role": "small_object_reveal",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 9,
+      "sequence_id": "bridge_to_mill",
+      "panel_id": "ng-ch05-sc01-p036",
+      "candidate_id": "h006",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h006-p036-clear_line_watercolor-r1.png",
+      "source_sha256": "157e8a6c56a5de7da201c74ba2f2ee9e472cca51fb0dc40ab4b661e8af736607",
+      "source_dimensions": [
+        887,
+        1774
+      ],
+      "target_width": 700,
+      "alignment": "center",
+      "gutter_after": 190,
+      "cadence_role": "tall_causal_anchor",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 10,
+      "sequence_id": "signal_and_return",
+      "panel_id": "ng-ch05-sc01-p040",
+      "candidate_id": "c013",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c013-p040-clear_line_watercolor-r1.png",
+      "source_sha256": "237b8c3927173b72373ee502c1ce4785e0f3c9dad53f6fb04d3e9633d4ed1a09",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "target_width": 760,
+      "alignment": "left",
+      "gutter_after": 75,
+      "cadence_role": "medium_deduction",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 11,
+      "sequence_id": "signal_and_return",
+      "panel_id": "ng-ch05-sc01-p044",
+      "candidate_id": "c014",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c014-p044-limited_ink_flat-r1.png",
+      "source_sha256": "05c1a83a89c6c0b92b3a987b96d58db8cc2d399a185f54dfded839dc980067e7",
+      "source_dimensions": [
+        978,
+        1608
+      ],
+      "target_width": 560,
+      "alignment": "right",
+      "gutter_after": 70,
+      "cadence_role": "small_twinecraft_insert",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 12,
+      "sequence_id": "signal_and_return",
+      "panel_id": "ng-ch05-sc01-p046",
+      "candidate_id": "c015",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c015-p046-cel_painted-r1.png",
+      "source_sha256": "8b5a0b134a9dbf9befcf8a8e1edf0ff17bcd4ec97796cfc041b118e111f7bb17",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "target_width": 740,
+      "alignment": "left",
+      "gutter_after": 80,
+      "cadence_role": "medium_continuity",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 13,
+      "sequence_id": "signal_and_return",
+      "panel_id": "ng-ch05-sc01-p049",
+      "candidate_id": "c016",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c016-p049-clean_graphic-r1.png",
+      "source_sha256": "b1e40685fe4a37e4ae475c4da60964a1036a164280a54c85b97f06e0c278acf8",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "target_width": 780,
+      "alignment": "right",
+      "gutter_after": 100,
+      "cadence_role": "medium_target_change",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    },
+    {
+      "order": 14,
+      "sequence_id": "signal_and_return",
+      "panel_id": "ng-ch05-sc01-p050",
+      "candidate_id": "h001",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png",
+      "source_sha256": "7c63481cae9686d439867ba5a3e7e66024715b5ba07687068785fbc31d32f737",
+      "source_dimensions": [
+        1695,
+        928
+      ],
+      "target_width": 1040,
+      "alignment": "center",
+      "gutter_after": 80,
+      "cadence_role": "wide_urgent_return_hero",
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING"
+    }
+  ],
+  "placements": [
+    {
+      "order": 1,
+      "panel_id": "ng-ch05-sc01-p001",
+      "candidate_id": "c019",
+      "rect_px": [
+        80,
+        90,
+        1040,
+        693
+      ],
+      "safe_zone": {
+        "anchor": "top_left",
+        "rect_norm": [
+          0.04,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          122,
+          118,
+          434,
+          242
+        ],
+        "source_rect_px": [
+          61,
+          41,
+          522,
+          225
+        ],
+        "luma_mean": 149.641,
+        "luma_stddev": 21.175,
+        "edge_mean": 8.66
+      }
+    },
+    {
+      "order": 2,
+      "panel_id": "ng-ch05-sc01-p002",
+      "candidate_id": "c002",
+      "rect_px": [
+        80,
+        883,
+        760,
+        1142
+      ],
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          582,
+          929,
+          810,
+          1134
+        ],
+        "source_rect_px": [
+          675,
+          61,
+          982,
+          338
+        ],
+        "luma_mean": 215.017,
+        "luma_stddev": 1.554,
+        "edge_mean": 5.553
+      }
+    },
+    {
+      "order": 3,
+      "panel_id": "ng-ch05-sc01-p003",
+      "candidate_id": "h002",
+      "rect_px": [
+        520,
+        2105,
+        600,
+        657
+      ],
+      "safe_zone": {
+        "anchor": "top_left",
+        "rect_norm": [
+          0.04,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          544,
+          2131,
+          724,
+          2250
+        ],
+        "source_rect_px": [
+          48,
+          52,
+          408,
+          289
+        ],
+        "luma_mean": 195.964,
+        "luma_stddev": 22.253,
+        "edge_mean": 6.5
+      }
+    },
+    {
+      "order": 4,
+      "panel_id": "ng-ch05-sc01-p009",
+      "candidate_id": "c005",
+      "rect_px": [
+        240,
+        2837,
+        720,
+        1279
+      ],
+      "safe_zone": {
+        "anchor": "top_left",
+        "rect_norm": [
+          0.04,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          269,
+          2888,
+          485,
+          3118
+        ],
+        "source_rect_px": [
+          38,
+          67,
+          320,
+          368
+        ],
+        "luma_mean": 143.197,
+        "luma_stddev": 40.019,
+        "edge_mean": 15.847
+      }
+    },
+    {
+      "order": 5,
+      "panel_id": "ng-ch05-sc01-p019",
+      "candidate_id": "c006",
+      "rect_px": [
+        80,
+        4306,
+        1040,
+        572
+      ],
+      "safe_zone": {
+        "anchor": "top_left",
+        "rect_norm": [
+          0.04,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          122,
+          4329,
+          434,
+          4432
+        ],
+        "source_rect_px": [
+          68,
+          37,
+          575,
+          205
+        ],
+        "luma_mean": 201.668,
+        "luma_stddev": 19.348,
+        "edge_mean": 6.437
+      }
+    },
+    {
+      "order": 6,
+      "panel_id": "ng-ch05-sc01-p026",
+      "candidate_id": "c008",
+      "rect_px": [
+        80,
+        4958,
+        700,
+        1052
+      ],
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          542,
+          5000,
+          752,
+          5189
+        ],
+        "source_rect_px": [
+          675,
+          61,
+          982,
+          338
+        ],
+        "luma_mean": 212.553,
+        "luma_stddev": 1.694,
+        "edge_mean": 5.921
+      }
+    },
+    {
+      "order": 7,
+      "panel_id": "ng-ch05-sc01-p029",
+      "candidate_id": "h004",
+      "rect_px": [
+        80,
+        6085,
+        1040,
+        571
+      ],
+      "safe_zone": {
+        "anchor": "top_left",
+        "rect_norm": [
+          0.04,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          122,
+          6108,
+          434,
+          6211
+        ],
+        "source_rect_px": [
+          68,
+          37,
+          575,
+          204
+        ],
+        "luma_mean": 222.258,
+        "luma_stddev": 2.402,
+        "edge_mean": 5.682
+      }
+    },
+    {
+      "order": 8,
+      "panel_id": "ng-ch05-sc01-p035",
+      "candidate_id": "c010",
+      "rect_px": [
+        560,
+        6746,
+        560,
+        841
+      ],
+      "safe_zone": {
+        "anchor": "top",
+        "rect_norm": [
+          0.25,
+          0.04,
+          0.5,
+          0.16
+        ],
+        "assembly_rect_px": [
+          700,
+          6780,
+          980,
+          6914
+        ],
+        "source_rect_px": [
+          256,
+          61,
+          767,
+          307
+        ],
+        "luma_mean": 164.071,
+        "luma_stddev": 13.48,
+        "edge_mean": 4.393
+      }
+    },
+    {
+      "order": 9,
+      "panel_id": "ng-ch05-sc01-p036",
+      "candidate_id": "h006",
+      "rect_px": [
+        250,
+        7657,
+        700,
+        1400
+      ],
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          712,
+          7713,
+          922,
+          7965
+        ],
+        "source_rect_px": [
+          585,
+          71,
+          852,
+          390
+        ],
+        "luma_mean": 209.778,
+        "luma_stddev": 4.446,
+        "edge_mean": 5.359
+      }
+    },
+    {
+      "order": 10,
+      "panel_id": "ng-ch05-sc01-p040",
+      "candidate_id": "c013",
+      "rect_px": [
+        80,
+        9247,
+        760,
+        1142
+      ],
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          582,
+          9293,
+          810,
+          9498
+        ],
+        "source_rect_px": [
+          675,
+          61,
+          982,
+          338
+        ],
+        "luma_mean": 206.998,
+        "luma_stddev": 1.481,
+        "edge_mean": 5.207
+      }
+    },
+    {
+      "order": 11,
+      "panel_id": "ng-ch05-sc01-p044",
+      "candidate_id": "c014",
+      "rect_px": [
+        560,
+        10464,
+        560,
+        921
+      ],
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          930,
+          10501,
+          1098,
+          10667
+        ],
+        "source_rect_px": [
+          645,
+          64,
+          939,
+          354
+        ],
+        "luma_mean": 132.25,
+        "luma_stddev": 72.799,
+        "edge_mean": 6.218
+      }
+    },
+    {
+      "order": 12,
+      "panel_id": "ng-ch05-sc01-p046",
+      "candidate_id": "c015",
+      "rect_px": [
+        80,
+        11455,
+        740,
+        1112
+      ],
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          568,
+          11499,
+          790,
+          11700
+        ],
+        "source_rect_px": [
+          675,
+          61,
+          982,
+          338
+        ],
+        "luma_mean": 219.821,
+        "luma_stddev": 0.786,
+        "edge_mean": 4.818
+      }
+    },
+    {
+      "order": 13,
+      "panel_id": "ng-ch05-sc01-p049",
+      "candidate_id": "c016",
+      "rect_px": [
+        340,
+        12647,
+        780,
+        1170
+      ],
+      "safe_zone": {
+        "anchor": "top_left",
+        "rect_norm": [
+          0.04,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          371,
+          12694,
+          605,
+          12904
+        ],
+        "source_rect_px": [
+          41,
+          61,
+          348,
+          338
+        ],
+        "luma_mean": 197.021,
+        "luma_stddev": 11.553,
+        "edge_mean": 5.894
+      }
+    },
+    {
+      "order": 14,
+      "panel_id": "ng-ch05-sc01-p050",
+      "candidate_id": "h001",
+      "rect_px": [
+        80,
+        13917,
+        1040,
+        569
+      ],
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ],
+        "assembly_rect_px": [
+          766,
+          13940,
+          1078,
+          14042
+        ],
+        "source_rect_px": [
+          1119,
+          37,
+          1627,
+          204
+        ],
+        "luma_mean": 210.73,
+        "luma_stddev": 5.384,
+        "edge_mean": 5.41
+      }
+    }
+  ],
+  "safe_zone_texture_measurement": {
+    "method": "Pillow grayscale luma statistics and FIND_EDGES mean within each exact ComicPanelPlan normalized safe zone",
+    "edge_mean_across_14": 6.564,
+    "edge_median_across_14": 5.788,
+    "edge_max": {
+      "candidate_id": "c005",
+      "value": 15.847
+    },
+    "luma_stddev_mean_across_14": 15.598,
+    "luma_stddev_median_across_14": 8.469,
+    "luma_stddev_max": {
+      "candidate_id": "c014",
+      "value": 72.799
+    },
+    "exploratory_outlier_rule": "Flag edge mean above twice the batch median or luma standard deviation above four times the batch median.",
+    "outliers": [
+      {
+        "candidate_id": "c005",
+        "reason": "edge 15.847 > 2 \u00d7 5.788 and luma stddev 40.019 > 4 \u00d7 8.469; branch texture requires lettering rehearsal"
+      },
+      {
+        "candidate_id": "c014",
+        "reason": "luma stddev 72.799 > 4 \u00d7 8.469; high-contrast water/background requires lettering rehearsal"
+      }
+    ],
+    "boundary": "Exploratory texture measurement only; it cannot detect faces, hands, story objects, transparency acceptability, or reading order and is not an acceptance gate."
+  },
+  "sequence_reviews": [
+    {
+      "sequence_id": "departure_and_clue",
+      "result": "PASS_WITH_C005_LETTERING_WARNING",
+      "note": "Downhill departure, map orientation, crossing-print deduction, and trail movement form a readable four-beat causal sequence; c005 remains texture-dense."
+    },
+    {
+      "sequence_id": "bridge_to_mill",
+      "result": "PASS",
+      "note": "Stop gesture, heat clue, two-target mill entry, isolated tin, and single-plank cooperation alternate wide/close/object/tall functions clearly."
+    },
+    {
+      "sequence_id": "signal_and_return",
+      "result": "PASS_WITH_C014_LETTERING_WARNING",
+      "note": "Deduction, twine cut, evidence protection, target change, and urgent run create accelerating return rhythm; c014's safe field is high contrast."
+    }
+  ],
+  "continuity_review": {
+    "hair_and_role_identity": "PASS across all selected panels",
+    "wardrobe": "PASS for oatmeal-coat Soren and plaid-wrap Sigrid",
+    "style_consistency": "WARN: the mixed engineering arms are coherent in palette and line language but visibly vary in finish density; exact chapter unification remains a future production-base decision",
+    "narrative_causality": "PASS at sequence review scale",
+    "phone_readability": "PASS provisionally at 390px scroll and seven viewport slices"
+  },
+  "artifacts": {
+    "vertical_scroll_clean": {
+      "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/ch05-variable-cadence-scroll-clean-r1.png",
+      "sha256": "ee61c62e33f5b6f55463c8defb3d67c12125bbfa4c00e938f88023ac82897017",
+      "width": 1200,
+      "height": 14566
+    },
+    "vertical_scroll_safe_zones": {
+      "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/ch05-variable-cadence-scroll-safe-zones-r1.png",
+      "sha256": "81815588eec81dc0785e82c2f29926f9831b22f71aae2ca69aad9596a53394d4",
+      "width": 1200,
+      "height": 14566
+    },
+    "phone_scroll": {
+      "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/ch05-variable-cadence-phone-scroll-390px-r1.png",
+      "sha256": "83b72fe5bdc4d6255b3aaa7bd87ac8eb210c6ca99f103a8f7a52df5899a2940f",
+      "width": 390,
+      "height": 4734
+    },
+    "phone_viewport_slices": [
+      {
+        "index": 1,
+        "source_top_px": 0,
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/phone-viewport-slices/viewport-01.png",
+        "sha256": "c26e593feadf7a7272853579f6372c0906007c24223a531dacd07d2c6a57c4ea",
+        "width": 390,
+        "height": 844
+      },
+      {
+        "index": 2,
+        "source_top_px": 760,
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/phone-viewport-slices/viewport-02.png",
+        "sha256": "d45c9bbf2fd77a4755d5901b8f123450f9b580d1582b5c8506d1f066041666ea",
+        "width": 390,
+        "height": 844
+      },
+      {
+        "index": 3,
+        "source_top_px": 1520,
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/phone-viewport-slices/viewport-03.png",
+        "sha256": "baed5338a9ee421ed1082c69f76af41da0e697c633aa77fa249f2cc8eb69f49d",
+        "width": 390,
+        "height": 844
+      },
+      {
+        "index": 4,
+        "source_top_px": 2280,
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/phone-viewport-slices/viewport-04.png",
+        "sha256": "64ec557dc7532a81886b38b74a0ed59bccda26c9d25ce37618c2c004fd3660af",
+        "width": 390,
+        "height": 844
+      },
+      {
+        "index": 5,
+        "source_top_px": 3040,
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/phone-viewport-slices/viewport-05.png",
+        "sha256": "560d6585728f5d0937cdafd90f3c955cba4f992f8addaeca771c25d814d1532c",
+        "width": 390,
+        "height": 844
+      },
+      {
+        "index": 6,
+        "source_top_px": 3800,
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/phone-viewport-slices/viewport-06.png",
+        "sha256": "27e84fac03615c6c53c745bf6f1ff48d0484cbec5eb9d6af7ef5e038f064c48f",
+        "width": 390,
+        "height": 844
+      },
+      {
+        "index": 7,
+        "source_top_px": 4560,
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/phone-viewport-slices/viewport-07.png",
+        "sha256": "f80d22cb5a9d2464934f06e54cc562bcff055c9e894dbf16fbf857da791fd42d",
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "selected_sequences": [
+      {
+        "sequence_id": "departure_and_clue",
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/sequence-selected-departure_and_clue.png",
+        "sha256": "d8c519220c45b57251ee58dd6f46c5da98a8c27400d3f69cf3afe996c6ce078b",
+        "width": 1964,
+        "height": 1564
+      },
+      {
+        "sequence_id": "bridge_to_mill",
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/sequence-selected-bridge_to_mill.png",
+        "sha256": "7276c49077af7891ad2a6e9fbf27115dc9e85fcb559f0da5255d53908fe670a3",
+        "width": 1964,
+        "height": 1564
+      },
+      {
+        "sequence_id": "signal_and_return",
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/sequence-selected-signal_and_return.png",
+        "sha256": "3154bc4efa923219858193a0bb864d5b95222e7a31da41d632e318b537324e30",
+        "width": 1964,
+        "height": 1564
+      }
+    ]
+  },
+  "artifact_count": 13,
+  "artifact_inventory_root_sha256": "1abc5b6c7f4a1c5abd323e7f5b1a6a8aa90ddbcd4ce39b30efb9163b9ffbc462",
+  "determinism": {
+    "consecutive_build_count": 2,
+    "packet_sha256_run_a": "bd2957311f5a0223443764c338d383f09548a3e350714e56610914034c63482d",
+    "packet_sha256_run_b": "bd2957311f5a0223443764c338d383f09548a3e350714e56610914034c63482d",
+    "result": "BYTE_IDENTICAL_PACKET_AND_ARTIFACT_HASHES"
+  },
+  "recommendation": "Use this variable width/alignment/gutter cadence as the chapter-scale layout route. Rehearse transparent lettering on c005 and c014 before any acceptance; do not replace the mixed-style sources until owner review determines whether finish variation is desirable or should be unified.",
+  "boundary": "No selected panel or sequence is accepted, commercially cleared, deterministic at generation, or promoted as an exact production base."
+}

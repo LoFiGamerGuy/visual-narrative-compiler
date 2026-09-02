@@ -1,0 +1,52 @@
+{
+  "record_type": "ComicSequenceAssemblyEngineeringReview",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-variable-cadence-assembly-review-r1",
+  "state": "PROVISIONAL_ENGINEERING_REVIEW_OWNER_CADENCE_REVIEW_PENDING",
+  "assembly": "production/comic/assembly/ch05-variable-cadence-assembly-r1.json",
+  "human_review_minutes": null,
+  "accepted_panels": 0,
+  "accepted_sequence": false,
+  "measured_layout": {
+    "selected_panel_count": 14,
+    "sequence_count": 3,
+    "full_width_anchor_count": 4,
+    "medium_or_tall_count": 7,
+    "small_insert_count": 3,
+    "distinct_target_widths": 8,
+    "alignment_modes": ["left", "center", "right"],
+    "full_scroll_dimensions": [1200, 14566],
+    "phone_scroll_dimensions": [390, 4734],
+    "phone_viewport_slices": 7,
+    "sequence_break_gutter_px": 190
+  },
+  "safe_zone_texture_measurement": {
+    "method": "Pillow grayscale luma statistics and FIND_EDGES mean within each exact ComicPanelPlan normalized safe zone",
+    "edge_mean_across_14": 6.564,
+    "edge_median_across_14": 5.788,
+    "edge_max": {"candidate_id": "c005", "value": 15.847},
+    "luma_stddev_mean_across_14": 15.598,
+    "luma_stddev_median_across_14": 8.469,
+    "luma_stddev_max": {"candidate_id": "c014", "value": 72.799},
+    "exploratory_outlier_rule": "Flag edge mean above twice the batch median or luma standard deviation above four times the batch median.",
+    "outliers": [
+      {"candidate_id": "c005", "reason": "edge 15.847 > 2 × 5.788 and luma stddev 40.019 > 4 × 8.469; branch texture requires lettering rehearsal"},
+      {"candidate_id": "c014", "reason": "luma stddev 72.799 > 4 × 8.469; high-contrast water/background requires lettering rehearsal"}
+    ],
+    "boundary": "Exploratory texture measurement only; it cannot detect faces, hands, story objects, transparency acceptability, or reading order and is not an acceptance gate."
+  },
+  "sequence_reviews": [
+    {"sequence_id": "departure_and_clue", "result": "PASS_WITH_C005_LETTERING_WARNING", "note": "Downhill departure, map orientation, crossing-print deduction, and trail movement form a readable four-beat causal sequence; c005 remains texture-dense."},
+    {"sequence_id": "bridge_to_mill", "result": "PASS", "note": "Stop gesture, heat clue, two-target mill entry, isolated tin, and single-plank cooperation alternate wide/close/object/tall functions clearly."},
+    {"sequence_id": "signal_and_return", "result": "PASS_WITH_C014_LETTERING_WARNING", "note": "Deduction, twine cut, evidence protection, target change, and urgent run create accelerating return rhythm; c014's safe field is high contrast."}
+  ],
+  "continuity_review": {
+    "hair_and_role_identity": "PASS across all selected panels",
+    "wardrobe": "PASS for oatmeal-coat Soren and plaid-wrap Sigrid",
+    "style_consistency": "WARN: the mixed engineering arms are coherent in palette and line language but visibly vary in finish density; exact chapter unification remains a future production-base decision",
+    "narrative_causality": "PASS at sequence review scale",
+    "phone_readability": "PASS provisionally at 390px scroll and seven viewport slices"
+  },
+  "recommendation": "Use this variable width/alignment/gutter cadence as the chapter-scale layout route. Rehearse transparent lettering on c005 and c014 before any acceptance; do not replace the mixed-style sources until owner review determines whether finish variation is desirable or should be unified.",
+  "boundary": "No selected panel or sequence is accepted, commercially cleared, deterministic at generation, or promoted as an exact production base."
+}

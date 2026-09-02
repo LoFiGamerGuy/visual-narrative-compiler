@@ -1,0 +1,45 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "1.4",
+  "record_id": "ng-comic-style-ch05-mill-signal-r5",
+  "state": "VARIABLE_CADENCE_ENGINEERING_ROUTE_SELECTED_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r4",
+    "path": "production/comic/style-direction/ch05-mill-signal-r4.json",
+    "sha256": "11eb1e8a75ce4af477fc1a9cc689032a59739112a04808878d4a404630e29810"
+  },
+  "evidence": {
+    "initial_batch": "docs/research/evidence/ch05-overnight-production-r1.json",
+    "hardening_batch": "docs/research/evidence/ch05-cadence-hardening-r1.json",
+    "cadence_assembly": "docs/research/evidence/ch05-variable-cadence-assembly-r1.json",
+    "total_new_candidates": 26,
+    "selected_assembly_panels": 14,
+    "selected_sequences": 3,
+    "distinct_target_widths": 8,
+    "human_accepted_candidates": 0
+  },
+  "selected_engineering_route": {
+    "name": "role-aware premium cel-painted webcomic with clear-line causal staging and variable narrative cadence",
+    "finish": "Use mature cel-painted faces, graphic shadow/value separation, restrained painterly color, and clear-line contour hierarchy within one chapter palette; allow measured density variation by beat.",
+    "composition": "Treat the exact ComicPanelPlan safe zone, panel role, width, alignment, and post-panel gutter as compiler inputs. Stage causal action and role order before finish detail.",
+    "continuity": "Use P050/P040 identity evidence plus explicit light-brown-haired Soren, dark-tied-haired Sigrid, oatmeal coat, and plaid wrap assertions. P036 remains composition-only.",
+    "causal_language": "Describe the smallest physical chain from hands through one object to target. P036 is one straight reach-and-brace plank, not a lever.",
+    "chapter_cadence": [
+      "wide 1040px-class action, orientation, and reveal anchors",
+      "medium 700-780px dialogue, deduction, continuity, and sensory beats",
+      "tall 700-760px causal panels showing the complete hand-object-target chain",
+      "small 560-600px object and clue inserts",
+      "left/center/right staggering and larger gutters at sequence turns"
+    ]
+  },
+  "lettering": {
+    "rule": "No balloon or direct text may obscure faces, people, important hands, or story objects; transparency is conditional on preserved expression, silhouette, action, contrast, and phone readability.",
+    "required_rehearsal_candidates": ["c005", "c014"],
+    "measurement_boundary": "Safe-zone luma and edge statistics are exploratory only and cannot approve lettering."
+  },
+  "production_status": "strongest measured engineering recommendation; owner review, commercial clearance, deterministic generation reproducibility, and exact-base acceptance remain pending",
+  "next_experiment": "Run a deterministic transparent-lettering rehearsal on c005/c014 plus clean controls, then compile the smallest reproducible chapter-production manifest."
+}

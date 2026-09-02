@@ -931,3 +931,12 @@
 - Exact kit replication across the action panel is untested because l001/l002 were not authorized as additional ImageGen reference uploads; they were not uploaded.
 - ADR-0088 and the non-canon concept style direction keep every armor, weapon, monster, class, and wardrobe-evolution idea outside CH05 canon and ComicPanelPlans.
 - Exact prompts, input/output hashes, timing, null provider fields, two packet sheets, and three phone previews validate; human minutes/acceptance remain null/zero.
+
+## 2026-09-01 - CH05 variable-cadence assembly r1
+
+- Selected 14 provisional engineering candidates across three connected sequences without generating or uploading new art.
+- Built a 1200×14,566 clean scroll, safe-zone overlay, 390×4,734 phone scroll, seven 390×844 viewport slices, and three sequence sheets.
+- Eight target widths, three alignments, and sequence-turn gutters make wide/medium/tall/insert roles explicit. Consecutive builds preserve identical packet and artifact hashes.
+- Exploratory safe-zone texture measurement flags c005 and c014 for lettering rehearsal; it is explicitly not an acceptance gate.
+- The validator reports zero failures and rejects 10/10 malformed denominator/order/identity/cadence/planning/state mutations. Provider calls/uploads/cost are 0/0/$0.
+- ADR-0089 and ComicStyleDirection r5 select variable narrative cadence while preserving owner review, commercial, reproducibility, and exact-base decisions.

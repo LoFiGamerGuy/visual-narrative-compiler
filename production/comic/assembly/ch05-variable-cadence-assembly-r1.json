@@ -1,0 +1,44 @@
+{
+  "record_type": "ComicSequenceAssemblyManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-variable-cadence-assembly-r1",
+  "state": "PROVISIONAL_ENGINEERING_ASSEMBLY_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "comic_panel_plan_collection": "production/comic/ch05-sc01-panel-plans-v1.json",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source_evidence": [
+    "docs/research/evidence/ch05-overnight-production-r1.json",
+    "docs/research/evidence/ch05-cadence-hardening-r1.json"
+  ],
+  "canvas": {"width": 1200, "side_margin": 80, "background": "#12151a", "default_gutter": 90, "phone_width": 390, "phone_viewport_height": 844, "phone_slice_step": 760},
+  "sequences": [
+    {"sequence_id": "departure_and_clue", "panel_ids": ["ng-ch05-sc01-p001", "ng-ch05-sc01-p002", "ng-ch05-sc01-p003", "ng-ch05-sc01-p009"]},
+    {"sequence_id": "bridge_to_mill", "panel_ids": ["ng-ch05-sc01-p019", "ng-ch05-sc01-p026", "ng-ch05-sc01-p029", "ng-ch05-sc01-p035", "ng-ch05-sc01-p036"]},
+    {"sequence_id": "signal_and_return", "panel_ids": ["ng-ch05-sc01-p040", "ng-ch05-sc01-p044", "ng-ch05-sc01-p046", "ng-ch05-sc01-p049", "ng-ch05-sc01-p050"]}
+  ],
+  "entries": [
+    {"order": 1, "sequence_id": "departure_and_clue", "panel_id": "ng-ch05-sc01-p001", "candidate_id": "c019", "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c019-p001-clear_line_watercolor-r1.png", "source_sha256": "91f38cff7dd3f0a83f6e709ce27e3910c0531385f0b2f0b44d0ea98309185254", "source_dimensions": [1536, 1024], "target_width": 1040, "alignment": "center", "gutter_after": 100, "cadence_role": "wide_orientation", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 2, "sequence_id": "departure_and_clue", "panel_id": "ng-ch05-sc01-p002", "candidate_id": "c002", "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c002-p002-cel_painted-r1.png", "source_sha256": "753c1a73dd04b49ec2da7a2135b04620fb1fd8a030ae908ea95c63c0b6ce7f69", "source_dimensions": [1023, 1537], "target_width": 760, "alignment": "left", "gutter_after": 80, "cadence_role": "medium_orientation", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 3, "sequence_id": "departure_and_clue", "panel_id": "ng-ch05-sc01-p003", "candidate_id": "h002", "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h002-p003-clear_line_watercolor-r1.png", "source_sha256": "abdae79e29ce9c891a27c103d6c56002b1fd3d7a85a6eefc87d8e1e2aec8d9ce", "source_dimensions": [1199, 1312], "target_width": 600, "alignment": "right", "gutter_after": 75, "cadence_role": "small_clue_insert", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 4, "sequence_id": "departure_and_clue", "panel_id": "ng-ch05-sc01-p009", "candidate_id": "c005", "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c005-p009-clear_line_watercolor-r1.png", "source_sha256": "239346d94a18f822455dbd98bfc82cd1dae924a860a763468eb211924a225372", "source_dimensions": [941, 1672], "target_width": 720, "alignment": "center", "gutter_after": 190, "cadence_role": "tall_transition", "selection_state": "ENGINEERING_WARN_DENSE_SAFE_ZONE_OWNER_PENDING"},
+    {"order": 5, "sequence_id": "bridge_to_mill", "panel_id": "ng-ch05-sc01-p019", "candidate_id": "c006", "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c006-p019-clean_graphic-r1.png", "source_sha256": "6711c1e076086c1d984353338f99b99d72b94c13e541e23debd4ed959c9296b0", "source_dimensions": [1692, 930], "target_width": 1040, "alignment": "center", "gutter_after": 80, "cadence_role": "wide_warning_action", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 6, "sequence_id": "bridge_to_mill", "panel_id": "ng-ch05-sc01-p026", "candidate_id": "c008", "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c008-p026-cel_painted-r1.png", "source_sha256": "3153588f5bad4d6a5e39e5609f1ef77d71c5c60258066f93f8ffbf05d6e0792d", "source_dimensions": [1023, 1537], "target_width": 700, "alignment": "left", "gutter_after": 75, "cadence_role": "medium_sensory_insert", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 7, "sequence_id": "bridge_to_mill", "panel_id": "ng-ch05-sc01-p029", "candidate_id": "h004", "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h004-p029-clean_graphic-r1.png", "source_sha256": "0a815a965e50a66b32f232c60b716fc8c8b15e501ee9ae9c1ec0172c68a4bcdd", "source_dimensions": [1692, 929], "target_width": 1040, "alignment": "center", "gutter_after": 90, "cadence_role": "wide_dual_target_reveal", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 8, "sequence_id": "bridge_to_mill", "panel_id": "ng-ch05-sc01-p035", "candidate_id": "c010", "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c010-p035-clear_line_watercolor-r1.png", "source_sha256": "2a8477c08615c4b8eab31b58ac4cd2bb137a9020817ab439369ddc1cb520ca05", "source_dimensions": [1023, 1537], "target_width": 560, "alignment": "right", "gutter_after": 70, "cadence_role": "small_object_reveal", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 9, "sequence_id": "bridge_to_mill", "panel_id": "ng-ch05-sc01-p036", "candidate_id": "h006", "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h006-p036-clear_line_watercolor-r1.png", "source_sha256": "157e8a6c56a5de7da201c74ba2f2ee9e472cca51fb0dc40ab4b661e8af736607", "source_dimensions": [887, 1774], "target_width": 700, "alignment": "center", "gutter_after": 190, "cadence_role": "tall_causal_anchor", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 10, "sequence_id": "signal_and_return", "panel_id": "ng-ch05-sc01-p040", "candidate_id": "c013", "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c013-p040-clear_line_watercolor-r1.png", "source_sha256": "237b8c3927173b72373ee502c1ce4785e0f3c9dad53f6fb04d3e9633d4ed1a09", "source_dimensions": [1023, 1537], "target_width": 760, "alignment": "left", "gutter_after": 75, "cadence_role": "medium_deduction", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 11, "sequence_id": "signal_and_return", "panel_id": "ng-ch05-sc01-p044", "candidate_id": "c014", "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c014-p044-limited_ink_flat-r1.png", "source_sha256": "05c1a83a89c6c0b92b3a987b96d58db8cc2d399a185f54dfded839dc980067e7", "source_dimensions": [978, 1608], "target_width": 560, "alignment": "right", "gutter_after": 70, "cadence_role": "small_twinecraft_insert", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 12, "sequence_id": "signal_and_return", "panel_id": "ng-ch05-sc01-p046", "candidate_id": "c015", "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c015-p046-cel_painted-r1.png", "source_sha256": "8b5a0b134a9dbf9befcf8a8e1edf0ff17bcd4ec97796cfc041b118e111f7bb17", "source_dimensions": [1023, 1537], "target_width": 740, "alignment": "left", "gutter_after": 80, "cadence_role": "medium_continuity", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 13, "sequence_id": "signal_and_return", "panel_id": "ng-ch05-sc01-p049", "candidate_id": "c016", "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c016-p049-clean_graphic-r1.png", "source_sha256": "b1e40685fe4a37e4ae475c4da60964a1036a164280a54c85b97f06e0c278acf8", "source_dimensions": [1024, 1536], "target_width": 780, "alignment": "right", "gutter_after": 100, "cadence_role": "medium_target_change", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"},
+    {"order": 14, "sequence_id": "signal_and_return", "panel_id": "ng-ch05-sc01-p050", "candidate_id": "h001", "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png", "source_sha256": "7c63481cae9686d439867ba5a3e7e66024715b5ba07687068785fbc31d32f737", "source_dimensions": [1695, 928], "target_width": 1040, "alignment": "center", "gutter_after": 80, "cadence_role": "wide_urgent_return_hero", "selection_state": "ENGINEERING_PASS_OWNER_PENDING"}
+  ],
+  "boundaries": [
+    "This is a local layout demonstration using unaccepted ignored candidates; it does not promote any source as an exact production base.",
+    "ComicPanelPlan remains the only active production-planning structure; this assembly creates no panel-plan revision and no AnimationShotPlan/E-Conte.",
+    "No provider call, upload, paid API, budget use, or new generated art is authorized or required.",
+    "c005's dense protected field remains an explicit warning for owner review; it is not silently passed.",
+    "Generated and assembled pixels remain ignored."
+  ]
+}

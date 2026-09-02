@@ -31,3 +31,9 @@ Six additional candidates close the cel-painted wide-action gap and repair c003/
 ## Separate non-canon concept review
 
 l001/l002/l003 explore future equipment and a Mireback encounter without revising CH05. Exact kit replication across l003 is not claimed because l001/l002 were not re-uploaded. Tracked evidence is `docs/research/evidence/future-litrpg-visual-concepts-r1.json`; the ignored packet is `experiments/review-packets/future-litrpg-visual-concepts-r1/review/review-packet.json`.
+
+## Variable-cadence assembly addendum
+
+The strongest 14 provisional candidates now form three connected sequences in a deterministic phone-first scroll. Review the clean 1200px scroll, exact safe-zone overlay, 390px phone scroll, seven viewport slices, and three selected-sequence sheets under `experiments/review-packets/ch05-variable-cadence-assembly-r1/`. Tracked evidence is `docs/research/evidence/ch05-variable-cadence-assembly-r1.json`.
+
+ADR-0089 recommends variable width/alignment/gutter cadence rather than a uniform panel ratio. Hair, wardrobe, role order, and causal flow pass provisional engineering review. c005 and c014 remain explicit lettering-rehearsal warnings, and mixed finish density remains an owner decision. No panel or sequence is accepted.

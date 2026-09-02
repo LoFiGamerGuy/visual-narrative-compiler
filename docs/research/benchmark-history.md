@@ -229,6 +229,8 @@ The CH05 remaining-panel compiler partitions 50 exact plans into 14 selected plu
 
 The append-only CH05 release r2 reproduces immutable 16-check r1 and adds two coverage checks: 18 effective checks pass through three orchestrator commands in 5.308 seconds; 13/13 mutations fail. This is release-integrity coverage, not production authorization.
 
+The Tier A effort record derives three generation-only scenarios from 26 exact CH05 timings (1,230.058s; p10/median/p90 30.531/51.227/56.524s) and rejects 13/13 prompt/decision/cost/activity mutations. It is bounded planning evidence, not a throughput SLA, cost estimate, human-time estimate, or execution authority.
+
 The blinded G07 protocol verifies 16/16 neutral candidate presentations and 4/4 hidden-arm repeat pairs, requiring 20 timed assertion decisions; 13/13 identity/order/coverage/timing mutations fail. Actual decisions remain 0, minutes null, and accepted subjects zero. This adds review readiness, not human renderer-quality evidence or a new selection decision.
 
 The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate cost, latency, drift, assertion, and failure-tag dimensions; 9/9 pending/fixture/coverage/mapping mutations fail. With review still pending it emits no human arm results, composite score, rank, or route change. Renderer-quality evidence and ADR-0025 remain unchanged.

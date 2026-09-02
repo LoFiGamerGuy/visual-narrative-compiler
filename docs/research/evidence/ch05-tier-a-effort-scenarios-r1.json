@@ -1,0 +1,100 @@
+{
+  "record_type": "CH05TierAEffortScenarioEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-tier-a-effort-scenarios-r1",
+  "state": "MEASURED_SCENARIOS_NOT_FORECAST_OR_AUTHORITY",
+  "medium": "comic",
+  "hypotheses": {
+    "path": "production/comic/coverage/ch05-tier-a-production-hypotheses-r1.json",
+    "sha256": "cfc3b449813fc340a1d011aef3113e74e379384d83992440837dd253769e4164"
+  },
+  "decision_contract": {
+    "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+    "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5"
+  },
+  "observed_basis": {
+    "candidate_count": 26,
+    "generation_seconds": 1230.058,
+    "p10_seconds": 30.531,
+    "median_seconds": 51.227,
+    "p90_seconds": 56.524,
+    "min_seconds": 20.332,
+    "max_seconds": 65.024,
+    "engineering_all_pass": 17,
+    "engineering_warn_or_fail": 9
+  },
+  "scenarios": [
+    {
+      "scenario_id": "one_initial_per_plan",
+      "candidate_count": 12,
+      "note": "Minimum coverage arm: one candidate for each Tier A plan; no repair capacity.",
+      "observed_time_basis_seconds_per_candidate": {
+        "p10": 30.531,
+        "median": 51.227,
+        "p90": 56.524,
+        "mean": 47.31
+      },
+      "derived_generation_seconds": {
+        "p10": 366.372,
+        "median": 614.724,
+        "p90": 678.288,
+        "mean": 567.719
+      },
+      "monetary_cost_usd": null,
+      "human_review_minutes": null,
+      "executed": false
+    },
+    {
+      "scenario_id": "one_initial_plus_four_targeted_repairs",
+      "candidate_count": 16,
+      "note": "Planning arm: 12 initials plus four repair slots, rounded from 12 \u00d7 the observed 9/26 non-pass fraction; not a forecast.",
+      "observed_time_basis_seconds_per_candidate": {
+        "p10": 30.531,
+        "median": 51.227,
+        "p90": 56.524,
+        "mean": 47.31
+      },
+      "derived_generation_seconds": {
+        "p10": 488.496,
+        "median": 819.632,
+        "p90": 904.384,
+        "mean": 756.959
+      },
+      "monetary_cost_usd": null,
+      "human_review_minutes": null,
+      "executed": false
+    },
+    {
+      "scenario_id": "two_arms_per_plan",
+      "candidate_count": 24,
+      "note": "Comparison arm: two style/reference conditions per plan; highest evidence but unnecessary before current owner review.",
+      "observed_time_basis_seconds_per_candidate": {
+        "p10": 30.531,
+        "median": 51.227,
+        "p90": 56.524,
+        "mean": 47.31
+      },
+      "derived_generation_seconds": {
+        "p10": 732.744,
+        "median": 1229.448,
+        "p90": 1356.576,
+        "mean": 1135.438
+      },
+      "monetary_cost_usd": null,
+      "human_review_minutes": null,
+      "executed": false
+    }
+  ],
+  "monetary_cost_boundary": "Built-in product cost/usage remains unavailable; scenario cost is null, never $0 or estimated.",
+  "human_time_boundary": "No timed owner review exists; scenario human minutes remain null.",
+  "recommendation": "Use the 12-initial-plus-up-to-four-targeted-repairs scenario only after current owner decisions. Repair slots are a bounded planning allowance derived from the observed non-pass fraction, not a predicted requirement.",
+  "activity": {
+    "prompts_created": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "owner_decisions_recorded": 0,
+    "human_review_minutes": null
+  },
+  "boundary": "No scenario is executed or authorized; no plan, prompt, copy, decision, acceptance, or commercial conclusion is created."
+}

@@ -998,3 +998,11 @@
 - Preserved r1 byte-for-byte and invoked its exact reproducer plus the two full-denominator coverage validators.
 - Three/three orchestrator commands pass in 5.308 seconds, representing 18 effective checks; 13/13 r2 mutations fail.
 - ADR-0097 makes release extension append-only. Fifty plans remain 14 selected + 12/12/12; accepted/executable/calls/uploads/cost remain 0/0/0/0/$0.
+
+## 2026-09-01 - CH05 Tier A effort and owner decision contract r1
+
+- Bound 26 CH05 candidates/1,230.058 seconds as the only generation-time basis: p10 30.531s, median 51.227s, p90 56.524s; 17 all-pass and nine warn/fail.
+- Compiled nonexecuted 12/16/24-candidate Tier A scenarios. Median generation-only values are 614.724/819.632/1,229.448 seconds; cost and human minutes remain null.
+- Added 12 exact Tier A style/size hypotheses with zero prompts, final copy, approvals, or executable rows.
+- Added an empty append-only 39-subject owner decision contract: 26 CH05 candidates, three non-canon concepts, and ten higher-order sequence/cadence/style/density/lettering choices.
+- ADR-0098 carries the 16-candidate scenario only as a post-review planning envelope. Thirteen/thirteen mutations fail; decisions/prompts/calls/uploads/cost remain 0/0/0/0/$0.

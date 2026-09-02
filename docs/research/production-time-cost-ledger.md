@@ -49,3 +49,5 @@ The continuity/style/density analysis adds four ignored diagnostic sheets from 1
 The overnight integrated release gate runs 16 no-network commands in 5.259 observed seconds with no renderer generation or external cost. Provider calls/uploads/downloads remain zero; accepted candidates/executable panels/human minutes remain 0/0/null.
 
 The remaining-panel priority compiler adds one ignored coverage chart and an exact 50-row metadata partition with no renderer generation or external cost. Provider calls/uploads remain zero; new accepted/executable panels and human minutes remain 0/0/null.
+
+The Tier A effort record adds no generation or external cost. Its 12/16/24 candidate counts and derived seconds are nonexecuted scenarios from 26 observed CH05 timings. Monetary cost and human minutes remain null; prompts/decisions/calls/uploads/acceptance remain zero.

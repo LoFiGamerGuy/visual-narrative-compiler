@@ -24,6 +24,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 overnight integrated release gate r1 | 16 no-network validator commands | 5.259 s observed local gate time; provider generation not used | unmeasured | $0 API/cloud | 16/16 pass; 0 accepted/executable |
 | CH05 remaining panel priority r1 | 50-plan denominator / 14 selected / 36 prioritized | local deterministic planning analysis; provider generation not used | unmeasured | $0 API/cloud | 0 new accepted/executable; no plan revision |
 | CH05 overnight integrated release gate r2 | immutable 16-check r1 + 2 coverage checks | 5.308 s observed local gate time | unmeasured | $0 API/cloud | 18 effective checks pass; 0 accepted/executable |
+| CH05 Tier A effort scenarios r1 | 12/16/24 hypothetical candidates from 26-candidate basis | median 614.724/819.632/1,229.448 s generation-only; not executed | unmeasured | built-in cost unavailable; no execution | 0 prompts/decisions/accepted/executable |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

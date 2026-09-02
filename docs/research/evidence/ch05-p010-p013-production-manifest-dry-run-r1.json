@@ -1,0 +1,55 @@
+{
+  "record_type": "ComicMicrosequenceProductionManifestDryRunEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-production-manifest-dry-run-evidence-r1",
+  "state": "PASS_FAIL_CLOSED_OWNER_GATES_PENDING",
+  "manifest": {
+    "path": "production/comic/run-manifests/ch05-p010-p013-production-manifest-dry-run-r1.json",
+    "sha256": "f668fc1531b556529a3e8cf7f3ef9d6c65a2172cab448ec26e57e97eaf48403e"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/repair-readiness/ch05-p010-p013-preflight-contract-r1.json",
+      "sha256": "83941a2c7de2684f3ef9f96443316fc6852c8208a116e5d7cbf14f6f2c8861a9"
+    },
+    {
+      "path": "production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json",
+      "sha256": "dacd8daec02a594a66915b73b311f78a77c3ade2002900823206794b87095b31"
+    },
+    {
+      "path": "production/comic/style-direction/ch05-mill-signal-r10.json",
+      "sha256": "8ecba9e7b6887ee12de0e037486351c83f0a3a0a1b1907f3cfd3320f67e896f1"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-built-in-renderrecord-index-r1.json",
+      "sha256": "546eaca1f47e02aea256192dc24653b29912d607b20cdafbcf9bb8eb4b5bf437"
+    }
+  ],
+  "summary": {
+    "plan_count": 4,
+    "initial_candidate_slots": 4,
+    "maximum_repair_slots": 2,
+    "maximum_candidate_envelope": 6,
+    "prompt_count": 0,
+    "rendered_candidates": 0,
+    "reference_hypothesis_uses": 3,
+    "reference_uploads": 0,
+    "execution_ready_rows": 0,
+    "accepted_candidates": 0,
+    "comic_panel_plan_revisions": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "row_root_sha256": "27b4c6805fd245fafbcbe4c4d4efec49ac466779743399033c34be01ac4b238f",
+  "planned_review_artifact_count": 5,
+  "production_stage_count": 5,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "limitations": [
+    "This dry run does not compile prompts or test image output.",
+    "Reference IDs remain metadata hypotheses with zero uploads.",
+    "Human review, provider metadata, timing, and monetary cost are unavailable until a separately authorized execution occurs."
+  ]
+}

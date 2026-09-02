@@ -39,6 +39,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 integrated release r4 | immutable 30-check r3 + 3 extension checks | 6.934 s observed local gate time | unmeasured | $0 API/cloud | 33 effective checks pass; 0 accepted/executable |
 | CH05 owner index r3 + exact review links r1 | 12-card local hub / 99 unique linked artifacts | local deterministic metadata/HTML/thumbnail build | unmeasured | $0 API/cloud | 0 published/accepted/decisions; owner review pending |
 | CH05 measured route + decision matrix r1 | 4 role allocations / 10 owner decisions | local deterministic evidence compilation | unmeasured | $0 API/cloud | 0 prompts/executable/accepted; engineering route only |
+| CH05 P010–P013 manifest dry run r1 | 4 plan rows / 2 repair slots / 5 planned review artifacts | local deterministic metadata compilation | unmeasured | $0 API/cloud | 0 prompts/renders/executable/accepted |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

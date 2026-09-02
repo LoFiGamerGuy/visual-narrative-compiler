@@ -1106,3 +1106,10 @@
 - Isolated ten owner decisions with engineering defaults and exact consequences while leaving every owner decision/reviewer/minute null.
 - Preserved compiler attempt 1 after an incorrect RenderRecord field lookup raised before any output was written. Corrected only `reference_use_count` to the source's `input_reference_uses`.
 - Validator rejects 17/17 mutations; prompts/executable rows/plan revisions/acceptance/commercial clearance/calls/uploads/cost remain zero.
+
+## 2026-09-01 - CH05 P010–P013 production-manifest dry run r1
+
+- Compiled four exact ComicPanelPlan rows into a chapter-production-shaped manifest with candidate slots m001–m004, planned ignored output paths, complete nullable RenderRecord fields, and a stable row root.
+- Carried cel-painted P010, clear-line P011/P013, limited-ink P012, three reference hypotheses, and two unallocated one-class repair slots from the preflight.
+- Predeclared five deterministic review artifacts and five production stages, with prompt compilation blocked until every route/candidate/cadence/copy/reference/commercial gate resolves.
+- ADR-0113 keeps prompts/renders/uploads/calls/cost/acceptance/plan revisions at zero; 20/20 mutations fail.

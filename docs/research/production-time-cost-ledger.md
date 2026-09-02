@@ -79,3 +79,5 @@ Integrated release r4 adds no generation or external cost. Its four local comman
 Owner review index r3 and the 99-artifact link manifest add no generation or external cost. They compile ignored local HTML/thumbnails and tracked metadata only. Publication, calls, uploads, owner decisions, and acceptances remain zero; human minutes remain null.
 
 The route recommendation, ComicStyleDirection r10, and ten-row decision matrix add no generation or external cost. Prompts, executable rows, plan revisions, owner decisions, acceptances, commercial clearance, calls, and uploads remain zero; human minutes remain null.
+
+The P010–P013 production-manifest dry run adds no generation or external cost. Its four slots and five planned artifacts are metadata only; prompts, renders, executable rows, calls, uploads, accepted candidates, and plan revisions remain zero, while human minutes and provider cost remain null.

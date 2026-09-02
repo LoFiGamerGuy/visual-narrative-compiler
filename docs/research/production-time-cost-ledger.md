@@ -69,3 +69,5 @@ The P010–P013 preflight adds one ignored text storyboard and tracked null-prom
 Owner review index r2 adds one ignored HTML page and five ignored thumbnails from existing local artifacts with no generation or external cost. Decisions, acceptances, calls, uploads, and publication remain zero; human minutes remain null.
 
 Integrated release r3 adds no generation or external cost. Attempt 1 is preserved as a failed local validation; the successful 13-command/30-effective gate runs in 6.202 seconds. Calls/uploads/downloads/acceptances/executable panels remain zero and human minutes remain null.
+
+The chapter-scale envelope adds no generation or external cost. Its 36/49/72 candidate counts and 1,844.172/2,510.123/3,688.344 median seconds are unexecuted generation-only scenarios. Money and human review remain null; prompts/renders/uploads/plans/acceptances remain zero.

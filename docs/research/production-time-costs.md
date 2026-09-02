@@ -34,6 +34,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 P010–P013 preflight contract r1 | 4 plan hypotheses / 2 repair slots / 1 storyboard | local deterministic metadata/diagram build | unmeasured | $0 API/cloud | 0 prompts/renders/uploads/executable/accepted |
 | CH05 owner review index r2 | 7 links / 5 visual thumbnails / 1 local HTML hub | local deterministic HTML/thumbnail build | unmeasured | $0 API/cloud | 0 decisions/accepted/published |
 | CH05 integrated release r3 | 13 orchestrator / 30 effective local checks | 6.202 s observed successful gate; provider generation not used | unmeasured | $0 API/cloud | all checks pass; 0 accepted/executable |
+| CH05 chapter-scale envelope r1 | 36/49/72 unexecuted remaining-plan candidate scenarios | median 1,844.172/2,510.123/3,688.344 s generation-only | unmeasured | built-in cost unavailable; no execution | 0 prompts/renders/accepted/executable |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

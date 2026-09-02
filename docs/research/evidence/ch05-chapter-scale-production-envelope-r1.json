@@ -1,0 +1,105 @@
+{
+  "record_type": "CH05ChapterScaleProductionEnvelopeEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-chapter-scale-production-envelope-evidence-r1",
+  "state": "REMAINING_36_MEASURED_ENVELOPE_READY",
+  "envelope": {
+    "path": "production/comic/run-manifests/ch05-chapter-scale-production-envelope-r1.json",
+    "sha256": "5f39e2f60e1d48d621a6c4e4cdaa6d7f7924c3b6d6c00a1fcf54d091279d69d4",
+    "row_root_sha256": "b1dede65d164dd869f905d3ef80d38fb501049fe1aac1fd0e28dfe7e255e5f80"
+  },
+  "summary": {
+    "total_plans": 50,
+    "selected_existing": 14,
+    "remaining_plans": 36,
+    "tier_count": 3,
+    "plans_per_tier": 12,
+    "scenario_count": 3,
+    "repair_allowance_slots": 13,
+    "recommended_candidate_envelope": 49,
+    "row_count": 36,
+    "prompt_count": 0,
+    "execution_ready_rows": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "external_cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "scenarios": [
+    {
+      "scenario_id": "one_initial_per_remaining_plan",
+      "candidate_count": 36,
+      "purpose": "denominator coverage before targeted repair",
+      "executed": false,
+      "timing": {
+        "candidate_count": 36,
+        "p10_generation_seconds": 1099.116,
+        "median_generation_seconds": 1844.172,
+        "p90_generation_seconds": 2034.864,
+        "queue_review_layout_seconds_included": false,
+        "monetary_cost_usd": null,
+        "human_review_minutes": null
+      }
+    },
+    {
+      "scenario_id": "one_initial_plus_bounded_repairs",
+      "candidate_count": 49,
+      "purpose": "recommended chapter-scale planning ceiling after staged review",
+      "executed": false,
+      "timing": {
+        "candidate_count": 49,
+        "p10_generation_seconds": 1496.019,
+        "median_generation_seconds": 2510.123,
+        "p90_generation_seconds": 2769.676,
+        "queue_review_layout_seconds_included": false,
+        "monetary_cost_usd": null,
+        "human_review_minutes": null
+      }
+    },
+    {
+      "scenario_id": "two_arms_per_remaining_plan",
+      "candidate_count": 72,
+      "purpose": "comparative upper arm; no additional repair allowance",
+      "executed": false,
+      "timing": {
+        "candidate_count": 72,
+        "p10_generation_seconds": 2198.232,
+        "median_generation_seconds": 3688.344,
+        "p90_generation_seconds": 4069.728,
+        "queue_review_layout_seconds_included": false,
+        "monetary_cost_usd": null,
+        "human_review_minutes": null
+      }
+    }
+  ],
+  "remaining_role_counts": {
+    "MEDIUM_CHARACTER_CLUE": 8,
+    "MEDIUM_SENSORY_REACTION": 2,
+    "MEDIUM_TWO_SHOT": 3,
+    "SMALL_OBJECT_INSERT": 9,
+    "SMALL_SENSORY_INSERT": 6,
+    "WIDE_DIRECTIONAL_ANCHOR": 6,
+    "WIDE_ENVIRONMENTAL_MOTION": 2
+  },
+  "chart": {
+    "path": "experiments/review-packets/ch05-chapter-scale-production-envelope-r1/ch05-chapter-scale-production-envelope-r1.png",
+    "sha256": "88d65397ccc65cfac317d2af956f7b7710bc0f16161315fd42db684a0fee6ec1",
+    "bytes": 78755
+  },
+  "limitations": [
+    "Candidate elapsed distributions are from 26 heterogeneous CH05 candidates and are not a service-level forecast.",
+    "Scenario seconds exclude queueing, retries beyond candidate counts, human review, packet construction, layout, lettering, and release validation.",
+    "Monetary cost and human review time remain unavailable/null.",
+    "The 13 repair slots are a bounded allowance derived from observed nonpass fraction, not predicted failures."
+  ],
+  "activity": {
+    "prompts": 0,
+    "renders": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "plans_revised": 0,
+    "acceptances": 0,
+    "external_cost_usd": 0
+  },
+  "boundary": "Generation-only planning envelope; no SLA, money estimate, review-time estimate, prompt, render, upload, acceptance, plan revision, or commercial clearance."
+}

@@ -1069,3 +1069,10 @@
 - Kept r1/r2 and all 14 manifest rows byte-identical. Manifest r2 rebinds the current registry to the exact r1 row root with zero row/prompt/pixel rewrite; 15/15 mutations fail.
 - Compatibility reruns 17 current base checks, pins the historical manifest pass, and normalizes only the tracked-path count integer. The current manifest-r2 validator is a separate extension.
 - Release r3 passes 13/13 commands/30 effective checks in 6.202s and rejects 23/23 mutations. Frozen 16 + baseline 4 + source pass; calls/uploads/downloads/cost remain 0/0/0/$0.
+
+## 2026-09-01 - CH05 chapter-scale production envelope r1
+
+- Compiled the exact remaining denominator: 36 plans after 14 provisional selections, preserving Tier A/B/C at 12 each.
+- Derived generation-only 36/49/72-candidate scenarios from exact observed p10/median/p90 timings. Median values are 1,844.172/2,510.123/3,688.344 seconds.
+- The recommended planning envelope uses 13 repair slots from `ceil(36 × 9/26)`; this is explicitly an allowance, not a failure forecast.
+- ADR-0108 separates generation from queue/review/layout/lettering/release time. Money/human minutes remain null; all 36 prompts/executable rows are null/false; 25/25 mutations fail.

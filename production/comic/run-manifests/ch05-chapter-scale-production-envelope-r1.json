@@ -1,0 +1,1005 @@
+{
+  "record_type": "ComicChapterScaleProductionEnvelope",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-chapter-scale-production-envelope-r1",
+  "state": "MEASURED_NONEXECUTABLE_OWNER_REVIEW_GATED",
+  "medium": "comic",
+  "denominator": {
+    "comic_panel_plans": 50,
+    "selected_existing": 14,
+    "remaining": 36,
+    "tiers": {
+      "A": 12,
+      "B": 12,
+      "C": 12
+    }
+  },
+  "observed_basis": {
+    "candidate_count": 26,
+    "generation_seconds": 1230.058,
+    "p10_seconds": 30.531,
+    "median_seconds": 51.227,
+    "p90_seconds": 56.524,
+    "engineering_all_pass": 17,
+    "engineering_warn_or_fail": 9,
+    "nonpass_fraction": 0.346154
+  },
+  "repair_allowance": {
+    "formula": "ceil(36 * 9 / 26)",
+    "slots": 13,
+    "forecast": false,
+    "allocation_rule": "Allocate only after an exact retained single-class failure; no speculative reroll."
+  },
+  "scenarios": [
+    {
+      "scenario_id": "one_initial_per_remaining_plan",
+      "candidate_count": 36,
+      "purpose": "denominator coverage before targeted repair",
+      "executed": false,
+      "timing": {
+        "candidate_count": 36,
+        "p10_generation_seconds": 1099.116,
+        "median_generation_seconds": 1844.172,
+        "p90_generation_seconds": 2034.864,
+        "queue_review_layout_seconds_included": false,
+        "monetary_cost_usd": null,
+        "human_review_minutes": null
+      }
+    },
+    {
+      "scenario_id": "one_initial_plus_bounded_repairs",
+      "candidate_count": 49,
+      "purpose": "recommended chapter-scale planning ceiling after staged review",
+      "executed": false,
+      "timing": {
+        "candidate_count": 49,
+        "p10_generation_seconds": 1496.019,
+        "median_generation_seconds": 2510.123,
+        "p90_generation_seconds": 2769.676,
+        "queue_review_layout_seconds_included": false,
+        "monetary_cost_usd": null,
+        "human_review_minutes": null
+      }
+    },
+    {
+      "scenario_id": "two_arms_per_remaining_plan",
+      "candidate_count": 72,
+      "purpose": "comparative upper arm; no additional repair allowance",
+      "executed": false,
+      "timing": {
+        "candidate_count": 72,
+        "p10_generation_seconds": 2198.232,
+        "median_generation_seconds": 3688.344,
+        "p90_generation_seconds": 4069.728,
+        "queue_review_layout_seconds_included": false,
+        "monetary_cost_usd": null,
+        "human_review_minutes": null
+      }
+    }
+  ],
+  "recommended_planning_envelope": "one_initial_plus_bounded_repairs",
+  "tiers": [
+    {
+      "tier": "A",
+      "plan_count": 12,
+      "panel_ids": [
+        "ng-ch05-sc01-p010",
+        "ng-ch05-sc01-p011",
+        "ng-ch05-sc01-p012",
+        "ng-ch05-sc01-p013",
+        "ng-ch05-sc01-p014",
+        "ng-ch05-sc01-p015",
+        "ng-ch05-sc01-p017",
+        "ng-ch05-sc01-p018",
+        "ng-ch05-sc01-p020",
+        "ng-ch05-sc01-p021",
+        "ng-ch05-sc01-p022",
+        "ng-ch05-sc01-p023"
+      ],
+      "display_orders": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23
+      ],
+      "cadence_role_counts": {
+        "MEDIUM_CHARACTER_CLUE": 3,
+        "MEDIUM_TWO_SHOT": 1,
+        "SMALL_OBJECT_INSERT": 3,
+        "SMALL_SENSORY_INSERT": 2,
+        "WIDE_DIRECTIONAL_ANCHOR": 3
+      },
+      "initial_candidate_count": 12,
+      "bounded_repair_slots": 4,
+      "tier_envelope_candidates": 16,
+      "prompts": 0,
+      "executable": false
+    },
+    {
+      "tier": "B",
+      "plan_count": 12,
+      "panel_ids": [
+        "ng-ch05-sc01-p024",
+        "ng-ch05-sc01-p025",
+        "ng-ch05-sc01-p027",
+        "ng-ch05-sc01-p028",
+        "ng-ch05-sc01-p030",
+        "ng-ch05-sc01-p031",
+        "ng-ch05-sc01-p032",
+        "ng-ch05-sc01-p033",
+        "ng-ch05-sc01-p034",
+        "ng-ch05-sc01-p037",
+        "ng-ch05-sc01-p038",
+        "ng-ch05-sc01-p039"
+      ],
+      "display_orders": [
+        24,
+        25,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        37,
+        38,
+        39
+      ],
+      "cadence_role_counts": {
+        "MEDIUM_CHARACTER_CLUE": 4,
+        "MEDIUM_SENSORY_REACTION": 1,
+        "MEDIUM_TWO_SHOT": 1,
+        "SMALL_OBJECT_INSERT": 4,
+        "SMALL_SENSORY_INSERT": 1,
+        "WIDE_ENVIRONMENTAL_MOTION": 1
+      },
+      "initial_candidate_count": 12,
+      "bounded_repair_slots": 4,
+      "tier_envelope_candidates": 16,
+      "prompts": 0,
+      "executable": false
+    },
+    {
+      "tier": "C",
+      "plan_count": 12,
+      "panel_ids": [
+        "ng-ch05-sc01-p004",
+        "ng-ch05-sc01-p005",
+        "ng-ch05-sc01-p006",
+        "ng-ch05-sc01-p007",
+        "ng-ch05-sc01-p008",
+        "ng-ch05-sc01-p016",
+        "ng-ch05-sc01-p041",
+        "ng-ch05-sc01-p042",
+        "ng-ch05-sc01-p043",
+        "ng-ch05-sc01-p045",
+        "ng-ch05-sc01-p047",
+        "ng-ch05-sc01-p048"
+      ],
+      "display_orders": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        16,
+        41,
+        42,
+        43,
+        45,
+        47,
+        48
+      ],
+      "cadence_role_counts": {
+        "MEDIUM_CHARACTER_CLUE": 1,
+        "MEDIUM_SENSORY_REACTION": 1,
+        "MEDIUM_TWO_SHOT": 1,
+        "SMALL_OBJECT_INSERT": 2,
+        "SMALL_SENSORY_INSERT": 3,
+        "WIDE_DIRECTIONAL_ANCHOR": 3,
+        "WIDE_ENVIRONMENTAL_MOTION": 1
+      },
+      "initial_candidate_count": 12,
+      "bounded_repair_slots": 4,
+      "tier_envelope_candidates": 16,
+      "prompts": 0,
+      "executable": false
+    }
+  ],
+  "remaining_role_counts": {
+    "MEDIUM_CHARACTER_CLUE": 8,
+    "MEDIUM_SENSORY_REACTION": 2,
+    "MEDIUM_TWO_SHOT": 3,
+    "SMALL_OBJECT_INSERT": 9,
+    "SMALL_SENSORY_INSERT": 6,
+    "WIDE_DIRECTIONAL_ANCHOR": 6,
+    "WIDE_ENVIRONMENTAL_MOTION": 2
+  },
+  "rows": [
+    {
+      "panel_id": "ng-ch05-sc01-p004",
+      "display_order": 4,
+      "priority_tier": "C",
+      "narrative_function": "departure_orientation",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "MEDIUM_TWO_SHOT",
+      "width_range_px": [
+        880,
+        1040
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p005",
+      "display_order": 5,
+      "priority_tier": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "WIDE_ENVIRONMENTAL_MOTION",
+      "width_range_px": [
+        880,
+        1120
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p006",
+      "display_order": 6,
+      "priority_tier": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p007",
+      "display_order": 7,
+      "priority_tier": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p008",
+      "display_order": 8,
+      "priority_tier": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p010",
+      "display_order": 10,
+      "priority_tier": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p011",
+      "display_order": 11,
+      "priority_tier": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p012",
+      "display_order": 12,
+      "priority_tier": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p013",
+      "display_order": 13,
+      "priority_tier": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p014",
+      "display_order": 14,
+      "priority_tier": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p015",
+      "display_order": 15,
+      "priority_tier": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p016",
+      "display_order": 16,
+      "priority_tier": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "MEDIUM_SENSORY_REACTION",
+      "width_range_px": [
+        760,
+        1040
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p017",
+      "display_order": 17,
+      "priority_tier": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p018",
+      "display_order": 18,
+      "priority_tier": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p020",
+      "display_order": 20,
+      "priority_tier": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p021",
+      "display_order": 21,
+      "priority_tier": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p022",
+      "display_order": 22,
+      "priority_tier": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "MEDIUM_TWO_SHOT",
+      "width_range_px": [
+        880,
+        1040
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p023",
+      "display_order": 23,
+      "priority_tier": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p024",
+      "display_order": 24,
+      "priority_tier": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p025",
+      "display_order": 25,
+      "priority_tier": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p027",
+      "display_order": 27,
+      "priority_tier": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p028",
+      "display_order": 28,
+      "priority_tier": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p030",
+      "display_order": 30,
+      "priority_tier": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p031",
+      "display_order": 31,
+      "priority_tier": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p032",
+      "display_order": 32,
+      "priority_tier": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p033",
+      "display_order": 33,
+      "priority_tier": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "MEDIUM_SENSORY_REACTION",
+      "width_range_px": [
+        760,
+        1040
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p034",
+      "display_order": 34,
+      "priority_tier": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "MEDIUM_TWO_SHOT",
+      "width_range_px": [
+        880,
+        1040
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p037",
+      "display_order": 37,
+      "priority_tier": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p038",
+      "display_order": 38,
+      "priority_tier": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "WIDE_ENVIRONMENTAL_MOTION",
+      "width_range_px": [
+        880,
+        1120
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p039",
+      "display_order": 39,
+      "priority_tier": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p041",
+      "display_order": 41,
+      "priority_tier": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p042",
+      "display_order": 42,
+      "priority_tier": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p043",
+      "display_order": 43,
+      "priority_tier": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p045",
+      "display_order": 45,
+      "priority_tier": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p047",
+      "display_order": 47,
+      "priority_tier": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p048",
+      "display_order": 48,
+      "priority_tier": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "initial_candidate_slot": 1,
+      "repair_slot_allocated": false,
+      "prompt": null,
+      "final_copy": null,
+      "execution_ready": false,
+      "owner_accepted": false
+    }
+  ],
+  "row_root_sha256": "b1dede65d164dd869f905d3ef80d38fb501049fe1aac1fd0e28dfe7e255e5f80",
+  "workflow": [
+    {
+      "stage": 1,
+      "name": "owner_review_current_29",
+      "required": true,
+      "complete": false
+    },
+    {
+      "stage": 2,
+      "name": "P010_P013_microsequence",
+      "required": true,
+      "complete": false,
+      "candidate_envelope": 6
+    },
+    {
+      "stage": 3,
+      "name": "Tier_A_remainder",
+      "required": true,
+      "complete": false,
+      "candidate_envelope": 12
+    },
+    {
+      "stage": 4,
+      "name": "Tier_B_after_sequence_review",
+      "required": true,
+      "complete": false,
+      "candidate_envelope": 16
+    },
+    {
+      "stage": 5,
+      "name": "Tier_C_after_chapter_cadence_review",
+      "required": true,
+      "complete": false,
+      "candidate_envelope": 16
+    },
+    {
+      "stage": 6,
+      "name": "chapter_layout_lettering_acceptance",
+      "required": true,
+      "complete": false
+    }
+  ],
+  "required_per_candidate_records": [
+    "exact ComicPanelPlan snapshot/hash",
+    "exact prompt/hash and reference IDs/hashes",
+    "output path/hash/dimensions",
+    "elapsed time and exposed service metadata",
+    "engineering review dimensions and retained failure",
+    "phone preview and lettering-safe overlay",
+    "owner event state/minutes or explicit null",
+    "acceptance/commercial/reproducibility gates"
+  ],
+  "gates": {
+    "owner_completed_decisions": 0,
+    "final_copy_bound": 0,
+    "prompts_compiled": 0,
+    "execution_ready_rows": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "external_cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "inputs": [
+    {
+      "path": "production/comic/coverage/ch05-remaining-panel-priority-r1.json",
+      "sha256": "ef06e71819a9eee77e2800a756ebaef11c9af38c7593a9cfb90c1f83be2e0bcc"
+    },
+    {
+      "path": "production/comic/layout/ch05-panel-scale-cadence-policy-r1.json",
+      "sha256": "b08d402362bf807014332ec900ba583f89943b6e0095475d632bfcd8b91f7495"
+    },
+    {
+      "path": "docs/research/evidence/ch05-tier-a-effort-scenarios-r1.json",
+      "sha256": "8165e0e040b50a3ae992d0401c24d829bee61f940833ebef8d61e7e376ac6e10"
+    },
+    {
+      "path": "production/comic/review/ch05-failure-class-repair-matrix-r1.json",
+      "sha256": "2c3bb2dff8ff4512809f29c6fcdeb3d01964d6a88239bd7059c74807f0c075a3"
+    },
+    {
+      "path": "production/comic/repair-readiness/ch05-p010-p013-preflight-contract-r1.json",
+      "sha256": "83941a2c7de2684f3ef9f96443316fc6852c8208a116e5d7cbf14f6f2c8861a9"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+      "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5"
+    }
+  ],
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Generation-only planning envelope; no SLA, money estimate, review-time estimate, prompt, render, upload, acceptance, plan revision, or commercial clearance."
+}

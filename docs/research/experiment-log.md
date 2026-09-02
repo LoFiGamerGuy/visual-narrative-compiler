@@ -1408,3 +1408,10 @@
 - The live workspace returns expected exit 2 because both ignored owner-input files remain absent.
 - Two/two deterministic valid synthetic replays pass; 12/12 malformed input pairs and 19/19 evidence mutations fail under ADR-0155.
 - Exact hashes are reported only for present inputs; ingestion, lifecycle transition, prompts, renders, calls, uploads, acceptance, and rights remain closed.
+
+## 2026-09-01 - CH05 owner hub r8 and exact links r6
+
+- Extended immutable hub r7 with the session starter, response guide, ingestion preflight, model/license audit, and closeout r2.
+- Two consecutive hub builds produce byte-identical index and packet hashes; 22/22 hub mutations fail.
+- Preserved all 122 r5 links and added six current resources for 128 exact links: 110 ignored local plus 18 tracked metadata.
+- Seventeen/seventeen link-manifest mutations fail under ADR-0156; review/ingestion/promotion state remains closed.

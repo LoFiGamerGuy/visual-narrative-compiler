@@ -1,0 +1,87 @@
+{
+  "record_type": "CH05OwnerReviewIndexEvidence",
+  "schema_version": "8.0",
+  "record_id": "ng-ch05-owner-review-index-evidence-r8",
+  "state": "LOCAL_FINAL_REVIEW_SESSION_HUB_READY_INPUTS_ABSENT",
+  "packet": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r8/owner-review-index-r8-packet.json",
+    "sha256": "1700a75c1eba00ca823e7d9bdbcdaa0198ad0510ec5aa918cb0538d09a9031f8"
+  },
+  "extends": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r7/owner-review-index-r7-packet.json",
+    "sha256": "51393b8175c82df8256d52ea5b280b3b86db35b722118d41d527f29e75eb6dcb",
+    "prior_effective_link_count": 122
+  },
+  "summary": {
+    "candidate_count": 29,
+    "plan_count": 50,
+    "prior_review_links": 122,
+    "priority_review_links": 67,
+    "pilot_roots": 6,
+    "response_files": 0,
+    "event_logs": 0,
+    "owner_decisions_ingested": 0,
+    "human_review_minutes": null,
+    "accepted_candidates": 0,
+    "commercially_cleared": 0,
+    "executable_panels": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "link_count": 6,
+    "image_link_count": 0,
+    "html_link_count": 1,
+    "text_link_count": 5,
+    "artifact_count": 1
+  },
+  "links": [
+    {
+      "id": "index_r7",
+      "path": "experiments/review-packets/ch05-owner-review-index-r7/index.html",
+      "sha256": "4e64ae4f132f15eef789c6d3c23386f72d2353d65388b7121c6e774789eb88f3",
+      "kind": "HTML"
+    },
+    {
+      "id": "review_starter",
+      "path": "docs/research/ch05-final-review-session-starter-r1.md",
+      "sha256": "72f3703f98b3106ec96086a5a4e2a0c979d91708ff8572b05c330e7b61bd6e7e",
+      "kind": "TEXT"
+    },
+    {
+      "id": "response_guide",
+      "path": "docs/research/ch05-owner-response-guide-r1.md",
+      "sha256": "cc0c7a02af8568f325a2e2bc1cff9cef6687c3e2b5c52198440186a0247d34df",
+      "kind": "TEXT"
+    },
+    {
+      "id": "ingestion_preflight",
+      "path": "docs/research/ch05-owner-ingestion-preflight-contract-r1.md",
+      "sha256": "ef11eed4febb5c91d75228ecb4502610df93f3ad98c2cfc353fd49f4e6eb3025",
+      "kind": "TEXT"
+    },
+    {
+      "id": "model_license_audit",
+      "path": "docs/research/ch05-final-model-license-provenance-audit-r1.md",
+      "sha256": "347e5cc3927e58e2e08400d43feb34fe35c5d73d0f3182ecd8a30e946a34118f",
+      "kind": "TEXT"
+    },
+    {
+      "id": "closeout_r2",
+      "path": "docs/research/ch05-overnight-closeout-r2.md",
+      "sha256": "0f1560dd19c07e04509e25373d23a28b21e3157fb8ca90b5926b58abeb3332bd",
+      "kind": "TEXT"
+    }
+  ],
+  "index": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r8/index.html",
+    "sha256": "c1a91bc4f1bc3f12f3f7578664bed8cda0e958895d373e17f297fc605d7527ca",
+    "bytes": 3570
+  },
+  "determinism": {
+    "consecutive_build_count": 2,
+    "result": "BYTE_IDENTICAL_INDEX_AND_PACKET"
+  },
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Append-only local hub; r7, generated pixels, absent owner inputs, and production state remain unchanged."
+}

@@ -442,3 +442,5 @@ The separate six-root live timer records the architecture mismatch with the 39-s
 The final review-session starter binds eight dependency-ordered steps across the current 122-resource hub and 67 priority links. State partitions as 1 ready/4 owner-action/2 blocked/1 intentionally unimplemented; both planned local inputs remain absent and 25/25 mutations fail. This measures handoff completeness, not review completion or production readiness.
 
 The owner-ingestion preflight performs eight checks and returns expected exit 2 in the live absent-input state. Two deterministic valid synthetic replays pass, 12 malformed cross-file pairs fail, and 19 evidence mutations fail. Root, decision, reviewer, per-root minute, lifecycle, and hash parity are tested without ingestion or state transition.
+
+Owner hub r8 builds byte-identically with six links and one ignored artifact; 22/22 mutations fail. Exact link manifest r6 preserves 122 prior bindings and reaches 128 resources (110 ignored/18 tracked); 17/17 mutations fail.

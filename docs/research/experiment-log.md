@@ -948,3 +948,10 @@
 - Fifth-percentile black-type contrast remains at least 11.942:1, but rendered phone type ranges only 6.513–11.366px; 0/4 subjects meet the declared 13px target.
 - Visual review passes protected-content clearance for c005/c013/h001 and fails c014 because its tested balloon overlaps Soren's clothed upper arm/person area.
 - ADR-0090 carries 88% as the next backing arm, keeps narrow object inserts silent by default, and requires a ComicPanelPlan lettering revision before P044 text. Twelve/twelve mutations fail; calls/uploads/cost are 0/0/$0.
+
+## 2026-09-01 - CH05 lettering width/copy sensitivity r1
+
+- Swept one- and two-line non-canon review copy at the 88% backing arm over 30 cases for c005/c013/h001; c014 remains excluded because width cannot repair its person-overlap failure.
+- Minimum 13px phone-type widths are c005 1200/1200, c013 1200/1200, and h001 1120/1200 for one/two lines.
+- Consecutive builds preserve the same 31-artifact packet and reject 12/12 denominator/threshold/exclusion/promotion/activity mutations.
+- ADR-0091 and ComicStyleDirection r7 reserve near-full/full-width footprints for lettered anchors while keeping small causal inserts silent by default. No plan or assembly revision, provider call, upload, or cost occurs.

@@ -1,0 +1,40 @@
+{
+  "record_type": "ComicLetteringWidthCopySensitivityEngineeringReview",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-lettering-width-copy-sensitivity-review-r1",
+  "state": "PROVISIONAL_ENGINEERING_REVIEW_OWNER_REVIEW_PENDING",
+  "manifest": "production/comic/lettering/ch05-lettering-width-copy-sensitivity-r1.json",
+  "local_packet": "experiments/review-packets/ch05-lettering-width-copy-sensitivity-r1/width-copy-sensitivity-packet.json",
+  "human_review_minutes": null,
+  "accepted_layouts": [],
+  "measured_results": {
+    "cases": 30,
+    "artifacts": 31,
+    "target_phone_type_px": 13.0,
+    "minimum_passing_widths": {
+      "c005": {"one_line_short": 1200, "two_line_short": 1200},
+      "c013": {"one_line_short": 1200, "two_line_short": 1200},
+      "h001": {"one_line_short": 1120, "two_line_short": 1200}
+    }
+  },
+  "subject_reviews": [
+    {
+      "candidate_id": "c005",
+      "result": "FULL_BLEED_REQUIRED_FOR_TEST_COPY",
+      "note": "Both tested copy shapes first exceed 13px at 1200px. Preserve this beat as a silent/very-low-text transition at its current 720px footprint unless a future plan/layout revision makes it a lettered anchor."
+    },
+    {
+      "candidate_id": "c013",
+      "result": "FULL_BLEED_REQUIRED_FOR_TEST_COPY",
+      "note": "Both tested copy shapes first exceed 13px at 1200px. P040 is a deduction beat, so a future production assembly should treat it as a large lettered anchor or test an outside-art lettering structure."
+    },
+    {
+      "candidate_id": "h001",
+      "result": "1120_ONE_LINE_OR_1200_TWO_LINE",
+      "note": "The wide hero panel reaches 13.1px at 1120px for one line and 13.115px at 1200px for two lines; final copy must be retested."
+    }
+  ],
+  "excluded": [{"candidate_id": "c014", "reason": "Existing top-right placement fails protected-person clearance; width cannot repair semantic overlap."}],
+  "decision": "Reserve near-full/full-bleed panel footprints for beats that actually carry balloons. Keep small clue/action inserts silent unless a ComicPanelPlan revision establishes a valid outside-art or larger safe field. Do not enlarge every panel: cadence depends on alternating lettered anchors with quiet visual beats.",
+  "boundary": "No width, copy, lettering, assembly, panel plan, candidate, or production base is accepted or commercially cleared."
+}

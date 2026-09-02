@@ -215,6 +215,8 @@ The CH05 variable-cadence assembly selects 14 existing candidates across three s
 
 The CH05 transparent-lettering rehearsal builds 12 local treatments and 25 artifacts twice to an identical packet hash. All backing arms exceed 11.942:1 fifth-percentile measured black-type contrast, but current cadence footprints yield only 6.513–11.366px type and c014 fails person clearance. Twelve/twelve mutations fail. This measures backing contrast, footprint, and reviewed placement constraints—not final dialogue, font licensing, accessibility conformance, human acceptance, or production lettering.
 
+The CH05 width/copy sweep measures 30 local cases and 31 artifacts. The first 13px passes occur only at 1200px for c005/c013 and at 1120px one-line/1200px two-line for h001; c014 is excluded. Twelve/twelve mutations fail. This measures one font, two placeholder copy shapes, one backing, and candidate-specific geometry—not a universal width, final copy, localization, semantic acceptance, or plan revision.
+
 The blinded G07 protocol verifies 16/16 neutral candidate presentations and 4/4 hidden-arm repeat pairs, requiring 20 timed assertion decisions; 13/13 identity/order/coverage/timing mutations fail. Actual decisions remain 0, minutes null, and accepted subjects zero. This adds review readiness, not human renderer-quality evidence or a new selection decision.
 
 The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate cost, latency, drift, assertion, and failure-tag dimensions; 9/9 pending/fixture/coverage/mapping mutations fail. With review still pending it emits no human arm results, composite score, rank, or route change. Renderer-quality evidence and ADR-0025 remain unchanged.

@@ -37,3 +37,5 @@ The CH05 cadence-hardening run adds six candidates and 310.669 observed seconds 
 The separately non-canon future LitRPG concept trio adds 155.766 observed seconds. Total new built-in generation is 29 candidates and 1,385.824 seconds. Monetary cost remains unavailable; no paid API, BFL, cloud GPU, purchase, or G07-budget reuse occurred.
 
 The variable-cadence assembly and transparent-lettering rehearsal add no renderer generation and no external cost. They produce 13 and 25 ignored local review artifacts respectively from existing unaccepted pixels. Provider calls/uploads are zero; human minutes remain null; accepted panels, sequences, and lettering treatments remain zero.
+
+The lettering width/copy sensitivity sweep adds 30 local layout cases and 31 ignored review artifacts with no renderer generation or external cost. Provider calls/uploads remain zero; human minutes and acceptance remain null/zero.

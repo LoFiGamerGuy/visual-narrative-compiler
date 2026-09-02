@@ -1422,3 +1422,10 @@
 - Added a narrow compatibility validator accepting only the exact return code/stdout/single nested mismatch; 8/8 r11 mutations fail.
 - Successful r12 passes 11/11 commands in 139.975 seconds, represents 84 effective checks, and rejects 33/33 mutations on independent replay.
 - Ledger r29 reaches 82 local zero-external-cost milestones; requests/uploads/paid API-cloud spend remain 0/0/$0 under ADR-0157.
+
+## 2026-09-01 - CH05 final safe-source parity r4
+
+- Captured pushed commit `df41783` after first committing the validator to avoid self-reference.
+- Bound 934 paths/14,070,835 bytes, tree `f5d1a7b6…e0c53`, and inventory root `c512c072…1f07`.
+- Confirmed release 84, links 128, exactly two public controls, and zero generated/prohibited/credential/model/dataset/private-reference/unrelated tracked paths.
+- Nineteen/nineteen mutations fail under ADR-0158; generated review pixels remain ignored and local.

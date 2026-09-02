@@ -446,3 +446,5 @@ The owner-ingestion preflight performs eight checks and returns expected exit 2 
 Owner hub r8 builds byte-identically with six links and one ignored artifact; 22/22 mutations fail. Exact link manifest r6 preserves 122 prior bindings and reaches 128 resources (110 ignored/18 tracked); 17/17 mutations fail.
 
 Final-review release r12 preserves a 10/11 attempt, then uses one exact nested-lineage compatibility rule over immutable r11. The successful run passes 11/11 commands in 139.975 seconds, represents 84 checks, and independently rejects 33/33 mutations. Ledger r29 totals 82 zero-cost milestones.
+
+Final safe-source r4 pins pushed commit `df41783` at 934 paths/14,070,835 bytes, tree `f5d1a7b6…e0c53`, and root `c512c072…1f07`. Two controls and zero generated/prohibited/credential/model/dataset/private-reference paths are tracked; 19/19 mutations fail.

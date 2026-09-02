@@ -111,3 +111,5 @@ Integrated evidence now passes release r7 at `docs/research/evidence/ch05-overni
 The consolidated handoff is `production/comic/handoff/ch05-overnight-delivery-bundle-r1.json`, with tracked evidence at `docs/research/evidence/ch05-overnight-delivery-bundle-r1.json`, a concise owner-facing summary at `docs/research/ch05-overnight-delivery-summary-r1.md`, and the release-r7 changed-file inventory at `docs/research/ch05-overnight-changed-files-through-release-r7.md`. ADR-0125 binds counts, hashes, recommendations, limitations, and ten still-open decisions without accepting or commercially clearing any candidate.
 
 Safe-source delivery parity is pinned at `docs/research/evidence/ch05-overnight-safe-source-parity-r1.json`: pushed commit `a1454db`, 735 paths, 11,861,823 bytes, two exact controls, and zero generated/prohibited/oversize/credential paths under ADR-0126.
+
+Integrated evidence now passes release r8 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r8.json`: immutable 46-check r7 plus three extensions gives 49 effective checks, 4/4 commands, and 26/26 rejected mutations under ADR-0127.

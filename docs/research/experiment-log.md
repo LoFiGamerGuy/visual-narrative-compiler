@@ -1205,3 +1205,10 @@
 - Validated every historical blob plus current tracked scope and remote ancestry/parity.
 - Exactly two public controls are tracked; generated/prohibited/oversize/credential paths and unrelated untracked inventory entries are zero.
 - Sixteen/sixteen mutations fail under ADR-0126; ignored local review pixels remain untracked and unpublished.
+
+## 2026-09-01 - CH05 integrated release r8
+
+- Preserved immutable r7 and added independent delivery-bundle, cost-ledger-r24, and commit-pinned safe-source validators.
+- Four/four commands pass in 30.259 seconds, representing 49 effective checks; 26/26 release mutations fail.
+- Bound 29 candidates, 50 plans, 105 links, 735 safe paths, and 52 zero-cost milestones while preserving exact frozen/baseline integrity.
+- ADR-0127 keeps review, acceptance, commercial clearance, executable state, calls, uploads, downloads, and paid spend at zero/null.

@@ -1,0 +1,113 @@
+{
+  "record_type": "CH05OvernightIntegratedReleaseGate",
+  "schema_version": "1.7",
+  "record_id": "ng-ch05-overnight-integrated-release-gate-r8",
+  "state": "PASS",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-ch05-overnight-integrated-release-gate-r7",
+    "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r7.json",
+    "sha256": "fa908e09804ef5a7cf0af2b43a6b0e07ce3aeb8da8e8a3fb61a9d5497f2dd100"
+  },
+  "summary": {
+    "base_effective_command_count": 46,
+    "extension_command_count": 3,
+    "effective_command_count": 49,
+    "orchestrator_commands": 4,
+    "passed": 4,
+    "failed": 0,
+    "observed_total_seconds": 30.258792,
+    "network_capable_commands": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "downloads": 0,
+    "cost_usd": 0,
+    "accepted_candidates": 0,
+    "commercially_cleared_candidates": 0,
+    "executable_panels": 0,
+    "owner_decisions": 0,
+    "human_review_minutes": null
+  },
+  "results": [
+    {
+      "path": "src/north_garden/validate_ch05_overnight_integrated_release_gate_r7.py",
+      "arguments": [],
+      "script_sha256": "cdc2e65b2ff12f102a371f41545910c456e28f53c37c86a01598a4089db9e1e0",
+      "command": "python src/north_garden/validate_ch05_overnight_integrated_release_gate_r7.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 14.701007,
+      "stdout": "CH05 overnight integrated release r7: 0 failures; immutable 42 + 4 = 46 effective checks; 25/25 mutations rejected\n12 sequences/50 lettering rows/105 links/24 tasks; frozen 16 + baseline 4; 0 prompts/review/accepted/executable/calls/uploads/$0\n",
+      "stdout_sha256": "e73af1904f8b81969ab9340d0c89cbb8dbb15a7c9465b8b420bf9a89a22e0481",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_overnight_delivery_bundle.py",
+      "arguments": [],
+      "script_sha256": "c7a08f23fef917716994cf5f86aacd3a17141154890c44466e1b1342b41a01e4",
+      "command": "python src/north_garden/validate_ch05_overnight_delivery_bundle.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.100645,
+      "stdout": "CH05 delivery bundle: 0 failures; 29 candidates/50 plans/12 batches/105 links/10 decisions/46 checks; 21/21 mutations rejected\npaid spend/decisions/accepted/executable/minutes $0/0/0/0/null\n",
+      "stdout_sha256": "cbedf46bc445d91f10995c5c7c47a9827c7d53b0a08017d7d1124f31e8b98db9",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r24.py",
+      "arguments": [],
+      "script_sha256": "20687330aa072e4e35f20d9f1486fcd5263b7c067d0bcb04804b4194496e7c8f",
+      "command": "python src/north_garden/validate_ch05_production_cost_ledger_r24.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.07655,
+      "stdout": "CH05 cost ledger r24: 0 failures; 52 zero-cost milestones; 0 requests/uploads/$0; 8/8 mutations rejected\n",
+      "stdout_sha256": "ee705aac6162a5987996b70896629e1f099fe07389b3581587b602e02606a5a0",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_overnight_safe_source_parity.py",
+      "arguments": [
+        "--allow-unpushed-current"
+      ],
+      "script_sha256": "bd3ee37cdfd204c19657b168e2c2460cef1ca84d3fd0345c1cd5a230a3f93f28",
+      "command": "python src/north_garden/validate_ch05_overnight_safe_source_parity.py --allow-unpushed-current",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 15.379786,
+      "stdout": "0 failures, 0 warnings (738 tracked safe-source paths; origin verified)\nCH05 safe delivery: 0 failures (735 paths/11861823 bytes; tree 7a7085da8b3fc320defa27233121f0afdff32c4d; root fea9401edf72cbbaac3a5357088d7b14848886cfe7f5d163268354238063c4ca)\n2 controls; 0 generated/prohibited/oversize/credential paths; 16/16 mutations rejected; capture pushed/current parity valid\n",
+      "stdout_sha256": "54abcf0fb142af81d8255167a292a7c8c757e1d95b23fc01050c19327f5b2712",
+      "stderr": ""
+    }
+  ],
+  "effective_state": {
+    "candidates": 29,
+    "ch05_candidates": 26,
+    "noncanon_concepts": 3,
+    "comic_panel_plans": 50,
+    "represented_plans": 14,
+    "sequence_batches": 12,
+    "review_links": 105,
+    "strongest_candidates": 14,
+    "remaining_owner_decisions": 10,
+    "limitations": 8,
+    "observed_generation_seconds": 1385.036,
+    "reference_uses": 39,
+    "safe_source_capture_commit": "a1454db0ec0fbe80bda7c88a55764047c62618b4",
+    "safe_source_paths": 735,
+    "safe_source_bytes": 11861823,
+    "safe_source_generated_paths": 0,
+    "zero_cost_milestones": 52,
+    "next_prompts": 0,
+    "frozen_paths": 16,
+    "baseline_paths": 4
+  },
+  "boundaries": [
+    "R7 remains immutable; r8 preserves 46 effective checks and adds delivery, cost-ledger, and commit-pinned safe-source validators.",
+    "Safe-source capture parity is historical; ancestry mode lets later append-only commits reproduce the captured inventory.",
+    "Passing does not ingest owner review, accept or clear art, compile prompts, upload, revise plans, or authorize production."
+  ]
+}

@@ -230,6 +230,8 @@ The consolidated delivery-bundle milestone is complete under ADR-0125. One exact
 
 The safe-source delivery parity milestone is complete under ADR-0126. Pushed commit `a1454db` contains 735 paths / 11,861,823 bytes at tree `7a7085da…c4d` and inventory root `fea9401e…4ca`; exactly two public controls and zero generated/prohibited/oversize/credential paths are tracked. Sixteen/sixteen mutations fail, and ignored review pixels plus unrelated untracked items remain outside the inventory. The next bounded milestone is append-only integrated release r8 covering the delivery bundle, cost ledger r24, and safe-source parity.
 
+The integrated release r8 milestone is complete under ADR-0127. Immutable r7 plus delivery-bundle, cost-ledger-r24, and safe-source-parity extensions gives 49 effective checks; 4/4 commands pass in 30.259 seconds and 26/26 mutations fail. The gate binds 29 candidates, 50 plans, 105 links, 735 safe paths, and 52 recorded zero-cost milestones while keeping frozen/baseline and all review/provider/promotion state closed. The next bounded milestone is an exact final reproducer matrix spanning release r8, delivery, source, frozen integrity, tracked scope, and remote lineage.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

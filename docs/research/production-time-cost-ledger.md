@@ -107,3 +107,5 @@ Integrated release r7 adds no generation or external cost. Its five commands rep
 Delivery-bundle r1 is appended as a zero-external-cost milestone in ledger r24. It makes zero provider requests/uploads and incurs $0 paid API/cloud cost; the CH05 production cap remains null and disabled. Built-in product cost is unavailable and is not entered as zero.
 
 Safe-source delivery parity r1 makes zero provider requests/uploads/downloads and incurs $0 paid API/cloud cost. It inventories an already-pushed commit locally and does not retrieve or publish generated material.
+
+Integrated release r8 adds no generation or external cost. Ledger r25 appends safe-source parity and release r8 as two local zero-external-cost milestones, bringing the chain to 54 while leaving the CH05 cap null and disabled.

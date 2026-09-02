@@ -1415,3 +1415,10 @@
 - Two consecutive hub builds produce byte-identical index and packet hashes; 22/22 hub mutations fail.
 - Preserved all 122 r5 links and added six current resources for 128 exact links: 110 ignored local plus 18 tracked metadata.
 - Seventeen/seventeen link-manifest mutations fail under ADR-0156; review/ingestion/promotion state remains closed.
+
+## 2026-09-01 - CH05 final-review integrated release r12 and cost ledger r29
+
+- Preserved attempt 1 after all ten current extensions passed but immutable r11 exposed one nested r10-lineage mismatch through final reproducer r2.
+- Added a narrow compatibility validator accepting only the exact return code/stdout/single nested mismatch; 8/8 r11 mutations fail.
+- Successful r12 passes 11/11 commands in 139.975 seconds, represents 84 effective checks, and rejects 33/33 mutations on independent replay.
+- Ledger r29 reaches 82 local zero-external-cost milestones; requests/uploads/paid API-cloud spend remain 0/0/$0 under ADR-0157.

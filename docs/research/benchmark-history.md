@@ -444,3 +444,5 @@ The final review-session starter binds eight dependency-ordered steps across the
 The owner-ingestion preflight performs eight checks and returns expected exit 2 in the live absent-input state. Two deterministic valid synthetic replays pass, 12 malformed cross-file pairs fail, and 19 evidence mutations fail. Root, decision, reviewer, per-root minute, lifecycle, and hash parity are tested without ingestion or state transition.
 
 Owner hub r8 builds byte-identically with six links and one ignored artifact; 22/22 mutations fail. Exact link manifest r6 preserves 122 prior bindings and reaches 128 resources (110 ignored/18 tracked); 17/17 mutations fail.
+
+Final-review release r12 preserves a 10/11 attempt, then uses one exact nested-lineage compatibility rule over immutable r11. The successful run passes 11/11 commands in 139.975 seconds, represents 84 checks, and independently rejects 33/33 mutations. Ledger r29 totals 82 zero-cost milestones.

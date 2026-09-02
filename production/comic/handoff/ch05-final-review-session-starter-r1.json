@@ -1,0 +1,176 @@
+{
+  "record_type": "CH05FinalReviewSessionStarter",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-final-review-session-starter-r1",
+  "state": "READY_FOR_OWNER_REVIEW_LOCAL_INPUTS_ABSENT",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "production/comic/handoff/ch05-overnight-closeout-bundle-r2.json",
+      "sha256": "efe2a3d471a1a446c205099151263589382e6d668aebe0b8295f87643809ad16"
+    },
+    {
+      "path": "production/comic/handoff/ch05-owner-decision-defaults-packet-r1.json",
+      "sha256": "ab56dcd5e6b90db45d5e3ea29f1dcc931a39a164ff506f9a7920443849c44216"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-response-template-r1.json",
+      "sha256": "d5fdac5bb0b05d02e43b77a18724f150308c63abeaedfaf358d5682ee1aa31fb"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-response-schema-r1.json",
+      "sha256": "a11fb43ee68876e1a8c6c0afddbb20f169fa661965aa2439ec145eeea2721c0d"
+    },
+    {
+      "path": "production/comic/review/ch05-pilot-root-review-time-contract-r1.json",
+      "sha256": "cae10f7436e1e1fdc68a69a14cace39fc0c602b5eeea571fc3990c3de5c807de"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-lifecycle-state-machine-r1.json",
+      "sha256": "2a8d5f67e57a45dce1ceec83464db2ac0a514a001af91314391d64a7c3068cf0"
+    },
+    {
+      "path": "production/comic/handoff/ch05-chapter-production-operating-playbook-r1.json",
+      "sha256": "90841cef7392eb7b5c1ed1bd3e9779d8aadc8481136ea0ed4f68218cc952c050"
+    }
+  ],
+  "summary": {
+    "steps": 8,
+    "ready_steps": 1,
+    "owner_action_steps": 4,
+    "blocked_steps": 2,
+    "intentionally_unimplemented_steps": 1,
+    "pilot_root_subjects": 6,
+    "legacy_full_review_subjects": 39,
+    "strongest_candidates": 14,
+    "generated_sequences": 3,
+    "priority_review_links": 67,
+    "response_files_present": 0,
+    "event_logs_present": 0,
+    "owner_decisions_ingested": 0,
+    "review_events": 0,
+    "human_review_minutes": null,
+    "production_prompts": 0,
+    "renders": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0
+  },
+  "review_scope": {
+    "minimum_metadata_unlock": "six exact pilot roots with separate live timer and response validation",
+    "full_promotion_review": "39-subject candidate/sequence/cadence/style/density/lettering contract plus new candidate packet checks",
+    "commercial_exact_base": "always separate deferred owner authority"
+  },
+  "current_lifecycle": {
+    "state": "DRAFT_BLUEPRINTED",
+    "enabled_transitions": 0,
+    "next_state": "OWNER_ROOTS_RESOLVED",
+    "production_prompt_state": "ABSENT"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "id": "open_review_hub",
+      "status": "READY",
+      "action": "Open the current local owner hub and use its nested prior hubs for art, sequence, continuity, lettering, capacity, and evidence review.",
+      "resource": {
+        "path": "experiments/review-packets/ch05-owner-review-index-r7/index.html",
+        "sha256": "4e64ae4f132f15eef789c6d3c23386f72d2353d65388b7121c6e774789eb88f3",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-owner-review-index-r7/index.html"
+      },
+      "pass": "reviewer can reach the 122-resource inventory and 67 priority links",
+      "blocks": "broken local link or wrong workspace root"
+    },
+    {
+      "order": 2,
+      "id": "review_priority_art",
+      "status": "OWNER_ACTION",
+      "action": "Review the 14 strongest candidates, three generated sequences, cadence scrolls, continuity atlases, lettering comparisons, and non-canon concept sheet.",
+      "resource": {
+        "path": "docs/research/ch05-overnight-closeout-r1.md",
+        "sha256": "0259ac83fe08d674ce1e0dd1094a1cd62a13b36793ed5b681ab02d39571990eb",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-overnight-closeout-r1.md"
+      },
+      "pass": "visual preferences and failure concerns are known; no group acceptance inferred",
+      "blocks": "unreviewed candidate-specific acceptance or unresolved face/hair/wardrobe/causal concern"
+    },
+    {
+      "order": 3,
+      "id": "review_six_defaults",
+      "status": "OWNER_ACTION",
+      "action": "Review six exact pilot defaults separately from four deferred candidate/lettering/non-canon/rights choices.",
+      "resource": {
+        "path": "docs/research/ch05-owner-decision-defaults-r1.md",
+        "sha256": "8fef29052c50103eb0979f70ed623af6a87ba59ba04950400e60ac050ff25043",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-owner-decision-defaults-r1.md"
+      },
+      "pass": "each root has one intended exact allowed value",
+      "blocks": "broad approval without exact values"
+    },
+    {
+      "order": 4,
+      "id": "capture_live_root_time",
+      "status": "OWNER_ACTION",
+      "action": "Create an ignored local six-root event log using only live timer events; do not backfill prior review.",
+      "resource": {
+        "path": "production/comic/review/ch05-pilot-root-review-time-contract-r1.json",
+        "sha256": "cae10f7436e1e1fdc68a69a14cace39fc0c602b5eeea571fc3990c3de5c807de",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/production/comic/review/ch05-pilot-root-review-time-contract-r1.json"
+      },
+      "planned_local_path": "experiments/review-inputs/ch05-pilot-root-review-events-r1.json",
+      "pass": "all six roots complete with allowed decisions and derived positive minutes",
+      "blocks": "missing/reversed/duplicate events, invalid decisions, or inferred minutes"
+    },
+    {
+      "order": 5,
+      "id": "fill_response_copy",
+      "status": "OWNER_ACTION",
+      "action": "Copy the null template to an ignored local response and fill exactly six roots, reviewer, and minutes from the valid live log.",
+      "resource": {
+        "path": "production/comic/review/ch05-owner-response-template-r1.json",
+        "sha256": "d5fdac5bb0b05d02e43b77a18724f150308c63abeaedfaf358d5682ee1aa31fb",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/production/comic/review/ch05-owner-response-template-r1.json"
+      },
+      "planned_local_path": "experiments/review-inputs/ch05-owner-pilot-root-response-r1.json",
+      "pass": "deferred/promotion/plan/cross-medium fields remain null",
+      "blocks": "missing root, invalid value, or expanded authority"
+    },
+    {
+      "order": 6,
+      "id": "validate_local_inputs",
+      "status": "BLOCKED_FILES_ABSENT",
+      "commands": [
+        "python src/north_garden/validate_ch05_pilot_root_review_event_log.py experiments/review-inputs/ch05-pilot-root-review-events-r1.json",
+        "python src/north_garden/validate_ch05_owner_response.py experiments/review-inputs/ch05-owner-pilot-root-response-r1.json --mode response"
+      ],
+      "pass": "both validators return zero",
+      "blocks": "either local file absent or validator nonzero"
+    },
+    {
+      "order": 7,
+      "id": "hash_chained_ingestion",
+      "status": "INTENTIONALLY_NOT_IMPLEMENTED",
+      "action": "A future append-only compiler must bind the valid response and event-log hashes, then update decision state without rewriting the contracts.",
+      "pass": "new ingestion evidence exists and lifecycle transition guard passes",
+      "blocks": "validation alone, manual JSON edit, or fabricated decision state"
+    },
+    {
+      "order": 8,
+      "id": "next_lifecycle_transition",
+      "status": "BLOCKED_INGESTION_ABSENT",
+      "action": "Only after ingestion, transition DRAFT_BLUEPRINTED to OWNER_ROOTS_RESOLVED; production prompts remain a separate later transition.",
+      "pass": "six roots resolved and exact alternate prerequisites, if any, are bound",
+      "blocks": "prompt compilation, provider call, or upload before owner-root transition"
+    }
+  ],
+  "absent_local_inputs": [
+    "experiments/review-inputs/ch05-pilot-root-review-events-r1.json",
+    "experiments/review-inputs/ch05-owner-pilot-root-response-r1.json"
+  ],
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Review-session preparation only. No response/log is created, no decision is ingested, and no prompt, render, upload, acceptance, rights, exact-base, or plan authority is granted."
+}

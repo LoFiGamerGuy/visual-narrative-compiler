@@ -1394,3 +1394,10 @@
 - Preserved the legacy contract and added a separate six-root live-only contract for the three mapped and three previously absent IDs.
 - Bound four event types, seven fields, six rules, and exact allowed root decisions.
 - Three/three valid logs pass, 12/12 malformed fail, and 19/19 mutations fail under ADR-0153; actual events/minutes/decisions remain zero/null.
+
+## 2026-09-01 - CH05 final review-session starter r1
+
+- Bound the current owner hub, closeout, six defaults, response schema/template, six-root timer, pilot lifecycle, and operating playbook into one eight-step review start point.
+- Partitioned work into one ready navigation step, four owner actions, two blocked steps, and one intentionally unimplemented hash-chained ingestion step.
+- Kept both ignored local response/event-log paths absent; live events, minutes, decisions, prompts, renders, uploads, acceptance, rights, and execution remain zero/null.
+- Twenty-five/twenty-five mutations fail under ADR-0154.

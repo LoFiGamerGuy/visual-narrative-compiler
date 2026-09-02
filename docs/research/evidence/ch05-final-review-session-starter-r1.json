@@ -1,0 +1,75 @@
+{
+  "record_type": "CH05FinalReviewSessionStarterEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-final-review-session-starter-evidence-r1",
+  "state": "PASS_LOCAL_INPUTS_ABSENT",
+  "starter": {
+    "path": "production/comic/handoff/ch05-final-review-session-starter-r1.json",
+    "sha256": "7fe9753bf44c9c1be3f16c95c96fcef2e692f8b1316e06b204bb0bf77b916652"
+  },
+  "guide": {
+    "path": "docs/research/ch05-final-review-session-starter-r1.md",
+    "sha256": "72f3703f98b3106ec96086a5a4e2a0c979d91708ff8572b05c330e7b61bd6e7e"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/handoff/ch05-overnight-closeout-bundle-r2.json",
+      "sha256": "efe2a3d471a1a446c205099151263589382e6d668aebe0b8295f87643809ad16"
+    },
+    {
+      "path": "production/comic/handoff/ch05-owner-decision-defaults-packet-r1.json",
+      "sha256": "ab56dcd5e6b90db45d5e3ea29f1dcc931a39a164ff506f9a7920443849c44216"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-response-template-r1.json",
+      "sha256": "d5fdac5bb0b05d02e43b77a18724f150308c63abeaedfaf358d5682ee1aa31fb"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-response-schema-r1.json",
+      "sha256": "a11fb43ee68876e1a8c6c0afddbb20f169fa661965aa2439ec145eeea2721c0d"
+    },
+    {
+      "path": "production/comic/review/ch05-pilot-root-review-time-contract-r1.json",
+      "sha256": "cae10f7436e1e1fdc68a69a14cace39fc0c602b5eeea571fc3990c3de5c807de"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-lifecycle-state-machine-r1.json",
+      "sha256": "2a8d5f67e57a45dce1ceec83464db2ac0a514a001af91314391d64a7c3068cf0"
+    },
+    {
+      "path": "production/comic/handoff/ch05-chapter-production-operating-playbook-r1.json",
+      "sha256": "90841cef7392eb7b5c1ed1bd3e9779d8aadc8481136ea0ed4f68218cc952c050"
+    }
+  ],
+  "summary": {
+    "steps": 8,
+    "ready_steps": 1,
+    "owner_action_steps": 4,
+    "blocked_steps": 2,
+    "intentionally_unimplemented_steps": 1,
+    "pilot_root_subjects": 6,
+    "legacy_full_review_subjects": 39,
+    "strongest_candidates": 14,
+    "generated_sequences": 3,
+    "priority_review_links": 67,
+    "response_files_present": 0,
+    "event_logs_present": 0,
+    "owner_decisions_ingested": 0,
+    "review_events": 0,
+    "human_review_minutes": null,
+    "production_prompts": 0,
+    "renders": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0
+  },
+  "absent_local_inputs": [
+    "experiments/review-inputs/ch05-pilot-root-review-events-r1.json",
+    "experiments/review-inputs/ch05-owner-pilot-root-response-r1.json"
+  ],
+  "animation_shot_plan": null,
+  "e_conte": null
+}

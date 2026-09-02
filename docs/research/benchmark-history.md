@@ -438,3 +438,5 @@ Final model/license/provenance audit reconciles 29 records, 39 uses, three hashe
 The owner-response schema validates one null template and two synthetic complete responses while rejecting 20/20 malformed fixtures and 19/19 evidence mutations. It validates only six exact roots and performs no ingestion or authority expansion.
 
 The separate six-root live timer records the architecture mismatch with the 39-subject timer: three exact mappings and three missing. Three/three valid logs pass, 12/12 malformed fail, and 19/19 evidence mutations fail; no live event exists.
+
+The final review-session starter binds eight dependency-ordered steps across the current 122-resource hub and 67 priority links. State partitions as 1 ready/4 owner-action/2 blocked/1 intentionally unimplemented; both planned local inputs remain absent and 25/25 mutations fail. This measures handoff completeness, not review completion or production readiness.

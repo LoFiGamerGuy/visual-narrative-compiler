@@ -235,6 +235,8 @@ The owner decision worksheet deterministically binds 39 pending subjects to 29 c
 
 The owner-decision draft validator accepts 3/3 well-formed synthetic local-draft shapes, rejects 14/14 malformed fixtures, and rejects 16/16 evidence mutations while the live contract stays empty. This is schema and boundary coverage, not owner review, event ingestion, or acceptance.
 
+The character-assertion compiler covers 50/50 plans and the lint passes 26/26 exact CH05 prompts, including 4/4 P036 composition-only guards; 16/16 evidence mutations fail. These are metadata/string checks and do not measure rendered identity, hair, wardrobe, anatomy, or visual quality.
+
 The blinded G07 protocol verifies 16/16 neutral candidate presentations and 4/4 hidden-arm repeat pairs, requiring 20 timed assertion decisions; 13/13 identity/order/coverage/timing mutations fail. Actual decisions remain 0, minutes null, and accepted subjects zero. This adds review readiness, not human renderer-quality evidence or a new selection decision.
 
 The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate cost, latency, drift, assertion, and failure-tag dimensions; 9/9 pending/fixture/coverage/mapping mutations fail. With review still pending it emits no human arm results, composite score, rank, or route change. Renderer-quality evidence and ADR-0025 remain unchanged.

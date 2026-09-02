@@ -1,0 +1,672 @@
+{
+  "record_type": "CH05CharacterAssertionAndPromptLintEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-character-assertion-and-prompt-lint-evidence-r1",
+  "state": "FIFTY_PLAN_ASSERTIONS_AND_TWENTY_SIX_PROMPTS_PASS",
+  "manifest": {
+    "path": "production/comic/continuity/ch05-character-assertion-manifest-r1.json",
+    "sha256": "3e4583e5ab9eb1321ae5ff16b30596ca141d43d82481c59e50ab65bcafd2c1e2",
+    "plan_row_root_sha256": "0aa47f383b17d1edc4a45324f344c66533cb6c6be72e49ac6a1d7109e02e1f12"
+  },
+  "inputs": {
+    "plan_collection": {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    },
+    "continuity_profile": {
+      "path": "production/comic/continuity/ch05-fictional-adult-visual-profile-r1.json",
+      "sha256": "4a2bac302ad720e67e281e7b59903b8b2c5a43792056175c6add103b873eb3b2"
+    },
+    "prompt_manifests": [
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+        "sha256": "31698fc5f57da255e0de4f2fe54c8c4172932fc947421a8514a990198d6628f6"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/prompt-manifest.json",
+        "sha256": "aace5fd58f842c0218dd853d36a468c1e081de2a541def151c2a3859695d54ce"
+      }
+    ]
+  },
+  "summary": {
+    "plan_count": 50,
+    "no_people_plans": 18,
+    "soren_only_plans": 8,
+    "sigrid_only_plans": 7,
+    "dual_cast_plans": 17,
+    "prompt_count": 26,
+    "prompt_pass_count": 26,
+    "p036_prompt_count": 4,
+    "rendered_identity_inference_count": 0,
+    "prompts_created": 0,
+    "plans_revised": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "external_cost_usd": 0
+  },
+  "prompt_rows": [
+    {
+      "candidate_id": "c001",
+      "panel_id": "ng-ch05-sc01-p001",
+      "plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "ad0559cd15d3eb0f14847a73e39b5d87949fb776b04f7e67aa02df59a371720d",
+      "reference_ids": [
+        "p050_dual_identity_action"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c002",
+      "panel_id": "ng-ch05-sc01-p002",
+      "plan_revision_id": "ng-ch05-sc01-p002-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "200bcc58cede0b23df3c315d50e74cd52e74f8306866f3181ff84f7b5a7da599",
+      "reference_ids": [
+        "p040_sigrid_face"
+      ],
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c003",
+      "panel_id": "ng-ch05-sc01-p003",
+      "plan_revision_id": "ng-ch05-sc01-p003-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "2291818ab1541e6c3a50f808eb7c7bcff2e914312f6dd16c2da2420d251a0cc1",
+      "reference_ids": [
+        "p050_dual_identity_action"
+      ],
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c004",
+      "panel_id": "ng-ch05-sc01-p009",
+      "plan_revision_id": "ng-ch05-sc01-p009-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "8c7bdfdebc28b9b9d35a814365b25ea24f49f6287c122dbb8ff358adb1c4b545",
+      "reference_ids": [
+        "p050_dual_identity_action"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c005",
+      "panel_id": "ng-ch05-sc01-p009",
+      "plan_revision_id": "ng-ch05-sc01-p009-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "02b200803b26d9447d51ae8d450c0d808fda3638b17a20403a3e02b8c3f0b1f0",
+      "reference_ids": [
+        "p050_dual_identity_action"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c006",
+      "panel_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "98882e1fcc10fb332c4246a2f4c7c18542ec51d3a6ffb1cf80236e3df8baecdd",
+      "reference_ids": [
+        "p050_dual_identity_action",
+        "p040_sigrid_face"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c007",
+      "panel_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "6360bdc96fcf04e7a558593fc051cba7f63e97ab2445a210dba7922a66919fab",
+      "reference_ids": [],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c008",
+      "panel_id": "ng-ch05-sc01-p026",
+      "plan_revision_id": "ng-ch05-sc01-p026-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "598ffbc8fe37cb7f8b12d828d62f34ef3b3d5658624e4e921a12ea079c43d4b7",
+      "reference_ids": [
+        "p040_sigrid_face"
+      ],
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c009",
+      "panel_id": "ng-ch05-sc01-p029",
+      "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "6ee5ef44c44229b968151d5ae7ef7c8e6a9f2c5cd624466f91528e551b685fdc",
+      "reference_ids": [
+        "p050_dual_identity_action",
+        "p040_sigrid_face"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c010",
+      "panel_id": "ng-ch05-sc01-p035",
+      "plan_revision_id": "ng-ch05-sc01-p035-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "5516f3a06de2f68882f002c93f949e8ae14f4f331aafbda0ca822adcf3164809",
+      "reference_ids": [],
+      "visible_adult_cast": [],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c011",
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "d1c597098caa95f57ac6c99d14bb66988fe2022f2bb213ac1ed67215ad3c32b4",
+      "reference_ids": [
+        "p050_dual_identity_action",
+        "p040_sigrid_face",
+        "p036_composition_only"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c012",
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "02cdeb5fb20eaf9741260ff21c7a770d53568f873f7fedba012bb2706bd0f025",
+      "reference_ids": [
+        "p050_dual_identity_action",
+        "p040_sigrid_face",
+        "p036_composition_only"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c013",
+      "panel_id": "ng-ch05-sc01-p040",
+      "plan_revision_id": "ng-ch05-sc01-p040-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "3457eb9b5c3d43bf53362a0955416cb17d509dafcf6b1a17728f94aaac3deb0d",
+      "reference_ids": [
+        "p040_sigrid_face"
+      ],
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c014",
+      "panel_id": "ng-ch05-sc01-p044",
+      "plan_revision_id": "ng-ch05-sc01-p044-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "8634b1229f3221795fc4ce3ab98655a0037bd687723aa27671754ac99fcb851a",
+      "reference_ids": [
+        "p050_dual_identity_action"
+      ],
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c015",
+      "panel_id": "ng-ch05-sc01-p046",
+      "plan_revision_id": "ng-ch05-sc01-p046-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "fa4b0b32e6079f0a7e86cbfefa5587b60a9d5048f897635296bd4adbae7569d8",
+      "reference_ids": [
+        "p040_sigrid_face"
+      ],
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c016",
+      "panel_id": "ng-ch05-sc01-p049",
+      "plan_revision_id": "ng-ch05-sc01-p049-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "eef281c958bc9b5d344c249d9c3dbfad59c0094c24aedfcad825b150c064d59d",
+      "reference_ids": [
+        "p050_dual_identity_action"
+      ],
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c017",
+      "panel_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "0430d91cbe388064f059f23e24aaa92379b4669e9ec7056aebc520d864a1082a",
+      "reference_ids": [
+        "p050_dual_identity_action",
+        "p040_sigrid_face"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c018",
+      "panel_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "0e79693933362ce62384c5acd167e50d8e2aef998405955ad6d9d5591a33df3a",
+      "reference_ids": [
+        "p050_dual_identity_action"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c019",
+      "panel_id": "ng-ch05-sc01-p001",
+      "plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "ec7a7c57603206d379e151bce77ea69e9f13cc06069f9999847e061ef52ed6ec",
+      "reference_ids": [],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "c020",
+      "panel_id": "ng-ch05-sc01-p040",
+      "plan_revision_id": "ng-ch05-sc01-p040-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-overnight-production-r1/prompt-manifest.json",
+      "prompt_sha256": "ce4f7ab0078a9c7fcc039bef88e7ec85482881b4bfc6492e0fd53ceced2e51c6",
+      "reference_ids": [],
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "h001",
+      "panel_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-cadence-hardening-r1/prompt-manifest.json",
+      "prompt_sha256": "d4247db0093b717943accae45d89e0540df379043945f274fc9a2863e52b18bc",
+      "reference_ids": [
+        "p050_dual_identity_action",
+        "p040_sigrid_face"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "h002",
+      "panel_id": "ng-ch05-sc01-p003",
+      "plan_revision_id": "ng-ch05-sc01-p003-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-cadence-hardening-r1/prompt-manifest.json",
+      "prompt_sha256": "10818c4f488f6c27dfcc2a909998fe597db55f03400ba6b6c4a5f1ed2b86b329",
+      "reference_ids": [
+        "p050_dual_identity_action"
+      ],
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "h003",
+      "panel_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-cadence-hardening-r1/prompt-manifest.json",
+      "prompt_sha256": "ab5bb675ea1a9d74aa695416fc41ada09fd85f36a318160cca1fc31a624d260b",
+      "reference_ids": [],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "h004",
+      "panel_id": "ng-ch05-sc01-p029",
+      "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-cadence-hardening-r1/prompt-manifest.json",
+      "prompt_sha256": "0150f26746daf634382b678ed103a0783b9cbd1d572d0c282747b14210ddbdb7",
+      "reference_ids": [
+        "p050_dual_identity_action",
+        "p040_sigrid_face"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "h005",
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-cadence-hardening-r1/prompt-manifest.json",
+      "prompt_sha256": "6e323202913732eff0e8be157486a2bff59dcf7f4349692feccc504436ece629",
+      "reference_ids": [
+        "p050_dual_identity_action",
+        "p040_sigrid_face",
+        "p036_composition_only"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    },
+    {
+      "candidate_id": "h006",
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "prompt_manifest": "experiments/review-packets/ch05-cadence-hardening-r1/prompt-manifest.json",
+      "prompt_sha256": "2fbae1aae18ebbe6b6f5ecc1d57a3ee7550b7b3df6d4bd127fee85e6d2a99ae5",
+      "reference_ids": [
+        "p050_dual_identity_action",
+        "p040_sigrid_face",
+        "p036_composition_only"
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "checks": {
+        "prompt_hash_exact": true,
+        "plan_revision_exact": true,
+        "common_adult_hair_wardrobe_boundary_complete": true,
+        "cast_constraint_matches_plan": true,
+        "p036_composition_only_guard": true,
+        "comic_panel_plan_named": true
+      },
+      "all_checks_pass": true,
+      "output_review_boundary": "Prompt compliance does not prove rendered hair, wardrobe, role, anatomy, or identity; manual visual review remains required."
+    }
+  ],
+  "prompt_row_root_sha256": "3b7866a1926964408caa1cee3e26ae66224a2e6224d322a30324c26863be8af4",
+  "limitations": [
+    "String lint verifies explicit constraints, not rendered appearance.",
+    "No automated face, biometric, or identity inference is performed.",
+    "Visible-adult cast arrays encode membership, not leader/foreground/action ordering.",
+    "Manual visual review remains the authority for hair, wardrobe, role, anatomy, and continuity outcomes."
+  ],
+  "boundary": "No generation or project promotion occurs; this is deterministic metadata and prompt-contract evidence only."
+}

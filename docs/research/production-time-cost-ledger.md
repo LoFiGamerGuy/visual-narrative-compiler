@@ -55,3 +55,5 @@ The Tier A effort record adds no generation or external cost. Its 12/16/24 candi
 The offline owner-decision worksheet adds no generation or external cost. It links 39 existing subjects and can export only a local uningested draft. Network calls/uploads/repository writes/recorded decisions remain zero and human minutes remain null.
 
 The owner-decision draft validator adds no generation or external cost. It exercises 17 synthetic fixtures only; owner drafts read, events, decisions, contract writes, plan revisions, calls, and uploads remain zero. Human minutes remain null.
+
+The character-assertion and prompt-lint compiler adds no generation or external cost. It binds 50 existing ComicPanelPlans and scans 26 existing prompts; prompts created, plans revised, identity inferences, calls, uploads, and acceptance remain zero.

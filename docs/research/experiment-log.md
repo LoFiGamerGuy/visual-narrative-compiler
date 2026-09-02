@@ -1020,3 +1020,10 @@
 - Three synthetic valid shapes pass; 14 malformed fixtures covering stale binding, duplicate/unknown subjects, invalid vocabulary, absent reviewer, event-field injection, and weakened boundaries fail.
 - Evidence builds byte-identically and rejects 16/16 mutations. The validator creates no event, timer, acceptance, plan revision, repository write, provider call, or upload.
 - ADR-0100 keeps event construction separate. The live contract remains 39 pending subjects, zero decisions/events, and null review minutes.
+
+## 2026-09-01 - CH05 character assertions and prompt lint r1
+
+- Compiled exact Soren/Sigrid adult, hair, face, wardrobe, and silhouette assertions across all 50 unchanged ComicPanelPlans: 18 no-person, eight Soren-only, seven Sigrid-only, and 17 dual-cast.
+- Recorded that `visible_adult_cast` is membership only; foreground, leader, watcher, bracer, and action roles must be translated literally from narrative/composition intent.
+- All 26 generated CH05 prompts pass exact hash/revision/adult/hair/wardrobe/cast checks. All four P036-using prompts carry its composition-only and swapped-hair rejection guard.
+- ADR-0101 separates string lint from rendered-art review. No identity inference, prompt creation, plan revision, provider call, upload, or cost occurs; 16/16 mutations fail.

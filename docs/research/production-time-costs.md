@@ -51,6 +51,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 lettering semantics readiness r1 | 50 plans / 5 semantic classes / 1 local map | local deterministic semantics join | unmeasured | $0 API/cloud | 0 copy/overlap permissions/accepted/revisions |
 | CH05 owner hub r4 + links r2 | 6-card hub / 105 exact resources | local deterministic HTML/thumbnail/link compilation | unmeasured | $0 API/cloud | 0 published/decided/accepted |
 | CH05 integrated release r7 | immutable 42-check r6 + 4 extension checks | 14.531 s observed local gate time | unmeasured | $0 API/cloud | 46 effective checks pass; 0 accepted/executable |
+| CH05 consolidated delivery bundle r1 | 29 candidates / 50 plans / 12 batches / 105 links | existing 1,385.036 s generation total reconciled; compiler/validator sub-second | unmeasured | $0 API/cloud | 21/21 mutations fail; no acceptance/promotion |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

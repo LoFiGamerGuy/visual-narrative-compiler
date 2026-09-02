@@ -107,3 +107,5 @@ Review the chapter lettering classes at `experiments/review-packets/ch05-letteri
 The current single local review entry is `experiments/review-packets/ch05-owner-review-index-r4/index.html`. The exhaustive current absolute-link inventory is `docs/research/ch05-review-links-r2.md`, covering 105 exact resources under ADR-0123.
 
 Integrated evidence now passes release r7 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r7.json`: 46 effective checks, 5/5 commands, and 25/25 rejected mutations under ADR-0124.
+
+The consolidated handoff is `production/comic/handoff/ch05-overnight-delivery-bundle-r1.json`, with tracked evidence at `docs/research/evidence/ch05-overnight-delivery-bundle-r1.json`, a concise owner-facing summary at `docs/research/ch05-overnight-delivery-summary-r1.md`, and the release-r7 changed-file inventory at `docs/research/ch05-overnight-changed-files-through-release-r7.md`. ADR-0125 binds counts, hashes, recommendations, limitations, and ten still-open decisions without accepting or commercially clearing any candidate.

@@ -103,3 +103,5 @@ The 50-plan lettering-semantics matrix and map add no generation or external cos
 Owner hub r4 and link manifest r2 add no generation or external cost. They build local HTML/thumbnails and tracked link metadata only; publication, decisions, acceptance, calls, and uploads remain zero, while human minutes remain null.
 
 Integrated release r7 adds no generation or external cost. Its five commands represent 46 effective checks in 14.531 seconds. Prompts, review, decisions, acceptance, execution, calls, uploads, and downloads remain zero; minutes remain null.
+
+Delivery-bundle r1 is appended as a zero-external-cost milestone in ledger r24. It makes zero provider requests/uploads and incurs $0 paid API/cloud cost; the CH05 production cap remains null and disabled. Built-in product cost is unavailable and is not entered as zero.

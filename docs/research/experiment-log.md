@@ -1191,3 +1191,10 @@
 - Five/five commands pass in 14.531 seconds, representing 46 effective checks; 25/25 release mutations fail.
 - Bound 12 sequences, 50 lettering rows, 105 review links, and 24 owner tasks while retaining zero next prompts.
 - ADR-0124 keeps frozen/baseline integrity and all review/provider/promotion state closed.
+
+## 2026-09-01 - CH05 consolidated overnight delivery bundle r1
+
+- Compiled one exact handoff over 29 candidates, 50 chapter plans, 12 coherent sequence batches, 105 review links, 14 strongest candidate hashes, and ten unresolved owner decisions.
+- Bound the measured 1,385.036 generation seconds and 39 reference uses while retaining $0 paid API/cloud spend and explicit unavailable built-in cost/service fields.
+- Generated a direct review summary and a 261-path inventory ending at the pushed release-r7 base commit.
+- Twenty-one/twenty-one mutations fail. ADR-0125 keeps every acceptance, commercial, executable, revision, and human-minute field zero or null.

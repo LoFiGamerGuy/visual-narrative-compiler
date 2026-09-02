@@ -1,0 +1,79 @@
+{
+  "record_type": "ComicOvernightDeliveryBundleEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-overnight-delivery-bundle-evidence-r1",
+  "state": "PASS_OWNER_PENDING",
+  "bundle": {
+    "path": "production/comic/handoff/ch05-overnight-delivery-bundle-r1.json",
+    "sha256": "1506baa0f8d1e70f5de8ef1366ddd649caae6518177cc446a8238d676f05063c"
+  },
+  "summary_document": {
+    "path": "docs/research/ch05-overnight-delivery-summary-r1.md",
+    "sha256": "fd9032a1d8168d7574f8793d44949bdef399eb2ecbd919767e2fbc395acc83b0"
+  },
+  "changed_files_document": {
+    "path": "docs/research/ch05-overnight-changed-files-through-release-r7.md",
+    "sha256": "82a3948552c9443d29440c3d6217e08cbbe3b08e58a2fd892e32da18b66e004c"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-built-in-renderrecord-index-r1.json",
+      "sha256": "546eaca1f47e02aea256192dc24653b29912d607b20cdafbcf9bb8eb4b5bf437"
+    },
+    {
+      "path": "production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json",
+      "sha256": "dacd8daec02a594a66915b73b311f78a77c3ade2002900823206794b87095b31"
+    },
+    {
+      "path": "production/comic/review/ch05-route-review-decision-matrix-r1.json",
+      "sha256": "694da9b4b6f649313237bc2cfc10027c2351eb5ae66afa296afd5030203062c1"
+    },
+    {
+      "path": "production/comic/review/ch05-review-artifact-link-manifest-r2.json",
+      "sha256": "4ce8fb03283b158df62941a11808e32c9e3e4e213bd330283de8fa4749549d01"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-sequence-production-batches-r1.json",
+      "sha256": "d1c14d09b5afb374260ceabbd4594edcbeecf32925f5a826434f860e99106ea9"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-production-readiness-matrix-r1.json",
+      "sha256": "95d562f53fbebe1956c9d0878d5c0b1091d7ab4044a6dc5927e94ce0799dc53a"
+    },
+    {
+      "path": "production/comic/layout/ch05-lettering-semantics-readiness-matrix-r1.json",
+      "sha256": "f86c5821801fd52f63e5c41031b85ec7ddcce548f2d91e326bd58f665d791dc4"
+    },
+    {
+      "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r7.json",
+      "sha256": "fa908e09804ef5a7cf0af2b43a6b0e07ce3aeb8da8e8a3fb61a9d5497f2dd100"
+    },
+    {
+      "path": "docs/research/evidence/frozen-gauntlet-baseline-integrity-r1.json",
+      "sha256": "9abf582927b7dfccf4757a8745eee5fd260bd70418e4fd350fefeafe6ce9fbd9"
+    }
+  ],
+  "summary": {
+    "candidates": 29,
+    "ch05_candidates": 26,
+    "noncanon_concepts": 3,
+    "distinct_ch05_plans": 14,
+    "selected": 14,
+    "chapter_plans": 50,
+    "sequence_batches": 12,
+    "review_links": 105,
+    "strongest_candidates": 14,
+    "remaining_decisions": 10,
+    "integrated_checks": 46,
+    "observed_seconds": 1385.036,
+    "reference_uses": 39,
+    "paid_spend_usd": 0,
+    "owner_decisions": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "human_review_minutes": null
+  },
+  "base_remote_parity": true,
+  "animation_shot_plan": null,
+  "e_conte": null
+}

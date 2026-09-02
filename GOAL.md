@@ -246,6 +246,8 @@ The P010–P013 pre-render packet milestone is complete under ADR-0133. A determ
 
 The P010–P013 lifecycle milestone is complete under ADR-0134. Eleven states and 11 legal edges are distinguished from 110 illegal/unconfigured pairs; current state is draft with zero enabled transitions. A four-edge review/targeted-repair loop is capped at two one-class slots, and provisional acceptance remains separate from commercial/exact-base decisions. Eighteen/eighteen mutations fail. The next bounded milestone is a chapter-scale application matrix that maps this lifecycle to all 12 production batches and identifies which gates are reusable versus batch-specific.
 
+The chapter batch-lifecycle application milestone is complete under ADR-0135. All 50 plans map once into 12 batches; only seq03 is lifecycle-entered, while 11 remain plan-only. Seven schema/tool contracts are reusable but eight evidence identities must be rebound per batch. Waves remain 1/2/5/4, 49 review artifacts are planned, the byte-identical 1900×1480 map is visually checked, and 22/22 mutations fail. The next bounded milestone is owner hub r5 plus an exact link-manifest revision exposing the new unlock, blueprint, packet, lifecycle, and chapter-map resources.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

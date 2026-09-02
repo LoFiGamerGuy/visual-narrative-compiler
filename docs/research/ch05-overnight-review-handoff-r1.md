@@ -127,3 +127,5 @@ Reusable draft validation is `python src/north_garden/validate_ch05_prompt_bluep
 The pre-render packet blueprint is `production/comic/review/ch05-p010-p013-prerender-packet-blueprint-r1.json`. Its deterministic builder is `python src/north_garden/build_ch05_p010_p013_review_packet.py --dry-run`; ADR-0133 keeps all five outputs `NOT_BUILT` until four candidates exist.
 
 The guarded pilot lifecycle is `production/comic/run-manifests/ch05-p010-p013-lifecycle-state-machine-r1.json`: 11 legal edges, 110 illegal state pairs, and a bounded repair loop under ADR-0134.
+
+Review the chapter lifecycle map at `experiments/review-packets/ch05-chapter-batch-lifecycle-r1/ch05-chapter-batch-lifecycle-map-r1.png`. The tracked application is `production/comic/run-manifests/ch05-chapter-batch-lifecycle-application-r1.json`; ADR-0135 binds 50 plans/12 batches and the reusable-versus-batch-specific boundary.

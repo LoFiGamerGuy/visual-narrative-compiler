@@ -1261,3 +1261,10 @@
 - Exhausted all 121 state pairs: 11 legal and 110 illegal/unconfigured.
 - Bound a four-edge targeted-repair loop capped at two one-class slots, preserving passing rows and prohibiting broad rerolls.
 - Current state remains draft/zero enabled; 18/18 mutations fail under ADR-0134 with no prompt/render/review/promotion activity.
+
+## 2026-09-01 - CH05 chapter batch lifecycle application r1
+
+- Mapped all 50 plans and 12 batches onto the 11-state lifecycle while preserving narrative order separately from waves 1/2/5/4.
+- Marked only seq03 as draft-entered; all 11 other batches remain plan-only and zero executable.
+- Distinguished seven reusable contract/tool classes from eight per-batch evidence identities that must never be copied forward.
+- Built twice and visually checked a 1900×1480 lifecycle map; 49 artifacts are planned and 22/22 mutations fail under ADR-0135.

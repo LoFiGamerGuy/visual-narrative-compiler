@@ -400,3 +400,5 @@ Independent blueprint validation passes the four real rows and rejects 28/28 mal
 The P010–P013 pre-render builder dry-run passes with four absent candidate slots, five `NOT_BUILT` outputs, 44 empty checks, four safe-zone hypotheses, and 17/17 mutation rejection. It is packet-readiness evidence; no build/render timing or visual result exists yet.
 
 The pilot lifecycle state machine exhausts 121 state pairs: 11 legal transitions and 110 illegal/unconfigured pairs. Its four-edge repair loop is capped at two slots, and 18/18 mutations fail. This measures workflow guard coverage, not art or provider behavior.
+
+The chapter lifecycle application covers 50 plans/12 batches with one lifecycle-entered and 11 not entered, preserving waves 1/2/5/4. Seven reusable contract classes are separated from eight batch-specific evidence classes; 49 review artifacts are planned and 22/22 mutations fail. The 1900×1480 map is visually checked.

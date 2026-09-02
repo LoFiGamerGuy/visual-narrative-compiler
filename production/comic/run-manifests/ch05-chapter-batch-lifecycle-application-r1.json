@@ -1,0 +1,556 @@
+{
+  "record_type": "ComicChapterBatchLifecycleApplication",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-chapter-batch-lifecycle-application-r1",
+  "state": "PASS_PLAN_ONLY",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-sequence-production-batches-r1.json",
+      "sha256": "d1c14d09b5afb374260ceabbd4594edcbeecf32925f5a826434f860e99106ea9"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-lifecycle-state-machine-r1.json",
+      "sha256": "2a8d5f67e57a45dce1ceec83464db2ac0a514a001af91314391d64a7c3068cf0"
+    },
+    {
+      "path": "production/comic/layout/ch05-lettering-semantics-readiness-matrix-r1.json",
+      "sha256": "f86c5821801fd52f63e5c41031b85ec7ddcce548f2d91e326bd58f665d791dc4"
+    },
+    {
+      "path": "production/comic/continuity/ch05-reference-use-and-continuity-risk-plan-r1.json",
+      "sha256": "07f8586ed4d965dda7076d1b7f55ed6d6e79a59edd134b2302b1e60968dcdef9"
+    }
+  ],
+  "summary": {
+    "plans": 50,
+    "batches": 12,
+    "lifecycle_states": 11,
+    "legal_transitions": 11,
+    "batches_entered": 1,
+    "batches_not_entered": 11,
+    "wave_1": 1,
+    "wave_2": 2,
+    "wave_3": 5,
+    "wave_4": 4,
+    "reusable_contracts": 7,
+    "batch_specific_gates": 8,
+    "planned_review_artifacts": 49,
+    "prompts": 0,
+    "renders": 0,
+    "accepted": 0,
+    "execution_ready_batches": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0
+  },
+  "batches": [
+    {
+      "sequence_id": "seq01",
+      "narrative_order": 1,
+      "production_wave": 4,
+      "title": "Departure and changed trail",
+      "panel_ids": [
+        "ng-ch05-sc01-p001",
+        "ng-ch05-sc01-p002",
+        "ng-ch05-sc01-p003",
+        "ng-ch05-sc01-p004"
+      ],
+      "panel_count": 4,
+      "application_state": "PLAN_ONLY_WAIT_EVIDENCE",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 3,
+      "high_or_critical_continuity_rows": 3,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq02",
+      "narrative_order": 2,
+      "production_wave": 4,
+      "title": "Runnel, marker, and narrowing path",
+      "panel_ids": [
+        "ng-ch05-sc01-p005",
+        "ng-ch05-sc01-p006",
+        "ng-ch05-sc01-p007",
+        "ng-ch05-sc01-p008",
+        "ng-ch05-sc01-p009"
+      ],
+      "panel_count": 5,
+      "application_state": "PLAN_ONLY_WAIT_EVIDENCE",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 2,
+      "high_or_critical_continuity_rows": 3,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq03",
+      "narrative_order": 3,
+      "production_wave": 1,
+      "title": "Water, soot twine, and creek redirection",
+      "panel_ids": [
+        "ng-ch05-sc01-p010",
+        "ng-ch05-sc01-p011",
+        "ng-ch05-sc01-p012",
+        "ng-ch05-sc01-p013"
+      ],
+      "panel_count": 4,
+      "application_state": "PILOT_BLUEPRINTED_UNLOCK_BLOCKED",
+      "lifecycle_current_state": "DRAFT_BLUEPRINTED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 2,
+      "high_or_critical_continuity_rows": 2,
+      "planned_review_artifacts": 5,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq04",
+      "narrative_order": 4,
+      "production_wave": 2,
+      "title": "Lost smoke and first mill reveal",
+      "panel_ids": [
+        "ng-ch05-sc01-p014",
+        "ng-ch05-sc01-p015",
+        "ng-ch05-sc01-p016",
+        "ng-ch05-sc01-p017",
+        "ng-ch05-sc01-p018"
+      ],
+      "panel_count": 5,
+      "application_state": "NEXT_WAVE_PLAN_ONLY_WAIT_PILOT",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 2,
+      "high_or_critical_continuity_rows": 0,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq05",
+      "narrative_order": 5,
+      "production_wave": 2,
+      "title": "Bridge warning and covert approach",
+      "panel_ids": [
+        "ng-ch05-sc01-p019",
+        "ng-ch05-sc01-p020",
+        "ng-ch05-sc01-p021",
+        "ng-ch05-sc01-p022",
+        "ng-ch05-sc01-p023"
+      ],
+      "panel_count": 5,
+      "application_state": "NEXT_WAVE_PLAN_ONLY_WAIT_PILOT",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 1,
+      "high_or_critical_continuity_rows": 4,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq06",
+      "narrative_order": 6,
+      "production_wave": 3,
+      "title": "Hidden drum and wall-line clue",
+      "panel_ids": [
+        "ng-ch05-sc01-p024",
+        "ng-ch05-sc01-p025",
+        "ng-ch05-sc01-p026",
+        "ng-ch05-sc01-p027"
+      ],
+      "panel_count": 4,
+      "application_state": "PLAN_ONLY_WAIT_EVIDENCE",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 1,
+      "high_or_critical_continuity_rows": 1,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq07",
+      "narrative_order": 7,
+      "production_wave": 3,
+      "title": "Bell trap and alternate entry",
+      "panel_ids": [
+        "ng-ch05-sc01-p028",
+        "ng-ch05-sc01-p029",
+        "ng-ch05-sc01-p030",
+        "ng-ch05-sc01-p031"
+      ],
+      "panel_count": 4,
+      "application_state": "PLAN_ONLY_WAIT_EVIDENCE",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 2,
+      "high_or_critical_continuity_rows": 1,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq08",
+      "narrative_order": 8,
+      "production_wave": 3,
+      "title": "False tracks, bell, tin, and plank",
+      "panel_ids": [
+        "ng-ch05-sc01-p032",
+        "ng-ch05-sc01-p033",
+        "ng-ch05-sc01-p034",
+        "ng-ch05-sc01-p035",
+        "ng-ch05-sc01-p036"
+      ],
+      "panel_count": 5,
+      "application_state": "PLAN_ONLY_WAIT_EVIDENCE",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 3,
+      "high_or_critical_continuity_rows": 3,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq09",
+      "narrative_order": 9,
+      "production_wave": 3,
+      "title": "Tin map deduction and signal conclusion",
+      "panel_ids": [
+        "ng-ch05-sc01-p037",
+        "ng-ch05-sc01-p038",
+        "ng-ch05-sc01-p039",
+        "ng-ch05-sc01-p040"
+      ],
+      "panel_count": 4,
+      "application_state": "PLAN_ONLY_WAIT_EVIDENCE",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 2,
+      "high_or_critical_continuity_rows": 1,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq10",
+      "narrative_order": 10,
+      "production_wave": 3,
+      "title": "Signal collapse, retreat, and twine cut",
+      "panel_ids": [
+        "ng-ch05-sc01-p041",
+        "ng-ch05-sc01-p042",
+        "ng-ch05-sc01-p043",
+        "ng-ch05-sc01-p044"
+      ],
+      "panel_count": 4,
+      "application_state": "PLAN_ONLY_WAIT_EVIDENCE",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 0,
+      "high_or_critical_continuity_rows": 2,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq11",
+      "narrative_order": 11,
+      "production_wave": 4,
+      "title": "Silence after cut and uphill return",
+      "panel_ids": [
+        "ng-ch05-sc01-p045",
+        "ng-ch05-sc01-p046",
+        "ng-ch05-sc01-p047"
+      ],
+      "panel_count": 3,
+      "application_state": "PLAN_ONLY_WAIT_EVIDENCE",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 1,
+      "high_or_critical_continuity_rows": 1,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    },
+    {
+      "sequence_id": "seq12",
+      "narrative_order": 12,
+      "production_wave": 4,
+      "title": "Farmhouse smoke and urgent final run",
+      "panel_ids": [
+        "ng-ch05-sc01-p048",
+        "ng-ch05-sc01-p049",
+        "ng-ch05-sc01-p050"
+      ],
+      "panel_count": 3,
+      "application_state": "PLAN_ONLY_WAIT_EVIDENCE",
+      "lifecycle_current_state": "NOT_ENTERED",
+      "reusable_contracts": [
+        "11-state lifecycle",
+        "11 candidate/review checks",
+        "11 failure classes",
+        "two-slot targeted repair",
+        "16-field RenderRecord",
+        "live-only timer",
+        "ignored deterministic packet builder"
+      ],
+      "batch_specific_gates": [
+        "exact ComicPanelPlan hashes",
+        "exact structured owner roots",
+        "immutable production prompt hashes",
+        "exact reference selection/preflight",
+        "candidate RenderRecords/output hashes",
+        "packet hashes/measurements",
+        "candidate and sequence human review",
+        "commercial and exact-base decisions"
+      ],
+      "lettering_rows_requiring_semantic_choice": 1,
+      "high_or_critical_continuity_rows": 2,
+      "planned_review_artifacts": 4,
+      "prompts": 0,
+      "renders": 0,
+      "accepted": 0,
+      "execution_ready": false
+    }
+  ],
+  "chart": {
+    "path": "experiments/review-packets/ch05-chapter-batch-lifecycle-r1/ch05-chapter-batch-lifecycle-map-r1.png",
+    "sha256": "d76957f477bfeb9682e25dc65ae252ce9556351b9a7ea08236d4d2c9bbad6eb0",
+    "dimensions": [
+      1900,
+      1480
+    ],
+    "git_tracked": false
+  },
+  "reuse_rule": "Schemas, vocabulary, measurement algorithms, timer rules, and repair semantics may be reused. Plan, prompt, reference, output, packet, review, and rights evidence must be rebound for every batch.",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Lifecycle application is planning only. Seq03 has a draft blueprint but no enabled transition; all other batches have not entered the lifecycle."
+}

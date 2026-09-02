@@ -1,0 +1,61 @@
+{
+  "record_type": "ComicChapterBatchLifecycleApplicationEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-chapter-batch-lifecycle-application-evidence-r1",
+  "state": "PASS_PLAN_ONLY",
+  "application": {
+    "path": "production/comic/run-manifests/ch05-chapter-batch-lifecycle-application-r1.json",
+    "sha256": "eeed548e289c25b3736f9d72766acfb7128b5d199d11ea2255a734f57eddb3ce"
+  },
+  "chart": {
+    "path": "experiments/review-packets/ch05-chapter-batch-lifecycle-r1/ch05-chapter-batch-lifecycle-map-r1.png",
+    "sha256": "d76957f477bfeb9682e25dc65ae252ce9556351b9a7ea08236d4d2c9bbad6eb0",
+    "dimensions": [
+      1900,
+      1480
+    ],
+    "git_tracked": false
+  },
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-sequence-production-batches-r1.json",
+      "sha256": "d1c14d09b5afb374260ceabbd4594edcbeecf32925f5a826434f860e99106ea9"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-lifecycle-state-machine-r1.json",
+      "sha256": "2a8d5f67e57a45dce1ceec83464db2ac0a514a001af91314391d64a7c3068cf0"
+    },
+    {
+      "path": "production/comic/layout/ch05-lettering-semantics-readiness-matrix-r1.json",
+      "sha256": "f86c5821801fd52f63e5c41031b85ec7ddcce548f2d91e326bd58f665d791dc4"
+    },
+    {
+      "path": "production/comic/continuity/ch05-reference-use-and-continuity-risk-plan-r1.json",
+      "sha256": "07f8586ed4d965dda7076d1b7f55ed6d6e79a59edd134b2302b1e60968dcdef9"
+    }
+  ],
+  "summary": {
+    "plans": 50,
+    "batches": 12,
+    "lifecycle_states": 11,
+    "legal_transitions": 11,
+    "batches_entered": 1,
+    "batches_not_entered": 11,
+    "wave_1": 1,
+    "wave_2": 2,
+    "wave_3": 5,
+    "wave_4": 4,
+    "reusable_contracts": 7,
+    "batch_specific_gates": 8,
+    "planned_review_artifacts": 49,
+    "prompts": 0,
+    "renders": 0,
+    "accepted": 0,
+    "execution_ready_batches": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

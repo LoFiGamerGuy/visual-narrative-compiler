@@ -89,3 +89,5 @@ The next microsequence's fail-closed production shape is `production/comic/run-m
 Its pre-render review semantics are `production/comic/review/ch05-p010-p013-review-packet-contract-dry-run-r1.json`: 11 checks per slot, five unbuilt artifacts, 11 failure classes, and five promotion rules under ADR-0114. This record creates no review event or acceptance.
 
 Integrated evidence now passes release r5 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r5.json`: 38 effective checks, 6/6 commands, and 26/26 rejected mutations under ADR-0115.
+
+Review the full 50-plan readiness map at `experiments/review-packets/ch05-chapter-production-readiness-r1/ch05-chapter-readiness-map-r1.png`. The tracked matrix is `production/comic/run-manifests/ch05-chapter-production-readiness-matrix-r1.json`; ADR-0116 keeps every prompt and promotion gate closed.

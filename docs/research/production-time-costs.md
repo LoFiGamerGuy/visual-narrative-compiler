@@ -42,6 +42,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 P010–P013 manifest dry run r1 | 4 plan rows / 2 repair slots / 5 planned review artifacts | local deterministic metadata compilation | unmeasured | $0 API/cloud | 0 prompts/renders/executable/accepted |
 | CH05 P010–P013 review contract dry run r1 | 4 slots × 11 checks / 5 artifact slots / 11 failure classes | local deterministic metadata compilation | unmeasured | $0 API/cloud | 0 pixels/reviews/repairs/accepted |
 | CH05 integrated release r5 | immutable 33-check r4 + 5 extension checks | 9.346 s observed local gate time | unmeasured | $0 API/cloud | 38 effective checks pass; 0 accepted/executable |
+| CH05 50-plan readiness matrix r1 | 50 rows / 4 readiness classes / 1 local map | local deterministic join and chart | unmeasured | $0 API/cloud | 0 prompts/copy/accepted/executable |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

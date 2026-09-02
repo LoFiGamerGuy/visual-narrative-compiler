@@ -1,0 +1,69 @@
+{
+  "record_type": "ComicChapterProductionReadinessMatrixEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-chapter-production-readiness-matrix-evidence-r1",
+  "state": "PASS_OWNER_PENDING",
+  "manifest": {
+    "path": "production/comic/run-manifests/ch05-chapter-production-readiness-matrix-r1.json",
+    "sha256": "95d562f53fbebe1956c9d0878d5c0b1091d7ab4044a6dc5927e94ce0799dc53a"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    },
+    {
+      "path": "production/comic/coverage/ch05-remaining-panel-priority-r1.json",
+      "sha256": "ef06e71819a9eee77e2800a756ebaef11c9af38c7593a9cfb90c1f83be2e0bcc"
+    },
+    {
+      "path": "production/comic/layout/ch05-panel-scale-cadence-policy-r1.json",
+      "sha256": "b08d402362bf807014332ec900ba583f89943b6e0095475d632bfcd8b91f7495"
+    },
+    {
+      "path": "production/comic/continuity/ch05-character-assertion-manifest-r1.json",
+      "sha256": "3e4583e5ab9eb1321ae5ff16b30596ca141d43d82481c59e50ab65bcafd2c1e2"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-built-in-renderrecord-index-r1.json",
+      "sha256": "546eaca1f47e02aea256192dc24653b29912d607b20cdafbcf9bb8eb4b5bf437"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-production-manifest-dry-run-r1.json",
+      "sha256": "f668fc1531b556529a3e8cf7f3ef9d6c65a2172cab448ec26e57e97eaf48403e"
+    },
+    {
+      "path": "production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json",
+      "sha256": "dacd8daec02a594a66915b73b311f78a77c3ade2002900823206794b87095b31"
+    }
+  ],
+  "summary": {
+    "plan_count": 50,
+    "selected_evidence": 14,
+    "dry_run_rows": 4,
+    "tier_a_without_dry_run": 8,
+    "backlog_plan_only": 24,
+    "plans_with_existing_candidates": 14,
+    "existing_ch05_candidates": 26,
+    "next_prompt_count": 0,
+    "final_copy_bound": 0,
+    "owner_accepted": 0,
+    "commercially_cleared": 0,
+    "execution_ready": 0,
+    "plan_revisions": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "chart": {
+    "path": "experiments/review-packets/ch05-chapter-production-readiness-r1/ch05-chapter-readiness-map-r1.png",
+    "sha256": "6181b9b185c27c548b7fa141df25a1c21d3bbb266a24980e340c7fe1e0de7dc7",
+    "dimensions": [
+      1600,
+      1900
+    ]
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

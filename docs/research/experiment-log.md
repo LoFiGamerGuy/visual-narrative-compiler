@@ -1127,3 +1127,10 @@
 - Six/six commands pass in 9.346 seconds, representing 38 effective checks; 26/26 release mutations fail.
 - Bound 29 candidates, 99 review artifacts, 14 strongest links, ten route decisions, four next candidate slots, two repair slots, and 44 pre-render checks.
 - ADR-0115 preserves frozen/baseline integrity and keeps calls/uploads/downloads/cost/decisions/acceptance/executable state at zero.
+
+## 2026-09-01 - CH05 50-plan production-readiness matrix r1
+
+- Joined every ComicPanelPlan to coverage, continuity assertions, scale range, role-aware mechanism options, candidate history, selected state, P010–P013 dry-run state, and explicit blockers.
+- Partitioned 50 rows into 14 selected-evidence, four dry-run, eight remaining Tier A, and 24 backlog; 14 plans have 26 existing CH05 candidates.
+- Built and visually checked a 1600×1900 local readiness map showing every plan, tier, role, width, cast count, candidate rollup, and blocker count.
+- ADR-0116 leaves 50/50 next prompts null and all copy/acceptance/commercial/execution/revision/provider state zero; 20/20 mutations fail.

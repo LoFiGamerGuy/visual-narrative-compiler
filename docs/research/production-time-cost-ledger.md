@@ -45,3 +45,5 @@ The outside-art lettering-band comparison adds two local 14-panel scroll alterna
 The instrumented handoff compiler and owner index add no renderer generation or external cost. Fourteen exact rows and 42 ignored index/thumbnail artifacts compile with zero executable/accepted state. Provider calls/uploads remain zero; human minutes remain null.
 
 The continuity/style/density analysis adds four ignored diagnostic sheets from 14 existing selected candidates and no renderer generation or external cost. Provider calls/uploads remain zero; human minutes and acceptance remain null/zero.
+
+The overnight integrated release gate runs 16 no-network commands in 5.259 observed seconds with no renderer generation or external cost. Provider calls/uploads/downloads remain zero; accepted candidates/executable panels/human minutes remain 0/0/null.

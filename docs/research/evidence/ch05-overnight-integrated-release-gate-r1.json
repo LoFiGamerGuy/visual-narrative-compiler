@@ -1,0 +1,210 @@
+{
+  "record_type": "CH05OvernightIntegratedReleaseGate",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-overnight-integrated-release-gate-r1",
+  "state": "PASS",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "summary": {
+    "command_count": 16,
+    "passed": 16,
+    "failed": 0,
+    "observed_total_seconds": 5.259141,
+    "network_capable_commands": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "downloads": 0,
+    "cost_usd": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "human_review_minutes": null
+  },
+  "results": [
+    {
+      "path": "src/north_garden/validate_ch05_overnight_production_plan.py",
+      "script_sha256": "5ebb959146acd947b58f621a29adffc4c7ea64c671191ee420bf1bfcc834ef1d",
+      "command": "python src/north_garden/validate_ch05_overnight_production_plan.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.063283,
+      "normalized_stdout": "0 failures, 0 warnings (20 candidates/14 plans/3 sequences/4 styles; 3 exact refs; 12/12 mutations rejected)\nComicPanelPlan-only; built-in ImageGen only; direct paid API disabled; generated pixels ignored/unaccepted\n",
+      "normalized_stdout_sha256": "857a474c3785ac475f620dff101d1d660dc4a439f0450d2bd6f0eac65907a73c",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_overnight_evidence.py",
+      "script_sha256": "a147a9a29d514540fabd55593cb5a5703059a402bda8653aa70da4e472c6f8cd",
+      "command": "python src/north_garden/validate_ch05_overnight_evidence.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.590058,
+      "normalized_stdout": "CH05 overnight evidence: 0 failures; 20 candidates/14 plans\ntriage: 12 all-pass / 3 warn-only / 5 with failures\npaid API spend: none; built-in provider cost metadata: unavailable\n",
+      "normalized_stdout_sha256": "e1f2d30c0ea57da6d4c0594bfdc133f0b1ea6f522fa2f9f0614c232470119e8e",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_cadence_hardening_plan.py",
+      "script_sha256": "cadea84b50c2d869fb1fb704b1da967b6a8c3313700a21c8fed10c0e759c1fc4",
+      "command": "python src/north_garden/validate_ch05_cadence_hardening_plan.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.058732,
+      "normalized_stdout": "CH05 cadence hardening plan: 0 failures; 6 candidates/5 plans/3 exact refs; 9/9 mutations rejected\n",
+      "normalized_stdout_sha256": "d48c927daa44d4e4517c86f73f3c07bcd93f9553d0b85c891047dbfff65ba5f4",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_cadence_hardening_evidence.py",
+      "script_sha256": "d62296d73291524a18bb9c59b40fa63f4765a8ba0840d1fa76e9a5e61b661418",
+      "command": "python src/north_garden/validate_ch05_cadence_hardening_evidence.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.249514,
+      "normalized_stdout": "CH05 cadence hardening evidence: 0 failures; 6 candidates/5 plans; 5 all-pass/1 diagnostic\nobserved tool time: 310.669s; paid API: none; built-in cost metadata: unavailable\n",
+      "normalized_stdout_sha256": "8e27c63cfaf81e7d40c8517a2c4988063d1640a1d9cebc4e40ea7277d2d5f94a",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_future_litrpg_concept_plan.py",
+      "script_sha256": "f16a472d95b14ef30166653cc48dda781d2bde27cbed4139c37811ad031b2748",
+      "command": "python src/north_garden/validate_future_litrpg_concept_plan.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.058116,
+      "normalized_stdout": "future LitRPG concept plan: 0 failures; 3 non-canon candidates/3 exact refs; 8/8 mutations rejected\n",
+      "normalized_stdout_sha256": "a0168224f1908bc46138c211f77a77cd44e224da97e62f4672abc150fab059ac",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_future_litrpg_concept_evidence.py",
+      "script_sha256": "a3a7af994cebaa3f0e0e037fc92c549c07d0c88f34f010f65eb30aa603e2ff4a",
+      "command": "python src/north_garden/validate_future_litrpg_concept_evidence.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.167224,
+      "normalized_stdout": "future LitRPG concept evidence: 0 failures; 3 non-canon candidates; 155.766s; 0 accepted\npaid API: none; built-in cost/model/request/seed: unavailable\n",
+      "normalized_stdout_sha256": "aceb77c708f462d6d01357306d66801572f4b66afb7ebe90ec9bcb1406c9227f",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_variable_cadence_assembly.py",
+      "script_sha256": "5d684b9709507f685844e7fa2a6123f313a22c475e1fc0767d3cb287557de965",
+      "command": "python src/north_garden/validate_ch05_variable_cadence_assembly.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.697619,
+      "normalized_stdout": "CH05 variable cadence assembly: 0 failures; 14 panels/3 sequences/8 widths/3 alignments; 10/10 mutations rejected\n1200x14566 full / 390x4734 phone / 7 viewports; 2 safe-zone texture outliers; 0 provider calls/$0\n",
+      "normalized_stdout_sha256": "779bc2a29221703c28161bdf7324614d9877c5396a4f97f6630994e1ac0ed98d",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_transparent_lettering_rehearsal.py",
+      "script_sha256": "33cca9681ead88c9c272f9c3f9e423e5d9be65afdffb873cc505745d4bfc976a",
+      "command": "python src/north_garden/validate_ch05_transparent_lettering_rehearsal.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.563217,
+      "normalized_stdout": "CH05 transparent lettering: 0 failures; 4 subjects/12 treatments/25 artifacts; 12/12 mutations rejected\nphone type 6.513-11.366px (0/4 at 13px); p05 backing contrast >=11.942:1; c014 semantic clearance fails; 0 calls/uploads/$0\n",
+      "normalized_stdout_sha256": "222a454b9340139ffb74c6f2b29d47ace79224b2b042f7a2421d4bd88d18dd21",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_lettering_width_copy_sensitivity.py",
+      "script_sha256": "45c5a5b819378447cb7eda776c42892df025f6c5785db61c7cbadaa8afa5cb19",
+      "command": "python src/north_garden/validate_ch05_lettering_width_copy_sensitivity.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.754351,
+      "normalized_stdout": "CH05 lettering width/copy sensitivity: 0 failures; 3 subjects/2 loads/30 cases/31 artifacts; 12/12 mutations rejected\nminimum passing widths: c005 1200/1200, c013 1200/1200, h001 1120/1200; c014 excluded; 0 calls/uploads/$0\n",
+      "normalized_stdout_sha256": "835f6a57d67ab30b6425e7ef295fd5044df76eb1e90c2afe6dc0245d4373a6dd",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_outside_art_lettering_band.py",
+      "script_sha256": "125abe843e608a8bb231e07905aa91f2853d707c8cbfd9553ae56189be4f5d51",
+      "command": "python src/north_garden/validate_ch05_outside_art_lettering_band.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.160184,
+      "normalized_stdout": "CH05 outside-art lettering bands: 0 failures; 2 treatments/3 subjects/6 bands/5 artifacts; 12/12 mutations rejected\n13.975px phone type; 0 source pixels changed; scroll +480px/+3.295%; no plan/assembly revision; 0 calls/uploads/$0\n",
+      "normalized_stdout_sha256": "59f9a38aee19e574c2b8255cff768378a02495fe55186c7ccaeedfb9bd600d0c",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_instrumented_production_manifest.py",
+      "script_sha256": "07d00a61708a6c01fac921b3d3757c60790f24b661da305922fb9f8bfa0beb58",
+      "command": "python src/north_garden/validate_ch05_instrumented_production_manifest.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.362413,
+      "normalized_stdout": "CH05 instrumented production handoff: 0 failures; 14 rows/3 sequences/14 plans; 15/15 mutations rejected\n0 accepted/commercial/lettering-ready/executable; exact prompts/sources/refs/cadence/lettering gates bound; 0 calls/uploads/$0\n",
+      "normalized_stdout_sha256": "61955ec5fc5c11f009b0b2001722dd8c1752cf3fd174b97f1cdb4de3b88d5503",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_owner_review_index.py",
+      "script_sha256": "f0e04d8878449c4c0b21f3ff0a503fb7666879ca4b4762dfd54071806d9fa04e",
+      "command": "python src/north_garden/validate_ch05_owner_review_index.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.9096,
+      "normalized_stdout": "CH05 owner review index: 0 failures; 29 candidates/14 selected/12 review links/42 artifacts; 12/12 mutations rejected\nall HTML links/hash bindings valid; 3 non-canon concepts separate; 0 accepted/minutes/calls/uploads/$0\n",
+      "normalized_stdout_sha256": "886b672053f32e0acfc659a3a36d971063536aa5aee17f56991c891dcadaf208",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_continuity_style_density.py",
+      "script_sha256": "15c155d21fee1d12f28ad3ef996ee8d6897150898dc6bb5056fe10a140d9ab89",
+      "command": "python src/north_garden/validate_ch05_continuity_style_density.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.139971,
+      "normalized_stdout": "CH05 continuity/style/density: 0 failures; 14 selected/26 triage/4 styles/13 jumps/4 artifacts; 12/12 mutations rejected\nmax appearance jump c014->c015 5.6517; manual hair/wardrobe pass remains separate; 0 accepted/calls/uploads/$0\n",
+      "normalized_stdout_sha256": "aaa149ed0ea5b2c3c21db7cdcd17ae768828009a571c4c9eab4e0477aa68b53e",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_style_direction_lineage.py",
+      "script_sha256": "c51555c209298cea2c1eef88823cfe628178bcb6a7edfccea471724b558d3f82",
+      "command": "python src/north_garden/validate_ch05_style_direction_lineage.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.060873,
+      "normalized_stdout": "CH05 style direction lineage: 0 failures; 9 append-only revisions/7 current evidence records; 11/11 mutations rejected\nlatest r9 role-aware cel/clear-line route; owner accepted candidates/lettering 0/0; AnimationShotPlan/E-Conte null\n",
+      "normalized_stdout_sha256": "a919ca03013a126489061daa055baf5132186a486c61257451e63051bd4c81cb",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_frozen_gauntlet_baseline_integrity.py",
+      "script_sha256": "db520816a6c10f41be7a30b4d564b63e7e66f7498b7cc020e33ce0e523f0c105",
+      "command": "python src/north_garden/validate_frozen_gauntlet_baseline_integrity.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.21419,
+      "normalized_stdout": "0 failures, 0 warnings (16 frozen + 4 baseline tracked paths byte-identical from f505788 to 00498df)\nbaseline remains 0/24 accepted/no tuning; local workflow pin exact; 15/15 mutations rejected; 0 requests/uploads/$0\n",
+      "normalized_stdout_sha256": "36d33e8c2cb8979ff8176f2298c694fc8b1d9244e287f4c0b108876f760dee68",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_tracked_source_scope.py",
+      "script_sha256": "96aaedb6abfa0378ffbac2a5ae6e647210a875ec8fd0203ac097519c5d55c1d7",
+      "command": "python src/north_garden/validate_tracked_source_scope.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.207061,
+      "normalized_stdout": "0 failures, 0 warnings (<dynamic> tracked safe-source paths; origin verified)\n",
+      "normalized_stdout_sha256": "0eb3580b40377db98314d4bd0b85da526164a705be44e0b00dcd8ca04e446c55",
+      "stderr": ""
+    }
+  ],
+  "frozen_integrity_result": "0 failures, 0 warnings (16 frozen + 4 baseline tracked paths byte-identical from f505788 to 00498df)\nbaseline remains 0/24 accepted/no tuning; local workflow pin exact; 15/15 mutations rejected; 0 requests/uploads/$0\n",
+  "source_scope_result": "0 failures, 0 warnings (<dynamic> tracked safe-source paths; origin verified)\n",
+  "boundaries": [
+    "The gate is local and declares every command non-network-capable.",
+    "Frozen v2.1.1 and baseline_legacy integrity are validated without rerendering or tuning.",
+    "Generated pixels remain ignored; source scope and origin configuration validate.",
+    "A passing gate does not accept art, clear commercial use, bind final copy, or create executable production state."
+  ]
+}

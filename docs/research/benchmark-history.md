@@ -223,6 +223,8 @@ The CH05 production-handoff compiler emits 14 exact rows/three sequences with a 
 
 The CH05 density diagnostics measure 14 phone-footprint panels and 13 adjacent feature jumps while retaining exact 26-candidate engineering triage. c005 has 0.308471 edge occupancy; c014→c015 is the maximum z-scored global-feature jump at 5.6517; 12/12 mutations fail. This is appearance-density instrumentation, not character recognition, balanced style benchmarking, aesthetic scoring, or acceptance.
 
+The CH05 overnight release gate executes and reproduces 16/16 no-network validators in 5.259 observed seconds, rejecting 15/15 release-state mutations. It includes frozen/baseline and source-scope checks. This measures integrated evidence integrity and local reproducibility—not renderer determinism, visual acceptance, commercial clearance, or production throughput.
+
 The blinded G07 protocol verifies 16/16 neutral candidate presentations and 4/4 hidden-arm repeat pairs, requiring 20 timed assertion decisions; 13/13 identity/order/coverage/timing mutations fail. Actual decisions remain 0, minutes null, and accepted subjects zero. This adds review readiness, not human renderer-quality evidence or a new selection decision.
 
 The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate cost, latency, drift, assertion, and failure-tag dimensions; 9/9 pending/fixture/coverage/mapping mutations fail. With review still pending it emits no human arm results, composite score, rank, or route change. Renderer-quality evidence and ADR-0025 remain unchanged.

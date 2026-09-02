@@ -978,3 +978,10 @@
 - All-26 exact engineering triage is cel-painted 5 pass/1 fail, clear-line 5 pass/2 warn/1 fail, limited ink 4 pass/1 warn/1 fail, and clean graphic 3 pass/3 fail; prompt/task conditions are unbalanced.
 - c005 is the highest-edge selection at 0.308471. c014 is dense despite its limited-ink label, and c014→c015 is the largest adjacent appearance jump at 5.6517.
 - ADR-0094 and ComicStyleDirection r9 retain role-aware cel/clear-line use, reject style-label density assumptions, and expose c014 punctuation versus continuity as an owner decision. Four artifacts build deterministically; 12/12 mutations fail; calls/uploads/cost are 0/0/$0.
+
+## 2026-09-01 - CH05 overnight integrated release gate r1
+
+- Ran 16 exact local validators across all overnight generation/review/lettering/handoff/density evidence, nine style revisions, frozen v2.1.1/`baseline_legacy`, and tracked source scope.
+- All 16/16 pass in 5.259 observed seconds and reproduce from exact script plus normalized stdout hashes; 15/15 activity/promotion/coverage mutations fail.
+- Frozen/baseline remains byte-identical with 0/24 accepted/no tuning. Tracked source scope passes; generated pixels remain ignored.
+- ADR-0095 requires art-review evidence and frozen/source integrity to pass together. Gate activity is zero provider calls/uploads/downloads/$0; owner acceptance, executable panels, and human minutes remain 0/0/null.

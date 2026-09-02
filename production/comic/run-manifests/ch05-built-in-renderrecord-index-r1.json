@@ -1,0 +1,2240 @@
+{
+  "record_type": "BuiltInImageGenRenderRecordIndex",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-built-in-renderrecord-index-r1",
+  "state": "TWENTY_NINE_NORMALIZED_EXACT_LOCAL_RECORDS_OWNER_PENDING",
+  "source_evidence": [
+    {
+      "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+      "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+    },
+    {
+      "path": "docs/research/evidence/ch05-cadence-hardening-r1.json",
+      "sha256": "62a5e57ce5648e33609200f1b77276ea88d7174926ff90153d22f7e7d99eddf4"
+    },
+    {
+      "path": "docs/research/evidence/future-litrpg-visual-concepts-r1.json",
+      "sha256": "66c1b7798de63efc1a84635cf58e678cd8857bb9738fbd5fa23cb9e7bf3a80b8"
+    }
+  ],
+  "summary": {
+    "record_count": 29,
+    "ch05_record_count": 26,
+    "noncanon_record_count": 3,
+    "exact_prompt_count": 29,
+    "exact_output_count": 29,
+    "input_reference_uses": 39,
+    "unique_reference_hash_count": 3,
+    "total_elapsed_seconds": 1385.036,
+    "pending_human_review": 29,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "generation_reproducible": 0,
+    "model_unavailable": 29,
+    "endpoint_unavailable": 29,
+    "request_id_unavailable": 29,
+    "usage_unavailable": 29,
+    "cost_unavailable": 29,
+    "seed_unavailable": 29
+  },
+  "timing_reconciliation": {
+    "authoritative_candidate_sum_seconds": 1385.036,
+    "legacy_narrative_total_seconds": 1385.824,
+    "delta_seconds": 0.788,
+    "concept_authoritative_seconds": 154.978,
+    "concept_legacy_narrative_seconds": 155.766,
+    "resolution": "Exact candidate records and their batch summary use 154.978 concept seconds and 1385.036 total seconds; legacy narrative totals remain historical and require append-only correction."
+  },
+  "unique_reference_hashes": [
+    "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+    "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+    "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+  ],
+  "records": [
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c001",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p001",
+      "plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c001 for wide_action_anchor\nPrimary request: The pair leave the farmhouse before the damp grass dries. Composition requirement: wide downhill departure; two small adult figures against the trail. wide downhill departure at dawn; Sigrid leads, Soren follows; small adult figures but hair/wardrobe silhouettes remain distinct\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: clean high-quality graphic webcomic, confident ink shapes, restrained painterly color, crisp silhouettes, controlled environmental texture.\nComposition/framing: wide_action_anchor; Use one clear travel vector; reserve motion marks for feet, water, cloth, or map edge rather than filling the frame.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "ad0559cd15d3eb0f14847a73e39b5d87949fb776b04f7e67aa02df59a371720d",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c001-p001-clean_graphic-r1.png",
+        "sha256": "9f6eb7408ea683f313fd02f48fe6e37cbd8db06cd21fba197af01e86b92b29aa",
+        "bytes": 2230562,
+        "width": 1692,
+        "height": 929,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 52.579,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c001",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "FAIL",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "FAIL",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "WARN"
+        },
+        "note": "Strong reference continuity, but the pair move uphill toward the house instead of departing downhill; preserve as reference-dominance diagnostic."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "5bd7611e29b126dbe42efe64efa98f8a69c61bdc17462f6af2e84b07f505593a"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c002",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p002",
+      "plan_revision_id": "ng-ch05-sc01-p002-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c002 for medium_character_beat\nPrimary request: Sigrid checks the smoke direction against the folded map. Composition requirement: over-shoulder map insert; smoke mark circled. over-shoulder Sigrid map study; circled smoke direction represented visually without legible text; mature face and dark tied hair\nInput images: Image 1: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: premium modern cel-painted webcomic with mature proportions, expressive linework, graphic shadows, clean color separation, subtle paper grain.\nComposition/framing: medium_character_beat; Use restrained line/vibration or smoke flow only at the event source; preserve surrounding negative space.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: only Sigrid is visible; do not copy Soren or any extra person from a reference.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "200bcc58cede0b23df3c315d50e74cd52e74f8306866f3181ff84f7b5a7da599",
+      "input_references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c002-p002-cel_painted-r1.png",
+        "sha256": "753c1a73dd04b49ec2da7a2135b04620fb1fd8a030ae908ea95c63c0b6ce7f69",
+        "bytes": 2127994,
+        "width": 1023,
+        "height": 1537,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 53.128,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c002",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Sigrid, folded map, marked direction, and distant smoke form a clear quiet orientation beat with a clean top-right field."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "f8dc551bfb5ae1abea559faa4ef9f834eff4bb022bff59e97bd631ad70127507"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c003",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p003",
+      "plan_revision_id": "ng-ch05-sc01-p003-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c003 for small_object_insert\nPrimary request: Soren notices that the boot prints now overlap the trail rather than lead it. Composition requirement: low track detail with Soren's boot held back. low boot-print clue insert with Soren's boot held back; overlapping prints are the single clear story object\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment.\nComposition/framing: small_object_insert; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: only Soren is visible; do not copy Sigrid or any extra person from a reference.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "2291818ab1541e6c3a50f808eb7c7bcff2e914312f6dd16c2da2420d251a0cc1",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c003-p003-clear_line_watercolor-r1.png",
+        "sha256": "b8d3b0cd0b80ed0273ecd268cfe0ffa7e76df6599be919266eb27a2dc26cc557",
+        "bytes": 2836081,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 52.78,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c003",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "WARN",
+          "lettering_safe_zone": "FAIL",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Boot-print clue and held-back boot read, but overlap-versus-leading geometry remains ambiguous and the canonical top-left zone covers Soren's head."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "b08ea34e06a102118d482ead649acfe2957b126b94a9d5e10cfbae133c64cd6e"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c004",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p009",
+      "plan_revision_id": "ng-ch05-sc01-p009-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c004 for tall_transition\nPrimary request: The trail narrows under wet branches. Composition requirement: long narrow path; Sigrid leads, Soren follows. long narrow wet path under branches; Sigrid leads, Soren follows; simplified foliage and clear depth\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: lower-density limited-palette ink-and-flat-color adventure strip, bold value masses, selective dry-brush texture, strong phone-size readability.\nComposition/framing: tall_transition; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "8c7bdfdebc28b9b9d35a814365b25ea24f49f6287c122dbb8ff358adb1c4b545",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c004-p009-limited_ink_flat-r1.png",
+        "sha256": "2ddc4dc6dc3d0c9f2061d971ca19489c1fb9f3f10b2cab6d8fa368116ce061f4",
+        "bytes": 2676615,
+        "width": 887,
+        "height": 1774,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 45.268,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c004",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "WARN",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Clear Sigrid-leads trail movement and stable silhouettes; the protected zone contains dense branch texture and the treatment is not genuinely low density."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "410dd8508c2bc521d9034eb1cfd3de32edb684b18958078a16c0e09a74489b67"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c005",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p009",
+      "plan_revision_id": "ng-ch05-sc01-p009-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c005 for tall_transition\nPrimary request: The trail narrows under wet branches. Composition requirement: long narrow path; Sigrid leads, Soren follows. alternate style control for the same narrow-trail beat; preserve exact role order, hair colors, and wardrobe\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment.\nComposition/framing: tall_transition; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "02b200803b26d9447d51ae8d450c0d808fda3638b17a20403a3e02b8c3f0b1f0",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c005-p009-clear_line_watercolor-r1.png",
+        "sha256": "239346d94a18f822455dbd98bfc82cd1dae924a860a763468eb211924a225372",
+        "bytes": 2783002,
+        "width": 941,
+        "height": 1672,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 51.133,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c005",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "WARN",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Best grounded trail weight shift, footfalls, wet mud, and cloth movement; overhead branches make the top-left lettering field busier than intended."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "90f098ce8e0444f3bfe6a9ee3a25785ecb2c3458436f51886679221b1807134e"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c006",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c006 for wide_practical_action\nPrimary request: Sigrid signals Soren to stay off the open bridge. Composition requirement: Sigrid foreground hand signal, Soren held back. Sigrid foreground stop-hand signal at unsafe open bridge; Soren visibly checks his step behind her; hand causality is dominant\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: clean high-quality graphic webcomic, confident ink shapes, restrained painterly color, crisp silhouettes, controlled environmental texture.\nComposition/framing: wide_practical_action; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "98882e1fcc10fb332c4246a2f4c7c18542ec51d3a6ffb1cf80236e3df8baecdd",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "input_reference_count": 2,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c006-p019-clean_graphic-r1.png",
+        "sha256": "6711c1e076086c1d984353338f99b99d72b94c13e541e23debd4ed959c9296b0",
+        "bytes": 2430183,
+        "width": 1692,
+        "height": 930,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 52.303,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c006",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Stop hand, checked step, unsafe bridge, role order, and expressive faces read immediately; strong practical-action candidate."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "a47288cdf6e95bb3cffcfc08519045c96a873bb0092467e5b0918535129811df"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c007",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c007 for medium_practical_action\nPrimary request: Sigrid signals Soren to stay off the open bridge. Composition requirement: Sigrid foreground hand signal, Soren held back. text-only style control for bridge warning; exactly two fictional adults, Sigrid dark-haired foreground, Soren light-brown-haired held back\nInput images: none; text-only control.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: lower-density limited-palette ink-and-flat-color adventure strip, bold value masses, selective dry-brush texture, strong phone-size readability.\nComposition/framing: medium_practical_action; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "6360bdc96fcf04e7a558593fc051cba7f63e97ab2445a210dba7922a66919fab",
+      "input_references": [],
+      "input_reference_count": 0,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c007-p019-limited_ink_flat-r1.png",
+        "sha256": "fdd4d9195d26e7362ad2041e75aa608676a577fc086b575aaeed50e4c94b6117",
+        "bytes": 2981519,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 56.946,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c007",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "FAIL",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Text-only control preserves identity and warning action, but the top-left lettering zone overlaps Soren's head and the image remains high density."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "0fb3d4d7a75aba4685cf9b6a79d71a67ebb5331dc43d0baec1334f97c5851908"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c008",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p026",
+      "plan_revision_id": "ng-ch05-sc01-p026-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c008 for small_object_insert\nPrimary request: Sigrid tests the heat without disturbing the ember. Composition requirement: hand held above drum; smoke separates fingers. Sigrid's mature hand held above a warm drum; thin smoke separates every finger; face optional and unobscured if present\nInput images: Image 1: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: premium modern cel-painted webcomic with mature proportions, expressive linework, graphic shadows, clean color separation, subtle paper grain.\nComposition/framing: small_object_insert; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: only Sigrid is visible; do not copy Soren or any extra person from a reference.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "598ffbc8fe37cb7f8b12d828d62f34ef3b3d5658624e4e921a12ea079c43d4b7",
+      "input_references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c008-p026-cel_painted-r1.png",
+        "sha256": "3153588f5bad4d6a5e39e5609f1ef77d71c5c60258066f93f8ffbf05d6e0792d",
+        "bytes": 2139022,
+        "width": 1023,
+        "height": 1537,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 52.068,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c008",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Heat, hand response, tin, smoke, and Sigrid's close expression make a readable causal sensory beat with excellent continuity."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "f485728d9abc7f256ff7ea2be245a7d5aa9acdd8cad23b0cf0ac630cf9aaa12a"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c009",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p029",
+      "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c009 for wide_suspense_anchor\nPrimary request: Sigrid chooses the wall opening rather than the doorway. Composition requirement: low angled entry; Soren watches the exterior. low angled wall-opening entry; Sigrid enters first while Soren watches the exterior; strong separated silhouettes\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: clean high-quality graphic webcomic, confident ink shapes, restrained painterly color, crisp silhouettes, controlled environmental texture.\nComposition/framing: wide_suspense_anchor; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "6ee5ef44c44229b968151d5ae7ef7c8e6a9f2c5cd624466f91528e551b685fdc",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "input_reference_count": 2,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c009-p029-clean_graphic-r1.png",
+        "sha256": "31839e0c719bcdf437c1fa64e1d3c098643fa16f7af9a424bfb9ac0edd08fdd6",
+        "bytes": 2292579,
+        "width": 1692,
+        "height": 929,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 53.74,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c009",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "FAIL",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Mill threshold crossing and simultaneous smoke watch are clear, but the top-left protected zone overlaps Soren's head."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "a95de55835b4ecaaefd2a15a606c34e8ba29514149e8c11a6bbbe29ffc3eef87"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c010",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p035",
+      "plan_revision_id": "ng-ch05-sc01-p035-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c010 for small_object_reveal\nPrimary request: Sigrid notices a sealed tin on an upper beam. Composition requirement: upward view; tin isolated in daylight. upward object-only view; small sealed tin isolated in daylight on a high beam; no people\nInput images: none; text-only control.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment.\nComposition/framing: small_object_reveal; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top normalized safe zone [0.25, 0.04, 0.5, 0.16] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: no people are visible; this is an environment or story-object panel.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "5516f3a06de2f68882f002c93f949e8ae14f4f331aafbda0ca822adcf3164809",
+      "input_references": [],
+      "input_reference_count": 0,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c010-p035-clear_line_watercolor-r1.png",
+        "sha256": "2a8477c08615c4b8eab31b58ac4cd2bb137a9020817ab439369ddc1cb520ca05",
+        "bytes": 1697611,
+        "width": 1023,
+        "height": 1537,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 20.332,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c010",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Quiet object insert isolates the tin and beam cleanly; useful cadence relief between character-action panels."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "1b970f8411a18c3a5780334f841fc1149d2303ac409f9047140593b16008561a"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c011",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c011 for tall_practical_action\nPrimary request: Soren reaches it with a fallen plank while Sigrid braces the plank. Composition requirement: two-person practical cooperation, no spectacle. both adults grounded; Soren uses fallen plank as lever, Sigrid braces fulcrum; P036 reference supplies composition only and its hair colors must be reversed to continuity profile\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only. Image 3: composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: clean high-quality graphic webcomic, confident ink shapes, restrained painterly color, crisp silhouettes, controlled environmental texture.\nComposition/framing: tall_practical_action; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "d1c597098caa95f57ac6c99d14bb66988fe2022f2bb213ac1ed67215ad3c32b4",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        },
+        {
+          "reference_id": "p036_composition_only",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative"
+        }
+      ],
+      "input_reference_count": 3,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c011-p036-clean_graphic-r1.png",
+        "sha256": "92cfddf36512e1f4ee28deaeca700a36ddb4f28852a6a3e33be35722c2495338",
+        "bytes": 2550685,
+        "width": 887,
+        "height": 1774,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 51.179,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c011",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "FAIL",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "WARN"
+        },
+        "note": "Hair survives the conflicting composition reference, but plank, fulcrum, and tin do not form an explicit connected causal mechanism."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "48724e921808425e316e67ecc803f586ed951d4d3d9e30b064d4c535bec90f1e"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c012",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c012 for tall_practical_action\nPrimary request: Soren reaches it with a fallen plank while Sigrid braces the plank. Composition requirement: two-person practical cooperation, no spectacle. cel-painted alternate of exact lever beat; visibly planted feet, complete lever span, fulcrum, tin, hands, and face-safe lettering field\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only. Image 3: composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: premium modern cel-painted webcomic with mature proportions, expressive linework, graphic shadows, clean color separation, subtle paper grain.\nComposition/framing: tall_practical_action; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "02cdeb5fb20eaf9741260ff21c7a770d53568f873f7fedba012bb2706bd0f025",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        },
+        {
+          "reference_id": "p036_composition_only",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative"
+        }
+      ],
+      "input_reference_count": 3,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c012-p036-cel_painted-r1.png",
+        "sha256": "94ab31f4dcbec6b63d79d36dba1d26f03a6dca019ac1c4788576dee0fafeb906",
+        "bytes": 2606325,
+        "width": 917,
+        "height": 1715,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 56.102,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c012",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "The long plank visibly reaches the elevated tin while both adults apply coordinated leverage; clearest P036 causal result in this batch."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "8796776f698003977059b7dbbfea14a23a6101d48f5dc2cf5fd1789ab95079ac"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c013",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p040",
+      "plan_revision_id": "ng-ch05-sc01-p040-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c013 for medium_character_beat\nPrimary request: Sigrid decides the smoke was a signal, not a campfire. Composition requirement: close adult profile, calm deduction. Sigrid calm deduction close profile; dark tied hair, plaid wrap, folded map, distant smoke; expression and quiet field dominate\nInput images: Image 1: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment.\nComposition/framing: medium_character_beat; Use restrained line/vibration or smoke flow only at the event source; preserve surrounding negative space.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: only Sigrid is visible; do not copy Soren or any extra person from a reference.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "3457eb9b5c3d43bf53362a0955416cb17d509dafcf6b1a17728f94aaac3deb0d",
+      "input_references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c013-p040-clear_line_watercolor-r1.png",
+        "sha256": "237b8c3927173b72373ee502c1ce4785e0f3c9dad53f6fb04d3e9633d4ed1a09",
+        "bytes": 1863758,
+        "width": 1023,
+        "height": 1537,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 40.39,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c013",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Sigrid's deduction, map, and signal smoke read clearly with stable face/hair and a deliberately quiet lettering field."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "a96a97439e13e643709b205cea5fae70d6e1da25a56d368b9b7f507e662519c1"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c014",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p044",
+      "plan_revision_id": "ng-ch05-sc01-p044-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c014 for small_object_insert\nPrimary request: At the creek, Soren cuts the twine line with a pocket knife. Composition requirement: hands, blade, taut twine. Soren's adult hands cut taut soot-stained twine with a small practical pocket knife at the creek; blade/twine causality and safe handling legible\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: lower-density limited-palette ink-and-flat-color adventure strip, bold value masses, selective dry-brush texture, strong phone-size readability.\nComposition/framing: small_object_insert; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: only Soren is visible; do not copy Sigrid or any extra person from a reference.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "8634b1229f3221795fc4ce3ab98655a0037bd687723aa27671754ac99fcb851a",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c014-p044-limited_ink_flat-r1.png",
+        "sha256": "05c1a83a89c6c0b92b3a987b96d58db8cc2d399a185f54dfded839dc980067e7",
+        "bytes": 2489365,
+        "width": 978,
+        "height": 1608,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 51.275,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c014",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Readable adult hands, blade edge, taut wet twine, and cut point make an effective small causal insert."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "d6b57e527381d4c51361f6e2ea9f7effdb42546bd2f9e28cbafc8bdfbef3bb65"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c015",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p046",
+      "plan_revision_id": "ng-ch05-sc01-p046-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c015 for medium_continuity_beat\nPrimary request: Sigrid keeps the creek map inside her wrap rather than the notebook. Composition requirement: wardrobe/prop continuity close. Sigrid deliberately tucks folded creek map inside plaid wrap rather than notebook; dark hair and prop continuity exact\nInput images: Image 1: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: premium modern cel-painted webcomic with mature proportions, expressive linework, graphic shadows, clean color separation, subtle paper grain.\nComposition/framing: medium_continuity_beat; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: only Sigrid is visible; do not copy Soren or any extra person from a reference.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "fa4b0b32e6079f0a7e86cbfefa5587b60a9d5048f897635296bd4adbae7569d8",
+      "input_references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c015-p046-cel_painted-r1.png",
+        "sha256": "8b5a0b134a9dbf9befcf8a8e1edf0ff17bcd4ec97796cfc041b118e111f7bb17",
+        "bytes": 1788327,
+        "width": 1023,
+        "height": 1537,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 25.738,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c015",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Sigrid protects the folded evidence against the wrap; a calm continuity beat with clear expression and safe negative space."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "0560ad12f54bc6471c19bfa8c91f57b7758deab9f4af79642e23194f6147f4a9"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c016",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p049",
+      "plan_revision_id": "ng-ch05-sc01-p049-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c016 for medium_reaction_anchor\nPrimary request: Soren realizes they did not light the stove before leaving. Composition requirement: Soren foreground, house far beyond. Soren foreground realizes the distant farmhouse stove is smoking; light-brown hair, oatmeal coat, house far beyond, restrained alarm\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: clean high-quality graphic webcomic, confident ink shapes, restrained painterly color, crisp silhouettes, controlled environmental texture.\nComposition/framing: medium_reaction_anchor; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: only Soren is visible; do not copy Sigrid or any extra person from a reference.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "eef281c958bc9b5d344c249d9c3dbfad59c0094c24aedfcad825b150c064d59d",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c016-p049-clean_graphic-r1.png",
+        "sha256": "b1e40685fe4a37e4ae475c4da60964a1036a164280a54c85b97f06e0c278acf8",
+        "bytes": 2573123,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 50.624,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c016",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Soren, map, uphill house, and alert turn make the target-change beat readable while retaining the oatmeal-coat silhouette."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "f4254196e8127de4db5083b36cc2dbd4687a41bff743cdfb1a378d288fc94061"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c017",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c017 for wide_action_anchor\nPrimary request: Sigrid breaks into a run toward the house; Soren follows with the map. Composition requirement: final wide directional rush, two adult figures, house ahead. alternate style of urgent uphill return; Sigrid dark-haired lead, Soren light-brown-haired follower with map, grounded stride and mud\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment.\nComposition/framing: wide_action_anchor; Use one clear travel vector; reserve motion marks for feet, water, cloth, or map edge rather than filling the frame.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "0430d91cbe388064f059f23e24aaa92379b4669e9ec7056aebc520d864a1082a",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "input_reference_count": 2,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c017-p050-clear_line_watercolor-r1.png",
+        "sha256": "062a9a0f2cd92cb9cde1b698b4c395e850dfece230cc50c888c95fb2b6a67b0c",
+        "bytes": 2442082,
+        "width": 1692,
+        "height": 929,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 42.118,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c017",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Strongest urgent-return action: correct uphill destination, Sigrid leads, Soren follows with map, and mud/cloth motion carries causality."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "b81213f3ac56cc8f46627aab2746f6a2248911ec91bca6dd25757ab639884fe0"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c018",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c018 for wide_action_anchor\nPrimary request: Sigrid breaks into a run toward the house; Soren follows with the map. Composition requirement: final wide directional rush, two adult figures, house ahead. lower-density action control; exactly two adult silhouettes, large quiet sky field, bold limited palette, no loss of face/hair/wardrobe identity\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: lower-density limited-palette ink-and-flat-color adventure strip, bold value masses, selective dry-brush texture, strong phone-size readability.\nComposition/framing: wide_action_anchor; Use one clear travel vector; reserve motion marks for feet, water, cloth, or map edge rather than filling the frame.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "0e79693933362ce62384c5acd167e50d8e2aef998405955ad6d9d5591a33df3a",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c018-p050-limited_ink_flat-r1.png",
+        "sha256": "3bcada1f38f31d1b1526c217ad023d87c69810b523a78c1d6e4330a529efa9e6",
+        "bytes": 2122126,
+        "width": 1693,
+        "height": 929,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 48.014,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c018",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Same successful causal read as c017 with slightly simpler value masses, though still denser than the requested low-density arm."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "0ee945ed00c55aa8195108beab060e535552fc8cf254214b63f5e7fce2a566c1"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c019",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p001",
+      "plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c019 for wide_orientation_control\nPrimary request: The pair leave the farmhouse before the damp grass dries. Composition requirement: wide downhill departure; two small adult figures against the trail. text-only identity control: Soren light-brown-haired in oatmeal coat and Sigrid dark-haired in plaid wrap leave farmhouse downhill\nInput images: none; text-only control.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment.\nComposition/framing: wide_orientation_control; Use one clear travel vector; reserve motion marks for feet, water, cloth, or map edge rather than filling the frame.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "ec7a7c57603206d379e151bce77ea69e9f13cc06069f9999847e061ef52ed6ec",
+      "input_references": [],
+      "input_reference_count": 0,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c019-p001-clear_line_watercolor-r1.png",
+        "sha256": "91f38cff7dd3f0a83f6e709ce27e3910c0531385f0b2f0b44d0ea98309185254",
+        "bytes": 3061695,
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 33.51,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c019",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "WARN"
+        },
+        "note": "Text-only control fixes c001's direction: the adults clearly leave the farmhouse downhill; identity is readable mainly through wardrobe at phone scale."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "5756890c87105b2f1d46785178bbcb01aab05c3ec61127dc6d7b0988aa313c23"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "c020",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+        "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p040",
+      "plan_revision_id": "ng-ch05-sc01-p040-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate c020 for medium_character_control\nPrimary request: Sigrid decides the smoke was a signal, not a campfire. Composition requirement: close adult profile, calm deduction. text-only lower-density Sigrid identity control; mature dark-haired adult profile, plaid wrap, map, distant smoke, quiet top-right field\nInput images: none; text-only control.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: lower-density limited-palette ink-and-flat-color adventure strip, bold value masses, selective dry-brush texture, strong phone-size readability.\nComposition/framing: medium_character_control; Use restrained line/vibration or smoke flow only at the event source; preserve surrounding negative space.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: only Sigrid is visible; do not copy Soren or any extra person from a reference.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "ce4f7ab0078a9c7fcc039bef88e7ec85482881b4bfc6492e0fd53ceced2e51c6",
+      "input_references": [],
+      "input_reference_count": 0,
+      "output": {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c020-p040-limited_ink_flat-r1.png",
+        "sha256": "0e110b5ab3192b9a434f8b1f98db2e84fc87837756c13bbed6f41dc25b98883c",
+        "bytes": 2316908,
+        "width": 1023,
+        "height": 1537,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 30.162,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "c020",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Text-only Sigrid control keeps dark tied hair, plaid, map, and smoke, with the lowest effective visual density of the close treatments."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "2373f542ebab8059915e03f56255451dc2d2d0f84c66d1fbb002b6a46d97617c"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "h001",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-cadence-hardening-r1.json",
+        "sha256": "62a5e57ce5648e33609200f1b77276ea88d7174926ff90153d22f7e7d99eddf4"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h001 for wide_action_style_completion\nPrimary request: Sigrid breaks into a run toward the house; Soren follows with the map. Composition requirement: final wide directional rush, two adult figures, house ahead. fixed comparison to c017/c018: urgent uphill return toward the visible house; Sigrid leads and Soren follows with the map; grounded mud kick and trailing cloth; both adults remain below the top-right quiet sky safe zone\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: premium modern cel-painted webcomic with mature proportions, expressive linework, graphic shadows, clean color separation, subtle paper grain.\nComposition/framing: wide_action_style_completion; Use one clear travel vector; reserve motion marks for feet, water, cloth, or map edge rather than filling the frame.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "d4247db0093b717943accae45d89e0540df379043945f274fc9a2863e52b18bc",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "input_reference_count": 2,
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png",
+        "sha256": "7c63481cae9686d439867ba5a3e7e66024715b5ba07687068785fbc31d32f737",
+        "bytes": 2213838,
+        "width": 1695,
+        "height": 928,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 51.677,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "h001",
+        "source_failure_class": "missing cel-painted wide-action coverage",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Cel-painted finish generalizes to P050: correct uphill destination, role order, map, mud/cloth motion, mature faces, and open top-right sky."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "ab3e2f850b976c3bbc3ac62882dc7e4e66d43b8a39bc849b18a9b3f7ad6052a0"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "h002",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-cadence-hardening-r1.json",
+        "sha256": "62a5e57ce5648e33609200f1b77276ea88d7174926ff90153d22f7e7d99eddf4"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p003",
+      "plan_revision_id": "ng-ch05-sc01-p003-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h002 for small_object_targeted_repair\nPrimary request: Soren notices that the boot prints now overlap the trail rather than lead it. Composition requirement: low track detail with Soren's boot held back. targeted correction of c003 only: put Soren entirely in the lower-right half, outside the top-left safe zone; show one trail-direction print chain and a second muddy boot-print chain crossing it at a clearly different angle; Soren stops his boot before the intersection and points without touching it; no house or extra character\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment.\nComposition/framing: small_object_targeted_repair; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: only Soren is visible; do not copy Sigrid or any extra person from a reference.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "10818c4f488f6c27dfcc2a909998fe597db55f03400ba6b6c4a5f1ed2b86b329",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h002-p003-clear_line_watercolor-r1.png",
+        "sha256": "abdae79e29ce9c891a27c103d6c56002b1fd3d7a85a6eefc87d8e1e2aec8d9ce",
+        "bytes": 2670160,
+        "width": 1199,
+        "height": 1312,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 65.024,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "h002",
+        "source_failure_class": "c003 safe-zone collision and ambiguous print geometry",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Soren remains on the right; two differently angled footprint chains cross clearly; the top-left safe zone is empty sky."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "7197d21241dbb42a99480648b914f59585e5196588d835e35100499b104eb54d"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "h003",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-cadence-hardening-r1.json",
+        "sha256": "62a5e57ce5648e33609200f1b77276ea88d7174926ff90153d22f7e7d99eddf4"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h003 for medium_practical_action_targeted_repair\nPrimary request: Sigrid signals Soren to stay off the open bridge. Composition requirement: Sigrid foreground hand signal, Soren held back. targeted correction of c007 only: reserve the entire top-left safe zone as empty flat gray sky; place dark-haired Sigrid center-right with one clear stop palm and the broken bridge behind her; place light-brown-haired Soren low center behind her checking his step; exactly two adults; broad flat shapes and no crosshatching\nInput images: none; text-only control.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: genuinely low-density limited-palette ink-and-flat-color adventure strip, broad quiet value masses, almost no environment hatching, strong phone-size readability.\nComposition/framing: medium_practical_action_targeted_repair; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "ab5bb675ea1a9d74aa695416fc41ada09fd85f36a318160cca1fc31a624d260b",
+      "input_references": [],
+      "input_reference_count": 0,
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h003-p019-limited_ink_flat-r1.png",
+        "sha256": "2eec56ab416369fe3f58cd8ee745598b817f154692cf4a56081fd3e3097c58d7",
+        "bytes": 2151025,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 30.9,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "h003",
+        "source_failure_class": "c007 safe-zone collision and ineffective low-density arm",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Text-only repair keeps exactly two adults, warning palm, checked step, broken bridge, empty top-left sky, and visibly flatter value masses."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "14eeb83db1bafcb223a3bd186038a58434e93d11f11d0dea60e919a418e7e6f7"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "h004",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-cadence-hardening-r1.json",
+        "sha256": "62a5e57ce5648e33609200f1b77276ea88d7174926ff90153d22f7e7d99eddf4"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p029",
+      "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h004 for wide_reveal_targeted_repair\nPrimary request: Sigrid chooses the wall opening rather than the doorway. Composition requirement: low angled entry; Soren watches the exterior. targeted correction of c009 only: leave the complete top-left safe zone as empty pale sky and bare wall; stage both adults in the right two-thirds; Sigrid crosses the mill threshold while Soren pauses outside and turns toward the distant smoke; preserve exactly two adults and the two simultaneous targets\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: clean high-quality graphic webcomic, confident ink shapes, restrained painterly color, crisp silhouettes, controlled environmental texture.\nComposition/framing: wide_reveal_targeted_repair; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "0150f26746daf634382b678ed103a0783b9cbd1d572d0c282747b14210ddbdb7",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "input_reference_count": 2,
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h004-p029-clean_graphic-r1.png",
+        "sha256": "0a815a965e50a66b32f232c60b716fc8c8b15e501ee9ae9c1ec0172c68a4bcdd",
+        "bytes": 2173631,
+        "width": 1692,
+        "height": 929,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 54.188,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "h004",
+        "source_failure_class": "c009 safe-zone collision",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Both adults are staged in the right two-thirds; mill-threshold action and Soren's smoke watch remain distinct; top-left is open sky."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "8f0d2f43b3fa27de8bcb14d185559e3cd01fe5494d97c14db695722e95fa50dc"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "h005",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-cadence-hardening-r1.json",
+        "sha256": "62a5e57ce5648e33609200f1b77276ea88d7174926ff90153d22f7e7d99eddf4"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h005 for tall_causal_mechanism_targeted_repair\nPrimary request: Soren reaches it with a fallen plank while Sigrid braces the plank. Composition requirement: two-person practical cooperation, no spectacle. targeted refinement of the c011 failure class: a single long plank runs continuously from Sigrid's braced hands over one visible low fulcrum block to its upper tip directly lifting the rim of the elevated tin; Soren pulls down on the opposite plank end with bent knees; show the complete hand-plank-fulcrum-tip-tin chain with no disconnected or duplicate plank; both adults and the causal chain stay outside the top-right safe zone\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only. Image 3: composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: premium modern cel-painted webcomic with mature proportions, expressive linework, graphic shadows, clean color separation, subtle paper grain.\nComposition/framing: tall_causal_mechanism_targeted_repair; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "6e323202913732eff0e8be157486a2bff59dcf7f4349692feccc504436ece629",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        },
+        {
+          "reference_id": "p036_composition_only",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative"
+        }
+      ],
+      "input_reference_count": 3,
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h005-p036-cel_painted-r1.png",
+        "sha256": "0cd3b54da1014d6903d5994c261545b4a5663eb190639dc27d8ca3d93c63dc10",
+        "bytes": 2417684,
+        "width": 941,
+        "height": 1672,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 58.139,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "h005",
+        "source_failure_class": "c011 incomplete causal connection",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "FAIL",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "WARN"
+        },
+        "note": "Preserved diagnostic: lever wording creates two converging plank segments rather than the single continuous fallen plank in the ComicPanelPlan."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "1addeaad5325df5cc3ac8b8989ed2040913d1a81a0bf5dfe8cb9ec74919b3c52"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "h006",
+      "candidate_class": "CH05_COMIC_PANEL_CANDIDATE",
+      "source_evidence": {
+        "path": "docs/research/evidence/ch05-cadence-hardening-r1.json",
+        "sha256": "62a5e57ce5648e33609200f1b77276ea88d7174926ff90153d22f7e7d99eddf4"
+      },
+      "comic_panel_plan_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "concept_id": null,
+      "prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h006 for tall_single_plank_semantic_correction\nPrimary request: Soren reaches it with a fallen plank while Sigrid braces the plank. Composition requirement: two-person practical cooperation, no spectacle. smallest semantic correction after h005: exactly ONE rigid straight fallen plank, with no second plank, bend, hinge, fork, fulcrum, lever, or V shape; the plank forms one unbroken diagonal line from its lower end on the floor to its upper tip touching the elevated tin; Sigrid braces the lower end with boot and both hands while Soren grips the middle and pushes the upper tip toward the tin; show the complete unbroken plank and both adults outside the top-right safe zone\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only. Image 3: composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment.\nComposition/framing: tall_single_plank_semantic_correction; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "2fbae1aae18ebbe6b6f5ecc1d57a3ee7550b7b3df6d4bd127fee85e6d2a99ae5",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        },
+        {
+          "reference_id": "p036_composition_only",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative"
+        }
+      ],
+      "input_reference_count": 3,
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h006-p036-clear_line_watercolor-r1.png",
+        "sha256": "157e8a6c56a5de7da201c74ba2f2ee9e472cca51fb0dc40ab4b661e8af736607",
+        "bytes": 2387243,
+        "width": 887,
+        "height": 1774,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 50.741,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "h006",
+        "source_failure_class": "h005 duplicate-plank semantic failure",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Exact one-plank reach-and-brace semantics produce an unbroken floor-to-tin line with Sigrid at the lower end and Soren controlling the middle."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "d992f2a22a81a0a32226591c25a0ac07753274e7f365adc4b4126b2e8c28b8ef"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "l001",
+      "candidate_class": "NONCANON_CONCEPT",
+      "source_evidence": {
+        "path": "docs/research/evidence/future-litrpg-visual-concepts-r1.json",
+        "sha256": "66c1b7798de63efc1a84635cf58e678cd8857bb9738fbd5fa23cb9e7bf3a80b8"
+      },
+      "comic_panel_plan_id": null,
+      "plan_revision_id": null,
+      "concept_id": "future-soren-warden-artificer-kit",
+      "prompt": "Use case: illustration-story\nAsset type: explicitly NON-CANON North Garden future LitRPG concept l001; not CH05 production art and not a ComicPanelPlan.\nPrimary request: Non-canon future Soren equipment concept. Show one clearly adult fictional man in a confident three-quarter full-body stance. Preserve his wavy light-brown/dark-blond hair, light stubble, weathered adult face, and pale oatmeal color identity. Evolve the work coat into a knee-length reinforced oatmeal-gray gambeson coat with removable dark-brown leather shoulder and forearm plates, muted blue underlayers, brass utility buckles, mud-ready boots, and a compact tool roll. Give him one practical ash-wood survey spear with a short steel head and one sheathed carpenter's hatchet; no oversized weapon. The silhouette should feel like a working engineer becoming a frontier warden, durable rather than aristocratic. Quiet stone-and-heather backdrop; open top-right field; no text.\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional-adult project reference only.\nStyle/medium: premium cel-painted fantasy webcomic with mature clear-line contour hierarchy, restrained painterly color, strong silhouettes, readable equipment, and selective environment detail.\nIdentity invariant: Soren always has wavy light-brown to dark-blond hair, never black; Sigrid always has dark-brown to near-black tied-back hair, never blond. P050/P040 control identity; never copy P036 hair colors.\nAdult boundary: every visible person is an unmistakably mature fictional adult with practical, non-sexualized proportions and clothing; no real-person likeness.\nEquipment boundary: practical fantasy armor and weapons only, readable grip and load, no gore, injury, fetish treatment, giant decorative weapon, logo, watermark, caption, speech balloon, interface, or readable text.\nContinuity boundary: these wardrobe, armor, weapon, monster, and class ideas are separate non-canon exploration and do not revise CH05 wardrobe or story state.",
+      "prompt_sha256": "82b9564c1f46e2638ceaaeef252d28f3757c75cfb6e0bf94ad3ab879229385df",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "input_reference_count": 1,
+      "output": {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/candidates/l001-future-soren-warden-artificer-kit-r1.png",
+        "sha256": "243d7f258a704a495efc49fb5976522beee2dd328b53b4995b66e66900ef7a7b",
+        "bytes": 2112077,
+        "width": 1693,
+        "height": 929,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 48.174,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "l001",
+        "results": {
+          "role_identity": "PASS",
+          "hair_continuity": "PASS",
+          "wardrobe_lineage": "PASS",
+          "equipment_readability": "PASS",
+          "mature_practical_design": "PASS",
+          "phone_size_silhouette": "PASS"
+        },
+        "note": "Soren reads as a frontier warden-engineer: oatmeal reinforced coat, leather protection, restrained spear scale, and tool pouches preserve workman identity."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "ebd03178f6bc3c49138b42f35f0208f3cf044b66df7d9745d7bcbb48a4c6be15"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "l002",
+      "candidate_class": "NONCANON_CONCEPT",
+      "source_evidence": {
+        "path": "docs/research/evidence/future-litrpg-visual-concepts-r1.json",
+        "sha256": "66c1b7798de63efc1a84635cf58e678cd8857bb9738fbd5fa23cb9e7bf3a80b8"
+      },
+      "comic_panel_plan_id": null,
+      "plan_revision_id": null,
+      "concept_id": "future-sigrid-pathfinder-kit",
+      "prompt": "Use case: illustration-story\nAsset type: explicitly NON-CANON North Garden future LitRPG concept l002; not CH05 production art and not a ComicPanelPlan.\nPrimary request: Non-canon future Sigrid equipment concept. Show one clearly adult fictional woman in a grounded three-quarter full-body stance. Preserve her dark-brown near-black hair in a compact low braid/bun, mature angular face, dark brows, gray-blue eyes, and practical dark blue-brown plaid identity. Integrate the plaid as a weather cape over charcoal-gray brigandine with small matte plates, gray-green expedition layers, reinforced gloves, belt pouches, and mud-ready boots. Give her one compact recurved field bow and one sheathed short utility sword; no oversized weapon. The silhouette should feel like a disciplined pathfinder and tactical leader, mobile and non-sexualized. Windy moor backdrop; open top-left field; no text.\nInput images: Image 1: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional-adult project reference only. Image 2: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional-adult project reference only.\nStyle/medium: premium cel-painted fantasy webcomic with mature clear-line contour hierarchy, restrained painterly color, strong silhouettes, readable equipment, and selective environment detail.\nIdentity invariant: Soren always has wavy light-brown to dark-blond hair, never black; Sigrid always has dark-brown to near-black tied-back hair, never blond. P050/P040 control identity; never copy P036 hair colors.\nAdult boundary: every visible person is an unmistakably mature fictional adult with practical, non-sexualized proportions and clothing; no real-person likeness.\nEquipment boundary: practical fantasy armor and weapons only, readable grip and load, no gore, injury, fetish treatment, giant decorative weapon, logo, watermark, caption, speech balloon, interface, or readable text.\nContinuity boundary: these wardrobe, armor, weapon, monster, and class ideas are separate non-canon exploration and do not revise CH05 wardrobe or story state.",
+      "prompt_sha256": "91a9d2c51b560da01bd76cb9215173c747cacebbfd9b2fd71e651cf7a1829664",
+      "input_references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        },
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "input_reference_count": 2,
+      "output": {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/candidates/l002-future-sigrid-pathfinder-kit-r1.png",
+        "sha256": "85f6201d26d2371cf376b39d7d82e910685423351cf61a6c3b38d76dc59c76fc",
+        "bytes": 2275806,
+        "width": 1023,
+        "height": 1537,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 55.935,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "l002",
+        "results": {
+          "role_identity": "PASS",
+          "hair_continuity": "PASS",
+          "wardrobe_lineage": "PASS",
+          "equipment_readability": "PASS",
+          "mature_practical_design": "PASS",
+          "phone_size_silhouette": "PASS"
+        },
+        "note": "Sigrid reads as a mobile pathfinder: dark tied hair, plaid weather cape, matte brigandine, compact bow, and short utility blade remain practical and distinct."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "c3dca2c8658600160381e5acab6e5b2bb89496f99172e50f8107cb0b3921e91e"
+    },
+    {
+      "record_type": "BuiltInImageGenRenderRecord",
+      "schema_version": "1.0",
+      "candidate_id": "l003",
+      "candidate_class": "NONCANON_CONCEPT",
+      "source_evidence": {
+        "path": "docs/research/evidence/future-litrpg-visual-concepts-r1.json",
+        "sha256": "66c1b7798de63efc1a84635cf58e678cd8857bb9738fbd5fa23cb9e7bf3a80b8"
+      },
+      "comic_panel_plan_id": null,
+      "plan_revision_id": null,
+      "concept_id": "future-mireback-encounter",
+      "prompt": "Use case: illustration-story\nAsset type: explicitly NON-CANON North Garden future LitRPG concept l003; not CH05 production art and not a ComicPanelPlan.\nPrimary request: Non-canon future LitRPG monster-action concept. Wide cinematic panel with exactly two clearly adult fictional protagonists using the upgraded kits: dark-haired Sigrid in plaid pathfinder armor pivots left and draws her compact bow while light-brown-haired Soren in reinforced oatmeal warden coat plants his survey spear to redirect a charging Mireback, a wholly fictional non-human quadruped made of peat, roots, slate plates, and dim amber mineral seams. Show causal action: rear-foot weight, bow tension, spear leverage against one slate shoulder, churned mud and water, whipping plaid and coat tails. No gore or injury. Strong three-way silhouettes, clear faces/hands/weapons, exciting but physically grounded motion, quieter storm sky for future lettering, no UI, no readable text, no extra people.\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional-adult project reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional-adult project reference only.\nStyle/medium: premium cel-painted fantasy webcomic with mature clear-line contour hierarchy, restrained painterly color, strong silhouettes, readable equipment, and selective environment detail.\nIdentity invariant: Soren always has wavy light-brown to dark-blond hair, never black; Sigrid always has dark-brown to near-black tied-back hair, never blond. P050/P040 control identity; never copy P036 hair colors.\nAdult boundary: every visible person is an unmistakably mature fictional adult with practical, non-sexualized proportions and clothing; no real-person likeness.\nEquipment boundary: practical fantasy armor and weapons only, readable grip and load, no gore, injury, fetish treatment, giant decorative weapon, logo, watermark, caption, speech balloon, interface, or readable text.\nContinuity boundary: these wardrobe, armor, weapon, monster, and class ideas are separate non-canon exploration and do not revise CH05 wardrobe or story state.",
+      "prompt_sha256": "4ea89a209c336552da20b9bad9c2e0b686c56602ae997d295888321441410a77",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "input_reference_count": 2,
+      "output": {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/candidates/l003-future-mireback-encounter-r1.png",
+        "sha256": "b5f2dc0ed9bf610ddf6f184bcc3d87a28327414f3b42f9a1896d1be1d263c9c4",
+        "bytes": 2465653,
+        "width": 1692,
+        "height": 929,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 50.869,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ],
+        "unavailable_not_zero": true
+      },
+      "engineering_review": {
+        "candidate_id": "l003",
+        "results": {
+          "role_identity": "PASS",
+          "hair_continuity": "PASS",
+          "wardrobe_lineage": "PASS",
+          "equipment_readability": "PASS",
+          "mature_practical_design": "PASS",
+          "phone_size_silhouette": "PASS",
+          "exact_kit_reproduction": "WARN"
+        },
+        "note": "The Mireback scene has clear teamwork and physical action. Exact l001/l002 plate layout was not tested because those new outputs were not authorized as further ImageGen reference uploads."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "generation_reproducible": false,
+      "limitations": [
+        "Built-in model, endpoint, provider request ID, usage, cost, and seed were not exposed.",
+        "Exact local hashes do not make generation reproducible or commercially cleared."
+      ],
+      "record_sha256": "30d7e47d12c4a9290f58ded792e27260ce9e4083e136cbd3b0e172e2e31926c5"
+    }
+  ],
+  "record_root_sha256": "a9baeb7f62ad26ab247d06dab3e67815467617494a329fd0773f6c45f2f7e4ba",
+  "provider_cost_reconciliation": "Unavailable from built-in product; null is preserved and must not be described as $0.",
+  "generated_pixels_git_tracked": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Normalization is read-only; source evidence and generated pixels remain unchanged, ignored, unaccepted, and commercially uncleared."
+}

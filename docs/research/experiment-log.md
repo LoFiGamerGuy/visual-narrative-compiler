@@ -926,7 +926,7 @@
 
 ## 2026-09-01 - non-canon future LitRPG concept trio
 
-- Generated three separately bounded concepts in 155.766 observed built-in-tool seconds: Soren's work-derived warden kit, Sigrid's plaid-preserving pathfinder kit, and a coordinated Mireback action panel.
+- Generated three separately bounded concepts: Soren's work-derived warden kit, Sigrid's plaid-preserving pathfinder kit, and a coordinated Mireback action panel. ADR-0109 later reconciles their exact candidate times to 154.978 seconds; the earlier 155.766-second narrative remains historical evidence.
 - All preserve the declared hair/identity motifs, practical adult proportions, readable equipment, and phone-size silhouettes. The monster action uses bow tension, spear redirection, mud/water, and material mass instead of generic speed texture.
 - Exact kit replication across the action panel is untested because l001/l002 were not authorized as additional ImageGen reference uploads; they were not uploaded.
 - ADR-0088 and the non-canon concept style direction keep every armor, weapon, monster, class, and wardrobe-evolution idea outside CH05 canon and ComicPanelPlans.
@@ -1076,3 +1076,11 @@
 - Derived generation-only 36/49/72-candidate scenarios from exact observed p10/median/p90 timings. Median values are 1,844.172/2,510.123/3,688.344 seconds.
 - The recommended planning envelope uses 13 repair slots from `ceil(36 × 9/26)`; this is explicitly an allowance, not a failure forecast.
 - ADR-0108 separates generation from queue/review/layout/lettering/release time. Money/human minutes remain null; all 36 prompts/executable rows are null/false; 25/25 mutations fail.
+
+## 2026-09-01 - CH05 RenderRecord completeness and timing reconciliation r1
+
+- Compiled 29 exact records: 26 CH05 candidates plus three separately non-canon concepts, with 39 exact reference uses and 1,385.036 observed seconds.
+- Validated every prompt, reference hash, output hash, candidate path, dimensions, elapsed time, review state, and explicit limitation.
+- Recorded model, endpoint, request ID, provider usage, monetary cost, and seed as explicit `null` for all 29 records because the built-in product did not expose them.
+- Reconciled the concept trio to 154.978 exact seconds, correcting a 0.788-second legacy narrative difference append-only under ADR-0109.
+- All 29 candidates remain pending and unaccepted; completeness rejects 27/27 mutations and reconciliation rejects 12/12.

@@ -1,0 +1,37 @@
+{
+  "record_type": "FutureLitRPGConceptTimingReconciliation",
+  "schema_version": "1.0",
+  "record_id": "ng-future-litrpg-concept-timing-reconciliation-r1",
+  "state": "EXACT_RECORD_TOTAL_SUPERSEDES_LEGACY_NARRATIVE_TOTAL",
+  "source": {
+    "path": "docs/research/evidence/future-litrpg-visual-concepts-r1.json",
+    "sha256": "66c1b7798de63efc1a84635cf58e678cd8857bb9738fbd5fa23cb9e7bf3a80b8"
+  },
+  "candidate_elapsed_seconds": [
+    48.174,
+    55.935,
+    50.869
+  ],
+  "candidate_sum_seconds": 154.978,
+  "batch_summary_seconds": 154.978,
+  "candidate_reference_uses": 5,
+  "aggregate": {
+    "initial_ch05_seconds": 919.389,
+    "hardening_seconds": 310.669,
+    "concept_seconds": 154.978,
+    "exact_29_candidate_seconds": 1385.036,
+    "exact_29_candidate_reference_uses": 39
+  },
+  "legacy_narrative": {
+    "concept_seconds": 155.766,
+    "total_29_candidate_seconds": 1385.824,
+    "delta_seconds": 0.788
+  },
+  "resolution": "Use exact candidate/batch evidence: 154.978 concept seconds, 1385.036 total seconds, and 39 reference uses. Preserve earlier 155.766/1385.824 prose as historical error with append-only correction; do not rewrite source evidence.",
+  "source_records_rewritten": 0,
+  "provider_calls": 0,
+  "uploads": 0,
+  "cost_usd": 0,
+  "human_review_minutes": null,
+  "boundary": "Timing reconciliation only; no render, acceptance, canon, plan, or commercial state changes."
+}

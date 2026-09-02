@@ -34,7 +34,7 @@ The CH05 overnight built-in ImageGen run adds 20 candidates and 919.389 observed
 
 The CH05 cadence-hardening run adds six candidates and 310.669 observed seconds under the same built-in-only boundary. Combined new overnight/hardening generation is 26 candidates and 1,230.058 seconds. Monetary cost remains unavailable, no paid API was used, human minutes remain null, and accepted candidates remain zero.
 
-The separately non-canon future LitRPG concept trio adds 155.766 observed seconds. Total new built-in generation is 29 candidates and 1,385.824 seconds. Monetary cost remains unavailable; no paid API, BFL, cloud GPU, purchase, or G07-budget reuse occurred.
+The separately non-canon future LitRPG concept trio adds 154.978 exact candidate seconds. Total new built-in generation is 29 candidates, 39 reference uses, and 1,385.036 seconds. ADR-0109 records the 0.788-second correction from the earlier narrative totals without rewriting historical evidence. Monetary cost remains unavailable; no paid API, BFL, cloud GPU, purchase, or G07-budget reuse occurred.
 
 The variable-cadence assembly and transparent-lettering rehearsal add no renderer generation and no external cost. They produce 13 and 25 ignored local review artifacts respectively from existing unaccepted pixels. Provider calls/uploads are zero; human minutes remain null; accepted panels, sequences, and lettering treatments remain zero.
 
@@ -71,3 +71,5 @@ Owner review index r2 adds one ignored HTML page and five ignored thumbnails fro
 Integrated release r3 adds no generation or external cost. Attempt 1 is preserved as a failed local validation; the successful 13-command/30-effective gate runs in 6.202 seconds. Calls/uploads/downloads/acceptances/executable panels remain zero and human minutes remain null.
 
 The chapter-scale envelope adds no generation or external cost. Its 36/49/72 candidate counts and 1,844.172/2,510.123/3,688.344 median seconds are unexecuted generation-only scenarios. Money and human review remain null; prompts/renders/uploads/plans/acceptances remain zero.
+
+The RenderRecord completeness audit adds no generation or external cost. It reconciles all 29 candidates to 1,385.036 observed seconds and 39 exact reference uses. Model, endpoint, request ID, provider usage, monetary cost, and seed remain explicit null in every record; all 29 candidates remain pending and unaccepted.

@@ -1163,3 +1163,10 @@
 - Five/five commands pass in 9.946 seconds, representing 42 effective checks; 26/26 release mutations fail.
 - Bound 50 plans, 42 reference hypotheses, 18 text-only rows, one critical P036 guard, 24 owner tasks, and 39 timer subjects.
 - ADR-0120 keeps prompts/review events/decisions/acceptance/execution/calls/uploads/downloads/cost at zero and minutes null.
+
+## 2026-09-01 - CH05 coherent chapter sequence production batches r1
+
+- Partitioned all 50 plans exactly once into 12 contiguous 3–5-panel narrative batches spanning departure, trail/twine, bridge/mill approach, interior mechanics/deduction, signal/twine cut, and urgent return.
+- Preserved story order separately from four production waves based on evidence readiness: 1/2/5/4 sequences, with P010–P013 the only wave-1 pilot.
+- Bound scale/width, cadence class, mechanism, readiness, continuity risk, and reference hypotheses per panel; predeclared 48 review artifacts.
+- Built and visually checked an 1800×1220 sequence map. ADR-0121 keeps prompts/renders/acceptance/execution/provider state zero; 19/19 mutations fail.

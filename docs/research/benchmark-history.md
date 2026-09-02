@@ -372,3 +372,5 @@ The live-only review timer binds 39 subjects, four transitions, seven fields, an
 The owner handoff checklist binds 24 linked tasks—14 candidate and ten route—in dependency stages 19/4/1, with one optional non-canon task. Every prerequisite points to an earlier stage and 16/16 mutations fail; no decision or minute is recorded.
 
 Integrated release r6 preserves the 38-check r5 chain and adds four independent validators. Five/five commands pass in 9.946 seconds, 42 effective checks are represented, and 26/26 mutations fail. Fifty plans, 42 references, 24 owner tasks, and 39 timer subjects are release-bound without execution or review activity.
+
+The chapter production-batch manifest partitions 50 plans into 12 contiguous sequences of 3–5 panels and four readiness waves distributed 1/2/5/4. Forty-eight review artifacts are predeclared, the 1800×1220 map is visually checked, and 19/19 mutations fail. Narrative order remains distinct from production readiness.

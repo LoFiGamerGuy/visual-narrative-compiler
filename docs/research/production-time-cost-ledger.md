@@ -95,3 +95,5 @@ The human-review timer contract adds no measured review time or external cost. I
 The owner dependency checklist adds no measured review time or external cost. Its 24 tasks are read-only links; completed tasks, decisions, accepted candidates, calls, and uploads remain zero, while human minutes remain null.
 
 Integrated release r6 adds no generation or external cost. Its five commands represent 42 effective checks in 9.946 seconds. Prompts, live review, decisions, acceptance, execution, calls, uploads, and downloads remain zero; minutes remain null.
+
+The 12-sequence production-batch manifest and local map add no generation or external cost. Its 48 planned artifacts are names only; prompts, renders, acceptance, executable sequences, calls, and uploads remain zero, while minutes and cost remain null.

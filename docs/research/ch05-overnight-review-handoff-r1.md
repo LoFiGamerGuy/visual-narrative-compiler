@@ -99,3 +99,5 @@ Future owner-review time can be measured with `production/comic/review/ch05-huma
 Use `docs/research/ch05-owner-handoff-checklist-r1.md` for the 24-task dependency-ordered review path. ADR-0119 separates parallel candidate/foundational review, dependent P010/lettering choices, optional non-canon taste review, and final commercial/exact-base authority.
 
 Integrated evidence now passes release r6 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r6.json`: 42 effective checks, 5/5 commands, and 26/26 rejected mutations under ADR-0120.
+
+Review the 12 coherent chapter batches at `experiments/review-packets/ch05-chapter-sequence-production-batches-r1/ch05-sequence-batch-map-r1.png`. The tracked manifest is `production/comic/run-manifests/ch05-chapter-sequence-production-batches-r1.json`; ADR-0121 keeps production wave distinct from story order and every prompt null.

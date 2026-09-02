@@ -1,0 +1,53 @@
+{
+  "record_type": "ComicChapterSequenceProductionBatchesEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-chapter-sequence-production-batches-evidence-r1",
+  "state": "PASS_ZERO_PROMPT",
+  "manifest": {
+    "path": "production/comic/run-manifests/ch05-chapter-sequence-production-batches-r1.json",
+    "sha256": "d1c14d09b5afb374260ceabbd4594edcbeecf32925f5a826434f860e99106ea9"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-production-readiness-matrix-r1.json",
+      "sha256": "95d562f53fbebe1956c9d0878d5c0b1091d7ab4044a6dc5927e94ce0799dc53a"
+    },
+    {
+      "path": "production/comic/continuity/ch05-reference-use-and-continuity-risk-plan-r1.json",
+      "sha256": "07f8586ed4d965dda7076d1b7f55ed6d6e79a59edd134b2302b1e60968dcdef9"
+    },
+    {
+      "path": "production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json",
+      "sha256": "dacd8daec02a594a66915b73b311f78a77c3ade2002900823206794b87095b31"
+    }
+  ],
+  "summary": {
+    "plan_count": 50,
+    "sequence_count": 12,
+    "minimum_panels_per_sequence": 3,
+    "maximum_panels_per_sequence": 5,
+    "wave_1_sequences": 1,
+    "wave_2_sequences": 2,
+    "wave_3_sequences": 5,
+    "wave_4_sequences": 4,
+    "planned_review_artifacts": 48,
+    "prompt_count": 0,
+    "rendered_candidates": 0,
+    "accepted_candidates": 0,
+    "execution_ready_sequences": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "chart": {
+    "path": "experiments/review-packets/ch05-chapter-sequence-production-batches-r1/ch05-sequence-batch-map-r1.png",
+    "sha256": "6a401d39d1f146ff4961e00007a860326c78c352184e1bf025a6cef37efce0b6",
+    "dimensions": [
+      1800,
+      1220
+    ]
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

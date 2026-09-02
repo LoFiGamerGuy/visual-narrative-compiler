@@ -1359,3 +1359,10 @@
 - Nine/nine commands pass in 133.281 seconds, representing 74 effective checks; independent replay rejects 29/29 mutations.
 - Bound 122 links, 67 direct closeout links, ten defaults, 835 safe paths, frozen 16 + baseline 4, and 73 zero-cost milestones.
 - ADR-0148 preserves zero provider/promotion activity and null review minutes.
+
+## 2026-09-01 - CH05 final safe-source r3 and remote parity
+
+- Pinned pushed commit `b13d87b` with 873 tracked paths and 13,394,576 bytes.
+- Bound tree `b6569cd0…5e6e` and inventory root `49e6a5a0…a192`; 17/17 capture mutations fail.
+- Confirmed two public controls and zero generated/prohibited/oversize/credential/model/dataset/private-reference/unrelated inventory paths.
+- Final remote audit passes `main`/origin, capture ancestry, release 74, closeout, frozen integrity, and current source scope under ADR-0149.

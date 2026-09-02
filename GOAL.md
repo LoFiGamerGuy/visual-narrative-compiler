@@ -274,6 +274,8 @@ The overnight-closeout milestone is complete under ADR-0147. One bundle binds 29
 
 The integrated-release-r11 milestone is complete under ADR-0148. Final reproducer r2 plus eight current extensions yields 74 effective checks; 9/9 commands pass in 133.281 seconds and 29/29 mutations fail. The gate binds 122 links, 67 direct links, ten defaults, 835 safe paths, frozen 16 + baseline 4, and 73 zero-cost milestones while all provider/promotion activity remains zero. The next bounded milestone is a final commit-pinned safe-source capture and remote-parity audit after r11 is pushed.
 
+The final-source-parity milestone is complete under ADR-0149. Pushed commit `b13d87b` pins 873 tracked paths/13,394,576 bytes, tree `b6569cd0…5e6e`, and inventory root `49e6a5a0…a192`; 17/17 mutations fail. Final remote parity passes capture ancestry, release 74, closeout, frozen integrity, and current source scope. The next bounded milestone is closeout bundle r2, rebinding final release r11/source r3/parity and a refreshed final changed-file inventory without rewriting r1.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

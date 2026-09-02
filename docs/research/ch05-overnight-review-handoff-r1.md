@@ -155,3 +155,5 @@ The current single local review entry is `experiments/review-packets/ch05-owner-
 The final direct-link handoff is `docs/research/ch05-overnight-closeout-r1.md`, with machine-readable state at `production/comic/handoff/ch05-overnight-closeout-bundle-r1.json` and exact changed paths at `docs/research/ch05-overnight-final-changed-files-r1.md` under ADR-0147.
 
 Final integrated evidence passes release r11 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r11.json`: 74 effective checks, 9/9 commands in 133.281 seconds, and 29/29 rejected mutations under ADR-0148. Cost ledger r28 records 73 zero-external-cost milestones.
+
+Final safe-source parity is pinned at `docs/research/evidence/ch05-overnight-safe-source-parity-r3.json`: pushed commit `b13d87b`, 873 paths, 13,394,576 bytes, two controls, and zero generated/prohibited/oversize/credential/model/dataset/private-reference paths under ADR-0149.

@@ -428,3 +428,5 @@ Owner hub r7 rebuilds byte-identically with five final-evidence links and one ig
 Closeout bundle r1 reconciles 29 candidates, 50 plans, 12 batches, 122 resources, and 67 explicit high-priority links (10 contact sheets/9 sequence packets/34 lettering overlays/14 strongest). It binds a 393-path/62-ADR base inventory and rejects 24/24 mutations without promotion.
 
 Integrated release r11 uses the current seven-domain reproducer over immutable r10 and adds eight final extensions. Nine/nine commands pass in 133.281 seconds, 74 effective checks are represented, and 29/29 mutations fail. Ledger r28 records 73 zero-external-cost milestones.
+
+Final safe-source r3 pins pushed commit `b13d87b` at 873 paths/13,394,576 bytes, tree `b6569cd0…5e6e`, and root `49e6a5a0…a192`; 17/17 mutations fail. Final remote parity also passes release 74, closeout, frozen integrity, and current tracked scope.

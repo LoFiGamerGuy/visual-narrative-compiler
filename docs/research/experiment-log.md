@@ -1098,3 +1098,11 @@
 - Compiled 99 unique ignored local artifacts into a tracked hash/path manifest and absolute-link Markdown handoff: 10 contact sheets, nine sequence deliverables, 34 lettering overlays/comparisons, 14 provisional strongest candidates, and supporting hubs/concepts/diagnostics/packets.
 - Preserved attempt 1 after its declared 100-artifact expectation failed against the unchanged 99-artifact compiler output. Corrected only the validator expectations.
 - Index and link validators reject 13/13 and 15/15 mutations. ADR-0111 keeps all generated pixels untracked/unpublished and every owner decision/acceptance field empty.
+
+## 2026-09-01 - CH05 measured route recommendation and review matrix r1
+
+- Compiled ComicStyleDirection r10 and a role-aware route from exact pass/warn/fail, repair, density, scale, lettering, continuity, RenderRecord, and review-link evidence.
+- Recommended cel-painted character/emotion/selected-hero anchors, clear-line causal/transition staging, clean-graphic blocking controls, and density-measured simplified inserts; explicitly rejected visual appeal alone as a selection basis.
+- Isolated ten owner decisions with engineering defaults and exact consequences while leaving every owner decision/reviewer/minute null.
+- Preserved compiler attempt 1 after an incorrect RenderRecord field lookup raised before any output was written. Corrected only `reference_use_count` to the source's `input_reference_uses`.
+- Validator rejects 17/17 mutations; prompts/executable rows/plan revisions/acceptance/commercial clearance/calls/uploads/cost remain zero.

@@ -1,0 +1,18 @@
+{
+  "record_type": "CH05RouteRecommendationCompilerAttempt",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-route-recommendation-compiler-r1-attempt-1-failed",
+  "state": "FAIL",
+  "failure_class": "SOURCE_SCHEMA_FIELD_NAME_MISMATCH",
+  "requested_field": "summary.reference_use_count",
+  "actual_field": "summary.input_reference_uses",
+  "exception": "KeyError: reference_use_count",
+  "outputs_written": 0,
+  "resolution": "Use the existing exact RenderRecord summary field without changing any source evidence or recommendation value.",
+  "activity": {
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "accepted_candidates": 0
+  }
+}

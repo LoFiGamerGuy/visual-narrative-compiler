@@ -77,3 +77,5 @@ The RenderRecord completeness audit adds no generation or external cost. It reco
 Integrated release r4 adds no generation or external cost. Its four local commands represent 33 effective checks and run in 6.934 seconds. Calls, uploads, downloads, accepted candidates, executable panels, and owner decisions remain zero; human minutes remain null.
 
 Owner review index r3 and the 99-artifact link manifest add no generation or external cost. They compile ignored local HTML/thumbnails and tracked metadata only. Publication, calls, uploads, owner decisions, and acceptances remain zero; human minutes remain null.
+
+The route recommendation, ComicStyleDirection r10, and ten-row decision matrix add no generation or external cost. Prompts, executable rows, plan revisions, owner decisions, acceptances, commercial clearance, calls, and uploads remain zero; human minutes remain null.

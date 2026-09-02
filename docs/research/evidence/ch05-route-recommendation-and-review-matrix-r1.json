@@ -1,0 +1,72 @@
+{
+  "record_type": "CH05RouteRecommendationAndReviewMatrixEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-route-recommendation-and-review-matrix-evidence-r1",
+  "state": "PASS_OWNER_REVIEW_PENDING",
+  "outputs": [
+    {
+      "path": "production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json",
+      "sha256": "dacd8daec02a594a66915b73b311f78a77c3ade2002900823206794b87095b31"
+    },
+    {
+      "path": "production/comic/review/ch05-route-review-decision-matrix-r1.json",
+      "sha256": "694da9b4b6f649313237bc2cfc10027c2351eb5ae66afa296afd5030203062c1"
+    },
+    {
+      "path": "production/comic/style-direction/ch05-mill-signal-r10.json",
+      "sha256": "8ecba9e7b6887ee12de0e037486351c83f0a3a0a1b1907f3cfd3320f67e896f1"
+    }
+  ],
+  "summary": {
+    "styles": 4,
+    "role_allocations": 4,
+    "decisions": 10,
+    "candidate_count": 29,
+    "ch05_candidate_count": 26,
+    "selected": 14,
+    "plans": 50,
+    "owner_decisions": 0,
+    "accepted_candidates": 0,
+    "prompts": 0,
+    "executable_rows": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "review_links": {
+    "unique_artifacts": 99,
+    "strongest_candidates": 14
+  },
+  "source_bindings": [
+    {
+      "path": "production/comic/style-direction/ch05-mill-signal-r9.json",
+      "sha256": "c165084b6d0710c399c9f02d40abfd091423db2bc771341bd5d39b207fe362f9"
+    },
+    {
+      "path": "production/comic/review/ch05-continuity-style-density-review-r1.json",
+      "sha256": "9b9fabcbbf1131e6c8b133d6b0da76c88d58a0a8a7cd10f6e4a7678ab534499d"
+    },
+    {
+      "path": "production/comic/review/ch05-failure-class-repair-matrix-r1.json",
+      "sha256": "2c3bb2dff8ff4512809f29c6fcdeb3d01964d6a88239bd7059c74807f0c075a3"
+    },
+    {
+      "path": "production/comic/layout/ch05-panel-scale-cadence-policy-r1.json",
+      "sha256": "b08d402362bf807014332ec900ba583f89943b6e0095475d632bfcd8b91f7495"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-built-in-renderrecord-index-r1.json",
+      "sha256": "546eaca1f47e02aea256192dc24653b29912d607b20cdafbcf9bb8eb4b5bf437"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+      "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5"
+    },
+    {
+      "path": "production/comic/review/ch05-review-artifact-link-manifest-r1.json",
+      "sha256": "294334c140f022acc4305ff5b88fd4a64f8bf53420245c61ea27a1a39c09b73b"
+    }
+  ],
+  "limitations": "The built-in product exposes no seed/model/endpoint/request/usage/cost metadata, and image statistics do not verify identity."
+}

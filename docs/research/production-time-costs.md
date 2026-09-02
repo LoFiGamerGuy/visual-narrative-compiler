@@ -38,6 +38,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 all-candidate RenderRecord audit r1 | 29 exact records / 39 reference uses | 1,385.036 s exact observed generation total | unmeasured | model/endpoint/request/usage/cost/seed unavailable and explicit null | 29 pending; 0 accepted |
 | CH05 integrated release r4 | immutable 30-check r3 + 3 extension checks | 6.934 s observed local gate time | unmeasured | $0 API/cloud | 33 effective checks pass; 0 accepted/executable |
 | CH05 owner index r3 + exact review links r1 | 12-card local hub / 99 unique linked artifacts | local deterministic metadata/HTML/thumbnail build | unmeasured | $0 API/cloud | 0 published/accepted/decisions; owner review pending |
+| CH05 measured route + decision matrix r1 | 4 role allocations / 10 owner decisions | local deterministic evidence compilation | unmeasured | $0 API/cloud | 0 prompts/executable/accepted; engineering route only |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

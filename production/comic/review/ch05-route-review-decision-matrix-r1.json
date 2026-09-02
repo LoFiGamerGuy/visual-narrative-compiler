@@ -1,0 +1,125 @@
+{
+  "record_type": "ComicRouteReviewDecisionMatrix",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-route-review-decision-matrix-r1",
+  "state": "OWNER_DECISIONS_PENDING",
+  "source_contract": {
+    "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+    "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5"
+  },
+  "source_contract_state": {
+    "subjects": 39,
+    "completed_decisions": 0,
+    "events": 0,
+    "human_review_minutes": null
+  },
+  "decision_count": 10,
+  "decisions": [
+    {
+      "decision_id": "route_role_aware_hybrid",
+      "class": "ROUTE",
+      "question": "Confirm the role-aware cel/clear-line/simplified-insert route versus requesting one uniform finish.",
+      "engineering_default": "CONFIRM_ROLE_AWARE_ROUTE",
+      "consequence": "Unlocks prompt compilation only after candidate and reference choices are separately resolved.",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null
+    },
+    {
+      "decision_id": "c005_transition_density",
+      "class": "DENSITY",
+      "question": "Keep c005's foliage density or request one exact density reduction.",
+      "engineering_default": "REQUEST_EXACT_DENSITY_REDUCTION",
+      "consequence": "Targets only c005; no broad transition reroll.",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null
+    },
+    {
+      "decision_id": "c014_action_punctuation",
+      "class": "DENSITY",
+      "question": "Treat c014\u2192c015's 5.6517 appearance jump as intentional action punctuation or unify its finish.",
+      "engineering_default": "KEEP_AS_ACTION_PUNCTUATION",
+      "consequence": "Determines whether c014 remains in cadence or receives one finish-density repair.",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null
+    },
+    {
+      "decision_id": "lettering_semantics",
+      "class": "LETTERING",
+      "question": "Choose attributed speech, outside-art caption/direct text, or silence for currently copy-unbound beats.",
+      "engineering_default": "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+      "consequence": "Any caption/speech change requires exact ComicPanelPlan semantics before layout.",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null
+    },
+    {
+      "decision_id": "lettering_visual_arm",
+      "class": "LETTERING",
+      "question": "Choose 88% in-art backing, light outside-art band, or another targeted comparison.",
+      "engineering_default": "USE_ROLE_DEPENDENT_88_OR_LIGHT_BAND",
+      "consequence": "Does not permit content overlap; final copy/font/tails/localization remain separate.",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null
+    },
+    {
+      "decision_id": "p010_p013_finish_rhythm",
+      "class": "NEXT_EXPERIMENT",
+      "question": "Use the preflight's role-aware four-beat finish or one shared finish.",
+      "engineering_default": "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+      "consequence": "Controls only the next zero-prompt contract revision.",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null
+    },
+    {
+      "decision_id": "p010_p013_copy",
+      "class": "NEXT_EXPERIMENT",
+      "question": "Keep P010\u2013P013 silent or bind plan-level caption semantics.",
+      "engineering_default": "KEEP_SILENT_FOR_CAUSAL_TEST",
+      "consequence": "Separates continuity/causality evidence from unvalidated copy.",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null
+    },
+    {
+      "decision_id": "strongest_candidate_shortlist",
+      "class": "CANDIDATES",
+      "question": "Review the 14-candidate engineering shortlist for further production evaluation.",
+      "engineering_default": "REVIEW_INDIVIDUALLY",
+      "consequence": "No group decision can create exact-base or commercial acceptance.",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null
+    },
+    {
+      "decision_id": "noncanon_litrpg_direction",
+      "class": "NONCANON",
+      "question": "Identify which practical armor, weapon, and Mireback motifs merit a future canon proposal.",
+      "engineering_default": "KEEP_ALL_NONCANON_PENDING_TASTE_REVIEW",
+      "consequence": "No CH05 wardrobe, equipment, monster, or class state changes.",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null
+    },
+    {
+      "decision_id": "commercial_and_exact_base",
+      "class": "AUTHORITY",
+      "question": "Separately decide commercial clearance and whether any candidate is eligible as an exact production base.",
+      "engineering_default": "REMAIN_OPEN",
+      "consequence": "Engineering pass and owner taste approval do not establish provider rights, reproducibility, or exact-base suitability.",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null
+    }
+  ],
+  "prompt_count": 0,
+  "executable_rows": 0,
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Decision aid only; does not ingest conversation approval or change the empty append-only owner contract."
+}

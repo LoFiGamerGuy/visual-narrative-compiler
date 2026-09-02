@@ -1,0 +1,249 @@
+{
+  "record_type": "ComicProductionPipelineRouteRecommendation",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-pipeline-route-recommendation-r1",
+  "state": "MEASURED_ENGINEERING_RECOMMENDATION_OWNER_DECISIONS_PENDING",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "recommended_route": "role-aware premium cel-painted character/emotion/action anchors with mature clear-line causal staging, genuinely simplified inserts, and measured per-panel density",
+  "not_based_on": "visual appeal alone",
+  "measured_basis": {
+    "candidate_count": 29,
+    "ch05_candidate_count": 26,
+    "selected_sequence_count": 14,
+    "comic_panel_plan_count": 50,
+    "observed_generation_seconds": 1385.036,
+    "reference_uses": 39,
+    "style_results": {
+      "cel_painted": {
+        "pass": 5,
+        "warn": 0,
+        "fail": 1,
+        "total": 6,
+        "all_dimension_pass_rate": 0.8333
+      },
+      "clear_line_watercolor": {
+        "pass": 5,
+        "warn": 2,
+        "fail": 1,
+        "total": 8,
+        "all_dimension_pass_rate": 0.625
+      },
+      "limited_ink_flat": {
+        "pass": 4,
+        "warn": 1,
+        "fail": 1,
+        "total": 6,
+        "all_dimension_pass_rate": 0.6667
+      },
+      "clean_graphic": {
+        "pass": 3,
+        "warn": 0,
+        "fail": 3,
+        "total": 6,
+        "all_dimension_pass_rate": 0.5
+      },
+      "limitation": "Panel tasks and reference conditions are unbalanced; rates describe this run and are not universal style scores."
+    },
+    "manual_selected_hair_wardrobe_pass": "14/14",
+    "manual_all_candidate_hair_wardrobe_pass": "26/26",
+    "manual_role_order_pass": "25/26",
+    "targeted_repairs": {
+      "links": 6,
+      "target_fixed": 5,
+      "all_dimension_pass": 4
+    },
+    "highest_selected_edge_occupancy": {
+      "candidate_id": "c005",
+      "value": 0.308471
+    },
+    "largest_selected_adjacent_appearance_jump": {
+      "from": "c014",
+      "to": "c015",
+      "distance": 5.6517
+    },
+    "lettering": {
+      "minimum_phone_type_px": 13,
+      "tested_in_art_two_line_width_px": 1200,
+      "outside_art_phone_type_px": 13.975,
+      "outside_art_scroll_height_addition_percent": 3.295
+    }
+  },
+  "role_allocation": [
+    {
+      "priority": 1,
+      "mechanism": "cel_painted",
+      "roles": [
+        "character emotion",
+        "deduction",
+        "sensory reaction",
+        "selected wide hero action"
+      ],
+      "evidence": "5/6 exact all-dimension passes; h001 closes wide-action coverage; strongest observed role continuity with one retained causal failure."
+    },
+    {
+      "priority": 2,
+      "mechanism": "clear_line_watercolor",
+      "roles": [
+        "causal action",
+        "trail movement",
+        "object interaction",
+        "transition",
+        "composition repair"
+      ],
+      "evidence": "5/8 exact all-dimension passes plus two warnings; successful literal safe-zone and single-plank corrections; more task coverage than other arms."
+    },
+    {
+      "priority": 3,
+      "mechanism": "clean_graphic",
+      "roles": [
+        "selected wide blocking",
+        "reveal",
+        "text-only composition control"
+      ],
+      "evidence": "3/6 exact all-dimension passes; useful staging controls but three failures prevent uniform adoption."
+    },
+    {
+      "priority": 4,
+      "mechanism": "limited_ink_flat",
+      "roles": [
+        "silent object insert",
+        "quiet sensory punctuation only after exact density check"
+      ],
+      "evidence": "4/6 exact all-dimension passes, but c014 edge occupancy 0.275889 proves the label does not guarantee lower density."
+    }
+  ],
+  "cadence_contract": {
+    "wide_directional_anchor_px": [
+      1040,
+      1200
+    ],
+    "wide_environmental_motion_px": [
+      880,
+      1120
+    ],
+    "dual_causal_px": [
+      700,
+      1040
+    ],
+    "medium_character_clue_px": [
+      720,
+      960
+    ],
+    "small_object_insert_px": [
+      520,
+      720
+    ],
+    "small_sensory_insert_px": [
+      560,
+      760
+    ],
+    "principle": "Alternate large action/reveal anchors with medium character logic and silent small inserts; do not impose one ratio or finish."
+  },
+  "continuity_mechanism": {
+    "minimum": "three authorized fictional-adult reference roles plus per-plan adult/hair/wardrobe/cast assertions, P036 composition-only guard, and full-panel manual atlas review",
+    "known_limit": "The built-in product exposes no seed/model/endpoint/request/usage/cost metadata, and image statistics do not verify identity."
+  },
+  "lettering_route": {
+    "in_art": "Use protected low-detail fields; tested two-line phone copy needs 1200px in the measured cases.",
+    "outside_art": "Use the light band only for caption/deduction semantics after ComicPanelPlan revision.",
+    "action_and_inserts": "Keep causal action and small inserts silent when text would displace hands, faces, or story objects.",
+    "transparent_overlap": "88% is the next measured backing arm, never permission to overlap a face, person, important hand, silhouette, or causal object."
+  },
+  "next_high_information_experiment": {
+    "experiment_id": "ch05-tier-a-trail-continuity-microsequence-r1",
+    "state": "RECOMMENDED_POST_OWNER_REVIEW_ZERO_EXECUTION_AUTHORITY",
+    "comic_panel_plan_ids": [
+      "ng-ch05-sc01-p010",
+      "ng-ch05-sc01-p011",
+      "ng-ch05-sc01-p012",
+      "ng-ch05-sc01-p013"
+    ],
+    "plan_count": 4,
+    "plan_orders": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "coverage_tier": "A",
+    "narrative_chain": [
+      "Sigrid hears the water before it is visible.",
+      "Soren finds a length of soot-stained twine caught on a thorn.",
+      "The twine points downhill as if pulled taut and released.",
+      "They follow the creek instead of the tracks."
+    ],
+    "cast_transition": [
+      "single_adult",
+      "single_adult",
+      "no_visible_adult",
+      "dual_adult"
+    ],
+    "motion_transition": [
+      "held_observation",
+      "held_observation",
+      "held_observation",
+      "directional_motion"
+    ],
+    "information_tests": [
+      "Sigrid hair/plaid continuity into a Soren-only hand clue",
+      "Soren oatmeal-coat/hand identity without overloading the object insert",
+      "no-person taut-twine causal direction as a quiet cadence beat",
+      "dual-adult re-entry and literal creek-following role order",
+      "four-beat style-density rhythm and phone readability"
+    ],
+    "candidate_envelope": {
+      "initial_candidates": 4,
+      "bounded_targeted_repair_slots": 2,
+      "maximum_candidates": 6,
+      "observed_median_generation_seconds_initial": 204.908,
+      "observed_median_generation_seconds_with_slots": 307.362,
+      "monetary_cost_usd": null
+    },
+    "prompt_count": 0,
+    "final_copy_bound": false,
+    "owner_decisions_required": [
+      "candidate/style route from current 39-subject review",
+      "whether P010\u2013P013 should share one finish or use role-aware cel/clear-line/insert treatment",
+      "whether the sequence remains silent or receives plan-level caption semantics"
+    ],
+    "animation_shot_plan": null,
+    "e_conte": null,
+    "boundary": "Recommendation only; no prompt, render, upload, budget, acceptance, or plan revision."
+  },
+  "source_bindings": [
+    {
+      "path": "production/comic/style-direction/ch05-mill-signal-r9.json",
+      "sha256": "c165084b6d0710c399c9f02d40abfd091423db2bc771341bd5d39b207fe362f9"
+    },
+    {
+      "path": "production/comic/review/ch05-continuity-style-density-review-r1.json",
+      "sha256": "9b9fabcbbf1131e6c8b133d6b0da76c88d58a0a8a7cd10f6e4a7678ab534499d"
+    },
+    {
+      "path": "production/comic/review/ch05-failure-class-repair-matrix-r1.json",
+      "sha256": "2c3bb2dff8ff4512809f29c6fcdeb3d01964d6a88239bd7059c74807f0c075a3"
+    },
+    {
+      "path": "production/comic/layout/ch05-panel-scale-cadence-policy-r1.json",
+      "sha256": "b08d402362bf807014332ec900ba583f89943b6e0095475d632bfcd8b91f7495"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-built-in-renderrecord-index-r1.json",
+      "sha256": "546eaca1f47e02aea256192dc24653b29912d607b20cdafbcf9bb8eb4b5bf437"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+      "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5"
+    },
+    {
+      "path": "production/comic/review/ch05-review-artifact-link-manifest-r1.json",
+      "sha256": "294334c140f022acc4305ff5b88fd4a64f8bf53420245c61ea27a1a39c09b73b"
+    }
+  ],
+  "owner_acceptance": false,
+  "commercial_clearance": false,
+  "exact_production_base_selected": false
+}

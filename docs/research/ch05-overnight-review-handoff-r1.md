@@ -71,3 +71,5 @@ Review `experiments/review-packets/ch05-failure-class-repair-matrix-r1/ch05-targ
 Review `experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png` for the four-row continuation hypothesis. The tracked contract is `production/comic/repair-readiness/ch05-p010-p013-preflight-contract-r1.json`; its prompts/outputs are null and its two repair slots remain unallocated under ADR-0105.
 
 The current single entry point is `experiments/review-packets/ch05-owner-review-index-r2/index.html`. It extends r1 without rewriting it and links the decision worksheet plus every post-r1 continuity, cadence, repair, and preflight artifact. Tracked evidence is `docs/research/evidence/ch05-owner-review-index-r2.json` under ADR-0106.
+
+Current release integrity is `docs/research/evidence/ch05-overnight-integrated-release-gate-r3.json`. The failed first attempt is retained separately; manifest r2 rebinds the current registry while preserving the original 14-row root. ADR-0107 records why this is append-only rather than an r1 rewrite.

@@ -1,0 +1,45 @@
+{
+  "record_type": "CH05InstrumentedProductionHandoffEvidence",
+  "schema_version": "1.1",
+  "record_id": "ng-ch05-instrumented-production-handoff-evidence-r2",
+  "state": "CURRENT_REGISTRY_REBOUND_R1_ROWS_IMMUTABLE",
+  "manifest": {
+    "path": "production/comic/run-manifests/ch05-instrumented-production-manifest-r2.json",
+    "sha256": "4bba997fb45cc77e5ae9db6f17a2040117c125ff333605f3322f66be0025cecd"
+  },
+  "extends": {
+    "record_id": "ng-ch05-instrumented-production-handoff-r1",
+    "path": "production/comic/run-manifests/ch05-instrumented-production-manifest-r1.json",
+    "sha256": "87d4af2781c0f42650b7bf9525ad5d9d16ac3cf4c9e27c00e36fa430345ef6f7",
+    "row_root_sha256": "19c7cbf6b9ec1facc87f19ab4b67e328f28b2b1e76c1d97fbbce079edb09c9b3"
+  },
+  "model_license_registry": {
+    "path": "docs/research/model-license-registry.md",
+    "sha256": "b05c5d27acc2805efb2a1df2f93d05ec4b76a4c1c022a21826039441159e2e34",
+    "binding_reason": "Append-only current registry supersedes r1 whole-file compile-input hash without changing any row, candidate, route, license, or commercial conclusion."
+  },
+  "summary": {
+    "row_count": 14,
+    "sequence_count": 3,
+    "distinct_panel_plans": 14,
+    "accepted_rows": 0,
+    "commercially_cleared_rows": 0,
+    "lettering_ready_rows": 0,
+    "executable_rows": 0,
+    "generation_reproducible_rows": 0,
+    "comic_panel_plan_revisions": 0
+  },
+  "activity": {
+    "rows_rewritten": 0,
+    "prompts_rewritten": 0,
+    "source_pixels_changed": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0
+  },
+  "limitations": [
+    "This pointer does not make built-in generation reproducible or commercially cleared.",
+    "The registry is an append-only research document and later additions require another pointer revision, not rewriting r1/r2."
+  ],
+  "boundary": "R2 updates only the mutable registry pointer. R1 rows, prompts, sources, references, reviews, cadence, lettering, and gates remain byte-identical and nonexecutable."
+}

@@ -67,3 +67,5 @@ The failure-class repair matrix adds one ignored diagnostic chart and no generat
 The P010–P013 preflight adds one ignored text storyboard and tracked null-prompt metadata with no generation or external cost. Three reference hypotheses produce zero uploads; prompts/renders/executable rows/decisions/copy remain zero and human minutes remain null.
 
 Owner review index r2 adds one ignored HTML page and five ignored thumbnails from existing local artifacts with no generation or external cost. Decisions, acceptances, calls, uploads, and publication remain zero; human minutes remain null.
+
+Integrated release r3 adds no generation or external cost. Attempt 1 is preserved as a failed local validation; the successful 13-command/30-effective gate runs in 6.202 seconds. Calls/uploads/downloads/acceptances/executable panels remain zero and human minutes remain null.

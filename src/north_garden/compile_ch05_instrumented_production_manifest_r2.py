@@ -1,0 +1,16 @@
+"""Extend immutable CH05 production manifest r1 with a current registry binding."""
+from __future__ import annotations
+import hashlib,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2];R1=ROOT/"production/comic/run-manifests/ch05-instrumented-production-manifest-r1.json";R1_EVIDENCE=ROOT/"docs/research/evidence/ch05-instrumented-production-handoff-r1.json";REGISTRY=ROOT/"docs/research/model-license-registry.md";OUTPUT=ROOT/"production/comic/run-manifests/ch05-instrumented-production-manifest-r2.json";EVIDENCE=ROOT/"docs/research/evidence/ch05-instrumented-production-handoff-r2.json"
+def sha(p:Path)->str:return hashlib.sha256(p.read_bytes()).hexdigest()
+def main()->int:
+ r1=json.loads(R1.read_text(encoding="utf-8"));s=r1["summary"]
+ out={"record_type":"ComicInstrumentedProductionManifestPointer","schema_version":"1.1","record_id":"ng-ch05-instrumented-production-manifest-r2","state":"REVIEWABLE_NONEXECUTABLE_CURRENT_REGISTRY_BOUND","medium":"comic","extends":{"record_id":r1["record_id"],"path":R1.relative_to(ROOT).as_posix(),"sha256":sha(R1),"row_root_sha256":r1["row_root_sha256"]},"prior_evidence":{"path":R1_EVIDENCE.relative_to(ROOT).as_posix(),"sha256":sha(R1_EVIDENCE)},"model_license_registry":{"path":REGISTRY.relative_to(ROOT).as_posix(),"sha256":sha(REGISTRY),"binding_reason":"Append-only current registry supersedes r1 whole-file compile-input hash without changing any row, candidate, route, license, or commercial conclusion."},"summary":{"row_count":s["selected_panel_count"],"sequence_count":s["sequence_count"],"distinct_panel_plans":s["distinct_comic_panel_plans"],"accepted_rows":0,"commercially_cleared_rows":0,"lettering_ready_rows":0,"executable_rows":0,"generation_reproducible_rows":0,"comic_panel_plan_revisions":0},"rows_rewritten":0,"prompts_rewritten":0,"source_pixels_changed":0,"provider_calls":0,"uploads":0,"cost_usd":0,"animation_shot_plan":None,"e_conte":None,"boundary":"R2 updates only the mutable registry pointer. R1 rows, prompts, sources, references, reviews, cadence, lettering, and gates remain byte-identical and nonexecutable."}
+ with OUTPUT.open("w",encoding="utf-8",newline="\n") as h:h.write(json.dumps(out,indent=2)+"\n")
+ evidence={"record_type":"CH05InstrumentedProductionHandoffEvidence","schema_version":"1.1","record_id":"ng-ch05-instrumented-production-handoff-evidence-r2","state":"CURRENT_REGISTRY_REBOUND_R1_ROWS_IMMUTABLE","manifest":{"path":OUTPUT.relative_to(ROOT).as_posix(),"sha256":sha(OUTPUT)},"extends":out["extends"],"model_license_registry":out["model_license_registry"],"summary":out["summary"],"activity":{"rows_rewritten":0,"prompts_rewritten":0,"source_pixels_changed":0,"provider_calls":0,"uploads":0,"cost_usd":0},"limitations":["This pointer does not make built-in generation reproducible or commercially cleared.","The registry is an append-only research document and later additions require another pointer revision, not rewriting r1/r2."],"boundary":out["boundary"]}
+ with EVIDENCE.open("w",encoding="utf-8",newline="\n") as h:h.write(json.dumps(evidence,indent=2)+"\n")
+ print(f"CH05 instrumented manifest r2: 14 immutable rows / current registry {sha(REGISTRY)} / 0 rewritten/executable")
+ print("r1 row root retained; prompts/pixels/calls/uploads/cost 0/0/0/0/$0")
+ return 0
+if __name__=="__main__":raise SystemExit(main())

@@ -1062,3 +1062,10 @@
 - Seven exact links (five images/two HTML) and six ignored index artifacts build byte-identically; every linked source hash resolves.
 - The page includes no remote asset, form, network code, upload, or repository-write behavior.
 - ADR-0106 preserves r1 and the empty decision contract. Thirteen/thirteen mutations fail; decisions/acceptance/minutes/calls/uploads/cost remain 0/0/null/0/0/$0.
+
+## 2026-09-01 - CH05 integrated release r3 and manifest pointer r2
+
+- Preserved failed release attempt 1 (`160aad9f…f94c`), which exposed a historical whole-file registry hash in manifest r1 after the registry legitimately grew append-only.
+- Kept r1/r2 and all 14 manifest rows byte-identical. Manifest r2 rebinds the current registry to the exact r1 row root with zero row/prompt/pixel rewrite; 15/15 mutations fail.
+- Compatibility reruns 17 current base checks, pins the historical manifest pass, and normalizes only the tracked-path count integer. The current manifest-r2 validator is a separate extension.
+- Release r3 passes 13/13 commands/30 effective checks in 6.202s and rejects 23/23 mutations. Frozen 16 + baseline 4 + source pass; calls/uploads/downloads/cost remain 0/0/0/$0.

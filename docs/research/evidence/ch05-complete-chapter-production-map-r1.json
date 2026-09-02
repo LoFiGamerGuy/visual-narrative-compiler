@@ -1,0 +1,380 @@
+{
+  "record_type": "CH05CompleteChapterProductionMapEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-complete-chapter-production-map-r1",
+  "created_date": "2026-09-02",
+  "state": "COMPLETE_STORY_MAP_36_GENERATIONS_REQUIRED_FOR_FIRST_FULL_REVIEW_DRAFT",
+  "medium": "comic",
+  "active_planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "sources": [
+    {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    },
+    {
+      "path": "production/canon/story-state/ch05-sc01-r1.json",
+      "sha256": "ccd0c34bd23e97ff4f1549c2e28c930c168e754231943cd7e9e719a285463e14"
+    },
+    {
+      "path": "production/comic/continuity/ch05-fictional-adult-visual-profile-r1.json",
+      "sha256": "4a2bac302ad720e67e281e7b59903b8b2c5a43792056175c6add103b873eb3b2"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-built-in-renderrecord-index-r1.json",
+      "sha256": "546eaca1f47e02aea256192dc24653b29912d607b20cdafbcf9bb8eb4b5bf437"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-sequence-production-batches-r1.json",
+      "sha256": "d1c14d09b5afb374260ceabbd4594edcbeecf32925f5a826434f860e99106ea9"
+    },
+    {
+      "path": "docs/research/evidence/ch05-variable-cadence-assembly-r1.json",
+      "sha256": "47e1ab10278f1a8e58ba3d2eefb56185fc6a62e57da74dc51e2c2db78aae930a"
+    }
+  ],
+  "summary": {
+    "comic_panel_plan_count": 50,
+    "story_order_complete": true,
+    "plans_with_engineering_selected_candidate": 14,
+    "plans_without_candidate": 36,
+    "provisional_reuse": 12,
+    "provisional_reuse_with_layout_mitigation": 2,
+    "targeted_pixel_repair_now": 0,
+    "generate_new": 36,
+    "story_ordered_batches": 12,
+    "minimum_plans_per_batch": 3,
+    "maximum_plans_per_batch": 5,
+    "new_provider_calls": 0,
+    "new_uploads": 0,
+    "new_cost_usd": 0,
+    "candidate_acceptance_count": 0,
+    "commercial_clearance_count": 0,
+    "exact_production_base_count": 0
+  },
+  "strategy": {
+    "optimization_target": "complete readable 50-panel chapter before polish alternates",
+    "first_draft_rule": "Retain the 14 engineering-selected candidates as provisional layout assets and generate the 36 uncovered plans in contiguous story batches.",
+    "iteration_rule": "After each batch, rebuild the full 50-slot scroll; repair only identity, causality, continuity, target-direction, or phone-readability failures before moving forward.",
+    "lettering_rule": "Solve safe-field contrast with an outside-art band or carefully reviewed transparency before regenerating otherwise useful pixels.",
+    "acceptance_boundary": "Owner approval authorizes continued work and best engineering judgment; it does not automatically accept, commercially clear, or promote any candidate as an exact production base."
+  },
+  "visual_grammar": {
+    "primary_mechanism": "clear_line_watercolor",
+    "role_routes": {
+      "travel_physical_causality_environmental_transition": "clear_line_watercolor",
+      "wide_orientation_warning_reveal_urgent_action": "clean_graphic_restrained_painterly_color",
+      "faces_deduction_reaction_intimate_continuity": "premium_cel_painted",
+      "quiet_object_or_sensory_insert": "limited_ink_flat"
+    },
+    "shared_invariants": [
+      "cold wet-morning palette",
+      "consistent line-weight hierarchy",
+      "consistent material vocabulary",
+      "stable adult facial design",
+      "no text in generated pixels"
+    ],
+    "canvas_width_px": 1200,
+    "width_bands_px": {
+      "large_or_full_width": [1040, 1200],
+      "medium": [720, 960],
+      "small_insert": [520, 720]
+    },
+    "chapter_flow_classifier_overrides": [
+      {
+        "panel_id": "ng-ch05-sc01-p017",
+        "decision": "large_full_width_reveal",
+        "reason": "first mill reveal"
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p030",
+        "decision": "large_full_width_reveal",
+        "reason": "first mill-interior reveal"
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p048",
+        "decision": "large_full_width_reveal",
+        "reason": "farmhouse-smoke reversal"
+      }
+    ]
+  },
+  "continuity_contract": {
+    "SOREN": {
+      "adult": "clearly adult fictional man with mature proportions",
+      "hair": "short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond",
+      "face": "weathered angular adult face with light beard or stubble",
+      "wardrobe": "pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots",
+      "silhouette": "lean sturdy working build; coat hem and folded map distinguish him at distance"
+    },
+    "SIGRID": {
+      "adult": "clearly adult fictional woman with mature proportions",
+      "hair": "dark-brown to near-black hair in a low bun, knot, or compact braid; never blond",
+      "face": "mature angular adult face, dark brows, alert gray-blue eyes",
+      "wardrobe": "dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots",
+      "silhouette": "athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance"
+    },
+    "object_state_chain": [
+      "folded route map",
+      "soot-stained twine",
+      "red cloth marker",
+      "wet pine needles and damp ember in hidden metal drum",
+      "second twine tied to brass bell",
+      "dry footprints ending and restarting across standing water",
+      "sealed tin",
+      "dry matches, hand-drawn creek map, and blank note card",
+      "twine cut with Soren's pocket knife",
+      "creek map stored inside Sigrid's plaid wrap",
+      "unexpected farmhouse chimney smoke"
+    ],
+    "travel_direction": "downhill from farmhouse to mill, cautious movement at bridge and mill, then uphill return; Sigrid leads P050 and Soren follows carrying the map",
+    "p036": "one continuous fallen plank must visibly connect Sigrid's brace, Soren's control/leverage, and the elevated tin; composition-only reference may never override hair or role identity",
+    "chapter_exclusions": [
+      "armor",
+      "weapons other than P044 canon pocket knife",
+      "monsters",
+      "magic",
+      "LitRPG interface elements",
+      "children or child-coded characters",
+      "real-person likenesses",
+      "extra bystanders"
+    ]
+  },
+  "lettering_contract": {
+    "generated_text": "forbidden",
+    "protected_content": [
+      "face",
+      "person",
+      "important hand",
+      "causal object",
+      "essential silhouette"
+    ],
+    "zones": {
+      "top_left": [0.04, 0.04, 0.30, 0.18],
+      "top_right": [0.66, 0.04, 0.30, 0.18],
+      "top": [0.25, 0.04, 0.50, 0.16]
+    },
+    "transparent_overlap_boundary": "reviewable only when expression, silhouette, action, and 390 px phone readability remain clear"
+  },
+  "selected_candidates": [
+    {
+      "panel_id": "ng-ch05-sc01-p001",
+      "candidate_id": "c019",
+      "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c019-p001-clear_line_watercolor-r1.png",
+      "sha256": "91f38cff7dd3f0a83f6e709ce27e3910c0531385f0b2f0b44d0ea98309185254",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": "Distant figures rely mainly on wardrobe for phone-scale identity."
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p002",
+      "candidate_id": "c002",
+      "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c002-p002-cel_painted-r1.png",
+      "sha256": "753c1a73dd04b49ec2da7a2135b04620fb1fd8a030ae908ea95c63c0b6ce7f69",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": null
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p003",
+      "candidate_id": "h002",
+      "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h002-p003-clear_line_watercolor-r1.png",
+      "sha256": "abdae79e29ce9c891a27c103d6c56002b1fd3d7a85a6eefc87d8e1e2aec8d9ce",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": null
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p009",
+      "candidate_id": "c005",
+      "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c005-p009-clear_line_watercolor-r1.png",
+      "sha256": "239346d94a18f822455dbd98bfc82cd1dae924a860a763468eb211924a225372",
+      "disposition": "PROVISIONAL_REUSE_WITH_LAYOUT_MITIGATION",
+      "limitation": "Top-left protected field is texture-dense; prefer an outside-art band or reviewed transparency."
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p019",
+      "candidate_id": "c006",
+      "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c006-p019-clean_graphic-r1.png",
+      "sha256": "6711c1e076086c1d984353338f99b99d72b94c13e541e23debd4ed959c9296b0",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": null
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p026",
+      "candidate_id": "c008",
+      "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c008-p026-cel_painted-r1.png",
+      "sha256": "3153588f5bad4d6a5e39e5609f1ef77d71c5c60258066f93f8ffbf05d6e0792d",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": null
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p029",
+      "candidate_id": "h004",
+      "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h004-p029-clean_graphic-r1.png",
+      "sha256": "0a815a965e50a66b32f232c60b716fc8c8b15e501ee9ae9c1ec0172c68a4bcdd",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": null
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p035",
+      "candidate_id": "c010",
+      "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c010-p035-clear_line_watercolor-r1.png",
+      "sha256": "2a8477c08615c4b8eab31b58ac4cd2bb137a9020817ab439369ddc1cb520ca05",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": null
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p036",
+      "candidate_id": "h006",
+      "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h006-p036-clear_line_watercolor-r1.png",
+      "sha256": "157e8a6c56a5de7da201c74ba2f2ee9e472cca51fb0dc40ab4b661e8af736607",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": "Generation is not reproducible; preserve exact output hash and one-plank causal geometry."
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p040",
+      "candidate_id": "c013",
+      "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c013-p040-clear_line_watercolor-r1.png",
+      "sha256": "237b8c3927173b72373ee502c1ce4785e0f3c9dad53f6fb04d3e9633d4ed1a09",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": null
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p044",
+      "candidate_id": "c014",
+      "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c014-p044-limited_ink_flat-r1.png",
+      "sha256": "05c1a83a89c6c0b92b3a987b96d58db8cc2d399a185f54dfded839dc980067e7",
+      "disposition": "PROVISIONAL_REUSE_WITH_LAYOUT_MITIGATION",
+      "limitation": "Top-right protected field is high contrast; prefer an outside-art band or reviewed transparency."
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p046",
+      "candidate_id": "c015",
+      "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c015-p046-cel_painted-r1.png",
+      "sha256": "8b5a0b134a9dbf9befcf8a8e1edf0ff17bcd4ec97796cfc041b118e111f7bb17",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": null
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p049",
+      "candidate_id": "c016",
+      "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c016-p049-clean_graphic-r1.png",
+      "sha256": "b1e40685fe4a37e4ae475c4da60964a1036a164280a54c85b97f06e0c278acf8",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": null
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p050",
+      "candidate_id": "h001",
+      "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png",
+      "sha256": "7c63481cae9686d439867ba5a3e7e66024715b5ba07687068785fbc31d32f737",
+      "disposition": "PROVISIONAL_REUSE",
+      "limitation": "Use c017 as the grounded-motion alternate if cel finish breaks sequence continuity."
+    }
+  ],
+  "diagnostic_or_backup_candidates": [
+    {"candidate_id": "c001", "panel_id": "ng-ch05-sc01-p001", "role": "DIAGNOSTIC", "reason": "wrong travel direction and target"},
+    {"candidate_id": "c003", "panel_id": "ng-ch05-sc01-p003", "role": "DIAGNOSTIC", "reason": "ambiguous footprint geometry and safe-zone occlusion"},
+    {"candidate_id": "c004", "panel_id": "ng-ch05-sc01-p009", "role": "BACKUP", "reason": "stable silhouettes but weaker motion and dense safe zone"},
+    {"candidate_id": "h003", "panel_id": "ng-ch05-sc01-p019", "role": "BACKUP", "reason": "valid flatter warning treatment"},
+    {"candidate_id": "c007", "panel_id": "ng-ch05-sc01-p019", "role": "DIAGNOSTIC", "reason": "safe-zone overlaps Soren"},
+    {"candidate_id": "c009", "panel_id": "ng-ch05-sc01-p029", "role": "DIAGNOSTIC", "reason": "safe-zone overlaps Soren"},
+    {"candidate_id": "c012", "panel_id": "ng-ch05-sc01-p036", "role": "BACKUP", "reason": "valid cel-painted one-plank result"},
+    {"candidate_id": "c011", "panel_id": "ng-ch05-sc01-p036", "role": "DIAGNOSTIC", "reason": "causal linkage incomplete"},
+    {"candidate_id": "h005", "panel_id": "ng-ch05-sc01-p036", "role": "DIAGNOSTIC", "reason": "two-segment plank violates one-plank plan"},
+    {"candidate_id": "c020", "panel_id": "ng-ch05-sc01-p040", "role": "BACKUP", "reason": "valid lower-density deduction treatment"},
+    {"candidate_id": "c017", "panel_id": "ng-ch05-sc01-p050", "role": "BACKUP", "reason": "stronger grounded movement"},
+    {"candidate_id": "c018", "panel_id": "ng-ch05-sc01-p050", "role": "BACKUP", "reason": "valid flatter value treatment"}
+  ],
+  "panels": [
+    {"order": 1, "panel_id": "ng-ch05-sc01-p001", "batch_id": "B01", "beat": "The pair leave the farmhouse before the damp grass dries.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "c019", "action": "reuse", "style": "clear_line_watercolor", "size_role": "full_width_orientation", "width_px": [1040, 1200], "safe_anchor": "top_left", "continuity_focus": "downhill departure; dual adult wardrobe silhouettes"},
+    {"order": 2, "panel_id": "ng-ch05-sc01-p002", "batch_id": "B01", "beat": "Sigrid checks the smoke direction against the folded map.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "c002", "action": "reuse", "style": "premium_cel_painted", "size_role": "medium_character_clue", "width_px": [720, 960], "safe_anchor": "top_right", "continuity_focus": "Sigrid face, dark tied hair, plaid wrap, folded map and smoke direction"},
+    {"order": 3, "panel_id": "ng-ch05-sc01-p003", "batch_id": "B01", "beat": "Soren notices that the boot prints now overlap the trail rather than lead it.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "h002", "action": "reuse", "style": "clear_line_watercolor", "size_role": "small_clue_insert", "width_px": [520, 720], "safe_anchor": "top_left", "continuity_focus": "crossing print chains and Soren's held-back boot"},
+    {"order": 4, "panel_id": "ng-ch05-sc01-p004", "batch_id": "B01", "beat": "They exchange a look and continue without explaining the change.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "premium_cel_painted", "size_role": "medium_two_shot", "width_px": [880, 1040], "safe_anchor": "top_right", "continuity_focus": "match P002/P003 faces; opposite-thirds silent look"},
+    {"order": 5, "panel_id": "ng-ch05-sc01-p005", "batch_id": "B02", "beat": "Rainwater feeds a shallow runnel across their path.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "wide_environmental_pause", "width_px": [880, 1120], "safe_anchor": "top", "continuity_focus": "one readable water-flow vector; no people"},
+    {"order": 6, "panel_id": "ng-ch05-sc01-p006", "batch_id": "B02", "beat": "Sigrid steps the runnel first and points out an older stone marker.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "full_width_directional_action", "width_px": [1040, 1200], "safe_anchor": "top_right", "continuity_focus": "Sigrid leads; grounded weight shift and pointing hand; Soren waits"},
+    {"order": 7, "panel_id": "ng-ch05-sc01-p007", "batch_id": "B02", "beat": "The marker bears a simple mill-wheel sketch, not a name.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "limited_ink_flat", "size_role": "small_object_insert", "width_px": [520, 720], "safe_anchor": "top", "continuity_focus": "carved circle unmistakable; no writing or people"},
+    {"order": 8, "panel_id": "ng-ch05-sc01-p008", "batch_id": "B02", "beat": "Soren folds the map to hide the farmhouse and expose the creek line.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "premium_cel_painted", "size_role": "medium_character_clue", "width_px": [720, 960], "safe_anchor": "top_right", "continuity_focus": "readable adult hands and map-fold geometry; no face required"},
+    {"order": 9, "panel_id": "ng-ch05-sc01-p009", "batch_id": "B02", "beat": "The trail narrows under wet branches.", "coverage": "PROVISIONAL_REUSE_WITH_LAYOUT_MITIGATION", "candidate_id": "c005", "action": "reuse_with_outside_art_lettering_band", "style": "clear_line_watercolor", "size_role": "tall_transition", "width_px": [700, 760], "safe_anchor": "top_left", "continuity_focus": "Sigrid leads, Soren follows; retain grounded mud and cloth motion"},
+    {"order": 10, "panel_id": "ng-ch05-sc01-p010", "batch_id": "B03", "beat": "Sigrid hears the water before it is visible.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "premium_cel_painted", "size_role": "medium_close", "width_px": [720, 960], "safe_anchor": "top_right", "continuity_focus": "dark tied hair, plaid wrap, listening expression into open dark woods"},
+    {"order": 11, "panel_id": "ng-ch05-sc01-p011", "batch_id": "B03", "beat": "Soren finds a length of soot-stained twine caught on a thorn.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "medium_small_causal_clue", "width_px": [620, 820], "safe_anchor": "top_left", "continuity_focus": "twine-thorn contact, soot stain, readable adult hand"},
+    {"order": 12, "panel_id": "ng-ch05-sc01-p012", "batch_id": "B03", "beat": "The twine points downhill as if pulled taut and released.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "limited_ink_flat", "size_role": "small_pause", "width_px": [520, 720], "safe_anchor": "top", "continuity_focus": "one diagonal force vector; empty trail; no people"},
+    {"order": 13, "panel_id": "ng-ch05-sc01-p013", "batch_id": "B03", "beat": "They follow the creek instead of the tracks.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "full_width_transition", "width_px": [1040, 1200], "safe_anchor": "top_left", "continuity_focus": "route change downhill; Sigrid leads; dual adult silhouettes"},
+    {"order": 14, "panel_id": "ng-ch05-sc01-p014", "batch_id": "B04", "beat": "The smoke briefly disappears behind a shoulder of ridge.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "limited_ink_flat_watercolor", "size_role": "small_sensory_insert", "width_px": [560, 760], "safe_anchor": "top", "continuity_focus": "smoke endpoint hidden by ridge; negative space; no people"},
+    {"order": 15, "panel_id": "ng-ch05-sc01-p015", "batch_id": "B04", "beat": "Sigrid marks the loss of sight on the map with a wet thumb.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "premium_cel_painted", "size_role": "medium_character_clue", "width_px": [720, 960], "safe_anchor": "top_left", "continuity_focus": "wet thumb obscures route line; plaid continuity"},
+    {"order": 16, "panel_id": "ng-ch05-sc01-p016", "batch_id": "B04", "beat": "Soren says the smoke must be closer than it looks.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "premium_cel_painted", "size_role": "medium_two_shot", "width_px": [760, 1040], "safe_anchor": "top_right", "continuity_focus": "adults walking without facing; dialogue-capable profiles"},
+    {"order": 17, "panel_id": "ng-ch05-sc01-p017", "batch_id": "B04", "beat": "The abandoned mill appears below, roofline broken against pale morning.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clean_graphic_restrained_painterly_color", "size_role": "large_full_width_reveal", "width_px": [1120, 1200], "safe_anchor": "top", "continuity_focus": "first mill reveal; broken roofline; creek geography; no people"},
+    {"order": 18, "panel_id": "ng-ch05-sc01-p018", "batch_id": "B04", "beat": "Smoke rises from behind the mill rather than from its chimney.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "small_medium_sensory_insert", "width_px": [620, 820], "safe_anchor": "top", "continuity_focus": "telephoto spatial contradiction; smoke source behind mill"},
+    {"order": 19, "panel_id": "ng-ch05-sc01-p019", "batch_id": "B05", "beat": "Sigrid signals Soren to stay off the open bridge.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "c006", "action": "reuse", "style": "clean_graphic_restrained_painterly_color", "size_role": "full_width_warning_action", "width_px": [1040, 1200], "safe_anchor": "top_left", "continuity_focus": "Sigrid warning palm, Soren checked step, unsafe bridge"},
+    {"order": 20, "panel_id": "ng-ch05-sc01-p020", "batch_id": "B05", "beat": "They cross the creek on stones below the bridge.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "full_width_action", "width_px": [1040, 1200], "safe_anchor": "top_right", "continuity_focus": "separated stepping rhythm and weight; bridge remains above"},
+    {"order": 21, "panel_id": "ng-ch05-sc01-p021", "batch_id": "B05", "beat": "A freshly tied strip of red cloth moves from a lower branch.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "limited_ink_flat", "size_role": "small_object_insert", "width_px": [520, 720], "safe_anchor": "top", "continuity_focus": "fresh red cloth and one wind vector; background unreadable; no people"},
+    {"order": 22, "panel_id": "ng-ch05-sc01-p022", "batch_id": "B05", "beat": "Soren stops Sigrid from touching the cloth.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "premium_cel_painted", "size_role": "medium_two_shot", "width_px": [880, 1040], "safe_anchor": "top_right", "continuity_focus": "hands nearly meet but neither touches red marker"},
+    {"order": 23, "panel_id": "ng-ch05-sc01-p023", "batch_id": "B05", "beat": "They circle toward the mill's collapsed loading door.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "wide_transition", "width_px": [1040, 1200], "safe_anchor": "top_left", "continuity_focus": "side travel through grass and stable mill/bridge geography"},
+    {"order": 24, "panel_id": "ng-ch05-sc01-p024", "batch_id": "B06", "beat": "A thin smoke thread rises from a metal drum hidden behind stone.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "limited_ink_flat_watercolor", "size_role": "small_sensory_insert", "width_px": [560, 760], "safe_anchor": "top", "continuity_focus": "hidden drum location and thin smoke; no people"},
+    {"order": 25, "panel_id": "ng-ch05-sc01-p025", "batch_id": "B06", "beat": "The drum contains only wet pine needles and a damp ember.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "limited_ink_flat", "size_role": "small_object_insert", "width_px": [520, 720], "safe_anchor": "top", "continuity_focus": "overhead evidence arrangement; wet needles and one damp ember"},
+    {"order": 26, "panel_id": "ng-ch05-sc01-p026", "batch_id": "B06", "beat": "Sigrid tests the heat without disturbing the ember.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "c008", "action": "reuse", "style": "premium_cel_painted", "size_role": "medium_single_causal", "width_px": [700, 960], "safe_anchor": "top_right", "continuity_focus": "hand above ember, smoke between fingers, no contact"},
+    {"order": 27, "panel_id": "ng-ch05-sc01-p027", "batch_id": "B06", "beat": "Soren sees a second twine line disappearing through the mill wall.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "cel_painted_clear_line_hybrid", "size_role": "medium_character_clue", "width_px": [720, 960], "safe_anchor": "top_left", "continuity_focus": "Soren eyeline and twine continue into wall darkness"},
+    {"order": 28, "panel_id": "ng-ch05-sc01-p028", "batch_id": "B07", "beat": "The line is tied to a small brass bell inside the doorway.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "limited_ink_flat", "size_role": "small_object_insert", "width_px": [520, 720], "safe_anchor": "top", "continuity_focus": "exact line-to-brass-bell connection; bell still"},
+    {"order": 29, "panel_id": "ng-ch05-sc01-p029", "batch_id": "B07", "beat": "Sigrid chooses the wall opening rather than the doorway.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "h004", "action": "reuse", "style": "clean_graphic_restrained_painterly_color", "size_role": "wide_dual_target_threshold", "width_px": [1040, 1200], "safe_anchor": "top_left", "continuity_focus": "Sigrid enters wall opening; Soren watches smoke/exterior"},
+    {"order": 30, "panel_id": "ng-ch05-sc01-p030", "batch_id": "B07", "beat": "Inside, daylight bars stripe standing water and broken gears.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clean_graphic_restrained_painterly_color", "size_role": "large_full_width_interior_reveal", "width_px": [1120, 1200], "safe_anchor": "top", "continuity_focus": "standing water, broken gears, barred daylight; no people"},
+    {"order": 31, "panel_id": "ng-ch05-sc01-p031", "batch_id": "B07", "beat": "Sigrid finds dry footprints ending at the water's edge.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "premium_cel_painted", "size_role": "medium_character_clue", "width_px": [720, 960], "safe_anchor": "top_left", "continuity_focus": "Sigrid crouched silhouette and dry-to-wet footprint boundary"},
+    {"order": 32, "panel_id": "ng-ch05-sc01-p032", "batch_id": "B08", "beat": "Soren sees the footprints begin again on the far side, facing back.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "medium_deep_clue", "width_px": [720, 960], "safe_anchor": "top_right", "continuity_focus": "deep perspective across water and reversed toe direction"},
+    {"order": 33, "panel_id": "ng-ch05-sc01-p033", "batch_id": "B08", "beat": "A quiet drip rings the brass bell once from outside.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "premium_cel_painted", "size_role": "medium_sensory_reaction", "width_px": [760, 1040], "safe_anchor": "top_left", "continuity_focus": "both adults freeze at different depths; one drip/bell event"},
+    {"order": 34, "panel_id": "ng-ch05-sc01-p034", "batch_id": "B08", "beat": "Neither moves toward the bell.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "premium_cel_painted_restrained_detail", "size_role": "medium_wide_two_shot", "width_px": [880, 1040], "safe_anchor": "top_right", "continuity_focus": "empty doorway dominates; held adult silhouettes; no movement"},
+    {"order": 35, "panel_id": "ng-ch05-sc01-p035", "batch_id": "B08", "beat": "Sigrid notices a sealed tin on an upper beam.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "c010", "action": "reuse", "style": "clear_line_watercolor", "size_role": "small_object_reveal", "width_px": [520, 720], "safe_anchor": "top", "continuity_focus": "tin position must support P036 one-plank reach"},
+    {"order": 36, "panel_id": "ng-ch05-sc01-p036", "batch_id": "B08", "beat": "Soren reaches it with a fallen plank while Sigrid braces the plank.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "h006", "action": "reuse", "style": "clear_line_watercolor", "size_role": "tall_causal_anchor", "width_px": [700, 760], "safe_anchor": "top_right", "continuity_focus": "one continuous plank links Sigrid brace, Soren control, and elevated tin"},
+    {"order": 37, "panel_id": "ng-ch05-sc01-p037", "batch_id": "B09", "beat": "The tin holds dry matches, a hand-drawn creek map, and a blank note card.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "limited_ink_flat", "size_role": "small_object_spread", "width_px": [520, 720], "safe_anchor": "top", "continuity_focus": "exact three contents readable; note card blank; no accidental writing"},
+    {"order": 38, "panel_id": "ng-ch05-sc01-p038", "batch_id": "B09", "beat": "The map marks the farmhouse with a small square and the mill with a circle.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "small_medium_map_insert", "width_px": [600, 780], "safe_anchor": "top", "continuity_focus": "exactly square farmhouse and circle mill symbols with coherent route geography"},
+    {"order": 39, "panel_id": "ng-ch05-sc01-p039", "batch_id": "B09", "beat": "A third mark is visible upstream, beyond the map edge.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "cel_painted_clear_line_hybrid", "size_role": "medium_character_clue", "width_px": [720, 960], "safe_anchor": "top_left", "continuity_focus": "Soren finger stops at torn edge; third mark distinct and upstream"},
+    {"order": 40, "panel_id": "ng-ch05-sc01-p040", "batch_id": "B09", "beat": "Sigrid decides the smoke was a signal, not a campfire.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "c013", "action": "reuse", "style": "clear_line_watercolor", "size_role": "medium_deduction_close", "width_px": [720, 960], "safe_anchor": "top_right", "continuity_focus": "stable Sigrid face/hair/plaid and calm deduction"},
+    {"order": 41, "panel_id": "ng-ch05-sc01-p041", "batch_id": "B10", "beat": "The hidden drum finally goes out in the rain.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "limited_ink_flat_watercolor", "size_role": "small_sensory_pause", "width_px": [560, 760], "safe_anchor": "top", "continuity_focus": "thinning smoke and wet metal; no people"},
+    {"order": 42, "panel_id": "ng-ch05-sc01-p042", "batch_id": "B10", "beat": "The bell rings again, now from the creek side.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "small_medium_sensory_clue", "width_px": [600, 800], "safe_anchor": "top", "continuity_focus": "empty doorway and one taut line establish changed source"},
+    {"order": 43, "panel_id": "ng-ch05-sc01-p043", "batch_id": "B10", "beat": "They leave the tin open on the stone and retreat together.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "full_width_retreat", "width_px": [1040, 1200], "safe_anchor": "top_left", "continuity_focus": "cautious backward weight shift; open tin remains on stone"},
+    {"order": 44, "panel_id": "ng-ch05-sc01-p044", "batch_id": "B10", "beat": "At the creek, Soren cuts the twine line with a pocket knife.", "coverage": "PROVISIONAL_REUSE_WITH_LAYOUT_MITIGATION", "candidate_id": "c014", "action": "reuse_with_outside_art_lettering_band", "style": "limited_ink_flat", "size_role": "small_causal_insert", "width_px": [520, 720], "safe_anchor": "top_right", "continuity_focus": "readable adult hands, pocket-knife edge, taut line, explicit cut point"},
+    {"order": 45, "panel_id": "ng-ch05-sc01-p045", "batch_id": "B11", "beat": "The distant bell does not ring after the cut.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "limited_ink_flat", "size_role": "small_quiet_pause", "width_px": [520, 720], "safe_anchor": "top", "continuity_focus": "still creek and mill exterior; no bell motion; no people"},
+    {"order": 46, "panel_id": "ng-ch05-sc01-p046", "batch_id": "B11", "beat": "Sigrid keeps the creek map inside her wrap rather than the notebook.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "c015", "action": "reuse", "style": "premium_cel_painted", "size_role": "medium_continuity_close", "width_px": [720, 960], "safe_anchor": "top_right", "continuity_focus": "map transfers inside plaid wrap; notebook remains unused"},
+    {"order": 47, "panel_id": "ng-ch05-sc01-p047", "batch_id": "B11", "beat": "They climb back toward the farmhouse under a cleared sky.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clear_line_watercolor", "size_role": "full_width_return_transition", "width_px": [1040, 1200], "safe_anchor": "top_left", "continuity_focus": "uphill vector reverses departure; clear sky; no smoke visible"},
+    {"order": 48, "panel_id": "ng-ch05-sc01-p048", "batch_id": "B12", "beat": "From the ridge, the farmhouse is visible but its chimney has begun to smoke.", "coverage": "MISSING", "candidate_id": null, "action": "generate_new", "style": "clean_graphic_restrained_painterly_color", "size_role": "large_full_width_reversal_reveal", "width_px": [1120, 1200], "safe_anchor": "top", "continuity_focus": "farmhouse and new chimney smoke legible at 390 px; no people"},
+    {"order": 49, "panel_id": "ng-ch05-sc01-p049", "batch_id": "B12", "beat": "Soren realizes they did not light the stove before leaving.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "c016", "action": "reuse", "style": "clean_graphic_restrained_painterly_color", "size_role": "medium_target_change_reaction", "width_px": [720, 960], "safe_anchor": "top_left", "continuity_focus": "oatmeal-coat Soren, folded map, alert turn, same distant house"},
+    {"order": 50, "panel_id": "ng-ch05-sc01-p050", "batch_id": "B12", "beat": "Sigrid breaks into a run toward the house; Soren follows with the map.", "coverage": "PROVISIONAL_REUSE", "candidate_id": "h001", "action": "reuse", "style": "premium_cel_painted", "size_role": "full_width_urgent_hero", "width_px": [1040, 1200], "safe_anchor": "top_right", "continuity_focus": "Sigrid leads uphill; Soren follows with map; house ahead; mud and cloth motion"}
+  ],
+  "batches": [
+    {"batch_id": "B01", "panel_range": [1, 4], "panel_ids": ["ng-ch05-sc01-p001", "ng-ch05-sc01-p002", "ng-ch05-sc01-p003", "ng-ch05-sc01-p004"], "new_count": 1, "reuse_count": 3, "narrative_job": "departure, map orientation, anomalous tracks, silent agreement", "gate": "P004 matches established adult faces, hair, wardrobe, and downhill direction"},
+    {"batch_id": "B02", "panel_range": [5, 9], "panel_ids": ["ng-ch05-sc01-p005", "ng-ch05-sc01-p006", "ng-ch05-sc01-p007", "ng-ch05-sc01-p008", "ng-ch05-sc01-p009"], "new_count": 4, "reuse_count": 1, "narrative_job": "runnel, marker, map refold, narrowing trail", "gate": "Sigrid leads P006/P009; Soren handles map P008; wetness and direction persist"},
+    {"batch_id": "B03", "panel_range": [10, 13], "panel_ids": ["ng-ch05-sc01-p010", "ng-ch05-sc01-p011", "ng-ch05-sc01-p012", "ng-ch05-sc01-p013"], "new_count": 4, "reuse_count": 0, "narrative_job": "hear water, find soot twine, infer force, choose creek", "gate": "twine remains soot-stained and points downhill; P013 visibly changes route"},
+    {"batch_id": "B04", "panel_range": [14, 18], "panel_ids": ["ng-ch05-sc01-p014", "ng-ch05-sc01-p015", "ng-ch05-sc01-p016", "ng-ch05-sc01-p017", "ng-ch05-sc01-p018"], "new_count": 5, "reuse_count": 0, "narrative_job": "lose smoke, discuss distance, reveal mill, expose false smoke source", "gate": "ridge, mill, chimney, and behind-mill smoke geography remain coherent"},
+    {"batch_id": "B05", "panel_range": [19, 23], "panel_ids": ["ng-ch05-sc01-p019", "ng-ch05-sc01-p020", "ng-ch05-sc01-p021", "ng-ch05-sc01-p022", "ng-ch05-sc01-p023"], "new_count": 4, "reuse_count": 1, "narrative_job": "avoid bridge, cross below, notice marker, stop contact, approach mill", "gate": "P019 anchors both adults; bridge remains above the stepping-stone route"},
+    {"batch_id": "B06", "panel_range": [24, 27], "panel_ids": ["ng-ch05-sc01-p024", "ng-ch05-sc01-p025", "ng-ch05-sc01-p026", "ng-ch05-sc01-p027"], "new_count": 3, "reuse_count": 1, "narrative_job": "reveal drum, inspect ember, test heat, discover second line", "gate": "same drum/ember state; Sigrid never contacts ember; line enters mill wall"},
+    {"batch_id": "B07", "panel_range": [28, 31], "panel_ids": ["ng-ch05-sc01-p028", "ng-ch05-sc01-p029", "ng-ch05-sc01-p030", "ng-ch05-sc01-p031"], "new_count": 3, "reuse_count": 1, "narrative_job": "show bell trap, choose wall opening, reveal interior, find false tracks", "gate": "line-to-bell connection and doorway/wall-opening geography remain stable"},
+    {"batch_id": "B08", "panel_range": [32, 36], "panel_ids": ["ng-ch05-sc01-p032", "ng-ch05-sc01-p033", "ng-ch05-sc01-p034", "ng-ch05-sc01-p035", "ng-ch05-sc01-p036"], "new_count": 3, "reuse_count": 2, "narrative_job": "reverse prints, bell reaction, deliberate pause, spot tin, retrieve it", "gate": "P033/P034 hold suspense; P035 position supports P036 one-plank causal geometry"},
+    {"batch_id": "B09", "panel_range": [37, 40], "panel_ids": ["ng-ch05-sc01-p037", "ng-ch05-sc01-p038", "ng-ch05-sc01-p039", "ng-ch05-sc01-p040"], "new_count": 3, "reuse_count": 1, "narrative_job": "inventory evidence, read symbols, find third mark, infer signal", "gate": "exact contents and square/circle/third-mark logic survive 390 px reduction"},
+    {"batch_id": "B10", "panel_range": [41, 44], "panel_ids": ["ng-ch05-sc01-p041", "ng-ch05-sc01-p042", "ng-ch05-sc01-p043", "ng-ch05-sc01-p044"], "new_count": 3, "reuse_count": 1, "narrative_job": "drum extinguishes, bell source shifts, retreat, cut line", "gate": "source change is causal; open tin remains behind; cut point is explicit"},
+    {"batch_id": "B11", "panel_range": [45, 47], "panel_ids": ["ng-ch05-sc01-p045", "ng-ch05-sc01-p046", "ng-ch05-sc01-p047"], "new_count": 2, "reuse_count": 1, "narrative_job": "confirm silence, protect map, begin uphill return", "gate": "map transfers into plaid wrap; sky clears; no bell movement after cut"},
+    {"batch_id": "B12", "panel_range": [48, 50], "panel_ids": ["ng-ch05-sc01-p048", "ng-ch05-sc01-p049", "ng-ch05-sc01-p050"], "new_count": 1, "reuse_count": 2, "narrative_job": "reveal farmhouse smoke, recognize danger, urgent run", "gate": "house position is consistent; smoke is new; Sigrid leads and Soren carries map"}
+  ],
+  "review_after_each_batch": [
+    "story order and causal readability",
+    "role binding and exact visible-adult count",
+    "Soren and Sigrid hair/wardrobe continuity",
+    "object-state continuity",
+    "target and travel direction",
+    "canonical safe-zone occupancy",
+    "390 px phone readability"
+  ],
+  "first_draft_completion_gate": {
+    "all_50_plans_have_candidate": true,
+    "all_12_batches_read_causally": true,
+    "full_scroll_built": true,
+    "phone_scroll_built": true,
+    "safe_zone_overlay_built": true,
+    "contact_sheets_built": true,
+    "acceptance_implied": false
+  },
+  "boundaries": [
+    "No ComicPanelPlan is revised by this map.",
+    "ComicPanelPlan remains the sole active production-planning structure.",
+    "AnimationShotPlan and E-Conte remain absent/null.",
+    "No generated pixel is tracked or modified.",
+    "No provider call, upload, purchase, cloud GPU, or paid API execution occurs in this map.",
+    "Existing candidates remain unaccepted and commercially uncleared.",
+    "Frozen gauntlet and baseline_legacy are untouched."
+  ]
+}

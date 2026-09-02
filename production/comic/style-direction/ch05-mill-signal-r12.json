@@ -1,0 +1,49 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "2.1",
+  "record_id": "ng-comic-style-ch05-mill-signal-r12",
+  "state": "COMPLETE_CHAPTER_R4_RECOMMENDATION_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r11",
+    "path": "production/comic/style-direction/ch05-mill-signal-r11.json",
+    "sha256": "1eb40f54d1e3dcdecb4202b17599dc99f43b14b31902ec0ea9181947175f0409"
+  },
+  "selected_engineering_route": "complete chapter sequence strips, deterministic panel crops, sparse collision-aware lettering, and hash-exact panel-local repairs in a mature clear-line watercolor/cel-painted hybrid",
+  "measured_r4": {
+    "comic_panel_plan_coverage": "50/50",
+    "generated_raster_outputs": 14,
+    "panel_level_candidates": 55,
+    "agent_triage": {"pass": 46, "warn": 4, "fail": 0, "gating": false},
+    "targeted_repairs_improved_to_pass": ["P001", "P031", "P033", "P036"],
+    "non_target_hash_stability": ["49/49 in r2", "47/47 in r3", "49/49 in r4"],
+    "reference_uses": 30,
+    "unique_reference_hashes": 3,
+    "approximate_unique_client_generation_seconds": 1062.9,
+    "paid_api_cloud_spend_usd": 0,
+    "built_in_product_cost": null
+  },
+  "cadence_decision": {
+    "p036": "Use an extra-tall hero panel because physical cooperation and the one-plank force path justify the reading pause.",
+    "before": "P035 is a small high-tin reveal.",
+    "after": "P037-P039 contract into object and map clues.",
+    "principle": "Panel size follows narrative information and physical action, not a uniform template."
+  },
+  "continuity_contract": {
+    "soren": "fictional mature adult; light-brown/dark-blond swept hair; pale oatmeal work coat",
+    "sigrid": "fictional mature adult; dark tied-back hair; practical dark plaid wrap",
+    "p036_reference_role": "composition only; P050/P040 remain hair, face, wardrobe, and adult-identity references",
+    "review": "Inspect the complete 32-cast-panel sheet after every repair."
+  },
+  "lettering_contract": "Never obscure a face, person, important hand, silhouette, force path, map mark, twine, bell, tin, or other story object. Use verified quiet fields or outside-art gutters.",
+  "remaining_warnings": ["P029 role separation", "P032 reversed print orientation", "P039 third map mark", "P043 left-behind tin continuity"],
+  "next_experiment": "A single contiguous P039-P043 object-continuity sequence is eligible only if it improves both the third-mark clue and left-behind-tin continuity without weakening P040-P042 deduction/tension beats.",
+  "limitations": [
+    "All art and lettering remain pending owner review and unaccepted.",
+    "Soren's raised-beam footing in P036 is more dramatic than the original plan implied.",
+    "No model snapshot, endpoint, provider request ID, usage, monetary cost, or seed is exposed.",
+    "No commercial clearance or exact production-base decision is made."
+  ]
+}

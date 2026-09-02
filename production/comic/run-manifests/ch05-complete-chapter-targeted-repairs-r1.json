@@ -1,0 +1,77 @@
+{
+  "record_type": "ComicChapterTargetedRepairManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-complete-chapter-targeted-repairs-r1",
+  "target_assembly_record_id": "ng-ch05-complete-chapter-assembly-r2",
+  "state": "ONE_CAUSAL_GEOGRAPHY_REPAIR_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source_assembly": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r1.json",
+    "sha256": "c14eb15ee213885e53fd240625acd1683be3b615f41697ed70d79dccca05ea97"
+  },
+  "repairs": [
+    {
+      "panel_id": "ng-ch05-sc01-p001",
+      "plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+      "candidate_id": "chapter-r2-p001-departure-geography-repair-r1",
+      "repair_class": "causal_geography",
+      "reason": "The r1 sequence-derived opening did not make the farmhouse-behind/downhill-departure relation immediately legible at phone size.",
+      "smallest_change": "Replace only P001; retain P002-P050 byte-identically and preserve the r1 candidate as diagnostic evidence.",
+      "exact_prompt": "Create one finished wide horizontal webcomic panel for North Garden CH05 P001, no borders, no captions, no speech balloons, no written text. This is a targeted causal-geography correction, not a redesign. At cold gray dawn on a wet upland slope, two clearly fictional mature adults are visibly DEPARTING from their small stone farmhouse: the farmhouse is clearly behind them in the upper-right background, while their bodies, feet, eyelines, and one strong travel vector move diagonally DOWNHILL and AWAY from it toward the lower-left foreground and the distant mill valley. Sigrid leads by a half-step: dark-brown to near-black hair tied in a compact low bun, mature angular face, dark blue-brown plaid wrap over practical gray-green expedition layers, dark trousers and boots. Soren follows: short-to-medium wavy light-brown/dark-blond hair swept back, mature weathered angular face with light stubble, pale oatmeal work coat over muted blue-gray work layers, dark trousers and boots, folded map secured in one hand. Preserve the attached fictional-adult character and wardrobe identity; do not copy their prior poses. Use grounded foot placement on slick grass, damp heavy cloth, a slight forward downhill weight shift, believable wind, clean silhouettes, expressive but restrained wary faces. Mature clear-line adventure art with restrained watercolor and premium webcomic finish; lower density than a splash panel. Reserve a quiet low-detail upper-left sky/land area for later lettering, but do not put lettering there. No weapons, armor, monsters, magic, children, extra people, sexualization, photographic likeness, logos, UI, speed lines, duplicate limbs, or extra fingers. The main pass criterion is immediate phone-size readability that the house is behind them and they are leaving it downhill.",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "purpose": "fictional-adult cast, wardrobe, and action continuity"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "purpose": "fictional-adult face, hair, and finish continuity"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r2/repairs/P001-departure-geography-repair-r1.png",
+        "sha256": "1728742f71c95d00302aae486ef815820a7679a91a01d1c05675d212216c4ffd",
+        "width": 1694,
+        "height": 928,
+        "bytes": 2154932
+      },
+      "service": {
+        "product": "OpenAI built-in ImageGen available inside Codex",
+        "service_execution_id": "exec-aca96335-a138-4f41-9c97-2b1ba3071b3c",
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "monetary_cost_usd": null,
+        "seed": null,
+        "elapsed_seconds": 37.3,
+        "timing_basis": "client tool-call wall time rounded to 0.1 second"
+      },
+      "review": {
+        "state": "pending_owner_review",
+        "human_minutes": null,
+        "accepted": false,
+        "commercially_cleared": false,
+        "exact_production_base": false,
+        "agent_triage": {
+          "causal_geography": "pass",
+          "hair_and_wardrobe": "pass",
+          "adult_fictional_cast": "pass",
+          "lettering_clearance": "pass",
+          "phone_readability": "pass"
+        }
+      },
+      "limitations": [
+        "Model, endpoint, provider request ID, usage, monetary cost, and deterministic seed were not exposed by the built-in product.",
+        "Agent visual triage is non-gating and does not substitute for owner review.",
+        "Reference use can improve appearance continuity but does not make output reproducible."
+      ]
+    }
+  ],
+  "boundary": "Only the hash-pinned P001 replacement is eligible for r2 assembly. No acceptance, commercial clearance, canon revision, or exact production-base decision is implied."
+}

@@ -1,0 +1,83 @@
+{
+  "record_type": "ComicChapterTargetedRepairManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-complete-chapter-targeted-repairs-r3",
+  "target_assembly_record_id": "ng-ch05-complete-chapter-assembly-r4",
+  "state": "P036_CAUSAL_LEVERAGE_REPAIR_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source_assembly": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r3.json",
+    "sha256": "76eacffdfa8ae87999d40949fae52cf43b77f2389af24b52dc1784ff712f0584"
+  },
+  "repairs": [
+    {
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "candidate_id": "chapter-r4-p036-causal-leverage-repair-r1",
+      "repair_class": "causal_action",
+      "reason": "The r3 panel showed cooperation but partly obscured the continuous force path from both adults through the plank to the high tin.",
+      "smallest_change": "Replace only P036; preserve all other r3 panel sources byte-identically.",
+      "exact_prompt": "Create one finished TALL VERTICAL webcomic action panel for North Garden CH05 P036, no borders, captions, speech balloons, written text, logos, or UI. This is a targeted causal-leverage repair, not a redesign. Inside the same ruined water mill with shallow standing water, broken timber, gears, wet stone, and pale daylight, show exactly two clearly fictional mature adults cooperating to retrieve exactly ONE sealed metal tin from a high beam using exactly ONE long fallen plank as a simple reach/lever tool. Soren is uphill/left and actively grips the lower-middle of the one plank with both hands, lifting and angling its FAR TIP upward until that visible tip physically CONTACTS the underside/edge of the tin. Sigrid is lower/right, both boots planted wide on wet floor, bracing the SAME plank close to its lower end with both hands and grounded body weight. The complete plank must remain visually continuous and unobscured from Sigrid's hands through Soren's hands to the contacting tip and tin. Show the force path: Sigrid anchors, Soren lifts, tip nudges, tin begins to slide toward a safe catch point. Do not depict a seesaw, a second plank, a ladder, a floating tin, or a hand touching the tin. Sigrid: dark-brown to near-black hair tied in compact low bun, mature angular face, dark blue-brown plaid wrap over practical gray-green layers, dark trousers and boots. Soren: short-to-medium wavy light-brown/dark-blond hair swept back, mature weathered angular face with light stubble, pale oatmeal work coat over muted blue-gray layers, dark trousers and boots. Use the P036 attached reference ONLY for the general two-person plank composition; use the P050/P040 references for fictional adult character, hair, face, and wardrobe continuity. Mature clear-line adventure art with restrained watercolor/cel-painted finish, strong silhouettes, dynamic but physically credible weight shifts, wet boot traction, cloth weight, and tension in arms. Reserve a quiet low-detail upper-right patch that does not cover the tin or force path. Phone-size pass criterion: viewer can trace one uninterrupted plank from Sigrid through Soren to visible tip-to-tin contact and understand each role instantly. No children, extra people, duplicate bodies, monsters, magic, weapons, sexualization, photographic likeness, speed-line texture, extra arms, extra hands, or extra fingers.",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "purpose": "composition only; not hair or identity authority"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "purpose": "fictional-adult dual-cast action and wardrobe continuity"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "purpose": "fictional-adult face and hair continuity"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r4/repairs/P036-causal-leverage-repair-r1.png",
+        "sha256": "cc19ac5a2c8607f6aeec909d388dbc0f76b0496c972878a95502a6bbe7c0b61f",
+        "width": 852,
+        "height": 1846,
+        "bytes": 2723638
+      },
+      "service": {
+        "product": "OpenAI built-in ImageGen available inside Codex",
+        "service_execution_id": "exec-f28d01e9-20de-4933-9aee-84be4b6e4ee8",
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "monetary_cost_usd": null,
+        "seed": null,
+        "elapsed_seconds": 37.2,
+        "timing_basis": "client tool-call wall time rounded to 0.1 second"
+      },
+      "review": {
+        "state": "pending_owner_review",
+        "human_minutes": null,
+        "accepted": false,
+        "commercially_cleared": false,
+        "exact_production_base": false,
+        "agent_triage": {
+          "one_continuous_plank": "pass",
+          "role_binding": "pass",
+          "tip_to_tin_contact": "pass",
+          "grounded_weight": "pass",
+          "hair_and_wardrobe": "pass",
+          "lettering_clearance": "pass"
+        }
+      },
+      "limitations": [
+        "Soren stands on a broken raised beam while Sigrid braces from the wet floor; the force path reads, but the footing is more dramatic than the original plan implied.",
+        "Model, endpoint, provider request ID, usage, monetary cost, and deterministic seed were not exposed.",
+        "Agent visual triage is non-gating and does not substitute for owner review."
+      ]
+    }
+  ],
+  "boundary": "Only P036 is replaced in r4. P001-P035 and P037-P050 retain exact r3 source hashes. No acceptance, commercial clearance, or exact-base decision is implied."
+}

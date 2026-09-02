@@ -472,3 +472,11 @@ Terminal post-pointer integrity passes r13/pointer/link/frozen/scope/source/remo
 Final push record r1 binds terminal ancestor `153bff7`, exact parity, 996 tracked paths, nine excluded user items, and rejects 21/21 mutations.
 
 Final push r2 preserves r1's pending-ADR bookkeeping failure, corrects the unrelated-item denominator to nine at ancestor `7842cce`, and rejects 21/21 mutations.
+
+## CH05 complete-chapter sequence production and targeted repair — 2026-09-02
+
+Eleven sequence-strip generations cover all 50 approved ComicPanelPlans, producing 50 deterministic panel crops and a 1200×24960 current r3 long scroll plus 390×8112 phone edition. Two repair calls add four panel-level candidates: P001 alone and a P031-P033 strip. Current r3 agent triage is 45 PASS / 5 WARN / 0 FAIL, up from r2's 43/7/0. Targeted repairs preserve 49/49 and 47/47 non-target panel hashes, demonstrating exact assembly no-change stability. Stochastic rerun reproducibility remains unmeasured because no identical request was repeated and the built-in product exposes no seed or model snapshot.
+
+The route is selected on 50/50 coverage, role/count/order, 32-panel cast continuity, causal legibility, phone readability, lettering clearance, and hash-exact target/no-change behavior—not on visual appeal alone. Remaining warnings are P029, P032, P036, P039, and P043. The most informative next repair is P036's continuous plank-to-tin leverage path.
+
+P036 r4 then changes exactly one panel and preserves 49/49 non-target hashes. The new 852×1846 source makes one continuous plank, distinct bracing/lifting roles, and tip-to-tin contact readable in the 390×8567 chapter phone scroll. Agent triage improves to 46 PASS / 4 WARN / 0 FAIL; P036 moves to PASS while its raised-beam footing remains an explicit aesthetic/canon-review limitation. The current full chapter is 1200×26360.

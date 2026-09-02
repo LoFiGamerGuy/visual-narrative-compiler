@@ -115,3 +115,11 @@ Safe-source delivery parity r1 makes zero provider requests/uploads/downloads an
 Integrated release r8 adds no generation or external cost. Ledger r25 appends safe-source parity and release r8 as two local zero-external-cost milestones, bringing the chain to 54 while leaving the CH05 cap null and disabled.
 
 Ledger r26 appends ten post-r8 compatibility, reproduction, pilot-hardening, chapter, owner-link, and release-r9 milestones. The chain now contains 64 zero-external-cost milestones with zero CH05 external requests/uploads and $0 paid API/cloud spend; built-in product cost remains unavailable.
+
+## 2026-09-02 complete-chapter continuation
+
+The current continuation adds 13 built-in ImageGen raster outputs: 11 base sequence strips, one P001 repair, and one P031-P033 repair strip. Deterministic crops yield 54 panel-level candidates, but the run remains 13 service/tool calls and must not be counted as 54 calls. Twenty-seven authorized reference uses resolve to exactly three unique hash-pinned fictional-adult files.
+
+Approximate unique client-observed generation wall time is 1,025.7 seconds after avoiding double-counting parallel call pairs. Shared strip elapsed values must not be summed once per crop. Direct paid API/cloud spend remains `$0`; the built-in product's monetary cost is unavailable, not zero. Human review minutes remain `null`, and accepted/commercially cleared/exact-base candidates remain zero.
+
+The P036 repair adds one 37.2-second client-observed built-in call, one raster output, one panel-level candidate, and three reference uses. Current totals are 14 outputs, 55 panel candidates, 30 uses across three hashes, and approximately 1,062.9 unique observed seconds. Direct paid API/cloud spend remains `$0`; built-in monetary cost and human minutes remain unavailable/null.

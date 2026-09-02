@@ -1,0 +1,56 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "2.0",
+  "record_id": "ng-comic-style-ch05-mill-signal-r11",
+  "state": "COMPLETE_CHAPTER_PIPELINE_RECOMMENDATION_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r10",
+    "path": "production/comic/style-direction/ch05-mill-signal-r10.json",
+    "sha256": "8ecba9e7b6887ee12de0e037486351c83f0a3a0a1b1907f3cfd3320f67e896f1"
+  },
+  "selected_engineering_route": "sequence-strip-first complete chapter coverage in mature clear-line watercolor/cel-painted hybrid, followed by hash-exact panel-local causal repairs and sparse lettering-safe assembly",
+  "selection_basis": {
+    "chapter_coverage": "50/50 approved ComicPanelPlans in canonical order",
+    "agent_triage_r3": "45 PASS / 5 WARN / 0 FAIL; non-gating",
+    "target_change": "P001, P031, and P033 improve to PASS; P032 remains WARN",
+    "no_change_stability": "49/49 non-target panel hashes preserved in r2 and 47/47 in r3",
+    "continuity": "Soren light-brown/dark-blond hair plus oatmeal coat and Sigrid dark tied hair plus plaid wrap remain visually stable across 32 cast panels",
+    "lettering": "20 sparse story beats; 8 canonical in-art placements and 12 outside-art gutters; no intentional face/person/important-hand/story-object obstruction",
+    "not_visual_appeal_alone": true
+  },
+  "chapter_cadence": {
+    "principle": "Use large environmental/action/reversal anchors, medium character deduction and cooperation, and narrow object/sensory inserts; preserve narrative rhythm rather than enforcing one aspect ratio.",
+    "large_anchors": ["P001", "P017", "P020", "P030", "P036", "P048", "P050"],
+    "medium_character_logic": ["P010", "P016", "P019", "P026", "P027", "P040", "P046", "P049"],
+    "small_inserts": ["P005", "P007", "P011", "P021", "P025", "P028", "P037", "P038", "P041", "P042", "P044"],
+    "phone_width_px": 390
+  },
+  "continuity_mechanism": {
+    "minimum": "Use only the three authorized fictional-adult references by role, repeat explicit adult/hair/wardrobe/cast assertions, generate coherent 3-5-panel sequences, then inspect the 32-cast-panel continuity sheet.",
+    "repair_rule": "When a panel misses one causal requirement, preserve the source strip and replace only the smallest panel set needed; do not regenerate the full chapter.",
+    "known_limit": "References improved continuity but the built-in product exposes no seed, model snapshot, endpoint, request ID, usage, or monetary cost; stochastic reproducibility remains unmeasured."
+  },
+  "lettering_route": {
+    "story_copy": "Keep the r1 20-beat copy as review-only, not canon dialogue.",
+    "in_art": "Use translucent backing only inside verified low-detail fields.",
+    "outside_art": "Use gutters when canonical safe zones contain faces, bodies, hands, or clue objects.",
+    "action_and_inserts": "Prefer silence or one short beat; never cover causal leverage, twine, maps, footprints, bells, or expressions."
+  },
+  "remaining_warning_priority": [
+    {"panel_id": "ng-ch05-sc01-p032", "issue": "reversed footprint orientation remains subtle"},
+    {"panel_id": "ng-ch05-sc01-p036", "issue": "plank-to-tin contact path partly obscured"},
+    {"panel_id": "ng-ch05-sc01-p039", "issue": "third upstream map mark is subtle"},
+    {"panel_id": "ng-ch05-sc01-p043", "issue": "left-behind tin contents need clearer continuity"},
+    {"panel_id": "ng-ch05-sc01-p029", "issue": "entry versus exterior-watch role separation is compressed"}
+  ],
+  "next_experiment": "One single-panel P036 causal-leverage repair using the authorized P036 composition reference, followed by owner review of complete r3 rather than additional disconnected style probes.",
+  "limitations": [
+    "All generated art and lettering remain provisional and unaccepted.",
+    "No commercial-use or exact-production-base decision is made.",
+    "Thirteen generated raster outputs yield 54 panel-level candidates; four repairs share or replace source evidence and must not be miscounted as independent provider calls.",
+    "Non-canon armor, weapon, monster, and alternate-wardrobe studies remain separate from CH05 canon."
+  ]
+}

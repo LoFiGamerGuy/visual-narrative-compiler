@@ -1511,3 +1511,21 @@
 - Preserved r1 and its source-boundary validation failure in commit `7842cce`; pending ADR-0169 had been misclassified as a tenth unrelated item.
 - Superseded append-only with terminal ancestor `7842cce`, exactly nine unrelated items, and two pending r2 scripts.
 - R2 rejects 21/21 mutations under ADR-0170; r13 and all authority/provider counters remain unchanged.
+
+## 2026-09-02 - CH05 complete chapter draft r1-r3
+
+- Generated 11 coherent sequence strips covering P001-P050 exactly once and split them into 50 hash-pinned panel candidates.
+- Built clean/lettered/phone/safe-zone/continuity packets for a complete 50-panel reading draft.
+- Repaired only P001 after its departure geography failed agent triage; the r2 assembly preserved 49/49 non-target hashes.
+- Repaired only the contiguous P031-P033 clue chain; P031 and P033 improved to PASS, P032 remains WARN, and r3 preserved 47/47 non-target hashes.
+- Current non-gating triage is 45 PASS / 5 WARN / 0 FAIL. Human review and acceptance remain pending.
+- Thirteen built-in raster outputs yield 54 panel-level candidates, with 27 reference uses across exactly three authorized hashes and approximately 1,025.7 seconds of unique client-observed generation wall time.
+- No paid API, BFL request, cloud GPU, new provider, or unauthorized upload occurred. Built-in model/service/usage/cost/seed fields remain unavailable.
+
+## 2026-09-02 - CH05 P036 causal-leverage repair r4
+
+- Replaced only P036 with an extra-tall panel that makes the one-plank force path and tip-to-tin contact explicit.
+- Preserved 49/49 non-target r3 panel hashes and rebuilt the complete clean/lettered/phone/continuity/triage packet.
+- Improved non-gating chapter triage from 45 PASS / 5 WARN / 0 FAIL to 46 PASS / 4 WARN / 0 FAIL.
+- Retained one explicit limitation: Soren's raised-beam footing is more dramatic than the original plan implied.
+- Current total is 14 built-in outputs, 55 panel-level candidates, 30 authorized reference uses, approximately 1,062.9 unique observed seconds, and `$0` paid API/cloud spend.

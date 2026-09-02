@@ -1,0 +1,125 @@
+{
+  "record_type": "ComicChapterTargetedRepairManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-complete-chapter-targeted-repairs-r2",
+  "target_assembly_record_id": "ng-ch05-complete-chapter-assembly-r3",
+  "state": "THREE_CAUSAL_CLUE_REPAIRS_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source_assembly": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r2.json",
+    "sha256": "f3a19899bcb8f073bc989aba6d9894dfd8661c0057c94cc936b8c1127aac88ec"
+  },
+  "source_generation": {
+    "generation_id": "ng-ch05-p031-p033-clue-chain-repair-strip-r1",
+    "exact_prompt": "Create one finished vertical webcomic sequence strip containing EXACTLY THREE clearly separated horizontal panels, in this exact top-to-bottom order, for North Garden CH05 P031-P033. No panel numbers, captions, speech balloons, written text, logos, or UI. This is a targeted causal-clue repair, not a redesign. Preserve the attached fictional mature-adult characters and wardrobe: Sigrid has dark-brown to near-black hair tied in a compact low bun, mature angular face, dark blue-brown plaid wrap over practical gray-green layers; Soren has short-to-medium wavy light-brown/dark-blond swept-back hair, mature weathered face with light stubble, pale oatmeal work coat over muted blue-gray layers. Same abandoned water-mill interior, shallow standing water, broken gears, wet stone and timber, cold pale daylight, restrained clear-line adventure art with watercolor/cel-painted finish. Panel 1 / P031: Sigrid alone crouches at the NEAR edge of shallow standing water; a short line of DRY BOOT PRINTS is plainly visible on dusty floor and ends abruptly at the water line, with her pointing finger and eyeline leading to the last print. Keep a quiet low-detail upper-left area. Panel 2 / P032: Soren alone stands on the near side and looks across the same water; on the FAR dry floor, a separate short line of boot prints begins at the far water edge and every toe clearly points BACK TOWARD Soren/camera, making the impossible reversed orientation obvious. Use perspective, toe/heel shape, and light to make this readable at phone size; keep a quiet low-detail upper-right area. Panel 3 / P033: one roof drip is frozen at the instant it STRIKES the metal lip of the small brass bell near the doorway; the bell visibly tilts from that physical impact, its taut twine attached; Sigrid and Soren freeze at different depths inside and look toward the bell. Show a clear vertical drip path from roof leak to bell, not a random splash; restrained single-source motion only. Keep a quiet low-detail upper-left area. Exactly two fictional adults total, both visibly mature; never show a child. No extra people, no duplicate characters, no weapons, no monsters, no magic, no sexualization, no photographic likeness, no speed-line texture, no extra hands or fingers. Strong silhouettes, sparse clue-focused compositions, and consistent room geography across all three panels. Main pass criteria: the footprints' stop/reappearance/reversed facing and the drip-to-bell cause must be immediately legible on a 390-pixel-wide phone preview.",
+    "input_references": [
+      {
+        "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+        "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+        "purpose": "fictional-adult cast, wardrobe, and action continuity"
+      },
+      {
+        "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+        "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+        "purpose": "fictional-adult face, hair, and finish continuity"
+      }
+    ],
+    "output_strip": {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r3/repairs/P031-P033-clue-chain-repair-strip-r1.png",
+      "sha256": "b0348a03676c1002c045fe4d52fac0170ba7327a4318382f1bfcc122311f2d20",
+      "width": 929,
+      "height": 1693,
+      "bytes": 2361738
+    },
+    "crop_report": {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r3/repairs/clue-chain-crop-report.json",
+      "sha256": "ee88503d729f184d47865326ca76c103ca24a063d1db2b904246f2d4cad9a7a2"
+    },
+    "service": {
+      "product": "OpenAI built-in ImageGen available inside Codex",
+      "service_execution_id": "exec-dbada6cd-87cb-4a25-adad-256684cc1949",
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "usage": null,
+      "monetary_cost_usd": null,
+      "seed": null,
+      "elapsed_seconds": 42.5,
+      "timing_basis": "client tool-call wall time rounded to 0.1 second"
+    }
+  },
+  "repairs": [
+    {
+      "panel_id": "ng-ch05-sc01-p031",
+      "plan_revision_id": "ng-ch05-sc01-p031-plan-r1",
+      "candidate_id": "chapter-r3-p031-clue-chain-repair-r1",
+      "repair_class": "causal_clue",
+      "reason": "The r2 crop made the near-side footprint termination too subtle at phone size.",
+      "smallest_change": "Replace only P031 with the first panel from the targeted clue-chain strip.",
+      "source_generation_id": "ng-ch05-p031-p033-clue-chain-repair-strip-r1",
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r3/repairs/P031-clue-chain-repair-r1.png",
+        "sha256": "6cecaa3f5b0d857f4668eb67ec5ad22bbb41c9d8457c368e66e71f30b6994c19",
+        "width": 925,
+        "height": 564,
+        "bytes": 831183
+      }
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p032",
+      "plan_revision_id": "ng-ch05-sc01-p032-plan-r1",
+      "candidate_id": "chapter-r3-p032-clue-chain-repair-r1",
+      "repair_class": "target_change",
+      "reason": "The r2 crop did not make the far-side footprint orientation immediately unambiguous.",
+      "smallest_change": "Replace only P032 with the second panel from the targeted clue-chain strip.",
+      "source_generation_id": "ng-ch05-p031-p033-clue-chain-repair-strip-r1",
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r3/repairs/P032-clue-chain-repair-r1.png",
+        "sha256": "9b4bff71f87290a430a3647737bcbe9576fa184fa8d999ba35650e34b48299d7",
+        "width": 925,
+        "height": 514,
+        "bytes": 695621
+      }
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p033",
+      "plan_revision_id": "ng-ch05-sc01-p033-plan-r1",
+      "candidate_id": "chapter-r3-p033-clue-chain-repair-r1",
+      "repair_class": "causal_action",
+      "reason": "The r2 crop compressed the physical drip-to-bell path.",
+      "smallest_change": "Replace only P033 with the third panel from the targeted clue-chain strip.",
+      "source_generation_id": "ng-ch05-p031-p033-clue-chain-repair-strip-r1",
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r3/repairs/P033-clue-chain-repair-r1.png",
+        "sha256": "a56d11d3e45353d1c77bc8d814f2942c047a4748bfa6814f1b044dac4bf6572d",
+        "width": 925,
+        "height": 599,
+        "bytes": 775221
+      }
+    }
+  ],
+  "review": {
+    "state": "pending_owner_review",
+    "human_minutes": null,
+    "accepted": false,
+    "commercially_cleared": false,
+    "exact_production_base": false,
+    "agent_triage": {
+      "p031_causal_clue": "pass",
+      "p032_reversed_orientation": "warn",
+      "p033_drip_to_bell": "pass",
+      "hair_and_wardrobe": "pass",
+      "set_continuity": "pass"
+    }
+  },
+  "limitations": [
+    "Model, endpoint, provider request ID, usage, monetary cost, and deterministic seed were not exposed by the built-in product.",
+    "All three panel crops share one source generation and one elapsed-time observation; time must not be summed three times.",
+    "P032 remains an agent WARN because the toe direction is improved but still subtle at phone size.",
+    "Agent visual triage is non-gating and does not substitute for owner review."
+  ],
+  "boundary": "Only P031-P033 are replaced in r3. P001 and P002-P030/P034-P050 retain their exact r2 source hashes. No acceptance or promotion is implied."
+}

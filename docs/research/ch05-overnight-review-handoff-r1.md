@@ -113,3 +113,5 @@ The consolidated handoff is `production/comic/handoff/ch05-overnight-delivery-bu
 Safe-source delivery parity is pinned at `docs/research/evidence/ch05-overnight-safe-source-parity-r1.json`: pushed commit `a1454db`, 735 paths, 11,861,823 bytes, two exact controls, and zero generated/prohibited/oversize/credential paths under ADR-0126.
 
 Integrated evidence now passes release r8 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r8.json`: immutable 46-check r7 plus three extensions gives 49 effective checks, 4/4 commands, and 26/26 rejected mutations under ADR-0127.
+
+R8 post-commit compatibility is `docs/research/evidence/ch05-overnight-integrated-release-r8-compatibility-r1.json`; the one live tracked-count mismatch is preserved at `docs/research/evidence/ch05-overnight-integrated-release-r8-post-commit-attempt-1-failed.json`. ADR-0128 normalizes no inventory or semantic state.

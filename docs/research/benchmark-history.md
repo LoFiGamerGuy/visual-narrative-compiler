@@ -386,3 +386,5 @@ The consolidated delivery bundle binds 29 candidates, 14 represented CH05 plans,
 Safe-source delivery parity pins pushed commit `a1454db` at 735 paths/11,861,823 bytes, tree `7a7085da…c4d`, and inventory root `fea9401e…4ca`. Two public controls and zero generated/prohibited/oversize/credential paths are tracked; 16/16 mutations fail. Ignored pixels and unrelated untracked items remain out of the release inventory.
 
 Integrated release r8 preserves the 46-check r7 chain and adds delivery, cost-ledger, and safe-source extensions. Four/four commands pass in 30.259 seconds, 49 effective checks are represented, and 26/26 mutations fail. The gate binds the measured handoff and 735-path source capture without granting promotion or execution.
+
+R8 post-commit reproduction exposed one expected dynamic stdout mismatch: the live tracked-safe-source path count increased after committing r8. Compatibility r1 preserves that failure and normalizes only the numeric diagnostic on one of four commands; all 4/4 normalized outputs match and 10/10 mutations fail. No inventory or semantic field is normalized.

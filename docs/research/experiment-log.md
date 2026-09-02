@@ -1212,3 +1212,10 @@
 - Four/four commands pass in 30.259 seconds, representing 49 effective checks; 26/26 release mutations fail.
 - Bound 29 candidates, 50 plans, 105 links, 735 safe paths, and 52 zero-cost milestones while preserving exact frozen/baseline integrity.
 - ADR-0127 keeps review, acceptance, commercial clearance, executable state, calls, uploads, downloads, and paid spend at zero/null.
+
+## 2026-09-01 - CH05 r8 post-commit compatibility r1
+
+- Reproduced r8 after commit and preserved its one expected raw mismatch: the safe-source child prints the live tracked-path count.
+- Added a narrow compatibility rule for only `N tracked safe-source paths`; inventory entries, hashes, scripts, state, and all other stdout remain exact.
+- Four/four normalized command outputs match and 10/10 scope/state mutations fail.
+- ADR-0128 requires future wrappers to use compatibility r1 and preserves both original r8 and the failed attempt.

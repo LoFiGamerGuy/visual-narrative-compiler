@@ -1,0 +1,81 @@
+{
+  "record_type": "CH05IntegratedReleaseCompatibilityEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-overnight-integrated-release-r8-compatibility-r1",
+  "state": "PASS_NARROW_DYNAMIC_DIAGNOSTIC_NORMALIZATION",
+  "source_release": {
+    "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r8.json",
+    "sha256": "08ae77cbb6aba3e8c789843014cc6bfcd1baa3b0f8455cea38701ac31baa1536",
+    "record_id": "ng-ch05-overnight-integrated-release-gate-r8",
+    "effective_checks": 49
+  },
+  "normalization_policy": {
+    "paths": [
+      "src/north_garden/validate_ch05_overnight_safe_source_parity.py"
+    ],
+    "field": "human-readable live tracked-path diagnostic count only",
+    "pattern": "\\d+ tracked safe-source paths",
+    "replacement": "<TRACKED_COUNT> tracked safe-source paths",
+    "semantic_inventory_normalization": false,
+    "hash_or_state_normalization": false
+  },
+  "results": [
+    {
+      "path": "src/north_garden/validate_ch05_overnight_integrated_release_gate_r7.py",
+      "return_code": 0,
+      "stderr": "",
+      "observed_stdout_sha256": "e73af1904f8b81969ab9340d0c89cbb8dbb15a7c9465b8b420bf9a89a22e0481",
+      "expected_stdout_sha256": "e73af1904f8b81969ab9340d0c89cbb8dbb15a7c9465b8b420bf9a89a22e0481",
+      "normalized_observed_sha256": "e73af1904f8b81969ab9340d0c89cbb8dbb15a7c9465b8b420bf9a89a22e0481",
+      "normalized_expected_sha256": "e73af1904f8b81969ab9340d0c89cbb8dbb15a7c9465b8b420bf9a89a22e0481",
+      "normalization": "NONE"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_overnight_delivery_bundle.py",
+      "return_code": 0,
+      "stderr": "",
+      "observed_stdout_sha256": "cbedf46bc445d91f10995c5c7c47a9827c7d53b0a08017d7d1124f31e8b98db9",
+      "expected_stdout_sha256": "cbedf46bc445d91f10995c5c7c47a9827c7d53b0a08017d7d1124f31e8b98db9",
+      "normalized_observed_sha256": "cbedf46bc445d91f10995c5c7c47a9827c7d53b0a08017d7d1124f31e8b98db9",
+      "normalized_expected_sha256": "cbedf46bc445d91f10995c5c7c47a9827c7d53b0a08017d7d1124f31e8b98db9",
+      "normalization": "NONE"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r24.py",
+      "return_code": 0,
+      "stderr": "",
+      "observed_stdout_sha256": "ee705aac6162a5987996b70896629e1f099fe07389b3581587b602e02606a5a0",
+      "expected_stdout_sha256": "ee705aac6162a5987996b70896629e1f099fe07389b3581587b602e02606a5a0",
+      "normalized_observed_sha256": "ee705aac6162a5987996b70896629e1f099fe07389b3581587b602e02606a5a0",
+      "normalized_expected_sha256": "ee705aac6162a5987996b70896629e1f099fe07389b3581587b602e02606a5a0",
+      "normalization": "NONE"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_overnight_safe_source_parity.py",
+      "return_code": 0,
+      "stderr": "",
+      "observed_stdout_sha256": "bf7c798814a8de4aaeeeb15d382671aa72b51595d40bb56f80a1bbb08bd9f88a",
+      "expected_stdout_sha256": "54abcf0fb142af81d8255167a292a7c8c757e1d95b23fc01050c19327f5b2712",
+      "normalized_observed_sha256": "4b823918efa4057f5f87ad1f48a2676559fb2781388128fb83d49c8ea52a33fa",
+      "normalized_expected_sha256": "4b823918efa4057f5f87ad1f48a2676559fb2781388128fb83d49c8ea52a33fa",
+      "normalization": "TRACKED_COUNT_ONLY"
+    }
+  ],
+  "summary": {
+    "commands": 4,
+    "raw_stdout_mismatches": 1,
+    "normalized_matches": 4,
+    "return_code_failures": 0,
+    "stderr_nonempty": 0,
+    "effective_checks": 49,
+    "release_semantic_errors": 0
+  },
+  "activity": {
+    "provider_calls": 0,
+    "uploads": 0,
+    "downloads": 0,
+    "cost_usd": 0,
+    "acceptance_changes": 0
+  },
+  "boundary": "Compatibility is limited to the live tracked-path count printed by current-scope validation. The captured 735-path inventory, its hashes, scripts, return codes, all other stdout, and release semantics remain exact."
+}

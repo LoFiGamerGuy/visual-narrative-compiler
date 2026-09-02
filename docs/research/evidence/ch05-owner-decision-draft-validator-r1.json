@@ -1,0 +1,181 @@
+{
+  "record_type": "CH05OwnerDecisionDraftValidatorEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-owner-decision-draft-validator-evidence-r1",
+  "state": "READ_ONLY_VALIDATOR_READY_CONTRACT_UNCHANGED",
+  "validator": {
+    "path": "src/north_garden/validate_ch05_owner_decision_draft.py",
+    "sha256": "a63ddd71f27a853735e9d788cf370714ae340ca5d0032ec03e337d1c3cb155e7"
+  },
+  "contract": {
+    "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+    "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5",
+    "subject_count": 39,
+    "completed_decisions": 0,
+    "events": 0,
+    "human_review_minutes": null
+  },
+  "fixture_matrix": {
+    "valid_fixture_count": 3,
+    "valid_results": [
+      {
+        "case_id": "empty_export",
+        "result": "ACCEPT_AS_LOCAL_DRAFT"
+      },
+      {
+        "case_id": "notes_only",
+        "result": "ACCEPT_AS_LOCAL_DRAFT"
+      },
+      {
+        "case_id": "one_synthetic_decision",
+        "result": "ACCEPT_AS_LOCAL_DRAFT"
+      }
+    ],
+    "negative_fixture_count": 14,
+    "negative_rejected": 14,
+    "negative_results": [
+      {
+        "case_id": "wrong_record_type",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "record_type mismatch"
+        ]
+      },
+      {
+        "case_id": "wrong_schema",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "schema_version mismatch"
+        ]
+      },
+      {
+        "case_id": "wrong_state",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "state mismatch"
+        ]
+      },
+      {
+        "case_id": "wrong_contract_id",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "contract_id mismatch"
+        ]
+      },
+      {
+        "case_id": "wrong_contract_hash",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "contract_sha256 mismatch"
+        ]
+      },
+      {
+        "case_id": "unknown_subject",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "decisions[0] unknown subject_id"
+        ]
+      },
+      {
+        "case_id": "duplicate_subject",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "decisions[1] duplicate subject_id"
+        ]
+      },
+      {
+        "case_id": "wrong_subject_type",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "decisions[0] subject_type mismatch"
+        ]
+      },
+      {
+        "case_id": "decision_outside_vocabulary",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "decisions[0] decision not allowed for subject"
+        ]
+      },
+      {
+        "case_id": "missing_reviewer",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "reviewer required when any decision is selected"
+        ]
+      },
+      {
+        "case_id": "fabricated_review_time",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "unsupported top-level fields: active_minutes"
+        ]
+      },
+      {
+        "case_id": "event_hash_field",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "decisions[0] unsupported fields: event_sha256"
+        ]
+      },
+      {
+        "case_id": "empty_entry",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "decisions[0] contains neither decision nor notes"
+        ]
+      },
+      {
+        "case_id": "weakened_boundary",
+        "expected": "REJECT",
+        "result": "REJECT",
+        "failure_count": 1,
+        "failure_categories": [
+          "draft boundary is missing or weakened"
+        ]
+      }
+    ],
+    "matrix_root_sha256": "5c88b214ef6d48f716a443d9f91f8d8cf4bbe894d9602ce146220983191b1e9e"
+  },
+  "activity": {
+    "owner_drafts_read": 0,
+    "events_created": 0,
+    "contract_writes": 0,
+    "plan_revisions": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "external_cost_usd": 0
+  },
+  "limitations": [
+    "Synthetic fixtures prove schema rejection behavior, not owner review completion.",
+    "A valid local draft is still not an event and cannot update project state.",
+    "Event timestamp, active-minute, reviewer-attestation, and hash-chain construction remain a separate explicit operation."
+  ],
+  "boundary": "Validation is read-only and never ingests, promotes, accepts, revises, uploads, or executes a draft."
+}

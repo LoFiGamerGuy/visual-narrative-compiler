@@ -1013,3 +1013,10 @@
 - Every card binds its contract-allowed decision vocabulary and exact local supporting artifact. Consecutive builds are byte-identical at index hash `60795713…ed3a`.
 - Client-side export produces `LOCAL_UNINGESTED_DRAFT` JSON only. The page contains no remote assets, network API, form submission, upload, or repository-write capability.
 - ADR-0099 keeps browser state outside project evidence until a separate ingestion validator passes. Eight/eight mutations fail; decisions/events/minutes remain 0/0/null.
+
+## 2026-09-01 - CH05 owner decision draft validator r1
+
+- Added a read-only validator for worksheet exports, bound to the exact contract identifier/hash and each subject's type and decision vocabulary.
+- Three synthetic valid shapes pass; 14 malformed fixtures covering stale binding, duplicate/unknown subjects, invalid vocabulary, absent reviewer, event-field injection, and weakened boundaries fail.
+- Evidence builds byte-identically and rejects 16/16 mutations. The validator creates no event, timer, acceptance, plan revision, repository write, provider call, or upload.
+- ADR-0100 keeps event construction separate. The live contract remains 39 pending subjects, zero decisions/events, and null review minutes.

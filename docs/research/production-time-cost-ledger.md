@@ -53,3 +53,5 @@ The remaining-panel priority compiler adds one ignored coverage chart and an exa
 The Tier A effort record adds no generation or external cost. Its 12/16/24 candidate counts and derived seconds are nonexecuted scenarios from 26 observed CH05 timings. Monetary cost and human minutes remain null; prompts/decisions/calls/uploads/acceptance remain zero.
 
 The offline owner-decision worksheet adds no generation or external cost. It links 39 existing subjects and can export only a local uningested draft. Network calls/uploads/repository writes/recorded decisions remain zero and human minutes remain null.
+
+The owner-decision draft validator adds no generation or external cost. It exercises 17 synthetic fixtures only; owner drafts read, events, decisions, contract writes, plan revisions, calls, and uploads remain zero. Human minutes remain null.

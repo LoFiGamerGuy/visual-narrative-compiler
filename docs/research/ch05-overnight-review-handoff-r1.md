@@ -159,3 +159,5 @@ Final integrated evidence passes release r11 at `docs/research/evidence/ch05-ove
 Final safe-source parity is pinned at `docs/research/evidence/ch05-overnight-safe-source-parity-r3.json`: pushed commit `b13d87b`, 873 paths, 13,394,576 bytes, two controls, and zero generated/prohibited/oversize/credential/model/dataset/private-reference paths under ADR-0149.
 
 The current primary handoff is `docs/research/ch05-overnight-closeout-r2.md`, with machine-readable state at `production/comic/handoff/ch05-overnight-closeout-bundle-r2.json` and current changed paths at `docs/research/ch05-overnight-final-changed-files-r2.md` under ADR-0150.
+
+Final built-in provenance reconciliation is `docs/research/ch05-final-model-license-provenance-audit-r1.md`, with machine state at `production/comic/handoff/ch05-final-model-license-provenance-audit-r1.json` under ADR-0151. All six unavailable fields remain null across 29 records and commercial/exact-base status stays open.

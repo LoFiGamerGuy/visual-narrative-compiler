@@ -278,6 +278,8 @@ The final-source-parity milestone is complete under ADR-0149. Pushed commit `b13
 
 The closeout-r2 milestone is complete under ADR-0150. Append-only r2 preserves 29/50/12/122 and all 67 priority review links while rebinding release 74, safe-source 873 paths/13,394,576 bytes, frozen 16 + baseline 4, cost 73, remote parity, and a 410-path/65-ADR current base. Twenty-one/twenty-one mutations fail. The next bounded milestone is a final model/license/provenance registry audit that proves the built-in service metadata and commercial fields remain explicitly unavailable/open rather than inferred.
 
+The model/license/provenance milestone is complete under ADR-0151. All 29 records reconcile to 29 exact prompts/outputs, 39 uses, and three authorized hashes. Model/endpoint/request ID/usage/cost/seed remain null 29/29 with unavailable-not-zero; accepted/cleared/reproducible remain 0/0/0. The registry is updated and 24/24 mutations fail. The next bounded milestone is a standalone strict owner-response template and validator for the six pilot roots, so later review can unlock only exact allowed values without conflating deferred rights or acceptance decisions.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

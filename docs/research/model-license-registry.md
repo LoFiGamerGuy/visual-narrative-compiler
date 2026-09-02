@@ -91,3 +91,9 @@ The six-candidate cadence-hardening continuation uses the same exact product/ref
 The three future LitRPG concepts use only the same exact built-in/reference boundary. The new concept outputs were not re-uploaded as continuity references. They remain non-canon, ignored, unaccepted, and commercially uncleared; no provider/model/license status changes.
 
 The offline owner-decision worksheet performs no model or provider operation and changes no registry conclusion. It links ignored local pixels, contains no remote assets or network calls, and exports only an uningested local draft; all output acceptance and commercial-clearance fields remain pending.
+
+## Built-in ImageGen CH05 final provenance reconciliation — 2026-09-01
+
+The final exact RenderRecord index contains 29 candidates: 26 CH05 ComicPanelPlan candidates and three explicitly non-canon future-LitRPG concepts. It records 29 exact prompts, 29 exact outputs, 39 authorized reference uses across exactly three hashes, and 1,385.036 elapsed seconds. Every record keeps model, endpoint, provider request ID, usage, monetary cost, and deterministic seed `null` with `unavailable_not_zero: true`; no unavailable monetary field is reinterpreted as `$0`.
+
+All 29 remain pending human review, unaccepted, commercially uncleared, and non-reproducible. The only permitted reference hashes are `cb1e7b…b83d`, `c0a2be…b4a`, and `50f641…eb`; P036 remains composition-only and non-authoritative for hair identity. The three LitRPG candidates remain non-canon and were not re-uploaded as references. Final release, source, closeout, and review-link milestones perform no provider operation and do not change the built-in product's provenance-limited research status or create a commercial-use conclusion.

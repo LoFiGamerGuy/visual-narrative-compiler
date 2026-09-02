@@ -1373,3 +1373,10 @@
 - Preserved 29/50/12/122 and all 67 priority direct review links while rebinding release 74/source 873/frozen 16+4/cost 73.
 - Recorded the final capture as an exact ancestor rather than a self-referential inventory of r2.
 - Current base covers 410 paths/65 ADRs; 21/21 mutations fail under ADR-0150.
+
+## 2026-09-01 - CH05 final model/license/provenance audit r1
+
+- Reconciled 29 RenderRecords, 29 exact prompts/outputs, 39 reference uses, and exactly three authorized hashes.
+- Confirmed model/endpoint/request ID/usage/cost/seed null in all 29 with the exact unavailable-not-zero contract.
+- Kept all 29 pending, unaccepted, commercially uncleared, and non-reproducible; non-canon concepts remain separate and not re-uploaded.
+- Updated the model/license registry and rejected 24/24 mutations under ADR-0151.

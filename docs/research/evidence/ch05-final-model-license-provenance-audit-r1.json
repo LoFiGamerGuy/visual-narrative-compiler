@@ -1,0 +1,64 @@
+{
+  "record_type": "CH05FinalModelLicenseProvenanceAuditEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-final-model-license-provenance-audit-evidence-r1",
+  "state": "PASS_COMMERCIAL_OPEN",
+  "audit": {
+    "path": "production/comic/handoff/ch05-final-model-license-provenance-audit-r1.json",
+    "sha256": "9b03237cafeba975c2a1374f2376a1f91a11e2da200bf715d82bac3dd16da70d"
+  },
+  "summary_document": {
+    "path": "docs/research/ch05-final-model-license-provenance-audit-r1.md",
+    "sha256": "347e5cc3927e58e2e08400d43feb34fe35c5d73d0f3182ecd8a30e946a34118f"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-built-in-renderrecord-index-r1.json",
+      "sha256": "546eaca1f47e02aea256192dc24653b29912d607b20cdafbcf9bb8eb4b5bf437"
+    },
+    {
+      "path": "production/comic/continuity/ch05-fictional-adult-visual-profile-r1.json",
+      "sha256": "4a2bac302ad720e67e281e7b59903b8b2c5a43792056175c6add103b873eb3b2"
+    },
+    {
+      "path": "production/comic/style-direction/future-litrpg-concepts-r1.json",
+      "sha256": "b7e2e82a38c1f4bf73087a1d1ed87483688c11db0b1836e907000da0803c07b9"
+    },
+    {
+      "path": "docs/research/model-license-registry.md",
+      "sha256": "b92d33bab5b24487d991b11d14f9a258c5a2e84f71f0d5672f2f1e26704fb22e"
+    },
+    {
+      "path": "production/comic/handoff/ch05-overnight-closeout-bundle-r2.json",
+      "sha256": "efe2a3d471a1a446c205099151263589382e6d668aebe0b8295f87643809ad16"
+    }
+  ],
+  "summary": {
+    "records": 29,
+    "ch05_records": 26,
+    "noncanon_records": 3,
+    "exact_prompts": 29,
+    "exact_outputs": 29,
+    "reference_uses": 39,
+    "unique_authorized_reference_hashes": 3,
+    "records_with_exact_unavailable_contract": 29,
+    "model_null": 29,
+    "endpoint_null": 29,
+    "request_id_null": 29,
+    "usage_null": 29,
+    "cost_null": 29,
+    "seed_null": 29,
+    "pending_human_review": 29,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "generation_reproducible": 0,
+    "paid_api_calls": 0,
+    "new_external_uploads": 0,
+    "paid_spend_usd": 0,
+    "human_review_minutes": null
+  },
+  "authorized_reference_rows": 3,
+  "limitations": 5,
+  "animation_shot_plan": null,
+  "e_conte": null
+}

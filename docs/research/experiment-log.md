@@ -915,3 +915,11 @@
 - Deterministic review construction emits nine consolidated sheets plus 20 individual lettering overlays and 20 phone previews. Evidence validation reports zero failures.
 - Provisional engineering triage is 12 all-dimension passes, three warn-only, and five with at least one failure. c001 reverses departure direction; c003/c007/c009 collide with a canonical safe zone; c011 does not fully connect the lever chain.
 - ADR-0085 prevents P036's swapped hair from becoming identity evidence. ADR-0086 selects a provisional role-aware cel/clear-line route and requires a missing cel-painted P050 wide comparison before chapter-wide standardization.
+
+## 2026-09-01 - CH05 cadence hardening r1
+
+- Added six candidates over five failure/coverage targets in 310.669 observed built-in-tool seconds: one P050 cel-painted wide arm, three canonical safe-zone corrections, and two P036 causal refinements.
+- h001/h002/h003/h004/h006 pass all six engineering dimensions. h005 is preserved because lever vocabulary produced two plank segments, contradicting P036.
+- h006 removes unsupported lever/fulcrum semantics and produces the plan-literal one-plank reach-and-brace chain. ADR-0087 makes that interpretation explicit.
+- The hardening packet contains seven consolidated comparison/review sheets plus six individual overlays and six phone previews. All exact prompts, reference/output hashes, dimensions, timing, unavailable provider fields, and review metadata validate.
+- ComicStyleDirection r4 selects the role-aware cel-painted/clear-line route as the strongest engineering recommendation. Owner acceptance, commercial clearance, deterministic reproducibility, and exact-base promotion remain absent.

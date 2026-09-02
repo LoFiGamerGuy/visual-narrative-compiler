@@ -63,8 +63,8 @@ def prompt_for(candidate: dict, plan: dict, profile: dict, references: dict[str,
     return prompt, refs
 
 
-def build() -> dict:
-    plan, profile, panels = load(PLAN_PATH), load(PROFILE_PATH), load(PANELS_PATH)
+def build(plan_path: Path = PLAN_PATH) -> dict:
+    plan, profile, panels = load(plan_path), load(PROFILE_PATH), load(PANELS_PATH)
     references = {item["reference_id"]: item for item in profile["authorized_references"]}
     panel_by_id = {item["panel_id"]: item for item in panels["plans"]}
     entries = []
@@ -81,11 +81,11 @@ def build() -> dict:
             "output_path": str((ROOT / plan["output_root"] / "candidates" / filename).resolve()),
         })
     return {
-        "record_type": "CH05OvernightPromptManifest",
+        "record_type": "CH05AuthorizedImageGenPromptManifest",
         "schema_version": "1.0",
-        "record_id": "ng-ch05-overnight-prompt-manifest-r1",
+        "record_id": f"{plan['record_id']}-prompt-manifest",
         "state": "EXACT_PROMPTS_READY",
-        "plan": {"path": PLAN_PATH.relative_to(ROOT).as_posix(), "sha256": sha256(PLAN_PATH)},
+        "plan": {"path": plan_path.relative_to(ROOT).as_posix(), "sha256": sha256(plan_path)},
         "profile": {"path": PROFILE_PATH.relative_to(ROOT).as_posix(), "sha256": sha256(PROFILE_PATH)},
         "panels": {"path": PANELS_PATH.relative_to(ROOT).as_posix(), "sha256": sha256(PANELS_PATH)},
         "candidate_count": len(entries),
@@ -96,11 +96,17 @@ def build() -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--plan", type=Path, default=PLAN_PATH)
     parser.add_argument("--emit-manifest", action="store_true")
     parser.add_argument("--candidate")
     args = parser.parse_args()
-    manifest = build()
-    out = ROOT / load(PLAN_PATH)["output_root"] / "prompt-manifest.json"
+    plan_path = args.plan.resolve()
+    try:
+        plan_path.relative_to(ROOT.resolve())
+    except ValueError as error:
+        raise SystemExit("plan escapes workspace") from error
+    manifest = build(plan_path)
+    out = ROOT / load(plan_path)["output_root"] / "prompt-manifest.json"
     if args.emit_manifest:
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8", newline="\n")

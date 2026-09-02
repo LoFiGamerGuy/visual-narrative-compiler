@@ -1,0 +1,47 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "1.3",
+  "record_id": "ng-comic-style-ch05-mill-signal-r4",
+  "state": "STRONGEST_ENGINEERING_ROUTE_SELECTED_OWNER_CANDIDATE_REVIEW_PENDING",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r3",
+    "path": "production/comic/style-direction/ch05-mill-signal-r3.json",
+    "sha256": "8ac39940c4811208883d84f609165700d042e931f326a733b1905bb167154390"
+  },
+  "evidence": {
+    "initial_batch": "docs/research/evidence/ch05-overnight-production-r1.json",
+    "hardening_batch": "docs/research/evidence/ch05-cadence-hardening-r1.json",
+    "total_new_candidates": 26,
+    "distinct_comic_panel_plans": 14,
+    "observed_generation_seconds": 1230.058,
+    "human_accepted_candidates": 0
+  },
+  "selected_engineering_route": {
+    "name": "role-aware premium cel-painted webcomic with clear-line causal staging",
+    "finish": "Use mature cel-painted faces, graphic shadow/value separation, restrained painterly color, and clear-line contour hierarchy across the same chapter palette.",
+    "composition": "Use the exact ComicPanelPlan safe zone as an input constraint; stage causal action and role order before finish detail.",
+    "continuity": "Use P050/P040 identity references plus explicit light-brown-haired Soren/dark-tied-haired Sigrid and oatmeal-coat/plaid-wrap assertions. P036 remains composition-only.",
+    "controls": "Keep text-only controls for orientation and density. h003 proves a useful text-only low-density bridge treatment; c001 proves reference pixels can dominate direction.",
+    "causal_language": "Describe the smallest physical chain from hands through one object to target. For P036 use one straight reach-and-brace plank; do not call it a lever.",
+    "chapter_cadence": [
+      "wide cel-painted/clear-line action or reveal anchors with open sky/wall lettering fields",
+      "medium cel-painted dialogue and deduction panels with simplified backgrounds",
+      "tall clear-line causal panels showing the complete hand-object-target chain",
+      "small limited-ink inserts for tracks, twine, tin, map, and other causal objects",
+      "clear-line transitions with reduced foliage and texture density"
+    ]
+  },
+  "hardening_results": {
+    "h001": "wide cel-painted P050 coverage pass",
+    "h002": "P003 print geometry and lettering collision corrected",
+    "h003": "P019 text-only low-density and lettering collision corrected",
+    "h004": "P029 dual-target staging and lettering collision corrected",
+    "h005": "preserved duplicate-plank diagnostic caused by lever terminology",
+    "h006": "single-plank reach-and-brace causal semantics pass"
+  },
+  "production_status": "strongest measured engineering recommendation; owner review, commercial clearance, deterministic reproducibility, and exact-base acceptance remain pending",
+  "next_experiment": "Prepare chapter-sequence assembly and lettering/cadence review using the strongest candidates; keep future armor/weapon/monster ideas in a separate non-canon concept record."
+}

@@ -1,0 +1,490 @@
+{
+  "record_type": "CH05CadenceHardeningEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-cadence-hardening-evidence-r1",
+  "state": "HARDENING_REVIEWED_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "plan": {
+    "path": "production/comic/overnight/ch05-cadence-hardening-plan-r1.json",
+    "sha256": "d5026d572613b6b5f2a2d88c506c3169042e5091fd9d9ac05849a7a3814aa5a1"
+  },
+  "engineering_review": {
+    "path": "production/comic/review/ch05-cadence-hardening-review-r1.json",
+    "sha256": "3519fe4825b9940b4ef0b98c8150b5ef29f717be4ba1d9651f11b84f66654853"
+  },
+  "local_review_packet": {
+    "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/review-packet.json",
+    "sha256": "d4a24a1fbb046f910bd548ca08c71c85823fc0044729d14affd0b2e49b7f5eaa"
+  },
+  "summary": {
+    "candidate_count": 6,
+    "distinct_panel_plans": 5,
+    "total_elapsed_seconds": 310.669,
+    "reference_upload_count": 11,
+    "text_only_controls": 1,
+    "all_six_dimensions": 5,
+    "one_or_more_failures": 1,
+    "disclosed_spend_usd": null,
+    "paid_api_used": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "h001",
+      "panel_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "style_id": "cel_painted",
+      "format_role": "wide_action_style_completion",
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h001 for wide_action_style_completion\nPrimary request: Sigrid breaks into a run toward the house; Soren follows with the map. Composition requirement: final wide directional rush, two adult figures, house ahead. fixed comparison to c017/c018: urgent uphill return toward the visible house; Sigrid leads and Soren follows with the map; grounded mud kick and trailing cloth; both adults remain below the top-right quiet sky safe zone\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: premium modern cel-painted webcomic with mature proportions, expressive linework, graphic shadows, clean color separation, subtle paper grain.\nComposition/framing: wide_action_style_completion; Use one clear travel vector; reserve motion marks for feet, water, cloth, or map edge rather than filling the frame.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "d4247db0093b717943accae45d89e0540df379043945f274fc9a2863e52b18bc",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png",
+        "sha256": "7c63481cae9686d439867ba5a3e7e66024715b5ba07687068785fbc31d32f737",
+        "bytes": 2213838,
+        "width": 1695,
+        "height": 928,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 51.677,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "existing_art_reference_uploads": 2
+      },
+      "engineering_review": {
+        "candidate_id": "h001",
+        "source_failure_class": "missing cel-painted wide-action coverage",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Cel-painted finish generalizes to P050: correct uphill destination, role order, map, mud/cloth motion, mature faces, and open top-right sky."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false
+    },
+    {
+      "candidate_id": "h002",
+      "panel_id": "ng-ch05-sc01-p003",
+      "plan_revision_id": "ng-ch05-sc01-p003-plan-r1",
+      "style_id": "clear_line_watercolor",
+      "format_role": "small_object_targeted_repair",
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h002 for small_object_targeted_repair\nPrimary request: Soren notices that the boot prints now overlap the trail rather than lead it. Composition requirement: low track detail with Soren's boot held back. targeted correction of c003 only: put Soren entirely in the lower-right half, outside the top-left safe zone; show one trail-direction print chain and a second muddy boot-print chain crossing it at a clearly different angle; Soren stops his boot before the intersection and points without touching it; no house or extra character\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment.\nComposition/framing: small_object_targeted_repair; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: only Soren is visible; do not copy Sigrid or any extra person from a reference.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "10818c4f488f6c27dfcc2a909998fe597db55f03400ba6b6c4a5f1ed2b86b329",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h002-p003-clear_line_watercolor-r1.png",
+        "sha256": "abdae79e29ce9c891a27c103d6c56002b1fd3d7a85a6eefc87d8e1e2aec8d9ce",
+        "bytes": 2670160,
+        "width": 1199,
+        "height": 1312,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 65.024,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "existing_art_reference_uploads": 1
+      },
+      "engineering_review": {
+        "candidate_id": "h002",
+        "source_failure_class": "c003 safe-zone collision and ambiguous print geometry",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Soren remains on the right; two differently angled footprint chains cross clearly; the top-left safe zone is empty sky."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false
+    },
+    {
+      "candidate_id": "h003",
+      "panel_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "style_id": "limited_ink_flat",
+      "format_role": "medium_practical_action_targeted_repair",
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h003 for medium_practical_action_targeted_repair\nPrimary request: Sigrid signals Soren to stay off the open bridge. Composition requirement: Sigrid foreground hand signal, Soren held back. targeted correction of c007 only: reserve the entire top-left safe zone as empty flat gray sky; place dark-haired Sigrid center-right with one clear stop palm and the broken bridge behind her; place light-brown-haired Soren low center behind her checking his step; exactly two adults; broad flat shapes and no crosshatching\nInput images: none; text-only control.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: genuinely low-density limited-palette ink-and-flat-color adventure strip, broad quiet value masses, almost no environment hatching, strong phone-size readability.\nComposition/framing: medium_practical_action_targeted_repair; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "ab5bb675ea1a9d74aa695416fc41ada09fd85f36a318160cca1fc31a624d260b",
+      "input_references": [],
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h003-p019-limited_ink_flat-r1.png",
+        "sha256": "2eec56ab416369fe3f58cd8ee745598b817f154692cf4a56081fd3e3097c58d7",
+        "bytes": 2151025,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 30.9,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "existing_art_reference_uploads": 0
+      },
+      "engineering_review": {
+        "candidate_id": "h003",
+        "source_failure_class": "c007 safe-zone collision and ineffective low-density arm",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Text-only repair keeps exactly two adults, warning palm, checked step, broken bridge, empty top-left sky, and visibly flatter value masses."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false
+    },
+    {
+      "candidate_id": "h004",
+      "panel_id": "ng-ch05-sc01-p029",
+      "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+      "style_id": "clean_graphic",
+      "format_role": "wide_reveal_targeted_repair",
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h004 for wide_reveal_targeted_repair\nPrimary request: Sigrid chooses the wall opening rather than the doorway. Composition requirement: low angled entry; Soren watches the exterior. targeted correction of c009 only: leave the complete top-left safe zone as empty pale sky and bare wall; stage both adults in the right two-thirds; Sigrid crosses the mill threshold while Soren pauses outside and turns toward the distant smoke; preserve exactly two adults and the two simultaneous targets\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: clean high-quality graphic webcomic, confident ink shapes, restrained painterly color, crisp silhouettes, controlled environmental texture.\nComposition/framing: wide_reveal_targeted_repair; Prioritize silhouette, eyeline, and one readable story object; do not add decorative action marks.\nLettering: preserve the canonical top_left normalized safe zone [0.04, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "0150f26746daf634382b678ed103a0783b9cbd1d572d0c282747b14210ddbdb7",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h004-p029-clean_graphic-r1.png",
+        "sha256": "0a815a965e50a66b32f232c60b716fc8c8b15e501ee9ae9c1ec0172c68a4bcdd",
+        "bytes": 2173631,
+        "width": 1692,
+        "height": 929,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 54.188,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "existing_art_reference_uploads": 2
+      },
+      "engineering_review": {
+        "candidate_id": "h004",
+        "source_failure_class": "c009 safe-zone collision",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Both adults are staged in the right two-thirds; mill-threshold action and Soren's smoke watch remain distinct; top-left is open sky."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false
+    },
+    {
+      "candidate_id": "h005",
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "style_id": "cel_painted",
+      "format_role": "tall_causal_mechanism_targeted_repair",
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h005 for tall_causal_mechanism_targeted_repair\nPrimary request: Soren reaches it with a fallen plank while Sigrid braces the plank. Composition requirement: two-person practical cooperation, no spectacle. targeted refinement of the c011 failure class: a single long plank runs continuously from Sigrid's braced hands over one visible low fulcrum block to its upper tip directly lifting the rim of the elevated tin; Soren pulls down on the opposite plank end with bent knees; show the complete hand-plank-fulcrum-tip-tin chain with no disconnected or duplicate plank; both adults and the causal chain stay outside the top-right safe zone\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only. Image 3: composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: premium modern cel-painted webcomic with mature proportions, expressive linework, graphic shadows, clean color separation, subtle paper grain.\nComposition/framing: tall_causal_mechanism_targeted_repair; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "6e323202913732eff0e8be157486a2bff59dcf7f4349692feccc504436ece629",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        },
+        {
+          "reference_id": "p036_composition_only",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h005-p036-cel_painted-r1.png",
+        "sha256": "0cd3b54da1014d6903d5994c261545b4a5663eb190639dc27d8ca3d93c63dc10",
+        "bytes": 2417684,
+        "width": 941,
+        "height": 1672,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 58.139,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "existing_art_reference_uploads": 3
+      },
+      "engineering_review": {
+        "candidate_id": "h005",
+        "source_failure_class": "c011 incomplete causal connection",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "FAIL",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "WARN"
+        },
+        "note": "Preserved diagnostic: lever wording creates two converging plank segments rather than the single continuous fallen plank in the ComicPanelPlan."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false
+    },
+    {
+      "candidate_id": "h006",
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "style_id": "clear_line_watercolor",
+      "format_role": "tall_single_plank_semantic_correction",
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden CH05 ComicPanelPlan candidate h006 for tall_single_plank_semantic_correction\nPrimary request: Soren reaches it with a fallen plank while Sigrid braces the plank. Composition requirement: two-person practical cooperation, no spectacle. smallest semantic correction after h005: exactly ONE rigid straight fallen plank, with no second plank, bend, hinge, fork, fulcrum, lever, or V shape; the plank forms one unbroken diagonal line from its lower end on the floor to its upper tip touching the elevated tin; Sigrid braces the lower end with boot and both hands while Soren grips the middle and pushes the upper tip toward the tin; show the complete unbroken plank and both adults outside the top-right safe zone\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional reference only. Image 3: composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative; exact fictional reference only.\nScene/backdrop: wet northern rural dark-fantasy setting at cold overcast dawn; use only environment and story objects implied by the beat.\nStyle/medium: mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment.\nComposition/framing: tall_single_plank_semantic_correction; Make the causal hand/object relationship legible before adding atmospheric texture.\nLettering: preserve the canonical top_right normalized safe zone [0.66, 0.04, 0.3, 0.18] as a quiet low-detail field. No text or balloon. Do not place any face, person, important hand, causal prop, or essential silhouette inside it.\nContinuity - Soren: short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond; weathered angular adult face, light beard or stubble, focused practical expression; pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots; lean sturdy working build; coat hem and folded map distinguish him at distance.\nContinuity - Sigrid: dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond; mature angular adult face, dark brows, alert gray-blue eyes, controlled expression; dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots; athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance.\nCast constraint: exactly two clearly adult fictional characters: Soren and Sigrid.\nReference invariant: P050 is the dual identity anchor and P040 is the Sigrid face anchor. If P036 is present, use it only for composition and lever staging; never copy its dark-haired Soren or blond Sigrid.\nConstraints: all visible characters are clearly adults with mature proportions and practical non-sexualized clothing; expressive unobstructed faces; readable anatomy and hands; causal action and story objects; strong phone-size silhouette; no real-person likeness.\nAvoid: child-coded appearance, blond Sigrid, black-haired Soren, swapped wardrobes, extra people, merged limbs, illegible hands, face occlusion, opaque lettering, decorative text, labels, captions, speech balloons, logos, watermark, generic speed-line wallpaper, magic or undeclared weapons/monsters.",
+      "prompt_sha256": "2fbae1aae18ebbe6b6f5ecc1d57a3ee7550b7b3df6d4bd127fee85e6d2a99ae5",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        },
+        {
+          "reference_id": "p036_composition_only",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h006-p036-clear_line_watercolor-r1.png",
+        "sha256": "157e8a6c56a5de7da201c74ba2f2ee9e472cca51fb0dc40ab4b661e8af736607",
+        "bytes": 2387243,
+        "width": 887,
+        "height": 1774,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 50.741,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "existing_art_reference_uploads": 3
+      },
+      "engineering_review": {
+        "candidate_id": "h006",
+        "source_failure_class": "h005 duplicate-plank semantic failure",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Exact one-plank reach-and-brace semantics produce an unbroken floor-to-tin line with Sigrid at the lower end and Soren controlling the middle."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false
+    }
+  ],
+  "review_artifacts": {
+    "hardening_candidates": {
+      "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/contact-sheet-hardening-candidates.png",
+      "sha256": "6a3f416d61a32028fc34bd151b13e51bf2336fadb21218f58be8a657a8560a40",
+      "width": 1964,
+      "height": 1604
+    },
+    "lettering_overlays": {
+      "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/contact-sheet-hardening-lettering-overlays.png",
+      "sha256": "9e348cc519cbc5f4f3f870387afe3f420ac8cebd5d8258139065572485881b49",
+      "width": 1964,
+      "height": 1604
+    },
+    "phone_previews": {
+      "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/contact-sheet-hardening-phone-previews.png",
+      "sha256": "098ce1e10558f82cf498a62401c4418a73d7c3e27b82b9d446c9fe2a0d689e38",
+      "width": 1664,
+      "height": 2024
+    },
+    "p050_style_completion": {
+      "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/comparison-p050-style-completion.png",
+      "sha256": "055cdefda9c4c6e1cb793276efa2ba809679cebf01f1553f525d9c6ce49060f5",
+      "width": 1964,
+      "height": 864
+    },
+    "targeted_repair_pairs": {
+      "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/comparison-targeted-repair-pairs.png",
+      "sha256": "24c878a59a41cb46d2b57fbb86916d918331408cf977f68d299c73aefe3d3882",
+      "width": 1604,
+      "height": 2464
+    },
+    "p036_causal_correction": {
+      "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/comparison-p036-causal-correction.png",
+      "sha256": "303552e47ce73c48fc2b4da6bbb3facfcafb983f1115b0623842a8d795cc4471",
+      "width": 1964,
+      "height": 904
+    }
+  },
+  "candidate_derivatives": [
+    {
+      "candidate_id": "h001",
+      "lettering_overlay": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h001-lettering-overlay.png",
+        "sha256": "15e6491724a39b3e089ae85c13e6add61c5053eade561c77c0da6ff3382850cd"
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/phone-previews/h001-phone-390px.png",
+        "sha256": "8ba3c33bba9f425b82b341cc27fd2905c8e7012232cbde6e3163616b6fce8226"
+      }
+    },
+    {
+      "candidate_id": "h002",
+      "lettering_overlay": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h002-lettering-overlay.png",
+        "sha256": "fe92cf8b05657322e5f92ae83ae959c3c3a71c0fae386d31865e254d4ccdb3ae"
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/phone-previews/h002-phone-390px.png",
+        "sha256": "6a1f16565bca7b57ff8beda5f9d1486f35231a77a186018b281594a0e81f8151"
+      }
+    },
+    {
+      "candidate_id": "h003",
+      "lettering_overlay": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h003-lettering-overlay.png",
+        "sha256": "50ac49c7ffaa6140dc2fdcd9a47377e304de81e0cc15dac1ab201dac33cd0a31"
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/phone-previews/h003-phone-390px.png",
+        "sha256": "1217a045905247bb44212e815d0adcef06eb8032cd7f5761054af326cdcd2438"
+      }
+    },
+    {
+      "candidate_id": "h004",
+      "lettering_overlay": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h004-lettering-overlay.png",
+        "sha256": "10c13d89547e72dee53a35ac911ed8862049612f290b126bbf6512429e9d6f88"
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/phone-previews/h004-phone-390px.png",
+        "sha256": "271613783586d5d63fc48e4d6b1a20db0bce53e41678410b84d7ef3f7ef0fcdb"
+      }
+    },
+    {
+      "candidate_id": "h005",
+      "lettering_overlay": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h005-lettering-overlay.png",
+        "sha256": "1fc76358bffd455c48c7fe824002ffd7b23a30917cc63ce387abd9b921f9f9d7"
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/phone-previews/h005-phone-390px.png",
+        "sha256": "fdef26020b89c004489f24c655ce7f37ab4088a29497680a2ab04d36a812911a"
+      }
+    },
+    {
+      "candidate_id": "h006",
+      "lettering_overlay": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h006-lettering-overlay.png",
+        "sha256": "e46dd35d7223109137d80e8ef18e562829a2fcf9297c674852a8b11e46cc6646"
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/phone-previews/h006-phone-390px.png",
+        "sha256": "1c5fcb8e0122d307752edfbbb7a3f19fae944c06af43090b1e890d946e009cc6"
+      }
+    }
+  ],
+  "decision": "Promote the role-aware cel-painted/clear-line route from provisional coverage gap to strongest engineering recommendation. Retain single-plank reach-and-brace language for P036; reject lever terminology for this ComicPanelPlan.",
+  "limitations": [
+    "model unavailable",
+    "endpoint unavailable",
+    "provider request ID unavailable",
+    "usage unavailable",
+    "cost unavailable",
+    "deterministic seed unavailable"
+  ],
+  "boundaries": [
+    "Generated pixels remain ignored local evidence.",
+    "Only the three exact owner-authorized fictional-adult reference hashes were supplied to built-in ImageGen; h003 is text-only.",
+    "No output is accepted, commercially cleared, deterministic, or an exact production base.",
+    "No paid API, BFL request, cloud GPU, large-model download, real likeness, private material, or child-related material was used."
+  ]
+}

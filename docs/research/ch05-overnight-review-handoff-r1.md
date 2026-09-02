@@ -23,3 +23,7 @@ Use a premium cel-painted finish with clear-line contour hierarchy for character
 - Human reviewer/session/minutes/acceptance remain null/pending.
 
 The ignored local review packet is `experiments/review-packets/ch05-overnight-production-r1/review/review-packet.json`; tracked exact evidence is `docs/research/evidence/ch05-overnight-production-r1.json`.
+
+## Cadence-hardening addendum
+
+Six additional candidates close the cel-painted wide-action gap and repair c003/c007/c009. Compare c011 → h005 → h006 to see why plan-literal single-plank wording outperforms lever terminology for P036. Hardening evidence is `docs/research/evidence/ch05-cadence-hardening-r1.json`; the ignored local packet is `experiments/review-packets/ch05-cadence-hardening-r1/review/review-packet.json`.

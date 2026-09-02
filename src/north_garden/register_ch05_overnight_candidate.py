@@ -22,6 +22,8 @@ def sha256(path: Path) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--prompt-manifest", type=Path, default=PROMPTS)
+    parser.add_argument("--registry", type=Path, default=REGISTRY)
     parser.add_argument("--candidate", required=True)
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--elapsed-seconds", type=float, required=True)
@@ -31,7 +33,14 @@ def main() -> int:
         source.relative_to(GENERATED_ROOT)
     except ValueError as error:
         raise SystemExit("source is outside the built-in generated_images root") from error
-    prompt_manifest = json.loads(PROMPTS.read_text(encoding="utf-8"))
+    prompt_manifest_path = args.prompt_manifest.resolve()
+    registry_path = args.registry.resolve()
+    for local_path in (prompt_manifest_path, registry_path):
+        try:
+            local_path.relative_to(ROOT.resolve())
+        except ValueError as error:
+            raise SystemExit("manifest/registry escapes workspace") from error
+    prompt_manifest = json.loads(prompt_manifest_path.read_text(encoding="utf-8"))
     prompt = next((item for item in prompt_manifest["entries"] if item["candidate_id"] == args.candidate), None)
     if prompt is None:
         raise SystemExit("candidate absent from prompt manifest")
@@ -80,15 +89,21 @@ def main() -> int:
         "human_minutes": None,
         "accepted": False,
     }
-    if REGISTRY.exists():
-        registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
+    if registry_path.exists():
+        registry = json.loads(registry_path.read_text(encoding="utf-8"))
+        prompt_by_id = {item["candidate_id"]: item for item in prompt_manifest["entries"]}
+        for existing in registry.get("entries", []):
+            current = prompt_by_id.get(existing["candidate_id"])
+            if current is None or current["prompt_sha256"] != existing["prompt_sha256"]:
+                raise SystemExit("current prompt manifest does not preserve an existing candidate prompt")
+        registry["prompt_manifest_sha256"] = sha256(prompt_manifest_path)
     else:
         registry = {
-            "record_type": "CH05OvernightCandidateRegistry",
+            "record_type": "CH05AuthorizedImageGenCandidateRegistry",
             "schema_version": "1.0",
             "record_id": "ng-ch05-overnight-candidate-registry-r1",
             "state": "IN_PROGRESS_UNREVIEWED",
-            "prompt_manifest_sha256": sha256(PROMPTS),
+            "prompt_manifest_sha256": sha256(prompt_manifest_path),
             "entries": [],
             "boundary": "Ignored local pixels and exact prompts only; no candidate is accepted or commercially cleared.",
         }
@@ -101,9 +116,10 @@ def main() -> int:
     registry["distinct_panel_plans"] = len({item["panel_id"] for item in registry["entries"]})
     registry["total_elapsed_seconds"] = round(sum(item["execution"]["elapsed_seconds"] for item in registry["entries"]), 3)
     registry["total_reference_uploads"] = sum(item["execution"]["existing_art_reference_uploads"] for item in registry["entries"])
-    REGISTRY.write_text(json.dumps(registry, indent=2) + "\n", encoding="utf-8", newline="\n")
+    registry_path.parent.mkdir(parents=True, exist_ok=True)
+    registry_path.write_text(json.dumps(registry, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(f"registered {args.candidate}: {destination.relative_to(ROOT)} {entry['output']['sha256']} {width}x{height}")
-    print(f"registry: {registry['generated_candidates']} candidates/{registry['distinct_panel_plans']} plans/{registry['total_elapsed_seconds']}s")
+    print(f"registry: {registry['generated_candidates']} candidates/{registry['distinct_panel_plans']} plans/{registry['total_elapsed_seconds']}s at {registry_path.relative_to(ROOT)}")
     return 0
 
 

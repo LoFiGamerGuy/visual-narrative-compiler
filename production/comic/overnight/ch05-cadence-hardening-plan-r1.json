@@ -1,0 +1,77 @@
+{
+  "record_type": "ComicCadenceHardeningPlan",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-cadence-hardening-plan-r1",
+  "state": "READY_FOR_AUTHORIZED_BUILTIN_IMAGEGEN",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "comic_panel_plan_collection": "production/comic/ch05-sc01-panel-plans-v1.json",
+  "continuity_profile": "production/comic/continuity/ch05-fictional-adult-visual-profile-r1.json",
+  "source_evidence": "docs/research/evidence/ch05-overnight-production-r1.json",
+  "generation_target": {"planned_candidates": 6, "distinct_panel_plans": 5, "targeted_repairs": 5, "style_completion_candidates": 1},
+  "style_families": {
+    "clean_graphic": "clean high-quality graphic webcomic, confident ink shapes, restrained painterly color, crisp silhouettes, controlled environmental texture",
+    "clear_line_watercolor": "mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment",
+    "cel_painted": "premium modern cel-painted webcomic with mature proportions, expressive linework, graphic shadows, clean color separation, subtle paper grain",
+    "limited_ink_flat": "genuinely low-density limited-palette ink-and-flat-color adventure strip, broad quiet value masses, almost no environment hatching, strong phone-size readability"
+  },
+  "candidates": [
+    {
+      "candidate_id": "h001",
+      "panel_id": "ng-ch05-sc01-p050",
+      "style_id": "cel_painted",
+      "format_role": "wide_action_style_completion",
+      "reference_ids": ["p050_dual_identity_action", "p040_sigrid_face"],
+      "special_instruction": "fixed comparison to c017/c018: urgent uphill return toward the visible house; Sigrid leads and Soren follows with the map; grounded mud kick and trailing cloth; both adults remain below the top-right quiet sky safe zone"
+    },
+    {
+      "candidate_id": "h002",
+      "panel_id": "ng-ch05-sc01-p003",
+      "style_id": "clear_line_watercolor",
+      "format_role": "small_object_targeted_repair",
+      "reference_ids": ["p050_dual_identity_action"],
+      "special_instruction": "targeted correction of c003 only: put Soren entirely in the lower-right half, outside the top-left safe zone; show one trail-direction print chain and a second muddy boot-print chain crossing it at a clearly different angle; Soren stops his boot before the intersection and points without touching it; no house or extra character"
+    },
+    {
+      "candidate_id": "h003",
+      "panel_id": "ng-ch05-sc01-p019",
+      "style_id": "limited_ink_flat",
+      "format_role": "medium_practical_action_targeted_repair",
+      "reference_ids": [],
+      "special_instruction": "targeted correction of c007 only: reserve the entire top-left safe zone as empty flat gray sky; place dark-haired Sigrid center-right with one clear stop palm and the broken bridge behind her; place light-brown-haired Soren low center behind her checking his step; exactly two adults; broad flat shapes and no crosshatching"
+    },
+    {
+      "candidate_id": "h004",
+      "panel_id": "ng-ch05-sc01-p029",
+      "style_id": "clean_graphic",
+      "format_role": "wide_reveal_targeted_repair",
+      "reference_ids": ["p050_dual_identity_action", "p040_sigrid_face"],
+      "special_instruction": "targeted correction of c009 only: leave the complete top-left safe zone as empty pale sky and bare wall; stage both adults in the right two-thirds; Sigrid crosses the mill threshold while Soren pauses outside and turns toward the distant smoke; preserve exactly two adults and the two simultaneous targets"
+    },
+    {
+      "candidate_id": "h005",
+      "panel_id": "ng-ch05-sc01-p036",
+      "style_id": "cel_painted",
+      "format_role": "tall_causal_mechanism_targeted_repair",
+      "reference_ids": ["p050_dual_identity_action", "p040_sigrid_face", "p036_composition_only"],
+      "special_instruction": "targeted refinement of the c011 failure class: a single long plank runs continuously from Sigrid's braced hands over one visible low fulcrum block to its upper tip directly lifting the rim of the elevated tin; Soren pulls down on the opposite plank end with bent knees; show the complete hand-plank-fulcrum-tip-tin chain with no disconnected or duplicate plank; both adults and the causal chain stay outside the top-right safe zone"
+    },
+    {
+      "candidate_id": "h006",
+      "panel_id": "ng-ch05-sc01-p036",
+      "style_id": "clear_line_watercolor",
+      "format_role": "tall_single_plank_semantic_correction",
+      "reference_ids": ["p050_dual_identity_action", "p040_sigrid_face", "p036_composition_only"],
+      "special_instruction": "smallest semantic correction after h005: exactly ONE rigid straight fallen plank, with no second plank, bend, hinge, fork, fulcrum, lever, or V shape; the plank forms one unbroken diagonal line from its lower end on the floor to its upper tip touching the elevated tin; Sigrid braces the lower end with boot and both hands while Soren grips the middle and pushes the upper tip toward the tin; show the complete unbroken plank and both adults outside the top-right safe zone"
+    }
+  ],
+  "output_root": "experiments/review-packets/ch05-cadence-hardening-r1",
+  "boundaries": [
+    "Only OpenAI built-in ImageGen may execute this plan.",
+    "Only the three exact references in the continuity profile may be uploaded; h003 is text-only.",
+    "No direct paid API, BFL, cloud GPU, large model, child-related content, real-person likeness, or private material.",
+    "Generated pixels remain ignored and unaccepted; only safe prompts, hashes, measurements, decisions, and validators may enter Git.",
+    "ComicPanelPlan is the only active production-planning structure."
+  ]
+}

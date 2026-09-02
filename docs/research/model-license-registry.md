@@ -85,3 +85,5 @@ The consolidated hardening state does not change any registry status. OpenAI GPT
 ## Built-in ImageGen CH05 overnight boundary — 2026-09-01
 
 The Codex built-in ImageGen product received only the three owner-authorized, hash-pinned fictional-adult project images. It disclosed no model name, endpoint, provider request ID, usage, cost, deterministic seed, license grant, or commercial-use decision; those fields remain unavailable rather than inferred. Twenty outputs are ignored local research evidence and none is accepted, commercially cleared, reproducible, or an exact production base. No direct paid API, BFL upload, alternate provider, real likeness, private reference, LoRA, dataset, or child-related material was used.
+
+The six-candidate cadence-hardening continuation uses the same exact product/reference boundary and changes no license or commercial-use conclusion. Total new CH05 evidence is 26 ignored candidates; zero are accepted or commercially cleared.

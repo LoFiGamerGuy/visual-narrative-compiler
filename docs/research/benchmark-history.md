@@ -245,6 +245,8 @@ The failure-class matrix covers nine nonpass candidates and six exact repair lin
 
 The P010–P013 preflight binds 4/4 exact plans, four hypotheses, and two unallocated repair slots with 25/25 mutation rejection. Prompts, uploads, final copy, decisions, executable rows, and spend remain zero; this is readiness-contract coverage, not rendering throughput.
 
+Owner review index r2 validates 7/7 local links (five images/two HTML), six deterministic index artifacts, and 13/13 mutations while extending r1 without rewriting it. This is review-navigation integrity, not review completion or acceptance.
+
 The blinded G07 protocol verifies 16/16 neutral candidate presentations and 4/4 hidden-arm repeat pairs, requiring 20 timed assertion decisions; 13/13 identity/order/coverage/timing mutations fail. Actual decisions remain 0, minutes null, and accepted subjects zero. This adds review readiness, not human renderer-quality evidence or a new selection decision.
 
 The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate cost, latency, drift, assertion, and failure-tag dimensions; 9/9 pending/fixture/coverage/mapping mutations fail. With review still pending it emits no human arm results, composite score, rank, or route change. Renderer-quality evidence and ADR-0025 remain unchanged.

@@ -1055,3 +1055,10 @@
 - Three reference IDs remain metadata hypotheses only. All four prompts, outputs, final-copy fields, and executable flags are null/false; reference uploads are zero.
 - Added two unallocated repair slots whose triggers and allowed changes are restricted to one retained failure class; broad rerolls are forbidden.
 - ADR-0105 requires owner review/cadence/copy-or-silence/exact-reference gates before prompt compilation. Twenty-five/twenty-five mutations fail; calls/uploads/spend remain 0/0/$0.
+
+## 2026-09-01 - CH05 owner review index r2
+
+- Extended immutable owner index r1 with one local hub for the decision worksheet, two continuity atlases, 50-plan scale/cadence map, exact repair paths, and P010–P013 preflight storyboard.
+- Seven exact links (five images/two HTML) and six ignored index artifacts build byte-identically; every linked source hash resolves.
+- The page includes no remote asset, form, network code, upload, or repository-write behavior.
+- ADR-0106 preserves r1 and the empty decision contract. Thirteen/thirteen mutations fail; decisions/acceptance/minutes/calls/uploads/cost remain 0/0/null/0/0/$0.

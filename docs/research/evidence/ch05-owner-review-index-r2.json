@@ -1,0 +1,102 @@
+{
+  "record_type": "CH05OwnerReviewIndexEvidence",
+  "schema_version": "2.0",
+  "record_id": "ng-ch05-owner-review-index-evidence-r2",
+  "state": "LOCAL_REVIEW_HUB_READY_OWNER_PENDING",
+  "packet": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r2/owner-review-index-r2-packet.json",
+    "sha256": "e083eda31bb1055565559979f0c85728319678b47ec5e39a8f251b4bead4a9a1"
+  },
+  "extends": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r1/owner-review-index-packet.json",
+    "sha256": "01efe87e366637cdecabc1d8d72e0d0663e93ead2d6a61a673bdb737d567cfb5",
+    "candidate_count": 29,
+    "selected_candidate_count": 14
+  },
+  "decision_worksheet": {
+    "path": "experiments/review-packets/ch05-owner-decision-worksheet-r1/decision-worksheet-packet.json",
+    "sha256": "fe0eeeb718d2a03c8a360ba9fe35e981ecbbcd4e23adc2eef77e5ad31e059b57",
+    "subject_count": 39
+  },
+  "contract": {
+    "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+    "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5",
+    "completed_decisions": 0,
+    "events": 0,
+    "human_review_minutes": null
+  },
+  "summary": {
+    "candidate_count": 29,
+    "selected_candidate_count": 14,
+    "pending_subject_count": 39,
+    "link_count": 7,
+    "image_link_count": 5,
+    "html_link_count": 2,
+    "artifact_count": 6,
+    "owner_decisions": 0,
+    "accepted_candidates": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "links": [
+    {
+      "id": "art_index_r1",
+      "path": "experiments/review-packets/ch05-owner-review-index-r1/index.html",
+      "sha256": "c3b6e414fcdf8127dba5851ef6a229a0e467c7e6b413869affc532dc162b0217",
+      "kind": "HTML"
+    },
+    {
+      "id": "decision_worksheet",
+      "path": "experiments/review-packets/ch05-owner-decision-worksheet-r1/index.html",
+      "sha256": "607957137dd2c47790d82a59a3c524bda6505d26232b8bae6d5c0e0a304ced3a",
+      "kind": "HTML"
+    },
+    {
+      "id": "continuity_all",
+      "path": "experiments/review-packets/ch05-manual-continuity-atlas-r1/ch05-continuity-atlas-all-26-r1.png",
+      "sha256": "e6e78e398a145a5a00868822a946bc62d65c69e10f9042ca7c4898039d814f89",
+      "kind": "IMAGE"
+    },
+    {
+      "id": "continuity_selected",
+      "path": "experiments/review-packets/ch05-manual-continuity-atlas-r1/ch05-continuity-atlas-selected-14-r1.png",
+      "sha256": "ff379a13f9be5c0100cdaca2de6a6847a4f86024f397fc03293ad2778c2130eb",
+      "kind": "IMAGE"
+    },
+    {
+      "id": "scale_cadence",
+      "path": "experiments/review-packets/ch05-panel-scale-cadence-policy-r1/ch05-panel-scale-cadence-map-r1.png",
+      "sha256": "ec900d08ed78d310da57de2f66362cdeb242e19466cd1d7c7aed4b7e32cb6edf",
+      "kind": "IMAGE"
+    },
+    {
+      "id": "repair_paths",
+      "path": "experiments/review-packets/ch05-failure-class-repair-matrix-r1/ch05-targeted-repair-paths-r1.png",
+      "sha256": "cd554736f27da87a5ac48ef80c806123279433b8f5be9059564447b550443575",
+      "kind": "IMAGE"
+    },
+    {
+      "id": "next_preflight",
+      "path": "experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png",
+      "sha256": "fdd1dcf72108babf8431ead3326aa9f23c84770b704163e4cdfb8accc55cdbcd",
+      "kind": "IMAGE"
+    }
+  ],
+  "index": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r2/index.html",
+    "sha256": "aae647562551e017994722eb179a4383a200285b482169ae5df835c8212d80f3",
+    "bytes": 4407
+  },
+  "determinism": {
+    "consecutive_build_count": 2,
+    "result": "BYTE_IDENTICAL_INDEX_PACKET_AND_THUMBNAILS"
+  },
+  "limitations": [
+    "The hub only links local evidence and does not capture browser interaction.",
+    "Owner decisions and timed review remain absent until a validated event workflow is used.",
+    "Generated pixels remain ignored and commercially uncleared."
+  ],
+  "boundary": "Append-only local review hub; r1 and the empty decision contract remain unchanged."
+}

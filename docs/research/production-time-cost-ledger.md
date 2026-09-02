@@ -65,3 +65,5 @@ The panel-scale/cadence policy adds one ignored 50-row chart and tracked conditi
 The failure-class repair matrix adds one ignored diagnostic chart and no generation or external cost. Its four/six-candidate next-experiment envelopes are median-only, unexecuted scenarios; prompts/renders/uploads/plans/acceptances remain zero and future built-in monetary cost remains null.
 
 The P010–P013 preflight adds one ignored text storyboard and tracked null-prompt metadata with no generation or external cost. Three reference hypotheses produce zero uploads; prompts/renders/executable rows/decisions/copy remain zero and human minutes remain null.
+
+Owner review index r2 adds one ignored HTML page and five ignored thumbnails from existing local artifacts with no generation or external cost. Decisions, acceptances, calls, uploads, and publication remain zero; human minutes remain null.

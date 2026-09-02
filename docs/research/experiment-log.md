@@ -1492,3 +1492,10 @@
 - Bound 29 candidates/14 strongest/112 checks/50 plans/12 batches/134 links/67 priority/18 release domains/971 safe paths/91 cost milestones.
 - Confirmed current compile parity and source-capture ancestry.
 - Twenty-seven/twenty-seven mutations fail under ADR-0167; all owner/promotion/provider activity remains zero/null.
+
+## 2026-09-01 - CH05 terminal post-pointer integrity r1
+
+- Revalidated r13 9/9/18, pointer nine, 134 links, frozen/baseline, tracked scope, source ancestry, and compile remote parity.
+- Separated four pending integrity files from nine persistent unrelated user-owned untracked items; zero unrelated items are tracked.
+- Bound compile-time 991 tracked paths and safe-source r5's 971-path ancestor capture.
+- Twenty-four/twenty-four mutations fail under ADR-0168; all owner/promotion/provider state remains zero/null.

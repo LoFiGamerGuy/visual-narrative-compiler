@@ -312,6 +312,8 @@ The final-integrated-release-r13 milestone is complete under ADR-0166. Nine/nine
 
 The post-r13-final-delivery milestone is complete under ADR-0167. One start-here document orders nine exact resources from visual hub through candidate worksheet, closeout, six-root response, completion, r13, and safe source. It binds 29/14/112/50/12/134/67/18/971/91 and ten remaining decisions with current parity; 27/27 mutations fail. Navigation grants no disposition, decision, ingestion, acceptance, rights, exact-base, or execution authority. The next bounded milestone is a final source/remote/frozen validation after this pointer is pushed, followed by goal completion only after the eight-hour minimum is satisfied.
 
+The terminal-integrity milestone is complete under ADR-0168. R13 9/9/18, pointer nine, 134 links, safe capture 971, frozen/baseline, tracked scope, source ancestry, and compile remote parity pass; 24/24 mutations fail. The audit distinguishes four pending audit files from nine persistent unrelated user-owned untracked items, with zero unrelated items tracked. After this audit is pushed, rerun terminal validators and remote parity; complete the goal only when elapsed time reaches eight hours.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

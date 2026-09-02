@@ -1,0 +1,78 @@
+{
+  "record_type": "CH05FinalPostPointerIntegrity",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-final-post-pointer-integrity-r1",
+  "state": "PASS_FINAL_DELIVERY_REMOTE_PARITY_OWNER_REVIEW_PENDING",
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-final-integrated-release-r13.json",
+      "sha256": "d582bacb197d8244904bd8fa6b21b62c7509045179fececabfcd6153449f996a"
+    },
+    {
+      "path": "docs/research/evidence/ch05-post-r13-final-delivery-audit-r1.json",
+      "sha256": "6f29728f40eaf4057d2a529ebcee7230adb540d9b4b6448e72af21b28f3d3b35"
+    },
+    {
+      "path": "docs/research/evidence/ch05-post-reproducer-safe-source-parity-r5.json",
+      "sha256": "b4d0156acd586a0f86decb1095c176c59fbee04f9ca24cb3e790c66463bf5887"
+    }
+  ],
+  "source": {
+    "compile_head": "f271d5a9f8cf1b5d52c80107c8783c565f281113",
+    "origin_main": "f271d5a9f8cf1b5d52c80107c8783c565f281113",
+    "branch": "main",
+    "remote": "https://github.com/LoFiGamerGuy/visual-narrative-compiler.git",
+    "remote_parity": true,
+    "tracked_paths_current": 991,
+    "safe_capture_commit": "eafe1ef632dbb9a61b1f17706c901d6cbf1a3217",
+    "safe_capture_paths": 971,
+    "safe_capture_ancestor": true,
+    "frozen_integrity_pass": true,
+    "tracked_scope_pass": true,
+    "unrelated_untracked_items": [
+      "GITIGNORE_RECOMMENDED.txt",
+      "assets/",
+      "batch_generate.py",
+      "benchmarks/",
+      "garden/",
+      "get_ipadapter.cmd",
+      "run_batch.cmd",
+      "run_comfy.cmd",
+      "trainer/"
+    ],
+    "unrelated_untracked_items_count": 9,
+    "pending_integrity_files": [
+      "docs/research/ch05-final-post-pointer-integrity-r1.md",
+      "docs/research/evidence/ch05-final-post-pointer-integrity-r1.json",
+      "src/north_garden/compile_ch05_final_post_pointer_integrity.py",
+      "src/north_garden/validate_ch05_final_post_pointer_integrity.py"
+    ],
+    "pending_integrity_files_count": 4,
+    "unrelated_items_tracked": 0
+  },
+  "summary": {
+    "release_commands": 9,
+    "release_domains": 18,
+    "pointer_steps": 9,
+    "review_links": 134,
+    "candidates": 29,
+    "plans": 50,
+    "worksheet_checks": 112,
+    "safe_paths": 971,
+    "frozen_paths": 16,
+    "baseline_paths": 4,
+    "provider_calls": 0,
+    "uploads": 0,
+    "owner_inputs": 0,
+    "owner_decisions_ingested": 0,
+    "visual_dispositions": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "paid_spend_usd": 0,
+    "human_review_minutes": null
+  },
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Terminal integrity snapshot. Generated pixels and unrelated untracked items remain outside Git; owner review and all promotion/rights/production authority remain pending."
+}

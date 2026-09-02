@@ -163,3 +163,5 @@ The current primary handoff is `docs/research/ch05-overnight-closeout-r2.md`, wi
 Final built-in provenance reconciliation is `docs/research/ch05-final-model-license-provenance-audit-r1.md`, with machine state at `production/comic/handoff/ch05-final-model-license-provenance-audit-r1.json` under ADR-0151. All six unavailable fields remain null across 29 records and commercial/exact-base status stays open.
 
 The exact six-root response template is `production/comic/review/ch05-owner-response-template-r1.json`, with guide at `docs/research/ch05-owner-response-guide-r1.md`. Validate a reviewed copy with `python src/north_garden/validate_ch05_owner_response.py <response.json> --mode response`; ADR-0152 keeps validation separate from ingestion.
+
+Live minutes for the six exact roots must use `production/comic/review/ch05-pilot-root-review-time-contract-r1.json` and `python src/north_garden/validate_ch05_pilot_root_review_event_log.py <event-log.json>`. ADR-0153 leaves the earlier 39-subject timer immutable because it covers only three root IDs exactly.

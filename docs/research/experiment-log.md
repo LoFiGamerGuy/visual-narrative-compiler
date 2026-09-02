@@ -1387,3 +1387,10 @@
 - Template mode requires all response fields null; response mode requires exact allowed values, reviewer identity, and positive live minutes.
 - Kept four deferred choices plus candidate/commercial/exact-base/plan/cross-medium fields always null.
 - Three/three valid fixtures pass, 20/20 malformed fail, and 19/19 evidence mutations fail under ADR-0152; zero decisions are ingested.
+
+## 2026-09-01 - CH05 six-root review timer contract r1
+
+- Detected that the immutable 39-subject timer maps only three of six exact pilot roots.
+- Preserved the legacy contract and added a separate six-root live-only contract for the three mapped and three previously absent IDs.
+- Bound four event types, seven fields, six rules, and exact allowed root decisions.
+- Three/three valid logs pass, 12/12 malformed fail, and 19/19 mutations fail under ADR-0153; actual events/minutes/decisions remain zero/null.

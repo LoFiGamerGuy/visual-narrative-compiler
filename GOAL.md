@@ -282,6 +282,8 @@ The model/license/provenance milestone is complete under ADR-0151. All 29 record
 
 The owner-response-schema milestone is complete under ADR-0152. One null template and two synthetic complete responses pass; 20/20 malformed fixtures and 19/19 evidence mutations fail. Response mode requires six exact values, reviewer, and positive live minutes while deferred/promotion/plan/cross-medium fields stay null. No decision is ingested. The next bounded milestone is a final review-session starter packet that orders the minimum owner actions, links all evidence, and predeclares the exact validator and post-response lifecycle transition without creating an actual response.
 
+While preparing the session starter, the timer-coverage conflict was resolved explicitly under ADR-0153. The immutable 39-subject timer maps only three of six pilot roots; a separate six-root live timer now covers all exact IDs with 3/3 valid and 12/12 invalid synthetic logs plus 19/19 evidence mutations. Actual events/minutes/decisions remain zero/null. The next bounded milestone remains the final review-session starter, now bound to the correct timer contract.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

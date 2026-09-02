@@ -1,0 +1,41 @@
+{
+  "record_type": "ComicPilotRootReviewTimeInstrumentationEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-pilot-root-review-time-contract-evidence-r1",
+  "state": "PASS_EMPTY_CONTRACT_ARCHITECTURE_CONFLICT_RESOLVED_APPEND_ONLY",
+  "contract": {
+    "path": "production/comic/review/ch05-pilot-root-review-time-contract-r1.json",
+    "sha256": "cae10f7436e1e1fdc68a69a14cace39fc0c602b5eeea571fc3990c3de5c807de"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+      "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+    },
+    {
+      "path": "production/comic/review/ch05-human-review-time-instrumentation-contract-r1.json",
+      "sha256": "f236f6996f72ae0728d5ce9eef1eedda105e77df0b3c03d4b298fa4ab71ac731"
+    }
+  ],
+  "summary": {
+    "root_subjects": 6,
+    "legacy_subjects": 39,
+    "exact_legacy_mappings": 3,
+    "missing_legacy_mappings": 3,
+    "event_types": 4,
+    "event_fields": 7,
+    "rules": 6,
+    "valid_synthetic_logs": 3,
+    "invalid_synthetic_logs_rejected": 12,
+    "current_event_count": 0,
+    "completed_subjects": 0,
+    "owner_decisions": 0,
+    "accepted_candidates": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

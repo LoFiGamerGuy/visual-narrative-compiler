@@ -1156,3 +1156,10 @@
 - Ordered tasks by dependency only into 19 foundational/parallel, four dependent, and one authority-stage task; non-canon taste review is explicitly optional for CH05.
 - Bound every artifact path/hash and generated a current absolute-link Markdown checklist.
 - ADR-0119 leaves decisions/reviewers/minutes/acceptance/provider state empty; 16/16 mutations fail.
+
+## 2026-09-01 - CH05 integrated release r6
+
+- Preserved immutable r5 and added four independent validators: 50-plan readiness, reference/continuity risk, live-only review timer, and dependency-ordered owner handoff.
+- Five/five commands pass in 9.946 seconds, representing 42 effective checks; 26/26 release mutations fail.
+- Bound 50 plans, 42 reference hypotheses, 18 text-only rows, one critical P036 guard, 24 owner tasks, and 39 timer subjects.
+- ADR-0120 keeps prompts/review events/decisions/acceptance/execution/calls/uploads/downloads/cost at zero and minutes null.

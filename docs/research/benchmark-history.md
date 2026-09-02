@@ -370,3 +370,5 @@ The minimal reference-risk plan assigns 42 metadata hypotheses across 50 plans: 
 The live-only review timer binds 39 subjects, four transitions, seven fields, and six rules. Three valid synthetic logs pass and 12 malformed logs fail; a 20-second active fixture derives 0.333333 minutes. Sixteen/sixteen evidence mutations fail, while actual review minutes remain null.
 
 The owner handoff checklist binds 24 linked tasks—14 candidate and ten route—in dependency stages 19/4/1, with one optional non-canon task. Every prerequisite points to an earlier stage and 16/16 mutations fail; no decision or minute is recorded.
+
+Integrated release r6 preserves the 38-check r5 chain and adds four independent validators. Five/five commands pass in 9.946 seconds, 42 effective checks are represented, and 26/26 mutations fail. Fifty plans, 42 references, 24 owner tasks, and 39 timer subjects are release-bound without execution or review activity.

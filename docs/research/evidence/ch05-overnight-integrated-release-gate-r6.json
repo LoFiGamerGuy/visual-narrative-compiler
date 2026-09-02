@@ -1,0 +1,118 @@
+{
+  "record_type": "CH05OvernightIntegratedReleaseGate",
+  "schema_version": "1.5",
+  "record_id": "ng-ch05-overnight-integrated-release-gate-r6",
+  "state": "PASS",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-ch05-overnight-integrated-release-gate-r5",
+    "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r5.json",
+    "sha256": "146d93c4ac51e1c1d5fa3261b017af5856fd758eda177f0d2b5bb6af06738341"
+  },
+  "summary": {
+    "base_effective_command_count": 38,
+    "extension_command_count": 4,
+    "effective_command_count": 42,
+    "orchestrator_commands": 5,
+    "passed": 5,
+    "failed": 0,
+    "observed_total_seconds": 9.94575,
+    "network_capable_commands": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "downloads": 0,
+    "cost_usd": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "owner_decisions": 0,
+    "live_review_events": 0,
+    "human_review_minutes": null
+  },
+  "results": [
+    {
+      "path": "src/north_garden/validate_ch05_overnight_integrated_release_gate_r5.py",
+      "script_sha256": "ca9890b754d95f244364b6f619dc2e48f4bdce85400761fd3c77d307788bfc20",
+      "command": "python src/north_garden/validate_ch05_overnight_integrated_release_gate_r5.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 9.562156,
+      "stdout": "CH05 overnight integrated release r5: 0 failures; immutable 33 + 5 = 38 effective checks; 26/26 mutations rejected\n29 candidates/99 artifacts/10 decisions/4 next slots/44 checks; frozen 16 + baseline 4; 0 accepted/executable/calls/uploads/$0\n",
+      "stdout_sha256": "7866b78c53b177b1210a0765f2581823fa81270bb5c44290496c0c4f495f339c",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_chapter_production_readiness_matrix.py",
+      "script_sha256": "494020346d7207bba3d9fcf4c2f97300415233fa1b902d3802180f43b05bf7aa",
+      "command": "python src/north_garden/validate_ch05_chapter_production_readiness_matrix.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.123662,
+      "stdout": "CH05 chapter readiness: 0 failures; 50=14 selected+4 dry-run+8 Tier-A+24 backlog; 20/20 mutations rejected\nnext prompts/copy/accepted/commercial/executable/revisions/calls/uploads/cost 0/0/0/0/0/0/0/0/$0\n",
+      "stdout_sha256": "99878f0ecb12311e4cdd1c600868ad2cab127b3e6efd83cd9815a92e18993278",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_reference_use_and_continuity_risk_plan.py",
+      "script_sha256": "cbddd415edd1f582d600aeaf8b1253d31a71512dde0379b9e35181d2f50e95b6",
+      "command": "python src/north_garden/validate_ch05_reference_use_and_continuity_risk_plan.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.122057,
+      "stdout": "CH05 reference risk: 0 failures; 50 plans/42 hypotheses/18 text-only/1 P036 guard; 20/20 mutations rejected\nuploads/identity inference/prompts/accepted/executable/calls/cost 0/0/0/0/0/0/$0\n",
+      "stdout_sha256": "506a55544785eb549fefafd970dbd133cc9902d7777f77a96239df5748971da9",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_human_review_time_instrumentation_contract.py",
+      "script_sha256": "7a68e400226c8e02306539d8385ae84d95f44f0862f1dee8209c032d2e0ee69e",
+      "command": "python src/north_garden/validate_ch05_human_review_time_instrumentation_contract.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.058193,
+      "stdout": "CH05 review timer contract: 0 failures; 3/3 valid + 12/12 invalid synthetic logs; 16/16 evidence mutations rejected\nlive events/completed/minutes/decisions/accepted/calls/uploads/cost 0/0/null/0/0/0/0/$0\n",
+      "stdout_sha256": "cc3bd66bd8fa455b8b562facae08c3ff656b007e6fef4f478da27b50f0b2c1e4",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_owner_handoff_dependency_checklist.py",
+      "script_sha256": "64c278db828590e698f5ae57f5b2223e617431759512bb06ca8261e5e19d8de3",
+      "command": "python src/north_garden/validate_ch05_owner_handoff_dependency_checklist.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.078746,
+      "stdout": "CH05 owner checklist: 0 failures; 24=14 candidate+10 route tasks; stages 19/4/1; 16/16 mutations rejected\ncompleted/decisions/accepted/minutes/calls/uploads/cost 0/0/0/null/0/0/$0\n",
+      "stdout_sha256": "fdb607b556a6366890a0a6471610442bac9353c8974b72e6b138e4ba27d99320",
+      "stderr": ""
+    }
+  ],
+  "effective_state": {
+    "candidates": 29,
+    "review_artifacts": 99,
+    "comic_panel_plans": 50,
+    "readiness_selected": 14,
+    "readiness_dry_run": 4,
+    "readiness_tier_a": 8,
+    "readiness_backlog": 24,
+    "reference_hypotheses": 42,
+    "text_only_plans": 18,
+    "critical_reference_guards": 1,
+    "owner_tasks": 24,
+    "owner_task_stages": [
+      19,
+      4,
+      1
+    ],
+    "timer_subjects": 39,
+    "next_prompts": 0,
+    "frozen_paths": 16,
+    "baseline_paths": 4
+  },
+  "boundaries": [
+    "R5 remains immutable; r6 preserves its 38 effective checks and adds readiness, reference-risk, live-timer, and dependency-handoff validators.",
+    "All commands are local and non-network-capable.",
+    "Passing does not ingest review, compile prompts, upload references, infer identity, accept art, revise plans, or grant commercial clearance."
+  ]
+}

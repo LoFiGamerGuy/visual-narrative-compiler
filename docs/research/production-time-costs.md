@@ -46,6 +46,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 reference/continuity risk r1 | 50 plans / 42 metadata hypotheses / 4 risk classes | local deterministic planning and chart | unmeasured | $0 API/cloud | 0 uploads/inference/prompts/accepted |
 | CH05 live review-time contract r1 | 39 subjects / 4 events / 3 valid + 12 invalid fixtures | local synthetic schema validation | null until live event | $0 API/cloud | 0 live events/decisions/accepted |
 | CH05 owner dependency checklist r1 | 24 tasks / stages 19-4-1 | local deterministic decision-aid compilation | null until live event | $0 API/cloud | 0 completed/decided/accepted |
+| CH05 integrated release r6 | immutable 38-check r5 + 4 extension checks | 9.946 s observed local gate time | unmeasured | $0 API/cloud | 42 effective checks pass; 0 accepted/executable |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

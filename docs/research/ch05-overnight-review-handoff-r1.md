@@ -97,3 +97,5 @@ Review the hair/wardrobe/reference risk map at `experiments/review-packets/ch05-
 Future owner-review time can be measured with `production/comic/review/ch05-human-review-time-instrumentation-contract-r1.json` and `python src/north_garden/validate_ch05_human_review_time_event_log.py <event-log.json>`. ADR-0118 forbids backfilling prior review; current minutes remain null.
 
 Use `docs/research/ch05-owner-handoff-checklist-r1.md` for the 24-task dependency-ordered review path. ADR-0119 separates parallel candidate/foundational review, dependent P010/lettering choices, optional non-canon taste review, and final commercial/exact-base authority.
+
+Integrated evidence now passes release r6 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r6.json`: 42 effective checks, 5/5 commands, and 26/26 rejected mutations under ADR-0120.

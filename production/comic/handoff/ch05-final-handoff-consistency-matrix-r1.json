@@ -1,0 +1,226 @@
+{
+  "record_type": "CH05FinalHandoffConsistencyMatrix",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-final-handoff-consistency-matrix-r1",
+  "state": "PASS_NO_UNEXPLAINED_CONFLICTS_OWNER_INPUTS_ABSENT",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-owner-review-index-r8.json",
+      "sha256": "c069d61e10dceca1ba0eba404ca97ddb2109d0b440200d97dfb55a9aa3f62cfa"
+    },
+    {
+      "path": "production/comic/review/ch05-review-artifact-link-manifest-r6.json",
+      "sha256": "4569a8462d80e19c0624f46ce6c91552602da897f9629be0b718269219c66159"
+    },
+    {
+      "path": "production/comic/handoff/ch05-overnight-closeout-bundle-r3.json",
+      "sha256": "aaea7393e9e39ebb748aa096ad8bd28e0c7bc47b0bcda501affb586d17c07c66"
+    },
+    {
+      "path": "docs/research/evidence/ch05-final-review-integrated-release-r12.json",
+      "sha256": "ba98331e89acd5b9417feace9872325252745222fd1dce4372e038714c2b4eba"
+    },
+    {
+      "path": "docs/research/evidence/ch05-final-safe-source-parity-r4.json",
+      "sha256": "2bb557db7a60cbc0fc3dcea94841395e377efca77f7a894c723403e7da631e7c"
+    },
+    {
+      "path": "docs/research/evidence/ch05-final-model-license-provenance-audit-r1.json",
+      "sha256": "109cd90610a6517c748367e30c7a73814d632a1e2cfff9ce923fc73793db4018"
+    },
+    {
+      "path": "production/comic/handoff/ch05-final-review-session-starter-r1.json",
+      "sha256": "7fe9753bf44c9c1be3f16c95c96fcef2e692f8b1316e06b204bb0bf77b916652"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-ingestion-preflight-contract-r1.json",
+      "sha256": "9964743074e4020fe06d600dc211143f8b5dd3f8584e30e738a34c7374ff0c36"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r29.json",
+      "sha256": "e367b4319dde85fc7bc8d2be89c3d3bde267aad36bfc83129250fe7a0373fe71"
+    }
+  ],
+  "summary": {
+    "input_records": 9,
+    "consensus_facts": 12,
+    "consistent_facts": 12,
+    "unexplained_conflicts": 0,
+    "expected_temporal_differences": 1,
+    "candidates": 29,
+    "plans": 50,
+    "batches": 12,
+    "review_links": 128,
+    "priority_links": 67,
+    "pilot_roots": 6,
+    "release_checks": 84,
+    "safe_paths_current": 934,
+    "zero_cost_milestones": 82,
+    "owner_inputs": 0,
+    "owner_decisions_ingested": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0,
+    "human_review_minutes": null
+  },
+  "consensus": [
+    {
+      "fact": "candidate_count",
+      "values": {
+        "hub": 29,
+        "closeout": 29,
+        "release": 29,
+        "provenance": 29
+      },
+      "expected": 29,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "comic_panel_plans",
+      "values": {
+        "hub": 50,
+        "closeout": 50,
+        "release": 50
+      },
+      "expected": 50,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "sequence_batches",
+      "values": {
+        "closeout": 12,
+        "release": 12
+      },
+      "expected": 12,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "review_links",
+      "values": {
+        "links": 128,
+        "closeout": 128,
+        "release": 128
+      },
+      "expected": 128,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "priority_direct_links",
+      "values": {
+        "hub": 67,
+        "closeout": 67,
+        "release": 67
+      },
+      "expected": 67,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "pilot_roots",
+      "values": {
+        "hub": 6,
+        "closeout": 6,
+        "release": 6,
+        "starter": 6
+      },
+      "expected": 6,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "zero_cost_milestones",
+      "values": {
+        "closeout": 82,
+        "release": 82,
+        "cost": 82
+      },
+      "expected": 82,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "release_checks",
+      "values": {
+        "closeout": 84,
+        "release": 84
+      },
+      "expected": 84,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "provenance_records",
+      "values": {
+        "closeout": 29,
+        "provenance": 29
+      },
+      "expected": 29,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "owner_inputs",
+      "values": {
+        "hub_response": 0,
+        "hub_events": 0,
+        "closeout_response": 0,
+        "closeout_events": 0,
+        "starter_response": 0,
+        "starter_events": 0
+      },
+      "expected": 0,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "authority_activity",
+      "values": {
+        "ingested": 0,
+        "accepted": 0,
+        "cleared": 0,
+        "executable": 0,
+        "preflight_eligible": 0
+      },
+      "expected": 0,
+      "state": "CONSISTENT"
+    },
+    {
+      "fact": "provider_activity",
+      "values": {
+        "calls": 0,
+        "uploads": 0,
+        "paid_spend_usd": 0,
+        "cost_requests": 0,
+        "cost_uploads": 0
+      },
+      "expected": 0,
+      "state": "CONSISTENT"
+    }
+  ],
+  "temporal_lineage": [
+    {
+      "fact": "safe_source_capture_paths",
+      "earlier_release_snapshot": 873,
+      "later_safe_r4": 934,
+      "later_closeout_r3": 934,
+      "delta": 61,
+      "state": "EXPECTED_APPEND_ONLY_LINEAGE",
+      "explanation": "Release r12 immutably binds safe-source r3 (873); safe-source r4 and closeout r3 were compiled later (934)."
+    }
+  ],
+  "route_consistency": {
+    "closeout_route": "role-aware premium cel-painted character/emotion/action anchors with mature clear-line causal staging, genuinely simplified inserts, and measured per-panel density",
+    "state": "ONE_CURRENT_ENGINEERING_RECOMMENDATION_OWNER_UNRESOLVED",
+    "uniform_finish_selected": false,
+    "visual_appeal_only_selection": false
+  },
+  "limitation_consistency": {
+    "unavailable_service_fields_per_record": 6,
+    "records": 29,
+    "commercial_status": "OPEN_PENDING_EXPLICIT_REVIEW",
+    "generation_reproducibility": "UNPROVEN",
+    "generated_pixels_tracked": false,
+    "owner_inputs_absent": true
+  },
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Cross-record audit only. Expected temporal lineage is explicit; no source record is rewritten and no owner decision, ingestion, acceptance, right, exact base, or production authority is created."
+}

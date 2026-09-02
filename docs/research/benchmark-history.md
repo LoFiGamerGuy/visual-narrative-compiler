@@ -450,3 +450,5 @@ Final-review release r12 preserves a 10/11 attempt, then uses one exact nested-l
 Final safe-source r4 pins pushed commit `df41783` at 934 paths/14,070,835 bytes, tree `f5d1a7b6…e0c53`, and root `c512c072…1f07`. Two controls and zero generated/prohibited/credential/model/dataset/private-reference paths are tracked; 19/19 mutations fail.
 
 Closeout r3 binds 29 candidates/50 plans/12 batches/128 resources/67 priority links to release 84, source 934, cost 82, provenance 29, and frozen 16 + baseline 4. Its pushed compile base spans 471 paths/74 ADRs; 25/25 mutations fail.
+
+The final handoff matrix joins nine current records: 12/12 consensus facts agree, zero unexplained conflicts remain, one expected 873→934 source-lineage delta is disclosed, and 25/25 mutations fail.

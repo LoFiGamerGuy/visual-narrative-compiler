@@ -1,0 +1,79 @@
+{
+  "record_type": "CH05FinalHandoffConsistencyEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-final-handoff-consistency-evidence-r1",
+  "state": "PASS_OWNER_INPUTS_ABSENT",
+  "matrix": {
+    "path": "production/comic/handoff/ch05-final-handoff-consistency-matrix-r1.json",
+    "sha256": "0248df36c3a079ffa36ae8764335ae60f1be3ada13908422d2b2277f3b94c90c"
+  },
+  "guide": {
+    "path": "docs/research/ch05-final-handoff-consistency-matrix-r1.md",
+    "sha256": "77ec9c009fe0cd0f312b4647d8cebd4296e0d9792e1a08a3932483f1e0b84219"
+  },
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-owner-review-index-r8.json",
+      "sha256": "c069d61e10dceca1ba0eba404ca97ddb2109d0b440200d97dfb55a9aa3f62cfa"
+    },
+    {
+      "path": "production/comic/review/ch05-review-artifact-link-manifest-r6.json",
+      "sha256": "4569a8462d80e19c0624f46ce6c91552602da897f9629be0b718269219c66159"
+    },
+    {
+      "path": "production/comic/handoff/ch05-overnight-closeout-bundle-r3.json",
+      "sha256": "aaea7393e9e39ebb748aa096ad8bd28e0c7bc47b0bcda501affb586d17c07c66"
+    },
+    {
+      "path": "docs/research/evidence/ch05-final-review-integrated-release-r12.json",
+      "sha256": "ba98331e89acd5b9417feace9872325252745222fd1dce4372e038714c2b4eba"
+    },
+    {
+      "path": "docs/research/evidence/ch05-final-safe-source-parity-r4.json",
+      "sha256": "2bb557db7a60cbc0fc3dcea94841395e377efca77f7a894c723403e7da631e7c"
+    },
+    {
+      "path": "docs/research/evidence/ch05-final-model-license-provenance-audit-r1.json",
+      "sha256": "109cd90610a6517c748367e30c7a73814d632a1e2cfff9ce923fc73793db4018"
+    },
+    {
+      "path": "production/comic/handoff/ch05-final-review-session-starter-r1.json",
+      "sha256": "7fe9753bf44c9c1be3f16c95c96fcef2e692f8b1316e06b204bb0bf77b916652"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-ingestion-preflight-contract-r1.json",
+      "sha256": "9964743074e4020fe06d600dc211143f8b5dd3f8584e30e738a34c7374ff0c36"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r29.json",
+      "sha256": "e367b4319dde85fc7bc8d2be89c3d3bde267aad36bfc83129250fe7a0373fe71"
+    }
+  ],
+  "summary": {
+    "input_records": 9,
+    "consensus_facts": 12,
+    "consistent_facts": 12,
+    "unexplained_conflicts": 0,
+    "expected_temporal_differences": 1,
+    "candidates": 29,
+    "plans": 50,
+    "batches": 12,
+    "review_links": 128,
+    "priority_links": 67,
+    "pilot_roots": 6,
+    "release_checks": 84,
+    "safe_paths_current": 934,
+    "zero_cost_milestones": 82,
+    "owner_inputs": 0,
+    "owner_decisions_ingested": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0,
+    "human_review_minutes": null
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

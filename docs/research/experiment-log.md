@@ -1436,3 +1436,10 @@
 - Preserved 29 candidates/50 plans/12 batches/67 priority links and advanced the exhaustive inventory to 128 resources.
 - Bound release 84/source 934/cost 82/frozen 16+4/provenance 29 across 471 changed paths and 74 ADRs.
 - Twenty-five/twenty-five mutations fail under ADR-0159; response/log/ingestion and promotion activity remain zero/null.
+
+## 2026-09-01 - CH05 final handoff consistency matrix r1
+
+- Joined nine current hub/link/closeout/release/source/provenance/starter/preflight/cost records.
+- Twelve/twelve consensus facts agree with zero unexplained conflicts; 25/25 mutations fail.
+- Recorded one expected temporal lineage difference: immutable release r12 source snapshot 873 versus later r4/closeout r3 934 (+61).
+- Kept route as an engineering recommendation and all owner-input, ingestion, acceptance, rights, execution, and provider activity closed under ADR-0160.

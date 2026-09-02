@@ -358,3 +358,5 @@ Owner review index r3 adds a deterministic 12-card local entry point with ten im
 The measured route recommendation binds four role allocations and ten still-null owner decisions. Cel-painted is 5/6 all-pass, clear-line 5/8 with successful targeted repairs, limited ink 4/6 but density-conditional, and clean graphic 3/6 as a blocking control. Seventeen/seventeen mutations fail. This selects an engineering mechanism by observed behavior, not visual appeal, while leaving acceptance/commercial/exact-base state open.
 
 The P010–P013 production-manifest dry run binds four exact rows, three reference hypotheses, two bounded repair slots, five planned review artifacts, and five production stages. All prompt/output/service/review fields remain null and all execution/promotion activity remains zero; 20/20 mutations fail.
+
+The P010–P013 review contract binds 44 empty candidate checks, five unbuilt artifacts, 11 failure classes, and five promotion rules before rendering. Candidate/sequence review and repair state remains empty; 17/17 mutations fail. This prevents review criteria from drifting around the eventual outputs.

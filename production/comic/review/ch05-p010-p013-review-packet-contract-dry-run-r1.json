@@ -1,0 +1,251 @@
+{
+  "record_type": "ComicMicrosequenceReviewPacketContractDryRun",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-review-packet-contract-dry-run-r1",
+  "state": "FAIL_CLOSED_NO_PIXELS_NO_REVIEW",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-production-manifest-dry-run-r1.json",
+      "sha256": "f668fc1531b556529a3e8cf7f3ef9d6c65a2172cab448ec26e57e97eaf48403e"
+    },
+    {
+      "path": "production/comic/continuity/ch05-character-assertion-manifest-r1.json",
+      "sha256": "3e4583e5ab9eb1321ae5ff16b30596ca141d43d82481c59e50ab65bcafd2c1e2"
+    },
+    {
+      "path": "docs/research/evidence/ch05-transparent-lettering-rehearsal-r1.json",
+      "sha256": "19e001387256aa20969675a8df98fae65af04f0c13aab2ab34ad85ba6d821209"
+    },
+    {
+      "path": "docs/research/evidence/ch05-continuity-style-density-r1.json",
+      "sha256": "0f7f7aeed574811ed8f700d1d6e06d4b07a11bb5aaf291d1785d9d313eee1083"
+    }
+  ],
+  "summary": {
+    "candidate_slots": 4,
+    "required_checks_per_candidate": 11,
+    "planned_artifacts": 5,
+    "built_artifacts": 0,
+    "completed_candidate_reviews": 0,
+    "sequence_decisions": 0,
+    "repair_slots_allocated": 0,
+    "accepted_candidates": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "required_checks": [
+    "cast_count",
+    "role_identity_and_order",
+    "hair_color_and_style",
+    "canonical_wardrobe",
+    "mature_adult_anatomy",
+    "hands_and_story_object",
+    "causal_action_or_clue",
+    "lettering_safe_zone",
+    "phone_size_readability",
+    "role_appropriate_density",
+    "sequence_finish_continuity"
+  ],
+  "candidate_reviews": [
+    {
+      "candidate_slot": "m001",
+      "panel_id": "ng-ch05-sc01-p010",
+      "expected_output_path": "experiments/review-packets/ch05-p010-p013-production-r1/candidates/m001-p010-cel_painted-r1.png",
+      "output_sha256": null,
+      "source_dimensions": null,
+      "phone_preview_dimensions": null,
+      "checks": {
+        "cast_count": null,
+        "role_identity_and_order": null,
+        "hair_color_and_style": null,
+        "canonical_wardrobe": null,
+        "mature_adult_anatomy": null,
+        "hands_and_story_object": null,
+        "causal_action_or_clue": null,
+        "lettering_safe_zone": null,
+        "phone_size_readability": null,
+        "role_appropriate_density": null,
+        "sequence_finish_continuity": null
+      },
+      "failure_classes": [],
+      "repair_slot": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "decision": null
+    },
+    {
+      "candidate_slot": "m002",
+      "panel_id": "ng-ch05-sc01-p011",
+      "expected_output_path": "experiments/review-packets/ch05-p010-p013-production-r1/candidates/m002-p011-clear_line_watercolor-r1.png",
+      "output_sha256": null,
+      "source_dimensions": null,
+      "phone_preview_dimensions": null,
+      "checks": {
+        "cast_count": null,
+        "role_identity_and_order": null,
+        "hair_color_and_style": null,
+        "canonical_wardrobe": null,
+        "mature_adult_anatomy": null,
+        "hands_and_story_object": null,
+        "causal_action_or_clue": null,
+        "lettering_safe_zone": null,
+        "phone_size_readability": null,
+        "role_appropriate_density": null,
+        "sequence_finish_continuity": null
+      },
+      "failure_classes": [],
+      "repair_slot": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "decision": null
+    },
+    {
+      "candidate_slot": "m003",
+      "panel_id": "ng-ch05-sc01-p012",
+      "expected_output_path": "experiments/review-packets/ch05-p010-p013-production-r1/candidates/m003-p012-limited_ink_flat-r1.png",
+      "output_sha256": null,
+      "source_dimensions": null,
+      "phone_preview_dimensions": null,
+      "checks": {
+        "cast_count": null,
+        "role_identity_and_order": null,
+        "hair_color_and_style": null,
+        "canonical_wardrobe": null,
+        "mature_adult_anatomy": null,
+        "hands_and_story_object": null,
+        "causal_action_or_clue": null,
+        "lettering_safe_zone": null,
+        "phone_size_readability": null,
+        "role_appropriate_density": null,
+        "sequence_finish_continuity": null
+      },
+      "failure_classes": [],
+      "repair_slot": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "decision": null
+    },
+    {
+      "candidate_slot": "m004",
+      "panel_id": "ng-ch05-sc01-p013",
+      "expected_output_path": "experiments/review-packets/ch05-p010-p013-production-r1/candidates/m004-p013-clear_line_watercolor-r1.png",
+      "output_sha256": null,
+      "source_dimensions": null,
+      "phone_preview_dimensions": null,
+      "checks": {
+        "cast_count": null,
+        "role_identity_and_order": null,
+        "hair_color_and_style": null,
+        "canonical_wardrobe": null,
+        "mature_adult_anatomy": null,
+        "hands_and_story_object": null,
+        "causal_action_or_clue": null,
+        "lettering_safe_zone": null,
+        "phone_size_readability": null,
+        "role_appropriate_density": null,
+        "sequence_finish_continuity": null
+      },
+      "failure_classes": [],
+      "repair_slot": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "decision": null
+    }
+  ],
+  "planned_artifacts": [
+    {
+      "artifact_id": "candidate_contact_sheet",
+      "filename": "contact-sheet-p010-p013-candidates.png",
+      "purpose": "full-resolution side-by-side candidate review",
+      "required_inputs": 4,
+      "path": null,
+      "sha256": null,
+      "dimensions": null,
+      "state": "NOT_BUILT"
+    },
+    {
+      "artifact_id": "phone_contact_sheet",
+      "filename": "contact-sheet-p010-p013-phone-390px.png",
+      "purpose": "390px phone readability and silhouette comparison",
+      "required_inputs": 4,
+      "phone_width_px": 390,
+      "path": null,
+      "sha256": null,
+      "dimensions": null,
+      "state": "NOT_BUILT"
+    },
+    {
+      "artifact_id": "continuity_sequence",
+      "filename": "sequence-p010-p013-continuity.png",
+      "purpose": "hair, wardrobe, cast transition, finish, and causal flow",
+      "required_inputs": 4,
+      "path": null,
+      "sha256": null,
+      "dimensions": null,
+      "state": "NOT_BUILT"
+    },
+    {
+      "artifact_id": "lettering_safe_zones",
+      "filename": "contact-sheet-p010-p013-lettering-safe-zones.png",
+      "purpose": "canonical protected-content overlays without text",
+      "required_inputs": 4,
+      "path": null,
+      "sha256": null,
+      "dimensions": null,
+      "state": "NOT_BUILT"
+    },
+    {
+      "artifact_id": "style_density_cadence",
+      "filename": "comparison-p010-p013-style-density-cadence.png",
+      "purpose": "role-appropriate density and four-beat finish rhythm",
+      "required_inputs": 4,
+      "path": null,
+      "sha256": null,
+      "dimensions": null,
+      "state": "NOT_BUILT"
+    }
+  ],
+  "failure_vocabulary": [
+    "CAST_COUNT",
+    "ROLE_ORDER",
+    "HAIR_DRIFT",
+    "WARDROBE_DRIFT",
+    "ADULT_ANATOMY",
+    "HAND_OR_OBJECT",
+    "CAUSAL_GEOMETRY",
+    "LETTERING_COLLISION",
+    "PHONE_READABILITY",
+    "DENSITY_ROLE",
+    "FINISH_CONTINUITY"
+  ],
+  "promotion_rules": [
+    "Candidate decisions remain null until every required check is populated by a human reviewer.",
+    "Any FAIL requires preservation as diagnostic evidence and may allocate at most one exact-class repair slot.",
+    "A WARN cannot be silently promoted; its limitation must appear in the owner packet.",
+    "Sequence acceptance requires all four candidate decisions plus explicit continuity, cadence, and lettering-semantics decisions.",
+    "Engineering review cannot establish commercial clearance or exact production-base eligibility."
+  ],
+  "sequence_review": {
+    "hair_wardrobe_continuity": null,
+    "cast_transition": null,
+    "causal_flow": null,
+    "density_cadence": null,
+    "lettering_semantics": null,
+    "decision": null,
+    "reviewer": null,
+    "human_review_minutes": null
+  },
+  "repair_allocation": {
+    "maximum_slots": 2,
+    "allocated_slots": 0,
+    "broad_reroll": false,
+    "passing_rows_must_be_preserved": true
+  },
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Review schema only. No pixels, reviews, decisions, repairs, provider activity, acceptance, or production promotion exist."
+}

@@ -85,3 +85,5 @@ The current single review entry point is now `experiments/review-packets/ch05-ow
 The current engineering route is `production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json`, with ten remaining choices in `production/comic/review/ch05-route-review-decision-matrix-r1.json` and ComicStyleDirection r10. ADR-0112 recommends role-aware cel-painted character/action anchors, clear-line causality/transitions, selected clean-graphic blocking controls, and exact-density-gated simple inserts; it does not accept a candidate, commercial route, or exact production base.
 
 The next microsequence's fail-closed production shape is `production/comic/run-manifests/ch05-p010-p013-production-manifest-dry-run-r1.json`. It contains four exact ComicPanelPlan rows, two bounded repair slots, five planned review artifacts, and no prompt or executable state under ADR-0113.
+
+Its pre-render review semantics are `production/comic/review/ch05-p010-p013-review-packet-contract-dry-run-r1.json`: 11 checks per slot, five unbuilt artifacts, 11 failure classes, and five promotion rules under ADR-0114. This record creates no review event or acceptance.

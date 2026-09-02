@@ -1,0 +1,46 @@
+{
+  "record_type": "ComicMicrosequenceReviewPacketContractDryRunEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-review-packet-contract-dry-run-evidence-r1",
+  "state": "PASS_FAIL_CLOSED",
+  "contract": {
+    "path": "production/comic/review/ch05-p010-p013-review-packet-contract-dry-run-r1.json",
+    "sha256": "a7858e71d826257c8197a500e05f4520dda20a8bac82a037a64a2b5690b4b0ae"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-production-manifest-dry-run-r1.json",
+      "sha256": "f668fc1531b556529a3e8cf7f3ef9d6c65a2172cab448ec26e57e97eaf48403e"
+    },
+    {
+      "path": "production/comic/continuity/ch05-character-assertion-manifest-r1.json",
+      "sha256": "3e4583e5ab9eb1321ae5ff16b30596ca141d43d82481c59e50ab65bcafd2c1e2"
+    },
+    {
+      "path": "docs/research/evidence/ch05-transparent-lettering-rehearsal-r1.json",
+      "sha256": "19e001387256aa20969675a8df98fae65af04f0c13aab2ab34ad85ba6d821209"
+    },
+    {
+      "path": "docs/research/evidence/ch05-continuity-style-density-r1.json",
+      "sha256": "0f7f7aeed574811ed8f700d1d6e06d4b07a11bb5aaf291d1785d9d313eee1083"
+    }
+  ],
+  "summary": {
+    "candidate_slots": 4,
+    "required_checks_per_candidate": 11,
+    "planned_artifacts": 5,
+    "built_artifacts": 0,
+    "completed_candidate_reviews": 0,
+    "sequence_decisions": 0,
+    "repair_slots_allocated": 0,
+    "accepted_candidates": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "failure_vocabulary_count": 11,
+  "promotion_rule_count": 5,
+  "animation_shot_plan": null,
+  "e_conte": null
+}

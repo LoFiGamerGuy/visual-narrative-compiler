@@ -1113,3 +1113,10 @@
 - Carried cel-painted P010, clear-line P011/P013, limited-ink P012, three reference hypotheses, and two unallocated one-class repair slots from the preflight.
 - Predeclared five deterministic review artifacts and five production stages, with prompt compilation blocked until every route/candidate/cadence/copy/reference/commercial gate resolves.
 - ADR-0113 keeps prompts/renders/uploads/calls/cost/acceptance/plan revisions at zero; 20/20 mutations fail.
+
+## 2026-09-01 - CH05 P010–P013 review-packet contract dry run r1
+
+- Bound 11 required checks to each of four candidate slots before any pixel exists: cast, role, hair, wardrobe, anatomy, hands/object, causality, lettering, phone readability, density role, and finish continuity.
+- Predeclared five `NOT_BUILT` review artifacts, 11 failure classes, five promotion rules, and two unallocated one-class repair slots.
+- Required failures to remain diagnostic evidence and warnings to stay visible; prohibited broad rerolls and engineering-to-commercial/exact-base promotion.
+- ADR-0114 keeps pixels/reviews/decisions/repairs/acceptance/calls/uploads/cost at zero; 17/17 mutations fail.

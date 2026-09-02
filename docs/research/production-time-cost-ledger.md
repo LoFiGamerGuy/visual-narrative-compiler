@@ -81,3 +81,5 @@ Owner review index r3 and the 99-artifact link manifest add no generation or ext
 The route recommendation, ComicStyleDirection r10, and ten-row decision matrix add no generation or external cost. Prompts, executable rows, plan revisions, owner decisions, acceptances, commercial clearance, calls, and uploads remain zero; human minutes remain null.
 
 The P010–P013 production-manifest dry run adds no generation or external cost. Its four slots and five planned artifacts are metadata only; prompts, renders, executable rows, calls, uploads, accepted candidates, and plan revisions remain zero, while human minutes and provider cost remain null.
+
+The P010–P013 review-contract dry run adds no generation or external cost. Forty-four check fields, five artifact slots, and all candidate/sequence review fields remain empty; pixels, decisions, repairs, calls, uploads, and acceptances remain zero, while human minutes remain null.

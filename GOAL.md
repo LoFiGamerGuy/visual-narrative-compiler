@@ -314,6 +314,8 @@ The post-r13-final-delivery milestone is complete under ADR-0167. One start-here
 
 The terminal-integrity milestone is complete under ADR-0168. R13 9/9/18, pointer nine, 134 links, safe capture 971, frozen/baseline, tracked scope, source ancestry, and compile remote parity pass; 24/24 mutations fail. The audit distinguishes four pending audit files from nine persistent unrelated user-owned untracked items, with zero unrelated items tracked. After this audit is pushed, rerun terminal validators and remote parity; complete the goal only when elapsed time reaches eight hours.
 
+The final-push-record milestone is complete under ADR-0169. Pushed terminal ancestor `153bff7` binds exact parity, 996 tracked paths, nine excluded unrelated user items, r13 9/9/18, 134 links, 29 candidates, and ten remaining decisions; 21/21 mutations fail. The next action is final post-record push validation and the eight-hour elapsed-time gate.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

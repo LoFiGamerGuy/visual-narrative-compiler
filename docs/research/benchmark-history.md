@@ -468,3 +468,5 @@ Final integrated release r13 passes 9/9 commands in 194.497 seconds across 18 ef
 The post-r13 delivery audit binds nine ordered owner-review resources and rejects 27/27 mutations. It is the final navigation layer and preserves ten unresolved decisions plus zero owner/promotion/provider activity.
 
 Terminal post-pointer integrity passes r13/pointer/link/frozen/scope/source/remote checks and rejects 24/24 mutations. Four pending audit files are separated from nine unrelated untracked user items.
+
+Final push record r1 binds terminal ancestor `153bff7`, exact parity, 996 tracked paths, nine excluded user items, and rejects 21/21 mutations.

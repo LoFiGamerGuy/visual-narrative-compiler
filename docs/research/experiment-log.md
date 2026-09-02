@@ -1499,3 +1499,9 @@
 - Separated four pending integrity files from nine persistent unrelated user-owned untracked items; zero unrelated items are tracked.
 - Bound compile-time 991 tracked paths and safe-source r5's 971-path ancestor capture.
 - Twenty-four/twenty-four mutations fail under ADR-0168; all owner/promotion/provider state remains zero/null.
+
+## 2026-09-01 - CH05 final push record r1
+
+- Bound pushed terminal ancestor `153bff7` with exact main/origin parity, 996 tracked paths, and nine excluded user-owned untracked items.
+- Reconciled r13 9/9/18, 134 links, 29 candidates, and ten remaining decisions.
+- Twenty-one/twenty-one mutations fail under ADR-0169; authority and provider activity remain zero/null.

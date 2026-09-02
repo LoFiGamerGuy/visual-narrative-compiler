@@ -1,0 +1,56 @@
+{
+  "record_type": "ComicChapterProductionOperatingPlaybookEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-chapter-production-operating-playbook-evidence-r1",
+  "state": "PASS_PRODUCTION_BLOCKED",
+  "playbook": {
+    "path": "production/comic/handoff/ch05-chapter-production-operating-playbook-r1.json",
+    "sha256": "90841cef7392eb7b5c1ed1bd3e9779d8aadc8481136ea0ed4f68218cc952c050"
+  },
+  "markdown": {
+    "path": "docs/research/ch05-chapter-production-operating-playbook-r1.md",
+    "sha256": "6b0f32977307c706d438caf934826886c98c1cc86b068dea345200ec62b24f20"
+  },
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r9.json",
+      "sha256": "44b01bf49580e9d95c99f918bcbaed7f2f35cdc9b05da59108a8bc367058b428"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+      "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-prompt-blueprint-r1.json",
+      "sha256": "1959a21e4c0d513c48272c2637816976c4be6adc69e9d0524e1babdabf75f5ac"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-prerender-packet-blueprint-r1.json",
+      "sha256": "08c1ca4bb570ad52e4556d06e94c3cd92553924603816bf05b89ac96a45e0a08"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-lifecycle-state-machine-r1.json",
+      "sha256": "2a8d5f67e57a45dce1ceec83464db2ac0a514a001af91314391d64a7c3068cf0"
+    }
+  ],
+  "summary": {
+    "steps": 12,
+    "ready_local_or_dry_run_steps": 5,
+    "owner_action_steps": 1,
+    "blocked_production_or_review_steps": 6,
+    "shell_commands": 11,
+    "agent_only_steps": 1,
+    "intentionally_unimplemented_compilers": 1,
+    "current_lifecycle_state": "DRAFT_BLUEPRINTED",
+    "current_enabled_transitions": 0,
+    "production_prompts": 0,
+    "renders": 0,
+    "review_events": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "human_review_minutes": null
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

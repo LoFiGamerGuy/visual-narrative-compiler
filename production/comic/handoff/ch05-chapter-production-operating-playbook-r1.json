@@ -1,0 +1,212 @@
+{
+  "record_type": "ComicChapterProductionOperatingPlaybook",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-chapter-production-operating-playbook-r1",
+  "state": "LOCAL_OPERATIONS_READY_PRODUCTION_BLOCKED",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r9.json",
+      "sha256": "44b01bf49580e9d95c99f918bcbaed7f2f35cdc9b05da59108a8bc367058b428"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+      "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-prompt-blueprint-r1.json",
+      "sha256": "1959a21e4c0d513c48272c2637816976c4be6adc69e9d0524e1babdabf75f5ac"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-prerender-packet-blueprint-r1.json",
+      "sha256": "08c1ca4bb570ad52e4556d06e94c3cd92553924603816bf05b89ac96a45e0a08"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-lifecycle-state-machine-r1.json",
+      "sha256": "2a8d5f67e57a45dce1ceec83464db2ac0a514a001af91314391d64a7c3068cf0"
+    }
+  ],
+  "summary": {
+    "steps": 12,
+    "ready_local_or_dry_run_steps": 5,
+    "owner_action_steps": 1,
+    "blocked_production_or_review_steps": 6,
+    "shell_commands": 11,
+    "agent_only_steps": 1,
+    "intentionally_unimplemented_compilers": 1,
+    "current_lifecycle_state": "DRAFT_BLUEPRINTED",
+    "current_enabled_transitions": 0,
+    "production_prompts": 0,
+    "renders": 0,
+    "review_events": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "human_review_minutes": null
+  },
+  "steps": [
+    {
+      "order": 1,
+      "id": "source_and_remote_preflight",
+      "status": "READY_LOCAL_ONLY",
+      "commands": [
+        "python src/north_garden/validate_tracked_source_scope.py",
+        "python src/north_garden/validate_ch05_remote_lineage.py"
+      ],
+      "pass": "zero failures and HEAD/origin parity",
+      "blocks": "any tracked generated/prohibited/credential path or remote mismatch"
+    },
+    {
+      "order": 2,
+      "id": "integrated_evidence_preflight",
+      "status": "READY_LOCAL_ONLY",
+      "commands": [
+        "python src/north_garden/validate_ch05_overnight_integrated_release_gate_r9.py",
+        "python src/north_garden/validate_frozen_gauntlet_baseline_integrity.py"
+      ],
+      "pass": "r9 reproduces 58 checks and frozen 16 + baseline 4 remain exact",
+      "blocks": "any semantic, stdout, frozen, or baseline mismatch"
+    },
+    {
+      "order": 3,
+      "id": "exact_owner_root_intake",
+      "status": "OWNER_ACTION_REQUIRED",
+      "commands": [
+        "python src/north_garden/validate_ch05_p010_p013_owner_unlock_contract.py"
+      ],
+      "pass": "six exact structured roots or exact alternate revisions are bound",
+      "blocks": "broad approval alone; current 0/6 structured roots"
+    },
+    {
+      "order": 4,
+      "id": "production_prompt_promotion",
+      "status": "BLOCKED_NOT_IMPLEMENTED_AND_OWNER_ROOTS",
+      "commands": [],
+      "pass": "future compiler writes four immutable production prompt hashes without mutating blueprint evidence",
+      "blocks": "compiler intentionally absent; production manifest prompts remain null"
+    },
+    {
+      "order": 5,
+      "id": "reference_and_prompt_preflight",
+      "status": "READY_DRAFT_VALIDATION_ONLY",
+      "commands": [
+        "python src/north_garden/validate_ch05_prompt_blueprint_draft.py",
+        "python src/north_garden/validate_ch05_prompt_blueprint_adversarial_fixtures.py"
+      ],
+      "pass": "4/4 drafts pass, 28/28 malformed fail, exact P040/P050 or text-only references",
+      "blocks": "age/likeness, hair/wardrobe/role, causal, lettering, reference, or execution regression"
+    },
+    {
+      "order": 6,
+      "id": "openai_builtin_imagegen",
+      "status": "BLOCKED_PRODUCTION_PROMPTS",
+      "commands": [],
+      "agent_action": "Use only OpenAI built-in ImageGen after production prompt hashes exist; upload only exact authorized reference hashes per row; no paid API.",
+      "pass": "four local ignored candidate files and tool-visible execution metadata",
+      "blocks": "provider unavailable, prompt gate unresolved, reference mismatch, or any expanded upload class"
+    },
+    {
+      "order": 7,
+      "id": "renderrecord_finalization",
+      "status": "BLOCKED_RENDER_OUTPUTS",
+      "commands": [],
+      "pass": "one complete RenderRecord per candidate with exact nulls for unavailable service fields",
+      "blocks": "missing prompt/input/output hash, dimensions, elapsed time, failure, candidate file, or human-review state"
+    },
+    {
+      "order": 8,
+      "id": "review_packet_build",
+      "status": "READY_DRY_RUN_ONLY",
+      "commands": [
+        "python src/north_garden/build_ch05_p010_p013_review_packet.py --dry-run"
+      ],
+      "future_command": "python src/north_garden/build_ch05_p010_p013_review_packet.py",
+      "pass": "dry run writes nothing now; actual build later creates five ignored deterministic artifacts",
+      "blocks": "any of four candidates absent for actual build or nonignored output path"
+    },
+    {
+      "order": 9,
+      "id": "live_human_review",
+      "status": "BLOCKED_PACKET",
+      "commands": [
+        "python src/north_garden/validate_ch05_human_review_time_event_log.py <event-log.json>"
+      ],
+      "pass": "44 candidate checks, sequence review, explicit decisions, and valid non-backfilled timer log",
+      "blocks": "missing check, invalid event chain, inferred minutes, or unresolved FAIL/WARN disclosure"
+    },
+    {
+      "order": 10,
+      "id": "targeted_repair_loop",
+      "status": "BLOCKED_EXACT_FAILURE",
+      "commands": [
+        "python src/north_garden/validate_ch05_p010_p013_lifecycle_state_machine.py"
+      ],
+      "pass": "at most two one-class repairs; passing rows and diagnostic failure preserved",
+      "blocks": "broad reroll, multi-class change, missing repair RenderRecord, or skipped packet/review"
+    },
+    {
+      "order": 11,
+      "id": "provisional_and_rights_decisions",
+      "status": "BLOCKED_HUMAN_REVIEW",
+      "commands": [],
+      "pass": "provisional engineering decision, commercial clearance, and exact-base eligibility recorded separately",
+      "blocks": "group acceptance, implied rights, reproducibility claim, or exact-base/commercial conflation"
+    },
+    {
+      "order": 12,
+      "id": "safe_evidence_release",
+      "status": "READY_SAFE_SOURCE_ONLY",
+      "commands": [
+        "python src/north_garden/validate_ch05_production_cost_ledger_r26.py"
+      ],
+      "operator_actions": [
+        "git diff --check",
+        "git push origin main"
+      ],
+      "pass": "only safe source/evidence committed and HEAD equals origin/main",
+      "blocks": "generated pixels, credentials, weights, datasets, references, runtimes, caches, or unrelated material staged"
+    }
+  ],
+  "data_boundary": {
+    "allowed_external_product": "OpenAI built-in ImageGen only",
+    "authorized_reference_hash_count": 3,
+    "row_hypotheses_use_unique_hashes": 2,
+    "text_only_control_rows": 1,
+    "paid_api_prohibited": true,
+    "new_provider_prohibited": true,
+    "real_person_adult_likeness_prohibited": true,
+    "child_related_material_prohibited": true,
+    "bfl_new_upload_prohibited": true
+  },
+  "source_boundary": {
+    "generated_pixels": "ignored local only",
+    "safe_commit_classes": [
+      "source",
+      "prompts and hashes",
+      "manifests",
+      "ADRs",
+      "validators",
+      "measurements",
+      "review metadata"
+    ],
+    "prohibited_commit_classes": [
+      ".env or credentials",
+      "generated images",
+      "weights or LoRAs",
+      "datasets or private references",
+      "installed runtimes or caches",
+      "unrelated workspace material"
+    ]
+  },
+  "failure_policy": {
+    "preserve_diagnostic": true,
+    "smallest_one_class_repair": true,
+    "maximum_pilot_repairs": 2,
+    "broad_reroll": false,
+    "warnings_disclosed": true,
+    "no_destructive_recovery": true
+  },
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Operational documentation only. Runnable local checks do not authorize blocked steps or imply candidate/rights decisions."
+}

@@ -1289,3 +1289,10 @@
 - Allocated the prior 13-slot ceiling as two reserved pilot repairs plus 11 largest-remainder slots across other remaining plans; wave loads are 6/12/20/11.
 - Remaining-plan arm is 49 candidates with 2,510.123-second median; fresh 50-plan consistency arm is 68 candidates with 3,483.436-second median.
 - Visually corrected short-bar label placement on the deterministic 1800×1580 chart; 18/18 mutations fail under ADR-0138.
+
+## 2026-09-01 - CH05 chapter production operating playbook r1
+
+- Compiled 12 ordered steps with exact inputs, pass criteria, and fail-closed conditions.
+- Separated 11 reproducible shell validations, one agent-only built-in ImageGen action, and two operator Git release actions.
+- Marked five local-ready/dry-run steps, one exact owner-action step, six blocked production/review steps, and one intentionally absent prompt-promotion compiler.
+- Current state stays draft/zero enabled; 18/18 mutations fail under ADR-0139.

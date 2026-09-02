@@ -408,3 +408,5 @@ Owner hub r5 builds byte-identically with seven links and two ignored local arti
 Integrated release r9 uses the compatible 49-check r8 base plus nine extensions. Ten/ten commands pass in 83.926 seconds, 58 effective checks are represented, and 30/30 mutations fail. Ledger r26 records 64 local zero-external-cost milestones.
 
 Chapter duration capacity uses 30.531/51.227/56.524-second p10/median/p90 candidate timing. The 49-candidate remaining-plan arm totals 1,496.019/2,510.123/2,769.676 seconds; the fresh 68-candidate arm has 3,483.436-second median. Wave loads are 6/12/20/11. Human time and built-in cost remain null.
+
+The production operating playbook validates 12 steps, 11 shell commands, one agent-only action, five local-ready steps, one owner-action step, and six blocked steps. Eighteen/eighteen mutations fail. This is operational-readiness evidence, not execution.

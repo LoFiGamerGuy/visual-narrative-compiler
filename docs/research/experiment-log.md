@@ -1310,3 +1310,10 @@
 - Rebuilt HTML, packet, and thumbnail twice byte-identically; five links/two artifacts validate and 17/17 mutations fail.
 - Extended the 112-resource r3 link manifest by five exact resources to 117 total (108 ignored local/nine tracked); 15/15 mutations fail.
 - Ledger r27 appends four local milestones to 68 total with zero external requests, uploads, or paid cost under ADR-0141.
+
+## 2026-09-01 - CH05 integrated release r10
+
+- Extended immutable r9 with duration, operating-playbook, delivery-r2, hub-r6, link-r4, cost-r27, frozen-integrity, and current tracked-scope validators.
+- Nine/nine commands pass in 89.568 seconds, representing 66 effective checks; independent reproduction rejects 34/34 mutations.
+- Normalized only the live decimal tracked-path diagnostic while preserving all scope semantics, input/script hashes, exit codes, and other stdout.
+- ADR-0142 keeps calls/uploads/downloads/spend/decisions/acceptance/clearance/execution at zero and review minutes null.

@@ -923,3 +923,11 @@
 - h006 removes unsupported lever/fulcrum semantics and produces the plan-literal one-plank reach-and-brace chain. ADR-0087 makes that interpretation explicit.
 - The hardening packet contains seven consolidated comparison/review sheets plus six individual overlays and six phone previews. All exact prompts, reference/output hashes, dimensions, timing, unavailable provider fields, and review metadata validate.
 - ComicStyleDirection r4 selects the role-aware cel-painted/clear-line route as the strongest engineering recommendation. Owner acceptance, commercial clearance, deterministic reproducibility, and exact-base promotion remain absent.
+
+## 2026-09-01 - non-canon future LitRPG concept trio
+
+- Generated three separately bounded concepts in 155.766 observed built-in-tool seconds: Soren's work-derived warden kit, Sigrid's plaid-preserving pathfinder kit, and a coordinated Mireback action panel.
+- All preserve the declared hair/identity motifs, practical adult proportions, readable equipment, and phone-size silhouettes. The monster action uses bow tension, spear redirection, mud/water, and material mass instead of generic speed texture.
+- Exact kit replication across the action panel is untested because l001/l002 were not authorized as additional ImageGen reference uploads; they were not uploaded.
+- ADR-0088 and the non-canon concept style direction keep every armor, weapon, monster, class, and wardrobe-evolution idea outside CH05 canon and ComicPanelPlans.
+- Exact prompts, input/output hashes, timing, null provider fields, two packet sheets, and three phone previews validate; human minutes/acceptance remain null/zero.

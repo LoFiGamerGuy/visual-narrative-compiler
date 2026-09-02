@@ -33,3 +33,5 @@ BFL's four candidates total 74.587 seconds and exact returned cost $0.24. The su
 The CH05 overnight built-in ImageGen run adds 20 candidates and 919.389 observed seconds. The built-in product exposed no cost or usage, so its monetary value is recorded as unavailable—not `$0`. No direct paid API, cloud GPU, purchase, BFL request, or G07-budget reuse occurred. Human minutes remain null and accepted candidates remain zero.
 
 The CH05 cadence-hardening run adds six candidates and 310.669 observed seconds under the same built-in-only boundary. Combined new overnight/hardening generation is 26 candidates and 1,230.058 seconds. Monetary cost remains unavailable, no paid API was used, human minutes remain null, and accepted candidates remain zero.
+
+The separately non-canon future LitRPG concept trio adds 155.766 observed seconds. Total new built-in generation is 29 candidates and 1,385.824 seconds. Monetary cost remains unavailable; no paid API, BFL, cloud GPU, purchase, or G07-budget reuse occurred.

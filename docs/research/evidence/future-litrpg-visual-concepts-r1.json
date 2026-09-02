@@ -1,0 +1,245 @@
+{
+  "record_type": "FutureLitRPGConceptEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-future-litrpg-concept-evidence-r1",
+  "state": "NONCANON_ENGINEERING_REVIEWED_OWNER_REVIEW_PENDING",
+  "canon_status": "NONCANON_FUTURE_EXPLORATION",
+  "production_planning_record": false,
+  "comic_panel_plan_revision": null,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "plan": {
+    "path": "production/comic/concepts/future-litrpg-visual-concepts-r1.json",
+    "sha256": "0f3df6dd2b59448e28e87012b324632d66b60ea080967847edcfbd0d66cf8ed3"
+  },
+  "review": {
+    "path": "production/comic/review/future-litrpg-visual-concepts-review-r1.json",
+    "sha256": "36e4826a212550c4a97b3848e311e5431aa5452fe18b5f6ee9ad6d94c68949ba"
+  },
+  "local_packet": {
+    "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/review/review-packet.json",
+    "sha256": "14d90d9e7482db2c9cbd17343272ed15f92a99c2c21cb4752f945288e2c3264a"
+  },
+  "summary": {
+    "candidate_count": 3,
+    "total_elapsed_seconds": 154.978,
+    "disclosed_spend_usd": null,
+    "paid_api_used": false,
+    "accepted_candidates": 0
+  },
+  "candidates": [
+    {
+      "candidate_id": "l001",
+      "concept_id": "future-soren-warden-artificer-kit",
+      "format_role": "full_body_character_design",
+      "prompt": "Use case: illustration-story\nAsset type: explicitly NON-CANON North Garden future LitRPG concept l001; not CH05 production art and not a ComicPanelPlan.\nPrimary request: Non-canon future Soren equipment concept. Show one clearly adult fictional man in a confident three-quarter full-body stance. Preserve his wavy light-brown/dark-blond hair, light stubble, weathered adult face, and pale oatmeal color identity. Evolve the work coat into a knee-length reinforced oatmeal-gray gambeson coat with removable dark-brown leather shoulder and forearm plates, muted blue underlayers, brass utility buckles, mud-ready boots, and a compact tool roll. Give him one practical ash-wood survey spear with a short steel head and one sheathed carpenter's hatchet; no oversized weapon. The silhouette should feel like a working engineer becoming a frontier warden, durable rather than aristocratic. Quiet stone-and-heather backdrop; open top-right field; no text.\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional-adult project reference only.\nStyle/medium: premium cel-painted fantasy webcomic with mature clear-line contour hierarchy, restrained painterly color, strong silhouettes, readable equipment, and selective environment detail.\nIdentity invariant: Soren always has wavy light-brown to dark-blond hair, never black; Sigrid always has dark-brown to near-black tied-back hair, never blond. P050/P040 control identity; never copy P036 hair colors.\nAdult boundary: every visible person is an unmistakably mature fictional adult with practical, non-sexualized proportions and clothing; no real-person likeness.\nEquipment boundary: practical fantasy armor and weapons only, readable grip and load, no gore, injury, fetish treatment, giant decorative weapon, logo, watermark, caption, speech balloon, interface, or readable text.\nContinuity boundary: these wardrobe, armor, weapon, monster, and class ideas are separate non-canon exploration and do not revise CH05 wardrobe or story state.",
+      "prompt_sha256": "82b9564c1f46e2638ceaaeef252d28f3757c75cfb6e0bf94ad3ab879229385df",
+      "references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/candidates/l001-future-soren-warden-artificer-kit-r1.png",
+        "sha256": "243d7f258a704a495efc49fb5976522beee2dd328b53b4995b66e66900ef7a7b",
+        "bytes": 2112077,
+        "width": 1693,
+        "height": 929,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 48.174,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null
+      },
+      "canon_status": "NONCANON_FUTURE_EXPLORATION",
+      "state": "GENERATED_UNREVIEWED",
+      "human_minutes": null,
+      "accepted": false,
+      "engineering_review": {
+        "candidate_id": "l001",
+        "results": {
+          "role_identity": "PASS",
+          "hair_continuity": "PASS",
+          "wardrobe_lineage": "PASS",
+          "equipment_readability": "PASS",
+          "mature_practical_design": "PASS",
+          "phone_size_silhouette": "PASS"
+        },
+        "note": "Soren reads as a frontier warden-engineer: oatmeal reinforced coat, leather protection, restrained spear scale, and tool pouches preserve workman identity."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null
+    },
+    {
+      "candidate_id": "l002",
+      "concept_id": "future-sigrid-pathfinder-kit",
+      "format_role": "full_body_character_design",
+      "prompt": "Use case: illustration-story\nAsset type: explicitly NON-CANON North Garden future LitRPG concept l002; not CH05 production art and not a ComicPanelPlan.\nPrimary request: Non-canon future Sigrid equipment concept. Show one clearly adult fictional woman in a grounded three-quarter full-body stance. Preserve her dark-brown near-black hair in a compact low braid/bun, mature angular face, dark brows, gray-blue eyes, and practical dark blue-brown plaid identity. Integrate the plaid as a weather cape over charcoal-gray brigandine with small matte plates, gray-green expedition layers, reinforced gloves, belt pouches, and mud-ready boots. Give her one compact recurved field bow and one sheathed short utility sword; no oversized weapon. The silhouette should feel like a disciplined pathfinder and tactical leader, mobile and non-sexualized. Windy moor backdrop; open top-left field; no text.\nInput images: Image 1: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional-adult project reference only. Image 2: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional-adult project reference only.\nStyle/medium: premium cel-painted fantasy webcomic with mature clear-line contour hierarchy, restrained painterly color, strong silhouettes, readable equipment, and selective environment detail.\nIdentity invariant: Soren always has wavy light-brown to dark-blond hair, never black; Sigrid always has dark-brown to near-black tied-back hair, never blond. P050/P040 control identity; never copy P036 hair colors.\nAdult boundary: every visible person is an unmistakably mature fictional adult with practical, non-sexualized proportions and clothing; no real-person likeness.\nEquipment boundary: practical fantasy armor and weapons only, readable grip and load, no gore, injury, fetish treatment, giant decorative weapon, logo, watermark, caption, speech balloon, interface, or readable text.\nContinuity boundary: these wardrobe, armor, weapon, monster, and class ideas are separate non-canon exploration and do not revise CH05 wardrobe or story state.",
+      "prompt_sha256": "91a9d2c51b560da01bd76cb9215173c747cacebbfd9b2fd71e651cf7a1829664",
+      "references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        },
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/candidates/l002-future-sigrid-pathfinder-kit-r1.png",
+        "sha256": "85f6201d26d2371cf376b39d7d82e910685423351cf61a6c3b38d76dc59c76fc",
+        "bytes": 2275806,
+        "width": 1023,
+        "height": 1537,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 55.935,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null
+      },
+      "canon_status": "NONCANON_FUTURE_EXPLORATION",
+      "state": "GENERATED_UNREVIEWED",
+      "human_minutes": null,
+      "accepted": false,
+      "engineering_review": {
+        "candidate_id": "l002",
+        "results": {
+          "role_identity": "PASS",
+          "hair_continuity": "PASS",
+          "wardrobe_lineage": "PASS",
+          "equipment_readability": "PASS",
+          "mature_practical_design": "PASS",
+          "phone_size_silhouette": "PASS"
+        },
+        "note": "Sigrid reads as a mobile pathfinder: dark tied hair, plaid weather cape, matte brigandine, compact bow, and short utility blade remain practical and distinct."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null
+    },
+    {
+      "candidate_id": "l003",
+      "concept_id": "future-mireback-encounter",
+      "format_role": "wide_monster_action_concept",
+      "prompt": "Use case: illustration-story\nAsset type: explicitly NON-CANON North Garden future LitRPG concept l003; not CH05 production art and not a ComicPanelPlan.\nPrimary request: Non-canon future LitRPG monster-action concept. Wide cinematic panel with exactly two clearly adult fictional protagonists using the upgraded kits: dark-haired Sigrid in plaid pathfinder armor pivots left and draws her compact bow while light-brown-haired Soren in reinforced oatmeal warden coat plants his survey spear to redirect a charging Mireback, a wholly fictional non-human quadruped made of peat, roots, slate plates, and dim amber mineral seams. Show causal action: rear-foot weight, bow tension, spear leverage against one slate shoulder, churned mud and water, whipping plaid and coat tails. No gore or injury. Strong three-way silhouettes, clear faces/hands/weapons, exciting but physically grounded motion, quieter storm sky for future lettering, no UI, no readable text, no extra people.\nInput images: Image 1: primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor; exact fictional-adult project reference only. Image 2: primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor; exact fictional-adult project reference only.\nStyle/medium: premium cel-painted fantasy webcomic with mature clear-line contour hierarchy, restrained painterly color, strong silhouettes, readable equipment, and selective environment detail.\nIdentity invariant: Soren always has wavy light-brown to dark-blond hair, never black; Sigrid always has dark-brown to near-black tied-back hair, never blond. P050/P040 control identity; never copy P036 hair colors.\nAdult boundary: every visible person is an unmistakably mature fictional adult with practical, non-sexualized proportions and clothing; no real-person likeness.\nEquipment boundary: practical fantasy armor and weapons only, readable grip and load, no gore, injury, fetish treatment, giant decorative weapon, logo, watermark, caption, speech balloon, interface, or readable text.\nContinuity boundary: these wardrobe, armor, weapon, monster, and class ideas are separate non-canon exploration and do not revise CH05 wardrobe or story state.",
+      "prompt_sha256": "4ea89a209c336552da20b9bad9c2e0b686c56602ae997d295888321441410a77",
+      "references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/candidates/l003-future-mireback-encounter-r1.png",
+        "sha256": "b5f2dc0ed9bf610ddf6f184bcc3d87a28327414f3b42f9a1896d1be1d263c9c4",
+        "bytes": 2465653,
+        "width": 1692,
+        "height": 929,
+        "mode": "RGB"
+      },
+      "execution": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 50.869,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null
+      },
+      "canon_status": "NONCANON_FUTURE_EXPLORATION",
+      "state": "GENERATED_UNREVIEWED",
+      "human_minutes": null,
+      "accepted": false,
+      "engineering_review": {
+        "candidate_id": "l003",
+        "results": {
+          "role_identity": "PASS",
+          "hair_continuity": "PASS",
+          "wardrobe_lineage": "PASS",
+          "equipment_readability": "PASS",
+          "mature_practical_design": "PASS",
+          "phone_size_silhouette": "PASS",
+          "exact_kit_reproduction": "WARN"
+        },
+        "note": "The Mireback scene has clear teamwork and physical action. Exact l001/l002 plate layout was not tested because those new outputs were not authorized as further ImageGen reference uploads."
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null
+    }
+  ],
+  "review_artifacts": {
+    "concept_contact_sheet": {
+      "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/review/contact-sheet-future-litrpg-concepts.png",
+      "sha256": "2f858c7f9a16300b7259fb94bb6e6dd1ce6c23f69804c8e2b08262e0b0c80f9a",
+      "width": 2260,
+      "height": 870
+    },
+    "phone_previews": {
+      "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/review/contact-sheet-future-litrpg-phone-previews.png",
+      "sha256": "4eb55192b2baa27a7ac29ffd345a911bda47cd83a9df50057825a13ef3b9f15d",
+      "width": 1660,
+      "height": 1080
+    }
+  },
+  "candidate_derivatives": [
+    {
+      "candidate_id": "l001",
+      "phone_preview": {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/review/phone-previews/l001-phone-390px.png",
+        "sha256": "269ff9864de814a8ab6b4096f9cd0feff6ad16288cb5623528a16e33fab4fec3"
+      }
+    },
+    {
+      "candidate_id": "l002",
+      "phone_preview": {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/review/phone-previews/l002-phone-390px.png",
+        "sha256": "06d8ae8cc53b4504e0924e6d0eb47336f1dcfed5d3744eefbe663a81bce95318"
+      }
+    },
+    {
+      "candidate_id": "l003",
+      "phone_preview": {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/review/phone-previews/l003-phone-390px.png",
+        "sha256": "b8364a7b5083fb59b912a1a77a504a8915f0a96e5f18450304db1467c0d8e3bd"
+      }
+    }
+  ],
+  "provisional_direction": {
+    "soren": "Retain oatmeal as the dominant value and evolve via removable work-derived protection, tools, and a modest reach weapon.",
+    "sigrid": "Retain the plaid as the dominant motion shape and integrate light dark armor, bow, and short utility blade beneath it.",
+    "monster": "Favor material-causal creatures whose mass, joints, weak surfaces, and interaction with terrain support readable tactics; the peat/root/slate Mireback is a promising motif.",
+    "litrpg_energy": "Express class progression through equipment function, tactics, and silhouette before adding interface text or spectacle."
+  },
+  "limitations": [
+    "Concept images are not CH05 canon and do not revise current wardrobe.",
+    "No new concept output was uploaded as a reference, so exact cross-concept kit continuity is untested.",
+    "Built-in model, endpoint, request ID, usage, cost, deterministic seed, and commercial status are unavailable.",
+    "No candidate is owner accepted or commercially cleared."
+  ],
+  "boundary": "Armor, weapons, monster, class implication, and evolved wardrobe are non-canon ideas; generated pixels remain ignored and unaccepted."
+}

@@ -27,3 +27,7 @@ The ignored local review packet is `experiments/review-packets/ch05-overnight-pr
 ## Cadence-hardening addendum
 
 Six additional candidates close the cel-painted wide-action gap and repair c003/c007/c009. Compare c011 → h005 → h006 to see why plan-literal single-plank wording outperforms lever terminology for P036. Hardening evidence is `docs/research/evidence/ch05-cadence-hardening-r1.json`; the ignored local packet is `experiments/review-packets/ch05-cadence-hardening-r1/review/review-packet.json`.
+
+## Separate non-canon concept review
+
+l001/l002/l003 explore future equipment and a Mireback encounter without revising CH05. Exact kit replication across l003 is not claimed because l001/l002 were not re-uploaded. Tracked evidence is `docs/research/evidence/future-litrpg-visual-concepts-r1.json`; the ignored packet is `experiments/review-packets/future-litrpg-visual-concepts-r1/review/review-packet.json`.

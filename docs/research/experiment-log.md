@@ -1084,3 +1084,10 @@
 - Recorded model, endpoint, request ID, provider usage, monetary cost, and seed as explicit `null` for all 29 records because the built-in product did not expose them.
 - Reconciled the concept trio to 154.978 exact seconds, correcting a 0.788-second legacy narrative difference append-only under ADR-0109.
 - All 29 candidates remain pending and unaccepted; completeness rejects 27/27 mutations and reconciliation rejects 12/12.
+
+## 2026-09-01 - CH05 integrated release r4
+
+- Preserved immutable release r3 and added exactly three post-r3 validators: chapter-scale envelope, concept timing reconciliation, and all-29 RenderRecord completeness.
+- Four/four orchestrator commands pass, representing 33 effective checks, in 6.934 observed seconds; 23/23 release-record mutations fail.
+- Frozen v2.1.1 16-path and `baseline_legacy` four-path integrity remain in the release chain.
+- ADR-0110 keeps art acceptance, executable rows, owner decisions, calls, uploads, downloads, and cost at zero; human minutes remain null.

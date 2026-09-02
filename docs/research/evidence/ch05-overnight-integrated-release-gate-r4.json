@@ -1,0 +1,104 @@
+{
+  "record_type": "CH05OvernightIntegratedReleaseGate",
+  "schema_version": "1.3",
+  "record_id": "ng-ch05-overnight-integrated-release-gate-r4",
+  "state": "PASS",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-ch05-overnight-integrated-release-gate-r3",
+    "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r3.json",
+    "sha256": "f1685919b741e7776a52b5089de90b6aa43b3e853b4ed0832dae05565793df7c"
+  },
+  "summary": {
+    "base_effective_command_count": 30,
+    "extension_command_count": 3,
+    "effective_command_count": 33,
+    "orchestrator_commands": 4,
+    "passed": 4,
+    "failed": 0,
+    "observed_total_seconds": 6.933863,
+    "network_capable_commands": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "downloads": 0,
+    "cost_usd": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "owner_decisions": 0,
+    "human_review_minutes": null
+  },
+  "results": [
+    {
+      "path": "src/north_garden/validate_ch05_overnight_integrated_release_gate_r3.py",
+      "script_sha256": "10432d9008b7fa37a09ce7b146a529d2df09eee2f634235839c8f4de7db4980d",
+      "command": "python src/north_garden/validate_ch05_overnight_integrated_release_gate_r3.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 6.132599,
+      "stdout": "CH05 overnight integrated release r3: 0 failures; immutable 18 + 12 = 30 effective checks; 23/23 mutations rejected\n29 candidates/50 plans/39 pending/0 decisions; frozen 16 + baseline 4 + source pass; 0 accepted/executable/calls/uploads/$0\n",
+      "stdout_sha256": "7b53a9da50a162b4aae36555266ecf2ea8442285f22a0c5c44b1b210d4e3de65",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_chapter_scale_production_envelope.py",
+      "script_sha256": "1021177593f5a0c5d5e804c003eedab5d4436f65be0ea57559b85f3951d258c2",
+      "command": "python src/north_garden/validate_ch05_chapter_scale_production_envelope.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.078095,
+      "stdout": "CH05 chapter-scale envelope: 0 failures; 50=14+36; scenarios 36/49/72; 25/25 mutations rejected\n13 repair slots; 0 prompts/renders/plans/provider/uploads/$0; money/human time null\n",
+      "stdout_sha256": "c1afec48c58c328aea8cfbb3d1855b85b44df35b6d88b67809e337483b3cbc30",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_future_litrpg_concept_timing_reconciliation.py",
+      "script_sha256": "0c619d6ac4daa4df8f5c94b6bca0479beac4d4e432a524c8240ddb3f7dfde493",
+      "command": "python src/north_garden/validate_future_litrpg_concept_timing_reconciliation.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.052851,
+      "stdout": "future LitRPG timing reconciliation: 0 failures; 154.978s/5 refs; exact 29 total 1385.036s/39 refs; 12/12 mutations rejected\nlegacy 0.788s delta retained; source rewrites/calls/uploads/cost 0/0/0/$0\n",
+      "stdout_sha256": "1a3e6c048a2bdf28c67761b58ae80b3ffdfd80c6873c18df9186e562a8340ea1",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_renderrecord_completeness_audit.py",
+      "script_sha256": "091383f47d7f7b98d4c11f3dabf29b3a8b361fe497a78ac8253a777251053b70",
+      "command": "python src/north_garden/validate_ch05_renderrecord_completeness_audit.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.669545,
+      "stdout": "CH05 RenderRecord completeness: 0 failures; 29 records/39 refs/1385.036s; 27/27 mutations rejected\n29 each explicit null model/endpoint/request/usage/cost/seed; outputs ignored; pending 29/accepted 0; audit activity 0\n",
+      "stdout_sha256": "c002e9922c428ad9850814c915f92d70df6a5dd035d9d321f02c15f42eae816e",
+      "stderr": ""
+    }
+  ],
+  "effective_state": {
+    "candidates": 29,
+    "renderrecords": 29,
+    "reference_uses": 39,
+    "observed_generation_seconds": 1385.036,
+    "ch05_candidates": 26,
+    "noncanon_concepts": 3,
+    "selected": 14,
+    "comic_panel_plans": 50,
+    "remaining_plans": 36,
+    "chapter_scenarios": [
+      36,
+      49,
+      72
+    ],
+    "pending_decision_subjects": 39,
+    "completed_decisions": 0,
+    "frozen_paths": 16,
+    "baseline_paths": 4
+  },
+  "boundaries": [
+    "R3 remains immutable; r4 preserves its 30 effective checks and adds the chapter envelope, timing reconciliation, and all-29 RenderRecord audit.",
+    "All commands are local and non-network-capable.",
+    "Passing does not accept art, infer unavailable service metadata, authorize prompts/uploads, revise ComicPanelPlans, or grant commercial clearance."
+  ]
+}

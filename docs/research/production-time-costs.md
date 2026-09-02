@@ -36,6 +36,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 integrated release r3 | 13 orchestrator / 30 effective local checks | 6.202 s observed successful gate; provider generation not used | unmeasured | $0 API/cloud | all checks pass; 0 accepted/executable |
 | CH05 chapter-scale envelope r1 | 36/49/72 unexecuted remaining-plan candidate scenarios | median 1,844.172/2,510.123/3,688.344 s generation-only | unmeasured | built-in cost unavailable; no execution | 0 prompts/renders/accepted/executable |
 | CH05 all-candidate RenderRecord audit r1 | 29 exact records / 39 reference uses | 1,385.036 s exact observed generation total | unmeasured | model/endpoint/request/usage/cost/seed unavailable and explicit null | 29 pending; 0 accepted |
+| CH05 integrated release r4 | immutable 30-check r3 + 3 extension checks | 6.934 s observed local gate time | unmeasured | $0 API/cloud | 33 effective checks pass; 0 accepted/executable |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

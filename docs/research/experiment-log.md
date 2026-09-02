@@ -1034,3 +1034,10 @@
 - Each record carries exact existing engineering results plus explicit manual checks for hair color/style, oatmeal coat, plaid wrap, role staging, mature anatomy, hands/story object, and lettering clearance.
 - Exact existing state is 17 all-pass, three warn, six fail; hair/wardrobe labels are 26/26 pass and role-order labels are 25 pass/one fail.
 - Visual QA found and fixed sequence-position labels that initially masqueraded as plan IDs. ADR-0102 forbids face cropping/identity inference and keeps owner decisions/minutes null; 16/16 mutations fail.
+
+## 2026-09-01 - CH05 panel-scale/cadence policy r1
+
+- Compiled all 50 plans into nine conditional scale roles spanning 520–1,200 source pixels, based on motion, cast occupancy, narrative function, and measured selected evidence.
+- Preserved eight current selected widths (560/600/700/720/740/760/780/1040px) rather than imposing a uniform ratio.
+- Bound exact lettering evidence: tested two-line in-art copy needs 1,200px on c005/c013/h001; the outside-art arm reaches 13.975px at +3.295% height but remains caption/direct-text semantics only.
+- ADR-0103 keeps all ranges conditional. One explicit-dialogue plan remains copy-unbound; 19/19 mutations fail and no layout/plan/copy/provider state changes.

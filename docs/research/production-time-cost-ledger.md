@@ -59,3 +59,5 @@ The owner-decision draft validator adds no generation or external cost. It exerc
 The character-assertion and prompt-lint compiler adds no generation or external cost. It binds 50 existing ComicPanelPlans and scans 26 existing prompts; prompts created, plans revised, identity inferences, calls, uploads, and acceptance remain zero.
 
 The manual continuity atlas adds two ignored local comparison images from 26 existing candidates and no renderer generation or external cost. Face crops, identity inferences, owner decisions, calls, and uploads remain zero; human minutes remain null.
+
+The panel-scale/cadence policy adds one ignored 50-row chart and tracked conditional metadata with no generation or external cost. Final copy, accepted layouts, ComicPanelPlan revisions, calls, and uploads remain zero; human minutes remain null.

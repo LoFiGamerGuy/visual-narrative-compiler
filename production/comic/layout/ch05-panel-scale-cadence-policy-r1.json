@@ -1,0 +1,1301 @@
+{
+  "record_type": "ComicPanelScaleCadencePolicy",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-panel-scale-cadence-policy-r1",
+  "state": "CONDITIONAL_RECOMMENDATION_OWNER_PENDING",
+  "medium": "comic",
+  "comic_panel_plan_collection": {
+    "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+  },
+  "rules": {
+    "WIDE_DIRECTIONAL_ANCHOR": {
+      "min": 1040,
+      "max": 1200,
+      "function": "dual-cast travel/action/reveal anchor",
+      "copy": "silent or minimal; use 1200 for tested two-line in-art copy"
+    },
+    "WIDE_ENVIRONMENTAL_MOTION": {
+      "min": 880,
+      "max": 1120,
+      "function": "water/smoke/path motion without people",
+      "copy": "normally silent; outside-art caption only after plan revision"
+    },
+    "TALL_OR_WIDE_DUAL_CAUSAL": {
+      "min": 700,
+      "max": 1040,
+      "function": "two-person practical action with literal leverage/hand geometry",
+      "copy": "keep action silent; do not trade causal geometry for a balloon"
+    },
+    "MEDIUM_SINGLE_CAUSAL": {
+      "min": 700,
+      "max": 960,
+      "function": "one-adult hand/object causal action",
+      "copy": "keep action silent or move approved caption outside art"
+    },
+    "MEDIUM_TWO_SHOT": {
+      "min": 880,
+      "max": 1040,
+      "function": "dual reaction/observation/blocked movement",
+      "copy": "if attributed speech is required, test 1200 or revise plan semantics"
+    },
+    "MEDIUM_CHARACTER_CLUE": {
+      "min": 720,
+      "max": 960,
+      "function": "single-adult observation/deduction/continuity",
+      "copy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option"
+    },
+    "SMALL_OBJECT_INSERT": {
+      "min": 520,
+      "max": 720,
+      "function": "silent clue/object/environment insert",
+      "copy": "no dialogue; do not shrink lettering into the art"
+    },
+    "SMALL_SENSORY_INSERT": {
+      "min": 560,
+      "max": 760,
+      "function": "quiet smoke/water/bell/absence beat",
+      "copy": "prefer silence; caption band requires plan revision"
+    },
+    "MEDIUM_SENSORY_REACTION": {
+      "min": 760,
+      "max": 1040,
+      "function": "dual sensory/reaction beat",
+      "copy": "speech needs literal speaker semantics and 1200 test footprint"
+    }
+  },
+  "rule_count": 9,
+  "rows": [
+    {
+      "display_order": 1,
+      "panel_id": "ng-ch05-sc01-p001",
+      "plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "departure_orientation",
+      "motion_mode": "directional_motion",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "function": "dual-cast travel/action/reveal anchor",
+      "copy_policy": "silent or minimal; use 1200 for tested two-line in-art copy",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 1040,
+      "current_selected_candidate_id": "c019",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 2,
+      "panel_id": "ng-ch05-sc01-p002",
+      "plan_revision_id": "ng-ch05-sc01-p002-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "departure_orientation",
+      "motion_mode": "held_sensory_event",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 760,
+      "current_selected_candidate_id": "c002",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 3,
+      "panel_id": "ng-ch05-sc01-p003",
+      "plan_revision_id": "ng-ch05-sc01-p003-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "departure_orientation",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 600,
+      "current_selected_candidate_id": "h002",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 4,
+      "panel_id": "ng-ch05-sc01-p004",
+      "plan_revision_id": "ng-ch05-sc01-p004-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "departure_orientation",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_TWO_SHOT",
+      "width_range_px": [
+        880,
+        1040
+      ],
+      "function": "dual reaction/observation/blocked movement",
+      "copy_policy": "if attributed speech is required, test 1200 or revise plan semantics",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 5,
+      "panel_id": "ng-ch05-sc01-p005",
+      "plan_revision_id": "ng-ch05-sc01-p005-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "directional_motion",
+      "visible_adult_cast": [],
+      "scale_role": "WIDE_ENVIRONMENTAL_MOTION",
+      "width_range_px": [
+        880,
+        1120
+      ],
+      "function": "water/smoke/path motion without people",
+      "copy_policy": "normally silent; outside-art caption only after plan revision",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 6,
+      "panel_id": "ng-ch05-sc01-p006",
+      "plan_revision_id": "ng-ch05-sc01-p006-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "directional_motion",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "function": "dual-cast travel/action/reveal anchor",
+      "copy_policy": "silent or minimal; use 1200 for tested two-line in-art copy",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 7,
+      "panel_id": "ng-ch05-sc01-p007",
+      "plan_revision_id": "ng-ch05-sc01-p007-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "function": "silent clue/object/environment insert",
+      "copy_policy": "no dialogue; do not shrink lettering into the art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 8,
+      "panel_id": "ng-ch05-sc01-p008",
+      "plan_revision_id": "ng-ch05-sc01-p008-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 9,
+      "panel_id": "ng-ch05-sc01-p009",
+      "plan_revision_id": "ng-ch05-sc01-p009-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_TWO_SHOT",
+      "width_range_px": [
+        880,
+        1040
+      ],
+      "function": "dual reaction/observation/blocked movement",
+      "copy_policy": "if attributed speech is required, test 1200 or revise plan semantics",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 720,
+      "current_selected_candidate_id": "c005",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 10,
+      "panel_id": "ng-ch05-sc01-p010",
+      "plan_revision_id": "ng-ch05-sc01-p010-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 11,
+      "panel_id": "ng-ch05-sc01-p011",
+      "plan_revision_id": "ng-ch05-sc01-p011-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 12,
+      "panel_id": "ng-ch05-sc01-p012",
+      "plan_revision_id": "ng-ch05-sc01-p012-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "function": "silent clue/object/environment insert",
+      "copy_policy": "no dialogue; do not shrink lettering into the art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 13,
+      "panel_id": "ng-ch05-sc01-p013",
+      "plan_revision_id": "ng-ch05-sc01-p013-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "directional_motion",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "function": "dual-cast travel/action/reveal anchor",
+      "copy_policy": "silent or minimal; use 1200 for tested two-line in-art copy",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 14,
+      "panel_id": "ng-ch05-sc01-p014",
+      "plan_revision_id": "ng-ch05-sc01-p014-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_sensory_event",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "function": "quiet smoke/water/bell/absence beat",
+      "copy_policy": "prefer silence; caption band requires plan revision",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 15,
+      "panel_id": "ng-ch05-sc01-p015",
+      "plan_revision_id": "ng-ch05-sc01-p015-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 16,
+      "panel_id": "ng-ch05-sc01-p016",
+      "plan_revision_id": "ng-ch05-sc01-p016-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_sensory_event",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_SENSORY_REACTION",
+      "width_range_px": [
+        760,
+        1040
+      ],
+      "function": "dual sensory/reaction beat",
+      "copy_policy": "speech needs literal speaker semantics and 1200 test footprint",
+      "explicit_dialogue_detected": true,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 17,
+      "panel_id": "ng-ch05-sc01-p017",
+      "plan_revision_id": "ng-ch05-sc01-p017-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "function": "silent clue/object/environment insert",
+      "copy_policy": "no dialogue; do not shrink lettering into the art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 18,
+      "panel_id": "ng-ch05-sc01-p018",
+      "plan_revision_id": "ng-ch05-sc01-p018-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_sensory_event",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "function": "quiet smoke/water/bell/absence beat",
+      "copy_policy": "prefer silence; caption band requires plan revision",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 19,
+      "panel_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "mill_approach",
+      "motion_mode": "practical_action",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "TALL_OR_WIDE_DUAL_CAUSAL",
+      "width_range_px": [
+        700,
+        1040
+      ],
+      "function": "two-person practical action with literal leverage/hand geometry",
+      "copy_policy": "keep action silent; do not trade causal geometry for a balloon",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 1040,
+      "current_selected_candidate_id": "c006",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 20,
+      "panel_id": "ng-ch05-sc01-p020",
+      "plan_revision_id": "ng-ch05-sc01-p020-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "directional_motion",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "function": "dual-cast travel/action/reveal anchor",
+      "copy_policy": "silent or minimal; use 1200 for tested two-line in-art copy",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 21,
+      "panel_id": "ng-ch05-sc01-p021",
+      "plan_revision_id": "ng-ch05-sc01-p021-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "function": "silent clue/object/environment insert",
+      "copy_policy": "no dialogue; do not shrink lettering into the art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 22,
+      "panel_id": "ng-ch05-sc01-p022",
+      "plan_revision_id": "ng-ch05-sc01-p022-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_TWO_SHOT",
+      "width_range_px": [
+        880,
+        1040
+      ],
+      "function": "dual reaction/observation/blocked movement",
+      "copy_policy": "if attributed speech is required, test 1200 or revise plan semantics",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 23,
+      "panel_id": "ng-ch05-sc01-p023",
+      "plan_revision_id": "ng-ch05-sc01-p023-plan-r1",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "directional_motion",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "function": "dual-cast travel/action/reveal anchor",
+      "copy_policy": "silent or minimal; use 1200 for tested two-line in-art copy",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 24,
+      "panel_id": "ng-ch05-sc01-p024",
+      "plan_revision_id": "ng-ch05-sc01-p024-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_sensory_event",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "function": "quiet smoke/water/bell/absence beat",
+      "copy_policy": "prefer silence; caption band requires plan revision",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 25,
+      "panel_id": "ng-ch05-sc01-p025",
+      "plan_revision_id": "ng-ch05-sc01-p025-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "function": "silent clue/object/environment insert",
+      "copy_policy": "no dialogue; do not shrink lettering into the art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 26,
+      "panel_id": "ng-ch05-sc01-p026",
+      "plan_revision_id": "ng-ch05-sc01-p026-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "mill_approach",
+      "motion_mode": "practical_action",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_SINGLE_CAUSAL",
+      "width_range_px": [
+        700,
+        960
+      ],
+      "function": "one-adult hand/object causal action",
+      "copy_policy": "keep action silent or move approved caption outside art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 700,
+      "current_selected_candidate_id": "c008",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 27,
+      "panel_id": "ng-ch05-sc01-p027",
+      "plan_revision_id": "ng-ch05-sc01-p027-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 28,
+      "panel_id": "ng-ch05-sc01-p028",
+      "plan_revision_id": "ng-ch05-sc01-p028-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "function": "silent clue/object/environment insert",
+      "copy_policy": "no dialogue; do not shrink lettering into the art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 29,
+      "panel_id": "ng-ch05-sc01-p029",
+      "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_TWO_SHOT",
+      "width_range_px": [
+        880,
+        1040
+      ],
+      "function": "dual reaction/observation/blocked movement",
+      "copy_policy": "if attributed speech is required, test 1200 or revise plan semantics",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 1040,
+      "current_selected_candidate_id": "h004",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 30,
+      "panel_id": "ng-ch05-sc01-p030",
+      "plan_revision_id": "ng-ch05-sc01-p030-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "function": "silent clue/object/environment insert",
+      "copy_policy": "no dialogue; do not shrink lettering into the art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 31,
+      "panel_id": "ng-ch05-sc01-p031",
+      "plan_revision_id": "ng-ch05-sc01-p031-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 32,
+      "panel_id": "ng-ch05-sc01-p032",
+      "plan_revision_id": "ng-ch05-sc01-p032-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 33,
+      "panel_id": "ng-ch05-sc01-p033",
+      "plan_revision_id": "ng-ch05-sc01-p033-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_sensory_event",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_SENSORY_REACTION",
+      "width_range_px": [
+        760,
+        1040
+      ],
+      "function": "dual sensory/reaction beat",
+      "copy_policy": "speech needs literal speaker semantics and 1200 test footprint",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 34,
+      "panel_id": "ng-ch05-sc01-p034",
+      "plan_revision_id": "ng-ch05-sc01-p034-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_TWO_SHOT",
+      "width_range_px": [
+        880,
+        1040
+      ],
+      "function": "dual reaction/observation/blocked movement",
+      "copy_policy": "if attributed speech is required, test 1200 or revise plan semantics",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 35,
+      "panel_id": "ng-ch05-sc01-p035",
+      "plan_revision_id": "ng-ch05-sc01-p035-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "function": "silent clue/object/environment insert",
+      "copy_policy": "no dialogue; do not shrink lettering into the art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 560,
+      "current_selected_candidate_id": "c010",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 36,
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "mill_interior",
+      "motion_mode": "practical_action",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "TALL_OR_WIDE_DUAL_CAUSAL",
+      "width_range_px": [
+        700,
+        1040
+      ],
+      "function": "two-person practical action with literal leverage/hand geometry",
+      "copy_policy": "keep action silent; do not trade causal geometry for a balloon",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 700,
+      "current_selected_candidate_id": "h006",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 37,
+      "panel_id": "ng-ch05-sc01-p037",
+      "plan_revision_id": "ng-ch05-sc01-p037-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "function": "silent clue/object/environment insert",
+      "copy_policy": "no dialogue; do not shrink lettering into the art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 38,
+      "panel_id": "ng-ch05-sc01-p038",
+      "plan_revision_id": "ng-ch05-sc01-p038-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "directional_motion",
+      "visible_adult_cast": [],
+      "scale_role": "WIDE_ENVIRONMENTAL_MOTION",
+      "width_range_px": [
+        880,
+        1120
+      ],
+      "function": "water/smoke/path motion without people",
+      "copy_policy": "normally silent; outside-art caption only after plan revision",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 39,
+      "panel_id": "ng-ch05-sc01-p039",
+      "plan_revision_id": "ng-ch05-sc01-p039-plan-r1",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 40,
+      "panel_id": "ng-ch05-sc01-p040",
+      "plan_revision_id": "ng-ch05-sc01-p040-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_sensory_event",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 760,
+      "current_selected_candidate_id": "c013",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 41,
+      "panel_id": "ng-ch05-sc01-p041",
+      "plan_revision_id": "ng-ch05-sc01-p041-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_sensory_event",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "function": "quiet smoke/water/bell/absence beat",
+      "copy_policy": "prefer silence; caption band requires plan revision",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 42,
+      "panel_id": "ng-ch05-sc01-p042",
+      "plan_revision_id": "ng-ch05-sc01-p042-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_sensory_event",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "function": "quiet smoke/water/bell/absence beat",
+      "copy_policy": "prefer silence; caption band requires plan revision",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 43,
+      "panel_id": "ng-ch05-sc01-p043",
+      "plan_revision_id": "ng-ch05-sc01-p043-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "directional_motion",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "function": "dual-cast travel/action/reveal anchor",
+      "copy_policy": "silent or minimal; use 1200 for tested two-line in-art copy",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 44,
+      "panel_id": "ng-ch05-sc01-p044",
+      "plan_revision_id": "ng-ch05-sc01-p044-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "practical_action",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "scale_role": "MEDIUM_SINGLE_CAUSAL",
+      "width_range_px": [
+        700,
+        960
+      ],
+      "function": "one-adult hand/object causal action",
+      "copy_policy": "keep action silent or move approved caption outside art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 560,
+      "current_selected_candidate_id": "c014",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 45,
+      "panel_id": "ng-ch05-sc01-p045",
+      "plan_revision_id": "ng-ch05-sc01-p045-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_OBJECT_INSERT",
+      "width_range_px": [
+        520,
+        720
+      ],
+      "function": "silent clue/object/environment insert",
+      "copy_policy": "no dialogue; do not shrink lettering into the art",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 46,
+      "panel_id": "ng-ch05-sc01-p046",
+      "plan_revision_id": "ng-ch05-sc01-p046-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 740,
+      "current_selected_candidate_id": "c015",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 47,
+      "panel_id": "ng-ch05-sc01-p047",
+      "plan_revision_id": "ng-ch05-sc01-p047-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "directional_motion",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "function": "dual-cast travel/action/reveal anchor",
+      "copy_policy": "silent or minimal; use 1200 for tested two-line in-art copy",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 48,
+      "panel_id": "ng-ch05-sc01-p048",
+      "plan_revision_id": "ng-ch05-sc01-p048-plan-r1",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_sensory_event",
+      "visible_adult_cast": [],
+      "scale_role": "SMALL_SENSORY_INSERT",
+      "width_range_px": [
+        560,
+        760
+      ],
+      "function": "quiet smoke/water/bell/absence beat",
+      "copy_policy": "prefer silence; caption band requires plan revision",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": null,
+      "current_selected_candidate_id": null,
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 49,
+      "panel_id": "ng-ch05-sc01-p049",
+      "plan_revision_id": "ng-ch05-sc01-p049-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_observation",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "scale_role": "MEDIUM_CHARACTER_CLUE",
+      "width_range_px": [
+        720,
+        960
+      ],
+      "function": "single-adult observation/deduction/continuity",
+      "copy_policy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 780,
+      "current_selected_candidate_id": "c016",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 50,
+      "panel_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "coverage_state": "selected",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "directional_motion",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "scale_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "width_range_px": [
+        1040,
+        1200
+      ],
+      "function": "dual-cast travel/action/reveal anchor",
+      "copy_policy": "silent or minimal; use 1200 for tested two-line in-art copy",
+      "explicit_dialogue_detected": false,
+      "final_copy_bound": false,
+      "current_selected_width_px": 1040,
+      "current_selected_candidate_id": "h001",
+      "layout_accepted": false,
+      "comic_panel_plan_revision_created": false
+    }
+  ],
+  "row_root_sha256": "b91722ce93406158cf22664706833e5cd14f838777c96b1cdd214d07898e9126",
+  "summary": {
+    "plan_count": 50,
+    "selected_evidence_count": 14,
+    "minimum_width_px": 520,
+    "maximum_width_px": 1200,
+    "explicit_dialogue_plan_count": 1,
+    "final_copy_bound_count": 0,
+    "layout_accepted_count": 0,
+    "comic_panel_plan_revisions": 0
+  },
+  "role_counts": {
+    "MEDIUM_CHARACTER_CLUE": 13,
+    "MEDIUM_SENSORY_REACTION": 2,
+    "MEDIUM_SINGLE_CAUSAL": 2,
+    "MEDIUM_TWO_SHOT": 5,
+    "SMALL_OBJECT_INSERT": 10,
+    "SMALL_SENSORY_INSERT": 6,
+    "TALL_OR_WIDE_DUAL_CAUSAL": 2,
+    "WIDE_DIRECTIONAL_ANCHOR": 8,
+    "WIDE_ENVIRONMENTAL_MOTION": 2
+  },
+  "measured_constraints": {
+    "selected_widths_px": [
+      560,
+      600,
+      700,
+      720,
+      740,
+      760,
+      780,
+      1040
+    ],
+    "selected_width_min_px": 560,
+    "selected_width_max_px": 1040,
+    "tested_two_line_in_art_minimum_px": {
+      "c005": 1200,
+      "c013": 1200,
+      "h001": 1200
+    },
+    "tested_one_line_h001_minimum_px": 1120,
+    "target_phone_type_px": 13.0,
+    "outside_art_band_phone_type_px": 13.975,
+    "outside_art_height_increase_percent": 3.295,
+    "c005_edge_occupancy": 0.308471
+  },
+  "lettering_gate": "Opacity cannot compensate for undersized phone type or semantic overlap. In-art copy uses exact copy-length testing; outside-art bands require caption/direct-text semantics and a ComicPanelPlan revision.",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Policy is a fail-closed recommendation matrix, not a layout acceptance, plan revision, final-copy assignment, or generation authority."
+}

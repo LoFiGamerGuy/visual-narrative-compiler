@@ -1,0 +1,107 @@
+{
+  "record_type": "CH05PanelScaleCadencePolicyEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-panel-scale-cadence-policy-evidence-r1",
+  "state": "FIFTY_PLAN_CONDITIONAL_SCALE_MATRIX_READY",
+  "policy": {
+    "path": "production/comic/layout/ch05-panel-scale-cadence-policy-r1.json",
+    "sha256": "b08d402362bf807014332ec900ba583f89943b6e0095475d632bfcd8b91f7495",
+    "row_root_sha256": "b91722ce93406158cf22664706833e5cd14f838777c96b1cdd214d07898e9126"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    },
+    {
+      "path": "production/comic/coverage/ch05-remaining-panel-priority-r1.json",
+      "sha256": "ef06e71819a9eee77e2800a756ebaef11c9af38c7593a9cfb90c1f83be2e0bcc"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-instrumented-production-manifest-r1.json",
+      "sha256": "87d4af2781c0f42650b7bf9525ad5d9d16ac3cf4c9e27c00e36fa430345ef6f7"
+    },
+    {
+      "path": "docs/research/evidence/ch05-continuity-style-density-r1.json",
+      "sha256": "0f7f7aeed574811ed8f700d1d6e06d4b07a11bb5aaf291d1785d9d313eee1083"
+    },
+    {
+      "path": "docs/research/evidence/ch05-lettering-width-copy-sensitivity-r1.json",
+      "sha256": "0ee9cbbd693694a44958c85d0d3e45a32585adb84ab75fd56d1433b890d27f8f"
+    },
+    {
+      "path": "docs/research/evidence/ch05-outside-art-lettering-band-r1.json",
+      "sha256": "e305631dc500b308d2854d12b6042c20369309f7fcd9ea0ec132b006ebe34a43"
+    }
+  ],
+  "summary": {
+    "plan_count": 50,
+    "selected_evidence_count": 14,
+    "minimum_width_px": 520,
+    "maximum_width_px": 1200,
+    "explicit_dialogue_plan_count": 1,
+    "final_copy_bound_count": 0,
+    "layout_accepted_count": 0,
+    "comic_panel_plan_revisions": 0,
+    "rule_count": 9,
+    "provider_calls": 0,
+    "uploads": 0,
+    "external_cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "role_counts": {
+    "MEDIUM_CHARACTER_CLUE": 13,
+    "MEDIUM_SENSORY_REACTION": 2,
+    "MEDIUM_SINGLE_CAUSAL": 2,
+    "MEDIUM_TWO_SHOT": 5,
+    "SMALL_OBJECT_INSERT": 10,
+    "SMALL_SENSORY_INSERT": 6,
+    "TALL_OR_WIDE_DUAL_CAUSAL": 2,
+    "WIDE_DIRECTIONAL_ANCHOR": 8,
+    "WIDE_ENVIRONMENTAL_MOTION": 2
+  },
+  "measured_constraints": {
+    "selected_widths_px": [
+      560,
+      600,
+      700,
+      720,
+      740,
+      760,
+      780,
+      1040
+    ],
+    "selected_width_min_px": 560,
+    "selected_width_max_px": 1040,
+    "tested_two_line_in_art_minimum_px": {
+      "c005": 1200,
+      "c013": 1200,
+      "h001": 1200
+    },
+    "tested_one_line_h001_minimum_px": 1120,
+    "target_phone_type_px": 13.0,
+    "outside_art_band_phone_type_px": 13.975,
+    "outside_art_height_increase_percent": 3.295,
+    "c005_edge_occupancy": 0.308471
+  },
+  "chart": {
+    "path": "experiments/review-packets/ch05-panel-scale-cadence-policy-r1/ch05-panel-scale-cadence-map-r1.png",
+    "sha256": "ec900d08ed78d310da57de2f66362cdeb242e19466cd1d7c7aed4b7e32cb6edf",
+    "bytes": 180904
+  },
+  "limitations": [
+    "Width bands are conditional recommendations, not optimized or accepted per-panel layouts.",
+    "Only three existing subjects have exact lettering-width sweeps; 1200px is not a universal typography law.",
+    "Final copy, speaker binding, tail geometry, and owner cadence decisions remain absent.",
+    "Density statistics cannot assess storytelling or identity."
+  ],
+  "activity": {
+    "plans_revised": 0,
+    "layouts_accepted": 0,
+    "copy_bound": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "external_cost_usd": 0
+  },
+  "boundary": "Policy is a fail-closed recommendation matrix, not a layout acceptance, plan revision, final-copy assignment, or generation authority."
+}

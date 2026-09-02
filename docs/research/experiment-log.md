@@ -1170,3 +1170,10 @@
 - Preserved story order separately from four production waves based on evidence readiness: 1/2/5/4 sequences, with P010–P013 the only wave-1 pilot.
 - Bound scale/width, cadence class, mechanism, readiness, continuity risk, and reference hypotheses per panel; predeclared 48 review artifacts.
 - Built and visually checked an 1800×1220 sequence map. ADR-0121 keeps prompts/renders/acceptance/execution/provider state zero; 19/19 mutations fail.
+
+## 2026-09-01 - CH05 chapter lettering semantics readiness r1
+
+- Classified all 50 plans before copy: 16 silent inserts, 14 protected action/motion panels, 13 caption-or-silence, six speech/reaction, and one attributed-speech row.
+- Bound P016 to Soren-attributed semantics while keeping exact copy/font/tail/safe zone null; prohibited the outside-art caption band from masquerading as speech.
+- Carried measured 13px/1200px/13.975px/88% constraints without granting overlap or lettering acceptance.
+- Built and visually checked a 1600×1900 map. ADR-0122 keeps final copy null 50/50 and revisions/provider activity zero; 16/16 mutations fail.

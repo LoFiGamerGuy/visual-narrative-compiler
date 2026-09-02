@@ -1,0 +1,77 @@
+{
+  "record_type": "ComicChapterProductionDurationCapacityEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-chapter-production-duration-capacity-evidence-r1",
+  "state": "PASS_NONEXECUTABLE",
+  "capacity": {
+    "path": "production/comic/run-manifests/ch05-chapter-production-duration-capacity-r1.json",
+    "sha256": "d1ca7272b5c2e7b347249e3d87b0b16c72791c3b4c1d90e6f69a427b3bb77130"
+  },
+  "chart": {
+    "path": "experiments/review-packets/ch05-chapter-production-duration-capacity-r1/ch05-chapter-duration-capacity-map-r1.png",
+    "sha256": "ca281862bd48400c6f1443a31c696ab0e17945dfaa097e227126424ef7e86794",
+    "dimensions": [
+      1800,
+      1580
+    ],
+    "git_tracked": false
+  },
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-sequence-production-batches-r1.json",
+      "sha256": "d1c14d09b5afb374260ceabbd4594edcbeecf32925f5a826434f860e99106ea9"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-scale-production-envelope-r1.json",
+      "sha256": "5f39e2f60e1d48d621a6c4e4cdaa6d7f7924c3b6d6c00a1fcf54d091279d69d4"
+    }
+  ],
+  "summary": {
+    "plans": 50,
+    "batches": 12,
+    "remaining_initial_candidates": 36,
+    "bounded_repair_slots": 13,
+    "planning_candidates": 49,
+    "fresh_arm_candidates": 68,
+    "wave_1_candidates": 6,
+    "wave_2_candidates": 12,
+    "wave_3_candidates": 20,
+    "wave_4_candidates": 11,
+    "executed_candidates": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0,
+    "human_review_minutes": null,
+    "built_in_monetary_cost_usd": null
+  },
+  "remaining_plan_envelope": {
+    "initial_candidates": 36,
+    "bounded_repair_slots": 13,
+    "planning_candidates": 49,
+    "duration_seconds": {
+      "p10": 1496.019,
+      "median": 2510.123,
+      "p90": 2769.676
+    },
+    "matches_prior_envelope": true,
+    "existing_selected_plans_unaccepted": 14,
+    "monetary_cost_usd": null,
+    "human_review_minutes": null
+  },
+  "fresh_chapter_consistency_arm": {
+    "initial_candidates": 50,
+    "bounded_repair_slots": 18,
+    "planning_candidates": 68,
+    "duration_seconds": {
+      "p10": 2076.108,
+      "median": 3483.436,
+      "p90": 3843.632
+    },
+    "executed": false,
+    "reason": "Use only if owner review rejects all 14 existing engineering selections or a fresh uniform continuity arm is explicitly chosen.",
+    "monetary_cost_usd": null,
+    "human_review_minutes": null
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

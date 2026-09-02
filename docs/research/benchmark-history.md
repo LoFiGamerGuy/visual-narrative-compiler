@@ -406,3 +406,5 @@ The chapter lifecycle application covers 50 plans/12 batches with one lifecycle-
 Owner hub r5 builds byte-identically with seven links and two ignored local artifacts; 16/16 mutations fail. Exact link manifest r3 preserves 105 prior bindings and reaches 112 resources (106 ignored/six tracked); 15/15 mutations fail.
 
 Integrated release r9 uses the compatible 49-check r8 base plus nine extensions. Ten/ten commands pass in 83.926 seconds, 58 effective checks are represented, and 30/30 mutations fail. Ledger r26 records 64 local zero-external-cost milestones.
+
+Chapter duration capacity uses 30.531/51.227/56.524-second p10/median/p90 candidate timing. The 49-candidate remaining-plan arm totals 1,496.019/2,510.123/2,769.676 seconds; the fresh 68-candidate arm has 3,483.436-second median. Wave loads are 6/12/20/11. Human time and built-in cost remain null.

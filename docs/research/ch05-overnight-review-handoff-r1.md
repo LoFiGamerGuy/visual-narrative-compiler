@@ -133,3 +133,5 @@ Review the chapter lifecycle map at `experiments/review-packets/ch05-chapter-bat
 The current local entry point is `experiments/review-packets/ch05-owner-review-index-r5/index.html`. The exhaustive current absolute-link inventory is `docs/research/ch05-review-links-r3.md`, covering 112 exact resources under ADR-0136.
 
 Integrated evidence now passes release r9 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r9.json`: compatible r8 plus nine extensions gives 58 effective checks, 10/10 commands, and 30/30 rejected mutations under ADR-0137.
+
+Review generation-only capacity at `experiments/review-packets/ch05-chapter-production-duration-capacity-r1/ch05-chapter-duration-capacity-map-r1.png`. The tracked schedule is `production/comic/run-manifests/ch05-chapter-production-duration-capacity-r1.json`; ADR-0138 keeps calendar time, human minutes, and built-in cost unavailable.

@@ -55,6 +55,8 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 integrated release r8 | immutable 46-check r7 + 3 extension checks | 30.259 s observed local gate time | unmeasured | $0 API/cloud | 49 effective checks pass; 0 accepted/executable |
 | CH05 final evidence reproducer matrix r1 | 7 independent local domains | 47.129 s observed local validation time | unmeasured | $0 API/cloud | 7/7 domains; 20/20 mutations fail |
 | CH05 integrated release r9 | compatible 49-check r8 + 9 extensions | 83.926 s observed local gate time | unmeasured | $0 API/cloud | 58 effective checks pass; 0 production transitions |
+| CH05 remaining-plan capacity arm | 36 initials + 13 bounded repairs | 1,496.019 / 2,510.123 / 2,769.676 s p10/median/p90 generation-only | unmeasured | built-in cost unavailable | nonexecuted; excludes review/layout/calendar time |
+| CH05 fresh consistency capacity arm | 50 initials + 18 bounded repairs | 3,483.436 s median generation-only | unmeasured | built-in cost unavailable | nonexecuted fallback if all selected art is rejected |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

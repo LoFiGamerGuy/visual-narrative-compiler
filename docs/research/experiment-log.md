@@ -1282,3 +1282,10 @@
 - Ten/ten commands pass in 83.926 seconds, representing 58 effective checks; 30/30 release mutations fail.
 - Bound 112 links, four prompt drafts, five unbuilt pilot artifacts, 11 lifecycle states, and all 12 chapter batches.
 - Ledger r26 appends ten local milestones to 64 total; ADR-0137 keeps requests/uploads/renders/review/promotion at zero/null.
+
+## 2026-09-01 - CH05 chapter production duration capacity r1
+
+- Derived per-batch and per-wave generation-only ranges from the exact 26-candidate p10/median/p90 basis.
+- Allocated the prior 13-slot ceiling as two reserved pilot repairs plus 11 largest-remainder slots across other remaining plans; wave loads are 6/12/20/11.
+- Remaining-plan arm is 49 candidates with 2,510.123-second median; fresh 50-plan consistency arm is 68 candidates with 3,483.436-second median.
+- Visually corrected short-bar label placement on the deterministic 1800×1580 chart; 18/18 mutations fail under ADR-0138.

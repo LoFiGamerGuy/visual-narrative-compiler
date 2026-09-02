@@ -1317,3 +1317,10 @@
 - Nine/nine commands pass in 89.568 seconds, representing 66 effective checks; independent reproduction rejects 34/34 mutations.
 - Normalized only the live decimal tracked-path diagnostic while preserving all scope semantics, input/script hashes, exit codes, and other stdout.
 - ADR-0142 keeps calls/uploads/downloads/spend/decisions/acceptance/clearance/execution at zero and review minutes null.
+
+## 2026-09-01 - CH05 safe-source parity r2
+
+- Pinned pushed commit `479f7ca` with 835 tracked safe paths and 12,795,182 bytes.
+- Bound Git tree `c67628dc…0d04` and inventory root `ae1563f8…fa22` across exact path/mode/blob/SHA-256 entries.
+- Confirmed two approved public controls and zero generated/prohibited/oversize/credential/model/dataset/private-reference/unrelated paths.
+- Seventeen/seventeen mutations fail under ADR-0143; ignored generated art remains outside Git.

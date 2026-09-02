@@ -262,6 +262,8 @@ The owner-hub-r6/link-r4 milestone is complete under ADR-0141. Hub r6 adds curre
 
 The integrated-release-r10 milestone is complete under ADR-0142. Immutable r9 plus eight current extensions yields 66 effective checks; 9/9 commands pass in 89.568 seconds and 34/34 mutations fail. The gate binds 117 links, 49/68 capacity arms, 12 operating steps, 68 zero-cost milestones, frozen 16, and baseline 4. Only the live decimal tracked-path diagnostic normalizes. The next bounded milestone is a new commit-pinned safe-source parity capture containing the current delivery and release while excluding every ignored pixel and unrelated workspace item.
 
+The safe-source-parity-r2 milestone is complete under ADR-0143. Pushed commit `479f7ca` pins 835 tracked paths/12,795,182 bytes, tree `c67628dc…0d04`, and inventory root `ae1563f8…fa22`. Two approved controls and zero generated/prohibited/oversize/credential/model/dataset/private-reference/unrelated paths are present; 17/17 mutations fail. The next bounded milestone is a compact final reproducer matrix r2 spanning release r10, delivery r2, source r2, frozen integrity, tracked scope, cost r27, and remote parity.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

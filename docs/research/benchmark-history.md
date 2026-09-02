@@ -416,3 +416,5 @@ Delivery bundle r2 binds the current 29-candidate/50-plan/12-batch body, 112 rev
 Owner hub r6 rebuilds byte-identically with five current-delivery links and two ignored local artifacts; 17/17 mutations fail. Exact link manifest r4 preserves 112 bindings and reaches 117 resources (108 ignored/nine tracked); 15/15 mutations fail. Ledger r27 records 68 zero-external-cost milestones and zero external requests/uploads/$0 paid spend.
 
 Integrated release r10 preserves the 58-check r9 base and adds eight current-delivery domains. Nine/nine commands pass in 89.568 seconds, 66 effective checks are represented, and 34/34 mutations fail. Only the decimal live tracked-path diagnostic normalizes; no evidence inventory or semantic state is normalized.
+
+Safe-source parity r2 pins pushed commit `479f7ca` at 835 paths/12,795,182 bytes, tree `c67628dc…0d04`, and inventory root `ae1563f8…fa22`. Two approved controls and zero generated/prohibited/oversize/credential/model/dataset/private-reference paths are tracked; 17/17 mutations fail.

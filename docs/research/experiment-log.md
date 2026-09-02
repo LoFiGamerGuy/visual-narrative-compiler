@@ -1254,3 +1254,10 @@
 - Bound five planned artifacts, four phone dimensions, four proposed quiet zones, density ranges, 44 empty checks, 11 failure classes, two repair slots, and 16 RenderRecord fields.
 - Corrected the validator's initial 17-field expectation to the actual complete 16-field list; no field was removed.
 - Dry-run passes with four missing candidates/five `NOT_BUILT` artifacts and 17/17 mutations fail under ADR-0133.
+
+## 2026-09-01 - CH05 P010–P013 lifecycle state machine r1
+
+- Defined 11 states and 11 legal transitions from draft through separate rights/exact-base review.
+- Exhausted all 121 state pairs: 11 legal and 110 illegal/unconfigured.
+- Bound a four-edge targeted-repair loop capped at two one-class slots, preserving passing rows and prohibiting broad rerolls.
+- Current state remains draft/zero enabled; 18/18 mutations fail under ADR-0134 with no prompt/render/review/promotion activity.

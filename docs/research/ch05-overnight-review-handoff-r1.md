@@ -125,3 +125,5 @@ Non-executable next-pilot drafts are at `production/comic/run-manifests/ch05-p01
 Reusable draft validation is `python src/north_garden/validate_ch05_prompt_blueprint_draft.py`; fixture evidence is `docs/research/evidence/ch05-prompt-blueprint-adversarial-validation-r1.json`. ADR-0132 records 28/28 malformed rejection.
 
 The pre-render packet blueprint is `production/comic/review/ch05-p010-p013-prerender-packet-blueprint-r1.json`. Its deterministic builder is `python src/north_garden/build_ch05_p010_p013_review_packet.py --dry-run`; ADR-0133 keeps all five outputs `NOT_BUILT` until four candidates exist.
+
+The guarded pilot lifecycle is `production/comic/run-manifests/ch05-p010-p013-lifecycle-state-machine-r1.json`: 11 legal edges, 110 illegal state pairs, and a bounded repair loop under ADR-0134.

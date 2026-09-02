@@ -398,3 +398,5 @@ The P010–P013 prompt blueprint adds four exact draft hashes with 4/4 lint pass
 Independent blueprint validation passes the four real rows and rejects 28/28 malformed fixtures: age/likeness 2, continuity/role 5, causal/lettering 3, reference boundary 4, and promotion/schema 14. This is robustness evidence for draft validation, not render quality.
 
 The P010–P013 pre-render builder dry-run passes with four absent candidate slots, five `NOT_BUILT` outputs, 44 empty checks, four safe-zone hypotheses, and 17/17 mutation rejection. It is packet-readiness evidence; no build/render timing or visual result exists yet.
+
+The pilot lifecycle state machine exhausts 121 state pairs: 11 legal transitions and 110 illegal/unconfigured pairs. Its four-edge repair loop is capped at two slots, and 18/18 mutations fail. This measures workflow guard coverage, not art or provider behavior.

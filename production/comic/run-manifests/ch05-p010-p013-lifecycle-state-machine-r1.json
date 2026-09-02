@@ -1,0 +1,165 @@
+{
+  "record_type": "ComicPilotLifecycleStateMachine",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-lifecycle-state-machine-r1",
+  "state": "PASS_CURRENT_DRAFT_FAIL_CLOSED",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+      "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-prompt-blueprint-r1.json",
+      "sha256": "1959a21e4c0d513c48272c2637816976c4be6adc69e9d0524e1babdabf75f5ac"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-prerender-packet-blueprint-r1.json",
+      "sha256": "08c1ca4bb570ad52e4556d06e94c3cd92553924603816bf05b89ac96a45e0a08"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-review-packet-contract-dry-run-r1.json",
+      "sha256": "a7858e71d826257c8197a500e05f4520dda20a8bac82a037a64a2b5690b4b0ae"
+    }
+  ],
+  "states": [
+    "DRAFT_BLUEPRINTED",
+    "OWNER_ROOTS_RESOLVED",
+    "PRODUCTION_PROMPTS_COMPILED",
+    "BASE_RENDERED",
+    "PACKET_BUILT",
+    "HUMAN_REVIEW_COMPLETE",
+    "REPAIR_ALLOCATED",
+    "TARGETED_REPAIR_RENDERED",
+    "REPAIRED_PACKET_BUILT",
+    "PROVISIONALLY_ACCEPTED",
+    "RIGHTS_AND_EXACT_BASE_REVIEWED"
+  ],
+  "state_count": 11,
+  "transitions": [
+    {
+      "from": "DRAFT_BLUEPRINTED",
+      "to": "OWNER_ROOTS_RESOLVED",
+      "guard": "six exact owner roots resolved or exact alternate revisions bound",
+      "currently_enabled": false
+    },
+    {
+      "from": "OWNER_ROOTS_RESOLVED",
+      "to": "PRODUCTION_PROMPTS_COMPILED",
+      "guard": "four immutable production prompt hashes and exact reference preflights",
+      "currently_enabled": false
+    },
+    {
+      "from": "PRODUCTION_PROMPTS_COMPILED",
+      "to": "BASE_RENDERED",
+      "guard": "four complete RenderRecords and candidate output hashes",
+      "currently_enabled": false
+    },
+    {
+      "from": "BASE_RENDERED",
+      "to": "PACKET_BUILT",
+      "guard": "five deterministic ignored packet artifacts and measurements",
+      "currently_enabled": false
+    },
+    {
+      "from": "PACKET_BUILT",
+      "to": "HUMAN_REVIEW_COMPLETE",
+      "guard": "44 candidate checks, sequence review, decisions, and live timer log",
+      "currently_enabled": false
+    },
+    {
+      "from": "HUMAN_REVIEW_COMPLETE",
+      "to": "REPAIR_ALLOCATED",
+      "guard": "one exact failure class and available repair slot; passing rows preserved",
+      "currently_enabled": false
+    },
+    {
+      "from": "REPAIR_ALLOCATED",
+      "to": "TARGETED_REPAIR_RENDERED",
+      "guard": "one targeted repair RenderRecord; no broad reroll",
+      "currently_enabled": false
+    },
+    {
+      "from": "TARGETED_REPAIR_RENDERED",
+      "to": "REPAIRED_PACKET_BUILT",
+      "guard": "packet rebuilt with original passing rows and repair evidence",
+      "currently_enabled": false
+    },
+    {
+      "from": "REPAIRED_PACKET_BUILT",
+      "to": "HUMAN_REVIEW_COMPLETE",
+      "guard": "repaired row and sequence re-reviewed with live timer",
+      "currently_enabled": false
+    },
+    {
+      "from": "HUMAN_REVIEW_COMPLETE",
+      "to": "PROVISIONALLY_ACCEPTED",
+      "guard": "all candidate/sequence decisions explicit, no unresolved FAIL, WARN limitations disclosed",
+      "currently_enabled": false
+    },
+    {
+      "from": "PROVISIONALLY_ACCEPTED",
+      "to": "RIGHTS_AND_EXACT_BASE_REVIEWED",
+      "guard": "commercial clearance and exact-base eligibility decided separately by owner",
+      "currently_enabled": false
+    }
+  ],
+  "transition_count": 11,
+  "repair_loop": {
+    "entry": "HUMAN_REVIEW_COMPLETE -> REPAIR_ALLOCATED",
+    "maximum_total_slots": 2,
+    "one_failure_class_per_slot": true,
+    "broad_reroll": false,
+    "passing_rows_preserved": true,
+    "exit": "REPAIRED_PACKET_BUILT -> HUMAN_REVIEW_COMPLETE"
+  },
+  "current": {
+    "state": "DRAFT_BLUEPRINTED",
+    "resolved_owner_roots": 0,
+    "production_prompt_hashes": 0,
+    "complete_base_renderrecords": 0,
+    "base_candidate_outputs": 0,
+    "packet_artifacts_built": 0,
+    "candidate_checks_completed": 0,
+    "sequence_review_completed": false,
+    "live_review_log_valid": false,
+    "candidate_decisions": 0,
+    "sequence_decision": null,
+    "repair_slots_allocated": 0,
+    "targeted_repair_renderrecords": 0,
+    "provisional_acceptance": false,
+    "commercial_clearance_decision": null,
+    "exact_base_decision": null
+  },
+  "current_enabled_transition_count": 0,
+  "promotion_separation": {
+    "engineering_provisional_acceptance_state": "PROVISIONALLY_ACCEPTED",
+    "commercial_and_exact_base_state": "RIGHTS_AND_EXACT_BASE_REVIEWED",
+    "commercial_and_exact_base_automatic": false,
+    "exact_base_implies_commercial_clearance": false,
+    "commercial_clearance_implies_exact_base": false
+  },
+  "invariants": [
+    "ComicPanelPlan remains the only active production-planning structure.",
+    "No transition can create child/real-person/biometric material or expand authorized references.",
+    "Every render transition requires exact RenderRecords and ignored output paths.",
+    "Every human-review transition requires live, non-backfilled timer evidence.",
+    "FAIL evidence is preserved; repair changes exactly one failure class and never rerolls passing rows.",
+    "Provisional engineering acceptance cannot establish commercial rights or exact-base suitability."
+  ],
+  "activity": {
+    "prompts_compiled": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "renders": 0,
+    "packet_artifacts": 0,
+    "review_events": 0,
+    "human_review_minutes": null,
+    "accepted_candidates": 0,
+    "commercially_cleared": 0,
+    "executable_panels": 0
+  },
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "State-machine definition and exhaustive synthetic checks only. No state transition is executed."
+}

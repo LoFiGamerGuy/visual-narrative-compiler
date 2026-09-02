@@ -234,6 +234,8 @@ The integrated release r8 milestone is complete under ADR-0127. Immutable r7 plu
 
 The r8 post-commit compatibility milestone is complete under ADR-0128. Raw r8 reproduction correctly exposes one dynamic safe-source stdout mismatch after its own commit; the failed attempt is preserved. A narrow append-only validator normalizes only the live decimal tracked-count phrase for that one command, reproduces 4/4 normalized outputs, and rejects 10/10 normalization-scope/state mutations. All 735 captured entries, hashes, scripts, other stdout, and semantic gates remain exact. The next bounded milestone remains the final evidence reproducer matrix, using this compatibility validator rather than rewriting r8.
 
+The final evidence-reproducer matrix milestone is complete under ADR-0129. Seven/seven independent domains pass in 47.129 seconds: release-r8 compatibility, delivery bundle, source capture, frozen/baseline integrity, current tracked scope, zero-cost ledger r25, and remote lineage. Script/argument/stdout/input hashes bind, only two live path-count diagnostics normalize, and 20/20 mutations fail. The next bounded milestone is a fail-closed owner-review-to-production unlock contract for the P010–P013 pilot.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

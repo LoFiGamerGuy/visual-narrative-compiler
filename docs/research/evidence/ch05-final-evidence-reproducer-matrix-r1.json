@@ -1,0 +1,182 @@
+{
+  "record_type": "CH05FinalEvidenceReproducerMatrix",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-final-evidence-reproducer-matrix-r1",
+  "state": "PASS",
+  "base_commit": "a57b6790aa90a84b3e52af78ee6ff56225fac654",
+  "origin_main_at_compile": "a57b6790aa90a84b3e52af78ee6ff56225fac654",
+  "base_remote_parity": true,
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-overnight-integrated-release-r8-compatibility-r1.json",
+      "sha256": "55eafd7d66e93db73dc4b8955fff4800c9bba61d6aa35a7fe50b78763b3cfd61"
+    },
+    {
+      "path": "docs/research/evidence/ch05-overnight-delivery-bundle-r1.json",
+      "sha256": "c5f588a78cf0c1a6a1d123e35179e74559c216e838cf1d1cf9657624dbc7bf2e"
+    },
+    {
+      "path": "docs/research/evidence/ch05-overnight-safe-source-parity-r1.json",
+      "sha256": "221ae54a69615f71a67cad1c353b083154ce36b2e41096b3f0af1810aa1701d5"
+    },
+    {
+      "path": "docs/research/evidence/frozen-gauntlet-baseline-integrity-r1.json",
+      "sha256": "9abf582927b7dfccf4757a8745eee5fd260bd70418e4fd350fefeafe6ce9fbd9"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r25.json",
+      "sha256": "2da143c0b889d0d2c1438de0a86ab30e8c92089f85898cf1ac93400b6bf3f191"
+    }
+  ],
+  "summary": {
+    "command_count": 7,
+    "domain_count": 7,
+    "passed": 7,
+    "failed": 0,
+    "release_effective_checks": 49,
+    "observed_total_seconds": 47.129331,
+    "tracked_count_only_normalizations": 2,
+    "network_capable_commands": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "downloads": 0,
+    "paid_spend_usd": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "owner_decisions": 0,
+    "human_review_minutes": null
+  },
+  "results": [
+    {
+      "domain": "integrated_release_r8_compatibility",
+      "path": "src/north_garden/validate_ch05_overnight_integrated_release_r8_compat.py",
+      "arguments": [],
+      "script_sha256": "ef097100d5add4e2d69e3aa31a67664e7ab023208db5db9ceb2195dc5e207c0e",
+      "command": "python src/north_garden/validate_ch05_overnight_integrated_release_r8_compat.py",
+      "normalization": "NONE",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 30.344865,
+      "stdout": "CH05 r8 compatibility: 0 failures; 4/4 normalized reproductions; one tracked-count-only raw mismatch; 10/10 mutations rejected\n",
+      "stdout_sha256": "739ab4979db33e55bfc3ede8d389e9cf8363a1cb68f05fb3089236c3145f7486",
+      "normalized_stdout_sha256": "739ab4979db33e55bfc3ede8d389e9cf8363a1cb68f05fb3089236c3145f7486",
+      "stderr": ""
+    },
+    {
+      "domain": "delivery_bundle",
+      "path": "src/north_garden/validate_ch05_overnight_delivery_bundle.py",
+      "arguments": [],
+      "script_sha256": "c7a08f23fef917716994cf5f86aacd3a17141154890c44466e1b1342b41a01e4",
+      "command": "python src/north_garden/validate_ch05_overnight_delivery_bundle.py",
+      "normalization": "NONE",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.099089,
+      "stdout": "CH05 delivery bundle: 0 failures; 29 candidates/50 plans/12 batches/105 links/10 decisions/46 checks; 21/21 mutations rejected\npaid spend/decisions/accepted/executable/minutes $0/0/0/0/null\n",
+      "stdout_sha256": "cbedf46bc445d91f10995c5c7c47a9827c7d53b0a08017d7d1124f31e8b98db9",
+      "normalized_stdout_sha256": "cbedf46bc445d91f10995c5c7c47a9827c7d53b0a08017d7d1124f31e8b98db9",
+      "stderr": ""
+    },
+    {
+      "domain": "safe_source_capture",
+      "path": "src/north_garden/validate_ch05_overnight_safe_source_parity.py",
+      "arguments": [
+        "--allow-unpushed-current"
+      ],
+      "script_sha256": "bd3ee37cdfd204c19657b168e2c2460cef1ca84d3fd0345c1cd5a230a3f93f28",
+      "command": "python src/north_garden/validate_ch05_overnight_safe_source_parity.py --allow-unpushed-current",
+      "normalization": "TRACKED_COUNT_ONLY",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 15.835382,
+      "stdout": "0 failures, 0 warnings (748 tracked safe-source paths; origin verified)\nCH05 safe delivery: 0 failures (735 paths/11861823 bytes; tree 7a7085da8b3fc320defa27233121f0afdff32c4d; root fea9401edf72cbbaac3a5357088d7b14848886cfe7f5d163268354238063c4ca)\n2 controls; 0 generated/prohibited/oversize/credential paths; 16/16 mutations rejected; capture pushed/current parity valid\n",
+      "stdout_sha256": "457ea067528840d58dbe625370a4d2aa299bc08f8849dd6acdfec5bf04a61df7",
+      "normalized_stdout_sha256": "4b823918efa4057f5f87ad1f48a2676559fb2781388128fb83d49c8ea52a33fa",
+      "stderr": ""
+    },
+    {
+      "domain": "frozen_gauntlet_baseline",
+      "path": "src/north_garden/validate_frozen_gauntlet_baseline_integrity.py",
+      "arguments": [],
+      "script_sha256": "db520816a6c10f41be7a30b4d564b63e7e66f7498b7cc020e33ce0e523f0c105",
+      "command": "python src/north_garden/validate_frozen_gauntlet_baseline_integrity.py",
+      "normalization": "NONE",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.209457,
+      "stdout": "0 failures, 0 warnings (16 frozen + 4 baseline tracked paths byte-identical from f505788 to 00498df)\nbaseline remains 0/24 accepted/no tuning; local workflow pin exact; 15/15 mutations rejected; 0 requests/uploads/$0\n",
+      "stdout_sha256": "36d33e8c2cb8979ff8176f2298c694fc8b1d9244e287f4c0b108876f760dee68",
+      "normalized_stdout_sha256": "36d33e8c2cb8979ff8176f2298c694fc8b1d9244e287f4c0b108876f760dee68",
+      "stderr": ""
+    },
+    {
+      "domain": "current_tracked_scope",
+      "path": "src/north_garden/validate_tracked_source_scope.py",
+      "arguments": [],
+      "script_sha256": "96aaedb6abfa0378ffbac2a5ae6e647210a875ec8fd0203ac097519c5d55c1d7",
+      "command": "python src/north_garden/validate_tracked_source_scope.py",
+      "normalization": "TRACKED_COUNT_ONLY",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.239965,
+      "stdout": "0 failures, 0 warnings (748 tracked safe-source paths; origin verified)\n",
+      "stdout_sha256": "6aa09d8cd8a8cf8dece5997726c306cb84222df3d3cc159f0dc506ef3e043a09",
+      "normalized_stdout_sha256": "e3d2e8c976657fe39140d7099e85401849f4942becb5672aaafc3ad23c93f3ae",
+      "stderr": ""
+    },
+    {
+      "domain": "zero_cost_ledger",
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r25.py",
+      "arguments": [],
+      "script_sha256": "0ecf679c802f90f5ce8a4dc83f412bae2c4b0485a25efc7cc49e43023935d8db",
+      "command": "python src/north_garden/validate_ch05_production_cost_ledger_r25.py",
+      "normalization": "NONE",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.078996,
+      "stdout": "CH05 cost ledger r25: 0 failures; 54 zero-cost milestones; 0 requests/uploads/$0; 9/9 mutations rejected\n",
+      "stdout_sha256": "0993d3e3a7e8d9bdc3cf1e5ccdc510c6f686195c05d2ba76f3c4335733a2f52f",
+      "normalized_stdout_sha256": "0993d3e3a7e8d9bdc3cf1e5ccdc510c6f686195c05d2ba76f3c4335733a2f52f",
+      "stderr": ""
+    },
+    {
+      "domain": "remote_lineage",
+      "path": "src/north_garden/validate_ch05_remote_lineage.py",
+      "arguments": [
+        "--allow-unpushed-current"
+      ],
+      "script_sha256": "01906de4f456673baf083b8b68a8938ed49ec19c0ea965b041c239a82e18b19a",
+      "command": "python src/north_garden/validate_ch05_remote_lineage.py --allow-unpushed-current",
+      "normalization": "NONE",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.320262,
+      "stdout": "CH05 remote lineage: 0 failures; main/origin configured; release-r7 and safe-source capture are ancestors; tracked tree/index clean\nhistorical delivery/source parity exact; r8 semantic pass + narrow compatibility pass; unrelated untracked items excluded\n",
+      "stdout_sha256": "e595df59078131ed5d8e1c4115b5124a7e25e988939425ca5d74488cd1cc572e",
+      "normalized_stdout_sha256": "e595df59078131ed5d8e1c4115b5124a7e25e988939425ca5d74488cd1cc572e",
+      "stderr": ""
+    }
+  ],
+  "required_domains": [
+    "integrated_release_r8_compatibility",
+    "delivery_bundle",
+    "safe_source_capture",
+    "frozen_gauntlet_baseline",
+    "current_tracked_scope",
+    "zero_cost_ledger",
+    "remote_lineage"
+  ],
+  "effective_state": {
+    "candidates": 29,
+    "comic_panel_plans": 50,
+    "review_links": 105,
+    "safe_source_capture_paths": 735,
+    "frozen_paths": 16,
+    "baseline_paths": 4,
+    "zero_cost_milestones": 54,
+    "remote_lineage_pass": true
+  },
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Local no-network reproduction only. Two declared normalizations affect only the live tracked-path diagnostic count, never captured inventory, hashes, state, or promotion fields."
+}

@@ -1219,3 +1219,10 @@
 - Added a narrow compatibility rule for only `N tracked safe-source paths`; inventory entries, hashes, scripts, state, and all other stdout remain exact.
 - Four/four normalized command outputs match and 10/10 scope/state mutations fail.
 - ADR-0128 requires future wrappers to use compatibility r1 and preserves both original r8 and the failed attempt.
+
+## 2026-09-01 - CH05 final evidence reproducer matrix r1
+
+- Ran seven independent local domains in 47.129 seconds: integrated release compatibility, delivery, safe-source capture, frozen/baseline, current source scope, cost ledger, and Git lineage.
+- Bound exact script hashes, arguments, raw/normalized stdout hashes, immutable inputs, elapsed times, and compile-time remote parity.
+- Limited dynamic normalization to two declared live tracked-count diagnostics; no captured inventory or semantic state is normalized.
+- Seven/seven domains pass and 20/20 mutations fail under ADR-0129; provider and promotion activity remain zero.

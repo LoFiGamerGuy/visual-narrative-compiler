@@ -53,6 +53,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 integrated release r7 | immutable 42-check r6 + 4 extension checks | 14.531 s observed local gate time | unmeasured | $0 API/cloud | 46 effective checks pass; 0 accepted/executable |
 | CH05 consolidated delivery bundle r1 | 29 candidates / 50 plans / 12 batches / 105 links | existing 1,385.036 s generation total reconciled; compiler/validator sub-second | unmeasured | $0 API/cloud | 21/21 mutations fail; no acceptance/promotion |
 | CH05 integrated release r8 | immutable 46-check r7 + 3 extension checks | 30.259 s observed local gate time | unmeasured | $0 API/cloud | 49 effective checks pass; 0 accepted/executable |
+| CH05 final evidence reproducer matrix r1 | 7 independent local domains | 47.129 s observed local validation time | unmeasured | $0 API/cloud | 7/7 domains; 20/20 mutations fail |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

@@ -1233,3 +1233,10 @@
 - Deferred four choices that do not gate a silent new pilot and retained 14 existing-candidate dispositions as exact-base prerequisites only.
 - Preserved broad positive approval as creative direction without mapping it to candidate acceptance, commercial clearance, or exact route values.
 - Four candidate slots, two repairs, and five review artifacts remain blocked at prompt/render/promotion 0/0/0; 17/17 mutations fail under ADR-0130.
+
+## 2026-09-01 - CH05 P010–P013 prompt blueprint r1
+
+- Compiled four exact non-executable draft prompts bound to plan hashes, role-aware styles/formats, planning canvases, adult continuity, causal mechanics, and lettering-safe composition.
+- Three reference hypotheses use only the exact authorized P040/P050 hashes; the no-person twine insert remains text-only and P036 is absent.
+- Corrected initial lint logic that wrongly applied an adult phrase to the no-person row and lacked the exact phrase in the dual-adult row; the preserved validator failure guided the narrow correction.
+- Four/four lint passes and 15/15 mutations fail under ADR-0131; production prompts/uploads/renders remain 0/0/0.

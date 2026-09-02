@@ -1,0 +1,222 @@
+{
+  "record_type": "ComicPromptBlueprint",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-prompt-blueprint-r1",
+  "state": "DRAFT_LINT_PASS_NOT_EXECUTABLE",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-production-manifest-dry-run-r1.json",
+      "sha256": "f668fc1531b556529a3e8cf7f3ef9d6c65a2172cab448ec26e57e97eaf48403e"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+      "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+    }
+  ],
+  "summary": {
+    "rows": 4,
+    "lint_pass": 4,
+    "reference_uses": 3,
+    "unique_reference_ids": 2,
+    "text_only_rows": 1,
+    "production_prompts_mutated": 0,
+    "execution_ready_rows": 0,
+    "uploads": 0,
+    "provider_calls": 0,
+    "renders": 0,
+    "paid_spend_usd": 0
+  },
+  "rows": [
+    {
+      "candidate_slot": "m001",
+      "panel_id": "ng-ch05-sc01-p010",
+      "plan_revision_id": "ng-ch05-sc01-p010-plan-r1",
+      "plan_canonical_sha256": "6315bf987c59683d82665b7b98bd4861da87557940574b7831a5beb0e3fbb055",
+      "style_id": "cel_painted",
+      "format_role": "medium_character_clue",
+      "target_width_px": 820,
+      "planning_canvas_px": [
+        1024,
+        1280
+      ],
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "draft_prompt": "CH05 comic panel, premium cel-painted webcomic art with restrained painterly color, medium vertical character-clue panel. Sigrid is a clearly adult woman with mature proportions, dark-brown to near-black hair tied in a compact low bun with a few damp loose strands, never blond; mature angular face, dark brows, alert gray-blue eyes; practical dark blue-brown plaid wrap over gray-green expedition layers, dark trousers and wet-weather boots. She has stopped mid-step on a muddy forest trail because she hears rushing water before it is visible: weight settles onto her rear boot, head turns downhill, one hand lightly lifts the plaid away from wet brush, expression controlled and listening. Show causal environmental evidence\u2014bent wet grass, faint spray catching cool light, leaves angling toward a hidden creek\u2014without showing the creek itself. Strong readable silhouette, natural adult hands, calm deduction rhythm, lower visual density than an action anchor. Keep the upper-left 18 percent as quiet atmospheric negative space away from face, hands, and clues. No text, letters, captions, speech balloons, logos, UI, frame border, extra people, weapons, armor, or monsters.",
+      "draft_prompt_sha256": "fa95f6c4f0c8d23ac6502f9c6ea76f37fe1c82e7eb7edd82d7a4f95a4d8679b1",
+      "input_references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "local_hash_verified": true,
+          "upload_authorized_only_for_openai_builtin_imagegen": true,
+          "upload_performed": false
+        }
+      ],
+      "reference_count": 1,
+      "lint": {
+        "prohibited_person_age_likeness_terms": [],
+        "required_phrase_results": {
+          "clearly adult": true,
+          "No text": true,
+          "hands": true
+        },
+        "soren_hair_wardrobe": true,
+        "sigrid_hair_wardrobe": true,
+        "silent_no_lettering": true,
+        "causal_motion_or_object": true,
+        "reference_ids_match_manifest": true,
+        "passed": true
+      },
+      "production_manifest_prompt_mutated": false,
+      "execution_ready": false
+    },
+    {
+      "candidate_slot": "m002",
+      "panel_id": "ng-ch05-sc01-p011",
+      "plan_revision_id": "ng-ch05-sc01-p011-plan-r1",
+      "plan_canonical_sha256": "4e736a6333e7545340167bb52d7a29d18f30520e06c461771bf5f0a9021d858c",
+      "style_id": "clear_line_watercolor",
+      "format_role": "small_causal_clue",
+      "target_width_px": 640,
+      "planning_canvas_px": [
+        1024,
+        1024
+      ],
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "draft_prompt": "CH05 comic panel, mature clear-line adventure art with light watercolor, compact causal-clue panel. Soren is a clearly adult man with mature proportions, short-to-medium wavy light-brown to dark-blond hair swept back with damp loose strands, never black or bright blond; weathered angular adult face with light stubble; pale oatmeal work coat over muted blue-gray work layers, dark trousers and practical wet-weather boots. He crouches beside a thorn at the trail edge and finds one soot-stained length of twine snagged there. Show one readable adult hand holding the folded map low and the other stopping just short of the taut twine; the twine, black soot smear, thorn, and downhill pull direction must be unmistakable. Practical balance, bent knee, coat hem reacting to his weight shift, wet mud compressed under one boot. No duplicate twine, no generic speed lines. Keep a quiet upper-right 18 percent away from his face, hands, map, thorn, and twine. No text, letters, captions, speech balloons, logos, UI, frame border, extra people, armor, weapons, or monsters.",
+      "draft_prompt_sha256": "b42e7d0290cc72f96d6d50b73cdc22af3a4d62d172244f4ba68a74488d7487c9",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "local_hash_verified": true,
+          "upload_authorized_only_for_openai_builtin_imagegen": true,
+          "upload_performed": false
+        }
+      ],
+      "reference_count": 1,
+      "lint": {
+        "prohibited_person_age_likeness_terms": [],
+        "required_phrase_results": {
+          "clearly adult": true,
+          "No text": true,
+          "hands": true
+        },
+        "soren_hair_wardrobe": true,
+        "sigrid_hair_wardrobe": true,
+        "silent_no_lettering": true,
+        "causal_motion_or_object": true,
+        "reference_ids_match_manifest": true,
+        "passed": true
+      },
+      "production_manifest_prompt_mutated": false,
+      "execution_ready": false
+    },
+    {
+      "candidate_slot": "m003",
+      "panel_id": "ng-ch05-sc01-p012",
+      "plan_revision_id": "ng-ch05-sc01-p012-plan-r1",
+      "plan_canonical_sha256": "d40391007cd76fb246eaec7188e439c92fe8b1aa976a4ad763b8fd6d14cf445b",
+      "style_id": "limited_ink_flat",
+      "format_role": "small_silent_object_insert",
+      "target_width_px": 560,
+      "planning_canvas_px": [
+        1024,
+        768
+      ],
+      "visible_adult_cast": [],
+      "draft_prompt": "CH05 comic panel, polished lower-density limited-ink webcomic insert with restrained flat color, small silent object panel and no people. Close view of one soot-stained length of rough twine caught on a thorn above wet mud. The twine points distinctly downhill as if it was pulled taut and released: fibers stretched along one direction, thorn flexed, a shallow straight groove in mud ending beneath it, two tiny displaced droplets. Exactly one twine strand and one thorn cluster; causal geometry is more important than texture. Strong simple silhouette, phone-readable object scale, quiet background, no decorative foliage clutter. Preserve a clean top band while keeping the twine and groove fully unobscured. No text, letters, captions, speech balloons, logos, UI, frame border, hands, people, faces, animals, armor, weapons, or monsters.",
+      "draft_prompt_sha256": "f339b720c9008778a3228d6ca6038eac4ad7dc8b5c7478523d0a8ff82a472f05",
+      "input_references": [],
+      "reference_count": 0,
+      "lint": {
+        "prohibited_person_age_likeness_terms": [],
+        "required_phrase_results": {
+          "No text": true,
+          "no people": true
+        },
+        "soren_hair_wardrobe": true,
+        "sigrid_hair_wardrobe": true,
+        "silent_no_lettering": true,
+        "causal_motion_or_object": true,
+        "reference_ids_match_manifest": true,
+        "passed": true
+      },
+      "production_manifest_prompt_mutated": false,
+      "execution_ready": false
+    },
+    {
+      "candidate_slot": "m004",
+      "panel_id": "ng-ch05-sc01-p013",
+      "plan_revision_id": "ng-ch05-sc01-p013-plan-r1",
+      "plan_canonical_sha256": "9e1e05e723e22e729ee38b7af966fe16bf67756513cd929167801ca45c7fbb76",
+      "style_id": "clear_line_watercolor",
+      "format_role": "wide_directional_reentry",
+      "target_width_px": 1040,
+      "planning_canvas_px": [
+        1536,
+        1024
+      ],
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "draft_prompt": "CH05 comic panel, mature clear-line adventure art with restrained watercolor, wide directional re-entry panel. Soren and Sigrid are clearly adult fictional characters with mature proportions, moving together downhill beside a newly revealed creek instead of following the fading tracks. Soren remains on viewer-left: short-to-medium wavy light-brown to dark-blond hair, weathered angular face with light stubble, pale oatmeal work coat over muted blue-gray layers, folded map secured low. Sigrid remains on viewer-right: dark-brown to near-black hair tied in a compact low bun with damp loose strands, mature angular face, practical dark blue-brown plaid wrap over gray-green layers. Show causal movement through careful foot placement on slick stones, forward weight shift, coat and plaid trailing with gravity, shallow water bending around boots, and the soot-stained twine direction aligning with the creek. Strong separated silhouettes and role order, readable adult hands, exciting purposeful movement without generic speed lines. Keep the upper-center 16 percent as quiet sky and mist away from heads, hands, creek direction, map, and twine. No text, letters, captions, speech balloons, logos, UI, frame border, extra people, armor, weapons, or monsters.",
+      "draft_prompt_sha256": "21d7bd8da0492fe5727596a0e2e9aa9c3844121988d50818e4a5c564fbca7248",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "local_hash_verified": true,
+          "upload_authorized_only_for_openai_builtin_imagegen": true,
+          "upload_performed": false
+        }
+      ],
+      "reference_count": 1,
+      "lint": {
+        "prohibited_person_age_likeness_terms": [],
+        "required_phrase_results": {
+          "clearly adult": true,
+          "No text": true,
+          "hands": true
+        },
+        "soren_hair_wardrobe": true,
+        "sigrid_hair_wardrobe": true,
+        "silent_no_lettering": true,
+        "causal_motion_or_object": true,
+        "reference_ids_match_manifest": true,
+        "passed": true
+      },
+      "production_manifest_prompt_mutated": false,
+      "execution_ready": false
+    }
+  ],
+  "production_manifest_prompt_null_count": 4,
+  "owner_unlock_state": "BLOCKED_EXACT_OWNER_DECISIONS_REQUIRED",
+  "repair_policy": [
+    {
+      "slot_id": "repair-1",
+      "state": "UNALLOCATED",
+      "trigger": "exact safe-zone, cast-order, or single-object causal failure in one row",
+      "allowed_change": "one literal spatial/causal constraint cluster",
+      "broad_reroll": false
+    },
+    {
+      "slot_id": "repair-2",
+      "state": "UNALLOCATED",
+      "trigger": "one remaining exact continuity, density, or phone-readability failure after repair-1 evidence",
+      "allowed_change": "one isolated constraint cluster; preserve passing rows",
+      "broad_reroll": false
+    }
+  ],
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Draft text only. These hashes are blueprint hashes, not compiled production prompt hashes. No reference was uploaded and the prompt-null production manifest remains unchanged."
+}

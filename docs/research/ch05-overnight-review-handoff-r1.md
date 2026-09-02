@@ -119,3 +119,5 @@ R8 post-commit compatibility is `docs/research/evidence/ch05-overnight-integrate
 The compact current reproducer is `docs/research/evidence/ch05-final-evidence-reproducer-matrix-r1.json`: seven local domains, 47.129 observed seconds, and 20/20 rejected mutations under ADR-0129.
 
 The next-pilot decision boundary is `production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json`, with a readable six-decision checklist at `docs/research/ch05-p010-p013-owner-unlock-checklist-r1.md`. ADR-0130 keeps broad direction distinct from exact structured approval.
+
+Non-executable next-pilot drafts are at `production/comic/run-manifests/ch05-p010-p013-prompt-blueprint-r1.json`. ADR-0131 keeps their exact hashes separate from the still-null production prompts.

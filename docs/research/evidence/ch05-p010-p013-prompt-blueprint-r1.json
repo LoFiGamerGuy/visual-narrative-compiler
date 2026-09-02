@@ -1,0 +1,37 @@
+{
+  "record_type": "ComicPromptBlueprintEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-prompt-blueprint-evidence-r1",
+  "state": "PASS_NOT_EXECUTABLE",
+  "blueprint": {
+    "path": "production/comic/run-manifests/ch05-p010-p013-prompt-blueprint-r1.json",
+    "sha256": "1959a21e4c0d513c48272c2637816976c4be6adc69e9d0524e1babdabf75f5ac"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-production-manifest-dry-run-r1.json",
+      "sha256": "f668fc1531b556529a3e8cf7f3ef9d6c65a2172cab448ec26e57e97eaf48403e"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+      "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+    }
+  ],
+  "summary": {
+    "rows": 4,
+    "lint_pass": 4,
+    "reference_uses": 3,
+    "unique_reference_ids": 2,
+    "text_only_rows": 1,
+    "production_prompts_mutated": 0,
+    "execution_ready_rows": 0,
+    "uploads": 0,
+    "provider_calls": 0,
+    "renders": 0,
+    "paid_spend_usd": 0
+  },
+  "production_manifest_prompt_null_count": 4,
+  "owner_unlock_state": "BLOCKED_EXACT_OWNER_DECISIONS_REQUIRED",
+  "animation_shot_plan": null,
+  "e_conte": null
+}

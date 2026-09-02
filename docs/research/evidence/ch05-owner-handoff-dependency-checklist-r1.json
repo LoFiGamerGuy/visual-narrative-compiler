@@ -1,0 +1,50 @@
+{
+  "record_type": "ComicOwnerHandoffDependencyChecklistEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-owner-handoff-dependency-checklist-evidence-r1",
+  "state": "PASS_ALL_EMPTY",
+  "checklist": {
+    "path": "production/comic/review/ch05-owner-handoff-dependency-checklist-r1.json",
+    "sha256": "4792746f50db0ac0e9a0fd753d6c65a42cdeda5414c9a84746819c8c21f269de"
+  },
+  "markdown": {
+    "path": "docs/research/ch05-owner-handoff-checklist-r1.md",
+    "sha256": "9ab488be763319f6b22ed468da2c3915dc8a2be13ede8b535143ae3e0444a802"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/review/ch05-route-review-decision-matrix-r1.json",
+      "sha256": "694da9b4b6f649313237bc2cfc10027c2351eb5ae66afa296afd5030203062c1"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+      "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5"
+    },
+    {
+      "path": "production/comic/review/ch05-review-artifact-link-manifest-r1.json",
+      "sha256": "294334c140f022acc4305ff5b88fd4a64f8bf53420245c61ea27a1a39c09b73b"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-production-readiness-matrix-r1.json",
+      "sha256": "95d562f53fbebe1956c9d0878d5c0b1091d7ab4044a6dc5927e94ce0799dc53a"
+    }
+  ],
+  "summary": {
+    "task_count": 24,
+    "candidate_review_tasks": 14,
+    "route_decision_tasks": 10,
+    "stage_1_tasks": 19,
+    "stage_2_tasks": 4,
+    "stage_3_tasks": 1,
+    "optional_parallel_tasks": 1,
+    "completed_tasks": 0,
+    "owner_decisions": 0,
+    "accepted_candidates": 0,
+    "human_review_minutes": null,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

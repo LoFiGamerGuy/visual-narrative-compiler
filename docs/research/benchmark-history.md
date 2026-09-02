@@ -368,3 +368,5 @@ The 50-plan readiness matrix partitions exactly into 14 selected-evidence, four 
 The minimal reference-risk plan assigns 42 metadata hypotheses across 50 plans: 18 no-person text-only, P050 25, P040 16, and P036 composition-only one. Risk classes are 18/9/22/1 low/medium/high/critical-guarded. The 1600×1900 map is visually checked and 20/20 mutations fail; the initial 43-use estimate remains preserved as failed evidence.
 
 The live-only review timer binds 39 subjects, four transitions, seven fields, and six rules. Three valid synthetic logs pass and 12 malformed logs fail; a 20-second active fixture derives 0.333333 minutes. Sixteen/sixteen evidence mutations fail, while actual review minutes remain null.
+
+The owner handoff checklist binds 24 linked tasks—14 candidate and ten route—in dependency stages 19/4/1, with one optional non-canon task. Every prerequisite points to an earlier stage and 16/16 mutations fail; no decision or minute is recorded.

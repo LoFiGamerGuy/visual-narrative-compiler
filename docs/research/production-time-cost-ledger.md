@@ -91,3 +91,5 @@ The 50-plan readiness matrix and local map add no generation or external cost. T
 The reference-use/continuity-risk plan and local map add no generation or external cost. Its 42 reference uses are metadata hypotheses only; actual uploads, automated identity inferences, prompts, calls, acceptances, and execution remain zero, while human minutes and cost remain null.
 
 The human-review timer contract adds no measured review time or external cost. Its fixtures are synthetic only; live events, completed subjects, decisions, acceptances, calls, and uploads remain zero, and actual human minutes remain null.
+
+The owner dependency checklist adds no measured review time or external cost. Its 24 tasks are read-only links; completed tasks, decisions, accepted candidates, calls, and uploads remain zero, while human minutes remain null.

@@ -1149,3 +1149,10 @@
 - Passed three valid synthetic logs and rejected 12 malformed logs spanning contract, subject, event-ID, transition, delta, decision, timestamp, chronology, concurrency, and supplied-minute violations.
 - Verified a synthetic 20 active seconds derives 0.333333 minutes while wall-clock pauses are excluded.
 - ADR-0118 keeps the live event log absent and all current minutes null; 16/16 evidence mutations fail.
+
+## 2026-09-01 - CH05 owner handoff dependency checklist r1
+
+- Compiled 24 exact linked tasks: 14 strongest-candidate dispositions and ten route/density/lettering/P010/non-canon/commercial-exact-base questions.
+- Ordered tasks by dependency only into 19 foundational/parallel, four dependent, and one authority-stage task; non-canon taste review is explicitly optional for CH05.
+- Bound every artifact path/hash and generated a current absolute-link Markdown checklist.
+- ADR-0119 leaves decisions/reviewers/minutes/acceptance/provider state empty; 16/16 mutations fail.

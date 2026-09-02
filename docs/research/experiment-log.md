@@ -1457,3 +1457,10 @@
 - Two builds produce byte-identical hub index/packet hashes; 22/22 hub mutations fail.
 - Preserved all 128 prior links and reached 134 exact resources: 111 ignored local plus 23 tracked metadata.
 - Nineteen/nineteen link-manifest mutations fail under ADR-0162; dispositions, ingestion, acceptance, rights, and execution remain absent.
+
+## 2026-09-01 - CH05 final review reproducer matrix r3
+
+- Ran ten local domains covering r12, source r4, closeout r3, consistency, worksheet, hub r9/link r7, frozen/scope, and remote parity.
+- Ten/ten pass in 166.588 seconds; independent replay rejects 29/29 mutations.
+- Bound 29/50/12/134/67/112, release 84, source 934, cost 82, and frozen 16 + baseline 4.
+- Only two decimal tracked-path diagnostics normalize; all provider, ingestion, acceptance, rights, execution, and spend fields remain zero/null under ADR-0163.

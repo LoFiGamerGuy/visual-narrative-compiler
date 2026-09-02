@@ -217,6 +217,8 @@ The CH05 transparent-lettering rehearsal builds 12 local treatments and 25 artif
 
 The CH05 width/copy sweep measures 30 local cases and 31 artifacts. The first 13px passes occur only at 1200px for c005/c013 and at 1120px one-line/1200px two-line for h001; c014 is excluded. Twelve/twelve mutations fail. This measures one font, two placeholder copy shapes, one backing, and candidate-specific geometry—not a universal width, final copy, localization, semantic acceptance, or plan revision.
 
+The CH05 outside-art comparison builds two 14-panel scrolls plus phone versions and a side-by-side sheet. Six bands render 13.975px type, change zero source pixels, and increase scroll height 480px/3.295%; 12/12 mutations fail. This proves local caption/direct-text geometry only—not speaker binding, final copy, plan authority, assembly acceptance, or production lettering.
+
 The blinded G07 protocol verifies 16/16 neutral candidate presentations and 4/4 hidden-arm repeat pairs, requiring 20 timed assertion decisions; 13/13 identity/order/coverage/timing mutations fail. Actual decisions remain 0, minutes null, and accepted subjects zero. This adds review readiness, not human renderer-quality evidence or a new selection decision.
 
 The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate cost, latency, drift, assertion, and failure-tag dimensions; 9/9 pending/fixture/coverage/mapping mutations fail. With review still pending it emits no human arm results, composite score, rank, or route change. Renderer-quality evidence and ADR-0025 remain unchanged.

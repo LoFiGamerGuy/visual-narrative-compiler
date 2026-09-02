@@ -1,0 +1,38 @@
+{
+  "record_type": "ComicOutsideArtLetteringBandManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-outside-art-lettering-band-r1",
+  "state": "LOCAL_NONPLAN_DEMONSTRATION_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "comic_panel_plan_collection": "production/comic/ch05-sc01-panel-plans-v1.json",
+  "assembly": "production/comic/assembly/ch05-variable-cadence-assembly-r1.json",
+  "comic_panel_plan_revision_created": false,
+  "assembly_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "review_copy": ["TEST COPY", "NOT FINAL"],
+  "review_copy_is_canon": false,
+  "font": {"family": "Arial Bold", "local_path": "C:/Windows/Fonts/arialbd.ttf", "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5", "assembly_size_px": 43, "phone_size_px": 13.975},
+  "band_height_px": 160,
+  "subjects": [
+    {"candidate_id": "c005", "panel_id": "ng-ch05-sc01-p009"},
+    {"candidate_id": "c013", "panel_id": "ng-ch05-sc01-p040"},
+    {"candidate_id": "c014", "panel_id": "ng-ch05-sc01-p044"}
+  ],
+  "treatments": [
+    {"treatment_id": "light_caption_band", "band_rgb": [250, 248, 240], "text_rgb": [20, 23, 26], "outline_rgb": [30, 34, 38]},
+    {"treatment_id": "dark_direct_gutter_text", "band_rgb": [18, 21, 26], "text_rgb": [244, 241, 231], "outline_rgb": null}
+  ],
+  "declared_rules": {
+    "pixel_clearance": "Band occupies newly inserted gutter rows and changes zero source-image pixels.",
+    "semantic_scope": "Without a tail, the treatment demonstrates caption/direct-text geometry only; it cannot silently replace character speech.",
+    "planning": "Any production use requires a ComicPanelPlan lettering-strategy revision and a new assembly revision.",
+    "phone_type": "Hash-pinned 43px assembly type measures 13.975px after the 390/1200 chapter scale."
+  },
+  "boundaries": [
+    "Local composition only; no provider call, upload, API, budget, or new art.",
+    "No current safe zone is reinterpreted or superseded by this demonstration.",
+    "Review copy is non-canon; no dialogue or lettering is accepted.",
+    "Source candidates and all derived pixels remain ignored and unaccepted."
+  ]
+}

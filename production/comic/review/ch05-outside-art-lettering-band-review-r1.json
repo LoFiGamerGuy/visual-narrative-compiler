@@ -1,0 +1,45 @@
+{
+  "record_type": "ComicOutsideArtLetteringBandEngineeringReview",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-outside-art-lettering-band-review-r1",
+  "state": "PROVISIONAL_ENGINEERING_REVIEW_OWNER_REVIEW_PENDING",
+  "manifest": "production/comic/lettering/ch05-outside-art-lettering-band-r1.json",
+  "local_packet": "experiments/review-packets/ch05-outside-art-lettering-band-r1/outside-art-lettering-band-packet.json",
+  "human_review_minutes": null,
+  "accepted_treatments": [],
+  "measured_results": {
+    "treatments": 2,
+    "subject_bands_per_treatment": 3,
+    "source_pixels_changed": 0,
+    "font_size_phone_px": 13.975,
+    "band_height_phone_px": 52.0,
+    "base_scroll_dimensions": [1200, 14566],
+    "band_scroll_dimensions": [1200, 15046],
+    "scroll_height_increase_px": 480,
+    "scroll_height_increase_percent": 3.295,
+    "phone_scroll_dimensions": [390, 4890]
+  },
+  "visual_reviews": [
+    {
+      "treatment_id": "light_caption_band",
+      "phone_readability": "PASS for the tested two-line 13.975px review copy",
+      "protected_content_clearance": "PASS mechanically: the band occupies new gutter rows and overlaps zero source pixels",
+      "grouping": "PASS provisionally: the bounded light field associates copy with the following narrow panel",
+      "limitation": "Reads as caption/narration geometry, not attributed speech; no tail or speaker binding is tested."
+    },
+    {
+      "treatment_id": "dark_direct_gutter_text",
+      "phone_readability": "PASS for the tested two-line 13.975px review copy",
+      "protected_content_clearance": "PASS mechanically: the text occupies new gutter rows and overlaps zero source pixels",
+      "grouping": "WARN: visually quiet but less clearly associated with the following panel than the light band",
+      "limitation": "Reads as direct caption/interface-like text, not attributed speech; no tail or speaker binding is tested."
+    }
+  ],
+  "subject_notes": [
+    {"candidate_id": "c005", "note": "Outside-art text preserves the 720px transition image, but the beat should still stay silent unless script need justifies caption text."},
+    {"candidate_id": "c013", "note": "The light band is a viable plan-revision candidate for deduction/narration while keeping the 760px portrait footprint."},
+    {"candidate_id": "c014", "note": "The band removes the tested pixel overlap, but does not repair the current ComicPanelPlan; P044 remains silent until an explicit revision."}
+  ],
+  "decision": "Carry the light outside-art caption band as the next plan-level option for narration/deduction on narrow panels. Retain dark direct gutter text as a quieter comparison arm. Do not use either for attributed character speech without explicit speaker/tail semantics and a ComicPanelPlan revision.",
+  "boundary": "No band, copy, dialogue, plan, assembly, panel, or production base is accepted or commercially cleared."
+}

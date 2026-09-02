@@ -39,3 +39,5 @@ The separately non-canon future LitRPG concept trio adds 155.766 observed second
 The variable-cadence assembly and transparent-lettering rehearsal add no renderer generation and no external cost. They produce 13 and 25 ignored local review artifacts respectively from existing unaccepted pixels. Provider calls/uploads are zero; human minutes remain null; accepted panels, sequences, and lettering treatments remain zero.
 
 The lettering width/copy sensitivity sweep adds 30 local layout cases and 31 ignored review artifacts with no renderer generation or external cost. Provider calls/uploads remain zero; human minutes and acceptance remain null/zero.
+
+The outside-art lettering-band comparison adds two local 14-panel scroll alternatives, six band instances, and five ignored artifacts with no renderer generation or external cost. Provider calls/uploads remain zero; human minutes and acceptance remain null/zero.

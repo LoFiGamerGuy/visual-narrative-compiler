@@ -955,3 +955,10 @@
 - Minimum 13px phone-type widths are c005 1200/1200, c013 1200/1200, and h001 1120/1200 for one/two lines.
 - Consecutive builds preserve the same 31-artifact packet and reject 12/12 denominator/threshold/exclusion/promotion/activity mutations.
 - ADR-0091 and ComicStyleDirection r7 reserve near-full/full-width footprints for lettered anchors while keeping small causal inserts silent by default. No plan or assembly revision, provider call, upload, or cost occurs.
+
+## 2026-09-01 - CH05 outside-art lettering band r1
+
+- Built light-caption and dark-direct full-scroll alternatives with bands above c005/c013/c014, preserving all 14 selected images at their existing footprints.
+- Both treatments render 13.975px phone type, change zero source pixels, and add 480px/3.295% to the full scroll; two consecutive builds preserve the same five-artifact packet.
+- Visual review favors the light band for panel association; dark direct text is quieter but less clearly grouped. Neither treatment supplies a speech tail or speaker binding.
+- ADR-0092 and ComicStyleDirection r8 carry the light band only as plan-level caption/deduction geometry. Twelve/twelve mutations fail; no plan/assembly revision, provider call, upload, or cost occurs.

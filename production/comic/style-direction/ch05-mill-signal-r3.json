@@ -1,0 +1,55 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "1.2",
+  "record_id": "ng-comic-style-ch05-mill-signal-r3",
+  "state": "MEASURED_PROVISIONAL_ROUTE_OWNER_CANDIDATE_REVIEW_PENDING",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r2",
+    "path": "production/comic/style-direction/ch05-mill-signal-r2.json",
+    "sha256": "cef1b4159626cd1c305e95294868e55b57b8635ae2e2d057b089a17fb82b9e6f"
+  },
+  "evidence": {
+    "record": "docs/research/evidence/ch05-overnight-production-r1.json",
+    "engineering_review": "production/comic/review/ch05-overnight-engineering-review-r1.json",
+    "candidate_count": 20,
+    "distinct_comic_panel_plans": 14,
+    "all_six_dimensions_pass": 12,
+    "warn_only": 3,
+    "one_or_more_failures": 5,
+    "human_accepted_candidates": 0
+  },
+  "measured_style_results": {
+    "cel_painted": {"candidates": 4, "all_pass": 4, "warn_only": 0, "failure": 0, "tested_roles": ["medium_character_beat", "tall_practical_action"]},
+    "clear_line_watercolor": {"candidates": 6, "all_pass": 3, "warn_only": 2, "failure": 1, "tested_roles": ["wide_orientation_control", "wide_action_anchor", "tall_transition", "medium_character_beat", "small_object_insert"]},
+    "limited_ink_flat": {"candidates": 5, "all_pass": 3, "warn_only": 1, "failure": 1, "tested_roles": ["wide_action_anchor", "medium_character_control", "medium_practical_action", "tall_transition", "small_object_insert"]},
+    "clean_graphic": {"candidates": 5, "all_pass": 2, "warn_only": 0, "failure": 3, "tested_roles": ["wide_action_anchor", "wide_practical_action", "wide_reveal", "tall_practical_action", "medium_target_change"]}
+  },
+  "provisional_route": {
+    "primary_finish": "premium cel-painted webcomic with clear-line contour hierarchy and restrained painterly color",
+    "reason": "The cel-painted arm is 4/4 on all six engineering dimensions and gives the strongest close-character continuity; its missing wide-action coverage is the next controlled test rather than an assumed strength.",
+    "chapter_cadence": {
+      "wide_action_and_reveal": "Use clear-line watercolor or clean graphic composition with restrained detail and a protected sky/wall field; validate the cel-painted finish on an exact P050 comparison before standardizing it.",
+      "medium_dialogue_and_deduction": "Use the cel-painted finish with simplified backgrounds and one canonical lettering field.",
+      "tall_causal_action": "Use the cel-painted/clear-line hybrid only when the complete action chain remains visible from hands through tool/lever to target.",
+      "small_object_insert": "Use limited ink and flat color with a single causal object; suppress incidental environment detail.",
+      "transitions": "Use clear-line watercolor with fewer rendered textures than c004/c005 and preserve role-order silhouettes."
+    },
+    "continuity_mechanism": "P050 dual identity plus P040 Sigrid identity, explicit text hair/wardrobe invariants, and P036 composition-only usage. Include text-only controls when reference dominance could reverse orientation.",
+    "lettering_rule": "The exact normalized ComicPanelPlan safe zone is an input constraint and packet overlay; any overlap with a face, person, important hand, story object, or dense branch texture fails or warns before lettering.",
+    "production_status": "provisional engineering recommendation only"
+  },
+  "next_high_information_experiment": {
+    "experiment_id": "ch05-cadence-hardening-r1",
+    "minimum_scope": "Complete the P050 style triangle with one cel-painted wide action candidate, then make only targeted composition repairs for c003/c007/c009 failure classes.",
+    "selection_gate": "Do not standardize the primary finish until the wide cel-painted P050 candidate preserves role order, causal motion, hair/wardrobe, lettering clearance, and phone readability."
+  },
+  "limitations": [
+    "The built-in product exposed no model, endpoint, provider request ID, usage, cost, or deterministic seed.",
+    "Candidate counts per style are small and panel-role coverage is imbalanced.",
+    "The lower-density style frequently retained dense environment rendering and needs stronger prompt isolation.",
+    "No output is human accepted, commercially cleared, or promoted as an exact production base."
+  ]
+}

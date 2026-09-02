@@ -1,0 +1,73 @@
+{
+  "record_type": "OvernightComicProductionPlan",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-overnight-production-plan-r1",
+  "state": "READY_FOR_AUTHORIZED_BUILTIN_IMAGEGEN",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "comic_panel_plan_collection": "production/comic/ch05-sc01-panel-plans-v1.json",
+  "continuity_profile": "production/comic/continuity/ch05-fictional-adult-visual-profile-r1.json",
+  "generation_target": {
+    "planned_candidates": 20,
+    "distinct_panel_plans": 14,
+    "sequence_count": 3,
+    "style_families": 4,
+    "text_only_controls": 4
+  },
+  "style_families": {
+    "clean_graphic": "clean high-quality graphic webcomic, confident ink shapes, restrained painterly color, crisp silhouettes, controlled environmental texture",
+    "clear_line_watercolor": "mature clear-line adventure comic with elegant contour hierarchy, light watercolor washes, readable causal geometry, simplified environment",
+    "cel_painted": "premium modern cel-painted webcomic with mature proportions, expressive linework, graphic shadows, clean color separation, subtle paper grain",
+    "limited_ink_flat": "lower-density limited-palette ink-and-flat-color adventure strip, bold value masses, selective dry-brush texture, strong phone-size readability"
+  },
+  "sequences": [
+    {
+      "sequence_id": "departure_and_clue",
+      "panel_ids": ["ng-ch05-sc01-p001", "ng-ch05-sc01-p002", "ng-ch05-sc01-p003", "ng-ch05-sc01-p009"],
+      "candidate_ids": ["c001", "c002", "c003", "c004", "c005", "c019"]
+    },
+    {
+      "sequence_id": "bridge_to_mill",
+      "panel_ids": ["ng-ch05-sc01-p019", "ng-ch05-sc01-p026", "ng-ch05-sc01-p029", "ng-ch05-sc01-p035", "ng-ch05-sc01-p036"],
+      "candidate_ids": ["c006", "c007", "c008", "c009", "c010", "c011", "c012"]
+    },
+    {
+      "sequence_id": "signal_and_return",
+      "panel_ids": ["ng-ch05-sc01-p040", "ng-ch05-sc01-p044", "ng-ch05-sc01-p046", "ng-ch05-sc01-p049", "ng-ch05-sc01-p050"],
+      "candidate_ids": ["c013", "c014", "c015", "c016", "c017", "c018", "c020"]
+    }
+  ],
+  "candidates": [
+    {"candidate_id":"c001","panel_id":"ng-ch05-sc01-p001","style_id":"clean_graphic","format_role":"wide_action_anchor","reference_ids":["p050_dual_identity_action"],"special_instruction":"wide downhill departure at dawn; Sigrid leads, Soren follows; small adult figures but hair/wardrobe silhouettes remain distinct"},
+    {"candidate_id":"c002","panel_id":"ng-ch05-sc01-p002","style_id":"cel_painted","format_role":"medium_character_beat","reference_ids":["p040_sigrid_face"],"special_instruction":"over-shoulder Sigrid map study; circled smoke direction represented visually without legible text; mature face and dark tied hair"},
+    {"candidate_id":"c003","panel_id":"ng-ch05-sc01-p003","style_id":"clear_line_watercolor","format_role":"small_object_insert","reference_ids":["p050_dual_identity_action"],"special_instruction":"low boot-print clue insert with Soren's boot held back; overlapping prints are the single clear story object"},
+    {"candidate_id":"c004","panel_id":"ng-ch05-sc01-p009","style_id":"limited_ink_flat","format_role":"tall_transition","reference_ids":["p050_dual_identity_action"],"special_instruction":"long narrow wet path under branches; Sigrid leads, Soren follows; simplified foliage and clear depth"},
+    {"candidate_id":"c005","panel_id":"ng-ch05-sc01-p009","style_id":"clear_line_watercolor","format_role":"tall_transition","reference_ids":["p050_dual_identity_action"],"special_instruction":"alternate style control for the same narrow-trail beat; preserve exact role order, hair colors, and wardrobe"},
+    {"candidate_id":"c006","panel_id":"ng-ch05-sc01-p019","style_id":"clean_graphic","format_role":"wide_practical_action","reference_ids":["p050_dual_identity_action","p040_sigrid_face"],"special_instruction":"Sigrid foreground stop-hand signal at unsafe open bridge; Soren visibly checks his step behind her; hand causality is dominant"},
+    {"candidate_id":"c007","panel_id":"ng-ch05-sc01-p019","style_id":"limited_ink_flat","format_role":"medium_practical_action","reference_ids":[],"special_instruction":"text-only style control for bridge warning; exactly two fictional adults, Sigrid dark-haired foreground, Soren light-brown-haired held back"},
+    {"candidate_id":"c008","panel_id":"ng-ch05-sc01-p026","style_id":"cel_painted","format_role":"small_object_insert","reference_ids":["p040_sigrid_face"],"special_instruction":"Sigrid's mature hand held above a warm drum; thin smoke separates every finger; face optional and unobscured if present"},
+    {"candidate_id":"c009","panel_id":"ng-ch05-sc01-p029","style_id":"clean_graphic","format_role":"wide_suspense_anchor","reference_ids":["p050_dual_identity_action","p040_sigrid_face"],"special_instruction":"low angled wall-opening entry; Sigrid enters first while Soren watches the exterior; strong separated silhouettes"},
+    {"candidate_id":"c010","panel_id":"ng-ch05-sc01-p035","style_id":"clear_line_watercolor","format_role":"small_object_reveal","reference_ids":[],"special_instruction":"upward object-only view; small sealed tin isolated in daylight on a high beam; no people"},
+    {"candidate_id":"c011","panel_id":"ng-ch05-sc01-p036","style_id":"clean_graphic","format_role":"tall_practical_action","reference_ids":["p050_dual_identity_action","p040_sigrid_face","p036_composition_only"],"special_instruction":"both adults grounded; Soren uses fallen plank as lever, Sigrid braces fulcrum; P036 reference supplies composition only and its hair colors must be reversed to continuity profile"},
+    {"candidate_id":"c012","panel_id":"ng-ch05-sc01-p036","style_id":"cel_painted","format_role":"tall_practical_action","reference_ids":["p050_dual_identity_action","p040_sigrid_face","p036_composition_only"],"special_instruction":"cel-painted alternate of exact lever beat; visibly planted feet, complete lever span, fulcrum, tin, hands, and face-safe lettering field"},
+    {"candidate_id":"c013","panel_id":"ng-ch05-sc01-p040","style_id":"clear_line_watercolor","format_role":"medium_character_beat","reference_ids":["p040_sigrid_face"],"special_instruction":"Sigrid calm deduction close profile; dark tied hair, plaid wrap, folded map, distant smoke; expression and quiet field dominate"},
+    {"candidate_id":"c014","panel_id":"ng-ch05-sc01-p044","style_id":"limited_ink_flat","format_role":"small_object_insert","reference_ids":["p050_dual_identity_action"],"special_instruction":"Soren's adult hands cut taut soot-stained twine with a small practical pocket knife at the creek; blade/twine causality and safe handling legible"},
+    {"candidate_id":"c015","panel_id":"ng-ch05-sc01-p046","style_id":"cel_painted","format_role":"medium_continuity_beat","reference_ids":["p040_sigrid_face"],"special_instruction":"Sigrid deliberately tucks folded creek map inside plaid wrap rather than notebook; dark hair and prop continuity exact"},
+    {"candidate_id":"c016","panel_id":"ng-ch05-sc01-p049","style_id":"clean_graphic","format_role":"medium_reaction_anchor","reference_ids":["p050_dual_identity_action"],"special_instruction":"Soren foreground realizes the distant farmhouse stove is smoking; light-brown hair, oatmeal coat, house far beyond, restrained alarm"},
+    {"candidate_id":"c017","panel_id":"ng-ch05-sc01-p050","style_id":"clear_line_watercolor","format_role":"wide_action_anchor","reference_ids":["p050_dual_identity_action","p040_sigrid_face"],"special_instruction":"alternate style of urgent uphill return; Sigrid dark-haired lead, Soren light-brown-haired follower with map, grounded stride and mud"},
+    {"candidate_id":"c018","panel_id":"ng-ch05-sc01-p050","style_id":"limited_ink_flat","format_role":"wide_action_anchor","reference_ids":["p050_dual_identity_action"],"special_instruction":"lower-density action control; exactly two adult silhouettes, large quiet sky field, bold limited palette, no loss of face/hair/wardrobe identity"},
+    {"candidate_id":"c019","panel_id":"ng-ch05-sc01-p001","style_id":"clear_line_watercolor","format_role":"wide_orientation_control","reference_ids":[],"special_instruction":"text-only identity control: Soren light-brown-haired in oatmeal coat and Sigrid dark-haired in plaid wrap leave farmhouse downhill"},
+    {"candidate_id":"c020","panel_id":"ng-ch05-sc01-p040","style_id":"limited_ink_flat","format_role":"medium_character_control","reference_ids":[],"special_instruction":"text-only lower-density Sigrid identity control; mature dark-haired adult profile, plaid wrap, map, distant smoke, quiet top-right field"}
+  ],
+  "output_root": "experiments/review-packets/ch05-overnight-production-r1",
+  "boundaries": {
+    "authorized_product": "OpenAI built-in ImageGen in Codex",
+    "direct_paid_api": false,
+    "authorized_reference_count": 3,
+    "generated_pixels_git_tracked": false,
+    "human_acceptance_required": true,
+    "production_base_selection": null,
+    "commercial_clearance": false
+  }
+}

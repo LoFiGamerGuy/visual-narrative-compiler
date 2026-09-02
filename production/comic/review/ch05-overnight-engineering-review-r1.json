@@ -1,0 +1,135 @@
+{
+  "record_type": "ComicCandidateEngineeringReview",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-overnight-engineering-review-r1",
+  "state": "PROVISIONAL_ENGINEERING_REVIEW_AWAITING_OWNER",
+  "source_run": "ng-ch05-overnight-production-plan-r1",
+  "reviewer_kind": "agent_visual_engineering_review",
+  "human_review_minutes": null,
+  "scoring_rule": "PASS means visibly supported at review-sheet and phone-preview scale; WARN means plausible but ambiguous or detail-dependent; FAIL means visibly contradicts a ComicPanelPlan requirement. No aggregate aesthetic score is computed.",
+  "dimensions": [
+    "cast_count",
+    "role_identity_and_order",
+    "hair_and_wardrobe_continuity",
+    "causal_action_or_story_object",
+    "lettering_safe_zone",
+    "phone_size_readability"
+  ],
+  "entries": [
+    {
+      "candidate_id": "c001",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "FAIL", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "FAIL", "lettering_safe_zone": "PASS", "phone_size_readability": "WARN"},
+      "note": "Strong reference continuity, but the pair move uphill toward the house instead of departing downhill; preserve as reference-dominance diagnostic."
+    },
+    {
+      "candidate_id": "c002",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Sigrid, folded map, marked direction, and distant smoke form a clear quiet orientation beat with a clean top-right field."
+    },
+    {
+      "candidate_id": "c003",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "WARN", "lettering_safe_zone": "FAIL", "phone_size_readability": "PASS"},
+      "note": "Boot-print clue and held-back boot read, but overlap-versus-leading geometry remains ambiguous and the canonical top-left zone covers Soren's head."
+    },
+    {
+      "candidate_id": "c004",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "WARN", "phone_size_readability": "PASS"},
+      "note": "Clear Sigrid-leads trail movement and stable silhouettes; the protected zone contains dense branch texture and the treatment is not genuinely low density."
+    },
+    {
+      "candidate_id": "c005",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "WARN", "phone_size_readability": "PASS"},
+      "note": "Best grounded trail weight shift, footfalls, wet mud, and cloth movement; overhead branches make the top-left lettering field busier than intended."
+    },
+    {
+      "candidate_id": "c006",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Stop hand, checked step, unsafe bridge, role order, and expressive faces read immediately; strong practical-action candidate."
+    },
+    {
+      "candidate_id": "c007",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "FAIL", "phone_size_readability": "PASS"},
+      "note": "Text-only control preserves identity and warning action, but the top-left lettering zone overlaps Soren's head and the image remains high density."
+    },
+    {
+      "candidate_id": "c008",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Heat, hand response, tin, smoke, and Sigrid's close expression make a readable causal sensory beat with excellent continuity."
+    },
+    {
+      "candidate_id": "c009",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "FAIL", "phone_size_readability": "PASS"},
+      "note": "Mill threshold crossing and simultaneous smoke watch are clear, but the top-left protected zone overlaps Soren's head."
+    },
+    {
+      "candidate_id": "c010",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Quiet object insert isolates the tin and beam cleanly; useful cadence relief between character-action panels."
+    },
+    {
+      "candidate_id": "c011",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "FAIL", "lettering_safe_zone": "PASS", "phone_size_readability": "WARN"},
+      "note": "Hair survives the conflicting composition reference, but plank, fulcrum, and tin do not form an explicit connected causal mechanism."
+    },
+    {
+      "candidate_id": "c012",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "The long plank visibly reaches the elevated tin while both adults apply coordinated leverage; clearest P036 causal result in this batch."
+    },
+    {
+      "candidate_id": "c013",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Sigrid's deduction, map, and signal smoke read clearly with stable face/hair and a deliberately quiet lettering field."
+    },
+    {
+      "candidate_id": "c014",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Readable adult hands, blade edge, taut wet twine, and cut point make an effective small causal insert."
+    },
+    {
+      "candidate_id": "c015",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Sigrid protects the folded evidence against the wrap; a calm continuity beat with clear expression and safe negative space."
+    },
+    {
+      "candidate_id": "c016",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Soren, map, uphill house, and alert turn make the target-change beat readable while retaining the oatmeal-coat silhouette."
+    },
+    {
+      "candidate_id": "c017",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Strongest urgent-return action: correct uphill destination, Sigrid leads, Soren follows with map, and mud/cloth motion carries causality."
+    },
+    {
+      "candidate_id": "c018",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Same successful causal read as c017 with slightly simpler value masses, though still denser than the requested low-density arm."
+    },
+    {
+      "candidate_id": "c019",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "WARN"},
+      "note": "Text-only control fixes c001's direction: the adults clearly leave the farmhouse downhill; identity is readable mainly through wardrobe at phone scale."
+    },
+    {
+      "candidate_id": "c020",
+      "results": {"cast_count": "PASS", "role_identity_and_order": "PASS", "hair_and_wardrobe_continuity": "PASS", "causal_action_or_story_object": "PASS", "lettering_safe_zone": "PASS", "phone_size_readability": "PASS"},
+      "note": "Text-only Sigrid control keeps dark tied hair, plaid, map, and smoke, with the lowest effective visual density of the close treatments."
+    }
+  ],
+  "provisional_findings": {
+    "candidate_pass_counts": {"all_six_dimensions": 12, "warn_only": 3, "one_or_more_failures": 5},
+    "note_on_overlap": "The three aggregate groups are mutually exclusive; they are descriptive engineering triage, not an acceptance ranking.",
+    "strongest_mechanism": "Reference-conditioned built-in ImageGen with explicit hair/wardrobe invariants and panel-specific causal composition, paired with text-only controls when orientation flexibility matters.",
+    "strongest_style_route": "Use clear-line watercolor or clean graphic for action/reveal anchors, cel-painted close panels for face continuity, and a genuinely simplified limited-ink arm for dialogue and inserts.",
+    "cadence_recommendation": "Alternate wide action/reveal anchors with medium character deductions, tall transitions, and small causal inserts; do not force a single ratio or density across the chapter.",
+    "limitations": [
+      "The built-in tool did not disclose model, endpoint, provider request ID, usage, or cost.",
+      "No deterministic seed or exact rerun contract was available.",
+      "The limited-ink prompts often retained high environmental detail, so the lower-density mechanism is not yet isolated.",
+      "Reference conditioning improved identity but could dominate direction, as c001 demonstrates.",
+      "This is agent engineering review, not owner acceptance, commercial clearance, or exact-production-base approval."
+    ]
+  },
+  "boundary": "No generated candidate is accepted, commercially cleared, or promoted as an exact production base. AnimationShotPlan and E-Conte remain absent/null."
+}

@@ -906,3 +906,12 @@
 - The first P036 result is a preserved semantic miss because Soren climbs the plank. The corrected prompt grounds both adults and improves the lever read; exact fulcrum/tin causality remains pending human review.
 - Built-in generation did not expose model/endpoint/request/usage/cost, so the candidates are local research evidence rather than paid-provider RenderRecords or production inputs.
 - Review/authority handoff r2 preserves the owner's qualitative approval while leaving formal G07 at 0/20 and all four exact CH05 production roots null; the new four-candidate packet is the next local comparison.
+
+## 2026-09-01 - CH05 overnight multi-panel production r1
+
+- Generated and registered 20 fictional-adult candidates across 14 exact ComicPanelPlans, three narrative sequences, four style families, four text-only controls, and wide/tall/medium/insert functions.
+- Observed built-in tool time totals 919.389 seconds. The tool disclosed no model, endpoint, request ID, usage, cost, or deterministic seed; no direct paid API, BFL activity, cloud GPU, or new provider was used.
+- Every prompt, authorized input-reference hash, output hash/dimension, timing, and limitation is exported to `docs/research/evidence/ch05-overnight-production-r1.json`; generated pixels and 49 review outputs remain ignored.
+- Deterministic review construction emits nine consolidated sheets plus 20 individual lettering overlays and 20 phone previews. Evidence validation reports zero failures.
+- Provisional engineering triage is 12 all-dimension passes, three warn-only, and five with at least one failure. c001 reverses departure direction; c003/c007/c009 collide with a canonical safe zone; c011 does not fully connect the lever chain.
+- ADR-0085 prevents P036's swapped hair from becoming identity evidence. ADR-0086 selects a provisional role-aware cel/clear-line route and requires a missing cel-painted P050 wide comparison before chapter-wide standardization.

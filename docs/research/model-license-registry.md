@@ -81,3 +81,7 @@ The v2.1 RenderRecord profile changes no provider, model, endpoint, terms, data-
 ## Selected-route hardening-state handoff — 2026-09-01
 
 The consolidated hardening state does not change any registry status. OpenAI GPT Image 2 remains an engineering hardening route selected from measured G07 operations/diagnostics, with human review pending and no accepted or commercially cleared output. BFL remains closed beyond its two public fictional controls; all other expanded upload and CH05 production authority remains absent.
+
+## Built-in ImageGen CH05 overnight boundary — 2026-09-01
+
+The Codex built-in ImageGen product received only the three owner-authorized, hash-pinned fictional-adult project images. It disclosed no model name, endpoint, provider request ID, usage, cost, deterministic seed, license grant, or commercial-use decision; those fields remain unavailable rather than inferred. Twenty outputs are ignored local research evidence and none is accepted, commercially cleared, reproducible, or an exact production base. No direct paid API, BFL upload, alternate provider, real likeness, private reference, LoRA, dataset, or child-related material was used.

@@ -1142,3 +1142,10 @@
 - Bound P036 to identity authority `NONE`, swapped-hair guard, and plan P036 only; prohibited automated identity inference.
 - Preserved attempt 1's incorrect 43-use expectation and corrected only validator counts to the unchanged 42-use compiler output.
 - Built/visually checked a 1600×1900 risk map; ADR-0117 keeps uploads/inference/prompts/acceptance/execution/calls/cost zero; 20/20 mutations fail.
+
+## 2026-09-01 - CH05 human-review time instrumentation contract r1
+
+- Bound all 39 exact review subjects to a live-only start/pause/resume/complete event state machine with seven event fields and six anti-backfill/concurrency/derivation rules.
+- Passed three valid synthetic logs and rejected 12 malformed logs spanning contract, subject, event-ID, transition, delta, decision, timestamp, chronology, concurrency, and supplied-minute violations.
+- Verified a synthetic 20 active seconds derives 0.333333 minutes while wall-clock pauses are excluded.
+- ADR-0118 keeps the live event log absent and all current minutes null; 16/16 evidence mutations fail.

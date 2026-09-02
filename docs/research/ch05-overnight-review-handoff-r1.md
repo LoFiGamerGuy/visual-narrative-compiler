@@ -93,3 +93,5 @@ Integrated evidence now passes release r5 at `docs/research/evidence/ch05-overni
 Review the full 50-plan readiness map at `experiments/review-packets/ch05-chapter-production-readiness-r1/ch05-chapter-readiness-map-r1.png`. The tracked matrix is `production/comic/run-manifests/ch05-chapter-production-readiness-matrix-r1.json`; ADR-0116 keeps every prompt and promotion gate closed.
 
 Review the hair/wardrobe/reference risk map at `experiments/review-packets/ch05-reference-use-continuity-risk-r1/ch05-reference-risk-map-r1.png`. The tracked plan is `production/comic/continuity/ch05-reference-use-and-continuity-risk-plan-r1.json`; ADR-0117 makes all 18 no-person rows text-only and critically guards the sole P036 composition hypothesis.
+
+Future owner-review time can be measured with `production/comic/review/ch05-human-review-time-instrumentation-contract-r1.json` and `python src/north_garden/validate_ch05_human_review_time_event_log.py <event-log.json>`. ADR-0118 forbids backfilling prior review; current minutes remain null.

@@ -378,3 +378,5 @@ The chapter production-batch manifest partitions 50 plans into 12 contiguous seq
 The lettering-semantics matrix partitions 50 plans into 16 silent inserts, 14 protected action/motion, 13 caption-or-silence, six speech/reaction, and one attributed-speech row. All copy remains null and overlap/acceptance stays zero. The 1600×1900 map is visually checked and 16/16 mutations fail.
 
 Owner hub r4 links six current resources and builds byte-identically; 15/15 mutations fail. Link manifest r2 preserves 99 r1 artifacts and adds six, producing 105 exact links (104 ignored local/one tracked metadata); 14/14 mutations fail.
+
+Integrated release r7 preserves the 42-check r6 chain and adds four independent validators. Five/five commands pass in 14.531 seconds, 46 effective checks are represented, and 25/25 mutations fail. Twelve batches, 50 lettering rows, and 105 links are release-bound without prompt or promotion state.

@@ -224,6 +224,8 @@ The chapter lettering-semantics milestone is complete under ADR-0122. Fifty rows
 
 The current owner-hub/link milestone is complete under ADR-0123. Hub r4 extends immutable r3 with six links (four image, one HTML, one text), builds byte-identically, and rejects 15/15 mutations. Link manifest r2 preserves all 99 r1 bindings and adds the r4 hub, four chapter maps, and dependency checklist: 105 exact resources, 104 ignored local plus one tracked metadata link. Fourteen/fourteen mutations fail. The next bounded milestone is integrated release r7 covering sequence batches, lettering semantics, owner hub r4, and link manifest r2.
 
+The integrated release r7 milestone is complete under ADR-0124. Immutable r6 plus sequence, lettering, hub, and link validators gives 46 effective checks; 5/5 commands pass in 14.531 seconds and 25/25 mutations fail. Twelve batches, 50 lettering rows, 105 exact links, and 24 owner tasks share the release chain; frozen/baseline and zero prompt/review/provider/promotion state remain exact. The next bounded milestone is a final delivery-bundle manifest that pins recommendations, review links, counts, limitations, ADRs, remaining decisions, and reproducer commands without declaring completion early.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

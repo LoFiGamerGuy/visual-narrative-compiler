@@ -1,0 +1,114 @@
+{
+  "record_type": "CH05OvernightIntegratedReleaseGate",
+  "schema_version": "1.6",
+  "record_id": "ng-ch05-overnight-integrated-release-gate-r7",
+  "state": "PASS",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-ch05-overnight-integrated-release-gate-r6",
+    "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r6.json",
+    "sha256": "d7b29f401769012730265e2dc2acf4513ab302e6204754377ab8f4b5f2bb1545"
+  },
+  "summary": {
+    "base_effective_command_count": 42,
+    "extension_command_count": 4,
+    "effective_command_count": 46,
+    "orchestrator_commands": 5,
+    "passed": 5,
+    "failed": 0,
+    "observed_total_seconds": 14.531169,
+    "network_capable_commands": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "downloads": 0,
+    "cost_usd": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "owner_decisions": 0,
+    "human_review_minutes": null
+  },
+  "results": [
+    {
+      "path": "src/north_garden/validate_ch05_overnight_integrated_release_gate_r6.py",
+      "script_sha256": "6ae7261c140b7312f607c8ac72ceffa2206a3d2469d328e0dd87344e48c51409",
+      "command": "python src/north_garden/validate_ch05_overnight_integrated_release_gate_r6.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 9.903502,
+      "stdout": "CH05 overnight integrated release r6: 0 failures; immutable 38 + 4 = 42 effective checks; 26/26 mutations rejected\n50 plans/42 refs/24 tasks/39 timer subjects; frozen 16 + baseline 4; 0 prompts/review/accepted/executable/calls/uploads/$0\n",
+      "stdout_sha256": "cd880851939c81b3ed8722f44a15924f52f83ac3a92f464b972af147b4844b1f",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_chapter_sequence_production_batches.py",
+      "script_sha256": "47c4f16acf522de1b77e6907ee5ee104500bfb21d3d7fb73fddc80f3eed05924",
+      "command": "python src/north_garden/validate_ch05_chapter_sequence_production_batches.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.120625,
+      "stdout": "CH05 sequence batches: 0 failures; 50 plans/12 sequences/3\ufffd5 panels/48 planned artifacts; 19/19 mutations rejected\nprompts/renders/accepted/executable/calls/uploads/cost 0/0/0/0/0/0/$0\n",
+      "stdout_sha256": "94c082795352248c173befa3d8e7259192c13e81b5a10ab5e78107b55db3c956",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_lettering_semantics_readiness_matrix.py",
+      "script_sha256": "26d3b2763e5941ffdff08ce1dfd39bb91362c92b6e25e8f2d7bd276462de76f9",
+      "command": "python src/north_garden/validate_ch05_lettering_semantics_readiness_matrix.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.122404,
+      "stdout": "CH05 lettering semantics: 0 failures; 50=16 silent insert+14 protected action+13 caption/silence+6 speech/reaction+1 attributed; 16/16 mutations rejected\ncopy/overlap permissions/accepted/revisions/calls/uploads/cost 0/0/0/0/0/0/$0\n",
+      "stdout_sha256": "74e2975a7a223b0de1caed686c2b7ddf00b05236852cfa8e039624c0db9c70e6",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_owner_review_index_r4.py",
+      "script_sha256": "a5df9ede5f323774e16a38e2fc634cdc031f4a5ddf7e100c0241363159e08050",
+      "command": "python src/north_garden/validate_ch05_owner_review_index_r4.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.079763,
+      "stdout": "CH05 owner review index r4: 0 failures; 6 links/4 images/1 HTML/1 text/5 artifacts; 15/15 mutations rejected\n29 candidates/50 plans/24 tasks; decisions/accepted/calls/uploads/cost 0/0/0/0/$0\n",
+      "stdout_sha256": "c345433c209e9a62c2d9e0b0d5c143f8bdd86ef17d1b60a6911aa050626b80b9",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_review_artifact_link_manifest_r2.py",
+      "script_sha256": "b4eab2463750572a15c3ca187d01939490ab4b5cb8f858ba3b4adde825953198",
+      "command": "python src/north_garden/validate_ch05_review_artifact_link_manifest_r2.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 4.303784,
+      "stdout": "CH05 review links r2: 0 failures; 105=99+6 artifacts / 104 ignored + 1 tracked; 14/14 mutations rejected\ndecisions/accepted/calls/uploads/cost 0/0/0/0/$0\n",
+      "stdout_sha256": "0f3dc72096c207d120c1dfd89045f56b72a6aa0a87cf402d43c15e4d93574881",
+      "stderr": ""
+    }
+  ],
+  "effective_state": {
+    "candidates": 29,
+    "comic_panel_plans": 50,
+    "sequence_batches": 12,
+    "sequence_size_min": 3,
+    "sequence_size_max": 5,
+    "planned_sequence_artifacts": 48,
+    "lettering_silent_inserts": 16,
+    "lettering_protected_action": 14,
+    "lettering_caption_or_silence": 13,
+    "lettering_speech_or_reaction": 6,
+    "lettering_attributed_unbound": 1,
+    "review_links": 105,
+    "owner_hub_links": 6,
+    "owner_tasks": 24,
+    "next_prompts": 0,
+    "frozen_paths": 16,
+    "baseline_paths": 4
+  },
+  "boundaries": [
+    "R6 remains immutable; r7 preserves 42 effective checks and adds sequence, lettering, owner-hub, and exact-link validators.",
+    "All commands are local and non-network-capable.",
+    "Passing does not bind copy, ingest review, compile prompts, upload, accept art, revise plans, or grant commercial clearance."
+  ]
+}

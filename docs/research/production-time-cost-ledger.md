@@ -101,3 +101,5 @@ The 12-sequence production-batch manifest and local map add no generation or ext
 The 50-plan lettering-semantics matrix and map add no generation or external cost. Final copy, overlap permission, lettering acceptance, plan revisions, calls, and uploads remain zero, while human minutes and cost remain null.
 
 Owner hub r4 and link manifest r2 add no generation or external cost. They build local HTML/thumbnails and tracked link metadata only; publication, decisions, acceptance, calls, and uploads remain zero, while human minutes remain null.
+
+Integrated release r7 adds no generation or external cost. Its five commands represent 46 effective checks in 14.531 seconds. Prompts, review, decisions, acceptance, execution, calls, uploads, and downloads remain zero; minutes remain null.

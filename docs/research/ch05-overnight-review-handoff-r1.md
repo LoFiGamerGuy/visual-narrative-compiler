@@ -105,3 +105,5 @@ Review the 12 coherent chapter batches at `experiments/review-packets/ch05-chapt
 Review the chapter lettering classes at `experiments/review-packets/ch05-lettering-semantics-readiness-r1/ch05-lettering-semantics-map-r1.png`. The tracked matrix is `production/comic/layout/ch05-lettering-semantics-readiness-matrix-r1.json`; ADR-0122 keeps final copy null in all 50 and protects action/insert geometry.
 
 The current single local review entry is `experiments/review-packets/ch05-owner-review-index-r4/index.html`. The exhaustive current absolute-link inventory is `docs/research/ch05-review-links-r2.md`, covering 105 exact resources under ADR-0123.
+
+Integrated evidence now passes release r7 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r7.json`: 46 effective checks, 5/5 commands, and 25/25 rejected mutations under ADR-0124.

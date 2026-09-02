@@ -1184,3 +1184,10 @@
 - Built hub r4 twice byte-identically; six links/five ignored artifacts validate and 15/15 mutations fail.
 - Extended immutable 99-artifact link manifest r1 to 105 exact resources, including 104 ignored local artifacts and one tracked checklist.
 - Validated every path/hash/byte/Git-state/absolute Markdown link; 14/14 mutations fail. ADR-0123 keeps publication, decisions, acceptance, calls, uploads, and cost zero.
+
+## 2026-09-01 - CH05 integrated release r7
+
+- Preserved immutable r6 and added four independent validators for sequence batches, lettering semantics, owner hub r4, and exact link manifest r2.
+- Five/five commands pass in 14.531 seconds, representing 46 effective checks; 25/25 release mutations fail.
+- Bound 12 sequences, 50 lettering rows, 105 review links, and 24 owner tasks while retaining zero next prompts.
+- ADR-0124 keeps frozen/baseline integrity and all review/provider/promotion state closed.

@@ -49,6 +49,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 integrated release r6 | immutable 38-check r5 + 4 extension checks | 9.946 s observed local gate time | unmeasured | $0 API/cloud | 42 effective checks pass; 0 accepted/executable |
 | CH05 sequence production batches r1 | 50 plans / 12 sequences / 48 planned artifacts | local deterministic partition and chart | unmeasured | $0 API/cloud | 0 prompts/renders/accepted/executable |
 | CH05 lettering semantics readiness r1 | 50 plans / 5 semantic classes / 1 local map | local deterministic semantics join | unmeasured | $0 API/cloud | 0 copy/overlap permissions/accepted/revisions |
+| CH05 owner hub r4 + links r2 | 6-card hub / 105 exact resources | local deterministic HTML/thumbnail/link compilation | unmeasured | $0 API/cloud | 0 published/decided/accepted |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

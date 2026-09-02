@@ -99,3 +99,5 @@ Integrated release r6 adds no generation or external cost. Its five commands rep
 The 12-sequence production-batch manifest and local map add no generation or external cost. Its 48 planned artifacts are names only; prompts, renders, acceptance, executable sequences, calls, and uploads remain zero, while minutes and cost remain null.
 
 The 50-plan lettering-semantics matrix and map add no generation or external cost. Final copy, overlap permission, lettering acceptance, plan revisions, calls, and uploads remain zero, while human minutes and cost remain null.
+
+Owner hub r4 and link manifest r2 add no generation or external cost. They build local HTML/thumbnails and tracked link metadata only; publication, decisions, acceptance, calls, and uploads remain zero, while human minutes remain null.

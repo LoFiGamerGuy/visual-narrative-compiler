@@ -376,3 +376,5 @@ Integrated release r6 preserves the 38-check r5 chain and adds four independent 
 The chapter production-batch manifest partitions 50 plans into 12 contiguous sequences of 3–5 panels and four readiness waves distributed 1/2/5/4. Forty-eight review artifacts are predeclared, the 1800×1220 map is visually checked, and 19/19 mutations fail. Narrative order remains distinct from production readiness.
 
 The lettering-semantics matrix partitions 50 plans into 16 silent inserts, 14 protected action/motion, 13 caption-or-silence, six speech/reaction, and one attributed-speech row. All copy remains null and overlap/acceptance stays zero. The 1600×1900 map is visually checked and 16/16 mutations fail.
+
+Owner hub r4 links six current resources and builds byte-identically; 15/15 mutations fail. Link manifest r2 preserves 99 r1 artifacts and adds six, producing 105 exact links (104 ignored local/one tracked metadata); 14/14 mutations fail.

@@ -1,0 +1,92 @@
+{
+  "record_type": "CH05OwnerReviewIndexEvidence",
+  "schema_version": "4.0",
+  "record_id": "ng-ch05-owner-review-index-evidence-r4",
+  "state": "LOCAL_CHAPTER_REVIEW_HUB_READY_OWNER_PENDING",
+  "packet": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r4/owner-review-index-r4-packet.json",
+    "sha256": "b631b6f5dcece20a7caab46b97c23a08fb886c660c245fd10e341a4f67cbef4f"
+  },
+  "extends": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r3/owner-review-index-r3-packet.json",
+    "sha256": "7187bad9a9fdc6bfac112824367c4821a352ef3c7a8ff65e5a5f4726339ba4b3",
+    "link_count": 12
+  },
+  "contract": {
+    "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+    "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5",
+    "completed_decisions": 0,
+    "events": 0,
+    "human_review_minutes": null
+  },
+  "summary": {
+    "candidate_count": 29,
+    "plan_count": 50,
+    "sequence_count": 12,
+    "owner_task_count": 24,
+    "link_count": 6,
+    "image_link_count": 4,
+    "html_link_count": 1,
+    "text_link_count": 1,
+    "artifact_count": 5,
+    "owner_decisions": 0,
+    "accepted_candidates": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "links": [
+    {
+      "id": "index_r3",
+      "path": "experiments/review-packets/ch05-owner-review-index-r3/index.html",
+      "sha256": "42899d8b12f2000823c0d388c2c23d43187e6fa62073523c0ea3006594612c27",
+      "kind": "HTML"
+    },
+    {
+      "id": "owner_checklist",
+      "path": "docs/research/ch05-owner-handoff-checklist-r1.md",
+      "sha256": "9ab488be763319f6b22ed468da2c3915dc8a2be13ede8b535143ae3e0444a802",
+      "kind": "TEXT"
+    },
+    {
+      "id": "readiness",
+      "path": "experiments/review-packets/ch05-chapter-production-readiness-r1/ch05-chapter-readiness-map-r1.png",
+      "sha256": "6181b9b185c27c548b7fa141df25a1c21d3bbb266a24980e340c7fe1e0de7dc7",
+      "kind": "IMAGE"
+    },
+    {
+      "id": "reference_risk",
+      "path": "experiments/review-packets/ch05-reference-use-continuity-risk-r1/ch05-reference-risk-map-r1.png",
+      "sha256": "907b94714f0b4051e394faca49a5473fc0a1e10021e69af5fc5f27ed70f03cff",
+      "kind": "IMAGE"
+    },
+    {
+      "id": "sequence_batches",
+      "path": "experiments/review-packets/ch05-chapter-sequence-production-batches-r1/ch05-sequence-batch-map-r1.png",
+      "sha256": "6a401d39d1f146ff4961e00007a860326c78c352184e1bf025a6cef37efce0b6",
+      "kind": "IMAGE"
+    },
+    {
+      "id": "lettering_semantics",
+      "path": "experiments/review-packets/ch05-lettering-semantics-readiness-r1/ch05-lettering-semantics-map-r1.png",
+      "sha256": "b7846d0dc6c510578899449f049031710893d1949cbf93cc2b4aa04ddba98e67",
+      "kind": "IMAGE"
+    }
+  ],
+  "index": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r4/index.html",
+    "sha256": "ca80b4aeec50d796a6e011f4d38566712cf7d40af084faacccd7625177f444d1",
+    "bytes": 3900
+  },
+  "determinism": {
+    "consecutive_build_count": 2,
+    "result": "BYTE_IDENTICAL_INDEX_PACKET_AND_THUMBNAILS"
+  },
+  "limitations": [
+    "Local links only; browser interaction is not captured.",
+    "Decisions and timed review remain absent.",
+    "Generated pixels remain ignored and commercially uncleared."
+  ],
+  "boundary": "Append-only local chapter hub; r3 and empty decision contract remain unchanged."
+}

@@ -103,3 +103,5 @@ Integrated evidence now passes release r6 at `docs/research/evidence/ch05-overni
 Review the 12 coherent chapter batches at `experiments/review-packets/ch05-chapter-sequence-production-batches-r1/ch05-sequence-batch-map-r1.png`. The tracked manifest is `production/comic/run-manifests/ch05-chapter-sequence-production-batches-r1.json`; ADR-0121 keeps production wave distinct from story order and every prompt null.
 
 Review the chapter lettering classes at `experiments/review-packets/ch05-lettering-semantics-readiness-r1/ch05-lettering-semantics-map-r1.png`. The tracked matrix is `production/comic/layout/ch05-lettering-semantics-readiness-matrix-r1.json`; ADR-0122 keeps final copy null in all 50 and protects action/insert geometry.
+
+The current single local review entry is `experiments/review-packets/ch05-owner-review-index-r4/index.html`. The exhaustive current absolute-link inventory is `docs/research/ch05-review-links-r2.md`, covering 105 exact resources under ADR-0123.

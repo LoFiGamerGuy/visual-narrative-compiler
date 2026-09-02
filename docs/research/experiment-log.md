@@ -1177,3 +1177,10 @@
 - Bound P016 to Soren-attributed semantics while keeping exact copy/font/tail/safe zone null; prohibited the outside-art caption band from masquerading as speech.
 - Carried measured 13px/1200px/13.975px/88% constraints without granting overlap or lettering acceptance.
 - Built and visually checked a 1600×1900 map. ADR-0122 keeps final copy null 50/50 and revisions/provider activity zero; 16/16 mutations fail.
+
+## 2026-09-01 - CH05 owner review index r4 and review links r2
+
+- Extended immutable owner hub r3 with six direct resources: r3, the 24-task checklist, and four chapter-scale maps.
+- Built hub r4 twice byte-identically; six links/five ignored artifacts validate and 15/15 mutations fail.
+- Extended immutable 99-artifact link manifest r1 to 105 exact resources, including 104 ignored local artifacts and one tracked checklist.
+- Validated every path/hash/byte/Git-state/absolute Markdown link; 14/14 mutations fail. ADR-0123 keeps publication, decisions, acceptance, calls, uploads, and cost zero.

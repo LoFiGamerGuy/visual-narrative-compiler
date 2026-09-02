@@ -1,0 +1,37 @@
+"""Emit or validate post-reproducer CH05 safe-source inventory r5."""
+from __future__ import annotations
+import argparse,copy,hashlib,json,subprocess,sys
+from pathlib import Path
+from validate_safe_source_release_manifest_r2 import git,inventory,root_hash,scope_errors
+ROOT=Path(__file__).resolve().parents[2]; PRIOR=ROOT/"docs/research/evidence/ch05-final-safe-source-parity-r4.json"; REPRO=ROOT/"docs/research/evidence/ch05-final-review-reproducer-matrix-r3.json"; LINKS=ROOT/"production/comic/review/ch05-review-artifact-link-manifest-r7.json"; WORKSHEET=ROOT/"production/comic/review/ch05-strongest-candidate-disposition-worksheet-r1.json"; OUTPUT=ROOT/"docs/research/evidence/ch05-post-reproducer-safe-source-parity-r5.json"
+class EvidenceError(RuntimeError):pass
+def require(value,message):
+    if not value:raise EvidenceError(message)
+def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+def build(capture):
+    entries=inventory(capture); problems=scope_errors(entries); require(not problems,"; ".join(problems)); prior=json.loads(PRIOR.read_text(encoding="utf-8")); repro=json.loads(REPRO.read_text(encoding="utf-8")); links=json.loads(LINKS.read_text(encoding="utf-8")); worksheet=json.loads(WORKSHEET.read_text(encoding="utf-8")); require(subprocess.run(["git","merge-base","--is-ancestor",prior["captured_commit"],capture],cwd=ROOT).returncode==0,"r4 capture is not ancestor"); require(repro["state"]=="PASS" and repro["summary"]["domains"]==10,"reproducer r3 changed"); require(links["effective_unique_artifact_count"]==134,"link r7 changed"); require(worksheet["candidate_count"]==14 and worksheet["valid_for_rollup"] is False,"worksheet changed")
+    return {"record_type":"ComicSafeSourceDeliveryParity","schema_version":"5.0","record_id":"ng-ch05-post-reproducer-safe-source-parity-r5","state":"PINNED_PUSHED_SAFE_SOURCE_COMPLETE_REVIEW_REPRODUCER","repository":"https://github.com/LoFiGamerGuy/visual-narrative-compiler","captured_commit":capture,"captured_tree":git("rev-parse",f"{capture}^{{tree}}"),"captured_origin_main_commit":capture,"remote_parity_at_capture":True,"supersedes":{"path":PRIOR.relative_to(ROOT).as_posix(),"sha256":sha(PRIOR),"tracked_paths":prior["summary"]["tracked_paths"]},"inputs":[{"path":REPRO.relative_to(ROOT).as_posix(),"sha256":sha(REPRO)},{"path":LINKS.relative_to(ROOT).as_posix(),"sha256":sha(LINKS)},{"path":WORKSHEET.relative_to(ROOT).as_posix(),"sha256":sha(WORKSHEET)}],"summary":{"tracked_paths":len(entries),"total_bytes":sum(row["bytes"] for row in entries),"inventory_root_sha256":root_hash(entries),"reproducer_domains":10,"review_links":134,"worksheet_candidates":14,"worksheet_checks":112,"public_controls":2,"generated_experiment_paths":0,"prohibited_extensions":0,"files_over_10_mib":0,"provider_credentials":0,"generated_candidate_pixels":0,"model_weights_loras_datasets_private_references":0,"unrelated_untracked_items_in_inventory":0},"entries":entries,"explicit_exclusions":[".env and provider credentials","experiments and generated candidate/review pixels/runtime records","model weights, LoRAs, checkpoints, installed runtimes and caches","datasets and private or likeness references","untracked imported workspace assets, launchers, generators and trainers"],"activity":{"provider_calls":0,"uploads":0,"downloads":0,"paid_spend_usd":0,"owner_decisions_ingested":0,"visual_dispositions":0,"acceptance_changes":0,"commercial_clearance_changes":0},"animation_shot_plan":None,"e_conte":None,"boundary":"Post-reproducer commit-pinned safe source only. Generated pixels and unfilled review inputs remain local/ignored and no visual disposition, ingestion, acceptance, rights, or exact-base state is created."}
+def errors(document,expected):
+    out=[]
+    for key in ("record_type","schema_version","record_id","state","repository","captured_commit","captured_tree","captured_origin_main_commit","remote_parity_at_capture","supersedes","inputs","explicit_exclusions","boundary"):
+        if document.get(key)!=expected.get(key):out.append(f"{key} invalid")
+    if document.get("entries")!=expected["entries"] or scope_errors(document.get("entries",[])):out.append("inventory invalid")
+    if document.get("summary")!=expected["summary"]:out.append("summary invalid")
+    if document.get("activity")!={"provider_calls":0,"uploads":0,"downloads":0,"paid_spend_usd":0,"owner_decisions_ingested":0,"visual_dispositions":0,"acceptance_changes":0,"commercial_clearance_changes":0}:out.append("activity invalid")
+    if document.get("animation_shot_plan") is not None or document.get("e_conte") is not None:out.append("planning boundary invalid")
+    return out
+def main():
+    parser=argparse.ArgumentParser();parser.add_argument("--emit",action="store_true");parser.add_argument("--capture");parser.add_argument("--allow-unpushed-current",action="store_true");args=parser.parse_args()
+    try:
+        if args.emit:
+            require(args.capture,"--capture required");capture=git("rev-parse",args.capture);require(git("rev-parse","HEAD")==capture,"capture is not HEAD");require(git("rev-parse","origin/main")==capture,"capture is not pushed");expected=build(capture);OUTPUT.write_text(json.dumps(expected,indent=2)+"\n",encoding="utf-8",newline="\n")
+        else:
+            tracked=json.loads(OUTPUT.read_text(encoding="utf-8"));capture=tracked["captured_commit"];expected=build(capture);require(tracked==expected,"tracked r5 record differs")
+        require(subprocess.run([sys.executable,"src/north_garden/validate_tracked_source_scope.py"],cwd=ROOT).returncode==0,"current scope invalid");require(subprocess.run(["git","merge-base","--is-ancestor",capture,"HEAD"],cwd=ROOT).returncode==0,"capture not ancestor")
+        if not args.allow_unpushed_current:require(git("rev-parse","HEAD")==git("rev-parse","origin/main"),"HEAD/origin mismatch")
+        mutations=[lambda x:x.update(state="UNSAFE"),lambda x:x.update(captured_commit="0"*40),lambda x:x.update(captured_tree="0"*40),lambda x:x.update(remote_parity_at_capture=False),lambda x:x["supersedes"].update(sha256="0"*64),lambda x:x["inputs"][0].update(sha256="0"*64),lambda x:x["summary"].update(tracked_paths=x["summary"]["tracked_paths"]-1),lambda x:x["summary"].update(total_bytes=0),lambda x:x["summary"].update(inventory_root_sha256="0"*64),lambda x:x["summary"].update(reproducer_domains=9),lambda x:x["summary"].update(review_links=133),lambda x:x["summary"].update(worksheet_checks=111),lambda x:x["summary"].update(generated_experiment_paths=1),lambda x:x["summary"].update(provider_credentials=1),lambda x:x["entries"].pop(),lambda x:x["activity"].update(uploads=1),lambda x:x["activity"].update(visual_dispositions=1),lambda x:x.update(animation_shot_plan={})];rejected=0
+        for mutate in mutations:altered=copy.deepcopy(expected);mutate(altered);rejected+=bool(errors(altered,expected))
+        require(rejected==len(mutations),f"only {rejected}/{len(mutations)} mutations rejected")
+    except (EvidenceError,FileNotFoundError,KeyError,json.JSONDecodeError) as error:print(f"FAIL: {error}",file=sys.stderr);return 1
+    summary=expected["summary"];print(f"CH05 safe delivery r5: 0 failures ({summary['tracked_paths']} paths/{summary['total_bytes']} bytes; tree {expected['captured_tree']}; root {summary['inventory_root_sha256']})");print(f"10 domains/134 links/112 checks/2 controls; 0 generated/prohibited/credential paths; {rejected}/{len(mutations)} mutations rejected; pushed/current parity valid");return 0
+if __name__=="__main__":raise SystemExit(main())

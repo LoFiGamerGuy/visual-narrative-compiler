@@ -139,3 +139,5 @@ Review generation-only capacity at `experiments/review-packets/ch05-chapter-prod
 The command-level operator handoff is `docs/research/ch05-chapter-production-operating-playbook-r1.md`, with exact machine-readable steps at `production/comic/handoff/ch05-chapter-production-operating-playbook-r1.json` under ADR-0139.
 
 The current consolidated handoff is `production/comic/handoff/ch05-overnight-delivery-bundle-r2.json`, with tracked evidence at `docs/research/evidence/ch05-overnight-delivery-bundle-r2.json`, concise owner summary at `docs/research/ch05-overnight-delivery-summary-r2.md`, and immutable playbook-base inventory at `docs/research/ch05-overnight-changed-files-through-playbook-r1.md`. ADR-0140 binds current measured, review, lifecycle, capacity, operating, cost, source, and integrity evidence without unlocking production or promoting art.
+
+The current single local review entry is `experiments/review-packets/ch05-owner-review-index-r6/index.html`. Exact link manifest r4 and `docs/research/ch05-review-links-r4.md` cover 117 resources; ADR-0141 preserves prior hub/link history and ledger r27 records 68 zero-external-cost milestones.

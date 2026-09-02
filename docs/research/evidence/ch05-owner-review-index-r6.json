@@ -1,0 +1,88 @@
+{
+  "record_type": "CH05OwnerReviewIndexEvidence",
+  "schema_version": "6.0",
+  "record_id": "ng-ch05-owner-review-index-evidence-r6",
+  "state": "LOCAL_CURRENT_DELIVERY_REVIEW_HUB_READY_OWNER_PENDING",
+  "packet": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r6/owner-review-index-r6-packet.json",
+    "sha256": "cd07fc47fc4b663b058037c76bdde6d0cf32e4def1876278c2ad0e5a9d903d58"
+  },
+  "extends": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r5/owner-review-index-r5-packet.json",
+    "sha256": "de18f7f87128dd31385949bf7f418a8398113955dff1dcb259390191ee6d4914",
+    "link_count": 7
+  },
+  "contract": {
+    "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+    "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5",
+    "completed_decisions": 0,
+    "events": 0,
+    "human_review_minutes": null
+  },
+  "summary": {
+    "candidate_count": 29,
+    "plan_count": 50,
+    "sequence_count": 12,
+    "prior_review_links": 112,
+    "integrated_checks": 58,
+    "link_count": 5,
+    "image_link_count": 1,
+    "html_link_count": 1,
+    "text_link_count": 3,
+    "artifact_count": 2,
+    "owner_decisions": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "links": [
+    {
+      "id": "index_r5",
+      "path": "experiments/review-packets/ch05-owner-review-index-r5/index.html",
+      "sha256": "a0fa4a473f4dbbc87524a5d33e53d883bcd399194931af8a9a2dd118e85ece30",
+      "kind": "HTML"
+    },
+    {
+      "id": "duration_capacity",
+      "path": "experiments/review-packets/ch05-chapter-production-duration-capacity-r1/ch05-chapter-duration-capacity-map-r1.png",
+      "sha256": "ca281862bd48400c6f1443a31c696ab0e17945dfaa097e227126424ef7e86794",
+      "kind": "IMAGE"
+    },
+    {
+      "id": "operating_playbook",
+      "path": "docs/research/ch05-chapter-production-operating-playbook-r1.md",
+      "sha256": "6b0f32977307c706d438caf934826886c98c1cc86b068dea345200ec62b24f20",
+      "kind": "TEXT"
+    },
+    {
+      "id": "delivery_summary",
+      "path": "docs/research/ch05-overnight-delivery-summary-r2.md",
+      "sha256": "6992b432808d8b718761646bdf8eab9b077fdf8c230425a695e960b2ca0925a5",
+      "kind": "TEXT"
+    },
+    {
+      "id": "delivery_bundle",
+      "path": "production/comic/handoff/ch05-overnight-delivery-bundle-r2.json",
+      "sha256": "d4748641d394f96072617b8eb5b180e4f022cc6a4cb19daceb7592c007762e5e",
+      "kind": "TEXT"
+    }
+  ],
+  "index": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r6/index.html",
+    "sha256": "3110616f90a83d8b99b08f544c44bd285416a0be6d760fb60b4db654b75f5d6d",
+    "bytes": 3456
+  },
+  "determinism": {
+    "consecutive_build_count": 2,
+    "result": "BYTE_IDENTICAL_INDEX_PACKET_AND_THUMBNAIL"
+  },
+  "limitations": [
+    "Local links only; browser interaction is not captured.",
+    "Owner decisions and timed review remain absent.",
+    "Generated pixels remain ignored and commercially uncleared."
+  ],
+  "boundary": "Append-only local hub; r5, empty decision contract, generated pixels, and production state remain unchanged."
+}

@@ -1303,3 +1303,10 @@
 - Bound 29 candidates, 50 plans, 12 batches, 14 strongest candidates, ten route/rights decisions, six unresolved pilot roots, 58 checks, and 12 operating steps.
 - Added five direct owner links, four ranked role allocations, ten limitations, and a commit-range changed-file inventory.
 - Twenty-seven/twenty-seven mutations fail under ADR-0140; calls/uploads/spend/decisions/acceptance/execution remain 0/0/$0/0/0/0.
+
+## 2026-09-01 - CH05 owner review index r6, exact links r4, and cost ledger r27
+
+- Extended immutable hub r5 with the duration chart, operating playbook, delivery summary r2, and exact delivery bundle r2.
+- Rebuilt HTML, packet, and thumbnail twice byte-identically; five links/two artifacts validate and 17/17 mutations fail.
+- Extended the 112-resource r3 link manifest by five exact resources to 117 total (108 ignored local/nine tracked); 15/15 mutations fail.
+- Ledger r27 appends four local milestones to 68 total with zero external requests, uploads, or paid cost under ADR-0141.

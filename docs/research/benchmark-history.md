@@ -412,3 +412,5 @@ Chapter duration capacity uses 30.531/51.227/56.524-second p10/median/p90 candid
 The production operating playbook validates 12 steps, 11 shell commands, one agent-only action, five local-ready steps, one owner-action step, and six blocked steps. Eighteen/eighteen mutations fail. This is operational-readiness evidence, not execution.
 
 Delivery bundle r2 binds the current 29-candidate/50-plan/12-batch body, 112 review links, 14 strongest candidates, ten unresolved route/rights decisions, six unresolved pilot roots, 58 integrated checks, and 12 playbook steps. Its 27/27 mutation suite rejects denominator, parity, time, spend, decision, acceptance, execution, and cross-medium changes. The 49/68 capacity arms remain planning envelopes rather than quality or throughput forecasts.
+
+Owner hub r6 rebuilds byte-identically with five current-delivery links and two ignored local artifacts; 17/17 mutations fail. Exact link manifest r4 preserves 112 bindings and reaches 117 resources (108 ignored/nine tracked); 15/15 mutations fail. Ledger r27 records 68 zero-external-cost milestones and zero external requests/uploads/$0 paid spend.

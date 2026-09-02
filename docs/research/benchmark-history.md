@@ -462,3 +462,5 @@ Final review reproducer r3 passes 10/10 domains in 166.588 seconds and independe
 Post-reproducer safe-source r5 pins pushed commit `eafe1ef` at 971 paths/14,675,859 bytes, tree `4bcd007b…b4e2`, and root `7c5cb05b…ab2df`; 18/18 mutations fail with pixels/prohibited material excluded.
 
 Completion readiness binds 12 deliverables, 134 exact links, 67 priority links, all requested counts/timing/failures/recommendations/limitations/decisions, and current source parity; 41/41 mutations fail. This is handoff completeness, not visual or commercial acceptance.
+
+Final integrated release r13 passes 9/9 commands in 194.497 seconds across 18 effective domains and independently rejects 33/33 mutations. Cost ledger r30 reaches 91 zero-external-cost milestones.

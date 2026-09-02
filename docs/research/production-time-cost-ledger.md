@@ -94,6 +94,8 @@ The human-review timer contract adds no measured review time or external cost. I
 
 Final review hardening through release r12 is recorded by cost ledger r29 as 82 local zero-external-cost milestones. CH05 external requests/uploads/paid API-cloud spend remain 0/0/$0; built-in ImageGen service cost is still unavailable rather than treated as zero, and live human review minutes remain null.
 
+Final integrated delivery through r13 is recorded by cost ledger r30 as 91 local zero-external-cost milestones. External requests/uploads/paid API-cloud spend remain 0/0/$0; built-in product monetary cost and live human review minutes remain unavailable/null rather than inferred.
+
 The owner dependency checklist adds no measured review time or external cost. Its 24 tasks are read-only links; completed tasks, decisions, accepted candidates, calls, and uploads remain zero, while human minutes remain null.
 
 Integrated release r6 adds no generation or external cost. Its five commands represent 42 effective checks in 9.946 seconds. Prompts, live review, decisions, acceptance, execution, calls, uploads, and downloads remain zero; minutes remain null.

@@ -1478,3 +1478,10 @@
 - Reconciled 29 candidates, 50 plans, 12 dimensions, 1,385.036 seconds, 39 reference uses, four recommendations, 15 limitations, and ten remaining decisions.
 - Bound reproducer 10 domains, safe source 971, cost 82, changed files, and current remote parity.
 - Forty-one/forty-one mutations fail under ADR-0165; handoff completeness remains separate from art/rights/exact-base/production approval.
+
+## 2026-09-01 - CH05 final integrated release r13 and cost ledger r30
+
+- Used final review reproducer r3 as a ten-domain base and added eight current source/completion/cost/hub/link/frozen/scope/parity domains.
+- Nine/nine commands pass in 194.497 seconds; independent replay rejects 33/33 mutations.
+- Bound 29/50/12/134/67/112, release 84, source 971, cost 91, and frozen 16 + baseline 4.
+- Ledger r30 records 91 zero-external-cost milestones; all provider, ingestion, disposition, promotion, and spend state stays zero/null under ADR-0166.

@@ -1,0 +1,416 @@
+{
+  "record_type": "ComicPrerenderPacketBlueprint",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-prerender-packet-blueprint-r1",
+  "state": "PREFLIGHT_PASS_CANDIDATES_ABSENT",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-prompt-blueprint-r1.json",
+      "sha256": "1959a21e4c0d513c48272c2637816976c4be6adc69e9d0524e1babdabf75f5ac"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-review-packet-contract-dry-run-r1.json",
+      "sha256": "a7858e71d826257c8197a500e05f4520dda20a8bac82a037a64a2b5690b4b0ae"
+    },
+    {
+      "path": "src/north_garden/build_ch05_p010_p013_review_packet.py",
+      "sha256": "0af2c9fc65e45f4ce650df37f1d5ca9d33a48b9cfec3655526398157f16a680c"
+    }
+  ],
+  "summary": {
+    "candidate_slots": 4,
+    "candidates_present": 0,
+    "candidates_missing": 4,
+    "artifacts_planned": 5,
+    "artifacts_built": 0,
+    "checks_per_candidate": 11,
+    "total_empty_candidate_checks": 44,
+    "proposed_safe_zones": 4,
+    "phone_previews_planned": 4,
+    "density_targets": 4,
+    "repair_slots": 2,
+    "provider_calls": 0,
+    "uploads": 0,
+    "renders": 0,
+    "paid_spend_usd": 0
+  },
+  "candidate_slots": [
+    {
+      "candidate_slot": "m001",
+      "panel_id": "ng-ch05-sc01-p010",
+      "draft_prompt_sha256": "fa95f6c4f0c8d23ac6502f9c6ea76f37fe1c82e7eb7edd82d7a4f95a4d8679b1",
+      "expected_output_path": "experiments/review-packets/ch05-p010-p013-production-r1/candidates/m001-p010-cel_painted-r1.png",
+      "candidate_exists": false,
+      "planning_canvas_px": [
+        1024,
+        1280
+      ],
+      "expected_phone_preview_px": [
+        390,
+        488
+      ],
+      "cadence_width_px": 820,
+      "lettering_safe_zone_normalized": [
+        0.03,
+        0.03,
+        0.38,
+        0.16
+      ],
+      "safe_zone_status": "PROPOSED_REQUIRES_POST_RENDER_HUMAN_CLEARANCE",
+      "protected_content": [
+        "faces",
+        "adult bodies and silhouettes",
+        "important hands",
+        "map/twine/creek causal objects"
+      ],
+      "density_edge_occupancy_target": [
+        0.18,
+        0.32
+      ],
+      "required_checks": [
+        "cast_count",
+        "role_identity_and_order",
+        "hair_color_and_style",
+        "canonical_wardrobe",
+        "mature_adult_anatomy",
+        "hands_and_story_object",
+        "causal_action_or_clue",
+        "lettering_safe_zone",
+        "phone_size_readability",
+        "role_appropriate_density",
+        "sequence_finish_continuity"
+      ],
+      "review_values": {
+        "cast_count": null,
+        "role_identity_and_order": null,
+        "hair_color_and_style": null,
+        "canonical_wardrobe": null,
+        "mature_adult_anatomy": null,
+        "hands_and_story_object": null,
+        "causal_action_or_clue": null,
+        "lettering_safe_zone": null,
+        "phone_size_readability": null,
+        "role_appropriate_density": null,
+        "sequence_finish_continuity": null
+      },
+      "failure_classes": [],
+      "output_sha256": null,
+      "source_dimensions": null,
+      "elapsed_seconds": null,
+      "human_review_minutes": null,
+      "decision": null
+    },
+    {
+      "candidate_slot": "m002",
+      "panel_id": "ng-ch05-sc01-p011",
+      "draft_prompt_sha256": "b42e7d0290cc72f96d6d50b73cdc22af3a4d62d172244f4ba68a74488d7487c9",
+      "expected_output_path": "experiments/review-packets/ch05-p010-p013-production-r1/candidates/m002-p011-clear_line_watercolor-r1.png",
+      "candidate_exists": false,
+      "planning_canvas_px": [
+        1024,
+        1024
+      ],
+      "expected_phone_preview_px": [
+        390,
+        390
+      ],
+      "cadence_width_px": 640,
+      "lettering_safe_zone_normalized": [
+        0.59,
+        0.03,
+        0.38,
+        0.16
+      ],
+      "safe_zone_status": "PROPOSED_REQUIRES_POST_RENDER_HUMAN_CLEARANCE",
+      "protected_content": [
+        "faces",
+        "adult bodies and silhouettes",
+        "important hands",
+        "map/twine/creek causal objects"
+      ],
+      "density_edge_occupancy_target": [
+        0.12,
+        0.28
+      ],
+      "required_checks": [
+        "cast_count",
+        "role_identity_and_order",
+        "hair_color_and_style",
+        "canonical_wardrobe",
+        "mature_adult_anatomy",
+        "hands_and_story_object",
+        "causal_action_or_clue",
+        "lettering_safe_zone",
+        "phone_size_readability",
+        "role_appropriate_density",
+        "sequence_finish_continuity"
+      ],
+      "review_values": {
+        "cast_count": null,
+        "role_identity_and_order": null,
+        "hair_color_and_style": null,
+        "canonical_wardrobe": null,
+        "mature_adult_anatomy": null,
+        "hands_and_story_object": null,
+        "causal_action_or_clue": null,
+        "lettering_safe_zone": null,
+        "phone_size_readability": null,
+        "role_appropriate_density": null,
+        "sequence_finish_continuity": null
+      },
+      "failure_classes": [],
+      "output_sha256": null,
+      "source_dimensions": null,
+      "elapsed_seconds": null,
+      "human_review_minutes": null,
+      "decision": null
+    },
+    {
+      "candidate_slot": "m003",
+      "panel_id": "ng-ch05-sc01-p012",
+      "draft_prompt_sha256": "f339b720c9008778a3228d6ca6038eac4ad7dc8b5c7478523d0a8ff82a472f05",
+      "expected_output_path": "experiments/review-packets/ch05-p010-p013-production-r1/candidates/m003-p012-limited_ink_flat-r1.png",
+      "candidate_exists": false,
+      "planning_canvas_px": [
+        1024,
+        768
+      ],
+      "expected_phone_preview_px": [
+        390,
+        293
+      ],
+      "cadence_width_px": 560,
+      "lettering_safe_zone_normalized": [
+        0.03,
+        0.03,
+        0.94,
+        0.17
+      ],
+      "safe_zone_status": "PROPOSED_REQUIRES_POST_RENDER_HUMAN_CLEARANCE",
+      "protected_content": [
+        "faces",
+        "adult bodies and silhouettes",
+        "important hands",
+        "map/twine/creek causal objects"
+      ],
+      "density_edge_occupancy_target": [
+        0.08,
+        0.22
+      ],
+      "required_checks": [
+        "cast_count",
+        "role_identity_and_order",
+        "hair_color_and_style",
+        "canonical_wardrobe",
+        "mature_adult_anatomy",
+        "hands_and_story_object",
+        "causal_action_or_clue",
+        "lettering_safe_zone",
+        "phone_size_readability",
+        "role_appropriate_density",
+        "sequence_finish_continuity"
+      ],
+      "review_values": {
+        "cast_count": null,
+        "role_identity_and_order": null,
+        "hair_color_and_style": null,
+        "canonical_wardrobe": null,
+        "mature_adult_anatomy": null,
+        "hands_and_story_object": null,
+        "causal_action_or_clue": null,
+        "lettering_safe_zone": null,
+        "phone_size_readability": null,
+        "role_appropriate_density": null,
+        "sequence_finish_continuity": null
+      },
+      "failure_classes": [],
+      "output_sha256": null,
+      "source_dimensions": null,
+      "elapsed_seconds": null,
+      "human_review_minutes": null,
+      "decision": null
+    },
+    {
+      "candidate_slot": "m004",
+      "panel_id": "ng-ch05-sc01-p013",
+      "draft_prompt_sha256": "21d7bd8da0492fe5727596a0e2e9aa9c3844121988d50818e4a5c564fbca7248",
+      "expected_output_path": "experiments/review-packets/ch05-p010-p013-production-r1/candidates/m004-p013-clear_line_watercolor-r1.png",
+      "candidate_exists": false,
+      "planning_canvas_px": [
+        1536,
+        1024
+      ],
+      "expected_phone_preview_px": [
+        390,
+        260
+      ],
+      "cadence_width_px": 1040,
+      "lettering_safe_zone_normalized": [
+        0.3,
+        0.03,
+        0.4,
+        0.14
+      ],
+      "safe_zone_status": "PROPOSED_REQUIRES_POST_RENDER_HUMAN_CLEARANCE",
+      "protected_content": [
+        "faces",
+        "adult bodies and silhouettes",
+        "important hands",
+        "map/twine/creek causal objects"
+      ],
+      "density_edge_occupancy_target": [
+        0.12,
+        0.28
+      ],
+      "required_checks": [
+        "cast_count",
+        "role_identity_and_order",
+        "hair_color_and_style",
+        "canonical_wardrobe",
+        "mature_adult_anatomy",
+        "hands_and_story_object",
+        "causal_action_or_clue",
+        "lettering_safe_zone",
+        "phone_size_readability",
+        "role_appropriate_density",
+        "sequence_finish_continuity"
+      ],
+      "review_values": {
+        "cast_count": null,
+        "role_identity_and_order": null,
+        "hair_color_and_style": null,
+        "canonical_wardrobe": null,
+        "mature_adult_anatomy": null,
+        "hands_and_story_object": null,
+        "causal_action_or_clue": null,
+        "lettering_safe_zone": null,
+        "phone_size_readability": null,
+        "role_appropriate_density": null,
+        "sequence_finish_continuity": null
+      },
+      "failure_classes": [],
+      "output_sha256": null,
+      "source_dimensions": null,
+      "elapsed_seconds": null,
+      "human_review_minutes": null,
+      "decision": null
+    }
+  ],
+  "artifacts": [
+    {
+      "artifact_id": "candidate_contact_sheet",
+      "path": "experiments/review-packets/ch05-p010-p013-production-r1/review/contact-sheet-p010-p013-candidates.png",
+      "required_inputs": 4,
+      "state": "NOT_BUILT",
+      "sha256": null,
+      "dimensions": null
+    },
+    {
+      "artifact_id": "phone_contact_sheet",
+      "path": "experiments/review-packets/ch05-p010-p013-production-r1/review/contact-sheet-p010-p013-phone-390px.png",
+      "required_inputs": 4,
+      "state": "NOT_BUILT",
+      "sha256": null,
+      "dimensions": null
+    },
+    {
+      "artifact_id": "continuity_sequence",
+      "path": "experiments/review-packets/ch05-p010-p013-production-r1/review/sequence-p010-p013-continuity.png",
+      "required_inputs": 4,
+      "state": "NOT_BUILT",
+      "sha256": null,
+      "dimensions": null
+    },
+    {
+      "artifact_id": "lettering_safe_zones",
+      "path": "experiments/review-packets/ch05-p010-p013-production-r1/review/contact-sheet-p010-p013-lettering-safe-zones.png",
+      "required_inputs": 4,
+      "state": "NOT_BUILT",
+      "sha256": null,
+      "dimensions": null
+    },
+    {
+      "artifact_id": "style_density_cadence",
+      "path": "experiments/review-packets/ch05-p010-p013-production-r1/review/comparison-p010-p013-style-density-cadence.png",
+      "required_inputs": 4,
+      "state": "NOT_BUILT",
+      "sha256": null,
+      "dimensions": null
+    }
+  ],
+  "failure_vocabulary": [
+    "CAST_COUNT",
+    "ROLE_ORDER",
+    "HAIR_DRIFT",
+    "WARDROBE_DRIFT",
+    "ADULT_ANATOMY",
+    "HAND_OR_OBJECT",
+    "CAUSAL_GEOMETRY",
+    "LETTERING_COLLISION",
+    "PHONE_READABILITY",
+    "DENSITY_ROLE",
+    "FINISH_CONTINUITY"
+  ],
+  "sequence_review": {
+    "hair_wardrobe_continuity": null,
+    "cast_transition": null,
+    "causal_flow": null,
+    "density_cadence": null,
+    "lettering_semantics": null,
+    "decision": null,
+    "reviewer": null,
+    "human_review_minutes": null
+  },
+  "repair_allocation": {
+    "maximum_slots": 2,
+    "allocated_slots": 0,
+    "broad_reroll": false,
+    "passing_rows_must_be_preserved": true
+  },
+  "renderrecord_required_fields": [
+    "exact_prompt",
+    "prompt_sha256",
+    "input_reference_hashes",
+    "output_sha256",
+    "dimensions",
+    "elapsed_seconds",
+    "model",
+    "endpoint",
+    "request_id",
+    "provider_usage",
+    "provider_cost_usd",
+    "candidate_file",
+    "failure",
+    "human_review_state",
+    "human_review_minutes",
+    "acceptance_decision"
+  ],
+  "builder": {
+    "command": "python src/north_garden/build_ch05_p010_p013_review_packet.py",
+    "dry_run_command": "python src/north_garden/build_ch05_p010_p013_review_packet.py --dry-run",
+    "network_capable": false,
+    "writes_only_ignored_paths": true,
+    "source_pixels_unchanged": true
+  },
+  "promotion_rules": [
+    "Candidate decisions remain null until every required check is populated by a human reviewer.",
+    "Any FAIL requires preservation as diagnostic evidence and may allocate at most one exact-class repair slot.",
+    "A WARN cannot be silently promoted; its limitation must appear in the owner packet.",
+    "Sequence acceptance requires all four candidate decisions plus explicit continuity, cadence, and lettering-semantics decisions.",
+    "Engineering review cannot establish commercial clearance or exact production-base eligibility."
+  ],
+  "activity": {
+    "prompts_compiled": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "renders": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "human_review_minutes": null
+  },
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Pre-render structure only. Safe zones and density ranges are hypotheses requiring post-render measurement and human clearance. All five review artifacts remain NOT_BUILT."
+}

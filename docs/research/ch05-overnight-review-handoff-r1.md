@@ -123,3 +123,5 @@ The next-pilot decision boundary is `production/comic/review/ch05-p010-p013-owne
 Non-executable next-pilot drafts are at `production/comic/run-manifests/ch05-p010-p013-prompt-blueprint-r1.json`. ADR-0131 keeps their exact hashes separate from the still-null production prompts.
 
 Reusable draft validation is `python src/north_garden/validate_ch05_prompt_blueprint_draft.py`; fixture evidence is `docs/research/evidence/ch05-prompt-blueprint-adversarial-validation-r1.json`. ADR-0132 records 28/28 malformed rejection.
+
+The pre-render packet blueprint is `production/comic/review/ch05-p010-p013-prerender-packet-blueprint-r1.json`. Its deterministic builder is `python src/north_garden/build_ch05_p010_p013_review_packet.py --dry-run`; ADR-0133 keeps all five outputs `NOT_BUILT` until four candidates exist.

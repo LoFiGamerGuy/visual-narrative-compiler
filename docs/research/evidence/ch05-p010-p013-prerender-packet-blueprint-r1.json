@@ -1,0 +1,49 @@
+{
+  "record_type": "ComicPrerenderPacketBlueprintEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-prerender-packet-blueprint-evidence-r1",
+  "state": "PASS_NOT_BUILT",
+  "blueprint": {
+    "path": "production/comic/review/ch05-p010-p013-prerender-packet-blueprint-r1.json",
+    "sha256": "08c1ca4bb570ad52e4556d06e94c3cd92553924603816bf05b89ac96a45e0a08"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-prompt-blueprint-r1.json",
+      "sha256": "1959a21e4c0d513c48272c2637816976c4be6adc69e9d0524e1babdabf75f5ac"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-review-packet-contract-dry-run-r1.json",
+      "sha256": "a7858e71d826257c8197a500e05f4520dda20a8bac82a037a64a2b5690b4b0ae"
+    },
+    {
+      "path": "src/north_garden/build_ch05_p010_p013_review_packet.py",
+      "sha256": "0af2c9fc65e45f4ce650df37f1d5ca9d33a48b9cfec3655526398157f16a680c"
+    }
+  ],
+  "summary": {
+    "candidate_slots": 4,
+    "candidates_present": 0,
+    "candidates_missing": 4,
+    "artifacts_planned": 5,
+    "artifacts_built": 0,
+    "checks_per_candidate": 11,
+    "total_empty_candidate_checks": 44,
+    "proposed_safe_zones": 4,
+    "phone_previews_planned": 4,
+    "density_targets": 4,
+    "repair_slots": 2,
+    "provider_calls": 0,
+    "uploads": 0,
+    "renders": 0,
+    "paid_spend_usd": 0
+  },
+  "builder_dry_run": {
+    "return_code": 0,
+    "stdout": "P010-P013 packet preflight PASS: 4 slots/4 candidates missing; 5 ignored outputs remain NOT_BUILT; no files written\n",
+    "stdout_sha256": "a1682753199cec748ecc8eaf4a996fbae0a3864877222cf93a9aaa7b67e17927",
+    "stderr": ""
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

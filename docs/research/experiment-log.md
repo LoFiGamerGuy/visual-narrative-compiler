@@ -1247,3 +1247,10 @@
 - The validator's first run caught an overconstraint on a single-character panel; narrowed it while retaining explicit role order for m004.
 - The current blueprint passes and 28/28 malformed in-memory fixtures fail across five risk classes.
 - ADR-0132 keeps production prompts, provider calls, uploads, renders, and cost at zero.
+
+## 2026-09-01 - CH05 P010–P013 pre-render packet blueprint r1
+
+- Implemented a deterministic local review builder with a no-write preflight and fail-closed requirement for all four ignored candidate files.
+- Bound five planned artifacts, four phone dimensions, four proposed quiet zones, density ranges, 44 empty checks, 11 failure classes, two repair slots, and 16 RenderRecord fields.
+- Corrected the validator's initial 17-field expectation to the actual complete 16-field list; no field was removed.
+- Dry-run passes with four missing candidates/five `NOT_BUILT` artifacts and 17/17 mutations fail under ADR-0133.

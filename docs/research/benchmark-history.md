@@ -396,3 +396,5 @@ The P010–P013 unlock contract identifies six exact owner-decision roots, four 
 The P010–P013 prompt blueprint adds four exact draft hashes with 4/4 lint pass, three authorized-reference hypotheses across two unique hashes, and one text-only object control. Fifteen/fifteen mutations fail. Production prompt fields remain null, making this preparation evidence rather than execution throughput.
 
 Independent blueprint validation passes the four real rows and rejects 28/28 malformed fixtures: age/likeness 2, continuity/role 5, causal/lettering 3, reference boundary 4, and promotion/schema 14. This is robustness evidence for draft validation, not render quality.
+
+The P010–P013 pre-render builder dry-run passes with four absent candidate slots, five `NOT_BUILT` outputs, 44 empty checks, four safe-zone hypotheses, and 17/17 mutation rejection. It is packet-readiness evidence; no build/render timing or visual result exists yet.

@@ -1,0 +1,51 @@
+{
+  "record_type": "ComicLetteringEngineeringReview",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-transparent-lettering-rehearsal-review-r1",
+  "state": "PROVISIONAL_ENGINEERING_REVIEW_OWNER_REVIEW_PENDING",
+  "manifest": "production/comic/lettering/ch05-transparent-lettering-rehearsal-r1.json",
+  "local_packet": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/lettering-rehearsal-packet.json",
+  "human_review_minutes": null,
+  "accepted_treatments": [],
+  "visual_reviews": [
+    {
+      "candidate_id": "c005",
+      "protected_content_clearance": "PASS",
+      "phone_type": "FAIL_TARGET: 8.206px for two-line review copy versus 13px target",
+      "transparency": "96% and 88% suppress branch texture adequately; 76% remains high-contrast by measurement but visibly admits more branch structure",
+      "recommendation": "Keep the narrow transition panel silent or extremely low-text; if two lines are required, increase its layout footprint rather than covering people. Use 88% as the next backing arm."
+    },
+    {
+      "candidate_id": "c014",
+      "protected_content_clearance": "FAIL: the current top-right safe zone and all three balloons overlap Soren's clothed upper-arm/person area",
+      "phone_type": "FAIL_TARGET: 6.513px for two-line review copy versus 13px target",
+      "transparency": "Contrast remains strong, but opacity cannot cure the semantic placement failure",
+      "recommendation": "Treat P044 as a silent object insert or revise its ComicPanelPlan lettering strategy before text; do not use any tested balloon placement."
+    },
+    {
+      "candidate_id": "c013",
+      "protected_content_clearance": "PASS: sky field stays clear of Sigrid's face and map",
+      "phone_type": "FAIL_TARGET: 8.692px for two-line review copy versus 13px target",
+      "transparency": "All three measured treatments are highly legible against the calm sky; 88% retains context without distracting texture",
+      "recommendation": "Use 88% only after actual dialogue length is known; enlarge the panel or safe field for two full lines at target type size."
+    },
+    {
+      "candidate_id": "h001",
+      "protected_content_clearance": "PASS: backing stays in sky and clear of both adults, map, house, and running silhouettes",
+      "phone_type": "WARN: 11.366px is closest to but below the 13px target",
+      "transparency": "88% preserves sky context with strong measured contrast; 76% is also readable but provides less texture suppression",
+      "recommendation": "Use 88% as the provisional wide-panel backing and test final copy at a slightly larger hero footprint or shorter line length."
+    }
+  ],
+  "measured_summary": {
+    "treatment_count": 12,
+    "artifact_count": 25,
+    "black_type_p05_contrast_min_across_all": 11.942,
+    "phone_font_range_px": [6.513, 11.366],
+    "subjects_meeting_13px_target": 0,
+    "protected_content_clearance_pass_subjects": 3,
+    "protected_content_clearance_fail_subjects": 1
+  },
+  "decision": "Carry translucent_88 as the next general backing arm, not as an accepted default. Opacity is not the primary failure: narrow panel footprint and c014 semantic placement are. Preserve small causal inserts as silent beats unless a ComicPanelPlan revision supplies a valid lettering strategy.",
+  "boundary": "Review copy is non-canon. No art, dialogue, lettering treatment, panel plan, or production base is accepted or commercially cleared."
+}

@@ -1,0 +1,763 @@
+{
+  "record_type": "CH05TransparentLetteringRehearsalEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-transparent-lettering-rehearsal-evidence-r1",
+  "state": "LOCAL_MEASURED_REHEARSAL_OWNER_REVIEW_PENDING_UNACCEPTED",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "manifest": {
+    "path": "production/comic/lettering/ch05-transparent-lettering-rehearsal-r1.json",
+    "sha256": "f304a31acd6bae9d77cf2c8fe59252de3bdee14fef2862a58ade6d052fdd9b6a"
+  },
+  "engineering_review": {
+    "path": "production/comic/review/ch05-transparent-lettering-rehearsal-review-r1.json",
+    "sha256": "77e78cefbbef5dc103e174daa74c3765e4976f7df6905a7081c31f9f28db3e82"
+  },
+  "local_packet": {
+    "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/lettering-rehearsal-packet.json",
+    "sha256": "777c5fe3a856365eabd63d8235193a4767cd96463d2092ce5e49e46826387d6b"
+  },
+  "summary": {
+    "subject_count": 4,
+    "dense_outlier_count": 2,
+    "clean_control_count": 2,
+    "treatment_count": 12,
+    "artifact_count": 25,
+    "artifact_inventory_root_sha256": "53b5b3a7a5c955ac8fea901424c18d252f336eb54c8b33988aa7eb810a23020f",
+    "phone_font_min_px": 6.513,
+    "phone_font_max_px": 11.366,
+    "subjects_meeting_13px_target": 0,
+    "black_type_p05_contrast_min": 11.942,
+    "black_type_p05_contrast_max": 19.42,
+    "protected_content_clearance_pass_subjects": 3,
+    "protected_content_clearance_fail_subjects": 1,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null,
+    "accepted_treatments": 0
+  },
+  "records": [
+    {
+      "candidate_id": "c005",
+      "panel_id": "ng-ch05-sc01-p009",
+      "subject_class": "dense_outlier",
+      "treatment_id": "solid_96",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c005-p009-clear_line_watercolor-r1.png",
+      "source_sha256": "239346d94a18f822455dbd98bfc82cd1dae924a860a763468eb211924a225372",
+      "safe_zone": {
+        "anchor": "top_left",
+        "rect_norm": [
+          0.04,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.248672,
+      "metrics": {
+        "safe_rect_px": [
+          38,
+          67,
+          320,
+          368
+        ],
+        "balloon_rect_px": [
+          52,
+          82,
+          306,
+          353
+        ],
+        "safe_zone_coverage_fraction": 0.810938,
+        "font_size_source_px": 33,
+        "font_size_phone_px": 8.206,
+        "outline_source_px": 5,
+        "outline_phone_px": 1.243,
+        "black_type_contrast_ratio_min": 18.078,
+        "black_type_contrast_ratio_p05": 18.252,
+        "black_type_contrast_ratio_median": 19.082,
+        "background_luma_stddev": 39.409,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/c005-solid_96.png",
+        "sha256": "b81a20d1ab8c1a14467b5ee0a983a9e34e99867f61fa162cc5b9765e990b87e5",
+        "dimensions": [
+          941,
+          1672
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/c005-solid_96-phone.png",
+        "sha256": "7425d841ca782f8a3d6c38f9bd5eaed08f775492ef18aaeb4bbfbd0bc775e489",
+        "dimensions": [
+          390,
+          448
+        ]
+      }
+    },
+    {
+      "candidate_id": "c005",
+      "panel_id": "ng-ch05-sc01-p009",
+      "subject_class": "dense_outlier",
+      "treatment_id": "translucent_88",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c005-p009-clear_line_watercolor-r1.png",
+      "source_sha256": "239346d94a18f822455dbd98bfc82cd1dae924a860a763468eb211924a225372",
+      "safe_zone": {
+        "anchor": "top_left",
+        "rect_norm": [
+          0.04,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.248672,
+      "metrics": {
+        "safe_rect_px": [
+          38,
+          67,
+          320,
+          368
+        ],
+        "balloon_rect_px": [
+          52,
+          82,
+          306,
+          353
+        ],
+        "safe_zone_coverage_fraction": 0.810938,
+        "font_size_source_px": 33,
+        "font_size_phone_px": 8.206,
+        "outline_source_px": 5,
+        "outline_phone_px": 1.243,
+        "black_type_contrast_ratio_min": 15.012,
+        "black_type_contrast_ratio_p05": 15.61,
+        "black_type_contrast_ratio_median": 17.903,
+        "background_luma_stddev": 39.409,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/c005-translucent_88.png",
+        "sha256": "7ec45cda167c4a8caee4c78d2e2bd3110a8445113b22f71d4227947c470d9ad8",
+        "dimensions": [
+          941,
+          1672
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/c005-translucent_88-phone.png",
+        "sha256": "cd60170ff4f24288b6da67d2c7dc01fa6b8873bcd7dd5105ce8b7cf419698f70",
+        "dimensions": [
+          390,
+          448
+        ]
+      }
+    },
+    {
+      "candidate_id": "c005",
+      "panel_id": "ng-ch05-sc01-p009",
+      "subject_class": "dense_outlier",
+      "treatment_id": "translucent_76",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c005-p009-clear_line_watercolor-r1.png",
+      "source_sha256": "239346d94a18f822455dbd98bfc82cd1dae924a860a763468eb211924a225372",
+      "safe_zone": {
+        "anchor": "top_left",
+        "rect_norm": [
+          0.04,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.248672,
+      "metrics": {
+        "safe_rect_px": [
+          38,
+          67,
+          320,
+          368
+        ],
+        "balloon_rect_px": [
+          52,
+          82,
+          306,
+          353
+        ],
+        "safe_zone_coverage_fraction": 0.810938,
+        "font_size_source_px": 33,
+        "font_size_phone_px": 8.206,
+        "outline_source_px": 5,
+        "outline_phone_px": 1.243,
+        "black_type_contrast_ratio_min": 11.058,
+        "black_type_contrast_ratio_p05": 12.131,
+        "black_type_contrast_ratio_median": 16.21,
+        "background_luma_stddev": 39.409,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/c005-translucent_76.png",
+        "sha256": "eedf8b908ed91ca93f5f44487a2a2c2d431caf929b7de2a69027eb0a07b922bc",
+        "dimensions": [
+          941,
+          1672
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/c005-translucent_76-phone.png",
+        "sha256": "75d263dfe22d5e43f413c54a86a29772e440adad560e6106eb856572b34cbe01",
+        "dimensions": [
+          390,
+          448
+        ]
+      }
+    },
+    {
+      "candidate_id": "c014",
+      "panel_id": "ng-ch05-sc01-p044",
+      "subject_class": "dense_outlier",
+      "treatment_id": "solid_96",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c014-p044-limited_ink_flat-r1.png",
+      "source_sha256": "05c1a83a89c6c0b92b3a987b96d58db8cc2d399a185f54dfded839dc980067e7",
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.186094,
+      "metrics": {
+        "safe_rect_px": [
+          645,
+          64,
+          939,
+          354
+        ],
+        "balloon_rect_px": [
+          660,
+          78,
+          924,
+          340
+        ],
+        "safe_zone_coverage_fraction": 0.81126,
+        "font_size_source_px": 35,
+        "font_size_phone_px": 6.513,
+        "outline_source_px": 7,
+        "outline_phone_px": 1.303,
+        "black_type_contrast_ratio_min": 18.078,
+        "black_type_contrast_ratio_p05": 18.241,
+        "black_type_contrast_ratio_median": 18.902,
+        "background_luma_stddev": 71.695,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/c014-solid_96.png",
+        "sha256": "3401236cfcb7db8918eb8dfef3fe34e128adee35d13ae3f9385cf3903334b65b",
+        "dimensions": [
+          978,
+          1608
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/c014-solid_96-phone.png",
+        "sha256": "4769f2b296eefc0714ad08840231c0d2450e758466ee3925200a7242882fa840",
+        "dimensions": [
+          390,
+          332
+        ]
+      }
+    },
+    {
+      "candidate_id": "c014",
+      "panel_id": "ng-ch05-sc01-p044",
+      "subject_class": "dense_outlier",
+      "treatment_id": "translucent_88",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c014-p044-limited_ink_flat-r1.png",
+      "source_sha256": "05c1a83a89c6c0b92b3a987b96d58db8cc2d399a185f54dfded839dc980067e7",
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.186094,
+      "metrics": {
+        "safe_rect_px": [
+          645,
+          64,
+          939,
+          354
+        ],
+        "balloon_rect_px": [
+          660,
+          78,
+          924,
+          340
+        ],
+        "safe_zone_coverage_fraction": 0.81126,
+        "font_size_source_px": 35,
+        "font_size_phone_px": 6.513,
+        "outline_source_px": 7,
+        "outline_phone_px": 1.303,
+        "black_type_contrast_ratio_min": 15.012,
+        "black_type_contrast_ratio_p05": 15.589,
+        "black_type_contrast_ratio_median": 17.139,
+        "background_luma_stddev": 71.695,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/c014-translucent_88.png",
+        "sha256": "1f39ee1c84b791b2c8d78ea2759415f2d5c836a6abaf15f10d1a5f30661651ff",
+        "dimensions": [
+          978,
+          1608
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/c014-translucent_88-phone.png",
+        "sha256": "9a177a9b32cfbbdd6d6d17b1944ab053286fb65347928cd25df532aaac8b26b3",
+        "dimensions": [
+          390,
+          332
+        ]
+      }
+    },
+    {
+      "candidate_id": "c014",
+      "panel_id": "ng-ch05-sc01-p044",
+      "subject_class": "dense_outlier",
+      "treatment_id": "translucent_76",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c014-p044-limited_ink_flat-r1.png",
+      "source_sha256": "05c1a83a89c6c0b92b3a987b96d58db8cc2d399a185f54dfded839dc980067e7",
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.186094,
+      "metrics": {
+        "safe_rect_px": [
+          645,
+          64,
+          939,
+          354
+        ],
+        "balloon_rect_px": [
+          660,
+          78,
+          924,
+          340
+        ],
+        "safe_zone_coverage_fraction": 0.81126,
+        "font_size_source_px": 35,
+        "font_size_phone_px": 6.513,
+        "outline_source_px": 7,
+        "outline_phone_px": 1.303,
+        "black_type_contrast_ratio_min": 11.058,
+        "black_type_contrast_ratio_p05": 11.942,
+        "black_type_contrast_ratio_median": 14.765,
+        "background_luma_stddev": 71.695,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/c014-translucent_76.png",
+        "sha256": "3b39162b3d2e923ab118e451b016e3e14f2c4b101738357e85a50596feefffc3",
+        "dimensions": [
+          978,
+          1608
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/c014-translucent_76-phone.png",
+        "sha256": "58c95bb7bf8fd498f60ab26a99af36288a1c29f1b847f33217599c75e2e61179",
+        "dimensions": [
+          390,
+          332
+        ]
+      }
+    },
+    {
+      "candidate_id": "c013",
+      "panel_id": "ng-ch05-sc01-p040",
+      "subject_class": "clean_control",
+      "treatment_id": "solid_96",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c013-p040-clear_line_watercolor-r1.png",
+      "source_sha256": "237b8c3927173b72373ee502c1ce4785e0f3c9dad53f6fb04d3e9633d4ed1a09",
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.241447,
+      "metrics": {
+        "safe_rect_px": [
+          675,
+          61,
+          982,
+          338
+        ],
+        "balloon_rect_px": [
+          690,
+          75,
+          967,
+          324
+        ],
+        "safe_zone_coverage_fraction": 0.811075,
+        "font_size_source_px": 36,
+        "font_size_phone_px": 8.692,
+        "outline_source_px": 5,
+        "outline_phone_px": 1.207,
+        "black_type_contrast_ratio_min": 19.42,
+        "black_type_contrast_ratio_p05": 19.42,
+        "black_type_contrast_ratio_median": 19.42,
+        "background_luma_stddev": 1.461,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/c013-solid_96.png",
+        "sha256": "0b95827f3f96d23a8f78ae7d5e76e9877fb968309874205d603a8b5b920b2440",
+        "dimensions": [
+          1023,
+          1537
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/c013-solid_96-phone.png",
+        "sha256": "72383e0a975d4423d14e5ccf9f45daee97c8e098cb813bed25b7de29aa80151e",
+        "dimensions": [
+          390,
+          404
+        ]
+      }
+    },
+    {
+      "candidate_id": "c013",
+      "panel_id": "ng-ch05-sc01-p040",
+      "subject_class": "clean_control",
+      "treatment_id": "translucent_88",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c013-p040-clear_line_watercolor-r1.png",
+      "source_sha256": "237b8c3927173b72373ee502c1ce4785e0f3c9dad53f6fb04d3e9633d4ed1a09",
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.241447,
+      "metrics": {
+        "safe_rect_px": [
+          675,
+          61,
+          982,
+          338
+        ],
+        "balloon_rect_px": [
+          690,
+          75,
+          967,
+          324
+        ],
+        "safe_zone_coverage_fraction": 0.811075,
+        "font_size_source_px": 36,
+        "font_size_phone_px": 8.692,
+        "outline_source_px": 5,
+        "outline_phone_px": 1.207,
+        "black_type_contrast_ratio_min": 18.854,
+        "black_type_contrast_ratio_p05": 18.89,
+        "black_type_contrast_ratio_median": 18.89,
+        "background_luma_stddev": 1.461,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/c013-translucent_88.png",
+        "sha256": "3ef3f310b71a09d0d84a6496cbe618b65b7e5bf2a91052dcb0ce81e46b6c4a72",
+        "dimensions": [
+          1023,
+          1537
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/c013-translucent_88-phone.png",
+        "sha256": "7b925e547ac977dd03ab148a611987d3c112f12e32904a1ff7290b5c2a34bc10",
+        "dimensions": [
+          390,
+          404
+        ]
+      }
+    },
+    {
+      "candidate_id": "c013",
+      "panel_id": "ng-ch05-sc01-p040",
+      "subject_class": "clean_control",
+      "treatment_id": "translucent_76",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c013-p040-clear_line_watercolor-r1.png",
+      "source_sha256": "237b8c3927173b72373ee502c1ce4785e0f3c9dad53f6fb04d3e9633d4ed1a09",
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.241447,
+      "metrics": {
+        "safe_rect_px": [
+          675,
+          61,
+          982,
+          338
+        ],
+        "balloon_rect_px": [
+          690,
+          75,
+          967,
+          324
+        ],
+        "safe_zone_coverage_fraction": 0.811075,
+        "font_size_source_px": 36,
+        "font_size_phone_px": 8.692,
+        "outline_source_px": 5,
+        "outline_phone_px": 1.207,
+        "black_type_contrast_ratio_min": 17.857,
+        "black_type_contrast_ratio_p05": 18.019,
+        "black_type_contrast_ratio_median": 18.182,
+        "background_luma_stddev": 1.461,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/c013-translucent_76.png",
+        "sha256": "1ea6f1e6c8a0e5ebd16e6e25c1d0b315128526723ba0aad9cf38e4854f592710",
+        "dimensions": [
+          1023,
+          1537
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/c013-translucent_76-phone.png",
+        "sha256": "4737da8bd6346131a7640529ff1c57c383c113c86ea7c4402cd9a6ae2b39ef31",
+        "dimensions": [
+          390,
+          404
+        ]
+      }
+    },
+    {
+      "candidate_id": "h001",
+      "panel_id": "ng-ch05-sc01-p050",
+      "subject_class": "clean_control",
+      "treatment_id": "solid_96",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png",
+      "source_sha256": "7c63481cae9686d439867ba5a3e7e66024715b5ba07687068785fbc31d32f737",
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.19941,
+      "metrics": {
+        "safe_rect_px": [
+          1119,
+          37,
+          1627,
+          204
+        ],
+        "balloon_rect_px": [
+          1144,
+          45,
+          1602,
+          196
+        ],
+        "safe_zone_coverage_fraction": 0.815196,
+        "font_size_source_px": 57,
+        "font_size_phone_px": 11.366,
+        "outline_source_px": 6,
+        "outline_phone_px": 1.196,
+        "black_type_contrast_ratio_min": 19.42,
+        "black_type_contrast_ratio_p05": 19.42,
+        "black_type_contrast_ratio_median": 19.542,
+        "background_luma_stddev": 4.77,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/h001-solid_96.png",
+        "sha256": "2d5bd10f4288269af9834f7ae7a6544576f19ef71bed02c7886e73e96717de69",
+        "dimensions": [
+          1695,
+          928
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/h001-solid_96-phone.png",
+        "sha256": "8af8fb75f5e5d2b1f3210cdc6aebd465ddc56f5c717809aaeb4a5d0a52dede4b",
+        "dimensions": [
+          390,
+          217
+        ]
+      }
+    },
+    {
+      "candidate_id": "h001",
+      "panel_id": "ng-ch05-sc01-p050",
+      "subject_class": "clean_control",
+      "treatment_id": "translucent_88",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png",
+      "source_sha256": "7c63481cae9686d439867ba5a3e7e66024715b5ba07687068785fbc31d32f737",
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.19941,
+      "metrics": {
+        "safe_rect_px": [
+          1119,
+          37,
+          1627,
+          204
+        ],
+        "balloon_rect_px": [
+          1144,
+          45,
+          1602,
+          196
+        ],
+        "safe_zone_coverage_fraction": 0.815196,
+        "font_size_source_px": 57,
+        "font_size_phone_px": 11.366,
+        "outline_source_px": 6,
+        "outline_phone_px": 1.196,
+        "black_type_contrast_ratio_min": 18.723,
+        "black_type_contrast_ratio_p05": 18.89,
+        "black_type_contrast_ratio_median": 19.057,
+        "background_luma_stddev": 4.77,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/h001-translucent_88.png",
+        "sha256": "3966de5c1c21745a28364781c70dae01eccd05b4b3a8215deba2a86d6d95aef9",
+        "dimensions": [
+          1695,
+          928
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/h001-translucent_88-phone.png",
+        "sha256": "9f0f7a1a90803e7ebe7087f382cfa6798f151a641311281087a20123a728e586",
+        "dimensions": [
+          390,
+          217
+        ]
+      }
+    },
+    {
+      "candidate_id": "h001",
+      "panel_id": "ng-ch05-sc01-p050",
+      "subject_class": "clean_control",
+      "treatment_id": "translucent_76",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png",
+      "source_sha256": "7c63481cae9686d439867ba5a3e7e66024715b5ba07687068785fbc31d32f737",
+      "safe_zone": {
+        "anchor": "top_right",
+        "rect_norm": [
+          0.66,
+          0.04,
+          0.3,
+          0.18
+        ]
+      },
+      "phone_scale": 0.19941,
+      "metrics": {
+        "safe_rect_px": [
+          1119,
+          37,
+          1627,
+          204
+        ],
+        "balloon_rect_px": [
+          1144,
+          45,
+          1602,
+          196
+        ],
+        "safe_zone_coverage_fraction": 0.815196,
+        "font_size_source_px": 57,
+        "font_size_phone_px": 11.366,
+        "outline_source_px": 6,
+        "outline_phone_px": 1.196,
+        "black_type_contrast_ratio_min": 17.57,
+        "black_type_contrast_ratio_p05": 17.891,
+        "black_type_contrast_ratio_median": 18.263,
+        "background_luma_stddev": 4.77,
+        "measurement_boundary": "Computed backing contrast only; excludes the black outline and glyph raster and cannot detect semantic occlusion."
+      },
+      "composite": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/composites/h001-translucent_76.png",
+        "sha256": "1f7fc422b0e36b50fbfe78fa628803e013c4dea796fef90b7439dd94f2376c71",
+        "dimensions": [
+          1695,
+          928
+        ]
+      },
+      "phone_preview": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/phone-previews/h001-translucent_76-phone.png",
+        "sha256": "70dfe29e20b76aa7d61e4a9365dcbe8c3ef82319452a55dc5f127de3e5ea35f6",
+        "dimensions": [
+          390,
+          217
+        ]
+      }
+    }
+  ],
+  "comparison_sheet": {
+    "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/ch05-transparent-lettering-phone-comparison-r1.png",
+    "sha256": "97716fd4f91f618a771be821dfdd6770b9e57cb9b4db9ad72a37b5622677050f",
+    "dimensions": [
+      1672,
+      2856
+    ]
+  },
+  "determinism": {
+    "consecutive_build_count": 2,
+    "packet_sha256_run_a": "777c5fe3a856365eabd63d8235193a4767cd96463d2092ce5e49e46826387d6b",
+    "packet_sha256_run_b": "777c5fe3a856365eabd63d8235193a4767cd96463d2092ce5e49e46826387d6b",
+    "result": "BYTE_IDENTICAL_PACKET_AND_25_ARTIFACT_HASHES"
+  },
+  "engineering_decision": "Carry translucent_88 as the next general backing arm, not as an accepted default. Opacity is not the primary failure: narrow panel footprint and c014 semantic placement are. Preserve small causal inserts as silent beats unless a ComicPanelPlan revision supplies a valid lettering strategy.",
+  "limitations": [
+    "WCAG backing contrast does not detect faces, hands, story objects, reading order, or aesthetic acceptability.",
+    "Non-canon review copy approximates two short lines; final dialogue length and tails are untested.",
+    "The exact local Arial Bold font is hash-pinned but is not a final font-license or brand decision.",
+    "c014 fails protected-person clearance under visual inspection regardless of measured contrast.",
+    "No treatment reaches the declared 13px phone-type target at the current four panel footprints."
+  ],
+  "boundary": "No art, copy, treatment, panel plan, or production base is accepted, commercially cleared, or externally executed."
+}

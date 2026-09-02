@@ -37,3 +37,7 @@ l001/l002/l003 explore future equipment and a Mireback encounter without revisin
 The strongest 14 provisional candidates now form three connected sequences in a deterministic phone-first scroll. Review the clean 1200px scroll, exact safe-zone overlay, 390px phone scroll, seven viewport slices, and three selected-sequence sheets under `experiments/review-packets/ch05-variable-cadence-assembly-r1/`. Tracked evidence is `docs/research/evidence/ch05-variable-cadence-assembly-r1.json`.
 
 ADR-0089 recommends variable width/alignment/gutter cadence rather than a uniform panel ratio. Hair, wardrobe, role order, and causal flow pass provisional engineering review. c005 and c014 remain explicit lettering-rehearsal warnings, and mixed finish density remains an owner decision. No panel or sequence is accepted.
+
+## Transparent-lettering addendum
+
+Review `experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/ch05-transparent-lettering-phone-comparison-r1.png`. The 88% backing is the strongest next arm, but none of the four tested panels reaches the declared 13px two-line phone target. c014's tested balloon also overlaps Soren's person/upper-arm area and fails outright. ADR-0090 therefore keeps P044 silent unless its ComicPanelPlan lettering strategy is revised. Tracked evidence is `docs/research/evidence/ch05-transparent-lettering-rehearsal-r1.json`; no treatment is accepted.

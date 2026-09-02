@@ -1,0 +1,48 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "1.5",
+  "record_id": "ng-comic-style-ch05-mill-signal-r6",
+  "state": "VARIABLE_CADENCE_AND_LETTERING_GATES_SELECTED_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r5",
+    "path": "production/comic/style-direction/ch05-mill-signal-r5.json",
+    "sha256": "829b2f002b82e1b9dacb126dc0ba96fe131e568b3f1b205f9986eef1462bf2fe"
+  },
+  "evidence": {
+    "generation": [
+      "docs/research/evidence/ch05-overnight-production-r1.json",
+      "docs/research/evidence/ch05-cadence-hardening-r1.json"
+    ],
+    "cadence": "docs/research/evidence/ch05-variable-cadence-assembly-r1.json",
+    "lettering": "docs/research/evidence/ch05-transparent-lettering-rehearsal-r1.json",
+    "generated_candidates": 26,
+    "selected_assembly_panels": 14,
+    "lettering_treatments": 12,
+    "human_accepted_candidates": 0,
+    "human_accepted_lettering_treatments": 0
+  },
+  "selected_engineering_route": {
+    "name": "role-aware premium cel-painted webcomic with clear-line causal staging and variable narrative cadence",
+    "continuity": "Use P050/P040 identity evidence plus explicit light-brown-haired Soren, dark-tied-haired Sigrid, oatmeal coat, and plaid wrap assertions. P036 remains composition-only.",
+    "causal_language": "Describe the smallest physical chain from hands through one object to target. P036 is one straight reach-and-brace plank, not a lever.",
+    "cadence": "Bind wide/medium/tall/insert footprint, alignment, and gutter to narrative function rather than using one uniform ratio.",
+    "finish": "Use restrained cel-painted value structure and clear-line causal readability within one palette; let beat function control density."
+  },
+  "lettering_contract": {
+    "provisional_backing_arm": "translucent light backing at 88% opacity with dark contour",
+    "status": "engineering arm only; not accepted default",
+    "gates": [
+      "actual phone-size type meets the declared target",
+      "balloon and tail clear faces, people, important hands, and story objects",
+      "expression, silhouette, action, and reading order remain clear",
+      "final copy length is tested rather than inferred from placeholder text"
+    ],
+    "small_insert_rule": "Prefer silent or extremely low-text causal inserts. P044/c014 cannot use the tested top-right balloon; any text requires a ComicPanelPlan lettering revision.",
+    "measured_result": "12/12 backing treatments exceed 11.942:1 fifth-percentile black-type contrast, but 0/4 subjects reach 13px phone type and c014 fails semantic clearance."
+  },
+  "production_status": "strongest measured engineering recommendation; owner review, commercial clearance, deterministic generation reproducibility, exact-base acceptance, final font, and final lettering remain pending",
+  "next_experiment": "Measure minimum panel width and copy length needed for 13px phone type at 88% backing, without revising a ComicPanelPlan."
+}

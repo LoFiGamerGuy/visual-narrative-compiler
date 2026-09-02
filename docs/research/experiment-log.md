@@ -940,3 +940,11 @@
 - Exploratory safe-zone texture measurement flags c005 and c014 for lettering rehearsal; it is explicitly not an acceptance gate.
 - The validator reports zero failures and rejects 10/10 malformed denominator/order/identity/cadence/planning/state mutations. Provider calls/uploads/cost are 0/0/$0.
 - ADR-0089 and ComicStyleDirection r5 select variable narrative cadence while preserving owner review, commercial, reproducibility, and exact-base decisions.
+
+## 2026-09-01 - CH05 transparent-lettering rehearsal r1
+
+- Compared 96%, 88%, and 76% backing opacity on c005/c014 dense safe fields and c013/h001 clean controls with hash-pinned Arial Bold and explicitly non-canon two-line review copy.
+- Two consecutive builds preserve the same 12-record/25-artifact packet hash `777c5fe3…d6b` and inventory root `53b5b3a7…20f`.
+- Fifth-percentile black-type contrast remains at least 11.942:1, but rendered phone type ranges only 6.513–11.366px; 0/4 subjects meet the declared 13px target.
+- Visual review passes protected-content clearance for c005/c013/h001 and fails c014 because its tested balloon overlaps Soren's clothed upper arm/person area.
+- ADR-0090 carries 88% as the next backing arm, keeps narrow object inserts silent by default, and requires a ComicPanelPlan lettering revision before P044 text. Twelve/twelve mutations fail; calls/uploads/cost are 0/0/$0.

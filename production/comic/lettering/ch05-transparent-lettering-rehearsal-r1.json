@@ -1,0 +1,44 @@
+{
+  "record_type": "ComicLetteringRehearsalManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-transparent-lettering-rehearsal-r1",
+  "state": "LOCAL_NONCANON_REVIEW_COPY_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "comic_panel_plan_collection": "production/comic/ch05-sc01-panel-plans-v1.json",
+  "assembly": "production/comic/assembly/ch05-variable-cadence-assembly-r1.json",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "review_copy": ["TEST COPY", "NOT FINAL"],
+  "review_copy_is_canon": false,
+  "font": {
+    "family": "Arial Bold",
+    "local_path": "C:/Windows/Fonts/arialbd.ttf",
+    "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "target_phone_font_px": 13.0
+  },
+  "subjects": [
+    {"candidate_id": "c005", "panel_id": "ng-ch05-sc01-p009", "class": "dense_outlier"},
+    {"candidate_id": "c014", "panel_id": "ng-ch05-sc01-p044", "class": "dense_outlier"},
+    {"candidate_id": "c013", "panel_id": "ng-ch05-sc01-p040", "class": "clean_control"},
+    {"candidate_id": "h001", "panel_id": "ng-ch05-sc01-p050", "class": "clean_control"}
+  ],
+  "treatments": [
+    {"treatment_id": "solid_96", "fill_rgb": [250, 248, 240], "fill_opacity": 0.96, "outline_rgb": [30, 34, 38], "outline_px_at_phone": 1.25},
+    {"treatment_id": "translucent_88", "fill_rgb": [250, 248, 240], "fill_opacity": 0.88, "outline_rgb": [30, 34, 38], "outline_px_at_phone": 1.25},
+    {"treatment_id": "translucent_76", "fill_rgb": [250, 248, 240], "fill_opacity": 0.76, "outline_rgb": [30, 34, 38], "outline_px_at_phone": 1.25}
+  ],
+  "declared_rules": {
+    "placement": "The balloon must remain inside the exact first ComicPanelPlan safe zone with a five-percent inset.",
+    "protected_content": "The safe zone is a planning constraint, not proof: owner review must still confirm no face, person, important hand, or story object is obscured.",
+    "phone_readability": "Review at the panel's actual 390px-scroll footprint; target type is 13px where fit permits.",
+    "contrast": "Measure black-type contrast against the composited backing using WCAG relative luminance; do not infer narrative or occlusion acceptance.",
+    "decision": "This experiment may recommend a treatment but cannot accept art, dialogue, lettering, or a production base."
+  },
+  "boundaries": [
+    "Local compositing only; no provider call, upload, API, or budget use.",
+    "Review copy is explicitly non-canon and must not enter a ComicPanelPlan or script.",
+    "Generated source pixels remain ignored and unaccepted.",
+    "The selected system font is hash-pinned; another font build must fail closed."
+  ]
+}

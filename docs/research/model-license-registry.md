@@ -89,3 +89,5 @@ The Codex built-in ImageGen product received only the three owner-authorized, ha
 The six-candidate cadence-hardening continuation uses the same exact product/reference boundary and changes no license or commercial-use conclusion. Total new CH05 evidence is 26 ignored candidates; zero are accepted or commercially cleared.
 
 The three future LitRPG concepts use only the same exact built-in/reference boundary. The new concept outputs were not re-uploaded as continuity references. They remain non-canon, ignored, unaccepted, and commercially uncleared; no provider/model/license status changes.
+
+The offline owner-decision worksheet performs no model or provider operation and changes no registry conclusion. It links ignored local pixels, contains no remote assets or network calls, and exports only an uningested local draft; all output acceptance and commercial-clearance fields remain pending.

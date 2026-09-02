@@ -1006,3 +1006,10 @@
 - Added 12 exact Tier A style/size hypotheses with zero prompts, final copy, approvals, or executable rows.
 - Added an empty append-only 39-subject owner decision contract: 26 CH05 candidates, three non-canon concepts, and ten higher-order sequence/cadence/style/density/lettering choices.
 - ADR-0098 carries the 16-candidate scenario only as a post-review planning envelope. Thirteen/thirteen mutations fail; decisions/prompts/calls/uploads/cost remain 0/0/0/0/$0.
+
+## 2026-09-01 - CH05 offline owner decision worksheet r1
+
+- Built one ignored offline HTML worksheet for all 39 exact contract subjects: 29 candidate records and ten higher-order sequence/cadence/style/density/lettering choices.
+- Every card binds its contract-allowed decision vocabulary and exact local supporting artifact. Consecutive builds are byte-identical at index hash `60795713…ed3a`.
+- Client-side export produces `LOCAL_UNINGESTED_DRAFT` JSON only. The page contains no remote assets, network API, form submission, upload, or repository-write capability.
+- ADR-0099 keeps browser state outside project evidence until a separate ingestion validator passes. Eight/eight mutations fail; decisions/events/minutes remain 0/0/null.

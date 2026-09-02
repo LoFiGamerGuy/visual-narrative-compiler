@@ -1,0 +1,46 @@
+{
+  "record_type": "CH05OwnerDecisionWorksheetEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-owner-decision-worksheet-evidence-r1",
+  "state": "OFFLINE_DRAFT_TOOL_READY_NO_DECISIONS",
+  "packet": {
+    "path": "experiments/review-packets/ch05-owner-decision-worksheet-r1/decision-worksheet-packet.json",
+    "sha256": "fe0eeeb718d2a03c8a360ba9fe35e981ecbbcd4e23adc2eef77e5ad31e059b57"
+  },
+  "contract": {
+    "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+    "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5"
+  },
+  "review_index_packet": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r1/owner-review-index-packet.json",
+    "sha256": "01efe87e366637cdecabc1d8d72e0d0663e93ead2d6a61a673bdb737d567cfb5"
+  },
+  "index": {
+    "path": "experiments/review-packets/ch05-owner-decision-worksheet-r1/index.html",
+    "sha256": "607957137dd2c47790d82a59a3c524bda6505d26232b8bae6d5c0e0a304ced3a",
+    "bytes": 24112
+  },
+  "summary": {
+    "subject_count": 39,
+    "linked_candidate_count": 29,
+    "linked_higher_order_count": 10,
+    "network_calls": 0,
+    "uploads": 0,
+    "repository_writes_from_html": 0,
+    "decisions_recorded": 0,
+    "human_review_minutes": null
+  },
+  "determinism": {
+    "consecutive_build_count": 2,
+    "index_sha256_run_a": "607957137dd2c47790d82a59a3c524bda6505d26232b8bae6d5c0e0a304ced3a",
+    "index_sha256_run_b": "607957137dd2c47790d82a59a3c524bda6505d26232b8bae6d5c0e0a304ced3a",
+    "result": "BYTE_IDENTICAL_OFFLINE_WORKSHEET"
+  },
+  "limitations": [
+    "Browser selections are ephemeral until the owner exports a local JSON draft.",
+    "An exported draft is not a hash-chained decision event and must pass a future ingestion validator.",
+    "The worksheet contains no timer; human minutes remain null until an immutable review session exists.",
+    "No remote asset, script, fetch, form submission, or repository-write capability is included."
+  ],
+  "boundary": "Zero decisions are recorded; the empty tracked contract remains unchanged."
+}

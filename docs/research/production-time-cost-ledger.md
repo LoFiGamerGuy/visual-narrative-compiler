@@ -51,3 +51,5 @@ The overnight integrated release gate runs 16 no-network commands in 5.259 obser
 The remaining-panel priority compiler adds one ignored coverage chart and an exact 50-row metadata partition with no renderer generation or external cost. Provider calls/uploads remain zero; new accepted/executable panels and human minutes remain 0/0/null.
 
 The Tier A effort record adds no generation or external cost. Its 12/16/24 candidate counts and derived seconds are nonexecuted scenarios from 26 observed CH05 timings. Monetary cost and human minutes remain null; prompts/decisions/calls/uploads/acceptance remain zero.
+
+The offline owner-decision worksheet adds no generation or external cost. It links 39 existing subjects and can export only a local uningested draft. Network calls/uploads/repository writes/recorded decisions remain zero and human minutes remain null.

@@ -1,0 +1,1261 @@
+{
+  "record_type": "ComicInstrumentedProductionHandoffManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-instrumented-production-handoff-r1",
+  "state": "REVIEW_READY_NONEXECUTABLE_OWNER_DECISIONS_PENDING",
+  "medium": "comic",
+  "comic_panel_plan_collection": "production/comic/ch05-sc01-panel-plans-v1.json",
+  "comic_panel_plan_revision_created": false,
+  "assembly_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "compile_inputs": {
+    "production/comic/ch05-sc01-panel-plans-v1.json": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05",
+    "production/comic/assembly/ch05-variable-cadence-assembly-r1.json": "622abcaad9f3f996664004de7b05cdb4599cd96ad20133178ba4f0b0f4b14514",
+    "production/comic/style-direction/ch05-mill-signal-r8.json": "27c99c57b5ee3ef2f89b06b9e3e4641effe3527ff4e4b92d4b0ddc87c2beebbe",
+    "docs/research/evidence/ch05-overnight-production-r1.json": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946",
+    "docs/research/evidence/ch05-cadence-hardening-r1.json": "62a5e57ce5648e33609200f1b77276ea88d7174926ff90153d22f7e7d99eddf4",
+    "docs/research/evidence/ch05-variable-cadence-assembly-r1.json": "47e1ab10278f1a8e58ba3d2eefb56185fc6a62e57da74dc51e2c2db78aae930a",
+    "docs/research/evidence/ch05-transparent-lettering-rehearsal-r1.json": "19e001387256aa20969675a8df98fae65af04f0c13aab2ab34ad85ba6d821209",
+    "docs/research/evidence/ch05-lettering-width-copy-sensitivity-r1.json": "0ee9cbbd693694a44958c85d0d3e45a32585adb84ab75fd56d1433b890d27f8f",
+    "docs/research/evidence/ch05-outside-art-lettering-band-r1.json": "e305631dc500b308d2854d12b6042c20369309f7fcd9ea0ec132b006ebe34a43",
+    "docs/research/model-license-registry.md": "156c20fba74deb820cb81f27b3512863ea15ca6842ef7e0e53729d2da5f44578"
+  },
+  "reproducers": [
+    {
+      "label": "build cadence assembly",
+      "path": "src/north_garden/build_ch05_variable_cadence_assembly.py",
+      "sha256": "86c56f0fbb140eceaaa29e0d40f2e58d0086e2429f7b8d2adb5ae9ab4ba13d98",
+      "command": "python src/north_garden/build_ch05_variable_cadence_assembly.py"
+    },
+    {
+      "label": "export cadence evidence",
+      "path": "src/north_garden/export_ch05_variable_cadence_assembly_evidence.py",
+      "sha256": "1425a8f8ed6849f16e3a827b87de18e76d5f75fa8422cea97a8f0171df43c8f7",
+      "command": "python src/north_garden/export_ch05_variable_cadence_assembly_evidence.py"
+    },
+    {
+      "label": "validate cadence evidence",
+      "path": "src/north_garden/validate_ch05_variable_cadence_assembly.py",
+      "sha256": "5d684b9709507f685844e7fa2a6123f313a22c475e1fc0767d3cb287557de965",
+      "command": "python src/north_garden/validate_ch05_variable_cadence_assembly.py"
+    },
+    {
+      "label": "build opacity rehearsal",
+      "path": "src/north_garden/build_ch05_transparent_lettering_rehearsal.py",
+      "sha256": "43a89ac52e419340029463cb3f030009de52e23d16fad9e36a8a837ce30c09e2",
+      "command": "python src/north_garden/build_ch05_transparent_lettering_rehearsal.py"
+    },
+    {
+      "label": "export opacity evidence",
+      "path": "src/north_garden/export_ch05_transparent_lettering_evidence.py",
+      "sha256": "d99efc8a37f63dcad278daf9524f901b13a76223017bffa26a18c83e9a5f7d55",
+      "command": "python src/north_garden/export_ch05_transparent_lettering_evidence.py"
+    },
+    {
+      "label": "validate opacity evidence",
+      "path": "src/north_garden/validate_ch05_transparent_lettering_rehearsal.py",
+      "sha256": "33cca9681ead88c9c272f9c3f9e423e5d9be65afdffb873cc505745d4bfc976a",
+      "command": "python src/north_garden/validate_ch05_transparent_lettering_rehearsal.py"
+    },
+    {
+      "label": "build width/copy sweep",
+      "path": "src/north_garden/build_ch05_lettering_width_copy_sensitivity.py",
+      "sha256": "ee0363c63cb40ec4c5cccfe6d719e3190e089f3c0bc3f993e93b55c98deb3ae6",
+      "command": "python src/north_garden/build_ch05_lettering_width_copy_sensitivity.py"
+    },
+    {
+      "label": "export width/copy evidence",
+      "path": "src/north_garden/export_ch05_lettering_width_copy_evidence.py",
+      "sha256": "30b99a2a920e15ebfb6bb662f5d71170608c58cf532d5802bb9a25b870938aeb",
+      "command": "python src/north_garden/export_ch05_lettering_width_copy_evidence.py"
+    },
+    {
+      "label": "validate width/copy evidence",
+      "path": "src/north_garden/validate_ch05_lettering_width_copy_sensitivity.py",
+      "sha256": "45c5a5b819378447cb7eda776c42892df025f6c5785db61c7cbadaa8afa5cb19",
+      "command": "python src/north_garden/validate_ch05_lettering_width_copy_sensitivity.py"
+    },
+    {
+      "label": "build outside-art alternatives",
+      "path": "src/north_garden/build_ch05_outside_art_lettering_band.py",
+      "sha256": "30b88f5ebed1041678a4005f9ee0aebc06faa97370496e569215c80a02ba3e43",
+      "command": "python src/north_garden/build_ch05_outside_art_lettering_band.py"
+    },
+    {
+      "label": "export outside-art evidence",
+      "path": "src/north_garden/export_ch05_outside_art_lettering_band_evidence.py",
+      "sha256": "fe57902df085981fbd37f15ed86d4fb82b4eaa39785aae5d5bee0d227d08a58b",
+      "command": "python src/north_garden/export_ch05_outside_art_lettering_band_evidence.py"
+    },
+    {
+      "label": "validate outside-art evidence",
+      "path": "src/north_garden/validate_ch05_outside_art_lettering_band.py",
+      "sha256": "125abe843e608a8bb231e07905aa91f2853d707c8cbfd9553ae56189be4f5d51",
+      "command": "python src/north_garden/validate_ch05_outside_art_lettering_band.py"
+    },
+    {
+      "label": "compile production handoff",
+      "path": "src/north_garden/compile_ch05_instrumented_production_manifest.py",
+      "sha256": "0004acdd35b718983c9b39ee0935a8993cd1a4c2694db410c1e1c8c8a3cbe006",
+      "command": "python src/north_garden/compile_ch05_instrumented_production_manifest.py"
+    },
+    {
+      "label": "validate production handoff",
+      "path": "src/north_garden/validate_ch05_instrumented_production_manifest.py",
+      "sha256": "07d00a61708a6c01fac921b3d3757c60790f24b661da305922fb9f8bfa0beb58",
+      "command": "python src/north_garden/validate_ch05_instrumented_production_manifest.py"
+    }
+  ],
+  "style_direction": {
+    "path": "production/comic/style-direction/ch05-mill-signal-r8.json",
+    "sha256": "27c99c57b5ee3ef2f89b06b9e3e4641effe3527ff4e4b92d4b0ddc87c2beebbe",
+    "record_id": "ng-comic-style-ch05-mill-signal-r8"
+  },
+  "model_license_registry": {
+    "path": "docs/research/model-license-registry.md",
+    "sha256": "156c20fba74deb820cb81f27b3512863ea15ca6842ef7e0e53729d2da5f44578",
+    "built_in_status": "FICTIONAL_FRONTIER_ART_RESEARCH_ONLY_PROVENANCE_LIMITED"
+  },
+  "authorized_reference_hashes_observed": [
+    "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+    "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+    "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+  ],
+  "summary": {
+    "selected_panel_count": 14,
+    "sequence_count": 3,
+    "distinct_comic_panel_plans": 14,
+    "distinct_styles": 4,
+    "engineering_selected_sources": 14,
+    "owner_accepted_sources": 0,
+    "commercially_cleared_sources": 0,
+    "lettering_ready_panels": 0,
+    "executable_panels": 0,
+    "accepted_sequences": 0,
+    "provider_calls_for_compilation": 0,
+    "uploads_for_compilation": 0,
+    "cost_usd_for_compilation": 0,
+    "human_review_minutes": null
+  },
+  "rows": [
+    {
+      "order": 1,
+      "sequence_id": "departure_and_clue",
+      "panel_id": "ng-ch05-sc01-p001",
+      "plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+      "plan_canonical_sha256": "f51a6ff21dc0976e400103485c9bc1775d0dbc5493ebdf201b1a94f8ac90ab44",
+      "development_panel_id": "ng-dev-ch05-p001",
+      "narrative_beat": "The pair leave the farmhouse before the damp grass dries.",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "c019",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "wide_orientation",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c019-p001-clear_line_watercolor-r1.png",
+      "source_sha256": "91f38cff7dd3f0a83f6e709ce27e3910c0531385f0b2f0b44d0ea98309185254",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_sha256": "ec7a7c57603206d379e151bce77ea69e9f13cc06069f9999847e061ef52ed6ec",
+      "input_references": [],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 33.51,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "c019",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "WARN"
+        },
+        "note": "Text-only control fixes c001's direction: the adults clearly leave the farmhouse downhill; identity is readable mainly through wardrobe at phone scale."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 1040,
+        "alignment": "center",
+        "gutter_after": 100
+      },
+      "lettering": {
+        "recommended_mode": "PENDING_FINAL_SCRIPT_NO_LETTERING_EXECUTION",
+        "reason": "Final copy, copy length, speaker semantics, and exact panel treatment are not bound.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 2,
+      "sequence_id": "departure_and_clue",
+      "panel_id": "ng-ch05-sc01-p002",
+      "plan_revision_id": "ng-ch05-sc01-p002-plan-r1",
+      "plan_canonical_sha256": "ca7639300bd18e0cd7526177341fb43cf3e2a483632291ad79e850c9fd4cd6e3",
+      "development_panel_id": "ng-dev-ch05-p002",
+      "narrative_beat": "Sigrid checks the smoke direction against the folded map.",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "c002",
+      "style_id": "cel_painted",
+      "cadence_role": "medium_orientation",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c002-p002-cel_painted-r1.png",
+      "source_sha256": "753c1a73dd04b49ec2da7a2135b04620fb1fd8a030ae908ea95c63c0b6ce7f69",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "prompt_sha256": "200bcc58cede0b23df3c315d50e74cd52e74f8306866f3181ff84f7b5a7da599",
+      "input_references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 53.128,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "c002",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Sigrid, folded map, marked direction, and distant smoke form a clear quiet orientation beat with a clean top-right field."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 760,
+        "alignment": "left",
+        "gutter_after": 80
+      },
+      "lettering": {
+        "recommended_mode": "PENDING_FINAL_SCRIPT_NO_LETTERING_EXECUTION",
+        "reason": "Final copy, copy length, speaker semantics, and exact panel treatment are not bound.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 3,
+      "sequence_id": "departure_and_clue",
+      "panel_id": "ng-ch05-sc01-p003",
+      "plan_revision_id": "ng-ch05-sc01-p003-plan-r1",
+      "plan_canonical_sha256": "88e6f42b05378fcc1e12b8fae0adae534afe9fd6830e57bdd06940ac00036132",
+      "development_panel_id": "ng-dev-ch05-p003",
+      "narrative_beat": "Soren notices that the boot prints now overlap the trail rather than lead it.",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "h002",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "small_clue_insert",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h002-p003-clear_line_watercolor-r1.png",
+      "source_sha256": "abdae79e29ce9c891a27c103d6c56002b1fd3d7a85a6eefc87d8e1e2aec8d9ce",
+      "source_dimensions": [
+        1199,
+        1312
+      ],
+      "prompt_sha256": "10818c4f488f6c27dfcc2a909998fe597db55f03400ba6b6c4a5f1ed2b86b329",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 65.024,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "h002",
+        "source_failure_class": "c003 safe-zone collision and ambiguous print geometry",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Soren remains on the right; two differently angled footprint chains cross clearly; the top-left safe zone is empty sky."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 600,
+        "alignment": "right",
+        "gutter_after": 75
+      },
+      "lettering": {
+        "recommended_mode": "PENDING_FINAL_SCRIPT_NO_LETTERING_EXECUTION",
+        "reason": "Final copy, copy length, speaker semantics, and exact panel treatment are not bound.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 4,
+      "sequence_id": "departure_and_clue",
+      "panel_id": "ng-ch05-sc01-p009",
+      "plan_revision_id": "ng-ch05-sc01-p009-plan-r1",
+      "plan_canonical_sha256": "cb8dd07adc434b272bbc875b81e86a77b650e591ad5646842b54efbf4be0c8fe",
+      "development_panel_id": "ng-dev-ch05-p009",
+      "narrative_beat": "The trail narrows under wet branches.",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "c005",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "tall_transition",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c005-p009-clear_line_watercolor-r1.png",
+      "source_sha256": "239346d94a18f822455dbd98bfc82cd1dae924a860a763468eb211924a225372",
+      "source_dimensions": [
+        941,
+        1672
+      ],
+      "prompt_sha256": "02b200803b26d9447d51ae8d450c0d808fda3638b17a20403a3e02b8c3f0b1f0",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 51.133,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "c005",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "WARN",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Best grounded trail weight shift, footfalls, wet mud, and cloth movement; overhead branches make the top-left lettering field busier than intended."
+      },
+      "selection_state": "ENGINEERING_WARN_DENSE_SAFE_ZONE_OWNER_PENDING",
+      "layout": {
+        "target_width": 720,
+        "alignment": "center",
+        "gutter_after": 190
+      },
+      "lettering": {
+        "recommended_mode": "SILENT_TRANSITION_AT_CURRENT_WIDTH",
+        "reason": "Current 720px footprint misses tested 13px type; full-width art or outside-art caption requires a plan/assembly revision.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 5,
+      "sequence_id": "bridge_to_mill",
+      "panel_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "plan_canonical_sha256": "015768ed057d7965113d7237f6c21c4f47e85886e78a1099474e903536ad1fcc",
+      "development_panel_id": "ng-dev-ch05-p019",
+      "narrative_beat": "Sigrid signals Soren to stay off the open bridge.",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "c006",
+      "style_id": "clean_graphic",
+      "cadence_role": "wide_warning_action",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c006-p019-clean_graphic-r1.png",
+      "source_sha256": "6711c1e076086c1d984353338f99b99d72b94c13e541e23debd4ed959c9296b0",
+      "source_dimensions": [
+        1692,
+        930
+      ],
+      "prompt_sha256": "98882e1fcc10fb332c4246a2f4c7c18542ec51d3a6ffb1cf80236e3df8baecdd",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 52.303,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "c006",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Stop hand, checked step, unsafe bridge, role order, and expressive faces read immediately; strong practical-action candidate."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 1040,
+        "alignment": "center",
+        "gutter_after": 80
+      },
+      "lettering": {
+        "recommended_mode": "PENDING_FINAL_SCRIPT_NO_LETTERING_EXECUTION",
+        "reason": "Final copy, copy length, speaker semantics, and exact panel treatment are not bound.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 6,
+      "sequence_id": "bridge_to_mill",
+      "panel_id": "ng-ch05-sc01-p026",
+      "plan_revision_id": "ng-ch05-sc01-p026-plan-r1",
+      "plan_canonical_sha256": "e9800859dd9c05c41a20049605e05898165ff021ee1e6da1a50b1ecf89557af9",
+      "development_panel_id": "ng-dev-ch05-p026",
+      "narrative_beat": "Sigrid tests the heat without disturbing the ember.",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "c008",
+      "style_id": "cel_painted",
+      "cadence_role": "medium_sensory_insert",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c008-p026-cel_painted-r1.png",
+      "source_sha256": "3153588f5bad4d6a5e39e5609f1ef77d71c5c60258066f93f8ffbf05d6e0792d",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "prompt_sha256": "598ffbc8fe37cb7f8b12d828d62f34ef3b3d5658624e4e921a12ea079c43d4b7",
+      "input_references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 52.068,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "c008",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Heat, hand response, tin, smoke, and Sigrid's close expression make a readable causal sensory beat with excellent continuity."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 700,
+        "alignment": "left",
+        "gutter_after": 75
+      },
+      "lettering": {
+        "recommended_mode": "PENDING_FINAL_SCRIPT_NO_LETTERING_EXECUTION",
+        "reason": "Final copy, copy length, speaker semantics, and exact panel treatment are not bound.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 7,
+      "sequence_id": "bridge_to_mill",
+      "panel_id": "ng-ch05-sc01-p029",
+      "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+      "plan_canonical_sha256": "d5ee0db8032a180e92815cb3c4b672c7f1906e31e5be10b3bd76a8e9e6d55dac",
+      "development_panel_id": "ng-dev-ch05-p029",
+      "narrative_beat": "Sigrid chooses the wall opening rather than the doorway.",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "h004",
+      "style_id": "clean_graphic",
+      "cadence_role": "wide_dual_target_reveal",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h004-p029-clean_graphic-r1.png",
+      "source_sha256": "0a815a965e50a66b32f232c60b716fc8c8b15e501ee9ae9c1ec0172c68a4bcdd",
+      "source_dimensions": [
+        1692,
+        929
+      ],
+      "prompt_sha256": "0150f26746daf634382b678ed103a0783b9cbd1d572d0c282747b14210ddbdb7",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 54.188,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "h004",
+        "source_failure_class": "c009 safe-zone collision",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Both adults are staged in the right two-thirds; mill-threshold action and Soren's smoke watch remain distinct; top-left is open sky."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 1040,
+        "alignment": "center",
+        "gutter_after": 90
+      },
+      "lettering": {
+        "recommended_mode": "PENDING_FINAL_SCRIPT_NO_LETTERING_EXECUTION",
+        "reason": "Final copy, copy length, speaker semantics, and exact panel treatment are not bound.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 8,
+      "sequence_id": "bridge_to_mill",
+      "panel_id": "ng-ch05-sc01-p035",
+      "plan_revision_id": "ng-ch05-sc01-p035-plan-r1",
+      "plan_canonical_sha256": "a788a9b7894a908500166dd1c21eaed337a2c623a2cf35b35a0174623e6df9c6",
+      "development_panel_id": "ng-dev-ch05-p035",
+      "narrative_beat": "Sigrid notices a sealed tin on an upper beam.",
+      "visible_adult_cast": [],
+      "spatial_mode": "2d_only",
+      "candidate_id": "c010",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "small_object_reveal",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c010-p035-clear_line_watercolor-r1.png",
+      "source_sha256": "2a8477c08615c4b8eab31b58ac4cd2bb137a9020817ab439369ddc1cb520ca05",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "prompt_sha256": "5516f3a06de2f68882f002c93f949e8ae14f4f331aafbda0ca822adcf3164809",
+      "input_references": [],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 20.332,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "c010",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Quiet object insert isolates the tin and beam cleanly; useful cadence relief between character-action panels."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 560,
+        "alignment": "right",
+        "gutter_after": 70
+      },
+      "lettering": {
+        "recommended_mode": "PENDING_FINAL_SCRIPT_NO_LETTERING_EXECUTION",
+        "reason": "Final copy, copy length, speaker semantics, and exact panel treatment are not bound.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 9,
+      "sequence_id": "bridge_to_mill",
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "plan_canonical_sha256": "0f1d0327863fdc5d6e8fdb589f68dc2d10cd0bfb7797b6a582687d1548594610",
+      "development_panel_id": "ng-dev-ch05-p036",
+      "narrative_beat": "Soren reaches it with a fallen plank while Sigrid braces the plank.",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "h006",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "tall_causal_anchor",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h006-p036-clear_line_watercolor-r1.png",
+      "source_sha256": "157e8a6c56a5de7da201c74ba2f2ee9e472cca51fb0dc40ab4b661e8af736607",
+      "source_dimensions": [
+        887,
+        1774
+      ],
+      "prompt_sha256": "2fbae1aae18ebbe6b6f5ecc1d57a3ee7550b7b3df6d4bd127fee85e6d2a99ae5",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        },
+        {
+          "reference_id": "p036_composition_only",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 50.741,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "h006",
+        "source_failure_class": "h005 duplicate-plank semantic failure",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Exact one-plank reach-and-brace semantics produce an unbroken floor-to-tin line with Sigrid at the lower end and Soren controlling the middle."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 700,
+        "alignment": "center",
+        "gutter_after": 190
+      },
+      "lettering": {
+        "recommended_mode": "PENDING_FINAL_SCRIPT_NO_LETTERING_EXECUTION",
+        "reason": "Final copy, copy length, speaker semantics, and exact panel treatment are not bound.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 10,
+      "sequence_id": "signal_and_return",
+      "panel_id": "ng-ch05-sc01-p040",
+      "plan_revision_id": "ng-ch05-sc01-p040-plan-r1",
+      "plan_canonical_sha256": "381e42063b6af55e6c65219a881aaf6caee8501ebb00ccbf82dd2180db667973",
+      "development_panel_id": "ng-dev-ch05-p040",
+      "narrative_beat": "Sigrid decides the smoke was a signal, not a campfire.",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "c013",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "medium_deduction",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c013-p040-clear_line_watercolor-r1.png",
+      "source_sha256": "237b8c3927173b72373ee502c1ce4785e0f3c9dad53f6fb04d3e9633d4ed1a09",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "prompt_sha256": "3457eb9b5c3d43bf53362a0955416cb17d509dafcf6b1a17728f94aaac3deb0d",
+      "input_references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 40.39,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "c013",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Sigrid's deduction, map, and signal smoke read clearly with stable face/hair and a deliberately quiet lettering field."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 760,
+        "alignment": "left",
+        "gutter_after": 75
+      },
+      "lettering": {
+        "recommended_mode": "LIGHT_OUTSIDE_ART_CAPTION_OPTION_REQUIRES_PLAN_REVISION",
+        "reason": "Deduction beat can retain 760px portrait art with 13.975px caption geometry; attributed speech remains untested.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 11,
+      "sequence_id": "signal_and_return",
+      "panel_id": "ng-ch05-sc01-p044",
+      "plan_revision_id": "ng-ch05-sc01-p044-plan-r1",
+      "plan_canonical_sha256": "102a8560f4a3a13fe8b4a3869865dae2d2d6a0875640b9693acd906a88cb9f65",
+      "development_panel_id": "ng-dev-ch05-p044",
+      "narrative_beat": "At the creek, Soren cuts the twine line with a pocket knife.",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "c014",
+      "style_id": "limited_ink_flat",
+      "cadence_role": "small_twinecraft_insert",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c014-p044-limited_ink_flat-r1.png",
+      "source_sha256": "05c1a83a89c6c0b92b3a987b96d58db8cc2d399a185f54dfded839dc980067e7",
+      "source_dimensions": [
+        978,
+        1608
+      ],
+      "prompt_sha256": "8634b1229f3221795fc4ce3ab98655a0037bd687723aa27671754ac99fcb851a",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 51.275,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "c014",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Readable adult hands, blade edge, taut wet twine, and cut point make an effective small causal insert."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 560,
+        "alignment": "right",
+        "gutter_after": 70
+      },
+      "lettering": {
+        "recommended_mode": "SILENT_OBJECT_INSERT_REQUIRED_CURRENT_PLAN",
+        "reason": "Current safe zone overlaps a person; outside-art geometry is only a non-plan demonstration.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 12,
+      "sequence_id": "signal_and_return",
+      "panel_id": "ng-ch05-sc01-p046",
+      "plan_revision_id": "ng-ch05-sc01-p046-plan-r1",
+      "plan_canonical_sha256": "41004943c1fc496b109c71122f537f3b1ba22f81520851da146de26acb52ed79",
+      "development_panel_id": "ng-dev-ch05-p046",
+      "narrative_beat": "Sigrid keeps the creek map inside her wrap rather than the notebook.",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "c015",
+      "style_id": "cel_painted",
+      "cadence_role": "medium_continuity",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c015-p046-cel_painted-r1.png",
+      "source_sha256": "8b5a0b134a9dbf9befcf8a8e1edf0ff17bcd4ec97796cfc041b118e111f7bb17",
+      "source_dimensions": [
+        1023,
+        1537
+      ],
+      "prompt_sha256": "fa4b0b32e6079f0a7e86cbfefa5587b60a9d5048f897635296bd4adbae7569d8",
+      "input_references": [
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 25.738,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "c015",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Sigrid protects the folded evidence against the wrap; a calm continuity beat with clear expression and safe negative space."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 740,
+        "alignment": "left",
+        "gutter_after": 80
+      },
+      "lettering": {
+        "recommended_mode": "PENDING_FINAL_SCRIPT_NO_LETTERING_EXECUTION",
+        "reason": "Final copy, copy length, speaker semantics, and exact panel treatment are not bound.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 13,
+      "sequence_id": "signal_and_return",
+      "panel_id": "ng-ch05-sc01-p049",
+      "plan_revision_id": "ng-ch05-sc01-p049-plan-r1",
+      "plan_canonical_sha256": "32c68a859907d5e5174d94319cd8d8e935b6804777039c7736f88a4620be027e",
+      "development_panel_id": "ng-dev-ch05-p049",
+      "narrative_beat": "Soren realizes they did not light the stove before leaving.",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "c016",
+      "style_id": "clean_graphic",
+      "cadence_role": "medium_target_change",
+      "source_path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c016-p049-clean_graphic-r1.png",
+      "source_sha256": "b1e40685fe4a37e4ae475c4da60964a1036a164280a54c85b97f06e0c278acf8",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "prompt_sha256": "eef281c958bc9b5d344c249d9c3dbfad59c0094c24aedfcad825b150c064d59d",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 50.624,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "c016",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Soren, map, uphill house, and alert turn make the target-change beat readable while retaining the oatmeal-coat silhouette."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 780,
+        "alignment": "right",
+        "gutter_after": 100
+      },
+      "lettering": {
+        "recommended_mode": "PENDING_FINAL_SCRIPT_NO_LETTERING_EXECUTION",
+        "reason": "Final copy, copy length, speaker semantics, and exact panel treatment are not bound.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    },
+    {
+      "order": 14,
+      "sequence_id": "signal_and_return",
+      "panel_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "plan_canonical_sha256": "ec252a2c415f8cf404b70817b56ac2dcca664db07165c273d326bcfe6299cd49",
+      "development_panel_id": "ng-dev-ch05-p050",
+      "narrative_beat": "Sigrid breaks into a run toward the house; Soren follows with the map.",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "spatial_mode": "2d_only",
+      "candidate_id": "h001",
+      "style_id": "cel_painted",
+      "cadence_role": "wide_urgent_return_hero",
+      "source_path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png",
+      "source_sha256": "7c63481cae9686d439867ba5a3e7e66024715b5ba07687068785fbc31d32f737",
+      "source_dimensions": [
+        1695,
+        928
+      ],
+      "prompt_sha256": "d4247db0093b717943accae45d89e0540df379043945f274fc9a2863e52b18bc",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\review-packets\\ch05-style-density-scale-exploration-r1\\P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "generation": {
+        "tool_mode": "OpenAI built-in ImageGen in Codex",
+        "elapsed_seconds": 51.677,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null
+      },
+      "engineering_review": {
+        "candidate_id": "h001",
+        "source_failure_class": "missing cel-painted wide-action coverage",
+        "results": {
+          "cast_count": "PASS",
+          "role_identity_and_order": "PASS",
+          "hair_and_wardrobe_continuity": "PASS",
+          "causal_action_or_story_object": "PASS",
+          "lettering_safe_zone": "PASS",
+          "phone_size_readability": "PASS"
+        },
+        "note": "Cel-painted finish generalizes to P050: correct uphill destination, role order, map, mud/cloth motion, mature faces, and open top-right sky."
+      },
+      "selection_state": "ENGINEERING_PASS_OWNER_PENDING",
+      "layout": {
+        "target_width": 1040,
+        "alignment": "center",
+        "gutter_after": 80
+      },
+      "lettering": {
+        "recommended_mode": "WIDE_LETTERED_ANCHOR_OPTION_REQUIRES_WIDTH_AND_FINAL_COPY",
+        "reason": "One tested line needs 1120px and two need 1200px; current assembly width is 1040px.",
+        "final_copy": null,
+        "speaker_binding": null,
+        "tail_geometry": null,
+        "phone_type_validated_for_final_copy": false
+      },
+      "gates": {
+        "owner_candidate_acceptance": false,
+        "commercial_clearance": false,
+        "generation_reproducible": false,
+        "final_copy_bound": false,
+        "lettering_plan_validated": false,
+        "sequence_acceptance": false,
+        "production_base_eligible": false,
+        "executable": false
+      }
+    }
+  ],
+  "row_root_sha256": "19c7cbf6b9ec1facc87f19ab4b67e328f28b2b1e76c1d97fbbce079edb09c9b3",
+  "owner_decisions_required": [
+    "Accept/reject/reroll each exact selected candidate; engineering selection is not owner acceptance.",
+    "Accept/revise the variable width/alignment/gutter cadence and mixed finish-density rhythm.",
+    "Bind final CH05 copy and choose balloon, caption, direct-text, or silent semantics in ComicPanelPlan revisions where needed.",
+    "Resolve production/commercial eligibility for the provenance-limited built-in outputs before exact-base promotion.",
+    "Record review minutes and sequence-level acceptance decisions."
+  ],
+  "next_high_information_step": "Build a deterministic local reviewer index over every packet and strongest candidate, then collect exact owner decisions before any production-plan promotion.",
+  "boundaries": [
+    "All 14 rows are nonexecutable because owner acceptance, commercial clearance, final copy, and lettering-plan validation are absent.",
+    "No generated pixel is tracked; source art and derived review artifacts remain ignored.",
+    "Compilation performs no provider call, upload, budget reservation, purchase, model download, or external action.",
+    "ComicPanelPlan is the only active production-planning structure; AnimationShotPlan and E-Conte remain null.",
+    "Frozen v2.1.1 and baseline_legacy are outside this compiler and must remain unchanged."
+  ]
+}

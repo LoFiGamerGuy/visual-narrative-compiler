@@ -962,3 +962,11 @@
 - Both treatments render 13.975px phone type, change zero source pixels, and add 480px/3.295% to the full scroll; two consecutive builds preserve the same five-artifact packet.
 - Visual review favors the light band for panel association; dark direct text is quieter but less clearly grouped. Neither treatment supplies a speech tail or speaker binding.
 - ADR-0092 and ComicStyleDirection r8 carry the light band only as plan-level caption/deduction geometry. Twelve/twelve mutations fail; no plan/assembly revision, provider call, upload, or cost occurs.
+
+## 2026-09-01 - CH05 instrumented production handoff and owner index r1
+
+- Compiled 14 selected rows with exact plan snapshots, prompts, three authorized reference hashes, source hashes, unavailable provider metadata, engineering reviews, cadence/layout, and explicit lettering/gate state.
+- Consecutive compiles preserve manifest hash `87d4af27…f6f7` and row root `19c7cbf6…c9b3`; 15/15 denominator/promotion/lettering/planning mutations fail.
+- All 14 rows remain owner-unaccepted, commercially uncleared, lettering-unready, generation-nonreproducible, and nonexecutable.
+- Built a local HTML index over 29 candidates, 14 selections, 12 review artifacts, and three non-canon concepts. Forty-two index/thumbnail artifacts build deterministically to root `8fdb0a10…8a02`; every HTML link/hash validates and 12/12 mutations fail.
+- ADR-0093 establishes review-ready/nonexecutable as the correct handoff state. No pixels are tracked or published; calls/uploads/cost are 0/0/$0.

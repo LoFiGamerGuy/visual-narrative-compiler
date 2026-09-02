@@ -1,0 +1,941 @@
+{
+  "record_type": "CH05CompletionReadinessAudit",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-completion-readiness-audit-r1",
+  "state": "PASS_HANDOFF_COMPLETE_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "production/comic/review/ch05-review-artifact-link-manifest-r7.json",
+      "sha256": "2fec50978b1013c427d00cedf7ee9165f67aaafad9e2b8c8e153ecca6d279244"
+    },
+    {
+      "path": "production/comic/handoff/ch05-overnight-closeout-bundle-r3.json",
+      "sha256": "aaea7393e9e39ebb748aa096ad8bd28e0c7bc47b0bcda501affb586d17c07c66"
+    },
+    {
+      "path": "docs/research/evidence/ch05-final-review-reproducer-matrix-r3.json",
+      "sha256": "3cda60dcc12ab21cad07a78e2285c881b2e3a13f380c5ce31ca33b51264467b4"
+    },
+    {
+      "path": "docs/research/evidence/ch05-post-reproducer-safe-source-parity-r5.json",
+      "sha256": "b4d0156acd586a0f86decb1095c176c59fbee04f9ca24cb3e790c66463bf5887"
+    },
+    {
+      "path": "production/comic/review/ch05-strongest-candidate-disposition-worksheet-r1.json",
+      "sha256": "dbc1ba8ad9b4416e9b49293d9e8248ce8383a60b2c90120559eb9a6100d4b8ae"
+    },
+    {
+      "path": "production/comic/handoff/ch05-final-review-session-starter-r1.json",
+      "sha256": "7fe9753bf44c9c1be3f16c95c96fcef2e692f8b1316e06b204bb0bf77b916652"
+    },
+    {
+      "path": "docs/research/evidence/ch05-final-model-license-provenance-audit-r1.json",
+      "sha256": "109cd90610a6517c748367e30c7a73814d632a1e2cfff9ce923fc73793db4018"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r29.json",
+      "sha256": "e367b4319dde85fc7bc8d2be89c3d3bde267aad36bfc83129250fe7a0373fe71"
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "owner_review_hub",
+      "path": "experiments/review-packets/ch05-owner-review-index-r9/index.html",
+      "sha256": "41f1c0c3489f845b6ee2e955c8889fbbca8177a036df6b7b34f48d581c6afc43",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-owner-review-index-r9/index.html"
+    },
+    {
+      "id": "all_exact_review_links",
+      "path": "docs/research/ch05-review-links-r7.md",
+      "sha256": "18635599fa5cceb12ab0b4eb8f760a345c60c406d39fc57951587e7d9455290a",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-review-links-r7.md"
+    },
+    {
+      "id": "final_closeout",
+      "path": "docs/research/ch05-overnight-closeout-r3.md",
+      "sha256": "37df9296c350de6cdb12396c37c8225345f432891b0dfad9f5787fb34a80ab5c",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-overnight-closeout-r3.md"
+    },
+    {
+      "id": "candidate_disposition_guide",
+      "path": "docs/research/ch05-strongest-candidate-disposition-guide-r1.md",
+      "sha256": "7a941d90127de9cfe3a5dac2bd22affa1e4b7a3a05403258869454b8ea865d30",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-strongest-candidate-disposition-guide-r1.md"
+    },
+    {
+      "id": "review_session_starter",
+      "path": "docs/research/ch05-final-review-session-starter-r1.md",
+      "sha256": "72f3703f98b3106ec96086a5a4e2a0c979d91708ff8572b05c330e7b61bd6e7e",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-final-review-session-starter-r1.md"
+    },
+    {
+      "id": "response_guide",
+      "path": "docs/research/ch05-owner-response-guide-r1.md",
+      "sha256": "cc0c7a02af8568f325a2e2bc1cff9cef6687c3e2b5c52198440186a0247d34df",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-owner-response-guide-r1.md"
+    },
+    {
+      "id": "handoff_consistency",
+      "path": "docs/research/ch05-final-handoff-consistency-matrix-r1.md",
+      "sha256": "77ec9c009fe0cd0f312b4647d8cebd4296e0d9792e1a08a3932483f1e0b84219",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-final-handoff-consistency-matrix-r1.md"
+    },
+    {
+      "id": "final_reproducer",
+      "path": "docs/research/evidence/ch05-final-review-reproducer-matrix-r3.json",
+      "sha256": "3cda60dcc12ab21cad07a78e2285c881b2e3a13f380c5ce31ca33b51264467b4",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/evidence/ch05-final-review-reproducer-matrix-r3.json"
+    },
+    {
+      "id": "safe_source",
+      "path": "docs/research/evidence/ch05-post-reproducer-safe-source-parity-r5.json",
+      "sha256": "b4d0156acd586a0f86decb1095c176c59fbee04f9ca24cb3e790c66463bf5887",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/evidence/ch05-post-reproducer-safe-source-parity-r5.json"
+    },
+    {
+      "id": "model_license_provenance",
+      "path": "docs/research/ch05-final-model-license-provenance-audit-r1.md",
+      "sha256": "347e5cc3927e58e2e08400d43feb34fe35c5d73d0f3182ecd8a30e946a34118f",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-final-model-license-provenance-audit-r1.md"
+    },
+    {
+      "id": "changed_files",
+      "path": "docs/research/ch05-overnight-final-changed-files-r3.md",
+      "sha256": "42926627761dce37a3058dd47ba7d3a156d7cf9a430b35acefda2a695709db07",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-overnight-final-changed-files-r3.md"
+    },
+    {
+      "id": "cost_ledger",
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r29.json",
+      "sha256": "e367b4319dde85fc7bc8d2be89c3d3bde267aad36bfc83129250fe7a0373fe71",
+      "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/evidence/ch05-production-cost-ledger-r29.json"
+    }
+  ],
+  "summary": {
+    "deliverables": 12,
+    "review_links": 134,
+    "direct_links": 67,
+    "contact_sheets": 10,
+    "sequence_packets": 9,
+    "lettering_overlays": 34,
+    "strongest_candidates": 14,
+    "candidates": 29,
+    "ch05_candidates": 26,
+    "noncanon_concepts": 3,
+    "represented_plans": 14,
+    "chapter_plans": 50,
+    "batches": 12,
+    "generated_sequences": 3,
+    "selected_candidates": 14,
+    "dimension_sets": 12,
+    "observed_generation_seconds": 1385.036,
+    "ch05_generation_seconds": 1230.058,
+    "reference_uses": 39,
+    "engineering_recommendations": 4,
+    "limitations": 15,
+    "remaining_decisions": 10,
+    "pilot_roots": 6,
+    "deferred_decisions": 4,
+    "worksheet_checks": 112,
+    "reproducer_domains": 10,
+    "safe_paths": 971,
+    "zero_cost_milestones": 82,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0,
+    "owner_inputs": 0,
+    "owner_decisions_ingested": 0,
+    "visual_dispositions": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "human_review_minutes": null
+  },
+  "direct_review_links": {
+    "contact_sheets": [
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/contact-sheet-hardening-candidates.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/review/contact-sheet-hardening-candidates.png",
+        "sha256": "6a3f416d61a32028fc34bd151b13e51bf2336fadb21218f58be8a657a8560a40",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/contact-sheet-hardening-lettering-overlays.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/review/contact-sheet-hardening-lettering-overlays.png",
+        "sha256": "9e348cc519cbc5f4f3f870387afe3f420ac8cebd5d8258139065572485881b49",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/contact-sheet-hardening-phone-previews.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/review/contact-sheet-hardening-phone-previews.png",
+        "sha256": "098ce1e10558f82cf498a62401c4418a73d7c3e27b82b9d446c9fe2a0d689e38",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-mill-signal-imagegen-smoke-r1/contact-sheet-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-mill-signal-imagegen-smoke-r1/contact-sheet-r1.png",
+        "sha256": "47ba7967cf5b43d4fd20ddb73b9314993947a5f5ba075b921b5a031ee7f6035f",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/contact-sheet-all-candidates.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/contact-sheet-all-candidates.png",
+        "sha256": "5968e7b3ac291ffb6d9cce2ca679ca3a9e139734caa9e846d2edb9d09c453d14",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/contact-sheet-lettering-overlays.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/contact-sheet-lettering-overlays.png",
+        "sha256": "0c0dc3989ed3392cdfd9d03e0b575b235c1353957a2507a41dc8e52769339b26",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/contact-sheet-phone-previews.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/contact-sheet-phone-previews.png",
+        "sha256": "9d6a3b9ee4a1640caf2e4816c72cd7574d66b36133c378888e69d5bb9236a54b",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/contact-sheet-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-style-density-scale-exploration-r1/contact-sheet-r1.png",
+        "sha256": "3295256be9e4218815e9734e55040250bfe362715472111dc0f10c0b6237bebd",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/review/contact-sheet-future-litrpg-concepts.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/future-litrpg-visual-concepts-r1/review/contact-sheet-future-litrpg-concepts.png",
+        "sha256": "2f858c7f9a16300b7259fb94bb6e6dd1ce6c23f69804c8e2b08262e0b0c80f9a",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/review/contact-sheet-future-litrpg-phone-previews.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/future-litrpg-visual-concepts-r1/review/contact-sheet-future-litrpg-phone-previews.png",
+        "sha256": "4eb55192b2baa27a7ac29ffd345a911bda47cd83a9df50057825a13ef3b9f15d",
+        "git_state": "IGNORED_LOCAL"
+      }
+    ],
+    "sequence_packets": [
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/sequence-bridge_to_mill.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/sequence-bridge_to_mill.png",
+        "sha256": "16dcbc7873ddc17dee285f28baf8f7db732be4732b3181fe07d51b64daab35fc",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/sequence-departure_and_clue.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/sequence-departure_and_clue.png",
+        "sha256": "6e2485f722fa1fa2ca281fcbad6239c923e5f1e2f12e436ca17cf3c5ca1269ed",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/sequence-signal_and_return.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/sequence-signal_and_return.png",
+        "sha256": "897b5891603159f7b4ec51e8918e3c93e8df3d2b6e6d26457cd31b290db8feb4",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/ch05-variable-cadence-phone-scroll-390px-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-variable-cadence-assembly-r1/ch05-variable-cadence-phone-scroll-390px-r1.png",
+        "sha256": "83b72fe5bdc4d6255b3aaa7bd87ac8eb210c6ca99f103a8f7a52df5899a2940f",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/ch05-variable-cadence-scroll-clean-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-variable-cadence-assembly-r1/ch05-variable-cadence-scroll-clean-r1.png",
+        "sha256": "ee61c62e33f5b6f55463c8defb3d67c12125bbfa4c00e938f88023ac82897017",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/ch05-variable-cadence-scroll-safe-zones-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-variable-cadence-assembly-r1/ch05-variable-cadence-scroll-safe-zones-r1.png",
+        "sha256": "81815588eec81dc0785e82c2f29926f9831b22f71aae2ca69aad9596a53394d4",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/sequence-selected-bridge_to_mill.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-variable-cadence-assembly-r1/sequence-selected-bridge_to_mill.png",
+        "sha256": "7276c49077af7891ad2a6e9fbf27115dc9e85fcb559f0da5255d53908fe670a3",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/sequence-selected-departure_and_clue.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-variable-cadence-assembly-r1/sequence-selected-departure_and_clue.png",
+        "sha256": "d8c519220c45b57251ee58dd6f46c5da98a8c27400d3f69cf3afe996c6ce078b",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-variable-cadence-assembly-r1/sequence-selected-signal_and_return.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-variable-cadence-assembly-r1/sequence-selected-signal_and_return.png",
+        "sha256": "3154bc4efa923219858193a0bb864d5b95222e7a31da41d632e318b537324e30",
+        "git_state": "IGNORED_LOCAL"
+      }
+    ],
+    "lettering_overlays": [
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h001-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h001-lettering-overlay.png",
+        "sha256": "15e6491724a39b3e089ae85c13e6add61c5053eade561c77c0da6ff3382850cd",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h002-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h002-lettering-overlay.png",
+        "sha256": "fe92cf8b05657322e5f92ae83ae959c3c3a71c0fae386d31865e254d4ccdb3ae",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h003-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h003-lettering-overlay.png",
+        "sha256": "50ac49c7ffaa6140dc2fdcd9a47377e304de81e0cc15dac1ab201dac33cd0a31",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h004-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h004-lettering-overlay.png",
+        "sha256": "10c13d89547e72dee53a35ac911ed8862049612f290b126bbf6512429e9d6f88",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h005-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h005-lettering-overlay.png",
+        "sha256": "1fc76358bffd455c48c7fe824002ffd7b23a30917cc63ce387abd9b921f9f9d7",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h006-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/review/lettering-overlays/h006-lettering-overlay.png",
+        "sha256": "e46dd35d7223109137d80e8ef18e562829a2fcf9297c674852a8b11e46cc6646",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-lettering-width-copy-sensitivity-r1/ch05-lettering-width-copy-sensitivity-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-lettering-width-copy-sensitivity-r1/ch05-lettering-width-copy-sensitivity-r1.png",
+        "sha256": "7cc71737eff0fa8fda320f2961cc73c36986d924cde5623e1388db39c84a3879",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-mill-signal-imagegen-smoke-r1/lettering-balloon-overlay-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-mill-signal-imagegen-smoke-r1/lettering-balloon-overlay-r1.png",
+        "sha256": "8b02d013039b5d6855374077d808add66f0c6553d478129894ffa12cd29427a7",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-mill-signal-imagegen-smoke-r1/lettering-direct_text-overlay-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-mill-signal-imagegen-smoke-r1/lettering-direct_text-overlay-r1.png",
+        "sha256": "a5ebbd1f8c9fc61d23c43d683931aa1d07356a9f7da78b3af5de1a808a6971b0",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-mill-signal-imagegen-smoke-r1/lettering-safe-zone-overlay-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-mill-signal-imagegen-smoke-r1/lettering-safe-zone-overlay-r1.png",
+        "sha256": "bc8d68e4d0fa988bfe740d5860d7d537ac75fbba05d5595c73965d894d9dfd23",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-outside-art-lettering-band-r1/ch05-outside-art-lettering-band-comparison-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-outside-art-lettering-band-r1/ch05-outside-art-lettering-band-comparison-r1.png",
+        "sha256": "04f6de14cab38ba188d69615e60ee39132a33bb8ec3674d78567b9c85f4572d9",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c001-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c001-lettering-overlay.png",
+        "sha256": "9689edab16a3604b4d2ab8f2086107cb03a559aa461db3ae9b08354a6f7756b9",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c002-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c002-lettering-overlay.png",
+        "sha256": "15ffafa5ae526b14e6ba5eb4fa3d1d50602a0caefb9f7439c942b4b9d0a707d5",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c003-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c003-lettering-overlay.png",
+        "sha256": "989f84cf6016767cbe57ddc4bfaa7edf0c11220811a6957ec864049ef3af4f1b",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c004-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c004-lettering-overlay.png",
+        "sha256": "f4d8f50d0b983f4858e82ac971317cb6fe253a63e210cb4df96332e8a2a127d2",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c005-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c005-lettering-overlay.png",
+        "sha256": "b3fa34f32bab14fc155319949e3d7a6131c73a15b320182271c41c080d2c5737",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c006-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c006-lettering-overlay.png",
+        "sha256": "82d7a3abf4f8640558f08b872dd1403ba1bf6ae440ca1163e13c22a2efff7157",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c007-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c007-lettering-overlay.png",
+        "sha256": "65f5b758aac14179e55e7a29f21965ced51539081fd5eced3218083b0aecc8ea",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c008-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c008-lettering-overlay.png",
+        "sha256": "530510c017aa8731b4b930c246ae7fc401ba702eea4b10f8c001e863e8b1c003",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c009-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c009-lettering-overlay.png",
+        "sha256": "fcbf1acb80ccdefba60353f4a6dd145a753f644af1cf859961e7361a3ebe3c60",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c010-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c010-lettering-overlay.png",
+        "sha256": "14cdb6b8b0c78a3bbaafd385b20086ded8d3d01ee2facc6845e15a0ebfb4e9c8",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c011-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c011-lettering-overlay.png",
+        "sha256": "36c4298fe358f1db2ade83b548fde810271ad765744dcbb9d5afabad218bb13c",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c012-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c012-lettering-overlay.png",
+        "sha256": "6d0b0a9d3c54008549c76514ccdae7dc126a1df4783e74982046b04aea762aa9",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c013-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c013-lettering-overlay.png",
+        "sha256": "25bf5d1f9fd3ef6231e69ac383851675b6ab91ffee0a207173405133deafcfa4",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c014-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c014-lettering-overlay.png",
+        "sha256": "04bb29ce15267960229f7b5809f7eb57f37a57d953c93e458cb55c923134e529",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c015-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c015-lettering-overlay.png",
+        "sha256": "66b7bacc9f359c3b1ee06da9c797c7cb64dff3441601d42ece0587f46ac52650",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c016-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c016-lettering-overlay.png",
+        "sha256": "e33d616af63c1df4e2b86b620bbf4ca31936b0b79ec3f3b58edac85dbd56548c",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c017-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c017-lettering-overlay.png",
+        "sha256": "ca6892091c317ccfb533425c261b5275c75b02d52490ed2107995c8f52294786",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c018-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c018-lettering-overlay.png",
+        "sha256": "a8479d529bf9d2ce9114a8fe6af11bb1a746b079440ceaa4ab318eed8be41daf",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c019-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c019-lettering-overlay.png",
+        "sha256": "71e07fcdedaeaae53eea81bbafa0a23e94dce0f7bdb36fe0f2173b24e3aceaa2",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c020-lettering-overlay.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/review/lettering-overlays/c020-lettering-overlay.png",
+        "sha256": "177257a1a939d1d89e20a3664e79dd4eb10aa38b3202523b209c540bb3db8c74",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-p036-repair-readiness-r1/ch05-p036-lettering-target-conflict-overlay-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-p036-repair-readiness-r1/ch05-p036-lettering-target-conflict-overlay-r1.png",
+        "sha256": "e12b61b39b6383df4f887ee2a90b0ca004c90bc83841eee898b114536bcb0456",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/lettering-clearance-overlay-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-style-density-scale-exploration-r1/lettering-clearance-overlay-r1.png",
+        "sha256": "e03e9c0d71bdff1dd079a67d521727f7b0175cd5bdfde3ba24b773af2ca38e02",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/ch05-transparent-lettering-phone-comparison-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/ch05-transparent-lettering-phone-comparison-r1.png",
+        "sha256": "97716fd4f91f618a771be821dfdd6770b9e57cb9b4db9ad72a37b5622677050f",
+        "git_state": "IGNORED_LOCAL"
+      }
+    ],
+    "strongest_candidates": [
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/candidates/h001-p050-cel_painted-r1.png",
+        "sha256": "7c63481cae9686d439867ba5a3e7e66024715b5ba07687068785fbc31d32f737",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h002-p003-clear_line_watercolor-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/candidates/h002-p003-clear_line_watercolor-r1.png",
+        "sha256": "abdae79e29ce9c891a27c103d6c56002b1fd3d7a85a6eefc87d8e1e2aec8d9ce",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h004-p029-clean_graphic-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/candidates/h004-p029-clean_graphic-r1.png",
+        "sha256": "0a815a965e50a66b32f232c60b716fc8c8b15e501ee9ae9c1ec0172c68a4bcdd",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-cadence-hardening-r1/candidates/h006-p036-clear_line_watercolor-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-cadence-hardening-r1/candidates/h006-p036-clear_line_watercolor-r1.png",
+        "sha256": "157e8a6c56a5de7da201c74ba2f2ee9e472cca51fb0dc40ab4b661e8af736607",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c002-p002-cel_painted-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/candidates/c002-p002-cel_painted-r1.png",
+        "sha256": "753c1a73dd04b49ec2da7a2135b04620fb1fd8a030ae908ea95c63c0b6ce7f69",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c005-p009-clear_line_watercolor-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/candidates/c005-p009-clear_line_watercolor-r1.png",
+        "sha256": "239346d94a18f822455dbd98bfc82cd1dae924a860a763468eb211924a225372",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c006-p019-clean_graphic-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/candidates/c006-p019-clean_graphic-r1.png",
+        "sha256": "6711c1e076086c1d984353338f99b99d72b94c13e541e23debd4ed959c9296b0",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c008-p026-cel_painted-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/candidates/c008-p026-cel_painted-r1.png",
+        "sha256": "3153588f5bad4d6a5e39e5609f1ef77d71c5c60258066f93f8ffbf05d6e0792d",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c010-p035-clear_line_watercolor-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/candidates/c010-p035-clear_line_watercolor-r1.png",
+        "sha256": "2a8477c08615c4b8eab31b58ac4cd2bb137a9020817ab439369ddc1cb520ca05",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c013-p040-clear_line_watercolor-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/candidates/c013-p040-clear_line_watercolor-r1.png",
+        "sha256": "237b8c3927173b72373ee502c1ce4785e0f3c9dad53f6fb04d3e9633d4ed1a09",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c014-p044-limited_ink_flat-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/candidates/c014-p044-limited_ink_flat-r1.png",
+        "sha256": "05c1a83a89c6c0b92b3a987b96d58db8cc2d399a185f54dfded839dc980067e7",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c015-p046-cel_painted-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/candidates/c015-p046-cel_painted-r1.png",
+        "sha256": "8b5a0b134a9dbf9befcf8a8e1edf0ff17bcd4ec97796cfc041b118e111f7bb17",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c016-p049-clean_graphic-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/candidates/c016-p049-clean_graphic-r1.png",
+        "sha256": "b1e40685fe4a37e4ae475c4da60964a1036a164280a54c85b97f06e0c278acf8",
+        "git_state": "IGNORED_LOCAL"
+      },
+      {
+        "path": "experiments/review-packets/ch05-overnight-production-r1/candidates/c019-p001-clear_line_watercolor-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-overnight-production-r1/candidates/c019-p001-clear_line_watercolor-r1.png",
+        "sha256": "91f38cff7dd3f0a83f6e709ce27e3910c0531385f0b2f0b44d0ea98309185254",
+        "git_state": "IGNORED_LOCAL"
+      }
+    ]
+  },
+  "ranked_engineering_recommendations": [
+    {
+      "priority": 1,
+      "mechanism": "cel_painted",
+      "roles": [
+        "character emotion",
+        "deduction",
+        "sensory reaction",
+        "selected wide hero action"
+      ],
+      "evidence": "5/6 exact all-dimension passes; h001 closes wide-action coverage; strongest observed role continuity with one retained causal failure."
+    },
+    {
+      "priority": 2,
+      "mechanism": "clear_line_watercolor",
+      "roles": [
+        "causal action",
+        "trail movement",
+        "object interaction",
+        "transition",
+        "composition repair"
+      ],
+      "evidence": "5/8 exact all-dimension passes plus two warnings; successful literal safe-zone and single-plank corrections; more task coverage than other arms."
+    },
+    {
+      "priority": 3,
+      "mechanism": "clean_graphic",
+      "roles": [
+        "selected wide blocking",
+        "reveal",
+        "text-only composition control"
+      ],
+      "evidence": "3/6 exact all-dimension passes; useful staging controls but three failures prevent uniform adoption."
+    },
+    {
+      "priority": 4,
+      "mechanism": "limited_ink_flat",
+      "roles": [
+        "silent object insert",
+        "quiet sensory punctuation only after exact density check"
+      ],
+      "evidence": "4/6 exact all-dimension passes, but c014 edge occupancy 0.275889 proves the label does not guarantee lower density."
+    }
+  ],
+  "measured_failures": {
+    "pass": 17,
+    "warn": 3,
+    "fail": 6
+  },
+  "dimension_sets": [
+    [
+      887,
+      1774
+    ],
+    [
+      917,
+      1715
+    ],
+    [
+      941,
+      1672
+    ],
+    [
+      978,
+      1608
+    ],
+    [
+      1023,
+      1537
+    ],
+    [
+      1024,
+      1536
+    ],
+    [
+      1199,
+      1312
+    ],
+    [
+      1536,
+      1024
+    ],
+    [
+      1692,
+      929
+    ],
+    [
+      1692,
+      930
+    ],
+    [
+      1693,
+      929
+    ],
+    [
+      1695,
+      928
+    ]
+  ],
+  "service_metadata_unavailable": {
+    "model": 29,
+    "endpoint": 29,
+    "request_id": 29,
+    "usage": 29,
+    "monetary_cost": 29,
+    "seed": 29
+  },
+  "limitations": [
+    "All 29 candidates remain unaccepted and commercially uncleared; shortlist membership is engineering triage only.",
+    "Built-in model, endpoint, request ID, provider usage, monetary cost, and seed are unavailable for every candidate.",
+    "Generation reproducibility is unproven and no deterministic seed is available.",
+    "Style/task samples are unbalanced, so run-specific pass rates do not estimate general provider quality.",
+    "Hair, wardrobe, role order, hands, causality, density, and lettering clearance still require human visual review.",
+    "Human review minutes remain null because prior review was not captured through the timer contract.",
+    "Final copy, fonts, tails, localization, accessibility, lettering acceptance, and commercial rights remain open.",
+    "The three non-canon LitRPG concepts do not revise CH05 canon, wardrobe, equipment, class, weapons, or monsters.",
+    "The 49/68-candidate capacity figures are measured generation-only planning envelopes, not schedules or commitments.",
+    "Absolute review links are valid only for the recorded C:/AgentWorkspaces/anime-pipeline workspace root.",
+    "Safe-source r2 captures pushed commit 479f7ca; subsequent append-only evidence commits are validated by current tracked scope and remote lineage but are not inside that historical inventory.",
+    "The 18\u201330 autonomous candidate target was met at 29; no additional art was generated merely to increase volume after the measured body was sufficient.",
+    "Closeout r2 is append-only evidence compiled after safe-source r3; the r3 capture is an ancestor rather than a self-referential inventory of this record.",
+    "Closeout r3 is append-only evidence compiled after safe-source r4; the r4 capture is an ancestor rather than a self-referential inventory of this record.",
+    "Owner response and live timer files remain absent; release readiness does not imply ingestion or production authority."
+  ],
+  "remaining_decisions": {
+    "count": 10,
+    "pilot_roots": 6,
+    "deferred": 4,
+    "resolved": 0,
+    "response_files": 0,
+    "event_logs": 0,
+    "rows": [
+      {
+        "order": 1,
+        "decision_id": "route_role_aware_hybrid",
+        "class": "ROUTE",
+        "pilot_unlock_required": true,
+        "question": "Confirm the role-aware cel/clear-line/simplified-insert route versus requesting one uniform finish.",
+        "engineering_default": "CONFIRM_ROLE_AWARE_ROUTE",
+        "development_recommendation": "CONFIRM_ROLE_AWARE_ROUTE",
+        "evidence": {
+          "path": "experiments/review-packets/ch05-continuity-style-density-r1/style-engineering-results-r1.png",
+          "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-continuity-style-density-r1/style-engineering-results-r1.png",
+          "sha256": "ab130df9addde97cfae74e9c9b79afcbfe02d57acc5d24c9597f7532c68a045f"
+        },
+        "risk": "Role-aware finishes can create visible style jumps if density and palette are not sequence-gated.",
+        "consequence": "Unlocks prompt compilation only after candidate and reference choices are separately resolved.",
+        "allowed_pilot_values": [
+          "CONFIRM_ROLE_AWARE_ROUTE",
+          "REQUEST_UNIFORM_FINISH_COMPARISON"
+        ],
+        "owner_decision": null,
+        "reviewer": null,
+        "human_review_minutes": null,
+        "resolved": false
+      },
+      {
+        "order": 2,
+        "decision_id": "c005_transition_density",
+        "class": "DENSITY",
+        "pilot_unlock_required": true,
+        "question": "Keep c005's foliage density or request one exact density reduction.",
+        "engineering_default": "REQUEST_EXACT_DENSITY_REDUCTION",
+        "development_recommendation": "REQUEST_EXACT_DENSITY_REDUCTION",
+        "evidence": {
+          "path": "experiments/review-packets/ch05-continuity-style-density-r1/selected-phone-density-montage-r1.png",
+          "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-continuity-style-density-r1/selected-phone-density-montage-r1.png",
+          "sha256": "4d701bcc8aae5bed8a1e61f238cc25f73a000c009156e5f8ed3e5ed5bb40fdb0"
+        },
+        "risk": "Current foliage density competes with the trail clue at phone size.",
+        "consequence": "Targets only c005; no broad transition reroll.",
+        "allowed_pilot_values": [
+          "REQUEST_EXACT_DENSITY_REDUCTION",
+          "KEEP_CURRENT_DENSITY"
+        ],
+        "owner_decision": null,
+        "reviewer": null,
+        "human_review_minutes": null,
+        "resolved": false
+      },
+      {
+        "order": 3,
+        "decision_id": "c014_action_punctuation",
+        "class": "DENSITY",
+        "pilot_unlock_required": true,
+        "question": "Treat c014\u2192c015's 5.6517 appearance jump as intentional action punctuation or unify its finish.",
+        "engineering_default": "KEEP_AS_ACTION_PUNCTUATION",
+        "development_recommendation": "KEEP_AS_ACTION_PUNCTUATION",
+        "evidence": {
+          "path": "experiments/review-packets/ch05-continuity-style-density-r1/sequence-appearance-jumps-r1.png",
+          "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-continuity-style-density-r1/sequence-appearance-jumps-r1.png",
+          "sha256": "43d457cbcd816b899863b040549255fc803439677d2a3ccb365e96095d0caae7"
+        },
+        "risk": "Keeping the pulse preserves energy but accepts the largest measured adjacent appearance jump.",
+        "consequence": "Determines whether c014 remains in cadence or receives one finish-density repair.",
+        "allowed_pilot_values": [
+          "KEEP_AS_ACTION_PUNCTUATION",
+          "REQUEST_FINISH_DENSITY_REPAIR"
+        ],
+        "owner_decision": null,
+        "reviewer": null,
+        "human_review_minutes": null,
+        "resolved": false
+      },
+      {
+        "order": 4,
+        "decision_id": "lettering_semantics",
+        "class": "LETTERING",
+        "pilot_unlock_required": true,
+        "question": "Choose attributed speech, outside-art caption/direct text, or silence for currently copy-unbound beats.",
+        "engineering_default": "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+        "development_recommendation": "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+        "evidence": {
+          "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/ch05-transparent-lettering-phone-comparison-r1.png",
+          "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/ch05-transparent-lettering-phone-comparison-r1.png",
+          "sha256": "97716fd4f91f618a771be821dfdd6770b9e57cb9b4db9ad72a37b5622677050f"
+        },
+        "risk": "Silence isolates causal evidence but may postpone necessary narrative clarification.",
+        "consequence": "Any caption/speech change requires exact ComicPanelPlan semantics before layout.",
+        "allowed_pilot_values": [
+          "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+          "REQUEST_PLAN_LEVEL_COPY_SEMANTICS"
+        ],
+        "owner_decision": null,
+        "reviewer": null,
+        "human_review_minutes": null,
+        "resolved": false
+      },
+      {
+        "order": 5,
+        "decision_id": "lettering_visual_arm",
+        "class": "LETTERING",
+        "pilot_unlock_required": false,
+        "question": "Choose 88% in-art backing, light outside-art band, or another targeted comparison.",
+        "engineering_default": "USE_ROLE_DEPENDENT_88_OR_LIGHT_BAND",
+        "development_recommendation": "Use 88% in-art translucent backing only where protected content remains clear; use the light outside-art band for captions; keep dark direct gutter text as comparison only.",
+        "evidence": {
+          "path": "experiments/review-packets/ch05-outside-art-lettering-band-r1/ch05-outside-art-lettering-band-comparison-r1.png",
+          "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-outside-art-lettering-band-r1/ch05-outside-art-lettering-band-comparison-r1.png",
+          "sha256": "04f6de14cab38ba188d69615e60ee39132a33bb8ec3674d78567b9c85f4572d9"
+        },
+        "risk": "Role-dependent backing is more flexible but needs final copy, tail, localization, and accessibility review.",
+        "consequence": "Does not permit content overlap; final copy/font/tails/localization remain separate.",
+        "allowed_pilot_values": null,
+        "owner_decision": null,
+        "reviewer": null,
+        "human_review_minutes": null,
+        "resolved": false
+      },
+      {
+        "order": 6,
+        "decision_id": "p010_p013_finish_rhythm",
+        "class": "NEXT_EXPERIMENT",
+        "pilot_unlock_required": true,
+        "question": "Use the preflight's role-aware four-beat finish or one shared finish.",
+        "engineering_default": "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+        "development_recommendation": "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+        "evidence": {
+          "path": "experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png",
+          "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png",
+          "sha256": "fdd1dcf72108babf8431ead3326aa9f23c84770b704163e4cdfb8accc55cdbcd"
+        },
+        "risk": "Four role-aware finishes maximize information but cannot prove uniform chapter continuity.",
+        "consequence": "Controls only the next zero-prompt contract revision.",
+        "allowed_pilot_values": [
+          "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+          "REQUEST_SHARED_FINISH_CONTROL"
+        ],
+        "owner_decision": null,
+        "reviewer": null,
+        "human_review_minutes": null,
+        "resolved": false
+      },
+      {
+        "order": 7,
+        "decision_id": "p010_p013_copy",
+        "class": "NEXT_EXPERIMENT",
+        "pilot_unlock_required": true,
+        "question": "Keep P010\u2013P013 silent or bind plan-level caption semantics.",
+        "engineering_default": "KEEP_SILENT_FOR_CAUSAL_TEST",
+        "development_recommendation": "KEEP_SILENT_FOR_CAUSAL_TEST",
+        "evidence": {
+          "path": "experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png",
+          "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png",
+          "sha256": "fdd1dcf72108babf8431ead3326aa9f23c84770b704163e4cdfb8accc55cdbcd"
+        },
+        "risk": "A silent causal test cannot validate final dialogue or caption layout.",
+        "consequence": "Separates continuity/causality evidence from unvalidated copy.",
+        "allowed_pilot_values": [
+          "KEEP_SILENT_FOR_CAUSAL_TEST",
+          "REQUEST_PLAN_LEVEL_CAPTION_SEMANTICS"
+        ],
+        "owner_decision": null,
+        "reviewer": null,
+        "human_review_minutes": null,
+        "resolved": false
+      },
+      {
+        "order": 8,
+        "decision_id": "strongest_candidate_shortlist",
+        "class": "CANDIDATES",
+        "pilot_unlock_required": false,
+        "question": "Review the 14-candidate engineering shortlist for further production evaluation.",
+        "engineering_default": "REVIEW_INDIVIDUALLY",
+        "development_recommendation": "Review all 14 individually; preserve engineering shortlist status without accepting as a group.",
+        "evidence": {
+          "path": "experiments/review-packets/ch05-owner-review-index-r3/index.html",
+          "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-owner-review-index-r3/index.html",
+          "sha256": "42899d8b12f2000823c0d388c2c23d43187e6fa62073523c0ea3006594612c27"
+        },
+        "risk": "Group-level taste approval cannot establish candidate-specific exact-base or rights status.",
+        "consequence": "No group decision can create exact-base or commercial acceptance.",
+        "allowed_pilot_values": null,
+        "owner_decision": null,
+        "reviewer": null,
+        "human_review_minutes": null,
+        "resolved": false
+      },
+      {
+        "order": 9,
+        "decision_id": "noncanon_litrpg_direction",
+        "class": "NONCANON",
+        "pilot_unlock_required": false,
+        "question": "Identify which practical armor, weapon, and Mireback motifs merit a future canon proposal.",
+        "engineering_default": "KEEP_ALL_NONCANON_PENDING_TASTE_REVIEW",
+        "development_recommendation": "Advance Soren's oatmeal work-derived warden kit, Sigrid's plaid-preserving pathfinder kit, and the peat/root/slate Mireback together into a separate future-canon proposal, not a CH05 revision.",
+        "evidence": {
+          "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/review/contact-sheet-future-litrpg-concepts.png",
+          "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/future-litrpg-visual-concepts-r1/review/contact-sheet-future-litrpg-concepts.png",
+          "sha256": "2f858c7f9a16300b7259fb94bb6e6dd1ce6c23f69804c8e2b08262e0b0c80f9a"
+        },
+        "risk": "Kit continuity across the equipment sheets and Mireback scene is untested because new concept outputs were not re-uploaded.",
+        "consequence": "No CH05 wardrobe, equipment, monster, or class state changes.",
+        "allowed_pilot_values": null,
+        "owner_decision": null,
+        "reviewer": null,
+        "human_review_minutes": null,
+        "resolved": false
+      },
+      {
+        "order": 10,
+        "decision_id": "commercial_and_exact_base",
+        "class": "AUTHORITY",
+        "pilot_unlock_required": false,
+        "question": "Separately decide commercial clearance and whether any candidate is eligible as an exact production base.",
+        "engineering_default": "REMAIN_OPEN",
+        "development_recommendation": "Remain open pending candidate-specific visual review and an explicit rights/commercial decision.",
+        "evidence": {
+          "path": "production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json",
+          "absolute_path": "C:/AgentWorkspaces/anime-pipeline/production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json",
+          "sha256": "dacd8daec02a594a66915b73b311f78a77c3ade2002900823206794b87095b31"
+        },
+        "risk": "Provider rights, reproducibility, and exact-base suitability remain separate from visual quality.",
+        "consequence": "Engineering pass and owner taste approval do not establish provider rights, reproducibility, or exact-base suitability.",
+        "allowed_pilot_values": null,
+        "owner_decision": null,
+        "reviewer": null,
+        "human_review_minutes": null,
+        "resolved": false
+      }
+    ]
+  },
+  "source": {
+    "captured_commit": "eafe1ef632dbb9a61b1f17706c901d6cbf1a3217",
+    "captured_tree": "4bcd007bb6d643a83f6a074d9ed169b7195eb4e2",
+    "inventory_root_sha256": "7c5cb05b1b1bfc7398215a49da6a2a4f4ef7767783c0d9a725e79289b78ab2df",
+    "current_head": "76b0977777fb497e091f91fb8adc908f6461fe9b",
+    "origin_main": "76b0977777fb497e091f91fb8adc908f6461fe9b",
+    "current_remote_parity": true,
+    "capture_is_ancestor": true
+  },
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Completion-readiness evidence only. Handoff completeness does not mean visual acceptance, commercial clearance, exact-base selection, owner ingestion, or production authorization."
+}

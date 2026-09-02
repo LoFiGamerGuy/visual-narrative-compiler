@@ -1471,3 +1471,10 @@
 - Bound 971 paths/14,675,859 bytes, tree `4bcd007b…b4e2`, and inventory root `7c5cb05b…ab2df`.
 - Included reproducer 10 domains, 134 links, 14 worksheet candidates, and 112 checks while keeping generated pixels ignored.
 - Two controls and zero generated/prohibited/credential/model/dataset/private-reference/unrelated paths are tracked; 18/18 mutations fail under ADR-0164.
+
+## 2026-09-01 - CH05 completion-readiness audit r1
+
+- Bound 12 owner deliverables, 134 exact resources, and 67 priority direct links (10 contact/9 sequence/34 lettering/14 strongest).
+- Reconciled 29 candidates, 50 plans, 12 dimensions, 1,385.036 seconds, 39 reference uses, four recommendations, 15 limitations, and ten remaining decisions.
+- Bound reproducer 10 domains, safe source 971, cost 82, changed files, and current remote parity.
+- Forty-one/forty-one mutations fail under ADR-0165; handoff completeness remains separate from art/rights/exact-base/production approval.

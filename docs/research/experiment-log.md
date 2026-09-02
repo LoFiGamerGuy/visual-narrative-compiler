@@ -1041,3 +1041,10 @@
 - Preserved eight current selected widths (560/600/700/720/740/760/780/1040px) rather than imposing a uniform ratio.
 - Bound exact lettering evidence: tested two-line in-art copy needs 1,200px on c005/c013/h001; the outside-art arm reaches 13.975px at +3.295% height but remains caption/direct-text semantics only.
 - ADR-0103 keeps all ranges conditional. One explicit-dialogue plan remains copy-unbound; 19/19 mutations fail and no layout/plan/copy/provider state changes.
+
+## 2026-09-01 - CH05 failure-class repair matrix r1
+
+- Compiled nine nonpass candidates and six exact repair links from the initial/hardening evidence. Five links fix their target class and four finish all dimensions pass.
+- Literal safe-zone/spatial placement succeeds 3/3. Removing a dominating reference fixes c001 direction but leaves phone identity weak. Lever terminology fails at c011→h005; a literal single-plank reach-and-brace correction passes at h005→h006.
+- Recommends P010–P013 as the smallest post-review continuity microsequence: four adjacent cast states and trail/twine causality, four initial candidates plus two bounded repair slots.
+- ADR-0104 prohibits broad rerolls and keeps the recommendation at zero prompts/renders/uploads. Median-only envelopes are 204.908/307.362s; 24/24 mutations fail.

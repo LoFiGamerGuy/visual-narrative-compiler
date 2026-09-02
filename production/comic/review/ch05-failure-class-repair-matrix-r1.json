@@ -1,0 +1,332 @@
+{
+  "record_type": "ComicFailureClassRepairMatrix",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-failure-class-repair-matrix-r1",
+  "state": "MEASURED_REPAIR_PATHS_NEXT_EXPERIMENT_RECOMMENDED",
+  "medium": "comic",
+  "candidate_count": 26,
+  "engineering_state_counts": {
+    "FAIL": 6,
+    "PASS": 17,
+    "WARN": 3
+  },
+  "nonpass_candidate_count": 9,
+  "nonpass_candidates": [
+    {
+      "candidate_id": "c001",
+      "panel_id": "ng-ch05-sc01-p001",
+      "style_id": "clean_graphic",
+      "overall": "FAIL",
+      "nonpass_dimensions": {
+        "role_identity_and_order": "FAIL",
+        "causal_action_or_story_object": "FAIL",
+        "phone_size_readability": "WARN"
+      },
+      "note": "Strong reference continuity, but the pair move uphill toward the house instead of departing downhill; preserve as reference-dominance diagnostic.",
+      "diagnostic_retained": true
+    },
+    {
+      "candidate_id": "c003",
+      "panel_id": "ng-ch05-sc01-p003",
+      "style_id": "clear_line_watercolor",
+      "overall": "FAIL",
+      "nonpass_dimensions": {
+        "causal_action_or_story_object": "WARN",
+        "lettering_safe_zone": "FAIL"
+      },
+      "note": "Boot-print clue and held-back boot read, but overlap-versus-leading geometry remains ambiguous and the canonical top-left zone covers Soren's head.",
+      "diagnostic_retained": true
+    },
+    {
+      "candidate_id": "c004",
+      "panel_id": "ng-ch05-sc01-p009",
+      "style_id": "limited_ink_flat",
+      "overall": "WARN",
+      "nonpass_dimensions": {
+        "lettering_safe_zone": "WARN"
+      },
+      "note": "Clear Sigrid-leads trail movement and stable silhouettes; the protected zone contains dense branch texture and the treatment is not genuinely low density.",
+      "diagnostic_retained": true
+    },
+    {
+      "candidate_id": "c005",
+      "panel_id": "ng-ch05-sc01-p009",
+      "style_id": "clear_line_watercolor",
+      "overall": "WARN",
+      "nonpass_dimensions": {
+        "lettering_safe_zone": "WARN"
+      },
+      "note": "Best grounded trail weight shift, footfalls, wet mud, and cloth movement; overhead branches make the top-left lettering field busier than intended.",
+      "diagnostic_retained": true
+    },
+    {
+      "candidate_id": "c007",
+      "panel_id": "ng-ch05-sc01-p019",
+      "style_id": "limited_ink_flat",
+      "overall": "FAIL",
+      "nonpass_dimensions": {
+        "lettering_safe_zone": "FAIL"
+      },
+      "note": "Text-only control preserves identity and warning action, but the top-left lettering zone overlaps Soren's head and the image remains high density.",
+      "diagnostic_retained": true
+    },
+    {
+      "candidate_id": "c009",
+      "panel_id": "ng-ch05-sc01-p029",
+      "style_id": "clean_graphic",
+      "overall": "FAIL",
+      "nonpass_dimensions": {
+        "lettering_safe_zone": "FAIL"
+      },
+      "note": "Mill threshold crossing and simultaneous smoke watch are clear, but the top-left protected zone overlaps Soren's head.",
+      "diagnostic_retained": true
+    },
+    {
+      "candidate_id": "c011",
+      "panel_id": "ng-ch05-sc01-p036",
+      "style_id": "clean_graphic",
+      "overall": "FAIL",
+      "nonpass_dimensions": {
+        "causal_action_or_story_object": "FAIL",
+        "phone_size_readability": "WARN"
+      },
+      "note": "Hair survives the conflicting composition reference, but plank, fulcrum, and tin do not form an explicit connected causal mechanism.",
+      "diagnostic_retained": true
+    },
+    {
+      "candidate_id": "c019",
+      "panel_id": "ng-ch05-sc01-p001",
+      "style_id": "clear_line_watercolor",
+      "overall": "WARN",
+      "nonpass_dimensions": {
+        "phone_size_readability": "WARN"
+      },
+      "note": "Text-only control fixes c001's direction: the adults clearly leave the farmhouse downhill; identity is readable mainly through wardrobe at phone scale.",
+      "diagnostic_retained": true
+    },
+    {
+      "candidate_id": "h005",
+      "panel_id": "ng-ch05-sc01-p036",
+      "style_id": "cel_painted",
+      "overall": "FAIL",
+      "nonpass_dimensions": {
+        "causal_action_or_story_object": "FAIL",
+        "phone_size_readability": "WARN"
+      },
+      "note": "Preserved diagnostic: lever wording creates two converging plank segments rather than the single continuous fallen plank in the ComicPanelPlan.",
+      "diagnostic_retained": true
+    }
+  ],
+  "repair_links": [
+    {
+      "source_candidate_id": "c001",
+      "source_overall": "FAIL",
+      "result_candidate_id": "c019",
+      "result_overall": "WARN",
+      "intervention": "remove identity reference; literal downhill departure and role order",
+      "outcome": "TARGET_FIXED_RELATED_PHONE_WARN_REMAINS",
+      "prompt_or_pixels_rewritten": false
+    },
+    {
+      "source_candidate_id": "c003",
+      "source_overall": "FAIL",
+      "result_candidate_id": "h002",
+      "result_overall": "PASS",
+      "intervention": "place Soren lower-right; specify two crossing print chains",
+      "outcome": "ALL_DIMENSIONS_PASS",
+      "prompt_or_pixels_rewritten": false
+    },
+    {
+      "source_candidate_id": "c007",
+      "source_overall": "FAIL",
+      "result_candidate_id": "h003",
+      "result_overall": "PASS",
+      "intervention": "reserve entire top-left as flat sky; broad flat shapes",
+      "outcome": "ALL_DIMENSIONS_PASS",
+      "prompt_or_pixels_rewritten": false
+    },
+    {
+      "source_candidate_id": "c009",
+      "source_overall": "FAIL",
+      "result_candidate_id": "h004",
+      "result_overall": "PASS",
+      "intervention": "stage both adults in right two-thirds; top-left empty sky",
+      "outcome": "ALL_DIMENSIONS_PASS",
+      "prompt_or_pixels_rewritten": false
+    },
+    {
+      "source_candidate_id": "c011",
+      "source_overall": "FAIL",
+      "result_candidate_id": "h005",
+      "result_overall": "FAIL",
+      "intervention": "retain lever terminology but demand complete floor-to-tin span",
+      "outcome": "TARGET_NOT_FIXED_DUPLICATE_PLANK",
+      "prompt_or_pixels_rewritten": false
+    },
+    {
+      "source_candidate_id": "h005",
+      "source_overall": "FAIL",
+      "result_candidate_id": "h006",
+      "result_overall": "PASS",
+      "intervention": "replace lever vocabulary with one literal continuous fallen plank and reach-and-brace roles",
+      "outcome": "ALL_DIMENSIONS_PASS",
+      "prompt_or_pixels_rewritten": false
+    }
+  ],
+  "repair_link_count": 6,
+  "repair_all_dimension_pass_count": 4,
+  "repair_target_fixed_count": 5,
+  "failure_class_summary": {
+    "literal_safe_zone_and_spatial_placement": {
+      "attempts": 3,
+      "all_dimension_passes": 3,
+      "evidence_links": [
+        "c003\u2192h002",
+        "c007\u2192h003",
+        "c009\u2192h004"
+      ]
+    },
+    "reference_dominance_role_direction": {
+      "attempts": 1,
+      "target_fixed": 1,
+      "all_dimension_passes": 0,
+      "evidence_links": [
+        "c001\u2192c019"
+      ]
+    },
+    "lever_terminology": {
+      "attempts": 1,
+      "target_fixed": 0,
+      "evidence_links": [
+        "c011\u2192h005"
+      ]
+    },
+    "literal_single_object_causal_chain": {
+      "attempts": 1,
+      "target_fixed": 1,
+      "all_dimension_passes": 1,
+      "evidence_links": [
+        "h005\u2192h006"
+      ]
+    }
+  },
+  "post_generation_unresolved": [
+    {
+      "issue": "c005 dense transition and busy safe field",
+      "evidence": "edge occupancy 0.308471; owner density decision pending"
+    },
+    {
+      "issue": "c014 semantic lettering overlap",
+      "evidence": "tested top-right zone overlaps Soren person/upper arm; opacity cannot fix"
+    },
+    {
+      "issue": "c014\u2192c015 finish jump",
+      "evidence": "largest selected adjacent appearance jump 5.6517; punctuation versus unification pending"
+    },
+    {
+      "issue": "c019 phone identity warning",
+      "evidence": "direction fixed; identity reads mainly through wardrobe at phone scale"
+    },
+    {
+      "issue": "generation reproducibility",
+      "evidence": "built-in model/endpoint/seed unavailable"
+    }
+  ],
+  "next_experiment": {
+    "experiment_id": "ch05-tier-a-trail-continuity-microsequence-r1",
+    "state": "RECOMMENDED_POST_OWNER_REVIEW_ZERO_EXECUTION_AUTHORITY",
+    "comic_panel_plan_ids": [
+      "ng-ch05-sc01-p010",
+      "ng-ch05-sc01-p011",
+      "ng-ch05-sc01-p012",
+      "ng-ch05-sc01-p013"
+    ],
+    "plan_count": 4,
+    "plan_orders": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "coverage_tier": "A",
+    "narrative_chain": [
+      "Sigrid hears the water before it is visible.",
+      "Soren finds a length of soot-stained twine caught on a thorn.",
+      "The twine points downhill as if pulled taut and released.",
+      "They follow the creek instead of the tracks."
+    ],
+    "cast_transition": [
+      "single_adult",
+      "single_adult",
+      "no_visible_adult",
+      "dual_adult"
+    ],
+    "motion_transition": [
+      "held_observation",
+      "held_observation",
+      "held_observation",
+      "directional_motion"
+    ],
+    "information_tests": [
+      "Sigrid hair/plaid continuity into a Soren-only hand clue",
+      "Soren oatmeal-coat/hand identity without overloading the object insert",
+      "no-person taut-twine causal direction as a quiet cadence beat",
+      "dual-adult re-entry and literal creek-following role order",
+      "four-beat style-density rhythm and phone readability"
+    ],
+    "candidate_envelope": {
+      "initial_candidates": 4,
+      "bounded_targeted_repair_slots": 2,
+      "maximum_candidates": 6,
+      "observed_median_generation_seconds_initial": 204.908,
+      "observed_median_generation_seconds_with_slots": 307.362,
+      "monetary_cost_usd": null
+    },
+    "prompt_count": 0,
+    "final_copy_bound": false,
+    "owner_decisions_required": [
+      "candidate/style route from current 39-subject review",
+      "whether P010\u2013P013 should share one finish or use role-aware cel/clear-line/insert treatment",
+      "whether the sequence remains silent or receives plan-level caption semantics"
+    ],
+    "animation_shot_plan": null,
+    "e_conte": null,
+    "boundary": "Recommendation only; no prompt, render, upload, budget, acceptance, or plan revision."
+  },
+  "route_recommendation": {
+    "route": "role-aware cel-painted character/action plus clear-line transition/composition and genuinely simplified inserts",
+    "basis": "cel-painted 5/6 all-pass; clear-line 5/8 all-pass with successful targeted repairs; per-panel density and narrative role outperform uniform style labels",
+    "not_based_on": "visual appeal alone",
+    "owner_acceptance": false,
+    "commercial_clearance": false
+  },
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-overnight-production-r1.json",
+      "sha256": "51cb90648977d2aa481ed5108ba482e9a0e888f7f1db82bb2f0138a7749e6946"
+    },
+    {
+      "path": "docs/research/evidence/ch05-cadence-hardening-r1.json",
+      "sha256": "62a5e57ce5648e33609200f1b77276ea88d7174926ff90153d22f7e7d99eddf4"
+    },
+    {
+      "path": "docs/research/evidence/ch05-continuity-style-density-r1.json",
+      "sha256": "0f7f7aeed574811ed8f700d1d6e06d4b07a11bb5aaf291d1785d9d313eee1083"
+    },
+    {
+      "path": "docs/research/evidence/ch05-transparent-lettering-rehearsal-r1.json",
+      "sha256": "19e001387256aa20969675a8df98fae65af04f0c13aab2ab34ad85ba6d821209"
+    },
+    {
+      "path": "production/comic/coverage/ch05-remaining-panel-priority-r1.json",
+      "sha256": "ef06e71819a9eee77e2800a756ebaef11c9af38c7593a9cfb90c1f83be2e0bcc"
+    },
+    {
+      "path": "docs/research/evidence/ch05-tier-a-effort-scenarios-r1.json",
+      "sha256": "8165e0e040b50a3ae992d0401c24d829bee61f940833ebef8d61e7e376ac6e10"
+    }
+  ],
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "No repair is executed and no generated pixel, plan, decision, or acceptance state changes."
+}

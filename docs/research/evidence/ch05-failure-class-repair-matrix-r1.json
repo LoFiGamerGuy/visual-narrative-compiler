@@ -1,0 +1,112 @@
+{
+  "record_type": "CH05FailureClassRepairMatrixEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-failure-class-repair-matrix-evidence-r1",
+  "state": "SIX_REPAIR_LINKS_AND_FOUR_PLAN_NEXT_EXPERIMENT_BOUND",
+  "matrix": {
+    "path": "production/comic/review/ch05-failure-class-repair-matrix-r1.json",
+    "sha256": "2c3bb2dff8ff4512809f29c6fcdeb3d01964d6a88239bd7059c74807f0c075a3",
+    "repair_root_sha256": "94e1c4e504ce648a76d97b3d1694105702d358a750772fe6f238a9ce31356ab4"
+  },
+  "summary": {
+    "candidate_count": 26,
+    "engineering_pass": 17,
+    "engineering_warn": 3,
+    "engineering_fail": 6,
+    "nonpass_candidate_count": 9,
+    "repair_link_count": 6,
+    "repair_all_dimension_pass_count": 4,
+    "repair_target_fixed_count": 5,
+    "next_plan_count": 4,
+    "next_initial_candidates": 4,
+    "next_maximum_candidates": 6,
+    "next_prompt_count": 0,
+    "plans_revised": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "external_cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "chart": {
+    "path": "experiments/review-packets/ch05-failure-class-repair-matrix-r1/ch05-targeted-repair-paths-r1.png",
+    "sha256": "cd554736f27da87a5ac48ef80c806123279433b8f5be9059564447b550443575",
+    "bytes": 85523
+  },
+  "next_experiment": {
+    "experiment_id": "ch05-tier-a-trail-continuity-microsequence-r1",
+    "state": "RECOMMENDED_POST_OWNER_REVIEW_ZERO_EXECUTION_AUTHORITY",
+    "comic_panel_plan_ids": [
+      "ng-ch05-sc01-p010",
+      "ng-ch05-sc01-p011",
+      "ng-ch05-sc01-p012",
+      "ng-ch05-sc01-p013"
+    ],
+    "plan_count": 4,
+    "plan_orders": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "coverage_tier": "A",
+    "narrative_chain": [
+      "Sigrid hears the water before it is visible.",
+      "Soren finds a length of soot-stained twine caught on a thorn.",
+      "The twine points downhill as if pulled taut and released.",
+      "They follow the creek instead of the tracks."
+    ],
+    "cast_transition": [
+      "single_adult",
+      "single_adult",
+      "no_visible_adult",
+      "dual_adult"
+    ],
+    "motion_transition": [
+      "held_observation",
+      "held_observation",
+      "held_observation",
+      "directional_motion"
+    ],
+    "information_tests": [
+      "Sigrid hair/plaid continuity into a Soren-only hand clue",
+      "Soren oatmeal-coat/hand identity without overloading the object insert",
+      "no-person taut-twine causal direction as a quiet cadence beat",
+      "dual-adult re-entry and literal creek-following role order",
+      "four-beat style-density rhythm and phone readability"
+    ],
+    "candidate_envelope": {
+      "initial_candidates": 4,
+      "bounded_targeted_repair_slots": 2,
+      "maximum_candidates": 6,
+      "observed_median_generation_seconds_initial": 204.908,
+      "observed_median_generation_seconds_with_slots": 307.362,
+      "monetary_cost_usd": null
+    },
+    "prompt_count": 0,
+    "final_copy_bound": false,
+    "owner_decisions_required": [
+      "candidate/style route from current 39-subject review",
+      "whether P010\u2013P013 should share one finish or use role-aware cel/clear-line/insert treatment",
+      "whether the sequence remains silent or receives plan-level caption semantics"
+    ],
+    "animation_shot_plan": null,
+    "e_conte": null,
+    "boundary": "Recommendation only; no prompt, render, upload, budget, acceptance, or plan revision."
+  },
+  "limitations": [
+    "Six repair links are too few for a general success-rate forecast.",
+    "The repair links mix different failure classes and style/reference conditions.",
+    "The recommended four-plan microsequence remains owner-review-gated and has no prompts.",
+    "Observed seconds exclude queueing, review, layout, and unknown monetary cost."
+  ],
+  "activity": {
+    "prompts": 0,
+    "renders": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "plans_revised": 0,
+    "acceptances": 0,
+    "external_cost_usd": 0
+  },
+  "boundary": "No repair is executed and no generated pixel, plan, decision, or acceptance state changes."
+}

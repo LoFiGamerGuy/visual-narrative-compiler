@@ -61,3 +61,5 @@ The character-assertion and prompt-lint compiler adds no generation or external 
 The manual continuity atlas adds two ignored local comparison images from 26 existing candidates and no renderer generation or external cost. Face crops, identity inferences, owner decisions, calls, and uploads remain zero; human minutes remain null.
 
 The panel-scale/cadence policy adds one ignored 50-row chart and tracked conditional metadata with no generation or external cost. Final copy, accepted layouts, ComicPanelPlan revisions, calls, and uploads remain zero; human minutes remain null.
+
+The failure-class repair matrix adds one ignored diagnostic chart and no generation or external cost. Its four/six-candidate next-experiment envelopes are median-only, unexecuted scenarios; prompts/renders/uploads/plans/acceptances remain zero and future built-in monetary cost remains null.

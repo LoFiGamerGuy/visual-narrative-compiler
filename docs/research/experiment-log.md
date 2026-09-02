@@ -1296,3 +1296,10 @@
 - Separated 11 reproducible shell validations, one agent-only built-in ImageGen action, and two operator Git release actions.
 - Marked five local-ready/dry-run steps, one exact owner-action step, six blocked production/review steps, and one intentionally absent prompt-promotion compiler.
 - Current state stays draft/zero enabled; 18/18 mutations fail under ADR-0139.
+
+## 2026-09-01 - CH05 overnight delivery bundle r2
+
+- Extended immutable bundle r1 with current hub r5, 112-link inventory, release r9, chapter lifecycle, duration capacity, operating playbook, owner unlock, cost, safe-source, and frozen-integrity evidence.
+- Bound 29 candidates, 50 plans, 12 batches, 14 strongest candidates, ten route/rights decisions, six unresolved pilot roots, 58 checks, and 12 operating steps.
+- Added five direct owner links, four ranked role allocations, ten limitations, and a commit-range changed-file inventory.
+- Twenty-seven/twenty-seven mutations fail under ADR-0140; calls/uploads/spend/decisions/acceptance/execution remain 0/0/$0/0/0/0.

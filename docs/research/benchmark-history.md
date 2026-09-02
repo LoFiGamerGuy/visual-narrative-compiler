@@ -410,3 +410,5 @@ Integrated release r9 uses the compatible 49-check r8 base plus nine extensions.
 Chapter duration capacity uses 30.531/51.227/56.524-second p10/median/p90 candidate timing. The 49-candidate remaining-plan arm totals 1,496.019/2,510.123/2,769.676 seconds; the fresh 68-candidate arm has 3,483.436-second median. Wave loads are 6/12/20/11. Human time and built-in cost remain null.
 
 The production operating playbook validates 12 steps, 11 shell commands, one agent-only action, five local-ready steps, one owner-action step, and six blocked steps. Eighteen/eighteen mutations fail. This is operational-readiness evidence, not execution.
+
+Delivery bundle r2 binds the current 29-candidate/50-plan/12-batch body, 112 review links, 14 strongest candidates, ten unresolved route/rights decisions, six unresolved pilot roots, 58 integrated checks, and 12 playbook steps. Its 27/27 mutation suite rejects denominator, parity, time, spend, decision, acceptance, execution, and cross-medium changes. The 49/68 capacity arms remain planning envelopes rather than quality or throughput forecasts.

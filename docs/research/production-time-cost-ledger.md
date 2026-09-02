@@ -109,3 +109,5 @@ Delivery-bundle r1 is appended as a zero-external-cost milestone in ledger r24. 
 Safe-source delivery parity r1 makes zero provider requests/uploads/downloads and incurs $0 paid API/cloud cost. It inventories an already-pushed commit locally and does not retrieve or publish generated material.
 
 Integrated release r8 adds no generation or external cost. Ledger r25 appends safe-source parity and release r8 as two local zero-external-cost milestones, bringing the chain to 54 while leaving the CH05 cap null and disabled.
+
+Ledger r26 appends ten post-r8 compatibility, reproduction, pilot-hardening, chapter, owner-link, and release-r9 milestones. The chain now contains 64 zero-external-cost milestones with zero CH05 external requests/uploads and $0 paid API/cloud spend; built-in product cost remains unavailable.

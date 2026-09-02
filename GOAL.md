@@ -250,6 +250,8 @@ The chapter batch-lifecycle application milestone is complete under ADR-0135. Al
 
 The owner-hub/link milestone is complete under ADR-0136. Hub r5 builds byte-identically with seven links (one image/one HTML/five text) and rejects 16/16 mutations. Link manifest r3 preserves all 105 r2 resources and adds seven current pilot/lifecycle links: 112 exact resources, 106 ignored plus six tracked; 15/15 mutations fail. The next bounded milestone is integrated release r9 covering all post-r8 compatibility, reproducer, unlock, prompt, packet, lifecycle, chapter, and owner-link validators.
 
+The integrated release r9 milestone is complete under ADR-0137. Compatible immutable r8 plus nine extensions gives 58 effective checks; 10/10 commands pass in 83.926 seconds and 30/30 mutations fail. The gate binds 112 links, four draft prompts, five unbuilt packet artifacts, 11 lifecycle states, and 12 batches without transitioning production state. Cost ledger r26 advances to 64 zero-external-cost milestones. The next bounded milestone is a measured chapter production-duration/capacity schedule that combines observed generation quantiles with the 12-batch lifecycle while keeping human time and monetary cost null.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

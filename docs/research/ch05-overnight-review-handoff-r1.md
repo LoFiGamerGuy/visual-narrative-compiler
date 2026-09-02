@@ -131,3 +131,5 @@ The guarded pilot lifecycle is `production/comic/run-manifests/ch05-p010-p013-li
 Review the chapter lifecycle map at `experiments/review-packets/ch05-chapter-batch-lifecycle-r1/ch05-chapter-batch-lifecycle-map-r1.png`. The tracked application is `production/comic/run-manifests/ch05-chapter-batch-lifecycle-application-r1.json`; ADR-0135 binds 50 plans/12 batches and the reusable-versus-batch-specific boundary.
 
 The current local entry point is `experiments/review-packets/ch05-owner-review-index-r5/index.html`. The exhaustive current absolute-link inventory is `docs/research/ch05-review-links-r3.md`, covering 112 exact resources under ADR-0136.
+
+Integrated evidence now passes release r9 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r9.json`: compatible r8 plus nine extensions gives 58 effective checks, 10/10 commands, and 30/30 rejected mutations under ADR-0137.

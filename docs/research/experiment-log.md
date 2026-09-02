@@ -1275,3 +1275,10 @@
 - Built r5 twice byte-identically; seven links/two ignored artifacts validate and 16/16 mutations fail.
 - Extended immutable 105-resource link manifest r2 to 112 exact resources, with 106 ignored local and six tracked metadata links.
 - Fifteen/fifteen link mutations fail under ADR-0136; decision, execution, provider, and promotion state remains zero/null.
+
+## 2026-09-01 - CH05 integrated release r9 and cost ledger r26
+
+- Used r8 compatibility as the immutable 49-check base and added nine post-r8 production-hardening extensions.
+- Ten/ten commands pass in 83.926 seconds, representing 58 effective checks; 30/30 release mutations fail.
+- Bound 112 links, four prompt drafts, five unbuilt pilot artifacts, 11 lifecycle states, and all 12 chapter batches.
+- Ledger r26 appends ten local milestones to 64 total; ADR-0137 keeps requests/uploads/renders/review/promotion at zero/null.

@@ -1,0 +1,72 @@
+{
+  "record_type": "CH05FinalPushRecord",
+  "schema_version": "2.0",
+  "record_id": "ng-ch05-final-push-record-r2",
+  "state": "PASS_CORRECTED_FINAL_PUSH_OWNER_REVIEW_PENDING",
+  "supersedes": {
+    "path": "docs/research/evidence/ch05-final-push-record-r1.json",
+    "sha256": "fe3f19411aae6a9d74e40aa3cf46f72fdbd61e7b60e4bec65986d37562df67a3"
+  },
+  "preserved_failed_attempt": {
+    "recorded_commit": "153bff7754f00a04e6b1d926dfecb4b55591c78c",
+    "recorded_untracked_count": 10,
+    "validator_failure": "source boundary invalid because pending ADR-0169 was misclassified as unrelated",
+    "containing_commit": "7842cce"
+  },
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-final-integrated-release-r13.json",
+      "sha256": "d582bacb197d8244904bd8fa6b21b62c7509045179fececabfcd6153449f996a"
+    },
+    {
+      "path": "docs/research/ch05-final-owner-review-start-here-r1.md",
+      "sha256": "05182235344d634680bff2832ac55450cd868441a3ca85925741c90fe2dfc6a5"
+    }
+  ],
+  "source": {
+    "recorded_commit": "7842ccee69d37629fad2fe0d3bbe1021c28dd569",
+    "origin_main": "7842ccee69d37629fad2fe0d3bbe1021c28dd569",
+    "branch": "main",
+    "remote": "https://github.com/LoFiGamerGuy/visual-narrative-compiler.git",
+    "remote_parity": true,
+    "tracked_paths": 1001,
+    "unrelated_untracked_items": [
+      "GITIGNORE_RECOMMENDED.txt",
+      "assets/",
+      "batch_generate.py",
+      "benchmarks/",
+      "garden/",
+      "get_ipadapter.cmd",
+      "run_batch.cmd",
+      "run_comfy.cmd",
+      "trainer/"
+    ],
+    "unrelated_untracked_count": 9,
+    "pending_r2_files": [
+      "src/north_garden/compile_ch05_final_push_record_r2.py",
+      "src/north_garden/validate_ch05_final_push_record_r2.py"
+    ]
+  },
+  "summary": {
+    "release_commands": 9,
+    "release_domains": 18,
+    "review_steps": 9,
+    "review_links": 134,
+    "candidates": 29,
+    "plans": 50,
+    "worksheet_checks": 112,
+    "remaining_decisions": 10,
+    "provider_calls": 0,
+    "uploads": 0,
+    "owner_decisions_ingested": 0,
+    "visual_dispositions": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "paid_spend_usd": 0,
+    "human_review_minutes": null
+  },
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Corrected final pushed record. R1 failure is preserved; nine user-owned items remain excluded and no authority is granted."
+}

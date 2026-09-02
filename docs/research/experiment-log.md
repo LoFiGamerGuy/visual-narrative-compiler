@@ -1505,3 +1505,9 @@
 - Bound pushed terminal ancestor `153bff7` with exact main/origin parity, 996 tracked paths, and nine excluded user-owned untracked items.
 - Reconciled r13 9/9/18, 134 links, 29 candidates, and ten remaining decisions.
 - Twenty-one/twenty-one mutations fail under ADR-0169; authority and provider activity remain zero/null.
+
+## 2026-09-01 - CH05 corrected final push record r2
+
+- Preserved r1 and its source-boundary validation failure in commit `7842cce`; pending ADR-0169 had been misclassified as a tenth unrelated item.
+- Superseded append-only with terminal ancestor `7842cce`, exactly nine unrelated items, and two pending r2 scripts.
+- R2 rejects 21/21 mutations under ADR-0170; r13 and all authority/provider counters remain unchanged.

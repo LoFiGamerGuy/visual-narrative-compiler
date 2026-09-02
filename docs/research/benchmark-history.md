@@ -470,3 +470,5 @@ The post-r13 delivery audit binds nine ordered owner-review resources and reject
 Terminal post-pointer integrity passes r13/pointer/link/frozen/scope/source/remote checks and rejects 24/24 mutations. Four pending audit files are separated from nine unrelated untracked user items.
 
 Final push record r1 binds terminal ancestor `153bff7`, exact parity, 996 tracked paths, nine excluded user items, and rejects 21/21 mutations.
+
+Final push r2 preserves r1's pending-ADR bookkeeping failure, corrects the unrelated-item denominator to nine at ancestor `7842cce`, and rejects 21/21 mutations.

@@ -1464,3 +1464,10 @@
 - Ten/ten pass in 166.588 seconds; independent replay rejects 29/29 mutations.
 - Bound 29/50/12/134/67/112, release 84, source 934, cost 82, and frozen 16 + baseline 4.
 - Only two decimal tracked-path diagnostics normalize; all provider, ingestion, acceptance, rights, execution, and spend fields remain zero/null under ADR-0163.
+
+## 2026-09-01 - CH05 post-reproducer safe-source parity r5
+
+- Captured pushed commit `eafe1ef` after committing the validator first to avoid self-reference.
+- Bound 971 paths/14,675,859 bytes, tree `4bcd007b…b4e2`, and inventory root `7c5cb05b…ab2df`.
+- Included reproducer 10 domains, 134 links, 14 worksheet candidates, and 112 checks while keeping generated pixels ignored.
+- Two controls and zero generated/prohibited/credential/model/dataset/private-reference/unrelated paths are tracked; 18/18 mutations fail under ADR-0164.

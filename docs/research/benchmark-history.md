@@ -458,3 +458,5 @@ The strongest-candidate worksheet binds 14 exact hashes and 112 visual checks. O
 Owner hub r9 builds byte-identically with six links and rejects 22/22 mutations. Exact link manifest r7 preserves 128 prior bindings and reaches 134 resources (111 ignored/23 tracked); 19/19 mutations fail.
 
 Final review reproducer r3 passes 10/10 domains in 166.588 seconds and independently rejects 29/29 mutations. It binds 29/50/12/134/67/112, release 84, source 934, cost 82, frozen 16 + baseline 4, and current remote parity.
+
+Post-reproducer safe-source r5 pins pushed commit `eafe1ef` at 971 paths/14,675,859 bytes, tree `4bcd007b…b4e2`, and root `7c5cb05b…ab2df`; 18/18 mutations fail with pixels/prohibited material excluded.

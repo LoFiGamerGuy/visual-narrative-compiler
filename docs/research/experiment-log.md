@@ -1352,3 +1352,10 @@
 - Enumerated 67 direct review resources: ten contact sheets, nine sequence packets, 34 lettering overlays, and 14 strongest candidates.
 - Generated a 393-path/62-ADR immutable base inventory through pushed commit `cd20fa4`.
 - Twenty-four/twenty-four mutations fail under ADR-0147; spend/decisions/acceptance/clearance/execution remain zero/null.
+
+## 2026-09-01 - CH05 integrated release r11 and cost ledger r28
+
+- Used final reproducer r2 as the compatibility path over immutable release r10 and added eight current validators.
+- Nine/nine commands pass in 133.281 seconds, representing 74 effective checks; independent replay rejects 29/29 mutations.
+- Bound 122 links, 67 direct closeout links, ten defaults, 835 safe paths, frozen 16 + baseline 4, and 73 zero-cost milestones.
+- ADR-0148 preserves zero provider/promotion activity and null review minutes.

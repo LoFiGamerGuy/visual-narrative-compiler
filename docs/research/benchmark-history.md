@@ -426,3 +426,5 @@ The owner-defaults packet binds ten evidence-backed recommendations as six pilot
 Owner hub r7 rebuilds byte-identically with five final-evidence links and one ignored artifact; 17/17 mutations fail. Exact link manifest r5 preserves 117 bindings and reaches 122 resources (109 ignored/13 tracked); 15/15 mutations fail.
 
 Closeout bundle r1 reconciles 29 candidates, 50 plans, 12 batches, 122 resources, and 67 explicit high-priority links (10 contact sheets/9 sequence packets/34 lettering overlays/14 strongest). It binds a 393-path/62-ADR base inventory and rejects 24/24 mutations without promotion.
+
+Integrated release r11 uses the current seven-domain reproducer over immutable r10 and adds eight final extensions. Nine/nine commands pass in 133.281 seconds, 74 effective checks are represented, and 29/29 mutations fail. Ledger r28 records 73 zero-external-cost milestones.

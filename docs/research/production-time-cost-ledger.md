@@ -57,3 +57,5 @@ The offline owner-decision worksheet adds no generation or external cost. It lin
 The owner-decision draft validator adds no generation or external cost. It exercises 17 synthetic fixtures only; owner drafts read, events, decisions, contract writes, plan revisions, calls, and uploads remain zero. Human minutes remain null.
 
 The character-assertion and prompt-lint compiler adds no generation or external cost. It binds 50 existing ComicPanelPlans and scans 26 existing prompts; prompts created, plans revised, identity inferences, calls, uploads, and acceptance remain zero.
+
+The manual continuity atlas adds two ignored local comparison images from 26 existing candidates and no renderer generation or external cost. Face crops, identity inferences, owner decisions, calls, and uploads remain zero; human minutes remain null.

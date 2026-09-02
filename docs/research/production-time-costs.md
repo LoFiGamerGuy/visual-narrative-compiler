@@ -28,6 +28,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 owner decision worksheet r1 | 39 linked review subjects / one offline HTML surface | local deterministic metadata/HTML build; provider generation not used | unmeasured | $0 API/cloud | 0 decisions/events/accepted; draft export only |
 | CH05 owner decision draft validator r1 | 3 valid + 14 invalid synthetic fixtures | local read-only schema validation; provider generation not used | unmeasured | $0 API/cloud | 0 owner drafts/events/decisions/accepted |
 | CH05 character assertions + prompt lint r1 | 50 plan assertions / 26 existing prompts | local deterministic metadata/string validation | unmeasured | $0 API/cloud | 0 prompts created/plans revised/identity inference/accepted |
+| CH05 manual continuity atlas r1 | 26 candidates / 14 plan groups / 2 full-panel atlases | local deterministic assembly; provider generation not used | unmeasured | $0 API/cloud | 0 owner decisions/face crops/identity inference/accepted |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

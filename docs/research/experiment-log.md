@@ -1027,3 +1027,10 @@
 - Recorded that `visible_adult_cast` is membership only; foreground, leader, watcher, bracer, and action roles must be translated literally from narrative/composition intent.
 - All 26 generated CH05 prompts pass exact hash/revision/adult/hair/wardrobe/cast checks. All four P036-using prompts carry its composition-only and swapped-hair rejection guard.
 - ADR-0101 separates string lint from rendered-art review. No identity inference, prompt creation, plan revision, provider call, upload, or cost occurs; 16/16 mutations fail.
+
+## 2026-09-01 - CH05 manual continuity atlas r1
+
+- Built two deterministic full-panel atlases: all 26 canonical candidates grouped by 14 plans and the selected 14 in narrative order.
+- Each record carries exact existing engineering results plus explicit manual checks for hair color/style, oatmeal coat, plaid wrap, role staging, mature anatomy, hands/story object, and lettering clearance.
+- Exact existing state is 17 all-pass, three warn, six fail; hair/wardrobe labels are 26/26 pass and role-order labels are 25 pass/one fail.
+- Visual QA found and fixed sequence-position labels that initially masqueraded as plan IDs. ADR-0102 forbids face cropping/identity inference and keeps owner decisions/minutes null; 16/16 mutations fail.

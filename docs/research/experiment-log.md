@@ -992,3 +992,9 @@
 - Selected coverage is 4/4 practical action but only 2/10 directional, 6/26 observation, and 2/10 sensory, showing that chapter continuity—not another action probe—is the next gap.
 - Tier A contains P010–P015 trail/twine redirection and P017/P018/P020–P023 mill reveal/red-cloth approach. Tier B completes mill mechanics/interior deduction; Tier C closes connective bookends and defers P016 dialogue until copy exists.
 - ADR-0096 selects Tier A only as the next post-review bounded tranche. Priority and evidence validators reject 13/13 and 10/10 mutations; no prompt, generation, plan revision, provider call, upload, or cost occurs.
+
+## 2026-09-01 - CH05 overnight integrated release gate r2
+
+- Preserved r1 byte-for-byte and invoked its exact reproducer plus the two full-denominator coverage validators.
+- Three/three orchestrator commands pass in 5.308 seconds, representing 18 effective checks; 13/13 r2 mutations fail.
+- ADR-0097 makes release extension append-only. Fifty plans remain 14 selected + 12/12/12; accepted/executable/calls/uploads/cost remain 0/0/0/0/$0.

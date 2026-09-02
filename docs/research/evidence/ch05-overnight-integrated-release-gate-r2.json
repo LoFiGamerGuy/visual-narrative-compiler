@@ -1,0 +1,79 @@
+{
+  "record_type": "CH05OvernightIntegratedReleaseGate",
+  "schema_version": "1.1",
+  "record_id": "ng-ch05-overnight-integrated-release-gate-r2",
+  "state": "PASS",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-ch05-overnight-integrated-release-gate-r1",
+    "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r1.json",
+    "sha256": "f116fa9f7f93d72e4568d934f6b772256f42b9432bdc8355057825568a70ef8a"
+  },
+  "summary": {
+    "base_command_count": 16,
+    "extension_command_count": 2,
+    "effective_command_count": 18,
+    "orchestrator_commands": 3,
+    "passed": 3,
+    "failed": 0,
+    "observed_total_seconds": 5.307548,
+    "network_capable_commands": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "downloads": 0,
+    "cost_usd": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "human_review_minutes": null
+  },
+  "results": [
+    {
+      "path": "src/north_garden/validate_ch05_overnight_integrated_release_gate.py",
+      "script_sha256": "69e6b6d5b28cfbe79a1f2711005579655ab4e9e1d3a1b89da5eae3856ec48190",
+      "command": "python src/north_garden/validate_ch05_overnight_integrated_release_gate.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 5.171838,
+      "stdout": "CH05 overnight integrated release: 0 failures; 16/16 no-network commands reproduced; 15/15 mutations rejected\nfrozen/baseline/source scope pass; 29 candidates/14 selected remain unaccepted/nonexecutable; 0 calls/uploads/downloads/$0\n",
+      "stdout_sha256": "13b11134ee0a7e7d663ce8217500ed25f2fce83fe2707ec6184fa20e9c3ca239",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_remaining_panel_priority.py",
+      "script_sha256": "ae93229393abb6edf21a661ea636c573d3dc29f7ccb883febd29ef6cfccecf47",
+      "command": "python src/north_garden/validate_ch05_remaining_panel_priority.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.081696,
+      "stdout": "CH05 remaining panel priority: 0 failures; 50 plans = 14 selected + 12/12/12 tiers; 13/13 mutations rejected\nall four practical-action plans selected; remaining trail/mill/interior/connective coverage exact; 0 executable/calls/uploads/$0\n",
+      "stdout_sha256": "4daf131838e393822f0cdc8eaaf87f24cae3f2482d638b51a843eec03d7ad13e",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_remaining_panel_priority_evidence.py",
+      "script_sha256": "f84264977d7712d605b3aea0c2efec7a1fef9324975e7bfce7f29dc0fc849d9e",
+      "command": "python src/north_garden/validate_ch05_remaining_panel_priority_evidence.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.05353,
+      "stdout": "CH05 remaining priority evidence: 0 failures; exact 50 = 14 + 12/12/12; 10/10 mutations rejected\nTier A trail/twine + mill/red-cloth; all plans unchanged; 0 accepted/executable/calls/uploads/$0\n",
+      "stdout_sha256": "359d194380aea598700a014afb38ad8800907158de58c1831f63649129c9f26f",
+      "stderr": ""
+    }
+  ],
+  "effective_coverage": {
+    "comic_panel_plans": 50,
+    "selected": 14,
+    "tier_a": 12,
+    "tier_b": 12,
+    "tier_c": 12
+  },
+  "boundaries": [
+    "R1 remains immutable; r2 invokes its reproducer and adds only the two full-denominator coverage validators.",
+    "All commands are local and non-network-capable.",
+    "Passing does not authorize Tier A generation, accept art, bind copy, or create executable state."
+  ]
+}

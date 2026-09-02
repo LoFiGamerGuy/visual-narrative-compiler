@@ -1,0 +1,83 @@
+{
+  "record_type": "CH05OwnerReviewIndexEvidence",
+  "schema_version": "7.0",
+  "record_id": "ng-ch05-owner-review-index-evidence-r7",
+  "state": "LOCAL_FINAL_EVIDENCE_REVIEW_HUB_READY_OWNER_PENDING",
+  "packet": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r7/owner-review-index-r7-packet.json",
+    "sha256": "51393b8175c82df8256d52ea5b280b3b86db35b722118d41d527f29e75eb6dcb"
+  },
+  "extends": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r6/owner-review-index-r6-packet.json",
+    "sha256": "cd07fc47fc4b663b058037c76bdde6d0cf32e4def1876278c2ad0e5a9d903d58",
+    "link_count": 5
+  },
+  "contract": {
+    "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+    "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5",
+    "completed_decisions": 0,
+    "events": 0,
+    "human_review_minutes": null
+  },
+  "summary": {
+    "candidate_count": 29,
+    "plan_count": 50,
+    "prior_review_links": 117,
+    "release_checks": 66,
+    "engineering_defaults": 10,
+    "link_count": 5,
+    "image_link_count": 0,
+    "html_link_count": 1,
+    "text_link_count": 4,
+    "artifact_count": 1,
+    "owner_decisions": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "links": [
+    {
+      "id": "index_r6",
+      "path": "experiments/review-packets/ch05-owner-review-index-r6/index.html",
+      "sha256": "3110616f90a83d8b99b08f544c44bd285416a0be6d760fb60b4db654b75f5d6d",
+      "kind": "HTML"
+    },
+    {
+      "id": "owner_defaults",
+      "path": "docs/research/ch05-owner-decision-defaults-r1.md",
+      "sha256": "8fef29052c50103eb0979f70ed623af6a87ba59ba04950400e60ac050ff25043",
+      "kind": "TEXT"
+    },
+    {
+      "id": "final_reproducer",
+      "path": "docs/research/evidence/ch05-final-evidence-reproducer-matrix-r2.json",
+      "sha256": "22be0889886030de0a10340a65d5f1b76df3944fc043c8d455834cf68ab5614a",
+      "kind": "TEXT"
+    },
+    {
+      "id": "safe_source",
+      "path": "docs/research/evidence/ch05-overnight-safe-source-parity-r2.json",
+      "sha256": "b0ccb0c6891b690ba333486a434c76489eeeb0996be387c3ab6d80f4d60af1df",
+      "kind": "TEXT"
+    },
+    {
+      "id": "release_r10",
+      "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r10.json",
+      "sha256": "4d0eee06d576a34b23dd547bec7bedec8a97a96b06f5b91d9ca99355035ce043",
+      "kind": "TEXT"
+    }
+  ],
+  "index": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r7/index.html",
+    "sha256": "4e64ae4f132f15eef789c6d3c23386f72d2353d65388b7121c6e774789eb88f3",
+    "bytes": 3306
+  },
+  "determinism": {
+    "consecutive_build_count": 2,
+    "result": "BYTE_IDENTICAL_INDEX_AND_PACKET"
+  },
+  "boundary": "Append-only local hub; r6, empty decision contract, generated pixels, and production state remain unchanged."
+}

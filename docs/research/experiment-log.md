@@ -1338,3 +1338,10 @@
 - Bound each question, engineering default, artifact hash/link, risk, consequence, and unfilled response row.
 - Recommended a separate future-canon proposal for Soren's work-derived warden kit, Sigrid's plaid-preserving pathfinder kit, and the Mireback; CH05 remains unchanged.
 - Sixteen/sixteen mutations fail under ADR-0145; decisions/prompts/renders/acceptance/clearance/execution remain zero/null.
+
+## 2026-09-01 - CH05 owner review index r7 and exact links r5
+
+- Extended immutable hub r6 with owner defaults, final reproducer r2, safe-source r2, and release r10.
+- Built the five-link/one-artifact local hub twice byte-identically; 17/17 mutations fail.
+- Extended the 117-resource r4 manifest by five to 122 exact resources (109 ignored local/13 tracked).
+- Fifteen/fifteen link mutations fail under ADR-0146; art remains ignored, unpublished, unaccepted, and commercially uncleared.

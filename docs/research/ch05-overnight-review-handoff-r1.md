@@ -149,3 +149,5 @@ Current safe-source parity is pinned at `docs/research/evidence/ch05-overnight-s
 The compact current reproducer is `docs/research/evidence/ch05-final-evidence-reproducer-matrix-r2.json`: seven local domains, 108.029 observed seconds, and 23/23 rejected mutations under ADR-0144.
 
 Recommended exact decision defaults are at `docs/research/ch05-owner-decision-defaults-r1.md`, with machine-readable state at `production/comic/handoff/ch05-owner-decision-defaults-packet-r1.json`. ADR-0145 keeps all owner decisions un-ingested and CH05 canon unchanged.
+
+The current single local review entry is `experiments/review-packets/ch05-owner-review-index-r7/index.html`. Exact link manifest r5 and `docs/research/ch05-review-links-r5.md` cover 122 current resources under ADR-0146.

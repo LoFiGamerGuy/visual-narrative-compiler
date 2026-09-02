@@ -1443,3 +1443,10 @@
 - Twelve/twelve consensus facts agree with zero unexplained conflicts; 25/25 mutations fail.
 - Recorded one expected temporal lineage difference: immutable release r12 source snapshot 873 versus later r4/closeout r3 934 (+61).
 - Kept route as an engineering recommendation and all owner-input, ingestion, acceptance, rights, execution, and provider activity closed under ADR-0160.
+
+## 2026-09-01 - CH05 strongest-candidate disposition worksheet r1
+
+- Reconciled 14 exact candidate paths/hashes with the current link manifest and dependency checklist.
+- Added eight required review dimensions per candidate (112 total) plus four visual-only dispositions and one-class repair semantics.
+- One valid synthetic response passes; 14/14 malformed/authority-expanding responses and 16/16 evidence mutations fail.
+- The tracked template remains null and cannot set shortlist rollup, route, acceptance, commercial, exact-base, plan, or cross-medium state under ADR-0161.

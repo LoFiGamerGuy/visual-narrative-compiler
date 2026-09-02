@@ -452,3 +452,5 @@ Final safe-source r4 pins pushed commit `df41783` at 934 paths/14,070,835 bytes,
 Closeout r3 binds 29 candidates/50 plans/12 batches/128 resources/67 priority links to release 84, source 934, cost 82, provenance 29, and frozen 16 + baseline 4. Its pushed compile base spans 471 paths/74 ADRs; 25/25 mutations fail.
 
 The final handoff matrix joins nine current records: 12/12 consensus facts agree, zero unexplained conflicts remain, one expected 873→934 source-lineage delta is disclosed, and 25/25 mutations fail.
+
+The strongest-candidate worksheet binds 14 exact hashes and 112 visual checks. One valid synthetic response passes, 14 malformed/authority-expanding responses fail, and 16 evidence mutations fail; the tracked template remains unfilled.

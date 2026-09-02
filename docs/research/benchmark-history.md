@@ -420,3 +420,5 @@ Integrated release r10 preserves the 58-check r9 base and adds eight current-del
 Safe-source parity r2 pins pushed commit `479f7ca` at 835 paths/12,795,182 bytes, tree `c67628dc…0d04`, and inventory root `ae1563f8…fa22`. Two approved controls and zero generated/prohibited/oversize/credential/model/dataset/private-reference paths are tracked; 17/17 mutations fail.
 
 Final evidence reproducer matrix r2 passes 7/7 current domains in 108.029 seconds and rejects 23/23 mutations on independent replay. It binds release 66 checks, 29 candidates, 50 plans, 117 links, 835 safe paths, frozen 16 + baseline 4, and 68 zero-cost milestones; only two live tracked-count diagnostics normalize.
+
+The owner-defaults packet binds ten evidence-backed recommendations as six pilot roots plus four deferred choices. Sixteen/sixteen mutations fail; all structured owner decisions and promotion state remain empty. The future LitRPG recommendation advances three motifs only to a separate proposal, not CH05 canon.

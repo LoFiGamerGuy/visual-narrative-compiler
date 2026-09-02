@@ -147,3 +147,5 @@ Integrated evidence now passes release r10 at `docs/research/evidence/ch05-overn
 Current safe-source parity is pinned at `docs/research/evidence/ch05-overnight-safe-source-parity-r2.json`: pushed commit `479f7ca`, 835 paths, 12,795,182 bytes, two exact controls, and zero generated/prohibited/oversize/credential/model/dataset/private-reference paths under ADR-0143.
 
 The compact current reproducer is `docs/research/evidence/ch05-final-evidence-reproducer-matrix-r2.json`: seven local domains, 108.029 observed seconds, and 23/23 rejected mutations under ADR-0144.
+
+Recommended exact decision defaults are at `docs/research/ch05-owner-decision-defaults-r1.md`, with machine-readable state at `production/comic/handoff/ch05-owner-decision-defaults-packet-r1.json`. ADR-0145 keeps all owner decisions un-ingested and CH05 canon unchanged.

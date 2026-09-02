@@ -1,0 +1,353 @@
+{
+  "record_type": "CH05OwnerDecisionDefaultsPacket",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-owner-decision-defaults-packet-r1",
+  "state": "ENGINEERING_DEFAULTS_READY_OWNER_DECISIONS_UNINGESTED",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+      "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+    },
+    {
+      "path": "production/comic/review/ch05-route-review-decision-matrix-r1.json",
+      "sha256": "694da9b4b6f649313237bc2cfc10027c2351eb5ae66afa296afd5030203062c1"
+    },
+    {
+      "path": "production/comic/review/future-litrpg-visual-concepts-review-r1.json",
+      "sha256": "36e4826a212550c4a97b3848e311e5431aa5452fe18b5f6ee9ad6d94c68949ba"
+    }
+  ],
+  "summary": {
+    "decisions": 10,
+    "pilot_roots": 6,
+    "deferred": 4,
+    "recommended_defaults": 10,
+    "resolved": 0,
+    "owner_decisions": 0,
+    "review_events": 0,
+    "human_review_minutes": null,
+    "production_prompts": 0,
+    "renders": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0
+  },
+  "rows": [
+    {
+      "order": 1,
+      "decision_id": "route_role_aware_hybrid",
+      "class": "ROUTE",
+      "pilot_unlock_required": true,
+      "question": "Confirm the role-aware cel/clear-line/simplified-insert route versus requesting one uniform finish.",
+      "engineering_default": "CONFIRM_ROLE_AWARE_ROUTE",
+      "development_recommendation": "CONFIRM_ROLE_AWARE_ROUTE",
+      "evidence": {
+        "path": "experiments/review-packets/ch05-continuity-style-density-r1/style-engineering-results-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-continuity-style-density-r1/style-engineering-results-r1.png",
+        "sha256": "ab130df9addde97cfae74e9c9b79afcbfe02d57acc5d24c9597f7532c68a045f"
+      },
+      "risk": "Role-aware finishes can create visible style jumps if density and palette are not sequence-gated.",
+      "consequence": "Unlocks prompt compilation only after candidate and reference choices are separately resolved.",
+      "allowed_pilot_values": [
+        "CONFIRM_ROLE_AWARE_ROUTE",
+        "REQUEST_UNIFORM_FINISH_COMPARISON"
+      ],
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "resolved": false
+    },
+    {
+      "order": 2,
+      "decision_id": "c005_transition_density",
+      "class": "DENSITY",
+      "pilot_unlock_required": true,
+      "question": "Keep c005's foliage density or request one exact density reduction.",
+      "engineering_default": "REQUEST_EXACT_DENSITY_REDUCTION",
+      "development_recommendation": "REQUEST_EXACT_DENSITY_REDUCTION",
+      "evidence": {
+        "path": "experiments/review-packets/ch05-continuity-style-density-r1/selected-phone-density-montage-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-continuity-style-density-r1/selected-phone-density-montage-r1.png",
+        "sha256": "4d701bcc8aae5bed8a1e61f238cc25f73a000c009156e5f8ed3e5ed5bb40fdb0"
+      },
+      "risk": "Current foliage density competes with the trail clue at phone size.",
+      "consequence": "Targets only c005; no broad transition reroll.",
+      "allowed_pilot_values": [
+        "REQUEST_EXACT_DENSITY_REDUCTION",
+        "KEEP_CURRENT_DENSITY"
+      ],
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "resolved": false
+    },
+    {
+      "order": 3,
+      "decision_id": "c014_action_punctuation",
+      "class": "DENSITY",
+      "pilot_unlock_required": true,
+      "question": "Treat c014\u2192c015's 5.6517 appearance jump as intentional action punctuation or unify its finish.",
+      "engineering_default": "KEEP_AS_ACTION_PUNCTUATION",
+      "development_recommendation": "KEEP_AS_ACTION_PUNCTUATION",
+      "evidence": {
+        "path": "experiments/review-packets/ch05-continuity-style-density-r1/sequence-appearance-jumps-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-continuity-style-density-r1/sequence-appearance-jumps-r1.png",
+        "sha256": "43d457cbcd816b899863b040549255fc803439677d2a3ccb365e96095d0caae7"
+      },
+      "risk": "Keeping the pulse preserves energy but accepts the largest measured adjacent appearance jump.",
+      "consequence": "Determines whether c014 remains in cadence or receives one finish-density repair.",
+      "allowed_pilot_values": [
+        "KEEP_AS_ACTION_PUNCTUATION",
+        "REQUEST_FINISH_DENSITY_REPAIR"
+      ],
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "resolved": false
+    },
+    {
+      "order": 4,
+      "decision_id": "lettering_semantics",
+      "class": "LETTERING",
+      "pilot_unlock_required": true,
+      "question": "Choose attributed speech, outside-art caption/direct text, or silence for currently copy-unbound beats.",
+      "engineering_default": "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+      "development_recommendation": "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+      "evidence": {
+        "path": "experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/ch05-transparent-lettering-phone-comparison-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-transparent-lettering-rehearsal-r1/ch05-transparent-lettering-phone-comparison-r1.png",
+        "sha256": "97716fd4f91f618a771be821dfdd6770b9e57cb9b4db9ad72a37b5622677050f"
+      },
+      "risk": "Silence isolates causal evidence but may postpone necessary narrative clarification.",
+      "consequence": "Any caption/speech change requires exact ComicPanelPlan semantics before layout.",
+      "allowed_pilot_values": [
+        "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+        "REQUEST_PLAN_LEVEL_COPY_SEMANTICS"
+      ],
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "resolved": false
+    },
+    {
+      "order": 5,
+      "decision_id": "lettering_visual_arm",
+      "class": "LETTERING",
+      "pilot_unlock_required": false,
+      "question": "Choose 88% in-art backing, light outside-art band, or another targeted comparison.",
+      "engineering_default": "USE_ROLE_DEPENDENT_88_OR_LIGHT_BAND",
+      "development_recommendation": "Use 88% in-art translucent backing only where protected content remains clear; use the light outside-art band for captions; keep dark direct gutter text as comparison only.",
+      "evidence": {
+        "path": "experiments/review-packets/ch05-outside-art-lettering-band-r1/ch05-outside-art-lettering-band-comparison-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-outside-art-lettering-band-r1/ch05-outside-art-lettering-band-comparison-r1.png",
+        "sha256": "04f6de14cab38ba188d69615e60ee39132a33bb8ec3674d78567b9c85f4572d9"
+      },
+      "risk": "Role-dependent backing is more flexible but needs final copy, tail, localization, and accessibility review.",
+      "consequence": "Does not permit content overlap; final copy/font/tails/localization remain separate.",
+      "allowed_pilot_values": null,
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "resolved": false
+    },
+    {
+      "order": 6,
+      "decision_id": "p010_p013_finish_rhythm",
+      "class": "NEXT_EXPERIMENT",
+      "pilot_unlock_required": true,
+      "question": "Use the preflight's role-aware four-beat finish or one shared finish.",
+      "engineering_default": "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+      "development_recommendation": "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+      "evidence": {
+        "path": "experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png",
+        "sha256": "fdd1dcf72108babf8431ead3326aa9f23c84770b704163e4cdfb8accc55cdbcd"
+      },
+      "risk": "Four role-aware finishes maximize information but cannot prove uniform chapter continuity.",
+      "consequence": "Controls only the next zero-prompt contract revision.",
+      "allowed_pilot_values": [
+        "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+        "REQUEST_SHARED_FINISH_CONTROL"
+      ],
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "resolved": false
+    },
+    {
+      "order": 7,
+      "decision_id": "p010_p013_copy",
+      "class": "NEXT_EXPERIMENT",
+      "pilot_unlock_required": true,
+      "question": "Keep P010\u2013P013 silent or bind plan-level caption semantics.",
+      "engineering_default": "KEEP_SILENT_FOR_CAUSAL_TEST",
+      "development_recommendation": "KEEP_SILENT_FOR_CAUSAL_TEST",
+      "evidence": {
+        "path": "experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png",
+        "sha256": "fdd1dcf72108babf8431ead3326aa9f23c84770b704163e4cdfb8accc55cdbcd"
+      },
+      "risk": "A silent causal test cannot validate final dialogue or caption layout.",
+      "consequence": "Separates continuity/causality evidence from unvalidated copy.",
+      "allowed_pilot_values": [
+        "KEEP_SILENT_FOR_CAUSAL_TEST",
+        "REQUEST_PLAN_LEVEL_CAPTION_SEMANTICS"
+      ],
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "resolved": false
+    },
+    {
+      "order": 8,
+      "decision_id": "strongest_candidate_shortlist",
+      "class": "CANDIDATES",
+      "pilot_unlock_required": false,
+      "question": "Review the 14-candidate engineering shortlist for further production evaluation.",
+      "engineering_default": "REVIEW_INDIVIDUALLY",
+      "development_recommendation": "Review all 14 individually; preserve engineering shortlist status without accepting as a group.",
+      "evidence": {
+        "path": "experiments/review-packets/ch05-owner-review-index-r3/index.html",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-owner-review-index-r3/index.html",
+        "sha256": "42899d8b12f2000823c0d388c2c23d43187e6fa62073523c0ea3006594612c27"
+      },
+      "risk": "Group-level taste approval cannot establish candidate-specific exact-base or rights status.",
+      "consequence": "No group decision can create exact-base or commercial acceptance.",
+      "allowed_pilot_values": null,
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "resolved": false
+    },
+    {
+      "order": 9,
+      "decision_id": "noncanon_litrpg_direction",
+      "class": "NONCANON",
+      "pilot_unlock_required": false,
+      "question": "Identify which practical armor, weapon, and Mireback motifs merit a future canon proposal.",
+      "engineering_default": "KEEP_ALL_NONCANON_PENDING_TASTE_REVIEW",
+      "development_recommendation": "Advance Soren's oatmeal work-derived warden kit, Sigrid's plaid-preserving pathfinder kit, and the peat/root/slate Mireback together into a separate future-canon proposal, not a CH05 revision.",
+      "evidence": {
+        "path": "experiments/review-packets/future-litrpg-visual-concepts-r1/review/contact-sheet-future-litrpg-concepts.png",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/future-litrpg-visual-concepts-r1/review/contact-sheet-future-litrpg-concepts.png",
+        "sha256": "2f858c7f9a16300b7259fb94bb6e6dd1ce6c23f69804c8e2b08262e0b0c80f9a"
+      },
+      "risk": "Kit continuity across the equipment sheets and Mireback scene is untested because new concept outputs were not re-uploaded.",
+      "consequence": "No CH05 wardrobe, equipment, monster, or class state changes.",
+      "allowed_pilot_values": null,
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "resolved": false
+    },
+    {
+      "order": 10,
+      "decision_id": "commercial_and_exact_base",
+      "class": "AUTHORITY",
+      "pilot_unlock_required": false,
+      "question": "Separately decide commercial clearance and whether any candidate is eligible as an exact production base.",
+      "engineering_default": "REMAIN_OPEN",
+      "development_recommendation": "Remain open pending candidate-specific visual review and an explicit rights/commercial decision.",
+      "evidence": {
+        "path": "production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json",
+        "sha256": "dacd8daec02a594a66915b73b311f78a77c3ade2002900823206794b87095b31"
+      },
+      "risk": "Provider rights, reproducibility, and exact-base suitability remain separate from visual quality.",
+      "consequence": "Engineering pass and owner taste approval do not establish provider rights, reproducibility, or exact-base suitability.",
+      "allowed_pilot_values": null,
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "resolved": false
+    }
+  ],
+  "response_template": {
+    "record_type": "CH05OwnerDecisionResponseTemplate",
+    "valid_for_ingestion": false,
+    "reason": "Template is intentionally unfilled; copy exact values into the established owner-decision workflow after review.",
+    "required_pilot_roots": [
+      {
+        "decision_id": "route_role_aware_hybrid",
+        "recommended_value": "CONFIRM_ROLE_AWARE_ROUTE",
+        "allowed_values": [
+          "CONFIRM_ROLE_AWARE_ROUTE",
+          "REQUEST_UNIFORM_FINISH_COMPARISON"
+        ],
+        "owner_decision": null
+      },
+      {
+        "decision_id": "c005_transition_density",
+        "recommended_value": "REQUEST_EXACT_DENSITY_REDUCTION",
+        "allowed_values": [
+          "REQUEST_EXACT_DENSITY_REDUCTION",
+          "KEEP_CURRENT_DENSITY"
+        ],
+        "owner_decision": null
+      },
+      {
+        "decision_id": "c014_action_punctuation",
+        "recommended_value": "KEEP_AS_ACTION_PUNCTUATION",
+        "allowed_values": [
+          "KEEP_AS_ACTION_PUNCTUATION",
+          "REQUEST_FINISH_DENSITY_REPAIR"
+        ],
+        "owner_decision": null
+      },
+      {
+        "decision_id": "lettering_semantics",
+        "recommended_value": "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+        "allowed_values": [
+          "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+          "REQUEST_PLAN_LEVEL_COPY_SEMANTICS"
+        ],
+        "owner_decision": null
+      },
+      {
+        "decision_id": "p010_p013_finish_rhythm",
+        "recommended_value": "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+        "allowed_values": [
+          "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+          "REQUEST_SHARED_FINISH_CONTROL"
+        ],
+        "owner_decision": null
+      },
+      {
+        "decision_id": "p010_p013_copy",
+        "recommended_value": "KEEP_SILENT_FOR_CAUSAL_TEST",
+        "allowed_values": [
+          "KEEP_SILENT_FOR_CAUSAL_TEST",
+          "REQUEST_PLAN_LEVEL_CAPTION_SEMANTICS"
+        ],
+        "owner_decision": null
+      }
+    ],
+    "deferred_decisions": [
+      {
+        "decision_id": "lettering_visual_arm",
+        "engineering_default": "USE_ROLE_DEPENDENT_88_OR_LIGHT_BAND",
+        "owner_decision": null
+      },
+      {
+        "decision_id": "strongest_candidate_shortlist",
+        "engineering_default": "REVIEW_INDIVIDUALLY",
+        "owner_decision": null
+      },
+      {
+        "decision_id": "noncanon_litrpg_direction",
+        "engineering_default": "KEEP_ALL_NONCANON_PENDING_TASTE_REVIEW",
+        "owner_decision": null
+      },
+      {
+        "decision_id": "commercial_and_exact_base",
+        "engineering_default": "REMAIN_OPEN",
+        "owner_decision": null
+      }
+    ]
+  },
+  "recommendation": "Use all six exact pilot defaults for the smallest high-information silent causal test. Keep the four deferred choices open except advance the three non-canon LitRPG motifs only into a separate future-canon proposal.",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Engineering recommendations only. This packet does not ingest approval, unlock production, revise ComicPanelPlans, accept art, clear rights, or select an exact production base."
+}

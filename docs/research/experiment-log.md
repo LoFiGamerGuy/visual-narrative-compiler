@@ -1331,3 +1331,10 @@
 - Seven/seven pass in 108.029 seconds; an independent replay rejects 23/23 mutations.
 - Bound exact scripts, arguments, inputs, stdout hashes, and only two declared tracked-count diagnostic normalizations.
 - ADR-0144 keeps provider/promotion activity zero and preserves the 29/50/117/835/frozen-16/baseline-4/68 denominators.
+
+## 2026-09-01 - CH05 owner decision defaults packet r1
+
+- Joined ten route/lettering/candidate/non-canon/rights decisions into six exact pilot roots plus four deferred recommendations.
+- Bound each question, engineering default, artifact hash/link, risk, consequence, and unfilled response row.
+- Recommended a separate future-canon proposal for Soren's work-derived warden kit, Sigrid's plaid-preserving pathfinder kit, and the Mireback; CH05 remains unchanged.
+- Sixteen/sixteen mutations fail under ADR-0145; decisions/prompts/renders/acceptance/clearance/execution remain zero/null.

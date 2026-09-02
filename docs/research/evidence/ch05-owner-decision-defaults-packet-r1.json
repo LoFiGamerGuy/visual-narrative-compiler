@@ -1,0 +1,47 @@
+{
+  "record_type": "CH05OwnerDecisionDefaultsPacketEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-owner-decision-defaults-packet-evidence-r1",
+  "state": "PASS_OWNER_PENDING",
+  "packet": {
+    "path": "production/comic/handoff/ch05-owner-decision-defaults-packet-r1.json",
+    "sha256": "ab56dcd5e6b90db45d5e3ea29f1dcc931a39a164ff506f9a7920443849c44216"
+  },
+  "markdown": {
+    "path": "docs/research/ch05-owner-decision-defaults-r1.md",
+    "sha256": "8fef29052c50103eb0979f70ed623af6a87ba59ba04950400e60ac050ff25043"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+      "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+    },
+    {
+      "path": "production/comic/review/ch05-route-review-decision-matrix-r1.json",
+      "sha256": "694da9b4b6f649313237bc2cfc10027c2351eb5ae66afa296afd5030203062c1"
+    },
+    {
+      "path": "production/comic/review/future-litrpg-visual-concepts-review-r1.json",
+      "sha256": "36e4826a212550c4a97b3848e311e5431aa5452fe18b5f6ee9ad6d94c68949ba"
+    }
+  ],
+  "summary": {
+    "decisions": 10,
+    "pilot_roots": 6,
+    "deferred": 4,
+    "recommended_defaults": 10,
+    "resolved": 0,
+    "owner_decisions": 0,
+    "review_events": 0,
+    "human_review_minutes": null,
+    "production_prompts": 0,
+    "renders": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0
+  },
+  "artifact_count": 10,
+  "response_template_valid_for_ingestion": false,
+  "animation_shot_plan": null,
+  "e_conte": null
+}

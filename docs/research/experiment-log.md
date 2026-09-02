@@ -1091,3 +1091,10 @@
 - Four/four orchestrator commands pass, representing 33 effective checks, in 6.934 observed seconds; 23/23 release-record mutations fail.
 - Frozen v2.1.1 16-path and `baseline_legacy` four-path integrity remain in the release chain.
 - ADR-0110 keeps art acceptance, executable rows, owner decisions, calls, uploads, downloads, and cost at zero; human minutes remain null.
+
+## 2026-09-01 - CH05 owner review index r3 and exact review links r1
+
+- Built a byte-identical 12-card local hub over immutable r2: ten image resources and two HTML resources covering cadence, continuity, lettering, scale, repair, preflight, chapter envelope, and RenderRecord completeness.
+- Compiled 99 unique ignored local artifacts into a tracked hash/path manifest and absolute-link Markdown handoff: 10 contact sheets, nine sequence deliverables, 34 lettering overlays/comparisons, 14 provisional strongest candidates, and supporting hubs/concepts/diagnostics/packets.
+- Preserved attempt 1 after its declared 100-artifact expectation failed against the unchanged 99-artifact compiler output. Corrected only the validator expectations.
+- Index and link validators reject 13/13 and 15/15 mutations. ADR-0111 keeps all generated pixels untracked/unpublished and every owner decision/acceptance field empty.

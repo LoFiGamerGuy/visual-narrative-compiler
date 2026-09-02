@@ -75,3 +75,5 @@ The chapter-scale envelope adds no generation or external cost. Its 36/49/72 can
 The RenderRecord completeness audit adds no generation or external cost. It reconciles all 29 candidates to 1,385.036 observed seconds and 39 exact reference uses. Model, endpoint, request ID, provider usage, monetary cost, and seed remain explicit null in every record; all 29 candidates remain pending and unaccepted.
 
 Integrated release r4 adds no generation or external cost. Its four local commands represent 33 effective checks and run in 6.934 seconds. Calls, uploads, downloads, accepted candidates, executable panels, and owner decisions remain zero; human minutes remain null.
+
+Owner review index r3 and the 99-artifact link manifest add no generation or external cost. They compile ignored local HTML/thumbnails and tracked metadata only. Publication, calls, uploads, owner decisions, and acceptances remain zero; human minutes remain null.

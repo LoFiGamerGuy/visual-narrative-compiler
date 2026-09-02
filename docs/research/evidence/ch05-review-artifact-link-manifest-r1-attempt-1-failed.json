@@ -1,0 +1,38 @@
+{
+  "record_type": "CH05ReviewArtifactLinkManifestValidationAttempt",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-review-artifact-link-manifest-r1-attempt-1-failed",
+  "state": "FAIL",
+  "failure_class": "DECLARED_DENOMINATOR_MISMATCH",
+  "declared": {
+    "unique_artifact_count": 100,
+    "lettering_overlays": 33,
+    "diagnostic_and_policy_sheets": 13
+  },
+  "observed": {
+    "unique_artifact_count": 99,
+    "review_hubs": 4,
+    "contact_sheets": 10,
+    "sequence_packets": 9,
+    "lettering_overlays": 34,
+    "strongest_candidates": 14,
+    "noncanon_litrpg_concepts": 3,
+    "diagnostic_and_policy_sheets": 11,
+    "packet_records": 14
+  },
+  "validator_result": {
+    "failures": 2,
+    "mutation_rejections": "15/15",
+    "messages": [
+      "artifact/category denominator invalid",
+      "Markdown category-link denominator invalid"
+    ]
+  },
+  "resolution": "Correct the declared expectations to the unchanged compiler output. Do not add, remove, or rewrite review artifacts merely to satisfy the mistaken denominator.",
+  "activity": {
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "accepted_candidates": 0
+  }
+}

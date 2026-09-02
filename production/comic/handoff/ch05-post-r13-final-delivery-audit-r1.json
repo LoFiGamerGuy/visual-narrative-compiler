@@ -1,0 +1,151 @@
+{
+  "record_type": "CH05PostR13FinalDeliveryAudit",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-post-r13-final-delivery-audit-r1",
+  "state": "PASS_FINAL_POINTER_READY_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-final-integrated-release-r13.json",
+      "sha256": "d582bacb197d8244904bd8fa6b21b62c7509045179fececabfcd6153449f996a"
+    },
+    {
+      "path": "docs/research/evidence/ch05-post-reproducer-safe-source-parity-r5.json",
+      "sha256": "b4d0156acd586a0f86decb1095c176c59fbee04f9ca24cb3e790c66463bf5887"
+    },
+    {
+      "path": "docs/research/evidence/ch05-completion-readiness-audit-r1.json",
+      "sha256": "5d01ae25c02c4ab90d9594e6e5531b87a8cac6ad19572a1c8950bfe0db5d1684"
+    }
+  ],
+  "review_order": [
+    {
+      "order": 1,
+      "id": "open_visual_hub",
+      "resource": {
+        "path": "experiments/review-packets/ch05-owner-review-index-r9/index.html",
+        "sha256": "41f1c0c3489f845b6ee2e955c8889fbbca8177a036df6b7b34f48d581c6afc43",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-owner-review-index-r9/index.html"
+      },
+      "action": "Review art, sequences, cadence, continuity, lettering, and diagnostics."
+    },
+    {
+      "order": 2,
+      "id": "open_all_links",
+      "resource": {
+        "path": "docs/research/ch05-review-links-r7.md",
+        "sha256": "18635599fa5cceb12ab0b4eb8f760a345c60c406d39fc57951587e7d9455290a",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-review-links-r7.md"
+      },
+      "action": "Use the exact 134-resource inventory for every contact sheet, packet, overlay, and strongest candidate."
+    },
+    {
+      "order": 3,
+      "id": "fill_candidate_worksheet",
+      "resource": {
+        "path": "docs/research/ch05-strongest-candidate-disposition-guide-r1.md",
+        "sha256": "7a941d90127de9cfe3a5dac2bd22affa1e4b7a3a05403258869454b8ea865d30",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-strongest-candidate-disposition-guide-r1.md"
+      },
+      "action": "Record eight visual checks and one disposition for each of 14 strongest candidates; no acceptance is implied."
+    },
+    {
+      "order": 4,
+      "id": "review_closeout",
+      "resource": {
+        "path": "docs/research/ch05-overnight-closeout-r3.md",
+        "sha256": "37df9296c350de6cdb12396c37c8225345f432891b0dfad9f5787fb34a80ab5c",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-overnight-closeout-r3.md"
+      },
+      "action": "Review measured results, route recommendation, limitations, and remaining decisions."
+    },
+    {
+      "order": 5,
+      "id": "start_six_root_session",
+      "resource": {
+        "path": "docs/research/ch05-final-review-session-starter-r1.md",
+        "sha256": "72f3703f98b3106ec96086a5a4e2a0c979d91708ff8572b05c330e7b61bd6e7e",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-final-review-session-starter-r1.md"
+      },
+      "action": "Follow the live-timed six-root dependency order."
+    },
+    {
+      "order": 6,
+      "id": "fill_strict_root_response",
+      "resource": {
+        "path": "docs/research/ch05-owner-response-guide-r1.md",
+        "sha256": "cc0c7a02af8568f325a2e2bc1cff9cef6687c3e2b5c52198440186a0247d34df",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-owner-response-guide-r1.md"
+      },
+      "action": "Create and validate ignored local response/timer files only during actual review."
+    },
+    {
+      "order": 7,
+      "id": "verify_completion",
+      "resource": {
+        "path": "docs/research/ch05-completion-readiness-audit-r1.md",
+        "sha256": "8555d18edf34e5b08a57e199aebaf291833fd9f72ae01555ab7130c8c8ed440d",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/ch05-completion-readiness-audit-r1.md"
+      },
+      "action": "Confirm all requested delivery categories are present before any later ingestion milestone."
+    },
+    {
+      "order": 8,
+      "id": "verify_final_release",
+      "resource": {
+        "path": "docs/research/evidence/ch05-final-integrated-release-r13.json",
+        "sha256": "d582bacb197d8244904bd8fa6b21b62c7509045179fececabfcd6153449f996a",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/evidence/ch05-final-integrated-release-r13.json"
+      },
+      "action": "Reproduce the final 9-command/18-domain integrated gate."
+    },
+    {
+      "order": 9,
+      "id": "verify_safe_source",
+      "resource": {
+        "path": "docs/research/evidence/ch05-post-reproducer-safe-source-parity-r5.json",
+        "sha256": "b4d0156acd586a0f86decb1095c176c59fbee04f9ca24cb3e790c66463bf5887",
+        "absolute_path": "C:/AgentWorkspaces/anime-pipeline/docs/research/evidence/ch05-post-reproducer-safe-source-parity-r5.json"
+      },
+      "action": "Confirm the pushed source frontier excludes generated pixels and prohibited material."
+    }
+  ],
+  "summary": {
+    "steps": 9,
+    "candidates": 29,
+    "strongest_candidates": 14,
+    "worksheet_checks": 112,
+    "plans": 50,
+    "batches": 12,
+    "review_links": 134,
+    "priority_links": 67,
+    "completion_deliverables": 12,
+    "release_commands": 9,
+    "release_domains": 18,
+    "safe_paths": 971,
+    "zero_cost_milestones": 91,
+    "remaining_decisions": 10,
+    "owner_inputs": 0,
+    "owner_decisions_ingested": 0,
+    "visual_dispositions": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0,
+    "human_review_minutes": null
+  },
+  "source": {
+    "compile_head": "8004205cc2a0b1183501c91a50b7b5ec8e059e40",
+    "origin_main": "8004205cc2a0b1183501c91a50b7b5ec8e059e40",
+    "remote_parity": true,
+    "safe_capture": "eafe1ef632dbb9a61b1f17706c901d6cbf1a3217",
+    "safe_capture_ancestor": true
+  },
+  "release_state": "PASS",
+  "completion_state": "PASS_OWNER_REVIEW_PENDING",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Final navigation and delivery audit only. No response, disposition, decision, ingestion, acceptance, clearance, exact base, plan revision, upload, or production execution is created."
+}

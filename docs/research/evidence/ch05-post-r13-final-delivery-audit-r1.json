@@ -1,0 +1,63 @@
+{
+  "record_type": "CH05PostR13FinalDeliveryEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-post-r13-final-delivery-evidence-r1",
+  "state": "PASS_OWNER_REVIEW_PENDING",
+  "audit": {
+    "path": "production/comic/handoff/ch05-post-r13-final-delivery-audit-r1.json",
+    "sha256": "39d4711be220e82d12e50796dcdd7644c248fbd2f60c51a2d1d11f495637b278"
+  },
+  "guide": {
+    "path": "docs/research/ch05-final-owner-review-start-here-r1.md",
+    "sha256": "05182235344d634680bff2832ac55450cd868441a3ca85925741c90fe2dfc6a5"
+  },
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-final-integrated-release-r13.json",
+      "sha256": "d582bacb197d8244904bd8fa6b21b62c7509045179fececabfcd6153449f996a"
+    },
+    {
+      "path": "docs/research/evidence/ch05-post-reproducer-safe-source-parity-r5.json",
+      "sha256": "b4d0156acd586a0f86decb1095c176c59fbee04f9ca24cb3e790c66463bf5887"
+    },
+    {
+      "path": "docs/research/evidence/ch05-completion-readiness-audit-r1.json",
+      "sha256": "5d01ae25c02c4ab90d9594e6e5531b87a8cac6ad19572a1c8950bfe0db5d1684"
+    }
+  ],
+  "summary": {
+    "steps": 9,
+    "candidates": 29,
+    "strongest_candidates": 14,
+    "worksheet_checks": 112,
+    "plans": 50,
+    "batches": 12,
+    "review_links": 134,
+    "priority_links": 67,
+    "completion_deliverables": 12,
+    "release_commands": 9,
+    "release_domains": 18,
+    "safe_paths": 971,
+    "zero_cost_milestones": 91,
+    "remaining_decisions": 10,
+    "owner_inputs": 0,
+    "owner_decisions_ingested": 0,
+    "visual_dispositions": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0,
+    "human_review_minutes": null
+  },
+  "source": {
+    "compile_head": "8004205cc2a0b1183501c91a50b7b5ec8e059e40",
+    "origin_main": "8004205cc2a0b1183501c91a50b7b5ec8e059e40",
+    "remote_parity": true,
+    "safe_capture": "eafe1ef632dbb9a61b1f17706c901d6cbf1a3217",
+    "safe_capture_ancestor": true
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

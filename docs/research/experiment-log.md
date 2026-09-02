@@ -1485,3 +1485,10 @@
 - Nine/nine commands pass in 194.497 seconds; independent replay rejects 33/33 mutations.
 - Bound 29/50/12/134/67/112, release 84, source 971, cost 91, and frozen 16 + baseline 4.
 - Ledger r30 records 91 zero-external-cost milestones; all provider, ingestion, disposition, promotion, and spend state stays zero/null under ADR-0166.
+
+## 2026-09-01 - CH05 post-r13 final delivery audit r1
+
+- Created one nine-step owner start-here document spanning visual hub, exact links, candidate worksheet, closeout, root response, completion, r13, and safe source.
+- Bound 29 candidates/14 strongest/112 checks/50 plans/12 batches/134 links/67 priority/18 release domains/971 safe paths/91 cost milestones.
+- Confirmed current compile parity and source-capture ancestry.
+- Twenty-seven/twenty-seven mutations fail under ADR-0167; all owner/promotion/provider activity remains zero/null.

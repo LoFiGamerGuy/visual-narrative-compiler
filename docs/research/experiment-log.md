@@ -1240,3 +1240,10 @@
 - Three reference hypotheses use only the exact authorized P040/P050 hashes; the no-person twine insert remains text-only and P036 is absent.
 - Corrected initial lint logic that wrongly applied an adult phrase to the no-person row and lacked the exact phrase in the dual-adult row; the preserved validator failure guided the narrow correction.
 - Four/four lint passes and 15/15 mutations fail under ADR-0131; production prompts/uploads/renders remain 0/0/0.
+
+## 2026-09-01 - CH05 prompt-blueprint adversarial validation r1
+
+- Added a reusable validator for exact plan/style/format/canvas/cast bindings, prompt hashes, adult/likeness language, hair/wardrobe, role order, causal and lettering semantics, reference boundaries, and non-execution.
+- The validator's first run caught an overconstraint on a single-character panel; narrowed it while retaining explicit role order for m004.
+- The current blueprint passes and 28/28 malformed in-memory fixtures fail across five risk classes.
+- ADR-0132 keeps production prompts, provider calls, uploads, renders, and cost at zero.

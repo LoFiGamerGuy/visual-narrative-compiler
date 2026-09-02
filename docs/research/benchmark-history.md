@@ -394,3 +394,5 @@ The compact final reproducer matrix runs seven independent domains in 47.129 sec
 The P010–P013 unlock contract identifies six exact owner-decision roots, four deferred choices, and 14 existing-candidate reviews. It keeps the next pilot at four slots/two repair slots/five planned artifacts while prompt/render/promotion remains 0/0/0. Seventeen/seventeen mutations fail; broad approval is direction, not structured acceptance.
 
 The P010–P013 prompt blueprint adds four exact draft hashes with 4/4 lint pass, three authorized-reference hypotheses across two unique hashes, and one text-only object control. Fifteen/fifteen mutations fail. Production prompt fields remain null, making this preparation evidence rather than execution throughput.
+
+Independent blueprint validation passes the four real rows and rejects 28/28 malformed fixtures: age/likeness 2, continuity/role 5, causal/lettering 3, reference boundary 4, and promotion/schema 14. This is robustness evidence for draft validation, not render quality.

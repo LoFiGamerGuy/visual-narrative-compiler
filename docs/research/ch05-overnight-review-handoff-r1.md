@@ -121,3 +121,5 @@ The compact current reproducer is `docs/research/evidence/ch05-final-evidence-re
 The next-pilot decision boundary is `production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json`, with a readable six-decision checklist at `docs/research/ch05-p010-p013-owner-unlock-checklist-r1.md`. ADR-0130 keeps broad direction distinct from exact structured approval.
 
 Non-executable next-pilot drafts are at `production/comic/run-manifests/ch05-p010-p013-prompt-blueprint-r1.json`. ADR-0131 keeps their exact hashes separate from the still-null production prompts.
+
+Reusable draft validation is `python src/north_garden/validate_ch05_prompt_blueprint_draft.py`; fixture evidence is `docs/research/evidence/ch05-prompt-blueprint-adversarial-validation-r1.json`. ADR-0132 records 28/28 malformed rejection.

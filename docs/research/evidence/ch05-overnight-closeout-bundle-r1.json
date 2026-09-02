@@ -1,0 +1,88 @@
+{
+  "record_type": "CH05OvernightCloseoutBundleEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-overnight-closeout-bundle-evidence-r1",
+  "state": "PASS_OWNER_PENDING",
+  "bundle": {
+    "path": "production/comic/handoff/ch05-overnight-closeout-bundle-r1.json",
+    "sha256": "f6f4a44c3c6b3e8c5fe3b9b4b03b025a076e1b0f6f767eb47ff101c38ba20c3c"
+  },
+  "summary_document": {
+    "path": "docs/research/ch05-overnight-closeout-r1.md",
+    "sha256": "0259ac83fe08d674ce1e0dd1094a1cd62a13b36793ed5b681ab02d39571990eb"
+  },
+  "changed_files_document": {
+    "path": "docs/research/ch05-overnight-final-changed-files-r1.md",
+    "sha256": "09ea3e295e97a027ea6d7d0679dcb12ebfd04f4aa89fa0af6835447b252ea9d0"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/review/ch05-review-artifact-link-manifest-r5.json",
+      "sha256": "43ee8365e441e8e8ecdee2098471b6f20ad242a41ae2107bba549d6a457c3958"
+    },
+    {
+      "path": "production/comic/handoff/ch05-overnight-delivery-bundle-r2.json",
+      "sha256": "d4748641d394f96072617b8eb5b180e4f022cc6a4cb19daceb7592c007762e5e"
+    },
+    {
+      "path": "docs/research/evidence/ch05-final-evidence-reproducer-matrix-r2.json",
+      "sha256": "22be0889886030de0a10340a65d5f1b76df3944fc043c8d455834cf68ab5614a"
+    },
+    {
+      "path": "docs/research/evidence/ch05-overnight-safe-source-parity-r2.json",
+      "sha256": "b0ccb0c6891b690ba333486a434c76489eeeb0996be387c3ab6d80f4d60af1df"
+    },
+    {
+      "path": "production/comic/handoff/ch05-owner-decision-defaults-packet-r1.json",
+      "sha256": "ab56dcd5e6b90db45d5e3ea29f1dcc931a39a164ff506f9a7920443849c44216"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r27.json",
+      "sha256": "4fbbc5f0df6f26418624aa44fd086d46185dad2ba45c2d261785871b68f690ae"
+    },
+    {
+      "path": "docs/research/evidence/frozen-gauntlet-baseline-integrity-r1.json",
+      "sha256": "9abf582927b7dfccf4757a8745eee5fd260bd70418e4fd350fefeafe6ce9fbd9"
+    },
+    {
+      "path": "production/comic/recommendations/ch05-pipeline-route-recommendation-r1.json",
+      "sha256": "dacd8daec02a594a66915b73b311f78a77c3ade2002900823206794b87095b31"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-built-in-renderrecord-index-r1.json",
+      "sha256": "546eaca1f47e02aea256192dc24653b29912d607b20cdafbcf9bb8eb4b5bf437"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-production-duration-capacity-r1.json",
+      "sha256": "d1ca7272b5c2e7b347249e3d87b0b16c72791c3b4c1d90e6f69a427b3bb77130"
+    }
+  ],
+  "summary": {
+    "candidates": 29,
+    "ch05_candidates": 26,
+    "noncanon_concepts": 3,
+    "plans": 50,
+    "represented_plans": 14,
+    "batches": 12,
+    "review_links": 122,
+    "direct_review_links": 67,
+    "contact_sheets": 10,
+    "sequence_packets": 9,
+    "lettering_overlays": 34,
+    "strongest_candidates": 14,
+    "release_checks": 66,
+    "reproducer_domains": 7,
+    "safe_paths": 835,
+    "remaining_decisions": 10,
+    "resolved_decisions": 0,
+    "paid_spend_usd": 0,
+    "accepted": 0,
+    "executable": 0,
+    "human_review_minutes": null,
+    "changed_paths": 393,
+    "adrs": 62
+  },
+  "base_remote_parity": true,
+  "animation_shot_plan": null,
+  "e_conte": null
+}

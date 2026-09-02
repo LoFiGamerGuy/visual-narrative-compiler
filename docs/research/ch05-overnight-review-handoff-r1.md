@@ -151,3 +151,5 @@ The compact current reproducer is `docs/research/evidence/ch05-final-evidence-re
 Recommended exact decision defaults are at `docs/research/ch05-owner-decision-defaults-r1.md`, with machine-readable state at `production/comic/handoff/ch05-owner-decision-defaults-packet-r1.json`. ADR-0145 keeps all owner decisions un-ingested and CH05 canon unchanged.
 
 The current single local review entry is `experiments/review-packets/ch05-owner-review-index-r7/index.html`. Exact link manifest r5 and `docs/research/ch05-review-links-r5.md` cover 122 current resources under ADR-0146.
+
+The final direct-link handoff is `docs/research/ch05-overnight-closeout-r1.md`, with machine-readable state at `production/comic/handoff/ch05-overnight-closeout-bundle-r1.json` and exact changed paths at `docs/research/ch05-overnight-final-changed-files-r1.md` under ADR-0147.

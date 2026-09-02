@@ -424,3 +424,5 @@ Final evidence reproducer matrix r2 passes 7/7 current domains in 108.029 second
 The owner-defaults packet binds ten evidence-backed recommendations as six pilot roots plus four deferred choices. Sixteen/sixteen mutations fail; all structured owner decisions and promotion state remain empty. The future LitRPG recommendation advances three motifs only to a separate proposal, not CH05 canon.
 
 Owner hub r7 rebuilds byte-identically with five final-evidence links and one ignored artifact; 17/17 mutations fail. Exact link manifest r5 preserves 117 bindings and reaches 122 resources (109 ignored/13 tracked); 15/15 mutations fail.
+
+Closeout bundle r1 reconciles 29 candidates, 50 plans, 12 batches, 122 resources, and 67 explicit high-priority links (10 contact sheets/9 sequence packets/34 lettering overlays/14 strongest). It binds a 393-path/62-ADR base inventory and rejects 24/24 mutations without promotion.

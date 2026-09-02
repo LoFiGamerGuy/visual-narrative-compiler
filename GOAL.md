@@ -270,6 +270,8 @@ The owner-defaults milestone is complete under ADR-0145. Ten decisions bind six 
 
 The owner-hub-r7/link-r5 milestone is complete under ADR-0146. Hub r7 adds five final-evidence links over immutable r6 and rebuilds byte-identically; 17/17 mutations fail. Link r5 preserves all 117 prior bindings and reaches 122 exact resources (109 ignored/13 tracked), with 15/15 mutations failing. The next bounded milestone is a final closeout bundle that binds the current hub, all direct review links, changed-file inventory, ranked route, exact counts, limitations, ADR range, spend, frozen/source state, and remaining decisions.
 
+The overnight-closeout milestone is complete under ADR-0147. One bundle binds 29 candidates, 50 plans, 12 batches, 122 resources, and 67 explicit high-priority links (10 contact sheets/nine sequence packets/34 lettering overlays/14 strongest). It records a 393-path/62-ADR pushed base, ranked route, timing, spend, limitations, frozen/source/reproducer state, and ten unresolved decisions; 24/24 mutations fail. The next bounded milestone is integrated release r11 plus cost ledger r28 covering owner defaults, hub r7/link r5, and the closeout bundle.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

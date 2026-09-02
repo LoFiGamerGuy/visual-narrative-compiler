@@ -1345,3 +1345,10 @@
 - Built the five-link/one-artifact local hub twice byte-identically; 17/17 mutations fail.
 - Extended the 117-resource r4 manifest by five to 122 exact resources (109 ignored local/13 tracked).
 - Fifteen/fifteen link mutations fail under ADR-0146; art remains ignored, unpublished, unaccepted, and commercially uncleared.
+
+## 2026-09-01 - CH05 overnight closeout bundle r1
+
+- Bound 29 candidates, 50 plans, 12 batches, 122 review resources, ten decisions, current lineage, source/frozen/cost/reproducer evidence, and ranked route recommendations.
+- Enumerated 67 direct review resources: ten contact sheets, nine sequence packets, 34 lettering overlays, and 14 strongest candidates.
+- Generated a 393-path/62-ADR immutable base inventory through pushed commit `cd20fa4`.
+- Twenty-four/twenty-four mutations fail under ADR-0147; spend/decisions/acceptance/clearance/execution remain zero/null.

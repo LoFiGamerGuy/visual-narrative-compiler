@@ -1268,3 +1268,10 @@
 - Marked only seq03 as draft-entered; all 11 other batches remain plan-only and zero executable.
 - Distinguished seven reusable contract/tool classes from eight per-batch evidence identities that must never be copied forward.
 - Built twice and visually checked a 1900×1480 lifecycle map; 49 artifacts are planned and 22/22 mutations fail under ADR-0135.
+
+## 2026-09-01 - CH05 owner review index r5 and exact links r3
+
+- Extended immutable hub r4 with seven current pilot/lifecycle resources: one image, one prior HTML hub, and five text/JSON records.
+- Built r5 twice byte-identically; seven links/two ignored artifacts validate and 16/16 mutations fail.
+- Extended immutable 105-resource link manifest r2 to 112 exact resources, with 106 ignored local and six tracked metadata links.
+- Fifteen/fifteen link mutations fail under ADR-0136; decision, execution, provider, and promotion state remains zero/null.

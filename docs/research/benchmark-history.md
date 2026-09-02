@@ -402,3 +402,5 @@ The P010–P013 pre-render builder dry-run passes with four absent candidate slo
 The pilot lifecycle state machine exhausts 121 state pairs: 11 legal transitions and 110 illegal/unconfigured pairs. Its four-edge repair loop is capped at two slots, and 18/18 mutations fail. This measures workflow guard coverage, not art or provider behavior.
 
 The chapter lifecycle application covers 50 plans/12 batches with one lifecycle-entered and 11 not entered, preserving waves 1/2/5/4. Seven reusable contract classes are separated from eight batch-specific evidence classes; 49 review artifacts are planned and 22/22 mutations fail. The 1900×1480 map is visually checked.
+
+Owner hub r5 builds byte-identically with seven links and two ignored local artifacts; 16/16 mutations fail. Exact link manifest r3 preserves 105 prior bindings and reaches 112 resources (106 ignored/six tracked); 15/15 mutations fail.

@@ -1,0 +1,9 @@
+"""Export tracked evidence for ignored CH05 owner review index r5."""
+from __future__ import annotations
+import hashlib,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2]; PACKET=ROOT/"experiments/review-packets/ch05-owner-review-index-r5/owner-review-index-r5-packet.json"; OUTPUT=ROOT/"docs/research/evidence/ch05-owner-review-index-r5.json"
+def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+def main():
+    p=json.loads(PACKET.read_text(encoding="utf-8")); e={"record_type":"CH05OwnerReviewIndexEvidence","schema_version":"5.0","record_id":"ng-ch05-owner-review-index-evidence-r5","state":"LOCAL_PILOT_AND_CHAPTER_REVIEW_HUB_READY_OWNER_PENDING","packet":{"path":PACKET.relative_to(ROOT).as_posix(),"sha256":sha(PACKET)},"extends":p["extends"],"contract":p["contract"],"summary":{"candidate_count":29,"plan_count":50,"sequence_count":12,"open_pilot_roots":6,"link_count":p["link_count"],"image_link_count":p["image_link_count"],"html_link_count":p["html_link_count"],"text_link_count":p["text_link_count"],"artifact_count":p["artifact_count"],"owner_decisions":0,"accepted_candidates":0,"executable_panels":0,"provider_calls":0,"uploads":0,"cost_usd":0,"human_review_minutes":None},"links":[{"id":x["id"],"path":x["path"],"sha256":x["sha256"],"kind":x["kind"]} for x in p["links"]],"index":p["index"],"determinism":{"consecutive_build_count":2,"result":"BYTE_IDENTICAL_INDEX_PACKET_AND_THUMBNAIL"},"limitations":["Local links only; browser interaction is not captured.","Owner decisions and timed review remain absent.","Generated pixels remain ignored and commercially uncleared."],"boundary":p["boundary"]}; OUTPUT.write_text(json.dumps(e,indent=2)+"\n",encoding="utf-8",newline="\n"); print(f"exported CH05 owner review index r5 evidence {sha(OUTPUT)}"); return 0
+if __name__=="__main__": raise SystemExit(main())

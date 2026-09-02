@@ -248,6 +248,8 @@ The P010–P013 lifecycle milestone is complete under ADR-0134. Eleven states an
 
 The chapter batch-lifecycle application milestone is complete under ADR-0135. All 50 plans map once into 12 batches; only seq03 is lifecycle-entered, while 11 remain plan-only. Seven schema/tool contracts are reusable but eight evidence identities must be rebound per batch. Waves remain 1/2/5/4, 49 review artifacts are planned, the byte-identical 1900×1480 map is visually checked, and 22/22 mutations fail. The next bounded milestone is owner hub r5 plus an exact link-manifest revision exposing the new unlock, blueprint, packet, lifecycle, and chapter-map resources.
 
+The owner-hub/link milestone is complete under ADR-0136. Hub r5 builds byte-identically with seven links (one image/one HTML/five text) and rejects 16/16 mutations. Link manifest r3 preserves all 105 r2 resources and adds seven current pilot/lifecycle links: 112 exact resources, 106 ignored plus six tracked; 15/15 mutations fail. The next bounded milestone is integrated release r9 covering all post-r8 compatibility, reproducer, unlock, prompt, packet, lifecycle, chapter, and owner-link validators.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

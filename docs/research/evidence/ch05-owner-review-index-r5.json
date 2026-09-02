@@ -1,0 +1,99 @@
+{
+  "record_type": "CH05OwnerReviewIndexEvidence",
+  "schema_version": "5.0",
+  "record_id": "ng-ch05-owner-review-index-evidence-r5",
+  "state": "LOCAL_PILOT_AND_CHAPTER_REVIEW_HUB_READY_OWNER_PENDING",
+  "packet": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r5/owner-review-index-r5-packet.json",
+    "sha256": "de18f7f87128dd31385949bf7f418a8398113955dff1dcb259390191ee6d4914"
+  },
+  "extends": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r4/owner-review-index-r4-packet.json",
+    "sha256": "b631b6f5dcece20a7caab46b97c23a08fb886c660c245fd10e341a4f67cbef4f",
+    "link_count": 6
+  },
+  "contract": {
+    "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+    "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5",
+    "completed_decisions": 0,
+    "events": 0,
+    "human_review_minutes": null
+  },
+  "summary": {
+    "candidate_count": 29,
+    "plan_count": 50,
+    "sequence_count": 12,
+    "open_pilot_roots": 6,
+    "link_count": 7,
+    "image_link_count": 1,
+    "html_link_count": 1,
+    "text_link_count": 5,
+    "artifact_count": 2,
+    "owner_decisions": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "links": [
+    {
+      "id": "index_r4",
+      "path": "experiments/review-packets/ch05-owner-review-index-r4/index.html",
+      "sha256": "ca80b4aeec50d796a6e011f4d38566712cf7d40af084faacccd7625177f444d1",
+      "kind": "HTML"
+    },
+    {
+      "id": "pilot_unlock",
+      "path": "docs/research/ch05-p010-p013-owner-unlock-checklist-r1.md",
+      "sha256": "2ebc69dca819545669ed445dfd2939e3c60a33150a28ef689d0754ee2c4b9339",
+      "kind": "TEXT"
+    },
+    {
+      "id": "chapter_lifecycle",
+      "path": "experiments/review-packets/ch05-chapter-batch-lifecycle-r1/ch05-chapter-batch-lifecycle-map-r1.png",
+      "sha256": "d76957f477bfeb9682e25dc65ae252ce9556351b9a7ea08236d4d2c9bbad6eb0",
+      "kind": "IMAGE"
+    },
+    {
+      "id": "prompt_blueprint",
+      "path": "production/comic/run-manifests/ch05-p010-p013-prompt-blueprint-r1.json",
+      "sha256": "1959a21e4c0d513c48272c2637816976c4be6adc69e9d0524e1babdabf75f5ac",
+      "kind": "TEXT"
+    },
+    {
+      "id": "prerender_packet",
+      "path": "production/comic/review/ch05-p010-p013-prerender-packet-blueprint-r1.json",
+      "sha256": "08c1ca4bb570ad52e4556d06e94c3cd92553924603816bf05b89ac96a45e0a08",
+      "kind": "TEXT"
+    },
+    {
+      "id": "pilot_lifecycle",
+      "path": "production/comic/run-manifests/ch05-p010-p013-lifecycle-state-machine-r1.json",
+      "sha256": "2a8d5f67e57a45dce1ceec83464db2ac0a514a001af91314391d64a7c3068cf0",
+      "kind": "TEXT"
+    },
+    {
+      "id": "reproducer",
+      "path": "docs/research/evidence/ch05-final-evidence-reproducer-matrix-r1.json",
+      "sha256": "d4625ddf5c4c5d4918006d1d291601eb1dbba9c0f63020f58fbfb417a9f9a312",
+      "kind": "TEXT"
+    }
+  ],
+  "index": {
+    "path": "experiments/review-packets/ch05-owner-review-index-r5/index.html",
+    "sha256": "a0fa4a473f4dbbc87524a5d33e53d883bcd399194931af8a9a2dd118e85ece30",
+    "bytes": 4175
+  },
+  "determinism": {
+    "consecutive_build_count": 2,
+    "result": "BYTE_IDENTICAL_INDEX_PACKET_AND_THUMBNAIL"
+  },
+  "limitations": [
+    "Local links only; browser interaction is not captured.",
+    "Owner decisions and timed review remain absent.",
+    "Generated pixels remain ignored and commercially uncleared."
+  ],
+  "boundary": "Append-only local hub; r4, empty decision contract, generated pixels, and production state remain unchanged."
+}

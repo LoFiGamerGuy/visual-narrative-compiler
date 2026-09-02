@@ -1429,3 +1429,10 @@
 - Bound 934 paths/14,070,835 bytes, tree `f5d1a7b6…e0c53`, and inventory root `c512c072…1f07`.
 - Confirmed release 84, links 128, exactly two public controls, and zero generated/prohibited/credential/model/dataset/private-reference/unrelated tracked paths.
 - Nineteen/nineteen mutations fail under ADR-0158; generated review pixels remain ignored and local.
+
+## 2026-09-01 - CH05 overnight closeout bundle r3
+
+- Extended closeout r2 append-only with release r12, safe-source r4, hub r8/link r6, cost r29, starter/preflight, and final provenance audit.
+- Preserved 29 candidates/50 plans/12 batches/67 priority links and advanced the exhaustive inventory to 128 resources.
+- Bound release 84/source 934/cost 82/frozen 16+4/provenance 29 across 471 changed paths and 74 ADRs.
+- Twenty-five/twenty-five mutations fail under ADR-0159; response/log/ingestion and promotion activity remain zero/null.

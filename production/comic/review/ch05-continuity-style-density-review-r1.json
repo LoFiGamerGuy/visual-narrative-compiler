@@ -1,0 +1,39 @@
+{
+  "record_type": "ComicContinuityStyleDensityEngineeringReview",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-continuity-style-density-review-r1",
+  "state": "PROVISIONAL_DIAGNOSTIC_REVIEW_OWNER_REVIEW_PENDING",
+  "local_packet": "experiments/review-packets/ch05-continuity-style-density-r1/continuity-style-density-packet.json",
+  "human_review_minutes": null,
+  "accepted_candidates": 0,
+  "manual_continuity": {
+    "hair_and_role_identity": "PASS across all 14 selected panels by prior manual engineering review",
+    "wardrobe": "PASS for oatmeal-coat Soren and plaid-wrap Sigrid by prior manual engineering review",
+    "boundary": "No global feature statistic is treated as identity, hair, wardrobe, hand, object, or causal-action recognition."
+  },
+  "style_engineering_results_all_26": {
+    "cel_painted": {"pass": 5, "warn": 0, "fail": 1, "total": 6, "all_dimension_pass_rate": 0.8333},
+    "clear_line_watercolor": {"pass": 5, "warn": 2, "fail": 1, "total": 8, "all_dimension_pass_rate": 0.625},
+    "limited_ink_flat": {"pass": 4, "warn": 1, "fail": 1, "total": 6, "all_dimension_pass_rate": 0.6667},
+    "clean_graphic": {"pass": 3, "warn": 0, "fail": 3, "total": 6, "all_dimension_pass_rate": 0.5},
+    "limitation": "Panel tasks and reference conditions are unbalanced; rates describe this run and are not universal style scores."
+  },
+  "selected_style_counts": {"cel_painted": 4, "clean_graphic": 3, "clear_line_watercolor": 6, "limited_ink_flat": 1},
+  "density_findings": [
+    {"candidate_id": "c005", "finding": "Highest selected phone-scale edge occupancy at 0.308471; supports the existing dense-transition and lettering warning."},
+    {"candidate_id": "c013", "finding": "Lowest selected edge occupancy at 0.091168; useful calm deduction anchor before the action insert."},
+    {"candidate_id": "c014", "finding": "Edge occupancy 0.275889 and highest colorfulness 19.9409; the limited-ink label does not make this exact panel low-density."},
+    {"candidate_id": "c015", "finding": "Low edge occupancy 0.096065 and low entropy 6.3705 create a sharp calm reset after c014."},
+    {"candidate_id": "h001", "finding": "Wide hero action retains moderate edge occupancy 0.194249 with high entropy 7.522; detail remains readable at 338×185 phone pixels."}
+  ],
+  "appearance_jump_review": {
+    "maximum": {"from_candidate": "c014", "to_candidate": "c015", "distance": 5.6517, "sequence_break": false},
+    "interpretation": "Potentially useful action-to-calm punctuation, but also the strongest finish-density discontinuity and an explicit owner review target.",
+    "other_high_jumps": [
+      {"from_candidate": "c013", "to_candidate": "c014", "distance": 4.8854},
+      {"from_candidate": "c015", "to_candidate": "c016", "distance": 4.7602}
+    ]
+  },
+  "decision": "Retain the role-aware cel-painted/clear-line route. Do not choose clean graphic or limited ink as a uniform chapter treatment from these unbalanced counts. Treat c014's dense limited-ink punctuation and c005's foliage density as explicit owner review items; if either is rejected, the next render experiment should target only that exact density failure.",
+  "boundary": "No metric, style arm, candidate, sequence, or production base is accepted or commercially cleared."
+}

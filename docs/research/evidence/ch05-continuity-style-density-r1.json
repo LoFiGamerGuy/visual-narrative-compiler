@@ -1,0 +1,585 @@
+{
+  "record_type": "CH05ContinuityStyleDensityEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-continuity-style-density-evidence-r1",
+  "state": "LOCAL_DIAGNOSTIC_OWNER_REVIEW_PENDING_UNACCEPTED",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "assembly_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "local_packet": {
+    "path": "experiments/review-packets/ch05-continuity-style-density-r1/continuity-style-density-packet.json",
+    "sha256": "526563c97a9941eb468a49f237f4376d37ac1da122103adf549ffed8666ba3fd"
+  },
+  "engineering_review": {
+    "path": "production/comic/review/ch05-continuity-style-density-review-r1.json",
+    "sha256": "9b9fabcbbf1131e6c8b133d6b0da76c88d58a0a8a7cd10f6e4a7678ab534499d"
+  },
+  "summary": {
+    "selected_candidate_count": 14,
+    "style_triage_candidate_count": 26,
+    "style_count": 4,
+    "sequence_count": 3,
+    "adjacent_pair_count": 13,
+    "artifact_count": 4,
+    "accepted_candidates": 0,
+    "human_review_minutes": null,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0
+  },
+  "feature_names": [
+    "edge_occupancy_ge_32",
+    "luma_entropy_bits",
+    "luma_stddev",
+    "colorfulness",
+    "quantized_color_entropy_bits"
+  ],
+  "selected_records": [
+    {
+      "order": 1,
+      "sequence_id": "departure_and_clue",
+      "candidate_id": "c019",
+      "panel_id": "ng-ch05-sc01-p001",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "wide_orientation",
+      "target_width": 1040,
+      "metrics": {
+        "phone_dimensions": [
+          338,
+          225
+        ],
+        "luma_mean": 88.563,
+        "luma_stddev": 57.629,
+        "luma_entropy_bits": 7.474,
+        "edge_mean": 24.562,
+        "edge_occupancy_ge_32": 0.247064,
+        "colorfulness": 11.7395,
+        "quantized_color_entropy_bits": 5.062,
+        "black_clip_fraction": 0.026982,
+        "white_clip_fraction": 0.000381,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 2,
+      "sequence_id": "departure_and_clue",
+      "candidate_id": "c002",
+      "panel_id": "ng-ch05-sc01-p002",
+      "style_id": "cel_painted",
+      "cadence_role": "medium_orientation",
+      "target_width": 760,
+      "metrics": {
+        "phone_dimensions": [
+          247,
+          371
+        ],
+        "luma_mean": 87.397,
+        "luma_stddev": 83.757,
+        "luma_entropy_bits": 6.7177,
+        "edge_mean": 11.9657,
+        "edge_occupancy_ge_32": 0.106233,
+        "colorfulness": 13.6876,
+        "quantized_color_entropy_bits": 4.4436,
+        "black_clip_fraction": 0.254482,
+        "white_clip_fraction": 0.0,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 3,
+      "sequence_id": "departure_and_clue",
+      "candidate_id": "h002",
+      "panel_id": "ng-ch05-sc01-p003",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "small_clue_insert",
+      "target_width": 600,
+      "metrics": {
+        "phone_dimensions": [
+          195,
+          213
+        ],
+        "luma_mean": 72.688,
+        "luma_stddev": 61.286,
+        "luma_entropy_bits": 7.0882,
+        "edge_mean": 24.3295,
+        "edge_occupancy_ge_32": 0.267171,
+        "colorfulness": 11.4032,
+        "quantized_color_entropy_bits": 4.7932,
+        "black_clip_fraction": 0.044902,
+        "white_clip_fraction": 4.8e-05,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 4,
+      "sequence_id": "departure_and_clue",
+      "candidate_id": "c005",
+      "panel_id": "ng-ch05-sc01-p009",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "tall_transition",
+      "target_width": 720,
+      "metrics": {
+        "phone_dimensions": [
+          234,
+          416
+        ],
+        "luma_mean": 67.677,
+        "luma_stddev": 58.522,
+        "luma_entropy_bits": 7.3478,
+        "edge_mean": 38.764,
+        "edge_occupancy_ge_32": 0.308471,
+        "colorfulness": 11.9824,
+        "quantized_color_entropy_bits": 5.1515,
+        "black_clip_fraction": 0.147066,
+        "white_clip_fraction": 0.002414,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 5,
+      "sequence_id": "bridge_to_mill",
+      "candidate_id": "c006",
+      "panel_id": "ng-ch05-sc01-p019",
+      "style_id": "clean_graphic",
+      "cadence_role": "wide_warning_action",
+      "target_width": 1040,
+      "metrics": {
+        "phone_dimensions": [
+          338,
+          186
+        ],
+        "luma_mean": 93.469,
+        "luma_stddev": 75.233,
+        "luma_entropy_bits": 7.3407,
+        "edge_mean": 23.2751,
+        "edge_occupancy_ge_32": 0.209886,
+        "colorfulness": 13.145,
+        "quantized_color_entropy_bits": 5.1368,
+        "black_clip_fraction": 0.103105,
+        "white_clip_fraction": 0.0,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 6,
+      "sequence_id": "bridge_to_mill",
+      "candidate_id": "c008",
+      "panel_id": "ng-ch05-sc01-p026",
+      "style_id": "cel_painted",
+      "cadence_role": "medium_sensory_insert",
+      "target_width": 700,
+      "metrics": {
+        "phone_dimensions": [
+          228,
+          343
+        ],
+        "luma_mean": 71.109,
+        "luma_stddev": 77.323,
+        "luma_entropy_bits": 6.5589,
+        "edge_mean": 14.6984,
+        "edge_occupancy_ge_32": 0.129902,
+        "colorfulness": 15.1384,
+        "quantized_color_entropy_bits": 4.3729,
+        "black_clip_fraction": 0.253734,
+        "white_clip_fraction": 0.0,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 7,
+      "sequence_id": "bridge_to_mill",
+      "candidate_id": "h004",
+      "panel_id": "ng-ch05-sc01-p029",
+      "style_id": "clean_graphic",
+      "cadence_role": "wide_dual_target_reveal",
+      "target_width": 1040,
+      "metrics": {
+        "phone_dimensions": [
+          338,
+          186
+        ],
+        "luma_mean": 86.884,
+        "luma_stddev": 87.735,
+        "luma_entropy_bits": 6.8398,
+        "edge_mean": 17.8226,
+        "edge_occupancy_ge_32": 0.178345,
+        "colorfulness": 9.4393,
+        "quantized_color_entropy_bits": 4.2959,
+        "black_clip_fraction": 0.213018,
+        "white_clip_fraction": 0.007031,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 8,
+      "sequence_id": "bridge_to_mill",
+      "candidate_id": "c010",
+      "panel_id": "ng-ch05-sc01-p035",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "small_object_reveal",
+      "target_width": 560,
+      "metrics": {
+        "phone_dimensions": [
+          182,
+          273
+        ],
+        "luma_mean": 82.536,
+        "luma_stddev": 80.66,
+        "luma_entropy_bits": 6.7316,
+        "edge_mean": 12.9871,
+        "edge_occupancy_ge_32": 0.111952,
+        "colorfulness": 9.3129,
+        "quantized_color_entropy_bits": 3.9289,
+        "black_clip_fraction": 0.295133,
+        "white_clip_fraction": 0.0,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 9,
+      "sequence_id": "bridge_to_mill",
+      "candidate_id": "h006",
+      "panel_id": "ng-ch05-sc01-p036",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "tall_causal_anchor",
+      "target_width": 700,
+      "metrics": {
+        "phone_dimensions": [
+          228,
+          456
+        ],
+        "luma_mean": 82.468,
+        "luma_stddev": 74.943,
+        "luma_entropy_bits": 7.1112,
+        "edge_mean": 20.2471,
+        "edge_occupancy_ge_32": 0.194681,
+        "colorfulness": 13.2592,
+        "quantized_color_entropy_bits": 4.9253,
+        "black_clip_fraction": 0.135042,
+        "white_clip_fraction": 0.0,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 10,
+      "sequence_id": "signal_and_return",
+      "candidate_id": "c013",
+      "panel_id": "ng-ch05-sc01-p040",
+      "style_id": "clear_line_watercolor",
+      "cadence_role": "medium_deduction",
+      "target_width": 760,
+      "metrics": {
+        "phone_dimensions": [
+          247,
+          371
+        ],
+        "luma_mean": 81.211,
+        "luma_stddev": 83.436,
+        "luma_entropy_bits": 6.5632,
+        "edge_mean": 12.0133,
+        "edge_occupancy_ge_32": 0.091168,
+        "colorfulness": 17.0948,
+        "quantized_color_entropy_bits": 4.1937,
+        "black_clip_fraction": 0.307987,
+        "white_clip_fraction": 0.0,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 11,
+      "sequence_id": "signal_and_return",
+      "candidate_id": "c014",
+      "panel_id": "ng-ch05-sc01-p044",
+      "style_id": "limited_ink_flat",
+      "cadence_role": "small_twinecraft_insert",
+      "target_width": 560,
+      "metrics": {
+        "phone_dimensions": [
+          182,
+          299
+        ],
+        "luma_mean": 65.839,
+        "luma_stddev": 53.482,
+        "luma_entropy_bits": 7.2739,
+        "edge_mean": 28.3687,
+        "edge_occupancy_ge_32": 0.275889,
+        "colorfulness": 19.9409,
+        "quantized_color_entropy_bits": 5.4412,
+        "black_clip_fraction": 0.150336,
+        "white_clip_fraction": 0.000276,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 12,
+      "sequence_id": "signal_and_return",
+      "candidate_id": "c015",
+      "panel_id": "ng-ch05-sc01-p046",
+      "style_id": "cel_painted",
+      "cadence_role": "medium_continuity",
+      "target_width": 740,
+      "metrics": {
+        "phone_dimensions": [
+          240,
+          361
+        ],
+        "luma_mean": 84.665,
+        "luma_stddev": 88.782,
+        "luma_entropy_bits": 6.3705,
+        "edge_mean": 12.0071,
+        "edge_occupancy_ge_32": 0.096065,
+        "colorfulness": 16.3476,
+        "quantized_color_entropy_bits": 3.8775,
+        "black_clip_fraction": 0.328047,
+        "white_clip_fraction": 0.000115,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 13,
+      "sequence_id": "signal_and_return",
+      "candidate_id": "c016",
+      "panel_id": "ng-ch05-sc01-p049",
+      "style_id": "clean_graphic",
+      "cadence_role": "medium_target_change",
+      "target_width": 780,
+      "metrics": {
+        "phone_dimensions": [
+          254,
+          381
+        ],
+        "luma_mean": 120.387,
+        "luma_stddev": 74.711,
+        "luma_entropy_bits": 7.62,
+        "edge_mean": 21.0349,
+        "edge_occupancy_ge_32": 0.193554,
+        "colorfulness": 14.2035,
+        "quantized_color_entropy_bits": 5.4266,
+        "black_clip_fraction": 0.041881,
+        "white_clip_fraction": 0.00125,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    },
+    {
+      "order": 14,
+      "sequence_id": "signal_and_return",
+      "candidate_id": "h001",
+      "panel_id": "ng-ch05-sc01-p050",
+      "style_id": "cel_painted",
+      "cadence_role": "wide_urgent_return_hero",
+      "target_width": 1040,
+      "metrics": {
+        "phone_dimensions": [
+          338,
+          185
+        ],
+        "luma_mean": 127.977,
+        "luma_stddev": 83.001,
+        "luma_entropy_bits": 7.522,
+        "edge_mean": 22.6098,
+        "edge_occupancy_ge_32": 0.194249,
+        "colorfulness": 12.5869,
+        "quantized_color_entropy_bits": 5.4041,
+        "black_clip_fraction": 0.056005,
+        "white_clip_fraction": 0.009292,
+        "measurement_boundary": "Global phone-footprint image statistics; cannot identify people, hair, wardrobe, hands, story objects, causality, or aesthetic acceptance."
+      }
+    }
+  ],
+  "adjacent_appearance_jumps": [
+    {
+      "from_candidate": "c019",
+      "to_candidate": "c002",
+      "from_sequence": "departure_and_clue",
+      "to_sequence": "departure_and_clue",
+      "sequence_break": false,
+      "distance": 3.8713
+    },
+    {
+      "from_candidate": "c002",
+      "to_candidate": "h002",
+      "from_sequence": "departure_and_clue",
+      "to_sequence": "departure_and_clue",
+      "sequence_break": false,
+      "distance": 3.3672
+    },
+    {
+      "from_candidate": "h002",
+      "to_candidate": "c005",
+      "from_sequence": "departure_and_clue",
+      "to_sequence": "departure_and_clue",
+      "sequence_break": false,
+      "distance": 1.1621
+    },
+    {
+      "from_candidate": "c005",
+      "to_candidate": "c006",
+      "from_sequence": "departure_and_clue",
+      "to_sequence": "bridge_to_mill",
+      "sequence_break": true,
+      "distance": 2.0912
+    },
+    {
+      "from_candidate": "c006",
+      "to_candidate": "c008",
+      "from_sequence": "bridge_to_mill",
+      "to_sequence": "bridge_to_mill",
+      "sequence_break": false,
+      "distance": 2.8131
+    },
+    {
+      "from_candidate": "c008",
+      "to_candidate": "h004",
+      "from_sequence": "bridge_to_mill",
+      "to_sequence": "bridge_to_mill",
+      "sequence_break": false,
+      "distance": 2.4448
+    },
+    {
+      "from_candidate": "h004",
+      "to_candidate": "c010",
+      "from_sequence": "bridge_to_mill",
+      "to_sequence": "bridge_to_mill",
+      "sequence_break": false,
+      "distance": 1.3662
+    },
+    {
+      "from_candidate": "c010",
+      "to_candidate": "h006",
+      "from_sequence": "bridge_to_mill",
+      "to_sequence": "bridge_to_mill",
+      "sequence_break": false,
+      "distance": 2.8442
+    },
+    {
+      "from_candidate": "h006",
+      "to_candidate": "c013",
+      "from_sequence": "bridge_to_mill",
+      "to_sequence": "signal_and_return",
+      "sequence_break": true,
+      "distance": 2.9177
+    },
+    {
+      "from_candidate": "c013",
+      "to_candidate": "c014",
+      "from_sequence": "signal_and_return",
+      "to_sequence": "signal_and_return",
+      "sequence_break": false,
+      "distance": 4.8869
+    },
+    {
+      "from_candidate": "c014",
+      "to_candidate": "c015",
+      "from_sequence": "signal_and_return",
+      "to_sequence": "signal_and_return",
+      "sequence_break": false,
+      "distance": 5.6517
+    },
+    {
+      "from_candidate": "c015",
+      "to_candidate": "c016",
+      "from_sequence": "signal_and_return",
+      "to_sequence": "signal_and_return",
+      "sequence_break": false,
+      "distance": 4.7638
+    },
+    {
+      "from_candidate": "c016",
+      "to_candidate": "h001",
+      "from_sequence": "signal_and_return",
+      "to_sequence": "signal_and_return",
+      "sequence_break": false,
+      "distance": 0.9613
+    }
+  ],
+  "max_adjacent_jump": {
+    "from_candidate": "c014",
+    "to_candidate": "c015",
+    "from_sequence": "signal_and_return",
+    "to_sequence": "signal_and_return",
+    "sequence_break": false,
+    "distance": 5.6517
+  },
+  "style_engineering_results_all_26": {
+    "cel_painted": {
+      "pass": 5,
+      "warn": 0,
+      "fail": 1
+    },
+    "clear_line_watercolor": {
+      "pass": 5,
+      "warn": 2,
+      "fail": 1
+    },
+    "limited_ink_flat": {
+      "pass": 4,
+      "warn": 1,
+      "fail": 1
+    },
+    "clean_graphic": {
+      "pass": 3,
+      "warn": 0,
+      "fail": 3
+    }
+  },
+  "selected_style_counts": {
+    "cel_painted": 4,
+    "clean_graphic": 3,
+    "clear_line_watercolor": 6,
+    "limited_ink_flat": 1
+  },
+  "manual_continuity_review": {
+    "hair_and_role_identity": "PASS across all selected panels",
+    "wardrobe": "PASS for oatmeal-coat Soren and plaid-wrap Sigrid",
+    "style_consistency": "WARN: the mixed engineering arms are coherent in palette and line language but visibly vary in finish density; exact chapter unification remains a future production-base decision",
+    "narrative_causality": "PASS at sequence review scale",
+    "phone_readability": "PASS provisionally at 390px scroll and seven viewport slices"
+  },
+  "artifacts": [
+    {
+      "path": "experiments/review-packets/ch05-continuity-style-density-r1/selected-phone-density-montage-r1.png",
+      "sha256": "4d701bcc8aae5bed8a1e61f238cc25f73a000c009156e5f8ed3e5ed5bb40fdb0",
+      "width": 1400,
+      "height": 1980,
+      "bytes": 1626849
+    },
+    {
+      "path": "experiments/review-packets/ch05-continuity-style-density-r1/style-engineering-results-r1.png",
+      "sha256": "ab130df9addde97cfae74e9c9b79afcbfe02d57acc5d24c9597f7532c68a045f",
+      "width": 1200,
+      "height": 620,
+      "bytes": 39014
+    },
+    {
+      "path": "experiments/review-packets/ch05-continuity-style-density-r1/sequence-appearance-jumps-r1.png",
+      "sha256": "43d457cbcd816b899863b040549255fc803439677d2a3ccb365e96095d0caae7",
+      "width": 1500,
+      "height": 650,
+      "bytes": 32550
+    },
+    {
+      "path": "experiments/review-packets/ch05-continuity-style-density-r1/density-colorfulness-scatter-r1.png",
+      "sha256": "add0eb343e250d6d81fa4f04473ccde3af46f5632423ed3f4c73d91a7e5c75c7",
+      "width": 1200,
+      "height": 820,
+      "bytes": 36702
+    }
+  ],
+  "artifact_inventory_root_sha256": "91a037e6cb73ae80fb4845a308690b3651926a91da989d42193ba092f493dea9",
+  "determinism": {
+    "consecutive_analysis_count": 2,
+    "packet_sha256_run_a": "526563c97a9941eb468a49f237f4376d37ac1da122103adf549ffed8666ba3fd",
+    "packet_sha256_run_b": "526563c97a9941eb468a49f237f4376d37ac1da122103adf549ffed8666ba3fd",
+    "result": "BYTE_IDENTICAL_PACKET_AND_4_ARTIFACT_HASHES"
+  },
+  "engineering_decision": "Retain the role-aware cel-painted/clear-line route. Do not choose clean graphic or limited ink as a uniform chapter treatment from these unbalanced counts. Treat c014's dense limited-ink punctuation and c005's foliage density as explicit owner review items; if either is rejected, the next render experiment should target only that exact density failure.",
+  "limitations": [
+    "Features are global statistics at the current phone footprint and cannot detect identity, hair, wardrobe, hands, objects, causality, or lettering clearance.",
+    "Style tasks, prompts, formats, and reference conditions are unbalanced; pass rates are descriptive rather than universal scores.",
+    "Adjacent z-score distance can identify appearance changes but cannot decide whether a rhythmic contrast is desirable.",
+    "Manual continuity review remains provisional and owner acceptance remains zero."
+  ],
+  "boundary": "Diagnostic density/rhythm evidence only; no candidate, style, sequence, plan, or production base is accepted."
+}

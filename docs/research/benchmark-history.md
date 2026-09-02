@@ -221,6 +221,8 @@ The CH05 outside-art comparison builds two 14-panel scrolls plus phone versions 
 
 The CH05 production-handoff compiler emits 14 exact rows/three sequences with a stable canonical row root and rejects 15/15 promotion mutations. The local owner index covers 29 candidates/14 selections/12 review links/42 artifacts, validates every HTML link/hash, and rejects 12/12 mutations. This measures evidence compilation and review ergonomics—not generation reproducibility, commercial eligibility, owner acceptance, full 50-panel rendered coverage, or executable production throughput.
 
+The CH05 density diagnostics measure 14 phone-footprint panels and 13 adjacent feature jumps while retaining exact 26-candidate engineering triage. c005 has 0.308471 edge occupancy; c014→c015 is the maximum z-scored global-feature jump at 5.6517; 12/12 mutations fail. This is appearance-density instrumentation, not character recognition, balanced style benchmarking, aesthetic scoring, or acceptance.
+
 The blinded G07 protocol verifies 16/16 neutral candidate presentations and 4/4 hidden-arm repeat pairs, requiring 20 timed assertion decisions; 13/13 identity/order/coverage/timing mutations fail. Actual decisions remain 0, minutes null, and accepted subjects zero. This adds review readiness, not human renderer-quality evidence or a new selection decision.
 
 The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate cost, latency, drift, assertion, and failure-tag dimensions; 9/9 pending/fixture/coverage/mapping mutations fail. With review still pending it emits no human arm results, composite score, rank, or route change. Renderer-quality evidence and ADR-0025 remain unchanged.

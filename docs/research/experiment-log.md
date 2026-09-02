@@ -970,3 +970,11 @@
 - All 14 rows remain owner-unaccepted, commercially uncleared, lettering-unready, generation-nonreproducible, and nonexecutable.
 - Built a local HTML index over 29 candidates, 14 selections, 12 review artifacts, and three non-canon concepts. Forty-two index/thumbnail artifacts build deterministically to root `8fdb0a10…8a02`; every HTML link/hash validates and 12/12 mutations fail.
 - ADR-0093 establishes review-ready/nonexecutable as the correct handoff state. No pixels are tracked or published; calls/uploads/cost are 0/0/$0.
+
+## 2026-09-01 - CH05 continuity/style/density diagnostics r1
+
+- Measured luma, entropy, phone-edge occupancy, colorfulness, quantized color entropy, clipping, and adjacent z-scored feature jumps for all 14 selected panels at current phone footprints.
+- Preserved manual hair/role/wardrobe review separately; global features are explicitly unable to recognize identity, hands, objects, causality, or lettering.
+- All-26 exact engineering triage is cel-painted 5 pass/1 fail, clear-line 5 pass/2 warn/1 fail, limited ink 4 pass/1 warn/1 fail, and clean graphic 3 pass/3 fail; prompt/task conditions are unbalanced.
+- c005 is the highest-edge selection at 0.308471. c014 is dense despite its limited-ink label, and c014→c015 is the largest adjacent appearance jump at 5.6517.
+- ADR-0094 and ComicStyleDirection r9 retain role-aware cel/clear-line use, reject style-label density assumptions, and expose c014 punctuation versus continuity as an owner decision. Four artifacts build deterministically; 12/12 mutations fail; calls/uploads/cost are 0/0/$0.

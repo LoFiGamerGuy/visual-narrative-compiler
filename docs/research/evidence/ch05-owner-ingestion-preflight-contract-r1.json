@@ -1,0 +1,69 @@
+{
+  "record_type": "CH05OwnerIngestionPreflightEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-owner-ingestion-preflight-evidence-r1",
+  "state": "PASS_CONTRACT_CURRENTLY_BLOCKED_INPUTS_ABSENT",
+  "contract": {
+    "path": "production/comic/review/ch05-owner-ingestion-preflight-contract-r1.json",
+    "sha256": "9964743074e4020fe06d600dc211143f8b5dd3f8584e30e738a34c7374ff0c36"
+  },
+  "guide": {
+    "path": "docs/research/ch05-owner-ingestion-preflight-contract-r1.md",
+    "sha256": "ef11eed4febb5c91d75228ecb4502610df93f3ad98c2cfc353fd49f4e6eb3025"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/handoff/ch05-final-review-session-starter-r1.json",
+      "sha256": "7fe9753bf44c9c1be3f16c95c96fcef2e692f8b1316e06b204bb0bf77b916652"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-response-schema-r1.json",
+      "sha256": "a11fb43ee68876e1a8c6c0afddbb20f169fa661965aa2439ec145eeea2721c0d"
+    },
+    {
+      "path": "production/comic/review/ch05-pilot-root-review-time-contract-r1.json",
+      "sha256": "cae10f7436e1e1fdc68a69a14cace39fc0c602b5eeea571fc3990c3de5c807de"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-lifecycle-state-machine-r1.json",
+      "sha256": "2a8d5f67e57a45dce1ceec83464db2ac0a514a001af91314391d64a7c3068cf0"
+    },
+    {
+      "path": "src/north_garden/preflight_ch05_owner_ingestion.py",
+      "sha256": "f265357f7cd289cc339a2e9f0864046d7e99ceb6ddf2465b3d73bb702a987bd3"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_owner_response.py",
+      "sha256": "b366cc69160029726f7f872a170434830fad887cd071768c6a70902b54e80b12"
+    },
+    {
+      "path": "src/north_garden/validate_ch05_pilot_root_review_event_log.py",
+      "sha256": "2eda76de04af3feae15dabc98492ad69f70049835dc0b671669844086e9b3e44"
+    }
+  ],
+  "summary": {
+    "response_files": 0,
+    "event_logs": 0,
+    "roots_resolved": 0,
+    "human_review_minutes": null,
+    "eligible_for_future_ingestion": false,
+    "ingestion_performed": false,
+    "lifecycle_transition_performed": false,
+    "production_prompts": 0,
+    "renders": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0,
+    "accepted": 0,
+    "commercially_cleared": 0
+  },
+  "check_count": 8,
+  "valid_synthetic_cases": 2,
+  "invalid_synthetic_cases": 12,
+  "planned_ignored_inputs": [
+    "experiments/review-inputs/ch05-owner-pilot-root-response-r1.json",
+    "experiments/review-inputs/ch05-pilot-root-review-events-r1.json"
+  ],
+  "animation_shot_plan": null,
+  "e_conte": null
+}

@@ -440,3 +440,5 @@ The owner-response schema validates one null template and two synthetic complete
 The separate six-root live timer records the architecture mismatch with the 39-subject timer: three exact mappings and three missing. Three/three valid logs pass, 12/12 malformed fail, and 19/19 evidence mutations fail; no live event exists.
 
 The final review-session starter binds eight dependency-ordered steps across the current 122-resource hub and 67 priority links. State partitions as 1 ready/4 owner-action/2 blocked/1 intentionally unimplemented; both planned local inputs remain absent and 25/25 mutations fail. This measures handoff completeness, not review completion or production readiness.
+
+The owner-ingestion preflight performs eight checks and returns expected exit 2 in the live absent-input state. Two deterministic valid synthetic replays pass, 12 malformed cross-file pairs fail, and 19 evidence mutations fail. Root, decision, reviewer, per-root minute, lifecycle, and hash parity are tested without ingestion or state transition.

@@ -1401,3 +1401,10 @@
 - Partitioned work into one ready navigation step, four owner actions, two blocked steps, and one intentionally unimplemented hash-chained ingestion step.
 - Kept both ignored local response/event-log paths absent; live events, minutes, decisions, prompts, renders, uploads, acceptance, rights, and execution remain zero/null.
 - Twenty-five/twenty-five mutations fail under ADR-0154.
+
+## 2026-09-01 - CH05 owner-ingestion preflight contract r1
+
+- Added one fail-closed command that validates the response and six-root timer together, including root, decision, reviewer, and per-root minute parity.
+- The live workspace returns expected exit 2 because both ignored owner-input files remain absent.
+- Two/two deterministic valid synthetic replays pass; 12/12 malformed input pairs and 19/19 evidence mutations fail under ADR-0155.
+- Exact hashes are reported only for present inputs; ingestion, lifecycle transition, prompts, renders, calls, uploads, acceptance, and rights remain closed.

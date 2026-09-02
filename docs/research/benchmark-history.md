@@ -418,3 +418,5 @@ Owner hub r6 rebuilds byte-identically with five current-delivery links and two 
 Integrated release r10 preserves the 58-check r9 base and adds eight current-delivery domains. Nine/nine commands pass in 89.568 seconds, 66 effective checks are represented, and 34/34 mutations fail. Only the decimal live tracked-path diagnostic normalizes; no evidence inventory or semantic state is normalized.
 
 Safe-source parity r2 pins pushed commit `479f7ca` at 835 paths/12,795,182 bytes, tree `c67628dc…0d04`, and inventory root `ae1563f8…fa22`. Two approved controls and zero generated/prohibited/oversize/credential/model/dataset/private-reference paths are tracked; 17/17 mutations fail.
+
+Final evidence reproducer matrix r2 passes 7/7 current domains in 108.029 seconds and rejects 23/23 mutations on independent replay. It binds release 66 checks, 29 candidates, 50 plans, 117 links, 835 safe paths, frozen 16 + baseline 4, and 68 zero-cost milestones; only two live tracked-count diagnostics normalize.

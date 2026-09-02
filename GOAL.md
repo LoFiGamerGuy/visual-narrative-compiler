@@ -264,6 +264,8 @@ The integrated-release-r10 milestone is complete under ADR-0142. Immutable r9 pl
 
 The safe-source-parity-r2 milestone is complete under ADR-0143. Pushed commit `479f7ca` pins 835 tracked paths/12,795,182 bytes, tree `c67628dc…0d04`, and inventory root `ae1563f8…fa22`. Two approved controls and zero generated/prohibited/oversize/credential/model/dataset/private-reference/unrelated paths are present; 17/17 mutations fail. The next bounded milestone is a compact final reproducer matrix r2 spanning release r10, delivery r2, source r2, frozen integrity, tracked scope, cost r27, and remote parity.
 
+The final-reproducer-r2 milestone is complete under ADR-0144. Seven/seven current domains pass in 108.029 seconds and independent replay rejects 23/23 mutations. Exact scripts, arguments, inputs, and normalized stdout bind release 66 checks, 29 candidates, 50 plans, 117 links, 835 safe paths, frozen 16 + baseline 4, and 68 zero-cost milestones. The next bounded milestone is a concise owner decision defaults packet that converts the six unresolved pilot roots and four deferred decisions into explicit engineering recommendations without fabricating owner acceptance.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

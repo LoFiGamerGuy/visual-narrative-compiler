@@ -1324,3 +1324,10 @@
 - Bound Git tree `c67628dc…0d04` and inventory root `ae1563f8…fa22` across exact path/mode/blob/SHA-256 entries.
 - Confirmed two approved public controls and zero generated/prohibited/oversize/credential/model/dataset/private-reference/unrelated paths.
 - Seventeen/seventeen mutations fail under ADR-0143; ignored generated art remains outside Git.
+
+## 2026-09-01 - CH05 final evidence reproducer matrix r2
+
+- Reproduced release r10, delivery r2, safe-source r2, frozen/baseline, tracked scope, cost r27, and remote lineage as seven independent domains.
+- Seven/seven pass in 108.029 seconds; an independent replay rejects 23/23 mutations.
+- Bound exact scripts, arguments, inputs, stdout hashes, and only two declared tracked-count diagnostic normalizations.
+- ADR-0144 keeps provider/promotion activity zero and preserves the 29/50/117/835/frozen-16/baseline-4/68 denominators.

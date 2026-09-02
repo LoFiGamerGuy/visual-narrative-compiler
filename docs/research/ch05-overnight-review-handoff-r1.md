@@ -145,3 +145,5 @@ The current single local review entry is `experiments/review-packets/ch05-owner-
 Integrated evidence now passes release r10 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r10.json`: immutable 58-check r9 plus eight extensions gives 66 effective checks, 9/9 commands, and 34/34 rejected mutations under ADR-0142.
 
 Current safe-source parity is pinned at `docs/research/evidence/ch05-overnight-safe-source-parity-r2.json`: pushed commit `479f7ca`, 835 paths, 12,795,182 bytes, two exact controls, and zero generated/prohibited/oversize/credential/model/dataset/private-reference paths under ADR-0143.
+
+The compact current reproducer is `docs/research/evidence/ch05-final-evidence-reproducer-matrix-r2.json`: seven local domains, 108.029 observed seconds, and 23/23 rejected mutations under ADR-0144.

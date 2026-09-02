@@ -31,6 +31,7 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | CH05 manual continuity atlas r1 | 26 candidates / 14 plan groups / 2 full-panel atlases | local deterministic assembly; provider generation not used | unmeasured | $0 API/cloud | 0 owner decisions/face crops/identity inference/accepted |
 | CH05 panel-scale/cadence policy r1 | 50 plans / 9 conditional scale roles / 1 chart | local deterministic evidence compilation | unmeasured | $0 API/cloud | 0 copy/layouts/plans accepted or revised |
 | CH05 failure-class repair matrix r1 | 9 nonpass candidates / 6 repair links / 4-plan next recommendation | local deterministic evidence compilation | unmeasured | $0 API/cloud; future built-in cost unavailable | 0 new prompts/renders/plans/accepted |
+| CH05 P010–P013 preflight contract r1 | 4 plan hypotheses / 2 repair slots / 1 storyboard | local deterministic metadata/diagram build | unmeasured | $0 API/cloud | 0 prompts/renders/uploads/executable/accepted |
 | sequential inpaint P07 preflight | 4 renderer passes / 2 seeds | 108.42 s total | unmeasured | $0 API/cloud | 1 mechanics smoke accepted; 0 production accepted |
 | sequential inpaint P07 provenance replay | 2 renderer passes / deterministic seed-101 replay | 54.165 s total | unmeasured | $0 API/cloud | hashes reproduced; no independent candidate decision |
 | sequential inpaint G07 controls | 4 no-change diagnostic/reconstruction passes | 12.19 s total | unmeasured | $0 API/cloud | control protocol corrected; no production candidate |

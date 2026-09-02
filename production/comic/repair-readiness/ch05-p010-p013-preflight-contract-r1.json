@@ -1,0 +1,282 @@
+{
+  "record_type": "ComicMicrosequencePreflightContract",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-preflight-contract-r1",
+  "state": "REVIEW_READY_ZERO_PROMPT_FAIL_CLOSED",
+  "medium": "comic",
+  "comic_panel_plan_collection": {
+    "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/continuity/ch05-character-assertion-manifest-r1.json",
+      "sha256": "3e4583e5ab9eb1321ae5ff16b30596ca141d43d82481c59e50ab65bcafd2c1e2"
+    },
+    {
+      "path": "production/comic/layout/ch05-panel-scale-cadence-policy-r1.json",
+      "sha256": "b08d402362bf807014332ec900ba583f89943b6e0095475d632bfcd8b91f7495"
+    },
+    {
+      "path": "production/comic/review/ch05-failure-class-repair-matrix-r1.json",
+      "sha256": "2c3bb2dff8ff4512809f29c6fcdeb3d01964d6a88239bd7059c74807f0c075a3"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-decision-contract-r1.json",
+      "sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5"
+    },
+    {
+      "path": "production/comic/continuity/ch05-fictional-adult-visual-profile-r1.json",
+      "sha256": "4a2bac302ad720e67e281e7b59903b8b2c5a43792056175c6add103b873eb3b2"
+    }
+  ],
+  "summary": {
+    "plan_count": 4,
+    "initial_candidate_hypotheses": 4,
+    "maximum_repair_slots": 2,
+    "maximum_candidate_envelope": 6,
+    "prompt_count": 0,
+    "reference_hypothesis_uses": 3,
+    "reference_uploads": 0,
+    "final_copy_bound": 0,
+    "owner_decisions_bound": 0,
+    "execution_ready_rows": 0,
+    "plan_revisions": 0
+  },
+  "rows": [
+    {
+      "display_order": 10,
+      "panel_id": "ng-ch05-sc01-p010",
+      "plan_revision_id": "ng-ch05-sc01-p010-plan-r1",
+      "plan_canonical_sha256": "6315bf987c59683d82665b7b98bd4861da87557940574b7831a5beb0e3fbb055",
+      "narrative_beat": "Sigrid hears the water before it is visible.",
+      "composition_intent": "close profile listening into blank dark woods",
+      "visible_adult_cast": [
+        "SIGRID"
+      ],
+      "continuity_assertions": {
+        "SIGRID": {
+          "adult_requirement": "clearly adult woman with mature proportions",
+          "hair": "dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond",
+          "face": "mature angular adult face, dark brows, alert gray-blue eyes, controlled expression",
+          "wardrobe": "dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots",
+          "silhouette": "athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance"
+        }
+      },
+      "scale_policy_role": "MEDIUM_CHARACTER_CLUE",
+      "scale_policy_range_px": [
+        720,
+        960
+      ],
+      "style_id": "cel_painted",
+      "format_role": "medium_character_clue",
+      "target_width_px": 820,
+      "reference_ids": [
+        "p040_sigrid_face"
+      ],
+      "reason": "facial listening beat needs mature expression, tied dark hair, and quiet negative space",
+      "manual_preflight_checks": [
+        "hair and canonical wardrobe",
+        "one readable causal clue",
+        "safe zone protects people/hands/object",
+        "phone silhouette and density role"
+      ],
+      "final_copy": null,
+      "prompt": null,
+      "prompt_sha256": null,
+      "source_path": null,
+      "reference_uploads": 0,
+      "owner_accepted": false,
+      "commercially_cleared": false,
+      "execution_ready": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 11,
+      "panel_id": "ng-ch05-sc01-p011",
+      "plan_revision_id": "ng-ch05-sc01-p011-plan-r1",
+      "plan_canonical_sha256": "4e736a6333e7545340167bb52d7a29d18f30520e06c461771bf5f0a9021d858c",
+      "narrative_beat": "Soren finds a length of soot-stained twine caught on a thorn.",
+      "composition_intent": "hand insert, twine against wet thorn",
+      "visible_adult_cast": [
+        "SOREN"
+      ],
+      "continuity_assertions": {
+        "SOREN": {
+          "adult_requirement": "clearly adult man with mature proportions",
+          "hair": "short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond",
+          "face": "weathered angular adult face, light beard or stubble, focused practical expression",
+          "wardrobe": "pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots",
+          "silhouette": "lean sturdy working build; coat hem and folded map distinguish him at distance"
+        }
+      },
+      "scale_policy_role": "MEDIUM_CHARACTER_CLUE",
+      "scale_policy_range_px": [
+        720,
+        960
+      ],
+      "style_id": "clear_line_watercolor",
+      "format_role": "small_causal_clue",
+      "target_width_px": 640,
+      "reference_ids": [
+        "p050_dual_identity_action"
+      ],
+      "reason": "line hierarchy should isolate Soren's oatmeal sleeve, hand, soot twine, and thorn without extra texture",
+      "manual_preflight_checks": [
+        "hair and canonical wardrobe",
+        "one readable causal clue",
+        "safe zone protects people/hands/object",
+        "phone silhouette and density role"
+      ],
+      "final_copy": null,
+      "prompt": null,
+      "prompt_sha256": null,
+      "source_path": null,
+      "reference_uploads": 0,
+      "owner_accepted": false,
+      "commercially_cleared": false,
+      "execution_ready": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 12,
+      "panel_id": "ng-ch05-sc01-p012",
+      "plan_revision_id": "ng-ch05-sc01-p012-plan-r1",
+      "plan_canonical_sha256": "d40391007cd76fb246eaec7188e439c92fe8b1aa976a4ad763b8fd6d14cf445b",
+      "narrative_beat": "The twine points downhill as if pulled taut and released.",
+      "composition_intent": "diagonal line across empty trail",
+      "visible_adult_cast": [],
+      "continuity_assertions": {},
+      "scale_policy_role": "SMALL_OBJECT_INSERT",
+      "scale_policy_range_px": [
+        520,
+        720
+      ],
+      "style_id": "limited_ink_flat",
+      "format_role": "small_silent_object_insert",
+      "target_width_px": 560,
+      "reference_ids": [],
+      "reason": "no-person taut-twine direction is the intentional low-density cadence valley",
+      "manual_preflight_checks": [
+        "one readable causal clue",
+        "safe zone protects people/hands/object",
+        "phone silhouette and density role"
+      ],
+      "final_copy": null,
+      "prompt": null,
+      "prompt_sha256": null,
+      "source_path": null,
+      "reference_uploads": 0,
+      "owner_accepted": false,
+      "commercially_cleared": false,
+      "execution_ready": false,
+      "comic_panel_plan_revision_created": false
+    },
+    {
+      "display_order": 13,
+      "panel_id": "ng-ch05-sc01-p013",
+      "plan_revision_id": "ng-ch05-sc01-p013-plan-r1",
+      "plan_canonical_sha256": "9e1e05e723e22e729ee38b7af966fe16bf67756513cd929167801ca45c7fbb76",
+      "narrative_beat": "They follow the creek instead of the tracks.",
+      "composition_intent": "rear wide; paired figures on a descending bank",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ],
+      "continuity_assertions": {
+        "SOREN": {
+          "adult_requirement": "clearly adult man with mature proportions",
+          "hair": "short-to-medium wavy light-brown to dark-blond hair, swept back with loose damp strands; never black or bright blond",
+          "face": "weathered angular adult face, light beard or stubble, focused practical expression",
+          "wardrobe": "pale oatmeal work coat over muted blue-gray work layers, dark trousers, practical wet-weather boots",
+          "silhouette": "lean sturdy working build; coat hem and folded map distinguish him at distance"
+        },
+        "SIGRID": {
+          "adult_requirement": "clearly adult woman with mature proportions",
+          "hair": "dark-brown to near-black hair tied in a low bun, knot, or compact braid with loose damp strands; never blond",
+          "face": "mature angular adult face, dark brows, alert gray-blue eyes, controlled expression",
+          "wardrobe": "dark blue-brown practical plaid wrap over gray-green expedition layers, dark trousers, practical wet-weather boots",
+          "silhouette": "athletic grounded working build; plaid wrap and dark tied-back hair distinguish her at distance"
+        }
+      },
+      "scale_policy_role": "WIDE_DIRECTIONAL_ANCHOR",
+      "scale_policy_range_px": [
+        1040,
+        1200
+      ],
+      "style_id": "clear_line_watercolor",
+      "format_role": "wide_directional_reentry",
+      "target_width_px": 1040,
+      "reference_ids": [
+        "p050_dual_identity_action"
+      ],
+      "reason": "wide rear re-entry tests dual wardrobe silhouettes and literal creek-following direction",
+      "manual_preflight_checks": [
+        "hair and canonical wardrobe",
+        "literal lead/follow and re-entry order",
+        "one readable causal clue",
+        "safe zone protects people/hands/object",
+        "phone silhouette and density role"
+      ],
+      "final_copy": null,
+      "prompt": null,
+      "prompt_sha256": null,
+      "source_path": null,
+      "reference_uploads": 0,
+      "owner_accepted": false,
+      "commercially_cleared": false,
+      "execution_ready": false,
+      "comic_panel_plan_revision_created": false
+    }
+  ],
+  "row_root_sha256": "58313e9d657406ac708ac5a5671593adad580293172081e42497751533ec4a31",
+  "repair_slots": [
+    {
+      "slot_id": "repair-1",
+      "state": "UNALLOCATED",
+      "trigger": "exact safe-zone, cast-order, or single-object causal failure in one row",
+      "allowed_change": "one literal spatial/causal constraint cluster",
+      "broad_reroll": false
+    },
+    {
+      "slot_id": "repair-2",
+      "state": "UNALLOCATED",
+      "trigger": "one remaining exact continuity, density, or phone-readability failure after repair-1 evidence",
+      "allowed_change": "one isolated constraint cluster; preserve passing rows",
+      "broad_reroll": false
+    }
+  ],
+  "preflight_gates": {
+    "owner_decision_contract_sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5",
+    "owner_completed_decisions": 0,
+    "current_candidate_and_style_review_complete": false,
+    "microsequence_style_cadence_approved": false,
+    "final_copy_or_silence_bound": false,
+    "exact_reference_selection_approved_for_execution": false,
+    "provider_metadata_available": false,
+    "commercial_clearance": false,
+    "all_required_to_compile_prompts": true,
+    "prompts_may_be_compiled_now": false
+  },
+  "authorized_reference_catalog": [
+    {
+      "reference_id": "p050_dual_identity_action",
+      "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+      "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+    },
+    {
+      "reference_id": "p040_sigrid_face",
+      "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+      "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+    },
+    {
+      "reference_id": "p036_composition_only",
+      "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+      "role": "composition, vertical format, lever staging, and clear-line treatment only; its swapped hair colors are explicitly non-authoritative"
+    }
+  ],
+  "reference_use_boundary": "Hypothesis IDs are metadata only. This contract performs zero uploads and grants no future execution authority.",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "ComicPanelPlan-only preflight; no prompts, pixels, provider calls, uploads, spend, acceptance, plan revision, or commercial conclusion."
+}

@@ -1048,3 +1048,10 @@
 - Literal safe-zone/spatial placement succeeds 3/3. Removing a dominating reference fixes c001 direction but leaves phone identity weak. Lever terminology fails at c011→h005; a literal single-plank reach-and-brace correction passes at h005→h006.
 - Recommends P010–P013 as the smallest post-review continuity microsequence: four adjacent cast states and trail/twine causality, four initial candidates plus two bounded repair slots.
 - ADR-0104 prohibits broad rerolls and keeps the recommendation at zero prompts/renders/uploads. Median-only envelopes are 204.908/307.362s; 24/24 mutations fail.
+
+## 2026-09-01 - CH05 P010–P013 preflight contract r1
+
+- Bound four exact adjacent ComicPanelPlans to provisional style/scale roles: cel-painted 820px P010, clear-line 640px P011, text-only limited-ink 560px P012, and clear-line 1,040px P013.
+- Three reference IDs remain metadata hypotheses only. All four prompts, outputs, final-copy fields, and executable flags are null/false; reference uploads are zero.
+- Added two unallocated repair slots whose triggers and allowed changes are restricted to one retained failure class; broad rerolls are forbidden.
+- ADR-0105 requires owner review/cadence/copy-or-silence/exact-reference gates before prompt compilation. Twenty-five/twenty-five mutations fail; calls/uploads/spend remain 0/0/$0.

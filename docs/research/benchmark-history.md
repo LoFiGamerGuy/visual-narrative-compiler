@@ -243,6 +243,8 @@ The panel-scale/cadence policy covers 50/50 plans with nine conditional roles an
 
 The failure-class matrix covers nine nonpass candidates and six exact repair links: five target fixes and four all-dimension passes, with 24/24 mutation rejection. The proposed P010–P013 microsequence is a bounded next experiment, not a repair-rate forecast or execution authority.
 
+The P010–P013 preflight binds 4/4 exact plans, four hypotheses, and two unallocated repair slots with 25/25 mutation rejection. Prompts, uploads, final copy, decisions, executable rows, and spend remain zero; this is readiness-contract coverage, not rendering throughput.
+
 The blinded G07 protocol verifies 16/16 neutral candidate presentations and 4/4 hidden-arm repeat pairs, requiring 20 timed assertion decisions; 13/13 identity/order/coverage/timing mutations fail. Actual decisions remain 0, minutes null, and accepted subjects zero. This adds review readiness, not human renderer-quality evidence or a new selection decision.
 
 The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate cost, latency, drift, assertion, and failure-tag dimensions; 9/9 pending/fixture/coverage/mapping mutations fail. With review still pending it emits no human arm results, composite score, rank, or route change. Renderer-quality evidence and ADR-0025 remain unchanged.

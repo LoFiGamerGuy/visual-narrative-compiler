@@ -63,3 +63,5 @@ The manual continuity atlas adds two ignored local comparison images from 26 exi
 The panel-scale/cadence policy adds one ignored 50-row chart and tracked conditional metadata with no generation or external cost. Final copy, accepted layouts, ComicPanelPlan revisions, calls, and uploads remain zero; human minutes remain null.
 
 The failure-class repair matrix adds one ignored diagnostic chart and no generation or external cost. Its four/six-candidate next-experiment envelopes are median-only, unexecuted scenarios; prompts/renders/uploads/plans/acceptances remain zero and future built-in monetary cost remains null.
+
+The P010–P013 preflight adds one ignored text storyboard and tracked null-prompt metadata with no generation or external cost. Three reference hypotheses produce zero uploads; prompts/renders/executable rows/decisions/copy remain zero and human minutes remain null.

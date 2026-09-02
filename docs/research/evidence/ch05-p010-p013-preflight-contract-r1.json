@@ -1,0 +1,62 @@
+{
+  "record_type": "CH05P010P013PreflightContractEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-preflight-contract-evidence-r1",
+  "state": "FOUR_PLAN_PREFLIGHT_FAIL_CLOSED",
+  "contract": {
+    "path": "production/comic/repair-readiness/ch05-p010-p013-preflight-contract-r1.json",
+    "sha256": "83941a2c7de2684f3ef9f96443316fc6852c8208a116e5d7cbf14f6f2c8861a9",
+    "row_root_sha256": "58313e9d657406ac708ac5a5671593adad580293172081e42497751533ec4a31"
+  },
+  "summary": {
+    "plan_count": 4,
+    "initial_candidate_hypotheses": 4,
+    "maximum_repair_slots": 2,
+    "maximum_candidate_envelope": 6,
+    "prompt_count": 0,
+    "reference_hypothesis_uses": 3,
+    "reference_uploads": 0,
+    "final_copy_bound": 0,
+    "owner_decisions_bound": 0,
+    "execution_ready_rows": 0,
+    "plan_revisions": 0,
+    "repair_slots_unallocated": 2,
+    "provider_calls": 0,
+    "uploads": 0,
+    "external_cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "gate_state": {
+    "owner_decision_contract_sha256": "cb794f157610a0daa40d6b48829fc0d6c2514af35013bdd29c8ce7dc9f4e86a5",
+    "owner_completed_decisions": 0,
+    "current_candidate_and_style_review_complete": false,
+    "microsequence_style_cadence_approved": false,
+    "final_copy_or_silence_bound": false,
+    "exact_reference_selection_approved_for_execution": false,
+    "provider_metadata_available": false,
+    "commercial_clearance": false,
+    "all_required_to_compile_prompts": true,
+    "prompts_may_be_compiled_now": false
+  },
+  "chart": {
+    "path": "experiments/review-packets/ch05-p010-p013-preflight-contract-r1/ch05-p010-p013-preflight-storyboard-r1.png",
+    "sha256": "fdd1dcf72108babf8431ead3326aa9f23c84770b704163e4cdfb8accc55cdbcd",
+    "bytes": 82716
+  },
+  "limitations": [
+    "Style, width, and reference choices are hypotheses pending owner review.",
+    "No exact prompt exists, so provider preflight and output behavior cannot be evaluated.",
+    "The four-plan chain does not test mill interiors, dialogue balloons, combat, armor, weapons, or monsters.",
+    "Built-in product model, endpoint, seed, usage, and cost would remain unavailable unless exposed later."
+  ],
+  "activity": {
+    "prompts": 0,
+    "renders": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "spend_usd": 0,
+    "plans_revised": 0,
+    "acceptances": 0
+  },
+  "boundary": "ComicPanelPlan-only preflight; no prompts, pixels, provider calls, uploads, spend, acceptance, plan revision, or commercial conclusion."
+}

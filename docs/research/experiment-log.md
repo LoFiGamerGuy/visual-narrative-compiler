@@ -1380,3 +1380,10 @@
 - Confirmed model/endpoint/request ID/usage/cost/seed null in all 29 with the exact unavailable-not-zero contract.
 - Kept all 29 pending, unaccepted, commercially uncleared, and non-reproducible; non-canon concepts remain separate and not re-uploaded.
 - Updated the model/license registry and rejected 24/24 mutations under ADR-0151.
+
+## 2026-09-01 - CH05 owner response schema and validator r1
+
+- Exported a standalone null template for exactly six pilot roots plus a strict schema and usage guide.
+- Template mode requires all response fields null; response mode requires exact allowed values, reviewer identity, and positive live minutes.
+- Kept four deferred choices plus candidate/commercial/exact-base/plan/cross-medium fields always null.
+- Three/three valid fixtures pass, 20/20 malformed fail, and 19/19 evidence mutations fail under ADR-0152; zero decisions are ingested.

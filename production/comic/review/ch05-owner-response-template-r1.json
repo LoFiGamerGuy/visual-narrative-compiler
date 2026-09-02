@@ -1,0 +1,104 @@
+{
+  "record_type": "CH05OwnerPilotRootResponse",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-owner-pilot-root-response-template-r1",
+  "state": "UNFILLED_TEMPLATE",
+  "contract": {
+    "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+    "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+  },
+  "valid_for_ingestion": false,
+  "decisions": [
+    {
+      "decision_id": "route_role_aware_hybrid",
+      "question": "Confirm the role-aware cel/clear-line/simplified-insert route versus requesting one uniform finish.",
+      "allowed_values": [
+        "CONFIRM_ROLE_AWARE_ROUTE",
+        "REQUEST_UNIFORM_FINISH_COMPARISON"
+      ],
+      "recommended_value": "CONFIRM_ROLE_AWARE_ROUTE",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "notes": null
+    },
+    {
+      "decision_id": "c005_transition_density",
+      "question": "Keep c005's foliage density or request one exact density reduction.",
+      "allowed_values": [
+        "REQUEST_EXACT_DENSITY_REDUCTION",
+        "KEEP_CURRENT_DENSITY"
+      ],
+      "recommended_value": "REQUEST_EXACT_DENSITY_REDUCTION",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "notes": null
+    },
+    {
+      "decision_id": "c014_action_punctuation",
+      "question": "Treat c014\u2192c015's 5.6517 appearance jump as intentional action punctuation or unify its finish.",
+      "allowed_values": [
+        "KEEP_AS_ACTION_PUNCTUATION",
+        "REQUEST_FINISH_DENSITY_REPAIR"
+      ],
+      "recommended_value": "KEEP_AS_ACTION_PUNCTUATION",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "notes": null
+    },
+    {
+      "decision_id": "lettering_semantics",
+      "question": "Choose attributed speech, outside-art caption/direct text, or silence for currently copy-unbound beats.",
+      "allowed_values": [
+        "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+        "REQUEST_PLAN_LEVEL_COPY_SEMANTICS"
+      ],
+      "recommended_value": "KEEP_ACTION_AND_INSERT_BEATS_SILENT",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "notes": null
+    },
+    {
+      "decision_id": "p010_p013_finish_rhythm",
+      "question": "Use the preflight's role-aware four-beat finish or one shared finish.",
+      "allowed_values": [
+        "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+        "REQUEST_SHARED_FINISH_CONTROL"
+      ],
+      "recommended_value": "USE_ROLE_AWARE_FOUR_BEAT_FINISH",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "notes": null
+    },
+    {
+      "decision_id": "p010_p013_copy",
+      "question": "Keep P010\u2013P013 silent or bind plan-level caption semantics.",
+      "allowed_values": [
+        "KEEP_SILENT_FOR_CAUSAL_TEST",
+        "REQUEST_PLAN_LEVEL_CAPTION_SEMANTICS"
+      ],
+      "recommended_value": "KEEP_SILENT_FOR_CAUSAL_TEST",
+      "owner_decision": null,
+      "reviewer": null,
+      "human_review_minutes": null,
+      "notes": null
+    }
+  ],
+  "deferred_decisions": {
+    "lettering_visual_arm": null,
+    "strongest_candidate_shortlist": null,
+    "noncanon_litrpg_direction": null,
+    "commercial_and_exact_base": null
+  },
+  "candidate_acceptance": null,
+  "commercial_clearance": null,
+  "exact_base_selection": null,
+  "comic_panel_plan_revision": null,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": "Six pilot-root choices only. Validation does not ingest decisions or grant provider, upload, acceptance, rights, exact-base, or plan-revision authority."
+}

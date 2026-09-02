@@ -161,3 +161,5 @@ Final safe-source parity is pinned at `docs/research/evidence/ch05-overnight-saf
 The current primary handoff is `docs/research/ch05-overnight-closeout-r2.md`, with machine-readable state at `production/comic/handoff/ch05-overnight-closeout-bundle-r2.json` and current changed paths at `docs/research/ch05-overnight-final-changed-files-r2.md` under ADR-0150.
 
 Final built-in provenance reconciliation is `docs/research/ch05-final-model-license-provenance-audit-r1.md`, with machine state at `production/comic/handoff/ch05-final-model-license-provenance-audit-r1.json` under ADR-0151. All six unavailable fields remain null across 29 records and commercial/exact-base status stays open.
+
+The exact six-root response template is `production/comic/review/ch05-owner-response-template-r1.json`, with guide at `docs/research/ch05-owner-response-guide-r1.md`. Validate a reviewed copy with `python src/north_garden/validate_ch05_owner_response.py <response.json> --mode response`; ADR-0152 keeps validation separate from ingestion.

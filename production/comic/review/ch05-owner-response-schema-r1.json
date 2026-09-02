@@ -1,0 +1,52 @@
+{
+  "record_type": "CH05OwnerPilotRootResponseSchema",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-owner-pilot-root-response-schema-r1",
+  "required_root_count": 6,
+  "root_ids": [
+    "route_role_aware_hybrid",
+    "c005_transition_density",
+    "c014_action_punctuation",
+    "lettering_semantics",
+    "p010_p013_finish_rhythm",
+    "p010_p013_copy"
+  ],
+  "required_row_fields": [
+    "decision_id",
+    "question",
+    "allowed_values",
+    "recommended_value",
+    "owner_decision",
+    "reviewer",
+    "human_review_minutes",
+    "notes"
+  ],
+  "template_mode": {
+    "state": "UNFILLED_TEMPLATE",
+    "valid_for_ingestion": false,
+    "decision_fields": "all null"
+  },
+  "response_mode": {
+    "state": "OWNER_RESPONSE_COMPLETE_NOT_INGESTED",
+    "valid_for_ingestion": true,
+    "owner_decision": "exact allowed value",
+    "reviewer": "non-empty string",
+    "human_review_minutes": "positive number"
+  },
+  "always_null_fields": [
+    "candidate_acceptance",
+    "commercial_clearance",
+    "exact_base_selection",
+    "comic_panel_plan_revision",
+    "animation_shot_plan",
+    "e_conte"
+  ],
+  "deferred_decisions": [
+    "lettering_visual_arm",
+    "strongest_candidate_shortlist",
+    "noncanon_litrpg_direction",
+    "commercial_and_exact_base"
+  ],
+  "validator": "src/north_garden/validate_ch05_owner_response.py",
+  "boundary": "Schema validates a response only; a separate hash-chained ingestion step remains required."
+}

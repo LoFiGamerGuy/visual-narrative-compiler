@@ -1,0 +1,50 @@
+{
+  "record_type": "CH05OwnerResponseSchemaEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-owner-response-schema-evidence-r1",
+  "state": "PASS_TEMPLATE_UNFILLED",
+  "template": {
+    "path": "production/comic/review/ch05-owner-response-template-r1.json",
+    "sha256": "d5fdac5bb0b05d02e43b77a18724f150308c63abeaedfaf358d5682ee1aa31fb"
+  },
+  "schema": {
+    "path": "production/comic/review/ch05-owner-response-schema-r1.json",
+    "sha256": "a11fb43ee68876e1a8c6c0afddbb20f169fa661965aa2439ec145eeea2721c0d"
+  },
+  "guide": {
+    "path": "docs/research/ch05-owner-response-guide-r1.md",
+    "sha256": "cc0c7a02af8568f325a2e2bc1cff9cef6687c3e2b5c52198440186a0247d34df"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+      "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+    },
+    {
+      "path": "production/comic/handoff/ch05-owner-decision-defaults-packet-r1.json",
+      "sha256": "ab56dcd5e6b90db45d5e3ea29f1dcc931a39a164ff506f9a7920443849c44216"
+    }
+  ],
+  "summary": {
+    "root_count": 6,
+    "deferred_count": 4,
+    "template_valid": 1,
+    "synthetic_responses_valid": 2,
+    "valid_fixtures": 3,
+    "invalid_fixtures": 20,
+    "invalid_rejected": 20,
+    "owner_decisions_ingested": 0,
+    "review_events": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "paid_spend_usd": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "human_review_minutes": null
+  },
+  "template_errors": [],
+  "response_schema_errors": [],
+  "animation_shot_plan": null,
+  "e_conte": null
+}

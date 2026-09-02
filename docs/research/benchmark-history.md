@@ -434,3 +434,5 @@ Final safe-source r3 pins pushed commit `b13d87b` at 873 paths/13,394,576 bytes,
 Closeout r2 binds final release 74, safe-source 873, cost 73, current parity, and a refreshed 410-path/65-ADR inventory while preserving all 67 direct review links. The source capture is correctly modeled as an ancestor; 21/21 mutations fail.
 
 Final model/license/provenance audit reconciles 29 records, 39 uses, three hashes, and six unavailable fields × 29 records. All acceptance/clearance/reproducibility counts remain zero; 24/24 mutations fail. This is provenance completeness, not a commercial-use conclusion.
+
+The owner-response schema validates one null template and two synthetic complete responses while rejecting 20/20 malformed fixtures and 19/19 evidence mutations. It validates only six exact roots and performs no ingestion or authority expansion.

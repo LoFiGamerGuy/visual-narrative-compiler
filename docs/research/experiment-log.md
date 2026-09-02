@@ -1198,3 +1198,10 @@
 - Bound the measured 1,385.036 generation seconds and 39 reference uses while retaining $0 paid API/cloud spend and explicit unavailable built-in cost/service fields.
 - Generated a direct review summary and a 261-path inventory ending at the pushed release-r7 base commit.
 - Twenty-one/twenty-one mutations fail. ADR-0125 keeps every acceptance, commercial, executable, revision, and human-minute field zero or null.
+
+## 2026-09-01 - CH05 safe-source delivery parity r1
+
+- Pinned pushed delivery commit `a1454db` with 735 tracked paths, 11,861,823 bytes, tree `7a7085da…c4d`, and inventory root `fea9401e…4ca`.
+- Validated every historical blob plus current tracked scope and remote ancestry/parity.
+- Exactly two public controls are tracked; generated/prohibited/oversize/credential paths and unrelated untracked inventory entries are zero.
+- Sixteen/sixteen mutations fail under ADR-0126; ignored local review pixels remain untracked and unpublished.

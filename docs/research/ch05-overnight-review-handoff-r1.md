@@ -109,3 +109,5 @@ The current single local review entry is `experiments/review-packets/ch05-owner-
 Integrated evidence now passes release r7 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r7.json`: 46 effective checks, 5/5 commands, and 25/25 rejected mutations under ADR-0124.
 
 The consolidated handoff is `production/comic/handoff/ch05-overnight-delivery-bundle-r1.json`, with tracked evidence at `docs/research/evidence/ch05-overnight-delivery-bundle-r1.json`, a concise owner-facing summary at `docs/research/ch05-overnight-delivery-summary-r1.md`, and the release-r7 changed-file inventory at `docs/research/ch05-overnight-changed-files-through-release-r7.md`. ADR-0125 binds counts, hashes, recommendations, limitations, and ten still-open decisions without accepting or commercially clearing any candidate.
+
+Safe-source delivery parity is pinned at `docs/research/evidence/ch05-overnight-safe-source-parity-r1.json`: pushed commit `a1454db`, 735 paths, 11,861,823 bytes, two exact controls, and zero generated/prohibited/oversize/credential paths under ADR-0126.

@@ -382,3 +382,5 @@ Owner hub r4 links six current resources and builds byte-identically; 15/15 muta
 Integrated release r7 preserves the 42-check r6 chain and adds four independent validators. Five/five commands pass in 14.531 seconds, 46 effective checks are represented, and 25/25 mutations fail. Twelve batches, 50 lettering rows, and 105 links are release-bound without prompt or promotion state.
 
 The consolidated delivery bundle binds 29 candidates, 14 represented CH05 plans, 50 total plans, 12 sequence batches, 105 review links, 14 strongest candidates, ten owner decisions, and eight explicit limitations. Its 21/21 mutation suite rejects altered counts, timing, reference use, spend, decisions, acceptance, executable state, parity, and cross-medium planning. This is handoff completeness evidence, not a visual-quality benchmark or promotion.
+
+Safe-source delivery parity pins pushed commit `a1454db` at 735 paths/11,861,823 bytes, tree `7a7085da…c4d`, and inventory root `fea9401e…4ca`. Two public controls and zero generated/prohibited/oversize/credential paths are tracked; 16/16 mutations fail. Ignored pixels and unrelated untracked items remain out of the release inventory.

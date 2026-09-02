@@ -1366,3 +1366,10 @@
 - Bound tree `b6569cd0…5e6e` and inventory root `49e6a5a0…a192`; 17/17 capture mutations fail.
 - Confirmed two public controls and zero generated/prohibited/oversize/credential/model/dataset/private-reference/unrelated inventory paths.
 - Final remote audit passes `main`/origin, capture ancestry, release 74, closeout, frozen integrity, and current source scope under ADR-0149.
+
+## 2026-09-01 - CH05 overnight closeout bundle r2
+
+- Extended immutable closeout r1 with release r11, safe-source r3, cost r28, current parity, and a refreshed changed-file inventory.
+- Preserved 29/50/12/122 and all 67 priority direct review links while rebinding release 74/source 873/frozen 16+4/cost 73.
+- Recorded the final capture as an exact ancestor rather than a self-referential inventory of r2.
+- Current base covers 410 paths/65 ADRs; 21/21 mutations fail under ADR-0150.

@@ -276,6 +276,8 @@ The integrated-release-r11 milestone is complete under ADR-0148. Final reproduce
 
 The final-source-parity milestone is complete under ADR-0149. Pushed commit `b13d87b` pins 873 tracked paths/13,394,576 bytes, tree `b6569cd0…5e6e`, and inventory root `49e6a5a0…a192`; 17/17 mutations fail. Final remote parity passes capture ancestry, release 74, closeout, frozen integrity, and current source scope. The next bounded milestone is closeout bundle r2, rebinding final release r11/source r3/parity and a refreshed final changed-file inventory without rewriting r1.
 
+The closeout-r2 milestone is complete under ADR-0150. Append-only r2 preserves 29/50/12/122 and all 67 priority review links while rebinding release 74, safe-source 873 paths/13,394,576 bytes, frozen 16 + baseline 4, cost 73, remote parity, and a 410-path/65-ADR current base. Twenty-one/twenty-one mutations fail. The next bounded milestone is a final model/license/provenance registry audit that proves the built-in service metadata and commercial fields remain explicitly unavailable/open rather than inferred.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

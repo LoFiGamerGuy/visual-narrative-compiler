@@ -157,3 +157,5 @@ The final direct-link handoff is `docs/research/ch05-overnight-closeout-r1.md`, 
 Final integrated evidence passes release r11 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r11.json`: 74 effective checks, 9/9 commands in 133.281 seconds, and 29/29 rejected mutations under ADR-0148. Cost ledger r28 records 73 zero-external-cost milestones.
 
 Final safe-source parity is pinned at `docs/research/evidence/ch05-overnight-safe-source-parity-r3.json`: pushed commit `b13d87b`, 873 paths, 13,394,576 bytes, two controls, and zero generated/prohibited/oversize/credential/model/dataset/private-reference paths under ADR-0149.
+
+The current primary handoff is `docs/research/ch05-overnight-closeout-r2.md`, with machine-readable state at `production/comic/handoff/ch05-overnight-closeout-bundle-r2.json` and current changed paths at `docs/research/ch05-overnight-final-changed-files-r2.md` under ADR-0150.

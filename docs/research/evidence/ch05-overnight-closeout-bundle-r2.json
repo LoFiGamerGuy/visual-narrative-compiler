@@ -1,0 +1,73 @@
+{
+  "record_type": "CH05OvernightCloseoutBundleEvidence",
+  "schema_version": "2.0",
+  "record_id": "ng-ch05-overnight-closeout-bundle-evidence-r2",
+  "state": "PASS_OWNER_PENDING",
+  "bundle": {
+    "path": "production/comic/handoff/ch05-overnight-closeout-bundle-r2.json",
+    "sha256": "efe2a3d471a1a446c205099151263589382e6d668aebe0b8295f87643809ad16"
+  },
+  "summary_document": {
+    "path": "docs/research/ch05-overnight-closeout-r2.md",
+    "sha256": "0f1560dd19c07e04509e25373d23a28b21e3157fb8ca90b5926b58abeb3332bd"
+  },
+  "changed_files_document": {
+    "path": "docs/research/ch05-overnight-final-changed-files-r2.md",
+    "sha256": "4daca68870d1cc9af3650fc5f5b7a0dd6dc5176066732e3e0d635bd6dbfaa928"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/handoff/ch05-overnight-closeout-bundle-r1.json",
+      "sha256": "f6f4a44c3c6b3e8c5fe3b9b4b03b025a076e1b0f6f767eb47ff101c38ba20c3c"
+    },
+    {
+      "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r11.json",
+      "sha256": "6dc7cf6b7d72eeb64bb5917eec68c4079fa11af0ac3edccae4d4d34144928f8a"
+    },
+    {
+      "path": "docs/research/evidence/ch05-overnight-safe-source-parity-r3.json",
+      "sha256": "8ee066cebf558c31cb2db54e9d937f9ba10a77cb24fd70dbd2e3fa8ca0516bd6"
+    },
+    {
+      "path": "production/comic/review/ch05-review-artifact-link-manifest-r5.json",
+      "sha256": "43ee8365e441e8e8ecdee2098471b6f20ad242a41ae2107bba549d6a457c3958"
+    },
+    {
+      "path": "production/comic/handoff/ch05-owner-decision-defaults-packet-r1.json",
+      "sha256": "ab56dcd5e6b90db45d5e3ea29f1dcc931a39a164ff506f9a7920443849c44216"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r28.json",
+      "sha256": "24a007b9227826fa5ba1ccca10e3b13746e2dca0cc3247353825940b17617523"
+    },
+    {
+      "path": "docs/research/evidence/frozen-gauntlet-baseline-integrity-r1.json",
+      "sha256": "9abf582927b7dfccf4757a8745eee5fd260bd70418e4fd350fefeafe6ce9fbd9"
+    }
+  ],
+  "summary": {
+    "candidates": 29,
+    "plans": 50,
+    "batches": 12,
+    "review_links": 122,
+    "direct_review_links": 67,
+    "remaining_decisions": 10,
+    "resolved_decisions": 0,
+    "release_checks": 74,
+    "safe_paths": 873,
+    "safe_bytes": 13394576,
+    "frozen_paths": 16,
+    "baseline_paths": 4,
+    "zero_cost_milestones": 73,
+    "paid_spend_usd": 0,
+    "accepted": 0,
+    "executable": 0,
+    "human_review_minutes": null,
+    "changed_paths": 410,
+    "adrs": 65
+  },
+  "base_remote_parity": true,
+  "capture_ancestor": true,
+  "animation_shot_plan": null,
+  "e_conte": null
+}

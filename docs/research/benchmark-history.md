@@ -360,3 +360,5 @@ The measured route recommendation binds four role allocations and ten still-null
 The P010–P013 production-manifest dry run binds four exact rows, three reference hypotheses, two bounded repair slots, five planned review artifacts, and five production stages. All prompt/output/service/review fields remain null and all execution/promotion activity remains zero; 20/20 mutations fail.
 
 The P010–P013 review contract binds 44 empty candidate checks, five unbuilt artifacts, 11 failure classes, and five promotion rules before rendering. Candidate/sequence review and repair state remains empty; 17/17 mutations fail. This prevents review criteria from drifting around the eventual outputs.
+
+Integrated release r5 preserves the 33-check r4 chain and adds five independent post-r4 validators. Six/six commands pass in 9.346 seconds, 38 effective checks are represented, and 26/26 mutations fail. The release binds 99 artifacts and the next four-slot/44-check production-review shape without granting execution or acceptance.

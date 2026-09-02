@@ -1,0 +1,124 @@
+{
+  "record_type": "CH05OvernightIntegratedReleaseGate",
+  "schema_version": "1.4",
+  "record_id": "ng-ch05-overnight-integrated-release-gate-r5",
+  "state": "PASS",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-ch05-overnight-integrated-release-gate-r4",
+    "path": "docs/research/evidence/ch05-overnight-integrated-release-gate-r4.json",
+    "sha256": "00dda3b6b57255440a42000b0830eea02a14e5fab0013fd541fbd15775d404af"
+  },
+  "summary": {
+    "base_effective_command_count": 33,
+    "extension_command_count": 5,
+    "effective_command_count": 38,
+    "orchestrator_commands": 6,
+    "passed": 6,
+    "failed": 0,
+    "observed_total_seconds": 9.346271,
+    "network_capable_commands": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "downloads": 0,
+    "cost_usd": 0,
+    "accepted_candidates": 0,
+    "executable_panels": 0,
+    "owner_decisions": 0,
+    "human_review_minutes": null
+  },
+  "results": [
+    {
+      "path": "src/north_garden/validate_ch05_overnight_integrated_release_gate_r4.py",
+      "script_sha256": "cd918bfe5c2184c2825d6f80c92e8debb8052375b574443a3688435e0d758457",
+      "command": "python src/north_garden/validate_ch05_overnight_integrated_release_gate_r4.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 6.964871,
+      "stdout": "CH05 overnight integrated release r4: 0 failures; immutable 30 + 3 = 33 effective checks; 23/23 mutations rejected\n29 RenderRecords/39 refs/1385.036s; frozen 16 + baseline 4; 0 accepted/executable/calls/uploads/$0\n",
+      "stdout_sha256": "a890536803b1d7638767abb25833e679b834ce9bb7e4c6d3c9db6435730dd32d",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_owner_review_index_r3.py",
+      "script_sha256": "23f7461a300e39641f75434b86793ca71956f21f3baa753234275b3ee8293a6a",
+      "command": "python src/north_garden/validate_ch05_owner_review_index_r3.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.096286,
+      "stdout": "CH05 owner review index r3: 0 failures; 12 links/10 images/2 HTML/11 artifacts; 13/13 mutations rejected\n29 candidates/14 selected/39 pending; decisions/accepted/calls/uploads/cost 0/0/0/0/$0\n",
+      "stdout_sha256": "717f7ec65bfb4437d31029074fff818fa575a033c37c4502674262f1a64a1592",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_review_artifact_link_manifest.py",
+      "script_sha256": "006488757037b4c3be0561065e39480126a58f47b13f01da76ee7fb78a277b53",
+      "command": "python src/north_garden/validate_ch05_review_artifact_link_manifest.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 2.113012,
+      "stdout": "CH05 review-link manifest: 0 failures; 99 unique artifacts / 99 categorized links; 15/15 mutations rejected\ngenerated pixels tracked/published/accepted 0/0/0; calls/uploads/cost 0/0/$0\n",
+      "stdout_sha256": "9875b77374855e7139ec0524dcf40279b159b772ddba805366aa70e709b53e15",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_route_recommendation_and_review_matrix.py",
+      "script_sha256": "0d78cbc78906ad278cea5bb7634c8dbd58b35ac604adafd044a9458b8e03a339",
+      "command": "python src/north_garden/validate_ch05_route_recommendation_and_review_matrix.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.056837,
+      "stdout": "CH05 route recommendation/matrix: 0 failures; 4 styles/4 allocations/10 decisions; 17/17 mutations rejected\n29 candidates/50 plans/99 links; owner decisions/accepted/prompts/executable/calls/uploads/cost 0/0/0/0/0/0/$0\n",
+      "stdout_sha256": "6608b87599ff94611dd5dcbb2f05a187e4a1af0a264b387b13e6a290eec2d0fe",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_p010_p013_production_manifest_dry_run.py",
+      "script_sha256": "e467f74c2244d9b3b95c263cda5cc69b8e6e088ba8932f7e5fca2c04aa8b51c4",
+      "command": "python src/north_garden/validate_ch05_p010_p013_production_manifest_dry_run.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.058959,
+      "stdout": "CH05 P010-P013 manifest dry run: 0 failures; 4 rows/3 reference hypotheses/5 planned artifacts; 20/20 mutations rejected\nprompts/renders/executable/calls/uploads/cost/accepted/plan revisions 0/0/0/0/0/$0/0/0\n",
+      "stdout_sha256": "973f512afd70c0d2f1d27eae649b073864c2e3aacfdc1bbb106c6a2923a5b888",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_p010_p013_review_packet_contract_dry_run.py",
+      "script_sha256": "08d50982cc12ccaa9da204b0aafbb4cd94015edb26282949f4c676522085a88c",
+      "command": "python src/north_garden/validate_ch05_p010_p013_review_packet_contract_dry_run.py",
+      "network_capable": false,
+      "return_code": 0,
+      "elapsed_seconds": 0.055161,
+      "stdout": "CH05 P010-P013 review contract: 0 failures; 4 slots/11 checks/5 artifacts/11 failure classes; 17/17 mutations rejected\npixels/reviews/decisions/repairs/accepted/calls/uploads/cost 0/0/0/0/0/0/0/$0\n",
+      "stdout_sha256": "28d79c074a549927707ca605b7a1160c8bc34892e511506787c9452488cbc3f6",
+      "stderr": ""
+    }
+  ],
+  "effective_state": {
+    "candidates": 29,
+    "renderrecords": 29,
+    "review_artifacts": 99,
+    "strongest_shortlist": 14,
+    "owner_hub_links": 12,
+    "style_role_allocations": 4,
+    "route_decisions": 10,
+    "comic_panel_plans": 50,
+    "next_microsequence_plans": 4,
+    "next_candidate_slots": 4,
+    "next_repair_slots": 2,
+    "next_review_checks": 44,
+    "next_planned_artifacts": 5,
+    "next_prompts": 0,
+    "frozen_paths": 16,
+    "baseline_paths": 4
+  },
+  "boundaries": [
+    "R4 remains immutable; r5 preserves its 33 effective checks and adds five independent handoff/route/dry-run validators.",
+    "All commands are local and non-network-capable.",
+    "Passing does not accept art, ingest owner decisions, compile prompts, authorize uploads, revise ComicPanelPlans, or grant commercial clearance."
+  ]
+}

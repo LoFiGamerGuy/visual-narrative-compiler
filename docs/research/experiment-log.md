@@ -1120,3 +1120,10 @@
 - Predeclared five `NOT_BUILT` review artifacts, 11 failure classes, five promotion rules, and two unallocated one-class repair slots.
 - Required failures to remain diagnostic evidence and warnings to stay visible; prohibited broad rerolls and engineering-to-commercial/exact-base promotion.
 - ADR-0114 keeps pixels/reviews/decisions/repairs/acceptance/calls/uploads/cost at zero; 17/17 mutations fail.
+
+## 2026-09-01 - CH05 integrated release r5
+
+- Preserved immutable r4 and added five independent validators for owner index r3, exact links, measured route, P010–P013 production metadata, and P010–P013 review semantics.
+- Six/six commands pass in 9.346 seconds, representing 38 effective checks; 26/26 release mutations fail.
+- Bound 29 candidates, 99 review artifacts, 14 strongest links, ten route decisions, four next candidate slots, two repair slots, and 44 pre-render checks.
+- ADR-0115 preserves frozen/baseline integrity and keeps calls/uploads/downloads/cost/decisions/acceptance/executable state at zero.

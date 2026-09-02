@@ -87,3 +87,5 @@ The current engineering route is `production/comic/recommendations/ch05-pipeline
 The next microsequence's fail-closed production shape is `production/comic/run-manifests/ch05-p010-p013-production-manifest-dry-run-r1.json`. It contains four exact ComicPanelPlan rows, two bounded repair slots, five planned review artifacts, and no prompt or executable state under ADR-0113.
 
 Its pre-render review semantics are `production/comic/review/ch05-p010-p013-review-packet-contract-dry-run-r1.json`: 11 checks per slot, five unbuilt artifacts, 11 failure classes, and five promotion rules under ADR-0114. This record creates no review event or acceptance.
+
+Integrated evidence now passes release r5 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r5.json`: 38 effective checks, 6/6 commands, and 26/26 rejected mutations under ADR-0115.

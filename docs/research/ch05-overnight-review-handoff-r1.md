@@ -91,3 +91,5 @@ Its pre-render review semantics are `production/comic/review/ch05-p010-p013-revi
 Integrated evidence now passes release r5 at `docs/research/evidence/ch05-overnight-integrated-release-gate-r5.json`: 38 effective checks, 6/6 commands, and 26/26 rejected mutations under ADR-0115.
 
 Review the full 50-plan readiness map at `experiments/review-packets/ch05-chapter-production-readiness-r1/ch05-chapter-readiness-map-r1.png`. The tracked matrix is `production/comic/run-manifests/ch05-chapter-production-readiness-matrix-r1.json`; ADR-0116 keeps every prompt and promotion gate closed.
+
+Review the hair/wardrobe/reference risk map at `experiments/review-packets/ch05-reference-use-continuity-risk-r1/ch05-reference-risk-map-r1.png`. The tracked plan is `production/comic/continuity/ch05-reference-use-and-continuity-risk-plan-r1.json`; ADR-0117 makes all 18 no-person rows text-only and critically guards the sole P036 composition hypothesis.

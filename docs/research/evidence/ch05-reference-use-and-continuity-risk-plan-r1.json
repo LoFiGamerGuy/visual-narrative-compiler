@@ -1,0 +1,54 @@
+{
+  "record_type": "ComicReferenceUseAndContinuityRiskPlanEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-reference-use-and-continuity-risk-plan-evidence-r1",
+  "state": "PASS_ZERO_UPLOAD",
+  "plan": {
+    "path": "production/comic/continuity/ch05-reference-use-and-continuity-risk-plan-r1.json",
+    "sha256": "07f8586ed4d965dda7076d1b7f55ed6d6e79a59edd134b2302b1e60968dcdef9"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-production-readiness-matrix-r1.json",
+      "sha256": "95d562f53fbebe1956c9d0878d5c0b1091d7ab4044a6dc5927e94ce0799dc53a"
+    },
+    {
+      "path": "production/comic/continuity/ch05-fictional-adult-visual-profile-r1.json",
+      "sha256": "4a2bac302ad720e67e281e7b59903b8b2c5a43792056175c6add103b873eb3b2"
+    },
+    {
+      "path": "production/comic/continuity/ch05-character-assertion-manifest-r1.json",
+      "sha256": "3e4583e5ab9eb1321ae5ff16b30596ca141d43d82481c59e50ab65bcafd2c1e2"
+    }
+  ],
+  "summary": {
+    "plan_count": 50,
+    "text_only_plans": 18,
+    "reference_hypothesis_uses": 42,
+    "p050_hypotheses": 25,
+    "p040_hypotheses": 16,
+    "p036_composition_hypotheses": 1,
+    "low_risk": 18,
+    "medium_risk": 9,
+    "high_risk": 22,
+    "critical_guarded": 1,
+    "reference_uploads": 0,
+    "automated_identity_inferences": 0,
+    "next_prompt_count": 0,
+    "owner_accepted": 0,
+    "execution_ready": 0,
+    "provider_calls": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "chart": {
+    "path": "experiments/review-packets/ch05-reference-use-continuity-risk-r1/ch05-reference-risk-map-r1.png",
+    "sha256": "907b94714f0b4051e394faca49a5473fc0a1e10021e69af5fc5f27ed70f03cff",
+    "dimensions": [
+      1600,
+      1900
+    ]
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

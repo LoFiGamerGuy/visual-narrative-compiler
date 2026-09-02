@@ -1134,3 +1134,11 @@
 - Partitioned 50 rows into 14 selected-evidence, four dry-run, eight remaining Tier A, and 24 backlog; 14 plans have 26 existing CH05 candidates.
 - Built and visually checked a 1600×1900 local readiness map showing every plan, tier, role, width, cast count, candidate rollup, and blocker count.
 - ADR-0116 leaves 50/50 next prompts null and all copy/acceptance/commercial/execution/revision/provider state zero; 20/20 mutations fail.
+
+## 2026-09-01 - CH05 reference-use and continuity-risk plan r1
+
+- Assigned metadata-only reference hypotheses across all 50 plans from exact cast/scale roles: 18 no-person text-only, 25 P050, 16 P040, and one P036 composition-only use.
+- Classified 18 low, nine medium, 22 high, and one critical-guarded row; Soren-only dual-reference leakage and dual role order are explicit high-risk classes.
+- Bound P036 to identity authority `NONE`, swapped-hair guard, and plan P036 only; prohibited automated identity inference.
+- Preserved attempt 1's incorrect 43-use expectation and corrected only validator counts to the unchanged 42-use compiler output.
+- Built/visually checked a 1600×1900 risk map; ADR-0117 keeps uploads/inference/prompts/acceptance/execution/calls/cost zero; 20/20 mutations fail.

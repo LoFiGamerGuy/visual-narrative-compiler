@@ -87,3 +87,5 @@ The P010–P013 review-contract dry run adds no generation or external cost. For
 Integrated release r5 adds no generation or external cost. Its six commands represent 38 effective checks in 9.346 seconds. Calls, uploads, downloads, decisions, accepted candidates, and executable panels remain zero; human minutes remain null.
 
 The 50-plan readiness matrix and local map add no generation or external cost. They join existing metadata only; next prompts, copy, acceptance, commercial clearance, executable rows, revisions, calls, and uploads remain zero, while human minutes remain null.
+
+The reference-use/continuity-risk plan and local map add no generation or external cost. Its 42 reference uses are metadata hypotheses only; actual uploads, automated identity inferences, prompts, calls, acceptances, and execution remain zero, while human minutes and cost remain null.

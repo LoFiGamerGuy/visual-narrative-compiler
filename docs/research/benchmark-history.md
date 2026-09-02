@@ -364,3 +364,5 @@ The P010–P013 review contract binds 44 empty candidate checks, five unbuilt ar
 Integrated release r5 preserves the 33-check r4 chain and adds five independent post-r4 validators. Six/six commands pass in 9.346 seconds, 38 effective checks are represented, and 26/26 mutations fail. The release binds 99 artifacts and the next four-slot/44-check production-review shape without granting execution or acceptance.
 
 The 50-plan readiness matrix partitions exactly into 14 selected-evidence, four dry-run, eight other Tier A, and 24 backlog rows. Fourteen plans have 26 existing candidates; every plan has continuity/scale/mechanism data, while every next prompt and promotion field remains closed. The visually checked map is 1600×1900 and 20/20 mutations fail.
+
+The minimal reference-risk plan assigns 42 metadata hypotheses across 50 plans: 18 no-person text-only, P050 25, P040 16, and P036 composition-only one. Risk classes are 18/9/22/1 low/medium/high/critical-guarded. The 1600×1900 map is visually checked and 20/20 mutations fail; the initial 43-use estimate remains preserved as failed evidence.

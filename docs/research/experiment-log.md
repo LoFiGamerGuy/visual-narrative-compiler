@@ -1226,3 +1226,10 @@
 - Bound exact script hashes, arguments, raw/normalized stdout hashes, immutable inputs, elapsed times, and compile-time remote parity.
 - Limited dynamic normalization to two declared live tracked-count diagnostics; no captured inventory or semantic state is normalized.
 - Seven/seven domains pass and 20/20 mutations fail under ADR-0129; provider and promotion activity remain zero.
+
+## 2026-09-01 - CH05 P010–P013 owner unlock contract r1
+
+- Identified six exact route/density/lettering/pilot roots required for direct prompt compilation; 0/6 are structurally resolved.
+- Deferred four choices that do not gate a silent new pilot and retained 14 existing-candidate dispositions as exact-base prerequisites only.
+- Preserved broad positive approval as creative direction without mapping it to candidate acceptance, commercial clearance, or exact route values.
+- Four candidate slots, two repairs, and five review artifacts remain blocked at prompt/render/promotion 0/0/0; 17/17 mutations fail under ADR-0130.

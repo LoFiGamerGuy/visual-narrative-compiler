@@ -390,3 +390,5 @@ Integrated release r8 preserves the 46-check r7 chain and adds delivery, cost-le
 R8 post-commit reproduction exposed one expected dynamic stdout mismatch: the live tracked-safe-source path count increased after committing r8. Compatibility r1 preserves that failure and normalizes only the numeric diagnostic on one of four commands; all 4/4 normalized outputs match and 10/10 mutations fail. No inventory or semantic field is normalized.
 
 The compact final reproducer matrix runs seven independent domains in 47.129 seconds. All seven pass, the underlying release represents 49 checks, and 20/20 matrix mutations fail. Only safe-source/current-scope live count diagnostics normalize; script, input, captured inventory, frozen, cost, and remote-lineage evidence remain exact.
+
+The P010–P013 unlock contract identifies six exact owner-decision roots, four deferred choices, and 14 existing-candidate reviews. It keeps the next pilot at four slots/two repair slots/five planned artifacts while prompt/render/promotion remains 0/0/0. Seventeen/seventeen mutations fail; broad approval is direction, not structured acceptance.

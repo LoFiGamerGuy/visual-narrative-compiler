@@ -1,0 +1,55 @@
+{
+  "record_type": "ComicOwnerUnlockContractEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p010-p013-owner-unlock-contract-evidence-r1",
+  "state": "PASS_BLOCKED",
+  "contract": {
+    "path": "production/comic/review/ch05-p010-p013-owner-unlock-contract-r1.json",
+    "sha256": "0f988abde63116fdf58f7b52a095f3c3d5d05f3bc4fd834360df5b34d0996570"
+  },
+  "owner_checklist": {
+    "path": "docs/research/ch05-p010-p013-owner-unlock-checklist-r1.md",
+    "sha256": "2ebc69dca819545669ed445dfd2939e3c60a33150a28ef689d0754ee2c4b9339"
+  },
+  "inputs": [
+    {
+      "path": "production/comic/review/ch05-route-review-decision-matrix-r1.json",
+      "sha256": "694da9b4b6f649313237bc2cfc10027c2351eb5ae66afa296afd5030203062c1"
+    },
+    {
+      "path": "production/comic/review/ch05-owner-handoff-dependency-checklist-r1.json",
+      "sha256": "4792746f50db0ac0e9a0fd753d6c65a42cdeda5414c9a84746819c8c21f269de"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-p010-p013-production-manifest-dry-run-r1.json",
+      "sha256": "f668fc1531b556529a3e8cf7f3ef9d6c65a2172cab448ec26e57e97eaf48403e"
+    },
+    {
+      "path": "production/comic/review/ch05-p010-p013-review-packet-contract-dry-run-r1.json",
+      "sha256": "a7858e71d826257c8197a500e05f4520dda20a8bac82a037a64a2b5690b4b0ae"
+    },
+    {
+      "path": "production/comic/review/ch05-human-review-time-instrumentation-contract-r1.json",
+      "sha256": "f236f6996f72ae0728d5ce9eef1eedda105e77df0b3c03d4b298fa4ab71ac731"
+    }
+  ],
+  "summary": {
+    "required_decisions": 6,
+    "resolved_required_decisions": 0,
+    "direct_compile_values": 6,
+    "deferred_decisions": 4,
+    "existing_candidate_reviews": 14,
+    "pilot_candidates": 4,
+    "repair_slots": 2,
+    "planned_review_artifacts": 5,
+    "prompts": 0,
+    "renders": 0,
+    "owner_decisions": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "executable": 0,
+    "human_review_minutes": null
+  },
+  "animation_shot_plan": null,
+  "e_conte": null
+}

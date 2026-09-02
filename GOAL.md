@@ -236,6 +236,8 @@ The r8 post-commit compatibility milestone is complete under ADR-0128. Raw r8 re
 
 The final evidence-reproducer matrix milestone is complete under ADR-0129. Seven/seven independent domains pass in 47.129 seconds: release-r8 compatibility, delivery bundle, source capture, frozen/baseline integrity, current tracked scope, zero-cost ledger r25, and remote lineage. Script/argument/stdout/input hashes bind, only two live path-count diagnostics normalize, and 20/20 mutations fail. The next bounded milestone is a fail-closed owner-review-to-production unlock contract for the P010–P013 pilot.
 
+The P010–P013 owner-unlock milestone is complete under ADR-0130. Six exact route/cadence/copy roots are separated from four deferred choices and 14 existing-candidate dispositions; broad approval remains positive direction but is not fabricated into structured values. The four-candidate/two-repair/five-artifact pilot stays blocked at prompt/render/promotion 0/0/0, and 17/17 mutations fail. The next bounded milestone is a non-executable four-panel prompt-blueprint and lint layer that advances local preparation without mutating the prompt-null production manifest.
+
 ### Authority and data boundaries
 
 The user has directed research across local, frontier, API, and managed-GPU paths. The program may prepare adapters and run fully local work autonomously. Before material paid expenditure, model download where there are multiple plausible choices, or an external upload of adult likeness/reference material, collect current primary terms and provide the smallest decision memo needed. Initial external bakeoffs contain only original fictional adult character designs and non-sensitive control assets.

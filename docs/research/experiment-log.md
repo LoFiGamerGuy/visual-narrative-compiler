@@ -1450,3 +1450,10 @@
 - Added eight required review dimensions per candidate (112 total) plus four visual-only dispositions and one-class repair semantics.
 - One valid synthetic response passes; 14/14 malformed/authority-expanding responses and 16/16 evidence mutations fail.
 - The tracked template remains null and cannot set shortlist rollup, route, acceptance, commercial, exact-base, plan, or cross-medium state under ADR-0161.
+
+## 2026-09-01 - CH05 final owner hub r9 and exact links r7
+
+- Extended immutable r8 with closeout r3, the 14-candidate worksheet, consistency audit, release r12, and source r4.
+- Two builds produce byte-identical hub index/packet hashes; 22/22 hub mutations fail.
+- Preserved all 128 prior links and reached 134 exact resources: 111 ignored local plus 23 tracked metadata.
+- Nineteen/nineteen link-manifest mutations fail under ADR-0162; dispositions, ingestion, acceptance, rights, and execution remain absent.

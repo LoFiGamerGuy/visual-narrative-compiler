@@ -454,3 +454,5 @@ Closeout r3 binds 29 candidates/50 plans/12 batches/128 resources/67 priority li
 The final handoff matrix joins nine current records: 12/12 consensus facts agree, zero unexplained conflicts remain, one expected 873→934 source-lineage delta is disclosed, and 25/25 mutations fail.
 
 The strongest-candidate worksheet binds 14 exact hashes and 112 visual checks. One valid synthetic response passes, 14 malformed/authority-expanding responses fail, and 16 evidence mutations fail; the tracked template remains unfilled.
+
+Owner hub r9 builds byte-identically with six links and rejects 22/22 mutations. Exact link manifest r7 preserves 128 prior bindings and reaches 134 resources (111 ignored/23 tracked); 19/19 mutations fail.

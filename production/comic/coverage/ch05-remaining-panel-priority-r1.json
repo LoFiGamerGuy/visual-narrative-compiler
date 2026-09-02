@@ -1,0 +1,952 @@
+{
+  "record_type": "ComicChapterRemainingPanelPriority",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-remaining-panel-priority-r1",
+  "state": "PRIORITIZED_LOCAL_ONLY_OWNER_REVIEW_BEFORE_ANY_NEW_GENERATION",
+  "medium": "comic",
+  "comic_panel_plan_collection": {
+    "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+  },
+  "selected_handoff": {
+    "path": "production/comic/run-manifests/ch05-instrumented-production-manifest-r1.json",
+    "sha256": "87d4af2781c0f42650b7bf9525ad5d9d16ac3cf4c9e27c00e36fa430345ef6f7"
+  },
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "summary": {
+    "plan_count": 50,
+    "selected_count": 14,
+    "uncovered_count": 36,
+    "tier_a_count": 12,
+    "tier_b_count": 12,
+    "tier_c_count": 12,
+    "production_executable": 0,
+    "accepted_new_plans": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "coverage": {
+    "motion_mode": {
+      "directional_motion": {
+        "total": 10,
+        "selected": 2,
+        "uncovered": 8
+      },
+      "held_observation": {
+        "total": 26,
+        "selected": 6,
+        "uncovered": 20
+      },
+      "held_sensory_event": {
+        "total": 10,
+        "selected": 2,
+        "uncovered": 8
+      },
+      "practical_action": {
+        "total": 4,
+        "selected": 4,
+        "uncovered": 0
+      }
+    },
+    "narrative_function": {
+      "departure_orientation": {
+        "total": 4,
+        "selected": 3,
+        "uncovered": 1
+      },
+      "mill_approach": {
+        "total": 13,
+        "selected": 3,
+        "uncovered": 10
+      },
+      "mill_interior": {
+        "total": 11,
+        "selected": 3,
+        "uncovered": 8
+      },
+      "signal_and_return": {
+        "total": 10,
+        "selected": 4,
+        "uncovered": 6
+      },
+      "trail_clue_chain": {
+        "total": 12,
+        "selected": 1,
+        "uncovered": 11
+      }
+    },
+    "cast_occupancy": {
+      "dual_adult": {
+        "total": 17,
+        "selected": 6,
+        "uncovered": 11
+      },
+      "no_visible_adult": {
+        "total": 18,
+        "selected": 1,
+        "uncovered": 17
+      },
+      "single_adult": {
+        "total": 15,
+        "selected": 7,
+        "uncovered": 8
+      }
+    }
+  },
+  "priority_tiers": [
+    {
+      "tier": "A",
+      "state": "NEXT_HIGHEST_INFORMATION_AFTER_OWNER_REVIEW",
+      "groups": [
+        {
+          "group_id": "trail_sensory_and_twine",
+          "orders": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "context_orders": [
+            9,
+            16
+          ],
+          "rationale": "Completes the underrepresented water/twine/redirection clue chain between selected trail movement and the spoken distance hypothesis."
+        },
+        {
+          "group_id": "mill_reveal_and_red_cloth",
+          "orders": [
+            17,
+            18,
+            20,
+            21,
+            22,
+            23
+          ],
+          "context_orders": [
+            19,
+            24
+          ],
+          "rationale": "Adds the mill reveal, false smoke origin, creek crossing, red-cloth trap, protected-object choice, and loading-door approach around selected bridge warning."
+        }
+      ]
+    },
+    {
+      "tier": "B",
+      "state": "SECOND_PRODUCTION_TRANCHE",
+      "groups": [
+        {
+          "group_id": "smoke_bell_and_entry",
+          "orders": [
+            24,
+            25,
+            27,
+            28,
+            30,
+            31
+          ],
+          "context_orders": [
+            26,
+            29,
+            32
+          ],
+          "rationale": "Completes drum/ember/twine/bell mechanics and establishes the mill interior plus first dry-footprint discontinuity around selected heat test and wall entry."
+        },
+        {
+          "group_id": "interior_false_tracks_and_tin_map",
+          "orders": [
+            32,
+            33,
+            34,
+            37,
+            38,
+            39
+          ],
+          "context_orders": [
+            31,
+            35,
+            36,
+            40
+          ],
+          "rationale": "Builds the reversed-footprint/bell suspense and closes the selected plank/tin action into the marked-map deduction."
+        }
+      ]
+    },
+    {
+      "tier": "C",
+      "state": "CONNECTIVE_COMPLETION_TRANCHE",
+      "groups": [
+        {
+          "group_id": "departure_marker_connective",
+          "orders": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "context_orders": [
+            3,
+            9
+          ],
+          "rationale": "Fills reaction, runnel, marker, and map-fold connective beats after the selected first clue; important for full chapter flow but lower new-mechanism information."
+        },
+        {
+          "group_id": "spoken_distance_hypothesis",
+          "orders": [
+            16
+          ],
+          "context_orders": [
+            15,
+            17
+          ],
+          "rationale": "Only explicit says-beat; final copy remains absent, so it is isolated as a future dialogue/lettering test rather than silently scripted."
+        },
+        {
+          "group_id": "signal_shutdown_and_return",
+          "orders": [
+            41,
+            42,
+            43,
+            45,
+            47,
+            48
+          ],
+          "context_orders": [
+            40,
+            44,
+            46,
+            49,
+            50
+          ],
+          "rationale": "Completes drum extinction, second bell, retreat, post-cut silence, climb, and farmhouse-smoke reveal around the selected final causal/return anchors."
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "order": 1,
+      "panel_id": "ng-ch05-sc01-p001",
+      "plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+      "plan_canonical_sha256": "f51a6ff21dc0976e400103485c9bc1775d0dbc5493ebdf201b1a94f8ac90ab44",
+      "coverage_state": "selected",
+      "narrative_function": "departure_orientation",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "The pair leave the farmhouse before the damp grass dries.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 2,
+      "panel_id": "ng-ch05-sc01-p002",
+      "plan_revision_id": "ng-ch05-sc01-p002-plan-r1",
+      "plan_canonical_sha256": "ca7639300bd18e0cd7526177341fb43cf3e2a483632291ad79e850c9fd4cd6e3",
+      "coverage_state": "selected",
+      "narrative_function": "departure_orientation",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Sigrid checks the smoke direction against the folded map.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 3,
+      "panel_id": "ng-ch05-sc01-p003",
+      "plan_revision_id": "ng-ch05-sc01-p003-plan-r1",
+      "plan_canonical_sha256": "88e6f42b05378fcc1e12b8fae0adae534afe9fd6830e57bdd06940ac00036132",
+      "coverage_state": "selected",
+      "narrative_function": "departure_orientation",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Soren notices that the boot prints now overlap the trail rather than lead it.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 4,
+      "panel_id": "ng-ch05-sc01-p004",
+      "plan_revision_id": "ng-ch05-sc01-p004-plan-r1",
+      "plan_canonical_sha256": "49ff265952f0910d38379b78a52774a45d14870a60f020be5d75306809486490",
+      "coverage_state": "C",
+      "narrative_function": "departure_orientation",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "They exchange a look and continue without explaining the change.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 5,
+      "panel_id": "ng-ch05-sc01-p005",
+      "plan_revision_id": "ng-ch05-sc01-p005-plan-r1",
+      "plan_canonical_sha256": "c047dd468c1b26063729cf8e75625e227171ecf96debd92002fd8f79b63db1fe",
+      "coverage_state": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "Rainwater feeds a shallow runnel across their path.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 6,
+      "panel_id": "ng-ch05-sc01-p006",
+      "plan_revision_id": "ng-ch05-sc01-p006-plan-r1",
+      "plan_canonical_sha256": "6e7894d2c9749aed9a050909559b5657c36cb4a97766bc7190ab1d3bfbe60fd9",
+      "coverage_state": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "Sigrid steps the runnel first and points out an older stone marker.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 7,
+      "panel_id": "ng-ch05-sc01-p007",
+      "plan_revision_id": "ng-ch05-sc01-p007-plan-r1",
+      "plan_canonical_sha256": "3003d8488e393b1e6669d124c37021c9c25e3e189737807fc5e0d7275ee50716",
+      "coverage_state": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The marker bears a simple mill-wheel sketch, not a name.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 8,
+      "panel_id": "ng-ch05-sc01-p008",
+      "plan_revision_id": "ng-ch05-sc01-p008-plan-r1",
+      "plan_canonical_sha256": "9074a24655ac02b69e04c8703e8925fe855d6347371246f96f5e0b517366b928",
+      "coverage_state": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Soren folds the map to hide the farmhouse and expose the creek line.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 9,
+      "panel_id": "ng-ch05-sc01-p009",
+      "plan_revision_id": "ng-ch05-sc01-p009-plan-r1",
+      "plan_canonical_sha256": "cb8dd07adc434b272bbc875b81e86a77b650e591ad5646842b54efbf4be0c8fe",
+      "coverage_state": "selected",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "The trail narrows under wet branches.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 10,
+      "panel_id": "ng-ch05-sc01-p010",
+      "plan_revision_id": "ng-ch05-sc01-p010-plan-r1",
+      "plan_canonical_sha256": "6315bf987c59683d82665b7b98bd4861da87557940574b7831a5beb0e3fbb055",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Sigrid hears the water before it is visible.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 11,
+      "panel_id": "ng-ch05-sc01-p011",
+      "plan_revision_id": "ng-ch05-sc01-p011-plan-r1",
+      "plan_canonical_sha256": "4e736a6333e7545340167bb52d7a29d18f30520e06c461771bf5f0a9021d858c",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Soren finds a length of soot-stained twine caught on a thorn.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 12,
+      "panel_id": "ng-ch05-sc01-p012",
+      "plan_revision_id": "ng-ch05-sc01-p012-plan-r1",
+      "plan_canonical_sha256": "d40391007cd76fb246eaec7188e439c92fe8b1aa976a4ad763b8fd6d14cf445b",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The twine points downhill as if pulled taut and released.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 13,
+      "panel_id": "ng-ch05-sc01-p013",
+      "plan_revision_id": "ng-ch05-sc01-p013-plan-r1",
+      "plan_canonical_sha256": "9e1e05e723e22e729ee38b7af966fe16bf67756513cd929167801ca45c7fbb76",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "They follow the creek instead of the tracks.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 14,
+      "panel_id": "ng-ch05-sc01-p014",
+      "plan_revision_id": "ng-ch05-sc01-p014-plan-r1",
+      "plan_canonical_sha256": "4104d6cf08d3a98365c7993346ebbd575b8a8e4cf21e7d8a6fb397830c0fe97a",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The smoke briefly disappears behind a shoulder of ridge.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 15,
+      "panel_id": "ng-ch05-sc01-p015",
+      "plan_revision_id": "ng-ch05-sc01-p015-plan-r1",
+      "plan_canonical_sha256": "c47d6bad4f51381ae2c54b4f17354c25ac733214a8477da624f29ca5f878a503",
+      "coverage_state": "A",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Sigrid marks the loss of sight on the map with a wet thumb.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 16,
+      "panel_id": "ng-ch05-sc01-p016",
+      "plan_revision_id": "ng-ch05-sc01-p016-plan-r1",
+      "plan_canonical_sha256": "e047e062a8065aee5595c56239127469795d4ef6a305d21d83672d7f544c389f",
+      "coverage_state": "C",
+      "narrative_function": "trail_clue_chain",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "Soren says the smoke must be closer than it looks.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 17,
+      "panel_id": "ng-ch05-sc01-p017",
+      "plan_revision_id": "ng-ch05-sc01-p017-plan-r1",
+      "plan_canonical_sha256": "a7554df9e2fe0c1ebc38d657076ef18f73088b47a6ea8ea1fee565e579f7eca8",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The abandoned mill appears below, roofline broken against pale morning.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 18,
+      "panel_id": "ng-ch05-sc01-p018",
+      "plan_revision_id": "ng-ch05-sc01-p018-plan-r1",
+      "plan_canonical_sha256": "426af155936b9efb8b4f0c6dea9727eb7a03171fb9e1d0f18e73c8b42c41cc02",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "Smoke rises from behind the mill rather than from its chimney.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 19,
+      "panel_id": "ng-ch05-sc01-p019",
+      "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+      "plan_canonical_sha256": "015768ed057d7965113d7237f6c21c4f47e85886e78a1099474e903536ad1fcc",
+      "coverage_state": "selected",
+      "narrative_function": "mill_approach",
+      "motion_mode": "practical_action",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "Sigrid signals Soren to stay off the open bridge.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 20,
+      "panel_id": "ng-ch05-sc01-p020",
+      "plan_revision_id": "ng-ch05-sc01-p020-plan-r1",
+      "plan_canonical_sha256": "a111533ee0d8c98869991ebcfb633689af13c4bc5944558cdff1a2a2e8dd9486",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "They cross the creek on stones below the bridge.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 21,
+      "panel_id": "ng-ch05-sc01-p021",
+      "plan_revision_id": "ng-ch05-sc01-p021-plan-r1",
+      "plan_canonical_sha256": "663b5e863c727669fe53187c740db7c3e0c3c09b116a91b5202fc40770ce2864",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "A freshly tied strip of red cloth moves from a lower branch.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 22,
+      "panel_id": "ng-ch05-sc01-p022",
+      "plan_revision_id": "ng-ch05-sc01-p022-plan-r1",
+      "plan_canonical_sha256": "d9eed30042bfcafb77a1de5817025239effe4a51c499187c5b3c8775e5c2936c",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "Soren stops Sigrid from touching the cloth.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 23,
+      "panel_id": "ng-ch05-sc01-p023",
+      "plan_revision_id": "ng-ch05-sc01-p023-plan-r1",
+      "plan_canonical_sha256": "dcbc5be80ac5e816f684338e5d570c8f433e710e272fd3c6338dfb370810f017",
+      "coverage_state": "A",
+      "narrative_function": "mill_approach",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "They circle toward the mill's collapsed loading door.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 24,
+      "panel_id": "ng-ch05-sc01-p024",
+      "plan_revision_id": "ng-ch05-sc01-p024-plan-r1",
+      "plan_canonical_sha256": "ebea8e758b07935f00fa23b58259c40fae17a91d978b1cb465d47fa7bd525792",
+      "coverage_state": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "A thin smoke thread rises from a metal drum hidden behind stone.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 25,
+      "panel_id": "ng-ch05-sc01-p025",
+      "plan_revision_id": "ng-ch05-sc01-p025-plan-r1",
+      "plan_canonical_sha256": "f60c3c0ad00f647e124375d4e5fbe29d6c87795b9de0a5412814209329cc5f5a",
+      "coverage_state": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The drum contains only wet pine needles and a damp ember.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 26,
+      "panel_id": "ng-ch05-sc01-p026",
+      "plan_revision_id": "ng-ch05-sc01-p026-plan-r1",
+      "plan_canonical_sha256": "e9800859dd9c05c41a20049605e05898165ff021ee1e6da1a50b1ecf89557af9",
+      "coverage_state": "selected",
+      "narrative_function": "mill_approach",
+      "motion_mode": "practical_action",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Sigrid tests the heat without disturbing the ember.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 27,
+      "panel_id": "ng-ch05-sc01-p027",
+      "plan_revision_id": "ng-ch05-sc01-p027-plan-r1",
+      "plan_canonical_sha256": "8f73827e6e4aa674d9ddeeba9693735ce3a12f828737404612876588e53bf2b2",
+      "coverage_state": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Soren sees a second twine line disappearing through the mill wall.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 28,
+      "panel_id": "ng-ch05-sc01-p028",
+      "plan_revision_id": "ng-ch05-sc01-p028-plan-r1",
+      "plan_canonical_sha256": "f63bef4cc87285486ae66cdaf0b38da5df1d1b47c169eeab01ed92a878c0a2b1",
+      "coverage_state": "B",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The line is tied to a small brass bell inside the doorway.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 29,
+      "panel_id": "ng-ch05-sc01-p029",
+      "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+      "plan_canonical_sha256": "d5ee0db8032a180e92815cb3c4b672c7f1906e31e5be10b3bd76a8e9e6d55dac",
+      "coverage_state": "selected",
+      "narrative_function": "mill_approach",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "Sigrid chooses the wall opening rather than the doorway.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 30,
+      "panel_id": "ng-ch05-sc01-p030",
+      "plan_revision_id": "ng-ch05-sc01-p030-plan-r1",
+      "plan_canonical_sha256": "6d881c8f03a1e06b2f3d88bc838d34eb7036d89035afe5314e01a8120750eb2d",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "Inside, daylight bars stripe standing water and broken gears.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 31,
+      "panel_id": "ng-ch05-sc01-p031",
+      "plan_revision_id": "ng-ch05-sc01-p031-plan-r1",
+      "plan_canonical_sha256": "765a22dd6fd164612611648672b6bd11c7d378f8de99a66f8cfcf99e6fba05d9",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Sigrid finds dry footprints ending at the water's edge.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 32,
+      "panel_id": "ng-ch05-sc01-p032",
+      "plan_revision_id": "ng-ch05-sc01-p032-plan-r1",
+      "plan_canonical_sha256": "0b6eb0fe6ab69ced190fa2e740ae3ea754ff01934f099d09b2b8334dded2fe0e",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Soren sees the footprints begin again on the far side, facing back.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 33,
+      "panel_id": "ng-ch05-sc01-p033",
+      "plan_revision_id": "ng-ch05-sc01-p033-plan-r1",
+      "plan_canonical_sha256": "93d3839bd99e1c7cb5ba7a7e2dd582cbae6cc2e9c9f9a88bed604fc5339b9f50",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "A quiet drip rings the brass bell once from outside.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 34,
+      "panel_id": "ng-ch05-sc01-p034",
+      "plan_revision_id": "ng-ch05-sc01-p034-plan-r1",
+      "plan_canonical_sha256": "69bfdc94a88478658309778da28bff708ec3cb26b880e62531b9f4a474e2bef8",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "Neither moves toward the bell.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 35,
+      "panel_id": "ng-ch05-sc01-p035",
+      "plan_revision_id": "ng-ch05-sc01-p035-plan-r1",
+      "plan_canonical_sha256": "a788a9b7894a908500166dd1c21eaed337a2c623a2cf35b35a0174623e6df9c6",
+      "coverage_state": "selected",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "Sigrid notices a sealed tin on an upper beam.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 36,
+      "panel_id": "ng-ch05-sc01-p036",
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "plan_canonical_sha256": "0f1d0327863fdc5d6e8fdb589f68dc2d10cd0bfb7797b6a582687d1548594610",
+      "coverage_state": "selected",
+      "narrative_function": "mill_interior",
+      "motion_mode": "practical_action",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "Soren reaches it with a fallen plank while Sigrid braces the plank.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 37,
+      "panel_id": "ng-ch05-sc01-p037",
+      "plan_revision_id": "ng-ch05-sc01-p037-plan-r1",
+      "plan_canonical_sha256": "13a80cc1175d1c9b5fd73b400536affcfafc06ab73993eee4b46fcd4f6a2963a",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The tin holds dry matches, a hand-drawn creek map, and a blank note card.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 38,
+      "panel_id": "ng-ch05-sc01-p038",
+      "plan_revision_id": "ng-ch05-sc01-p038-plan-r1",
+      "plan_canonical_sha256": "15f0a5665a8604446f2d4dba501a5ca9c854885ce81147805472e683ce4cf87e",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The map marks the farmhouse with a small square and the mill with a circle.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 39,
+      "panel_id": "ng-ch05-sc01-p039",
+      "plan_revision_id": "ng-ch05-sc01-p039-plan-r1",
+      "plan_canonical_sha256": "e363f4d83168d2aa5c40797a449b2ba65c19384050d9e4eace68a439f91289b9",
+      "coverage_state": "B",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "A third mark is visible upstream, beyond the map edge.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 40,
+      "panel_id": "ng-ch05-sc01-p040",
+      "plan_revision_id": "ng-ch05-sc01-p040-plan-r1",
+      "plan_canonical_sha256": "381e42063b6af55e6c65219a881aaf6caee8501ebb00ccbf82dd2180db667973",
+      "coverage_state": "selected",
+      "narrative_function": "mill_interior",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Sigrid decides the smoke was a signal, not a campfire.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 41,
+      "panel_id": "ng-ch05-sc01-p041",
+      "plan_revision_id": "ng-ch05-sc01-p041-plan-r1",
+      "plan_canonical_sha256": "4a7c2f16932f496c9dfd0d23b33fea38eae64c5d12503d845f0c7f3a56bfac98",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The hidden drum finally goes out in the rain.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 42,
+      "panel_id": "ng-ch05-sc01-p042",
+      "plan_revision_id": "ng-ch05-sc01-p042-plan-r1",
+      "plan_canonical_sha256": "0e6537e580a7667da288eabd871fffe073ba2ba68ddad9f1ec4b70e611ea03a3",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The bell rings again, now from the creek side.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 43,
+      "panel_id": "ng-ch05-sc01-p043",
+      "plan_revision_id": "ng-ch05-sc01-p043-plan-r1",
+      "plan_canonical_sha256": "1daf4c147d5aa73e7ea4d46dd61beb74014c9443bf82946c0b7a33b4d7fa974d",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "They leave the tin open on the stone and retreat together.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 44,
+      "panel_id": "ng-ch05-sc01-p044",
+      "plan_revision_id": "ng-ch05-sc01-p044-plan-r1",
+      "plan_canonical_sha256": "102a8560f4a3a13fe8b4a3869865dae2d2d6a0875640b9693acd906a88cb9f65",
+      "coverage_state": "selected",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "practical_action",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "At the creek, Soren cuts the twine line with a pocket knife.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 45,
+      "panel_id": "ng-ch05-sc01-p045",
+      "plan_revision_id": "ng-ch05-sc01-p045-plan-r1",
+      "plan_canonical_sha256": "e9da202f82b2df73b4610710b7a0b28af0f3699697450faa759c47b8e2401027",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "The distant bell does not ring after the cut.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 46,
+      "panel_id": "ng-ch05-sc01-p046",
+      "plan_revision_id": "ng-ch05-sc01-p046-plan-r1",
+      "plan_canonical_sha256": "41004943c1fc496b109c71122f537f3b1ba22f81520851da146de26acb52ed79",
+      "coverage_state": "selected",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Sigrid keeps the creek map inside her wrap rather than the notebook.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 47,
+      "panel_id": "ng-ch05-sc01-p047",
+      "plan_revision_id": "ng-ch05-sc01-p047-plan-r1",
+      "plan_canonical_sha256": "5e91bd4bddb1434e37fe6e79fdc843ed3491163f6bf821cb3a6b4404ba104aa7",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "They climb back toward the farmhouse under a cleared sky.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 48,
+      "panel_id": "ng-ch05-sc01-p048",
+      "plan_revision_id": "ng-ch05-sc01-p048-plan-r1",
+      "plan_canonical_sha256": "0a6fcb081ab627c39b6d3b5fbadbe915ced42be5ab1d2514c2af51c97acbbd0e",
+      "coverage_state": "C",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_sensory_event",
+      "cast_occupancy": "no_visible_adult",
+      "narrative_beat": "From the ridge, the farmhouse is visible but its chimney has begun to smoke.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 49,
+      "panel_id": "ng-ch05-sc01-p049",
+      "plan_revision_id": "ng-ch05-sc01-p049-plan-r1",
+      "plan_canonical_sha256": "32c68a859907d5e5174d94319cd8d8e935b6804777039c7736f88a4620be027e",
+      "coverage_state": "selected",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "held_observation",
+      "cast_occupancy": "single_adult",
+      "narrative_beat": "Soren realizes they did not light the stove before leaving.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    },
+    {
+      "order": 50,
+      "panel_id": "ng-ch05-sc01-p050",
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "plan_canonical_sha256": "ec252a2c415f8cf404b70817b56ac2dcca664db07165c273d326bcfe6299cd49",
+      "coverage_state": "selected",
+      "narrative_function": "signal_and_return",
+      "motion_mode": "directional_motion",
+      "cast_occupancy": "dual_adult",
+      "narrative_beat": "Sigrid breaks into a run toward the house; Soren follows with the map.",
+      "final_copy_bound": false,
+      "comic_panel_plan_revision_created": false,
+      "production_executable": false
+    }
+  ],
+  "row_root_sha256": "38b4f958029fac91660d436ac542367ceabd5761fafffafe5c8a1b3ee0a82a2b",
+  "chart": {
+    "path": "experiments/review-packets/ch05-remaining-panel-priority-r1/ch05-coverage-priority-map-r1.png",
+    "sha256": "d79459b95ba1e1c9d4469a1dbc39da3ca791502464b7fba6b617cce455965014",
+    "width": 1500,
+    "height": 980
+  },
+  "local_packet": {
+    "path": "experiments/review-packets/ch05-remaining-panel-priority-r1/remaining-panel-priority-packet.json",
+    "sha256": "9b96be63890f69589c93a6523e692fa57831a4b530261a66ef95e9e6d4bcbff3"
+  },
+  "decision": "After owner review, Tier A is the next highest-information 12-panel tranche. Do not generate it automatically: the current run already has 29 candidates and exact candidate/style/cadence decisions should inform the next bounded generation milestone.",
+  "boundaries": [
+    "Priority orders production evidence; it does not revise canon, rank story importance, or accept art.",
+    "All 50 exact ComicPanelPlans remain unchanged and visible; selected plus Tier A/B/C is an exact disjoint partition.",
+    "No final copy, new prompt, provider call, upload, spend, or executable panel is created.",
+    "ComicPanelPlan remains the only active production-planning structure; AnimationShotPlan/E-Conte remain null."
+  ]
+}

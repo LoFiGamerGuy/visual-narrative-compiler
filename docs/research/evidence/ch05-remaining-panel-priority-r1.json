@@ -1,0 +1,249 @@
+{
+  "record_type": "CH05RemainingPanelPriorityEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-remaining-panel-priority-evidence-r1",
+  "state": "EXACT_50_PLAN_PARTITION_OWNER_REVIEW_BEFORE_NEW_GENERATION",
+  "medium": "comic",
+  "comic_panel_plan_revision_created": false,
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "priority_manifest": {
+    "path": "production/comic/coverage/ch05-remaining-panel-priority-r1.json",
+    "sha256": "ef06e71819a9eee77e2800a756ebaef11c9af38c7593a9cfb90c1f83be2e0bcc"
+  },
+  "summary": {
+    "plan_count": 50,
+    "selected_count": 14,
+    "uncovered_count": 36,
+    "tier_a_count": 12,
+    "tier_b_count": 12,
+    "tier_c_count": 12,
+    "production_executable": 0,
+    "accepted_new_plans": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "cost_usd": 0,
+    "human_review_minutes": null
+  },
+  "coverage": {
+    "motion_mode": {
+      "directional_motion": {
+        "total": 10,
+        "selected": 2,
+        "uncovered": 8
+      },
+      "held_observation": {
+        "total": 26,
+        "selected": 6,
+        "uncovered": 20
+      },
+      "held_sensory_event": {
+        "total": 10,
+        "selected": 2,
+        "uncovered": 8
+      },
+      "practical_action": {
+        "total": 4,
+        "selected": 4,
+        "uncovered": 0
+      }
+    },
+    "narrative_function": {
+      "departure_orientation": {
+        "total": 4,
+        "selected": 3,
+        "uncovered": 1
+      },
+      "mill_approach": {
+        "total": 13,
+        "selected": 3,
+        "uncovered": 10
+      },
+      "mill_interior": {
+        "total": 11,
+        "selected": 3,
+        "uncovered": 8
+      },
+      "signal_and_return": {
+        "total": 10,
+        "selected": 4,
+        "uncovered": 6
+      },
+      "trail_clue_chain": {
+        "total": 12,
+        "selected": 1,
+        "uncovered": 11
+      }
+    },
+    "cast_occupancy": {
+      "dual_adult": {
+        "total": 17,
+        "selected": 6,
+        "uncovered": 11
+      },
+      "no_visible_adult": {
+        "total": 18,
+        "selected": 1,
+        "uncovered": 17
+      },
+      "single_adult": {
+        "total": 15,
+        "selected": 7,
+        "uncovered": 8
+      }
+    }
+  },
+  "priority_tiers": [
+    {
+      "tier": "A",
+      "state": "NEXT_HIGHEST_INFORMATION_AFTER_OWNER_REVIEW",
+      "groups": [
+        {
+          "group_id": "trail_sensory_and_twine",
+          "orders": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "context_orders": [
+            9,
+            16
+          ],
+          "rationale": "Completes the underrepresented water/twine/redirection clue chain between selected trail movement and the spoken distance hypothesis."
+        },
+        {
+          "group_id": "mill_reveal_and_red_cloth",
+          "orders": [
+            17,
+            18,
+            20,
+            21,
+            22,
+            23
+          ],
+          "context_orders": [
+            19,
+            24
+          ],
+          "rationale": "Adds the mill reveal, false smoke origin, creek crossing, red-cloth trap, protected-object choice, and loading-door approach around selected bridge warning."
+        }
+      ]
+    },
+    {
+      "tier": "B",
+      "state": "SECOND_PRODUCTION_TRANCHE",
+      "groups": [
+        {
+          "group_id": "smoke_bell_and_entry",
+          "orders": [
+            24,
+            25,
+            27,
+            28,
+            30,
+            31
+          ],
+          "context_orders": [
+            26,
+            29,
+            32
+          ],
+          "rationale": "Completes drum/ember/twine/bell mechanics and establishes the mill interior plus first dry-footprint discontinuity around selected heat test and wall entry."
+        },
+        {
+          "group_id": "interior_false_tracks_and_tin_map",
+          "orders": [
+            32,
+            33,
+            34,
+            37,
+            38,
+            39
+          ],
+          "context_orders": [
+            31,
+            35,
+            36,
+            40
+          ],
+          "rationale": "Builds the reversed-footprint/bell suspense and closes the selected plank/tin action into the marked-map deduction."
+        }
+      ]
+    },
+    {
+      "tier": "C",
+      "state": "CONNECTIVE_COMPLETION_TRANCHE",
+      "groups": [
+        {
+          "group_id": "departure_marker_connective",
+          "orders": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "context_orders": [
+            3,
+            9
+          ],
+          "rationale": "Fills reaction, runnel, marker, and map-fold connective beats after the selected first clue; important for full chapter flow but lower new-mechanism information."
+        },
+        {
+          "group_id": "spoken_distance_hypothesis",
+          "orders": [
+            16
+          ],
+          "context_orders": [
+            15,
+            17
+          ],
+          "rationale": "Only explicit says-beat; final copy remains absent, so it is isolated as a future dialogue/lettering test rather than silently scripted."
+        },
+        {
+          "group_id": "signal_shutdown_and_return",
+          "orders": [
+            41,
+            42,
+            43,
+            45,
+            47,
+            48
+          ],
+          "context_orders": [
+            40,
+            44,
+            46,
+            49,
+            50
+          ],
+          "rationale": "Completes drum extinction, second bell, retreat, post-cut silence, climb, and farmhouse-smoke reveal around the selected final causal/return anchors."
+        }
+      ]
+    }
+  ],
+  "row_root_sha256": "38b4f958029fac91660d436ac542367ceabd5761fafffafe5c8a1b3ee0a82a2b",
+  "chart": {
+    "path": "experiments/review-packets/ch05-remaining-panel-priority-r1/ch05-coverage-priority-map-r1.png",
+    "sha256": "d79459b95ba1e1c9d4469a1dbc39da3ca791502464b7fba6b617cce455965014",
+    "width": 1500,
+    "height": 980
+  },
+  "determinism": {
+    "consecutive_compile_count": 2,
+    "manifest_sha256_run_a": "ef06e71819a9eee77e2800a756ebaef11c9af38c7593a9cfb90c1f83be2e0bcc",
+    "manifest_sha256_run_b": "ef06e71819a9eee77e2800a756ebaef11c9af38c7593a9cfb90c1f83be2e0bcc",
+    "result": "BYTE_IDENTICAL_PRIORITY_MANIFEST_AND_CHART_HASH"
+  },
+  "decision": "After owner review, Tier A is the next highest-information 12-panel tranche. Do not generate it automatically: the current run already has 29 candidates and exact candidate/style/cadence decisions should inform the next bounded generation milestone.",
+  "limitations": [
+    "Priority orders production evidence and does not rank canon importance or aesthetic quality.",
+    "Tier A is not authorized execution; current candidate decisions and the 29-candidate run should be reviewed first.",
+    "No final copy, prompt, provider metadata, candidate timing, or production cost is estimated for uncovered plans.",
+    "The exact 50-plan denominator is planning coverage, not 50-panel rendered or accepted coverage."
+  ],
+  "boundary": "All 50 ComicPanelPlans remain unchanged; new accepted/executable panels, calls, uploads, cost, and human minutes are zero/null."
+}

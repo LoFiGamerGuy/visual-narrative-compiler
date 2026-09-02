@@ -985,3 +985,10 @@
 - All 16/16 pass in 5.259 observed seconds and reproduce from exact script plus normalized stdout hashes; 15/15 activity/promotion/coverage mutations fail.
 - Frozen/baseline remains byte-identical with 0/24 accepted/no tuning. Tracked source scope passes; generated pixels remain ignored.
 - ADR-0095 requires art-review evidence and frozen/source integrity to pass together. Gate activity is zero provider calls/uploads/downloads/$0; owner acceptance, executable panels, and human minutes remain 0/0/null.
+
+## 2026-09-01 - CH05 remaining 36-panel coverage priority r1
+
+- Compiled all 50 unchanged ComicPanelPlans into an exact partition: 14 selected plus three 12-panel priority tranches; canonical row root `38b4f958…a2b`.
+- Selected coverage is 4/4 practical action but only 2/10 directional, 6/26 observation, and 2/10 sensory, showing that chapter continuity—not another action probe—is the next gap.
+- Tier A contains P010–P015 trail/twine redirection and P017/P018/P020–P023 mill reveal/red-cloth approach. Tier B completes mill mechanics/interior deduction; Tier C closes connective bookends and defers P016 dialogue until copy exists.
+- ADR-0096 selects Tier A only as the next post-review bounded tranche. Priority and evidence validators reject 13/13 and 10/10 mutations; no prompt, generation, plan revision, provider call, upload, or cost occurs.

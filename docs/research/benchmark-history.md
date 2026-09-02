@@ -225,6 +225,8 @@ The CH05 density diagnostics measure 14 phone-footprint panels and 13 adjacent f
 
 The CH05 overnight release gate executes and reproduces 16/16 no-network validators in 5.259 observed seconds, rejecting 15/15 release-state mutations. It includes frozen/baseline and source-scope checks. This measures integrated evidence integrity and local reproducibility—not renderer determinism, visual acceptance, commercial clearance, or production throughput.
 
+The CH05 remaining-panel compiler partitions 50 exact plans into 14 selected plus 12/12/12 future tranches, rejecting 13/13 manifest and 10/10 evidence mutations. It measures denominator and dependency coverage—not rendered coverage, prompt readiness, acceptance, or permission for further generation.
+
 The blinded G07 protocol verifies 16/16 neutral candidate presentations and 4/4 hidden-arm repeat pairs, requiring 20 timed assertion decisions; 13/13 identity/order/coverage/timing mutations fail. Actual decisions remain 0, minutes null, and accepted subjects zero. This adds review readiness, not human renderer-quality evidence or a new selection decision.
 
 The fail-closed review rollup binds 4/4 arms and 16/16 candidates to separate cost, latency, drift, assertion, and failure-tag dimensions; 9/9 pending/fixture/coverage/mapping mutations fail. With review still pending it emits no human arm results, composite score, rank, or route change. Renderer-quality evidence and ADR-0025 remain unchanged.

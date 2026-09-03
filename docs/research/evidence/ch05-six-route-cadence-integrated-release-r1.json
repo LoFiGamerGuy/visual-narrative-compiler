@@ -1,0 +1,381 @@
+{
+  "record_type": "CH05SixRouteCadenceIntegratedRelease",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-six-route-cadence-integrated-release-r1",
+  "state": "PASS",
+  "created_at_utc": "2026-09-03T04:53:04.537271+00:00",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "release_runner": {
+    "path": "src/north_garden/run_ch05_six_route_cadence_integrated_release_r1.py",
+    "sha256": "baa90e7acfba1226784c419a801a0f4c3530dc68803e12abef5122b0abe20d05"
+  },
+  "companion_validator": {
+    "path": "src/north_garden/validate_ch05_six_route_cadence_integrated_release_r1.py",
+    "sha256": "ed5421220de54a62eb7547ef53b52b274d6efa5014466a829f37504f2198b629"
+  },
+  "summary": {
+    "validation_domains": 16,
+    "local_validation_commands": 15,
+    "read_only_remote_queries": 1,
+    "passed": 16,
+    "failed": 0,
+    "self_test_suites": 14,
+    "mutations_rejected": 298,
+    "mutation_total": 298,
+    "observed_total_seconds": 31.918454,
+    "provider_calls": 0,
+    "external_uploads": 0,
+    "generation_calls": 0,
+    "generated_candidates": 0,
+    "accepted": 0,
+    "rights_cleared": 0,
+    "commercially_cleared": 0,
+    "exact_production_base": 0,
+    "paid_spend_usd": 0.0
+  },
+  "expected_self_tests": {
+    "reduced_prompt": "32/32",
+    "reduced_execution": "32/32",
+    "reduced_crop": "14/14",
+    "reduced_triage": "22/22",
+    "matched_prompts": "18/18",
+    "s01_ablation": "22/22",
+    "s11_ablation": "22/22",
+    "six_route": "21/21",
+    "cadence_review": "23/23",
+    "boundary_audit": "21/21",
+    "p005_p006_attribution": "21/21",
+    "six_route_owner_handoff": "20/20",
+    "complete_chapter_review_handoff_r7": "15/15",
+    "frozen_integrity": "15/15"
+  },
+  "git_remote_state": {
+    "branch": "main",
+    "local_head": "97e0591b02209310a2ff94d3bc1ee336ce51ae06",
+    "remote_head": "97e0591b02209310a2ff94d3bc1ee336ce51ae06",
+    "origin_url": "https://github.com/LoFiGamerGuy/visual-narrative-compiler.git",
+    "tracked_worktree_clean": true,
+    "local_remote_parity": true
+  },
+  "results": [
+    {
+      "id": "reduced_prompt",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_complete_chapter_reduced_palette_text_control_prompt_manifest.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "311d512c4b4a070191934b88df60052ba13427a525509e7006dc0f3a24db05aa",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 1.167549,
+      "stdout": "{\"errors\": [], \"gate_phrase_bindings\": 15, \"gates\": 8, \"plans\": 50, \"reference_uses\": 0, \"self_test\": \"32/32\", \"sequences\": 11, \"status\": \"PASS\"}\n",
+      "stdout_sha256": "52020c9ecafbd3943f3c9475b576ff6ccc950df56b78e8b3e9440d26c0d07a2f",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "32/32",
+      "observed_self_test": "32/32",
+      "passed": true
+    },
+    {
+      "id": "reduced_execution",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_complete_chapter_route_execution.py",
+      "arguments": [
+        "--prompt-manifest",
+        "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-prompt-manifest-r1.json",
+        "--execution-manifest",
+        "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-execution-manifest-r1.json",
+        "--self-test"
+      ],
+      "script_sha256": "7560f062914d18b938f911e1a497838c7821e0dacb7148261a9ab21cb210e550",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 2.000825,
+      "stdout": "{\"errors\": [], \"execution_manifest\": \"production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-execution-manifest-r1.json\", \"prompt_manifest\": \"production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-prompt-manifest-r1.json\", \"self_test\": \"32/32\", \"sequences\": 11, \"status\": \"PASS\"}\n",
+      "stdout_sha256": "17962fdfa0eecc830857d4af87d809cb1ab098d0bd9f42b90874cf3ca36b1f9a",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "32/32",
+      "observed_self_test": "32/32",
+      "passed": true
+    },
+    {
+      "id": "reduced_crop",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_complete_chapter_reduced_palette_text_control_crops.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "7a87c306577a542406d8abcd3f02c451c665175ff4d1a3b392001e48335c6cff",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 0.53144,
+      "stdout": "{\"errors\": [], \"report_present\": true, \"self_test\": \"14/14\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "18d6d16d1f64987dace3619839c25958b4a6ac850c576ff0bcefc9d159cccfac",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "14/14",
+      "observed_self_test": "14/14",
+      "passed": true
+    },
+    {
+      "id": "reduced_triage",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_reduced_palette_text_control_agent_triage.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "5d259e9d503a6c4909c40abae1d5a7c93f9a46c99ce427a00776da9907b892cc",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 4.192879,
+      "stdout": "{\"errors\": [], \"self_test\": \"22/22\", \"status\": \"PASS\", \"summary\": {\"accepted\": 0, \"chapter_panels\": 50, \"human_reviewed\": 0, \"lettering_fail\": 27, \"lettering_pass\": 17, \"lettering_warn\": 6, \"mature_identity_hair_wardrobe_pass\": 32, \"overall_fail\": 38, \"overall_pass\": 6, \"overall_warn\": 6, \"phone_fail\": 0, \"phone_pass\": 43, \"phone_warn\": 7, \"semantic_fail\": 3, \"semantic_pass\": 43, \"semantic_warn\": 4, \"strict_style_compliance_rate\": 0.24, \"strongest_shortlist\": 6, \"style_fail\": 31, \"style_pass\": 12, \"style_warn\": 7, \"visible_adult_cast_panels\": 32, \"zero_cast_panels_without_people\": 18}}\n",
+      "stdout_sha256": "186a62f0bc903d7bfcb3de60a3b6e32f71d400060a709b89c34806dd2c476d72",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "22/22",
+      "observed_self_test": "22/22",
+      "passed": true
+    },
+    {
+      "id": "matched_prompts",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_matched_reference_ablation_prompts.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "6cf97c5a383ed3864699f61849cad7fbe45c765e8c9804d09a423a0b6eb43b5d",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 0.109866,
+      "stdout": "{\"errors\": [], \"s01_manifest\": \"production/comic/run-manifests/ch05-s01-flat-gouache-reference-ablation-prompt-r1.json\", \"s01_manifest_sha256\": \"613d9a8e8d8edfb50555b06fffb8069437ae52f0f1af312c3811d93e60621a87\", \"s01_prompt_sha256\": \"ce2c4eea936bcd4c16e61d9f727324ca347a5c5dbf49b296ac17c1feaf6f5933\", \"s11_compatibility_sha256\": \"7215fbb8958604bda0f044f190c16d68c85d90bdabad5f27fc70974dac7f1823\", \"self_test\": \"18/18\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "f991822f56cd4a2e4f1684734593003024a366d7fa04c00c33af8a513e65cc38",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "18/18",
+      "observed_self_test": "18/18",
+      "passed": true
+    },
+    {
+      "id": "s01_ablation",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_s01_reference_ablation_comparison.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "f4ca3df23b1bca6af62a0e0bd614d148bbedc42084e8fd752e25ec6f7b61f177",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 4.144027,
+      "stdout": "{\"errors\": [], \"self_test\": \"22/22\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "253367eb8a88f97de71c170613fc2975f655560ef72e28a0581f07a57fe261cd",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "22/22",
+      "observed_self_test": "22/22",
+      "passed": true
+    },
+    {
+      "id": "s11_ablation",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_s11_reference_ablation_comparison.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "094cea24bbf99cfc191eceeee9248c90547ca04ab11b7b495a375c71d1f0e624",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 4.028959,
+      "stdout": "{\"errors\": [], \"self_test\": \"22/22\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "253367eb8a88f97de71c170613fc2975f655560ef72e28a0581f07a57fe261cd",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "22/22",
+      "observed_self_test": "22/22",
+      "passed": true
+    },
+    {
+      "id": "six_route",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_six_route_comparison.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "31bafdbeb89e465a93f02502473083198e885fe51f9a354b50dece9fa3c16532",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 0.858048,
+      "stdout": "{\"errors\": [], \"self_test\": \"21/21\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "a6ca39aa086fa365caa67bb7a9c1f1fab5136b0d79bfaee2ce6a1d20a567e2f2",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "21/21",
+      "observed_self_test": "21/21",
+      "passed": true
+    },
+    {
+      "id": "cadence_review",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_sequence_cadence_review.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "5101cd48fdc4b03059c52f927095aa78b5cfac9e88172332ba211bc9f28b9433",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 1.290809,
+      "stdout": "{\"errors\": [], \"packet_files_checked\": 14, \"panels_checked\": 50, \"self_test\": \"23/23\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "72731720f1219282acfa87b545e56be48816430ac402e1b74e8209c146b48920",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "23/23",
+      "observed_self_test": "23/23",
+      "passed": true
+    },
+    {
+      "id": "boundary_audit",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_sequence_cadence_boundary_audit.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "6c888e10d10278d17147057926c2ad367758d1862034347e5c33b94f9a361c16",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 3.269948,
+      "stdout": "{\"errors\": [], \"self_test\": \"21/21\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "a6ca39aa086fa365caa67bb7a9c1f1fab5136b0d79bfaee2ce6a1d20a567e2f2",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "21/21",
+      "observed_self_test": "21/21",
+      "passed": true
+    },
+    {
+      "id": "p005_p006_attribution",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_p005_p006_route_attribution_control.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "749754420700c65e694b0094e3df583f8962631f0f6f4a39d73599943d610e74",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 4.124132,
+      "stdout": "{\"errors\": [], \"self_test\": \"21/21\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "a6ca39aa086fa365caa67bb7a9c1f1fab5136b0d79bfaee2ce6a1d20a567e2f2",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "21/21",
+      "observed_self_test": "21/21",
+      "passed": true
+    },
+    {
+      "id": "six_route_owner_handoff",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_six_route_owner_review_handoff.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "f96a97a7e86bbefb03f5996a3bfd1393431720e498b203a5f4820e2e71968b00",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 3.566472,
+      "stdout": "{\"artifacts_checked\": 51, \"errors\": [], \"self_test\": \"20/20\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "bdc8bc11b86e72244b888283b16385e8cfffbc39cfec514b98971452fa9aa060",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "20/20",
+      "observed_self_test": "20/20",
+      "passed": true
+    },
+    {
+      "id": "complete_chapter_review_handoff_r7",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_complete_chapter_review_handoff_r7.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "30834c2bdb4673d1be49a5fb86eeececf7df79df42fc2590b0d09c487df5d283",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 0.269534,
+      "stdout": "{\"errors\": [], \"hash_claims\": 23, \"links\": 41, \"self_test\": \"15/15\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "2b63908b173e5a8296eadd6dc0df96d837771e0add03f2035e501d63e3187d10",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "15/15",
+      "observed_self_test": "15/15",
+      "passed": true
+    },
+    {
+      "id": "frozen_integrity",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_frozen_gauntlet_baseline_integrity.py",
+      "arguments": [],
+      "script_sha256": "db520816a6c10f41be7a30b4d564b63e7e66f7498b7cc020e33ce0e523f0c105",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 0.282987,
+      "stdout": "0 failures, 0 warnings (16 frozen + 4 baseline tracked paths byte-identical from f505788 to 00498df)\nbaseline remains 0/24 accepted/no tuning; local workflow pin exact; 15/15 mutations rejected; 0 requests/uploads/$0\n",
+      "stdout_sha256": "36d33e8c2cb8979ff8176f2298c694fc8b1d9244e287f4c0b108876f760dee68",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "15/15",
+      "observed_self_test": "15/15",
+      "passed": true
+    },
+    {
+      "id": "tracked_source_scope",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_tracked_source_scope.py",
+      "arguments": [],
+      "script_sha256": "96aaedb6abfa0378ffbac2a5ae6e647210a875ec8fd0203ac097519c5d55c1d7",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 1.121267,
+      "stdout": "0 failures, 0 warnings (1269 tracked safe-source paths; origin verified)\n",
+      "stdout_sha256": "08103a2c142a7865a060064d42e4eec3753ada04f7439fb69b2821fb428eb6be",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": null,
+      "observed_self_test": null,
+      "passed": true
+    },
+    {
+      "id": "git_remote_parity",
+      "kind": "read_only_git_remote_state",
+      "path": null,
+      "arguments": [
+        "git branch --show-current",
+        "git rev-parse HEAD",
+        "git status --porcelain=v1 --untracked-files=no",
+        "git remote get-url origin",
+        "git ls-remote --heads origin refs/heads/main"
+      ],
+      "script_sha256": null,
+      "network_access": "READ_ONLY_GIT_REMOTE_STATE",
+      "return_code": 0,
+      "elapsed_seconds": 0.954938,
+      "stdout": "branch=main\nlocal_head=97e0591b02209310a2ff94d3bc1ee336ce51ae06\nremote_head=97e0591b02209310a2ff94d3bc1ee336ce51ae06\norigin_url=https://github.com/LoFiGamerGuy/visual-narrative-compiler.git\ntracked_worktree_clean=true\nlocal_remote_parity=true\n",
+      "stdout_sha256": "aeb1d6966572606280152f65d4f4f505dfabf5a6cdebc6ae203df99d65d75a5f",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": null,
+      "observed_self_test": null,
+      "passed": true
+    }
+  ],
+  "activity_boundary": {
+    "all_commands_local_except_read_only_git_remote_state": true,
+    "provider_calls": 0,
+    "external_uploads": 0,
+    "generation_calls": 0,
+    "paid_spend_usd": 0.0
+  },
+  "boundary": "Append-only integrated validation evidence. Passing grants no generation, upload, provider-call, spend, acceptance, rights, commercial-use, exact-production-base, AnimationShotPlan, or E-Conte authority."
+}

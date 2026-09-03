@@ -1578,3 +1578,10 @@
 - The validator rejects cross-medium/executable state, prompt/model leakage, unchanged closing state, count/identity/order errors, phase gaps, undeclared or child-coded roles, cadence collapse, unsafe lettering geometry, continuity breaks, sequence defects, and unbound progression assets.
 - Existing CH05 plans are evidence for the authoring contract but predate its richer fields and are not claimed to conform retroactively.
 - Prompts, provider calls, uploads, generated candidates, acceptance/rights decisions, and external spend remain zero.
+
+## 2026-09-02 - Post-CH05 integrated release r1
+
+- Ran ten local no-network commands spanning r6 release, chapter inventory, cross-chapter regression, authoring/semantic contracts, r6 production/assembly, frozen baseline, tracked scope, and Git parity.
+- Ten/ten pass in 4.481 seconds, representing 93 effective checks; script paths/hashes, arguments, stdout/hashes, return codes, and timings are preserved.
+- The integrated release validator rejects 12/12 mutations affecting state, planning, counts, authority, command results, network flags, stdout integrity, and remote parity.
+- No provider call, upload, generation, acceptance, commercial decision, or paid spend occurred; human review minutes remain null.

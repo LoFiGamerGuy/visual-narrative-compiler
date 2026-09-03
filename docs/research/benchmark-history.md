@@ -492,3 +492,5 @@ Cross-chapter regression then validates 23/23 selected source hashes and two det
 The complete-chapter authoring contract compiles byte-identically from five exact evidence sources and rejects 15/15 malformed fixtures. It binds six story phases, 18 panel fields, three cadence classes, nine scale roles, and nine acceptance gates while its blank template remains non-executable. This measures contract integrity only; no new North Garden story or renderer result exists.
 
 The companion semantic graph validator passes 1/1 synthetic positive and rejects 23/23 adversarial variants across 11 domains. It demonstrates fail-closed phase/order/continuity/lettering/progression behavior before prompts exist; it does not measure narrative quality or renderer performance.
+
+Post-CH05 integrated release r1 passes 10/10 commands and 93 effective checks in 4.481 seconds; its own validator rejects 12/12 mutations. The gate includes r6 production/assembly, 63-plan inventory, 23-panel regression, authoring and semantic contracts, frozen/baseline, tracked-source scope, and remote parity. This is a release-integrity measurement, not new visual evidence.

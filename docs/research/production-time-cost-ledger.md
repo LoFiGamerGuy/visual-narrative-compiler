@@ -135,3 +135,5 @@ The 23-panel cross-chapter regression packet adds two deterministic local deriva
 The complete-chapter authoring contract/template adds no story beat, panel plan, prompt, renderer generation, provider call, upload, candidate, acceptance, or external cost. Its validation uses local metadata and synthetic mutations only; human minutes remain null.
 
 The semantic graph validator adds one in-memory synthetic positive and 23 in-memory adversarial cases with no North Garden story, prompt, generation, provider call, upload, candidate, or external cost. Human minutes remain null.
+
+Post-CH05 integrated release r1 runs ten local no-network commands in 4.481 seconds and adds no prompt, renderer generation, provider call, upload, candidate, acceptance, or external cost. Human minutes remain null.

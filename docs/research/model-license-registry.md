@@ -117,3 +117,5 @@ The cross-chapter regression reuses existing local pixels only. Its two derivati
 The complete-chapter authoring contract/template is provider-neutral metadata with zero prompts, calls, uploads, or candidates. It grants no new model, license, commercial-use, or data-upload authority.
 
 The semantic graph validator is local provider-neutral code. Its rejection of pre-promotion model/service/reference fields reinforces the existing license/upload boundary and creates no new authority.
+
+Post-CH05 integrated release r1 performs no network-capable command and changes no provider, model, license, upload, or commercial-use conclusion.

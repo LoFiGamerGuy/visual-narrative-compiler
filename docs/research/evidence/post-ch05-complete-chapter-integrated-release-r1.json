@@ -1,0 +1,177 @@
+{
+  "record_type": "PostCH05CompleteChapterIntegratedRelease",
+  "schema_version": "1.0",
+  "record_id": "ng-post-ch05-complete-chapter-integrated-release-r1",
+  "state": "PASS",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "summary": {
+    "orchestrator_commands": 10,
+    "passed": 10,
+    "failed": 0,
+    "effective_checks": 93,
+    "observed_total_seconds": 4.481109,
+    "network_capable_commands": 0,
+    "ch05_selected_panels": 50,
+    "ch05_candidates": 59,
+    "ch05_agent_triage": {
+      "pass": 49,
+      "warn": 1,
+      "fail": 0,
+      "gating": false
+    },
+    "chapter_inventory_plans": 63,
+    "cross_chapter_review_panels": 23,
+    "authoring_contract_mutations_rejected": 15,
+    "semantic_graph_mutations_rejected": 23,
+    "provider_calls": 0,
+    "uploads": 0,
+    "new_generation": 0,
+    "accepted": 0,
+    "commercial_decisions": 0,
+    "paid_spend_usd": 0,
+    "human_review_minutes": null
+  },
+  "results": [
+    {
+      "path": "src/north_garden/validate_ch05_complete_chapter_release_r6.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "8f4a4f40300a56fa682a3963d679c92cb4715fdb4ddca485b874a1df774a9a87",
+      "network_capable": false,
+      "expected_effective_checks": 11,
+      "return_code": 0,
+      "elapsed_seconds": 0.515894,
+      "stdout": "{\"artifacts\": 8, \"bindings\": 17, \"errors\": [], \"self_test\": \"10/10\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "90a8903b9efa56510a48f5d89a42ba5bcb331ead087a02be217843b4dee53faf",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_comic_panel_plan_chapter_inventory.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "91d9bf3f401544f03ee771b64e3f3fd9664fab81fd45c0067d6b5ad23184ba4c",
+      "network_capable": false,
+      "expected_effective_checks": 11,
+      "return_code": 0,
+      "elapsed_seconds": 0.08446,
+      "stdout": "{\"chapters\": 5, \"errors\": [], \"plans\": 63, \"self_test\": \"10/10\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "871b63d3d725ca7502dee31ed5ef6806b9ffd460d8b536a38eef85c125554ed5",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_cross_chapter_comic_regression.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "91807ee324dfeb1034ba06eafdbb62ad463d6a5126d05ac785ed5de9c939d70a",
+      "network_capable": false,
+      "expected_effective_checks": 11,
+      "return_code": 0,
+      "elapsed_seconds": 0.218361,
+      "stdout": "{\"artifacts\": 2, \"errors\": [], \"panels\": 23, \"self_test\": \"10/10\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "f73d2a0246054b6f284dbb46079f3ca05080af600309cb011cdfb08603d57095",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_complete_chapter_comicpanelplan_authoring_contract.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "3c8ccf27eb33c2635be13c629bab13ad92866cf06494c8e1936d14b6a66cc845",
+      "network_capable": false,
+      "expected_effective_checks": 16,
+      "return_code": 0,
+      "elapsed_seconds": 0.085424,
+      "stdout": "{\"errors\": [], \"phases\": 6, \"scale_roles\": 9, \"self_test\": \"15/15\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "d7cb5fc52b853960cb3d77377ec42527734cb30ae10dc4a05eb86250b69ff4e7",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_complete_chapter_semantic_graph.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "03768bf966ceabd2f92efa40323740dfdd8e2157082f5f3c4c4c426400afb3f8",
+      "network_capable": false,
+      "expected_effective_checks": 24,
+      "return_code": 0,
+      "elapsed_seconds": 0.089305,
+      "stdout": "{\"adversarial\": \"23/23\", \"emitted\": false, \"errors\": [], \"positive\": \"1/1\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "3a10c0550da44d872bf63c5f6a46a20927e93fd7e1c9b7bffc0d7dd23894a18a",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_ch05_complete_chapter.py",
+      "arguments": [
+        "--manifest",
+        "production/comic/run-manifests/ch05-complete-chapter-production-manifest-r6.json"
+      ],
+      "script_sha256": "eb90e2a3bc2a88285a3d4fa7084333dafa227afbf596aad35cb5ddf006f2d5dc",
+      "network_capable": false,
+      "expected_effective_checks": 1,
+      "return_code": 0,
+      "elapsed_seconds": 2.529881,
+      "stdout": "CH05 complete-chapter manifest validation: 0 failure(s)\n",
+      "stdout_sha256": "e680141068c6116a065f6e2cfdf676eba0c49d779a9391b96d76091cc6190c19",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/build_ch05_complete_chapter_review.py",
+      "arguments": [
+        "--manifest",
+        "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json",
+        "--validate-only"
+      ],
+      "script_sha256": "0a5152417b1dd9417a42dd5ba8fa1ebd2f657501f978a3cf4127c50e88c78e3e",
+      "network_capable": false,
+      "expected_effective_checks": 1,
+      "return_code": 0,
+      "elapsed_seconds": 0.181445,
+      "stdout": "validation PASS: ng-ch05-complete-chapter-assembly-r6 / 50 ordered ComicPanelPlans / all sources verified\n",
+      "stdout_sha256": "c54ee6dc979f330da9b5543b4e0e683dcb13206756d9b8ca7319b341678a8aab",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_frozen_gauntlet_baseline_integrity.py",
+      "arguments": [],
+      "script_sha256": "db520816a6c10f41be7a30b4d564b63e7e66f7498b7cc020e33ce0e523f0c105",
+      "network_capable": false,
+      "expected_effective_checks": 16,
+      "return_code": 0,
+      "elapsed_seconds": 0.223052,
+      "stdout": "0 failures, 0 warnings (16 frozen + 4 baseline tracked paths byte-identical from f505788 to 00498df)\nbaseline remains 0/24 accepted/no tuning; local workflow pin exact; 15/15 mutations rejected; 0 requests/uploads/$0\n",
+      "stdout_sha256": "36d33e8c2cb8979ff8176f2298c694fc8b1d9244e287f4c0b108876f760dee68",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_tracked_source_scope.py",
+      "arguments": [],
+      "script_sha256": "96aaedb6abfa0378ffbac2a5ae6e647210a875ec8fd0203ac097519c5d55c1d7",
+      "network_capable": false,
+      "expected_effective_checks": 1,
+      "return_code": 0,
+      "elapsed_seconds": 0.368563,
+      "stdout": "0 failures, 0 warnings (1097 tracked safe-source paths; origin verified)\n",
+      "stdout_sha256": "bf459bb1163d2b9deea70cd505296e9cda8b369f90a1881d1483482d3d4743e0",
+      "stderr": ""
+    },
+    {
+      "path": "src/north_garden/validate_current_git_remote_parity.py",
+      "arguments": [],
+      "script_sha256": "86b7b2846b88cab9ca2037ca6ede365487e27c36c1be885f401eb582c92f85e1",
+      "network_capable": false,
+      "expected_effective_checks": 1,
+      "return_code": 0,
+      "elapsed_seconds": 0.182599,
+      "stdout": "{\"checks\": {\"branch_main\": true, \"expected_remote\": true, \"head_equals_origin_main\": true, \"staged_index_clean\": true, \"tracked_worktree_clean\": true}, \"head\": \"f50c8ff49f035f4b3c3e081a40a8c42d4ac806e2\", \"origin_main\": \"f50c8ff49f035f4b3c3e081a40a8c42d4ac806e2\", \"remote\": \"https://github.com/LoFiGamerGuy/visual-narrative-compiler\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "2781ee3a70d63438b74d3f936d93fb75c26c9ea2b8020842d908402fa8a5df9f",
+      "stderr": ""
+    }
+  ],
+  "boundary": "Local no-network integrated validation. PASS proves evidence/contract integrity only and grants no story, prompt, provider, upload, generation, acceptance, rights, exact-base, or production authority."
+}

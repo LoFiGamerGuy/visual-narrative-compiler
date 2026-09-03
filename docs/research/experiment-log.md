@@ -1675,3 +1675,10 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Preserved timing scopes separately; no aggregate end-to-end duration is reported because approximate overlap-adjusted, batch-wall, non-overlap arithmetic, and individual timing records are incompatible.
 - The first closeout attempt failed closed on an inventory stdout-parser mismatch and wrote no evidence. After a narrow committed parser fix, 9/9 domains passed in 42.965 seconds, 135/135 upstream mutations and 30/30 closeout-record mutations failed.
 - Cost ledger r37 reaches 124 local zero-external-cost milestones. Final-release provider calls/uploads/generation/candidates/paid spend remain 0/0/0/0/`$0`.
+
+## CH05 terminal owner handoff — 2026-09-03
+
+- Built a ten-visual final start page covering the full chapter, clean phone scroll, six-route/style-density comparisons, cadence/warning/boundary/lettering diagnostics, strongest-candidate atlas, and non-canon LitRPG concepts. Ten/ten visuals and seven/seven supporting records are hash-bound; 25/25 mutations fail.
+- Safe-source inventory r3 spans 28 commits and 316 changed tracked files through `ac5529a`: 309 added, seven modified, zero deleted, and zero prohibited/generated tracked paths; 21/21 mutations fail.
+- Terminal replay passes 8/8 domains in 78.819 seconds, six suites reject 124/124 upstream mutations, and the terminal record rejects 32/32 mutations.
+- No pixel, provider call, upload, generation, spend, acceptance, rights, canon, or exact-base state changed.

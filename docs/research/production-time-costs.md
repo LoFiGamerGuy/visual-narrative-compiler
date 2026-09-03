@@ -76,5 +76,6 @@ Future runs must start a human-review timer at candidate inspection and stop it 
 | Six-route/cadence integrated release r1 | 0 / 0 | 0 / 0 | 31.918454 s local/replay gate | `$0` | 16/16 domains, 298/298 upstream mutations, 26/26 record mutations; 0 accepted/executable |
 | Handoff integrity + cadence sensitivity | 0 / 0 | 0 / 0 | local deterministic link audit + 1,728,000-assignment optimizer enumeration | `$0` | 41/41 links bound; 7/8 variants retain cadence; 0 accepted/executable |
 | Overnight closeout release + output reconciliation | 0 / 0 | 0 / 0 | 42.965 s nine-domain local/replay gate; aggregate generation E2E prohibited across incompatible scopes | `$0` | 76 service rasters / 312 panel candidates reconciled; 9/9 gate; 0 accepted/executable |
+| Final owner start page + terminal audit | 0 / 0 | 0 / 0 | 78.819 s eight-domain local/replay gate | `$0` | 10/10 visuals; 316-file source frontier; 8/8 gate; 0 accepted/executable |
 
 Built-in product monetary cost, model, endpoint, provider request IDs, usage, and seed remain unavailable, not zero. Crops and comparison rows are local derivatives and must not be counted as generation calls. Human-review minutes remain `null`, and no candidate is accepted, rights-cleared, commercially cleared, or an exact production base.

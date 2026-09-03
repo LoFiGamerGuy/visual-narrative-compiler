@@ -1,0 +1,283 @@
+{
+  "record_type": "CH05TerminalAuditRelease",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-terminal-audit-release-r1",
+  "state": "PASS",
+  "created_at_utc": "2026-09-03T05:49:00.054374+00:00",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "release_runner": {
+    "path": "src/north_garden/run_ch05_terminal_audit_release_r1.py",
+    "bytes": 14839,
+    "sha256": "c6d12f94f8421123025f894999293d35cb1868aa91e1369f49c1854024be3337"
+  },
+  "companion_validator": {
+    "path": "src/north_garden/validate_ch05_terminal_audit_release_r1.py",
+    "bytes": 20760,
+    "sha256": "a17a3ad46e2d57fc1fda3209cd66dfafcb62a3892ad39c5e60fb25c1d1ef037f"
+  },
+  "input_bindings": [
+    {
+      "path": "docs/research/evidence/ch05-final-owner-start-here-r1.json",
+      "bytes": 13188,
+      "sha256": "03818768784cbb4f6473df4c364a22e2d593a9ef07459fb32cb3a62a76b9fef9"
+    },
+    {
+      "path": "docs/research/evidence/ch05-overnight-closeout-release-r1.json",
+      "bytes": 12933,
+      "sha256": "90c6bb2455febe1622048d35eef4ec341e436ff7feb9efc4455174c8951dbc66"
+    },
+    {
+      "path": "docs/research/evidence/ch05-active-goal-art-output-reconciliation-r1.json",
+      "bytes": 13287,
+      "sha256": "6bc063bd396907eabd1c2ea6da4af6f1952f40c7af677617974806fa3b5f07a6"
+    },
+    {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r37.json",
+      "bytes": 36357,
+      "sha256": "0b311e5a43f00b6efd5e85a898f5348cca02f6c5c59546d9ff53714689ae8d80"
+    },
+    {
+      "path": "docs/research/evidence/ch05-overnight-safe-source-change-inventory-r3.json",
+      "bytes": 188328,
+      "sha256": "51b1bd42474552af8429aefe644ab775bee5b224d2744559adc9764f38a54c92"
+    },
+    {
+      "path": "docs/research/evidence/frozen-gauntlet-baseline-integrity-r1.json",
+      "bytes": 7295,
+      "sha256": "9abf582927b7dfccf4757a8745eee5fd260bd70418e4fd350fefeafe6ce9fbd9"
+    }
+  ],
+  "expected_self_tests": {
+    "final_owner_start_here": "25/25",
+    "overnight_closeout_release": "30/30",
+    "active_goal_output_reconciliation": "18/18",
+    "production_cost_ledger_r37": "15/15",
+    "overnight_safe_source_inventory_r3": "21/21",
+    "frozen_baseline_integrity": "15/15"
+  },
+  "summary": {
+    "validation_domains": 8,
+    "local_validation_commands": 7,
+    "explicit_read_only_remote_queries": 1,
+    "read_only_remote_capable_results": 2,
+    "passed": 8,
+    "failed": 0,
+    "self_test_suites": 6,
+    "mutations_rejected": 124,
+    "mutation_total": 124,
+    "observed_total_seconds": 78.818514,
+    "tracked_safe_source_paths": 1321,
+    "owner_start_supporting_documents": 7,
+    "owner_start_visuals": 10,
+    "closeout_bound_mutations": 135,
+    "closeout_domains": 9,
+    "reconciled_rasters": 76,
+    "reconciled_panel_candidates_and_crops": 312,
+    "reconciled_reference_bearing_records": 132,
+    "reconciled_zero_reference_records": 13,
+    "reconciled_unsplit_records": 2,
+    "cost_ledger_milestones": 124,
+    "inventory": {
+      "commits": 28,
+      "changed_tracked_files": 316,
+      "categories": 7
+    },
+    "frozen_paths_compared": 16,
+    "baseline_tracked_paths_compared": 4,
+    "provider_calls": 0,
+    "external_uploads": 0,
+    "generation_calls": 0,
+    "new_pixels": 0,
+    "accepted": 0,
+    "rights_cleared": 0,
+    "commercially_cleared": 0,
+    "exact_production_base": 0,
+    "paid_spend_usd": 0.0
+  },
+  "historical_execution_policy": {
+    "approved_clean_base_head": "12e553e3f31a4decfa4e63a217e6d399074d7b04",
+    "execution_head": "75545b2050ccfc66cbb4f96b8d9c6fff3c37adde",
+    "execution_head_is_clean_pushed_descendant": true,
+    "record_is_immutable_historical_execution_evidence": true,
+    "publication_may_create_a_clean_pushed_descendant": true,
+    "replay_requires_recorded_head_ancestor_current_main": true,
+    "replay_requires_current_clean_remote_parity": true
+  },
+  "git_remote_state": {
+    "approved_base_head": "12e553e3f31a4decfa4e63a217e6d399074d7b04",
+    "approved_base_is_ancestor": true,
+    "branch": "main",
+    "local_head": "75545b2050ccfc66cbb4f96b8d9c6fff3c37adde",
+    "remote_head": "75545b2050ccfc66cbb4f96b8d9c6fff3c37adde",
+    "origin_url": "https://github.com/LoFiGamerGuy/visual-narrative-compiler.git",
+    "tracked_worktree_clean": true,
+    "local_remote_parity": true
+  },
+  "results": [
+    {
+      "id": "final_owner_start_here",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_final_owner_start_here_r1.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "ad699c42ad3cf9a948e86c85c6755a68bad2c6f6aa90dc3a0d6688fecc45800c",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 5.614939,
+      "stdout": "{\"json_sha256\": \"03818768784cbb4f6473df4c364a22e2d593a9ef07459fb32cb3a62a76b9fef9\", \"markdown_sha256\": \"93979b19b7c84f510fd676cbe2c835b6ddb8f7c133016a92c541bb36fe6a674f\", \"mutations_caught\": 25, \"status\": \"PASS\", \"supporting_documents\": 7, \"visuals\": 10}\n",
+      "stdout_sha256": "4da1317bf77e780ec576c999c1620847e60a3cfa911a8e2abca3d3ae1d69190b",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "25/25",
+      "observed_self_test": "25/25",
+      "passed": true
+    },
+    {
+      "id": "overnight_closeout_release",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_overnight_closeout_release_r1.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "067b940250abbfb778818bef29ddab6d8ba68bce2c436a3f1774733f08e8028d",
+      "network_access": "READ_ONLY_GIT_REMOTE_STATE",
+      "return_code": 0,
+      "elapsed_seconds": 55.792193,
+      "stdout": "{\"bound_mutations\": 135, \"domains_replayed\": 9, \"errors\": [], \"self_test\": \"30/30\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "eb5879d667dd438a280b957572cd1d31aee60da915491ed112c47ae2a8df817d",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "30/30",
+      "observed_self_test": "30/30",
+      "passed": true
+    },
+    {
+      "id": "active_goal_output_reconciliation",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_active_goal_art_output_reconciliation.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "59ae41fbffc652ed0de64eb6c1e81af5209475f6a4f047da29cc5f22dc02e415",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 0.700965,
+      "stdout": "CH05 active-goal output reconciliation PASS: 76 rasters; 312 panel candidates/crops; 132 refs; 13 zero-ref; 2 unsplit; mutations 18/18 rejected\n",
+      "stdout_sha256": "86eb11e18f1792a7b6ee9b69589eff071d92cc23f121df5da7a998e9c0d86b64",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "18/18",
+      "observed_self_test": "18/18",
+      "passed": true
+    },
+    {
+      "id": "production_cost_ledger_r37",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_production_cost_ledger_r37.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "5e7c342dcd14f0d79153e4f12e625b09b5db8a602062d7ae123bc0251b6ac5cf",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 0.093977,
+      "stdout": "{\"errors\": [], \"milestones\": 124, \"self_test\": \"15/15\", \"status\": \"PASS\"}\n",
+      "stdout_sha256": "88486d640e9deb8762812139328838151c28c736641395e22465f29561956e7e",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "15/15",
+      "observed_self_test": "15/15",
+      "passed": true
+    },
+    {
+      "id": "overnight_safe_source_inventory_r3",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_ch05_overnight_safe_source_change_inventory_r3.py",
+      "arguments": [
+        "--self-test"
+      ],
+      "script_sha256": "24995d9cf2a9bfec4cf9d29dd17a9e12b2ac3df242022f030170874cfc2260f7",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 15.304069,
+      "stdout": "CH05 safe-source inventory r3 PASS: 28 commits; 316 files; 7 categories; mutations 21/21 rejected\n",
+      "stdout_sha256": "646b8265b3f9bbd30c3c30cacf57e829f5648b1e08603ea5ca29f4e1cb55d4d7",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "21/21",
+      "observed_self_test": "21/21",
+      "passed": true
+    },
+    {
+      "id": "frozen_baseline_integrity",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_frozen_gauntlet_baseline_integrity.py",
+      "arguments": [],
+      "script_sha256": "db520816a6c10f41be7a30b4d564b63e7e66f7498b7cc020e33ce0e523f0c105",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 0.22688,
+      "stdout": "0 failures, 0 warnings (16 frozen + 4 baseline tracked paths byte-identical from f505788 to 00498df)\nbaseline remains 0/24 accepted/no tuning; local workflow pin exact; 15/15 mutations rejected; 0 requests/uploads/$0\n",
+      "stdout_sha256": "36d33e8c2cb8979ff8176f2298c694fc8b1d9244e287f4c0b108876f760dee68",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": "15/15",
+      "observed_self_test": "15/15",
+      "passed": true
+    },
+    {
+      "id": "tracked_source_scope",
+      "kind": "local_python_validator",
+      "path": "src/north_garden/validate_tracked_source_scope.py",
+      "arguments": [],
+      "script_sha256": "96aaedb6abfa0378ffbac2a5ae6e647210a875ec8fd0203ac097519c5d55c1d7",
+      "network_access": "NONE",
+      "return_code": 0,
+      "elapsed_seconds": 0.44206,
+      "stdout": "0 failures, 0 warnings (1321 tracked safe-source paths; origin verified)\n",
+      "stdout_sha256": "0b84237324be9e0533280a4390063f6100587939230e94198f2e7b1004a4a22c",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": null,
+      "observed_self_test": null,
+      "passed": true
+    },
+    {
+      "id": "git_remote_parity",
+      "kind": "read_only_git_remote_state",
+      "path": null,
+      "arguments": [
+        "git branch --show-current",
+        "git rev-parse HEAD",
+        "git status --porcelain=v1 --untracked-files=no",
+        "git remote get-url origin",
+        "git ls-remote --heads origin refs/heads/main",
+        "git merge-base --is-ancestor 12e553e3f31a4decfa4e63a217e6d399074d7b04 HEAD"
+      ],
+      "script_sha256": null,
+      "network_access": "READ_ONLY_GIT_REMOTE_STATE",
+      "return_code": 0,
+      "elapsed_seconds": 0.643161,
+      "stdout": "approved_base_head=12e553e3f31a4decfa4e63a217e6d399074d7b04\napproved_base_is_ancestor=True\nbranch=main\nlocal_head=75545b2050ccfc66cbb4f96b8d9c6fff3c37adde\nremote_head=75545b2050ccfc66cbb4f96b8d9c6fff3c37adde\norigin_url=https://github.com/LoFiGamerGuy/visual-narrative-compiler.git\ntracked_worktree_clean=True\nlocal_remote_parity=True\n",
+      "stdout_sha256": "1fe5eae144b1eae1aaf83b665135bceccfef51c1c08563153b5b3f81dde849e3",
+      "stderr": "",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_self_test": null,
+      "observed_self_test": null,
+      "passed": true
+    }
+  ],
+  "activity_boundary": {
+    "local_only_except_read_only_git_remote_state": true,
+    "provider_calls": 0,
+    "external_uploads": 0,
+    "generation_calls": 0,
+    "new_pixels": 0,
+    "paid_spend_usd": 0.0
+  },
+  "boundary": "Append-only terminal audit evidence under ADR-0192 historical-record/current-clean-descendant semantics. Passing grants no generation, pixel review or edit, upload, provider-call, spend, acceptance, rights, commercial-use, exact-production-base, AnimationShotPlan, or E-Conte authority."
+}

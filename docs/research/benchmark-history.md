@@ -553,3 +553,7 @@ The exact optimizer audit covers 1,728,000 hard-feasible 11-sequence assignments
 ## CH05 overnight closeout benchmark — 2026-09-03
 
 The final release passes nine domains in 42.965 seconds. Seven upstream self-test suites reject 135/135 mutations; the closeout record rejects 30/30 mutations. The art/output denominator is 76 service rasters and 312 panel candidates/crops, of which 300 form the aligned six-route comparison. Thirteen outputs used zero references and two remain unsplit sequence-level ablation diagnostics. These are exact manifest reconciliations, not quality, acceptance, cost, or end-to-end throughput measurements.
+
+## CH05 terminal handoff benchmark — 2026-09-03
+
+The terminal matrix passes 8/8 domains in 78.819 seconds, with 124/124 upstream and 32/32 record mutations rejected. The final start page binds ten ignored local visuals and seven supporting documents; inventory r3 binds 316 changed tracked files across 28 commits with zero prohibited/generated paths. This is an integrity/navigation benchmark, not art quality, acceptance, rights, or render throughput.

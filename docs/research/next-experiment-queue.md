@@ -264,3 +264,10 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 4. Choose whether S10-S11 should remain premium cel or use the already available R6 alternative; do not generate a new arm merely to resolve the policy tradeoff.
 5. Review the non-canon Soren warden kit, Sigrid pathfinder kit, and Mireback action concept only as future LitRPG direction. They do not revise CH05 canon.
 6. Keep visual disposition, commercial/rights clearance, and exact-production-base selection as separate decisions.
+
+## Terminal queue — 2026-09-03
+
+1. Begin at `docs/research/ch05-final-owner-start-here-r1.md` and complete the ten-artifact visual pass.
+2. Record visual dispositions for the three-block cadence, P003/P032/P045, P005→P006, lettering, strongest candidates, and future LitRPG direction.
+3. Run no additional stochastic repair until one exact owner disposition identifies a sequence and failure class.
+4. Preserve rights/commercial clearance and exact-production-base selection as distinct later decisions.

@@ -1798,3 +1798,12 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Withheld seven authored class/status/bond phrases and one return label from generated pixels for local lettering or nonverbal physical treatment.
 - Validation PASS; 27/27 adversarial mutations rejected. Provider calls/outputs/uploads/spend: 0/0/0/$0 at preflight.
 - Decision: ADR-0208. Next: generate and assemble CH10 completely before earlier non-blocking repair.
+
+## CH10 complete default-route production and review r1 — 2026-09-03
+
+- Generated eight chronological sequences and deterministically cropped all 40 CH10 ComicPanelPlans.
+- Built complete reading, phone, sequence/contact, and lettering-safe-zone artifacts.
+- Successfully introduced Brackenwake, persistent brace mechanics, forge repair, earned rigid equipment/armor, public faction bargain, Tamsin transport, and the Orchard Siege trigger.
+- Triage: 37 PASS / 0 WARN / 3 FAIL. P007/P009 have Halvor→Soren-like identity substitution; P023 has a premature unrequested Mireback.
+- Exact overlapping timing sum 2,045.824 seconds; group walls 403.285/414.710 seconds. References 23; paid API/cloud spend $0; alternate arms/repairs 0/0.
+- Validator PASS with 17/17 mutations rejected. ADR-0209 freezes 37 non-target panels and prioritizes CH11 breadth.

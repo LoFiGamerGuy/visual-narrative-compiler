@@ -632,6 +632,23 @@ Sixteen requests cover 80 unique plans with 40 authorized reference uses, zero d
 
 This is execution readiness, not rendered quality, acceptance, rights, clearance, reproducibility, or exact-base selection.
 
+## CH10 complete default-route benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete chronological chapter | 1 × 40 panels |
+| Sequence sources / panel candidates | 8 / 40 |
+| Agent triage PASS / WARN / FAIL | 37 / 0 / 3 |
+| Review artifacts | 5 / 5 |
+| Authorized reference uses | 23 |
+| Overlapping request-interval sum | 2,045.824 s |
+| Parallel group walls | 403.285 s / 414.710 s |
+| Alternate arms / repairs | 0 / 0 |
+| Adversarial mutations rejected | 17 / 17 |
+| Paid API/cloud spend | $0 |
+
+The chapter materially advances setting, faction, equipment, injury, mission ethics, and threat state. Three exact localized failures remain; this is diagnostic agent triage, not acceptance.
+
 ## CH10–CH11 complete-authoring benchmark — 2026-09-03
 
 The third batch adds 2 complete chapters, 80 unique panels, 16 five-panel sequences, all six phases per chapter, and exact CH09→CH10→CH11 continuity. Post-CH05 authored breadth is now 6 complete chapters/240 panels. Persistent injury constraints, earned equipment/classes, adult faction roles, siege causality, physical Ledger binding, and protected lettering are explicit. The validator rejects 41/41 adversarial mutations.

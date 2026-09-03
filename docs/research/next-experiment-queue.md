@@ -377,3 +377,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Preserve one candidate per plan and perform no alternate style arm.
 4. Repair only an exact blocking story, continuity, text, anatomy, or prop failure after the complete chapter is visible.
 5. Continue directly into CH11 once CH10 is bound; keep earlier non-blocking warnings deferred.
+
+## Active queue after CH10 complete default-route assembly — 2026-09-03
+
+1. Generate and assemble all eight CH11 Orchard Siege sequences before any CH10 repair or style arm.
+2. Measure collective adult action, three-gate causality, injury aggravation, Mireback scale/anatomy, food loss, class/bond nonverbal treatment, and phone readability.
+3. After CH11, repair CH10 P007/P009 as one paired Halvor identity unit only if owner/context review still finds them confusing.
+4. Repair CH10 P023 with one no-monster forge-cycle panel only if the premature creature disrupts chronology.
+5. Preserve the other 37 CH10 hashes and continue toward CH12–CH13 chronological rendering.

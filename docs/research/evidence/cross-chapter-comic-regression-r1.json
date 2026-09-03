@@ -1,0 +1,466 @@
+{
+  "record_type": "CrossChapterComicPanelPlanRegressionPacket",
+  "schema_version": "1.0",
+  "record_id": "ng-cross-chapter-comic-regression-r1",
+  "state": "LOCAL_REVIEW_AID_MIXED_ACCEPTANCE_STATES",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source_bindings": [
+    {
+      "path": "production/comic/ch01-sc01-panel-plans-v2.json",
+      "sha256": "09528f979710341c4f72f6b0117ada2a807dbe8a6e4963230b9ffd0a44170495"
+    },
+    {
+      "path": "production/comic/ch02-sc01-panel-plans-v1.json",
+      "sha256": "4a507972457e53158d642be22b856cd2fc89daa95061a01a805b35780b21888c"
+    },
+    {
+      "path": "production/comic/ch03-sc01-panel-plans-v1.json",
+      "sha256": "cbb85998f666d45946d8bf649d167d4dff544e7459111ac0204049a7117508f8"
+    },
+    {
+      "path": "production/comic/ch04-sc01-panel-plans-v1.json",
+      "sha256": "84a44bc76b39a93108b3fdf8ae81ae37b796f66fe72d486d0c48602d73146099"
+    },
+    {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    },
+    {
+      "path": "production/comic/panel-revisions/ch01-sc01-initial-import-r1.json",
+      "sha256": "2bf495f993ed802daa0600230b084dd76e5ece2286d453a69a72438edf0960a7"
+    },
+    {
+      "path": "production/comic/panel-revisions/ch02-sc01-historical-import-r1.json",
+      "sha256": "2c6da20bfd1d6a8be639cc4f6207d1e609efc93057add74ee675734ed867b128"
+    },
+    {
+      "path": "production/comic/panel-revisions/ch03-sc01-imagegen-r1.json",
+      "sha256": "572b5c6d1dead00ff0029489dfb3949ed22bd30fa38db1cdaa726ae4040a289a"
+    },
+    {
+      "path": "production/comic/panel-revisions/ch04-sc01-imagegen-r1.json",
+      "sha256": "ad8e434c1607bf62a3e0e3bce052dbe50ff7df15816a03011dbeb0d881cb31dc"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json",
+      "sha256": "3c84cf3c6fdb479ad3e32717c684e7d44362977da53e9d3a10659d016cea8677"
+    }
+  ],
+  "summary": {
+    "chapters": 5,
+    "scene_fragment_chapters": 4,
+    "full_chapter_anchor_sets": 1,
+    "panels": 23,
+    "ch01_ch04_panels": 13,
+    "ch05_anchors": 10,
+    "historical_internal_research_selected": 7,
+    "pending_owner_review": 16
+  },
+  "panels": [
+    {
+      "chapter": "CH01",
+      "panel_id": "ng-ch01-sc01-p006",
+      "display_order": 6,
+      "plan_revision_id": "ng-ch01-sc01-p006-plan-r2",
+      "candidate_id": "ng-ch01-sc01-p006-art-r1",
+      "source": {
+        "path": "pagecomp3/page03_p06.png",
+        "sha256": "11c85a5a2fc21747d2b92d37df85896b5b8cf564bdb49dfc0e42c68cad13ebda"
+      },
+      "source_acceptance_state": "INTERNAL_RESEARCH_ACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH01",
+      "panel_id": "ng-ch01-sc01-p007",
+      "display_order": 7,
+      "plan_revision_id": "ng-ch01-sc01-p007-plan-r2",
+      "candidate_id": "ng-ch01-sc01-p007-art-r1",
+      "source": {
+        "path": "pagecomp3/page03_p07.png",
+        "sha256": "6b7abb266e1f7dd4b18f7a02267efdd5214cbab21d115d8d73b7f8d493430128"
+      },
+      "source_acceptance_state": "INTERNAL_RESEARCH_ACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH01",
+      "panel_id": "ng-ch01-sc01-p008",
+      "display_order": 8,
+      "plan_revision_id": "ng-ch01-sc01-p008-plan-r2",
+      "candidate_id": "ng-ch01-sc01-p008-art-r1",
+      "source": {
+        "path": "pagecomp3/page03_p08.png",
+        "sha256": "e8729c5d287a0c53e492d3d9f360c8fbb72a3e8f19c685eefeccdd75ab033561"
+      },
+      "source_acceptance_state": "INTERNAL_RESEARCH_ACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH01",
+      "panel_id": "ng-ch01-sc01-p010",
+      "display_order": 10,
+      "plan_revision_id": "ng-ch01-sc01-p010-plan-r2",
+      "candidate_id": "ng-ch01-sc01-p010-art-r1",
+      "source": {
+        "path": "pagecomp3/page03_p10.png",
+        "sha256": "1f388606cd21e812875a80d1156e8d31e2d2ccfbc1b90bf61123a49557131258"
+      },
+      "source_acceptance_state": "INTERNAL_RESEARCH_ACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH02",
+      "panel_id": "ng-ch02-sc01-p001",
+      "display_order": 1,
+      "plan_revision_id": "ng-ch02-sc01-p001-plan-r1",
+      "candidate_id": "ng-ch02-sc01-p001-art-r1",
+      "source": {
+        "path": "ComfyUI/output/duo2_cover_00001_.png",
+        "sha256": "854de59acdef659e9fc76f3998e76ef3212ba190bb05c93b979dfcd02dcca060"
+      },
+      "source_acceptance_state": "INTERNAL_RESEARCH_ACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH02",
+      "panel_id": "ng-ch02-sc01-p002",
+      "display_order": 2,
+      "plan_revision_id": "ng-ch02-sc01-p002-plan-r1",
+      "candidate_id": "ng-ch02-sc01-p002-art-r1",
+      "source": {
+        "path": "ComfyUI/output/duo2_carry_00001_.png",
+        "sha256": "515c93a0c8541ec3c451706ec7093211e85f59be86517128355e7846fceba78d"
+      },
+      "source_acceptance_state": "INTERNAL_RESEARCH_ACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH02",
+      "panel_id": "ng-ch02-sc01-p003",
+      "display_order": 3,
+      "plan_revision_id": "ng-ch02-sc01-p003-plan-r1",
+      "candidate_id": "ng-ch02-sc01-p003-art-r1",
+      "source": {
+        "path": "ComfyUI/output/duo2_dark_00001_.png",
+        "sha256": "b3e9d42e9d65ee2ddf1bc115dd5deed6749c59d07a4ecb636615a6da4f083589"
+      },
+      "source_acceptance_state": "INTERNAL_RESEARCH_ACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH03",
+      "panel_id": "ng-ch03-sc01-p001",
+      "display_order": 1,
+      "plan_revision_id": "ng-ch03-sc01-p001-plan-r1",
+      "candidate_id": "ng-ch03-sc01-p001-art-r1",
+      "source": {
+        "path": "experiments/outputs/built_in_imagegen_ch03_ridge_signal/ch03-ridge-signal-base-r1.png",
+        "sha256": "7ced3e60292fe08f62bff90c328321dcdcb6b18a4b4c029e06ec23212122a115"
+      },
+      "source_acceptance_state": "PENDING_AUTHORIZED_HUMAN_REVIEW",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH03",
+      "panel_id": "ng-ch03-sc01-p002",
+      "display_order": 2,
+      "plan_revision_id": "ng-ch03-sc01-p002-plan-r1",
+      "candidate_id": "ng-ch03-sc01-p002-art-r1",
+      "source": {
+        "path": "experiments/outputs/built_in_imagegen_ch03_ridge_signal/ch03-ridge-signal-p002-r1.png",
+        "sha256": "18e6116f4d1aa3fd17b4637c77f02021c20ec094c64071d61367e51d38bc8893"
+      },
+      "source_acceptance_state": "PENDING_AUTHORIZED_HUMAN_REVIEW",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH03",
+      "panel_id": "ng-ch03-sc01-p003",
+      "display_order": 3,
+      "plan_revision_id": "ng-ch03-sc01-p003-plan-r1",
+      "candidate_id": "ng-ch03-sc01-p003-art-r1",
+      "source": {
+        "path": "experiments/outputs/built_in_imagegen_ch03_ridge_signal/ch03-ridge-signal-p003-r1.png",
+        "sha256": "9d2c3cab36c3f284339209fa7420e30cc806ed6c968c806fc13842f8477e048e"
+      },
+      "source_acceptance_state": "PENDING_AUTHORIZED_HUMAN_REVIEW",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH04",
+      "panel_id": "ng-ch04-sc01-p001",
+      "display_order": 1,
+      "plan_revision_id": "ng-ch04-sc01-p001-plan-r1",
+      "candidate_id": "ng-ch04-sc01-p001-art-r1",
+      "source": {
+        "path": "experiments/outputs/built_in_imagegen_ch04_dawn_trail/ch04-dawn-trail-p001-r1.png",
+        "sha256": "a1a70ad2deca84ff2a9aba1a4887daf8408d5a3b0d7fb828a179ee3546d92dce"
+      },
+      "source_acceptance_state": "PENDING_AUTHORIZED_HUMAN_REVIEW",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH04",
+      "panel_id": "ng-ch04-sc01-p002",
+      "display_order": 2,
+      "plan_revision_id": "ng-ch04-sc01-p002-plan-r1",
+      "candidate_id": "ng-ch04-sc01-p002-art-r1",
+      "source": {
+        "path": "experiments/outputs/built_in_imagegen_ch04_dawn_trail/ch04-dawn-trail-p002-r1.png",
+        "sha256": "43258d0cf3a4a7784c348b8ca78f88ebc38975cc1e788367546c89d60dd985ea"
+      },
+      "source_acceptance_state": "PENDING_AUTHORIZED_HUMAN_REVIEW",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH04",
+      "panel_id": "ng-ch04-sc01-p003",
+      "display_order": 3,
+      "plan_revision_id": "ng-ch04-sc01-p003-plan-r1",
+      "candidate_id": "ng-ch04-sc01-p003-art-r1",
+      "source": {
+        "path": "experiments/outputs/built_in_imagegen_ch04_dawn_trail/ch04-dawn-trail-p003-r1.png",
+        "sha256": "2b3440cf97e93b948a504bb97eb947b4f0867c384bfe5279cce8cad25aafc6c7"
+      },
+      "source_acceptance_state": "PENDING_AUTHORIZED_HUMAN_REVIEW",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH05",
+      "panel_id": "ng-ch05-sc01-p001",
+      "display_order": 1,
+      "plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+      "candidate_id": "chapter-r2-p001-departure-geography-repair-r1",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r2/repairs/P001-departure-geography-repair-r1.png",
+        "sha256": "1728742f71c95d00302aae486ef815820a7679a91a01d1c05675d212216c4ffd"
+      },
+      "source_acceptance_state": "PENDING_OWNER_REVIEW_UNACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH05",
+      "panel_id": "ng-ch05-sc01-p009",
+      "display_order": 9,
+      "plan_revision_id": "ng-ch05-sc01-p009-plan-r1",
+      "candidate_id": "chapter-r1-p009",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p009-sequence-derived-r1.png",
+        "sha256": "913935594479e7cae01d3b79036dcd2cb74e2b6f26affe9ceacdb118bc896730"
+      },
+      "source_acceptance_state": "PENDING_OWNER_REVIEW_UNACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH05",
+      "panel_id": "ng-ch05-sc01-p017",
+      "display_order": 17,
+      "plan_revision_id": "ng-ch05-sc01-p017-plan-r1",
+      "candidate_id": "chapter-r1-p017",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p017-sequence-derived-r1.png",
+        "sha256": "7c2955018e36146206341e816526e43a9d2c28caa876f1a2a582edd6682d87e8"
+      },
+      "source_acceptance_state": "PENDING_OWNER_REVIEW_UNACCEPTED",
+      "visible_adult_cast": []
+    },
+    {
+      "chapter": "CH05",
+      "panel_id": "ng-ch05-sc01-p020",
+      "display_order": 20,
+      "plan_revision_id": "ng-ch05-sc01-p020-plan-r1",
+      "candidate_id": "chapter-r1-p020",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p020-sequence-derived-r1.png",
+        "sha256": "ea756549e385d53b2c453aff4f49253f36325a58642c874438418e6d14bf3842"
+      },
+      "source_acceptance_state": "PENDING_OWNER_REVIEW_UNACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH05",
+      "panel_id": "ng-ch05-sc01-p029",
+      "display_order": 29,
+      "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+      "candidate_id": "chapter-r6-p029-role-separation-repair-r1",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/repairs/P029-role-separation-repair-r1.png",
+        "sha256": "c3340a6b6eb4ff6d4ee1e09b8737c172aba40d6f1ca309d6d19aaecb66e6dc6c"
+      },
+      "source_acceptance_state": "PENDING_OWNER_REVIEW_UNACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH05",
+      "panel_id": "ng-ch05-sc01-p036",
+      "display_order": 36,
+      "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+      "candidate_id": "chapter-r4-p036-causal-leverage-repair-r1",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r4/repairs/P036-causal-leverage-repair-r1.png",
+        "sha256": "cc19ac5a2c8607f6aeec909d388dbc0f76b0496c972878a95502a6bbe7c0b61f"
+      },
+      "source_acceptance_state": "PENDING_OWNER_REVIEW_UNACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH05",
+      "panel_id": "ng-ch05-sc01-p039",
+      "display_order": 39,
+      "plan_revision_id": "ng-ch05-sc01-p039-plan-r1",
+      "candidate_id": "chapter-r5-p039-object-continuity-repair-r1",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P039-object-continuity-repair-r1.png",
+        "sha256": "80bd25ce018866372b9368e461c8d9759a67d1a69e04bbc78124e05d86b99f8f"
+      },
+      "source_acceptance_state": "PENDING_OWNER_REVIEW_UNACCEPTED",
+      "visible_adult_cast": [
+        "SOREN"
+      ]
+    },
+    {
+      "chapter": "CH05",
+      "panel_id": "ng-ch05-sc01-p043",
+      "display_order": 43,
+      "plan_revision_id": "ng-ch05-sc01-p043-plan-r1",
+      "candidate_id": "chapter-r5-p043-object-continuity-repair-r1",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P043-object-continuity-repair-r1.png",
+        "sha256": "d61f0dbe18523d6b5a4e86b6d138cf2ca079baa9fa1ff026d5e0df457539b6dc"
+      },
+      "source_acceptance_state": "PENDING_OWNER_REVIEW_UNACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    },
+    {
+      "chapter": "CH05",
+      "panel_id": "ng-ch05-sc01-p049",
+      "display_order": 49,
+      "plan_revision_id": "ng-ch05-sc01-p049-plan-r1",
+      "candidate_id": "chapter-r1-p049",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p049-sequence-derived-r1.png",
+        "sha256": "69c8b7274f2ca9545adb97a34c4ad8d039428806751710cd80160e4106b4123d"
+      },
+      "source_acceptance_state": "PENDING_OWNER_REVIEW_UNACCEPTED",
+      "visible_adult_cast": [
+        "SOREN"
+      ]
+    },
+    {
+      "chapter": "CH05",
+      "panel_id": "ng-ch05-sc01-p050",
+      "display_order": 50,
+      "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+      "candidate_id": "chapter-r1-p050",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p050-sequence-derived-r1.png",
+        "sha256": "2a66fb354182a5556503e569b7fc81c4a530fb05f41e122421fd55b9784c37fa"
+      },
+      "source_acceptance_state": "PENDING_OWNER_REVIEW_UNACCEPTED",
+      "visible_adult_cast": [
+        "SOREN",
+        "SIGRID"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "kind": "chapter_row_contact_sheet",
+      "path": "experiments/review-packets/cross-chapter-comic-regression-r1/cross-chapter-comic-regression-contact-sheet.png",
+      "sha256": "285c412fbf166347a0884fbf341098b1df42debd19fc172043b2947d0b0b16b3",
+      "width_px": 1800,
+      "height_px": 1300,
+      "bytes": 876447
+    },
+    {
+      "kind": "phone_width_progression",
+      "path": "experiments/review-packets/cross-chapter-comic-regression-r1/cross-chapter-comic-regression-phone-scroll.png",
+      "sha256": "417136fb35cd435f1dd864fa282f40aab12b0efd6a88eccbc3889a8b7bc11b7d",
+      "width_px": 390,
+      "height_px": 7871,
+      "bytes": 4317521
+    }
+  ],
+  "review_questions": [
+    "Do Soren and Sigrid remain recognizable as the same fictional adults across chapter and renderer eras?",
+    "Where do hair value, hair shape, face age, or role binding drift?",
+    "Which wardrobe elements should become a stable kit before armor or weapon progression is introduced?",
+    "Does CH05's clear-line watercolor/cel hybrid improve phone readability over the earlier evidence?",
+    "Which earlier accepted scene qualities should survive future full-chapter style changes?"
+  ],
+  "boundary": {
+    "new_generation": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "source_acceptance_states_modified": 0,
+    "canon_or_panel_plans_created": 0,
+    "commercial_clearance_decisions": 0
+  },
+  "limitations": [
+    "CH01-CH04 are scene fragments, not complete chapters.",
+    "The contact sheet compares mixed renderer eras and mixed review states; it is diagnostic, not a fairness-controlled renderer benchmark.",
+    "Visual comparison is non-biometric and must not be represented as identity inference.",
+    "CH05 anchors are selected for story/continuity coverage and do not replace review of the complete 50-panel scroll."
+  ]
+}

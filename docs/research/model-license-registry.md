@@ -111,3 +111,5 @@ The P039/P043 r5 continuation adds one built-in strip, two deterministic panel c
 The P029/P032 r6 continuation adds one built-in strip, two panel-level candidates, and two reference uses. Only P029 is assembled; P032 is diagnostic-only. Current totals are 16 outputs, 59 panel-level candidates, and 34 uses of the same three unique hashes. Freezing CH05 under ADR-0174 changes no provider, model, license, or commercial-use status.
 
 The r6 release and chapter inventory add no service operation and change no license conclusion. All eight release images remain ignored local review evidence; model, endpoint, request IDs, usage, monetary cost, seed, reproducibility, commercial clearance, and exact-production-base status remain unavailable or pending exactly as recorded. ADR-0175 is a planning/provenance boundary, not a rights determination.
+
+The cross-chapter regression reuses existing local pixels only. Its two derivatives do not alter the source images' mixed renderer provenance, review states, licenses, or commercial conclusions. ADR-0176 is a future-generation continuity rule and does not retroactively normalize historical provider metadata or rights.

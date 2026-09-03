@@ -1,0 +1,44 @@
+{
+  "record_type": "ComicContinuityDirection",
+  "schema_version": "1.0",
+  "record_id": "ng-comic-cross-chapter-continuity-r1",
+  "state": "PROVISIONAL_ENGINEERING_DIRECTION_OWNER_CANON_REVIEW_PENDING",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source_evidence": {
+    "path": "docs/research/evidence/cross-chapter-comic-regression-r1.json",
+    "sha256": "e6fb26ce76cc31acb34af1109e2665432ac2d3326347a13e6b5b1bbacc3a01e0"
+  },
+  "future_generation_identity_contract": {
+    "soren": {
+      "hair": "light-brown to dark-blond, short-to-medium wavy and swept back; never black or bright blond",
+      "wardrobe_base": "pale oatmeal work coat over muted blue-gray practical layers",
+      "adult_presentation": "clearly mature fictional adult; lean sturdy build; weathered angular face; light stubble where visible"
+    },
+    "sigrid": {
+      "hair": "dark-brown to near-black, tied back in a compact low bun or braid; never blond or loose red curls",
+      "wardrobe_base": "dark blue-brown plaid wrap over gray-green practical layers",
+      "adult_presentation": "clearly mature fictional adult; athletic build; angular face; dark brows"
+    }
+  },
+  "historical_evidence_policy": {
+    "ch01_ch04": "Preserve exact pixels, hashes, revision objects, acceptance states, and edition selections.",
+    "future_reference_eligibility": "Do not use CH01-CH04 pixels as identity references for new generation under the current contract.",
+    "replacement_rule": "Create a new PanelRevision and edition selection after owner canon review; never overwrite history."
+  },
+  "progression_boundary": {
+    "armor": "future ComicPanelPlan/canon proposal required",
+    "weapons": "future ComicPanelPlan/canon proposal required",
+    "upgraded_clothing": "future ComicPanelPlan/canon proposal required",
+    "monsters": "future ComicPanelPlan/canon proposal required"
+  },
+  "acceptance_boundary": {
+    "historical_acceptance_modified": false,
+    "ch05_art_accepted": false,
+    "commercial_clearance_decided": false,
+    "exact_production_base_decided": false
+  },
+  "adr": "ADR-0176"
+}

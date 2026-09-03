@@ -1553,3 +1553,11 @@
 - Preserved 49 PASS / 1 WARN / 0 FAIL agent triage, with P032 the sole warning; human-reviewed/accepted/commercially-cleared/exact-base remain 0/0/0/0.
 - Inventoried 63 current ComicPanelPlans. CH05 has the only complete 50-panel review unit; CH01-CH04 contain only 4/3/3/3-panel scene fragments.
 - ADR-0175 keeps those fragments available for local cross-chapter regression but prohibits representing them as completed chapters or silently inventing missing canon.
+
+## 2026-09-02 - Cross-chapter ComicPanelPlan visual regression
+
+- Built and visually inspected a deterministic 1800×1300 contact sheet and 390×7871 phone scroll spanning 23 exact panels: CH01 4, CH02 3, CH03 3, CH04 3, and ten CH05 anchors.
+- Validated ten plan/revision/assembly source bindings, all 23 source hashes, both ignored/untracked artifacts, and 10/10 adversarial mutations.
+- Measured a material hair/wardrobe era conflict: CH02-CH04 generally depict dark-haired Soren and auburn/red-haired Sigrid, while CH05 r14 specifies light-brown/dark-blond Soren and dark-haired Sigrid.
+- ADR-0176 preserves every historical selection unchanged, uses CH05 r14 as the provisional future-generation target, and requires a new PanelRevision/edition plus owner canon review for any historical replacement.
+- No generation, provider call, upload, plan creation, acceptance mutation, commercial decision, or external spend occurred.

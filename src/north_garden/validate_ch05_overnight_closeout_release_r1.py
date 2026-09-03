@@ -104,7 +104,10 @@ def observed_self_test(stdout: str) -> str | None:
     if json_match:
         return json_match.group(1)
     plain_match = re.search(r"(\d+/\d+) mutations rejected", stdout)
-    return plain_match.group(1) if plain_match else None
+    if plain_match:
+        return plain_match.group(1)
+    inventory_match = re.search(r"mutations (\d+/\d+) rejected", stdout)
+    return inventory_match.group(1) if inventory_match else None
 
 
 def has_pass_marker(stdout: str) -> bool:

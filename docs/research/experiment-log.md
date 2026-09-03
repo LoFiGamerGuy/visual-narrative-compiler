@@ -1756,3 +1756,12 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - CH11 stages a full collective Orchard Siege and earns formal classes/shared bond through gates, water, trellis, capstan, leadership, and visible loss—not arbitrary level-up UI.
 - All cast remains clearly fictional adults; hair, armor ancestry, weapon state, physical Ledger, protected lettering, and ComicPanelPlan-only boundaries pass.
 - Validator rejects 41/41 mutations. Prompts, pixels, provider operations, uploads, and spend for CH10–CH11 remain zero.
+
+## CH08 complete default-route production and review r1 — 2026-09-03
+
+- Generated eight chronological one-row sequences and deterministically cropped all 40 CH08 plans.
+- Built complete reading, phone, sequence/contact, and lettering-overlay artifacts.
+- Control result: no blocking rendered prose, panel-number, or gun-like Warden's Reach failure recurred after ADR-0203.
+- Triage: 39 PASS / 1 WARN / 0 FAIL; P028 contains an unrequested causal arrow but remains story-readable.
+- Timing sum 2,158.140 seconds across overlapping calls; parallel group walls 430.624/437.107 seconds. References 20; paid API/cloud spend $0; alternate arms/repairs 0/0.
+- Validator PASS with 16/16 mutations rejected. ADR-0205 retains the route and prioritizes CH09 throughput.

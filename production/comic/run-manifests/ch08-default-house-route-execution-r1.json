@@ -1,0 +1,757 @@
+{
+  "record_type": "BuiltInImageGenExecutionManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch08-default-house-route-execution-r1",
+  "state": "EXECUTED_AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "prompt_manifest": {
+    "path": "production/comic/run-manifests/ch08-ch09-default-house-route-prompt-manifest-r1.json",
+    "sha256": "13f7ffe256c5f83ed8d618296df6450295d5ec881e477c8302501c277f494aed"
+  },
+  "comic_panel_plan_collection": {
+    "path": "production/comic/ch08-sc01-panel-plans-r1.json",
+    "sha256": "f653adf6c58361f6355e00409b575e283eab0790f5b621ea15e61c0597b806a5"
+  },
+  "records": [
+    {
+      "render_record_id": "ng-render-ng-ch08-s01-road-kit-r1",
+      "request_id": "ng-ch08-s01-road-kit",
+      "chapter": "CH08",
+      "panel_ids": [
+        "ng-ch08-sc01-p001",
+        "ng-ch08-sc01-p002",
+        "ng-ch08-sc01-p003",
+        "ng-ch08-sc01-p004",
+        "ng-ch08-sc01-p005"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden The Root Road five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered narrative order below as one coherent left-to-right story strip. Use one row only, with clean light gutters. Do not add visible panel numbers, grid labels, captions, or a second comic row. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nScene/backdrop: The Root Road; use only the locations, weather, fictional adults, creature, and objects named in the specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; clear silhouettes, controlled density, expressive mature faces, readable hands, natural material wear, and phone-readable action.\nPanel specifications:\nPanel 1 (ng-ch08-sc01-p001; WIDE_DIRECTIONAL_ANCHOR; HIGH): At first dawn Tamsin remains beside the cracked farmhouse ward while Soren and Sigrid state the northward plan and step beyond the gate together. Composition: wide gate tableau with three adults, cracked wardstone, and north road vector Visible cast: ADULT_SOREN, ADULT_SIGRID, ADULT_TAMSIN_REEVE.\nPanel 2 (ng-ch08-sc01-p002; TALL_OR_WIDE_DUAL_CAUSAL; MEDIUM): Soren lays the torn oatmeal sleeve flat while Sigrid measures quilted sacking across his shoulder without obscuring either adult's face or working hands. Composition: overhead workbench geometry with oatmeal cloth, quilted panel, needle, and four hands Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 3 (ng-ch08-sc01-p003; MEDIUM_SINGLE_CAUSAL; MEDIUM): Sigrid folds the scorched plaid edge inward, threads it through two horn toggles, and tests a secured weather-cape closure across her practical gray-green layers. Composition: medium hand-and-toggle action preserving plaid pattern and tied dark hair Visible cast: ADULT_SIGRID.\nPanel 4 (ng-ch08-sc01-p004; MEDIUM_TWO_SHOT; MEDIUM): They buckle thin boiled-leather forearm guards over work sleeves, checking that bow draw, polehook grip, and signature garment silhouettes remain free. Composition: balanced two-shot with evolved work-derived armor and readable weapon grips Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 5 (ng-ch08-sc01-p005; WIDE_DIRECTIONAL_ANCHOR; HIGH): Sigrid shoulders the compact bow, Soren balances Warden's Reach, and they leave the repair kit with Tamsin as the farmhouse recedes behind them. Composition: long road departure with distinct oatmeal and plaid silhouettes and farmhouse small behind Visible cast: ADULT_SOREN, ADULT_SIGRID.\nCharacter/gear invariants: SOREN is a clearly fictional adult with a weathered angular face, light stubble, and short-to-medium swept-back light-brown to dark-blond wavy hair—never black or bright blond. His evolved road gear visibly retains the pale oatmeal work coat beneath quilted shoulder repair and thin practical guards. Warden's Reach is an improvised long wooden polehook made from a hay-fork shaft and pruning hook—never a gun, firearm, crossbow, or complex machine. SIGRID is a clearly fictional adult with an athletic mature build, angular face, dark brows, and dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls. Her evolved road gear visibly retains the dark blue-brown plaid as a secured weather cape with a scorched edge over practical gray-green layers; her compact recurved bow remains a simple bow. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer with medium chestnut-brown hair in one practical braid, visibly distinct from Sigrid, practical non-sexualized field clothing, and a wrapped injured lower leg; never blond or black-haired.\nStory invariants: the Garden Ledger appears only as restrained frost-green light or nonverbal emblems attached to real brass, stone, wire, water, condensation, glass, map, or tool surfaces. Render no readable Ledger words; planned copy will be lettered later. The Hollow Stag, if present, is a large mature fictional root-and-bark stag with hollow antlers, grounded animal anatomy, visible weight, and boundary-wire interaction—not a humanoid, generic deer, undead gore creature, dragon, or glowing demon.\nLettering composition: reserve the quiet regions declared by the ComicPanelPlans, but render no letters, captions, speech balloons, status prose, sound effects, panel numbers, logos, signatures, or watermark. Never cover faces, adult bodies, important hands, weapons, tools, map, key, wire, rope, injury brace, antlers, route marks, or story objects.\nMotion: render literal foot placement, bow draw, polehook leverage, rope tension, water force, stone shift, branch load, wire pull, cloth movement, injury response, and weight transfer only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garment ancestry, unexplained weapons, guns, extra monsters, gore, readable text, logo, or watermark.",
+      "prompt_sha256": "12c81894b8cfbaa3404a1d1093e2568c04eaa3f5e0d725ac0e320c641c5de20f",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch08-default-house-route-r1/source/ng-ch08-s01-road-kit.png",
+        "sha256": "bd5f8ff3572c9dc66198a9e7d151337336deaaf8a85804b2555671a4bedae093",
+        "width": 1858,
+        "height": 846,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            5
+          ],
+          [
+            469,
+            473
+          ],
+          [
+            804,
+            809
+          ],
+          [
+            1087,
+            1091
+          ],
+          [
+            1474,
+            1478
+          ],
+          [
+            1855,
+            1856
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 101.174,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch08-s02-warden-cairns-r1",
+      "request_id": "ng-ch08-s02-warden-cairns",
+      "chapter": "CH08",
+      "panel_ids": [
+        "ng-ch08-sc01-p006",
+        "ng-ch08-sc01-p007",
+        "ng-ch08-sc01-p008",
+        "ng-ch08-sc01-p009",
+        "ng-ch08-sc01-p010"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden The Root Road five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered narrative order below as one coherent left-to-right story strip. Use one row only, with clean light gutters. Do not add visible panel numbers, grid labels, captions, or a second comic row. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nImage 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority\nScene/backdrop: The Root Road; use only the locations, weather, fictional adults, creature, and objects named in the specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; clear silhouettes, controlled density, expressive mature faces, readable hands, natural material wear, and phone-readable action.\nPanel specifications:\nPanel 1 (ng-ch08-sc01-p006; WIDE_DIRECTIONAL_ANCHOR; MEDIUM): The old road narrows between exposed roots, and Sigrid keeps the damaged node map low enough to compare its ink with real cairn spacing. Composition: wide travel composition with map, road, and repeating stone cairns in one depth axis Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 2 (ng-ch08-sc01-p007; SMALL_OBJECT_INSERT; LOW): A silent insert shows moss scraped from the north face of one cairn while three deliberate boot scuffs point toward its buried base. Composition: small object clue of moss, scuffs, and cairn edge with no people Visible cast: NO PEOPLE.\nPanel 3 (ng-ch08-sc01-p008; TALL_OR_WIDE_DUAL_CAUSAL; HIGH): Soren levers the cairn cap only a finger-width with Warden's Reach while Sigrid blocks the loose stones with her braced boot. Composition: low dual-causal angle showing polehook leverage, boot block, and shifting stone Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 4 (ng-ch08-sc01-p009; SMALL_OBJECT_INSERT; LOW): The brass boundary key touches the revealed stone socket and a brief frost-green nonverbal route glyph travels across real brass without readable letters before fading. Composition: tight brass-key and stone-socket insert with physical inscription only Visible cast: NO PEOPLE.\nPanel 5 (ng-ch08-sc01-p010; MEDIUM_CHARACTER_CLUE; LOW): Sigrid rotates the damaged map to align the cairn chain, proving the printed north line is offset but the physical road still continues. Composition: medium clue portrait with map edge below face and cairn chain behind shoulder Visible cast: ADULT_SIGRID.\nCharacter/gear invariants: SOREN is a clearly fictional adult with a weathered angular face, light stubble, and short-to-medium swept-back light-brown to dark-blond wavy hair—never black or bright blond. His evolved road gear visibly retains the pale oatmeal work coat beneath quilted shoulder repair and thin practical guards. Warden's Reach is an improvised long wooden polehook made from a hay-fork shaft and pruning hook—never a gun, firearm, crossbow, or complex machine. SIGRID is a clearly fictional adult with an athletic mature build, angular face, dark brows, and dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls. Her evolved road gear visibly retains the dark blue-brown plaid as a secured weather cape with a scorched edge over practical gray-green layers; her compact recurved bow remains a simple bow. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer with medium chestnut-brown hair in one practical braid, visibly distinct from Sigrid, practical non-sexualized field clothing, and a wrapped injured lower leg; never blond or black-haired.\nStory invariants: the Garden Ledger appears only as restrained frost-green light or nonverbal emblems attached to real brass, stone, wire, water, condensation, glass, map, or tool surfaces. Render no readable Ledger words; planned copy will be lettered later. The Hollow Stag, if present, is a large mature fictional root-and-bark stag with hollow antlers, grounded animal anatomy, visible weight, and boundary-wire interaction—not a humanoid, generic deer, undead gore creature, dragon, or glowing demon.\nLettering composition: reserve the quiet regions declared by the ComicPanelPlans, but render no letters, captions, speech balloons, status prose, sound effects, panel numbers, logos, signatures, or watermark. Never cover faces, adult bodies, important hands, weapons, tools, map, key, wire, rope, injury brace, antlers, route marks, or story objects.\nMotion: render literal foot placement, bow draw, polehook leverage, rope tension, water force, stone shift, branch load, wire pull, cloth movement, injury response, and weight transfer only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garment ancestry, unexplained weapons, guns, extra monsters, gore, readable text, logo, or watermark.",
+      "prompt_sha256": "497b082002144f9575c85ffa81eda4db336b7f5ba1a783fbe088a2699b20f9e7",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "Image 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch08-default-house-route-r1/source/ng-ch08-s02-warden-cairns.png",
+        "sha256": "c018861049325eae067a457a74a0a5a5b3382485e3c3d1cce1fdeb687de17267",
+        "width": 1692,
+        "height": 929,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            7
+          ],
+          [
+            416,
+            423
+          ],
+          [
+            679,
+            685
+          ],
+          [
+            1064,
+            1069
+          ],
+          [
+            1347,
+            1352
+          ],
+          [
+            1685,
+            1691
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 216.343,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch08-s03-windthrow-r1",
+      "request_id": "ng-ch08-s03-windthrow",
+      "chapter": "CH08",
+      "panel_ids": [
+        "ng-ch08-sc01-p011",
+        "ng-ch08-sc01-p012",
+        "ng-ch08-sc01-p013",
+        "ng-ch08-sc01-p014",
+        "ng-ch08-sc01-p015"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden The Root Road five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered narrative order below as one coherent left-to-right story strip. Use one row only, with clean light gutters. Do not add visible panel numbers, grid labels, captions, or a second comic row. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nImage 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority\nScene/backdrop: The Root Road; use only the locations, weather, fictional adults, creature, and objects named in the specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; clear silhouettes, controlled density, expressive mature faces, readable hands, natural material wear, and phone-readable action.\nPanel specifications:\nPanel 1 (ng-ch08-sc01-p011; WIDE_ENVIRONMENTAL_MOTION; MEDIUM): Beyond the cairns, snapped trunks lie downhill in one direction while fresh hoof cuts climb against the prevailing fall line. Composition: wide environmental evidence field separating windthrow vector from hoof vector Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 2 (ng-ch08-sc01-p012; MEDIUM_SINGLE_CAUSAL; LOW): Sigrid kneels without loosening her dark hair and presses two fingers into a hoof cut, reading compacted soil that shows deliberate braking rather than pursuit. Composition: low single-adult track-reading panel with tied hair, hand, and soil fully readable Visible cast: ADULT_SIGRID.\nPanel 3 (ng-ch08-sc01-p013; MEDIUM_CHARACTER_CLUE; MEDIUM): Soren sights along a split beech and notices root plates lifting in sequence toward a hidden ravine as the ground settles under their weight. Composition: medium adult reaction with sightline connecting split trunk to rising root plates Visible cast: ADULT_SOREN.\nPanel 4 (ng-ch08-sc01-p014; TALL_OR_WIDE_DUAL_CAUSAL; HIGH): The pair shorten their spacing and cross one at a time, Sigrid marking firm roots while Soren probes hollow soil ahead with the polehook butt. Composition: tall staggered crossing with route markers, probing tool, and separated footfalls Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 5 (ng-ch08-sc01-p015; SMALL_SENSORY_INSERT; LOW): A resonant antler knock sounds uphill, and every loose root fiber trembles a heartbeat before the nearest earth shelf drops away. Composition: small sensory insert of vibrating root fibers and falling soil with off-panel antler sound Visible cast: NO PEOPLE.\nCharacter/gear invariants: SOREN is a clearly fictional adult with a weathered angular face, light stubble, and short-to-medium swept-back light-brown to dark-blond wavy hair—never black or bright blond. His evolved road gear visibly retains the pale oatmeal work coat beneath quilted shoulder repair and thin practical guards. Warden's Reach is an improvised long wooden polehook made from a hay-fork shaft and pruning hook—never a gun, firearm, crossbow, or complex machine. SIGRID is a clearly fictional adult with an athletic mature build, angular face, dark brows, and dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls. Her evolved road gear visibly retains the dark blue-brown plaid as a secured weather cape with a scorched edge over practical gray-green layers; her compact recurved bow remains a simple bow. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer with medium chestnut-brown hair in one practical braid, visibly distinct from Sigrid, practical non-sexualized field clothing, and a wrapped injured lower leg; never blond or black-haired.\nStory invariants: the Garden Ledger appears only as restrained frost-green light or nonverbal emblems attached to real brass, stone, wire, water, condensation, glass, map, or tool surfaces. Render no readable Ledger words; planned copy will be lettered later. The Hollow Stag, if present, is a large mature fictional root-and-bark stag with hollow antlers, grounded animal anatomy, visible weight, and boundary-wire interaction—not a humanoid, generic deer, undead gore creature, dragon, or glowing demon.\nLettering composition: reserve the quiet regions declared by the ComicPanelPlans, but render no letters, captions, speech balloons, status prose, sound effects, panel numbers, logos, signatures, or watermark. Never cover faces, adult bodies, important hands, weapons, tools, map, key, wire, rope, injury brace, antlers, route marks, or story objects.\nMotion: render literal foot placement, bow draw, polehook leverage, rope tension, water force, stone shift, branch load, wire pull, cloth movement, injury response, and weight transfer only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garment ancestry, unexplained weapons, guns, extra monsters, gore, readable text, logo, or watermark.",
+      "prompt_sha256": "0c229fb95fe8cea3b589e8cc76b29819093a38c002a20e75c73fb728023a237a",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "Image 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch08-default-house-route-r1/source/ng-ch08-s03-windthrow.png",
+        "sha256": "3737bc539297f3c146c7bd4acc10c70b0f9a2b7e0d74f315d10331e772ef62e2",
+        "width": 1846,
+        "height": 852,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            10
+          ],
+          [
+            505,
+            510
+          ],
+          [
+            803,
+            810
+          ],
+          [
+            1146,
+            1152
+          ],
+          [
+            1508,
+            1513
+          ],
+          [
+            1836,
+            1845
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 323.869,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch08-s04-hollow-stag-r1",
+      "request_id": "ng-ch08-s04-hollow-stag",
+      "chapter": "CH08",
+      "panel_ids": [
+        "ng-ch08-sc01-p016",
+        "ng-ch08-sc01-p017",
+        "ng-ch08-sc01-p018",
+        "ng-ch08-sc01-p019",
+        "ng-ch08-sc01-p020"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden The Root Road five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered narrative order below as one coherent left-to-right story strip. Use one row only, with clean light gutters. Do not add visible panel numbers, grid labels, captions, or a second comic row. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nScene/backdrop: The Root Road; use only the locations, weather, fictional adults, creature, and objects named in the specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; clear silhouettes, controlled density, expressive mature faces, readable hands, natural material wear, and phone-readable action.\nPanel specifications:\nPanel 1 (ng-ch08-sc01-p016; WIDE_DIRECTIONAL_ANCHOR; HIGH): A tall Hollow Stag steps between white trunks, mature in scale and bark-thin, with a frost-green mark confined to boundary wire tangled on one antler. Composition: hero creature reveal with adults small below, mark visibly on real wire rather than floating HUD Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 2 (ng-ch08-sc01-p017; MEDIUM_TWO_SHOT; MEDIUM): Soren lowers Warden's Reach into a guard while Sigrid nocks one of two arrows, both holding position instead of striking first. Composition: medium defensive two-shot with clear weapon hands and Hollow Stag sightline Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 3 (ng-ch08-sc01-p018; WIDE_ENVIRONMENTAL_MOTION; HIGH): The stag stamps left, lunges short, and forces them sideways exactly as the root shelf behind Soren shears into the ravine. Composition: wide causal action showing stamp vector, adult sidestep, and collapsing shelf in one frame Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 4 (ng-ch08-sc01-p019; MEDIUM_CHARACTER_CLUE; LOW): Sigrid follows the stag's repeated shoulder turns and sees each apparent charge end on stable ground, contradicting Soren's threat assumption. Composition: medium Sigrid deduction with repeated hoof placements and Soren readable behind Visible cast: ADULT_SIGRID.\nPanel 5 (ng-ch08-sc01-p020; WIDE_DIRECTIONAL_ANCHOR; MEDIUM): Soren opens his guard and follows Sigrid's indicated line as the stag backs toward a root bridge stretched across the ravine. Composition: wide changed-course movement with open polehook posture and Sigrid leading route Visible cast: ADULT_SOREN, ADULT_SIGRID.\nCharacter/gear invariants: SOREN is a clearly fictional adult with a weathered angular face, light stubble, and short-to-medium swept-back light-brown to dark-blond wavy hair—never black or bright blond. His evolved road gear visibly retains the pale oatmeal work coat beneath quilted shoulder repair and thin practical guards. Warden's Reach is an improvised long wooden polehook made from a hay-fork shaft and pruning hook—never a gun, firearm, crossbow, or complex machine. SIGRID is a clearly fictional adult with an athletic mature build, angular face, dark brows, and dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls. Her evolved road gear visibly retains the dark blue-brown plaid as a secured weather cape with a scorched edge over practical gray-green layers; her compact recurved bow remains a simple bow. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer with medium chestnut-brown hair in one practical braid, visibly distinct from Sigrid, practical non-sexualized field clothing, and a wrapped injured lower leg; never blond or black-haired.\nStory invariants: the Garden Ledger appears only as restrained frost-green light or nonverbal emblems attached to real brass, stone, wire, water, condensation, glass, map, or tool surfaces. Render no readable Ledger words; planned copy will be lettered later. The Hollow Stag, if present, is a large mature fictional root-and-bark stag with hollow antlers, grounded animal anatomy, visible weight, and boundary-wire interaction—not a humanoid, generic deer, undead gore creature, dragon, or glowing demon.\nLettering composition: reserve the quiet regions declared by the ComicPanelPlans, but render no letters, captions, speech balloons, status prose, sound effects, panel numbers, logos, signatures, or watermark. Never cover faces, adult bodies, important hands, weapons, tools, map, key, wire, rope, injury brace, antlers, route marks, or story objects.\nMotion: render literal foot placement, bow draw, polehook leverage, rope tension, water force, stone shift, branch load, wire pull, cloth movement, injury response, and weight transfer only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garment ancestry, unexplained weapons, guns, extra monsters, gore, readable text, logo, or watermark.",
+      "prompt_sha256": "bce68640ffcce80b5fa5bf59c65af6dbcc136a0760dbdd0603d4c02622ce5f07",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch08-default-house-route-r1/source/ng-ch08-s04-hollow-stag.png",
+        "sha256": "56624b29ffbbca329cd99eff1e2dcbddd39dd38f129f9aef31591b8c1098d18d",
+        "width": 1774,
+        "height": 887,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            6
+          ],
+          [
+            372,
+            377
+          ],
+          [
+            694,
+            699
+          ],
+          [
+            1072,
+            1077
+          ],
+          [
+            1413,
+            1413
+          ],
+          [
+            1767,
+            1773
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 430.624,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch08-s05-root-bridge-r1",
+      "request_id": "ng-ch08-s05-root-bridge",
+      "chapter": "CH08",
+      "panel_ids": [
+        "ng-ch08-sc01-p021",
+        "ng-ch08-sc01-p022",
+        "ng-ch08-sc01-p023",
+        "ng-ch08-sc01-p024",
+        "ng-ch08-sc01-p025"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden The Root Road five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered narrative order below as one coherent left-to-right story strip. Use one row only, with clean light gutters. Do not add visible panel numbers, grid labels, captions, or a second comic row. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nImage 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority\nScene/backdrop: The Root Road; use only the locations, weather, fictional adults, creature, and objects named in the specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; clear silhouettes, controlled density, expressive mature faces, readable hands, natural material wear, and phone-readable action.\nPanel specifications:\nPanel 1 (ng-ch08-sc01-p021; WIDE_ENVIRONMENTAL_MOTION; HIGH): The root bridge twists under the stag's weight, one load-bearing root peeling loose while the trapped boundary wire pulls its antler downhill. Composition: wide bridge mechanics with root tension, wire vector, stag weight, and ravine depth Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 2 (ng-ch08-sc01-p022; MEDIUM_SINGLE_CAUSAL; HIGH): Soren plants Warden's Reach across two living roots and drops his weight through the shaft to make a temporary cross-brace. Composition: low adult leverage panel with polehook shaft, two roots, boot stance, and bending shoulders Visible cast: ADULT_SOREN.\nPanel 3 (ng-ch08-sc01-p023; TALL_OR_WIDE_DUAL_CAUSAL; HIGH): Sigrid crawls along the stable root named by Soren, keeping her plaid cape toggled close so no loose cloth catches the wire. Composition: tall crawl axis with secured plaid silhouette, supporting root, and clear hand placement Visible cast: ADULT_SIGRID.\nPanel 4 (ng-ch08-sc01-p024; MEDIUM_SINGLE_CAUSAL; MEDIUM): A close insert shows the cross-brace biting deeper as Soren's repaired oatmeal shoulder compresses and the bridge load transfers into firm soil. Composition: tight load-transfer insert of wood, quilted shoulder, root, and compressed mud Visible cast: ADULT_SOREN.\nPanel 5 (ng-ch08-sc01-p025; TALL_OR_WIDE_DUAL_CAUSAL; HIGH): Sigrid reaches the stag's bound side while Soren calls the remaining brace time, turning their declared timing into the only safe rescue window. Composition: wide dual-causal bridge tableau with verbal timing space clear above ravine Visible cast: ADULT_SOREN, ADULT_SIGRID.\nCharacter/gear invariants: SOREN is a clearly fictional adult with a weathered angular face, light stubble, and short-to-medium swept-back light-brown to dark-blond wavy hair—never black or bright blond. His evolved road gear visibly retains the pale oatmeal work coat beneath quilted shoulder repair and thin practical guards. Warden's Reach is an improvised long wooden polehook made from a hay-fork shaft and pruning hook—never a gun, firearm, crossbow, or complex machine. SIGRID is a clearly fictional adult with an athletic mature build, angular face, dark brows, and dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls. Her evolved road gear visibly retains the dark blue-brown plaid as a secured weather cape with a scorched edge over practical gray-green layers; her compact recurved bow remains a simple bow. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer with medium chestnut-brown hair in one practical braid, visibly distinct from Sigrid, practical non-sexualized field clothing, and a wrapped injured lower leg; never blond or black-haired.\nStory invariants: the Garden Ledger appears only as restrained frost-green light or nonverbal emblems attached to real brass, stone, wire, water, condensation, glass, map, or tool surfaces. Render no readable Ledger words; planned copy will be lettered later. The Hollow Stag, if present, is a large mature fictional root-and-bark stag with hollow antlers, grounded animal anatomy, visible weight, and boundary-wire interaction—not a humanoid, generic deer, undead gore creature, dragon, or glowing demon.\nLettering composition: reserve the quiet regions declared by the ComicPanelPlans, but render no letters, captions, speech balloons, status prose, sound effects, panel numbers, logos, signatures, or watermark. Never cover faces, adult bodies, important hands, weapons, tools, map, key, wire, rope, injury brace, antlers, route marks, or story objects.\nMotion: render literal foot placement, bow draw, polehook leverage, rope tension, water force, stone shift, branch load, wire pull, cloth movement, injury response, and weight transfer only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garment ancestry, unexplained weapons, guns, extra monsters, gore, readable text, logo, or watermark.",
+      "prompt_sha256": "c28408467fb7ffb772a82ab240d42d4f19ee304fdc65cb56d4ab572a65146e2e",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "Image 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch08-default-house-route-r1/source/ng-ch08-s05-root-bridge.png",
+        "sha256": "dc2f6f5f82f13860bf06711a27878164343b1f65db8b270c9047d28f18a7306c",
+        "width": 1920,
+        "height": 819,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "HASH_BOUND_MANUAL_RIGHT_EDGE_BOXES",
+        "boxes": [
+          [
+            4,
+            4,
+            521,
+            817
+          ],
+          [
+            524,
+            4,
+            844,
+            817
+          ],
+          [
+            849,
+            4,
+            1172,
+            817
+          ],
+          [
+            1177,
+            4,
+            1476,
+            817
+          ],
+          [
+            1481,
+            4,
+            1920,
+            817
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 106.177,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch08-s06-bound-antler-r1",
+      "request_id": "ng-ch08-s06-bound-antler",
+      "chapter": "CH08",
+      "panel_ids": [
+        "ng-ch08-sc01-p026",
+        "ng-ch08-sc01-p027",
+        "ng-ch08-sc01-p028",
+        "ng-ch08-sc01-p029",
+        "ng-ch08-sc01-p030"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden The Root Road five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered narrative order below as one coherent left-to-right story strip. Use one row only, with clean light gutters. Do not add visible panel numbers, grid labels, captions, or a second comic row. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nImage 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority\nScene/backdrop: The Root Road; use only the locations, weather, fictional adults, creature, and objects named in the specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; clear silhouettes, controlled density, expressive mature faces, readable hands, natural material wear, and phone-readable action.\nPanel specifications:\nPanel 1 (ng-ch08-sc01-p026; MEDIUM_SINGLE_CAUSAL; HIGH): Sigrid slides the pocket knife under the taut boundary wire without touching living antler, using her leather guard as a wedge. Composition: close hand-tool-antler geometry with knife edge and guard clearly separated from creature Visible cast: ADULT_SIGRID.\nPanel 2 (ng-ch08-sc01-p027; WIDE_ENVIRONMENTAL_MOTION; HIGH): The first wire strand parts, whipping into the mud while the stag shifts its weight uphill instead of striking Sigrid. Composition: directional action panel with wire recoil, mud impact, and readable creature weight shift Visible cast: ADULT_SIGRID.\nPanel 3 (ng-ch08-sc01-p028; MEDIUM_SINGLE_CAUSAL; HIGH): Soren rotates the polehook brace a quarter turn to catch a slipping root, sacrificing reach but preserving the bridge beneath all three bodies. Composition: low mechanical action showing shaft rotation, hooked root, and grounded boot triangle Visible cast: ADULT_SOREN.\nPanel 4 (ng-ch08-sc01-p029; MEDIUM_SINGLE_CAUSAL; MEDIUM): Sigrid cuts the final loop and folds the freed wire under her boot before the stag pulls its antler clear. Composition: medium causal finish with cut loop, pinned wire, freed antler, and protected hands Visible cast: ADULT_SIGRID.\nPanel 5 (ng-ch08-sc01-p030; WIDE_DIRECTIONAL_ANCHOR; LOW): The Hollow Stag crosses to firm ground, pauses within bow range, and lowers its unbound antler rather than attacking. Composition: quiet wide release with lowered antler, lowered bow, and ravine between silhouettes Visible cast: ADULT_SOREN, ADULT_SIGRID.\nCharacter/gear invariants: SOREN is a clearly fictional adult with a weathered angular face, light stubble, and short-to-medium swept-back light-brown to dark-blond wavy hair—never black or bright blond. His evolved road gear visibly retains the pale oatmeal work coat beneath quilted shoulder repair and thin practical guards. Warden's Reach is an improvised long wooden polehook made from a hay-fork shaft and pruning hook—never a gun, firearm, crossbow, or complex machine. SIGRID is a clearly fictional adult with an athletic mature build, angular face, dark brows, and dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls. Her evolved road gear visibly retains the dark blue-brown plaid as a secured weather cape with a scorched edge over practical gray-green layers; her compact recurved bow remains a simple bow. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer with medium chestnut-brown hair in one practical braid, visibly distinct from Sigrid, practical non-sexualized field clothing, and a wrapped injured lower leg; never blond or black-haired.\nStory invariants: the Garden Ledger appears only as restrained frost-green light or nonverbal emblems attached to real brass, stone, wire, water, condensation, glass, map, or tool surfaces. Render no readable Ledger words; planned copy will be lettered later. The Hollow Stag, if present, is a large mature fictional root-and-bark stag with hollow antlers, grounded animal anatomy, visible weight, and boundary-wire interaction—not a humanoid, generic deer, undead gore creature, dragon, or glowing demon.\nLettering composition: reserve the quiet regions declared by the ComicPanelPlans, but render no letters, captions, speech balloons, status prose, sound effects, panel numbers, logos, signatures, or watermark. Never cover faces, adult bodies, important hands, weapons, tools, map, key, wire, rope, injury brace, antlers, route marks, or story objects.\nMotion: render literal foot placement, bow draw, polehook leverage, rope tension, water force, stone shift, branch load, wire pull, cloth movement, injury response, and weight transfer only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garment ancestry, unexplained weapons, guns, extra monsters, gore, readable text, logo, or watermark.",
+      "prompt_sha256": "a8a111c0f33eaa92b316324628b58d705cb5fc2dd974ce52ecaf5443ac7f9e9c",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "Image 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch08-default-house-route-r1/source/ng-ch08-s06-bound-antler.png",
+        "sha256": "aa34f2997402f84d083d57c468dcdfc0429754d53df793b1b3cb6aa8cce3e286",
+        "width": 1884,
+        "height": 835,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            7
+          ],
+          [
+            351,
+            355
+          ],
+          [
+            792,
+            797
+          ],
+          [
+            1132,
+            1135
+          ],
+          [
+            1477,
+            1480
+          ],
+          [
+            1877,
+            1883
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 212.282,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch08-s07-mark-not-enemy-r1",
+      "request_id": "ng-ch08-s07-mark-not-enemy",
+      "chapter": "CH08",
+      "panel_ids": [
+        "ng-ch08-sc01-p031",
+        "ng-ch08-sc01-p032",
+        "ng-ch08-sc01-p033",
+        "ng-ch08-sc01-p034",
+        "ng-ch08-sc01-p035"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden The Root Road five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered narrative order below as one coherent left-to-right story strip. Use one row only, with clean light gutters. Do not add visible panel numbers, grid labels, captions, or a second comic row. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nScene/backdrop: The Root Road; use only the locations, weather, fictional adults, creature, and objects named in the specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; clear silhouettes, controlled density, expressive mature faces, readable hands, natural material wear, and phone-readable action.\nPanel specifications:\nPanel 1 (ng-ch08-sc01-p031; SMALL_OBJECT_INSERT; LOW): The brass key rests against recovered wire and shows a brief frost-green nonverbal keeper glyph on those physical surfaces without readable letters, then goes dark. Composition: small brass-and-wire Ledger insert without floating interface Visible cast: NO PEOPLE.\nPanel 2 (ng-ch08-sc01-p032; MEDIUM_SINGLE_CAUSAL; LOW): Sigrid sets the stag's stable hoof line beside the damaged map and identifies the old road as a chain of cultivated safe zones called Gardens. Composition: overhead evidence layout of hoof line, map, cairn rubbing, and adult hands Visible cast: ADULT_SIGRID.\nPanel 3 (ng-ch08-sc01-p033; MEDIUM_TWO_SHOT; LOW): Soren coils the recovered wire instead of taking a trophy and admits his raised weapon misread the Ledger mark. Composition: medium adult two-shot with coiled wire centered and both faces readable Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 4 (ng-ch08-sc01-p034; MEDIUM_TWO_SHOT; MEDIUM): They mark all seven nodes on the physical map and state a voluntary mission to stabilize the chain rather than chase marked creatures. Composition: balanced two-shot over map with seven physical marks and clear upper lettering field Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 5 (ng-ch08-sc01-p035; SMALL_SENSORY_INSERT; LOW): The stag stamps once on a buried route stone; frost-green moisture gathers inside a carved glyph pointing downhill, then evaporates. Composition: small hoof-stone-water insert with the glyph physically cut into stone Visible cast: NO PEOPLE.\nCharacter/gear invariants: SOREN is a clearly fictional adult with a weathered angular face, light stubble, and short-to-medium swept-back light-brown to dark-blond wavy hair—never black or bright blond. His evolved road gear visibly retains the pale oatmeal work coat beneath quilted shoulder repair and thin practical guards. Warden's Reach is an improvised long wooden polehook made from a hay-fork shaft and pruning hook—never a gun, firearm, crossbow, or complex machine. SIGRID is a clearly fictional adult with an athletic mature build, angular face, dark brows, and dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls. Her evolved road gear visibly retains the dark blue-brown plaid as a secured weather cape with a scorched edge over practical gray-green layers; her compact recurved bow remains a simple bow. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer with medium chestnut-brown hair in one practical braid, visibly distinct from Sigrid, practical non-sexualized field clothing, and a wrapped injured lower leg; never blond or black-haired.\nStory invariants: the Garden Ledger appears only as restrained frost-green light or nonverbal emblems attached to real brass, stone, wire, water, condensation, glass, map, or tool surfaces. Render no readable Ledger words; planned copy will be lettered later. The Hollow Stag, if present, is a large mature fictional root-and-bark stag with hollow antlers, grounded animal anatomy, visible weight, and boundary-wire interaction—not a humanoid, generic deer, undead gore creature, dragon, or glowing demon.\nLettering composition: reserve the quiet regions declared by the ComicPanelPlans, but render no letters, captions, speech balloons, status prose, sound effects, panel numbers, logos, signatures, or watermark. Never cover faces, adult bodies, important hands, weapons, tools, map, key, wire, rope, injury brace, antlers, route marks, or story objects.\nMotion: render literal foot placement, bow draw, polehook leverage, rope tension, water force, stone shift, branch load, wire pull, cloth movement, injury response, and weight transfer only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garment ancestry, unexplained weapons, guns, extra monsters, gore, readable text, logo, or watermark.",
+      "prompt_sha256": "72e7d96cd7d5394fe02afbfa0eb2498db37380d823b21e20edac64fb5a1f61ec",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch08-default-house-route-r1/source/ng-ch08-s07-mark-not-enemy.png",
+        "sha256": "4a5db0c644256b93d6d790a4bb0844006ab0a1868a08b64e9c05990e16f254b2",
+        "width": 1690,
+        "height": 931,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            3,
+            3
+          ],
+          [
+            265,
+            272
+          ],
+          [
+            654,
+            660
+          ],
+          [
+            1020,
+            1026
+          ],
+          [
+            1411,
+            1417
+          ],
+          [
+            1685,
+            1689
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 330.564,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch08-s08-black-weir-r1",
+      "request_id": "ng-ch08-s08-black-weir",
+      "chapter": "CH08",
+      "panel_ids": [
+        "ng-ch08-sc01-p036",
+        "ng-ch08-sc01-p037",
+        "ng-ch08-sc01-p038",
+        "ng-ch08-sc01-p039",
+        "ng-ch08-sc01-p040"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden The Root Road five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered narrative order below as one coherent left-to-right story strip. Use one row only, with clean light gutters. Do not add visible panel numbers, grid labels, captions, or a second comic row. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nScene/backdrop: The Root Road; use only the locations, weather, fictional adults, creature, and objects named in the specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; clear silhouettes, controlled density, expressive mature faces, readable hands, natural material wear, and phone-readable action.\nPanel specifications:\nPanel 1 (ng-ch08-sc01-p036; WIDE_DIRECTIONAL_ANCHOR; MEDIUM): At dusk the repaired pair descend from the root road with Sigrid choosing each foothold and Soren testing each load before following. Composition: wide downhill travel emphasizing evolved silhouettes and shared route/load roles Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 2 (ng-ch08-sc01-p037; WIDE_ENVIRONMENTAL_MOTION; LOW): The Hollow Stag remains on the ridge behind them, neither companion nor target, while its outline merges with the white trunks. Composition: quiet long-lens environmental panel with stag distant and adults moving away Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 3 (ng-ch08-sc01-p038; SMALL_OBJECT_INSERT; LOW): A silent map insert shows the northern route newly aligned with the stag's glyph while the underwater node circle bleeds dark ink. Composition: small map clue with aligned route, carved-glyph rubbing, and wet node circle Visible cast: NO PEOPLE.\nPanel 4 (ng-ch08-sc01-p039; MEDIUM_TWO_SHOT; MEDIUM): Sigrid hears the weir before it appears and raises a closed fist; Soren stops on the same footfall without questioning her lead. Composition: medium partnership beat with hand signal, checked step, and dark water beyond Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 5 (ng-ch08-sc01-p040; WIDE_DIRECTIONAL_ANCHOR; HIGH): The black weir fills the final wide panel as the physical node pulses beneath churning water and both adults commit to descend before night deepens. Composition: large dusk weir reveal with two small adult silhouettes, underwater pulse, and descent vector Visible cast: ADULT_SOREN, ADULT_SIGRID.\nCharacter/gear invariants: SOREN is a clearly fictional adult with a weathered angular face, light stubble, and short-to-medium swept-back light-brown to dark-blond wavy hair—never black or bright blond. His evolved road gear visibly retains the pale oatmeal work coat beneath quilted shoulder repair and thin practical guards. Warden's Reach is an improvised long wooden polehook made from a hay-fork shaft and pruning hook—never a gun, firearm, crossbow, or complex machine. SIGRID is a clearly fictional adult with an athletic mature build, angular face, dark brows, and dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls. Her evolved road gear visibly retains the dark blue-brown plaid as a secured weather cape with a scorched edge over practical gray-green layers; her compact recurved bow remains a simple bow. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer with medium chestnut-brown hair in one practical braid, visibly distinct from Sigrid, practical non-sexualized field clothing, and a wrapped injured lower leg; never blond or black-haired.\nStory invariants: the Garden Ledger appears only as restrained frost-green light or nonverbal emblems attached to real brass, stone, wire, water, condensation, glass, map, or tool surfaces. Render no readable Ledger words; planned copy will be lettered later. The Hollow Stag, if present, is a large mature fictional root-and-bark stag with hollow antlers, grounded animal anatomy, visible weight, and boundary-wire interaction—not a humanoid, generic deer, undead gore creature, dragon, or glowing demon.\nLettering composition: reserve the quiet regions declared by the ComicPanelPlans, but render no letters, captions, speech balloons, status prose, sound effects, panel numbers, logos, signatures, or watermark. Never cover faces, adult bodies, important hands, weapons, tools, map, key, wire, rope, injury brace, antlers, route marks, or story objects.\nMotion: render literal foot placement, bow draw, polehook leverage, rope tension, water force, stone shift, branch load, wire pull, cloth movement, injury response, and weight transfer only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garment ancestry, unexplained weapons, guns, extra monsters, gore, readable text, logo, or watermark.",
+      "prompt_sha256": "7290ab22f00643783f83a43af42ea07f890feb23d6ba95c30ed75f90d95a011f",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch08-default-house-route-r1/source/ng-ch08-s08-black-weir.png",
+        "sha256": "3946fe8de39cb1f739cef00a4a5a91e5379d7f13d527a50c36da4aceb03371b6",
+        "width": 1815,
+        "height": 866,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            7
+          ],
+          [
+            385,
+            390
+          ],
+          [
+            764,
+            769
+          ],
+          [
+            1043,
+            1048
+          ],
+          [
+            1391,
+            1396
+          ],
+          [
+            1807,
+            1814
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 437.107,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    }
+  ],
+  "summary": {
+    "chapter": "CH08",
+    "sequence_outputs": 8,
+    "panel_candidates": 40,
+    "authorized_reference_uses": 20,
+    "client_observed_elapsed_seconds_sum": 2158.14,
+    "parallel_group_wall_seconds": [
+      430.624,
+      437.107
+    ],
+    "paid_api_cloud_spend_usd": 0,
+    "built_in_monetary_cost_disclosed": false,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "exact_production_base": 0
+  },
+  "timing_note": "Per-request wall intervals overlap within two parallel groups; their sum is not total wall time.",
+  "boundary": "Ignored generated pixels are research evidence. No output was re-uploaded; null service fields are unavailable, not zero."
+}

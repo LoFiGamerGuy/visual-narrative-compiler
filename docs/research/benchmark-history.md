@@ -637,3 +637,20 @@ This is execution readiness, not rendered quality, acceptance, rights, clearance
 The third batch adds 2 complete chapters, 80 unique panels, 16 five-panel sequences, all six phases per chapter, and exact CH09→CH10→CH11 continuity. Post-CH05 authored breadth is now 6 complete chapters/240 panels. Persistent injury constraints, earned equipment/classes, adult faction roles, siege causality, physical Ledger binding, and protected lettering are explicit. The validator rejects 41/41 adversarial mutations.
 
 This is authoring evidence only; it does not grant prompt, render, acceptance, rights, or commercial authority.
+
+## CH08 complete default-route benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete chronological chapter | 1 × 40 panels |
+| Sequence sources / panel candidates | 8 / 40 |
+| Agent triage PASS / WARN / FAIL | 39 / 1 / 0 |
+| Review artifacts | 5 / 5 |
+| Authorized reference uses | 20 |
+| Overlapping request-interval sum | 2,158.140 s |
+| Parallel group walls | 430.624 s / 437.107 s |
+| Alternate arms / repairs | 0 / 0 |
+| Adversarial mutations rejected | 16 / 16 |
+| Paid API/cloud spend | $0 |
+
+Relative to CH07, exact blocking generated-prose, panel-number, and gun-like-prop failure classes fell from present to absent. This is provisional agent triage, not human acceptance or rights clearance.

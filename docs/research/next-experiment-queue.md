@@ -337,3 +337,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Promote CH09 and later chapters one default route at a time only after their full plan/state batches pass.
 4. Preserve class, injury, armor, weapon, faction, food-loss, and relationship consequences across every later batch.
 5. Keep alternate styles and non-blocking repairs subordinate to chronological chapter completion.
+
+## Active queue after CH08 complete default-route assembly — 2026-09-03
+
+1. Generate and assemble all eight CH09 sequences before alternate routes or non-blocking CH08 repair.
+2. Complete CH12–CH13 authoring to close the eight-chapter Bell Road arc.
+3. Compare CH09 injury, underwater action, Wayfinder, and sabotage readability against CH08's 39/1/0 baseline.
+4. Keep CH08 P028 as review-only unless owner review finds the arrow harmful; do not reroll the chapter.
+5. After CH09, promote later chapters in chronological order with exact inherited state and one default route.

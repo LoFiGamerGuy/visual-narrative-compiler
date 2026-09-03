@@ -1667,3 +1667,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Enumerated 1,728,000 hard-feasible cadence assignments and tested eight leave-one-secondary-objective-out variants. Seven/eight reproduce the recorded three-block allocation.
 - Dropping transition minimization alone moves S10-S11 from premium cel to R6, changing transitions 2→3 and semantic warnings 3→2. Every tested optimum is unique; this is objective-inclusion sensitivity, not a tie.
 - The exact eight-field Pareto frontier contains three assignments. No provider, upload, pixel, candidate, spend, acceptance, or rights state changed; 19/19 audit mutations fail.
+
+## CH05 overnight final closeout — 2026-09-03
+
+- Reconciled 15 exact tracked manifests to 76 service rasters, 312 panel-level candidates/crops, 132 authorized reference uses, 13 zero-reference outputs, and two unsplit ablation sequence diagnostics.
+- The six-route aligned set is 300 candidates: 50 selected R6 plus 250 five-arm crops. The full 312 adds nine non-selected R6 candidates and three premium targeted-repair candidates.
+- Preserved timing scopes separately; no aggregate end-to-end duration is reported because approximate overlap-adjusted, batch-wall, non-overlap arithmetic, and individual timing records are incompatible.
+- The first closeout attempt failed closed on an inventory stdout-parser mismatch and wrote no evidence. After a narrow committed parser fix, 9/9 domains passed in 42.965 seconds, 135/135 upstream mutations and 30/30 closeout-record mutations failed.
+- Cost ledger r37 reaches 124 local zero-external-cost milestones. Final-release provider calls/uploads/generation/candidates/paid spend remain 0/0/0/0/`$0`.

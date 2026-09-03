@@ -255,3 +255,12 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. If the owner dislikes the late block, compare S10-S11 as one sequence-level premium-versus-R6 choice using existing candidates before generating anything new.
 4. Keep P005→P006, P003, P032, P045, face/hand/object lettering clearance, and phone readability as explicit visual questions.
 5. Do not interpret route rank, optimizer uniqueness, Pareto status, histogram distance, or density proxies as art acceptance, commercial clearance, or an exact production-base decision.
+
+## Owner-review queue after overnight closeout — 2026-09-03
+
+1. Read the assembled lettered 390px chapter from start to finish before comparing individual candidates.
+2. Decide whether the reduced-palette S01 / R6 S02-S08 / premium S09-S11 blocks read as one intentional chapter cadence.
+3. Review P003, P032, P045, and P005→P006. Keep the later P039→P040 boundary unless a visible defect is identified.
+4. Choose whether S10-S11 should remain premium cel or use the already available R6 alternative; do not generate a new arm merely to resolve the policy tradeoff.
+5. Review the non-canon Soren warden kit, Sigrid pathfinder kit, and Mireback action concept only as future LitRPG direction. They do not revise CH05 canon.
+6. Keep visual disposition, commercial/rights clearance, and exact-production-base selection as separate decisions.

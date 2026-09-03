@@ -549,3 +549,7 @@ The append-only release runs 15 local validators and one read-only remote-parity
 ## CH05 cadence objective-sensitivity benchmark — 2026-09-03
 
 The exact optimizer audit covers 1,728,000 hard-feasible 11-sequence assignments. Seven/eight leave-one-secondary-objective-out variants reproduce reduced-palette S01, R6 S02-S08, and premium cel S09-S11. Removing adjacent-transition minimization alone changes S10-S11 to R6, producing three transitions and two semantic warnings instead of two transitions and three warnings. All variant optima are unique. The exact eight-field Pareto frontier has three assignments. This measures policy sensitivity over existing categorical evaluations, not visual quality, owner preference, renderer reproducibility, or rights.
+
+## CH05 overnight closeout benchmark — 2026-09-03
+
+The final release passes nine domains in 42.965 seconds. Seven upstream self-test suites reject 135/135 mutations; the closeout record rejects 30/30 mutations. The art/output denominator is 76 service rasters and 312 panel candidates/crops, of which 300 form the aligned six-route comparison. Thirteen outputs used zero references and two remain unsplit sequence-level ablation diagnostics. These are exact manifest reconciliations, not quality, acceptance, cost, or end-to-end throughput measurements.

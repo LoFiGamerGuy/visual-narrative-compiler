@@ -569,3 +569,20 @@ The anti-duplication baseline is one default candidate per panel, zero alternate
 The first batch contains 2 complete chapters, 80 unique panel plans, 16 contiguous sequences, and 12 chapter-phase declarations. Exact CH06 final to CH07 initial continuity carry passes. The dedicated validator rejects 25/25 changes spanning cross-medium leakage, execution/prompt/model leakage, panel count/order/identity, adult-only cast, protected lettering, continuity, chapter-state linkage, sequence structure, anti-duplication caps, and substantive unique beats.
 
 This is an authoring-completeness benchmark, not a render, art-quality, acceptance, rights, or throughput result.
+
+## CH06–CH07 default-route preflight — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete chapters covered | 2 |
+| ComicPanelPlans covered | 80 / 80 |
+| Five-panel sequence requests | 16 |
+| Duplicate panel coverage | 0 |
+| Whole-chapter alternate arms | 0 |
+| Authorized reference uses | 38 |
+| Validator result | PASS |
+| Adversarial fixtures rejected | 24 / 24 |
+| Provider calls / outputs | 0 / 0 |
+| Paid API/cloud spend | $0 |
+
+This measures execution readiness, not visual quality, acceptance, reproducibility, rights, commercial clearance, or exact-production-base fitness.

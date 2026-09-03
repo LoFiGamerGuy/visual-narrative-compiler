@@ -289,3 +289,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Preflight reference eligibility separately from story eligibility. Do not assume new generated chapter art may become a future reference.
 4. Generate and assemble the chronological default route before any alternate style or density experiment.
 5. Preserve one candidate per plan by default; allow no more than two panel-local repairs for an exact measured failure.
+
+## Active queue after CH06–CH07 prompt preflight — 2026-09-03
+
+1. Execute the eight CH06 sequence requests in chronological order through the already authorized built-in ImageGen product.
+2. Preserve exact prompts, reference hashes, elapsed time, output hashes, dimensions, unavailable service metadata, and pending human-review state in RenderRecords.
+3. Deterministically crop, assemble, and validate a complete CH06 phone-reading draft before any targeted repair or alternate style.
+4. Compile CH08–CH09 complete ComicPanelPlans while CH06 production runs; do not return to CH05 style duplication.
+5. After CH06 assembly, continue directly into CH07 and then CH08–CH09. Permit repairs only for explicit causal, continuity, lettering-clearance, or legibility failures.

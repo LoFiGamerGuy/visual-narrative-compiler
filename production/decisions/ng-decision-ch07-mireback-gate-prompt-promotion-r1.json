@@ -1,0 +1,37 @@
+{
+  "record_type": "ComicPanelPlanPromptPromotionDecision",
+  "schema_version": "1.0",
+  "record_id": "ng-decision-ch07-mireback-gate-prompt-promotion-r1",
+  "state": "APPROVED_FOR_EXACT_PROMPT_PREFLIGHT_NOT_YET_EXECUTED",
+  "chapter": "CH07",
+  "source_plan": {
+    "path": "production/comic/ch07-sc01-panel-plans-r1.json",
+    "sha256": "229f95285a7dbb8734bc458f1266702d79ce3de309e99921bde990fdf57400ea",
+    "panel_count": 40
+  },
+  "approved_mechanism": "OPENAI_BUILT_IN_IMAGEGEN_ONLY",
+  "approved_reference_hashes": [
+    "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+    "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+    "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb"
+  ],
+  "default_candidates_per_panel": 1,
+  "whole_chapter_alternate_style_arms": 0,
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "boundary": {
+    "prompt_authoring_approved": true,
+    "execution_requires_manifest_preflight_pass": true,
+    "direct_paid_api": false,
+    "bfl": false,
+    "new_provider": false,
+    "new_upload_class": false,
+    "real_person_or_adult_likeness": false,
+    "child_related_material": false,
+    "private_reference": false,
+    "lora_or_dataset": false,
+    "accepted_or_commercially_cleared": false
+  },
+  "adr": "ADR-0197"
+}

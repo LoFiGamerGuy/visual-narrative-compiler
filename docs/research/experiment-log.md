@@ -1705,3 +1705,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - CH07 inherits CH06's complete final continuity state, builds Warden's Reach and the compact-bow loan on-panel, stages a causal mud/leverage Mireback defense, damages both signature garments, cracks the home ward, and commits the party north.
 - Every panel declares protected lettering subjects, adult cast, causal direction, density/scale role, progression assets, and closed continuity carry-in/out. Both graphs pass the reusable semantic validator.
 - The batch validator rejects 25/25 malformed variants. Prompts, calls, uploads, pixels, acceptance, rights, and exact-base decisions remain zero.
+
+## CH06–CH07 default-house-route prompt preflight r1 — 2026-09-03
+
+- Compiled 16 exact five-panel sequence prompts covering 80/80 CH06–CH07 ComicPanelPlans once, with no alternate whole-chapter arm.
+- Restricted reference use to 38 instances of the three owner-authorized hashes: two identity/wardrobe references by default and the composition reference only for authored leverage/mechanics beats.
+- Repeated adult-only, fixed-hair, signature-garment, physical-Ledger, lettering-safe, causal-motion, and no-reupload constraints in every request.
+- Result: PASS; adversarial self-test 24/24. Provider calls 0, outputs 0, paid API/cloud spend $0. Built-in service fields remain unavailable/null.
+- Decision: ADR-0198. Next: execute CH06 in chronological sequence order, crop/validate locally, and compile CH08–CH09 alongside production.

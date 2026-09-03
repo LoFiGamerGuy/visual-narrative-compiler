@@ -281,3 +281,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 4. Promote one default house-route prompt set only after both story graphs pass. Generate one chronological candidate per panel/sequence before considering any alternative style.
 5. Permit at most two targeted repairs for an exact failed panel class; do not reroll passing panels or run a full alternate chapter arm.
 6. After CH06–CH07 assembly, immediately advance CH08–CH09 rather than returning to CH05 style comparison.
+
+## Active queue after CH06–CH07 authoring — 2026-09-03
+
+1. Compile one default-house-route prompt manifest for all 16 CH06–CH07 sequences, covering 80 ComicPanelPlans exactly once.
+2. Repeat the exact Soren/Sigrid hair anchors, evolved wardrobe state, adult-only cast, Tamsin fictional-adult boundary, physical Garden Ledger language, causal action, and protected lettering requirements in every applicable sequence prompt.
+3. Preflight reference eligibility separately from story eligibility. Do not assume new generated chapter art may become a future reference.
+4. Generate and assemble the chronological default route before any alternate style or density experiment.
+5. Preserve one candidate per plan by default; allow no more than two panel-local repairs for an exact measured failure.

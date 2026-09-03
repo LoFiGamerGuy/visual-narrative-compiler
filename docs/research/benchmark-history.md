@@ -563,3 +563,9 @@ The terminal matrix passes 8/8 domains in 78.819 seconds, with 124/124 upstream 
 The new baseline is eight required chronological chapters, 40 target panels and eight sequences per chapter, totaling 320 target panels. Every chapter must inherit the exact prior closing-state key, change at least five declared state categories, contain at least two causal setpieces, and end in a distinct state. The initial arc record satisfies all eight chapter carries and rejects 23/23 adversarial mutations.
 
 The anti-duplication baseline is one default candidate per panel, zero alternate-style coverage before a complete chronological chapter exists, at most 10% named-question alternative coverage afterward, and at most two targeted repairs per failed panel. These are production-efficiency and narrative-breadth controls, not art-quality measurements.
+
+## CH06–CH07 complete-authoring benchmark — 2026-09-03
+
+The first batch contains 2 complete chapters, 80 unique panel plans, 16 contiguous sequences, and 12 chapter-phase declarations. Exact CH06 final to CH07 initial continuity carry passes. The dedicated validator rejects 25/25 changes spanning cross-medium leakage, execution/prompt/model leakage, panel count/order/identity, adult-only cast, protected lettering, continuity, chapter-state linkage, sequence structure, anti-duplication caps, and substantive unique beats.
+
+This is an authoring-completeness benchmark, not a render, art-quality, acceptance, rights, or throughput result.

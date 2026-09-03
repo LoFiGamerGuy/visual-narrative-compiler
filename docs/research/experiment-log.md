@@ -1697,3 +1697,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Established the Garden Ledger, first Mireback fight, work-derived armor and weapons, Soren's lasting injury, Sigrid's Wayfinder emergence, Brackenwake faction conflict, siege-earned classes, partnership rupture, and shared North Garden keeper outcome.
 - Added a strict anti-duplication contract: one default candidate per panel, no alternate style before chapter completion, at most 10% alternative coverage afterward, and no more than two targeted repairs per failed panel.
 - Deterministic compilation is byte-stable; the validator passes and rejects 23/23 malformed, continuity-breaking, identity-drifting, or authority-expanding mutations. No prompt, provider call, upload, generation, acceptance, rights decision, or exact-base decision occurred.
+
+## CH06–CH07 complete panel authoring batch — 2026-09-03
+
+- Authored 80 unique chronological ComicPanelPlans in 16 contiguous five-panel sequences: 40/8 for CH06 and 40/8 for CH07.
+- CH06 continues directly from CH05's smoking-farmhouse reversal, introduces clearly fictional adult Tamsin Reeve, reveals the physical Garden Ledger below the hearth, and ends on the orchard threat.
+- CH07 inherits CH06's complete final continuity state, builds Warden's Reach and the compact-bow loan on-panel, stages a causal mud/leverage Mireback defense, damages both signature garments, cracks the home ward, and commits the party north.
+- Every panel declares protected lettering subjects, adult cast, causal direction, density/scale role, progression assets, and closed continuity carry-in/out. Both graphs pass the reusable semantic validator.
+- The batch validator rejects 25/25 malformed variants. Prompts, calls, uploads, pixels, acceptance, rights, and exact-base decisions remain zero.

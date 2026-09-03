@@ -247,3 +247,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 4. Rank clear-line watercolor as the leading future style-development route for contour/action clarity, while retaining r6 as the semantic backbone and premium cel as a selective late-chapter accent.
 5. If the owner rejects a sequence block, run exactly one sequence-level matched replacement under the chosen style and preserve every non-target panel hash. Do not return to panel-by-panel hybrid cherry-picking.
 6. Keep future armor, weapons, monsters, class gear, and clothing changes in the separate non-canon LitRPG stream until a ComicPanelPlan/canon revision explicitly authorizes them.
+
+## Active queue after cadence objective-sensitivity audit — 2026-09-03
+
+1. Retain the three-block transition-first cadence for owner review; it is stable under seven of eight objective omissions.
+2. Label premium cel S10-S11 as policy-sensitive. The existing R6 alternative trades one additional route transition for one fewer semantic warning.
+3. If the owner dislikes the late block, compare S10-S11 as one sequence-level premium-versus-R6 choice using existing candidates before generating anything new.
+4. Keep P005→P006, P003, P032, P045, face/hand/object lettering clearance, and phone readability as explicit visual questions.
+5. Do not interpret route rank, optimizer uniqueness, Pareto status, histogram distance, or density proxies as art acceptance, commercial clearance, or an exact production-base decision.

@@ -1659,3 +1659,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - The append-only record pins clean pre-release commit `97e0591`; post-publication replay requires that commit as an ancestor plus clean current `main`/`origin/main` parity. Pushed release commit `ff1a8c4` passes.
 - Cost ledger r35 appends eight local evidence milestones and nine exact source bindings, reaching 117 local zero-external-cost milestones.
 - Current-release provider calls, uploads, generation calls, new candidates, and paid spend are 0/0/0/0/`$0`. Human-review minutes remain null; acceptance, rights, commercial clearance, and exact-base counts remain zero.
+
+## CH05 handoff link integrity and cadence sensitivity — 2026-09-03
+
+- Closed the r7 review-link gap by binding all 41 targets: 23 inline hash claims plus 18 supplemental hashes, sizes, and PNG dimensions or JSON record types. The supplement rejects 24/24 mutations.
+- Compiled a six-route chapter-scale decision matrix with measured facts separated from engineering inference, owner questions, and non-canon future LitRPG ideas; 16/16 mutations fail.
+- Enumerated 1,728,000 hard-feasible cadence assignments and tested eight leave-one-secondary-objective-out variants. Seven/eight reproduce the recorded three-block allocation.
+- Dropping transition minimization alone moves S10-S11 from premium cel to R6, changing transitions 2→3 and semantic warnings 3→2. Every tested optimum is unique; this is objective-inclusion sensitivity, not a tie.
+- The exact eight-field Pareto frontier contains three assignments. No provider, upload, pixel, candidate, spend, acceptance, or rights state changed; 19/19 audit mutations fail.

@@ -545,3 +545,7 @@ The completed three-arm control measures selected reduced→r6 at 0.521210 lumin
 ## CH05 six-route/cadence integrated-release benchmark — 2026-09-03
 
 The append-only release runs 15 local validators and one read-only remote-parity domain in 31.918454 seconds. All 16 domains pass; 14 upstream self-test suites reject 298/298 mutations and the integrated-record validator rejects 26/26 mutations. This is an integrity/replay benchmark, not a render-quality or production-throughput measurement. It adds zero provider calls, uploads, generation, candidates, acceptance, or paid spend.
+
+## CH05 cadence objective-sensitivity benchmark — 2026-09-03
+
+The exact optimizer audit covers 1,728,000 hard-feasible 11-sequence assignments. Seven/eight leave-one-secondary-objective-out variants reproduce reduced-palette S01, R6 S02-S08, and premium cel S09-S11. Removing adjacent-transition minimization alone changes S10-S11 to R6, producing three transitions and two semantic warnings instead of two transitions and three warnings. All variant optima are unique. The exact eight-field Pareto frontier has three assignments. This measures policy sensitivity over existing categorical evaluations, not visual quality, owner preference, renderer reproducibility, or rights.

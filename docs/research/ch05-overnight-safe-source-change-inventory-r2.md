@@ -1,0 +1,409 @@
+# CH05 overnight safe-source change inventory r2
+
+R2 supersedes r1 append-only and covers the full goal range through the clean pushed cadence-sensitivity frontier. Generated pixels and persistent untracked user files remain excluded.
+
+## Pinned range and lineage
+
+- First goal commit: `f882b0e5c60d973aac55e2bb16263445662b9c7b`.
+- Base: `7572c7e9a057855dfd34f3a62f6d227b955f02f9` (the first goal commit's parent).
+- Head: `52fbcea15202690f42bcd971fbee5ae100bc5845`.
+- Revision range: `7572c7e9a057855dfd34f3a62f6d227b955f02f9..52fbcea15202690f42bcd971fbee5ae100bc5845`.
+- Commits: 22 total; 4 after r1's ff1 capture.
+- Changed tracked files: 293; status `{"A": 286, "M": 7}`.
+- Prohibited/generated tracked paths: 0.
+- Prior JSON: `docs/research/evidence/ch05-overnight-safe-source-change-inventory-r1.json` SHA-256 `cce3c4cfd6f86059e62e0faa22ba42012abd0df0f3320f2aed04555c34f359c4`.
+- Prior Markdown: `docs/research/ch05-overnight-safe-source-change-inventory-r1.md` SHA-256 `870e84a2670fbd005c65846f5546a2d74bf06fe692b50b874429254c58943aef`.
+
+## Counts by category
+
+| Category | Files | Status counts |
+| --- | ---: | --- |
+| `goal` | 1 | `{"M": 1}` |
+| `architecture_decisions` | 22 | `{"A": 22}` |
+| `research_docs` | 32 | `{"A": 26, "M": 6}` |
+| `research_evidence` | 43 | `{"A": 43}` |
+| `production_comic` | 63 | `{"A": 63}` |
+| `source_code` | 131 | `{"A": 131}` |
+| `scripts` | 1 | `{"A": 1}` |
+
+## Included commits
+
+| # | Commit | Authored | Subject |
+| ---: | --- | --- | --- |
+| 1 | `f882b0e5c60d973aac55e2bb16263445662b9c7b` | `2026-09-02T19:41:26-04:00` | Build complete CH05 review draft and targeted repairs |
+| 2 | `f633d7c80b2155984162aa52c3711548f7cfc46a` | `2026-09-02T20:07:53-04:00` | Freeze CH05 r6 review release |
+| 3 | `7acaf1bb4439af9758996132d9b38962343b94f3` | `2026-09-02T20:14:09-04:00` | Add cross-chapter continuity regression |
+| 4 | `00248a16bb8b5922879e1550c452935d48e6ca56` | `2026-09-02T20:17:53-04:00` | Add complete chapter authoring contract |
+| 5 | `1aabefe9509e990fab175c9bd9f40fed5f78e4aa` | `2026-09-02T20:22:18-04:00` | Validate complete chapter semantic graphs |
+| 6 | `f50c8ff49f035f4b3c3e081a40a8c42d4ac806e2` | `2026-09-02T20:24:29-04:00` | Add post chapter integrated release runner |
+| 7 | `3eac573320c4b9816e60b715759c5eddd306824d` | `2026-09-02T20:26:32-04:00` | Record post chapter integrated release |
+| 8 | `9b45ad31b2c813a9aef0d6508332796744a0f5b7` | `2026-09-02T20:31:09-04:00` | Add CH05 r6 review start page |
+| 9 | `55740c99004049c038d7296a2255896794cffc5c` | `2026-09-02T20:34:54-04:00` | Preflight complete CH05 alternate style arm |
+| 10 | `f7a5c5959303b38b603de50e47514dc2cf650500` | `2026-09-02T21:19:59-04:00` | Measure CH05 alternate chapter and gate next style arm |
+| 11 | `43b201a966574f26103ecc74fee587abb2d39772` | `2026-09-02T22:09:31-04:00` | Measure clear-line chapter and preflight premium cel arm |
+| 12 | `b122aa109fc9b776fbfbc2b4ed075ad675b130a5` | `2026-09-02T23:06:58-04:00` | Assemble premium and semantic-pass CH05 routes |
+| 13 | `aade4b35d36224831c03bfa991b5c050ccd00a63` | `2026-09-02T23:56:37-04:00` | Measure fifth CH05 route and preflight text control |
+| 14 | `c7cda65fdb1f5a4a6b96c16e696f060b21a0726f` | `2026-09-03T00:09:08-04:00` | Assemble text-only CH05 control and measure reference ablation |
+| 15 | `3896329ceb51b8c362071c8d3474695ec1285447` | `2026-09-03T00:24:46-04:00` | Measure six-route CH05 cadence and text control |
+| 16 | `883fb05308b57f975a078e83513e015c1f091e26` | `2026-09-03T00:40:16-04:00` | Assemble and audit CH05 sequence cadence |
+| 17 | `97e0591b02209310a2ff94d3bc1ee336ce51ae06` | `2026-09-03T00:45:46-04:00` | Resolve CH05 cadence boundary attribution |
+| 18 | `ff1a8c4231b1579f2c41a4bcda9dd14981cdd7fc` | `2026-09-03T00:56:44-04:00` | Seal CH05 six-route integrated release |
+| 19 | `e5fdc5575c5fa0171c8b8327f4190b46b2040fdf` | `2026-09-03T01:03:59-04:00` | Record CH05 release decision and cost ledger |
+| 20 | `4f2733e5b3351d034670124c0d3a7aa951cdfd9f` | `2026-09-03T01:06:02-04:00` | Bind every CH05 owner review link |
+| 21 | `df4269ddb4e80d4fc4aed16fcbcb90a73530f51f` | `2026-09-03T01:08:04-04:00` | Inventory overnight CH05 safe-source changes |
+| 22 | `52fbcea15202690f42bcd971fbee5ae100bc5845` | `2026-09-03T01:09:56-04:00` | Test CH05 cadence objective sensitivity |
+
+## Tracked change inventory
+
+### goal (1)
+
+#### Status M (1)
+
+| Path | Current blob SHA-256 | Git blob OID | Bytes/state |
+| --- | --- | --- | ---: |
+| `GOAL.md` | `25348a34eda5119a64ea863baae00b4ea439f5c16a8bbbdc66a6c36f59e478f3` | `a98cf60887d5c46856ec640d5bd94d79451829e2` | 99658 |
+
+### architecture_decisions (22)
+
+#### Status A (22)
+
+| Path | Current blob SHA-256 | Git blob OID | Bytes/state |
+| --- | --- | --- | ---: |
+| `docs/adr/ADR-0171-complete-chapter-sequence-strips-before-panel-local-repair.md` | `6d58a933dbd3b940bc70c65e5548c9123d8e75cdc0c83878b7799be07a491975` | `28a029fb09f1feb9e257dae1c29a0dc9a9a4312d` | 3513 |
+| `docs/adr/ADR-0172-p036-causal-leverage-earns-hero-panel-scale.md` | `f5059c036f6265db9da0d7e5d65246c508f1b9fe32ea872a6fa72e36e91d76b4` | `759506a40d73d9bd6cb493003d73676cce0d8c0d` | 2163 |
+| `docs/adr/ADR-0173-p043-open-tin-not-all-contents-and-map-remains-for-p046.md` | `c050d500f44c7717575e7240bbb5c11642cc1bbee41fa699431beff170b3ca4d` | `3e6c6b7aa92740bb4f522e24cbfcc360100c2c0f` | 1325 |
+| `docs/adr/ADR-0174-freeze-ch05-r6-and-retain-p032-warn-after-diminishing-returns.md` | `58e5a6dc2f3a0cba067a5c4cb8f0b49b220ddf723448ec69085be2e6059940a2` | `85809061666c07908d4af0d5ad99e9691cec0a16` | 1755 |
+| `docs/adr/ADR-0175-freeze-ch05-r6-release-and-do-not-invent-missing-ch01-ch04-chapter-plans.md` | `901f0dc836563c79543a85a01e169d95913bb29dfb24c548b85e2a2190db594a` | `3a2320594b2768aaa55ad07b4f3f13d798e3007e` | 1782 |
+| `docs/adr/ADR-0176-use-ch05-hair-and-wardrobe-contract-for-future-generation-without-rewriting-historical-selections.md` | `3a1a5e59770851deba3d60ec6dd61c5688e658536fe1d576b62dd3b70f5337ae` | `95fe1151ecb19ab39b5ce53ba3a703716ba9ecbc` | 1972 |
+| `docs/adr/ADR-0177-separate-full-chapter-story-authoring-from-render-prompts.md` | `bde28c4c11928aaa6b32f18668ebbeeadc90e4591d10ed816be5d7a82a793474` | `ebea67404d68f4631d7b5343f2d15e7b41f35397` | 1900 |
+| `docs/adr/ADR-0178-fail-closed-on-chapter-semantic-graph-before-prompt-promotion.md` | `bb2a84519df1bae9e1936b918e42bea22263e6c3057f328ee60367c220a2b252` | `8a30b7d0e162ca41f1ff0f657c695c84970fa23d` | 1774 |
+| `docs/adr/ADR-0179-require-post-chapter-integrated-release-before-owner-handoff.md` | `f1060e15e0bef0aaa6d0d88053718c21411b1bc23f6848377e582a1f81218839` | `668f1ec324dd5c3fc22481cc32b3cc1226616d1b` | 1292 |
+| `docs/adr/ADR-0180-separate-visual-canon-and-rights-decisions-in-r6-review.md` | `7879b0d0c69ea7075d28cbeaf13eb3dea6443b85b864311ea5b926f8d254a66e` | `b9de000c453060362c1c027ba03a11f666f2efec` | 1264 |
+| `docs/adr/ADR-0181-run-complete-ch05-lower-density-graphic-arm-not-isolated-style-probes.md` | `e9e606d8ac1e2939daf256a1e5456e5146cbc9b4417bcd1ad53d9f9ba99dd6b3` | `c65392549f9fa910c27cb0d3fc283f82a58ae229` | 1898 |
+| `docs/adr/ADR-0182-retain-r6-with-cross-panel-semantic-gates-after-alt-graphic-comparison.md` | `d70f887edcee8792029e2495d41fe782f3d74df0111337945235c16cace51d9b` | `b08c03587baf8a90c50fdc06176040a4aa094bc7` | 1910 |
+| `docs/adr/ADR-0183-run-gated-complete-chapter-clear-line-watercolor-arm.md` | `f3d933cd77b521318cc77fa2d6c19c9beed1c80e383c5ee529d55c505b7d51c8` | `58c3e08da94ac4c966a4603d21f4529d327f8cf5` | 1422 |
+| `docs/adr/ADR-0184-retain-r6-semantic-base-and-lead-with-clear-line-watercolor-development.md` | `b6ad421ed68930a9a1a60ef949ced2182afdc7e86f3fa0dc2456fb0fd435e37e` | `611d7ced8627e9c2abfc860e00bd2a5e461968a6` | 4054 |
+| `docs/adr/ADR-0185-run-gated-complete-chapter-premium-cel-painted-arm.md` | `4b3fd8845c1f77df0656682b1d5eed50b36f42d8963614ff6d461fe18bb02bfd` | `2cf4ca761c3e4065628b5230c673e894a4ddf155` | 1510 |
+| `docs/adr/ADR-0186-use-premium-cel-as-a-panel-source-not-a-wholesale-chapter-route.md` | `f751eae80debfd5aa5cfdd3eb1a2fc320b943ef3ed1ac68ce8c4b91b4d10390c` | `8892a0c16d6ee8cfa712a9f9f2bfa426ae847aad` | 1802 |
+| `docs/adr/ADR-0187-build-a-review-only-semantic-pass-hybrid-and-run-flat-gouache-control.md` | `7d4f15e03afad60bd1ec99a76afabd22aaebe35c3c0f1517eab5b98e966f27ad` | `4d9ce8ac4e07d0ab439e61cceb28b08b7bcc353c` | 1975 |
+| `docs/adr/ADR-0188-use-measured-sequence-level-cadence.md` | `6b39c94d080b334a6eb03ea61f3a2eaa36967b06f060f2c7050f23228472ca82` | `f1be66e0f124ec0fbb85692016f395dd83c3fdaf` | 2526 |
+| `docs/adr/ADR-0189-treat-paired-reference-ablations-as-directional-evidence.md` | `28b6c5d9020ac6aaa1d641813592ca6728d0095933ee76138d250f446e6904c2` | `a9f3042528296bb6b990dfd4091eba8808c368c4` | 2439 |
+| `docs/adr/ADR-0190-treat-p005-p006-as-a-finish-continuity-risk.md` | `853cea56fe0459130477c3d708326284913a821924c8e06207d97c6456d8ae5e` | `4913fba54325208d9aef11fa03058e75d26a63fe` | 2537 |
+| `docs/adr/ADR-0191-do-not-rerender-p005-p006-from-nonisolating-proxies.md` | `f1c9cdd03513a2d519bef5b1a4ebd3d7d3c07caeb2dc3ad35ee59ab447e11748` | `162d8a147eabe04bf266d948d4ad4dbf4299ce24` | 2148 |
+| `docs/adr/ADR-0192-seal-six-route-cadence-as-review-release.md` | `9425d499ff7dc41f23ce5f3bfca30746d1ea2835832dada93458abcff926bb3e` | `0e0a3606b67dc09a4073d1e074c0a3b2fe95cb00` | 2529 |
+
+### research_docs (32)
+
+#### Status A (26)
+
+| Path | Current blob SHA-256 | Git blob OID | Bytes/state |
+| --- | --- | --- | ---: |
+| `docs/research/ch05-cadence-objective-sensitivity-audit-r1.md` | `2d19612f4933fcda03674a402ca175b67d751acbeef8109fbe68a423d5fa0217` | `58179e7f759f5685db6dd3524c6d4a5b592322e9` | 4160 |
+| `docs/research/ch05-chapter-scale-production-decision-matrix-r1.md` | `deee902a9c3d43bd1715f85df28c67574047267db4927967ee433e9bfabe8ce1` | `f79d31bef39de4295c6ca60b0069cb4abb9cc0c2` | 6598 |
+| `docs/research/ch05-complete-chapter-agent-triage-r2.md` | `61c3a690c808a0dd4a94aa61d46506f46de05188a6a5e319bea574c14b4c7f01` | `9f2f1e978b2e99c281d5d1011b06587f4b7d5f60` | 2258 |
+| `docs/research/ch05-complete-chapter-agent-triage-r3.md` | `653faca7bb8503de553657540bb456df35124329d6423a96a6782023eaf9ed9f` | `3ab6e69008d42710bcecf66ad600c9b648ad129e` | 1983 |
+| `docs/research/ch05-complete-chapter-agent-triage-r4.md` | `bbe0ae3920d5aa389805422769faa1dc25d945c9c14409d66f732e31f1287bc0` | `5e9a7b1b1f2c2a47c63cf4ef9a372b173f2f869a` | 1825 |
+| `docs/research/ch05-complete-chapter-agent-triage-r5.md` | `becc569e3364bace5b37f0a5b563138e6cc52d91feb7684ec1fbdbf4a533480d` | `7f3467251d22dc0b64d7e4a3f67de0ab989e095e` | 1525 |
+| `docs/research/ch05-complete-chapter-agent-triage-r6.md` | `2922abfecff35bd75aa885e63b959e9c215bfd42c078f6c52c3041f5a47fde03` | `63f2fc2d2dc6cace660b2b87be8029d38f8825a0` | 1333 |
+| `docs/research/ch05-complete-chapter-alt-graphic-agent-triage-r1.md` | `928ba885404f15ed41cf0d09a6d67e415ab94ed3b7378f7f3061559a34e5c70b` | `58abd9455a5e0b1dfc0e187555a11ff26b5c9243` | 2906 |
+| `docs/research/ch05-complete-chapter-alt-graphic-preflight-r1.md` | `1fdc179c504873deb0e06c939966295bba1408b35477091fa945528f4c76f770` | `77016a778b997748079b9d81888ded93bdf1e203` | 1269 |
+| `docs/research/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.md` | `6a263ff452181487dc8da05fd231e164d0e6bb55d07ecbef9c8aaa4fed46c04f` | `731b976016a043a5a93fd9e45b1c751edc93e7d4` | 1311 |
+| `docs/research/ch05-complete-chapter-premium-cel-agent-triage-r1.md` | `c921e38eca939d78c8e25abe5558f6f942218616fe71a2ff52308efcd42147ff` | `e8ebb2da4844b07a1bc613e44abe1f57b3c77f2b` | 3426 |
+| `docs/research/ch05-complete-chapter-production-map-r1.md` | `de019bcc3807d4ffb7a36cc94ecb31f80d272f4db34e28823ea3aa9ea42206ac` | `c236e02249bfcf7d8217fa239f382d9e79fc1058` | 19609 |
+| `docs/research/ch05-complete-chapter-review-handoff-r3.md` | `f681f4d736319aff59bdfc55fbca25fa9192ab662366f04d5182d0a3fc983b5b` | `37f66ec9142f562652702c2495103a69f5a2e3c9` | 8029 |
+| `docs/research/ch05-complete-chapter-review-handoff-r4.md` | `d7b0348b73cdb8c14a3c1a5fe543bbb26bb4e842cf98ddaec45af45b670b50ca` | `a975310e7261b035d59225c2d2857bb3fa68dece` | 6930 |
+| `docs/research/ch05-complete-chapter-review-handoff-r5.md` | `c78681e890d0fe8924b4016b6f19b9e318b3a733bf896280ceb6380f8ca17e06` | `c44e76be6a72f15cab59d04724c0b304851b7c2d` | 5436 |
+| `docs/research/ch05-complete-chapter-review-handoff-r6.md` | `2c1f167a9ac39c4d64ee4aa882d75be30f750896ecc983903a0e309f1fa2fe2a` | `211371d286b6c78a28a976b531f332bfaf6e438a` | 6717 |
+| `docs/research/ch05-complete-chapter-review-handoff-r7.md` | `739cf2766edf816f24b0296253245d13ad7298cddf1b61286c43af999e065686` | `abea33d5a854fb11147ce8b18e78831928e6ec9a` | 12600 |
+| `docs/research/ch05-overnight-safe-source-change-inventory-r1.md` | `870e84a2670fbd005c65846f5546a2d74bf06fe692b50b874429254c58943aef` | `f211affce3ab2d1c65eea6d6e69c617c460de392` | 59115 |
+| `docs/research/ch05-r6-owner-review-start-here-r1.md` | `bfe96b7f025e9ad01625fc0185836ccbf9b77d168bc2c78b2bd066f54bcd3465` | `d9b9b642d864b3e38ca435f6a4816611eb696f4d` | 8502 |
+| `docs/research/ch05-six-route-owner-review-handoff-r1.md` | `7680f65125f5ae0867af364b53c3359c20976756a4be67dd2312efc3b0b4ced9` | `24e7f23d5731a9bcd23cc2eff816cf95076c4161` | 15148 |
+| `docs/research/ch05-three-route-owner-review-start-here-r1.md` | `f6a89382c6939c3c8caf69f887c5fb5aa26b625352855765a1f7265ed9fdb516` | `6102154b0106f0ab4912d5c7c89736d89022ff8c` | 4686 |
+| `docs/research/comic-panel-plan-chapter-inventory-r1.md` | `28155636c2b35e13cc6edb5b03bd83021ea08f636c40e0c70c585c365252abb3` | `d5af23b8a54605939b32a280eecf3ef818d09615` | 1308 |
+| `docs/research/complete-chapter-comicpanelplan-authoring-contract-r1.md` | `9d768d2edb9dd808f972bccb6f3aa30b1cfc1e950ca7b802c46b3ffb2b424290` | `89dd41ecc0ed8ffa171577daec096ea596ff98e9` | 1991 |
+| `docs/research/complete-chapter-semantic-graph-validator-r1.md` | `9468dda27e125d3da5d4b70ca5960a7a165eeb29b1d4d4d8496f879eaa131721` | `cd8c5a77cbb8f46156fefbd7f5923ed9e0a746d6` | 1575 |
+| `docs/research/cross-chapter-continuity-review-r1.md` | `97584acd9f288f5e18273c276140948086385d8f67187757efe8d4951f586067` | `4c0719bf957d94128ed7728e77cda79f63dbb88e` | 2569 |
+| `docs/research/post-ch05-complete-chapter-integrated-release-r1.md` | `5c3b3bf70ca0d5905ded12cac3e05a319141ce6b533bf2c6fbd8fb0bc2a82b63` | `67f644c65ef22263bec3ff8194e4e6849613dbeb` | 1105 |
+
+#### Status M (6)
+
+| Path | Current blob SHA-256 | Git blob OID | Bytes/state |
+| --- | --- | --- | ---: |
+| `docs/research/benchmark-history.md` | `a924a6b76790d94efc6bec0a1e0c7dd3c7a3ed8e1ed9fe766f3990806fc67050` | `7d97d205e21c8201ba66d3a932f291f2f6114ef1` | 66286 |
+| `docs/research/experiment-log.md` | `618e61e5b461caab6aa93cc21eda27ce043297f6f0255816e2289138fe03e51c` | `35c650feeb3ab5e089c3f2c059dcf57f8a31c403` | 191512 |
+| `docs/research/model-license-registry.md` | `7bc3beb1a52f36568285e4ea54f4e9d4644eaddcf5f36160fd52a1df5302906c` | `42aefc305dcecfd4345381f70e6d8b65331d4475` | 26680 |
+| `docs/research/next-experiment-queue.md` | `98e09ea7b313537240d42cf38c44861efb823018c0f84dc15970876d45b7f729` | `463aa934718275cd61c755a00585d7af8d0f9846` | 80530 |
+| `docs/research/production-time-cost-ledger.md` | `55762b3c9ac7ab1857f66ccf31c23cba6e1b79fadf20368ff324cdd9dec54188` | `6467d27e2a87a42f42655dd6bbaf54a52a5aee64` | 23842 |
+| `docs/research/production-time-costs.md` | `c5b2339e64cb6339c692bae8cfd1c2e3a368b643b2232f7c4eb0c4e9757c49c9` | `135da8c8dd76108f092ed7e42de66467e902f5c2` | 14542 |
+
+### research_evidence (43)
+
+#### Status A (43)
+
+| Path | Current blob SHA-256 | Git blob OID | Bytes/state |
+| --- | --- | --- | ---: |
+| `docs/research/evidence/ch05-cadence-objective-sensitivity-audit-r1.json` | `ea7da2dc403aef1052f59f6484b40c81d05ced8fe690ee86a3ff10acb804d89e` | `5ca77b66774397247060e984f28a21626daf2434` | 45524 |
+| `docs/research/evidence/ch05-chapter-scale-production-decision-matrix-r1.json` | `6fb85ff443207ae23c7168698126a0c09c0e5d6ac62b77404cac14ac70d7224c` | `da0aee6dcc5c3f88b3dbfac0c0e2b087151f8142` | 17348 |
+| `docs/research/evidence/ch05-complete-chapter-agent-triage-r2.json` | `0cf5cd898101268b17f75761d41a712112dcf8beb50dfd87f727eede1eab4cae` | `3984754100ed06e907f0dcbc931c42807da0b3b6` | 48218 |
+| `docs/research/evidence/ch05-complete-chapter-agent-triage-r3.json` | `06e7bc64bace39020ce642c57aa676f93b5e297adcc073507ad4f30d5b339a6d` | `57ea5fc5862c50ee618331b2de14598f68d27a37` | 48499 |
+| `docs/research/evidence/ch05-complete-chapter-agent-triage-r4.json` | `92c9ccadc265f44b21432717a70d63eb6861134d1cac54923a0cf9b259532cce` | `ca531d70a0529f6bab16dcf10d62fb57f1778c36` | 48720 |
+| `docs/research/evidence/ch05-complete-chapter-agent-triage-r5.json` | `43c4bbaaed77564b91f6377f841e24c5da8c708c20f45150f0ea7211a0b7a20c` | `33a0f4ae6918024ad40e7861b100e6f4d54fd37b` | 48994 |
+| `docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json` | `a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4` | `eed07060cc440ab02dcc8816d7baa18a1583afca` | 49232 |
+| `docs/research/evidence/ch05-complete-chapter-alt-graphic-agent-triage-r1.json` | `99271dfa99bc563b01dd1ff812bfbe9209e03e8035902806ad4874a7d8f1603f` | `57ef3265fb3cff375892cec029971df1fde22a93` | 55061 |
+| `docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json` | `e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4` | `5f91083c3f3ee3f2dca7c5e8ab5c3ec418a011f6` | 53547 |
+| `docs/research/evidence/ch05-complete-chapter-flat-graphic-gouache-agent-triage-r1.json` | `b5d066825f868b5e7ffea5e63b5b0ad421449140a02e374bc0c9c205a922d107` | `3e58cee9a15a1c66257e4eb99a957102468dddc6` | 119507 |
+| `docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json` | `e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657` | `ee28e0394cb0ebafd742f600632f297337f9c172` | 58278 |
+| `docs/research/evidence/ch05-complete-chapter-production-map-r1.json` | `615928dec436952404232379ab5edd4c0f4c1dbfbd74fbdc352e47c3bb2cfdf6` | `f90ca4bbe189e69fb9dbcadc6423ca4d1ad6057c` | 40285 |
+| `docs/research/evidence/ch05-complete-chapter-reduced-palette-text-control-agent-triage-r1.json` | `3b3ae41bf03ba34bebd63fbb867863e5173a12686c0687d16c359d02e7525b46` | `37daa28b92818db6f9238bcde8d18bb471b46243` | 141456 |
+| `docs/research/evidence/ch05-complete-chapter-release-r6.json` | `62e4d4bac75a16470055d31a05c639acbfd18523bf80b9f7711fdaa717898d24` | `e0ae33debd4a95d45243d9c153b6938347c6d762` | 9331 |
+| `docs/research/evidence/ch05-complete-chapter-review-handoff-r7-link-integrity-r1.json` | `86329472716a0d5e96b3c1ae698e75bab891b5859d72de8a965c496d58dfd624` | `5a89485dd893658867479723f78e001784e78754` | 32913 |
+| `docs/research/evidence/ch05-five-route-comparison-r1.json` | `1d2a9fbfe6d67e4d9bb8c6e4358c8f09681702c792885e3c467fb749c55ba234` | `61164a09cbec60c00e405330fa0310bbe384b7b7` | 57780 |
+| `docs/research/evidence/ch05-four-route-comparison-r1.json` | `d71cefabe34df3e88a5e4de42c453539fd20bfe18b384597317f1800410c73c2` | `51333634b146adc86048abee637d17d2dfbc2286` | 45399 |
+| `docs/research/evidence/ch05-overnight-safe-source-change-inventory-r1.json` | `cce3c4cfd6f86059e62e0faa22ba42012abd0df0f3320f2aed04555c34f359c4` | `2d1c40f4a4dff9049dce219897ed46ffb79787e7` | 161566 |
+| `docs/research/evidence/ch05-p005-p006-route-attribution-control-r1.json` | `22cf4860e4bf892c347396a6f9e98b9286805c60f0e1bc34f7944f0c03fc53ce` | `9a55ab2f96ddaabdf3d6e956a3722a99dc1dda04` | 12822 |
+| `docs/research/evidence/ch05-premium-cel-targeted-repair-trio-review-r1.json` | `9b329bcaae2eac0d29d505b0cea3e627e25b9b399df3c5b1fe8d601ce2d67237` | `8a4f0077588ce720231a7d483daa1d1d15eaf7ec` | 7930 |
+| `docs/research/evidence/ch05-production-cost-ledger-r31.json` | `f624be2db01ddfe40f7d0c09eda72183b42e1868871ad8483d6557e76bd094f7` | `dbdc77b85cb74940747b3e6356cf7dab13be26e0` | 18828 |
+| `docs/research/evidence/ch05-production-cost-ledger-r32.json` | `09cf3d261e894b03da42c18d02259fb2c88b596d5f6a4a378f407b9d9ab0747d` | `a46ffef6c9effcd3ed4a466dcb8a570c679cdec6` | 21594 |
+| `docs/research/evidence/ch05-production-cost-ledger-r33.json` | `392365f07ab8015bae0e9ae22a97c155faa9bc2b5ee6b2244a7c3117d85e26ab` | `5bf426ddcd76426bbba56f3f6cb4b3ef8c49397b` | 23104 |
+| `docs/research/evidence/ch05-production-cost-ledger-r34.json` | `31b237e1add5da4c3bd5144fcf035930fbcaec01a0897f672951739614d2fb73` | `394dda2d6962c781de9d73f147115328d5ae80be` | 33102 |
+| `docs/research/evidence/ch05-production-cost-ledger-r35.json` | `57c690107e458e57b812cf5777860251c5ca526ce279f39ce4798fa5812fdf97` | `902763eb227cf8eb16a98579b710f946788a7cb7` | 36442 |
+| `docs/research/evidence/ch05-r6-owner-review-start-here-r1.json` | `ab2f8a348ed5a058e3b89289de6f3ef3cc8407910e11cadd0e00f8eb0b4b603a` | `a3d963325f750b1ee6122175c7e34db58097e87f` | 15954 |
+| `docs/research/evidence/ch05-r6-vs-alt-graphic-comparison-r1.json` | `980034cbc259c58a01e1edd39e1e4341bf6d2eac217c981ec030a660d6faaac2` | `57730b9065cae82801c2bdd1566a8df93ab65272` | 26044 |
+| `docs/research/evidence/ch05-s01-flat-gouache-reference-ablation-comparison-r1.json` | `f518412e7fbad81c530b5122060ee918bf94aed01b7011ce7f48191bb4ab8a30` | `0f9949f8bc90d1e4204f164274f3ff30528218d7` | 8783 |
+| `docs/research/evidence/ch05-s11-flat-gouache-reference-ablation-comparison-r1.json` | `cbd14efc9487403c1daee324632de6a0fdcd11c2f9a05fb3662837a22ce16861` | `e61c24eea8331140ac1d789557b58ee7e2a09833` | 8745 |
+| `docs/research/evidence/ch05-semantic-pass-hybrid-triage-r1.json` | `d9905a981de899bebf5dbfc629d4b81c10dd85c88f866d44d10bc9ae26455740` | `2f0bdb29f706cedd3e1050d16f8b72fc2f1320f9` | 34764 |
+| `docs/research/evidence/ch05-sequence-cadence-boundary-audit-r1.json` | `1aadf213f9a6f1253c4386392b663791a3fcf6ae9db8887268b0566936f8cc0d` | `68c5cdaf1c6b204f780388abd8833038b712ae5a` | 20509 |
+| `docs/research/evidence/ch05-sequence-cadence-review-triage-r1.json` | `d99b34c94c6037a5e45c175f5847f316eb141ae35dd78774410ebd1033657e1c` | `e40b751d3e9c2d27ba1b43e6d4ddaf51774db849` | 54942 |
+| `docs/research/evidence/ch05-six-route-cadence-integrated-release-r1.json` | `89738ed228860eda9b05b9de9f93e238f5d65b6a16d8596b7b7af5a56509324c` | `aa2dd633613be57c7a55f23890481a56561a637b` | 17315 |
+| `docs/research/evidence/ch05-six-route-comparison-r1.json` | `c40d3a945704639855135cda4d011529f13c5c71d857b7807914823d7e248229` | `a1f42e599b403dce53594d3fd70f24809d723539` | 142111 |
+| `docs/research/evidence/ch05-six-route-owner-review-handoff-r1.json` | `65eea8bbe107804ab6bf0d7e76e2c698019bb2e000cef87749c2e485a7dcdaa4` | `7cd625cb46fa48383033508d6ae7583f5e61b47e` | 37379 |
+| `docs/research/evidence/ch05-targeted-repair-trio-agent-triage-r1.json` | `6442302feeec257c5295d078bd927f628bb09bd44cb7eff0d70ba22dc30c5183` | `7ed3cb15f8b38e1c9618c6085c4f2fbba1a06512` | 3315 |
+| `docs/research/evidence/ch05-three-route-comparison-r1.json` | `f28fea4ac1a50a4a1065943cd4fd2b368f1686d12e1f68ed2145cb82f639c5a5` | `7a6978061bc16ca52cb652b7c9621a3c69e1ce93` | 35286 |
+| `docs/research/evidence/ch05-three-route-owner-review-start-r1.json` | `89d7a2f71c4d94d1131fd157d1465c0d1302225d885deec8dc306c5bf4607058` | `f11a6f5aaf91691cd2054590c6d8f34bddcb7289` | 13271 |
+| `docs/research/evidence/comic-panel-plan-chapter-inventory-r1.json` | `f587b7b272228fa6161a22d8acbc0a1d5a172a0544d90f7b64c01ad06a301c67` | `d028f4efe09cd72556b40699d0032a9a057f69e9` | 8436 |
+| `docs/research/evidence/complete-chapter-semantic-graph-validator-r1.json` | `3eafb7701098a42cfef196bfa48f767dd37ebfc332c449e6353b86424bb7ebe2` | `932688743fb4e5fa06e838898fc5e1ce47b229ce` | 1990 |
+| `docs/research/evidence/cross-chapter-comic-regression-r1.json` | `e6fb26ce76cc31acb34af1109e2665432ac2d3326347a13e6b5b1bbacc3a01e0` | `6e1e1b251165d2f2e4ff265e45839c448a0239a8` | 16844 |
+| `docs/research/evidence/fixtures/ch05-complete-chapter-validator-r1/mutation-catalog.json` | `3cf58a0103edbc2e21f8c45255618d9f756bf1dfb5d46e925afa5b0c333d79e3` | `57a4a7361f92714dc2f907bad0ad4d1a20aa6fb8` | 1158 |
+| `docs/research/evidence/post-ch05-complete-chapter-integrated-release-r1.json` | `a95fd52847aa2e4f4fe17b9362b532329ac228e53e21b9af1e6e3c0bd119395b` | `dc560879b1137964eb3eb09e6f78397a4c6ac305` | 7629 |
+
+### production_comic (63)
+
+#### Status A (63)
+
+| Path | Current blob SHA-256 | Git blob OID | Bytes/state |
+| --- | --- | --- | ---: |
+| `production/comic/contracts/ch05-cross-panel-semantic-gates-r1.json` | `dafa7e51adc63d87175e829163c7e3b2e3014e160c967e9254772c7cc300433d` | `69575a99bcc751326e0d1375fc5a306fc37300fe` | 4227 |
+| `production/comic/contracts/complete-chapter-comicpanelplan-authoring-contract-r1.json` | `e112fcd5d2b450746a6a6ad827ba6dff4ff77a0bf10c212f4718a334dc3e9d4e` | `1f3380d94de7d3e8d9930af0f5da65d2d7680b78` | 9313 |
+| `production/comic/lettering/ch05-complete-chapter-lettering-proposal-r1.json` | `6a0e81909d5c014bf49ad80c011fcb78ac30be4be044a0865f2ee17543514dae` | `277dee6eb053dcddd4ca3be9fac61ed382a3ef2e` | 4181 |
+| `production/comic/run-manifests/ch05-complete-chapter-alt-graphic-assembly-r1.json` | `ddee2123bd7aec8a99719b29c767d4b2e854c2f4dd1339e65c31193cff545e18` | `bb233fc5b2141e0d56ce0f9ee7ea8884da47c3a0` | 31138 |
+| `production/comic/run-manifests/ch05-complete-chapter-alt-graphic-crops-r1.json` | `6f07eebc29c399945e68c8aea821872368990c5fece91bdc29269d3580032b48` | `93828f4e5f21700ab872099f75d4eb18119d8b09` | 18956 |
+| `production/comic/run-manifests/ch05-complete-chapter-alt-graphic-execution-manifest-r1.json` | `e0a3d34840788822455b9a8c57fba8caac3ae0628c038d084c1da7eabd390cf7` | `5071fe6206f573b483f63fffa0392ff2c2809e54` | 69274 |
+| `production/comic/run-manifests/ch05-complete-chapter-alt-graphic-prompt-manifest-r1.json` | `c03f4c5de5d11ad41a9d3c090cecea56c3550a13c5458eab0e9d24ba34abbce5` | `24acb012804529877c7fd2b9b40ebf6be8d235b2` | 100768 |
+| `production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r1.json` | `c14eb15ee213885e53fd240625acd1683be3b615f41697ed70d79dccca05ea97` | `b0d1b105e91baa039833e7c373e242e3a3384ddc` | 30876 |
+| `production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r2.json` | `f3a19899bcb8f073bc989aba6d9894dfd8661c0057c94cc936b8c1127aac88ec` | `bf613b369248a4e4f9350d1f08f9367f20c9d5b6` | 31881 |
+| `production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r3.json` | `76eacffdfa8ae87999d40949fae52cf43b77f2389af24b52dc1784ff712f0584` | `3c6cf79f750b2496d9c2c055f0cfed00ada205d5` | 32803 |
+| `production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r4.json` | `046f1a9fdebe121c2ec7bafe5d8c43fdc8cd71a979afdff6aeb5f828b3292d59` | `7acc416267d8de5e7da7be58b190d02446a6fd08` | 31977 |
+| `production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r5.json` | `8391ae919988f02803fa28429493b59ef62ea05b12161b74c3cf7fd85d2e5d0f` | `652a8df808df9e8b8cdd5967ffb95f01257fc57c` | 32494 |
+| `production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json` | `3c84cf3c6fdb479ad3e32717c684e7d44362977da53e9d3a10659d016cea8677` | `4aa789760e012dffbceb52dc6fac671e34645ead` | 32084 |
+| `production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-assembly-r1.json` | `5b4106aba78b4851b01da58da48319fc30342cb5dd834abb777a7ef6adbc482d` | `12a2fbb56619d7c8eaa0bea7bdf9690108d6a466` | 32648 |
+| `production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-crops-r1.json` | `9beb49a361d62783a59f4139f421ccd16f6388a69c53739d7de438cd50762995` | `24231a72a97ae3aa5a1676688c5256aa95f07621` | 19648 |
+| `production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-execution-manifest-r1.json` | `d06bdeeb9e756944665966f49ab3f3b2a94871ac5fc15935544a2ec6d1a45aec` | `589ba945cd430921b45c5ff2630b09276a311bc8` | 72721 |
+| `production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-prompt-manifest-r1.json` | `07f3b4171b1eaf5a409384a95b9f78d84f3757c547cae048df2cdf10bcddd7a3` | `b9cbc16703884331ceb49bd95acd2e73b56fc780` | 106113 |
+| `production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-assembly-r1.json` | `40e97374b78055484609ad16c9337357f66925767419ff389ffd437cc7fe4f82` | `82f61d4c0c6699ea625e39ef07956ddaed27818f` | 33104 |
+| `production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-crops-r1.json` | `c731393f250d801a072ed712beec04421abd59f6cdbdf256d0134bac2e6caa6b` | `d80d0ebfcc64b4ff2b3146d5608373d0401d36ae` | 27082 |
+| `production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-execution-manifest-r1.json` | `66c389df75bea35ec7cf9165fda1c10293f48b1c11444e4b41d418b1d1223f3c` | `26b46afe029962267f4f82146a98edd0f632f428` | 79917 |
+| `production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-prompt-manifest-r1.json` | `02cdc90aca146f612394ef8feed6c6a18a33391dcae1a8c025444e0b1f789e84` | `89818e3ec8e5ac86bd318a4ffd988c0234c25b48` | 115719 |
+| `production/comic/run-manifests/ch05-complete-chapter-premium-cel-assembly-r1.json` | `1eb504847a36f7b47a8d77d2b9460ec0c9b25a90adb12c6f6c9d96264e1b8d24` | `8911e146cfee60b9c14e71ebc02b0ab2be3ba33f` | 31138 |
+| `production/comic/run-manifests/ch05-complete-chapter-premium-cel-crops-r1.json` | `d78c91832835e09096a6eefe342dc6e5f01a17046a58a2031ed2e0a8fe7687e1` | `9d6d75af19d65ffa671740fe95c1398c4b844ea1` | 26635 |
+| `production/comic/run-manifests/ch05-complete-chapter-premium-cel-execution-manifest-r1.json` | `acff13c33ec311a78fe8e6007bd46549cc2e633a37db8c11a387cda01d6f3e71` | `2357e0f639835f4e5cf164eba62e88687ebd41f8` | 75568 |
+| `production/comic/run-manifests/ch05-complete-chapter-premium-cel-prompt-manifest-r1.json` | `76cb94aed07418378bc0f032cffd83a47d934657aa36f1aebf5ee74f44fe7199` | `6a8a032aa3a7e022d45878ecbe2180c31fc9e20b` | 112063 |
+| `production/comic/run-manifests/ch05-complete-chapter-production-manifest-r1.json` | `6fa376c0ffd2ed35f73a74693671fb9e67ac513054a71401f8f1720b46ee8c55` | `30f275e5e95da82a0d9da35ce82d25b4cc8871cd` | 331135 |
+| `production/comic/run-manifests/ch05-complete-chapter-production-manifest-r2.json` | `48a92c3eee065d3fd1196209bf054a47c3131ffe640d5178d9e5145b90f34e73` | `baa4251d29dc30d67fb580dde18ad7b84ba1808c` | 331082 |
+| `production/comic/run-manifests/ch05-complete-chapter-production-manifest-r3.json` | `047cab734bc68c86430573a1df2a15f1857602ce4eb842d2c5a304cefc8d7a0c` | `2b855f5133cb588aa2eb0831d69ea40f35118968` | 331796 |
+| `production/comic/run-manifests/ch05-complete-chapter-production-manifest-r4.json` | `deb23e70cf6e34529c9eb513b92f0e49dc7a7ee253e87e1f2e62c2d2616fc214` | `51b2a515fdcd7eb6a9e8ae947fdb2c48728647b2` | 332556 |
+| `production/comic/run-manifests/ch05-complete-chapter-production-manifest-r5.json` | `0e4cdb3846eb98aa3c0f356f63c506753572c91827faf20f6bd5e4a111164370` | `acb9a714c09705aee7a0dd77ff0318f974b36176` | 333401 |
+| `production/comic/run-manifests/ch05-complete-chapter-production-manifest-r6.json` | `a4cfadd90282e408ba00f407608d3c09637be2ef3eddb2f2045901738dce27c9` | `8362be8d041dbbfcb83f825c0f839aab9d98f4c7` | 339430 |
+| `production/comic/run-manifests/ch05-complete-chapter-prompt-manifest-r1.json` | `accf4fe30d0e4ecb433e83bad1518cb27a0d3b47d00e611024943169907ded8e` | `e6ec9ba6f46a235dffcc6fac40b4691f462e596f` | 39597 |
+| `production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-assembly-r1.json` | `c8ccadbc5e6fa94042a210f2096060ef8f776f7df1c8e0a82fd6f9971cc391e8` | `e2a140152b9a1832b6c2e35685a32c109acd0d7c` | 34464 |
+| `production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-crops-r1.json` | `5b02a8912aa0dd888e9199f0df6d2654f680417f49c29b53d96278f751dba31c` | `eab0ef21c207eddbd358ae6020b5750c08813484` | 29015 |
+| `production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-execution-manifest-r1.json` | `2e978b4f04d1cd7b7a660105d2e230a880d3df3e1d27a22c6bc78fa0639aa663` | `1cb0076fb55f4bc2cb6c0eb1303c937874f9692d` | 76316 |
+| `production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-prompt-manifest-r1.json` | `bc870aa9ffdf7872844469031a9fec9f75c762d5083a0988c98b0b11bc1d03f3` | `f94b18e90012b7eb43795f965c5aea4c3c787c88` | 109859 |
+| `production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r1.json` | `fc5a312d0b2da1fa91e86e876243341d8a0eceac31b9ca5ede923694057c7cd1` | `1e1f3dedb70c287b3548956b76131e51778542bc` | 5336 |
+| `production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r2.json` | `cd717d6924d08be7337ff59e915db6a371c9a54e7241e10482abba84b0460f65` | `5b9091646e69f90de7b4c70213a72a7c24d52f8d` | 8179 |
+| `production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r3.json` | `a448a908d9d7c08722272d0a205e325375c41feb3425f5530f8f92118e28497e` | `92aacea6de652f6b938b5cfcf302ffbb4721d37a` | 6240 |
+| `production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r4.json` | `dfc804714efeb6ed9cb53937a2140068944652bd059c3c277371959da491c754` | `53872e9b838502aae7220b1d0226d379582aaf00` | 7508 |
+| `production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r5.json` | `1c969dcdc125de0da10bc1cf6d9023f69f3464a1c3b07aac57fc47709b85f45d` | `3556856a82d7a91baf7593a0f43347bb1619d86c` | 7295 |
+| `production/comic/run-manifests/ch05-premium-cel-targeted-repair-trio-execution-r1.json` | `23e399329bfe22cb0732f7ba5d147a56e178c081709340926f6e9fa18b81b28f` | `2ffaf5cd48f8bc06fc030ba36097126e342d2bd7` | 22590 |
+| `production/comic/run-manifests/ch05-premium-cel-targeted-repair-trio-r1.json` | `50c19bd5226c3605aac28c310b79c9c62846a03d454f9dbff0d0a2ce14152636` | `ed8c8db92e6214b69c2172a82e7152fc44f87868` | 34830 |
+| `production/comic/run-manifests/ch05-s01-flat-gouache-reference-ablation-execution-r1.json` | `5aadac1d124a9ff82b36b952962ea0ebeeaeae1071f3fb368bb2bf0a67a3e7b1` | `c5131fb2b00c55d1e368b87c4c9e1f9769eee7d6` | 8884 |
+| `production/comic/run-manifests/ch05-s01-flat-gouache-reference-ablation-prompt-r1.json` | `613d9a8e8d8edfb50555b06fffb8069437ae52f0f1af312c3811d93e60621a87` | `eb789087dfc35a30a6182aa02f80517e54976b49` | 11874 |
+| `production/comic/run-manifests/ch05-s11-flat-gouache-reference-ablation-execution-r1.json` | `db354de35eb9672be42329419fe9b122c15b301111ebe360e9ff8919e2294619` | `58a71bf98348b5f024199d1af06bf26c80fc1257` | 8481 |
+| `production/comic/run-manifests/ch05-s11-flat-gouache-reference-ablation-prompt-r1.json` | `7215fbb8958604bda0f044f190c16d68c85d90bdabad5f27fc70974dac7f1823` | `eb6e9e8c8f198ea9126b12cf904ba30f9ac8bf7a` | 10989 |
+| `production/comic/run-manifests/ch05-semantic-pass-hybrid-assembly-r1.json` | `57ef042ed24b089ea7c2ec13b6709f82c55fc5770bd1c0452d9e169bf7d38074` | `c2cd72385f2c63ef8d2ed65db18652d752644918` | 66739 |
+| `production/comic/run-manifests/ch05-sequence-cadence-review-assembly-r1.json` | `da409346e3b09041501b4f96341afa4a2e3a8f9dc051dc33dd80be46631e357e` | `53c4f62f8dc6d14ebe761b68ce7579837b3713e7` | 74708 |
+| `production/comic/run-manifests/ch05-sequence-strip-crops-r1.json` | `b4700fb41857e35c4c5bb467250e9c550b21d689d78eb852a4967fdd840be05c` | `5c1b7a963353e5bffd7e929cb46b104daed46778` | 7630 |
+| `production/comic/run-manifests/ch05-targeted-clue-chain-crops-r1.json` | `e8b428294152442471f9cb2df3f4e9775db624ea90f33687e42e9888bf024b0f` | `0953ec5b0d47875049e184709fc98bac032e2de4` | 1463 |
+| `production/comic/run-manifests/ch05-targeted-final-ambiguity-crops-r1.json` | `9858cf58e1b3ca5a04f32ebde5c04bf54efedaad8e4a24013aae391481142657` | `662be1ca6e7304b21c50d0df2e824e4aec693656` | 1271 |
+| `production/comic/run-manifests/ch05-targeted-object-continuity-crops-r1.json` | `61711c9509a7861b5f799cd405b599cf54d91ca3df4820d03e1844ae520184ba` | `1b1afeadeda2afee5378ea456972cd5ded77647a` | 1252 |
+| `production/comic/style-direction/ch05-mill-signal-r11.json` | `1eb40f54d1e3dcdecb4202b17599dc99f43b14b31902ec0ea9181947175f0409` | `3b179b2698cb60307b81ca8a44012b3bceeead98` | 4236 |
+| `production/comic/style-direction/ch05-mill-signal-r12.json` | `16e39f2dd7a81699632ce68369f500b85455fd5054eac248b85dedf8f6311a6b` | `62c918ed66ce51539f45fa5251326b3c30e48ac7` | 2981 |
+| `production/comic/style-direction/ch05-mill-signal-r13.json` | `796260ef81ec1df41b1d42711970c61293db3c00b0fa0c7a6a42b9134bdfde23` | `c54164d84effe042cea21a049969954e68682611` | 2950 |
+| `production/comic/style-direction/ch05-mill-signal-r14.json` | `d9a630bf496bde7e05a5e07329507eaccadc5910c12ae10b011e61422de774f7` | `879f3113ecb83e6342d8b5ddf8087680e1c71ada` | 2624 |
+| `production/comic/style-direction/ch05-mill-signal-r15.json` | `b5d3c8684cdf94a197f51883f41bbd8404c9ca1478c160fc94a04550a473d721` | `c990318dc9e5ce9dcdd4dfa930da50882730c208` | 2831 |
+| `production/comic/style-direction/ch05-mill-signal-r16.json` | `9df065c2e2c11b82d1c7dbb05cc2238ec1247b8bee8cae7bf2f71453d7dcf859` | `646f0cedc373a386880e9c80317891c4d952869b` | 4094 |
+| `production/comic/style-direction/ch05-mill-signal-r17.json` | `e24b68eeab8df5f0e1690abad282a957cc59a2958ca75acf40ab27c4533350f3` | `50fa903c464f28c02817e42000d5c2c82e45d8ee` | 3456 |
+| `production/comic/style-direction/ch05-mill-signal-r18.json` | `917f518c97bf30c9748bfffaa49940e29e51a9f816cc22592df933114010512e` | `2b31ddc59dc6cdc01921618c12a834579d4d0550` | 11607 |
+| `production/comic/style-direction/north-garden-cross-chapter-continuity-r1.json` | `5739d1f0ca2b7a1a1cc158bfdf75769d72d9c78ec65af85391f647ed10ab5e8c` | `4f2b4150cf67d51251ebbb0b63d8d480778ba893` | 2156 |
+| `production/comic/templates/complete-chapter-comicpanelplan-template-r1.json` | `84852bd42384682977eb915d5fd3fca321b7ec979e712dae46dbaa603c11e264` | `0a76c669fed7f29b9312741b2788303dbc695762` | 2130 |
+
+### source_code (131)
+
+#### Status A (131)
+
+| Path | Current blob SHA-256 | Git blob OID | Bytes/state |
+| --- | --- | --- | ---: |
+| `src/north_garden/apply_ch05_complete_chapter_repairs.py` | `7ee91bc778fe0742f9a23f8f1cd71fb0287d2118186afdbf70bd6a52fbdcc6a8` | `db54608c22dd79eaf183f4c7e8a12463bd31b1dd` | 5929 |
+| `src/north_garden/build_ch05_complete_chapter_continuity_sheet.py` | `abea75f84a6b9593e889e40a2b5507a6147188fc397d19b72d09328db7d5e29a` | `d19429a687a26de52a75674c2f1f7922d6727242` | 5003 |
+| `src/north_garden/build_ch05_complete_chapter_review.py` | `0a5152417b1dd9417a42dd5ba8fa1ebd2f657501f978a3cf4127c50e88c78e3e` | `949a545d8d12606a84e2c0a8272f44a3eaaea212` | 30839 |
+| `src/north_garden/build_ch05_complete_chapter_triage_sheet.py` | `5b83dfd6b0cef1eaa4172e6037e11e3b7fc9c9be1d7dfc3bfe5642c48e5891b9` | `37596c1b3c1e3340d8dc5cb17ee5038ee887efff` | 6362 |
+| `src/north_garden/build_ch05_five_route_comparison.py` | `8d5fdefbbe6b1ff5f7b84f86a5d5680e262a13cd4f1975660abd0db0db07c50f` | `12df74f6e4c608ef48325d0ddf3c94a5f15227b4` | 18203 |
+| `src/north_garden/build_ch05_four_route_comparison.py` | `2caf629e1d06170954bd4375bc68d6511b84327b2ca2fb7423200591524d0679` | `e91f75b7b98dc0b0056668c2e27f12547b10b3b0` | 14730 |
+| `src/north_garden/build_ch05_lettered_chapter_review.py` | `10d5fbd00b391839ef104b578ca19082b3a6c7a9edf48bf4bda6d6f104408f2b` | `88a75a279922cf53a2926c77423d9aa89516fb07` | 12177 |
+| `src/north_garden/build_ch05_p005_p006_route_attribution_control.py` | `748c43d65263350b41e74131a38eb62b05bf41049eb552c7fc0bc72a6d924ace` | `6fd8e3234e4c48ee2e62eca4f54531ee728fa1c2` | 14234 |
+| `src/north_garden/build_ch05_premium_cel_targeted_repair_review_packet.py` | `3258027a17d44982f7be22c1972042356b6b470213c9943ca8e5a3ee91e709e1` | `b38a8951e2621525ab199186580c529b36d6fa65` | 11157 |
+| `src/north_garden/build_ch05_r6_alt_graphic_comparison.py` | `a4f2f7e1783b5d5f272ae810951b61673358308459fb4bac2199da9084e8e3f3` | `3504997f177cb9ee4c12deebef693a9d47934fc3` | 13344 |
+| `src/north_garden/build_ch05_s01_reference_ablation_comparison.py` | `226348b76615bed90b0721b4fe11964ff8db928375fda4f534835466ea8f671d` | `cbcd61410d4a52dd1f97869e46436c8931a54c31` | 16735 |
+| `src/north_garden/build_ch05_s11_reference_ablation_comparison.py` | `2a0869f92540ef8944f4669da34d6f1f4c11374082126660ef398f1a8cc5f032` | `d4913d89871d87dec7bd72130a8878737f85aed5` | 17163 |
+| `src/north_garden/build_ch05_semantic_pass_hybrid_review_packet.py` | `442f47da797156a7e3254da1ef220fd1223ad248711263c481ec92926684b262` | `ec03c53c369ab3867e1483fc6257b4041fee4869` | 5723 |
+| `src/north_garden/build_ch05_sequence_cadence_review_packet.py` | `f8b3776041be1067f634fa3cbec67ec3529e5c2d3d34a3bf21536582d247f2cc` | `4e2a99323821ca48807571972e7a34165e922c4e` | 8266 |
+| `src/north_garden/build_ch05_six_route_comparison.py` | `4b477713621b2eeeb81c50763d63048a5f02269f5a6cd27a5a598cceb3a5aae3` | `efab229ff05b5f98d857dce545f1de4860b955d2` | 32556 |
+| `src/north_garden/build_ch05_three_route_comparison.py` | `8c00608d042dd8a74666d102a4d0a4edfbe35264a207660d70668651784a4eaa` | `6afbb65d9b35a6fee15ea6ccf2e8c604491de6a8` | 9298 |
+| `src/north_garden/build_cross_chapter_comic_regression_packet.py` | `4dea452f6b530e555794100f8d4ffcb2ef65b60737a2107d4d5d98a81069886b` | `81fde236cdc59feef35374dd7edf1008b0252e97` | 11511 |
+| `src/north_garden/compile_ch05_alt_graphic_agent_triage.py` | `acfc3e712483879bb5456eb49d7f2e71c9da971111c031d8195ffac6122b5c0d` | `0b659edd5957b4ec2fbc0eac0e1c4ff0e7fc5941` | 8890 |
+| `src/north_garden/compile_ch05_cadence_objective_sensitivity_audit.py` | `d5b071461d9834865f4383ae3ba3f2b8e58176a75d69088a3242715e53c27c54` | `2ea788053e0914cb3d42949cda690cdd81fc46ef` | 23651 |
+| `src/north_garden/compile_ch05_chapter_scale_production_decision_matrix.py` | `95877b2d6b71e2a419d65524830531576b308fb7c2c53e8dcce18c7eea2be589` | `928fd019a4bf09ccc0356af5279126569a5c0708` | 16915 |
+| `src/north_garden/compile_ch05_clear_line_watercolor_agent_triage.py` | `a1a1978202c77086156565244012a46e025951279f86813a9fd82981b5f7bdc3` | `e89e6e4303a5723791b9769500f5bdb3e628a5c9` | 5809 |
+| `src/north_garden/compile_ch05_complete_chapter_agent_triage.py` | `9f429840e16b9705ef7bde88ad04cb8d5babc12f92b99c72063c6acd0223200c` | `fd1eaf58b110aa0f5cb61d2a9a20117164eaee41` | 11916 |
+| `src/north_garden/compile_ch05_complete_chapter_alt_graphic_crop_manifest.py` | `30d932ea67731c3e973d9c8eb51453b614e35a7e3ab5bf3936d4e40d4e92a423` | `1b7f49f1d3d94c71d2f23f7686df3259f0cdbc48` | 5540 |
+| `src/north_garden/compile_ch05_complete_chapter_alt_graphic_execution_manifest.py` | `20c1db0a6af392a2075a0f65dcc85f7011850a23fd4a980ebbd0c36eef18893d` | `dab2ca6c86c04d7fa61bc95cbb42b3e9f44978aa` | 9972 |
+| `src/north_garden/compile_ch05_complete_chapter_alt_graphic_prompt_manifest.py` | `656675cce18ac5e6c05e85d8cfa8070b8520709231908c6e1e0f4f2fed313bb4` | `67d6126c5fe2f0b55f275c1ac95a172fcdb9d555` | 6793 |
+| `src/north_garden/compile_ch05_complete_chapter_assembly.py` | `bee4f1d2f4a655444a28c60479d3f30eb7386266d26f79ad5b854b66180c081a` | `e8ce521724756cdaea9f1e8754aca071a810f2e1` | 4598 |
+| `src/north_garden/compile_ch05_complete_chapter_clear_line_watercolor_crop_manifest.py` | `b226759f73131455a5db6e61dd977eb8faf60a4dedaf750bb3c2fea9a3f98c46` | `1109c0a496a7bc4108ef482a546a304d43d12d6a` | 3394 |
+| `src/north_garden/compile_ch05_complete_chapter_clear_line_watercolor_execution_manifest.py` | `a9235a5b73b078e1348602e5d9d053a896aade767a481eb6881dca826eafdff0` | `d9b5a676cd1e8f4bdcb98e6f8aa7083ca48cca0e` | 7092 |
+| `src/north_garden/compile_ch05_complete_chapter_clear_line_watercolor_prompt_manifest.py` | `770bdc718835a01ecc39c8b6ce1ded940aa005571d38036fb86680a39f001e0b` | `8c0c931ff4a2289cec752a8abe94b46585bd08a8` | 6912 |
+| `src/north_garden/compile_ch05_complete_chapter_flat_graphic_gouache_agent_triage.py` | `2201e9c2b90bcd4a4fc2e0935a6cd61c9bc3b8051115c01f38b3e19d1ebf276b` | `7ce6526f8dc9b0f362c91cebb3d058c550d721c0` | 29354 |
+| `src/north_garden/compile_ch05_complete_chapter_flat_graphic_gouache_assembly.py` | `4386251735f7c8ccef7416221b4b525e1e3aefeebb9ce477c924395e79dd3428` | `5c399cdc40414beb1e8c58871092dff9b2bf8c25` | 4976 |
+| `src/north_garden/compile_ch05_complete_chapter_flat_graphic_gouache_crop_manifest.py` | `0e6147813d85b88a4fb8061fd97a1a3840b71adb8c43a137cf4bae042d10c184` | `68ddea89f6a3ffc10f2d756545fb420a246bbe0e` | 7700 |
+| `src/north_garden/compile_ch05_complete_chapter_flat_graphic_gouache_execution_manifest.py` | `c0da12520f36e40192a90b478afa414d000e7f9993c223c4e37ecfd8d9741ab9` | `aa2a9dfb87de8dabcfba4e274c6093872aa5c1f6` | 13239 |
+| `src/north_garden/compile_ch05_complete_chapter_flat_graphic_gouache_prompt_manifest.py` | `93770141dae262fc333decb98428491da86af02f0fc17e43e0b623e1bd22ab90` | `908a4c1c0b06f1e85c19c1119442504db7aa8189` | 9142 |
+| `src/north_garden/compile_ch05_complete_chapter_premium_cel_crop_manifest.py` | `29451541662333703a6189b5fffdd09ccea876dd4ee73cfcdb75e1123574096d` | `5e94f9c51ed2b1deb1d0565525f4b463cfea5100` | 7371 |
+| `src/north_garden/compile_ch05_complete_chapter_premium_cel_execution_manifest.py` | `065513be629ba48801ee8752c123c3179a32c6e30a16082a826f0fcb47ea8f03` | `d5a817754afc30e462b2c7fb96701e61650b0abf` | 9668 |
+| `src/north_garden/compile_ch05_complete_chapter_premium_cel_prompt_manifest.py` | `0a286e7fce654e684555d0fd67b49989f9daa77bc18123a34504fe84f649dbc7` | `8166423e8704facc1a63c96e52952b054cff8790` | 8610 |
+| `src/north_garden/compile_ch05_complete_chapter_production_manifest.py` | `549abcd8f2380809936006595c793e105a2201c8cd0066ae2133f21bda3998c0` | `b34deea5f7b33a90d65109b5db261978915ebabc` | 9421 |
+| `src/north_garden/compile_ch05_complete_chapter_production_manifest_r2.py` | `2d5e017b076362fcccce74d98992af34ee4bda3daa2503eb82efffa6bba7bb7e` | `2bae30819c804615529d2e3758010ab9139f1066` | 5738 |
+| `src/north_garden/compile_ch05_complete_chapter_production_manifest_r3.py` | `7e5b09b85ebfbcec59fb624bcc3701d3cebc1020624a9dcb84777bc81e496252` | `7564cdc949a74d14e8297215e5f7540f0da513aa` | 5846 |
+| `src/north_garden/compile_ch05_complete_chapter_production_manifest_r4.py` | `e6002c00c5db91d4c4e46bc8aed4b7c55e2c2e29a1095b1af8ef5563a69f68f5` | `a4f131c9b1fa02c5e24c5624e4cd9fde75b01930` | 5312 |
+| `src/north_garden/compile_ch05_complete_chapter_production_manifest_r5.py` | `eb617fa55aed006b2c4a5c966abf478b5378368f7b01edbe5315891eeb25451c` | `f2331e06b21f3a423a42d39442b5a16e71754023` | 5876 |
+| `src/north_garden/compile_ch05_complete_chapter_production_manifest_r6.py` | `327cf3903bf5799fd8ad9a891ae13a2312281e3b37917212556e4abe23850682` | `63d194f06541ec32f0490fb63a5789a4d2455efb` | 6338 |
+| `src/north_garden/compile_ch05_complete_chapter_reduced_palette_text_control_assembly.py` | `b9fc057e08186ec13d9c6ded2169eb422636fcfeb4debac3dac1b6b0d7133144` | `19557935600677f0f875396fa486f988b74a3ac9` | 4416 |
+| `src/north_garden/compile_ch05_complete_chapter_reduced_palette_text_control_crop_manifest.py` | `1a6fd3b0221128d4215c1fe33ab82552729a10eb2f065f031268e91452903e31` | `af6219c564f7e08d018e48ecd58bf09a4f62d52c` | 8746 |
+| `src/north_garden/compile_ch05_complete_chapter_reduced_palette_text_control_execution_manifest.py` | `32c168a15119b667f3200561b87f8aef5c23f9e5644fbab7b90c403c0e06185b` | `421bc8c02ae098530d01ad26064815ea3fe2e8e2` | 13372 |
+| `src/north_garden/compile_ch05_complete_chapter_reduced_palette_text_control_prompt_manifest.py` | `71b276619a8ea17473f62c9ae4b61d58d74da13f5aba0610b0e2599cec0154fe` | `d8964d95f1905e26ca8900dc021dbd4a25771010` | 8409 |
+| `src/north_garden/compile_ch05_complete_chapter_release_r6.py` | `da08ddab3ea38081cb071ea0a6d122cb550143b508ce737de36dfa8e9b8964b2` | `eb27a6c5ac701d744368c42706297b84fe4bcab7` | 9010 |
+| `src/north_garden/compile_ch05_cross_panel_semantic_gates.py` | `7ee87142d95e87d0e4f6088f977166867bff347da312524eb50827c58d791651` | `e62fb38956475672a59093627920013011dd7b96` | 4527 |
+| `src/north_garden/compile_ch05_overnight_safe_source_change_inventory.py` | `6b270a01e271853b8150ad097a68f03fc48c4dbf3d888be6c6a08239ab53860b` | `1a129a82dc731b67fe1f5cc36c61d431e048c7ef` | 14019 |
+| `src/north_garden/compile_ch05_premium_cel_agent_triage.py` | `71c2c98bf2d21be3e9a92515f0d3975b78a73d332b12d7f2ab8a7a41aef9dbf2` | `f529ccbc9574c32e1ab48f75c064439de1161697` | 15664 |
+| `src/north_garden/compile_ch05_premium_cel_targeted_repair_execution.py` | `b8eb2ccfe4af9ef57f23bd62354f8230689d593a99353e7fa13fd5a30a74b77a` | `656ef845b9c898d4f761ea0e090a1aa1d765788b` | 8701 |
+| `src/north_garden/compile_ch05_premium_cel_targeted_repair_trio.py` | `3d6880fb8764743dcc6b29ea93567b468f4df12a93bf6cab3cab032827b8d344` | `b3ca58aa224e7e299685741a5bf29ba42c64cde2` | 17263 |
+| `src/north_garden/compile_ch05_production_cost_ledger_r31.py` | `d43e684f37bc4315d045d5b252ec2aa0cc0209dde13c15fe7e0a06756a1ac164` | `fe25afee0fee009f74826338e49111b1767e50d2` | 3040 |
+| `src/north_garden/compile_ch05_production_cost_ledger_r32.py` | `c1d9c207024dea0dc1eb0e26223892486c6de3989636220dea1c515c4a18c0b9` | `6a252680f0f966df01499b9c40ac0b44e6752dae` | 6271 |
+| `src/north_garden/compile_ch05_production_cost_ledger_r33.py` | `c9362e5623da4ec825de2b9713f11c354aff5380f9f37da35f5c26d2ac816d7b` | `f648865583d091d833de43ac85a2d654bf831743` | 7559 |
+| `src/north_garden/compile_ch05_production_cost_ledger_r34.py` | `3bba5bad925610f057fcf144906eb0ed057c4454fb3d928dcfc2e515785d8bf9` | `4e38f9847afc5e6b1f322ded1a4f301017530a5d` | 13160 |
+| `src/north_garden/compile_ch05_production_cost_ledger_r35.py` | `980a45d20d7527f572f3fff0f49dc12cf0e6015e88072902aee9a213ca6a40de` | `67ce57e10a58b2e94b924c93d522569291b38a1a` | 4412 |
+| `src/north_garden/compile_ch05_r6_owner_review_start_here.py` | `9d3065d7c685712b461c3ab6337d0289167295d6a1f826201b7c1cd17a1aa30e` | `e961a2d22d828bdbe4b2b43a241d18840842f4e3` | 10790 |
+| `src/north_garden/compile_ch05_reduced_palette_text_control_agent_triage.py` | `c6db686d3d92eedf98d533b37e8a85b12e84f241c97b981277895eddf23c1de3` | `f633443d1f792590854e45c62f41f06f8a02f235` | 30221 |
+| `src/north_garden/compile_ch05_review_handoff_r7_link_integrity.py` | `1ecf24485db0d072f1266925b5d4edc6dbb5b019c96951efa0dc76119a611d8e` | `eea793b9f5ee10e4df379db2e20cdf90fe80fa05` | 6578 |
+| `src/north_garden/compile_ch05_s01_matched_reference_ablation_prompt.py` | `61c6d0642d4f02d2c64cfd73d3deb9c7cf6d9e5827c0b46ff8baea13d75c5612` | `20057643be9f3bd32a3d735ad546c946cddfda15` | 1652 |
+| `src/north_garden/compile_ch05_s11_matched_reference_ablation_prompt.py` | `d22bc3e001acfbb9340cd8ffb24c8b8c59158ffd21074b3495078f216ac25bd5` | `3eedcdfe3c8d89287ac8c3013f3736fe0c1c8a36` | 5782 |
+| `src/north_garden/compile_ch05_semantic_pass_hybrid_assembly.py` | `3b4d4ae45b2fb7836859089c95cfb35f3984c2e394dcd9de7a964f0819f72440` | `51c450478e32d75968470854beff4ae897a3089e` | 16933 |
+| `src/north_garden/compile_ch05_sequence_cadence_boundary_audit.py` | `2d9c69094d036245f9c64ee16b97125fafa080a88a2c4a19cb169c7988124862` | `b4b51cf48c0f85a3fb5b32cf36e26a564ed898e6` | 14583 |
+| `src/north_garden/compile_ch05_sequence_cadence_review_assembly.py` | `a8bf6619eab3e0b33636b31e1923cb8ae180487cf8c5b295667e0313d1d0acac` | `eb0822e3d4d96c12b8b213796267fd746014402a` | 10443 |
+| `src/north_garden/compile_ch05_six_route_owner_review_handoff.py` | `5716c5b5ab6c38696e56ae14f02079180d5614eebf820c777bf7d5f423cb8dc7` | `4febb35999c10e6198b8fffaa1c1fb591dc62a15` | 20519 |
+| `src/north_garden/compile_ch05_three_route_owner_review_start.py` | `a46db4582201ba0d50a48d4113d63e2f6f68140768fba2d7b9d44fdd00c1df00` | `e70e7743cdb0146fcb581c94c7567f89001c57fd` | 6208 |
+| `src/north_garden/compile_comic_panel_plan_chapter_inventory.py` | `fa258d2c4de9b14b4ce3a8a00c8611d00207e25f4589443f404c356bd9576fd9` | `e00e9f554c946bb1d249a925fe6657f75fe0dfda` | 7041 |
+| `src/north_garden/compile_complete_chapter_comicpanelplan_authoring_contract.py` | `ae8b007d941a2adc4406d0a4130a08ad82fcf7352ffd370e0cda255c1cfb5371` | `45824799a6809f4240a6719ddff61f5b57ce2b2f` | 9631 |
+| `src/north_garden/run_ch05_six_route_cadence_integrated_release_r1.py` | `baa90e7acfba1226784c419a801a0f4c3530dc68803e12abef5122b0abe20d05` | `47cdbd611237450d63b55f261ffb19a1a913a547` | 12592 |
+| `src/north_garden/run_post_ch05_complete_chapter_integrated_release.py` | `b77647d2d79789a98075eb8d4a7d24de73e12e36c5a38e1616b9a1406eea5b4e` | `7bc1de37d3a478bf8c3b575d00e3289716908cfb` | 4779 |
+| `src/north_garden/split_ch05_sequence_strips.py` | `3d3512dd64841d1b0eb375773d1ab080fe388cdae4e2d3d11502dfdc83a4b3ce` | `fdaeb359bd543872816f58257bb4e99950e894bd` | 8828 |
+| `src/north_garden/split_ch05_targeted_repair_sequence.py` | `4478c8033db7bd777b67dc2c9280f97b4fbc30d180a28087ca2912f678d3b8cd` | `a03f927f6ecf34a29872afc1750b7c9fd57dda0d` | 5094 |
+| `src/north_garden/validate_ch05_alt_graphic_agent_triage.py` | `c0baa0670adf3f37c1500635065e961d691611241cd120536f502f7305becf1d` | `9f550670a0676cbb09ebfdf589e208155230b69c` | 3799 |
+| `src/north_garden/validate_ch05_cadence_objective_sensitivity_audit.py` | `19ee9a0db383c31de962c8b93f91de4cf4a5370146cf9f0a853278c417bd5740` | `e2ceab4873e5e624aa85d27d888ee100dd4153f0` | 10822 |
+| `src/north_garden/validate_ch05_chapter_scale_production_decision_matrix.py` | `1d8746e58dd9bcfcbf06fd0552f87ef8485940866e5a8425c0bd0f2eba78fbab` | `dd2ad08a47062752a9a2b2529898ac90c599f4fa` | 7334 |
+| `src/north_garden/validate_ch05_clear_line_watercolor_agent_triage.py` | `0ff3699d994302cbb3bc71a47b81060e347fbc493108b07fdbf6c42c45f2ef5d` | `d14134f3131f8f5bf76962ed4e6ee3f67f883e9c` | 2745 |
+| `src/north_garden/validate_ch05_complete_chapter.py` | `eb90e2a3bc2a88285a3d4fa7084333dafa227afbf596aad35cb5ddf006f2d5dc` | `d2b21efb2340d61729076aa4c810fa44ec140a8a` | 28213 |
+| `src/north_garden/validate_ch05_complete_chapter_alt_graphic_crops.py` | `fa4f63b5b4d9f95de6537d1b48f93aaf153a9373b20497d81341a0b7395588e1` | `5f51f3164f97805317f181e1e3aff8595a3bffcc` | 4612 |
+| `src/north_garden/validate_ch05_complete_chapter_alt_graphic_execution_manifest.py` | `c5e14874693113c684284fdb13a46775cb9a319fd9d1c433e270d631180b1111` | `bc85966af3521be4811a23de44f56d530ce03365` | 10955 |
+| `src/north_garden/validate_ch05_complete_chapter_alt_graphic_prompt_manifest.py` | `c2067733f762332ad298ba8dccab214f330619e8eeba2309aaa3052367225e22` | `80abb113cd9cfd36140df85973e585a88c4c4ed6` | 5920 |
+| `src/north_garden/validate_ch05_complete_chapter_clear_line_watercolor_crops.py` | `b55fbfe438e0e2492363b5b72038861e3b94ce2695482ec7ae3b3189ad7443c2` | `9bebe7455020af265a81fe909c137faab5ee17da` | 3696 |
+| `src/north_garden/validate_ch05_complete_chapter_clear_line_watercolor_execution_manifest.py` | `09b684ed5bdab3970b4d0594ab675e78aed2167465393c6c24b264cb4033e02e` | `14ee6f3ed41724031388ad5b870f0736eee862bb` | 4939 |
+| `src/north_garden/validate_ch05_complete_chapter_clear_line_watercolor_prompt_manifest.py` | `2608e7118dd44846d2187c0d465c66a13ac9decc6e56ed02757c76cff6eb997f` | `3efcbe29f9f9339b5a9ac9501e40cfa2b9a7616c` | 5520 |
+| `src/north_garden/validate_ch05_complete_chapter_flat_graphic_gouache_agent_triage.py` | `8d828d20649e0cb112b578ecda2e5a4fd89ceed88be51906cff42a3859ffdd7b` | `81cf30adab7060e9a002881e6011ab1ba9ef980b` | 9637 |
+| `src/north_garden/validate_ch05_complete_chapter_flat_graphic_gouache_crops.py` | `b49e8d5e04220c2410770fb14747e03081a17d3a7baaf936ef58747f7d276f4a` | `535cd91d73377b0ddb08b92cc4f1a04f5dad77e7` | 11432 |
+| `src/north_garden/validate_ch05_complete_chapter_flat_graphic_gouache_prompt_manifest.py` | `c8e727a4121c31a8f501b94cfb3d412ecc6c41c6f72259bbf82224b75a2fbda5` | `e52e871c9a6cd6e71bca4ef92f0a69e5d1ead4bc` | 11108 |
+| `src/north_garden/validate_ch05_complete_chapter_premium_cel_crops.py` | `aa79a4a9ce1001230e4c1e6fd533b02f99ced442c9baf52ae80a370b6ecedf87` | `b556e768552269eb791b87a36f94f99980b9e0e8` | 10591 |
+| `src/north_garden/validate_ch05_complete_chapter_premium_cel_execution_manifest.py` | `ed54213164c31b2d7383b715e82afb38d28e2ebe48681c0dd12bfb0c840a3035` | `a1b77b4a8376e3b68cb80c0b01cb43972714d1e6` | 12235 |
+| `src/north_garden/validate_ch05_complete_chapter_premium_cel_prompt_manifest.py` | `f939dc78801031be8a739c09ecfdd4742c5701c95ad279ee053d9f7a077794dd` | `5b167f6153b3d9f8f7f5adce73c27c85f07e52af` | 10110 |
+| `src/north_garden/validate_ch05_complete_chapter_reduced_palette_text_control_crops.py` | `7a87c306577a542406d8abcd3f02c451c665175ff4d1a3b392001e48335c6cff` | `0edbe35ca6c09df005aacc276218868368f78a68` | 11958 |
+| `src/north_garden/validate_ch05_complete_chapter_reduced_palette_text_control_prompt_manifest.py` | `311d512c4b4a070191934b88df60052ba13427a525509e7006dc0f3a24db05aa` | `907cba3a840c5703ee281987d62801db414374d7` | 18969 |
+| `src/north_garden/validate_ch05_complete_chapter_release_r6.py` | `8f4a4f40300a56fa682a3963d679c92cb4715fdb4ddca485b874a1df774a9a87` | `290f601edd629ff34534761e77cd566c9d7a0249` | 7015 |
+| `src/north_garden/validate_ch05_complete_chapter_review_handoff_r7.py` | `30834c2bdb4673d1be49a5fb86eeececf7df79df42fc2590b0d09c487df5d283` | `9393d2cba552f7a7b1c4042e0fba15f7ae1cb4a6` | 5135 |
+| `src/north_garden/validate_ch05_complete_chapter_route_execution.py` | `7560f062914d18b938f911e1a497838c7821e0dacb7148261a9ab21cb210e550` | `2d9da9cb572ce2902267409a503a0e9cdfdbd8dd` | 45281 |
+| `src/north_garden/validate_ch05_cross_panel_semantic_gates.py` | `8b5849dcd4cf5c19cbad449ee1e1b76de1bb31a21c3a7b90e6c3061eacf6abd2` | `d5484859eb25606cb70c4967f3a990c8c7b2c29b` | 4163 |
+| `src/north_garden/validate_ch05_five_route_comparison.py` | `9a673065d44969874e84b7b86a0c7e0e1f8f2d34db47d1f3cb61b22c6c780b81` | `67097f798956fba878008f17fea4f411da2e4665` | 10040 |
+| `src/north_garden/validate_ch05_four_route_comparison.py` | `b7f4f0f9690e93046373106c5e7d1c63a1ce3f8754866a1f98e1fee19165a93c` | `56c379a2af3fecfab2e5159b295f07dcc5bbceab` | 6756 |
+| `src/north_garden/validate_ch05_matched_reference_ablation_prompts.py` | `6cf97c5a383ed3864699f61849cad7fbe45c765e8c9804d09a423a0b6eb43b5d` | `cdbefae034eb389598779aef5f1cd4a91fe93ac1` | 10876 |
+| `src/north_garden/validate_ch05_overnight_safe_source_change_inventory.py` | `607e281e35c909b4d21310783fb287464490782dc3e58870a28b1c988bd3bee5` | `3701a9cb04bacb8e74e2fad681d3671708ab8544` | 5702 |
+| `src/north_garden/validate_ch05_p005_p006_route_attribution_control.py` | `749754420700c65e694b0094e3df583f8962631f0f6f4a39d73599943d610e74` | `c36d0b15acc0847923b0092ee8026c5b44a029c8` | 8486 |
+| `src/north_garden/validate_ch05_premium_cel_agent_triage.py` | `6aa23455418dd21ae9f95a37520b3ad813d040c78fbbde8661339827b889877f` | `0a96e0f867f392e74a557b29970b4ed87078698b` | 10057 |
+| `src/north_garden/validate_ch05_premium_cel_targeted_repair_execution.py` | `e91afe16f21e5cdd85168c18d7480ac7d79be4bf653044f70d3a81b46e009d9d` | `06be36b95e3e7e27ce8cbc7c072a4de82d5dd8af` | 11344 |
+| `src/north_garden/validate_ch05_premium_cel_targeted_repair_review_packet.py` | `9ca93c2a301443ec4c83187a47ccbe76b301529347d3db82c26dede8b50756e4` | `60b1fab5541acd497ef51e1c8bc84d58323df3db` | 13797 |
+| `src/north_garden/validate_ch05_premium_cel_targeted_repair_trio.py` | `bebe9806433844c4bfae9dfff3a0539e4b80065c79ca1c291f4f94becea93032` | `c6915b9ff57d4b31be136e1d4d1fe551d9efc80c` | 14410 |
+| `src/north_garden/validate_ch05_production_cost_ledger_r31.py` | `1eae415fe57f8056d64414b57fdebaa259537de7192e96dc64d58b590939eb8b` | `cedb02986005556fed22cae499a71670c079a3d6` | 2980 |
+| `src/north_garden/validate_ch05_production_cost_ledger_r32.py` | `dee6d7aa69da48a765533110e5b02833a7b16f9714be8ab5e83b7d137d619eb6` | `bd6cdd30f02a1bc0cf32ddaad94a3454a28b68bd` | 8763 |
+| `src/north_garden/validate_ch05_production_cost_ledger_r33.py` | `57f6093bc650c2e3480cb193a801b7aeeb9c40e7a524f5850d317462d0055b87` | `85bfe82a50e742871bbbdbed227311567f791f7a` | 10463 |
+| `src/north_garden/validate_ch05_production_cost_ledger_r34.py` | `ba94575e87bee0468d5aa91d75e9b1082471b9ca8db9b1125299b15f7f3f756b` | `619eb0d0206020cc2bc64ec52364d9632cfed032` | 17302 |
+| `src/north_garden/validate_ch05_production_cost_ledger_r35.py` | `f71bca101fe01b07af3cd8cab552fa92c4fa01a786fa056bb93927b39372d0a2` | `42487de1932830b2f7af82c1c0195980a298e3a6` | 7546 |
+| `src/north_garden/validate_ch05_r6_alt_graphic_comparison.py` | `82a30bc41fe013a26ffdd5f4f0caaef1e68f4f70bdbc7a88daf4ce5099c006a8` | `9d2c980b981920c7463738134d2c8de5de094f43` | 5347 |
+| `src/north_garden/validate_ch05_r6_owner_review_start_here.py` | `dc4a6ec4f9fb4557af0b61313bcfb1bde9f5ef0a58b010c0c5e61334ab55985c` | `738258dbd44c62cc5fa2660fcab3d49cdc5e1208` | 6315 |
+| `src/north_garden/validate_ch05_reduced_palette_text_control_agent_triage.py` | `5d259e9d503a6c4909c40abae1d5a7c93f9a46c99ce427a00776da9907b892cc` | `4cbd04eb28fe1f60a7ff95e43f8fbf2650e31ca1` | 16226 |
+| `src/north_garden/validate_ch05_review_handoff_r7_link_integrity.py` | `e9bd0866a80e4f866e813b9075187b388c33eb0623283e6b750da1e6b850783e` | `1e0fcdd5944401db66deb5164142a8daf65f1383` | 10684 |
+| `src/north_garden/validate_ch05_s01_reference_ablation_comparison.py` | `f4ca3df23b1bca6af62a0e0bd614d148bbedc42084e8fd752e25ec6f7b61f177` | `8fe20fdd41d95ec074304c0f73f22946cace3df2` | 17599 |
+| `src/north_garden/validate_ch05_s11_reference_ablation_comparison.py` | `094cea24bbf99cfc191eceeee9248c90547ca04ab11b7b495a375c71d1f0e624` | `710355864b781ea878caf16d326a213281e2e26a` | 17661 |
+| `src/north_garden/validate_ch05_semantic_pass_hybrid_assembly.py` | `af933175f3405a68724fbe7621677864090b8061907c2aac85bf145423f09fdb` | `09c5698080d6cefa9e9efebec718b63215ca2c22` | 12423 |
+| `src/north_garden/validate_ch05_sequence_cadence_boundary_audit.py` | `6c888e10d10278d17147057926c2ad367758d1862034347e5c33b94f9a361c16` | `0bb423cd5ab6ae39a98c96f47c2c8b19ac95f749` | 7138 |
+| `src/north_garden/validate_ch05_sequence_cadence_review.py` | `5101cd48fdc4b03059c52f927095aa78b5cfac9e88172332ba211bc9f28b9433` | `23f4480e82a26a67f711f5f9a3dfbec800275202` | 21191 |
+| `src/north_garden/validate_ch05_six_route_cadence_integrated_release_r1.py` | `ed5421220de54a62eb7547ef53b52b274d6efa5014466a829f37504f2198b629` | `16fa88af5acfdb2774aafe88f35957e56512d57e` | 18121 |
+| `src/north_garden/validate_ch05_six_route_comparison.py` | `31bafdbeb89e465a93f02502473083198e885fe51f9a354b50dece9fa3c16532` | `5c9b3b8d3697502e6b9a5147e045d8a5c3a674ce` | 17441 |
+| `src/north_garden/validate_ch05_six_route_owner_review_handoff.py` | `f96a97a7e86bbefb03f5996a3bfd1393431720e498b203a5f4820e2e71968b00` | `aeb1afc9948213e4f05808c5ee601250610a0966` | 9400 |
+| `src/north_garden/validate_ch05_three_route_comparison.py` | `0bedb43d85387211323db4e2299d658b2e49e89c08ce45bacb26cb3157e6fc87` | `d86e35848d46cd46a9e723a9d4a2c3610192fed0` | 3452 |
+| `src/north_garden/validate_ch05_three_route_owner_review_start.py` | `f5d4d09790b842ce2a4dd9ad7f3a8a2c192462b6bce9e0c3cb104ea427560298` | `fdfa8358fa83bdcd67b6318abefa03ded8424b86` | 3097 |
+| `src/north_garden/validate_comic_panel_plan_chapter_inventory.py` | `91d9bf3f401544f03ee771b64e3f3fd9664fab81fd45c0067d6b5ad23184ba4c` | `e8e6e0f0da24901a4b30cd6082e422250b169020` | 4399 |
+| `src/north_garden/validate_complete_chapter_comicpanelplan_authoring_contract.py` | `3c8ccf27eb33c2635be13c629bab13ad92866cf06494c8e1936d14b6a66cc845` | `499c947871ac1b92de90ee2c387624fac46eacfe` | 6787 |
+| `src/north_garden/validate_complete_chapter_semantic_graph.py` | `03768bf966ceabd2f92efa40323740dfdd8e2157082f5f3c4c4c426400afb3f8` | `4603fa9bafa5ddb78a081d690a7c8ed75287f620` | 18692 |
+| `src/north_garden/validate_cross_chapter_comic_regression.py` | `91807ee324dfeb1034ba06eafdbb62ad463d6a5126d05ac785ed5de9c939d70a` | `c847e7715b2b73c80e69c45a6897bce17018f65a` | 6368 |
+| `src/north_garden/validate_current_git_remote_parity.py` | `86b7b2846b88cab9ca2037ca6ede365487e27c36c1be885f401eb582c92f85e1` | `f46a723b07a9bdae64d95f393b11ed7525968406` | 1383 |
+| `src/north_garden/validate_post_ch05_complete_chapter_integrated_release.py` | `60640bace107e62b77bc402f46ab6b6ab3c7ee7b2ba09c8a6e225ba6e1e225fa` | `dbb3322d87d9908bfc543e19ce6ef77b17f5da2c` | 6035 |
+
+### scripts (1)
+
+#### Status A (1)
+
+| Path | Current blob SHA-256 | Git blob OID | Bytes/state |
+| --- | --- | --- | ---: |
+| `scripts/validate-ch05-complete-chapter.ps1` | `af1b10d753f8c738e1017f4b67ca0232ce0ca274d9221973a8aac2033a3d4f90` | `18bd5e7fee3021726caf3daad860c8061e166b54` | 345 |
+
+## Boundary
+
+Append-only source/evidence inventory. It includes r1 as historical input but no generated pixels, untracked user material, acceptance, rights clearance, or production authority.
+
+Machine-readable evidence: `docs/research/evidence/ch05-overnight-safe-source-change-inventory-r2.json`.

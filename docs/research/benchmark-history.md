@@ -654,3 +654,9 @@ This is authoring evidence only; it does not grant prompt, render, acceptance, r
 | Paid API/cloud spend | $0 |
 
 Relative to CH07, exact blocking generated-prose, panel-number, and gun-like-prop failure classes fell from present to absent. This is provisional agent triage, not human acceptance or rights clearance.
+
+## CH12–CH13 complete-authoring benchmark — 2026-09-03
+
+The fourth authoring batch adds 2 complete chapters, 80 unique panels, 16 five-panel sequences, all six phases per chapter, and exact CH11→CH12→CH13 continuity. Post-CH05 authored breadth is now 8 complete chapters/320 panels. Strategic rupture/reconciliation, consent rules, irreversible costume damage, equipment fusion, living-monster resolution, earned classes, an operational base, and the wider network hook are explicit. Semantic checks pass and 58/58 adversarial mutations are rejected.
+
+This is authoring evidence only; prompts, pixels, provider calls, uploads, acceptance, rights, and commercial clearance remain absent or pending.

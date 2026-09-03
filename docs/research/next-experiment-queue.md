@@ -345,3 +345,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Compare CH09 injury, underwater action, Wayfinder, and sabotage readability against CH08's 39/1/0 baseline.
 4. Keep CH08 P028 as review-only unless owner review finds the arrow harmful; do not reroll the chapter.
 5. After CH09, promote later chapters in chronological order with exact inherited state and one default route.
+
+## Active queue after CH12–CH13 authoring — 2026-09-03
+
+1. Complete CH09's eight-sequence visual assembly and review packet before any non-blocking repair.
+2. Build a cross-chapter CH06–CH09 progression review hub so four complete visual chapters can be read in one pass.
+3. Promote CH10 next using one default route and exact inherited brace, weapon, armor, faction, and evidence state.
+4. Preserve CH12's rupture and CH13's co-keeper resolution as authoring-only until their chronological prompt/data gates pass.
+5. Keep alternate styles and earlier cosmetic repairs behind chapter breadth unless an exact story-blocking failure requires correction.

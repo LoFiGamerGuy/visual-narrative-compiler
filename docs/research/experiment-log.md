@@ -1765,3 +1765,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Triage: 39 PASS / 1 WARN / 0 FAIL; P028 contains an unrequested causal arrow but remains story-readable.
 - Timing sum 2,158.140 seconds across overlapping calls; parallel group walls 430.624/437.107 seconds. References 20; paid API/cloud spend $0; alternate arms/repairs 0/0.
 - Validator PASS with 16/16 mutations rejected. ADR-0205 retains the route and prioritizes CH09 throughput.
+
+## CH12–CH13 complete panel authoring batch — 2026-09-03
+
+- Authored 80 unique chronological ComicPanelPlans in 16 contiguous five-panel sequences with exact CH11→CH12→CH13 state carry.
+- CH12 creates a durable strategic rupture, dual solo failures, irreversible garment damage, negotiated consent/authority rules, reconciliation through action, key–Reach fusion, and the first open North Garden threshold.
+- CH13 stages moving-glasshouse traversal and the Crownroot conflict through pipe, water, structure, and route mechanics; it preserves the living guardian and earns co-keeper roles plus an operational base.
+- All characters remain clearly fictional adults; hair, injury, armor ancestry, equipment, physical Ledger, protected lettering, and ComicPanelPlan-only boundaries pass.
+- Validator PASS with 58/58 adversarial mutations rejected. Prompts, pixels, provider operations, uploads, and spend: 0/0/0/0/$0.

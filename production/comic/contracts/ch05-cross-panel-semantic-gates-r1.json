@@ -1,0 +1,116 @@
+{
+  "record_type": "ComicPanelPlanCrossPanelSemanticGateContract",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-cross-panel-semantic-gates-r1",
+  "state": "ACTIVE_PRE_PROMPT_FAIL_CLOSED",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "comic_panel_plan_source": {
+    "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+  },
+  "gates": [
+    {
+      "gate_id": "cold_farmhouse_until_reversal",
+      "panel_ids": [
+        "ng-ch05-sc01-p001",
+        "ng-ch05-sc01-p048",
+        "ng-ch05-sc01-p049"
+      ],
+      "required_prompt_phrases": {
+        "ng-ch05-sc01-p001": "farmhouse chimney completely cold: no smoke, no glow, no lit window",
+        "ng-ch05-sc01-p048": "first new farmhouse chimney smoke of the chapter",
+        "ng-ch05-sc01-p049": "stove was never lit before departure"
+      },
+      "intent": "Preserve the final smoke reversal rather than revealing it in the opening."
+    },
+    {
+      "gate_id": "departure_vector",
+      "panel_ids": [
+        "ng-ch05-sc01-p001"
+      ],
+      "required_prompt_phrases": {
+        "ng-ch05-sc01-p001": "travel downhill away from the farmhouse with the farmhouse clearly behind them"
+      },
+      "intent": "Make departure geography causal and unambiguous."
+    },
+    {
+      "gate_id": "independent_entry_roles",
+      "panel_ids": [
+        "ng-ch05-sc01-p029"
+      ],
+      "required_prompt_phrases": {
+        "ng-ch05-sc01-p029": "Soren independently watches the exterior while Sigrid enters; their gazes point in different directions"
+      },
+      "intent": "Separate entry and watch roles."
+    },
+    {
+      "gate_id": "impossible_far_bank_prints",
+      "panel_ids": [
+        "ng-ch05-sc01-p031",
+        "ng-ch05-sc01-p032"
+      ],
+      "required_prompt_phrases": {
+        "ng-ch05-sc01-p031": "dry prints stop at the near water edge",
+        "ng-ch05-sc01-p032": "far-bank prints begin on dry ground and asymmetric heel-toe shapes point back toward Soren"
+      },
+      "intent": "Make the impossible footprint chain readable without labels."
+    },
+    {
+      "gate_id": "continuous_leverage_force_path",
+      "panel_ids": [
+        "ng-ch05-sc01-p035",
+        "ng-ch05-sc01-p036",
+        "ng-ch05-sc01-p037"
+      ],
+      "required_prompt_phrases": {
+        "ng-ch05-sc01-p035": "tin remains high above on the beam",
+        "ng-ch05-sc01-p036": "one continuous plank visibly connects both adult grips through the brace to contact and move the high tin",
+        "ng-ch05-sc01-p037": "same tin now open on the stone beside the retained creek map"
+      },
+      "intent": "Preserve object identity and a visible force path."
+    },
+    {
+      "gate_id": "third_upstream_mark",
+      "panel_ids": [
+        "ng-ch05-sc01-p039"
+      ],
+      "required_prompt_phrases": {
+        "ng-ch05-sc01-p039": "three distinct upstream marks including the third mark at the torn edge"
+      },
+      "intent": "Make the deduction clue count explicit."
+    },
+    {
+      "gate_id": "drum_fully_out",
+      "panel_ids": [
+        "ng-ch05-sc01-p041"
+      ],
+      "required_prompt_phrases": {
+        "ng-ch05-sc01-p041": "drum fully cold and out: no ember, no flame, no smoke plume"
+      },
+      "intent": "Allow silence and cessation to drive retreat."
+    },
+    {
+      "gate_id": "map_possession",
+      "panel_ids": [
+        "ng-ch05-sc01-p037",
+        "ng-ch05-sc01-p043",
+        "ng-ch05-sc01-p046"
+      ],
+      "required_prompt_phrases": {
+        "ng-ch05-sc01-p037": "same tin now open on the stone beside the retained creek map",
+        "ng-ch05-sc01-p043": "leave the open tin but Sigrid visibly keeps the creek map",
+        "ng-ch05-sc01-p046": "Sigrid hides that same retained creek map under her plaid wrap"
+      },
+      "intent": "Prevent the map from being abandoned then reappearing."
+    }
+  ],
+  "summary": {
+    "gates": 8,
+    "unique_affected_panels": 13,
+    "required_prompt_bindings": 15
+  },
+  "boundary": "Prompt-stage semantic contract only; it does not establish visual compliance, acceptance, canon revision, or commercial clearance."
+}

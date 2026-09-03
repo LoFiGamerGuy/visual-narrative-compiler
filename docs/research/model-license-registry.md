@@ -123,3 +123,8 @@ Post-CH05 integrated release r1 performs no network-capable command and changes 
 The r6 owner pointer links existing ignored pixels only and changes no provider/model/license/commercial-use conclusion. Its explicit rights group remains unfilled.
 
 The alternate-graphic preflight authorizes no new provider or data class. If executed, it is restricted to OpenAI built-in ImageGen and the same three exact fictional-adult reference hashes; model/endpoint/request ID/usage/cost/seed and commercial-use status remain unavailable or pending unless the product exposes them.
+## Built-in ImageGen alternate-graphic and clear-line-watercolor continuation — 2026-09-02
+
+The alternate-graphic run used only the OpenAI built-in ImageGen product and the three already-authorized exact fictional-adult reference hashes. It adds 11 outputs, 50 deterministic crops, and 23 reference uses. No BFL, direct paid API, alternate provider, real-person material, child-related material, private reference, LoRA, dataset, or new upload class was used. Model, endpoint, provider request ID, usage, monetary cost, deterministic seed, license grant, and commercial-use decision remain unavailable/open.
+
+The next clear-line-watercolor full-chapter arm has the same exact product and reference boundary. Its preflight creates no execution or new rights conclusion. All outputs remain pending human review, unaccepted, commercially uncleared, non-reproducible, and not an exact production base.

@@ -1,0 +1,55 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "2.4",
+  "record_id": "ng-comic-style-ch05-mill-signal-r15",
+  "state": "R6_SELECTED_WITH_CROSS_PANEL_GATES_CLEAR_LINE_ARM_PREFLIGHT",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r14",
+    "path": "production/comic/style-direction/ch05-mill-signal-r14.json",
+    "sha256": "d9a630bf496bde7e05a5e07329507eaccadc5910c12ae10b011e61422de774f7"
+  },
+  "selected_engineering_route": "CH05 r6 complete-chapter sequence pipeline plus explicit cross-panel semantic gates; preserve alternate panels as evidence, not wholesale replacements",
+  "r6_status": {
+    "frozen_panel_local_triage": {"pass": 49, "warn": 1, "fail": 0},
+    "supplemental_cross_panel_gate_audit": {"pass": 47, "warn": 1, "fail": 2},
+    "supplemental_fail_panels": ["P001 premature farmhouse smoke/lit window", "P041 drum still hot/pluming"],
+    "supplemental_warn_panels": ["P032 footprint orientation"],
+    "frozen_records_modified": false
+  },
+  "alternate_graphic_r1": {
+    "sequence_outputs": 11,
+    "comic_panel_plan_crops": 50,
+    "agent_triage": {"pass": 36, "warn": 7, "fail": 7, "gating": false},
+    "hair_and_wardrobe_pass": 50,
+    "style_hypothesis": "NON_SEPARATING",
+    "complexity_alt_minus_r6": {"edge_density_ge_32": -0.004286, "grayscale_entropy_bits": -0.051381, "png_bytes_per_native_pixel": -0.015096},
+    "direct_paid_api_cloud_spend_usd": 0,
+    "built_in_product_cost_usd": null
+  },
+  "cross_panel_contract": {
+    "path": "production/comic/contracts/ch05-cross-panel-semantic-gates-r1.json",
+    "sha256": "dafa7e51adc63d87175e829163c7e3b2e3014e160c967e9254772c7cc300433d",
+    "gates": 8,
+    "unique_affected_panels": 13,
+    "required_prompt_bindings": 15
+  },
+  "next_complete_chapter_arm": {
+    "style": "mature clear-line adventure art with controlled transparent watercolor and materially larger quiet shapes",
+    "prompt_manifest": "production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-prompt-manifest-r1.json",
+    "sequence_requests": 11,
+    "comic_panel_plans": 50,
+    "planned_reference_uses": 23,
+    "preflight_state": "PASS"
+  },
+  "lettering": "Reuse the approved 20-beat translucent review treatment and canonical safe zones; never obscure faces, adults, hands, silhouettes, or causal objects.",
+  "limitations": [
+    "The new gates constrain prompts but do not prove pixel compliance.",
+    "Complexity proxies do not measure artistic quality or acceptance.",
+    "All generated art remains pending human review, unaccepted, commercially uncleared, and not an exact production base.",
+    "Built-in model, endpoint, provider request ID, usage, monetary cost, and seed remain unavailable."
+  ],
+  "adrs": ["ADR-0182", "ADR-0183"]
+}

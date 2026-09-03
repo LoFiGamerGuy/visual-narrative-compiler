@@ -498,3 +498,8 @@ Post-CH05 integrated release r1 passes 10/10 commands and 93 effective checks in
 The r6 owner pointer binds ten review artifacts, 13 strongest candidates, two P032 candidates, and three authority-separated decision groups; 12/12 mutations fail. It is navigation evidence only and does not add a visual score or acceptance result.
 
 The complete alternate-graphic preflight covers 50/50 plans in 11 exact 3-5-panel prompts and rejects 12/12 malformed fixtures. It plans 23 authorized reference uses and zero paid/provider-budget activity. No renderer-quality result exists until execution; R6 remains the unchanged comparison baseline.
+## CH05 r6 versus alternate-graphic full-chapter comparison — 2026-09-02
+
+Both arms cover the same 50 ordered ComicPanelPlans. The alternate arm adds 11 strips and 50 crops in 954.3 seconds of overlap-adjusted ImageGen tool-call wall. Its non-gating triage is 36 PASS / 7 WARN / 7 FAIL with 50/50 hair-and-wardrobe continuity. R6's preserved panel-local triage remains 49/1/0; the new supplemental cross-panel gate audit is 47/1/2 because P001 preempts the smoke reversal and P041 remains visibly hot/pluming.
+
+At 390-pixel normalization and equal panel weight, r6 versus alternate aggregate measurements are: edge density 0.220004 versus 0.215718, grayscale entropy 6.889241 versus 6.837860 bits, and source PNG bytes/native pixel 1.623124 versus 1.608028. These small changes do not support a material density advantage and do not measure artistic quality. The selected engineering route remains r6 plus explicit cross-panel gates.

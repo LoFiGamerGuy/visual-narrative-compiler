@@ -141,3 +141,8 @@ Post-CH05 integrated release r1 runs ten local no-network commands in 4.481 seco
 The r6 owner start-here pointer adds no renderer generation, provider call, upload, candidate, acceptance, publication, or external cost. Human minutes remain null.
 
 The complete alternate-graphic preflight creates 11 exact prompt records but makes zero executions/uploads/outputs and incurs zero direct paid API/cloud cost. Twenty-three reference uses are planned, not yet performed. Built-in future cost and human review minutes remain unavailable/null.
+## 2026-09-02 alternate-graphic full-chapter execution
+
+Eleven OpenAI built-in ImageGen tool calls produced 11 sequence rasters and 50 deterministic panel crops using 23 authorized reference uses across the same three exact hashes. Six timing batches total 954.3 seconds of overlap-adjusted tool-call wall; this includes any queue, generation, and transfer time visible to Codex and is not pure model inference. Only S01 has individual timing (91.5 seconds); paired-call times remain null.
+
+Direct paid API/cloud calls, BFL calls, and paid API/cloud spend are 0/0/$0. Built-in product monetary cost, model, endpoint, request ID, usage, and seed remain unavailable, not zero. Cost ledger r31 preserves 91 prior local milestones, appends seven local instrumentation milestones, and separately records the 11 built-in calls so they are not mislabeled as local work or multiplied into 50 provider calls.

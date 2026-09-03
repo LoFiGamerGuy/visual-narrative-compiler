@@ -1,0 +1,737 @@
+{
+  "record_type": "CH05CompleteChapterAlternateGraphicExecutionManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-complete-chapter-alt-graphic-executions-r1",
+  "state": "EXECUTED_UNACCEPTED_PENDING_HUMAN_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "input_prompt_manifest": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-alt-graphic-prompt-manifest-r1.json",
+    "sha256": "c03f4c5de5d11ad41a9d3c090cecea56c3550a13c5458eab0e9d24ba34abbce5"
+  },
+  "summary": {
+    "sequence_outputs": 11,
+    "comic_panel_plans_requested": 50,
+    "authorized_reference_uses": 23,
+    "unique_timing_batches": 6,
+    "overlap_adjusted_tool_call_wall_seconds": 954.3,
+    "timing_scope": "Codex ImageGen tool-call wall at 0.1-second precision; includes any queue, generation, and transfer time exposed to the caller.",
+    "per_output_elapsed_seconds_available": 1,
+    "direct_paid_provider_api_calls": 0,
+    "paid_spend_usd": 0.0,
+    "human_reviewed_outputs": 0,
+    "accepted_outputs": 0,
+    "commercially_cleared_outputs": 0,
+    "exact_production_base_outputs": 0
+  },
+  "timing_batches": [
+    {
+      "timing_batch_id": "b01-single",
+      "wall_seconds": 91.5,
+      "member_sequence_ids": [
+        "alt-graphic-s01-opening-departure"
+      ]
+    },
+    {
+      "timing_batch_id": "b02-parallel",
+      "wall_seconds": 169.0,
+      "member_sequence_ids": [
+        "alt-graphic-s02-runnel-marker-trail",
+        "alt-graphic-s03-listening-twine-ridge"
+      ]
+    },
+    {
+      "timing_batch_id": "b03-parallel",
+      "wall_seconds": 179.6,
+      "member_sequence_ids": [
+        "alt-graphic-s04-mill-reveal-bridge-warning",
+        "alt-graphic-s05-creek-marker-drum"
+      ]
+    },
+    {
+      "timing_batch_id": "b04-parallel",
+      "wall_seconds": 184.7,
+      "member_sequence_ids": [
+        "alt-graphic-s06-ember-line-entry",
+        "alt-graphic-s07-impossible-footprints-bell"
+      ]
+    },
+    {
+      "timing_batch_id": "b05-parallel",
+      "wall_seconds": 182.7,
+      "member_sequence_ids": [
+        "alt-graphic-s08-plank-tin-map",
+        "alt-graphic-s09-deduction-retreat-cut"
+      ]
+    },
+    {
+      "timing_batch_id": "b06-parallel",
+      "wall_seconds": 146.8,
+      "member_sequence_ids": [
+        "alt-graphic-s10-silence-return",
+        "alt-graphic-s11-farmhouse-reversal"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "sequence_id": "alt-graphic-s01-opening-departure",
+      "source_sequence_id": "s01-opening-departure",
+      "panel_range": [
+        1,
+        5
+      ],
+      "panel_count": 5,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P001–P005\nPrimary request: Create one polished five-panel vertical webcomic strip with five clearly separated panels in exact top-to-bottom story order. This is the chapter opening and must read as a coherent suspense sequence, not a character sheet or collage.\nInput images: Image 1 is the exact authorized fictional-adult dual-character hair, wardrobe, silhouette, and action reference. Image 2 is the exact authorized fictional-adult Sigrid face, dark hair, plaid wrap, and mature close-up reference. Preserve identities and clothing while changing the actions and setting.\nPanel 1 — P001: wide downhill departure before damp grass dries; farmhouse behind; Sigrid leads and Soren follows as small but distinct mature adult figures; one travel vector; calm dawn scale; quiet low-detail upper-left field.\nPanel 2 — P002: over-shoulder map insert with Sigrid checking smoke direction against the folded creek map; one hand circles or indicates the smoke route; her dark tied-back hair and plaid shoulder remain identifiable; quiet low-detail upper-right field.\nPanel 3 — P003: low track detail where fresh boot prints overlap the trail instead of leading it; Soren’s practical boot is visibly held back before stepping; pale oatmeal coat hem identifies him; quiet low-detail upper-left field.\nPanel 4 — P004: restrained two-shot, Soren and Sigrid stopped in opposite thirds exchanging a wary look, neither explaining the changed tracks; mature expressive faces and clean eyeline; quiet low-detail upper-right field.\nPanel 5 — P005: no people; horizontal environmental insert of rainwater feeding a shallow runnel across the trail, one clear water direction; quiet low-detail upper-center field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: short-to-medium wavy light-brown/dark-blond hair swept back, never black; weathered angular adult face with light stubble; pale oatmeal work coat over muted blue-gray work layers, dark trousers and practical boots; lean sturdy adult build; folded map may identify him.\nContinuity — Sigrid: dark-brown/near-black hair tied in a low bun or compact braid, never blond; mature angular adult face, dark brows, gray-blue eyes; dark blue-brown plaid wrap over gray-green practical expedition layers, dark trousers and boots; athletic grounded adult build.\nComposition: tall scroll with five discrete rectangular panels and clean narrow gutters; vary wide, close, low insert, two-shot, and environmental insert; protect each specified quiet upper field from faces, people, important hands, prints, map, or water direction.\nConstraints: exactly specified cast per panel; fictional adults only with mature proportions and practical non-sexualized clothes; readable anatomy and hands; physical cause-and-effect; no extra people; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05.\nText: no speech balloons, captions, labels, sound effects, panel numbers, logos, signatures, or watermark.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "3c1b63131b0c9a659d3add4ed4561f8c8df58cdee446c80a1ef60dc30fe92cda",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-365fa1e5-eb4b-45b0-9b5a-1fe19a0d33f2",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b01-single",
+        "elapsed_seconds": 91.5,
+        "parallel_batch_wall_seconds": 91.5,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s01-opening-departure-alt-graphic-r1.png",
+        "sha256": "54d35f55e7bfbb4d761748bad9653177d68508808d02acb376eb61d013cc1d50",
+        "width": 805,
+        "height": 1953,
+        "bytes": 2674155
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "sequence_id": "alt-graphic-s02-runnel-marker-trail",
+      "source_sequence_id": "s02-runnel-marker-trail",
+      "panel_range": [
+        6,
+        9
+      ],
+      "panel_count": 4,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P006–P009\nPrimary request: Create one polished four-panel vertical webcomic strip with four clearly separated panels in exact top-to-bottom story order. This continues directly after a rainwater runnel and moves the pair from trail evidence into a narrowing wet forest.\nInput images: Image 1 is the exact authorized fictional-adult dual-character hair, wardrobe, silhouette, and action reference. Image 2 is the exact authorized fictional-adult Sigrid face, dark hair, plaid wrap, and mature close-up reference. Preserve identity and wardrobe; do not copy the farmhouse running pose.\nPanel 1 — P006: side view; Sigrid steps the shallow runnel first with grounded weight and points to an older stone marker while Soren waits behind; splash, boot placement, and pointing gesture are causal and readable; quiet low-detail upper-right field.\nPanel 2 — P007: no people; close stone texture showing a simple weathered mill-wheel circle carved into the old marker, clearly a symbol rather than a written name; quiet low-detail upper-center field.\nPanel 3 — P008: close hands-and-map insert; Soren folds the paper map to hide the farmhouse section and expose the creek line; oatmeal coat cuffs, both adult hands, and fold geometry are clear; no face required; quiet low-detail upper-right field.\nPanel 4 — P009: tall-feeling long narrow path beneath wet branches; Sigrid leads and Soren follows deeper into the woods, their silhouettes and hair/wardrobe unmistakable; quiet low-detail upper-left field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: short-to-medium wavy light-brown/dark-blond hair swept back, never black; weathered angular adult face with light stubble; pale oatmeal work coat over muted blue-gray layers, dark trousers and practical boots; lean sturdy adult build.\nContinuity — Sigrid: dark-brown/near-black hair tied in a low bun or compact braid, never blond; mature angular adult face; dark blue-brown plaid wrap over gray-green practical layers, dark trousers and boots; athletic grounded adult build.\nComposition: tall scroll with four discrete rectangular panels and clean narrow gutters; vary side action, small object insert, hand/map close-up, and deep trail movement; protect specified quiet upper fields from faces, people, important hands, marker symbol, map fold, and essential silhouettes.\nConstraints: exactly specified cast per panel; clearly fictional mature adults; practical non-sexualized clothing; readable hands; no extra people; no child-coded appearance; no monsters, armor, magic, or undeclared weapons.\nText: no speech balloons, captions, words, labels, sound effects, panel numbers, logos, signatures, or watermark.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "572d91dd49f25ff7ba59a6e0b944aae6b3bf3e976a6ee8e1901490ed5c388572",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-b3c9ec12-3cab-4ca5-9f49-773b16587900",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b02-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 169.0,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s02-runnel-marker-trail-alt-graphic-r1.png",
+        "sha256": "0f96433c5bf60a06ee1e4900f02c023d71592ab7ca1f43f0ae48e43afdd51cbe",
+        "width": 814,
+        "height": 1931,
+        "bytes": 2743149
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "sequence_id": "alt-graphic-s03-listening-twine-ridge",
+      "source_sequence_id": "s03-listening-twine-ridge",
+      "panel_range": [
+        10,
+        14
+      ],
+      "panel_count": 5,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P010–P014\nPrimary request: Create one polished five-panel vertical webcomic strip with five clearly separated panels in exact top-to-bottom order. This is a coherent suspense sequence, not a character sheet or collage.\nInput images: Image 1 is the exact authorized fictional-adult dual-character hair, wardrobe, silhouette, and action reference. Image 2 is the exact authorized fictional-adult Sigrid face, dark hair, plaid wrap, and mature close-up reference. Preserve character identity and wardrobe; do not copy the farmhouse action.\nPanel 1 — P010: close profile of Sigrid, a clearly mature fictional adult woman, listening toward blank dark wet woods before the water is visible; restrained expression; quiet low-detail upper-right field.\nPanel 2 — P011: close hand insert of Soren’s adult hand discovering one length of soot-stained twine caught on a wet thorn; pale oatmeal coat cuff identifies him; no face needed; quiet low-detail upper-left field.\nPanel 3 — P012: no people; taut soot-stained twine forms one clean diagonal downhill across an empty rain-dark trail, showing it was pulled and released; quiet low-detail upper-center field.\nPanel 4 — P013: rear wide view, Sigrid leading and Soren following down a creek bank instead of following tracks; both clearly mature adults, one decisive downhill travel vector, wet boot placement and cloth weight; quiet low-detail upper-left field.\nPanel 5 — P014: no people; broad distant ridge landscape where the smoke column has just vanished behind the ridge shoulder, leaving an uneasy pale gap; quiet low-detail upper-center field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: short-to-medium wavy light-brown/dark-blond hair swept back, never black; weathered angular adult face with light stubble; pale oatmeal work coat over muted blue-gray work layers, dark trousers and practical boots; lean sturdy adult build.\nContinuity — Sigrid: dark-brown/near-black hair tied in a low bun or compact braid, never blond; mature angular adult face, dark brows, gray-blue eyes; dark blue-brown plaid wrap over gray-green practical expedition layers, dark trousers and boots; athletic grounded adult build.\nComposition: tall scroll, five discrete rectangular panels with clean narrow gutters, strong silhouette rhythm, distinct shot scales, no repeated pose. Keep faces, people, important hands, twine, map-like clue geometry, and essential silhouettes out of each stated quiet upper field.\nConstraints: exactly the specified cast in each panel; fictional adults only; mature proportions; practical non-sexualized clothing; readable hands; physical cause-and-effect; no child-coded features; no extra people; no monsters, armor, magic, or weapons in this CH05 sequence; no face/hand/prop obstruction.\nText: no speech balloons, captions, labels, sound effects, logos, signatures, or watermark. Do not render panel numbers or any text.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "92d86100b85770d2fb6edec2972061fcdb71d5868fc77221a9f60e91a2aa92b0",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-41b244e6-5025-4a8a-9ed9-74e35e043182",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b02-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 169.0,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s03-listening-twine-ridge-alt-graphic-r1.png",
+        "sha256": "43e95123d58c72d90cd0820d799310e71de2af940cd6ad9482f975f4ede0b4b8",
+        "width": 816,
+        "height": 1928,
+        "bytes": 2430175
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "sequence_id": "alt-graphic-s04-mill-reveal-bridge-warning",
+      "source_sequence_id": "s04-mill-reveal-bridge-warning",
+      "panel_range": [
+        15,
+        19
+      ],
+      "panel_count": 5,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P015–P019\nPrimary request: Create one polished five-panel vertical webcomic strip with five clearly separated panels in exact top-to-bottom story order. This sequence turns navigation into the first mill reveal and a bridge warning.\nInput images: Image 1 is the exact authorized fictional-adult dual-character hair, wardrobe, silhouette, and action reference. Image 2 is the exact authorized fictional-adult Sigrid face and plaid-wrap reference. Preserve identities and wardrobe in new actions.\nPanel 1 — P015: map close-up; Sigrid’s wet adult thumb marks where smoke vanished from sight, partially obscuring the creek line; plaid sleeve edge identifies her; quiet low-detail upper-left field.\nPanel 2 — P016: medium side two-shot, both mature adults walking without facing each other; Soren quietly reasons that the smoke must be closer than it looks, conveyed only by his thoughtful expression and small natural hand gesture—no text; quiet low-detail upper-right field.\nPanel 3 — P017: no people; large wide reveal of an abandoned water mill below, broken roofline against pale morning, creek and old bridge establishing geography; quiet low-detail upper-center field.\nPanel 4 — P018: no people; telephoto environmental detail showing a thin smoke column rising from behind the mill, clearly not from its chimney; quiet low-detail upper-center field.\nPanel 5 — P019: Sigrid in foreground gives one unmistakable flat-palm stop signal that holds Soren back from stepping onto the open decayed bridge; causal hand/body relationship clear; bridge ahead; quiet low-detail upper-left field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: short-to-medium wavy light-brown/dark-blond hair swept back, never black; weathered angular mature adult face, light stubble; pale oatmeal work coat over muted blue-gray layers, dark trousers, practical boots; lean sturdy build.\nContinuity — Sigrid: dark-brown/near-black hair tied in low bun or compact braid, never blond; mature angular adult face; dark blue-brown plaid wrap over gray-green practical layers, dark trousers, boots; athletic grounded build.\nComposition: tall scroll, five discrete rectangular panels, clean narrow gutters, varied close/medium/hero-wide/telephoto/action scales. Protect each quiet upper field from faces, people, important hands, map clue, mill silhouette, smoke source, or bridge warning gesture.\nConstraints: exact cast per panel; fictional mature adults only; practical non-sexualized clothes; readable hands and cause/effect; no extra people; no child-coded appearance; no monsters, armor, magic, or weapons.\nText: no balloons, captions, labels, sound effects, words, panel numbers, logos, signatures, or watermark.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "844dde568f69fa8d5f76817877e2500f00fa67cd38ba4c7d5b1e80dbd2ea3258",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-4f2c9e37-b43a-45f8-b989-db1d203e6876",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b03-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 179.6,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s04-mill-reveal-bridge-warning-alt-graphic-r1.png",
+        "sha256": "2ecbb6ae1755e13b159172cb736c23b39dcace52439706c111a77ca9be5b082b",
+        "width": 851,
+        "height": 1847,
+        "bytes": 2567186
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "sequence_id": "alt-graphic-s05-creek-marker-drum",
+      "source_sequence_id": "s05-creek-marker-drum",
+      "panel_range": [
+        20,
+        24
+      ],
+      "panel_count": 5,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P020–P024\nPrimary request: Create one polished five-panel vertical webcomic strip with five clearly separated panels in exact top-to-bottom story order. The pair avoid the bridge, discover a fresh red marker, and approach the hidden smoke source.\nInput images: Image 1 is the exact authorized fictional-adult dual-character hair, wardrobe, silhouette, and action reference. Image 2 is the exact authorized fictional-adult Sigrid face and plaid-wrap reference. Preserve identities and wardrobe.\nPanel 1 — P020: high-angle action panel; Sigrid and Soren cross the creek on separated stepping stones below the bridge, each on a distinct stone, grounded balance and water splash, Sigrid leading; quiet low-detail upper-right field.\nPanel 2 — P021: no people; small close insert of one freshly tied strip of muted red cloth moving from a lower wet branch, background deliberately unreadable; quiet low-detail upper-center field.\nPanel 3 — P022: close tension beat; Soren gently stops Sigrid’s reaching hand before either hand touches the red cloth marker; oatmeal cuff, plaid cuff, cloth, and the gap between hands all clearly visible; quiet low-detail upper-right field.\nPanel 4 — P023: side tracking wide; both adults circle through wet grass toward the mill’s collapsed loading door, cautious low posture and one travel vector; quiet low-detail upper-left field.\nPanel 5 — P024: no people; revealing insert of a thin smoke thread rising from a metal drum hidden behind an old stone wall beside the mill; drum and stone occlusion clearly readable; quiet low-detail upper-center field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: wavy light-brown/dark-blond swept-back hair, never black; mature weathered face with light stubble; pale oatmeal work coat, muted blue-gray layers, dark trousers, boots; lean sturdy adult.\nContinuity — Sigrid: dark-brown/near-black tied-back hair, never blond; mature angular face; dark blue-brown plaid wrap over gray-green practical layers, dark trousers, boots; athletic adult.\nComposition: tall scroll, five discrete panels with clean narrow gutters; varied high action, small clue insert, hand close-up, tracking wide, reveal insert. Protect quiet upper fields from faces, people, important hands, red cloth, travel silhouette, drum, and smoke.\nConstraints: exact cast per panel; clearly fictional adults with mature proportions; practical non-sexualized clothing; readable anatomy; no extra people; no child-coded features; no monsters, armor, magic, or undeclared weapons.\nText: no balloons, captions, labels, sound effects, words, panel numbers, logos, signatures, or watermark.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "eb3fd06c505e0dd19e8a1b9c98ee9e0668d89c2b70ee164181d68c7662cfe26f",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-7d7278d8-1c1b-4844-a278-69a50d53a1f5",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b03-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 179.6,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s05-creek-marker-drum-alt-graphic-r1.png",
+        "sha256": "14de3a858330ebef9bbd85465c35053386debe04f1535fa475bc21dc77af234b",
+        "width": 842,
+        "height": 1869,
+        "bytes": 2495826
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "sequence_id": "alt-graphic-s06-ember-line-entry",
+      "source_sequence_id": "s06-ember-line-entry",
+      "panel_range": [
+        25,
+        29
+      ],
+      "panel_count": 5,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P025–P029\nPrimary request: Create one polished five-panel vertical webcomic strip in exact top-to-bottom story order. This is a forensic clue sequence ending with Sigrid choosing a dangerous side entrance.\nInput images: Image 1 is the exact authorized fictional-adult dual-character hair/wardrobe/action reference. Image 2 is the exact authorized fictional-adult Sigrid face/dark-hair/plaid-wrap reference. Preserve identity and wardrobe.\nPanel 1 — P025: no people; close overhead discovery inside the rusty drum: wet pine needles and one weak damp ember, not a campfire; sparse, readable objects; quiet upper-center field.\nPanel 2 — P026: Sigrid alone, mature adult hand held safely above the drum testing heat without touching or disturbing the ember; a thin smoke wisp separates her fingers; plaid cuff and causal spacing clear; quiet upper-right field.\nPanel 3 — P027: Soren alone at left in oatmeal coat, alert mature profile, seeing one second taut twine line disappear rightward through a crack in the mill wall into darkness; his eyeline and the line are unmistakable; quiet upper-left field.\nPanel 4 — P028: no people; close small brass bell just inside the doorway, one twine line tied to it, perfectly still and silent; quiet upper-center field.\nPanel 5 — P029: low angled two-adult entry; Sigrid chooses and begins through a collapsed wall opening rather than the bell-trapped doorway, while Soren remains outside watching the exterior; distinct roles and readable spatial geography; quiet upper-left field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: wavy light-brown/dark-blond swept-back hair, never black; mature weathered angular face with light stubble; pale oatmeal work coat, muted blue-gray layers, dark trousers, boots; lean sturdy adult.\nContinuity — Sigrid: dark-brown/near-black hair in low bun or compact braid, never blond; mature angular face; dark blue-brown plaid wrap over gray-green practical layers, dark trousers, boots; athletic adult.\nComposition: tall scroll, five discrete rectangular panels, clean narrow gutters, distinct overhead/hand/eyeline/object/entry shots. Keep faces, hands, ember, smoke, twine, bell, opening, and silhouettes outside stated quiet upper fields.\nConstraints: exact cast per panel; fictional mature adults only; practical non-sexualized clothing; readable hands and cause/effect; no extra people; no child-coded features; no monsters, armor, magic, or undeclared weapons.\nText: no balloons, captions, labels, sound effects, words, panel numbers, logos, signatures, or watermark.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "3af6451c28dc8b296b6862c89f9b39cdd46d69da502a1284abf7a9a4cf478879",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-b37bcdea-ebdf-4f95-ac5f-860dafc24df1",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b04-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 184.7,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s06-ember-line-entry-alt-graphic-r1.png",
+        "sha256": "bfe81e7f779f147e93c387eb29f39589debd73171649f8fc2579b147f9b7383f",
+        "width": 841,
+        "height": 1871,
+        "bytes": 2448987
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "sequence_id": "alt-graphic-s07-impossible-footprints-bell",
+      "source_sequence_id": "s07-impossible-footprints-bell",
+      "panel_range": [
+        30,
+        34
+      ],
+      "panel_count": 5,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P030–P034\nPrimary request: Create one polished five-panel vertical webcomic strip in exact top-to-bottom story order. This is an eerie mill-interior sequence: geography, impossible tracks, then a bell warning that freezes both adults.\nInput images: Image 1 is the exact authorized fictional-adult dual-character hair/wardrobe/action reference. Image 2 is the exact authorized fictional-adult Sigrid face/dark-hair/plaid-wrap reference. Preserve identity and wardrobe while placing them inside the mill.\nPanel 1 — P030: no people; large interior establishing panel where bars of pale daylight stripe shallow standing water, broken gears, timber beams, and ruined stone; physically coherent abandoned water mill; quiet upper-center field.\nPanel 2 — P031: Sigrid alone, crouched mature silhouette in plaid wrap, finding dry footprints that end abruptly at the near water edge; prints and termination are clearly visible; quiet upper-left field.\nPanel 3 — P032: Soren alone at near side in oatmeal coat, deep perspective across standing water to dry footprints beginning again on the far side and facing back toward him; impossible orientation is readable; quiet upper-right field.\nPanel 4 — P033: a single water drip strikes the brass bell outside/near the doorway; both mature adults freeze at different depths inside, alert but controlled, with doorway and bell relationship visible; restrained physical vibration only at bell; quiet upper-left field.\nPanel 5 — P034: held wide aftermath; neither adult moves toward the bell; they remain in different depths while the empty doorway dominates as negative space; quiet upper-right field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: wavy light-brown/dark-blond swept-back hair, never black; mature weathered face/light stubble; pale oatmeal coat, muted blue-gray layers, dark trousers, boots; lean sturdy adult.\nContinuity — Sigrid: dark-brown/near-black tied-back hair, never blond; mature angular face; dark blue-brown plaid wrap, gray-green practical layers, dark trousers, boots; athletic adult.\nComposition: tall scroll, five discrete panels with clean narrow gutters; establish clear consistent mill geometry across panels; protect quiet upper fields from people, faces, prints, bell, doorway, and essential silhouettes.\nConstraints: exact cast per panel; clearly fictional mature adults; practical non-sexualized clothing; readable anatomy; no extra people or implied hidden person; no child-coded features; no monsters, armor, magic, or undeclared weapons.\nText: no balloons, captions, labels, sound effects, words, panel numbers, logos, signatures, or watermark.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "1740f559fc9657905b04bb9d11227611c361024c7ae7e88a9450e5bf117b8bcc",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-9c340baa-177e-4b2f-b7d5-43c45f49ae36",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b04-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 184.7,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s07-impossible-footprints-bell-alt-graphic-r1.png",
+        "sha256": "7207f631c382719a64e2131088043f4ad0a288a2cab64f01bd414df6aa1fc61c",
+        "width": 854,
+        "height": 1842,
+        "bytes": 2489798
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "sequence_id": "alt-graphic-s08-plank-tin-map",
+      "source_sequence_id": "s08-plank-tin-map",
+      "panel_range": [
+        35,
+        39
+      ],
+      "panel_count": 5,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P035–P039\nPrimary request: Create one polished five-panel vertical webcomic strip in exact top-to-bottom story order. This is the cooperative discovery centerpiece: tin above, single-plank reach, contents, map symbols, torn-edge clue.\nInput images: Image 1 is the exact authorized fictional-adult dual-character identity/hair/wardrobe reference. Image 2 is the exact authorized Sigrid dark-hair/plaid-wrap face reference. Image 3 is authorized only as a composition reference for two-person single-plank leverage; do not copy its incorrect hair colors or its exact pixels. Identity/color must follow Images 1–2.\nPanel 1 — P035: no people visible; upward view inside mill, one sealed metal tin isolated on a high beam in daylight; quiet upper-center field that does not hide the tin.\nPanel 2 — P036: tall action anchor; Soren and Sigrid cooperate with exactly one fallen plank used as a long simple lever/reach tool, not a seesaw and not two planks. Soren grips one end and angles it upward to nudge the high tin; Sigrid braces the same plank lower down with both feet grounded. Clear continuous plank from her hands through his hands toward tin; adult weight, leverage, wet footing; quiet upper-right field.\nPanel 3 — P037: no people; object spread on a flat stone: opened tin, dry matches, one hand-drawn creek map, and one blank note card; exact count/readable separation; quiet upper-center field.\nPanel 4 — P038: no people; close map showing farmhouse as one small square and mill as one circle, with no written labels; two deliberate symbols and creek line; quiet upper-center field.\nPanel 5 — P039: Soren alone in oatmeal sleeve; his adult finger stops at the torn paper edge where a third mark continues upstream beyond the map; thoughtful partial face may appear; clue geometry clear; quiet upper-left field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: wavy light-brown/dark-blond swept-back hair, never black; mature angular weathered face with light stubble; pale oatmeal work coat, muted blue-gray layers, dark trousers/boots; lean sturdy adult.\nContinuity — Sigrid: dark-brown/near-black hair tied in low bun/compact braid, never blond; mature angular face; dark blue-brown plaid wrap over gray-green practical layers, dark trousers/boots; athletic adult.\nComposition: tall scroll with five discrete panels and clean narrow gutters; varied upward insert, tall causal action, object still life, map close, character-hand clue. Keep faces, hands, tin, plank, props, symbols, and torn edge outside specified quiet fields.\nConstraints: exact cast per panel; fictional mature adults; practical non-sexualized clothing; accurate hands and leverage; exactly one plank and one tin; no extra people; no child-coded features; no monsters, armor, magic, or undeclared weapons.\nText: no balloons, captions, labels, words, sound effects, panel numbers, logos, signatures, or watermark.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "9db58b991b7dbc515dac0e306dde9eac1d936783f817160bc32e7fbaf7f47645",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        },
+        {
+          "reference_id": "p036_composition_only",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-d5bb3d06-3f81-4c1c-9211-274ee43e92a3",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b05-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 182.7,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s08-plank-tin-map-alt-graphic-r1.png",
+        "sha256": "f05d8c034646414727aa81e4e3e6ff51a43465498b6c320aa35d19c0570df2dc",
+        "width": 851,
+        "height": 1848,
+        "bytes": 2832704
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "sequence_id": "alt-graphic-s09-deduction-retreat-cut",
+      "source_sequence_id": "s09-deduction-retreat-cut",
+      "panel_range": [
+        40,
+        44
+      ],
+      "panel_count": 5,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P040–P044\nPrimary request: Create one polished five-panel vertical webcomic strip in exact top-to-bottom story order. Deduction becomes renewed danger, retreat, and one precise twine cut.\nInput images: Image 1 is the exact authorized fictional-adult dual-character identity/hair/wardrobe/action reference. Image 2 is the exact authorized Sigrid face/dark-hair/plaid-wrap reference. Preserve identities and clothing.\nPanel 1 — P040: close mature Sigrid profile inside mill, calmly realizing the smoke was a signal rather than a campfire; alert gray-blue eyes and controlled deduction; no speech; quiet upper-right field.\nPanel 2 — P041: no people; outside hidden drum in rain as the last ember dies and the smoke thins to almost nothing above wet metal; quiet upper-center field.\nPanel 3 — P042: no people; empty mill doorway with one taut twine line leading toward creek side, brass bell visibly ringing once with restrained vibration at the source; quiet upper-center field.\nPanel 4 — P043: rear two-shot inside mill; Soren and Sigrid leave the opened tin and contents on the stone while retreating backward together, watching the doorway; careful shared motion and clear prop left behind; quiet upper-left field.\nPanel 5 — P044: close causal hand action at creek; Soren’s mature hands and oatmeal coat cuff use a small practical pocket knife to cut exactly one taut twine line; blade contacts twine at the moment fibers part; fingers safely clear; quiet upper-right field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: wavy light-brown/dark-blond swept-back hair, never black; mature weathered face/light stubble when visible; pale oatmeal work coat, muted blue-gray layers, dark trousers/boots; lean sturdy adult.\nContinuity — Sigrid: dark-brown/near-black tied-back hair, never blond; mature angular face; dark blue-brown plaid wrap, gray-green practical layers, dark trousers/boots; athletic adult.\nComposition: tall scroll, five discrete rectangular panels, clean gutters, varied close/environment/object/two-shot/macro action. Protect specified quiet upper fields from faces, hands, smoke, bell, twine, tin/props, silhouettes, knife contact.\nConstraints: exact cast per panel; clearly fictional mature adults; practical non-sexualized clothing; physically accurate hands and safe knife grip; one knife and one twine; no extra people; no child-coded features; no monsters, armor, or magic.\nText: no balloons, captions, labels, words, sound effects, panel numbers, logos, signatures, or watermark.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "6501478ba150b02d2957eef23ee06689a4209ceb55c13f8d7fe6e098be31e8b9",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-436ce91c-0bda-4e64-bf7e-8272e1647aff",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b05-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 182.7,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s09-deduction-retreat-cut-alt-graphic-r1.png",
+        "sha256": "3ab936afa59448ff2629149886ba06ad3d28f5d1dbbffe68690e5e577f1e9027",
+        "width": 830,
+        "height": 1896,
+        "bytes": 2388131
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "sequence_id": "alt-graphic-s10-silence-return",
+      "source_sequence_id": "s10-silence-return",
+      "panel_range": [
+        45,
+        47
+      ],
+      "panel_count": 3,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P045–P047\nPrimary request: Create one polished three-panel vertical webcomic strip in exact top-to-bottom story order. This is the quiet release after cutting the alarm line, followed by a purposeful uphill return.\nInput images: Image 1 is the exact authorized fictional-adult dual-character identity/hair/wardrobe/action reference. Image 2 is the exact authorized Sigrid face/dark-hair/plaid-wrap reference. Preserve identities and clothing.\nPanel 1 — P045: no people; quiet creek and abandoned mill exterior after the twine cut, bell visible in the middle distance but perfectly still, no vibration or sound; calm negative space; quiet upper-center field.\nPanel 2 — P046: Sigrid alone in a medium-close wardrobe/prop continuity shot, deliberately sliding the hand-drawn creek map inside her dark blue-brown plaid wrap rather than into the visible notebook/satchel; mature practical action, map destination unmistakable; quiet upper-right field.\nPanel 3 — P047: broad wide uphill silhouettes under a newly cleared pale sky; Sigrid and Soren climb back toward the farmhouse direction, no smoke visible, grounded footfalls and heavy damp cloth; quiet upper-left field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: wavy light-brown/dark-blond swept-back hair, never black; mature weathered face/light stubble; pale oatmeal work coat, blue-gray layers, dark trousers/boots; lean sturdy adult.\nContinuity — Sigrid: dark-brown/near-black tied-back hair, never blond; mature angular face; dark blue-brown plaid wrap, gray-green practical layers, dark trousers/boots; athletic adult.\nComposition: tall scroll, three discrete rectangular panels with clean gutters; vary environmental wide, character close, landscape wide. Protect quiet fields from bell, map, hands, face, people, and silhouettes.\nConstraints: exact cast per panel; clearly fictional mature adults; practical non-sexualized clothing; readable hands; no extra people; no child-coded features; no monsters, armor, magic, or undeclared weapons.\nText: no balloons, captions, labels, words, sound effects, panel numbers, logos, signatures, or watermark.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "801e516136198622b768f96918c5509d33e1085fa8e58fbb9456ffa0d07d63a6",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-36b024a1-a0f0-4d5c-abaf-44e4a0819757",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b06-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 146.8,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s10-silence-return-alt-graphic-r1.png",
+        "sha256": "331b5dc9105a0a44f3ddf738ace18e08c58b2390714b123c85c4511b7fb5a117",
+        "width": 853,
+        "height": 1843,
+        "bytes": 2395609
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "sequence_id": "alt-graphic-s11-farmhouse-reversal",
+      "source_sequence_id": "s11-farmhouse-reversal",
+      "panel_range": [
+        48,
+        50
+      ],
+      "panel_count": 3,
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter climax vertical sequence strip, ComicPanelPlans P048–P050\nPrimary request: Create one polished three-panel vertical webcomic strip in exact top-to-bottom story order. This is the chapter reversal and urgent cliffhanger: unexpected farmhouse smoke, realization, then a full-force run home.\nInput images: Image 1 is the exact authorized fictional-adult dual-character hair, wardrobe, silhouette, and running reference. Image 2 is the exact authorized mature Sigrid face/dark hair/plaid wrap reference. Preserve identities and clothing but make the action more urgent and physical than the reference.\nPanel 1 — P048: no people; large distant ridge reveal of the farmhouse as the destination, its chimney now producing a fresh unmistakable smoke column under clearing sky; landscape geography and reversal are immediately readable; quiet upper-center field away from smoke.\nPanel 2 — P049: dramatic medium-close Soren in foreground, mature face snapping from thought to alarm as he realizes they never lit the stove; farmhouse and smoke remain far beyond him; pale oatmeal coat, light-brown/dark-blond hair and map identify him; no text; quiet upper-left field.\nPanel 3 — P050: large hero-wide directional rush toward the house; Sigrid breaks into a powerful uphill run in front, Soren follows with the folded map; mature athletic weight shifts, mud kick, boot traction, plaid wrap and oatmeal coat streaming with real cloth weight, urgent faces/silhouettes, house visibly ahead. Use grounded causal motion, not generic speed lines; quiet upper-right field.\nStyle/medium: clean lower-density graphic adventure webcomic; confident clear contours, simplified shadow shapes, restrained six-to-eight-color cold wet palette, selective cel-painted facial modeling, minimal texture, and no decorative hatching. Prioritize silhouettes, expressions, hands, props, and causal motion at 390-pixel phone width. Detailed anchors may use one extra value layer; dialogue/deduction/inserts must stay visibly calmer.\nAlternate-style control: preserve the exact story and current CH05 fictional-adult hair/wardrobe identities, but do not imitate the painterly density of the references. Use large readable shapes, decisive negative space, strong directional staging, and grounded weight shift, leverage, mud, water, cloth, smoke, twine, and footfall motion.\nContinuity — Soren: wavy light-brown/dark-blond swept-back hair, never black or bright blond; mature weathered angular face, light stubble; pale oatmeal work coat over muted blue-gray layers, dark trousers, wet boots; lean sturdy adult; carries folded map.\nContinuity — Sigrid: dark-brown/near-black hair tied back in low bun/compact braid, never blond; mature angular face, dark brows, gray-blue eyes; dark blue-brown plaid wrap over gray-green practical layers, dark trousers, boots; athletic adult.\nComposition: tall scroll, three discrete panels with clean gutters; large reveal, emotional close, largest action anchor. Protect quiet fields from smoke, face, people, hands, map, house, and essential silhouettes.\nConstraints: exact cast per panel; fictional mature adults only; practical non-sexualized clothing; readable anatomy/hands/feet; no extra people visible at farmhouse; no child-coded features; no monsters, armor, magic, or undeclared weapons.\nText: no balloons, captions, labels, words, sound effects, panel numbers, logos, signatures, or watermark.\nAlternate-arm invariant: exact specified cast per panel; fictional adults only; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05; no speech balloons, captions, labels, panel numbers, logos, signatures, or watermark.",
+      "prompt_sha256": "7778717f2ec7de3dc03dc48141e186bbdec1285d027e34abf8317510e70210b8",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a"
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-7037c54c-d080-4336-ab5b-09c321ed4e8a",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "b06-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 146.8,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s11-farmhouse-reversal-alt-graphic-r1.png",
+        "sha256": "4bc22cd2aaf909d0d28a21a36455b839e87f5588769fc82dcf2e1e28ecc8e646",
+        "width": 829,
+        "height": 1898,
+        "bytes": 2557106
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    }
+  ],
+  "limitations": [
+    "The built-in tool exposed no model, endpoint, provider request ID, usage, monetary cost, or deterministic seed.",
+    "Codex tool-service execution IDs are provenance aids only and are not provider request IDs.",
+    "Parallel execution exposes batch wall time only; per-output elapsed time is unavailable for paired batches and is not inferred.",
+    "Exact prompts, references, and output hashes do not make stochastic generation reproducible.",
+    "Outputs remain unaccepted review evidence and are neither commercially cleared nor an exact production base."
+  ],
+  "boundary": {
+    "permitted_product": "openai_builtin_imagegen",
+    "direct_paid_provider_api_calls": 0,
+    "bfl_calls": 0,
+    "new_upload_classes": 0,
+    "real_person_or_child_material": 0
+  }
+}

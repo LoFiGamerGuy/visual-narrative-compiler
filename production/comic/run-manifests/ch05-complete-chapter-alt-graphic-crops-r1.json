@@ -1,0 +1,854 @@
+{
+  "record_type": "CH05SequenceStripCropManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-complete-chapter-alt-graphic-crops-r1",
+  "state": "HASH_PINNED_LOCAL_DERIVATIVE_PLAN_UNACCEPTED",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "comic_panel_plan_source": {
+    "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+  },
+  "execution_manifest": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-alt-graphic-execution-manifest-r1.json",
+    "sha256": "e0a3d34840788822455b9a8c57fba8caac3ae0628c038d084c1da7eabd390cf7"
+  },
+  "output_filename_template": "p{panel_number:03d}-alt-graphic-r1.png",
+  "summary": {
+    "sequence_sources": 11,
+    "planned_crops": 50,
+    "complete_plan_coverage": true,
+    "deterministic_gutter_detection": true
+  },
+  "sequences": [
+    {
+      "sequence_id": "s01-opening-departure",
+      "execution_sequence_id": "alt-graphic-s01-opening-departure",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s01-opening-departure-alt-graphic-r1.png",
+        "sha256": "54d35f55e7bfbb4d761748bad9653177d68508808d02acb376eb61d013cc1d50",
+        "width": 805,
+        "height": 1953,
+        "bytes": 2674155
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            467,
+            467
+          ],
+          [
+            897,
+            902
+          ],
+          [
+            1220,
+            1222
+          ],
+          [
+            1602,
+            1607
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p001",
+          "box": [
+            0,
+            3,
+            805,
+            467
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p002",
+          "box": [
+            0,
+            468,
+            805,
+            897
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p003",
+          "box": [
+            0,
+            903,
+            805,
+            1220
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p004",
+          "box": [
+            0,
+            1223,
+            805,
+            1602
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p005",
+          "box": [
+            0,
+            1608,
+            805,
+            1950
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s02-runnel-marker-trail",
+      "execution_sequence_id": "alt-graphic-s02-runnel-marker-trail",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s02-runnel-marker-trail-alt-graphic-r1.png",
+        "sha256": "0f96433c5bf60a06ee1e4900f02c023d71592ab7ca1f43f0ae48e43afdd51cbe",
+        "width": 814,
+        "height": 1931,
+        "bytes": 2743149
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            483,
+            490
+          ],
+          [
+            961,
+            971
+          ],
+          [
+            1408,
+            1417
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p006",
+          "box": [
+            0,
+            11,
+            814,
+            483
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p007",
+          "box": [
+            0,
+            491,
+            814,
+            961
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p008",
+          "box": [
+            0,
+            972,
+            814,
+            1408
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p009",
+          "box": [
+            0,
+            1418,
+            814,
+            1920
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s03-listening-twine-ridge",
+      "execution_sequence_id": "alt-graphic-s03-listening-twine-ridge",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s03-listening-twine-ridge-alt-graphic-r1.png",
+        "sha256": "43e95123d58c72d90cd0820d799310e71de2af940cd6ad9482f975f4ede0b4b8",
+        "width": 816,
+        "height": 1928,
+        "bytes": 2430175
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            385,
+            390
+          ],
+          [
+            735,
+            741
+          ],
+          [
+            1098,
+            1103
+          ],
+          [
+            1521,
+            1524
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p010",
+          "box": [
+            0,
+            2,
+            816,
+            385
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p011",
+          "box": [
+            0,
+            391,
+            816,
+            735
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p012",
+          "box": [
+            0,
+            742,
+            816,
+            1098
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p013",
+          "box": [
+            0,
+            1104,
+            816,
+            1521
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p014",
+          "box": [
+            0,
+            1525,
+            816,
+            1926
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s04-mill-reveal-bridge-warning",
+      "execution_sequence_id": "alt-graphic-s04-mill-reveal-bridge-warning",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s04-mill-reveal-bridge-warning-alt-graphic-r1.png",
+        "sha256": "2ecbb6ae1755e13b159172cb736c23b39dcace52439706c111a77ca9be5b082b",
+        "width": 851,
+        "height": 1847,
+        "bytes": 2567186
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            368,
+            374
+          ],
+          [
+            726,
+            732
+          ],
+          [
+            1096,
+            1103
+          ],
+          [
+            1425,
+            1431
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p015",
+          "box": [
+            0,
+            2,
+            851,
+            368
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p016",
+          "box": [
+            0,
+            375,
+            851,
+            726
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p017",
+          "box": [
+            0,
+            733,
+            851,
+            1096
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p018",
+          "box": [
+            0,
+            1104,
+            851,
+            1425
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p019",
+          "box": [
+            0,
+            1432,
+            851,
+            1845
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s05-creek-marker-drum",
+      "execution_sequence_id": "alt-graphic-s05-creek-marker-drum",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s05-creek-marker-drum-alt-graphic-r1.png",
+        "sha256": "14de3a858330ebef9bbd85465c35053386debe04f1535fa475bc21dc77af234b",
+        "width": 842,
+        "height": 1869,
+        "bytes": 2495826
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            462,
+            469
+          ],
+          [
+            776,
+            783
+          ],
+          [
+            1076,
+            1086
+          ],
+          [
+            1426,
+            1436
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p020",
+          "box": [
+            0,
+            11,
+            842,
+            462
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p021",
+          "box": [
+            0,
+            470,
+            842,
+            776
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p022",
+          "box": [
+            0,
+            784,
+            842,
+            1076
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p023",
+          "box": [
+            0,
+            1087,
+            842,
+            1426
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p024",
+          "box": [
+            0,
+            1437,
+            842,
+            1856
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s06-ember-line-entry",
+      "execution_sequence_id": "alt-graphic-s06-ember-line-entry",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s06-ember-line-entry-alt-graphic-r1.png",
+        "sha256": "bfe81e7f779f147e93c387eb29f39589debd73171649f8fc2579b147f9b7383f",
+        "width": 841,
+        "height": 1871,
+        "bytes": 2448987
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            370,
+            378
+          ],
+          [
+            740,
+            747
+          ],
+          [
+            1110,
+            1112
+          ],
+          [
+            1429,
+            1434
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p025",
+          "box": [
+            0,
+            3,
+            841,
+            370
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p026",
+          "box": [
+            0,
+            379,
+            841,
+            740
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p027",
+          "box": [
+            0,
+            748,
+            841,
+            1110
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p028",
+          "box": [
+            0,
+            1113,
+            841,
+            1429
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p029",
+          "box": [
+            0,
+            1435,
+            841,
+            1865
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s07-impossible-footprints-bell",
+      "execution_sequence_id": "alt-graphic-s07-impossible-footprints-bell",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s07-impossible-footprints-bell-alt-graphic-r1.png",
+        "sha256": "7207f631c382719a64e2131088043f4ad0a288a2cab64f01bd414df6aa1fc61c",
+        "width": 854,
+        "height": 1842,
+        "bytes": 2489798
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            403,
+            404
+          ],
+          [
+            756,
+            756
+          ],
+          [
+            1131,
+            1134
+          ],
+          [
+            1478,
+            1481
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p030",
+          "box": [
+            0,
+            0,
+            854,
+            403
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p031",
+          "box": [
+            0,
+            405,
+            854,
+            756
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p032",
+          "box": [
+            0,
+            757,
+            854,
+            1131
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p033",
+          "box": [
+            0,
+            1135,
+            854,
+            1478
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p034",
+          "box": [
+            0,
+            1482,
+            854,
+            1842
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s08-plank-tin-map",
+      "execution_sequence_id": "alt-graphic-s08-plank-tin-map",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s08-plank-tin-map-alt-graphic-r1.png",
+        "sha256": "f05d8c034646414727aa81e4e3e6ff51a43465498b6c320aa35d19c0570df2dc",
+        "width": 851,
+        "height": 1848,
+        "bytes": 2832704
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            322,
+            328
+          ],
+          [
+            866,
+            875
+          ],
+          [
+            1218,
+            1227
+          ],
+          [
+            1488,
+            1498
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p035",
+          "box": [
+            0,
+            8,
+            851,
+            322
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p036",
+          "box": [
+            0,
+            329,
+            851,
+            866
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p037",
+          "box": [
+            0,
+            876,
+            851,
+            1218
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p038",
+          "box": [
+            0,
+            1228,
+            851,
+            1488
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p039",
+          "box": [
+            0,
+            1499,
+            851,
+            1840
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s09-deduction-retreat-cut",
+      "execution_sequence_id": "alt-graphic-s09-deduction-retreat-cut",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s09-deduction-retreat-cut-alt-graphic-r1.png",
+        "sha256": "3ab936afa59448ff2629149886ba06ad3d28f5d1dbbffe68690e5e577f1e9027",
+        "width": 830,
+        "height": 1896,
+        "bytes": 2388131
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            416,
+            416
+          ],
+          [
+            812,
+            812
+          ],
+          [
+            1136,
+            1147
+          ],
+          [
+            1514,
+            1523
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p040",
+          "box": [
+            0,
+            2,
+            830,
+            416
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p041",
+          "box": [
+            0,
+            417,
+            830,
+            812
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p042",
+          "box": [
+            0,
+            813,
+            830,
+            1136
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p043",
+          "box": [
+            0,
+            1148,
+            830,
+            1514
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p044",
+          "box": [
+            0,
+            1524,
+            830,
+            1894
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s10-silence-return",
+      "execution_sequence_id": "alt-graphic-s10-silence-return",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s10-silence-return-alt-graphic-r1.png",
+        "sha256": "331b5dc9105a0a44f3ddf738ace18e08c58b2390714b123c85c4511b7fb5a117",
+        "width": 853,
+        "height": 1843,
+        "bytes": 2395609
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            606,
+            612
+          ],
+          [
+            1210,
+            1216
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p045",
+          "box": [
+            0,
+            4,
+            853,
+            606
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p046",
+          "box": [
+            0,
+            613,
+            853,
+            1210
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p047",
+          "box": [
+            0,
+            1217,
+            853,
+            1837
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s11-farmhouse-reversal",
+      "execution_sequence_id": "alt-graphic-s11-farmhouse-reversal",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/source-strips/s11-farmhouse-reversal-alt-graphic-r1.png",
+        "sha256": "4bc22cd2aaf909d0d28a21a36455b839e87f5588769fc82dcf2e1e28ecc8e646",
+        "width": 829,
+        "height": 1898,
+        "bytes": 2557106
+      },
+      "gutter_detection": {
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            587,
+            596
+          ],
+          [
+            1155,
+            1164
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p048",
+          "box": [
+            0,
+            0,
+            829,
+            587
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p049",
+          "box": [
+            0,
+            597,
+            829,
+            1155
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p050",
+          "box": [
+            0,
+            1165,
+            829,
+            1898
+          ]
+        }
+      ]
+    }
+  ],
+  "boundary": "Exact source strips and crops remain ignored local research pixels; this manifest creates no acceptance, commercial clearance, or exact production-base selection."
+}

@@ -106,7 +106,7 @@ def save(image: Image.Image, path: Path) -> dict[str, Any]:
     return {"path": path.relative_to(ROOT).as_posix(), "sha256": sha256(path), "width": image.width, "height": image.height, "bytes": path.stat().st_size}
 
 
-def build(build_report_path: Path, proposal_path: Path, output_dir: Path) -> dict[str, Any]:
+def build(build_report_path: Path, proposal_path: Path, output_dir: Path, *, record_id: str = "ng-ch05-complete-chapter-lettering-build-r1", artifact_stem: str = "ch05-complete-chapter-lettered-r1") -> dict[str, Any]:
     report = json.loads(build_report_path.read_text(encoding="utf-8"))
     proposal = json.loads(proposal_path.read_text(encoding="utf-8"))
     scroll_path, placements = validate_inputs(report, proposal)
@@ -170,15 +170,18 @@ def build(build_report_path: Path, proposal_path: Path, output_dir: Path) -> dic
             "line_count": len(lines),
         })
     lettered = Image.alpha_composite(canvas, layer).convert("RGB")
-    main_artifact = save(lettered, output_dir / "ch05-complete-chapter-lettered-r1.png")
+    if not record_id.strip() or not artifact_stem.strip() or Path(artifact_stem).name != artifact_stem:
+        raise LetteringError("record-id and artifact-stem must be safe non-empty leaf values")
+    main_artifact = save(lettered, output_dir / f"{artifact_stem}.png")
     phone_width = report["canvas"]["phone_width"]
     phone_height = round(lettered.height * phone_width / lettered.width)
     phone = lettered.resize((phone_width, phone_height), Image.Resampling.LANCZOS)
-    phone_artifact = save(phone, output_dir / "ch05-complete-chapter-lettered-phone-390px-r1.png")
+    phone_name = "ch05-complete-chapter-lettered-phone-390px-r1.png" if artifact_stem == "ch05-complete-chapter-lettered-r1" else f"{artifact_stem}-phone-390px.png"
+    phone_artifact = save(phone, output_dir / phone_name)
     result = {
         "record_type": "ComicChapterLetteringBuildReport",
         "schema_version": "1.0",
-        "record_id": "ng-ch05-complete-chapter-lettering-build-r1",
+        "record_id": record_id,
         "state": "REVIEW_ARTIFACT_UNACCEPTED",
         "medium": "comic",
         "planning_structure": "ComicPanelPlan",
@@ -205,8 +208,10 @@ def main() -> int:
     parser.add_argument("--build-report", default=str(DEFAULT_BUILD_REPORT))
     parser.add_argument("--proposal", default=str(DEFAULT_PROPOSAL))
     parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT))
+    parser.add_argument("--record-id", default="ng-ch05-complete-chapter-lettering-build-r1")
+    parser.add_argument("--artifact-stem", default="ch05-complete-chapter-lettered-r1")
     args = parser.parse_args()
-    build(Path(args.build_report).resolve(), Path(args.proposal).resolve(), Path(args.output_dir).resolve())
+    build(Path(args.build_report).resolve(), Path(args.proposal).resolve(), Path(args.output_dir).resolve(), record_id=args.record_id, artifact_stem=args.artifact_stem)
     return 0
 
 

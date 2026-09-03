@@ -87,6 +87,15 @@ def save_deterministic(image: Image.Image, path: Path) -> dict[str, Any]:
 
 def split(manifest_path: Path, output_dir: Path, report_path: Path) -> dict[str, Any]:
     manifest = load_manifest(manifest_path)
+    filename_template = manifest.get("output_filename_template", "p{panel_number:03d}-sequence-derived-r1.png")
+    if not isinstance(filename_template, str) or "/" in filename_template or "\\" in filename_template:
+        raise SplitError("output_filename_template must be a leaf filename")
+    try:
+        probe_name = filename_template.format(panel_number=1, panel_id="ng-ch05-sc01-p001")
+    except (KeyError, ValueError) as exc:
+        raise SplitError("invalid output_filename_template") from exc
+    if Path(probe_name).name != probe_name or not probe_name.lower().endswith(".png"):
+        raise SplitError("output_filename_template must produce a PNG leaf filename")
     plan_data = json.loads(PLAN_SOURCE.read_text(encoding="utf-8"))
     expected = [row["panel_id"] for row in sorted(plan_data["plans"], key=lambda row: row["display_order"])]
     produced: list[dict[str, Any]] = []
@@ -118,7 +127,7 @@ def split(manifest_path: Path, output_dir: Path, report_path: Path) -> dict[str,
                 raise SplitError(f"duplicate panel crop: {panel_id}")
             observed.append(panel_id)
             panel_number = int(panel_id.rsplit("p", 1)[1])
-            destination = output_dir / f"p{panel_number:03d}-sequence-derived-r1.png"
+            destination = output_dir / filename_template.format(panel_number=panel_number, panel_id=panel_id)
             artifact = save_deterministic(image.crop((left, top, right, bottom)), destination)
             produced.append({
                 "display_order": panel_number,

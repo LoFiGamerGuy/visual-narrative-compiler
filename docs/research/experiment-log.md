@@ -1600,3 +1600,10 @@
 - Planned 23 authorized reference uses across exactly the three allowed hashes; no new upload class, BFL, direct paid API, cloud GPU, purchase, or G07 spend is permitted.
 - Preflight validator passes 50/50 plan coverage and rejects 12/12 malformed state/order/prompt/reference/authority mutations under ADR-0181.
 - R6 remains unchanged; alternate executions, outputs, acceptance, commercial clearance, and exact-base status remain zero before execution.
+## CH05 complete alternate-graphic execution and route comparison — 2026-09-02
+
+Executed all 11 preflighted OpenAI built-in ImageGen sequence requests and hash-pinned 11 outputs covering P001–P050. Deterministic gutter extraction produced exactly 50 ordered crops; chapter assembly produced a 1200×24640 clean scroll and 390×8008 phone scroll, plus 20-beat lettering, safe-zone overlays, contact sheet, continuity sheet, and triage sheet. Timing is 954.3 seconds of overlap-adjusted tool-call wall across six batches; only the first output has individual timing. Model, endpoint, provider request ID, usage, monetary cost, and seed remain unavailable. Direct paid API/cloud spend is $0.
+
+Non-gating visual triage measured 36 PASS / 7 WARN / 7 FAIL. Failures are P001 departure/reversal, P029 role separation, P032 footprint orientation, P036 force path, P039 third mark, P041 extinguish state, and P043 map possession. Hair/wardrobe held 50/50. Equal-panel complexity changed only slightly versus r6 (edge density -0.004286, grayscale entropy -0.051381 bits, PNG bytes/native pixel -0.015096), so the lower-density hypothesis is non-separating.
+
+ADR-0182 selects r6 plus new cross-panel gates, not the alternate arm wholesale. Frozen r6 triage remains unchanged; a supplemental audit adds P001 and P041 cross-panel failures. The next full-chapter clear-line-watercolor preflight covers 50 plans/11 requests/23 reference uses and passes eight gates with 15 exact phrase bindings under ADR-0183.

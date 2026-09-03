@@ -1,0 +1,812 @@
+{
+  "record_type": "CH05CompleteChapterRouteComparison",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-r6-vs-alt-graphic-comparison-r1",
+  "state": "MEASURED_ENGINEERING_RECOMMENDATION_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json",
+      "sha256": "3c84cf3c6fdb479ad3e32717c684e7d44362977da53e9d3a10659d016cea8677"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-alt-graphic-assembly-r1.json",
+      "sha256": "ddee2123bd7aec8a99719b29c767d4b2e854c2f4dd1339e65c31193cff545e18"
+    },
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+      "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4"
+    },
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-alt-graphic-agent-triage-r1.json",
+      "sha256": "99271dfa99bc563b01dd1ff812bfbe9209e03e8035902806ad4874a7d8f1603f"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/lettered/ch05-complete-chapter-lettered-phone-390px-r1.png",
+      "sha256": "d1206dd5e2c4821e557122ee397b7c0f83a49559f92bb8ac0d16a31d73b18be8"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/lettered/ch05-complete-chapter-alt-graphic-lettered-r1-phone-390px.png",
+      "sha256": "8a28285e8c8db594128d018400ac2f5ed24547808f823d4abcca64714231cf53"
+    }
+  ],
+  "coverage": {
+    "r6_panels": 50,
+    "alt_graphic_panels": 50,
+    "paired_panel_ids": 50
+  },
+  "visual_complexity_method": {
+    "normalization": "Each crop resized to 390 px wide with aspect preserved; every panel weighted equally.",
+    "grayscale_entropy_bits": "Shannon entropy of the normalized 8-bit grayscale histogram.",
+    "edge_density_ge_32": "Fraction of non-border pixels whose Pillow FIND_EDGES grayscale value is >=32.",
+    "png_bytes_per_native_pixel": "Source PNG byte size divided by native width*height; compression-sensitive supporting cue only."
+  },
+  "visual_complexity": {
+    "aggregate_equal_panel_weight": {
+      "r6": {
+        "grayscale_entropy_bits": 6.889241,
+        "edge_density_ge_32": 0.220004,
+        "png_bytes_per_native_pixel": 1.623124
+      },
+      "alt_graphic": {
+        "grayscale_entropy_bits": 6.83786,
+        "edge_density_ge_32": 0.215718,
+        "png_bytes_per_native_pixel": 1.608028
+      },
+      "alt_minus_r6": {
+        "grayscale_entropy_bits": -0.051381,
+        "edge_density_ge_32": -0.004286,
+        "png_bytes_per_native_pixel": -0.015096
+      }
+    },
+    "per_panel": [
+      {
+        "panel_id": "ng-ch05-sc01-p001",
+        "r6": {
+          "grayscale_entropy_bits": 7.529431,
+          "edge_density_ge_32": 0.161605,
+          "png_bytes_per_native_pixel": 1.370794
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.554294,
+          "edge_density_ge_32": 0.175258,
+          "png_bytes_per_native_pixel": 1.486919
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p002",
+        "r6": {
+          "grayscale_entropy_bits": 6.887419,
+          "edge_density_ge_32": 0.180148,
+          "png_bytes_per_native_pixel": 1.579905
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.410972,
+          "edge_density_ge_32": 0.21667,
+          "png_bytes_per_native_pixel": 1.651537
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p003",
+        "r6": {
+          "grayscale_entropy_bits": 6.385027,
+          "edge_density_ge_32": 0.307473,
+          "png_bytes_per_native_pixel": 1.867296
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.774366,
+          "edge_density_ge_32": 0.319181,
+          "png_bytes_per_native_pixel": 1.899971
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p004",
+        "r6": {
+          "grayscale_entropy_bits": 7.091964,
+          "edge_density_ge_32": 0.216917,
+          "png_bytes_per_native_pixel": 1.623538
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.145248,
+          "edge_density_ge_32": 0.215461,
+          "png_bytes_per_native_pixel": 1.58489
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p005",
+        "r6": {
+          "grayscale_entropy_bits": 6.500197,
+          "edge_density_ge_32": 0.321029,
+          "png_bytes_per_native_pixel": 1.893313
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.496625,
+          "edge_density_ge_32": 0.332977,
+          "png_bytes_per_native_pixel": 1.904235
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p006",
+        "r6": {
+          "grayscale_entropy_bits": 7.579632,
+          "edge_density_ge_32": 0.209994,
+          "png_bytes_per_native_pixel": 1.585546
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.456982,
+          "edge_density_ge_32": 0.274807,
+          "png_bytes_per_native_pixel": 1.814369
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p007",
+        "r6": {
+          "grayscale_entropy_bits": 7.26212,
+          "edge_density_ge_32": 0.250544,
+          "png_bytes_per_native_pixel": 1.733237
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.829161,
+          "edge_density_ge_32": 0.254126,
+          "png_bytes_per_native_pixel": 1.751712
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p008",
+        "r6": {
+          "grayscale_entropy_bits": 6.910727,
+          "edge_density_ge_32": 0.199626,
+          "png_bytes_per_native_pixel": 1.600126
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.976157,
+          "edge_density_ge_32": 0.18599,
+          "png_bytes_per_native_pixel": 1.564296
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p009",
+        "r6": {
+          "grayscale_entropy_bits": 6.507436,
+          "edge_density_ge_32": 0.268421,
+          "png_bytes_per_native_pixel": 1.80356
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.498054,
+          "edge_density_ge_32": 0.284271,
+          "png_bytes_per_native_pixel": 1.855534
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p010",
+        "r6": {
+          "grayscale_entropy_bits": 6.440278,
+          "edge_density_ge_32": 0.16926,
+          "png_bytes_per_native_pixel": 1.390128
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.317447,
+          "edge_density_ge_32": 0.194936,
+          "png_bytes_per_native_pixel": 1.524855
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p011",
+        "r6": {
+          "grayscale_entropy_bits": 6.583301,
+          "edge_density_ge_32": 0.153792,
+          "png_bytes_per_native_pixel": 1.433404
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.311739,
+          "edge_density_ge_32": 0.128914,
+          "png_bytes_per_native_pixel": 1.381591
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p012",
+        "r6": {
+          "grayscale_entropy_bits": 6.366529,
+          "edge_density_ge_32": 0.287748,
+          "png_bytes_per_native_pixel": 1.799267
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.444247,
+          "edge_density_ge_32": 0.279885,
+          "png_bytes_per_native_pixel": 1.667462
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p013",
+        "r6": {
+          "grayscale_entropy_bits": 6.769353,
+          "edge_density_ge_32": 0.284545,
+          "png_bytes_per_native_pixel": 1.843965
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.62983,
+          "edge_density_ge_32": 0.283597,
+          "png_bytes_per_native_pixel": 1.857943
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p014",
+        "r6": {
+          "grayscale_entropy_bits": 6.772869,
+          "edge_density_ge_32": 0.087376,
+          "png_bytes_per_native_pixel": 1.234611
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.239116,
+          "edge_density_ge_32": 0.088795,
+          "png_bytes_per_native_pixel": 1.194498
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p015",
+        "r6": {
+          "grayscale_entropy_bits": 7.096997,
+          "edge_density_ge_32": 0.233016,
+          "png_bytes_per_native_pixel": 1.811133
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.087656,
+          "edge_density_ge_32": 0.1774,
+          "png_bytes_per_native_pixel": 1.630078
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p016",
+        "r6": {
+          "grayscale_entropy_bits": 7.315579,
+          "edge_density_ge_32": 0.217031,
+          "png_bytes_per_native_pixel": 1.611346
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.293719,
+          "edge_density_ge_32": 0.216527,
+          "png_bytes_per_native_pixel": 1.604839
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p017",
+        "r6": {
+          "grayscale_entropy_bits": 7.34358,
+          "edge_density_ge_32": 0.277155,
+          "png_bytes_per_native_pixel": 1.819922
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.154166,
+          "edge_density_ge_32": 0.23001,
+          "png_bytes_per_native_pixel": 1.623765
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p018",
+        "r6": {
+          "grayscale_entropy_bits": 7.167368,
+          "edge_density_ge_32": 0.196998,
+          "png_bytes_per_native_pixel": 1.547318
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.171687,
+          "edge_density_ge_32": 0.18171,
+          "png_bytes_per_native_pixel": 1.443579
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p019",
+        "r6": {
+          "grayscale_entropy_bits": 7.365527,
+          "edge_density_ge_32": 0.274094,
+          "png_bytes_per_native_pixel": 1.789379
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.447372,
+          "edge_density_ge_32": 0.273527,
+          "png_bytes_per_native_pixel": 1.765025
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p020",
+        "r6": {
+          "grayscale_entropy_bits": 6.853339,
+          "edge_density_ge_32": 0.294091,
+          "png_bytes_per_native_pixel": 1.909644
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.609095,
+          "edge_density_ge_32": 0.284601,
+          "png_bytes_per_native_pixel": 1.85561
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p021",
+        "r6": {
+          "grayscale_entropy_bits": 6.201638,
+          "edge_density_ge_32": 0.086296,
+          "png_bytes_per_native_pixel": 1.131086
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.070383,
+          "edge_density_ge_32": 0.08113,
+          "png_bytes_per_native_pixel": 1.196781
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p022",
+        "r6": {
+          "grayscale_entropy_bits": 7.107029,
+          "edge_density_ge_32": 0.159185,
+          "png_bytes_per_native_pixel": 1.43591
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.601128,
+          "edge_density_ge_32": 0.153942,
+          "png_bytes_per_native_pixel": 1.439414
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p023",
+        "r6": {
+          "grayscale_entropy_bits": 6.927871,
+          "edge_density_ge_32": 0.271682,
+          "png_bytes_per_native_pixel": 1.776328
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.943565,
+          "edge_density_ge_32": 0.272996,
+          "png_bytes_per_native_pixel": 1.766121
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p024",
+        "r6": {
+          "grayscale_entropy_bits": 6.289313,
+          "edge_density_ge_32": 0.212862,
+          "png_bytes_per_native_pixel": 1.554867
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.744919,
+          "edge_density_ge_32": 0.205313,
+          "png_bytes_per_native_pixel": 1.562208
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p025",
+        "r6": {
+          "grayscale_entropy_bits": 6.378035,
+          "edge_density_ge_32": 0.270619,
+          "png_bytes_per_native_pixel": 1.779583
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.261413,
+          "edge_density_ge_32": 0.256351,
+          "png_bytes_per_native_pixel": 1.770051
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p026",
+        "r6": {
+          "grayscale_entropy_bits": 6.823261,
+          "edge_density_ge_32": 0.17077,
+          "png_bytes_per_native_pixel": 1.373848
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.299304,
+          "edge_density_ge_32": 0.163418,
+          "png_bytes_per_native_pixel": 1.443734
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p027",
+        "r6": {
+          "grayscale_entropy_bits": 6.998189,
+          "edge_density_ge_32": 0.212355,
+          "png_bytes_per_native_pixel": 1.557633
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.623279,
+          "edge_density_ge_32": 0.217318,
+          "png_bytes_per_native_pixel": 1.525315
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p028",
+        "r6": {
+          "grayscale_entropy_bits": 6.069794,
+          "edge_density_ge_32": 0.161923,
+          "png_bytes_per_native_pixel": 1.380279
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 5.834015,
+          "edge_density_ge_32": 0.151706,
+          "png_bytes_per_native_pixel": 1.209941
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p029",
+        "r6": {
+          "grayscale_entropy_bits": 7.028003,
+          "edge_density_ge_32": 0.271161,
+          "png_bytes_per_native_pixel": 1.723135
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.703529,
+          "edge_density_ge_32": 0.24512,
+          "png_bytes_per_native_pixel": 1.681003
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p030",
+        "r6": {
+          "grayscale_entropy_bits": 6.286061,
+          "edge_density_ge_32": 0.239064,
+          "png_bytes_per_native_pixel": 1.685851
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.271717,
+          "edge_density_ge_32": 0.191897,
+          "png_bytes_per_native_pixel": 1.521243
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p031",
+        "r6": {
+          "grayscale_entropy_bits": 6.840773,
+          "edge_density_ge_32": 0.224937,
+          "png_bytes_per_native_pixel": 1.59322
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.874394,
+          "edge_density_ge_32": 0.2247,
+          "png_bytes_per_native_pixel": 1.644488
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p032",
+        "r6": {
+          "grayscale_entropy_bits": 6.641608,
+          "edge_density_ge_32": 0.191153,
+          "png_bytes_per_native_pixel": 1.463079
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.554252,
+          "edge_density_ge_32": 0.208214,
+          "png_bytes_per_native_pixel": 1.625377
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p033",
+        "r6": {
+          "grayscale_entropy_bits": 6.217217,
+          "edge_density_ge_32": 0.177445,
+          "png_bytes_per_native_pixel": 1.399126
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.740576,
+          "edge_density_ge_32": 0.201995,
+          "png_bytes_per_native_pixel": 1.570524
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p034",
+        "r6": {
+          "grayscale_entropy_bits": 6.344256,
+          "edge_density_ge_32": 0.224902,
+          "png_bytes_per_native_pixel": 1.655604
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.37558,
+          "edge_density_ge_32": 0.16646,
+          "png_bytes_per_native_pixel": 1.479999
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p035",
+        "r6": {
+          "grayscale_entropy_bits": 6.860224,
+          "edge_density_ge_32": 0.27851,
+          "png_bytes_per_native_pixel": 1.814856
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.179349,
+          "edge_density_ge_32": 0.248112,
+          "png_bytes_per_native_pixel": 1.836461
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p036",
+        "r6": {
+          "grayscale_entropy_bits": 7.368218,
+          "edge_density_ge_32": 0.249285,
+          "png_bytes_per_native_pixel": 1.731722
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.631437,
+          "edge_density_ge_32": 0.26726,
+          "png_bytes_per_native_pixel": 1.785062
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p037",
+        "r6": {
+          "grayscale_entropy_bits": 7.338868,
+          "edge_density_ge_32": 0.336228,
+          "png_bytes_per_native_pixel": 2.04847
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.185709,
+          "edge_density_ge_32": 0.277602,
+          "png_bytes_per_native_pixel": 1.862281
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p038",
+        "r6": {
+          "grayscale_entropy_bits": 6.855534,
+          "edge_density_ge_32": 0.37983,
+          "png_bytes_per_native_pixel": 2.075141
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 5.966947,
+          "edge_density_ge_32": 0.310005,
+          "png_bytes_per_native_pixel": 1.890007
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p039",
+        "r6": {
+          "grayscale_entropy_bits": 7.169994,
+          "edge_density_ge_32": 0.233823,
+          "png_bytes_per_native_pixel": 1.715241
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.172025,
+          "edge_density_ge_32": 0.239272,
+          "png_bytes_per_native_pixel": 1.726618
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p040",
+        "r6": {
+          "grayscale_entropy_bits": 6.526067,
+          "edge_density_ge_32": 0.100845,
+          "png_bytes_per_native_pixel": 1.287235
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.094515,
+          "edge_density_ge_32": 0.14194,
+          "png_bytes_per_native_pixel": 1.352369
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p041",
+        "r6": {
+          "grayscale_entropy_bits": 6.981587,
+          "edge_density_ge_32": 0.180362,
+          "png_bytes_per_native_pixel": 1.429361
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.186549,
+          "edge_density_ge_32": 0.205443,
+          "png_bytes_per_native_pixel": 1.551158
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p042",
+        "r6": {
+          "grayscale_entropy_bits": 6.613505,
+          "edge_density_ge_32": 0.181885,
+          "png_bytes_per_native_pixel": 1.513514
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.506462,
+          "edge_density_ge_32": 0.160722,
+          "png_bytes_per_native_pixel": 1.398001
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p043",
+        "r6": {
+          "grayscale_entropy_bits": 6.979021,
+          "edge_density_ge_32": 0.188408,
+          "png_bytes_per_native_pixel": 1.574294
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.454148,
+          "edge_density_ge_32": 0.19433,
+          "png_bytes_per_native_pixel": 1.602268
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p044",
+        "r6": {
+          "grayscale_entropy_bits": 6.860717,
+          "edge_density_ge_32": 0.159381,
+          "png_bytes_per_native_pixel": 1.546181
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.879564,
+          "edge_density_ge_32": 0.209872,
+          "png_bytes_per_native_pixel": 1.592774
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p045",
+        "r6": {
+          "grayscale_entropy_bits": 7.303973,
+          "edge_density_ge_32": 0.187043,
+          "png_bytes_per_native_pixel": 1.504963
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.672879,
+          "edge_density_ge_32": 0.200634,
+          "png_bytes_per_native_pixel": 1.481021
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p046",
+        "r6": {
+          "grayscale_entropy_bits": 7.021828,
+          "edge_density_ge_32": 0.152096,
+          "png_bytes_per_native_pixel": 1.467238
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.730032,
+          "edge_density_ge_32": 0.174269,
+          "png_bytes_per_native_pixel": 1.478883
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p047",
+        "r6": {
+          "grayscale_entropy_bits": 7.265213,
+          "edge_density_ge_32": 0.184177,
+          "png_bytes_per_native_pixel": 1.553926
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.228198,
+          "edge_density_ge_32": 0.205984,
+          "png_bytes_per_native_pixel": 1.545872
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p048",
+        "r6": {
+          "grayscale_entropy_bits": 7.576303,
+          "edge_density_ge_32": 0.211835,
+          "png_bytes_per_native_pixel": 1.597627
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.476193,
+          "edge_density_ge_32": 0.163255,
+          "png_bytes_per_native_pixel": 1.433436
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p049",
+        "r6": {
+          "grayscale_entropy_bits": 7.457716,
+          "edge_density_ge_32": 0.247929,
+          "png_bytes_per_native_pixel": 1.751212
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.453576,
+          "edge_density_ge_32": 0.212328,
+          "png_bytes_per_native_pixel": 1.666312
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p050",
+        "r6": {
+          "grayscale_entropy_bits": 7.401577,
+          "edge_density_ge_32": 0.263324,
+          "png_bytes_per_native_pixel": 1.788232
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.329439,
+          "edge_density_ge_32": 0.235663,
+          "png_bytes_per_native_pixel": 1.699957
+        }
+      }
+    ],
+    "interpretation": "Only small aggregate differences are evidence that the alternate arm did not materially separate density. These proxies do not measure artistic quality."
+  },
+  "semantic_review": {
+    "r6_frozen_panel_local_triage": {
+      "pass": 49,
+      "warn": 1,
+      "fail": 0,
+      "note": "Preserved unchanged; it predates the new cross-panel gates."
+    },
+    "r6_supplemental_cross_panel_gate_audit": {
+      "pass": 47,
+      "warn": 1,
+      "fail": 2,
+      "fail_panel_ids": [
+        "ng-ch05-sc01-p001",
+        "ng-ch05-sc01-p041"
+      ],
+      "warn_panel_ids": [
+        "ng-ch05-sc01-p032"
+      ],
+      "note": "P001 prematurely shows chimney smoke/lit window; P041 retains visible hot material/plume; this supplements rather than rewrites frozen r6 evidence."
+    },
+    "alt_graphic_triage": {
+      "chapter_panels": 50,
+      "pass": 36,
+      "warn": 7,
+      "fail": 7,
+      "hair_and_wardrobe_pass": 50,
+      "human_reviewed": 0,
+      "accepted": 0
+    }
+  },
+  "selection": {
+    "recommended_route": "ch05_complete_chapter_r6_plus_cross_panel_semantic_gates",
+    "not_selected": "alt_graphic_wholesale",
+    "reason": "r6 remains materially stronger on causal action, role separation, footprint logic, leverage, mark continuity, and map possession. The alternate route preserves hair/wardrobe and offers strong individual panels, but does not achieve a meaningful density reduction and introduces seven failures.",
+    "appearance_only_selection": false
+  },
+  "strong_alt_evidence_panel_ids": [
+    "ng-ch05-sc01-p002",
+    "ng-ch05-sc01-p004",
+    "ng-ch05-sc01-p006",
+    "ng-ch05-sc01-p010",
+    "ng-ch05-sc01-p017",
+    "ng-ch05-sc01-p019",
+    "ng-ch05-sc01-p020",
+    "ng-ch05-sc01-p023",
+    "ng-ch05-sc01-p028",
+    "ng-ch05-sc01-p033",
+    "ng-ch05-sc01-p037",
+    "ng-ch05-sc01-p038",
+    "ng-ch05-sc01-p040",
+    "ng-ch05-sc01-p042",
+    "ng-ch05-sc01-p044",
+    "ng-ch05-sc01-p047",
+    "ng-ch05-sc01-p048",
+    "ng-ch05-sc01-p049",
+    "ng-ch05-sc01-p050"
+  ],
+  "artifacts": {
+    "all_50_pairs": {
+      "path": "experiments/review-packets/ch05-r6-vs-alt-graphic-comparison-r1/ch05-r6-vs-alt-graphic-all-50-contact-sheet.png",
+      "sha256": "03e8478cc8d08cbb44fc80ce1b6a1a4df4ef802ed339695fd875bf120deee4cc",
+      "width": 1738,
+      "height": 2566,
+      "bytes": 2261074,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    "causal_continuity_anchors": {
+      "path": "experiments/review-packets/ch05-r6-vs-alt-graphic-comparison-r1/ch05-r6-vs-alt-graphic-causal-continuity-anchors.png",
+      "sha256": "88cb2d836ffcd7ea73403be6fb99b39edf136767a8f19238a224473b98f70fea",
+      "width": 1666,
+      "height": 3098,
+      "bytes": 3610350,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    "lettered_phone_comparison": {
+      "path": "experiments/review-packets/ch05-r6-vs-alt-graphic-comparison-r1/ch05-r6-vs-alt-graphic-lettered-phone-comparison.png",
+      "sha256": "f62d88f2dccfe2d039fe3709a8436e83fe3ca157d621b2c78b135835cf606448",
+      "width": 840,
+      "height": 9074,
+      "bytes": 7782555,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    }
+  },
+  "spend": {
+    "direct_paid_api_cloud_usd": 0.0,
+    "built_in_product_monetary_cost_usd": null
+  },
+  "limitations": [
+    "Agent visual review is non-gating.",
+    "Complexity proxies do not measure style quality, identity, narrative value, or commercial suitability.",
+    "Built-in model, endpoint, request ID, usage, cost, and seed are unavailable.",
+    "No route is accepted, commercially cleared, or selected as an exact production base."
+  ]
+}

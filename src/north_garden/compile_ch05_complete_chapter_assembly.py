@@ -1,6 +1,7 @@
 """Compile the deterministic assembly manifest from verified CH05 panel crops."""
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -44,8 +45,18 @@ def gutter_after(plan: dict[str, Any]) -> int:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--split-report", type=Path, default=SPLIT_REPORT)
+    parser.add_argument("--output", type=Path, default=OUTPUT)
+    parser.add_argument("--record-id", default="ng-ch05-complete-chapter-assembly-r1")
+    parser.add_argument("--candidate-prefix", default="chapter-r1")
+    args = parser.parse_args()
+    split_report = args.split_report if args.split_report.is_absolute() else ROOT / args.split_report
+    output_path = args.output if args.output.is_absolute() else ROOT / args.output
+    if not args.record_id.strip() or not args.candidate_prefix.strip():
+        raise ValueError("record-id and candidate-prefix must be non-empty")
     plans = sorted(json.loads(PLAN.read_text(encoding="utf-8"))["plans"], key=lambda row: row["display_order"])
-    report = json.loads(SPLIT_REPORT.read_text(encoding="utf-8"))
+    report = json.loads(split_report.read_text(encoding="utf-8"))
     by_id = {row["panel_id"]: row for row in report["panels"]}
     if list(by_id) != [row["panel_id"] for row in plans]:
         raise ValueError("split report is not exact canonical CH05 order")
@@ -56,7 +67,7 @@ def main() -> int:
         entries.append({
             "order": plan["display_order"],
             "panel_id": plan["panel_id"],
-            "candidate_id": f"chapter-r1-p{plan['display_order']:03d}",
+            "candidate_id": f"{args.candidate_prefix}-p{plan['display_order']:03d}",
             "sequence_id": split["sequence_id"],
             "source": {
                 "path": output["path"],
@@ -75,7 +86,7 @@ def main() -> int:
     manifest = {
         "record_type": "ComicChapterProductionManifest",
         "schema_version": "1.0",
-        "record_id": "ng-ch05-complete-chapter-assembly-r1",
+        "record_id": args.record_id,
         "state": "COMPLETE_READING_DRAFT_READY_FOR_ASSEMBLY_UNACCEPTED",
         "medium": "comic",
         "chapter_complete": True,
@@ -97,9 +108,9 @@ def main() -> int:
         "boundary": "Complete local review assembly only; no candidate is accepted, commercially cleared, or selected as an exact production base.",
     }
     encoded = json.dumps(manifest, indent=2, ensure_ascii=False) + "\n"
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(encoded, encoding="utf-8", newline="\n")
-    print(json.dumps({"entries": len(entries), "output": OUTPUT.relative_to(ROOT).as_posix(), "sha256": sha256(OUTPUT)}, sort_keys=True))
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(encoded, encoding="utf-8", newline="\n")
+    print(json.dumps({"entries": len(entries), "output": output_path.relative_to(ROOT).as_posix(), "sha256": sha256(output_path)}, sort_keys=True))
     return 0
 
 

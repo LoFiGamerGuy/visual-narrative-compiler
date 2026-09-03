@@ -271,3 +271,4 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 2. Record visual dispositions for the three-block cadence, P003/P032/P045, P005→P006, lettering, strongest candidates, and future LitRPG direction.
 3. Run no additional stochastic repair until one exact owner disposition identifies a sequence and failure class.
 4. Preserve rights/commercial clearance and exact-production-base selection as distinct later decisions.
+5. Record review feedback in `docs/research/ch05-final-owner-review-response-template-r1.md`; do not treat an unfilled or partial template as authorization.

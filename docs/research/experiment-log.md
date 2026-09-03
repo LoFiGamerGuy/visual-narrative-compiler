@@ -1682,3 +1682,9 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Safe-source inventory r3 spans 28 commits and 316 changed tracked files through `ac5529a`: 309 added, seven modified, zero deleted, and zero prohibited/generated tracked paths; 21/21 mutations fail.
 - Terminal replay passes 8/8 domains in 78.819 seconds, six suites reject 124/124 upstream mutations, and the terminal record rejects 32/32 mutations.
 - No pixel, provider call, upload, generation, spend, acceptance, rights, canon, or exact-base state changed.
+
+## CH05 final owner-review response template — 2026-09-03
+
+- Added nine null visual-response fields covering cadence, P003/P032/P045, P005-P006, lettering, strongest candidates, S10-S11 premium-versus-R6, and non-canon LitRPG direction.
+- Kept three commercial-rights and four exact-production-base fields in separate null objects; 16/16 response/decision values remain null.
+- Ingestion and execution authority remain false. Deterministic compilation passes and 23/23 malformed/authority-expanding mutations fail.

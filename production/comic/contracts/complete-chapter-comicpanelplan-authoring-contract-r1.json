@@ -1,0 +1,238 @@
+{
+  "record_type": "CompleteChapterComicPanelPlanAuthoringContract",
+  "schema_version": "1.0",
+  "record_id": "ng-complete-chapter-comicpanelplan-authoring-contract-r1",
+  "state": "REUSABLE_AUTHORING_CONTRACT_NON_EXECUTABLE",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "evidence_sources": [
+    {
+      "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+      "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-chapter-sequence-production-batches-r1.json",
+      "sha256": "d1c14d09b5afb374260ceabbd4594edcbeecf32925f5a826434f860e99106ea9"
+    },
+    {
+      "path": "production/comic/layout/ch05-panel-scale-cadence-policy-r1.json",
+      "sha256": "b08d402362bf807014332ec900ba583f89943b6e0095475d632bfcd8b91f7495"
+    },
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-release-r6.json",
+      "sha256": "62e4d4bac75a16470055d31a05c639acbfd18523bf80b9f7711fdaa717898d24"
+    },
+    {
+      "path": "production/comic/style-direction/north-garden-cross-chapter-continuity-r1.json",
+      "sha256": "5739d1f0ca2b7a1a1cc158bfdf75769d72d9c78ec65af85391f647ed10ab5e8c"
+    }
+  ],
+  "measured_baseline": {
+    "chapter": "CH05",
+    "panel_count": 50,
+    "sequence_count": 12,
+    "panels_per_sequence_min": 3,
+    "panels_per_sequence_max": 5,
+    "selected_panels": 50,
+    "agent_triage": {
+      "pass": 49,
+      "warn": 1,
+      "fail": 0,
+      "gating": false
+    },
+    "scale_role_count": 9,
+    "result_interpretation": "Evidence baseline only; not a mandatory chapter length or accepted-art claim."
+  },
+  "collection_requirements": {
+    "record_type": "ComicPanelPlanCollection",
+    "story_state_id": "required_nonempty",
+    "declared_target_panel_count": "required_positive_integer_equal_to_plan_count",
+    "chapter_title": "required_nonempty",
+    "chapter_logline": "required_nonempty",
+    "opening_state": "required_nonempty",
+    "closing_changed_state": "required_nonempty_and_distinct_from_opening_state",
+    "continuity_contract": "required",
+    "progression_contract": "required_even_when_all_categories_are_absent",
+    "promotion_decision": "required_before_prompt_or_render_execution"
+  },
+  "required_narrative_phases": [
+    {
+      "phase_id": "phase01",
+      "narrative_function": "opening_state_and_orientation",
+      "requirement": "Establish current state, goal, geography, and departure or initiating change.",
+      "minimum_panel_count": 1
+    },
+    {
+      "phase_id": "phase02",
+      "narrative_function": "movement_and_escalation",
+      "requirement": "Advance through causal travel/action beats with at least one readable obstacle or warning.",
+      "minimum_panel_count": 1
+    },
+    {
+      "phase_id": "phase03",
+      "narrative_function": "threshold_and_entry",
+      "requirement": "Cross or refuse a meaningful threshold; preserve role order and spatial consequence.",
+      "minimum_panel_count": 1
+    },
+    {
+      "phase_id": "phase04",
+      "narrative_function": "causal_interaction_and_evidence",
+      "requirement": "Use hands, tools, terrain, and story objects to produce or reveal evidence.",
+      "minimum_panel_count": 1
+    },
+    {
+      "phase_id": "phase05",
+      "narrative_function": "deduction_choice_and_consequence",
+      "requirement": "Let characters interpret evidence and make a consequential choice through readable action/dialogue.",
+      "minimum_panel_count": 1
+    },
+    {
+      "phase_id": "phase06",
+      "narrative_function": "reversal_return_or_closure",
+      "requirement": "Deliver a changed-state reveal, return vector, cliffhanger, or earned closure.",
+      "minimum_panel_count": 1
+    }
+  ],
+  "panel_required_fields": [
+    "panel_id",
+    "plan_revision_id",
+    "display_order",
+    "scene_beat_id",
+    "narrative_phase_id",
+    "narrative_beat",
+    "composition_intent",
+    "visible_adult_cast",
+    "asset_ids",
+    "spatial_mode",
+    "spatial_stage_contract_id",
+    "spatial_assignments",
+    "sequence_id",
+    "scale_role",
+    "density_class",
+    "continuity_carry_in",
+    "continuity_carry_out",
+    "comic_direction"
+  ],
+  "panel_rules": {
+    "identity": "panel_id is stable; plan_revision_id changes whenever intent changes",
+    "display_order": "contiguous positive integers beginning at 1",
+    "adult_cast": "only explicitly named fictional adults; zero-person inserts use an empty list",
+    "causal_action": "name body/tool/terrain/object relationships; generic speed-line texture cannot substitute",
+    "lettering": "at least one normalized safe zone or explicit outside-art/gutter policy; never cover faces, people, important hands, or story objects",
+    "continuity": "every carried prop, injury, garment, weather state, location vector, and clue must have explicit carry-in/out",
+    "progression": "armor, weapons, upgraded clothing, monsters, classes, and system UI require explicit story/canon bindings"
+  },
+  "sequence_rules": {
+    "recommended_panel_range_from_ch05": [
+      3,
+      5
+    ],
+    "required_fields": [
+      "sequence_id",
+      "narrative_order",
+      "title",
+      "narrative_functions",
+      "panel_ids",
+      "continuity_entry",
+      "continuity_exit"
+    ],
+    "coverage": "every panel appears in exactly one sequence and every sequence is contiguous in display order",
+    "generation_strategy": "coherent sequence-first generation may be proposed only after plan/prompt/upload preflight; deterministic crops and panel-local repair preserve non-target hashes"
+  },
+  "cadence_classes": [
+    "ANCHOR_OR_ACTION",
+    "CHARACTER_OR_REACTION",
+    "INSERT_OR_PAUSE"
+  ],
+  "scale_roles": {
+    "WIDE_DIRECTIONAL_ANCHOR": {
+      "min": 1040,
+      "max": 1200,
+      "function": "dual-cast travel/action/reveal anchor",
+      "copy": "silent or minimal; use 1200 for tested two-line in-art copy"
+    },
+    "WIDE_ENVIRONMENTAL_MOTION": {
+      "min": 880,
+      "max": 1120,
+      "function": "water/smoke/path motion without people",
+      "copy": "normally silent; outside-art caption only after plan revision"
+    },
+    "TALL_OR_WIDE_DUAL_CAUSAL": {
+      "min": 700,
+      "max": 1040,
+      "function": "two-person practical action with literal leverage/hand geometry",
+      "copy": "keep action silent; do not trade causal geometry for a balloon"
+    },
+    "MEDIUM_SINGLE_CAUSAL": {
+      "min": 700,
+      "max": 960,
+      "function": "one-adult hand/object causal action",
+      "copy": "keep action silent or move approved caption outside art"
+    },
+    "MEDIUM_TWO_SHOT": {
+      "min": 880,
+      "max": 1040,
+      "function": "dual reaction/observation/blocked movement",
+      "copy": "if attributed speech is required, test 1200 or revise plan semantics"
+    },
+    "MEDIUM_CHARACTER_CLUE": {
+      "min": 720,
+      "max": 960,
+      "function": "single-adult observation/deduction/continuity",
+      "copy": "tested two-line in-art copy requires 1200; otherwise outside-art caption is only a plan-revision option"
+    },
+    "SMALL_OBJECT_INSERT": {
+      "min": 520,
+      "max": 720,
+      "function": "silent clue/object/environment insert",
+      "copy": "no dialogue; do not shrink lettering into the art"
+    },
+    "SMALL_SENSORY_INSERT": {
+      "min": 560,
+      "max": 760,
+      "function": "quiet smoke/water/bell/absence beat",
+      "copy": "prefer silence; caption band requires plan revision"
+    },
+    "MEDIUM_SENSORY_REACTION": {
+      "min": 760,
+      "max": 1040,
+      "function": "dual sensory/reaction beat",
+      "copy": "speech needs literal speaker semantics and 1200 test footprint"
+    }
+  },
+  "chapter_acceptance_gates": [
+    "all declared ComicPanelPlans present exactly once",
+    "all six narrative phases represented",
+    "opening and closing states are materially different",
+    "continuity carry-in/out graph is closed or explicitly cliffhanging",
+    "variable cadence contains action/reveal anchors and lower-density relief beats",
+    "all lettering placements preserve protected subjects at phone width",
+    "every provider execution has a complete RenderRecord",
+    "human review minutes and decisions are explicit",
+    "commercial clearance and exact-production-base decisions remain separate"
+  ],
+  "current_identity_direction": {
+    "soren": {
+      "hair": "light-brown to dark-blond, short-to-medium wavy and swept back; never black or bright blond",
+      "wardrobe_base": "pale oatmeal work coat over muted blue-gray practical layers",
+      "adult_presentation": "clearly mature fictional adult; lean sturdy build; weathered angular face; light stubble where visible"
+    },
+    "sigrid": {
+      "hair": "dark-brown to near-black, tied back in a compact low bun or braid; never blond or loose red curls",
+      "wardrobe_base": "dark blue-brown plaid wrap over gray-green practical layers",
+      "adult_presentation": "clearly mature fictional adult; athletic build; angular face; dark brows"
+    }
+  },
+  "non_executable_boundary": {
+    "story_beats_authored": 0,
+    "comic_panel_plans_created": 0,
+    "prompts_created": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "generated_candidates": 0,
+    "accepted_candidates": 0,
+    "commercial_decisions": 0
+  }
+}

@@ -131,3 +131,5 @@ The P029/P032 final strip adds one 49.8-second built-in call, one raster, two pa
 The r6 release binder and 63-plan chapter inventory add no provider call, upload, generated pixel, or external cost. They reconcile the existing 16 executions as 1,592.908 summed per-execution observations versus approximately 1,200.7 seconds of overlap-adjusted wall time. Direct paid API/cloud spend remains `$0`; built-in monetary cost and human minutes remain unavailable/null, and accepted/commercially-cleared/exact-base counts remain zero.
 
 The 23-panel cross-chapter regression packet adds two deterministic local derivatives from existing pixels and no renderer generation, provider call, upload, or external cost. It changes no historical or CH05 acceptance state. Human review minutes remain null.
+
+The complete-chapter authoring contract/template adds no story beat, panel plan, prompt, renderer generation, provider call, upload, candidate, acceptance, or external cost. Its validation uses local metadata and synthetic mutations only; human minutes remain null.

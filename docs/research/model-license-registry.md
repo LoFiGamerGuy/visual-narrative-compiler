@@ -113,3 +113,5 @@ The P029/P032 r6 continuation adds one built-in strip, two panel-level candidate
 The r6 release and chapter inventory add no service operation and change no license conclusion. All eight release images remain ignored local review evidence; model, endpoint, request IDs, usage, monetary cost, seed, reproducibility, commercial clearance, and exact-production-base status remain unavailable or pending exactly as recorded. ADR-0175 is a planning/provenance boundary, not a rights determination.
 
 The cross-chapter regression reuses existing local pixels only. Its two derivatives do not alter the source images' mixed renderer provenance, review states, licenses, or commercial conclusions. ADR-0176 is a future-generation continuity rule and does not retroactively normalize historical provider metadata or rights.
+
+The complete-chapter authoring contract/template is provider-neutral metadata with zero prompts, calls, uploads, or candidates. It grants no new model, license, commercial-use, or data-upload authority.

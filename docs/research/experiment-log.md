@@ -1561,3 +1561,12 @@
 - Measured a material hair/wardrobe era conflict: CH02-CH04 generally depict dark-haired Soren and auburn/red-haired Sigrid, while CH05 r14 specifies light-brown/dark-blond Soren and dark-haired Sigrid.
 - ADR-0176 preserves every historical selection unchanged, uses CH05 r14 as the provisional future-generation target, and requires a new PanelRevision/edition plus owner canon review for any historical replacement.
 - No generation, provider call, upload, plan creation, acceptance mutation, commercial decision, or external spend occurred.
+
+## 2026-09-02 - Complete-chapter ComicPanelPlan authoring contract
+
+- Compiled a reusable contract from five exact CH05/cross-chapter evidence sources: six required narrative phases, 18 panel fields, three cadence classes, nine scale roles, and nine chapter release gates.
+- Added an empty non-collection template with null story/canon/progression/promotion identity, zero plan/sequence rows, and false authoring/execution state.
+- Kept CH05's measured 3-5-panel sequence range as guidance rather than a fixed chapter length.
+- Made armor, weapons, upgraded clothing, monsters, classes, and system UI explicit nullable progression fields rather than implicit prompt permissions.
+- Contract/template rebuild byte-identically; 15/15 malformed authority, schema, story, sequence, execution, and progression mutations fail under ADR-0177.
+- Story beats, North Garden plans, prompts, provider calls, uploads, candidates, acceptance, and spend remain zero.

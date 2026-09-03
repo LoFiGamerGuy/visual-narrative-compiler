@@ -305,3 +305,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Run one P030 repair constrained to the physical Ledger mechanism with no readable prose; preserve the other 39 selected panel hashes.
 4. Keep P020 unchanged unless owner review confirms Tamsin/Sigrid role confusion; clothing distinction currently keeps it story-readable.
 5. Continue into CH08 production and CH10–CH11 authoring after CH07; do not return to wholesale CH05/CH06 style arms.
+
+## Active queue after CH08–CH09 authoring — 2026-09-03
+
+1. Finish CH07 deterministic assembly and review packet from its eight already generated chronological sequence sources.
+2. Compile one default-route CH08–CH09 prompt manifest only after verifying exact CH07 final→CH08 initial state and authorized reference needs.
+3. Begin CH10–CH11 full authoring from CH09's persistent braced-leg, damaged weapon, Wayfinder, armor, faction, and sabotage state.
+4. Promote no full alternate style arm. Continue one candidate per plan, then repair only exact story, continuity, text, or legibility failures.
+5. Keep new generated outputs ineligible for re-upload and keep all provider/model/license/rights limitations explicit.

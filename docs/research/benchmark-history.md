@@ -602,3 +602,9 @@ This measures execution readiness, not visual quality, acceptance, reproducibili
 | Paid API/cloud spend | $0 |
 
 P020 is a role-separation warning and P030 is an unrequested-text failure. Built-in monetary cost and per-request elapsed time are unavailable. This benchmark does not establish human acceptance, rights, commercial clearance, reproducibility, or exact-base fitness.
+
+## CH08–CH09 complete-authoring benchmark — 2026-09-03
+
+The second batch adds 2 complete chapters, 80 unique panels, 16 contiguous sequences, all six phases per chapter, and exact CH07→CH08→CH09 continuity. Post-CH05 breadth is now 4 complete authored chapters/160 panels, of which CH06 has a complete generated default route. The dedicated validator rejects 35/35 mutations spanning state carry, adult/cross-medium boundaries, identity/hair drift, physical Ledger binding, panel/sequence coverage, progression, and execution leakage.
+
+This is an authoring and continuity result, not prompt promotion, visual acceptance, rights clearance, or production execution.

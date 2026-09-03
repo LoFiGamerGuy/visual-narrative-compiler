@@ -1722,3 +1722,12 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Agent triage is 38 PASS / 1 WARN / 1 FAIL. P020 warns on Tamsin/Sigrid facial similarity; P030 fails for forbidden rendered Ledger prose. S08 footer numerals are excluded by recorded deterministic cropping.
 - Uses: 17 authorized references. Paid API/cloud spend: $0. Whole-chapter alternate arms: 0. Repairs: 0. Validator PASS with 16/16 adversarial mutations rejected.
 - Decision: ADR-0199. Continue into CH07 and CH08–CH09; allow one P030 no-text repair without rerolling passing panels.
+
+## CH08–CH09 complete panel authoring batch — 2026-09-03
+
+- Authored 80 unique chronological ComicPanelPlans in 16 contiguous five-panel sequences: 40/8 each for CH08 and CH09.
+- Exact continuity passes for CH07 final→CH08 initial and CH08 final→CH09 initial.
+- CH08 visibly evolves signature garments into light work armor, rescues and spares the Hollow Stag, discovers ecological Ledger marking, and commits to seven nodes.
+- CH09 carries persistent gear state, gives Soren a braced lower-leg injury, earns Sigrid's Wayfinder path through route/rescue evidence, and reveals Brackenwake sabotage beneath the weir.
+- All cast declarations remain clearly fictional adults; hair anchors are fixed; Ledger effects stay on physical surfaces; every panel protects faces, bodies, hands, tools, weapons, and story objects from lettering.
+- Dedicated validation passes and rejects 35/35 mutations. Prompts, pixels, provider operations, uploads, and spend for CH08–CH09 remain zero.

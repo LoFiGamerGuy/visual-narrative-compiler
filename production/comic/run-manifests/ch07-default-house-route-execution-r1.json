@@ -1,0 +1,768 @@
+{
+  "record_type": "BuiltInImageGenExecutionManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch07-default-house-route-execution-r1",
+  "state": "EXECUTED_AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "prompt_manifest": {
+    "path": "production/comic/run-manifests/ch06-ch07-default-house-route-prompt-manifest-r1.json",
+    "sha256": "bb2abecb1bcf44a539b20cd5ee7f78faccb92605f80c0e89d3bbeed8f71de680"
+  },
+  "comic_panel_plan_collection": {
+    "path": "production/comic/ch07-sc01-panel-plans-r1.json",
+    "sha256": "229f95285a7dbb8734bc458f1266702d79ce3de309e99921bde990fdf57400ea"
+  },
+  "records": [
+    {
+      "render_record_id": "ng-render-ng-ch07-s01-storm-prep-r1",
+      "request_id": "ng-ch07-s01-storm-prep",
+      "chapter": "CH07",
+      "panel_ids": [
+        "ng-ch07-sc01-p001",
+        "ng-ch07-sc01-p002",
+        "ng-ch07-sc01-p003",
+        "ng-ch07-sc01-p004",
+        "ng-ch07-sc01-p005"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden Mireback at the Gate five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered order below as one coherent story sequence. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nImage 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority\nScene/backdrop: Mireback at the Gate; use only the locations, weather, people, creature, and objects named in the five panel specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; natural fabric wear, wet stone, mud, timber, peat, root, slate, and practical tools; polished but phone-readable.\nComposition/framing: one horizontal five-panel strip with clean light gutters; vary panel width according to the declared scale role; strong silhouettes, explicit geography, expressive mature faces, and literal hand/tool/terrain contact.\nPanel specifications:\nPanel 1 (ng-ch07-sc01-p001; WIDE_DIRECTIONAL_ANCHOR; HIGH): Storm rain strikes the orchard while the moving mud ridge turns toward the stone gate. Composition: wide farmhouse-to-gate geography with threat vector and three adults at shelter Visible cast: ADULT_SOREN, ADULT_SIGRID, ADULT_TAMSIN_REEVE.\nPanel 2 (ng-ch07-sc01-p002; MEDIUM_TWO_SHOT; MEDIUM): Tamsin names the buried shape a Mireback and warns that active ward ground feeds its peat armor. Composition: three-adult interior-exterior line with Tamsin pointing from support Visible cast: ADULT_SOREN, ADULT_SIGRID, ADULT_TAMSIN_REEVE.\nPanel 3 (ng-ch07-sc01-p003; MEDIUM_CHARACTER_CLUE; LOW): Sigrid maps a retreat lane, a firing lane, and one drainage ditch that crosses both. Composition: overhead yard plan scratched in ash with three route lines Visible cast: ADULT_SIGRID.\nPanel 4 (ng-ch07-sc01-p004; MEDIUM_SINGLE_CAUSAL; MEDIUM): Soren tests the hay fork, pruning hook, gatepost, and ditch bank as one mechanical system. Composition: medium causal inventory with each tool and fulcrum relation readable Visible cast: ADULT_SOREN.\nPanel 5 (ng-ch07-sc01-p005; MEDIUM_TWO_SHOT; LOW): They declare the defense: Sigrid controls its path, Soren controls the ground, and Tamsin guards the threshold. Composition: balanced three-shot with each adult assigned a visible station Visible cast: ADULT_SOREN, ADULT_SIGRID, ADULT_TAMSIN_REEVE.\nCharacter invariants: SOREN is a clearly fictional adult with mature proportions, weathered angular face, light stubble where visible, light-brown to dark-blond short-to-medium wavy hair swept back—never black or bright blond—and a pale oatmeal work coat in the exact carried condition. SIGRID is a clearly fictional adult with mature proportions, athletic build, angular face, dark brows, dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls—and a dark blue-brown plaid wrap in the exact carried condition. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer in practical non-sexualized field clothing with a wrapped injured lower leg; she must remain visually distinct from Sigrid.\nStory invariants: the Garden Ledger appears only as restrained frost-green inscription on real brass, stone, water, glass, map, or tool surfaces; never as a floating game HUD. Mireback, if present, is a heavy peat-root-slate creature with readable mass, joints, vulnerable root-knot, and terrain interaction—not a generic dragon, humanoid, or glowing demon.\nLettering composition: reserve quiet upper-left or upper-right regions matching the panel plans, but render no letters, captions, balloons, sound effects, symbols pretending to be prose, logos, signatures, or watermark. Never place visual clutter over faces, adult bodies, important hands, weapons, tools, the brass key, maps, twine, the boundary wheel, the root-knot, or other story objects.\nMotion: show causal weight shift, leverage, mud displacement, water flow, cloth pull, branch drag, projectile impact, and object vibration only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garments, unexplained weapons, extra monsters, gore, text, logo, or watermark.",
+      "prompt_sha256": "7a54d3c9b646fd46918be9cd1870a8eeb45d7a71a1de9521f11753d47675052a",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "Image 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch07-default-house-route-r1/source/ng-ch07-s01-storm-prep.png",
+        "sha256": "a9e1bc91a220f0e6336b38420adef861e8af4d9c9d25e8087c4bda29b2d2dc5f",
+        "width": 1774,
+        "height": 887,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "HASH_BOUND_MANUAL_GRID_BOXES",
+        "boxes": [
+          [
+            0,
+            0,
+            1130,
+            440
+          ],
+          [
+            1135,
+            0,
+            1774,
+            440
+          ],
+          [
+            0,
+            446,
+            599,
+            882
+          ],
+          [
+            600,
+            446,
+            1134,
+            882
+          ],
+          [
+            1135,
+            446,
+            1768,
+            882
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 117.07,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch07-s02-field-weapons-r1",
+      "request_id": "ng-ch07-s02-field-weapons",
+      "chapter": "CH07",
+      "panel_ids": [
+        "ng-ch07-sc01-p006",
+        "ng-ch07-sc01-p007",
+        "ng-ch07-sc01-p008",
+        "ng-ch07-sc01-p009",
+        "ng-ch07-sc01-p010"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden Mireback at the Gate five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered order below as one coherent story sequence. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nImage 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority\nScene/backdrop: Mireback at the Gate; use only the locations, weather, people, creature, and objects named in the five panel specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; natural fabric wear, wet stone, mud, timber, peat, root, slate, and practical tools; polished but phone-readable.\nComposition/framing: one horizontal five-panel strip with clean light gutters; vary panel width according to the declared scale role; strong silhouettes, explicit geography, expressive mature faces, and literal hand/tool/terrain contact.\nPanel specifications:\nPanel 1 (ng-ch07-sc01-p006; MEDIUM_SINGLE_CAUSAL; MEDIUM): Soren slides the pruning hook over the hay-fork shaft to gain reach without adding dead weight. Composition: close hands and nested tool geometry Visible cast: ADULT_SOREN.\nPanel 2 (ng-ch07-sc01-p007; SMALL_OBJECT_INSERT; LOW): He wedges the joint with a split roof peg and binds it using the recovered mill twine. Composition: object insert with wedge, wrap direction, and knot sequence Visible cast: ADULT_SOREN.\nPanel 3 (ng-ch07-sc01-p008; MEDIUM_SINGLE_CAUSAL; HIGH): Soren loads the polehook against the gatepost and proves the shaft will carry his weight. Composition: tall leverage test with feet, shaft, hook, and gatepost aligned Visible cast: ADULT_SOREN.\nPanel 4 (ng-ch07-sc01-p009; MEDIUM_TWO_SHOT; MEDIUM): Tamsin lends Sigrid a compact recurved bow and exactly five usable arrows. Composition: clear handoff with bow, five shafts, and both adult faces visible Visible cast: ADULT_SIGRID, ADULT_TAMSIN_REEVE.\nPanel 5 (ng-ch07-sc01-p010; WIDE_DIRECTIONAL_ANCHOR; MEDIUM): Sigrid plants two cloth markers that keep Soren out of her firing lane. Composition: wide tactical yard view with markers, lane, and separated roles Visible cast: ADULT_SOREN, ADULT_SIGRID.\nCharacter invariants: SOREN is a clearly fictional adult with mature proportions, weathered angular face, light stubble where visible, light-brown to dark-blond short-to-medium wavy hair swept back—never black or bright blond—and a pale oatmeal work coat in the exact carried condition. SIGRID is a clearly fictional adult with mature proportions, athletic build, angular face, dark brows, dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls—and a dark blue-brown plaid wrap in the exact carried condition. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer in practical non-sexualized field clothing with a wrapped injured lower leg; she must remain visually distinct from Sigrid.\nStory invariants: the Garden Ledger appears only as restrained frost-green inscription on real brass, stone, water, glass, map, or tool surfaces; never as a floating game HUD. Mireback, if present, is a heavy peat-root-slate creature with readable mass, joints, vulnerable root-knot, and terrain interaction—not a generic dragon, humanoid, or glowing demon.\nLettering composition: reserve quiet upper-left or upper-right regions matching the panel plans, but render no letters, captions, balloons, sound effects, symbols pretending to be prose, logos, signatures, or watermark. Never place visual clutter over faces, adult bodies, important hands, weapons, tools, the brass key, maps, twine, the boundary wheel, the root-knot, or other story objects.\nMotion: show causal weight shift, leverage, mud displacement, water flow, cloth pull, branch drag, projectile impact, and object vibration only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garments, unexplained weapons, extra monsters, gore, text, logo, or watermark.",
+      "prompt_sha256": "10e9e5cd672bfa1d53648562ecd5a6620cf9aac0f3037728727c0366b64028fe",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "Image 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch07-default-house-route-r1/source/ng-ch07-s02-field-weapons.png",
+        "sha256": "e25b4584bd00351989209bec9e2a74b2102a818e4a782a394390f0758e2ae73a",
+        "width": 1772,
+        "height": 887,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            4
+          ],
+          [
+            330,
+            335
+          ],
+          [
+            627,
+            631
+          ],
+          [
+            962,
+            962
+          ],
+          [
+            1345,
+            1350
+          ],
+          [
+            1766,
+            1771
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 234.027,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch07-s03-first-contact-r1",
+      "request_id": "ng-ch07-s03-first-contact",
+      "chapter": "CH07",
+      "panel_ids": [
+        "ng-ch07-sc01-p011",
+        "ng-ch07-sc01-p012",
+        "ng-ch07-sc01-p013",
+        "ng-ch07-sc01-p014",
+        "ng-ch07-sc01-p015"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden Mireback at the Gate five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered order below as one coherent story sequence. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nScene/backdrop: Mireback at the Gate; use only the locations, weather, people, creature, and objects named in the five panel specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; natural fabric wear, wet stone, mud, timber, peat, root, slate, and practical tools; polished but phone-readable.\nComposition/framing: one horizontal five-panel strip with clean light gutters; vary panel width according to the declared scale role; strong silhouettes, explicit geography, expressive mature faces, and literal hand/tool/terrain contact.\nPanel specifications:\nPanel 1 (ng-ch07-sc01-p011; WIDE_DIRECTIONAL_ANCHOR; HIGH): The Mireback erupts from the orchard in a mass of peat, root, and slate-heavy forelimbs. Composition: large creature reveal with mature adults small but readable behind the gate Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 2 (ng-ch07-sc01-p012; SMALL_SENSORY_INSERT; MEDIUM): Rain sheets off overlapping peat plates while root fibers tighten across its joints. Composition: monster material insert showing construction rather than gore Visible cast: NO PEOPLE.\nPanel 3 (ng-ch07-sc01-p013; WIDE_ENVIRONMENTAL_MOTION; HIGH): Sigrid's first arrow strikes slate and glances away without slowing it. Composition: longitudinal action line with arrow impact and safe silhouette separation Visible cast: ADULT_SIGRID.\nPanel 4 (ng-ch07-sc01-p014; TALL_OR_WIDE_DUAL_CAUSAL; HIGH): Soren hooks a dead branch and drags it across the creature's path to turn its head. Composition: dual causal frame with polehook, branch drag, and changed monster vector Visible cast: ADULT_SOREN.\nPanel 5 (ng-ch07-sc01-p015; WIDE_ENVIRONMENTAL_MOTION; HIGH): The Mireback hits the stone gate instead of the farmhouse door and cracks the outer pier. Composition: wide impact with displaced stones, clear gate geometry, and no generic speed lines Visible cast: NO PEOPLE.\nCharacter invariants: SOREN is a clearly fictional adult with mature proportions, weathered angular face, light stubble where visible, light-brown to dark-blond short-to-medium wavy hair swept back—never black or bright blond—and a pale oatmeal work coat in the exact carried condition. SIGRID is a clearly fictional adult with mature proportions, athletic build, angular face, dark brows, dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls—and a dark blue-brown plaid wrap in the exact carried condition. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer in practical non-sexualized field clothing with a wrapped injured lower leg; she must remain visually distinct from Sigrid.\nStory invariants: the Garden Ledger appears only as restrained frost-green inscription on real brass, stone, water, glass, map, or tool surfaces; never as a floating game HUD. Mireback, if present, is a heavy peat-root-slate creature with readable mass, joints, vulnerable root-knot, and terrain interaction—not a generic dragon, humanoid, or glowing demon.\nLettering composition: reserve quiet upper-left or upper-right regions matching the panel plans, but render no letters, captions, balloons, sound effects, symbols pretending to be prose, logos, signatures, or watermark. Never place visual clutter over faces, adult bodies, important hands, weapons, tools, the brass key, maps, twine, the boundary wheel, the root-knot, or other story objects.\nMotion: show causal weight shift, leverage, mud displacement, water flow, cloth pull, branch drag, projectile impact, and object vibration only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garments, unexplained weapons, extra monsters, gore, text, logo, or watermark.",
+      "prompt_sha256": "774ab9f257df81d3ef09300d05108fbbedfe89dc50ffe9a349e7282ec85c6350",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch07-default-house-route-r1/source/ng-ch07-s03-first-contact.png",
+        "sha256": "015fdfec0f1c517da1208f76b5015d72a278ec2def2a15803643b57fd0d6212d",
+        "width": 1691,
+        "height": 930,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "HASH_BOUND_MANUAL_GRID_BOXES",
+        "boxes": [
+          [
+            4,
+            3,
+            1686,
+            417
+          ],
+          [
+            4,
+            422,
+            340,
+            925
+          ],
+          [
+            344,
+            422,
+            843,
+            925
+          ],
+          [
+            845,
+            422,
+            1253,
+            925
+          ],
+          [
+            1256,
+            422,
+            1686,
+            925
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 370.189,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch07-s04-mud-trap-r1",
+      "request_id": "ng-ch07-s04-mud-trap",
+      "chapter": "CH07",
+      "panel_ids": [
+        "ng-ch07-sc01-p016",
+        "ng-ch07-sc01-p017",
+        "ng-ch07-sc01-p018",
+        "ng-ch07-sc01-p019",
+        "ng-ch07-sc01-p020"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden Mireback at the Gate five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered order below as one coherent story sequence. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nScene/backdrop: Mireback at the Gate; use only the locations, weather, people, creature, and objects named in the five panel specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; natural fabric wear, wet stone, mud, timber, peat, root, slate, and practical tools; polished but phone-readable.\nComposition/framing: one horizontal five-panel strip with clean light gutters; vary panel width according to the declared scale role; strong silhouettes, explicit geography, expressive mature faces, and literal hand/tool/terrain contact.\nPanel specifications:\nPanel 1 (ng-ch07-sc01-p016; MEDIUM_SINGLE_CAUSAL; MEDIUM): Soren opens the upper irrigation gate and sends storm water down the orchard furrow. Composition: hand-gate-water causal close with flow direction visible Visible cast: ADULT_SOREN.\nPanel 2 (ng-ch07-sc01-p017; WIDE_ENVIRONMENTAL_MOTION; MEDIUM): The water reaches the drainage ditch and turns its packed edge into sliding mud. Composition: people-free environmental motion insert linking channel to ditch bank Visible cast: NO PEOPLE.\nPanel 3 (ng-ch07-sc01-p018; MEDIUM_SINGLE_CAUSAL; HIGH): Sigrid moves the nearer cloth marker two paces, narrowing the creature's safe route. Composition: tall action with her grounded reach, marker, and approaching mass separated Visible cast: ADULT_SIGRID.\nPanel 4 (ng-ch07-sc01-p019; MEDIUM_SINGLE_CAUSAL; HIGH): She lands an arrow in the soft peat beside its eye, turning it toward the marked gap. Composition: medium action with exact soft target and visible turn response Visible cast: ADULT_SIGRID.\nPanel 5 (ng-ch07-sc01-p020; WIDE_ENVIRONMENTAL_MOTION; HIGH): Its slate forelimb crosses the ditch and the saturated bank collapses under the load. Composition: wide ground-failure anchor with weight transfer and sinking limb Visible cast: NO PEOPLE.\nCharacter invariants: SOREN is a clearly fictional adult with mature proportions, weathered angular face, light stubble where visible, light-brown to dark-blond short-to-medium wavy hair swept back—never black or bright blond—and a pale oatmeal work coat in the exact carried condition. SIGRID is a clearly fictional adult with mature proportions, athletic build, angular face, dark brows, dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls—and a dark blue-brown plaid wrap in the exact carried condition. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer in practical non-sexualized field clothing with a wrapped injured lower leg; she must remain visually distinct from Sigrid.\nStory invariants: the Garden Ledger appears only as restrained frost-green inscription on real brass, stone, water, glass, map, or tool surfaces; never as a floating game HUD. Mireback, if present, is a heavy peat-root-slate creature with readable mass, joints, vulnerable root-knot, and terrain interaction—not a generic dragon, humanoid, or glowing demon.\nLettering composition: reserve quiet upper-left or upper-right regions matching the panel plans, but render no letters, captions, balloons, sound effects, symbols pretending to be prose, logos, signatures, or watermark. Never place visual clutter over faces, adult bodies, important hands, weapons, tools, the brass key, maps, twine, the boundary wheel, the root-knot, or other story objects.\nMotion: show causal weight shift, leverage, mud displacement, water flow, cloth pull, branch drag, projectile impact, and object vibration only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garments, unexplained weapons, extra monsters, gore, text, logo, or watermark.",
+      "prompt_sha256": "42262679e3ef123f6c78d51da5b07e855cddf2c4c7888baa0f1ebe85e0d5911a",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch07-default-house-route-r1/source/ng-ch07-s04-mud-trap.png",
+        "sha256": "01b3c0251c2766b5790b26e006a99edb0b11e000cceeab24e27afbe84b071350",
+        "width": 1715,
+        "height": 917,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            6
+          ],
+          [
+            334,
+            339
+          ],
+          [
+            662,
+            666
+          ],
+          [
+            1008,
+            1011
+          ],
+          [
+            1347,
+            1350
+          ],
+          [
+            1711,
+            1714
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 497.196,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch07-s05-counterattack-r1",
+      "request_id": "ng-ch07-s05-counterattack",
+      "chapter": "CH07",
+      "panel_ids": [
+        "ng-ch07-sc01-p021",
+        "ng-ch07-sc01-p022",
+        "ng-ch07-sc01-p023",
+        "ng-ch07-sc01-p024",
+        "ng-ch07-sc01-p025"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden Mireback at the Gate five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered order below as one coherent story sequence. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nImage 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority\nScene/backdrop: Mireback at the Gate; use only the locations, weather, people, creature, and objects named in the five panel specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; natural fabric wear, wet stone, mud, timber, peat, root, slate, and practical tools; polished but phone-readable.\nComposition/framing: one horizontal five-panel strip with clean light gutters; vary panel width according to the declared scale role; strong silhouettes, explicit geography, expressive mature faces, and literal hand/tool/terrain contact.\nPanel specifications:\nPanel 1 (ng-ch07-sc01-p021; MEDIUM_CHARACTER_CLUE; MEDIUM): The trapped forelimb exposes a pale root-knot behind the slate shoulder. Composition: medium monster clue with knot location and joint relationship explicit Visible cast: NO PEOPLE.\nPanel 2 (ng-ch07-sc01-p022; TALL_OR_WIDE_DUAL_CAUSAL; HIGH): Soren seats the polehook behind the root-knot and braces the shaft against the gatepost. Composition: continuous hook-knot-shaft-post leverage path Visible cast: ADULT_SOREN.\nPanel 3 (ng-ch07-sc01-p023; WIDE_DIRECTIONAL_ANCHOR; HIGH): The Mireback twists and drags Soren one boot-length through mud, tearing his coat sleeve. Composition: grounded resistance with mud furrow, taut shaft, and cloth tear Visible cast: ADULT_SOREN.\nPanel 4 (ng-ch07-sc01-p024; TALL_OR_WIDE_DUAL_CAUSAL; HIGH): Sigrid shoots the tension root above Soren's hook rather than the armored body. Composition: targeted arrow close with root under tension and Soren clear of line Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 5 (ng-ch07-sc01-p025; MEDIUM_SENSORY_REACTION; HIGH): At Sigrid's count, Soren shifts from pulling the creature to levering the knot against stone. Composition: dual reaction-action panel with spoken timing and changed force direction Visible cast: ADULT_SOREN, ADULT_SIGRID.\nCharacter invariants: SOREN is a clearly fictional adult with mature proportions, weathered angular face, light stubble where visible, light-brown to dark-blond short-to-medium wavy hair swept back—never black or bright blond—and a pale oatmeal work coat in the exact carried condition. SIGRID is a clearly fictional adult with mature proportions, athletic build, angular face, dark brows, dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls—and a dark blue-brown plaid wrap in the exact carried condition. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer in practical non-sexualized field clothing with a wrapped injured lower leg; she must remain visually distinct from Sigrid.\nStory invariants: the Garden Ledger appears only as restrained frost-green inscription on real brass, stone, water, glass, map, or tool surfaces; never as a floating game HUD. Mireback, if present, is a heavy peat-root-slate creature with readable mass, joints, vulnerable root-knot, and terrain interaction—not a generic dragon, humanoid, or glowing demon.\nLettering composition: reserve quiet upper-left or upper-right regions matching the panel plans, but render no letters, captions, balloons, sound effects, symbols pretending to be prose, logos, signatures, or watermark. Never place visual clutter over faces, adult bodies, important hands, weapons, tools, the brass key, maps, twine, the boundary wheel, the root-knot, or other story objects.\nMotion: show causal weight shift, leverage, mud displacement, water flow, cloth pull, branch drag, projectile impact, and object vibration only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garments, unexplained weapons, extra monsters, gore, text, logo, or watermark.",
+      "prompt_sha256": "929ebe6ea13eb3fae58c88d70f2f62cd7eb9e9285be1fb4297c6925e5cfd4aec",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "Image 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch07-default-house-route-r1/source/ng-ch07-s05-counterattack.png",
+        "sha256": "bd44e4e672a57c3043382798aed311c5fbbf94ec50409c197452cc079c48d92d",
+        "width": 1774,
+        "height": 887,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            7
+          ],
+          [
+            349,
+            354
+          ],
+          [
+            686,
+            690
+          ],
+          [
+            1056,
+            1060
+          ],
+          [
+            1406,
+            1406
+          ],
+          [
+            1766,
+            1773
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 115.38,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch07-s06-shelter-held-r1",
+      "request_id": "ng-ch07-s06-shelter-held",
+      "chapter": "CH07",
+      "panel_ids": [
+        "ng-ch07-sc01-p026",
+        "ng-ch07-sc01-p027",
+        "ng-ch07-sc01-p028",
+        "ng-ch07-sc01-p029",
+        "ng-ch07-sc01-p030"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden Mireback at the Gate five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered order below as one coherent story sequence. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nImage 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority\nScene/backdrop: Mireback at the Gate; use only the locations, weather, people, creature, and objects named in the five panel specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; natural fabric wear, wet stone, mud, timber, peat, root, slate, and practical tools; polished but phone-readable.\nComposition/framing: one horizontal five-panel strip with clean light gutters; vary panel width according to the declared scale role; strong silhouettes, explicit geography, expressive mature faces, and literal hand/tool/terrain contact.\nPanel specifications:\nPanel 1 (ng-ch07-sc01-p026; TALL_OR_WIDE_DUAL_CAUSAL; HIGH): Sigrid plants both boots on the gate brace and adds her weight to the polehook shaft. Composition: tall dual leverage with both adults, grounded feet, and unobscured hands Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 2 (ng-ch07-sc01-p027; MEDIUM_SINGLE_CAUSAL; HIGH): The cracked gatepost becomes a fulcrum and the exposed root-knot lifts clear of the peat plates. Composition: mechanical reveal with post, shaft, hook, knot, and lifted armor layers Visible cast: NO PEOPLE.\nPanel 3 (ng-ch07-sc01-p028; WIDE_DIRECTIONAL_ANCHOR; HIGH): They rotate together; the root-knot tears free and the Mireback's weight settles harmlessly into mud. Composition: wide climax with rotational force, collapsing peat mass, and no gore Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 4 (ng-ch07-sc01-p029; SMALL_SENSORY_INSERT; LOW): Rain washes loose peat from the still slate frame while new shoots uncurl from the severed knot. Composition: quiet aftermath insert suggesting ecology rather than trophy violence Visible cast: NO PEOPLE.\nPanel 5 (ng-ch07-sc01-p030; MEDIUM_SENSORY_REACTION; LOW): Frost-green words form on Warden's Reach and the wet gate: SHELTER HELD — AFFINITIES OBSERVED. Composition: physical inscription across tool and stone with restrained glow Visible cast: ADULT_SOREN, ADULT_SIGRID.\nCharacter invariants: SOREN is a clearly fictional adult with mature proportions, weathered angular face, light stubble where visible, light-brown to dark-blond short-to-medium wavy hair swept back—never black or bright blond—and a pale oatmeal work coat in the exact carried condition. SIGRID is a clearly fictional adult with mature proportions, athletic build, angular face, dark brows, dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls—and a dark blue-brown plaid wrap in the exact carried condition. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer in practical non-sexualized field clothing with a wrapped injured lower leg; she must remain visually distinct from Sigrid.\nStory invariants: the Garden Ledger appears only as restrained frost-green inscription on real brass, stone, water, glass, map, or tool surfaces; never as a floating game HUD. Mireback, if present, is a heavy peat-root-slate creature with readable mass, joints, vulnerable root-knot, and terrain interaction—not a generic dragon, humanoid, or glowing demon.\nLettering composition: reserve quiet upper-left or upper-right regions matching the panel plans, but render no letters, captions, balloons, sound effects, symbols pretending to be prose, logos, signatures, or watermark. Never place visual clutter over faces, adult bodies, important hands, weapons, tools, the brass key, maps, twine, the boundary wheel, the root-knot, or other story objects.\nMotion: show causal weight shift, leverage, mud displacement, water flow, cloth pull, branch drag, projectile impact, and object vibration only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garments, unexplained weapons, extra monsters, gore, text, logo, or watermark.",
+      "prompt_sha256": "ebcadedce59c7af750bce47bcbc128c8aa2492f4a25a4f64dc63a3c706c75a7f",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "Image 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch07-default-house-route-r1/source/ng-ch07-s06-shelter-held.png",
+        "sha256": "b77f9a914edf1512673658d9d5257914c6b6d9268921a97f11f21479034681ac",
+        "width": 1773,
+        "height": 887,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            8
+          ],
+          [
+            413,
+            419
+          ],
+          [
+            687,
+            693
+          ],
+          [
+            1145,
+            1151
+          ],
+          [
+            1403,
+            1403
+          ],
+          [
+            1766,
+            1772
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 233.09,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch07-s07-cost-r1",
+      "request_id": "ng-ch07-s07-cost",
+      "chapter": "CH07",
+      "panel_ids": [
+        "ng-ch07-sc01-p031",
+        "ng-ch07-sc01-p032",
+        "ng-ch07-sc01-p033",
+        "ng-ch07-sc01-p034",
+        "ng-ch07-sc01-p035"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden Mireback at the Gate five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered order below as one coherent story sequence. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nImage 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority\nScene/backdrop: Mireback at the Gate; use only the locations, weather, people, creature, and objects named in the five panel specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; natural fabric wear, wet stone, mud, timber, peat, root, slate, and practical tools; polished but phone-readable.\nComposition/framing: one horizontal five-panel strip with clean light gutters; vary panel width according to the declared scale role; strong silhouettes, explicit geography, expressive mature faces, and literal hand/tool/terrain contact.\nPanel specifications:\nPanel 1 (ng-ch07-sc01-p031; MEDIUM_CHARACTER_CLUE; MEDIUM): Tamsin confirms the Mireback is dormant, not cleanly dead, and marks its regrowing roots. Composition: adult kneeling inspection with hands away from the root-knot Visible cast: ADULT_TAMSIN_REEVE.\nPanel 2 (ng-ch07-sc01-p032; MEDIUM_SINGLE_CAUSAL; LOW): Soren binds his torn oatmeal sleeve around the cracked polehook grip. Composition: quiet hand-and-cloth repair insert preserving oatmeal color identity Visible cast: ADULT_SOREN.\nPanel 3 (ng-ch07-sc01-p033; MEDIUM_CHARACTER_CLUE; LOW): Sigrid finds a scorched edge on her plaid where the gate lantern burst during the struggle. Composition: medium wardrobe continuity check with face and damaged plaid edge clear Visible cast: ADULT_SIGRID.\nPanel 4 (ng-ch07-sc01-p034; SMALL_OBJECT_INSERT; LOW): Inside the wall, the farmhouse wardstone opens a crack from top to base. Composition: small stone fracture insert with no exaggerated light Visible cast: NO PEOPLE.\nPanel 5 (ng-ch07-sc01-p035; MEDIUM_TWO_SHOT; MEDIUM): Tamsin says the next attack will feed through that crack unless they repair the northern chain. Composition: three-adult consequence frame with cracked stone between them Visible cast: ADULT_SOREN, ADULT_SIGRID, ADULT_TAMSIN_REEVE.\nCharacter invariants: SOREN is a clearly fictional adult with mature proportions, weathered angular face, light stubble where visible, light-brown to dark-blond short-to-medium wavy hair swept back—never black or bright blond—and a pale oatmeal work coat in the exact carried condition. SIGRID is a clearly fictional adult with mature proportions, athletic build, angular face, dark brows, dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls—and a dark blue-brown plaid wrap in the exact carried condition. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer in practical non-sexualized field clothing with a wrapped injured lower leg; she must remain visually distinct from Sigrid.\nStory invariants: the Garden Ledger appears only as restrained frost-green inscription on real brass, stone, water, glass, map, or tool surfaces; never as a floating game HUD. Mireback, if present, is a heavy peat-root-slate creature with readable mass, joints, vulnerable root-knot, and terrain interaction—not a generic dragon, humanoid, or glowing demon.\nLettering composition: reserve quiet upper-left or upper-right regions matching the panel plans, but render no letters, captions, balloons, sound effects, symbols pretending to be prose, logos, signatures, or watermark. Never place visual clutter over faces, adult bodies, important hands, weapons, tools, the brass key, maps, twine, the boundary wheel, the root-knot, or other story objects.\nMotion: show causal weight shift, leverage, mud displacement, water flow, cloth pull, branch drag, projectile impact, and object vibration only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garments, unexplained weapons, extra monsters, gore, text, logo, or watermark.",
+      "prompt_sha256": "3b0b9045646709f54223a43d7ff3e5d456ddb23636090e3a23f0ca9618ec67e1",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P036-tall-lever-clear-line-corrected-r1.png",
+          "sha256": "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb",
+          "role": "Image 3: composition-only reference for readable two-adult leverage and grounded force paths; not hair identity authority"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch07-default-house-route-r1/source/ng-ch07-s07-cost.png",
+        "sha256": "a0807b35a06c1e745b91434221f47356173c44a3b0a2e4766e793c20c130b42f",
+        "width": 1857,
+        "height": 847,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "DETERMINISTIC_VERTICAL_GUTTER_DETECTION",
+        "bright_threshold": 245,
+        "column_dominance": 0.72,
+        "cluster_join_px": 10,
+        "clusters_inclusive": [
+          [
+            0,
+            5
+          ],
+          [
+            497,
+            503
+          ],
+          [
+            791,
+            797
+          ],
+          [
+            1110,
+            1116
+          ],
+          [
+            1393,
+            1399
+          ],
+          [
+            1850,
+            1856
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 342.941,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    },
+    {
+      "render_record_id": "ng-render-ng-ch07-s08-road-north-r1",
+      "request_id": "ng-ch07-s08-road-north",
+      "chapter": "CH07",
+      "panel_ids": [
+        "ng-ch07-sc01-p036",
+        "ng-ch07-sc01-p037",
+        "ng-ch07-sc01-p038",
+        "ng-ch07-sc01-p039",
+        "ng-ch07-sc01-p040"
+      ],
+      "exact_prompt": "Use case: illustration-story\nAsset type: North Garden Mireback at the Gate five-panel chronological webcomic sequence strip\nPrimary request: Render exactly five clearly separated panels in the numbered order below as one coherent story sequence. Preserve causal state and object positions from panel to panel.\nInput images:\nImage 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction\nImage 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish\nScene/backdrop: Mireback at the Gate; use only the locations, weather, people, creature, and objects named in the five panel specifications.\nStyle/medium: mature clean graphic webcomic with restrained painterly color and selective premium cel finish; natural fabric wear, wet stone, mud, timber, peat, root, slate, and practical tools; polished but phone-readable.\nComposition/framing: one horizontal five-panel strip with clean light gutters; vary panel width according to the declared scale role; strong silhouettes, explicit geography, expressive mature faces, and literal hand/tool/terrain contact.\nPanel specifications:\nPanel 1 (ng-ch07-sc01-p036; SMALL_SENSORY_INSERT; LOW): The damaged node map brightens as rainwater connects its farmhouse square to seven circles. Composition: map insert with physical water track and seven distinct nodes Visible cast: NO PEOPLE.\nPanel 2 (ng-ch07-sc01-p037; SMALL_SENSORY_INSERT; LOW): Six lights remain faint; the nearest northern circle pulses hard enough to shake a drop from the page. Composition: tight map detail with one pulsing circle and six faint marks Visible cast: NO PEOPLE.\nPanel 3 (ng-ch07-sc01-p038; MEDIUM_TWO_SHOT; MEDIUM): The nearest light gutters while Soren and Sigrid watch from opposite sides of the map. Composition: balanced reaction two-shot with map centered and both faces readable Visible cast: ADULT_SOREN, ADULT_SIGRID.\nPanel 4 (ng-ch07-sc01-p039; SMALL_OBJECT_INSERT; LOW): The northern light goes dark, leaving a root-shaped stain across the route. Composition: silent map insert with extinguished circle and spreading stain Visible cast: NO PEOPLE.\nPanel 5 (ng-ch07-sc01-p040; WIDE_DIRECTIONAL_ANCHOR; HIGH): They decide to leave at dawn: Sigrid will choose the road, Soren will carry the means to hold it, and Tamsin will guide them north. Composition: wide storm-clearing threshold tableau with three adults, repaired tool, bow, and northward map vector Visible cast: ADULT_SOREN, ADULT_SIGRID, ADULT_TAMSIN_REEVE.\nCharacter invariants: SOREN is a clearly fictional adult with mature proportions, weathered angular face, light stubble where visible, light-brown to dark-blond short-to-medium wavy hair swept back—never black or bright blond—and a pale oatmeal work coat in the exact carried condition. SIGRID is a clearly fictional adult with mature proportions, athletic build, angular face, dark brows, dark-brown to near-black hair in a compact low bun or practical braid—never blond or loose red curls—and a dark blue-brown plaid wrap in the exact carried condition. TAMSIN_REEVE, if present, is a clearly fictional adult courier-cartographer in practical non-sexualized field clothing with a wrapped injured lower leg; she must remain visually distinct from Sigrid.\nStory invariants: the Garden Ledger appears only as restrained frost-green inscription on real brass, stone, water, glass, map, or tool surfaces; never as a floating game HUD. Mireback, if present, is a heavy peat-root-slate creature with readable mass, joints, vulnerable root-knot, and terrain interaction—not a generic dragon, humanoid, or glowing demon.\nLettering composition: reserve quiet upper-left or upper-right regions matching the panel plans, but render no letters, captions, balloons, sound effects, symbols pretending to be prose, logos, signatures, or watermark. Never place visual clutter over faces, adult bodies, important hands, weapons, tools, the brass key, maps, twine, the boundary wheel, the root-knot, or other story objects.\nMotion: show causal weight shift, leverage, mud displacement, water flow, cloth pull, branch drag, projectile impact, and object vibration only where named. Do not substitute generic speed-line texture.\nConstraints: adult-only fictional cast; no child; no child-coded person; no youth; no real-person likeness; no celebrity likeness; no biometric identity data; no sexualization or fetish styling; no modern objects, extra people, duplicated people, swapped roles, changed hair colors, changed signature garments, unexplained weapons, extra monsters, gore, text, logo, or watermark.",
+      "prompt_sha256": "93df9d8063951a98087411f01903dbc7b2abe5bb1f9e35ca1e8ce00c6f8feced",
+      "input_references": [
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "Image 1: fictional-adult Soren/Sigrid wardrobe, paired silhouette, restrained action, and clean graphic-painterly direction"
+        },
+        {
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "Image 2: fictional-adult Sigrid dark tied-back hair, plaid-wrap identity, face maturity, and restrained cel-painted finish"
+        }
+      ],
+      "output": {
+        "path": "experiments/review-packets/ch07-default-house-route-r1/source/ng-ch07-s08-road-north.png",
+        "sha256": "bbde945bf0e86fafa190c41b426ac79c21cb05567d37ce6aa3fd051d8075f443",
+        "width": 1774,
+        "height": 887,
+        "mime_type": "image/png"
+      },
+      "crop_method": {
+        "method": "HASH_BOUND_MANUAL_GRID_BOXES",
+        "boxes": [
+          [
+            3,
+            54,
+            438,
+            389
+          ],
+          [
+            443,
+            54,
+            881,
+            389
+          ],
+          [
+            887,
+            54,
+            1385,
+            389
+          ],
+          [
+            1390,
+            54,
+            1770,
+            389
+          ],
+          [
+            3,
+            447,
+            1770,
+            882
+          ]
+        ]
+      },
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "provider_usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "elapsed_seconds": 460.672,
+      "elapsed_source": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+      "unavailable_fields": [
+        "model",
+        "endpoint",
+        "provider_request_id",
+        "provider_usage",
+        "monetary_cost_usd",
+        "deterministic_seed"
+      ],
+      "human_review_state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "reproducible": false
+    }
+  ],
+  "summary": {
+    "chapter": "CH07",
+    "sequence_outputs": 8,
+    "panel_candidates": 40,
+    "authorized_reference_uses": 21,
+    "client_observed_elapsed_seconds_sum": 2370.565,
+    "parallel_group_wall_seconds": [
+      497.196,
+      460.672
+    ],
+    "paid_api_cloud_spend_usd": 0,
+    "built_in_monetary_cost_disclosed": false,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "exact_production_base": 0
+  },
+  "timing_note": "Per-request values are client-observed wall intervals. Their sum is not total wall time because requests ran in two parallel groups.",
+  "boundary": "Ignored generated pixels are research evidence. No new output was re-uploaded. Null service fields are unavailable, not zero."
+}

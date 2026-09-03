@@ -1731,3 +1731,12 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - CH09 carries persistent gear state, gives Soren a braced lower-leg injury, earns Sigrid's Wayfinder path through route/rescue evidence, and reveals Brackenwake sabotage beneath the weir.
 - All cast declarations remain clearly fictional adults; hair anchors are fixed; Ledger effects stay on physical surfaces; every panel protects faces, bodies, hands, tools, weapons, and story objects from lettering.
 - Dedicated validation passes and rejects 35/35 mutations. Prompts, pixels, provider operations, uploads, and spend for CH08–CH09 remain zero.
+
+## CH07 complete default-route production and review r1 — 2026-09-03
+
+- Generated and deterministically cropped eight chronological sequences into 40 distinct CH07 candidates, including hash-bound comic-grid crops where the generator did not follow the requested strip layout.
+- Built complete reading, phone, sequence/contact, and lettering-safe review artifacts.
+- Preserved exact prompts, references, source/crop/artifact hashes, dimensions, exact client-observed per-request intervals, null service fields, and pending human-review/rights state.
+- Triage: 37 PASS / 1 WARN / 2 FAIL. P009 warns on Tamsin hair drift; P030 fails for forbidden status prose; P040 fails for Warden's Reach gun-like form drift.
+- Uses: 21 authorized references. Parallel wall intervals: 497.196 and 460.672 seconds. Paid API/cloud spend: $0. Alternate arms/repairs: 0/0.
+- Validator PASS with 17/17 adversarial mutations rejected. ADR-0201 freezes the 38 non-target panels and permits only exact P030/P040 repairs.

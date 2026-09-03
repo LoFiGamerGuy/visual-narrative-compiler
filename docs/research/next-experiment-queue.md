@@ -313,3 +313,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Begin CH10–CH11 full authoring from CH09's persistent braced-leg, damaged weapon, Wayfinder, armor, faction, and sabotage state.
 4. Promote no full alternate style arm. Continue one candidate per plan, then repair only exact story, continuity, text, or legibility failures.
 5. Keep new generated outputs ineligible for re-upload and keep all provider/model/license/rights limitations explicit.
+
+## Active queue after CH07 complete default-route assembly — 2026-09-03
+
+1. Compile and validate one default CH08–CH09 prompt manifest from the now-complete 80-plan batch.
+2. Finish CH10–CH11 complete authoring from CH09's exact state while CH08 production runs.
+3. Repair only CH07 P030's rendered text and P040's Warden's Reach form; preserve the other 38 panel hashes.
+4. Keep CH07 P009 as a warning until owner review confirms whether Tamsin's lighter hair is confusing enough to justify repair.
+5. Maintain one route per chapter and continue directly toward CH12–CH13 after CH10–CH11 authoring.

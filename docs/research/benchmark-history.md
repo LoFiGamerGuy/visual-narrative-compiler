@@ -608,3 +608,20 @@ P020 is a role-separation warning and P030 is an unrequested-text failure. Built
 The second batch adds 2 complete chapters, 80 unique panels, 16 contiguous sequences, all six phases per chapter, and exact CH07→CH08→CH09 continuity. Post-CH05 breadth is now 4 complete authored chapters/160 panels, of which CH06 has a complete generated default route. The dedicated validator rejects 35/35 mutations spanning state carry, adult/cross-medium boundaries, identity/hair drift, physical Ledger binding, panel/sequence coverage, progression, and execution leakage.
 
 This is an authoring and continuity result, not prompt promotion, visual acceptance, rights clearance, or production execution.
+
+## CH07 complete default-route benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete chronological chapter | 1 × 40 panels |
+| Sequence sources / panel candidates | 8 / 40 |
+| Agent triage PASS / WARN / FAIL | 37 / 1 / 2 |
+| Review artifacts | 5 / 5 |
+| Authorized reference uses | 21 |
+| Client-observed request-interval sum | 2,370.565 s |
+| Parallel group wall intervals | 497.196 s / 460.672 s |
+| Alternate arms / targeted repairs | 0 / 0 |
+| Adversarial mutations rejected | 17 / 17 |
+| Paid API/cloud spend | $0 |
+
+The request-interval sum overlaps and is not total wall time. P009, P030, and P040 preserve exact continuity/text/prop findings. Human acceptance, rights, commercial clearance, reproducibility, and exact-base fitness remain open.

@@ -1,0 +1,1721 @@
+{
+  "record_type": "CH05CadenceObjectiveSensitivityAudit",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-cadence-objective-sensitivity-audit-r1",
+  "state": "DETERMINISTIC_EXISTING_EVIDENCE_SENSITIVITY_RESULT",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-six-route-comparison-r1.json",
+      "sha256": "c40d3a945704639855135cda4d011529f13c5c71d857b7807914823d7e248229"
+    }
+  ],
+  "hard_constraints": [
+    "combined_semantic_identity_failures=0",
+    "semantic_failures=0",
+    "identity_failures=0"
+  ],
+  "secondary_objectives_in_baseline_order": [
+    "adjacent_route_transitions",
+    "combined_semantic_identity_warnings",
+    "semantic_warnings",
+    "identity_warnings",
+    "overall_failures",
+    "lettering_failures",
+    "combined_overall_lettering_warnings",
+    "stable_route_preference_sum"
+  ],
+  "method": {
+    "leave_one_out": "Run eight variants, each deleting exactly one secondary objective while retaining the order of the other seven and enforcing all three zero-failure hard constraints.",
+    "tie_handling": "Count all assignments sharing the optimal retained-objective tuple. Use ROUTES order only to choose a deterministic representative; the tie count is reported independently.",
+    "pareto": "Exact dynamic-programming Pareto frontier over all eight secondary fields, pruning dominated partial scores only within the same last-route state before the final global prune.",
+    "evidence_boundary": "Uses only status fields and sequence ranges already recorded in the six-route evidence; no pixels, prompts, providers, uploads, or cost data are introduced."
+  },
+  "coverage": {
+    "sequences": 11,
+    "routes": 6,
+    "candidate_sequence_route_cells": 66,
+    "hard_feasible_assignment_count": 1728000,
+    "leave_one_out_variants": 8
+  },
+  "hard_feasible_routes_by_sequence": [
+    {
+      "sequence_id": "s01-opening-departure",
+      "panel_range": [
+        1,
+        5
+      ],
+      "zero_hard_failure_routes": [
+        "reduced_palette_text_control"
+      ],
+      "route_count": 1
+    },
+    {
+      "sequence_id": "s02-runnel-marker-trail",
+      "panel_range": [
+        6,
+        9
+      ],
+      "zero_hard_failure_routes": [
+        "r6",
+        "alt_graphic",
+        "clear_line_watercolor",
+        "premium_cel"
+      ],
+      "route_count": 4
+    },
+    {
+      "sequence_id": "s03-listening-twine-ridge",
+      "panel_range": [
+        10,
+        14
+      ],
+      "zero_hard_failure_routes": [
+        "r6",
+        "alt_graphic",
+        "clear_line_watercolor",
+        "flat_graphic_gouache",
+        "reduced_palette_text_control"
+      ],
+      "route_count": 5
+    },
+    {
+      "sequence_id": "s04-mill-reveal-bridge-warning",
+      "panel_range": [
+        15,
+        19
+      ],
+      "zero_hard_failure_routes": [
+        "r6",
+        "alt_graphic",
+        "clear_line_watercolor",
+        "premium_cel",
+        "flat_graphic_gouache",
+        "reduced_palette_text_control"
+      ],
+      "route_count": 6
+    },
+    {
+      "sequence_id": "s05-creek-marker-drum",
+      "panel_range": [
+        20,
+        24
+      ],
+      "zero_hard_failure_routes": [
+        "r6",
+        "alt_graphic",
+        "clear_line_watercolor",
+        "premium_cel",
+        "flat_graphic_gouache",
+        "reduced_palette_text_control"
+      ],
+      "route_count": 6
+    },
+    {
+      "sequence_id": "s06-ember-line-entry",
+      "panel_range": [
+        25,
+        29
+      ],
+      "zero_hard_failure_routes": [
+        "r6",
+        "clear_line_watercolor",
+        "flat_graphic_gouache",
+        "reduced_palette_text_control"
+      ],
+      "route_count": 4
+    },
+    {
+      "sequence_id": "s07-impossible-footprints-bell",
+      "panel_range": [
+        30,
+        34
+      ],
+      "zero_hard_failure_routes": [
+        "r6",
+        "clear_line_watercolor",
+        "premium_cel",
+        "flat_graphic_gouache",
+        "reduced_palette_text_control"
+      ],
+      "route_count": 5
+    },
+    {
+      "sequence_id": "s08-plank-tin-map",
+      "panel_range": [
+        35,
+        39
+      ],
+      "zero_hard_failure_routes": [
+        "r6",
+        "flat_graphic_gouache"
+      ],
+      "route_count": 2
+    },
+    {
+      "sequence_id": "s09-deduction-retreat-cut",
+      "panel_range": [
+        40,
+        44
+      ],
+      "zero_hard_failure_routes": [
+        "premium_cel",
+        "reduced_palette_text_control"
+      ],
+      "route_count": 2
+    },
+    {
+      "sequence_id": "s10-silence-return",
+      "panel_range": [
+        45,
+        47
+      ],
+      "zero_hard_failure_routes": [
+        "r6",
+        "alt_graphic",
+        "clear_line_watercolor",
+        "premium_cel",
+        "flat_graphic_gouache",
+        "reduced_palette_text_control"
+      ],
+      "route_count": 6
+    },
+    {
+      "sequence_id": "s11-farmhouse-reversal",
+      "panel_range": [
+        48,
+        50
+      ],
+      "zero_hard_failure_routes": [
+        "r6",
+        "alt_graphic",
+        "clear_line_watercolor",
+        "premium_cel",
+        "flat_graphic_gouache"
+      ],
+      "route_count": 5
+    }
+  ],
+  "recorded_baseline": {
+    "full_score": {
+      "adjacent_route_transitions": 2,
+      "combined_semantic_identity_warnings": 3,
+      "semantic_warnings": 3,
+      "identity_warnings": 0,
+      "overall_failures": 4,
+      "lettering_failures": 2,
+      "combined_overall_lettering_warnings": 3,
+      "stable_route_preference_sum": 14
+    },
+    "assignment": [
+      {
+        "sequence_id": "s01-opening-departure",
+        "panel_range": [
+          1,
+          5
+        ],
+        "route": "reduced_palette_text_control"
+      },
+      {
+        "sequence_id": "s02-runnel-marker-trail",
+        "panel_range": [
+          6,
+          9
+        ],
+        "route": "r6"
+      },
+      {
+        "sequence_id": "s03-listening-twine-ridge",
+        "panel_range": [
+          10,
+          14
+        ],
+        "route": "r6"
+      },
+      {
+        "sequence_id": "s04-mill-reveal-bridge-warning",
+        "panel_range": [
+          15,
+          19
+        ],
+        "route": "r6"
+      },
+      {
+        "sequence_id": "s05-creek-marker-drum",
+        "panel_range": [
+          20,
+          24
+        ],
+        "route": "r6"
+      },
+      {
+        "sequence_id": "s06-ember-line-entry",
+        "panel_range": [
+          25,
+          29
+        ],
+        "route": "r6"
+      },
+      {
+        "sequence_id": "s07-impossible-footprints-bell",
+        "panel_range": [
+          30,
+          34
+        ],
+        "route": "r6"
+      },
+      {
+        "sequence_id": "s08-plank-tin-map",
+        "panel_range": [
+          35,
+          39
+        ],
+        "route": "r6"
+      },
+      {
+        "sequence_id": "s09-deduction-retreat-cut",
+        "panel_range": [
+          40,
+          44
+        ],
+        "route": "premium_cel"
+      },
+      {
+        "sequence_id": "s10-silence-return",
+        "panel_range": [
+          45,
+          47
+        ],
+        "route": "premium_cel"
+      },
+      {
+        "sequence_id": "s11-farmhouse-reversal",
+        "panel_range": [
+          48,
+          50
+        ],
+        "route": "premium_cel"
+      }
+    ],
+    "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / CEL / CEL",
+    "optimal_assignment_count": 1
+  },
+  "leave_one_out_results": [
+    {
+      "variant_id": "drop_adjacent_route_transitions",
+      "dropped_secondary_objective": "adjacent_route_transitions",
+      "active_objectives_in_order": [
+        "combined_semantic_identity_warnings",
+        "semantic_warnings",
+        "identity_warnings",
+        "overall_failures",
+        "lettering_failures",
+        "combined_overall_lettering_warnings",
+        "stable_route_preference_sum"
+      ],
+      "optimized_score_without_dropped_field": {
+        "combined_semantic_identity_warnings": 2,
+        "semantic_warnings": 2,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 2,
+        "stable_route_preference_sum": 8
+      },
+      "full_score_for_comparison": {
+        "adjacent_route_transitions": 3,
+        "combined_semantic_identity_warnings": 2,
+        "semantic_warnings": 2,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 2,
+        "stable_route_preference_sum": 8
+      },
+      "assignment": [
+        {
+          "sequence_id": "s01-opening-departure",
+          "panel_range": [
+            1,
+            5
+          ],
+          "route": "reduced_palette_text_control"
+        },
+        {
+          "sequence_id": "s02-runnel-marker-trail",
+          "panel_range": [
+            6,
+            9
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s03-listening-twine-ridge",
+          "panel_range": [
+            10,
+            14
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s04-mill-reveal-bridge-warning",
+          "panel_range": [
+            15,
+            19
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s05-creek-marker-drum",
+          "panel_range": [
+            20,
+            24
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s06-ember-line-entry",
+          "panel_range": [
+            25,
+            29
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s07-impossible-footprints-bell",
+          "panel_range": [
+            30,
+            34
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s08-plank-tin-map",
+          "panel_range": [
+            35,
+            39
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s09-deduction-retreat-cut",
+          "panel_range": [
+            40,
+            44
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s10-silence-return",
+          "panel_range": [
+            45,
+            47
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s11-farmhouse-reversal",
+          "panel_range": [
+            48,
+            50
+          ],
+          "route": "r6"
+        }
+      ],
+      "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / R6 / R6",
+      "matches_recorded_baseline": false,
+      "changes_from_recorded_baseline": [
+        {
+          "sequence_id": "s10-silence-return",
+          "baseline_route": "premium_cel",
+          "alternate_route": "r6"
+        },
+        {
+          "sequence_id": "s11-farmhouse-reversal",
+          "baseline_route": "premium_cel",
+          "alternate_route": "r6"
+        }
+      ],
+      "optimal_assignment_count": 1
+    },
+    {
+      "variant_id": "drop_combined_semantic_identity_warnings",
+      "dropped_secondary_objective": "combined_semantic_identity_warnings",
+      "active_objectives_in_order": [
+        "adjacent_route_transitions",
+        "semantic_warnings",
+        "identity_warnings",
+        "overall_failures",
+        "lettering_failures",
+        "combined_overall_lettering_warnings",
+        "stable_route_preference_sum"
+      ],
+      "optimized_score_without_dropped_field": {
+        "adjacent_route_transitions": 2,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "full_score_for_comparison": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "assignment": [
+        {
+          "sequence_id": "s01-opening-departure",
+          "panel_range": [
+            1,
+            5
+          ],
+          "route": "reduced_palette_text_control"
+        },
+        {
+          "sequence_id": "s02-runnel-marker-trail",
+          "panel_range": [
+            6,
+            9
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s03-listening-twine-ridge",
+          "panel_range": [
+            10,
+            14
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s04-mill-reveal-bridge-warning",
+          "panel_range": [
+            15,
+            19
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s05-creek-marker-drum",
+          "panel_range": [
+            20,
+            24
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s06-ember-line-entry",
+          "panel_range": [
+            25,
+            29
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s07-impossible-footprints-bell",
+          "panel_range": [
+            30,
+            34
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s08-plank-tin-map",
+          "panel_range": [
+            35,
+            39
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s09-deduction-retreat-cut",
+          "panel_range": [
+            40,
+            44
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s10-silence-return",
+          "panel_range": [
+            45,
+            47
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s11-farmhouse-reversal",
+          "panel_range": [
+            48,
+            50
+          ],
+          "route": "premium_cel"
+        }
+      ],
+      "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / CEL / CEL",
+      "matches_recorded_baseline": true,
+      "changes_from_recorded_baseline": [],
+      "optimal_assignment_count": 1
+    },
+    {
+      "variant_id": "drop_semantic_warnings",
+      "dropped_secondary_objective": "semantic_warnings",
+      "active_objectives_in_order": [
+        "adjacent_route_transitions",
+        "combined_semantic_identity_warnings",
+        "identity_warnings",
+        "overall_failures",
+        "lettering_failures",
+        "combined_overall_lettering_warnings",
+        "stable_route_preference_sum"
+      ],
+      "optimized_score_without_dropped_field": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "full_score_for_comparison": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "assignment": [
+        {
+          "sequence_id": "s01-opening-departure",
+          "panel_range": [
+            1,
+            5
+          ],
+          "route": "reduced_palette_text_control"
+        },
+        {
+          "sequence_id": "s02-runnel-marker-trail",
+          "panel_range": [
+            6,
+            9
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s03-listening-twine-ridge",
+          "panel_range": [
+            10,
+            14
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s04-mill-reveal-bridge-warning",
+          "panel_range": [
+            15,
+            19
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s05-creek-marker-drum",
+          "panel_range": [
+            20,
+            24
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s06-ember-line-entry",
+          "panel_range": [
+            25,
+            29
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s07-impossible-footprints-bell",
+          "panel_range": [
+            30,
+            34
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s08-plank-tin-map",
+          "panel_range": [
+            35,
+            39
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s09-deduction-retreat-cut",
+          "panel_range": [
+            40,
+            44
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s10-silence-return",
+          "panel_range": [
+            45,
+            47
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s11-farmhouse-reversal",
+          "panel_range": [
+            48,
+            50
+          ],
+          "route": "premium_cel"
+        }
+      ],
+      "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / CEL / CEL",
+      "matches_recorded_baseline": true,
+      "changes_from_recorded_baseline": [],
+      "optimal_assignment_count": 1
+    },
+    {
+      "variant_id": "drop_identity_warnings",
+      "dropped_secondary_objective": "identity_warnings",
+      "active_objectives_in_order": [
+        "adjacent_route_transitions",
+        "combined_semantic_identity_warnings",
+        "semantic_warnings",
+        "overall_failures",
+        "lettering_failures",
+        "combined_overall_lettering_warnings",
+        "stable_route_preference_sum"
+      ],
+      "optimized_score_without_dropped_field": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "full_score_for_comparison": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "assignment": [
+        {
+          "sequence_id": "s01-opening-departure",
+          "panel_range": [
+            1,
+            5
+          ],
+          "route": "reduced_palette_text_control"
+        },
+        {
+          "sequence_id": "s02-runnel-marker-trail",
+          "panel_range": [
+            6,
+            9
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s03-listening-twine-ridge",
+          "panel_range": [
+            10,
+            14
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s04-mill-reveal-bridge-warning",
+          "panel_range": [
+            15,
+            19
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s05-creek-marker-drum",
+          "panel_range": [
+            20,
+            24
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s06-ember-line-entry",
+          "panel_range": [
+            25,
+            29
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s07-impossible-footprints-bell",
+          "panel_range": [
+            30,
+            34
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s08-plank-tin-map",
+          "panel_range": [
+            35,
+            39
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s09-deduction-retreat-cut",
+          "panel_range": [
+            40,
+            44
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s10-silence-return",
+          "panel_range": [
+            45,
+            47
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s11-farmhouse-reversal",
+          "panel_range": [
+            48,
+            50
+          ],
+          "route": "premium_cel"
+        }
+      ],
+      "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / CEL / CEL",
+      "matches_recorded_baseline": true,
+      "changes_from_recorded_baseline": [],
+      "optimal_assignment_count": 1
+    },
+    {
+      "variant_id": "drop_overall_failures",
+      "dropped_secondary_objective": "overall_failures",
+      "active_objectives_in_order": [
+        "adjacent_route_transitions",
+        "combined_semantic_identity_warnings",
+        "semantic_warnings",
+        "identity_warnings",
+        "lettering_failures",
+        "combined_overall_lettering_warnings",
+        "stable_route_preference_sum"
+      ],
+      "optimized_score_without_dropped_field": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "full_score_for_comparison": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "assignment": [
+        {
+          "sequence_id": "s01-opening-departure",
+          "panel_range": [
+            1,
+            5
+          ],
+          "route": "reduced_palette_text_control"
+        },
+        {
+          "sequence_id": "s02-runnel-marker-trail",
+          "panel_range": [
+            6,
+            9
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s03-listening-twine-ridge",
+          "panel_range": [
+            10,
+            14
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s04-mill-reveal-bridge-warning",
+          "panel_range": [
+            15,
+            19
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s05-creek-marker-drum",
+          "panel_range": [
+            20,
+            24
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s06-ember-line-entry",
+          "panel_range": [
+            25,
+            29
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s07-impossible-footprints-bell",
+          "panel_range": [
+            30,
+            34
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s08-plank-tin-map",
+          "panel_range": [
+            35,
+            39
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s09-deduction-retreat-cut",
+          "panel_range": [
+            40,
+            44
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s10-silence-return",
+          "panel_range": [
+            45,
+            47
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s11-farmhouse-reversal",
+          "panel_range": [
+            48,
+            50
+          ],
+          "route": "premium_cel"
+        }
+      ],
+      "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / CEL / CEL",
+      "matches_recorded_baseline": true,
+      "changes_from_recorded_baseline": [],
+      "optimal_assignment_count": 1
+    },
+    {
+      "variant_id": "drop_lettering_failures",
+      "dropped_secondary_objective": "lettering_failures",
+      "active_objectives_in_order": [
+        "adjacent_route_transitions",
+        "combined_semantic_identity_warnings",
+        "semantic_warnings",
+        "identity_warnings",
+        "overall_failures",
+        "combined_overall_lettering_warnings",
+        "stable_route_preference_sum"
+      ],
+      "optimized_score_without_dropped_field": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "full_score_for_comparison": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "assignment": [
+        {
+          "sequence_id": "s01-opening-departure",
+          "panel_range": [
+            1,
+            5
+          ],
+          "route": "reduced_palette_text_control"
+        },
+        {
+          "sequence_id": "s02-runnel-marker-trail",
+          "panel_range": [
+            6,
+            9
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s03-listening-twine-ridge",
+          "panel_range": [
+            10,
+            14
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s04-mill-reveal-bridge-warning",
+          "panel_range": [
+            15,
+            19
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s05-creek-marker-drum",
+          "panel_range": [
+            20,
+            24
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s06-ember-line-entry",
+          "panel_range": [
+            25,
+            29
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s07-impossible-footprints-bell",
+          "panel_range": [
+            30,
+            34
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s08-plank-tin-map",
+          "panel_range": [
+            35,
+            39
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s09-deduction-retreat-cut",
+          "panel_range": [
+            40,
+            44
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s10-silence-return",
+          "panel_range": [
+            45,
+            47
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s11-farmhouse-reversal",
+          "panel_range": [
+            48,
+            50
+          ],
+          "route": "premium_cel"
+        }
+      ],
+      "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / CEL / CEL",
+      "matches_recorded_baseline": true,
+      "changes_from_recorded_baseline": [],
+      "optimal_assignment_count": 1
+    },
+    {
+      "variant_id": "drop_combined_overall_lettering_warnings",
+      "dropped_secondary_objective": "combined_overall_lettering_warnings",
+      "active_objectives_in_order": [
+        "adjacent_route_transitions",
+        "combined_semantic_identity_warnings",
+        "semantic_warnings",
+        "identity_warnings",
+        "overall_failures",
+        "lettering_failures",
+        "stable_route_preference_sum"
+      ],
+      "optimized_score_without_dropped_field": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "stable_route_preference_sum": 14
+      },
+      "full_score_for_comparison": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "assignment": [
+        {
+          "sequence_id": "s01-opening-departure",
+          "panel_range": [
+            1,
+            5
+          ],
+          "route": "reduced_palette_text_control"
+        },
+        {
+          "sequence_id": "s02-runnel-marker-trail",
+          "panel_range": [
+            6,
+            9
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s03-listening-twine-ridge",
+          "panel_range": [
+            10,
+            14
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s04-mill-reveal-bridge-warning",
+          "panel_range": [
+            15,
+            19
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s05-creek-marker-drum",
+          "panel_range": [
+            20,
+            24
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s06-ember-line-entry",
+          "panel_range": [
+            25,
+            29
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s07-impossible-footprints-bell",
+          "panel_range": [
+            30,
+            34
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s08-plank-tin-map",
+          "panel_range": [
+            35,
+            39
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s09-deduction-retreat-cut",
+          "panel_range": [
+            40,
+            44
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s10-silence-return",
+          "panel_range": [
+            45,
+            47
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s11-farmhouse-reversal",
+          "panel_range": [
+            48,
+            50
+          ],
+          "route": "premium_cel"
+        }
+      ],
+      "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / CEL / CEL",
+      "matches_recorded_baseline": true,
+      "changes_from_recorded_baseline": [],
+      "optimal_assignment_count": 1
+    },
+    {
+      "variant_id": "drop_stable_route_preference_sum",
+      "dropped_secondary_objective": "stable_route_preference_sum",
+      "active_objectives_in_order": [
+        "adjacent_route_transitions",
+        "combined_semantic_identity_warnings",
+        "semantic_warnings",
+        "identity_warnings",
+        "overall_failures",
+        "lettering_failures",
+        "combined_overall_lettering_warnings"
+      ],
+      "optimized_score_without_dropped_field": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3
+      },
+      "full_score_for_comparison": {
+        "adjacent_route_transitions": 2,
+        "combined_semantic_identity_warnings": 3,
+        "semantic_warnings": 3,
+        "identity_warnings": 0,
+        "overall_failures": 4,
+        "lettering_failures": 2,
+        "combined_overall_lettering_warnings": 3,
+        "stable_route_preference_sum": 14
+      },
+      "assignment": [
+        {
+          "sequence_id": "s01-opening-departure",
+          "panel_range": [
+            1,
+            5
+          ],
+          "route": "reduced_palette_text_control"
+        },
+        {
+          "sequence_id": "s02-runnel-marker-trail",
+          "panel_range": [
+            6,
+            9
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s03-listening-twine-ridge",
+          "panel_range": [
+            10,
+            14
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s04-mill-reveal-bridge-warning",
+          "panel_range": [
+            15,
+            19
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s05-creek-marker-drum",
+          "panel_range": [
+            20,
+            24
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s06-ember-line-entry",
+          "panel_range": [
+            25,
+            29
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s07-impossible-footprints-bell",
+          "panel_range": [
+            30,
+            34
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s08-plank-tin-map",
+          "panel_range": [
+            35,
+            39
+          ],
+          "route": "r6"
+        },
+        {
+          "sequence_id": "s09-deduction-retreat-cut",
+          "panel_range": [
+            40,
+            44
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s10-silence-return",
+          "panel_range": [
+            45,
+            47
+          ],
+          "route": "premium_cel"
+        },
+        {
+          "sequence_id": "s11-farmhouse-reversal",
+          "panel_range": [
+            48,
+            50
+          ],
+          "route": "premium_cel"
+        }
+      ],
+      "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / CEL / CEL",
+      "matches_recorded_baseline": true,
+      "changes_from_recorded_baseline": [],
+      "optimal_assignment_count": 1
+    }
+  ],
+  "invariance": {
+    "fully_invariant": false,
+    "variants_matching_recorded_baseline": 7,
+    "variants_total": 8,
+    "changed_variant_ids": [
+      "drop_adjacent_route_transitions"
+    ],
+    "distinct_assignments_across_baseline_and_variants": 2,
+    "interpretation": "The three-block cadence is invariant to seven of eight single-objective omissions. Removing adjacent-route transitions changes S10 and S11 from premium cel to R6; transition minimization is therefore outcome-determinative for the late block."
+  },
+  "tie_sensitivity": {
+    "all_tested_variants_have_unique_optimum": true,
+    "maximum_optimal_assignment_count": 1,
+    "interpretation": "No equal-score assignment tie appears in the baseline or tested variants. The observed change is objective-inclusion sensitivity, not unresolved deterministic tie-breaking."
+  },
+  "pareto_front": {
+    "exact_over_hard_feasible_assignments": true,
+    "assignment_count": 3,
+    "rows": [
+      {
+        "pareto_id": "pareto_01",
+        "full_score": {
+          "adjacent_route_transitions": 2,
+          "combined_semantic_identity_warnings": 3,
+          "semantic_warnings": 3,
+          "identity_warnings": 0,
+          "overall_failures": 4,
+          "lettering_failures": 2,
+          "combined_overall_lettering_warnings": 3,
+          "stable_route_preference_sum": 14
+        },
+        "assignment": [
+          {
+            "sequence_id": "s01-opening-departure",
+            "panel_range": [
+              1,
+              5
+            ],
+            "route": "reduced_palette_text_control"
+          },
+          {
+            "sequence_id": "s02-runnel-marker-trail",
+            "panel_range": [
+              6,
+              9
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s03-listening-twine-ridge",
+            "panel_range": [
+              10,
+              14
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s04-mill-reveal-bridge-warning",
+            "panel_range": [
+              15,
+              19
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s05-creek-marker-drum",
+            "panel_range": [
+              20,
+              24
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s06-ember-line-entry",
+            "panel_range": [
+              25,
+              29
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s07-impossible-footprints-bell",
+            "panel_range": [
+              30,
+              34
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s08-plank-tin-map",
+            "panel_range": [
+              35,
+              39
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s09-deduction-retreat-cut",
+            "panel_range": [
+              40,
+              44
+            ],
+            "route": "premium_cel"
+          },
+          {
+            "sequence_id": "s10-silence-return",
+            "panel_range": [
+              45,
+              47
+            ],
+            "route": "premium_cel"
+          },
+          {
+            "sequence_id": "s11-farmhouse-reversal",
+            "panel_range": [
+              48,
+              50
+            ],
+            "route": "premium_cel"
+          }
+        ],
+        "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / CEL / CEL",
+        "changes_from_recorded_baseline": [],
+        "assignments_with_identical_score": 1,
+        "is_recorded_baseline": true
+      },
+      {
+        "pareto_id": "pareto_02",
+        "full_score": {
+          "adjacent_route_transitions": 3,
+          "combined_semantic_identity_warnings": 2,
+          "semantic_warnings": 2,
+          "identity_warnings": 0,
+          "overall_failures": 4,
+          "lettering_failures": 2,
+          "combined_overall_lettering_warnings": 2,
+          "stable_route_preference_sum": 8
+        },
+        "assignment": [
+          {
+            "sequence_id": "s01-opening-departure",
+            "panel_range": [
+              1,
+              5
+            ],
+            "route": "reduced_palette_text_control"
+          },
+          {
+            "sequence_id": "s02-runnel-marker-trail",
+            "panel_range": [
+              6,
+              9
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s03-listening-twine-ridge",
+            "panel_range": [
+              10,
+              14
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s04-mill-reveal-bridge-warning",
+            "panel_range": [
+              15,
+              19
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s05-creek-marker-drum",
+            "panel_range": [
+              20,
+              24
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s06-ember-line-entry",
+            "panel_range": [
+              25,
+              29
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s07-impossible-footprints-bell",
+            "panel_range": [
+              30,
+              34
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s08-plank-tin-map",
+            "panel_range": [
+              35,
+              39
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s09-deduction-retreat-cut",
+            "panel_range": [
+              40,
+              44
+            ],
+            "route": "premium_cel"
+          },
+          {
+            "sequence_id": "s10-silence-return",
+            "panel_range": [
+              45,
+              47
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s11-farmhouse-reversal",
+            "panel_range": [
+              48,
+              50
+            ],
+            "route": "r6"
+          }
+        ],
+        "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / R6 / R6 / CEL / R6 / R6",
+        "changes_from_recorded_baseline": [
+          {
+            "sequence_id": "s10-silence-return",
+            "baseline_route": "premium_cel",
+            "alternate_route": "r6"
+          },
+          {
+            "sequence_id": "s11-farmhouse-reversal",
+            "baseline_route": "premium_cel",
+            "alternate_route": "r6"
+          }
+        ],
+        "assignments_with_identical_score": 1,
+        "is_recorded_baseline": false
+      },
+      {
+        "pareto_id": "pareto_03",
+        "full_score": {
+          "adjacent_route_transitions": 5,
+          "combined_semantic_identity_warnings": 2,
+          "semantic_warnings": 2,
+          "identity_warnings": 0,
+          "overall_failures": 9,
+          "lettering_failures": 6,
+          "combined_overall_lettering_warnings": 1,
+          "stable_route_preference_sum": 13
+        },
+        "assignment": [
+          {
+            "sequence_id": "s01-opening-departure",
+            "panel_range": [
+              1,
+              5
+            ],
+            "route": "reduced_palette_text_control"
+          },
+          {
+            "sequence_id": "s02-runnel-marker-trail",
+            "panel_range": [
+              6,
+              9
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s03-listening-twine-ridge",
+            "panel_range": [
+              10,
+              14
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s04-mill-reveal-bridge-warning",
+            "panel_range": [
+              15,
+              19
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s05-creek-marker-drum",
+            "panel_range": [
+              20,
+              24
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s06-ember-line-entry",
+            "panel_range": [
+              25,
+              29
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s07-impossible-footprints-bell",
+            "panel_range": [
+              30,
+              34
+            ],
+            "route": "reduced_palette_text_control"
+          },
+          {
+            "sequence_id": "s08-plank-tin-map",
+            "panel_range": [
+              35,
+              39
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s09-deduction-retreat-cut",
+            "panel_range": [
+              40,
+              44
+            ],
+            "route": "premium_cel"
+          },
+          {
+            "sequence_id": "s10-silence-return",
+            "panel_range": [
+              45,
+              47
+            ],
+            "route": "r6"
+          },
+          {
+            "sequence_id": "s11-farmhouse-reversal",
+            "panel_range": [
+              48,
+              50
+            ],
+            "route": "r6"
+          }
+        ],
+        "compact_assignment_S01_to_S11": "RPT / R6 / R6 / R6 / R6 / R6 / RPT / R6 / CEL / R6 / R6",
+        "changes_from_recorded_baseline": [
+          {
+            "sequence_id": "s07-impossible-footprints-bell",
+            "baseline_route": "r6",
+            "alternate_route": "reduced_palette_text_control"
+          },
+          {
+            "sequence_id": "s10-silence-return",
+            "baseline_route": "premium_cel",
+            "alternate_route": "r6"
+          },
+          {
+            "sequence_id": "s11-farmhouse-reversal",
+            "baseline_route": "premium_cel",
+            "alternate_route": "r6"
+          }
+        ],
+        "assignments_with_identical_score": 1,
+        "is_recorded_baseline": false
+      }
+    ],
+    "interpretation": "Three nondominated assignments exist. The baseline trades one extra semantic warning for one fewer transition; the two alternatives reduce warning fields but add transitions and, for the third frontier point, substantial overall/lettering failures."
+  },
+  "engineering_inference": {
+    "recommendation": "Retain the recorded three-block cadence for owner review because it is stable to seven of eight leave-one-out variants and uniquely optimizes the declared transition-first policy. Treat the S10-S11 premium-cel choice as policy-sensitive, not inevitable.",
+    "production_promotion": null
+  },
+  "disposition": {
+    "owner_acceptance": null,
+    "rights_clearance": null,
+    "commercially_cleared": null,
+    "canon_change": null,
+    "exact_production_base": null
+  },
+  "spend": {
+    "direct_paid_api_cloud_usd": 0.0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "new_pixels": 0
+  },
+  "limitations": [
+    "Leave-one-out analysis tests objective inclusion, not every permutation or weighting of the secondary objectives.",
+    "The exact Pareto frontier is over recorded categorical review counts, not visual quality, human preference, commercial suitability, or stochastic reproducibility.",
+    "All underlying reviews remain non-gating agent evidence; owner review and acceptance remain unrecorded.",
+    "Stable route preference is a deterministic tie preference, not a quality measure."
+  ],
+  "boundary": "Sensitivity evidence only; no art generation, pixel review or edit, provider call, upload, spend, owner acceptance, rights clearance, canon change, or exact production-base selection."
+}

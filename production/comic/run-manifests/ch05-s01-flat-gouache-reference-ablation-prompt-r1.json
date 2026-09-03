@@ -1,0 +1,81 @@
+{
+  "record_type": "CH05S01MatchedReferenceAblationPrompt",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-s01-flat-gouache-reference-ablation-prompt-r1",
+  "state": "EXACT_PROMPT_COMPILED_NOT_EXECUTED",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source_prompt_manifest": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-prompt-manifest-r1.json",
+    "sha256": "02cdc90aca146f612394ef8feed6c6a18a33391dcae1a8c025444e0b1f789e84"
+  },
+  "comparison_contract": {
+    "source_sequence_id": "flat-graphic-gouache-s01-opening-departure",
+    "changed_prompt_line_indexes_zero_based": [
+      3
+    ],
+    "unchanged_prompt_line_count": 17,
+    "changed_factor": "remove_reference_pixel_conditioning",
+    "style_wording_changed": false,
+    "story_or_gate_wording_changed": false,
+    "input_reference_count_source": 2,
+    "input_reference_count_ablation": 0,
+    "causal_limit": "The necessary input-instruction replacement remains a wording change; one stochastic pair cannot prove a general causal effect, but is less confounded than the separate reduced-palette arm."
+  },
+  "sequence": {
+    "sequence_id": "flat-gouache-reference-ablation-s01-opening-departure",
+    "source_sequence_id": "s01-opening-departure",
+    "panel_range": [
+      1,
+      5
+    ],
+    "panel_count": 5,
+    "input_references": [],
+    "cross_panel_gate_phrases": [
+      "farmhouse chimney completely cold: no smoke, no glow, no lit window",
+      "travel downhill away from the farmhouse with the farmhouse clearly behind them"
+    ],
+    "prompt_lines": [
+      "Use case: illustration-story",
+      "Asset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P001–P005",
+      "Primary request: Create one polished five-panel vertical webcomic strip with five clearly separated panels in exact top-to-bottom story order. This is the chapter opening and must read as a coherent suspense sequence, not a character sheet or collage.",
+      "Text-only ablation: no input images or reference pixels are supplied. Reconstruct the same two recurring fictional adults only from the written Soren and Sigrid continuity descriptions below; preserve mature proportions and the exact wardrobe.",
+      "Panel 1 — P001: wide downhill departure before damp grass dries; farmhouse behind; Sigrid leads and Soren follows as small but distinct mature adult figures; one travel vector; calm dawn scale; quiet low-detail upper-left field.",
+      "Panel 2 — P002: over-shoulder map insert with Sigrid checking smoke direction against the folded creek map; one hand circles or indicates the smoke route; her dark tied-back hair and plaid shoulder remain identifiable; quiet low-detail upper-right field.",
+      "Panel 3 — P003: low track detail where fresh boot prints overlap the trail instead of leading it; Soren’s practical boot is visibly held back before stepping; pale oatmeal coat hem identifies him; quiet low-detail upper-left field.",
+      "Panel 4 — P004: restrained two-shot, Soren and Sigrid stopped in opposite thirds exchanging a wary look, neither explaining the changed tracks; mature expressive faces and clean eyeline; quiet low-detail upper-right field.",
+      "Panel 5 — P005: no people; horizontal environmental insert of rainwater feeding a shallow runnel across the trail, one clear water direction; quiet low-detail upper-center field.",
+      "Style/medium: flat graphic gouache fantasy-adventure webcomic; organize each panel as 4–6 broad poster-like value/color masses, with crisp contour hierarchy, matte gouache color blocks, strong negative space, and simplified silhouette backgrounds. Apply minimal localized texture only to the active clue or physical contact. Preserve expressive mature-adult faces, readable hands and props, causal action, and decisive silhouettes at 390-pixel phone width. No cloth weave, pore detail, pebble-by-pebble terrain, crosshatching, photorealism, cinematic depth-of-field, grayscale wash, or text of any kind: no embedded words, speech balloons, captions, labels, panel numbers, sound effects, logos, signatures, or watermark.",
+      "Flat-gouache density cadence: action and reveal anchors may use 5–6 broad masses plus one localized clue/contact texture; dialogue, deduction, travel, transition, and object-insert beats should use 4–5 broad masses and more negative space. Keep physical weight, mud, water, smoke, twine, leverage, and footfalls legible through shape, overlap, and pose—not surface noise.",
+      "Continuity — Soren: short-to-medium wavy light-brown/dark-blond hair swept back, never black; weathered angular adult face with light stubble; pale oatmeal work coat over muted blue-gray work layers, dark trousers and practical boots; lean sturdy adult build; folded map may identify him.",
+      "Continuity — Sigrid: dark-brown/near-black hair tied in a low bun or compact braid, never blond; mature angular adult face, dark brows, gray-blue eyes; dark blue-brown plaid wrap over gray-green practical expedition layers, dark trousers and boots; athletic grounded adult build.",
+      "Composition: tall scroll with five discrete rectangular panels and clean narrow gutters; vary wide, close, low insert, two-shot, and environmental insert; protect each specified quiet upper field from faces, people, important hands, prints, map, or water direction.",
+      "Constraints: exactly specified cast per panel; fictional adults only with mature proportions and practical non-sexualized clothes; readable anatomy and hands; physical cause-and-effect; no extra people; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05.",
+      "Text: no speech balloons, captions, labels, sound effects, panel numbers, logos, signatures, or watermark.",
+      "Cross-panel semantic gates (literal visual requirements): farmhouse chimney completely cold: no smoke, no glow, no lit window; travel downhill away from the farmhouse with the farmhouse clearly behind them.",
+      "Flat-gouache arm invariant: exact specified cast; clearly mature fictional adults; stable Soren light-brown/dark-blond hair and oatmeal coat; stable Sigrid dark tied hair and plaid wrap; no child-coded features, monsters, armor, magic, undeclared weapons, speech balloons, captions, labels, panel numbers, sound effects, logos, signatures, or watermark."
+    ],
+    "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 complete-chapter vertical sequence strip, ComicPanelPlans P001–P005\nPrimary request: Create one polished five-panel vertical webcomic strip with five clearly separated panels in exact top-to-bottom story order. This is the chapter opening and must read as a coherent suspense sequence, not a character sheet or collage.\nText-only ablation: no input images or reference pixels are supplied. Reconstruct the same two recurring fictional adults only from the written Soren and Sigrid continuity descriptions below; preserve mature proportions and the exact wardrobe.\nPanel 1 — P001: wide downhill departure before damp grass dries; farmhouse behind; Sigrid leads and Soren follows as small but distinct mature adult figures; one travel vector; calm dawn scale; quiet low-detail upper-left field.\nPanel 2 — P002: over-shoulder map insert with Sigrid checking smoke direction against the folded creek map; one hand circles or indicates the smoke route; her dark tied-back hair and plaid shoulder remain identifiable; quiet low-detail upper-right field.\nPanel 3 — P003: low track detail where fresh boot prints overlap the trail instead of leading it; Soren’s practical boot is visibly held back before stepping; pale oatmeal coat hem identifies him; quiet low-detail upper-left field.\nPanel 4 — P004: restrained two-shot, Soren and Sigrid stopped in opposite thirds exchanging a wary look, neither explaining the changed tracks; mature expressive faces and clean eyeline; quiet low-detail upper-right field.\nPanel 5 — P005: no people; horizontal environmental insert of rainwater feeding a shallow runnel across the trail, one clear water direction; quiet low-detail upper-center field.\nStyle/medium: flat graphic gouache fantasy-adventure webcomic; organize each panel as 4–6 broad poster-like value/color masses, with crisp contour hierarchy, matte gouache color blocks, strong negative space, and simplified silhouette backgrounds. Apply minimal localized texture only to the active clue or physical contact. Preserve expressive mature-adult faces, readable hands and props, causal action, and decisive silhouettes at 390-pixel phone width. No cloth weave, pore detail, pebble-by-pebble terrain, crosshatching, photorealism, cinematic depth-of-field, grayscale wash, or text of any kind: no embedded words, speech balloons, captions, labels, panel numbers, sound effects, logos, signatures, or watermark.\nFlat-gouache density cadence: action and reveal anchors may use 5–6 broad masses plus one localized clue/contact texture; dialogue, deduction, travel, transition, and object-insert beats should use 4–5 broad masses and more negative space. Keep physical weight, mud, water, smoke, twine, leverage, and footfalls legible through shape, overlap, and pose—not surface noise.\nContinuity — Soren: short-to-medium wavy light-brown/dark-blond hair swept back, never black; weathered angular adult face with light stubble; pale oatmeal work coat over muted blue-gray work layers, dark trousers and practical boots; lean sturdy adult build; folded map may identify him.\nContinuity — Sigrid: dark-brown/near-black hair tied in a low bun or compact braid, never blond; mature angular adult face, dark brows, gray-blue eyes; dark blue-brown plaid wrap over gray-green practical expedition layers, dark trousers and boots; athletic grounded adult build.\nComposition: tall scroll with five discrete rectangular panels and clean narrow gutters; vary wide, close, low insert, two-shot, and environmental insert; protect each specified quiet upper field from faces, people, important hands, prints, map, or water direction.\nConstraints: exactly specified cast per panel; fictional adults only with mature proportions and practical non-sexualized clothes; readable anatomy and hands; physical cause-and-effect; no extra people; no child-coded features; no monsters, armor, magic, or undeclared weapons in CH05.\nText: no speech balloons, captions, labels, sound effects, panel numbers, logos, signatures, or watermark.\nCross-panel semantic gates (literal visual requirements): farmhouse chimney completely cold: no smoke, no glow, no lit window; travel downhill away from the farmhouse with the farmhouse clearly behind them.\nFlat-gouache arm invariant: exact specified cast; clearly mature fictional adults; stable Soren light-brown/dark-blond hair and oatmeal coat; stable Sigrid dark tied hair and plaid wrap; no child-coded features, monsters, armor, magic, undeclared weapons, speech balloons, captions, labels, panel numbers, sound effects, logos, signatures, or watermark.",
+    "prompt_sha256": "ce2c4eea936bcd4c16e61d9f727324ca347a5c5dbf49b296ac17c1feaf6f5933",
+    "planned_output": "experiments/review-packets/ch05-s01-flat-gouache-reference-ablation-r1/s01-opening-departure-flat-gouache-no-reference-r1.png",
+    "execution": null,
+    "output": null,
+    "human_review_state": "PENDING",
+    "accepted": false
+  },
+  "boundary": {
+    "permitted_product": "openai_builtin_imagegen",
+    "reference_uploads": 0,
+    "direct_paid_provider_api_calls": 0,
+    "bfl_calls": 0,
+    "new_upload_classes": 0,
+    "real_person_or_child_material": 0,
+    "current_executions": 0,
+    "current_outputs": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "exact_production_base": 0
+  }
+}

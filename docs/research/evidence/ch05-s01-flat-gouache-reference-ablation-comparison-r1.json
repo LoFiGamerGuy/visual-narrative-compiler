@@ -1,0 +1,199 @@
+{
+  "record_type": "CH05S01MatchedReferenceAblationComparison",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-s01-flat-gouache-reference-ablation-comparison-r1",
+  "state": "MEASURED_PENDING_HUMAN_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-s01-flat-gouache-reference-ablation-prompt-r1.json",
+      "sha256": "613d9a8e8d8edfb50555b06fffb8069437ae52f0f1af312c3811d93e60621a87"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-s01-flat-gouache-reference-ablation-execution-r1.json",
+      "sha256": "5aadac1d124a9ff82b36b952962ea0ebeeaeae1071f3fb368bb2bf0a67a3e7b1"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-execution-manifest-r1.json",
+      "sha256": "66c389df75bea35ec7cf9165fda1c10293f48b1c11444e4b41d418b1d1223f3c"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-execution-manifest-r1.json",
+      "sha256": "2e978b4f04d1cd7b7a660105d2e230a880d3df3e1d27a22c6bc78fa0639aa663"
+    }
+  ],
+  "comparison_design": {
+    "panel_range": [
+      1,
+      5
+    ],
+    "candidate_count": 3,
+    "matched_pair": [
+      "flat_with_authorized_refs",
+      "matched_flat_no_reference"
+    ],
+    "matched_pair_changed_prompt_line_indexes_zero_based": [
+      3
+    ],
+    "matched_pair_unchanged_prompt_line_count": 17,
+    "matched_pair_style_wording_changed": false,
+    "matched_pair_story_or_gate_wording_changed": false,
+    "stricter_control": "stricter_reduced_palette_no_reference"
+  },
+  "metric_method": {
+    "normalization_width_px": 390,
+    "grayscale_entropy_bits": "Shannon entropy of 390px-normalized 8-bit luminance histogram.",
+    "edge_density_ge_32": "FIND_EDGES pixels >=32 after removing the one-pixel border, divided by remaining pixels.",
+    "png_bytes_per_native_pixel": "Native PNG file bytes divided by native width x height.",
+    "interpretation": "Complexity proxies support visual comparison only; they do not measure identity, narrative success, or quality."
+  },
+  "candidates": [
+    {
+      "comparison_role": "flat_with_authorized_refs",
+      "label": "FLAT + AUTHORIZED REFS",
+      "execution_manifest": {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-execution-manifest-r1.json",
+        "sha256": "66c389df75bea35ec7cf9165fda1c10293f48b1c11444e4b41d418b1d1223f3c"
+      },
+      "sequence_id": "flat-graphic-gouache-s01-opening-departure",
+      "prompt_sha256": "c4a27d288415a6307460fa0324335dcecc766ac4d84174af10285903479ea08b",
+      "input_reference_count": 2,
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-flat-graphic-gouache-r1/source-strips/s01-opening-departure-flat-graphic-gouache-r1.png",
+        "sha256": "f2e762b8b614fcf6c89c3a3f3943bb92ab246b7af1373564ffc9026490501740",
+        "width": 853,
+        "height": 1843,
+        "bytes": 2665550
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 7.539257,
+        "edge_density_ge_32": 0.243549,
+        "png_bytes_per_native_pixel": 1.695557
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "rights_cleared": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    },
+    {
+      "comparison_role": "matched_flat_no_reference",
+      "label": "MATCHED FLAT / NO REFS",
+      "execution_manifest": {
+        "path": "production/comic/run-manifests/ch05-s01-flat-gouache-reference-ablation-execution-r1.json",
+        "sha256": "5aadac1d124a9ff82b36b952962ea0ebeeaeae1071f3fb368bb2bf0a67a3e7b1"
+      },
+      "sequence_id": "flat-gouache-reference-ablation-s01-opening-departure",
+      "prompt_sha256": "ce2c4eea936bcd4c16e61d9f727324ca347a5c5dbf49b296ac17c1feaf6f5933",
+      "input_reference_count": 0,
+      "output": {
+        "path": "experiments/review-packets/ch05-s01-flat-gouache-reference-ablation-r1/s01-opening-departure-flat-gouache-no-reference-r1.png",
+        "sha256": "10c8d88164f5ce00227001a0b76f9f32eb4e9ef2e5b116ec61f103a334974af6",
+        "width": 852,
+        "height": 1846,
+        "bytes": 2369798
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 7.597164,
+        "edge_density_ge_32": 0.175453,
+        "png_bytes_per_native_pixel": 1.506746
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "rights_cleared": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    },
+    {
+      "comparison_role": "stricter_reduced_palette_no_reference",
+      "label": "STRICTER REDUCED / NO REFS",
+      "execution_manifest": {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-execution-manifest-r1.json",
+        "sha256": "2e978b4f04d1cd7b7a660105d2e230a880d3df3e1d27a22c6bc78fa0639aa663"
+      },
+      "sequence_id": "reduced-palette-text-control-s01-opening-departure",
+      "prompt_sha256": "fc0a67f448adb07f31f58e01fee768ffdcaaea5358065cf655af0cbf333fe534",
+      "input_reference_count": 0,
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s01-opening-departure-reduced-palette-text-control-r1.png",
+        "sha256": "a5ca95f85edc88bf7d7c61ff29feca11f832f38630a2bcad62506d902b4ea526",
+        "width": 852,
+        "height": 1846,
+        "bytes": 2202254
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 7.022959,
+        "edge_density_ge_32": 0.160277,
+        "png_bytes_per_native_pixel": 1.400219
+      },
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "rights_cleared": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    }
+  ],
+  "metric_deltas": {
+    "matched_no_reference_minus_reference_backed_flat": {
+      "grayscale_entropy_bits": 0.057907,
+      "edge_density_ge_32": -0.068096,
+      "png_bytes_per_native_pixel": -0.188811
+    },
+    "stricter_no_reference_minus_reference_backed_flat": {
+      "grayscale_entropy_bits": -0.516298,
+      "edge_density_ge_32": -0.083272,
+      "png_bytes_per_native_pixel": -0.295338
+    },
+    "stricter_no_reference_minus_matched_no_reference": {
+      "grayscale_entropy_bits": -0.574205,
+      "edge_density_ge_32": -0.015176,
+      "png_bytes_per_native_pixel": -0.106527
+    }
+  },
+  "artifacts": {
+    "native_three_column": {
+      "path": "experiments/review-packets/ch05-s01-flat-gouache-reference-ablation-r1/review/s01-reference-ablation-three-column-native-r1.png",
+      "sha256": "b32b9eba63d0321b50ee2505c2fa0f75510d164300f38d114fce9d4ee6257992",
+      "width": 2635,
+      "height": 1978,
+      "bytes": 7346665,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    "phone_390px_three_column": {
+      "path": "experiments/review-packets/ch05-s01-flat-gouache-reference-ablation-r1/review/s01-reference-ablation-three-column-390px-r1.png",
+      "sha256": "0c8025903202a48f5a1bf304383cda21c2fd90e1ab31812843b965351a497aa8",
+      "width": 1246,
+      "height": 977,
+      "bytes": 1661678,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    }
+  },
+  "review_questions": [
+    "Does removing reference conditioning alter Soren/Sigrid hair, wardrobe, face, or role binding?",
+    "Does the matched no-reference result preserve departure direction, map, changed tracks, reaction, and runnel causality?",
+    "Does the stricter reduced-palette instruction reduce density without losing phone-readable geography and clues?"
+  ],
+  "human_review_state": "PENDING",
+  "human_review_minutes": null,
+  "accepted_candidates": 0,
+  "rights_cleared_candidates": 0,
+  "commercially_cleared_candidates": 0,
+  "exact_production_base_candidates": 0,
+  "spend": {
+    "direct_paid_api_cloud_usd": 0.0,
+    "built_in_product_monetary_cost_usd": null
+  },
+  "limitations": [
+    "One stochastic matched pair and one changed input-instruction line cannot prove general causality.",
+    "The stricter reduced-palette control also changes style instructions, so its differences cannot be attributed only to reference removal.",
+    "Complexity metrics do not measure character identity, causal storytelling, artistic quality, or commercial suitability.",
+    "All visual judgments remain pending human review; no candidate is accepted, rights-cleared, commercially cleared, or an exact production base."
+  ],
+  "boundary": "Research comparison only. ComicPanelPlan remains the sole planning structure; no acceptance, rights, or exact-base decision is made."
+}

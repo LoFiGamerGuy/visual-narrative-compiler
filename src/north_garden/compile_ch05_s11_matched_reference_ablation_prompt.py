@@ -25,23 +25,33 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def main() -> int:
+def compile_ablation(
+    *,
+    target: str,
+    output: Path,
+    record_type: str,
+    record_id: str,
+    ablation_sequence_id: str,
+    planned_output: str,
+    sequence_label: str,
+) -> dict:
+    """Compile one flat-gouache row with only its input-image line replaced."""
     source = json.loads(SOURCE.read_text(encoding="utf-8"))
-    rows = [row for row in source["sequences"] if row["sequence_id"] == TARGET]
+    rows = [row for row in source["sequences"] if row["sequence_id"] == target]
     if len(rows) != 1:
-        raise ValueError("flat prompt manifest must contain exactly one S11 row")
+        raise ValueError(f"flat prompt manifest must contain exactly one {sequence_label} row")
     original = rows[0]
     lines = list(original["prompt_lines"])
     input_indexes = [index for index, line in enumerate(lines) if line.startswith("Input images:")]
     if input_indexes != [3]:
-        raise ValueError("S11 input-image instruction moved or changed shape")
+        raise ValueError(f"{sequence_label} input-image instruction moved or changed shape")
     lines[input_indexes[0]] = REPLACEMENT
     prompt = "\n".join(lines)
     changed_indexes = [index for index, (before, after) in enumerate(zip(original["prompt_lines"], lines, strict=True)) if before != after]
     if changed_indexes != [3]:
         raise ValueError("reference ablation must change exactly one prompt line")
     record = {
-        "sequence_id": "flat-gouache-reference-ablation-s11-farmhouse-reversal",
+        "sequence_id": ablation_sequence_id,
         "source_sequence_id": original["source_sequence_id"],
         "panel_range": original["panel_range"],
         "panel_count": original["panel_count"],
@@ -50,19 +60,16 @@ def main() -> int:
         "prompt_lines": lines,
         "prompt_text": prompt,
         "prompt_sha256": hashlib.sha256(prompt.encode("utf-8")).hexdigest(),
-        "planned_output": (
-            "experiments/review-packets/ch05-s11-flat-gouache-reference-ablation-r1/"
-            "s11-farmhouse-reversal-flat-gouache-no-reference-r1.png"
-        ),
+        "planned_output": planned_output,
         "execution": None,
         "output": None,
         "human_review_state": "PENDING",
         "accepted": False,
     }
     document = {
-        "record_type": "CH05S11MatchedReferenceAblationPrompt",
+        "record_type": record_type,
         "schema_version": "1.0",
-        "record_id": "ng-ch05-s11-flat-gouache-reference-ablation-prompt-r1",
+        "record_id": record_id,
         "state": "EXACT_PROMPT_COMPILED_NOT_EXECUTED",
         "medium": "comic",
         "planning_structure": "ComicPanelPlan",
@@ -70,7 +77,7 @@ def main() -> int:
         "e_conte": None,
         "source_prompt_manifest": {"path": SOURCE.relative_to(ROOT).as_posix(), "sha256": sha256(SOURCE)},
         "comparison_contract": {
-            "source_sequence_id": TARGET,
+            "source_sequence_id": target,
             "changed_prompt_line_indexes_zero_based": changed_indexes,
             "unchanged_prompt_line_count": len(lines) - len(changed_indexes),
             "changed_factor": "remove_reference_pixel_conditioning",
@@ -98,13 +105,30 @@ def main() -> int:
             "exact_production_base": 0,
         },
     }
-    OUTPUT.write_text(json.dumps(document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
+    output.write_text(json.dumps(document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
+    return document
+
+
+def main() -> int:
+    document = compile_ablation(
+        target=TARGET,
+        output=OUTPUT,
+        record_type="CH05S11MatchedReferenceAblationPrompt",
+        record_id="ng-ch05-s11-flat-gouache-reference-ablation-prompt-r1",
+        ablation_sequence_id="flat-gouache-reference-ablation-s11-farmhouse-reversal",
+        planned_output=(
+            "experiments/review-packets/ch05-s11-flat-gouache-reference-ablation-r1/"
+            "s11-farmhouse-reversal-flat-gouache-no-reference-r1.png"
+        ),
+        sequence_label="S11",
+    )
+    record = document["sequence"]
     print(json.dumps({
         "output": OUTPUT.relative_to(ROOT).as_posix(),
         "sha256": sha256(OUTPUT),
         "panel_count": record["panel_count"],
         "reference_uploads": 0,
-        "changed_prompt_lines": len(changed_indexes),
+        "changed_prompt_lines": len(document["comparison_contract"]["changed_prompt_line_indexes_zero_based"]),
     }, sort_keys=True))
     return 0
 

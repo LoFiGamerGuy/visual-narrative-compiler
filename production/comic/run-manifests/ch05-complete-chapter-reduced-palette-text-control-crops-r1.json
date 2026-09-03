@@ -1,0 +1,1070 @@
+{
+  "record_type": "CH05SequenceStripCropManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-complete-chapter-reduced-palette-text-control-crops-r1",
+  "state": "HASH_PINNED_LOCAL_DERIVATIVE_PLAN_UNACCEPTED",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "comic_panel_plan_source": {
+    "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+  },
+  "prompt_manifest": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-prompt-manifest-r1.json",
+    "sha256": "bc870aa9ffdf7872844469031a9fec9f75c762d5083a0988c98b0b11bc1d03f3"
+  },
+  "execution_manifest": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-execution-manifest-r1.json",
+    "sha256": "2e978b4f04d1cd7b7a660105d2e230a880d3df3e1d27a22c6bc78fa0639aa663"
+  },
+  "output_filename_template": "p{panel_number:03d}-reduced-palette-text-control-r1.png",
+  "summary": {
+    "sequence_sources": 11,
+    "planned_crops": 50,
+    "complete_plan_coverage": true,
+    "deterministic_gutter_detection": true,
+    "automatic_gutter_sequences": 8,
+    "manual_gutter_overrides": 3
+  },
+  "sequences": [
+    {
+      "sequence_id": "s01-opening-departure",
+      "execution_sequence_id": "reduced-palette-text-control-s01-opening-departure",
+      "prompt_sequence_id": "reduced-palette-text-control-s01-opening-departure",
+      "prompt_sha256": "fc0a67f448adb07f31f58e01fee768ffdcaaea5358065cf655af0cbf333fe534",
+      "panel_range": [
+        1,
+        5
+      ],
+      "panel_count": 5,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s01-opening-departure-reduced-palette-text-control-r1.png",
+        "sha256": "a5ca95f85edc88bf7d7c61ff29feca11f832f38630a2bcad62506d902b4ea526",
+        "width": 852,
+        "height": 1846,
+        "bytes": 2202254
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            458,
+            466
+          ],
+          [
+            884,
+            893
+          ],
+          [
+            1210,
+            1219
+          ],
+          [
+            1586,
+            1593
+          ]
+        ],
+        "override_source_sha256": null,
+        "override_justification": null
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p001",
+          "plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+          "display_order": 1,
+          "box": [
+            0,
+            12,
+            852,
+            458
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p002",
+          "plan_revision_id": "ng-ch05-sc01-p002-plan-r1",
+          "display_order": 2,
+          "box": [
+            0,
+            467,
+            852,
+            884
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p003",
+          "plan_revision_id": "ng-ch05-sc01-p003-plan-r1",
+          "display_order": 3,
+          "box": [
+            0,
+            894,
+            852,
+            1210
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p004",
+          "plan_revision_id": "ng-ch05-sc01-p004-plan-r1",
+          "display_order": 4,
+          "box": [
+            0,
+            1220,
+            852,
+            1586
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p005",
+          "plan_revision_id": "ng-ch05-sc01-p005-plan-r1",
+          "display_order": 5,
+          "box": [
+            0,
+            1594,
+            852,
+            1835
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s02-runnel-marker-trail",
+      "execution_sequence_id": "reduced-palette-text-control-s02-runnel-marker-trail",
+      "prompt_sequence_id": "reduced-palette-text-control-s02-runnel-marker-trail",
+      "prompt_sha256": "9f3b8c558052cc71ff8ea5ea978d0413b9ea3af44bac9bbd74af26208e78425e",
+      "panel_range": [
+        6,
+        9
+      ],
+      "panel_count": 4,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s02-runnel-marker-trail-reduced-palette-text-control-r1.png",
+        "sha256": "287ad5ef37023b2abd4f5116fc2f914e123d671104d79964f02d52b0860a6ec4",
+        "width": 844,
+        "height": 1864,
+        "bytes": 2388216
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            509,
+            512
+          ],
+          [
+            933,
+            936
+          ],
+          [
+            1357,
+            1360
+          ]
+        ],
+        "override_source_sha256": null,
+        "override_justification": null
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p006",
+          "plan_revision_id": "ng-ch05-sc01-p006-plan-r1",
+          "display_order": 6,
+          "box": [
+            0,
+            8,
+            844,
+            509
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p007",
+          "plan_revision_id": "ng-ch05-sc01-p007-plan-r1",
+          "display_order": 7,
+          "box": [
+            0,
+            513,
+            844,
+            933
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p008",
+          "plan_revision_id": "ng-ch05-sc01-p008-plan-r1",
+          "display_order": 8,
+          "box": [
+            0,
+            937,
+            844,
+            1357
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p009",
+          "plan_revision_id": "ng-ch05-sc01-p009-plan-r1",
+          "display_order": 9,
+          "box": [
+            0,
+            1361,
+            844,
+            1857
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s03-listening-twine-ridge",
+      "execution_sequence_id": "reduced-palette-text-control-s03-listening-twine-ridge",
+      "prompt_sequence_id": "reduced-palette-text-control-s03-listening-twine-ridge",
+      "prompt_sha256": "cf5b3a066e4cf51ec8eb375c155fe24d3c7322e818463126605e85baee0754c8",
+      "panel_range": [
+        10,
+        14
+      ],
+      "panel_count": 5,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s03-listening-twine-ridge-reduced-palette-text-control-r1.png",
+        "sha256": "8c389293452e1e7e139ae3629209531768556fe4dfd0f3f1b528b6e887c929e0",
+        "width": 863,
+        "height": 1822,
+        "bytes": 2045386
+      },
+      "gutter_detection": {
+        "mode": "hash_pinned_manual_override",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            366,
+            371
+          ],
+          [
+            731,
+            736
+          ],
+          [
+            1095,
+            1100
+          ],
+          [
+            1461,
+            1466
+          ]
+        ],
+        "override_source_sha256": "8c389293452e1e7e139ae3629209531768556fe4dfd0f3f1b528b6e887c929e0",
+        "override_justification": "Native visual and row-luminance inspection identified four exact white separator bands; automatic detection returned only three incomplete extents."
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p010",
+          "plan_revision_id": "ng-ch05-sc01-p010-plan-r1",
+          "display_order": 10,
+          "box": [
+            0,
+            0,
+            863,
+            366
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p011",
+          "plan_revision_id": "ng-ch05-sc01-p011-plan-r1",
+          "display_order": 11,
+          "box": [
+            0,
+            372,
+            863,
+            731
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p012",
+          "plan_revision_id": "ng-ch05-sc01-p012-plan-r1",
+          "display_order": 12,
+          "box": [
+            0,
+            737,
+            863,
+            1095
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p013",
+          "plan_revision_id": "ng-ch05-sc01-p013-plan-r1",
+          "display_order": 13,
+          "box": [
+            0,
+            1101,
+            863,
+            1461
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p014",
+          "plan_revision_id": "ng-ch05-sc01-p014-plan-r1",
+          "display_order": 14,
+          "box": [
+            0,
+            1467,
+            863,
+            1822
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s04-mill-reveal-bridge-warning",
+      "execution_sequence_id": "reduced-palette-text-control-s04-mill-reveal-bridge-warning",
+      "prompt_sequence_id": "reduced-palette-text-control-s04-mill-reveal-bridge-warning",
+      "prompt_sha256": "f89911c6572a58c4db40f462dc48b613138d1aa21fb0ad2955286e503d39a3c1",
+      "panel_range": [
+        15,
+        19
+      ],
+      "panel_count": 5,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s04-mill-reveal-bridge-warning-reduced-palette-text-control-r1.png",
+        "sha256": "2f8e9ba1972a80d309e6c98a3c02c46760ef5104a8e7e78e8f8a575c3576ee6c",
+        "width": 864,
+        "height": 1821,
+        "bytes": 2132561
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            413,
+            419
+          ],
+          [
+            792,
+            797
+          ],
+          [
+            1156,
+            1160
+          ],
+          [
+            1474,
+            1478
+          ]
+        ],
+        "override_source_sha256": null,
+        "override_justification": null
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p015",
+          "plan_revision_id": "ng-ch05-sc01-p015-plan-r1",
+          "display_order": 15,
+          "box": [
+            0,
+            8,
+            864,
+            413
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p016",
+          "plan_revision_id": "ng-ch05-sc01-p016-plan-r1",
+          "display_order": 16,
+          "box": [
+            0,
+            420,
+            864,
+            792
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p017",
+          "plan_revision_id": "ng-ch05-sc01-p017-plan-r1",
+          "display_order": 17,
+          "box": [
+            0,
+            798,
+            864,
+            1156
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p018",
+          "plan_revision_id": "ng-ch05-sc01-p018-plan-r1",
+          "display_order": 18,
+          "box": [
+            0,
+            1161,
+            864,
+            1474
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p019",
+          "plan_revision_id": "ng-ch05-sc01-p019-plan-r1",
+          "display_order": 19,
+          "box": [
+            0,
+            1479,
+            864,
+            1811
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s05-creek-marker-drum",
+      "execution_sequence_id": "reduced-palette-text-control-s05-creek-marker-drum",
+      "prompt_sequence_id": "reduced-palette-text-control-s05-creek-marker-drum",
+      "prompt_sha256": "f96c0d73f4fc22de4920c9e2bea836535a6cb2319680b5258b3e2f791de9b344",
+      "panel_range": [
+        20,
+        24
+      ],
+      "panel_count": 5,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s05-creek-marker-drum-reduced-palette-text-control-r1.png",
+        "sha256": "f2988421e2fe5c13a754f38e26217b0baff42a90cf030a4518331e0e09589596",
+        "width": 853,
+        "height": 1843,
+        "bytes": 2307309
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            418,
+            424
+          ],
+          [
+            745,
+            751
+          ],
+          [
+            1074,
+            1080
+          ],
+          [
+            1424,
+            1430
+          ]
+        ],
+        "override_source_sha256": null,
+        "override_justification": null
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p020",
+          "plan_revision_id": "ng-ch05-sc01-p020-plan-r1",
+          "display_order": 20,
+          "box": [
+            0,
+            5,
+            853,
+            418
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p021",
+          "plan_revision_id": "ng-ch05-sc01-p021-plan-r1",
+          "display_order": 21,
+          "box": [
+            0,
+            425,
+            853,
+            745
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p022",
+          "plan_revision_id": "ng-ch05-sc01-p022-plan-r1",
+          "display_order": 22,
+          "box": [
+            0,
+            752,
+            853,
+            1074
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p023",
+          "plan_revision_id": "ng-ch05-sc01-p023-plan-r1",
+          "display_order": 23,
+          "box": [
+            0,
+            1081,
+            853,
+            1424
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p024",
+          "plan_revision_id": "ng-ch05-sc01-p024-plan-r1",
+          "display_order": 24,
+          "box": [
+            0,
+            1431,
+            853,
+            1837
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s06-ember-line-entry",
+      "execution_sequence_id": "reduced-palette-text-control-s06-ember-line-entry",
+      "prompt_sequence_id": "reduced-palette-text-control-s06-ember-line-entry",
+      "prompt_sha256": "4886183f1d27b88f28c54924280ebe9a79c968248937b9b50dababfb2ab2c110",
+      "panel_range": [
+        25,
+        29
+      ],
+      "panel_count": 5,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s06-ember-line-entry-reduced-palette-text-control-r1.png",
+        "sha256": "517a701df79d10bf55d7325018ed407600007e9e24e8f8dfdc8b1ca6b1ff48a2",
+        "width": 852,
+        "height": 1846,
+        "bytes": 2232333
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            375,
+            378
+          ],
+          [
+            742,
+            744
+          ],
+          [
+            1107,
+            1110
+          ],
+          [
+            1456,
+            1459
+          ]
+        ],
+        "override_source_sha256": null,
+        "override_justification": null
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p025",
+          "plan_revision_id": "ng-ch05-sc01-p025-plan-r1",
+          "display_order": 25,
+          "box": [
+            0,
+            5,
+            852,
+            375
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p026",
+          "plan_revision_id": "ng-ch05-sc01-p026-plan-r1",
+          "display_order": 26,
+          "box": [
+            0,
+            379,
+            852,
+            742
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p027",
+          "plan_revision_id": "ng-ch05-sc01-p027-plan-r1",
+          "display_order": 27,
+          "box": [
+            0,
+            745,
+            852,
+            1107
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p028",
+          "plan_revision_id": "ng-ch05-sc01-p028-plan-r1",
+          "display_order": 28,
+          "box": [
+            0,
+            1111,
+            852,
+            1456
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p029",
+          "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+          "display_order": 29,
+          "box": [
+            0,
+            1460,
+            852,
+            1841
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s07-impossible-footprints-bell",
+      "execution_sequence_id": "reduced-palette-text-control-s07-impossible-footprints-bell",
+      "prompt_sequence_id": "reduced-palette-text-control-s07-impossible-footprints-bell",
+      "prompt_sha256": "c57a8422fb688f1b6eb2f7f5f86383a5c93a2020958b1537bc8bdacb5e38aa91",
+      "panel_range": [
+        30,
+        34
+      ],
+      "panel_count": 5,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s07-impossible-footprints-bell-reduced-palette-text-control-r1.png",
+        "sha256": "55efb4e796b766270c20477d01011a8e3e81b760717ecbbaad3c6812f3443df7",
+        "width": 864,
+        "height": 1821,
+        "bytes": 2255218
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            390,
+            391
+          ],
+          [
+            748,
+            748
+          ],
+          [
+            1081,
+            1081
+          ],
+          [
+            1435,
+            1436
+          ]
+        ],
+        "override_source_sha256": null,
+        "override_justification": null
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p030",
+          "plan_revision_id": "ng-ch05-sc01-p030-plan-r1",
+          "display_order": 30,
+          "box": [
+            0,
+            2,
+            864,
+            390
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p031",
+          "plan_revision_id": "ng-ch05-sc01-p031-plan-r1",
+          "display_order": 31,
+          "box": [
+            0,
+            392,
+            864,
+            748
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p032",
+          "plan_revision_id": "ng-ch05-sc01-p032-plan-r1",
+          "display_order": 32,
+          "box": [
+            0,
+            749,
+            864,
+            1081
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p033",
+          "plan_revision_id": "ng-ch05-sc01-p033-plan-r1",
+          "display_order": 33,
+          "box": [
+            0,
+            1082,
+            864,
+            1435
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p034",
+          "plan_revision_id": "ng-ch05-sc01-p034-plan-r1",
+          "display_order": 34,
+          "box": [
+            0,
+            1437,
+            864,
+            1818
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s08-plank-tin-map",
+      "execution_sequence_id": "reduced-palette-text-control-s08-plank-tin-map",
+      "prompt_sequence_id": "reduced-palette-text-control-s08-plank-tin-map",
+      "prompt_sha256": "22561c07e151b7e395297194733d2ffd9b2bf6776dd5d9a484cd62d24a7d16f0",
+      "panel_range": [
+        35,
+        39
+      ],
+      "panel_count": 5,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s08-plank-tin-map-reduced-palette-text-control-r1.png",
+        "sha256": "800aa59c7258e6a7fd395f8ca9c6549b1d04c93bc8419f53ef19d1ed438a940c",
+        "width": 864,
+        "height": 1821,
+        "bytes": 2567379
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            277,
+            280
+          ],
+          [
+            820,
+            822
+          ],
+          [
+            1192,
+            1195
+          ],
+          [
+            1459,
+            1463
+          ]
+        ],
+        "override_source_sha256": null,
+        "override_justification": null
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p035",
+          "plan_revision_id": "ng-ch05-sc01-p035-plan-r1",
+          "display_order": 35,
+          "box": [
+            0,
+            5,
+            864,
+            277
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p036",
+          "plan_revision_id": "ng-ch05-sc01-p036-plan-r1",
+          "display_order": 36,
+          "box": [
+            0,
+            281,
+            864,
+            820
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p037",
+          "plan_revision_id": "ng-ch05-sc01-p037-plan-r1",
+          "display_order": 37,
+          "box": [
+            0,
+            823,
+            864,
+            1192
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p038",
+          "plan_revision_id": "ng-ch05-sc01-p038-plan-r1",
+          "display_order": 38,
+          "box": [
+            0,
+            1196,
+            864,
+            1459
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p039",
+          "plan_revision_id": "ng-ch05-sc01-p039-plan-r1",
+          "display_order": 39,
+          "box": [
+            0,
+            1464,
+            864,
+            1816
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s09-deduction-retreat-cut",
+      "execution_sequence_id": "reduced-palette-text-control-s09-deduction-retreat-cut",
+      "prompt_sequence_id": "reduced-palette-text-control-s09-deduction-retreat-cut",
+      "prompt_sha256": "500d97e05480319f53151092b5a1e0939575cc85093b045161f271e67d7dc549",
+      "panel_range": [
+        40,
+        44
+      ],
+      "panel_count": 5,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s09-deduction-retreat-cut-reduced-palette-text-control-r1.png",
+        "sha256": "81d61fc893bf3c8e8aef4518f2674858f5534dd9827a47fbbda359f1a4aa549b",
+        "width": 853,
+        "height": 1844,
+        "bytes": 2047324
+      },
+      "gutter_detection": {
+        "mode": "hash_pinned_manual_override",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            358,
+            360
+          ],
+          [
+            713,
+            715
+          ],
+          [
+            1068,
+            1070
+          ],
+          [
+            1456,
+            1458
+          ]
+        ],
+        "override_source_sha256": "81d61fc893bf3c8e8aef4518f2674858f5534dd9827a47fbbda359f1a4aa549b",
+        "override_justification": "Native visual and row-luminance inspection identified four three-row painted separators; automatic detection returned only one."
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p040",
+          "plan_revision_id": "ng-ch05-sc01-p040-plan-r1",
+          "display_order": 40,
+          "box": [
+            0,
+            0,
+            853,
+            358
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p041",
+          "plan_revision_id": "ng-ch05-sc01-p041-plan-r1",
+          "display_order": 41,
+          "box": [
+            0,
+            361,
+            853,
+            713
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p042",
+          "plan_revision_id": "ng-ch05-sc01-p042-plan-r1",
+          "display_order": 42,
+          "box": [
+            0,
+            716,
+            853,
+            1068
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p043",
+          "plan_revision_id": "ng-ch05-sc01-p043-plan-r1",
+          "display_order": 43,
+          "box": [
+            0,
+            1071,
+            853,
+            1456
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p044",
+          "plan_revision_id": "ng-ch05-sc01-p044-plan-r1",
+          "display_order": 44,
+          "box": [
+            0,
+            1459,
+            853,
+            1844
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s10-silence-return",
+      "execution_sequence_id": "reduced-palette-text-control-s10-silence-return",
+      "prompt_sequence_id": "reduced-palette-text-control-s10-silence-return",
+      "prompt_sha256": "c8325f5a7a5f059f43ac1827b48b42317348e4e6350f780255eb67a9792b8696",
+      "panel_range": [
+        45,
+        47
+      ],
+      "panel_count": 3,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s10-silence-return-reduced-palette-text-control-r1.png",
+        "sha256": "3218e740073cae4c2e48b752afdc0ba449f7623ea124ddf8550b8164193a6f5c",
+        "width": 852,
+        "height": 1846,
+        "bytes": 2027004
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            614,
+            616
+          ],
+          [
+            1228,
+            1230
+          ]
+        ],
+        "override_source_sha256": null,
+        "override_justification": null
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p045",
+          "plan_revision_id": "ng-ch05-sc01-p045-plan-r1",
+          "display_order": 45,
+          "box": [
+            0,
+            4,
+            852,
+            614
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p046",
+          "plan_revision_id": "ng-ch05-sc01-p046-plan-r1",
+          "display_order": 46,
+          "box": [
+            0,
+            617,
+            852,
+            1228
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p047",
+          "plan_revision_id": "ng-ch05-sc01-p047-plan-r1",
+          "display_order": 47,
+          "box": [
+            0,
+            1231,
+            852,
+            1842
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s11-farmhouse-reversal",
+      "execution_sequence_id": "reduced-palette-text-control-s11-farmhouse-reversal",
+      "prompt_sequence_id": "reduced-palette-text-control-s11-farmhouse-reversal",
+      "prompt_sha256": "1912c0b3d8af8531f893f8084264c1c983c601fb2deec2b4787081085f042cf9",
+      "panel_range": [
+        48,
+        50
+      ],
+      "panel_count": 3,
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/source-strips/s11-farmhouse-reversal-reduced-palette-text-control-r1.png",
+        "sha256": "9aa41e0e57b3d22fc46ef228252b3533c129d2be280f6fa3743f19e3b31862aa",
+        "width": 887,
+        "height": 1774,
+        "bytes": 2277483
+      },
+      "gutter_detection": {
+        "mode": "hash_pinned_manual_override",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            588,
+            593
+          ],
+          [
+            1181,
+            1186
+          ]
+        ],
+        "override_source_sha256": "9aa41e0e57b3d22fc46ef228252b3533c129d2be280f6fa3743f19e3b31862aa",
+        "override_justification": "Native visual and row-luminance inspection identified two six-row white separator bands; automatic detection returned only the first."
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p048",
+          "plan_revision_id": "ng-ch05-sc01-p048-plan-r1",
+          "display_order": 48,
+          "box": [
+            0,
+            0,
+            887,
+            588
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p049",
+          "plan_revision_id": "ng-ch05-sc01-p049-plan-r1",
+          "display_order": 49,
+          "box": [
+            0,
+            594,
+            887,
+            1181
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p050",
+          "plan_revision_id": "ng-ch05-sc01-p050-plan-r1",
+          "display_order": 50,
+          "box": [
+            0,
+            1187,
+            887,
+            1774
+          ]
+        }
+      ]
+    }
+  ],
+  "boundary": "Exact source strips and crops remain ignored local research pixels; no acceptance, commercial clearance, rights decision, or exact production-base selection."
+}

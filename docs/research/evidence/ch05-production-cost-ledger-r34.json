@@ -1,0 +1,965 @@
+{
+  "record_type": "ProductionCostLedger",
+  "schema_version": "1.33",
+  "record_id": "ng-ch05-production-cost-ledger-r34",
+  "supersedes": {
+    "record_id": "ng-ch05-production-cost-ledger-r33",
+    "path": "docs/research/evidence/ch05-production-cost-ledger-r33.json",
+    "sha256": "392365f07ab8015bae0e9ae22a97c155faa9bc2b5ee6b2244a7c3117d85e26ab"
+  },
+  "prior_record_rewritten": false,
+  "budget_domain": "NORTH_GARDEN_CH05_PRODUCTION",
+  "policy_id": "ng-ch05-production-budget-policy-r1",
+  "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY",
+  "approved_aggregate_cap_usd": null,
+  "committed_actual_cost_usd": "0.000000",
+  "held_reservations_usd": "0.000000",
+  "available_usd": null,
+  "currency": "USD",
+  "entries": [],
+  "local_zero_external_cost_evidence": [
+    {
+      "milestone": "ch05_p036_instrumented_repair_readiness_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p033_p038_no_network_demonstration_packet_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p033_p038_deterministic_sequence_control_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_panel_run_state_ledger_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_candidate_review_and_promotion_instrumentation_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_50_panel_run_manifest_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "review_session_and_chapter_progress_rollup_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selected_openai_p036_offline_submission_preflight_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selected_route_submission_journal_recovery_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selected_route_render_record_and_incident_schema_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selected_route_mask_boundary_hardening_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p036_mask_topology_compatibility_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p036_causal_shape_topology_control_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selected_route_repair_policy_nonpromotion_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p036_repair_readiness_revision_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "scale_aware_repair_boundary_selector_contract_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "repair_render_record_boundary_evidence_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_repair_evidence_readiness_matrix_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "exact_base_boundary_measurement_packet_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "hash_chained_seam_review_binding_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "repair_outcome_finalizer_fail_closed_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "bootstrap_runtime_reproducibility_closure_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selected_route_artifact_rebuild_reproducibility_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "g07_review_validation_runtime_optimization_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "safe_source_release_manifest_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "bakeoff_adapter_aggregate_budget_binding_audit_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "provider_transport_and_data_boundary_audit_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selected_route_hardening_state_manifest_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "disconnected_and_holed_mask_topology_stress_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "scale_aware_boundary_selector_contract_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selected_route_artifact_rebuild_reproducibility_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "bakeoff_adapter_aggregate_budget_binding_audit_r3",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "hardening_release_validation_orchestrator_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selector_consumer_compatibility_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selected_route_authority_dependency_frontier_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "safe_source_release_manifest_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "hardening_release_validation_orchestrator_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "selected_route_hardening_state_manifest_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "p036_prerequisite_authority_lattice_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "hardening_release_validation_orchestrator_r3",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "safe_source_release_manifest_r3",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "current_evidence_lineage_index_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "current_evidence_reproducer_matrix_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "frozen_gauntlet_baseline_integrity_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "review_authority_handoff_packet_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "current_evidence_reproducer_matrix_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "hardening_release_validation_orchestrator_r4",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "provider_documentation_pre_spend_chronology_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "autonomous_research_engineering_closeout_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "hardening_release_validation_orchestrator_r5",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "final_safe_source_git_parity_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_final_delivery_bundle_manifest_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_safe_source_delivery_parity_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_overnight_integrated_release_gate_r8",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_overnight_integrated_release_r8_compatibility_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_final_evidence_reproducer_matrix_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p010_p013_owner_unlock_contract_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p010_p013_prompt_blueprint_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_prompt_blueprint_adversarial_validation_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p010_p013_prerender_packet_blueprint_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_p010_p013_lifecycle_state_machine_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_chapter_batch_lifecycle_application_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_owner_review_index_r5_and_link_manifest_r3",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_overnight_integrated_release_gate_r9",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_chapter_production_duration_capacity_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_chapter_production_operating_playbook_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_overnight_delivery_bundle_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_owner_review_index_r6_and_link_manifest_r4",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_overnight_safe_source_parity_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_final_evidence_reproducer_matrix_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_owner_decision_defaults_packet_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_owner_review_index_r7_and_link_manifest_r5",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_overnight_closeout_bundle_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_overnight_integrated_release_gate_r11",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_final_safe_source_and_remote_parity_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_overnight_closeout_bundle_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_final_model_license_provenance_audit_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_owner_response_schema_and_validator_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_pilot_root_review_timer_contract_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_final_review_session_starter_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_owner_ingestion_preflight_contract_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_owner_review_index_r8_and_link_manifest_r6",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_final_review_integrated_release_r12",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_final_safe_source_and_remote_parity_r2",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_overnight_closeout_bundle_r3",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_final_handoff_consistency_matrix_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_strongest_candidate_disposition_worksheet_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_owner_review_index_r9_final_entry_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_final_review_reproducer_matrix_r3",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_post_reproducer_safe_source_parity_r5",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_completion_readiness_audit_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_alt_graphic_execution_renderrecords_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_alt_graphic_deterministic_crop_and_assembly_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_alt_graphic_lettering_and_review_packets_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_alt_graphic_agent_triage_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_r6_alt_graphic_measured_comparison_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_cross_panel_semantic_gates_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_clear_line_watercolor_full_chapter_preflight_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_clear_line_watercolor_execution_renderrecords_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_clear_line_watercolor_deterministic_crop_and_assembly_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_clear_line_watercolor_agent_triage_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_three_route_measured_comparison_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_three_route_owner_review_start_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_premium_cel_execution_renderrecords_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_premium_cel_deterministic_crop_and_assembly_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_premium_cel_lettering_and_review_packets_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_premium_cel_targeted_repair_trio_execution_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_flat_graphic_gouache_complete_chapter_execution_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    },
+    {
+      "milestone": "ch05_reduced_palette_text_control_complete_chapter_execution_r1",
+      "external_requests": 0,
+      "external_uploads": 0,
+      "external_cost_usd": "0.000000"
+    }
+  ],
+  "revision_summary": {
+    "prior_local_milestones": 106,
+    "appended_local_milestones": 3,
+    "total_local_milestones": 109,
+    "external_requests": 0,
+    "external_uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "boundary": "Append-only accounting from r33. Direct paid API/cloud calls and spend remain 0/$0; built-in monetary cost remains unavailable/null, not zero. Targeted-repair, flat-gouache, and text-control timing scopes remain separate: known individual sums, concurrent-batch walls, non-overlap arithmetic, and unavailable actual end-to-end time are not combined. G07 remains separate. No candidate acceptance, rights clearance, or exact-production-base decision is implied.",
+  "built_in_product_activity": {
+    "product": "OpenAI built-in ImageGen in Codex",
+    "evidence_sources": [
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-premium-cel-execution-manifest-r1.json",
+        "sha256": "acff13c33ec311a78fe8e6007bd46549cc2e633a37db8c11a387cda01d6f3e71"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-premium-cel-crops-r1.json",
+        "sha256": "d78c91832835e09096a6eefe342dc6e5f01a17046a58a2031ed2e0a8fe7687e1"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-premium-cel-assembly-r1.json",
+        "sha256": "1eb504847a36f7b47a8d77d2b9460ec0c9b25a90adb12c6f6c9d96264e1b8d24"
+      },
+      {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/premium-cel-panel-split-report-r1.json",
+        "sha256": "79649e0e92c0fc280d6a696fff0a8b2441bc92ff1c596439ab1fd2b1692cf3c0"
+      },
+      {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/review/build-report.json",
+        "sha256": "b3661f6f19bacb07b2a95eb8799dbc7c592da2805ed57cc6ac81752aaaba20a7"
+      },
+      {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/lettered/lettering-build-report.json",
+        "sha256": "e3ed9abb8204aa2439e5afc5eb04038d8723930792ff4ad671d8b23613c70b80"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-premium-cel-targeted-repair-trio-execution-r1.json",
+        "sha256": "23e399329bfe22cb0732f7ba5d147a56e178c081709340926f6e9fa18b81b28f"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-execution-manifest-r1.json",
+        "sha256": "66c389df75bea35ec7cf9165fda1c10293f48b1c11444e4b41d418b1d1223f3c"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-crops-r1.json",
+        "sha256": "c731393f250d801a072ed712beec04421abd59f6cdbdf256d0134bac2e6caa6b"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-execution-manifest-r1.json",
+        "sha256": "2e978b4f04d1cd7b7a660105d2e230a880d3df3e1d27a22c6bc78fa0639aa663"
+      }
+    ],
+    "current_revision_premium_cel": {
+      "arm_id": "ch05_complete_chapter_premium_cel_r1",
+      "sequence_tool_calls": 11,
+      "raster_outputs": 11,
+      "comic_panel_plan_crops": 50,
+      "authorized_reference_uses": 23,
+      "unique_authorized_reference_hashes": 3,
+      "unique_timing_batches": 6,
+      "overlap_adjusted_tool_call_wall_seconds": 1234.0,
+      "timing_scope": "Codex ImageGen tool-call wall at 0.1-second precision; includes any queue, generation, and transfer time exposed to the caller.",
+      "model": null,
+      "endpoint": null,
+      "provider_request_ids": null,
+      "usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null
+    },
+    "cumulative_complete_chapter_style_arms": {
+      "included_arms": [
+        "ch05_complete_chapter_alt_graphic_r1",
+        "ch05_complete_chapter_clear_line_watercolor_r1",
+        "ch05_complete_chapter_premium_cel_r1",
+        "ch05_complete_chapter_flat_graphic_gouache_r1",
+        "ch05_complete_chapter_reduced_palette_text_control_r1"
+      ],
+      "sequence_tool_calls": 55,
+      "raster_outputs": 55,
+      "comic_panel_plan_crops": 250,
+      "authorized_reference_uses": 92,
+      "unique_authorized_reference_hashes": 3,
+      "direct_paid_provider_api_calls": 0,
+      "direct_paid_api_or_cloud_spend_usd": "0.000000",
+      "model": null,
+      "endpoint": null,
+      "provider_request_ids": null,
+      "usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "combined_timing_seconds": null,
+      "combined_actual_end_to_end_wall_seconds": null,
+      "timing_combination_status": "PROHIBITED_INCOMPARABLE_SCOPES"
+    },
+    "unavailable_fields": [
+      "model",
+      "endpoint",
+      "provider_request_ids",
+      "usage",
+      "monetary_cost_usd",
+      "deterministic_seed"
+    ],
+    "accounting_note": "Fifty deterministic panel crops are local derivatives and are not counted as tool calls or raster generation outputs.",
+    "prior_revision_evidence_sources": [
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-premium-cel-execution-manifest-r1.json",
+        "sha256": "acff13c33ec311a78fe8e6007bd46549cc2e633a37db8c11a387cda01d6f3e71"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-premium-cel-crops-r1.json",
+        "sha256": "d78c91832835e09096a6eefe342dc6e5f01a17046a58a2031ed2e0a8fe7687e1"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-premium-cel-assembly-r1.json",
+        "sha256": "1eb504847a36f7b47a8d77d2b9460ec0c9b25a90adb12c6f6c9d96264e1b8d24"
+      },
+      {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/premium-cel-panel-split-report-r1.json",
+        "sha256": "79649e0e92c0fc280d6a696fff0a8b2441bc92ff1c596439ab1fd2b1692cf3c0"
+      },
+      {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/review/build-report.json",
+        "sha256": "b3661f6f19bacb07b2a95eb8799dbc7c592da2805ed57cc6ac81752aaaba20a7"
+      },
+      {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/lettered/lettering-build-report.json",
+        "sha256": "e3ed9abb8204aa2439e5afc5eb04038d8723930792ff4ad671d8b23613c70b80"
+      }
+    ],
+    "current_revision_evidence_sources": [
+      {
+        "path": "production/comic/run-manifests/ch05-premium-cel-targeted-repair-trio-execution-r1.json",
+        "sha256": "23e399329bfe22cb0732f7ba5d147a56e178c081709340926f6e9fa18b81b28f"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-execution-manifest-r1.json",
+        "sha256": "66c389df75bea35ec7cf9165fda1c10293f48b1c11444e4b41d418b1d1223f3c"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-crops-r1.json",
+        "sha256": "c731393f250d801a072ed712beec04421abd59f6cdbdf256d0134bac2e6caa6b"
+      },
+      {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-execution-manifest-r1.json",
+        "sha256": "2e978b4f04d1cd7b7a660105d2e230a880d3df3e1d27a22c6bc78fa0639aa663"
+      }
+    ],
+    "current_revision_activities": [
+      {
+        "activity_id": "ch05_premium_cel_targeted_repair_trio_r1",
+        "activity_class": "targeted_repair_trio",
+        "sequence_tool_calls": 3,
+        "raster_outputs": 3,
+        "comic_panel_plans": 3,
+        "comic_panel_plan_crops": 0,
+        "authorized_reference_uses": 6,
+        "reference_uploads": null,
+        "manual_gutter_overrides": 0,
+        "timing": {
+          "known_individual_wall_seconds_sum": null,
+          "known_individual_output_count": 0,
+          "concurrent_batch_walls_seconds": [
+            169.0
+          ],
+          "concurrent_batch_wall_seconds_sum": 169.0,
+          "non_overlap_observed_arithmetic_seconds": 169.0,
+          "actual_end_to_end_wall_seconds": null,
+          "scope_note": "One caller-observed concurrent batch wall; no trustworthy individual-output or full-workflow stopwatch."
+        },
+        "direct_paid_provider_api_calls": 0,
+        "direct_paid_api_or_cloud_spend_usd": "0.000000",
+        "model": null,
+        "endpoint": null,
+        "provider_request_ids": null,
+        "usage": null,
+        "monetary_cost_usd": null,
+        "deterministic_seed": null
+      },
+      {
+        "activity_id": "ch05_complete_chapter_flat_graphic_gouache_r1",
+        "activity_class": "complete_chapter_style_arm",
+        "sequence_tool_calls": 11,
+        "raster_outputs": 11,
+        "comic_panel_plans": 50,
+        "comic_panel_plan_crops": 50,
+        "authorized_reference_uses": 23,
+        "reference_uploads": null,
+        "manual_gutter_overrides": 1,
+        "timing": {
+          "known_individual_wall_seconds_sum": 1063.921,
+          "known_individual_output_count": 9,
+          "concurrent_batch_walls_seconds": [
+            227.068
+          ],
+          "concurrent_batch_wall_seconds_sum": 227.068,
+          "non_overlap_observed_arithmetic_seconds": 1290.989,
+          "actual_end_to_end_wall_seconds": null,
+          "scope_note": "Nine individual walls plus one S10/S11 concurrent-pair wall; parallel caller lanes lacked a shared stopwatch."
+        },
+        "direct_paid_provider_api_calls": 0,
+        "direct_paid_api_or_cloud_spend_usd": "0.000000",
+        "model": null,
+        "endpoint": null,
+        "provider_request_ids": null,
+        "usage": null,
+        "monetary_cost_usd": null,
+        "deterministic_seed": null
+      },
+      {
+        "activity_id": "ch05_complete_chapter_reduced_palette_text_control_r1",
+        "activity_class": "complete_chapter_text_only_control_arm",
+        "sequence_tool_calls": 11,
+        "raster_outputs": 11,
+        "comic_panel_plans": 50,
+        "comic_panel_plan_crops": 50,
+        "authorized_reference_uses": 0,
+        "reference_uploads": 0,
+        "manual_gutter_overrides": 0,
+        "timing": {
+          "known_individual_wall_seconds_sum": 568.3,
+          "known_individual_output_count": 6,
+          "concurrent_batch_walls_seconds": [
+            300.467,
+            158.885
+          ],
+          "concurrent_batch_wall_seconds_sum": 459.352,
+          "non_overlap_observed_arithmetic_seconds": 1027.652,
+          "actual_end_to_end_wall_seconds": null,
+          "scope_note": "Six individual walls plus two concurrent-batch walls; parallel caller lanes lacked a shared stopwatch."
+        },
+        "direct_paid_provider_api_calls": 0,
+        "direct_paid_api_or_cloud_spend_usd": "0.000000",
+        "model": null,
+        "endpoint": null,
+        "provider_request_ids": null,
+        "usage": null,
+        "monetary_cost_usd": null,
+        "deterministic_seed": null
+      }
+    ],
+    "timing_accounting": {
+      "prior_three_complete_arms": {
+        "overlap_adjusted_tool_call_wall_seconds": 3278.3,
+        "scope": "Historical r33 aggregate for alt-graphic, clear-line-watercolor, and premium-cel only."
+      },
+      "targeted_repair_trio": {
+        "known_individual_wall_seconds_sum": null,
+        "known_individual_output_count": 0,
+        "concurrent_batch_walls_seconds": [
+          169.0
+        ],
+        "concurrent_batch_wall_seconds_sum": 169.0,
+        "non_overlap_observed_arithmetic_seconds": 169.0,
+        "actual_end_to_end_wall_seconds": null,
+        "scope_note": "One caller-observed concurrent batch wall; no trustworthy individual-output or full-workflow stopwatch."
+      },
+      "flat_graphic_gouache_complete_arm": {
+        "known_individual_wall_seconds_sum": 1063.921,
+        "known_individual_output_count": 9,
+        "concurrent_batch_walls_seconds": [
+          227.068
+        ],
+        "concurrent_batch_wall_seconds_sum": 227.068,
+        "non_overlap_observed_arithmetic_seconds": 1290.989,
+        "actual_end_to_end_wall_seconds": null,
+        "scope_note": "Nine individual walls plus one S10/S11 concurrent-pair wall; parallel caller lanes lacked a shared stopwatch."
+      },
+      "reduced_palette_text_control_complete_arm": {
+        "known_individual_wall_seconds_sum": 568.3,
+        "known_individual_output_count": 6,
+        "concurrent_batch_walls_seconds": [
+          300.467,
+          158.885
+        ],
+        "concurrent_batch_wall_seconds_sum": 459.352,
+        "non_overlap_observed_arithmetic_seconds": 1027.652,
+        "actual_end_to_end_wall_seconds": null,
+        "scope_note": "Six individual walls plus two concurrent-batch walls; parallel caller lanes lacked a shared stopwatch."
+      },
+      "all_activity_actual_end_to_end_wall_seconds": null,
+      "combination_rule": "Do not add historical overlap-adjusted walls, individual sums, concurrent-batch walls, or non-overlap arithmetic into a synthetic total."
+    },
+    "accounting_notes": [
+      "Panel crops are deterministic local derivatives, not generation outputs or provider calls.",
+      "Authorized reference-use counts are not monetary costs; the built-in product did not disclose monetary cost.",
+      "Flat-gouache has one hash-pinned manual gutter override; it changes local crop accounting only."
+    ]
+  }
+}

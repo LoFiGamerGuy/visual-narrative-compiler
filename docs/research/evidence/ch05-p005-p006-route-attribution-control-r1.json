@@ -1,0 +1,307 @@
+{
+  "record_type": "CH05P005P006RouteAttributionControl",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-p005-p006-route-attribution-control-r1",
+  "state": "EXISTING_PIXEL_ATTRIBUTION_CONTROL_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-sequence-cadence-boundary-audit-r1.json",
+      "sha256": "1aadf213f9a6f1253c4386392b663791a3fcf6ae9db8887268b0566936f8cc0d"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-sequence-cadence-review-assembly-r1.json",
+      "sha256": "da409346e3b09041501b4f96341afa4a2e3a8f9dc051dc33dd80be46631e357e"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-assembly-r1.json",
+      "sha256": "c8ccadbc5e6fa94042a210f2096060ef8f776f7df1c8e0a82fd6f9971cc391e8"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json",
+      "sha256": "3c84cf3c6fdb479ad3e32717c684e7d44362977da53e9d3a10659d016cea8677"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/panels/p005-reduced-palette-text-control-r1.png",
+      "sha256": "b1311f084c016169605e4be4d94cffe1841d95adfa9e5497ea7e1a1689ac08fa"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/panels/p006-reduced-palette-text-control-r1.png",
+      "sha256": "a0c5efedc43d304a2dd517cf696294014dcfdfa2cf729936fde7a3c2198c70b1"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p005-sequence-derived-r1.png",
+      "sha256": "0a825cfeeb726ef184f8a3b4022cb0449f6acd736e8b355c89d1da5ec50e546e"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p006-sequence-derived-r1.png",
+      "sha256": "8998f36131129727ca4923ac73e3ae8b8c0ebddf4e6dd8460529b890de13936d"
+    }
+  ],
+  "coverage": {
+    "canonical_panel_ids": [
+      "ng-ch05-sc01-p005",
+      "ng-ch05-sc01-p006"
+    ],
+    "unique_existing_candidates": 4,
+    "matched_transition_arms": 3,
+    "new_art_candidates": 0,
+    "provider_calls": 0,
+    "uploads": 0
+  },
+  "method": {
+    "control_design": "Compare the selected text→R6 transition with all-text and all-R6 transitions across the identical P005→P006 story-beat boundary.",
+    "matched_presentation": "Every sheet image is aspect-preserving Lanczos-downsampled into the same 590x270 neutral review cell; source pixels remain unchanged.",
+    "histogram_method": "Same deterministic 256x256 luminance-TV and mean RGB 64-bin channel-TV implementation as the parent boundary audit.",
+    "complexity_method": "Same 390px-wide grayscale entropy, FIND_EDGES>=32 density, and native PNG-bytes-per-pixel implementation as the parent boundary audit.",
+    "interpretation_boundary": "All measurements are content-, crop-, aspect-, codec-, and resize-sensitive proxies. They do not measure or grade artistic quality, narrative quality, identity, acceptance, or production fitness."
+  },
+  "candidates": [
+    {
+      "candidate_key": "text_p005",
+      "order": 5,
+      "panel_id": "ng-ch05-sc01-p005",
+      "candidate_id": "reduced-palette-text-control-r1-p005",
+      "sequence_id": "s01-opening-departure",
+      "route": "reduced_palette_text_control",
+      "source_manifest": {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-assembly-r1.json",
+        "sha256": "c8ccadbc5e6fa94042a210f2096060ef8f776f7df1c8e0a82fd6f9971cc391e8"
+      },
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/panels/p005-reduced-palette-text-control-r1.png",
+        "sha256": "b1311f084c016169605e4be4d94cffe1841d95adfa9e5497ea7e1a1689ac08fa",
+        "width": 852,
+        "height": 241,
+        "png_bytes": 330869
+      },
+      "complexity_proxies": {
+        "grayscale_entropy_bits": 6.712305,
+        "edge_density_ge_32": 0.233319,
+        "png_bytes_per_native_pixel": 1.611385
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "candidate_key": "text_p006",
+      "order": 6,
+      "panel_id": "ng-ch05-sc01-p006",
+      "candidate_id": "reduced-palette-text-control-r1-p006",
+      "sequence_id": "s02-runnel-marker-trail",
+      "route": "reduced_palette_text_control",
+      "source_manifest": {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-assembly-r1.json",
+        "sha256": "c8ccadbc5e6fa94042a210f2096060ef8f776f7df1c8e0a82fd6f9971cc391e8"
+      },
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/panels/p006-reduced-palette-text-control-r1.png",
+        "sha256": "a0c5efedc43d304a2dd517cf696294014dcfdfa2cf729936fde7a3c2198c70b1",
+        "width": 844,
+        "height": 501,
+        "png_bytes": 612905
+      },
+      "complexity_proxies": {
+        "grayscale_entropy_bits": 6.589197,
+        "edge_density_ge_32": 0.193557,
+        "png_bytes_per_native_pixel": 1.449483
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "candidate_key": "r6_p005",
+      "order": 5,
+      "panel_id": "ng-ch05-sc01-p005",
+      "candidate_id": "chapter-r1-p005",
+      "sequence_id": "s01-opening-departure",
+      "route": "r6",
+      "source_manifest": {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json",
+        "sha256": "3c84cf3c6fdb479ad3e32717c684e7d44362977da53e9d3a10659d016cea8677"
+      },
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p005-sequence-derived-r1.png",
+        "sha256": "0a825cfeeb726ef184f8a3b4022cb0449f6acd736e8b355c89d1da5ec50e546e",
+        "width": 830,
+        "height": 309,
+        "png_bytes": 485578
+      },
+      "complexity_proxies": {
+        "grayscale_entropy_bits": 6.500197,
+        "edge_density_ge_32": 0.321029,
+        "png_bytes_per_native_pixel": 1.893313
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "candidate_key": "r6_p006",
+      "order": 6,
+      "panel_id": "ng-ch05-sc01-p006",
+      "candidate_id": "chapter-r1-p006",
+      "sequence_id": "s02-runnel-marker-trail",
+      "route": "r6",
+      "source_manifest": {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json",
+        "sha256": "3c84cf3c6fdb479ad3e32717c684e7d44362977da53e9d3a10659d016cea8677"
+      },
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p006-sequence-derived-r1.png",
+        "sha256": "8998f36131129727ca4923ac73e3ae8b8c0ebddf4e6dd8460529b890de13936d",
+        "width": 864,
+        "height": 454,
+        "png_bytes": 621940
+      },
+      "complexity_proxies": {
+        "grayscale_entropy_bits": 7.579632,
+        "edge_density_ge_32": 0.209994,
+        "png_bytes_per_native_pixel": 1.585546
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    }
+  ],
+  "arms": [
+    {
+      "arm_id": "selected_cross_route",
+      "label": "Selected cadence: text P005 TO R6 P006",
+      "left_candidate_key": "text_p005",
+      "right_candidate_key": "r6_p006",
+      "display_labels": [
+        "P005 · reduced_palette_text_control",
+        "P006 · r6"
+      ],
+      "metrics": {
+        "luminance_histogram_total_variation": 0.52121,
+        "rgb_64_bin_histogram_mean_channel_total_variation": 0.519582
+      },
+      "review_state": "PENDING_OWNER_REVIEW_NOT_GRADED",
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "arm_id": "all_text_control",
+      "label": "Same-route control: text P005 TO text P006",
+      "left_candidate_key": "text_p005",
+      "right_candidate_key": "text_p006",
+      "display_labels": [
+        "P005 · reduced_palette_text_control",
+        "P006 · reduced_palette_text_control"
+      ],
+      "metrics": {
+        "luminance_histogram_total_variation": 0.510071,
+        "rgb_64_bin_histogram_mean_channel_total_variation": 0.472
+      },
+      "review_state": "PENDING_OWNER_REVIEW_NOT_GRADED",
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "arm_id": "all_r6_control",
+      "label": "Same-route control: R6 P005 TO R6 P006",
+      "left_candidate_key": "r6_p005",
+      "right_candidate_key": "r6_p006",
+      "display_labels": [
+        "P005 · r6",
+        "P006 · r6"
+      ],
+      "metrics": {
+        "luminance_histogram_total_variation": 0.55513,
+        "rgb_64_bin_histogram_mean_channel_total_variation": 0.551442
+      },
+      "review_state": "PENDING_OWNER_REVIEW_NOT_GRADED",
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    }
+  ],
+  "attribution": {
+    "comparison": {
+      "luminance_histogram_total_variation": {
+        "selected_cross_route": 0.52121,
+        "all_text_control": 0.510071,
+        "all_r6_control": 0.55513,
+        "same_route_control_mean": 0.532601,
+        "selected_minus_control_mean": -0.011391,
+        "selected_to_control_mean_ratio": 0.978613,
+        "selected_exceeds_both_same_route_controls": false
+      },
+      "rgb_64_bin_histogram_mean_channel_total_variation": {
+        "selected_cross_route": 0.519582,
+        "all_text_control": 0.472,
+        "all_r6_control": 0.551442,
+        "same_route_control_mean": 0.511721,
+        "selected_minus_control_mean": 0.007861,
+        "selected_to_control_mean_ratio": 1.015362,
+        "selected_exceeds_both_same_route_controls": false
+      }
+    },
+    "predeclared_rule": "A route-switch contribution is supported on a proxy only when the selected cross-route distance exceeds both same-route controls for that same P005→P006 beat transition.",
+    "proxies_supporting_rule": 0,
+    "proxies_evaluated": 2,
+    "result": "ROUTE_SWITCH_CONTRIBUTION_NOT_ISOLATED_ON_BOTH_HISTOGRAM_PROXIES",
+    "confounds": [
+      "P005 is a people-free runnel insert while P006 is a two-adult marker/action panel; the story content and shot scale change in every arm.",
+      "Native aspect ratios and dimensions vary by route and panel; histogram normalization cannot remove composition/crop differences.",
+      "The candidates were not generated as a randomized controlled experiment, so any route-switch attribution remains directional rather than causal."
+    ]
+  },
+  "artifact": {
+    "path": "experiments/review-packets/ch05-p005-p006-route-attribution-control-r1/ch05-p005-p006-three-arm-matched-review-sheet-r1.png",
+    "sha256": "0b503323c34a81790201bc0e899d3f264f55c5a6abaf2858ad29bfaded8b9964",
+    "width": 1440,
+    "height": 1334,
+    "bytes": 1272525,
+    "repository_state": "IGNORED_LOCAL_REVIEW_LAYOUT_DERIVATIVE",
+    "contains_new_art": false
+  },
+  "disposition": {
+    "selected_or_ranked_candidate": null,
+    "owner_acceptance": null,
+    "rights_clearance": null,
+    "commercially_cleared": null,
+    "exact_production_base": null,
+    "pixel_edits": null
+  },
+  "spend": {
+    "direct_paid_api_cloud_usd": 0.0,
+    "built_in_product_monetary_cost_usd": null,
+    "provider_calls": 0,
+    "uploads": 0
+  },
+  "limitations": [
+    "This is a review-layout derivative of existing exact-hash candidates, not new art or a candidate edit.",
+    "No candidate is selected, accepted, ranked, graded, rights-cleared, or commercially cleared.",
+    "Histogram and complexity proxies are not quality measures and do not establish causal attribution by themselves."
+  ],
+  "boundary": "Review evidence only; no provider execution, upload, generation, candidate edit, acceptance, rights clearance, commercial clearance, canon replacement, or exact production-base decision."
+}

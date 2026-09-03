@@ -41,6 +41,10 @@
     "sequence_cadence_boundary_audit": {
       "path": "docs/research/evidence/ch05-sequence-cadence-boundary-audit-r1.json",
       "sha256": "1aadf213f9a6f1253c4386392b663791a3fcf6ae9db8887268b0566936f8cc0d"
+    },
+    "p005_p006_route_attribution_control": {
+      "path": "docs/research/evidence/ch05-p005-p006-route-attribution-control-r1.json",
+      "sha256": "22cf4860e4bf892c347396a6f9e98b9286805c60f0e1bc34f7944f0c03fc53ce"
     }
   },
   "route_ranking": [
@@ -149,7 +153,12 @@
       "assessment": "CONTINUITY_RISK_VISUALLY_ABRUPT",
       "luminance_histogram_distance_over_adjacent_control_mean": 1.120982,
       "rgb_histogram_distance_over_adjacent_control_mean": 1.168896,
-      "next_action": "Compare existing selected, all-reduced, and all-r6 P005-to-P006 pairs at matched presentation size; no upload or new generation."
+      "attribution_control_result": "ROUTE_SWITCH_CONTRIBUTION_NOT_ISOLATED_ON_BOTH_HISTOGRAM_PROXIES",
+      "selected_to_same_route_control_mean": {
+        "luminance_histogram_distance": 0.978613,
+        "rgb_histogram_distance": 1.015362
+      },
+      "next_action": "Keep as an explicit owner visual-review question; do not rerender or edit unless the owner rejects the cut and specifies the visual problem."
     },
     "p039_to_p040": {
       "assessment": "LOWER_OBSERVED_CONTINUITY_RISK_REVIEW_STILL_REQUIRED",
@@ -182,5 +191,5 @@
     "The paired ablations are single stochastic samples and support no causal or general reference-conditioning claim.",
     "Built-in model, endpoint, request IDs, usage, monetary cost, and seed remain unavailable."
   ],
-  "adrs": ["ADR-0184", "ADR-0185", "ADR-0186", "ADR-0187", "ADR-0188", "ADR-0189", "ADR-0190"]
+  "adrs": ["ADR-0184", "ADR-0185", "ADR-0186", "ADR-0187", "ADR-0188", "ADR-0189", "ADR-0190", "ADR-0191"]
 }

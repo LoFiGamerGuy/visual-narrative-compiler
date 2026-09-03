@@ -23,4 +23,3 @@ Keep zero-upload text-only generation available as a controlled production optio
 ## Consequences
 
 No additional upload class, provider authority, purchase, or paid API use follows from this decision. Human review remains pending, stochastic reproducibility remains unmeasured, and no compared candidate is accepted, rights-cleared, commercially cleared, or selected as an exact production base.
-

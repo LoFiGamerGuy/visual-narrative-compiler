@@ -533,3 +533,11 @@ The assembled review cadence measures 47 PASS / 3 WARN / 0 FAIL over 50 panels; 
 For S01, matched no-reference minus reference-backed flat-gouache changes entropy / edge density / PNG bytes per native pixel by +0.057907 / -0.068096 / -0.188811. For S11 the same deltas are +0.064727 / -0.029169 / -0.045402. Stricter reduced-palette minus matched no-reference is -0.574205 / -0.015176 / -0.106527 at S01 and -0.024050 / -0.011826 / -0.063436 at S11.
 
 Each matched comparison contains only one stochastic pair and one required changed input-instruction line. The stricter control changes style instructions as well as omitting references. These benchmarks cannot isolate a general causal effect of reference conditioning, and the complexity metrics do not score identity, narrative success, art quality, or commercial suitability.
+
+## CH05 sequence-boundary continuity audit — 2026-09-03
+
+The non-gating audit compares two cross-route pairs against four adjacent within-route controls using luminance-histogram and 64-bin RGB mean-channel total-variation distances. P005→P006 measures 1.120982× and 1.168896× the mean of its adjacent controls. Both ratios exceed the local mean, but neither cross-route distance exceeds both individual controls; this supports manual review priority, not a style-only causal claim.
+
+P039→P040 measures 0.902299× and 0.894237× its adjacent means, so neither proxy supports above-local-mean risk at the later boundary. The audit is confounded by narrative content, shot scale, crop, and aspect ratio. It changes no route, acceptance, or rights state. The next benchmark is a zero-upload three-arm P005→P006 control using existing selected reduced→r6, all-reduced, and all-r6 candidates with panel IDs/story beats held fixed.
+
+The completed three-arm control measures selected reduced→r6 at 0.521210 luminance / 0.519582 RGB distance, all-reduced at 0.510071 / 0.472000, and all-r6 at 0.555130 / 0.551442. Selected-to-control-mean ratios are 0.978613 and 1.015362, and the selected transition exceeds both same-route controls on 0/2 proxies. Under the predeclared rule, route-switch contribution is not isolated. This does not erase the manual finish-continuity concern; it limits the engineering conclusion to owner review with no new render/edit recommendation.

@@ -1637,3 +1637,17 @@ The six-route comparison covers 300 panel candidates across six complete 50-plan
 The sequence-level optimizer recommends reduced-palette for S01, r6 for S02-S08, and premium cel for S09-S11: 5/34/11 panels and two route transitions. The deterministic, hash-bound, review-only ComicChapterProductionManifest assembly realizes those blocks across all 50 plans and measures 47 PASS / 3 WARN / 0 FAIL; P003, P032, and P045 remain warnings. No within-sequence cherry-picking is permitted, and any repair must be the smallest same-style correction. The manifest is not executable, accepted, or promoted for production.
 
 Matched no-reference minus reference-backed flat-gouache deltas are S01 +0.057907 entropy, -0.068096 edge density, and -0.188811 PNG bytes/native pixel; S11 +0.064727, -0.029169, and -0.045402. Stricter reduced-palette minus matched no-reference is S01 -0.574205 / -0.015176 / -0.106527 and S11 -0.024050 / -0.011826 / -0.063436. Each matched comparison is one stochastic pair with one necessary changed input-instruction line; the stricter control also changes style instructions. Neither ablation establishes general causality, and all candidates remain pending human review, unaccepted, rights/commercially uncleared, and ineligible as exact production bases.
+
+## CH05 sequence-cadence boundary audit — 2026-09-03
+
+Audited both route transitions using eight existing panels, six pair comparisons, two cross-route boundaries, and four adjacent within-route controls. No image was generated, edited, uploaded, or accepted.
+
+P005→P006 is above the adjacent-control mean on both histogram proxies: luminance total-variation ratio 1.120982× and RGB mean-channel total-variation ratio 1.168896×. Neither proxy exceeds both individual adjacent controls. Manual inspection flags the change from a high-key, people-free runnel insert to a cooler, denser, taller two-adult action panel as visually abrupt, while explicitly preserving shot, content, sequence, scale, and aspect-ratio confounds.
+
+P039→P040 is below the adjacent-control mean on both proxies at 0.902299× luminance and 0.894237× RGB. Shared dark mill timbers, cool exterior opening, grounded earth tones, and close character staging make this boundary comparatively cohesive, but owner review remains required. Route selection is unchanged; a three-arm existing-candidate P005→P006 attribution control is underway with zero upload and no new pixel generation.
+
+## CH05 P005→P006 three-arm attribution control — 2026-09-03
+
+Completed the existing-pixel control with selected reduced→r6, all-reduced, and all-r6 arms. Luminance/RGB distances are 0.521210/0.519582, 0.510071/0.472000, and 0.555130/0.551442 respectively. The selected arm is 0.978613× luminance and 1.015362× RGB versus the two-control mean and exceeds both same-route controls on 0/2 proxies.
+
+The predeclared rule therefore does not isolate route switching as the cause of the visible boundary. Story content and shot scale change in all arms; aspect ratio, composition, and non-randomized generation remain confounds. The control adds one ignored local review-layout derivative and zero new art, provider calls, uploads, candidate edits, selections, acceptance, or spend. Retain P005→P006 for manual review, but do not recommend a new render or edit from these proxies.

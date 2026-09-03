@@ -17,6 +17,10 @@ R7 is the review navigation layer for the assembled three-block cadence, the six
 
 The assembled allocation is reduced-palette S01, r6 S02-S08, and premium cel S09-S11: 5/34/11 panels, two route transitions, and 47 PASS / 3 WARN / 0 FAIL. Review P003's track overlap, P032's heel/toe direction, and P045's extra uphill building, plus palette/lighting/line-weight/environment continuity at both route boundaries. All lettering is provisional review copy.
 
+The [sequence-boundary audit](C:/AgentWorkspaces/anime-pipeline/docs/research/evidence/ch05-sequence-cadence-boundary-audit-r1.json) — SHA-256 `1aadf213f9a6f1253c4386392b663791a3fcf6ae9db8887268b0566936f8cc0d` — prioritizes P005→P006 for manual review. Its luminance and RGB distances are 1.120982× and 1.168896× the adjacent within-route mean, but neither exceeds both individual controls. The cut is confounded by shot, content, sequence, scale, and aspect ratio. P039→P040 is lower observed risk at 0.902299× and 0.894237×.
+
+The [completed three-arm attribution record](C:/AgentWorkspaces/anime-pipeline/docs/research/evidence/ch05-p005-p006-route-attribution-control-r1.json) — SHA-256 `22cf4860e4bf892c347396a6f9e98b9286805c60f0e1bc34f7944f0c03fc53ce` — compares selected reduced→r6 (0.521210 luminance / 0.519582 RGB), all-reduced (0.510071 / 0.472000), and all-r6 (0.555130 / 0.551442). Selected/control-mean ratios are 0.978613 / 1.015362 and the selected arm exceeds both controls on 0/2 proxies. Review the [three-arm matched sheet](C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-p005-p006-route-attribution-control-r1/ch05-p005-p006-three-arm-matched-review-sheet-r1.png) — 1440 × 1334, SHA-256 `0b503323c34a81790201bc0e899d3f264f55c5a6abaf2858ad29bfaded8b9964`. Route switching is not isolated as the cause; retain the visual concern but do not request a new render or edit from these proxies.
+
 ## Compare all six routes
 
 1. [Sequence-cadence recommendation](C:/AgentWorkspaces/anime-pipeline/experiments/review-packets/ch05-six-route-comparison-r1/ch05-six-route-sequence-cadence.png) — 1760 × 2786, SHA-256 `fefe4d5d1a43f415ebe92c681f7c08cb2b573689948970095883296e64666c4f`.

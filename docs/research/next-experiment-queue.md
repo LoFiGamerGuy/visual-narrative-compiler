@@ -222,3 +222,19 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 5. Repair lettering-safe composition before reduced-style promotion: lettering is 17 PASS / 6 WARN / 27 FAIL even though phone readability is 43/7/0.
 6. Do not claim reference removal improves density or continuity from S01/S11 alone. Repeat only if a new paired design adds multiple stochastic samples while preserving all other prompt lines.
 7. Keep human review, rights/commercial clearance, exact-production-base status, and future armor/weapons/monsters/wardrobe canon as separate unresolved decisions.
+
+## Active queue after sequence-boundary audit — 2026-09-03
+
+1. Complete the underway zero-upload, no-new-pixel P005→P006 attribution control using three existing-candidate arms: selected reduced→r6, all-reduced, and all-r6.
+2. Hold panel IDs and story beats fixed, compare the same histogram proxies and manual boundary sheet, and report shot/content/aspect confounds rather than attributing differences to style alone.
+3. Keep P005→P006 provisional because both proxy ratios exceed the adjacent mean, but do not authorize repair from this audit: neither distance exceeds both controls.
+4. Keep P039→P040 unchanged unless owner review finds a semantic, identity, or visible finish-continuity issue; both observed ratios are below the adjacent mean.
+5. Preserve the cadence assembly as non-executable, unaccepted review evidence and keep acceptance, rights/commercial clearance, canon replacement, and exact-production-base decisions separate.
+
+## Active queue after P005→P006 attribution control — 2026-09-03
+
+1. Present the three-arm sheet with the cadence boundary sheet for owner review; preserve the visible P005→P006 finish concern without claiming route-switch causality.
+2. Do not generate or edit a boundary candidate from these proxies. The selected arm exceeds both same-route controls on 0/2 distances.
+3. Keep P039→P040 unchanged unless owner review identifies a semantic, identity, or finish-continuity defect.
+4. If the owner rejects the opening boundary, request a sequence-level cadence revision before any same-style repair; do not cherry-pick within S01 or S02.
+5. Preserve zero acceptance, rights/commercial clearance, canon replacement, and exact-production-base status until explicit dispositions are recorded.

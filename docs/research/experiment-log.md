@@ -1807,3 +1807,12 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Triage: 37 PASS / 0 WARN / 3 FAIL. P007/P009 have Halvor→Soren-like identity substitution; P023 has a premature unrequested Mireback.
 - Exact overlapping timing sum 2,045.824 seconds; group walls 403.285/414.710 seconds. References 23; paid API/cloud spend $0; alternate arms/repairs 0/0.
 - Validator PASS with 17/17 mutations rejected. ADR-0209 freezes 37 non-target panels and prioritizes CH11 breadth.
+
+## CH11 complete default-route production and review r1 — 2026-09-03
+
+- Generated eight chronological sequences and deterministically cropped all 40 CH11 ComicPanelPlans.
+- Built complete reading, phone, sequence/contact, and lettering-safe-zone artifacts.
+- Delivered settlement-scale siege geography, three-gate/water/trellis/capstan causality, persistent injury, adult collective action, class/bond rewards, food loss, and the North Garden reveal.
+- Triage: 35 PASS / 1 WARN / 4 FAIL. P003/P008/P013/P025 have Halvor→Soren-like identity substitution; P040 leaves Tamsin's braid unclear.
+- Exact overlapping timing sum 2,214.860 seconds; group walls 442.406/429.358 seconds. References 21; paid API/cloud spend $0; alternate arms/repairs 0/0.
+- Validator PASS with 19/19 adversarial mutations rejected. ADR-0210 preserves the diagnostic baseline and treats Halvor as one linked continuity problem.

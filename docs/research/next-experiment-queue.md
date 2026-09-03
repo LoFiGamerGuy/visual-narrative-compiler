@@ -385,3 +385,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. After CH11, repair CH10 P007/P009 as one paired Halvor identity unit only if owner/context review still finds them confusing.
 4. Repair CH10 P023 with one no-monster forge-cycle panel only if the premature creature disrupts chronology.
 5. Preserve the other 37 CH10 hashes and continue toward CH12–CH13 chronological rendering.
+
+## Active queue after CH11 complete default-route assembly — 2026-09-03
+
+1. Build one CH06–CH11 progression hub spanning six complete visual chapters, 240 candidates, and 48 sequences for one-pass owner review.
+2. Compile and validate a chronological CH12–CH13 default-route prompt manifest from exact CH11 closing state.
+3. Keep the CH10/CH11 Halvor failures as one secondary-character continuity experiment; do not rerender either whole chapter.
+4. Preserve CH11 P040's Tamsin-braid issue as review-only unless it blocks identity at progression scale.
+5. Continue one default route per chapter toward CH12 rupture and CH13 co-keeper resolution before alternate style work.

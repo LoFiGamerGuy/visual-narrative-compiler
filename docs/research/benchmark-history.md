@@ -632,6 +632,23 @@ Sixteen requests cover 80 unique plans with 40 authorized reference uses, zero d
 
 This is execution readiness, not rendered quality, acceptance, rights, clearance, reproducibility, or exact-base selection.
 
+## CH11 complete default-route benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete chronological chapter | 1 × 40 panels |
+| Sequence sources / panel candidates | 8 / 40 |
+| Agent triage PASS / WARN / FAIL | 35 / 1 / 4 |
+| Review artifacts | 5 / 5 |
+| Authorized reference uses | 21 |
+| Overlapping request-interval sum | 2,214.860 s |
+| Parallel group walls | 442.406 s / 429.358 s |
+| Alternate arms / repairs | 0 / 0 |
+| Adversarial mutations rejected | 19 / 19 |
+| Paid API/cloud spend | $0 |
+
+The chapter completes the Orchard Siege and exposes a repeated unreferenced-secondary-character continuity weakness: four Halvor actions drift to a Soren-like blond adult. This is provisional agent triage, not human acceptance or rights clearance.
+
 ## CH10 complete default-route benchmark — 2026-09-03
 
 | Measure | Result |

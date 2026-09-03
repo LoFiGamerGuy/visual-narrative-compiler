@@ -195,3 +195,12 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Compare r6, alternate graphic, and clear-line watercolor on semantic pass/fail, hair/wardrobe, phone readability, lettering clearance, density proxies, latency, and reproducibility limits—not appearance alone.
 4. If the gated arm still violates P001/P032/P036/P041/P043, preserve failures and revise the prompt/compiler gate or local review mechanism rather than repeating low-information isolated probes.
 5. Keep future armor, weapons, monsters, class gear, and wardrobe changes in the separate non-canon LitRPG stream until a ComicPanelPlan/canon revision explicitly authorizes them.
+
+## Active queue after three-route complete-chapter comparison — 2026-09-02
+
+1. Complete a premium cel-painted 50-panel arm under the same eight semantic gates, 15 exact prompt bindings, and three authorized fictional-adult references.
+2. Bind every execution and crop, build full clean/lettered/phone/continuity/triage packets, and extend the route comparison to four complete reading drafts.
+3. Keep r6 as the semantic base. Treat clear-line watercolor as the leading style-development arm because of character/action clarity, not because of its failed density hypothesis.
+4. Build a conservative review-only best-of assembly using only exact semantic PASS candidates; preserve r6 wherever a newer arm regresses or remains ambiguous.
+5. Keep P001 departure, P032 toe/heel direction, P039 simultaneous three-mark framing, and P043 map possession as explicit cross-panel review gates. Do not hide them with style preference.
+6. Keep armor, weapons, monsters, class gear, and wardrobe upgrades in the separate non-canon LitRPG stream until a ComicPanelPlan/canon revision explicitly authorizes them.

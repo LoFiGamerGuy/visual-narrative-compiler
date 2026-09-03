@@ -1,0 +1,62 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "2.5",
+  "record_id": "ng-comic-style-ch05-mill-signal-r16",
+  "state": "R6_SEMANTIC_BASE_CLEAR_LINE_STYLE_LEAD_PREMIUM_CEL_PREFLIGHT",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r15",
+    "path": "production/comic/style-direction/ch05-mill-signal-r15.json",
+    "sha256": "b5d3c8684cdf94a197f51883f41bbd8404c9ca1478c160fc94a04550a473d721"
+  },
+  "selected_engineering_route": "sequence-strip generation, deterministic ComicPanelPlan extraction, variable-cadence clean/lettered phone review, cross-panel semantic audit, and hash-isolated selection or repair",
+  "semantic_base": {
+    "route": "ch05 complete chapter r6",
+    "frozen_panel_local_triage": {"pass": 49, "warn": 1, "fail": 0},
+    "supplemental_cross_panel_triage": {"pass": 47, "warn": 1, "fail": 2},
+    "frozen_evidence_modified": false
+  },
+  "style_development_lead": {
+    "route": "clear-line watercolor r1",
+    "basis": "promising character, contour, value, and causal-action clarity across a complete chapter",
+    "agent_triage": {"pass": 45, "warn": 2, "fail": 3, "gating": false},
+    "hair_and_wardrobe_pass": 50,
+    "transferred_to_pass_vs_alt": ["P029 independent entry roles", "P036 continuous shared leverage", "P041 fully extinguished drum"],
+    "remaining_fail": ["P001 departure direction", "P039 simultaneous three-mark framing", "P043 map possession"],
+    "remaining_warn": ["P003 overlap subtle at phone width", "P032 toe/heel direction partly legible"],
+    "density_hypothesis": "REJECTED_BY_CURRENT_PROXIES"
+  },
+  "three_route_metrics": {
+    "r6": {"edge_density_ge_32": 0.220004, "grayscale_entropy_bits": 6.889241, "png_bytes_per_native_pixel": 1.623124},
+    "alternate_graphic": {"edge_density_ge_32": 0.215718, "grayscale_entropy_bits": 6.837860, "png_bytes_per_native_pixel": 1.608028},
+    "clear_line_watercolor": {"edge_density_ge_32": 0.244026, "grayscale_entropy_bits": 7.025710, "png_bytes_per_native_pixel": 1.698281}
+  },
+  "next_complete_chapter_arm": {
+    "style": "premium cel-painted fantasy-adventure webcomic with bold contours, shaped two-tier cel shadows, selective atmospheric background paint, reduced microtexture, and strong causal silhouettes",
+    "prompt_manifest": "production/comic/run-manifests/ch05-complete-chapter-premium-cel-prompt-manifest-r1.json",
+    "prompt_manifest_sha256": "76cb94aed07418378bc0f032cffd83a47d934657aa36f1aebf5ee74f44fe7199",
+    "sequence_requests": 11,
+    "comic_panel_plans": 50,
+    "planned_reference_uses": 23,
+    "cross_panel_gates": 8,
+    "required_gate_phrase_bindings": 15,
+    "preflight_state": "PASS"
+  },
+  "evidence": [
+    {"path": "docs/research/evidence/ch05-three-route-comparison-r1.json", "sha256": "f28fea4ac1a50a4a1065943cd4fd2b368f1686d12e1f68ed2145cb82f639c5a5"},
+    {"path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json", "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4"},
+    {"path": "docs/research/evidence/ch05-three-route-owner-review-start-r1.json", "sha256": "89d7a2f71c4d94d1131fd157d1465c0d1302225d885deec8dc306c5bf4607058"}
+  ],
+  "lettering": "Use the approved sparse translucent treatment and canonical safe zones; never obscure faces, adult silhouettes, important hands, or causal story objects.",
+  "promotion_boundary": "No route or candidate is owner-accepted, commercially cleared, reproducible, or an exact production base. A future best-of assembly is review-only and may use only measured semantic PASS candidates.",
+  "limitations": [
+    "Style names do not guarantee measured density or pixel compliance.",
+    "Complexity proxies do not measure artistic quality.",
+    "Built-in model, endpoint, provider request ID, usage, monetary cost, and seed remain unavailable.",
+    "Human review minutes and dispositions remain unrecorded for this arm."
+  ],
+  "adrs": ["ADR-0182", "ADR-0183", "ADR-0184", "ADR-0185"]
+}

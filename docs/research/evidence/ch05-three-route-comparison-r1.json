@@ -1,0 +1,1070 @@
+{
+  "record_type": "CH05CompleteChapterThreeRouteComparison",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-three-route-comparison-r1",
+  "state": "ENGINEERING_SELECTION_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json",
+      "sha256": "3c84cf3c6fdb479ad3e32717c684e7d44362977da53e9d3a10659d016cea8677"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-alt-graphic-assembly-r1.json",
+      "sha256": "ddee2123bd7aec8a99719b29c767d4b2e854c2f4dd1339e65c31193cff545e18"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-assembly-r1.json",
+      "sha256": "5b4106aba78b4851b01da58da48319fc30342cb5dd834abb777a7ef6adbc482d"
+    },
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+      "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4"
+    },
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-alt-graphic-agent-triage-r1.json",
+      "sha256": "99271dfa99bc563b01dd1ff812bfbe9209e03e8035902806ad4874a7d8f1603f"
+    },
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+      "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/lettered/ch05-complete-chapter-lettered-phone-390px-r1.png",
+      "sha256": "d1206dd5e2c4821e557122ee397b7c0f83a49559f92bb8ac0d16a31d73b18be8"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/lettered/ch05-complete-chapter-alt-graphic-lettered-r1-phone-390px.png",
+      "sha256": "8a28285e8c8db594128d018400ac2f5ed24547808f823d4abcca64714231cf53"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/lettered/ch05-complete-chapter-clear-line-watercolor-lettered-r1-phone-390px.png",
+      "sha256": "f991cfff42583cbfae0d5db46cb94095336fd3aa2c3ff3f4e894b2dbabb50e81"
+    }
+  ],
+  "coverage": {
+    "routes": 3,
+    "comic_panel_plans_per_route": 50,
+    "paired_panel_ids": 50,
+    "total_panel_candidates_compared": 150
+  },
+  "semantic_counts": {
+    "r6_supplemental": {
+      "pass": 47,
+      "warn": 1,
+      "fail": 2
+    },
+    "alt_graphic": {
+      "pass": 36,
+      "warn": 7,
+      "fail": 7
+    },
+    "clear_line_watercolor": {
+      "pass": 45,
+      "warn": 2,
+      "fail": 3
+    }
+  },
+  "visual_complexity": {
+    "method": "Same 390px/equal-panel entropy, FIND_EDGES>=32 density, and native PNG bytes/pixel definitions as r6-vs-alt comparison.",
+    "aggregate_equal_panel_weight": {
+      "r6": {
+        "grayscale_entropy_bits": 6.889241,
+        "edge_density_ge_32": 0.220004,
+        "png_bytes_per_native_pixel": 1.623124
+      },
+      "alt_graphic": {
+        "grayscale_entropy_bits": 6.83786,
+        "edge_density_ge_32": 0.215718,
+        "png_bytes_per_native_pixel": 1.608028
+      },
+      "clear_line_watercolor": {
+        "grayscale_entropy_bits": 7.02571,
+        "edge_density_ge_32": 0.244026,
+        "png_bytes_per_native_pixel": 1.698281
+      }
+    },
+    "per_panel": [
+      {
+        "panel_id": "ng-ch05-sc01-p001",
+        "r6": {
+          "grayscale_entropy_bits": 7.529431,
+          "edge_density_ge_32": 0.161605,
+          "png_bytes_per_native_pixel": 1.370794
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.554294,
+          "edge_density_ge_32": 0.175258,
+          "png_bytes_per_native_pixel": 1.486919
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.371109,
+          "edge_density_ge_32": 0.175298,
+          "png_bytes_per_native_pixel": 1.490205
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p002",
+        "r6": {
+          "grayscale_entropy_bits": 6.887419,
+          "edge_density_ge_32": 0.180148,
+          "png_bytes_per_native_pixel": 1.579905
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.410972,
+          "edge_density_ge_32": 0.21667,
+          "png_bytes_per_native_pixel": 1.651537
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.522235,
+          "edge_density_ge_32": 0.207178,
+          "png_bytes_per_native_pixel": 1.618233
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p003",
+        "r6": {
+          "grayscale_entropy_bits": 6.385027,
+          "edge_density_ge_32": 0.307473,
+          "png_bytes_per_native_pixel": 1.867296
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.774366,
+          "edge_density_ge_32": 0.319181,
+          "png_bytes_per_native_pixel": 1.899971
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.946618,
+          "edge_density_ge_32": 0.341087,
+          "png_bytes_per_native_pixel": 1.952329
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p004",
+        "r6": {
+          "grayscale_entropy_bits": 7.091964,
+          "edge_density_ge_32": 0.216917,
+          "png_bytes_per_native_pixel": 1.623538
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.145248,
+          "edge_density_ge_32": 0.215461,
+          "png_bytes_per_native_pixel": 1.58489
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.319969,
+          "edge_density_ge_32": 0.211937,
+          "png_bytes_per_native_pixel": 1.647352
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p005",
+        "r6": {
+          "grayscale_entropy_bits": 6.500197,
+          "edge_density_ge_32": 0.321029,
+          "png_bytes_per_native_pixel": 1.893313
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.496625,
+          "edge_density_ge_32": 0.332977,
+          "png_bytes_per_native_pixel": 1.904235
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.892623,
+          "edge_density_ge_32": 0.33898,
+          "png_bytes_per_native_pixel": 1.926016
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p006",
+        "r6": {
+          "grayscale_entropy_bits": 7.579632,
+          "edge_density_ge_32": 0.209994,
+          "png_bytes_per_native_pixel": 1.585546
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.456982,
+          "edge_density_ge_32": 0.274807,
+          "png_bytes_per_native_pixel": 1.814369
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.694973,
+          "edge_density_ge_32": 0.252979,
+          "png_bytes_per_native_pixel": 1.774499
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p007",
+        "r6": {
+          "grayscale_entropy_bits": 7.26212,
+          "edge_density_ge_32": 0.250544,
+          "png_bytes_per_native_pixel": 1.733237
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.829161,
+          "edge_density_ge_32": 0.254126,
+          "png_bytes_per_native_pixel": 1.751712
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.977556,
+          "edge_density_ge_32": 0.291371,
+          "png_bytes_per_native_pixel": 1.940803
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p008",
+        "r6": {
+          "grayscale_entropy_bits": 6.910727,
+          "edge_density_ge_32": 0.199626,
+          "png_bytes_per_native_pixel": 1.600126
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.976157,
+          "edge_density_ge_32": 0.18599,
+          "png_bytes_per_native_pixel": 1.564296
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.556126,
+          "edge_density_ge_32": 0.192594,
+          "png_bytes_per_native_pixel": 1.64309
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p009",
+        "r6": {
+          "grayscale_entropy_bits": 6.507436,
+          "edge_density_ge_32": 0.268421,
+          "png_bytes_per_native_pixel": 1.80356
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.498054,
+          "edge_density_ge_32": 0.284271,
+          "png_bytes_per_native_pixel": 1.855534
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.555159,
+          "edge_density_ge_32": 0.296944,
+          "png_bytes_per_native_pixel": 1.906248
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p010",
+        "r6": {
+          "grayscale_entropy_bits": 6.440278,
+          "edge_density_ge_32": 0.16926,
+          "png_bytes_per_native_pixel": 1.390128
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.317447,
+          "edge_density_ge_32": 0.194936,
+          "png_bytes_per_native_pixel": 1.524855
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.01487,
+          "edge_density_ge_32": 0.181479,
+          "png_bytes_per_native_pixel": 1.457882
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p011",
+        "r6": {
+          "grayscale_entropy_bits": 6.583301,
+          "edge_density_ge_32": 0.153792,
+          "png_bytes_per_native_pixel": 1.433404
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.311739,
+          "edge_density_ge_32": 0.128914,
+          "png_bytes_per_native_pixel": 1.381591
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.466565,
+          "edge_density_ge_32": 0.187677,
+          "png_bytes_per_native_pixel": 1.475727
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p012",
+        "r6": {
+          "grayscale_entropy_bits": 6.366529,
+          "edge_density_ge_32": 0.287748,
+          "png_bytes_per_native_pixel": 1.799267
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.444247,
+          "edge_density_ge_32": 0.279885,
+          "png_bytes_per_native_pixel": 1.667462
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.792643,
+          "edge_density_ge_32": 0.306011,
+          "png_bytes_per_native_pixel": 1.840406
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p013",
+        "r6": {
+          "grayscale_entropy_bits": 6.769353,
+          "edge_density_ge_32": 0.284545,
+          "png_bytes_per_native_pixel": 1.843965
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.62983,
+          "edge_density_ge_32": 0.283597,
+          "png_bytes_per_native_pixel": 1.857943
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.508369,
+          "edge_density_ge_32": 0.268493,
+          "png_bytes_per_native_pixel": 1.801897
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p014",
+        "r6": {
+          "grayscale_entropy_bits": 6.772869,
+          "edge_density_ge_32": 0.087376,
+          "png_bytes_per_native_pixel": 1.234611
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.239116,
+          "edge_density_ge_32": 0.088795,
+          "png_bytes_per_native_pixel": 1.194498
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.54488,
+          "edge_density_ge_32": 0.126657,
+          "png_bytes_per_native_pixel": 1.363105
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p015",
+        "r6": {
+          "grayscale_entropy_bits": 7.096997,
+          "edge_density_ge_32": 0.233016,
+          "png_bytes_per_native_pixel": 1.811133
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.087656,
+          "edge_density_ge_32": 0.1774,
+          "png_bytes_per_native_pixel": 1.630078
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.143432,
+          "edge_density_ge_32": 0.234659,
+          "png_bytes_per_native_pixel": 1.733618
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p016",
+        "r6": {
+          "grayscale_entropy_bits": 7.315579,
+          "edge_density_ge_32": 0.217031,
+          "png_bytes_per_native_pixel": 1.611346
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.293719,
+          "edge_density_ge_32": 0.216527,
+          "png_bytes_per_native_pixel": 1.604839
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.421517,
+          "edge_density_ge_32": 0.212166,
+          "png_bytes_per_native_pixel": 1.604751
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p017",
+        "r6": {
+          "grayscale_entropy_bits": 7.34358,
+          "edge_density_ge_32": 0.277155,
+          "png_bytes_per_native_pixel": 1.819922
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.154166,
+          "edge_density_ge_32": 0.23001,
+          "png_bytes_per_native_pixel": 1.623765
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.260264,
+          "edge_density_ge_32": 0.251607,
+          "png_bytes_per_native_pixel": 1.71047
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p018",
+        "r6": {
+          "grayscale_entropy_bits": 7.167368,
+          "edge_density_ge_32": 0.196998,
+          "png_bytes_per_native_pixel": 1.547318
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.171687,
+          "edge_density_ge_32": 0.18171,
+          "png_bytes_per_native_pixel": 1.443579
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.513216,
+          "edge_density_ge_32": 0.127759,
+          "png_bytes_per_native_pixel": 1.292729
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p019",
+        "r6": {
+          "grayscale_entropy_bits": 7.365527,
+          "edge_density_ge_32": 0.274094,
+          "png_bytes_per_native_pixel": 1.789379
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.447372,
+          "edge_density_ge_32": 0.273527,
+          "png_bytes_per_native_pixel": 1.765025
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.417988,
+          "edge_density_ge_32": 0.264935,
+          "png_bytes_per_native_pixel": 1.745168
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p020",
+        "r6": {
+          "grayscale_entropy_bits": 6.853339,
+          "edge_density_ge_32": 0.294091,
+          "png_bytes_per_native_pixel": 1.909644
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.609095,
+          "edge_density_ge_32": 0.284601,
+          "png_bytes_per_native_pixel": 1.85561
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.912242,
+          "edge_density_ge_32": 0.321831,
+          "png_bytes_per_native_pixel": 1.940493
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p021",
+        "r6": {
+          "grayscale_entropy_bits": 6.201638,
+          "edge_density_ge_32": 0.086296,
+          "png_bytes_per_native_pixel": 1.131086
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.070383,
+          "edge_density_ge_32": 0.08113,
+          "png_bytes_per_native_pixel": 1.196781
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.638555,
+          "edge_density_ge_32": 0.113737,
+          "png_bytes_per_native_pixel": 1.392648
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p022",
+        "r6": {
+          "grayscale_entropy_bits": 7.107029,
+          "edge_density_ge_32": 0.159185,
+          "png_bytes_per_native_pixel": 1.43591
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.601128,
+          "edge_density_ge_32": 0.153942,
+          "png_bytes_per_native_pixel": 1.439414
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.027484,
+          "edge_density_ge_32": 0.183442,
+          "png_bytes_per_native_pixel": 1.570012
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p023",
+        "r6": {
+          "grayscale_entropy_bits": 6.927871,
+          "edge_density_ge_32": 0.271682,
+          "png_bytes_per_native_pixel": 1.776328
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.943565,
+          "edge_density_ge_32": 0.272996,
+          "png_bytes_per_native_pixel": 1.766121
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.068235,
+          "edge_density_ge_32": 0.28856,
+          "png_bytes_per_native_pixel": 1.835663
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p024",
+        "r6": {
+          "grayscale_entropy_bits": 6.289313,
+          "edge_density_ge_32": 0.212862,
+          "png_bytes_per_native_pixel": 1.554867
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.744919,
+          "edge_density_ge_32": 0.205313,
+          "png_bytes_per_native_pixel": 1.562208
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.732476,
+          "edge_density_ge_32": 0.245486,
+          "png_bytes_per_native_pixel": 1.659598
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p025",
+        "r6": {
+          "grayscale_entropy_bits": 6.378035,
+          "edge_density_ge_32": 0.270619,
+          "png_bytes_per_native_pixel": 1.779583
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.261413,
+          "edge_density_ge_32": 0.256351,
+          "png_bytes_per_native_pixel": 1.770051
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.047417,
+          "edge_density_ge_32": 0.260609,
+          "png_bytes_per_native_pixel": 1.791884
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p026",
+        "r6": {
+          "grayscale_entropy_bits": 6.823261,
+          "edge_density_ge_32": 0.17077,
+          "png_bytes_per_native_pixel": 1.373848
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.299304,
+          "edge_density_ge_32": 0.163418,
+          "png_bytes_per_native_pixel": 1.443734
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.682613,
+          "edge_density_ge_32": 0.204072,
+          "png_bytes_per_native_pixel": 1.532506
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p027",
+        "r6": {
+          "grayscale_entropy_bits": 6.998189,
+          "edge_density_ge_32": 0.212355,
+          "png_bytes_per_native_pixel": 1.557633
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.623279,
+          "edge_density_ge_32": 0.217318,
+          "png_bytes_per_native_pixel": 1.525315
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.934509,
+          "edge_density_ge_32": 0.264724,
+          "png_bytes_per_native_pixel": 1.696064
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p028",
+        "r6": {
+          "grayscale_entropy_bits": 6.069794,
+          "edge_density_ge_32": 0.161923,
+          "png_bytes_per_native_pixel": 1.380279
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 5.834015,
+          "edge_density_ge_32": 0.151706,
+          "png_bytes_per_native_pixel": 1.209941
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.670293,
+          "edge_density_ge_32": 0.217231,
+          "png_bytes_per_native_pixel": 1.515685
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p029",
+        "r6": {
+          "grayscale_entropy_bits": 7.028003,
+          "edge_density_ge_32": 0.271161,
+          "png_bytes_per_native_pixel": 1.723135
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.703529,
+          "edge_density_ge_32": 0.24512,
+          "png_bytes_per_native_pixel": 1.681003
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.137363,
+          "edge_density_ge_32": 0.276725,
+          "png_bytes_per_native_pixel": 1.799963
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p030",
+        "r6": {
+          "grayscale_entropy_bits": 6.286061,
+          "edge_density_ge_32": 0.239064,
+          "png_bytes_per_native_pixel": 1.685851
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.271717,
+          "edge_density_ge_32": 0.191897,
+          "png_bytes_per_native_pixel": 1.521243
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.448168,
+          "edge_density_ge_32": 0.245573,
+          "png_bytes_per_native_pixel": 1.721055
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p031",
+        "r6": {
+          "grayscale_entropy_bits": 6.840773,
+          "edge_density_ge_32": 0.224937,
+          "png_bytes_per_native_pixel": 1.59322
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.874394,
+          "edge_density_ge_32": 0.2247,
+          "png_bytes_per_native_pixel": 1.644488
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.683112,
+          "edge_density_ge_32": 0.259376,
+          "png_bytes_per_native_pixel": 1.73806
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p032",
+        "r6": {
+          "grayscale_entropy_bits": 6.641608,
+          "edge_density_ge_32": 0.191153,
+          "png_bytes_per_native_pixel": 1.463079
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.554252,
+          "edge_density_ge_32": 0.208214,
+          "png_bytes_per_native_pixel": 1.625377
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.835551,
+          "edge_density_ge_32": 0.258156,
+          "png_bytes_per_native_pixel": 1.727415
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p033",
+        "r6": {
+          "grayscale_entropy_bits": 6.217217,
+          "edge_density_ge_32": 0.177445,
+          "png_bytes_per_native_pixel": 1.399126
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.740576,
+          "edge_density_ge_32": 0.201995,
+          "png_bytes_per_native_pixel": 1.570524
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.032563,
+          "edge_density_ge_32": 0.257335,
+          "png_bytes_per_native_pixel": 1.634918
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p034",
+        "r6": {
+          "grayscale_entropy_bits": 6.344256,
+          "edge_density_ge_32": 0.224902,
+          "png_bytes_per_native_pixel": 1.655604
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.37558,
+          "edge_density_ge_32": 0.16646,
+          "png_bytes_per_native_pixel": 1.479999
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.608384,
+          "edge_density_ge_32": 0.236086,
+          "png_bytes_per_native_pixel": 1.664642
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p035",
+        "r6": {
+          "grayscale_entropy_bits": 6.860224,
+          "edge_density_ge_32": 0.27851,
+          "png_bytes_per_native_pixel": 1.814856
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.179349,
+          "edge_density_ge_32": 0.248112,
+          "png_bytes_per_native_pixel": 1.836461
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.960081,
+          "edge_density_ge_32": 0.292138,
+          "png_bytes_per_native_pixel": 1.936903
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p036",
+        "r6": {
+          "grayscale_entropy_bits": 7.368218,
+          "edge_density_ge_32": 0.249285,
+          "png_bytes_per_native_pixel": 1.731722
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.631437,
+          "edge_density_ge_32": 0.26726,
+          "png_bytes_per_native_pixel": 1.785062
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.483946,
+          "edge_density_ge_32": 0.297257,
+          "png_bytes_per_native_pixel": 1.904105
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p037",
+        "r6": {
+          "grayscale_entropy_bits": 7.338868,
+          "edge_density_ge_32": 0.336228,
+          "png_bytes_per_native_pixel": 2.04847
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.185709,
+          "edge_density_ge_32": 0.277602,
+          "png_bytes_per_native_pixel": 1.862281
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.145529,
+          "edge_density_ge_32": 0.301158,
+          "png_bytes_per_native_pixel": 1.950955
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p038",
+        "r6": {
+          "grayscale_entropy_bits": 6.855534,
+          "edge_density_ge_32": 0.37983,
+          "png_bytes_per_native_pixel": 2.075141
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 5.966947,
+          "edge_density_ge_32": 0.310005,
+          "png_bytes_per_native_pixel": 1.890007
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.89244,
+          "edge_density_ge_32": 0.321266,
+          "png_bytes_per_native_pixel": 1.958872
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p039",
+        "r6": {
+          "grayscale_entropy_bits": 7.169994,
+          "edge_density_ge_32": 0.233823,
+          "png_bytes_per_native_pixel": 1.715241
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.172025,
+          "edge_density_ge_32": 0.239272,
+          "png_bytes_per_native_pixel": 1.726618
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.260823,
+          "edge_density_ge_32": 0.320655,
+          "png_bytes_per_native_pixel": 1.984597
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p040",
+        "r6": {
+          "grayscale_entropy_bits": 6.526067,
+          "edge_density_ge_32": 0.100845,
+          "png_bytes_per_native_pixel": 1.287235
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.094515,
+          "edge_density_ge_32": 0.14194,
+          "png_bytes_per_native_pixel": 1.352369
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.053622,
+          "edge_density_ge_32": 0.168622,
+          "png_bytes_per_native_pixel": 1.470693
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p041",
+        "r6": {
+          "grayscale_entropy_bits": 6.981587,
+          "edge_density_ge_32": 0.180362,
+          "png_bytes_per_native_pixel": 1.429361
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.186549,
+          "edge_density_ge_32": 0.205443,
+          "png_bytes_per_native_pixel": 1.551158
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.135653,
+          "edge_density_ge_32": 0.285901,
+          "png_bytes_per_native_pixel": 1.724514
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p042",
+        "r6": {
+          "grayscale_entropy_bits": 6.613505,
+          "edge_density_ge_32": 0.181885,
+          "png_bytes_per_native_pixel": 1.513514
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.506462,
+          "edge_density_ge_32": 0.160722,
+          "png_bytes_per_native_pixel": 1.398001
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.072107,
+          "edge_density_ge_32": 0.264939,
+          "png_bytes_per_native_pixel": 1.65911
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p043",
+        "r6": {
+          "grayscale_entropy_bits": 6.979021,
+          "edge_density_ge_32": 0.188408,
+          "png_bytes_per_native_pixel": 1.574294
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.454148,
+          "edge_density_ge_32": 0.19433,
+          "png_bytes_per_native_pixel": 1.602268
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.792653,
+          "edge_density_ge_32": 0.262776,
+          "png_bytes_per_native_pixel": 1.782163
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p044",
+        "r6": {
+          "grayscale_entropy_bits": 6.860717,
+          "edge_density_ge_32": 0.159381,
+          "png_bytes_per_native_pixel": 1.546181
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.879564,
+          "edge_density_ge_32": 0.209872,
+          "png_bytes_per_native_pixel": 1.592774
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.062559,
+          "edge_density_ge_32": 0.230752,
+          "png_bytes_per_native_pixel": 1.548043
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p045",
+        "r6": {
+          "grayscale_entropy_bits": 7.303973,
+          "edge_density_ge_32": 0.187043,
+          "png_bytes_per_native_pixel": 1.504963
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.672879,
+          "edge_density_ge_32": 0.200634,
+          "png_bytes_per_native_pixel": 1.481021
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.151643,
+          "edge_density_ge_32": 0.239269,
+          "png_bytes_per_native_pixel": 1.641088
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p046",
+        "r6": {
+          "grayscale_entropy_bits": 7.021828,
+          "edge_density_ge_32": 0.152096,
+          "png_bytes_per_native_pixel": 1.467238
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 6.730032,
+          "edge_density_ge_32": 0.174269,
+          "png_bytes_per_native_pixel": 1.478883
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 6.990161,
+          "edge_density_ge_32": 0.175491,
+          "png_bytes_per_native_pixel": 1.5097
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p047",
+        "r6": {
+          "grayscale_entropy_bits": 7.265213,
+          "edge_density_ge_32": 0.184177,
+          "png_bytes_per_native_pixel": 1.553926
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.228198,
+          "edge_density_ge_32": 0.205984,
+          "png_bytes_per_native_pixel": 1.545872
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.221428,
+          "edge_density_ge_32": 0.223256,
+          "png_bytes_per_native_pixel": 1.59855
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p048",
+        "r6": {
+          "grayscale_entropy_bits": 7.576303,
+          "edge_density_ge_32": 0.211835,
+          "png_bytes_per_native_pixel": 1.597627
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.476193,
+          "edge_density_ge_32": 0.163255,
+          "png_bytes_per_native_pixel": 1.433436
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.467937,
+          "edge_density_ge_32": 0.191094,
+          "png_bytes_per_native_pixel": 1.537379
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p049",
+        "r6": {
+          "grayscale_entropy_bits": 7.457716,
+          "edge_density_ge_32": 0.247929,
+          "png_bytes_per_native_pixel": 1.751212
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.453576,
+          "edge_density_ge_32": 0.212328,
+          "png_bytes_per_native_pixel": 1.666312
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.675157,
+          "edge_density_ge_32": 0.240685,
+          "png_bytes_per_native_pixel": 1.706688
+        }
+      },
+      {
+        "panel_id": "ng-ch05-sc01-p050",
+        "r6": {
+          "grayscale_entropy_bits": 7.401577,
+          "edge_density_ge_32": 0.263324,
+          "png_bytes_per_native_pixel": 1.788232
+        },
+        "alt_graphic": {
+          "grayscale_entropy_bits": 7.329439,
+          "edge_density_ge_32": 0.235663,
+          "png_bytes_per_native_pixel": 1.699957
+        },
+        "clear_line_watercolor": {
+          "grayscale_entropy_bits": 7.540692,
+          "edge_density_ge_32": 0.283307,
+          "png_bytes_per_native_pixel": 1.855538
+        }
+      }
+    ],
+    "interpretation": "Style proxies support comparison only; they do not measure quality."
+  },
+  "gate_transfer": {
+    "clear_line_watercolor": {
+      "improved_to_pass_vs_alt": [
+        "independent_entry_roles",
+        "continuous_leverage_force_path",
+        "drum_fully_out"
+      ],
+      "still_fail_or_partial": [
+        "departure_vector",
+        "impossible_far_bank_prints",
+        "third_upstream_mark",
+        "map_possession"
+      ]
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "route": "r6_plus_cross_panel_gates",
+      "reason": "Lowest measured semantic failure/warning burden and strongest existing causal assembly."
+    },
+    {
+      "rank": 2,
+      "route": "clear_line_watercolor",
+      "reason": "Strongest style-development arm and large semantic improvement over alternate; still three blocking failures."
+    },
+    {
+      "rank": 3,
+      "route": "alt_graphic",
+      "reason": "Stable identity but non-separating density and seven failures."
+    }
+  ],
+  "recommendation": {
+    "production_mechanism": "sequence-strip generation plus deterministic panel extraction, variable-cadence assembly, phone/lettering review, and hash-isolated selection/repair",
+    "current_base": "r6",
+    "leading_style_direction": "clear_line_watercolor",
+    "next_high_information_step": "owner review of full clear-line chapter and exact anchor comparisons, then a panel-addressable hybrid assembly using only explicitly advanced panels",
+    "appearance_only_selection": false
+  },
+  "artifacts": {
+    "all_50_triples": {
+      "path": "experiments/review-packets/ch05-three-route-comparison-r1/ch05-three-route-all-50-contact-sheet.png",
+      "sha256": "7fe16041a2e9c8d31db4986cefee52ac0527f7ab69f6c463c185eb185912171a",
+      "width": 1796,
+      "height": 3240,
+      "bytes": 2578993,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    "semantic_anchors": {
+      "path": "experiments/review-packets/ch05-three-route-comparison-r1/ch05-three-route-semantic-anchors.png",
+      "sha256": "a7b1f43a8348609aaa37ff9f33c1fd22ffcfe0067bc8d355783e2f47c3b202dc",
+      "width": 1368,
+      "height": 3932,
+      "bytes": 4426116,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    "lettered_phone_comparison": {
+      "path": "experiments/review-packets/ch05-three-route-comparison-r1/ch05-three-route-lettered-phone-comparison.png",
+      "sha256": "048e59b5634c419ad1a18972dfa5188c986b86dbb50ad544a5fc6421f79ea68f",
+      "width": 1246,
+      "height": 9074,
+      "bytes": 11512160,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    }
+  },
+  "spend": {
+    "direct_paid_api_cloud_usd": 0.0,
+    "built_in_product_monetary_cost_usd": null
+  },
+  "limitations": [
+    "Agent triage is non-gating.",
+    "The r6 supplemental audit does not rewrite frozen evidence.",
+    "Prompt gates do not prove pixel compliance.",
+    "No route or panel is accepted, commercially cleared, or an exact production base."
+  ],
+  "boundary": "Engineering recommendation only; owner disposition and rights remain separate."
+}

@@ -1,0 +1,319 @@
+{
+  "record_type": "CH05ThreeRouteOwnerReviewStart",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-three-route-owner-review-start-r1",
+  "state": "OWNER_REVIEW_READY_NO_DECISIONS_RECORDED",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-assembly-r1.json",
+      "sha256": "5b4106aba78b4851b01da58da48319fc30342cb5dd834abb777a7ef6adbc482d"
+    },
+    {
+      "path": "docs/research/evidence/ch05-three-route-comparison-r1.json",
+      "sha256": "f28fea4ac1a50a4a1065943cd4fd2b368f1686d12e1f68ed2145cb82f639c5a5"
+    },
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+      "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4"
+    }
+  ],
+  "summary": {
+    "complete_chapter_routes": 3,
+    "panels_per_route": 50,
+    "new_complete_chapter_arms": 2,
+    "new_sequence_outputs": 22,
+    "new_panel_crops": 100,
+    "review_artifacts": 13,
+    "strong_clear_line_candidates": 12,
+    "clear_line_triage": {
+      "pass": 45,
+      "warn": 2,
+      "fail": 3
+    },
+    "direct_paid_api_cloud_spend_usd": 0.0,
+    "built_in_product_cost_usd": null,
+    "human_reviewed": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "exact_production_base": 0
+  },
+  "review_order": [
+    "clear_line_lettered_phone",
+    "clear_line_triage",
+    "three_route_anchors",
+    "three_route_phone",
+    "clear_line_continuity",
+    "clear_line_safe_contact",
+    "three_route_all_50"
+  ],
+  "artifacts": [
+    {
+      "kind": "clear_line_lettered_phone",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/lettered/ch05-complete-chapter-clear-line-watercolor-lettered-r1-phone-390px.png",
+      "sha256": "f991cfff42583cbfae0d5db46cb94095336fd3aa2c3ff3f4e894b2dbabb50e81",
+      "width": 390,
+      "height": 7917,
+      "bytes": 3646960,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "clear_line_contact",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/review/ch05-complete-chapter-contact-sheet.png",
+      "sha256": "bbff1b5caf7a19d9b90f4331f715ee7440498b479bb38d9687d69789d8c90638",
+      "width": 1612,
+      "height": 4158,
+      "bytes": 3802665,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "clear_line_triage",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/review/ch05-complete-chapter-clear-line-watercolor-triage-sheet.png",
+      "sha256": "de20d29268603693c69ccaef4e8385c6d6a96bd7e08d55356d1dcdbe26e1ef0d",
+      "width": 1604,
+      "height": 2790,
+      "bytes": 3524236,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "clear_line_continuity",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/review/ch05-complete-chapter-clear-line-watercolor-continuity-sheet.png",
+      "sha256": "148b20c7dd638f062f888d9030d8fb1fe35a12608063a37d97f8c840eb9ec00c",
+      "width": 1456,
+      "height": 2648,
+      "bytes": 3172850,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "clear_line_safe_contact",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/review/ch05-complete-chapter-contact-sheet-lettering-overlay.png",
+      "sha256": "a7ff72a57cc1cdc3a1f3388566cde79d6673f7d69c3ce41621ecff95620feacf",
+      "width": 1612,
+      "height": 4158,
+      "bytes": 3795287,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "clear_line_clean_phone",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/review/ch05-complete-chapter-phone-390px.png",
+      "sha256": "a6a5675828fd9e0c9c36b71392b32706f027713681a457bf2028765aa6fad2d3",
+      "width": 390,
+      "height": 7917,
+      "bytes": 3617482,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "clear_line_lettered_full",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/lettered/ch05-complete-chapter-clear-line-watercolor-lettered-r1.png",
+      "sha256": "5c8de8498959adbb3deffbf9635092dbfa5d1aed6402647648f6a4b291a5cba2",
+      "width": 1200,
+      "height": 24361,
+      "bytes": 29994460,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "three_route_phone",
+      "path": "experiments/review-packets/ch05-three-route-comparison-r1/ch05-three-route-lettered-phone-comparison.png",
+      "sha256": "048e59b5634c419ad1a18972dfa5188c986b86dbb50ad544a5fc6421f79ea68f",
+      "width": 1246,
+      "height": 9074,
+      "bytes": 11512160,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "three_route_all_50",
+      "path": "experiments/review-packets/ch05-three-route-comparison-r1/ch05-three-route-all-50-contact-sheet.png",
+      "sha256": "7fe16041a2e9c8d31db4986cefee52ac0527f7ab69f6c463c185eb185912171a",
+      "width": 1796,
+      "height": 3240,
+      "bytes": 2578993,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "three_route_anchors",
+      "path": "experiments/review-packets/ch05-three-route-comparison-r1/ch05-three-route-semantic-anchors.png",
+      "sha256": "a7b1f43a8348609aaa37ff9f33c1fd22ffcfe0067bc8d355783e2f47c3b202dc",
+      "width": 1368,
+      "height": 3932,
+      "bytes": 4426116,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "alt_lettered_phone",
+      "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/lettered/ch05-complete-chapter-alt-graphic-lettered-r1-phone-390px.png",
+      "sha256": "8a28285e8c8db594128d018400ac2f5ed24547808f823d4abcca64714231cf53",
+      "width": 390,
+      "height": 8008,
+      "bytes": 3535653,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "alt_triage",
+      "path": "experiments/review-packets/ch05-complete-chapter-alt-graphic-r1/review/ch05-complete-chapter-alt-graphic-triage-sheet.png",
+      "sha256": "aa76b0d3a9f160b07dedd26123eccaf31e7478ab8ba37e5c57d4e90a1dc20a44",
+      "width": 1604,
+      "height": 2790,
+      "bytes": 3395138,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "kind": "r6_lettered_phone",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/lettered/ch05-complete-chapter-lettered-phone-390px-r1.png",
+      "sha256": "d1206dd5e2c4821e557122ee397b7c0f83a49559f92bb8ac0d16a31d73b18be8",
+      "width": 390,
+      "height": 8982,
+      "bytes": 4137683,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    }
+  ],
+  "strongest_clear_line_candidates": [
+    {
+      "panel_id": "ng-ch05-sc01-p002",
+      "candidate_id": "clear-line-watercolor-r1-p002",
+      "kind": "clear_line_p002",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p002-clear-line-watercolor-r1.png",
+      "sha256": "debe43f3d55907b94c43af160a107bd0b74097dd51ba7d5ac21fa685506bd3d1",
+      "width": 841,
+      "height": 379,
+      "bytes": 515794,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p006",
+      "candidate_id": "clear-line-watercolor-r1-p006",
+      "kind": "clear_line_p006",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p006-clear-line-watercolor-r1.png",
+      "sha256": "91995b6dc8c97c8c3fd5e10a919dcfee0279d4f6bb4db883774eb8177d464ffa",
+      "width": 842,
+      "height": 461,
+      "bytes": 688793,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p010",
+      "candidate_id": "clear-line-watercolor-r1-p010",
+      "kind": "clear_line_p010",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p010-clear-line-watercolor-r1.png",
+      "sha256": "347a6c418f9f3b8c66fd6662fbd98914436326a6db9740febc1b092948771e88",
+      "width": 841,
+      "height": 406,
+      "bytes": 497788,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p017",
+      "candidate_id": "clear-line-watercolor-r1-p017",
+      "kind": "clear_line_p017",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p017-clear-line-watercolor-r1.png",
+      "sha256": "e6af37e2a144e10accc34445809ab3f644bdffad6081cdb0ab8a3a57f8c8d4a5",
+      "width": 853,
+      "height": 358,
+      "bytes": 522333,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p019",
+      "candidate_id": "clear-line-watercolor-r1-p019",
+      "kind": "clear_line_p019",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p019-clear-line-watercolor-r1.png",
+      "sha256": "14ef3d6d4b9256f1ef9d6a1358ef56a37ad6458b53441cca78691de5599c2542",
+      "width": 853,
+      "height": 430,
+      "bytes": 640110,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p020",
+      "candidate_id": "clear-line-watercolor-r1-p020",
+      "kind": "clear_line_p020",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p020-clear-line-watercolor-r1.png",
+      "sha256": "91c81e3e4c741fd6f27f8a0b909707083a1702fb80dcbb11f33f02d3eb8e29bd",
+      "width": 830,
+      "height": 463,
+      "bytes": 745712,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p029",
+      "candidate_id": "clear-line-watercolor-r1-p029",
+      "kind": "clear_line_p029",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p029-clear-line-watercolor-r1.png",
+      "sha256": "cc3ae9decf5bfd276b68db48a19965ff9d1a0d499a1a52cea9194d8294f9f8d7",
+      "width": 795,
+      "height": 441,
+      "bytes": 631058,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p036",
+      "candidate_id": "clear-line-watercolor-r1-p036",
+      "kind": "clear_line_p036",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p036-clear-line-watercolor-r1.png",
+      "sha256": "a1b0d0a3ca89c2fb05533c9e575bb7a72b93d29677c7559c632df31125168dd5",
+      "width": 852,
+      "height": 571,
+      "bytes": 926332,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p041",
+      "candidate_id": "clear-line-watercolor-r1-p041",
+      "kind": "clear_line_p041",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p041-clear-line-watercolor-r1.png",
+      "sha256": "2381983228a11d484a27f05d17c6bfe5974d6adf394f9e0d35b16495a2b6870d",
+      "width": 831,
+      "height": 366,
+      "bytes": 524504,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p044",
+      "candidate_id": "clear-line-watercolor-r1-p044",
+      "kind": "clear_line_p044",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p044-clear-line-watercolor-r1.png",
+      "sha256": "147b1acbba57e4c8efd3f31bdc9c2c5793a42b11bcb150560a78a46044002597",
+      "width": 831,
+      "height": 373,
+      "bytes": 479836,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p048",
+      "candidate_id": "clear-line-watercolor-r1-p048",
+      "kind": "clear_line_p048",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p048-clear-line-watercolor-r1.png",
+      "sha256": "635d239041c34cadfae8d41af51beac0ba0a6f74fd1902f37551fc0358e3a72a",
+      "width": 853,
+      "height": 533,
+      "bytes": 698968,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p050",
+      "candidate_id": "clear-line-watercolor-r1-p050",
+      "kind": "clear_line_p050",
+      "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p050-clear-line-watercolor-r1.png",
+      "sha256": "5fc483b72100bff91266370f83711635fec4933e6594b2aeec37efc996485110",
+      "width": 853,
+      "height": 743,
+      "bytes": 1176001,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT"
+    }
+  ],
+  "recommendations": [
+    "Use r6 as the current semantic base.",
+    "Use clear-line watercolor as the leading style-development arm.",
+    "Do not promote alternate graphic wholesale.",
+    "Resolve P001 departure, P039 three-mark composition, and P043 map possession before a clear-line production-base decision."
+  ],
+  "owner_decisions": {
+    "visual_dispositions": null,
+    "canon_revisions": null,
+    "commercial_clearance": null,
+    "exact_production_base": null
+  },
+  "boundary": "Review navigation only; no visual, canon, rights, acceptance, or exact-base decision is inferred."
+}

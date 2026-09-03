@@ -1,0 +1,865 @@
+{
+  "record_type": "CH05SequenceStripCropManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-complete-chapter-clear-line-watercolor-crops-r1",
+  "state": "HASH_PINNED_LOCAL_DERIVATIVE_PLAN_UNACCEPTED",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "comic_panel_plan_source": {
+    "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+  },
+  "execution_manifest": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-execution-manifest-r1.json",
+    "sha256": "d06bdeeb9e756944665966f49ab3f3b2a94871ac5fc15935544a2ec6d1a45aec"
+  },
+  "output_filename_template": "p{panel_number:03d}-clear-line-watercolor-r1.png",
+  "summary": {
+    "sequence_sources": 11,
+    "planned_crops": 50,
+    "complete_plan_coverage": true,
+    "deterministic_gutter_detection": true
+  },
+  "sequences": [
+    {
+      "sequence_id": "s01-opening-departure",
+      "execution_sequence_id": "clear-line-watercolor-s01-opening-departure",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s01-opening-departure-clear-line-watercolor-r1.png",
+        "sha256": "0bf88d9e50846a486d1dace27883a78d32c98096a78daa76f29f8396d58807c5",
+        "width": 841,
+        "height": 1870,
+        "bytes": 2717682
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            418,
+            420
+          ],
+          [
+            800,
+            803
+          ],
+          [
+            1143,
+            1144
+          ],
+          [
+            1504,
+            1506
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p001",
+          "box": [
+            0,
+            3,
+            841,
+            418
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p002",
+          "box": [
+            0,
+            421,
+            841,
+            800
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p003",
+          "box": [
+            0,
+            804,
+            841,
+            1143
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p004",
+          "box": [
+            0,
+            1145,
+            841,
+            1504
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p005",
+          "box": [
+            0,
+            1507,
+            841,
+            1865
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s02-runnel-marker-trail",
+      "execution_sequence_id": "clear-line-watercolor-s02-runnel-marker-trail",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s02-runnel-marker-trail-clear-line-watercolor-r1.png",
+        "sha256": "8d7501f600b9846e160d52d0d9bf5c6c9ce066b12a7870d19d4078204e79009e",
+        "width": 842,
+        "height": 1868,
+        "bytes": 2866301
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            467,
+            471
+          ],
+          [
+            932,
+            936
+          ],
+          [
+            1398,
+            1402
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p006",
+          "box": [
+            0,
+            6,
+            842,
+            467
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p007",
+          "box": [
+            0,
+            472,
+            842,
+            932
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p008",
+          "box": [
+            0,
+            937,
+            842,
+            1398
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p009",
+          "box": [
+            0,
+            1403,
+            842,
+            1861
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s03-listening-twine-ridge",
+      "execution_sequence_id": "clear-line-watercolor-s03-listening-twine-ridge",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s03-listening-twine-ridge-clear-line-watercolor-r1.png",
+        "sha256": "4d95a014db3d93a92435e7f32cce5e2384403e438b0bed156fab8ffcbdc16ed3",
+        "width": 841,
+        "height": 1870,
+        "bytes": 2492997
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            412,
+            419
+          ],
+          [
+            792,
+            798
+          ],
+          [
+            1110,
+            1116
+          ],
+          [
+            1491,
+            1497
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p010",
+          "box": [
+            0,
+            6,
+            841,
+            412
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p011",
+          "box": [
+            0,
+            420,
+            841,
+            792
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p012",
+          "box": [
+            0,
+            799,
+            841,
+            1110
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p013",
+          "box": [
+            0,
+            1117,
+            841,
+            1491
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p014",
+          "box": [
+            0,
+            1498,
+            841,
+            1864
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s04-mill-reveal-bridge-warning",
+      "execution_sequence_id": "clear-line-watercolor-s04-mill-reveal-bridge-warning",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s04-mill-reveal-bridge-warning-clear-line-watercolor-r1.png",
+        "sha256": "b408e825e1817caf3fa7ec7a107a291c1d11df134c0e80a93db0068d8f25aa40",
+        "width": 853,
+        "height": 1844,
+        "bytes": 2599940
+      },
+      "gutter_detection": {
+        "mode": "hash_pinned_manual_override",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            371,
+            371
+          ],
+          [
+            718,
+            718
+          ],
+          [
+            1077,
+            1077
+          ],
+          [
+            1409,
+            1413
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p015",
+          "box": [
+            0,
+            0,
+            853,
+            371
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p016",
+          "box": [
+            0,
+            372,
+            853,
+            718
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p017",
+          "box": [
+            0,
+            719,
+            853,
+            1077
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p018",
+          "box": [
+            0,
+            1078,
+            853,
+            1409
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p019",
+          "box": [
+            0,
+            1414,
+            853,
+            1844
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s05-creek-marker-drum",
+      "execution_sequence_id": "clear-line-watercolor-s05-creek-marker-drum",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s05-creek-marker-drum-clear-line-watercolor-r1.png",
+        "sha256": "1b771011b1c4e53789b0054245588093591cec65fdc319f33374f7d8ebac426b",
+        "width": 830,
+        "height": 1896,
+        "bytes": 2678083
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            469,
+            479
+          ],
+          [
+            763,
+            773
+          ],
+          [
+            1093,
+            1105
+          ],
+          [
+            1496,
+            1505
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p020",
+          "box": [
+            0,
+            6,
+            830,
+            469
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p021",
+          "box": [
+            0,
+            480,
+            830,
+            763
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p022",
+          "box": [
+            0,
+            774,
+            830,
+            1093
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p023",
+          "box": [
+            0,
+            1106,
+            830,
+            1496
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p024",
+          "box": [
+            0,
+            1506,
+            830,
+            1888
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s06-ember-line-entry",
+      "execution_sequence_id": "clear-line-watercolor-s06-ember-line-entry",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s06-ember-line-entry-clear-line-watercolor-r1.png",
+        "sha256": "181018c576f4b1007c1dc23a59fd514d10fff03eadbcebcfb3bad1df083c5971",
+        "width": 795,
+        "height": 1979,
+        "bytes": 2648019
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            396,
+            402
+          ],
+          [
+            792,
+            799
+          ],
+          [
+            1188,
+            1192
+          ],
+          [
+            1526,
+            1530
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p025",
+          "box": [
+            0,
+            7,
+            795,
+            396
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p026",
+          "box": [
+            0,
+            403,
+            795,
+            792
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p027",
+          "box": [
+            0,
+            800,
+            795,
+            1188
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p028",
+          "box": [
+            0,
+            1193,
+            795,
+            1526
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p029",
+          "box": [
+            0,
+            1531,
+            795,
+            1972
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s07-impossible-footprints-bell",
+      "execution_sequence_id": "clear-line-watercolor-s07-impossible-footprints-bell",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s07-impossible-footprints-bell-clear-line-watercolor-r1.png",
+        "sha256": "f2c05a78c3d9c940327093ff3050d9023a903dcf7dddcbc2771cd58b5a73853d",
+        "width": 854,
+        "height": 1842,
+        "bytes": 2672862
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            367,
+            370
+          ],
+          [
+            757,
+            761
+          ],
+          [
+            1125,
+            1131
+          ],
+          [
+            1477,
+            1484
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p030",
+          "box": [
+            0,
+            6,
+            854,
+            367
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p031",
+          "box": [
+            0,
+            371,
+            854,
+            757
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p032",
+          "box": [
+            0,
+            762,
+            854,
+            1125
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p033",
+          "box": [
+            0,
+            1132,
+            854,
+            1477
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p034",
+          "box": [
+            0,
+            1485,
+            854,
+            1836
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s08-plank-tin-map",
+      "execution_sequence_id": "clear-line-watercolor-s08-plank-tin-map",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s08-plank-tin-map-clear-line-watercolor-r1.png",
+        "sha256": "e064583a5da8836333c6f7a5532dc79c70b4a514108a21c83bf5741d2150c7f6",
+        "width": 852,
+        "height": 1847,
+        "bytes": 3018185
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            285,
+            295
+          ],
+          [
+            867,
+            877
+          ],
+          [
+            1201,
+            1210
+          ],
+          [
+            1453,
+            1460
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p035",
+          "box": [
+            0,
+            12,
+            852,
+            285
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p036",
+          "box": [
+            0,
+            296,
+            852,
+            867
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p037",
+          "box": [
+            0,
+            878,
+            852,
+            1201
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p038",
+          "box": [
+            0,
+            1211,
+            852,
+            1453
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p039",
+          "box": [
+            0,
+            1461,
+            852,
+            1835
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s09-deduction-retreat-cut",
+      "execution_sequence_id": "clear-line-watercolor-s09-deduction-retreat-cut",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s09-deduction-retreat-cut-clear-line-watercolor-r1.png",
+        "sha256": "b72e90691edda3fa826faec5c40cc9338f378b077227a7b8d208719ceb6c099f",
+        "width": 831,
+        "height": 1891,
+        "bytes": 2589362
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            381,
+            381
+          ],
+          [
+            748,
+            751
+          ],
+          [
+            1102,
+            1102
+          ],
+          [
+            1506,
+            1511
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p040",
+          "box": [
+            0,
+            5,
+            831,
+            381
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p041",
+          "box": [
+            0,
+            382,
+            831,
+            748
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p042",
+          "box": [
+            0,
+            752,
+            831,
+            1102
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p043",
+          "box": [
+            0,
+            1103,
+            831,
+            1506
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p044",
+          "box": [
+            0,
+            1512,
+            831,
+            1885
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s10-silence-return",
+      "execution_sequence_id": "clear-line-watercolor-s10-silence-return",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s10-silence-return-clear-line-watercolor-r1.png",
+        "sha256": "7a88a7e14b4e60c08d187efc309edfc93589a46db6f35e9397052927f73d509c",
+        "width": 853,
+        "height": 1843,
+        "bytes": 2524115
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            611,
+            616
+          ],
+          [
+            1224,
+            1229
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p045",
+          "box": [
+            0,
+            5,
+            853,
+            611
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p046",
+          "box": [
+            0,
+            617,
+            853,
+            1224
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p047",
+          "box": [
+            0,
+            1230,
+            853,
+            1837
+          ]
+        }
+      ]
+    },
+    {
+      "sequence_id": "s11-farmhouse-reversal",
+      "execution_sequence_id": "clear-line-watercolor-s11-farmhouse-reversal",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/source-strips/s11-farmhouse-reversal-clear-line-watercolor-r1.png",
+        "sha256": "3a5afd2edd3fc7861a80e1cf35cac9d249840d5adf99c0bfd44a3b235d1ce3e1",
+        "width": 853,
+        "height": 1843,
+        "bytes": 2704994
+      },
+      "gutter_detection": {
+        "mode": "row_dominance",
+        "dominance_threshold": 0.72,
+        "join_distance_px": 14,
+        "edge_cluster_px": 15,
+        "detected_internal_gutter_extents_inclusive": [
+          [
+            542,
+            548
+          ],
+          [
+            1081,
+            1087
+          ]
+        ]
+      },
+      "crops": [
+        {
+          "panel_id": "ng-ch05-sc01-p048",
+          "box": [
+            0,
+            9,
+            853,
+            542
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p049",
+          "box": [
+            0,
+            549,
+            853,
+            1081
+          ]
+        },
+        {
+          "panel_id": "ng-ch05-sc01-p050",
+          "box": [
+            0,
+            1088,
+            853,
+            1831
+          ]
+        }
+      ]
+    }
+  ],
+  "boundary": "Exact source strips and crops remain ignored local research pixels; no acceptance, clearance, or exact-base selection."
+}

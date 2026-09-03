@@ -1,0 +1,45 @@
+{
+  "record_type": "ComicPanelPlanPromptPromotionDecision",
+  "schema_version": "1.0",
+  "record_id": "ng-decision-ch10-iron-name-prompt-promotion-r1",
+  "state": "APPROVED_FOR_EXACT_PROMPT_PREFLIGHT_NOT_YET_EXECUTED",
+  "chapter": "CH10",
+  "source_plan": {
+    "path": "production/comic/ch10-sc01-panel-plans-r1.json",
+    "sha256": "0c22a0fb34939dbdc393b325c61c5dcceecba02bd60c3d9d30a355f88d8d1718",
+    "panel_count": 40
+  },
+  "approved_mechanism": "OPENAI_BUILT_IN_IMAGEGEN_ONLY",
+  "approved_reference_hashes": [
+    "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+    "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+    "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb"
+  ],
+  "default_candidates_per_panel": 1,
+  "whole_chapter_alternate_style_arms": 0,
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "visual_continuity_decisions": {
+    "tamsin_hair": "medium_chestnut_brown_single_practical_braid_never_blond_or_black",
+    "soren_injury": "padded_rigid_left_lower_leg_brace_persistent_no_spontaneous_healing",
+    "wardens_reach": "simple_long_wooden_polehook_with_forged_socket_never_firearm",
+    "sigrid_weapons": "owned_simple_compact_recurved_bow_and_short_utility_seax",
+    "status": "PROVISIONAL_TEXT_PROMPT_ANCHORS_NOT_CANON_ACCEPTANCE",
+    "ledger_words": "WITHHELD_FROM_GENERATED_PIXELS_FOR_LOCAL_LETTERING"
+  },
+  "boundary": {
+    "prompt_authoring_approved": true,
+    "execution_requires_manifest_preflight_pass": true,
+    "direct_paid_api": false,
+    "bfl": false,
+    "new_provider": false,
+    "new_upload_class": false,
+    "real_person_or_adult_likeness": false,
+    "child_related_material": false,
+    "private_reference": false,
+    "lora_or_dataset": false,
+    "accepted_or_commercially_cleared": false
+  },
+  "adr": "ADR-0208"
+}

@@ -1790,3 +1790,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Combined triage is 153 PASS / 4 WARN / 3 FAIL; the three CH06/CH07 blocking candidates remain explicit and are not hidden by aggregate scoring.
 - Builder is deterministic; validator PASS with 10/10 mutations rejected. New provider calls/uploads/spend: 0/0/$0.
 - ADR-0207 directs the next visual production to CH10 rather than another style arm or wholesale rerender.
+
+## CH10–CH11 default-route prompt preflight — 2026-09-03
+
+- Compiled 16 one-row five-panel requests covering 80/80 plans exactly once, with 44 authorized reference uses and zero alternate arms.
+- Added persistent rigid-brace/no-healing, forged polehook anti-firearm, owned bow/seax, quarry-armor ancestry, fictional-adult faction, grounded Mireback, and hair controls.
+- Withheld seven authored class/status/bond phrases and one return label from generated pixels for local lettering or nonverbal physical treatment.
+- Validation PASS; 27/27 adversarial mutations rejected. Provider calls/outputs/uploads/spend: 0/0/0/$0 at preflight.
+- Decision: ADR-0208. Next: generate and assemble CH10 completely before earlier non-blocking repair.

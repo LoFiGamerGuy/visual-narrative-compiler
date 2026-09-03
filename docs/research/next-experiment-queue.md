@@ -369,3 +369,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Use local lettering for class/bond/prose copy; generated pixels may contain only physical nonverbal Ledger effects.
 4. Lock Soren's rigid brace and forged simple polehook, Sigrid's dark hair/plaid-derived armor/bow/seax, and Tamsin's chestnut braid/injury.
 5. After CH10, continue CH11 chronologically and keep CH12–CH13 at the validated authoring gate.
+
+## Active queue after CH10–CH11 prompt preflight — 2026-09-03
+
+1. Generate all eight CH10 sequences, then assemble the complete 40-panel chapter and review packet.
+2. Measure brace persistence, forge causality, adult role separation, armor/weapon evolution, Mireback trigger readability, text suppression, and phone-size clarity.
+3. Preserve one candidate per plan and perform no alternate style arm.
+4. Repair only an exact blocking story, continuity, text, anatomy, or prop failure after the complete chapter is visible.
+5. Continue directly into CH11 once CH10 is bound; keep earlier non-blocking warnings deferred.

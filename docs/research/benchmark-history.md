@@ -693,3 +693,9 @@ The route preserves injury and leadership progression across all eight sequences
 | New calls / uploads / paid spend | 0 / 0 / $0 |
 
 The hub measures breadth and makes progression reviewable; it does not normalize per-chapter failures or infer candidate acceptance.
+
+## CH10–CH11 default-route preflight benchmark — 2026-09-03
+
+Sixteen requests cover 80 unique plans with 44 authorized reference uses, zero duplicate panel coverage, one candidate per plan, zero whole-chapter alternate arms, and zero provider calls at preflight. All requests bind one-row/no-number layout, local class/status/bond lettering, persistent brace and injury, forged anti-firearm polehook, owned bow/seax, garment ancestry, fictional-adult faction roles, grounded Mireback anatomy, and the exact reference boundary. The validator rejects 27/27 mutations.
+
+This is execution readiness, not rendered quality, acceptance, rights, clearance, reproducibility, or exact-base selection.

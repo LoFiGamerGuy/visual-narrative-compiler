@@ -238,3 +238,12 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Keep P039→P040 unchanged unless owner review identifies a semantic, identity, or finish-continuity defect.
 4. If the owner rejects the opening boundary, request a sequence-level cadence revision before any same-style repair; do not cherry-pick within S01 or S02.
 5. Preserve zero acceptance, rights/commercial clearance, canon replacement, and exact-production-base status until explicit dispositions are recorded.
+
+## Active queue after six-route/cadence integrated release — 2026-09-03
+
+1. Use the complete-chapter handoff r7 as the primary owner review surface; review the lettered phone chapter before individual beauty candidates.
+2. Decide whether the three sequence blocks—reduced-palette S01, r6 S02-S08, premium cel S09-S11—read as one coherent chapter. Keep the allocation review-only until explicit disposition.
+3. Review P003, P032, and P045 warnings and the P005→P006 boundary. Do not infer a rerender from histogram proxies; the three-arm control did not isolate route switching.
+4. Rank clear-line watercolor as the leading future style-development route for contour/action clarity, while retaining r6 as the semantic backbone and premium cel as a selective late-chapter accent.
+5. If the owner rejects a sequence block, run exactly one sequence-level matched replacement under the chosen style and preserve every non-target panel hash. Do not return to panel-by-panel hybrid cherry-picking.
+6. Keep future armor, weapons, monsters, class gear, and clothing changes in the separate non-canon LitRPG stream until a ComicPanelPlan/canon revision explicitly authorizes them.

@@ -1651,3 +1651,11 @@ P039→P040 is below the adjacent-control mean on both proxies at 0.902299× lum
 Completed the existing-pixel control with selected reduced→r6, all-reduced, and all-r6 arms. Luminance/RGB distances are 0.521210/0.519582, 0.510071/0.472000, and 0.555130/0.551442 respectively. The selected arm is 0.978613× luminance and 1.015362× RGB versus the two-control mean and exceeds both same-route controls on 0/2 proxies.
 
 The predeclared rule therefore does not isolate route switching as the cause of the visible boundary. Story content and shot scale change in all arms; aspect ratio, composition, and non-randomized generation remain confounds. The control adds one ignored local review-layout derivative and zero new art, provider calls, uploads, candidate edits, selections, acceptance, or spend. Retain P005→P006 for manual review, but do not recommend a new render or edit from these proxies.
+
+## CH05 six-route/cadence integrated release — 2026-09-03
+
+- Replayed 15 local validators plus read-only Git remote parity: 16/16 domains passed in 31.918454 seconds.
+- Fourteen upstream mutation suites rejected 298/298 mutations; the integrated record validator rejected 26/26 record mutations.
+- The append-only record pins clean pre-release commit `97e0591`; post-publication replay requires that commit as an ancestor plus clean current `main`/`origin/main` parity. Pushed release commit `ff1a8c4` passes.
+- Cost ledger r35 appends eight local evidence milestones and nine exact source bindings, reaching 117 local zero-external-cost milestones.
+- Current-release provider calls, uploads, generation calls, new candidates, and paid spend are 0/0/0/0/`$0`. Human-review minutes remain null; acceptance, rights, commercial clearance, and exact-base counts remain zero.

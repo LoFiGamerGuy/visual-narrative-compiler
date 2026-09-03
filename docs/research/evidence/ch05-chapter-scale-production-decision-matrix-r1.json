@@ -1,0 +1,434 @@
+{
+  "record_type": "CH05ChapterScaleProductionDecisionMatrix",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-chapter-scale-production-decision-matrix-r1",
+  "state": "EVIDENCE_SYNTHESIS_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "inputs": [
+    {
+      "path": "docs/research/ch05-complete-chapter-review-handoff-r7.md",
+      "sha256": "739cf2766edf816f24b0296253245d13ad7298cddf1b61286c43af999e065686"
+    },
+    {
+      "path": "docs/research/evidence/ch05-six-route-comparison-r1.json",
+      "sha256": "c40d3a945704639855135cda4d011529f13c5c71d857b7807914823d7e248229"
+    },
+    {
+      "path": "docs/research/evidence/ch05-sequence-cadence-review-triage-r1.json",
+      "sha256": "d99b34c94c6037a5e45c175f5847f316eb141ae35dd78774410ebd1033657e1c"
+    },
+    {
+      "path": "docs/adr/ADR-0188-use-measured-sequence-level-cadence.md",
+      "sha256": "6b39c94d080b334a6eb03ea61f3a2eaa36967b06f060f2c7050f23228472ca82"
+    },
+    {
+      "path": "docs/adr/ADR-0189-treat-paired-reference-ablations-as-directional-evidence.md",
+      "sha256": "28b6c5d9020ac6aaa1d641813592ca6728d0095933ee76138d250f446e6904c2"
+    },
+    {
+      "path": "docs/adr/ADR-0190-treat-p005-p006-as-a-finish-continuity-risk.md",
+      "sha256": "853cea56fe0459130477c3d708326284913a821924c8e06207d97c6456d8ae5e"
+    },
+    {
+      "path": "docs/adr/ADR-0191-do-not-rerender-p005-p006-from-nonisolating-proxies.md",
+      "sha256": "f1c9cdd03513a2d519bef5b1a4ebd3d7d3c07caeb2dc3ad35ee59ab447e11748"
+    }
+  ],
+  "measured_fact": {
+    "route_matrix": [
+      {
+        "route": "r6",
+        "label": "R6",
+        "semantic_pass_warn_fail": {
+          "pass": 47,
+          "warn": 1,
+          "fail": 2
+        },
+        "overall_pass_warn_fail": {
+          "pass": 49,
+          "warn": 1,
+          "fail": 0
+        },
+        "continuity_identity_hair_wardrobe_pass_warn_fail_not_assessed": {
+          "pass": 50,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 0
+        },
+        "continuity_scope_limitation": "Identity/hair/wardrobe is the only standardized route-wide continuity-adjacent count in this comparison; it is not biometric identity and does not measure finish continuity.",
+        "lettering_pass_warn_fail_not_assessed": {
+          "pass": 50,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 0
+        },
+        "style_density_pass_warn_fail_not_assessed": {
+          "pass": 0,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 50
+        },
+        "complexity_proxies_non_quality": {
+          "grayscale_entropy_bits": 6.889241,
+          "edge_density_ge_32": 0.220004,
+          "png_bytes_per_native_pixel": 1.623124
+        },
+        "cadence_selected_sequence_ids": [
+          "s02-runnel-marker-trail",
+          "s03-listening-twine-ridge",
+          "s04-mill-reveal-bridge-warning",
+          "s05-creek-marker-drum",
+          "s06-ember-line-entry",
+          "s07-impossible-footprints-bell",
+          "s08-plank-tin-map"
+        ],
+        "cadence_selected_sequence_count": 7,
+        "cadence_selected_panel_count": 34
+      },
+      {
+        "route": "alt_graphic",
+        "label": "Alternate graphic",
+        "semantic_pass_warn_fail": {
+          "pass": 36,
+          "warn": 7,
+          "fail": 7
+        },
+        "overall_pass_warn_fail": {
+          "pass": 36,
+          "warn": 7,
+          "fail": 7
+        },
+        "continuity_identity_hair_wardrobe_pass_warn_fail_not_assessed": {
+          "pass": 50,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 0
+        },
+        "continuity_scope_limitation": "Identity/hair/wardrobe is the only standardized route-wide continuity-adjacent count in this comparison; it is not biometric identity and does not measure finish continuity.",
+        "lettering_pass_warn_fail_not_assessed": {
+          "pass": 50,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 0
+        },
+        "style_density_pass_warn_fail_not_assessed": {
+          "pass": 0,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 50
+        },
+        "complexity_proxies_non_quality": {
+          "grayscale_entropy_bits": 6.83786,
+          "edge_density_ge_32": 0.215718,
+          "png_bytes_per_native_pixel": 1.608028
+        },
+        "cadence_selected_sequence_ids": [],
+        "cadence_selected_sequence_count": 0,
+        "cadence_selected_panel_count": 0
+      },
+      {
+        "route": "clear_line_watercolor",
+        "label": "Clear-line watercolor",
+        "semantic_pass_warn_fail": {
+          "pass": 45,
+          "warn": 2,
+          "fail": 3
+        },
+        "overall_pass_warn_fail": {
+          "pass": 45,
+          "warn": 2,
+          "fail": 3
+        },
+        "continuity_identity_hair_wardrobe_pass_warn_fail_not_assessed": {
+          "pass": 50,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 0
+        },
+        "continuity_scope_limitation": "Identity/hair/wardrobe is the only standardized route-wide continuity-adjacent count in this comparison; it is not biometric identity and does not measure finish continuity.",
+        "lettering_pass_warn_fail_not_assessed": {
+          "pass": 50,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 0
+        },
+        "style_density_pass_warn_fail_not_assessed": {
+          "pass": 0,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 50
+        },
+        "complexity_proxies_non_quality": {
+          "grayscale_entropy_bits": 7.02571,
+          "edge_density_ge_32": 0.244026,
+          "png_bytes_per_native_pixel": 1.698281
+        },
+        "cadence_selected_sequence_ids": [],
+        "cadence_selected_sequence_count": 0,
+        "cadence_selected_panel_count": 0
+      },
+      {
+        "route": "premium_cel",
+        "label": "Premium cel",
+        "semantic_pass_warn_fail": {
+          "pass": 40,
+          "warn": 5,
+          "fail": 5
+        },
+        "overall_pass_warn_fail": {
+          "pass": 40,
+          "warn": 5,
+          "fail": 5
+        },
+        "continuity_identity_hair_wardrobe_pass_warn_fail_not_assessed": {
+          "pass": 50,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 0
+        },
+        "continuity_scope_limitation": "Identity/hair/wardrobe is the only standardized route-wide continuity-adjacent count in this comparison; it is not biometric identity and does not measure finish continuity.",
+        "lettering_pass_warn_fail_not_assessed": {
+          "pass": 50,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 0
+        },
+        "style_density_pass_warn_fail_not_assessed": {
+          "pass": 0,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 50
+        },
+        "complexity_proxies_non_quality": {
+          "grayscale_entropy_bits": 6.934245,
+          "edge_density_ge_32": 0.227841,
+          "png_bytes_per_native_pixel": 1.656707
+        },
+        "cadence_selected_sequence_ids": [
+          "s09-deduction-retreat-cut",
+          "s10-silence-return",
+          "s11-farmhouse-reversal"
+        ],
+        "cadence_selected_sequence_count": 3,
+        "cadence_selected_panel_count": 11
+      },
+      {
+        "route": "flat_graphic_gouache",
+        "label": "Flat graphic-gouache",
+        "semantic_pass_warn_fail": {
+          "pass": 41,
+          "warn": 6,
+          "fail": 3
+        },
+        "overall_pass_warn_fail": {
+          "pass": 16,
+          "warn": 7,
+          "fail": 27
+        },
+        "continuity_identity_hair_wardrobe_pass_warn_fail_not_assessed": {
+          "pass": 50,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 0
+        },
+        "continuity_scope_limitation": "Identity/hair/wardrobe is the only standardized route-wide continuity-adjacent count in this comparison; it is not biometric identity and does not measure finish continuity.",
+        "lettering_pass_warn_fail_not_assessed": {
+          "pass": 19,
+          "warn": 6,
+          "fail": 25,
+          "not_assessed": 0
+        },
+        "style_density_pass_warn_fail_not_assessed": {
+          "pass": 0,
+          "warn": 0,
+          "fail": 50,
+          "not_assessed": 0
+        },
+        "complexity_proxies_non_quality": {
+          "grayscale_entropy_bits": 6.897733,
+          "edge_density_ge_32": 0.21128,
+          "png_bytes_per_native_pixel": 1.581633
+        },
+        "cadence_selected_sequence_ids": [],
+        "cadence_selected_sequence_count": 0,
+        "cadence_selected_panel_count": 0
+      },
+      {
+        "route": "reduced_palette_text_control",
+        "label": "Reduced-palette text control",
+        "semantic_pass_warn_fail": {
+          "pass": 43,
+          "warn": 4,
+          "fail": 3
+        },
+        "overall_pass_warn_fail": {
+          "pass": 6,
+          "warn": 6,
+          "fail": 38
+        },
+        "continuity_identity_hair_wardrobe_pass_warn_fail_not_assessed": {
+          "pass": 50,
+          "warn": 0,
+          "fail": 0,
+          "not_assessed": 0
+        },
+        "continuity_scope_limitation": "Identity/hair/wardrobe is the only standardized route-wide continuity-adjacent count in this comparison; it is not biometric identity and does not measure finish continuity.",
+        "lettering_pass_warn_fail_not_assessed": {
+          "pass": 17,
+          "warn": 6,
+          "fail": 27,
+          "not_assessed": 0
+        },
+        "style_density_pass_warn_fail_not_assessed": {
+          "pass": 12,
+          "warn": 7,
+          "fail": 31,
+          "not_assessed": 0
+        },
+        "complexity_proxies_non_quality": {
+          "grayscale_entropy_bits": 6.572611,
+          "edge_density_ge_32": 0.149995,
+          "png_bytes_per_native_pixel": 1.397747
+        },
+        "cadence_selected_sequence_ids": [
+          "s01-opening-departure"
+        ],
+        "cadence_selected_sequence_count": 1,
+        "cadence_selected_panel_count": 5
+      }
+    ],
+    "selected_review_cadence": {
+      "assignment": {
+        "S01": "reduced_palette_text_control",
+        "S02-S08": "r6",
+        "S09-S11": "premium_cel"
+      },
+      "panels_by_route": {
+        "reduced_palette_text_control": 5,
+        "r6": 34,
+        "premium_cel": 11
+      },
+      "semantic_pass_warn_fail": {
+        "pass": 47,
+        "warn": 3,
+        "fail": 0
+      },
+      "warning_panel_ids": [
+        "ng-ch05-sc01-p003",
+        "ng-ch05-sc01-p032",
+        "ng-ch05-sc01-p045"
+      ],
+      "route_transitions": 2,
+      "human_reviewed": 0,
+      "accepted": 0
+    },
+    "finish_continuity": {
+      "P005_to_P006": "Manual visual risk remains, but the matched three-arm proxy control isolated route-switch contribution on 0/2 histogram proxies; ADR-0191 prohibits rerendering from that non-isolating evidence.",
+      "P039_to_P040": "Lower observed risk than P005-to-P006 in the boundary audit; no intervention is supported by current evidence."
+    },
+    "accounting": {
+      "direct_paid_api_cloud_usd": 0.0,
+      "human_reviewed_candidates": 0,
+      "accepted_candidates": 0,
+      "rights_cleared_candidates": 0,
+      "exact_production_bases": 0
+    }
+  },
+  "engineering_inference": {
+    "ranking_scope": "Readiness for the next CH05 chapter-scale review workflow, not artistic merit, commercial clearance, or final production-base selection.",
+    "ranking_policy": "Prioritize demonstrated cadence contribution and semantic failure avoidance, then lettering/overall burden and finish-risk evidence. Treat unassessed style-density fields as unknown, never as PASS. No numeric quality score is invented.",
+    "ranked_routes": [
+      {
+        "rank": 1,
+        "route": "r6",
+        "label": "R6",
+        "inferred_role": "chapter backbone",
+        "basis": "Largest selected share (S02-S08, 34 panels); highest semantic PASS count; 50/50 lettering and continuity-adjacent identity checks. Two supplemental semantic failures prevent wholesale promotion.",
+        "not_a_quality_score": true
+      },
+      {
+        "rank": 2,
+        "route": "premium_cel",
+        "label": "Premium cel",
+        "inferred_role": "late-block cadence specialist",
+        "basis": "Selected for S09-S11 (11 panels) with zero selected semantic failures; wholesale route still has 5 semantic failures, so this is a block-specific inference.",
+        "not_a_quality_score": true
+      },
+      {
+        "rank": 3,
+        "route": "clear_line_watercolor",
+        "label": "Clear-line watercolor",
+        "inferred_role": "strongest unselected single-route fallback",
+        "basis": "Best unselected wholesale semantic/overall profile after R6 (45/2/3) with 50/50 lettering and identity checks, but selected for no cadence block by the frozen objective.",
+        "not_a_quality_score": true
+      },
+      {
+        "rank": 4,
+        "route": "reduced_palette_text_control",
+        "label": "Reduced-palette text control",
+        "inferred_role": "opening-block and lower-density specialist with finish constraints",
+        "basis": "Selected only for S01 and is the only material lower-density separator; wholesale 38 overall failures, 27 lettering failures, and 31 style-density failures limit chapter-scale readiness.",
+        "not_a_quality_score": true
+      },
+      {
+        "rank": 5,
+        "route": "alt_graphic",
+        "label": "Alternate graphic",
+        "inferred_role": "comparison route; not current production lead",
+        "basis": "50/50 lettering and identity checks, but 7 semantic and 7 overall failures and no selected cadence block.",
+        "not_a_quality_score": true
+      },
+      {
+        "rank": 6,
+        "route": "flat_graphic_gouache",
+        "label": "Flat graphic-gouache",
+        "inferred_role": "diagnostic style arm; not current production lead",
+        "basis": "Semantic 41/6/3 is outweighed for production review by 27 overall failures, 25 lettering failures, and 50 style-density failures; no selected cadence block.",
+        "not_a_quality_score": true
+      }
+    ],
+    "cadence_recommendation": "Retain the three-block cadence as the strongest current review mechanism: reduced-palette S01, R6 S02-S08, premium cel S09-S11. Do not promote it to accepted production while owner review remains unrecorded."
+  },
+  "owner_review_question": [
+    "Does the assembled three-block cadence read as one coherent chapter at phone size, especially the two route boundaries?",
+    "Is the visually abrupt P005-to-P006 cut acceptable as intentional beat contrast despite the route-switch proxy test being non-isolating?",
+    "Are the three retained warnings acceptable or revision-worthy: P003 track overlap, P032 heel/toe direction, and P045 extra uphill building?",
+    "Does provisional lettering preserve faces, hands, silhouettes, story objects, and phone readability across the full scroll?"
+  ],
+  "future_noncanon_litrpg_exploration": {
+    "status": "IDEATION_ONLY_NONCANON_NOT_AUTHORIZED_FOR_GENERATION_OR_PRODUCTION",
+    "separation_rule": "Do not merge these ideas into CH05 ComicPanelPlans, canon, provider requests, or production selection without a later explicit revision and provenance review.",
+    "ideas": [
+      "Fictional-adult practical armor and upgraded clothing silhouettes that preserve role and hair readability.",
+      "Weapons/tools designed around causal grip, leverage, carry continuity, and readable action rather than decorative posing.",
+      "Monster/ecology encounter beats and restrained LitRPG system feedback that create tactical story consequences instead of generic spectacle."
+    ]
+  },
+  "next_high_information_experiment": {
+    "count": 1,
+    "experiment_id": "ch05-cadence-objective-sensitivity-audit-r1",
+    "scope": "Use only the existing six-route per-panel evaluation table. Re-run the 11-sequence cadence optimizer under leave-one-secondary-objective-out variants while preserving hard zero semantic/identity-failure constraints; report whether the current three-block assignment remains invariant or expose the Pareto alternatives.",
+    "why": "This tests whether the recommended cadence is robust evidence or an artifact of lexicographic tie-breaking before more art or repair effort is spent.",
+    "new_provider_needed": false,
+    "new_upload_needed": false,
+    "new_pixels_needed": false,
+    "paid_spend_usd": 0.0
+  },
+  "disposition": {
+    "owner_acceptance": null,
+    "rights_clearance": null,
+    "commercially_cleared": null,
+    "canon_change": null,
+    "exact_production_base": null
+  },
+  "limitations": [
+    "All visual and semantic reviews remain non-gating agent evidence; human review is recorded as zero.",
+    "Route-wide continuity is not directly measured beyond identity/hair/wardrobe checks and issue-specific audits.",
+    "Entropy, edge density, and PNG bytes per pixel are non-quality proxies sensitive to content, crop, resize, and codec.",
+    "The rank is an explicit engineering inference over current evidence, not a measured scalar score."
+  ],
+  "boundary": "Decision aid only; no art acceptance, route promotion, rights or commercial clearance, canon replacement, provider authority, or exact production-base selection."
+}

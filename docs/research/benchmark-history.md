@@ -541,3 +541,7 @@ The non-gating audit compares two cross-route pairs against four adjacent within
 P039→P040 measures 0.902299× and 0.894237× its adjacent means, so neither proxy supports above-local-mean risk at the later boundary. The audit is confounded by narrative content, shot scale, crop, and aspect ratio. It changes no route, acceptance, or rights state. The next benchmark is a zero-upload three-arm P005→P006 control using existing selected reduced→r6, all-reduced, and all-r6 candidates with panel IDs/story beats held fixed.
 
 The completed three-arm control measures selected reduced→r6 at 0.521210 luminance / 0.519582 RGB distance, all-reduced at 0.510071 / 0.472000, and all-r6 at 0.555130 / 0.551442. Selected-to-control-mean ratios are 0.978613 and 1.015362, and the selected transition exceeds both same-route controls on 0/2 proxies. Under the predeclared rule, route-switch contribution is not isolated. This does not erase the manual finish-continuity concern; it limits the engineering conclusion to owner review with no new render/edit recommendation.
+
+## CH05 six-route/cadence integrated-release benchmark — 2026-09-03
+
+The append-only release runs 15 local validators and one read-only remote-parity domain in 31.918454 seconds. All 16 domains pass; 14 upstream self-test suites reject 298/298 mutations and the integrated-record validator rejects 26/26 mutations. This is an integrity/replay benchmark, not a render-quality or production-throughput measurement. It adds zero provider calls, uploads, generation, candidates, acceptance, or paid spend.

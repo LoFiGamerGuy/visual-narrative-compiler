@@ -496,3 +496,5 @@ The companion semantic graph validator passes 1/1 synthetic positive and rejects
 Post-CH05 integrated release r1 passes 10/10 commands and 93 effective checks in 4.481 seconds; its own validator rejects 12/12 mutations. The gate includes r6 production/assembly, 63-plan inventory, 23-panel regression, authoring and semantic contracts, frozen/baseline, tracked-source scope, and remote parity. This is a release-integrity measurement, not new visual evidence.
 
 The r6 owner pointer binds ten review artifacts, 13 strongest candidates, two P032 candidates, and three authority-separated decision groups; 12/12 mutations fail. It is navigation evidence only and does not add a visual score or acceptance result.
+
+The complete alternate-graphic preflight covers 50/50 plans in 11 exact 3-5-panel prompts and rejects 12/12 malformed fixtures. It plans 23 authorized reference uses and zero paid/provider-budget activity. No renderer-quality result exists until execution; R6 remains the unchanged comparison baseline.

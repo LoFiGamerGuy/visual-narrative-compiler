@@ -139,3 +139,5 @@ The semantic graph validator adds one in-memory synthetic positive and 23 in-mem
 Post-CH05 integrated release r1 runs ten local no-network commands in 4.481 seconds and adds no prompt, renderer generation, provider call, upload, candidate, acceptance, or external cost. Human minutes remain null.
 
 The r6 owner start-here pointer adds no renderer generation, provider call, upload, candidate, acceptance, publication, or external cost. Human minutes remain null.
+
+The complete alternate-graphic preflight creates 11 exact prompt records but makes zero executions/uploads/outputs and incurs zero direct paid API/cloud cost. Twenty-three reference uses are planned, not yet performed. Built-in future cost and human review minutes remain unavailable/null.

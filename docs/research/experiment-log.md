@@ -1592,3 +1592,11 @@
 - Separated four visual, three canon, and three rights/production decisions so broad positive feedback cannot silently grant acceptance, canon replacement, commercial clearance, or exact-base status.
 - Verified every linked pixel hash/dimension and ignored/untracked repository state; 12/12 mutations fail under ADR-0180.
 - Navigation adds no publication, provider call, upload, generation, acceptance, canon decision, rights decision, or spend.
+
+## 2026-09-02 - Complete CH05 alternate graphic arm preflight
+
+- Compiled 11 exact lower-density graphic sequence prompts covering P001-P050 once in the same 3-5-panel ranges as the complete r6 source arm.
+- Repeated current fictional-adult hair/wardrobe, causal action, negative-space lettering, text-free, and no-child/no-new-canon constraints in every prompt.
+- Planned 23 authorized reference uses across exactly the three allowed hashes; no new upload class, BFL, direct paid API, cloud GPU, purchase, or G07 spend is permitted.
+- Preflight validator passes 50/50 plan coverage and rejects 12/12 malformed state/order/prompt/reference/authority mutations under ADR-0181.
+- R6 remains unchanged; alternate executions, outputs, acceptance, commercial clearance, and exact-base status remain zero before execution.

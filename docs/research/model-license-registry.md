@@ -121,3 +121,5 @@ The semantic graph validator is local provider-neutral code. Its rejection of pr
 Post-CH05 integrated release r1 performs no network-capable command and changes no provider, model, license, upload, or commercial-use conclusion.
 
 The r6 owner pointer links existing ignored pixels only and changes no provider/model/license/commercial-use conclusion. Its explicit rights group remains unfilled.
+
+The alternate-graphic preflight authorizes no new provider or data class. If executed, it is restricted to OpenAI built-in ImageGen and the same three exact fictional-adult reference hashes; model/endpoint/request ID/usage/cost/seed and commercial-use status remain unavailable or pending unless the product exposes them.

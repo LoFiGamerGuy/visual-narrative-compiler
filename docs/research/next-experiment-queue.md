@@ -272,3 +272,12 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Run no additional stochastic repair until one exact owner disposition identifies a sequence and failure class.
 4. Preserve rights/commercial clearance and exact-production-base selection as distinct later decisions.
 5. Record review feedback in `docs/research/ch05-final-owner-review-response-template-r1.md`; do not treat an unfilled or partial template as authorization.
+
+## Active chronological chapter queue — 2026-09-03
+
+1. Compile CH06 **The House That Answered** as a complete 40-panel/eight-sequence ComicPanelPlan semantic graph, beginning at CH05's smoking-farmhouse reversal.
+2. Compile CH07 **Mireback at the Gate** as a complete 40-panel/eight-sequence graph that inherits every CH06 prop, damage, relationship, ally, and system state.
+3. Validate both chapters together for six-phase coverage, closed panel/sequence continuity, adult-only cast declarations, hair and wardrobe anchors, causal action, phone-safe lettering regions, and explicit progression bindings.
+4. Promote one default house-route prompt set only after both story graphs pass. Generate one chronological candidate per panel/sequence before considering any alternative style.
+5. Permit at most two targeted repairs for an exact failed panel class; do not reroll passing panels or run a full alternate chapter arm.
+6. After CH06–CH07 assembly, immediately advance CH08–CH09 rather than returning to CH05 style comparison.

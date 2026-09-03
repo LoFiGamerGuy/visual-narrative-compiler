@@ -1688,3 +1688,12 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Added nine null visual-response fields covering cadence, P003/P032/P045, P005-P006, lettering, strongest candidates, S10-S11 premium-versus-R6, and non-canon LitRPG direction.
 - Kept three commercial-rights and four exact-production-base fields in separate null objects; 16/16 response/decision values remain null.
 - Ingestion and execution authority remain false. Deterministic compilation passes and 23/23 malformed/authority-expanding mutations fail.
+
+## CH06–CH13 chronological progression arc — 2026-09-03
+
+- Reframed production around eight new complete chapters rather than further CH05 style duplication.
+- Authored the provisional Bell Road arc from CH06 through CH13 with a CH14–CH17 stretch spine, 40 target panels and eight sequences per required chapter, for 320 chronological target panels.
+- Bound every chapter to the previous closing state, at least five material state deltas, at least two causal setpieces, a distinct location, a chapter question, and a closing hook.
+- Established the Garden Ledger, first Mireback fight, work-derived armor and weapons, Soren's lasting injury, Sigrid's Wayfinder emergence, Brackenwake faction conflict, siege-earned classes, partnership rupture, and shared North Garden keeper outcome.
+- Added a strict anti-duplication contract: one default candidate per panel, no alternate style before chapter completion, at most 10% alternative coverage afterward, and no more than two targeted repairs per failed panel.
+- Deterministic compilation is byte-stable; the validator passes and rejects 23/23 malformed, continuity-breaking, identity-drifting, or authority-expanding mutations. No prompt, provider call, upload, generation, acceptance, rights decision, or exact-base decision occurred.

@@ -557,3 +557,9 @@ The final release passes nine domains in 42.965 seconds. Seven upstream self-tes
 ## CH05 terminal handoff benchmark — 2026-09-03
 
 The terminal matrix passes 8/8 domains in 78.819 seconds, with 124/124 upstream and 32/32 record mutations rejected. The final start page binds ten ignored local visuals and seven supporting documents; inventory r3 binds 316 changed tracked files across 28 commits with zero prohibited/generated paths. This is an integrity/navigation benchmark, not art quality, acceptance, rights, or render throughput.
+
+## CH06–CH13 story-breadth baseline — 2026-09-03
+
+The new baseline is eight required chronological chapters, 40 target panels and eight sequences per chapter, totaling 320 target panels. Every chapter must inherit the exact prior closing-state key, change at least five declared state categories, contain at least two causal setpieces, and end in a distinct state. The initial arc record satisfies all eight chapter carries and rejects 23/23 adversarial mutations.
+
+The anti-duplication baseline is one default candidate per panel, zero alternate-style coverage before a complete chronological chapter exists, at most 10% named-question alternative coverage afterward, and at most two targeted repairs per failed panel. These are production-efficiency and narrative-breadth controls, not art-quality measurements.

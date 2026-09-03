@@ -425,3 +425,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Treat CH12/CH13 shoulder persistence as one cross-chapter irreversible-state hardening experiment; do not rerender either chapter wholesale.
 4. Pair any CH13 P036 repair with explicit non-human Crownroot anatomy so one narrow unit addresses both measured failures.
 5. Keep Halvor identity, isolated causal under-show, generated text, and premature-creature failures in the aggregate backlog with exact source panels.
+
+## Active queue after eight-chapter progression hub — 2026-09-03
+
+1. Specify the smallest CH12–CH13 irreversible shoulder-state experiment, targeting only panels that visibly expose the left shoulder.
+2. Pair CH13 P036 shoulder repair with a clearly non-human botanical/architectural Crownroot silhouette.
+3. Compile a deterministic local-lettering production manifest using existing safe zones; do not burn generated prose into pixels.
+4. Keep Halvor identity as a separate later experiment because current reference authority does not include a Halvor image.
+5. Preserve all 301 non-failing/warning candidate hashes and perform no whole-chapter rerender or alternate style arm before owner review.

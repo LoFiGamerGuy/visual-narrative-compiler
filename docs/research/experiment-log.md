@@ -1850,3 +1850,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Triage: 36 PASS / 0 WARN / 4 FAIL. P020/P031/P036/P039 reset Soren's sacrificed shoulder; P036 also humanizes Crownroot's face relief.
 - Exact overlapping interval sum 1,979.498 seconds; group walls 421.512/399.711 seconds. References 22; paid API/cloud spend $0; alternate arms/repairs 0/0.
 - Validator PASS with 15/15 adversarial mutations rejected. ADR-0214 preserves 36 hashes and moves to aggregate eight-chapter review.
+
+## CH06–CH13 eight-chapter progression hub — 2026-09-03
+
+- Bound eight complete visual chapters, 320 candidates, and 64 chronological sequence sources into one review manifest.
+- Built a 72-panel fixed-ordinal phone sampler, eight-chapter all-panel contact, and eight-chapter sequence progression sheet.
+- Combined triage is 296 PASS / 5 WARN / 19 FAIL; each issue remains attributable to its source panel.
+- Aggregate reference uses: 166. CH07–CH13 reported overlapping interval sum: 15,060.448 seconds; CH06 timing unavailable. New calls/uploads/spend: 0/0/$0.
+- Builder is deterministic; validator PASS with 10/10 mutations rejected. ADR-0215 selects the semantic backbone and prioritizes state hardening.

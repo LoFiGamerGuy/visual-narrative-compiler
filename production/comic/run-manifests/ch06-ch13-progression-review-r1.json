@@ -1,0 +1,111 @@
+{
+  "record_type": "ComicMultiChapterProgressionReview",
+  "schema_version": "1.0",
+  "record_id": "ng-ch06-ch13-progression-review-r1",
+  "state": "OWNER_REVIEW_PENDING",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "chapters": [
+    "CH06",
+    "CH07",
+    "CH08",
+    "CH09",
+    "CH10",
+    "CH11",
+    "CH12",
+    "CH13"
+  ],
+  "source_packets": [
+    {
+      "chapter": "CH06",
+      "path": "production/comic/run-manifests/ch06-default-house-route-review-packet-r1.json",
+      "sha256": "1160c1e7221572a35086939cf18e6d5058d543d77d8258160550cd73423e0817"
+    },
+    {
+      "chapter": "CH07",
+      "path": "production/comic/run-manifests/ch07-default-house-route-review-packet-r1.json",
+      "sha256": "2eb3ce7fed092d9d8bfdb7ecd1d43f07ddb3bf77407fbe49ddcf46dcc286adee"
+    },
+    {
+      "chapter": "CH08",
+      "path": "production/comic/run-manifests/ch08-default-house-route-review-packet-r1.json",
+      "sha256": "cc74f53ec86c55214c904f74f61e9afb884ea948d8faddfafca6156027b73ac6"
+    },
+    {
+      "chapter": "CH09",
+      "path": "production/comic/run-manifests/ch09-default-house-route-review-packet-r1.json",
+      "sha256": "32cf47468c5cc08d5fb7c784eeef99723a91a3af05747ad06f47888782fb6936"
+    },
+    {
+      "chapter": "CH10",
+      "path": "production/comic/run-manifests/ch10-default-house-route-review-packet-r1.json",
+      "sha256": "b635b1415276388da825f649905fc478244fabbd4a2138cdbc7a17ddc1a681cc"
+    },
+    {
+      "chapter": "CH11",
+      "path": "production/comic/run-manifests/ch11-default-house-route-review-packet-r1.json",
+      "sha256": "3025062bd8e1c9ab4a80c9cc7642f87f384bef95f6c9b514c61ff0f49aa55ebc"
+    },
+    {
+      "chapter": "CH12",
+      "path": "production/comic/run-manifests/ch12-default-house-route-review-packet-r1.json",
+      "sha256": "1898d85091f60bfe7925b944e907e4853a179c6942612c8de5be1d3a14a6576b"
+    },
+    {
+      "chapter": "CH13",
+      "path": "production/comic/run-manifests/ch13-default-house-route-review-packet-r1.json",
+      "sha256": "f0d7eab7676ff5d0f4a94e621e0a594e1d7acf15e475ff2bb32d946d7d79f01c"
+    }
+  ],
+  "summary": {
+    "complete_chapters": 8,
+    "panel_candidates": 320,
+    "sequence_sources": 64,
+    "triage": {
+      "PASS": 296,
+      "WARN": 5,
+      "FAIL": 19
+    },
+    "sampled_panels": 72,
+    "whole_chapter_alternate_arms": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "exact_production_base": 0
+  },
+  "artifacts": [
+    {
+      "type": "eight_chapter_contact_sheet",
+      "path": "experiments/review-packets/ch06-ch13-progression-review-r1/ch06-ch13-progression-contact-sheet-r1.png",
+      "sha256": "288ab949dbcde4d7af19f43513cafc6b8560b8069ce660bd4cb38cd02657e630",
+      "dimensions": [
+        1200,
+        19246
+      ]
+    },
+    {
+      "type": "eight_chapter_sequence_progression",
+      "path": "experiments/review-packets/ch06-ch13-progression-review-r1/ch06-ch13-sequence-progression-r1.png",
+      "sha256": "c5554bcc61903878f2afb5711365ed88d1dca6ecab5e5b9bab39090004f69425",
+      "dimensions": [
+        1200,
+        20066
+      ]
+    },
+    {
+      "type": "eight_chapter_phone_sampler",
+      "path": "experiments/review-packets/ch06-ch13-progression-review-r1/ch06-ch13-phone-progression-sampler-r1.png",
+      "sha256": "53af38a11784b9f5988047a1026515919e51817e447be8223b96fe5814a908ce",
+      "dimensions": [
+        1200,
+        2708
+      ]
+    }
+  ],
+  "limitations": [
+    "The sampler selects fixed ordinal panels for navigation; it is not a quality ranking.",
+    "All documented warnings and failures remain visible and attributable to their source chapters.",
+    "Secondary-adult identity and irreversible garment state remain the leading cross-sequence limitations.",
+    "All pixels remain ignored, non-reproducible, unaccepted, and commercially uncleared research evidence."
+  ]
+}

@@ -649,6 +649,24 @@ This is execution readiness, not rendered quality, acceptance, rights, clearance
 
 The route completes the Bell Road climax and materially advances environment, system, relationship, class, base, and world state. Four shoulder-persistence failures remain, one combined with Crownroot face ambiguity. This is agent triage, not human acceptance or rights clearance.
 
+## CH06–CH13 progression-review benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete visual chapters | 8 |
+| Ordered panel candidates | 320 |
+| Chronological source sequences | 64 |
+| Combined PASS / WARN / FAIL | 296 / 5 / 19 |
+| Cross-chapter review artifacts | 3 |
+| Fixed-ordinal sampler panels | 72 |
+| Authorized reference uses | 166 |
+| Reported CH07–CH13 overlapping intervals | 15,060.448 s |
+| Whole-chapter alternate arms | 0 |
+| Validator mutations rejected | 10 / 10 |
+| New calls / uploads / paid spend | 0 / 0 / $0 |
+
+The hub makes investigation-to-operational-base progression reviewable in one pass and isolates the recurring failure classes. It does not infer acceptance, rights, commercial clearance, or exact-base selection.
+
 ## CH12 complete default-route benchmark — 2026-09-03
 
 | Measure | Result |

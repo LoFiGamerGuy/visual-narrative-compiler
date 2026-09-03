@@ -1,0 +1,43 @@
+{
+  "record_type": "ChapterProductionTimeCostRecord",
+  "schema_version": "1.0",
+  "record_id": "ng-ch12-production-time-cost-record-r1",
+  "chapter": "CH12",
+  "mechanism": "OPENAI_BUILT_IN_IMAGEGEN_ONLY",
+  "sequence_requests": 8,
+  "sequence_outputs": 8,
+  "panel_candidates": 40,
+  "authorized_reference_uses": 22,
+  "individual_client_observed_elapsed_seconds": {
+    "ng-ch12-s01-hidden-section": 103.445,
+    "ng-ch12-s02-ash-cut": 205.204,
+    "ng-ch12-s03-false-cairn": 319.651,
+    "ng-ch12-s04-separate-paths": 420.731,
+    "ng-ch12-s05-sacrificed-cloth": 106.302,
+    "ng-ch12-s06-truth-at-camp": 213.586,
+    "ng-ch12-s07-negotiated-return": 316.771,
+    "ng-ch12-s08-gate-consent": 427.911
+  },
+  "timing_provenance": {
+    "parallel_group_1": "OUTPUT_TIMESTAMP_RECONSTRUCTED_FROM_GROUP_WALL",
+    "parallel_group_2": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL"
+  },
+  "reconstructed_interval_sum_seconds": 1049.031,
+  "exact_wrapper_interval_sum_seconds": 1064.570,
+  "combined_overlapping_interval_sum_seconds": 2113.601,
+  "parallel_group_wall_seconds": [420.731, 427.911],
+  "timing_note": "Group 1 intervals are transparently reconstructed from output creation timestamps anchored to its exact wall; group 2 is directly wrapped. Intervals overlap and their sum is not chapter wall time.",
+  "direct_paid_api_requests": 0,
+  "cloud_gpu_operations": 0,
+  "paid_api_cloud_spend_usd": "0.000000",
+  "built_in_monetary_cost_usd": null,
+  "provider_usage": null,
+  "model": null,
+  "endpoint": null,
+  "provider_request_ids": null,
+  "deterministic_seeds": null,
+  "human_review_minutes": null,
+  "accepted_candidates": 0,
+  "commercially_cleared_candidates": 0,
+  "exact_production_base_candidates": 0
+}

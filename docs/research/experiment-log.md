@@ -1832,3 +1832,12 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Added Halvor anti-Soren, Tamsin braid/injury, persistent brace, fused-tool, full-grown creature, and non-human botanical/architectural Crownroot controls.
 - Withheld seven authored rule/class/bond/status phrases from generated pixels for local lettering or nonverbal physical treatment.
 - Validation PASS; 33/33 adversarial mutations rejected. Provider calls/outputs/uploads/spend: 0/0/0/$0 at preflight.
+
+## CH12 complete default-route production and review r1 — 2026-09-03
+
+- Generated eight chronological sequences and deterministically cropped all 40 CH12 ComicPanelPlans.
+- Built complete reading, phone, sequence/contact, and lettering-safe-zone artifacts.
+- Delivered the map-falsification rupture, distinct solo failures, oatmeal/plaid sacrifices, verified signaling, action-first reunion, authority rules, bond restoration, key fusion, and Garden opening.
+- Triage: 35 PASS / 0 WARN / 5 FAIL. P025/P029 under-show their causal actions; P036/P038 reset Soren's sacrificed shoulder; P040 returns the Hollow Stag early.
+- Combined overlapping interval sum 2,113.601 seconds; group walls 420.731/427.911 seconds. Group 1 is timestamp-reconstructed and group 2 exact-wrapper observed. References 22; paid API/cloud spend $0; alternate arms/repairs 0/0.
+- Validator PASS with 21/21 adversarial mutations rejected. ADR-0213 preserves 35 hashes and continues directly to CH13.

@@ -632,6 +632,24 @@ Sixteen requests cover 80 unique plans with 40 authorized reference uses, zero d
 
 This is execution readiness, not rendered quality, acceptance, rights, clearance, reproducibility, or exact-base selection.
 
+## CH12 complete default-route benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete chronological chapter | 1 × 40 panels |
+| Sequence sources / panel candidates | 8 / 40 |
+| Agent triage PASS / WARN / FAIL | 35 / 0 / 5 |
+| Review artifacts | 5 / 5 |
+| Authorized reference uses | 22 |
+| Overlapping interval sum | 2,113.601 s |
+| Parallel group walls | 420.731 s / 427.911 s |
+| Reconstructed / exact-wrapper groups | 1 / 1 |
+| Alternate arms / repairs | 0 / 0 |
+| Adversarial mutations rejected | 21 / 21 |
+| Paid API/cloud spend | $0 |
+
+The route converts a large relationship and equipment progression into a complete visual arc while exposing two causal omissions, two shoulder-state resets, and one premature creature. This is provisional agent triage, not human acceptance or rights clearance.
+
 ## CH11 complete default-route benchmark — 2026-09-03
 
 | Measure | Result |

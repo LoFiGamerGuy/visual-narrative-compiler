@@ -409,3 +409,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Measure relationship rupture, two solo failures, two-way signaling, negotiated authority, and reconciliation as visual causality—not merely dialogue.
 4. Keep all generated output ineligible for re-upload and reserve the seven planned copy treatments for deterministic local lettering.
 5. Continue directly into CH13 after CH12 is bound; defer Halvor and earlier non-blocking repairs behind chronological breadth.
+
+## Active queue after CH12 complete default-route assembly — 2026-09-03
+
+1. Generate and assemble all eight CH13 sequences to complete the required eight-chapter Bell Road visual arc.
+2. Preserve Soren's sacrificed shoulder, Sigrid's shortened plaid flags, persistent brace, and fused Warden's Reach from CH13 P001 onward.
+3. Measure moving-glasshouse traversal, Crownroot's non-human form, pipe/water/structure causality, dual-consent circuit, living-guardian resolution, and wider-network hook.
+4. Keep CH12's five failures queued as three narrow repair units behind complete CH13 throughput.
+5. After CH13, build the eight-chapter CH06–CH13 review hub and make route/hardening recommendations from the whole visual arc.

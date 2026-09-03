@@ -682,6 +682,23 @@ The hub makes investigation-to-operational-base progression reviewable in one pa
 
 The explicit state block succeeds within one multi-panel call and removes Crownroot face ambiguity at the paired target. Independent-call persistence, deterministic reproduction, acceptance, and rights remain unproven or pending.
 
+## CH06–CH13 local-lettering benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete chapters | 8 |
+| Source panels | 320 |
+| Lettered panels | 80 |
+| Dialogue / system / SFX / captions | 49 / 15 / 10 / 6 |
+| Full reading / phone / beat-phone artifacts | 8 / 8 / 8 |
+| Aggregate sampler | 1 |
+| Total artifacts | 25 |
+| Source PASS / WARN / FAIL | 296 / 5 / 19 |
+| Mutations rejected | 10 / 10 |
+| New provider calls / uploads / paid spend | 0 / 0 / $0 |
+
+All copy fits normalized corner safe zones at source resolution. The packet is sparse narrative review evidence, not final typography, canon dialogue, acceptance, or rights clearance.
+
 ## CH12 complete default-route benchmark — 2026-09-03
 
 | Measure | Result |

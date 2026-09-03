@@ -441,3 +441,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Keep the five shoulder-hardening candidates diagnostic until explicit owner selection and hash-preserving assembly revision.
 4. Preserve Halvor identity as a separate future text-only or newly authorized reference experiment.
 5. After lettering preflight, choose between a limited lettered reading demo and the CH14–CH17 wider-network story-authoring stretch.
+
+## Active queue after eight-chapter sparse lettering review — 2026-09-03
+
+1. Present the aggregate progression, compact lettering packets, full chapter drafts, and shoulder hardening for owner review.
+2. If continuing without owner input, author CH14–CH17 as the wider-network arc before any duplicate chapter render arm.
+3. Keep future lettering at or below ten selected beats per 40-panel chapter unless comprehension evidence justifies more.
+4. Add final balloon-tail typography only after copy and candidate disposition; preserve corrected corner geometry.
+5. Keep exact source failures visible and separate repair selection from commercial/rights decisions.

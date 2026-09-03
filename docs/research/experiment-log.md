@@ -1866,3 +1866,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Reference uploads: 0. Client-observed elapsed time: 108.2 seconds. Paid API/cloud spend: $0.
 - Model, endpoint, request ID, usage, cost, seed, and cross-call reproducibility remain unavailable or unproven.
 - Validator PASS with 10/10 mutations rejected. ADR-0216 adopts explicit irreversible-state blocks but does not assemble any repair.
+
+## CH06–CH13 sparse local-lettering review r1 — 2026-09-03
+
+- Authored 80 unique ComicPanelPlan-bound beats: ten per chapter across CH06–CH13.
+- Rendered 8 complete reading drafts, 8 full phone scrolls, 8 compact beat-only phone reviews, and 1 aggregate sampler: 25 artifacts.
+- Copy mix: 49 dialogue / 15 system / 10 SFX / 6 captions. Source triage remains 296 PASS / 5 WARN / 19 FAIL.
+- Corrected safe-zone interpretation to normalized corner coordinates; historical width/height-interpreted overlays remain immutable diagnostics.
+- No provider call, upload, candidate generation, or paid spend. Validator PASS with 10/10 mutations rejected. ADR-0217 governs placement.

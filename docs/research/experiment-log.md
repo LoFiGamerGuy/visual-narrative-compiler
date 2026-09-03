@@ -1570,3 +1570,11 @@
 - Made armor, weapons, upgraded clothing, monsters, classes, and system UI explicit nullable progression fields rather than implicit prompt permissions.
 - Contract/template rebuild byte-identically; 15/15 malformed authority, schema, story, sequence, execution, and progression mutations fail under ADR-0177.
 - Story beats, North Garden plans, prompts, provider calls, uploads, candidates, acceptance, and spend remain zero.
+
+## 2026-09-02 - Complete-chapter semantic graph validation
+
+- Added a pre-prompt semantic validator with one six-panel/two-sequence synthetic adult-only positive graph; it creates no North Garden canon.
+- Positive validation passes 1/1; 23/23 adversarial mutations fail across 11 explicit check domains.
+- The validator rejects cross-medium/executable state, prompt/model leakage, unchanged closing state, count/identity/order errors, phase gaps, undeclared or child-coded roles, cadence collapse, unsafe lettering geometry, continuity breaks, sequence defects, and unbound progression assets.
+- Existing CH05 plans are evidence for the authoring contract but predate its richer fields and are not claimed to conform retroactively.
+- Prompts, provider calls, uploads, generated candidates, acceptance/rights decisions, and external spend remain zero.

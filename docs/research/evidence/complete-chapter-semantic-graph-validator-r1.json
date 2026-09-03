@@ -1,0 +1,72 @@
+{
+  "record_type": "CompleteChapterSemanticGraphValidatorEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-complete-chapter-semantic-graph-validator-r1",
+  "state": "SYNTHETIC_VALIDATION_ONLY_NO_CANON_CREATED",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "contract": {
+    "path": "production/comic/contracts/complete-chapter-comicpanelplan-authoring-contract-r1.json",
+    "sha256": "e112fcd5d2b450746a6a6ad827ba6dff4ff77a0bf10c212f4718a334dc3e9d4e"
+  },
+  "synthetic_positive_fixture": {
+    "sha256": "5a2e981a0bd4d81f50461e4e7d88631ef698eb0b3062906a7df0825e4216b33f",
+    "panel_count": 6,
+    "sequence_count": 2,
+    "phase_count": 6,
+    "north_garden_canon": false,
+    "validation_errors": []
+  },
+  "adversarial": {
+    "total": 23,
+    "rejected": 23,
+    "categories": [
+      "cross_medium",
+      "execution",
+      "prompt_leak",
+      "provider_leak",
+      "same_closing",
+      "count",
+      "duplicate_panel",
+      "display_gap",
+      "phase_missing",
+      "phase_function",
+      "undeclared_role",
+      "child_role",
+      "scale",
+      "density",
+      "lettering_absent",
+      "lettering_bounds",
+      "continuity_edge",
+      "sequence_size",
+      "sequence_order",
+      "sequence_overlap",
+      "sequence_id_mismatch",
+      "progression_leak",
+      "progression_weak"
+    ]
+  },
+  "checks": [
+    "planning_boundary",
+    "pre_promotion_forbidden_fields",
+    "opening_closing_change",
+    "panel_identity_and_order",
+    "six_phase_coverage",
+    "fictional_adult_roles",
+    "scale_and_density_cadence",
+    "lettering_safe_zones",
+    "panel_continuity_edges",
+    "sequence_order_contiguity_and_coverage",
+    "progression_canon_binding"
+  ],
+  "boundary": {
+    "north_garden_story_beats_created": 0,
+    "north_garden_panel_plans_created": 0,
+    "prompts_created": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "generated_candidates": 0,
+    "acceptance_or_rights_decisions": 0
+  }
+}

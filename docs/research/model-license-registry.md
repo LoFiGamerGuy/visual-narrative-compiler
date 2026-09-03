@@ -115,3 +115,5 @@ The r6 release and chapter inventory add no service operation and change no lice
 The cross-chapter regression reuses existing local pixels only. Its two derivatives do not alter the source images' mixed renderer provenance, review states, licenses, or commercial conclusions. ADR-0176 is a future-generation continuity rule and does not retroactively normalize historical provider metadata or rights.
 
 The complete-chapter authoring contract/template is provider-neutral metadata with zero prompts, calls, uploads, or candidates. It grants no new model, license, commercial-use, or data-upload authority.
+
+The semantic graph validator is local provider-neutral code. Its rejection of pre-promotion model/service/reference fields reinforces the existing license/upload boundary and creates no new authority.

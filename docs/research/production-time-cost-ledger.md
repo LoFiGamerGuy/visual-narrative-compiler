@@ -133,3 +133,5 @@ The r6 release binder and 63-plan chapter inventory add no provider call, upload
 The 23-panel cross-chapter regression packet adds two deterministic local derivatives from existing pixels and no renderer generation, provider call, upload, or external cost. It changes no historical or CH05 acceptance state. Human review minutes remain null.
 
 The complete-chapter authoring contract/template adds no story beat, panel plan, prompt, renderer generation, provider call, upload, candidate, acceptance, or external cost. Its validation uses local metadata and synthetic mutations only; human minutes remain null.
+
+The semantic graph validator adds one in-memory synthetic positive and 23 in-memory adversarial cases with no North Garden story, prompt, generation, provider call, upload, candidate, or external cost. Human minutes remain null.

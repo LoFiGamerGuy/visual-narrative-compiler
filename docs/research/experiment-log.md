@@ -1713,3 +1713,12 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Repeated adult-only, fixed-hair, signature-garment, physical-Ledger, lettering-safe, causal-motion, and no-reupload constraints in every request.
 - Result: PASS; adversarial self-test 24/24. Provider calls 0, outputs 0, paid API/cloud spend $0. Built-in service fields remain unavailable/null.
 - Decision: ADR-0198. Next: execute CH06 in chronological sequence order, crop/validate locally, and compile CH08–CH09 alongside production.
+
+## CH06 complete default-route production and review r1 — 2026-09-03
+
+- Generated eight chronological five-panel strips and deterministically cropped 40/40 CH06 panel candidates from 40 distinct ComicPanelPlans.
+- Built a complete variable-cadence reading draft, 390 px phone preview, sequence/contact sheets, and lettering-safe-zone overlay.
+- Preserved exact prompts, input-reference hashes, source/crop/artifact hashes, dimensions, null/unavailable service/timing fields, human-review state, and zero acceptance/clearance/exact-base claims.
+- Agent triage is 38 PASS / 1 WARN / 1 FAIL. P020 warns on Tamsin/Sigrid facial similarity; P030 fails for forbidden rendered Ledger prose. S08 footer numerals are excluded by recorded deterministic cropping.
+- Uses: 17 authorized references. Paid API/cloud spend: $0. Whole-chapter alternate arms: 0. Repairs: 0. Validator PASS with 16/16 adversarial mutations rejected.
+- Decision: ADR-0199. Continue into CH07 and CH08–CH09; allow one P030 no-text repair without rerolling passing panels.

@@ -1,0 +1,31 @@
+{
+  "record_type": "ChapterProductionTimeCostRecord",
+  "schema_version": "1.0",
+  "record_id": "ng-ch06-production-time-cost-record-r1",
+  "chapter": "CH06",
+  "mechanism": "OPENAI_BUILT_IN_IMAGEGEN_ONLY",
+  "sequence_requests": 8,
+  "sequence_outputs": 8,
+  "panel_candidates": 40,
+  "authorized_reference_uses": 17,
+  "direct_paid_api_requests": 0,
+  "cloud_gpu_operations": 0,
+  "paid_api_cloud_spend_usd": "0.000000",
+  "built_in_monetary_cost_usd": null,
+  "individual_elapsed_seconds": null,
+  "timing_availability": "UNAVAILABLE_NOT_ZERO_CLIENT_WRAPPER_DID_NOT_CAPTURE_PER_REQUEST",
+  "provider_usage": null,
+  "model": null,
+  "endpoint": null,
+  "provider_request_ids": null,
+  "deterministic_seeds": null,
+  "human_review_minutes": null,
+  "accepted_candidates": 0,
+  "commercially_cleared_candidates": 0,
+  "exact_production_base_candidates": 0,
+  "limitations": [
+    "The built-in product exposed no monetary cost or usage reconciliation.",
+    "The client wrapper did not capture per-request elapsed time for this batch; null must not be interpreted as zero.",
+    "Eight source outputs were generated in one single-request operation and two parallel groups, but group wall timing was not recorded as candidate timing."
+  ]
+}

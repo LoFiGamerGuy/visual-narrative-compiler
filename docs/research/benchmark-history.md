@@ -586,3 +586,19 @@ This is an authoring-completeness benchmark, not a render, art-quality, acceptan
 | Paid API/cloud spend | $0 |
 
 This measures execution readiness, not visual quality, acceptance, reproducibility, rights, commercial clearance, or exact-production-base fitness.
+
+## CH06 complete default-route benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete chronological chapters produced after CH05 | 1 |
+| Sequence sources / panel candidates | 8 / 40 |
+| ComicPanelPlan coverage | 40 / 40 |
+| Agent triage PASS / WARN / FAIL | 38 / 1 / 1 |
+| Required review artifacts | 5 / 5 |
+| Authorized reference uses | 17 |
+| Alternate whole-chapter arms / targeted repairs | 0 / 0 |
+| Adversarial validator mutations rejected | 16 / 16 |
+| Paid API/cloud spend | $0 |
+
+P020 is a role-separation warning and P030 is an unrequested-text failure. Built-in monetary cost and per-request elapsed time are unavailable. This benchmark does not establish human acceptance, rights, commercial clearance, reproducibility, or exact-base fitness.

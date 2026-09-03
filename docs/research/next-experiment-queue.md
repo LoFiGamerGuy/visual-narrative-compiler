@@ -297,3 +297,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Deterministically crop, assemble, and validate a complete CH06 phone-reading draft before any targeted repair or alternate style.
 4. Compile CH08–CH09 complete ComicPanelPlans while CH06 production runs; do not return to CH05 style duplication.
 5. After CH06 assembly, continue directly into CH07 and then CH08–CH09. Permit repairs only for explicit causal, continuity, lettering-clearance, or legibility failures.
+
+## Active queue after CH06 complete default-route assembly — 2026-09-03
+
+1. Generate and assemble all eight CH07 sequences before any alternate chapter style.
+2. Complete CH08–CH09 authoring with exact CH07→CH08→CH09 inherited state while art production continues.
+3. Run one P030 repair constrained to the physical Ledger mechanism with no readable prose; preserve the other 39 selected panel hashes.
+4. Keep P020 unchanged unless owner review confirms Tamsin/Sigrid role confusion; clothing distinction currently keeps it story-readable.
+5. Continue into CH08 production and CH10–CH11 authoring after CH07; do not return to wholesale CH05/CH06 style arms.

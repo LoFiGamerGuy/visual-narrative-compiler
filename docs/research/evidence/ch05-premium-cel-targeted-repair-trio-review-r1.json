@@ -1,0 +1,203 @@
+{
+  "record_type": "CH05PremiumCelTargetedRepairTrioReviewEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-premium-cel-targeted-repair-trio-review-r1",
+  "state": "NON_GATING_AGENT_TRIAGE_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "sources": [
+    {
+      "path": "production/comic/run-manifests/ch05-premium-cel-targeted-repair-trio-execution-r1.json",
+      "sha256": "23e399329bfe22cb0732f7ba5d147a56e178c081709340926f6e9fa18b81b28f"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-premium-cel-targeted-repair-trio-r1.json",
+      "sha256": "50c19bd5226c3605aac28c310b79c9c62846a03d454f9dbff0d0a2ce14152636"
+    }
+  ],
+  "summary": {
+    "source_outputs": 3,
+    "phone_previews": 3,
+    "safe_zone_overlays": 3,
+    "pass": 2,
+    "warn": 1,
+    "fail": 0,
+    "owner_reviews": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "exact_production_base": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "external_cost_usd": "0.000000"
+  },
+  "triage": [
+    {
+      "panel_id": "ng-ch05-sc01-p001",
+      "display_order": 1,
+      "source_output": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P001-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "505c8209f6c4c3652b7dd0e69673004cb90de29cdfb8ca26828d4aa5409f2e36",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2636163
+      },
+      "agent_triage": {
+        "status": "PASS",
+        "summary": "Cold farmhouse is behind and upslope; both adults show backs/three-quarter backs and travel downhill away.",
+        "target_checks": {
+          "cold_house_no_smoke_glow_or_lit_window": "PASS",
+          "farmhouse_behind_and_upslope": "PASS",
+          "backs_and_downhill_away_travel": "PASS",
+          "sigrid_leads_soren_follows": "PASS"
+        },
+        "hair_wardrobe": {
+          "soren": "PASS",
+          "sigrid": "PASS"
+        }
+      },
+      "owner_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p032",
+      "display_order": 32,
+      "source_output": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P032-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "5b07b01c04b951b1bbdc0703cdaec82a3816512ee4cf86fc5203452562ab192d",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2835821
+      },
+      "agent_triage": {
+        "status": "WARN",
+        "summary": "Far dry bank and water separation pass; exact heel/toe facing remains pending owner confirmation at 390px.",
+        "target_checks": {
+          "far_dry_bank_only": "PASS",
+          "water_gap_and_bank_separation": "PASS",
+          "no_near_bank_or_water_prints": "PASS",
+          "heel_toe_orientation_at_phone_width": "WARN_OWNER_REVIEW_REQUIRED"
+        },
+        "hair_wardrobe": {
+          "soren": "PASS",
+          "sigrid": "NOT_APPLICABLE"
+        }
+      },
+      "owner_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p039",
+      "display_order": 39,
+      "source_output": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P039-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "d7714ebe9d6646a23ee0b38f2c8e872fc18163c5297c83c288cf55211ea17281",
+        "width": 1023,
+        "height": 1537,
+        "bytes": 2642455
+      },
+      "agent_triage": {
+        "status": "PASS",
+        "summary": "Square farmhouse, circular mill, and third upstream mark appear simultaneously; Soren's finger rests on the third mark.",
+        "target_checks": {
+          "square_circle_and_third_mark_simultaneous": "PASS",
+          "third_mark_upstream_near_torn_edge": "PASS",
+          "finger_on_third_mark": "PASS",
+          "single_uninterrupted_map_surface": "PASS"
+        },
+        "hair_wardrobe": {
+          "soren": "PARTIAL_PASS_VISIBLE_HEAD_AND_COAT",
+          "sigrid": "NOT_APPLICABLE"
+        }
+      },
+      "owner_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    }
+  ],
+  "review_artifacts": {
+    "native_comparison": {
+      "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/review/targeted-repair-native-comparison-r1.png",
+      "sha256": "480e957122a5472745922b31559c1a500883caf426ee2dfecd175818bc07450f",
+      "width": 1680,
+      "height": 854,
+      "bytes": 1405659
+    },
+    "phone_390_comparison": {
+      "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/review/targeted-repair-phone-390-comparison-r1.png",
+      "sha256": "7a48c9a76e260892b0cedfbe5cad51d8151b08fadfcf9dd53021e8363c918a33",
+      "width": 430,
+      "height": 1677,
+      "bytes": 984175
+    },
+    "safe_zone_comparison": {
+      "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/review/targeted-repair-safe-zone-comparison-r1.png",
+      "sha256": "3f6b31e4c3e27ddb7da8400b6fd6236bcea98ea35967b3563ef93e1af9bef605",
+      "width": 1680,
+      "height": 854,
+      "bytes": 1400152
+    },
+    "phone_previews": [
+      {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/review/phone-390/P001-phone-390-r1.png",
+        "sha256": "353c6679d4e3df0a5cf7c142eb7bc05db2c30577f1363c24c124dcea66042e27",
+        "width": 390,
+        "height": 260,
+        "bytes": 179922
+      },
+      {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/review/phone-390/P032-phone-390-r1.png",
+        "sha256": "8c01f837a489f9e04da83dde83ff7c5e6ad3324a348608755136476c401f8971",
+        "width": 390,
+        "height": 585,
+        "bytes": 399189
+      },
+      {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/review/phone-390/P039-phone-390-r1.png",
+        "sha256": "64b1b43e0014b4feb3a06b6e9807312784ebab399bd4d082270791f06641c62c",
+        "width": 390,
+        "height": 586,
+        "bytes": 380341
+      }
+    ],
+    "safe_zone_overlays": [
+      {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/review/safe-zone-overlays/P001-safe-zone-overlay-r1.png",
+        "sha256": "ffafcfb5b488692fa963c346dbed1cc4bb882baf1b66e515823b9a9cf8590de4",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2420050
+      },
+      {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/review/safe-zone-overlays/P032-safe-zone-overlay-r1.png",
+        "sha256": "9088568223841830ff6ecdf60d2c669cfc6611fd3bdb69e62f1b08552805f74d",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2537704
+      },
+      {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/review/safe-zone-overlays/P039-safe-zone-overlay-r1.png",
+        "sha256": "966d05c62c664dd300614eb5ddb4b0c573230d22e8f41ed2cc2054b7b87cf0c7",
+        "width": 1023,
+        "height": 1537,
+        "bytes": 2600621
+      }
+    ]
+  },
+  "limitations": [
+    "Agent visual triage is non-gating and does not replace owner review.",
+    "P032 remains WARN because exact heel/toe orientation requires owner confirmation at 390px.",
+    "P039 Soren continuity is a partial pass because only the visible head/coat portion can be reviewed.",
+    "The safe-zone overlays visualize declared rectangles; they do not prove semantic clearance automatically.",
+    "No output is accepted, commercially cleared, or selected as an exact production base."
+  ]
+}

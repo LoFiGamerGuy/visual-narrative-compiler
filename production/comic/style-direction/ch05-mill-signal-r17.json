@@ -1,0 +1,57 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "2.6",
+  "record_id": "ng-comic-style-ch05-mill-signal-r17",
+  "state": "SEMANTIC_PASS_HYBRID_REVIEW_READY_FLAT_GOUACHE_PREFLIGHT",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r16",
+    "path": "production/comic/style-direction/ch05-mill-signal-r16.json",
+    "sha256": "9df065c2e2c11b82d1c7dbb05cc2238ec1247b8bee8cae7bf2f71453d7dcf859"
+  },
+  "selected_engineering_mechanism": "complete sequence-strip generation, deterministic ComicPanelPlan crop extraction, variable-cadence clean/lettered phone review, cross-panel semantic triage, and hash-isolated panel selection or repair",
+  "route_ranking": [
+    {"rank": 1, "route": "r6_plus_semantic_gates", "role": "semantic base", "triage": {"pass": 47, "warn": 1, "fail": 2}},
+    {"rank": 2, "route": "clear_line_watercolor_r1", "role": "style-development lead", "triage": {"pass": 45, "warn": 2, "fail": 3}},
+    {"rank": 3, "route": "premium_cel_r1", "role": "selected-panel source", "triage": {"pass": 40, "warn": 5, "fail": 5}},
+    {"rank": 4, "route": "alternate_graphic_r1", "role": "blocking and density control", "triage": {"pass": 36, "warn": 7, "fail": 7}}
+  ],
+  "semantic_pass_hybrid": {
+    "assembly": "production/comic/run-manifests/ch05-semantic-pass-hybrid-assembly-r1.json",
+    "assembly_sha256": "57ef042ed24b089ea7c2ec13b6709f82c55fc5770bd1c0452d9e169bf7d38074",
+    "selected_counts": {"r6": 28, "clear_line_watercolor": 9, "premium_cel": 11, "targeted_repairs": 2},
+    "triage": {"pass": 49, "warn": 1, "fail": 0},
+    "sole_warning": "P032 far-bank heel/toe direction remains ambiguous at phone width",
+    "adjacent_route_transitions": 33,
+    "status": "REVIEW_ONLY_NOT_UNIFORM_FINISH_NOT_ACCEPTED"
+  },
+  "targeted_repairs": {
+    "execution_manifest": "production/comic/run-manifests/ch05-premium-cel-targeted-repair-trio-execution-r1.json",
+    "execution_manifest_sha256": "23e399329bfe22cb0732f7ba5d147a56e178c081709340926f6e9fa18b81b28f",
+    "results": {"P001": "PASS", "P032": "WARN", "P039": "PASS"},
+    "reference_uses": 6,
+    "overlap_adjusted_tool_call_wall_seconds": 169.0
+  },
+  "next_complete_chapter_arm": {
+    "style": "flat graphic gouache with 4–6 broad value/color masses, crisp contour hierarchy, simplified silhouette backgrounds, and one localized active-clue texture at most",
+    "prompt_manifest": "production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-prompt-manifest-r1.json",
+    "prompt_manifest_sha256": "02cdc90aca146f612394ef8feed6c6a18a33391dcae1a8c025444e0b1f789e84",
+    "sequence_requests": 11,
+    "comic_panel_plans": 50,
+    "planned_reference_uses": 23,
+    "cross_panel_gates": 8,
+    "required_gate_phrase_bindings": 15,
+    "preflight_state": "PASS"
+  },
+  "promotion_boundary": "All art remains pending owner review, unaccepted, commercially uncleared, non-reproducible, and not an exact production base.",
+  "limitations": [
+    "The hybrid has 33 adjacent route transitions and is not a uniform-finish recommendation.",
+    "P032 remains WARN after multiple stochastic attempts.",
+    "Style labels have not reliably controlled pixel density.",
+    "Built-in model, endpoint, request IDs, usage, monetary cost, and seed remain unavailable."
+  ],
+  "adrs": ["ADR-0184", "ADR-0185", "ADR-0186", "ADR-0187"]
+}

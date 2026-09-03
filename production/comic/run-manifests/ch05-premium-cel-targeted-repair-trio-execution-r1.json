@@ -1,0 +1,318 @@
+{
+  "record_type": "CH05PremiumCelTargetedRepairTrioExecutionManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-premium-cel-targeted-repair-trio-execution-r1",
+  "state": "THREE_OUTPUTS_EXECUTED_UNACCEPTED_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "preflight_manifest": {
+    "path": "production/comic/run-manifests/ch05-premium-cel-targeted-repair-trio-r1.json",
+    "sha256": "50c19bd5226c3605aac28c310b79c9c62846a03d454f9dbff0d0a2ce14152636"
+  },
+  "summary": {
+    "standalone_outputs": 3,
+    "comic_panel_plans": 3,
+    "authorized_reference_uses": 6,
+    "unique_timing_batches": 1,
+    "overlap_adjusted_tool_call_wall_seconds": 169.0,
+    "timing_scope": "One concurrent Codex ImageGen tool-call batch at 0.1-second precision; includes queue, generation, and transfer time exposed to the caller.",
+    "per_output_elapsed_seconds_available": 0,
+    "direct_paid_provider_api_calls": 0,
+    "paid_spend_usd": 0.0,
+    "human_reviewed_outputs": 0,
+    "accepted_outputs": 0,
+    "commercially_cleared_outputs": 0,
+    "exact_production_base_outputs": 0
+  },
+  "timing_batches": [
+    {
+      "timing_batch_id": "pc-repair-b01-parallel",
+      "wall_seconds": 169.0,
+      "member_panel_ids": [
+        "ng-ch05-sc01-p001",
+        "ng-ch05-sc01-p032",
+        "ng-ch05-sc01-p039"
+      ],
+      "member_execution_ids": [
+        "exec-4d3dacc5-70fe-4be2-99c6-1b644c47d3f6",
+        "exec-6b1b8988-6eee-4098-8992-6fcf739ee3c2",
+        "exec-5b639804-ce1c-4658-8ae3-65d97a20fd55"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "request_id": "ch05-premium-cel-repair-p001-r1",
+      "panel_id": "ng-ch05-sc01-p001",
+      "display_order": 1,
+      "comic_panel_plan_revision_id": "ng-ch05-sc01-p001-plan-r1",
+      "comic_panel_plan_canonical_sha256": "f51a6ff21dc0976e400103485c9bc1775d0dbc5493ebdf201b1a94f8ac90ab44",
+      "prompt_revision_id": "ng-ch05-p001-premium-cel-clean-graphic-repair-prompt-r1",
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 targeted repair, exact ComicPanelPlan P001, one standalone panel\nInput images: Image 1 is the exact authorized fictional-adult P050 dual-character identity, hair, wardrobe, silhouette, and clean-graphic action reference. Image 2 is the exact authorized fictional-adult P040 Sigrid face, dark-hair, plaid-wrap, and premium-cel finish reference. Use them only for fictional identity/wardrobe/style continuity; obey this request's exact cast and do not add a referenced person who is absent from the ComicPanelPlan.\nComicPanelPlan beat: The pair leave the farmhouse before the damp grass dries.\nExact panel direction: Wide single panel at damp dawn. Place the farmhouse high in the rear-left background and the descending trail moving clearly toward the lower-right foreground. Sigrid is one stride ahead, Soren follows. Show their backs or three-quarter backs, downhill gazes, forward weight shifts, downhill-leading feet, damp coat and wrap movement, and grounded footfalls. The house must read as the place they have left, not their destination. Keep the upper-left lettering field quiet without hiding the cold chimney, either adult, face silhouette, or travel vector.\nExact repair requirements: Unmistakable left-to-right downhill-away travel vector. The cold, dark farmhouse is physically behind both adults and upslope, never ahead of them. Both adults' backs, gazes, torsos, and leading feet point downhill away from the farmhouse. Farmhouse chimney and windows show no smoke, glow, firelight, or lit panes. Sigrid leads by one grounded stride and Soren follows without reversing role order.\nNegative constraints: No uphill walking, no walking toward or facing the farmhouse, no farmhouse ahead, no frontal arrival pose, no chimney smoke, no vapor resembling smoke, no glow, no lit window, no firelight, no sunrise flare behind the chimney.\nPremium cel-painted / clean graphic hybrid fantasy-adventure webcomic: broad clean shapes, bold controlled contours, shaped two-tier cel shadows, restrained painterly atmosphere, low microtexture, strong silhouettes, explicit causal geometry, and phone-width clarity. Keep the image illustrative rather than photorealistic; avoid decorative hatching and density that competes with the target clue.\nFictional mature adults only with mature proportions and practical non-sexualized clothing. Soren has short-to-medium wavy light-brown/dark-blond swept-back hair, never black, and a pale oatmeal work coat over muted blue-gray layers. Sigrid, if visible, has dark-brown/near-black tied-back hair, never blond, and a dark blue-brown plaid wrap over gray-green layers. No child-coded features, real-person likeness, sexualization, extra people, monsters, armor, magic, or undeclared weapons.\nNo text: no balloons, captions, words, letters, labels, sound effects, panel numbers, logos, signatures, or watermark.\nCross-panel semantic gates (literal visual requirements): farmhouse chimney completely cold: no smoke, no glow, no lit window; travel downhill away from the farmhouse with the farmhouse clearly behind them.\nOutput: exactly one standalone P001 panel, no gutters, no contact sheet, no alternate, composed for 1536x1024 delivery and readable at 390px phone width.",
+      "prompt_sha256": "e3342750f145d2d09cb30111389ea40d337906141bb18f02632ab9a890d036bc",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "reference_use_count": 2,
+      "cross_panel_gate_bindings": [
+        {
+          "gate_id": "cold_farmhouse_until_reversal",
+          "panel_id": "ng-ch05-sc01-p001",
+          "required_prompt_phrase": "farmhouse chimney completely cold: no smoke, no glow, no lit window"
+        },
+        {
+          "gate_id": "departure_vector",
+          "panel_id": "ng-ch05-sc01-p001",
+          "required_prompt_phrase": "travel downhill away from the farmhouse with the farmhouse clearly behind them"
+        }
+      ],
+      "lettering_safe_zones": [
+        {
+          "anchor": "top_left",
+          "rect_norm": [
+            0.04,
+            0.04,
+            0.3,
+            0.18
+          ]
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-4d3dacc5-70fe-4be2-99c6-1b644c47d3f6",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "pc-repair-b01-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 169.0,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P001-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "505c8209f6c4c3652b7dd0e69673004cb90de29cdfb8ca26828d4aa5409f2e36",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2636163,
+        "planned_dimensions": {
+          "width_px": 1536,
+          "height_px": 1024
+        },
+        "planned_dimensions_match": true
+      },
+      "human_review_state": "PENDING_OWNER_REVIEW",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "request_id": "ch05-premium-cel-repair-p032-r1",
+      "panel_id": "ng-ch05-sc01-p032",
+      "display_order": 32,
+      "comic_panel_plan_revision_id": "ng-ch05-sc01-p032-plan-r1",
+      "comic_panel_plan_canonical_sha256": "0b6eb0fe6ab69ced190fa2e740ae3ea754ff01934f099d09b2b8334dded2fe0e",
+      "prompt_revision_id": "ng-ch05-p032-premium-cel-clean-graphic-repair-prompt-r1",
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 targeted repair, exact ComicPanelPlan P032, one standalone panel\nInput images: Image 1 is the exact authorized fictional-adult P050 dual-character identity, hair, wardrobe, silhouette, and clean-graphic action reference. Image 2 is the exact authorized fictional-adult P040 Sigrid face, dark-hair, plaid-wrap, and premium-cel finish reference. Use them only for fictional identity/wardrobe/style continuity; obey this request's exact cast and do not add a referenced person who is absent from the ComicPanelPlan.\nComicPanelPlan beat: Soren sees the footprints begin again on the far side, facing back.\nExact panel direction: Single tall deep-perspective panel from just behind Soren on the near bank. His oatmeal shoulder and light-brown hair frame the near foreground without covering the clue. A clear uninterrupted creek separates him from the far dry bank. On that far dry ground only, render a short row of deliberately oversized asymmetric boot impressions: broad toe shapes visibly nearest the camera/Soren side of each print and narrower heels farther away, so the prints face back toward Soren/camera. Use broad simple shapes and strong value separation. Keep the upper-right lettering field quiet and clear of Soren and prints.\nExact repair requirements: Soren stands on the near bank and does not cross the water. No footprints or footprint-like marks appear on the near bank, in the water, or on stepping stones. Oversized, readable footprints begin only on dry ground beyond the far water edge. Every far-bank print has an asymmetric heel and toe shape pointing back toward Soren and camera. Water gap and bank separation remain readable at phone width without labels or arrows.\nNegative constraints: No near-bank prints, no prints in water, no stepping-stone prints, no symmetrical ovals, no tiny unreadable marks, no tracks pointing away from Soren, no second person, no Sigrid, no arrows, labels, captions, or diagram notation.\nPremium cel-painted / clean graphic hybrid fantasy-adventure webcomic: broad clean shapes, bold controlled contours, shaped two-tier cel shadows, restrained painterly atmosphere, low microtexture, strong silhouettes, explicit causal geometry, and phone-width clarity. Keep the image illustrative rather than photorealistic; avoid decorative hatching and density that competes with the target clue.\nFictional mature adults only with mature proportions and practical non-sexualized clothing. Soren has short-to-medium wavy light-brown/dark-blond swept-back hair, never black, and a pale oatmeal work coat over muted blue-gray layers. Sigrid, if visible, has dark-brown/near-black tied-back hair, never blond, and a dark blue-brown plaid wrap over gray-green layers. No child-coded features, real-person likeness, sexualization, extra people, monsters, armor, magic, or undeclared weapons.\nNo text: no balloons, captions, words, letters, labels, sound effects, panel numbers, logos, signatures, or watermark.\nCross-panel semantic gates (literal visual requirements): far-bank prints begin on dry ground and asymmetric heel-toe shapes point back toward Soren.\nOutput: exactly one standalone P032 panel, no gutters, no contact sheet, no alternate, composed for 1024x1536 delivery and readable at 390px phone width.",
+      "prompt_sha256": "1ffad1b5ff95686736c06b522afae574d1fc69fcff4168aba838a168083daa84",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "reference_use_count": 2,
+      "cross_panel_gate_bindings": [
+        {
+          "gate_id": "impossible_far_bank_prints",
+          "panel_id": "ng-ch05-sc01-p032",
+          "required_prompt_phrase": "far-bank prints begin on dry ground and asymmetric heel-toe shapes point back toward Soren"
+        }
+      ],
+      "lettering_safe_zones": [
+        {
+          "anchor": "top_right",
+          "rect_norm": [
+            0.66,
+            0.04,
+            0.3,
+            0.18
+          ]
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-6b1b8988-6eee-4098-8992-6fcf739ee3c2",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "pc-repair-b01-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 169.0,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P032-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "5b07b01c04b951b1bbdc0703cdaec82a3816512ee4cf86fc5203452562ab192d",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2835821,
+        "planned_dimensions": {
+          "width_px": 1024,
+          "height_px": 1536
+        },
+        "planned_dimensions_match": true
+      },
+      "human_review_state": "PENDING_OWNER_REVIEW",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    },
+    {
+      "request_id": "ch05-premium-cel-repair-p039-r1",
+      "panel_id": "ng-ch05-sc01-p039",
+      "display_order": 39,
+      "comic_panel_plan_revision_id": "ng-ch05-sc01-p039-plan-r1",
+      "comic_panel_plan_canonical_sha256": "e363f4d83168d2aa5c40797a449b2ba65c19384050d9e4eace68a439f91289b9",
+      "prompt_revision_id": "ng-ch05-p039-premium-cel-clean-graphic-repair-prompt-r1",
+      "prompt_text": "Use case: illustration-story\nAsset type: North Garden CH05 targeted repair, exact ComicPanelPlan P039, one standalone panel\nInput images: Image 1 is the exact authorized fictional-adult P050 dual-character identity, hair, wardrobe, silhouette, and clean-graphic action reference. Image 2 is the exact authorized fictional-adult P040 Sigrid face, dark-hair, plaid-wrap, and premium-cel finish reference. Use them only for fictional identity/wardrobe/style continuity; obey this request's exact cast and do not add a referenced person who is absent from the ComicPanelPlan.\nComicPanelPlan beat: A third mark is visible upstream, beyond the map edge.\nExact panel direction: Single sparse top-down map close-up, not a collage and not multiple panels. In one uninterrupted paper surface show the creek line, one small square farmhouse symbol, one circle mill symbol, and a clearly different third upstream mark placed at the torn paper edge. All three symbols must be visible simultaneously with generous blank separation. Soren's mature hand enters from the lower-right in an oatmeal sleeve and his fingertip stops exactly on the third torn-edge mark. A restrained partial Soren profile may appear only if it does not reduce map clarity. Keep the upper-left lettering field quiet without covering the map or any mark.\nExact repair requirements: One uninterrupted map view simultaneously shows exactly one square farmhouse symbol, one circle mill symbol, and one distinct third upstream mark at the torn edge. All three marks remain individually readable at phone width and are not split across panels or paper fragments. The creek line visibly links the spatial reading while the third mark continues upstream beyond the torn edge. Soren's oatmeal-sleeved adult finger points precisely at the third mark, not the square or circle. No written labels, legend, numbers, arrows, or extra symbol-like clutter compete with the three marks.\nNegative constraints: No separate paper fragment, no cropped-off symbol, no sequential inset, no hidden square or circle, no fourth mark, no finger on the farmhouse or mill, no written words, labels, legend, compass letters, numbers, arrows, or decorative rune clutter.\nPremium cel-painted / clean graphic hybrid fantasy-adventure webcomic: broad clean shapes, bold controlled contours, shaped two-tier cel shadows, restrained painterly atmosphere, low microtexture, strong silhouettes, explicit causal geometry, and phone-width clarity. Keep the image illustrative rather than photorealistic; avoid decorative hatching and density that competes with the target clue.\nFictional mature adults only with mature proportions and practical non-sexualized clothing. Soren has short-to-medium wavy light-brown/dark-blond swept-back hair, never black, and a pale oatmeal work coat over muted blue-gray layers. Sigrid, if visible, has dark-brown/near-black tied-back hair, never blond, and a dark blue-brown plaid wrap over gray-green layers. No child-coded features, real-person likeness, sexualization, extra people, monsters, armor, magic, or undeclared weapons.\nNo text: no balloons, captions, words, letters, labels, sound effects, panel numbers, logos, signatures, or watermark.\nCross-panel semantic gates (literal visual requirements): three distinct upstream marks including the third mark at the torn edge.\nOutput: exactly one standalone P039 panel, no gutters, no contact sheet, no alternate, composed for 1024x1536 delivery and readable at 390px phone width.",
+      "prompt_sha256": "835be2ae54442e5fd818577973d01603680de0f7e9c7ce0d4445647fc4c54438",
+      "input_references": [
+        {
+          "reference_id": "p050_dual_identity_action",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+          "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+          "role": "primary dual-character hair, wardrobe, silhouette, and clean-graphic action anchor"
+        },
+        {
+          "reference_id": "p040_sigrid_face",
+          "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+          "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+          "role": "primary Sigrid face, dark hair, plaid wrap, and mature cel-painted close anchor"
+        }
+      ],
+      "reference_use_count": 2,
+      "cross_panel_gate_bindings": [
+        {
+          "gate_id": "third_upstream_mark",
+          "panel_id": "ng-ch05-sc01-p039",
+          "required_prompt_phrase": "three distinct upstream marks including the third mark at the torn edge"
+        }
+      ],
+      "lettering_safe_zones": [
+        {
+          "anchor": "top_left",
+          "rect_norm": [
+            0.04,
+            0.04,
+            0.3,
+            0.18
+          ]
+        }
+      ],
+      "execution": {
+        "tool_mode": "openai_builtin_imagegen_in_codex",
+        "tool_service_execution_id": "exec-5b639804-ce1c-4658-8ae3-65d97a20fd55",
+        "tool_service_execution_id_is_provider_request_id": false,
+        "timing_batch_id": "pc-repair-b01-parallel",
+        "elapsed_seconds": null,
+        "parallel_batch_wall_seconds": 169.0,
+        "model": null,
+        "endpoint": null,
+        "provider_request_id": null,
+        "usage": null,
+        "cost_usd": null,
+        "deterministic_seed": null,
+        "unavailable_fields": [
+          "model",
+          "endpoint",
+          "provider_request_id",
+          "usage",
+          "cost_usd",
+          "deterministic_seed"
+        ]
+      },
+      "output": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P039-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "d7714ebe9d6646a23ee0b38f2c8e872fc18163c5297c83c288cf55211ea17281",
+        "width": 1023,
+        "height": 1537,
+        "bytes": 2642455,
+        "planned_dimensions": {
+          "width_px": 1024,
+          "height_px": 1536
+        },
+        "planned_dimensions_match": false
+      },
+      "human_review_state": "PENDING_OWNER_REVIEW",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false,
+      "generation_reproducible": false
+    }
+  ],
+  "limitations": [
+    "The built-in tool exposed no model, endpoint, provider request ID, usage, monetary cost, or deterministic seed.",
+    "Tool-service execution IDs are provenance aids and are not provider request IDs.",
+    "Parallel execution exposes batch wall only; all three per-output elapsed times remain null.",
+    "P039 decoded at 1023x1537 rather than its planned 1024x1536; exact output dimensions are preserved without resampling.",
+    "Agent triage is non-gating and does not replace owner review.",
+    "No output is accepted, commercially cleared, or selected as an exact production base."
+  ],
+  "boundary": {
+    "permitted_product": "openai_builtin_imagegen",
+    "direct_paid_provider_api_calls": 0,
+    "bfl_calls": 0,
+    "gemini_calls": 0,
+    "xai_calls": 0,
+    "new_upload_classes": 0,
+    "real_person_or_child_material": 0
+  }
+}

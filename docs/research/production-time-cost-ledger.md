@@ -152,3 +152,9 @@ Direct paid API/cloud calls, BFL calls, and paid API/cloud spend are 0/0/$0. Bui
 Eleven OpenAI built-in ImageGen tool calls produced 11 sequence rasters and 50 deterministic panel crops using 23 authorized reference uses. Six overlap-adjusted timing batches total 1,090.0 seconds. Only S01 has an individual duration (104.6 seconds); paired-request individual durations remain null rather than sharing or duplicating batch wall time.
 
 Across the alternate-graphic and clear-line-watercolor complete-chapter arms, the continuation now totals 22 built-in outputs, 100 deterministic crops, 46 authorized reference uses, and 2,044.3 seconds of overlap-adjusted tool-call wall. Direct paid API/cloud calls, BFL calls, and direct paid API/cloud spend remain 0/0/$0. Built-in monetary cost, model, endpoint, request IDs, usage, and seeds remain unavailable. Human-review minutes, acceptance, commercial clearance, and exact-base status remain null/zero.
+
+## 2026-09-02 premium-cel and targeted-repair continuation
+
+Premium cel adds 11 built-in tool calls/outputs, 50 local crops, 23 authorized reference uses, six timing batches, and 1,234.0 seconds of overlap-adjusted tool-call wall. Across the three complete comparison arms, cumulative activity is 33 calls/outputs, 150 crops, 69 reference uses, 18 batches, and 3,278.3 seconds. Cost ledger r33 keeps crops separate from service-call/output counts.
+
+The targeted repair trio adds three concurrently issued built-in calls/outputs, six reference uses, one timing batch, and 169.0 seconds of overlap-adjusted wall. Direct paid API/cloud and BFL activity remain 0/$0. Built-in monetary cost and service metadata remain unavailable; human review, acceptance, commercial clearance, and exact-base counts remain zero/pending.

@@ -204,3 +204,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 4. Build a conservative review-only best-of assembly using only exact semantic PASS candidates; preserve r6 wherever a newer arm regresses or remains ambiguous.
 5. Keep P001 departure, P032 toe/heel direction, P039 simultaneous three-mark framing, and P043 map possession as explicit cross-panel review gates. Do not hide them with style preference.
 6. Keep armor, weapons, monsters, class gear, and wardrobe upgrades in the separate non-canon LitRPG stream until a ComicPanelPlan/canon revision explicitly authorizes them.
+
+## Active queue after semantic-pass hybrid — 2026-09-02
+
+1. Execute the preflighted 11-request/50-plan flat graphic-gouache complete arm through only the authorized built-in ImageGen product and three exact references.
+2. Bind 11 RenderRecords, 50 crops, complete clean/lettered/phone/continuity/triage packets, and compare measured density against all four existing routes.
+3. Preserve the semantic-pass hybrid as review-only integration evidence; do not treat its 33 route transitions as a production finish.
+4. Keep P032 WARN until heel/toe direction is unambiguous at 390px; do not spend repeated low-information stochastic attempts without a new geometry mechanism.
+5. After the flat-gouache arm, recommend a chapter cadence that assigns finish/density by narrative role while minimizing adjacent style discontinuities.

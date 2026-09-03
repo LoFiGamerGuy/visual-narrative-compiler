@@ -1,0 +1,83 @@
+{
+  "record_type": "CH05TargetedRepairTrioAgentTriage",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-targeted-repair-trio-agent-triage-r1",
+  "state": "NON_GATING_AGENT_TRIAGE_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-premium-cel-targeted-repair-trio-r1.json",
+      "sha256": "50c19bd5226c3605aac28c310b79c9c62846a03d454f9dbff0d0a2ce14152636"
+    }
+  ],
+  "summary": {
+    "candidates": 3,
+    "pass": 2,
+    "warn": 1,
+    "fail": 0,
+    "selected_for_hybrid": 2
+  },
+  "rows": [
+    {
+      "display_order": 1,
+      "panel_id": "ng-ch05-sc01-p001",
+      "candidate_id": "targeted-trio-r1-p001",
+      "source": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P001-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "505c8209f6c4c3652b7dd0e69673004cb90de29cdfb8ca26828d4aa5409f2e36",
+        "width": 1536,
+        "height": 1024
+      },
+      "status": "PASS",
+      "note": "Cold farmhouse is physically behind and upslope; both adults show a clear backs-to-camera downhill-away vector with Sigrid leading.",
+      "review_basis": "manual_visual_semantic_gate_triage",
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    },
+    {
+      "display_order": 32,
+      "panel_id": "ng-ch05-sc01-p032",
+      "candidate_id": "targeted-trio-r1-p032",
+      "source": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P032-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "5b07b01c04b951b1bbdc0703cdaec82a3816512ee4cf86fc5203452562ab192d",
+        "width": 1024,
+        "height": 1536
+      },
+      "status": "WARN",
+      "note": "Prints are confined to the far dry bank, but their asymmetric toe/heel direction back toward Soren remains ambiguous; do not select.",
+      "review_basis": "manual_visual_semantic_gate_triage",
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    },
+    {
+      "display_order": 39,
+      "panel_id": "ng-ch05-sc01-p039",
+      "candidate_id": "targeted-trio-r1-p039",
+      "source": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P039-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "d7714ebe9d6646a23ee0b38f2c8e872fc18163c5297c83c288cf55211ea17281",
+        "width": 1023,
+        "height": 1537
+      },
+      "status": "PASS",
+      "note": "One uninterrupted map view simultaneously shows square farmhouse, circular mill, distinct torn-edge upstream diamond, and Soren's finger at the third mark.",
+      "review_basis": "manual_visual_semantic_gate_triage",
+      "human_review_state": "PENDING",
+      "human_review_minutes": null,
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    }
+  ],
+  "boundary": "Agent visual triage only; no owner acceptance, commercial clearance, or exact production-base status."
+}

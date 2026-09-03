@@ -1,0 +1,1716 @@
+{
+  "record_type": "ComicChapterProductionManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-semantic-pass-hybrid-assembly-r1",
+  "state": "REVIEW_ONLY_SEMANTIC_PASS_HYBRID_OWNER_PENDING",
+  "medium": "comic",
+  "chapter_complete": true,
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "comic_panel_plan_collection": {
+    "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+    "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05"
+  },
+  "canvas": {
+    "width": 1200,
+    "side_margin": 80,
+    "background": "#11151a",
+    "top_gutter": 72,
+    "phone_width": 390,
+    "phone_viewport_height": 844
+  },
+  "inputs": [
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json",
+      "sha256": "3c84cf3c6fdb479ad3e32717c684e7d44362977da53e9d3a10659d016cea8677"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-assembly-r1.json",
+      "sha256": "5b4106aba78b4851b01da58da48319fc30342cb5dd834abb777a7ef6adbc482d"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-premium-cel-assembly-r1.json",
+      "sha256": "1eb504847a36f7b47a8d77d2b9460ec0c9b25a90adb12c6f6c9d96264e1b8d24"
+    },
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+      "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4"
+    },
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+      "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4"
+    },
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+      "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657"
+    },
+    {
+      "path": "docs/research/evidence/ch05-targeted-repair-trio-agent-triage-r1.json",
+      "sha256": "6442302feeec257c5295d078bd927f628bb09bd44cb7eff0d70ba22dc30c5183"
+    }
+  ],
+  "selection_policy": {
+    "base": "Start from the exact r6 ordered entries and retain its layout for all 50 plans.",
+    "replacement_rule": "Replace only an explicitly listed candidate with measured PASS source triage and a panel-specific semantic rationale.",
+    "warning_rule": "Retain r6 P032 as the sole WARN; targeted P032 remains diagnostic-only and unselected.",
+    "explicit_replacements": {
+      "targeted": [
+        1,
+        39
+      ],
+      "clear_line": [
+        2,
+        6,
+        10,
+        17,
+        19,
+        20,
+        29,
+        36,
+        44
+      ],
+      "premium_cel": [
+        4,
+        22,
+        26,
+        30,
+        33,
+        41,
+        43,
+        46,
+        48,
+        49,
+        50
+      ]
+    }
+  },
+  "summary": {
+    "panels": 50,
+    "r6_retained": 28,
+    "clear_line_selected": 9,
+    "premium_cel_selected": 11,
+    "targeted_selected": 2,
+    "replacements": 22,
+    "semantic_pass": 49,
+    "semantic_warn": 1,
+    "semantic_fail": 0,
+    "route_transitions": 33,
+    "owner_reviewed": 0,
+    "accepted": 0
+  },
+  "entries": [
+    {
+      "order": 1,
+      "panel_id": "ng-ch05-sc01-p001",
+      "candidate_id": "targeted-trio-r1-p001",
+      "sequence_id": "targeted-repair-trio-r1",
+      "source": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P001-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "505c8209f6c4c3652b7dd0e69673004cb90de29cdfb8ca26828d4aa5409f2e36",
+        "width": 1536,
+        "height": 1024
+      },
+      "layout": {
+        "target_width": 960,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "targeted",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-targeted-repair-trio-agent-triage-r1.json",
+          "sha256": "6442302feeec257c5295d078bd927f628bb09bd44cb7eff0d70ba22dc30c5183",
+          "status": "PASS",
+          "note": "Cold farmhouse is physically behind and upslope; both adults show a clear backs-to-camera downhill-away vector with Sigrid leading."
+        },
+        "rationale": "Targeted repair closes the departure-vector failure while retaining the cold-house negative state.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 2,
+      "panel_id": "ng-ch05-sc01-p002",
+      "candidate_id": "clear-line-watercolor-r1-p002",
+      "sequence_id": "s01-opening-departure",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p002-clear-line-watercolor-r1.png",
+        "sha256": "debe43f3d55907b94c43af160a107bd0b74097dd51ba7d5ac21fa685506bd3d1",
+        "width": 841,
+        "height": 379
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "clear_line",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+          "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Clear-line selection strengthens the opening map-direction read with a measured PASS.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 3,
+      "panel_id": "ng-ch05-sc01-p003",
+      "candidate_id": "chapter-r1-p003",
+      "sequence_id": "s01-opening-departure",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p003-sequence-derived-r1.png",
+        "sha256": "64588cb505d51a9c98ca66494a2089456edc59c26b9c9f768a43baf8c84c1ee3",
+        "width": 830,
+        "height": 381
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 4,
+      "panel_id": "ng-ch05-sc01-p004",
+      "candidate_id": "premium-cel-r1-p004",
+      "sequence_id": "s01-opening-departure",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p004-premium-cel-r1.png",
+        "sha256": "2891447eaa7ce3a0d94e6faa769e02b2b33b50fff955b5b70013336b0737399d",
+        "width": 863,
+        "height": 431
+      },
+      "layout": {
+        "target_width": 880,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection strengthens the restrained wary eyeline exchange with a measured PASS.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 5,
+      "panel_id": "ng-ch05-sc01-p005",
+      "candidate_id": "chapter-r1-p005",
+      "sequence_id": "s01-opening-departure",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p005-sequence-derived-r1.png",
+        "sha256": "0a825cfeeb726ef184f8a3b4022cb0449f6acd736e8b355c89d1da5ec50e546e",
+        "width": 830,
+        "height": 309
+      },
+      "layout": {
+        "target_width": 960,
+        "alignment": "center",
+        "gutter_after": 120
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 6,
+      "panel_id": "ng-ch05-sc01-p006",
+      "candidate_id": "clear-line-watercolor-r1-p006",
+      "sequence_id": "s02-runnel-marker-trail",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p006-clear-line-watercolor-r1.png",
+        "sha256": "91995b6dc8c97c8c3fd5e10a919dcfee0279d4f6bb4db883774eb8177d464ffa",
+        "width": 842,
+        "height": 461
+      },
+      "layout": {
+        "target_width": 960,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "clear_line",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+          "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Clear-line selection preserves Sigrid-leading trail-marker action with a measured PASS.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 7,
+      "panel_id": "ng-ch05-sc01-p007",
+      "candidate_id": "chapter-r1-p007",
+      "sequence_id": "s02-runnel-marker-trail",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p007-sequence-derived-r1.png",
+        "sha256": "4b4dd28f4a6cfd6a341cb72a6c5a34f0512082d0a651056d8dd912242bf61b91",
+        "width": 864,
+        "height": 445
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 8,
+      "panel_id": "ng-ch05-sc01-p008",
+      "candidate_id": "chapter-r1-p008",
+      "sequence_id": "s02-runnel-marker-trail",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p008-sequence-derived-r1.png",
+        "sha256": "8d7134a45a88eabdfc85bd26a5437bfc60182db329b331687fbdab26d4f9bbee",
+        "width": 864,
+        "height": 399
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 9,
+      "panel_id": "ng-ch05-sc01-p009",
+      "candidate_id": "chapter-r1-p009",
+      "sequence_id": "s02-runnel-marker-trail",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p009-sequence-derived-r1.png",
+        "sha256": "913935594479e7cae01d3b79036dcd2cb74e2b6f26affe9ceacdb118bc896730",
+        "width": 864,
+        "height": 501
+      },
+      "layout": {
+        "target_width": 880,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 10,
+      "panel_id": "ng-ch05-sc01-p010",
+      "candidate_id": "clear-line-watercolor-r1-p010",
+      "sequence_id": "s03-listening-twine-ridge",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p010-clear-line-watercolor-r1.png",
+        "sha256": "347a6c418f9f3b8c66fd6662fbd98914436326a6db9740febc1b092948771e88",
+        "width": 841,
+        "height": 406
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "clear_line",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+          "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Clear-line selection gives the listening beat a readable mature expression and measured PASS.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 11,
+      "panel_id": "ng-ch05-sc01-p011",
+      "candidate_id": "chapter-r1-p011",
+      "sequence_id": "s03-listening-twine-ridge",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p011-sequence-derived-r1.png",
+        "sha256": "d1f9d9dd5dd5bd19055409fc1ea51f244fe05a8623fd15c41ae75898188e2759",
+        "width": 869,
+        "height": 336
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 12,
+      "panel_id": "ng-ch05-sc01-p012",
+      "candidate_id": "chapter-r1-p012",
+      "sequence_id": "s03-listening-twine-ridge",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p012-sequence-derived-r1.png",
+        "sha256": "3299e1c20b7637095a386740522facadae9d82f2a949ee83b83dfa0a66fa8497",
+        "width": 869,
+        "height": 332
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 13,
+      "panel_id": "ng-ch05-sc01-p013",
+      "candidate_id": "chapter-r1-p013",
+      "sequence_id": "s03-listening-twine-ridge",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p013-sequence-derived-r1.png",
+        "sha256": "52aae52b1bdb5f4f7bfed10b4d9c8207f919cf601d199706ad93ecbaf6db31c4",
+        "width": 869,
+        "height": 385
+      },
+      "layout": {
+        "target_width": 960,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 14,
+      "panel_id": "ng-ch05-sc01-p014",
+      "candidate_id": "chapter-r1-p014",
+      "sequence_id": "s03-listening-twine-ridge",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p014-sequence-derived-r1.png",
+        "sha256": "d23973f717ce53413374a88140c5c9624bea23076974a6657861b486d1dbb117",
+        "width": 869,
+        "height": 367
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 120
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 15,
+      "panel_id": "ng-ch05-sc01-p015",
+      "candidate_id": "chapter-r1-p015",
+      "sequence_id": "s04-mill-reveal-bridge-warning",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p015-sequence-derived-r1.png",
+        "sha256": "2f61f081ce1947b9c77160cbb5ba3a77801fdeda34be8555e3822eba8bf31034",
+        "width": 793,
+        "height": 446
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 16,
+      "panel_id": "ng-ch05-sc01-p016",
+      "candidate_id": "chapter-r1-p016",
+      "sequence_id": "s04-mill-reveal-bridge-warning",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p016-sequence-derived-r1.png",
+        "sha256": "418971b4d3c55274dd4c213c5743150e7c5564481e63db3b64fbd511a6819a04",
+        "width": 793,
+        "height": 405
+      },
+      "layout": {
+        "target_width": 880,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 17,
+      "panel_id": "ng-ch05-sc01-p017",
+      "candidate_id": "clear-line-watercolor-r1-p017",
+      "sequence_id": "s04-mill-reveal-bridge-warning",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p017-clear-line-watercolor-r1.png",
+        "sha256": "e6af37e2a144e10accc34445809ab3f644bdffad6081cdb0ab8a3a57f8c8d4a5",
+        "width": 853,
+        "height": 358
+      },
+      "layout": {
+        "target_width": 1040,
+        "alignment": "center",
+        "gutter_after": 96
+      },
+      "selection": {
+        "route": "clear_line",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+          "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Clear-line selection provides the strongest measured mill-reveal silhouette and set read.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 18,
+      "panel_id": "ng-ch05-sc01-p018",
+      "candidate_id": "chapter-r1-p018",
+      "sequence_id": "s04-mill-reveal-bridge-warning",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p018-sequence-derived-r1.png",
+        "sha256": "196c921003f37b639fccad45df9cf515401531838cb2297b01d362c506b12eec",
+        "width": 793,
+        "height": 350
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 19,
+      "panel_id": "ng-ch05-sc01-p019",
+      "candidate_id": "clear-line-watercolor-r1-p019",
+      "sequence_id": "s04-mill-reveal-bridge-warning",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p019-clear-line-watercolor-r1.png",
+        "sha256": "14ef3d6d4b9256f1ef9d6a1358ef56a37ad6458b53441cca78691de5599c2542",
+        "width": 853,
+        "height": 430
+      },
+      "layout": {
+        "target_width": 900,
+        "alignment": "center",
+        "gutter_after": 120
+      },
+      "selection": {
+        "route": "clear_line",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+          "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Clear-line selection makes Sigrid's bridge-warning stop palm explicit with a measured PASS.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 20,
+      "panel_id": "ng-ch05-sc01-p020",
+      "candidate_id": "clear-line-watercolor-r1-p020",
+      "sequence_id": "s05-creek-marker-drum",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p020-clear-line-watercolor-r1.png",
+        "sha256": "91c81e3e4c741fd6f27f8a0b909707083a1702fb80dcbb11f33f02d3eb8e29bd",
+        "width": 830,
+        "height": 463
+      },
+      "layout": {
+        "target_width": 960,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "clear_line",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+          "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Clear-line selection clearly stages Sigrid leading across wet stepping stones with a measured PASS.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 21,
+      "panel_id": "ng-ch05-sc01-p021",
+      "candidate_id": "chapter-r1-p021",
+      "sequence_id": "s05-creek-marker-drum",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p021-sequence-derived-r1.png",
+        "sha256": "63fb6178e109fce4a37620b94fb0fcf12d2aa2ec944c355bdfe015d8df99e576",
+        "width": 823,
+        "height": 249
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 22,
+      "panel_id": "ng-ch05-sc01-p022",
+      "candidate_id": "premium-cel-r1-p022",
+      "sequence_id": "s05-creek-marker-drum",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p022-premium-cel-r1.png",
+        "sha256": "e74fa615764ab4a9abaf9c2183b547391a43af941378a959e13e049bd721f8ed",
+        "width": 824,
+        "height": 318
+      },
+      "layout": {
+        "target_width": 880,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection clearly shows Soren intercepting Sigrid's reach before contact with the cloth.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 23,
+      "panel_id": "ng-ch05-sc01-p023",
+      "candidate_id": "chapter-r1-p023",
+      "sequence_id": "s05-creek-marker-drum",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p023-sequence-derived-r1.png",
+        "sha256": "b32c4f378be3bd41bdf2cce8930c533958721d3d3b70494273c6182784f0ceb3",
+        "width": 823,
+        "height": 367
+      },
+      "layout": {
+        "target_width": 960,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 24,
+      "panel_id": "ng-ch05-sc01-p024",
+      "candidate_id": "chapter-r1-p024",
+      "sequence_id": "s05-creek-marker-drum",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p024-sequence-derived-r1.png",
+        "sha256": "e5f281ce4c498a4cb602cac6b1032d08e60f9f24a3bbd25a967ef627a98c49f0",
+        "width": 823,
+        "height": 401
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 120
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 25,
+      "panel_id": "ng-ch05-sc01-p025",
+      "candidate_id": "chapter-r1-p025",
+      "sequence_id": "s06-ember-line-entry",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p025-sequence-derived-r1.png",
+        "sha256": "3d9e2c28020f2cbdd30d3fec3295de48d9b77ab2c171965d53ba054899f6cfec",
+        "width": 836,
+        "height": 368
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 26,
+      "panel_id": "ng-ch05-sc01-p026",
+      "candidate_id": "premium-cel-r1-p026",
+      "sequence_id": "s06-ember-line-entry",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p026-premium-cel-r1.png",
+        "sha256": "d20d2a7c30d055716c922b36cc1e5e31e389266638ebe0add56acb87c3590c8c",
+        "width": 842,
+        "height": 359
+      },
+      "layout": {
+        "target_width": 900,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection isolates Sigrid's heat-test hand above the ember with a measured PASS.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 27,
+      "panel_id": "ng-ch05-sc01-p027",
+      "candidate_id": "chapter-r1-p027",
+      "sequence_id": "s06-ember-line-entry",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p027-sequence-derived-r1.png",
+        "sha256": "2358aa4ca5fbde1d10e92ab8d891cc152aedcb00edc01247e4b4fc32b7639955",
+        "width": 836,
+        "height": 347
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 28,
+      "panel_id": "ng-ch05-sc01-p028",
+      "candidate_id": "chapter-r1-p028",
+      "sequence_id": "s06-ember-line-entry",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p028-sequence-derived-r1.png",
+        "sha256": "4e881d52ce7c39e4ef324732682a07ec0bb9854d3a4ea97455257c2e67d19fcb",
+        "width": 836,
+        "height": 300
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 29,
+      "panel_id": "ng-ch05-sc01-p029",
+      "candidate_id": "clear-line-watercolor-r1-p029",
+      "sequence_id": "s06-ember-line-entry",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p029-clear-line-watercolor-r1.png",
+        "sha256": "cc3ae9decf5bfd276b68db48a19965ff9d1a0d499a1a52cea9194d8294f9f8d7",
+        "width": 795,
+        "height": 441
+      },
+      "layout": {
+        "target_width": 880,
+        "alignment": "center",
+        "gutter_after": 120
+      },
+      "selection": {
+        "route": "clear_line",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+          "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Clear-line selection visibly separates Sigrid's entry role from Soren's independent exterior watch.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 30,
+      "panel_id": "ng-ch05-sc01-p030",
+      "candidate_id": "premium-cel-r1-p030",
+      "sequence_id": "s07-impossible-footprints-bell",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p030-premium-cel-r1.png",
+        "sha256": "3706873d0eb68d137151e768e791c9ca8dca863581731c762a4e27870b2ec162",
+        "width": 829,
+        "height": 367
+      },
+      "layout": {
+        "target_width": 1040,
+        "alignment": "center",
+        "gutter_after": 96
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection gives the mill interior a strong readable geography and measured PASS.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 31,
+      "panel_id": "ng-ch05-sc01-p031",
+      "candidate_id": "chapter-r3-p031-clue-chain-repair-r1",
+      "sequence_id": "s07-impossible-footprints-bell",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r3/repairs/P031-clue-chain-repair-r1.png",
+        "sha256": "6cecaa3f5b0d857f4668eb67ec5ad22bbb41c9d8457c368e66e71f30b6994c19",
+        "width": 925,
+        "height": 564
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 32,
+      "panel_id": "ng-ch05-sc01-p032",
+      "candidate_id": "chapter-r3-p032-clue-chain-repair-r1",
+      "sequence_id": "s07-impossible-footprints-bell",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r3/repairs/P032-clue-chain-repair-r1.png",
+        "sha256": "9b4bff71f87290a430a3647737bcbe9576fa184fa8d999ba35650e34b48299d7",
+        "width": 925,
+        "height": 514
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "WARN",
+          "note": "The far-side footprints are present; their impossible back-facing orientation is not immediately unambiguous."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 33,
+      "panel_id": "ng-ch05-sc01-p033",
+      "candidate_id": "premium-cel-r1-p033",
+      "sequence_id": "s07-impossible-footprints-bell",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p033-premium-cel-r1.png",
+        "sha256": "bc7591c4db10c4c18164711e8f300398c8891294317c10f65d956e64def43097",
+        "width": 829,
+        "height": 367
+      },
+      "layout": {
+        "target_width": 880,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection clearly stages Sigrid foreground, Soren background, and the bell/drip freeze.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 34,
+      "panel_id": "ng-ch05-sc01-p034",
+      "candidate_id": "chapter-r1-p034",
+      "sequence_id": "s07-impossible-footprints-bell",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p034-sequence-derived-r1.png",
+        "sha256": "dd77a4019aa97c7570ad372c5d5386c26857990ab2fba1aa0f6cafdada4f8ceb",
+        "width": 812,
+        "height": 394
+      },
+      "layout": {
+        "target_width": 880,
+        "alignment": "center",
+        "gutter_after": 120
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 35,
+      "panel_id": "ng-ch05-sc01-p035",
+      "candidate_id": "chapter-r1-p035",
+      "sequence_id": "s08-plank-tin-map",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p035-sequence-derived-r1.png",
+        "sha256": "3037378e8f7254aaecc34b62fe0a0eac609268b34b64791fcd88baee18c0468b",
+        "width": 863,
+        "height": 254
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 36,
+      "panel_id": "ng-ch05-sc01-p036",
+      "candidate_id": "clear-line-watercolor-r1-p036",
+      "sequence_id": "s08-plank-tin-map",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p036-clear-line-watercolor-r1.png",
+        "sha256": "a1b0d0a3ca89c2fb05533c9e575bb7a72b93d29677c7559c632df31125168dd5",
+        "width": 852,
+        "height": 571
+      },
+      "layout": {
+        "target_width": 900,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "clear_line",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+          "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Clear-line selection preserves exactly one plank and visibly connects both adults through the brace to the tin endpoint.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 37,
+      "panel_id": "ng-ch05-sc01-p037",
+      "candidate_id": "chapter-r1-p037",
+      "sequence_id": "s08-plank-tin-map",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p037-sequence-derived-r1.png",
+        "sha256": "f575d162b6c2b8de032c7e9baebc865740b55abcf818c714a413106a2a3756d5",
+        "width": 863,
+        "height": 334
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 38,
+      "panel_id": "ng-ch05-sc01-p038",
+      "candidate_id": "chapter-r1-p038",
+      "sequence_id": "s08-plank-tin-map",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p038-sequence-derived-r1.png",
+        "sha256": "4eb745dabae57221c6de6768d517d3dacdeecf66bbc8d650d5091a3e36b4ee7d",
+        "width": 863,
+        "height": 294
+      },
+      "layout": {
+        "target_width": 960,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 39,
+      "panel_id": "ng-ch05-sc01-p039",
+      "candidate_id": "targeted-trio-r1-p039",
+      "sequence_id": "targeted-repair-trio-r1",
+      "source": {
+        "path": "experiments/review-packets/ch05-premium-cel-targeted-repair-trio-r1/source-panels/P039-premium-cel-clean-graphic-hybrid-r1.png",
+        "sha256": "d7714ebe9d6646a23ee0b38f2c8e872fc18163c5297c83c288cf55211ea17281",
+        "width": 1023,
+        "height": 1537
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 120
+      },
+      "selection": {
+        "route": "targeted",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-targeted-repair-trio-agent-triage-r1.json",
+          "sha256": "6442302feeec257c5295d078bd927f628bb09bd44cb7eff0d70ba22dc30c5183",
+          "status": "PASS",
+          "note": "One uninterrupted map view simultaneously shows square farmhouse, circular mill, distinct torn-edge upstream diamond, and Soren's finger at the third mark."
+        },
+        "rationale": "Targeted repair simultaneously exposes all three map marks and places Soren's finger at the torn-edge third mark.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 40,
+      "panel_id": "ng-ch05-sc01-p040",
+      "candidate_id": "chapter-r1-p040",
+      "sequence_id": "s09-deduction-retreat-cut",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p040-sequence-derived-r1.png",
+        "sha256": "a05f1fa357c2e5d12bc6138e1a8944504c558076ba25b1531e5b0f87ff4e88db",
+        "width": 864,
+        "height": 368
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 41,
+      "panel_id": "ng-ch05-sc01-p041",
+      "candidate_id": "premium-cel-r1-p041",
+      "sequence_id": "s09-deduction-retreat-cut",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p041-premium-cel-r1.png",
+        "sha256": "b70b733fe89f566f8b8d30b44967f8a066dd6f8e158fe645f40c66bf771d4df1",
+        "width": 852,
+        "height": 313
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection shows the drum fully cold and out with no glow or smoke plume.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 42,
+      "panel_id": "ng-ch05-sc01-p042",
+      "candidate_id": "chapter-r1-p042",
+      "sequence_id": "s09-deduction-retreat-cut",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p042-sequence-derived-r1.png",
+        "sha256": "60e7b55dfe466fccaa25903b0918fb2d868fa637d539ec2ea1238be492120492",
+        "width": 864,
+        "height": 346
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 43,
+      "panel_id": "ng-ch05-sc01-p043",
+      "candidate_id": "premium-cel-r1-p043",
+      "sequence_id": "s09-deduction-retreat-cut",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p043-premium-cel-r1.png",
+        "sha256": "72e9c024ee94a62a1ded7311f142c7d6d7f7289270e307dc6bbe523b7ce57612",
+        "width": 852,
+        "height": 398
+      },
+      "layout": {
+        "target_width": 960,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection leaves the open tin on the stone while Sigrid visibly retains the creek map.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 44,
+      "panel_id": "ng-ch05-sc01-p044",
+      "candidate_id": "clear-line-watercolor-r1-p044",
+      "sequence_id": "s09-deduction-retreat-cut",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-clear-line-watercolor-r1/panels/p044-clear-line-watercolor-r1.png",
+        "sha256": "147b1acbba57e4c8efd3f31bdc9c2c5793a42b11bcb150560a78a46044002597",
+        "width": 831,
+        "height": 373
+      },
+      "layout": {
+        "target_width": 900,
+        "alignment": "center",
+        "gutter_after": 120
+      },
+      "selection": {
+        "route": "clear_line",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-clear-line-watercolor-agent-triage-r1.json",
+          "sha256": "e32664fc123e4df22e631a0e1fd6c3dde03f70cee7b9a0f9703cbd518fbe8ec4",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Clear-line selection gives the knife-to-twine contact a safe, readable causal endpoint.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 45,
+      "panel_id": "ng-ch05-sc01-p045",
+      "candidate_id": "chapter-r1-p045",
+      "sequence_id": "s10-silence-return",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p045-sequence-derived-r1.png",
+        "sha256": "ba6d9f5e1e81e533772c20b24f33ce154e33eb7a638a4eceacd39a04f2ff3dcc",
+        "width": 846,
+        "height": 528
+      },
+      "layout": {
+        "target_width": 680,
+        "alignment": "center",
+        "gutter_after": 64
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 46,
+      "panel_id": "ng-ch05-sc01-p046",
+      "candidate_id": "premium-cel-r1-p046",
+      "sequence_id": "s10-silence-return",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p046-premium-cel-r1.png",
+        "sha256": "0103653498a7e76e5f6dd26ad665f00902c95f737e5f18de930e71e46fca99c2",
+        "width": 864,
+        "height": 595
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection clearly places the retained map inside Sigrid's plaid wrap.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 47,
+      "panel_id": "ng-ch05-sc01-p047",
+      "candidate_id": "chapter-r1-p047",
+      "sequence_id": "s10-silence-return",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p047-sequence-derived-r1.png",
+        "sha256": "4d33a12e388127a22a057a9d39af1520c36dfcf96f2bf8589b64ce7dc73f3c6b",
+        "width": 846,
+        "height": 663
+      },
+      "layout": {
+        "target_width": 960,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "r6",
+        "replaces_r6": false,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-agent-triage-r6.json",
+          "sha256": "a93198b06a77e31f59e6ba87dc71fe513d170f1c832dfed2e3a5076851b45ff4",
+          "status": "PASS",
+          "note": "No blocking role, count, continuity, causal, lettering-clearance, or phone-reading issue found in agent triage."
+        },
+        "rationale": "Retain the r6 semantic-pass candidate; no measured replacement offers a required gate improvement.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 48,
+      "panel_id": "ng-ch05-sc01-p048",
+      "candidate_id": "premium-cel-r1-p048",
+      "sequence_id": "s11-farmhouse-reversal",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p048-premium-cel-r1.png",
+        "sha256": "97e191667898abd05919e3f429f431c1ba3601bc66f01aad23d47a0f0b622781",
+        "width": 853,
+        "height": 527
+      },
+      "layout": {
+        "target_width": 1040,
+        "alignment": "center",
+        "gutter_after": 96
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection strongly establishes the first new farmhouse smoke of the chapter.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 49,
+      "panel_id": "ng-ch05-sc01-p049",
+      "candidate_id": "premium-cel-r1-p049",
+      "sequence_id": "s11-farmhouse-reversal",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p049-premium-cel-r1.png",
+        "sha256": "e16e654d0d8e2b0aa960d93de3f63c6a748b2f0cb3346cb45ddb4d24b637d3ae",
+        "width": 853,
+        "height": 573
+      },
+      "layout": {
+        "target_width": 800,
+        "alignment": "center",
+        "gutter_after": 72
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection preserves Soren's alarm, map possession, and smoking-house context.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    },
+    {
+      "order": 50,
+      "panel_id": "ng-ch05-sc01-p050",
+      "candidate_id": "premium-cel-r1-p050",
+      "sequence_id": "s11-farmhouse-reversal",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p050-premium-cel-r1.png",
+        "sha256": "f7748b0fd57301d4a03d0a06eb1864478fda135b9c8c146be4a65642a8a27ec4",
+        "width": 853,
+        "height": 742
+      },
+      "layout": {
+        "target_width": 1040,
+        "alignment": "center",
+        "gutter_after": 96
+      },
+      "selection": {
+        "route": "premium_cel",
+        "replaces_r6": true,
+        "source_triage": {
+          "path": "docs/research/evidence/ch05-complete-chapter-premium-cel-agent-triage-r1.json",
+          "sha256": "e4b2aa3d25ea83a7447d508cb49e227ca82a2a5efa8a9fb97dc40c5d6a607657",
+          "status": "PASS",
+          "note": "No blocking panel-local or cross-panel issue found in non-gating agent triage."
+        },
+        "rationale": "Premium-cel selection provides the strongest grounded urgent return with Sigrid leading and Soren following.",
+        "owner_review_state": "PENDING",
+        "accepted": false
+      },
+      "animation_shot_plan": null,
+      "e_conte": null
+    }
+  ],
+  "style_transition_limitation": "The hybrid contains 33 adjacent route transitions across painterly r6, clear-line watercolor, premium-cel, and targeted hybrid sources. Semantic PASS selection does not prove chapter-wide palette, line-weight, lighting, character-scale, or texture continuity; transitions require owner review at full scroll and phone width.",
+  "cross_panel_gate_projection": {
+    "cold_farmhouse_until_reversal": "PASS",
+    "departure_vector": "PASS",
+    "independent_entry_roles": "PASS",
+    "impossible_far_bank_prints": "WARN_P032_ORIENTATION",
+    "continuous_leverage_force_path": "PASS",
+    "third_upstream_mark": "PASS",
+    "drum_fully_out": "PASS",
+    "map_possession": "PASS"
+  },
+  "boundary": "Review-only deterministic assembly; no art acceptance, rights conclusion, canon replacement, commercial clearance, or exact production-base decision."
+}

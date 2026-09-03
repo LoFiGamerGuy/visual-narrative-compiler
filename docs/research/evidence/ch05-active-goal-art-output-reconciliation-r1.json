@@ -1,0 +1,310 @@
+{
+  "record_type": "CH05ActiveGoalArtOutputReconciliation",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-active-goal-art-output-reconciliation-r1",
+  "state": "RECONCILED_NO_DOUBLE_COUNTING",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "components": [
+    {
+      "component": "base_ch05_r6",
+      "source_manifests": [
+        {
+          "path": "docs/research/evidence/ch05-complete-chapter-release-r6.json",
+          "sha256": "62e4d4bac75a16470055d31a05c639acbfd18523bf80b9f7711fdaa717898d24",
+          "git_blob_oid": "e0ae33debd4a95d45243d9c153b6938347c6d762",
+          "git_mode": "100644",
+          "bytes": 9331
+        },
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-production-manifest-r6.json",
+          "sha256": "a4cfadd90282e408ba00f407608d3c09637be2ef3eddb2f2045901738dce27c9",
+          "git_blob_oid": "8362be8d041dbbfcb83f825c0f839aab9d98f4c7",
+          "git_mode": "100644",
+          "bytes": 339430
+        }
+      ],
+      "service_raster_outputs": 16,
+      "panel_level_candidates_or_crops": 59,
+      "selected_chapter_panels": 50,
+      "additional_superseded_or_diagnostic_candidates": 9,
+      "authorized_reference_uses": 34,
+      "zero_reference_outputs": 0,
+      "unsplit_ablation_diagnostics": 0,
+      "timing": {
+        "scope_class": "TWO_REPORTED_NON_EQUIVALENT_SCOPES",
+        "unique_execution_observation_sum_seconds": 1592.908,
+        "approximate_overlap_adjusted_client_wall_seconds": 1200.7,
+        "actual_end_to_end_seconds": null,
+        "note": "Do not equate or add the summed per-execution observations and approximate overlap-adjusted client wall."
+      }
+    },
+    {
+      "component": "alternate_graphic",
+      "source_manifests": [
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-alt-graphic-execution-manifest-r1.json",
+          "sha256": "e0a3d34840788822455b9a8c57fba8caac3ae0628c038d084c1da7eabd390cf7",
+          "git_blob_oid": "5071fe6206f573b483f63fffa0392ff2c2809e54",
+          "git_mode": "100644",
+          "bytes": 69274
+        },
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-alt-graphic-crops-r1.json",
+          "sha256": "6f07eebc29c399945e68c8aea821872368990c5fece91bdc29269d3580032b48",
+          "git_blob_oid": "93828f4e5f21700ab872099f75d4eb18119d8b09",
+          "git_mode": "100644",
+          "bytes": 18956
+        }
+      ],
+      "service_raster_outputs": 11,
+      "panel_level_candidates_or_crops": 50,
+      "authorized_reference_uses": 23,
+      "zero_reference_outputs": 0,
+      "unsplit_ablation_diagnostics": 0,
+      "timing": {
+        "scope_class": "OVERLAP_ADJUSTED_TOOL_CALL_BATCH_WALL",
+        "seconds": 954.3,
+        "unique_timing_batches": 6,
+        "actual_end_to_end_seconds": null,
+        "note": "Codex ImageGen tool-call wall at 0.1-second precision; includes any queue, generation, and transfer time exposed to the caller."
+      }
+    },
+    {
+      "component": "clear_line_watercolor",
+      "source_manifests": [
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-execution-manifest-r1.json",
+          "sha256": "d06bdeeb9e756944665966f49ab3f3b2a94871ac5fc15935544a2ec6d1a45aec",
+          "git_blob_oid": "589ba945cd430921b45c5ff2630b09276a311bc8",
+          "git_mode": "100644",
+          "bytes": 72721
+        },
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-clear-line-watercolor-crops-r1.json",
+          "sha256": "9beb49a361d62783a59f4139f421ccd16f6388a69c53739d7de438cd50762995",
+          "git_blob_oid": "24231a72a97ae3aa5a1676688c5256aa95f07621",
+          "git_mode": "100644",
+          "bytes": 19648
+        }
+      ],
+      "service_raster_outputs": 11,
+      "panel_level_candidates_or_crops": 50,
+      "authorized_reference_uses": 23,
+      "zero_reference_outputs": 0,
+      "unsplit_ablation_diagnostics": 0,
+      "timing": {
+        "scope_class": "OVERLAP_ADJUSTED_TOOL_CALL_BATCH_WALL",
+        "seconds": 1090.0,
+        "unique_timing_batches": 6,
+        "actual_end_to_end_seconds": null,
+        "note": "Codex ImageGen tool-call wall at 0.1-second precision; includes any queue, generation, and transfer time exposed to the caller."
+      }
+    },
+    {
+      "component": "premium_cel",
+      "source_manifests": [
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-premium-cel-execution-manifest-r1.json",
+          "sha256": "acff13c33ec311a78fe8e6007bd46549cc2e633a37db8c11a387cda01d6f3e71",
+          "git_blob_oid": "2357e0f639835f4e5cf164eba62e88687ebd41f8",
+          "git_mode": "100644",
+          "bytes": 75568
+        },
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-premium-cel-crops-r1.json",
+          "sha256": "d78c91832835e09096a6eefe342dc6e5f01a17046a58a2031ed2e0a8fe7687e1",
+          "git_blob_oid": "9d6d75af19d65ffa671740fe95c1398c4b844ea1",
+          "git_mode": "100644",
+          "bytes": 26635
+        }
+      ],
+      "service_raster_outputs": 11,
+      "panel_level_candidates_or_crops": 50,
+      "authorized_reference_uses": 23,
+      "zero_reference_outputs": 0,
+      "unsplit_ablation_diagnostics": 0,
+      "timing": {
+        "scope_class": "OVERLAP_ADJUSTED_TOOL_CALL_BATCH_WALL",
+        "seconds": 1234.0,
+        "unique_timing_batches": 6,
+        "actual_end_to_end_seconds": null,
+        "note": "Codex ImageGen tool-call wall at 0.1-second precision; includes any queue, generation, and transfer time exposed to the caller."
+      }
+    },
+    {
+      "component": "flat_graphic_gouache",
+      "source_manifests": [
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-execution-manifest-r1.json",
+          "sha256": "66c389df75bea35ec7cf9165fda1c10293f48b1c11444e4b41d418b1d1223f3c",
+          "git_blob_oid": "26b46afe029962267f4f82146a98edd0f632f428",
+          "git_mode": "100644",
+          "bytes": 79917
+        },
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-flat-graphic-gouache-crops-r1.json",
+          "sha256": "c731393f250d801a072ed712beec04421abd59f6cdbdf256d0134bac2e6caa6b",
+          "git_blob_oid": "d80d0ebfcc64b4ff2b3146d5608373d0401d36ae",
+          "git_mode": "100644",
+          "bytes": 27082
+        }
+      ],
+      "service_raster_outputs": 11,
+      "panel_level_candidates_or_crops": 50,
+      "authorized_reference_uses": 23,
+      "zero_reference_outputs": 0,
+      "unsplit_ablation_diagnostics": 0,
+      "timing": {
+        "scope_class": "NON_OVERLAP_OBSERVED_ARITHMETIC",
+        "seconds": 1290.989,
+        "known_individual_seconds": 1063.921,
+        "concurrent_batch_seconds": 227.068,
+        "actual_end_to_end_seconds": null,
+        "note": "Nine individual walls plus one S10/S11 concurrent-pair wall; no shared end-to-end stopwatch."
+      }
+    },
+    {
+      "component": "reduced_palette_text_control",
+      "source_manifests": [
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-execution-manifest-r1.json",
+          "sha256": "2e978b4f04d1cd7b7a660105d2e230a880d3df3e1d27a22c6bc78fa0639aa663",
+          "git_blob_oid": "1cb0076fb55f4bc2cb6c0eb1303c937874f9692d",
+          "git_mode": "100644",
+          "bytes": 76316
+        },
+        {
+          "path": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-crops-r1.json",
+          "sha256": "5b02a8912aa0dd888e9199f0df6d2654f680417f49c29b53d96278f751dba31c",
+          "git_blob_oid": "eab0ef21c207eddbd358ae6020b5750c08813484",
+          "git_mode": "100644",
+          "bytes": 29015
+        }
+      ],
+      "service_raster_outputs": 11,
+      "panel_level_candidates_or_crops": 50,
+      "authorized_reference_uses": 0,
+      "zero_reference_outputs": 11,
+      "unsplit_ablation_diagnostics": 0,
+      "timing": {
+        "scope_class": "NON_OVERLAP_OBSERVED_ARITHMETIC",
+        "seconds": 1027.652,
+        "known_individual_seconds": 568.3,
+        "concurrent_batch_seconds": 459.352,
+        "actual_end_to_end_seconds": null,
+        "note": "Six individual walls plus two concurrent-batch walls; no shared end-to-end stopwatch."
+      }
+    },
+    {
+      "component": "premium_targeted_repair_trio",
+      "source_manifests": [
+        {
+          "path": "production/comic/run-manifests/ch05-premium-cel-targeted-repair-trio-execution-r1.json",
+          "sha256": "23e399329bfe22cb0732f7ba5d147a56e178c081709340926f6e9fa18b81b28f",
+          "git_blob_oid": "2ffaf5cd48f8bc06fc030ba36097126e342d2bd7",
+          "git_mode": "100644",
+          "bytes": 22590
+        }
+      ],
+      "service_raster_outputs": 3,
+      "panel_level_candidates_or_crops": 3,
+      "authorized_reference_uses": 6,
+      "zero_reference_outputs": 0,
+      "unsplit_ablation_diagnostics": 0,
+      "timing": {
+        "scope_class": "ONE_CONCURRENT_BATCH_WALL",
+        "seconds": 169.0,
+        "individual_output_seconds": null,
+        "actual_end_to_end_seconds": null,
+        "note": "One concurrent Codex ImageGen tool-call batch at 0.1-second precision; includes queue, generation, and transfer time exposed to the caller."
+      }
+    },
+    {
+      "component": "ng-ch05-s01-flat-gouache-reference-ablation-execution-r1",
+      "source_manifests": [
+        {
+          "path": "production/comic/run-manifests/ch05-s01-flat-gouache-reference-ablation-execution-r1.json",
+          "sha256": "5aadac1d124a9ff82b36b952962ea0ebeeaeae1071f3fb368bb2bf0a67a3e7b1",
+          "git_blob_oid": "c5131fb2b00c55d1e368b87c4c9e1f9769eee7d6",
+          "git_mode": "100644",
+          "bytes": 8884
+        }
+      ],
+      "service_raster_outputs": 1,
+      "comic_panel_plans_covered": 5,
+      "panel_level_candidates_or_crops": 0,
+      "authorized_reference_uses": 0,
+      "zero_reference_outputs": 1,
+      "unsplit_ablation_diagnostics": 1,
+      "timing": {
+        "scope_class": "INDIVIDUAL_TOOL_CALL_WALL",
+        "seconds": 110.4,
+        "actual_end_to_end_seconds": null,
+        "note": "One sequence-strip tool-call observation; output was not split into panel candidates."
+      }
+    },
+    {
+      "component": "ng-ch05-s11-flat-gouache-reference-ablation-execution-r1",
+      "source_manifests": [
+        {
+          "path": "production/comic/run-manifests/ch05-s11-flat-gouache-reference-ablation-execution-r1.json",
+          "sha256": "db354de35eb9672be42329419fe9b122c15b301111ebe360e9ff8919e2294619",
+          "git_blob_oid": "58a71bf98348b5f024199d1af06bf26c80fc1257",
+          "git_mode": "100644",
+          "bytes": 8481
+        }
+      ],
+      "service_raster_outputs": 1,
+      "comic_panel_plans_covered": 3,
+      "panel_level_candidates_or_crops": 0,
+      "authorized_reference_uses": 0,
+      "zero_reference_outputs": 1,
+      "unsplit_ablation_diagnostics": 1,
+      "timing": {
+        "scope_class": "INDIVIDUAL_TOOL_CALL_WALL",
+        "seconds": 48.2,
+        "actual_end_to_end_seconds": null,
+        "note": "One sequence-strip tool-call observation; output was not split into panel candidates."
+      }
+    }
+  ],
+  "totals": {
+    "service_raster_outputs": 76,
+    "panel_level_candidates_or_crops": 312,
+    "authorized_reference_uses": 132,
+    "zero_reference_outputs": 13,
+    "unsplit_ablation_diagnostics": 2
+  },
+  "six_route_subset": {
+    "aligned_review_candidates": 300,
+    "base_r6_selected_panels": 50,
+    "five_full_arm_crops": 250,
+    "excluded_base_additional_candidates": 9,
+    "excluded_premium_targeted_repair_candidates": 3,
+    "relationship": "300 = 50 selected r6 + 250 five-arm crops; 312 = 300 + 9 additional r6 candidates + 3 premium targeted-repair candidates."
+  },
+  "timing_boundary": {
+    "aggregate_end_to_end_seconds": null,
+    "aggregation_permitted": false,
+    "reason": "Base r6 reports two non-equivalent scopes; three arms report overlap-adjusted batch walls; flat and reduced report non-overlap arithmetic; the trio reports one concurrent batch; ablations report individual calls. Adding them would fabricate an E2E duration.",
+    "mixed_scope_mechanical_sum_reportable_as_elapsed": false
+  },
+  "double_count_controls": [
+    "Service rasters and panel crops/candidates are different denominators and are never added.",
+    "The six-route 300 count is an aligned subset, not the full 312 panel-candidate pool.",
+    "Each ablation comparison reuses reference-backed flat and reduced-text columns; only its one new no-reference strip is counted.",
+    "The two ablation outputs cover eight ComicPanelPlans but remain unsplit sequence diagnostics and contribute zero panel crops.",
+    "Cadence, hybrid, comparison, contact-sheet, lettering, and phone artifacts are local derivatives and contribute zero service rasters."
+  ],
+  "package_activity": {
+    "new_pixels": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "spend_usd": 0,
+    "acceptance_or_rights_changes": 0
+  },
+  "boundary": "Deterministic accounting evidence only. No pixels, provider call, upload, spend, acceptance, rights, or production state is created by this package."
+}

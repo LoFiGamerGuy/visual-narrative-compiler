@@ -1,0 +1,41 @@
+{
+  "record_type": "ChapterProductionTimeCostRecord",
+  "schema_version": "1.0",
+  "record_id": "ng-ch13-production-time-cost-record-r1",
+  "chapter": "CH13",
+  "mechanism": "OPENAI_BUILT_IN_IMAGEGEN_ONLY",
+  "sequence_requests": 8,
+  "sequence_outputs": 8,
+  "panel_candidates": 40,
+  "authorized_reference_uses": 22,
+  "individual_client_observed_elapsed_seconds": {
+    "ng-ch13-s01-summer-under-winter": 102.489,
+    "ng-ch13-s02-moving-glass": 199.087,
+    "ng-ch13-s03-crownroot-demand": 315.404,
+    "ng-ch13-s04-soil-water-load": 421.512,
+    "ng-ch13-s05-seven-node-circle": 83.021,
+    "ng-ch13-s06-boundary-heart": 175.313,
+    "ng-ch13-s07-co-keeper-choice": 282.961,
+    "ng-ch13-s08-wider-branches": 399.711
+  },
+  "timing_provenance": {
+    "parallel_group_1": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL",
+    "parallel_group_2": "CLIENT_WRAPPER_DATE_NOW_AROUND_IMAGEGEN_CALL"
+  },
+  "exact_wrapper_interval_sum_seconds": 1979.498,
+  "parallel_group_wall_seconds": [421.512, 399.711],
+  "timing_note": "Intervals overlap within each parallel group; their sum is not chapter wall time.",
+  "direct_paid_api_requests": 0,
+  "cloud_gpu_operations": 0,
+  "paid_api_cloud_spend_usd": "0.000000",
+  "built_in_monetary_cost_usd": null,
+  "provider_usage": null,
+  "model": null,
+  "endpoint": null,
+  "provider_request_ids": null,
+  "deterministic_seeds": null,
+  "human_review_minutes": null,
+  "accepted_candidates": 0,
+  "commercially_cleared_candidates": 0,
+  "exact_production_base_candidates": 0
+}

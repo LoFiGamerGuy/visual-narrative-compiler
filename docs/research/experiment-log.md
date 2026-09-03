@@ -1841,3 +1841,12 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Triage: 35 PASS / 0 WARN / 5 FAIL. P025/P029 under-show their causal actions; P036/P038 reset Soren's sacrificed shoulder; P040 returns the Hollow Stag early.
 - Combined overlapping interval sum 2,113.601 seconds; group walls 420.731/427.911 seconds. Group 1 is timestamp-reconstructed and group 2 exact-wrapper observed. References 22; paid API/cloud spend $0; alternate arms/repairs 0/0.
 - Validator PASS with 21/21 adversarial mutations rejected. ADR-0213 preserves 35 hashes and continues directly to CH13.
+
+## CH13 complete default-route production and review r1 — 2026-09-03
+
+- Generated eight chronological sequences and deterministically cropped all 40 CH13 ComicPanelPlans.
+- Built complete reading, phone, sequence/contact, and lettering-safe-zone artifacts.
+- Delivered moving glasshouses, the Crownroot single-keeper conflict, seven-channel bypass, co-keeper circuit, living-guardian resolution, earned roles, operational base, and wider-network hook.
+- Triage: 36 PASS / 0 WARN / 4 FAIL. P020/P031/P036/P039 reset Soren's sacrificed shoulder; P036 also humanizes Crownroot's face relief.
+- Exact overlapping interval sum 1,979.498 seconds; group walls 421.512/399.711 seconds. References 22; paid API/cloud spend $0; alternate arms/repairs 0/0.
+- Validator PASS with 15/15 adversarial mutations rejected. ADR-0214 preserves 36 hashes and moves to aggregate eight-chapter review.

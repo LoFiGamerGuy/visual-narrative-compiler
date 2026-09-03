@@ -417,3 +417,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Measure moving-glasshouse traversal, Crownroot's non-human form, pipe/water/structure causality, dual-consent circuit, living-guardian resolution, and wider-network hook.
 4. Keep CH12's five failures queued as three narrow repair units behind complete CH13 throughput.
 5. After CH13, build the eight-chapter CH06–CH13 review hub and make route/hardening recommendations from the whole visual arc.
+
+## Active queue after CH13 complete default-route assembly — 2026-09-03
+
+1. Build one CH06–CH13 progression hub spanning eight complete visual chapters, 320 candidates, and 64 sequences.
+2. Rank the route from aggregate story, continuity, causality, lettering clearance, phone readability, latency, and reproducibility evidence—not visual appeal alone.
+3. Treat CH12/CH13 shoulder persistence as one cross-chapter irreversible-state hardening experiment; do not rerender either chapter wholesale.
+4. Pair any CH13 P036 repair with explicit non-human Crownroot anatomy so one narrow unit addresses both measured failures.
+5. Keep Halvor identity, isolated causal under-show, generated text, and premature-creature failures in the aggregate backlog with exact source panels.

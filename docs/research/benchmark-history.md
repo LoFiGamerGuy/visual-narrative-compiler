@@ -632,6 +632,23 @@ Sixteen requests cover 80 unique plans with 40 authorized reference uses, zero d
 
 This is execution readiness, not rendered quality, acceptance, rights, clearance, reproducibility, or exact-base selection.
 
+## CH13 complete default-route benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete chronological chapter | 1 × 40 panels |
+| Sequence sources / panel candidates | 8 / 40 |
+| Agent triage PASS / WARN / FAIL | 36 / 0 / 4 |
+| Review artifacts | 5 / 5 |
+| Authorized reference uses | 22 |
+| Overlapping request-interval sum | 1,979.498 s |
+| Parallel group walls | 421.512 s / 399.711 s |
+| Alternate arms / repairs | 0 / 0 |
+| Adversarial mutations rejected | 15 / 15 |
+| Paid API/cloud spend | $0 |
+
+The route completes the Bell Road climax and materially advances environment, system, relationship, class, base, and world state. Four shoulder-persistence failures remain, one combined with Crownroot face ambiguity. This is agent triage, not human acceptance or rights clearance.
+
 ## CH12 complete default-route benchmark — 2026-09-03
 
 | Measure | Result |

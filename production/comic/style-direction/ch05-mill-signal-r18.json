@@ -1,0 +1,186 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "2.7",
+  "record_id": "ng-comic-style-ch05-mill-signal-r18",
+  "state": "SIX_ROUTE_SEQUENCE_CADENCE_RECOMMENDED_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r17",
+    "path": "production/comic/style-direction/ch05-mill-signal-r17.json",
+    "sha256": "e24b68eeab8df5f0e1690abad282a957cc59a2958ca75acf40ab27c4533350f3"
+  },
+  "selected_engineering_mechanism": "complete sequence-strip generation, deterministic ComicPanelPlan crop extraction, one measured style per narrative sequence, variable-cadence clean and lettered phone review, cross-panel semantic triage, and same-style targeted repair only for explicit semantic failures",
+  "evidence": {
+    "six_route_comparison": {
+      "path": "docs/research/evidence/ch05-six-route-comparison-r1.json",
+      "sha256": "c40d3a945704639855135cda4d011529f13c5c71d857b7807914823d7e248229"
+    },
+    "reduced_palette_text_control_triage": {
+      "path": "docs/research/evidence/ch05-complete-chapter-reduced-palette-text-control-agent-triage-r1.json",
+      "sha256": "3b3ae41bf03ba34bebd63fbb867863e5173a12686c0687d16c359d02e7525b46"
+    },
+    "s01_reference_ablation": {
+      "path": "docs/research/evidence/ch05-s01-flat-gouache-reference-ablation-comparison-r1.json",
+      "sha256": "f518412e7fbad81c530b5122060ee918bf94aed01b7011ce7f48191bb4ab8a30"
+    },
+    "s11_reference_ablation": {
+      "path": "docs/research/evidence/ch05-s11-flat-gouache-reference-ablation-comparison-r1.json",
+      "sha256": "cbd14efc9487403c1daee324632de6a0fdcd11c2f9a05fb3662837a22ce16861"
+    },
+    "sequence_cadence_review_assembly": {
+      "path": "production/comic/run-manifests/ch05-sequence-cadence-review-assembly-r1.json",
+      "sha256": "da409346e3b09041501b4f96341afa4a2e3a8f9dc051dc33dd80be46631e357e"
+    },
+    "sequence_cadence_review_triage": {
+      "path": "docs/research/evidence/ch05-sequence-cadence-review-triage-r1.json",
+      "sha256": "d99b34c94c6037a5e45c175f5847f316eb141ae35dd78774410ebd1033657e1c"
+    },
+    "sequence_cadence_boundary_audit": {
+      "path": "docs/research/evidence/ch05-sequence-cadence-boundary-audit-r1.json",
+      "sha256": "1aadf213f9a6f1253c4386392b663791a3fcf6ae9db8887268b0566936f8cc0d"
+    }
+  },
+  "route_ranking": [
+    {
+      "rank": 1,
+      "route": "r6_plus_semantic_gates",
+      "role": "semantic backbone for S02-S08",
+      "semantic_triage": {"pass": 47, "warn": 1, "fail": 2}
+    },
+    {
+      "rank": 2,
+      "route": "clear_line_watercolor_r1",
+      "role": "style-development lead and comparison route",
+      "semantic_triage": {"pass": 45, "warn": 2, "fail": 3}
+    },
+    {
+      "rank": 3,
+      "route": "reduced_palette_text_control_r1",
+      "role": "zero-upload density control and measured S01 sequence source",
+      "semantic_triage": {"pass": 43, "warn": 4, "fail": 3},
+      "overall_triage": {"pass": 6, "warn": 6, "fail": 38},
+      "strict_style_triage": {"pass": 12, "warn": 7, "fail": 31}
+    },
+    {
+      "rank": 4,
+      "route": "premium_cel_r1",
+      "role": "measured S09-S11 sequence source",
+      "semantic_triage": {"pass": 40, "warn": 5, "fail": 5}
+    },
+    {
+      "rank": 5,
+      "route": "flat_graphic_gouache_r1",
+      "role": "density and reference-conditioning diagnostic",
+      "semantic_triage": {"pass": 41, "warn": 6, "fail": 3},
+      "overall_triage": {"pass": 16, "warn": 7, "fail": 27},
+      "strict_style_triage": {"pass": 0, "warn": 0, "fail": 50}
+    },
+    {
+      "rank": 6,
+      "route": "alternate_graphic_r1",
+      "role": "controlled comparison",
+      "semantic_triage": {"pass": 36, "warn": 7, "fail": 7}
+    }
+  ],
+  "sequence_cadence_recommendation": {
+    "source": "deterministic lexicographic optimizer over 11 canonical sequence blocks",
+    "assignments": [
+      {"sequence_id": "s01-opening-departure", "panel_range": [1, 5], "route": "reduced_palette_text_control", "semantic": {"pass": 4, "warn": 1, "fail": 0}},
+      {"sequence_id": "s02-runnel-marker-trail", "panel_range": [6, 9], "route": "r6", "semantic": {"pass": 4, "warn": 0, "fail": 0}},
+      {"sequence_id": "s03-listening-twine-ridge", "panel_range": [10, 14], "route": "r6", "semantic": {"pass": 5, "warn": 0, "fail": 0}},
+      {"sequence_id": "s04-mill-reveal-bridge-warning", "panel_range": [15, 19], "route": "r6", "semantic": {"pass": 5, "warn": 0, "fail": 0}},
+      {"sequence_id": "s05-creek-marker-drum", "panel_range": [20, 24], "route": "r6", "semantic": {"pass": 5, "warn": 0, "fail": 0}},
+      {"sequence_id": "s06-ember-line-entry", "panel_range": [25, 29], "route": "r6", "semantic": {"pass": 5, "warn": 0, "fail": 0}},
+      {"sequence_id": "s07-impossible-footprints-bell", "panel_range": [30, 34], "route": "r6", "semantic": {"pass": 4, "warn": 1, "fail": 0}},
+      {"sequence_id": "s08-plank-tin-map", "panel_range": [35, 39], "route": "r6", "semantic": {"pass": 5, "warn": 0, "fail": 0}},
+      {"sequence_id": "s09-deduction-retreat-cut", "panel_range": [40, 44], "route": "premium_cel", "semantic": {"pass": 5, "warn": 0, "fail": 0}},
+      {"sequence_id": "s10-silence-return", "panel_range": [45, 47], "route": "premium_cel", "semantic": {"pass": 2, "warn": 1, "fail": 0}},
+      {"sequence_id": "s11-farmhouse-reversal", "panel_range": [48, 50], "route": "premium_cel", "semantic": {"pass": 3, "warn": 0, "fail": 0}}
+    ],
+    "selected_panel_source_counts": {"reduced_palette_text_control": 5, "r6": 34, "premium_cel": 11},
+    "selected_semantic_result": {"pass": 47, "warn": 3, "fail": 0},
+    "selected_semantic_warnings": [
+      {"panel_id": "ng-ch05-sc01-p003", "route": "reduced_palette_text_control", "issue": "fresh-over-old track overlap remains subtle"},
+      {"panel_id": "ng-ch05-sc01-p032", "route": "r6", "issue": "far-bank heel/toe direction remains ambiguous at phone width"},
+      {"panel_id": "ng-ch05-sc01-p045", "route": "premium_cel", "issue": "an extra uphill building near the mill weakens farmhouse return geography"}
+    ],
+    "selected_identity_hair_wardrobe_result": {"pass": 50, "warn": 0, "fail": 0},
+    "within_sequence_style_transitions": 0,
+    "adjacent_route_transitions": 2,
+    "semantic_pass_hybrid_adjacent_route_transitions": 33,
+    "transition_reduction_from_hybrid": 31,
+    "targeted_same_style_repairs": [],
+    "targeted_repair_rule": "Only an explicit semantic FAIL may trigger the smallest same-style repair; do not substitute a differently styled panel inside a sequence.",
+    "review_only_assembly_created": true,
+    "executable_or_promoted_production_manifest_created": false,
+    "owner_approved": null
+  },
+  "reduced_palette_text_control": {
+    "zero_upload": {"prompt_reference_bindings": 0, "execution_reference_bindings": 0, "reference_uploads": 0, "direct_paid_provider_api_calls": 0},
+    "semantic_triage": {"pass": 43, "warn": 4, "fail": 3},
+    "overall_triage": {"pass": 6, "warn": 6, "fail": 38},
+    "lettering_triage": {"pass": 17, "warn": 6, "fail": 27},
+    "phone_triage": {"pass": 43, "warn": 7, "fail": 0},
+    "strict_style_triage": {"pass": 12, "warn": 7, "fail": 31, "compliance_rate": 0.24},
+    "aggregate_density_proxies": {"grayscale_entropy_bits": 6.572611, "edge_density_ge_32": 0.149995, "png_bytes_per_native_pixel": 1.397747},
+    "r6_aggregate_density_proxies": {"grayscale_entropy_bits": 6.889241, "edge_density_ge_32": 0.220004, "png_bytes_per_native_pixel": 1.623124},
+    "mature_identity_hair_wardrobe": {"visible_cast_panels": 32, "pass": 32, "warn": 0, "fail": 0},
+    "identity_scope_limit": "Role binding, mature presentation, approved hair-color family, and wardrobe pass; exact facial identity, hair shape, and panel-to-panel micro-continuity are not established.",
+    "wholesale_promotion": false
+  },
+  "paired_reference_ablation": {
+    "interpretation": "DIRECTIONAL_ONLY_ZERO_UPLOAD_REMAINS_VIABLE",
+    "matched_no_reference_minus_reference_backed": {
+      "S01": {"grayscale_entropy_bits": 0.057907, "edge_density_ge_32": -0.068096, "png_bytes_per_native_pixel": -0.188811},
+      "S11": {"grayscale_entropy_bits": 0.064727, "edge_density_ge_32": -0.029169, "png_bytes_per_native_pixel": -0.045402}
+    },
+    "sample_count": 2,
+    "replicates_per_sequence": 1,
+    "human_review_state": "PENDING",
+    "causal_claim": false,
+    "general_reference_claim": false,
+    "zero_upload_route_viable": true
+  },
+  "sequence_boundary_review": {
+    "p005_to_p006": {
+      "assessment": "CONTINUITY_RISK_VISUALLY_ABRUPT",
+      "luminance_histogram_distance_over_adjacent_control_mean": 1.120982,
+      "rgb_histogram_distance_over_adjacent_control_mean": 1.168896,
+      "next_action": "Compare existing selected, all-reduced, and all-r6 P005-to-P006 pairs at matched presentation size; no upload or new generation."
+    },
+    "p039_to_p040": {
+      "assessment": "LOWER_OBSERVED_CONTINUITY_RISK_REVIEW_STILL_REQUIRED",
+      "luminance_histogram_distance_over_adjacent_control_mean": 0.902299,
+      "rgb_histogram_distance_over_adjacent_control_mean": 0.894237,
+      "next_action": "Keep unchanged unless owner semantic or identity review identifies a concrete problem."
+    }
+  },
+  "semantic_pass_hybrid": {
+    "assembly": "production/comic/run-manifests/ch05-semantic-pass-hybrid-assembly-r1.json",
+    "assembly_sha256": "57ef042ed24b089ea7c2ec13b6709f82c55fc5770bd1c0452d9e169bf7d38074",
+    "triage": {"pass": 49, "warn": 1, "fail": 0},
+    "adjacent_route_transitions": 33,
+    "status": "REVIEW_ONLY_NOT_SEQUENCE_COHERENT_NOT_ACCEPTED"
+  },
+  "owner_disposition": {
+    "accepted_route": null,
+    "accepted_sequence_assignments": null,
+    "accepted_panel_ids": null,
+    "commercial_rights_clearance": null,
+    "exact_production_base": null
+  },
+  "promotion_boundary": "All art and sequence assignments remain pending owner review, unaccepted, commercially uncleared, stochastically non-reproducible, and not an exact production base.",
+  "limitations": [
+    "The cadence is a semantic/identity and transition recommendation rendered as a review-only assembly, not a finish-continuity proof or an executable, accepted, or promoted production manifest.",
+    "The selected reduced-palette S01 block still has two canonical lettering failures and three strict-style failures.",
+    "The two remaining route transitions still require palette, lighting, line-weight, character-scale, and environment-continuity review.",
+    "P005-to-P006 is a measured and manually observed finish-continuity risk; P039-to-P040 is comparatively cohesive but still unaccepted.",
+    "Hair/wardrobe continuity does not establish exact facial identity or hair-shape stability.",
+    "The paired ablations are single stochastic samples and support no causal or general reference-conditioning claim.",
+    "Built-in model, endpoint, request IDs, usage, monetary cost, and seed remain unavailable."
+  ],
+  "adrs": ["ADR-0184", "ADR-0185", "ADR-0186", "ADR-0187", "ADR-0188", "ADR-0189", "ADR-0190"]
+}

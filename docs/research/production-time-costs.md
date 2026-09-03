@@ -64,3 +64,14 @@ All unavailable values are deliberately recorded as `unmeasured`; estimates must
 | actor-matte G07 deterministic control | 2 local composite outputs | execution time not instrumented (sub-second) | unmeasured | $0 API/cloud | 0 semantic-smoke accepted |
 
 Future runs must start a human-review timer at candidate inspection and stop it at accepted/rejected decision, including repair time.
+
+## CH05 six-route continuation — 2026-09-03
+
+| Work item | Service outputs / local crops | References / uploads | Timing | Direct paid spend | Review state |
+| --- | ---: | ---: | --- | ---: | --- |
+| Flat graphic-gouache complete arm | 11 / 50 | 23 uses / product upload count unavailable | 1,290.989 s non-overlap observed arithmetic; actual E2E unavailable | `$0` | 16 PASS / 7 WARN / 27 FAIL overall; 0 human-reviewed/accepted |
+| Reduced-palette text control | 11 / 50 | 0 / 0 | 1,027.652 s non-overlap observed arithmetic; actual E2E unavailable | `$0` | 6 PASS / 6 WARN / 38 FAIL overall; 0 human-reviewed/accepted |
+| Six-route comparison and cadence assembly | 0 / 300 existing candidates compared | 0 / 0 | local deterministic analysis/assembly; not generation duration | `$0` | review cadence 47 PASS / 3 WARN / 0 FAIL; owner review pending |
+| S01/S11 matched ablations | 2 / 0 | 0 / 0 | individual execution records exist; no combined workflow stopwatch | `$0` | causal inference limited to one stochastic pair per sequence; 0 accepted |
+
+Built-in product monetary cost, model, endpoint, provider request IDs, usage, and seed remain unavailable, not zero. Crops and comparison rows are local derivatives and must not be counted as generation calls. Human-review minutes remain `null`, and no candidate is accepted, rights-cleared, commercially cleared, or an exact production base.

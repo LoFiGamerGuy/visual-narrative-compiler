@@ -212,3 +212,13 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Preserve the semantic-pass hybrid as review-only integration evidence; do not treat its 33 route transitions as a production finish.
 4. Keep P032 WARN until heel/toe direction is unambiguous at 390px; do not spend repeated low-information stochastic attempts without a new geometry mechanism.
 5. After the flat-gouache arm, recommend a chapter cadence that assigns finish/density by narrative role while minimizing adjacent style discontinuities.
+
+## Active queue after six-route comparison and matched ablations — 2026-09-03
+
+1. Have the owner review or revise the assembled sequence-constrained cadence: reduced-palette S01, r6 S02-S08, and premium cel S09-S11. Preserve it as review-only until an explicit disposition authorizes production promotion.
+2. Review P003, P032, and P045 in the cadence packet, plus the two route boundaries in the boundary-continuity sheet, before considering same-style repair.
+3. Review the six all-axis reduced-palette shortlist candidates—P010, P014, P035, P040, P041, and P046—alongside the complete route's lettering overlay and phone scroll; do not infer wholesale approval from isolated positives.
+4. Treat P008, P036, and P050 as the only current reduced-route targeted-correction candidates. If a correction is authorized, use the smallest same-style repair and preserve every non-target source hash.
+5. Repair lettering-safe composition before reduced-style promotion: lettering is 17 PASS / 6 WARN / 27 FAIL even though phone readability is 43/7/0.
+6. Do not claim reference removal improves density or continuity from S01/S11 alone. Repeat only if a new paired design adds multiple stochastic samples while preserving all other prompt lines.
+7. Keep human review, rights/commercial clearance, exact-production-base status, and future armor/weapons/monsters/wardrobe canon as separate unresolved decisions.

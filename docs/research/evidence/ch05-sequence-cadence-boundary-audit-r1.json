@@ -1,0 +1,476 @@
+{
+  "record_type": "CH05SequenceCadenceBoundaryAudit",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-sequence-cadence-boundary-audit-r1",
+  "state": "MEASURED_NON_GATING_CONTINUITY_RISK_AUDIT_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "inputs": [
+    {
+      "path": "docs/research/evidence/ch05-six-route-comparison-r1.json",
+      "sha256": "c40d3a945704639855135cda4d011529f13c5c71d857b7807914823d7e248229"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-sequence-cadence-review-assembly-r1.json",
+      "sha256": "da409346e3b09041501b4f96341afa4a2e3a8f9dc051dc33dd80be46631e357e"
+    },
+    {
+      "path": "experiments/review-packets/ch05-sequence-cadence-review-r1/review/ch05-sequence-cadence-boundary-continuity-sheet-r1.png",
+      "sha256": "32305d7b1d1b23d061fe9f83702ace268cc7afc0f913cf6f9fef36fc9d05730b"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/panels/p004-reduced-palette-text-control-r1.png",
+      "sha256": "3564429052ca307d2c8ddd5f6afb576d64732de5eedf84099cb1edc5604e5f64"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/panels/p005-reduced-palette-text-control-r1.png",
+      "sha256": "b1311f084c016169605e4be4d94cffe1841d95adfa9e5497ea7e1a1689ac08fa"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p006-sequence-derived-r1.png",
+      "sha256": "8998f36131129727ca4923ac73e3ae8b8c0ebddf4e6dd8460529b890de13936d"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p007-sequence-derived-r1.png",
+      "sha256": "4b4dd28f4a6cfd6a341cb72a6c5a34f0512082d0a651056d8dd912242bf61b91"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p038-sequence-derived-r1.png",
+      "sha256": "4eb745dabae57221c6de6768d517d3dacdeecf66bbc8d650d5091a3e36b4ee7d"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P039-object-continuity-repair-r1.png",
+      "sha256": "80bd25ce018866372b9368e461c8d9759a67d1a69e04bbc78124e05d86b99f8f"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p040-premium-cel-r1.png",
+      "sha256": "a6ab5fa4f777ffc1a2d36a41de9e2a0ebcb12fcfc05c7a9c261fc1cecb54a2c3"
+    },
+    {
+      "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p041-premium-cel-r1.png",
+      "sha256": "b70b733fe89f566f8b8d30b44967f8a066dd6f8e158fe645f40c66bf771d4df1"
+    }
+  ],
+  "coverage": {
+    "source_panels": 8,
+    "pair_comparisons": 6,
+    "cross_route_boundaries": 2,
+    "adjacent_within_route_controls": 4,
+    "new_generated_images": 0,
+    "external_uploads": 0
+  },
+  "method": {
+    "panel_normalization": "Entropy and edge density resize each panel to 390 px wide with aspect preserved. Histogram distances resize both images to 256x256 RGB with Lanczos solely for deterministic equal-sample comparison.",
+    "grayscale_entropy_bits": "Shannon entropy of the normalized 8-bit luminance histogram.",
+    "edge_density_ge_32": "Fraction of non-border pixels whose Pillow FIND_EDGES luminance value is >=32.",
+    "png_bytes_per_native_pixel": "Source PNG bytes divided by native pixel count; compression-sensitive supporting cue only.",
+    "luminance_histogram_total_variation": "Total-variation distance over normalized 256-bin luminance histograms; 0 means identical histograms and 1 means disjoint histograms.",
+    "rgb_64_bin_histogram_mean_channel_total_variation": "Mean of R/G/B channel total-variation distances after deterministic aggregation into 64 bins per channel.",
+    "interpretation_boundary": "These are content-, crop-, aspect-, codec-, and resize-sensitive proxies. They do not measure artistic quality, narrative quality, identity, or production fitness and cannot attribute a difference to route/style alone."
+  },
+  "panels": [
+    {
+      "order": 4,
+      "panel_id": "ng-ch05-sc01-p004",
+      "candidate_id": "reduced-palette-text-control-r1-p004",
+      "sequence_id": "s01-opening-departure",
+      "route": "reduced_palette_text_control",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/panels/p004-reduced-palette-text-control-r1.png",
+        "sha256": "3564429052ca307d2c8ddd5f6afb576d64732de5eedf84099cb1edc5604e5f64",
+        "width": 852,
+        "height": 366,
+        "png_bytes": 420440
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 6.42269,
+        "edge_density_ge_32": 0.127997,
+        "png_bytes_per_native_pixel": 1.34829
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "order": 5,
+      "panel_id": "ng-ch05-sc01-p005",
+      "candidate_id": "reduced-palette-text-control-r1-p005",
+      "sequence_id": "s01-opening-departure",
+      "route": "reduced_palette_text_control",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-reduced-palette-text-control-r1/panels/p005-reduced-palette-text-control-r1.png",
+        "sha256": "b1311f084c016169605e4be4d94cffe1841d95adfa9e5497ea7e1a1689ac08fa",
+        "width": 852,
+        "height": 241,
+        "png_bytes": 330869
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 6.712305,
+        "edge_density_ge_32": 0.233319,
+        "png_bytes_per_native_pixel": 1.611385
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "order": 6,
+      "panel_id": "ng-ch05-sc01-p006",
+      "candidate_id": "chapter-r1-p006",
+      "sequence_id": "s02-runnel-marker-trail",
+      "route": "r6",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p006-sequence-derived-r1.png",
+        "sha256": "8998f36131129727ca4923ac73e3ae8b8c0ebddf4e6dd8460529b890de13936d",
+        "width": 864,
+        "height": 454,
+        "png_bytes": 621940
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 7.579632,
+        "edge_density_ge_32": 0.209994,
+        "png_bytes_per_native_pixel": 1.585546
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "order": 7,
+      "panel_id": "ng-ch05-sc01-p007",
+      "candidate_id": "chapter-r1-p007",
+      "sequence_id": "s02-runnel-marker-trail",
+      "route": "r6",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p007-sequence-derived-r1.png",
+        "sha256": "4b4dd28f4a6cfd6a341cb72a6c5a34f0512082d0a651056d8dd912242bf61b91",
+        "width": 864,
+        "height": 445,
+        "png_bytes": 666395
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 7.26212,
+        "edge_density_ge_32": 0.250544,
+        "png_bytes_per_native_pixel": 1.733237
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "order": 38,
+      "panel_id": "ng-ch05-sc01-p038",
+      "candidate_id": "chapter-r1-p038",
+      "sequence_id": "s08-plank-tin-map",
+      "route": "r6",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p038-sequence-derived-r1.png",
+        "sha256": "4eb745dabae57221c6de6768d517d3dacdeecf66bbc8d650d5091a3e36b4ee7d",
+        "width": 863,
+        "height": 294,
+        "png_bytes": 526509
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 6.855534,
+        "edge_density_ge_32": 0.37983,
+        "png_bytes_per_native_pixel": 2.075141
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "order": 39,
+      "panel_id": "ng-ch05-sc01-p039",
+      "candidate_id": "chapter-r5-p039-object-continuity-repair-r1",
+      "sequence_id": "s08-plank-tin-map",
+      "route": "r6",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P039-object-continuity-repair-r1.png",
+        "sha256": "80bd25ce018866372b9368e461c8d9759a67d1a69e04bbc78124e05d86b99f8f",
+        "width": 858,
+        "height": 910,
+        "png_bytes": 1339226
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 7.169994,
+        "edge_density_ge_32": 0.233823,
+        "png_bytes_per_native_pixel": 1.715241
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "order": 40,
+      "panel_id": "ng-ch05-sc01-p040",
+      "candidate_id": "premium-cel-r1-p040",
+      "sequence_id": "s09-deduction-retreat-cut",
+      "route": "premium_cel",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p040-premium-cel-r1.png",
+        "sha256": "a6ab5fa4f777ffc1a2d36a41de9e2a0ebcb12fcfc05c7a9c261fc1cecb54a2c3",
+        "width": 852,
+        "height": 416,
+        "png_bytes": 473122
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 6.969261,
+        "edge_density_ge_32": 0.124493,
+        "png_bytes_per_native_pixel": 1.334874
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "order": 41,
+      "panel_id": "ng-ch05-sc01-p041",
+      "candidate_id": "premium-cel-r1-p041",
+      "sequence_id": "s09-deduction-retreat-cut",
+      "route": "premium_cel",
+      "source": {
+        "path": "experiments/review-packets/ch05-complete-chapter-premium-cel-r1/panels/p041-premium-cel-r1.png",
+        "sha256": "b70b733fe89f566f8b8d30b44967f8a066dd6f8e158fe645f40c66bf771d4df1",
+        "width": 852,
+        "height": 313,
+        "png_bytes": 407120
+      },
+      "metrics": {
+        "grayscale_entropy_bits": 6.854477,
+        "edge_density_ge_32": 0.213351,
+        "png_bytes_per_native_pixel": 1.526647
+      },
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "b1_left_within",
+      "left_panel_id": "ng-ch05-sc01-p004",
+      "right_panel_id": "ng-ch05-sc01-p005",
+      "pair_kind": "within_route",
+      "route_context": "reduced_palette_text_control",
+      "metrics": {
+        "luminance_histogram_total_variation": 0.588303,
+        "rgb_64_bin_histogram_mean_channel_total_variation": 0.55366
+      }
+    },
+    {
+      "pair_id": "b1_cross_route",
+      "left_panel_id": "ng-ch05-sc01-p005",
+      "right_panel_id": "ng-ch05-sc01-p006",
+      "pair_kind": "cross_route",
+      "route_context": "reduced_palette_text_control_to_r6",
+      "metrics": {
+        "luminance_histogram_total_variation": 0.52121,
+        "rgb_64_bin_histogram_mean_channel_total_variation": 0.519582
+      }
+    },
+    {
+      "pair_id": "b1_right_within",
+      "left_panel_id": "ng-ch05-sc01-p006",
+      "right_panel_id": "ng-ch05-sc01-p007",
+      "pair_kind": "within_route",
+      "route_context": "r6",
+      "metrics": {
+        "luminance_histogram_total_variation": 0.341614,
+        "rgb_64_bin_histogram_mean_channel_total_variation": 0.335353
+      }
+    },
+    {
+      "pair_id": "b2_left_within",
+      "left_panel_id": "ng-ch05-sc01-p038",
+      "right_panel_id": "ng-ch05-sc01-p039",
+      "pair_kind": "within_route",
+      "route_context": "r6",
+      "metrics": {
+        "luminance_histogram_total_variation": 0.535873,
+        "rgb_64_bin_histogram_mean_channel_total_variation": 0.524277
+      }
+    },
+    {
+      "pair_id": "b2_cross_route",
+      "left_panel_id": "ng-ch05-sc01-p039",
+      "right_panel_id": "ng-ch05-sc01-p040",
+      "pair_kind": "cross_route",
+      "route_context": "r6_to_premium_cel",
+      "metrics": {
+        "luminance_histogram_total_variation": 0.410217,
+        "rgb_64_bin_histogram_mean_channel_total_variation": 0.399643
+      }
+    },
+    {
+      "pair_id": "b2_right_within",
+      "left_panel_id": "ng-ch05-sc01-p040",
+      "right_panel_id": "ng-ch05-sc01-p041",
+      "pair_kind": "within_route",
+      "route_context": "premium_cel",
+      "metrics": {
+        "luminance_histogram_total_variation": 0.373398,
+        "rgb_64_bin_histogram_mean_channel_total_variation": 0.369542
+      }
+    }
+  ],
+  "boundaries": [
+    {
+      "boundary_id": "reduced_palette_text_control_to_r6",
+      "cross_pair_id": "b1_cross_route",
+      "neighbor_pair_ids": [
+        "b1_left_within",
+        "b1_right_within"
+      ],
+      "proxy_comparison": {
+        "luminance_histogram_total_variation": {
+          "cross_route": 0.52121,
+          "left_within_route": 0.588303,
+          "right_within_route": 0.341614,
+          "adjacent_within_route_mean": 0.464958,
+          "cross_minus_adjacent_mean": 0.056251,
+          "cross_to_adjacent_mean_ratio": 1.120982,
+          "cross_exceeds_adjacent_within_route_mean": true,
+          "cross_exceeds_both_adjacent_within_route_pairs": false
+        },
+        "rgb_64_bin_histogram_mean_channel_total_variation": {
+          "cross_route": 0.519582,
+          "left_within_route": 0.55366,
+          "right_within_route": 0.335353,
+          "adjacent_within_route_mean": 0.444507,
+          "cross_minus_adjacent_mean": 0.075075,
+          "cross_to_adjacent_mean_ratio": 1.168896,
+          "cross_exceeds_adjacent_within_route_mean": true,
+          "cross_exceeds_both_adjacent_within_route_pairs": false
+        }
+      },
+      "proxy_rule_result": {
+        "rule": "COUNT_PAIRED_HISTOGRAM_DISTANCES_WHERE_CROSS_ROUTE_EXCEEDS_THE_MEAN_OF_ITS_TWO_ADJACENT_WITHIN_ROUTE_PAIRS",
+        "distances_exceeding_adjacent_mean": 2,
+        "distances_exceeding_both": 0,
+        "distances_evaluated": 2,
+        "supports_above_local_mean_on_both_histogram_proxies": true
+      },
+      "manual_observation": {
+        "reviewer": "Codex agent visual review",
+        "basis_path": "experiments/review-packets/ch05-sequence-cadence-review-r1/review/ch05-sequence-cadence-boundary-continuity-sheet-r1.png",
+        "basis_sha256": "32305d7b1d1b23d061fe9f83702ace268cc7afc0f913cf6f9fef36fc9d05730b",
+        "observation": "The existing boundary sheet shows an abrupt cut from P005's high-key cream negative space and low, people-free runnel insert to P006's cool blue-gray sky, denser line/texture, taller frame, and two-adult action staging.",
+        "confound": "The route cut also changes narrative sequence, subject matter, shot scale, and/or aspect ratio; neither histogram distance nor this observation isolates style as the cause."
+      },
+      "assessment": "CONTINUITY_RISK_VISUALLY_ABRUPT",
+      "smallest_no_upload_next_action": "Keep the selected sequence routes provisional; use existing P005/P006 pixels to compare selected reduced→R6 against all-reduced and all-R6 transition controls before any pixel repair or production acceptance.",
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    },
+    {
+      "boundary_id": "r6_to_premium_cel",
+      "cross_pair_id": "b2_cross_route",
+      "neighbor_pair_ids": [
+        "b2_left_within",
+        "b2_right_within"
+      ],
+      "proxy_comparison": {
+        "luminance_histogram_total_variation": {
+          "cross_route": 0.410217,
+          "left_within_route": 0.535873,
+          "right_within_route": 0.373398,
+          "adjacent_within_route_mean": 0.454636,
+          "cross_minus_adjacent_mean": -0.044419,
+          "cross_to_adjacent_mean_ratio": 0.902299,
+          "cross_exceeds_adjacent_within_route_mean": false,
+          "cross_exceeds_both_adjacent_within_route_pairs": false
+        },
+        "rgb_64_bin_histogram_mean_channel_total_variation": {
+          "cross_route": 0.399643,
+          "left_within_route": 0.524277,
+          "right_within_route": 0.369542,
+          "adjacent_within_route_mean": 0.446909,
+          "cross_minus_adjacent_mean": -0.047266,
+          "cross_to_adjacent_mean_ratio": 0.894237,
+          "cross_exceeds_adjacent_within_route_mean": false,
+          "cross_exceeds_both_adjacent_within_route_pairs": false
+        }
+      },
+      "proxy_rule_result": {
+        "rule": "COUNT_PAIRED_HISTOGRAM_DISTANCES_WHERE_CROSS_ROUTE_EXCEEDS_THE_MEAN_OF_ITS_TWO_ADJACENT_WITHIN_ROUTE_PAIRS",
+        "distances_exceeding_adjacent_mean": 0,
+        "distances_exceeding_both": 0,
+        "distances_evaluated": 2,
+        "supports_above_local_mean_on_both_histogram_proxies": false
+      },
+      "manual_observation": {
+        "reviewer": "Codex agent visual review",
+        "basis_path": "experiments/review-packets/ch05-sequence-cadence-review-r1/review/ch05-sequence-cadence-boundary-continuity-sheet-r1.png",
+        "basis_sha256": "32305d7b1d1b23d061fe9f83702ace268cc7afc0f913cf6f9fef36fc9d05730b",
+        "observation": "The existing boundary sheet shows P039 and P040 sharing dark mill timbers, a cool exterior opening, grounded earth tones, and close character-led staging; the focal character and aspect ratio change, but the value/palette bridge is comparatively cohesive.",
+        "confound": "The route cut also changes narrative sequence, subject matter, shot scale, and/or aspect ratio; neither histogram distance nor this observation isolates style as the cause."
+      },
+      "assessment": "LOWER_OBSERVED_CONTINUITY_RISK_REVIEW_STILL_REQUIRED",
+      "smallest_no_upload_next_action": "Retain the provisional boundary and include P039→P041 in owner review; no pixel intervention is justified by this audit alone.",
+      "owner_acceptance": null,
+      "rights_clearance": null,
+      "commercially_cleared": null,
+      "exact_production_base": null
+    }
+  ],
+  "recommendation": {
+    "route_selection_changed": false,
+    "pixel_edits_authorized_or_performed": false,
+    "next_action": "Run a zero-upload, no-new-pixel three-arm P005→P006 control using already-existing candidates: selected reduced→R6, all-reduced, and all-R6. Holding the two panel IDs/story beats fixed will better separate route-switch contribution from content change. Keep P039→P040 unchanged unless owner review finds a semantic or identity issue.",
+    "reason": "The first boundary warrants one controlled existing-pixel attribution check, while the second does not justify an intervention from proxy/manual evidence alone."
+  },
+  "spend": {
+    "direct_paid_api_cloud_usd": 0.0,
+    "built_in_product_monetary_cost_usd": null
+  },
+  "owner_disposition": {
+    "accepted": null,
+    "rights_cleared": null,
+    "commercially_cleared": null,
+    "exact_production_base": null
+  },
+  "limitations": [
+    "Manual observations are transparent non-gating agent review of the existing boundary sheet.",
+    "The compared pairs depict different content and use different panel shapes, so proxy distances are not controlled style-only effects.",
+    "No new image was generated, edited, uploaded, or accepted.",
+    "No commercial-use, license, rights, or exact-production-base conclusion is made."
+  ],
+  "boundary": "Evidence and smallest-next-action recommendation only; no owner acceptance, rights clearance, commercial clearance, pixel repair, canon replacement, or exact production-base decision."
+}

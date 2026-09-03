@@ -515,3 +515,21 @@ At 390-pixel normalization and equal panel weight, r6 / alternate / clear-line m
 Four complete 50-panel routes compare 200 aligned candidates. Supplemental semantic counts are r6 47/1/2, clear-line 45/2/3, premium cel 40/5/5, and alternate graphic 36/7/7. Premium-cel equal-panel measurements are edge density 0.227841, grayscale entropy 6.934245 bits, and PNG bytes/native pixel 1.656707; it falls between r6 and clear-line on the first two proxies and remains more compressed-byte-dense than r6. The style is a useful panel source but not a clear low-density route.
 
 The targeted semantic repair tranche changes only P001/P032/P039: two PASS and one WARN at exact phone review size. The derived review-only hybrid then reaches 49 PASS / 1 WARN / 0 FAIL without selecting a known-failing candidate. This rollup measures semantic integration, not finish continuity: 33 adjacent route transitions remain visible and prevent production-base promotion.
+
+## CH05 flat and reduced-palette complete-chapter controls — 2026-09-03
+
+Flat graphic-gouache covers all 50 plans in 11 outputs and measures 41 PASS / 6 WARN / 3 FAIL semantically, but only 16/7/27 overall because lettering is 19/6/25 and style compliance is 0/0/50. Reduced-palette text control also covers all 50 plans in 11 outputs, without references or uploads. It measures 43/4/3 semantic, 43/7/0 phone, 17/6/27 lettering, 12/7/31 style, and 6/6/38 overall. On visible-cast panels, reduced-palette identity/hair/wardrobe is 32/32; 18 plans have no visible adult cast.
+
+At 390-pixel normalization and equal panel weight, flat versus reduced aggregate complexity is edge density 0.211280 versus 0.149995, grayscale entropy 6.897733 versus 6.572611 bits, and PNG bytes/native pixel 1.581633 versus 1.397747. Reduced-palette therefore separates on all three density proxies, but the large style and lettering failure counts prevent interpreting lower density as better production fitness.
+
+## CH05 six-route sequence-cadence benchmark — 2026-09-03
+
+The current comparison joins 300 candidates from r6, alternate graphic, clear-line watercolor, premium cel, flat graphic-gouache, and reduced-palette text control. Semantic PASS/WARN/FAIL is respectively 47/1/2, 36/7/7, 45/2/3, 40/5/5, 41/6/3, and 43/4/3. The sequence-constrained optimizer recommends reduced-palette S01, r6 S02-S08, and premium cel S09-S11, assigning 5/34/11 panels with two sequence route transitions. It reduces the prior review-only hybrid's 33 adjacent transitions by 31 while prohibiting within-sequence cherry-picking.
+
+The assembled review cadence measures 47 PASS / 3 WARN / 0 FAIL over 50 panels; P003, P032, and P045 retain warnings. This is a cadence recommendation rather than wholesale renderer selection. It does not prove the block boundaries are production-continuous, and no art is accepted or promoted.
+
+## CH05 S01/S11 reference-ablation benchmark — 2026-09-03
+
+For S01, matched no-reference minus reference-backed flat-gouache changes entropy / edge density / PNG bytes per native pixel by +0.057907 / -0.068096 / -0.188811. For S11 the same deltas are +0.064727 / -0.029169 / -0.045402. Stricter reduced-palette minus matched no-reference is -0.574205 / -0.015176 / -0.106527 at S01 and -0.024050 / -0.011826 / -0.063436 at S11.
+
+Each matched comparison contains only one stochastic pair and one required changed input-instruction line. The stricter control changes style instructions as well as omitting references. These benchmarks cannot isolate a general causal effect of reference conditioning, and the complexity metrics do not score identity, narrative success, art quality, or commercial suitability.

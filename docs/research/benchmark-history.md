@@ -631,3 +631,9 @@ The request-interval sum overlaps and is not total wall time. P009, P030, and P0
 Sixteen requests cover 80 unique plans with 40 authorized reference uses, zero duplicate coverage, zero whole-chapter alternate arms, and zero provider calls at preflight. All requests bind one-row/no-number layout, no generated prose, fixed hair and garment ancestry, Warden's Reach anti-gun geometry, physical Ledger emblems, and adult-only data boundaries. The validator rejects 27/27 mutations.
 
 This is execution readiness, not rendered quality, acceptance, rights, clearance, reproducibility, or exact-base selection.
+
+## CH10–CH11 complete-authoring benchmark — 2026-09-03
+
+The third batch adds 2 complete chapters, 80 unique panels, 16 five-panel sequences, all six phases per chapter, and exact CH09→CH10→CH11 continuity. Post-CH05 authored breadth is now 6 complete chapters/240 panels. Persistent injury constraints, earned equipment/classes, adult faction roles, siege causality, physical Ledger binding, and protected lettering are explicit. The validator rejects 41/41 adversarial mutations.
+
+This is authoring evidence only; it does not grant prompt, render, acceptance, rights, or commercial authority.

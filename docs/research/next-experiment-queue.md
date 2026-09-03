@@ -329,3 +329,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Measure whether the one-row/no-number, nonverbal-Ledger, Tamsin-hair, and Warden's Reach controls reduce the exact CH07 failure classes.
 4. Preserve one candidate per panel and newly generated outputs as ineligible for re-upload.
 5. Keep CH07 P030/P040 repairs queued behind complete CH08 throughput unless they block cross-chapter comprehension.
+
+## Active queue after CH10–CH11 authoring — 2026-09-03
+
+1. Assemble the eight generated CH08 sequences into a complete review chapter and measure the new layout/text/prop controls.
+2. Complete CH12–CH13 authoring with exact CH11→CH12→CH13 carry, ending the required eight-chapter Bell Road arc.
+3. Promote CH09 and later chapters one default route at a time only after their full plan/state batches pass.
+4. Preserve class, injury, armor, weapon, faction, food-loss, and relationship consequences across every later batch.
+5. Keep alternate styles and non-blocking repairs subordinate to chronological chapter completion.

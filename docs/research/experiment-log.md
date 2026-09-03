@@ -1748,3 +1748,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Withheld four authored Ledger phrases from generated pixels and substituted nonverbal physical emblems for later local lettering.
 - Validation PASS; 27/27 adversarial mutations rejected. Provider calls/outputs/spend: 0/0/$0 at preflight.
 - Decision: ADR-0203. Next: generate CH08 completely before repair or route alternatives.
+
+## CH10–CH11 complete panel authoring batch — 2026-09-03
+
+- Authored 80 unique chronological ComicPanelPlans/16 five-panel sequences with exact CH09→CH10→CH11 state carry.
+- CH10 turns injury into persistent blocking mechanics, earns forged gear and owned weapons through bargaining/repair, exposes Kest's sacrifice, and moves Tamsin causally to Brackenwake.
+- CH11 stages a full collective Orchard Siege and earns formal classes/shared bond through gates, water, trellis, capstan, leadership, and visible loss—not arbitrary level-up UI.
+- All cast remains clearly fictional adults; hair, armor ancestry, weapon state, physical Ledger, protected lettering, and ComicPanelPlan-only boundaries pass.
+- Validator rejects 41/41 mutations. Prompts, pixels, provider operations, uploads, and spend for CH10–CH11 remain zero.

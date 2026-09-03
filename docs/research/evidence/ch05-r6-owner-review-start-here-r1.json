@@ -1,0 +1,426 @@
+{
+  "record_type": "CH05R6OwnerReviewStartHere",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-r6-owner-review-start-here-r1",
+  "state": "NAVIGATION_READY_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source_bindings": [
+    {
+      "path": "docs/research/evidence/ch05-complete-chapter-release-r6.json",
+      "sha256": "62e4d4bac75a16470055d31a05c639acbfd18523bf80b9f7711fdaa717898d24"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-production-manifest-r6.json",
+      "sha256": "a4cfadd90282e408ba00f407608d3c09637be2ef3eddb2f2045901738dce27c9"
+    },
+    {
+      "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json",
+      "sha256": "3c84cf3c6fdb479ad3e32717c684e7d44362977da53e9d3a10659d016cea8677"
+    },
+    {
+      "path": "docs/research/evidence/cross-chapter-comic-regression-r1.json",
+      "sha256": "e6fb26ce76cc31acb34af1109e2665432ac2d3326347a13e6b5b1bbacc3a01e0"
+    },
+    {
+      "path": "production/comic/style-direction/north-garden-cross-chapter-continuity-r1.json",
+      "sha256": "5739d1f0ca2b7a1a1cc158bfdf75769d72d9c78ec65af85391f647ed10ab5e8c"
+    },
+    {
+      "path": "docs/research/evidence/comic-panel-plan-chapter-inventory-r1.json",
+      "sha256": "f587b7b272228fa6161a22d8acbc0a1d5a172a0544d90f7b64c01ad06a301c67"
+    },
+    {
+      "path": "production/comic/contracts/complete-chapter-comicpanelplan-authoring-contract-r1.json",
+      "sha256": "e112fcd5d2b450746a6a6ad827ba6dff4ff77a0bf10c212f4718a334dc3e9d4e"
+    },
+    {
+      "path": "docs/research/evidence/complete-chapter-semantic-graph-validator-r1.json",
+      "sha256": "3eafb7701098a42cfef196bfa48f767dd37ebfc332c449e6353b86424bb7ebe2"
+    },
+    {
+      "path": "docs/research/evidence/post-ch05-complete-chapter-integrated-release-r1.json",
+      "sha256": "a95fd52847aa2e4f4fe17b9362b532329ac228e53e21b9af1e6e3c0bd119395b"
+    },
+    {
+      "path": "docs/research/ch05-complete-chapter-review-handoff-r6.md",
+      "sha256": "2c1f167a9ac39c4d64ee4aa882d75be30f750896ecc983903a0e309f1fa2fe2a"
+    }
+  ],
+  "measured_summary": {
+    "chapter_panels": 50,
+    "panel_candidates": 59,
+    "raster_outputs": 16,
+    "agent_triage": {
+      "pass": 49,
+      "warn": 1,
+      "fail": 0,
+      "gating": false
+    },
+    "review_artifacts": 10,
+    "strongest_candidates": 13,
+    "warning_candidates": 2,
+    "chapter_inventory_plans": 63,
+    "cross_chapter_panels": 23,
+    "integrated_release_commands": 10,
+    "integrated_release_effective_checks": 93,
+    "human_review_minutes": null,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "exact_production_base": 0
+  },
+  "review_order": [
+    "lettered_phone_scroll",
+    "lettered_full_scroll",
+    "contact_sheet",
+    "triage_sheet",
+    "continuity_sheet",
+    "lettering_safe_zone_overlay",
+    "clean_full_scroll",
+    "clean_phone_scroll",
+    "chapter_row_contact_sheet",
+    "phone_width_progression"
+  ],
+  "review_artifacts": [
+    {
+      "kind": "lettered_phone_scroll",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/lettered/ch05-complete-chapter-lettered-phone-390px-r1.png",
+      "sha256": "d1206dd5e2c4821e557122ee397b7c0f83a49559f92bb8ac0d16a31d73b18be8",
+      "width_px": 390,
+      "height_px": 8982,
+      "bytes": 4137683,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT",
+      "section": "CH05_COMPLETE_CHAPTER"
+    },
+    {
+      "kind": "lettered_full_scroll",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/lettered/ch05-complete-chapter-lettered-r1.png",
+      "sha256": "0be7b9b2346b84025218f76dd65f7bb0e5aa78492d302035620a177141050660",
+      "width_px": 1200,
+      "height_px": 27636,
+      "bytes": 33996776,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT",
+      "section": "CH05_COMPLETE_CHAPTER"
+    },
+    {
+      "kind": "contact_sheet",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/review/ch05-complete-chapter-contact-sheet.png",
+      "sha256": "8b5be0deb40f50898cb05039be600ec4a3648431912e53ab983fe60bbb263d9c",
+      "width_px": 1612,
+      "height_px": 4158,
+      "bytes": 4030866,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT",
+      "section": "CH05_COMPLETE_CHAPTER"
+    },
+    {
+      "kind": "triage_sheet",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/review/ch05-complete-chapter-triage-sheet.png",
+      "sha256": "29be7aebb1eb5abadccadfdd8e8ed99a260aa84382e4cbb0c4f5cb180b84e587",
+      "width_px": 1604,
+      "height_px": 2790,
+      "bytes": 3365834,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT",
+      "section": "CH05_COMPLETE_CHAPTER"
+    },
+    {
+      "kind": "continuity_sheet",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/review/ch05-complete-chapter-continuity-sheet.png",
+      "sha256": "b4580137a4ef68e56dd75e98695edbd820c6c56bce72563e59c16a223f9799f2",
+      "width_px": 1456,
+      "height_px": 2648,
+      "bytes": 3257815,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT",
+      "section": "CH05_COMPLETE_CHAPTER"
+    },
+    {
+      "kind": "lettering_safe_zone_overlay",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/review/ch05-complete-chapter-long-scroll-lettering-overlay.png",
+      "sha256": "760160c28daeb8a2c7ffdfcc79de0cfe5dd5a68356a96400ecc4ba43096efe2a",
+      "width_px": 1200,
+      "height_px": 27636,
+      "bytes": 33800451,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT",
+      "section": "CH05_COMPLETE_CHAPTER"
+    },
+    {
+      "kind": "clean_full_scroll",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/review/ch05-complete-chapter-long-scroll.png",
+      "sha256": "56c0409be684b947ff036e10138f586f270287a790d54a7280db11f6ee5e5699",
+      "width_px": 1200,
+      "height_px": 27636,
+      "bytes": 34064906,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT",
+      "section": "CH05_COMPLETE_CHAPTER"
+    },
+    {
+      "kind": "clean_phone_scroll",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/review/ch05-complete-chapter-phone-390px.png",
+      "sha256": "c78efe02e3e501487454d66485d046eb7a379416e6decf552402fc03c13e3246",
+      "width_px": 390,
+      "height_px": 8982,
+      "bytes": 4111334,
+      "repository_state": "IGNORED_LOCAL_REVIEW_ARTIFACT",
+      "section": "CH05_COMPLETE_CHAPTER"
+    },
+    {
+      "kind": "chapter_row_contact_sheet",
+      "path": "experiments/review-packets/cross-chapter-comic-regression-r1/cross-chapter-comic-regression-contact-sheet.png",
+      "sha256": "285c412fbf166347a0884fbf341098b1df42debd19fc172043b2947d0b0b16b3",
+      "width_px": 1800,
+      "height_px": 1300,
+      "bytes": 876447,
+      "section": "CROSS_CHAPTER_CONTINUITY"
+    },
+    {
+      "kind": "phone_width_progression",
+      "path": "experiments/review-packets/cross-chapter-comic-regression-r1/cross-chapter-comic-regression-phone-scroll.png",
+      "sha256": "417136fb35cd435f1dd864fa282f40aab12b0efd6a88eccbc3889a8b7bc11b7d",
+      "width_px": 390,
+      "height_px": 7871,
+      "bytes": 4317521,
+      "section": "CROSS_CHAPTER_CONTINUITY"
+    }
+  ],
+  "strongest_candidates": [
+    {
+      "panel_id": "ng-ch05-sc01-p001",
+      "display_order": 1,
+      "candidate_id": "chapter-r2-p001-departure-geography-repair-r1",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r2/repairs/P001-departure-geography-repair-r1.png",
+      "sha256": "1728742f71c95d00302aae486ef815820a7679a91a01d1c05675d212216c4ffd",
+      "width_px": 1694,
+      "height_px": 928,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p017",
+      "display_order": 17,
+      "candidate_id": "chapter-r1-p017",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p017-sequence-derived-r1.png",
+      "sha256": "7c2955018e36146206341e816526e43a9d2c28caa876f1a2a582edd6682d87e8",
+      "width_px": 793,
+      "height_px": 369,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p020",
+      "display_order": 20,
+      "candidate_id": "chapter-r1-p020",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p020-sequence-derived-r1.png",
+      "sha256": "ea756549e385d53b2c453aff4f49253f36325a58642c874438418e6d14bf3842",
+      "width_px": 823,
+      "height_px": 554,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p029",
+      "display_order": 29,
+      "candidate_id": "chapter-r6-p029-role-separation-repair-r1",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/repairs/P029-role-separation-repair-r1.png",
+      "sha256": "c3340a6b6eb4ff6d4ee1e09b8737c172aba40d6f1ca309d6d19aaecb66e6dc6c",
+      "width_px": 1023,
+      "height_px": 767,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p031",
+      "display_order": 31,
+      "candidate_id": "chapter-r3-p031-clue-chain-repair-r1",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r3/repairs/P031-clue-chain-repair-r1.png",
+      "sha256": "6cecaa3f5b0d857f4668eb67ec5ad22bbb41c9d8457c368e66e71f30b6994c19",
+      "width_px": 925,
+      "height_px": 564,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p033",
+      "display_order": 33,
+      "candidate_id": "chapter-r3-p033-clue-chain-repair-r1",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r3/repairs/P033-clue-chain-repair-r1.png",
+      "sha256": "a56d11d3e45353d1c77bc8d814f2942c047a4748bfa6814f1b044dac4bf6572d",
+      "width_px": 925,
+      "height_px": 599,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p036",
+      "display_order": 36,
+      "candidate_id": "chapter-r4-p036-causal-leverage-repair-r1",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r4/repairs/P036-causal-leverage-repair-r1.png",
+      "sha256": "cc19ac5a2c8607f6aeec909d388dbc0f76b0496c972878a95502a6bbe7c0b61f",
+      "width_px": 852,
+      "height_px": 1846,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p039",
+      "display_order": 39,
+      "candidate_id": "chapter-r5-p039-object-continuity-repair-r1",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P039-object-continuity-repair-r1.png",
+      "sha256": "80bd25ce018866372b9368e461c8d9759a67d1a69e04bbc78124e05d86b99f8f",
+      "width_px": 858,
+      "height_px": 910,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p043",
+      "display_order": 43,
+      "candidate_id": "chapter-r5-p043-object-continuity-repair-r1",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P043-object-continuity-repair-r1.png",
+      "sha256": "d61f0dbe18523d6b5a4e86b6d138cf2ca079baa9fa1ff026d5e0df457539b6dc",
+      "width_px": 858,
+      "height_px": 906,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p044",
+      "display_order": 44,
+      "candidate_id": "chapter-r1-p044",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p044-sequence-derived-r1.png",
+      "sha256": "b2dc5927c84899a50fc90c0ada44ae54ec9c60b95f0bdde6449bfc57ec225f7a",
+      "width_px": 864,
+      "height_px": 351,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p048",
+      "display_order": 48,
+      "candidate_id": "chapter-r1-p048",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p048-sequence-derived-r1.png",
+      "sha256": "1b27251e7704b1a997fc3e84f0e97431f0782a3ca3abceb5f11e90d66a89b1ed",
+      "width_px": 846,
+      "height_px": 535,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p049",
+      "display_order": 49,
+      "candidate_id": "chapter-r1-p049",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p049-sequence-derived-r1.png",
+      "sha256": "69c8b7274f2ca9545adb97a34c4ad8d039428806751710cd80160e4106b4123d",
+      "width_px": 846,
+      "height_px": 600,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p050",
+      "display_order": 50,
+      "candidate_id": "chapter-r1-p050",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r1/panels/p050-sequence-derived-r1.png",
+      "sha256": "2a66fb354182a5556503e569b7fc81c4a530fb05f41e122421fd55b9784c37fa",
+      "width_px": 846,
+      "height_px": 707,
+      "owner_review_state": "PENDING",
+      "accepted": false
+    }
+  ],
+  "warning_candidates": [
+    {
+      "panel_id": "ng-ch05-sc01-p032",
+      "display_order": 32,
+      "candidate_id": "chapter-r3-p032-clue-chain-repair-r1",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r3/repairs/P032-clue-chain-repair-r1.png",
+      "sha256": "9b4bff71f87290a430a3647737bcbe9576fa184fa8d999ba35650e34b48299d7",
+      "width_px": 925,
+      "height_px": 514,
+      "owner_review_state": "PENDING",
+      "accepted": false,
+      "status": "SELECTED_WARN"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p032",
+      "display_order": 32,
+      "candidate_id": "chapter-r6-p032-reversed-footprints-diagnostic-r2",
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/repairs/P032-reversed-footprints-diagnostic-r2.png",
+      "sha256": "b9e7227e37a259f6cfe0ad15fa77cc1e742ee5116b86d79d3099f6aeb9fc7e4f",
+      "width_px": 1023,
+      "height_px": 767,
+      "owner_review_state": "PENDING",
+      "accepted": false,
+      "status": "DIAGNOSTIC_WARN_NOT_SELECTED"
+    }
+  ],
+  "decision_groups": {
+    "visual": [
+      {
+        "decision_id": "ch05_r6_overall_visual_disposition",
+        "state": "PENDING"
+      },
+      {
+        "decision_id": "p032_orientation_disposition",
+        "state": "PENDING"
+      },
+      {
+        "decision_id": "lettering_density_and_overlap",
+        "state": "PENDING"
+      },
+      {
+        "decision_id": "preferred_style_and_cadence_adjustments",
+        "state": "PENDING"
+      }
+    ],
+    "canon": [
+      {
+        "decision_id": "ch05_identity_contract_vs_historical_hair_colors",
+        "state": "PENDING"
+      },
+      {
+        "decision_id": "future_wardrobe_armor_weapon_progression",
+        "state": "PENDING"
+      },
+      {
+        "decision_id": "future_monster_class_and_system_ui_introduction",
+        "state": "PENDING"
+      }
+    ],
+    "rights_and_production": [
+      {
+        "decision_id": "commercial_clearance",
+        "state": "NOT_EVALUATED"
+      },
+      {
+        "decision_id": "exact_production_base",
+        "state": "NOT_EVALUATED"
+      },
+      {
+        "decision_id": "historical_panel_replacement",
+        "state": "NOT_AUTHORIZED"
+      }
+    ]
+  },
+  "pipeline_next_state": {
+    "full_chapter_authoring_contract": {
+      "path": "production/comic/contracts/complete-chapter-comicpanelplan-authoring-contract-r1.json",
+      "sha256": "e112fcd5d2b450746a6a6ad827ba6dff4ff77a0bf10c212f4718a334dc3e9d4e"
+    },
+    "semantic_validation": {
+      "positive": "1/1",
+      "adversarial": "23/23"
+    },
+    "next_full_chapter_render_ready": false,
+    "reason": "No approved chapter-scale ComicPanelPlan source exists beyond CH05."
+  },
+  "boundary": {
+    "publication": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "generation": 0,
+    "owner_decisions_recorded": 0,
+    "acceptance": 0,
+    "commercial_decisions": 0
+  }
+}

@@ -137,3 +137,5 @@ The complete-chapter authoring contract/template adds no story beat, panel plan,
 The semantic graph validator adds one in-memory synthetic positive and 23 in-memory adversarial cases with no North Garden story, prompt, generation, provider call, upload, candidate, or external cost. Human minutes remain null.
 
 Post-CH05 integrated release r1 runs ten local no-network commands in 4.481 seconds and adds no prompt, renderer generation, provider call, upload, candidate, acceptance, or external cost. Human minutes remain null.
+
+The r6 owner start-here pointer adds no renderer generation, provider call, upload, candidate, acceptance, publication, or external cost. Human minutes remain null.

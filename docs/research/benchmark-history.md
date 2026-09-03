@@ -494,3 +494,5 @@ The complete-chapter authoring contract compiles byte-identically from five exac
 The companion semantic graph validator passes 1/1 synthetic positive and rejects 23/23 adversarial variants across 11 domains. It demonstrates fail-closed phase/order/continuity/lettering/progression behavior before prompts exist; it does not measure narrative quality or renderer performance.
 
 Post-CH05 integrated release r1 passes 10/10 commands and 93 effective checks in 4.481 seconds; its own validator rejects 12/12 mutations. The gate includes r6 production/assembly, 63-plan inventory, 23-panel regression, authoring and semantic contracts, frozen/baseline, tracked-source scope, and remote parity. This is a release-integrity measurement, not new visual evidence.
+
+The r6 owner pointer binds ten review artifacts, 13 strongest candidates, two P032 candidates, and three authority-separated decision groups; 12/12 mutations fail. It is navigation evidence only and does not add a visual score or acceptance result.

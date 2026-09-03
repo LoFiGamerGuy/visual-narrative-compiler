@@ -119,3 +119,5 @@ The complete-chapter authoring contract/template is provider-neutral metadata wi
 The semantic graph validator is local provider-neutral code. Its rejection of pre-promotion model/service/reference fields reinforces the existing license/upload boundary and creates no new authority.
 
 Post-CH05 integrated release r1 performs no network-capable command and changes no provider, model, license, upload, or commercial-use conclusion.
+
+The r6 owner pointer links existing ignored pixels only and changes no provider/model/license/commercial-use conclusion. Its explicit rights group remains unfilled.

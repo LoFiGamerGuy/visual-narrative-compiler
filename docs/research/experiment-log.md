@@ -1585,3 +1585,10 @@
 - Ten/ten pass in 4.481 seconds, representing 93 effective checks; script paths/hashes, arguments, stdout/hashes, return codes, and timings are preserved.
 - The integrated release validator rejects 12/12 mutations affecting state, planning, counts, authority, command results, network flags, stdout integrity, and remote parity.
 - No provider call, upload, generation, acceptance, commercial decision, or paid spend occurred; human review minutes remain null.
+
+## 2026-09-02 - CH05 r6 owner-review start-here r1
+
+- Compiled ten current review artifacts, 13 strongest individual panels, both P032 warning candidates, and ten exact evidence/manifest bindings into one direct-link pointer.
+- Separated four visual, three canon, and three rights/production decisions so broad positive feedback cannot silently grant acceptance, canon replacement, commercial clearance, or exact-base status.
+- Verified every linked pixel hash/dimension and ignored/untracked repository state; 12/12 mutations fail under ADR-0180.
+- Navigation adds no publication, provider call, upload, generation, acceptance, canon decision, rights decision, or spend.

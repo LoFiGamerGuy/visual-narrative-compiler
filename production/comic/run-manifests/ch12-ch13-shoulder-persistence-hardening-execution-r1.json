@@ -1,0 +1,197 @@
+{
+  "record_type": "ComicTargetedHardeningExecution",
+  "schema_version": "1.0",
+  "record_id": "ng-ch12-ch13-shoulder-persistence-hardening-execution-r1",
+  "state": "AGENT_TRIAGED_OWNER_REVIEW_PENDING",
+  "prompt_manifest": {
+    "path": "production/comic/run-manifests/ch12-ch13-shoulder-persistence-hardening-prompt-r1.json",
+    "sha256": "87c6df4fa3a9bd5e91640839e38dcc0018720974253fec8d6c67aa6c4dd3aef6"
+  },
+  "render_record": {
+    "request_id": "ng-ch12-ch13-shoulder-persistence-r1",
+    "exact_prompt": "Create exactly ONE wide horizontal comic sequence strip containing exactly FIVE clearly separated panels in one left-to-right row. No title, no captions, no dialogue, no lettering, no symbols that resemble text, and no panel numbers. Mature clear-line adventure webcomic art with restrained painterly color, practical realistic anatomy, strong silhouettes, clear hands, wet stone/root/brass environments, and phone-readable causal action. All people are clearly fictional adults with mature proportions and practical non-sexualized clothing. This is a narrow continuity-repair diagnostic spanning two consecutive chapters; preserve the SAME two adult protagonists across all five panels: Soren is a rugged adult man in his thirties with tousled dark-blond/light-brown hair and short stubble, pale oatmeal work coat, rigid metal-and-leather left lower-leg brace, and a simple long wooden polehook named Warden's Reach with a fused brass key/socket at its head—never a gun. Sigrid is a capable adult woman in her thirties with dark near-black hair tied in the same practical low knot, grey layers, shortened dark blue-brown plaid wrap whose sacrificed strips remain tied as route flags, compact wooden bow, and utility seax. CRITICAL IRREVERSIBLE STATE IN EVERY PANEL WHERE SOREN APPEARS: the LEFT SHOULDER OUTER PANEL of his oatmeal coat is physically missing because it was cut away earlier for a gate splint. Show a clearly visible rough cut seam and exposed dark inner work layer at that left shoulder. Do not restore a sleeve cap or matching oatmeal shoulder panel. No blood, no gore, no fresh wound, and do not remove his arm. This is garment loss, not amputation. Panel 1: CH12 sealed North Garden gate, Soren and Sigrid stand full figure in mutual assent; compose so Soren's missing left coat shoulder is unmistakably visible, his braced leg bears limited weight, fused polehook present. Panel 2: close two-shot at the gate, their hands meet around separate load and route controls without romance posing; Soren's missing left coat shoulder remains visible and Sigrid's shortened plaid route flags remain visible. Panel 3: inside a moving glasshouse, Soren and Sigrid redirect a heavy stream through a root-and-brass doorway using polehook leverage and a taut bow line; Soren's missing left shoulder remains visible during causal action. Panel 4: at the boundary heart, Soren seats the fused polehook in a brass socket while transferring load through a waist line to a stone column because his leg brace buckles; missing left shoulder remains visible, no healing. Panel 5: large climax reveal from behind the pair: Crownroot is a vast NON-HUMANOID botanical-and-architectural guardian made of interlocked roots, irrigation pipes, arches, valves, and flowing water. Crownroot must have NO human face, NO human head, NO human torso, NO eyes, and NO mask-like relief; its identity comes from a radial root knot and seven water channels. Soren's missing left oatmeal shoulder panel is still visibly absent from the rear. Preserve clear top/side negative space for later local lettering without covering faces, bodies, hands, polehook, bow, controls, root knot, or water channels. The five panels must be distinct and must remain in the exact stated order.",
+    "prompt_sha256": "ccab43675980225422cc2f27bec7f3845a78360d83f2deffd9d80b5137af0d2e",
+    "input_references": [],
+    "output": {
+      "path": "experiments/review-packets/ch12-ch13-shoulder-persistence-hardening-r1/source/ng-ch12-ch13-shoulder-persistence-r1.png",
+      "sha256": "78c4e79251f589f3ed28e74e3aad65c4d7a92c9df73148e9cad8d87717776932",
+      "dimensions": [
+        1774,
+        887
+      ]
+    },
+    "crop_method": {
+      "method": "DETERMINISTIC_DARK_VERTICAL_GUTTER_DETECTION",
+      "clusters_inclusive": [
+        [
+          0,
+          9
+        ],
+        [
+          368,
+          375
+        ],
+        [
+          683,
+          691
+        ],
+        [
+          1033,
+          1041
+        ],
+        [
+          1349,
+          1356
+        ],
+        [
+          1766,
+          1773
+        ]
+      ]
+    },
+    "client_observed_elapsed_seconds": 108.2,
+    "model": null,
+    "endpoint": null,
+    "provider_request_id": null,
+    "provider_usage": null,
+    "monetary_cost_usd": null,
+    "deterministic_seed": null,
+    "unavailable_fields": [
+      "model",
+      "endpoint",
+      "provider_request_id",
+      "provider_usage",
+      "monetary_cost_usd",
+      "deterministic_seed"
+    ],
+    "reproducible": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "ng-candidate-ng-ch12-sc01-p036-shoulder-persistence-r1",
+      "target_panel_id": "ng-ch12-sc01-p036",
+      "source_box": [
+        0,
+        0,
+        368,
+        887
+      ],
+      "path": "experiments/review-packets/ch12-ch13-shoulder-persistence-hardening-r1/crops/ng-ch12-sc01-p036-shoulder-persistence-r1.png",
+      "sha256": "8095420bcd73586b405097f6556eff34f8caa7dac7ac1547502eb14a59eca74d",
+      "dimensions": [
+        368,
+        887
+      ],
+      "triage": "PASS",
+      "failure_classes": [],
+      "note": "Missing left oatmeal shoulder panel remains visibly absent; owner review and assembly disposition remain pending.",
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    },
+    {
+      "candidate_id": "ng-candidate-ng-ch12-sc01-p038-shoulder-persistence-r1",
+      "target_panel_id": "ng-ch12-sc01-p038",
+      "source_box": [
+        376,
+        0,
+        683,
+        887
+      ],
+      "path": "experiments/review-packets/ch12-ch13-shoulder-persistence-hardening-r1/crops/ng-ch12-sc01-p038-shoulder-persistence-r1.png",
+      "sha256": "d144d5edbcf4c05962ceab1889f3cd309e2b780ec5d8c9fea2d0e4f6ac85d83c",
+      "dimensions": [
+        307,
+        887
+      ],
+      "triage": "PASS",
+      "failure_classes": [],
+      "note": "Missing left oatmeal shoulder panel remains visibly absent; owner review and assembly disposition remain pending.",
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    },
+    {
+      "candidate_id": "ng-candidate-ng-ch13-sc01-p020-shoulder-persistence-r1",
+      "target_panel_id": "ng-ch13-sc01-p020",
+      "source_box": [
+        692,
+        0,
+        1033,
+        887
+      ],
+      "path": "experiments/review-packets/ch12-ch13-shoulder-persistence-hardening-r1/crops/ng-ch13-sc01-p020-shoulder-persistence-r1.png",
+      "sha256": "cfb99527c2410ca2f7fc153cd1141ab5d1b43da425a8e8b4abf3a11f62954565",
+      "dimensions": [
+        341,
+        887
+      ],
+      "triage": "PASS",
+      "failure_classes": [],
+      "note": "Missing left oatmeal shoulder panel remains visibly absent; owner review and assembly disposition remain pending.",
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    },
+    {
+      "candidate_id": "ng-candidate-ng-ch13-sc01-p031-shoulder-persistence-r1",
+      "target_panel_id": "ng-ch13-sc01-p031",
+      "source_box": [
+        1042,
+        0,
+        1349,
+        887
+      ],
+      "path": "experiments/review-packets/ch12-ch13-shoulder-persistence-hardening-r1/crops/ng-ch13-sc01-p031-shoulder-persistence-r1.png",
+      "sha256": "90fa21e29d7ca52e159cd290bfe7a336e16a28cb8c2c7ddeb6460a6ba98279ea",
+      "dimensions": [
+        307,
+        887
+      ],
+      "triage": "PASS",
+      "failure_classes": [],
+      "note": "Missing left oatmeal shoulder panel remains visibly absent; owner review and assembly disposition remain pending.",
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    },
+    {
+      "candidate_id": "ng-candidate-ng-ch13-sc01-p036-shoulder-persistence-r1",
+      "target_panel_id": "ng-ch13-sc01-p036",
+      "source_box": [
+        1357,
+        0,
+        1774,
+        887
+      ],
+      "path": "experiments/review-packets/ch12-ch13-shoulder-persistence-hardening-r1/crops/ng-ch13-sc01-p036-shoulder-persistence-r1.png",
+      "sha256": "388415c5ffd06b34d618ac9bc005e8d4d982972ec79baea9b56e6107de769193",
+      "dimensions": [
+        417,
+        887
+      ],
+      "triage": "PASS",
+      "failure_classes": [],
+      "note": "Missing left oatmeal shoulder panel remains visibly absent; owner review and assembly disposition remain pending.",
+      "accepted": false,
+      "commercially_cleared": false,
+      "exact_production_base": false
+    }
+  ],
+  "summary": {
+    "targets": 5,
+    "candidates": 5,
+    "triage": {
+      "PASS": 5,
+      "WARN": 0,
+      "FAIL": 0
+    },
+    "reference_uploads": 0,
+    "paid_api_cloud_spend_usd": "0.000000"
+  },
+  "limitations": [
+    "One strip tests within-call persistence; it does not prove state persistence across independent calls.",
+    "Text-only generation avoids a contradictory intact-shoulder reference but weakens identity reproducibility.",
+    "No diagnostic candidate is assembled, accepted, rights-cleared, commercially cleared, or an exact production base."
+  ]
+}

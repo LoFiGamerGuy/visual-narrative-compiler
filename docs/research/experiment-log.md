@@ -1858,3 +1858,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Combined triage is 296 PASS / 5 WARN / 19 FAIL; each issue remains attributable to its source panel.
 - Aggregate reference uses: 166. CH07–CH13 reported overlapping interval sum: 15,060.448 seconds; CH06 timing unavailable. New calls/uploads/spend: 0/0/$0.
 - Builder is deterministic; validator PASS with 10/10 mutations rejected. ADR-0215 selects the semantic backbone and prioritizes state hardening.
+
+## CH12–CH13 irreversible shoulder-state hardening r1 — 2026-09-03
+
+- Generated one text-only five-panel strip targeting CH12 P036/P038 and CH13 P020/P031/P036.
+- All five diagnostic crops preserve the missing left oatmeal shoulder panel; the last also removes Crownroot's human-face relief.
+- Reference uploads: 0. Client-observed elapsed time: 108.2 seconds. Paid API/cloud spend: $0.
+- Model, endpoint, request ID, usage, cost, seed, and cross-call reproducibility remain unavailable or unproven.
+- Validator PASS with 10/10 mutations rejected. ADR-0216 adopts explicit irreversible-state blocks but does not assemble any repair.

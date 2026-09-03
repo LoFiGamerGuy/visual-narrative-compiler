@@ -433,3 +433,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Compile a deterministic local-lettering production manifest using existing safe zones; do not burn generated prose into pixels.
 4. Keep Halvor identity as a separate later experiment because current reference authority does not include a Halvor image.
 5. Preserve all 301 non-failing/warning candidate hashes and perform no whole-chapter rerender or alternate style arm before owner review.
+
+## Active queue after shoulder-persistence hardening — 2026-09-03
+
+1. Compile a deterministic CH06–CH13 local-lettering production manifest from all 320 safe-zone plans.
+2. Author copy as a separate layer with protected-subject collision checks; never burn generated prose into source pixels.
+3. Keep the five shoulder-hardening candidates diagnostic until explicit owner selection and hash-preserving assembly revision.
+4. Preserve Halvor identity as a separate future text-only or newly authorized reference experiment.
+5. After lettering preflight, choose between a limited lettered reading demo and the CH14–CH17 wider-network story-authoring stretch.

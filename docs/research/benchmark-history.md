@@ -667,6 +667,21 @@ The route completes the Bell Road climax and materially advances environment, sy
 
 The hub makes investigation-to-operational-base progression reviewable in one pass and isolates the recurring failure classes. It does not infer acceptance, rights, commercial clearance, or exact-base selection.
 
+## CH12–CH13 shoulder-persistence hardening benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Targeted panels | 5 |
+| Diagnostic candidates | 5 |
+| PASS / WARN / FAIL | 5 / 0 / 0 |
+| Reference uploads | 0 |
+| Client-observed elapsed | 108.2 s |
+| Review artifacts | 2 |
+| Mutations rejected | 10 / 10 |
+| Paid API/cloud spend | $0 |
+
+The explicit state block succeeds within one multi-panel call and removes Crownroot face ambiguity at the paired target. Independent-call persistence, deterministic reproduction, acceptance, and rights remain unproven or pending.
+
 ## CH12 complete default-route benchmark — 2026-09-03
 
 | Measure | Result |

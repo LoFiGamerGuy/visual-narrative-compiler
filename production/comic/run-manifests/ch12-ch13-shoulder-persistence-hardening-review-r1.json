@@ -1,0 +1,41 @@
+{
+  "record_type": "ComicTargetedHardeningReviewPacket",
+  "schema_version": "1.0",
+  "record_id": "ng-ch12-ch13-shoulder-persistence-hardening-review-r1",
+  "state": "OWNER_REVIEW_PENDING",
+  "execution": {
+    "path": "production/comic/run-manifests/ch12-ch13-shoulder-persistence-hardening-execution-r1.json",
+    "sha256": "abfa6f9de12ff75b25d7469dfb817f6b0d8dd5d93b2553859c697c43b185b885"
+  },
+  "summary": {
+    "targets": 5,
+    "candidates": 5,
+    "triage": {
+      "PASS": 5,
+      "WARN": 0,
+      "FAIL": 0
+    },
+    "reference_uploads": 0,
+    "paid_api_cloud_spend_usd": "0.000000"
+  },
+  "artifacts": [
+    {
+      "type": "repair_strip",
+      "path": "experiments/review-packets/ch12-ch13-shoulder-persistence-hardening-r1/ch12-ch13-shoulder-persistence-strip-r1.png",
+      "sha256": "19abb715ce7c0f5e66d6e7ff8626e9dbf279fe3e4ae541f364f28586177a8a8a",
+      "dimensions": [
+        1774,
+        935
+      ]
+    },
+    {
+      "type": "baseline_repair_comparison",
+      "path": "experiments/review-packets/ch12-ch13-shoulder-persistence-hardening-r1/ch12-ch13-shoulder-persistence-comparison-r1.png",
+      "sha256": "916458e4d001f242d6d5767e5b821e76fa4c79a9ff9cd9c1156bffa784022638",
+      "dimensions": [
+        1200,
+        1518
+      ]
+    }
+  ]
+}

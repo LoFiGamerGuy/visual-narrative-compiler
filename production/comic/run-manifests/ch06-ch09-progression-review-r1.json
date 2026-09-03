@@ -1,0 +1,86 @@
+{
+  "record_type": "ComicMultiChapterProgressionReview",
+  "schema_version": "1.0",
+  "record_id": "ng-ch06-ch09-progression-review-r1",
+  "state": "OWNER_REVIEW_PENDING",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "chapters": [
+    "CH06",
+    "CH07",
+    "CH08",
+    "CH09"
+  ],
+  "source_packets": [
+    {
+      "chapter": "CH06",
+      "path": "production/comic/run-manifests/ch06-default-house-route-review-packet-r1.json",
+      "sha256": "1160c1e7221572a35086939cf18e6d5058d543d77d8258160550cd73423e0817"
+    },
+    {
+      "chapter": "CH07",
+      "path": "production/comic/run-manifests/ch07-default-house-route-review-packet-r1.json",
+      "sha256": "2eb3ce7fed092d9d8bfdb7ecd1d43f07ddb3bf77407fbe49ddcf46dcc286adee"
+    },
+    {
+      "chapter": "CH08",
+      "path": "production/comic/run-manifests/ch08-default-house-route-review-packet-r1.json",
+      "sha256": "cc74f53ec86c55214c904f74f61e9afb884ea948d8faddfafca6156027b73ac6"
+    },
+    {
+      "chapter": "CH09",
+      "path": "production/comic/run-manifests/ch09-default-house-route-review-packet-r1.json",
+      "sha256": "32cf47468c5cc08d5fb7c784eeef99723a91a3af05747ad06f47888782fb6936"
+    }
+  ],
+  "summary": {
+    "complete_chapters": 4,
+    "panel_candidates": 160,
+    "sequence_sources": 32,
+    "triage": {
+      "PASS": 153,
+      "WARN": 4,
+      "FAIL": 3
+    },
+    "sampled_panels": 36,
+    "whole_chapter_alternate_arms": 0,
+    "accepted": 0,
+    "commercially_cleared": 0,
+    "exact_production_base": 0
+  },
+  "artifacts": [
+    {
+      "type": "four_chapter_contact_sheet",
+      "path": "experiments/review-packets/ch06-ch09-progression-review-r1/ch06-ch09-progression-contact-sheet-r1.png",
+      "sha256": "2b5d0e7005821bb57adcdb673457834d12cbbbf5e72ae5b6fd6961d0ddd01c42",
+      "dimensions": [
+        1200,
+        9558
+      ]
+    },
+    {
+      "type": "four_chapter_sequence_progression",
+      "path": "experiments/review-packets/ch06-ch09-progression-review-r1/ch06-ch09-sequence-progression-r1.png",
+      "sha256": "e9f1b2a21b2c4952d8aaef417eddb4e4772889343e3ecdf17ffebeb71ce0aa1f",
+      "dimensions": [
+        1200,
+        10026
+      ]
+    },
+    {
+      "type": "four_chapter_phone_sampler",
+      "path": "experiments/review-packets/ch06-ch09-progression-review-r1/ch06-ch09-phone-progression-sampler-r1.png",
+      "sha256": "4bd0505bee329ce16ba3cfd6f43f514f5aa44803ba629afc0093303258e8829d",
+      "dimensions": [
+        1200,
+        1348
+      ]
+    }
+  ],
+  "limitations": [
+    "The sampler selects fixed ordinal panels for navigation; it is not a quality ranking.",
+    "CH06 and CH07 retain their documented one and two blocking candidate failures respectively.",
+    "All pixels remain ignored, non-reproducible, unaccepted, and commercially uncleared research evidence."
+  ]
+}

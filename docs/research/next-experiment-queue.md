@@ -361,3 +361,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Generate CH10 completely before any CH06–CH09 non-blocking repair or alternate style arm.
 4. Keep CH09 P037 and CH08 P028 review-only unless the owner finds either clue/action unreadable in chapter context.
 5. Preserve CH12–CH13 as validated authoring evidence until chronological render promotion reaches them.
+
+## Active queue after four-chapter progression hub — 2026-09-03
+
+1. Compile and validate one CH10–CH11 default-route prompt manifest from exact CH09 closing state.
+2. Generate and assemble all eight CH10 sequences before any earlier non-blocking repair or alternate style.
+3. Use local lettering for class/bond/prose copy; generated pixels may contain only physical nonverbal Ledger effects.
+4. Lock Soren's rigid brace and forged simple polehook, Sigrid's dark hair/plaid-derived armor/bow/seax, and Tamsin's chestnut braid/injury.
+5. After CH10, continue CH11 chronologically and keep CH12–CH13 at the validated authoring gate.

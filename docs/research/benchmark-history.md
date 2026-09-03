@@ -677,3 +677,19 @@ This is authoring evidence only; prompts, pixels, provider calls, uploads, accep
 | Paid API/cloud spend | $0 |
 
 The route preserves injury and leadership progression across all eight sequences and introduces no blocking generated prose, panel number, hair-color, or gun-like-prop failure. P037 remains one forensic-clarity warning. This is agent triage, not human acceptance or rights clearance.
+
+## CH06–CH09 progression-review benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete visual chapters | 4 |
+| Ordered panel candidates | 160 |
+| Chronological source sequences | 32 |
+| Combined PASS / WARN / FAIL | 153 / 4 / 3 |
+| Cross-chapter review artifacts | 3 |
+| Fixed-ordinal sampler panels | 36 |
+| Whole-chapter alternate arms | 0 |
+| Validator mutations rejected | 10 / 10 |
+| New calls / uploads / paid spend | 0 / 0 / $0 |
+
+The hub measures breadth and makes progression reviewable; it does not normalize per-chapter failures or infer candidate acceptance.

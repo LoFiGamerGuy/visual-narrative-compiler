@@ -1782,3 +1782,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Triage: 39 PASS / 1 WARN / 0 FAIL. P037 has weak recent scrape arcs but readable bolt/mineral orientation evidence.
 - Timing sum 2,177.960 seconds across overlapping calls; group walls 437.501/417.841 seconds. The last three cumulative intervals are timestamp-reconstructed after tool-envelope truncation. References 20; paid API/cloud spend $0; alternate arms/repairs 0/0.
 - Validator PASS with 16/16 mutations rejected. ADR-0206 retains the route and advances to the faction arc.
+
+## CH06–CH09 four-chapter progression hub — 2026-09-03
+
+- Bound four complete visual chapters, 160 ordered candidates, and 32 chronological sequence sources into one review manifest.
+- Built a 36-panel fixed-ordinal phone sampler, four-chapter all-panel contact, and four-chapter sequence progression sheet.
+- Combined triage is 153 PASS / 4 WARN / 3 FAIL; the three CH06/CH07 blocking candidates remain explicit and are not hidden by aggregate scoring.
+- Builder is deterministic; validator PASS with 10/10 mutations rejected. New provider calls/uploads/spend: 0/0/$0.
+- ADR-0207 directs the next visual production to CH10 rather than another style arm or wholesale rerender.

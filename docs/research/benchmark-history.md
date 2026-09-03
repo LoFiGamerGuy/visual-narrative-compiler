@@ -649,6 +649,22 @@ This is execution readiness, not rendered quality, acceptance, rights, clearance
 
 The chapter completes the Orchard Siege and exposes a repeated unreferenced-secondary-character continuity weakness: four Halvor actions drift to a Soren-like blond adult. This is provisional agent triage, not human acceptance or rights clearance.
 
+## CH06–CH11 progression-review benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete visual chapters | 6 |
+| Ordered panel candidates | 240 |
+| Chronological source sequences | 48 |
+| Combined PASS / WARN / FAIL | 225 / 5 / 10 |
+| Cross-chapter review artifacts | 3 |
+| Fixed-ordinal sampler panels | 54 |
+| Whole-chapter alternate arms | 0 |
+| Validator mutations rejected | 10 / 10 |
+| New calls / uploads / paid spend | 0 / 0 / $0 |
+
+The hub measures timeline breadth from investigation through siege while preserving every per-chapter diagnostic. It does not infer acceptance, rights clearance, or exact-base selection.
+
 ## CH10 complete default-route benchmark — 2026-09-03
 
 | Measure | Result |

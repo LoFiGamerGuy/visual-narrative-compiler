@@ -1816,3 +1816,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Triage: 35 PASS / 1 WARN / 4 FAIL. P003/P008/P013/P025 have Halvor→Soren-like identity substitution; P040 leaves Tamsin's braid unclear.
 - Exact overlapping timing sum 2,214.860 seconds; group walls 442.406/429.358 seconds. References 21; paid API/cloud spend $0; alternate arms/repairs 0/0.
 - Validator PASS with 19/19 adversarial mutations rejected. ADR-0210 preserves the diagnostic baseline and treats Halvor as one linked continuity problem.
+
+## CH06–CH11 six-chapter progression hub — 2026-09-03
+
+- Bound six complete visual chapters, 240 ordered candidates, and 48 chronological sequence sources into one review manifest.
+- Built a 54-panel fixed-ordinal phone sampler, six-chapter all-panel contact, and six-chapter sequence progression sheet.
+- Combined triage is 225 PASS / 5 WARN / 10 FAIL; every warning/failure remains attributable to its source chapter.
+- Builder is deterministic; validator PASS with 10/10 mutations rejected. New provider calls/uploads/spend: 0/0/$0.
+- ADR-0211 directs the next production gate to CH12–CH13 rather than another style arm or wholesale repair batch.

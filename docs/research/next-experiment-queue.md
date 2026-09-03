@@ -393,3 +393,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Keep the CH10/CH11 Halvor failures as one secondary-character continuity experiment; do not rerender either whole chapter.
 4. Preserve CH11 P040's Tamsin-braid issue as review-only unless it blocks identity at progression scale.
 5. Continue one default route per chapter toward CH12 rupture and CH13 co-keeper resolution before alternate style work.
+
+## Active queue after six-chapter progression hub — 2026-09-03
+
+1. Compile and validate one stage-aware CH12–CH13 default-route prompt manifest from exact CH11 closing state.
+2. Generate and assemble all eight CH12 sequences before any earlier non-blocking repair or alternate style arm.
+3. Lock irreversible oatmeal/plaid damage and key–Reach fusion to their authored panel thresholds; withhold Ledger copy for local lettering.
+4. Strengthen Halvor and Tamsin text anchors without expanding the authorized visual-reference boundary.
+5. Preserve Crownroot as a living non-humanoid botanical/architectural guardian and keep CH13 behind exact CH12 closing state.

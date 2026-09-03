@@ -1,0 +1,47 @@
+{
+  "record_type": "ComicPanelPlanPromptPromotionDecision",
+  "schema_version": "1.0",
+  "record_id": "ng-decision-ch13-north-garden-prompt-promotion-r1",
+  "state": "APPROVED_FOR_EXACT_PROMPT_PREFLIGHT_NOT_YET_EXECUTED",
+  "chapter": "CH13",
+  "source_plan": {
+    "path": "production/comic/ch13-sc01-panel-plans-r1.json",
+    "sha256": "a49797f5e092868918b39d0ec977736df943aef6b8b0ecf4b39a075cdaf4ee5a",
+    "panel_count": 40
+  },
+  "approved_mechanism": "OPENAI_BUILT_IN_IMAGEGEN_ONLY",
+  "approved_reference_hashes": [
+    "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+    "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+    "50f6413eeab39f35da00524a79c6e71d821f6b84da939487575324c4ad7743eb"
+  ],
+  "default_candidates_per_panel": 1,
+  "whole_chapter_alternate_style_arms": 0,
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "visual_continuity_decisions": {
+    "stage_aware_garments": "CH12_P024_SOREN_SHOULDER_SACRIFICE_CH12_P028_SIGRID_PLAID_FLAGS_NO_RESET",
+    "stage_aware_key": "CH12_P039_BRASS_KEY_FUSES_INTO_WARDENS_REACH_NO_EARLY_FUSION_OR_REVERSAL",
+    "tamsin_hair": "medium_chestnut_brown_single_practical_braid_never_blond_or_black",
+    "halvor_identity": "dark_iron_brown_close_crop_gray_temples_short_beard_never_blond_or_soren_like",
+    "soren_injury": "padded_rigid_left_lower_leg_brace_persistent_no_spontaneous_healing",
+    "crownroot": "nonhuman_botanical_architectural_root_cistern_guardian_no_human_remains_or_gore",
+    "ledger_words": "WITHHELD_FROM_GENERATED_PIXELS_FOR_LOCAL_LETTERING",
+    "status": "PROVISIONAL_TEXT_PROMPT_ANCHORS_NOT_CANON_ACCEPTANCE"
+  },
+  "boundary": {
+    "prompt_authoring_approved": true,
+    "execution_requires_manifest_preflight_pass": true,
+    "direct_paid_api": false,
+    "bfl": false,
+    "new_provider": false,
+    "new_upload_class": false,
+    "real_person_or_adult_likeness": false,
+    "child_related_material": false,
+    "private_reference": false,
+    "lora_or_dataset": false,
+    "accepted_or_commercially_cleared": false
+  },
+  "adr": "ADR-0212"
+}

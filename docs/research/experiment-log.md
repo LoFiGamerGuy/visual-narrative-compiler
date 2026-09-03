@@ -1824,3 +1824,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Combined triage is 225 PASS / 5 WARN / 10 FAIL; every warning/failure remains attributable to its source chapter.
 - Builder is deterministic; validator PASS with 10/10 mutations rejected. New provider calls/uploads/spend: 0/0/$0.
 - ADR-0211 directs the next production gate to CH12–CH13 rather than another style arm or wholesale repair batch.
+
+## CH12–CH13 stage-aware default-route prompt preflight — 2026-09-03
+
+- Compiled 16 one-row five-panel requests covering 80/80 plans exactly once, with 44 authorized reference uses and zero alternate arms.
+- Added exact CH12 state thresholds: Soren's shoulder loss at P024, Sigrid's persistent plaid route flags at P028, and permanent brass-key/Reach fusion at P039.
+- Added Halvor anti-Soren, Tamsin braid/injury, persistent brace, fused-tool, full-grown creature, and non-human botanical/architectural Crownroot controls.
+- Withheld seven authored rule/class/bond/status phrases from generated pixels for local lettering or nonverbal physical treatment.
+- Validation PASS; 33/33 adversarial mutations rejected. Provider calls/outputs/uploads/spend: 0/0/0/$0 at preflight.

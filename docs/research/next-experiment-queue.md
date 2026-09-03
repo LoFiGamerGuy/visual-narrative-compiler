@@ -401,3 +401,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Lock irreversible oatmeal/plaid damage and key–Reach fusion to their authored panel thresholds; withhold Ledger copy for local lettering.
 4. Strengthen Halvor and Tamsin text anchors without expanding the authorized visual-reference boundary.
 5. Preserve Crownroot as a living non-humanoid botanical/architectural guardian and keep CH13 behind exact CH12 closing state.
+
+## Active queue after CH12–CH13 prompt preflight — 2026-09-03
+
+1. Generate all eight CH12 sequences and assemble the complete 40-panel chapter before any repair or alternate route.
+2. Measure whether irreversible garment changes and key fusion occur at the exact authored thresholds without preview or reset.
+3. Measure relationship rupture, two solo failures, two-way signaling, negotiated authority, and reconciliation as visual causality—not merely dialogue.
+4. Keep all generated output ineligible for re-upload and reserve the seven planned copy treatments for deterministic local lettering.
+5. Continue directly into CH13 after CH12 is bound; defer Halvor and earlier non-blocking repairs behind chronological breadth.

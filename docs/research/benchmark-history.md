@@ -665,6 +665,12 @@ The chapter completes the Orchard Siege and exposes a repeated unreferenced-seco
 
 The hub measures timeline breadth from investigation through siege while preserving every per-chapter diagnostic. It does not infer acceptance, rights clearance, or exact-base selection.
 
+## CH12–CH13 stage-aware default-route preflight benchmark — 2026-09-03
+
+Sixteen requests cover 80 unique plans with 44 authorized reference uses, zero duplicate panel coverage, one candidate per panel, zero whole-chapter alternate arms, and zero provider calls at preflight. The validator binds three irreversible CH12 transition thresholds, persistent CH13 fused-tool/garment state, adult secondary-character identities, non-human Crownroot/creature anatomy, and seven local-lettering substitutions. It rejects 33/33 adversarial mutations.
+
+This is execution readiness, not rendered quality, acceptance, rights, clearance, reproducibility, or exact-base selection.
+
 ## CH10 complete default-route benchmark — 2026-09-03
 
 | Measure | Result |

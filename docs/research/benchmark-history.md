@@ -660,3 +660,20 @@ Relative to CH07, exact blocking generated-prose, panel-number, and gun-like-pro
 The fourth authoring batch adds 2 complete chapters, 80 unique panels, 16 five-panel sequences, all six phases per chapter, and exact CH11→CH12→CH13 continuity. Post-CH05 authored breadth is now 8 complete chapters/320 panels. Strategic rupture/reconciliation, consent rules, irreversible costume damage, equipment fusion, living-monster resolution, earned classes, an operational base, and the wider network hook are explicit. Semantic checks pass and 58/58 adversarial mutations are rejected.
 
 This is authoring evidence only; prompts, pixels, provider calls, uploads, acceptance, rights, and commercial clearance remain absent or pending.
+
+## CH09 complete default-route benchmark — 2026-09-03
+
+| Measure | Result |
+|---|---:|
+| Complete chronological chapter | 1 × 40 panels |
+| Sequence sources / panel candidates | 8 / 40 |
+| Agent triage PASS / WARN / FAIL | 39 / 1 / 0 |
+| Review artifacts | 5 / 5 |
+| Authorized reference uses | 20 |
+| Overlapping request-interval sum | 2,177.960 s |
+| Parallel group walls | 437.501 s / 417.841 s |
+| Alternate arms / repairs | 0 / 0 |
+| Adversarial mutations rejected | 16 / 16 |
+| Paid API/cloud spend | $0 |
+
+The route preserves injury and leadership progression across all eight sequences and introduces no blocking generated prose, panel number, hair-color, or gun-like-prop failure. P037 remains one forensic-clarity warning. This is agent triage, not human acceptance or rights clearance.

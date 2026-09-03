@@ -353,3 +353,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Promote CH10 next using one default route and exact inherited brace, weapon, armor, faction, and evidence state.
 4. Preserve CH12's rupture and CH13's co-keeper resolution as authoring-only until their chronological prompt/data gates pass.
 5. Keep alternate styles and earlier cosmetic repairs behind chapter breadth unless an exact story-blocking failure requires correction.
+
+## Active queue after CH09 complete default-route assembly — 2026-09-03
+
+1. Build a single CH06–CH09 progression hub with direct complete-reading, phone, contact, sequence, and lettering-overlay links for all four visual chapters.
+2. Compile one default-route CH10–CH11 prompt manifest with exact CH09 state, rigid brace, forged Reach, owned bow/seax, quarry guards, Kest/Tamsin identities, class/bond wording held for local lettering, and no output re-upload.
+3. Generate CH10 completely before any CH06–CH09 non-blocking repair or alternate style arm.
+4. Keep CH09 P037 and CH08 P028 review-only unless the owner finds either clue/action unreadable in chapter context.
+5. Preserve CH12–CH13 as validated authoring evidence until chronological render promotion reaches them.

@@ -1773,3 +1773,12 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - CH13 stages moving-glasshouse traversal and the Crownroot conflict through pipe, water, structure, and route mechanics; it preserves the living guardian and earns co-keeper roles plus an operational base.
 - All characters remain clearly fictional adults; hair, injury, armor ancestry, equipment, physical Ledger, protected lettering, and ComicPanelPlan-only boundaries pass.
 - Validator PASS with 58/58 adversarial mutations rejected. Prompts, pixels, provider operations, uploads, and spend: 0/0/0/0/$0.
+
+## CH09 complete default-route production and review r1 — 2026-09-03
+
+- Generated eight one-row chronological sequences and deterministically cropped all 40 CH09 ComicPanelPlans.
+- Built complete reading, phone, sequence/contact, and lettering-safe-zone review artifacts.
+- The chapter carries Soren's injury/brace and damaged polehook across sequences, transfers route command to Sigrid, earns evidence-checked Wayfinder perception, and reveals physical Brackenwake sabotage evidence.
+- Triage: 39 PASS / 1 WARN / 0 FAIL. P037 has weak recent scrape arcs but readable bolt/mineral orientation evidence.
+- Timing sum 2,177.960 seconds across overlapping calls; group walls 437.501/417.841 seconds. The last three cumulative intervals are timestamp-reconstructed after tool-envelope truncation. References 20; paid API/cloud spend $0; alternate arms/repairs 0/0.
+- Validator PASS with 16/16 mutations rejected. ADR-0206 retains the route and advances to the faction arc.

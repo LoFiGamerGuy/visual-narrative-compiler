@@ -1529,3 +1529,27 @@
 - Improved non-gating chapter triage from 45 PASS / 5 WARN / 0 FAIL to 46 PASS / 4 WARN / 0 FAIL.
 - Retained one explicit limitation: Soren's raised-beam footing is more dramatic than the original plan implied.
 - Current total is 14 built-in outputs, 55 panel-level candidates, 30 authorized reference uses, approximately 1,062.9 unique observed seconds, and `$0` paid API/cloud spend.
+
+## 2026-09-02 - CH05 P039/P043 object continuity repair r5
+
+- Exact-plan comparison exposed an overconstraint in the original P043 prompt: the plan leaves the open tin, while P046 retains the map.
+- Preserved the old prompt/crop as diagnostic evidence and recorded the conflict in ADR-0173.
+- Replaced only P039 and P043; P040-P042 and 45 other non-target panels remain hash-identical to r4.
+- P039 now foregrounds the upstream mark at the torn edge; P043 clearly leaves the open tin while Sigrid keeps the map.
+- Current non-gating triage is 48 PASS / 2 WARN / 0 FAIL. Totals are 15 outputs, 57 panel candidates, 32 reference uses, approximately 1,150.9 seconds, and `$0` paid API/cloud spend.
+
+## 2026-09-02 - CH05 final ambiguity pair and r6 freeze
+
+- Generated one P029/P032 pair; selected only P029 because its enter-versus-guard roles pass at phone width.
+- Preserved the new P032 crop as diagnostic-only after its toe/heel orientation remained ambiguous on the second targeted attempt.
+- R6 changes one selected panel, preserves 49/49 non-target hashes, and reaches 49 PASS / 1 WARN / 0 FAIL agent triage.
+- Froze further stochastic CH05 repair under ADR-0174; P032 remains explicit rather than being promoted through optimistic labeling.
+- Current totals are 16 outputs, 59 panel candidates, 34 reference uses, approximately 1,200.7 seconds, and `$0` paid API/cloud spend.
+
+## 2026-09-02 - CH05 r6 release and next-chapter source inventory
+
+- Compiled a hash-bound r6 release with 17 source bindings and eight ignored local review artifacts; its validator passes all live checks and rejects 10/10 authority/count/artifact mutations.
+- Reconciled 50 selected panels, 59 total generated panel candidates, 16 raster outputs, 34 authorized reference uses, 1,592.908 summed per-execution seconds, and approximately 1,200.7 seconds of overlap-adjusted wall time.
+- Preserved 49 PASS / 1 WARN / 0 FAIL agent triage, with P032 the sole warning; human-reviewed/accepted/commercially-cleared/exact-base remain 0/0/0/0.
+- Inventoried 63 current ComicPanelPlans. CH05 has the only complete 50-panel review unit; CH01-CH04 contain only 4/3/3/3-panel scene fragments.
+- ADR-0175 keeps those fragments available for local cross-chapter regression but prohibits representing them as completed chapters or silently inventing missing canon.

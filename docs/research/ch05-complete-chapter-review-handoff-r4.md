@@ -35,7 +35,7 @@ R4 is the current 50-panel review baseline. It supersedes r3 only by replacing P
 - 14 built-in ImageGen raster outputs; 55 panel-level candidates (50 initial plus five repair candidates).
 - 30 authorized reference uses across exactly three allowed fictional-adult hashes.
 - 20 review-only lettered panels: eight verified in-art placements and twelve outside-art gutters.
-- 46 PASS / 4 WARN / 0 FAIL in non-gating agent triage; remaining WARN panels are P029, P032, P039, and P043.
+- 46 PASS / 4 WARN / 0 FAIL in non-gating agent triage; remaining WARN panels are P029, P032, P039, and P043. P043 must show the open tin left on the stone without implying that the map is abandoned, because P046 preserves the map.
 - Approximately 1,062.9 seconds unique client-observed generation wall time, with parallel/shared-strip observations not double-counted.
 - `$0` direct paid API/cloud spend; built-in monetary cost unavailable rather than zero.
 - 0 human-reviewed, 0 accepted, 0 commercially cleared, 0 exact-production-base candidates.

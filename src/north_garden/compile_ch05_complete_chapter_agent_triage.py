@@ -23,7 +23,7 @@ WARNINGS = {
     "ng-ch05-sc01-p033": ("causal_action", "Bell, drip, and frozen cast are readable, but the exact drip-to-bell path is spatially compressed."),
     "ng-ch05-sc01-p036": ("causal_action", "Shared leverage reads, but the continuous plank-to-high-tin contact path is partly obscured by mill structure."),
     "ng-ch05-sc01-p039": ("causal_clue", "Soren's finger and torn map edge read; the third upstream mark is too subtle at phone size."),
-    "ng-ch05-sc01-p043": ("prop_continuity", "Backward retreat reads, but the tin contents deliberately left on the stone need a clearer insert or crop."),
+    "ng-ch05-sc01-p043": ("prop_continuity", "Backward retreat reads, but the open tin deliberately left on the stone is too small; the map must remain eligible for P046."),
 }
 
 
@@ -37,7 +37,7 @@ def load(path: Path) -> dict[str, Any]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--revision", choices=("r2", "r3", "r4"), default="r2")
+    parser.add_argument("--revision", choices=("r2", "r3", "r4", "r5", "r6"), default="r2")
     args = parser.parse_args()
     revision = args.revision
     assembly_path = ROOT / f"production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-{revision}.json"
@@ -60,6 +60,25 @@ def main() -> int:
         warnings = {key: value for key, value in WARNINGS.items() if key not in {"ng-ch05-sc01-p031", "ng-ch05-sc01-p033", "ng-ch05-sc01-p036"}}
         unchanged_count = 49
         repaired_pass_count = 4
+    elif revision == "r5":
+        repair_paths.extend([
+            ROOT / "production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r2.json",
+            ROOT / "production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r3.json",
+            ROOT / "production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r4.json",
+        ])
+        warnings = {key: value for key, value in WARNINGS.items() if key in {"ng-ch05-sc01-p029", "ng-ch05-sc01-p032"}}
+        unchanged_count = 48
+        repaired_pass_count = 6
+    elif revision == "r6":
+        repair_paths.extend([
+            ROOT / "production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r2.json",
+            ROOT / "production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r3.json",
+            ROOT / "production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r4.json",
+            ROOT / "production/comic/run-manifests/ch05-complete-chapter-targeted-repairs-r5.json",
+        ])
+        warnings = {"ng-ch05-sc01-p032": WARNINGS["ng-ch05-sc01-p032"]}
+        unchanged_count = 49
+        repaired_pass_count = 7
     plan_doc = load(PLAN)
     assembly = load(assembly_path)
     plans = sorted(plan_doc["plans"], key=lambda row: row["display_order"])
@@ -124,6 +143,10 @@ def main() -> int:
             "panel_id": "ng-ch05-sc01-p001",
             "result": "PASS_AGENT_TRIAGE",
             "note": (
+                "P001 makes departure explicit; P031/P033 clarify the clue chain; P036 exposes its force path; P039/P043 preserve mark/tin/map continuity; P029 now separates the two adult roles. P032 remains WARN."
+                if revision == "r6" else
+                "P001 makes departure explicit; P031/P033 clarify the clue chain; P036 exposes its force path; P039/P043 preserve mark/tin/map continuity. P029 and P032 remain WARN."
+                if revision == "r5" else
                 "P001 makes departure explicit; P031/P033 clarify the clue chain; P036 now exposes one continuous plank-to-tin force path. P032 remains WARN."
                 if revision == "r4" else
                 "P001 makes the farmhouse-behind/downhill-away vector explicit; r3 additionally improves P031 and P033 while P032 remains WARN."
@@ -163,7 +186,8 @@ def main() -> int:
         "| Order | Panel | Primary issue | Note |\n|---:|---|---|---|\n"
         f"{warning_lines}\n\n"
         "## Interpretation\n\n"
-        "The strongest route is sequence-strip-first chapter coverage followed by panel-local repairs. It produced coherent set, weather, wardrobe, and hair continuity, then improved targeted causal weaknesses while preserving every non-target panel hash. The remaining warnings cluster around subtle clue geometry and multi-object causal staging, not cast drift.\n\n"
+        "The strongest route is sequence-strip-first chapter coverage followed by panel-local repairs. It produced coherent set, weather, wardrobe, and hair continuity, then improved targeted causal weaknesses while preserving every non-target panel hash. "
+        f"The remaining warning{'s' if warn_count != 1 else ''} concern {'subtle clue geometry and multi-object causal staging' if warn_count > 1 else 'subtle clue geometry'}, not cast drift.\n\n"
         "This does not measure stochastic rerun reproducibility: the built-in product exposes no seed or model snapshot and no identical request was repeated. Agent observations do not establish acceptance, commercial clearance, or exact production-base status.\n",
         encoding="utf-8",
         newline="\n",

@@ -1,0 +1,247 @@
+{
+  "record_type": "ComicPanelPlanChapterInventory",
+  "schema_version": "1.0",
+  "record_id": "ng-comic-panel-plan-chapter-inventory-r1",
+  "state": "CURRENT_SOURCE_INVENTORY",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "summary": {
+    "chapters_inventoried": 5,
+    "full_chapter_review_ready": [
+      "CH05"
+    ],
+    "scene_fragment_only": [
+      "CH01",
+      "CH02",
+      "CH03",
+      "CH04"
+    ],
+    "total_current_panel_plans": 63,
+    "next_full_chapter_render_ready": false
+  },
+  "chapters": [
+    {
+      "chapter": "CH01",
+      "readiness": "SCENE_FRAGMENT_ONLY",
+      "plan_source": {
+        "path": "production/comic/ch01-sc01-panel-plans-v2.json",
+        "sha256": "09528f979710341c4f72f6b0117ada2a807dbe8a6e4963230b9ffd0a44170495",
+        "bytes": 2745
+      },
+      "record_id": "ng-comic-plans-ch01-sc01-r2",
+      "panel_count": 4,
+      "panel_ids": [
+        "ng-ch01-sc01-p006",
+        "ng-ch01-sc01-p007",
+        "ng-ch01-sc01-p008",
+        "ng-ch01-sc01-p010"
+      ],
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "art_or_revision_binding": {
+        "path": "production/comic/panel-revisions/ch01-sc01-initial-import-r1.json",
+        "sha256": "2bf495f993ed802daa0600230b084dd76e5ece2286d453a69a72438edf0960a7",
+        "bytes": 1897
+      },
+      "edition_or_release_binding": {
+        "path": "production/editions/north-garden-research-edition-002.json",
+        "sha256": "7d85503afe5da6885bd5c63e52bb129dbddcb7f3a6f123a47a0f076a8e99f18b",
+        "bytes": 869
+      },
+      "candidate_count": 4,
+      "selected_panel_count": 4,
+      "review_state": "INTERNAL_RESEARCH_ACCEPTED_NOT_PUBLISHED"
+    },
+    {
+      "chapter": "CH02",
+      "readiness": "SCENE_FRAGMENT_ONLY",
+      "plan_source": {
+        "path": "production/comic/ch02-sc01-panel-plans-v1.json",
+        "sha256": "4a507972457e53158d642be22b856cd2fc89daa95061a01a805b35780b21888c",
+        "bytes": 1926
+      },
+      "record_id": "ng-comic-plans-ch02-sc01-r1",
+      "panel_count": 3,
+      "panel_ids": [
+        "ng-ch02-sc01-p001",
+        "ng-ch02-sc01-p002",
+        "ng-ch02-sc01-p003"
+      ],
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "art_or_revision_binding": {
+        "path": "production/comic/panel-revisions/ch02-sc01-historical-import-r1.json",
+        "sha256": "2c6da20bfd1d6a8be639cc4f6207d1e609efc93057add74ee675734ed867b128",
+        "bytes": 2054
+      },
+      "edition_or_release_binding": {
+        "path": "production/editions/north-garden-ch02-research-edition-001.json",
+        "sha256": "6f17e0f73e6c32563d5e1a56b5e22417d4fd49a4b66e56d13428d5fa10c4f54b",
+        "bytes": 774
+      },
+      "candidate_count": 3,
+      "selected_panel_count": 3,
+      "review_state": "INTERNAL_RESEARCH_ACCEPTED_NOT_PUBLISHED"
+    },
+    {
+      "chapter": "CH03",
+      "readiness": "SCENE_FRAGMENT_ONLY",
+      "plan_source": {
+        "path": "production/comic/ch03-sc01-panel-plans-v1.json",
+        "sha256": "cbb85998f666d45946d8bf649d167d4dff544e7459111ac0204049a7117508f8",
+        "bytes": 2225
+      },
+      "record_id": "ng-comic-plans-ch03-sc01-r1",
+      "panel_count": 3,
+      "panel_ids": [
+        "ng-ch03-sc01-p001",
+        "ng-ch03-sc01-p002",
+        "ng-ch03-sc01-p003"
+      ],
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "art_or_revision_binding": {
+        "path": "production/comic/panel-revisions/ch03-sc01-imagegen-r1.json",
+        "sha256": "572b5c6d1dead00ff0029489dfb3949ed22bd30fa38db1cdaa726ae4040a289a",
+        "bytes": 2128
+      },
+      "edition_or_release_binding": {
+        "path": "production/editions/north-garden-ch03-imagegen-draft-edition-001.json",
+        "sha256": "eeb2803ba8452fa8ef6f39ff1c3a5908c3433a0d2a964f8cfeac08e0ffdf05e1",
+        "bytes": 739
+      },
+      "candidate_count": 3,
+      "selected_panel_count": 3,
+      "review_state": "DRAFT_REVIEW_PENDING_NOT_PUBLISHED"
+    },
+    {
+      "chapter": "CH04",
+      "readiness": "SCENE_FRAGMENT_ONLY",
+      "plan_source": {
+        "path": "production/comic/ch04-sc01-panel-plans-v1.json",
+        "sha256": "84a44bc76b39a93108b3fdf8ae81ae37b796f66fe72d486d0c48602d73146099",
+        "bytes": 1957
+      },
+      "record_id": "ng-comic-plans-ch04-sc01-r1",
+      "panel_count": 3,
+      "panel_ids": [
+        "ng-ch04-sc01-p001",
+        "ng-ch04-sc01-p002",
+        "ng-ch04-sc01-p003"
+      ],
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "art_or_revision_binding": {
+        "path": "production/comic/panel-revisions/ch04-sc01-imagegen-r1.json",
+        "sha256": "ad8e434c1607bf62a3e0e3bce052dbe50ff7df15816a03011dbeb0d881cb31dc",
+        "bytes": 2037
+      },
+      "edition_or_release_binding": {
+        "path": "production/editions/north-garden-ch04-imagegen-draft-edition-001.json",
+        "sha256": "ee724e5fd92c38f953c457e61cabb82408f07eb1274d57bdc312263b55d729f0",
+        "bytes": 739
+      },
+      "candidate_count": 3,
+      "selected_panel_count": 3,
+      "review_state": "DRAFT_REVIEW_PENDING_NOT_PUBLISHED"
+    },
+    {
+      "chapter": "CH05",
+      "readiness": "FULL_CHAPTER_REVIEW_READY",
+      "plan_source": {
+        "path": "production/comic/ch05-sc01-panel-plans-v1.json",
+        "sha256": "3c81b6b2b934062e2a8b0e440ae00d66654c336d4446c73b35ef2c42a14aaf05",
+        "bytes": 67565
+      },
+      "record_id": "ng-comic-plans-ch05-sc01-r1",
+      "panel_count": 50,
+      "panel_ids": [
+        "ng-ch05-sc01-p001",
+        "ng-ch05-sc01-p002",
+        "ng-ch05-sc01-p003",
+        "ng-ch05-sc01-p004",
+        "ng-ch05-sc01-p005",
+        "ng-ch05-sc01-p006",
+        "ng-ch05-sc01-p007",
+        "ng-ch05-sc01-p008",
+        "ng-ch05-sc01-p009",
+        "ng-ch05-sc01-p010",
+        "ng-ch05-sc01-p011",
+        "ng-ch05-sc01-p012",
+        "ng-ch05-sc01-p013",
+        "ng-ch05-sc01-p014",
+        "ng-ch05-sc01-p015",
+        "ng-ch05-sc01-p016",
+        "ng-ch05-sc01-p017",
+        "ng-ch05-sc01-p018",
+        "ng-ch05-sc01-p019",
+        "ng-ch05-sc01-p020",
+        "ng-ch05-sc01-p021",
+        "ng-ch05-sc01-p022",
+        "ng-ch05-sc01-p023",
+        "ng-ch05-sc01-p024",
+        "ng-ch05-sc01-p025",
+        "ng-ch05-sc01-p026",
+        "ng-ch05-sc01-p027",
+        "ng-ch05-sc01-p028",
+        "ng-ch05-sc01-p029",
+        "ng-ch05-sc01-p030",
+        "ng-ch05-sc01-p031",
+        "ng-ch05-sc01-p032",
+        "ng-ch05-sc01-p033",
+        "ng-ch05-sc01-p034",
+        "ng-ch05-sc01-p035",
+        "ng-ch05-sc01-p036",
+        "ng-ch05-sc01-p037",
+        "ng-ch05-sc01-p038",
+        "ng-ch05-sc01-p039",
+        "ng-ch05-sc01-p040",
+        "ng-ch05-sc01-p041",
+        "ng-ch05-sc01-p042",
+        "ng-ch05-sc01-p043",
+        "ng-ch05-sc01-p044",
+        "ng-ch05-sc01-p045",
+        "ng-ch05-sc01-p046",
+        "ng-ch05-sc01-p047",
+        "ng-ch05-sc01-p048",
+        "ng-ch05-sc01-p049",
+        "ng-ch05-sc01-p050"
+      ],
+      "planning_structure": "ComicPanelPlan",
+      "animation_shot_plan": null,
+      "e_conte": null,
+      "art_or_revision_binding": {
+        "path": "production/comic/run-manifests/ch05-complete-chapter-production-manifest-r6.json",
+        "sha256": "a4cfadd90282e408ba00f407608d3c09637be2ef3eddb2f2045901738dce27c9",
+        "bytes": 339430
+      },
+      "edition_or_release_binding": {
+        "path": "docs/research/evidence/ch05-complete-chapter-release-r6.json",
+        "sha256": "62e4d4bac75a16470055d31a05c639acbfd18523bf80b9f7711fdaa717898d24",
+        "bytes": 9331
+      },
+      "candidate_count": 59,
+      "selected_panel_count": 50,
+      "review_state": "FROZEN_REVIEW_CANDIDATE_UNACCEPTED"
+    }
+  ],
+  "decision": {
+    "current_production_baseline": "CH05 r6",
+    "next_action": "HARDEN_REUSABLE_CHAPTER_PIPELINE_AND_REQUEST_OR_AUTHOR_APPROVED_FULL_COMICPANELPLAN_BEFORE_NEXT_CHAPTER_RENDER",
+    "reason": "CH01-CH04 each contain only one 3-4-panel scene fragment; treating any as a complete chapter would fabricate missing narrative and cadence."
+  },
+  "boundary": {
+    "new_panel_plans_created": 0,
+    "canon_changes": 0,
+    "provider_calls": 0,
+    "uploads": 0,
+    "generated_pixels": 0,
+    "commercial_or_acceptance_decisions": 0
+  }
+}

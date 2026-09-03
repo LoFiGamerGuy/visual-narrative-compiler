@@ -1,0 +1,44 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "2.3",
+  "record_id": "ng-comic-style-ch05-mill-signal-r14",
+  "state": "CH05_R6_FROZEN_FOR_OWNER_REVIEW",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r13",
+    "path": "production/comic/style-direction/ch05-mill-signal-r13.json",
+    "sha256": "796260ef81ec1df41b1d42711970c61293db3c00b0fa0c7a6a42b9134bdfde23"
+  },
+  "selected_engineering_route": "complete chapter sequence generation, deterministic panel extraction, full-scroll phone review, and hash-isolated panel repair in a mature clear-line watercolor/cel-painted hybrid",
+  "measured_r6": {
+    "comic_panel_plan_coverage": "50/50",
+    "generated_raster_outputs": 16,
+    "panel_level_candidates": 59,
+    "selected_chapter_panels": 50,
+    "agent_triage": {"pass": 49, "warn": 1, "fail": 0, "gating": false},
+    "remaining_warn": ["P032 reversed footprint orientation"],
+    "non_target_hash_stability": ["49/49 r2", "47/47 r3", "49/49 r4", "48/48 r5", "49/49 r6"],
+    "reference_uses": 34,
+    "unique_reference_hashes": 3,
+    "approximate_unique_client_generation_seconds": 1200.7,
+    "paid_api_cloud_spend_usd": 0,
+    "built_in_product_cost": null
+  },
+  "freeze_rule": {
+    "selected": "P029 passes and enters r6.",
+    "diagnostic_only": "Newest P032 crop remains WARN and is not assembled.",
+    "reason": "Two stochastic P032 attempts did not resolve orientation at phone width; further repetition is lower information than owner review or deterministic repair research.",
+    "adr": "ADR-0174"
+  },
+  "chapter_cadence": "Retain r6's variable sizes: extra-tall P036 physical-cooperation anchor, expanded P039/P043 clue/continuity beats, and compact silent inserts around them.",
+  "lettering": "Retain the 20-beat review-only pass with eight in-art and twelve outside-art placements; never obscure faces, adults, hands, silhouettes, or causal objects.",
+  "next_production_direction": "After owner review, either revise P032's ComicPanelPlan/repair mechanism or carry the proven complete-chapter workflow into the next approved ComicPanelPlan chapter. Keep armor, weapons, monsters, and alternate wardrobe in a separate non-canon visual-development stream.",
+  "limitations": [
+    "P032 remains WARN and should not be represented as solved.",
+    "Agent triage is non-gating; all outputs remain pending owner review.",
+    "Built-in model, endpoint, request ID, usage, monetary cost, and seed are unavailable.",
+    "No commercial clearance or exact production-base decision is made."
+  ]
+}

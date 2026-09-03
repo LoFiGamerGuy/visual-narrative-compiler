@@ -50,7 +50,7 @@ def wrap(draw: ImageDraw.ImageDraw, text: str, selected: ImageFont.ImageFont, wi
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--revision", choices=("r2", "r3", "r4"), default="r2")
+    parser.add_argument("--revision", choices=("r2", "r3", "r4", "r5", "r6"), default="r2")
     args = parser.parse_args()
     revision = args.revision
     assembly_path = ROOT / f"production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-{revision}.json"

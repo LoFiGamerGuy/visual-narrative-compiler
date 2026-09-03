@@ -1,0 +1,108 @@
+{
+  "record_type": "ComicChapterTargetedRepairManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-complete-chapter-targeted-repairs-r5",
+  "target_assembly_record_id": "ng-ch05-complete-chapter-assembly-r6",
+  "state": "P029_REPAIR_SELECTED_P032_DIAGNOSTIC_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source_assembly": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r5.json",
+    "sha256": "8391ae919988f02803fa28429493b59ef62ea05b12161b74c3cf7fd85d2e5d0f"
+  },
+  "source_generation": {
+    "generation_id": "ng-ch05-p029-p032-final-ambiguity-strip-r1",
+    "exact_prompt": "Create one finished vertical webcomic repair strip with EXACTLY TWO clearly separated horizontal panels, top-to-bottom P029 then P032. No extra panels, panel numbers, captions, speech balloons, written text, logos, arrows, or UI. Use restrained mature clear-line adventure art with watercolor/cel-painted finish and preserve the attached fictional mature-adult hair, faces, wardrobe, and same abandoned water-mill geography. TOP PANEL / P029 role-separation repair: exterior three-quarter view of the ruined mill showing both the bell-trapped main doorway and a separate low collapsed-wall opening several body lengths away. Sigrid, a clearly mature fictional adult woman with dark-brown to near-black hair in a compact low bun, dark blue-brown plaid wrap and gray-green practical layers, is halfway THROUGH the low collapsed-wall opening into darkness, crouched with one hand braced on stone. Soren, a clearly mature fictional adult man with short-to-medium wavy light-brown/dark-blond swept hair, light stubble, pale oatmeal work coat and muted blue-gray layers, remains fully OUTSIDE in open daylight with his back offset from Sigrid, body and eyeline turned away to WATCH THE EXTERIOR APPROACH. Their two roles must be unmistakable at phone size: Sigrid enters; Soren stays outside on guard. Exactly two adults, no duplicated doorway or character. Keep a quiet low-detail upper-left area away from faces and openings. BOTTOM PANEL / P032 reversed-footprints repair: inside the same mill, Soren alone stands on the NEAR dry ledge at lower-left, looking across a clear band of shallow standing water. On the FAR dry floor, a short isolated line of four large boot prints begins exactly at the far water edge. Make heel and toe shapes extremely explicit: every broad rounded TOE points toward the water and directly back toward Soren/camera, while every narrower HEEL points deeper into the far room. Use raking pale light and strong print shadows so the reversed facing is instantly legible at 390 pixels; no footprints in the water and no second person. Keep a quiet low-detail upper-right area away from Soren and prints. Exactly two fictional adults total across the strip, both clearly mature; no children, extra people, monsters, magic, weapons, sexualization, photographic likeness, speed-line texture, symbols, labels, extra limbs, or extra fingers. Main pass criteria: P029 has unambiguous enter-versus-guard role binding and spatial separation; P032 has unambiguous far-side prints with toes pointing back toward Soren.",
+    "input_references": [
+      {
+        "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+        "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+        "purpose": "fictional-adult dual-cast action and wardrobe continuity"
+      },
+      {
+        "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+        "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+        "purpose": "fictional-adult face and hair continuity"
+      }
+    ],
+    "output_strip": {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/repairs/P029-P032-final-ambiguity-strip-r1.png",
+      "sha256": "5d1836d380d1b857377a092ca2ccde17631fda44e07864c01d3d43ef174b4804",
+      "width": 1023,
+      "height": 1537,
+      "bytes": 2602228
+    },
+    "crop_report": {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/repairs/final-ambiguity-crop-report.json",
+      "sha256": "2caada3040aca2bb8b222f07eb91e83c854e1925bb2e2ad785975ac89395d196"
+    },
+    "service": {
+      "product": "OpenAI built-in ImageGen available inside Codex",
+      "service_execution_id": "exec-85f8685d-5d97-476c-ad54-c11df57a7a4d",
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "usage": null,
+      "monetary_cost_usd": null,
+      "seed": null,
+      "elapsed_seconds": 49.8,
+      "timing_basis": "client tool-call wall time rounded to 0.1 second"
+    }
+  },
+  "repairs": [
+    {
+      "panel_id": "ng-ch05-sc01-p029",
+      "plan_revision_id": "ng-ch05-sc01-p029-plan-r1",
+      "candidate_id": "chapter-r6-p029-role-separation-repair-r1",
+      "repair_class": "role_binding",
+      "reason": "The r5 crop compressed Sigrid's entry and Soren's exterior-watch roles.",
+      "smallest_change": "Replace only P029; retain all other r5 panel hashes.",
+      "source_generation_id": "ng-ch05-p029-p032-final-ambiguity-strip-r1",
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/repairs/P029-role-separation-repair-r1.png",
+        "sha256": "c3340a6b6eb4ff6d4ee1e09b8737c172aba40d6f1ca309d6d19aaecb66e6dc6c",
+        "width": 1023,
+        "height": 767,
+        "bytes": 1352042
+      }
+    }
+  ],
+  "diagnostic_candidates": [
+    {
+      "panel_id": "ng-ch05-sc01-p032",
+      "plan_revision_id": "ng-ch05-sc01-p032-plan-r1",
+      "candidate_id": "chapter-r6-p032-reversed-footprints-diagnostic-r2",
+      "source_generation_id": "ng-ch05-p029-p032-final-ambiguity-strip-r1",
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r6/repairs/P032-reversed-footprints-diagnostic-r2.png",
+        "sha256": "b9e7227e37a259f6cfe0ad15fa77cc1e742ee5116b86d79d3099f6aeb9fc7e4f",
+        "width": 1023,
+        "height": 767,
+        "bytes": 1210694
+      },
+      "agent_triage": "WARN_NOT_SELECTED",
+      "reason": "Prints are larger, but toe-versus-heel direction remains insufficiently unambiguous at phone width after two targeted attempts."
+    }
+  ],
+  "review": {
+    "state": "pending_owner_review",
+    "human_minutes": null,
+    "accepted": false,
+    "commercially_cleared": false,
+    "exact_production_base": false,
+    "agent_triage": {
+      "p029_role_binding": "pass",
+      "p032_reversed_orientation": "warn_not_selected",
+      "hair_and_wardrobe": "pass"
+    }
+  },
+  "limitations": [
+    "P032 remains WARN after two repair attempts; further stochastic prompting is lower information than owner review or a deterministic local annotation/compositing study.",
+    "P032 diagnostic pixels remain ignored and are not used in r6 assembly.",
+    "Model, endpoint, provider request ID, usage, monetary cost, and deterministic seed were not exposed.",
+    "Agent visual triage is non-gating."
+  ],
+  "boundary": "Only P029 is replaced in r6. P032 stays at the r5 selection and remains WARN. No output is accepted or promoted."
+}

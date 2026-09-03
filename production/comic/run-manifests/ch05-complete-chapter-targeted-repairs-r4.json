@@ -1,0 +1,109 @@
+{
+  "record_type": "ComicChapterTargetedRepairManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-complete-chapter-targeted-repairs-r4",
+  "target_assembly_record_id": "ng-ch05-complete-chapter-assembly-r5",
+  "state": "P039_P043_OBJECT_CONTINUITY_REPAIRS_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source_assembly": {
+    "path": "production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r4.json",
+    "sha256": "046f1a9fdebe121c2ec7bafe5d8c43fdc8cd71a979afdff6aeb5f828b3292d59"
+  },
+  "source_generation": {
+    "generation_id": "ng-ch05-p039-p043-object-continuity-repair-strip-r1",
+    "exact_prompt": "Create one finished vertical webcomic repair strip with EXACTLY TWO clearly separated horizontal panels, top-to-bottom P039 then P043, no extra panels, no panel numbers, captions, speech balloons, written text, logos, or UI. Preserve the same ruined water-mill interior and the attached fictional mature-adult character/wardrobe continuity in restrained mature clear-line adventure art with watercolor/cel-painted finish. TOP PANEL / P039: a clue-focused medium close view of Soren, a clearly mature fictional adult man with short-to-medium wavy light-brown/dark-blond swept-back hair, light stubble, pale oatmeal work coat and muted blue-gray layers. On the stone before him lies the hand-drawn creek map. The map has only simple non-text symbols: farmhouse square, mill circle, creek line, and a THIRD distinct mark at the extreme upstream edge. Soren's index finger stops exactly at a TORN PAPER EDGE where half of that third upstream mark and its creek line visibly continue off the missing paper, making “another marked place beyond this map” immediately legible at phone size. Do not add labels, runes, extra maps, or writing. Keep a quiet low-detail upper-left field away from face, finger, torn edge, and mark. BOTTOM PANEL / P043: wider rear/three-quarter two-shot in the same mill. In the well-lit foreground, one OPEN EMPTY-LOOKING METAL TIN remains unmistakably on the flat stone, lid open; it is the object they leave behind. Sigrid and Soren retreat backward together toward creek side while both watch the dark doorway, one careful travel vector. Sigrid, a clearly mature fictional adult woman with dark-brown to near-black hair in a compact low bun and dark blue-brown plaid wrap over gray-green practical layers, visibly secures the folded creek map against/inside her wrap so it remains available for P046; do not leave the map on the stone. Soren retains his pale oatmeal coat. Their feet, cloth, and weight show controlled backward motion, not running. Keep a quiet low-detail upper-left field that does not cover the open tin, map, people, faces, or hands. Exactly two fictional adults total, both visibly mature. No children, extra people, duplicate bodies, monsters, magic, weapons, sexualization, photographic likeness, speed-line texture, illegible writing, extra hands, or extra fingers. Phone-size pass criteria: top panel clearly shows the third mark cut by the torn upstream edge; bottom panel clearly shows the open tin left behind while Sigrid keeps the map and both adults retreat together.",
+    "input_references": [
+      {
+        "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P050-wide-action-clean-graphic-r1.png",
+        "sha256": "cb1e7b496397ff0f37c07c241b7a4b5beec137d3d26c48c3cbfad60734b8c83d",
+        "purpose": "fictional-adult dual-cast action and wardrobe continuity"
+      },
+      {
+        "path": "experiments/review-packets/ch05-style-density-scale-exploration-r1/P040-medium-close-cel-painted-r1.png",
+        "sha256": "c0a2be11cc9a51ecfbb490d490135df88e7b575b794240b002b1427ba64b6b4a",
+        "purpose": "fictional-adult face and hair continuity"
+      }
+    ],
+    "output_strip": {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P039-P043-object-continuity-repair-strip-r1.png",
+      "sha256": "57d93f15137d1742e94fb941ce539fc38d1e7e80d6a304c39f6c9ae8e939b959",
+      "width": 862,
+      "height": 1825,
+      "bytes": 2614334
+    },
+    "crop_report": {
+      "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/object-continuity-crop-report.json",
+      "sha256": "64103144cbe7fc8d039bcf4cecfb6ad753f1a8e2596d0ccfa7cbe53277e2260d"
+    },
+    "service": {
+      "product": "OpenAI built-in ImageGen available inside Codex",
+      "service_execution_id": "exec-1c6e1802-d08e-4091-9ee1-ef36a4226d69",
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "usage": null,
+      "monetary_cost_usd": null,
+      "seed": null,
+      "elapsed_seconds": 88.0,
+      "timing_basis": "client tool-call wall time rounded to 0.1 second"
+    }
+  },
+  "repairs": [
+    {
+      "panel_id": "ng-ch05-sc01-p039",
+      "plan_revision_id": "ng-ch05-sc01-p039-plan-r1",
+      "candidate_id": "chapter-r5-p039-object-continuity-repair-r1",
+      "repair_class": "causal_clue",
+      "reason": "The r4 third upstream mark remained too subtle at phone size.",
+      "smallest_change": "Replace only P039 with the top panel from the object-continuity strip.",
+      "source_generation_id": "ng-ch05-p039-p043-object-continuity-repair-strip-r1",
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P039-object-continuity-repair-r1.png",
+        "sha256": "80bd25ce018866372b9368e461c8d9759a67d1a69e04bbc78124e05d86b99f8f",
+        "width": 858,
+        "height": 910,
+        "bytes": 1339226
+      }
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p043",
+      "plan_revision_id": "ng-ch05-sc01-p043-plan-r1",
+      "candidate_id": "chapter-r5-p043-object-continuity-repair-r1",
+      "repair_class": "prop_continuity",
+      "reason": "The r4 open tin was too small, and the original generation prompt incorrectly implied all contents stayed behind despite P046 retaining the map.",
+      "smallest_change": "Replace only P043; show the open tin left on stone while Sigrid visibly keeps the map, preserving P040-P042 unchanged.",
+      "source_generation_id": "ng-ch05-p039-p043-object-continuity-repair-strip-r1",
+      "output": {
+        "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P043-object-continuity-repair-r1.png",
+        "sha256": "d61f0dbe18523d6b5a4e86b6d138cf2ca079baa9fa1ff026d5e0df457539b6dc",
+        "width": 858,
+        "height": 906,
+        "bytes": 1223774
+      }
+    }
+  ],
+  "review": {
+    "state": "pending_owner_review",
+    "human_minutes": null,
+    "accepted": false,
+    "commercially_cleared": false,
+    "exact_production_base": false,
+    "agent_triage": {
+      "p039_third_mark": "pass",
+      "p043_open_tin": "pass",
+      "p043_map_retained": "pass",
+      "p040_p042_hash_stability": "pass",
+      "hair_and_wardrobe": "pass"
+    }
+  },
+  "limitations": [
+    "P039 uses a simple X-like third mark; its exact symbol is provisional and non-canon.",
+    "The P043 map-retention action connects to P046 without revising either ComicPanelPlan, but requires owner narrative review.",
+    "Model, endpoint, provider request ID, usage, monetary cost, and deterministic seed were not exposed.",
+    "Agent visual triage is non-gating."
+  ],
+  "boundary": "Only P039 and P043 are replaced in r5. P040-P042 and the other 45 panels retain exact r4 source hashes. No acceptance or canon revision is implied."
+}

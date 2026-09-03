@@ -54,7 +54,7 @@ The 1,025.7-second duration avoids double-counting paired parallel calls. Per-pa
 - P032: far-side prints are clearer, but their reversed toe direction is still subtle at phone width.
 - P036: shared leverage reads, but the continuous plank-to-high-tin contact path is partly obscured.
 - P039: the third upstream map mark is too subtle.
-- P043: the tin contents deliberately left behind need clearer continuity.
+- P043: the open tin deliberately left behind needs clearer continuity; the map remains eligible for P046.
 
 ## Recommendation
 

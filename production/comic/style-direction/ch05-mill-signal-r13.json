@@ -1,0 +1,48 @@
+{
+  "record_type": "ComicStyleDirection",
+  "schema_version": "2.2",
+  "record_id": "ng-comic-style-ch05-mill-signal-r13",
+  "state": "COMPLETE_CHAPTER_R5_RECOMMENDATION_OWNER_REVIEW_PENDING",
+  "medium": "comic",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "supersedes": {
+    "record_id": "ng-comic-style-ch05-mill-signal-r12",
+    "path": "production/comic/style-direction/ch05-mill-signal-r12.json",
+    "sha256": "16e39f2dd7a81699632ce68369f500b85455fd5054eac248b85dedf8f6311a6b"
+  },
+  "selected_engineering_route": "complete chapter sequence strips with explicit cast/set contracts, deterministic panel crops, collision-aware sparse lettering, and hash-isolated causal/continuity repairs",
+  "measured_r5": {
+    "comic_panel_plan_coverage": "50/50",
+    "generated_raster_outputs": 15,
+    "panel_level_candidates": 57,
+    "agent_triage": {"pass": 48, "warn": 2, "fail": 0, "gating": false},
+    "improved_to_pass": ["P001", "P031", "P033", "P036", "P039", "P043"],
+    "remaining_warn": ["P029", "P032"],
+    "non_target_hash_stability": ["49/49 r2", "47/47 r3", "49/49 r4", "48/48 r5"],
+    "reference_uses": 32,
+    "unique_reference_hashes": 3,
+    "approximate_unique_client_generation_seconds": 1150.9,
+    "paid_api_cloud_spend_usd": 0,
+    "built_in_product_cost": null
+  },
+  "canon_correction": {
+    "conflict": "The original P043 prompt said to leave the tin and contents, while the exact P043 plan leaves the open tin and P046 keeps the map.",
+    "resolution": "Preserve the exact plans: P043 leaves the open tin; Sigrid retains the map for P046. Keep the original prompt as diagnostic evidence.",
+    "adr": "ADR-0173"
+  },
+  "cadence": {
+    "large": "Use P001/P017/P020/P030/P036/P048/P050 as geography, action, set, and reversal anchors.",
+    "medium": "Use character logic/reaction panels to carry inference and emotional causality.",
+    "small": "Use clue/object inserts only when their key geometry survives 390-pixel review; expand P039/P043 when evidence would otherwise disappear.",
+    "principle": "Information density and narrative function determine panel footprint."
+  },
+  "lettering": "Keep 20 review-only beats sparse. Use translucent in-art backing only inside verified quiet zones; otherwise use gutters. Never obscure faces, bodies, hands, map marks, tin, twine, bell, plank, or other causal objects.",
+  "next_experiment": "Repair P029 and P032 only as one final two-panel ambiguity pair, then freeze CH05 visual iteration for owner review and redirect generation capacity to a separate next-chapter or non-canon LitRPG design track.",
+  "limitations": [
+    "P039's X-like third mark is provisional and non-canon.",
+    "P043's visible map retention is a continuity interpretation pending owner narrative review.",
+    "All art and lettering remain unaccepted and commercially uncleared.",
+    "No model snapshot, endpoint, provider request ID, usage, monetary cost, or seed is exposed."
+  ]
+}

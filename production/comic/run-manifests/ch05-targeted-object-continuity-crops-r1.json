@@ -1,0 +1,32 @@
+{
+  "record_type": "CH05TargetedRepairCropManifest",
+  "schema_version": "1.0",
+  "record_id": "ng-ch05-targeted-object-continuity-crops-r1",
+  "state": "CROP_INSTRUCTIONS_PENDING_OWNER_REVIEW",
+  "medium": "comic",
+  "planning_structure": "ComicPanelPlan",
+  "animation_shot_plan": null,
+  "e_conte": null,
+  "source": {
+    "path": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P039-P043-object-continuity-repair-strip-r1.png",
+    "sha256": "57d93f15137d1742e94fb941ce539fc38d1e7e80d6a304c39f6c9ae8e939b959",
+    "width": 862,
+    "height": 1825,
+    "bytes": 2614334
+  },
+  "panels": [
+    {
+      "panel_id": "ng-ch05-sc01-p039",
+      "plan_revision_id": "ng-ch05-sc01-p039-plan-r1",
+      "crop_box": [2, 2, 860, 912],
+      "output": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P039-object-continuity-repair-r1.png"
+    },
+    {
+      "panel_id": "ng-ch05-sc01-p043",
+      "plan_revision_id": "ng-ch05-sc01-p043-plan-r1",
+      "crop_box": [2, 919, 860, 1825],
+      "output": "experiments/review-packets/ch05-complete-chapter-draft-r5/repairs/P043-object-continuity-repair-r1.png"
+    }
+  ],
+  "boundary": "Deterministic local crops only; P040-P042 are not regenerated and no pixel is promoted."
+}

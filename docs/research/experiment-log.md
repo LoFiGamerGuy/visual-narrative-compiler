@@ -1740,3 +1740,11 @@ The predeclared rule therefore does not isolate route switching as the cause of 
 - Triage: 37 PASS / 1 WARN / 2 FAIL. P009 warns on Tamsin hair drift; P030 fails for forbidden status prose; P040 fails for Warden's Reach gun-like form drift.
 - Uses: 21 authorized references. Parallel wall intervals: 497.196 and 460.672 seconds. Paid API/cloud spend: $0. Alternate arms/repairs: 0/0.
 - Validator PASS with 17/17 adversarial mutations rejected. ADR-0201 freezes the 38 non-target panels and permits only exact P030/P040 repairs.
+
+## CH08–CH09 default-route prompt preflight — 2026-09-03
+
+- Compiled 16 one-row five-panel requests covering 80/80 plans exactly once, with 40 authorized reference uses and no alternate style arm.
+- Added measured controls for generator panel numbering, rendered status prose, Warden's Reach gun-like form drift, and Tamsin's CH07 blond drift.
+- Withheld four authored Ledger phrases from generated pixels and substituted nonverbal physical emblems for later local lettering.
+- Validation PASS; 27/27 adversarial mutations rejected. Provider calls/outputs/spend: 0/0/$0 at preflight.
+- Decision: ADR-0203. Next: generate CH08 completely before repair or route alternatives.

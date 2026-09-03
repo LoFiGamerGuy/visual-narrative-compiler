@@ -321,3 +321,11 @@ Each candidate needs a distinct render profile, exact source/license record, ada
 3. Repair only CH07 P030's rendered text and P040's Warden's Reach form; preserve the other 38 panel hashes.
 4. Keep CH07 P009 as a warning until owner review confirms whether Tamsin's lighter hair is confusing enough to justify repair.
 5. Maintain one route per chapter and continue directly toward CH12–CH13 after CH10–CH11 authoring.
+
+## Active queue after CH08–CH09 prompt preflight — 2026-09-03
+
+1. Generate all eight CH08 sequences and assemble the complete chapter before any targeted repair.
+2. Finish CH10–CH11 authoring concurrently, then begin CH12–CH13.
+3. Measure whether the one-row/no-number, nonverbal-Ledger, Tamsin-hair, and Warden's Reach controls reduce the exact CH07 failure classes.
+4. Preserve one candidate per panel and newly generated outputs as ineligible for re-upload.
+5. Keep CH07 P030/P040 repairs queued behind complete CH08 throughput unless they block cross-chapter comprehension.

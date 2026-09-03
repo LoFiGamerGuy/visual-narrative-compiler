@@ -625,3 +625,9 @@ This is an authoring and continuity result, not prompt promotion, visual accepta
 | Paid API/cloud spend | $0 |
 
 The request-interval sum overlaps and is not total wall time. P009, P030, and P040 preserve exact continuity/text/prop findings. Human acceptance, rights, commercial clearance, reproducibility, and exact-base fitness remain open.
+
+## CH08–CH09 default-route preflight benchmark — 2026-09-03
+
+Sixteen requests cover 80 unique plans with 40 authorized reference uses, zero duplicate coverage, zero whole-chapter alternate arms, and zero provider calls at preflight. All requests bind one-row/no-number layout, no generated prose, fixed hair and garment ancestry, Warden's Reach anti-gun geometry, physical Ledger emblems, and adult-only data boundaries. The validator rejects 27/27 mutations.
+
+This is execution readiness, not rendered quality, acceptance, rights, clearance, reproducibility, or exact-base selection.

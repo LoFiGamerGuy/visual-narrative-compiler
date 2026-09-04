@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="A local chapter viewer for The City Keeps Oaths, an original ten-chapter fantasy webtoon.">
+  <title>The City Keeps Oaths — Chapter Viewer</title>
+  <style>
+    :root {
+      --ink: #eaf4f5;
+      --muted: #9eb3ba;
+      --deep: #07131e;
+      --panel: #0e202d;
+      --panel-2: #132a38;
+      --line: #254252;
+      --cyan: #67ddd5;
+      --gold: #dfb45f;
+      --shadow: 0 20px 55px rgba(0, 0, 0, .35);
+      --sidebar: 292px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 72% 0%, rgba(52, 172, 171, .12), transparent 34rem),
+        linear-gradient(180deg, #081723 0%, var(--deep) 55%, #050d14 100%);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    button, a { font: inherit; }
+
+    button:focus-visible, a:focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 100;
+      top: 12px;
+      left: 12px;
+      padding: 10px 14px;
+      color: #07131e;
+      background: var(--cyan);
+      border-radius: 8px;
+      transform: translateY(-160%);
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .app {
+      display: grid;
+      grid-template-columns: var(--sidebar) minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      padding: 26px 20px 32px;
+      background: rgba(7, 19, 30, .93);
+      border-right: 1px solid var(--line);
+      backdrop-filter: blur(18px);
+      z-index: 20;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--cyan);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .brand {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.72rem;
+      font-weight: 600;
+      line-height: 1.05;
+      letter-spacing: -.02em;
+    }
+
+    .brand-note {
+      margin: 12px 0 22px;
+      color: var(--muted);
+      font-size: .88rem;
+      line-height: 1.5;
+    }
+
+    .chapter-list {
+      display: grid;
+      gap: 7px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .chapter-button {
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: 10px;
+      width: 100%;
+      padding: 11px 12px;
+      color: var(--muted);
+      text-align: left;
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: 11px;
+      cursor: pointer;
+      transition: background .16s ease, border-color .16s ease, color .16s ease, transform .16s ease;
+    }
+
+    .chapter-button:hover {
+      color: var(--ink);
+      background: rgba(255,255,255,.04);
+      transform: translateX(2px);
+    }
+
+    .chapter-button[aria-current="page"] {
+      color: var(--ink);
+      background: linear-gradient(90deg, rgba(103, 221, 213, .14), rgba(223, 180, 95, .07));
+      border-color: rgba(103, 221, 213, .38);
+    }
+
+    .chapter-number {
+      color: var(--cyan);
+      font-size: .78rem;
+      font-weight: 850;
+      letter-spacing: .08em;
+    }
+
+    .chapter-name {
+      font-size: .9rem;
+      font-weight: 650;
+      line-height: 1.25;
+    }
+
+    .sidebar-links {
+      display: grid;
+      gap: 10px;
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .sidebar-links a {
+      color: var(--muted);
+      font-size: .82rem;
+      text-decoration: none;
+    }
+
+    .sidebar-links a:hover { color: var(--cyan); }
+
+    main { min-width: 0; }
+
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 15;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      align-items: center;
+      gap: 18px;
+      min-height: 82px;
+      padding: 14px clamp(18px, 4vw, 56px);
+      background: rgba(7, 19, 30, .88);
+      border-bottom: 1px solid rgba(75, 111, 128, .35);
+      backdrop-filter: blur(18px);
+    }
+
+    .menu-button { display: none; }
+
+    .chapter-heading { min-width: 0; }
+
+    .chapter-heading p {
+      margin: 0 0 4px;
+      color: var(--gold);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .chapter-heading h1 {
+      overflow: hidden;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.25rem, 2.4vw, 1.9rem);
+      font-weight: 600;
+      line-height: 1.1;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .mode-switcher {
+      display: flex;
+      padding: 4px;
+      background: #081722;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+
+    .mode-button {
+      padding: 8px 11px;
+      color: var(--muted);
+      background: transparent;
+      border: 0;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .mode-button:hover { color: var(--ink); }
+
+    .mode-button[aria-pressed="true"] {
+      color: #07131e;
+      background: var(--cyan);
+      font-weight: 800;
+    }
+
+    .chapter-controls { display: flex; gap: 8px; }
+
+    .icon-button, .menu-button {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      min-height: 42px;
+      padding: 8px 12px;
+      color: var(--ink);
+      background: var(--panel-2);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .menu-button { display: none; }
+
+    .icon-button:hover, .menu-button:hover { border-color: var(--cyan); }
+    .icon-button:disabled { cursor: not-allowed; opacity: .35; }
+
+    .reading-shell {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+      padding: clamp(22px, 4vw, 52px) clamp(14px, 3vw, 34px) 56px;
+    }
+
+    .reader-meta {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+      margin: 0 auto 18px;
+      max-width: 960px;
+    }
+
+    .reader-meta p { margin: 0; }
+
+    .reader-label {
+      color: var(--muted);
+      font-size: .82rem;
+    }
+
+    .reader-label strong { color: var(--ink); }
+
+    .open-original {
+      color: var(--cyan);
+      font-size: .84rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .open-original:hover { text-decoration: underline; }
+
+    .image-frame {
+      position: relative;
+      min-height: 65vh;
+      max-width: 960px;
+      margin: 0 auto;
+      overflow: hidden;
+      background: #0a1822;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .chapter-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      color: var(--muted);
+      background: #0a1822;
+    }
+
+    .loading {
+      position: absolute;
+      inset: 0 auto auto 0;
+      width: 100%;
+      padding: 18px;
+      color: var(--muted);
+      text-align: center;
+      background: linear-gradient(90deg, #0a1822, #132b38, #0a1822);
+      background-size: 240% 100%;
+      animation: shimmer 1.5s linear infinite;
+    }
+
+    .loading[hidden] { display: none; }
+
+    @keyframes shimmer { to { background-position: -240% 0; } }
+
+    .evidence {
+      max-width: 960px;
+      margin: 28px auto 0;
+      padding: 18px 20px;
+      background: rgba(14, 32, 45, .72);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+    }
+
+    .evidence summary {
+      cursor: pointer;
+      color: var(--ink);
+      font-weight: 800;
+    }
+
+    .evidence-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .evidence-links a {
+      padding: 8px 11px;
+      color: var(--muted);
+      text-decoration: none;
+      background: #091923;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .evidence-links a:hover {
+      color: var(--ink);
+      border-color: var(--cyan);
+    }
+
+    .bottom-nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      max-width: 960px;
+      margin: 28px auto 0;
+    }
+
+    .nav-card {
+      min-height: 74px;
+      padding: 14px 16px;
+      color: var(--ink);
+      text-align: left;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      cursor: pointer;
+    }
+
+    .nav-card:last-child { text-align: right; }
+    .nav-card:hover { border-color: var(--cyan); }
+    .nav-card:disabled { visibility: hidden; }
+
+    .nav-card small {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: .7rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .nav-card span { font-weight: 750; }
+
+    .scrim { display: none; }
+
+    @media (max-width: 980px) {
+      :root { --sidebar: 260px; }
+      .toolbar { grid-template-columns: minmax(0, 1fr) auto; }
+      .mode-switcher { grid-column: 1 / -1; justify-self: start; }
+    }
+
+    @media (max-width: 760px) {
+      .app { display: block; }
+
+      .sidebar {
+        position: fixed;
+        inset: 0 auto 0 0;
+        width: min(86vw, 310px);
+        transform: translateX(-105%);
+        transition: transform .2s ease;
+      }
+
+      .sidebar.open { transform: translateX(0); }
+
+      .scrim {
+        position: fixed;
+        z-index: 18;
+        inset: 0;
+        display: block;
+        visibility: hidden;
+        background: rgba(0,0,0,.58);
+        opacity: 0;
+        transition: opacity .2s ease, visibility .2s ease;
+      }
+
+      .scrim.open { visibility: visible; opacity: 1; }
+
+      .toolbar {
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        gap: 10px;
+        padding: 12px;
+      }
+
+      .menu-button { display: inline-grid; }
+      .mode-switcher { grid-column: 1 / -1; width: 100%; }
+      .mode-button { flex: 1; padding-inline: 7px; }
+      .chapter-heading h1 { font-size: 1.25rem; }
+      .reader-meta { align-items: start; flex-direction: column; gap: 6px; }
+      .reading-shell { padding-inline: 9px; }
+      .image-frame { border-radius: 4px; }
+      .bottom-nav { gap: 8px; }
+      .nav-card { padding: 12px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#chapter-reader">Skip to chapter</a>
+  <div class="app">
+    <aside class="sidebar" id="sidebar" aria-label="Chapter navigation">
+      <p class="eyebrow">Original webtoon volume</p>
+      <p class="brand">The City<br>Keeps Oaths</p>
+      <p class="brand-note">Choose a chapter, then switch between the full reading scroll, phone preview, and review sheets.</p>
+      <nav>
+        <ol class="chapter-list" id="chapter-list"></ol>
+      </nav>
+      <div class="sidebar-links">
+        <a href="START_HERE.md">Owner review hub</a>
+        <a href="FINAL_AUDIT.md">Final production audit</a>
+        <a href="../../../experiments/reimaginings/the-city-keeps-oaths/volume-review/progression-hub.png">Ten-chapter progression</a>
+        <a href="../../../experiments/reimaginings/the-city-keeps-oaths/volume-review/strongest-panels.png">Strongest panels</a>
+      </div>
+    </aside>
+
+    <div class="scrim" id="scrim" aria-hidden="true"></div>
+
+    <main id="chapter-reader">
+      <header class="toolbar">
+        <button class="menu-button" id="menu-button" type="button" aria-label="Open chapter menu" aria-expanded="false">☰</button>
+        <div class="chapter-heading">
+          <p id="chapter-kicker">Chapter 1 of 10</p>
+          <h1 id="chapter-title">The Road Refuses</h1>
+        </div>
+        <div class="chapter-controls" aria-label="Chapter controls">
+          <button class="icon-button" id="previous-top" type="button" aria-label="Previous chapter">←</button>
+          <button class="icon-button" id="next-top" type="button" aria-label="Next chapter">→</button>
+        </div>
+        <div class="mode-switcher" id="mode-switcher" aria-label="Viewing mode"></div>
+      </header>
+
+      <div class="reading-shell">
+        <div class="reader-meta">
+          <p class="reader-label"><strong id="mode-title">Reading draft</strong> · <span id="mode-description">Full-resolution vertical scroll</span></p>
+          <a class="open-original" id="open-original" href="#" target="_blank" rel="noopener">Open image separately ↗</a>
+        </div>
+
+        <div class="image-frame">
+          <div class="loading" id="loading" role="status">Loading chapter…</div>
+          <img class="chapter-image" id="chapter-image" alt="" decoding="async">
+        </div>
+
+        <details class="evidence">
+          <summary>Chapter review evidence</summary>
+          <div class="evidence-links" id="evidence-links"></div>
+        </details>
+
+        <div class="bottom-nav" aria-label="Continue reading">
+          <button class="nav-card" id="previous-bottom" type="button"></button>
+          <button class="nav-card" id="next-bottom" type="button"></button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const chapters = [
+      ["ch01", "The Road Refuses"],
+      ["ch02", "A Promise Has Weight"],
+      ["ch03", "The Badge at the Edge"],
+      ["ch04", "The Wound Beneath"],
+      ["ch05", "The Terms of Rescue"],
+      ["ch06", "A City in Two Voices"],
+      ["ch07", "The Broken Spear"],
+      ["ch08", "The Cost of Unmaking"],
+      ["ch09", "Every Witness"],
+      ["ch10", "What Holds"]
+    ];
+
+    const modes = {
+      reading: ["Reading draft", "Full-resolution vertical scroll"],
+      phone: ["Phone preview", "Complete chapter at 390-pixel reading width"],
+      compact: ["Lettered overview", "All 24 locally lettered panels"],
+      source: ["Source contact", "All 24 text-free source panels"]
+    };
+
+    const base = "../../../experiments/reimaginings/the-city-keeps-oaths/chapters";
+    const chapterList = document.querySelector("#chapter-list");
+    const modeSwitcher = document.querySelector("#mode-switcher");
+    const image = document.querySelector("#chapter-image");
+    const loading = document.querySelector("#loading");
+    const sidebar = document.querySelector("#sidebar");
+    const scrim = document.querySelector("#scrim");
+    const menuButton = document.querySelector("#menu-button");
+    let current = { chapter: 0, mode: "reading" };
+
+    function imagePath(slug, mode) {
+      const root = `${base}/${slug}`;
+      if (mode === "reading") return `${root}/${slug}-reading-draft.png`;
+      if (mode === "phone") return `${root}/${slug}-phone-preview.png`;
+      if (mode === "compact") return `${root}/review/${slug}-compact-lettered-review.png`;
+      return `${root}/review/${slug}-contact-sheet.png`;
+    }
+
+    function setHash(chapter, mode = current.mode) {
+      const slug = chapters[chapter][0];
+      location.hash = `${slug}/${mode}`;
+    }
+
+    function parseHash() {
+      const [requestedChapter, requestedMode] = location.hash.slice(1).split("/");
+      const chapter = Math.max(0, chapters.findIndex(([slug]) => slug === requestedChapter));
+      const mode = Object.hasOwn(modes, requestedMode) ? requestedMode : "reading";
+      return { chapter, mode };
+    }
+
+    function closeMenu() {
+      sidebar.classList.remove("open");
+      scrim.classList.remove("open");
+      menuButton.setAttribute("aria-expanded", "false");
+    }
+
+    function navigate(delta) {
+      const next = current.chapter + delta;
+      if (next >= 0 && next < chapters.length) {
+        setHash(next);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }
+
+    function render() {
+      current = parseHash();
+      const [slug, title] = chapters[current.chapter];
+      const source = imagePath(slug, current.mode);
+
+      document.title = `CH${String(current.chapter + 1).padStart(2, "0")} — ${title} | The City Keeps Oaths`;
+      document.querySelector("#chapter-kicker").textContent = `Chapter ${current.chapter + 1} of ${chapters.length}`;
+      document.querySelector("#chapter-title").textContent = title;
+      document.querySelector("#mode-title").textContent = modes[current.mode][0];
+      document.querySelector("#mode-description").textContent = modes[current.mode][1];
+      document.querySelector("#open-original").href = source;
+
+      loading.hidden = false;
+      image.alt = `Chapter ${current.chapter + 1}, ${title} — ${modes[current.mode][0]}`;
+      image.src = source;
+
+      chapterList.querySelectorAll("button").forEach((button, index) => {
+        if (index === current.chapter) button.setAttribute("aria-current", "page");
+        else button.removeAttribute("aria-current");
+      });
+
+      modeSwitcher.querySelectorAll("button").forEach(button => {
+        button.setAttribute("aria-pressed", String(button.dataset.mode === current.mode));
+      });
+
+      const previous = current.chapter - 1;
+      const next = current.chapter + 1;
+      document.querySelector("#previous-top").disabled = previous < 0;
+      document.querySelector("#next-top").disabled = next >= chapters.length;
+      const previousBottom = document.querySelector("#previous-bottom");
+      const nextBottom = document.querySelector("#next-bottom");
+      previousBottom.disabled = previous < 0;
+      nextBottom.disabled = next >= chapters.length;
+      if (previous >= 0) previousBottom.innerHTML = `<small>← Previous</small><span>CH${String(previous + 1).padStart(2, "0")} · ${chapters[previous][1]}</span>`;
+      if (next < chapters.length) nextBottom.innerHTML = `<small>Next →</small><span>CH${String(next + 1).padStart(2, "0")} · ${chapters[next][1]}</span>`;
+
+      const reviewRoot = `${base}/${slug}/review`;
+      const evidence = [
+        ["Compact lettering", `${reviewRoot}/${slug}-compact-lettered-review.png`],
+        ["Text-free contact", `${reviewRoot}/${slug}-contact-sheet.png`],
+        ["Grayscale values", `${reviewRoot}/${slug}-grayscale-review.png`],
+        ["Density map", `${reviewRoot}/${slug}-density-map.png`],
+        ["Safe zones", `${reviewRoot}/${slug}-safe-zone-review.png`],
+        ["Source strips", `${base}/${slug}/source-strips/`]
+      ];
+      document.querySelector("#evidence-links").innerHTML = evidence
+        .map(([label, href]) => `<a href="${href}" target="_blank" rel="noopener">${label}</a>`)
+        .join("");
+      closeMenu();
+    }
+
+    chapters.forEach(([slug, title], index) => {
+      const item = document.createElement("li");
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "chapter-button";
+      button.innerHTML = `<span class="chapter-number">CH${String(index + 1).padStart(2, "0")}</span><span class="chapter-name">${title}</span>`;
+      button.addEventListener("click", () => setHash(index));
+      item.append(button);
+      chapterList.append(item);
+    });
+
+    Object.entries(modes).forEach(([key, [label]]) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "mode-button";
+      button.dataset.mode = key;
+      button.textContent = label.replace(" draft", "").replace(" overview", "").replace(" contact", "");
+      button.addEventListener("click", () => setHash(current.chapter, key));
+      modeSwitcher.append(button);
+    });
+
+    image.addEventListener("load", () => { loading.hidden = true; });
+    image.addEventListener("error", () => {
+      loading.hidden = false;
+      loading.textContent = "This image could not be loaded. Confirm the viewer remains inside the completed worktree.";
+    });
+    document.querySelector("#previous-top").addEventListener("click", () => navigate(-1));
+    document.querySelector("#next-top").addEventListener("click", () => navigate(1));
+    document.querySelector("#previous-bottom").addEventListener("click", () => navigate(-1));
+    document.querySelector("#next-bottom").addEventListener("click", () => navigate(1));
+    menuButton.addEventListener("click", () => {
+      const open = !sidebar.classList.contains("open");
+      sidebar.classList.toggle("open", open);
+      scrim.classList.toggle("open", open);
+      menuButton.setAttribute("aria-expanded", String(open));
+    });
+    scrim.addEventListener("click", closeMenu);
+    window.addEventListener("hashchange", render);
+    window.addEventListener("keydown", event => {
+      if (event.target.matches("button, a, input, textarea, select")) return;
+      if (event.key === "ArrowLeft") navigate(-1);
+      if (event.key === "ArrowRight") navigate(1);
+      if (event.key.toLowerCase() === "m") {
+        const keys = Object.keys(modes);
+        setHash(current.chapter, keys[(keys.indexOf(current.mode) + 1) % keys.length]);
+      }
+    });
+
+    if (!location.hash) location.hash = "ch01/reading";
+    else render();
+  </script>
+</body>
+</html>

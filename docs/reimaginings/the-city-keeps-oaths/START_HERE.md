@@ -4,6 +4,10 @@
 
 This is an original ten-chapter, 240-panel opening volume. Generated images are owner-review-pending, unaccepted, commercially uncleared, not exact production bases, and non-reproducible unless proven.
 
+## Open the chapter viewer
+
+[Launch the navigable CH01–CH10 viewer](viewer.html). It loads one chapter at a time and includes full-scroll, phone-preview, lettered-overview, source-contact, previous/next, keyboard, and review-evidence navigation.
+
 ## Progression system
 
 The **Covenant Lattice** records voluntary, witnessed, costed promises only after completion. Sola earns the visible Listen, Hold, Span, Sever, and Chorus chords through consequential choices; each capability changes her tool, posture, relationships, responsibilities, and the city's physical roads. It is diegetic covenant craft, not a floating statistics interface.

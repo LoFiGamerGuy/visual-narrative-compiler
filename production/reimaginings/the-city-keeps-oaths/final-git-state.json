@@ -11,10 +11,11 @@
   "content_remote_parity_observed_remote": "562b2295ada6c54b53ba296d35fa5f3926d32a7a",
   "direct_paid_cloud_spend_usd": 0,
   "generated_rasters_tracked_by_git": 0,
-  "tracked_file_count": 203,
+  "tracked_file_count": 204,
   "tracked_files": [
     "docs/reimaginings/the-city-keeps-oaths/FINAL_AUDIT.md",
     "docs/reimaginings/the-city-keeps-oaths/START_HERE.md",
+    "docs/reimaginings/the-city-keeps-oaths/viewer.html",
     "docs/reimaginings/the-city-keeps-oaths/adr/ADR-001-premise-schema-and-route.md",
     "docs/reimaginings/the-city-keeps-oaths/adr/ADR-002-style-selection.md",
     "docs/reimaginings/the-city-keeps-oaths/adr/ADR-003-production-topology.md",
@@ -226,5 +227,6 @@
     "original_untracked_files_verified": 159,
     "integrity_status": "PASS"
   },
-  "audit_envelope_note": "This file and the owner-page Git section are committed after the immutable content commit. A tracked file cannot contain the hash of its own containing commit without changing that hash; the final audit-envelope branch tip and its remote parity are therefore reported in the external delivery handoff."
+  "viewer_extension": "A dependency-free local CH01-CH10 viewer was added after the original volume delivery; it does not modify story, generated pixels, chapter assembly, or validation evidence.",
+  "audit_envelope_note": "This file and the owner-page Git section are committed after the immutable content commit. A tracked file cannot contain the hash of its own containing commit without changing that hash; the final branch tip and its remote parity are therefore reported in the external delivery handoff."
 }

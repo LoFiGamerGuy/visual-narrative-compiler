@@ -1,0 +1,113 @@
+{
+  "json_integrity": {
+    "errors": [],
+    "files_checked": 3,
+    "status": "PASS"
+  },
+  "link_integrity": {
+    "errors": [],
+    "html_files": 12,
+    "links_checked": 644,
+    "status": "PASS",
+    "svg_files": 144
+  },
+  "output_reconciliation": {
+    "errors": [],
+    "files_checked": 158,
+    "status": "PASS"
+  },
+  "quality_gate": "PASS",
+  "schema": "PremiumAuditReport/1.0",
+  "status": "PASS",
+  "validation": {
+    "manifest": {
+      "counts": {
+        "asset_integrity_failures": 0,
+        "assets": 76,
+        "evidence_documents": 9,
+        "failures": 4,
+        "panels": 24,
+        "render_records": 76,
+        "unresolved_hard_failures": 0,
+        "workflows": 3
+      },
+      "errors": [],
+      "scenario_coverage": {
+        "causal_action_sequence": 6,
+        "depth_architecture": 1,
+        "establishing_environment": 1,
+        "fast_melee_action": 1,
+        "full_body_costume_continuity": 1,
+        "hands_equipment_interaction": 1,
+        "hero_close_up": 1,
+        "high_lettering_density": 1,
+        "injury_equipment_continuity": 2,
+        "inventory_enemy_cultivation_ui": 2,
+        "low_lettering_density": 2,
+        "moderate_lettering_density": 1,
+        "monster_or_boss": 2,
+        "quiet_dialogue": 1,
+        "recurring_multi_character": 1,
+        "skill_quest_ui": 2,
+        "status_ui": 1,
+        "supporting_close_up": 1,
+        "two_character_emotional_acting": 1,
+        "xp_level_ui": 2
+      },
+      "status": "PASS",
+      "warnings": []
+    },
+    "quality": {
+      "errors": [],
+      "status": "PASS",
+      "summary": {
+        "schema": "PremiumRubricSummary/1.0",
+        "winner": {
+          "eligible": true,
+          "hard_failure_count": 0,
+          "label": "Selected layered hybrid",
+          "mean_score": 88.667,
+          "median_score": 88.667,
+          "weakest_panel_score": 88.667,
+          "workflow_id": "hybrid"
+        },
+        "workflows": [
+          {
+            "eligible": true,
+            "hard_failure_count": 0,
+            "label": "Approved Candidate B baseline",
+            "mean_score": 71.238,
+            "median_score": 71.333,
+            "weakest_panel_score": 70.952,
+            "workflow_id": "baseline"
+          },
+          {
+            "eligible": false,
+            "hard_failure_count": 1,
+            "label": "Fresh multi-reference ImageGen",
+            "mean_score": 79.127,
+            "median_score": 79.524,
+            "weakest_panel_score": 76.857,
+            "workflow_id": "raw"
+          },
+          {
+            "eligible": true,
+            "hard_failure_count": 0,
+            "label": "Selected layered hybrid",
+            "mean_score": 88.667,
+            "median_score": 88.667,
+            "weakest_panel_score": 88.667,
+            "workflow_id": "hybrid"
+          }
+        ]
+      }
+    },
+    "rubric": {
+      "errors": [],
+      "status": "PASS",
+      "warnings": []
+    },
+    "schema": "PremiumBundleValidation/1.0",
+    "status": "PASS"
+  }
+}

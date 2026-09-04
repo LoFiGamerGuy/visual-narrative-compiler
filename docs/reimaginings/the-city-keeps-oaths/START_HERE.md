@@ -77,3 +77,15 @@ The derivation record cites official or licensed material for [The Beginning Aft
 - Generated candidates require owner acceptance and rights review; no commercial-clearance claim is made.
 - Density and focal metrics are pilot-relative proxies. Manual phone inspection controls when a metric and readable composition disagree.
 - The final branch-tip commit and remote parity are recorded in the closeout Git state and delivery handoff; a tracked file cannot literally contain the hash of its own containing commit without changing that hash.
+
+## Git delivery
+
+- Isolated worktree: `C:\AgentWorkspaces\anime-pipeline-reimagining-clean-webtoon-20260903-213010`
+- Isolated branch: `autonomous/ten-chapter-clean-webtoon-20260903-213010`
+- Protected baseline: `40e7940016ea3c3966752b61f55a931f91a13ac7`
+- Final immutable content commit: `562b2295ada6c54b53ba296d35fa5f3926d32a7a`
+- Content commit range: `40e7940016ea3c3966752b61f55a931f91a13ac7..562b2295ada6c54b53ba296d35fa5f3926d32a7a`
+- Remote parity at the content commit: PASS; local and `origin/autonomous/ten-chapter-clean-webtoon-20260903-213010` both resolved to `562b2295ada6c54b53ba296d35fa5f3926d32a7a`.
+- [Exact 203-file tracked inventory and protected-state proof](../../../production/reimaginings/the-city-keeps-oaths/final-git-state.json)
+
+The final audit-envelope commit adds only this Git-delivery section and its inventory file. Its branch-tip hash and final remote-parity check are supplied in the delivery handoff because a commit cannot truthfully contain its own hash.

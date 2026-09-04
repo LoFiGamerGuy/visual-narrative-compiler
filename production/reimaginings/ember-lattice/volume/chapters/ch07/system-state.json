@@ -1,0 +1,775 @@
+{
+  "schema": "SystemStateLedger/2.0",
+  "chapter": "ch07",
+  "timeline": "06:42–07:11",
+  "initial": {
+    "entity_id": "char-elian",
+    "level": 6,
+    "xp": 70,
+    "next_threshold": 250,
+    "unspent_points": 0,
+    "stats": {
+      "force": 7,
+      "step": 8,
+      "sense": 10,
+      "guard": 6
+    },
+    "hp": {
+      "current": 44,
+      "max": 68
+    },
+    "qi": {
+      "current": 30,
+      "max": 60
+    },
+    "class": "Faultline Adept",
+    "class_history": [
+      "Salvager",
+      "Faultline Adept"
+    ],
+    "cultivation": "Breath Seed III",
+    "cultivation_history": [
+      "Breath Seed I",
+      "Breath Seed II",
+      "Breath Seed III"
+    ],
+    "skills": {
+      "fault-sight": {
+        "name": "Fault Sight",
+        "rank": 1,
+        "cost": 12,
+        "resource": "Qi",
+        "cooldown_seconds": 20,
+        "condition": "one verified stress line",
+        "source": "damaged survey lens training"
+      },
+      "fault-step": {
+        "name": "Fault Step",
+        "rank": 2,
+        "cost": 10,
+        "resource": "Qi",
+        "cooldown_seconds": 7,
+        "condition": "one linked pivot at verified fault",
+        "source": "five verified uses plus Verdigris pressure"
+      },
+      "fault-hook": {
+        "name": "Fault Hook",
+        "rank": 1,
+        "cost": 10,
+        "resource": "Qi",
+        "cooldown_seconds": 12,
+        "condition": "self or unsecured object toward verified fault",
+        "source": "Faultline Adept selection"
+      },
+      "rift-draw": {
+        "name": "Rift Draw",
+        "rank": 1,
+        "cost": 16,
+        "resource": "Qi",
+        "cooldown_seconds": 30,
+        "condition": "one severing arc on verified fault",
+        "source": "Breath Seed III"
+      }
+    },
+    "statuses": [
+      "Breath Deviation"
+    ],
+    "injuries": [
+      "Right Palm Cut",
+      "Left Shoulder Scar"
+    ],
+    "equipment": {
+      "main_hand": "Glasshook",
+      "body": "Frayed Salvager Coat",
+      "utility": null
+    },
+    "inventory": {
+      "spark-talisman": {
+        "name": "Spark Talisman",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "starting salvage"
+      },
+      "iron-seal": {
+        "name": "Iron Seal",
+        "quantity": 0,
+        "rarity": "Common",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "starting salvage"
+      },
+      "cinder-key": {
+        "name": "Cinder-Key",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Belljaw Warden boss drop"
+      },
+      "cinder-carapace": {
+        "name": "Cinder-Mite Carapace",
+        "quantity": 0,
+        "rarity": "Common",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "Cinder Mite drops"
+      },
+      "chainspool": {
+        "name": "Chainspool",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "rescued-delver maintenance cache"
+      },
+      "resin-suture": {
+        "name": "Resin Suture",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Orin medical stock"
+      },
+      "glass-lens": {
+        "name": "Glass Lens",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "cracked",
+        "provenance": "Glassback drop"
+      },
+      "acid-gland": {
+        "name": "Verdigris Acid Gland",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Glassback drop"
+      },
+      "stitchfire-ampoule": {
+        "name": "Stitchfire Ampoule",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Orin reserve stock"
+      },
+      "verdigris-filter": {
+        "name": "Verdigris Filter",
+        "quantity": 1,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Orin refinement"
+      },
+      "shell-dust": {
+        "name": "Inert Shell Dust",
+        "quantity": 1,
+        "rarity": "Common",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "filter byproduct"
+      },
+      "sumpglass-coil": {
+        "name": "Sumpglass Coil",
+        "quantity": 1,
+        "rarity": "Rare",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "pump-heart reward"
+      },
+      "pump-token": {
+        "name": "Pump Token",
+        "quantity": 1,
+        "rarity": "Rare",
+        "weight": 0,
+        "condition": "intact",
+        "provenance": "Free Delvers proof"
+      }
+    },
+    "currency": {
+      "brass_marks": 12
+    },
+    "quests": {
+      "bridge-that-bites": "COMPLETED",
+      "choose-the-crack": "COMPLETED",
+      "chainworks-evacuation": "COMPLETED",
+      "three-breaths": "COMPLETED",
+      "claim-verdigris-seal": "FAILED",
+      "inventory-of-ash": "COMPLETED",
+      "keep-the-pump-heart": "ADVANCED"
+    },
+    "dungeon": {
+      "zone": "Ember Vault",
+      "cleared": [
+        "Ember Vault bridge",
+        "Glass Gallery"
+      ]
+    },
+    "boss_credit": [
+      "Belljaw Warden",
+      "Glassback Skitter"
+    ],
+    "factions": {
+      "Free Delvers": 22,
+      "Ash Crown": 5
+    },
+    "party_trust": 20,
+    "party": {
+      "char-mira": {
+        "level": 5,
+        "class": "Bastion Lancer",
+        "skills": {
+          "rampart-thrust": 3,
+          "bastion-arc": 1
+        },
+        "equipment": {
+          "shield": "Ivory Split Shield",
+          "main_hand": "Anchorfork Spear"
+        },
+        "injuries": []
+      },
+      "char-orin": {
+        "level": 6,
+        "class": "Forge-Medic",
+        "skills": {
+          "suture-pulse": 2,
+          "kiln-quench": 1
+        },
+        "equipment": {
+          "utility": "Kiln Satchel"
+        },
+        "injuries": []
+      },
+      "char-sable": {
+        "level": 7,
+        "class": "Ash Crown Pathcutter",
+        "skills": {
+          "severing-lane": 2
+        },
+        "equipment": {
+          "main_hand": "Segmented Saber"
+        },
+        "injuries": [],
+        "ash_debt": 4,
+        "party_status": "rival"
+      }
+    },
+    "irreversible": [
+      "Belljaw Warden defeated; one bridge anchor intact",
+      "one Iron Seal spent in Chainworks rescue",
+      "Sable owns Verdigris Seal; party received no reward",
+      "final Iron Seal, Chainspool, Glass Lens, carapaces, and acid glands consumed into loadout"
+    ]
+  },
+  "transactions": [
+    {
+      "panel_id": "el-ch07-s01-p002",
+      "type": "resource",
+      "resource": "qi",
+      "amount": 30,
+      "before": 30,
+      "after": 60,
+      "provenance": "pump alcove rest"
+    },
+    {
+      "panel_id": "el-ch07-s01-p002",
+      "type": "quest_state",
+      "quest_id": "observe-three-catastrophes",
+      "before": null,
+      "after": "ADVANCED",
+      "provenance": "Belljaw and Bailiff patterns recorded"
+    },
+    {
+      "panel_id": "el-ch07-s01-p010",
+      "type": "resource",
+      "resource": "hp",
+      "amount": -20,
+      "before": 44,
+      "after": 24,
+      "provenance": "ceiling slab edge"
+    },
+    {
+      "panel_id": "el-ch07-s01-p010",
+      "type": "resource",
+      "resource": "qi",
+      "amount": -12,
+      "before": 60,
+      "after": 48,
+      "provenance": "Fault Sight I"
+    },
+    {
+      "panel_id": "el-ch07-s01-p012",
+      "type": "resource",
+      "resource": "qi",
+      "amount": -16,
+      "before": 48,
+      "after": 32,
+      "provenance": "Rift Draw I aborted after cost"
+    },
+    {
+      "panel_id": "el-ch07-s01-p010",
+      "type": "equipment_loss",
+      "entity_id": "char-orin",
+      "slot": "utility",
+      "item": "Kiln Satchel",
+      "provenance": "thrown clear then dissolved in acid water"
+    },
+    {
+      "panel_id": "el-ch07-s01-p014",
+      "type": "resource",
+      "resource": "qi",
+      "amount": -24,
+      "before": 32,
+      "after": 8,
+      "provenance": "Breath Channel I protection gate"
+    },
+    {
+      "panel_id": "el-ch07-s01-p014",
+      "type": "resource_max",
+      "resource": "qi",
+      "max_before": 60,
+      "max_after": 72,
+      "current_before": 8,
+      "current_after": 20,
+      "restore": 12,
+      "provenance": "ceiling diversion protecting Mira and pump heart"
+    },
+    {
+      "panel_id": "el-ch07-s01-p014",
+      "type": "cultivation_advance",
+      "before": "Breath Seed III",
+      "after": "Breath Channel I",
+      "provenance": "ceiling diversion protecting Mira and pump heart"
+    },
+    {
+      "panel_id": "el-ch07-s01-p014",
+      "type": "status_remove",
+      "status": "Breath Deviation",
+      "bucket": "statuses",
+      "provenance": "valid Channel I breakthrough"
+    },
+    {
+      "panel_id": "el-ch07-s01-p015",
+      "type": "quest_state",
+      "quest_id": "observe-three-catastrophes",
+      "before": "ADVANCED",
+      "after": "COMPLETED",
+      "provenance": "Collapse Hound pattern and protection choice"
+    },
+    {
+      "panel_id": "el-ch07-s01-p016",
+      "type": "class_change",
+      "before": "Faultline Adept",
+      "after": "Rift Temperer",
+      "provenance": "three catastrophic patterns plus changed protection decision"
+    },
+    {
+      "panel_id": "el-ch07-s01-p016",
+      "type": "skill_change",
+      "skill_id": "rift-mark",
+      "before": null,
+      "after": {
+        "name": "Rift Mark",
+        "rank": 1,
+        "cost": 22,
+        "resource": "Qi",
+        "cooldown_seconds": 45,
+        "condition": "temporary nonliving fault after survived hostile pattern",
+        "source": "Rift Temperer evolution"
+      },
+      "provenance": "Rift Temperer evolution"
+    },
+    {
+      "panel_id": "el-ch07-s01-p020",
+      "type": "xp_gain",
+      "amount": 80,
+      "level_before": 6,
+      "xp_before": 70,
+      "level_after": 6,
+      "xp_after": 150,
+      "next_threshold": 250,
+      "level_events": [],
+      "provenance": "Collapse Hound kill share"
+    },
+    {
+      "panel_id": "el-ch07-s01-p021",
+      "type": "xp_gain",
+      "amount": 60,
+      "level_before": 6,
+      "xp_before": 150,
+      "level_after": 6,
+      "xp_after": 210,
+      "next_threshold": 250,
+      "level_events": [],
+      "provenance": "Keep the Pump Heart completion"
+    },
+    {
+      "panel_id": "el-ch07-s01-p021",
+      "type": "quest_state",
+      "quest_id": "keep-the-pump-heart",
+      "before": "ADVANCED",
+      "after": "COMPLETED_WITH_LOSS",
+      "provenance": "heart saved; secondary sluice destroyed"
+    },
+    {
+      "panel_id": "el-ch07-s01-p022",
+      "type": "item_gain",
+      "item_id": "rift-nail",
+      "name": "Rift Nail",
+      "rarity": "Relic",
+      "amount": 1,
+      "before": 0,
+      "after": 1,
+      "condition": "intact",
+      "provenance": "Collapse Hound counterweight"
+    },
+    {
+      "panel_id": "el-ch07-s01-p022",
+      "type": "item_gain",
+      "item_id": "survey-bracer",
+      "name": "Survey Bracer",
+      "rarity": "Tempered",
+      "amount": 1,
+      "before": 0,
+      "after": 1,
+      "condition": "intact",
+      "provenance": "Collapse Hound cache"
+    },
+    {
+      "panel_id": "el-ch07-s01-p022",
+      "type": "equipment_change",
+      "entity_id": "char-elian",
+      "slot": "utility",
+      "before": null,
+      "after": "Survey Bracer",
+      "condition": "intact",
+      "provenance": "equipped from Hound cache"
+    },
+    {
+      "panel_id": "el-ch07-s01-p023",
+      "type": "resource",
+      "resource": "hp",
+      "amount": 12,
+      "before": 24,
+      "after": 36,
+      "provenance": "Orin field Suture Pulse reserve"
+    },
+    {
+      "panel_id": "el-ch07-s01-p024",
+      "type": "faction_delta",
+      "faction": "Free Delvers",
+      "amount": 5,
+      "before": 22,
+      "after": 27,
+      "provenance": "pump quest completed with heart intact"
+    },
+    {
+      "panel_id": "el-ch07-s01-p024",
+      "type": "party_trust",
+      "amount": 7,
+      "before": 20,
+      "after": 27,
+      "provenance": "Elian chose protection line"
+    },
+    {
+      "panel_id": "el-ch07-s01-p021",
+      "type": "irreversible",
+      "flag": "secondary Verdigris sluice destroyed; pump heart survives",
+      "provenance": "completion with loss"
+    }
+  ],
+  "final": {
+    "entity_id": "char-elian",
+    "level": 6,
+    "xp": 210,
+    "next_threshold": 250,
+    "unspent_points": 0,
+    "stats": {
+      "force": 7,
+      "step": 8,
+      "sense": 10,
+      "guard": 6
+    },
+    "hp": {
+      "current": 36,
+      "max": 68
+    },
+    "qi": {
+      "current": 20,
+      "max": 72
+    },
+    "class": "Rift Temperer",
+    "class_history": [
+      "Salvager",
+      "Faultline Adept",
+      "Rift Temperer"
+    ],
+    "cultivation": "Breath Channel I",
+    "cultivation_history": [
+      "Breath Seed I",
+      "Breath Seed II",
+      "Breath Seed III",
+      "Breath Channel I"
+    ],
+    "skills": {
+      "fault-sight": {
+        "name": "Fault Sight",
+        "rank": 1,
+        "cost": 12,
+        "resource": "Qi",
+        "cooldown_seconds": 20,
+        "condition": "one verified stress line",
+        "source": "damaged survey lens training"
+      },
+      "fault-step": {
+        "name": "Fault Step",
+        "rank": 2,
+        "cost": 10,
+        "resource": "Qi",
+        "cooldown_seconds": 7,
+        "condition": "one linked pivot at verified fault",
+        "source": "five verified uses plus Verdigris pressure"
+      },
+      "fault-hook": {
+        "name": "Fault Hook",
+        "rank": 1,
+        "cost": 10,
+        "resource": "Qi",
+        "cooldown_seconds": 12,
+        "condition": "self or unsecured object toward verified fault",
+        "source": "Faultline Adept selection"
+      },
+      "rift-draw": {
+        "name": "Rift Draw",
+        "rank": 1,
+        "cost": 16,
+        "resource": "Qi",
+        "cooldown_seconds": 30,
+        "condition": "one severing arc on verified fault",
+        "source": "Breath Seed III"
+      },
+      "rift-mark": {
+        "name": "Rift Mark",
+        "rank": 1,
+        "cost": 22,
+        "resource": "Qi",
+        "cooldown_seconds": 45,
+        "condition": "temporary nonliving fault after survived hostile pattern",
+        "source": "Rift Temperer evolution"
+      }
+    },
+    "statuses": [],
+    "injuries": [
+      "Right Palm Cut",
+      "Left Shoulder Scar"
+    ],
+    "equipment": {
+      "main_hand": "Glasshook",
+      "body": "Frayed Salvager Coat",
+      "utility": "Survey Bracer"
+    },
+    "inventory": {
+      "spark-talisman": {
+        "name": "Spark Talisman",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "starting salvage"
+      },
+      "iron-seal": {
+        "name": "Iron Seal",
+        "quantity": 0,
+        "rarity": "Common",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "starting salvage"
+      },
+      "cinder-key": {
+        "name": "Cinder-Key",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Belljaw Warden boss drop"
+      },
+      "cinder-carapace": {
+        "name": "Cinder-Mite Carapace",
+        "quantity": 0,
+        "rarity": "Common",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "Cinder Mite drops"
+      },
+      "chainspool": {
+        "name": "Chainspool",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "rescued-delver maintenance cache"
+      },
+      "resin-suture": {
+        "name": "Resin Suture",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Orin medical stock"
+      },
+      "glass-lens": {
+        "name": "Glass Lens",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "cracked",
+        "provenance": "Glassback drop"
+      },
+      "acid-gland": {
+        "name": "Verdigris Acid Gland",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Glassback drop"
+      },
+      "stitchfire-ampoule": {
+        "name": "Stitchfire Ampoule",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Orin reserve stock"
+      },
+      "verdigris-filter": {
+        "name": "Verdigris Filter",
+        "quantity": 1,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Orin refinement"
+      },
+      "shell-dust": {
+        "name": "Inert Shell Dust",
+        "quantity": 1,
+        "rarity": "Common",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "filter byproduct"
+      },
+      "sumpglass-coil": {
+        "name": "Sumpglass Coil",
+        "quantity": 1,
+        "rarity": "Rare",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "pump-heart reward"
+      },
+      "pump-token": {
+        "name": "Pump Token",
+        "quantity": 1,
+        "rarity": "Rare",
+        "weight": 0,
+        "condition": "intact",
+        "provenance": "Free Delvers proof"
+      },
+      "rift-nail": {
+        "name": "Rift Nail",
+        "quantity": 1,
+        "rarity": "Relic",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "Collapse Hound counterweight"
+      },
+      "survey-bracer": {
+        "name": "Survey Bracer",
+        "quantity": 1,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Collapse Hound cache"
+      }
+    },
+    "currency": {
+      "brass_marks": 12
+    },
+    "quests": {
+      "bridge-that-bites": "COMPLETED",
+      "choose-the-crack": "COMPLETED",
+      "chainworks-evacuation": "COMPLETED",
+      "three-breaths": "COMPLETED",
+      "claim-verdigris-seal": "FAILED",
+      "inventory-of-ash": "COMPLETED",
+      "keep-the-pump-heart": "COMPLETED_WITH_LOSS",
+      "observe-three-catastrophes": "COMPLETED"
+    },
+    "dungeon": {
+      "zone": "Ember Vault",
+      "cleared": [
+        "Ember Vault bridge",
+        "Glass Gallery",
+        "Verdigris Sump"
+      ]
+    },
+    "boss_credit": [
+      "Belljaw Warden",
+      "Glassback Skitter",
+      "Collapse Hound"
+    ],
+    "factions": {
+      "Free Delvers": 27,
+      "Ash Crown": 5
+    },
+    "party_trust": 27,
+    "party": {
+      "char-mira": {
+        "level": 5,
+        "class": "Bastion Lancer",
+        "skills": {
+          "rampart-thrust": 3,
+          "bastion-arc": 1
+        },
+        "equipment": {
+          "shield": "Ivory Split Shield",
+          "main_hand": "Anchorfork Spear"
+        },
+        "injuries": []
+      },
+      "char-orin": {
+        "level": 6,
+        "class": "Forge-Medic",
+        "skills": {
+          "suture-pulse": 2,
+          "kiln-quench": 1
+        },
+        "equipment": {
+          "utility": null
+        },
+        "injuries": []
+      },
+      "char-sable": {
+        "level": 7,
+        "class": "Ash Crown Pathcutter",
+        "skills": {
+          "severing-lane": 2
+        },
+        "equipment": {
+          "main_hand": "Segmented Saber"
+        },
+        "injuries": [],
+        "ash_debt": 4,
+        "party_status": "rival"
+      }
+    },
+    "irreversible": [
+      "Belljaw Warden defeated; one bridge anchor intact",
+      "one Iron Seal spent in Chainworks rescue",
+      "Sable owns Verdigris Seal; party received no reward",
+      "final Iron Seal, Chainspool, Glass Lens, carapaces, and acid glands consumed into loadout",
+      "secondary Verdigris sluice destroyed; pump heart survives"
+    ]
+  }
+}

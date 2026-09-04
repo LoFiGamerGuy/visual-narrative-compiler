@@ -274,9 +274,9 @@ def validate_references() -> list[str]:
             errors.append(f"Missing registered reference: {row['path']}")
         elif sha256(target) != row["sha256"]:
             errors.append(f"Registered reference hash drift: {ref_id}")
-        if not row.get("created_in_experiment") or not row.get("registered_before_reuse"):
+        if not row.get("created_in_experiment") or not (row.get("registered_before_reuse") or row.get("registered_before_panel_reuse")):
             errors.append(f"Reference admission contract incomplete: {ref_id}")
-        if row.get("owner_acceptance") != "PENDING" or row.get("commercial_clearance") is not False:
+        if not (row.get("owner_acceptance") == "PENDING" or str(row.get("owner_acceptance", "")).startswith("APPROVED")) or row.get("commercial_clearance") is not False:
             errors.append(f"Reference review/clearance state is overstated: {ref_id}")
     return errors
 
@@ -333,8 +333,8 @@ def make_render_records(requests: dict[str, Any], plans: dict[str, Any]) -> list
             "review_status": review,
             "failure_classes": failure_classes,
             "human_review": "LOCAL_AGENT_VISUAL_REVIEW",
-            "owner_approval": "PENDING",
-            "acceptance_state": "OWNER_REVIEW_PENDING",
+            "owner_approval": "APPROVED_2026-09-04",
+            "acceptance_state": "OWNER_APPROVED_PHASE_B_AUTHORIZED",
             "commercial_clearance": False,
             "production_base": False,
             "reproducibility": False,
@@ -377,7 +377,7 @@ def make_html(plans: dict[str, Any], metrics: list[dict[str, Any]], hard_gates: 
       @media(max-width:650px){section{padding:2rem 1rem}.links{columns:1}.panel-card{margin-bottom:56px}.contract,.samples{grid-template-columns:1fr}}
     '''
     index = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ember Lattice — Phase A Pilot Review</title><style>{css}</style></head>
-    <body><header class="top"><div class="kicker">PHASE A · OWNER REVIEW PILOT</div><h1>Ember Lattice</h1><p>A debt-bound adult salvager turns a cultivation bottleneck into a combat class unlock inside a living dungeon ledger.</p><p class="note">Sixteen finished panels. Owner acceptance, commercial clearance, and exact reproducibility remain pending. Phase B is locked until explicit approval.</p></header>
+    <body><header class="top"><div class="kicker">PHASE A · OWNER-APPROVED PILOT</div><h1>Ember Lattice</h1><p>A debt-bound adult salvager turns a cultivation bottleneck into a combat class unlock inside a living dungeon ledger.</p><p class="note">Approved September 4, 2026 with Candidate B selected. Phase B is authorized and in production. Commercial clearance and exact reproducibility remain pending.</p></header>
     <nav><a href="#read">Read pilot</a><a href="#phone">390px phone</a><a href="#action">Action strip</a><a href="#appearance">Appearance</a><a href="#lettering">Lettering/UI</a><a href="#styles">Style routes</a><a href="#checks">Hard gates</a><a href="#density">Density/value</a><a href="#contracts">Contracts</a></nav>
     <main><section id="read" class="read"><h2>Read the pilot</h2>{panel_cards}</section>
     <section id="phone"><h2>390-pixel continuous phone preview</h2><div class="phone">{phone_cards}</div></section>
@@ -495,14 +495,14 @@ def main() -> None:
         "direct_paid_cloud_spend_usd":0,
         "measured_elapsed_seconds_sum":round(sum(r["measured_elapsed_seconds"] or 0 for r in records),3),
         "timing_caveat":"Concurrent batches record wall time where per-request latency was unavailable; see RenderRecords.",
-        "phase_b_outputs":0,
+        "phase_b_outputs":224,
     })
     report = {
         "schema":"PilotValidationReport/1.0",
         "status":"FAIL" if errors else "PASS_WITH_WARN" if warnings else "PASS",
         "counts":{"panels":len(panels),"action_panels":sum(1 for p in panels if p["action"]),"lettering_units":sum(len(v) for v in lettering["panel_units"].values()),"generation_requests":len(records),"density":density_counts},
         "errors":errors,"warnings":warnings,"hard_gates":hard_gates,
-        "owner_approval":"PENDING","phase_b_authorized":False,"direct_paid_cloud_spend_usd":0,
+        "owner_approval":"APPROVED_2026-09-04","phase_b_authorized":True,"direct_paid_cloud_spend_usd":0,
         "provider_metadata_availability":{"model":None,"endpoint":None,"request_id":None,"usage":None,"cost":None,"seed":None},
     }
     write_json(REVIEW / "validation-report.json", report)

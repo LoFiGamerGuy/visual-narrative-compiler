@@ -23,3 +23,23 @@
 - Faultline Adept: asymmetrical short coat, hookblade forward, free hand reading cracks; movement is low, diagonal, and opportunistic.
 - Bastion Lancer: shield wedge and long spear form a readable T-shape; movement is planted, rotational, and redirective.
 - Equipment changes must be logged by slot. Nothing appears without provenance.
+
+## Orin Pell (`char-orin`)
+
+- Fictional adult, apparent age 41; 176 cm, broad compact build, mature square face and heavy hands.
+- Light neutral-olive complexion with warm beige highlights; dark brown hair graying at both temples; hazel eyes; short boxed beard.
+- Silhouette: rust-red forge apron over charcoal roll-sleeve shirt, brass-rimmed monocle over left eye, compact kiln satchel with three ceramic ampoules, heavy gloves.
+- Function: Level 6 Forge-Medic; exact, dry, and unwilling to call pain noble. His healing cannot erase fracture state without the correct consumable.
+- Forbidden drift: elderly frailty, youthful face, dark neutral complexion, white laboratory coat, wizard robes, oversized backpack, weapon-first silhouette.
+
+## Sable Renn (`char-sable`)
+
+- Fictional adult, apparent age 35; 180 cm, wiry athletic build, narrow mature face.
+- Fair cool complexion; amber eyes; black undercut swept left with a narrow silver streak at the temple.
+- Silhouette: fitted black-plum Pathcutter coat with one white diagonal shoulder guard, straight segmented saber, red-black debt cord wrapped once around the sternum.
+- Function: Level 7 Ash Crown Pathcutter; clipped speech, visibly guarded loyalties. Cultivation debt appears as muted charcoal-ember fissures, not demonic skin recoloring.
+- Forbidden drift: teen face, long hair, tan/dark base complexion, flowing cape, katana ornament, exposed torso, villain-coded complexion change.
+
+## Relationship behavior
+
+Elian and Mira disagree through tactics and resource choices rather than exposition. Mira never becomes a passive rescuer or love-interest prop. Orin treats both as patients and co-workers. Sable earns provisional cooperation through specific risk in CH08; forgiveness is not automatic. No complexion, facial feature, or cultivation mark signals morality.

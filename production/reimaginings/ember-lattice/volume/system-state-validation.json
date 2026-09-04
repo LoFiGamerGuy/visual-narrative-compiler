@@ -1,0 +1,372 @@
+{
+  "schema": "SystemStateValidation/2.0",
+  "status": "PASS",
+  "errors": [],
+  "chapters": 10,
+  "level_ups": 5,
+  "class_changes": 2,
+  "cultivation_advancements": 4,
+  "skill_changes": 8,
+  "final_state": {
+    "entity_id": "char-elian",
+    "level": 8,
+    "xp": 295,
+    "next_threshold": 400,
+    "unspent_points": 0,
+    "stats": {
+      "force": 8,
+      "step": 9,
+      "sense": 10,
+      "guard": 6
+    },
+    "hp": {
+      "current": 8,
+      "max": 83
+    },
+    "qi": {
+      "current": 14,
+      "max": 90
+    },
+    "class": "Rift Temperer",
+    "class_history": [
+      "Salvager",
+      "Faultline Adept",
+      "Rift Temperer"
+    ],
+    "cultivation": "Breath Channel II",
+    "cultivation_history": [
+      "Breath Seed I",
+      "Breath Seed II",
+      "Breath Seed III",
+      "Breath Channel I",
+      "Breath Channel II"
+    ],
+    "skills": {
+      "fault-sight": {
+        "name": "Fault Sight",
+        "rank": 2,
+        "cost": 14,
+        "resource": "Qi",
+        "cooldown_seconds": 18,
+        "condition": "two linked verified faults for eight seconds",
+        "source": "ten verified reads"
+      },
+      "fault-step": {
+        "name": "Fault Step",
+        "rank": 2,
+        "cost": 10,
+        "resource": "Qi",
+        "cooldown_seconds": 7,
+        "condition": "one linked pivot at verified fault",
+        "source": "five verified uses plus Verdigris pressure"
+      },
+      "fault-hook": {
+        "name": "Fault Hook",
+        "rank": 1,
+        "cost": 10,
+        "resource": "Qi",
+        "cooldown_seconds": 12,
+        "condition": "self or unsecured object toward verified fault",
+        "source": "Faultline Adept selection"
+      },
+      "rift-draw": {
+        "name": "Rift Draw",
+        "rank": 3,
+        "cost": 22,
+        "resource": "Qi",
+        "cooldown_seconds": 24,
+        "condition": "two-stage draw through linked resonance",
+        "source": "Breath Channel II plus Bell Regent yoke pattern"
+      },
+      "rift-mark": {
+        "name": "Rift Mark",
+        "rank": 1,
+        "cost": 22,
+        "resource": "Qi",
+        "cooldown_seconds": 45,
+        "condition": "temporary nonliving fault after survived hostile pattern",
+        "source": "Rift Temperer evolution"
+      }
+    },
+    "statuses": [],
+    "injuries": [
+      "Right Palm Cut",
+      "Left Shoulder Scar"
+    ],
+    "equipment": {
+      "main_hand": "Regentbreaker Edge",
+      "body": "Frayed Salvager Coat",
+      "utility": "Survey Bracer"
+    },
+    "inventory": {
+      "spark-talisman": {
+        "name": "Spark Talisman",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "starting salvage"
+      },
+      "iron-seal": {
+        "name": "Iron Seal",
+        "quantity": 0,
+        "rarity": "Common",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "starting salvage"
+      },
+      "cinder-key": {
+        "name": "Cinder-Key",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Belljaw Warden boss drop"
+      },
+      "cinder-carapace": {
+        "name": "Cinder-Mite Carapace",
+        "quantity": 0,
+        "rarity": "Common",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "Cinder Mite drops"
+      },
+      "chainspool": {
+        "name": "Chainspool",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "rescued-delver maintenance cache"
+      },
+      "resin-suture": {
+        "name": "Resin Suture",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Orin medical stock"
+      },
+      "glass-lens": {
+        "name": "Glass Lens",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "cracked",
+        "provenance": "Glassback drop"
+      },
+      "acid-gland": {
+        "name": "Verdigris Acid Gland",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Glassback drop"
+      },
+      "stitchfire-ampoule": {
+        "name": "Stitchfire Ampoule",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Orin reserve stock"
+      },
+      "verdigris-filter": {
+        "name": "Verdigris Filter",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Orin refinement"
+      },
+      "shell-dust": {
+        "name": "Inert Shell Dust",
+        "quantity": 0,
+        "rarity": "Common",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "filter byproduct"
+      },
+      "sumpglass-coil": {
+        "name": "Sumpglass Coil",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "pump-heart reward"
+      },
+      "pump-token": {
+        "name": "Pump Token",
+        "quantity": 1,
+        "rarity": "Rare",
+        "weight": 0,
+        "condition": "intact",
+        "provenance": "Free Delvers proof"
+      },
+      "rift-nail": {
+        "name": "Rift Nail",
+        "quantity": 0,
+        "rarity": "Relic",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "Collapse Hound counterweight"
+      },
+      "survey-bracer": {
+        "name": "Survey Bracer",
+        "quantity": 1,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "repaired",
+        "provenance": "Collapse Hound cache"
+      },
+      "surface-route-token": {
+        "name": "Surface-Route Token",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 0,
+        "condition": "intact",
+        "provenance": "party route credential"
+      },
+      "brass-maw-core": {
+        "name": "Brass Maw Core",
+        "quantity": 0,
+        "rarity": "Relic",
+        "weight": 3,
+        "condition": "intact",
+        "provenance": "Brass Maw boss drop"
+      },
+      "tuning-fork-key": {
+        "name": "Tuning-Fork Key",
+        "quantity": 0,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Brass Maw boss drop"
+      },
+      "crownshaft-wire": {
+        "name": "Crownshaft Wire",
+        "quantity": 0,
+        "rarity": "Common",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "abandoned forge stock"
+      },
+      "bell-crown-shard": {
+        "name": "Bell Crown Shard",
+        "quantity": 1,
+        "rarity": "Relic",
+        "weight": 2,
+        "condition": "intact",
+        "provenance": "Bell Regent boss drop"
+      },
+      "meridian-seal": {
+        "name": "Meridian Seal",
+        "quantity": 1,
+        "rarity": "Relic",
+        "weight": 0,
+        "condition": "intact",
+        "provenance": "public-lift clear reward"
+      },
+      "sponsor-writ": {
+        "name": "Sponsor Writ",
+        "quantity": 1,
+        "rarity": "Rare",
+        "weight": 0,
+        "condition": "intact",
+        "provenance": "Bell Regent yoke cache"
+      }
+    },
+    "currency": {
+      "brass_marks": 12
+    },
+    "quests": {
+      "bridge-that-bites": "COMPLETED",
+      "choose-the-crack": "COMPLETED",
+      "chainworks-evacuation": "COMPLETED",
+      "three-breaths": "COMPLETED",
+      "claim-verdigris-seal": "FAILED",
+      "inventory-of-ash": "COMPLETED",
+      "keep-the-pump-heart": "COMPLETED_WITH_LOSS",
+      "observe-three-catastrophes": "COMPLETED",
+      "rescue-the-debtor": "COMPLETED",
+      "the-guilds-short-cut": "COMPLETED",
+      "crownshaft-assault": "COMPLETED",
+      "strike-the-silence": "COMPLETED"
+    },
+    "dungeon": {
+      "zone": "Sealed Fourth Meridian threshold",
+      "cleared": [
+        "Ember Vault bridge",
+        "Glass Gallery",
+        "Verdigris Sump",
+        "Resonance Cistern",
+        "Crownshaft"
+      ]
+    },
+    "boss_credit": [
+      "Belljaw Warden",
+      "Glassback Skitter",
+      "Collapse Hound",
+      "Brass Maw",
+      "Bell Regent"
+    ],
+    "factions": {
+      "Free Delvers": 58,
+      "Ash Crown": -35
+    },
+    "party_trust": 42,
+    "party": {
+      "char-mira": {
+        "level": 5,
+        "class": "Bastion Lancer",
+        "skills": {
+          "rampart-thrust": 3,
+          "bastion-arc": 1
+        },
+        "equipment": {
+          "shield": "Ivory Split Shield",
+          "main_hand": "Crownfork Spear"
+        },
+        "injuries": [
+          "Left Upper Arm Cut"
+        ]
+      },
+      "char-orin": {
+        "level": 6,
+        "class": "Forge-Medic",
+        "skills": {
+          "suture-pulse": 2,
+          "kiln-quench": 1
+        },
+        "equipment": {
+          "utility": "Compact Kiln Satchel"
+        },
+        "injuries": []
+      },
+      "char-sable": {
+        "level": 7,
+        "class": "Ash Crown Pathcutter",
+        "skills": {
+          "severing-lane": 2
+        },
+        "equipment": {
+          "main_hand": "Segmented Saber"
+        },
+        "injuries": [],
+        "ash_debt": 5,
+        "party_status": "provisional ally"
+      }
+    },
+    "irreversible": [
+      "Belljaw Warden defeated; one bridge anchor intact",
+      "one Iron Seal spent in Chainworks rescue",
+      "Sable owns Verdigris Seal; party received no reward",
+      "final Iron Seal, Chainspool, Glass Lens, carapaces, and acid glands consumed into loadout",
+      "secondary Verdigris sluice destroyed; pump heart survives",
+      "Surface-Route Token stolen; return door sealed",
+      "Glasshook, Rift Nail, Brass Maw Core, Anchorfork, Sumpglass Coil, and Tuning-Fork Key consumed into final Relic loadout",
+      "Bell Regent defeated; public lift cable intact",
+      "fourth meridian unsealed; Sponsor Writ retained"
+    ]
+  }
+}

@@ -5,7 +5,7 @@ The **Brass Ledger** is an impartial dungeon accounting phenomenon that records 
 ## Identity and advancement
 
 - Levels grant one attribute point and increase HP/Qi according to class growth.
-- XP thresholds: L3→4: 100; L4→5: 140; L5→6: 190; L6→7: 250; L7→8: 320.
+- XP thresholds: L3→4: 100; L4→5: 140; L5→6: 190; L6→7: 250; L7→8: 320; L8→9: 400. Thresholds are totals required from the current level; carry remains after crossing.
 - Carry XP remains after a level. Provenance tags: kill share, quest, discovery, refinement, training.
 - Core stats: Force, Step, Sense, Guard. Derived resources: HP and Qi. No ornamental stats.
 
@@ -32,3 +32,11 @@ Rarities: Common, Tempered, Rare, Relic. Pilot inventory capacity is 6 slots / 1
 ## Quests and dungeons
 
 `quest-bridge-that-bites`: defeat Belljaw Warden and keep at least one bridge anchor intact. Reward: 85 kill-share XP, Cinder-Key, Faultline class options. Failure: Ember Vault lift remains sealed. Hollow Meridian zones: Ember Vault, Verdigris Sump, Crownshaft. Enemy threat is explicit level or class.
+
+## Locked Phase B state cadence
+
+Each chapter has exactly four meaningful Ledger moments: an opening condition or objective, a tactical read or choice, a consequential delta, and an end-state reconciliation. CH01 begins from the pilot's pre-fight L3 record and closes L4. Level-ups occur in CH01, CH03, CH06, CH08, and CH10. Attribute points are never silently auto-spent.
+
+Class history is `Salvager → Faultline Adept (CH02) → Rift Temperer (CH07)`. Cultivation history is `Breath Seed I → II (CH01) → III (CH03) → Breath Channel I (CH07) → II (CH10)`. Full skill rules live in `skill-bible.md`; every acquisition/rank-up declares its condition and does not recur as a duplicate reward.
+
+Authoritative chapter-boundary ledgers, transaction provenance, inventory quantities, equipment slots, quests, injuries, faction values, dungeon state, and irreversible flags are generated from the locked volume master and validated independently of the images.

@@ -1,0 +1,131 @@
+{
+  "record_type": "RenderRecord",
+  "schema_version": "BorrowedDownRenderRecord/1.0",
+  "product": "OpenAI built-in ImageGen in Codex",
+  "tool": "image_gen",
+  "target_chapter": "CH02",
+  "sequence": "CH02-S01",
+  "target_panel_ids": [
+    "CH02-S01-P01",
+    "CH02-S01-P02",
+    "CH02-S01-P03",
+    "CH02-S01-P04",
+    "CH02-S01-P05"
+  ],
+  "exact_prompt": "Use case: illustration-story\nAsset type: five selected comic panels in one deterministic sequence sheet for CH02 CH02-S01\nPrimary request: Create a text-free 3-by-2 comic grid. The first five cells are the chronological story sequence below. The sixth cell is a quiet environment-only aftermath motif, never a duplicate character panel.\nScene/backdrop: Tavi's tilted communal kitchen in Veyr, a gravity-rationed city built beside a continent-high vertical ocean.\nCharacters: Mae Nox, fictional adult woman age 41, tall and broad-shouldered, dark brown skin, one blunt black wedge braid to shoulder blades, ochre work coat, teal rope harness, heavy split-toe boots, practical mature proportions; Dax Pell, fictional adult man age 38, lean, copper-brown skin, silver-black asymmetrical curl crest leaning left, narrow moustache, coral half-cape, charcoal wrap trousers, yellow barometer gauntlet, practical mature proportions; Tavi Rusk, fictional adult age 47, round powerful silhouette, indigo head wrap, sleeveless boiler apron over practical clothes, mature proportions.\nNon-human subjects: none.\nStyle/medium: pressure-print comic: bold woodcut-like dry-brush black edges, flat imperfect off-register oxidized teal, warning coral and acid-yellow risograph inks on warm fibrous paper; angular adult proportions, large readable hands, graphic negative-space force paths, simplified backgrounds except for functional machinery, one dominant value break per cell.\nColor palette: soot black, oxidized teal, warning coral, warm paper.\nComposition/framing: exact clean 3-column by 2-row grid with strong black gutters; one readable moment per cell; varied camera distance; phone-readable silhouettes; the first five cells must read left-to-right top row then left-to-right bottom row.\nChronological cells:\nCell 1: Establish Tavi's tilted communal kitchen; show mae, dax, tavi, fictional_adult_workers; make geography and current load direction obvious.\nCell 2: Intent: organize safe routes to the engine; show the responsible adult initiating a concrete step.\nCell 3: Constraint becomes physical and visible: pots and tables hang from ceiling hooks after the lean.\nCell 4: Causal action: Tavi maps blocked streets with bowls while Mae assigns ropes; show footing, contact, rope or mechanism tension, and force direction.\nCell 5: Consequence and remaining state: Dax notices only Crown water remains vertical; nothing resets between cells.\nIrreversible state already in force: official_forecast_disproved, mae_accepts_dax_forecast, south_hook_rib_cracked, mae_right_glove_torn, mae_pull_knot_charged, mae_pull_knot_spent, dax_wanted, public_witnesses_wrong_down.\nNew state that must visibly persist after this sequence: tavi_joins_investigation.\nLettering clearance: cell 1 reserve normalized rectangle [0.05, 0.05, 0.42, 0.2] as low-detail negative space; cell 2 reserve normalized rectangle [0.51, 0.05, 0.95, 0.21] as low-detail negative space; cell 3 reserve normalized rectangle [0.05, 0.05, 0.49, 0.21] as low-detail negative space; cell 4 reserve normalized rectangle [0.66, 0.06, 0.94, 0.18] as low-detail negative space; cell 5 reserve normalized rectangle [0.68, 0.73, 0.92, 0.88] as low-detail negative space.\nConstraints: all humans are explicitly fictional adults with unambiguously mature proportions and practical non-sexualized clothing; exact named-character hair, silhouette, wardrobe damage, injuries and equipment persist; coherent anatomy; readable hands; visible physical cause and effect; no spontaneous healing; no extra people unless the cell explicitly calls for a fictional-adult crowd; no glamor posing.\nAvoid: any text, letters, numbers, labels, captions, speech balloons, sound-effect text, logos, signatures, watermarks, floating UI, children, child-coded features, young-looking adults, sexual content, gratuitous gore, real-person likeness, third-party characters, named-artist imitation, glossy 3D, soft clear-line watercolor.",
+  "prompt_sha256": "66e1c72fd2c933873f0d12f8ee51e20aad01a45d2b1a39e479a2fbf58b759ff1",
+  "input_references": [
+    {
+      "id": "pressure_print_style_anchor",
+      "file": "experiments/reimaginings/borrowed-down/style-probes/pressure-print.png",
+      "sha256": "7d1fce3bd4d7ca1a9a3ddb6a30057a2efefd71cf57c5bfa4e2bbfaa5949edaf3"
+    },
+    {
+      "id": "mae_dax_character_anchor",
+      "file": "experiments/reimaginings/borrowed-down/references/mae-dax-character-anchor.png",
+      "sha256": "6682513568d2ad5acdcb5999357c66cfcf479916dc93eef00942538f80aad177"
+    }
+  ],
+  "output_file": "experiments/reimaginings/borrowed-down/chapters/ch02/sequence-sheets/ch02-s01.png",
+  "output_sha256": "58d743261a06e838cbc34764d797735c34f4a74776e57c5ba6f8a30bee01fa29",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "elapsed_seconds": 121.875,
+  "model": null,
+  "model_snapshot": null,
+  "endpoint": null,
+  "provider_request_id": null,
+  "usage": null,
+  "monetary_cost_usd": null,
+  "deterministic_seed": null,
+  "crop_method": "3x2 equal cells, first five selected",
+  "crop_coordinates": [
+    {
+      "panel_id": "CH02-S01-P01",
+      "crop_coordinates": [
+        8,
+        8,
+        504,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH02-S01-P02",
+      "crop_coordinates": [
+        520,
+        8,
+        1016,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH02-S01-P03",
+      "crop_coordinates": [
+        1032,
+        8,
+        1528,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH02-S01-P04",
+      "crop_coordinates": [
+        8,
+        520,
+        504,
+        1016
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH02-S01-P05",
+      "crop_coordinates": [
+        520,
+        520,
+        1016,
+        1016
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    }
+  ],
+  "candidate_files": [
+    {
+      "panel_id": "CH02-S01-P01",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch02/panels/ch02-s01-p01.png",
+      "sha256": "89adac85ad4d5dc32b0f0a91a8a38f4fb5d764799542506a028cdbd36eddea68"
+    },
+    {
+      "panel_id": "CH02-S01-P02",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch02/panels/ch02-s01-p02.png",
+      "sha256": "affb90b03e2e96645f65a85632ddd7bc7f9bcf37f1789390e1d6778adde42c62"
+    },
+    {
+      "panel_id": "CH02-S01-P03",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch02/panels/ch02-s01-p03.png",
+      "sha256": "9193a45ef2cd6aa02fceb3ef60cfaf8bee5ba57ad2739d7c8a575c3d623321e2"
+    },
+    {
+      "panel_id": "CH02-S01-P04",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch02/panels/ch02-s01-p04.png",
+      "sha256": "705e9b8ee82b673b6009321c70943104b4d4f73fa232e95434959fc81b53e214"
+    },
+    {
+      "panel_id": "CH02-S01-P05",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch02/panels/ch02-s01-p05.png",
+      "sha256": "44a437197fc158b4f9d8804f8ad58f638e1d806ab6790a976b327710455d9d12"
+    }
+  ],
+  "agent_review_status": "PASS",
+  "failure_classes": [],
+  "human_review_state": "owner_review_pending",
+  "human_review_minutes": null,
+  "acceptance_state": "unaccepted",
+  "commercial_clearance_state": "commercially_uncleared",
+  "exact_production_base_state": "not_an_exact_production_base",
+  "reproducibility_state": "non_reproducible_unless_proven"
+}

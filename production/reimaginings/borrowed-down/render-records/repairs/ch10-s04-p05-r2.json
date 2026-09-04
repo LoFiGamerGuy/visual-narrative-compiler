@@ -1,0 +1,78 @@
+{
+  "record_type": "TargetedPanelRepairRenderRecord",
+  "schema_version": "BorrowedDownRenderRecord/1.0",
+  "product": "OpenAI built-in ImageGen in Codex",
+  "tool": "image_gen",
+  "target_chapter": "CH10",
+  "sequence": "CH10-S04",
+  "target_panel_ids": [
+    "CH10-S04-P05"
+  ],
+  "exact_prompt": "Edit only the bottom-middle cell (cell 5) of this existing 3-by-2 comic sequence sheet. Replace the toothed reptilian dragon-like creature with the established fictional adult keelback mother: a whale-sized black crescent body, broad smooth pressure-shaped silhouette, oxidized-teal coral rib vents, small navigation fins, and a chain visibly parting as she pulls free. She has no visible teeth, no reptilian snout, no predatory eyes, no jaws, and no hostile pose. Preserve the causal beat: synchronized release transfers stored fall into the voluntary rope web while the central anchor begins tearing apart. Preserve cells 1, 2, 3, 4, and 6 as closely as possible; preserve the exact grid, black gutters, pressure-print woodcut and three-ink risograph style, warm fibrous paper, adult characters, machinery, palette, and text-free layout. All people are fictional adults with mature proportions and practical non-sexualized clothing. Do not add text, letters, numbers, captions, logos, signatures, watermarks, children, real-person likenesses, gore, or third-party characters. The first reference is the exact edit target and composition source. The second reference is only the canonical appearance anchor for fictional adults Mae Nox and Dax Pell; do not copy its layout.",
+  "prompt_sha256": "4eb862c11a90137ad2c0033c647fb337f44158e3893496efe0398e7dc6754470",
+  "input_references": [
+    {
+      "id": "ch10_s04_r1_edit_target",
+      "file": "experiments/reimaginings/borrowed-down/diagnostics/ch10-s04-r1-creature-fail/ch10-s04-r1.png",
+      "sha256": "ba6e1f50d5267e8627309fe6c1820b0be9e2ce2ffc35af98e8269c2fb3c4e63e"
+    },
+    {
+      "id": "mae_dax_character_anchor",
+      "file": "experiments/reimaginings/borrowed-down/references/mae-dax-character-anchor.png",
+      "sha256": "6682513568d2ad5acdcb5999357c66cfcf479916dc93eef00942538f80aad177"
+    }
+  ],
+  "output_file": "experiments/reimaginings/borrowed-down/repairs/ch10-s04-p05-r2/ch10-s04-r2-imagegen-edit.png",
+  "output_sha256": "29e53b6beddb3b9ffae674fec93164a7176333999e5431552eeb5a484e771bce",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "elapsed_seconds": 111.4,
+  "model": null,
+  "model_snapshot": null,
+  "endpoint": null,
+  "provider_request_id": null,
+  "usage": null,
+  "monetary_cost_usd": null,
+  "deterministic_seed": null,
+  "crop_method": "bottom-middle equal cell from ImageGen edit, 8px inward trim; only repaired selected panel promoted",
+  "crop_coordinates": [
+    {
+      "panel_id": "CH10-S04-P05",
+      "crop_coordinates": [
+        520,
+        520,
+        1016,
+        1016
+      ],
+      "crop_method": "bottom-middle cell with 8px inward trim"
+    }
+  ],
+  "candidate_files": [
+    {
+      "panel_id": "CH10-S04-P05",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch10/panels/ch10-s04-p05.png",
+      "sha256": "01cbd1914daedc906422d8673cac2fedee907f97539c59f0667aeae9878ad5a1"
+    }
+  ],
+  "canonical_composite_sheet": {
+    "file": "experiments/reimaginings/borrowed-down/chapters/ch10/sequence-sheets/ch10-s04.png",
+    "sha256": "49d820c58120da8ebc69aa59bdec8c17e88ac8b20e955988e4d3e25e6d31736b",
+    "preserved_cells": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ]
+  },
+  "agent_review_status": "PASS",
+  "failure_classes": [],
+  "human_review_state": "owner_review_pending",
+  "human_review_minutes": null,
+  "acceptance_state": "unaccepted",
+  "commercial_clearance_state": "commercially_uncleared",
+  "exact_production_base_state": "not_an_exact_production_base",
+  "reproducibility_state": "non_reproducible_unless_proven"
+}

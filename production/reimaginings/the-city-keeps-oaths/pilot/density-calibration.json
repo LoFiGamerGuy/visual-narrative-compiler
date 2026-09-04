@@ -1,0 +1,18 @@
+{
+  "schema": "CityKeepsOathsPilotDensityCalibration/1.0",
+  "selected_source": "experiments/reimaginings/the-city-keeps-oaths/pilot/three-strip-01.png",
+  "selected_source_sha256": "9b73e191d7ba8a55b7b9da4be1f64fcd962b40189f576ddef6646bc7df6b4477",
+  "phone_width": 390,
+  "observed_selected_frames": [
+    {"frame":1,"edge_density":0.106143,"global_entropy":6.175926,"local_entropy_mean":4.893661,"high_frequency_occupancy":0.125494,"focal_luminance_separation":0.067714},
+    {"frame":2,"edge_density":0.113769,"global_entropy":5.924726,"local_entropy_mean":5.100538,"high_frequency_occupancy":0.126536,"focal_luminance_separation":0.026346},
+    {"frame":3,"edge_density":0.150868,"global_entropy":6.268291,"local_entropy_mean":5.428358,"high_frequency_occupancy":0.185657,"focal_luminance_separation":0.078488}
+  ],
+  "material_deviation_flags": {
+    "low": {"edge_density_max":0.14,"high_frequency_occupancy_max":0.17,"global_entropy_max":6.7},
+    "moderate": {"edge_density_max":0.20,"high_frequency_occupancy_max":0.24,"global_entropy_max":7.1},
+    "high": {"edge_density_max":0.28,"high_frequency_occupancy_max":0.32,"global_entropy_max":7.5},
+    "all": {"focal_luminance_separation_min":0.015}
+  },
+  "interpretation": "Bounds are pilot-relative review flags, not universal beauty thresholds. Any phone-confusing panel fails regardless of metrics."
+}

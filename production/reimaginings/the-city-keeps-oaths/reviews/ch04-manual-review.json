@@ -1,0 +1,17 @@
+{
+  "chapter":"CH04","reviewer":"produce_ch02_ch04 agent visual inspection; root-agent post-repair inspection","phone_width":390,"overall_status":"WARN",
+  "sequence_reviews":[
+    {"sequence":"CH04-S01","status":"WARN","failure_classes":["metric_density_above_pilot_in_story_readable_panels","lettering_encroaches_character_head"],"evidence":"Serac's repair offer, Sola's demand for terms, map exchange, vow refusal, feeding ink, and vanished door read as a clean negotiation. P01 and P05 balloons crowd Sola's upper head, but the expressions and hand-driven terms remain intelligible."},
+    {"sequence":"CH04-S02","status":"WARN","failure_classes":["metric_density_above_pilot_in_story_readable_panels"],"evidence":"Wall seam, crystalline barrier, map memory, exit opening, and completed-vow clue have clear geography and causal progression. Post-repair inspection confirms P11's relocated balloon clears Kesin's eyes, expression, and the luminous map-hand action."},
+    {"sequence":"CH04-S03","status":"WARN","failure_classes":["metric_density_above_pilot_in_story_readable_panels","lettering_encroaches_character_head"],"evidence":"Archive chamber, vow count, escalating burn, forced break, and Sola's refusal to proceed unnamed remain readable at 390 px. Effects are bright but localized; P14 and P17 balloons encroach on upper heads without fully hiding the focal actions."},
+    {"sequence":"CH04-S04","status":"PASS","failure_classes":[],"evidence":"The painful mark, Tarin and Kesin's aid, visible burn injury, bandaging, recorded refusal, mature defiance, and departure preserve irreversible state. Post-repair inspection confirms P19, P20, and P22 lettering clears all eyes, expressions, bandaging, and causal hand actions."}
+  ],
+  "taxonomy":{"role_identity":"PASS","adult_appearance":"PASS","facial_stability":"PASS","hair_stability":"PASS","wardrobe_continuity":"PASS","equipment_continuity":"PASS","injury_continuity":"PASS","creature_anatomy":"PASS","emotional_clarity":"PASS","relationship_behavior":"PASS","action_causality":"PASS","geography":"PASS","silhouette":"PASS","value_hierarchy":"PASS","focal_clarity":"PASS","effect_restraint":"PASS","background_density":"WARN","phone_readability":"PASS","lettering_clearance":"PASS","progression_state":"PASS","chapter_pacing":"PASS","cross_chapter_consequences":"PASS","originality":"PASS"},
+  "warns":[
+    {"failure_class":"metric_density_above_pilot_in_story_readable_panels","disposition":"retain WARN; 16 calibrated metric flags do not correspond to phone confusion under direct inspection; focal adults, map, seam, mark, and injury remain distinct"},
+    {"failure_class":"lettering_encroaches_character_head","disposition":"retain WARN where eyes and expressions remain visible; include in later localized lettering pass"}
+  ],
+  "fails":[],
+  "repairs":[{"failure_class":"lettering_obscures_eyes_or_expression","panels":["CH04-S02-P05","CH04-S04-P01","CH04-S04-P02","CH04-S04-P04"],"result":"PASS after localized deterministic safe-zone relocation; source art unchanged","comparison":"experiments/reimaginings/the-city-keeps-oaths/repairs/lettering-wave/ch04-before-after.png"}],
+  "hard_repair_required":false
+}

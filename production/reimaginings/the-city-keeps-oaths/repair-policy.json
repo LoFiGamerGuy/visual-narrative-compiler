@@ -1,0 +1,10 @@
+{
+  "schema":"CityKeepsOathsRepairPolicy/1.0",
+  "breadth_before_polish":true,
+  "primary_attempts_per_request":1,
+  "targeted_retry_limit":1,
+  "repair_after_all_chapters":true,
+  "repairable_classes":["story_breaking_continuity","unreadable_causal_action","severe_identity_failure","incorrect_creature_anatomy","missing_irreversible_state","safety_problem","severe_phone_readability_failure"],
+  "non_repair_trigger":"minor aesthetic imperfection or story-readable WARN",
+  "proof":"Snapshot every non-target panel hash before repair; preserve failed source and prove all non-target hashes unchanged."
+}

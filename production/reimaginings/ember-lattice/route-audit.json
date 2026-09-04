@@ -1,0 +1,34 @@
+{
+  "schema": "GenerationRouteAudit/1.0",
+  "audit_date": "2026-09-04",
+  "routes_available_without_new_credentials_purchase_download_or_protected_asset_use": 1,
+  "routes": [
+    {
+      "route_id": "builtin-imagegen",
+      "product": "in-product image generation",
+      "different_provider_confirmed": null,
+      "reference_controls": "local generated image paths",
+      "edit_controls": "conversation-visible/local-inspected image edit supported",
+      "output_dimensions": "provider-selected; recorded per output",
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "usage": null,
+      "monetary_cost": null,
+      "direct_paid_cloud_spend_usd": 0,
+      "strengths": ["clean adult faces", "strong action staging", "fresh reference conditioning"],
+      "failure_modes": ["microtexture creep", "minor costume drift", "provider-selected dimensions", "non-deterministic output"],
+      "production_architecture": "critical pilot panels individually generated; only fresh hash-pinned references; no universal strip topology"
+    }
+  ],
+  "excluded_routes": [
+    {
+      "route": "CLI/API image generation",
+      "reason": "requires separate credential path and was not explicitly requested; built-in route is mandated default by the image-generation skill"
+    },
+    {
+      "route": "protected-root local model caches or prior worktree pipelines",
+      "reason": "protected artifacts and model downloads are outside this isolated experiment; reuse would violate the production prompt"
+    }
+  ]
+}

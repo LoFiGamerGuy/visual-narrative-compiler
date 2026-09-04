@@ -1,0 +1,82 @@
+{
+  "schema": "PilotValidationReport/1.0",
+  "status": "PASS_WITH_WARN",
+  "counts": {
+    "panels": 16,
+    "action_panels": 9,
+    "lettering_units": 25,
+    "generation_requests": 24,
+    "density": {
+      "low": 11,
+      "moderate": 3,
+      "high": 2
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "1/11 planned-low panels exceed accepted low-detail calibration"
+  ],
+  "hard_gates": [
+    {
+      "requirement": "Recognizable modern action anime/manhwa at phone size",
+      "status": "PASS",
+      "evidence": "Clean tapered contour, mature expressive faces, cel value groups, and dynamic P06–P15 staging remain legible at 390px."
+    },
+    {
+      "requirement": "Fair/light fictional-adult protagonist consistency",
+      "status": "PASS",
+      "evidence": "Neutral P02/P03 and dramatic P09/P12/P14/P15 preserve Elian's fair/light base and mature proportions."
+    },
+    {
+      "requirement": "Causal and impressive action at phone size",
+      "status": "PASS",
+      "evidence": "Eleven consecutive beats P05–P15 show geography, charge, intercept, counter, read, move, interruption, consequence, choice, breakthrough, and combo payoff."
+    },
+    {
+      "requirement": "Professional comics lettering, not blocky dialogue UI",
+      "status": "PASS",
+      "evidence": "Organic measured SVG balloons with semantic tails; ordinary balloon copy is under 16 words."
+    },
+    {
+      "requirement": "Original readable system UI distinct from dialogue",
+      "status": "PASS",
+      "evidence": "Cut-corner charcoal/brass/ember Ledger components are visually separate from ivory balloons and do not copy blue holographic interfaces."
+    },
+    {
+      "requirement": "Promised LitRPG elements visible",
+      "status": "PASS",
+      "evidence": "Level, XP, class lock, cultivation stage, skill cost/cooldown, boss level, quest, inventory sacrifice, loot rarity, and level-up appear in sequence."
+    },
+    {
+      "requirement": "Low-detail panels actually low-detail",
+      "status": "PASS",
+      "evidence": "10/11 planned-low panels pass; P005 remains a specific WARN, below the 25% fail-closed threshold."
+    },
+    {
+      "requirement": "No generated gibberish or baked-in lettering boxes",
+      "status": "PASS",
+      "evidence": "Local inspection found text-free source art; every visible word/shape is deterministic SVG."
+    },
+    {
+      "requirement": "No arithmetic or provenance contradiction",
+      "status": "PASS",
+      "evidence": "XP, HP, Qi, inventory, loot, quest, injury, breakthrough, and class-unlock transactions reconcile."
+    },
+    {
+      "requirement": "No missing required state",
+      "status": "PASS",
+      "evidence": "Cracked Rib, consumed talisman, intact seals, acquired skill, Cinder-Key, class options, and cleared dungeon persist in final state."
+    }
+  ],
+  "owner_approval": "PENDING",
+  "phase_b_authorized": false,
+  "direct_paid_cloud_spend_usd": 0,
+  "provider_metadata_availability": {
+    "model": null,
+    "endpoint": null,
+    "request_id": null,
+    "usage": null,
+    "cost": null,
+    "seed": null
+  }
+}

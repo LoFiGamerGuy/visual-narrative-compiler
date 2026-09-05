@@ -1,0 +1,2300 @@
+{
+  "acquisition_schedule": [
+    {
+      "acquisitions": [
+        "Cinder-Key",
+        "Roundoff Chalk",
+        "Belljaw Ankle Plate",
+        "Mire-Salt Poultice"
+      ],
+      "constraint": "one Spark Talisman is permanently gone; two Iron Seals remain finite",
+      "purpose": "survival and provenance",
+      "window": "CH01–03"
+    },
+    {
+      "acquisitions": [
+        "First-Lane Greaves",
+        "Triage Frame",
+        "Socketline Partisan",
+        "Verdigris Pump Heart"
+      ],
+      "constraint": "rebuilds compete with treatment and civic repair",
+      "purpose": "defeat, repair, and environmental choice",
+      "window": "CH04–06"
+    },
+    {
+      "acquisitions": [
+        "Regentbreaker Hook",
+        "Crosslock Standard",
+        "Counterweight Splitshield",
+        "Regent Membrane"
+      ],
+      "constraint": "Relic maintenance exceeds normal party income",
+      "purpose": "party recombination and Regent clear",
+      "window": "CH07–10"
+    },
+    {
+      "acquisitions": [
+        "Cold Ledger Shard",
+        "Paired Quoin Lens",
+        "Forked Writ Seal",
+        "Hush Bell"
+      ],
+      "constraint": "using evidence exposes adjacent private records",
+      "purpose": "evidence and liability",
+      "window": "CH11–15"
+    },
+    {
+      "acquisitions": [
+        "Public-Line Brace",
+        "Debt-Cord Shears",
+        "Declared-Load Braid",
+        "Consent-Notary Seal"
+      ],
+      "constraint": "lawful access can be revoked; public choices create obligations",
+      "purpose": "public routes and coercion exits",
+      "window": "CH16–20"
+    },
+    {
+      "acquisitions": [
+        "Quiet Meridian Diaphragm",
+        "Unbound Forkstep",
+        "Shared-Seam Mantle",
+        "Consent Prism"
+      ],
+      "constraint": "best upgrades require refusing singular advantage",
+      "purpose": "distributed cultivation and leadership",
+      "window": "CH21–25"
+    },
+    {
+      "acquisitions": [
+        "Four-Hand Covenant",
+        "Unclaimed Crown Socket",
+        "Fourth-Door Tuning Key"
+      ],
+      "constraint": "any linked member retains a real veto",
+      "purpose": "city-scale shared load",
+      "window": "CH26–30"
+    }
+  ],
+  "boss_reward_families": [
+    {
+      "boss": "Belljaw Warden",
+      "choice": "path access versus durable load armor",
+      "grammar": "load response and redirected fracture",
+      "rewards": [
+        "Cinder-Key",
+        "Belljaw Ankle Plate",
+        "Clapper-Wedge"
+      ]
+    },
+    {
+      "boss": "Glassback Choir",
+      "choice": "record the pattern or weaponize its silence",
+      "grammar": "three-note memory and moving weak points",
+      "rewards": [
+        "Glassback Echo Scale",
+        "Paired Quoin Lens",
+        "Hush Bell"
+      ]
+    },
+    {
+      "boss": "Crownspike Bailiff",
+      "choice": "claim coercive mobility or build an exit from debt",
+      "grammar": "single-winner adjudication",
+      "rewards": [
+        "Bailiff Tooth",
+        "Crownfork Runners",
+        "Debt-Cord Shears"
+      ]
+    },
+    {
+      "boss": "Mire Choir",
+      "choice": "save infrastructure or harvest combat material",
+      "grammar": "flow division without killing the system",
+      "rewards": [
+        "Pump Heart",
+        "Sumpglass Needle",
+        "Mire Choir Stopper"
+      ]
+    },
+    {
+      "boss": "Collapse Hound",
+      "choice": "portable safety or visible memorial lock",
+      "grammar": "removing weak structures",
+      "rewards": [
+        "Traveling Anchor",
+        "Loadcoat Braces",
+        "Mourning Rivet"
+      ]
+    },
+    {
+      "boss": "Brass Maw",
+      "choice": "personal cultivation or public access",
+      "grammar": "tuning civic machinery",
+      "rewards": [
+        "Three-Note Sternum Cage",
+        "Liftkeeper's Thumb",
+        "Public Heat Chit"
+      ]
+    },
+    {
+      "boss": "Bell Regent",
+      "choice": "finish a weapon, a formation, or an archive",
+      "grammar": "shared cadence under ascent pressure",
+      "rewards": [
+        "Regentbreaker Hook",
+        "Crosslock Standard",
+        "Regent Membrane"
+      ]
+    },
+    {
+      "boss": "Fourth-Door Notary",
+      "choice": "read consent, share load, or restructure command",
+      "grammar": "consent fields and reversible authority",
+      "rewards": [
+        "Consent Prism",
+        "Four-Hand Covenant",
+        "Unclaimed Crown Socket"
+      ]
+    }
+  ],
+  "build_archetypes": [
+    {
+      "core": "Fault Sight + physical acceleration + witness tools",
+      "cost": "low tolerance for changing geometry",
+      "name": "Declared Fault Runner",
+      "relationship_pressure": "must disclose incomplete reads",
+      "tactics": "reads one line, declares it, then commits only after a partner loads it"
+    },
+    {
+      "core": "split shield + socket spear + load braid",
+      "cost": "formation spacing and consent are mandatory",
+      "name": "Shared-Load Bastion",
+      "relationship_pressure": "cannot privately absorb every hit",
+      "tactics": "redirects force into prepared allies and architecture"
+    },
+    {
+      "core": "finite treatment satchel + repair clamps",
+      "cost": "every saved resource closes another treatment option",
+      "name": "Field Triage Mechanist",
+      "relationship_pressure": "must name triage preferences",
+      "tactics": "stabilizes bodies and gear during movement"
+    },
+    {
+      "core": "route greaves + debt-cutting tools",
+      "cost": "best burst requires refusing an offered advantage",
+      "name": "Unbound Lane Duelist",
+      "relationship_pressure": "trust depends on visible debt choices",
+      "tactics": "creates and abandons narrow movement lanes"
+    },
+    {
+      "core": "echo scale + breath regulator",
+      "cost": "poor against irregular swarms",
+      "name": "Resonance Patient",
+      "relationship_pressure": "asks allies to hold while evidence matures",
+      "tactics": "waits for complete cadence before countering"
+    },
+    {
+      "core": "living copper + water economy",
+      "cost": "clean water and heat upkeep",
+      "name": "Verdigris Flowkeeper",
+      "relationship_pressure": "party comfort becomes crafting fuel",
+      "tactics": "reroutes hazards and grows temporary cover"
+    },
+    {
+      "core": "lawful seals + load evidence",
+      "cost": "credential revocation and public liability",
+      "name": "Civic Breach Auditor",
+      "relationship_pressure": "truth may close routes people need",
+      "tactics": "turns infrastructure permissions into battlefield constraints"
+    },
+    {
+      "core": "witness cords + distributed authority socket",
+      "cost": "one veto ends the technique",
+      "name": "Consent Lattice Conductor",
+      "relationship_pressure": "leadership depends on reversible agreement",
+      "tactics": "shares timing and strain without a singular commander"
+    }
+  ],
+  "counts": {
+    "boss_reward_families": 8,
+    "build_archetypes": 8,
+    "chain_stages": 36,
+    "evolution_chains": 12,
+    "faction_families": 6,
+    "future_loadouts": 12,
+    "items": 60
+  },
+  "equipment_rules": {
+    "binding_attunement": "Binding records a bearer; attunement records a practiced pattern. Binding can be transferred with consent and a fee. Forced transfer damages one function and remains visible in provenance.",
+    "carrying_constraints": "Six inventory slots and ten weight at CH01; worn gear does not consume slots but heavy gear consumes weight. Quick access is limited to three belt positions. Oversize tools require two hands or a party carry declaration.",
+    "crafting_economy": "Crafting spends named components, brass marks, workshop access, time, and sometimes heat/water/public chits. Economic choices must compete with treatment, rent, lift access, or route repair.",
+    "cultivation_compatibility": "Gear can regulate, store, redirect, or witness Qi but cannot substitute for realm prerequisites. A mismatch increases heat, pain, delay, or loss of control—not arbitrary stat penalty.",
+    "inventory_ui": "Comparison cards pair tactical verb with explicit cost, show condition/provenance/obligation, and name the action or relationship lost by equipping. Never reduce a decision to larger numbers or green arrows.",
+    "rarity_advancement": [
+      "Common — replaceable field matter",
+      "Tempered — altered through a declared craft cost",
+      "Rare — provenance-bound behavior",
+      "Relic — singular rule-changing legacy with upkeep",
+      "Covenant — party-bound and revocable"
+    ],
+    "repair_degradation": "Condition steps: sound, worn, compromised, broken. Field repair may restore function but not erase scars. A broken item yields at most two named salvage inputs.",
+    "salvage": "Salvage retains boss/faction provenance, condition, and prior obligation. No anonymous material conversion.",
+    "scavenged_vs_elite": "Scavenged gear is asymmetric, repairable, provenance-mixed, and visibly constrained. Elite relics use fewer larger forms, exact interfaces, costly upkeep, and institutionally legible marks.",
+    "slots": [
+      "main hand",
+      "off hand",
+      "head",
+      "body",
+      "hands",
+      "legs",
+      "back",
+      "belt ×3",
+      "utility ×2",
+      "relic",
+      "core",
+      "party"
+    ],
+    "visible_upgrade_rule": "Add or change a functional silhouette part, joint, brace, gap, or material behavior. Glow is reserved for active energy paths and never indicates rarity by itself."
+  },
+  "evolution_chains": [
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "hookline",
+      "purpose": "Elian leverage blade",
+      "stages": [
+        "hookline-1",
+        "hookline-2",
+        "hookline-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "coat",
+      "purpose": "Elian survival coat",
+      "stages": [
+        "coat-1",
+        "coat-2",
+        "coat-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "seals",
+      "purpose": "portable seal kit",
+      "stages": [
+        "seals-1",
+        "seals-2",
+        "seals-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "spear",
+      "purpose": "Mira formation spear",
+      "stages": [
+        "spear-1",
+        "spear-2",
+        "spear-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "shield",
+      "purpose": "Mira load shield",
+      "stages": [
+        "shield-1",
+        "shield-2",
+        "shield-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "satchel",
+      "purpose": "Orin medical workshop",
+      "stages": [
+        "satchel-1",
+        "satchel-2",
+        "satchel-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "lanes",
+      "purpose": "Sable debt mobility",
+      "stages": [
+        "lanes-1",
+        "lanes-2",
+        "lanes-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "lens",
+      "purpose": "fault-reading optics",
+      "stages": [
+        "lens-1",
+        "lens-2",
+        "lens-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "breath",
+      "purpose": "cultivation regulator",
+      "stages": [
+        "breath-1",
+        "breath-2",
+        "breath-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "anchor",
+      "purpose": "portable formation anchor",
+      "stages": [
+        "anchor-1",
+        "anchor-2",
+        "anchor-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "key",
+      "purpose": "Cinder-Key path relic",
+      "stages": [
+        "key-1",
+        "key-2",
+        "key-3"
+      ]
+    },
+    {
+      "branch_rule": "each stage consumes an input that could instead repair a person, route, or allied item",
+      "chain_id": "cord",
+      "purpose": "risk-sharing cord",
+      "stages": [
+        "cord-1",
+        "cord-2",
+        "cord-3"
+      ]
+    }
+  ],
+  "faction_design_families": [
+    {
+      "iconography": "open knot and three tally cuts",
+      "id": "free-delvers",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "name": "Free Delver Fieldwork",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette": "asymmetric repair plates, exposed tie points, modular pockets",
+      "tradeoff": "easy to service but carries public provenance and favors",
+      "upgrade_language": "added braces and visible repairs; never ornamental glow"
+    },
+    {
+      "iconography": "broken crown over a closed loop",
+      "id": "ash-crown",
+      "materials": [
+        "pressure steel",
+        "lacquered cord",
+        "heat glass"
+      ],
+      "name": "Ash Crown Contract-Forged",
+      "palette": [
+        "charcoal",
+        "arterial crimson",
+        "polished black brass"
+      ],
+      "silhouette": "forward wedges, crown-notched spines, debt-cord channels",
+      "tradeoff": "burst efficiency transfers wear or debt to a named bearer",
+      "upgrade_language": "narrower, more coercive load paths and additional contract sockets"
+    },
+    {
+      "iconography": "vertical lift line inside a square",
+      "id": "civic-meridian",
+      "materials": [
+        "enamel plate",
+        "certified brass",
+        "ledger glass"
+      ],
+      "name": "Civic Meridian Office Issue",
+      "palette": [
+        "ivory enamel",
+        "bureau blue",
+        "registry brass"
+      ],
+      "silhouette": "rectilinear housings, numbered seals, tamper bars",
+      "tradeoff": "reliable only while credentials and maintenance fees remain valid",
+      "upgrade_language": "added verification windows and lawful access teeth"
+    },
+    {
+      "iconography": "three roots sharing one droplet",
+      "id": "verdigris",
+      "materials": [
+        "living copper",
+        "mire reed",
+        "calcified resin"
+      ],
+      "name": "Verdigris Communion Grownwork",
+      "palette": [
+        "oxidized green",
+        "wet umber",
+        "pale mineral blue"
+      ],
+      "silhouette": "ribbed vessels, root hinges, porous fins",
+      "tradeoff": "self-repairs by consuming clean water, salts, or bodily heat",
+      "upgrade_language": "new circulation channels and scar rings"
+    },
+    {
+      "iconography": "open bell crossed by a silent line",
+      "id": "bellwright",
+      "materials": [
+        "bell ceramic",
+        "tuning steel",
+        "resonance glass"
+      ],
+      "name": "Bellwright Remnant Resonance",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette": "tuned arcs, clapper weights, concentric interruption gaps",
+      "tradeoff": "power depends on timing; mistimed resonance injures allies and structures",
+      "upgrade_language": "clearer harmonic gaps and fewer, larger tuned parts"
+    },
+    {
+      "iconography": "two eyes sharing one ledger line",
+      "id": "archive-concord",
+      "materials": [
+        "memory glass",
+        "blackwood",
+        "silvered thread"
+      ],
+      "name": "Archive Concord Witnesscraft",
+      "palette": [
+        "ink violet",
+        "parchment gray",
+        "cold gold"
+      ],
+      "silhouette": "folding frames, visible hinges, paired lenses",
+      "tradeoff": "records exact use, exposing secrets and limiting deniability",
+      "upgrade_language": "additional evidence layers and reversible seals"
+    }
+  ],
+  "future_character_loadouts": [
+    {
+      "character": "Orin Pell",
+      "secondary": "Rib-Cage Lacing",
+      "signature": "Nine-Stitch Satchel",
+      "silhouette_rule": "square satchel frame and rolled sleeves",
+      "tactical_grammar": "three-step triage: stop, name, spend"
+    },
+    {
+      "character": "Sable Renn",
+      "secondary": "Debt-Cord Shears",
+      "signature": "First-Lane Greaves",
+      "silhouette_rule": "twin red heel forks and one shoulder higher",
+      "tactical_grammar": "committed linear bursts, no safe stop"
+    },
+    {
+      "character": "Ilyra Quoin",
+      "secondary": "Hush Bell",
+      "signature": "Three-Note Sternum Cage",
+      "silhouette_rule": "three tuning arcs carried like ribs",
+      "tactical_grammar": "counters only after hearing a complete cycle"
+    },
+    {
+      "character": "Tovan Rusk",
+      "secondary": "Public-Line Brace",
+      "signature": "Liftkeeper's Thumb",
+      "silhouette_rule": "wide key ring balanced against one braced boot",
+      "tactical_grammar": "terrain control through lifts, gates, counterweights"
+    },
+    {
+      "character": "Nemea Silt",
+      "secondary": "Sumpglass Needle",
+      "signature": "Mire Choir Stopper",
+      "silhouette_rule": "ribbed copper water frame around the spine",
+      "tactical_grammar": "redirects liquid, heat, and Qi rather than striking"
+    },
+    {
+      "character": "Cassian Vey",
+      "secondary": "Forked Writ Seal",
+      "signature": "Sponsor Writ Seal",
+      "silhouette_rule": "perfect square ivory collar and one vertical blue seal",
+      "tactical_grammar": "turns permissions, liabilities, and schedules into weapons"
+    },
+    {
+      "character": "Bryn Corda",
+      "secondary": "Traveling Anchor",
+      "signature": "Chainworks Traveling Anchor",
+      "silhouette_rule": "double coil harness framing both shoulders",
+      "tactical_grammar": "builds moving safe points while others fight"
+    },
+    {
+      "character": "Varo Quell",
+      "secondary": "Winner's Token",
+      "signature": "Winner's Token",
+      "silhouette_rule": "black triangular cloak opening around a rigid spine rail",
+      "tactical_grammar": "removes options before drawing a narrow blade"
+    },
+    {
+      "character": "Hana Mire",
+      "secondary": "Consent Prism",
+      "signature": "Cold Ledger Shard",
+      "silhouette_rule": "two unequal lens frames and a folding square",
+      "tactical_grammar": "reconstructs transactions while allies hold the scene unchanged"
+    },
+    {
+      "character": "Rell Thorne",
+      "secondary": "Cold Ledger Shard",
+      "signature": "Debt-Cord Shears",
+      "silhouette_rule": "many narrow cords radiating from one low belt",
+      "tactical_grammar": "negotiates and cuts obligations mid-conflict"
+    },
+    {
+      "character": "Ysabet Glass",
+      "secondary": "Echo Scale",
+      "signature": "Glassback Echo Scale",
+      "silhouette_rule": "one translucent scale fan along left forearm",
+      "tactical_grammar": "stores and returns the third note of any exchange"
+    },
+    {
+      "character": "Dagan Holt",
+      "secondary": "Declared-Load Braid",
+      "signature": "Quoin-Maker's Square",
+      "silhouette_rule": "broad empty right sleeve pinned across a ledger board",
+      "tactical_grammar": "halts fights by declaring unsafe structures and forcing reroutes"
+    }
+  ],
+  "items": [
+    {
+      "branch_or_competing_choice": "advance this elian leverage blade path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "hookline",
+      "explicit_limitation_or_cost": "poor reach; jars injured ribs",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH01–02",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "hookline-1",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "redirects one light object or limb",
+      "name": "Bent-Tooth Hook",
+      "narrative_meaning": "Elian leverage blade; stage 1 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "short inward hook",
+      "slot": "main_hand",
+      "stage": 1,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "scrap tooth + grip cord",
+      "visual_continuity_notes": "Retain short inward hook ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this elian leverage blade path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "hookline",
+      "explicit_limitation_or_cost": "stored angle expires when geometry changes",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH05–07",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "hookline-2",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "stores one verified load angle for a repeat pull",
+      "name": "Witness-Hook Shortblade",
+      "narrative_meaning": "Elian leverage blade; stage 2 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "split-backed hook with tally spine",
+      "slot": "main_hand",
+      "stage": 2,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "Belljaw ivory + witness brass",
+      "visual_continuity_notes": "Retain short inward hook ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this elian leverage blade path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "hookline",
+      "explicit_limitation_or_cost": "each linked ally accepts visible strain",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH09–10",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "hookline-3",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "shares a timed pull across consenting allies",
+      "name": "Regentbreaker Hook",
+      "narrative_meaning": "Elian leverage blade; stage 3 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "long counterweighted crescent with one silent notch",
+      "slot": "main_hand",
+      "stage": 3,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "Regent plate + four-party timing seal",
+      "visual_continuity_notes": "Retain short inward hook ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this elian survival coat path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "coat",
+      "explicit_limitation_or_cost": "snags on tight machinery",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH01",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "coat-1",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "conceals and secures salvage",
+      "name": "Frayed Salvager Coat",
+      "narrative_meaning": "Elian survival coat; stage 1 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "long torn hem",
+      "slot": "body",
+      "stage": 1,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "coat lining + waxed thread",
+      "visual_continuity_notes": "Retain long torn hem ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this elian survival coat path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "coat",
+      "explicit_limitation_or_cost": "braces restrict breath until loosened",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH05–08",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "coat-2",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "redistributes one blunt impact away from a marked injury",
+      "name": "Cross-Stitched Loadcoat",
+      "narrative_meaning": "Elian survival coat; stage 2 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "diagonal rib braces",
+      "slot": "body",
+      "stage": 2,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "mire reed + ivory splints",
+      "visual_continuity_notes": "Retain long torn hem ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this elian survival coat path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "coat",
+      "explicit_limitation_or_cost": "fails if risk was not declared aloud",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH18–24",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "coat-3",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "lets allies brace a declared seam",
+      "name": "Shared-Seam Mantle",
+      "narrative_meaning": "Elian survival coat; stage 3 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "four detachable load tabs",
+      "slot": "body",
+      "stage": 3,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "archive thread + consent clasp",
+      "visual_continuity_notes": "Retain long torn hem ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this portable seal kit path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "seals",
+      "explicit_limitation_or_cost": "consumed on use",
+      "faction_or_origin": "Civic Meridian Office Issue",
+      "introduction_window": "CH01–03",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "seals-1",
+      "materials": [
+        "enamel plate",
+        "certified brass",
+        "ledger glass"
+      ],
+      "mechanical_benefit": "stabilizes one damaged mechanism",
+      "name": "Iron Seal Capsule",
+      "narrative_meaning": "portable seal kit; stage 1 makes prior costs remain visible",
+      "palette": [
+        "ivory enamel",
+        "bureau blue",
+        "registry brass"
+      ],
+      "silhouette_hook": "thumb brass capsule",
+      "slot": "utility",
+      "stage": 1,
+      "ui_icon_direction": "one-color vertical lift line inside a square fused to the stage silhouette",
+      "upgrade_inputs": "iron dust + registry wax",
+      "visual_continuity_notes": "Retain thumb brass capsule ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this portable seal kit path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "seals",
+      "explicit_limitation_or_cost": "choice permanently closes the other writ channel",
+      "faction_or_origin": "Civic Meridian Office Issue",
+      "introduction_window": "CH09–12",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "seals-2",
+      "materials": [
+        "enamel plate",
+        "certified brass",
+        "ledger glass"
+      ],
+      "mechanical_benefit": "chooses repair access or route access",
+      "name": "Forked Writ Seal",
+      "narrative_meaning": "portable seal kit; stage 2 makes prior costs remain visible",
+      "palette": [
+        "ivory enamel",
+        "bureau blue",
+        "registry brass"
+      ],
+      "silhouette_hook": "Y-shaped stamp jaw",
+      "slot": "utility",
+      "stage": 2,
+      "ui_icon_direction": "one-color vertical lift line inside a square fused to the stage silhouette",
+      "upgrade_inputs": "sponsor writ fragment + split key",
+      "visual_continuity_notes": "Retain thumb brass capsule ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this portable seal kit path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "seals",
+      "explicit_limitation_or_cost": "cannot certify coerced or hidden terms",
+      "faction_or_origin": "Civic Meridian Office Issue",
+      "introduction_window": "CH19–27",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "seals-3",
+      "materials": [
+        "enamel plate",
+        "certified brass",
+        "ledger glass"
+      ],
+      "mechanical_benefit": "records who accepted a transferred load",
+      "name": "Consent-Notary Seal",
+      "narrative_meaning": "portable seal kit; stage 3 makes prior costs remain visible",
+      "palette": [
+        "ivory enamel",
+        "bureau blue",
+        "registry brass"
+      ],
+      "silhouette_hook": "paired open rings",
+      "slot": "utility",
+      "stage": 3,
+      "ui_icon_direction": "one-color vertical lift line inside a square fused to the stage silhouette",
+      "upgrade_inputs": "archive foil + two witness signatures",
+      "visual_continuity_notes": "Retain thumb brass capsule ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this mira formation spear path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "spear",
+      "explicit_limitation_or_cost": "long shaft suffers in cramped routes",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH01",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "spear-1",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "anchors precise thrust lines",
+      "name": "Dark-Teal Spear",
+      "narrative_meaning": "Mira formation spear; stage 1 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "clean leaf point",
+      "slot": "main_hand",
+      "stage": 1,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "teal ashwood + steel leaf",
+      "visual_continuity_notes": "Retain clean leaf point ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this mira formation spear path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "spear",
+      "explicit_limitation_or_cost": "socket use fixes Mira's pivot",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH05–07",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "spear-2",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "loads floor sockets without surrendering point control",
+      "name": "Socketline Partisan",
+      "narrative_meaning": "Mira formation spear; stage 2 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "forked butt and sliding grip",
+      "slot": "main_hand",
+      "stage": 2,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "Chainworks socket + grip leather",
+      "visual_continuity_notes": "Retain clean leaf point ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this mira formation spear path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "spear",
+      "explicit_limitation_or_cost": "formation breaks if one member exceeds declared reach",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH09–10",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "spear-3",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "defines a shared formation axis",
+      "name": "Crosslock Standard",
+      "narrative_meaning": "Mira formation spear; stage 3 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "offset bannerless crossbar",
+      "slot": "main_hand",
+      "stage": 3,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "Regent tuning bar + four repair marks",
+      "visual_continuity_notes": "Retain clean leaf point ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this mira load shield path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "shield",
+      "explicit_limitation_or_cost": "weak to rear torque",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH01",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "shield-1",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "wedges and redirects frontal load",
+      "name": "Ivory Split Shield",
+      "narrative_meaning": "Mira load shield; stage 1 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "tall ivory slab with split",
+      "slot": "off_hand",
+      "stage": 1,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "bell ceramic + arm straps",
+      "visual_continuity_notes": "Retain tall ivory slab with split ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this mira load shield path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "shield",
+      "explicit_limitation_or_cost": "pendulum punishes sudden direction changes",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH06–08",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "shield-2",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "converts one rotation into planted force",
+      "name": "Counterweight Splitshield",
+      "narrative_meaning": "Mira load shield; stage 2 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "split slab with low pendulum",
+      "slot": "off_hand",
+      "stage": 2,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "counterweight chain + Mire resin",
+      "visual_continuity_notes": "Retain tall ivory slab with split ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this mira load shield path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "shield",
+      "explicit_limitation_or_cost": "center gap exposes Mira if formation spacing fails",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH10–16",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "shield-3",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "protects allies without hiding their sightlines",
+      "name": "Open-Center Bastion",
+      "narrative_meaning": "Mira load shield; stage 3 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "two crescent plates around an open handspan",
+      "slot": "off_hand",
+      "stage": 3,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "Bailiff yoke + transparent archive brace",
+      "visual_continuity_notes": "Retain tall ivory slab with split ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this orin medical workshop path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "satchel",
+      "explicit_limitation_or_cost": "only nine sealed uses",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH03–04",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "satchel-1",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "carries finite treatment modules",
+      "name": "Nine-Stitch Satchel",
+      "narrative_meaning": "Orin medical workshop; stage 1 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "boxy nine-pocket bag",
+      "slot": "back",
+      "stage": 1,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "treated canvas + brass needles",
+      "visual_continuity_notes": "Retain boxy nine-pocket bag ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this orin medical workshop path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "satchel",
+      "explicit_limitation_or_cost": "healer loses mobility while deployed",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH06–09",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "satchel-2",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "stabilizes one moving patient",
+      "name": "Triage Frame",
+      "narrative_meaning": "Orin medical workshop; stage 2 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "folding rib frame",
+      "slot": "back",
+      "stage": 2,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "Mire bone + folding hinges",
+      "visual_continuity_notes": "Retain boxy nine-pocket bag ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this orin medical workshop path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "satchel",
+      "explicit_limitation_or_cost": "reveals prognosis to patient and party",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH14–22",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "satchel-3",
+      "materials": [
+        "salvaged steel",
+        "oiled leather",
+        "reversible stitch-cloth"
+      ],
+      "mechanical_benefit": "records which injury costs were deferred",
+      "name": "Witness Surgeon Rig",
+      "narrative_meaning": "Orin medical workshop; stage 3 makes prior costs remain visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "open circular brace with three tool arms",
+      "slot": "back",
+      "stage": 3,
+      "ui_icon_direction": "one-color open knot and three tally cuts fused to the stage silhouette",
+      "upgrade_inputs": "memory glass + consent ribbon",
+      "visual_continuity_notes": "Retain boxy nine-pocket bag ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this sable debt mobility path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "lanes",
+      "explicit_limitation_or_cost": "adds one debt stack",
+      "faction_or_origin": "Ash Crown Contract-Forged",
+      "introduction_window": "CH04",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "lanes-1",
+      "materials": [
+        "pressure steel",
+        "lacquered cord",
+        "heat glass"
+      ],
+      "mechanical_benefit": "borrows one burst of speed",
+      "name": "First-Lane Greaves",
+      "narrative_meaning": "Sable debt mobility; stage 1 makes prior costs remain visible",
+      "palette": [
+        "charcoal",
+        "arterial crimson",
+        "polished black brass"
+      ],
+      "silhouette_hook": "single red shin channel",
+      "slot": "legs",
+      "stage": 1,
+      "ui_icon_direction": "one-color broken crown over a closed loop fused to the stage silhouette",
+      "upgrade_inputs": "pressure steel + debt cord",
+      "visual_continuity_notes": "Retain single red shin channel ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this sable debt mobility path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "lanes",
+      "explicit_limitation_or_cost": "cannot stop inside a chosen lane",
+      "faction_or_origin": "Ash Crown Contract-Forged",
+      "introduction_window": "CH08–10",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "lanes-2",
+      "materials": [
+        "pressure steel",
+        "lacquered cord",
+        "heat glass"
+      ],
+      "mechanical_benefit": "chooses two narrow pre-paid routes",
+      "name": "Crownfork Runners",
+      "narrative_meaning": "Sable debt mobility; stage 2 makes prior costs remain visible",
+      "palette": [
+        "charcoal",
+        "arterial crimson",
+        "polished black brass"
+      ],
+      "silhouette_hook": "two crown-notched heel forks",
+      "slot": "legs",
+      "stage": 2,
+      "ui_icon_direction": "one-color broken crown over a closed loop fused to the stage silhouette",
+      "upgrade_inputs": "Bailiff tooth + contract lacquer",
+      "visual_continuity_notes": "Retain single red shin channel ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this sable debt mobility path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "lanes",
+      "explicit_limitation_or_cost": "works only after refusing a genuine advantage",
+      "faction_or_origin": "Ash Crown Contract-Forged",
+      "introduction_window": "CH17–25",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "lanes-3",
+      "materials": [
+        "pressure steel",
+        "lacquered cord",
+        "heat glass"
+      ],
+      "mechanical_benefit": "converts witnessed debt refusal into lateral escape",
+      "name": "Unbound Forkstep",
+      "narrative_meaning": "Sable debt mobility; stage 3 makes prior costs remain visible",
+      "palette": [
+        "charcoal",
+        "arterial crimson",
+        "polished black brass"
+      ],
+      "silhouette_hook": "open heels with severed cord loops",
+      "slot": "legs",
+      "stage": 3,
+      "ui_icon_direction": "one-color broken crown over a closed loop fused to the stage silhouette",
+      "upgrade_inputs": "cut debt cord + witness silver",
+      "visual_continuity_notes": "Retain single red shin channel ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this fault-reading optics path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "lens",
+      "explicit_limitation_or_cost": "blind spot at moving joints",
+      "faction_or_origin": "Archive Concord Witnesscraft",
+      "introduction_window": "CH02–03",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "lens-1",
+      "materials": [
+        "memory glass",
+        "blackwood",
+        "silvered thread"
+      ],
+      "mechanical_benefit": "reveals static stress",
+      "name": "Cracked Survey Lens",
+      "narrative_meaning": "fault-reading optics; stage 1 makes prior costs remain visible",
+      "palette": [
+        "ink violet",
+        "parchment gray",
+        "cold gold"
+      ],
+      "silhouette_hook": "single chipped monocle",
+      "slot": "head",
+      "stage": 1,
+      "ui_icon_direction": "one-color two eyes sharing one ledger line fused to the stage silhouette",
+      "upgrade_inputs": "survey glass + copper clip",
+      "visual_continuity_notes": "Retain single chipped monocle ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this fault-reading optics path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "lens",
+      "explicit_limitation_or_cost": "memory overlay can lag in combat",
+      "faction_or_origin": "Archive Concord Witnesscraft",
+      "introduction_window": "CH11–15",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "lens-2",
+      "materials": [
+        "memory glass",
+        "blackwood",
+        "silvered thread"
+      ],
+      "mechanical_benefit": "compares present load with one prior state",
+      "name": "Paired Quoin Lens",
+      "narrative_meaning": "fault-reading optics; stage 2 makes prior costs remain visible",
+      "palette": [
+        "ink violet",
+        "parchment gray",
+        "cold gold"
+      ],
+      "silhouette_hook": "hinged unequal lenses",
+      "slot": "head",
+      "stage": 2,
+      "ui_icon_direction": "one-color two eyes sharing one ledger line fused to the stage silhouette",
+      "upgrade_inputs": "memory glass + quoin hinge",
+      "visual_continuity_notes": "Retain single chipped monocle ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this fault-reading optics path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "lens",
+      "explicit_limitation_or_cost": "cannot read intent, only recorded agreement",
+      "faction_or_origin": "Archive Concord Witnesscraft",
+      "introduction_window": "CH24–30",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "lens-3",
+      "materials": [
+        "memory glass",
+        "blackwood",
+        "silvered thread"
+      ],
+      "mechanical_benefit": "separates accepted load from transferred load",
+      "name": "Consent Prism",
+      "narrative_meaning": "fault-reading optics; stage 3 makes prior costs remain visible",
+      "palette": [
+        "ink violet",
+        "parchment gray",
+        "cold gold"
+      ],
+      "silhouette_hook": "clear triangular brow frame",
+      "slot": "head",
+      "stage": 3,
+      "ui_icon_direction": "one-color two eyes sharing one ledger line fused to the stage silhouette",
+      "upgrade_inputs": "archive foil + civic consent field",
+      "visual_continuity_notes": "Retain single chipped monocle ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this cultivation regulator path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "breath",
+      "explicit_limitation_or_cost": "dries and cracks after use",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH03–05",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "breath-1",
+      "materials": [
+        "bell ceramic",
+        "tuning steel",
+        "resonance glass"
+      ],
+      "mechanical_benefit": "steadies one broken inhale",
+      "name": "Ember Reed",
+      "narrative_meaning": "cultivation regulator; stage 1 makes prior costs remain visible",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "one curved reed",
+      "slot": "core",
+      "stage": 1,
+      "ui_icon_direction": "one-color open bell crossed by a silent line fused to the stage silhouette",
+      "upgrade_inputs": "mire reed + ember salt",
+      "visual_continuity_notes": "Retain one curved reed ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this cultivation regulator path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "breath",
+      "explicit_limitation_or_cost": "audible cadence reveals timing",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH09–14",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "breath-2",
+      "materials": [
+        "bell ceramic",
+        "tuning steel",
+        "resonance glass"
+      ],
+      "mechanical_benefit": "paces three safe breath phases",
+      "name": "Three-Note Sternum Cage",
+      "narrative_meaning": "cultivation regulator; stage 2 makes prior costs remain visible",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "three open chest arcs",
+      "slot": "core",
+      "stage": 2,
+      "ui_icon_direction": "one-color open bell crossed by a silent line fused to the stage silhouette",
+      "upgrade_inputs": "Belljaw clapper + rib-safe straps",
+      "visual_continuity_notes": "Retain one curved reed ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this cultivation regulator path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "breath",
+      "explicit_limitation_or_cost": "aborting sacrifices stored Qi and a crafted reed",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH22–30",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "breath-3",
+      "materials": [
+        "bell ceramic",
+        "tuning steel",
+        "resonance glass"
+      ],
+      "mechanical_benefit": "lets the bearer abort a realm attempt without collapse",
+      "name": "Quiet Meridian Diaphragm",
+      "narrative_meaning": "cultivation regulator; stage 3 makes prior costs remain visible",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "low floating half-ring",
+      "slot": "core",
+      "stage": 3,
+      "ui_icon_direction": "one-color open bell crossed by a silent line fused to the stage silhouette",
+      "upgrade_inputs": "Regent membrane + three spent reeds",
+      "visual_continuity_notes": "Retain one curved reed ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this portable formation anchor path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "anchor",
+      "explicit_limitation_or_cost": "damages soft material",
+      "faction_or_origin": "Civic Meridian Office Issue",
+      "introduction_window": "CH02",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "anchor-1",
+      "materials": [
+        "enamel plate",
+        "certified brass",
+        "ledger glass"
+      ],
+      "mechanical_benefit": "claims one structural foothold",
+      "name": "Bridge-Tooth Clamp",
+      "narrative_meaning": "portable formation anchor; stage 1 makes prior costs remain visible",
+      "palette": [
+        "ivory enamel",
+        "bureau blue",
+        "registry brass"
+      ],
+      "silhouette_hook": "one biting C-clamp",
+      "slot": "utility",
+      "stage": 1,
+      "ui_icon_direction": "one-color vertical lift line inside a square fused to the stage silhouette",
+      "upgrade_inputs": "bridge tooth + iron seal",
+      "visual_continuity_notes": "Retain one biting C-clamp ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this portable formation anchor path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "anchor",
+      "explicit_limitation_or_cost": "requires continuous crank attention",
+      "faction_or_origin": "Civic Meridian Office Issue",
+      "introduction_window": "CH05–07",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "anchor-2",
+      "materials": [
+        "enamel plate",
+        "certified brass",
+        "ledger glass"
+      ],
+      "mechanical_benefit": "moves a safe point along a chain",
+      "name": "Chainworks Traveling Anchor",
+      "narrative_meaning": "portable formation anchor; stage 2 makes prior costs remain visible",
+      "palette": [
+        "ivory enamel",
+        "bureau blue",
+        "registry brass"
+      ],
+      "silhouette_hook": "paired roller jaws",
+      "slot": "utility",
+      "stage": 2,
+      "ui_icon_direction": "one-color vertical lift line inside a square fused to the stage silhouette",
+      "upgrade_inputs": "counterchain + ratchet",
+      "visual_continuity_notes": "Retain one biting C-clamp ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this portable formation anchor path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "anchor",
+      "explicit_limitation_or_cost": "users become liable for visible civic damage",
+      "faction_or_origin": "Civic Meridian Office Issue",
+      "introduction_window": "CH20–26",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "anchor-3",
+      "materials": [
+        "enamel plate",
+        "certified brass",
+        "ledger glass"
+      ],
+      "mechanical_benefit": "stabilizes public infrastructure while a party fights",
+      "name": "Public-Line Brace",
+      "narrative_meaning": "portable formation anchor; stage 3 makes prior costs remain visible",
+      "palette": [
+        "ivory enamel",
+        "bureau blue",
+        "registry brass"
+      ],
+      "silhouette_hook": "wide folding tripod",
+      "slot": "utility",
+      "stage": 3,
+      "ui_icon_direction": "one-color vertical lift line inside a square fused to the stage silhouette",
+      "upgrade_inputs": "lift rail + public repair bond",
+      "visual_continuity_notes": "Retain one biting C-clamp ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this cinder-key path relic path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "key",
+      "explicit_limitation_or_cost": "unbound and tactically inert",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH01",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "key-1",
+      "materials": [
+        "bell ceramic",
+        "tuning steel",
+        "resonance glass"
+      ],
+      "mechanical_benefit": "offers compatible paths",
+      "name": "Cinder-Key",
+      "narrative_meaning": "Cinder-Key path relic; stage 1 makes prior costs remain visible",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "thumb-length split key",
+      "slot": "relic",
+      "stage": 1,
+      "ui_icon_direction": "one-color open bell crossed by a silent line fused to the stage silhouette",
+      "upgrade_inputs": "Belljaw ankle ember",
+      "visual_continuity_notes": "Retain thumb-length split key ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this cinder-key path relic path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "key",
+      "explicit_limitation_or_cost": "choice creates faction obligations",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH02–07",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "key-2",
+      "materials": [
+        "bell ceramic",
+        "tuning steel",
+        "resonance glass"
+      ],
+      "mechanical_benefit": "opens one class branch while sealing another",
+      "name": "Forked Cinder-Key",
+      "narrative_meaning": "Cinder-Key path relic; stage 2 makes prior costs remain visible",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "two unequal prongs",
+      "slot": "relic",
+      "stage": 2,
+      "ui_icon_direction": "one-color open bell crossed by a silent line fused to the stage silhouette",
+      "upgrade_inputs": "class oath + preserved anchor",
+      "visual_continuity_notes": "Retain thumb-length split key ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this cinder-key path relic path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "key",
+      "explicit_limitation_or_cost": "requires all four missing tooth-provenances",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH10–20",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "key-3",
+      "materials": [
+        "bell ceramic",
+        "tuning steel",
+        "resonance glass"
+      ],
+      "mechanical_benefit": "unseals an archive cadence",
+      "name": "Fourth-Door Tuning Key",
+      "narrative_meaning": "Cinder-Key path relic; stage 3 makes prior costs remain visible",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "long hollow key with four missing teeth",
+      "slot": "relic",
+      "stage": 3,
+      "ui_icon_direction": "one-color open bell crossed by a silent line fused to the stage silhouette",
+      "upgrade_inputs": "Regent note + three archive witnesses",
+      "visual_continuity_notes": "Retain thumb-length split key ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this risk-sharing cord path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "cord",
+      "explicit_limitation_or_cost": "records secrets in its fibers",
+      "faction_or_origin": "Archive Concord Witnesscraft",
+      "introduction_window": "CH11–13",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "cord-1",
+      "materials": [
+        "memory glass",
+        "blackwood",
+        "silvered thread"
+      ],
+      "mechanical_benefit": "marks who saw a decision",
+      "name": "Witness Cord",
+      "narrative_meaning": "risk-sharing cord; stage 1 makes prior costs remain visible",
+      "palette": [
+        "ink violet",
+        "parchment gray",
+        "cold gold"
+      ],
+      "silhouette_hook": "thin paired thread",
+      "slot": "party",
+      "stage": 1,
+      "ui_icon_direction": "one-color two eyes sharing one ledger line fused to the stage silhouette",
+      "upgrade_inputs": "silver thread + wax",
+      "visual_continuity_notes": "Retain thin paired thread ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this risk-sharing cord path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "cord",
+      "explicit_limitation_or_cost": "hidden injury breaks distribution",
+      "faction_or_origin": "Archive Concord Witnesscraft",
+      "introduction_window": "CH18–22",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "cord-2",
+      "materials": [
+        "memory glass",
+        "blackwood",
+        "silvered thread"
+      ],
+      "mechanical_benefit": "distributes one declared strain",
+      "name": "Declared-Load Braid",
+      "narrative_meaning": "risk-sharing cord; stage 2 makes prior costs remain visible",
+      "palette": [
+        "ink violet",
+        "parchment gray",
+        "cold gold"
+      ],
+      "silhouette_hook": "flat braid with open knots",
+      "slot": "party",
+      "stage": 2,
+      "ui_icon_direction": "one-color two eyes sharing one ledger line fused to the stage silhouette",
+      "upgrade_inputs": "four repair scraps + spoken terms",
+      "visual_continuity_notes": "Retain thin paired thread ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "advance this risk-sharing cord path or salvage its rare input for a party/public need",
+      "category": "evolution gear",
+      "evolution_chain": "cord",
+      "explicit_limitation_or_cost": "any member can veto and end the technique",
+      "faction_or_origin": "Archive Concord Witnesscraft",
+      "introduction_window": "CH28–30",
+      "item_card_direction": "silhouette first; benefit and cost paired at equal hierarchy; provenance always visible",
+      "item_id": "cord-3",
+      "materials": [
+        "memory glass",
+        "blackwood",
+        "silvered thread"
+      ],
+      "mechanical_benefit": "enables party-scale authority without a crown",
+      "name": "Four-Hand Covenant",
+      "narrative_meaning": "risk-sharing cord; stage 3 makes prior costs remain visible",
+      "palette": [
+        "ink violet",
+        "parchment gray",
+        "cold gold"
+      ],
+      "silhouette_hook": "four radial loops around empty center",
+      "slot": "party",
+      "stage": 3,
+      "ui_icon_direction": "one-color two eyes sharing one ledger line fused to the stage silhouette",
+      "upgrade_inputs": "consent foil + unclaimed crown socket",
+      "visual_continuity_notes": "Retain thin paired thread ancestry; add function before ornament."
+    },
+    {
+      "branch_or_competing_choice": "choose visibility or stealth",
+      "category": "tool",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "washes away in wet zones",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH02",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-01",
+      "materials": [
+        "bone chalk",
+        "soot brass"
+      ],
+      "mechanical_benefit": "marks old fatigue separately from fresh shear",
+      "name": "Roundoff Chalk",
+      "narrative_meaning": "turns Elian's private read into shared evidence",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "flat triangular chalk cage",
+      "slot": "utility",
+      "stage": null,
+      "ui_icon_direction": "flat flat triangular chalk cage framed by open knot and three tally cuts",
+      "upgrade_inputs": "ground bone + lamp soot",
+      "visual_continuity_notes": "broken-circle icon; chipped edge persists"
+    },
+    {
+      "branch_or_competing_choice": "grip safety versus precision",
+      "category": "armor",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "reduces fine tool control",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH03",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-02",
+      "materials": [
+        "oiled leather",
+        "link steel"
+      ],
+      "mechanical_benefit": "grips moving chain without locking the wrist",
+      "name": "Chain-Kiss Gloves",
+      "narrative_meaning": "protects the hand that caught Mira's spear",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "open knuckles, hooked palms",
+      "slot": "hands",
+      "stage": null,
+      "ui_icon_direction": "flat open knuckles, hooked palms framed by open knot and three tally cuts",
+      "upgrade_inputs": "chain scales + tendon thread",
+      "visual_continuity_notes": "three palm hooks, never claws"
+    },
+    {
+      "branch_or_competing_choice": "drink now or keep future health",
+      "category": "consumable",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "transfers 6 HP loss to a named later hour",
+      "faction_or_origin": "Ash Crown Contract-Forged",
+      "introduction_window": "CH04",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-03",
+      "materials": [
+        "heat glass",
+        "debt lacquer"
+      ],
+      "mechanical_benefit": "restores 10 Qi immediately",
+      "name": "Borrowed Breath Ampoule",
+      "narrative_meaning": "embodies delayed institutional cost",
+      "palette": [
+        "charcoal",
+        "arterial crimson",
+        "polished black brass"
+      ],
+      "silhouette_hook": "red glass lung vial",
+      "slot": "belt",
+      "stage": null,
+      "ui_icon_direction": "flat red glass lung vial framed by broken crown over a closed loop",
+      "upgrade_inputs": "ember salt + signed debt cord",
+      "visual_continuity_notes": "one visible red hour band"
+    },
+    {
+      "branch_or_competing_choice": "mobility versus realm practice",
+      "category": "consumable",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "consumes body heat and slows cultivation",
+      "faction_or_origin": "Verdigris Communion Grownwork",
+      "introduction_window": "CH03",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-04",
+      "materials": [
+        "mire reed",
+        "mineral salt"
+      ],
+      "mechanical_benefit": "reduces movement penalty from one blunt injury",
+      "name": "Mire-Salt Poultice",
+      "narrative_meaning": "care competes with progression",
+      "palette": [
+        "oxidized green",
+        "wet umber",
+        "pale mineral blue"
+      ],
+      "silhouette_hook": "folded green rib pad",
+      "slot": "belt",
+      "stage": null,
+      "ui_icon_direction": "flat folded green rib pad framed by three roots sharing one droplet",
+      "upgrade_inputs": "clean water + mire salts",
+      "visual_continuity_notes": "darkens as heat is taken"
+    },
+    {
+      "branch_or_competing_choice": "safe removal or weaponized release",
+      "category": "tool",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "stores the interrupted note and releases it on removal",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH05",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-05",
+      "materials": [
+        "bell ceramic",
+        "tuning steel"
+      ],
+      "mechanical_benefit": "silences one resonant mechanism for eight beats",
+      "name": "Clapper-Wedge",
+      "narrative_meaning": "creates timed quiet, not free safety",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "small asymmetric tuning wedge",
+      "slot": "utility",
+      "stage": null,
+      "ui_icon_direction": "flat small asymmetric tuning wedge framed by open bell crossed by a silent line",
+      "upgrade_inputs": "Belljaw chip + steel leaf",
+      "visual_continuity_notes": "single orange notch"
+    },
+    {
+      "branch_or_competing_choice": "claim power or preserve party credit",
+      "category": "seal",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "voids allied contribution credit",
+      "faction_or_origin": "Ash Crown Contract-Forged",
+      "introduction_window": "CH04",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-06",
+      "materials": [
+        "black brass",
+        "contract glass"
+      ],
+      "mechanical_benefit": "grants the holder sole claim to one reward",
+      "name": "Ash Crown Winner's Token",
+      "narrative_meaning": "makes betrayal mechanically legible",
+      "palette": [
+        "charcoal",
+        "arterial crimson",
+        "polished black brass"
+      ],
+      "silhouette_hook": "black coin cut like a crown tooth",
+      "slot": "relic",
+      "stage": null,
+      "ui_icon_direction": "flat black coin cut like a crown tooth framed by broken crown over a closed loop",
+      "upgrade_inputs": "Bailiff seal + debt signature",
+      "visual_continuity_notes": "one side mirror-black, one side blank"
+    },
+    {
+      "branch_or_competing_choice": "keep alive or salvage rare copper",
+      "category": "component",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "dies if removed from clean flow twice",
+      "faction_or_origin": "Verdigris Communion Grownwork",
+      "introduction_window": "CH06",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-07",
+      "materials": [
+        "living copper",
+        "pale resin"
+      ],
+      "mechanical_benefit": "repairs fluid machinery and grows one temporary conduit",
+      "name": "Verdigris Pump Heart",
+      "narrative_meaning": "stores the cost of saving the pump",
+      "palette": [
+        "oxidized green",
+        "wet umber",
+        "pale mineral blue"
+      ],
+      "silhouette_hook": "ribbed copper seed",
+      "slot": "pack",
+      "stage": null,
+      "ui_icon_direction": "flat ribbed copper seed framed by three roots sharing one droplet",
+      "upgrade_inputs": "pump core + mineral water",
+      "visual_continuity_notes": "scar rings record removals"
+    },
+    {
+      "branch_or_competing_choice": "memory tool or single-use lure",
+      "category": "component",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "shatters if used to brute-force a fourth note",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH03",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-08",
+      "materials": [
+        "resonance glass",
+        "silver dust"
+      ],
+      "mechanical_benefit": "records one three-note pattern",
+      "name": "Glassback Echo Scale",
+      "narrative_meaning": "rewards patient pattern learning",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "clear plate with moving hairline",
+      "slot": "pack",
+      "stage": null,
+      "ui_icon_direction": "flat clear plate with moving hairline framed by open bell crossed by a silent line",
+      "upgrade_inputs": "Glassback scale + quiet wax",
+      "visual_continuity_notes": "hairline moves, no glitter"
+    },
+    {
+      "branch_or_competing_choice": "legal repair or illicit freedom",
+      "category": "component",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "requires a lawful serial and fee",
+      "faction_or_origin": "Civic Meridian Office Issue",
+      "introduction_window": "CH11",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-09",
+      "materials": [
+        "registry brass",
+        "enamel"
+      ],
+      "mechanical_benefit": "repairs certified gear without voiding its record",
+      "name": "Counterseal Rivet",
+      "narrative_meaning": "ties maintenance to bureaucracy",
+      "palette": [
+        "ivory enamel",
+        "bureau blue",
+        "registry brass"
+      ],
+      "silhouette_hook": "square rivet with open center",
+      "slot": "small",
+      "stage": null,
+      "ui_icon_direction": "flat square rivet with open center framed by vertical lift line inside a square",
+      "upgrade_inputs": "brass mark ×4 + office stamp",
+      "visual_continuity_notes": "blue enamel corner only"
+    },
+    {
+      "branch_or_competing_choice": "conceal weakness or coordinate honestly",
+      "category": "armor",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "enemy can read the limit too",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH03",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-10",
+      "materials": [
+        "waxed cord",
+        "ivory splint"
+      ],
+      "mechanical_benefit": "lets an injured bearer declare a safe twist limit",
+      "name": "Rib-Cage Lacing",
+      "narrative_meaning": "injury becomes visible coordination data",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "diagonal external laces",
+      "slot": "body",
+      "stage": null,
+      "ui_icon_direction": "flat diagonal external laces framed by open knot and three tally cuts",
+      "upgrade_inputs": "coat lining + splint",
+      "visual_continuity_notes": "left/right placement never swaps"
+    },
+    {
+      "branch_or_competing_choice": "public proof or private leverage",
+      "category": "relic",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "also reveals the bearer's adjacent transaction",
+      "faction_or_origin": "Archive Concord Witnesscraft",
+      "introduction_window": "CH12",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-11",
+      "materials": [
+        "memory glass",
+        "cold gold"
+      ],
+      "mechanical_benefit": "replays one verified transaction at full provenance",
+      "name": "Cold Ledger Shard",
+      "narrative_meaning": "evidence costs privacy",
+      "palette": [
+        "ink violet",
+        "parchment gray",
+        "cold gold"
+      ],
+      "silhouette_hook": "thin violet rectangle with broken corner",
+      "slot": "utility",
+      "stage": null,
+      "ui_icon_direction": "flat thin violet rectangle with broken corner framed by two eyes sharing one ledger line",
+      "upgrade_inputs": "archive glass + bloodless witness seal",
+      "visual_continuity_notes": "always one missing corner"
+    },
+    {
+      "branch_or_competing_choice": "save this car or preserve future access",
+      "category": "tool",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "locks the user out of the next lift cycle",
+      "faction_or_origin": "Civic Meridian Office Issue",
+      "introduction_window": "CH16",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-12",
+      "materials": [
+        "enamel",
+        "brass"
+      ],
+      "mechanical_benefit": "manually advances a stalled public lift one level",
+      "name": "Liftkeeper's Thumb",
+      "narrative_meaning": "civic access becomes personal delay",
+      "palette": [
+        "ivory enamel",
+        "bureau blue",
+        "registry brass"
+      ],
+      "silhouette_hook": "stubby ivory key with roller",
+      "slot": "utility",
+      "stage": null,
+      "ui_icon_direction": "flat stubby ivory key with roller framed by vertical lift line inside a square",
+      "upgrade_inputs": "lift tooth + maintenance bond",
+      "visual_continuity_notes": "grease-black roller"
+    },
+    {
+      "branch_or_competing_choice": "memory versus optimization",
+      "category": "seal",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "blocks further enhancement until its loss is named",
+      "faction_or_origin": "Free Delver Fieldwork",
+      "introduction_window": "CH09",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-13",
+      "materials": [
+        "iron",
+        "witness thread"
+      ],
+      "mechanical_benefit": "prevents one repaired item from being silently replaced",
+      "name": "Mourning Rivet",
+      "narrative_meaning": "keeps sacrifice visible",
+      "palette": [
+        "soot black",
+        "weathered teal",
+        "witness brass"
+      ],
+      "silhouette_hook": "black rivet tied with pale thread",
+      "slot": "body",
+      "stage": null,
+      "ui_icon_direction": "flat black rivet tied with pale thread framed by open knot and three tally cuts",
+      "upgrade_inputs": "broken gear fragment + name",
+      "visual_continuity_notes": "never polished"
+    },
+    {
+      "branch_or_competing_choice": "carry water or accept collapse",
+      "category": "tool",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "must be watered every hour",
+      "faction_or_origin": "Verdigris Communion Grownwork",
+      "introduction_window": "CH06",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-14",
+      "materials": [
+        "living copper",
+        "reed"
+      ],
+      "mechanical_benefit": "diverts one flow channel without killing it",
+      "name": "Mire Choir Stopper",
+      "narrative_meaning": "nonlethal control creates upkeep",
+      "palette": [
+        "oxidized green",
+        "wet umber",
+        "pale mineral blue"
+      ],
+      "silhouette_hook": "three-prong porous plug",
+      "slot": "utility",
+      "stage": null,
+      "ui_icon_direction": "flat three-prong porous plug framed by three roots sharing one droplet",
+      "upgrade_inputs": "mire copper + clean cloth",
+      "visual_continuity_notes": "three wet pores"
+    },
+    {
+      "branch_or_competing_choice": "weaponize or present as evidence",
+      "category": "component",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "brands the carrier as a claimant",
+      "faction_or_origin": "Ash Crown Contract-Forged",
+      "introduction_window": "CH04",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-15",
+      "materials": [
+        "pressure steel",
+        "red enamel"
+      ],
+      "mechanical_benefit": "pierces certified barriers and contract seals",
+      "name": "Crownspike Bailiff Tooth",
+      "narrative_meaning": "power creates legal pursuit",
+      "palette": [
+        "charcoal",
+        "arterial crimson",
+        "polished black brass"
+      ],
+      "silhouette_hook": "long black wedge",
+      "slot": "heavy",
+      "stage": null,
+      "ui_icon_direction": "flat long black wedge framed by broken crown over a closed loop",
+      "upgrade_inputs": "Bailiff tooth + claim wax",
+      "visual_continuity_notes": "one crown notch"
+    },
+    {
+      "branch_or_competing_choice": "armor plate or forge substrate",
+      "category": "component",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "brittle under redirected load",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH02",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-16",
+      "materials": [
+        "bell ceramic",
+        "soot iron"
+      ],
+      "mechanical_benefit": "makes armor exceptionally stable under one known vector",
+      "name": "Belljaw Ankle Plate",
+      "narrative_meaning": "victory's lesson becomes gear grammar",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "curved ivory load plate",
+      "slot": "heavy",
+      "stage": null,
+      "ui_icon_direction": "flat curved ivory load plate framed by open bell crossed by a silent line",
+      "upgrade_inputs": "Belljaw plate + resin",
+      "visual_continuity_notes": "fracture line must remain visible"
+    },
+    {
+      "branch_or_competing_choice": "warm a home or forge gear",
+      "category": "currency",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "cannot do both",
+      "faction_or_origin": "Civic Meridian Office Issue",
+      "introduction_window": "CH18",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-17",
+      "materials": [
+        "brass",
+        "blue wax"
+      ],
+      "mechanical_benefit": "pays one household heat cycle or one civic forge hour",
+      "name": "Public Heat Chit",
+      "narrative_meaning": "grounds crafting in household stakes",
+      "palette": [
+        "ivory enamel",
+        "bureau blue",
+        "registry brass"
+      ],
+      "silhouette_hook": "perforated brass strip",
+      "slot": "seal",
+      "stage": null,
+      "ui_icon_direction": "flat perforated brass strip framed by vertical lift line inside a square",
+      "upgrade_inputs": "earned contract credit",
+      "visual_continuity_notes": "serial perforations"
+    },
+    {
+      "branch_or_competing_choice": "heal flow or cut flow",
+      "category": "weapon",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "breaks in dry air after three exchanges",
+      "faction_or_origin": "Verdigris Communion Grownwork",
+      "introduction_window": "CH06",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-18",
+      "materials": [
+        "sump glass",
+        "living copper"
+      ],
+      "mechanical_benefit": "threads cultivation energy through liquid",
+      "name": "Sumpglass Needle",
+      "narrative_meaning": "environment defines tactical value",
+      "palette": [
+        "oxidized green",
+        "wet umber",
+        "pale mineral blue"
+      ],
+      "silhouette_hook": "transparent hooked needle",
+      "slot": "off_hand",
+      "stage": null,
+      "ui_icon_direction": "flat transparent hooked needle framed by three roots sharing one droplet",
+      "upgrade_inputs": "sump glass + wet sheath",
+      "visual_continuity_notes": "always visibly wet"
+    },
+    {
+      "branch_or_competing_choice": "record evidence or preserve access",
+      "category": "tool",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "cannot identify the liar",
+      "faction_or_origin": "Archive Concord Witnesscraft",
+      "introduction_window": "CH13",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-19",
+      "materials": [
+        "blackwood",
+        "cold gold"
+      ],
+      "mechanical_benefit": "tests whether a structure's stated load matches its actual load",
+      "name": "Quoin-Maker's Square",
+      "narrative_meaning": "turns suspicion into admissible discrepancy",
+      "palette": [
+        "ink violet",
+        "parchment gray",
+        "cold gold"
+      ],
+      "silhouette_hook": "folding unequal square",
+      "slot": "utility",
+      "stage": null,
+      "ui_icon_direction": "flat folding unequal square framed by two eyes sharing one ledger line",
+      "upgrade_inputs": "blackwood + memory hinge",
+      "visual_continuity_notes": "one arm shorter"
+    },
+    {
+      "branch_or_competing_choice": "silence or coordination",
+      "category": "relic",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "also cancels their spoken warning",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH15",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-20",
+      "materials": [
+        "smoked ivory",
+        "black cord"
+      ],
+      "mechanical_benefit": "cancels the wearer's footfall on a chosen rhythm",
+      "name": "Hush Bell",
+      "narrative_meaning": "stealth competes with consent",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "small open bell with no clapper",
+      "slot": "neck",
+      "stage": null,
+      "ui_icon_direction": "flat small open bell with no clapper framed by open bell crossed by a silent line",
+      "upgrade_inputs": "bell ceramic + severed clapper",
+      "visual_continuity_notes": "empty center, no glow"
+    },
+    {
+      "branch_or_competing_choice": "private freedom or public accusation",
+      "category": "tool",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "converts the remaining obligation into public evidence",
+      "faction_or_origin": "Ash Crown Contract-Forged",
+      "introduction_window": "CH08",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-21",
+      "materials": [
+        "pressure steel",
+        "witness silver"
+      ],
+      "mechanical_benefit": "cuts one active debt cord",
+      "name": "Debt-Cord Shears",
+      "narrative_meaning": "escape creates testimony",
+      "palette": [
+        "charcoal",
+        "arterial crimson",
+        "polished black brass"
+      ],
+      "silhouette_hook": "short opposing crescent blades",
+      "slot": "utility",
+      "stage": null,
+      "ui_icon_direction": "flat short opposing crescent blades framed by broken crown over a closed loop",
+      "upgrade_inputs": "Bailiff tooth + silver hinge",
+      "visual_continuity_notes": "red cord residue remains"
+    },
+    {
+      "branch_or_competing_choice": "hold ground or keep mobility",
+      "category": "consumable",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "halves burst movement while active",
+      "faction_or_origin": "Verdigris Communion Grownwork",
+      "introduction_window": "CH05",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-22",
+      "materials": [
+        "mire leaf",
+        "brass"
+      ],
+      "mechanical_benefit": "steadies breath during stationary guarding",
+      "name": "Anchor-Breath Tea",
+      "narrative_meaning": "supports Mira's stillness and exposes its limit",
+      "palette": [
+        "oxidized green",
+        "wet umber",
+        "pale mineral blue"
+      ],
+      "silhouette_hook": "flat two-chamber flask",
+      "slot": "belt",
+      "stage": null,
+      "ui_icon_direction": "flat flat two-chamber flask framed by three roots sharing one droplet",
+      "upgrade_inputs": "mire leaf + hot clean water",
+      "visual_continuity_notes": "two chambers, green steam"
+    },
+    {
+      "branch_or_competing_choice": "training archive or dangerous weapon",
+      "category": "component",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "replays pain from the original strike",
+      "faction_or_origin": "Bellwright Remnant Resonance",
+      "introduction_window": "CH10",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-23",
+      "materials": [
+        "resonance membrane",
+        "cold gold"
+      ],
+      "mechanical_benefit": "stores one cadence without amplifying it",
+      "name": "Regent Membrane",
+      "narrative_meaning": "boss reward carries bodily memory",
+      "palette": [
+        "smoked ivory",
+        "ember orange",
+        "dark iron"
+      ],
+      "silhouette_hook": "translucent concentric skin",
+      "slot": "relic",
+      "stage": null,
+      "ui_icon_direction": "flat translucent concentric skin framed by open bell crossed by a silent line",
+      "upgrade_inputs": "Regent membrane + quiet frame",
+      "visual_continuity_notes": "four concentric tears"
+    },
+    {
+      "branch_or_competing_choice": "centralize or distribute command",
+      "category": "relic",
+      "evolution_chain": null,
+      "explicit_limitation_or_cost": "remains inert unless every linked member can withdraw",
+      "faction_or_origin": "Archive Concord Witnesscraft",
+      "introduction_window": "CH27",
+      "item_card_direction": "show tactical verb, exact cost, provenance, condition, and comparison consequence; no green-arrow shorthand",
+      "item_id": "standalone-24",
+      "materials": [
+        "black brass",
+        "memory glass"
+      ],
+      "mechanical_benefit": "accepts distributed authority instead of a sole bearer",
+      "name": "Unclaimed Crown Socket",
+      "narrative_meaning": "makes accountable leadership mechanical",
+      "palette": [
+        "ink violet",
+        "parchment gray",
+        "cold gold"
+      ],
+      "silhouette_hook": "empty crown-shaped housing",
+      "slot": "party",
+      "stage": null,
+      "ui_icon_direction": "flat empty crown-shaped housing framed by two eyes sharing one ledger line",
+      "upgrade_inputs": "sponsor crown + four witness cords",
+      "visual_continuity_notes": "empty center is invariant"
+    }
+  ],
+  "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+  "schema": "EmberLatticeGearBible/1.0",
+  "visual_target": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point."
+}

@@ -1,35 +1,867 @@
 {
-  "schema": "PremiumCH01GenerationSpec/1.0",
-  "canvas": {"width": 1024, "height": 1536},
-  "common_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.",
+  "canvas": {
+    "height": 1536,
+    "width": 1024
+  },
   "cases": [
-    {"panel_order": 2, "scene": "Extreme close-up of a single ember-orange pulse traveling upward through an old black chain while fine dust lifts against gravity; no characters; large dark negative space above."},
-    {"panel_order": 3, "scene": "Elian Voss crouches at the bridge rail, tracing a fresh bright straight shear face cut through otherwise rounded old wear; investigative close-up, his hooked shortblade safely tethered."},
-    {"panel_order": 5, "scene": "Quiet two-shot on the chain bridge: adult Mira Kest studies the fresh shear while adult Elian answers with grave focus; sealed bell lift distant behind them; clear upper negative space."},
-    {"panel_order": 6, "scene": "Close equipment insert: Mira asks about both seals as Elian's thumb moves toward the unique Spark Talisman in front of two untouched iron seals; anatomically correct hand, three objects unambiguous."},
-    {"panel_order": 7, "scene": "The chain bridge suddenly drops half a link; Mira catches the rail and Elian catches her dark-teal spear shaft in a practiced response; one clear downward motion and legible contact points."},
-    {"panel_order": 8, "scene": "After the catch, Elian and Mira deliberately release each other's gear; close equipment continuity shot with intact Spark Talisman blinking behind two untouched iron seals; calm before threat."},
-    {"panel_order": 11, "scene": "Tight adult Elian close-up holding his breath as his eyes track the Belljaw's jaw, shoulder, forefeet, and the intact bridge anchor in one readable diagonal; boss blurred at distance."},
-    {"panel_order": 13, "scene": "Full-body adult Mira locks her rear boot behind one bridge crossbar and forms a stable T-shaped Bastion Lancer silhouette with ivory split shield and dark-teal spear; hands and footing fully visible."},
-    {"panel_order": 15, "scene": "A broken bridge plank flips down into the abyss while the still-intact anchor jerks upward under transferred load; mechanical cause and effect, no character faces, deep vertical architecture."},
-    {"panel_order": 16, "scene": "Adult Mira plants ivory split shield and dark-teal spear on the swaying bridge; both hands, grip, shield straps, spear shaft, rear boot and crossbar are unobstructed and mechanically credible."},
-    {"panel_order": 19, "scene": "One Belljaw Warden wrenches Mira's captured spear; adult Mira rotates her hips and shoulders with the weapon to preserve her wrists; exact jaw-to-shaft contact and directional motion readable."},
-    {"panel_order": 20, "scene": "Adult Elian reaches past Mira's right shoulder and begins a deliberate visual scan from the Belljaw jaw through shoulder to near ankle; three figures in clear depth, no attack yet."},
-    {"panel_order": 22, "scene": "Fault Sight visualization without text: one restrained ember-orange stress path runs from the Belljaw jaw through shoulder to its near ankle while all other shell plates stay subdued; clear diagnostic negative space."},
-    {"panel_order": 23, "scene": "Adult Mira's forearms tremble as she holds the Belljaw's weight for four useful seconds; her spear remains clamped, shield wedged, face controlled; Elian prepares in background."},
-    {"panel_order": 25, "scene": "The Belljaw's free black forelimb folds at an unexpected second joint and rotates toward Elian; ominous mechanical close-up establishing the coming backhand before impact."},
-    {"panel_order": 26, "scene": "The Belljaw forelimb backhands adult Elian before his hooked shortblade reaches the ankle seam; his body flies toward one hanging chain, clear single impact vector, Mira still engaged behind."},
-    {"panel_order": 31, "scene": "Injured adult Elian attempts one inhale while hanging against the chain; the ember fissure at his right collarbone lights, folds inward, and dies; left cracked rib guarded, intimate failure close-up."},
-    {"panel_order": 34, "scene": "Adult Elian crushes the unique Spark Talisman in one anatomically correct fist; contained orange heat enters only his right collarbone circuit while two iron seals remain visibly untouched."},
-    {"panel_order": 35, "scene": "Tight torso close-up: injured adult Elian inhales toward the right collarbone and opens one thin ember fissure; cracked left rib remains guarded; quiet controlled breakthrough onset."},
-    {"panel_order": 36, "scene": "Internal cultivation visualization: orange pressure descends right collarbone to sternum, visibly buckles around the cracked left rib, then exits at the diaphragm; adult Elian silhouette, precise path, no text."},
-    {"panel_order": 38, "scene": "The breakthrough glow recedes from injured adult Elian; one small ember overburn fleck strikes his skin and he flinches, showing cost after success; broad dark negative space."},
-    {"panel_order": 39, "scene": "The Belljaw unloads its near ankle and the orange fault seam visibly closes while Mira's dark-teal spear begins slipping free of the bell jaw; transitional cause beat, all contacts clear."},
-    {"panel_order": 41, "scene": "Adult Elian, still guarding his cracked left rib, recognizes that Mira's planted spear-and-shield line has recreated the ankle fault; eyeline connects him to one orange seam, pre-action stillness."},
-    {"panel_order": 42, "scene": "Adult Elian activates Fault Step along the verified structural line: an explosive grounded acceleration with foot push-off and continuous motion trail, explicitly physical movement rather than teleportation."},
-    {"panel_order": 43, "scene": "Adult Mira drives left-to-right while injured adult Elian launches bottom-to-top; their two vectors visibly converge on the single orange Belljaw ankle seam, clean triangular action geography."},
-    {"panel_order": 44, "scene": "Elian's hooked shortblade and Mira's redirected Belljaw jaw load split the ivory ankle plate at exactly one contact point; shard directions and force vectors clear, no extra limbs or weapons."},
-    {"panel_order": 45, "scene": "The defeated Belljaw folds and crashes away from the intact anchor while injured adult Elian lands guarding his left rib; one small overburn fleck hits him, clear aftermath geography."},
-    {"panel_order": 46, "scene": "Quiet verification beat: adult Mira keeps her dark-teal spear trained on the fallen Belljaw until its jaw seam goes dark; injured adult Elian watches the free forelimb remain still; no premature celebration."}
-  ]
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "The Ember Vault drops beneath one chain bridge; Elian and Mira are small adult silhouettes crossing toward the sealed bell lift. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s01-p001",
+      "panel_order": 1,
+      "scene": "The Ember Vault drops beneath one chain bridge; Elian and Mira are small adult silhouettes crossing toward the sealed bell lift."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Extreme close-up of a single ember-orange pulse traveling upward through an old black chain while fine dust lifts against gravity; no characters; large dark negative space above. Reserve exact normalized negative-space regions [[0.62,0.1,0.94,0.88]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.62,0.1,0.94,0.88]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.62,
+          0.1,
+          0.94,
+          0.88
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s01-p002",
+      "panel_order": 2,
+      "scene": "Extreme close-up of a single ember-orange pulse traveling upward through an old black chain while fine dust lifts against gravity; no characters; large dark negative space above."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Elian Voss crouches at the bridge rail, tracing a fresh bright straight shear face cut through otherwise rounded old wear; investigative close-up, his hooked shortblade safely tethered. Reserve exact normalized negative-space regions [[0.04,0.06,0.36,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.06,0.36,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.06,
+          0.36,
+          0.2
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s01-p003",
+      "panel_order": 3,
+      "scene": "Elian Voss crouches at the bridge rail, tracing a fresh bright straight shear face cut through otherwise rounded old wear; investigative close-up, his hooked shortblade safely tethered."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Elian watches the sealed lift while his weak starting state is shown in reserved negative space. Reserve exact normalized negative-space regions [[0.57,0.04,0.96,0.32]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.57,0.04,0.96,0.32]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.57,
+          0.04,
+          0.96,
+          0.32
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s01-p004",
+      "panel_order": 4,
+      "scene": "Elian watches the sealed lift while his weak starting state is shown in reserved negative space."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Quiet two-shot on the chain bridge: adult Mira Kest studies the fresh shear while adult Elian answers with grave focus; sealed bell lift distant behind them; clear upper negative space. Reserve exact normalized negative-space regions [[0.04,0.04,0.38,0.2],[0.62,0.76,0.96,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.38,0.2],[0.62,0.76,0.96,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.38,
+          0.2
+        ],
+        [
+          0.62,
+          0.76,
+          0.96,
+          0.94
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s01-p005",
+      "panel_order": 5,
+      "scene": "Quiet two-shot on the chain bridge: adult Mira Kest studies the fresh shear while adult Elian answers with grave focus; sealed bell lift distant behind them; clear upper negative space."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Close equipment insert: Mira asks about both seals as Elian's thumb moves toward the unique Spark Talisman in front of two untouched iron seals; anatomically correct hand, three objects unambiguous. Reserve exact normalized negative-space regions [[0.04,0.04,0.38,0.2],[0.62,0.76,0.96,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.38,0.2],[0.62,0.76,0.96,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.38,
+          0.2
+        ],
+        [
+          0.62,
+          0.76,
+          0.96,
+          0.94
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s01-p006",
+      "panel_order": 6,
+      "scene": "Close equipment insert: Mira asks about both seals as Elian's thumb moves toward the unique Spark Talisman in front of two untouched iron seals; anatomically correct hand, three objects unambiguous."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "The chain bridge suddenly drops half a link; Mira catches the rail and Elian catches her dark-teal spear shaft in a practiced response; one clear downward motion and legible contact points. Reserve exact normalized negative-space regions [[0.66,0.04,0.94,0.18]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.66,0.04,0.94,0.18]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.66,
+          0.04,
+          0.94,
+          0.18
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s01-p007",
+      "panel_order": 7,
+      "scene": "The chain bridge suddenly drops half a link; Mira catches the rail and Elian catches her dark-teal spear shaft in a practiced response; one clear downward motion and legible contact points."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "After the catch, Elian and Mira deliberately release each other's gear; close equipment continuity shot with intact Spark Talisman blinking behind two untouched iron seals; calm before threat. Reserve exact normalized negative-space regions [[0.04,0.04,0.42,0.22]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.42,0.22]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.42,
+          0.22
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s01-p008",
+      "panel_order": 8,
+      "scene": "After the catch, Elian and Mira deliberately release each other's gear; close equipment continuity shot with intact Spark Talisman blinking behind two untouched iron seals; calm before threat."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Belljaw Warden climbs onto the far platform and opens the orange seam of its bell-shaped jaw. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s01-p009",
+      "panel_order": 9,
+      "scene": "Belljaw Warden climbs onto the far platform and opens the orange seam of its bell-shaped jaw."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "The Level 6 custodian fills the bridge mouth while a narrow threat plate identifies its load response. Reserve exact normalized negative-space regions [[0.04,0.04,0.42,0.25]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.42,0.25]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.42,
+          0.25
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s01-p010",
+      "panel_order": 10,
+      "scene": "The Level 6 custodian fills the bridge mouth while a narrow threat plate identifies its load response."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Tight adult Elian close-up holding his breath as his eyes track the Belljaw's jaw, shoulder, forefeet, and the intact bridge anchor in one readable diagonal; boss blurred at distance. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s01-p011",
+      "panel_order": 11,
+      "scene": "Tight adult Elian close-up holding his breath as his eyes track the Belljaw's jaw, shoulder, forefeet, and the intact bridge anchor in one readable diagonal; boss blurred at distance."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Belljaw is right, Mira center-left, Elian behind, intact anchor below-left, and the sealed lift beyond the boss. Reserve exact normalized negative-space regions [[0.04,0.04,0.4,0.22],[0.62,0.76,0.96,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.4,0.22],[0.62,0.76,0.96,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.4,
+          0.22
+        ],
+        [
+          0.62,
+          0.76,
+          0.96,
+          0.94
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s01-p012",
+      "panel_order": 12,
+      "scene": "Belljaw is right, Mira center-left, Elian behind, intact anchor below-left, and the sealed lift beyond the boss."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Full-body adult Mira locks her rear boot behind one bridge crossbar and forms a stable T-shaped Bastion Lancer silhouette with ivory split shield and dark-teal spear; hands and footing fully visible. Reserve exact normalized negative-space regions [[0.58,0.05,0.95,0.22]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.58,0.05,0.95,0.22]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.58,
+          0.05,
+          0.95,
+          0.22
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s02-p013",
+      "panel_order": 13,
+      "scene": "Full-body adult Mira locks her rear boot behind one bridge crossbar and forms a stable T-shaped Bastion Lancer silhouette with ivory split shield and dark-teal spear; hands and footing fully visible."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Belljaw launches right-to-left and punches one foreclaw through a bridge plank. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s02-p014",
+      "panel_order": 14,
+      "scene": "Belljaw launches right-to-left and punches one foreclaw through a bridge plank."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "A broken bridge plank flips down into the abyss while the still-intact anchor jerks upward under transferred load; mechanical cause and effect, no character faces, deep vertical architecture. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s02-p015",
+      "panel_order": 15,
+      "scene": "A broken bridge plank flips down into the abyss while the still-intact anchor jerks upward under transferred load; mechanical cause and effect, no character faces, deep vertical architecture."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Adult Mira plants ivory split shield and dark-teal spear on the swaying bridge; both hands, grip, shield straps, spear shaft, rear boot and crossbar are unobstructed and mechanically credible. Reserve exact normalized negative-space regions [[0.66,0.04,0.95,0.18]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.66,0.04,0.95,0.18]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.66,
+          0.04,
+          0.95,
+          0.18
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s02-p016",
+      "panel_order": 16,
+      "scene": "Adult Mira plants ivory split shield and dark-teal spear on the swaying bridge; both hands, grip, shield straps, spear shaft, rear boot and crossbar are unobstructed and mechanically credible."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Belljaw's jaw strikes Mira's shield wedge at one clear point; her planted boot skids but holds. Reserve exact normalized negative-space regions [[0.04,0.04,0.34,0.24]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.34,0.24]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.34,
+          0.24
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s02-p017",
+      "panel_order": 17,
+      "scene": "Belljaw's jaw strikes Mira's shield wedge at one clear point; her planted boot skids but holds."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Belljaw clamps Mira's Dark-Teal Spear below the head instead of recoiling. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s02-p018",
+      "panel_order": 18,
+      "scene": "Belljaw clamps Mira's Dark-Teal Spear below the head instead of recoiling."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "One Belljaw Warden wrenches Mira's captured spear; adult Mira rotates her hips and shoulders with the weapon to preserve her wrists; exact jaw-to-shaft contact and directional motion readable. Reserve exact normalized negative-space regions [[0.04,0.04,0.38,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.38,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.38,
+          0.2
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s02-p019",
+      "panel_order": 19,
+      "scene": "One Belljaw Warden wrenches Mira's captured spear; adult Mira rotates her hips and shoulders with the weapon to preserve her wrists; exact jaw-to-shaft contact and directional motion readable."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Adult Elian reaches past Mira's right shoulder and begins a deliberate visual scan from the Belljaw jaw through shoulder to near ankle; three figures in clear depth, no attack yet. Reserve exact normalized negative-space regions [[0.62,0.04,0.96,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.62,0.04,0.96,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.62,
+          0.04,
+          0.96,
+          0.2
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s02-p020",
+      "panel_order": 20,
+      "scene": "Adult Elian reaches past Mira's right shoulder and begins a deliberate visual scan from the Belljaw jaw through shoulder to near ankle; three figures in clear depth, no attack yet."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Fault Sight reveals one hairline near-ankle stress seam under the jaw load. Reserve exact normalized negative-space regions [[0.04,0.04,0.42,0.28]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.42,0.28]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.42,
+          0.28
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s02-p021",
+      "panel_order": 21,
+      "scene": "Fault Sight reveals one hairline near-ankle stress seam under the jaw load."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Fault Sight visualization without text: one restrained ember-orange stress path runs from the Belljaw jaw through shoulder to its near ankle while all other shell plates stay subdued; clear diagnostic negative space. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s02-p022",
+      "panel_order": 22,
+      "scene": "Fault Sight visualization without text: one restrained ember-orange stress path runs from the Belljaw jaw through shoulder to its near ankle while all other shell plates stay subdued; clear diagnostic negative space."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Adult Mira's forearms tremble as she holds the Belljaw's weight for four useful seconds; her spear remains clamped, shield wedged, face controlled; Elian prepares in background. Reserve exact normalized negative-space regions [[0.04,0.04,0.34,0.2],[0.66,0.76,0.96,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.34,0.2],[0.66,0.76,0.96,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.34,
+          0.2
+        ],
+        [
+          0.66,
+          0.76,
+          0.96,
+          0.94
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s02-p023",
+      "panel_order": 23,
+      "scene": "Adult Mira's forearms tremble as she holds the Belljaw's weight for four useful seconds; her spear remains clamped, shield wedged, face controlled; Elian prepares in background."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Elian slides left-to-right beneath the jaw using the chain rail as one step toward the ankle. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s02-p024",
+      "panel_order": 24,
+      "scene": "Elian slides left-to-right beneath the jaw using the chain rail as one step toward the ankle."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "The Belljaw's free black forelimb folds at an unexpected second joint and rotates toward Elian; ominous mechanical close-up establishing the coming backhand before impact. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s02-p025",
+      "panel_order": 25,
+      "scene": "The Belljaw's free black forelimb folds at an unexpected second joint and rotates toward Elian; ominous mechanical close-up establishing the coming backhand before impact."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "The Belljaw forelimb backhands adult Elian before his hooked shortblade reaches the ankle seam; his body flies toward one hanging chain, clear single impact vector, Mira still engaged behind. Reserve exact normalized negative-space regions [[0.04,0.04,0.32,0.24]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.32,0.24]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.32,
+          0.24
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s02-p026",
+      "panel_order": 26,
+      "scene": "The Belljaw forelimb backhands adult Elian before his hooked shortblade reaches the ankle seam; his body flies toward one hanging chain, clear single impact vector, Mira still engaged behind."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Elian's left ribs hit a hanging chain and his breath leaves in one white burst. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s02-p027",
+      "panel_order": 27,
+      "scene": "Elian's left ribs hit a hanging chain and his breath leaves in one white burst."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Elian catches the chain; his tethered blade hangs safely while the Ledger confirms damage and Cracked Rib. Reserve exact normalized negative-space regions [[0.58,0.04,0.96,0.28]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.58,0.04,0.96,0.28]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.58,
+          0.04,
+          0.96,
+          0.28
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s02-p028",
+      "panel_order": 28,
+      "scene": "Elian catches the chain; his tethered blade hangs safely while the Ledger confirms damage and Cracked Rib."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Elian hangs against a broad void guarding the left rib as the collarbone fissure closes. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s02-p029",
+      "panel_order": 29,
+      "scene": "Elian hangs against a broad void guarding the left rib as the collarbone fissure closes."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Mira holds Belljaw and orders Elian not to turn the injury into a plan. Reserve exact normalized negative-space regions [[0.04,0.04,0.42,0.26]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.42,0.26]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.42,
+          0.26
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s02-p030",
+      "panel_order": 30,
+      "scene": "Mira holds Belljaw and orders Elian not to turn the injury into a plan."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Injured adult Elian attempts one inhale while hanging against the chain; the ember fissure at his right collarbone lights, folds inward, and dies; left cracked rib guarded, intimate failure close-up. Reserve exact normalized negative-space regions [[0.62,0.72,0.96,0.92]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.62,0.72,0.96,0.92]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.62,
+          0.72,
+          0.96,
+          0.92
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s03-p031",
+      "panel_order": 31,
+      "scene": "Injured adult Elian attempts one inhale while hanging against the chain; the ember fissure at his right collarbone lights, folds inward, and dies; left cracked rib guarded, intimate failure close-up."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Elian's fingers find the unique Spark Talisman while both Iron Seals remain locked behind it. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s03-p032",
+      "panel_order": 32,
+      "scene": "Elian's fingers find the unique Spark Talisman while both Iron Seals remain locked behind it."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Mira identifies the talisman as the Chainworks exit plan; Elian chooses to spend it without claiming her permission. Reserve exact normalized negative-space regions [[0.04,0.04,0.4,0.27],[0.62,0.7,0.96,0.96]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.4,0.27],[0.62,0.7,0.96,0.96]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.4,
+          0.27
+        ],
+        [
+          0.62,
+          0.7,
+          0.96,
+          0.96
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s03-p033",
+      "panel_order": 33,
+      "scene": "Mira identifies the talisman as the Chainworks exit plan; Elian chooses to spend it without claiming her permission."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Adult Elian crushes the unique Spark Talisman in one anatomically correct fist; contained orange heat enters only his right collarbone circuit while two iron seals remain visibly untouched. Reserve exact normalized negative-space regions [[0.03,0.03,0.38,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.03,0.03,0.38,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.03,
+          0.03,
+          0.38,
+          0.2
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s03-p034",
+      "panel_order": 34,
+      "scene": "Adult Elian crushes the unique Spark Talisman in one anatomically correct fist; contained orange heat enters only his right collarbone circuit while two iron seals remain visibly untouched."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Tight torso close-up: injured adult Elian inhales toward the right collarbone and opens one thin ember fissure; cracked left rib remains guarded; quiet controlled breakthrough onset. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s03-p035",
+      "panel_order": 35,
+      "scene": "Tight torso close-up: injured adult Elian inhales toward the right collarbone and opens one thin ember fissure; cracked left rib remains guarded; quiet controlled breakthrough onset."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Internal cultivation visualization: orange pressure descends right collarbone to sternum, visibly buckles around the cracked left rib, then exits at the diaphragm; adult Elian silhouette, precise path, no text. Reserve exact normalized negative-space regions [[0.04,0.78,0.42,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.78,0.42,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.78,
+          0.42,
+          0.94
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s03-p036",
+      "panel_order": 36,
+      "scene": "Internal cultivation visualization: orange pressure descends right collarbone to sternum, visibly buckles around the cracked left rib, then exits at the diaphragm; adult Elian silhouette, precise path, no text."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Two restrained breath pulses stabilize Elian's collarbone fissure as Breath Seed II opens and Fault Step becomes compatible. Reserve exact normalized negative-space regions [[0.57,0.04,0.96,0.34]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.57,0.04,0.96,0.34]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.57,
+          0.04,
+          0.96,
+          0.34
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s03-p037",
+      "panel_order": 37,
+      "scene": "Two restrained breath pulses stabilize Elian's collarbone fissure as Breath Seed II opens and Fault Step becomes compatible."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "The breakthrough glow recedes from injured adult Elian; one small ember overburn fleck strikes his skin and he flinches, showing cost after success; broad dark negative space. Reserve exact normalized negative-space regions [[0.04,0.74,0.42,0.94],[0.62,0.04,0.96,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.74,0.42,0.94],[0.62,0.04,0.96,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.74,
+          0.42,
+          0.94
+        ],
+        [
+          0.62,
+          0.04,
+          0.96,
+          0.2
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s03-p038",
+      "panel_order": 38,
+      "scene": "The breakthrough glow recedes from injured adult Elian; one small ember overburn fleck strikes his skin and he flinches, showing cost after success; broad dark negative space."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "The Belljaw unloads its near ankle and the orange fault seam visibly closes while Mira's dark-teal spear begins slipping free of the bell jaw; transitional cause beat, all contacts clear. Reserve exact normalized negative-space regions [[0.04,0.04,0.36,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.36,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.36,
+          0.2
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s04-p039",
+      "panel_order": 39,
+      "scene": "The Belljaw unloads its near ankle and the orange fault seam visibly closes while Mira's dark-teal spear begins slipping free of the bell jaw; transitional cause beat, all contacts clear."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Mira rotates with the wrench, drops shield under jaw, and plants the spear butt to load the ankle once. Reserve exact normalized negative-space regions [[0.64,0.04,0.96,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.64,0.04,0.96,0.2]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.64,
+          0.04,
+          0.96,
+          0.2
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s04-p040",
+      "panel_order": 40,
+      "scene": "Mira rotates with the wrench, drops shield under jaw, and plants the spear butt to load the ankle once."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Adult Elian, still guarding his cracked left rib, recognizes that Mira's planted spear-and-shield line has recreated the ankle fault; eyeline connects him to one orange seam, pre-action stillness. Reserve exact normalized negative-space regions [[0.04,0.04,0.38,0.2],[0.64,0.76,0.96,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.38,0.2],[0.64,0.76,0.96,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.38,
+          0.2
+        ],
+        [
+          0.64,
+          0.76,
+          0.96,
+          0.94
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s04-p041",
+      "panel_order": 41,
+      "scene": "Adult Elian, still guarding his cracked left rib, recognizes that Mira's planted spear-and-shield line has recreated the ankle fault; eyeline connects him to one orange seam, pre-action stillness."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Adult Elian activates Fault Step along the verified structural line: an explosive grounded acceleration with foot push-off and continuous motion trail, explicitly physical movement rather than teleportation. Reserve exact normalized negative-space regions [[0.57,0.04,0.96,0.3]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.57,0.04,0.96,0.3]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.57,
+          0.04,
+          0.96,
+          0.3
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s04-p042",
+      "panel_order": 42,
+      "scene": "Adult Elian activates Fault Step along the verified structural line: an explosive grounded acceleration with foot push-off and continuous motion trail, explicitly physical movement rather than teleportation."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Adult Mira drives left-to-right while injured adult Elian launches bottom-to-top; their two vectors visibly converge on the single orange Belljaw ankle seam, clean triangular action geography. Reserve exact normalized negative-space regions [[0.04,0.04,0.28,0.18]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.04,0.28,0.18]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.04,
+          0.28,
+          0.18
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s04-p043",
+      "panel_order": 43,
+      "scene": "Adult Mira drives left-to-right while injured adult Elian launches bottom-to-top; their two vectors visibly converge on the single orange Belljaw ankle seam, clean triangular action geography."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Elian's hooked shortblade and Mira's redirected Belljaw jaw load split the ivory ankle plate at exactly one contact point; shard directions and force vectors clear, no extra limbs or weapons. Reserve exact normalized negative-space regions [[0.62,0.04,0.96,0.24]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.62,0.04,0.96,0.24]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.62,
+          0.04,
+          0.96,
+          0.24
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s04-p044",
+      "panel_order": 44,
+      "scene": "Elian's hooked shortblade and Mira's redirected Belljaw jaw load split the ivory ankle plate at exactly one contact point; shard directions and force vectors clear, no extra limbs or weapons."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "The defeated Belljaw folds and crashes away from the intact anchor while injured adult Elian lands guarding his left rib; one small overburn fleck hits him, clear aftermath geography. Reserve exact normalized negative-space regions [[0.04,0.76,0.38,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.76,0.38,0.94]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.76,
+          0.38,
+          0.94
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s04-p045",
+      "panel_order": 45,
+      "scene": "The defeated Belljaw folds and crashes away from the intact anchor while injured adult Elian lands guarding his left rib; one small overburn fleck hits him, clear aftermath geography."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Quiet verification beat: adult Mira keeps her dark-teal spear trained on the fallen Belljaw until its jaw seam goes dark; injured adult Elian watches the free forelimb remain still; no premature celebration. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s04-p046",
+      "panel_order": 46,
+      "scene": "Quiet verification beat: adult Mira keeps her dark-teal spear trained on the fallen Belljaw until its jaw seam goes dark; injured adult Elian watches the free forelimb remain still; no premature celebration."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "A Rare Cinder-Key rests between two broken ankle plates beside Elian's unsteady knee and Mira's boot. Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [],
+      "panel_id": "el-pr-ch01-s05-p047",
+      "panel_order": 47,
+      "scene": "A Rare Cinder-Key rests between two broken ankle plates beside Elian's unsteady knee and Mira's boot."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "The Ledger verifies boss defeat, one intact anchor, quest completion, 85 XP, Level 4, and the Cinder-Key drop. Reserve exact normalized negative-space regions [[0.54,0.03,0.97,0.31],[0.54,0.35,0.97,0.61],[0.54,0.65,0.97,0.92]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.54,0.03,0.97,0.31],[0.54,0.35,0.97,0.61],[0.54,0.65,0.97,0.92]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.54,
+          0.03,
+          0.97,
+          0.31
+        ],
+        [
+          0.54,
+          0.35,
+          0.97,
+          0.61
+        ],
+        [
+          0.54,
+          0.65,
+          0.97,
+          0.92
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s05-p048",
+      "panel_order": 48,
+      "scene": "The Ledger verifies boss defeat, one intact anchor, quest completion, 85 XP, Level 4, and the Cinder-Key drop."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Mira binds Elian's cracked left rib with his coat lining and checks hands and breath without joking. Reserve exact normalized negative-space regions [[0.6,0.03,0.96,0.42]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.6,0.03,0.96,0.42]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.6,
+          0.03,
+          0.96,
+          0.42
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s05-p049",
+      "panel_order": 49,
+      "scene": "Mira binds Elian's cracked left rib with his coat lining and checks hands and breath without joking."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "A pulse enters the intact anchor and travels upward toward the city while the clean shear face catches Elian's eye again. Reserve exact normalized negative-space regions [[0.04,0.05,0.4,0.22],[0.62,0.78,0.96,0.95]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.04,0.05,0.4,0.22],[0.62,0.78,0.96,0.95]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.04,
+          0.05,
+          0.4,
+          0.22
+        ],
+        [
+          0.62,
+          0.78,
+          0.96,
+          0.95
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s05-p050",
+      "panel_order": 50,
+      "scene": "A pulse enters the intact anchor and travels upward toward the city while the clean shear face catches Elian's eye again."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "The Cinder-Key displays Kiln Appraiser and Faultline Adept without selection as the far lift opens and Choose the Crack is offered. Reserve exact normalized negative-space regions [[0.33,0.1,0.72,0.63],[0.04,0.76,0.36,0.95],[0.66,0.76,0.96,0.95]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.33,0.1,0.72,0.63],[0.04,0.76,0.36,0.95],[0.66,0.76,0.96,0.95]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.33,
+          0.1,
+          0.72,
+          0.63
+        ],
+        [
+          0.04,
+          0.76,
+          0.36,
+          0.95
+        ],
+        [
+          0.66,
+          0.76,
+          0.96,
+          0.95
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s05-p051",
+      "panel_order": 51,
+      "scene": "The Cinder-Key displays Kiln Appraiser and Faultline Adept without selection as the far lift opens and Choose the Crack is offered."
+    },
+    {
+      "clean_art_instruction": "Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point.",
+      "final_prompt": "Mira leads Elian into the lift at her pace; his injured side is protected and the Cinder-Key remains unbound in his open hand. Reserve exact normalized negative-space regions [[0.66,0.05,0.96,0.2],[0.66,0.78,0.96,0.95]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No words, letters, numbers, symbols, watermarks, captions, balloons, or UI.",
+      "negative_direction": "No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface.",
+      "negative_space_instruction": "Reserve exact normalized negative-space regions [[0.66,0.05,0.96,0.2],[0.66,0.78,0.96,0.95]] for later deterministic lettering; keep them low-detail and free of faces, eyes, expressive hands, equipment contact, injury evidence, and the primary action silhouette.",
+      "negative_space_regions": [
+        [
+          0.66,
+          0.05,
+          0.96,
+          0.2
+        ],
+        [
+          0.66,
+          0.78,
+          0.96,
+          0.95
+        ]
+      ],
+      "panel_id": "el-pr-ch01-s05-p052",
+      "panel_order": 52,
+      "scene": "Mira leads Elian into the lift at her pace; his injured side is protected and the Cinder-Key remains unbound in his open hand."
+    }
+  ],
+  "common_prompt": "Create one text-free 1024×1536 Ember Lattice vertical-webtoon panel. Use approved adult Elian Voss, adult Mira Vale, Belljaw, equipment, injury, and Ember Vault continuity anchors. Clean premium vertical-webtoon illustration with confident linework, broad controlled color shapes, smooth cel-shaded surfaces, restrained gradients, crisp focal silhouettes, intentional negative space, minimal environmental particles, readable material separation, and selective detail only at the narrative focal point. No film grain, no snow filter, no dust veil, no all-over particles, no stippling, no halftone wash, no canvas texture, no paper texture, no chromatic noise, no edge chatter, no excessive sparks, no random debris, no indiscriminate bloom, no oversharpening, no muddy fog, no busy background texture, and no decorative micro-detail across every surface. No baked-in prose, dialogue, captions, labels, numbers, system text, watermarks, borders, speech balloons, or UI.",
+  "schema": "PremiumCH01GenerationSpec/2.0-editorial"
 }

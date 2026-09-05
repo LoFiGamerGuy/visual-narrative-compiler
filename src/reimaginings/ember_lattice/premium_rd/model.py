@@ -70,6 +70,13 @@ HARD_FAILURES = {
     "HASH_MISMATCH",
 }
 
+CLEAN_ART_FAILURES = {
+    "snow_particles", "dust_veil", "film_grain", "stippling", "halftone_wash",
+    "excessive_micro_texture", "edge_chatter", "indiscriminate_bloom",
+    "chromatic_speckles", "over_sharpening", "muddy_atmospheric_veil",
+    "decorative_debris", "excessive_sparks",
+}
+
 
 def _is_number(value: Any) -> bool:
     return isinstance(value, (int, float)) and not isinstance(value, bool)
@@ -82,6 +89,22 @@ def _check_box(value: Any, name: str, errors: list[str]) -> None:
     left, top, right, bottom = value
     if not (0 <= left < right <= 1 and 0 <= top < bottom <= 1):
         errors.append(f"{name} must satisfy 0 <= left < right <= 1 and 0 <= top < bottom <= 1")
+
+
+def _box_area(value: list[float]) -> float:
+    return (value[2] - value[0]) * (value[3] - value[1])
+
+
+def _box_overlap(a: list[float], b: list[float]) -> float:
+    return max(0.0, min(a[2], b[2]) - max(a[0], b[0])) * max(0.0, min(a[3], b[3]) - max(a[1], b[1]))
+
+
+def _box_inside(box: list[float], region: list[float]) -> bool:
+    return box[0] >= region[0] - 1e-6 and box[1] >= region[1] - 1e-6 and box[2] <= region[2] + 1e-6 and box[3] <= region[3] + 1e-6
+
+
+def _word_count(text: str) -> int:
+    return len(str(text).replace("\n", " ").split())
 
 
 def _required_string(row: dict[str, Any], field: str, prefix: str, errors: list[str]) -> None:
@@ -114,6 +137,7 @@ def validate_manifest(manifest: Any, content_root: Path, verify_assets: bool = T
         errors.append("project.canvas needs positive integer width and height")
     if project.get("deliverable") not in {"benchmark", "premium_ch01"}:
         errors.append("project.deliverable must be benchmark or premium_ch01")
+    strict_editorial = project.get("editorial_schema") == "LetteringPlan/2.0"
 
     workflows = manifest.get("workflows")
     if not isinstance(workflows, list) or len(workflows) < 2:
@@ -263,6 +287,7 @@ def validate_manifest(manifest: Any, content_root: Path, verify_assets: bool = T
     if project.get("deliverable") == "premium_ch01" and isinstance(panels, list) and not 40 <= len(panels) <= 60 and not project.get("panel_count_rationale"):
         errors.append("premium_ch01 requires 40–60 panels or a non-empty panel_count_rationale")
     panel_ids: list[str] = []
+    selected_art_hashes: list[str] = []
     scenario_counts: Counter[str] = Counter()
     action_sequence_counts: Counter[str] = Counter()
     for index, panel in enumerate(panels):
@@ -321,6 +346,33 @@ def validate_manifest(manifest: Any, content_root: Path, verify_assets: bool = T
             errors.append(f"{prefix}.lettering_units must be an array")
         else:
             seen_order: set[int] = set()
+            unit_boxes: list[tuple[int, list[float]]] = []
+            speech_count = 0
+            spoken_words = 0
+            total_area = 0.0
+            negative_regions = panel.get("negative_space_regions")
+            if strict_editorial and (not isinstance(panel.get("negative_space_declaration"), str) or not panel["negative_space_declaration"].strip()):
+                errors.append(f"{prefix}.negative_space_declaration is required")
+            if not isinstance(negative_regions, list):
+                if strict_editorial:
+                    errors.append(f"{prefix}.negative_space_regions must be an array")
+                negative_regions = []
+            else:
+                for n_index, box in enumerate(negative_regions):
+                    _check_box(box, f"{prefix}.negative_space_regions[{n_index}]", errors)
+            protected = panel.get("protected_zones")
+            if not isinstance(protected, list) or not protected:
+                if strict_editorial:
+                    errors.append(f"{prefix}.protected_zones must contain typed exclusion zones")
+                protected = []
+            else:
+                for p_index, zone in enumerate(protected):
+                    if not isinstance(zone, dict) or not isinstance(zone.get("type"), str):
+                        errors.append(f"{prefix}.protected_zones[{p_index}] must name a type")
+                    elif isinstance(zone.get("box"), list):
+                        _check_box(zone["box"], f"{prefix}.protected_zones[{p_index}].box", errors)
+                    else:
+                        errors.append(f"{prefix}.protected_zones[{p_index}].box is required")
             for u_index, unit in enumerate(units):
                 u_prefix = f"{prefix}.lettering_units[{u_index}]"
                 if not isinstance(unit, dict):
@@ -329,12 +381,60 @@ def validate_manifest(manifest: Any, content_root: Path, verify_assets: bool = T
                 if unit.get("kind") not in {"dialogue", "open", "caption", "sfx", "ui"}:
                     errors.append(f"{u_prefix}.kind is unsupported")
                 _required_string(unit, "text", u_prefix, errors)
-                if unit.get("kind") != "sfx":
-                    _check_box(unit.get("box"), f"{u_prefix}.box", errors)
+                box = unit.get("box")
+                if unit.get("kind") != "sfx" or strict_editorial:
+                    _check_box(box, f"{u_prefix}.box", errors)
+                if isinstance(box, list) and len(box) == 4 and all(_is_number(v) for v in box):
+                    area = _box_area(box)
+                    total_area += area
+                    unit_boxes.append((u_index, box))
+                    if strict_editorial and unit.get("kind") == "dialogue" and area > .15 + 1e-9:
+                        errors.append(f"{u_prefix} balloon area exceeds 15%")
+                    if strict_editorial and negative_regions and not any(_box_inside(box, region) for region in negative_regions if isinstance(region, list) and len(region) == 4):
+                        errors.append(f"{u_prefix} lies outside declared negative space")
+                    for zone in (protected if strict_editorial else []):
+                        if isinstance(zone, dict) and isinstance(zone.get("box"), list) and _box_overlap(box, zone["box"]) > 1e-5:
+                            errors.append(f"{u_prefix} collides with protected {zone.get('type')}")
+                if strict_editorial and (not isinstance(unit.get("speaker"), str) or not unit["speaker"].strip()):
+                    errors.append(f"{u_prefix}.speaker is required")
+                if strict_editorial and (not isinstance(unit.get("style"), str) or not unit["style"].strip()):
+                    errors.append(f"{u_prefix}.style is required")
+                scale = unit.get("font_scale")
+                if strict_editorial and (not _is_number(scale) or scale <= 0):
+                    errors.append(f"{u_prefix}.font_scale must be positive")
+                elif strict_editorial:
+                    phone_px = float(scale) * 390
+                    minimum = 14.0 if unit.get("kind") == "dialogue" else 12.0
+                    if unit.get("kind") != "sfx" and phone_px + 1e-9 < minimum:
+                        errors.append(f"{u_prefix} phone-scale type {phone_px:.2f}px is below {minimum:.0f}px")
+                if unit.get("kind") == "dialogue":
+                    speech_count += 1
+                    spoken_words += _word_count(unit.get("text", ""))
                 order = unit.get("reading_order")
                 if not isinstance(order, int) or order < 1 or order in seen_order:
                     errors.append(f"{u_prefix}.reading_order must be a unique positive integer")
                 seen_order.add(order)
+            for first_index, first in unit_boxes:
+                for second_index, second in unit_boxes:
+                    if second_index <= first_index:
+                        continue
+                    if _box_overlap(first, second) > 1e-5:
+                        errors.append(f"{prefix}.lettering_units[{first_index}] collides with lettering_units[{second_index}]")
+            exception = panel.get("lettering_exception")
+            if strict_editorial and total_area > .25 + 1e-9 and not exception:
+                errors.append(f"{prefix} total lettering area exceeds 25% without exception")
+            if strict_editorial and speech_count > 2 and not exception:
+                errors.append(f"{prefix} has more than two speech balloons without explicit dialogue composition")
+            if strict_editorial and spoken_words > 28 and not exception:
+                errors.append(f"{prefix} exceeds 28 spoken words without exception")
+            if strict_editorial and units and not negative_regions:
+                errors.append(f"{prefix} has lettering but no negative-space regions")
+        source_art_hash = panel.get("source_art_hash")
+        if strict_editorial and project.get("deliverable") == "premium_ch01":
+            if not isinstance(source_art_hash, str) or len(source_art_hash) != 64:
+                errors.append(f"{prefix}.source_art_hash must pin the selected text-free art")
+            else:
+                selected_art_hashes.append(source_art_hash)
         if panel.get("action"):
             sequence = panel.get("action_sequence")
             if not isinstance(sequence, str) or not sequence:
@@ -343,6 +443,9 @@ def validate_manifest(manifest: Any, content_root: Path, verify_assets: bool = T
                 action_sequence_counts[sequence] += 1
     for value in duplicate_values(panel_ids):
         errors.append(f"duplicate panel_id {value}")
+    if strict_editorial:
+        for value in duplicate_values(selected_art_hashes):
+            errors.append(f"duplicate selected source art hash {value}")
     panel_map = {panel["panel_id"]: panel for panel in panels if isinstance(panel, dict) and isinstance(panel.get("panel_id"), str)}
     for index, record in enumerate(records):
         if not isinstance(record, dict):
@@ -402,6 +505,12 @@ def validate_manifest(manifest: Any, content_root: Path, verify_assets: bool = T
         failure.get("status") == "OPEN" and failure.get("failure_class") in HARD_FAILURES
         for failure in failures if isinstance(failure, dict)
     )
+    unresolved_clean = sum(
+        failure.get("status") == "OPEN" and failure.get("failure_class") in CLEAN_ART_FAILURES
+        for failure in failures if isinstance(failure, dict)
+    )
+    if unresolved_clean:
+        errors.append(f"{unresolved_clean} unresolved clean-art failures")
     return {
         "status": "PASS" if not errors else "FAIL",
         "errors": errors,
@@ -415,6 +524,7 @@ def validate_manifest(manifest: Any, content_root: Path, verify_assets: bool = T
             "evidence_documents": len(evidence_documents),
             "asset_integrity_failures": asset_failures,
             "unresolved_hard_failures": unresolved_hard,
+            "unresolved_clean_art_failures": unresolved_clean,
         },
         "scenario_coverage": dict(sorted(scenario_counts.items())),
     }

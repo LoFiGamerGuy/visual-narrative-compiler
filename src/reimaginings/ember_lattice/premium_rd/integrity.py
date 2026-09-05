@@ -11,10 +11,16 @@ from typing import Any
 
 PROTECTED_WORKTREES = (
     Path(r"C:\AgentWorkspaces\anime-pipeline"),
+    Path(r"C:\AgentWorkspaces\anime-pipeline-ember-lattice-premium-rd-20260904-150943"),
     Path(r"C:\AgentWorkspaces\anime-pipeline-litrpg-manhwa-20260904-001211"),
     Path(r"C:\AgentWorkspaces\anime-pipeline-reimagining"),
     Path(r"C:\AgentWorkspaces\anime-pipeline-reimagining-20260903"),
     Path(r"C:\AgentWorkspaces\anime-pipeline-reimagining-clean-webtoon-20260903-213010"),
+)
+
+EXCLUDED_NEW_WORK_MARKERS = (
+    "ember-lattice-premium-rd-20260904-150943",
+    "ember-lattice-editorial-gear-20260904",
 )
 
 
@@ -54,7 +60,7 @@ def _protected_refs(repo: Path) -> dict[str, str]:
     refs: dict[str, str] = {}
     for row in rows:
         name, object_id = row.split("\t", 1)
-        if "ember-lattice-premium-rd-20260904-150943" in name:
+        if any(marker in name for marker in EXCLUDED_NEW_WORK_MARKERS):
             continue
         refs[name] = object_id
     return dict(sorted(refs.items()))

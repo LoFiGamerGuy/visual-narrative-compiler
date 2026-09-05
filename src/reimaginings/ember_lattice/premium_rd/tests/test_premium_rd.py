@@ -1,13 +1,14 @@
 from __future__ import annotations
 
 import json
+import copy
 import tempfile
 import unittest
 from pathlib import Path
 
 from ..audit import audit_bundle, audit_links
 from ..author import author_template
-from ..core import read_json, sha256_file, write_json
+from ..core import read_json, sha256_bytes, sha256_file, write_json
 from ..model import REQUIRED_CRITERIA, rubric_summary, validate_bundle
 from ..render import build_site
 
@@ -63,6 +64,25 @@ class PremiumRDTests(unittest.TestCase):
     def tearDown(self) -> None:
         self.temp.cleanup()
 
+    def strict_editorial_manifest(self) -> dict:
+        manifest = copy.deepcopy(self.manifest)
+        manifest["project"]["editorial_schema"] = "LetteringPlan/2.0"
+        for panel in manifest["panels"]:
+            panel["source_art_hash"] = sha256_bytes(panel["panel_id"].encode("utf-8"))
+            panel["negative_space_declaration"] = "reserved before rendering"
+            panel["negative_space_regions"] = [[.04, .04, .96, .22], [.04, .74, .96, .95]]
+            panel["protected_zones"] = [{"type":"face_eyes","box":[.30,.30,.70,.60]}]
+            panel["lettering_exception"] = None
+            for unit in panel["lettering_units"]:
+                unit["speaker"] = "Fixture speaker"
+                unit["style"] = "ledger" if unit["kind"] == "ui" else "speech"
+                unit["font_scale"] = .04
+                if unit["kind"] == "ui":
+                    unit["box"] = [.55, .76, .94, .90]
+                else:
+                    unit["box"] = [.05, .05, .43, .15]
+        return manifest
+
     def test_valid_bundle_builds_and_audits(self) -> None:
         report = validate_bundle(self.manifest, self.rubric, self.root)
         self.assertEqual("PASS", report["status"], report)
@@ -101,6 +121,51 @@ class PremiumRDTests(unittest.TestCase):
         result = audit_links(site)
         self.assertEqual("FAIL", result["status"])
         self.assertEqual(1, len(result["errors"]))
+
+    def test_lettering_collision_fails_closed(self) -> None:
+        manifest = self.strict_editorial_manifest()
+        manifest["panels"][0]["protected_zones"] = [{"type":"face_eyes","box":[.05,.05,.43,.15]}]
+        report = validate_bundle(manifest, self.rubric, self.root, verify_assets=False)
+        self.assertEqual("FAIL", report["status"])
+        self.assertTrue(any("collides with protected face_eyes" in e for e in report["manifest"]["errors"]))
+
+    def test_excessive_balloon_area_fails_closed(self) -> None:
+        manifest = self.strict_editorial_manifest()
+        manifest["panels"][0]["lettering_units"][0]["box"] = [.04,.04,.60,.40]
+        manifest["panels"][0]["negative_space_regions"] = [[.02,.02,.62,.42]]
+        report = validate_bundle(manifest, self.rubric, self.root, verify_assets=False)
+        self.assertEqual("FAIL", report["status"])
+        self.assertTrue(any("balloon area exceeds 15%" in e for e in report["manifest"]["errors"]))
+
+    def test_small_phone_type_fails_closed(self) -> None:
+        manifest = self.strict_editorial_manifest()
+        manifest["panels"][0]["lettering_units"][0]["font_scale"] = .02
+        report = validate_bundle(manifest, self.rubric, self.root, verify_assets=False)
+        self.assertEqual("FAIL", report["status"])
+        self.assertTrue(any("phone-scale type" in e for e in report["manifest"]["errors"]))
+
+    def test_missing_negative_space_declaration_fails_closed(self) -> None:
+        manifest = self.strict_editorial_manifest()
+        del manifest["panels"][0]["negative_space_declaration"]
+        report = validate_bundle(manifest, self.rubric, self.root, verify_assets=False)
+        self.assertEqual("FAIL", report["status"])
+        self.assertTrue(any("negative_space_declaration" in e for e in report["manifest"]["errors"]))
+
+    def test_duplicate_selected_art_fails_closed(self) -> None:
+        manifest = self.strict_editorial_manifest()
+        manifest["panels"][1]["source_art_hash"] = manifest["panels"][0]["source_art_hash"]
+        report = validate_bundle(manifest, self.rubric, self.root, verify_assets=False)
+        self.assertEqual("FAIL", report["status"])
+        self.assertTrue(any("duplicate selected source art hash" in e for e in report["manifest"]["errors"]))
+
+    def test_unresolved_clean_art_failure_fails_closed(self) -> None:
+        manifest = self.strict_editorial_manifest()
+        manifest["failures"][0]["failure_class"] = "film_grain"
+        manifest["failures"][0]["status"] = "OPEN"
+        manifest["failures"][0].pop("repaired_asset_id", None)
+        report = validate_bundle(manifest, self.rubric, self.root, verify_assets=False)
+        self.assertEqual("FAIL", report["status"])
+        self.assertTrue(any("unresolved clean-art failures" in e for e in report["manifest"]["errors"]))
 
 
 if __name__ == "__main__":

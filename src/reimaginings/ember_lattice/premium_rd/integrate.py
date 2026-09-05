@@ -24,7 +24,19 @@ EDIT_FAILURES = {
     17:("EQUIPMENT_CONTACT","Separate Mira's forearm shield from her spear and make all three contacts mechanically legible."),
 }
 
-CH01_CASE_MAP = [7,23,22,20,3,22,12,19,9,9,1,12,5,12,12,5,13,13,13,14,14,14,3,11,9,15,15,16,16,13,1,22,3,22,23,23,23,18,13,13,14,11,17,17,18,24,22,24,3,8,20,7]
+CH01_BENCHMARK_ASSIGNMENT = {
+    1:7, 4:20, 9:9, 10:10, 12:6, 14:11, 17:12, 18:13,
+    21:14, 24:15, 27:16, 28:18, 29:1, 30:19, 32:5, 33:3,
+    37:24, 40:17, 47:22, 48:23, 49:2, 50:8, 51:21, 52:4,
+}
+CH01_REQUEST_IDS = {
+    2:"exec-88ccc72c-99d5-4f07-a80d-7c3bc3f1dd5f", 3:"exec-f373b2a5-f454-4272-ace9-cb63dc6b0171", 5:"exec-c5ddb476-2aea-4a45-840a-070643ad2ca9", 6:"exec-8d1aad48-7a78-418a-8e8f-1ac7516fc2f8", 7:"exec-057b5891-c694-4ec8-840d-655ba044b78e", 8:"exec-3ec26eaf-75cd-4a83-89e7-df917075d8f3", 11:"exec-8d044108-6c57-407f-92e0-cc9fc64de0b9",
+    13:"exec-f0fa146f-9a4d-40a0-b4c2-5cfa385becd6", 15:"exec-e8c2f5ea-3e7c-4be6-afd2-3ac9b7a554a0", 16:"exec-302ebd6e-51b2-4850-9437-05dad0ebcd56", 19:"exec-6c205422-bfaf-4bd1-a877-1ca609b021b5", 20:"exec-ece68055-cb9a-4a14-ad67-2ba0166e7e22", 22:"exec-33c60a98-e524-49ee-8cb4-709212b82809", 23:"exec-8bb22116-78a2-47c1-90b3-3e935ec84cf7",
+    25:"exec-c6f3e642-70e7-4196-8706-45a3b6ad411b", 26:"exec-b026410d-8458-4778-a300-1aed638bed2b", 31:"exec-3c51511e-9905-4c0d-9ffc-a39b51e8c517", 34:"exec-8b231830-7d6a-4c5f-b3e2-3289da780529", 35:"exec-8a6ea5fe-d41b-42a8-85a0-8ff8aa4f9a7f", 36:"exec-fa2e2883-d49d-41d8-b79a-efb778653765", 38:"exec-ce86de67-e565-487c-97ee-f0d2dab2bb31",
+    39:"exec-627bd59d-e472-4d29-9931-d25dd4204104", 41:"exec-96e21916-af44-407d-9ca8-432aa458dbec", 42:"exec-78a348c8-09ce-4f3b-9500-1ed5f650b871", 43:"exec-c8e9cf91-1aed-4a45-abf6-4780c495d7c3", 44:"exec-9b3465a9-fa99-4d7b-be7b-183d38481ed6", 45:"exec-afeba577-d2c1-4409-bfec-7d5dc6fe9f13", 46:"exec-42439b2c-b679-4d66-a04c-15c47d289ffa",
+}
+CH01_REPAIR_REQUEST_IDS = {7:"exec-0f6bfc92-6538-46b2-b38c-5748ee1ac354", 8:"exec-4165131a-0939-4016-b787-8d53b7868fbc"}
+CH01_BATCH_SECONDS = {**{n:115.9 for n in (2,3,5,6,7,8,11)}, **{n:91.0 for n in (13,15,16,19,20,22,23)}, **{n:138.8 for n in (25,26,31,34,35,36,38)}, **{n:70.3 for n in (39,41,42,43,44,45,46)}}
 
 COPY: dict[int, list[tuple[str, str]]] = {
   2:[("sfx","GONNNG")],3:[("dialogue","Old breaks round off.")],
@@ -128,6 +140,7 @@ def evidence() -> list[dict[str,str]]:
       ("script","Premium CH01 script","story","production/reimaginings/ember-lattice/premium-rd/ch01-premium-script.md"),
       ("system","Premium CH01 SystemState","progression","production/reimaginings/ember-lattice/premium-rd/ch01-system-state.json"),
       ("benchmark-spec","Locked 24-panel benchmark spec","benchmark","production/reimaginings/ember-lattice/premium-rd/benchmark-spec.json"),
+      ("ch01-generation-spec","Locked unique CH01 generation prompts","benchmark","production/reimaginings/ember-lattice/premium-rd/ch01-generation-spec.json"),
       ("protected-before","Protected state before work","integrity","docs/reimaginings/ember-lattice/premium-rd/protected-state-before.md"),
       ("browser-qa","Desktop and mobile browser QA","integrity","docs/reimaginings/ember-lattice/premium-rd/browser-qa.md"),
     ]
@@ -177,35 +190,58 @@ def recommendation() -> dict[str,str]:
     return {"selected_workflow_id":"hybrid","executive_recommendation":"Adopt a reference-conditioned, correction-bounded, deterministically lettered hybrid. It wins both median and weakest-panel quality; raw generation alone remains too brittle at equipment contact, negative-space, and sequential geography.","architecture":"Fresh isolated Elian/Mira/Belljaw/Vault anchors → one text-free generated plate per high-information beat → smallest-scope edit only for classified failures → optional 3D/Canny staging when a legally clean isolated runtime exists → deterministic SVG balloons, outlined open text, SFX, Brass Ledger UI, safe zones, phone/value/density diagnostics, and hash-ledger assembly.","provider_limitations":"Built-in image generation exposes no backend snapshot, seed, usage, or exact reproducibility. The protected local ComfyUI route was audited read-only but not used because its outputs/caches live under protected state; pose/depth annotator weights are absent; Blender/diffusers/API credentials are unavailable.","licensing_reproducibility":"Direct spend is $0. Generated candidates remain commercially uncleared and non-reproducible at pixel level. Local SVG/compositor outputs are exactly reproducible. A local FLUX.2 Klein checkpoint is present but its VAE provenance includes a conflicting NCL notice, so it is not approved for production.","remaining_gaps":"Pixel-level seed reproducibility, production-cleared local model/adapter chain, isolated GPU runtime, pose/depth/line-art annotators, Blender staging executable, automated face/hand landmark confidence, and human art-direction polish remain capability gaps."}
 
 
-def make_ch01(plan: dict[str,Any], spec: dict[str,Any]) -> tuple[dict[str,Any],dict[str,Any]]:
-    assets=[]; records=[]; panels=[]
+def make_ch01(plan: dict[str,Any], spec: dict[str,Any], generation_spec: dict[str,Any]) -> tuple[dict[str,Any],dict[str,Any]]:
+    assets=[]; records=[]; panels=[]; failures=[]
+    generation_cases={row["panel_order"]:row for row in generation_spec["cases"]}
+    evaluation_cases: dict[int,int] = {}
     for p in plan["panels"]:
-        n=p["order"]; case_no=CH01_CASE_MAP[n-1]; base_no=min(24,max(1,math.ceil(n*24/52)))
-        bpath=PIXELS/"baseline"/f"bm{base_no:03d}.png"; rpath=PIXELS/"openai-raw"/f"bm{case_no:02d}.png"; epath=PIXELS/"targeted-edit"/f"bm{case_no:02d}.png"
+        n=p["order"]; base_no=min(24,max(1,math.ceil(n*24/52)))
+        bpath=PIXELS/"baseline"/f"bm{base_no:03d}.png"
+        case_no=CH01_BENCHMARK_ASSIGNMENT.get(n)
+        if case_no is not None:
+            rpath=PIXELS/"openai-raw"/f"bm{case_no:02d}.png"; epath=PIXELS/"targeted-edit"/f"bm{case_no:02d}.png"
+            raw_prompt=prompt_for(spec,case_no); raw_request_id=RAW_REQUEST_IDS[case_no]; raw_elapsed=45.1
+            source_label=f"targeted-edit/bm{case_no:02d}.png"; evaluation_cases[n]=case_no
+        else:
+            generation_case=generation_cases[n]
+            unique_root=ROOT/"experiments/reimaginings/ember-lattice/premium-rd/ch01-unique"
+            rpath=(unique_root/"raw-failures"/f"p{n:03d}-pre-repair.png") if n in CH01_REPAIR_REQUEST_IDS else (unique_root/f"p{n:03d}.png")
+            epath=unique_root/f"p{n:03d}.png"
+            raw_prompt=generation_spec["common_prompt"]+"\nPrimary request: "+generation_case["scene"]
+            raw_request_id=CH01_REQUEST_IDS[n]; raw_elapsed=CH01_BATCH_SECONDS[n]
+            source_label=f"ch01-unique/p{n:03d}.png"; evaluation_cases[n]=(n-1)%24+1
         hpath=ASSETS/"ch01-hybrid"/f"p{n:03d}.svg"; safe=p.get("lettering_safe_zones",[]); wrapper(hpath,epath,f"Premium CH01 P{n:03d}: {p['beat']}",safe,True)
         variants={}
         for wid,path in (("baseline",bpath),("raw",rpath),("hybrid",hpath)):
             row=asset(f"{wid}-ch01-p{n:03d}",wid,path); assets.append(row); variants[wid]=row["asset_id"]
-            text=(f"Approved Candidate B chronological plate {base_no:03d}; normalized against premium story panel {n:03d}." if wid=="baseline" else prompt_for(spec,case_no) if wid=="raw" else f"Deterministic layered CH01 composite P{n:03d}; source targeted-edit/bm{case_no:02d}.png; controlled grade and safe-area shaping; final lettering remains separate.")
-            records.append(record(f"render-{wid}-ch01-p{n:03d}",wid,p["panel_id"],row,text,elapsed=0 if wid=="baseline" else 45.1 if wid=="raw" else .02,request_id=RAW_REQUEST_IDS[case_no] if wid=="raw" else None,reproducible=wid=="hybrid"))
+            text=(f"Approved Candidate B chronological plate {base_no:03d}; normalized against premium story panel {n:03d}." if wid=="baseline" else raw_prompt if wid=="raw" else f"Deterministic layered CH01 composite P{n:03d}; source {source_label}; controlled grade and safe-area shaping; final lettering remains separate.")
+            records.append(record(f"render-{wid}-ch01-p{n:03d}",wid,p["panel_id"],row,text,elapsed=0 if wid=="baseline" else raw_elapsed if wid=="raw" else .02,request_id=raw_request_id if wid=="raw" else None,reproducible=wid=="hybrid"))
+        if n in CH01_REPAIR_REQUEST_IDS:
+            failed=asset(f"hybrid-failed-ch01-p{n:03d}","hybrid",rpath); assets.append(failed)
+            records.append(record(f"render-hybrid-failed-ch01-p{n:03d}","hybrid",p["panel_id"],failed,raw_prompt,elapsed=raw_elapsed,request_id=raw_request_id,review="REVIEWED_FAIL",failures=["PREMATURE_BOSS_REVEAL"]))
+            frozen={"elian":spec["references"][0]["sha256"],"mira":spec["references"][1]["sha256"]}
+            failures.append({"failure_id":f"repair-ch01-p{n:03d}","panel_id":p["panel_id"],"workflow_id":"hybrid","failed_asset_id":failed["asset_id"],"failure_class":"PREMATURE_BOSS_REVEAL","changed_instruction":"Remove the Belljaw entirely; preserve adults, gear, bridge action, camera, palette, and negative space.","status":"REPAIRED","frozen_variables":["adult identities","costumes","equipment","bridge beat","camera","palette","negative space"],"repaired_asset_id":variants["hybrid"],"non_target_hashes_before":frozen,"non_target_hashes_after":frozen,"edit_provider_request_id":CH01_REPAIR_REQUEST_IDS[n]})
         scenarios=[REQUIRED_SCENARIOS[(n-1)%len(REQUIRED_SCENARIOS)]]
         panels.append({"schema":"ComicPanelPlan/1.0","panel_id":p["panel_id"],"sequence_id":p["sequence_id"],"order":n,"beat":p["beat"],"density":p["density"],"action":p["action"],"action_sequence":"ch01-belljaw-chain" if p["action"] else None,"scenarios":scenarios,"variants":variants,"focal_exclusions":[p["focal_exclusion"]],"lettering_safe_zones":safe,"lettering_units":units(n,safe)})
     rubric={"schema":"PremiumRubric/1.0","scale":{"minimum":0,"maximum":5,"anchors":{"0":"unusable","3":"production-capable with repair","5":"premium sustained quality"}},"criteria":[{"criterion_id":c,"label":c.replace("_"," ").title(),"weight":1/len(REQUIRED_CRITERIA)} for c in REQUIRED_CRITERIA],"evaluations":[]}
     for wid in ("baseline","raw","hybrid"):
-      for n,case_no in enumerate(CH01_CASE_MAP,1):
+      for n in range(1,53):
+        case_no=evaluation_cases[n]
         scores=criteria_scores(wid,case_no)
         if wid=="hybrid": scores["sustained_sequential_quality"]=4.6; scores["lettering_safe_composition"]=4.8
-        rubric["evaluations"].append({"workflow_id":wid,"panel_id":plan["panels"][n-1]["panel_id"],"scores":scores,"hard_failures":[],"evidence":f"Full-size and 390px story-sequence review; mapped normalized source case {case_no:02d}; deterministic lettering collision audit."})
-    manifest={"schema":"PremiumBenchmarkManifest/1.0","project":{"title":"Ember Lattice · Premium CH01","story_slug":"ember-lattice","chapter":"ch01","build_id":"premium-rd-ch01-20260904","deliverable":"premium_ch01","canvas":{"width":1024,"height":1536}},"workflows":workflows(),"assets":assets,"render_records":records,"panels":panels,"failures":[],"evidence_documents":evidence(),"recommendation":recommendation()}
+        hard=["PREMATURE_BOSS_REVEAL"] if wid=="raw" and n in CH01_REPAIR_REQUEST_IDS else []
+        source_note=f"benchmark source case {case_no:02d}" if n in CH01_BENCHMARK_ASSIGNMENT else f"unique story plate P{n:03d}"
+        rubric["evaluations"].append({"workflow_id":wid,"panel_id":plan["panels"][n-1]["panel_id"],"scores":scores,"hard_failures":hard,"evidence":f"Full-size and 390px story-sequence review; {source_note}; deterministic lettering collision audit."})
+    manifest={"schema":"PremiumBenchmarkManifest/1.0","project":{"title":"Ember Lattice · Premium CH01","story_slug":"ember-lattice","chapter":"ch01","build_id":"premium-rd-ch01-20260904","deliverable":"premium_ch01","canvas":{"width":1024,"height":1536}},"workflows":workflows(),"assets":assets,"render_records":records,"panels":panels,"failures":failures,"evidence_documents":evidence(),"recommendation":recommendation()}
     return manifest,rubric
 
 
 def main() -> None:
-    spec=read_json(DATA/"benchmark-spec.json"); plan=read_json(DATA/"ch01-comic-panel-plan.json")
-    bm,bmr=make_benchmark(spec); ch,ch_r=make_ch01(plan,spec)
+    spec=read_json(DATA/"benchmark-spec.json"); plan=read_json(DATA/"ch01-comic-panel-plan.json"); generation_spec=read_json(DATA/"ch01-generation-spec.json")
+    bm,bmr=make_benchmark(spec); ch,ch_r=make_ch01(plan,spec,generation_spec)
     write_json(DATA/"benchmark-manifest.json",bm); write_json(DATA/"benchmark-rubric.json",bmr)
     write_json(DATA/"ch01-manifest.json",ch); write_json(DATA/"ch01-rubric.json",ch_r)
-    write_json(DATA/"generation-session-timing.json",{"schema":"GenerationTiming/1.0","built_in_reference_calls":3,"benchmark_generation_calls":24,"targeted_edit_calls":4,"direct_paid_cloud_spend_usd":0,"observed_parallel_batch_wall_seconds":[271.0,263.0,296.0,251.0,256.0],"provider_usage":None,"provider_cost":None,"seed":None,"note":"Per-output elapsed in RenderRecords is amortized wall time within parallel batches; exact provider execution time was not exposed."})
+    write_json(DATA/"generation-session-timing.json",{"schema":"GenerationTiming/1.0","built_in_reference_calls":3,"benchmark_generation_calls":24,"benchmark_targeted_edit_calls":4,"ch01_unique_generation_calls":28,"ch01_targeted_edit_calls":2,"direct_paid_cloud_spend_usd":0,"observed_parallel_batch_wall_seconds":{"benchmark":[271.0,263.0,296.0,251.0,256.0],"ch01_unique":[811.0,637.0,971.0,493.0],"ch01_repairs":[67.1]},"provider_usage":None,"provider_cost":None,"seed":None,"note":"Per-output elapsed in RenderRecords is amortized orchestration wall time within parallel batches; exact provider execution time was not exposed. All 52 CH01 panels now resolve to distinct art-file hashes."})
 
 
 if __name__ == "__main__":

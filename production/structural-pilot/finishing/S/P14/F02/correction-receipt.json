@@ -1,0 +1,114 @@
+{
+  "schema": "ConventionalCorrectionRound/1",
+  "round": 1,
+  "start_utc": "2026-09-07T07:12:05+00:00",
+  "cap_seconds": 1500,
+  "previous": "F01-v4/P14-F01-v4.png",
+  "source_erasure_regions": {
+    "nera_old_distal_left_arm_and_staff": [
+      [
+        454,
+        881
+      ],
+      [
+        517,
+        881
+      ],
+      [
+        553,
+        1020
+      ],
+      [
+        621,
+        1168
+      ],
+      [
+        576,
+        1187
+      ],
+      [
+        478,
+        1070
+      ],
+      [
+        459,
+        1035
+      ]
+    ],
+    "odo_old_distal_right_arm_hand_and_vial": [
+      [
+        970,
+        775
+      ],
+      [
+        1090,
+        797
+      ],
+      [
+        1065,
+        866
+      ],
+      [
+        1037,
+        1025
+      ],
+      [
+        993,
+        1066
+      ],
+      [
+        914,
+        1076
+      ],
+      [
+        894,
+        950
+      ],
+      [
+        910,
+        865
+      ],
+      [
+        951,
+        844
+      ]
+    ]
+  },
+  "source_trouser_crop": [
+    851,
+    1090,
+    969,
+    1305
+  ],
+  "source_trouser_resize": [
+    145,
+    260
+  ],
+  "source_trouser_place": [
+    857,
+    950
+  ],
+  "left_hand_source_crop": [
+    458,
+    917,
+    543,
+    1051
+  ],
+  "left_hand_source_grasp": [
+    499,
+    1006
+  ],
+  "left_hand_target_grasp": [
+    583.83,
+    1160.15
+  ],
+  "left_hand_transform": "matrix(0.39453403211016974 0.8089146416692503 -0.8089146416692503 0.39453403211016974 639.6475077920463 1091.8709708337558)",
+  "methods": [
+    "Restore original trouser silhouette around tighter old-prop removals",
+    "Fill new sleeves/cuff with native source cloth",
+    "Rotate original anatomical left hand to fixed metric rod axis",
+    "Draw cupped anatomical right palm beneath fixed flask base, filled with native skin pixels"
+  ],
+  "generation_calls": 0,
+  "fixed_prop_geometry_changed": false
+}

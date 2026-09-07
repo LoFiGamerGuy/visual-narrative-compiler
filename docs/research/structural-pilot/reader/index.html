@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Structural pilot · Three-route reader</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="review-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body class="neutral-review">
+  <a class="skip" href="#workspace">Skip to workspace</a>
+  <header class="masthead">
+    <div><p class="eyebrow">STRUCTURAL PILOT / WORKING READER</p><h1 id="title">Story & panel review</h1><p id="subtitle">A short sequence. Every beat earns its place.</p></div>
+    <span class="status-pill">DRAFT · UNACCEPTED</span>
+  </header>
+  <div class="route-toolbar" aria-label="Route controls"><label>Sequence version <select id="route-select"></select></label><label class="check"><input id="neutral-mode" type="checkbox" checked>Neutral labels</label><span id="route-state" role="status"></span><a href="../index.html" class="provenance-only">Experiment handoff</a></div>
+  <p class="neutral-note">X, Y and Z use the same fourteen beats and original copy. Only P09, P11, P13 and P14 are screened. Neutral labels hide route names and prior conclusions; visible art can still reveal the method. Every candidate remains unaccepted.</p>
+  <div class="toolbar" aria-label="Workspace controls">
+    <div class="switch" aria-label="Workspace view"><button id="review-view" type="button" aria-pressed="true">Edit lettering</button><button id="reader-view" type="button" aria-pressed="false">Read sequence</button><button id="compare-view" type="button" aria-pressed="false">Compare</button></div>
+    <div class="actions"><button id="import-button" type="button">Import review JSON</button><input id="import-file" type="file" accept=".json,application/json" hidden><button id="export-button" type="button">Export review JSON</button><button id="svg-button" type="button">Export panel lettering</button></div>
+  </div>
+  <p id="notice" role="status" aria-live="polite"></p>
+  <details class="gate-note provenance-only" id="gate-note"><summary id="gate-summary">Production acceptance is pending</summary><p>These are editable review notes. Reviewer labels are self-reported, geometry checks do not understand the artwork, and no edit or export approves production.</p><ul id="blockers"></ul><p id="binding" class="mono"></p></details>
+  <main id="workspace" tabindex="-1">
+    <nav class="panel-nav" aria-label="Panels"><div class="nav-heading"><h2>Sequence</h2><span id="panel-count"></span></div><div id="panel-list"></div><button id="transcript-toggle" type="button" aria-expanded="false" aria-controls="transcript">Open transcript</button></nav>
+    <section class="stage" aria-labelledby="stage-title">
+      <div class="stage-heading"><div><p class="eyebrow" id="stage-kicker">PANEL REVIEW</p><h2 id="stage-title">Loading the sequence…</h2></div><div class="stage-controls"><button id="previous" aria-label="Previous panel" type="button">←</button><button id="next" aria-label="Next panel" type="button">→</button></div></div>
+      <div class="preview-controls"><label>Preview <select id="preview-mode"><option value="phone">Phone · 390 px</option><option value="full">Full canvas</option></select></label><label>Copy stress <select id="stress"><option value="0">Original copy</option><option value="30">At least +30%</option><option value="50">At least +50%</option></select></label><label class="check"><input id="show-regions" type="checkbox" checked>Show annotations</label></div>
+      <p id="stress-note" class="small" hidden>Artificial copy expansion repeats whole words to reach at least the selected growth; short copy can grow more. Original text and font sizes stay fixed. This is not a translation test.</p>
+      <div id="review-stage"><div id="art-mount" class="art-mount"></div><div id="source-caption" class="source-caption provenance-only"></div><div id="editable-sources" class="source-caption provenance-only"></div><section class="beat-card"><p class="eyebrow">THE FROZEN BEAT</p><h3 id="beat-function"></h3><p id="beat-text"></p><dl><dt>Camera</dt><dd id="camera"></dd><dt>Continuity</dt><dd id="continuity"></dd></dl></section></div>
+      <div id="reader-stage" hidden></div><div id="comparison-stage" hidden></div>
+      <section id="transcript" class="transcript" hidden aria-labelledby="transcript-title"><h2 id="transcript-title">Sequence transcript</h2><div id="transcript-body"></div></section>
+    </section>
+    <aside id="editor" class="editor" aria-label="Panel editor">
+      <section><p class="eyebrow">LETTERING / SEPARATE LAYER</p><h2>Make room for the story</h2><p class="small">Select a balloon, then drag it or its corner. Every position can also be edited with the keyboard.</p><label>Selected lettering <select id="lettering-select"></select></label><div class="actions"><button id="add-balloon" type="button">+ Balloon</button><button id="delete-balloon" type="button">Remove</button></div>
+      <form id="lettering-form"><label>Copy <textarea id="letter-text" rows="3" maxlength="4000"></textarea></label><div class="two"><label>Kind <select id="letter-kind"><option value="dialogue">Dialogue</option><option value="ui">System / UI</option><option value="sfx">Sound effect</option></select></label><label>Speaker <input id="letter-speaker" maxlength="100"></label></div><div class="two"><label>Shape <select id="letter-shape"><option value="rounded">Rounded</option><option value="ellipse">Ellipse</option></select></label><label>Font · px at 390 <input id="letter-font" type="number" min="6" max="96" step="0.5"></label></div><div class="four"><label>Left % <input id="letter-x" type="number" min="0" max="100" step="0.1"></label><label>Top % <input id="letter-y" type="number" min="0" max="100" step="0.1"></label><label>Width % <input id="letter-w" type="number" min="2" max="100" step="0.1"></label><label>Height % <input id="letter-h" type="number" min="2" max="100" step="0.1"></label></div><label class="check"><input id="letter-tail" type="checkbox">Draw a tail</label><div class="two"><label>Tail left % <input id="tail-x" type="number" min="0" max="100" step="0.1"></label><label>Tail top % <input id="tail-y" type="number" min="0" max="100" step="0.1"></label></div></form>
+      </section>
+      <section><p class="eyebrow">OBSERVED ART REGIONS</p><h2>Protect what matters</h2><p class="small">Mark a face, hand, prop or action contact on the actual image. Regions are reviewer annotations, never inferred from balloon placement.</p><label>Selected region <select id="region-select"></select></label><div class="actions"><button id="draw-region" type="button" aria-pressed="false">Draw a region</button><button id="add-region" type="button">+ Region by form</button><button id="delete-region" type="button">Remove</button></div><form id="region-form"><label>What is visible here? <input id="region-label" maxlength="160" placeholder="e.g. Nera’s staff meets the foreleg"></label><div class="four"><label>Left % <input id="region-x" type="number" min="0" max="100" step="0.1"></label><label>Top % <input id="region-y" type="number" min="0" max="100" step="0.1"></label><label>Width % <input id="region-w" type="number" min="2" max="100" step="0.1"></label><label>Height % <input id="region-h" type="number" min="2" max="100" step="0.1"></label></div></form></section>
+      <section><p class="eyebrow">LIVE GEOMETRY CHECK</p><h2 id="geometry-title">Awaiting a panel</h2><p class="small">Tests rendered text boxes against balloon contours and marked regions. This cannot verify cast, action, meaning or approval.</p><ul id="geometry-results"></ul></section>
+      <section><p class="eyebrow">YOUR REVIEW NOTES</p><h2>What does the image show?</h2><form id="observation-form"><label>Observation <textarea id="observation-text" rows="3" maxlength="4000" required placeholder="Describe visible evidence and the exact mismatch, if any."></textarea></label><label>Flag <select id="observation-flag"><option value="note">Note / unresolved</option><option value="wrong_event">Wrong event</option><option value="cast_identity">Cast / identity</option><option value="geography">Geography</option><option value="contact_force">Contact / force</option><option value="continuity_state">Continuity / state</option><option value="lettering">Lettering</option><option value="delivery">Delivery</option><option value="positive_evidence">Positive evidence</option></select></label><div class="two"><label>Reviewer name <input id="reviewer-name" maxlength="100" placeholder="Optional"></label><label>Self-described type <select id="reviewer-kind"><option value="unspecified">Unspecified</option><option value="agent">Agent</option><option value="human">Human</option></select></label></div><p class="small">Names and types are not verified identities or approval.</p><button type="submit">Add observation</button></form><ol id="observations"></ol></section>
+    </aside>
+  </main>
+  <footer>Original scene · controlled comparison. <span>Original pilot · draft evidence · no production approval</span></footer>
+</body>
+</html>

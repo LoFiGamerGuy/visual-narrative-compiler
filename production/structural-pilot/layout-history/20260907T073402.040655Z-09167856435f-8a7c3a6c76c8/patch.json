@@ -1,0 +1,141 @@
+{
+  "schema": "StructuralReaderLayoutPatch/1",
+  "experiment_id": "SC-20260907-01",
+  "route_id": "S",
+  "input_path": "production/structural-pilot/reader-input.json",
+  "input_sha256_before": "09167856435feb944aafc5afbb25e358a2424eed5775610bdf1c81a336a221e5",
+  "draft_sha256": "8a7c3a6c76c85b3a8a4dab0b5b6afa2bfc9b62c5f5b67489c13a38236faaf8ce",
+  "plan_sha256": "a873faf3c2d2218c4db00927dc27a47059e17065553166f4b884d0badab07a6a",
+  "changes": [
+    {
+      "panel": "P14",
+      "candidate_id": "SC-S-P14-F02-v5-portable",
+      "candidate_sha256": "94126d1f20a4e0b801ad616f269779bc225e2c94316b5ec85b200a37fc4d7d62",
+      "before_lettering": [
+        {
+          "id": "P14-L01",
+          "kind": "dialogue",
+          "speaker": "ODO",
+          "text": "Steady.",
+          "shape": "ellipse",
+          "x": 0.62,
+          "y": 0.065,
+          "w": 0.27,
+          "h": 0.09,
+          "font_size": 16,
+          "tail": {
+            "x": 0.8,
+            "y": 0.175
+          }
+        },
+        {
+          "id": "P14-L02",
+          "kind": "dialogue",
+          "speaker": "NERA",
+          "text": "I am.",
+          "shape": "ellipse",
+          "x": 0.04,
+          "y": 0.18,
+          "w": 0.28,
+          "h": 0.075,
+          "font_size": 16,
+          "tail": {
+            "x": 0.18,
+            "y": 0.28
+          }
+        }
+      ],
+      "after_lettering": [
+        {
+          "id": "P14-L01",
+          "text": "Steady.",
+          "kind": "dialogue",
+          "speaker": "ODO",
+          "shape": "ellipse",
+          "x": 0.62,
+          "y": 0.05,
+          "w": 0.27,
+          "h": 0.09,
+          "font_size": 16,
+          "tail": {
+            "x": 0.8,
+            "y": 0.162
+          }
+        },
+        {
+          "id": "P14-L02",
+          "text": "I am.",
+          "kind": "dialogue",
+          "speaker": "NERA",
+          "shape": "ellipse",
+          "x": 0.04,
+          "y": 0.145,
+          "w": 0.28,
+          "h": 0.08,
+          "font_size": 16,
+          "tail": {
+            "x": 0.2,
+            "y": 0.262
+          }
+        }
+      ],
+      "before_protected_regions": [
+        {
+          "id": "P14-R01",
+          "label": "Observed Nera face/hair",
+          "x": 0.15,
+          "y": 0.27,
+          "w": 0.22,
+          "h": 0.19
+        },
+        {
+          "id": "P14-R02",
+          "label": "Observed Odo face/hair",
+          "x": 0.67,
+          "y": 0.17,
+          "w": 0.18,
+          "h": 0.2
+        },
+        {
+          "id": "P14-R03",
+          "label": "Observed right injured supported hand",
+          "x": 0.48,
+          "y": 0.61,
+          "w": 0.11,
+          "h": 0.11
+        }
+      ],
+      "after_protected_regions": [
+        {
+          "id": "P14-R01",
+          "label": "Observed Nera face/hair",
+          "x": 0.15,
+          "y": 0.27,
+          "w": 0.22,
+          "h": 0.19
+        },
+        {
+          "id": "P14-R02",
+          "label": "Observed Odo face/hair",
+          "x": 0.67,
+          "y": 0.17,
+          "w": 0.18,
+          "h": 0.2
+        },
+        {
+          "id": "P14-R03",
+          "label": "Observed right injured supported hand",
+          "x": 0.48,
+          "y": 0.61,
+          "w": 0.11,
+          "h": 0.11
+        }
+      ]
+    }
+  ],
+  "browser_notes_preserved_only": 0,
+  "notes_policy": "Retained in immutable draft snapshot only; never applied as semantic checks, identity verification or acceptance.",
+  "context_unchanged": true,
+  "status": "draft-unaccepted",
+  "production_eligible": false
+}

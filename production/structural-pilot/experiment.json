@@ -1,0 +1,71 @@
+{
+  "experiment_id": "SC-20260907-01",
+  "hypotheses": [
+    "Fixed editable environment/threat/prop layers preserve contact, leg count and separation better than a full-frame render guided by the same geometry.",
+    "Separately rendered adult character layers plus bounded agent-authored conventional finishing can retain expressive appeal while improving the difficult action/state relationships.",
+    "Geometry-guided full-frame finishing may offer better integrated drawing; any loss of relationships must remain visible and counted."
+  ],
+  "selected_panels": [
+    "P09",
+    "P11",
+    "P13",
+    "P14"
+  ],
+  "context_control_panels": [
+    "P08",
+    "P10",
+    "P12"
+  ],
+  "routes": [
+    {
+      "id": "S",
+      "label": "Fixed scene with separate character art",
+      "mechanism": "New original Blender architecture and exactly-three-leg threat renders remain fixed; in-product image tool generates adult-only transparent character layer from matching original scene guide plus new original cast sheet. Deterministic layer composition and explicit editable SVG prop/contact/effect finishing. Soft raster guide conditioning, not ControlNet. Actual alpha/geometry retention must be measured.",
+      "primary_per_selected_panel": 1,
+      "hard_failure_retry_per_selected_panel": 1
+    },
+    {
+      "id": "G",
+      "label": "Geometry-guided full-frame finishing",
+      "mechanism": "Same new original scene guide and cast sheet, same beat/copy/framing. In-product image tool generates a complete illustrated panel. Guide adherence is instruction-based; no mask, seed, structural adapter or exact pixel preservation promised.",
+      "primary_per_selected_panel": 1,
+      "hard_failure_retry_per_selected_panel": 1
+    }
+  ],
+  "supplementary_assets": {
+    "cast_sheet": {
+      "primary": 1,
+      "hard_failure_retry": 1,
+      "purpose": "New original character identity/line-value reference only; does not spend old pilot budgets."
+    }
+  },
+  "manual_effort": {
+    "attribution": "Agent-authored conventional editing; elapsed wall time recorded, not human labor.",
+    "S_primary_composition_minutes_total": 80,
+    "S_correction_rounds_per_panel": 1,
+    "S_correction_minutes_per_panel": 25,
+    "G_correction_rounds_per_panel": 0,
+    "control_preparation_minutes_target": 60,
+    "preserve_versions": true
+  },
+  "hard_checks": [
+    "P09 preserves P08 staff-to-same-forefoot lock on dry ridge; three-legged body visibly pivots while distinct side limb threatens Odo at west release.",
+    "P11 has one Nera airborne above visibly ongoing sweep; a readable brake and redirected path, one intact staff; Odo starts east with one upright sealed flask and cable raises east shutter.",
+    "P13 shows exactly three threat legs, lowered shutter physically between west threat and east adults, pinned foreleg under edge, broken staff, right-hand dorsal injury, no invented wounds.",
+    "P14 keeps injured anatomical RIGHT hand supported by Odo, broken staff in LEFT hand, sealed flask with Odo, expressive adult aftermath beyond the shutter.",
+    "Unchanged exact story copy, charge sequence, earned unlock and surrounding context. No obscured face/contact or unreadable required lettering.",
+    "Reference/output hashes and all attempts retained; provider snapshot, seed, usage and billing allocation null when unknown."
+  ],
+  "screen_scale_rule": "Expand only if independent AI visual inspection plus lead inspection find all selected hard relationships visibly resolved, clear improvement over baseline, and credible drawing appeal without an obvious art/acting regression. This only authorizes completing experimental 10–14-panel reader within this session, not production acceptance. Human/owner/commercial gates remain pending. If screen fails, preserve failure and spend remaining time on concrete conventional correction proof rather than more full-frame prompt variants.",
+  "direct_spend_usd": 0,
+  "human_reviews_run": 0,
+  "owner_acceptance": null,
+  "commercial_clearance": null,
+  "provider_model_snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing_allocation": null,
+  "frozen_utc": "2026-09-07 05:48:26 UTC",
+  "source_commit": "0c1a8fb337d82f0c9c2a45ed94661d1bdaa1f424",
+  "baseline_plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6"
+}

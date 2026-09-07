@@ -1,0 +1,66 @@
+{
+  "id": "SC-20260907-01-S-P14-F01-v4",
+  "width": 1170,
+  "height": 1320,
+  "output_svg": "production/structural-pilot/finishing/S/P14/F01-v4/P14-F01-v4.svg",
+  "description": "Original adult pair retained together to preserve right-hand support; checkerboard/foreign props removed; rigid v8 staff/flask plus explicit conventional far-arm/hand corrections. Unaccepted candidate.",
+  "layers": [
+    {
+      "id": "fixed-architecture",
+      "path": "production/structural-pilot/control/v8/P14-background.png",
+      "kind": "fixed-original-geometry"
+    },
+    {
+      "id": "fixed-partition",
+      "path": "production/structural-pilot/control/v8/P14-foreground.png",
+      "kind": "fixed-original-geometry"
+    },
+    {
+      "id": "odo-source-bound-trouser-clone",
+      "path": "production/structural-pilot/finishing/S/P14/F01-v4/trouser-source-clone.png",
+      "width": 165,
+      "height": 370,
+      "transform": "translate(855 950)",
+      "kind": "explicit-conventional-source-clone"
+    },
+    {
+      "id": "connected-adult-pair",
+      "path": "production/structural-pilot/finishing/S/P14/F01-v2/pair-matte.png",
+      "width": 1193,
+      "height": 1318,
+      "transform": "matrix(1 0 0 1.05 -38.67 87.95)",
+      "kind": "source-bound-color-key-and-explicit-prop-region-mask"
+    },
+    {
+      "id": "fixed-staff-and-flask",
+      "path": "production/structural-pilot/finishing/S/P14/F01/fixed-props-without-double-wound.png",
+      "kind": "fixed-v8-props-with-duplicate-schematic-injury-removed"
+    },
+    {
+      "id": "nera-anatomical-left-forearm-and-grip",
+      "svg": "<path d=\"M423 1008 Q440 994 458 1013 L543 1115 L530 1149 Q513 1147 494 1128 L430 1070 Z\" fill=\"#303239\" stroke=\"#17191e\" stroke-width=\"3.4\"/><path d=\"M442 1017 L454 1045 L526 1122 L514 1131 L446 1050\" fill=\"#44474f\"/><path d=\"M518 1105 L544 1121 L534 1150 L506 1132 Z\" fill=\"#24262d\" stroke=\"#17191e\" stroke-width=\"3\"/>",
+      "kind": "explicit-conventional-vector-drawing"
+    },
+    {
+      "id": "odo-right-forearm-and-flask-grip",
+      "svg": "<path d=\"M1022 766 Q1055 790 1045 827 L1037 858 L986 843 L984 798 Z\" fill=\"#224b8b\" stroke=\"#172331\" stroke-width=\"3\"/><path d=\"M983 784 L1042 805 L1036 832 L980 811 Z\" fill=\"#d8c8a5\" stroke=\"#2c2b28\" stroke-width=\"3\"/>",
+      "kind": "explicit-conventional-vector-drawing"
+    },
+    {
+      "id": "source-drawn-nera-hand",
+      "path": "production/structural-pilot/finishing/S/P14/F01-v3/nera-hand.png",
+      "width": 102,
+      "height": 155,
+      "transform": "rotate(-45 589 1158) matrix(.7 0 0 .7 553.2 1082.5)",
+      "kind": "explicit-source-hand-mask-and-affine"
+    },
+    {
+      "id": "source-drawn-odo-hand",
+      "path": "production/structural-pilot/finishing/S/P14/F01-v3/odo-hand.png",
+      "width": 144,
+      "height": 211,
+      "transform": "matrix(.8 0 0 .8 927.4 762.8)",
+      "kind": "explicit-source-hand-mask-and-affine"
+    }
+  ]
+}

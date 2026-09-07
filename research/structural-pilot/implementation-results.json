@@ -1,0 +1,166 @@
+{
+  "schema": "StructuralExperimentResults/1",
+  "experiments": [
+    "SC-20260907-01",
+    "CF-20260907-02"
+  ],
+  "source_commit": "0c1a8fb337d82f0c9c2a45ed94661d1bdaa1f424",
+  "panel_generation": {
+    "total": 13,
+    "primary": 8,
+    "targeted_retry": 5,
+    "by_route": {
+      "S": 6,
+      "G": 7
+    },
+    "documented_hard_failure_attempt_count": 11,
+    "failures": [
+      {
+        "attempt_id": "A00001",
+        "failure_class": "hard_failure",
+        "reason": "Actual C00001 inspection: RGB baked checkerboard, not transparent; actors enlarged/recentered; Nera left arm/grip concealed, only one low right fist so two-hand staff restraint cannot be composited from this pose; prohibited flask remains on cape."
+      },
+      {
+        "attempt_id": "A00002",
+        "failure_class": "hard_failure",
+        "reason": "Actual C00002 inspection: staff crosses foreleg above foot then continues far right onto floor, so same-forefoot tip restraint from P08 is absent; only one visible hand grips; flask sits diagonally on back/cape instead of upright chest sling."
+      },
+      {
+        "attempt_id": "A00003",
+        "failure_class": "hard_failure",
+        "reason": "Actual C00003 inspection plus RGB alpha measurement: baked checkerboard has zero transparency; staff/flask/rope included despite separate-prop contract; actor scale/placements shifted. Raw layer requires conventional matting/repositioning/prop occlusion, not native alpha composition."
+      },
+      {
+        "attempt_id": "A00004",
+        "failure_class": "hard_failure",
+        "reason": "Independent and lead actual-art inspection: ongoing sweep and eastward escape improved, but cyan ascent reads as continuous jump trajectory; halt plus redirected descent toward P12 strike not clearly visible at native or390px. Required Air Brake relation unresolved."
+      },
+      {
+        "attempt_id": "A00005",
+        "failure_class": "hard_failure",
+        "reason": "Actual C00005: anatomicalLEFT hand carries dorsal wound and RIGHT hand holds staff, opposite P12 continuity. RGB bakedcheckerboard plus prohibitedstaff/flask; actors recentered and rotated frontward."
+      },
+      {
+        "attempt_id": "A00007",
+        "failure_class": "hard_failure",
+        "reason": "Actual C00007 alpha/prop contract failure: RGB bakedcheckerboard, unwanted staff and flask included. Correct right-hand support and leftstaff pose are usable only with explicit conventional matting/prop separation."
+      },
+      {
+        "attempt_id": "A00008",
+        "failure_class": "hard_failure",
+        "reason": "Actual C00008: shutter is raised behind adults, exposing walking-height opening and sentinel rather than preserving lowered barrier from P13. Left hand hangs empty while broken staff appears leaning/floating separately. Right-hand wound/support itself is visibly improved."
+      },
+      {
+        "attempt_id": "A00009",
+        "failure_class": "hard_failure",
+        "reason": "Final S09 retry still has off-axis hanging grips and RGBcheckerboard; fixed staff requires conventional arm redraw."
+      },
+      {
+        "attempt_id": "A00010",
+        "failure_class": "hard_failure",
+        "reason": "Independent enlarged finalG09retry shows actual paving gap between staff endpoint and toe; spark does not establish restraint."
+      },
+      {
+        "attempt_id": "A00011",
+        "failure_class": "hard_failure",
+        "reason": "Final S13retry corrects hand laterality but remains RGBcheckerboard/zeroalpha with recentered actors; conventionalmatting/compositionrequired."
+      },
+      {
+        "attempt_id": "A00013",
+        "failure_class": "hard_failure",
+        "reason": "FinalG11retry leaves down-right arrow aimed toward doorway, not clear forelimb contact; sealed flask cap uncertain from dark open-looking ellipse."
+      }
+    ],
+    "actual_observations": 13,
+    "failure_interpretation": "Raw instruction-contract failures, including all six S alpha failures; not a production success-rate estimate."
+  },
+  "cast_reference_calls": 1,
+  "new_in_product_image_calls_total": 14,
+  "old_baseline_budgets": {
+    "primary": 14,
+    "correction": 9,
+    "reference": 3,
+    "status": "closed-preserved"
+  },
+  "agent_effort": {
+    "control_seconds": 1907.16,
+    "S_primary_seconds": 2591.208911,
+    "S_correction_seconds": 987.559313,
+    "S_packaging_seconds": 144.09252,
+    "CF_panels": {
+      "P09": {
+        "primary_seconds": 90.289085,
+        "correction_seconds": 105.292596,
+        "total_seconds": 195.581681
+      },
+      "P11": {
+        "primary_seconds": 555.440927,
+        "correction_seconds": 404.853824,
+        "total_seconds": 960.2947509999999
+      },
+      "P13": {
+        "primary_seconds": 195,
+        "correction_seconds": 25,
+        "total_seconds": 220
+      }
+    },
+    "CF_total_minutes": 22.93127386666667,
+    "meaning": "Recorded agent wall authoring intervals, not human labor or total project elapsed time. Parallel work must not be added to claim elapsed time."
+  },
+  "costs": {
+    "direct_paid_usd": 0,
+    "in_product_billing_allocation": null,
+    "usage": null,
+    "human_labor_hours": null
+  },
+  "raster_metadata": {
+    "provider": null,
+    "model_snapshot": null,
+    "seed": null,
+    "reasoning_model_is_not_image_model": true
+  },
+  "decision": {
+    "platform": "Retain Ember provisionally; no identified-provider comparison was run.",
+    "active_experimental_workflow": "Editable control, bounded illustrated draft, explicit local correction, editable lettering, actual continuous review.",
+    "S_finished_screen": "failed-artistic-coherence",
+    "G_screen": "failed-contact-and-motion-contract",
+    "CF_result": "Narrow visible corrections; whole sequence remains incoherent.",
+    "new_10_to_14_panel_expansion": "not-earned-not-run",
+    "production_accepted": false
+  },
+  "implemented": [
+    "Seven-panel editable original Blender scene and separate passes",
+    "Four S and four G screened panels with bounded targeted retries",
+    "Three zero-generation local correction proofs; unchanged G14 reference",
+    "Fourteen-panel context readers and compact before/after",
+    "Source-bound persisted browser lettering drafts with immutable history"
+  ],
+  "failed": [
+    "Requested native transparent character layers returned opaque checkerboards",
+    "Fixed machinery and patched anatomy retain diagram-like finish",
+    "Full-frame retries lost exact contact, motion or aftermath state",
+    "First CF09 contact and CF11 repair versions showed material/seam artifacts; preserved and corrected within one declared round"
+  ],
+  "unrun": [
+    "NovelAI: no authorized connected access available",
+    "Local ComfyUI renderer: checked endpoints unavailable",
+    "Skilled human artist correction",
+    "New coherent 10\u201314-panel expansion",
+    "Independent human comprehension",
+    "Owner-preference approval",
+    "Commercial-clearance review"
+  ],
+  "acceptance": {
+    "file_integrity": "See verification receipts",
+    "actual_semantics": "AI observations and independent AI reviews; limitations retained",
+    "lettering_mobile": "See actual browser QA",
+    "artistic_appeal": "Below requested sequential-art bar",
+    "independent_human_comprehension": null,
+    "owner_preference": null,
+    "commercial_clearance": null
+  },
+  "errata": [
+    "CF P13 F02 spec timestamp typo is preserved; corrected observed 25-second interval is in effort-and-pixel-evidence.json.",
+    "Reference order in generic ledger is not ordered tool input: exact calls/Axxxxx.json records the actual guide-first, cast-second tool arguments."
+  ]
+}

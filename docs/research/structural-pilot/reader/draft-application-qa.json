@@ -1,0 +1,61 @@
+{
+  "schema": "StructuralReaderDraftApplicationQA/1",
+  "tested_utc": "2026-09-07",
+  "implementation": "research/structural-pilot/apply_reader_draft.py",
+  "unit_tests": 10,
+  "unit_tests_pass": true,
+  "actual_browser_export_demonstrated": true,
+  "demonstration": "P14 Nera balloon moved and tail lengthened in actual browser; exact export checked, snapshotted, applied and rebuilt. CF-only P09 region label neutralized. Matching final lettering applied to both G source views in separate versions.",
+  "versions": [
+    {
+      "path": "production/structural-pilot/layout-history/20260907T071636.752719Z-2a089e870a6c-2ee0f7d085b4",
+      "experiment_id": "CF-20260907-02",
+      "route_id": "CF",
+      "changed_panels": [
+        "P09",
+        "P14"
+      ],
+      "snapshots_match_bound_hashes": true,
+      "only_lettering_or_regions_changed": true
+    },
+    {
+      "path": "production/structural-pilot/layout-history/20260907T072010.086157Z-abb21d06ca77-8c1ad72e1ad8",
+      "experiment_id": "CF-20260907-02",
+      "route_id": "G",
+      "changed_panels": [
+        "P14"
+      ],
+      "snapshots_match_bound_hashes": true,
+      "only_lettering_or_regions_changed": true
+    },
+    {
+      "path": "production/structural-pilot/layout-history/20260907T072013.088104Z-16904dc669b6-f0f6fbf85401",
+      "experiment_id": "SC-20260907-01",
+      "route_id": "G",
+      "changed_panels": [
+        "P14"
+      ],
+      "snapshots_match_bound_hashes": true,
+      "only_lettering_or_regions_changed": true
+    },
+    {
+      "path": "production/structural-pilot/layout-history/20260907T073402.040655Z-09167856435f-8a7c3a6c76c8",
+      "experiment_id": "SC-20260907-01",
+      "route_id": "S",
+      "changed_panels": [
+        "P14"
+      ],
+      "snapshots_match_bound_hashes": true,
+      "only_lettering_or_regions_changed": true
+    }
+  ],
+  "old_export_rejected_after_apply": true,
+  "stale_rejection_message": "Reader draft rejected: Stale selected-input hash; reload current reader and export again",
+  "restoration_needed": false,
+  "retention_reason": "Independent live390px recheck found tail attribution readable with no face/hand/prop occlusion; new layout retained.",
+  "art_mutations": 0,
+  "semantic_record_mutations": 0,
+  "production_eligible": false,
+  "limits": "Rectangles/fonts/copy/source bindings are validated. Browser notes stay unverified snapshot data. Geometry checks do not establish visual readability; actual phone review remains required. Immutable history means this command never overwrites its snapshots; hashes identify exact bytes, not externally signed history.",
+  "additional_actual_application": "Final S14 tail clearance also applied from actual browser export, preserving another version; final three-viewport actual-art lettering QA passes."
+}

@@ -1,0 +1,715 @@
+{
+  "experiment_id": "CF-20260907-02",
+  "plan_path": "production/structural-pilot/correction-experiment.json",
+  "selected_panels": [
+    "P09",
+    "P11",
+    "P13",
+    "P14"
+  ],
+  "routes": [
+    {
+      "id": "G",
+      "label_provenance": "Generated source \u00b7 G",
+      "panels": {
+        "P09": {
+          "candidate_id": "C00010",
+          "path": "production/structural-pilot/candidates/C00010-f617453f42669035.png",
+          "sha256": "f617453f4266903532138003a78d0dac770683d8928651173211d1252e5651ef",
+          "lettering": [],
+          "protected_regions": [
+            {
+              "id": "P09-nera-face",
+              "label": "Nera visible head and face",
+              "x": 0.461,
+              "y": 0.371,
+              "w": 0.071,
+              "h": 0.109
+            },
+            {
+              "id": "P09-odo-face",
+              "label": "Odo visible face",
+              "x": 0.166,
+              "y": 0.323,
+              "w": 0.057,
+              "h": 0.084
+            },
+            {
+              "id": "P09-staff-toe",
+              "label": "Staff endpoint and forefoot region, including visible gap",
+              "x": 0.578,
+              "y": 0.665,
+              "w": 0.106,
+              "h": 0.071
+            },
+            {
+              "id": "P09-flask",
+              "label": "Upright container in front of Nera chest",
+              "x": 0.466,
+              "y": 0.487,
+              "w": 0.026,
+              "h": 0.068
+            },
+            {
+              "id": "P09-two-grips",
+              "label": "Nera visible two grips on staff",
+              "x": 0.493,
+              "y": 0.572,
+              "w": 0.091,
+              "h": 0.078
+            }
+          ],
+          "source_links": [
+            {
+              "label": "Preserved generated source PNG",
+              "path": "production/structural-pilot/candidates/C00010-f617453f42669035.png",
+              "sha256": "f617453f4266903532138003a78d0dac770683d8928651173211d1252e5651ef"
+            },
+            {
+              "label": "Exact targeted retry instruction",
+              "path": "production/structural-pilot/prompts/P09-G-retry.txt",
+              "sha256": "d19d04e389dc5cda9888bbd97f5e5cf5d8d31beead2025a54b27c1d5895c8b4f"
+            }
+          ]
+        },
+        "P11": {
+          "candidate_id": "C00013",
+          "path": "production/structural-pilot/candidates/C00013-901ccab2f920789b.png",
+          "sha256": "901ccab2f920789b5916fcbe0b0d882be4a3bf8e3df917f8e1cbee6b4dc4e61b",
+          "lettering": [
+            {
+              "id": "P11-L01",
+              "kind": "ui",
+              "speaker": "",
+              "text": "AIR BRAKE \u00b7 PULSE 2 \u2192 1",
+              "shape": "rounded",
+              "x": 0.045,
+              "y": 0.05,
+              "w": 0.34,
+              "h": 0.11,
+              "font_size": 13.5,
+              "tail": null
+            }
+          ],
+          "protected_regions": [
+            {
+              "id": "P11-nera-face",
+              "label": "Nera visible head and face",
+              "x": 0.6028717587830889,
+              "y": 0.096,
+              "w": 0.08988794456774751,
+              "h": 0.08
+            },
+            {
+              "id": "P11-odo-face",
+              "label": "Odo visible head and face",
+              "x": 0.32721539544199646,
+              "y": 0.511,
+              "w": 0.07990039517133113,
+              "h": 0.08
+            },
+            {
+              "id": "P11-flask",
+              "label": "Odo held container and rim",
+              "x": 0.40711579061332753,
+              "y": 0.585,
+              "w": 0.03196015806853245,
+              "h": 0.043
+            },
+            {
+              "id": "P11-violet-sweep",
+              "label": "Low violet sweep accent beside Odo legs",
+              "x": 0.13545444703080176,
+              "y": 0.76,
+              "w": 0.4494397228387376,
+              "h": 0.045
+            },
+            {
+              "id": "P11-cyan-turn",
+              "label": "Cyan turn above Nera",
+              "x": 0.46204731229361773,
+              "y": 0.065,
+              "w": 0.19475721323011963,
+              "h": 0.048
+            },
+            {
+              "id": "P11-staff-grip",
+              "label": "Nera hand at staff",
+              "x": 0.7037460076868943,
+              "y": 0.24,
+              "w": 0.05193525686136523,
+              "h": 0.039
+            },
+            {
+              "id": "P11-descending-accent",
+              "label": "Short cyan descending accent beside staff",
+              "x": 0.7526849997293347,
+              "y": 0.332,
+              "w": 0.07790288529204785,
+              "h": 0.073
+            }
+          ],
+          "source_links": [
+            {
+              "label": "Preserved generated source PNG",
+              "path": "production/structural-pilot/candidates/C00013-901ccab2f920789b.png",
+              "sha256": "901ccab2f920789b5916fcbe0b0d882be4a3bf8e3df917f8e1cbee6b4dc4e61b"
+            },
+            {
+              "label": "Exact targeted retry instruction",
+              "path": "production/structural-pilot/prompts/P11-G-retry.txt",
+              "sha256": "28a6fd88b143a1ab80bc09295b6174b63d421334a84e70df444cd293ee06b03c"
+            }
+          ]
+        },
+        "P13": {
+          "candidate_id": "C00006",
+          "path": "production/structural-pilot/candidates/C00006-7bcaae7ecfd93780.png",
+          "sha256": "7bcaae7ecfd937805a8db1b4bed00eab40e42d601734f263e38a30831bac345f",
+          "lettering": [],
+          "protected_regions": [
+            {
+              "id": "P13-nera-face",
+              "label": "Nera visible face",
+              "x": 0.695,
+              "y": 0.35019142419601834,
+              "w": 0.065,
+              "h": 0.06491704951505871
+            },
+            {
+              "id": "P13-odo-face",
+              "label": "Odo visible face",
+              "x": 0.837,
+              "y": 0.24432669729453801,
+              "w": 0.07,
+              "h": 0.11085834609494641
+            },
+            {
+              "id": "P13-injured-hand",
+              "label": "Red marks on Nera visible hand",
+              "x": 0.755,
+              "y": 0.5149808575803981,
+              "w": 0.07,
+              "h": 0.06591577335375193
+            },
+            {
+              "id": "P13-staff-fragment",
+              "label": "Broken wooden fragment near Nera lowered hand",
+              "x": 0.806,
+              "y": 0.627836651352731,
+              "w": 0.05,
+              "h": 0.09487876467585504
+            },
+            {
+              "id": "P13-floor-fragment",
+              "label": "Detached wooden fragment on left floor",
+              "x": 0.238,
+              "y": 0.736697549770291,
+              "w": 0.12,
+              "h": 0.026965543644716695
+            },
+            {
+              "id": "P13-flask",
+              "label": "Odo visible container and grip",
+              "x": 0.895,
+              "y": 0.39413527309851965,
+              "w": 0.035,
+              "h": 0.11685068912710568
+            },
+            {
+              "id": "P13-shutter",
+              "label": "Visible shutter slab between figures and threat",
+              "x": 0.451,
+              "y": 0.000638080653394546,
+              "w": 0.119,
+              "h": 0.7550352220520674
+            }
+          ],
+          "source_links": [
+            {
+              "label": "Preserved generated source PNG",
+              "path": "production/structural-pilot/candidates/C00006-7bcaae7ecfd93780.png",
+              "sha256": "7bcaae7ecfd937805a8db1b4bed00eab40e42d601734f263e38a30831bac345f"
+            },
+            {
+              "label": "Exact primary generation instruction",
+              "path": "production/structural-pilot/prompts/P13-G-primary.txt",
+              "sha256": "80a49d345302cd4722860195ea22957d222059143e9da3505c29cd455b2f7aa0"
+            }
+          ]
+        },
+        "P14": {
+          "candidate_id": "C00012",
+          "path": "production/structural-pilot/candidates/C00012-bfbb5df4ac945f08.png",
+          "sha256": "bfbb5df4ac945f0841e33a07e3157b2447980850aa1fbec7f7bb55670d7347cc",
+          "lettering": [
+            {
+              "id": "P14-L01",
+              "kind": "dialogue",
+              "speaker": "ODO",
+              "text": "Steady.",
+              "shape": "rounded",
+              "x": 0.445,
+              "y": 0.08,
+              "w": 0.22,
+              "h": 0.105,
+              "font_size": 16,
+              "tail": {
+                "x": 0.666,
+                "y": 0.242
+              }
+            },
+            {
+              "id": "P14-L02",
+              "kind": "dialogue",
+              "speaker": "NERA",
+              "text": "I am.",
+              "shape": "rounded",
+              "x": 0.395,
+              "y": 0.29,
+              "w": 0.16,
+              "h": 0.1,
+              "font_size": 16,
+              "tail": {
+                "x": 0.378,
+                "y": 0.32
+              }
+            }
+          ],
+          "protected_regions": [
+            {
+              "id": "P14-nera-face",
+              "label": "Nera visible face",
+              "x": 0.25531575201492684,
+              "y": 0.251,
+              "w": 0.11684921230307577,
+              "h": 0.108
+            },
+            {
+              "id": "P14-odo-face",
+              "label": "Odo visible face",
+              "x": 0.6797680189278088,
+              "y": 0.155,
+              "w": 0.15579894973743436,
+              "h": 0.123
+            },
+            {
+              "id": "P14-injury-support",
+              "label": "Joined hands with right-hand injury",
+              "x": 0.4680412410795007,
+              "y": 0.562,
+              "w": 0.09288014311270125,
+              "h": 0.12
+            },
+            {
+              "id": "P14-flask",
+              "label": "Capped container held by Odo",
+              "x": 0.7866301190682286,
+              "y": 0.595,
+              "w": 0.0828930309500452,
+              "h": 0.114
+            },
+            {
+              "id": "P14-left-staff",
+              "label": "Nera left hand gripping short broken staff",
+              "x": 0.053576086329274665,
+              "y": 0.776,
+              "w": 0.13782214784465346,
+              "h": 0.175
+            }
+          ],
+          "source_links": [
+            {
+              "label": "Preserved generated source PNG",
+              "path": "production/structural-pilot/candidates/C00012-bfbb5df4ac945f08.png",
+              "sha256": "bfbb5df4ac945f0841e33a07e3157b2447980850aa1fbec7f7bb55670d7347cc"
+            },
+            {
+              "label": "Exact targeted retry instruction",
+              "path": "production/structural-pilot/prompts/P14-G-retry.txt",
+              "sha256": "977bb8ef4d470c9796a3a5f051e2e743193a95e9d9964cd0636459984be3569f"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "CF",
+      "label_provenance": "Conventional correction proof \u00b7 CF",
+      "panels": {
+        "P09": {
+          "candidate_id": "CF-P09-F02-v2",
+          "path": "production/structural-pilot/finishing/CF/P09/F02-v2/P09-F02-v2.png",
+          "sha256": "71f1d72dd0974faf9a9f88ac1308789c3f6532c9e424063c060a0daedd8a0fd2",
+          "lettering": [],
+          "protected_regions": [
+            {
+              "id": "P09-nera-face",
+              "label": "Nera visible head and face",
+              "x": 0.461,
+              "y": 0.371,
+              "w": 0.071,
+              "h": 0.109
+            },
+            {
+              "id": "P09-odo-face",
+              "label": "Odo visible face",
+              "x": 0.166,
+              "y": 0.323,
+              "w": 0.057,
+              "h": 0.084
+            },
+            {
+              "id": "P09-staff-toe",
+              "label": "Staff endpoint and forefoot contact region",
+              "x": 0.578,
+              "y": 0.665,
+              "w": 0.106,
+              "h": 0.071
+            },
+            {
+              "id": "P09-flask",
+              "label": "Upright container in front of Nera chest",
+              "x": 0.466,
+              "y": 0.487,
+              "w": 0.026,
+              "h": 0.068
+            },
+            {
+              "id": "P09-two-grips",
+              "label": "Nera visible two grips on staff",
+              "x": 0.493,
+              "y": 0.572,
+              "w": 0.091,
+              "h": 0.078
+            }
+          ],
+          "source_links": [
+            {
+              "label": "Editable correction composite",
+              "path": "production/structural-pilot/finishing/CF/P09/F02-v2/P09-F02-v2.svg",
+              "sha256": "05e8c85dce9804b3d0b43168d91e8dd409755f586bd234d3fc33e1299e42d9b1"
+            },
+            {
+              "label": "Correction source receipt",
+              "path": "production/structural-pilot/finishing/CF/P09/F02-v2/P09-F02-v2.json",
+              "sha256": "4ef4db54878c81894e8c3a55b49416543cf42f81f8ada588d48e46fdee250ab9"
+            },
+            {
+              "label": "Unchanged generated source",
+              "path": "production/structural-pilot/candidates/C00010-f617453f42669035.png",
+              "sha256": "f617453f4266903532138003a78d0dac770683d8928651173211d1252e5651ef"
+            }
+          ],
+          "source_candidate_sha256": "f617453f4266903532138003a78d0dac770683d8928651173211d1252e5651ef"
+        },
+        "P13": {
+          "candidate_id": "CF-P13-F02",
+          "path": "production/structural-pilot/finishing/CF/P13/P13-F02.png",
+          "sha256": "72db9f96a5149dd7a5ce9c3fb630dd11f64142e1c363949587d8ada45967370c",
+          "lettering": [],
+          "protected_regions": [
+            {
+              "id": "P13-nera-face",
+              "label": "Nera visible face",
+              "x": 0.695,
+              "y": 0.35019142419601834,
+              "w": 0.065,
+              "h": 0.06491704951505871
+            },
+            {
+              "id": "P13-odo-face",
+              "label": "Odo visible face",
+              "x": 0.837,
+              "y": 0.24432669729453801,
+              "w": 0.07,
+              "h": 0.11085834609494641
+            },
+            {
+              "id": "P13-injured-hand",
+              "label": "Red marks on Nera visible hand",
+              "x": 0.755,
+              "y": 0.5149808575803981,
+              "w": 0.07,
+              "h": 0.06591577335375193
+            },
+            {
+              "id": "P13-staff-fragment",
+              "label": "Broken wooden fragment near Nera lowered hand",
+              "x": 0.806,
+              "y": 0.627836651352731,
+              "w": 0.05,
+              "h": 0.09487876467585504
+            },
+            {
+              "id": "P13-floor-fragment",
+              "label": "Detached wooden fragment on left floor",
+              "x": 0.238,
+              "y": 0.736697549770291,
+              "w": 0.12,
+              "h": 0.026965543644716695
+            },
+            {
+              "id": "P13-flask",
+              "label": "Odo visible container and grip",
+              "x": 0.895,
+              "y": 0.39413527309851965,
+              "w": 0.035,
+              "h": 0.11685068912710568
+            },
+            {
+              "id": "P13-shutter",
+              "label": "Visible shutter slab between figures and threat",
+              "x": 0.451,
+              "y": 0.000638080653394546,
+              "w": 0.119,
+              "h": 0.7550352220520674
+            }
+          ],
+          "source_links": [
+            {
+              "label": "Editable correction composite",
+              "path": "production/structural-pilot/finishing/CF/P13/P13-F02.svg",
+              "sha256": "72f8a44b8728b185ad7f102b1ca84e0d3f0eaabadafa92dea44f4362944f1522"
+            },
+            {
+              "label": "Editable correction paths only",
+              "path": "production/structural-pilot/finishing/CF/P13/P13-F02-paths.svg",
+              "sha256": "1c10630edbcb99096df18230cd8e424b1638df127a56995a729eea7c01f90a80"
+            },
+            {
+              "label": "Exact path/source specification",
+              "path": "production/structural-pilot/finishing/CF/P13/P13-F02-spec.json",
+              "sha256": "bd96a1fae8c83398c8d402566bc737024fa0086b13f64b5c31c5385c58e63acf"
+            },
+            {
+              "label": "Effort and pixel evidence",
+              "path": "production/structural-pilot/finishing/CF/P13/effort-and-pixel-evidence.json",
+              "sha256": "c8a3acd668fa1749c5daf77637d7c7a734d966176354937f49903eb8daae5439"
+            },
+            {
+              "label": "Preserved F01 comparison",
+              "path": "production/structural-pilot/finishing/CF/P13/P13-F01.png",
+              "sha256": "85f5102d857e7b50c09602621ff38f39216ccebe432934e86109b29fcc508074"
+            },
+            {
+              "label": "Unchanged generated source",
+              "path": "production/structural-pilot/candidates/C00006-7bcaae7ecfd93780.png",
+              "sha256": "7bcaae7ecfd937805a8db1b4bed00eab40e42d601734f263e38a30831bac345f"
+            }
+          ],
+          "source_candidate_sha256": "7bcaae7ecfd937805a8db1b4bed00eab40e42d601734f263e38a30831bac345f"
+        },
+        "P14": {
+          "candidate_id": "C00012",
+          "path": "production/structural-pilot/candidates/C00012-bfbb5df4ac945f08.png",
+          "sha256": "bfbb5df4ac945f0841e33a07e3157b2447980850aa1fbec7f7bb55670d7347cc",
+          "lettering": [
+            {
+              "id": "P14-L01",
+              "text": "Steady.",
+              "kind": "dialogue",
+              "speaker": "ODO",
+              "shape": "rounded",
+              "x": 0.445,
+              "y": 0.08,
+              "w": 0.22,
+              "h": 0.105,
+              "font_size": 16,
+              "tail": {
+                "x": 0.666,
+                "y": 0.242
+              }
+            },
+            {
+              "id": "P14-L02",
+              "text": "I am.",
+              "kind": "dialogue",
+              "speaker": "NERA",
+              "shape": "rounded",
+              "x": 0.43,
+              "y": 0.205,
+              "w": 0.17,
+              "h": 0.105,
+              "font_size": 16,
+              "tail": {
+                "x": 0.385,
+                "y": 0.34
+              }
+            }
+          ],
+          "protected_regions": [
+            {
+              "id": "P14-nera-face",
+              "label": "Nera visible face",
+              "x": 0.25531575201492684,
+              "y": 0.251,
+              "w": 0.11684921230307577,
+              "h": 0.108
+            },
+            {
+              "id": "P14-odo-face",
+              "label": "Odo visible face",
+              "x": 0.6797680189278088,
+              "y": 0.155,
+              "w": 0.15579894973743436,
+              "h": 0.123
+            },
+            {
+              "id": "P14-injury-support",
+              "label": "Joined hands with right-hand injury",
+              "x": 0.4680412410795007,
+              "y": 0.562,
+              "w": 0.09288014311270125,
+              "h": 0.12
+            },
+            {
+              "id": "P14-flask",
+              "label": "Capped container held by Odo",
+              "x": 0.7866301190682286,
+              "y": 0.595,
+              "w": 0.0828930309500452,
+              "h": 0.114
+            },
+            {
+              "id": "P14-left-staff",
+              "label": "Nera left hand gripping short broken staff",
+              "x": 0.053576086329274665,
+              "y": 0.776,
+              "w": 0.13782214784465346,
+              "h": 0.175
+            }
+          ],
+          "source_links": [
+            {
+              "label": "Preserved generated source PNG",
+              "path": "production/structural-pilot/candidates/C00012-bfbb5df4ac945f08.png",
+              "sha256": "bfbb5df4ac945f0841e33a07e3157b2447980850aa1fbec7f7bb55670d7347cc"
+            },
+            {
+              "label": "Exact targeted retry instruction",
+              "path": "production/structural-pilot/prompts/P14-G-retry.txt",
+              "sha256": "977bb8ef4d470c9796a3a5f051e2e743193a95e9d9964cd0636459984be3569f"
+            }
+          ]
+        },
+        "P11": {
+          "candidate_id": "CF-P11-F02-v4",
+          "path": "production/structural-pilot/finishing/CF/P11/F02-v4/P11-F02-v4.png",
+          "sha256": "5b5001c5f5af2bffe3ec124432a8161a935f5d9ad75ff872d4650d6374b84de9",
+          "lettering": [
+            {
+              "id": "P11-L01",
+              "kind": "ui",
+              "speaker": "",
+              "text": "AIR BRAKE \u00b7 PULSE 2 \u2192 1",
+              "shape": "rounded",
+              "x": 0.045,
+              "y": 0.05,
+              "w": 0.34,
+              "h": 0.11,
+              "font_size": 13.5,
+              "tail": null
+            }
+          ],
+          "protected_regions": [
+            {
+              "id": "P11-nera-face",
+              "label": "Nera visible head and face",
+              "x": 0.6028717587830889,
+              "y": 0.096,
+              "w": 0.08988794456774751,
+              "h": 0.08
+            },
+            {
+              "id": "P11-odo-face",
+              "label": "Odo visible head and face",
+              "x": 0.32721539544199646,
+              "y": 0.511,
+              "w": 0.07990039517133113,
+              "h": 0.08
+            },
+            {
+              "id": "P11-flask",
+              "label": "Odo held container and rim",
+              "x": 0.40711579061332753,
+              "y": 0.585,
+              "w": 0.03196015806853245,
+              "h": 0.043
+            },
+            {
+              "id": "P11-violet-sweep",
+              "label": "Low violet sweep accent beside Odo legs",
+              "x": 0.13545444703080176,
+              "y": 0.76,
+              "w": 0.4494397228387376,
+              "h": 0.045
+            },
+            {
+              "id": "P11-cyan-turn",
+              "label": "Cyan turn above Nera",
+              "x": 0.46204731229361773,
+              "y": 0.065,
+              "w": 0.19475721323011963,
+              "h": 0.048
+            },
+            {
+              "id": "P11-staff-grip",
+              "label": "Nera hand at staff",
+              "x": 0.7037460076868943,
+              "y": 0.24,
+              "w": 0.05193525686136523,
+              "h": 0.039
+            },
+            {
+              "id": "P11-CF-descending-arc",
+              "label": "Two thin cyan descending curves from below boot toward sentinel foreleg",
+              "x": 0.565,
+              "y": 0.405,
+              "w": 0.2,
+              "h": 0.281
+            }
+          ],
+          "source_links": [
+            {
+              "label": "Editable correction composite",
+              "path": "production/structural-pilot/finishing/CF/P11/F02-v4/P11-F02-v4.svg",
+              "sha256": "8864d489df19a9bb6f795bd93e656366d8394d01a3fdaa86c6affd743f83bce7"
+            },
+            {
+              "label": "Exact local correction specification",
+              "path": "production/structural-pilot/finishing/CF/P11/F02-v4/spec.json",
+              "sha256": "64382aa274dbaa39b734f5db317719baf39891a3ef7dcb54d9bfb59d2089a578"
+            },
+            {
+              "label": "Correction source receipt",
+              "path": "production/structural-pilot/finishing/CF/P11/F02-v4/P11-F02-v4.json",
+              "sha256": "be41dc5f77db5acf902cfb8f2b714c5c3196d739fbc0f169edddd4f1b2e3a2b8"
+            },
+            {
+              "label": "Editable patch construction recipe",
+              "path": "production/structural-pilot/finishing/CF/P11/F02-v4/repair-recipe.json",
+              "sha256": "b4c5d17d371b3839d6c2c9f295399195b2e61e76b330057c09f0c609800737c0"
+            },
+            {
+              "label": "Source-derived arrow repair pixels",
+              "path": "production/structural-pilot/finishing/CF/P11/F02-v4/arrow-repair-patch.png",
+              "sha256": "31f6b38f466d3b7043fd8bd15165a8ae3c04750baec4b15af8c05e953e111562"
+            },
+            {
+              "label": "Pixel difference evidence",
+              "path": "production/structural-pilot/finishing/CF/P11/F02-v4/pixel-diff.json",
+              "sha256": "dc34fc235501ad5ba2d8ffd4f0428be8817dd80c54126b66df7af73277a755d4"
+            },
+            {
+              "label": "Unchanged generated source",
+              "path": "production/structural-pilot/candidates/C00013-901ccab2f920789b.png",
+              "sha256": "901ccab2f920789b5916fcbe0b0d882be4a3bf8e3df917f8e1cbee6b4dc4e61b"
+            }
+          ],
+          "source_candidate_sha256": "901ccab2f920789b5916fcbe0b0d882be4a3bf8e3df917f8e1cbee6b4dc4e61b"
+        }
+      }
+    }
+  ]
+}

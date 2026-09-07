@@ -1,0 +1,266 @@
+{
+  "schema": "ExplicitMatteReceipt/1",
+  "panel": "P11",
+  "version": "F01",
+  "raw_path": "production/structural-pilot/candidates/C00003-7a0a3d591b58c237.png",
+  "raw_sha256": "7a0a3d591b58c237f4fb0dab1c594fe069ced9072d5d48093b781343f14cd379",
+  "raw_mode": "RGB",
+  "raw_size": [
+    1106,
+    1422
+  ],
+  "raw_contract_failures": [
+    "RGB painted checkerboard instead of alpha",
+    "unwanted generated staff, flask and hanging cord",
+    "actor placement/scale differ from fixed v8 source"
+  ],
+  "matte_algorithm": {
+    "background_rule": "channel spread <23 and minimum channel >220 => alpha 0; linear alpha transition over minimum 204..220; colored pixels preserved",
+    "no_segmentation_model": true,
+    "no_generation_or_inpaint": true
+  },
+  "actors": {
+    "nera": {
+      "source_landmarks_px": [
+        [
+          805,
+          209
+        ],
+        [
+          899,
+          400
+        ],
+        [
+          797,
+          326
+        ]
+      ],
+      "target_landmarks_px": [
+        [
+          704.93,
+          291.06
+        ],
+        [
+          785.21,
+          443.39
+        ],
+        [
+          710.08,
+          382.94
+        ]
+      ],
+      "svg_matrix": [
+        0.6713324285486206,
+        0.0218369790835052,
+        0.08992016605460962,
+        0.7867922720740839,
+        145.714080312947,
+        109.04164697429465
+      ],
+      "mask_sha256": "3acb2215fcf18e577916cf261cf407b0d3dc5aeee78d58177b07ee1d8c6fa7c1",
+      "matte_sha256": "642b403f4ccbb21e9b2a5e1d01c8c36eb59f03296a36787e49bf0861f993ce93"
+    },
+    "odo": {
+      "source_landmarks_px": [
+        [
+          116,
+          788
+        ],
+        [
+          461,
+          887
+        ],
+        [
+          474,
+          1230
+        ]
+      ],
+      "target_landmarks_px": [
+        [
+          180.0,
+          818.36
+        ],
+        [
+          416.14,
+          892.79
+        ],
+        [
+          414.53,
+          1130.02
+        ]
+      ],
+      "svg_matrix": [
+        0.6933515309958309,
+        0.017460529013737965,
+        -0.03097250700567286,
+        0.6909708837400041,
+        123.97755792495383,
+        271.8495222472831
+      ],
+      "mask_sha256": "b42349bff753a5b1d3e1afbc8549a61c7763df44f0aed7c5bd1591e96c3deaa8",
+      "matte_sha256": "17e25027610b2476ea429ba7c8e8429af9f6277427b9be56b251c503983f7ff6"
+    }
+  },
+  "editable_region_configuration": {
+    "nera": {
+      "bounds": [
+        390,
+        110,
+        1110,
+        660
+      ],
+      "points": [
+        [
+          805,
+          209
+        ],
+        [
+          899,
+          400
+        ],
+        [
+          797,
+          326
+        ]
+      ],
+      "targets": [
+        [
+          704.93,
+          291.06
+        ],
+        [
+          785.21,
+          443.39
+        ],
+        [
+          710.08,
+          382.94
+        ]
+      ],
+      "erasures": [
+        [
+          [
+            916,
+            402
+          ],
+          [
+            1105,
+            518
+          ],
+          [
+            1105,
+            557
+          ],
+          [
+            904,
+            424
+          ]
+        ]
+      ],
+      "brown_erasure": null,
+      "matrix": [
+        0.6713324285486206,
+        0.0218369790835052,
+        0.08992016605460962,
+        0.7867922720740839,
+        145.714080312947,
+        109.04164697429465
+      ]
+    },
+    "odo": {
+      "bounds": [
+        45,
+        720,
+        540,
+        1320
+      ],
+      "points": [
+        [
+          116,
+          788
+        ],
+        [
+          461,
+          887
+        ],
+        [
+          474,
+          1230
+        ]
+      ],
+      "targets": [
+        [
+          180.0,
+          818.36
+        ],
+        [
+          416.14,
+          892.79
+        ],
+        [
+          414.53,
+          1130.02
+        ]
+      ],
+      "erasures": [
+        [
+          [
+            101,
+            732
+          ],
+          [
+            122,
+            732
+          ],
+          [
+            123,
+            765
+          ],
+          [
+            100,
+            765
+          ]
+        ],
+        [
+          [
+            432,
+            825
+          ],
+          [
+            470,
+            825
+          ],
+          [
+            473,
+            862
+          ],
+          [
+            439,
+            868
+          ]
+        ]
+      ],
+      "brown_erasure": [
+        84,
+        816,
+        125,
+        1203
+      ],
+      "matrix": [
+        0.6933515309958309,
+        0.017460529013737965,
+        -0.03097250700567286,
+        0.6909708837400041,
+        123.97755792495383,
+        271.8495222472831
+      ]
+    }
+  },
+  "fixed_control_version": "v8",
+  "at_utc": "2026-09-07T06:31:40.166912+00:00",
+  "limits": [
+    "Affine placement aligns the selected hand/pose anchors, not every limb joint.",
+    "Fused prop pixels within gripping fingers may remain; visible external prop segments are explicitly removed.",
+    "Matte edges and overlap require actual-image inspection."
+  ]
+}

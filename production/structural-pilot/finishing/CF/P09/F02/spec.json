@@ -1,0 +1,59 @@
+{
+  "id": "CF-P09-F02",
+  "width": 1430,
+  "height": 1100,
+  "output_svg": "production/structural-pilot/finishing/CF/P09/F02/P09-F02.svg",
+  "description": "Declared conventional correction of F01: original-source wood texture follows continuous shaft axis, most original toe retained, small shaded raised metal lip receives endpoint. Actual-art review pending.",
+  "defs_svg": "<clipPath id=\"floor-repair\" clipPathUnits=\"userSpaceOnUse\"><path d=\"M899 744 L941 742 L974 759 L997 788 L990 817 L955 829 L917 815 L899 790 Z\"/></clipPath><clipPath id=\"wood-extension\" clipPathUnits=\"userSpaceOnUse\"><path d=\"M891 737 L918 754 L924 760 L923 765 L918 771 L887 752 Z\"/></clipPath>",
+  "layers": [
+    {
+      "id": "unchanged-generated-source",
+      "path": "production/structural-pilot/candidates/C00010-f617453f42669035.png",
+      "sha256": "f617453f4266903532138003a78d0dac770683d8928651173211d1252e5651ef",
+      "kind": "preserved-generated-raster"
+    },
+    {
+      "id": "local-paving-clone",
+      "path": "production/structural-pilot/candidates/C00010-f617453f42669035.png",
+      "x": -180,
+      "y": 43,
+      "width": 1430,
+      "height": 1100,
+      "clip": "floor-repair",
+      "kind": "explicit-source-clone"
+    },
+    {
+      "id": "small-raised-toe-lip",
+      "svg": "<path d=\"M891 758 L909 761 L918 757 Q922 757 924 762 L927 776 L929 780 L912 779 L898 776 L887 769 Z\" fill=\"#333d45\" stroke=\"#1b2328\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/>\n<path d=\"M893 759 L909 764 L918 760 L921 763 L919 769 L902 767 Z\" fill=\"#535e64\"/>\n<path d=\"M891 769 L908 774 L926 778 L913 778 L897 775 Z\" fill=\"#222c34\"/>\n<path d=\"M897 761 L906 764 M912 763 L917 761\" fill=\"none\" stroke=\"#7b8588\" stroke-width=\".8\"/>\n<path d=\"M903 769 l4 1 M911 772 l4 1 M919 774 l3 1 M896 771 l2 1 M916 767 l2 1\" fill=\"none\" stroke=\"#1b242a\" stroke-width=\".7\"/>\n",
+      "kind": "editable-local-metal-contour"
+    },
+    {
+      "id": "continuous-source-wood-texture",
+      "path": "production/structural-pilot/candidates/C00010-f617453f42669035.png",
+      "x": 28,
+      "y": 18.2,
+      "width": 1430,
+      "height": 1100,
+      "clip": "wood-extension",
+      "kind": "explicit-source-clone"
+    },
+    {
+      "id": "wood-end-and-metal-contact",
+      "svg": "<path d=\"M918 757 Q923 759 923 763 L919 769 L916 767 L918 763 Z\" fill=\"#997345\" stroke=\"#29251b\" stroke-width=\"1.1\"/>\n<path d=\"M919 760 L921 762 L919 766 M918 762 l1 1\" fill=\"none\" stroke=\"#60462d\" stroke-width=\".8\"/>\n<path d=\"M923 761 L924 766 L920 770\" fill=\"none\" stroke=\"#172126\" stroke-width=\"1.7\" stroke-linecap=\"round\"/>\n<path d=\"M930 781 l4 1 M927 773 l5 -1 M913 783 l-1 3\" fill=\"none\" stroke=\"#504e43\" stroke-width=\"1.1\" stroke-linecap=\"round\"/>\n",
+      "kind": "editable-local-contact-ink"
+    }
+  ],
+  "edit_intent": {
+    "contact_pixel": [
+      923,
+      765
+    ],
+    "correction_of": "CF-P09-F01",
+    "source_wood_translation": [
+      28,
+      18.2
+    ],
+    "retains_original_joint_and_most_toe": true,
+    "changes": "Remove abrupt F01 collar and broadened flat toe; keep correction local and exact input immutable."
+  }
+}

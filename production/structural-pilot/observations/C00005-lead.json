@@ -1,0 +1,29 @@
+{
+  "candidate_id": "C00005",
+  "image_sha256": "1fa3136955ebaba739772fbc511b5bcd775f733fa5e82714cc4d1d3ea807a274",
+  "plan_sha256": "a873faf3c2d2218c4db00927dc27a47059e17065553166f4b884d0badab07a6a",
+  "reviewer": "Lead AI actual-art inspection",
+  "method": "Actual native rasters; phone diagnostic/browser review only where separately recorded. Independent reviews retained separately. No human/owner acceptance.",
+  "checks": {
+    "actors": {
+      "verdict": "pass",
+      "observation": "Two adults, front-rotated/recentered from side guide."
+    },
+    "event": {
+      "verdict": "not_assessed",
+      "observation": "Character-only image does not establish physical separation."
+    },
+    "contact": {
+      "verdict": "not_assessed",
+      "observation": "Raw hand positions are not aligned to fixed props."
+    },
+    "props": {
+      "verdict": "fail",
+      "observation": "Prohibited staff/flask remain; injury/staff ownership hands reversed."
+    },
+    "state": {
+      "verdict": "fail",
+      "observation": "Wound visibly on anatomical LEFT hand and staff in RIGHT; RGB checkerboard lacks alpha."
+    }
+  }
+}

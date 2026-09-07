@@ -1,0 +1,297 @@
+{
+  "schema": "NeutralPilotPlan/2",
+  "frozen_utc": "2026-09-07 05:48:26 UTC",
+  "status": "NEW_BOUNDED_STRUCTURAL_EXPERIMENT_NOT_PRODUCTION",
+  "title": "Three Charges, One Dose",
+  "story_choice": "Neutral original capability scene; not a new serial or Ember canon rewrite",
+  "purpose": "Isolate source-to-beat fidelity, directed action, editability and phone lettering from attachment to current imagery or lore",
+  "hypotheses": [
+    "Fixed editable environment/threat/prop layers preserve contact, leg count and separation better than a full-frame render guided by the same geometry.",
+    "Separately rendered adult character layers plus bounded agent-authored conventional finishing can retain expressive appeal while improving the difficult action/state relationships.",
+    "Geometry-guided full-frame finishing may offer better integrated drawing; any loss of relationships must remain visible and counted."
+  ],
+  "characters": [
+    {
+      "id": "nera",
+      "age": 31,
+      "description": "Fictional adult courier, mature long face, short black curls, pale yellow asymmetrical rain cape, fitted charcoal trousers, one plain short staff; no real likeness",
+      "silhouette": "Narrow cape shoulder, long adult proportions, no armor ornaments"
+    },
+    {
+      "id": "odo",
+      "age": 38,
+      "description": "Fictional adult keeper, broad adult build, close-cropped silver hair, ultramarine work jacket, cream cuffs; one free hand for shutter release",
+      "silhouette": "Broad rectangular shoulders, short jacket versus Nera cape"
+    }
+  ],
+  "environment": "Original flooded observation gallery; west entry left, dry center ridge, east/right exit shutter, one overhead recess. Simple box/camera map before final art. No published settings/designs.",
+  "props": [
+    "one sealed flask in chest sling/hand",
+    "one plain short staff, breaks atP12 and stays broken",
+    "one shutter release",
+    "three-legged slate kite-bodied sentinel with one violet gill slit; no humanoid face, no copied creature"
+  ],
+  "state": {
+    "initial": {
+      "charges": 3,
+      "flask_holder": "Odo",
+      "flask_intact": true,
+      "staff": "intact",
+      "injury": null,
+      "air_brake_unlocked": false,
+      "verified_counters": 1
+    },
+    "transactions": [
+      {
+        "panel": 2,
+        "flask_holder": "Nera"
+      },
+      {
+        "panel": 8,
+        "charges_before": 3,
+        "delta": -1,
+        "charges_after": 2,
+        "verified_counters_before": 1,
+        "verified_counters_after": 2,
+        "air_brake_unlocked": true
+      },
+      {
+        "panel": 10,
+        "flask_holder": "Odo"
+      },
+      {
+        "panel": 11,
+        "charges_before": 2,
+        "delta": -1,
+        "charges_after": 1,
+        "skill_used": "Air Brake"
+      },
+      {
+        "panel": 12,
+        "staff": "broken",
+        "injury": "scraped hand"
+      }
+    ],
+    "final": {
+      "charges": 1,
+      "flask_holder": "Odo",
+      "flask_intact": true,
+      "staff": "broken",
+      "injury": "scraped hand",
+      "air_brake_unlocked": true,
+      "verified_counters": 2
+    }
+  },
+  "panels": [
+    {
+      "panel": 9,
+      "function": "Reversal",
+      "beat": "The sentinel pivots around the blocked foot, sweeping its side limb toward Odo at the release.",
+      "camera": "wide action",
+      "target_css_height_at390": 300,
+      "copy": [],
+      "continuity_contract": "New vector threatens partner; original exit geography re-established. Nera\u2019s first answer is insufficient."
+    },
+    {
+      "panel": 11,
+      "function": "Committed movement",
+      "beat": "Nera uses newly unlocked Air Brake to halt her vault above the sweep, then redirect toward contact; Odo pulls the west release cable to raise the east shutter.",
+      "camera": "vertical action",
+      "target_css_height_at390": 500,
+      "copy": [
+        "AIR BRAKE \u00b7 PULSE 2 \u2192 1"
+      ],
+      "continuity_contract": "One body and a continuous arc with a visible braking accent; no teleport or duplicate body. Exit rises; Odo begins moving east with flask."
+    },
+    {
+      "panel": 13,
+      "function": "Aftermath",
+      "beat": "Beyond the opening, Odo releases the cord so the shutter drops behind both adults and pins the sentinel foreleg on the west side. Nera holds the broken staff.",
+      "camera": "wide aftermath",
+      "target_css_height_at390": 360,
+      "copy": [],
+      "continuity_contract": "Shutter now lowered with foreleg caught under its bottom edge; threat remains alive/west. Both adults east; flask in Odo hand, staff broken, scraped hand, charge1, Air Brake unlocked."
+    },
+    {
+      "panel": 14,
+      "function": "Quiet breath",
+      "beat": "Beyond the door Odo steadies Nera\u2019s scraped hand beside the sealed flask. They breathe, then turn toward the next passage.",
+      "camera": "close two-shot",
+      "target_css_height_at390": 440,
+      "copy": [
+        "ODO: Steady.",
+        "NERA: I am."
+      ],
+      "continuity_contract": "Hold consequence and relationship after spectacle; same injury, broken staff, flask and charge1 remain."
+    }
+  ],
+  "scroll_budget_csspx_at390": [
+    5800,
+    7600
+  ],
+  "routes": [
+    {
+      "id": "S",
+      "label": "Fixed scene with separate character art",
+      "mechanism": "New original Blender architecture and exactly-three-leg threat renders remain fixed; in-product image tool generates adult-only transparent character layer from matching original scene guide plus new original cast sheet. Deterministic layer composition and explicit editable SVG prop/contact/effect finishing. Soft raster guide conditioning, not ControlNet. Actual alpha/geometry retention must be measured.",
+      "primary_per_selected_panel": 1,
+      "hard_failure_retry_per_selected_panel": 1
+    },
+    {
+      "id": "G",
+      "label": "Geometry-guided full-frame finishing",
+      "mechanism": "Same new original scene guide and cast sheet, same beat/copy/framing. In-product image tool generates a complete illustrated panel. Guide adherence is instruction-based; no mask, seed, structural adapter or exact pixel preservation promised.",
+      "primary_per_selected_panel": 1,
+      "hard_failure_retry_per_selected_panel": 1
+    }
+  ],
+  "attempt_budget": {
+    "primary_candidates_per_panel_or_predeclared_group_per_route": 1,
+    "hard_failure_targeted_retry_per_panel_or_group": 1,
+    "beauty_variant_loops": 0,
+    "manual_correction_rounds": 1,
+    "direct_paid_cloud_spend_usd": 0,
+    "grouping_rule": "Freeze any panel group before generation; one group retry counts as retry for every included panel, no hidden split/retry reset. Preserve all failures."
+  },
+  "production_prerequisites": [
+    "Named human editor/action artist and two independent human reviewers available within separately authorized capacity",
+    "Freeze same story/copy/layout/camera and assets for all compared routes",
+    "Explicit valid tool/reference rights and exact eligible inputs; protected/private/third-party art not uploaded",
+    "Agree actual correction-hour ceiling before starting; estimates are not authority to hire"
+  ],
+  "gates": {
+    "hard": [
+      "14 exact beats; no unexplained extra/missing principal actor, state reset, wrong event order, omitted required contact or unexplained prop transfer",
+      "All required text visible inside intended balloon/UI shape; zero face/contact occlusion; correct tail attribution",
+      "Actual dialogue minimum14CSSpx, UI minimum12CSSpx at390 viewport; these are project floors, not universal standards",
+      "Zero missing source assets, broken required links or horizontal overflow; transcript and keyboard navigation",
+      "One-to-one provenance and attempt log; candidates remain unaccepted/review-pending/commercially-uncleared until explicit review"
+    ],
+    "human": [
+      "Two independent human readers each reconstruct >=6 of7 tested action functions (anticipation, attack, counter, reversal, new-skill application, impact, aftermath), all three charge states and the earned unlock without explanatory script; required contact/state hard gates still all pass.",
+      "Each human rates sequence and lettering categories >=4/5, art and reader impact >=3.5/5, with every required core dimension assessed and >=3; no selective omission. See required_core_dimensions and permitted_not_assessed.",
+      "For absolute eligibility, owner finds the complete route compelling enough to continue; two independent humans pass the absolute rubric/comprehension gates. A may qualify or win. For replacing A with B/C, owner and both independent humans explicitly prefer the replacement complete reader.",
+      "For replacing renderer, both human reviewers show >=0.75/5 improvement in sequence or art category, no >=0.5 regression in the other and zero hard defects; if within margin call tie and keep cheaper route",
+      "Record all labor; modular route must fit agreed34\u201374h single-route planning envelope or approved replacement ceiling, never treat agent runtime as human time"
+    ],
+    "kill": [
+      "Any hard defect remains after one targeted retry plus one bounded correction round",
+      "Do not promote B/C without clear preference and improvement sufficient to justify correction burden. An absolutely eligible A survives a tie; any route failing absolute gates stops.",
+      "Missing skilled human capacity or destination prohibits the chosen production method"
+    ],
+    "approval_authorizes": "Only a bounded Ember micro-opening through the winning route, then at most two separately agreed follow-on episodes for throughput validation; not a ten-chapter production",
+    "rejection_teaches": "If semantic fidelity fails across routes, revise storyboard/skills; if art wins but owner dislikes neutral story, do not infer Ember rejection; if owner dislikes equally directed Ember despite competent art, compare short new-premise hooks using same route"
+  },
+  "blind_protocol": "Randomized route labels/order, equal390 andfull-size surfaces, same copy/assets/scene; reviewers submit independent dimension scores before discussion. Preserve qualitative reasons, panel flags and hours. Owner can review unblinded after preference lock.",
+  "owner_questions": [
+    "Which complete version feels most compelling to continue, and which exact moment earns that preference?",
+    "Where did you lose track of position, force, object ownership or emotional intent?",
+    "Which adult character would you want to see again, and why?",
+    "Is the remaining objection mainly story desire, character appeal, art finish or reading friction?"
+  ],
+  "preserve": [
+    "frozen plan/rubric/character/layout versions",
+    "all candidates and failed attempts locally",
+    "exact prompts/inputs/provenance fields with null unknowns",
+    "editable source/layers and font/license evidence",
+    "source/finished hashes and replacement links",
+    "copy/transcript/localization stress versions",
+    "actual human timers and incremental spend ledger",
+    "phone/full QA and independently submitted preferences"
+  ],
+  "proof_not_results": "Static storyboard/lettering proof does not test final drawing quality, generator fidelity, real human correction time, localization or owner preference. No route winner is claimed.",
+  "revision_reason": "Pre-output red-team review: define shutter closure physics, add earned skill unlock/application, separate absolute route eligibility from comparative replacement. No production or static proof output existed before this revision.",
+  "gate_margin_status": "The0.75/0.5 ordinal category margins are predeclared conservative project decision rules, not statistically calibrated market thresholds; qualitative reasons and hard cases take priority.",
+  "required_core_dimensions": {
+    "reader_impact": [
+      "genre legibility",
+      "opening hook",
+      "emotional engagement",
+      "curiosity and chapter-end propulsion",
+      "memorability",
+      "desire to continue"
+    ],
+    "sequential_storytelling": [
+      "panel causality",
+      "spatial continuity",
+      "acting and reactions",
+      "shot and rhythm variation",
+      "vertical pacing",
+      "quiet/spectacle contrast",
+      "action choreography",
+      "impact and aftermath",
+      "visual economy"
+    ],
+    "art_direction": [
+      "character appeal",
+      "silhouettes",
+      "face/hair/costume continuity",
+      "anatomy and hands",
+      "line/shape confidence",
+      "value hierarchy",
+      "color script",
+      "environment integration",
+      "monster/gear design",
+      "controlled detail",
+      "absence of generic generated painting signatures"
+    ],
+    "genre_machinery": [
+      "system clarity",
+      "progression satisfaction",
+      "combat use of progression",
+      "meaningful gear/skill choices",
+      "stakes and constraints",
+      "system/drama balance"
+    ],
+    "lettering_mobile": [
+      "balloons",
+      "tails",
+      "type hierarchy",
+      "SFX",
+      "original system UI",
+      "negative space",
+      "phone readability",
+      "scroll/loading"
+    ]
+  },
+  "permitted_not_assessed": {
+    "localization resilience": "Synthetic expansion is a layout diagnostic only. Actual translation requires a language-qualified letterer and is unassessed here; do not include in scored category denominator.",
+    "production_fitness": "All ten long-run dimensions remain unscored in the short pilot. Record actual editability, attempts, labor, provenance and delivery as evidence/hard requirements; do not invent repeatability or throughput scores."
+  },
+  "prospective_anchor_clarification": "Generic painting signatures means visible repeated/motiveless detail, weak hierarchy or inconsistent shapes, not painterly medium. Do not reward line/cel automatically. Historical frozen rubric/scores are unchanged.",
+  "comprehension_answer_key": [
+    {
+      "function": "anticipation",
+      "answer": "P06 Nera plants the staff and waits for the forefoot while Odo reaches the west release."
+    },
+    {
+      "function": "attack",
+      "answer": "P07 sentinel forefoot lunges right to left toward Nera on the ridge."
+    },
+    {
+      "function": "counter",
+      "answer": "P08 staff visibly stops the foot using one charge, leaving two; second verified counter earns Air Brake."
+    },
+    {
+      "function": "reversal",
+      "answer": "P09 the sentinel pivots and sweeps a side limb toward Odo; the first counter is insufficient."
+    },
+    {
+      "function": "new-skill application",
+      "answer": "P11 newly earned Air Brake halts and redirects the vault above that sweep, costing another charge and leaving one; it enables the changed attack path."
+    },
+    {
+      "function": "impact",
+      "answer": "P12 staff contacts forelimb joint and breaks, scraping Nera\u2019s hand; the opening permits both adults to escape east."
+    },
+    {
+      "function": "aftermath",
+      "answer": "P13 cord release lowers the shutter behind both adults and pins a living threat\u2019s foreleg west; Odo retains intact flask, Nera broken staff/injury, one charge remains."
+    }
+  ],
+  "critical_comprehension_rule": "The 6/7 threshold may tolerate only a noncritical omission. Wrong actor, target, contact, causal order, resource/unlock reason, escape geography or prop consequence is an absolute failure regardless of numeric score. Ask readers to retell without revealing this key.",
+  "gate_clarification_utc": "2026-09-07T02:37:11.417882+00:00",
+  "gate_clarification_note": "Red-team tie, required-core, medium-neutral anchor and answer-key clarifications before any scored production output. V2 story/copy/heights unchanged.",
+  "experiment_id": "SC-20260907-01",
+  "experiment_contract": "experiment.json"
+}

@@ -1,0 +1,29 @@
+{
+  "candidate_id": "C00009",
+  "image_sha256": "65ee8e570d3cf77c9ee881548b56903fee9d1604cd4c8b8c9b77a56f74ebacc6",
+  "plan_sha256": "a873faf3c2d2218c4db00927dc27a47059e17065553166f4b884d0badab07a6a",
+  "reviewer": "Lead AI actual-art inspection",
+  "method": "Actual native rasters; phone diagnostic/browser review only where separately recorded. Independent reviews retained separately. No human/owner acceptance.",
+  "checks": {
+    "actors": {
+      "verdict": "pass",
+      "observation": "Both adult arms visible, still recentered."
+    },
+    "event": {
+      "verdict": "not_assessed",
+      "observation": "Character-only image cannot establish scene action."
+    },
+    "contact": {
+      "verdict": "fail",
+      "observation": "Nera hands hang on separate off-axis arms, not both on staff axis; conventional arm redraw needed."
+    },
+    "props": {
+      "verdict": "pass",
+      "observation": "Major props omitted as requested; empty grips are intended layer inputs."
+    },
+    "state": {
+      "verdict": "not_assessed",
+      "observation": "No premature wound, but RGB checkerboard remains zero alpha."
+    }
+  }
+}

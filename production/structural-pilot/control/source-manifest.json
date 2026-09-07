@@ -1,0 +1,2301 @@
+{
+  "schema": "ControlSourceManifest/1",
+  "experiment": "SC-20260907-01",
+  "created_utc": "2026-09-07T06:19:33.157188+00:00",
+  "status": "SOURCE_INTEGRITY_NOT_ART_ACCEPTANCE",
+  "frozen_selected_inputs": {
+    "P09": {
+      "path": "v8/P09-full.png",
+      "sha256": "079c92f642cca5db33d50b9ef71e036923f13cceba9dd7afa36af639414c489b"
+    },
+    "P11": {
+      "path": "v8/P11-full.png",
+      "sha256": "ff74f0c46e6e2a3cf3331b27ba012756515b3adc857593496237eefd1cba1df1"
+    },
+    "P13": {
+      "path": "v8/P13-full.png",
+      "sha256": "85fd9dadea28b06ebe0412ebd3c983f4b46c5fc85761da19fb1e2edb91bb7d68"
+    },
+    "P14": {
+      "path": "v8/P14-full.png",
+      "sha256": "d8698c1ec44ddb0e8086e8b035cd12ed9aed0d27c7d7333b962baa9487df533b"
+    }
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4092,
+      "sha256": "f6a448ca64deda76dcdf795567b53586c8d3a206938295f3efeab724adab651c"
+    },
+    {
+      "path": "active-controls.json",
+      "bytes": 373,
+      "sha256": "7efd7b00f014f86e4ad48ae38844555619cf36e9e9764767e0d2d9b6128c750c"
+    },
+    {
+      "path": "author_scene.py",
+      "bytes": 9346,
+      "sha256": "a9780ebe46aea20f5d7467f8d25e3dd52a593bd4a8f527ed9b9bcaac8b2d54dc"
+    },
+    {
+      "path": "build_blender.py",
+      "bytes": 18726,
+      "sha256": "cc7e0bdfe0741484a13adafc831cb20e472f24dbeb6463dcca9085f1f3bf7bb5"
+    },
+    {
+      "path": "control-author-record.json",
+      "bytes": 3739,
+      "sha256": "c1374b96455147419d0224eb9d485fbb9e9fd28bbf60a3fc5e14ccf61913317b"
+    },
+    {
+      "path": "inspect_blend-v1.py",
+      "bytes": 2602,
+      "sha256": "8fb4490b00d704e336617df6db1a71f666c96f3dbdd4c8b8139538487649c0aa"
+    },
+    {
+      "path": "inspect_blend.py",
+      "bytes": 2869,
+      "sha256": "d3d81f1ec1b2bb3c7d3d67379e3fb82bb49e6413983308aaf2881d6f16abd023"
+    },
+    {
+      "path": "mesh-alpha-verification.json",
+      "bytes": 67478,
+      "sha256": "b8a97485f72f8baa1a09aaad543aaec63d7c078c3b9097192ed8cc33b746a2f5"
+    },
+    {
+      "path": "revise_scene_v2.py",
+      "bytes": 392,
+      "sha256": "92054eeb1ec9836cdb6e0fd8184581cc103dcf2cfb7dd60a670f0cb432ffdc30"
+    },
+    {
+      "path": "revise_scene_v3.py",
+      "bytes": 1796,
+      "sha256": "b15214dadaebeda2e64a5d0e968d445098e9224cefafb1d8f1c3bd71ef984767"
+    },
+    {
+      "path": "revise_scene_v4.py",
+      "bytes": 972,
+      "sha256": "41c096e9d9f4d303dcb34fe552d5a36333759281b22846e0ab3e46828c29bc34"
+    },
+    {
+      "path": "revise_scene_v5.py",
+      "bytes": 1655,
+      "sha256": "97fd0696740696b33f18ac2778ba03ab62ca894c7eed89d6d17ff77bd95d0256"
+    },
+    {
+      "path": "revise_scene_v6.py",
+      "bytes": 684,
+      "sha256": "a08b0f3d9444a62c47a387a7a94d5ece1e6e56e568f9b81448c80a7a6c6c664a"
+    },
+    {
+      "path": "revise_scene_v7.py",
+      "bytes": 2292,
+      "sha256": "69df937691354dd6f91f6da75b0581d6bbb8340c98032fab013e6e43525e79b9"
+    },
+    {
+      "path": "revise_scene_v8.py",
+      "bytes": 803,
+      "sha256": "12298d2299d02e5c975f48e6fcd780663732fdad1f6241b061b96e7b63c35094"
+    },
+    {
+      "path": "revise_scene_v9.py",
+      "bytes": 1037,
+      "sha256": "be99dbf902f676b92d98def6870c54fc5f709e1392c292d7ebc5f5b323c9ef57"
+    },
+    {
+      "path": "v1/P09-anchors.json",
+      "bytes": 10613,
+      "sha256": "ecd12b2dde2f041fd60a167e30fe66e35a52a7a0980f3b4e96d033b512488350"
+    },
+    {
+      "path": "v1/P09-full.png",
+      "bytes": 883029,
+      "sha256": "b4d0ec0ebbb3a08637174ef91e6ab0f0818e9b060cbbc094799a1429e04ce86f"
+    },
+    {
+      "path": "v1/P09-projected-lines.svg",
+      "bytes": 3099,
+      "sha256": "f97fdb31f1b667dfca13ea65ad74115e034fe33c693cf02880fe077d984b5fd5"
+    },
+    {
+      "path": "v1/build_blender.py",
+      "bytes": 17943,
+      "sha256": "f711ce8ad7a31d134b72ade62e089f18f089b6c377f0590e8bead1a4d16564cb"
+    },
+    {
+      "path": "v1/render-record-P09.json",
+      "bytes": 728,
+      "sha256": "478dc51c4f06aa0a445dbd6e7edbad67012ffe786d92aabbcc51e6f1f0afc73e"
+    },
+    {
+      "path": "v1/scene-P09.blend",
+      "bytes": 198605,
+      "sha256": "62929a1ad81f169dcf042eda9a9944fb625c95ca27d42be8c655379f609d40bb"
+    },
+    {
+      "path": "v1/scene.json",
+      "bytes": 44112,
+      "sha256": "5ad7e0423b53b2000bea4b75f2a34b3afb1307f548906d91e137c16fc910bf29"
+    },
+    {
+      "path": "v2/P08-actors.png",
+      "bytes": 387261,
+      "sha256": "cef17ea2d3fe72d505882cac1c8d775d817b7fa3056bf62c269e958aa61421e0"
+    },
+    {
+      "path": "v2/P08-anchors.json",
+      "bytes": 10602,
+      "sha256": "7a1b718da61436a469be840430d1b3203c5c52e0f57ed309693eaf26216d314e"
+    },
+    {
+      "path": "v2/P08-background.png",
+      "bytes": 1266937,
+      "sha256": "f3e81d79cf1377e09d712dec5aef701c33f52039b98b0234ffae6208e8873168"
+    },
+    {
+      "path": "v2/P08-effects.png",
+      "bytes": 255513,
+      "sha256": "b202305b81b722466a498f52b8196e98731bf4dd2a4e03d324cdb5554f88c83f"
+    },
+    {
+      "path": "v2/P08-foreground.png",
+      "bytes": 255513,
+      "sha256": "b202305b81b722466a498f52b8196e98731bf4dd2a4e03d324cdb5554f88c83f"
+    },
+    {
+      "path": "v2/P08-full.png",
+      "bytes": 1394809,
+      "sha256": "3d63f63fe2e718f4cb8abfce374e4d1d8795ed64105b876c5c97b8bd7fc91b2e"
+    },
+    {
+      "path": "v2/P08-projected-lines.svg",
+      "bytes": 3101,
+      "sha256": "d18455a07605b4150ce1971321d65ee611a616170835089516dee18145a21e15"
+    },
+    {
+      "path": "v2/P08-props.png",
+      "bytes": 291021,
+      "sha256": "a902ca7dccadb1539452beb6fdcba4a0d823646dcb5495022186c24784ec2db4"
+    },
+    {
+      "path": "v2/P08-sentinel.png",
+      "bytes": 490673,
+      "sha256": "850a373ca58c56b46310d5dd07a61ea5e55ac7bf0f978242847b34eb29d4870b"
+    },
+    {
+      "path": "v2/P09-actors.png",
+      "bytes": 356685,
+      "sha256": "e4249bc85ac770703466b39b1b1c9dd0fdb84c8e07a5f89be0b5d7a16a598b7c"
+    },
+    {
+      "path": "v2/P09-anchors.json",
+      "bytes": 10613,
+      "sha256": "ecd12b2dde2f041fd60a167e30fe66e35a52a7a0980f3b4e96d033b512488350"
+    },
+    {
+      "path": "v2/P09-background.png",
+      "bytes": 1138029,
+      "sha256": "6f4f3887ff1685f01c2e20676c36fa61b130db8b6fcfcb7349c220fe6ccf9cca"
+    },
+    {
+      "path": "v2/P09-effects.png",
+      "bytes": 244968,
+      "sha256": "1a687c67d3c51ce89f46021421b31d9953a7f7e4c4e5a6586681e3ac9de26d91"
+    },
+    {
+      "path": "v2/P09-foreground.png",
+      "bytes": 372352,
+      "sha256": "06ce6587d43112f5fd793235d2f4bcec46a5afc2b34ac75f27b5c6690ea0791b"
+    },
+    {
+      "path": "v2/P09-full.png",
+      "bytes": 1256103,
+      "sha256": "edeed82f7379ae1904be688044927410332fe971ad2ded25540fe4202cd9dfde"
+    },
+    {
+      "path": "v2/P09-projected-lines.svg",
+      "bytes": 3099,
+      "sha256": "f97fdb31f1b667dfca13ea65ad74115e034fe33c693cf02880fe077d984b5fd5"
+    },
+    {
+      "path": "v2/P09-props.png",
+      "bytes": 309423,
+      "sha256": "955390eb6971572bd7d587589925271a4afe5616545fff8d11848e5f35ce183d"
+    },
+    {
+      "path": "v2/P09-sentinel.png",
+      "bytes": 364631,
+      "sha256": "a868dd59bcb5911e6627761728f58df9a1fc8f7486f54dddeeae96743a806bf7"
+    },
+    {
+      "path": "v2/P10-actors.png",
+      "bytes": 552388,
+      "sha256": "59670ac8e38c2ac8ac4ecc16d4e08d00b4fbea0e9afa40314778c94f30e1c7d1"
+    },
+    {
+      "path": "v2/P10-anchors.json",
+      "bytes": 10503,
+      "sha256": "91b480390074b3b446b8555e612c2ed2fea6eb92c2d5a6c7eda5d99263cf2f16"
+    },
+    {
+      "path": "v2/P10-background.png",
+      "bytes": 1338786,
+      "sha256": "9c8568aa33f8f181faf1d6708c86c55755c8ed9d76fb4b5e2ab8b289764c497e"
+    },
+    {
+      "path": "v2/P10-effects.png",
+      "bytes": 289706,
+      "sha256": "261d0f863af2edc0d500e3cb8e723ad37293bef141e3493a7293e5e745221bf8"
+    },
+    {
+      "path": "v2/P10-foreground.png",
+      "bytes": 270561,
+      "sha256": "5c2879e8f8ceb29edefb3369c24985eacecf9e2760eb6c710c2453c5dad7b2ad"
+    },
+    {
+      "path": "v2/P10-full.png",
+      "bytes": 1531639,
+      "sha256": "7586faf7a1a476f5aa9a13a1e5edace5b9804db02044e7a69837e90cb5b35f7f"
+    },
+    {
+      "path": "v2/P10-projected-lines.svg",
+      "bytes": 3057,
+      "sha256": "d13bcaf88cad46e94f0ba21b32d363f51cedbc1019754d1fa9aba68e776ffce1"
+    },
+    {
+      "path": "v2/P10-props.png",
+      "bytes": 410822,
+      "sha256": "06ef67e21f66ea363bb277adc4c5e5c05f4d53003c6f549906ad4c385310e182"
+    },
+    {
+      "path": "v2/P10-sentinel.png",
+      "bytes": 479210,
+      "sha256": "4a7102fa6b16bc5c921078c6980ee89f040229745a689d27472975f0e53d497b"
+    },
+    {
+      "path": "v2/P11-actors.png",
+      "bytes": 568997,
+      "sha256": "ded6e68b46e2b2c31ab2496c14a55181f2607378033a84fc59367b0237dd4bb2"
+    },
+    {
+      "path": "v2/P11-anchors.json",
+      "bytes": 10612,
+      "sha256": "fdbd71b76c4b56a824db962089ac83bae4cf571badb2ebc4aeb36b12b14271c3"
+    },
+    {
+      "path": "v2/P11-background.png",
+      "bytes": 1843295,
+      "sha256": "03f10e414eef7e0cdeebea9b227d077df219459a9259a657f79b8bf0d14b7aa4"
+    },
+    {
+      "path": "v2/P11-effects.png",
+      "bytes": 473262,
+      "sha256": "5dc1f272c27eed2bc727d9cfd054e23282b9415205662f336e393d3a5e9421fa"
+    },
+    {
+      "path": "v2/P11-foreground.png",
+      "bytes": 561081,
+      "sha256": "722ab23ba93519a5e9e91cb7ad016059ce1f5b3e7805985c8f7db36ea804bec7"
+    },
+    {
+      "path": "v2/P11-full.png",
+      "bytes": 2035236,
+      "sha256": "b8fb6588a6a65604ea645e770bdad959ae7b4a08310128433aec34d725d64517"
+    },
+    {
+      "path": "v2/P11-projected-lines.svg",
+      "bytes": 3099,
+      "sha256": "13b25b312372732cb8f02f5100b02f15700be4609532e244776f554ec7cebb46"
+    },
+    {
+      "path": "v2/P11-props.png",
+      "bytes": 462983,
+      "sha256": "88f85595c0606d862f96267011f6e20bd8ae7ab37220409a2391898b9bed72f4"
+    },
+    {
+      "path": "v2/P11-sentinel.png",
+      "bytes": 529040,
+      "sha256": "ea276087591c0280e4ceb8fdbd69254fc5d2cf5096f3cded5f3ca3371e11e3bf"
+    },
+    {
+      "path": "v2/P12-actors.png",
+      "bytes": 741421,
+      "sha256": "c9a3d0d597d31d392c07965a92a79cc0530f220f53ad6a36dfccc9c1f4e60ff3"
+    },
+    {
+      "path": "v2/P12-anchors.json",
+      "bytes": 11033,
+      "sha256": "09beaee1c94e3411d04cc555cec7b9c7beda992e2cf9a5be0cd12be6449da8a8"
+    },
+    {
+      "path": "v2/P12-background.png",
+      "bytes": 2049383,
+      "sha256": "2795ff3ea261f4551a5c444ba9000c5960a16ed01e59f910c67f873a0708e018"
+    },
+    {
+      "path": "v2/P12-effects.png",
+      "bytes": 412845,
+      "sha256": "5b9fedef7afedd057ad5670def81cca3b0fda4a3bad46f78191207ce95144e55"
+    },
+    {
+      "path": "v2/P12-foreground.png",
+      "bytes": 773350,
+      "sha256": "948ddb58540459a4b005047d3f5d257f05ca421bf400726ee24071e8d3f05de5"
+    },
+    {
+      "path": "v2/P12-full.png",
+      "bytes": 2277055,
+      "sha256": "0e18d60703301d0f76624afd84bff54e80dd454b571e5b9929d23513e9696601"
+    },
+    {
+      "path": "v2/P12-projected-lines.svg",
+      "bytes": 3279,
+      "sha256": "dc3787f052771dd0203664ccab4e50eb4992443cae44e781f276ba38a2efab1c"
+    },
+    {
+      "path": "v2/P12-props.png",
+      "bytes": 568819,
+      "sha256": "c006141c35e53617eac51e35e75a9851f4a16821b17cbeec1b443c231180dcdc"
+    },
+    {
+      "path": "v2/P12-sentinel.png",
+      "bytes": 676903,
+      "sha256": "19d94c9e111172c5b15664815d8a82c1bd093f17bc495b4bbe3cd5e5cd821135"
+    },
+    {
+      "path": "v2/P13-actors.png",
+      "bytes": 410028,
+      "sha256": "87b4ef904b37c39bd3f01e0ed820507cc87e6b8d69ed9144f608e2626c63385a"
+    },
+    {
+      "path": "v2/P13-anchors.json",
+      "bytes": 11054,
+      "sha256": "5411f72fd7c559971c265b23b6bde844409475db7afe360ba0b94dc46d5ef133"
+    },
+    {
+      "path": "v2/P13-background.png",
+      "bytes": 1324188,
+      "sha256": "2470b35a21595f2d343219d14ab860609f451ab1afdae0fa90fad5da0343ccd4"
+    },
+    {
+      "path": "v2/P13-effects.png",
+      "bytes": 270561,
+      "sha256": "278cfcd7f6d0626464164b0051d126dbb82f896e9bc0f40bdac219929c68a83a"
+    },
+    {
+      "path": "v2/P13-foreground.png",
+      "bytes": 438439,
+      "sha256": "053633202d5c82cfd912003013f0792c5ad2464186e1f3ed17b86253c5e1864f"
+    },
+    {
+      "path": "v2/P13-full.png",
+      "bytes": 1429687,
+      "sha256": "2b531d6cdf62b0000ba86b06f14cb613673bd9bc9fdcba0fad358df2e3c176d9"
+    },
+    {
+      "path": "v2/P13-projected-lines.svg",
+      "bytes": 3258,
+      "sha256": "aa0b22df8c2a80f32b3ae0b69271fb0e5b4aa9d8ba56eccead4cbb81020618bc"
+    },
+    {
+      "path": "v2/P13-props.png",
+      "bytes": 297789,
+      "sha256": "4b193f2c3e1b8affc73c00d0091b91fd93fafed7fabd3a3ef9801d3503bfd69e"
+    },
+    {
+      "path": "v2/P13-sentinel.png",
+      "bytes": 398966,
+      "sha256": "3b4dda74814a9d63fbca9021e01d3b96b85e94058dd3bd8e224804c9444bff8d"
+    },
+    {
+      "path": "v2/P14-actors.png",
+      "bytes": 995227,
+      "sha256": "fd46abf3da060c544a5cb450442fd17af041bec9089fc024ff7ca73c4a96484e"
+    },
+    {
+      "path": "v2/P14-anchors.json",
+      "bytes": 11055,
+      "sha256": "173198546fba13c063ca061bf780852d8f35aac940daeedcbf8e285bc2da2a01"
+    },
+    {
+      "path": "v2/P14-background.png",
+      "bytes": 1558752,
+      "sha256": "6a5a144df0ab2a732194077408e5c51fb546acb910d1973a76fd2a1aebd15232"
+    },
+    {
+      "path": "v2/P14-effects.png",
+      "bytes": 330582,
+      "sha256": "d212d792cdab7218733a14cedcfab36ccf7cd63262cd19ee79959a44a77da489"
+    },
+    {
+      "path": "v2/P14-foreground.png",
+      "bytes": 684910,
+      "sha256": "47e7dc746a6a64c46b82de9a93ee8cc2e418a326bcb733e864ef96eaf0b68362"
+    },
+    {
+      "path": "v2/P14-full.png",
+      "bytes": 1809393,
+      "sha256": "e94ecb67691d1c8a5e901eab4168badb0e579706b46fd8a2a5282b20ae60e939"
+    },
+    {
+      "path": "v2/P14-projected-lines.svg",
+      "bytes": 3277,
+      "sha256": "ef6957cc066b3233c55f4bc74573b41aa78ea6febdace8962e2a389d804f5e86"
+    },
+    {
+      "path": "v2/P14-props.png",
+      "bytes": 430220,
+      "sha256": "0a8c0c7e3fb9ece02d182e0a0584af410f163e6994ff546535a6dd1de5e0430c"
+    },
+    {
+      "path": "v2/P14-sentinel.png",
+      "bytes": 345076,
+      "sha256": "ba5484d8efe6b2e4da80f5bcc7f8206d5a90d853abb2fec90ab19a9e8397c623"
+    },
+    {
+      "path": "v2/build_blender.py",
+      "bytes": 18029,
+      "sha256": "1d7cba6335854bdc23f086fcd6983bd815f420b8abdbd551a1363004ce337186"
+    },
+    {
+      "path": "v2/render-record-all.json",
+      "bytes": 4196,
+      "sha256": "aae6b38bee72e74ba4525986ab20675e23162fe308f1d43ccf46d1ed1be76733"
+    },
+    {
+      "path": "v2/scene-all.blend",
+      "bytes": 587137,
+      "sha256": "27650db3691bade4a3cafb9a8553155d4da5feddecc8e29af5325511670f554b"
+    },
+    {
+      "path": "v2/scene.json",
+      "bytes": 44191,
+      "sha256": "42863c0ffe37858e6e03327eeda41017dea7ff8127aad5e5129d4f50e164e0a7"
+    },
+    {
+      "path": "v3/P08-actors.png",
+      "bytes": 411260,
+      "sha256": "a5b5f38f31b39128e0b73181c44e491e2ceb8ee505b2016be48e4b150863b882"
+    },
+    {
+      "path": "v3/P08-anchors.json",
+      "bytes": 10591,
+      "sha256": "b7622c81ba51d682ad200f8a3952700c18ea687d7dee11268fdc543cfff0d580"
+    },
+    {
+      "path": "v3/P08-background.png",
+      "bytes": 1156377,
+      "sha256": "401c625761961a6029901eb6bc4d68e35c64c2cd8a760ba5ff4e1f4cdab88655"
+    },
+    {
+      "path": "v3/P08-effects.png",
+      "bytes": 255513,
+      "sha256": "b11e6aadf84205a8e599231b70c598084830b7028b0e3c46c49101a91289610a"
+    },
+    {
+      "path": "v3/P08-foreground.png",
+      "bytes": 467856,
+      "sha256": "fdcc80144fe896b58988bedbd012921dd815aa5fc789687af47ab7d12d2e5e13"
+    },
+    {
+      "path": "v3/P08-full.png",
+      "bytes": 1277578,
+      "sha256": "b72abaeb62b9f3776e8311414c989c678f68c05b85663ef541d7605c60047aa3"
+    },
+    {
+      "path": "v3/P08-projected-lines.svg",
+      "bytes": 3082,
+      "sha256": "f1024bac57f9cc3ca3475dd2cbfbf70333823835260e04589c9d81d1bb68a703"
+    },
+    {
+      "path": "v3/P08-props.png",
+      "bytes": 278106,
+      "sha256": "c5abbcc70951c4ecde76c40c76c324f03811be253c0c08e5e19c14e292b52189"
+    },
+    {
+      "path": "v3/P08-sentinel.png",
+      "bytes": 393912,
+      "sha256": "509e776ba728f10cc0a7e1d1769c04d3be3390c80cc261427fbd6ea23973cfae"
+    },
+    {
+      "path": "v3/P09-actors.png",
+      "bytes": 330277,
+      "sha256": "4ff550b6350b4591a9ed2706db2554f4b34db3c458ebdc68a6c7be2ed3439eae"
+    },
+    {
+      "path": "v3/P09-anchors.json",
+      "bytes": 10606,
+      "sha256": "617163cb992328a569b7099c4523d8105794dfd652f14c8f1d7b9c0759493fe9"
+    },
+    {
+      "path": "v3/P09-background.png",
+      "bytes": 1026841,
+      "sha256": "c8169ca5a7bcf398993b34b8d413b76bbb09fe9c7b68d2a4b4a957fc5c2a9285"
+    },
+    {
+      "path": "v3/P09-effects.png",
+      "bytes": 238617,
+      "sha256": "37a92beb59e9fe8609ebd6eb8833c4e1ca9d44ba7a9b2c9d45ae0d839cdd3b31"
+    },
+    {
+      "path": "v3/P09-foreground.png",
+      "bytes": 434160,
+      "sha256": "9ea6464a182a75dbba1c9b8612df4ddcf8b045fe30d780bac2d4b58a146fe7cc"
+    },
+    {
+      "path": "v3/P09-full.png",
+      "bytes": 1140980,
+      "sha256": "7e542543ccf0de29312ff132aa5ad239479333c29fd7c160160e7a946ca62769"
+    },
+    {
+      "path": "v3/P09-projected-lines.svg",
+      "bytes": 3093,
+      "sha256": "b2688c1c6cea375372ad70ea99453012ec7071770826f8a5c2e8313083748e1c"
+    },
+    {
+      "path": "v3/P09-props.png",
+      "bytes": 304829,
+      "sha256": "c8f5a129e4197c1af0981ed240f627fcb4e0a70f2d4cfa172c40f5ecfd689bd6"
+    },
+    {
+      "path": "v3/P09-sentinel.png",
+      "bytes": 316820,
+      "sha256": "a8ee29a8ba44a369a893a220c78cd7a523d4338f37e8060980fc289d3bf6f7b5"
+    },
+    {
+      "path": "v3/P10-actors.png",
+      "bytes": 491294,
+      "sha256": "c92e7c5da2645fd372bbb2b5433ad612c4cd2575351a26b5fa90e124c77d220a"
+    },
+    {
+      "path": "v3/P10-anchors.json",
+      "bytes": 10503,
+      "sha256": "9d40feacc0330a9e7814d16a540664ccb103dae19ce7a7f1c38bd9cccb58a497"
+    },
+    {
+      "path": "v3/P10-background.png",
+      "bytes": 1204624,
+      "sha256": "9f99d4a5b1133646f9553374e68aa39597f2b617e6a6ea4665681464b03e2af2"
+    },
+    {
+      "path": "v3/P10-effects.png",
+      "bytes": 287735,
+      "sha256": "7926c51a36a0a981554c17cc9060aa64c6b8b29993ccf9a2dd7307c56deb25cc"
+    },
+    {
+      "path": "v3/P10-foreground.png",
+      "bytes": 270561,
+      "sha256": "c4edceea3e1d201eba626cd17924bb8d641906dbec692b3fac7b218f82884fc0"
+    },
+    {
+      "path": "v3/P10-full.png",
+      "bytes": 1325201,
+      "sha256": "f515509fc31fe6a79ce5e315c6fbb098fa2fa7ad96adff29f0f39184d3203daa"
+    },
+    {
+      "path": "v3/P10-projected-lines.svg",
+      "bytes": 3057,
+      "sha256": "544335e9f42c59e5e2b6ab51e51b7050eb63f8e1b4132555bba4145605b6c241"
+    },
+    {
+      "path": "v3/P10-props.png",
+      "bytes": 395104,
+      "sha256": "1e7d8c3661cbeb0c88b0d3aff7065aa202bf9a69ee55d164032e1f08b8024aad"
+    },
+    {
+      "path": "v3/P10-sentinel.png",
+      "bytes": 438897,
+      "sha256": "4861f03becdbee2e54b070477fc5e3149cc24644c2c7deaa0a0a537ab03559ae"
+    },
+    {
+      "path": "v3/P11-actors.png",
+      "bytes": 484024,
+      "sha256": "31da55658062db64bcc76c9280033d5e588967e45a5c0d0e91c2c3a45d445c24"
+    },
+    {
+      "path": "v3/P11-anchors.json",
+      "bytes": 10650,
+      "sha256": "ec09b2cce8f100e5d7c34229e8f8163eb1b81f1a15d730c2898b1060db28f214"
+    },
+    {
+      "path": "v3/P11-background.png",
+      "bytes": 1516789,
+      "sha256": "9d2bbf9faf5bcfcbd60c489cf26f921de8a5d63de6bd05ca2830438a6dd180a7"
+    },
+    {
+      "path": "v3/P11-effects.png",
+      "bytes": 453008,
+      "sha256": "c7b7c2c5ca82d35a139f9642b6890ff45d585553f329bb04c8887f37b7cd6790"
+    },
+    {
+      "path": "v3/P11-foreground.png",
+      "bytes": 540469,
+      "sha256": "bd2600933712eda838a165244a73d781fa9d2ec5ab64512787bae4fbd6a12fcd"
+    },
+    {
+      "path": "v3/P11-full.png",
+      "bytes": 1624142,
+      "sha256": "fba8412c1f3b03a2e6cce29bdc9af5776f0a1ebacf33603d14c107dc2e4f8a1f"
+    },
+    {
+      "path": "v3/P11-projected-lines.svg",
+      "bytes": 3098,
+      "sha256": "9d70faafe1727e2e4489efc0eb505b8d9e40d6ab77b6d46b57fd540de2ade83d"
+    },
+    {
+      "path": "v3/P11-props.png",
+      "bytes": 433537,
+      "sha256": "1b3ee2036d8137ec3fbc5e4f6f30674b2e3f47eac8fa5bb68aefc8934f65be36"
+    },
+    {
+      "path": "v3/P11-sentinel.png",
+      "bytes": 459007,
+      "sha256": "33863aca82a678df7d1b06fee395d9f486e515839d52b40f372afc8c7e465107"
+    },
+    {
+      "path": "v3/P12-actors.png",
+      "bytes": 672133,
+      "sha256": "97e3d4df9dbe4a7ded55b09c4883adbcc7ae055bdddbd2deec8571fb4d467fd0"
+    },
+    {
+      "path": "v3/P12-anchors.json",
+      "bytes": 11032,
+      "sha256": "d4c8c8acd387975dab211a2e03683579dffe137a8312e86ac63bc22de8fb6172"
+    },
+    {
+      "path": "v3/P12-background.png",
+      "bytes": 1841655,
+      "sha256": "944da850a99f47643f7d7dd4d3c9840a34a5bd6855a23cebae34da8d3f77b9fa"
+    },
+    {
+      "path": "v3/P12-effects.png",
+      "bytes": 412845,
+      "sha256": "6387026d569282d382e3b878b26a31f7e60dab86dde3679c860bd9336cab6bba"
+    },
+    {
+      "path": "v3/P12-foreground.png",
+      "bytes": 728407,
+      "sha256": "cedaa8955c1f60f8fce0c4215d704df355a8714f8d8236c1b6b292a2d58a5dc8"
+    },
+    {
+      "path": "v3/P12-full.png",
+      "bytes": 1986924,
+      "sha256": "7ce6f426af64d48cc4f0c9741815744ba77a2ff6e87e0f67299188d8e9f3143e"
+    },
+    {
+      "path": "v3/P12-projected-lines.svg",
+      "bytes": 3279,
+      "sha256": "a480ea80649d2e635b0a5a33e48238a5801a8d999b826490d3c3e6319a5ccccd"
+    },
+    {
+      "path": "v3/P12-props.png",
+      "bytes": 539885,
+      "sha256": "c6d034d188238ce267beef806eb1b84e2c310f91c078f9002be23a881f36fe37"
+    },
+    {
+      "path": "v3/P12-sentinel.png",
+      "bytes": 613207,
+      "sha256": "feefb0ecfe88d4376652bc43891a8fd6ddde641af8f8495ca51e9b140fb0d589"
+    },
+    {
+      "path": "v3/P13-actors.png",
+      "bytes": 349595,
+      "sha256": "7b7eb3c38a74682bae3a355b2529f8b7c81ab32a52b1daa46756d033860938c1"
+    },
+    {
+      "path": "v3/P13-anchors.json",
+      "bytes": 11090,
+      "sha256": "c4f4ecab448bacec53212111c3f7c2afe79e0fdb823dda3688e42ba5d3b75f41"
+    },
+    {
+      "path": "v3/P13-background.png",
+      "bytes": 1109792,
+      "sha256": "8399b866ef6327233d93a8b4acf5f3f4c56d7b658f52b777b4ac130e05da6493"
+    },
+    {
+      "path": "v3/P13-effects.png",
+      "bytes": 270561,
+      "sha256": "69e424a9fe5a53221bccc0cd00c28276f3675dd7692dcf13219f617f38605d1d"
+    },
+    {
+      "path": "v3/P13-foreground.png",
+      "bytes": 400002,
+      "sha256": "5e0fee5f23d12c26b7d691f240747eca04a26c87988a31e17e9ac8085add0113"
+    },
+    {
+      "path": "v3/P13-full.png",
+      "bytes": 1173013,
+      "sha256": "0c0add2a34e60cf5c975e8c2e84fbd918695d239fd3422921b2a593aae884626"
+    },
+    {
+      "path": "v3/P13-projected-lines.svg",
+      "bytes": 3257,
+      "sha256": "e2ade3b177288b21306773b52d12d80f8dac1d9847bf463a10a719c738948c58"
+    },
+    {
+      "path": "v3/P13-props.png",
+      "bytes": 287746,
+      "sha256": "b5515479646c4a93d266029efa20d93d7dbdd7ac80beafcb4e4edfacf6d0f0e5"
+    },
+    {
+      "path": "v3/P13-sentinel.png",
+      "bytes": 338163,
+      "sha256": "8598b1991ac2a3e646fb7e9762825b67ca931bf2f688505b9e1c83c4c2758888"
+    },
+    {
+      "path": "v3/P14-actors.png",
+      "bytes": 981693,
+      "sha256": "c6472c65226999d768324f3a2f7349952f7a03d0f633562469e3b062a07a2cf2"
+    },
+    {
+      "path": "v3/P14-anchors.json",
+      "bytes": 11102,
+      "sha256": "07f3ab41d048de33cde396c3c97bb935f77d854b48dd5bc0f419390bed587842"
+    },
+    {
+      "path": "v3/P14-background.png",
+      "bytes": 1475593,
+      "sha256": "f034a6626ceea6bd698c086bfe7a0c1eb7519a9223883543478285e277e3df33"
+    },
+    {
+      "path": "v3/P14-effects.png",
+      "bytes": 330582,
+      "sha256": "d09a14fa3f27647d711ef4115a346c51ad4d386b51d03a4de787783c9a2e228f"
+    },
+    {
+      "path": "v3/P14-foreground.png",
+      "bytes": 330582,
+      "sha256": "b243debb11916f927cd322c87ec4e5095af188008d81ebfe91bc7b4446e87464"
+    },
+    {
+      "path": "v3/P14-full.png",
+      "bytes": 1635935,
+      "sha256": "2859d3e547c6636a0d2b5b102a8dcc884074893a2678f1b7d66e47718310e7a4"
+    },
+    {
+      "path": "v3/P14-projected-lines.svg",
+      "bytes": 3303,
+      "sha256": "988333ec885f4c12767cd37e4fb920efa9236772e5bf868e44ceb48275b8e214"
+    },
+    {
+      "path": "v3/P14-props.png",
+      "bytes": 420249,
+      "sha256": "f96380bcdfafadb87b4314d02015f68cf5564270e9432996d48e011e6643a13f"
+    },
+    {
+      "path": "v3/P14-sentinel.png",
+      "bytes": 330582,
+      "sha256": "448e5ac101fd9cbe1422f1fe2227c4b8044ede0cc07a9c528988c9059294988a"
+    },
+    {
+      "path": "v3/build_blender.py",
+      "bytes": 18104,
+      "sha256": "1a1369c8907c716f2d4a39f8cc4be6117b13c80261a535f5175049b19316c0c2"
+    },
+    {
+      "path": "v3/render-record-all.json",
+      "bytes": 4410,
+      "sha256": "3aa37a3bd6af7265df15abcc4adece3c579d3628c385b9f2edad5e95b4863444"
+    },
+    {
+      "path": "v3/scene-all.blend",
+      "bytes": 588079,
+      "sha256": "dd4b4be94fd679c4f2cb5e5ec14c06a9924c066cb232e3f6c22291b957925b36"
+    },
+    {
+      "path": "v3/scene.json",
+      "bytes": 44624,
+      "sha256": "c81b9d1cb7196b3ffcd7def9dcea13be0a8a79427fb12bda607e1678b1dc7ad4"
+    },
+    {
+      "path": "v4/P08-actors.png",
+      "bytes": 414038,
+      "sha256": "6045d2ca2816b25c5cd59a8b8c864e24d3ed0c3ef00b17bd7a577f3a40ced32a"
+    },
+    {
+      "path": "v4/P08-anchors.json",
+      "bytes": 10590,
+      "sha256": "b659bcacd2ff1198ba0981495be05be13362a758c3ff4dbef64e3c67a766010f"
+    },
+    {
+      "path": "v4/P08-background.png",
+      "bytes": 1156328,
+      "sha256": "9adb1fd444e0ecae8be51bae697cecbfc666b58305dc807cae8ac5a12042e0a4"
+    },
+    {
+      "path": "v4/P08-effects.png",
+      "bytes": 255513,
+      "sha256": "28410735247192cc0aa529fc00054a9e43569cb025b92b9763e6555946f9a247"
+    },
+    {
+      "path": "v4/P08-foreground.png",
+      "bytes": 467856,
+      "sha256": "45068d0af926801f532e3067e989803cdd6525f38e8451d0bbbd8808aa54967f"
+    },
+    {
+      "path": "v4/P08-full.png",
+      "bytes": 1277243,
+      "sha256": "c4ba62cd35d39fe1bb69ba7683f0d7ec4a55bfed929968822b7998f86afb3a47"
+    },
+    {
+      "path": "v4/P08-projected-lines.svg",
+      "bytes": 3082,
+      "sha256": "7556680b7c82898fca853767d29b9e0da3e8e9489f2f96308ca89c7ec994e89b"
+    },
+    {
+      "path": "v4/P08-props.png",
+      "bytes": 280414,
+      "sha256": "f08d401a885db9d54c38e85b592155be36982dc6e286c6b5a80cd23e677e1e1a"
+    },
+    {
+      "path": "v4/P08-sentinel.png",
+      "bytes": 393912,
+      "sha256": "9085d482815afac85947f5f789b7190d9812de66c06c197ed4457094ef5d403d"
+    },
+    {
+      "path": "v4/P09-actors.png",
+      "bytes": 331106,
+      "sha256": "c0dfb5cde59073bf19294d1dcf004a4fb956ff7a9a997cb1dc530c541b38817d"
+    },
+    {
+      "path": "v4/P09-anchors.json",
+      "bytes": 10609,
+      "sha256": "8d19988f507b48e574cbcaea96fc2763e278a64dd031ced6e62e4c5c095a3413"
+    },
+    {
+      "path": "v4/P09-background.png",
+      "bytes": 1050245,
+      "sha256": "69855ffe3990c00968bc96b44de84752756a2d18fa39e353212ada993e61fc56"
+    },
+    {
+      "path": "v4/P09-effects.png",
+      "bytes": 238617,
+      "sha256": "0e189d513d798c4abaec6bf41a80e56cbca0fb5eb28db6d16118e5acd3fa4ef6"
+    },
+    {
+      "path": "v4/P09-foreground.png",
+      "bytes": 434160,
+      "sha256": "1468bd5fd6e13e6d2e5f62401651dc41b7dcc21fd84ce92856f97154d873660f"
+    },
+    {
+      "path": "v4/P09-full.png",
+      "bytes": 1164671,
+      "sha256": "74562747ccfe5cc5ea51eaf924fca7c297e603424f5b2e998f7cc022f3994d18"
+    },
+    {
+      "path": "v4/P09-projected-lines.svg",
+      "bytes": 3092,
+      "sha256": "a62b82859b1a1eb9bdfa5bb12b1cebff9ec24015410a843b93386519e53eca3b"
+    },
+    {
+      "path": "v4/P09-props.png",
+      "bytes": 307171,
+      "sha256": "dee0fdca15e75e01a8a8aee177eebd2c01a60242d6b666e4b4dcb046e3f8e762"
+    },
+    {
+      "path": "v4/P09-sentinel.png",
+      "bytes": 316820,
+      "sha256": "9056f18f09bc7ab054be0fc5910c2820ed14b7beeba7ab7f35e3622c46f319fb"
+    },
+    {
+      "path": "v4/P10-actors.png",
+      "bytes": 490734,
+      "sha256": "3f80a4f2fd5d2084cad5be0e5b8bc7af3863146b8c0ae88b56add24c01c2f0b9"
+    },
+    {
+      "path": "v4/P10-anchors.json",
+      "bytes": 10501,
+      "sha256": "5fec4757f0f8f6136a496ff57f478c70a7254a567db88e6db08632dced080180"
+    },
+    {
+      "path": "v4/P10-background.png",
+      "bytes": 1204624,
+      "sha256": "408f5778a69633ef29de12218e695afaebeee1290b1b4965c9719b597e4bfcd0"
+    },
+    {
+      "path": "v4/P10-effects.png",
+      "bytes": 287735,
+      "sha256": "5b859ffb572eedb338758b2ecfc328d13f318dec84023d3c9d2cde003368ffaa"
+    },
+    {
+      "path": "v4/P10-foreground.png",
+      "bytes": 270561,
+      "sha256": "c7dc986496ddf789c34fd8b9a82a1161819db99a3893fc0fb9c440b70f957c8b"
+    },
+    {
+      "path": "v4/P10-full.png",
+      "bytes": 1328054,
+      "sha256": "e20b766f310e18aca76fdae11a71e25350981b00fdd2eee0e0cd09604bdd753f"
+    },
+    {
+      "path": "v4/P10-projected-lines.svg",
+      "bytes": 3057,
+      "sha256": "59b886e4c4efc2dc14fb554c21ff21b416f807a374dad4d564f4178da180ce86"
+    },
+    {
+      "path": "v4/P10-props.png",
+      "bytes": 403015,
+      "sha256": "f2649eab6eb7fdef495b97d9a58d57c6a728eabe9e940b9f5576d58fe27a5d32"
+    },
+    {
+      "path": "v4/P10-sentinel.png",
+      "bytes": 438897,
+      "sha256": "2dd54425a77be62b72a6be931e4f0c076dbc95d4a6121518621ecfd0b05e791c"
+    },
+    {
+      "path": "v4/P11-actors.png",
+      "bytes": 602786,
+      "sha256": "f0e1d98282b50c67c11c29db1ab0ce15ea3688e68e40642605722edbd7892481"
+    },
+    {
+      "path": "v4/P11-anchors.json",
+      "bytes": 10646,
+      "sha256": "c114cda79a7ad415e2f99bf644f2708ea7bf8128b0ea1912d1b858e2b1028de0"
+    },
+    {
+      "path": "v4/P11-background.png",
+      "bytes": 1696131,
+      "sha256": "c70e82ececc40346441209a68cd2b24f5a711c9babf4669d91a4673dd3372897"
+    },
+    {
+      "path": "v4/P11-effects.png",
+      "bytes": 521558,
+      "sha256": "cec51c17d9a63ff834f6be383a07463e289790702bb058d0115a4421d8d581a7"
+    },
+    {
+      "path": "v4/P11-foreground.png",
+      "bytes": 648112,
+      "sha256": "b7dd41e3dad93e1d8a63ad3132bd75d3852e348aeef7059eeec2add92a2bacdd"
+    },
+    {
+      "path": "v4/P11-full.png",
+      "bytes": 1864500,
+      "sha256": "25415f3785a8917352fae6a6d1e674d09bb2c154706a90dcfcac98e4c300072c"
+    },
+    {
+      "path": "v4/P11-projected-lines.svg",
+      "bytes": 3103,
+      "sha256": "20aa4465910b32d34710e0bea2a829f5bc79e0e7202df7d213487a30b99cc3e8"
+    },
+    {
+      "path": "v4/P11-props.png",
+      "bytes": 414752,
+      "sha256": "03af55e696cb26da35303052042ff287e918460439eee5b3431fc26a3472e92b"
+    },
+    {
+      "path": "v4/P11-sentinel.png",
+      "bytes": 553053,
+      "sha256": "1f379826ff863e55bc3cc8016a46e6a711ccda8262e8ba4746bbd784e2be8cd5"
+    },
+    {
+      "path": "v4/P12-actors.png",
+      "bytes": 672133,
+      "sha256": "107bf405f246bf8edf265984b8ef70454c43e60f0b877df67defbc6a46d3c5f9"
+    },
+    {
+      "path": "v4/P12-anchors.json",
+      "bytes": 11032,
+      "sha256": "d4c8c8acd387975dab211a2e03683579dffe137a8312e86ac63bc22de8fb6172"
+    },
+    {
+      "path": "v4/P12-background.png",
+      "bytes": 1841655,
+      "sha256": "d589f9b6e249df4e5be331314dd7e0fa17c24178a7a14e3520eb6eba78aeb415"
+    },
+    {
+      "path": "v4/P12-effects.png",
+      "bytes": 412845,
+      "sha256": "454d529553a150d65760504c9c86fa0c98f157f323305b6c43808b7ad8fde721"
+    },
+    {
+      "path": "v4/P12-foreground.png",
+      "bytes": 728407,
+      "sha256": "06652406fede005b7a7c53446c2d5f4ea23883ccf630056c861e54f17ccc32e5"
+    },
+    {
+      "path": "v4/P12-full.png",
+      "bytes": 1986924,
+      "sha256": "9a992d6c9e66a6dacc7b379b9265e0c402cfd621b749e353d670aa10549a768c"
+    },
+    {
+      "path": "v4/P12-projected-lines.svg",
+      "bytes": 3279,
+      "sha256": "a480ea80649d2e635b0a5a33e48238a5801a8d999b826490d3c3e6319a5ccccd"
+    },
+    {
+      "path": "v4/P12-props.png",
+      "bytes": 539885,
+      "sha256": "19517eeaaf0e7bf2996be963d57c4d682cd66b99450503a97488022453ba518f"
+    },
+    {
+      "path": "v4/P12-sentinel.png",
+      "bytes": 613207,
+      "sha256": "b47694e043b2ca0a3deaa87f62bebf9c20501e9a396e7498792601ac95ed7e52"
+    },
+    {
+      "path": "v4/P13-actors.png",
+      "bytes": 379080,
+      "sha256": "bc72007a1191f53c035260443551f5c7fc27b669750463b86d89160cc127fe80"
+    },
+    {
+      "path": "v4/P13-anchors.json",
+      "bytes": 11089,
+      "sha256": "5f5d6dbe1d124aab24f8e9ade2bcbcd2606d0118342a063f0f1e6c2f18dc1ea5"
+    },
+    {
+      "path": "v4/P13-background.png",
+      "bytes": 1223381,
+      "sha256": "89ceed07ccefa9f0a07e75b506ce924069c0d2a2bcb711d866e526142d5269fd"
+    },
+    {
+      "path": "v4/P13-effects.png",
+      "bytes": 270561,
+      "sha256": "4bd1c5056ae1a04bd0a5a0efb8f830ea03991aaf16ceb5cb12c0bf07ef1f51d5"
+    },
+    {
+      "path": "v4/P13-foreground.png",
+      "bytes": 451198,
+      "sha256": "c9b7da08a081f7396a89eb07cd448943e0a80a2d50ec3417f4563b424e2f6f5f"
+    },
+    {
+      "path": "v4/P13-full.png",
+      "bytes": 1309812,
+      "sha256": "cde65bbc08d68c2bb73ef50b4cf7a489f600dd5e032467939d700391869efc4c"
+    },
+    {
+      "path": "v4/P13-projected-lines.svg",
+      "bytes": 3255,
+      "sha256": "2687adee99d0fb864b4e63069539275aa625757cb3537ad21c007ef88edd7676"
+    },
+    {
+      "path": "v4/P13-props.png",
+      "bytes": 292172,
+      "sha256": "a1a427936f2edea318ce7063b52b21d91137e59547bdefa3be412d1e79ba740f"
+    },
+    {
+      "path": "v4/P13-sentinel.png",
+      "bytes": 365781,
+      "sha256": "c7566b16e069b602a96a988703d479e1bddde9c4415f7ba7213626436af1864f"
+    },
+    {
+      "path": "v4/P14-actors.png",
+      "bytes": 981693,
+      "sha256": "8ed498059318638b3e7a2c92084c9ff2f90358adc8f760dc972133d0b2f479c9"
+    },
+    {
+      "path": "v4/P14-anchors.json",
+      "bytes": 11102,
+      "sha256": "07f3ab41d048de33cde396c3c97bb935f77d854b48dd5bc0f419390bed587842"
+    },
+    {
+      "path": "v4/P14-background.png",
+      "bytes": 1475593,
+      "sha256": "75aa28429f5f91b3e790dc5e8808a811da18987f4dcdf8aff6952b8945cfd441"
+    },
+    {
+      "path": "v4/P14-effects.png",
+      "bytes": 330582,
+      "sha256": "6136a19b2c7f3a5d58ac246ede349ed5918f745d8ca08d9fe7678c87f34c99c0"
+    },
+    {
+      "path": "v4/P14-foreground.png",
+      "bytes": 330582,
+      "sha256": "95791d91bc6206619ab419c36490845b1f3c6ebebbbd4b7cdc3922f5fda8908b"
+    },
+    {
+      "path": "v4/P14-full.png",
+      "bytes": 1635935,
+      "sha256": "e8d43e41830a8563cf6a39a2d1fd5be1bf3b5eb475f4d235ae23ca3d3ce74c32"
+    },
+    {
+      "path": "v4/P14-projected-lines.svg",
+      "bytes": 3303,
+      "sha256": "988333ec885f4c12767cd37e4fb920efa9236772e5bf868e44ceb48275b8e214"
+    },
+    {
+      "path": "v4/P14-props.png",
+      "bytes": 420249,
+      "sha256": "099854fd1e1148f685db0e78dc2f1c66473d1facc4feb1d189e69e3e945213d5"
+    },
+    {
+      "path": "v4/P14-sentinel.png",
+      "bytes": 330582,
+      "sha256": "12b86c950d2d32b14beb95c342afa028ba48e6297ccd00fd0a0b96e888d30230"
+    },
+    {
+      "path": "v4/build_blender.py",
+      "bytes": 18175,
+      "sha256": "b04eda85c5755e88e252f7f96489b9181dca1e93c66934060aed331409016801"
+    },
+    {
+      "path": "v4/render-record-all.json",
+      "bytes": 4409,
+      "sha256": "15d8ee288881ef799142cc3db98a69372c3f24fe943e9375545cbf393e46483f"
+    },
+    {
+      "path": "v4/scene-all.blend",
+      "bytes": 584139,
+      "sha256": "722a85da7c858f1593640b1bfa1f7952e1ea969fefc2fb38ae8e83577d5f21da"
+    },
+    {
+      "path": "v4/scene.json",
+      "bytes": 44566,
+      "sha256": "c03ac54aca21ed5b3252dc5348ea2f8be177ac50080eca7f9d433492109960ef"
+    },
+    {
+      "path": "v5/P08-actors.png",
+      "bytes": 418352,
+      "sha256": "a7e760fc2d717f285d0c10ae361b8f40ffc23b8be6fd9db1863600aa56a5778b"
+    },
+    {
+      "path": "v5/P08-anchors.json",
+      "bytes": 10589,
+      "sha256": "ea40058d5b82361daa4586790e01d7c6acb01e279380408d864236122e41166d"
+    },
+    {
+      "path": "v5/P08-background.png",
+      "bytes": 1156328,
+      "sha256": "bb707a1620a3c863aad682f682f901f1d27561a815290c54e8bcc5937bbdefde"
+    },
+    {
+      "path": "v5/P08-effects.png",
+      "bytes": 255513,
+      "sha256": "0d4d6bf1e7be3df98a85f4c4a949e93f1777499c11c1e8467b6d6b0e3df239d2"
+    },
+    {
+      "path": "v5/P08-foreground.png",
+      "bytes": 467856,
+      "sha256": "e7c4a43c0199a15afa16be5cbad934f6ae1415222b13945638d800d64965eac1"
+    },
+    {
+      "path": "v5/P08-full.png",
+      "bytes": 1281256,
+      "sha256": "773872c3f4f70d10e8389f31d8c26adac5271339239f493c62d415abb472fa7a"
+    },
+    {
+      "path": "v5/P08-projected-lines.svg",
+      "bytes": 3080,
+      "sha256": "d7ebbb375ed59de27bf795ef015b419102b0b72705279eb7318eadc65f11b712"
+    },
+    {
+      "path": "v5/P08-props.png",
+      "bytes": 280905,
+      "sha256": "c754ae4810f4c1af509bdbaea411a304b69c031f0a6cf89970d305d6e2f4d1bf"
+    },
+    {
+      "path": "v5/P08-sentinel.png",
+      "bytes": 396683,
+      "sha256": "e9d286d4b763b532b426c49e0b40ec3022a82cf4d84fc48d1e48d42248de81ed"
+    },
+    {
+      "path": "v5/P09-actors.png",
+      "bytes": 335788,
+      "sha256": "99dec2fef83e644243f7ddb08487ef80dd286a496dd4b52a8a764eac92486ba3"
+    },
+    {
+      "path": "v5/P09-anchors.json",
+      "bytes": 10609,
+      "sha256": "652fb77819a2f13c3c2e663813b652483e8b1a42a147ea06b29f257ce5d62421"
+    },
+    {
+      "path": "v5/P09-background.png",
+      "bytes": 1050245,
+      "sha256": "b4dc8198dcaae3211d765edab31eaa1ccadc39873cd09a869025e644836de5e8"
+    },
+    {
+      "path": "v5/P09-effects.png",
+      "bytes": 238617,
+      "sha256": "9ae1451a67949329d00088fabc9ea3c1c546612a18618355ae8fe1ced3c126c7"
+    },
+    {
+      "path": "v5/P09-foreground.png",
+      "bytes": 434160,
+      "sha256": "b49cd93ffc992f7608ead4a3e8eb8f1516e5dcffe21704765393e1e43c8ea09e"
+    },
+    {
+      "path": "v5/P09-full.png",
+      "bytes": 1167696,
+      "sha256": "5af7bca7e590e4f4e3208c5b4ec5e87236c13b48d19b40093abe840fcb3cd067"
+    },
+    {
+      "path": "v5/P09-projected-lines.svg",
+      "bytes": 3092,
+      "sha256": "cdc9fed618dca04a9107d671bf6c609e2c776643c5ec089f852c3f21936c204e"
+    },
+    {
+      "path": "v5/P09-props.png",
+      "bytes": 307273,
+      "sha256": "59f3b983bef5f263a90f8236bff1d7f2e2355c3beab479c7adb0e724ac69c76e"
+    },
+    {
+      "path": "v5/P09-sentinel.png",
+      "bytes": 320911,
+      "sha256": "2c25cba5c36ad2c3f1a982e5b9ad5e2eb58bd54203cf550fc3212753e10b3276"
+    },
+    {
+      "path": "v5/P10-actors.png",
+      "bytes": 492275,
+      "sha256": "3b0c7365882f4329c124b1ba3f3de7d00a4d46fe733a47ecd14f1a1df5a8bf3c"
+    },
+    {
+      "path": "v5/P10-anchors.json",
+      "bytes": 10501,
+      "sha256": "42d2aaceb072a8019e1ef95c21fa081d2ae53df5d626b7af6f1c3abd146b71fb"
+    },
+    {
+      "path": "v5/P10-background.png",
+      "bytes": 1204624,
+      "sha256": "b6eb901226866b74a82e24c86980bc1407e51826e12335efad90498f642d4bfc"
+    },
+    {
+      "path": "v5/P10-effects.png",
+      "bytes": 287735,
+      "sha256": "3e7a1a4ed3664f43de153d63bb09c6568cc0dc8bd8ead3a3fc50ed2e70613e25"
+    },
+    {
+      "path": "v5/P10-foreground.png",
+      "bytes": 270561,
+      "sha256": "b691073806e6599fa0aeb674d56caba22e1b99121a05b72375c66fc82201a649"
+    },
+    {
+      "path": "v5/P10-full.png",
+      "bytes": 1330200,
+      "sha256": "d444098075c243e4cba04b87dfd018d5d7da97a837546208efefc7abf607b09e"
+    },
+    {
+      "path": "v5/P10-projected-lines.svg",
+      "bytes": 3057,
+      "sha256": "9e36e2371bb704ee264428d2d25556518d1d220dad0e2f6486f603e04cf1eba5"
+    },
+    {
+      "path": "v5/P10-props.png",
+      "bytes": 407497,
+      "sha256": "e475525aa44f09e88cc94593d02ac3980d2612c7feecb367eb6aef84795c2bbb"
+    },
+    {
+      "path": "v5/P10-sentinel.png",
+      "bytes": 439454,
+      "sha256": "dfc6fa2773e7a316f964ff0235ce513ba136cb4370ef0ee350e605afbac348da"
+    },
+    {
+      "path": "v5/P11-actors.png",
+      "bytes": 555819,
+      "sha256": "e7ecf7fbca63a0dfd7cddc68f95db6f2c71105e2fd56455cfa5cdfe59ebebd64"
+    },
+    {
+      "path": "v5/P11-anchors.json",
+      "bytes": 10639,
+      "sha256": "953e2753a76619c36b90c74f70657f53ba7567ea915fb6e22d4ecde8c913d19c"
+    },
+    {
+      "path": "v5/P11-background.png",
+      "bytes": 1700947,
+      "sha256": "40e31f60cb37982df9d9430c21d77cbb521c91f64f49d41295d3a9c8f7f0a726"
+    },
+    {
+      "path": "v5/P11-effects.png",
+      "bytes": 491015,
+      "sha256": "10fa9b42ecf5112e1c843e5c4a2b2467653208e8bb8c17b75e46f3d5ce29ee34"
+    },
+    {
+      "path": "v5/P11-foreground.png",
+      "bytes": 595264,
+      "sha256": "2937fb2123f29c238e3bc717abb139f9ea81a6a665d33b4a4881f8144fe490e2"
+    },
+    {
+      "path": "v5/P11-full.png",
+      "bytes": 1854735,
+      "sha256": "5049f0a7d67e1ceb57a9a44709aa7c1d53338bbcff336ac875d0ca0f81d4245a"
+    },
+    {
+      "path": "v5/P11-projected-lines.svg",
+      "bytes": 3104,
+      "sha256": "3391e6f77ad949ed82faf08fc2d5c24dd7c856600354aa660c8e03910ebf1fe3"
+    },
+    {
+      "path": "v5/P11-props.png",
+      "bytes": 458844,
+      "sha256": "cc3dec7dd84d098cd0fab065a22b6fcfe66fa6e2cf16dd8699e2e41b5d6c2a99"
+    },
+    {
+      "path": "v5/P11-sentinel.png",
+      "bytes": 510600,
+      "sha256": "fa9ec07cf31bd6040578698a76eb9a5a4dadf3ed583434f9f016fe6a3bc9652f"
+    },
+    {
+      "path": "v5/P12-actors.png",
+      "bytes": 672133,
+      "sha256": "cf47ca30ab5daa2e184b1ec3b5ec222d790ff134db143ca7af2e21ba443d2760"
+    },
+    {
+      "path": "v5/P12-anchors.json",
+      "bytes": 11032,
+      "sha256": "d4c8c8acd387975dab211a2e03683579dffe137a8312e86ac63bc22de8fb6172"
+    },
+    {
+      "path": "v5/P12-background.png",
+      "bytes": 1841655,
+      "sha256": "424c6bcf4021e4a298385e06f3a29f74e5515b72f9ee808a24411522b0aa7f01"
+    },
+    {
+      "path": "v5/P12-effects.png",
+      "bytes": 412845,
+      "sha256": "48c7e1a298a43205e1d657aa080ef337117f3c55ae0e4f21bf7e00bcc699f5cc"
+    },
+    {
+      "path": "v5/P12-foreground.png",
+      "bytes": 728407,
+      "sha256": "3c5d10ba3b062188103fdc38cf9ea8eb44d46d02870e14b052a1fade476c9c27"
+    },
+    {
+      "path": "v5/P12-full.png",
+      "bytes": 1986924,
+      "sha256": "fda6d8308d0f4175bfdbc2cc01dbe7af7569f5ea22e6a3abf8f96e58baf5b885"
+    },
+    {
+      "path": "v5/P12-projected-lines.svg",
+      "bytes": 3279,
+      "sha256": "a480ea80649d2e635b0a5a33e48238a5801a8d999b826490d3c3e6319a5ccccd"
+    },
+    {
+      "path": "v5/P12-props.png",
+      "bytes": 539885,
+      "sha256": "28fcf021c818365783e1fdb00b68ff6de3dff4b51e5c1931f38bb6b9ebeae4ef"
+    },
+    {
+      "path": "v5/P12-sentinel.png",
+      "bytes": 613207,
+      "sha256": "8b88a1411a0ccfc6912752560f38434c45ecc3789083df1126a5f56ea7669098"
+    },
+    {
+      "path": "v5/P13-actors.png",
+      "bytes": 380814,
+      "sha256": "bfd11acc08b47bb01aebfc44e1e04f981c619b949eb2db964785347236a6bb60"
+    },
+    {
+      "path": "v5/P13-anchors.json",
+      "bytes": 11087,
+      "sha256": "c58ae3b20c052925877dfaabb676ce9168da8938381c993c5ec14cd88edede74"
+    },
+    {
+      "path": "v5/P13-background.png",
+      "bytes": 1223381,
+      "sha256": "dd038dff53969fda9381113eddb31c11e6f6957a27396b1d973a9b11310a3760"
+    },
+    {
+      "path": "v5/P13-effects.png",
+      "bytes": 270561,
+      "sha256": "2339b592a2df6d50d220f0569b36d1a41343bc052fc383ad47810e5de6cb3f32"
+    },
+    {
+      "path": "v5/P13-foreground.png",
+      "bytes": 451198,
+      "sha256": "c2148337a5774bd5e4ffc8ca0e8e0a207c4742dc201817561a22b83a206efcda"
+    },
+    {
+      "path": "v5/P13-full.png",
+      "bytes": 1311999,
+      "sha256": "9697959936dd04eb2dfba75bf1e04c4ab758af4590d81ab30e35c2d8090c77f0"
+    },
+    {
+      "path": "v5/P13-projected-lines.svg",
+      "bytes": 3255,
+      "sha256": "b890d1428ee3843f2eea5cb61094dc6a183799714ee7fc7f7c4ab83949dd692d"
+    },
+    {
+      "path": "v5/P13-props.png",
+      "bytes": 298211,
+      "sha256": "e06e0f1f96ffa28bc3ffdcb735d588b822bcf6941f0f16a881b8fdf10ddb47d2"
+    },
+    {
+      "path": "v5/P13-sentinel.png",
+      "bytes": 365781,
+      "sha256": "9aacd71b61db20e278a0a22f91a3b355269a3410724baca33e6c7003be069e46"
+    },
+    {
+      "path": "v5/P14-actors.png",
+      "bytes": 1006400,
+      "sha256": "d24efd672d73910ca72f5be6c95d4be672294f7dfa22f48e9e702fbac3dce740"
+    },
+    {
+      "path": "v5/P14-anchors.json",
+      "bytes": 11104,
+      "sha256": "1bdc7dad9f90bd845f10454047c95cd788a068d53f514b89301f5a97efc8c2bd"
+    },
+    {
+      "path": "v5/P14-background.png",
+      "bytes": 1475593,
+      "sha256": "00250b94c02ab7ea8a77c20325894792d25b22e7491e6ca7da6d3afa6b2ca0e8"
+    },
+    {
+      "path": "v5/P14-effects.png",
+      "bytes": 330582,
+      "sha256": "e9598da1254df96334ac3d956237828e38b4bcffebcf431fd71320b48bae39e5"
+    },
+    {
+      "path": "v5/P14-foreground.png",
+      "bytes": 330582,
+      "sha256": "e9598da1254df96334ac3d956237828e38b4bcffebcf431fd71320b48bae39e5"
+    },
+    {
+      "path": "v5/P14-full.png",
+      "bytes": 1649102,
+      "sha256": "4a55f81524cb455e21d7472b2f3e38ac887efc95e52ee9600dc21c8c1ce3a7c3"
+    },
+    {
+      "path": "v5/P14-projected-lines.svg",
+      "bytes": 3306,
+      "sha256": "0f6bfb02702ec42a1af14aeff8ae8d28ba3fdc363887942a85f9e983bde6bfad"
+    },
+    {
+      "path": "v5/P14-props.png",
+      "bytes": 444539,
+      "sha256": "ca190a9fa1914f97e5aa5ef54e599de48f02168a9b87df3427322cee9a3a8167"
+    },
+    {
+      "path": "v5/P14-sentinel.png",
+      "bytes": 330582,
+      "sha256": "e9598da1254df96334ac3d956237828e38b4bcffebcf431fd71320b48bae39e5"
+    },
+    {
+      "path": "v5/build_blender.py",
+      "bytes": 18226,
+      "sha256": "23a1ced69b5ace5b3d87f139ce1b8852082acfa52590006b26dc7390d63e8f84"
+    },
+    {
+      "path": "v5/render-record-all.json",
+      "bytes": 4407,
+      "sha256": "702cbf9e2640a005538eb4c51c3cfbe79b3e45e44dac46cf737bea0f3651e6f8"
+    },
+    {
+      "path": "v5/scene-all.blend",
+      "bytes": 580809,
+      "sha256": "856b41aa9d3ca598cc19796cb465becea5d7e0ee59b9e85037d985d98a040860"
+    },
+    {
+      "path": "v5/scene.json",
+      "bytes": 44825,
+      "sha256": "11ffe2831aedba5e7e07722615d74441fd4795ac637e8f2969c04de597e28e53"
+    },
+    {
+      "path": "v6/P11-actors.png",
+      "bytes": 557803,
+      "sha256": "f26fd9f258f6c11ac075376f992e744bfa822b48b4f2cc173a00d4da34d0a5b7"
+    },
+    {
+      "path": "v6/P11-anchors.json",
+      "bytes": 10634,
+      "sha256": "00a8e147d7ad2e5137c1685fd65e69a56e635c78fc4246375dfa033e9e8120e0"
+    },
+    {
+      "path": "v6/P11-background.png",
+      "bytes": 1700947,
+      "sha256": "68e3bacb00764f7acc38e33173dac10268c09386675c5cfd3bbf967a1ad6a2b3"
+    },
+    {
+      "path": "v6/P11-effects.png",
+      "bytes": 491694,
+      "sha256": "2c4a85d41218cfff0edc3f205a67711ae392161ad124415c8735572f213316b0"
+    },
+    {
+      "path": "v6/P11-foreground.png",
+      "bytes": 595264,
+      "sha256": "12699c95367f09b91afbac0a62ebb621b9cd674af44525fbb72fa9349153c835"
+    },
+    {
+      "path": "v6/P11-full.png",
+      "bytes": 1862578,
+      "sha256": "5827481635ef5740c8c634a68e92fd8d110ceed8b3192c9384ee787944f677f0"
+    },
+    {
+      "path": "v6/P11-projected-lines.svg",
+      "bytes": 3106,
+      "sha256": "2a3c5f8f1a5981d08404732dbcd430dbcba7de6850873a6d74c97bb8707b4cb6"
+    },
+    {
+      "path": "v6/P11-props.png",
+      "bytes": 460652,
+      "sha256": "cef34e23a74ab3f0c5b0a08f181e6fe3ab23613e610f4b8e26a61d0e0b56a8eb"
+    },
+    {
+      "path": "v6/P11-sentinel.png",
+      "bytes": 510600,
+      "sha256": "f7e014da26c155c8da6e9c4f62a4bde1a582daeaa96aebcbe9ffac67351079ae"
+    },
+    {
+      "path": "v6/build_blender.py",
+      "bytes": 18226,
+      "sha256": "23a1ced69b5ace5b3d87f139ce1b8852082acfa52590006b26dc7390d63e8f84"
+    },
+    {
+      "path": "v6/render-record-P11.json",
+      "bytes": 949,
+      "sha256": "e00243e3fb3ed5c39af7be43075af1a78a4ed41865f8065f75b77e2027846dca"
+    },
+    {
+      "path": "v6/scene-P11.blend",
+      "bytes": 195296,
+      "sha256": "7559c51027d88ab043dc7410687883c0cd722ece065280d2c6b4e6bdec1993ff"
+    },
+    {
+      "path": "v6/scene.json",
+      "bytes": 44796,
+      "sha256": "87d25b6c73ecaa90af5aaf8eaaa1d7906b2884c9a6aaa1f9b65e85cc1496d883"
+    },
+    {
+      "path": "v7/P08-actors.png",
+      "bytes": 418352,
+      "sha256": "ecb7e1ca11b605dce299d50ffa29dc95cf0ebe23d8055847344203bee018ce28"
+    },
+    {
+      "path": "v7/P08-anchors.json",
+      "bytes": 10589,
+      "sha256": "ea40058d5b82361daa4586790e01d7c6acb01e279380408d864236122e41166d"
+    },
+    {
+      "path": "v7/P08-background.png",
+      "bytes": 1156328,
+      "sha256": "a41124546d4019cfcd5683fbd41843a7b1ca7a4c2e7c781d0c6accc26bae358c"
+    },
+    {
+      "path": "v7/P08-effects.png",
+      "bytes": 255513,
+      "sha256": "a01315deb1b3306a3ca5ec4d1c5a8e0f65acc033a4865947461357112dc28375"
+    },
+    {
+      "path": "v7/P08-foreground.png",
+      "bytes": 467856,
+      "sha256": "76e3240c467317b063ce3d6e66063f176471a0c2137a21bdf8b55967e953725b"
+    },
+    {
+      "path": "v7/P08-full.png",
+      "bytes": 1281256,
+      "sha256": "eea418b56babdda5f01ae80f71ab77fb4de0e0767bc36e3f355c5e95fb114398"
+    },
+    {
+      "path": "v7/P08-projected-lines.svg",
+      "bytes": 3080,
+      "sha256": "d7ebbb375ed59de27bf795ef015b419102b0b72705279eb7318eadc65f11b712"
+    },
+    {
+      "path": "v7/P08-props.png",
+      "bytes": 280905,
+      "sha256": "0e3dd25f9b60e260845a587d06c524807a0e4cd48963857ab37f52f9f936a3e0"
+    },
+    {
+      "path": "v7/P08-sentinel.png",
+      "bytes": 396683,
+      "sha256": "77ecdf8f44aefdc2786b7725b0336600ad7b8d80ec894d73d9b24acb20280f70"
+    },
+    {
+      "path": "v7/P09-actors.png",
+      "bytes": 335788,
+      "sha256": "bbc8c6bee9a41191f6b167758066bbe91890814798f37e4a1a0d48479e635fbe"
+    },
+    {
+      "path": "v7/P09-anchors.json",
+      "bytes": 10609,
+      "sha256": "652fb77819a2f13c3c2e663813b652483e8b1a42a147ea06b29f257ce5d62421"
+    },
+    {
+      "path": "v7/P09-background.png",
+      "bytes": 1050245,
+      "sha256": "c973a6148e76f56dbf107fd63e26dd836db9d8e6937e50ad047f4f886fd7a3dd"
+    },
+    {
+      "path": "v7/P09-effects.png",
+      "bytes": 238617,
+      "sha256": "bf40e5bbfd3cbdc0a4a05d6fae313b7c9005ca3d8329559cf9e26d509d0aa31d"
+    },
+    {
+      "path": "v7/P09-foreground.png",
+      "bytes": 434160,
+      "sha256": "bbf9a5f9bb72a9ff96a8dbc3769dd14c4f97023d41ced6432255124f3faae51c"
+    },
+    {
+      "path": "v7/P09-full.png",
+      "bytes": 1167696,
+      "sha256": "79e17ce14acba9a5936404e5450806ae717ed09e53416a1d7a9354635168e366"
+    },
+    {
+      "path": "v7/P09-projected-lines.svg",
+      "bytes": 3092,
+      "sha256": "cdc9fed618dca04a9107d671bf6c609e2c776643c5ec089f852c3f21936c204e"
+    },
+    {
+      "path": "v7/P09-props.png",
+      "bytes": 307273,
+      "sha256": "44605e847e91d17388c79d8d4ba21d5d6789800f6ade207fba0a88e8daac90de"
+    },
+    {
+      "path": "v7/P09-sentinel.png",
+      "bytes": 320911,
+      "sha256": "6905d590fcf8662612c73f377642562fe5a263981d8487cc7db848995c83e597"
+    },
+    {
+      "path": "v7/P10-actors.png",
+      "bytes": 492275,
+      "sha256": "7bb24da5ec8567ae5d411bac32b7e86125ee80a2004c26fd0797a2d0048f7b14"
+    },
+    {
+      "path": "v7/P10-anchors.json",
+      "bytes": 10501,
+      "sha256": "42d2aaceb072a8019e1ef95c21fa081d2ae53df5d626b7af6f1c3abd146b71fb"
+    },
+    {
+      "path": "v7/P10-background.png",
+      "bytes": 1204624,
+      "sha256": "f9db59a0c83c267118b2ad9d14de968cb24f7b453f8d1ca7dcb14cfa3ed781e6"
+    },
+    {
+      "path": "v7/P10-effects.png",
+      "bytes": 287735,
+      "sha256": "f2a8a5d5c6b11b1581dbed7b7bdf26b089e0d2806bbd349ad1bfe6da05935684"
+    },
+    {
+      "path": "v7/P10-foreground.png",
+      "bytes": 270561,
+      "sha256": "f99a1ca107c4ee8471325bbc23d8dbeca1beeac36fe8b708296961e243f93949"
+    },
+    {
+      "path": "v7/P10-full.png",
+      "bytes": 1330200,
+      "sha256": "e76128ce66df111928e0cd05831fc311098a4890e1be84bf9ad7e1bc2cbcef92"
+    },
+    {
+      "path": "v7/P10-projected-lines.svg",
+      "bytes": 3057,
+      "sha256": "9e36e2371bb704ee264428d2d25556518d1d220dad0e2f6486f603e04cf1eba5"
+    },
+    {
+      "path": "v7/P10-props.png",
+      "bytes": 407497,
+      "sha256": "607e5e68bef31e29011066099b02d045a79ea25462d579aa6b4c45a0e954bf8a"
+    },
+    {
+      "path": "v7/P10-sentinel.png",
+      "bytes": 439454,
+      "sha256": "88ef4a6a28f6f40970b05a998f412c34c81648e71f3c50b665cf674c26cc496c"
+    },
+    {
+      "path": "v7/P11-actors.png",
+      "bytes": 557803,
+      "sha256": "8f389a8451cc3975724c8e7c747071143f3dbc757956e043891141deca7e3897"
+    },
+    {
+      "path": "v7/P11-anchors.json",
+      "bytes": 10634,
+      "sha256": "e3dce507524bad2a81c1819ebb7a0f71a8e2cc06c7f6bd570cc90b311763636c"
+    },
+    {
+      "path": "v7/P11-background.png",
+      "bytes": 1700947,
+      "sha256": "b014e97f224b02a9fa67a9a0ac66a492c2fe29628cd31b59c9566a56d73b80bf"
+    },
+    {
+      "path": "v7/P11-effects.png",
+      "bytes": 491694,
+      "sha256": "a9ec470d329bca8faf2d234d3e64e15eeb15fbe57a652ef26bc17b81a0466b04"
+    },
+    {
+      "path": "v7/P11-foreground.png",
+      "bytes": 595264,
+      "sha256": "d6c616a6a30dbfb7ea797c4552258fea92b83db3573218d38d108958faaaa4fd"
+    },
+    {
+      "path": "v7/P11-full.png",
+      "bytes": 1862818,
+      "sha256": "51d67f86edaa93f7b5c769dc937d060e0d965415fc6828dd71732718e4ece848"
+    },
+    {
+      "path": "v7/P11-projected-lines.svg",
+      "bytes": 3106,
+      "sha256": "951dafd38b87781228ed245028786dd6afb6ffd9e240fe10880d44a57eddde7e"
+    },
+    {
+      "path": "v7/P11-props.png",
+      "bytes": 462070,
+      "sha256": "2ca5bdb4d437b3cb5959527930dd9d779fabf4a75aa4aa561432eeaf891be721"
+    },
+    {
+      "path": "v7/P11-sentinel.png",
+      "bytes": 510600,
+      "sha256": "ef558a4e350207fe52503dc7d4d335efac9981a868517fa64bb7f316f93e93d1"
+    },
+    {
+      "path": "v7/P12-actors.png",
+      "bytes": 675545,
+      "sha256": "5822ff29405219e31901f683be393d087e6c066b18aadb4347eda840ea1c322e"
+    },
+    {
+      "path": "v7/P12-anchors.json",
+      "bytes": 11031,
+      "sha256": "1a2f665e58bed01d7a14f98c07720a2cba4a42f6525708b9f3a8c10681e59fdf"
+    },
+    {
+      "path": "v7/P12-background.png",
+      "bytes": 1841655,
+      "sha256": "9f848dd1d9ce6c9ecd5681c9f94501fb24a3319d9b093e1dc047078e9f049fc7"
+    },
+    {
+      "path": "v7/P12-effects.png",
+      "bytes": 412845,
+      "sha256": "01e0ce2f325150f30ec992d32e992004c5c9bd22c9cf756cc448e9d7446ddcb7"
+    },
+    {
+      "path": "v7/P12-foreground.png",
+      "bytes": 728407,
+      "sha256": "3a70a127c233dd78a56170226314ebca5ebe85497e090ab8d3f35335f9b93450"
+    },
+    {
+      "path": "v7/P12-full.png",
+      "bytes": 1989484,
+      "sha256": "e8340c46974dd7a7d7fa57500da0cd1c3719a859de1184a475a051fcb9ef95a9"
+    },
+    {
+      "path": "v7/P12-projected-lines.svg",
+      "bytes": 3280,
+      "sha256": "2bc3120d1b2cbfae23ac158974eedeafde6f63ee06d1100c0babd4bc6307c751"
+    },
+    {
+      "path": "v7/P12-props.png",
+      "bytes": 538635,
+      "sha256": "d1d3ec883f61207df2c7babda9092e37496203a883c24435cd384b514aa094b0"
+    },
+    {
+      "path": "v7/P12-sentinel.png",
+      "bytes": 613207,
+      "sha256": "8e042b18d99a22fee2004e6fa67fa111200d5b68e67b78dd54f44cb2c1c39243"
+    },
+    {
+      "path": "v7/P13-actors.png",
+      "bytes": 380814,
+      "sha256": "c4fa4cb05da041935a0c89a3e81d85b11d126196bccebd87cae49a763f54f631"
+    },
+    {
+      "path": "v7/P13-anchors.json",
+      "bytes": 11086,
+      "sha256": "96576e2a4d8e7a7b3346911386460c7a623ab5acc7fec81ca4b47063d27c5d70"
+    },
+    {
+      "path": "v7/P13-background.png",
+      "bytes": 1223381,
+      "sha256": "c1604ac1d4bc6dbf3317c099a15e3757393022b80d66f936bbdf714082cd1379"
+    },
+    {
+      "path": "v7/P13-effects.png",
+      "bytes": 270561,
+      "sha256": "4a7b6790851627cd1db76fc78c380e13dfb46acbd4af4043f7fefa43f8e2a65d"
+    },
+    {
+      "path": "v7/P13-foreground.png",
+      "bytes": 451198,
+      "sha256": "6b031e273917a3e75e3ed74bc2af9dadde5b90a2acf98dbe637c0a3f50dc9b19"
+    },
+    {
+      "path": "v7/P13-full.png",
+      "bytes": 1312959,
+      "sha256": "e023eab676d565952c9e068d6d06c42f1df563af987d5b4722d7dea89abf9212"
+    },
+    {
+      "path": "v7/P13-projected-lines.svg",
+      "bytes": 3254,
+      "sha256": "049bcfc0e595f3a64168d1f3034fec52f9bf9f841ad4888e95565d93af0ea298"
+    },
+    {
+      "path": "v7/P13-props.png",
+      "bytes": 300932,
+      "sha256": "8266ce9398834bdf7fb7ec529b16fa5b6d8de7e11cd2ad18c0d134fcfe760201"
+    },
+    {
+      "path": "v7/P13-sentinel.png",
+      "bytes": 365781,
+      "sha256": "4c348361da7d4328474c0bce3970bf2d26c04e00251f5d283a82c2f4862ca208"
+    },
+    {
+      "path": "v7/P14-actors.png",
+      "bytes": 1006400,
+      "sha256": "674134ec5249e5b59143ead06cc6ede3671fa4f3cb365af1704e02e3b3bc2d16"
+    },
+    {
+      "path": "v7/P14-anchors.json",
+      "bytes": 11104,
+      "sha256": "9215ade8f0f81d15900612f1eb87507afc28a62c2868078ad64518c33c167a1a"
+    },
+    {
+      "path": "v7/P14-background.png",
+      "bytes": 1475593,
+      "sha256": "c09bd3cd20a70543c8693635b842ab189ea95e89f6bbdf062d30d31bfb85ae19"
+    },
+    {
+      "path": "v7/P14-effects.png",
+      "bytes": 330582,
+      "sha256": "f4aaf15fe27f6c5db0616adc697cacc6664d771920708116e2bb6a0c2bb79a61"
+    },
+    {
+      "path": "v7/P14-foreground.png",
+      "bytes": 330582,
+      "sha256": "f4aaf15fe27f6c5db0616adc697cacc6664d771920708116e2bb6a0c2bb79a61"
+    },
+    {
+      "path": "v7/P14-full.png",
+      "bytes": 1649102,
+      "sha256": "df8cc38ce995074ba9a66173f00f0c214b542f24b8f4b0c9e47556de2d60a273"
+    },
+    {
+      "path": "v7/P14-projected-lines.svg",
+      "bytes": 3306,
+      "sha256": "0d1205faa9e9542efe0b97aaac9d891dd06b538551ef7c6a41ed4e81565916e9"
+    },
+    {
+      "path": "v7/P14-props.png",
+      "bytes": 444539,
+      "sha256": "0545cf4163d07c292d915ac4f75e4e8e37ac8168843ab1ea8f1f975f63b0ab65"
+    },
+    {
+      "path": "v7/P14-sentinel.png",
+      "bytes": 330582,
+      "sha256": "f4aaf15fe27f6c5db0616adc697cacc6664d771920708116e2bb6a0c2bb79a61"
+    },
+    {
+      "path": "v7/build_blender.py",
+      "bytes": 18395,
+      "sha256": "63f05fd88542948e32e2e71629b0617e49f3c1af8cf5b1bae6e541a4feb2525d"
+    },
+    {
+      "path": "v7/render-record-all.json",
+      "bytes": 4408,
+      "sha256": "30a7528ff9fbd2a72cd500150edcb1938019b37d55521821f13894e56c00657a"
+    },
+    {
+      "path": "v7/scene-all.blend",
+      "bytes": 582653,
+      "sha256": "69063af1cae78201441a37174ead1460936a3a277fc19a4918b3db590a0852b5"
+    },
+    {
+      "path": "v7/scene.json",
+      "bytes": 46248,
+      "sha256": "676f7afa53ec3c30d926e21c7586c7731ab3fc9240e3688b34aa11c0acd22458"
+    },
+    {
+      "path": "v8/P08-actors.png",
+      "bytes": 418352,
+      "sha256": "15b284cab137150c941f1567fa5f75601ce055c29a105f5369c3a6af6fb3a08d"
+    },
+    {
+      "path": "v8/P08-anchors.json",
+      "bytes": 10589,
+      "sha256": "ea40058d5b82361daa4586790e01d7c6acb01e279380408d864236122e41166d"
+    },
+    {
+      "path": "v8/P08-background.png",
+      "bytes": 1156328,
+      "sha256": "5184ee4f66ebbb4399adab1742fadb6a574d70ef7ef7ec80e51641bc99e4420c"
+    },
+    {
+      "path": "v8/P08-effects.png",
+      "bytes": 255513,
+      "sha256": "38d22e0cf0eeb357bec3627ee792b7ef6df704581cecfe38ab2551b5f763255c"
+    },
+    {
+      "path": "v8/P08-foreground.png",
+      "bytes": 476062,
+      "sha256": "1770fcfaca2c75b5b1c5afab208553e3d609366c64f35a6daeb62fd4a4a2e559"
+    },
+    {
+      "path": "v8/P08-full.png",
+      "bytes": 1281256,
+      "sha256": "cd49cb71403839c666798d3ef8a0b86c20c88e5d298c093f70b840f3053c772a"
+    },
+    {
+      "path": "v8/P08-projected-lines.svg",
+      "bytes": 3080,
+      "sha256": "d7ebbb375ed59de27bf795ef015b419102b0b72705279eb7318eadc65f11b712"
+    },
+    {
+      "path": "v8/P08-props.png",
+      "bytes": 280905,
+      "sha256": "d93eb14ef82d96a2235198efc56322eba7b50124fda6bbef0c4146c3099e925d"
+    },
+    {
+      "path": "v8/P08-sentinel.png",
+      "bytes": 396683,
+      "sha256": "93fa5c928d5cf5463856bcc6d4c96e034895bbe7265d567845107aba63a43f56"
+    },
+    {
+      "path": "v8/P09-actors.png",
+      "bytes": 335788,
+      "sha256": "f3a6228233c53fd123438c7555808160b0b37cae376fd345b879f782cd05779b"
+    },
+    {
+      "path": "v8/P09-anchors.json",
+      "bytes": 10609,
+      "sha256": "652fb77819a2f13c3c2e663813b652483e8b1a42a147ea06b29f257ce5d62421"
+    },
+    {
+      "path": "v8/P09-background.png",
+      "bytes": 1050245,
+      "sha256": "89b6c6456b221c9f92805f4fa41a131841ce805a321263636cd4d0534790dc5c"
+    },
+    {
+      "path": "v8/P09-effects.png",
+      "bytes": 238617,
+      "sha256": "f711dfd4c23924867e434aad6e01441cc45f3f171ed7dea9ef2832d730054793"
+    },
+    {
+      "path": "v8/P09-foreground.png",
+      "bytes": 478841,
+      "sha256": "0a50ba41b6e625d11f935b77df410ddfefe7863cd2ca817cc06c742a0c4e98cb"
+    },
+    {
+      "path": "v8/P09-full.png",
+      "bytes": 1172643,
+      "sha256": "079c92f642cca5db33d50b9ef71e036923f13cceba9dd7afa36af639414c489b"
+    },
+    {
+      "path": "v8/P09-projected-lines.svg",
+      "bytes": 3092,
+      "sha256": "cdc9fed618dca04a9107d671bf6c609e2c776643c5ec089f852c3f21936c204e"
+    },
+    {
+      "path": "v8/P09-props.png",
+      "bytes": 307273,
+      "sha256": "827dd6f5587421c68fc0ffaa0c03bdf13a7b2ccb95015420e48979aea08fb5bb"
+    },
+    {
+      "path": "v8/P09-sentinel.png",
+      "bytes": 320911,
+      "sha256": "3ceec1fdab1ca746aede64910974b26949b74e00809c516cb5f4fcc2b06e0c4d"
+    },
+    {
+      "path": "v8/P10-actors.png",
+      "bytes": 492275,
+      "sha256": "bbcfed488b1a9a2be05b304ec22d0d12d8b05f6d996cba7f4c9d0da70890d05e"
+    },
+    {
+      "path": "v8/P10-anchors.json",
+      "bytes": 10501,
+      "sha256": "42d2aaceb072a8019e1ef95c21fa081d2ae53df5d626b7af6f1c3abd146b71fb"
+    },
+    {
+      "path": "v8/P10-background.png",
+      "bytes": 1204624,
+      "sha256": "fc5f2cbfdd982869b1ce224c83f3da02ebe5ebb678bed6948580b12e7a5bc051"
+    },
+    {
+      "path": "v8/P10-effects.png",
+      "bytes": 287735,
+      "sha256": "3eb4505e4c9fa3f412b22748f60a266bb418b33ae13f21579473c2e3d32bfcd9"
+    },
+    {
+      "path": "v8/P10-foreground.png",
+      "bytes": 270561,
+      "sha256": "77b5b773a4bdf02ebe28a715f5b9098b45c9f208435fc0287a78724cde567dd2"
+    },
+    {
+      "path": "v8/P10-full.png",
+      "bytes": 1330200,
+      "sha256": "60c14f0ae7087515316a17309b8fe69203bf7a7b9669fa4909b5ba90804ea88a"
+    },
+    {
+      "path": "v8/P10-projected-lines.svg",
+      "bytes": 3057,
+      "sha256": "9e36e2371bb704ee264428d2d25556518d1d220dad0e2f6486f603e04cf1eba5"
+    },
+    {
+      "path": "v8/P10-props.png",
+      "bytes": 407497,
+      "sha256": "4adb7757afdf025252343d8dd814b5c3d39b322816bfd97e895eb9ec951c3cc7"
+    },
+    {
+      "path": "v8/P10-sentinel.png",
+      "bytes": 439454,
+      "sha256": "49863b5061c3277ab836b1c2158bb1c9f6856d84ac4e8dd231ec801a56c3d4fe"
+    },
+    {
+      "path": "v8/P11-actors.png",
+      "bytes": 557803,
+      "sha256": "1c4b90a3988214b91fc54075ffe4850a83a7f76418103d075bdc87671ba7d08a"
+    },
+    {
+      "path": "v8/P11-anchors.json",
+      "bytes": 10634,
+      "sha256": "e3dce507524bad2a81c1819ebb7a0f71a8e2cc06c7f6bd570cc90b311763636c"
+    },
+    {
+      "path": "v8/P11-background.png",
+      "bytes": 1700947,
+      "sha256": "05b60841695c1799f18ef3bc4c52f1a7cc768969b984d40602386113c658363f"
+    },
+    {
+      "path": "v8/P11-effects.png",
+      "bytes": 491694,
+      "sha256": "c0152c40bca0791110c0dd45517845a433e0b7d8a8ff6fe2951164bff4036679"
+    },
+    {
+      "path": "v8/P11-foreground.png",
+      "bytes": 626105,
+      "sha256": "fd15c8663c1c9bd99be722b9853a489244ed8ea125fd9262177c51651cee1c87"
+    },
+    {
+      "path": "v8/P11-full.png",
+      "bytes": 1872024,
+      "sha256": "ff74f0c46e6e2a3cf3331b27ba012756515b3adc857593496237eefd1cba1df1"
+    },
+    {
+      "path": "v8/P11-projected-lines.svg",
+      "bytes": 3106,
+      "sha256": "951dafd38b87781228ed245028786dd6afb6ffd9e240fe10880d44a57eddde7e"
+    },
+    {
+      "path": "v8/P11-props.png",
+      "bytes": 462070,
+      "sha256": "f53ad349a969d8da08240851c69fff129b9e963a03e3a1f00721813f219d9ce6"
+    },
+    {
+      "path": "v8/P11-sentinel.png",
+      "bytes": 510600,
+      "sha256": "4e062ffa079d80f6927dc23c0db2d9f1fea936293995179399ef5dfb5792a523"
+    },
+    {
+      "path": "v8/P12-actors.png",
+      "bytes": 675545,
+      "sha256": "ee14d1a452eecec10999f49d839c21b7cfa4a44839574d2173df7f8af91c5238"
+    },
+    {
+      "path": "v8/P12-anchors.json",
+      "bytes": 11031,
+      "sha256": "1a2f665e58bed01d7a14f98c07720a2cba4a42f6525708b9f3a8c10681e59fdf"
+    },
+    {
+      "path": "v8/P12-background.png",
+      "bytes": 1841655,
+      "sha256": "f993fe0f980960c03331901086f42ca28dfc4e9aca4480ad6e3d75a23df3fb95"
+    },
+    {
+      "path": "v8/P12-effects.png",
+      "bytes": 412845,
+      "sha256": "ee3086e3a5e15fc91c7b48d10fbc1629548d7ca104a28f857113f5e0e516c491"
+    },
+    {
+      "path": "v8/P12-foreground.png",
+      "bytes": 741654,
+      "sha256": "cad94f4c19c0e18c08172bcd5880e5136319280ad0dc3a023522c021a6226a8b"
+    },
+    {
+      "path": "v8/P12-full.png",
+      "bytes": 1991546,
+      "sha256": "f1716f807014381b53768af4c334b30f980c4cbe265daadf474d69d2bb095055"
+    },
+    {
+      "path": "v8/P12-projected-lines.svg",
+      "bytes": 3280,
+      "sha256": "2bc3120d1b2cbfae23ac158974eedeafde6f63ee06d1100c0babd4bc6307c751"
+    },
+    {
+      "path": "v8/P12-props.png",
+      "bytes": 538635,
+      "sha256": "a1c2793eb78bf8e466bfa567b5cc20fa42b1125550ae0027b508e02a0ed64f7c"
+    },
+    {
+      "path": "v8/P12-sentinel.png",
+      "bytes": 613207,
+      "sha256": "0dff175b51c4a3b8f9d0f1174a74b867aec31ef1a7709e9269488a9197c96cc5"
+    },
+    {
+      "path": "v8/P13-actors.png",
+      "bytes": 380814,
+      "sha256": "75b0d30732d7695579f9cc38939c6053177f61bb5a41f85f2fa430ca9345bab1"
+    },
+    {
+      "path": "v8/P13-anchors.json",
+      "bytes": 11086,
+      "sha256": "96576e2a4d8e7a7b3346911386460c7a623ab5acc7fec81ca4b47063d27c5d70"
+    },
+    {
+      "path": "v8/P13-background.png",
+      "bytes": 1223381,
+      "sha256": "086bf15a790091abe2863e4053714b9aa3dd828e36cfb2a62d99e09dc087d0c9"
+    },
+    {
+      "path": "v8/P13-effects.png",
+      "bytes": 270561,
+      "sha256": "451b34e4c4253cc1550fbdd72e494c34d7bc50a64c8efad503c486b01cc3f4cb"
+    },
+    {
+      "path": "v8/P13-foreground.png",
+      "bytes": 482489,
+      "sha256": "b6463db93c8284d8b8e1a48aee9db39728f7cc3daeb144a1ad0e1b0138f39edf"
+    },
+    {
+      "path": "v8/P13-full.png",
+      "bytes": 1318623,
+      "sha256": "85fd9dadea28b06ebe0412ebd3c983f4b46c5fc85761da19fb1e2edb91bb7d68"
+    },
+    {
+      "path": "v8/P13-projected-lines.svg",
+      "bytes": 3254,
+      "sha256": "049bcfc0e595f3a64168d1f3034fec52f9bf9f841ad4888e95565d93af0ea298"
+    },
+    {
+      "path": "v8/P13-props.png",
+      "bytes": 300932,
+      "sha256": "8562559000835322631988da7394e1a72eb74976dbe19372ad0de999ee2b5c82"
+    },
+    {
+      "path": "v8/P13-sentinel.png",
+      "bytes": 365781,
+      "sha256": "343206bb618eb72de9359c93ef82cfd7e2d7fd9eff8f604047095bb65671e297"
+    },
+    {
+      "path": "v8/P14-actors.png",
+      "bytes": 1006400,
+      "sha256": "9e5ba3990b83edc22902206d5b8eb70739812a78f14ddd71b67974c5db447033"
+    },
+    {
+      "path": "v8/P14-anchors.json",
+      "bytes": 11104,
+      "sha256": "9215ade8f0f81d15900612f1eb87507afc28a62c2868078ad64518c33c167a1a"
+    },
+    {
+      "path": "v8/P14-background.png",
+      "bytes": 1475593,
+      "sha256": "35584fc9020aa700b6006d2a96bd89b7276c147a90d45c12ba6a651b3eaa61ba"
+    },
+    {
+      "path": "v8/P14-effects.png",
+      "bytes": 330582,
+      "sha256": "9668ee68a46671c7695e947be3732aca77cf6601c933e802be3410faec92124b"
+    },
+    {
+      "path": "v8/P14-foreground.png",
+      "bytes": 330582,
+      "sha256": "9668ee68a46671c7695e947be3732aca77cf6601c933e802be3410faec92124b"
+    },
+    {
+      "path": "v8/P14-full.png",
+      "bytes": 1649102,
+      "sha256": "d8698c1ec44ddb0e8086e8b035cd12ed9aed0d27c7d7333b962baa9487df533b"
+    },
+    {
+      "path": "v8/P14-projected-lines.svg",
+      "bytes": 3306,
+      "sha256": "0d1205faa9e9542efe0b97aaac9d891dd06b538551ef7c6a41ed4e81565916e9"
+    },
+    {
+      "path": "v8/P14-props.png",
+      "bytes": 444539,
+      "sha256": "2c030d53fd54810158bd831d7ed442e68bda4feee5a7eda079f06ebcd70ce642"
+    },
+    {
+      "path": "v8/P14-sentinel.png",
+      "bytes": 330582,
+      "sha256": "9668ee68a46671c7695e947be3732aca77cf6601c933e802be3410faec92124b"
+    },
+    {
+      "path": "v8/build_blender.py",
+      "bytes": 18588,
+      "sha256": "d4e7227869d85c51b70d15db5e69200f7b95a45561fe8f81b6e2a07ef4a3c01b"
+    },
+    {
+      "path": "v8/render-record-all.json",
+      "bytes": 4408,
+      "sha256": "de80b69fd30ee19c9d3d48627c579339f5671d8fce0e86f9557f00c1205a125b"
+    },
+    {
+      "path": "v8/scene-all.blend",
+      "bytes": 591937,
+      "sha256": "83ae802fd211429e7ac80f7c6229f161fb0397ae5c73f202bc124ea50d2d9704"
+    },
+    {
+      "path": "v8/scene.json",
+      "bytes": 46778,
+      "sha256": "d7a14b7f3b285a0002f841258404e5b1f011bacc4935bafd5e0c077e988631ae"
+    },
+    {
+      "path": "v9/P12-actors.png",
+      "bytes": 675545,
+      "sha256": "d6ac34cd954bfdcbba8445b8e6e0b2a0642979d026631d61cca5ecce3cca7060"
+    },
+    {
+      "path": "v9/P12-anchors.json",
+      "bytes": 11032,
+      "sha256": "3c735a0f76d758c5c60da2a29bacb13c1b250f3d038d09d924366359553d7135"
+    },
+    {
+      "path": "v9/P12-background.png",
+      "bytes": 1841655,
+      "sha256": "7661026e37897809e84fdd1e25868160b2506e7b1a3805277929d5153b0105e9"
+    },
+    {
+      "path": "v9/P12-effects.png",
+      "bytes": 412845,
+      "sha256": "28c5926f9a5a69ef8955772f9a98aa824795b7918258ab340e045d1680ffeeee"
+    },
+    {
+      "path": "v9/P12-foreground.png",
+      "bytes": 741654,
+      "sha256": "9633c852755fb8e34f6dbba94d4c5bd64e49934ac986ce97a82b81d269ea6448"
+    },
+    {
+      "path": "v9/P12-full.png",
+      "bytes": 1997497,
+      "sha256": "d70ffc32d0c21f492e119e522a46d68cb6a8d422b40c2bac94cd354f5aba5745"
+    },
+    {
+      "path": "v9/P12-projected-lines.svg",
+      "bytes": 3280,
+      "sha256": "1bd245604eb0e6113b114fef5db99ff3ded5dee51cd93c75442647014c569f6e"
+    },
+    {
+      "path": "v9/P12-props.png",
+      "bytes": 543257,
+      "sha256": "5970a1c7581c3a9f89783f1bd6f08cac74fd646ec8b904ccf56b0156d8867522"
+    },
+    {
+      "path": "v9/P12-sentinel.png",
+      "bytes": 613207,
+      "sha256": "7e1de1eec60c85d376b15c0cc5ec4e00ef92842f022cc2fb8214b22ee6467510"
+    },
+    {
+      "path": "v9/build_blender.py",
+      "bytes": 18726,
+      "sha256": "cc7e0bdfe0741484a13adafc831cb20e472f24dbeb6463dcca9085f1f3bf7bb5"
+    },
+    {
+      "path": "v9/render-record-P12.json",
+      "bytes": 908,
+      "sha256": "097c2b88645c39bb14c1cf0ecd7672408e6cb60ec3bb32d59c32eed4706d716e"
+    },
+    {
+      "path": "v9/scene-P12.blend",
+      "bytes": 200348,
+      "sha256": "ebe1f70c0335ce34cf4bb8392d993be283696e9c328380f2519f7b9920fe7d20"
+    },
+    {
+      "path": "v9/scene.json",
+      "bytes": 47482,
+      "sha256": "65104557fa78c00c7817db7cd7fd2fdd1e961764c74206dbf3150fa3da45c84a"
+    },
+    {
+      "path": "validate_control.py",
+      "bytes": 5606,
+      "sha256": "0c1d096fe843d3cf914e622911c190f73e465560bc1ced3f1930226958069e48"
+    },
+    {
+      "path": "verification-v5v6.json",
+      "bytes": 22056,
+      "sha256": "5d5d96e5ddec2ac72e614561823243ada5bfc7ee515337374a0b81c3e61d0d98"
+    },
+    {
+      "path": "verification-v7.json",
+      "bytes": 23723,
+      "sha256": "023fe3d1ab788edde3517ec13ee2eba76a26b5fe9b7f512e9b9434bbe888ef42"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 26228,
+      "sha256": "85acbebcbde88b051f8b27301c253ab3f20e636011f31153fc5b30efb7a90ff7"
+    }
+  ]
+}

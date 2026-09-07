@@ -9,7 +9,7 @@ Access date: 2026-09-06.
 | Worktree | `C:\AgentWorkspaces\anime-pipeline-total-review-20260906-211925` |
 | Branch | `autonomous/anime-pipeline-total-review-20260906-211925` |
 | Source commit | `99cb5e9e37c211965a01213a6f7af7103aee8cf3` |
-| Delivery commit | *recorded after git commit in this file’s follow-up section* |
+| Delivery commit | `c11a14a926dd5d17b8ec38b49880400ef8ba5e5e` |
 | Remote | `https://github.com/LoFiGamerGuy/visual-narrative-compiler.git` |
 | Direct paid/cloud spend | **$0** |
 
@@ -35,6 +35,6 @@ Ignored image/model caches were not overwritten by this review.
 
 ## Files created (this branch only)
 
-All under `docs/research/anime-pipeline-total-review/`, `research/anime-pipeline-total-review/`, and `src/research/anime_pipeline_total_review/`. Exact git inventory is in the follow-up section after commit.
+63 files, 79642 insertions, all under `docs/research/anime-pipeline-total-review/`, `research/anime-pipeline-total-review/START_HERE.md`, and `src/research/anime_pipeline_total_review/`. No prior pipeline rasters were copied into git.
 
-No prior pipeline rasters were copied into git.
+Follow-up commit on this file records local/remote parity after push.

@@ -1,7 +1,7 @@
 {
   "schema": "OwnerDirectionPreferences/1",
   "recorded_utc": "2026-09-07T14:14:45.989455+00:00",
-  "source": "Two owner chat messages: pasted component-like summary followed by explicit starred titles",
+  "source": "Three owner chat messages: component likes, starred titles, then explicit rejections with retained exceptions and a separate possible game-art direction",
   "source_commit": "c899df11dae32159579a787de5b3a850b668563d",
   "experiment_id": "VD-20260907-01",
   "dataset_sha256": "d717a61cc7c4793bbfc2a878041666179ba03dfd17a0aa07079a5d4d547ad8f7",
@@ -174,7 +174,7 @@
   "star_order_is_ranking": null,
   "ranking": null,
   "notes": null,
-  "unlisted_meaning": "Not reported selected; not an explicit rejection",
+  "unlisted_meaning": "The original unselected options were not inferred rejected. Explicit later decisions now cover all20 options.",
   "production_accepted": false,
   "title_lookup": {
     "01": "Nightglass Courier",
@@ -217,7 +217,336 @@
       "18",
       "19"
     ],
-    "starred_equals_all_four": true
+    "starred_equals_all_four": true,
+    "main_scope_component_likes": {
+      "character": [
+        "01",
+        "02",
+        "04",
+        "05",
+        "06",
+        "11",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "drawing_style": [
+        "01",
+        "02",
+        "05",
+        "06",
+        "13",
+        "15",
+        "17",
+        "18",
+        "19"
+      ],
+      "world": [
+        "01",
+        "02",
+        "05",
+        "06",
+        "13",
+        "15",
+        "17",
+        "18",
+        "19"
+      ],
+      "monster": [
+        "01",
+        "02",
+        "05",
+        "06",
+        "13",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ]
+    },
+    "full_rejections": [
+      "03",
+      "07",
+      "08",
+      "09",
+      "10",
+      "12"
+    ]
   },
-  "historical_reports": "Earlier study reports correctly recorded owner preferences as unknown at generation time. This later record supplies current preferences without rewriting frozen evidence."
+  "historical_reports": "Earlier study reports correctly recorded owner preferences as unknown at generation time. This later record supplies current preferences without rewriting frozen evidence.",
+  "updated_utc": "2026-09-07T14:17:37.443053+00:00",
+  "component_likes_scope": "Original submitted likes; latest_dispositions governs current scope, including separate treatment of20",
+  "latest_dispositions": {
+    "01": {
+      "title": "Nightglass Courier",
+      "owner_comment": null,
+      "status": "core_shortlist",
+      "retained_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ],
+      "rejected_components": []
+    },
+    "02": {
+      "title": "Sunbreak Lancer",
+      "owner_comment": null,
+      "status": "core_shortlist",
+      "retained_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ],
+      "rejected_components": []
+    },
+    "03": {
+      "title": "Salt Crown",
+      "owner_comment": "obv ai, way too busy, hurts eyes",
+      "status": "rejected",
+      "retained_components": [],
+      "rejected_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ]
+    },
+    "04": {
+      "title": "Velvet Duelist",
+      "owner_comment": "other than character, obviously ai",
+      "status": "retain_character_only",
+      "retained_components": [
+        "character"
+      ],
+      "rejected_components": [
+        "drawing_style",
+        "world",
+        "monster"
+      ]
+    },
+    "05": {
+      "title": "Iron Orchard",
+      "owner_comment": null,
+      "status": "core_shortlist",
+      "retained_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ],
+      "rejected_components": []
+    },
+    "06": {
+      "title": "Floodline Detective",
+      "owner_comment": null,
+      "status": "core_shortlist",
+      "retained_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ],
+      "rejected_components": []
+    },
+    "07": {
+      "title": "Jade Signal",
+      "owner_comment": "not a fan of hte style",
+      "status": "rejected",
+      "retained_components": [],
+      "rejected_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ]
+    },
+    "08": {
+      "title": "Ember Dancer",
+      "owner_comment": "obv ai, too busy, hurts eyes",
+      "status": "rejected",
+      "retained_components": [],
+      "rejected_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ]
+    },
+    "09": {
+      "title": "Bone Radio",
+      "owner_comment": "obv ai, too busy, hurts eyes",
+      "status": "rejected",
+      "retained_components": [],
+      "rejected_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ]
+    },
+    "10": {
+      "title": "Porcelain Warden",
+      "owner_comment": "obv ai",
+      "status": "rejected",
+      "retained_components": [],
+      "rejected_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ]
+    },
+    "11": {
+      "title": "Moonward Ink",
+      "owner_comment": "other than char, obv ai",
+      "status": "retain_character_only",
+      "retained_components": [
+        "character"
+      ],
+      "rejected_components": [
+        "drawing_style",
+        "world",
+        "monster"
+      ]
+    },
+    "12": {
+      "title": "Honeycomb Runner",
+      "owner_comment": "not a fan of the style",
+      "status": "rejected",
+      "retained_components": [],
+      "rejected_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ]
+    },
+    "13": {
+      "title": "Red Current",
+      "owner_comment": null,
+      "status": "core_shortlist",
+      "retained_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ],
+      "rejected_components": []
+    },
+    "14": {
+      "title": "Astral Seamstress",
+      "owner_comment": "other than char, obv ai",
+      "status": "retain_character_only",
+      "retained_components": [
+        "character"
+      ],
+      "rejected_components": [
+        "drawing_style",
+        "world",
+        "monster"
+      ]
+    },
+    "15": {
+      "title": "Cathedral Engine",
+      "owner_comment": null,
+      "status": "core_shortlist",
+      "retained_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ],
+      "rejected_components": []
+    },
+    "16": {
+      "title": "Tidewalker",
+      "owner_comment": "like char and monster, but too busy and hurts eyes",
+      "status": "retain_character_and_monster_only",
+      "retained_components": [
+        "character",
+        "monster"
+      ],
+      "rejected_components": [
+        "drawing_style",
+        "world"
+      ]
+    },
+    "17": {
+      "title": "Hollow Cartographer",
+      "owner_comment": null,
+      "status": "core_shortlist",
+      "retained_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ],
+      "rejected_components": []
+    },
+    "18": {
+      "title": "Soft Thunder",
+      "owner_comment": null,
+      "status": "core_shortlist",
+      "retained_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ],
+      "rejected_components": []
+    },
+    "19": {
+      "title": "Black Petal",
+      "owner_comment": null,
+      "status": "core_shortlist",
+      "retained_components": [
+        "character",
+        "drawing_style",
+        "world",
+        "monster"
+      ],
+      "rejected_components": []
+    },
+    "20": {
+      "title": "Starforge Nomad",
+      "owner_comment": "completely different art direction, would need its own bakeoff, but kind of neat, might be good for video game art or cutscenes, char and monster need work",
+      "status": "separate_possible_game_art_exploration",
+      "retained_components": [],
+      "rejected_components": [],
+      "separate_interest_components": [
+        "drawing_style",
+        "world"
+      ],
+      "needs_work": [
+        "character",
+        "monster"
+      ],
+      "owner_suggested_uses": [
+        "video game art",
+        "cutscenes"
+      ],
+      "separate_bakeoff_required": true
+    }
+  },
+  "design_constraints": {
+    "source": "Owner feedback; aesthetic judgments are the owner\u2019s observations",
+    "avoid": [
+      "obviously AI-looking appearance identified by the owner",
+      "excessively busy detail",
+      "visual treatment the owner finds uncomfortable to look at"
+    ],
+    "preserve": [
+      "nine starred directions as an unranked core shortlist",
+      "character-only exceptions04/11/14",
+      "character and monster exception16"
+    ],
+    "starforge_scope": "Potential separate game-art/cutscene exploration; character and monster need work. Not part of the current main shortlist."
+  }
 }

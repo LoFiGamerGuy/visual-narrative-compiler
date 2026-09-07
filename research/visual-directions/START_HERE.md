@@ -1,6 +1,6 @@
 # Twenty visual directions
 
-**Latest owner feedback:** [Nine starred directions and component preferences](owner-shortlist.md) are recorded from the owner's subsequent chat messages. The generation-time reviews below remain historical evidence; the new preference record supplies the current shortlist.
+**Latest owner feedback:** [Nine starred directions, explicit rejections and retained component exceptions](owner-shortlist.md) are recorded from the owner's subsequent chat messages. Starforge Nomad is separated as a possible future game-art direction. The generation-time reviews below remain historical evidence; the new preference record supplies the current shortlist and aesthetic constraints.
 
 Open the [selection gallery](../../docs/research/visual-directions/index.html) or [all twenty at a glance](../../docs/research/visual-directions/overview.html). Each numbered board gives you a large portrait plus the same character in a world with a creature. These are independent original concepts made in response to your rejection of the previous art and characters.
 

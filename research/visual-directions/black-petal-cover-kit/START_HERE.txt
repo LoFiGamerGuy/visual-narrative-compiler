@@ -1,0 +1,32 @@
+BLACK PETAL — BOOK-COVER STARTER KIT
+
+Start with black-petal-reference.png. This is the corrected, full-resolution Black Petal board that appeared in the selection gallery. Keep it unchanged as a style reference. The original uncorrected board is also included for provenance.
+
+To try a cover in an image-enabled ChatGPT/Codex session:
+1. Attach black-petal-reference.png.
+2. Paste cover-prompt-template.txt and replace the bracketed book details.
+3. Specify whether you want only the rendering style or also this exact character/world.
+4. Ask for a unified vertical cover illustration with quiet space for the title and author. The existing image is a horizontal concept board, not a finished cover.
+5. Review the result, then request specific changes while naming the features to preserve. Add final typography separately.
+
+WHAT GENERATED THE REFERENCE
+The built-in image_gen.imagegen tool in the original Codex session generated Black Petal from original-prompt.txt, with no input images. A second image edit used that returned image and corrective-edit-prompt.txt to remove an accidentally generated signature-like artifact. Both tool originals are retained in the project; both native 1536 x 1024 PNGs are included here.
+
+The run did not return a raster-model identifier, snapshot or seed. Current official documentation describes built-in image generation as GPT Image 2. That is current product documentation, not a recovered model identifier for this historical call. We can reuse the saved reference and prompts; they do not provide a deterministic replay or lock the backend version. The model running the conversation is not evidence of the raster model.
+
+This session still has the built-in generation tool available. Access in another account or workspace depends on its image-generation availability. No separate account has been configured or tested for the recipient.
+
+Official workflow documentation, checked 2026-09-07:
+https://learn.chatgpt.com/docs/image-generation
+It documents attaching a reference image as visual guidance, prompt-based edits, and current built-in generation. The original run records remain the source of truth for Black Petal itself.
+
+FILES
+black-petal-reference.png — selected corrected reference, VD19-R
+black-petal-original.png — preserved first return, VD19-P
+original-prompt.txt — exact first generation prompt
+corrective-edit-prompt.txt — exact correction prompt
+cover-prompt-template.txt — new, untested template for adapting the look to a book
+provenance.json — tool history, native image hashes and known/unknown metadata
+manifest.json — byte counts and hashes for the kit files
+
+No new images were generated to create this kit. Future cover work should use a separate project so the anime study's references remain intact.

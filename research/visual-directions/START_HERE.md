@@ -2,7 +2,9 @@
 
 **Latest owner feedback:** [Nine starred directions, explicit rejections and retained component exceptions](owner-shortlist.md) are recorded from the owner's subsequent chat messages. Starforge Nomad is separated as a possible future game-art direction. The generation-time reviews below remain historical evidence; the new preference record supplies the current shortlist and aesthetic constraints.
 
-**Black Petal for book covers:** [Reusable reference and prompt kit](black-petal-cover-kit/README.md) preserves both native Black Petal images, exact generation/edit prompts, tool provenance and a cover adaptation template for the owner's wife. No new cover art has been generated.
+**Black Petal for book covers:** [Reusable reference and prompt kit](black-petal-cover-kit/README.md) preserves both native Black Petal images, exact generation/edit prompts, tool provenance and a cover adaptation template for the owner's wife. That starter kit was created without new image generation.
+
+**Subsequent cover examples:** [Ten illustrated cover mockups](cover-examples/README.md) now demonstrate that direction, with editable sample lettering, text-free originals and a self-contained share ZIP. They are separate from the anime comparison. The [recommended anime refinement round](refinement-next-round.md) explains how to use the owner's filter and shortlist.
 
 Open the [selection gallery](../../docs/research/visual-directions/index.html) or [all twenty at a glance](../../docs/research/visual-directions/overview.html). Each numbered board gives you a large portrait plus the same character in a world with a creature. These are independent original concepts made in response to your rejection of the previous art and characters.
 

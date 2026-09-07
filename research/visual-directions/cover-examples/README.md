@@ -1,0 +1,17 @@
+# Ten Black Petal cover examples
+
+Open the [cover gallery](../../../docs/research/visual-directions/cover-examples/index.html), [visual overview](../../../docs/research/visual-directions/cover-examples/overview.png), or download the [share ZIP](local/Black-Petal-Ten-Cover-Examples.zip). Extract the ZIP and open `index.html`; it is self-contained and needs no server. The intended recipient can also view the ten `cover-NN.png` files directly.
+
+Ten built-in image-generation calls produced ten native 1024×1536 text-free illustrations, all using the saved corrected Black Petal image as the style reference. Sample book titles are invented demonstrations; the author is labeled AUTHOR NAME. HTML/CSS supplies editable lettering, and browser-rendered 1024×1536 cover PNGs preserve the exact illustrated framing. The cover template is now demonstrated by these examples; no real book or printer specifications have been assumed.
+
+Use **Try your title & author** for the shared author field and each card's **Try a different title** for its title. Save edited page creates an HTML copy; keep it alongside the images/scripts. Supplied Cover PNG downloads remain the original examples. Print the edited page to PDF to share a static version of changed lettering. The original source art is available separately without text.
+
+The lead inspected all ten native returns and the final mockup overview. No definite textual artifact or hard anatomy failure was found. Style remains a family of nearly realistic fashion/gothic illustration; exact style or identity reproduction is not established. The darker 04/08 treatments retain comparatively subdued facial values. The 05 flower exceeded its requested quiet top zone and 09's branch entered the title area; the separate lettering was repositioned to fit the actual illustrations. No raster retouching or extra generation was needed. These are visual examples for the wife to judge, not inferred preferences on her behalf.
+
+[Browser checks](browser-qa.json) passed at 390×844, 1024×768 and 1440×1000: ten decoded uncropped illustrations, readable title bounds, no page overflow or runtime errors, working author/title edits, lettering toggle, actual edited HTML download/reopen and local links. Earlier layout screenshots and the resolved QA harness issue (attempting to type into a collapsed title field) remain in ignored scratch. The final recorded receipt binds the final HTML/CSS/JS and cover PNGs.
+
+The exact ten prompts and call receipts are in `production/visual-directions/cover-examples/`. [Results](results.json) verify frozen brief/prompt hashes, original tool copies and selected artwork. Underlying image model/snapshot, seed, usage and billing allocation were not returned; direct paid spend is $0. All original Black Petal material remains preserved. Git tracks the new code/prompts/evidence; native images, mockup PNGs and the ZIP are local/ignored.
+
+The separate [anime refinement recommendation](../refinement-next-round.md) turns the owner's selections into explicit criteria and a controlled next-round design. Creating these ten covers does not begin the recommended 20-image anime round.
+
+Rebuild the gallery with `python research/visual-directions/cover-examples/build_gallery.py --require-complete`. The browser helper uses the task-owned Chromium profile at port 9365; it generates final mockup PNGs from the actual HTML and source art. Package creation is performed by `package_examples.py`, which verifies every archived member and refuses to overwrite an existing ZIP.

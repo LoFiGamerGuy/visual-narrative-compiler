@@ -6,6 +6,8 @@ Each option explores an original adult character, drawing language, environment 
 
 The owner has now supplied [nine starred directions, explicit rejections and retained component exceptions](research/visual-directions/owner-shortlist.md). Stars 01, 02, 05, 06, 13, 15, 17, 18 and 19 form the unranked core shortlist. Keep only the characters from 04, 11 and 14, and the character/monster from 16. Reject 03, 07, 08, 09, 10 and 12. Treat 20 separately as a possible game-art/cutscene direction needing its own comparison and improved character/monster. Avoid the busy, visually uncomfortable, obviously AI-looking qualities the owner identified. No final production choice was supplied.
 
+The [next-round recommendation](research/visual-directions/refinement-next-round.md) uses that filter for controlled comparisons and a subsequent short sequence. The owner separately requested [ten Black Petal book-cover examples](research/visual-directions/cover-examples/README.md) to share with his wife; those examples do not start the proposed anime refinement round or establish her preferences.
+
 The previous sequence and structural experiments remain preserved on their delivered branches. Their generation and correction budgets stay closed. Technical control improvements did not establish owner approval of the art, and must not override the explicit rejection.
 
 After the owner selects a shortlist, the next useful step is a coherent character-design sheet and small sequential proof in the selected direction. That later test must resolve face/costume continuity and drawing consistency; these twenty single-board explorations do not prove those abilities. No new serial or paid expenditure is authorized by a gallery favorite.

@@ -1,5 +1,7 @@
 # Black Petal cover starter kit
 
+Ten subsequent illustrated examples are available in the [cover gallery and share package](../cover-examples/README.md). The starter kit below remains the preserved original reference/prompt package.
+
 The owner requested preservation of the generator workflow and source material so his wife can explore book covers in this direction. Download [Black-Petal-Cover-Starter.zip](local/Black-Petal-Cover-Starter.zip), extract it, and open `START_HERE.txt`. The ZIP includes both native Black Petal images, both exact original prompts, a cover adaptation template, provenance and a file-hash manifest.
 
 The selected image is [19-retry.png](../../../production/visual-directions/candidates/19-retry.png). It remains the anime gallery reference. Its first return and correction are preserved without alteration. The generation tool is still available in this session; the recipient's separate account has not been checked.

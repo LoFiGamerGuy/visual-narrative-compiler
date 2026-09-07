@@ -37,4 +37,10 @@ Ignored image/model caches were not overwritten by this review.
 
 63 files, 79642 insertions, all under `docs/research/anime-pipeline-total-review/`, `research/anime-pipeline-total-review/START_HERE.md`, and `src/research/anime_pipeline_total_review/`. No prior pipeline rasters were copied into git.
 
-Follow-up commit on this file records local/remote parity after push.
+## Git handoff
+
+- Local HEAD = `bbea5445b43fc9f82382cfac6cbe41a7e0092f3e`
+- `origin/autonomous/anime-pipeline-total-review-20260906-211925` = same
+- `main` and `origin/main` remain `40e7940016ea3c3966752b61f55a931f91a13ac7`
+- Isolated worktree clean after the delivery commits
+- PR URL (not opened): https://github.com/LoFiGamerGuy/visual-narrative-compiler/pull/new/autonomous/anime-pipeline-total-review-20260906-211925

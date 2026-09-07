@@ -1,0 +1,1872 @@
+{
+  "schema": "SequenceReview/1",
+  "title": "Three Charges, One Dose",
+  "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+  "panels": [
+    {
+      "id": "P01",
+      "panel": 1,
+      "function": "Adult close-up",
+      "beat": "Nera steadies a trembling breath, looking toward the exit light.",
+      "camera": "close",
+      "target_css_height_at390": 320,
+      "copy": [
+        "NERA: Still time."
+      ],
+      "continuity_contract": "Both adults west of closed exit; flask upright in Odo’s hand; staff intact; charge3.",
+      "candidate": {
+        "id": "C00001",
+        "sha256": "84ed18996ea86516772701982b9cfdbf12094428720825c3c104a42ae9c162b3",
+        "width": 1385,
+        "height": 1136,
+        "status": "draft-unaccepted",
+        "src": "assets/C00001.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00001",
+          "checks": {
+            "actors": {
+              "observation": "The mature long face, short black curls, charcoal collar and single cape clasp agree with Nera's reference. The close crop contains one head and plausible shoulders.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "No hand or prop contact is visible in this portrait crop.",
+              "verdict": "not_assessed"
+            },
+            "event": {
+              "observation": "Parted lips and slightly lifted brows convey a held breath or apprehension. The rightward look is visible; the specific trembling cannot be established in a still.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "Flask, staff and hands lie outside the crop. Nothing in this image establishes their initial state.",
+              "verdict": "not_assessed"
+            },
+            "state": {
+              "observation": "Flask, staff and hands lie outside the crop. Nothing in this image establishes their initial state. Numerical resources and unlock wording are not assessed from this unlettered raster.",
+              "verdict": "not_assessed"
+            }
+          },
+          "image_sha256": "84ed18996ea86516772701982b9cfdbf12094428720825c3c104a42ae9c162b3",
+          "method": "Read frozen plan and original identity/environment references; viewed each selected original candidate separately before making observations. Did not read generation prompts, boards, old art, root conclusions or other review artifacts. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [
+        {
+          "font_size": 16,
+          "h": 0.2,
+          "id": "P01-L01",
+          "kind": "dialogue",
+          "shape": "rounded",
+          "speaker": "NERA",
+          "tail": {
+            "x": 0.594,
+            "y": 0.41
+          },
+          "text": "Still time.",
+          "w": 0.32,
+          "x": 0.63,
+          "y": 0.16
+        }
+      ],
+      "protected_regions": [
+        {
+          "h": 0.389859,
+          "id": "P01-R01",
+          "label": "Nera eyes, nose and mouth",
+          "w": 0.31,
+          "x": 0.24,
+          "y": 0.14013
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "panel": 2,
+      "function": "Two-character promise",
+      "beat": "Odo offers Nera the sealed flask; she asks him to hold the exit.",
+      "camera": "two-shot",
+      "target_css_height_at390": 380,
+      "copy": [
+        "ODO: One dose. Keep it upright.",
+        "NERA: Then hold the door."
+      ],
+      "continuity_contract": "Flask transfers Odo→Nera without opening; Odo turns toward door release.",
+      "candidate": {
+        "id": "C00015",
+        "sha256": "004d3f0519ff4632fa95f4fa6aa05b4bc34c9261155868c646a9c7148c0cc7fe",
+        "width": 1271,
+        "height": 1238,
+        "status": "draft-unaccepted",
+        "src": "assets/C00015.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00015",
+          "checks": {
+            "actors": {
+              "observation": "Mature reference faces, cape/jacket silhouettes and coherent ordinary limbs are preserved.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "Both adults touch the same single bottle.",
+              "verdict": "pass"
+            },
+            "event": {
+              "observation": "Offering and receiving hands around the bottle, with reciprocal gaze, communicate the handoff.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "One capped upright bottle and one uninterrupted staff are visible.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "The exchange now happens at the west release, consistent with the following wide shot; no early break or injury.",
+              "verdict": "pass"
+            }
+          },
+          "image_sha256": "004d3f0519ff4632fa95f4fa6aa05b4bc34c9261155868c646a9c7148c0cc7fe",
+          "method": "Verified nine corrected ledger selections and viewed each image separately before receiving root conclusions about corrected images. Used the frozen plan, previously viewed original references and neighboring original images; re-viewed unchanged P12 at original detail for injury laterality. Did not read corrected-generation prompts or root review drafts. Original review preserved except requested provenance clarification. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [
+        {
+          "font_size": 16,
+          "h": 0.125,
+          "id": "P02-L01",
+          "kind": "dialogue",
+          "shape": "rounded",
+          "speaker": "ODO",
+          "tail": {
+            "x": 0.282,
+            "y": 0.251
+          },
+          "text": "One dose. Keep it upright.",
+          "w": 0.43,
+          "x": 0.255,
+          "y": 0.015
+        },
+        {
+          "font_size": 16,
+          "h": 0.12,
+          "id": "P02-L02",
+          "kind": "dialogue",
+          "shape": "rounded",
+          "speaker": "NERA",
+          "tail": {
+            "x": 0.527,
+            "y": 0.304
+          },
+          "text": "Then hold the door.",
+          "w": 0.46,
+          "x": 0.5,
+          "y": 0.165
+        }
+      ],
+      "protected_regions": [
+        {
+          "h": 0.073975,
+          "id": "P02-R01",
+          "label": "Odo face beside west release",
+          "w": 0.059,
+          "x": 0.225,
+          "y": 0.262079
+        },
+        {
+          "h": 0.065978,
+          "id": "P02-R02",
+          "label": "Nera face",
+          "w": 0.047,
+          "x": 0.492,
+          "y": 0.309063
+        },
+        {
+          "h": 0.074975,
+          "id": "P02-R03",
+          "label": "One sealed flask and handoff hands",
+          "w": 0.069,
+          "x": 0.364,
+          "y": 0.426025
+        },
+        {
+          "h": 0.043985,
+          "id": "P02-R04",
+          "label": "Nera staff hand",
+          "w": 0.029,
+          "x": 0.584,
+          "y": 0.56098
+        },
+        {
+          "h": 0.135955,
+          "id": "P02-R05",
+          "label": "West release pulley",
+          "w": 0.128,
+          "x": 0.116,
+          "y": 0.04615
+        },
+        {
+          "h": 0.232923,
+          "id": "P02-R06",
+          "label": "Distant closed east shutter",
+          "w": 0.12,
+          "x": 0.87,
+          "y": 0.362046
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "panel": 3,
+      "function": "Geography",
+      "beat": "Wide gallery: west entry left, shallow water center, exit shutter right, overhead dark recess. No monster visible.",
+      "camera": "wide",
+      "target_css_height_at390": 240,
+      "copy": [],
+      "continuity_contract": "Camera remains south of movement axis; exit screen-right. Adult positions and dry stepping ridge clear. Shutter release is on WEST pillar, linked by overhead cable to EAST shutter; no unexplained teleport to the exit.",
+      "candidate": {
+        "id": "C00016",
+        "sha256": "a5f0153391bf8c6d81ec2d78953dfd78b8a13f6a3ed83aaffe2b87cb4c4bcaee",
+        "width": 1599,
+        "height": 984,
+        "status": "draft-unaccepted",
+        "src": "assets/C00016.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00016",
+          "checks": {
+            "actors": {
+              "observation": "Two distinct adults appear; no creature is prematurely visible.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "Odo touches the wall fitting, but no combat contact is required in this establishing view.",
+              "verdict": "not_assessed"
+            },
+            "event": {
+              "observation": "The wide view now explicitly establishes a dark overhead opening and empty eastward route.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "Nera has her small flask and intact staff; shutter stays closed.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "Both adults remain west, consistent with corrected P02, before the reveal.",
+              "verdict": "pass"
+            }
+          },
+          "image_sha256": "a5f0153391bf8c6d81ec2d78953dfd78b8a13f6a3ed83aaffe2b87cb4c4bcaee",
+          "method": "Verified nine corrected ledger selections and viewed each image separately before receiving root conclusions about corrected images. Used the frozen plan, previously viewed original references and neighboring original images; re-viewed unchanged P12 at original detail for injury laterality. Did not read corrected-generation prompts or root review drafts. Original review preserved except requested provenance clarification. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [],
+      "protected_regions": [
+        {
+          "h": 0.05,
+          "id": "P03-R01",
+          "label": "Odo face",
+          "w": 0.03,
+          "x": 0.17,
+          "y": 0.38
+        },
+        {
+          "h": 0.054,
+          "id": "P03-R02",
+          "label": "Nera face",
+          "w": 0.024,
+          "x": 0.28,
+          "y": 0.392
+        },
+        {
+          "h": 0.034,
+          "id": "P03-R03",
+          "label": "Odo release hand",
+          "w": 0.026,
+          "x": 0.084,
+          "y": 0.433
+        },
+        {
+          "h": 0.026,
+          "id": "P03-R04",
+          "label": "Flask on Nera chest",
+          "w": 0.02,
+          "x": 0.298,
+          "y": 0.512
+        },
+        {
+          "h": 0.027,
+          "id": "P03-R05",
+          "label": "Staff hand",
+          "w": 0.02,
+          "x": 0.329,
+          "y": 0.548
+        },
+        {
+          "h": 0.089,
+          "id": "P03-R06",
+          "label": "West pulley",
+          "w": 0.066,
+          "x": 0.082,
+          "y": 0.121
+        },
+        {
+          "h": 0.499,
+          "id": "P03-R07",
+          "label": "Closed east shutter",
+          "w": 0.129,
+          "x": 0.857,
+          "y": 0.171
+        },
+        {
+          "h": 0.111,
+          "id": "P03-R08",
+          "label": "Visible dark overhead recess",
+          "w": 0.424,
+          "x": 0.464,
+          "y": 0.035
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "panel": 4,
+      "function": "System primer",
+      "beat": "Wrist display establishes three charges and one of two verified counters needed to unlock Air Brake; Nera checks flask/staff.",
+      "camera": "insert",
+      "target_css_height_at390": 180,
+      "copy": [
+        "PULSE · 3",
+        "AIR BRAKE · COUNTERS 1/2"
+      ],
+      "continuity_contract": "No activation or resource change. UI occupies clear margin, not hand/face.",
+      "candidate": {
+        "id": "C00004",
+        "sha256": "f881aba89953311354ac21e92555ecfa2e0dc8d1c0fecd786c7cd889833db575",
+        "width": 1846,
+        "height": 852,
+        "status": "draft-unaccepted",
+        "src": "assets/C00004.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00004",
+          "checks": {
+            "actors": {
+              "observation": "The visible arms and hands are coherent and the charcoal clothing/yellow cape identify Nera. Her face and full body are intentionally cropped.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "The hands visibly present the wrist and grip the staff; no combat contact or activation is required in this insert.",
+              "verdict": "not_assessed"
+            },
+            "event": {
+              "observation": "The wrist is deliberately presented toward the reader. No glow, discharge or activation action is depicted. Numerical system content is absent by design and unassessed.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "The flask is sealed and upright in its holder. The visible wooden shaft has no break. The hands show no visible injury.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "The flask is sealed and upright in its holder. The visible wooden shaft has no break. The hands show no visible injury. Numerical resources and unlock wording are not assessed from this unlettered raster.",
+              "verdict": "pass"
+            }
+          },
+          "image_sha256": "f881aba89953311354ac21e92555ecfa2e0dc8d1c0fecd786c7cd889833db575",
+          "method": "Read frozen plan and original identity/environment references; viewed each selected original candidate separately before making observations. Did not read generation prompts, boards, old art, root conclusions or other review artifacts. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [
+        {
+          "font_size": 13.5,
+          "h": 0.15,
+          "id": "P04-L01",
+          "kind": "ui",
+          "shape": "rounded",
+          "speaker": "",
+          "tail": null,
+          "text": "PULSE · 3",
+          "w": 0.32,
+          "x": 0.28,
+          "y": 0.005
+        },
+        {
+          "font_size": 13.5,
+          "h": 0.235,
+          "id": "P04-L02",
+          "kind": "ui",
+          "shape": "rounded",
+          "speaker": "",
+          "tail": null,
+          "text": "AIR BRAKE · COUNTERS 1/2",
+          "w": 0.34,
+          "x": 0.395,
+          "y": 0.17
+        }
+      ],
+      "protected_regions": [
+        {
+          "h": 0.43,
+          "id": "P04-R01",
+          "label": "Nera raised fist",
+          "w": 0.225,
+          "x": 0.148,
+          "y": 0.27
+        },
+        {
+          "h": 0.295,
+          "id": "P04-R02",
+          "label": "Blank wrist display",
+          "w": 0.132,
+          "x": 0.375,
+          "y": 0.428
+        },
+        {
+          "h": 0.181,
+          "id": "P04-R03",
+          "label": "Upright flask in sling",
+          "w": 0.062,
+          "x": 0.79,
+          "y": 0.5
+        },
+        {
+          "h": 0.285,
+          "id": "P04-R04",
+          "label": "Hand gripping staff",
+          "w": 0.148,
+          "x": 0.826,
+          "y": 0.692
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "panel": 5,
+      "function": "Vertical threat reveal",
+      "beat": "A slate kite-bodied three-legged sentinel unfolds from the overhead recess into the east route.",
+      "camera": "vertical reveal",
+      "target_css_height_at390": 850,
+      "copy": [],
+      "continuity_contract": "Reveal top-to-bottom; sentinel east/right, adults west/left; exit occluded by threat.",
+      "candidate": {
+        "id": "C00005",
+        "sha256": "f2e9a91ff0d317de8a97383b87331213be17cbba33109dc89286e4342ba67ec7",
+        "width": 850,
+        "height": 1851,
+        "status": "draft-unaccepted",
+        "src": "assets/C00005.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00005",
+          "checks": {
+            "actors": {
+              "observation": "The machine has one slit and three traceable legs, with no humanoid face. Both adults keep their mature faces and recognizable clothing.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "The machine hangs above the adults without contacting them; this reveal does not require contact.",
+              "verdict": "not_assessed"
+            },
+            "event": {
+              "observation": "Suspension below the dark aperture and dangling folded legs communicate emergence from above. The image has a strong downward reveal.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "The flask hangs vertically on Nera's sling and her single staff has a continuous unbroken outline. Odo grips the hanging cord.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "The flask hangs vertically on Nera's sling and her single staff has a continuous unbroken outline. Odo grips the hanging cord. Numerical resources and unlock wording are not assessed from this unlettered raster.",
+              "verdict": "pass"
+            }
+          },
+          "image_sha256": "f2e9a91ff0d317de8a97383b87331213be17cbba33109dc89286e4342ba67ec7",
+          "method": "Read frozen plan and original identity/environment references; viewed each selected original candidate separately before making observations. Did not read generation prompts, boards, old art, root conclusions or other review artifacts. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [],
+      "protected_regions": [
+        {
+          "h": 0.041965,
+          "id": "P05-R01",
+          "label": "Odo face",
+          "w": 0.055,
+          "x": 0.125,
+          "y": 0.669856
+        },
+        {
+          "h": 0.037968,
+          "id": "P05-R02",
+          "label": "Nera face",
+          "w": 0.062,
+          "x": 0.304,
+          "y": 0.690839
+        },
+        {
+          "h": 0.024979,
+          "id": "P05-R03",
+          "label": "Odo release hand",
+          "w": 0.039,
+          "x": 0.028,
+          "y": 0.720813
+        },
+        {
+          "h": 0.025978,
+          "id": "P05-R04",
+          "label": "Nera flask in sling",
+          "w": 0.029,
+          "x": 0.359,
+          "y": 0.761779
+        },
+        {
+          "h": 0.02,
+          "id": "P05-R05",
+          "label": "Sentinel violet gill",
+          "w": 0.21,
+          "x": 0.536,
+          "y": 0.15629
+        },
+        {
+          "h": 0.500577,
+          "id": "P05-R06",
+          "label": "Three unfolding legs",
+          "w": 0.518,
+          "x": 0.335,
+          "y": 0.208247
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "panel": 6,
+      "function": "Anticipation",
+      "beat": "Nera plants on the dry ridge and lowers the staff; Odo reaches the shutter release from the west side.",
+      "camera": "medium",
+      "target_css_height_at390": 240,
+      "copy": [
+        "NERA: Wait for the foot."
+      ],
+      "continuity_contract": "No attack yet; flask fixed to Nera’s chest sling, lid upright.",
+      "candidate": {
+        "id": "C00017",
+        "sha256": "987b2d11ae04e53f7f7014f2065649eaae4b3503ec9a1a58cda592c502aec557",
+        "width": 1600,
+        "height": 983,
+        "status": "draft-unaccepted",
+        "src": "assets/C00017.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00017",
+          "checks": {
+            "actors": {
+              "observation": "Two adults and three machine legs remain coherent.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "A clear gap separates wood tip from machine foot; the adults grip staff and cord.",
+              "verdict": "pass"
+            },
+            "event": {
+              "observation": "Spread planted feet and a lowered staff read as preparation, with the creature still.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "One upright capped chest bottle and one intact rod are visible.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "Both boots stand on stone; the shutter stays closed and no damage is present.",
+              "verdict": "pass"
+            }
+          },
+          "image_sha256": "987b2d11ae04e53f7f7014f2065649eaae4b3503ec9a1a58cda592c502aec557",
+          "method": "Verified nine corrected ledger selections and viewed each image separately before receiving root conclusions about corrected images. Used the frozen plan, previously viewed original references and neighboring original images; re-viewed unchanged P12 at original detail for injury laterality. Did not read corrected-generation prompts or root review drafts. Original review preserved except requested provenance clarification. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [
+        {
+          "font_size": 16,
+          "h": 0.19,
+          "id": "P06-L01",
+          "kind": "dialogue",
+          "shape": "rounded",
+          "speaker": "NERA",
+          "tail": {
+            "x": 0.435,
+            "y": 0.245
+          },
+          "text": "Wait for the foot.",
+          "w": 0.46,
+          "x": 0.285,
+          "y": 0.025
+        }
+      ],
+      "protected_regions": [
+        {
+          "h": 0.087856,
+          "id": "P06-R01",
+          "label": "Odo face",
+          "w": 0.04,
+          "x": 0.16,
+          "y": 0.175533
+        },
+        {
+          "h": 0.082864,
+          "id": "P06-R02",
+          "label": "Nera face",
+          "w": 0.047,
+          "x": 0.403,
+          "y": 0.263389
+        },
+        {
+          "h": 0.055908,
+          "id": "P06-R03",
+          "label": "Odo release hand",
+          "w": 0.03,
+          "x": 0.042,
+          "y": 0.285353
+        },
+        {
+          "h": 0.064893,
+          "id": "P06-R04",
+          "label": "Flask on Nera chest",
+          "w": 0.021,
+          "x": 0.412,
+          "y": 0.471048
+        },
+        {
+          "h": 0.059902,
+          "id": "P06-R05",
+          "label": "Upper staff hand",
+          "w": 0.03,
+          "x": 0.34,
+          "y": 0.500998
+        },
+        {
+          "h": 0.052913,
+          "id": "P06-R06",
+          "label": "Lower staff hand",
+          "w": 0.026,
+          "x": 0.468,
+          "y": 0.601833
+        },
+        {
+          "h": 0.099836,
+          "id": "P06-R07",
+          "label": "Staff tip and nearest foot separation",
+          "w": 0.095,
+          "x": 0.584,
+          "y": 0.699672
+        },
+        {
+          "h": 0.02,
+          "id": "P06-R08",
+          "label": "Sentinel violet gill",
+          "w": 0.082,
+          "x": 0.74,
+          "y": 0.414141
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "panel": 7,
+      "function": "Attack",
+      "beat": "Sentinel lunges right-to-left; forefoot line crosses the ridge and splashes water.",
+      "camera": "wide action",
+      "target_css_height_at390": 300,
+      "copy": [
+        "SFX: TAK"
+      ],
+      "continuity_contract": "Clear silhouette, trajectory and target; no teleport or body doubling.",
+      "candidate": {
+        "id": "C00018",
+        "sha256": "0304d32ad01cbc1451fda29d38e2438f2e6cea16b4a349ad87dde0c1fa939b12",
+        "width": 1401,
+        "height": 1123,
+        "status": "draft-unaccepted",
+        "src": "assets/C00018.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00018",
+          "checks": {
+            "actors": {
+              "observation": "Adult identities and three machine limbs remain traceable.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "Wood overlays the lower foreleg near the tip. The still view cannot distinguish projected depth overlap from actual contact; a true gap is unclear.",
+              "verdict": "not_assessed"
+            },
+            "event": {
+              "observation": "The reaching limb and splash communicate a lunge; overlap makes separation from the next counter less secure.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "One intact staff and one sealed upright chest flask remain.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "Both boots have moved onto raised stone. Odo stays at the west cord and the shutter remains shut.",
+              "verdict": "pass"
+            }
+          },
+          "image_sha256": "0304d32ad01cbc1451fda29d38e2438f2e6cea16b4a349ad87dde0c1fa939b12",
+          "method": "Verified nine corrected ledger selections and viewed each image separately before receiving root conclusions about corrected images. Used the frozen plan, previously viewed original references and neighboring original images; re-viewed unchanged P12 at original detail for injury laterality. Did not read corrected-generation prompts or root review drafts. Original review preserved except requested provenance clarification. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [
+        {
+          "font_size": 27,
+          "h": 0.115,
+          "id": "P07-L01",
+          "kind": "sfx",
+          "shape": "rounded",
+          "speaker": "",
+          "tail": null,
+          "text": "TAK",
+          "w": 0.225,
+          "x": 0.69,
+          "y": 0.762
+        }
+      ],
+      "protected_regions": [
+        {
+          "h": 0.064,
+          "id": "P07-R01",
+          "label": "Odo face",
+          "w": 0.038386,
+          "x": 0.156444,
+          "y": 0.305
+        },
+        {
+          "h": 0.049,
+          "id": "P07-R02",
+          "label": "Odo release hand",
+          "w": 0.023032,
+          "x": 0.05472,
+          "y": 0.336
+        },
+        {
+          "h": 0.054,
+          "id": "P07-R03",
+          "label": "Nera face",
+          "w": 0.045104,
+          "x": 0.319585,
+          "y": 0.385
+        },
+        {
+          "h": 0.043,
+          "id": "P07-R04",
+          "label": "Flask on Nera chest",
+          "w": 0.021112,
+          "x": 0.309029,
+          "y": 0.496
+        },
+        {
+          "h": 0.04,
+          "id": "P07-R05",
+          "label": "Upper staff hand",
+          "w": 0.02783,
+          "x": 0.254328,
+          "y": 0.49
+        },
+        {
+          "h": 0.04,
+          "id": "P07-R06",
+          "label": "Lower staff hand",
+          "w": 0.024951,
+          "x": 0.400196,
+          "y": 0.592
+        },
+        {
+          "h": 0.221,
+          "id": "P07-R07",
+          "label": "Staff and attacking forefoot splash",
+          "w": 0.154504,
+          "x": 0.467372,
+          "y": 0.565
+        },
+        {
+          "h": 0.025,
+          "id": "P07-R08",
+          "label": "Sentinel violet gill",
+          "w": 0.086369,
+          "x": 0.719761,
+          "y": 0.426
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "panel": 8,
+      "function": "Counter",
+      "beat": "Nera spends one pulse to brake the forefoot with her staff; bent knees and staff compression show force.",
+      "camera": "contact",
+      "target_css_height_at390": 340,
+      "copy": [
+        "PULSE · 3 → 2",
+        "COUNTERS 2/2 · AIR BRAKE READY"
+      ],
+      "continuity_contract": "Foot/staff contact visible. Flask remains upright. This is a temporary stop, not victory. This verified counter completes the two-counter requirement; Air Brake unlocks and stays available.",
+      "candidate": {
+        "id": "C00019",
+        "sha256": "9bd793b9c28f3319cc1f910a580fc90da68c9ae5ebc2000bf06f45853815b776",
+        "width": 1343,
+        "height": 1171,
+        "status": "draft-unaccepted",
+        "src": "assets/C00019.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00019",
+          "checks": {
+            "actors": {
+              "observation": "Nera and her two gripping hands are coherent; the machine crop prevents full leg counting.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "The wood tip visibly bears against the pointed foot without an opaque cloud.",
+              "verdict": "pass"
+            },
+            "event": {
+              "observation": "Bent knees and braced body support a temporary counter.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "One intact rod and one capped upright sling flask remain.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "Stone was added beneath much of the stance, but the image-left boot's sole borders dark water beyond the diagonal platform edge; complete two-boot dry support is not confidently verified.",
+              "verdict": "not_assessed"
+            }
+          },
+          "image_sha256": "9bd793b9c28f3319cc1f910a580fc90da68c9ae5ebc2000bf06f45853815b776",
+          "method": "Verified nine corrected ledger selections and viewed each image separately before receiving root conclusions about corrected images. Used the frozen plan, previously viewed original references and neighboring original images; re-viewed unchanged P12 at original detail for injury laterality. Did not read corrected-generation prompts or root review drafts. Original review preserved except requested provenance clarification. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [
+        {
+          "font_size": 13.5,
+          "h": 0.115,
+          "id": "P08-L01",
+          "kind": "ui",
+          "shape": "rounded",
+          "speaker": "",
+          "tail": null,
+          "text": "PULSE · 3 → 2",
+          "w": 0.38,
+          "x": 0.375,
+          "y": 0.15
+        },
+        {
+          "font_size": 13.5,
+          "h": 0.2,
+          "id": "P08-L02",
+          "kind": "ui",
+          "shape": "rounded",
+          "speaker": "",
+          "tail": null,
+          "text": "COUNTERS 2/2 · AIR BRAKE READY",
+          "w": 0.35,
+          "x": 0.375,
+          "y": 0.28
+        }
+      ],
+      "protected_regions": [
+        {
+          "h": 0.103,
+          "id": "P08-R01",
+          "label": "Nera face",
+          "w": 0.076988,
+          "x": 0.235041,
+          "y": 0.276
+        },
+        {
+          "h": 0.078,
+          "id": "P08-R02",
+          "label": "Flask on Nera chest",
+          "w": 0.022996,
+          "x": 0.261037,
+          "y": 0.483
+        },
+        {
+          "h": 0.06,
+          "id": "P08-R03",
+          "label": "Upper staff hand",
+          "w": 0.042993,
+          "x": 0.153053,
+          "y": 0.493
+        },
+        {
+          "h": 0.073,
+          "id": "P08-R04",
+          "label": "Lower staff hand",
+          "w": 0.043993,
+          "x": 0.400015,
+          "y": 0.603
+        },
+        {
+          "h": 0.19,
+          "id": "P08-R05",
+          "label": "Staff forefoot contact and splash",
+          "w": 0.176973,
+          "x": 0.552992,
+          "y": 0.716
+        },
+        {
+          "h": 0.025,
+          "id": "P08-R06",
+          "label": "Sentinel violet gill",
+          "w": 0.118982,
+          "x": 0.799954,
+          "y": 0.409
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "panel": 9,
+      "function": "Reversal",
+      "beat": "The sentinel pivots around the blocked foot, sweeping its side limb toward Odo at the release.",
+      "camera": "wide action",
+      "target_css_height_at390": 300,
+      "copy": [],
+      "continuity_contract": "New vector threatens partner; original exit geography re-established. Nera’s first answer is insufficient.",
+      "candidate": {
+        "id": "C00020",
+        "sha256": "f101a71fb18037b7e71019bf3ca87294438ea62920566d6d4bddd0dc31b9af50",
+        "width": 1430,
+        "height": 1100,
+        "status": "draft-unaccepted",
+        "src": "assets/C00020.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00020",
+          "checks": {
+            "actors": {
+              "observation": "Three machine limbs and two recognizable adults are visible.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "The rod tip ends in open water away from the machine foot. Shaft/shin overlap higher up gives no readable foot lock or counterforce preserving P08's anchor.",
+              "verdict": "fail"
+            },
+            "event": {
+              "observation": "Odo is clearly the sweep target, but the previous foot restraint does not persist as a pivot anchor. Nera is back in water.",
+              "verdict": "fail"
+            },
+            "props": {
+              "observation": "One intact rod and one sling flask remain with Nera; Odo holds the cord with his other hand free.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "Nera returns to foreground water after the corrected dry-ridge counter and the blocked foot is no longer visibly restrained.",
+              "verdict": "fail"
+            }
+          },
+          "image_sha256": "f101a71fb18037b7e71019bf3ca87294438ea62920566d6d4bddd0dc31b9af50",
+          "method": "Verified nine corrected ledger selections and viewed each image separately before receiving root conclusions about corrected images. Used the frozen plan, previously viewed original references and neighboring original images; re-viewed unchanged P12 at original detail for injury laterality. Did not read corrected-generation prompts or root review drafts. Original review preserved except requested provenance clarification. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [],
+      "protected_regions": [
+        {
+          "h": 0.071,
+          "id": "P09-R01",
+          "label": "Odo face",
+          "w": 0.046,
+          "x": 0.16,
+          "y": 0.282
+        },
+        {
+          "h": 0.068,
+          "id": "P09-R02",
+          "label": "Nera face",
+          "w": 0.038,
+          "x": 0.419,
+          "y": 0.491
+        },
+        {
+          "h": 0.047,
+          "id": "P09-R03",
+          "label": "Odo release hand",
+          "w": 0.025,
+          "x": 0.057,
+          "y": 0.34
+        },
+        {
+          "h": 0.045,
+          "id": "P09-R04",
+          "label": "Lower staff hand",
+          "w": 0.03,
+          "x": 0.508,
+          "y": 0.692
+        },
+        {
+          "h": 0.034,
+          "id": "P09-R05",
+          "label": "Upper staff hand",
+          "w": 0.029,
+          "x": 0.246,
+          "y": 0.584
+        },
+        {
+          "h": 0.05,
+          "id": "P09-R06",
+          "label": "Flask on Nera chest",
+          "w": 0.02,
+          "x": 0.399,
+          "y": 0.605
+        },
+        {
+          "h": 0.075,
+          "id": "P09-R07",
+          "label": "Horizontal sweeping limb",
+          "w": 0.391,
+          "x": 0.269,
+          "y": 0.398
+        },
+        {
+          "h": 0.044,
+          "id": "P09-R08",
+          "label": "Visible staff forelimb crossing",
+          "w": 0.046,
+          "x": 0.545,
+          "y": 0.717
+        },
+        {
+          "h": 0.031,
+          "id": "P09-R09",
+          "label": "Sentinel violet gill",
+          "w": 0.096,
+          "x": 0.703,
+          "y": 0.389
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "panel": 10,
+      "function": "Trust decision",
+      "beat": "Nera tosses the sealed flask toward Odo’s free hand; reciprocal eyelines make the timing clear.",
+      "camera": "two-shot",
+      "target_css_height_at390": 360,
+      "copy": [
+        "NERA: Catch.",
+        "ODO: Go."
+      ],
+      "continuity_contract": "One flask follows one visible arc; Odo receives it upright. No duplicate flask.",
+      "candidate": {
+        "id": "C00010",
+        "sha256": "e2eaa529d953a3b5793d980d0a7438db40db9e47a3e4d208926cc0612ab31193",
+        "width": 1306,
+        "height": 1205,
+        "status": "draft-unaccepted",
+        "src": "assets/C00010.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00010",
+          "checks": {
+            "actors": {
+              "observation": "Both adults have clear reference faces, separate hands and ordinary body proportions. Nera's extended fingers remain readable.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "The airborne bottle follows one visible arc into the space above Odo's open hand; completed catching occurs after this depicted instant and is confirmed in P11.",
+              "verdict": "pass"
+            },
+            "event": {
+              "observation": "One bottle and a single curved trail communicate a toss from right to left. Odo's palm waits below it. The actual completed catch is outside this instant and is confirmed by P11.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "Only one bottle is shown and it remains capped, with a modest tilt in flight. Nera's chest holder appears empty and her other hand retains a single intact staff.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "Only one bottle is shown and it remains capped, with a modest tilt in flight. Nera's chest holder appears empty and her other hand retains a single intact staff. Numerical resources and unlock wording are not assessed from this unlettered raster.",
+              "verdict": "pass"
+            }
+          },
+          "image_sha256": "e2eaa529d953a3b5793d980d0a7438db40db9e47a3e4d208926cc0612ab31193",
+          "method": "Read frozen plan and original identity/environment references; viewed each selected original candidate separately before making observations. Did not read generation prompts, boards, old art, root conclusions or other review artifacts. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [
+        {
+          "font_size": 16,
+          "h": 0.12,
+          "id": "P10-L01",
+          "kind": "dialogue",
+          "shape": "rounded",
+          "speaker": "NERA",
+          "tail": {
+            "x": 0.76,
+            "y": 0.203
+          },
+          "text": "Catch.",
+          "w": 0.26,
+          "x": 0.61,
+          "y": 0.06
+        },
+        {
+          "font_size": 16,
+          "h": 0.115,
+          "id": "P10-L02",
+          "kind": "dialogue",
+          "shape": "rounded",
+          "speaker": "ODO",
+          "tail": {
+            "x": 0.23,
+            "y": 0.249
+          },
+          "text": "Go.",
+          "w": 0.17,
+          "x": 0.19,
+          "y": 0.29
+        }
+      ],
+      "protected_regions": [
+        {
+          "h": 0.095957,
+          "id": "P10-R01",
+          "label": "Odo face",
+          "w": 0.072,
+          "x": 0.185,
+          "y": 0.150156
+        },
+        {
+          "h": 0.085962,
+          "id": "P10-R02",
+          "label": "Nera face",
+          "w": 0.076,
+          "x": 0.72,
+          "y": 0.211129
+        },
+        {
+          "h": 0.071968,
+          "id": "P10-R03",
+          "label": "Release hand",
+          "w": 0.049,
+          "x": 0.039,
+          "y": 0.337073
+        },
+        {
+          "h": 0.057974,
+          "id": "P10-R04",
+          "label": "Flask in flight",
+          "w": 0.028,
+          "x": 0.412,
+          "y": 0.240116
+        },
+        {
+          "h": 0.062972,
+          "id": "P10-R05",
+          "label": "Throwing hand",
+          "w": 0.076,
+          "x": 0.51,
+          "y": 0.305087
+        },
+        {
+          "h": 0.072967,
+          "id": "P10-R06",
+          "label": "Receiving hand",
+          "w": 0.084,
+          "x": 0.369,
+          "y": 0.342071
+        },
+        {
+          "h": 0.081963,
+          "id": "P10-R07",
+          "label": "Flask trajectory",
+          "w": 0.192,
+          "x": 0.443,
+          "y": 0.241116
+        },
+        {
+          "h": 0.087961,
+          "id": "P10-R08",
+          "label": "Nera staff hand",
+          "w": 0.039,
+          "x": 0.86,
+          "y": 0.513994
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "panel": 11,
+      "function": "Committed movement",
+      "beat": "Nera uses newly unlocked Air Brake to halt her vault above the sweep, then redirect toward contact; Odo pulls the west release cable to raise the east shutter.",
+      "camera": "vertical action",
+      "target_css_height_at390": 500,
+      "copy": [
+        "AIR BRAKE · PULSE 2 → 1"
+      ],
+      "continuity_contract": "One body and a continuous arc with a visible braking accent; no teleport or duplicate body. Exit rises; Odo begins moving east with flask.",
+      "candidate": {
+        "id": "C00021",
+        "sha256": "74e4193240966a8f84c20ceb57dcad4af33936a0b150ff79de0d6e6588178600",
+        "width": 1110,
+        "height": 1417,
+        "status": "draft-unaccepted",
+        "src": "assets/C00021.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00021",
+          "checks": {
+            "actors": {
+              "observation": "One body per adult and three machine legs are present.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "The required relation of braking above a sweeping limb is absent; she is above a grounded tripod.",
+              "verdict": "fail"
+            },
+            "event": {
+              "observation": "The vault is visible, but no side-sweep lies beneath it. Odo's lead stride still points lower-left, away from the right exit.",
+              "verdict": "fail"
+            },
+            "props": {
+              "observation": "One uninterrupted staff replaces the earlier two rods. Odo holds one capped upright flask.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "The staff timing is repaired, but the active sweep resets to three grounded legs, and Odo does not visibly begin an eastward escape.",
+              "verdict": "fail"
+            }
+          },
+          "image_sha256": "74e4193240966a8f84c20ceb57dcad4af33936a0b150ff79de0d6e6588178600",
+          "method": "Verified nine corrected ledger selections and viewed each image separately before receiving root conclusions about corrected images. Used the frozen plan, previously viewed original references and neighboring original images; re-viewed unchanged P12 at original detail for injury laterality. Did not read corrected-generation prompts or root review drafts. Original review preserved except requested provenance clarification. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [
+        {
+          "font_size": 13.5,
+          "h": 0.11,
+          "id": "P11-L01",
+          "kind": "ui",
+          "shape": "rounded",
+          "speaker": "",
+          "tail": null,
+          "text": "AIR BRAKE · PULSE 2 → 1",
+          "w": 0.45,
+          "x": 0.2,
+          "y": 0.035
+        }
+      ],
+      "protected_regions": [
+        {
+          "h": 0.047795,
+          "id": "P11-R01",
+          "label": "Nera face",
+          "w": 0.054,
+          "x": 0.61,
+          "y": 0.217213
+        },
+        {
+          "h": 0.029872,
+          "id": "P11-R02",
+          "label": "Upper staff hand",
+          "w": 0.034,
+          "x": 0.74,
+          "y": 0.267995
+        },
+        {
+          "h": 0.030868,
+          "id": "P11-R03",
+          "label": "Lower staff hand",
+          "w": 0.027,
+          "x": 0.493,
+          "y": 0.34367
+        },
+        {
+          "h": 0.179231,
+          "id": "P11-R04",
+          "label": "Visible continuous diagonal staff",
+          "w": 0.51,
+          "x": 0.35,
+          "y": 0.246089
+        },
+        {
+          "h": 0.070697,
+          "id": "P11-R05",
+          "label": "Odo face",
+          "w": 0.058,
+          "x": 0.262,
+          "y": 0.528876
+        },
+        {
+          "h": 0.041821,
+          "id": "P11-R06",
+          "label": "Odo release hand",
+          "w": 0.035,
+          "x": 0.078,
+          "y": 0.529872
+        },
+        {
+          "h": 0.066714,
+          "id": "P11-R07",
+          "label": "Flask and holding hand",
+          "w": 0.06,
+          "x": 0.273,
+          "y": 0.669274
+        },
+        {
+          "h": 0.414224,
+          "id": "P11-R08",
+          "label": "Cyan braking trail",
+          "w": 0.228,
+          "x": 0.345,
+          "y": 0.195307
+        },
+        {
+          "h": 0.023898,
+          "id": "P11-R09",
+          "label": "Sentinel violet gill",
+          "w": 0.102,
+          "x": 0.68,
+          "y": 0.644381
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "panel": 12,
+      "function": "Impact",
+      "beat": "Nera’s staff strikes the sentinel forelimb joint as the shutter opens. The staff breaks at the contact, scraping her hand.",
+      "camera": "impact",
+      "target_css_height_at390": 550,
+      "copy": [
+        "SFX: KRAK"
+      ],
+      "continuity_contract": "One visible contact point, counterforce, deformation and broken staff; no effect cloud hiding the event. Odo slips through the raised opening behind the staff strike, flask upright; both adults are moving east.",
+      "candidate": {
+        "id": "C00012",
+        "sha256": "0aa810028470ecc3a32a64816650d0d0c51d259f30b64d00f2edc1456a4474b0",
+        "width": 1056,
+        "height": 1490,
+        "status": "draft-unaccepted",
+        "src": "assets/C00012.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00012",
+          "checks": {
+            "actors": {
+              "observation": "Both adult identities and three machine legs can be traced. The two gripping hands belong to Nera and the background hands belong to Odo.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "Splintered wood crosses a round forelimb joint at a visible collision. No opaque effect cloud hides the meeting point.",
+              "verdict": "pass"
+            },
+            "event": {
+              "observation": "The wood and round forelimb joint visibly meet. Splinters are concentrated at that crossing, with no opaque cloud concealing it. The low braced stance communicates counterforce, though the wood's jagged continuation makes the exact separation less clean than it could be.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "The staff is visibly damaged at the contact and Odo's single bottle stays upright. A fresh red line appears on Nera's RIGHT hand, the hand drawn at viewer-left in front of the other grip.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "The staff is visibly damaged at the contact and Odo's single bottle stays upright. A fresh red line appears on Nera's RIGHT hand, the hand drawn at viewer-left in front of the other grip. Numerical resources and unlock wording are not assessed from this unlettered raster.",
+              "verdict": "pass"
+            }
+          },
+          "image_sha256": "0aa810028470ecc3a32a64816650d0d0c51d259f30b64d00f2edc1456a4474b0",
+          "method": "Read frozen plan and original identity/environment references; viewed each selected original candidate separately before making observations. Did not read generation prompts, boards, old art, root conclusions or other review artifacts. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [
+        {
+          "font_size": 29,
+          "h": 0.08,
+          "id": "P12-L01",
+          "kind": "sfx",
+          "shape": "rounded",
+          "speaker": "",
+          "tail": null,
+          "text": "KRAK",
+          "w": 0.3,
+          "x": 0.5,
+          "y": 0.76
+        }
+      ],
+      "protected_regions": [
+        {
+          "h": 0.079,
+          "id": "P12-R01",
+          "label": "Nera face",
+          "w": 0.098949,
+          "x": 0.298104,
+          "y": 0.345
+        },
+        {
+          "h": 0.04,
+          "id": "P12-R02",
+          "label": "Odo face",
+          "w": 0.054972,
+          "x": 0.853817,
+          "y": 0.329
+        },
+        {
+          "h": 0.052,
+          "id": "P12-R03",
+          "label": "Sealed flask with Odo",
+          "w": 0.042978,
+          "x": 0.910788,
+          "y": 0.392
+        },
+        {
+          "h": 0.077,
+          "id": "P12-R04",
+          "label": "Scraped hand and gripping hand",
+          "w": 0.09595,
+          "x": 0.36507,
+          "y": 0.516
+        },
+        {
+          "h": 0.138,
+          "id": "P12-R05",
+          "label": "Staff break and limb contact",
+          "w": 0.206893,
+          "x": 0.479011,
+          "y": 0.604
+        },
+        {
+          "h": 0.031,
+          "id": "P12-R06",
+          "label": "Sentinel gill",
+          "w": 0.206893,
+          "x": 0.492004,
+          "y": 0.486
+        },
+        {
+          "h": 0.039,
+          "id": "P12-R07",
+          "label": "Odo hand with release cord",
+          "w": 0.040979,
+          "x": 0.726883,
+          "y": 0.42
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "panel": 13,
+      "function": "Aftermath",
+      "beat": "Beyond the opening, Odo releases the cord so the shutter drops behind both adults and pins the sentinel foreleg on the west side. Nera holds the broken staff.",
+      "camera": "wide aftermath",
+      "target_css_height_at390": 360,
+      "copy": [],
+      "continuity_contract": "Shutter now lowered with foreleg caught under its bottom edge; threat remains alive/west. Both adults east; flask in Odo hand, staff broken, scraped hand, charge1, Air Brake unlocked.",
+      "candidate": {
+        "id": "C00022",
+        "sha256": "a852ccb61b21a113ec804959862ea084bd923059b36f4a0a7ce4f120bfc3a47f",
+        "width": 1306,
+        "height": 1205,
+        "status": "draft-unaccepted",
+        "src": "assets/C00022.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00022",
+          "checks": {
+            "actors": {
+              "observation": "The machine has four traceable legs: far-left foot, long foreground-left foot, short center foot beneath its body, and rightward limb at shutter. Adult identities remain.",
+              "verdict": "fail"
+            },
+            "contact": {
+              "observation": "The extended limb meets the lowered threshold edge; the new wall plane separates humans from machine, unlike the original same-side composition.",
+              "verdict": "pass"
+            },
+            "event": {
+              "observation": "Adults now occupy a separate corridor while the living machine remains in the gallery. Lowered edge and slack cord communicate aftermath.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "Odo has one capped upright flask; Nera holds one jagged remnant and another section lies on the corridor floor.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "Nera now displays a red LEFT palm although P12 injured the back of her RIGHT hand. A cheek cut is also added without being established at impact. The fourth machine leg changes its persistent anatomy.",
+              "verdict": "fail"
+            }
+          },
+          "image_sha256": "a852ccb61b21a113ec804959862ea084bd923059b36f4a0a7ce4f120bfc3a47f",
+          "method": "Verified nine corrected ledger selections and viewed each image separately before receiving root conclusions about corrected images. Used the frozen plan, previously viewed original references and neighboring original images; re-viewed unchanged P12 at original detail for injury laterality. Did not read corrected-generation prompts or root review drafts. Original review preserved except requested provenance clarification. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [],
+      "protected_regions": [
+        {
+          "h": 0.055975,
+          "id": "P13-R01",
+          "label": "Nera face",
+          "w": 0.04,
+          "x": 0.65,
+          "y": 0.319081
+        },
+        {
+          "h": 0.063971,
+          "id": "P13-R02",
+          "label": "Odo face",
+          "w": 0.047,
+          "x": 0.845,
+          "y": 0.283097
+        },
+        {
+          "h": 0.103954,
+          "id": "P13-R03",
+          "label": "Shutter edge and trapped limb",
+          "w": 0.198,
+          "x": 0.302,
+          "y": 0.635939
+        },
+        {
+          "h": 0.038983,
+          "id": "P13-R04",
+          "label": "Broken staff hand",
+          "w": 0.028,
+          "x": 0.61,
+          "y": 0.542981
+        },
+        {
+          "h": 0.037983,
+          "id": "P13-R05",
+          "label": "Visible broken staff end",
+          "w": 0.02,
+          "x": 0.564,
+          "y": 0.61095
+        },
+        {
+          "h": 0.050977,
+          "id": "P13-R06",
+          "label": "Nera open injured hand",
+          "w": 0.035,
+          "x": 0.704,
+          "y": 0.510995
+        },
+        {
+          "h": 0.049978,
+          "id": "P13-R07",
+          "label": "Flask",
+          "w": 0.027,
+          "x": 0.9,
+          "y": 0.420036
+        },
+        {
+          "h": 0.034984,
+          "id": "P13-R08",
+          "label": "Flask holding hand",
+          "w": 0.04,
+          "x": 0.899,
+          "y": 0.452021
+        },
+        {
+          "h": 0.053976,
+          "id": "P13-R09",
+          "label": "Odo release cord hand",
+          "w": 0.024,
+          "x": 0.812,
+          "y": 0.512994
+        },
+        {
+          "h": 0.029987,
+          "id": "P13-R10",
+          "label": "Dropped wood fragment",
+          "w": 0.103,
+          "x": 0.61,
+          "y": 0.823855
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "panel": 14,
+      "function": "Quiet breath",
+      "beat": "Beyond the door Odo steadies Nera’s scraped hand beside the sealed flask. They breathe, then turn toward the next passage.",
+      "camera": "close two-shot",
+      "target_css_height_at390": 440,
+      "copy": [
+        "ODO: Steady.",
+        "NERA: I am."
+      ],
+      "continuity_contract": "Hold consequence and relationship after spectacle; same injury, broken staff, flask and charge1 remain.",
+      "candidate": {
+        "id": "C00023",
+        "sha256": "ca5fe56e15313b8ba86bb0747e404358571ff2866857b2597cc0689c258b7c97",
+        "width": 1181,
+        "height": 1332,
+        "status": "draft-unaccepted",
+        "src": "assets/C00023.png"
+      },
+      "observations": [
+        {
+          "candidate_id": "C00023",
+          "checks": {
+            "actors": {
+              "observation": "Mature reference faces, normal arms and coherent supporting fingers remain.",
+              "verdict": "pass"
+            },
+            "contact": {
+              "observation": "Odo visibly supports the underside of Nera's extended hand.",
+              "verdict": "pass"
+            },
+            "event": {
+              "observation": "Reciprocal gaze and cupped hand communicate care and recovery.",
+              "verdict": "pass"
+            },
+            "props": {
+              "observation": "Single sealed Odo-owned flask and broken staff remain.",
+              "verdict": "pass"
+            },
+            "state": {
+              "observation": "The abraded hand still arises from Nera's LEFT sleeve; the RIGHT holds the staff. Unchanged P12's scrape is on the RIGHT gripping hand, so laterality remains wrong.",
+              "verdict": "fail"
+            }
+          },
+          "image_sha256": "ca5fe56e15313b8ba86bb0747e404358571ff2866857b2597cc0689c258b7c97",
+          "method": "Verified nine corrected ledger selections and viewed each image separately before receiving root conclusions about corrected images. Used the frozen plan, previously viewed original references and neighboring original images; re-viewed unchanged P12 at original detail for injury laterality. Did not read corrected-generation prompts or root review drafts. Original review preserved except requested provenance clarification. No numeric quality scores.",
+          "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+          "reviewer": "independent-ai-visual-review",
+          "status": "observation-only-not-approval"
+        }
+      ],
+      "lettering": [
+        {
+          "font_size": 16,
+          "h": 0.115,
+          "id": "P14-L01",
+          "kind": "dialogue",
+          "shape": "rounded",
+          "speaker": "ODO",
+          "tail": {
+            "x": 0.607,
+            "y": 0.168
+          },
+          "text": "Steady.",
+          "w": 0.215,
+          "x": 0.405,
+          "y": 0.025
+        },
+        {
+          "font_size": 16,
+          "h": 0.12,
+          "id": "P14-L02",
+          "kind": "dialogue",
+          "shape": "rounded",
+          "speaker": "NERA",
+          "tail": {
+            "x": 0.342,
+            "y": 0.378
+          },
+          "text": "I am.",
+          "w": 0.29,
+          "x": 0.265,
+          "y": 0.422
+        }
+      ],
+      "protected_regions": [
+        {
+          "h": 0.173946,
+          "id": "P14-R01",
+          "label": "Nera face",
+          "w": 0.193,
+          "x": 0.218,
+          "y": 0.191095
+        },
+        {
+          "h": 0.19494,
+          "id": "P14-R02",
+          "label": "Odo face",
+          "w": 0.214,
+          "x": 0.622,
+          "y": 0.121117
+        },
+        {
+          "h": 0.106967,
+          "id": "P14-R03",
+          "label": "Scraped raised hand",
+          "w": 0.141,
+          "x": 0.592,
+          "y": 0.651953
+        },
+        {
+          "h": 0.111966,
+          "id": "P14-R04",
+          "label": "Odo supporting hand",
+          "w": 0.155,
+          "x": 0.51,
+          "y": 0.686942
+        },
+        {
+          "h": 0.12996,
+          "id": "P14-R05",
+          "label": "Flask",
+          "w": 0.073,
+          "x": 0.758,
+          "y": 0.495002
+        },
+        {
+          "h": 0.179945,
+          "id": "P14-R06",
+          "label": "Odo flask hand",
+          "w": 0.2,
+          "x": 0.73,
+          "y": 0.571978
+        },
+        {
+          "h": 0.099969,
+          "id": "P14-R07",
+          "label": "Broken staff tip",
+          "w": 0.057,
+          "x": 0.105,
+          "y": 0.547985
+        },
+        {
+          "h": 0.109966,
+          "id": "P14-R08",
+          "label": "Nera staff hand",
+          "w": 0.127,
+          "x": 0.033,
+          "y": 0.741925
+        }
+      ]
+    }
+  ],
+  "status": {
+    "production_eligible": false,
+    "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+    "integrity_failures": [],
+    "semantic_defects": [
+      "P09/C00020/contact: The rod tip ends in open water away from the machine foot. Shaft/shin overlap higher up gives no readable foot lock or counterforce preserving P08's anchor.",
+      "P09/C00020/event: Odo is clearly the sweep target, but the previous foot restraint does not persist as a pivot anchor. Nera is back in water.",
+      "P09/C00020/state: Nera returns to foreground water after the corrected dry-ridge counter and the blocked foot is no longer visibly restrained.",
+      "P09/C00020: selected attempt has a logged hard failure",
+      "P11/C00021/contact: The required relation of braking above a sweeping limb is absent; she is above a grounded tripod.",
+      "P11/C00021/event: The vault is visible, but no side-sweep lies beneath it. Odo's lead stride still points lower-left, away from the right exit.",
+      "P11/C00021/state: The staff timing is repaired, but the active sweep resets to three grounded legs, and Odo does not visibly begin an eastward escape.",
+      "P11/C00021: selected attempt has a logged hard failure",
+      "P13/C00022/actors: The machine has four traceable legs: far-left foot, long foreground-left foot, short center foot beneath its body, and rightward limb at shutter. Adult identities remain.",
+      "P13/C00022/state: Nera now displays a red LEFT palm although P12 injured the back of her RIGHT hand. A cheek cut is also added without being established at impact. The fourth machine leg changes its persistent anatomy.",
+      "P13/C00022: selected attempt has a logged hard failure",
+      "P14/C00023/state: The abraded hand still arises from Nera's LEFT sleeve; the RIGHT holds the staff. Unchanged P12's scrape is on the RIGHT gripping hand, so laterality remains wrong.",
+      "P14/C00023: selected attempt has a logged hard failure"
+    ],
+    "not_assessed": [
+      "P01/C00001/contact: not assessed",
+      "P01/C00001/props: not assessed",
+      "P01/C00001/state: not assessed",
+      "P03/C00016/contact: not assessed",
+      "P04/C00004/contact: not assessed",
+      "P05/C00005/contact: not assessed",
+      "P07/C00018/contact: not assessed",
+      "P08/C00019/state: not assessed"
+    ],
+    "pending_human_owner": [
+      "Two independent human comprehension/rubric reviews are pending",
+      "Owner acceptance is pending",
+      "Commercial clearance is unresolved",
+      "Actual phone lettering/delivery review is pending"
+    ],
+    "draft_layout_issues": [],
+    "copy_drift": [],
+    "blockers": [
+      "P09/C00020/contact: The rod tip ends in open water away from the machine foot. Shaft/shin overlap higher up gives no readable foot lock or counterforce preserving P08's anchor.",
+      "P09/C00020/event: Odo is clearly the sweep target, but the previous foot restraint does not persist as a pivot anchor. Nera is back in water.",
+      "P09/C00020/state: Nera returns to foreground water after the corrected dry-ridge counter and the blocked foot is no longer visibly restrained.",
+      "P09/C00020: selected attempt has a logged hard failure",
+      "P11/C00021/contact: The required relation of braking above a sweeping limb is absent; she is above a grounded tripod.",
+      "P11/C00021/event: The vault is visible, but no side-sweep lies beneath it. Odo's lead stride still points lower-left, away from the right exit.",
+      "P11/C00021/state: The staff timing is repaired, but the active sweep resets to three grounded legs, and Odo does not visibly begin an eastward escape.",
+      "P11/C00021: selected attempt has a logged hard failure",
+      "P13/C00022/actors: The machine has four traceable legs: far-left foot, long foreground-left foot, short center foot beneath its body, and rightward limb at shutter. Adult identities remain.",
+      "P13/C00022/state: Nera now displays a red LEFT palm although P12 injured the back of her RIGHT hand. A cheek cut is also added without being established at impact. The fourth machine leg changes its persistent anatomy.",
+      "P13/C00022: selected attempt has a logged hard failure",
+      "P14/C00023/state: The abraded hand still arises from Nera's LEFT sleeve; the RIGHT holds the staff. Unchanged P12's scrape is on the RIGHT gripping hand, so laterality remains wrong.",
+      "P14/C00023: selected attempt has a logged hard failure",
+      "P01/C00001/contact: not assessed",
+      "P01/C00001/props: not assessed",
+      "P01/C00001/state: not assessed",
+      "P03/C00016/contact: not assessed",
+      "P04/C00004/contact: not assessed",
+      "P05/C00005/contact: not assessed",
+      "P07/C00018/contact: not assessed",
+      "P08/C00019/state: not assessed",
+      "Two independent human comprehension/rubric reviews are pending",
+      "Owner acceptance is pending",
+      "Commercial clearance is unresolved",
+      "Actual phone lettering/delivery review is pending"
+    ],
+    "attempts": 23,
+    "failed_attempts": 13,
+    "candidates": 23,
+    "selected": {
+      "P01": "C00001",
+      "P02": "C00015",
+      "P03": "C00016",
+      "P04": "C00004",
+      "P05": "C00005",
+      "P06": "C00017",
+      "P07": "C00018",
+      "P08": "C00019",
+      "P09": "C00020",
+      "P10": "C00010",
+      "P11": "C00021",
+      "P12": "C00012",
+      "P13": "C00022",
+      "P14": "C00023"
+    },
+    "ledger_integrity_note": "Hash chaining detects local edits; it is not an external signature or proof of independent review."
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "schema": "FrontendFunctionalQA/1",
+  "date": "2026-09-07T04:12:41.809Z",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/151.0.7922.34",
+    "revision": "@782af9cb30a53f54487e5d2e44738645a8ec457c",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "jsVersion": "15.1.206.8"
+  },
+  "port": 9338,
+  "scope": "Functionality on backend exported bundle with 14 panels and no artwork candidates. Synthetic geometry/text fixtures only; no artwork quality or image-observed regions claimed.",
+  "source_counts": {
+    "panels": 14,
+    "candidates": 0,
+    "lettering": 0
+  },
+  "checks": [
+    {
+      "name": "14-panel offline bundle loads",
+      "passed": true
+    },
+    {
+      "name": "review 390x844 no horizontal document overflow",
+      "passed": true,
+      "details": {
+        "inner": 390,
+        "scroll": 390,
+        "view": "review",
+        "visible": true,
+        "overflowNodes": [
+          "BUTTON",
+          "STRONG",
+          "SPAN",
+          "BUTTON",
+          "STRONG",
+          "SPAN",
+          "BUTTON",
+          "STRONG"
+        ]
+      }
+    },
+    {
+      "name": "reader 390x844 no horizontal document overflow",
+      "passed": true,
+      "details": {
+        "inner": 390,
+        "scroll": 390,
+        "view": "reader",
+        "visible": true,
+        "overflowNodes": [
+          "BUTTON",
+          "STRONG",
+          "SPAN",
+          "BUTTON",
+          "STRONG",
+          "SPAN",
+          "BUTTON",
+          "STRONG"
+        ]
+      }
+    },
+    {
+      "name": "review 1024x768 no horizontal document overflow",
+      "passed": true,
+      "details": {
+        "inner": 1024,
+        "scroll": 1009,
+        "view": "review",
+        "visible": true,
+        "overflowNodes": []
+      }
+    },
+    {
+      "name": "reader 1024x768 no horizontal document overflow",
+      "passed": true,
+      "details": {
+        "inner": 1024,
+        "scroll": 1009,
+        "view": "reader",
+        "visible": true,
+        "overflowNodes": []
+      }
+    },
+    {
+      "name": "review 1440x1000 no horizontal document overflow",
+      "passed": true,
+      "details": {
+        "inner": 1440,
+        "scroll": 1425,
+        "view": "review",
+        "visible": true,
+        "overflowNodes": []
+      }
+    },
+    {
+      "name": "reader 1440x1000 no horizontal document overflow",
+      "passed": true,
+      "details": {
+        "inner": 1440,
+        "scroll": 1425,
+        "view": "reader",
+        "visible": true,
+        "overflowNodes": []
+      }
+    },
+    {
+      "name": "panel 1 navigation",
+      "passed": true,
+      "details": "P01 \u00b7 Adult close-up"
+    },
+    {
+      "name": "panel 2 navigation",
+      "passed": true,
+      "details": "P02 \u00b7 Two-character promise"
+    },
+    {
+      "name": "panel 3 navigation",
+      "passed": true,
+      "details": "P03 \u00b7 Geography"
+    },
+    {
+      "name": "panel 4 navigation",
+      "passed": true,
+      "details": "P04 \u00b7 System primer"
+    },
+    {
+      "name": "panel 5 navigation",
+      "passed": true,
+      "details": "P05 \u00b7 Vertical threat reveal"
+    },
+    {
+      "name": "panel 6 navigation",
+      "passed": true,
+      "details": "P06 \u00b7 Anticipation"
+    },
+    {
+      "name": "panel 7 navigation",
+      "passed": true,
+      "details": "P07 \u00b7 Attack"
+    },
+    {
+      "name": "panel 8 navigation",
+      "passed": true,
+      "details": "P08 \u00b7 Counter"
+    },
+    {
+      "name": "panel 9 navigation",
+      "passed": true,
+      "details": "P09 \u00b7 Reversal"
+    },
+    {
+      "name": "panel 10 navigation",
+      "passed": true,
+      "details": "P10 \u00b7 Trust decision"
+    },
+    {
+      "name": "panel 11 navigation",
+      "passed": true,
+      "details": "P11 \u00b7 Committed movement"
+    },
+    {
+      "name": "panel 12 navigation",
+      "passed": true,
+      "details": "P12 \u00b7 Impact"
+    },
+    {
+      "name": "panel 13 navigation",
+      "passed": true,
+      "details": "P13 \u00b7 Aftermath"
+    },
+    {
+      "name": "panel 14 navigation",
+      "passed": true,
+      "details": "P14 \u00b7 Quiet breath"
+    },
+    {
+      "name": "add balloon derives authored copy",
+      "passed": true
+    },
+    {
+      "name": "plain text and ellipse form editing",
+      "passed": true
+    },
+    {
+      "name": "actual SVG contour overflow detected",
+      "passed": true,
+      "details": [
+        {
+          "level": "info",
+          "code": "no_art",
+          "message": "No artwork: image semantics and protected-region placement are unreviewed."
+        },
+        {
+          "level": "fail",
+          "code": "glyph_outside_art",
+          "letter_id": "letter-mtqq5uq9-y1ims",
+          "message": "letter-mtqq5uq9-y1ims: a rendered text box extends beyond the art."
+        },
+        {
+          "level": "fail",
+          "code": "glyph_outside_art",
+          "letter_id": "letter-mtqq5uq9-y1ims",
+          "message": "letter-mtqq5uq9-y1ims: a rendered text box extends beyond the art."
+        },
+        {
+          "level": "fail",
+          "code": "glyph_outside_art",
+          "letter_id": "letter-mtqq5uq9-y1ims",
+          "message": "letter-mtqq5uq9-y1ims: a rendered text box extends beyond the art."
+        },
+        {
+          "level": "fail",
+          "code": "glyph_outside_balloon",
+          "letter_id": "letter-mtqq5uq9-y1ims",
+          "message": "letter-mtqq5uq9-y1ims: rendered text bounds cross the ellipse balloon contour."
+        },
+        {
+          "level": "info",
+          "code": "regions_unreviewed",
+          "message": "No image regions marked. Absence of collisions does not establish safe placement."
+        }
+      ]
+    },
+    {
+      "name": "synthetic stress grows copy without shrinking font or changing source",
+      "passed": true,
+      "details": [
+        {
+          "amount": 0,
+          "text": "Thereleaseisbeyondthefloodedpillar.",
+          "font": "16",
+          "source": "The release is beyond the flooded pillar."
+        },
+        {
+          "amount": 30,
+          "text": "Thereleaseisbeyondthefloodedpillar.Thereleaseis",
+          "font": "16",
+          "source": "The release is beyond the flooded pillar."
+        },
+        {
+          "amount": 50,
+          "text": "Thereleaseisbeyondthefloodedpillar.Thereleaseisbeyond",
+          "font": "16",
+          "source": "The release is beyond the flooded pillar."
+        }
+      ]
+    },
+    {
+      "name": "pointer moves balloon",
+      "passed": true
+    },
+    {
+      "name": "pointer resizes balloon",
+      "passed": true
+    },
+    {
+      "name": "pointer draws independent protected region",
+      "passed": true
+    },
+    {
+      "name": "marked-region geometric collision detected",
+      "passed": true
+    },
+    {
+      "name": "keyboard can adjust geometry input",
+      "passed": true
+    },
+    {
+      "name": "self-reported human note does not approve production",
+      "passed": true
+    },
+    {
+      "name": "draft JSON roundtrip preserves edits",
+      "passed": true
+    },
+    {
+      "name": "stale plan rejected atomically",
+      "passed": true,
+      "details": {
+        "rejected": true,
+        "message": "Stale or different plan hash. No changes imported.",
+        "unchanged": true
+      }
+    },
+    {
+      "name": "stale candidate rejected atomically",
+      "passed": true,
+      "details": {
+        "rejected": true,
+        "message": "P01: stale or mismatched candidate binding. No changes imported.",
+        "unchanged": true
+      }
+    },
+    {
+      "name": "partial panel set rejected atomically",
+      "passed": true,
+      "details": {
+        "rejected": true,
+        "message": "Draft panel set does not match this sequence.",
+        "unchanged": true
+      }
+    },
+    {
+      "name": "duplicate panel ID rejected atomically",
+      "passed": true,
+      "details": {
+        "rejected": true,
+        "message": "Draft panel set does not match this sequence.",
+        "unchanged": true
+      }
+    },
+    {
+      "name": "wrong schema rejected atomically",
+      "passed": true,
+      "details": {
+        "rejected": true,
+        "message": "Expected a SequenceReviewDraft/1 export. A draft cannot replace the underlying plan.",
+        "unchanged": true
+      }
+    },
+    {
+      "name": "malicious text is inert and approval fields ignored",
+      "passed": true,
+      "details": {
+        "injected": false,
+        "dom": false,
+        "literal": true,
+        "unaccepted": true,
+        "polluted": false
+      }
+    },
+    {
+      "name": "SVG export is valid independent original-copy lettering",
+      "passed": true,
+      "details": {
+        "svgXMLValid": true,
+        "noImages": true,
+        "metadataCopy": true,
+        "accessibleCopy": true,
+        "wrappedCopy": true,
+        "hashBound": true,
+        "decorations": 0
+      }
+    },
+    {
+      "name": "JSON export remains draft-only",
+      "passed": true
+    },
+    {
+      "name": "transcript expands accessibly",
+      "passed": true
+    },
+    {
+      "name": "no script exceptions or console errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "no external network resources",
+      "passed": true,
+      "details": [
+        "file:///mnt/c/AgentWorkspaces/anime-pipeline-sequence-pilot-20260907-035400/docs/research/sequence-pilot/reader/index.html",
+        "file:///mnt/c/AgentWorkspaces/anime-pipeline-sequence-pilot-20260907-035400/docs/research/sequence-pilot/reader/style.css",
+        "file:///mnt/c/AgentWorkspaces/anime-pipeline-sequence-pilot-20260907-035400/docs/research/sequence-pilot/reader/review-data.js",
+        "file:///mnt/c/AgentWorkspaces/anime-pipeline-sequence-pilot-20260907-035400/docs/research/sequence-pilot/reader/app.js"
+      ]
+    },
+    {
+      "name": "keyboard ArrowUp increments geometry and updates model",
+      "passed": true,
+      "details": {
+        "before": 11.2,
+        "after": 11.3,
+        "model": 0.113
+      }
+    },
+    {
+      "name": "Tab advances from left to top input",
+      "passed": true
+    },
+    {
+      "name": "region form adds independently",
+      "passed": true
+    },
+    {
+      "name": "remove actions update annotations",
+      "passed": true
+    },
+    {
+      "name": "malformed file import reports error without edits",
+      "passed": true
+    },
+    {
+      "name": "draft cannot replace source URL or assert trusted identity",
+      "passed": true,
+      "details": {
+        "candidateIgnored": true,
+        "labelSanitized": true,
+        "stillDraft": true
+      }
+    }
+  ],
+  "total": 49,
+  "passed": 49,
+  "failed": 0,
+  "limitations": [
+    "No generated images were bound in this run; image loading, actual image semantics, or final lettering-over-art must be verified after integration.",
+    "Geometry/region fixtures were synthetic and restored afterward.",
+    "Pointer interactions used CDP mouse; keyboard used CDP key events plus accessible form focus.",
+    "SVG/JSON download blobs were intercepted for inspection; OS download behavior not exercised.",
+    "No persistent user edits or production acceptance were created."
+  ],
+  "corrected_assertions": [
+    {
+      "initial_assertion": {
+        "name": "SVG export is valid independent original-copy lettering",
+        "passed": false,
+        "details": {
+          "svgXMLValid": true,
+          "noImages": true,
+          "originalCopy": false,
+          "hashBound": true,
+          "decorations": 0,
+          "jsonSchema": "SequenceReviewDraft/1",
+          "jsonDraft": "draft-unaccepted"
+        }
+      },
+      "reason": "SVG text uses separate positioned tspans for visual lines. textContent concatenates them without inserted whitespace, so a raw equality check wrongly fails. Recheck exact source in metadata and accessible aria-label, plus rendered line strings joined with spaces.",
+      "source_code_change": false
+    }
+  ],
+  "completed_at": "2026-09-07T04:14:21.532Z",
+  "visual_inspection": {
+    "sample": "390x844 opening screenshot inspected in-memory",
+    "findings": "Readable header/status, responsive toolbar, horizontal panel strip confined within viewport, no overlap or document overflow observed. Other widths were checked structurally; final artwork absent."
+  },
+  "tested_frontend_files": [
+    {
+      "file": "index.html",
+      "source_sha256": "8e7f784d6fffd2b7463caca181968e3d1df91d7499c2c64b8923739f8aee628c",
+      "tested_copy_sha256": "8e7f784d6fffd2b7463caca181968e3d1df91d7499c2c64b8923739f8aee628c",
+      "match": true
+    },
+    {
+      "file": "app.js",
+      "source_sha256": "2934dedf9b5c17875042de7676631f219039d79fd4c7705c2068d15465fac30b",
+      "tested_copy_sha256": "2934dedf9b5c17875042de7676631f219039d79fd4c7705c2068d15465fac30b",
+      "match": true
+    },
+    {
+      "file": "style.css",
+      "source_sha256": "cec238684430067c54e6f4f73b53dfc6a9d330f323eea8c77df376fd3b256f14",
+      "tested_copy_sha256": "cec238684430067c54e6f4f73b53dfc6a9d330f323eea8c77df376fd3b256f14",
+      "match": true
+    }
+  ]
+}

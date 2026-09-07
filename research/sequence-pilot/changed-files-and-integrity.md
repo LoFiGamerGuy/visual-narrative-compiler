@@ -14,7 +14,7 @@ Tracked additions contain code, original SVG boards, plans, prompts, manifests, 
 
 ## Git receipt
 
-The payload and final receipt commit will be recorded here after push verification. The final delivery head is also reported directly to the owner; a commit cannot contain its own hash.
+Payload commit `3e0ddb46e218355b5adf1c38255c271b2e5976bd` was pushed to `origin/autonomous/sequence-pilot-20260907-035400`. At 2026-09-07T04:59:01.998150+00:00, a live `git ls-remote` matched that exact commit, the implementation checkout was clean, and all pre-existing protected local/remote refs still matched the snapshot. The final documentation-only receipt commit contains this observation and the completed plan; its exact head/parity is verified after pushing and reported directly to the owner. A commit cannot contain its own hash.
 
 ## Exact added-file inventory
 

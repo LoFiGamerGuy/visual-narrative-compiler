@@ -1,5 +1,7 @@
 # Twenty visual directions
 
+**Latest owner feedback:** [Nine starred directions and component preferences](owner-shortlist.md) are recorded from the owner's subsequent chat messages. The generation-time reviews below remain historical evidence; the new preference record supplies the current shortlist.
+
 Open the [selection gallery](../../docs/research/visual-directions/index.html) or [all twenty at a glance](../../docs/research/visual-directions/overview.html). Each numbered board gives you a large portrait plus the same character in a world with a creature. These are independent original concepts made in response to your rejection of the previous art and characters.
 
 You can choose a whole direction or mix elements. Use the star to shortlist a board; use **Character**, **Drawing style**, **World** and **Monster** independently; select two to four boards for comparison. Open an image to inspect native detail. Notes and choices save in that browser; **Save / load → Export selections** makes a file you can keep or share. You can also simply tell me the option numbers and what you like about each.

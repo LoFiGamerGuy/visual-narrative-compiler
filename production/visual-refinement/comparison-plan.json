@@ -1,0 +1,287 @@
+{
+  "schema": "RefinementComparisonPlan/1",
+  "experiment_id": "VR-20260907-01",
+  "styles": [
+    {
+      "id": "01",
+      "title": "Nightglass Courier",
+      "display_style": "Clean action manhwa",
+      "rendering": "Precise tapered digital contours, elegant stylized adult faces, crisp two-step cel shadows, smooth broad color areas and restrained cool edge light. Prioritize line economy and dark-versus-light clothing shapes. No extra neon architecture.",
+      "palette": "Cool blue-gray, ivory, plum and muted magenta costume accents.",
+      "reference": {
+        "path": "production/visual-refinement/references/01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33"
+      }
+    },
+    {
+      "id": "02",
+      "title": "Sunbreak Lancer",
+      "display_style": "Warm outlined adventure painting",
+      "rendering": "Lively hand-drawn comic contours and warm opaque painted color planes, expressive eyebrows and clear athletic posing. Mild broad paper/paint texture within forms; keep sky and masonry quiet. Match the actual warm outlined reference, not photoreal rendering.",
+      "palette": "Warm cream stone, clear blue-gray water, plum and magenta costumes, sunny skin tones.",
+      "reference": {
+        "path": "production/visual-refinement/references/02.png",
+        "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60"
+      }
+    },
+    {
+      "id": "05",
+      "title": "Iron Orchard",
+      "display_style": "Textured painted adventure",
+      "rendering": "Robust adult anatomical drawing, sculptural angular facial planes, matte opaque painted shapes, selective broad dry-paint edge character. Preserve handmade paint masses, but no rusty scrap texture on every surface and no decorative machinery.",
+      "palette": "Muted olive and blue-gray setting, cream clothing and plum/magenta accents; warm skin.",
+      "reference": {
+        "path": "production/visual-refinement/references/05.png",
+        "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f"
+      }
+    },
+    {
+      "id": "06",
+      "title": "Floodline Detective",
+      "display_style": "Graphic brush-ink noir",
+      "rendering": "Large decisive brush-ink black masses against quiet white shapes, selective dry-brush edge and gray facial modeling only where needed. Rugged expressive mark construction, accurate distinct faces. Preserve white channels separating body, creature and background.",
+      "palette": "Black, white, gray and one restrained hot-pink accent on plum/magenta garment zones only.",
+      "reference": {
+        "path": "production/visual-refinement/references/06.png",
+        "sha256": "b515ac0588e2ab4f1e86bdf89e439c3d5374706580681d192b7155105878a818"
+      }
+    },
+    {
+      "id": "13",
+      "title": "Red Current",
+      "display_style": "Angular action manga",
+      "rendering": "Sharp precise muscular manga contours, tapered angular hatch clusters limited to form shadows, graphic white areas and black clothing masses. Expressive adult eyes and brows. No surrounding speed-line storm in these calm controlled poses.",
+      "palette": "Black, white, gray with vermilion as the only spot color on plum/magenta garment zones.",
+      "reference": {
+        "path": "production/visual-refinement/references/13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Cathedral Engine",
+      "display_style": "Controlled copperplate engraving",
+      "rendering": "Authentic fine engraved contour and orderly crosshatch following volume, line-density sculpted faces and tailored clothing, restrained ornamental craft. Keep broad unhatched or lightly hatched negative space behind silhouettes. Do not substitute sepia digital painting or fill everything with equal dense hatch.",
+      "palette": "Warm parchment, black engraved ink and restrained aged-brass value accents. Map garment colors to distinct stable light/dark values.",
+      "reference": {
+        "path": "production/visual-refinement/references/15.png",
+        "sha256": "573a89b565d5e2ec8fab13624be9a27d2d9f2b09e7d611acbeec9563d4672542"
+      }
+    },
+    {
+      "id": "17",
+      "title": "Hollow Cartographer",
+      "display_style": "Soft clear-line adventure comic",
+      "rendering": "Clean rounded expressive adult contour drawing, readable stylized noses and brows, gentle planar shading and warm flat color organization. Sparse intelligible masonry seams, generous quiet color areas. Not hyperreal or thick caricature.",
+      "palette": "Warm terracotta-gray stone, pale blue-gray water, ivory, plum and muted magenta clothing.",
+      "reference": {
+        "path": "production/visual-refinement/references/17.png",
+        "sha256": "54ecdd57259ff8edb221496d133548fdc2a1957a524a5d784760863111759180"
+      }
+    },
+    {
+      "id": "18",
+      "title": "Soft Thunder",
+      "display_style": "Bold animation cartoon",
+      "rendering": "Bold changing contour weight, clear adult cartoon shape rhythm, large expressive faces and brows, simple grouped cel shadows. Exaggerate gesture and face within the retained slender male or powerful plus-size mature female silhouettes, never turn either into a child or change their hair/wardrobe.",
+      "palette": "Clean clear blue-gray water, warm ivory stone, plum/magenta clothing accents and warm skin.",
+      "reference": {
+        "path": "production/visual-refinement/references/18.png",
+        "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54"
+      }
+    },
+    {
+      "id": "19",
+      "title": "Black Petal",
+      "display_style": "Refined fashion-horror illustration",
+      "rendering": "Refined nearly realistic fashion facial drawing, razor-clean fine contours, silky restrained value gradients, elegant graphic black shapes and sparse surreal detail. Beautiful recognizable adult facial structure. Preserve facial specificity; do not replace the man with the split-haired reference model, and do not slim the woman.",
+      "palette": "Bone white, soft slate gray, black, plum and deep muted magenta accents. Restrained daylight, no luminous particles.",
+      "reference": {
+        "path": "production/visual-refinement/references/19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363"
+      }
+    }
+  ],
+  "characters": [
+    {
+      "id": "A",
+      "title": "Velvet Duelist / Iven",
+      "source_direction": "04",
+      "description": "Retained adult male27 character, long delicate oval face, wine-red tied hair, slender dancer build; simplified plum waistcoat and ivory poet sleeves.",
+      "subject": "Iven, the adult male27 from the LEFT side of the shared cast sheet: slim elegant dancer build, long oval face, delicate nose, violet eyes, long wine-red hair loosely tied low, small pearl earring. Ivory poet sleeves, plain plum waistcoat, high-waisted slim black trousers and plain black boots. Friendly raised-brow half-smile, no beard. No weapon or extra jewelry.",
+      "pose": "LEFT portrait: waist-up three-quarter view, friendly raised-brow half-smile. RIGHT scene: complete full body standing relaxed on the near canal ledge, face turned toward the creature, one open palm offered toward it across a clearly visible gap, other arm relaxed. Both feet fully visible."
+    },
+    {
+      "id": "B",
+      "title": "Tidewalker / Mara",
+      "source_direction": "16",
+      "description": "Retained adult female38 character, broad mature joyful face, powerful plus-size body, blue-black braid; simplified ivory vest and magenta trousers.",
+      "subject": "Mara, the adult woman38 from the RIGHT side of the shared cast sheet: powerful plus-size body with broad waist and strong limbs, warm brown skin, broad nose, full lips, thick blue-black braid, expressive mature face. Plain ivory ceramic cropped vest, high-waisted loose magenta trousers, wrapped sandals and one simple blue upper-arm band. Delighted confident open smile. Do not slim her waist or make her young. No weapon or extra jewelry.",
+      "pose": "LEFT portrait: waist-up three-quarter view, delighted confident open smile. RIGHT scene: complete full body in a planted wide stance on the near canal ledge, one hand resting naturally on the circular iron handwheel rim on its post, the other open toward the creature across a visible gap. Both feet fully visible."
+    }
+  ],
+  "entries": [
+    {
+      "id": "01-A",
+      "kind": "controlled",
+      "style_id": "01",
+      "character_id": "A",
+      "title": "Nightglass Courier \u00b7 Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "01-B",
+      "kind": "controlled",
+      "style_id": "01",
+      "character_id": "B",
+      "title": "Nightglass Courier \u00b7 Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "02-A",
+      "kind": "controlled",
+      "style_id": "02",
+      "character_id": "A",
+      "title": "Sunbreak Lancer \u00b7 Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "02-B",
+      "kind": "controlled",
+      "style_id": "02",
+      "character_id": "B",
+      "title": "Sunbreak Lancer \u00b7 Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "05-A",
+      "kind": "controlled",
+      "style_id": "05",
+      "character_id": "A",
+      "title": "Iron Orchard \u00b7 Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "05-B",
+      "kind": "controlled",
+      "style_id": "05",
+      "character_id": "B",
+      "title": "Iron Orchard \u00b7 Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "06-A",
+      "kind": "controlled",
+      "style_id": "06",
+      "character_id": "A",
+      "title": "Floodline Detective \u00b7 Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "06-B",
+      "kind": "controlled",
+      "style_id": "06",
+      "character_id": "B",
+      "title": "Floodline Detective \u00b7 Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "13-A",
+      "kind": "controlled",
+      "style_id": "13",
+      "character_id": "A",
+      "title": "Red Current \u00b7 Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "13-B",
+      "kind": "controlled",
+      "style_id": "13",
+      "character_id": "B",
+      "title": "Red Current \u00b7 Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "15-A",
+      "kind": "controlled",
+      "style_id": "15",
+      "character_id": "A",
+      "title": "Cathedral Engine \u00b7 Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "15-B",
+      "kind": "controlled",
+      "style_id": "15",
+      "character_id": "B",
+      "title": "Cathedral Engine \u00b7 Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "17-A",
+      "kind": "controlled",
+      "style_id": "17",
+      "character_id": "A",
+      "title": "Hollow Cartographer \u00b7 Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "17-B",
+      "kind": "controlled",
+      "style_id": "17",
+      "character_id": "B",
+      "title": "Hollow Cartographer \u00b7 Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "18-A",
+      "kind": "controlled",
+      "style_id": "18",
+      "character_id": "A",
+      "title": "Soft Thunder \u00b7 Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "18-B",
+      "kind": "controlled",
+      "style_id": "18",
+      "character_id": "B",
+      "title": "Soft Thunder \u00b7 Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "19-A",
+      "kind": "controlled",
+      "style_id": "19",
+      "character_id": "A",
+      "title": "Black Petal \u00b7 Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "19-B",
+      "kind": "controlled",
+      "style_id": "19",
+      "character_id": "B",
+      "title": "Black Petal \u00b7 Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary."
+    },
+    {
+      "id": "X1",
+      "kind": "exploratory",
+      "title": "Moonward keeper \u00d7 Hollow / Floodline",
+      "style_id": "17",
+      "source_direction": "11",
+      "caption": "Character11 in17 clear-line rendering with06 broad canal architecture and dark shape grouping. Exploratory mix; outside controlled ranking."
+    },
+    {
+      "id": "X2",
+      "kind": "exploratory",
+      "title": "Astral tailor \u00d7 Black Petal / Nightglass",
+      "style_id": "19",
+      "source_direction": "14",
+      "caption": "Character14 in19 refined facial rendering with01 economical cel-shadow grouping and one19 orchid creature. Exploratory mix; outside controlled ranking."
+    }
+  ],
+  "owner_status": "Nine prior stars unranked; all new image judgments unknown.",
+  "control_limits": "A controlled brief, not an exact pixel/pose lock: stylization and palette are deliberate treatments; actual identity/pose/creature drift must be reported."
+}

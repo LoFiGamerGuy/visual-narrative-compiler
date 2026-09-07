@@ -1,0 +1,180 @@
+{
+  "schema": "SimpleCanalSequenceControl/1",
+  "experiment_id": "VR-20260907-01",
+  "units": "metres; Z up; canal/worldX flows left-to-right; all cameras stay south(Y<0)",
+  "coordinate_use": "Authoring/camera contract only, not claimed recovery of generated 3D geometry.",
+  "water": {
+    "y_range": [
+      0,
+      2.4
+    ],
+    "surface_z": 0,
+    "level_change": 0
+  },
+  "south_ledge": {
+    "y_range": [
+      -1.4,
+      0
+    ],
+    "top_z": 0.35
+  },
+  "arch_gate": {
+    "plane_x": 0,
+    "opening_y": [
+      0,
+      2.4
+    ],
+    "opening_height": 2.2,
+    "gate_motion": "Vertical; upper gate retracts behind arch masonry",
+    "south_pier": "At canal edge; dry walkway remains south of it. No second gate.",
+    "closed_bottom_z": 0,
+    "mid_bottom_z": 0.75,
+    "raised_bottom_z": 1.5
+  },
+  "wheel": {
+    "center": [
+      -0.8,
+      -0.55,
+      1.4
+    ],
+    "radius": 0.4,
+    "plane": "XZ, facing south",
+    "rotation_direction": "Clockwise as seen from south",
+    "plain_mount": "One post/box. Optional single unobtrusive cable to adjacent gate jamb; no elaborate linkage."
+  },
+  "wooden_grip": {
+    "intact_length": 0.18,
+    "mounted_stub_length": 0.05,
+    "held_remnant_length": 0.13,
+    "grip_direction": [
+      0,
+      -1,
+      0
+    ],
+    "intact_axis_endpoints": [
+      [
+        -0.4,
+        -0.55,
+        1.4
+      ],
+      [
+        -0.4,
+        -0.73,
+        1.4
+      ]
+    ],
+    "break_point": [
+      -0.4,
+      -0.6,
+      1.4
+    ],
+    "P03_stub_endpoints": [
+      [
+        -0.4,
+        -0.55,
+        1.4
+      ],
+      [
+        -0.4,
+        -0.6,
+        1.4
+      ]
+    ],
+    "P03_remnant_endpoints": [
+      [
+        -0.4,
+        -0.93,
+        1.48
+      ],
+      [
+        -0.4,
+        -1.06,
+        1.48
+      ]
+    ],
+    "P04_stub_endpoints": [
+      [
+        -0.517157,
+        -0.55,
+        1.117157
+      ],
+      [
+        -0.517157,
+        -0.6,
+        1.117157
+      ]
+    ],
+    "P05_P06_stub_endpoints": [
+      [
+        -0.8,
+        -0.55,
+        1.0
+      ],
+      [
+        -0.8,
+        -0.6,
+        1.0
+      ]
+    ],
+    "ownership": "Iven anatomical RIGHT hand, P03 throughP06; never Mara or left hand.",
+    "no_debris": true
+  },
+  "creature": {
+    "count": 1,
+    "tentacles": 4,
+    "body_length": 1.7,
+    "body_width": 1.3,
+    "dome_top_z": 1.05,
+    "calm_round_face": true,
+    "movement": "UpstreamX−2.8 P01–P04; downstreamX+1.85 P05; continuingX+3.3 P06",
+    "near_shell_touch": [
+      1.65,
+      0.55,
+      0.92
+    ]
+  },
+  "states": [
+    {
+      "panel": "P01",
+      "gate_bottom_z": 0,
+      "wheel_clockwise_degrees": 0,
+      "grip": "intact",
+      "creature_side": "upstream"
+    },
+    {
+      "panel": "P02",
+      "gate_bottom_z": 0,
+      "wheel_clockwise_degrees": 0,
+      "grip": "intact",
+      "creature_side": "upstream"
+    },
+    {
+      "panel": "P03",
+      "gate_bottom_z": 0,
+      "wheel_clockwise_degrees": 0,
+      "grip": "broken",
+      "creature_side": "upstream"
+    },
+    {
+      "panel": "P04",
+      "gate_bottom_z": 0.75,
+      "wheel_clockwise_degrees": 45,
+      "grip": "broken",
+      "creature_side": "upstream"
+    },
+    {
+      "panel": "P05",
+      "gate_bottom_z": 1.5,
+      "wheel_clockwise_degrees": 90,
+      "grip": "broken",
+      "creature_side": "downstream"
+    },
+    {
+      "panel": "P06",
+      "gate_bottom_z": 1.5,
+      "wheel_clockwise_degrees": 90,
+      "grip": "broken",
+      "creature_side": "downstream"
+    }
+  ]
+}

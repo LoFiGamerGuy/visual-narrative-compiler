@@ -1,0 +1,175 @@
+{
+  "schema": "SequenceNativeMechanicsReview/1",
+  "at_utc": "2026-09-07T17:05:02.078060+00:00",
+  "batch": "first10primaries",
+  "reviewer": "sequence author independent of lead verdict; not blind to authored plan",
+  "lead_verdict_seen": false,
+  "method": "Opened actual native PNGs; traced sleeve origins, contact points, wood pieces and gate/creature states across available adjacent panels. No crop edits or generation.",
+  "entries": [
+    {
+      "attempt_id": "13-P01-P",
+      "path": "production/visual-refinement/sequence-candidates/13-P01-P.png",
+      "sha256": "c3d0aace102f870ee0eb1271cda2472fbb64392a11a75bc7d3257b3bcad03b14",
+      "verdict": "qualified establishment; travel/count not established",
+      "observed": [
+        "Both adults are recognizable and fully standing on dry ledge; Iven has an empty open presenting hand.",
+        "Gate is closed at waterline; one intact wooden crank projects near3o-clock.",
+        "Creature is at screen-right facing left and partly cropped; all four tentacles cannot be counted. The guide\u2019s upstream-left/rightward travel layout is not followed."
+      ],
+      "hard_failures": [
+        "Required whole creature/four countable tentacles absent"
+      ],
+      "priority": "lower; assess travel withP05"
+    },
+    {
+      "attempt_id": "13-P02-P",
+      "path": "production/visual-refinement/sequence-candidates/13-P02-P.png",
+      "sha256": "1c88d7b0706fd62fb7229813bbd5aba8442eb6b0b5be1a22c43d0c241ca4ce9a",
+      "verdict": "hard mechanical failure",
+      "observed": [
+        "Both hands grip the iron rim; the wooden crank at screen-right is visibly untouched.",
+        "The crank is fixed to the right rim area; Iven\u2019s lower/near hand is on the opposite rim and the other hand on upper-right rim.",
+        "Strained adult expression and closed gate are readable; wheel has become much larger relative to Iven and its mounting has additional wall bars."
+      ],
+      "hard_failures": [
+        "No right-hand crank grip to cause the next break"
+      ],
+      "priority": "high: restore left rim/right crank grip and one unbroken crank"
+    },
+    {
+      "attempt_id": "13-P03-P",
+      "path": "production/visual-refinement/sequence-candidates/13-P03-P.png",
+      "sha256": "ea83f42157a1075e48fe41d0891bf6a581119addd45cb9bc1b4000b330c201ef",
+      "verdict": "break readable; prop scale continuity failure",
+      "observed": [
+        "A detached wooden piece is clearly held in the near anatomical right hand; the far left hand braces upper-left rim.",
+        "Exactly one mounted stub and one held remnant are visible with a wide gap; surprise reads.",
+        "Held remnant is a thick long baton relative to the slender tiny crank inP01/P02. Stub diameter/held piece diameter also differ visibly.",
+        "Closed gate persists; creature remains screen-right facing left."
+      ],
+      "hard_failures": [
+        "Remnant proportions do not visibly match the previous intact crank"
+      ],
+      "priority": "medium after missing contactP02"
+    },
+    {
+      "attempt_id": "13-P04-P",
+      "path": "production/visual-refinement/sequence-candidates/13-P04-P.png",
+      "sha256": "e19d085a45ddc7bded9a0b3056497b05cf0262be8545626b3ac36b3dada8fb93",
+      "verdict": "rim action readable; consequence occurs too early",
+      "observed": [
+        "Mara has two traceable hands on the iron rim and both planted sandals; body lean and effort are legible.",
+        "Iven retains wood in his anatomical right hand.",
+        "Creature\u2019s head/body are already under the raised gate rather than waiting upstream; clearance appears large enough for passage at this mid-action beat.",
+        "Mounted wood at lower-right looks like a smooth full grip again rather than the small jagged stub fromP03."
+      ],
+      "hard_failures": [
+        "Creature already beneath gate beforeP05 passage",
+        "Broken mounted stub appears to regrow into long smooth grip"
+      ],
+      "priority": "high/medium pendingP05"
+    },
+    {
+      "attempt_id": "18-P01-P",
+      "path": "production/visual-refinement/sequence-candidates/18-P01-P.png",
+      "sha256": "f25f062550af88109b3ff4482ca06f4e34052ae559575fcd1f3f079a852b90cb",
+      "verdict": "qualified establishment; count/travel failure",
+      "observed": [
+        "Adult identities, dry stance, confident open hand and closed gate are clear.",
+        "Creature faces left from screen-right; body is cropped at right and not all four tentacles are countable.",
+        "Wooden crank appears in a hub-axis configuration rather than clearly mounted to the outer rim as the control requires."
+      ],
+      "hard_failures": [
+        "Required complete four-tentacle creature not visible"
+      ],
+      "priority": "lower until complete travel sequence"
+    },
+    {
+      "attempt_id": "18-P02-P",
+      "path": "production/visual-refinement/sequence-candidates/18-P02-P.png",
+      "sha256": "59706ddf765251595d0a6b704f5d1dc4ab9918ef268c3006a1a487a520759eba",
+      "verdict": "contact present; prescribed hand ownership inverted",
+      "observed": [
+        "One hand grips a continuous wooden crank and the other grips upper-left iron rim; effort reads.",
+        "Tracing sleeves from the visible front torso: near anatomical right shoulder/arm leads to the upper rim hand; the far anatomical left arm leads to the crank hand.",
+        "This is opposite the prescribed left-rim/right-crank relationship and opposite the remnant hand inP03.",
+        "Gate is closed."
+      ],
+      "hard_failures": [
+        "Crank held by anatomical left hand before right-hand remnant appears inP03"
+      ],
+      "priority": "high paired withP03 repair"
+    },
+    {
+      "attempt_id": "18-P03-P",
+      "path": "production/visual-refinement/sequence-candidates/18-P03-P.png",
+      "sha256": "af35eb811519be6900483a9ddf2380fcdfe496eb96abe6af6004ff333c312ad7",
+      "verdict": "hard fragment-count failure",
+      "observed": [
+        "A right-hand broken remnant, a mounted broken stub, and an additional long airborne wood segment are all visible.",
+        "Left hand braces upper rim and both adult surprise reactions read; closed gate persists.",
+        "The three large wooden pieces cannot represent the frozen two-piece0.18m grip break."
+      ],
+      "hard_failures": [
+        "Three wooden pieces, including extra floating fragment"
+      ],
+      "priority": "high: exactly mounted stub+right-held remnant, no third piece"
+    },
+    {
+      "attempt_id": "19-P01-P",
+      "path": "production/visual-refinement/sequence-candidates/19-P01-P.png",
+      "sha256": "ccad07fe80ff480f71251bfe6acd9f5b647b794684720b95d5830444e46fc540",
+      "verdict": "qualified establishment; count/position drift",
+      "observed": [
+        "Both adult identities and open empty hand are readable; gate closed at waterline.",
+        "One intact crank is at upper-right/top rather than3o-clock.",
+        "Creature faces left on screen-right; some rear appendage/body is cropped, four tentacles not demonstrated."
+      ],
+      "hard_failures": [
+        "Whole four-tentacle creature not visible"
+      ],
+      "priority": "lower until complete sequence"
+    },
+    {
+      "attempt_id": "19-P02-P",
+      "path": "production/visual-refinement/sequence-candidates/19-P02-P.png",
+      "sha256": "b930ba2187f591fb9d4905689f1bca881a03513def38164b0c759af0a43367a6",
+      "verdict": "hard prop duplication failure",
+      "observed": [
+        "Two distinct wooden crank handles are visible at upper-right and lower-right, with one held in each hand.",
+        "Neither hand clearly fulfills the required empty wood-free left rim brace.",
+        "Gate remains closed and adult strain is readable."
+      ],
+      "hard_failures": [
+        "Invented second full wooden crank/handle"
+      ],
+      "priority": "high: one rim crank only; anatomical left hand directly on iron rim"
+    },
+    {
+      "attempt_id": "19-P03-P",
+      "path": "production/visual-refinement/sequence-candidates/19-P03-P.png",
+      "sha256": "3fca2e49cc900afa2681e7b3f9422a968a53d236f9e81be56c4f36d3794e8b3f",
+      "verdict": "break visible; anatomical ownership wrong",
+      "observed": [
+        "Mounted jagged stub and one detached held piece show a clear gap.",
+        "The near anatomical right arm leads to the rim hand; the far anatomical left arm is raised with the broken piece. This is visibly left-hand remnant, opposite the frozen story.",
+        "Startled eyes read and closed gate remains visible; held piece is much longer than either small original handle inP02."
+      ],
+      "hard_failures": [
+        "Detached remnant in anatomical LEFT hand",
+        "Prop length changes across break"
+      ],
+      "priority": "high: restore traceable anatomical right-hand remnant"
+    }
+  ],
+  "provisional_repair_order": [
+    "13-P02-P",
+    "19-P02-P",
+    "18-P03-P",
+    "19-P03-P",
+    "18-P02-P",
+    "13-P04-P"
+  ],
+  "scope_caveat": "Only10of18primaries reviewed; repair order provisional pendingP04\u2013P06 returns and actual phone reader. Other documented failures remain even if six retries cannot address them.",
+  "owner_art_acceptance": null
+}

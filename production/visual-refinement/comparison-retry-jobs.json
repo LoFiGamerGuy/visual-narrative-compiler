@@ -1,0 +1,91 @@
+{
+  "schema": "RefinementRetryPlan/1",
+  "experiment_id": "VR-20260907-01",
+  "decision": "Lead selects4 style-transfer repairs18/19 A/B after all20 primary native/phone reviews. Independent primary-only recommendation02/13/15 and preferred crop repairs preserved separately. Repairing absent visual families is prioritized over framing-only edits.",
+  "mechanism_change": "Actual candidate as content target plus desired original style; remove both neutral setup reference inputs.",
+  "scope": "Drawing treatment only. Do not silently repair or accept clipped creatures,18-B missing wheel contact, wheel geometry or costume-material drift.",
+  "allowance": {
+    "total_retry_limit": 10,
+    "this_phase": 4,
+    "remaining_after_successful_calls": 6,
+    "max_retry_per_asset": 1
+  },
+  "jobs": [
+    {
+      "id": "18-A",
+      "attempt_id": "18-A-R",
+      "phase": "comparison",
+      "retry_of": "18-A-P",
+      "retry_reason": "Primary retains shared fine painted-comic construction instead of the original bold western animation cartoon18 rendering. This retries the failed treatment transfer; primary geometry and framing limitations remain disclosed.",
+      "prompt_path": "production/visual-refinement/prompts/18-A-R.txt",
+      "prompt_sha256": "f65a68c7d1f2396ab4478fb0ffbb1a22bb222fa6cb73d3f9345999130466e899",
+      "references": [
+        {
+          "path": "production/visual-refinement/candidates/18-A-P.png",
+          "sha256": "7532460a648360f66239efa06ca298c33cae02883101b593fb168db96fe5c6e6"
+        },
+        {
+          "path": "production/visual-refinement/references/18.png",
+          "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54"
+        }
+      ]
+    },
+    {
+      "id": "18-B",
+      "attempt_id": "18-B-R",
+      "phase": "comparison",
+      "retry_of": "18-B-P",
+      "retry_reason": "Primary retains shared fine painted-comic construction instead of the original bold western animation cartoon18 rendering. This retries the failed treatment transfer; primary geometry and framing limitations remain disclosed.",
+      "prompt_path": "production/visual-refinement/prompts/18-B-R.txt",
+      "prompt_sha256": "f65a68c7d1f2396ab4478fb0ffbb1a22bb222fa6cb73d3f9345999130466e899",
+      "references": [
+        {
+          "path": "production/visual-refinement/candidates/18-B-P.png",
+          "sha256": "071104c62b6b0df914bbb443574122bb6fd07079aee37db01cc971ee6f0c4223"
+        },
+        {
+          "path": "production/visual-refinement/references/18.png",
+          "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54"
+        }
+      ]
+    },
+    {
+      "id": "19-A",
+      "attempt_id": "19-A-R",
+      "phase": "comparison",
+      "retry_of": "19-A-P",
+      "retry_reason": "Primary retains shared fine painted-comic construction instead of the original near-realistic refined fashion19 rendering. This retries the failed treatment transfer; primary geometry and framing limitations remain disclosed.",
+      "prompt_path": "production/visual-refinement/prompts/19-A-R.txt",
+      "prompt_sha256": "7a20d58ea7cdfa84ef79640d245ddd5677d3c796848ff8290f3b0a65f9ceaa26",
+      "references": [
+        {
+          "path": "production/visual-refinement/candidates/19-A-P.png",
+          "sha256": "03625d89244173db742ba921d09e1d3d7d41b4deb11a82229f75b35868d4b657"
+        },
+        {
+          "path": "production/visual-refinement/references/19.png",
+          "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363"
+        }
+      ]
+    },
+    {
+      "id": "19-B",
+      "attempt_id": "19-B-R",
+      "phase": "comparison",
+      "retry_of": "19-B-P",
+      "retry_reason": "Primary retains shared fine painted-comic construction instead of the original near-realistic refined fashion19 rendering. This retries the failed treatment transfer; primary geometry and framing limitations remain disclosed.",
+      "prompt_path": "production/visual-refinement/prompts/19-B-R.txt",
+      "prompt_sha256": "7a20d58ea7cdfa84ef79640d245ddd5677d3c796848ff8290f3b0a65f9ceaa26",
+      "references": [
+        {
+          "path": "production/visual-refinement/candidates/19-B-P.png",
+          "sha256": "336218640ceca2879f438c7d804737567768d6d63cb4b1eca8d03cf1d31bbf94"
+        },
+        {
+          "path": "production/visual-refinement/references/19.png",
+          "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363"
+        }
+      ]
+    }
+  ]
+}

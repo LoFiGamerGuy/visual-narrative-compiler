@@ -1,0 +1,179 @@
+{
+  "schema": "RefinementRetryPlan/1",
+  "experiment_id": "VR-20260907-01",
+  "decision": "After all18 primary native images and all three actual continuous phone routes were reviewed, independent art and sequence reviewers separately selected the same six failures. Lead agrees. Two repairs per treatment prioritize causal readability and unsupported/duplicated objects.",
+  "mechanism_change": "Primary panel as exact edit target plus its same v5 action/state guide; remove selected A/B comparison-board inputs. This changes conditioning and does not establish identical-input causal isolation.",
+  "remaining_limits": "Unrepaired hand ownership, P06 wheel/wood regeneration, early passage, cropped establishment creatures and spatial/scale drift remain disclosed. These six repairs cannot guarantee a production-coherent sequence.",
+  "allowance": {
+    "total_retry_limit": 10,
+    "comparison_retries_already_used": 4,
+    "this_phase": 6,
+    "remaining_after_calls": 0,
+    "max_retry_per_asset": 1,
+    "absolute_call_ceiling": 50
+  },
+  "jobs": [
+    {
+      "id": "13-P02",
+      "attempt_id": "13-P02-R",
+      "phase": "sequence",
+      "style_id": "13",
+      "panel_id": "P02",
+      "retry_of": "13-P02-P",
+      "retry_reason": "Both hands grip iron and leave the wooden crank untouched, removing the cause of the snap.",
+      "prompt_path": "production/visual-refinement/prompts/13-P02-R.txt",
+      "prompt_sha256": "c926f14ff00abcb8267fab944276578778ecd42eeb9b0e93e30932f0965b7478",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-candidates/13-P02-P.png",
+          "sha256": "1c88d7b0706fd62fb7229813bbd5aba8442eb6b0b5be1a22c43d0c241ca4ce9a"
+        },
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P02.png",
+          "sha256": "dd0f370d7f3dd50ac2583dc6a0078ffeea5503aaa60c100eda18b495963af52c"
+        }
+      ],
+      "requested_aspect_ratio": "1:1",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P02"
+      }
+    },
+    {
+      "id": "19-P02",
+      "attempt_id": "19-P02-R",
+      "phase": "sequence",
+      "style_id": "19",
+      "panel_id": "P02",
+      "retry_of": "19-P02-P",
+      "retry_reason": "Two full wooden handles appear, one held in each hand, instead of one crank and one rim brace.",
+      "prompt_path": "production/visual-refinement/prompts/19-P02-R.txt",
+      "prompt_sha256": "e2b8387f38b86fdf0cccb4e67637add606f1fb187e909575db49f0b8665ee4e2",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-candidates/19-P02-P.png",
+          "sha256": "b930ba2187f591fb9d4905689f1bca881a03513def38164b0c759af0a43367a6"
+        },
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P02.png",
+          "sha256": "dd0f370d7f3dd50ac2583dc6a0078ffeea5503aaa60c100eda18b495963af52c"
+        }
+      ],
+      "requested_aspect_ratio": "1:1",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P02"
+      }
+    },
+    {
+      "id": "18-P03",
+      "attempt_id": "18-P03-R",
+      "phase": "sequence",
+      "style_id": "18",
+      "panel_id": "P03",
+      "retry_of": "18-P03-P",
+      "retry_reason": "An extra long airborne wood segment makes three pieces instead of the frozen two-piece break.",
+      "prompt_path": "production/visual-refinement/prompts/18-P03-R.txt",
+      "prompt_sha256": "c724b162b62fc00af0f4e248476abb01934763dc225e027a16f6641b25cc59f5",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-candidates/18-P03-P.png",
+          "sha256": "af35eb811519be6900483a9ddf2380fcdfe496eb96abe6af6004ff333c312ad7"
+        },
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P03.png",
+          "sha256": "6514957b850b766e4e84e193bfccd179f8158d04bf103168409bbda5cc3b5911"
+        }
+      ],
+      "requested_aspect_ratio": "4:3",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P03"
+      }
+    },
+    {
+      "id": "18-P04",
+      "attempt_id": "18-P04-R",
+      "phase": "sequence",
+      "style_id": "18",
+      "panel_id": "P04",
+      "retry_of": "18-P04-P",
+      "retry_reason": "Mara grips an invented long horizontal lever outside the wheel instead of opposite rim points.",
+      "prompt_path": "production/visual-refinement/prompts/18-P04-R.txt",
+      "prompt_sha256": "6e94916d28d491fdb2be670e691562b2a73e17485b4342f9df2ed4a0258ed873",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-candidates/18-P04-P.png",
+          "sha256": "70972f53eccac1bd13bad62d41e4a4dd2c802b4acf3a8a7d7e72be2f518f831e"
+        },
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P04.png",
+          "sha256": "892d36ea501c6713629a487c801697f48f18de6e3e8b02cd7fd11c8777477d50"
+        }
+      ],
+      "requested_aspect_ratio": "4:5",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P04"
+      }
+    },
+    {
+      "id": "13-P05",
+      "attempt_id": "13-P05-R",
+      "phase": "sequence",
+      "style_id": "13",
+      "panel_id": "P05",
+      "retry_of": "13-P05-P",
+      "retry_reason": "Iven holds two wood pieces; creature travels backward and gate staging changes during the passage beat.",
+      "prompt_path": "production/visual-refinement/prompts/13-P05-R.txt",
+      "prompt_sha256": "a0dd2b4a8f9d534747cd42c485c3e7f13f1f73443ff4203fd9468b5341586def",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-candidates/13-P05-P.png",
+          "sha256": "9cf70175ff921f7bc4376e96f51be95130c8aa759a19ff4c0a332a2e3d5d9bf4"
+        },
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P05-clearance.png",
+          "sha256": "1db7757d0f6e4ec952bb90e50cda06890d6ec0459c72b2fd38cee23ee2e26635"
+        }
+      ],
+      "requested_aspect_ratio": "3:2",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P05"
+      }
+    },
+    {
+      "id": "19-P05",
+      "attempt_id": "19-P05-R",
+      "phase": "sequence",
+      "style_id": "19",
+      "panel_id": "P05",
+      "retry_of": "19-P05-P",
+      "retry_reason": "Mara appears unsupported over canal water; Iven holds two wood pieces and creature travel reverses.",
+      "prompt_path": "production/visual-refinement/prompts/19-P05-R.txt",
+      "prompt_sha256": "fff432662316908ba6d31e95ee9a038ef6cc43acf74981902a34d0b8514c4f5b",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-candidates/19-P05-P.png",
+          "sha256": "a2f2ada6db7bc6c7138ec095d3eb88026b198899df8499b1c7404c65e1c3fb14"
+        },
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P05-clearance.png",
+          "sha256": "1db7757d0f6e4ec952bb90e50cda06890d6ec0459c72b2fd38cee23ee2e26635"
+        }
+      ],
+      "requested_aspect_ratio": "3:2",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P05"
+      }
+    }
+  ]
+}

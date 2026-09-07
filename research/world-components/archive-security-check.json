@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "clash preflight",
+    "exact missing restore",
+    "identical skip/idempotence",
+    "unsafe path ../escape",
+    "unsafe path production/world-components/../escape",
+    "unsafe path other/a.png",
+    "unsafe path production/world-components/AUX.txt",
+    "unsafe path production\\world-components\\a",
+    "unsafe path /absolute",
+    "duplicate case collision",
+    "size limit",
+    "archive hash mismatch",
+    "target symlink",
+    "parent file",
+    "duplicate archive",
+    "symlink archive",
+    "unexpected member"
+  ],
+  "fixture_directory": "research/world-components/asset-bundle/local/security-fixtures-3t0291wt",
+  "production_archive_created": false,
+  "status": "pass"
+}

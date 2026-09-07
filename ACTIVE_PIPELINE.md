@@ -1,13 +1,11 @@
-# Active production direction
+# Active visual direction
 
-The active experimental workflow is editable scene control, bounded illustrated drafts, explicit local correction, separate lettering and actual continuous review. Open the [corrected proof reader](docs/research/structural-pilot/correction-reader/index.html), [before/after](docs/research/structural-pilot/comparison.html), or [current handoff](research/structural-pilot/START_HERE.md).
+The owner rejected the structural experiment’s new art style and characters. Visual and character direction is reopened. The active work is the [twenty-option selection gallery](docs/research/visual-directions/index.html), with a [complete visual overview](docs/research/visual-directions/overview.html) and [handoff](research/visual-directions/START_HERE.md).
 
-The 14-panel plan is frozen. Art begins unaccepted; technical validity, semantic observation, lettering review and human/owner acceptance are separate. No existing experiment is a default production base merely because it passed its own score preset.
+Each option explores an original adult character, drawing language, environment and creature. The names are visual-study labels, not a rewritten story or approved cast. No option is the default production base. Owner preferences can combine a character from one board with a style, world or monster from another.
 
-Retain Ember provisionally. Use this neutral scene to test execution before rewriting the serial. The [completed total audit](docs/research/anime-pipeline-total-review/index.html) remains the evidence for the change in direction.
+The previous sequence and structural experiments remain preserved on their delivered branches. Their generation and correction budgets stay closed. Technical control improvements did not establish owner approval of the art, and must not override the explicit rejection.
 
-All previous worktrees, branches and caches are preserved. “Archived” means historical comparison status, not deleted files. The delivered baseline package under src/sequence_pilot is reused. New work is confined to the structural-pilot production, research and reader namespaces. No old renderer, model cache or story record was removed or merged.
+After the owner selects a shortlist, the next useful step is a coherent character-design sheet and small sequential proof in the selected direction. That later test must resolve face/costume continuity and drawing consistency; these twenty single-board explorations do not prove those abilities. No new serial or paid expenditure is authorized by a gallery favorite.
 
-The [structural experiment](production/structural-pilot/experiment.json) tested fixed geometry with character layers against full-frame illustration. The former remained diagram-like; the latter retained hard relationship failures. A separately frozen [conventional correction proof](production/structural-pilot/correction-experiment.json) improved local contact and motion, but repeated room/prop design changes prevented sequence coherence. Neither route earned a new full-sequence expansion. Both experiment budgets are closed. The old A/B/C meanings and old budgets remain unchanged.
-
-The next useful test is a scoped skilled sequential-artist pass on P11–P14, with consistent room/prop designs, one correction round and editable sources. The [prepared brief](research/structural-pilot/next-step-brief.md) requires a quote before any paid authorization; no human artist was hired. Direct paid spend in the current experiment is $0.
+The new study uses existing in-product image generation with $0 direct paid spend. Original prompts, attempts, source hashes and native art are preserved; unknown image-model and billing metadata remain null. Generated raster assets are local and ignored, with a separate portable bundle.

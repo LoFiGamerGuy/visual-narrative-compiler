@@ -1,0 +1,451 @@
+{
+  "experiment_id": "VD-20260907-01",
+  "reviewer_kind": "independent_ai_visual_review",
+  "status": "final_native_visual_review_complete_owner_selection_pending",
+  "owner_preference": null,
+  "production_acceptance": null,
+  "actual_images_inspected": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20"
+  ],
+  "redundancy_watchlists_not_findings": [
+    {
+      "ids": [
+        "04",
+        "14",
+        "19"
+      ],
+      "reason": "Slim romantic or fashion-oriented adult faces"
+    },
+    {
+      "ids": [
+        "06",
+        "11"
+      ],
+      "reason": "Rugged older monochrome male leads"
+    },
+    {
+      "ids": [
+        "02",
+        "13"
+      ],
+      "reason": "Kinetic athletic manga treatment"
+    },
+    {
+      "ids": [
+        "03",
+        "10"
+      ],
+      "reason": "Imposing painted armored female leads"
+    },
+    {
+      "ids": [
+        "16",
+        "18"
+      ],
+      "reason": "Joyful powerful female leads in vivid color"
+    }
+  ],
+  "feature_watchlists_not_findings": {
+    "12": "Adult proportions and mature facial cues in tactile puppet treatment",
+    "07": "Actual lineless flat shape construction",
+    "20": "Visible deliberate square pixel clusters rather than smooth pseudo-pixel art",
+    "15": "Controlled engraved line-density construction rather than generic scratchy painting"
+  },
+  "method_limitations": [
+    "All20 actual native primaries plus19 retry inspected; no gallery/device QA or owner taste test performed by this reviewer",
+    "Owner taste is unknown",
+    "No numerical quality ranking or preferred winner",
+    "19 retry check followed a lead observation about mark removal; independently verified in actual pixels but not blinded to that observation",
+    "Text inspection is visual, not exhaustive OCR or legal/provenance clearance",
+    "Rendering labels describe visible appearance, not verified manual production technique"
+  ],
+  "image_observations": [
+    {
+      "id": "01",
+      "evidence": "Large legible angular male portrait matches the swept black hair, white cropped jacket and restrained expression of the complete standing figure. Rainy cyan-lit bridges and gardens establish a dense vertical city. Broad translucent dark manta has six luminous circular eye forms and a readable gliding silhouette.",
+      "style_label_fit": "Clean action-manhwa is supported by the precise character contours, smooth face and cel-like shadows; the richly lit city is more detailed and atmospheric than the simplified character treatment.",
+      "limitations": "Very elongated fashion-like legs and idealized fine male facial structure; monitor against later fashion directions, not currently a near-duplicate.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/01-primary.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "02",
+      "evidence": "Freckles, strong eyebrows, copper braid and exuberant grin agree between large portrait and athletic full-body lancer. Striped shin guards, wide shorts, green spear and sunlit kite-covered stepped roofs create a distinct bright identity. Faceted reflective tiger is visibly different from01 creature.",
+      "style_label_fit": "Warm textured color-action comic is visibly supported. The result has more painterly surface/background treatment and a relatively posed rooftop stance; aggressive kinetic foreshortening is less evident than the frozen label implies.",
+      "limitations": "Dense mirror facets make individual tiger limb boundaries less immediate than the overall tiger silhouette. No obvious missing principal feature or anatomy corruption.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/02-primary.png",
+      "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "03",
+      "evidence": "Mature heavy-built woman with weathered broad face, shaved side, white braid and salt-white plate armor is consistent in portrait and full body. Broad cleaver, boots, basalt wells/rope edges and monumental mineral-shell crab are clear. Brush masses and textured lost edges occur in both face and environment.",
+      "style_label_fit": "Painterly epic fantasy is strongly supported by opaque bristled marks and broad painted value masses; this is a genuinely different construction from01/02, not a palette swap.",
+      "limitations": "White armor, salt crust and crab shell share values/materials, causing some local blending; the figures remain recognizable.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/03-primary.png",
+      "sha256": "36964b3786f7c0343d92482ceaf04ba57655606e59d968d0e6e074d975923e06",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "04",
+      "evidence": "Long wine-colored hair, delicate elongated face, pearl earring, plum waistcoat and ivory sleeves match across portrait and full figure. Rapier and gesturing hand are visible. Stained-glass conservatory and enormous antlered petal-hood serpent give the board a distinct ornamental world and creature.",
+      "style_label_fit": "Romantic gothic fantasy fits the delicate contour, jewel colors and flowing ornament. The actual environment is densely decorated rather than especially airy or economical in negative space.",
+      "limitations": "Figure has very long fashion proportions; small hands and lower silhouette compete with intricate vines/glass. Shares idealized slim male structure with01 but differs clearly in face treatment, hair, costume, world and creature.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/04-primary.png",
+      "sha256": "4a62ba5c8e72a55fd12fd92080bfdd00dc88f40508d2e39186ba17fce8447f60",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "05",
+      "evidence": "Angular olive-complexioned adult with indigo pompadour, raised eyebrow, ivory work shirt, olive overalls and two orange mechanical gauntlets matches between portrait and standing figure. Railway debris, orange trees, overhead wires and a segmented train-shell centipede with pruning claws establish a specific world and monster.",
+      "style_label_fit": "Outlined character against a painted background supports retro-animation influence, but the result is substantially textured and painted throughout rather than clean, simple cels. Warm painted-comic is a more cautious literal description.",
+      "limitations": "A riveted mechanical-hand-shaped object rests over the shoulder behind the overall strap. Enlarged actual-pixel inspection supports machinery rather than a definite extra human arm, but its attachment/function is ambiguous. Shares02 broad warm outlined painting family without duplicating character or world.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/05-primary.png",
+      "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "06",
+      "evidence": "Legible broad mature male face with cropped beard and white eyebrow streak matches the full figure in rolled white sleeves, suspenders and dark apron. Hooked baton, flooded concrete piers/ladders, and a creature assembled from umbrella canopies and spindly ribs are clearly visible. Dense black silhouettes, dry-brush white breaks and pink reflected sky strongly distinguish the board.",
+      "style_label_fit": "Graphic ink noir is supported. Face and water include gray textured modeling rather than a literal pure two-value treatment; no need to advertise an absolute absence of grays.",
+      "limitations": "Creature lower edge and character boots merge partly into black water, appropriate to the setting but less useful for complete limb/foot inspection. No obvious anatomy corruption or missing setting/creature.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/06-primary.png",
+      "sha256": "b515ac0588e2ab4f1e86bdf89e439c3d5374706580681d192b7155105878a818",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "07",
+      "evidence": "Triangular smiling dark-skinned face, angular green bob, navy vest, wide coral culottes and circular ring match the portrait/full figure. Suspended bamboo terraces, ladders, sun discs and an enormous long-legged ring-bodied crane form a distinct geometric world.",
+      "style_label_fit": "Lineless geometric graphic illustration is supported. Soft gradients and tonal/texture variation are visibly present in face, hair, garments and background, so strict flat-solid/no-gradient wording would be inaccurate.",
+      "limitations": "Flat simplification changes anatomical detail intentionally; no obvious corrupted anatomy. This is still strongly different construction from01\u201306 despite not meeting every strict-flat style adjective.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/07-primary.png",
+      "sha256": "8118f9d436de473cf89a3cbde00c8b34cd17b3ae3449485046bc66fadf99f42e",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "08",
+      "evidence": "Broad warm smiling adult male face with loose auburn curls and earrings matches the muscular fan-wielding dancer. Two raised bronze fans, garnet/saffron clothing, flooded lantern-market terraces and a giant cracked porcelain koi with orange glowing seams are legible.",
+      "style_label_fit": "Loose ink and watercolor is supported by paper texture, wash blooms, broken edges and warm transparent-looking color, although facial/body anatomy and market detail are more richly rendered than a sparse sketch.",
+      "limitations": "Monster fin/body edges extend beyond the upper/right frame, but a recognizable head, scales, fins and overall immense fish form are present. Shares04 broad watercolor/ornament family while differing in adult face/build/acting, costume, world and creature.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/08-primary.png",
+      "sha256": "6eba9c3c6a85009c97a743606d8dc90504a9c5885b1856ab95eccfbdc4cea2dd",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "09",
+      "evidence": "Shaved/tattoo-patterned scalp, angular grinning adult face, magenta jacket, lime harness and heavy boots agree between portrait and full figure. Long cage-headed microphone pole, quarry platforms and dense radio aerials establish sound-hunter identity. Speaker boxes, grille face and cable-limbed ape creature are readily recognizable.",
+      "style_label_fit": "Punk halftone comic is supported by coarse dots, rough scratched contours, distressed paper and acid spot colors.",
+      "limitations": "Dense cable and black shape overlap makes the specifically declared four-arm arrangement hard to count cleanly; this is not evidence of a definite extra or missing arm. Full-body and setting details are busy but visible.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/09-primary.png",
+      "sha256": "0029759b4d01b452052701bd55d3e1086988f5c0d6c6582be169a3d5fed835e3",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "10",
+      "evidence": "Red fan-shaped hair, cool broad-cheeked adult face, enormous rounded teal sleeves and fan shield match across portrait and full figure. Ivory/turquoise palace tiles, pools and red bridges are clear. Huge porcelain peacock with blade-like feathers and gold eye details is visibly distinct from previous creatures.",
+      "style_label_fit": "Decorative painted fantasy is supported by dimensional painted face, crisp large ornamental shapes and teal/ivory planes. Lacquer and highlights are quite glossy, so matte-color wording should not be read as a literal result.",
+      "limitations": "Bird tail extends off the right edge and lower body overlaps bridges, but its head/body/feathers establish the creature. Shares broad painted fantasy family with03 while visibly differing in body/face, smooth lacquer versus bristled salt surfaces, palace and bird.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/10-primary.png",
+      "sha256": "5c426d26e47acc218981dd29dbfb09f44cb9a291131a1467eb23c28044daef05",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "11",
+      "evidence": "Broad mature male face with gray short beard and heavy eyelids matches the stocky complete figure in woven poncho, robes and rope-fastened boots. Crooked staff, snowy cedar path, shrine and enormous blank-faced moth-deer are visible.",
+      "style_label_fit": "Monochrome dry-brush illustration is supported; realistic textured face and gray wash remain close in broad construction to06. Manga in the title does not establish a separate proven style system.",
+      "limitations": "Six thin creature legs are not all cleanly traceable among wings/trunks and body overlap, though the moth-deer is recognizable. Compared with06, older/broader face, humble bulky costume, white snow and winged forest creature create material differences despite shared ink family.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/11-primary.png",
+      "sha256": "ba5d3d890ddd08f93f4fd2a6fb10ce2f783a1711454be4ec1a4df304435ff627",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "12",
+      "evidence": "Large readable puppet-like portrait matches the full figure with dark paired braids, felt honey coat, patterned trousers, blue work boots and glass/brass backpack. Wool fibers, stitched awnings, clay chimneys, miniature plants, cracked clay-like moss toad and brass beetles are distinct and coherent.",
+      "style_label_fit": "Handcrafted stop-motion appearance is strongly supported by tactile material cues and miniature lighting; this is an appearance observation, not a claim of actual physical puppet production.",
+      "limitations": "Large eyes and rounded cheeks make the lead youthful, but developed nose/mouth/neck and adult torso/limb proportions support a plausible young-adult reading. It is not unambiguously a child; exact age30 cannot be proven from art. No hard adult-design failure found.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/12-primary.png",
+      "sha256": "3bf416fffc135c5ec5353ddb68656b67ef909a78cfc1019edd7aeeac62aa9931",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "13",
+      "evidence": "Buzz cut, compact angular adult face, muscular neck, competitive grin, white sleeveless hooded top and red sparring gauntlets match across portrait and full-body boxer. Foreshortened forward fist, bent athletic stance, spiral concrete turbine track and huge paper-shark vortex are all legible.",
+      "style_label_fit": "High-energy sports/action manga is supported by precise angular contours, hatching, perspective, speed strokes and black/white with vermilion accents. This is materially different line/value construction from02 painted color-comic treatment.",
+      "limitations": "The vortex contains many overlapping sharp shark forms and extends beyond the frame, but reads as one designed aggregate creature rather than anatomy corruption. No missing main feature.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/13-primary.png",
+      "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "14",
+      "evidence": "Large clear female face with lavender hair and gold hair ornaments matches a complete slender adult figure in ruffled lavender outerwear, dark dress and tall boots, carrying a giant needle. Textile-like aerial bridges and immense brass-framed luminous moth wings define a coherent fashion-fantasy world.",
+      "style_label_fit": "Luminous fashion fantasy is supported by smooth gradients, elongated proportions, thin ornamental lines and sparkles. Actual thread/jewelry/ruffle detail is dense, so generous pale negative-space wording is only partly realized.",
+      "limitations": "Shares04 graceful romantic/ornamental family, but larger-eyed female facial construction, smoother lavender glow, needle-tailor silhouette, textile towers and astrolabe moth create substantive differences. Not a near-duplicate finding.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/14-primary.png",
+      "sha256": "7550f9a72fdd6e00d92e656f7403edf3eb66e64fbf7ce11ef7019195da903b75",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "15",
+      "evidence": "Bald adult male with curled moustache, strong brow/nose and small pointed beard matches the fully visible engineer in brocade lapels, striped trousers and brass braces. Bell shield, immense articulated walking bell, gears and tall masonry are clear.",
+      "style_label_fit": "Engraving appearance is strongly supported: curved parallel lines model face planes and controlled crosshatched density models clothing, architecture and metal. This is not merely painterly texture; actual printmaking production is not claimed.",
+      "limitations": "Dense linework gives foreground/background similar texture and can reduce small-form separation. Despite a bald male and limited palette, it differs from06/11 in facial ornament, line construction, costume, world and creature.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/15-primary.png",
+      "sha256": "573a89b565d5e2ec8fab13624be9a27d2d9f2b09e7d611acbeec9563d4672542",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "16",
+      "evidence": "Broad laughing mature face, blue-black braid, heavy shoulders/belly and plus-size full-body proportions visibly differ from the leaner smiling leads. Ceramic cropped vest, magenta trousers, wrapped sandals, coral scythe and harvest basket fit a bright reef/pottery world with a huge jellyfish-turtle creature.",
+      "style_label_fit": "Bold matte gouache-like appearance is supported by opaque chunky paint planes, dry marks, vivid blue/magenta/coral and simplified expressive form. No physical gouache process is inferred.",
+      "limitations": "Very busy coral/pottery and creature appendages can merge locally; central adult silhouette remains clear. Shares warm joy with02/08 and opaque painting with03/10, but face/body construction, materials, costume and monster are distinct.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/16-primary.png",
+      "sha256": "c63b94676649e0fe7cf1fe1b3944a8c5aa1ba8231eaa501a71de882615b808bf",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "17",
+      "evidence": "Long-nosed adult cartoon face with small square glasses, brown swept hair and amused expression matches a complete map-holding figure in mint parka and rust turtleneck. Circular map case, legible terracotta arches/aqueducts/stairs and an immense root-legged turtle-island form a clear adventure world.",
+      "style_label_fit": "Clear-line adventure-comic appearance is supported by comparatively uniform contours and controlled flat-ish color. Soft texture and shading are present, so perfectly flat line-color construction would overstate the result.",
+      "limitations": "Fine map/case decoration is dense but no confidently readable map labels are observed. Creature/world are distinct from16 turtle hybrid through tree-root locomotion and landmass/architecture concept.",
+      "text_contamination": "No clear text or signature observed; map-like decoration present.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/17-primary.png",
+      "sha256": "54ecdd57259ff8edb221496d133548fdc2a1957a524a5d784760863111759180",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "18",
+      "evidence": "Broad laughing adult face, giant eyebrows, pink locs, muscular stocky body, turquoise singlet, orange joggers and huge brick gauntlets match between portrait and full figure. Orchard windmills, rolling clouds and inflated blue whale-serpent with cheek sacs and small wings are clear.",
+      "style_label_fit": "Bold animation-cartoon appearance is supported by exaggerated shape rhythm, face and creature expression, thick changing contour and cel-like shadows; backgrounds also contain painted modulation.",
+      "limitations": "Shares broad build and laughter with16, but its muscular cartoon anatomy, sharp exaggerated eyebrows, outfit/props, winged whale and orchard differ materially from16 broader mature gouache harvester and reef world.",
+      "text_contamination": "Belt buckle has a Z/zigzag-like emblem. It is a possible letterform but also coheres with the lightning motif; no clear word or signature observed.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/18-primary.png",
+      "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "19",
+      "evidence": "Large legible pale adult male face, half-white/half-black hair, high white collar and black cropped tailoring match the complete figure with silver glove and thorn whip. Glasshouse, red grass and enormous black orchid/root-legged predator establish eerie fashion-horror identity.",
+      "style_label_fit": "Fashion-horror illustration fits the refined smooth almost realistic face/materials, dark tailored silhouette and botanical surrealism. Shares slim idealized male family with01/04 but differs in facial rendering, monochrome hair, costume, world and predator.",
+      "limitations": "A white cursive signature/handle-like mark is visibly present on the lower-right scene ground near the root legs, approximately x1260\u20131320,y875\u2013892. This violates the frozen text-free board constraint.",
+      "text_contamination": "Definite visible signature/handle-like text artifact in lower-right scene. Content not confidently transcribed.",
+      "hard_failure_retry_indicated": true,
+      "retry_basis": "Actual visible text artifact violates frozen text-free output; preserve primary and await lead decision on authorized targeted remediation.",
+      "source": "production/visual-directions/candidates/19-primary.png",
+      "sha256": "2c4067fda0233b8a8ac8bd11e91337a28535c2f92ab1630be75f5d6102aafe1a",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    },
+    {
+      "id": "20",
+      "evidence": "Square mature bearded adult face, dark skin, chunky ivory/lime armor and violet sash match the stout full figure carrying a blocky hammer. Lava-separated asteroid platforms and a monumental segmented mineral moonworm establish a distinct space-foundry direction.",
+      "style_label_fit": "Pixel/voxel-inspired block illustration is visibly supported by square clusters, stepped silhouettes and block-built materials. Mixed cluster scales and granular modeled surfaces make genuine deliberate hand-pixel/no-antialias construction too strong a claim from these pixels.",
+      "limitations": "The portrait is more obviously pixel-clustered while the scene has dimensional voxel-like block modeling. This remains a distinct visual option; production method and exact pixel-grid discipline are unverified.",
+      "text_contamination": "Rectangular ground insets look glyph-like in places, but no confidently readable word/signature observed.",
+      "hard_failure_retry_indicated": false,
+      "source": "production/visual-directions/candidates/20-primary.png",
+      "sha256": "4f9e1431027c9de263567805dd9ee78e7becf862614f8628feb39244e97ce1e9",
+      "inspection": "actual_native_view_image",
+      "owner_preference": null
+    }
+  ],
+  "actual_cross_board_findings": [
+    {
+      "ids": [
+        "02",
+        "05"
+      ],
+      "finding": "Shared warm outlined painted-comic family; distinct hair, costume, body acting, world and monster. Not a near-duplicate."
+    },
+    {
+      "ids": [
+        "04",
+        "08"
+      ],
+      "finding": "Shared ink/watercolor family; different facial/body construction, romantic restraint versus laughing dancer, conservatory serpent versus market koi. Not a near-duplicate."
+    },
+    {
+      "ids": [
+        "01",
+        "04"
+      ],
+      "finding": "Shared slim idealized long-legged male proportions; materially distinct hair, costume, rendering and world/monster."
+    },
+    {
+      "ids": [
+        "06",
+        "11"
+      ],
+      "finding": "Confirmed shared realistic textured brush-ink family. Older broader face/poncho/snowforest/moth-deer versus apron/canal/umbrella-eel provide substantive direction differences; no near-duplicate hard finding."
+    },
+    {
+      "ids": [
+        "03",
+        "10"
+      ],
+      "finding": "Both painted fantasy armored women, but weathered heavy salt knight and bristled paint differ from polished ornamental palace warden; monsters/worlds are distinct."
+    },
+    {
+      "ids": [
+        "02",
+        "13"
+      ],
+      "finding": "Confirmed different rendering construction:02 warm textured color comic versus13 sharp monochrome/red manga hatching and foreshortening. Both athletic without being near-duplicates."
+    },
+    {
+      "ids": [
+        "04",
+        "14"
+      ],
+      "finding": "Shared graceful ornamental fantasy family. Different facial construction, watercolor versus smoother glow emphasis, costume/weapon, architecture and serpent versus moth remain substantive."
+    },
+    {
+      "ids": [
+        "02",
+        "08",
+        "16"
+      ],
+      "finding": "Shared smiling/joyful acting does not erase16 visibly heavier mature face/body, opaque paint and reef harvest identity."
+    },
+    {
+      "ids": [
+        "16",
+        "18"
+      ],
+      "finding": "Both joyful powerful women but visibly distinct heavier mature gouache harvester versus exaggerated muscular cartoon wrestler, with separate costume/prop/world/monster identity."
+    },
+    {
+      "ids": [
+        "01",
+        "04",
+        "19"
+      ],
+      "finding": "Shared idealized slim male fashion family;19 has smoother near-realistic face/material construction and eerie botanical world, not a palette swap."
+    }
+  ],
+  "pending_decisions": [],
+  "retry_observations": [
+    {
+      "id": "19",
+      "attempt": "retry",
+      "selected_candidate_id": "VD19-R",
+      "source": "production/visual-directions/candidates/19-retry.png",
+      "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+      "inspection": "actual_native_primary_and_retry_comparison",
+      "evidence": "The lower-right white cursive signature-like mark visible in the primary is absent in the retry. Same split portrait/full-figure composition, black/white-haired adult, tailoring, silver glove, thorn whip, glasshouse, red ground and black orchid predator remain recognizable. Fine ground/root/petal rendering differs in places; exact localized pixel preservation is not claimed.",
+      "regressions": "No obvious new missing feature, anatomy corruption or distinct textual mark observed at native view.",
+      "text_defect_status": "resolved_in_selected_retry_primary_retained",
+      "owner_preference": null,
+      "exposure_disclosure": "Lead message stated mark removed and broad design retained before this final comparison. I then independently inspected both actual native images; this retry check is not blinded to that lead observation."
+    }
+  ],
+  "actual_attempts_inspected": 21,
+  "selected_option_count": 20,
+  "selected_sources": {
+    "01": "production/visual-directions/candidates/01-primary.png",
+    "02": "production/visual-directions/candidates/02-primary.png",
+    "03": "production/visual-directions/candidates/03-primary.png",
+    "04": "production/visual-directions/candidates/04-primary.png",
+    "05": "production/visual-directions/candidates/05-primary.png",
+    "06": "production/visual-directions/candidates/06-primary.png",
+    "07": "production/visual-directions/candidates/07-primary.png",
+    "08": "production/visual-directions/candidates/08-primary.png",
+    "09": "production/visual-directions/candidates/09-primary.png",
+    "10": "production/visual-directions/candidates/10-primary.png",
+    "11": "production/visual-directions/candidates/11-primary.png",
+    "12": "production/visual-directions/candidates/12-primary.png",
+    "13": "production/visual-directions/candidates/13-primary.png",
+    "14": "production/visual-directions/candidates/14-primary.png",
+    "15": "production/visual-directions/candidates/15-primary.png",
+    "16": "production/visual-directions/candidates/16-primary.png",
+    "17": "production/visual-directions/candidates/17-primary.png",
+    "18": "production/visual-directions/candidates/18-primary.png",
+    "19": "production/visual-directions/candidates/19-retry.png",
+    "20": "production/visual-directions/candidates/20-primary.png"
+  },
+  "final_whole_set_conclusions": {
+    "reviewable_options": "20 selected direction boards contain a recognizable adult portrait, matching full figure, setting and creature; no unresolved definite hard visual corruption found in the selected set.",
+    "diversity": "Meaningful differences exist in facial/body construction, acting, costume silhouette, rendering, world and monster. These are not merely palette swaps.",
+    "redundancy_limit": "Some options share broader medium/beauty/archetype families; there are not20 mutually unrelated rendering systems. No specific near-duplicate severe enough to defeat direction choice was established.",
+    "strongest_contrasts": [
+      "07 geometric lineless shapes versus12 tactile miniature appearance versus15 engraved line density versus20 block/pixel/voxel-like construction",
+      "03 weathered heavy salt knight versus14 slender luminous tailor versus16 plus-size reef harvester versus17 long-nosed bespectacled cartographer"
+    ],
+    "closer_families": [
+      "01/04/19 slim idealized male fashion family",
+      "04/08/14 ornamented ink/paint fantasy family",
+      "06/11 realistic textured brush-ink family",
+      "02/05 warm outlined painted-comic family",
+      "16/18 joyful powerful women with differing anatomy and paint/cartoon treatment"
+    ],
+    "text_constraint": "19 primary signature defect resolved by inspected selected retry;18 emblem and20 ground motifs remain ambiguous graphic forms rather than confidently readable text.",
+    "owner_winner": null,
+    "production_accepted": false
+  },
+  "cautious_style_label_recommendations": {
+    "02": "Bright painted action comic; kinetic manga intent is only partly visible",
+    "05": "Retro-animation-inspired painted comic; clean cel simplicity is not literal throughout",
+    "06": "Graphic brush-ink noir with gray modeling and pink accent",
+    "07": "Geometric lineless illustration with soft tonal variation, not strictly flat/no-gradient",
+    "11": "Monochrome dry-brush fantasy; manga is not a clearly separate visible construction from06",
+    "15": "Engraving-style illustration; actual printmaking process unverified",
+    "20": "Pixel/voxel-inspired block fantasy; genuine hand-pixel/no-antialias process unverified"
+  },
+  "frozen_utc": "2026-09-07T13:13:39.686869+00:00"
+}

@@ -99,4 +99,3 @@ The last risk has a current primary example: WEBTOON's April 21, 2026 dashboard 
 A cheap route wins only if the owner and independent reviewers prefer its **complete sequence**, its repair work fits the declared capacity, and the desired distribution remains feasible. A human-directed route loses its practical advantage if no capable practitioner is available or its correction hours exceed the agreed ceiling. A greenfield restart loses its economic rationale if the same visual bottleneck persists under a new title.
 
 A failed pilot is useful when it distinguishes these causes. Preserve attempt count, all failures, edits, hours, tool fields, source licenses and reviewer identity/type. Retain nulls and dissent. Do not purchase scale before the actual bottleneck and the publishing route are known.
-

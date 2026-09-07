@@ -96,4 +96,3 @@ Platform permission, output authorship, asset licenses and provenance remain sep
 - Handbook publication date and several tutorial dates are unknown. Version strings were preserved without inventing dates.
 - Korean KOCCA 2025 survey pages were discoverable but reliable full retrieval was unsuccessful; market-size snippets and their conflicting export percentages are excluded.
 - The research establishes reasons for a fair production test, not a predetermined winner. The actual repository visual audit and owner response decide what to retain.
-

@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Browser and package QA · Pipeline review</title><link rel="stylesheet" href="../review.css"></head><body><a class="skip" href="#main">Skip to content</a><header><div class="eyebrow">Independent production audit · September 2026</div><nav aria-label="Review navigation"><a href="../index.html">Review hub</a><a href="executive-decision.html">Decision</a><a href="next-pilot-specification.html">Pilot plan</a><a href="../pilot-proof.html">Rough proof</a><a href="changed-files-and-integrity.html">Integrity</a></nav></header><main id="main" class="report"><p><a href="../../../../research/anime-pipeline-total-review/browser-qa.md">Markdown source</a></p><h1 id="browser-and-package-qa">Browser and package QA</h1>
+<p><strong>Final review UI checks pass at 390 × 844, 1024 × 768 and 1440 × 1000.</strong> Chromium 151.0.7922.34 used local file URLs; phone runs use mobile metrics. This is not Safari, real-device accessibility, or mobile-network performance certification. <a href="../../../../research/anime-pipeline-total-review/evidence/final-browser-qa.json">Machine browser evidence</a> records every page and interaction; <a href="../../../../research/anime-pipeline-total-review/evidence/package-checks.json">local package checks</a> records link/JSON validation.</p>
+<p>All built report pages, the hub and proof are opened at each size. The hub exercises every section navigation link, 20 pipelines × 6 score categories, and all four strategy views at each size. Keyboard Tab reaches visible navigation; table regions are focusable and scroll within their containers. Text remains selectable, disclosure controls work, and charts use explicit numbers/labels rather than color alone. Zero broken images, horizontal document overflow, external runtime dependencies or package-caused console errors/warnings remain in the completed pass. Outbound citations are the only network links; protected readers open local originals.</p>
+<p>The initial browser pass exposed long-label/identifier overflow on seven phone pages. Wrapping and select sizing were corrected and the failed evidence was <a href="../../../../research/anime-pipeline-total-review/evidence/browser-package-first-pass.json">preserved</a>. The initial package-link check ran before three final reports and the preservation recheck existed; its <a href="../../../../research/anime-pipeline-total-review/evidence/package-checks-first-pass.json">failed result</a> is also preserved. Final checks supersede these draft failures without erasing them.</p>
+<h2 id="original-proof-and-synthetic-expansion">Original proof and synthetic expansion</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>At 390px</th>
+<th style="text-align: right;">Original</th>
+<th style="text-align: right;">+30% synthetic copy</th>
+<th style="text-align: right;">+50% synthetic copy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Art height, 14 panels</td>
+<td style="text-align: right;">5,360px</td>
+<td style="text-align: right;">5,360px</td>
+<td style="text-align: right;">5,360px</td>
+</tr>
+<tr>
+<td>Story strip</td>
+<td style="text-align: right;">6,821px</td>
+<td style="text-align: right;">6,856px</td>
+<td style="text-align: right;">6,876px</td>
+</tr>
+<tr>
+<td>Whole audit page including controls/footer</td>
+<td style="text-align: right;">7,595px</td>
+<td style="text-align: right;">7,677px</td>
+<td style="text-align: right;">7,697px</td>
+</tr>
+<tr>
+<td>Dialogue / system type</td>
+<td style="text-align: right;">16 / 14px</td>
+<td style="text-align: right;">16 / 14px</td>
+<td style="text-align: right;">16 / 14px</td>
+</tr>
+<tr>
+<td>Horizontal overflow / text-container overflow</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">0 / 0</td>
+</tr>
+</tbody>
+</table></div>
+<p>The frozen 5,800–7,600px story scroll budget is met by the original proof; synthetic expansion increases page height without shrinking type. These live text lanes prevent art overlap by construction; they do <strong>not</strong> prove finished balloon tails, natural translation, or premium comic lettering. The text stress is artificial padding by character count, not a translated script. Guides, grayscale, contracts and fourteen panel links were exercised. Full-size and phone screenshots of contact/escape/aftermath were visually inspected. Adult figures are schematic; grip/contact mechanics still need skilled storyboard review before final art.</p>
+<h2 id="protected-readers-and-sampling-corrections">Protected readers and sampling corrections</h2>
+<p>The separate production-reader review covers 22 true-mobile jobs plus a corrected editorial full-decode recheck. At editorial52, all 104 art/overlay images load, scroll height is 32,639px, and source image bytes total 129,375,574. This is addressed local file weight, not transferred network bytes or latency. Some old pilot SVGs load while nested raster art remains invisible; source art exists and is evaluated separately. That preserved defect is not a new-package broken image.</p>
+<p>Initial volume captures accidentally repeated the header because a <code>figure</code> selector missed <code>article.panel</code>; corrected captures supersede them. Desktop-at-phone-width captures with a scrollbar remain stress evidence, not true mobile proof. An initial cold editorial pass had 85 pending lazy images; the explicit scroll/decode recheck loaded all of them. It is incorrect to report 85 missing assets.</p>
+<p>Internal screenshots remain local in ignored <code>.scratch/final-qa</code> and the earlier screenshot folders. They are not portable Git artifacts; the JSON evidence and original protected reader paths are tracked. The browser helpers are session-specific, while built HTML uses system fonts and requires no dependencies to read.</p>
+<p>Four <a href="../../../../research/anime-pipeline-total-review/evidence/deterministic-tests.json">deterministic measurement tests</a> pass. They verify meaningful false-pass boundaries, not aesthetics. Machine scorecards preserve unassessed fields and 109 differences between independent AI passes; no test output constitutes owner acceptance.</p></main><footer>Original analysis; no third-party comic panels redistributed. $0 incremental paid/cloud spend. AI reviews are not human acceptance. Source and rights limits remain explicit.</footer></body></html>

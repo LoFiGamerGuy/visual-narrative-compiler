@@ -1,0 +1,1184 @@
+{
+  "schema": "AnimePipelineCitationLedger/1",
+  "compiled_utc": "2026-09-07T02:36:26.045659+00:00",
+  "scope": "External industry, platform, rights and licensed-comparable citations used in this isolated total review; repository evidence has separate source mapping and is not silently counted as an external citation. Owner follow-up adds one official Astra model source; original research inputs preserved.",
+  "inputs": [
+    {
+      "path": "evidence/industry-citations.json",
+      "sha256_at_compilation": "30ed9b1cc8c66aa41f95a7b5f896a3c2c32cdd7ce47badff172569d7b9177682",
+      "records": 25
+    },
+    {
+      "path": "evidence/comparable-citations.json",
+      "sha256_at_compilation": "247c503622c2acb99e0a5c455911b2849d90826a87160feb77acef768c91ec75",
+      "records": 10
+    }
+  ],
+  "source_count": 36,
+  "date_policy": "Null unknown publication dates. Distinguish publication, update, effective, event and access dates. Preserve original mistaken publication-date field when correcting update-date semantics. Local access date is America/New_York; exact original UTC date remains null when not established.",
+  "authority_policy": "Ratings describe authority for specified claims, not overall truth or measured artistic quality. Creator interviews are primary attributed accounts, not independently verified production census.",
+  "reachability_policy": "True means recorded content was reached by a stated method; it does not override preview/paywall/sample limits or HEAD403 records. No unverified uploads or later-series visual assessment inferred.",
+  "claim_policy": "Platform rules apply only to stated service/language/jurisdiction and accessed wording. Sources do not establish salary rates, universal episode length, guaranteed monetization, model capability, rights clearance or audience demand.",
+  "independence_attestation": "Industry/economics research used owner instructions and verified external sources, not conclusions/scores from either pre-existing total-review session. Later red-team review intentionally read current isolated-session drafts. Comparable sources are preserved from that assigned current-session researcher; this merge is not an independent re-review of all comic imagery.",
+  "final_verification": {
+    "direct_pages_rechecked": [
+      "IND-09",
+      "IND-11",
+      "IND-12",
+      "IND-13",
+      "IND-18",
+      "IND-19",
+      "IND-21",
+      "IND-22"
+    ],
+    "date_semantics_corrected": [
+      "IND-11",
+      "IND-12",
+      "IND-13",
+      "IND-18",
+      "IND-19",
+      "IND-21"
+    ],
+    "material_claim_reversal_found": false,
+    "limits": "Source meaning checked against prior direct retrieval evidence and targeted current-page rechecks; not every source was newly browsed a second time."
+  },
+  "sources": [
+    {
+      "id": "IND-01",
+      "title": "How to Make a Webtoon Page: Complete Guide & Video Tutorial",
+      "publisher_author": "CELSYS / Obliviousquill",
+      "url": "https://www.clipstudio.net/how-to-draw/archives/172579",
+      "publication_date": "2025-10-02",
+      "access_date": "2026-09-06",
+      "source_type": "creator-authored vendor tutorial",
+      "claim_supported": "Script, model sheets, thumbnails with dialogue, 3D support, separable art passes, preview; individual practice rather than census",
+      "authority_rating": "A for documented creator workflow; B for generalization",
+      "access_status": "reachable_text_read",
+      "notes": "Dates verified from publisher article:published_time and article:modified_time HTML metadata.",
+      "last_modified_date": "2025-12-11",
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "CELSYS / Obliviousquill",
+      "supported_claims": [
+        "Script, model sheets, thumbnails with dialogue, 3D support, separable art passes, preview; individual practice rather than census"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-02",
+      "title": "We-toon: A Communication Support System between Writers and Artists in Collaborative Webtoon Sketch Revision",
+      "publisher_author": "Ko et al.; ACM UIST / NAVER WEBTOON / SNU",
+      "url": "https://hyungkwonko.info/data/wetoon.pdf",
+      "publication_date": "2022-10",
+      "access_date": "2026-09-06",
+      "source_type": "primary peer-reviewed study",
+      "claim_supported": "Six-stage workflow and revision communication difficulty; four formative practitioners and 24 study participants",
+      "authority_rating": "A for study observations; B for industry-wide inference",
+      "access_status": "reachable_text_read",
+      "notes": "Web tool rejected size; verified PDF via in-memory pdftotext. Formative sample4, evaluation sample24; not representative census.",
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Ko et al.; ACM UIST / NAVER WEBTOON / SNU",
+      "supported_claims": [
+        "Six-stage workflow and revision communication difficulty; four formative practitioners and 24 study participants"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Partial publication date preserves only verified precision; no day inferred."
+      ],
+      "reachability_limits": [
+        "Web parser could not process full PDF; text was verified with in-memory download and pdftotext, with no source PDF/art saved. Live publishing UI was not tested."
+      ]
+    },
+    {
+      "id": "IND-03",
+      "title": "Creators Resource Handbook (currently linked updated edition)",
+      "publisher_author": "WEBTOON",
+      "url": "https://webtoons-static.pstatic.net/creator101/en/pdf/Creators-Resource-Handbook-Updated.pdf?dt=2024011001",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official creator handbook",
+      "claim_supported": "PDF page8:800\u00d71280 slices,2MB/file,20MB/100 files, JPG/JPEG/PNG; mobile preview. PDF page28,31 reconfirm slice dimensions",
+      "authority_rating": "A for current-linked documentation; live upload UI untested",
+      "access_status": "reachable_text_read",
+      "notes": "Web tool rejected size/timeout; verified via urllib in memory and pdftotext stdin/stdout; 16,999,080 bytes; nothing saved. URL date is version query, not publication date.",
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "WEBTOON",
+      "supported_claims": [
+        "PDF page8:800\u00d71280 slices,2MB/file,20MB/100 files, JPG/JPEG/PNG; mobile preview. PDF page28,31 reconfirm slice dimensions"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Web parser could not process full PDF; text was verified with in-memory download and pdftotext, with no source PDF/art saved. Live publishing UI was not tested."
+      ]
+    },
+    {
+      "id": "IND-04",
+      "title": "WEBTOON Academy downloadable resources",
+      "publisher_author": "WEBTOON",
+      "url": "https://www.webtoons.com/en/creators101/webtoon-academy/resource-list?resourceType=DOWNLOAD_RESOURCE",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official resource index",
+      "claim_supported": "Current page links updated handbook, character and design sheets, publishing checklist and mental-health resources",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "WEBTOON",
+      "supported_claims": [
+        "Current page links updated handbook, character and design sheets, publishing checklist and mental-health resources"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-05",
+      "title": "Series Basics: How to publish a comic episode on Tapas",
+      "publisher_author": "Tapas Team",
+      "url": "https://help.tapas.io/hc/en-us/articles/1260802028970-Series-Basics-How-to-publish-a-comic-episode-on-Tapas",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official help documentation",
+      "claim_supported": "940px width,10MB,PNG/JPG/GIF;GIF1000px max;300\u00d7300/<2MB episode thumbnail; desktop/mobile preview",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 403,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Tapas Team",
+      "supported_claims": [
+        "940px width,10MB,PNG/JPG/GIF;GIF1000px max;300\u00d7300/<2MB episode thumbnail; desktop/mobile preview"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Secondary urllib HEAD returned 403; source text was read through web tool. This is method-dependent access, not a claim that the source was unreadable."
+      ]
+    },
+    {
+      "id": "IND-06",
+      "title": "\uc138\uacc4\uc18d\uc5d0\uc11c K-\uc6f9\ud230\uc744 \uc678\uce58\ub2e4, \uc6f9\ud230\ubcf8\ubd80 \uc774\uc57c\uae30 (Webtoon division interview)",
+      "publisher_author": "Tappytoon / Contents First",
+      "url": "https://about.tappytoon.com/25c8d914-9fdf-4560-a87a-b1d9238cc423",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official staff interview (Korean)",
+      "claim_supported": "Separate language QA, graphic localization and coordinator/PM roles; reading flow/typo/idiom checks",
+      "authority_rating": "A for company's described practice",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Tappytoon / Contents First",
+      "supported_claims": [
+        "Separate language QA, graphic localization and coordinator/PM roles; reading flow/typo/idiom checks"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-07",
+      "title": "Comic Book Grammar & Tradition",
+      "publisher_author": "Nate Piekos / Blambot",
+      "url": "https://blambot.com/pages/comic-book-grammar-tradition",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "primary professional guidance",
+      "claim_supported": "Tail mouth attribution, emphasis conventions, balloon types; author explicitly allows editorial variation",
+      "authority_rating": "A for professional guidance; not universal standard",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Nate Piekos / Blambot",
+      "supported_claims": [
+        "Tail mouth attribution, emphasis conventions, balloon types; author explicitly allows editorial variation"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-08",
+      "title": "Letter Your Webtoon Like a Pro: Balloons, Fonts, and More",
+      "publisher_author": "Walter Ostlie / CLIP STUDIO TIPS",
+      "url": "https://tips.clip-studio.com/en-us/articles/3751",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "primary creator tutorial",
+      "claim_supported": "Judge type at phone width; balloon order at thumbnail stage; no crossed tails or covered focal art",
+      "authority_rating": "A for named practitioner guidance",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Walter Ostlie / CLIP STUDIO TIPS",
+      "supported_claims": [
+        "Judge type at phone width; balloon order at thumbnail stage; no crossed tails or covered focal art"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-09",
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "publisher_author": "W3C",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "publication_date": "2024-12-12",
+      "access_date": "2026-09-06",
+      "source_type": "normative web standard",
+      "claim_supported": "Text alternatives,meaningful sequence,contrast,keyboard,reflow; images-of-text exceptions require careful scope",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "W3C",
+      "supported_claims": [
+        "Text alternatives,meaningful sequence,contrast,keyboard,reflow; images-of-text exceptions require careful scope"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "2024-12-12 is publication of the currently served Recommendation version, not the first release of WCAG 2.2."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ],
+      "final_recheck": {
+        "access_date": "2026-09-06",
+        "access_utc_date": "2026-09-07",
+        "method": "web tool direct official page text",
+        "result": "reachable; checked date semantics and cited policy/metadata wording"
+      }
+    },
+    {
+      "id": "IND-10",
+      "title": "Browser-level image lazy loading for the web",
+      "publisher_author": "Google / web.dev",
+      "url": "https://web.dev/articles/browser-level-image-lazy-loading",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official engineering documentation",
+      "claim_supported": "Lazy-load offscreen images; preserve dimensions; avoid lazy-loading initial viewport/LCP imagery",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "last_modified_date": "2024-08-13",
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Google / web.dev",
+      "supported_claims": [
+        "Lazy-load offscreen images; preserve dimensions; avoid lazy-loading initial viewport/LCP imagery"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-11",
+      "title": "Content and Community Guidelines",
+      "publisher_author": "Tapas Team",
+      "url": "https://help.tapas.io/hc/en-us/articles/115005323707-Content-and-Community-Guidelines",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official platform policy",
+      "claim_supported": "Live page disallows AI generated content; app/web scope unless otherwise specified",
+      "authority_rating": "A for live policy wording; date may not reflect later edits",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 403,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Tapas Team",
+      "supported_claims": [
+        "Live page disallows AI generated content; app/web scope unless otherwise specified"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Final direct-page verification shows supplied date is Last Updated/Last Modified, not independently established original publication date. Original field preserved separately.",
+        "The displayed 2022 Last Modified date does not establish when the AI clause was introduced; cite current accessed wording only."
+      ],
+      "reachability_limits": [
+        "Secondary urllib HEAD returned 403; source text was read through web tool. This is method-dependent access, not a claim that the source was unreadable."
+      ],
+      "original_publication_date_field": "2022-03-09",
+      "last_modified_date": "2022-03-09",
+      "final_recheck": {
+        "access_date": "2026-09-06",
+        "access_utc_date": "2026-09-07",
+        "method": "web tool direct official page text",
+        "result": "reachable; checked date semantics and cited policy/metadata wording"
+      }
+    },
+    {
+      "id": "IND-12",
+      "title": "CANVAS Terms of Use",
+      "publisher_author": "WEBTOON",
+      "url": "https://www.webtoons.com/en/terms/canvasTermsOfUsePolicy",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official terms",
+      "claim_supported": "Publishers' content obligations and origin misrepresentation restrictions; platform terms do not confer output clearance",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "WEBTOON",
+      "supported_claims": [
+        "Publishers' content obligations and origin misrepresentation restrictions; platform terms do not confer output clearance"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Final direct-page verification shows supplied date is Last Updated/Last Modified, not independently established original publication date. Original field preserved separately."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ],
+      "original_publication_date_field": "2026-01-06",
+      "last_modified_date": "2026-01-06",
+      "final_recheck": {
+        "access_date": "2026-09-06",
+        "access_utc_date": "2026-09-07",
+        "method": "web tool direct official page text",
+        "result": "reachable; checked date semantics and cited policy/metadata wording"
+      }
+    },
+    {
+      "id": "IND-13",
+      "title": "Community Policy",
+      "publisher_author": "WEBTOON",
+      "url": "https://www.webtoons.com/en/terms/canvasPolicy",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official platform policy",
+      "claim_supported": "English policy restrictions incl copyright; no standalone AI permission/prohibition/disclosure rule found in checked text",
+      "authority_rating": "A for checked policy text; negative finding bounded to documents inspected",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "WEBTOON",
+      "supported_claims": [
+        "English policy restrictions incl copyright; no standalone AI permission/prohibition/disclosure rule found in checked text"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Final direct-page verification shows supplied date is Last Updated/Last Modified, not independently established original publication date. Original field preserved separately."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ],
+      "original_publication_date_field": "2025-11-25",
+      "last_modified_date": "2025-11-25",
+      "final_recheck": {
+        "access_date": "2026-09-06",
+        "access_utc_date": "2026-09-07",
+        "method": "web tool direct official page text",
+        "result": "reachable; checked date semantics and cited policy/metadata wording"
+      },
+      "effective_date": "2026-01-06",
+      "effective_date_evidence": "IND-14"
+    },
+    {
+      "id": "IND-14",
+      "title": "Update to WEBTOON Community Policy",
+      "publisher_author": "WEBTOON",
+      "url": "https://www.webtoons.com/en/notice/detail?noticeNo=3547",
+      "publication_date": "2025-11-25",
+      "access_date": "2026-09-06",
+      "source_type": "official update notice",
+      "claim_supported": "Effective date2026-01-06 for community policy",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "WEBTOON",
+      "supported_claims": [
+        "Effective date2026-01-06 for community policy"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-15",
+      "title": "Copyright and Artificial Intelligence, Part2: Copyrightability",
+      "publisher_author": "U.S. Copyright Office",
+      "url": "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+      "publication_date": "2025-01-29",
+      "access_date": "2026-09-06",
+      "source_type": "official legal-policy report",
+      "claim_supported": "Human expression and creative arrangement/modification assessed case-by-case; prompts alone insufficient; wholly AI material unprotected",
+      "authority_rating": "A for USCO position; no individual-work clearance",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "U.S. Copyright Office",
+      "supported_claims": [
+        "Human expression and creative arrangement/modification assessed case-by-case; prompts alone insufficient; wholly AI material unprotected"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-16",
+      "title": "C2PA and Content Credentials Explainer version2.2",
+      "publisher_author": "C2PA",
+      "url": "https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official standards explainer",
+      "claim_supported": "Tamper-evident provenance is not truth/value judgment or copyright clearance",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "C2PA",
+      "supported_claims": [
+        "Tamper-evident provenance is not truth/value judgment or copyright clearance"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-17",
+      "title": "Blambot Font Licenses",
+      "publisher_author": "Blambot",
+      "url": "https://blambot.com/pages/licenses",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official license terms",
+      "claim_supported": "Flattened indie comic use and webfont/embedding are different license cases; verify actual font",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Blambot",
+      "supported_claims": [
+        "Flattened indie comic use and webfont/embedding are different license cases; verify actual font"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-18",
+      "title": "ORIGINALS Creators Update: Increasing transparency and improving processes at WEBTOON",
+      "publisher_author": "WEBTOON",
+      "url": "https://webtoon.zendesk.com/hc/en-us/articles/9482697214996-ORIGINALS-Creators-Update-Increasing-transparency-and-improving-processes-at-WEBTOON",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official creator FAQ",
+      "claim_supported": "No universal episode rate; $1000 example is illustrative. Body forecasts2023 despite2025 update label; do not treat as current rate card",
+      "authority_rating": "B due temporal inconsistency",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 403,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "WEBTOON",
+      "supported_claims": [
+        "No universal episode rate; $1000 example is illustrative. Body forecasts2023 despite2025 update label; do not treat as current rate card"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Final direct-page verification shows supplied date is Last Updated/Last Modified, not independently established original publication date. Original field preserved separately.",
+        "Body forecasts a 2023 rollout despite displayed 2025 update: do not treat contract example or historical totals as a current rate card."
+      ],
+      "reachability_limits": [
+        "Secondary urllib HEAD returned 403; source text was read through web tool. This is method-dependent access, not a claim that the source was unreadable."
+      ],
+      "original_publication_date_field": "2025-05-08",
+      "last_modified_date": "2025-05-08",
+      "final_recheck": {
+        "access_date": "2026-09-06",
+        "access_utc_date": "2026-09-07",
+        "method": "web tool direct official page text",
+        "result": "reachable; checked date semantics and cited policy/metadata wording"
+      }
+    },
+    {
+      "id": "IND-19",
+      "title": "WEBTOON Ad Revenue Sharing Program Terms of Service",
+      "publisher_author": "WEBTOON",
+      "url": "https://www.webtoons.com/en/terms/adRevenueSharingPolicy",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official monetization terms",
+      "claim_supported": "Eligibility thresholds, separate approval and no revenue guarantee; legal right to publish required",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "WEBTOON",
+      "supported_claims": [
+        "Eligibility thresholds, separate approval and no revenue guarantee; legal right to publish required"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Final direct-page verification shows supplied date is Last Updated/Last Modified, not independently established original publication date. Original field preserved separately."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ],
+      "original_publication_date_field": "2026-01-06",
+      "last_modified_date": "2026-01-06",
+      "final_recheck": {
+        "access_date": "2026-09-06",
+        "access_utc_date": "2026-09-07",
+        "method": "web tool direct official page text",
+        "result": "reachable; checked date semantics and cited policy/metadata wording"
+      }
+    },
+    {
+      "id": "IND-20",
+      "title": "Ad Revenue",
+      "publisher_author": "Tapas Team",
+      "url": "https://help.tapas.io/hc/en-us/articles/360007703773-Ad-Revenue",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official monetization documentation",
+      "claim_supported": "Approximately70% ad revenue to creators; participation requirement; no CPM guarantee",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 403,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Tapas Team",
+      "supported_claims": [
+        "Approximately70% ad revenue to creators; participation requirement; no CPM guarantee"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Secondary urllib HEAD returned 403; source text was read through web tool. This is method-dependent access, not a claim that the source was unreadable."
+      ]
+    },
+    {
+      "id": "IND-21",
+      "title": "CANVAS Creator Dashboard FAQ",
+      "publisher_author": "WEBTOON CANVAS",
+      "url": "https://webtooncanvas.zendesk.com/hc/en-us/articles/48452348349332",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official current help",
+      "claim_supported": "PV/subscriber/episode analytics; collection changed Apr21 so before/after analytics not identical measurement",
+      "authority_rating": "A",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 403,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "WEBTOON CANVAS",
+      "supported_claims": [
+        "PV/subscriber/episode analytics; collection changed Apr21 so before/after analytics not identical measurement"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Final direct-page verification shows supplied date is Last Updated/Last Modified, not independently established original publication date. Original field preserved separately.",
+        "Body explicitly dates dashboard measurement change April 21, 2026; event date is independently supported even though article header is an update date."
+      ],
+      "reachability_limits": [
+        "Secondary urllib HEAD returned 403; source text was read through web tool. This is method-dependent access, not a claim that the source was unreadable."
+      ],
+      "original_publication_date_field": "2026-04-21",
+      "last_modified_date": "2026-04-21",
+      "final_recheck": {
+        "access_date": "2026-09-06",
+        "access_utc_date": "2026-09-07",
+        "method": "web tool direct official page text",
+        "result": "reachable; checked date semantics and cited policy/metadata wording"
+      },
+      "event_date": "2026-04-21"
+    },
+    {
+      "id": "IND-22",
+      "title": "WEBTOON unified international CANVAS platform and FAQ",
+      "publisher_author": "WEBTOON CANVAS",
+      "url": "https://webtooncanvas.zendesk.com/hc/zh-tw/articles/47592439172884-WEBTOON-Entertainment-%E5%AE%A3%E5%B8%83%E6%95%B4%E5%90%88%E5%85%A8%E7%90%83-CANVAS-%E5%B9%B3%E5%8F%B0-%E5%8A%A9%E5%8A%9B%E5%89%B5%E4%BD%9C%E8%80%85%E6%8B%93%E5%B1%95%E8%AE%80%E8%80%85%E4%B8%A6%E6%8F%90%E5%8D%87%E6%94%B6%E7%9B%8A-%E5%92%8C-FAQ",
+      "publication_date": "2026-03-26",
+      "access_date": "2026-09-06",
+      "source_type": "official program announcement (Traditional Chinese)",
+      "claim_supported": "Opt-in AI text translation beta planned spring2026,7 languages,glossary; not proof of universal availability",
+      "authority_rating": "A for announcement; availability not verified",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 403,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "WEBTOON CANVAS",
+      "supported_claims": [
+        "Opt-in AI text translation beta planned spring2026,7 languages,glossary; not proof of universal availability"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Body contains a March 26, 2026 announcement dateline, supporting publication date; the header also labels that date Updated. Planned rollout is not verified universal availability."
+      ],
+      "reachability_limits": [
+        "Secondary urllib HEAD returned 403; source text was read through web tool. This is method-dependent access, not a claim that the source was unreadable."
+      ],
+      "final_recheck": {
+        "access_date": "2026-09-06",
+        "access_utc_date": "2026-09-07",
+        "method": "web tool direct official page text",
+        "result": "reachable; checked date semantics and cited policy/metadata wording"
+      },
+      "last_modified_date": "2026-03-26"
+    },
+    {
+      "id": "IND-23",
+      "title": "Effects of Comic Application Interfaces on Reader Comprehension, Cognitive Processing, and Narrative Engagement",
+      "publisher_author": "Ching-I Chen, Szu-Chi Chen, Meng-Cong Zheng / Sage Open",
+      "url": "https://journals.sagepub.com/doi/10.1177/21582440261416099",
+      "publication_date": "2026-01-29",
+      "access_date": "2026-09-06",
+      "source_type": "primary peer-reviewed study",
+      "claim_supported": "Survey84,controlled24,artist interviews5; interface/fluency influenced recall and engagement; not vertical-native superiority proof",
+      "authority_rating": "A for study; limited external validity",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 403,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Ching-I Chen, Szu-Chi Chen, Meng-Cong Zheng / Sage Open",
+      "supported_claims": [
+        "Survey84,controlled24,artist interviews5; interface/fluency influenced recall and engagement; not vertical-native superiority proof"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [],
+      "reachability_limits": [
+        "Secondary urllib HEAD returned 403; source text was read through web tool. This is method-dependent access, not a claim that the source was unreadable."
+      ]
+    },
+    {
+      "id": "IND-24",
+      "title": "About WEBTOON",
+      "publisher_author": "WEBTOON / LINE Help Center",
+      "url": "https://help.line.me/LINE_WEBTOON/web/categoryId/20006001/3/pc?lang=en",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "source_type": "official help",
+      "claim_supported": "Describes ongoing ORIGINALS as weekly; individual series schedule/status must be checked separately",
+      "authority_rating": "A for service description",
+      "access_status": "reachable_text_read",
+      "notes": null,
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "WEBTOON / LINE Help Center",
+      "supported_claims": [
+        "Describes ongoing ORIGINALS as weekly; individual series schedule/status must be checked separately"
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "IND-25",
+      "title": "Webtoon writers' working conditions (2022)",
+      "publisher_author": "Korean Institute of Labor Safety and Health",
+      "url": "https://kilsh.or.kr/en/webtoon-writers-working-conditions2022/",
+      "publication_date": "2022",
+      "access_date": "2026-09-06",
+      "source_type": "primary research organization report",
+      "claim_supported": "15 in-depth interviews and320 surveyed practitioners;63% weekly publication;median70required cuts vs50considered appropriate. Historical, nonrepresentative sample, not2026benchmark.",
+      "authority_rating": "B:primary but translated summary contains numerical wording anomalies; use bounded descriptive findings only",
+      "access_status": "reachable_text_read",
+      "notes": "Do not use reported daily/weekly hour arithmetic or ambiguous income wording as market estimate.",
+      "secondary_http_head_check": {
+        "access_date": "2026-09-06",
+        "status": 200,
+        "method": "urllib HEAD; 403 does not supersede web-tool text retrieval"
+      },
+      "origin_ledger": "evidence/industry-citations.json",
+      "publisher": "Korean Institute of Labor Safety and Health",
+      "supported_claims": [
+        "15 in-depth interviews and320 surveyed practitioners;63% weekly publication;median70required cuts vs50considered appropriate. Historical, nonrepresentative sample, not2026benchmark."
+      ],
+      "reachable": true,
+      "access_timezone": "America/New_York",
+      "access_utc_date": null,
+      "date_limits": [
+        "Partial publication date preserves only verified precision; no day inferred."
+      ],
+      "reachability_limits": [
+        "Reachability refers to the recorded access and sampled content, not a guarantee of future availability or access to all episodes."
+      ]
+    },
+    {
+      "id": "CMP-TOG-0",
+      "title": "Tower of God, Season 1 Episode 0",
+      "publisher_author": "SIU / WEBTOON",
+      "url": "https://www.webtoons.com/en/fantasy/tower-of-god/season-1-ep-0/viewer?episode_no=1&title_no=95",
+      "publication_date": "2014-07-01",
+      "access_date": "2026-09-06",
+      "access_timezone": "America/New_York",
+      "access_utc_date": "2026-09-07",
+      "source_type": "licensed primary comic",
+      "claim_supported": "Currently served prologue: desire, silhouettes, generous white space",
+      "authority_rating": "high",
+      "reachable": true,
+      "limitations": "Publication date is edition/episode metadata, not proof that currently served raster is the original historical version.",
+      "origin_ledger": "evidence/comparable-citations.json",
+      "publisher": "SIU / WEBTOON",
+      "supported_claims": [
+        "Currently served prologue: desire, silhouettes, generous white space"
+      ],
+      "date_limits": [
+        "Episode dates concern this licensed edition metadata; currently served images may have been revised. A template weekday is not proof of active weekly production."
+      ],
+      "reachability_limits": [
+        "Publication date is edition/episode metadata, not proof that currently served raster is the original historical version."
+      ]
+    },
+    {
+      "id": "CMP-TOG-1",
+      "title": "Tower of God, Season 1 Episode 1",
+      "publisher_author": "SIU / WEBTOON",
+      "url": "https://www.webtoons.com/en/fantasy/tower-of-god/season-1-ep-1-1fheadons-floor/viewer?episode_no=2&title_no=95",
+      "publication_date": "2014-07-01",
+      "access_date": "2026-09-06",
+      "access_timezone": "America/New_York",
+      "access_utc_date": "2026-09-07",
+      "source_type": "licensed primary comic",
+      "claim_supported": "First nine image strips: contact causality, acting and relationship pressure",
+      "authority_rating": "high",
+      "reachable": true,
+      "limitations": "Publication date is edition/episode metadata, not proof that currently served raster is the original historical version.",
+      "origin_ledger": "evidence/comparable-citations.json",
+      "publisher": "SIU / WEBTOON",
+      "supported_claims": [
+        "First nine image strips: contact causality, acting and relationship pressure"
+      ],
+      "date_limits": [
+        "Episode dates concern this licensed edition metadata; currently served images may have been revised. A template weekday is not proof of active weekly production."
+      ],
+      "reachability_limits": [
+        "Publication date is edition/episode metadata, not proof that currently served raster is the original historical version."
+      ]
+    },
+    {
+      "id": "CMP-TOG-3",
+      "title": "Tower of God, Season 3 Episode 235",
+      "publisher_author": "SIU / WEBTOON",
+      "url": "https://www.webtoons.com/en/fantasy/tower-of-god/season-3-ep-235-season-3-finale/viewer?episode_no=653&title_no=95",
+      "publication_date": "2025-02-23",
+      "access_date": "2026-09-06",
+      "access_timezone": "America/New_York",
+      "access_utc_date": "2026-09-07",
+      "source_type": "licensed primary comic",
+      "claim_supported": "First three strips demonstrate more complex later rendering and vertical reveal; not entire finale quality",
+      "authority_rating": "high",
+      "reachable": true,
+      "limitations": "Publication date is edition/episode metadata, not proof that currently served raster is the original historical version.",
+      "origin_ledger": "evidence/comparable-citations.json",
+      "publisher": "SIU / WEBTOON",
+      "supported_claims": [
+        "First three strips demonstrate more complex later rendering and vertical reveal; not entire finale quality"
+      ],
+      "date_limits": [
+        "Episode dates concern this licensed edition metadata; currently served images may have been revised. A template weekday is not proof of active weekly production."
+      ],
+      "reachability_limits": [
+        "Publication date is edition/episode metadata, not proof that currently served raster is the original historical version."
+      ]
+    },
+    {
+      "id": "CMP-TOG-LIST",
+      "title": "Tower of God official series listing",
+      "publisher_author": "WEBTOON",
+      "url": "https://www.webtoons.com/en/fantasy/tower-of-god/list?title_no=95",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "access_timezone": "America/New_York",
+      "access_utc_date": "2026-09-07",
+      "source_type": "official publisher metadata",
+      "claim_supported": "Series premise, episode date, hiatus note coexists with weekly template",
+      "authority_rating": "high",
+      "reachable": true,
+      "limitations": "Publication date is edition/episode metadata, not proof that currently served raster is the original historical version.",
+      "origin_ledger": "evidence/comparable-citations.json",
+      "publisher": "WEBTOON",
+      "supported_claims": [
+        "Series premise, episode date, hiatus note coexists with weekly template"
+      ],
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability.",
+        "Episode dates concern this licensed edition metadata; currently served images may have been revised. A template weekday is not proof of active weekly production."
+      ],
+      "reachability_limits": [
+        "Publication date is edition/episode metadata, not proof that currently served raster is the original historical version."
+      ]
+    },
+    {
+      "id": "CMP-SL-1",
+      "title": "Solo Leveling, Episode 1",
+      "publisher_author": "DUBU(REDICE STUDIO), Chugong, h-goon / Tapas",
+      "url": "https://tapas.io/episode/2099900",
+      "publication_date": "2021-04-05",
+      "access_date": "2026-09-06",
+      "access_timezone": "America/New_York",
+      "access_utc_date": "2026-09-07",
+      "source_type": "licensed primary comic",
+      "claim_supported": "First twelve image strips: vulnerability, scale contrast, windup, implied impact, bright reset",
+      "authority_rating": "high",
+      "reachable": true,
+      "limitations": "Bounded sample only; unavailable dimensions not assessed.",
+      "origin_ledger": "evidence/comparable-citations.json",
+      "publisher": "DUBU(REDICE STUDIO), Chugong, h-goon / Tapas",
+      "supported_claims": [
+        "First twelve image strips: vulnerability, scale contrast, windup, implied impact, bright reset"
+      ],
+      "date_limits": [],
+      "reachability_limits": [
+        "Bounded sample only; unavailable dimensions not assessed."
+      ]
+    },
+    {
+      "id": "CMP-SL-YP",
+      "title": "Solo Leveling Vol. 1 (comic)",
+      "publisher_author": "Yen Press",
+      "url": "https://yenpress.com/titles/9781975319441-solo-leveling-vol-1-comic",
+      "publication_date": "2021-03-02",
+      "access_date": "2026-09-06",
+      "access_timezone": "America/New_York",
+      "access_utc_date": "2026-09-07",
+      "source_type": "official publisher metadata and preview",
+      "claim_supported": "Separate translator and letterer credits; livelihood stakes; bounded print preview differs from scroll",
+      "authority_rating": "high",
+      "reachable": true,
+      "limitations": "Bounded sample only; unavailable dimensions not assessed.",
+      "origin_ledger": "evidence/comparable-citations.json",
+      "publisher": "Yen Press",
+      "supported_claims": [
+        "Separate translator and letterer credits; livelihood stakes; bounded print preview differs from scroll"
+      ],
+      "date_limits": [],
+      "reachability_limits": [
+        "Bounded sample only; unavailable dimensions not assessed."
+      ]
+    },
+    {
+      "id": "CMP-SL-TP",
+      "title": "Solo Leveling official comic",
+      "publisher_author": "Tappytoon",
+      "url": "https://www.tappytoon.com/en/book/solo-leveling-official",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "access_timezone": "America/New_York",
+      "access_utc_date": "2026-09-07",
+      "source_type": "licensed publisher metadata",
+      "claim_supported": "Licensed English edition; progression premise; episodes0\u20133 shown free as accessed",
+      "authority_rating": "high",
+      "reachable": true,
+      "limitations": "Bounded sample only; unavailable dimensions not assessed.",
+      "origin_ledger": "evidence/comparable-citations.json",
+      "publisher": "Tappytoon",
+      "supported_claims": [
+        "Licensed English edition; progression premise; episodes0\u20133 shown free as accessed"
+      ],
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Bounded sample only; unavailable dimensions not assessed."
+      ]
+    },
+    {
+      "id": "CMP-SIU",
+      "title": "Interview: Tower of God Creator SIU",
+      "publisher_author": "Jay Gibbs / Anime Corner",
+      "url": "https://animecorner.me/interview-tower-of-god-creator-siu/",
+      "publication_date": "2025-09-04",
+      "access_date": "2026-09-06",
+      "access_timezone": "America/New_York",
+      "access_utc_date": "2026-09-07",
+      "source_type": "primary creator interview",
+      "claim_supported": "SIU account of rapid reader feedback, avoiding boredom and character chemistry changing story",
+      "authority_rating": "high for attributed account; not independently verified production facts",
+      "reachable": true,
+      "limitations": "Bounded sample only; unavailable dimensions not assessed.",
+      "origin_ledger": "evidence/comparable-citations.json",
+      "publisher": "Jay Gibbs / Anime Corner",
+      "supported_claims": [
+        "SIU account of rapid reader feedback, avoiding boredom and character chemistry changing story"
+      ],
+      "date_limits": [],
+      "reachability_limits": [
+        "Bounded sample only; unavailable dimensions not assessed."
+      ]
+    },
+    {
+      "id": "CMP-ORV",
+      "title": "Omniscient Reader official series listing",
+      "publisher_author": "WEBTOON",
+      "url": "https://www.webtoons.com/en/action/omniscient-reader/list?title_no=2154",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "access_timezone": "America/New_York",
+      "access_utc_date": "2026-09-07",
+      "source_type": "official publisher metadata",
+      "claim_supported": "Synopsis gives protagonist information advantage; no visual assessment",
+      "authority_rating": "high",
+      "reachable": true,
+      "limitations": "Bounded sample only; unavailable dimensions not assessed.",
+      "origin_ledger": "evidence/comparable-citations.json",
+      "publisher": "WEBTOON",
+      "supported_claims": [
+        "Synopsis gives protagonist information advantage; no visual assessment"
+      ],
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability."
+      ],
+      "reachability_limits": [
+        "Bounded sample only; unavailable dimensions not assessed."
+      ]
+    },
+    {
+      "id": "CMP-TOG-MOBILE",
+      "title": "Tower of God mobile prologue access",
+      "publisher_author": "WEBTOON",
+      "url": "https://m.webtoons.com/en/fantasy/tower-of-god/season-1-ep-0/viewer?episode_no=1&title_no=95",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "access_timezone": "America/New_York",
+      "access_utc_date": "2026-09-07",
+      "source_type": "official reader access limitation",
+      "claim_supported": "Text route reports preview limit and app access; not a visual-quality failure",
+      "authority_rating": "high",
+      "reachable": true,
+      "limitations": "Publication date is edition/episode metadata, not proof that currently served raster is the original historical version.",
+      "origin_ledger": "evidence/comparable-citations.json",
+      "publisher": "WEBTOON",
+      "supported_claims": [
+        "Text route reports preview limit and app access; not a visual-quality failure"
+      ],
+      "date_limits": [
+        "Publication date not established; no date inferred from URL, access date or current availability.",
+        "Episode dates concern this licensed edition metadata; currently served images may have been revised. A template weekday is not proof of active weekly production."
+      ],
+      "reachability_limits": [
+        "Reachable preview/app-access limitation text; not a complete mobile comic or failed art-quality observation.",
+        "Publication date is edition/episode metadata, not proof that currently served raster is the original historical version."
+      ]
+    },
+    {
+      "id": "MODEL-ASTRA-01",
+      "title": "GPT-6 Astra Model",
+      "publisher": "OpenAI",
+      "publisher_author": "OpenAI",
+      "author": "OpenAI",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "publication_date": null,
+      "access_date": "2026-09-06",
+      "accessed_utc": "2026-09-07T02:50:19.105660+00:00",
+      "source_type": "official model documentation",
+      "claim_supported": [
+        "Astra supports complex reasoning, coding, computer use, research and document creation.",
+        "Text input/output and image input; image-generation tool support is distinct from native raster output."
+      ],
+      "authority_rating": "Primary official specification; not independent comics-quality evidence",
+      "reachability": "Successfully opened through web tool in this session",
+      "limits": "No measured Astra-versus-prior-model sequential-art trial. Local Codex selection does not establish API account entitlement, usage, backend snapshot or image-tool identity."
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "schema": "TechnicalMeasurements/1.0",
+  "measurement_date": "2026-09-07",
+  "scope": "Read-only protected artifacts; AST, JSON, HTML and file-hash analysis. No old builds, generators or validators executed. UTC date; owner local date September 6.",
+  "evidence_priority": "Records and code establish mechanism and provenance, not visual acceptance.",
+  "legacy_code": {
+    "modules": 603,
+    "physical_lines": 76613,
+    "validate_prefixed_modules": 317,
+    "relative_or_package_import_modules": [
+      "sequential_inpaint_g07.py",
+      "validate_ch05_overnight_safe_source_change_inventory.py"
+    ],
+    "sha_named_function_definitions": {
+      "sha": 248,
+      "sha256": 224,
+      "sha256_bytes": 17,
+      "sha_bytes": 3,
+      "sha256_file": 12,
+      "sha_json": 1,
+      "sha_file": 1
+    },
+    "limitation": "Physical lines are not logical LOC. Package-import count excludes bare sibling imports and dynamic imports; duplication is a maintenance proxy, not measured lost time."
+  },
+  "premium": {
+    "premium52": {
+      "worktree": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-premium-rd-20260904-150943",
+      "panels": 52,
+      "asset_records": 158,
+      "render_records": 158,
+      "preserved_failure_records": 2,
+      "lettering_units": 57,
+      "source_art_hash_fields_present": 0,
+      "distinct_source_art_hashes": 0,
+      "workflows": {
+        "baseline": {
+          "panel_positions": 52,
+          "distinct_asset_sha256": 24,
+          "distinct_score_vectors": 2
+        },
+        "raw": {
+          "panel_positions": 52,
+          "distinct_asset_sha256": 52,
+          "distinct_score_vectors": 3
+        },
+        "hybrid": {
+          "panel_positions": 52,
+          "distinct_asset_sha256": 52,
+          "distinct_score_vectors": 1
+        }
+      },
+      "panel_one_beat": "The Ember Vault drops beneath one chain bridge; Elian and Mira are small adult silhouettes crossing toward the sealed bell lift.",
+      "panel_one_scenarios": [
+        "hero_close_up"
+      ],
+      "source_manifest": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-premium-rd-20260904-150943/production/reimaginings/ember-lattice/premium-rd/ch01-manifest.json"
+    },
+    "editorial52": {
+      "worktree": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904",
+      "panels": 52,
+      "asset_records": 170,
+      "render_records": 170,
+      "preserved_failure_records": 14,
+      "lettering_units": 59,
+      "source_art_hash_fields_present": 52,
+      "distinct_source_art_hashes": 52,
+      "workflows": {
+        "baseline": {
+          "panel_positions": 52,
+          "distinct_asset_sha256": 24,
+          "distinct_score_vectors": 2
+        },
+        "raw": {
+          "panel_positions": 52,
+          "distinct_asset_sha256": 52,
+          "distinct_score_vectors": 3
+        },
+        "hybrid": {
+          "panel_positions": 52,
+          "distinct_asset_sha256": 52,
+          "distinct_score_vectors": 1
+        }
+      },
+      "panel_one_beat": "The Ember Vault drops beneath one chain bridge; Elian and Mira are small adult silhouettes crossing toward the sealed bell lift.",
+      "panel_one_scenarios": [
+        "hero_close_up"
+      ],
+      "source_manifest": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/production/reimaginings/ember-lattice/premium-rd/ch01-manifest.json",
+      "actual_source_hash_verification": {
+        "checked": 52,
+        "missing": 0,
+        "mismatch": 0
+      },
+      "clean_art_counts": {
+        "audited": 52,
+        "failures": 12,
+        "repaired": 12,
+        "unresolved": 0
+      }
+    },
+    "timing_record": {
+      "benchmark_generation_calls": 24,
+      "benchmark_targeted_edit_calls": 4,
+      "built_in_reference_calls": 3,
+      "ch01_targeted_edit_calls": 2,
+      "ch01_unique_generation_calls": 28,
+      "direct_paid_cloud_spend_usd": 0,
+      "note": "Per-output elapsed in RenderRecords is amortized orchestration wall time within parallel batches; exact provider execution time was not exposed. All 52 CH01 panels now resolve to distinct art-file hashes.",
+      "observed_parallel_batch_wall_seconds": {
+        "benchmark": [
+          271.0,
+          263.0,
+          296.0,
+          251.0,
+          256.0
+        ],
+        "ch01_repairs": [
+          67.1
+        ],
+        "ch01_unique": [
+          811.0,
+          637.0,
+          971.0,
+          493.0
+        ]
+      },
+      "provider_cost": null,
+      "provider_usage": null,
+      "schema": "GenerationTiming/1.0",
+      "seed": null
+    },
+    "recorded_call_total": 61
+  },
+  "test_discovery": {
+    "anime-pipeline-reimagining-20260903": {
+      "path": "/mnt/c/AgentWorkspaces/anime-pipeline-reimagining-20260903/src/reimaginings/borrowed_down/test_pipeline.py",
+      "test_methods": [
+        "test_sha_is_stable",
+        "test_safe_zone_semantics",
+        "test_contact_dimensions",
+        "test_volume_source_is_exact"
+      ],
+      "count": 4,
+      "executed_here": false
+    },
+    "anime-pipeline-reimagining-clean-webtoon-20260903-213010": {
+      "path": "/mnt/c/AgentWorkspaces/anime-pipeline-reimagining-clean-webtoon-20260903-213010/src/reimaginings/the_city_keeps_oaths/test_pipeline.py",
+      "test_methods": [
+        "test_complete_volume_contract",
+        "test_ids_are_unique_and_chronological",
+        "test_safe_zone_is_ltrb",
+        "test_prompts_are_text_free_and_hash_bound",
+        "test_irreversible_edges_chain",
+        "test_cross_medium_structures_absent"
+      ],
+      "count": 6,
+      "executed_here": false
+    },
+    "anime-pipeline-ember-lattice-editorial-gear-20260904": {
+      "path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/src/reimaginings/ember_lattice/premium_rd/tests/test_premium_rd.py",
+      "test_methods": [
+        "test_valid_bundle_builds_and_audits",
+        "test_hash_mismatch_fails_closed",
+        "test_missing_scenario_fails_closed",
+        "test_rubric_uses_median_and_weakest_panel",
+        "test_broken_link_is_reported",
+        "test_lettering_collision_fails_closed",
+        "test_excessive_balloon_area_fails_closed",
+        "test_small_phone_type_fails_closed",
+        "test_missing_negative_space_declaration_fails_closed",
+        "test_duplicate_selected_art_fails_closed",
+        "test_unresolved_clean_art_failure_fails_closed"
+      ],
+      "count": 11,
+      "executed_here": false
+    }
+  },
+  "historical_cost": {
+    "g07_documented_aggregate_usd": 1.057377,
+    "evidence": "/mnt/c/AgentWorkspaces/anime-pipeline/docs/research/g07-provider-bakeoff-comparison-20260901.md",
+    "qualification": "Historical mixed provider credits/ticks and usage-rate estimates, including $0.07 failed transport. Not current audit spend; invoices not independently inspected."
+  },
+  "current_audit_direct_paid_cloud_spend_usd": 0,
+  "unknowns": {
+    "provider_backend_model_snapshot": null,
+    "provider_seed": null,
+    "provider_usage": null,
+    "provider_cost_in_product": null,
+    "owner_accepted_panel_rate": null,
+    "human_minutes_per_accepted_panel": null
+  },
+  "code_counterexamples": [
+    {
+      "id": "score_templates",
+      "classification": "observed source",
+      "path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/src/reimaginings/ember_lattice/premium_rd/integrate.py",
+      "first_line": 117,
+      "last_line": 132,
+      "file_sha256": "7912bfdc917b6b0d2a9d0bd442c56975e555cd85faddbe4b2a88954ef0856799",
+      "excerpt": "def criteria_scores(workflow: str, case_no: int, hybrid: bool=False) -> dict[str,float]:\n    if workflow==\"baseline\":\n        base=[3.5,3.8,3.5,3.3,3.3,3.5,3.7,3.7,3.3,3.2,3.7,3.8,3.6,3.1,3.8,3.2,3.0,4.1,5.0,3.4,3.4]\n    elif workflow==\"raw\":\n        base=[4.3,4.5,4.2,4.1,4.2,4.2,4.3,4.4,3.9,3.8,4.5,4.5,4.4,3.9,3.0,2.0,3.0,3.5,5.0,3.8,4.0]\n    else:\n        base=[4.4,4.5,4.4,4.2,4.3,4.3,4.4,4.5,4.2,4.3,4.5,4.5,4.5,4.7,5.0,4.2,4.8,3.3,5.0,4.6,4.5]\n    values=dict(zip(REQUIRED_CRITERIA,base))\n    if workflow==\"raw\" and case_no in {4,6,8}:\n        values[\"environment_continuity\"]-=1.2; values[\"lettering_safe_composition\"]-=.5; values[\"failure_rate\"]-=.7\n    if workflow==\"raw\" and case_no==17:\n        values[\"costume_equipment_continuity\"]-=1.2; values[\"contact_consequence\"]-=1.0; values[\"action_geography\"]-=.6\n    if case_no in {12,13,14,15,16,17} and workflow==\"baseline\":\n        values[\"action_geography\"]-=.2; values[\"contact_consequence\"]-=.2\n    return {k:round(max(0,min(5,v)),2) for k,v in values.items()}\n",
+      "claim": "Workflow-specific constants construct quality scores."
+    },
+    {
+      "id": "round_robin_scenarios",
+      "classification": "observed source",
+      "path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/src/reimaginings/ember_lattice/premium_rd/integrate.py",
+      "first_line": 222,
+      "last_line": 225,
+      "file_sha256": "7912bfdc917b6b0d2a9d0bd442c56975e555cd85faddbe4b2a88954ef0856799",
+      "excerpt": "            frozen={\"elian\":spec[\"references\"][0][\"sha256\"],\"mira\":spec[\"references\"][1][\"sha256\"]}\n            failures.append({\"failure_id\":f\"repair-ch01-p{n:03d}\",\"panel_id\":p[\"panel_id\"],\"workflow_id\":\"hybrid\",\"failed_asset_id\":failed[\"asset_id\"],\"failure_class\":\"PREMATURE_BOSS_REVEAL\",\"changed_instruction\":\"Remove the Belljaw entirely; preserve adults, gear, bridge action, camera, palette, and negative space.\",\"status\":\"REPAIRED\",\"frozen_variables\":[\"adult identities\",\"costumes\",\"equipment\",\"bridge beat\",\"camera\",\"palette\",\"negative space\"],\"repaired_asset_id\":variants[\"hybrid\"],\"non_target_hashes_before\":frozen,\"non_target_hashes_after\":frozen,\"edit_provider_request_id\":CH01_REPAIR_REQUEST_IDS[n]})\n        scenarios=[REQUIRED_SCENARIOS[(n-1)%len(REQUIRED_SCENARIOS)]]\n        panels.append({\"schema\":\"ComicPanelPlan/1.0\",\"panel_id\":p[\"panel_id\"],\"sequence_id\":p[\"sequence_id\"],\"order\":n,\"beat\":p[\"beat\"],\"density\":p[\"density\"],\"action\":p[\"action\"],\"action_sequence\":\"ch01-belljaw-chain\" if p[\"action\"] else None,\"scenarios\":scenarios,\"variants\":variants,\"focal_exclusions\":[p[\"focal_exclusion\"]],\"lettering_safe_zones\":safe,\"lettering_units\":units(n,safe)})",
+      "claim": "Required scenarios are cycled by ordinal, not derived from scene content."
+    },
+    {
+      "id": "protected_zone_selection",
+      "classification": "observed source",
+      "path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/src/reimaginings/ember_lattice/premium_rd/editorial.py",
+      "first_line": 71,
+      "last_line": 87,
+      "file_sha256": "2cbf7dd4c5d3977e7f10205ec2514aca1db472e2f5023f5e7ed81f3e02cd9745",
+      "excerpt": "\ndef _protected_zones(focal: list[float], negative: list[list[float]]) -> list[dict[str, Any]]:\n    x1, y1, x2, y2 = focal\n    w, h = x2 - x1, y2 - y1\n    candidates = {\n        \"primary_action_silhouette\": [[.34,.34,.66,.66],[.28,.34,.56,.62],[.44,.34,.72,.62]],\n        \"face_eyes\": [[.36,.10,.64,.28],[.58,.12,.84,.30],[.16,.12,.42,.30]],\n        \"expressive_hands_weapon_contact\": [[.16,.44,.44,.62],[.56,.44,.84,.62],[.36,.42,.64,.60]],\n        \"equipment_injury_evidence\": [[.34,.70,.62,.88],[.12,.68,.40,.86],[.60,.68,.88,.86]],\n    }\n    result=[]\n    for kind, options in candidates.items():\n        boxes=[[x1+a*w,y1+b*h,x1+c*w,y1+d*h] for a,b,c,d in options]\n        chosen=next((box for box in boxes if all(_overlap(box,region)<=1e-5 for region in negative)),boxes[-1])\n        result.append({\"type\":kind,\"box\":[round(v,5) for v in chosen]})\n    return result\n",
+      "claim": "Generic proxy zones are selected to avoid authored negative-space regions."
+    },
+    {
+      "id": "reservation_backfill",
+      "classification": "observed source",
+      "path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/src/reimaginings/ember_lattice/premium_rd/editorial.py",
+      "first_line": 335,
+      "last_line": 345,
+      "file_sha256": "2cbf7dd4c5d3977e7f10205ec2514aca1db472e2f5023f5e7ed81f3e02cd9745",
+      "excerpt": "        panel[\"original_lettering_units\"]=original_units[order]\n        panel[\"lettering_units\"]=copy.deepcopy(authored[order])\n        negative=copy.deepcopy(source_plan.get(\"lettering_safe_zones\",[]))\n        if panel[\"lettering_units\"] and not negative:\n            negative=[copy.deepcopy(u[\"box\"]) for u in panel[\"lettering_units\"]]\n        # The authored boxes are the exact reservation when the earlier broad zone is too coarse.\n        for unit in panel[\"lettering_units\"]:\n            if not any(_inside(unit[\"box\"],region) for region in negative): negative.append(copy.deepcopy(unit[\"box\"]))\n        panel[\"negative_space_regions\"]=negative\n        panel[\"negative_space_declaration\"]=(\"No lettering required; intentional full-bleed/silent composition.\" if not panel[\"lettering_units\"] else \"Reserve the listed normalized regions as low-detail negative space before art generation or repair.\")\n        panel[\"protected_zones\"]=_protected_zones(panel[\"focal_exclusions\"][0], negative)",
+      "claim": "Lettering boxes are appended to negative-space definitions after art exists."
+    },
+    {
+      "id": "blanket_editorial_scores",
+      "classification": "observed source",
+      "path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/src/reimaginings/ember_lattice/premium_rd/editorial.py",
+      "first_line": 403,
+      "last_line": 412,
+      "file_sha256": "2cbf7dd4c5d3977e7f10205ec2514aca1db472e2f5023f5e7ed81f3e02cd9745",
+      "excerpt": "    # Reconcile recommendation and score evidence without changing the selected architecture.\n    manifest['project']['build_id']='premium-rd-ch01-editorial-gear-20260904'\n    manifest['project']['editorial_schema']='LetteringPlan/2.0'\n    manifest['recommendation']['architecture']=\"Approved reference-conditioned raster plates → targeted deterministic clean-art repair for classified high-frequency failures → exact predeclared negative-space geometry → editable organic SVG speech/SFX/Ledger overlays → collision, density, value, and noise diagnostics → hash-ledger assembly.\"\n    manifest['recommendation']['remaining_gaps']=\"Pixel-level regeneration remains unavailable because provider seeds, model snapshot, and usage are not exposed. Generated source plates and concepts remain commercially uncleared; deterministic overlays, post-processing code, manifests, and vector concept diagrams are reproducible when the hash-pinned source raster cache is available.\"\n    for evaluation in rubric['evaluations']:\n        if evaluation['workflow_id']=='hybrid':\n            evaluation['scores']['lettering_safe_composition']=4.95\n            evaluation['scores']['sustained_sequential_quality']=4.7\n            evaluation['evidence']=\"Full-size and 390×844 editorial review; exact negative-space declarations; fail-closed collision, density, typography, duplicate-art, and clean-art audits.\"",
+      "claim": "All hybrid rows receive the same improved lettering and sequence scores."
+    },
+    {
+      "id": "median_filter_repair",
+      "classification": "observed source",
+      "path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/src/reimaginings/ember_lattice/premium_rd/editorial.py",
+      "first_line": 134,
+      "last_line": 140,
+      "file_sha256": "2cbf7dd4c5d3977e7f10205ec2514aca1db472e2f5023f5e7ed81f3e02cd9745",
+      "excerpt": "def _clean_plate(source: Path, target: Path, blend: float) -> None:\n    target.parent.mkdir(parents=True, exist_ok=True)\n    with Image.open(source) as opened:\n        original = opened.convert(\"RGB\")\n    median = original.filter(ImageFilter.MedianFilter(3))\n    cleaned = Image.blend(original, median, blend)\n    cleaned.save(target, format=\"PNG\", optimize=True, compress_level=9)",
+      "claim": "Clean-art correction blends original RGB with MedianFilter(3)."
+    },
+    {
+      "id": "reader_resolves_leaf",
+      "classification": "observed source",
+      "path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/src/reimaginings/ember_lattice/premium_rd/render.py",
+      "first_line": 225,
+      "last_line": 241,
+      "file_sha256": "656dca3e555b82cdf323cbea11463bb16f1624b978684d283d296f7a9f9890aa",
+      "excerpt": "        for workflow_id in workflow_ids:\n            target = output_root / \"panels\" / workflow_id / f\"{panel_id}.svg\"\n            asset_path = resolve_under(content_root, assets[panel[\"variants\"][workflow_id]][\"path\"], \"asset.path\")\n            emit_text(str(target.relative_to(output_root)).replace(\"\\\\\", \"/\"), _panel_svg(panel, asset_path, target, width, height, \"normal\"))\n            variant_hrefs[workflow_id][panel_id] = f\"../panels/{workflow_id}/{panel_id}.svg\"\n            comparison_art_hrefs[workflow_id][panel_id] = rel_href(_leaf_art_path(asset_path), output_root / \"comparison\")\n        original_panel = dict(panel)\n        original_panel[\"lettering_units\"] = panel.get(\"original_lettering_units\", [])\n        original_target = output_root / \"panels\" / \"original-lettering\" / f\"{panel_id}.svg\"\n        emit_text(str(original_target.relative_to(output_root)).replace(\"\\\\\", \"/\"), _panel_svg(original_panel, original_target, original_target, width, height, \"normal\"))\n        original_lettering_hrefs[panel_id] = f\"../panels/original-lettering/{panel_id}.svg\"\n        normal_hrefs[panel_id] = f\"../panels/{selected}/{panel_id}.svg\"\n        selected_asset = resolve_under(content_root, assets[panel[\"variants\"][selected]][\"path\"], \"asset.path\")\n        selected_art = _leaf_art_path(selected_asset)\n        reader_art_hrefs[panel_id] = rel_href(selected_art, output_root / \"readers\")\n        diagnostic_art_hrefs[panel_id] = rel_href(selected_art, output_root / \"diagnostics\")\n        for mode, folder in ((\"grayscale\", \"grayscale\"), (\"safe-zone\", \"safe-zone\"), (\"lettering-collision\", \"lettering-collision\"), (\"dialogue-density\", \"dialogue-density\"), (\"noise\", \"noise\")):",
+      "claim": "Actual HTML references raster leaf paths separately from editable lettering."
+    }
+  ],
+  "reader_html_evidence": {
+    "path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/docs/reimaginings/ember-lattice/premium-rd/readers/phone.html",
+    "first_art_and_overlay_tags": [
+      "<img class=\"art\" loading=\"lazy\" src=\"../../../../../experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm07.png\" alt=\"The Ember Vault drops beneath one chain bridge; Elian and Mira are small adult silhouettes crossing toward the sealed bell lift.\">",
+      "<img class=\"overlay\" loading=\"lazy\" src=\"../panels/hybrid/el-pr-ch01-s01-p001.svg\" alt=\"\" aria-hidden=\"true\">",
+      "<img class=\"art\" loading=\"lazy\" src=\"../../../../../experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p002.png\" alt=\"One orange pulse travels upward through the chain and lifts dust against gravity.\">",
+      "<img class=\"overlay\" loading=\"lazy\" src=\"../panels/hybrid/el-pr-ch01-s01-p002.svg\" alt=\"\" aria-hidden=\"true\">"
+    ]
+  },
+  "reproduction_method": "AST: glob src/north_garden/*.py, count splitlines and FunctionDef names; parse manifests and rubric JSON; count sets of sha256 and canonical sorted score dict; hash 52 result_path bytes against result_hash; inspect reader img src. No source imports or builds required.",
+  "selected_art_to_story_mapping": {
+    "rows": [
+      {
+        "panel_order": 1,
+        "panel_id": "el-pr-ch01-s01-p001",
+        "chapter_plan_beat": "The Ember Vault drops beneath one chain bridge; Elian and Mira are small adult silhouettes crossing toward the sealed bell lift.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm07.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm07.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Vertical Ember Vault establishing view: tiny Elian and Mira cross one suspended chain bridge toward the sealed bell lift amid fired-clay ribs and geothermal depth; three clear depth planes.\nDeclared density: high. Deterministic overlay intent: dungeon.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "077c248f65cbf17467adfe8d678941cb157b2a8d86a1c6043adaff1b8ec7788b"
+      },
+      {
+        "panel_order": 2,
+        "panel_id": "el-pr-ch01-s01-p002",
+        "chapter_plan_beat": "One orange pulse travels upward through the chain and lifts dust against gravity.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p002.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p002.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Extreme close-up of a single ember-orange pulse traveling upward through an old black chain while fine dust lifts against gravity; no characters; large dark negative space above.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "64b05ff472e9d2069d98ae9188dbde7107f5daff486e83dba20280de54cbd599"
+      },
+      {
+        "panel_order": 3,
+        "panel_id": "el-pr-ch01-s01-p003",
+        "chapter_plan_beat": "Elian finds a bright straight shear face inside otherwise old rounded bridge wear.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p003.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p003.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Elian Voss crouches at the bridge rail, tracing a fresh bright straight shear face cut through otherwise rounded old wear; investigative close-up, his hooked shortblade safely tethered.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "87c7ce67883740620887e1da96d8e4a29197c3aef33124a08d106075298a4fc7"
+      },
+      {
+        "panel_order": 4,
+        "panel_id": "el-pr-ch01-s01-p004",
+        "chapter_plan_beat": "Elian watches the sealed lift while his weak starting state is shown in reserved negative space.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm20.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm20.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Elian in three-quarter profile steadies his breathing against a plain kiln wall; large clean negative-space field at upper left for compact Status, XP and Level UI.\nDeclared density: low. Deterministic overlay intent: status_xp_level.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "91ef38085bb4f076ae302db5427e697e10187d20e5b72d69ffa3ceda6e36783a"
+      },
+      {
+        "panel_order": 5,
+        "panel_id": "el-pr-ch01-s01-p005",
+        "chapter_plan_beat": "Mira asks whether the shear is old; Elian identifies it as a clean opening.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p005.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p005.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Quiet two-shot on the chain bridge: adult Mira Kest studies the fresh shear while adult Elian answers with grave focus; sealed bell lift distant behind them; clear upper negative space.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "fc36fd46310cc4844f77eeba3b46da2a89f85dde51ff45b3d959b42c5586cdb3"
+      },
+      {
+        "panel_order": 6,
+        "panel_id": "el-pr-ch01-s01-p006",
+        "chapter_plan_beat": "Mira confirms that Elian still has both Iron Seals as his thumb moves toward them.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p006.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p006.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Close equipment insert: Mira asks about both seals as Elian's thumb moves toward the unique Spark Talisman in front of two untouched iron seals; anatomically correct hand, three objects unambiguous.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "00b03f4ec4c5ee2d9fa96f3d84821649e629233bbe2d675f8821bce874eea9b9"
+      },
+      {
+        "panel_order": 7,
+        "panel_id": "el-pr-ch01-s01-p007",
+        "chapter_plan_beat": "The bridge drops half a link; Mira catches the rail and Elian catches her spear shaft in a practiced response.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/raw-failures/p007-pre-repair.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p007.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: The chain bridge suddenly drops half a link; Mira catches the rail and Elian catches her dark-teal spear shaft in a practiced response; one clear downward motion and legible contact points.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "08a9a33e46f9e5d667555b0bd7977a6f5d5c46698cf613897e36d6b573128633"
+      },
+      {
+        "panel_order": 8,
+        "panel_id": "el-pr-ch01-s01-p008",
+        "chapter_plan_beat": "They release each other's gear; the intact Spark Talisman blinks behind two untouched Iron Seals.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/raw-failures/p008-pre-repair.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p008.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: After the catch, Elian and Mira deliberately release each other's gear; close equipment continuity shot with intact Spark Talisman blinking behind two untouched iron seals; calm before threat.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "eba681d482b2e6c0892e16b5f0021833a2fb76bc235cac5217ed1323404fc2af"
+      },
+      {
+        "panel_order": 9,
+        "panel_id": "el-pr-ch01-s01-p009",
+        "chapter_plan_beat": "Belljaw Warden climbs onto the far platform and opens the orange seam of its bell-shaped jaw.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm09.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm09.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Belljaw Warden emerges side-on from behind a kiln rib, iconic ivory shell, four black articulated forelimbs and bell jaw seam clearly readable, open upper-right field.\nDeclared density: moderate. Deterministic overlay intent: enemy.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "b1f68c73f7c1a8720bc239b41dd12c2e97bac89ed5df0b73f2f706b48496d4d7"
+      },
+      {
+        "panel_order": 10,
+        "panel_id": "el-pr-ch01-s01-p010",
+        "chapter_plan_beat": "The Level 6 custodian fills the bridge mouth while a narrow threat plate identifies its load response.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm10.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm10.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: The towering Bell Regent climbs a vertical cable far below the city lift; original hollow bell torso, four long jointed legs and crown yoke, monumental but spatially clear.\nDeclared density: high. Deterministic overlay intent: boss.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "3a329896d43556b27f03ff01b5494ab2f54db0245489ba789c0d8547824b6e50"
+      },
+      {
+        "panel_order": 11,
+        "panel_id": "el-pr-ch01-s01-p011",
+        "chapter_plan_beat": "Elian tracks jaw, shoulder, forefeet, and anchor while visibly holding his breath.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p011.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p011.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Tight adult Elian close-up holding his breath as his eyes track the Belljaw's jaw, shoulder, forefeet, and the intact bridge anchor in one readable diagonal; boss blurred at distance.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "b42f138a2af0ba26b7d501a2d929b51e4dfb7127bea169fc83f7336ccbb4f868"
+      },
+      {
+        "panel_order": 12,
+        "panel_id": "el-pr-ch01-s01-p012",
+        "chapter_plan_beat": "Belljaw is right, Mira center-left, Elian behind, intact anchor below-left, and the sealed lift beyond the boss.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm06.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm06.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Elian, Mira, Orin and Sable share one tense platform; four distinct mature adult silhouettes and eyelines, no duplicated faces, open top band. Elian and Mira remain exact. Orin Pell is a broad compact 41-year-old light-olive forge-medic with graying dark hair, short boxed beard and rust-red apron. Sable Renn is a wiry 35-year-old fair cool-complexioned woman with amber eyes, black undercut, silver temple streak, fitted black-plum coat and segmented straight saber.\nDeclared density: moderate. Deterministic overlay intent: faction.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "986cf4f419758f84514b030e71f8c8c95cd79db282ccc7ca2a5056ef068bf33b"
+      },
+      {
+        "panel_order": 13,
+        "panel_id": "el-pr-ch01-s02-p013",
+        "chapter_plan_beat": "Mira locks her rear boot behind a crossbar and forms the Bastion Lancer T-silhouette.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p013.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p013.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Full-body adult Mira locks her rear boot behind one bridge crossbar and forms a stable T-shaped Bastion Lancer silhouette with ivory split shield and dark-teal spear; hands and footing fully visible.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "466d1bceec51c83c21b2e160d058dd6e9bd367794c9e9f4950d0aa2defa0b2b0"
+      },
+      {
+        "panel_order": 14,
+        "panel_id": "el-pr-ch01-s02-p014",
+        "chapter_plan_beat": "Belljaw launches right-to-left and punches one foreclaw through a bridge plank.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm11.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p014.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Elian performs one low Fault Step left-to-right beneath Belljaw's jaw, hookblade aligned to the orange ankle seam; extreme foreshortening only along movement vector, grip and feet plausible.\nDeclared density: moderate. Deterministic overlay intent: skill.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "4b4f0fc95d399bc42ef5de28a2929c136fe826191ffcb59530b808bebef26466"
+      },
+      {
+        "panel_order": 15,
+        "panel_id": "el-pr-ch01-s02-p015",
+        "chapter_plan_beat": "The broken plank flips into the void and the intact anchor jerks upward under transferred load.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p015.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p015.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: A broken bridge plank flips down into the abyss while the still-intact anchor jerks upward under transferred load; mechanical cause and effect, no character faces, deep vertical architecture.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "b2271fd671c8a1cc47c3e250a7d8ab5e83c1ef4dede91ff7a156f83a692348c2"
+      },
+      {
+        "panel_order": 16,
+        "panel_id": "el-pr-ch01-s02-p016",
+        "chapter_plan_beat": "Mira plants shield and spear with hands, grip, and footing unobstructed.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p016.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p016.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Adult Mira plants ivory split shield and dark-teal spear on the swaying bridge; both hands, grip, shield straps, spear shaft, rear boot and crossbar are unobstructed and mechanically credible.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "d302f444b785c67b112238e1c36a630ad894639d5df5466ddf449795a5e7761f"
+      },
+      {
+        "panel_order": 17,
+        "panel_id": "el-pr-ch01-s02-p017",
+        "chapter_plan_beat": "Belljaw's jaw strikes Mira's shield wedge at one clear point; her planted boot skids but holds.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm12.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm12.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Wide side view establishes the chain bridge: Belljaw at right charges left, Mira anchors center-left, Elian waits behind her, one intact anchor behind Elian; vectors unmistakable.\nDeclared density: moderate. Deterministic overlay intent: quest.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "f0c92d1006e5c22cfec235bcaec81e5c98be7235f2f0d2b43121432137163b99"
+      },
+      {
+        "panel_order": 18,
+        "panel_id": "el-pr-ch01-s02-p018",
+        "chapter_plan_beat": "Belljaw clamps Mira's Dark-Teal Spear below the head instead of recoiling.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm13.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm13.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Belljaw clamps Mira's spear shaft and twists clockwise; Mira's planted boots slide but her shield stays between jaw and torso; clear physical contact and torque.\nDeclared density: moderate. Deterministic overlay intent: none.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "5e8ef619e0a23db5b44e98451292446e972bddb6154c16ad4bdf84a951508688"
+      },
+      {
+        "panel_order": 19,
+        "panel_id": "el-pr-ch01-s02-p019",
+        "chapter_plan_beat": "Belljaw wrenches the captured spear; Mira rotates with it to preserve her wrists and weapon.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p019.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p019.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: One Belljaw Warden wrenches Mira's captured spear; adult Mira rotates her hips and shoulders with the weapon to preserve her wrists; exact jaw-to-shaft contact and directional motion readable.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "fd33a10820c8d2a722235fa8472548902e35a02aef39bd5ad3a075754ecce914"
+      },
+      {
+        "panel_order": 20,
+        "panel_id": "el-pr-ch01-s02-p020",
+        "chapter_plan_beat": "Elian reaches past Mira's right shoulder and begins a deliberate jaw-to-ankle Fault Sight scan.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p020.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p020.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Adult Elian reaches past Mira's right shoulder and begins a deliberate visual scan from the Belljaw jaw through shoulder to near ankle; three figures in clear depth, no attack yet.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "a36b9442c32085341cb31a99db8f1c7d8497f2ed643b1615801f711973385be2"
+      },
+      {
+        "panel_order": 21,
+        "panel_id": "el-pr-ch01-s02-p021",
+        "chapter_plan_beat": "Fault Sight reveals one hairline near-ankle stress seam under the jaw load.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm14.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm14.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Elian crouches behind Mira and activates Fault Sight; exactly one hairline orange fault appears across Belljaw's front ankle, his gaze and free hand point to it.\nDeclared density: low. Deterministic overlay intent: skill.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "65569b8bb958951a9869f7a9c237c41d2fcf92c1c2be0583e83b137efecab74f"
+      },
+      {
+        "panel_order": 22,
+        "panel_id": "el-pr-ch01-s02-p022",
+        "chapter_plan_beat": "The load path from jaw through shoulder to ankle remains visible for six seconds.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p022.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p022.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Fault Sight visualization without text: one restrained ember-orange stress path runs from the Belljaw jaw through shoulder to its near ankle while all other shell plates stay subdued; clear diagnostic negative space.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "8455a251a9c2bcf3ff6846c7959384590f193a4fad0e6714006eff62ea0e7371"
+      },
+      {
+        "panel_order": 23,
+        "panel_id": "el-pr-ch01-s02-p023",
+        "chapter_plan_beat": "Mira gives Elian four useful seconds while her forearms tremble under Belljaw's load.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p023.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p023.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Adult Mira's forearms tremble as she holds the Belljaw's weight for four useful seconds; her spear remains clamped, shield wedged, face controlled; Elian prepares in background.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "dce7d6826e981b8a83afc3bd9431e7c7370c3905d003d1614ecd19e0f06024f7"
+      },
+      {
+        "panel_order": 24,
+        "panel_id": "el-pr-ch01-s02-p024",
+        "chapter_plan_beat": "Elian slides left-to-right beneath the jaw using the chain rail as one step toward the ankle.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm15.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm15.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Belljaw's forelimb backhands Elian into one hanging chain; impact bends his torso around the chain, hookblade remains in right hand, coat tears at left rib.\nDeclared density: moderate. Deterministic overlay intent: injury.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "c37c258417ad4a254a17070f9e0648f75d817e65c2fc97ee22e162caf53d923f"
+      },
+      {
+        "panel_order": 25,
+        "panel_id": "el-pr-ch01-s02-p025",
+        "chapter_plan_beat": "Belljaw's free forelimb folds at an unexpected second joint and rotates toward Elian.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p025.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p025.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: The Belljaw's free black forelimb folds at an unexpected second joint and rotates toward Elian; ominous mechanical close-up establishing the coming backhand before impact.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "abb968f4698e1b14ac52539c39139b1decd12b8bfa9b15e833919732ba1768d1"
+      },
+      {
+        "panel_order": 26,
+        "panel_id": "el-pr-ch01-s02-p026",
+        "chapter_plan_beat": "The forelimb backhands Elian before his Hooked Shortblade reaches the seam; his body flies toward a hanging chain.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p026.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p026.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: The Belljaw forelimb backhands adult Elian before his hooked shortblade reaches the ankle seam; his body flies toward one hanging chain, clear single impact vector, Mira still engaged behind.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "ebd4e9c34699b1c4ceaa0d095c584850a7397d12fb0b54d6bab8067b88752c41"
+      },
+      {
+        "panel_order": 27,
+        "panel_id": "el-pr-ch01-s02-p027",
+        "chapter_plan_beat": "Elian's left ribs hit a hanging chain and his breath leaves in one white burst.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm16.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm16.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Immediate consequence: Elian on one knee grips his left rib, Mira still holds the jaw direction in deep background, intact anchor and fault line remain in their established places.\nDeclared density: low. Deterministic overlay intent: status.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "74d4df1452f3444bcaaa273d8e059cf5f918ce26504411b7b44b75caedb1ad3d"
+      },
+      {
+        "panel_order": 28,
+        "panel_id": "el-pr-ch01-s02-p028",
+        "chapter_plan_beat": "Elian catches the chain; his tethered blade hangs safely while the Ledger confirms damage and Cracked Rib.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm18.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm18.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: After the fight, Elian's coat is torn at the same left rib and his posture protects that side; Mira's spear is scuffed but straight, Belljaw ankle plate lies behind them.\nDeclared density: low. Deterministic overlay intent: level.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "37a42a2996339449aea64f8cbb2e9abad4a8d0efa4ffdece864e85438bea6ca7"
+      },
+      {
+        "panel_order": 29,
+        "panel_id": "el-pr-ch01-s02-p029",
+        "chapter_plan_beat": "Elian hangs against a broad void guarding the left rib as the collarbone fissure closes.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm01.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm01.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Elian hears the Bell Regent below and chooses to stay; tight mature close-up, jaw tense, green eyes tracking downward, quiet charcoal negative space upper left.\nDeclared density: low. Deterministic overlay intent: none.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "d250fddb468a82ae5c3cf504b8f9e22df0ccc4470f23df6c43ed805786f04d8a"
+      },
+      {
+        "panel_order": 30,
+        "panel_id": "el-pr-ch01-s02-p030",
+        "chapter_plan_beat": "Mira holds Belljaw and orders Elian not to turn the injury into a plan.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm19.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm19.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Mira offers Elian a hand up; he looks at the hand before accepting, no smile, simple teal-black gradient and one out-of-focus chain, generous balloon space above.\nDeclared density: low. Deterministic overlay intent: none.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "65f6d571dd20c4d0bcd5d7aacad6ea9a4df980c9db5e6ec9ef2f7f13983d7366"
+      },
+      {
+        "panel_order": 31,
+        "panel_id": "el-pr-ch01-s03-p031",
+        "chapter_plan_beat": "Elian's attempted inhale lights the collarbone circuit, which folds inward and dies.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p031.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p031.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Injured adult Elian attempts one inhale while hanging against the chain; the ember fissure at his right collarbone lights, folds inward, and dies; left cracked rib guarded, intimate failure close-up.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "9f48a2028b894573e9bb21e21ea1c65ee06dbdbd978395435055d5f46c867405"
+      },
+      {
+        "panel_order": 32,
+        "panel_id": "el-pr-ch01-s03-p032",
+        "chapter_plan_beat": "Elian's fingers find the unique Spark Talisman while both Iron Seals remain locked behind it.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm05.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm05.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Extreme close-up: Mira's left forearm locks the split shield hinge while her right hand adjusts spear grip; five fingers each, plausible wrist and hardware interaction, open upper-left field.\nDeclared density: low. Deterministic overlay intent: item.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "0c4e109e273e3f08bf3ac59db9d7b657a6b06d365d9300341d78cbea3177aece"
+      },
+      {
+        "panel_order": 33,
+        "panel_id": "el-pr-ch01-s03-p033",
+        "chapter_plan_beat": "Mira identifies the talisman as the Chainworks exit plan; Elian chooses to spend it without claiming her permission.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm03.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm03.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Elian sits against one bridge anchor holding a cracked rib while Mira kneels at arm's length, anger masking fear; hands visible, restrained eye contact, open center-top.\nDeclared density: low. Deterministic overlay intent: none.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "efac6810e1a35aeb5a8efbe8fc87d14c3e33fb5782f2dbad23ad33518f017cc8"
+      },
+      {
+        "panel_order": 34,
+        "panel_id": "el-pr-ch01-s03-p034",
+        "chapter_plan_beat": "Elian crushes the Spark Talisman; heat enters only his collarbone circuit while both Iron Seals remain untouched.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p034.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p034.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Adult Elian crushes the unique Spark Talisman in one anatomically correct fist; contained orange heat enters only his right collarbone circuit while two iron seals remain visibly untouched.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "d758427506542aae7d95c5d4b843226c402c9a24771e18d36c08f2cbce5ae73a"
+      },
+      {
+        "panel_order": 35,
+        "panel_id": "el-pr-ch01-s03-p035",
+        "chapter_plan_beat": "Elian inhales toward the right collarbone and opens one thin ember fissure.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p035.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p035.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Tight torso close-up: injured adult Elian inhales toward the right collarbone and opens one thin ember fissure; cracked left rib remains guarded; quiet controlled breakthrough onset.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "7ab0330de0dccd5715b881dafc2f9855c62ebbb415f3b84db4ad70627376e7f2"
+      },
+      {
+        "panel_order": 36,
+        "panel_id": "el-pr-ch01-s03-p036",
+        "chapter_plan_beat": "Pressure drops collarbone to sternum, buckles around the cracked rib, then exits the diaphragm at a 30-Qi cost.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p036.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p036.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Internal cultivation visualization: orange pressure descends right collarbone to sternum, visibly buckles around the cracked left rib, then exits at the diaphragm; adult Elian silhouette, precise path, no text.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "86064c342ccec596c605dfbf631d06f490979088c60bbe89994cf2caf35d6406"
+      },
+      {
+        "panel_order": 37,
+        "panel_id": "el-pr-ch01-s03-p037",
+        "chapter_plan_beat": "Two restrained breath pulses stabilize Elian's collarbone fissure as Breath Seed II opens and Fault Step becomes compatible.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm24.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm24.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Belljaw collapses beside the intact anchor while Elian and Mira remain readable at foreground left; controlled debris and three depth planes, reserve two separate quiet corners for dense but safe reconciliation UI.\nDeclared density: high. Deterministic overlay intent: quest_xp_item.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "3a6f1365cb2f486fbc4b030780a689452a92d85a17dc87cb84dd252058fdf611"
+      },
+      {
+        "panel_order": 38,
+        "panel_id": "el-pr-ch01-s03-p038",
+        "chapter_plan_beat": "The glow recedes and one Overburn fleck damages Elian after the breakthrough.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p038.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p038.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: The breakthrough glow recedes from injured adult Elian; one small ember overburn fleck strikes his skin and he flinches, showing cost after success; broad dark negative space.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "27addf4c39d35dbcf9f71b8afed7114df0da7a10345679360314310555c7bef1"
+      },
+      {
+        "panel_order": 39,
+        "panel_id": "el-pr-ch01-s04-p039",
+        "chapter_plan_beat": "Belljaw unloads the near ankle; the visible fault closes as Mira's spear begins to slip free.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p039.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p039.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: The Belljaw unloads its near ankle and the orange fault seam visibly closes while Mira's dark-teal spear begins slipping free of the bell jaw; transitional cause beat, all contacts clear.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "63c5d3e244be1d6c973ed00071863fab6d442086e4abdcbb45d8eb5ffd7d4c1b"
+      },
+      {
+        "panel_order": 40,
+        "panel_id": "el-pr-ch01-s04-p040",
+        "chapter_plan_beat": "Mira rotates with the wrench, drops shield under jaw, and plants the spear butt to load the ankle once.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm17.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm17.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Payoff: Mira redirects Belljaw upward with shield and spear as Elian accelerates bottom-left to top-right and strikes the ankle seam; one clean converging impact, ceramic plate breaks away.\nDeclared density: high. Deterministic overlay intent: xp.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "105c327db74d383da27b93efe9c114032818d3634cb25234879ce698bc1676b2"
+      },
+      {
+        "panel_order": 41,
+        "panel_id": "el-pr-ch01-s04-p041",
+        "chapter_plan_beat": "Elian recognizes that Mira's planted line recreates the verified ankle fault.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p041.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p041.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Adult Elian, still guarding his cracked left rib, recognizes that Mira's planted spear-and-shield line has recreated the ankle fault; eyeline connects him to one orange seam, pre-action stillness.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "f7f6867fb65286f07027f3df8822729ee709919a41b332f9567ad54b50afd24e"
+      },
+      {
+        "panel_order": 42,
+        "panel_id": "el-pr-ch01-s04-p042",
+        "chapter_plan_beat": "Elian activates Fault Step along the verified structural line; movement is acceleration, not teleportation.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p042.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p042.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Adult Elian activates Fault Step along the verified structural line: an explosive grounded acceleration with foot push-off and continuous motion trail, explicitly physical movement rather than teleportation.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "772e69011b11e5ca3bcf57a3dd47c1a82cd2d4b51c5807f3a18b8f76246b95fb"
+      },
+      {
+        "panel_order": 43,
+        "panel_id": "el-pr-ch01-s04-p043",
+        "chapter_plan_beat": "Mira drives left-to-right while Elian launches bottom-to-top; both vectors converge on the orange ankle seam.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p043.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p043.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Adult Mira drives left-to-right while injured adult Elian launches bottom-to-top; their two vectors visibly converge on the single orange Belljaw ankle seam, clean triangular action geography.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "a739c92b1080c0d1cee9a2343620fe6965ddb52620c512fa21d45d624ab30c75"
+      },
+      {
+        "panel_order": 44,
+        "panel_id": "el-pr-ch01-s04-p044",
+        "chapter_plan_beat": "Hooked Shortblade and Mira's redirected jaw load split the ankle plate at one clear point.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p044.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p044.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Elian's hooked shortblade and Mira's redirected Belljaw jaw load split the ivory ankle plate at exactly one contact point; shard directions and force vectors clear, no extra limbs or weapons.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "3ef08a46c202000cce2ada0d3a6d2f5a1712585527b9cdfbb5e291aafffe0ff7"
+      },
+      {
+        "panel_order": 45,
+        "panel_id": "el-pr-ch01-s04-p045",
+        "chapter_plan_beat": "Belljaw folds and crashes away from the intact anchor while Elian lands guarding his rib; Overburn ticks a second time.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p045.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p045.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: The defeated Belljaw folds and crashes away from the intact anchor while injured adult Elian lands guarding his left rib; one small overburn fleck hits him, clear aftermath geography.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "75561c68234abcfa83a0de55995eb3afcf1a443143ea604dbd5f594b5fae74b2"
+      },
+      {
+        "panel_order": 46,
+        "panel_id": "el-pr-ch01-s04-p046",
+        "chapter_plan_beat": "Mira keeps the spear on Belljaw until the jaw seam goes dark; Elian watches the forelimb remain still.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p046.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/editorial-clean/p046.png",
+        "raw_source_prompt": "Create one text-free vertical-scroll action-manhwa panel for Ember Lattice, 1024×1536 portrait. Use the attached fresh isolated Elian Voss, Mira Kest, and Belljaw/Ember Vault reference sheets only as continuity anchors. All human characters are adults. Premium Korean-webtoon-informed line economy and value grouping without imitating any named artist; original designs, warm ember orange, ivory stone, deep teal, soot black. Precise anatomy, hands, equipment contacts, injury continuity, readable cause-and-effect staging, strong focal hierarchy, reserved negative space for later deterministic lettering/UI. No words, letters, numbers, symbols, watermark, signature, border, speech balloons, captions, or UI. Only one Belljaw exists unless the scene explicitly says otherwise.\nPrimary request: Quiet verification beat: adult Mira keeps her dark-teal spear trained on the fallen Belljaw until its jaw seam goes dark; injured adult Elian watches the free forelimb remain still; no premature celebration.",
+        "source_kind": "unique_chapter_generation",
+        "selection_hash": "8dd6269570f594aa276fa78d55046a517426c1ddfaa7003ff598ed292ace9e4a"
+      },
+      {
+        "panel_order": 47,
+        "panel_id": "el-pr-ch01-s05-p047",
+        "chapter_plan_beat": "A Rare Cinder-Key rests between two broken ankle plates beside Elian's unsteady knee and Mira's boot.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm22.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm22.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Top-down view of Elian's belt and open gloved palm holding one brass Cinder-Key; six physical slot tabs visible but blank, clean left field for deterministic Item and Inventory UI.\nDeclared density: low. Deterministic overlay intent: item_inventory.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "4ea2f5fc21adc0c485d98fb80dc321d382620aa5fc45f8aeb550478a216b774b"
+      },
+      {
+        "panel_order": 48,
+        "panel_id": "el-pr-ch01-s05-p048",
+        "chapter_plan_beat": "The Ledger verifies boss defeat, one intact anchor, quest completion, 85 XP, Level 4, and the Cinder-Key drop.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm23.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm23.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Elian exhales two deliberate ember pulses at his collarbone while Belljaw silhouette waits far across the bridge; negative upper band for Enemy and Cultivation interface.\nDeclared density: low. Deterministic overlay intent: enemy_cultivation.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "b01060af2ff2a31476e6847c2681d4e46227a4bb8bf4c2d6eea955b8f647c926"
+      },
+      {
+        "panel_order": 49,
+        "panel_id": "el-pr-ch01-s05-p049",
+        "chapter_plan_beat": "Mira binds Elian's cracked left rib with his coat lining and checks hands and breath without joking.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm02.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm02.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Mira decides not to order Elian away; freckled face softens without losing command, split shield edge at frame right, open space upper right.\nDeclared density: low. Deterministic overlay intent: none.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "34aee0488a7d5168e91f4ba42867046d91ce12eca3b2866501096277ae24552c"
+      },
+      {
+        "panel_order": 50,
+        "panel_id": "el-pr-ch01-s05-p050",
+        "chapter_plan_beat": "A pulse enters the intact anchor and travels upward toward the city while the clean shear face catches Elian's eye again.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm08.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm08.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Low camera looks up the Hollow Meridian crownshaft through repeating fired-clay ribs, black lift cable and two distant platforms; one tiny adult silhouette establishes scale, clean vanishing point.\nDeclared density: high. Deterministic overlay intent: floor.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "fdba19a6e74614b47b88bf8cdc6ca6b5c55a16887c2fbf24a4a00e093cf0f8ec"
+      },
+      {
+        "panel_order": 51,
+        "panel_id": "el-pr-ch01-s05-p051",
+        "chapter_plan_beat": "The Cinder-Key displays Kiln Appraiser and Faultline Adept without selection as the far lift opens and Choose the Crack is offered.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm21.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm21.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Elian studies the hookblade while one verified orange fault reflection crosses its edge; uncluttered negative space at right for Skill and Quest cards.\nDeclared density: low. Deterministic overlay intent: skill_quest.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "0505783e4506e4cccb65f7874ed29aab274fe6ea7ce03cef91effa1aef080ca5"
+      },
+      {
+        "panel_order": 52,
+        "panel_id": "el-pr-ch01-s05-p052",
+        "chapter_plan_beat": "Mira leads Elian into the lift at her pace; his injured side is protected and the Cinder-Key remains unbound in his open hand.",
+        "raw_source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/openai-raw/bm04.png",
+        "actual_selected_leaf": "/mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/benchmark/targeted-edit/bm04.png",
+        "raw_source_prompt": "Use case: illustration-story. Asset type: one finished text-free source-art panel for an original premium vertical-scroll action manhwa. Preserve the registered original adult character, costume, equipment, creature, and Ember Vault contracts from the supplied fresh isolated reference sheets. Original clean modern action-anime/manhwa language: crisp tapered charcoal contour, confident silhouette, simplified mature faces, controlled two-step cel shading, matte shapes, foreground/midground/background separation, restrained charcoal/ivory/teal/brass palette and only one localized ember-orange accent. One narrative moment, phone-first focal hierarchy, practical non-sexualized adults. No text, letters, digits, fake glyphs, speech balloons, captions, cards, UI, watermark, logo, signature, frame grid, collage, child-coded face, painterly fantasy, glossy 3D, crosshatching, grunge, decorative clutter, blanket particles, gore, named-title imitation, or living-artist imitation.\nPrimary request: Elian and Mira stand full-body back-to-back on a narrow chain bridge; every garment, belt capsule, hookblade, spear, shield strap, hand and boot readable.\nDeclared density: moderate. Deterministic overlay intent: inventory.",
+        "source_kind": "reused_benchmark",
+        "selection_hash": "6b3ed2b239f6538b14ca3493a27a74b25c37992441ffad489b7e251d4d87ed0e"
+      }
+    ],
+    "counts": {
+      "reused_benchmark": 24,
+      "unique_chapter_generation": 28
+    },
+    "method": "Follow manifest variants.raw to asset.path; follow variants.hybrid SVG first image href to raster; compare immutable recorded raw prompt against panel beat. Semantic mismatch annotations are independently corroborated by lead phone review.",
+    "verified_mismatch_panels": {
+      "12": "Source explicitly requests four named adults; chapter asks two leads with boss geography.",
+      "17": "Source establishes charge/geography; chapter requires jaw-shield contact.",
+      "29": "Source requests tight emotional close-up; chapter requires hanging injured full action silhouette.",
+      "33": "Source requests seated/kneeling quiet exchange; chapter beat is mid-threat talisman sacrifice. Source has some emotional/injury relevance, so mismatch severity needs visual/context review.",
+      "37": "Source explicitly requests Belljaw collapsed and reconciliation; chapter is pre-victory breath breakthrough."
+    }
+  }
+}

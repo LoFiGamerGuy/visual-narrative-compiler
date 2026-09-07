@@ -1,0 +1,52 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Total anime pipeline review — start here · Pipeline review</title><link rel="stylesheet" href="../review.css"></head><body><a class="skip" href="#main">Skip to content</a><header><div class="eyebrow">Independent production audit · September 2026</div><nav aria-label="Review navigation"><a href="../index.html">Review hub</a><a href="executive-decision.html">Decision</a><a href="next-pilot-specification.html">Pilot plan</a><a href="../pilot-proof.html">Rough proof</a><a href="changed-files-and-integrity.html">Integrity</a></nav></header><main id="main" class="report"><p><a href="../../../../research/anime-pipeline-total-review/START_HERE.md">Markdown source</a></p><h1 id="total-anime-pipeline-review-start-here">Total anime pipeline review — start here</h1>
+<p><strong>Modularly rebuild storyboarding, source selection and acceptance; retain Ember Lattice provisionally and keep the current renderer as a fair control.</strong> Do not start another volume before a short, genuinely comparable reader passes. Renderer replacement and human-first production remain unproven.</p>
+<p>Open the <a href="../index.html">offline review hub</a> directly in a browser. It includes interactive A/B scorecards, the stage failure map, strategy comparison, original static pilot proof and links into the existing local readers. The protected sibling worktrees must remain in their current locations for those reader links; ordinary report review requires no network. Citation links go to publishers and official sources.</p>
+<p>Recommended order: <a href="executive-decision.html">executive decision</a>, <a href="strategy-decision-matrix.html">strategy matrix</a>, <a href="next-pilot-specification.html">next-pilot specification</a>, then <a href="red-team-review.html">red-team objections</a>. The <a href="../pilot-proof.html">static vector proof</a> is a rough layout/lettering test, not completed art or a route comparison.</p>
+<p><strong>Preservation exception:</strong> the raw comparison remains FAIL for one prior review tree/ref that changed concurrently; the other eight trees passed. The owner authorized finishing subject to independent analysis. <a href="evidence/independence-and-authorization.html">Independence disclosure</a>, <a href="evidence/external-change-incident.html">incident</a>, <a href="changed-files-and-integrity.html">handoff evidence</a>.</p>
+<h2 id="reports">Reports</h2>
+<ul>
+<li><a href="causal-gap-tree.html">causal gap tree </a></li>
+<li><a href="comparable-works-analysis.html">comparable works analysis </a></li>
+<li><a href="coordination.html">coordination </a></li>
+<li><a href="economics-rights-risk.html">economics rights risk </a></li>
+<li><a href="executive-decision.html">executive decision </a></li>
+<li><a href="industry-research.html">industry research </a></li>
+<li><a href="inspiration-derivation-matrix.html">inspiration derivation matrix </a></li>
+<li><a href="lettering-ui-mobile-audit.html">lettering ui mobile audit </a></li>
+<li><a href="limitations-and-open-questions.html">limitations and open questions </a></li>
+<li><a href="next-pilot-specification.html">next pilot specification </a></li>
+<li><a href="owner-feedback-ledger.html">owner feedback ledger </a></li>
+<li><a href="pipeline-inventory.html">pipeline inventory </a></li>
+<li><a href="pipeline-scorecards.html">pipeline scorecards </a></li>
+<li><a href="recommended-roadmap.html">recommended roadmap </a></li>
+<li><a href="red-team-review.html">red team review </a></li>
+<li><a href="story-progression-action-audit.html">story progression action audit </a></li>
+<li><a href="strategy-decision-matrix.html">strategy decision matrix </a></li>
+<li><a href="technical-pipeline-audit.html">technical pipeline audit </a></li>
+<li><a href="validation-goodhart-audit.html">validation goodhart audit </a></li>
+<li><a href="visual-sequential-audit.html">visual sequential audit </a></li>
+</ul>
+<h2 id="machine-readable-evidence-and-verification">Machine-readable evidence and verification</h2>
+<ul>
+<li><a href="../../../../research/anime-pipeline-total-review/causal-gap-tree.json">causal-gap-tree.json</a></li>
+<li><a href="../../../../research/anime-pipeline-total-review/citation-ledger.json">citation-ledger.json</a></li>
+<li><a href="../../../../research/anime-pipeline-total-review/common-rubric.json">common-rubric.json</a></li>
+<li><a href="../../../../research/anime-pipeline-total-review/inspiration-derivation-matrix.json">inspiration-derivation-matrix.json</a></li>
+<li><a href="../../../../research/anime-pipeline-total-review/next-pilot-plan.json">next-pilot-plan.json</a></li>
+<li><a href="../../../../research/anime-pipeline-total-review/pipeline-inventory.json">pipeline-inventory.json</a></li>
+<li><a href="../../../../research/anime-pipeline-total-review/pipeline-scorecards.json">pipeline-scorecards.json</a></li>
+<li>
+<p><a href="../../../../research/anime-pipeline-total-review/strategy-decision-matrix.json">strategy-decision-matrix.json</a></p>
+</li>
+<li>
+<p><a href="browser-qa.html">Browser and package QA</a>, <a href="controlled-proof-results.html">controlled proofs</a>.</p>
+</li>
+<li><a href="../../../../research/anime-pipeline-total-review/evidence/reader-paths.json">Reader paths</a>, <a href="../../../../research/anime-pipeline-total-review/evidence/technical-measurements.json">technical measurements</a>, <a href="../../../../research/anime-pipeline-total-review/evidence/deterministic-measurements.json">pixel/hash diagnostics</a>, <a href="../../../../research/anime-pipeline-total-review/evidence/structural-measurements.json">structure/lettering diagnostics</a>.</li>
+<li><a href="evidence/visual-review-b.html">Independent visual B notes</a>, <a href="../../../../research/anime-pipeline-total-review/evidence/subjective-scores-a.json">A scores</a>, <a href="../../../../research/anime-pipeline-total-review/evidence/subjective-scores-b.json">B scores</a>, <a href="evidence/red-team-independent.html">independent red team</a>.</li>
+<li><a href="../../../../research/anime-pipeline-total-review/evidence/protected-state-initial.json.gz">Initial integrity snapshot</a>, <a href="../../../../research/anime-pipeline-total-review/evidence/protected-state-comparison.json">original failed comparison</a>, <a href="../../../../research/anime-pipeline-total-review/evidence/protected-state-comparison-handoff.json">handoff recheck</a>, <a href="../../../../research/anime-pipeline-total-review/evidence/session-spend.json">spend</a>.</li>
+</ul>
+<h2 id="rebuild-and-reproduce">Rebuild and reproduce</h2>
+<p>All custom tools live under <code>research/anime-pipeline-total-review/tools/</code>. Run from the isolated checkout. <code>measure.py</code> needs Pillow and NumPy; <code>build_hub.py</code> and <code>check_package.py</code> need Markdown and Beautiful Soup. The session installed dependencies only in ignored <code>.scratch/python</code>; use <code>PYTHONPATH=research/anime-pipeline-total-review/.scratch/python</code> when running them. That scratch is not portable or tracked. Package JSON/source reports and built HTML are tracked and require no build to read.</p>
+<p>Run <code>python -m unittest discover -s research/anime-pipeline-total-review/tools -p 'test_*.py'</code> with that PYTHONPATH for the four deterministic measurement tests. <code>build_hub.py</code> renders the reports; <code>check_package.py</code> checks JSON and local links. Browser QA uses <code>qa_hub.mjs</code> and an existing Chromium CDP endpoint. The small browser helper is environment-specific and does not install a system browser.</p>
+<p>Internal QA screenshots remain in ignored local scratch, not in Git; original panels remain in protected source trees. Third-party comic panels are neither embedded nor redistributed. Counts and proxy metrics are diagnostic; no synthetic score is human acceptance. Direct incremental paid/cloud spend: <strong>$0</strong>. Source art and future candidates are not commercially cleared; unknown generation metadata remains null.</p>
+<p>Owner follow-up: <a href="cleanup-and-astra-next-steps.html">concrete cleanup, tooling and Astra next steps</a>.</p></main><footer>Original analysis; no third-party comic panels redistributed. $0 incremental paid/cloud spend. AI reviews are not human acceptance. Source and rights limits remain explicit.</footer></body></html>

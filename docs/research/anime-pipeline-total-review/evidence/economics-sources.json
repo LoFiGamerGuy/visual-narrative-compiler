@@ -1,0 +1,1162 @@
+{
+  "record_type": "EconomicsRightsRiskEvidence",
+  "schema_version": "1.0",
+  "record_id": "ng-total-review-economics-sources-r1",
+  "access_date": "2026-09-06",
+  "assignment_direct_paid_cloud_spend_usd": "0.000000",
+  "assignment_provider_calls": 0,
+  "assignment_uploads": 0,
+  "industry_draft_present": false,
+  "env_file_opened": false,
+  "legal_advice": false,
+  "notes": [
+    "Unavailable fields remain JSON null. Estimates are flagged estimate=true with assumptions.",
+    "Built-in ImageGen monetary cost is unavailable, not zero.",
+    "Do not add incomparable timing scopes.",
+    "WEBTOON Canvas official policy was searched on 2026-09-06; no dedicated AI-disclosure clause was found.",
+    "Tapas official guidelines still prohibit AI-generated content as of 2026-09-06."
+  ],
+  "claims": [
+    {
+      "id": "ECON-001",
+      "topic": "direct_spend",
+      "claim": "This total-review assignment incurred $0 direct paid/cloud spend.",
+      "value": "0.000000",
+      "unit": "USD",
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/anime-pipeline-total-review/evidence/coordination.md",
+          "date": "2026-09-06",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-002",
+      "topic": "direct_spend",
+      "claim": "G07 fictional bakeoff committed actual cost is $1.057377 against a $100 cap, with $0 held and $98.942623 available.",
+      "value": "1.057377",
+      "unit": "USD",
+      "status": "measured",
+      "estimate": false,
+      "limitations": ["OpenAI and Gemini amounts are documented-rate estimates pending invoice confirmation."],
+      "sources": [
+        {
+          "path_or_url": "docs/research/evidence/g07-bakeoff-cost-ledger-r1.json",
+          "date": "2026-09-01T15:39:15Z",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/adr/ADR-0023-aggregate-bakeoff-reservation-ledger.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-003",
+      "topic": "direct_spend",
+      "claim": "G07 per-adapter committed cost: OpenAI $0.198621 estimated, Gemini $0.268756 estimated, xAI $0.28 required + $0.07 failure exact, BFL $0.24 exact.",
+      "value": {
+        "openai_gpt_image_2_usd": "0.198621",
+        "gemini_3_1_flash_image_usd": "0.268756",
+        "xai_required_usd": "0.280000",
+        "xai_hosted_url_failure_usd": "0.070000",
+        "bfl_flux_2_usd": "0.240000"
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/evidence/g07-bakeoff-cost-ledger-r1.json",
+          "date": "2026-09-01T15:39:15Z",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/g07-provider-bakeoff-comparison-20260901.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-004",
+      "topic": "direct_spend",
+      "claim": "Maximum simultaneous G07 reservation for 16 required requests is $4.20; per-request ceilings are OpenAI $0.50, Gemini $0.20, xAI $0.10, BFL $0.25.",
+      "value": "4.200000",
+      "unit": "USD",
+      "status": "policy",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "config/g07-bakeoff-budget-policy-r1.json",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/provider-primary-documentation-20260901.md",
+          "date": "2026-09-01T15:07:36Z",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-005",
+      "topic": "direct_spend",
+      "claim": "CH05 production budget domain is disabled: cap null, committed $0, available null, no entries, bakeoff reuse prohibited.",
+      "value": {
+        "approved_aggregate_cap_usd": null,
+        "committed_actual_cost_usd": "0.000000",
+        "available_usd": null,
+        "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY",
+        "local_zero_external_cost_milestones": 124
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "config/ch05-production-budget-policy-r1.json",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/evidence/ch05-production-cost-ledger-r37.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/adr/ADR-0029-bakeoff-budget-cap-is-not-production-budget-authority.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-006",
+      "topic": "direct_spend",
+      "claim": "As of 2026-09-01, completed local renderer experiments total 79 generations and 2568.448 seconds (0.713 hours) with $0 external API and 0 production-accepted outputs. Electricity and depreciation unmeasured.",
+      "value": {
+        "renderer_generations": 79,
+        "generation_seconds": 2568.448,
+        "external_api_usd": 0,
+        "accepted_production_outputs": 0,
+        "local_electricity_and_depreciation": null
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "C:\\AgentWorkspaces\\anime-pipeline\\experiments\\results\\research-time-cost-ledger-20260901.json",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/production-time-cost-ledger.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-007",
+      "topic": "direct_spend",
+      "claim": "CH06–CH13 default-house route records 0 paid API requests, 0 cloud GPU operations, $0 paid API/cloud spend, and null built-in monetary cost.",
+      "value": {
+        "direct_paid_api_requests": 0,
+        "cloud_gpu_operations": 0,
+        "paid_api_cloud_spend_usd": "0.000000",
+        "built_in_monetary_cost_usd": null
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/evidence/ch06-ch13-production-time-cost-summary-r1.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-008",
+      "topic": "throughput",
+      "claim": "CH05 reconciled built-in activity is 76 service rasters and 312 panel-level candidates/crops. Combined end-to-end seconds is null because timing scopes are incomparable.",
+      "value": {
+        "service_raster_outputs": 76,
+        "panel_level_candidates_or_crops": 312,
+        "authorized_reference_uses": 132,
+        "aggregate_end_to_end_seconds": null,
+        "paid_spend_usd": 0
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/evidence/ch05-active-goal-art-output-reconciliation-r1.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/production-time-costs.md",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-009",
+      "topic": "throughput",
+      "claim": "CH06–CH13: 8 chapters, 64 sequence requests, 320 panel candidates, 166 authorized reference uses, 0 accepted, 0 commercially cleared. Overlapping interval sum CH07–CH13 is 15060.448 seconds and is not wall-clock. CH06 timing is unavailable.",
+      "value": {
+        "complete_chapters": 8,
+        "sequence_requests": 64,
+        "panel_candidates": 320,
+        "authorized_reference_uses": 166,
+        "reported_overlapping_interval_sum_seconds_ch07_ch13": 15060.448,
+        "ch06_timing": null,
+        "accepted_candidates": 0,
+        "commercially_cleared_candidates": 0,
+        "human_review_minutes": null
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/evidence/ch06-ch13-production-time-cost-summary-r1.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/evidence/ch06-production-time-cost-record-r1.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-010",
+      "topic": "throughput",
+      "claim": "If CH07–CH13 two parallel groups ran concurrently, caller-visible generation wall per 40-panel chapter is on the order of the larger group wall (~400–500 seconds), excluding review.",
+      "value": {
+        "ch07_parallel_group_wall_seconds": [497.196, 460.672],
+        "ch08_parallel_group_wall_seconds": [430.624, 437.107],
+        "ch09_parallel_group_wall_seconds": [437.501, 417.841],
+        "ch10_parallel_group_wall_seconds": [403.285, 414.710],
+        "ch11_parallel_group_wall_seconds": [442.406, 429.358],
+        "ch12_parallel_group_wall_seconds": [420.731, 427.911],
+        "ch13_parallel_group_wall_seconds": [421.512, 399.711]
+      },
+      "status": "measured_with_interpretation",
+      "estimate": false,
+      "limitations": ["Chapter wall is not the sum of overlapping request intervals."],
+      "sources": [
+        {
+          "path_or_url": "docs/research/evidence/ch07-production-time-cost-record-r1.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/evidence/ch13-production-time-cost-record-r1.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-011",
+      "topic": "throughput",
+      "claim": "Local baseline_legacy Stage A: 24 generations, 903.79 s total, mean 37.66 s, 0 accepted, API/cloud $0, electricity unmeasured.",
+      "value": {
+        "renderer_generations": 24,
+        "generation_seconds": 903.79,
+        "mean_seconds": 37.66,
+        "accepted": 0
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/benchmark-history.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "GAP_ANALYSIS.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-012",
+      "topic": "throughput",
+      "claim": "G07 mean elapsed: OpenAI 32.087 s, Gemini 11.759 s, xAI 12.506 s, BFL 18.647 s. No deterministic seeds. Human review 0/20.",
+      "value": {
+        "openai_mean_s": 32.087,
+        "gemini_mean_s": 11.759,
+        "xai_mean_s": 12.506,
+        "bfl_mean_s": 18.647,
+        "human_decisions": 0,
+        "human_minutes": null
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/g07-provider-bakeoff-comparison-20260901.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-013",
+      "topic": "throughput",
+      "claim": "Nonexecuted CH05 remaining-plan generation-only envelope: p10 1496.019 / median 2510.123 / p90 2769.676 seconds for 36 initials + 13 repairs. Monetary cost and human minutes null.",
+      "value": {
+        "p10_seconds": 1496.019,
+        "median_seconds": 2510.123,
+        "p90_seconds": 2769.676,
+        "executed": false,
+        "monetary_cost_usd": null,
+        "human_review_minutes": null
+      },
+      "status": "scenario_not_executed",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/evidence/ch05-chapter-production-duration-capacity-r1.json",
+          "date": "2026-09-02",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-014",
+      "topic": "labor",
+      "claim": "Live human-review minutes are null across CH05 contract (39 subjects, 0 events), G07 blinded packet (0/20 decisions), and all chapter time-cost records.",
+      "value": {
+        "ch05_subjects": 39,
+        "ch05_events": 0,
+        "ch05_human_review_minutes": null,
+        "g07_decisions_taken": 0,
+        "g07_human_minutes": null
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/evidence/ch05-human-review-time-instrumentation-contract-r1.json",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "config/g07-blinded-human-review-protocol-r1.json",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "GOAL.md",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-015",
+      "topic": "labor",
+      "claim": "Only tracked accepted sequence is CH01 four kitchen panels, internal-research accepted, human minutes null, commercial_release_allowed false. Post-CH01 production-accepted panels: 0.",
+      "value": {
+        "ch01_panels": 4,
+        "ch01_human_minutes": null,
+        "ch01_commercial_release_allowed": false,
+        "post_ch01_accepted_panels": 0
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "production/accepted/ch01-kitchen-sequence-v1.json",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "production/editions/north-garden-ch02-research-edition-001.json",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "production/comic/panel-revisions/ch02-sc01-historical-import-r1.json",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-016",
+      "topic": "labor",
+      "claim": "ESTIMATE: owner first-pass of existing inventory — G07 20 decisions at 1–3 min = 20–60 min; one 50-panel chapter at 1–4 min/panel = 50–200 min; CH06–CH13 320 panels at 1–4 min/panel = 5–21 hours. Excludes repair generation and lettering QC. Measured minutes remain null.",
+      "value": {
+        "g07_minutes_low": 20,
+        "g07_minutes_high": 60,
+        "ch05_chapter_minutes_low": 50,
+        "ch05_chapter_minutes_high": 200,
+        "ch06_ch13_hours_low": 5,
+        "ch06_ch13_hours_high": 21
+      },
+      "status": "estimate",
+      "estimate": true,
+      "assumptions": [
+        "Reviewer is the owner.",
+        "1–3 minutes per G07 decision including tags.",
+        "1–4 minutes per panel for accept/reject/one-class-repair only.",
+        "No beauty-variant loop.",
+        "Does not estimate time to reach a Tower of God visual bar."
+      ],
+      "sources": [
+        {
+          "path_or_url": "docs/research/anime-pipeline-total-review/evidence/economics-draft.md",
+          "date": "2026-09-06",
+          "accessed": "2026-09-06",
+          "note": "Estimate constructed in this draft; not a ledger observation."
+        }
+      ]
+    },
+    {
+      "id": "ECON-017",
+      "topic": "labor",
+      "claim": "Industry range: Korean weekly webtoon episodes commonly ~68 cuts (median 70) with writers averaging 51 hours/week (KILSH 2022 English summary).",
+      "value": {
+        "cuts_mean": 68,
+        "cuts_median": 70,
+        "hours_per_week_mean": 51,
+        "cadence": "weekly"
+      },
+      "status": "cited_industry",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "https://kilsh.or.kr/en/webtoon-writers-working-conditions2022/",
+          "date": "2022",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-018",
+      "topic": "labor",
+      "claim": "Industry range: one storyboard artist described 65–70 panels taking about 32–36 hours (KBS 추적60분 2025-08).",
+      "value": {
+        "panels_low": 65,
+        "panels_high": 70,
+        "hours_low": 32,
+        "hours_high": 36
+      },
+      "status": "cited_industry",
+      "estimate": false,
+      "limitations": ["Single-practitioner testimony in a broadcast, not a survey mean."],
+      "sources": [
+        {
+          "path_or_url": "https://www.youtube.com/watch?v=NM2ZzIiZsOg",
+          "date": "2025-08-08",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-019",
+      "topic": "labor",
+      "claim": "Industry range: factory-style webtoon production typically five to six people including producers (Kim, Platformisation and precarity, 2026).",
+      "value": {
+        "team_size_low": 5,
+        "team_size_high": 6,
+        "includes_producers": true
+      },
+      "status": "cited_industry",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "https://www.researchgate.net/publication/401077122_Platformisation_and_precarity_the_restructuring_of_creative_labour_in_South_Korea's_webtoon_industry",
+          "date": "2026-02-22",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-020",
+      "topic": "labor",
+      "claim": "Project-internal 2026-08-31 estimate of 12–25 hours per AI-assisted chapter once LoRAs/templates are stable is an estimate; the same document states no published measured hours-per-chapter were found.",
+      "value": {
+        "hours_low": 12,
+        "hours_high": 25
+      },
+      "status": "estimate",
+      "estimate": true,
+      "assumptions": [
+        "LoRAs and templates already stable.",
+        "About 20% script/thumbs, 35% generation/culling, 30% compositing/cleanup, 15% lettering/QC.",
+        "Not measured on this programme."
+      ],
+      "sources": [
+        {
+          "path_or_url": "research/authoritative/v2.1.1/registry/POLICY_LICENSE_REGISTRY.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-021",
+      "topic": "hardware",
+      "claim": "Local GPU is NVIDIA GeForce RTX 5090 Laptop with 24463 MiB VRAM. Official Qwen-Image-Edit-2511 BF16 set is 53.75 GiB and was deferred as not fitting 24 GiB.",
+      "value": {
+        "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU",
+        "vram_mib": 24463,
+        "qwen_bf16_gib": 53.75,
+        "qwen_acquired": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/qwen-image-edit-2511-feasibility-20260901.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/adr/ADR-0015-renderer-selection-requires-a-distinct-mechanism.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "GAP_ANALYSIS.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-022",
+      "topic": "hardware",
+      "claim": "Cloud GPU operations recorded on CH06–CH13 and CH05 production ledgers: 0. RunPod/Vast/Lambda keys exist only as blank slots in .env.example.",
+      "value": {
+        "cloud_gpu_operations": 0
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": ".env.example",
+          "date": null,
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/evidence/ch06-ch13-production-time-cost-summary-r1.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-023",
+      "topic": "provider_dependence",
+      "claim": "Live chapter/reimagining raster route is OpenAI built-in ImageGen in Codex. Model, endpoint, request IDs, usage, monetary cost, and seed are null with unavailable-not-zero.",
+      "value": {
+        "product": "OpenAI built-in ImageGen in Codex",
+        "model": null,
+        "endpoint": null,
+        "provider_request_ids": null,
+        "usage": null,
+        "monetary_cost_usd": null,
+        "deterministic_seed": null
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/model-license-registry.md",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/ch05-final-model-license-provenance-audit-r1.md",
+          "date": "2026-09-02",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/evidence/ch05-production-cost-ledger-r37.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-024",
+      "topic": "provider_dependence",
+      "claim": "ADR-0025 selected OpenAI GPT Image 2 API for bounded targeted-repair hardening; that API is not the executor of CH05–CH13 complete chapters.",
+      "value": {
+        "selected_hardening_route": "openai_gpt_image_2",
+        "chapter_executor": "OPENAI_BUILT_IN_IMAGEGEN_ONLY"
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/adr/ADR-0025-select-openai-gpt-image-2-for-bounded-targeted-repair-hardening.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/evidence/ch07-production-time-cost-record-r1.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-025",
+      "topic": "rights",
+      "claim": "BFL FLUX API terms revised 2026-08-04 grant BFL rights to use Inputs/Outputs to train. ADR-0019 restricts BFL to two hash-pinned fictional geometry controls. No adult references authorized.",
+      "value": {
+        "bfl_training_on_inputs": true,
+        "adult_reference_authorized": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/adr/ADR-0019-bfl-api-is-fictional-control-only.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "https://bfl.ai/legal/flux-api-service-terms",
+          "date": "2026-08-04",
+          "accessed": "2026-09-01",
+          "note": "Primary review dated 2026-09-01 in provider-primary-documentation; not re-hashed on 2026-09-06."
+        },
+        {
+          "path_or_url": "docs/research/provider-primary-documentation-20260901.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-026",
+      "topic": "rights",
+      "claim": "OpenAI API / business products are not trained on by default. Individual ChatGPT/Sora/Operator content may be used to train unless the user opts out. Codex ImageGen training-on-inputs for this project's calls is unverified.",
+      "value": {
+        "api_train_by_default": false,
+        "consumer_train_by_default": true,
+        "codex_imagegen_train_default_for_this_project": null
+      },
+      "status": "cited_with_gap",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/",
+          "date": "2026-03-13",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "https://cdn.openai.com/pdf/chatgpt-images-2-0-eu-ai-act-public-summary-of-training-content.pdf",
+          "date": "2026-08-07",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/provider-primary-documentation-20260901.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-027",
+      "topic": "licensing",
+      "claim": "Official NoobAI-XL 1.0 model card prohibits commercialization of the model, derivative models, and model-generated products.",
+      "value": {
+        "commercial_use_of_model": false,
+        "commercial_use_of_derivatives": false,
+        "commercial_use_of_generated_products": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "https://huggingface.co/Laxhar/noobai-XL-1.0",
+          "date": null,
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "GAP_ANALYSIS.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/model-license-registry.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-028",
+      "topic": "licensing",
+      "claim": "Local JANKUTrainedChenkinNoobai_v777.safetensors and similarly named NoobAI ControlNet are BLOCKED_FROM_COMMERCIAL_PIPELINE. Exact local-file provenance is unrecorded.",
+      "value": {
+        "pipeline_status": "BLOCKED_FROM_COMMERCIAL_PIPELINE",
+        "exact_upstream_provenance": null
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/model-license-registry.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "GAP_ANALYSIS.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-029",
+      "topic": "licensing",
+      "claim": "FLUX.2 Klein 4B transformer is Apache-2.0; the exact local flux2-vae.safetensors is documented non-commercial (flux-1-dev-non-commercial-license) and blocks a commercial FLUX profile using that VAE.",
+      "value": {
+        "transformer_license": "Apache-2.0",
+        "vae_license": "flux-1-dev-non-commercial-license",
+        "commercial_flux_profile_with_this_vae": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/model-license-registry.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-030",
+      "topic": "licensing",
+      "claim": "Illustrious XL v2.0 pinned README declares CreativeML OpenRAIL-M. Use remains fictional/local research until intended-use terms are reviewed. Not a commercial clearance.",
+      "value": {
+        "declared_license": "creativeml-openrail-m",
+        "commercially_cleared": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/model-license-registry.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "https://huggingface.co/OnomaAIResearch/Illustrious-XL-v2.0",
+          "date": "2026-09-01",
+          "accessed": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "id": "ECON-031",
+      "topic": "commercial_clearance",
+      "claim": "CH05 final provenance audit: 29 records, 0 accepted, 0 commercially cleared, 0 reproducible. Built-in cost null.",
+      "value": {
+        "records": 29,
+        "accepted": 0,
+        "commercially_cleared": 0,
+        "generation_reproducible": 0,
+        "paid_spend_usd": 0,
+        "human_review_minutes": null
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/ch05-final-model-license-provenance-audit-r1.md",
+          "date": "2026-09-02",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/evidence/ch05-final-model-license-provenance-audit-r1.json",
+          "date": "2026-09-02",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-032",
+      "topic": "commercial_clearance",
+      "claim": "Reimagining audits record provider metadata null and candidates unaccepted/commercially uncleared: Ember Phase A 24 requests $0; Ember Phase B volume 224 new generation requests $0 (validation lists 225 new generated sources); Borrowed Down 67 requests $0; City Keeps Oaths 91 requests $0.",
+      "value": {
+        "ember_phase_a_generation_requests": 24,
+        "ember_phase_b_new_generation_requests_volume_master": 224,
+        "ember_phase_b_new_generated_sources_validation": 225,
+        "borrowed_down_generation_requests": 67,
+        "city_keeps_oaths_generation_requests": 91,
+        "direct_paid_usd": 0,
+        "commercially_cleared": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "limitations": ["Ember Phase B 224 vs 225 is an unresolved count discrepancy between two volume records; not averaged."],
+      "sources": [
+        {
+          "path_or_url": "docs/reimaginings/ember-lattice/phase-a-pilot-audit.md",
+          "date": "2026-09-04",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/reimaginings/ember-lattice/pilot/validation-report.json",
+          "date": "2026-09-04",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "C:\\AgentWorkspaces\\anime-pipeline-litrpg-manhwa-20260904-001211\\production\\reimaginings\\ember-lattice\\volume\\volume-master.json",
+          "date": "2026-09-04",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "C:\\AgentWorkspaces\\anime-pipeline-litrpg-manhwa-20260904-001211\\production\\reimaginings\\ember-lattice\\volume\\volume-validation.json",
+          "date": "2026-09-04",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "C:\\AgentWorkspaces\\anime-pipeline-reimagining-20260903\\docs\\reimaginings\\borrowed-down\\FINAL_AUDIT.md",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "C:\\AgentWorkspaces\\anime-pipeline-reimagining-clean-webtoon-20260903-213010\\docs\\reimaginings\\the-city-keeps-oaths\\FINAL_AUDIT.md",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-033",
+      "topic": "lora_privacy",
+      "claim": "soren_v1 and sigrid_v1 are SENSITIVE_ADULT_LIKENESS_LOCAL_ONLY. Training/reference images are sensitive and unmodified. Signed consent/provenance record required before any commercial profile was not found in tracked docs.",
+      "value": {
+        "soren_v1_sha256": "8e8cafaf663a02a6c7477f10be60285a8484b90f4e19278dbdf43c7263e83277",
+        "sigrid_v1_sha256": "015216b8c40c2b3a1d78fd9791842061e3f3a79178bcef12eaa20606194634d9",
+        "signed_consent_packet_found": false,
+        "uploaded_to_external_provider": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/model-license-registry.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "GAP_ANALYSIS.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "GOAL.md",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-034",
+      "topic": "lora_privacy",
+      "claim": "CH05+ ImageGen used only three owner-authorized hash-pinned fictional-adult project images as references. Newly generated outputs must not be re-uploaded. LoRA datasets were not used as ImageGen inputs per registry narrative.",
+      "value": {
+        "unique_authorized_reference_hashes": 3,
+        "reupload_of_new_outputs": false,
+        "lora_as_imagegen_input": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/model-license-registry.md",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/ch05-final-model-license-provenance-audit-r1.md",
+          "date": "2026-09-02",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-035",
+      "topic": "platform_policy",
+      "claim": "WEBTOON Canvas Community Policy last updated 2025-11-25 (implemented ~2026-01-06) contains no dedicated AI-generation or AI-disclosure clause as fetched 2026-09-06. Creators must own IP in uploads. Silence is not a disclosure mandate and is not a clearance.",
+      "value": {
+        "official_ai_disclosure_clause_found": false,
+        "ip_ownership_required": true
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "https://www.webtoons.com/en/terms/canvasPolicy",
+          "date": "2025-11-25",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "research/authoritative/v2.1.1/registry/POLICY_LICENSE_REGISTRY.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-036",
+      "topic": "platform_policy",
+      "claim": "WEBTOON Originals terms are per-contract and were not available for this assignment.",
+      "value": null,
+      "status": "unavailable",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "research/authoritative/v2.1.1/registry/POLICY_LICENSE_REGISTRY.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-037",
+      "topic": "platform_policy",
+      "claim": "Tapas official Content and Community Guidelines state AI generated content is not allowed on Tapas. Page last modified 2022-03-09; 2023-01-23 announcement is consistent. Secondary blogs claiming Tapas now allows tagged AI are contradicted by this official page.",
+      "value": {
+        "ai_generated_content_allowed": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "https://help.tapas.io/hc/en-us/articles/115005323707-Content-and-Community-Guidelines",
+          "date": "2022-03-09",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "https://tapas.io/newsfeed/224",
+          "date": "2023-01-23",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-038",
+      "topic": "platform_policy",
+      "claim": "Naver Webtoon barred generative-AI contest entries in 2023 after reader backlash. Korea AI Basic Act transparency duties reported as falling on AI businesses/providers more than individual uploaders. Union vs company dispute over contract research-use/AI-training language is unresolved here.",
+      "value": {
+        "2023_contest_generative_ai_banned": true,
+        "individual_uploader_ai_label_duty_under_ai_basic_act": false,
+        "contract_ai_training_clause_dispute": "unresolved"
+      },
+      "status": "cited_industry",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "https://biz.chosun.com/it-science/ict/2023/05/31/QP3S4RDBAJH2FMHESES4BQWZRU/",
+          "date": "2023-05-31",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "https://www.animenewsnetwork.com/news/2026-01-24/south-korea-new-ai-law-raises-questions-for-webtoon-creators-platforms/.233383",
+          "date": "2026-01-24",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "https://www.animenewsnetwork.com/feature/2025-11-06/webtoon-disputes-union-unpaid-labor-allegations/.230725",
+          "date": "2025-11-06",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "https://www.technologyreview.com/2025/04/22/1114874/generative-ai-south-korea-webcomics/",
+          "date": "2025-04-22",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-039",
+      "topic": "model_provenance",
+      "claim": "BUNDLE_PROVENANCE.json identifies only the v2.1.1 research archive zip, not a model-weight bill of materials.",
+      "value": {
+        "authoritative_source_archive": "ngvnc_research_v2_1_1.zip",
+        "sha256": "53be6ddce3d79d33d42a266699c68dd08eed3ed5603145db463ab7463617d718"
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "BUNDLE_PROVENANCE.json",
+          "date": null,
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-040",
+      "topic": "provider_dependence",
+      "claim": "Reimagining and some CH05 manifests record provider=null together with null model/endpoint/request/usage/cost/seed.",
+      "value": {
+        "provider": null,
+        "model": null,
+        "endpoint": null,
+        "request_id": null,
+        "usage": null,
+        "cost": null,
+        "seed": null
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/reimaginings/ember-lattice/pilot/validation-report.json",
+          "date": "2026-09-04",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "production/comic/run-manifests/ch05-complete-chapter-reduced-palette-text-control-execution-manifest-r1.json",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/reimaginings/ember-lattice/cumulative-experiment-ledger.md",
+          "date": "2026-09-04",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-041",
+      "topic": "direct_spend",
+      "claim": "Gemini paid-tier bakeoff used billed paid API. Free-tier Gemini is recorded as training-on-inputs plus human review in the 2026-08-31 registry and was not authorized for sensitive material.",
+      "value": {
+        "g07_gemini_paid_spend_usd": "0.268756",
+        "free_tier_authorized": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "docs/research/provider-primary-documentation-20260901.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "research/authoritative/v2.1.1/registry/POLICY_LICENSE_REGISTRY.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-042",
+      "topic": "hardware",
+      "claim": "Local electricity and depreciation for this programme are unmeasured. A 2026-08-31 internal estimate of ~$0.25 electricity per hypothetical 70-panel chapter is not a measured North Garden cost.",
+      "value": {
+        "measured_electricity_usd": null,
+        "measured_depreciation_usd": null,
+        "hypothetical_registry_electricity_usd": 0.25
+      },
+      "status": "unavailable_plus_unrelated_estimate",
+      "estimate": true,
+      "assumptions": [
+        "Registry estimate assumed ~5.6 GPU-h × 0.22 kW × 18.44¢/kWh (EIA May 2026) for a 70-panel chapter.",
+        "That chapter was not executed as specified."
+      ],
+      "sources": [
+        {
+          "path_or_url": "docs/research/production-time-cost-ledger.md",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "research/authoritative/v2.1.1/registry/POLICY_LICENSE_REGISTRY.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-043",
+      "topic": "commercial_clearance",
+      "claim": "Anima base and adult LoRAs may be used only as an internal baseline until primary-source commercial license records exist. baseline_legacy is a failure-profile arm, not a promotable commercial renderer.",
+      "value": {
+        "anima_commercial_license_record": null,
+        "baseline_legacy_promotable": false
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "GAP_ANALYSIS.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/adr/ADR-0002-baseline-legacy-is-a-failure-profile-arm.md",
+          "date": "2026-08-31",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-044",
+      "topic": "labor",
+      "claim": "GOAL.md immediate product is a measured loop that reduces accepted-panel failure rate and human minutes. Those two measures remain empty after CH01 internal-research panels.",
+      "value": {
+        "accepted_panel_rate_post_ch01": 0,
+        "human_minutes": null
+      },
+      "status": "measured",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "GOAL.md",
+          "date": "2026-09-03",
+          "accessed": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": "ECON-045",
+      "topic": "direct_spend",
+      "claim": "Prior untracked engineering review (REPOSITORY_REVIEW_2026-09-06.md) stated $1.057377 total direct paid spend. Verified against G07 ledger. That review also correctly distinguished unmeasurable built-in cost from $0 paid API. It is not a substitute for primary ledgers.",
+      "value": {
+        "review_stated_paid_spend_usd": "1.057377",
+        "ledger_committed_usd": "1.057377",
+        "built_in_cost_usd": null
+      },
+      "status": "verified_against_ledger",
+      "estimate": false,
+      "sources": [
+        {
+          "path_or_url": "C:\\AgentWorkspaces\\anime-pipeline\\docs\\REPOSITORY_REVIEW_2026-09-06.md",
+          "date": "2026-09-06",
+          "accessed": "2026-09-06"
+        },
+        {
+          "path_or_url": "docs/research/evidence/g07-bakeoff-cost-ledger-r1.json",
+          "date": "2026-09-01",
+          "accessed": "2026-09-06"
+        }
+      ]
+    }
+  ]
+}

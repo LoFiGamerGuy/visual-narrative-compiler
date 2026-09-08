@@ -2,7 +2,7 @@
 
 Open [the offline gallery](../../docs/nightglass-refinement/index.html) or [Windows launcher](../../docs/nightglass-refinement/OPEN_GALLERY.cmd). Full scenes open first. Switch to **Texture pairs** for four matched before/after studies, then browse characters, equipment, wildlife, monsters and abilities.
 
-The portable share is [nightglass-refinement-portable.zip](asset-bundle/local/final-v2/nightglass-refinement-portable.zip). Extract the entire ZIP, then open its root START_HERE.cmd or docs/nightglass-refinement/index.html. No server or network is required. Keep archive-receipt.json with it for verification.
+The portable share is [nightglass-refinement-portable.zip](asset-bundle/local/final-v3/nightglass-refinement-portable.zip). Extract the entire ZIP, then open its root START_HERE.cmd or docs/nightglass-refinement/index.html. No server or network is required. Keep archive-receipt.json with it for verification.
 
 Each image has independent category ratings, texture appeal and comfort, a note and shortlist. Texture pairs also have an independent preferred version; choosing it does not set any other rating. Blank means unanswered; N/A is distinct. Export selections before moving to another browser/device. Import verifies both selected and before-image bindings before changing any choices. All new choices begin blank.
 

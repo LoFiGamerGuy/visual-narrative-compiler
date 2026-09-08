@@ -1,6 +1,6 @@
 # Portable Nightglass refinement
 
-Portable delivery helpers for NR-20260908-01. The final-v2 receipts record the verified archive, extraction and source parity; generation is closed at24 primary images plus six single repairs.
+Portable delivery helpers for NR-20260908-01. The final-v3 receipts record the verified archive, extraction and source parity; generation is closed at24 primary images plus six single repairs.
 
 The archive contains all three current experiment namespaces (`production/nightglass-refinement`, `research/nightglass-refinement`, `docs/nightglass-refinement`) plus `ACTIVE_PIPELINE.md` and a root Windows `START_HERE.cmd`. It preserves all 24 primary images (four matched studies and twenty new images), every registered R1 (maximum six), nine original anchor copies, eighteen exact previous CE sources and their owner export, twenty-four previous WC selected image copies with manifest/data, global owner feedback, native gallery copies, prompts, call provenance, reviews, reader code and reproducing helpers. Original tool-return files and earlier namespaces stay in their existing workspaces; only their exact local copies are packaged.
 
@@ -8,7 +8,7 @@ From the repository root, replace `N` with the final registered attempt count, 2
 
 ```bash
 python3 research/nightglass-refinement/asset-bundle/check_bundle_coverage.py --expected-art N
-python3 research/nightglass-refinement/asset-bundle/bundle_assets.py create --expected-art N --out research/nightglass-refinement/asset-bundle/local/final-v2
+python3 research/nightglass-refinement/asset-bundle/bundle_assets.py create --expected-art N --out research/nightglass-refinement/asset-bundle/local/final-v3
 ```
 
 `create` requires a passing coverage preflight, writes a deterministic stored ZIP, verifies archive and member hashes, additively restores into its new `fresh-restoration` directory, and runs the extracted `research/nightglass-refinement/reader/build_reader.py --require-complete`. Rebuilt `docs/nightglass-refinement/data.json` and `data.js` must be byte-identical. The archive, exact member/byte manifest, archive receipt and verification receipt remain under ignored `local/`. Existing version directories are refused; preserve failures and choose a new version name only after fixing a real issue. A separate exact-Git export plus bundle restoration remains the lead’s final integration check.
@@ -33,4 +33,4 @@ Run the small synthetic safety fixtures without making a production package:
 python3 research/nightglass-refinement/asset-bundle/bundle_assets.py self-test
 ```
 
-Each fixture run keeps a new ignored directory and emits `security-test-receipt.json` here. These helper tests do not claim final-art completeness, real gallery rebuild success or reproducible image regeneration. The real final create/restore/rebuild checks are recorded separately in final-v2 receipts.
+Each fixture run keeps a new ignored directory and emits `security-test-receipt.json` here. These helper tests do not claim final-art completeness, real gallery rebuild success or reproducible image regeneration. The real final create/restore/rebuild checks are recorded separately in final-v3 receipts.

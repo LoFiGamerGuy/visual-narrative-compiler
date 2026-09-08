@@ -1,0 +1,47 @@
+{
+  "id": "S06",
+  "attempt_id": "S06-R1",
+  "phase": "repair",
+  "category": "scene",
+  "retry_of": "S06-P",
+  "retry_reason": "The larger-threat scene substituted a black-haired white-jacketed male for the recurring adult woman Senn. Restore her actual identity while retaining the scene's strong Riven/Regent/world scale.",
+  "prompt_path": "production/world-combat/prompts/S06-R1.txt",
+  "prompt_sha256": "d9ac09df654af72f3bfdcf8ba542e28a0db11df16de9a9530e2d1d46af7e4eee",
+  "references": [
+    {
+      "path": "production/world-combat/candidates/S06-P.png",
+      "sha256": "c2d3fd2c23fe6839be47543851c52381b345fec5f863ccfe2c852184af553d05",
+      "role": "Exact primary scene to repair"
+    },
+    {
+      "path": "production/world-combat/candidates/C02-P.png",
+      "sha256": "1d81611437996af93a4f5904cc80223e3ef98eb128306338f71cf2fb656bb605",
+      "role": "Actual new subject/design reference C02-P"
+    },
+    {
+      "path": "production/world-combat/candidates/G02-P.png",
+      "sha256": "0c88fcc341cccb5212a23854741039156b7767ff2df9f6b97a08538c6087ff83",
+      "role": "Actual new subject/design reference G02-P"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 04:11:00 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-world-combat-20260908-0300/production/world-combat/candidates/S06-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-world-combat-20260908-0300/production/world-combat/candidates/C02-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-world-combat-20260908-0300/production/world-combat/candidates/G02-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 04:13:44 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-e35c496c-b7a4-4a72-944f-c40a9dad7422.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-e35c496c-b7a4-4a72-944f-c40a9dad7422.png"
+}

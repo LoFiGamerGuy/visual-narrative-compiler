@@ -1,0 +1,5 @@
+All ten primary scenes/abilities and all ten actual phone captures were independently viewed against 14 actual component references. All reviewed hashes and phone/native bindings match. The first-seven review is preserved.
+
+Recommended remaining repairs, in order: S06 restores Senn instead of the original white-jacket male; S05 restores Dax’s anatomical right gauntlet; A01 removes the free hand from the sharp blade. These are source continuity/contact failures, not taste scores.
+
+The set does extend the full Nightglass promise into traversal, discovery, confrontation, forest combat, a buried hall and colossal scale. S01/S06 create especially clear world depth, while S02 gives a usable route into a dungeon. At phone size the action silhouettes largely survive, but dark hands, limbs and armor merge; native review remains necessary. S04 changes the intended shoulder stop into a head-crest strike, A02’s weight contact is imprecise, and A03 simplifies its source gun and under-explains pursuit. These remain documented below the top three repair priorities. No owner approval or canonical continuous story is inferred.

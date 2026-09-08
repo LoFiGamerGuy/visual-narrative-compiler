@@ -1,7 +1,9 @@
-# Active character and combat exploration
+# Active world and combat exploration
 
-Open [the eighteen-character offline gallery](docs/combat-exploration/index.html), [Windows launcher](docs/combat-exploration/OPEN_GALLERY.cmd), or [handoff](research/combat-exploration/START_HERE.md). [Results](research/combat-exploration/RESULTS.md) explain remaining design and weapon limitations.
+Open [the24-artwork offline gallery](docs/world-combat/index.html), [Windows launcher](docs/world-combat/OPEN_GALLERY.cmd), or [handoff](research/world-combat/START_HERE.md). [Results](research/world-combat/RESULTS.md) explain remaining artistic and continuity limitations.
 
-Two entirely new adult combat-character briefs were generated in each of the nine original starred drawing directions. Eighteen primaries and six single repairs are preserved; two identity repairs are displayed. Four mechanical repairs did not resolve their targets and remain in History. Character, drawing, weapon, power, comfort, notes and shortlist are independent and initially blank. Nothing is an approved cast or canon.
+WC-20260908-01 uses original full Nightglass as the leading benchmark, with limited Sunbreak and Floodline comparisons. Six full scenes lead a linked exploration of six adults, four combat equipment, two wildlife, two monsters and four abilities. All30 attempts are retained:24 primaries and six repairs; five repaired images are displayed. No cast, world or art preference is automatically approved.
 
-Source and provenance belong to autonomous/combat-exploration-20260908-0100. Native images and the full offline package travel in research/combat-exploration/asset-bundle/local/final-v1/combat-exploration-portable.zip. Direct paid spend is $0; generation is closed. Prior galleries, original anchors and the Black Petal ten-cover kit remain in their preserved workspaces. This branch is not merged or deployed.
+The supplied prior combat choices were validated and preserved separately. New independent ratings, notes and shortlist begin blank. All previous deliveries and Black Petal cover work remain accessible in their preserved workspaces.
+
+Source/provenance belong to autonomous/world-combat-20260908-0300. Native assets travel in research/world-combat/asset-bundle/local/final-v1/world-combat-portable.zip. Built-in image generation only, direct paid spend $0, generation closed. No merge or deployment.

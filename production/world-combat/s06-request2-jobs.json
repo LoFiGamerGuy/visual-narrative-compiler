@@ -1,0 +1,40 @@
+[
+  {
+    "id": "S06",
+    "attempt_id": "S06-P",
+    "phase": "primary",
+    "category": "scene",
+    "prompt_path": "production/world-combat/prompts/S06-P-request2.txt",
+    "prompt_sha256": "7323b3c30ab54ef2e23e0c81934596e5fba0f8fe9aa8001698c1c66c540fbc7a",
+    "references": [
+      {
+        "path": "production/world-combat/references/01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original full drawing-treatment and integrated atmosphere reference ONLY. Never copy its character, creature, weapon or layout."
+      },
+      {
+        "path": "production/world-combat/candidates/C01-P.png",
+        "sha256": "6776b7769c246b0d476e18d60614b7fb199bc58c7eb8e9b0568112cfe1835234",
+        "role": "New recurring character identity/design reference C01 Riven Hale. Preserve recognizable design, change composition/action as requested."
+      },
+      {
+        "path": "production/world-combat/candidates/C02-P.png",
+        "sha256": "1d81611437996af93a4f5904cc80223e3ef98eb128306338f71cf2fb656bb605",
+        "role": "New recurring character identity/design reference C02 Senn Ardent. Preserve recognizable design, change composition/action as requested."
+      },
+      {
+        "path": "production/world-combat/candidates/G02-P.png",
+        "sha256": "0c88fcc341cccb5212a23854741039156b7767ff2df9f6b97a08538c6087ff83",
+        "role": "New recurring equipment identity/design reference G02 Crownfall Lance. Preserve recognizable design, change composition/action as requested. Equipment reference defines the object only, never its cropped display-hand pose; follow the new entry grip and stance."
+      },
+      {
+        "path": "production/world-combat/candidates/M02-P.png",
+        "sha256": "ff4b4615d7f6ac6984bbe8958082bf8031bc0be9ac8fb903f106982e1cd43026",
+        "role": "New recurring monster identity/design reference M02 Hollow Regent. Preserve recognizable design, change composition/action as requested."
+      }
+    ],
+    "prompt": "Use case: illustration-story.\nAsset: NEW original progression-fantasy scene image, landscape3:2, intended1536x1024.\nInput image roles:\nImage 1: Original full drawing-treatment and integrated atmosphere reference ONLY. Never copy its character, creature, weapon or layout.\nImage 2: New recurring character identity/design reference C01 Riven Hale. Preserve recognizable design, change composition/action as requested.\nImage 3: New recurring character identity/design reference C02 Senn Ardent. Preserve recognizable design, change composition/action as requested.\nImage 4: New recurring equipment identity/design reference G02 Crownfall Lance. Preserve recognizable design, change composition/action as requested. Equipment reference defines the object only, never its cropped display-hand pose; follow the new entry grip and stance.\nImage 5: New recurring monster identity/design reference M02 Hollow Regent. Preserve recognizable design, change composition/action as requested.\nDrawing treatment: Original Nightglass clean action manhwa: refined intentional adult facial drawing, fine selective contours, crisp angular silhouettes, limited soft modeling, dark cool planes and selective cyan edge light. Scenes gain deep inhabited architecture, wet reflected light and large organized masses. Do not replace it with generic glossy 3D fantasy.\nLayout: One complete cinematic scene or ability action composition, no divider, portrait inset, character-sheet layout or collage.\nTitle/concept (do not letter): The City Has a Larger Resident\n\nRequested visual: Riven Hale and spear-bearing Senn Ardent stand fully readable on an intact high walk in the foreground, looking toward ONE enormous organic Hollow Regent moving between widely spaced towers beyond. Exactly two foreground adults, Riven\u2019s single saber and Senn\u2019s continuous lance visible without obscuring their bodies. Regent has four powerful animal legs, a broad smooth split-crown head, pale throat, opaque black glassy back plates and one long muscular tail; no robot limbs, human torso, upright pose or tentacle forest. Use a visible distant street and building floors to prove its scale, with at least a legible fore/hind leg separation and believable ground contact. Leave an open continuation of the high walk so danger and possible traversal coexist. Glossy dark mass, sparse cyan reflections and pale architectural planes, no competing giant creature. This is a complete cinematic scene, not a portrait/full-body split board or isolated component card. Prioritize inhabitable depth, clear routes, appealing adult faces when readable, coherent scale and a decisive visual moment. No captions or lettering baked into the artwork. Keep foreground action clean, background detail subordinate, effects localized. These are exploratory moments, not a frozen canonical plot. Distinct from the squat Rift Hound: a towering long-necked animal with tall forequarters, lower hindquarters, a deep barrel chest, broad hoof-like feet and a smaller shovel-shaped split-crown head. Its raised pale neck creates the dominant silhouette; calm ancient weight rather than a scaled-up dog.\nArt priorities: magnetic original character or creature presence, purposeful composition, believable scale and contact, readable action and meaningful materials. Use organized environmental detail rather than blankness for full scenes. Low clutter must not become bland design. Match reference drawing qualities, not its old identity or exact composition. Full-scene references containing portraits do NOT authorize portrait insets in a scene. No third-party franchise copying, logos, names, captions, watermarks, HUD, stat boxes, exploded assembly diagrams or decorative particle storms.\n",
+    "request_revision_reason": "First request rejected before generation due to six references. Omit redundant separate G01 object reference; C01 image still visually supplies its saber. Frozen first request and error retained.",
+    "rejected_request_path": "production/world-combat/rejected-calls/S06-P-request1.json"
+  }
+]

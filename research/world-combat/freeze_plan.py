@@ -1,0 +1,31 @@
+from pathlib import Path
+import json,hashlib,collections
+R=Path(__file__).resolve().parents[2];P=R/'production/world-combat';Q=R/'research/world-combat'
+read=lambda p:json.loads(p.read_text());sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+d=read(Q/'design/world-combat-draft-v1.json');es=d['entries'];by={e['id']:e for e in es}
+by['S04']['visual_brief']=by['S04']['visual_brief'].replace('on a broad damaged elevated platform','on a broad abandoned stone transit bridge in a misty basalt forest outside the city').replace('Cool urban depth','Layered dark pine trunks, broad mossy rocks, a deep ravine and distant city ruins')
+by['S05']['visual_brief']=by['S05']['visual_brief'].replace('in a ruined transit approach','inside a buried black-glass transit hall with broad columns and warm daylight falling through one ceiling fracture')
+regent='Distinct from the squat Rift Hound: a towering long-necked animal with tall forequarters, lower hindquarters, a deep barrel chest, broad hoof-like feet and a smaller shovel-shaped split-crown head. Its raised pale neck creates the dominant silhouette; calm ancient weight rather than a scaled-up dog.'
+for id in ['M02','S06']:by[id]['visual_brief']+=' '+regent
+by['A01']['title']='Between Steps: Counterstep'
+by['A01']['caption']='An early upgrade turns a committed crossing into an evasive counter.'
+by['A01']['visual_brief']='Low close three-quarter action view of Riven Hale emerging sideways from ONE narrow cyan seam beside a broken stone balustrade, avoiding a single falling stone beam that occupies his abandoned path. His leading boot is planted on a clearly visible safe ledge, trailing leg completing the step, one whole body only. He brings the single Seam Saber into a ready countering line. Show the origin seam behind the falling beam and the safe destination in the same spatially understandable frame. Different action and camera from the wide city traversal scene: this is a compact evasive counter, no fox. No duplicate bodies, floating feet or tunnel of rings. Keep face, grip, beam trajectory and safe landing clear.'
+by['A02']['visual_brief']='High oblique close combat view after the charge has stopped: Senn Ardent stands firmly at the flank of the crouched Rift Hound, both hands on one continuous Crownfall Lance. The spearhead touches its shoulder plate; the near foreleg visibly folds into a kneel and its chest presses toward the stone under one restrained cyan downward pressure band. Other legs remain organically connected. Senn looks down with concentrated control. Her full stance and the lance contact are visible, distinctly different from the low wide charging combat scene. A compressed ground shadow and one shallow stone depression indicate weight; no diagram arrows, duplicated limbs or aura cloud.'
+by['A04']['title']='Second Heart: Groundbreak'
+by['A04']['caption']='An early upgrade sends a landing impact along the ground.'
+by['A04']['visual_brief']='Dax Verran lands in a low three-point stance in an empty buried training court: one boot planted, one knee flexed clear of the ground, RIGHT ivory armored fist in visible contact with stone. His ordinary uncovered LEFT hand stretches backward for balance. One narrow cyan-white shock travels from that grounded fist along an existing floor seam toward ONE loose stone barrier a few steps away; the barrier is pushed apart at its base. Show source, ground route and moved obstacle in one readable frame. This is an early ground-shock upgrade, a different low pose and action from the standing doorway punch scene. Preserve attached shoulder-elbow-wrist anatomy, complete body and face. No extra actor, giant detached fist, second powered glove, ring storm or labels.'
+short={'Seam Saber':'A long dark saber with a cyan channel and a solid guard.','Crownfall Lance':'An ivory-headed combat lance built to arrest a charge.','Wraithlock':'An ivory-and-dark-metal spell pistol that marks a single quarry.','Thunderheart':'A single armored gauntlet that stores a thunder strike.','Dawn Hew':'A green-edged two-handed battle axe that holds sunlight.','Black Verdict':'A broad greatsword whose blade can shelter a narrow path.'}
+for e in es:
+ if 'weapon' in e:e['weapon_visual']=e['weapon']['description'];e['weapon']['description']=short[e['weapon']['name']]
+ if e['category']=='equipment':
+  e['visual_brief']=e['visual_brief'].replace('with one small close detail of the SAME object only if useful','in one view, without a duplicate-object inset')
+  e['visual_brief']+=' Include neutral adult gloved hands and only short cropped forearm portions visibly holding the intended grip zones to establish scale; no face or full person, no additional equipment. Full object endpoints and grip connections remain framed. This is cosmetic fantasy concept art, not a construction schematic.'
+oldstyles=read(P/'previous/data.json')['styles']
+plan={'schema':'WorldCombatPlan/1','experiment_id':'WC-20260908-01','world':d['world'],'styles':[s for s in oldstyles if s['id'] in ['01','02','06']],'entries':es,'budget':{'primary':24,'max_repairs':6,'max_per_candidate':1},'owner_approval':None}
+assert collections.Counter(e['style_id'] for e in es)=={'01':18,'02':3,'06':3}
+raw=json.dumps(plan,indent=2)+'\n';path=P/'world-combat-plan.json'
+if path.exists():assert path.read_text()==raw,'Refuse changed frozen plan'
+else:path.write_text(raw)
+(P/'world-combat-plan.sha256').write_text(sha(path)+'  world-combat-plan.json\n')
+(Q/'plan-adjudication.md').write_text("# Production plan changes before any generation\n\nPreserved the author draft. The production freeze adds a basalt-forest combat scene and a buried interior so environments differ materially. Ability studies use new cameras/actions: evasive counterstep, an already-kneeling weight target, and a low ground-shock upgrade rather than repeating three scene compositions. The Regent gains a tall raised neck, lower hindquarters and broad hoof-like feet to separate it from the squat hound. Gear includes cropped adult grip context for scale; owner-facing descriptions omit mechanical negative prompts. All names, connections and progression remain proposals.\n")
+print(json.dumps({'entries':len(es),'sha256':sha(path),'first_wave':[e['id'] for e in es if not e['dependency_ids']]}))

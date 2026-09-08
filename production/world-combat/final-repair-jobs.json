@@ -1,0 +1,91 @@
+[
+  {
+    "id": "S06",
+    "attempt_id": "S06-R1",
+    "phase": "repair",
+    "category": "scene",
+    "retry_of": "S06-P",
+    "retry_reason": "The larger-threat scene substituted a black-haired white-jacketed male for the recurring adult woman Senn. Restore her actual identity while retaining the scene's strong Riven/Regent/world scale.",
+    "prompt_path": "production/world-combat/prompts/S06-R1.txt",
+    "prompt_sha256": "d9ac09df654af72f3bfdcf8ba542e28a0db11df16de9a9530e2d1d46af7e4eee",
+    "references": [
+      {
+        "path": "production/world-combat/candidates/S06-P.png",
+        "sha256": "c2d3fd2c23fe6839be47543851c52381b345fec5f863ccfe2c852184af553d05",
+        "role": "Exact primary scene to repair"
+      },
+      {
+        "path": "production/world-combat/candidates/C02-P.png",
+        "sha256": "1d81611437996af93a4f5904cc80223e3ef98eb128306338f71cf2fb656bb605",
+        "role": "Actual new subject/design reference C02-P"
+      },
+      {
+        "path": "production/world-combat/candidates/G02-P.png",
+        "sha256": "0c88fcc341cccb5212a23854741039156b7767ff2df9f6b97a08538c6087ff83",
+        "role": "Actual new subject/design reference G02-P"
+      }
+    ],
+    "prompt": "Use case: precise-object-edit. One evidence-based repair of newly generated image1. Output one complete landscape3:2 scene at native1536x1024, no collage.\nImage1 is the exact scene to edit. Image2 defines SENN ARDENT only: adult woman, chestnut high ponytail, heavy brows, strong nose, athletic muscular bare arms, navy long vest and ivory breastplate, dark trousers and greaves. Image3 defines her single complete lance. Replace ONLY the white-jacketed black-haired person standing to Riven's right with this recognizable Senn. She holds the existing continuous Crownfall Lance in a natural relaxed guard while looking toward the enormous animal; give her a slight profile turn so her face and ponytail read. Exactly TWO foreground adults total: the existing silver-haired Riven on left stays the same, and Senn on his right. No white civilian jacket, short black hairstyle, extra person, portrait inset or panel. Keep the current giant long-necked animal, organic legs and pale throat, city floors and street scale, open high walk, Riven's single saber, lighting, Nightglass drawing, framing and sense of vast discovery. Preserve both full bodies and complete weapons. Do not mirror the scene or redesign the monster.\nNo lettering, captions, logos, watermark or HUD. Preserve unaffected design and intended relationships.\n"
+  },
+  {
+    "id": "S05",
+    "attempt_id": "S05-R1",
+    "phase": "repair",
+    "category": "scene",
+    "retry_of": "S05-P",
+    "retry_reason": "Dax's extended powered arm is anatomical LEFT in the primary, contradicting his corrected character reference and right-handed groundbreak. Restore the recurring RIGHT gauntlet and explicit fist-to-slab contact.",
+    "prompt_path": "production/world-combat/prompts/S05-R1.txt",
+    "prompt_sha256": "0cf715bf1c0436b017afb3d4181405a9fe473d9d1caa0ba088137f88f619c617",
+    "references": [
+      {
+        "path": "production/world-combat/candidates/S05-P.png",
+        "sha256": "52357b8ae27482aa056e510a844d85990a81e2c9bc17b96ab46f44efbc2cd614",
+        "role": "Exact primary scene to repair"
+      },
+      {
+        "path": "production/world-combat/candidates/C04-R1.png",
+        "sha256": "9374d9b06b283778f453d9d032b14a0f164e03c47e69deaeef759cd1c56c33a7",
+        "role": "Actual new subject/design reference C04-R1"
+      },
+      {
+        "path": "production/world-combat/candidates/A04-P.png",
+        "sha256": "33c5037b90bc582b9c86e6fa5159dd8b7265efa2020744533f8fe071e4f066a0",
+        "role": "Actual new subject/design reference A04-P"
+      }
+    ],
+    "prompt": "Use case: precise-object-edit. One evidence-based repair of newly generated image1. Output one complete landscape3:2 scene at native1536x1024, no collage.\nImage1 is the exact power event to repair. Images2 and3 show the same Dax's face, costume and correct powered anatomical RIGHT arm; image3's ground pose is not this scene's action. Recompose Dax on the RIGHT half of the image facing toward the LEFT, in a clear front-three-quarter view. His ANATOMICAL RIGHT arm, attached to his right shoulder on the viewer-left side of his torso, wears the ONE enlarged ivory-metal Thunderheart gauntlet and extends LEFTWARD into a black-glass doorway slab. His ordinary unarmored ANATOMICAL LEFT hand remains tucked near his ribs on the viewer-right side of his torso. Show actual knuckle-to-slab contact at a small bright impact notch as the formerly single slab parts into two large pieces, revealing the passage beyond. His bearded salt-and-pepper adult face, sleeveless charcoal coat, teal chest armor, dark trousers and pale armored boots remain recognizable; both boots planted, clear hips/shoulders and one continuous punching arm. Keep the buried hall's deep architecture, warm daylight from overhead fracture, wet dark floor, localized blue discharge and readable doorway outcome. This remains a STANDING punch event, not a ground punch, character sheet or portrait. No second gauntlet, no hidden ordinary hand, no reversed arm assignments, no extra actor or particle storm. Preserve the original drawing treatment and environment quality while changing only the staging needed to show the correct body side and contact.\nNo lettering, captions, logos, watermark or HUD. Preserve unaffected design and intended relationships.\n"
+  },
+  {
+    "id": "S04",
+    "attempt_id": "S04-R1",
+    "phase": "repair",
+    "category": "scene",
+    "retry_of": "S04-P",
+    "retry_reason": "The primary's lance crosses the hound's head/jaw with sparks at the shaft/head root, rather than making the scene's intended legible tip-to-shoulder stop. Clarify combat contact in this centerpiece scene.",
+    "prompt_path": "production/world-combat/prompts/S04-R1.txt",
+    "prompt_sha256": "cb06be16623c66ba600dce5ab92740ee898e5ecdb057bae352d79942fcfc75c1",
+    "references": [
+      {
+        "path": "production/world-combat/candidates/S04-P.png",
+        "sha256": "7f5f2654176ff425516577d35ee8f0c209eccaef2aa35e3b83ee69a7ea291f9c",
+        "role": "Exact primary scene to repair"
+      },
+      {
+        "path": "production/world-combat/candidates/C02-P.png",
+        "sha256": "1d81611437996af93a4f5904cc80223e3ef98eb128306338f71cf2fb656bb605",
+        "role": "Actual new subject/design reference C02-P"
+      },
+      {
+        "path": "production/world-combat/candidates/G02-P.png",
+        "sha256": "0c88fcc341cccb5212a23854741039156b7767ff2df9f6b97a08538c6087ff83",
+        "role": "Actual new subject/design reference G02-P"
+      },
+      {
+        "path": "production/world-combat/candidates/M01-R1.png",
+        "sha256": "ac385674aa3296d03a12351a95ff66de6a2cc4069189bc568bf31006a2a2ada3",
+        "role": "Actual new subject/design reference M01-R1"
+      }
+    ],
+    "prompt": "Use case: precise-object-edit. One evidence-based repair of newly generated image1. Output one complete landscape3:2 scene at native1536x1024, no collage.\nImage1 is the scene to edit. Image2 supplies the same Senn adult face, ponytail, navy/ivory armor and athletic silhouette. Image3 defines her continuous lance with one ivory spearhead. Image4 defines the same low four-legged Rift Hound. Keep the forest-and-basalt ravine bridge setting, wet stone, distant city, full grounded figures and Nightglass drawing treatment. Correct the contact: Senn braces her continuous lance with TWO hands visibly wrapping separated shaft positions; the lance's sharp POINTED END presses into ONE broad shoulder plate of the charging hound, just BEHIND its head. Make that single contact point unmistakable with a small concentrated glint at the TIP. Lower/turn the hound's head slightly so its mouth and skull are clearly BELOW and separate from the shaft and spearhead. The head is not impaled or overlaid by the blade, and sparks do not come from the shaft. Senn's wide planted stance, aligned arms and the creature's forward weight make the force understandable. Keep the entire lance, both human boots, all four animal legs/paws and single tail framed with readable separation. Preserve the creature's heavy organic build, broad black plates and pale jaw; reduce tiny competing highlights around the contact without flattening the animal into plastic. No extra hands, limbs, weapons, actors, new magic ring or portrait panel.\nNo lettering, captions, logos, watermark or HUD. Preserve unaffected design and intended relationships.\n"
+  }
+]

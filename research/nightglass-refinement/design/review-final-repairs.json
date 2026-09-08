@@ -1,0 +1,127 @@
+{
+  "schema": "NightglassRefinementIndependentFinalRepairReview/1",
+  "experiment_id": "NR-20260908-01",
+  "utc": "2026-09-08T11:21:06.966038+00:00",
+  "reviewer": "scene_feasibility",
+  "scope": "Actual A04/S05 native primary versus repair, linked source designs, and actual 390px history captures. Recommendations only; no selected-state or owner-choice changes.",
+  "independence": "Frozen before reading root or independent art reviewer repair verdicts. Prior primary findings preserved. Author of original concept draft; independent of lead adjudication, not blind to concepts.",
+  "method": "Viewed each of four natives separately, re-viewed G01-R1 and C01-P; Dax comparison carries forward previously inspected native WC C04-R1. Viewed both actual phone captures. An earlier combined image-tool output truncated and was not counted; separate successful views replaced it.",
+  "source_bindings": [
+    {
+      "attempt_id": "A04-P",
+      "path": "production/nightglass-refinement/candidates/A04-P.png",
+      "sha256": "4824fd19469d23ef2c7b8f019eccf071fdb989ed3a55ff45001c7fb3ac122e0c",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "attempt_id": "A04-R1",
+      "path": "production/nightglass-refinement/candidates/A04-R1.png",
+      "sha256": "60fa9d03aa3f6b19d3fccbf6f720053de3305f7bbc9f086d0a589d817130109c",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "attempt_id": "C01-P",
+      "path": "production/nightglass-refinement/candidates/C01-P.png",
+      "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "attempt_id": "G01-R1",
+      "path": "production/nightglass-refinement/candidates/G01-R1.png",
+      "sha256": "a9cf8f6a062b655fbb37683f92d848d339896a3025509783c1cfdb1cfd6cf737",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "attempt_id": "S05-P",
+      "path": "production/nightglass-refinement/candidates/S05-P.png",
+      "sha256": "b17ff7da2f93fe26547b8c5cbee24fc0a1f181a53b342fa46a736336d0d3bf91",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "attempt_id": "S05-R1",
+      "path": "production/nightglass-refinement/candidates/S05-R1.png",
+      "sha256": "c9c663aadcb544715a4dadbed62395c5b12252cfe2d15f56b9ad0c0177c7bed9",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "additional_source": {
+    "id": "C04",
+    "attempt_id": "C04-R1",
+    "path": "production/nightglass-refinement/previous-world/images/C04.png",
+    "sha256": "9374d9b06b283778f453d9d032b14a0f164e03c47e69deaeef759cd1c56c33a7"
+  },
+  "phone_receipt": {
+    "path": "research/nightglass-refinement/reader/phone-captures/history/c1d3b7ae5276/receipt.json",
+    "sha256": "06751efc24a77124b9e97cf0ccf575696caaae4ce4c578db86145a56c3822bc7",
+    "dataset_sha256": "db4787be8128fe7c8ed50d362e9f7ea4c93f35ed677f2e18ffb72973d8d090dc",
+    "loaded_reader_semantic_sha256": "c1d3b7ae5276c69005a8d04a7fc8518c82e0d7e10a9010e579f5c3797cef914d"
+  },
+  "phone_captures": [
+    {
+      "attempt_id": "S05-R1",
+      "path": "research/nightglass-refinement/reader/phone-captures/history/c1d3b7ae5276/S05-R1-390.png",
+      "sha256": "9df43bcfa18b27041a4ecd55edd263acbd61968382e563456a94dd9f84dfa8b1",
+      "native_sha256": "c9c663aadcb544715a4dadbed62395c5b12252cfe2d15f56b9ad0c0177c7bed9",
+      "rendered_width": 338,
+      "rendered_height": 225.328125
+    },
+    {
+      "attempt_id": "A04-R1",
+      "path": "research/nightglass-refinement/reader/phone-captures/history/c1d3b7ae5276/A04-R1-390.png",
+      "sha256": "4a48aff0ca5517f5d2656d60d1b1a7d1e8a2df01a3514689807b87de6b0f4bc4",
+      "native_sha256": "60fa9d03aa3f6b19d3fccbf6f720053de3305f7bbc9f086d0a589d817130109c",
+      "rendered_width": 338,
+      "rendered_height": 225.328125
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "A04",
+      "recommended_display": "A04-R1",
+      "confidence": "Moderate: texture preference between two mechanically flawed attempts.",
+      "repair_outcome": "Functional orientation repair failed; surface simplification visibly improved.",
+      "observed_improvements": [
+        "Large foam wall behind toad removed; skin changes from high-contrast mottled patches to quieter broad modeling.",
+        "Neris identity, full planted stance, extended arm and toad lifted near forefoot preserved."
+      ],
+      "remaining_failures": [
+        "Rear handle/frame and visible gloved fist remain on the LEFT creature-facing concave side; Neris still reaches from RIGHT behind the navy plate. The grip-contact relationship is inconsistent with G01-R1/C01-P, where the forearm approaches the rear grip from its open side.",
+        "Toad belly still meets the grip/frame side rather than the outer solid navy shield face. No coherent front-face shield counter is demonstrated.",
+        "Removing spray and the small impact accent makes the consequence more static: lifted forefoot and leaned-back body imply recoil, but could also read as a sustained push.",
+        "Wet paving, background masonry and fine skin marks still carry substantial texture."
+      ],
+      "scale_anatomy": "No new detached limb or cropped body introduced; toad remains much larger than Neris. Shield is narrower than primary but has not reversed its functional front/back relationship.",
+      "phone": "Quieter left background and readable opposing silhouettes. The tiny grip defect is easy to miss at 338px art width, so phone clarity cannot certify mechanics.",
+      "selection_reason": "Prefer R1 for the owner\u2019s surface-noise concern while explicitly retaining the failed shield mechanic. P has stronger splash/recoil emphasis but the same orientation failure and more eye-straining detail. Neither is a mechanically accepted ability demonstration."
+    },
+    {
+      "id": "S05",
+      "recommended_display": "S05-R1",
+      "confidence": "High for comparative display.",
+      "repair_outcome": "Substantial successful texture reduction with central shield/actor mechanics retained.",
+      "observed_improvements": [
+        "Dense granular snow/spray becomes large continuous white-blue sweeps. Cliffs and drifts group into broad value masses; distant architecture loses distracting flecks.",
+        "Neris forearm still approaches visible rear frame from LEFT, wraps the grip, and braces shield against incoming weather from RIGHT. Quiet protected lee behind shield remains clear.",
+        "Neris face, dark loose knot, teal/ivory costume and Dax face, salt-and-pepper hair, angular beard, teal armor and inactive anatomical RIGHT gauntlet remain recognizably linked."
+      ],
+      "remaining_failures": [
+        "Shield is still nearly frame-height and dramatically enlarged relative to C01-P character-board proportions; this already existed in P, not a repair regression. Perspective can explain some size, but strict metric continuity is not established.",
+        "Wind now has broad flowing folds that can read as a magical sheet or wave rather than granular blizzard. Force versus shelter still reads.",
+        "Neris rear boot remains partly hidden by the shield/snow; full foot-ground contact cannot be certified from this view."
+      ],
+      "scale_anatomy": "Principal stance, arm-to-grip, Dax crouch and right-gauntlet placement preserved. No new obvious limb/contact failure in the revision.",
+      "phone": "Clear improvement: faces and navy shield stand out against broad snow values, and protected pair versus incoming sweep reads immediately.",
+      "selection_reason": "R1 directly addresses the texture complaint while preserving the already useful pose and coherent defensive shield orientation."
+    }
+  ],
+  "limits": [
+    "No further image generation requested; 24P+6R budget closed.",
+    "These are agent display recommendations, not owner likes, canon, or final art acceptance."
+  ]
+}

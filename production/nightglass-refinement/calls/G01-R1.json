@@ -1,0 +1,37 @@
+{
+  "id": "G01",
+  "attempt_id": "G01-R1",
+  "phase": "repair",
+  "category": "equipment",
+  "retry_of": "G01-P",
+  "retry_reason": "Unrequested full male fighter and setting dominate equipment category; isolate complete shield while preserving actual mounting and broad navy face.",
+  "review_evidence": "research/nightglass-refinement/independent-review/primary-batch-01.json",
+  "review_sha256": "0517dc8b2db0089917c2d5d44f5aa1c47fb7ffedf5fa52aa1d5d86f602f8f729",
+  "prompt_path": "production/nightglass-refinement/prompts/G01-R1.txt",
+  "prompt_sha256": "b8625f85d3c18091c341abcfccb3b7528444273089a72b66519227be0547cb5b",
+  "references": [
+    {
+      "path": "production/nightglass-refinement/candidates/G01-P.png",
+      "sha256": "c32e55a2b578c4b04ef1174eade988c9b4d6c6804419b8abdd2e48f063f90642",
+      "role": "Only the equipment construction is retained. Remove the unrequested full reference character and setting."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 10:45:38 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/candidates/G01-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 10:47:01 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-0675e613-4693-4ad5-b5ea-5d678820f6f9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-0675e613-4693-4ad5-b5ea-5d678820f6f9.png"
+}

@@ -1,0 +1,206 @@
+{
+  "schema": "NightglassFinalActionsIndependentReview/1",
+  "experiment_id": "NR-20260908-01",
+  "status": "Frozen four-candidate native/phone findings; not owner approval",
+  "utc": "2026-09-08T11:09:52.747594+00:00",
+  "independence": "No lead-native-observations or other reviewer verdicts read before freezing this file. Initial design author independently reviewing the actual images.",
+  "plan_sha256": "bbf9219ce672e5b23959cffc01f9baab0e90e71fbdc8cf508a40a248afd7d653",
+  "source_registry_sha256": "54363b96c35aeb021639f208e3ab09889171d73e82825cfd75be5718b3165cca",
+  "reference_bindings": [
+    {
+      "attempt_id": "G01-R1",
+      "path": "production/nightglass-refinement/candidates/G01-R1.png",
+      "sha256": "a9cf8f6a062b655fbb37683f92d848d339896a3025509783c1cfdb1cfd6cf737",
+      "view_context": "Directly viewed in this review context or the immediately preceding frozen four-candidate review."
+    },
+    {
+      "attempt_id": "C01-P",
+      "path": "production/nightglass-refinement/candidates/C01-P.png",
+      "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+      "view_context": "Directly viewed in this review context or the immediately preceding frozen four-candidate review."
+    },
+    {
+      "attempt_id": "G02-R1",
+      "path": "production/nightglass-refinement/candidates/G02-R1.png",
+      "sha256": "33df0de51a518f1930a3e5755cd630e7376805d1ddaa5e20ff63ce5f2f3ae784",
+      "view_context": "Directly viewed in this review context or the immediately preceding frozen four-candidate review."
+    },
+    {
+      "attempt_id": "C02-P",
+      "path": "production/nightglass-refinement/candidates/C02-P.png",
+      "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+      "view_context": "Directly viewed in this review context or the immediately preceding frozen four-candidate review."
+    },
+    {
+      "attempt_id": "G03-R1",
+      "path": "production/nightglass-refinement/candidates/G03-R1.png",
+      "sha256": "3b7ee79852bfd8538a0f625e5983d4c0909cd4bad361b7d16425c15ae0f4b3df",
+      "view_context": "Directly viewed in this review context or the immediately preceding frozen four-candidate review."
+    },
+    {
+      "attempt_id": "C03-P",
+      "path": "production/nightglass-refinement/candidates/C03-P.png",
+      "sha256": "0071872b2bf1c5107da2750f1a719efc62b0490f6b8be8b74ec9483caacf03b5",
+      "view_context": "Directly viewed in this review context or the immediately preceding frozen four-candidate review."
+    },
+    {
+      "attempt_id": "WC:C04-R1",
+      "path": "production/nightglass-refinement/previous-world/images/C04.png",
+      "sha256": "9374d9b06b283778f453d9d032b14a0f164e03c47e69deaeef759cd1c56c33a7",
+      "view_context": "Same exact previously viewed WC Dax right-gauntlet source."
+    }
+  ],
+  "phone_receipt": {
+    "path": "research/nightglass-refinement/reader/phone-captures/db4787be8128-8ddfe8fd/receipt.json",
+    "sha256": "915236aa98f27ec1623af8daa48d58bde677ff45ffdad23b2a6221f7c7cd3e48",
+    "dataset_sha256": "db4787be8128fe7c8ed50d362e9f7ea4c93f35ed677f2e18ffb72973d8d090dc"
+  },
+  "entries": [
+    {
+      "id": "A01",
+      "attempt_id": "A01-P",
+      "path": "production/nightglass-refinement/candidates/A01-P.png",
+      "sha256": "f22541ebbc17ec5a0f4ea687b7f543f60e558f14d298b610bae8e95cf3724cc3",
+      "actual_native_viewed": true,
+      "phone_capture": {
+        "path": "research/nightglass-refinement/reader/phone-captures/db4787be8128-8ddfe8fd/A01-390.png",
+        "sha256": "69e55208372ba3a79dc910cf3abc5d8b141d24b2eee48245fc06e8ad89817215",
+        "actual_viewed": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "art_size": [
+          360,
+          240
+        ]
+      },
+      "observations": {
+        "identity_and_gear": "Kellan retains black curls, sand/cobalt coat, grin and pale boots. Both hands wrap the Winterline hilt behind the guard; the one complete blade reaches the water/ice origin. No blade grip or disconnected weapon.",
+        "source_action_target_consequence": {
+          "source": "Sword tip/edge visibly touches shallow water at the start of the ice strip.",
+          "action": "One continuous raised ice line extends from that contact.",
+          "target": "One stone training weight is tipped against the far end.",
+          "consequence": "The obstacle appears stopped by the barrier; its prior sliding motion is inferred rather than directly visible."
+        },
+        "texture": "Broad body/clothing forms remain clean. Foreground water is densely mottled with small reflections; ice face has many vertical striations rather than the requested smooth plane. Material simplification remains partial.",
+        "phone": "Weapon-to-ice-to-weight chain reads clearly at 360px width. Motion history and exact grip still benefit from native inspection.",
+        "severity": "No hard mechanical failure observed; texture and motion-history limits.",
+        "repair_priority": null
+      }
+    },
+    {
+      "id": "A02",
+      "attempt_id": "A02-P",
+      "path": "production/nightglass-refinement/candidates/A02-P.png",
+      "sha256": "36df439725f0211345f30dc06bc4d29ca006c95f19fc982bb077d6debfb40e93",
+      "actual_native_viewed": true,
+      "phone_capture": {
+        "path": "research/nightglass-refinement/reader/phone-captures/db4787be8128-8ddfe8fd/A02-390.png",
+        "sha256": "28f04e93066a2e4ace658dd560f214ac0f4a719e38f7721cfb4a17152848934a",
+        "actual_viewed": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "art_size": [
+          360,
+          240
+        ]
+      },
+      "observations": {
+        "identity_and_gear": "Elowen retains strawberry braid, slate/ivory costume and Daystring. Bow hand grips the center, single string has returned to rest, drawing fingers are open beside her cheek. One arrow is at the toad near forefoot, with no simultaneous nocked/flying duplicate.",
+        "source_action_target_consequence": {
+          "source": "Released bow pose and one arrow at the ground are visible.",
+          "action": "A shot has occurred; arrow meets the near toe/ground contact area.",
+          "target": "Near forefoot is planted at the arrow endpoint.",
+          "consequence": "Weakly demonstrated: no distinct solid anchor bridges foot/shadow and terrain, and the toad is upright and relaxed-looking rather than pitching forward against restraint. The image can read as an ordinary arrow planted beside a stationary animal."
+        },
+        "texture": "Toad skin has pervasive blotches and vein/crack-like marks across the large pale belly; cliffs, trees and reflective paving add more fine pattern. Faces/costumes are calmer than the creature/environment.",
+        "phone": "Bow release and arrow are readable, but the special anchor effect and arrested charge are not independently clear. Copy carries most of the power explanation.",
+        "severity": "Ability consequence under-explained, not a broken bow or duplicated arrow.",
+        "repair_priority": "Conditional alternative to texture-focused S05 if root prioritizes literal ability demonstration."
+      }
+    },
+    {
+      "id": "A04",
+      "attempt_id": "A04-P",
+      "path": "production/nightglass-refinement/candidates/A04-P.png",
+      "sha256": "4824fd19469d23ef2c7b8f019eccf071fdb989ed3a55ff45001c7fb3ac122e0c",
+      "actual_native_viewed": true,
+      "phone_capture": {
+        "path": "research/nightglass-refinement/reader/phone-captures/db4787be8128-8ddfe8fd/A04-390.png",
+        "sha256": "9f648c5168585d79e5a48ca4eb723cae4c7fd418e2269e6abf3ba41e42546cef",
+        "actual_viewed": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "art_size": [
+          360,
+          240
+        ]
+      },
+      "observations": {
+        "identity_and_gear": "Neris face, loose knot, teal/ivory costume and crescent object persist. HOWEVER shield orientation reverses its functional side: Neris stands right of the shield, while the rear grip/frame and fist face left toward the toad. Her arm passes behind the shield and appears to emerge on the target side, unlike the physically coherent arm-to-rear-grip arrangement in G01-R1/C01-P.",
+        "source_action_target_consequence": {
+          "source": "Supposed stored force is concentrated at shield/toad contact.",
+          "action": "A close shield counter is intended, but the exposed rear grip/fist side presses the animal rather than the broad outer protective face.",
+          "target": "Toad upper chest visibly overlaps the grip-side contact region.",
+          "consequence": "Recoil and lifted forefoot are legible, but they are produced by an incoherently oriented tool/contact chain."
+        },
+        "texture": "Large splashing wave behind the animal, dense skin mottling and ground chips remain busy. The shield itself retains a clean broad navy plane.",
+        "phone": "Recoil and attack silhouette read, masking the incorrect grip-side orientation; native inspection reveals the contact problem.",
+        "severity": "Hard functional shield orientation/contact failure.",
+        "repair_priority": 1,
+        "bounded_repair": "Keep Neris, monster and decisive recoil. Rotate/rebuild the shield so her forearm approaches its REAR grip from her side and the broad OUTER navy face contacts the toad; do not mirror only a hand. Keep complete anatomy. Quiet creature surfaces and reduce residual water to one broad simple shape while preserving action."
+      }
+    },
+    {
+      "id": "S05",
+      "attempt_id": "S05-P",
+      "path": "production/nightglass-refinement/candidates/S05-P.png",
+      "sha256": "b17ff7da2f93fe26547b8c5cbee24fc0a1f181a53b342fa46a736336d0d3bf91",
+      "actual_native_viewed": true,
+      "phone_capture": {
+        "path": "research/nightglass-refinement/reader/phone-captures/db4787be8128-8ddfe8fd/S05-390.png",
+        "sha256": "baad136f06bea0a4246150cd5fe705f3498f37266927f5af998b2eff5a787f9e",
+        "actual_viewed": true,
+        "viewport": [
+          390,
+          844
+        ],
+        "art_size": [
+          360,
+          240
+        ]
+      },
+      "observations": {
+        "identity_and_gear": "Neris matches C01 and uses the crescent coherently: forearm and grip remain on the sheltered left/rear side, weather meets the outer right/front side. Dax retains angular beard, salt-and-pepper hair, teal armor and an inactive anatomical RIGHT gauntlet. No punching repeat or extra powered hand.",
+        "source_action_target_consequence": {
+          "source": "One right-to-left snow/wind front is visible.",
+          "action": "The planted shield diverts it around the two adults.",
+          "target": "Neris and crouching Dax occupy the protected lee.",
+          "consequence": "A visibly calmer zone behind the shield shelters their readable faces and bodies."
+        },
+        "texture": "The strongest residual eye-strain issue of these four: much of the right half is granular white spray and streaks, while rock/snow edges and background cliffs are also heavily flecked. The intended one broad wind stream has become a particle-dense field. Faces and costume planes remain comparatively clear.",
+        "phone": "Protection and both identities read immediately, but high-frequency snow occupies a large share of the image even at 360px width. The image communicates the action better than it fulfills the texture-refinement goal.",
+        "severity": "No hard identity/gear failure; substantial primary rendering-goal miss.",
+        "repair_priority": 2,
+        "bounded_repair": "Preserve exact cast, poses, correct rear-grip/front-shield orientation and protected lee. Replace granular snow with one or two broad directional white/blue wind masses, large quiet drifts and only a few large spray accents; reduce cliff/stone stippling. Do not add new effects or alter anatomy."
+      }
+    }
+  ],
+  "two_slot_recommendation": {
+    "first": "A04-P: functional shield orientation/contact correction.",
+    "second": "S05-P: preserve functioning scene and make a targeted broad-surface snow/environment simplification, because reducing eye strain is the owner\u2019s central request.",
+    "tradeoff": "A02-P does not clearly demonstrate arrested charge/anchor consequence; it is the alternative second repair if literal ability demonstration takes priority. Leaving it means documenting this limitation rather than calling the power proven. No request to exceed the two remaining global slots.",
+    "local_scope": "This ranks only the four requested outputs, not unseen candidates."
+  },
+  "checks": {
+    "native_candidates_viewed": 4,
+    "phone_captures_viewed": 4,
+    "hashes_and_phone_bindings_match": true,
+    "production_or_selected_state_changed": false
+  }
+}

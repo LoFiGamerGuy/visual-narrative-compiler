@@ -1,0 +1,37 @@
+{
+  "id": "S01",
+  "attempt_id": "S01-R1",
+  "phase": "repair",
+  "category": "scene",
+  "retry_of": "S01-P",
+  "retry_reason": "Both Senn hands hang empty while lance has no clear support; restore actual wrapped grip. Persistent salt-chip/reflection noise also needs grouped broad surfaces. Preserve scene scale and identities.",
+  "review_evidence": "research/nightglass-refinement/independent-review/primary-batch-02.json",
+  "review_sha256": "f811f612c7c603328da2b28b343cdca51a6baee317b40062f5e005042506b42e",
+  "prompt_path": "production/nightglass-refinement/prompts/S01-R1.txt",
+  "prompt_sha256": "96cbd9dd4a74da7cf333ab04326cf088192b8a97f2b38e8d25f2c50223fc946f",
+  "references": [
+    {
+      "path": "production/nightglass-refinement/candidates/S01-P.png",
+      "sha256": "4d6cd04c86ed45b207a04c672fd37057e5bc08cd7d27b620678d34220491a5ae",
+      "role": "Exact scene edit target, preserve composition and both adults; repair actual lance grip and group terrain surface marks."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 10:49:52 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/candidates/S01-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 10:53:04 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-ef726662-3030-4b0b-89d1-b7d281ced9fc.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-ef726662-3030-4b0b-89d1-b7d281ced9fc.png"
+}

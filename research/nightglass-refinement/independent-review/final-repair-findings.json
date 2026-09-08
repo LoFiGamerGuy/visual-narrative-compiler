@@ -1,0 +1,70 @@
+{
+  "schema": "independent-art-repair-findings/v1",
+  "experiment_id": "NR-20260908-01",
+  "scope": "Final S05/A04 single repairs, actual native before/after plus actual 390px phone history. Author preferred verdicts not read; earlier freezes unchanged; no selection mutation.",
+  "dataset_sha256": "db4787be8128fe7c8ed50d362e9f7ea4c93f35ed677f2e18ffb72973d8d090dc",
+  "phone_receipt_sha256": "06751efc24a77124b9e97cf0ccf575696caaae4ce4c578db86145a56c3822bc7",
+  "generation_state": "Closed:24 primaries+6 single repairs; no further calls permitted.",
+  "entries": {
+    "S05": {
+      "attempt_id": "S05-R1",
+      "sha256": "c9c663aadcb544715a4dadbed62395c5b12252cfe2d15f56b9ad0c0177c7bed9",
+      "native_path": "production/nightglass-refinement/candidates/S05-R1.png",
+      "primary_attempt_id": "S05-P",
+      "primary_sha256": "b17ff7da2f93fe26547b8c5cbee24fc0a1f181a53b342fa46a736336d0d3bf91",
+      "primary_native_path": "production/nightglass-refinement/candidates/S05-P.png",
+      "native_before_after_inspected": true,
+      "phone_path": "research/nightglass-refinement/reader/phone-captures/history/c1d3b7ae5276/S05-R1-390.png",
+      "phone_sha256": "9df43bcfa18b27041a4ecd55edd263acbd61968382e563456a94dd9f84dfa8b1",
+      "phone_rendered": [
+        338,
+        225.328125
+      ],
+      "observations": [
+        "The primary\u2019s dense snowfleck wall is redrawn as large continuous white/blue directional bands sweeping around the exposed shield side. Rock faces and snowbanks now use broad connected shaded masses; many little caps, window sparks and granular ground marks are removed. This is a material native-scale reduction in competing texture, not merely a smaller phone rendering.",
+        "Neris\u2019s mature concentrated face, loose dark hair, teal/ivory costume, wide braced stance and secured forearm grip remain recognizable. Dax retains his angular bearded face, salt-and-pepper hair, teal armor and inactive anatomical RIGHT gauntlet resting on his knee. No new detached limb or second weapon is apparent.",
+        "The large arch, ascending rocky tiers and distant tower masses retain layered inhabited depth. There is less masonry/weathering richness, but enough distinct edge, shade and scale remains to avoid an empty or plastic-looking world. The adult faces are still precisely drawn against quieter surroundings.",
+        "The weather is now visibly more stylized: broad opaque ribbons can read partly like a smooth wind curtain instead of particulate blowing snow. This is a real material/atmosphere tradeoff, although the bending flow and calm lee still support protection. Concealed far foot and exact force physics remain unresolved as in the primary.",
+        "At the actual 338\u00d7225.33 repair image in a 390px phone viewport, the two adults, dark crescent and quiet wedge stand out more cleanly. The primary was shown at360\u00d7240, so phone size alone is not used as causal evidence; the matched native comparison independently confirms broad grouping. No owner comfort judgment is claimed."
+      ],
+      "recommend_attempt": "S05-R1",
+      "target_result": "Material texture reduction with retained acting/depth; more stylized wind material.",
+      "critical_failure_remains": false,
+      "major_regression_detected": "No major new actor/design regression; broad snow is more ribbon-like.",
+      "further_retry_allowed": false,
+      "owner_comfort_improvement": null,
+      "owner_new_output_approval": null
+    },
+    "A04": {
+      "attempt_id": "A04-R1",
+      "sha256": "60fa9d03aa3f6b19d3fccbf6f720053de3305f7bbc9f086d0a589d817130109c",
+      "native_path": "production/nightglass-refinement/candidates/A04-R1.png",
+      "primary_attempt_id": "A04-P",
+      "primary_sha256": "4824fd19469d23ef2c7b8f019eccf071fdb989ed3a55ff45001c7fb3ac122e0c",
+      "primary_native_path": "production/nightglass-refinement/candidates/A04-P.png",
+      "native_before_after_inspected": true,
+      "phone_path": "research/nightglass-refinement/reader/phone-captures/history/c1d3b7ae5276/A04-R1-390.png",
+      "phone_sha256": "4a48aff0ca5517f5d2656d60d1b1a7d1e8a2df01a3514689807b87de6b0f4bc4",
+      "phone_rendered": [
+        338,
+        225.328125
+      ],
+      "observations": [
+        "The huge decorative wave/spray wall behind the toad is removed. Low foamy water near the ground now reads much more plausibly as a spent trail, revealing the distant waterline and architectural depth. Large dark body regions lose the primary\u2019s conspicuous spotted mottling, making the creature mass calmer.",
+        "The critical construction repair fails: the visible brackets, strap and closed glove still face the toad\u2019s chest. Neris\u2019s exposed arm approaches from the opposite side of the solid crescent and is hidden at the shield rim rather than visibly ending in a rear grip on her side. Front-to-chest versus back-to-hand is not made physically coherent.",
+        "The crescent appears narrower and the exposed arm straighter/longer than in the primary. Some narrowing could be an intended edge-on view, but the still-exposed chest-side hardware undermines that explanation; it is not proof of corrected perspective. The new presentation does not resolve whether her arm passes through or implausibly around the solid shield.",
+        "One recognizable Neris remains with both boots grounded, consistent costume/face and empty free hand. One recognizable toad recoils with its near forefoot raised, keeping the broad counter/recoil drama. The pressure/contact effect remains weakly specified; overlap alone does not certify a correct shield-face hit.",
+        "Fine parallel/hatch-like skin marks remain over the pale throat and dark limbs, while cracked foreground stone and clouds retain considerable detail. The creature keeps living volume and folds rather than becoming flat or plastic, but texture relief is partial. It is not a complete implementation of the requested broad opaque surfaces.",
+        "At actual 338\u00d7225.33 phone rendering, the removed spray materially improves focus on the two interacting masses, but the hardware/body-side relationship still has no clear visual explanation. Recommend R for the improved surface/secondary-effect presentation only, with the shield-contact failure conspicuously retained. This is not acceptance of the action."
+      ],
+      "recommend_attempt": "A04-R1",
+      "target_result": "Partial surface/secondary-effect gain; critical shield front/rear/contact repair failed.",
+      "critical_failure_remains": true,
+      "major_regression_detected": "Narrower shield and more exposed straight arm do not resolve the inherited wrong-side grip; material construction remains failed.",
+      "further_retry_allowed": false,
+      "owner_comfort_improvement": null,
+      "owner_new_output_approval": null
+    }
+  },
+  "final_art_limit": "Matched studies and S05 show that calmer drawing can preserve appeal/depth. The expansion remains uneven in texture and contains unresolved construction/action defects. No whole-set owner comfort or production acceptance is established."
+}

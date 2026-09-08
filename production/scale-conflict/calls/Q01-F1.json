@@ -1,0 +1,39 @@
+{
+  "id": "Q01",
+  "attempt_id": "Q01-F1",
+  "phase": "texture",
+  "budget_amendment_path": "production/scale-conflict/budget-amendment-01.json",
+  "budget_amendment_sha256": "cc8abb28fbaa9596ce3cc1f74d2f4dcf989375f6616887534c0320b4bf966902",
+  "category": "sequence",
+  "retry_of": "Q01-P",
+  "retry_reason": "Dense water reflection flecks and masonry grain persist even with clean Bellmaw reference.",
+  "evidence_path": "production/scale-conflict/edit-specs-05.json",
+  "evidence_sha256": "6f9404face537f2b775e39660051c8878c5ac05387dcd5cc5977acce978d6c64",
+  "prompt_path": "production/scale-conflict/prompts/Q01-F1.txt",
+  "prompt_sha256": "4a6c0ef98b9702414ce1f4aae69794196bbd1d32fb98b0be1f90777ecc19c466",
+  "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+  "references": [
+    {
+      "path": "production/scale-conflict/candidates/Q01-P.png",
+      "sha256": "fa2a859c257f289577bdb06920f450d05f2933c652fd124a84ca62b3fed8e40e",
+      "role": "Sole exact edit source; preserve all content except the specified texture change"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 14:07:12 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/candidates/Q01-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 14:08:16 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-c6e1f92f-18c6-41e4-b314-432315ca6624.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

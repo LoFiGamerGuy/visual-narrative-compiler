@@ -1,0 +1,46 @@
+{
+  "schema": "ScaleConflictBundleAmendmentInspection/1",
+  "utc": "2026-09-08T14:09:27.897697+00:00",
+  "helper_sha256": "d1a1214423e8b7eb81bf0ab723e5d4b68fdce5fb447ab1e56b97f59dd9d96ed7",
+  "archive_created": false,
+  "phase_counts": {
+    "P": 19,
+    "R1": 4,
+    "F1": 4
+  },
+  "budget": {
+    "base_budget": {
+      "primary": 24,
+      "texture_passes": 12,
+      "structural_repairs": 4,
+      "maximum_total": 40
+    },
+    "effective_budget": {
+      "primary": 24,
+      "texture_passes": 24,
+      "structural_repairs": 4,
+      "maximum_total": 52
+    },
+    "amendment": {
+      "path": "production/scale-conflict/budget-amendment-01.json",
+      "sha256": "cc8abb28fbaa9596ce3cc1f74d2f4dcf989375f6616887534c0320b4bf966902",
+      "schema": "ScaleConflictBudgetAmendment/1",
+      "amendment_id": "surface-coverage-01",
+      "base_plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+      "evidence_path": "production/scale-conflict/budget-amendment-01-evidence.json",
+      "evidence_sha256": "e5f848996f3652d0fc68b1ea881386e3beac461d275760e6dc73f6e3bb769525",
+      "evidence_source_count": 23,
+      "authorization_recorded_not_inferred": "Latest owner authorizes autonomous completion and discretionary refinement without human gates; earlier owner explicitly requested saved texture process at all times going forward."
+    }
+  },
+  "archived_unrun_job_prompts": [
+    {
+      "job_path": "production/scale-conflict/edits-02-jobs.json",
+      "attempt_id": "V03-F1",
+      "intended_prompt_path": "production/scale-conflict/prompts/V03-F1.txt",
+      "archived_prompt_path": "production/scale-conflict/unrun/V03-F1-from-P.txt",
+      "prompt_sha256": "58f4ec360931ba20d5c5459d55a9924ca38deafb11c914cb9cdf21d3a5527f95"
+    }
+  ],
+  "all_current_bindings_pass": true
+}

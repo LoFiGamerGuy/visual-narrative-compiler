@@ -1,0 +1,11 @@
+# Phone addendum03
+
+Actual matched338px-wide P/edit pairs and T03 at360×240 inspected. Native source and screenshot hashes verified. Native-batch03 remains unchanged. History target/display labels were exposed after native freeze; no root verdict file was read.
+
+**V02-F1** Equal338px P/F1 phone views confirm quieter large hide and turquoise-water shapes while preserving the immense eye, diagonal bridge and two distinct small costume silhouettes. A substantial amount of painted faceting remains, but bright granular sparkle no longer competes as strongly. Recommend F1; native structural/framing limits remain unchanged.
+
+**V03-R1** Equal338px-wide portrait history views confirm a much smaller Riven. His tiny light head and dark/petrol torso separate weakly from nearby residents; identification depends on established hair/costume context and the blade silhouette, not his face. The frame more convincingly belongs to the aqueduct/city, with fish and upward depth retained. Recommend R1 for the intended small-human scale, but keep it partial against the literal10% target: actual5–6% reduces identity margin more than necessary, and terrace-footing depth remains unclear. This is not fully successful compliance merely because the figure is now tiny. Texture relief remains a separate available consideration.
+
+**V05-F1** Equal338px P/F1 phone views show reduced surface competition while retaining giant mouth, broad pale throat, four plausible legs and two adult silhouettes. Smoother mantle/throat could lose some tactile roughness, but weight and strong overlapping volumes survive. Recommend F1 without claiming owner comfort or correcting the inherited actor ratio.
+
+**T03-P** At360×240 the four-adult/two-lane setup and Kellan duck remain readable. The contact sparkle attracts attention but does not resolve the visibly kinked left cyan saber. Both edge guards remain cut by the native frame. Fine hands are too small to audit independently; no phone evidence repairs the native blade construction. Dense wet-paving reflections remain strong at phone size. Retain the structural repair recommendation before source-only finishing; preserve the useful separation and right-lane action.

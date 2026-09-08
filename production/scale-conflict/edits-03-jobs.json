@@ -1,0 +1,23 @@
+[
+  {
+    "id": "V03",
+    "attempt_id": "V03-R1",
+    "phase": "structural",
+    "category": "vista",
+    "retry_of": "V03-P",
+    "retry_reason": "Native and phone review show Riven about24\u201325 percent of the tall canvas rather than the planned10 percent; independent primary batch02 confirms this framing failure.",
+    "evidence_path": "production/scale-conflict/edit-specs-03.json",
+    "evidence_sha256": "6c5ed801b4cd34e4b306d9ded2642fdbdfb8d20a99c79c3ddb4aff349a99a9b5",
+    "prompt_path": "production/scale-conflict/prompts/V03-R1.txt",
+    "prompt_sha256": "bc54301de80b18a54b5057aa1330f003b32c1d81bd8a7d8d74a68cb43715f156",
+    "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+    "references": [
+      {
+        "path": "production/scale-conflict/candidates/V03-P.png",
+        "sha256": "069b71ffbbcfc80b683361a04ed01db8f23d426a13662dc304763b2aa9e17b5c",
+        "role": "Sole exact edit source; preserve all content except the specified structural change"
+      }
+    ],
+    "prompt": "Use case: precise-object-edit. Correct ONLY the specified composition or structural failure in this exact source image. Keep its drawing treatment and other content consistent; this is not a texture-finishing pass.\nPreserve the exact magnificent portrait composition, overhead transparent river and fish, all arches, balconies, stairs, city depth, light and framing. Change ONLY Riven's apparent scale and placement. Move the SAME silver-haired petrol-jacket adult with his sheathed saber farther down the street onto the distant lower-center terrace so he becomes a SMALL complete figure only about TWO FIFTHS of his present height, around150 pixels tall on this1536-pixel-high image. The near foreground paving should now be empty. Remove the previous large version completely; one Riven only, no duplicate or portrait inset. Preserve the tiny silver hair mass, cropped dark-petrol jacket, dark trousers and saber at hip as recognition cues. Keep existing background inhabitants in place. Do not crop the tall architecture, resize the entire artwork or add another large foreground person. This is a scale/placement correction only.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  }
+]

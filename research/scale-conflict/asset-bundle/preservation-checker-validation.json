@@ -1,0 +1,42 @@
+{
+  "schema": "ScaleConflictPreservationCheckerValidation/1",
+  "pass": true,
+  "checker_sha256": "217f55c3c0f76b10ae37dde6d45fa745be12df8c5d8f2fdcaa333f39dc468d8e",
+  "baseline_sha256": "d3910a86d6077465adb7dc0b0df681635d1410837c6eba0773f0a902c8c0614d",
+  "verified_coverage": {
+    "prior_worktree_heads": 19,
+    "exact_prior_status_sha256": 19,
+    "original_source_sha256": 7,
+    "protected_local_refs": 37,
+    "registered_worktree_topology": 20
+  },
+  "reproduced_status_args": [
+    "status",
+    "--porcelain=v1",
+    "--untracked-files=all",
+    "--ignored=matching"
+  ],
+  "historical_argv_recovered": false,
+  "successful_audit": {
+    "path": "research/scale-conflict/asset-bundle/local/preservation-pre-delivery-v2.json",
+    "sha256": "d521ac18df904f17ffd0262519927df55005ca967ef7c3a837d8211ae7cfd98f"
+  },
+  "preserved_first_failure": {
+    "path": "research/scale-conflict/asset-bundle/local/preservation-pre-delivery-v1.json",
+    "sha256": "b25ab16292cf97fde312f430769c6340c2e992ccf3b025a4ad0c2a71c8ac1882",
+    "cause": "Reporting mode --ignored differs from baseline;16/19 status SHA mismatches, all HEAD/source/ref/topology checks passed."
+  },
+  "reporting_contract_probe": {
+    "path": "research/scale-conflict/asset-bundle/local/status-contract-probe-v1.json",
+    "sha256": "17a962df922e4d2c711771cd509eb3366ac4ccebed6d28bfd7aee747878fe1c7",
+    "finding": "Only --untracked-files=all --ignored=matching matched the dirty test tree; then required all19 exact baseline SHA equality."
+  },
+  "limitations": [
+    "Status digest includes ignored paths exactly as Git reports them; it does not byte-hash ignored/cache file contents or every tracked/untracked file.",
+    "Only seven saved original source files have content SHA verification. Existing modified files can retain the same Git status while their bytes change.",
+    "Snapshot contains status hashes, not original status text, so a mismatch cannot be expanded into a filename diff against that baseline.",
+    "Local Git refs are audited; this does not query the network remote. Root separately verifies pushed remote parity.",
+    "Read-only observations occur over an interval, not an atomic filesystem snapshot; run after concurrent delivery mutations settle.",
+    "Only active local branch/ref, its origin tracking ref and active worktree HEAD may advance. Other new/deleted/changed refs or worktrees fail."
+  ]
+}

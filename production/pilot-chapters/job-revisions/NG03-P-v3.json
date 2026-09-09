@@ -1,0 +1,33 @@
+{
+  "id": "NG03",
+  "attempt_id": "NG03-P",
+  "phase": "primary",
+  "category": "NG",
+  "retry_of": null,
+  "retry_reason": null,
+  "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes when faces are visible, angular grouped hair shapes and precise tailored clothing contours. Luminous glass translucency where glass occurs, layered inhabited navy architecture, selective warm/cyan light. Preserve the original integrated night atmosphere and depth through broad value groups. These are drawing qualities, not instructions to insert a person, creature or object absent from this shot.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nGlass ray: Single immense navy translucent glass-wing ray, broad crescent wings, cyan circular sensory lights, narrow central beak, one long tail. Living alien animal; no humanoid face. Equipment: none\nInspected reference qualification for visible subjects only: none\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: A glass beak clamps the maintenance lift\u2019s suspension coupling below the bridge; one thick cable bends under its bite.\nCurrent physical state (authoritative): Lift remains attached but skewed; Pell inside, hands on rail; ray beak intact.\nSpecial visual element, only if specified: none\nCamera and framing: Tight mechanical/creature insert; beak, coupling and cable clearly separate. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\nINVENTORY CONTINUITY \u2014 This is state information, not a request to add people. Only Glass ray may appear physically, with the stated crop. Keep Aren Vale, Sera Voss, Pell physically OUTSIDE this frame even if named in possession history. The existing action, camera and explicit nonphysical special elements control what is visible.\nAren sword sheathed at RIGHT hip; both hands free unless handling wallet. One sealed cream dispatch wallet belongs to Aren, on belt unless held in the specified action. Sera has no wallet yet. Jacket fully intact, no tears. No active cyan tether. Do not copy a line from later panels or anchor art. Pell wears body harness; a separate safety tether remains clipped to lift rail. The maintenance car remains attached to its suspension cable. Pell is inside the lift but outside this beak/coupling close crop; do not insert a whole person into the mechanical insert.\nCOMPOSITION FOR EDITABLE DIALOGUE: Do not change action geometry merely to fit speaker order; identify each balloon after actual art using short attribution and deliberate tail routing. Offscreen voices stay offscreen.\nFINAL SHOT PRIORITY: Tight mechanical/creature insert; beak, coupling and cable clearly separate. Depict only this instant: A glass beak clamps the maintenance lift\u2019s suspension coupling below the bridge; one thick cable bends under its bite. No added text or panel division.\n",
+  "prompt_path": "production/pilot-chapters/prompts/NG03-P-input-v3.txt",
+  "prompt_sha256": "19ab8dc592b9a4d4497a2bfb113bc19ada97731ce613de1f76b4427f64ab93a1",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/references/anchor-01.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+    },
+    {
+      "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+      "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+      "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+    }
+  ],
+  "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+  "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51",
+  "input_revision": 3,
+  "supersedes_unsubmitted_job_path": "production/pilot-chapters/job-revisions/NG03-P-v2.json",
+  "supersedes_unsubmitted_job_sha256": "7b308cb80c45c7303a07c2f2642925d2fde64b9eae67e6d5883aab8d7137b00a",
+  "amendments_path": "research/pilot-chapters/editorial/production-review/uncalled-state-amendments.json",
+  "amendments_sha256": "1c299d675f5cf91b73ad535e97190c450dcdf146aa8adae84dd0d8222e081a77",
+  "style_scope_revision_path": "research/pilot-chapters/refine_style_scope.py",
+  "style_scope_revision_sha256": "dd0f9f74cd937665151835faf3b15ca391fbd5620db0d63f93973699e9234dd5"
+}

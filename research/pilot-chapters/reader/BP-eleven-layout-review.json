@@ -1,0 +1,51 @@
+{
+  "schema": "PilotChaptersProgressiveLayoutReview/1",
+  "experiment_id": "PC-20260909-01",
+  "dataset_sha256": "b29cc7ee015a61af64020f12d6989451f208d836330488bdd66675189cbfa74b",
+  "new_BP_panels": [
+    "BP04",
+    "BP06",
+    "BP07",
+    "BP09",
+    "BP10",
+    "BP12",
+    "BP13"
+  ],
+  "actual_phone_review": true,
+  "receipts": [
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/ng-complete-v1/chapter-panels/receipt.json",
+      "sha256": "de36cdd3e54a4a25f98e981a22587dec8257f928372e13413b5733417b809536"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/bp-eleven-v2/native-history/receipt.json",
+      "sha256": "b69ae101a24ec7c1a703537e95d5ce92545026ac0f196fea5816c145af3423fd"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/bp-eleven-v2/corrected-panels/receipt.json",
+      "sha256": "bb68dc6801ef5e71c6d37be487390f03a280eb85b6692f6a40c0b37b420393cd"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/bp-eleven-v3/corrected-panels/receipt.json",
+      "sha256": "992f272cfd78f1237a8a7a6dd06b596b1522b3628694de2524e01fb5fadd065e"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/bp-eleven-v3/incremental-qa.json",
+      "sha256": "dd728b1b157e9fa64037c86011de8b4ac7c40104322cabc6a80cec064575d2c0"
+    }
+  ],
+  "final_lettered_mapping": {
+    "BP04": "bp-eleven-v2/corrected-panels/BP04-390.png",
+    "BP07": "bp-eleven-v2/corrected-panels/BP07-390.png",
+    "BP09": "bp-eleven-v3/corrected-panels/BP09-390.png",
+    "BP06_BP10_BP12_BP13": "ng-complete-v1/chapter-panels/"
+  },
+  "findings": [
+    "BP04 names Neris/Ilyra because source subjects oppose frozen speech order.",
+    "BP07 stacks named Voice and Ilyra speech on left, clearing the creature mouth and keeping adult face visible.",
+    "BP09 keeps the two Ilyra fragments together in a descending offset layout, with a short subject tail; follow-up reveals silent background Neris as well as creature mouth.",
+    "BP12 ordinary left/right speech clears both faces; BP06/BP10/BP13 have no text."
+  ],
+  "NG_full_read_unchanged": "BP-only layout changes after ng-complete-v1 do not change its16 source/layout bindings; first complete NG assessment is reader/NG-first-complete-read.json.",
+  "not_art_acceptance": true
+}

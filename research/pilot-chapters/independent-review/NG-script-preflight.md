@@ -1,0 +1,15 @@
+# Nightglass script preflight
+
+Promising complete pilot structure: ambition and hopeful wit lead to a rescue choice, a real denied reward, unresolved anger, then a personal lower-city invitation. It offers more emotional investment than an extended duel alone. No broad rewrite requested.
+
+**NG-lettering-capacity** — The repeated 43%-width by 21%-height zone cannot hold most two-balloon exchanges at normal mobile type size. At 360px art width and 3:2 art, it is approximately 155x50px before padding/tails; NG02 has 19 spoken words, NG14 has 18 and NG15 has 22. This risks tiny lettering or face/contact occlusion. Freeze two distinct balloon reservations and speaker positions, or reserve a taller/below-art dialogue region per beat. Keep readable type and dialogue; do not make all panels identical just to satisfy the current zone.
+
+**NG-harness-state** — NG11 says the harness is unclipped and hanging inside the car, but NG13 has Sera grip Pell's harness shoulder. The safety tether can remain in the car while the harness stays worn; current wording conflates them. Specify Pell unclips the harness tether from the lift; harness remains worn through rescue and landing. This preserves the current clasp and Sera's useful assistance.
+
+**NG-envelope-hook** — NG15 action depends on recognizing Aren's own name and a supposedly empty district, but the exact editable address label is not in copy. A generated envelope cannot reliably supply that plot information. It is also unclear whether this is mail to Aren or a delivery he is being hired to take below. Freeze the short exact label and clarify its function in the same panel. For example distinguish a named courier instruction from the destination address, or make it a letter addressed to Aren directing him below. Preserve the mysterious personal invitation.
+
+**NG-delivery-stakes** — The hopeful admission bargain and angry cost work, but the wallet is already in front of the inspector at the gate; the required delivery endpoint is never explicit. Surrendering it to Sera might read as completing the job rather than forfeiting it. One short phrase locating intake or the recipient beyond the closing gate is enough. Retain Aren's joke and the later anger; no additional exposition panel needed.
+
+**NG-contact-framing** — NG09 very-close contact requests face, hand/hilt/beak while current state also specifies two boots, snagged hem and upper anchor. Trying to render every state field in the close frame risks another generic wide poster or tangled anatomy. Use NG09 to sell face/weapon/beak compression. Let adjacent wider NG10/12 establish support and the full tether chain; explicitly tag offscreen persistent state rather than requiring all of it visibly in NG09.
+
+Exact reviewed script SHA: 2c69b21267bb7c73db0778a82b27f80fc226124d754a8d3cef0ed00cee7d5bba. No new artwork or author-preferred verdict was supplied before this review.

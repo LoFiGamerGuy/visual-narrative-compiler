@@ -1,0 +1,124 @@
+{
+  "schema": "PilotChaptersFinalReaderQA/1",
+  "pass": true,
+  "dataset_sha256": "b302526307ea6b6e0265a1a3dd9757bd60b8b825c900c85ce7b8c8c301c8d490",
+  "story_panels": 80,
+  "chapters": 5,
+  "panels_per_chapter": 16,
+  "support_sheets": 5,
+  "native_attempts": 135,
+  "selected_story_phases": {
+    "F1": 39,
+    "P": 41
+  },
+  "browser": {
+    "checks": 316,
+    "viewports": [
+      [
+        390,
+        844
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1440,
+        1000
+      ]
+    ],
+    "receipt": "research/pilot-chapters/reader/phone-captures/final-v1/qa/receipt.json",
+    "receipt_sha256": "68f29c609477322ca5ba352a158612f5c34433f9b643507ea029c5a34a69e771",
+    "preferences_unchanged": true
+  },
+  "preferences": {
+    "pass": true,
+    "atomic_rejection_cases": 16,
+    "test_path": "research/pilot-chapters/reader/test_preferences.mjs",
+    "test_sha256": "d95c86e95190b9bfe2e034529504b3c00915e02f1dfaefabb1bfc5a8ccdccbd8",
+    "execution_note": "Executed once for final selected dataset; stdout reported 80 panels,5 chapters and16 atomic rejection cases."
+  },
+  "bundle_security": {
+    "pass": true,
+    "checks": 59,
+    "receipt": "research/pilot-chapters/asset-bundle/final-security-tests.json",
+    "receipt_sha256": "1828cf0c850142168a03e9f1b1dee7511dcb56899ca179401edc8a75483dbab0"
+  },
+  "phone_coverage": {
+    "path": "research/pilot-chapters/reader/final-phone-coverage.json",
+    "sha256": "5ac0f37be6cc7adb2b76b8cc87942332aa1f4d25d4a11d81f39039f73eab53e6",
+    "selected": 80,
+    "history": 135,
+    "complete_chapter_readthroughs": 5
+  },
+  "actual_visual_review": {
+    "changed_selected_finishes_inspected": [
+      "BP05",
+      "BP07",
+      "BP11",
+      "BP12",
+      "BP16",
+      "FL01",
+      "FL03",
+      "FL04",
+      "FL06",
+      "FL07",
+      "FL09",
+      "FL10",
+      "FL11",
+      "FL12",
+      "FL13",
+      "FL15",
+      "FL16",
+      "NG06",
+      "NG08",
+      "RC01",
+      "RC04",
+      "RC05",
+      "RC06",
+      "RC08",
+      "RC10",
+      "RC11",
+      "RC16",
+      "ST01",
+      "ST05",
+      "ST06",
+      "ST11",
+      "ST12",
+      "ST16"
+    ],
+    "method": "Actual final-v1 390px lettered panel screenshots viewed individually; all33 changed selected finishes retain readable frozen copy, faces and required contact areas under existing/rebound layouts. Earlier unchanged sources were inspected in progressive complete reads. Desktop1440 and phone390 gallery captures also viewed. Story/art limitations remain in independent and editorial reports.",
+    "new_layout_changes_after_final_capture": false
+  },
+  "capture_time_reconciliation": {
+    "pass": true,
+    "original_data_json_sha256": "e7db1b7057fb3ef40ecc3d599f9a8a97b62c9a88059ac87b555b86ecf3907a89",
+    "current_data_json_sha256": "5c3785271b6fa47e922f0764d19ea972c10569ae1248abb80e0a98355bdcde66",
+    "only_changed_top_level_fields": [
+      "report_links"
+    ],
+    "selected_images_lettering_histories_controls_options_unchanged": true,
+    "current_report_link_check": "research/pilot-chapters/reader/phone-captures/final-v1/report-link-qa.json",
+    "current_report_link_check_sha256": "ad1b3f371831bf88da01bbe928576374f15f43d88efce8e35b54d3a7383dcc2d"
+  },
+  "current_reader_sources": {
+    "index.html": "6644ca4c617eb88973c0305505da2fbe1d64b3583741f107236b30cd88aa70c7",
+    "app.js": "4babf4aec97bf8c5e3bc63095aac23fa7dcad64f27006d8a78cd6a120d6b08cd",
+    "preferences.js": "8323ae8981ca0de683812162ad1e6148a88d16fee53def2d33e8225c93b50b5e",
+    "style.css": "a97e5b90c909da4a84683b97c90d7b1ddd7e65f5c4144e9a7c0b4e71b352e03c",
+    "data.json": "5c3785271b6fa47e922f0764d19ea972c10569ae1248abb80e0a98355bdcde66",
+    "data.js": "02a09c9fe778024eaf8a2628655e4e90f35815cc62e2e97a592dd6d5368fbd85"
+  },
+  "builder_sha256": "54526ff1be824fb828ca41a64e6ffc1479a137542a9623187227fc099a7d069b",
+  "lettering_overrides_sha256": "ca02541893b97d9cc66767db7116a752c130713763bf66d12d5942bb14745059",
+  "owner_approval_inferred": false,
+  "portable_archive_status": "pending source commit; no final archive created",
+  "qualification": "Technical and readability checks do not certify flawless generated anatomy, physical continuity, or owner story preferences.",
+  "nonsemantic_source_cleanup": {
+    "files": [
+      "research/pilot-chapters/asset-bundle/verify_full_commit.py",
+      "research/pilot-chapters/reader/build_reader.py"
+    ],
+    "change": "Trailing spaces only; no art, copy, layout or executable token changes. Full browser checks remain applicable."
+  }
+}

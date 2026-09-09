@@ -1,0 +1,82 @@
+{
+  "schema": "PilotEditorialInputRevisionAudit/1",
+  "created_at": "2026-09-09T14:13:07.102485+00:00",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "amendment_sha256": "1c299d675f5cf91b73ad535e97190c450dcdf146aa8adae84dd0d8222e081a77",
+  "inspected_v3_prompt_samples": [
+    {
+      "id": "FL04",
+      "path": "production/pilot-chapters/prompts/FL04-P-input-v3.txt",
+      "sha256": "7f21de721f24b51189cbd1c950c81d1fd11e6c3de30451c22245e47a3d6d81df"
+    },
+    {
+      "id": "FL06",
+      "path": "production/pilot-chapters/prompts/FL06-P-input-v3.txt",
+      "sha256": "186b791c2b586cb5a6a58968a5e9753d9b8dbb4cce69565aeb93cc7ae0818e20"
+    },
+    {
+      "id": "NG05",
+      "path": "production/pilot-chapters/prompts/NG05-P-input-v3.txt",
+      "sha256": "0cf415e7df4aaa4d27463f926ed8ea8b4e5dc0721a8f156d3db89e7d8a5e4b9d"
+    },
+    {
+      "id": "ST08",
+      "path": "production/pilot-chapters/prompts/ST08-P-input-v3.txt",
+      "sha256": "c12d14e130158f879864ae0e00405c28c38b44b3df8930b4421efeac9b04cc38"
+    },
+    {
+      "id": "RC12",
+      "path": "production/pilot-chapters/prompts/RC12-P-input-v3.txt",
+      "sha256": "749b04d1e01cebe65f25f7f814b2818642499e139ec8bac4518469260bd59c10"
+    },
+    {
+      "id": "BP11",
+      "path": "production/pilot-chapters/prompts/BP11-P-input-v3.txt",
+      "sha256": "669428cfc607e5fe81fec37ab62958c4029bab1ef5f30ff10a1211db66f52cf5"
+    },
+    {
+      "id": "NG16",
+      "path": "production/pilot-chapters/prompts/NG16-P-input-v3.txt",
+      "sha256": "2ca3b5fce5abe3d45e87c4e3e25f363f745803de32a0d271d2829c171247f951"
+    }
+  ],
+  "findings": [
+    "Geometry-only equipment replaces rather than coexists with original equipment prose in inspected prompts.",
+    "Explicit visible-only guard precedes inventory; final action/camera reiterated afterward.",
+    "All five revised style descriptions inspected: medium qualities are separated from entity presence and current charge, reducing unintended people/creature inclusion.",
+    "All 74 current-state sentences reread against amendment helper logic. Material over-broad helper errors identified in FL04/06 as below; these were introduced in editorial amendment, not frozen scripts."
+  ],
+  "corrections_sent_to_root": [
+    {
+      "ids": [
+        "FL04",
+        "FL06"
+      ],
+      "remove": "Ada and Lio remain outside this assigned close framing; no extra people or silhouettes.",
+      "replace": "Ada remains physically present as frozen cast/current state requires; Lio and eel remain absent."
+    },
+    {
+      "ids": [
+        "FL04"
+      ],
+      "remove": "LEFT bare fingertips perform memory touch.",
+      "replace": "Left glove is being removed; no memory touch or imprint yet."
+    },
+    {
+      "ids": [
+        "FL06"
+      ],
+      "remove": "LEFT bare fingertips perform memory touch.",
+      "replace": "Bare left hand withdraws from fully erased pool; black-gloved right hand catches Ada elbow."
+    },
+    {
+      "ids": [
+        "NG15",
+        "NG16"
+      ],
+      "remove": "both hands free unless handling wallet",
+      "replace": "hand use follows current action; NG16 left holds separate black envelope"
+    }
+  ],
+  "scope": "Audit suggestions only; no production mutation. Original amendment is preserved as submitted evidence. Root versions any uncalled prompt correction. Samples are bound before root changes; no assumption corrections applied or generated successfully."
+}

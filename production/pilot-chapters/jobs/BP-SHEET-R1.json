@@ -1,0 +1,21 @@
+{
+  "id": "BP-SHEET",
+  "attempt_id": "BP-SHEET-R1",
+  "phase": "repair",
+  "category": "BP",
+  "retry_of": "BP-SHEET-P",
+  "retry_reason": "Actual native and phone inspection show the silver forearm guard on anatomical RIGHT, the same arm that holds the saber; planned defensive LEFT is bare. Fix before conditioning16panels.",
+  "evidence_path": "research/pilot-chapters/support-repair-evidence.json",
+  "evidence_sha256": "d4250b7840a82887473df4b58cdba793f6446e34465662c6b1d117085ce5bf52",
+  "prompt": "Edit this exact cast sheet using it as the sole source. Correct ONE equipment-placement failure on the leftmost adult swordswoman: KEEP the saber in her anatomical RIGHT hand (viewer-left side of her body), with exactly the same hand, weapon and pose. REMOVE the silver armored guard from that RIGHT sword forearm, restoring its plain black sleeve. Put that same silver forearm guard onto her anatomical LEFT forearm, the empty hanging arm at viewer-right beside her hip. Do not flip or mirror the woman. Do not swap hands or move the sword. Preserve her face, haircut, full costume silhouette, both hands, body, the older caretaker, the entire translucent flower and its single thorn-root, layout, palette and original fine portrait medium. No other redesign, text or added objects. Return one corrected native sheet.\n",
+  "prompt_path": "production/pilot-chapters/prompts/BP-SHEET-R1.txt",
+  "prompt_sha256": "5da860ee4b8a2abc00e388af10de80069e7293e56ab79c4c6a7cef0762c0f7ce",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/candidates/BP-SHEET-P.png",
+      "sha256": "9b466d3cdf43234ff299aca3da57970c5a46bb9dc4cf43ea4c95ea405ee7f450",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

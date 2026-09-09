@@ -1,0 +1,38 @@
+{
+  "id": "RC10",
+  "attempt_id": "RC10-P",
+  "phase": "primary",
+  "category": "RC",
+  "retry_of": null,
+  "retry_reason": null,
+  "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\nReference 3 is ONLY an editable geometry/contact schematic. Preserve its useful force/contact relationships but draw the specified camera, realistic anatomy, faces and medium from references 1\u20132. Never render its labels, stick figures, colored debug shapes or diagram background. One right fist contacts dented lower jaw. Trace torso/shoulder/elbow/fist and planted feet; no detached glove or full-body effect cloud.\nDrawing treatment: Black and white directional pen hatching, bold silhouette blacks, angular planes, kinetic foreshortening and selected red accents. Preserve drawn muscle planes when bodies are visible, selective directional hatch groups and the original graphic contrast. Draw only the specified subject and current power state; style does not require a shark, red glow or key in every frame.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Two red combat gauntlets: RIGHT has a broad black central loading plate, LEFT has a plain smooth red back. Current state exclusively controls charge, damage and wrist mark; no initial-state assertion applies across the story.\nBlade-shark: One giant angular white shark-like aerial predator, black upper fins, dark mouth with large triangular teeth, small red eyes. Bold folded-paper planes and traceable tail/fins, not a collage of many fish. Equipment: none\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ren rotates his hips and drives the RIGHT loaded fist upward into the shark\u2019s lower angular jaw as it reaches him.\nCurrent physical state (authoritative): One physical fist/jaw contact; folded jaw plane visibly dents, right plate discharging; left glove at ribs. Both boots transmit force.\nSpecial visual element, only if specified: none\nCamera and framing: Very low close-wide impact; right forearm crosses torso toward target, complete hand ownership. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\nINVENTORY CONTINUITY \u2014 This is state information, not a request to add people. Only Ren Varr, Blade-shark may appear physically, with the stated crop. Keep Vexa Rill physically OUTSIDE this frame even if named in possession history. The existing action, camera and explicit nonphysical special elements control what is visible.\nOne RIGHT broad black-plate gauntlet and plain LEFT red glove; do not swap symbols or attacking arm. RIGHT plate releases its one load through the actual RIGHT fist/jaw contact. RIGHT wrist unmarked with no red debt band yet. Ivory vest has the side-seam rip from the skid. Do not restore the intact sheet costume. The ONE upper-ring entry key still belongs to Vexa, held or on her cord when she is present. Ren has NO key. Trial shark lower jaw has one bent/dented plane from the counter when visible; no blood or extra swarm.\nCOMPOSITION FOR EDITABLE DIALOGUE: Do not change action geometry merely to fit speaker order; identify each balloon after actual art using short attribution and deliberate tail routing. Offscreen voices stay offscreen.\nFINAL SHOT PRIORITY: Very low close-wide impact; right forearm crosses torso toward target, complete hand ownership. Depict only this instant: Ren rotates his hips and drives the RIGHT loaded fist upward into the shark\u2019s lower angular jaw as it reaches him. No added text or panel division.\n",
+  "prompt_path": "production/pilot-chapters/prompts/RC10-P-input-v3.txt",
+  "prompt_sha256": "f43e5a1231ce5526cda7cf398d39c225ea8c1be83b257b9f5c5979aed89a4d64",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/references/anchor-13.png",
+      "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+      "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+    },
+    {
+      "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+      "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+      "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+    },
+    {
+      "path": "production/pilot-chapters/controls/RC10.png",
+      "sha256": "0473fd361c0f3dd04f76a333b1abfc97c4c14a27fb7117ffc784cc7cb3b98f2b",
+      "role": "One right fist contacts dented lower jaw. Trace torso/shoulder/elbow/fist and planted feet; no detached glove or full-body effect cloud."
+    }
+  ],
+  "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+  "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51",
+  "input_revision": 3,
+  "supersedes_unsubmitted_job_path": "production/pilot-chapters/job-revisions/RC10-P-v2.json",
+  "supersedes_unsubmitted_job_sha256": "c1a9ecef167a9649d1146d0d4954b8c18dc8332913ad37a8b259d412cfefccfa",
+  "amendments_path": "research/pilot-chapters/editorial/production-review/uncalled-state-amendments.json",
+  "amendments_sha256": "1c299d675f5cf91b73ad535e97190c450dcdf146aa8adae84dd0d8222e081a77",
+  "style_scope_revision_path": "research/pilot-chapters/refine_style_scope.py",
+  "style_scope_revision_sha256": "dd0f9f74cd937665151835faf3b15ca391fbd5620db0d63f93973699e9234dd5"
+}

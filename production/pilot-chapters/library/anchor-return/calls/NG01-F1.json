@@ -1,0 +1,37 @@
+{
+  "id": "NG01",
+  "attempt_id": "NG01-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "NG01-P",
+  "retry_reason": "Root native inspection: mottled reflective deck, many equally bright window/leaf speckles and fine ray facets compete with faces and contact; calmer source-preserving finish warranted.",
+  "evidence_path": "research/anchor-return/encounter-finish-evidence-01.json",
+  "evidence_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+  "prompt_path": "production/anchor-return/prompts/NG01-F1.txt",
+  "prompt_sha256": "4b87cb148ba67f430ce2a30fd428846537e06ba1b10e46d363391666773789b2",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/NG01-P.png",
+      "sha256": "6c807b67a0b5a507415e747285f4f7d08036f3ea052057ef702d5de7e57771ef",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 11:23:23 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-anchor-return-20260909-1030/production/anchor-return/candidates/NG01-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 11:26:32 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-5ce664d4-b862-4dc0-8b61-a6eabd326af1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

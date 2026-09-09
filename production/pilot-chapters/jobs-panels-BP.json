@@ -1,0 +1,418 @@
+[
+  {
+    "id": "BP01",
+    "attempt_id": "BP01-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nMourning Bloom: Enormous translucent charcoal flower, empty oval center edged with sparse silver thorns, broad dark petals, ONE thick tapering root ending in a single thorn foot. No humanoid mask or hands. Equipment: Heavy petals sweep like broad cutting leaves; root pins a door threshold.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ilyra stands small before the immense glasshouse entrance; inside the mist, one soft dark flower silhouette hangs motionless.\nCurrent physical state (authoritative): Coat intact; saber sheathed; no exposed root or captive yet.\nSpecial visual element, only if specified: none\nCamera and framing: Extreme-wide frontal architecture, heroine under 10% height. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP01-P.txt",
+    "prompt_sha256": "2ab3cd7ddf57ec758902c261befade3d3fe16a8f021582397c40aecb8bfed29f",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP02",
+    "attempt_id": "BP02-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ilyra stops with her hand on the entrance latch as a familiar voice comes from deep inside.\nCurrent physical state (authoritative): Face hopeful despite guarded posture; saber still sheathed.\nSpecial visual element, only if specified: none\nCamera and framing: Close profile and still hand, background nearly blank mist. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP02-P.txt",
+    "prompt_sha256": "3f2e57a1704588ab734b74b9ff3d0390dd37705199b7a607e3aeb0af54785a35",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP03",
+    "attempt_id": "BP03-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nMourning Bloom: Enormous translucent charcoal flower, empty oval center edged with sparse silver thorns, broad dark petals, ONE thick tapering root ending in a single thorn foot. No humanoid mask or hands. Equipment: Heavy petals sweep like broad cutting leaves; root pins a door threshold.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Inside, the bloom’s empty center faces Ilyra. Its thick root is planted across the base of the small room’s iron door.\nCurrent physical state (authoritative): Root intact and planted, door blocked; Ilyra by left entrance; coat intact.\nSpecial visual element, only if specified: none\nCamera and framing: Wide lateral geography, clear flower/root/blocked door. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP03-P.txt",
+    "prompt_sha256": "de30f285ba9d669ff90b969caf6c277cea92a4ef402516014322af45e2e93c21",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP04",
+    "attempt_id": "BP04-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nNeris: Light-skinned older female caretaker, long angular nose, gray hair in low knot, plain charcoal dress, faded ivory shawl. Wary and practical. Equipment: Plain iron door key on waist cord; no weapon.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Behind the small door’s upper glass pane Neris pounds once; Ilyra notices her while keeping the flower in peripheral view.\nCurrent physical state (authoritative): Neris enclosed in room, both hands visible on glass; door pinned at bottom by root.\nSpecial visual element, only if specified: none\nCamera and framing: Medium over Ilyra’s shoulder, room glass and living face readable. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP04-P.txt",
+    "prompt_sha256": "40e531666e6eca1ca15b948a16b70dbfd7960eff9d09ff7231092b9d3f3fb38c",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP05",
+    "attempt_id": "BP05-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nMourning Bloom: Enormous translucent charcoal flower, empty oval center edged with sparse silver thorns, broad dark petals, ONE thick tapering root ending in a single thorn foot. No humanoid mask or hands. Equipment: Heavy petals sweep like broad cutting leaves; root pins a door threshold.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ilyra draws her right-hand saber and slowly circles toward the room. The flower leans without turning its face; its planted root bows under its weight.\nCurrent physical state (authoritative): Saber right, left guard free; root still fixed at door base; coat intact.\nSpecial visual element, only if specified: none\nCamera and framing: High oblique, heroine left of rooted flower; clear intended flanking path. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP05-P.txt",
+    "prompt_sha256": "e43ab7af538a8a910d67b3ab75e1345edf6164b3e1de01eadc3c281ad9732236",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP06",
+    "attempt_id": "BP06-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nMourning Bloom: Enormous translucent charcoal flower, empty oval center edged with sparse silver thorns, broad dark petals, ONE thick tapering root ending in a single thorn foot. No humanoid mask or hands. Equipment: Heavy petals sweep like broad cutting leaves; root pins a door threshold.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: The bloom lifts its whole thorn foot to turn toward Ilyra. Neris pushes the room door a finger-width open as pressure releases.\nCurrent physical state (authoritative): Root visibly off threshold; flower’s empty center silent; room door only slightly open.\nSpecial visual element, only if specified: none\nCamera and framing: Low tight insert spanning root gap and door bottom. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP06-P.txt",
+    "prompt_sha256": "5aedadc143bb92c14be1e664d60bfff2759e26e820c062e295ce15becb2f8f56",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP07",
+    "attempt_id": "BP07-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nMourning Bloom: Enormous translucent charcoal flower, empty oval center edged with sparse silver thorns, broad dark petals, ONE thick tapering root ending in a single thorn foot. No humanoid mask or hands. Equipment: Heavy petals sweep like broad cutting leaves; root pins a door threshold.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: The root stamps down onto the threshold again; a broad petal rises over Ilyra like a dark sail.\nCurrent physical state (authoritative): Room door pinned shut again; root planted; saber right low, left guard rising; coat intact.\nSpecial visual element, only if specified: none\nCamera and framing: Low wide threat, flower huge and heroine small but readable. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP07-P.txt",
+    "prompt_sha256": "cf5877d780c3cf3e95e6b8a26eb18fda52509a92e06c5da17a7bfe0e6912765d",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP08",
+    "attempt_id": "BP08-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nMourning Bloom: Enormous translucent charcoal flower, empty oval center edged with sparse silver thorns, broad dark petals, ONE thick tapering root ending in a single thorn foot. No humanoid mask or hands. Equipment: Heavy petals sweep like broad cutting leaves; root pins a door threshold.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ilyra ducks a sweeping petal; its tip snags and tears the rear coat hem while her left guard protects her head.\nCurrent physical state (authoritative): First coat damage: one ragged rear hem tear. Saber in right hand kept outside body; petal passing behind neck, not through it. Root stays planted.\nSpecial visual element, only if specified: none\nCamera and framing: Close diagonal action, clear petal/coat contact and face. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP08-P.txt",
+    "prompt_sha256": "e7701b5209f3def5478c2b465603b51aed3aa508e28974e2073b0e8b0e659a32",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP09",
+    "attempt_id": "BP09-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nNeris: Light-skinned older female caretaker, long angular nose, gray hair in low knot, plain charcoal dress, faded ivory shawl. Wary and practical. Equipment: Plain iron door key on waist cord; no weapon.\nMourning Bloom: Enormous translucent charcoal flower, empty oval center edged with sparse silver thorns, broad dark petals, ONE thick tapering root ending in a single thorn foot. No humanoid mask or hands. Equipment: Heavy petals sweep like broad cutting leaves; root pins a door threshold.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Crouched beside the committed root, Ilyra looks from the silent room door to the flower’s empty center.\nCurrent physical state (authoritative): Root intact and planted; petals facing old attack lane; torn rear hem visible. Right saber held low.\nSpecial visual element, only if specified: none\nCamera and framing: Intimate eye-level face with Neris faintly visible through distant glass. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP09-P.txt",
+    "prompt_sha256": "ee61997f471cf12e24fba3587565866691397ca8d0ff48ca4cd4b980d7a5bf5f",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP10",
+    "attempt_id": "BP10-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. LANDSCAPE image, requested 1536x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nMourning Bloom: Enormous translucent charcoal flower, empty oval center edged with sparse silver thorns, broad dark petals, ONE thick tapering root ending in a single thorn foot. No humanoid mask or hands. Equipment: Heavy petals sweep like broad cutting leaves; root pins a door threshold.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: She plants both boots and draws her right saber back along a clean lane toward the exposed root above its thorn foot.\nCurrent physical state (authoritative): Blade clearly short of root; left forearm guards ribs; root still intact, coat hem torn.\nSpecial visual element, only if specified: none\nCamera and framing: Ground-level medium setup, complete grip and blade-to-root gap. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP10-P.txt",
+    "prompt_sha256": "6018b7e1550bc3f8ead3f63e825bf7185b5753c86cecff56956eff1aed719d82",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP11",
+    "attempt_id": "BP11-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. LANDSCAPE image, requested 1536x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nMourning Bloom: Enormous translucent charcoal flower, empty oval center edged with sparse silver thorns, broad dark petals, ONE thick tapering root ending in a single thorn foot. No humanoid mask or hands. Equipment: Heavy petals sweep like broad cutting leaves; root pins a door threshold.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: A single right-handed cut passes through the thick root; the heavy flower tips away as a clear gap opens above the planted stump.\nCurrent physical state (authoritative): Root fully separated; the short stump is now LOOSE on the threshold because the heavy body no longer pins it down. Body tilts away from room; heroine on both boots, saber following through.\nSpecial visual element, only if specified: none\nCamera and framing: Wide side impact; bright mist gap separates both severed ends. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 51% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP11-P.txt",
+    "prompt_sha256": "60498a4a47f2718f5a3eb1033d7ee95a8ec7556f606dc89ac9b232fbd260fc6a",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP12",
+    "attempt_id": "BP12-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nNeris: Light-skinned older female caretaker, long angular nose, gray hair in low knot, plain charcoal dress, faded ivory shawl. Wary and practical. Equipment: Plain iron door key on waist cord; no weapon.\nMourning Bloom: Enormous translucent charcoal flower, empty oval center edged with sparse silver thorns, broad dark petals, ONE thick tapering root ending in a single thorn foot. No humanoid mask or hands. Equipment: Heavy petals sweep like broad cutting leaves; root pins a door threshold.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ilyra pushes the loose, unweighted stump aside with her boot; Neris shoves the unjammed door outward as the flower slumps behind them.\nCurrent physical state (authoritative): Door moving outward; Neris stepping into glasshouse; severed body on floor, root stump displaced from hinge path. Torn hem persists.\nSpecial visual element, only if specified: none\nCamera and framing: Medium two-person practical effort; no triumphant pose. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP12-P.txt",
+    "prompt_sha256": "6adb1d0893df02a0e65933ced63a198bac8319c34f5c76c78dff2c684410dc06",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP13",
+    "attempt_id": "BP13-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Beside the collapsed oval center, a small folded paper packet has spilled from the severed root. Ilyra lifts it with her left guarded hand.\nCurrent physical state (authoritative): Saber lowered right; Neris safe by open room; bloom inert; packet damp but sealed with simple silver broken-leaf seal.\nSpecial visual element, only if specified: none\nCamera and framing: Tactile close hand and packet, sparse fallen petal shapes. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP13-P.txt",
+    "prompt_sha256": "8e05299a36fb1f863ee4de512340908e0e16ba52de444a611e5f6fa97eee3b27",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP14",
+    "attempt_id": "BP14-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nNeris: Light-skinned older female caretaker, long angular nose, gray hair in low knot, plain charcoal dress, faded ivory shawl. Wary and practical. Equipment: Plain iron door key on waist cord; no weapon.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Neris recognizes the seal as Ilyra opens the packet; inside lies her brother’s plain dark coat button and a nursery delivery slip.\nCurrent physical state (authoritative): Button and slip in left palm; no claim of brother physically present. Right saber sheathed now.\nSpecial visual element, only if specified: none\nCamera and framing: Close two faces above one clearly legible prop area. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP14-P.txt",
+    "prompt_sha256": "a3e9dc0da0a7dba577670657f72749312334a7d514148f9cee1a488753dbf5a3",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP15",
+    "attempt_id": "BP15-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nNeris: Light-skinned older female caretaker, long angular nose, gray hair in low knot, plain charcoal dress, faded ivory shawl. Wary and practical. Equipment: Plain iron door key on waist cord; no weapon.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ilyra folds the slip carefully, her expression steadier than at the entrance. Neris wraps her shawl around her shoulders.\nCurrent physical state (authoritative): Rescued caretaker safe; clue retained; torn coat hem unchanged; no active creature.\nSpecial visual element, only if specified: none\nCamera and framing: Quiet chest-up two-shot; pale glasshouse ribs grouped. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP15-P.txt",
+    "prompt_sha256": "9da4471c20dd50a3cbf6cf124ed9d44654389599c0fd225ec40584c17b12abe7",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "BP16",
+    "attempt_id": "BP16-P",
+    "phase": "primary",
+    "category": "BP",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Elegant softly modeled pale faces, fine controlled hair edges, desaturated portrait illustration, translucent broad charcoal petals with selective silver filigree. Preserve Intimate beautiful unease and scale contrast between tailored human and floral horror. Avoid Anime conversion, armor clutter, all-over silver threads, dense moss grain, gore and generic haunted-house rubble.\nWorld context: Abandoned curved-rib glasshouse in pale overcast mist. White entrance at LEFT, small caretaker room with a weight-jammed door at RIGHT; broad matte maroon ground, a few pale fallen petals.\nVISIBLE subjects in this panel ONLY:\nIlyra Sen: Pale adult woman, elegant oval face, gray eyes, smooth chin-length dark brown bob with ivory nape underlayer. Black split-tail coat, high white collar, dark pleated combat trousers, slim boots. Equipment: One silver single-edge saber with open oval black guard in RIGHT hand; silver LEFT forearm guard. Small plain silver clasp at collar.\nNeris: Light-skinned older female caretaker, long angular nose, gray hair in low knot, plain charcoal dress, faded ivory shawl. Wary and practical. Equipment: Plain iron door key on waist cord; no weapon.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ilyra and Neris leave through the white entrance. Deep inside another sealed glasshouse bay a dark petal unfurls behind frosted glass.\nCurrent physical state (authoritative): Immediate predator down and room free; second bloom only distant silhouette, no new attack or invented brother body.\nSpecial visual element, only if specified: Distant second bloom silhouette behind frosted glass, no new distinct creature anatomy.\nCamera and framing: Extreme-wide rear departure, humans small; controlled dark shape at far right. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 25% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/BP16-P.txt",
+    "prompt_sha256": "f533b8915d6f3c788109d8f4dd5609f31a288250d72f1a5586b8f1af0cdd8b20",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/BP-SHEET-R1.png",
+        "sha256": "c63aa82478faf3f46409cf374e2b943c21d1698ad30e34303f81a24baf23e3b7",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  }
+]

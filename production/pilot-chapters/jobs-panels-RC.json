@@ -1,0 +1,423 @@
+[
+  {
+    "id": "RC01",
+    "attempt_id": "RC01-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nVexa Rill: Light-skinned athletic woman, sharp cheekbones, cropped black hair with one white forelock, sleeveless charcoal coat with white collar, black trousers and flat combat boots. Cool competitive gaze. Equipment: Small iron upper-ring entry key on cord; folded spectator permit. She does not fight this pilot.\nBlade-shark: One giant angular white shark-like aerial predator, black upper fins, dark mouth with large triangular teeth, small red eyes. Bold folded-paper planes and traceable tail/fins, not a collage of many fish. Equipment: none\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ren stands tiny on the lowest trial bridge while one huge blade-shark circles beyond the spiral ramps overhead.\nCurrent physical state (authoritative): Both gauntlets uncharged, wrist unmarked, clothing intact; Vexa at distant spectator rail.\nSpecial visual element, only if specified: none\nCamera and framing: Extreme-wide vertical scale, Ren under 10% height, one creature silhouette. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC01-P.txt",
+    "prompt_sha256": "0fea6742598f419b22724511d1811edfd4b51394c95c696ce93cbd2007e74e83",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC02",
+    "attempt_id": "RC02-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nVexa Rill: Light-skinned athletic woman, sharp cheekbones, cropped black hair with one white forelock, sleeveless charcoal coat with white collar, black trousers and flat combat boots. Cool competitive gaze. Equipment: Small iron upper-ring entry key on cord; folded spectator permit. She does not fight this pilot.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Vexa holds an upper-ring key between two fingers as Ren rolls his shoulders beneath her rail.\nCurrent physical state (authoritative): Key belongs to Vexa; Ren standing outside trial stripe, gloves intact and uncharged.\nSpecial visual element, only if specified: none\nCamera and framing: Medium rivalry two-shot, upper/lower social height clear. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC02-P.txt",
+    "prompt_sha256": "4d61ee4f5ad1aba1bf06e7c5f5f5a6969dedd4096057318e91958724de254fc8",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC03",
+    "attempt_id": "RC03-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nVexa Rill: Light-skinned athletic woman, sharp cheekbones, cropped black hair with one white forelock, sleeveless charcoal coat with white collar, black trousers and flat combat boots. Cool competitive gaze. Equipment: Small iron upper-ring entry key on cord; folded spectator permit. She does not fight this pilot.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Vexa catches sight of the black plate on Ren’s right gauntlet; his grin thins for a moment.\nCurrent physical state (authoritative): RIGHT plate dark; no wrist mark or pain; left glove plain red.\nSpecial visual element, only if specified: none\nCamera and framing: Close glove and two faces; no monster in frame. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC03-P.txt",
+    "prompt_sha256": "e19a8e4c8e2aefad71250508f6837e23bd097394fa4879c0b72f42e0baccc9b7",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC04",
+    "attempt_id": "RC04-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. LANDSCAPE image, requested 1536x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nBlade-shark: One giant angular white shark-like aerial predator, black upper fins, dark mouth with large triangular teeth, small red eyes. Bold folded-paper planes and traceable tail/fins, not a collage of many fish. Equipment: none\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ren crosses the black stripe alone. Above him the shark folds into a dive, beak and leading fin aligned toward his chest.\nCurrent physical state (authoritative): Ren boots planted; right bracer raised uncharged; left hand guards chin; shark intact.\nSpecial visual element, only if specified: none\nCamera and framing: Wide high oblique geometry showing attack lane and safe rail. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC04-P.txt",
+    "prompt_sha256": "c87551da50af881459729571a8613d762881b5e1da0617873b7932b548e76e56",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC05",
+    "attempt_id": "RC05-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nBlade-shark: One giant angular white shark-like aerial predator, black upper fins, dark mouth with large triangular teeth, small red eyes. Bold folded-paper planes and traceable tail/fins, not a collage of many fish. Equipment: none\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: The shark’s heavy leading fin crashes against Ren’s raised RIGHT bracer. His forearm remains attached and elbow bends under the load.\nCurrent physical state (authoritative): Single fin/plate contact; right plate begins red load glow; left glove away from contact; no wrist debt mark yet.\nSpecial visual element, only if specified: none\nCamera and framing: Close oblique impact, fin surface visibly flattened against broad plate, no effect cloud hiding contact. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC05-P.txt",
+    "prompt_sha256": "aa622f7c219105ea41de4b68943d9611b25e7d9aca853cf2f35e87c1c80f9823",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC06",
+    "attempt_id": "RC06-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. LANDSCAPE image, requested 1536x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nBlade-shark: One giant angular white shark-like aerial predator, black upper fins, dark mouth with large triangular teeth, small red eyes. Bold folded-paper planes and traceable tail/fins, not a collage of many fish. Equipment: none\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ren is driven backward across the dry bridge on both boots; his right shoulder twists behind him while the red plate holds its stored charge.\nCurrent physical state (authoritative): Both boots scrape one broad skid; a rip begins at vest side seam now. Shark passes overhead instead of remaining at contact.\nSpecial visual element, only if specified: none\nCamera and framing: Low wide body consequence, clearly separated shark and fighter. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 51% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC06-P.txt",
+    "prompt_sha256": "d0940afdf6437cba0818a8fa033b675a8ffa6b3b1051dc7ae857c2c8d952f03e",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC07",
+    "attempt_id": "RC07-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nVexa Rill: Light-skinned athletic woman, sharp cheekbones, cropped black hair with one white forelock, sleeveless charcoal coat with white collar, black trousers and flat combat boots. Cool competitive gaze. Equipment: Small iron upper-ring entry key on cord; folded spectator permit. She does not fight this pilot.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: On one knee, Ren inspects the loaded plate while Vexa leans over the rail with a terse warning.\nCurrent physical state (authoritative): RIGHT plate glows with one contained red core; LEFT glove braces knee; vest side seam torn, wrist still unmarked.\nSpecial visual element, only if specified: none\nCamera and framing: Intimate medium; charging hardware visible without UI. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC07-P.txt",
+    "prompt_sha256": "4bc6c2505076c29834f5b846d7d0f44247d8444356f616aa926d76299af9c418",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC08",
+    "attempt_id": "RC08-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nBlade-shark: One giant angular white shark-like aerial predator, black upper fins, dark mouth with large triangular teeth, small red eyes. Bold folded-paper planes and traceable tail/fins, not a collage of many fish. Equipment: none\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: The shark makes a broad return arc beneath a huge bridge arch, turning its open mouth toward Ren’s small braced silhouette.\nCurrent physical state (authoritative): Stored right charge retained; no new contact; creature fully intact.\nSpecial visual element, only if specified: none\nCamera and framing: Extreme-wide side, predator path readable as one simple arc. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC08-P.txt",
+    "prompt_sha256": "e76fb1051a7db19005e6b24ce361713eaa8cd581b46c3bba6a5d759ce2e00b01",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC09",
+    "attempt_id": "RC09-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. LANDSCAPE image, requested 1536x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ren sets his left foot forward, turns his right shoulder back and lowers his charged RIGHT fist beside his ribs, smiling into the approaching shadow.\nCurrent physical state (authoritative): Right loaded, left guard raised; both boots grounded; vest tear persists.\nSpecial visual element, only if specified: none\nCamera and framing: Medium low three-quarter, clear shoulder-to-elbow-to-fist chain. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 51% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC09-P.txt",
+    "prompt_sha256": "b1c852fc38f70e894de4cd56779af2f125ea1ccb4c3a66a4ee6c078ccb5a6b55",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC10",
+    "attempt_id": "RC10-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\nReference 3 is ONLY an editable geometry/contact schematic. Preserve its useful force/contact relationships but draw the specified camera, realistic anatomy, faces and medium from references 1–2. Never render its labels, stick figures, colored debug shapes or diagram background. One right fist contacts dented lower jaw. Trace torso/shoulder/elbow/fist and planted feet; no detached glove or full-body effect cloud.\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nBlade-shark: One giant angular white shark-like aerial predator, black upper fins, dark mouth with large triangular teeth, small red eyes. Bold folded-paper planes and traceable tail/fins, not a collage of many fish. Equipment: none\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ren rotates his hips and drives the RIGHT loaded fist upward into the shark’s lower angular jaw as it reaches him.\nCurrent physical state (authoritative): One physical fist/jaw contact; folded jaw plane visibly dents, right plate discharging; left glove at ribs. Both boots transmit force.\nSpecial visual element, only if specified: none\nCamera and framing: Very low close-wide impact; right forearm crosses torso toward target, complete hand ownership. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC10-P.txt",
+    "prompt_sha256": "f4445883160c8fd5174861032d29cf10cd7e858912db9159cc9dc4432339a991",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      },
+      {
+        "path": "production/pilot-chapters/controls/RC10.png",
+        "sha256": "0473fd361c0f3dd04f76a333b1abfc97c4c14a27fb7117ffc784cc7cb3b98f2b",
+        "role": "One right fist contacts dented lower jaw. Trace torso/shoulder/elbow/fist and planted feet; no detached glove or full-body effect cloud."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC11",
+    "attempt_id": "RC11-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. LANDSCAPE image, requested 1536x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nBlade-shark: One giant angular white shark-like aerial predator, black upper fins, dark mouth with large triangular teeth, small red eyes. Bold folded-paper planes and traceable tail/fins, not a collage of many fish. Equipment: none\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: The discharged force throws the shark up and away from the trial bridge; its head tips, tail follows, and Ren finishes the punch below.\nCurrent physical state (authoritative): Right plate now dark/spent; shark displaced out of bridge lane with one bent lower-jaw plane; Ren boots grounded. No wrist close-up.\nSpecial visual element, only if specified: none\nCamera and framing: Wide diagonal consequence with large empty gap between fighter and creature. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 51% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC11-P.txt",
+    "prompt_sha256": "728d5d061e4ce61ed63d3278a7ef0a12f99b374ca30d810f8964d7fd014a872f",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC12",
+    "attempt_id": "RC12-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nVexa Rill: Light-skinned athletic woman, sharp cheekbones, cropped black hair with one white forelock, sleeveless charcoal coat with white collar, black trousers and flat combat boots. Cool competitive gaze. Equipment: Small iron upper-ring entry key on cord; folded spectator permit. She does not fight this pilot.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ren walks through the far side of the trial stripe as Vexa grudgingly hands him the upper-ring key.\nCurrent physical state (authoritative): Objective won; shark away in distance; right plate dark, vest torn; Ren receives key with LEFT hand.\nSpecial visual element, only if specified: none\nCamera and framing: Medium eye-level victory exchange. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC12-P.txt",
+    "prompt_sha256": "9a1860069d4cac76435783aa95de85c5310bc1e3610c7531411d0bf41079c33c",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC13",
+    "attempt_id": "RC13-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Alone for a beat, Ren tries to open his spent RIGHT hand. The fingers barely move; a thin red branching band emerges at the exposed wrist edge.\nCurrent physical state (authoritative): First visible debt mark begins on RIGHT wrist now; no mark on left; key securely held left.\nSpecial visual element, only if specified: none\nCamera and framing: Tactile close right wrist/hand, no generated words or numerical meter. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC13-P.txt",
+    "prompt_sha256": "49052cc92c61406cae7d11727d606a76efa06bb5698aed571d3e64a6e21565f1",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC14",
+    "attempt_id": "RC14-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nVexa Rill: Light-skinned athletic woman, sharp cheekbones, cropped black hair with one white forelock, sleeveless charcoal coat with white collar, black trousers and flat combat boots. Cool competitive gaze. Equipment: Small iron upper-ring entry key on cord; folded spectator permit. She does not fight this pilot.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ren turns the marked wrist toward Vexa, forcing a grin that does not quite hold.\nCurrent physical state (authoritative): Right hand numb, red wrist band visible; left holds earned key; both safe on upper exit.\nSpecial visual element, only if specified: none\nCamera and framing: Close two faces and wrist, keep mark clear. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC14-P.txt",
+    "prompt_sha256": "9dd8e5ce54c411888670983de937d39183f8cbaf0ecea70bbd9eb28b1d32a703",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC15",
+    "attempt_id": "RC15-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nVexa Rill: Light-skinned athletic woman, sharp cheekbones, cropped black hair with one white forelock, sleeveless charcoal coat with white collar, black trousers and flat combat boots. Cool competitive gaze. Equipment: Small iron upper-ring entry key on cord; folded spectator permit. She does not fight this pilot.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Vexa points down past the spiraling bridge while Ren looks over the rail; a vast dark angular shape begins to turn beneath the sea.\nCurrent physical state (authoritative): No new attack; earned key retained; right wrist marked, plate spent. Creature lender only distant silhouette.\nSpecial visual element, only if specified: Distant unnamed force-lender silhouette/eye in sea; no humanoid body or extra foreground shark.\nCamera and framing: High wide viewpoint from two small adults into deep water. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC15-P.txt",
+    "prompt_sha256": "e37b5923b523418b0e620efb0caf923ca9a32a0c22443db678acda143f254a82",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "RC16",
+    "attempt_id": "RC16-P",
+    "phase": "primary",
+    "category": "RC",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Ren steps onto the ascending stair, marked right arm hanging stiff, upper-ring key in his left. Below, one enormous red eye opens in the dark sea.\nCurrent physical state (authoritative): Victory and cost both persist; nobody rescued or sacrificed; future confrontation unresolved.\nSpecial visual element, only if specified: Distant unnamed force-lender silhouette/eye in sea; no humanoid body or extra foreground shark.\nCamera and framing: Long rear three-quarter with stair ascent and distant eye separated. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 25% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/RC16-P.txt",
+    "prompt_sha256": "d261f31466dfb826976f7fa7446788113f637bd146f247110b71bd045aebac29",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+        "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  }
+]

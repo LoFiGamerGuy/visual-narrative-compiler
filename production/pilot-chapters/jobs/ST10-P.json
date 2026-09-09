@@ -1,0 +1,26 @@
+{
+  "id": "ST10",
+  "attempt_id": "ST10-P",
+  "phase": "primary",
+  "category": "ST",
+  "retry_of": null,
+  "retry_reason": null,
+  "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Rounded expressive cartoon contours, large eyebrows and elastic mouths, opaque block-painted clouds and warm/cool color masses. Preserve Muscular charm, broad orange/coral/turquoise palette, enormous creature personality and generous open sky. Avoid Airbrushed plastic, dense individually shaded wool curls, field speckle, fractured ground and particle storms.\nWorld context: Cream chalk ridge above green windmill hills; wooden caravan platforms and bright cloth sails to LEFT, broad safe grass hollow to RIGHT. A low wooden fence divides paths, with one wide openable gate.\nVISIBLE subjects in this panel ONLY:\nTavi Ember: Athletic adult woman, broad expressive face, teal eyes, warm light complexion, long asymmetric coral rope-like curls swept to one side with the other side closely cropped. Turquoise cropped vest over cream top, loose orange fighting trousers, red ankle wraps and cream boots. Equipment: Rounded red gauntlets: anatomical RIGHT has cream circular pressure plate; anatomical LEFT cream crescent.  Turquoise cloth padding strip tied around waist over a cream belt; whole strip can be untied and detached.\nGale Ram: Living blue cloud-wool ram twice human height, cream muzzle, orange cheeks, curled blue horns, four stout legs and one cloud tail. Broad grouped wool shapes; no armor. Equipment: Plain brass caravan signal bell approximately human-head height, snagged by its strap on near horn; opening broad enough for bulky gauntlets.\nInspected reference qualification for visible subjects only: For Tavi preserve the same long asymmetric coral rope-curl hairstyle and adult facial identity as this inspected sheet, consistently in every new panel. This documented pilot variation supersedes the draft short tuft only; no story or power rule changes.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Tavi holds the large bell steady by its rim while pressing a broad fold of the detached cloth around its clapper. One simple loose knot is already in place. The ram watches suspiciously.\nCurrent physical state (authoritative): RIGHT circle hand holds rim; LEFT chipped crescent hand pads clapper; bell still attached to horn by strap.\nSpecial visual element, only if specified: none\nCamera and framing: Tactile close equipment/hands, clear bell opening and soft cloth. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+  "prompt_path": "production/pilot-chapters/prompts/ST10-P.txt",
+  "prompt_sha256": "6e268e4992a61ab12a31e2ba9f539e688360c67e2acccc54599644345e5c0486",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/references/anchor-18.png",
+      "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+      "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+    },
+    {
+      "path": "production/pilot-chapters/candidates/ST-SHEET-P.png",
+      "sha256": "9b7f23b17a9221ac0a6b35b603c369ec0430b9d5403696fda8bc995fb90e8739",
+      "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+    }
+  ],
+  "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+  "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+}

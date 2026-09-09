@@ -1,0 +1,85 @@
+{
+  "schema": "PilotEditorialFreeze/1",
+  "frozen_at": "2026-09-09T13:33:37.171719+00:00",
+  "status": "80-panel-editorial-scripts-frozen-after-root-and-independent-critical-preflight-fixes",
+  "files": [
+    {
+      "path": "research/pilot-chapters/editorial/BP.json",
+      "sha256": "652119722a37c19221d57a89f3a1dc47f23ab646a741ae7236fa29958c7f8882",
+      "bytes": 25134
+    },
+    {
+      "path": "research/pilot-chapters/editorial/FL.json",
+      "sha256": "1a5e502140e80f4a67ea6e91f9ccc468f031bcd7b7c6a99173b3062d699b6c03",
+      "bytes": 28713
+    },
+    {
+      "path": "research/pilot-chapters/editorial/NG.json",
+      "sha256": "83673902d27765804f47ea3df70e12693f08f86683863af7cb4a9a148460d88e",
+      "bytes": 25594
+    },
+    {
+      "path": "research/pilot-chapters/editorial/RC.json",
+      "sha256": "c4ea9179804cd805c31e10ae292c97c866b95e3b95754a6f2205c594ff795309",
+      "bytes": 24804
+    },
+    {
+      "path": "research/pilot-chapters/editorial/ST.json",
+      "sha256": "d6069e21315424940e323525e41c18c665eb477629aeeff970fd6bc8224eb3c4",
+      "bytes": 24979
+    },
+    {
+      "path": "research/pilot-chapters/editorial/build_scripts.py",
+      "sha256": "7b9f396c37061c218f362c330648a93fbd2de5501c8a6c3adf0076fbf6e56abe",
+      "bytes": 52625
+    },
+    {
+      "path": "research/pilot-chapters/editorial/inspection-evidence.json",
+      "sha256": "957f9fade651b0e64dba348eb22836c7556029caaf6ee6eac07b3d42aee8ffb8",
+      "bytes": 3939
+    },
+    {
+      "path": "research/pilot-chapters/editorial/script-manifest.json",
+      "sha256": "ce26049e5264778c2dc28915eea1f135cdf944f57af24ff0a1cd40194a181833",
+      "bytes": 1552
+    }
+  ],
+  "checks": [
+    {
+      "id": "NG",
+      "panels": 16,
+      "silent_panels": 4,
+      "maximum_adult_principals_in_frame": 3
+    },
+    {
+      "id": "BP",
+      "panels": 16,
+      "silent_panels": 4,
+      "maximum_adult_principals_in_frame": 2
+    },
+    {
+      "id": "ST",
+      "panels": 16,
+      "silent_panels": 4,
+      "maximum_adult_principals_in_frame": 2
+    },
+    {
+      "id": "RC",
+      "panels": 16,
+      "silent_panels": 5,
+      "maximum_adult_principals_in_frame": 2
+    },
+    {
+      "id": "FL",
+      "panels": 16,
+      "silent_panels": 5,
+      "maximum_adult_principals_in_frame": 3
+    }
+  ],
+  "limitations": [
+    "Frame lettering zones are proposed quiet areas; actual two-balloon fit requires production typography and phone inspection.",
+    "Editorial medium/continuity intent does not prove generated art obeys it.",
+    "Compact pilots are not claimed as full-length serialized chapters.",
+    "All five series and cast remain provisional owner-review options."
+  ]
+}

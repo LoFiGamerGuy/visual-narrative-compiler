@@ -17,3 +17,13 @@ Give each scene only its current visible state. Keep later damage and outcomes o
 During a source-only texture finish, protect story damage, contact deformation, equipment construction and matte ground material as well as faces and silhouettes. Preserve medium-defining brush or engraving marks selectively. Reject or qualify a quieter finish that removes a meaningful effect or changes material. Keep all attempts and actual reference hashes. Independent review and owner choices remain separate from author display defaults.
 
 Read `research/anchor-return/PIPELINE.md` for the reusable sequence and `research/anchor-return/RESULTS.md` for observed failure modes and source-preserving finishing tradeoffs. Use those examples to guide inspection, not to pre-fill the owner's preferences.
+
+# Independent pilot series paths
+
+The owner endorsed all anchor-return artwork as potential independent development paths on 2026-09-09. Preserve all nine original directions and all attempts as options. Original Nightglass leads its own path; Black Petal, Soft Thunder, Red Current and Floodline Detective receive separate provisional pilot chapters. Global praise does not populate independent ratings or select permanent cast/canon.
+
+Develop art-informed premises, then write a complete compact chapter before generating its panels. Story choices, emotion, consequences and an ending govern new compositions; do not turn unrelated existing illustrations into an apparent new chapter. Each path should have a distinct emotional engine and voice, not just a different palette.
+
+Freeze exact editable copy and lettering space alongside the current-state panel brief before generation. Compose for phone-readable balloons without covering faces or combat contacts. Judge the actual lettered continuous chapter, not only unlettered art or a valid script. Keep generated native art, editable lettering, every attempt and old-library options separately available.
+
+A finished pilot exposed a new finishing failure: RC15's source-only texture redraw enlarged and brightened an existing dim red eye, making the creature reveal more explicit early, and regularized the wrist's damage marks. Compare narrative information as well as textures; retain the source when an edit leaks a reveal. Prompt-only current-state inventories also did not reliably preserve handedness, power charge, keys or damage across long panel batches. Do not claim that cast references or adjacent-panel conditioning solve this until an actual short sequence demonstrates it. Read `research/pilot-chapters/RESULTS.md` and its image-bound review reports before continuing these paths.

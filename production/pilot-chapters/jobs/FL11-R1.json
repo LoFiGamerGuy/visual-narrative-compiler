@@ -1,0 +1,21 @@
+{
+  "id": "FL11",
+  "attempt_id": "FL11-R1",
+  "phase": "repair",
+  "category": "FL",
+  "retry_of": "FL11-P",
+  "retry_reason": "Root native review of FL11-P: two stacked C hooks replace the single C head and obscure how the pole holds the jaw open. Adjacent FL10/12 have a single head; FL12 rescue itself reads clearly.",
+  "evidence_path": "research/pilot-chapters/third-structural-spec.json",
+  "evidence_sha256": "1a6bb46c7dcedd198ca86780001929a2d4dc9cd21d31d9304da916f5c834ef34",
+  "prompt": "Correct ONLY the ward-pole head in this exact source illustration. Preserve the entire image composition, Corin\u2019s mature bearded face, white coat and braced stance, two gripping hands and single straight shaft, umbrella-eel body and jaws, partial living man inside the mouth, ledge, floodworks and black-brush grayscale/magenta drawing treatment. The current tool ends in TWO stacked C-shaped hooks: replace both hooks with ONE continuous broad smooth C-shaped steel head attached at its curved midpoint to the existing shaft. The single C opening faces RIGHT into the near corner of the mouth. Its upper blunt tip presses firmly against the near upper jaw; its lower blunt tip presses firmly against the near lower jaw. The continuous outer curve lies left of those two tips. No second C, no figure-eight, no separate lower hook, no closed ring. Preserve an open gap through the far side of the mouth for the trapped man to be pulled toward the ledge in the next panel. Show a readable single rigid implement bracing the jaws apart, with pressure contacts at BOTH blunt tips. Keep the man inside alive, with the same partial sleeve/hand/body and brass key, and keep all body parts unchanged. Do not add another person, limb, shaft, blade, power effect, label or text. Preserve textures and brushwork as they are; this is a local structural correction, not a surface finishing pass. Return one corrected image.\n",
+  "prompt_path": "production/pilot-chapters/prompts/FL11-R1.txt",
+  "prompt_sha256": "4f26c9b8395f89b552d2cd2d6113bf725b90b0b6fd03092d2f23f54b8469d036",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/candidates/FL11-P.png",
+      "sha256": "5cffbd6e6ab8aeb289af62c52b6a55f124c24be08ad6ca6a99163ca126a1da64",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

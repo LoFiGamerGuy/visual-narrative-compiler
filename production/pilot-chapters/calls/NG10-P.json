@@ -1,0 +1,56 @@
+{
+  "id": "NG10",
+  "attempt_id": "NG10-P",
+  "phase": "primary",
+  "category": "NG",
+  "retry_of": null,
+  "retry_reason": null,
+  "prompt_path": "production/pilot-chapters/prompts/NG10-P-input-v3.txt",
+  "prompt_sha256": "222d9ad42b877b4a3620a9cc6ec01014961fad0c796d04bb27b43d4d64e265fb",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/references/anchor-01.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+    },
+    {
+      "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+      "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+      "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+    },
+    {
+      "path": "production/pilot-chapters/controls/NG10.png",
+      "sha256": "0f0003dad890a3f34914a1687d3b885cbf696e93da2c93678fb38cd561bf0f29",
+      "role": "Bridge anchor → sword pommel; one blade/beak contact; boots braced on lift roof. Composition schematic only; preserve specified cast anatomy."
+    }
+  ],
+  "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+  "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51",
+  "input_revision": 3,
+  "supersedes_unsubmitted_job_path": "production/pilot-chapters/job-revisions/NG10-P-v2.json",
+  "supersedes_unsubmitted_job_sha256": "8e662027a41e47cf083c6226c14757d533df6765200476f5a0996d59c7f2c880",
+  "amendments_path": "research/pilot-chapters/editorial/production-review/uncalled-state-amendments.json",
+  "amendments_sha256": "1c299d675f5cf91b73ad535e97190c450dcdf146aa8adae84dd0d8222e081a77",
+  "style_scope_revision_path": "research/pilot-chapters/refine_style_scope.py",
+  "style_scope_revision_sha256": "dd0f9f74cd937665151835faf3b15ca391fbd5620db0d63f93973699e9234dd5",
+  "started": {
+    "current_time": "2026-09-09 14:23:22 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-pilot-chapters-20260909-1310/production/pilot-chapters/references/anchor-01.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-pilot-chapters-20260909-1310/production/pilot-chapters/candidates/NG-SHEET-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-pilot-chapters-20260909-1310/production/pilot-chapters/controls/NG10.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 14:24:29 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-6f210b6a-8d4f-44a8-9f4c-71e29d5066df.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

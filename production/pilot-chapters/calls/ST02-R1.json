@@ -1,0 +1,37 @@
+{
+  "id": "ST02",
+  "attempt_id": "ST02-R1",
+  "phase": "repair",
+  "category": "ST",
+  "retry_of": "ST02-P",
+  "retry_reason": "Actual native image places the retrieval objective bell on the nearby fence, contradicting its location on distant ram before retrieval.",
+  "evidence_path": "research/pilot-chapters/first-panel-edit-spec.json",
+  "evidence_sha256": "786132f0f9ba9aae330eaf8edb69a21c6319059e341d58195a38b27b900ebdcd",
+  "prompt_path": "production/pilot-chapters/prompts/ST02-R1.txt",
+  "prompt_sha256": "c1cebb5e8c1979ec1edfd089ccf70f9ba8ab06ce2302e4cf5b99215debe6b10e",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/candidates/ST02-P.png",
+      "sha256": "96ed58d87655c74f9e179286ec1b371fcda27244ff4028cedbd7de92d7b0c99d",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 14:03:25 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-pilot-chapters-20260909-1310/production/pilot-chapters/candidates/ST02-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 14:04:30 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-f811ea5f-8731-4fc4-a0b5-3a5a81099e34.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

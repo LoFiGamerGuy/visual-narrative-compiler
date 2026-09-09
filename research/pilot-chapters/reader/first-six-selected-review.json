@@ -1,0 +1,86 @@
+{
+  "schema": "PilotChaptersSelectedLetteringReview/1",
+  "experiment_id": "PC-20260909-01",
+  "dataset_sha256": "8b08195847c9c0df31377dc5fd7624710bf779cabfc5e2978843682f77bd459b",
+  "available_main": 6,
+  "selected_sources": [
+    {
+      "id": "NG01",
+      "attempt_id": "NG01-F1",
+      "sha256": "7cae5fcd22a5ac6bdeb8c0ad06951723523e9285661cf6b0b1b8c986b6cbd716"
+    },
+    {
+      "id": "NG02",
+      "attempt_id": "NG02-F1",
+      "sha256": "b60a958aad1e6b9d006e69e13ca395e27246092cc45a76f9496307349a25d48b"
+    },
+    {
+      "id": "NG09",
+      "attempt_id": "NG09-R1",
+      "sha256": "f584d698bc41f8062473a81b2689a4326dec3d2fccc861295680013b7502349c"
+    },
+    {
+      "id": "NG12",
+      "attempt_id": "NG12-R1",
+      "sha256": "631f04f04d56d459d54ab75c6452503e1ba0305d40e22f0fb03173e5bda38c39"
+    },
+    {
+      "id": "ST02",
+      "attempt_id": "ST02-R1",
+      "sha256": "2d12014e2b671f83ce31bf8103e6c9251c4d5f2666ba78147b0093cd0a2ee467"
+    },
+    {
+      "id": "FL05",
+      "attempt_id": "FL05-R1",
+      "sha256": "9bc61c844625711c064ac43bec2d4ad86813ddf999a03dc96c278130cf76f1d7"
+    }
+  ],
+  "receipts": [
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/first-six-selected-v1/qa/receipt.json",
+      "sha256": "6a1e88017b9ed8a347ec5eed17db302cd562d8497bfba9c9951b2a4ab841ad20"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/first-six-selected-v1/chapter-panels/receipt.json",
+      "sha256": "4a60f439c27d839c293788bc02dd9dc62cd36cc973a56e05c635fd0eaa161d38"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/first-six-selected-v1/chapters/receipt.json",
+      "sha256": "ccfbf09f0262a882095bb758fc51ebd030afc26817aa88086a318d0b0c0d077e"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/first-six-selected-v2/chapter-panels/receipt.json",
+      "sha256": "f63fc8aba628357337c7b532d33d69c47060249644e71ea1446d59fd691e9111"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/first-six-selected-v2/chapters/receipt.json",
+      "sha256": "674ee7971944f42a5eb63a180683ae4dc0aad24b2c31ed49ac510a0997520385"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/first-six-selected-v2/targeted-qa.json",
+      "sha256": "cdf9848b2bf1750cdabcc050fa0fffafcdbc4f5a13b858f9facf1edad43810f3"
+    }
+  ],
+  "browser_validation": "168 checks passed selected-v1, then only NG09 layout changed and targeted390/1024/1440 font/copy/zone checks passed.",
+  "capture_reconciliation": {
+    "identical_image_bindings": true,
+    "unchanged_layouts_except": [
+      "NG09"
+    ],
+    "NG09_final": "first-six-selected-v2/chapter-panels/NG09-390.png",
+    "NG_final_strip": "first-six-selected-v2/chapters/NG-strip-390.png",
+    "other_five_phone_images": "first-six-selected-v1/chapter-panels/",
+    "ST_FL_strips": "first-six-selected-v1/chapters/"
+  },
+  "actual_findings": [
+    "NG02-F1 and ST02-R1 named balloons remain legible without covering faces or hands.",
+    "NG09-R1 old balloon obscured part of the new tether; actual-v1 evidence preserved. Final compact balloon moved above the tether and the complete cyan line is visible.",
+    "NG01-F1, NG12-R1 and FL05-R1 preserve full native aspect with no frozen dialogue.",
+    "Chapter mode contains no production card prose; pending frames remain honestly marked."
+  ],
+  "limitations": [
+    "Speaker labels are an attribution fallback rather than natural subject-linked tails.",
+    "Full chapters remain incomplete; no complete-story approval inferred.",
+    "Every later finish needs its own image-bound layout review."
+  ]
+}

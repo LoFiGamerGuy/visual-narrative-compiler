@@ -1,0 +1,80 @@
+{
+  "schema": "PilotChaptersProgressiveLetteringReview/1",
+  "experiment_id": "PC-20260909-01",
+  "dataset_sha256": "ae6381f93520138df35471c7de8900057efb563235599228f23eb5f4a2522334",
+  "stage": "first six primaries; not final chapter acceptance",
+  "available_main": 6,
+  "registered_attempts": 13,
+  "browser_qa": {
+    "path": "research/pilot-chapters/reader/phone-captures/lettering-first-v3/browser-qa/receipt.json",
+    "checks": 168,
+    "pass": true,
+    "viewports": [
+      "390x844",
+      "1024x768",
+      "1440x1000"
+    ],
+    "sha256": "77d312a0b29b38c8297b75402bca202fa705233cb01da92d81a52c1aa54e9fb6"
+  },
+  "capture_receipts": [
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/lettering-first-v3/chapter-panels/receipt.json",
+      "sha256": "452c22d7eecfeb7bfa1f2de2c08754baf49b1c7e54e6724a5a592cc5aeb22c2d"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/lettering-first-v3/chapters/receipt.json",
+      "sha256": "aede3ffeadaa09fec391f21a56b8b240cb57eb30df53f5c4ebfa106d685792cd"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/lettering-first-v3/displayed/receipt.json",
+      "sha256": "33a05d36bd2ec53c93bba99e08ef86196037f1b4dabafed5abaab371b68f07c5"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/lettering-first-v3/support-history/receipt.json",
+      "sha256": "9a30b5bb9378b6222b3da9190735fb92ea9e255a5c463e21c15c8c02bc3d7198"
+    }
+  ],
+  "source_bound_overrides": {
+    "path": "production/pilot-chapters/lettering-overrides.json",
+    "sha256": "62e72a487c7ceb990624e8f03cf246d6292e8beedb2410306fe1bc67629c7bc4"
+  },
+  "actual_observations": [
+    {
+      "id": "NG01",
+      "finding": "Portrait fully visible; chapter view gives an80px reveal gap before NG02 and no production caption."
+    },
+    {
+      "id": "NG02",
+      "finding": "At390px, existing Sera/Aren labels remove attribution ambiguity caused by reversed source cast placement.16px dialogue fits, faces and hands remain visible. Balloons occupy much of top sky; acceptable readable fallback, not ideal invisible lettering."
+    },
+    {
+      "id": "NG09",
+      "finding": "Two-word balloon reduced and moved adjacent to speaker; short tail avoids the beak/blade contact. Layout bound only to P; source repair needs fresh visual check."
+    },
+    {
+      "id": "NG12",
+      "finding": "No frozen dialogue; whole portrait remains visible. Geometry and attachment concerns are an art review issue, not resolved by this UI check."
+    },
+    {
+      "id": "ST02",
+      "finding": "Existing Mara/Tavi labels clarify frozen dialogue order without crossing tails. Face/gauntlet/pointing hand visible. Bell at upper-right partly shares balloon region; source repair is already planned and placement must be rechecked."
+    },
+    {
+      "id": "FL05",
+      "finding": "No frozen dialogue; full source visible. Cloth-pocket reflection and early creature are source-content faults reported separately, not a reader fix."
+    },
+    {
+      "id": "BP-SHEET-R1 / RC-SHEET-R1",
+      "finding": "Both P/R phone histories viewed. Full sheets fit and large character/creature silhouettes are legible; fine guard and equipment-side judgments require native zoom."
+    }
+  ],
+  "continuous_view": "Actual NG01/NG02/ST02 chapter screenshots inspected: art, editable dialogue and spacing only; pending frames remain explicitly labeled, so a complete story reading is not yet possible. All three available chapter strips captured.",
+  "preserved_failures": [
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/lettering-first-v2/fit-failure.json",
+      "reason": "Named NG02 balloon exceeded original reserved height despite text fitting. Source-bound zone expanded to match actual133px height; no font reduction."
+    }
+  ],
+  "preferences_unchanged": true,
+  "next": "Reinspect every repaired/finished image before source-bound overlay reuse; capture complete chapter reading when all panels exist."
+}

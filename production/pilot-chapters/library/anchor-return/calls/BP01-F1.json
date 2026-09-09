@@ -1,0 +1,37 @@
+{
+  "id": "BP01",
+  "attempt_id": "BP01-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "BP01-P",
+  "retry_reason": "Root native inspection: dense high-frequency maroon moss, petal veins, pinprick highlights and background vines overwhelm otherwise strong tailored character and flower silhouette.",
+  "evidence_path": "research/anchor-return/encounter-finish-evidence-01.json",
+  "evidence_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+  "prompt_path": "production/anchor-return/prompts/BP01-F1.txt",
+  "prompt_sha256": "80463390f328e214d44f386082eaf256820db6e0d2396789a7bfec64820ffb63",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/BP01-P.png",
+      "sha256": "425c0b0119d5bbcba951651d8abcc7983094e0b746b0765901bfb2593aa96dbb",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 11:27:15 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-anchor-return-20260909-1030/production/anchor-return/candidates/BP01-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 11:28:32 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-dafaaa24-95f5-482e-b62c-9618a32089a2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

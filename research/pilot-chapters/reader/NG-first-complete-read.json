@@ -1,0 +1,75 @@
+{
+  "schema": "PilotChaptersContinuousStoryAssessment/1",
+  "experiment_id": "PC-20260909-01",
+  "chapter": "NG",
+  "dataset_sha256": "18a8ff0e031bf46ae22f6c7a3304b8647b0e03cb2e85ce11b0ee0d2c286c5f66",
+  "evidence_path": "research/pilot-chapters/reader/phone-captures/ng-complete-v1/readthrough/receipt.json",
+  "evidence_sha256": "7f569e00ff386f8aa43fc8a8db9a0d59dae7faca72d76d4e24a64cdb9c20187e",
+  "all_11_consecutive_phone_viewports_actually_inspected": true,
+  "review_method": "Chronological art+editable dialogue only; production captions and card notes hidden. Reviewer previously implemented lettering and knew individual panels, so this is an informed engineering read, not a naive reader test. Other agents continuous-reading verdicts were not consulted.",
+  "inspection_timing": {
+    "start_utc": "2026-09-09 14:38:48 UTC",
+    "end_utc": "2026-09-09 14:39:45 UTC",
+    "elapsed_seconds": 57,
+    "limitation": "Tool-assisted inspection including image-view round trips; not a prediction of human reading speed."
+  },
+  "overall": "The chapter now reads as a complete rescue-and-mystery pilot with a clear personal choice, consequence and next-story invitation. The middle action remains geographically inconsistent in one major transition and mechanically approximate.",
+  "causal_read": [
+    "An ambitious courier has a delivery deadline tied to upper-route advancement.",
+    "A huge ray endangers a lift; Pell is trapped and Aren chooses him over the deadline.",
+    "Aren passes the wallet away and explicitly limits the tether to moving himself, then reaches Pell.",
+    "The ray interrupts the rescue; Aren holds it off and pulls Pell away as the lift falls.",
+    "The trio rests safely; the missing stamp makes Aren lose the opportunity rather than simply win everything.",
+    "Pell hands him a distinct black sealed letter from an allegedly abandoned district; Aren turns toward the next mystery."
+  ],
+  "strengths": [
+    "Opening and ending vertical city views give scale and a recognizable world.",
+    "Dialogue establishes choice and dry personality without requiring the optional script.",
+    "Large silent NG08/12 beats and varied panel heights give the rescue room to breathe.",
+    "The contrast between creamy dispatch wallet and black incoming letter helps distinguish failed job from new hook.",
+    "Falling lift plus exhausted aftermath produces a visible irreversible rescue consequence."
+  ],
+  "remaining_limits": [
+    {
+      "panels": [
+        "NG07",
+        "NG08",
+        "NG09",
+        "NG10"
+      ],
+      "finding": "Aren appears on the lift roof, then on an apparently broad safe bridge in NG08, then back at the lift. This is the strongest continuous geography break and briefly weakens immediate danger."
+    },
+    {
+      "panels": [
+        "NG09",
+        "NG10",
+        "NG11",
+        "NG12"
+      ],
+      "finding": "Rescue intent is clear, but exact tether attachment, arm ownership and unclip execution cannot be reliably reconstructed from these pixels. The sequence communicates the result more clearly than the mechanics."
+    },
+    {
+      "panels": [
+        "NG11",
+        "NG13"
+      ],
+      "finding": "The arm cost is mainly announced in dialogue; a specific persistent injury is not conspicuous in the phone reading."
+    },
+    {
+      "panels": [
+        "NG02",
+        "NG07",
+        "NG13"
+      ],
+      "finding": "Existing speaker labels solve conflicting image positions but feel more like explicit attribution than natural balloon-tail storytelling."
+    },
+    {
+      "panels": [
+        "NG14"
+      ],
+      "finding": "No stamp explains the failed advancement clearly, while the actual gate-closing event is largely off-camera. This remains understandable because the opening deadline was explicit."
+    }
+  ],
+  "pacing": "Concise pilot, not a long chapter. The rescue has setup, decision, obstacle and release; the aftermath gets three short beats rather than ending immediately after the leap. No unreadable text or need to open production notes was found.",
+  "owner_acceptance": null
+}

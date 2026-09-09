@@ -1,0 +1,26 @@
+{
+  "id": "RC15",
+  "attempt_id": "RC15-P",
+  "phase": "primary",
+  "category": "RC",
+  "retry_of": null,
+  "retry_reason": null,
+  "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Black and white directional pen hatching with bold silhouette blacks, athletic angular faces, red gauntlets and localized red impact accents. Preserve Kinetic foreshortening, enormous geometric shark shapes, spiral bridge architecture, drawn muscle planes with selective hatch direction. Avoid Glossy gray CGI muscles, shiny vinyl trousers, omnipresent red auras, tiny floor lines and all-over shark swarms.\nWorld context: Vast looping white concrete bridges above a dark sea. Trial platform at lower ring, high spectator rail beyond. A broad dry circular landing zone, one black boundary stripe, no game HUD.\nVISIBLE subjects in this panel ONLY:\nRen Varr: Light-skinned adult man with angular grin, long black braid from shaved sides, strong athletic build. Sleeveless ivory zip vest with black hood lining, loose black combat trousers, tall black lace-up boots. Equipment: Red armored gauntlets. RIGHT has one broad black central plate that lights red when loaded; LEFT has a plain smooth red back.\nVexa Rill: Light-skinned athletic woman, sharp cheekbones, cropped black hair with one white forelock, sleeveless charcoal coat with white collar, black trousers and flat combat boots. Cool competitive gaze. Equipment: Small iron upper-ring entry key on cord; folded spectator permit. She does not fight this pilot.\nInspected reference qualification for visible subjects only: Current story state overrides reference pose or charge state.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Vexa points down past the spiraling bridge while Ren looks over the rail; a vast dark angular shape begins to turn beneath the sea.\nCurrent physical state (authoritative): No new attack; earned key retained; right wrist marked, plate spent. Creature lender only distant silhouette.\nSpecial visual element, only if specified: Distant unnamed force-lender silhouette/eye in sea; no humanoid body or extra foreground shark.\nCamera and framing: High wide viewpoint from two small adults into deep water. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+  "prompt_path": "production/pilot-chapters/prompts/RC15-P.txt",
+  "prompt_sha256": "e37b5923b523418b0e620efb0caf923ca9a32a0c22443db678acda143f254a82",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/references/anchor-13.png",
+      "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+      "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+    },
+    {
+      "path": "production/pilot-chapters/candidates/RC-SHEET-R1.png",
+      "sha256": "6790ec579057bb9973c78216283a8b62ed23ad48bc0a7f6046bd920277da5875",
+      "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+    }
+  ],
+  "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+  "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+}

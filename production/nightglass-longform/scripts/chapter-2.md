@@ -19,7 +19,7 @@ Aren: Would you help me get these received?
 Sera: Show me the receipt.
 
 ## N2-04 · medium counter exchange, open work surface and three distinct adults
-At the public counter, clerk Maret receives the petition and the copy of his signed delivery receipt packed with the petition by Ossa. Aren sets his now-empty cup into a nearby return bin. Sera stands alongside him with her closed ledger.
+At the public counter, clerk Maret receives the petition and the copy of his signed delivery receipt packed with the petition by Ossa. Aren’s now-empty cup is already in a nearby return bin; his hands attend only to the papers. Sera stands alongside him with her closed ledger.
 State: Petition and receipt now on Maret counter; remaining ordinary outgoing bundle still Aren’s. Cup leaves inventory into bin. Sword sheathed, no line. Maret is adult woman with cropped dark curls, round glasses and moss-green vest over cream blouse.
 Maret: A reply to Lower District?
 
@@ -130,8 +130,8 @@ Back on the terrace, Sera compares the collected doorstep sheet with the real ro
 State: Only these visited doors certified; no invented district population total. Sera owns signed witness sheet; Aren owns bag, yellow folder and entrusted outgoing replies. Sword sheathed.
 Sera: These doors. These names. I can stand behind that.
 
-## N2-26 · wide route problem with clear safe stop and alternative stair visible
-Their direct path to the upper office ends at a maintenance bridge with a missing tread section. Aren pauses on solid stone well before the edge. Sera lays a hand across the route sketch instead of letting urgency decide for them.
+## N2-26 · wide first-person view over route ledger into actual near landing, broken span and reachable intact stair
+Explicit storyboard revision 2: From Aren’s viewpoint on the broad safe landing, Sera’s open ledger and burgundy-sleeved pointing hand fill one foreground corner. Beyond the book, the actual maintenance bridge has a missing tread section. A separate intact stone stair starts on their own landing and rises along the near building wall, visibly reachable without crossing the gap. Sera rules out the broken span; both people remain supported before it.
 State: Both fully supported before gap. Single-strap bag carried normally. No jump, line or attempted crossing. Broken bridge is NOT the Chapter1 reopened entrance and will not be approved for public use.
 Sera: This span cannot go on a public return route.
 
@@ -146,7 +146,7 @@ State: Bag fully supported by stone before strap removed. Aren hands ordinary, s
 Sera: Set it down. We have time for one breath.
 
 ## N2-29 · intimate practical inspection of strap and shoulder
-Pell reaches the stair rest from the repaired entrance below, carrying only his small tool roll. He studies the narrow bag strap pressed into Aren’s jacket and shifts the bag to the center of the stone rest without taking its custody.
+Pell reaches the stair rest from the repaired entrance below, carrying only his small tool roll. He studies the deep crease that the narrow bag strap has left in Aren’s jacket and shifts the bag to the center of the stone rest without taking its custody.
 State: Pell entrance repair complete and wicket stays open. Bag remains on stone, no permanent transfer. Sera holds ledger. No new harness yet, no magic.
 Pell: One strap doing two shoulders’ work.
 
@@ -155,7 +155,7 @@ Aren lifts the bag with both hands by its handle for the final level approach wh
 State: Same manageable bag and same contents; all its weight borne by ordinary arms/body. Narrow strap hangs loose against bag. Sword sheathed; no line. Both garment tears persist.
 
 ## N2-31 · close hands and Sera’s face, two routes distinguished visually
-At the office counter, Aren has removed the same yellow folder from the gray bag and laid it open beside the bag; its petition stays visibly inside. Sera adds the three witnessed-door entries and her route sketch to this folder, marking the long intact stair as the manual route and crossing out the broken shortcut.
+At the office counter, Aren has removed the same yellow folder from the gray bag and laid it open on the countertop; its petition stays visibly inside and the bag rests at his feet. Sera adds the three witnessed-door entries and her route sketch to this folder, marking the long intact stair as the manual route and crossing out the broken shortcut.
 State: Yellow folder removed from bag onto counter. Petition plus actual witnessed sheets now folder. Bag remains on floor at Aren’s feet holding outgoing ordinary mail. Route witness is Sera; no inference disguised as observation.
 Sera: Inspected entrance. Occupied doors. The broken span is excluded.
 
@@ -175,7 +175,7 @@ State: Petition and its yellow folder formally transfer to Maret/Office and stay
 Maret: Received. Manual return route registered.
 
 ## N2-35 · close pleased face and careful paper handling
-Maret has given Aren the dated acknowledgment and sorting-carriage docket. They are now safely folded inside his cream dispatch wallet, which he closes with one hand. His other hand rests on the still-full gray bag; he smiles toward Maret, keeping the rest of the round in view.
+Maret has given Aren the dated acknowledgment and sorting-carriage docket. They are now safely folded inside his cream dispatch wallet, which he closes with one hand. His other hand rests on the still-full gray bag, now supported on a low ledge beside the counter; he smiles toward Maret, keeping the rest of the round in view.
 State: New acknowledgment and carriage docket now Aren wallet. Office keeps yellow petition folder and witness sheets. No reply to petition yet; this is intake proof and authority to carry. No line, weapon sheathed.
 Aren: Something I can bring back.
 Maret: And somewhere we can send an answer.
@@ -195,7 +195,7 @@ State: Same bag and same letters as before fitting. Harness spreads force, adds 
 Pell: Shoulders and hips share the bag. Your line still pulls only you.
 
 ## N2-39 · close choice, offered bundle and closed bag distinct
-A sorting porter offers an additional small bundle beside the alcove. Aren tests the space with a glance, then leaves the extra bundle on the porter’s counter and fastens only his existing bag. He makes the limit his own choice.
+A sorting porter offers an additional small bundle beside the alcove. Aren’s existing bag is already fastened to his harness. He considers the offered bundle, then pauses with an open palm toward it, leaving it on the porter’s counter. He makes the limit his own choice.
 State: Extra bundle never enters Aren inventory. Same load retained, no capacity increase. Porter keeps offered bundle. Harness worn; sword sheathed; no power.
 Aren: Next trip. I want this one delivered whole.
 

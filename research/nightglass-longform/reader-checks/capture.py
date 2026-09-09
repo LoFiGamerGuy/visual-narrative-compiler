@@ -4,6 +4,7 @@ import json,sys,hashlib
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[3];mode=sys.argv[1] if len(sys.argv)>1 else 'comparison';stamp=sys.argv[2] if len(sys.argv)>2 else 'draft';OUT=ROOT/'research/nightglass-longform/reader-checks'/stamp;OUT.mkdir(exist_ok=True)
 snapshot_bytes=(ROOT/'production/nightglass-longform/reader/snapshot.json').read_bytes();(OUT/'reading-snapshot.json').write_bytes(snapshot_bytes);snapshot=json.loads(snapshot_bytes);ids=[c['id'] for c in snapshot['comparisons' if mode=='comparison' else 'chapters']]
+if len(sys.argv)>3:ids=[id for id in ids if id in sys.argv[3:]]
 with sync_playwright() as p:
  browser=p.chromium.launch(executable_path='/home/gosnerp/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome',headless=True,args=['--no-sandbox']);page=browser.new_page(viewport={'width':390,'height':844},device_scale_factor=1);errors=[];page.on('pageerror',lambda e:errors.append(str(e)));receipts=[]
  for id in ids:

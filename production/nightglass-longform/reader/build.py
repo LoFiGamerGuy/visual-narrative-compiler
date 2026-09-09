@@ -39,6 +39,13 @@ def letters_for(script,pilot_panel=None,key=None,source_sha=None):
   caption=c['speaker'] in ['Caption','Card','Letter','System'];letters.append({'speaker':c['speaker'],'text':c['text'],'position':'above' if i==0 or caption else 'below','x':.06,'y':0,'w':.88,'target':[.5,.5],'name_cue':not caption,'no_tail':True,'caption':caption,'card':c['speaker'] in ['Card','System']})
  return letters,not letters
 
+def gap_after(chapter,panel_id):
+ # Chapter 2 pauses follow its counter, doorstep, load-test and homecoming beats.
+ # Preserve the reviewed Chapter 1 spacing and existing future-chapter default.
+ number=int(panel_id.rsplit('-',1)[1])
+ if chapter==2:return 80 if number in {9,15,16,25,30,35,39,44,47} else 28
+ return 80 if number in {1,8,19,23,30,36,38,45} else 28
+
 chapters=[]
 for sp in sorted((ROOT/'production/nightglass-longform/scripts').glob('chapter-*.json')):
  if not re.fullmatch(r'chapter-\d+\.json',sp.name):continue
@@ -46,7 +53,7 @@ for sp in sorted((ROOT/'production/nightglass-longform/scripts').glob('chapter-*
  for p in s['panels']:
   pp=pilots.get(p.get('reuse'));r=selected.get(p['id']);sr=source_record(r,p['id']) if r else ({k:pp[k] for k in ['source','sha256','width','height','attempt_id']} if pp else None)
   lettering,reviewed=letters_for(p,pp if not r else None,source_sha=sr['sha256'] if sr else None)
-  panels.append(dict(id=p['id'],alt=re.sub(r'^(?:New storyboard:|Explicit storyboard revision \d+:)\s*', '', p['action']),copy=p['copy'],lettering=lettering,lettering_reviewed=reviewed,available=sr is not None,reuse=p.get('reuse'),gap_after=(80 if p['id'].endswith(('-01','-08','-19','-23','-30','-36','-38','-45')) else 28),**(sr or {})))
+  panels.append(dict(id=p['id'],alt=re.sub(r'^(?:New storyboard:|Explicit storyboard revision \d+:)\s*', '', p['action']),copy=p['copy'],lettering=lettering,lettering_reviewed=reviewed,available=sr is not None,reuse=p.get('reuse'),gap_after=gap_after(s['chapter'],p['id']),**(sr or {})))
  count=sum(p['available'] for p in panels);complete=count==len(panels) and s['chapter'] in selection.get('reviewed_complete',[]) and all(p['lettering_reviewed'] for p in panels)
  chapters.append({'id':'chapter-'+str(s['chapter']),'number':s['chapter'],'title':s['title'],'premise':s.get('reading_premise','Aren Vale wants a route with a wage, a room of his own, and enough time to sit in it. Tonight, the city has other demands.'),'script_path':str(sp.relative_to(ROOT)),'script_sha256':sha(sp),'panels':panels,'available':count,'total':len(panels),'complete':complete})
 

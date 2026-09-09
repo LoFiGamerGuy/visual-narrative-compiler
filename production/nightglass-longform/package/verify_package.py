@@ -120,6 +120,7 @@ async def browse(root, output, chromium):
         # Actual historical archive UI creates its image/source links on demand.
         for selector,label in [('#open-options','historical-options'),('#open-anchors','historical-anchors')]:
             await page.goto((root/'docs/pilot-chapters/index.html').as_uri(),wait_until='load')
+            await page.locator('#mode-all').click()
             await page.locator(selector).click()
             await inspect(label)
         await browser.close()

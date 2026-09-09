@@ -1,0 +1,15 @@
+# Offline package readiness
+
+Packager and ZIP verifier are ready for the Chapter 1 completion signal. No trial ZIP or final package has been built. Current source is moving; any dependency-plan numbers are a dated planning snapshot, not delivery verification.
+
+The refreshed planning scan found 2,885 files, 1,269,999,352 bytes, zero missing required dependencies, and 656 missing archival path references. Subsequent production increases the inventory. The exact build inventory and byte hashes belong to each version's PACKAGE-MANIFEST.json. Free space observed before packaging was approximately 350 GB; the build rechecks a reserve of four times the collected source bytes plus 512 MB for staging, ZIP and independent extraction.
+
+Required closure consists of both new readers, the historical pilot reader and its nine original / 69 earlier artwork options, the five revised scripts and editable lettering, complete current Nightglass production and editorial records, every new native attempt and image-bearing tool return, all actual relative reference image dependencies, historical final phone captures, current phone review evidence, and the used texture skill text. Files are scanned from disk, including Git-ignored native images and raw tool returns. Tools, credentials, caches, neighboring trees and prior package outputs are excluded.
+
+The 656 archival references are chiefly older intermediate phone-capture paths and old duplicate candidate locations named in preserved historical research. They are explicitly retained as missing archival references in the manifest; this does not assert that all historical links in research prose work. Required reader/data/native-library references are a separate blocking category and currently have none missing. No original research record is silently rewritten. Historical absolute tool paths describe their original execution.
+
+Build gate: integrator-reviewed complete Chapter 1 snapshot (all panels available and all lettering approved), no source issues, all 80 revised pilot panels. Final three-chapter build requires all three reviewed complete. Version names and outputs cannot be reused. A changing included source file or file inventory rejects the snapshot; failed attempts remain marked and are never presented as delivery.
+
+Verification is against a fresh extraction of the actual ZIP, not the workspace or staged source directory. It checks every manifest SHA and file count, ZIP CRC, then actual file:// loading at 390×844 across the start page, available chapters, five pilots, A/B/C comparison, review pages and historical library/reference modals. It records image/link failures, JavaScript exceptions, overflow and unexpected network access, and saves top/middle/end phone captures. The verifier's receipt binds to the exact ZIP SHA. It does not claim human acceptance or publication.
+
+Commands and scope details: production/nightglass-longform/package/README.md. Implementation files compile successfully. Actual ZIP/browser verification remains pending a completed milestone build.

@@ -79,7 +79,7 @@ Aren: Keep your harness on, Pell.
 ## N1-14 · High oblique wide with clear upper anchor, lift and adult size contrast.
 Aren descends onto the tilted lift roof, a taut line climbing from pommel to the bridge anchor above-right. Pell looks up through the open hatch.
 State: Aren on roof, both boots spread; line holds him toward upper post; Pell harness still clipped. Jacket intact.
-Pell: All right. I have you.
+Pell: I’m still clipped.
 Aren: Wait for my hand.
 
 ## N1-15 · Low extreme-wide threat scale, Aren under 18% frame height; one focal cyan eye.

@@ -23,7 +23,7 @@ for b in base['beats'][1:]:
  else:
   copy=[(x['speaker'],x['text']) for x in b['copy']]
   if n==6:copy=[('Aren','It pulls me. Not the whole car.'),('Aren','Keep your harness on, Pell.')]
-  if n==7:copy=[('Pell','All right. I have you.'),('Aren','Wait for my hand.')]
+  if n==7:copy=[('Pell','I’m still clipped.'),('Aren','Wait for my hand.')]
   if n==13:copy=[('Pell','Thank you.'),('Aren','Give me a moment.')]
   if n==16:copy=[]
   p(b['action'],copy,b['camera'],b['current_state'],b['id'])

@@ -1,0 +1,19 @@
+# Longform reader development review
+
+Current state: Chapter 1 remains incomplete. Its latest build has 45 of 48 illustrated panels; replacement rescue panels 18 and 19 and controlled crossing panel 45 are still pending. Earlier 14-, 30- and 37-panel captures below are historical development evidence, not proof of current completion. All 48 selected images and current copy must receive a final uninterrupted 390px reading before the integrator completion flag is set. Chapter 2 is forthcoming with 0 of 49 images.
+
+The complete available 390px development reading was captured and actually viewed in `chapter-scaffold/` (12 continuous viewport captures, 14 individual lettered panels). It clearly identifies the missing opening, missing middle rescue actions and missing final 25 panels. All available art loaded with no script errors or horizontal overflow. Reused editable pilot lettering remains readable against the longer chapter copy. The final chapter review must be repeated after generated selections and any final copy changes are integrated; this scaffold check is not that review.
+
+The completed frozen method comparison and observed findings are in [COMPARISON-READING.md](COMPARISON-READING.md). All 18 comparison lettered panels and full continuous readings have been inspected. None of the three methods passes the complete six-beat continuity requirement.
+
+No owner rating or acceptance is recorded. `reviewed_complete` is an integrator gate in the lead selection manifest, separate from owner approval. Source hashes invalidate stale lettering overrides. Art availability, typography fit and correct visual causality are separate checks.
+
+## 37-panel development reading
+
+The later `chapter-progress37/` evidence supersedes the scaffold check: all 37 available Chapter 1 panels were read continuously at 390px through 22 viewport captures, including the new opening and the full rescue/conversation/first controlled descent. Every native source used for new lettering was directly viewed. Thirty-seven images load, all balloons fit, and there are no page errors or horizontal overflow. Spoken copy is 16px; distinct card extracts use 14px with 1.45 line spacing and remain readable. Chapter 2 has zero of 49 images and is explicitly forthcoming/incomplete; its empty page was inspected too.
+
+The opening gives Aren's desired wage and private room an emotional basis. The soup invitation and bread sharing establish warmth before the rescue costs him the gate. The repaired rescue line now reads from pommel to anchor in the inserted action pair; the extreme-wide motion panel intentionally makes him small. Historical reused clothing still heals some of the more extensive newly drawn hem damage; this remains an art continuity limitation.
+
+The seven stair-conversation panels preserve Pell's black envelope, intact sleeves and existing hem tear. The choice is presented by Sera with a physical card, then visibly made with Aren's left thumb. Editable card extracts identify the options without raster-generated fake writing. The large closed gate and lower post establish a blocked route. The selected C handoff/stow into A descent/stop is readable but changes rendering and gate scale. The deliberately restaged shallow aftermath inserts keep the torn elbow and dry envelope visible; they are short enough to read as details, not repeated whole-body poses.
+
+One attribution correction resulted from actual phone viewing: N1-30's bottom Sera tail visually pointed near Aren's boots. Its final treatment names Sera and omits that misleading tail. N1-36 names Aren with a frame-edge tail because the detail crop excludes his mouth. Missing N1-38–48 is explicitly marked; no completed chapter or owner approval is claimed. Source/crop provenance stays in separate diagnostics, including full native pages.

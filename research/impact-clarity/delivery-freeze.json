@@ -1,0 +1,66 @@
+{
+  "schema": "ImpactClarityDeliveryFreeze/1",
+  "experiment_id": "IC-20260909-01",
+  "dataset_sha256": "1a6ce459272c3e900ba43fccf1d3ef3e7204e83142fb0886673e3830050662b8",
+  "artworks": 16,
+  "retained_natives": 29,
+  "calls": 29,
+  "primary": 16,
+  "repair": 4,
+  "texture": 9,
+  "direct_paid_spend_usd": 0,
+  "owner_approval": null,
+  "bindings": [
+    {
+      "path": "production/impact-clarity/plan.json",
+      "sha256": "18bff45c944a9e948d14c17dad988a4867e14a5a9de6d5d1d2e64a122410e46b"
+    },
+    {
+      "path": "production/impact-clarity/candidates.json",
+      "sha256": "934d39a40ba7b367f7dd1fdc5db2d3fe986e5e274a33c10bc7ec9c9dd1bd9a95"
+    },
+    {
+      "path": "production/impact-clarity/selected.json",
+      "sha256": "209e503ba6bf437455ef212d633e6ec71ea89bfeffd427c3b630f71135a48f51"
+    },
+    {
+      "path": "production/impact-clarity/review-notes.json",
+      "sha256": "c25dbd831304b3a914451aaacc9a007e94db09b5d454813ea81f92617afee956"
+    },
+    {
+      "path": "production/impact-clarity/previous/ce-selection.json",
+      "sha256": "9e459455fffb729aac13a8c3384d6b0b4d4f6f025c6a032d29a912cf0d5acee4"
+    },
+    {
+      "path": "docs/impact-clarity/data.json",
+      "sha256": "35b42c02a1bb5b225ffe4b6cd22c50eef5e2d93bc5d4eda04aff33fecc945c7e"
+    },
+    {
+      "path": "docs/impact-clarity/data.js",
+      "sha256": "482bff7d7cda9039cb27c559afc0c02a4f23fb1a27212ddb8332f8891a9acac6"
+    },
+    {
+      "path": "research/impact-clarity/reader/final-validation.json",
+      "sha256": "a65810b78d6d1d87d5e23e90d0190cb7b7dc21038484b65b234e628c875bb664"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/final-freeze-receipt.json",
+      "sha256": "322dadf58ab0ae4d248dda4752562e74f52028486f8bcb006cba9d154b9bf4c7"
+    },
+    {
+      "path": "research/impact-clarity/report-link-check.json",
+      "sha256": "3f2c4d65d2db3030a87f01d78cb3488e4fc615cd82a0802c3db7144edb6afcdf"
+    }
+  ],
+  "validation": {
+    "workspace_browser_checks": 314,
+    "linked_board_checks": 34,
+    "builder_tests": 24,
+    "preference_atomic_rejections": 18,
+    "independent_native_review_count": 29,
+    "independent_phone_review_count": 29,
+    "lead_native_review_count": 29,
+    "lead_phone_review_count": 29
+  },
+  "portable_verification": "Performed after this committed source freeze; receipts remain in ignored asset-bundle/local and final response points to actual verified ZIP."
+}

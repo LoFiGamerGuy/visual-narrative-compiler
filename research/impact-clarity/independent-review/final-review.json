@@ -1,0 +1,803 @@
+{
+  "schema": "ImpactClarityIndependentFinalReview/1",
+  "experiment_id": "IC-20260909-01",
+  "plan_v2_sha256": "18bff45c944a9e948d14c17dad988a4867e14a5a9de6d5d1d2e64a122410e46b",
+  "rubric_sha256": "ed35eabcd177c8299bfcbe999a722fc0ae6e50eccbab81899285bf307a18c88a",
+  "coverage_counts": {
+    "native_attempts": 29,
+    "phone_attempts": 29,
+    "primaries": 16,
+    "structural_repairs": 4,
+    "surface_finishes": 9,
+    "unreviewed_registered_attempts": 0
+  },
+  "attempt_coverage": {
+    "A01-P": {
+      "attempt_id": "A01-P",
+      "sha256": "1398da135667c140a200f035a96d882c7613854066a6dcea15ff2a5c91d92d71",
+      "path": "production/impact-clarity/candidates/A01-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-02.json",
+          "sha256": "d552a3920dc0ff27f0581930e691fbb9d37c3cefeaa4320970f1bda331401850"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-02.json",
+          "sha256": "6532f17267e69512b231c530fd8cc1a2665e4d6759332e5330ce49fdb56ea443"
+        }
+      ]
+    },
+    "A01-R1": {
+      "attempt_id": "A01-R1",
+      "sha256": "0a67c2c7a450b0ff8b685a46ab438a81cf0e7649100c6ea6c8aff0637d287085",
+      "path": "production/impact-clarity/candidates/A01-R1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-03.json",
+          "sha256": "1c5e4a2e4b00207cbadbc006fd20f0801f820f51f4be21d1613112ba10073ab8"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-03.json",
+          "sha256": "ad62b0076a6b6d94d9abcda55b0f9ed828f64536e51ffada1a02fb6b235ddd80"
+        }
+      ]
+    },
+    "A02-F1": {
+      "attempt_id": "A02-F1",
+      "sha256": "c2f28b5d5787a407c8f3ff71876c3ec1110f3e25701512b373d59a5f6288bc85",
+      "path": "production/impact-clarity/candidates/A02-F1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-01.json",
+          "sha256": "c1e3864f06a0d5e28bd878630ca232ee1ff92f81f43cf6fefadf091d45b231e8"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-01.json",
+          "sha256": "b2378d6b9859a1364e1a2b60084437d5144f3d35183b42661d12e75ec5e83d39"
+        }
+      ]
+    },
+    "A02-P": {
+      "attempt_id": "A02-P",
+      "sha256": "f4fd18adddfb3b28ca99028e4527929f2aa076d2ea9489b286eccc1e7d0d7df2",
+      "path": "production/impact-clarity/candidates/A02-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-02.json",
+          "sha256": "d552a3920dc0ff27f0581930e691fbb9d37c3cefeaa4320970f1bda331401850"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-02.json",
+          "sha256": "6532f17267e69512b231c530fd8cc1a2665e4d6759332e5330ce49fdb56ea443"
+        }
+      ]
+    },
+    "M01-P": {
+      "attempt_id": "M01-P",
+      "sha256": "f3a5f714c8990d7f78f05cb4e9d9e0429dfa94ef9d27f96458bd3dd0676b73ed",
+      "path": "production/impact-clarity/candidates/M01-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-01.json",
+          "sha256": "b48a9b87219c0d3f37ef89007bfb73309af929fe852509b59200d8cf8b323f3a"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-01.json",
+          "sha256": "6e6bd9eb1aa08cc4d2455d2f3cb22805e59796c464fb6cb99bcc67b76a8b1c25"
+        }
+      ]
+    },
+    "M02-P": {
+      "attempt_id": "M02-P",
+      "sha256": "dc2dd6ed908855e3c7dd22396033a6401d3d76d4bf7aa8347f8051e44de972cb",
+      "path": "production/impact-clarity/candidates/M02-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-02.json",
+          "sha256": "d552a3920dc0ff27f0581930e691fbb9d37c3cefeaa4320970f1bda331401850"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-02.json",
+          "sha256": "6532f17267e69512b231c530fd8cc1a2665e4d6759332e5330ce49fdb56ea443"
+        }
+      ]
+    },
+    "S01-F1": {
+      "attempt_id": "S01-F1",
+      "sha256": "00c678cf62a26d78b35e4a20424b83e8cb538060cb45717de3dde6cc395e7ce1",
+      "path": "production/impact-clarity/candidates/S01-F1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-03.json",
+          "sha256": "1c5e4a2e4b00207cbadbc006fd20f0801f820f51f4be21d1613112ba10073ab8"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-03.json",
+          "sha256": "ad62b0076a6b6d94d9abcda55b0f9ed828f64536e51ffada1a02fb6b235ddd80"
+        }
+      ]
+    },
+    "S01-P": {
+      "attempt_id": "S01-P",
+      "sha256": "b00804da921e8f311489e4e65497b1bbe8712e06b603dee57cbc779a40121889",
+      "path": "production/impact-clarity/candidates/S01-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-02.json",
+          "sha256": "d552a3920dc0ff27f0581930e691fbb9d37c3cefeaa4320970f1bda331401850"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-02.json",
+          "sha256": "6532f17267e69512b231c530fd8cc1a2665e4d6759332e5330ce49fdb56ea443"
+        }
+      ]
+    },
+    "S01-R1": {
+      "attempt_id": "S01-R1",
+      "sha256": "17aa1ac66f3ba0ded1ef022527b3c27bffa4aa23023fd2a5bf1d937dcd3c176e",
+      "path": "production/impact-clarity/candidates/S01-R1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-01.json",
+          "sha256": "c1e3864f06a0d5e28bd878630ca232ee1ff92f81f43cf6fefadf091d45b231e8"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-01.json",
+          "sha256": "b2378d6b9859a1364e1a2b60084437d5144f3d35183b42661d12e75ec5e83d39"
+        }
+      ]
+    },
+    "S02-F1": {
+      "attempt_id": "S02-F1",
+      "sha256": "cf3ffc6b85df092cef5efd2015a87a17b8967652c70b8888b845c97b27df98dc",
+      "path": "production/impact-clarity/candidates/S02-F1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-03.json",
+          "sha256": "1c5e4a2e4b00207cbadbc006fd20f0801f820f51f4be21d1613112ba10073ab8"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-03.json",
+          "sha256": "ad62b0076a6b6d94d9abcda55b0f9ed828f64536e51ffada1a02fb6b235ddd80"
+        }
+      ]
+    },
+    "S02-P": {
+      "attempt_id": "S02-P",
+      "sha256": "7d48ad78d1785f21859fdc44be80f53145ac5aecfe64e33477a2893043ae4c21",
+      "path": "production/impact-clarity/candidates/S02-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-02.json",
+          "sha256": "d552a3920dc0ff27f0581930e691fbb9d37c3cefeaa4320970f1bda331401850"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-02.json",
+          "sha256": "6532f17267e69512b231c530fd8cc1a2665e4d6759332e5330ce49fdb56ea443"
+        }
+      ]
+    },
+    "S02-R1": {
+      "attempt_id": "S02-R1",
+      "sha256": "e5fda99918b262ee4dca7037d4f91c5a040d74e2ca3aee03c1a878e91474a55f",
+      "path": "production/impact-clarity/candidates/S02-R1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-01.json",
+          "sha256": "c1e3864f06a0d5e28bd878630ca232ee1ff92f81f43cf6fefadf091d45b231e8"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-01.json",
+          "sha256": "b2378d6b9859a1364e1a2b60084437d5144f3d35183b42661d12e75ec5e83d39"
+        }
+      ]
+    },
+    "V01-P": {
+      "attempt_id": "V01-P",
+      "sha256": "70c782a11229703e434d55150c89c75924ad2ffa4d18257351092551fa8a1cf6",
+      "path": "production/impact-clarity/candidates/V01-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-02.json",
+          "sha256": "d552a3920dc0ff27f0581930e691fbb9d37c3cefeaa4320970f1bda331401850"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-02.json",
+          "sha256": "6532f17267e69512b231c530fd8cc1a2665e4d6759332e5330ce49fdb56ea443"
+        }
+      ]
+    },
+    "V02-F1": {
+      "attempt_id": "V02-F1",
+      "sha256": "3eac39adbe1991a130d1a0b4809d06efdbc022a8233448776c74dbd00a7dcdbb",
+      "path": "production/impact-clarity/candidates/V02-F1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-01.json",
+          "sha256": "c1e3864f06a0d5e28bd878630ca232ee1ff92f81f43cf6fefadf091d45b231e8"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-01.json",
+          "sha256": "b2378d6b9859a1364e1a2b60084437d5144f3d35183b42661d12e75ec5e83d39"
+        }
+      ]
+    },
+    "V02-P": {
+      "attempt_id": "V02-P",
+      "sha256": "36426f5c313ff92c8b920ede2911a511895c8d732bf77a843afbd2ffe89f6621",
+      "path": "production/impact-clarity/candidates/V02-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-01.json",
+          "sha256": "b48a9b87219c0d3f37ef89007bfb73309af929fe852509b59200d8cf8b323f3a"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-01.json",
+          "sha256": "6e6bd9eb1aa08cc4d2455d2f3cb22805e59796c464fb6cb99bcc67b76a8b1c25"
+        }
+      ]
+    },
+    "X01-P": {
+      "attempt_id": "X01-P",
+      "sha256": "4d9a52e8f630da790873b91df25b524ee9f9abc137b60cabd2462f1361ddda63",
+      "path": "production/impact-clarity/candidates/X01-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-02.json",
+          "sha256": "d552a3920dc0ff27f0581930e691fbb9d37c3cefeaa4320970f1bda331401850"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-02.json",
+          "sha256": "6532f17267e69512b231c530fd8cc1a2665e4d6759332e5330ce49fdb56ea443"
+        }
+      ]
+    },
+    "X02-P": {
+      "attempt_id": "X02-P",
+      "sha256": "f1197d5043e47720fc53c4a1149db59d44d61ecab29373071196059926d4f021",
+      "path": "production/impact-clarity/candidates/X02-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-02.json",
+          "sha256": "d552a3920dc0ff27f0581930e691fbb9d37c3cefeaa4320970f1bda331401850"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-02.json",
+          "sha256": "6532f17267e69512b231c530fd8cc1a2665e4d6759332e5330ce49fdb56ea443"
+        }
+      ]
+    },
+    "X03-P": {
+      "attempt_id": "X03-P",
+      "sha256": "622d60d2e600e80ae9142b9f2b8011596e68f1b9eea6d5bb7c989c4cfbc49f5b",
+      "path": "production/impact-clarity/candidates/X03-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-03.json",
+          "sha256": "4c1e652c1b8a5243a17cff9510f5117f7a922ce3dbfcf71a65d4038791c14083"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-03.json",
+          "sha256": "ca93f32fca7c8074fe07183539f9d861b0304d02144474c6a87dcd1067f4955c"
+        }
+      ]
+    },
+    "X04-F1": {
+      "attempt_id": "X04-F1",
+      "sha256": "4e7744a9fdb1b8604cd8fc2c62777be32d4bcdc0f28f6d812119793ec4c3d78c",
+      "path": "production/impact-clarity/candidates/X04-F1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-03.json",
+          "sha256": "1c5e4a2e4b00207cbadbc006fd20f0801f820f51f4be21d1613112ba10073ab8"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-03.json",
+          "sha256": "ad62b0076a6b6d94d9abcda55b0f9ed828f64536e51ffada1a02fb6b235ddd80"
+        }
+      ]
+    },
+    "X04-P": {
+      "attempt_id": "X04-P",
+      "sha256": "82a031e7fe4490b0431d43035832e9130885895838e248910954753cf7ab9be2",
+      "path": "production/impact-clarity/candidates/X04-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-03.json",
+          "sha256": "4c1e652c1b8a5243a17cff9510f5117f7a922ce3dbfcf71a65d4038791c14083"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-03.json",
+          "sha256": "ca93f32fca7c8074fe07183539f9d861b0304d02144474c6a87dcd1067f4955c"
+        }
+      ]
+    },
+    "Y01-F1": {
+      "attempt_id": "Y01-F1",
+      "sha256": "c7f37c6527e2baeb110725251df51b15814d82e8fc6ed9853ef4c3ebd61b6301",
+      "path": "production/impact-clarity/candidates/Y01-F1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-03.json",
+          "sha256": "1c5e4a2e4b00207cbadbc006fd20f0801f820f51f4be21d1613112ba10073ab8"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-03.json",
+          "sha256": "ad62b0076a6b6d94d9abcda55b0f9ed828f64536e51ffada1a02fb6b235ddd80"
+        }
+      ]
+    },
+    "Y01-P": {
+      "attempt_id": "Y01-P",
+      "sha256": "1b55b45391c885a1255c15952395bec9676fb337702d070db08561cfe5ec80fe",
+      "path": "production/impact-clarity/candidates/Y01-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-03.json",
+          "sha256": "4c1e652c1b8a5243a17cff9510f5117f7a922ce3dbfcf71a65d4038791c14083"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-03.json",
+          "sha256": "ca93f32fca7c8074fe07183539f9d861b0304d02144474c6a87dcd1067f4955c"
+        }
+      ]
+    },
+    "Y01-R1": {
+      "attempt_id": "Y01-R1",
+      "sha256": "65da2142ef9ac0e2229fc30a60669e2cf95f96a0fb52629a5f98b0fbcfc7fcec",
+      "path": "production/impact-clarity/candidates/Y01-R1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-02.json",
+          "sha256": "3a2db90f0f0638978bf70df8310d980deda2b6524ffe19cc97aff60ae35f2660"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-02.json",
+          "sha256": "93897a28ed5fdb2901760e517a09048533a7c641978cd534d4bcb3646d398c86"
+        }
+      ]
+    },
+    "Y02-F1": {
+      "attempt_id": "Y02-F1",
+      "sha256": "6cb8560424cc4efa8ad476b9cb9b81415b3a4f1e4ad4ec57cc40c9dbaf0902f6",
+      "path": "production/impact-clarity/candidates/Y02-F1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-02.json",
+          "sha256": "3a2db90f0f0638978bf70df8310d980deda2b6524ffe19cc97aff60ae35f2660"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-02.json",
+          "sha256": "93897a28ed5fdb2901760e517a09048533a7c641978cd534d4bcb3646d398c86"
+        }
+      ]
+    },
+    "Y02-P": {
+      "attempt_id": "Y02-P",
+      "sha256": "1aef79d2df755ed011144190970221bb070bf1ea41fcab6023b44d80e9f4b24b",
+      "path": "production/impact-clarity/candidates/Y02-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-03.json",
+          "sha256": "4c1e652c1b8a5243a17cff9510f5117f7a922ce3dbfcf71a65d4038791c14083"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-03.json",
+          "sha256": "ca93f32fca7c8074fe07183539f9d861b0304d02144474c6a87dcd1067f4955c"
+        }
+      ]
+    },
+    "Y03-F1": {
+      "attempt_id": "Y03-F1",
+      "sha256": "f208f6fc149f21ee7b65b3e26ac72eec19e8fd5dd6ecce3bcf4eaebc0d81ef62",
+      "path": "production/impact-clarity/candidates/Y03-F1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-02.json",
+          "sha256": "3a2db90f0f0638978bf70df8310d980deda2b6524ffe19cc97aff60ae35f2660"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-02.json",
+          "sha256": "93897a28ed5fdb2901760e517a09048533a7c641978cd534d4bcb3646d398c86"
+        }
+      ]
+    },
+    "Y03-P": {
+      "attempt_id": "Y03-P",
+      "sha256": "ea571d9664e52c8478e6da5d3d362d5dd92e77da7ef4776519bc38b74320f68d",
+      "path": "production/impact-clarity/candidates/Y03-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-03.json",
+          "sha256": "4c1e652c1b8a5243a17cff9510f5117f7a922ce3dbfcf71a65d4038791c14083"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-03.json",
+          "sha256": "ca93f32fca7c8074fe07183539f9d861b0304d02144474c6a87dcd1067f4955c"
+        }
+      ]
+    },
+    "Y04-F1": {
+      "attempt_id": "Y04-F1",
+      "sha256": "d6cc125334878b16d9d310c125f21a47f2218c21b46836ad158c1a1ef08fd700",
+      "path": "production/impact-clarity/candidates/Y04-F1.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-edits-02.json",
+          "sha256": "3a2db90f0f0638978bf70df8310d980deda2b6524ffe19cc97aff60ae35f2660"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-edits-02.json",
+          "sha256": "93897a28ed5fdb2901760e517a09048533a7c641978cd534d4bcb3646d398c86"
+        }
+      ]
+    },
+    "Y04-P": {
+      "attempt_id": "Y04-P",
+      "sha256": "224fcfa9bb011be3d7770276fab7835c4bc6084bc91e985d93cdcd64ffc777e3",
+      "path": "production/impact-clarity/candidates/Y04-P.png",
+      "native_inspected": true,
+      "actual_phone_inspected": true,
+      "native_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/native-batch-03.json",
+          "sha256": "4c1e652c1b8a5243a17cff9510f5117f7a922ce3dbfcf71a65d4038791c14083"
+        }
+      ],
+      "phone_reviews": [
+        {
+          "path": "research/impact-clarity/independent-review/phone-addendum-03.json",
+          "sha256": "ca93f32fca7c8074fe07183539f9d861b0304d02144474c6a87dcd1067f4955c"
+        }
+      ]
+    }
+  },
+  "display_recommendations": {
+    "M01": {
+      "attempt_id": "M01-P",
+      "sha256": "f3a5f714c8990d7f78f05cb4e9d9e0429dfa94ef9d27f96458bd3dd0676b73ed",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Fine guard/shoulder relationship obscured; stored previous-parry power not independently visible."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "M02": {
+      "attempt_id": "M02-P",
+      "sha256": "dc2dd6ed908855e3c7dd22396033a6401d3d76d4bf7aa8347f8051e44de972cb",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Exact upper-rim interface partly hidden; push reads more clearly than a distinct explosive hip uppercut."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "V01": {
+      "attempt_id": "V01-P",
+      "sha256": "70c782a11229703e434d55150c89c75924ad2ffa4d18257351092551fa8a1cf6",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Boot-plane contact clear, but enemy spear is not clearly overextended into the abandoned position."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "V02": {
+      "attempt_id": "V02-F1",
+      "sha256": "3eac39adbe1991a130d1a0b4809d06efdbc022a8233448776c74dbd00a7dcdbb",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Curved ice could read as projection rather than a released spring; F preserves that uncertainty."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "A01": {
+      "attempt_id": "A01-R1",
+      "sha256": "0a67c2c7a450b0ff8b685a46ab438a81cf0e7649100c6ea6c8aff0637d287085",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Anchor end fixed; one still image cannot establish the full duration or rules of altered gravity."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "A02": {
+      "attempt_id": "A02-F1",
+      "sha256": "c2f28b5d5787a407c8f3ff71876c3ec1110f3e25701512b373d59a5f6288bc85",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Upward launch replaces literal sideways roll; channel still has repeated broad bright reflections."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "S01": {
+      "attempt_id": "S01-F1",
+      "sha256": "00c678cf62a26d78b35e4a20424b83e8cb538060cb45717de3dde6cc395e7ce1",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Forepaw remains planted, oblique shield contact/load redistribution uncertain, scale ratio larger than specified, broad plaza reflection persists."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "S02": {
+      "attempt_id": "S02-F1",
+      "sha256": "cf3ffc6b85df092cef5efd2015a87a17b8967652c70b8888b845c97b27df98dc",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Sword restored but far hand remains open beside guard; complex wing force and completed evacuation unproven."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "X01": {
+      "attempt_id": "X01-P",
+      "sha256": "4d9a52e8f630da790873b91df25b524ee9f9abc137b60cabd2462f1361ddda63",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Graphic aggression improves, but foreground strokes and collision obscure fine weapon ownership/contact."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "X02": {
+      "attempt_id": "X02-P",
+      "sha256": "f1197d5043e47720fc53c4a1149db59d44d61ecab29373071196059926d4f021",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Trailing boot-to-plane contact is absent/unclear; speed composition does not certify Cross Step."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "X03": {
+      "attempt_id": "X03-P",
+      "sha256": "622d60d2e600e80ae9142b9f2b8011596e68f1b9eea6d5bb7c989c4cfbc49f5b",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Strong graphic field and correct butt anchor; near target is palm-braced rather than clearly shoulder-crushed."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "X04": {
+      "attempt_id": "X04-F1",
+      "sha256": "4e7744a9fdb1b8604cd8fc2c62777be32d4bcdc0f28f6d812119793ec4c3d78c",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Enormous fall clearer than initiating shield-foot chain; cinematic ornament persists instead of intended woodcut/cel drawing."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "Y01": {
+      "attempt_id": "Y01-F1",
+      "sha256": "c7f37c6527e2baeb110725251df51b15814d82e8fc6ed9853ef4c3ebd61b6301",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Repair changes pointed claw into broader fingered support; sword-arm laterality uncertain; complete collapse unproven."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "Y02": {
+      "attempt_id": "Y02-F1",
+      "sha256": "6cb8560424cc4efa8ad476b9cb9b81415b3a4f1e4ad4ec57cc40c9dbaf0902f6",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Gouging blade-foot versus tusk and precise jaw interface remain ambiguous."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "Y03": {
+      "attempt_id": "Y03-F1",
+      "sha256": "f208f6fc149f21ee7b65b3e26ac72eec19e8fd5dd6ecce3bcf4eaebc0d81ef62",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Delayed second pulse cannot be distinguished from immediate hammer impact."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    },
+    "Y04": {
+      "attempt_id": "Y04-F1",
+      "sha256": "d6cc125334878b16d9d310c125f21a47f2218c21b46836ad158c1a1ef08fd700",
+      "display_recommended": true,
+      "remaining_limits": [
+        "Spear-tip turn clear; outgoing core sweeps away from the reacting line, leaving exact return-to-target direction ambiguous."
+      ],
+      "owner_approval": null,
+      "owner_comfort": null
+    }
+  },
+  "synthesis": {
+    "outcome": "A material creative gain in felt impact and ground clarity, with useful camera/style alternatives. This is a set of peak-moment studies, not proof of sustained sequential choreography or owner comfort.",
+    "felt_impact": "M01/M02, A02, Y02/Y03 and the repaired Y01 show actual body consequences rather than relying only on contact sparks. V01 communicates a boot-supported movement source; A01-R1 gives clear sideways body impact with the corrected anchor. Several designs nevertheless reuse an airborne opponent, limiting power-specific variety.",
+    "ground_and_style": "Nine observed-noise finishes materially reduce surface competition without major newly visible force/identity failures. Particularly strong changes occur in the other-style floors. Warm opaque painting, broad outlined forms, monochrome silky rendering and Nightglass remain distinguishable. S01/A02 retain broad reflective patterns; calmer is not demonstrated eye comfort.",
+    "repairs": "A01 fixes its wrong anchor end. Y01 clarifies cut ends and a bent supporting joint while changing claw construction. S01 improves whole-body framing and head descent without proving a folded load path or the requested ratio. S02 restores weapon/ground/water sources without completing the second grip. All are preferred over their parents with these limits explicit.",
+    "paired_alternatives": [
+      "X01 is graphically louder; M01 shows clearer whole-body consequence.",
+      "X02 exaggerates lens speed; V01 better establishes the actual boot-plane mechanism.",
+      "X03 gives cleaner gravity negative space; A01 has stronger close wall-impact acting. A01-R1 subsequently fixes its anchor.",
+      "X04 gives greater whole-city fall scale than S01-P; neither its finish nor S01 repair certifies the full shield-to-foot cause."
+    ],
+    "fairness": "Core/radical pairs change framing, rendering and pose together; no isolated causal style claim or owner winner. Intentional radical crops are not automatically failures. The four other styles are judged in their own drawing systems.",
+    "remaining_failure_pattern": "Specific magical rules, release timing and exact return directions often remain less legible than the immediate physical hit. Scale spectacle and surface gains cannot replace a visible source-target relationship."
+  },
+  "exposure": "Independent but not blinded. Frozen rubric preceded outputs. Relevant pre-view root cues are disclosed in each batch; native freezes preceded returned-image verdicts. Last-six primary phone views followed root surface opinions. Final phone-edits-03 freeze preceded root proposed full display mapping, which matches accumulated independent advice. No root ledger or owner ratings used to manufacture approval. Earlier disagreements and negative findings remain in immutable per-attempt reports.",
+  "preserved_disagreements": [
+    "M02 surface finish was not independently justified after native/phone review; primary retained.",
+    "After all16 primary reviews, Y01 support-response repair took priority over X02 missing boot contact; X02 limitation remains visible.",
+    "Repair preference does not erase S01 load/ratio limits, S02 open hand, or Y01 changed claw."
+  ],
+  "review_file_bindings": [
+    {
+      "path": "research/impact-clarity/independent-review/native-batch-01.json",
+      "sha256": "b48a9b87219c0d3f37ef89007bfb73309af929fe852509b59200d8cf8b323f3a"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/native-batch-02.json",
+      "sha256": "d552a3920dc0ff27f0581930e691fbb9d37c3cefeaa4320970f1bda331401850"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/native-batch-03.json",
+      "sha256": "4c1e652c1b8a5243a17cff9510f5117f7a922ce3dbfcf71a65d4038791c14083"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/native-edits-01.json",
+      "sha256": "c1e3864f06a0d5e28bd878630ca232ee1ff92f81f43cf6fefadf091d45b231e8"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/native-edits-02.json",
+      "sha256": "3a2db90f0f0638978bf70df8310d980deda2b6524ffe19cc97aff60ae35f2660"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/native-edits-03.json",
+      "sha256": "1c5e4a2e4b00207cbadbc006fd20f0801f820f51f4be21d1613112ba10073ab8"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/phone-addendum-01.json",
+      "sha256": "6e6bd9eb1aa08cc4d2455d2f3cb22805e59796c464fb6cb99bcc67b76a8b1c25"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/phone-addendum-02.json",
+      "sha256": "6532f17267e69512b231c530fd8cc1a2665e4d6759332e5330ce49fdb56ea443"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/phone-addendum-03.json",
+      "sha256": "ca93f32fca7c8074fe07183539f9d861b0304d02144474c6a87dcd1067f4955c"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/phone-edits-01.json",
+      "sha256": "b2378d6b9859a1364e1a2b60084437d5144f3d35183b42661d12e75ec5e83d39"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/phone-edits-02.json",
+      "sha256": "93897a28ed5fdb2901760e517a09048533a7c641978cd534d4bcb3646d398c86"
+    },
+    {
+      "path": "research/impact-clarity/independent-review/phone-edits-03.json",
+      "sha256": "ad62b0076a6b6d94d9abcda55b0f9ed828f64536e51ffada1a02fb6b235ddd80"
+    }
+  ],
+  "owner_approval": null,
+  "owner_comfort": null,
+  "owner_preferences_written": false,
+  "selections_mutated": false
+}

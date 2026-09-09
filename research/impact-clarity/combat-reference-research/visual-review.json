@@ -1,0 +1,58 @@
+{
+  "schema": "CombatReferenceVisualReview/1",
+  "reviewed_utc": "2026-09-09T03:12:07.428341+00:00",
+  "native_sources": {
+    "count": 16,
+    "scope": "Every selected actual source image viewed at native dimensions before excerpting; full episodes were not exhaustively read."
+  },
+  "browser_screenshots": [
+    {
+      "path": "research/impact-clarity/combat-reference-research/qa/opening-390.png",
+      "sha256": "e136e41bfce5bdc1c29dfac33a560a2b36a0fffea2a43dd5713a4038fa102caf",
+      "actually_viewed": true
+    },
+    {
+      "path": "research/impact-clarity/combat-reference-research/qa/first-excerpt-390.png",
+      "sha256": "bd0e44f30985f04593564f50c96b75a2b79a68240995ee82c2ccf2efc09ba0cc",
+      "actually_viewed": true
+    },
+    {
+      "path": "research/impact-clarity/combat-reference-research/qa/opening-1440.png",
+      "sha256": "93f04b157155872bd0a5d95ea1c252e7d45b5a50d11ddeb271b1715da28e0065",
+      "actually_viewed": true
+    },
+    {
+      "path": "research/impact-clarity/combat-reference-research/qa/compare-390.png",
+      "sha256": "e502aa2e64951a197e1cf368680418f50f203e6ba4622093625218afc985aa23",
+      "actually_viewed": true
+    },
+    {
+      "path": "research/impact-clarity/combat-reference-research/qa/footer-390.png",
+      "sha256": "a1a2e7d8bfa1c1ee28fa1b9c66550eb1980f0842b30b9f92f99a9d1d39cb44cd",
+      "actually_viewed": true
+    }
+  ],
+  "observations": [
+    "Phone opening, first excerpt and ratings, two-column comparison, and footer read cleanly with no overlap or clipped controls.",
+    "Desktop opening and first cards preserve hierarchy and attribution.",
+    "Side-by-side comparison on phone makes small references; the full-width cards are the better place to judge detail.",
+    "All 16 excerpt files decode and bind by SHA; browser visual sample is not claimed as exhaustive screenshot inspection of every card."
+  ],
+  "pipeline_comparison": [
+    {
+      "attempt_id": "M01-P",
+      "path": "production/impact-clarity/candidates/M01-P.png",
+      "sha256": "f3a5f714c8990d7f78f05cb4e9d9e0429dfa94ef9d27f96458bd3dd0676b73ed",
+      "native_inspected": true,
+      "scope": "Only these two current source attempts, not final-round comprehensive review."
+    },
+    {
+      "attempt_id": "V02-P",
+      "path": "production/impact-clarity/candidates/V02-P.png",
+      "sha256": "36426f5c313ff92c8b920ede2911a511895c8d732bf77a843afbd2ffe89f6621",
+      "native_inspected": true,
+      "scope": "Only these two current source attempts, not final-round comprehensive review."
+    }
+  ],
+  "owner_approval": null
+}

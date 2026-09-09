@@ -1,0 +1,183 @@
+{
+  "schema": "AnchorReturnControlTransferReview/1",
+  "reviewer": "combat_reference_research",
+  "reviewed_at": "2026-09-09T11:09:25.449646+00:00",
+  "scope": "Actual native staging/contact/state transfer; observations are reviewer judgments, not owner preferences. No generation or display changes. Controls are schematic and cannot guarantee physically solved pose.",
+  "summary": "Six available NG primary natives inspected. Layouts improve camera and contact readability, but NG06 loses the causal power path and duplicates the weapon; NG03 uses wrong tether endpoint. NG04 is the strongest direct contact-state transfer. NG05/08 and BP/ST encounter natives were not yet available for this bounded batch.",
+  "records": [
+    {
+      "attempt_id": "NG01-P",
+      "image_path": "production/anchor-return/candidates/NG01-P.png",
+      "image_sha256": "6c807b67a0b5a507415e747285f4f7d08036f3ea052057ef702d5de7e57771ef",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/NG01-P.json",
+      "call_sha256": "e794d600c62b4444393584c696850e406d3d89cf60f7a6ccf2ae6d4b746b06c7",
+      "actual_control_reference": {
+        "path": "production/anchor-return/controls/NG01.png",
+        "sha256": "82e8c723849b45efadfa9d0d0700a125bb1e86e4deb2d0cac476ad81422695e4",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "High diagonal bridge, lift left and round doorway right, separated characters, ray/city scale and no tether/damage. Weapons held with complete feet visible."
+        ],
+        "gaps": [
+          "Humans occupy about one quarter to one third image height versus much smaller extreme-wide staging; city still reads large. Deck contains mottled surface and bright doorway reflections."
+        ],
+        "priority": "No structural repair recommended from this frame alone."
+      },
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "NG02-P",
+      "image_path": "production/anchor-return/candidates/NG02-P.png",
+      "image_sha256": "3f42f1352707516552453d37fe43bea5882d9dedf936eeb6d0d46742edf81f32",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/NG02-P.json",
+      "call_sha256": "ee008dd7017d98b96e7fa3a774f34980032e1586e732e63b856e9573845a58ea",
+      "actual_control_reference": {
+        "path": "production/anchor-return/controls/NG02.png",
+        "sha256": "7e4794f1ac954cbd4ed53387282c18173fd93f559bc8f160ab9dde8eec59033e",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "Both grounded boots and low camera; one taut cyan line visibly connects left rail ring to sword pommel. Two distinct spear grips and clear gap between opponents."
+        ],
+        "gaps": [
+          "Ray appears behind action although plan restricts it to opening/ending; adds repeated high contrast background focus. Rear/right arm sword ownership is readable, but rigid symmetric spread is more guarded posing than visibly resisted tension."
+        ],
+        "priority": "Endpoint transfer is strongest of inspected active-tether frames."
+      },
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "NG03-P",
+      "image_path": "production/anchor-return/candidates/NG03-P.png",
+      "image_sha256": "ff38a02c7a521c3cd43b3c051001d522aecfc149181ed25aecf1e698270a8f62",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/NG03-P.json",
+      "call_sha256": "9143931d34e8f2d22ca7b8d8b7e9522894a07eeaf03292868fb94b1001aa2dc0",
+      "actual_control_reference": {
+        "path": "production/anchor-return/controls/NG03.png",
+        "sha256": "7d81ba9afc38e0ff9e4c56e28734a178ea4913ff4253159bf4a33b241356d2a1",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "Forward body lean, spread planted legs, extended right sword and Sera two-grip interception; low oblique full-body framing."
+        ],
+        "gaps": [
+          "Cyan line terminates at an extra ring on hero back/hip, not the actual sword pommel clearly visible at extended fist. Changes the power load path. Blade and shaft overlap but no strong compressed contact/consequence. Ray remains a prominent repeated background subject."
+        ],
+        "priority": "High: actual sword-pommel endpoint is a causal repair candidate."
+      },
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "NG04-P",
+      "image_path": "production/anchor-return/candidates/NG04-P.png",
+      "image_sha256": "4d5e4acd6ab9168183e4d0192dfefa45e00f95941391f0d9fc459e93c1e648f3",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/NG04-P.json",
+      "call_sha256": "3267816cdf2ddb17b24f60bee6435758a600e3111e92e21cc60055d531cfa8e7",
+      "actual_control_reference": {
+        "path": "production/anchor-return/controls/NG04.png",
+        "sha256": "df8cf6555a857d6d2f4359c761e2f174a324b88202e221e45d59ee155fb0316a",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "True close torso crop, Sera shaft reaches hero anatomical LEFT upper arm, torn left shoulder seam starts, face recoils. RIGHT sword held outside guard; curved slack line leaves its pommel."
+        ],
+        "gaps": [
+          "Rail endpoint cropped; cannot verify full slack line termination from image. No boots visible by deliberate close framing, not missing anatomy. Persistent ray adds background distraction."
+        ],
+        "priority": "Strong contact/state transfer; preserve rather than spend repair here."
+      },
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "NG06-P",
+      "image_path": "production/anchor-return/candidates/NG06-P.png",
+      "image_sha256": "a98599a0c9bc41480b0837366cecedc81833168279336993d48b2d11bda39e99",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/NG06-P.json",
+      "call_sha256": "dfc5b508f94b2143a93d3791714a54c0fa382392ce1783b582437de942b63c3a",
+      "actual_control_reference": {
+        "path": "production/anchor-return/controls/NG06.png",
+        "sha256": "f68200d1482561ed6507015b291f566f2d251651717edbd46765194ee7e3648f",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "Low oblique camera and two visibly grounded hero boots, Sera torso leaning back; a sword visibly reaches spear shaft. LEFT shoulder tear remains."
+        ],
+        "gaps": [
+          "Hero has two visible sword hilts, one in rear anatomical RIGHT hand and another weapon in extended anatomical LEFT hand. Contact sword therefore held on wrong side. No taut line to right anchor is visible; planned pulling cause is absent. Contact lies near Sera grip, and body reaction lacks the planned front-knee torque/rear-heel lift."
+        ],
+        "priority": "Highest inspected causal break: rebuild one right-hand sword/pommel-to-right-anchor load path and contact. A texture-only edit cannot fix this."
+      },
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "NG07-P",
+      "image_path": "production/anchor-return/candidates/NG07-P.png",
+      "image_sha256": "e974d8a9f2fa86da3846c9b24e1ecb6d92f4bb9ab4df4b9ed99ab3dfd0f8111b",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/NG07-P.json",
+      "call_sha256": "44ba6332eb8180691ca582a9dd407b617dcffc9892cb2731c8eef43c3c9aee43",
+      "actual_control_reference": {
+        "path": "production/anchor-return/controls/NG07.png",
+        "sha256": "aec72b91b7c453c389ace12902b957b48ed122ab8b60692413a69bb9f6902a21",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "Both kneel and visibly catch breath, blade grounded beside boot, Sera braces palm and holds spear safely outward. Strong readable aftermath expressions."
+        ],
+        "gaps": [
+          "Hero tear moves to anatomical RIGHT shoulder (image left), inconsistent with NG04/06 left tear. LEFT hand crosses to protect that wrong shoulder. Sera appears to brace RIGHT palm and hold spear LEFT, reversing planned sides. No short spent line visible beyond pommel ring. Ray remains prominent."
+        ],
+        "priority": "State continuity gap; do not declare sequence anatomically consistent."
+      },
+      "owner_approval": null
+    }
+  ]
+}

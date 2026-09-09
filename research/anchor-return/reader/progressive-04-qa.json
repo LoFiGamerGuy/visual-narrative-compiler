@@ -1,0 +1,48 @@
+{
+  "schema": "AnchorReturnProgressiveQA/1",
+  "dataset_sha256": "e2772eeeb6e58638cdb37530689d628a723c313ed833e637da9949e02302d3bd",
+  "available_compositions": 30,
+  "registered_attempts": 45,
+  "captured_phone_attempts": 10,
+  "displayed_phone_cards": 9,
+  "complete_captured_sequences": [
+    "ST",
+    "NG"
+  ],
+  "captured_repair": "NG06-R1",
+  "NG06_displayed_attempt": "NG06-P",
+  "receipts": {
+    "displayed-v2": {
+      "path": "research/anchor-return/reader/phone-captures/progressive-04/displayed-v2/receipt.json",
+      "sha256": "63b30fa6244c7c60a16ea41787b1a66df4e9e1a35fd1a54b04d9137977d87d72",
+      "count": 9
+    },
+    "history": {
+      "path": "research/anchor-return/reader/phone-captures/progressive-04/history/receipt.json",
+      "sha256": "29f6a4752340cac02bdaf1c01b077dbc226d64d6557f9e31564d4b4bc600cadd",
+      "count": 10
+    },
+    "sequences": {
+      "path": "research/anchor-return/reader/phone-captures/progressive-04/sequences/receipt.json",
+      "sha256": "c55d51ad17d2a4d893dae000ed9cb62b5a6015eb85861746d677abf791de351f",
+      "count": 2
+    },
+    "comparisons": {
+      "path": "research/anchor-return/reader/phone-captures/progressive-04/comparisons/receipt.json",
+      "sha256": "7522f0a8a72c8f9f8e3445613eafd7716be5c20ce185f7abe0ea65d00c8733fe",
+      "count": 1
+    }
+  },
+  "actual_visual_inspection": [
+    "Complete ST eight-panel uncaptioned strip",
+    "NG06 P/R1 side-by-side1440 comparison"
+  ],
+  "whole_phone_images_fit": true,
+  "preferences_unchanged": true,
+  "capture_correction": "Original displayed/ preserved: browser scroll rounding clipped under0.5px from some top edges. displayed-v2/ adds8px margin and all nine images pass strict whole-frame bounds. History and strips were unaffected.",
+  "limitations": [
+    "This snapshot preserves NG06-P in the continuous strip; R1 is compared separately.",
+    "New NG/BP finishing attempts present or arriving are reserved for a separate finishing comparison snapshot.",
+    "Progressive presentation/source verification, not final owner approval."
+  ]
+}

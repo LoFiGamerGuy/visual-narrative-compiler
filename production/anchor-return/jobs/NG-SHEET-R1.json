@@ -1,0 +1,21 @@
+{
+  "id": "NG-SHEET",
+  "attempt_id": "NG-SHEET-R1",
+  "phase": "repair",
+  "category": "support",
+  "retry_of": "NG-SHEET-P",
+  "retry_reason": "Native sheet adds a wrist crescent blade and separate cyan wrist ring, competing with the sole sword-pommel power origin. Correct foundation before linked scenes.",
+  "evidence_path": "research/anchor-return/first-edit-evidence.json",
+  "evidence_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+  "prompt": "Edit this cast sheet using this image alone. Preserve both adult identities and faces, hair, tailored off-white and burgundy clothing, poses, long city-ray creature silhouette, and the actual fine Nightglass drawing. Remove ALL hard plated forearm armor, the large crescent blade attached to the man\u2019s RIGHT wrist, and all cyan wrist-ring devices. Both people wear simple smooth black gloves and plain fitted dark wrist cuffs. His RIGHT hand continues holding the SAME complete curved short sword; the cyan circle in its POMMEL is the sole magical ring and must remain clearly visible. Preserve the woman\u2019s single complete spear and her two correct grips. Remove the two floating wrist/gauntlet detail inserts from the center entirely, leaving quiet background there; retain the complete standalone sword and spear details below. Do not add replacement equipment or ornament. Do not mirror, change faces, redesign weapons, or simplify the drawing treatment. Return one corrected sheet, no labels.\n",
+  "prompt_path": "production/anchor-return/prompts/NG-SHEET-R1.txt",
+  "prompt_sha256": "df215dd5385f51da30bc8c47085ff758bcaa0878b97c092325d79a580cd33a8c",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/NG-SHEET-P.png",
+      "sha256": "f866ca7b7718e038d7466e442a67629b63dcda1bdbfd0a69622918a2e4a3b150",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

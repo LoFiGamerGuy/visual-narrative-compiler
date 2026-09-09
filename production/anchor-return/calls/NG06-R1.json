@@ -1,0 +1,37 @@
+{
+  "id": "NG06",
+  "attempt_id": "NG06-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "retry_of": "NG06-P",
+  "retry_reason": "Root and two independent native reviews see two separate swords/pommels, attacking LEFT hand despite intended single RIGHT weapon, and missing right-anchor tether. This breaks the decisive reversal. Repair weapon ownership, arm chain and causal line together; preserve the world and faces.",
+  "evidence_path": "research/anchor-return/nightglass-structural-evidence.json",
+  "evidence_sha256": "6716c5bc7de522e5cbb02b9837a1ec5aa2da094da9e849c875967f30de04c27f",
+  "prompt_path": "production/anchor-return/prompts/NG06-R1.txt",
+  "prompt_sha256": "a52fb009703de72a0eeef4696de3b5599389e3ca5c9738a269c857a645916411",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/NG06-P.png",
+      "sha256": "a98599a0c9bc41480b0837366cecedc81833168279336993d48b2d11bda39e99",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 11:12:21 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-anchor-return-20260909-1030/production/anchor-return/candidates/NG06-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 11:16:47 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-69a653c4-b90f-4665-b7e1-6d6af227539d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

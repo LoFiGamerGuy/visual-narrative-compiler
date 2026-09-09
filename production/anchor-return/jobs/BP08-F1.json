@@ -1,0 +1,21 @@
+{
+  "id": "BP08",
+  "attempt_id": "BP08-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "BP08-P",
+  "retry_reason": "Root native inspection: dense high-frequency maroon moss, petal veins, pinprick highlights and background vines overwhelm otherwise strong tailored character and flower silhouette.",
+  "evidence_path": "research/anchor-return/encounter-finish-evidence-01.json",
+  "evidence_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: Preserve the collapsed flower resting on the ground, separate severed stump, kneeling exhausted character, damaged coat and single sword..\nFocus the simplification on: Turn the dense burgundy moss carpet into broad velvety maroon shadow masses with only selective leaf edges, especially beneath the figures and root. Reduce all-over petal vein webs and tiny bright pinpricks to sparse structural veins while retaining translucent overlapping charcoal petals, oval pale void, elegant tapered contours and delicate soft facial rendering. Group background vines; retain glasshouse ribs and pale atmospheric depth. Preserve this source\u2019s refined illustrative treatment, never coarse cel shading or glossy 3D..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n\nPreserve existing anatomy, handedness, damage and exact action even where imperfect. This pass only redraws surfaces, not structure or story state.\n",
+  "prompt_path": "production/anchor-return/prompts/BP08-F1.txt",
+  "prompt_sha256": "5b65ea2a9bcd2ea520ea34d95ecb20530ed0ece5c51d3d754bef41c14f1d1a02",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/BP08-P.png",
+      "sha256": "94692afcbedfd73f6701772dbb829001ee328d3ce7aae4203bfec68a1e253a8f",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

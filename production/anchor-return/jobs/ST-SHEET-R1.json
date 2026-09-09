@@ -1,0 +1,21 @@
+{
+  "id": "ST-SHEET",
+  "attempt_id": "ST-SHEET-R1",
+  "phase": "repair",
+  "category": "support",
+  "retry_of": "ST-SHEET-P",
+  "retry_reason": "Native main figure has crescent on anatomical RIGHT and circle on LEFT; hairstyle repeats the original rope-like locks instead of the new compact curls. Correct foundation before eight linked scenes.",
+  "evidence_path": "research/anchor-return/first-edit-evidence.json",
+  "evidence_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+  "prompt": "Edit this cast sheet using the attached image as the sole source. Preserve the face, adult athletic build, outfit, rounded painted drawing, colors, full body pose, ram design and clear four legs. Make this targeted identity/equipment correction: on the MAIN front-facing woman, the glove at VIEWER LEFT is her anatomical RIGHT and must have the plain cream CIRCLE pressure plate; the glove at VIEWER RIGHT is her anatomical LEFT and must have the cream CRESCENT. Swap only those glove-back symbols, do not mirror the woman or swap her limbs. Keep one circle and one crescent in the two separate equipment close-ups. Replace her long rope-like coral locks with SHORT rounded coral curls gathered into a compact high forward tuft, retaining the shaved side and expressive face. The new hairstyle must not hang across the shoulder. No chipped gloves, injuries or activated magic. Everything else stays the same; one complete corrected sheet, no labels.\n",
+  "prompt_path": "production/anchor-return/prompts/ST-SHEET-R1.txt",
+  "prompt_sha256": "bdd4bc32a4d2c676b00417bfddf39e7609b5ef2e3b825f886535fd3f8f55b8e2",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/ST-SHEET-P.png",
+      "sha256": "4b35e7237b887bdde4f980f5942e16d6d6969d1ff593bb011f085f61bb3d76b4",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

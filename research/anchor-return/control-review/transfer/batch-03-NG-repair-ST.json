@@ -1,0 +1,235 @@
+{
+  "schema": "AnchorReturnControlTransferReview/1",
+  "reviewer": "combat_reference_research",
+  "reviewed_at": "2026-09-09T11:23:12.996433+00:00",
+  "scope": "Actual native staging/contact/state transfer; observations are reviewer judgments, not owner preferences. No generation or display changes. Controls are schematic and cannot guarantee physically solved pose.",
+  "summary": "Four ST primary natives plus source-only NG repair inspected. ST gauntlet side continuity is strong so far; NG repair restores power endpoints but leaves wrong-hand sword. No phone review in this batch.",
+  "records": [
+    {
+      "attempt_id": "NG06-R1",
+      "image_path": "production/anchor-return/candidates/NG06-R1.png",
+      "image_sha256": "eda3e14eb153dcdc5e68873e05d15fa41ad680f1e4bd38c7aa78dcae068935b1",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/NG06-R1.json",
+      "call_sha256": "1d16a0011ca840844582a4dd63c0e9d9f5b27231dfef5f7923db08dc017f829d",
+      "control_reference": {
+        "path": "production/anchor-return/controls/NG06.png",
+        "sha256": "f68200d1482561ed6507015b291f566f2d251651717edbd46765194ee7e3648f",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "control_sent_directly_in_this_call": false,
+      "actual_call_references": [
+        {
+          "path": "production/anchor-return/candidates/NG06-P.png",
+          "sha256": "a98599a0c9bc41480b0837366cecedc81833168279336993d48b2d11bda39e99",
+          "role": "Sole source edit target; preserve all protected features named in prompt."
+        }
+      ],
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "Compared with P: duplicate rear sword removed; one cyan line visibly connects contact-sword pommel to right rail anchor. Sera has stronger facial distress and torso lean."
+        ],
+        "gaps": [
+          "Contact sword remains in anatomical LEFT hand; right hand now rests against ribs. Not a complete side correction. Sword upper construction is a thick black bar visually tangent with spear shaft, making blade/shaft separation less clean than a simple crossed contact. LEFT shoulder tear is subtle."
+        ],
+        "priority": "Partial causal improvement, unresolved anatomy/weapon handling. At most one structural repair already used; retain honest caveat.",
+        "reference_note": "Repair call used NG06-P only; control compared through exact primary-call provenance, not claimed as direct repair input."
+      },
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "ST01-P",
+      "image_path": "production/anchor-return/candidates/ST01-P.png",
+      "image_sha256": "1b8ebd2fbe5ba34e88a1ceea6477e22d92762e05bf2043a82878a28f62456407",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/ST01-P.json",
+      "call_sha256": "59047ee2b4f55fe3224da19d95be82770d4bd89093e843a7a7ba6d367149067f",
+      "control_reference": {
+        "path": "production/anchor-return/controls/ST01.png",
+        "sha256": "ca92bd7cf63ceb5a46ff8d98c1afca392332016f99c013a1a3dd7ebfa5addeb5",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "control_sent_directly_in_this_call": true,
+      "actual_call_references": [
+        {
+          "path": "production/anchor-return/references/anchor-18.png",
+          "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+          "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+          "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+          "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+        },
+        {
+          "path": "production/anchor-return/controls/ST01.png",
+          "sha256": "ca92bd7cf63ceb5a46ff8d98c1afca392332016f99c013a1a3dd7ebfa5addeb5",
+          "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+        }
+      ],
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "Both gloves intact and no charge, RIGHT circle and LEFT crescent correctly assigned; four ram legs distinguishable with rear limb partly occluded. Large living blue ram at about twice heroine scale."
+        ],
+        "gaps": [
+          "Large subjects fill frame instead of extreme-wide small figures. Ram wool consists of many densely shaded lobes."
+        ],
+        "priority": "No causal repair priority."
+      },
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "ST02-P",
+      "image_path": "production/anchor-return/candidates/ST02-P.png",
+      "image_sha256": "e45b7c5be63e2b445c63dc17e27764b525d61ba8f9af27808b3eb2b564a08864",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/ST02-P.json",
+      "call_sha256": "358871308deaf1d4672d610d1df8fd34a78bbe3618afa9e9c99b082df42a3401",
+      "control_reference": {
+        "path": "production/anchor-return/controls/ST02.png",
+        "sha256": "d1eb02ba602dc1112f36bb37f82edf0eacf1b76c3d63fe68bdb3b755745d9f71",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "control_sent_directly_in_this_call": true,
+      "actual_call_references": [
+        {
+          "path": "production/anchor-return/references/anchor-18.png",
+          "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+          "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+          "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+          "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+        },
+        {
+          "path": "production/anchor-return/controls/ST02.png",
+          "sha256": "d1eb02ba602dc1112f36bb37f82edf0eacf1b76c3d63fe68bdb3b755745d9f71",
+          "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+        }
+      ],
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "Both boots planted wide, charged RIGHT circle and LEFT crescent near chin; ram lowers head and inflates cheek."
+        ],
+        "gaps": [
+          "Charge rendered as orbiting white bands rather than small compressed disk; still localized to correct glove. Only front ram feet exposed, rear legs occluded behind body."
+        ],
+        "priority": "Source/action intelligible without claiming full limb inspection."
+      },
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "ST03-P",
+      "image_path": "production/anchor-return/candidates/ST03-P.png",
+      "image_sha256": "1c774f8877ab30cd9ad92e5dcb5be8f26f9cb254f836e9cabaaece1f8748f646",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/ST03-P.json",
+      "call_sha256": "d5e6af442bcef529a38dd4b2dcc8852d24ff0c73f39d700a38bfe07689794058",
+      "control_reference": {
+        "path": "production/anchor-return/controls/ST03.png",
+        "sha256": "70fb6e0dea6ac5d5a7e482b5c2d7c09dc3e49fdfc48278a557cd4b102e34ccb4",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "control_sent_directly_in_this_call": true,
+      "actual_call_references": [
+        {
+          "path": "production/anchor-return/references/anchor-18.png",
+          "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+          "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+          "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+          "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+        },
+        {
+          "path": "production/anchor-return/controls/ST03.png",
+          "sha256": "70fb6e0dea6ac5d5a7e482b5c2d7c09dc3e49fdfc48278a557cd4b102e34ccb4",
+          "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+        }
+      ],
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "One broad wedge connects ram mouth to airborne torso; shocked face, both boots clear of ground, RIGHT circle uncharged and LEFT crescent intact. Four ram legs have separate ground contacts."
+        ],
+        "gaps": [
+          "Ram/human size relation appears smaller than opening because heroine is foreground, so exact metric scale cannot be confirmed. Some lines continue behind heroine but action cause remains readable."
+        ],
+        "priority": "Strong causal transfer; no repair priority."
+      },
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "ST04-P",
+      "image_path": "production/anchor-return/candidates/ST04-P.png",
+      "image_sha256": "2c53e3144b4c5dca6a0ea4fa684460d7438d96adb0e1fd07366a7743c871fe83",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "call_path": "production/anchor-return/calls/ST04-P.json",
+      "call_sha256": "00a02e52026ed907036a400953d8ec80cb5d52d3350658c7216e85d8bf0dae54",
+      "control_reference": {
+        "path": "production/anchor-return/controls/ST04.png",
+        "sha256": "f063c433ecfbb91b1767a5d6d8a8ac6d2f29cfeb5cdf30b488e200649685103f",
+        "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+      },
+      "control_sent_directly_in_this_call": true,
+      "actual_call_references": [
+        {
+          "path": "production/anchor-return/references/anchor-18.png",
+          "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+          "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+          "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+          "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+        },
+        {
+          "path": "production/anchor-return/controls/ST04.png",
+          "sha256": "f063c433ecfbb91b1767a5d6d8a8ac6d2f29cfeb5cdf30b488e200649685103f",
+          "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+        }
+      ],
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "native_inspected": true,
+      "phone_inspected": false,
+      "observations": {
+        "transferred": [
+          "LEFT crescent glove contacts ground with chipped outer edge, RIGHT circle intact/retracted; right boot scrapes front, rear boot visible. Crouched body shows landing effort."
+        ],
+        "gaps": [
+          "Closed-fist ground impact replaces planned open-palm supporting brace, creating punch/crater reading. Multiple rocks and large dust plumes replace one restrained chalk ribbon. Ram charges/leaps with visible airborne near hoof, inventing a simultaneous attack not in planned recovery beat."
+        ],
+        "priority": "Action semantics differ but both gauntlet identities and damage onset transfer. Prefer reserve over speculative repair until payoff seen."
+      },
+      "owner_approval": null
+    }
+  ]
+}

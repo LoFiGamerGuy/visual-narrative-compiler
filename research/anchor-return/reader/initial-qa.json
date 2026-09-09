@@ -1,0 +1,48 @@
+{
+  "schema": "AnchorReturnInitialReaderQA/1",
+  "pass": true,
+  "dataset_sha256": "9c76ef4dcc66bc4afbc2dfe704f4361e2e6896a095fbb9d5d657c380c8e99851",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "displayed_compositions": 0,
+  "planned_compositions": 30,
+  "separate_support_sheets": 3,
+  "sequences": 3,
+  "beats_per_sequence": 8,
+  "browser_checks": 64,
+  "viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      1000
+    ]
+  ],
+  "source_hashes": {
+    "index.html": "270be68718530598b86fc01d9c8f673cd58d07c7c8c544a5eb79b919c2eede5b",
+    "app.js": "f08d482bd95ea8df01867e395a88c57826fd041c66d48d88acac092df2385018",
+    "preferences.js": "6d78d89a35306bcc2c307592f011a7d2a1dba90160d014bb8ee63c5e0da9a575",
+    "style.css": "87a6356cb867faf242e3011b6875b3af37bacc06a2143508ca164128d24a070c",
+    "data.js": "9a1c4baee9e812201e3273dfa47915a5814f914dab12c747b6476f20cf1979ca",
+    "data.json": "a97bd931660872196a05c227f45bf6ce208141b25dbc3eda3b0cb4f3cd415600"
+  },
+  "actual_viewed": [
+    "gallery-390.png",
+    "sequence-NG-390.png"
+  ],
+  "observations": [
+    "Phone gallery and sequence controls fit the screen without horizontal overflow.",
+    "Original anchor library and supplemental sheets/controls have separate entry points.",
+    "Pending images retain intended sequence IDs and do not create preferences or final-image counts."
+  ],
+  "limits": [
+    "This initial snapshot precedes generated compositions and rendered-control integration; it verifies UI behavior, not art or action quality."
+  ],
+  "receipt_path": "research/anchor-return/reader/local/initial-current-plan-qa/receipt.json",
+  "receipt_sha256": "a1eee029478d3df25603eb532c177af19885626b74226280d67a1995052090db"
+}

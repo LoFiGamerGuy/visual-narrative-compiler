@@ -1,0 +1,71 @@
+{
+  "schema": "AnchorReturnIndependentPlanPreflight/1",
+  "experiment_id": "AR-20260909-01",
+  "frozen_utc": "2026-09-09T10:43:33.336195+00:00",
+  "reviewed_plan_path": "production/anchor-return/plan.json",
+  "reviewed_plan_sha256": "49cbc0d9a1321f8290e8255a45a6be5b4fab392b7e4f8d492d753125c1a5ccc3",
+  "current_plan_sha256_at_write": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "rubric_binding": {
+    "path": "research/anchor-return/independent-review/frozen-rubric.json",
+    "sha256": "c2a4673dcfb19dfe0d2daffc89a0c54ddea9f880f5945b65d1ad5da3ad5e5960",
+    "unchanged": true
+  },
+  "reviewed_scope": {
+    "eight_beat_encounter_briefs": 24,
+    "standalone_briefs": 6,
+    "subject_sheet_briefs": 3,
+    "subjects_power_rules_styles_and_policy": true,
+    "actual_new_generated_art_inspected": 0,
+    "actual_control_images_inspected": 0,
+    "exact_submitted_prompts_inspected": 0
+  },
+  "current_state_audit": "Opening briefs explicitly uninjured/unmarked; NG left-shoulder tear begins04, BP left-tail tear begins04 and root severing07, ST left chip begins04. Current-state strings do not insert later damage early. Shared power descriptions include growth concepts; exact submitted prompts still need to avoid depicting that future achievement.",
+  "findings": [
+    {
+      "id": "BP-lock-duration",
+      "severity": "material_rule_clarification",
+      "evidence": [
+        "Subject rule: once rooted it cannot turn until the strike ends.",
+        "BP04 petal edge sweeps past Ilyra and tears coat.",
+        "BP05\u201307 still require locked facing through a further approach and cut."
+      ],
+      "risk": "If the strike has ended at BP04, the creature can turn under the stated rule, defeating the causal vulnerability.",
+      "narrow_proposal": "Lock facing for as long as the single root is planted; turning requires visible unroot/recovery. Preserve current eight-beat staging."
+    },
+    {
+      "id": "NG-force-direction",
+      "severity": "control_and_prompt_clarification",
+      "evidence": [
+        "NG02 tether anchors behind Aren at left.",
+        "NG03 launches left-to-right with backward tether stretched.",
+        "NG06 right-anchor tether pulls only toward that anchor while sword contacts spear midpoint."
+      ],
+      "risk": "A backward pulling line may be misread or generated as rightward propulsion; NG06 force and torso response can separate without exact layout endpoints.",
+      "narrow_proposal": "Explicitly call NG03 an ordinary leg-driven advance against tether resistance. In NG06 show right-post endpoint, pommel, held edge/shaft contact and actual toward-post force; the body brace is counterforce, not a pushing tether."
+    },
+    {
+      "id": "BP-sheet-root-state",
+      "severity": "sheet_conditioning_watchlist",
+      "evidence": [
+        "Sheet describes a root descending to a planted thorn foot when attacking.",
+        "BP01\u201302 require root hanging above the ground; BP03 first plants it."
+      ],
+      "risk": "A planted main sheet pose could propagate early attack state.",
+      "narrow_proposal": "Main sheet root hangs clear of ground; any separate root/foot construction view must not read as the opening scene or include attack effects."
+    },
+    {
+      "id": "ST-side-state",
+      "severity": "no_material_contradiction_found",
+      "evidence": [
+        "RIGHT circular glove charges in02, loses charge airborne03, reloads05 and releases06.",
+        "LEFT crescent stays intact through03, chips on supported landing04, persists05\u201308."
+      ],
+      "risk": "Actual twisted poses and crossed ram forelegs still require pixel tracing; written consistency does not certify the future images.",
+      "narrow_proposal": "Show unmistakable left crescent and right circle on the sheet; preserve four distinct ram limb chains, especially the crossing step07."
+    }
+  ],
+  "sheet_gate": "No need to block all three support calls for the BP encounter rule clarification if neutral sheet pose is explicit. Actual sheet proportions, limbs, hand ownership and material must be reviewed before conditioning scenes.",
+  "standalone_watchlist": "All six preserve distinctive anchor drawing systems. FL hinge fully-extended lock versus folding ribs needs clearly separated locked joint and reacting adjacent ribs; CE shield-under-leg/mace-at-pivot and HC two-handed spear plus strapped left shield are high-overlap construction risks. These are layout risks, not reasons for a broad rewrite.",
+  "owner_approval": null,
+  "recommendation": "Narrow BP rule clarification and explicit NG force vectors; no broad story rewrite. Bind revised plan in an addendum after actual revised bytes are read."
+}

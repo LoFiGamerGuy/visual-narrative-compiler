@@ -1,0 +1,21 @@
+{
+  "id": "NG06",
+  "attempt_id": "NG06-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "retry_of": "NG06-P",
+  "retry_reason": "Root and two independent native reviews see two separate swords/pommels, attacking LEFT hand despite intended single RIGHT weapon, and missing right-anchor tether. This breaks the decisive reversal. Repair weapon ownership, arm chain and causal line together; preserve the world and faces.",
+  "evidence_path": "research/anchor-return/nightglass-structural-evidence.json",
+  "evidence_sha256": "6716c5bc7de522e5cbb02b9837a1ec5aa2da094da9e849c875967f30de04c27f",
+  "prompt": "Edit the attached Nightglass scene. Keep the two adult faces, hairstyles, off-white split vest/red fastening, burgundy coat, deep navy inhabited city, giant ray, overall camera and strong wide planted stances. Correct the decisive combat action. Aren, the man at left, must have ONE sword in his anatomical RIGHT hand, whose arm extends ACROSS THE FRONT OF HIS CHEST from his right shoulder (viewer-left shoulder) toward Sera at right. Draw this shoulder-to-elbow-to-hand chain clearly. His anatomical LEFT arm, from viewer-right shoulder with the torn off-white seam, is bent and tucked against his own ribs, empty hand, protecting that injury. Remove the entire extra weapon and cyan ring behind his torso. His single RIGHT-held curved sword hooks upward beneath the middle of Sera's one continuous spear shaft at a clear visible metal-to-metal contact. Keep both of her hands on that same spear. A single taut thin cyan tether runs from the circular POMMEL of that held sword to one metal rail post at the far RIGHT edge; both endpoints must be visible and there must be no belt, wrist or hip ring. The line pulls his sword hand rightward; he braces against that load, rotating her spear sideways across her stance. Her shoulders twist and rear heel lifts as her balance breaks; show a strained startled face and a single small cyan contact accent. Do not add a second blade, arm, hand, tether or effect. Keep LEFT shoulder tear, all owned equipment, anatomy and matte deck readable. This is a targeted structural correction, not a redesign or texture pass. Return one complete corrected scene with no labels.\n",
+  "prompt_path": "production/anchor-return/prompts/NG06-R1.txt",
+  "prompt_sha256": "a52fb009703de72a0eeef4696de3b5599389e3ca5c9738a269c857a645916411",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/NG06-P.png",
+      "sha256": "a98599a0c9bc41480b0837366cecedc81833168279336993d48b2d11bda39e99",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

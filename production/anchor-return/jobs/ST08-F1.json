@@ -1,0 +1,21 @@
+{
+  "id": "ST08",
+  "attempt_id": "ST08-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "ST08-P",
+  "retry_reason": "Root native inspection: chalk floor has dense chip/mottle patterns; ram curls, cloud patches and hillside detail compete with expressive action. Preserve functional circle/crescent marks and visible damage.",
+  "evidence_path": "research/anchor-return/encounter-finish-evidence-02.json",
+  "evidence_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: Laughing seated woman inspecting chipped left crescent glove, relaxed circle glove, folded sulky ram and both recognizable faces..\nFocus the simplification on: Replace dense pebble/crack mottling across the chalk floor with broad warm matte cream planes; retain only structural ledge edges, action contact marks and cast shadows. Group hillside vegetation and far clouds into fewer broad painted shapes. Reduce repeated tiny ram wool curls to broad rounded blue/cream cloud lobes, preserving this original playful brush-painted style and its intentional broad strokes. Quiet incidental armor scratches and hair highlight speckles without erasing functional glove plate marks or damage. Do not turn this into flat vector art, airbrush or glossy 3D..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n\nOnly redraw surfaces. Preserve action, pose, contact, anatomy, actual handedness and all existing story damage.\n",
+  "prompt_path": "production/anchor-return/prompts/ST08-F1.txt",
+  "prompt_sha256": "c210a5c4518d01b6648b38e1c013f128abc74437e3733829769559e695470638",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/ST08-P.png",
+      "sha256": "6ce45579de7a02974069604196002a63e5fcf752a22c1c76d801a59d09d729dd",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

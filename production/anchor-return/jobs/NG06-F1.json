@@ -1,0 +1,21 @@
+{
+  "id": "NG06",
+  "attempt_id": "NG06-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "NG06-R1",
+  "retry_reason": "R1 native review improves sword count and tether but keeps left attack; finish requested only for still grainy reflective floor and foliage/windows, with no claim to fix handedness.",
+  "evidence_path": "research/anchor-return/encounter-finish-evidence-02.json",
+  "evidence_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: The repaired single sword, one clear pommel-to-right-post tether, blade/shaft contact, rival recoil expression and all existing anatomy and shoulder seams. Do not relocate hands or injury in this surface-only pass..\nFocus the simplification on: Grainy scratched reflective deck into broad matte blue-gray planes; tiny leaf/window glitter into purposeful restrained clusters; ray microfacets into larger translucent navy shapes. Preserve economical fine anime ink, soft faces and inhabited vertical city depth..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/anchor-return/prompts/NG06-F1.txt",
+  "prompt_sha256": "f2e0c0c1b52253916ddd59f6d948917ea1f4043e4514a231acb0da41e9a120f7",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/NG06-R1.png",
+      "sha256": "eda3e14eb153dcdc5e68873e05d15fa41ad680f1e4bd38c7aa78dcae068935b1",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

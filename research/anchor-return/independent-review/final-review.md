@@ -1,0 +1,23 @@
+# Independent final art review — AR-20260909-01
+
+All 69 actual natives and source-bound phone views inspected: 30 composition primaries, 3 support primaries, 6 structural repairs and 30 texture finishes. All three final selected eight-beat strips were additionally inspected without captions at actual 390px width.
+
+Recommend all three support R1, all 24 encounter F1, five standalone F1 and CE01-P. CE01-F1 sacrifices too much defining engraving for smooth sepia rendering; this remains a material style disagreement, not a geometry failure.
+
+Repairs materially improve support clarity, remove NG06 duplicate sword, connect NG03 pommel tether and compress ST06 cheek. They do not fully repair hand-side, power or damage continuity. Source-only finishes preserve those limits.
+
+The final package offers appealing, distinct illustrated encounters and broad readable arcs. It is not evidence of fully resolved action rules or continuous anatomical/damage state across every beat.
+
+Ground texture competition is visibly reduced. Model inspection is not an owner comfort test; no owner approval, canon or individual preference is inferred from global praise.
+
+**NG** — Fine adult faces, tailored silhouettes and deep blue city scale remain recognizably related to the original Nightglass anchor. High opening, close injury, overhead evasion and quiet ending provide useful camera variation. The eight images read as an exchange, injury, evasion, counter and exhausted separation. Calmer pavement makes the cyan line easier to follow. NG03/06 use LEFT sword attacks; NG07/08 place injury on RIGHT after LEFT damage. Endpoint repairs improve the tether but do not make its full pull/slack mechanics or shaft hook self-evident. Repeated ray/city lights compete with the power cue. The ending appears to separate foreground ledge from the opposite door bridge; a continuous walkable connection remains uncertain. Ray planes, especially NG08, become smoother and less crystalline/translucent. Fine facial appeal and city depth survive, but glass-material preservation is partial.
+
+**BP** — Pale restrained adult acting, dark translucent overlapping petals, red ground and airy greenhouse depth sustain an elegant horror mood; finishing keeps that distinct treatment. The root cut and subsequent collapse are the clearest consequence: stump, gap and fallen flower persist. The shield never clearly closes; premature planting and ambiguous planted-turning behavior prevent the intended rule from being learned reliably. Saber hand switches in BP02/07; changing tail shreds do not preserve one exact wound. Several middle beats repeat open flower versus swordswoman without a distinct state change. Dense moss becomes broad red mounds; petal translucency and delicate face rendering remain. Quieter surfaces do not establish the missing shield/plant rule.
+
+**ST** — Rounded painted adult muscle, lively eyebrows/mouths, orange-blue contrast and expressive ram behavior recover the original Soft Thunder family most directly. The laugh/sulk ending has strong personality. Clearest broad arc: charge, mouth-blast interruption, landing, flank, denting counter, recoil and shared rest. ST03 wind-to-airborne reaction and repaired ST06 cheek compression are concrete counterexamples to a blanket action-failure verdict. ST06 circle punch is LEFT with RIGHT crescent, then assignments return; chip appears inconsistently and cheeks do not follow a stable deflated state. ST04 adds a ram lunge; ST06 lifts several hooves. These prevent exact eight-beat state continuity despite a readable broad arc. Broad wool/cloud/chalk shapes preserve painted volume and face charm. ST03 keeps four leg clusters; ST04 chip was ambiguous in both versions, not demonstrably erased by F; final ST08 chip remains clear.
+
+**Coverage and corrections.** The 69-entry coverage index binds every native, call, prompt, inspected phone screenshot and source review. The final three uncaptioned phone strips bind dataset b5f4941c5b1fb187135e53eea9244566d04d3315cf912bcf698f08742678b30c. Earlier NG03-P RIGHT-arm label was mistaken; later native reinspection reads LEFT in P/R1/F1. The earlier report is preserved and the correction is recorded in final-batch-native-phone.json.
+
+**Exposure.** Frozen rubric and initial views preceded author judgments. Later parent messages exposed specific defect hypotheses and some repair/finish impressions; these are disclosed in batch reports. Actual phone history also exposes correction text. Final recommendations are independent but not blind. No lead ledger substituted for actual pixels.
+
+All earlier review files remain unchanged. No selections, artwork or owner choices were edited.

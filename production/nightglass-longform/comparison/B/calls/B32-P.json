@@ -1,0 +1,38 @@
+{
+  "id": "B32-P",
+  "status": "returned",
+  "args": {
+    "prompt": "Use case: illustration-story. Generate ONE new Nightglass comic panel, square composition, no text, no lettering, no balloons. Reference 1 supplies original thin controlled anime drawing, elegant face proportions, inhabited navy/cyan city with selective amber windows. Reference 2 supplies stable cast construction ONLY: Aren is slim adult dark-haired man in long-sleeved ivory waist jacket, black high-neck shirt/trousers/gloves, red courier cord; Pell older gray-haired stubbled man in mustard work jacket. Exclude the sheet's tall rig, spear, ray and extra people. Reference 3 is CURRENT STATE/geography control only, not visual style. Reference 4 if supplied is the preceding selected panel: preserve its identities and current physical geography, but advance exactly the new action/state below. Use expressive attractive acting, clear hands, broad quiet surface shapes, matte stone, no microtexture everywhere. Scene: old postal stair, blue night, warm windows distant. Aren tucks the black envelope completely inside his inner chest pocket using his LEFT hand. His RIGHT hand draws the crescent sword. Pell watches from the upper stair.\nCurrent state authoritative: Envelope now hidden inside chest, never at belt; right hand owns sword; no line; torn hem, sleeves intact.\nCamera: chest/waist three-quarter. Keep quiet dark upper 20 percent for later dialogue. One black envelope only, in the stated location; cream wallet concealed; do not add objects from sheet. No future damage or characters. One frozen moment. Make visible causal hand/contact/endpoint information clear.",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/pilot-chapters/references/anchor-01.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/pilot-chapters/candidates/NG-SHEET-P.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/comparison/B/controls/N1-32.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/comparison/B/candidates/B31-P.png"
+    ]
+  },
+  "references": [
+    {
+      "path": "production/pilot-chapters/references/anchor-01.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33"
+    },
+    {
+      "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+      "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122"
+    },
+    {
+      "path": "production/nightglass-longform/comparison/B/controls/N1-32.png",
+      "sha256": "f0766b35e6109f6fa14ed9837484246aa091b79ead0de3c7f4abb561ee423d1a"
+    },
+    {
+      "path": "production/nightglass-longform/comparison/B/candidates/B31-P.png",
+      "sha256": "cbcb7cf0fd8c75489199afe8e2ea7571788e4879fc195888b7750a880a100851"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "model": null,
+  "cost": null,
+  "native": "production/nightglass-longform/comparison/B/candidates/B32-P.png",
+  "sha256": "ca1863d9fd9387eaeea59d3c5e7f9dfebcd1288f44aa335b6bc16ea6f5afce8b",
+  "tool_native": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-8f0f84eb-7889-4195-9b0f-e625d33c7626.png",
+  "inspection": "Prior panel hand error persists: RIGHT hand at chest and LEFT blade; envelope concealed but torn hem becomes intact. Face and city appealing. No line. B current-state did not override adjacent visual error."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "B34-R1",
+  "status": "returned",
+  "args": {
+    "prompt": "Use case: precise-object-edit. Edit this exact Nightglass comic panel for ONE structural causal correction: the short projecting iron tooth on the left side of the right-hand black post must visibly catch the loose torn edge of Aren\u2019s LEFT ELBOW sleeve, with ivory cloth stretched onto the tooth and a clear small tear there. Move/lengthen only that tooth to meet the elbow sleeve. His left hand must be EMPTY and held clear of the post, fingers open for balance, not gripping anything. Keep right sword, right hand, existing rear-pommel-to-post cyan line and BOTH endpoints exactly; keep face, body landing pose, footwear, composition, city, lighting, dimensions and all existing objects. Do not add another line or move its endpoint onto blade. Also preserve the already-torn lower jacket hem as a small uneven triangular missing notch, not a new large wound. No blood, no new objects, no text or balloons. Do not smooth textures: this is a contact correction only.",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/comparison/B/candidates/B34-P.png"
+    ]
+  },
+  "references": [
+    {
+      "path": "production/nightglass-longform/comparison/B/candidates/B34-P.png",
+      "sha256": "d25b6cb6d11ee721c85904f2ef78bc1bfa60cd6b8aecf02fd2a0989de62321df"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "model": null,
+  "cost": null,
+  "reason": "Primary shows sleeve tear but no physical snag; left hand grips rail. Sole method B structural repair.",
+  "native": "production/nightglass-longform/comparison/B/candidates/B34-R1.png",
+  "sha256": "bd2b7adcbeb5c94937863b223f62275e465f276ec21fd1bfadec69087af221b5",
+  "tool_native": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-c847d9af-e938-4fea-8ce4-c0e02980532b.png",
+  "inspection": "Targeted repair improves actual cause: LEFT hand now open clear, sleeve cloth visibly stretched to iron tooth. RIGHT blade and single rear-ring line preserved. Prior hem tear not convincingly restored. Selected for next B panel, no more B repair allowance."
+}

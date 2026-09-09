@@ -1,0 +1,45 @@
+{
+  "id": "N1-08-R1",
+  "panel_ids": [
+    "N1-08"
+  ],
+  "phase": "targeted-structural-repair",
+  "status": "returned",
+  "invocation": 5,
+  "submitted_utc": "2026-09-09T21:07:05.462520+00:00",
+  "arguments_path": "production/nightglass-longform/chapter1/opening/requests/N1-08-R1.json",
+  "prompt_sha256": "4ad35d17e640a5763abcc0de1cf43aecc206f6ad5cf110c4c2560b5364e68e40",
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter1/opening/candidates/N1-08-P.png",
+      "sha256": "644857c2907f7f6adcfcccf2c9a9c8bb428bd379514500caaba569cf75c20b7f",
+      "role": "source edit target"
+    },
+    {
+      "path": "production/nightglass-longform/chapter1/opening/crops/rear-pommel-construction-reference.png",
+      "sha256": "f8a1005d7153b7430fd698e6fe1430cf1004ca839ce4fa4a7087682adc6fd8d5",
+      "role": "correct weapon construction only"
+    }
+  ],
+  "exact_copy": {
+    "N1-08": [
+      {
+        "speaker": "Aren",
+        "text": "One anchor. Pull only. My body carries the load."
+      }
+    ]
+  },
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "retry_of": "N1-08-P",
+  "retry_reason": "Line attaches to blade spine and blade points toward post instead of rear pommel connection.",
+  "returned_utc": "2026-09-09T21:08:11.228071+00:00",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a087d0-a5bc-7eb1-a656-a9be23a472bd/exec-a9f74623-762a-4332-a599-4edfdd79d66a.png",
+  "path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter1/opening/candidates/N1-08-R1.png",
+  "sha256": "5cbfa2f09d919dd3c6e0963fd2c1e3377ff19a93f54637154501bbc4131a059a",
+  "raw_return_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter1/opening/calls/N1-08-R1-tool-return.json"
+}

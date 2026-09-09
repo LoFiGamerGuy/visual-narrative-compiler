@@ -1,0 +1,59 @@
+{
+  "id": "D04",
+  "attempt_id": "D04-P",
+  "phase": "primary",
+  "category": "duel",
+  "prompt_path": "production/combat-depth/prompts/D04-P.txt",
+  "prompt_sha256": "4f0caca9f6b2fd3b312f0d5c93a99557dc9c6d08b12905c633327f787d87aa86",
+  "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+  "references": [
+    {
+      "path": "production/combat-depth/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "role": "Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/ilyra.png",
+      "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+      "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/candidates/D01-F1.png",
+      "sha256": "3ab9bededf3a40d4481e7cafc070f0b04d423524cf702b53e2370ea70dddb388",
+      "role": "Exact recurring subject/place reference from D01; use named identities/creature and relevant geography only, not its composition or surface noise."
+    },
+    {
+      "path": "research/combat-depth/controls/v2-guides/D04-gravity-east.png",
+      "sha256": "4a785c3fc882ca8fdb8e3e330b0929798455ea04639ad0440badd71688bb95dd",
+      "role": "Upright camera; Riven accelerated east/right, Ilyra downstage/right with butt planted outside strip. Horizontal in-strip water versus vertical outside water. Schematic vectors are not final effects. Original geometry-only conditioning, not final art/style/face reference; omit schematic arrows and markers from generated art. This is a spatial/control guide only: do not copy diagram rendering, colors, labels or arrows into the artwork. Translate a top-down plan into the camera requested by the scene brief; do not adopt a map camera unless this scene explicitly calls for it.",
+      "control_source_path": "research/combat-depth/controls/v2-guides/D04-gravity-east.svg",
+      "control_source_sha256": "cc1633f7651273bb147c492cf326a7e1e3ebefc052f649d24a8548b6864abf48"
+    },
+    {
+      "path": "production/combat-depth/candidates/D03-R1.png",
+      "sha256": "fcd6d4573c43d69697135bd3523ecbabf2df2284a20d834803f9f8c3a8c55eb8",
+      "role": "Exact recurring subject/place reference from D03; use named identities/creature and relevant geography only, not its composition or surface noise."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 00:04:01 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/riven.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/ilyra.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/D01-F1.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/research/combat-depth/controls/v2-guides/D04-gravity-east.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/D03-R1.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 00:04:57 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-fbe564cb-cac5-4c1f-a830-49cefb5331b8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "D08",
+    "attempt_id": "D08-F1",
+    "phase": "texture",
+    "category": "duel",
+    "retry_of": "D08-P",
+    "retry_reason": "Root native review: precise expressive near-miss is surrounded by dense wet-floor sparkle, stone micrograin and splash specks.",
+    "evidence_path": "research/combat-depth/finish-spec-08.json",
+    "evidence_sha256": "6543af2799225cb1717b8d9d0a7eb167984c585578b79b0df8c14c20ff17aead",
+    "prompt_path": "production/combat-depth/prompts/D08-F1.txt",
+    "prompt_sha256": "40d26a628e04b6de8bde58768a362a5f74585b7379f0f1ab15d32d2cd91a3168",
+    "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+    "references": [
+      {
+        "path": "production/combat-depth/candidates/D08-P.png",
+        "sha256": "897e0fab5cddb5c070fa55d850ac4d8b3acbf0e067189d6393c01cd01333d768",
+        "role": "Exact edit source; preserve all content except the specified texture change"
+      }
+    ],
+    "prompt": "Use case: style-transfer. Redraw ONLY THE SURFACE FINISH of the supplied exact image. Preserve its composition, camera distance, subjects, faces, hairlines, expression, costume, anatomy, weapon construction and handling, scale, spatial relationships, action and lighting mood. Substantially reduce distracting repetitive microtexture. Replace it with broad deliberate opaque light/shadow shapes, calm material interiors and selective crisp accents at faces, functional contacts and meaningful boundaries. Retain material differences, depth, inhabited scale and sophisticated drawing. This is a drawn surface redraw, not blur, denoise, low resolution, airbrush, plastic 3D, flat vectors or removal of the world. No new details to compensate.\nCalm the patterned wet floor and granular stone into broad drawn planes and grouped reflections. Retain the specific directional splashes that show loaded boots and movement; do not erase action cues. Preserve diagonal lance, exact two-hand grip, visible spear-head near miss, Riven low right saber, actual expanded left-sleeve tear, facial intent, body placement and lighting. Do not restore a ledge, mantle notch or other missing continuity detail.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  }
+]

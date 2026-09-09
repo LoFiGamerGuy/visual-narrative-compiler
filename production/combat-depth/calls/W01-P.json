@@ -1,0 +1,53 @@
+{
+  "id": "W01",
+  "attempt_id": "W01-P",
+  "phase": "primary",
+  "category": "war",
+  "prompt_path": "production/combat-depth/prompts/W01-P.txt",
+  "prompt_sha256": "14e01fb1efecadf75e6a4ed662ceba3143c7e597198e9faa164d8daa4d8d15d0",
+  "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+  "references": [
+    {
+      "path": "production/combat-depth/references/neris.png",
+      "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+      "role": "Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/kellan.png",
+      "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+      "role": "Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/ilyra.png",
+      "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+      "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "research/combat-depth/controls/v2/map-war.png",
+      "sha256": "351cdeb93ba8583f3a32df5f38a99755434b9cb7f8ee66c4c49c7d1c21e8f1eb",
+      "role": "Original code-native top-down geometry/actor-location control only. North top, west left, east right; triangular bottom symbol is camera. Do not draw diagram symbols, text, vectors or this schematic treatment in final art. Use actual identity refs for faces/costumes/weapons. This is a spatial/control guide only: do not copy diagram rendering, colors, labels or arrows into the artwork. Translate a top-down plan into the camera requested by the scene brief; do not adopt a map camera unless this scene explicitly calls for it.",
+      "control_source_path": "research/combat-depth/controls/v2/map-war.svg",
+      "control_source_sha256": "f436c892da54bc2c13aaf09c111ec537e6b3a3888c1da985afcd7cae8a3a3971"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 23:27:28 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/neris.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/kellan.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/ilyra.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/research/combat-depth/controls/v2/map-war.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 23:28:17 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-9eeba462-16d2-4942-a79c-02f06271cbb2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

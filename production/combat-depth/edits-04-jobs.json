@@ -1,0 +1,28 @@
+[
+  {
+    "id": "G03",
+    "attempt_id": "G03-R1",
+    "phase": "structural",
+    "category": "squad",
+    "retry_of": "G03-P",
+    "retry_reason": "Root and independent native inspection found hidden pommel/shoulder contact and Kellan apparently handling a cyan path connected to Riven weapon, losing independent sword construction.",
+    "evidence_path": "production/combat-depth/edit-specs-04.json",
+    "evidence_sha256": "86dd1ee28877b391992b28661fccd85025b6e2e528bb8ab6cc1ee4d4652198c4",
+    "prompt_path": "production/combat-depth/prompts/G03-R1.txt",
+    "prompt_sha256": "27caf94933908990a1270fe8343d600831db6917387acd0f6ad8ccf99aef0333",
+    "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+    "references": [
+      {
+        "path": "production/combat-depth/candidates/G03-P.png",
+        "sha256": "36cbfe22b9e255c6613ffb311d71c1732aadf7139d8f86fe6d2e2ded37747a14",
+        "role": "Exact edit source; preserve all content except the specified structural change"
+      },
+      {
+        "path": "production/combat-depth/references/kellan.png",
+        "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+        "role": "Kellan own broad straight dark two-handed sword with pale steel edge and exact adult identity only."
+      }
+    ],
+    "prompt": "Use case: precise-object-edit. Correct ONLY the specified composition or structural failure in this exact source image. Keep its drawing treatment and other content consistent; this is not a texture-finishing pass.\nMake two carefully isolated combat-construction corrections to image1. FIRST separate the allied weapons completely: Riven at back LEFT alone holds ONE continuous cyan-edged saber by its own hilt, with its blade directed outward LEFT away from Kellan. Kellan lower LEFT holds HIS OWN separate broad straight dark sword with pale steel edge, BOTH hands wrapped around its ONE dark hilt behind the guard, blade angled down/right into clear empty space. Use image2 for this weapon construction. No hand grips any blade, no cyan blade connects the two men, no duplicate hilt or disembodied extra sword. Preserve their actual faces, crouches and costumes. SECOND make the incoming armored sword fighter POMMEL visibly contact Neris exposed OUTSIDE shoulder, with a small clear compressed-contact point. His hand stays wrapped around his own sword grip and its blade points up/right safely away. Tilt/lower Neris crescent just enough that this shoulder contact is NOT hidden behind its upper rim; rear forearm/hand grip stays plausible and she remains visibly buckled/off balance. Preserve the existing upper-rim chip and visible chipped LEFT pier. A single identifiable stone fragment beside the rim may explain its fresh chip; no extra debris swarm. Keep all other subjects, horn-source direction, city, gutter, night, camera and pressure-failure situation. Do not turn the hit into a victorious shield parry and do not simplify surfaces in this structural correction.\nImage1 is the exact composition to edit. Additional images are correction references ONLY for the explicitly named identity or construction: Image2: Kellan own broad straight dark two-handed sword with pale steel edge and exact adult identity only. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  }
+]

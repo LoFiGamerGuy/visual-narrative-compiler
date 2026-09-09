@@ -1,0 +1,17 @@
+{
+  "schema": "CombatDepthPlanRevision/1",
+  "experiment_id": "CD-20260908-01",
+  "utc": "2026-09-09T00:14:26.876742+00:00",
+  "previous_path": "production/combat-depth/plan-history/plan-v4.json",
+  "previous_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+  "new_path": "production/combat-depth/plan.json",
+  "new_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+  "generation_calls_before_revision": 24,
+  "reason": "Actual D04 wide reset places Ilyra LEFT and Riven already attempting a left-hand wall brace. Independent native review confirms rightward body/water force reads but planned position/timing missed. Preserve D04 as partial result and explicitly reconcile only future ungenerated beats rather than silently teleporting caster or claiming original compliance.",
+  "changes": [
+    "D05 continuing force defeats prior hand brace; forearm/shoulder then strikewall. Ilyra staysdownstageLEFT.",
+    "D07 caster retainsLEFT/downstage lowercourt position; addactualD04reference.",
+    "D08 physicalcounter startsnearbyLEFT/downstage toward raisedLEFTpierlanding."
+  ],
+  "unchanged": "No budget/scope changes, no rewriting earlier calls/prompts/art, no owneracceptance inferred."
+}

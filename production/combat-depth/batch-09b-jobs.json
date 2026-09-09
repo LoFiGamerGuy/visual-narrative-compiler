@@ -1,0 +1,42 @@
+[
+  {
+    "id": "W06",
+    "attempt_id": "W06-P",
+    "phase": "primary",
+    "category": "war",
+    "prompt_path": "production/combat-depth/prompts/W06-P-input-corrected.txt",
+    "prompt_sha256": "232473da322065759556541378014c50c1b32e9626c6199d090ce1b39f8da5f1",
+    "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+    "references": [
+      {
+        "path": "production/combat-depth/references/neris.png",
+        "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+        "role": "Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/references/kellan.png",
+        "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+        "role": "Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/references/ilyra.png",
+        "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+        "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/candidates/W05-P.png",
+        "sha256": "9284986ecb4da54451d0a730d41163b826567f99d96291e4d495380c39a3feeb",
+        "role": "Exact recurring subject/place reference from W05; use named identities/creature and relevant geography only, not its composition or surface noise."
+      },
+      {
+        "path": "production/combat-depth/candidates/W04-F1.png",
+        "sha256": "d3f2b7fe00577f67d8bcb6eb89e8d55522bdd1ad0fef56b4e612a2f00c794643",
+        "role": "Exact recurring subject/place reference from W04; use named identities/creature and relevant geography only, not its composition or surface noise."
+      }
+    ],
+    "input_validation_retry_of": "production/combat-depth/input-validation-failures/W06-P.json",
+    "input_validation_retry_sha256": "30030f340408701eccb25f9975530f634868194c83df785746b17710b76965f4",
+    "input_validation_retry_reason": "No artwork returned: the built-in tool rejected six paths. Remove only redundant W01 geography image, retain exact three cast identities plus W05 collapse/W04 ice route, and renumber reference labels. Same creative brief; one existing no-art retry slot consumed.",
+    "prompt": "Use case: illustration-story.\nNew original progression-fantasy scene: What victory leaves behind. Landscape 1536x1024, single complete composition.\nCAMERA AND ACTION PRIORITY: Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Extreme-wide aftermath in warmer dawn. LEFT safe bank holds an organized exhausted adult column passing inside the monumental gate as it closes behind them, three tiny recognizable heroes at its edge: Neris leaning on crescent, Kellan lifting broad sword from water after the crossing, Ilyra kneeling beside upright lance. RIGHT attacking masses and lowered four-legged siege beast remain separated by a visibly MISSING main bridge center span, broad fallen slabs in the canal. The parallel ice route remains visible but is guarded at its safe end, with its working edge no longer growing after blade lift. Breaking the main span delayed heavy pursuit and bought retreat time; do not imply this alone prevents every enemy from taking the ice route. Big territory/scale/cost shapes, few purposeful faces in nearest survivors, quiet water and light. Do not restore the bridge, erase the enemy or end on a giant hero portrait.\nInput images:\nImage 1: Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 2: Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 3: Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 4: Exact recurring subject/place reference from W05; use named identities/creature and relevant geography only, not its composition or surface noise.\nImage 5: Exact recurring subject/place reference from W04; use named identities/creature and relevant geography only, not its composition or surface noise.\nDrawing treatment: deliberate original Nightglass action-comic illustration with appealing precisely drawn adult faces, confident selective contours, designed hair locks, rich angular silhouettes and broad opaque material planes with restrained soft modeling. Let mood and light follow THIS new setting. Calm material interiors, grouped highlights, mostly unmarked stone and fabric; purposeful details prove depth and function. Not glossy 3D, blur, airbrush, flat vector shapes or a grainy texture overlay. No all-over crack networks, tiny facets, etched ornament, hundreds of equal strands, glitter reflections, fleck storm or generic aura. A large world must remain inhabited and sophisticated while its surfaces give the eye rest.\nAll combatants and visible bystanders are adults; recurring identities and complexion follow the supplied references. Create cast variety through faces, builds and fighting styles. Visceral impact comes from loaded bodies, recoil, forceful contact, expression and consequences, not visual noise.\nPersistent state for this moment: {\"bridge\": \"center span missing\", \"ice_route\": \"growth stopped after clearance\", \"siege_beast\": \"still present beyond gap\", \"retreat\": \"column safe\"}. Do not heal or reset earlier damage within this fight.\nKeep the specified camera distance; a tiny figure stays small without any enlarged face insert. Recurring adults recognizable by silhouette/costume/weapon in wide shots and by distinctive face/expression in close shots. One newly composed scene only, no panels, portrait divider, collage, text, diagram arrows, HUD, logos, watermark or copied franchise design. Precise anatomy and functional grips; concentrate detail at faces and actual contacts.\n"
+  }
+]

@@ -1,0 +1,307 @@
+{
+  "schema": "IndependentPlanReview/1",
+  "experiment_id": "CD-20260908-01",
+  "frozen_utc": "2026-09-08T23:21:55.987730+00:00",
+  "plan_path": "production/combat-depth/plan.json",
+  "plan_sha256": "fe1cd6c15a3ed3ce85efa94dda91f8fadb72fa8d44aedfc8d8b6de2523f65e18",
+  "stage": "all24briefs/states read before any new art",
+  "new_output_inspected": false,
+  "rubric_preserved": "frozen-rubric.md",
+  "findings": [
+    {
+      "id": "duel_location_jump",
+      "severity": "material choreography contradiction",
+      "panels": [
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "evidence": "D09 explicitly places close fencing at LEFT pier; D10 is the same close low-shaft kick; D11 immediately impacts RIGHT arch pier. No crossing/reset intervenes. D12 stays at the right arch.",
+      "recommendation": "Resolve before generation. Least disruptive option: D11 pins Ilyra against LEFT pier and D12 shows that aftermath while looking across to the open RIGHT arch and still-visible chipped RIGHT wall. Alternative requires a clearly depicted crossing/reset before right-pier impact; do not silently teleport the fight."
+    },
+    {
+      "id": "shield_chip_cause",
+      "severity": "secondary causal ambiguity",
+      "panels": [
+        "G03",
+        "G04",
+        "G05",
+        "G06"
+      ],
+      "evidence": "Mace hits the unshielded outside shoulder, pressure spills into the left pier, but a new chip also appears at the shield upper rim without a specified physical cause.",
+      "recommendation": "Make the existing spill/rotation visibly overload or scrape the upper rim, or disclose that its exact origin is not depicted. Preserve the later chip rather than adding an unrelated second strike."
+    },
+    {
+      "id": "ice_route_after_bridge_loss",
+      "severity": "secondary tactical ambiguity",
+      "panels": [
+        "W04",
+        "W05",
+        "W06"
+      ],
+      "evidence": "Main pursuit bridge becomes missing while the parallel continuous ice route remains visible. Blade lift stops growth; frozen rules do not say the already-formed route disappears or becomes impassable.",
+      "recommendation": "Do not infer complete pursuit denial or no road back solely from main bridge loss. Either frame that loss as a major cost/delay with an extant alternate route, or explicitly establish an additional route limitation in a disclosed plan revision."
+    }
+  ],
+  "sequence_strengths": [
+    "D01\u2013D08 proposes an actual attack/riposte/gravity-hit/injury/setup/escape/counter chain, with the planted-lance rule visibly sacrificed for a physical strike.",
+    "D03 mantle notch, D05 left-forearm tear/abrasion and right-wall impact patch have explicit persistent states; hand ownership remains right saber and left protective/catching hand.",
+    "G01\u2013G06 links defense, flank failure, ice wedge, horn source severance and dependent team exit.",
+    "W01\u2013W06 connects formation impact, foreknee counter, occupied alternate route, irreversible bridge loss and exhausted survivors."
+  ],
+  "first_proof_focus": {
+    "D01": "Small complete two-adult18% staging, actual left/right supported ledges, clear mobile unplanted lance and right-held saber, no magic.",
+    "D02": "Both complete loaded bodies; one hilt-to-tip saber and one continuous lance shaft with real crossing and readable near miss.",
+    "G01": "Three distinct heroes plus two close attackers and one horn bearer; clear gutter and empty pier, correct rear shield side.",
+    "G02": "Mouth of horn\u2192outer shield surface\u2192two protected teammates; preserve established actors and lanes.",
+    "W01": "Three tiny distinct defenders around6%; four-limbed giant with one brass mouth collar; organized adult ranks; main bridge and lower alternate edge both readable.",
+    "W02": "Actual compressed-air lane from giant mouth to buckling shield rank, Neris brace and visible quiet edge; avoid generic crowd explosion."
+  },
+  "state_contract_snapshot": {
+    "D01": {
+      "sequence_order": 1,
+      "scale": "wide",
+      "state": {
+        "mantle": "intact",
+        "riven_left_sleeve": "intact",
+        "right_wall": "intact"
+      },
+      "gap": "long"
+    },
+    "D02": {
+      "sequence_order": 2,
+      "scale": "medium",
+      "state": {
+        "mantle": "intact",
+        "riven_left_sleeve": "intact"
+      },
+      "gap": "short"
+    },
+    "D03": {
+      "sequence_order": 3,
+      "scale": "close",
+      "state": {
+        "mantle": "notch introduced",
+        "riven_left_sleeve": "intact"
+      },
+      "gap": "short"
+    },
+    "D04": {
+      "sequence_order": 4,
+      "scale": "wide",
+      "state": {
+        "mantle": "notched",
+        "riven_left_sleeve": "intact",
+        "gravity": "east/right; butt planted"
+      },
+      "gap": "long"
+    },
+    "D05": {
+      "sequence_order": 5,
+      "scale": "medium",
+      "state": {
+        "mantle": "notched",
+        "riven_left_sleeve": "tear and abrasion introduced",
+        "right_wall": "impact patch introduced",
+        "gravity": "active"
+      },
+      "gap": "short"
+    },
+    "D06": {
+      "sequence_order": 6,
+      "scale": "close",
+      "state": {
+        "riven_left_sleeve": "torn, abraded",
+        "right_wall": "chipped",
+        "gravity": "active"
+      },
+      "gap": "long"
+    },
+    "D07": {
+      "sequence_order": 7,
+      "scale": "wide",
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "entry": "right empty",
+        "exit": "left one body",
+        "gravity": "active"
+      },
+      "gap": "long"
+    },
+    "D08": {
+      "sequence_order": 8,
+      "scale": "medium",
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "ceased; butt raised"
+      },
+      "gap": "short"
+    },
+    "D09": {
+      "sequence_order": 9,
+      "scale": "close",
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "off"
+      },
+      "gap": "short"
+    },
+    "D10": {
+      "sequence_order": 10,
+      "scale": "low-medium",
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "interrupted"
+      },
+      "gap": "short"
+    },
+    "D11": {
+      "sequence_order": 11,
+      "scale": "medium",
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "off"
+      },
+      "gap": "short"
+    },
+    "D12": {
+      "sequence_order": 12,
+      "scale": "wide",
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "right_wall": "chipped",
+        "gravity": "off"
+      },
+      "gap": "long"
+    },
+    "G01": {
+      "sequence_order": 1,
+      "scale": "wide",
+      "state": {
+        "shield": "intact",
+        "water": "flowing",
+        "horn": "ready"
+      },
+      "gap": "long"
+    },
+    "G02": {
+      "sequence_order": 2,
+      "scale": "medium",
+      "state": {
+        "shield": "intact; loaded",
+        "water": "flowing",
+        "horn": "firing"
+      },
+      "gap": "short"
+    },
+    "G03": {
+      "sequence_order": 3,
+      "scale": "medium",
+      "state": {
+        "shield": "upper rim chip introduced; brace lost",
+        "pier": "chipped",
+        "horn": "firing"
+      },
+      "gap": "short"
+    },
+    "G04": {
+      "sequence_order": 4,
+      "scale": "low-medium",
+      "state": {
+        "shield": "upper rim chipped",
+        "ice": "one wedge at flanker foot",
+        "horn": "firing"
+      },
+      "gap": "short"
+    },
+    "G05": {
+      "sequence_order": 5,
+      "scale": "wide",
+      "state": {
+        "shield": "upper rim chipped",
+        "ice": "wedge persists",
+        "horn": "severed; pressure ceases"
+      },
+      "gap": "long"
+    },
+    "G06": {
+      "sequence_order": 6,
+      "scale": "wide",
+      "state": {
+        "shield": "upper rim chipped",
+        "ice": "wedge maintained",
+        "horn": "broken and silent"
+      },
+      "gap": "long"
+    },
+    "W01": {
+      "sequence_order": 1,
+      "scale": "extreme-wide",
+      "state": {
+        "bridge": "intact",
+        "ice_route": "none",
+        "siege_beast": "upright"
+      },
+      "gap": "long"
+    },
+    "W02": {
+      "sequence_order": 2,
+      "scale": "wide",
+      "state": {
+        "bridge": "intact",
+        "siege_beast": "mouth pressure firing"
+      },
+      "gap": "short"
+    },
+    "W03": {
+      "sequence_order": 3,
+      "scale": "wide",
+      "state": {
+        "bridge": "intact",
+        "siege_beast": "foreknee buckled; pressure paused"
+      },
+      "gap": "long"
+    },
+    "W04": {
+      "sequence_order": 4,
+      "scale": "vertical-wide",
+      "state": {
+        "bridge": "intact",
+        "ice_route": "continuous and occupied",
+        "siege_beast": "lowered behind"
+      },
+      "gap": "long"
+    },
+    "W05": {
+      "sequence_order": 5,
+      "scale": "wide",
+      "state": {
+        "bridge": "center pursuit span falling; new gap",
+        "ice_route": "cleared; still maintained",
+        "retreat": "last adult safe"
+      },
+      "gap": "long"
+    },
+    "W06": {
+      "sequence_order": 6,
+      "scale": "extreme-wide",
+      "state": {
+        "bridge": "center span missing",
+        "ice_route": "growth stopped after clearance",
+        "siege_beast": "still present beyond gap",
+        "retreat": "column safe"
+      },
+      "gap": "long"
+    }
+  },
+  "exposure": "No new artwork or root image verdict seen. SC failures and own prior review known. Control guides and actual call references not yet inspected; plan intent is not their correctness or output evidence.",
+  "owner_approval": null,
+  "owner_comfort": null
+}

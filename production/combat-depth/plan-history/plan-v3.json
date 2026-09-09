@@ -1,0 +1,839 @@
+{
+  "schema": "CombatDepthPlan/1",
+  "experiment_id": "CD-20260908-01",
+  "title": "Vesper Reach \u2014 The Cost of a Counter",
+  "expected_count": 24,
+  "provisional_story": "Three separate combat-sequence studies in the same provisional world; no automatic chronology, owner-selected cast or canon. Duel12, squad6, siege6.",
+  "budget": {
+    "primary": 24,
+    "structural_repairs": 6,
+    "texture_passes": 24,
+    "maximum_native_attempts": 54,
+    "transport_retries": 2,
+    "maximum_total": 56,
+    "per_image": "One primary; at most one R1 structural correction for an observed hard failure and one F1 source-only surface redraw for observed competing texture. Inspect contacts before finishing. No beauty loops or allowance padding. A failed service call may be retried unchanged at most once, with at most two such retry calls in the whole round; all calls count toward56.",
+    "direct_paid_spend_usd": 0
+  },
+  "acceptance": {
+    "action": "Every exchange needs setup, real force/contact, counter or consequence; no generic posed glow. Read continuous sequences without explanatory captions before claiming causality.",
+    "continuity": "Carry mantle notch, left sleeve abrasion and wall patch within duel; shield chip, ice wedge and broken horn within squad; falling/missing bridge and ice route within siege. Studies are not one timeline.",
+    "texture": "Preserve approved drawing and quiet broad materials; source-only redraw when needed, never silently fix anatomy by surface claims.",
+    "preference": "New choices blank, owner feedback global direction only. Technical and AI review are not owner approval."
+  },
+  "reference_library": [
+    {
+      "id": "nightglass",
+      "title": "Nightglass",
+      "path": "production/combat-depth/references/nightglass.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/references/nightglass.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original full Nightglass; drawing and world benchmark, not cast selection"
+    },
+    {
+      "id": "riven",
+      "title": "Riven",
+      "path": "production/combat-depth/references/riven.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "role": "Recurring adult identity and saber construction only"
+    },
+    {
+      "id": "neris",
+      "title": "Neris",
+      "path": "production/combat-depth/references/neris.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/references/neris.png",
+      "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+      "role": "Recurring adult identity; rear shield grip must be correctly redrawn"
+    },
+    {
+      "id": "kellan",
+      "title": "Kellan",
+      "path": "production/combat-depth/references/kellan.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/references/kellan.png",
+      "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+      "role": "Recurring adult identity and broad combat sword"
+    },
+    {
+      "id": "ilyra",
+      "title": "Ilyra",
+      "path": "production/combat-depth/references/ilyra.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/candidates/A05-F1.png",
+      "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+      "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier"
+    },
+    {
+      "id": "finish",
+      "title": "Finish",
+      "path": "production/combat-depth/references/finish.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/candidates/A01-F1.png",
+      "sha256": "bc1ba2c59f064731f3bbe66381d22d95746f30e00df4330e82eef0b21a45e30c",
+      "role": "Approved broad surfaces, contours and faces; not target composition"
+    },
+    {
+      "id": "shield",
+      "title": "Shield",
+      "path": "production/combat-depth/references/shield.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/candidates/Q02-F1.png",
+      "sha256": "bb7a8acc86fb08fdd51032d30636f77997047b7d55812a34903fec6279f47f79",
+      "role": "Rear shield grip and coherent force contact example"
+    }
+  ],
+  "prior_choices": {
+    "path": "production/combat-depth/previous/ce-selection.json",
+    "sha256": "9e459455fffb729aac13a8c3384d6b0b4d4f6f025c6a032d29a912cf0d5acee4",
+    "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/previous/ce-selection.json",
+    "label": "Exact prior CE selections; independent of new blank choices"
+  },
+  "entries": [
+    {
+      "id": "D01",
+      "title": "The passage she will not yield",
+      "category": "duel",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "He needs the gate open. She believes opening it will kill everyone behind it.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Wide establishing shot, complete figures roughly18 percent height separated by a clear wet court. Riven LEFT has his cyan-edged saber in right hand, left hand free; Ilyra RIGHT holds her ivory lance obliquely in a mobile two-hand guard, butt not planted. Show the dry LEFT ledge and RIGHT wall ledge as real weight-supporting edges. Faces small but silhouettes attractive and distinct. Stillness before acceleration. No magic yet.",
+      "references": [
+        "riven",
+        "ilyra",
+        "nightglass",
+        "map-duel"
+      ],
+      "power": null,
+      "sequence_order": 1,
+      "state": {
+        "mantle": "intact",
+        "riven_left_sleeve": "intact",
+        "right_wall": "intact"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "D02",
+      "title": "First contact",
+      "category": "duel",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "Her reach is longer. He commits anyway.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. A forceful first exchange seen from south: Ilyra on RIGHT lunges LEFT with a two-handed spear thrust aimed past Riven\u2019s upper torso. Riven on LEFT plants a bent front leg and parries the continuous ivory shaft with his right-held cyan-edged saber at one explicit crossing. One continuous saber from hilt to tip; hands on grips, no hand clutching blade. Both complete bodies and loaded feet, dynamic diagonals against upright architecture. A single short contact accent, not a spark cloud. The near miss and physical effort must read.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D01"
+      ],
+      "power": null,
+      "sequence_order": 2,
+      "state": {
+        "mantle": "intact",
+        "riven_left_sleeve": "intact"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "D03",
+      "title": "A price for the miss",
+      "category": "duel",
+      "scale": "close",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "He reaches her mantle before she gets her point back.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Tight side three-quarter on one fast riposte. Riven\u2019s right-held saber passes outside Ilyra\u2019s upper arm as she twists away; its tip cuts a small distinct triangular notch from the OUTER ivory mantle edge at her shoulder. One loose pale cloth scrap separates. Her arm remains intact; expression flashes anger and surprise. His face intent rather than posed. The lance remains a single held weapon, angled clear of the saber. New mantle notch is a persistent marker from now on. Show the cutting contact and body withdrawal, not a portrait with random cloth.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D02"
+      ],
+      "power": null,
+      "sequence_order": 3,
+      "state": {
+        "mantle": "notch introduced",
+        "riven_left_sleeve": "intact"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "D04",
+      "title": "The wall becomes down",
+      "category": "duel",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "She changes which direction his weight obeys.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Upright wide lateral camera. Ilyra RIGHT/downstage plants the lance BUTT into the floor, right hand gripping it; she stands outside a narrow affected strip. Riven LEFT/center is violently accelerated sideways toward the actual RIGHT stone wall, loaded boots scraping the floor, torso off balance. A ribbon of gutter water INSIDE the same strip falls horizontally RIGHT in the same vector while a small stream OUTSIDE it still drops vertically. Use only a thin violet floor boundary and contact at the planted butt; NO upright energy sheet, ramp or floating barrier. Gravity must be visible through body and water, with the wall established as destination. Retain Ilyra\u2019s mantle notch.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D01",
+        "guide-D04"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "A planted Axis Lance turns the direction of weight inside one narrow ground strip.",
+        "limitation": "The butt must remain planted, the caster within reach and outside the strip; every loose body and water inside follows the same direction.",
+        "growth": "Turn a wider burden or collapsing structure at great strain; force direction must remain intelligible."
+      },
+      "sequence_order": 4,
+      "state": {
+        "mantle": "notched",
+        "riven_left_sleeve": "intact",
+        "gravity": "east/right; butt planted"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "D05",
+      "title": "No weightless hero",
+      "category": "duel",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "The wall hits harder than the weapon did.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Visceral impact at the RIGHT wall: Riven\u2019s left forearm and shoulder strike the stone, knees collapsing sideways and face in a real pain grimace. His LEFT jacket sleeve splits at the forearm with a shallow abrasion and restrained blood mark, no exposed bone. Right hand keeps the connected saber away from his body and wall. One broad chipped wall patch marks impact; a few purposeful stone fragments rather than debris fog. Ilyra appears smaller at downstage/right outside the strip, lance butt still planted, mantle notch retained. Gravity water still pulls right. Do not magically heal or glamour-pose the hit.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D04"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "A planted Axis Lance turns the direction of weight inside one narrow ground strip.",
+        "limitation": "The butt must remain planted, the caster within reach and outside the strip; every loose body and water inside follows the same direction.",
+        "growth": "Turn a wider burden or collapsing structure at great strain; force direction must remain intelligible."
+      },
+      "sequence_order": 5,
+      "state": {
+        "mantle": "notched",
+        "riven_left_sleeve": "tear and abrasion introduced",
+        "right_wall": "impact patch introduced",
+        "gravity": "active"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "D06",
+      "title": "An edge he can still reach",
+      "category": "duel",
+      "scale": "close",
+      "subjects": [
+        "riven"
+      ],
+      "story_path": "duel",
+      "caption": "Pain leaves him one hand and one usable edge.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Close low view at the RIGHT wall. Riven\u2019s bare/fingered left hand catches the real projecting ledge above the chipped impact patch; the left sleeve tear and abrasion are obvious. His right hand still grips the saber and draws a narrow cyan line along that ledge\u2019s edge. Face strained, small blood mark on forearm, no new facial scar. Through the open court the dry raised LEFT pier ledge is visibly established as a reachable supported destination. Only one body. Do not turn the free hand into another sword grip. This is decision and setup before the crossing, not an attack.",
+      "references": [
+        "riven",
+        "@D05",
+        "@D01"
+      ],
+      "power": {
+        "name": "Borrowed Horizon \u2014 Held Threshold",
+        "description": "A saber stroke joins two visible supported edges for one short step.",
+        "limitation": "Only one joined pair; both edges must be visible and support a landing. The fighter must still commit to the exit.",
+        "growth": "Hold the exit for an ally or redirect a committed strike; a predicted exit remains dangerous."
+      },
+      "sequence_order": 6,
+      "state": {
+        "riven_left_sleeve": "torn, abraded",
+        "right_wall": "chipped",
+        "gravity": "active"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "D07",
+      "title": "The exit is not a victory",
+      "category": "duel",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "He escapes the pull. She is already reading the landing.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Wide reset showing BOTH real endpoint ledges in one coherent space. RIGHT wall ledge has one empty thin cyan opening beside the chipped patch; LEFT dry pier ledge has the matching thin opening and ONE Riven arriving into a bent-knee supported landing, complete body and boots. No duplicate Riven or translucent afterimage. Ilyra remains RIGHT/downstage with planted lance and mantle notch, looking sharply LEFT toward the exit. Left sleeve tear persists. Water still pulls right inside the bounded strip. The short displacement, landing and opponent\u2019s prediction must read together.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D01",
+        "@D06"
+      ],
+      "power": {
+        "name": "Borrowed Horizon \u2014 Held Threshold",
+        "description": "A saber stroke joins two visible supported edges for one short step.",
+        "limitation": "Only one joined pair; both edges must be visible and support a landing. The fighter must still commit to the exit.",
+        "growth": "Hold the exit for an ally or redirect a committed strike; a predicted exit remains dangerous."
+      },
+      "sequence_order": 7,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "entry": "right empty",
+        "exit": "left one body",
+        "gravity": "active"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "D08",
+      "title": "She was waiting there",
+      "category": "duel",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "Dropping the spell buys her a faster strike.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Ilyra withdraws the lance butt visibly clear of the floor and lunges from RIGHT toward Riven\u2019s LEFT landing with a two-hand descending diagonal strike. Riven ducks down and inward under its path, wounded left sleeve close to torso, right-hand saber ready low. Water in the former strip now falls downward normally and violet boundary is fading. Mantle notch stays visible. Show full relevant limbs, near-miss space, loaded legs and sharp intent, not giant motion blur. She sacrifices gravity control for a physical counter.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D07"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "A planted Axis Lance turns the direction of weight inside one narrow ground strip.",
+        "limitation": "The butt must remain planted, the caster within reach and outside the strip; every loose body and water inside follows the same direction.",
+        "growth": "Turn a wider burden or collapsing structure at great strain; force direction must remain intelligible."
+      },
+      "sequence_order": 8,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "ceased; butt raised"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "D09",
+      "title": "Inside her reach",
+      "category": "duel",
+      "scale": "close",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "Neither weapon has room for a second mistake.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Close tight physical fencing at the LEFT pier, both expressive adult faces visible. Riven has stepped inside the lance\u2019s long reach and presses his right-held continuous saber against the continuous shaft close to Ilyra\u2019s dark grip. Their actual hands remain on their own handles. Clear compressed spacing, sweating brows and tense mouths; his injured left forearm stays protected rather than gripping a blade. Ilyra\u2019s mantle notch and right-hand lance ownership persist. No magic, one crossing, avoid a nest of disconnected blades or fists.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D08"
+      ],
+      "power": null,
+      "sequence_order": 9,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "off"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "D10",
+      "title": "Break the rule at its root",
+      "category": "duel",
+      "scale": "low-medium",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "He attacks the anchor instead of fighting the force.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Low three-quarter full-body action. Ilyra tries to replant her lance butt on the stone between the fighters. Riven kicks the LOW shaft just above its butt sideways with the sole/inside edge of his forward boot at one unmistakable contact; the butt has begun sliding off its planted point. He keeps the saber in right hand held away from the kick, left forearm injured and protected. Ilyra\u2019s right hand retains the connected lance. Thin violet trace at the abandoned butt point fails to form a plane. Upright architecture and firm other feet, no levitation or sword under his foot. Mantle notch remains.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D09",
+        "guide-D10"
+      ],
+      "power": {
+        "name": "Anchorbreaker",
+        "description": "Read the planted source and break its physical contact before the field settles.",
+        "limitation": "Requires entering the caster\u2019s weapon reach and risking a counter.",
+        "growth": "Recognize and interrupt more demanding anchored techniques without becoming immune to them."
+      },
+      "sequence_order": 10,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "interrupted"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "D11",
+      "title": "The opening costs him too",
+      "category": "duel",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "He uses the space he earned, not another burst of light.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. One decisive shoulder drive: Riven pushes from LEFT into Ilyra on RIGHT, his right shoulder contacting her upper torso and forcing her back against the nearby LEFT square pier. His right-held saber is angled clearly outward/down away from both bodies, not through her. Ilyra grips her intact lance angled aside, butt off the floor; her back and one shoulder meet the pier, face shocked and breath expelled. No simultaneous elaborate wrist-lock or throat stab. Wounded left forearm stays tucked; mantle notch persists. Weight, recoil and consequence, one controlled impact accent, no spark storm.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D10",
+        "@D01"
+      ],
+      "power": null,
+      "sequence_order": 11,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "off"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "D12",
+      "title": "A passage, not a cure",
+      "category": "duel",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "The gate is open. Neither of them is unhurt.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Quiet medium-wide aftermath at the LEFT square pier, looking across the court toward the open RIGHT arch. Riven stands breathing hard with low right-hand saber and visibly torn/abraded LEFT forearm; his exhausted expression allows a trace of his crooked smile. Ilyra sits or leans against the pier, still holding her lance, mantle notch intact, alert and angry rather than unconscious. The chipped RIGHT wall patch remains; normal water drops into the drain, no active magic. Space beyond the open arch suggests the passage he won. Two adults only, no miraculous healed clothes or restored wall. Pause after the sustained exchange.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D11",
+        "@D01"
+      ],
+      "power": null,
+      "sequence_order": 12,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "right_wall": "chipped",
+        "gravity": "off"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "G01",
+      "title": "Three inside the choke",
+      "category": "squad",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "kellan"
+      ],
+      "story_path": "squad",
+      "caption": "The threat is in front of them. The failure will come from the side.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. Wide establishing complete heroes roughly22 percent height. Neris forward LEFT with crescent shield outer face RIGHT and hand/forearm on REAR grips, Riven and Kellan separated behind her. Two adult armored attackers advance from RIGHT, one central and one near the gutter. Behind them stands a heavy pressure-horn bearer with a single bronze chest-held horn aimed LEFT. Clear near gutter filled with flowing water, empty square pier behind heroes. No firing yet; establish lanes rather than a crowd tableau.",
+      "references": [
+        "riven",
+        "neris",
+        "kellan",
+        "map-squad"
+      ],
+      "power": null,
+      "sequence_order": 1,
+      "state": {
+        "shield": "intact",
+        "water": "flowing",
+        "horn": "ready"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "G02",
+      "title": "A pocket inside the blow",
+      "category": "squad",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "neris",
+        "kellan"
+      ],
+      "story_path": "squad",
+      "caption": "She catches the front and gives the others room to move.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. The horn bearer on RIGHT fires one broad compressed-air front LEFT. Neris braces complete feet on LEFT, rear-gripped crescent shield facing source; pressure visibly meets the shield\u2019s outer face and divides around a quiet lee holding both Riven and Kellan. Distinct expressions: Neris strain, Riven watching flanker, Kellan looking to the gutter. Keep enemy positions coherent from first panel. Broad effects with a clear source, contact and empty shelter; no full-screen white explosion.",
+      "references": [
+        "riven",
+        "neris",
+        "kellan",
+        "@G01",
+        "shield"
+      ],
+      "power": {
+        "name": "Quiet Harbor \u2014 Rebound",
+        "description": "A braced crescent shield catches one pressure front, then returns a focused pulse.",
+        "limitation": "It needs stable footing and the front facing the source. A flank strike spills the load.",
+        "growth": "Protect a team in its lee, then return enough stored force to buckle a siege creature\u2019s leg."
+      },
+      "sequence_order": 2,
+      "state": {
+        "shield": "intact; loaded",
+        "water": "flowing",
+        "horn": "firing"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "G03",
+      "title": "One shoulder outside the defense",
+      "category": "squad",
+      "scale": "medium",
+      "subjects": [
+        "neris",
+        "riven",
+        "kellan"
+      ],
+      "story_path": "squad",
+      "caption": "A flank strike breaks her stance and spills the stored force.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. The same near-gutter armored sword flanker drives the POMMEL of the already held sword against Neris\u2019s unshielded OUTSIDE shoulder at a visible contact, rotating her off her stable stance. Keep the attacker hand wrapped around its own sword hilt, pommel visibly touching the outside shoulder, and blade directed upward and away from Neris and every other body. No new mace and no pommel through the gripping hand. Her crescent shield tilts; the loaded pressure spills backward LEFT into the previously empty square pier, leaving one chipped corner. One thrown stone fragment from that chipped pier strikes and visibly chips the shield UPPER rim; connect the new shield damage to this impact. Riven and Kellan recoil within clear separate silhouettes; no duplicate arms and no blast through teammates. Actual source/front/spill directions, rear grip retained, pressure horn farther RIGHT. This is a costly failure, not a triumphant shield pose.",
+      "references": [
+        "neris",
+        "riven",
+        "kellan",
+        "@G02",
+        "guide-G03"
+      ],
+      "power": {
+        "name": "Quiet Harbor \u2014 Rebound",
+        "description": "A braced crescent shield catches one pressure front, then returns a focused pulse.",
+        "limitation": "It needs stable footing and the front facing the source. A flank strike spills the load.",
+        "growth": "Protect a team in its lee, then return enough stored force to buckle a siege creature\u2019s leg."
+      },
+      "sequence_order": 3,
+      "state": {
+        "shield": "upper rim chip introduced; brace lost",
+        "pier": "chipped",
+        "horn": "firing"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "G04",
+      "title": "The floor catches the committed foot",
+      "category": "squad",
+      "scale": "low-medium",
+      "subjects": [
+        "kellan",
+        "neris"
+      ],
+      "story_path": "squad",
+      "caption": "He turns the attacker\u2019s weight into the opening they need.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. Low oblique combat detail with enough body for stance. Kellan holds his broad straight sword correctly in both hands and presses its edge into the established flowing near gutter. One continuous low ice wedge grows from that contact under the flanker\u2019s loaded forward boot. The attacker\u2019s knee and torso tip forward over the trapped foot, the same held sword now pointing harmlessly downward away from every body. Neris recovers behind with chipped upper shield rim. Water continues on either side of the working edge. One clear blade-water-ice-foot chain, broad ice shapes, no cage or generic aura.",
+      "references": [
+        "kellan",
+        "neris",
+        "@G03",
+        "guide-G04"
+      ],
+      "power": {
+        "name": "Deep Winter \u2014 Riverturn",
+        "description": "A held sword edge shapes connected flowing water into a wedge or temporary route.",
+        "limitation": "Blade contact and continuous water are required; interrupt either and the working edge stops growing.",
+        "growth": "Turn an enemy\u2019s committed weight against it or hold a retreat route for a formed column."
+      },
+      "sequence_order": 4,
+      "state": {
+        "shield": "upper rim chipped",
+        "ice": "one wedge at flanker foot",
+        "horn": "firing"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "G05",
+      "title": "Through the opening they made",
+      "category": "squad",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "kellan"
+      ],
+      "story_path": "squad",
+      "caption": "The counter reaches the source before the next note.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. Wide coordinated payoff retaining left/right gatehouse geography. Riven has moved from the sheltered LEFT edge through a short paired cyan seam onto a supported RIGHT ledge beside the horn bearer; only one Riven body. His right-held saber makes one clear cut through the horn\u2019s exposed bronze throat, two separated instrument ends, no cut flesh. The bearer recoils and the pressure front dies at its source. LEFT/midground Kellan remains blade-to-gutter connected, flanker tipping over the low ice wedge, Neris with chipped shield recovering. Prioritize Riven/horn contact, keep teammates smaller, not three equally large action portraits.",
+      "references": [
+        "riven",
+        "neris",
+        "kellan",
+        "@G01",
+        "@G04"
+      ],
+      "power": {
+        "name": "Borrowed Horizon \u2014 Held Threshold",
+        "description": "A saber stroke joins two visible supported edges for one short step.",
+        "limitation": "Only one joined pair; both edges must be visible and support a landing. The fighter must still commit to the exit.",
+        "growth": "Hold the exit for an ally or redirect a committed strike; a predicted exit remains dangerous."
+      },
+      "sequence_order": 5,
+      "state": {
+        "shield": "upper rim chipped",
+        "ice": "wedge persists",
+        "horn": "severed; pressure ceases"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "G06",
+      "title": "Hold it until we are through",
+      "category": "squad",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "kellan"
+      ],
+      "story_path": "squad",
+      "caption": "Winning the exchange is not the same as leaving together.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. Aftermath wide with changed positions: Riven guards the open RIGHT passage beside dropped severed horn; Neris moves toward him with the chipped upper rim visible; Kellan remains at the near gutter maintaining blade contact until she clears. Flanker down behind a persistent broad ice wedge, second attacker withdrawing rather than mysteriously vanished. Chipped LEFT pier remains, water and quiet exhausted faces. No new magic victory aura or healed shield. Show team dependency and a plausible exit route.",
+      "references": [
+        "riven",
+        "neris",
+        "kellan",
+        "@G05"
+      ],
+      "power": {
+        "name": "Deep Winter \u2014 Riverturn",
+        "description": "A held sword edge shapes connected flowing water into a wedge or temporary route.",
+        "limitation": "Blade contact and continuous water are required; interrupt either and the working edge stops growing.",
+        "growth": "Turn an enemy\u2019s committed weight against it or hold a retreat route for a formed column."
+      },
+      "sequence_order": 6,
+      "state": {
+        "shield": "upper rim chipped",
+        "ice": "wedge maintained",
+        "horn": "broken and silent"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "W01",
+      "title": "The line beneath the moving city",
+      "category": "war",
+      "scale": "extreme-wide",
+      "subjects": [
+        "neris",
+        "kellan",
+        "ilyra"
+      ],
+      "story_path": "war",
+      "caption": "They cannot win the whole field. They can keep one way home.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Extreme-wide high oblique composition: organized adult ranks advance from RIGHT behind a giant four-legged living siege beast with broad dark armor masses, long tail and one pale throat enclosed by a single brass mouth collar; this new variant has no arbitrary spikes or tiny scale carpet. LEFT open monumental gate shelters retreating adults. Neris, Kellan and Ilyra are three tiny distinct local defenders around6 percent height near the near bank: ivory/teal crescent, sand/cobalt sword, burgundy/ivory lance. Main stone bridge and lower parallel water edge both readable, count formations by broad masses rather than individual armor texture. Huge inhabited city overhead, no foreground portrait inset.",
+      "references": [
+        "neris",
+        "kellan",
+        "ilyra",
+        "map-war"
+      ],
+      "power": null,
+      "sequence_order": 1,
+      "state": {
+        "bridge": "intact",
+        "ice_route": "none",
+        "siege_beast": "upright"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "W02",
+      "title": "A formation folds",
+      "category": "war",
+      "scale": "wide",
+      "subjects": [
+        "neris"
+      ],
+      "story_path": "war",
+      "caption": "One pressure lane is enough to break the front.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Low wide from behind defenders LEFT toward the RIGHT siege beast. Its clearly open brass-collared mouth emits one broad compressed-air lane onto the main bridge. Front-rank adult shields buckle backward, planted boots skid and bodies recoil in a few legible silhouettes, not a pile of dismemberment. Neris smaller in foreground braces her crescent shield correctly from the rear to catch the surviving front. Keep a calm edge of the scene to show where pressure is absent. Physical deformation and recoil carry impact; one broad dust mass at feet, no thousands of sparks.",
+      "references": [
+        "neris",
+        "@W01",
+        "shield"
+      ],
+      "power": {
+        "name": "Quiet Harbor \u2014 Rebound",
+        "description": "A braced crescent shield catches one pressure front, then returns a focused pulse.",
+        "limitation": "It needs stable footing and the front facing the source. A flank strike spills the load.",
+        "growth": "Protect a team in its lee, then return enough stored force to buckle a siege creature\u2019s leg."
+      },
+      "sequence_order": 2,
+      "state": {
+        "bridge": "intact",
+        "siege_beast": "mouth pressure firing"
+      },
+      "gap": "short",
+      "owner_approval": null
+    },
+    {
+      "id": "W03",
+      "title": "Return the weight of an army",
+      "category": "war",
+      "scale": "wide",
+      "subjects": [
+        "neris"
+      ],
+      "story_path": "war",
+      "caption": "What nearly broke the line becomes the counterstrike.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Decisive low wide on Neris\u2019s planted shield drive from LEFT. Her properly rear-held crescent returns one compact broad pressure pulse RIGHT directly into the siege beast\u2019s nearest FOREKNEE, with a clear impact zone on the joint and its heavy leg visibly buckling. Massive shoulder drops, other weight-bearing legs compensate; creature remains four-legged, not a decorative explosion. Neris is small enough to show the huge size difference but her strained face/stance and weapon silhouette remain readable. Defending ranks have a quiet lee behind her. One outgoing pulse, mouth source no longer firing. Broad armor/hide planes and contact ring, not particle storm.",
+      "references": [
+        "neris",
+        "@W01",
+        "@W02"
+      ],
+      "power": {
+        "name": "Quiet Harbor \u2014 Rebound",
+        "description": "A braced crescent shield catches one pressure front, then returns a focused pulse.",
+        "limitation": "It needs stable footing and the front facing the source. A flank strike spills the load.",
+        "growth": "Protect a team in its lee, then return enough stored force to buckle a siege creature\u2019s leg."
+      },
+      "sequence_order": 3,
+      "state": {
+        "bridge": "intact",
+        "siege_beast": "foreknee buckled; pressure paused"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "W04",
+      "title": "A river becomes the retreat",
+      "category": "war",
+      "scale": "vertical-wide",
+      "subjects": [
+        "kellan",
+        "neris"
+      ],
+      "story_path": "war",
+      "caption": "He holds a route for people who cannot cross as he does.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Tall vertical high-oblique view of the alternate lower canal edge. Kellan crouches at the safe LEFT bank, both hands correctly on broad sword hilt, edge touching connected rushing canal water. A continuous wide ice causeway rises from that contact and carries a coherent single retreating column of adults toward the safe open LEFT gate. Neris protects the far end, small but recognizable. Main stone bridge with damaged/low siege beast remains on the RIGHT in background as geography. Complete blade, real continuous route and landings; quiet broad ice bands rather than crystalline mesh. No disconnected floating steps or teleporting civilians.",
+      "references": [
+        "kellan",
+        "neris",
+        "@W01",
+        "@W03"
+      ],
+      "power": {
+        "name": "Deep Winter \u2014 Riverturn",
+        "description": "A held sword edge shapes connected flowing water into a wedge or temporary route.",
+        "limitation": "Blade contact and continuous water are required; interrupt either and the working edge stops growing.",
+        "growth": "Turn an enemy\u2019s committed weight against it or hold a retreat route for a formed column."
+      },
+      "sequence_order": 4,
+      "state": {
+        "bridge": "intact",
+        "ice_route": "continuous and occupied",
+        "siege_beast": "lowered behind"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "W05",
+      "title": "The ground she chooses to lose",
+      "category": "war",
+      "scale": "wide",
+      "subjects": [
+        "ilyra",
+        "kellan",
+        "neris"
+      ],
+      "story_path": "war",
+      "caption": "She waits for the last crossing, then gives the bridge to the canal.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Upright wide action with a clear empty retreat gap: last adult has reached safe LEFT bank via the lower ice route, Kellan still holds blade contact there. Ilyra on safe LEFT stone plants her lance butt with right grip, outside a narrowly bounded part of the main bridge. She turns weight toward the open canal: the now EMPTY center bridge span tips SIDEWAYS/DOWN into the water in two or three huge coherent slabs, with falling water following that changed vector. Enemy reserve on RIGHT stops at the newly opening gap; no falling retreating civilians. Neris on LEFT turns to cover them. No violet wall, no rising force ramp, one thin floor boundary and severe physical strain. The bridge loss must be unmistakable and irreversible.",
+      "references": [
+        "ilyra",
+        "kellan",
+        "neris",
+        "@W01",
+        "@W04"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "A planted Axis Lance turns the direction of weight inside one narrow ground strip.",
+        "limitation": "The butt must remain planted, the caster within reach and outside the strip; every loose body and water inside follows the same direction.",
+        "growth": "Turn a wider burden or collapsing structure at great strain; force direction must remain intelligible."
+      },
+      "sequence_order": 5,
+      "state": {
+        "bridge": "center pursuit span falling; new gap",
+        "ice_route": "cleared; still maintained",
+        "retreat": "last adult safe"
+      },
+      "gap": "long",
+      "owner_approval": null
+    },
+    {
+      "id": "W06",
+      "title": "What victory leaves behind",
+      "category": "war",
+      "scale": "extreme-wide",
+      "subjects": [
+        "neris",
+        "kellan",
+        "ilyra"
+      ],
+      "story_path": "war",
+      "caption": "They saved the column and sacrificed the main road.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Extreme-wide aftermath in warmer dawn. LEFT safe bank holds an organized exhausted adult column passing inside the monumental gate as it closes behind them, three tiny recognizable heroes at its edge: Neris leaning on crescent, Kellan lifting broad sword from water after the crossing, Ilyra kneeling beside upright lance. RIGHT attacking masses and lowered four-legged siege beast remain separated by a visibly MISSING main bridge center span, broad fallen slabs in the canal. The parallel ice route remains visible but is guarded at its safe end, with its working edge no longer growing after blade lift. Breaking the main span delayed heavy pursuit and bought retreat time; do not imply this alone prevents every enemy from taking the ice route. Big territory/scale/cost shapes, few purposeful faces in nearest survivors, quiet water and light. Do not restore the bridge, erase the enemy or end on a giant hero portrait.",
+      "references": [
+        "neris",
+        "kellan",
+        "ilyra",
+        "@W05",
+        "@W01"
+      ],
+      "power": null,
+      "sequence_order": 6,
+      "state": {
+        "bridge": "center span missing",
+        "ice_route": "growth stopped after clearance",
+        "siege_beast": "still present beyond gap",
+        "retreat": "column safe"
+      },
+      "gap": "long",
+      "owner_approval": null
+    }
+  ]
+}

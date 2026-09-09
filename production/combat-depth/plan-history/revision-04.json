@@ -1,0 +1,15 @@
+{
+  "schema": "CombatDepthPlanRevision/1",
+  "experiment_id": "CD-20260908-01",
+  "utc": "2026-09-08T23:58:18.219614+00:00",
+  "previous_path": "production/combat-depth/plan-history/plan-v3.json",
+  "previous_sha256": "32c3779a7978c352b785c54423ac6b99d18a86c70f76888b64066dbc56d79534",
+  "new_path": "production/combat-depth/plan.json",
+  "new_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+  "generation_calls_before_revision": 16,
+  "reason": "Before D04 call, actual D03 introduces a distinctive mantle notch. Carry its native image as an additional exact state reference instead of relying only on textual notch instruction and intact character sheet.",
+  "changes": [
+    "D04 adds @D03 alongside existing court/identity/force guides. Brief, state, budget and scope unchanged."
+  ],
+  "unrun_job": "production/combat-depth/unrun/D04-before-added-state-reference-jobs.json"
+}

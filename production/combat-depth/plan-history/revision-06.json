@@ -1,0 +1,16 @@
+{
+  "schema": "CombatDepthPlanRevision/1",
+  "experiment_id": "CD-20260908-01",
+  "utc": "2026-09-09T00:35:08.663903+00:00",
+  "previous_path": "production/combat-depth/plan-history/plan-v5.json",
+  "previous_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+  "new_path": "production/combat-depth/plan.json",
+  "new_sha256": "095b68a3fc8282b03ece27d8ddd403a5b2bfecdde1fbeac75e5b11038a683944",
+  "generation_calls_before_revision": 35,
+  "reason": "Preflight D11 inner-pier force alignment remained ambiguous; resolve before its primary. Actual W05 collapse omits clear ice route, so W06 requires actual W04 state reference rather than relying only on text and a source that omits it.",
+  "changes": [
+    "D11 drive explicitly goes from court side into immediately adjacent innerface of LEFTpier, removing conflicting actor left/right phrasing.",
+    "W06 adds actual W04 ice-route reference."
+  ],
+  "unchanged": "All budgets, scope, priorart/calls/prompts, persistentinjury andno-canon status remain."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "W06",
+  "attempt_id": "W06-P",
+  "phase": "primary",
+  "category": "war",
+  "prompt_path": "production/combat-depth/prompts/W06-P.txt",
+  "prompt_sha256": "7b6c74bd8c967bfa0b7bd4797df017fc1dcaba0a0afb24ace57cdaa4c04fd8ea",
+  "plan_sha256": "095b68a3fc8282b03ece27d8ddd403a5b2bfecdde1fbeac75e5b11038a683944",
+  "references": [
+    {
+      "path": "production/combat-depth/references/neris.png",
+      "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+      "role": "Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/kellan.png",
+      "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+      "role": "Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/ilyra.png",
+      "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+      "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/candidates/W05-P.png",
+      "sha256": "9284986ecb4da54451d0a730d41163b826567f99d96291e4d495380c39a3feeb",
+      "role": "Exact recurring subject/place reference from W05; use named identities/creature and relevant geography only, not its composition or surface noise."
+    },
+    {
+      "path": "production/combat-depth/candidates/W01-F1.png",
+      "sha256": "c7e62db365f50eb7974a43e1d017962a7bb6b298a703f078796f73b1b47020ea",
+      "role": "Exact recurring subject/place reference from W01; use named identities/creature and relevant geography only, not its composition or surface noise."
+    },
+    {
+      "path": "production/combat-depth/candidates/W04-F1.png",
+      "sha256": "d3f2b7fe00577f67d8bcb6eb89e8d55522bdd1ad0fef56b4e612a2f00c794643",
+      "role": "Exact recurring subject/place reference from W04; use named identities/creature and relevant geography only, not its composition or surface noise."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 00:38:51 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/neris.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/kellan.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/ilyra.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/W05-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/W01-F1.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/W04-F1.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 00:39:41 UTC"
+  },
+  "status": "failed-no-artwork-returned",
+  "returned_artwork": null,
+  "error": "`referenced_image_paths` must contain at most 5 paths"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "D11",
+    "attempt_id": "D11-F1",
+    "phase": "texture",
+    "category": "duel",
+    "retry_of": "D11-P",
+    "retry_reason": "Actual native review identifies busy stone and reflective paving around visible shoulder pressure; keep actual weapon handedness and sustained-pin interpretation.",
+    "evidence_path": "research/combat-depth/finish-spec-11.json",
+    "evidence_sha256": "9dfb4545ed1dbc9ebf57d3828ddd1ab4cd5eb087544efe8fb2f7643881905be3",
+    "prompt_path": "production/combat-depth/prompts/D11-F1.txt",
+    "prompt_sha256": "36249825108ce0abd17bc39075680e65d3c36fc91292c1f3dd63b16b0c97ee8c",
+    "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+    "references": [
+      {
+        "path": "production/combat-depth/candidates/D11-P.png",
+        "sha256": "64bcf38e888bfd013cc17b2214e66d502ac3075f3e422c897d6c7f12daed2456",
+        "role": "Exact edit source; preserve all content except the specified texture change"
+      }
+    ],
+    "prompt": "Use case: style-transfer. Redraw ONLY THE SURFACE FINISH of the supplied exact image. Preserve its composition, camera distance, subjects, faces, hairlines, expression, costume, anatomy, weapon construction and handling, scale, spatial relationships, action and lighting mood. Substantially reduce distracting repetitive microtexture. Replace it with broad deliberate opaque light/shadow shapes, calm material interiors and selective crisp accents at faces, functional contacts and meaningful boundaries. Retain material differences, depth, inhabited scale and sophisticated drawing. This is a drawn surface redraw, not blur, denoise, low resolution, airbrush, plastic 3D, flat vectors or removal of the world. No new details to compensate.\nCalm the dense stone stippling, fine paving reflections and cloud/window repetition into broad drawing shapes. Preserve exactly the two adult faces and expressions, shoulder contact against LEFT pier, complete legs, retained floating lance butt, actual injured-left-hand saber directed away, and incidental distant onlookers. Do not switch hands, alter expressions, increase collision effects, remove figures or turn the sustained pin into a new action. Retain material depth and sharp functional contours.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  }
+]

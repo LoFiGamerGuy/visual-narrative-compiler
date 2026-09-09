@@ -1,0 +1,37 @@
+{
+  "id": "D01",
+  "attempt_id": "D01-R1",
+  "phase": "structural",
+  "category": "duel",
+  "retry_of": "D01-P",
+  "retry_reason": "Primary puts the adults around40-45 percent of frame height instead of the planned18percent, limiting the establishing distance and later camera contrast.",
+  "evidence_path": "production/combat-depth/edit-specs-01.json",
+  "evidence_sha256": "7564194efba5565e7edd741c747473f6611a24e6de46d36c82b13f5c36133483",
+  "prompt_path": "production/combat-depth/prompts/D01-R1.txt",
+  "prompt_sha256": "5569fed572074a5451e26fa34e1c2a67afc094479ae69e1581bfa283fbe2890b",
+  "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+  "references": [
+    {
+      "path": "production/combat-depth/candidates/D01-P.png",
+      "sha256": "52745c5879e4acf3e46fffe250858dbae5303fd24e3b9a78043fd8ef0da55bd7",
+      "role": "Sole exact edit source; preserve all content except the specified structural change"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 23:35:29 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/D01-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 23:36:12 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-fc14c2af-d73f-4c6f-a327-555e9370bccf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

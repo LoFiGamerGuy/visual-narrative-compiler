@@ -1,0 +1,16 @@
+{
+  "schema": "CombatDepthPlanRevision/1",
+  "experiment_id": "CD-20260908-01",
+  "utc": "2026-09-09T00:47:14.154087+00:00",
+  "previous_path": "production/combat-depth/plan-history/plan-v6.json",
+  "previous_sha256": "095b68a3fc8282b03ece27d8ddd403a5b2bfecdde1fbeac75e5b11038a683944",
+  "new_path": "production/combat-depth/plan.json",
+  "new_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+  "generation_calls_before_revision": 38,
+  "reason": "W06-P rejected without artwork because six reference paths exceed the tool limit of five. Remove redundant W01 geography reference; retain three exact cast identities and actual W05 collapse plus W04 ice route. Narrow one-time input correction consumes the existing no-art retry allowance, with no numerical budget expansion.",
+  "changes": [
+    "W06 removes @W01; creative scene brief unchanged.",
+    "Budget interpretation explicitly distinguishes corrected input-validation retry from unchanged service retry."
+  ],
+  "unchanged": "24 primary artworks,6 structural repairs,24 optional surface finishes,54 maximum natives,2 no-art retry slots,56 maximum invocations. Every prior byte and failure retained."
+}

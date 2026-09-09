@@ -1,0 +1,74 @@
+{
+  "schema": "CombatDepthSourceFreeze/1",
+  "experiment_id": "CD-20260908-01",
+  "dataset_sha256": "7d50da6e380457e4ee25daea3b652797bf1fd9be374cd1a3dfbae4bd475502ad",
+  "bindings": [
+    {
+      "path": "production/combat-depth/plan.json",
+      "sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0"
+    },
+    {
+      "path": "production/combat-depth/candidates.json",
+      "sha256": "f04afd0e17298b141b6c1215b3c076e4fe51bd3f69702b0a0d9c878a25b122b9"
+    },
+    {
+      "path": "production/combat-depth/selected.json",
+      "sha256": "3e07c5c68ae78a60bf7c4d39bfe888b77522de19197a75a88d21b578dde55c22"
+    },
+    {
+      "path": "production/combat-depth/review-notes.json",
+      "sha256": "595cac4421a78bde8d9e7e3f2f6f4f50faa837d741cd9042508bf1de41e7281a"
+    },
+    {
+      "path": "production/combat-depth/generation-closure.json",
+      "sha256": "720701263f5ab250b824828962c3403d91fd9201059bada8c11b1b822fafa035"
+    },
+    {
+      "path": "production/combat-depth/previous/ce-selection.json",
+      "sha256": "9e459455fffb729aac13a8c3384d6b0b4d4f6f025c6a032d29a912cf0d5acee4"
+    },
+    {
+      "path": "docs/combat-depth/data.json",
+      "sha256": "6c8a84371ca65ca8dbd0f47190e5c89a4bf4007b42680cf6ca7ff6896249a89a"
+    },
+    {
+      "path": "docs/combat-depth/data.js",
+      "sha256": "cc655d763889823958d52de3e66781b4e4870cf34aa1e2289d3ebb564a85b15d"
+    },
+    {
+      "path": "research/combat-depth/independent-review/final-review.json",
+      "sha256": "cab64375fc63cd08c3ee4fde9e9d8717c7b6224914f5549d0506b6b59ba47818"
+    },
+    {
+      "path": "research/combat-depth/reader/browser-qa.json",
+      "sha256": "7a71bd613f057c5e6bef7d09fe8276929cc136214c508994cab82a70845ab2c3"
+    },
+    {
+      "path": "research/combat-depth/reader/final-metadata-qa.json",
+      "sha256": "b35c6d8a096d658fd68cfcabf0deb5a7fcba3e9099bc46e18aee922aed2602ca"
+    },
+    {
+      "path": "research/combat-depth/lead-native-observations.json",
+      "sha256": "c54b1065ee0a3a2890bd39e5212c51b6accf673ac0b359bdb8470b561aca84db"
+    },
+    {
+      "path": "research/combat-depth/lead-continuous-review.json",
+      "sha256": "987c46122d8d4ad917a80f7d245c64c8b5ba313e982500e56f32169a2504bfd5"
+    }
+  ],
+  "verification": {
+    "native_artworks": 54,
+    "independent_native_and_phone_reviewed": 54,
+    "root_native_reviewed": 54,
+    "root_individual_phone_reviewed": 46,
+    "root_all_three_complete_sequences_viewed": true,
+    "browser_full_checks_passed": 302,
+    "browser_final_metadata_checks_passed": 50,
+    "builder_tests_passed": 34,
+    "preference_cases_passed": 18
+  },
+  "limits": [
+    "Art review is not owner approval or proof of perfect mechanics.",
+    "Archive/extracted/full-commit restore/push/preservation evidence follows in external local delivery receipts after this source freeze."
+  ]
+}

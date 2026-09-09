@@ -1,0 +1,41 @@
+[
+  {
+    "id": "D04",
+    "attempt_id": "D04-P",
+    "phase": "primary",
+    "category": "duel",
+    "prompt_path": "production/combat-depth/prompts/D04-P.txt",
+    "prompt_sha256": "4f0caca9f6b2fd3b312f0d5c93a99557dc9c6d08b12905c633327f787d87aa86",
+    "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+    "references": [
+      {
+        "path": "production/combat-depth/references/riven.png",
+        "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+        "role": "Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/references/ilyra.png",
+        "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+        "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/candidates/D01-F1.png",
+        "sha256": "3ab9bededf3a40d4481e7cafc070f0b04d423524cf702b53e2370ea70dddb388",
+        "role": "Exact recurring subject/place reference from D01; use named identities/creature and relevant geography only, not its composition or surface noise."
+      },
+      {
+        "path": "research/combat-depth/controls/v2-guides/D04-gravity-east.png",
+        "sha256": "4a785c3fc882ca8fdb8e3e330b0929798455ea04639ad0440badd71688bb95dd",
+        "role": "Upright camera; Riven accelerated east/right, Ilyra downstage/right with butt planted outside strip. Horizontal in-strip water versus vertical outside water. Schematic vectors are not final effects. Original geometry-only conditioning, not final art/style/face reference; omit schematic arrows and markers from generated art. This is a spatial/control guide only: do not copy diagram rendering, colors, labels or arrows into the artwork. Translate a top-down plan into the camera requested by the scene brief; do not adopt a map camera unless this scene explicitly calls for it.",
+        "control_source_path": "research/combat-depth/controls/v2-guides/D04-gravity-east.svg",
+        "control_source_sha256": "cc1633f7651273bb147c492cf326a7e1e3ebefc052f649d24a8548b6864abf48"
+      },
+      {
+        "path": "production/combat-depth/candidates/D03-R1.png",
+        "sha256": "fcd6d4573c43d69697135bd3523ecbabf2df2284a20d834803f9f8c3a8c55eb8",
+        "role": "Exact recurring subject/place reference from D03; use named identities/creature and relevant geography only, not its composition or surface noise."
+      }
+    ],
+    "prompt": "Use case: illustration-story.\nNew original progression-fantasy scene: The wall becomes down. Landscape 1536x1024, single complete composition.\nCAMERA AND ACTION PRIORITY: Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Upright wide lateral camera. Ilyra RIGHT/downstage plants the lance BUTT into the floor, right hand gripping it; she stands outside a narrow affected strip. Riven LEFT/center is violently accelerated sideways toward the actual RIGHT stone wall, loaded boots scraping the floor, torso off balance. A ribbon of gutter water INSIDE the same strip falls horizontally RIGHT in the same vector while a small stream OUTSIDE it still drops vertically. Use only a thin violet floor boundary and contact at the planted butt; NO upright energy sheet, ramp or floating barrier. Gravity must be visible through body and water, with the wall established as destination. Retain Ilyra\u2019s mantle notch.\nInput images:\nImage 1: Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 2: Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 3: Exact recurring subject/place reference from D01; use named identities/creature and relevant geography only, not its composition or surface noise.\nImage 4: Upright camera; Riven accelerated east/right, Ilyra downstage/right with butt planted outside strip. Horizontal in-strip water versus vertical outside water. Schematic vectors are not final effects. Original geometry-only conditioning, not final art/style/face reference; omit schematic arrows and markers from generated art. This is a spatial/control guide only: do not copy diagram rendering, colors, labels or arrows into the artwork. Translate a top-down plan into the camera requested by the scene brief; do not adopt a map camera unless this scene explicitly calls for it.\nImage 5: Exact recurring subject/place reference from D03; use named identities/creature and relevant geography only, not its composition or surface noise.\nDrawing treatment: deliberate original Nightglass action-comic illustration with appealing precisely drawn adult faces, confident selective contours, designed hair locks, rich angular silhouettes and broad opaque material planes with restrained soft modeling. Let mood and light follow THIS new setting. Calm material interiors, grouped highlights, mostly unmarked stone and fabric; purposeful details prove depth and function. Not glossy 3D, blur, airbrush, flat vector shapes or a grainy texture overlay. No all-over crack networks, tiny facets, etched ornament, hundreds of equal strands, glitter reflections, fleck storm or generic aura. A large world must remain inhabited and sophisticated while its surfaces give the eye rest.\nPower context, do not letter or illustrate future levels simultaneously: A planted Axis Lance turns the direction of weight inside one narrow ground strip. Limitation: The butt must remain planted, the caster within reach and outside the strip; every loose body and water inside follows the same direction.\nAll combatants and visible bystanders are adults; recurring identities and complexion follow the supplied references. Create cast variety through faces, builds and fighting styles. Visceral impact comes from loaded bodies, recoil, forceful contact, expression and consequences, not visual noise.\nPersistent state for this moment: {\"mantle\": \"notched\", \"riven_left_sleeve\": \"intact\", \"gravity\": \"east/right; butt planted\"}. Do not heal or reset earlier damage within this fight.\nKeep the specified camera distance; a tiny figure stays small without any enlarged face insert. Recurring adults recognizable by silhouette/costume/weapon in wide shots and by distinctive face/expression in close shots. One newly composed scene only, no panels, portrait divider, collage, text, diagram arrows, HUD, logos, watermark or copied franchise design. Precise anatomy and functional grips; concentrate detail at faces and actual contacts.\n"
+  }
+]

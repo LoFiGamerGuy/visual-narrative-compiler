@@ -1,0 +1,53 @@
+{
+  "id": "D10",
+  "attempt_id": "D10-P",
+  "phase": "primary",
+  "category": "duel",
+  "prompt_path": "production/combat-depth/prompts/D10-P.txt",
+  "prompt_sha256": "129eeb0ff92001af8b10a4f385ad05b771b36b36ed21dae3a2aad618b0c17eae",
+  "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+  "references": [
+    {
+      "path": "production/combat-depth/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "role": "Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/ilyra.png",
+      "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+      "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/candidates/D09-P.png",
+      "sha256": "61704ad1c3d0cd1c1f2dfb6efeab099a5c1c233b1985cd3e093409711f76e400",
+      "role": "Exact recurring subject/place reference from D09; use named identities/creature and relevant geography only, not its composition or surface noise."
+    },
+    {
+      "path": "research/combat-depth/controls/v3-contact/D10-butt-kick.png",
+      "sha256": "c26e394188a83ac4287bba455c7c3201b0addd37765515ca410799ca748ce6b1",
+      "role": "Forward boot contacts low connected lance shaft above butt; right saber held away, left forearm protected. Right-wall scar and mantle notch persist. Original geometry-only conditioning, not final art/style/face reference; omit schematic arrows and markers from generated art. This is a spatial/control guide only: do not copy diagram rendering, colors, labels or arrows into the artwork. Translate a top-down plan into the camera requested by the scene brief; do not adopt a map camera unless this scene explicitly calls for it.",
+      "control_source_path": "research/combat-depth/controls/v3-contact/D10-butt-kick.svg",
+      "control_source_sha256": "e7342f89fc17986c7664099c85609e15ddedb0e99b1e204eee6b26fb5aad4d3c"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 00:56:47 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/riven.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/ilyra.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/D09-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/research/combat-depth/controls/v3-contact/D10-butt-kick.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 00:59:30 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-b41cb6d5-be2d-463e-8fc3-d1c16a9dd1b0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

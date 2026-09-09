@@ -1,0 +1,28 @@
+{
+  "bundle_helper_sha256": "7c19993b89ced86d717b9f76df4643a34163a79dcb8f081d971a44090ab91412",
+  "checks": [
+    "precreation topology allows exactly active addition",
+    "prior HEAD change fails topology",
+    "second new worktree rejected",
+    "active branch change rejected",
+    "active extra flags rejected",
+    "only active branch and remote refs exempt",
+    "prior ref change fails",
+    "two independent unchanged service retries accepted and counted",
+    "third service retry rejected",
+    "historical call resolves exact preserved plan instead of current",
+    "current call resolves exact current plan",
+    "unknown call plan SHA rejected",
+    "archived sidecar mismatch rejected",
+    "missing archived SHA sidecar rejected",
+    "historical wrong experiment rejected",
+    "historical changed budget rejected"
+  ],
+  "final_archive_created": false,
+  "fixture_directory": "research/combat-depth/asset-bundle/local/cd-contracts-nw_ecgjb",
+  "original_worktree_mutations": false,
+  "pass": true,
+  "preservation_helper_sha256": "c38a8d2c4fd3121243d3b28af802082f73e94ab935fa9d7c8e75418d939c2fd7",
+  "schema": "CombatDepthSpecificHelperTests/1",
+  "test_source_sha256": "9ef6f74aa314c28e39dd2670f35be1cce59f8c5c058d8a44bb6394127d74384b"
+}

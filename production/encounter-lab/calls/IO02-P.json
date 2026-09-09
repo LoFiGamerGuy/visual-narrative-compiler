@@ -1,0 +1,45 @@
+{
+  "id": "IO02",
+  "attempt_id": "IO02-P",
+  "phase": "primary",
+  "category": "encounter",
+  "prompt_path": "production/encounter-lab/prompts/IO02-P.txt",
+  "prompt_sha256": "0cf348303cf297960a6d0c4ab1cac0a97a3df9c8e3516e2ee7d3536e959e3ed8",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/IO01-R1.png",
+      "sha256": "a26e03139520407581494fd9a78dbc5badc7f43257042b45db37d89721628614",
+      "role": "Actual earlier new encounter frame IO01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+    },
+    {
+      "path": "production/encounter-lab/references/io-recent.png",
+      "sha256": "6cb8560424cc4efa8ad476b9cb9b81415b3a4f1e4ad4ec57cc40c9dbaf0902f6",
+      "role": "Orren and iron boar identity, opaque brush treatment and quiet ground."
+    },
+    {
+      "path": "production/encounter-lab/references/style05.png",
+      "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 05:00:29 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/IO01-R1.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/references/io-recent.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/references/style05.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 05:01:18 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-4dc2493c-5521-4669-b34b-c7f1021a5575.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "BP02",
+  "attempt_id": "BP02-P",
+  "phase": "primary",
+  "category": "encounter",
+  "prompt_path": "production/encounter-lab/prompts/BP02-P.txt",
+  "prompt_sha256": "8e8cd0877881586c2b5fa12e14817ef226b8b002cae7ebb85fd7f4f3b7e15937",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/BP01-R1.png",
+      "sha256": "54320bcb36e7a6b23ad2af527876afd3991cd8fbe8f1728902b5b4c51c9f4e2c",
+      "role": "Actual earlier new encounter frame BP01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+    },
+    {
+      "path": "production/encounter-lab/references/bp-recent.png",
+      "sha256": "c7f37c6527e2baeb110725251df51b15814d82e8fc6ed9853ef4c3ebd61b6301",
+      "role": "Mael, creature and Black Petal surface treatment; clarify actual hand ownership."
+    },
+    {
+      "path": "production/encounter-lab/references/style19.png",
+      "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 04:58:31 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/BP01-R1.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/references/bp-recent.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/references/style19.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 04:59:47 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-bc67c5a0-ccb1-41a7-aba1-90ee6d7f3422.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

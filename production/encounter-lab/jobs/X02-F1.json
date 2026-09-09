@@ -1,0 +1,21 @@
+{
+  "id": "X02",
+  "attempt_id": "X02-F1",
+  "phase": "texture",
+  "category": "radical",
+  "retry_of": "X02-P",
+  "retry_reason": "Overhead design has clear striking framing but dense pale floor grain, mask crack webs and fine petal lines. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+  "evidence_path": "research/encounter-lab/finish-evidence-02.json",
+  "evidence_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: Exact overhead angle, Mael face and existing limb/weapon positions, torn coat, huge near claw, blade meeting severed tendon intersection, enclosing petal silhouettes and hard glasshouse shadows..\nFocus the simplification on: Floor speckles, ivory micro-cracks, fine petal veins and secondary hair wisps. Preserve large dark framing masses, material depth and blade/source geometry..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/encounter-lab/prompts/X02-F1.txt",
+  "prompt_sha256": "7a1ee408b6a664a2b8747299334f03891515d64f31d223f4c0d84205a098de87",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/X02-P.png",
+      "sha256": "82789954a13cfb8466124304029df6b24f3c8b33a05e0a116d7d1684bdcbe10b",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

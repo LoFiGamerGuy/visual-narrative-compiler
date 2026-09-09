@@ -1,0 +1,36 @@
+{
+  "id": "BP01",
+  "attempt_id": "BP01-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "source_attempt_id": "BP01-P",
+  "reason": "Actual native BP01 shows large pre-existing coat cutouts before authored beat2 tear; weapon laterality unclear. Independent native-BP01-P.json corroborates.",
+  "evidence_path": "research/encounter-lab/repair-first-evidence.json",
+  "prompt_path": "production/encounter-lab/prompts/BP01-R1.txt",
+  "prompt_sha256": "da41a08072db975926d6deaa90a372fe2f20814f84e436fbc8cf104b5f531e82",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/BP01-P.png",
+      "sha256": "dacc925a1ed8cf41ba314b1d09ce27a793a60da80d5e841f4e1a938135c3cb8f",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 04:54:14 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/BP01-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 04:55:37 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-e2907d0a-be36-4183-93ca-243e741fd37c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

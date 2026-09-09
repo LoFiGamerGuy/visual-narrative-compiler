@@ -1,0 +1,20 @@
+{
+  "id": "ST01",
+  "attempt_id": "ST01-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "source_attempt_id": "ST01-P",
+  "reason": "Independent native review confirms ST01 ring on anatomical RIGHT; actual ST02 places it on LEFT as intended. Correct opening-side continuity to match contract and subsequent frame.",
+  "evidence_path": "research/encounter-lab/repair-st-side-evidence.json",
+  "prompt": "Use case: precise-object-edit. Edit the armored Bellguard's upper-body arm pose in this sole image so the hammer lands on HIS ANATOMICAL LEFT FOREARM, which is raised diagonally ACROSS HIS CHEST to guard his face, with the one orange ring on that LEFT bracer. His anatomical left shoulder starts on the viewer's RIGHT side of his frontal torso, then upper arm and bent elbow connect continuously across his chest to that guarding left fist. His anatomical RIGHT arm is instead cocked low beside his right ribs, ready for the next counterpunch; it has NO orange ring. Clearly draw two shoulder-elbow-wrist chains and two fists, no extra arm. Preserve the exact helmet/armor design, grounded heavy stance, adult blond Tavi on LEFT, her beautiful expressive face and two-handed hammer grip, intact turquoise shaft and chipped cream/orange hammer head touching the raised left bracer, the small impact flare, dry arena, windmills, camera and clean lively outlined cartoon drawing. This is the first impact, not the counterpunch yet. No other changes, text, overlays or collage. One landscape image.\n",
+  "prompt_path": "production/encounter-lab/prompts/ST01-R1.txt",
+  "prompt_sha256": "25ad67ac671fd72879395fd7d11d4c9a9e1746a92e2797bea9e44cf9fd0df92d",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/ST01-P.png",
+      "sha256": "1747b7823732bfd734bd59674a95750ed80aa87ddec8cff43f89a3d2a16c741d",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

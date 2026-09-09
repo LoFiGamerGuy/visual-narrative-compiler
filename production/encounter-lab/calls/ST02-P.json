@@ -1,0 +1,45 @@
+{
+  "id": "ST02",
+  "attempt_id": "ST02-P",
+  "phase": "primary",
+  "category": "encounter",
+  "prompt_path": "production/encounter-lab/prompts/ST02-P.txt",
+  "prompt_sha256": "8d59ed40f795f5761ba0ffde4c019da396b75ba0c062237d1191d40cf4cb416d",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/ST01-P.png",
+      "sha256": "1747b7823732bfd734bd59674a95750ed80aa87ddec8cff43f89a3d2a16c741d",
+      "role": "Actual earlier new encounter frame ST01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+    },
+    {
+      "path": "production/encounter-lab/references/st-recent.png",
+      "sha256": "f208f6fc149f21ee7b65b3e26ac72eec19e8fd5dd6ecce3bcf4eaebc0d81ef62",
+      "role": "Tavi and armored opponent identity, elastic gesture and quiet cartoon surfaces."
+    },
+    {
+      "path": "production/encounter-lab/references/style18.png",
+      "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 04:51:19 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/ST01-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/references/st-recent.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/references/style18.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 04:53:05 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-40d40699-4b7c-4f4e-95bc-a10d09c22cbd.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

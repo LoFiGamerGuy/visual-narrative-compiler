@@ -1,0 +1,37 @@
+{
+  "id": "IO02",
+  "attempt_id": "IO02-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "IO02-P",
+  "retry_reason": "Actual native has all-over floor and orange-metal mottling; keep the local loss of brace distinct. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+  "evidence_path": "research/encounter-lab/finish-evidence-02.json",
+  "evidence_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+  "prompt_path": "production/encounter-lab/prompts/IO02-F1.txt",
+  "prompt_sha256": "141fc3b93efef63a78325b249d4c54273134d7da891a54e1bb4718fdc2bf4dbf",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/IO02-P.png",
+      "sha256": "0e4e34e8bcaa2986cc6de1a9ce15796cc24d63d67234e9419bf83f7656c8235c",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 05:23:44 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/IO02-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 05:24:13 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-bcd7205a-11c9-4e07-8961-0866adc2b190.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

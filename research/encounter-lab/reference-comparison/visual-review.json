@@ -1,0 +1,53 @@
+{
+  "schema": "EncounterComparisonVisualReview/1",
+  "reviewed_at": "2026-09-09T04:45:55.557276+00:00",
+  "actual_native_inspection_this_round": [
+    "user screenshot",
+    "M01-P",
+    "V01-P",
+    "X01-P",
+    "X03-P",
+    "Y01-F1",
+    "Y02-F1",
+    "Y03-F1",
+    "Y04-F1"
+  ],
+  "source_excerpt_scope": "All 16 full native source images inspected during prior research round. Exact limited excerpt copies rechecked byte-for-byte this round; not a claim of a new full-source reinspection.",
+  "actual_browser_capture_inspection": [
+    {
+      "path": "research/encounter-lab/reference-comparison/qa/first-pair-390.png",
+      "sha256": "ac9467820b1af587f8191aeb6065977d2b7d152dbc001e1e6419590daf3da02f"
+    },
+    {
+      "path": "research/encounter-lab/reference-comparison/qa/first-pair-1440.png",
+      "sha256": "90f7d968ce0571cddd92a687e6a9513adf6bf09928d6e80c0450500a54a3ca0c"
+    },
+    {
+      "path": "research/encounter-lab/reference-comparison/qa/screenshot-390.png",
+      "sha256": "4999d8c6764b25a0ec15d032f424ba6814129f43291fd7d0d6ac7374d8a644cb"
+    },
+    {
+      "path": "research/encounter-lab/reference-comparison/qa/sources-390.png",
+      "sha256": "4d4ff0ad07a11cd588c8b16fb62618cba176f6c8be94c1ee1d4e601424a065f0"
+    },
+    {
+      "path": "research/encounter-lab/reference-comparison/qa/content-screenshot-390.png",
+      "sha256": "f83c41bec35a9b1c82518f0dd73600c8fb08bb55d69ee1f1ae3e1c8917a7ebc1"
+    },
+    {
+      "path": "research/encounter-lab/reference-comparison/qa/content-sources-390.png",
+      "sha256": "686eba933a27e6bef2b52f4aef0b9ad526de2ed131e1fbd5e7f52b665e9a8591"
+    }
+  ],
+  "observations": [
+    "At 390px paired art stacks without cropping; source credit and native links remain readable.",
+    "At 1440px first pair shows both complete images side by side with useful differences in face compression and body presentation.",
+    "User screenshot is necessarily small at phone fit width; explicit native-size link preserves access to the complete unchanged screenshot.",
+    "Prior source catalog separates limited published excerpts from our original artwork and blank comparison choices."
+  ],
+  "automated_scope": "62 checks passed: all three views at 390/1440px, all image decoding, exact source hashes, blank independent choices, persistence, rejection of malformed imports, actual export and actual blank restoration import.",
+  "limits": [
+    "Actual phone screenshots sampled first comparison plus screenshot and source-catalog views; no claim of visually inspecting every rendered card at every viewport.",
+    "Visual judgments are agent observations and proposed craft tests, not owner approval."
+  ]
+}

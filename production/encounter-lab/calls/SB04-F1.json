@@ -1,0 +1,37 @@
+{
+  "id": "SB04",
+  "attempt_id": "SB04-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "SB04-P",
+  "retry_reason": "Ground scorch has dense granular edges and wall/armor mottling competes with quiet aftermath faces. Root actual native inspected; source-only finish, structural limitations explicitly remain.",
+  "evidence_path": "research/encounter-lab/finish-evidence-04.json",
+  "evidence_sha256": "f9e653dd3fd31d87e062ea021cd11c1e6a396007ac83c9235a53b81db6cd588e",
+  "prompt_path": "production/encounter-lab/prompts/SB04-F1.txt",
+  "prompt_sha256": "d0178138c1278111a795361af3400b03a015775415e4e0daa385a279bcedabdb",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/SB04-P.png",
+      "sha256": "336546544d4316afee48acbcc17e30361d856e1013bb7cfb7f4af400f92cf443",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 05:30:44 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/SB04-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 05:31:29 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-1b8b6929-6cee-4d2c-b577-0b1d6728f192.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

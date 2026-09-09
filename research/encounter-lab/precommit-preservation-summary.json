@@ -1,0 +1,23 @@
+{
+  "schema": "EncounterLabPreservationAudit/1",
+  "experiment_id": "EN-20260909-01",
+  "started_utc": "2026-09-09T05:42:11.610817+00:00",
+  "finished_utc": "2026-09-09T05:42:50.642806+00:00",
+  "baseline_sha256": "bad012343a74c56f23792c1be40e5dfb682c5cf60a81a9a2f157f9a4835c29da",
+  "checker_sha256": "de194519599d3dad424b5a18f6ddb1dbe28ded189fda049f40f1fb17e83b1621",
+  "pass": true,
+  "limits": [
+    "Status digest includes ignored paths exactly as Git reports them; it does not byte-hash ignored/cache file contents or every tracked/untracked file.",
+    "Only 176 saved original source files have content SHA verification. Existing modified files can retain the same Git status while their bytes change.",
+    "Snapshot contains status hashes, not original status text, so a mismatch cannot be expanded into a filename diff against that baseline.",
+    "Local Git refs are audited; this does not query the network remote. Root separately verifies pushed remote parity.",
+    "Read-only observations occur over an interval, not an atomic filesystem snapshot; run after concurrent delivery mutations settle.",
+    "Baseline precedes active worktree creation. Exactly one active worktree addition is allowed with fixed branch/path; its HEAD may advance. Only its local and origin tracking refs are exempt. All other topology and ref changes fail."
+  ],
+  "coverage": {
+    "prior_worktrees": 22,
+    "original_source_hashes": 176,
+    "protected_refs": 43
+  },
+  "observed_before_source_commit": true
+}

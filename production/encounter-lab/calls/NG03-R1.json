@@ -1,0 +1,37 @@
+{
+  "id": "NG03",
+  "attempt_id": "NG03-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "retry_of": "NG03-P",
+  "retry_reason": "Root actual native sees saber contact on Vey shoulder rather than the glaive bind; sword arm also drifts from NG02. Fifth structural repair prioritizes the duel causal reversal.",
+  "evidence_path": "research/encounter-lab/repair-causality-evidence.json",
+  "evidence_sha256": "15485b205738241ed484b75a5ee9066abf6933dc494a373884f1fd98318bb4b4",
+  "prompt_path": "production/encounter-lab/prompts/NG03-R1.txt",
+  "prompt_sha256": "22cf95dbc29f48b930eb1ceb0b2d49ec193b5fdc5bfe4307092f14c0353e617b",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/NG03-P.png",
+      "sha256": "cccbc49d4ddfb3df35d38ac83209f7f6b39bfe7ca4fe38f7fe860668ff19fd01",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 05:04:13 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/NG03-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 05:04:57 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-3c3e85bc-71e2-4c93-a48d-03e60807aec6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

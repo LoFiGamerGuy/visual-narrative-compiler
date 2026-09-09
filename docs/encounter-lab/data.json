@@ -1,0 +1,3331 @@
+{
+  "schema": "EncounterLabReader/1",
+  "experiment_id": "EN-20260909-01",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "source_bindings": [
+    {
+      "id": "NG01",
+      "attempt_id": "NG01-F1",
+      "sha256": "4a56470860df9abed1761e9a1b68274828d806be739a4fc605d6909b567f58b3"
+    },
+    {
+      "id": "NG02",
+      "attempt_id": "NG02-F1",
+      "sha256": "942c870d12a6a0be1eff17901c128c511ce4e003cc1e868e4dca6c2aebc5407c"
+    },
+    {
+      "id": "NG03",
+      "attempt_id": "NG03-R1",
+      "sha256": "bef94b59d83dacd2331b793507eb669b30bc2e2200cbdecee61e4f2614a2ceb5"
+    },
+    {
+      "id": "NG04",
+      "attempt_id": "NG04-F1",
+      "sha256": "ed8a67ba03ba4fc37e61808f8390eec896fe75a510ccbe723935aa85d4082049"
+    },
+    {
+      "id": "BP01",
+      "attempt_id": "BP01-F1",
+      "sha256": "ccb05b622ceda6dea0ee9e8f93e971c42d125248fe4b66c30894a787aa72d38d"
+    },
+    {
+      "id": "BP02",
+      "attempt_id": "BP02-F1",
+      "sha256": "e5b5751bc563bbff6ee3a493e428b6aaa96875e16f5665f6a176915dc878c336"
+    },
+    {
+      "id": "BP03",
+      "attempt_id": "BP03-F1",
+      "sha256": "4362b53ad02cc3f29c910e7856d614f1031d6b9d4b6793de921b6256b18d7bf8"
+    },
+    {
+      "id": "BP04",
+      "attempt_id": "BP04-F1",
+      "sha256": "1b00238e9985d40851aa7aaf635d7db7c579950a4f650bff34b5d745c4ef0237"
+    },
+    {
+      "id": "IO01",
+      "attempt_id": "IO01-F1",
+      "sha256": "30abee7f792ebf096df0c1ae0dbafb8bdc87bc22af8ea413ece8a85fb38fb323"
+    },
+    {
+      "id": "IO02",
+      "attempt_id": "IO02-F1",
+      "sha256": "5c046fd32914561c9e03de29682ccbd9d5359aa68652ce5cfa3a31e3ea2ce68d"
+    },
+    {
+      "id": "IO03",
+      "attempt_id": "IO03-F1",
+      "sha256": "7be9c1398a5fbfc6416584c61c6aa086c887e91ad69df935494018b649ad450d"
+    },
+    {
+      "id": "IO04",
+      "attempt_id": "IO04-F1",
+      "sha256": "b2881679a3815ff19855e9554b1f132ac18da0e2ca804f7db04b11274a94175d"
+    },
+    {
+      "id": "ST01",
+      "attempt_id": "ST01-P",
+      "sha256": "1747b7823732bfd734bd59674a95750ed80aa87ddec8cff43f89a3d2a16c741d"
+    },
+    {
+      "id": "ST02",
+      "attempt_id": "ST02-P",
+      "sha256": "b2380aa2f237aabcb339c674499398d556bb6450d35f6f995c747adb12857009"
+    },
+    {
+      "id": "ST03",
+      "attempt_id": "ST03-F1",
+      "sha256": "50881a76e300e39d5f5dac05131407e23637e2c34f1f6afbf6db00e2f8245c61"
+    },
+    {
+      "id": "ST04",
+      "attempt_id": "ST04-F1",
+      "sha256": "22a2bfe7c15b34db3da33a52da8a0e645ce4d67f427d66e3474020d797f8c7d8"
+    },
+    {
+      "id": "SB01",
+      "attempt_id": "SB01-R1",
+      "sha256": "b71280d338dfb93c4fbd285393d8acf68f5fe77c3317b08e225cb13fb1e25ddf"
+    },
+    {
+      "id": "SB02",
+      "attempt_id": "SB02-R1",
+      "sha256": "f6eb9a4e954b4cab36a2e82696e734e213257f5e4b7a4812c8bb9be5300d9bd7"
+    },
+    {
+      "id": "SB03",
+      "attempt_id": "SB03-P",
+      "sha256": "0c0513c3004a01ac7d0282dc63de14464f609515504addf331149b97007a25a1"
+    },
+    {
+      "id": "SB04",
+      "attempt_id": "SB04-F1",
+      "sha256": "d3e7fbfb8ce3e7f4ef69f363bb50fe68845f8b9e8bfb96c950add42640f00c7c"
+    },
+    {
+      "id": "X01",
+      "attempt_id": "X01-F1",
+      "sha256": "d66379a76c1b393e9d8db2c9a472db5aedcd5ae208831b018966ad25131baa9c"
+    },
+    {
+      "id": "X02",
+      "attempt_id": "X02-F1",
+      "sha256": "d3879c6fb6d0f4eb1aa671a3487f7129f47a1971b2c45f70f37844e2b06dad76"
+    },
+    {
+      "id": "X03",
+      "attempt_id": "X03-P",
+      "sha256": "08bf1c3583c0f10c2cd0ed314dc026db3fc0a095599f7e0a73fc2a0e4a782f2b"
+    },
+    {
+      "id": "X04",
+      "attempt_id": "X04-P",
+      "sha256": "75680af6a8ac9948f101bfc2f9e7780485a369187c82a6287a4185c7f312d3b8"
+    }
+  ],
+  "dataset_sha256": "fd6e01be11a6a552e0e21a1cbc976e72bcd7bee57f78857edff8d526fca2f093",
+  "categories": [
+    {
+      "id": "encounter",
+      "title": "Encounter",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "impact",
+        "movement",
+        "power",
+        "causality",
+        "anatomy",
+        "scale",
+        "ground",
+        "texture"
+      ]
+    },
+    {
+      "id": "radical",
+      "title": "Radical alternative",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "impact",
+        "movement",
+        "power",
+        "causality",
+        "anatomy",
+        "scale",
+        "ground",
+        "texture"
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "id": "NG",
+      "title": "Nightglass",
+      "panel_ids": [
+        "NG01",
+        "NG02",
+        "NG03",
+        "NG04"
+      ],
+      "dimensions": [
+        "comprehension",
+        "continuity"
+      ]
+    },
+    {
+      "id": "BP",
+      "title": "Black Petal",
+      "panel_ids": [
+        "BP01",
+        "BP02",
+        "BP03",
+        "BP04"
+      ],
+      "dimensions": [
+        "comprehension",
+        "continuity"
+      ]
+    },
+    {
+      "id": "IO",
+      "title": "Iron Orchard",
+      "panel_ids": [
+        "IO01",
+        "IO02",
+        "IO03",
+        "IO04"
+      ],
+      "dimensions": [
+        "comprehension",
+        "continuity"
+      ]
+    },
+    {
+      "id": "ST",
+      "title": "Soft Thunder",
+      "panel_ids": [
+        "ST01",
+        "ST02",
+        "ST03",
+        "ST04"
+      ],
+      "dimensions": [
+        "comprehension",
+        "continuity"
+      ]
+    },
+    {
+      "id": "SB",
+      "title": "Sunbreak",
+      "panel_ids": [
+        "SB01",
+        "SB02",
+        "SB03",
+        "SB04"
+      ],
+      "dimensions": [
+        "comprehension",
+        "continuity"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "NG01",
+      "title": "Measure the blade",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide eye-level",
+      "sequence_id": "NG",
+      "sequence_order": 1,
+      "beat": "setup",
+      "drawing_direction": "Nightglass",
+      "subjects": [
+        "riven",
+        "vey"
+      ],
+      "caption": "Riven offers a low opening and waits for metal to meet metal.",
+      "brief": "Both adults full figures several steps apart across the bridge terrace. Riven feints a low saber threat toward Vey's forward foot, looking at her hands. Vey lowers the glaive to meet it, rear hand ready to drive the haft. Blade tips just touch: a narrow cyan contact, no hit flare, no airborne body. Establish readable faces, space and the arch/parapet landmarks.",
+      "power": {
+        "name": "Borrowed Beat",
+        "description": "A metal parry stores a short impulse, released through the next weapon contact.",
+        "limitation": "Only one contact can hold the charge; the injured supporting arm stays injured.",
+        "growth": [
+          "Learn to release a smaller pulse early to interrupt a counter instead of waiting for a finishing blow."
+        ]
+      },
+      "references": [
+        "ng-recent",
+        "nightglass",
+        "riven"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/NG01-F1.png",
+        "sha256": "4a56470860df9abed1761e9a1b68274828d806be739a4fc605d6909b567f58b3",
+        "attempt_id": "NG01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/NG01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/NG01-F1.png",
+          "sha256": "4a56470860df9abed1761e9a1b68274828d806be739a4fc605d6909b567f58b3",
+          "attempt_id": "NG01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/NG01-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/NG01-F1.txt",
+          "prompt_sha256": "b3db7145f68a824ba22906e0d9214a8cfd571097e4691f3b384429a2ab1ed801",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/NG01-P.png",
+              "sha256": "699accafe21ad90f18b043691559ce0a5f9e0d1ddb9ec83b2a477f0645852394",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/NG01-F1.json",
+          "call_sha256": "4826ec3be51802672ce8e7339651c0184c999a73261dfaae28b7f08c9785894f",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "NG01-P",
+          "retry_reason": "The fine floor grain and repeated paving noise remain visible natively and compete with low blade contact at phone scale. Root actual native views and phone-captures/7ccf3b812b6f inspected; this is surface-only, not a claim to fix structural issues.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-01.json",
+            "recorded_sha256": "3761f68dfc613bbd083497621adc2631613e470487e0e3d1e275b0519746df25",
+            "inspection_sha256": "3761f68dfc613bbd083497621adc2631613e470487e0e3d1e275b0519746df25",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/NG01-P.png",
+          "sha256": "699accafe21ad90f18b043691559ce0a5f9e0d1ddb9ec83b2a477f0645852394",
+          "attempt_id": "NG01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/NG01-P.png",
+          "prompt_path": "production/encounter-lab/prompts/NG01-P.txt",
+          "prompt_sha256": "5700c1aa3c893afbac9ba9387084ac8bc42130ca5d10beaec1782721e94438f5",
+          "references": [
+            {
+              "path": "production/encounter-lab/references/ng-recent.png",
+              "sha256": "f3a5f714c8990d7f78f05cb4e9d9e0429dfa94ef9d27f96458bd3dd0676b73ed",
+              "role": "Riven identity and current drawing/impact treatment; create new choreography."
+            },
+            {
+              "path": "production/encounter-lab/references/nightglass.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original full Nightglass; drawing and world benchmark, not cast selection"
+            },
+            {
+              "path": "production/encounter-lab/references/riven.png",
+              "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+              "role": "Recurring adult identity and saber construction only"
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/NG01-P.json",
+          "call_sha256": "df63dfd167b27ed7106a68472ece975ec5b5e866185d8df4a7b6011e702e6227",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The low weapon crossing and opposed stances establish the duel clearly. The finish calms paving and walls while retaining the cyan contact and intact opening guard.",
+        "This opening already shows contact; anticipation and the precise feint remain more implied than demonstrated. Outer feet are cropped."
+      ]
+    },
+    {
+      "id": "NG02",
+      "title": "The counter arrives first",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "portrait close three-quarter",
+      "sequence_id": "NG",
+      "sequence_order": 2,
+      "beat": "commitment",
+      "drawing_direction": "Nightglass",
+      "subjects": [
+        "riven",
+        "vey"
+      ],
+      "caption": "Vey attacks the arm supporting his guard before he can spend the stored force.",
+      "brief": "Dangerously close view from behind Vey's near shoulder. Vey drives the blunt middle of her glaive shaft into Riven's LEFT forearm as he tries to guard his ribs; his supporting arm folds across his torso and his face recoils. His RIGHT hand still holds the single saber low across frame, cyan edge storing the earlier parry. Crack the left forearm armor at this contact, a few large chips only. Show contact/strained face/continuous glaive and both of Vey's grips; intentional limb cropping allowed, no duplicate hands.",
+      "power": {
+        "name": "Borrowed Beat",
+        "description": "A metal parry stores a short impulse, released through the next weapon contact.",
+        "limitation": "Only one contact can hold the charge; the injured supporting arm stays injured.",
+        "growth": [
+          "Learn to release a smaller pulse early to interrupt a counter instead of waiting for a finishing blow."
+        ]
+      },
+      "references": [
+        "ng-recent",
+        "nightglass",
+        "riven"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "NG01"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/NG02-F1.png",
+        "sha256": "942c870d12a6a0be1eff17901c128c511ce4e003cc1e868e4dca6c2aebc5407c",
+        "attempt_id": "NG02-F1",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/encounter-lab/candidates/NG02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/NG02-F1.png",
+          "sha256": "942c870d12a6a0be1eff17901c128c511ce4e003cc1e868e4dca6c2aebc5407c",
+          "attempt_id": "NG02-F1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/NG02-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/NG02-F1.txt",
+          "prompt_sha256": "1ce76c432e4e45546e6f42ddf9a6a588b6c1e56371d7fd87399e8a0a38864a69",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/NG02-P.png",
+              "sha256": "8f519faafe4fec022c61719f0831999f7c8169784db60e9a28a6d649fa470198",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/NG02-F1.json",
+          "call_sha256": "3fddc3caa41d7fb99d11426bda2de919b41d9d1bea50c038783018f754a8de7f",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "NG02-P",
+          "retry_reason": "Floor grain, faceted armor surface and dense hair strands surround clear painful arm contact. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-02.json",
+            "recorded_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "inspection_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/NG02-P.png",
+          "sha256": "8f519faafe4fec022c61719f0831999f7c8169784db60e9a28a6d649fa470198",
+          "attempt_id": "NG02-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/NG02-P.png",
+          "prompt_path": "production/encounter-lab/prompts/NG02-P.txt",
+          "prompt_sha256": "3caf0456137d8f1a9241f8e1cc8c4fcf1c52efdb9a320c9ef60d55e421e16128",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/NG01-P.png",
+              "sha256": "699accafe21ad90f18b043691559ce0a5f9e0d1ddb9ec83b2a477f0645852394",
+              "role": "Actual earlier new encounter frame NG01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/ng-recent.png",
+              "sha256": "f3a5f714c8990d7f78f05cb4e9d9e0429dfa94ef9d27f96458bd3dd0676b73ed",
+              "role": "Riven identity and current drawing/impact treatment; create new choreography."
+            },
+            {
+              "path": "production/encounter-lab/references/nightglass.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original full Nightglass; drawing and world benchmark, not cast selection"
+            },
+            {
+              "path": "production/encounter-lab/references/riven.png",
+              "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+              "role": "Recurring adult identity and saber construction only"
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/NG02-P.json",
+          "call_sha256": "7e47e433f1bba7b73915225addca7860922a1e6e0c24d37a68842ac687252915",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Close framing makes the broken guard and strained face readable. The selected finish reduces cloth and ground noise.",
+        "The two visible glaive grip sections do not establish one unambiguous continuous shaft."
+      ]
+    },
+    {
+      "id": "NG03",
+      "title": "Return through the bind",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide low oblique close",
+      "sequence_id": "NG",
+      "sequence_order": 3,
+      "beat": "reversal",
+      "drawing_direction": "Nightglass",
+      "subjects": [
+        "riven",
+        "vey"
+      ],
+      "caption": "He spends the parry through her weapon and turns the counter against her.",
+      "brief": "Riven drops to one knee under the glaive, cracked LEFT forearm close to his ribs. His RIGHT saber presses sharply upward against the middle of Vey's glaive with a concentrated cyan-white contact. This rotates her own haft back into her upper chest/shoulder: compressed expression, shoulder raised, torso turning, one heel skidding but no floating body. Her near hand loses its grip while her far hand still reaches along the same continuous shaft. Dominant diagonal blade/haft/body reaction; environment broad and subordinate.",
+      "power": {
+        "name": "Borrowed Beat",
+        "description": "A metal parry stores a short impulse, released through the next weapon contact.",
+        "limitation": "Only one contact can hold the charge; the injured supporting arm stays injured.",
+        "growth": [
+          "Learn to release a smaller pulse early to interrupt a counter instead of waiting for a finishing blow."
+        ]
+      },
+      "references": [
+        "ng-recent",
+        "nightglass",
+        "riven"
+      ],
+      "paired_ids": [
+        "X01"
+      ],
+      "continuation_dependencies": [
+        "NG01",
+        "NG02"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/NG03-R1.png",
+        "sha256": "bef94b59d83dacd2331b793507eb669b30bc2e2200cbdecee61e4f2614a2ceb5",
+        "attempt_id": "NG03-R1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/NG03-R1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/NG03-F1.png",
+          "sha256": "a29b9b0a35bc7d2022888d73d27c418503f82af21c8557c883a030eec86eca6c",
+          "attempt_id": "NG03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/NG03-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/NG03-F1.txt",
+          "prompt_sha256": "6d44575f3761b730c0986b4a8fce9558013ffaaef96d18f7d747bc058ea60f2d",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/NG03-R1.png",
+              "sha256": "bef94b59d83dacd2331b793507eb669b30bc2e2200cbdecee61e4f2614a2ceb5",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/NG03-F1.json",
+          "call_sha256": "fbd1aa8dded04cd82c0d3a363481b93265fba9e8cd76b47497d6aa64b548735b",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "NG03-R1",
+          "retry_reason": "Dense paving and metal patchwork compete with thin corrected weapon bind. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-02.json",
+            "recorded_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "inspection_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/NG03-P.png",
+          "sha256": "cccbc49d4ddfb3df35d38ac83209f7f6b39bfe7ca4fe38f7fe860668ff19fd01",
+          "attempt_id": "NG03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/NG03-P.png",
+          "prompt_path": "production/encounter-lab/prompts/NG03-P.txt",
+          "prompt_sha256": "b2e58211302061455251a6d00ff39b05f7bfbbdd2789f41b1af6b7cb68e86be4",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/NG01-P.png",
+              "sha256": "699accafe21ad90f18b043691559ce0a5f9e0d1ddb9ec83b2a477f0645852394",
+              "role": "Actual earlier new encounter frame NG01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/candidates/NG02-P.png",
+              "sha256": "8f519faafe4fec022c61719f0831999f7c8169784db60e9a28a6d649fa470198",
+              "role": "Actual earlier new encounter frame NG02; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/ng-recent.png",
+              "sha256": "f3a5f714c8990d7f78f05cb4e9d9e0429dfa94ef9d27f96458bd3dd0676b73ed",
+              "role": "Riven identity and current drawing/impact treatment; create new choreography."
+            },
+            {
+              "path": "production/encounter-lab/references/nightglass.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original full Nightglass; drawing and world benchmark, not cast selection"
+            },
+            {
+              "path": "production/encounter-lab/references/riven.png",
+              "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+              "role": "Recurring adult identity and saber construction only"
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/NG03-P.json",
+          "call_sha256": "7dd2d24b05d2689df961d368d117eac3723d4dfef1ba695b4d26fff3d306ce63",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        },
+        {
+          "path": "production/encounter-lab/candidates/NG03-R1.png",
+          "sha256": "bef94b59d83dacd2331b793507eb669b30bc2e2200cbdecee61e4f2614a2ceb5",
+          "attempt_id": "NG03-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/NG03-R1.png",
+          "prompt_path": "production/encounter-lab/prompts/NG03-R1.txt",
+          "prompt_sha256": "22cf95dbc29f48b930eb1ceb0b2d49ec193b5fdc5bfe4307092f14c0353e617b",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/NG03-P.png",
+              "sha256": "cccbc49d4ddfb3df35d38ac83209f7f6b39bfe7ca4fe38f7fe860668ff19fd01",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/NG03-R1.json",
+          "call_sha256": "aeb07f8223ad34ce3f40c20b845982a6bfce215b347adc0b54cfe6d2a6175347",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "NG03-P",
+          "retry_reason": "Root actual native sees saber contact on Vey shoulder rather than the glaive bind; sword arm also drifts from NG02. Fifth structural repair prioritizes the duel causal reversal.",
+          "evidence": {
+            "path": "research/encounter-lab/repair-causality-evidence.json",
+            "recorded_sha256": "15485b205738241ed484b75a5ee9066abf6933dc494a373884f1fd98318bb4b4",
+            "inspection_sha256": "15485b205738241ed484b75a5ee9066abf6933dc494a373884f1fd98318bb4b4",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The repair moves cyan contact onto the haft and frees the blade tip, improving the reversal over the primary.",
+        "The actual haft-to-shoulder transfer is still not shown convincingly, and both guards appear cracked. Reviewers differed about handedness certainty; it is not certified.",
+        "The cleaner F1 reduces the explicitly protected shoulder burst to a small glint. R1 remains the default; F1 is retained in history with this weakened impact cue."
+      ]
+    },
+    {
+      "id": "NG04",
+      "title": "The price stays",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide quiet medium",
+      "sequence_id": "NG",
+      "sequence_order": 4,
+      "beat": "consequence",
+      "drawing_direction": "Nightglass",
+      "subjects": [
+        "riven",
+        "vey"
+      ],
+      "caption": "The opening is won; the injured arm will shape the next exchange.",
+      "brief": "Aftermath on the same terrace. Riven kneels in foreground, saber in RIGHT hand with cyan edge now dim, inspecting his cracked LEFT forearm armor with a strained half-smile. Vey is seated against the low parapet several paces away, winded but alert; her glaive lies intact on the ground between them, clear ownership. No strike effects, no victory pose. Large quiet spaces and long shadows; both people still recognizable.",
+      "power": {
+        "name": "Borrowed Beat",
+        "description": "A metal parry stores a short impulse, released through the next weapon contact.",
+        "limitation": "Only one contact can hold the charge; the injured supporting arm stays injured.",
+        "growth": [
+          "Learn to release a smaller pulse early to interrupt a counter instead of waiting for a finishing blow."
+        ]
+      },
+      "references": [
+        "ng-recent",
+        "nightglass",
+        "riven"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "NG01",
+        "NG03"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/NG04-F1.png",
+        "sha256": "ed8a67ba03ba4fc37e61808f8390eec896fe75a510ccbe723935aa85d4082049",
+        "attempt_id": "NG04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/NG04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/NG04-F1.png",
+          "sha256": "ed8a67ba03ba4fc37e61808f8390eec896fe75a510ccbe723935aa85d4082049",
+          "attempt_id": "NG04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/NG04-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/NG04-F1.txt",
+          "prompt_sha256": "25a0da73146e01c0fe6c3523383f2e7d3f4a82c6040c31b24ec00b07d4b8a700",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/NG04-P.png",
+              "sha256": "18fa2feb484056d584482082e9336a447b10db0d729060201e82506ab11beaa4",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/NG04-F1.json",
+          "call_sha256": "87735a0dbb35ab2a9dc49d7193873e923c37ed76f9947a7638df6dc4d0594fc9",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "NG04-P",
+          "retry_reason": "Paving grain and armor flecks compete with the quiet aftermath. Root native inspected; source-only finish retains structural caveats.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-03.json",
+            "recorded_sha256": "09d3683eed3ede05cc33a21fb1ec1a254131e548e52abbb47e96ea343e660bc4",
+            "inspection_sha256": "09d3683eed3ede05cc33a21fb1ec1a254131e548e52abbb47e96ea343e660bc4",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/NG04-P.png",
+          "sha256": "18fa2feb484056d584482082e9336a447b10db0d729060201e82506ab11beaa4",
+          "attempt_id": "NG04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/NG04-P.png",
+          "prompt_path": "production/encounter-lab/prompts/NG04-P.txt",
+          "prompt_sha256": "7f40284ee674a9167624d9255f181abe59036ba40a8cd783eaf7b48f303e695b",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/NG01-P.png",
+              "sha256": "699accafe21ad90f18b043691559ce0a5f9e0d1ddb9ec83b2a477f0645852394",
+              "role": "Actual earlier new encounter frame NG01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/candidates/NG03-R1.png",
+              "sha256": "bef94b59d83dacd2331b793507eb669b30bc2e2200cbdecee61e4f2614a2ceb5",
+              "role": "Actual earlier new encounter frame NG03; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/ng-recent.png",
+              "sha256": "f3a5f714c8990d7f78f05cb4e9d9e0429dfa94ef9d27f96458bd3dd0676b73ed",
+              "role": "Riven identity and current drawing/impact treatment; create new choreography."
+            },
+            {
+              "path": "production/encounter-lab/references/nightglass.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original full Nightglass; drawing and world benchmark, not cast selection"
+            },
+            {
+              "path": "production/encounter-lab/references/riven.png",
+              "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+              "role": "Recurring adult identity and saber construction only"
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/NG04-P.json",
+          "call_sha256": "c8fe3c011224bb9d61731a91f33765c13666fa18bc9d971b08e6d19ca99841ea",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Separated, tired characters and the dropped glaive communicate a costly aftermath. The finish substantially quiets paving and architecture.",
+        "The damaged upper-arm skin opening is broader than the earlier forearm injury; exact damage continuity is imperfect. The quieter F1 floor also appears more polished and reflective."
+      ]
+    },
+    {
+      "id": "BP01",
+      "title": "The body ignores steel",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide low medium",
+      "sequence_id": "BP",
+      "sequence_order": 1,
+      "beat": "setup",
+      "drawing_direction": "Black Petal",
+      "subjects": [
+        "mael",
+        "hollow-orchid"
+      ],
+      "caption": "The armor barely notices the blade. Something beneath it carries the weight.",
+      "brief": "Mael in RIGHT foreground draws her estoc back after a shallow scratch on an ivory supporting limb; the mark is tiny, the towering creature barely reacts. Its black load-bearing shadow-tendon visibly runs taut across a bright strip of stone toward a planted broad claw at LEFT. Mael's eye follows that dark tendon rather than the mask. Full dramatic creature/character size relation and readable path underfoot, no busy veins.",
+      "power": {
+        "name": "Sever the Support",
+        "description": "A precise estoc cut severs a load-bearing shadow while it crosses lit stone.",
+        "limitation": "The exposed shadow can be covered by the creature's claw; slashing armored petals does nothing.",
+        "growth": [
+          "Identify which shadow carries weight while the creature changes its stance."
+        ]
+      },
+      "references": [
+        "bp-recent",
+        "style19"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/BP01-F1.png",
+        "sha256": "ccb05b622ceda6dea0ee9e8f93e971c42d125248fe4b66c30894a787aa72d38d",
+        "attempt_id": "BP01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/BP01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/BP01-F1.png",
+          "sha256": "ccb05b622ceda6dea0ee9e8f93e971c42d125248fe4b66c30894a787aa72d38d",
+          "attempt_id": "BP01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/BP01-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/BP01-F1.txt",
+          "prompt_sha256": "78e1e85549e2c8056a58b0b6acc2556eb4004d3f1f5add90ac3dae34cb3f0d31",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/BP01-R1.png",
+              "sha256": "54320bcb36e7a6b23ad2af527876afd3991cd8fbe8f1728902b5b4c51c9f4e2c",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/BP01-F1.json",
+          "call_sha256": "54c540dc82db9a8e4e368bc0fa3fb5945fffafdb018324457edb7026d24c7812",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "BP01-R1",
+          "retry_reason": "Opening repair restored coat and readable right weapon hand; dense petal vein webs, foliage and floor fine-grain remain surrounding the restrained face. Root actual native views and phone-captures/7ccf3b812b6f inspected; this is surface-only, not a claim to fix structural issues.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-01.json",
+            "recorded_sha256": "3761f68dfc613bbd083497621adc2631613e470487e0e3d1e275b0519746df25",
+            "inspection_sha256": "3761f68dfc613bbd083497621adc2631613e470487e0e3d1e275b0519746df25",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/BP01-P.png",
+          "sha256": "dacc925a1ed8cf41ba314b1d09ce27a793a60da80d5e841f4e1a938135c3cb8f",
+          "attempt_id": "BP01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/BP01-P.png",
+          "prompt_path": "production/encounter-lab/prompts/BP01-P.txt",
+          "prompt_sha256": "bf5d2f5fc5f227e1679731d7913684713a9fb163ac83bde4e2bcc8d042195019",
+          "references": [
+            {
+              "path": "production/encounter-lab/references/bp-recent.png",
+              "sha256": "c7f37c6527e2baeb110725251df51b15814d82e8fc6ed9853ef4c3ebd61b6301",
+              "role": "Mael, creature and Black Petal surface treatment; clarify actual hand ownership."
+            },
+            {
+              "path": "production/encounter-lab/references/style19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/BP01-P.json",
+          "call_sha256": "a4075b132ec3020cc5bcbc53c04c64db81358344db9450cea7ee4f556d16825d",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        },
+        {
+          "path": "production/encounter-lab/candidates/BP01-R1.png",
+          "sha256": "54320bcb36e7a6b23ad2af527876afd3991cd8fbe8f1728902b5b4c51c9f4e2c",
+          "attempt_id": "BP01-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/BP01-R1.png",
+          "prompt_path": "production/encounter-lab/prompts/BP01-R1.txt",
+          "prompt_sha256": "da41a08072db975926d6deaa90a372fe2f20814f84e436fbc8cf104b5f531e82",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/BP01-P.png",
+              "sha256": "dacc925a1ed8cf41ba314b1d09ce27a793a60da80d5e841f4e1a938135c3cb8f",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/BP01-R1.json",
+          "call_sha256": "803e4e50704e9d1cbf5500d9ad73f7442b12e40bd680ebf36e49b6f1b0cd810a",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "BP01-P",
+          "retry_reason": "Actual native BP01 shows large pre-existing coat cutouts before authored beat2 tear; weapon laterality unclear. Independent native-BP01-P.json corroborates.",
+          "evidence": {
+            "path": "research/encounter-lab/repair-first-evidence.json",
+            "recorded_sha256": null,
+            "inspection_sha256": "209eb23a0823064e424d9469f63aba4379808b9e3d2406f8cf5d01f7b22c73c6",
+            "binding_status": "path recorded in call; bytes hashed at reader inspection only"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The foundational repair restores an intact opening coat and clearer right-hand estoc. The finish preserves those changes and quiets ivory and paving.",
+        "The ineffective body strike that should teach the creature rule is not directly shown; the blade lies near a ground tendon instead."
+      ]
+    },
+    {
+      "id": "BP02",
+      "title": "It hides the weakness",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "portrait close low",
+      "sequence_id": "BP",
+      "sequence_order": 2,
+      "beat": "commitment",
+      "drawing_direction": "Black Petal",
+      "subjects": [
+        "mael",
+        "hollow-orchid"
+      ],
+      "caption": "It covers the shadow—and nearly catches her with it.",
+      "brief": "The creature's broad ivory claw SLAMS down over the lit shadow-tendon. Mael bends sideways narrowly beneath its sweeping wrist, her face close enough to show alarm and calculation. Estoc stays in RIGHT hand, out to the side with clear silhouette; LEFT hand open for balance. The claw catches and tears the trailing lower coat tail, leaving a clearly missing triangular section. Ground around the contact is broad pale planes, just a few displaced chips. Tendon partly hidden under claw, not cut yet.",
+      "power": {
+        "name": "Sever the Support",
+        "description": "A precise estoc cut severs a load-bearing shadow while it crosses lit stone.",
+        "limitation": "The exposed shadow can be covered by the creature's claw; slashing armored petals does nothing.",
+        "growth": [
+          "Identify which shadow carries weight while the creature changes its stance."
+        ]
+      },
+      "references": [
+        "bp-recent",
+        "style19"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "BP01"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/BP02-F1.png",
+        "sha256": "e5b5751bc563bbff6ee3a493e428b6aaa96875e16f5665f6a176915dc878c336",
+        "attempt_id": "BP02-F1",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/encounter-lab/candidates/BP02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/BP02-F1.png",
+          "sha256": "e5b5751bc563bbff6ee3a493e428b6aaa96875e16f5665f6a176915dc878c336",
+          "attempt_id": "BP02-F1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/BP02-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/BP02-F1.txt",
+          "prompt_sha256": "59ab25242d2d8c54b91160d37c85cdbf161ae7aae5e2fbb537dac0fb55a763ef",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/BP02-P.png",
+              "sha256": "75bd28dde543703befe38ab43b51be085bb1c75c2707daaf54e5122666e4f519",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/BP02-F1.json",
+          "call_sha256": "0fec7669c081b6c9f3f1683dfbb880a58dc5d14f10812176e3c7fb6dab10f92a",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "BP02-P",
+          "retry_reason": "Native ivory crack web, petal veins and fine glasshouse foliage increase noise near the face and claw. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-02.json",
+            "recorded_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "inspection_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/BP02-P.png",
+          "sha256": "75bd28dde543703befe38ab43b51be085bb1c75c2707daaf54e5122666e4f519",
+          "attempt_id": "BP02-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/BP02-P.png",
+          "prompt_path": "production/encounter-lab/prompts/BP02-P.txt",
+          "prompt_sha256": "8e8cd0877881586c2b5fa12e14817ef226b8b002cae7ebb85fd7f4f3b7e15937",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/BP01-R1.png",
+              "sha256": "54320bcb36e7a6b23ad2af527876afd3991cd8fbe8f1728902b5b4c51c9f4e2c",
+              "role": "Actual earlier new encounter frame BP01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/bp-recent.png",
+              "sha256": "c7f37c6527e2baeb110725251df51b15814d82e8fc6ed9853ef4c3ebd61b6301",
+              "role": "Mael, creature and Black Petal surface treatment; clarify actual hand ownership."
+            },
+            {
+              "path": "production/encounter-lab/references/style19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/BP02-P.json",
+          "call_sha256": "525e9dd7d2bd2afc71241fe3d3f7a8efcdd10425f80d5e05f489adc0128fb018",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The huge near claw, low escape and torn coat convey immediate threat. Finishing reduces the competing ivory crack network.",
+        "The creature silhouette remains imposing but its complete support anatomy is not established in this tight framing."
+      ]
+    },
+    {
+      "id": "BP03",
+      "title": "Make it lift",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide side very low",
+      "sequence_id": "BP",
+      "sequence_order": 3,
+      "beat": "reversal",
+      "drawing_direction": "Black Petal",
+      "subjects": [
+        "mael",
+        "hollow-orchid"
+      ],
+      "caption": "She draws the claw away and cuts what holds the monster upright.",
+      "brief": "Mael lunges beneath the lifted creature wrist as it reaches again for her torn coat. Her RIGHT-hand estoc slices the now-exposed taut black shadow-tendon across the bright stone band. Show two separated black ends with a clean pale gap at the blade and the ivory supporting joint folding sideways as the load releases; lowered mask follows the body. Mael's legs separate cleanly and her torn coat tail persists. A crimson-thin blade accent only, no flesh injury. One sharp action with a visibly changed support.",
+      "power": {
+        "name": "Sever the Support",
+        "description": "A precise estoc cut severs a load-bearing shadow while it crosses lit stone.",
+        "limitation": "The exposed shadow can be covered by the creature's claw; slashing armored petals does nothing.",
+        "growth": [
+          "Identify which shadow carries weight while the creature changes its stance."
+        ]
+      },
+      "references": [
+        "bp-recent",
+        "style19"
+      ],
+      "paired_ids": [
+        "X02"
+      ],
+      "continuation_dependencies": [
+        "BP01",
+        "BP02"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/BP03-F1.png",
+        "sha256": "4362b53ad02cc3f29c910e7856d614f1031d6b9d4b6793de921b6256b18d7bf8",
+        "attempt_id": "BP03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/BP03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/BP03-F1.png",
+          "sha256": "4362b53ad02cc3f29c910e7856d614f1031d6b9d4b6793de921b6256b18d7bf8",
+          "attempt_id": "BP03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/BP03-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/BP03-F1.txt",
+          "prompt_sha256": "02773c14cabd90eaf3acb127a51fcc8ef80fcf93674ea73fb47ee3dd429df1df",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/BP03-P.png",
+              "sha256": "7f51bf6a863ccbf86c479892010873a4a2ad9b54048547bb86f171b371703ae1",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/BP03-F1.json",
+          "call_sha256": "0e8aec55a411df9f32a0ad90f4a2da6adc64d2439b0132704dbc39fabdd229eb",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "BP03-P",
+          "retry_reason": "Surface webbing and floor grain compete with separated black tendon ends and raised claw. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-02.json",
+            "recorded_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "inspection_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/BP03-P.png",
+          "sha256": "7f51bf6a863ccbf86c479892010873a4a2ad9b54048547bb86f171b371703ae1",
+          "attempt_id": "BP03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/BP03-P.png",
+          "prompt_path": "production/encounter-lab/prompts/BP03-P.txt",
+          "prompt_sha256": "138a7870ba246b008d2af80c928cc3a7cde54b9cf711b5b44cd4bac6d71b8df6",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/BP01-R1.png",
+              "sha256": "54320bcb36e7a6b23ad2af527876afd3991cd8fbe8f1728902b5b4c51c9f4e2c",
+              "role": "Actual earlier new encounter frame BP01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/candidates/BP02-P.png",
+              "sha256": "75bd28dde543703befe38ab43b51be085bb1c75c2707daaf54e5122666e4f519",
+              "role": "Actual earlier new encounter frame BP02; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/bp-recent.png",
+              "sha256": "c7f37c6527e2baeb110725251df51b15814d82e8fc6ed9853ef4c3ebd61b6301",
+              "role": "Mael, creature and Black Petal surface treatment; clarify actual hand ownership."
+            },
+            {
+              "path": "production/encounter-lab/references/style19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/BP03-P.json",
+          "call_sha256": "db26e26840a93dfffeaba6262ce8804caccc4ed2aea6a750d23860191789ef9e",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The separated dark tendon ends and raised claw make the target readable. The finish preserves the gap while calming floor and ivory.",
+        "The sword appears in the opposite hand from the opening, and an additional grounded ivory support complicates creature continuity. A full collapse is not yet visible."
+      ]
+    },
+    {
+      "id": "BP04",
+      "title": "The mask touches stone",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "portrait quiet medium-low",
+      "sequence_id": "BP",
+      "sequence_order": 4,
+      "beat": "consequence",
+      "drawing_direction": "Black Petal",
+      "subjects": [
+        "mael",
+        "hollow-orchid"
+      ],
+      "caption": "The rule works. The dark doorway suggests this was only one of them.",
+      "brief": "The same creature's ivory mask now rests on the pale floor in foreground, black petal body slumped behind, its supporting limb bent and severed dark tendon ends apart. Mael stands beyond the mask, breathing hard with estoc lowered in RIGHT hand; torn coat tail remains. Her expression mixes relief with fascination. A distant dark doorway holds a faint second petal silhouette as a restrained future threat, not another detailed monster. Dry quiet floor, elegant broad blacks.",
+      "power": {
+        "name": "Sever the Support",
+        "description": "A precise estoc cut severs a load-bearing shadow while it crosses lit stone.",
+        "limitation": "The exposed shadow can be covered by the creature's claw; slashing armored petals does nothing.",
+        "growth": [
+          "Identify which shadow carries weight while the creature changes its stance."
+        ]
+      },
+      "references": [
+        "bp-recent",
+        "style19"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "BP01",
+        "BP03"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/BP04-F1.png",
+        "sha256": "1b00238e9985d40851aa7aaf635d7db7c579950a4f650bff34b5d745c4ef0237",
+        "attempt_id": "BP04-F1",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/encounter-lab/candidates/BP04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/BP04-F1.png",
+          "sha256": "1b00238e9985d40851aa7aaf635d7db7c579950a4f650bff34b5d745c4ef0237",
+          "attempt_id": "BP04-F1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/BP04-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/BP04-F1.txt",
+          "prompt_sha256": "2bf1cfd46e8f62279c3c0749f740526e18d6bd8a523a31bb48ab89d7418b4731",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/BP04-P.png",
+              "sha256": "da42950a6458bd63d6d5bc0a4621be7451080593808ddf7ea06ef71edcf70603",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/BP04-F1.json",
+          "call_sha256": "341ccdef2c6f0a3b382493849416a0cb983f4388b66688a77cdc1d9f4d212760",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "BP04-P",
+          "retry_reason": "Afternath mask crack net, petal vein mass and paving noise are denser than the quiet emotional beat needs. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-02.json",
+            "recorded_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "inspection_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/BP04-P.png",
+          "sha256": "da42950a6458bd63d6d5bc0a4621be7451080593808ddf7ea06ef71edcf70603",
+          "attempt_id": "BP04-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/BP04-P.png",
+          "prompt_path": "production/encounter-lab/prompts/BP04-P.txt",
+          "prompt_sha256": "4dcb3a8e9e29c5464d746b83684e6e47ad59c50a7712dd6a9c954e6095dce690",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/BP01-R1.png",
+              "sha256": "54320bcb36e7a6b23ad2af527876afd3991cd8fbe8f1728902b5b4c51c9f4e2c",
+              "role": "Actual earlier new encounter frame BP01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/candidates/BP03-P.png",
+              "sha256": "7f51bf6a863ccbf86c479892010873a4a2ad9b54048547bb86f171b371703ae1",
+              "role": "Actual earlier new encounter frame BP03; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/bp-recent.png",
+              "sha256": "c7f37c6527e2baeb110725251df51b15814d82e8fc6ed9853ef4c3ebd61b6301",
+              "role": "Mael, creature and Black Petal surface treatment; clarify actual hand ownership."
+            },
+            {
+              "path": "production/encounter-lab/references/style19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/BP04-P.json",
+          "call_sha256": "5aee31004965a89c9567bd41b814e76e7f8a3034c608efa155c3215c1e192e37",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The fallen mask, severed tendons and standing character give a strong quiet consequence. The finish preserves the coat tear and distant threat shape.",
+        "The exact limb construction and the causal importance of the tendon still need interpretation from the adjacent images."
+      ]
+    },
+    {
+      "id": "IO01",
+      "title": "Hold the charge",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide eye-level full bodies",
+      "sequence_id": "IO",
+      "sequence_order": 1,
+      "beat": "setup",
+      "drawing_direction": "Iron Orchard",
+      "subjects": [
+        "orren",
+        "iron-boar"
+      ],
+      "caption": "The cleaver takes the load, but his boots must hold it.",
+      "brief": "Orren braces on the dry crossing with both boots grounded and both hands on the cleaver. The blade's broad flat meets the charging boar's tusk base/jaw; shoulders compress and coat pulls backward. The boar's hind legs drive into the charge while forelegs bear weight; show its complete body and four coherent legs. Canal edge clearly RIGHT, large arches behind. Tension and weight before any displacement, not an airborne knockback.",
+      "power": {
+        "name": "Burden Transfer",
+        "description": "The cleaver redirects load through a braced stance; a short step changes the lever arm.",
+        "limitation": "A sliding boot breaks the brace and sends the load into the fighter's arm.",
+        "growth": [
+          "Transfer force through shorter, moving stances rather than relying on a planted hold."
+        ]
+      },
+      "references": [
+        "io-recent",
+        "style05"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/IO01-F1.png",
+        "sha256": "30abee7f792ebf096df0c1ae0dbafb8bdc87bc22af8ea413ece8a85fb38fb323",
+        "attempt_id": "IO01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/IO01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/IO01-F1.png",
+          "sha256": "30abee7f792ebf096df0c1ae0dbafb8bdc87bc22af8ea413ece8a85fb38fb323",
+          "attempt_id": "IO01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/IO01-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/IO01-F1.txt",
+          "prompt_sha256": "a4be6ac9f301386853689e08f3c5c3ba3b7856ad75776351a86c42bee5fd06f4",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/IO01-R1.png",
+              "sha256": "a26e03139520407581494fd9a78dbc5badc7f43257042b45db37d89721628614",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/IO01-F1.json",
+          "call_sha256": "9f3aa14ee8d66d1f9b83e1236b9c66b4268079c14b64ab75282af8274dfb21ee",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "IO01-R1",
+          "retry_reason": "Corrected four-legged foundation preserves heavy design but all-over orange weathering, floor chips and repeated foliage marks compete at native and phone scale. Root actual native views and phone-captures/7ccf3b812b6f inspected; this is surface-only, not a claim to fix structural issues.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-01.json",
+            "recorded_sha256": "3761f68dfc613bbd083497621adc2631613e470487e0e3d1e275b0519746df25",
+            "inspection_sha256": "3761f68dfc613bbd083497621adc2631613e470487e0e3d1e275b0519746df25",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/IO01-P.png",
+          "sha256": "f4ab262b1605035df85423316dfca0cac45d9a04b5fa1c18324519d841c2a844",
+          "attempt_id": "IO01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/IO01-P.png",
+          "prompt_path": "production/encounter-lab/prompts/IO01-P.txt",
+          "prompt_sha256": "e0c2fa0e9b1a088086bd5bb88a7694a33319adf4ed7f0d088566df33fd4079b5",
+          "references": [
+            {
+              "path": "production/encounter-lab/references/io-recent.png",
+              "sha256": "6cb8560424cc4efa8ad476b9cb9b81415b3a4f1e4ad4ec57cc40c9dbaf0902f6",
+              "role": "Orren and iron boar identity, opaque brush treatment and quiet ground."
+            },
+            {
+              "path": "production/encounter-lab/references/style05.png",
+              "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/IO01-P.json",
+          "call_sha256": "59573daba26237ae69a99415436926e882717d8fea10c2766c2d673ba75644ab",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        },
+        {
+          "path": "production/encounter-lab/candidates/IO01-R1.png",
+          "sha256": "a26e03139520407581494fd9a78dbc5badc7f43257042b45db37d89721628614",
+          "attempt_id": "IO01-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/IO01-R1.png",
+          "prompt_path": "production/encounter-lab/prompts/IO01-R1.txt",
+          "prompt_sha256": "3005e31acbd3df87c209f6ff892216679cc014ffc8aee23418104e6ec5ffd243",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/IO01-P.png",
+              "sha256": "f4ab262b1605035df85423316dfca0cac45d9a04b5fa1c18324519d841c2a844",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/IO01-R1.json",
+          "call_sha256": "113d22b9b0dae5e0c4baa8d6c4fb0920e47b7aaf73e971ff2de2937a9887f63d",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "IO01-P",
+          "retry_reason": "Root and independent actual native inspection see five support/foot clusters and a premature forearm crack, unsuitable as the four-legged sequence foundation.",
+          "evidence": {
+            "path": "research/encounter-lab/repair-io-foundation-evidence.json",
+            "recorded_sha256": null,
+            "inspection_sha256": "04af4de9fc3f95fb42dba3fdd6b8b65d7cf2b0a4ee5150c7ae58d8612a0b9e29",
+            "binding_status": "path recorded in call; bytes hashed at reader inspection only"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The repair establishes four visible support legs and intact opening guards. The finish retains the brace and broad warm painting while reducing weathering.",
+        "The first beat already contains a locked collision rather than a separate anticipation pose."
+      ]
+    },
+    {
+      "id": "IO02",
+      "title": "The brace breaks",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "portrait close low",
+      "sequence_id": "IO",
+      "sequence_order": 2,
+      "beat": "commitment",
+      "drawing_direction": "Iron Orchard",
+      "subjects": [
+        "orren",
+        "iron-boar"
+      ],
+      "caption": "The beast turns the load sideways and breaks his planted stance.",
+      "brief": "The boar twists its armored head across the trapped broad blade. Orren's torso is dragged sideways, his near boot sliding toward the visible canal edge at lower RIGHT. His LEFT forearm guard cracks under the lever load, jaw clenched, both hands still gripping the same long hilt. Keep beast jaw, tusk, blade and fighter arms readable in close proximity; the camera can crop rear body intentionally. No dust wall hiding the sliding foot.",
+      "power": {
+        "name": "Burden Transfer",
+        "description": "The cleaver redirects load through a braced stance; a short step changes the lever arm.",
+        "limitation": "A sliding boot breaks the brace and sends the load into the fighter's arm.",
+        "growth": [
+          "Transfer force through shorter, moving stances rather than relying on a planted hold."
+        ]
+      },
+      "references": [
+        "io-recent",
+        "style05"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "IO01"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/IO02-F1.png",
+        "sha256": "5c046fd32914561c9e03de29682ccbd9d5359aa68652ce5cfa3a31e3ea2ce68d",
+        "attempt_id": "IO02-F1",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/encounter-lab/candidates/IO02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/IO02-F1.png",
+          "sha256": "5c046fd32914561c9e03de29682ccbd9d5359aa68652ce5cfa3a31e3ea2ce68d",
+          "attempt_id": "IO02-F1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/IO02-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/IO02-F1.txt",
+          "prompt_sha256": "141fc3b93efef63a78325b249d4c54273134d7da891a54e1bb4718fdc2bf4dbf",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/IO02-P.png",
+              "sha256": "0e4e34e8bcaa2986cc6de1a9ce15796cc24d63d67234e9419bf83f7656c8235c",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/IO02-F1.json",
+          "call_sha256": "39015bc0eedb3af4e99484bfae343b626ccd1700f1818a6c607f99bcec79c4ce",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "IO02-P",
+          "retry_reason": "Actual native has all-over floor and orange-metal mottling; keep the local loss of brace distinct. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-02.json",
+            "recorded_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "inspection_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/IO02-P.png",
+          "sha256": "0e4e34e8bcaa2986cc6de1a9ce15796cc24d63d67234e9419bf83f7656c8235c",
+          "attempt_id": "IO02-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/IO02-P.png",
+          "prompt_path": "production/encounter-lab/prompts/IO02-P.txt",
+          "prompt_sha256": "0cf348303cf297960a6d0c4ab1cac0a97a3df9c8e3516e2ee7d3536e959e3ed8",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/IO01-R1.png",
+              "sha256": "a26e03139520407581494fd9a78dbc5badc7f43257042b45db37d89721628614",
+              "role": "Actual earlier new encounter frame IO01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/io-recent.png",
+              "sha256": "6cb8560424cc4efa8ad476b9cb9b81415b3a4f1e4ad4ec57cc40c9dbaf0902f6",
+              "role": "Orren and iron boar identity, opaque brush treatment and quiet ground."
+            },
+            {
+              "path": "production/encounter-lab/references/style05.png",
+              "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/IO02-P.json",
+          "call_sha256": "a7f7a5099869a296eadb4df87e0a0ba72ba095d00643bebe1a22eebf1ca466b5",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The sliding boot near the canal and broken left guard show pressure and cost. Finishing removes distracting small scuffs and surface marks.",
+        "The broken forearm-to-hand chain is awkward, even though the overall effort reads."
+      ]
+    },
+    {
+      "id": "IO03",
+      "title": "Step inside the weight",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide overhead three-quarter",
+      "sequence_id": "IO",
+      "sequence_order": 3,
+      "beat": "reversal",
+      "drawing_direction": "Iron Orchard",
+      "subjects": [
+        "orren",
+        "iron-boar"
+      ],
+      "caption": "He shortens the lever and makes the turning beast carry its own fall.",
+      "brief": "Orren has stepped inward under the boar's near jaw, away from the canal. His shoulder and two-handed cleaver form a short lever beneath the jaw while his inside boot plants close to the beast. The boar rolls toward its near shoulder, forelegs folding against the crossing and hind feet pivoting; an immense torso falling onto its flank rather than launching into air. Dent the near copper shoulder plate where it strikes stone. Keep Orren separate from beast anatomy, his cracked LEFT guard visible, clear lever/torso/ground relationships.",
+      "power": {
+        "name": "Burden Transfer",
+        "description": "The cleaver redirects load through a braced stance; a short step changes the lever arm.",
+        "limitation": "A sliding boot breaks the brace and sends the load into the fighter's arm.",
+        "growth": [
+          "Transfer force through shorter, moving stances rather than relying on a planted hold."
+        ]
+      },
+      "references": [
+        "io-recent",
+        "style05"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "IO01",
+        "IO02"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/IO03-F1.png",
+        "sha256": "7be9c1398a5fbfc6416584c61c6aa086c887e91ad69df935494018b649ad450d",
+        "attempt_id": "IO03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/IO03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/IO03-F1.png",
+          "sha256": "7be9c1398a5fbfc6416584c61c6aa086c887e91ad69df935494018b649ad450d",
+          "attempt_id": "IO03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/IO03-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/IO03-F1.txt",
+          "prompt_sha256": "1533eef61e8e440b69c3b61cd8115bafed710a4b6427c779efc975aff9ee8943",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/IO03-P.png",
+              "sha256": "539ff5ec835c6a9ac2bf52d4561a08138fbe6f43dcd740ecd2e08457fd512c41",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/IO03-F1.json",
+          "call_sha256": "c5300428c819d89704c827908ea29cc859a4653548b599833508c4eba3334a1f",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "IO03-P",
+          "retry_reason": "Heavy floor tessellation/mottling, rust flecks and dense granular debris compete with compressed contact. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-02.json",
+            "recorded_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "inspection_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/IO03-P.png",
+          "sha256": "539ff5ec835c6a9ac2bf52d4561a08138fbe6f43dcd740ecd2e08457fd512c41",
+          "attempt_id": "IO03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/IO03-P.png",
+          "prompt_path": "production/encounter-lab/prompts/IO03-P.txt",
+          "prompt_sha256": "b284f945fdddd3fb72665e766f69070d0ac2e59d1a4f506b57e381901e53f53e",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/IO01-R1.png",
+              "sha256": "a26e03139520407581494fd9a78dbc5badc7f43257042b45db37d89721628614",
+              "role": "Actual earlier new encounter frame IO01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/candidates/IO02-P.png",
+              "sha256": "0e4e34e8bcaa2986cc6de1a9ce15796cc24d63d67234e9419bf83f7656c8235c",
+              "role": "Actual earlier new encounter frame IO02; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/io-recent.png",
+              "sha256": "6cb8560424cc4efa8ad476b9cb9b81415b3a4f1e4ad4ec57cc40c9dbaf0902f6",
+              "role": "Orren and iron boar identity, opaque brush treatment and quiet ground."
+            },
+            {
+              "path": "production/encounter-lab/references/style05.png",
+              "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/IO03-P.json",
+          "call_sha256": "6518f6e1678098927b56a3abe2695c01c0cd4b5606928f1dc41c152222aa13b9",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "A wide stance and collapsing front support make the balance change visible. The finish reduces airborne specks and ground noise.",
+        "This is a front collapse, not the requested full flank roll. Camera position stays close to the opening, and the shoulder break reads as cracking rather than a dent."
+      ]
+    },
+    {
+      "id": "IO04",
+      "title": "Heavy breathing",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide low quiet",
+      "sequence_id": "IO",
+      "sequence_order": 4,
+      "beat": "consequence",
+      "drawing_direction": "Iron Orchard",
+      "subjects": [
+        "orren",
+        "iron-boar"
+      ],
+      "caption": "The beast is down. His arm paid for the failed brace.",
+      "brief": "The boar lies on its flank beside the canal, four limbs in a coherent resting arrangement, near shoulder plate visibly dented, green jaw grille venting one broad soft breath. Orren sits on the dry ground with cleaver across his thighs, supporting his cracked LEFT forearm guard with his RIGHT hand. Exhausted grin rather than flexing. Show distance from canal, the same cream arches and orange trees, minimal particles and broad matte ground.",
+      "power": {
+        "name": "Burden Transfer",
+        "description": "The cleaver redirects load through a braced stance; a short step changes the lever arm.",
+        "limitation": "A sliding boot breaks the brace and sends the load into the fighter's arm.",
+        "growth": [
+          "Transfer force through shorter, moving stances rather than relying on a planted hold."
+        ]
+      },
+      "references": [
+        "io-recent",
+        "style05"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "IO01",
+        "IO03"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/IO04-F1.png",
+        "sha256": "b2881679a3815ff19855e9554b1f132ac18da0e2ca804f7db04b11274a94175d",
+        "attempt_id": "IO04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/IO04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/IO04-F1.png",
+          "sha256": "b2881679a3815ff19855e9554b1f132ac18da0e2ca804f7db04b11274a94175d",
+          "attempt_id": "IO04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/IO04-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/IO04-F1.txt",
+          "prompt_sha256": "8a98cf36c1afae37a88552db5f515acd121324bd9ace597ddd87bc877ba984b9",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/IO04-P.png",
+              "sha256": "35e429e8f0a01b79c501d5c67aee9eb6388c8c305834a867fdbe0c922864684a",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/IO04-F1.json",
+          "call_sha256": "ab4596aa2b377f4becffb23b54352a7c3d1414b3168e719ec4dad0feaef78c5a",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "IO04-P",
+          "retry_reason": "Afternath ground and orange-metal weathering are densely mottled over nearly every surface. Root native inspected; source-only finish retains structural caveats.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-03.json",
+            "recorded_sha256": "09d3683eed3ede05cc33a21fb1ec1a254131e548e52abbb47e96ea343e660bc4",
+            "inspection_sha256": "09d3683eed3ede05cc33a21fb1ec1a254131e548e52abbb47e96ea343e660bc4",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/IO04-P.png",
+          "sha256": "35e429e8f0a01b79c501d5c67aee9eb6388c8c305834a867fdbe0c922864684a",
+          "attempt_id": "IO04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/IO04-P.png",
+          "prompt_path": "production/encounter-lab/prompts/IO04-P.txt",
+          "prompt_sha256": "aab6a0324cbfc2ff18903558e0a130f735545e198f30fd1a7ca518fa7d04d080",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/IO01-R1.png",
+              "sha256": "a26e03139520407581494fd9a78dbc5badc7f43257042b45db37d89721628614",
+              "role": "Actual earlier new encounter frame IO01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/candidates/IO03-P.png",
+              "sha256": "539ff5ec835c6a9ac2bf52d4561a08138fbe6f43dcd740ecd2e08457fd512c41",
+              "role": "Actual earlier new encounter frame IO03; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/io-recent.png",
+              "sha256": "6cb8560424cc4efa8ad476b9cb9b81415b3a4f1e4ad4ec57cc40c9dbaf0902f6",
+              "role": "Orren and iron boar identity, opaque brush treatment and quiet ground."
+            },
+            {
+              "path": "production/encounter-lab/references/style05.png",
+              "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/IO04-P.json",
+          "call_sha256": "ab44e269e15533161583a9a018d926ed37ed3adb0d63f5aae10a1996ef0641c3",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The seated fighter and fallen boar communicate weight, exhaustion and relief. The finish preserves the broad damage while calming rust and paving.",
+        "The complex collapsed creature plates make exact limb continuity difficult to verify; some mottling remains."
+      ]
+    },
+    {
+      "id": "ST01",
+      "title": "Leave a second beat",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide low full figures",
+      "sequence_id": "ST",
+      "sequence_order": 1,
+      "beat": "setup",
+      "drawing_direction": "Soft Thunder",
+      "subjects": [
+        "tavi",
+        "bellguard"
+      ],
+      "caption": "The first hit leaves a pulse waiting in his guard.",
+      "brief": "Tavi drives the orange face of her hammer into Bellguard's raised forearm guard. He bends his knees and absorbs the blow rather than lifting off the ground. A single broad orange ring remains at the hammer/guard contact, with a small chip knocked from the hammer's orange face. Tavi's grin is fierce, clear two-hand grip, separate body silhouettes, windmills grouped far behind. One compact impact accent only.",
+      "power": {
+        "name": "Second Beat",
+        "description": "One struck surface receives a delayed second impulse, marked by a broad orange ring.",
+        "limitation": "The delay leaves time for an enemy counter; Tavi must remain close enough to exploit the opening.",
+        "growth": [
+          "Vary the delay to break an opponent's rhythm or use the pulse defensively."
+        ]
+      },
+      "references": [
+        "st-recent",
+        "style18"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/ST01-P.png",
+        "sha256": "1747b7823732bfd734bd59674a95750ed80aa87ddec8cff43f89a3d2a16c741d",
+        "attempt_id": "ST01-P",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/ST01-P.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/ST01-P.png",
+          "sha256": "1747b7823732bfd734bd59674a95750ed80aa87ddec8cff43f89a3d2a16c741d",
+          "attempt_id": "ST01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/ST01-P.png",
+          "prompt_path": "production/encounter-lab/prompts/ST01-P.txt",
+          "prompt_sha256": "092bb109c0fff2b8eec5362b384b19ef057e17f37f092de9a5645c5ba04ce976",
+          "references": [
+            {
+              "path": "production/encounter-lab/references/st-recent.png",
+              "sha256": "f208f6fc149f21ee7b65b3e26ac72eec19e8fd5dd6ecce3bcf4eaebc0d81ef62",
+              "role": "Tavi and armored opponent identity, elastic gesture and quiet cartoon surfaces."
+            },
+            {
+              "path": "production/encounter-lab/references/style18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/ST01-P.json",
+          "call_sha256": "cb10fb63f35a1f5e759d263c590b746e597c5e8ccdc850f5e0ee3934a141ec9d",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        },
+        {
+          "path": "production/encounter-lab/candidates/ST01-R1.png",
+          "sha256": "c307a97815ad8c896d4795c708839756921590a5baa84d9d5f31e8edd7d366f5",
+          "attempt_id": "ST01-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/ST01-R1.png",
+          "prompt_path": "production/encounter-lab/prompts/ST01-R1.txt",
+          "prompt_sha256": "25ad67ac671fd72879395fd7d11d4c9a9e1746a92e2797bea9e44cf9fd0df92d",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/ST01-P.png",
+              "sha256": "1747b7823732bfd734bd59674a95750ed80aa87ddec8cff43f89a3d2a16c741d",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/ST01-R1.json",
+          "call_sha256": "6383847f4828d5dd48118c6e00e371f787daaf1d3db8bd8ea4d4b5ef8a1dd321",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "ST01-P",
+          "retry_reason": "Independent native review confirms ST01 ring on anatomical RIGHT; actual ST02 places it on LEFT as intended. Correct opening-side continuity to match contract and subsequent frame.",
+          "evidence": {
+            "path": "research/encounter-lab/repair-st-side-evidence.json",
+            "recorded_sha256": null,
+            "inspection_sha256": "31b65815236b407218ec80f3eb446601581fb15c08291201aa1a2203f3248ba5",
+            "binding_status": "path recorded in call; bytes hashed at reader inspection only"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The grounded first impact reads strongly and the existing finish is relatively calm.",
+        "The mark is on the apparent right forearm rather than the planned left. R1 did not establish the correction and made the ring more complex; P remains the default."
+      ]
+    },
+    {
+      "id": "ST02",
+      "title": "He answers between beats",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "portrait extreme close diagonal",
+      "sequence_id": "ST",
+      "sequence_order": 2,
+      "beat": "commitment",
+      "drawing_direction": "Soft Thunder",
+      "subjects": [
+        "tavi",
+        "bellguard"
+      ],
+      "caption": "He counters during the delay. She has to survive the gap.",
+      "brief": "Bellguard throws his OTHER fist across Tavi's face while the marked forearm is still raised behind. Tavi folds low and twists through the narrow gap, cheek and blond hair almost brushing the huge passing gauntlet; delighted surprise changes to concentration. Her hammer stays in both hands with its head trailing low, chipped orange face visible. Show a few long directional strokes and broad sky; focus on the threatening gap and expressive faces/helmet. No extra limbs or invisible torso.",
+      "power": {
+        "name": "Second Beat",
+        "description": "One struck surface receives a delayed second impulse, marked by a broad orange ring.",
+        "limitation": "The delay leaves time for an enemy counter; Tavi must remain close enough to exploit the opening.",
+        "growth": [
+          "Vary the delay to break an opponent's rhythm or use the pulse defensively."
+        ]
+      },
+      "references": [
+        "st-recent",
+        "style18"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "ST01"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/ST02-P.png",
+        "sha256": "b2380aa2f237aabcb339c674499398d556bb6450d35f6f995c747adb12857009",
+        "attempt_id": "ST02-P",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/encounter-lab/candidates/ST02-P.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/ST02-P.png",
+          "sha256": "b2380aa2f237aabcb339c674499398d556bb6450d35f6f995c747adb12857009",
+          "attempt_id": "ST02-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/ST02-P.png",
+          "prompt_path": "production/encounter-lab/prompts/ST02-P.txt",
+          "prompt_sha256": "8d59ed40f795f5761ba0ffde4c019da396b75ba0c062237d1191d40cf4cb416d",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/ST01-P.png",
+              "sha256": "1747b7823732bfd734bd59674a95750ed80aa87ddec8cff43f89a3d2a16c741d",
+              "role": "Actual earlier new encounter frame ST01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/st-recent.png",
+              "sha256": "f208f6fc149f21ee7b65b3e26ac72eec19e8fd5dd6ecce3bcf4eaebc0d81ef62",
+              "role": "Tavi and armored opponent identity, elastic gesture and quiet cartoon surfaces."
+            },
+            {
+              "path": "production/encounter-lab/references/style18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/ST02-P.json",
+          "call_sha256": "1d24329e8aecb52e028bacad750d1cf56e05b70624cc7e7394195b37c51dc3c7",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The oversized passing fist, ducking head and expressive face give one of the clearest movement beats.",
+        "This frame puts the mark on the left rear arm, unlike the opening. A readable dodge does not establish the delayed-mark rule consistently."
+      ]
+    },
+    {
+      "id": "ST03",
+      "title": "Open the guard, take the knee",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide low dynamic",
+      "sequence_id": "ST",
+      "sequence_order": 3,
+      "beat": "reversal",
+      "drawing_direction": "Soft Thunder",
+      "subjects": [
+        "tavi",
+        "bellguard"
+      ],
+      "caption": "The delayed pulse opens his upper guard as she takes away his stance.",
+      "brief": "The broad orange ring on Bellguard's raised forearm bursts as one clean graphic pulse, forcing that arm outward and twisting his shoulders. At the same instant Tavi pivots very low, both hands on the continuous turquoise shaft sweeping its lower length behind his near knee. His knee buckles and torso rotates, opposite boot still scraping the ground; full separate readable legs. Tavi's face shows timing and effort. Hammer head and hands remain distinct, no airborne body. Windmills reduced to quiet background shapes.",
+      "power": {
+        "name": "Second Beat",
+        "description": "One struck surface receives a delayed second impulse, marked by a broad orange ring.",
+        "limitation": "The delay leaves time for an enemy counter; Tavi must remain close enough to exploit the opening.",
+        "growth": [
+          "Vary the delay to break an opponent's rhythm or use the pulse defensively."
+        ]
+      },
+      "references": [
+        "st-recent",
+        "style18"
+      ],
+      "paired_ids": [
+        "X03"
+      ],
+      "continuation_dependencies": [
+        "ST01",
+        "ST02"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/ST03-F1.png",
+        "sha256": "50881a76e300e39d5f5dac05131407e23637e2c34f1f6afbf6db00e2f8245c61",
+        "attempt_id": "ST03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/ST03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/ST03-F1.png",
+          "sha256": "50881a76e300e39d5f5dac05131407e23637e2c34f1f6afbf6db00e2f8245c61",
+          "attempt_id": "ST03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/ST03-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/ST03-F1.txt",
+          "prompt_sha256": "6f4f408e1103d64b0f68639d7602dfbda3e298e20c39ae14c66aba9362eb4204",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/ST03-P.png",
+              "sha256": "12026d72bd83a6bbbd8581125f1cc2dbd62f9f0a461d03dd6507e0521e37885f",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/ST03-F1.json",
+          "call_sha256": "782d822f54178c780dee769d41bd719d6aac5ad6f186af84e1d5b31087a7a434",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "ST03-P",
+          "retry_reason": "Native armor mottling, dust clusters and floor streaks have increased around the low sweep. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-02.json",
+            "recorded_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "inspection_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/ST03-P.png",
+          "sha256": "12026d72bd83a6bbbd8581125f1cc2dbd62f9f0a461d03dd6507e0521e37885f",
+          "attempt_id": "ST03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/ST03-P.png",
+          "prompt_path": "production/encounter-lab/prompts/ST03-P.txt",
+          "prompt_sha256": "d66e871595d474c3690edfddc10caef66778cc65c27306e2c35c7fdc9b47785b",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/ST02-P.png",
+              "sha256": "b2380aa2f237aabcb339c674499398d556bb6450d35f6f995c747adb12857009",
+              "role": "Actual earlier new encounter frame ST02; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/st-recent.png",
+              "sha256": "f208f6fc149f21ee7b65b3e26ac72eec19e8fd5dd6ecce3bcf4eaebc0d81ef62",
+              "role": "Tavi and armored opponent identity, elastic gesture and quiet cartoon surfaces."
+            },
+            {
+              "path": "production/encounter-lab/references/style18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/ST03-P.json",
+          "call_sha256": "c314c1a14b529c7264d08c65ab0b64fc202a0dc7256278ac152b09d63a5d46d3",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The low physical sweep, opening hand and body lean read energetically; F1 keeps the contact while simplifying armor and dust.",
+        "The mark returns to the apparent right arm. The shaft meets the lower leg rather than clearly hooking behind the knee."
+      ]
+    },
+    {
+      "id": "ST04",
+      "title": "A laugh between breaths",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "portrait quiet medium",
+      "sequence_id": "ST",
+      "sequence_order": 4,
+      "beat": "consequence",
+      "drawing_direction": "Soft Thunder",
+      "subjects": [
+        "tavi",
+        "bellguard"
+      ],
+      "caption": "The second hit wins a moment, not an effortless victory.",
+      "brief": "Bellguard sits heavily on the pale arena floor, one knee bent, other leg extended, armor intact but dusty, orange pulse completely gone. Tavi kneels a pace away leaning on her hammer's intact shaft, chipped orange face resting on the ground. She is breathless and laughing; he tilts his helmet at her with reluctant respect. Adult proportions and readable hands. No sparks, no floating rubble, broad warm sky and a distant windmill.",
+      "power": {
+        "name": "Second Beat",
+        "description": "One struck surface receives a delayed second impulse, marked by a broad orange ring.",
+        "limitation": "The delay leaves time for an enemy counter; Tavi must remain close enough to exploit the opening.",
+        "growth": [
+          "Vary the delay to break an opponent's rhythm or use the pulse defensively."
+        ]
+      },
+      "references": [
+        "st-recent",
+        "style18"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "ST01",
+        "ST03"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/ST04-F1.png",
+        "sha256": "22a2bfe7c15b34db3da33a52da8a0e645ce4d67f427d66e3474020d797f8c7d8",
+        "attempt_id": "ST04-F1",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/encounter-lab/candidates/ST04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/ST04-F1.png",
+          "sha256": "22a2bfe7c15b34db3da33a52da8a0e645ce4d67f427d66e3474020d797f8c7d8",
+          "attempt_id": "ST04-F1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/ST04-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/ST04-F1.txt",
+          "prompt_sha256": "2f907519bec486ca04ec9f987fc5d5c632a4e50ae9722f951ef5a93dbf7f0638",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/ST04-P.png",
+              "sha256": "43df49fa4cfa872b6a30346bd69fe2c59c68d53892975606be6eab153a8be3b8",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/ST04-F1.json",
+          "call_sha256": "1e174d3ae949d41ff13c21ed704015becb17573017fb399f9a4ca66aa9d60ea3",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "ST04-P",
+          "retry_reason": "New aftermath has excessive speckled wear on skin, armor, hammer and floor despite an appealing laugh. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-02.json",
+            "recorded_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "inspection_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/ST04-P.png",
+          "sha256": "43df49fa4cfa872b6a30346bd69fe2c59c68d53892975606be6eab153a8be3b8",
+          "attempt_id": "ST04-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/ST04-P.png",
+          "prompt_path": "production/encounter-lab/prompts/ST04-P.txt",
+          "prompt_sha256": "2910b6290d7f482c1b7370e9d8372a0d4533e840abe749e5d7736fa5ba8f3f94",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/ST03-P.png",
+              "sha256": "12026d72bd83a6bbbd8581125f1cc2dbd62f9f0a461d03dd6507e0521e37885f",
+              "role": "Actual earlier new encounter frame ST03; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/st-recent.png",
+              "sha256": "f208f6fc149f21ee7b65b3e26ac72eec19e8fd5dd6ecce3bcf4eaebc0d81ef62",
+              "role": "Tavi and armored opponent identity, elastic gesture and quiet cartoon surfaces."
+            },
+            {
+              "path": "production/encounter-lab/references/style18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/ST04-P.json",
+          "call_sha256": "e5a2cf4ba0b6c9aef2612fe2d30fb2ea29898ea55f095dfd3d5e07099b0b7b79",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Laughter and the heavy seated opponent give the encounter personality and breathing room. Finishing preserves the expressions and visible hammer wear.",
+        "The specific hammer chip has become broader scuffing, and some mottled floor texture remains."
+      ]
+    },
+    {
+      "id": "SB01",
+      "title": "A head-on answer",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide side full figures",
+      "sequence_id": "SB",
+      "sequence_order": 1,
+      "beat": "setup",
+      "drawing_direction": "Sunbreak Lancer",
+      "subjects": [
+        "sera",
+        "ilvan"
+      ],
+      "caption": "She can turn what touches the spearhead.",
+      "brief": "Ilvan stands LEFT before the sunlit arch, palm sending a single orange fire pulse horizontally toward Sera at RIGHT beneath the red awning. Sera meets its leading edge with the bronze spearhead and diverts it upward in a short bright curve. Keep palm-source, incoming fire, exact bronze contact and diverted leading edge all visible, with both fighters clear. Two-handed spear grip and contrasting cool Sera/umber rival, no other soldiers.",
+      "power": {
+        "name": "Sunhook / Committed Pulse",
+        "description": "A bronze spearhead turns a committed fire pulse at actual contact; the caster cannot recall its leading front immediately.",
+        "limitation": "The spear can redirect only what its head touches, leaving high-low feints dangerous.",
+        "growth": [
+          "Control a shorter return arc while moving, or deliberately redirect only the pulse's leading edge."
+        ]
+      },
+      "references": [
+        "sb-recent",
+        "style02"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/SB01-R1.png",
+        "sha256": "b71280d338dfb93c4fbd285393d8acf68f5fe77c3317b08e225cb13fb1e25ddf",
+        "attempt_id": "SB01-R1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/SB01-R1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/SB01-P.png",
+          "sha256": "ae6f55755b756e5a6159e2fc439be39e6e57c91400232429369ed7b5046a2089",
+          "attempt_id": "SB01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/SB01-P.png",
+          "prompt_path": "production/encounter-lab/prompts/SB01-P.txt",
+          "prompt_sha256": "7a47e84ade75807bbc028e754a827afaaa5b37db103d561bf399e6d829be3587",
+          "references": [
+            {
+              "path": "production/encounter-lab/references/sb-recent.png",
+              "sha256": "d6cc125334878b16d9d310c125f21a47f2218c21b46836ad158c1a1ef08fd700",
+              "role": "Sera and Sunbreak drawing treatment, spear construction and quiet floor."
+            },
+            {
+              "path": "production/encounter-lab/references/style02.png",
+              "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/SB01-P.json",
+          "call_sha256": "5fef47524c8f7e7aa28c58becf920260e3f43c465b04cbc72d17831e6033d555",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        },
+        {
+          "path": "production/encounter-lab/candidates/SB01-R1.png",
+          "sha256": "b71280d338dfb93c4fbd285393d8acf68f5fe77c3317b08e225cb13fb1e25ddf",
+          "attempt_id": "SB01-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/SB01-R1.png",
+          "prompt_path": "production/encounter-lab/prompts/SB01-R1.txt",
+          "prompt_sha256": "bb50a3ac3dd6fbe64cac1d31d756f8eb6bc7abdbc2f32bbbe06da237c9a5843b",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/SB01-P.png",
+              "sha256": "ae6f55755b756e5a6159e2fc439be39e6e57c91400232429369ed7b5046a2089",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/SB01-R1.json",
+          "call_sha256": "3c3c72b6a5bce6af3f6383f0caa1c2d45b7fb73493feaba44b76e91325b2106f",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "SB01-P",
+          "retry_reason": "Actual native SB01 incorrectly shows burning torn red cape in setup, before low-feint damage in SB02.",
+          "evidence": {
+            "path": "research/encounter-lab/repair-first-evidence.json",
+            "recorded_sha256": null,
+            "inspection_sha256": "209eb23a0823064e424d9469f63aba4379808b9e3d2406f8cf5d01f7b22c73c6",
+            "binding_status": "path recorded in call; bytes hashed at reader inspection only"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The selected repair restores the intact opening cape while preserving one spearhead and the high deflection.",
+        "This establishes a defense more clearly than it establishes the separate limitation of the power."
+      ]
+    },
+    {
+      "id": "SB02",
+      "title": "The low feint",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "portrait close three-quarter",
+      "sequence_id": "SB",
+      "sequence_order": 2,
+      "beat": "commitment",
+      "drawing_direction": "Sunbreak Lancer",
+      "subjects": [
+        "sera",
+        "ilvan"
+      ],
+      "caption": "He sends the next pulse underneath her recovery.",
+      "brief": "Ilvan's high pulse has faded; a newly committed low pulse skims toward Sera's waist from LEFT while her spearhead is still raised at upper RIGHT. She bends desperately away with a shocked focused face, two hands dragging the shaft down. The low flame catches the LOWER RED CAPE HEM and chars it in a broad dark ragged shape. Her body remains clear of the flame. Source palm visible small at far LEFT edge or depth, no disembodied magic. Floor is broad cream with one shadow.",
+      "power": {
+        "name": "Sunhook / Committed Pulse",
+        "description": "A bronze spearhead turns a committed fire pulse at actual contact; the caster cannot recall its leading front immediately.",
+        "limitation": "The spear can redirect only what its head touches, leaving high-low feints dangerous.",
+        "growth": [
+          "Control a shorter return arc while moving, or deliberately redirect only the pulse's leading edge."
+        ]
+      },
+      "references": [
+        "sb-recent",
+        "style02"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "SB01"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/SB02-R1.png",
+        "sha256": "f6eb9a4e954b4cab36a2e82696e734e213257f5e4b7a4812c8bb9be5300d9bd7",
+        "attempt_id": "SB02-R1",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/encounter-lab/candidates/SB02-R1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/SB02-P.png",
+          "sha256": "78845bc7814155eab92bb7ba58f1eb7994b3f0f4d42f3d4b0d4697ef7dd6fcc0",
+          "attempt_id": "SB02-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/SB02-P.png",
+          "prompt_path": "production/encounter-lab/prompts/SB02-P.txt",
+          "prompt_sha256": "2590cfadc34220ddbc397d230444cedb2a31cad3b2492f1ad1386197aee44ec1",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/SB01-R1.png",
+              "sha256": "b71280d338dfb93c4fbd285393d8acf68f5fe77c3317b08e225cb13fb1e25ddf",
+              "role": "Actual earlier new encounter frame SB01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/sb-recent.png",
+              "sha256": "d6cc125334878b16d9d310c125f21a47f2218c21b46836ad158c1a1ef08fd700",
+              "role": "Sera and Sunbreak drawing treatment, spear construction and quiet floor."
+            },
+            {
+              "path": "production/encounter-lab/references/style02.png",
+              "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/SB02-P.json",
+          "call_sha256": "2c25c6bdc9897189e510c64fe2f438fe2bc0f42ecf92b152aeceda49cbac16fd",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        },
+        {
+          "path": "production/encounter-lab/candidates/SB02-R1.png",
+          "sha256": "f6eb9a4e954b4cab36a2e82696e734e213257f5e4b7a4812c8bb9be5300d9bd7",
+          "attempt_id": "SB02-R1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/SB02-R1.png",
+          "prompt_path": "production/encounter-lab/prompts/SB02-R1.txt",
+          "prompt_sha256": "22e13a08f5c06f33c0e7a8d721bae9fb98e2f44105c244cea984ff15ed4633ea",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/SB02-P.png",
+              "sha256": "78845bc7814155eab92bb7ba58f1eb7994b3f0f4d42f3d4b0d4697ef7dd6fcc0",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/SB02-R1.json",
+          "call_sha256": "81236d860e58d01b992b1c74a5546e19e7026ec277511bea72ac6ef81c29c479",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "SB02-P",
+          "retry_reason": "Root and independent native inspection show a new second spearhead contacting low pulse and active high flame, breaking the intended failed high guard and equipment continuity. Sixth and final structural repair.",
+          "evidence": {
+            "path": "research/encounter-lab/repair-causality-evidence.json",
+            "recorded_sha256": "15485b205738241ed484b75a5ee9066abf6933dc494a373884f1fd98318bb4b4",
+            "inspection_sha256": "15485b205738241ed484b75a5ee9066abf6933dc494a373884f1fd98318bb4b4",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The repair removes the duplicate spearhead and the stray high active fire contact. The burned cape and startled face communicate the counter.",
+        "The low front continues off the right edge and its middle path is partly occluded; continued reachability is uncertain."
+      ]
+    },
+    {
+      "id": "SB03",
+      "title": "Return the committed front",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide low side",
+      "sequence_id": "SB",
+      "sequence_order": 3,
+      "beat": "reversal",
+      "drawing_direction": "Sunbreak Lancer",
+      "subjects": [
+        "sera",
+        "ilvan"
+      ],
+      "caption": "The pulse cannot be recalled quickly enough. She turns its leading edge back.",
+      "brief": "Sera has driven the bronze spearhead down into the leading low pulse, both hands visibly on the same continuous shaft. One broad U-shaped return arc bends at that exact metal contact and travels LEFT back into Ilvan's casting forearm while the trailing incoming orange band still connects to his palm. Separate the outgoing high arc from the incoming low band with clear blue/cream negative space. Ilvan's shoulder folds and casting elbow bends sharply, one knee buckling; other arm's bronze shield stays separate. Sera's lower cape hem remains charred. Powerful selective white contact, no multicolored spark cloud.",
+      "power": {
+        "name": "Sunhook / Committed Pulse",
+        "description": "A bronze spearhead turns a committed fire pulse at actual contact; the caster cannot recall its leading front immediately.",
+        "limitation": "The spear can redirect only what its head touches, leaving high-low feints dangerous.",
+        "growth": [
+          "Control a shorter return arc while moving, or deliberately redirect only the pulse's leading edge."
+        ]
+      },
+      "references": [
+        "sb-recent",
+        "style02"
+      ],
+      "paired_ids": [
+        "X04"
+      ],
+      "continuation_dependencies": [
+        "SB01",
+        "SB02"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/SB03-P.png",
+        "sha256": "0c0513c3004a01ac7d0282dc63de14464f609515504addf331149b97007a25a1",
+        "attempt_id": "SB03-P",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/SB03-P.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/SB03-P.png",
+          "sha256": "0c0513c3004a01ac7d0282dc63de14464f609515504addf331149b97007a25a1",
+          "attempt_id": "SB03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/SB03-P.png",
+          "prompt_path": "production/encounter-lab/prompts/SB03-P.txt",
+          "prompt_sha256": "6ef29c78f1c561d64e938e89dcd5b243c5a887b61c470a477f8b19d830e95e70",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/SB01-R1.png",
+              "sha256": "b71280d338dfb93c4fbd285393d8acf68f5fe77c3317b08e225cb13fb1e25ddf",
+              "role": "Actual earlier new encounter frame SB01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/candidates/SB02-R1.png",
+              "sha256": "f6eb9a4e954b4cab36a2e82696e734e213257f5e4b7a4812c8bb9be5300d9bd7",
+              "role": "Actual earlier new encounter frame SB02; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/sb-recent.png",
+              "sha256": "d6cc125334878b16d9d310c125f21a47f2218c21b46836ad158c1a1ef08fd700",
+              "role": "Sera and Sunbreak drawing treatment, spear construction and quiet floor."
+            },
+            {
+              "path": "production/encounter-lab/references/style02.png",
+              "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/SB03-P.json",
+          "call_sha256": "207e2bf00223402aa275e209ab237d40662a7915e483939bd8b6a834a07ace34",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The low spear stance, large flame gesture and recoiling caster suggest a reversal.",
+        "The flame forms a branching shape near the caster rather than a continuous incoming path turning at the spearhead and returning. The intended rule is not demonstrated reliably."
+      ]
+    },
+    {
+      "id": "SB04",
+      "title": "A burned hem, a changed guard",
+      "category": "encounter",
+      "group": "encounter",
+      "scale": "wide quiet medium",
+      "sequence_id": "SB",
+      "sequence_order": 4,
+      "beat": "consequence",
+      "drawing_direction": "Sunbreak Lancer",
+      "subjects": [
+        "sera",
+        "ilvan"
+      ],
+      "caption": "Both have learned the other's limit. The next exchange will be different.",
+      "brief": "Fire has gone. Ilvan kneels LEFT with his casting forearm held close against his chest and shield lowered, alert rather than defeated beyond recovery. Sera stands RIGHT with spear angled down in both hands, charred lower red cape hem clearly visible, braid loosened slightly, breathing hard. The same arch and awning establish unchanged geography; one broad scorch on the stone where the pulse passed. No aura, no blast aftermath carpet.",
+      "power": {
+        "name": "Sunhook / Committed Pulse",
+        "description": "A bronze spearhead turns a committed fire pulse at actual contact; the caster cannot recall its leading front immediately.",
+        "limitation": "The spear can redirect only what its head touches, leaving high-low feints dangerous.",
+        "growth": [
+          "Control a shorter return arc while moving, or deliberately redirect only the pulse's leading edge."
+        ]
+      },
+      "references": [
+        "sb-recent",
+        "style02"
+      ],
+      "paired_ids": [],
+      "continuation_dependencies": [
+        "SB01",
+        "SB03"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/SB04-F1.png",
+        "sha256": "d3e7fbfb8ce3e7f4ef69f363bb50fe68845f8b9e8bfb96c950add42640f00c7c",
+        "attempt_id": "SB04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/SB04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/SB04-F1.png",
+          "sha256": "d3e7fbfb8ce3e7f4ef69f363bb50fe68845f8b9e8bfb96c950add42640f00c7c",
+          "attempt_id": "SB04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/SB04-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/SB04-F1.txt",
+          "prompt_sha256": "d0178138c1278111a795361af3400b03a015775415e4e0daa385a279bcedabdb",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/SB04-P.png",
+              "sha256": "336546544d4316afee48acbcc17e30361d856e1013bb7cfb7f4af400f92cf443",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/SB04-F1.json",
+          "call_sha256": "63b8d101e967730e60de54fec81ef02dcf6513aaf2cfcfdd6b90cbe7529b9751",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "SB04-P",
+          "retry_reason": "Ground scorch has dense granular edges and wall/armor mottling competes with quiet aftermath faces. Root actual native inspected; source-only finish, structural limitations explicitly remain.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-04.json",
+            "recorded_sha256": "f9e653dd3fd31d87e062ea021cd11c1e6a396007ac83c9235a53b81db6cd588e",
+            "inspection_sha256": "f9e653dd3fd31d87e062ea021cd11c1e6a396007ac83c9235a53b81db6cd588e",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/SB04-P.png",
+          "sha256": "336546544d4316afee48acbcc17e30361d856e1013bb7cfb7f4af400f92cf443",
+          "attempt_id": "SB04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/SB04-P.png",
+          "prompt_path": "production/encounter-lab/prompts/SB04-P.txt",
+          "prompt_sha256": "9a54a7a702280a10e63182524f67ad31b80d83554f3ee6d9adb8193da3c90024",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/SB01-R1.png",
+              "sha256": "b71280d338dfb93c4fbd285393d8acf68f5fe77c3317b08e225cb13fb1e25ddf",
+              "role": "Actual earlier new encounter frame SB01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/candidates/SB03-P.png",
+              "sha256": "0c0513c3004a01ac7d0282dc63de14464f609515504addf331149b97007a25a1",
+              "role": "Actual earlier new encounter frame SB03; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/sb-recent.png",
+              "sha256": "d6cc125334878b16d9d310c125f21a47f2218c21b46836ad158c1a1ef08fd700",
+              "role": "Sera and Sunbreak drawing treatment, spear construction and quiet floor."
+            },
+            {
+              "path": "production/encounter-lab/references/style02.png",
+              "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/SB04-P.json",
+          "call_sha256": "c15e4cb615ac827cef90d2d5ff890506eff0eea91fa65adc563b80f9c5de59cf",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The hurt caster and persistent cape burn make the consequence readable. F1 calms architecture and ground while keeping the charred trail.",
+        "The foreground scorch remains locally granular. A clear aftermath does not repair the preceding return-path ambiguity."
+      ]
+    },
+    {
+      "id": "X01",
+      "title": "The bind, drawn as a cut",
+      "category": "radical",
+      "group": "radical",
+      "scale": "extreme close graphic",
+      "sequence_id": null,
+      "sequence_order": null,
+      "beat": "standalone",
+      "drawing_direction": "Nightglass",
+      "subjects": [
+        "riven",
+        "vey"
+      ],
+      "caption": "An alternate view of NG03; compare excitement and clarity independently.",
+      "brief": "Show the same NG03 reversal in a genuinely new extreme close composition. Riven's strained face, RIGHT saber to glaive contact, and Vey's compressed shoulder/face dominate. Flatten supporting architecture into a broad ivory field and sharply cut black directional shapes; cyan stays concentrated at metal contact. Keep exact actors, equipment and cracked LEFT guard but allow deliberate speed abstraction. The impulse should read through the opponent's distorted posture, not a giant flash.",
+      "power": {
+        "name": "Borrowed Beat",
+        "description": "A metal parry stores a short impulse, released through the next weapon contact.",
+        "limitation": "Only one contact can hold the charge; the injured supporting arm stays injured.",
+        "growth": [
+          "Learn to release a smaller pulse early to interrupt a counter instead of waiting for a finishing blow."
+        ]
+      },
+      "references": [
+        "ng-recent",
+        "nightglass",
+        "riven"
+      ],
+      "paired_ids": [
+        "NG03"
+      ],
+      "continuation_dependencies": [
+        "NG03"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/X01-F1.png",
+        "sha256": "d66379a76c1b393e9d8db2c9a472db5aedcd5ae208831b018966ad25131baa9c",
+        "attempt_id": "X01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/X01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/X01-F1.png",
+          "sha256": "d66379a76c1b393e9d8db2c9a472db5aedcd5ae208831b018966ad25131baa9c",
+          "attempt_id": "X01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/X01-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/X01-F1.txt",
+          "prompt_sha256": "2d60ad82370cf6d3680646c01b51e650544012d778e988762416a620ada033ec",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/X01-P.png",
+              "sha256": "2d7a5ddb96a7b377c044a53b745c753f839c9e3eee2ace797cdcd6d96f1e084c",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/X01-F1.json",
+          "call_sha256": "6322c10fb8744309028e1ecec586f4d3514858002de2a8c2d4393020098edae0",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "X01-P",
+          "retry_reason": "Close-up has attractive faces and weapon danger but busy silver armor scratches and faceted black surfaces compete. Root native inspected; source-only finish retains structural caveats.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-03.json",
+            "recorded_sha256": "09d3683eed3ede05cc33a21fb1ec1a254131e548e52abbb47e96ea343e660bc4",
+            "inspection_sha256": "09d3683eed3ede05cc33a21fb1ec1a254131e548e52abbb47e96ea343e660bc4",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/X01-P.png",
+          "sha256": "2d7a5ddb96a7b377c044a53b745c753f839c9e3eee2ace797cdcd6d96f1e084c",
+          "attempt_id": "X01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/X01-P.png",
+          "prompt_path": "production/encounter-lab/prompts/X01-P.txt",
+          "prompt_sha256": "067b88b971e660b18dae8e98ff3a72a6ccef8cf0f02f5d9f8c2f04f4be3108ae",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/NG03-R1.png",
+              "sha256": "bef94b59d83dacd2331b793507eb669b30bc2e2200cbdecee61e4f2614a2ceb5",
+              "role": "Actual earlier new encounter frame NG03; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/ng-recent.png",
+              "sha256": "f3a5f714c8990d7f78f05cb4e9d9e0429dfa94ef9d27f96458bd3dd0676b73ed",
+              "role": "Riven identity and current drawing/impact treatment; create new choreography."
+            },
+            {
+              "path": "production/encounter-lab/references/nightglass.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original full Nightglass; drawing and world benchmark, not cast selection"
+            },
+            {
+              "path": "production/encounter-lab/references/riven.png",
+              "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+              "role": "Recurring adult identity and saber construction only"
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/X01-P.json",
+          "call_sha256": "836c168faa4d131412398590319cca4d48dbb98796cd91065a7ea176d43c4cda",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Closer faces and crossed weapons heighten strain. The finish removes pervasive armor scratches while retaining contact and expressions.",
+        "This is primarily a close framing experiment, not full graphic abstraction. Both rival hands grip the weapon again, unlike the linked disarm moment. F1 smooths a conspicuous chipped edge on the raised sword-arm guard; that was already doubtful injury placement, so this changed damage is a finishing tradeoff rather than proven continuity improvement."
+      ]
+    },
+    {
+      "id": "X02",
+      "title": "White blade, black support",
+      "category": "radical",
+      "group": "radical",
+      "scale": "portrait graphic horror",
+      "sequence_id": null,
+      "sequence_order": null,
+      "beat": "standalone",
+      "drawing_direction": "Black Petal",
+      "subjects": [
+        "mael",
+        "hollow-orchid"
+      ],
+      "caption": "An alternate view of BP03; compare excitement and clarity independently.",
+      "brief": "A genuinely new vertical steep-overhead view of BP03's exposed shadow cut. Huge broad black petal shapes frame pale Mael as she reaches under the lifted ivory claw. Her single thin blade crosses the taut black tendon on a nearly plain pale strip; severed ends part and the bent limb carries the collapse. Preserve sophisticated horror treatment and torn coat. Reduce glasshouse to a few long ribs. Radical negative space, beautiful face still identifiable where visible.",
+      "power": {
+        "name": "Sever the Support",
+        "description": "A precise estoc cut severs a load-bearing shadow while it crosses lit stone.",
+        "limitation": "The exposed shadow can be covered by the creature's claw; slashing armored petals does nothing.",
+        "growth": [
+          "Identify which shadow carries weight while the creature changes its stance."
+        ]
+      },
+      "references": [
+        "bp-recent",
+        "style19"
+      ],
+      "paired_ids": [
+        "BP03"
+      ],
+      "continuation_dependencies": [
+        "BP03"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/X02-F1.png",
+        "sha256": "d3879c6fb6d0f4eb1aa671a3487f7129f47a1971b2c45f70f37844e2b06dad76",
+        "attempt_id": "X02-F1",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/encounter-lab/candidates/X02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/X02-F1.png",
+          "sha256": "d3879c6fb6d0f4eb1aa671a3487f7129f47a1971b2c45f70f37844e2b06dad76",
+          "attempt_id": "X02-F1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/X02-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/X02-F1.txt",
+          "prompt_sha256": "7a1ee408b6a664a2b8747299334f03891515d64f31d223f4c0d84205a098de87",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/X02-P.png",
+              "sha256": "82789954a13cfb8466124304029df6b24f3c8b33a05e0a116d7d1684bdcbe10b",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/X02-F1.json",
+          "call_sha256": "9db3cd8b22e733011e9581ee9bc33baff3049581d301eec2a20ed9b41787aa7e",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "X02-P",
+          "retry_reason": "Overhead design has clear striking framing but dense pale floor grain, mask crack webs and fine petal lines. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-02.json",
+            "recorded_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "inspection_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/X02-P.png",
+          "sha256": "82789954a13cfb8466124304029df6b24f3c8b33a05e0a116d7d1684bdcbe10b",
+          "attempt_id": "X02-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/X02-P.png",
+          "prompt_path": "production/encounter-lab/prompts/X02-P.txt",
+          "prompt_sha256": "330729327e54d5c3d58d99a83b626f8bfa4fc6a2b2804380411d576ad64c85a9",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/BP03-P.png",
+              "sha256": "7f51bf6a863ccbf86c479892010873a4a2ad9b54048547bb86f171b371703ae1",
+              "role": "Actual earlier new encounter frame BP03; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/bp-recent.png",
+              "sha256": "c7f37c6527e2baeb110725251df51b15814d82e8fc6ed9853ef4c3ebd61b6301",
+              "role": "Mael, creature and Black Petal surface treatment; clarify actual hand ownership."
+            },
+            {
+              "path": "production/encounter-lab/references/style19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/X02-P.json",
+          "call_sha256": "0d2bc29acc593e7b3498ced80173ce180571b668e696998194fdcffbdadb914b",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The overhead claw and dark framing create strong scale pressure. F1 leaves a much calmer ground plane.",
+        "The blade hits a dark junction instead of showing the clean separated gap of BP03. Weapon hand and extent of coat damage differ from the opening."
+      ]
+    },
+    {
+      "id": "X03",
+      "title": "A turn larger than the frame",
+      "category": "radical",
+      "group": "radical",
+      "scale": "extreme foreshortened cartoon",
+      "sequence_id": null,
+      "sequence_order": null,
+      "beat": "standalone",
+      "drawing_direction": "Soft Thunder",
+      "subjects": [
+        "tavi",
+        "bellguard"
+      ],
+      "caption": "An alternate view of ST03; compare excitement and clarity independently.",
+      "brief": "A genuinely new view of ST03 from near Bellguard's buckling knee, with an enormous foreground boot and Tavi's compressed twisting figure beneath the opening guard. ONE broad orange hooked motion shape follows shoulder rotation into knee collapse; retain a clear final physical pose rather than duplicated limbs. Hammer shaft/hand contact visible, chipped orange head included, clean sky masses. Lean into intentional squash/stretch, preserve adult anatomy and the source's broad outlined cartoon drawing. The orange motion hook describes body rotation only, not a magic conduit into the knee. The physical hammer shaft must visibly touch behind Bellguard RIGHT knee; the released ring belongs to his LEFT forearm.",
+      "power": {
+        "name": "Second Beat",
+        "description": "One struck surface receives a delayed second impulse, marked by a broad orange ring.",
+        "limitation": "The delay leaves time for an enemy counter; Tavi must remain close enough to exploit the opening.",
+        "growth": [
+          "Vary the delay to break an opponent's rhythm or use the pulse defensively."
+        ]
+      },
+      "references": [
+        "st-recent",
+        "style18"
+      ],
+      "paired_ids": [
+        "ST03"
+      ],
+      "continuation_dependencies": [
+        "ST03"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/X03-P.png",
+        "sha256": "08bf1c3583c0f10c2cd0ed314dc026db3fc0a095599f7e0a73fc2a0e4a782f2b",
+        "attempt_id": "X03-P",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/encounter-lab/candidates/X03-P.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/X03-F1.png",
+          "sha256": "2041734b559e00d77f6f93d08fd75948d46882d64f98107a43e47acf0126c1c1",
+          "attempt_id": "X03-F1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/X03-F1.png",
+          "prompt_path": "production/encounter-lab/prompts/X03-F1.txt",
+          "prompt_sha256": "2b23723c9c8d4e04b00d6129506a116675e159fe0779dd00dfc8a7608e2b32b0",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/X03-P.png",
+              "sha256": "08bf1c3583c0f10c2cd0ed314dc026db3fc0a095599f7e0a73fc2a0e4a782f2b",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/X03-F1.json",
+          "call_sha256": "3871cd9654e37fc108dd7795bbf20e86a0a4e22e7c1f287f893b3105bee44280",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json",
+          "retry_of": "X03-P",
+          "retry_reason": "Extreme near boot and armor carry all-over microfacets with busy dust and floor grains. Root actual native inspected; source-only finish, structural limitations explicitly remain.",
+          "evidence": {
+            "path": "research/encounter-lab/finish-evidence-04.json",
+            "recorded_sha256": "f9e653dd3fd31d87e062ea021cd11c1e6a396007ac83c9235a53b81db6cd588e",
+            "inspection_sha256": "f9e653dd3fd31d87e062ea021cd11c1e6a396007ac83c9235a53b81db6cd588e",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/encounter-lab/candidates/X03-P.png",
+          "sha256": "08bf1c3583c0f10c2cd0ed314dc026db3fc0a095599f7e0a73fc2a0e4a782f2b",
+          "attempt_id": "X03-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/encounter-lab/candidates/X03-P.png",
+          "prompt_path": "production/encounter-lab/prompts/X03-P.txt",
+          "prompt_sha256": "32cd90824c3d37faa8c4fdae343ebb104ea515a650df99cc309a391f72b5f4ef",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/ST03-P.png",
+              "sha256": "12026d72bd83a6bbbd8581125f1cc2dbd62f9f0a461d03dd6507e0521e37885f",
+              "role": "Actual earlier new encounter frame ST03; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/st-recent.png",
+              "sha256": "f208f6fc149f21ee7b65b3e26ac72eec19e8fd5dd6ecce3bcf4eaebc0d81ef62",
+              "role": "Tavi and armored opponent identity, elastic gesture and quiet cartoon surfaces."
+            },
+            {
+              "path": "production/encounter-lab/references/style18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/X03-P.json",
+          "call_sha256": "ed443702990a5d195caf65112b28e4266488c7d7b0feda6152034ca48ab4bc9f",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Extreme foreshortening and the huge near boot make this a useful radical comparison.",
+        "The hammer head meets the lower leg, not the intended shaft-to-knee sweep; the arm mark remains inconsistent.",
+        "F1 greatly calms armor and ground but erases visible pale damage on the orange hammer face. P remains the default to preserve this story detail; both attempts are available."
+      ]
+    },
+    {
+      "id": "X04",
+      "title": "The return arc owns the sky",
+      "category": "radical",
+      "group": "radical",
+      "scale": "extreme wide graphic",
+      "sequence_id": null,
+      "sequence_order": null,
+      "beat": "standalone",
+      "drawing_direction": "Sunbreak Lancer",
+      "subjects": [
+        "sera",
+        "ilvan"
+      ],
+      "caption": "An alternate view of SB03; compare excitement and clarity independently.",
+      "brief": "A genuinely new distant silhouette view of SB03's return on the cream court. Small recognizable Sera at RIGHT and Ilvan at LEFT, a vast but single disciplined orange U-shaped flame front between them against a mostly deep blue sky. Distinguish lower incoming band and upper return with broad negative space; the turn touches Sera's bronze spearhead, returned front touches Ilvan's recoiling arm. Architecture a few warm flat masses, charred cape silhouette still marked. Test power scale and simplicity without losing source-contact-target.",
+      "power": {
+        "name": "Sunhook / Committed Pulse",
+        "description": "A bronze spearhead turns a committed fire pulse at actual contact; the caster cannot recall its leading front immediately.",
+        "limitation": "The spear can redirect only what its head touches, leaving high-low feints dangerous.",
+        "growth": [
+          "Control a shorter return arc while moving, or deliberately redirect only the pulse's leading edge."
+        ]
+      },
+      "references": [
+        "sb-recent",
+        "style02"
+      ],
+      "paired_ids": [
+        "SB03"
+      ],
+      "continuation_dependencies": [
+        "SB03"
+      ],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/encounter-lab/candidates/X04-P.png",
+        "sha256": "75680af6a8ac9948f101bfc2f9e7780485a369187c82a6287a4185c7f312d3b8",
+        "attempt_id": "X04-P",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/encounter-lab/candidates/X04-P.png"
+      },
+      "history": [
+        {
+          "path": "production/encounter-lab/candidates/X04-P.png",
+          "sha256": "75680af6a8ac9948f101bfc2f9e7780485a369187c82a6287a4185c7f312d3b8",
+          "attempt_id": "X04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/encounter-lab/candidates/X04-P.png",
+          "prompt_path": "production/encounter-lab/prompts/X04-P.txt",
+          "prompt_sha256": "a034676535ed9e024fcc9737019afc2954be076c3a3fd3af12bbc3637be31ffd",
+          "references": [
+            {
+              "path": "production/encounter-lab/candidates/SB03-P.png",
+              "sha256": "0c0513c3004a01ac7d0282dc63de14464f609515504addf331149b97007a25a1",
+              "role": "Actual earlier new encounter frame SB03; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+            },
+            {
+              "path": "production/encounter-lab/references/sb-recent.png",
+              "sha256": "d6cc125334878b16d9d310c125f21a47f2218c21b46836ad158c1a1ef08fd700",
+              "role": "Sera and Sunbreak drawing treatment, spear construction and quiet floor."
+            },
+            {
+              "path": "production/encounter-lab/references/style02.png",
+              "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+              "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+            }
+          ],
+          "call_path": "production/encounter-lab/calls/X04-P.json",
+          "call_sha256": "2311adbbf5eb971d25f8a3c297f84ab570774d43c98fcc5d5c960931e777e809",
+          "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+          "plan_path": "production/encounter-lab/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The huge high and low fire lanes create a much stronger sense of encounter scale.",
+        "The low lane ends near the greave while the upper lane meets the raised spear. Those separate contacts do not form a readable single-point redirected loop."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "nightglass",
+      "title": "Nightglass",
+      "path": "production/encounter-lab/references/nightglass.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/references/nightglass.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original full Nightglass; drawing and world benchmark, not cast selection",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/nightglass.png"
+    },
+    {
+      "id": "riven",
+      "title": "Riven",
+      "path": "production/encounter-lab/references/riven.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "role": "Recurring adult identity and saber construction only",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/riven.png"
+    },
+    {
+      "id": "style02",
+      "title": "Sunbreak Lancer original full anchor",
+      "path": "production/encounter-lab/references/style02.png",
+      "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/references/style02.png",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering.",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/style02.png"
+    },
+    {
+      "id": "style05",
+      "title": "Iron Orchard original full anchor",
+      "path": "production/encounter-lab/references/style05.png",
+      "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/references/style05.png",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering.",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/style05.png"
+    },
+    {
+      "id": "style18",
+      "title": "Soft Thunder original full anchor",
+      "path": "production/encounter-lab/references/style18.png",
+      "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/references/style18.png",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering.",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/style18.png"
+    },
+    {
+      "id": "style19",
+      "title": "Black Petal original full anchor",
+      "path": "production/encounter-lab/references/style19.png",
+      "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/references/style19.png",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering.",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/style19.png"
+    },
+    {
+      "id": "ng-recent",
+      "title": "ng-recent",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/candidates/M01-P.png",
+      "path": "production/encounter-lab/references/ng-recent.png",
+      "sha256": "f3a5f714c8990d7f78f05cb4e9d9e0429dfa94ef9d27f96458bd3dd0676b73ed",
+      "role": "Riven identity and current drawing/impact treatment; create new choreography.",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/ng-recent.png"
+    },
+    {
+      "id": "bp-recent",
+      "title": "bp-recent",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/candidates/Y01-F1.png",
+      "path": "production/encounter-lab/references/bp-recent.png",
+      "sha256": "c7f37c6527e2baeb110725251df51b15814d82e8fc6ed9853ef4c3ebd61b6301",
+      "role": "Mael, creature and Black Petal surface treatment; clarify actual hand ownership.",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/bp-recent.png"
+    },
+    {
+      "id": "io-recent",
+      "title": "io-recent",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/candidates/Y02-F1.png",
+      "path": "production/encounter-lab/references/io-recent.png",
+      "sha256": "6cb8560424cc4efa8ad476b9cb9b81415b3a4f1e4ad4ec57cc40c9dbaf0902f6",
+      "role": "Orren and iron boar identity, opaque brush treatment and quiet ground.",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/io-recent.png"
+    },
+    {
+      "id": "st-recent",
+      "title": "st-recent",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/candidates/Y03-F1.png",
+      "path": "production/encounter-lab/references/st-recent.png",
+      "sha256": "f208f6fc149f21ee7b65b3e26ac72eec19e8fd5dd6ecce3bcf4eaebc0d81ef62",
+      "role": "Tavi and armored opponent identity, elastic gesture and quiet cartoon surfaces.",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/st-recent.png"
+    },
+    {
+      "id": "sb-recent",
+      "title": "sb-recent",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/candidates/Y04-F1.png",
+      "path": "production/encounter-lab/references/sb-recent.png",
+      "sha256": "d6cc125334878b16d9d310c125f21a47f2218c21b46836ad158c1a1ef08fd700",
+      "role": "Sera and Sunbreak drawing treatment, spear construction and quiet floor.",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/encounter-lab/references/sb-recent.png"
+    }
+  ],
+  "plan_sources": [
+    {
+      "path": "production/encounter-lab/plan.json",
+      "sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0"
+    }
+  ],
+  "previous": {
+    "label": "Earlier character choices",
+    "sha256": "9e459455fffb729aac13a8c3384d6b0b4d4f6f025c6a032d29a912cf0d5acee4",
+    "path": "production/encounter-lab/previous/ce-selection.json",
+    "download_src": "../../production/encounter-lab/previous/ce-selection.json",
+    "export": {
+      "schema": "CombatExplorationChoices/1",
+      "experiment_id": "CE-20260908-01",
+      "dataset_sha256": "48cbeb3a6ce661756ec0e570866621977fe25443ad9c769ced144505f1d6cffd",
+      "plan_sha256": "6a9d99c1b41be18d7b6692272bce4c090a974d3a47531b9ae62f0bc3aebf323b",
+      "source_bindings": [
+        {
+          "id": "01-C1",
+          "attempt_id": "01-C1-P",
+          "sha256": "901f0609451fbbbd5a53181aedb9f9ed1ca23fadfd7ffeea3f55d56cb5f12820"
+        },
+        {
+          "id": "01-C2",
+          "attempt_id": "01-C2-P",
+          "sha256": "cab2e3ac8d3f9cf75450b935783bb130dfb268881c9c8c547cd4784e648e7c41"
+        },
+        {
+          "id": "02-C1",
+          "attempt_id": "02-C1-R1",
+          "sha256": "9a64f6aef6c45cf1a87fa665a9e29bb1a9d51e66ee2af409bd7ec670aa3d1c68"
+        },
+        {
+          "id": "02-C2",
+          "attempt_id": "02-C2-P",
+          "sha256": "b888b04ad3fbce4ec5d8c20b2338de67f69a7fed40980f099c2a968554bf70fa"
+        },
+        {
+          "id": "05-C1",
+          "attempt_id": "05-C1-P",
+          "sha256": "fa1e93b4dfb72f7149901c2a943a291bb6fca784caa719ec00cb9d313f977b68"
+        },
+        {
+          "id": "05-C2",
+          "attempt_id": "05-C2-P",
+          "sha256": "0eba7131599f3e9dbb3dbef02e56c6319a3544c2320cf75da3bcf097ef0bdcd6"
+        },
+        {
+          "id": "06-C1",
+          "attempt_id": "06-C1-P",
+          "sha256": "fe4907eb44c6a2249c08f2f7cdd55d4ea6314bc744abc968bf5f6d9c7aadc7b9"
+        },
+        {
+          "id": "06-C2",
+          "attempt_id": "06-C2-P",
+          "sha256": "e7da8a6aa738c7cad1f807724d29bfe6dde857d08cabb9e70ce004035bafeb86"
+        },
+        {
+          "id": "13-C1",
+          "attempt_id": "13-C1-P",
+          "sha256": "c9e7a84c3c732bf5e9f9eaef25eccdcd83f370a3db39d4cb1b4f31526fe13571"
+        },
+        {
+          "id": "13-C2",
+          "attempt_id": "13-C2-P",
+          "sha256": "bbd0549eeddcda00f6c33a0b34c851a521a8f13a20ad86c93928eca4a77d3b4c"
+        },
+        {
+          "id": "15-C1",
+          "attempt_id": "15-C1-P",
+          "sha256": "fe6c43e17ecfa6bd8845b16ddc88a112c6e351562cc2bc3b022dba6df7bec17b"
+        },
+        {
+          "id": "15-C2",
+          "attempt_id": "15-C2-P",
+          "sha256": "b70a14a6e8f03353eb83f0a3c5f95c7f9b08a9659986e91cbfc618e623d28f95"
+        },
+        {
+          "id": "17-C1",
+          "attempt_id": "17-C1-P",
+          "sha256": "401e327a2d8f35d90aeb522b7f98810ffcb1b06d1f1389352b8440e841e0a067"
+        },
+        {
+          "id": "17-C2",
+          "attempt_id": "17-C2-P",
+          "sha256": "ba028c8589df253f7d494bb33ee0c447cd9ab9bfe4091fa25c65c259440d4e2d"
+        },
+        {
+          "id": "18-C1",
+          "attempt_id": "18-C1-P",
+          "sha256": "ec160981c21a03bd144417b893639968cab19fa50e80d4f30b29e0b1120e93c4"
+        },
+        {
+          "id": "18-C2",
+          "attempt_id": "18-C2-P",
+          "sha256": "f14945415f9dfd5d6c502c1def4c615e38700af62cfaed5217249a365923360d"
+        },
+        {
+          "id": "19-C1",
+          "attempt_id": "19-C1-R1",
+          "sha256": "29249e504545d6e8052ee64b9a5cd0ce1752321fbd29dbeb7383227c464c2b89"
+        },
+        {
+          "id": "19-C2",
+          "attempt_id": "19-C2-P",
+          "sha256": "ceb9ab8195d28bd8b9df035c1f452570e857a10924c46411a534b4c5a3e72a3c"
+        }
+      ],
+      "exported_at": "2026-09-08T02:10:01.570Z",
+      "choices": {
+        "01-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "01-C2": {
+          "character": "unsure",
+          "style": "like",
+          "weapon": "dislike",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": false
+        },
+        "02-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "02-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "05-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "05-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "06-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "06-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "13-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "13-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "15-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "15-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "17-C1": {
+          "character": "dislike",
+          "style": "like",
+          "weapon": "like",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "17-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "dislike",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "18-C1": {
+          "character": "dislike",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "18-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "19-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "19-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        }
+      }
+    }
+  },
+  "available_count": 24,
+  "total_count": 24,
+  "owner_approval": null,
+  "review_notes_sha256": "aa256c54c53d8ba8c637666e43f17f713b1ed2cab25c756bab7c97f92d83c755",
+  "report_links": [
+    {
+      "label": "Study details",
+      "path": "../../research/encounter-lab/START_HERE.md"
+    },
+    {
+      "label": "Results & observations",
+      "path": "../../research/encounter-lab/RESULTS.md"
+    },
+    {
+      "label": "Drawing reference comparison",
+      "path": "reference-comparison/index.html"
+    }
+  ]
+}

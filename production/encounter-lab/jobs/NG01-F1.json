@@ -1,0 +1,21 @@
+{
+  "id": "NG01",
+  "attempt_id": "NG01-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "NG01-P",
+  "retry_reason": "The fine floor grain and repeated paving noise remain visible natively and compete with low blade contact at phone scale. Root actual native views and phone-captures/7ccf3b812b6f inspected; this is surface-only, not a claim to fix structural issues.",
+  "evidence_path": "research/encounter-lab/finish-evidence-01.json",
+  "evidence_sha256": "3761f68dfc613bbd083497621adc2631613e470487e0e3d1e275b0519746df25",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: Riven and Vey faces, complete visible limb contours, right-hand cyan saber, intact guards, glaive head/shaft/two grips, exact low blade contact, arch/banner/city depth, moon and directional cast shadows..\nFocus the simplification on: Paving grain and micro-scratches, wall microfacets, tiny sky-cloud flecks and equal-weight hair strands. Ground must remain dry matte broad planes within existing perspective seams; preserve major shadows..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/encounter-lab/prompts/NG01-F1.txt",
+  "prompt_sha256": "b3db7145f68a824ba22906e0d9214a8cfd571097e4691f3b384429a2ab1ed801",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/NG01-P.png",
+      "sha256": "699accafe21ad90f18b043691559ce0a5f9e0d1ddb9ec83b2a477f0645852394",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

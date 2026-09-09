@@ -1,0 +1,20 @@
+{
+  "id": "BP01",
+  "attempt_id": "BP01-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "source_attempt_id": "BP01-P",
+  "reason": "Actual native BP01 shows large pre-existing coat cutouts before authored beat2 tear; weapon laterality unclear. Independent native-BP01-P.json corroborates.",
+  "evidence_path": "research/encounter-lab/repair-first-evidence.json",
+  "prompt": "Use case: precise-object-edit. Edit this sole source image, preserving its elegant Black Petal painting, beautiful adult woman's exact face/hair/costume design, camera, dramatic near-creature composition, lighting, creature anatomy and intact black shadow tendon. Correct opening-state continuity only: Mael's lower coat tails are whole smooth continuous cloth silhouettes, completely untorn, with no holes or ragged missing sections. This is BEFORE any costume damage. Make her anatomical RIGHT arm visibly hold the same slender estoc with the same silver guard; her left arm is free and readable, a coherent shoulder/elbow/wrist chain in this twisting recovery pose. Preserve the creature's mask, huge black petals, ivory arms/claws, existing footprints and the intact long black ground tendon. Keep her gaze following the black support and preserve the small superficial scratch on the ivory near forelimb. No other redesign, no future damage, no blood. One full landscape artwork, no inset or text.\n",
+  "prompt_path": "production/encounter-lab/prompts/BP01-R1.txt",
+  "prompt_sha256": "da41a08072db975926d6deaa90a372fe2f20814f84e436fbc8cf104b5f531e82",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/BP01-P.png",
+      "sha256": "dacc925a1ed8cf41ba314b1d09ce27a793a60da80d5e841f4e1a938135c3cb8f",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

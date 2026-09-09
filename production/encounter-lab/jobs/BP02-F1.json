@@ -1,0 +1,21 @@
+{
+  "id": "BP02",
+  "attempt_id": "BP02-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "BP02-P",
+  "retry_reason": "Native ivory crack web, petal veins and fine glasshouse foliage increase noise near the face and claw. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+  "evidence_path": "research/encounter-lab/finish-evidence-02.json",
+  "evidence_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: Mael face and evading pose, right-hand estoc, left support hand, exact coat tear caught by huge planted claw, covered black tendon, mask and ivory limb construction..\nFocus the simplification on: Repeated ivory micro-cracks, petal vein webbing, tiny foliage and floor grain, leaving key joints/edges and broad material light..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/encounter-lab/prompts/BP02-F1.txt",
+  "prompt_sha256": "59ab25242d2d8c54b91160d37c85cdbf161ae7aae5e2fbb537dac0fb55a763ef",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/BP02-P.png",
+      "sha256": "75bd28dde543703befe38ab43b51be085bb1c75c2707daaf54e5122666e4f519",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

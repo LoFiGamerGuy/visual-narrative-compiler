@@ -1,0 +1,20 @@
+{
+  "id": "SB01",
+  "attempt_id": "SB01-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "source_attempt_id": "SB01-P",
+  "reason": "Actual native SB01 incorrectly shows burning torn red cape in setup, before low-feint damage in SB02.",
+  "evidence_path": "research/encounter-lab/repair-first-evidence.json",
+  "prompt": "Use case: precise-object-edit. Edit this sole source image with one localized correction: restore Sera's red cape to whole intact red cloth, removing all charred edges, burn holes, embers and flames ON THE CAPE ONLY. This is the first exchange, before she takes any damage. Preserve every other feature: exact adult faces and designs, left caster's open palm and bronze shield, right spear fighter's pose, continuous shaft and two grips, bronze spearhead touching the fire at the upward turn, the single orange fire stream from left palm redirected up at spearhead, cream court, arch, awning, palette, broad warm painted drawing, framing and anatomy. Do not remove the actual airborne fire spell. Do not change any camera or action. One full landscape artwork; no text or collage.\n",
+  "prompt_path": "production/encounter-lab/prompts/SB01-R1.txt",
+  "prompt_sha256": "bb50a3ac3dd6fbe64cac1d31d756f8eb6bc7abdbc2f32bbbe06da237c9a5843b",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/SB01-P.png",
+      "sha256": "ae6f55755b756e5a6159e2fc439be39e6e57c91400232429369ed7b5046a2089",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

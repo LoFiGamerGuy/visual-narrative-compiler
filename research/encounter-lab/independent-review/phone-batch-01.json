@@ -1,0 +1,650 @@
+{
+  "schema": "EncounterIndependentPhoneReview/1",
+  "experiment": "EN-20260909-01",
+  "dataset_sha256": "7ccf3b812b6f1efd39e68bd1c5edeb257227af37fb5c3069865263d9b214be62",
+  "coverage": {
+    "actual_phone_attempts": 15,
+    "partial_sequences": 5,
+    "additional_native_attempts": [
+      "ST01-R1",
+      "SB02-P"
+    ],
+    "not_in_phone_dataset": [
+      "NG03-R1",
+      "BP03-P",
+      "IO03-P",
+      "SB02-R1",
+      "ST03-P"
+    ]
+  },
+  "exposure": "Native findings for NG/BP/IO were frozen before this phone review. Root had already supplied specific early repair cues, disclosed in native reports. ST01-R1/SB02-P native views preceded their phone views; corrected-history UI exposes correction-target prose, which is not proof of success. No supplemental ST/SB reviewer report read. This review is independent, not fully blinded.",
+  "owner_approval": null,
+  "phone_receipt_sha256": "4083c25147ae82945b576e887baa77ad37177ff5832c9ceff60237e034458ad9",
+  "sequence_receipt_sha256": "0950c439a67b6c5f88fac60c9d78a1a78e3c28e9a8250c0c17ab66120dc3e6f9",
+  "excluded_capture": "Original history/ has known sticky-header cropping and was not used; history-v2 actual images were inspected.",
+  "entries": {
+    "NG01-P": {
+      "id": "NG01",
+      "attempt_id": "NG01-P",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/NG01-P.png",
+      "source_sha256": "699accafe21ad90f18b043691559ce0a5f9e0d1ddb9ec83b2a477f0645852394",
+      "call_path": "production/encounter-lab/calls/NG01-P.json",
+      "call_sha256": "df63dfd167b27ed7106a68472ece975ec5b5e866185d8df4a7b6011e702e6227",
+      "file": "NG01-P-390.png",
+      "sha256": "bc2e550974f2aaf9d49387dd2e4fdbacafc0522dd168fac5f0d67ceeea9c2be4",
+      "bounds": {
+        "width": 338,
+        "height": 225.328125,
+        "left": 26,
+        "top": 94,
+        "native_width": 1536,
+        "native_height": 1024
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/NG01-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "selective",
+      "observations": [
+        "Small cyan touch and two opposing silhouettes remain readable. Fine floor grain and repeated foreground stone/shadow divisions compete beneath the legs; preserve the broad night lighting and architecture."
+      ]
+    },
+    "NG02-P": {
+      "id": "NG02",
+      "attempt_id": "NG02-P",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/NG02-P.png",
+      "source_sha256": "8f519faafe4fec022c61719f0831999f7c8169784db60e9a28a6d649fa470198",
+      "call_path": "production/encounter-lab/calls/NG02-P.json",
+      "call_sha256": "7e47e433f1bba7b73915225addca7860922a1e6e0c24d37a68842ac687252915",
+      "file": "NG02-P-390.png",
+      "sha256": "03dcb58ffe0160d7638021d048b1db6f72476e6a72bc7b9a1081cf0d5cece4f4",
+      "bounds": {
+        "width": 338,
+        "height": 507,
+        "left": 26,
+        "top": 94,
+        "native_width": 1024,
+        "native_height": 1536
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/NG02-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "selective",
+      "observations": [
+        "Portrait scale makes strained face, cracked left guard and cyan saber clear. Offset upper and lower glaive segments remain conspicuous. Fine hair/armor facets and exposed floor grain can be grouped, without erasing the visible fracture or changing the weapon."
+      ]
+    },
+    "NG03-P": {
+      "id": "NG03",
+      "attempt_id": "NG03-P",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/NG03-P.png",
+      "source_sha256": "cccbc49d4ddfb3df35d38ac83209f7f6b39bfe7ca4fe38f7fe860668ff19fd01",
+      "call_path": "production/encounter-lab/calls/NG03-P.json",
+      "call_sha256": "7dd2d24b05d2689df961d368d117eac3723d4dfef1ba695b4d26fff3d306ce63",
+      "file": "NG03-P-390.png",
+      "sha256": "b79a7ecb2a820a7b8174744a455523b9a6f4c750cf54cb50b4c9445b6fa119ad",
+      "bounds": {
+        "width": 338,
+        "height": 225.328125,
+        "left": 26,
+        "top": 94,
+        "native_width": 1536,
+        "native_height": 1024
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/NG03-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "selective",
+      "observations": [
+        "Phone view still reads a cyan point at Vey\u2019s shoulder, not force transferred through the haft. Broad recoil reads; ground and armor detail compete. This is the retained primary, not the later R1."
+      ]
+    },
+    "BP01-P": {
+      "id": "BP01",
+      "attempt_id": "BP01-P",
+      "displayed": false,
+      "source_path": "production/encounter-lab/candidates/BP01-P.png",
+      "source_sha256": "dacc925a1ed8cf41ba314b1d09ce27a793a60da80d5e841f4e1a938135c3cb8f",
+      "call_path": "production/encounter-lab/calls/BP01-P.json",
+      "call_sha256": "a4075b132ec3020cc5bcbc53c04c64db81358344db9450cea7ee4f556d16825d",
+      "file": "BP01-P-390.png",
+      "sha256": "7c4ecbf05541761448b22ff6906a4d69d1e41605b0fa411cc3d1a7f44f673cbe",
+      "bounds": {
+        "width": 338,
+        "height": 225.328125,
+        "left": 26,
+        "top": 94,
+        "native_width": 1536,
+        "native_height": 1024
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/BP01-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "not_priority",
+      "observations": [
+        "Mask, broad claw and crouching adult remain strong in monochrome. Coat holes and withdrawn weapon remain apparent. Background foliage and petal threads are fine, but the floor mostly reads as broad shapes."
+      ]
+    },
+    "BP01-R1": {
+      "id": "BP01",
+      "attempt_id": "BP01-R1",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/BP01-R1.png",
+      "source_sha256": "54320bcb36e7a6b23ad2af527876afd3991cd8fbe8f1728902b5b4c51c9f4e2c",
+      "call_path": "production/encounter-lab/calls/BP01-R1.json",
+      "call_sha256": "803e4e50704e9d1cbf5500d9ad73f7442b12e40bd680ebf36e49b6f1b0cd810a",
+      "file": "BP01-R1-390.png",
+      "sha256": "1fbe7fb70ef0d8e686c3271dab02bbd11c7f0d8dd4c237f8c0af9c9f4d1ad18f",
+      "bounds": {
+        "width": 338,
+        "height": 225.328125,
+        "left": 26,
+        "top": 94.453125,
+        "native_width": 1536,
+        "native_height": 1024
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/BP01-R1-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "selective_optional",
+      "observations": [
+        "Whole coat and forward right-hand estoc remain distinguishable from P at phone size. Tendon is thin but visible across the floor. Preserve that line; selectively group distant foliage/petal interiors only if finishing, not the already legible broad floor."
+      ]
+    },
+    "BP02-P": {
+      "id": "BP02",
+      "attempt_id": "BP02-P",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/BP02-P.png",
+      "source_sha256": "75bd28dde543703befe38ab43b51be085bb1c75c2707daaf54e5122666e4f519",
+      "call_path": "production/encounter-lab/calls/BP02-P.json",
+      "call_sha256": "525e9dd7d2bd2afc71241fe3d3f7a8efcdd10425f80d5e05f489adc0128fb018",
+      "file": "BP02-P-390.png",
+      "sha256": "4f5183814e1b3ddf2f44f8ae15bdade8015fe8fbcd43ca6468a4dd22f9be5bf6",
+      "bounds": {
+        "width": 338,
+        "height": 507,
+        "left": 26,
+        "top": 94,
+        "native_width": 1024,
+        "native_height": 1536
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/BP02-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "selective",
+      "observations": [
+        "Looming ivory hand and Mael\u2019s low dodge dominate clearly; torn coat is visible. Floor grain, background greenhouse foliage and many fine dark petal strands create secondary competition. The exact cloth snag remains obscured and will not be supplied by finishing."
+      ]
+    },
+    "IO01-P": {
+      "id": "IO01",
+      "attempt_id": "IO01-P",
+      "displayed": false,
+      "source_path": "production/encounter-lab/candidates/IO01-P.png",
+      "source_sha256": "f4ab262b1605035df85423316dfca0cac45d9a04b5fa1c18324519d841c2a844",
+      "call_path": "production/encounter-lab/calls/IO01-P.json",
+      "call_sha256": "59573daba26237ae69a99415436926e882717d8fea10c2766c2d673ba75644ab",
+      "file": "IO01-P-390.png",
+      "sha256": "e17982a22e3cbb0eddaac9513135da6d4b1eb16e1f508c31abd05d83ffbea06c",
+      "bounds": {
+        "width": 338,
+        "height": 225.328125,
+        "left": 26,
+        "top": 94,
+        "native_width": 1536,
+        "native_height": 1024
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/IO01-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "retained_only",
+      "observations": [
+        "Dense dappled ground and rusty armor remain busy at phone size. Boar support count needs native inspection; miniature display does not excuse the extra support found there."
+      ]
+    },
+    "IO01-R1": {
+      "id": "IO01",
+      "attempt_id": "IO01-R1",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/IO01-R1.png",
+      "source_sha256": "a26e03139520407581494fd9a78dbc5badc7f43257042b45db37d89721628614",
+      "call_path": "production/encounter-lab/calls/IO01-R1.json",
+      "call_sha256": "113d22b9b0dae5e0c4baa8d6c4fb0920e47b7aaf73e971ff2de2937a9887f63d",
+      "file": "IO01-R1-390.png",
+      "sha256": "f08eafbcb82460c6ffd6c57acbe2a985ce591fc2b8a969dd4aa3aa7c19dca01d",
+      "bounds": {
+        "width": 338,
+        "height": 225.328125,
+        "left": 26,
+        "top": 94.453125,
+        "native_width": 1536,
+        "native_height": 1024
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/IO01-R1-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "priority",
+      "observations": [
+        "Four supports and cleaver/jaw brace remain legible, but mottled rust, foliage and floor shadow confetti compete across almost the entire image. Group interiors and ground into broader value masses while retaining four supports, jaw contact, canal lip and actual clean opening plates."
+      ]
+    },
+    "IO02-P": {
+      "id": "IO02",
+      "attempt_id": "IO02-P",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/IO02-P.png",
+      "source_sha256": "0e4e34e8bcaa2986cc6de1a9ce15796cc24d63d67234e9419bf83f7656c8235c",
+      "call_path": "production/encounter-lab/calls/IO02-P.json",
+      "call_sha256": "a7f7a5099869a296eadb4df87e0a0ba72ba095d00643bebe1a22eebf1ca466b5",
+      "file": "IO02-P-390.png",
+      "sha256": "2d340c35c0b003d441f71919b1588462c538fa15a48b512ed83124720e247d4e",
+      "bounds": {
+        "width": 338,
+        "height": 507,
+        "left": 26,
+        "top": 94,
+        "native_width": 1024,
+        "native_height": 1536
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/IO02-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "priority",
+      "observations": [
+        "Large near boot at canal edge and strained face clearly communicate slipping. Rust/cloth flecks and many sharp floor shadow patches compete with grip and cracked guard. Forearm-to-hand connection remains awkward; texture simplification must not be called its correction."
+      ]
+    },
+    "ST01-P": {
+      "id": "ST01",
+      "attempt_id": "ST01-P",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/ST01-P.png",
+      "source_sha256": "1747b7823732bfd734bd59674a95750ed80aa87ddec8cff43f89a3d2a16c741d",
+      "call_path": "production/encounter-lab/calls/ST01-P.json",
+      "call_sha256": "cb10fb63f35a1f5e759d263c590b746e597c5e8ccdc850f5e0ee3934a141ec9d",
+      "file": "ST01-P-390.png",
+      "sha256": "f967e6498317a8cc21da6bb58376bc4c09b7551e642465da953babf0d8aeccb3",
+      "bounds": {
+        "width": 338,
+        "height": 225.328125,
+        "left": 26,
+        "top": 94,
+        "native_width": 1536,
+        "native_height": 1024
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/ST01-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "none_observed",
+      "observations": [
+        "Joyful face, hammer contact and braced opponent read promptly. Ground, sky and armor already use broad calm shapes. Ring remains on the opening\u2019s wrong anatomical side under the original inspection."
+      ]
+    },
+    "ST01-R1": {
+      "id": "ST01",
+      "attempt_id": "ST01-R1",
+      "displayed": false,
+      "source_path": "production/encounter-lab/candidates/ST01-R1.png",
+      "source_sha256": "c307a97815ad8c896d4795c708839756921590a5baa84d9d5f31e8edd7d366f5",
+      "call_path": "production/encounter-lab/calls/ST01-R1.json",
+      "call_sha256": "6383847f4828d5dd48118c6e00e371f787daaf1d3db8bd8ea4d4b5ef8a1dd321",
+      "file": "ST01-R1-390.png",
+      "sha256": "e4dd30f4620ab1e1b4976d3837418b7699767d0e2278531061184c8b261b17ed",
+      "bounds": {
+        "width": 338,
+        "height": 225.328125,
+        "left": 26,
+        "top": 94.453125,
+        "native_width": 1536,
+        "native_height": 1024
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/ST01-R1-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "none_observed",
+      "observations": [
+        "Two grips, chipped head, grin and broad ground survive. Raised ringed arm still occupies screen-left and crosses the torso; shoulder-to-elbow tracing does not establish a clean successful anatomical side swap. Do not infer correction from the repair label. No surface pass needed from this view."
+      ]
+    },
+    "ST02-P": {
+      "id": "ST02",
+      "attempt_id": "ST02-P",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/ST02-P.png",
+      "source_sha256": "b2380aa2f237aabcb339c674499398d556bb6450d35f6f995c747adb12857009",
+      "call_path": "production/encounter-lab/calls/ST02-P.json",
+      "call_sha256": "1d24329e8aecb52e028bacad750d1cf56e05b70624cc7e7394195b37c51dc3c7",
+      "file": "ST02-P-390.png",
+      "sha256": "bf95a027a5ee3f6d5e6f02670c1f7e78c92deaf58f42bf6f5d48ae1212b92c1e",
+      "bounds": {
+        "width": 338,
+        "height": 507,
+        "left": 26,
+        "top": 94,
+        "native_width": 1024,
+        "native_height": 1536
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/ST02-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "none_observed",
+      "observations": [
+        "Huge counterfist over the ducking adult is the strongest immediately readable movement of these partial strips. Left ring and right punch are visible; original opening\u2019s side discontinuity remains. Ground scratches are subordinate to broad forms, not a clear finish priority."
+      ]
+    },
+    "SB01-P": {
+      "id": "SB01",
+      "attempt_id": "SB01-P",
+      "displayed": false,
+      "source_path": "production/encounter-lab/candidates/SB01-P.png",
+      "source_sha256": "ae6f55755b756e5a6159e2fc439be39e6e57c91400232429369ed7b5046a2089",
+      "call_path": "production/encounter-lab/calls/SB01-P.json",
+      "call_sha256": "5fef47524c8f7e7aa28c58becf920260e3f43c465b04cbc72d17831e6033d555",
+      "file": "SB01-P-390.png",
+      "sha256": "41e6e7f610a0eee0c87dc856ce44a37f7be19eaae24ac88968333e4527dcfb8f",
+      "bounds": {
+        "width": 338,
+        "height": 225.328125,
+        "left": 26,
+        "top": 94,
+        "native_width": 1536,
+        "native_height": 1024
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/SB01-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "retained_only",
+      "observations": [
+        "Palm-to-fire-to-spear upward curve reads well; prematurely burning cape is still visible. Broad warm ground is calm."
+      ]
+    },
+    "SB01-R1": {
+      "id": "SB01",
+      "attempt_id": "SB01-R1",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/SB01-R1.png",
+      "source_sha256": "b71280d338dfb93c4fbd285393d8acf68f5fe77c3317b08e225cb13fb1e25ddf",
+      "call_path": "production/encounter-lab/calls/SB01-R1.json",
+      "call_sha256": "3c3c72b6a5bce6af3f6383f0caa1c2d45b7fb73493feaba44b76e91325b2106f",
+      "file": "SB01-R1-390.png",
+      "sha256": "4e3a62aa54fc9624ad988c6629ae82ba65223f08165afe21e7658e7d900a1754",
+      "bounds": {
+        "width": 338,
+        "height": 225.328125,
+        "left": 26,
+        "top": 94.453125,
+        "native_width": 1536,
+        "native_height": 1024
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/SB01-R1-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "none_observed",
+      "observations": [
+        "Whole cape restoration is visible at phone size, while casting hand, upward deflection and architecture persist. Broad floor and flame masses read cleanly; no automatic finishing need."
+      ]
+    },
+    "SB02-P": {
+      "id": "SB02",
+      "attempt_id": "SB02-P",
+      "displayed": true,
+      "source_path": "production/encounter-lab/candidates/SB02-P.png",
+      "source_sha256": "78845bc7814155eab92bb7ba58f1eb7994b3f0f4d42f3d4b0d4697ef7dd6fcc0",
+      "call_path": "production/encounter-lab/calls/SB02-P.json",
+      "call_sha256": "2c25c6bdc9897189e510c64fe2f438fe2bc0f42ecf92b152aeceda49cbac16fd",
+      "file": "SB02-P-390.png",
+      "sha256": "fda6ba22821999fa7086ea51a71ba664a5808377d3ee7bf76ad323bafeb90a7a",
+      "bounds": {
+        "width": 338,
+        "height": 507,
+        "left": 26,
+        "top": 94,
+        "native_width": 1024,
+        "native_height": 1536
+      },
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/SB02-P-390.png",
+      "actual_phone_inspected": true,
+      "texture_finish_priority": "selective_optional",
+      "observations": [
+        "Sera\u2019s alarm and scorched trailing cape are clear. Lower fire ribbon and a second metal point at the spear butt produce a confusing interception already occurring below the still-high spear head. Cream armor flecks and char fragments are busy locally, but broad ground is comparatively quiet; any finish must preserve these structural limitations."
+      ]
+    }
+  },
+  "sequences": [
+    {
+      "sequence_id": "NG",
+      "caption_visible": false,
+      "spacing": 24,
+      "file": "NG-strip-390.png",
+      "sha256": "62f769c7c074a7824c90f79d26004f107a9d391fd17bbe1221b85a9f670e289d",
+      "clip": {
+        "x": 0,
+        "y": 341.5,
+        "width": 390,
+        "height": 1338.984375,
+        "scale": 1
+      },
+      "source_bindings": [
+        {
+          "id": "NG01",
+          "attempt_id": "NG01-P",
+          "sha256": "699accafe21ad90f18b043691559ce0a5f9e0d1ddb9ec83b2a477f0645852394"
+        },
+        {
+          "id": "NG02",
+          "attempt_id": "NG02-P",
+          "sha256": "8f519faafe4fec022c61719f0831999f7c8169784db60e9a28a6d649fa470198"
+        },
+        {
+          "id": "NG03",
+          "attempt_id": "NG03-P",
+          "sha256": "cccbc49d4ddfb3df35d38ac83209f7f6b39bfe7ca4fe38f7fe860668ff19fd01"
+        },
+        {
+          "id": "NG04",
+          "attempt_id": null,
+          "sha256": null
+        }
+      ],
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/sequences/NG-strip-390.png",
+      "actual_inspected": true,
+      "observations": [
+        "Three displayed beats vary wide/close/wide and preserve night terrace and adult identity. Injury precedes recoil, but the third P reads a direct shoulder strike. Glaive discontinuity in the close shot and duplicated guard damage remain. No fourth beat exists in this capture."
+      ]
+    },
+    {
+      "sequence_id": "BP",
+      "caption_visible": false,
+      "spacing": 24,
+      "file": "BP-strip-390.png",
+      "sha256": "f3b5aa8289f9808e5caa5d44e0345b79a1126cb3b55e0790a5a08fcd1d412f2e",
+      "clip": {
+        "x": 0,
+        "y": 341.5,
+        "width": 390,
+        "height": 1338.984375,
+        "scale": 1
+      },
+      "source_bindings": [
+        {
+          "id": "BP01",
+          "attempt_id": "BP01-R1",
+          "sha256": "54320bcb36e7a6b23ad2af527876afd3991cd8fbe8f1728902b5b4c51c9f4e2c"
+        },
+        {
+          "id": "BP02",
+          "attempt_id": "BP02-P",
+          "sha256": "75bd28dde543703befe38ab43b51be085bb1c75c2707daaf54e5122666e4f519"
+        },
+        {
+          "id": "BP03",
+          "attempt_id": null,
+          "sha256": null
+        },
+        {
+          "id": "BP04",
+          "attempt_id": null,
+          "sha256": null
+        }
+      ],
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/sequences/BP-strip-390.png",
+      "actual_inspected": true,
+      "observations": [
+        "Clean coat then torn coat produces a visible cost. Crouch-to-lower dodge and looming claw preserve horror appeal; the single hidden tendon rule is subtler than the large hand. Only two beats are available; no severing/collapse phone claim."
+      ]
+    },
+    {
+      "sequence_id": "IO",
+      "caption_visible": false,
+      "spacing": 24,
+      "file": "IO-strip-390.png",
+      "sha256": "091f97f60147f166108f38ad9c11bae62301ccdae9a591b24924d841ca17ff0f",
+      "clip": {
+        "x": 0,
+        "y": 341.5,
+        "width": 390,
+        "height": 1338.984375,
+        "scale": 1
+      },
+      "source_bindings": [
+        {
+          "id": "IO01",
+          "attempt_id": "IO01-R1",
+          "sha256": "a26e03139520407581494fd9a78dbc5badc7f43257042b45db37d89721628614"
+        },
+        {
+          "id": "IO02",
+          "attempt_id": "IO02-P",
+          "sha256": "0e4e34e8bcaa2986cc6de1a9ce15796cc24d63d67234e9419bf83f7656c8235c"
+        },
+        {
+          "id": "IO03",
+          "attempt_id": null,
+          "sha256": null
+        },
+        {
+          "id": "IO04",
+          "attempt_id": null,
+          "sha256": null
+        }
+      ],
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/sequences/IO-strip-390.png",
+      "actual_inspected": true,
+      "observations": [
+        "Wide brace then close slip is an effective change in danger and camera, with canal consistently screen-right. Dense all-over surface patches are the clearest repeated comfort-risk candidate. Only two beats available; arm linkage uncertainty persists."
+      ]
+    },
+    {
+      "sequence_id": "ST",
+      "caption_visible": false,
+      "spacing": 24,
+      "file": "ST-strip-390.png",
+      "sha256": "7b2d3ffb040add30c7dbc2daef34ed139582215283e9de58ec4680ada1718b55",
+      "clip": {
+        "x": 0,
+        "y": 341.5,
+        "width": 390,
+        "height": 1338.984375,
+        "scale": 1
+      },
+      "source_bindings": [
+        {
+          "id": "ST01",
+          "attempt_id": "ST01-P",
+          "sha256": "1747b7823732bfd734bd59674a95750ed80aa87ddec8cff43f89a3d2a16c741d"
+        },
+        {
+          "id": "ST02",
+          "attempt_id": "ST02-P",
+          "sha256": "b2380aa2f237aabcb339c674499398d556bb6450d35f6f995c747adb12857009"
+        },
+        {
+          "id": "ST03",
+          "attempt_id": null,
+          "sha256": null
+        },
+        {
+          "id": "ST04",
+          "attempt_id": null,
+          "sha256": null
+        }
+      ],
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/sequences/ST-strip-390.png",
+      "actual_inspected": true,
+      "observations": [
+        "Hit then duck-under-counter reads quickly and retains humor and physicality. Original P opening and second beat move the ring between arms; repaired opening is not in this strip. Only two beats available, so delayed payoff remains untested."
+      ]
+    },
+    {
+      "sequence_id": "SB",
+      "caption_visible": false,
+      "spacing": 24,
+      "file": "SB-strip-390.png",
+      "sha256": "a4c9aff9f26625a80d0925e2feac4640b478d6e8f662bb7d23c20943bfe82271",
+      "clip": {
+        "x": 0,
+        "y": 341.5,
+        "width": 390,
+        "height": 1338.984375,
+        "scale": 1
+      },
+      "source_bindings": [
+        {
+          "id": "SB01",
+          "attempt_id": "SB01-R1",
+          "sha256": "b71280d338dfb93c4fbd285393d8acf68f5fe77c3317b08e225cb13fb1e25ddf"
+        },
+        {
+          "id": "SB02",
+          "attempt_id": "SB02-P",
+          "sha256": "78845bc7814155eab92bb7ba58f1eb7994b3f0f4d42f3d4b0d4697ef7dd6fcc0"
+        },
+        {
+          "id": "SB03",
+          "attempt_id": null,
+          "sha256": null
+        },
+        {
+          "id": "SB04",
+          "attempt_id": null,
+          "sha256": null
+        }
+      ],
+      "screenshot_path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/sequences/SB-strip-390.png",
+      "actual_inspected": true,
+      "observations": [
+        "High deflection then low cape damage is intelligible as changing threat height, with left arch/right awning retained. Second frame also shows fire at both spear ends, weakening the intended failure-to-intercept progression. Only two beats are shown."
+      ]
+    }
+  ],
+  "additional_native": {
+    "ST01-R1": {
+      "id": "ST01",
+      "attempt_id": "ST01-R1",
+      "path": "production/encounter-lab/candidates/ST01-R1.png",
+      "sha256": "c307a97815ad8c896d4795c708839756921590a5baa84d9d5f31e8edd7d366f5",
+      "width": 1536,
+      "height": 1024,
+      "status": "reviewable-unaccepted",
+      "source_path": "/home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-aa8291bd-4b18-401b-9f26-b49117df5d2e.png",
+      "prompt_path": "production/encounter-lab/prompts/ST01-R1.txt",
+      "prompt_sha256": "25ad67ac671fd72879395fd7d11d4c9a9e1746a92e2797bea9e44cf9fd0df92d",
+      "call_path": "production/encounter-lab/calls/ST01-R1.json",
+      "call_sha256": "6383847f4828d5dd48118c6e00e371f787daaf1d3db8bd8ea4d4b5ef8a1dd321",
+      "owner_approval": null,
+      "actual_native_inspected": true,
+      "observations": [
+        "Native inspection: joyful Tavi, two hammer grips, chipped orange head and grounded armored opponent persist with calm broad surfaces. Raised ring remains screen-left; torso-crossing armor does not clearly establish the requested side swap. I cannot certify side correction from these pixels. No new structural retry requested; budget is exhausted."
+      ]
+    },
+    "SB02-P": {
+      "id": "SB02",
+      "attempt_id": "SB02-P",
+      "path": "production/encounter-lab/candidates/SB02-P.png",
+      "sha256": "78845bc7814155eab92bb7ba58f1eb7994b3f0f4d42f3d4b0d4697ef7dd6fcc0",
+      "width": 1024,
+      "height": 1536,
+      "status": "reviewable-unaccepted",
+      "source_path": "/home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-ab120aae-a71f-4c8e-be70-19d5cd1b01e0.png",
+      "prompt_path": "production/encounter-lab/prompts/SB02-P.txt",
+      "prompt_sha256": "2590cfadc34220ddbc397d230444cedb2a31cad3b2492f1ad1386197aee44ec1",
+      "call_path": "production/encounter-lab/calls/SB02-P.json",
+      "call_sha256": "2c25c6bdc9897189e510c64fe2f438fe2bc0f42ecf92b152aeceda49cbac16fd",
+      "owner_approval": null,
+      "actual_native_inspected": true,
+      "observations": [
+        "Native inspection: attractive alarmed adult face, two spear grips, cape burn and low passing fire create visible cost. Spear now has a second conspicuous pointed butt, and both high head and low point meet fire. Lower fire/point contact muddies the intended missed-low-attack state. Broad ground remains calmer than busy char, cream armor chips and flame subdivisions."
+      ]
+    }
+  },
+  "advice": "Prioritize source-only finishing on IO01-R1 and IO02-P; native-only IO03-P also has clear surface competition per native-batch-03. Selectively calm NG foreground/armor and BP fine foliage/petals, preserving linework and broad lighting. ST01/ST02 and SB01-R1 do not establish a need for automatic finishing. No texture pass can fix NG shaft/force, BP handedness/supports, IO arm connection or ST side continuity."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "BP01",
+  "attempt_id": "BP01-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "BP01-R1",
+  "retry_reason": "Opening repair restored coat and readable right weapon hand; dense petal vein webs, foliage and floor fine-grain remain surrounding the restrained face. Root actual native views and phone-captures/7ccf3b812b6f inspected; this is surface-only, not a claim to fix structural issues.",
+  "evidence_path": "research/encounter-lab/finish-evidence-01.json",
+  "evidence_sha256": "3761f68dfc613bbd083497621adc2631613e470487e0e3d1e275b0519746df25",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: Mael exact face, platinum hair silhouette, whole untorn black coat, right-hand estoc/guard, intact black shadow tendon, pointed ivory mask, current ivory limb/claw construction, glasshouse perspective and shadow direction..\nFocus the simplification on: Fine petal vein webs, repeated ivory crack nets, tiny foliage and paving grain. Preserve large petal edges, expressive face detail, material differences and the faint important scratch on the ivory limb..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/encounter-lab/prompts/BP01-F1.txt",
+  "prompt_sha256": "78e1e85549e2c8056a58b0b6acc2556eb4004d3f1f5add90ac3dae34cb3f0d31",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/BP01-R1.png",
+      "sha256": "54320bcb36e7a6b23ad2af527876afd3991cd8fbe8f1728902b5b4c51c9f4e2c",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

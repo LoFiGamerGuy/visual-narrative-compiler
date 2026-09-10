@@ -1,0 +1,5 @@
+# Lead actual receipt and separate payments review
+
+Root actually viewed all three individual390 captures31–33 and the original-size sheet containing both sequential390 views30–33. Snapshota29a9c7c2f66e6584e4d5009ff43b78baf4a4fa936b36df13a4dbb72519f0c7d. PASS clear Daro LEFT-to-Kiva RIGHT receipt return, Aren seeing the outcome, Kiva's thanks attributed with named continuation band, then two distinct ordinary payments. Even in the short wide tiers, Daro's bare waiting palm and Aren's LEFT-held open cream wallet read as distinct receivers; type does not obscure either contact. One wallet leaves Aren's waist for33, signed slip stays on Kiva's dry bench and her russet money pouch is separate. No numeric price, bonus or rent-savings payment is invented.
+
+Native qualifications persist: key inside the wallet is unexposed; medium payment tiers do not prove floor contacts; minor pocket/harness fittings are not new entrusted items. All33 prior selected records and full266 baseline remain unchanged according to reader proof. Root has now actually read36 individual selected panels and their bounded continuous segments. The final34–37 and full40 read remain pending.

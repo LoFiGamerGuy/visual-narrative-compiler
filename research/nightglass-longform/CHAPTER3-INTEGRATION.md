@@ -7,3 +7,6 @@ The opening signed survey also authorizes this bounded repair; Sera still specif
 This pacing choice remains provisional. Independent reading review is requested before Chapter 3 generation, which itself follows completed readable Chapter 2.
 
 Two independent reviewers found one material location/control gap after condensation. Before art, panel24 now explicitly returns Pell to the established lower pump cabinet, uses his retained key to remove the isolation lock, and restores the same lamp branch. The three other observers remain behind the upper rail. Panel25 establishes Pell’s ordinary-stair return before the empty-lift result. No invented upper lamp switch or still-isolated test remains. Both reviews otherwise supported the causal chain and payoff.
+
+
+Final illustrated40-panel sequence has now passed lead and independent fresh continuous390px reading across24viewports. The actual progression/state records preserve later supported-camera revisions, ordinary worker-role/paper/gear-pose adaptations and qualified geometry rather than pretending every original prompt succeeded. Final full reading reports are LEAD-CHAPTER3-READING.md and editorial/CHAPTER3-FULL-READING-REVIEW.md. The local reply/rest payoff is clear; procedural density remains the main next-chapter storytelling lesson. Final reader status and portable ZIP verification follow this gate.

@@ -16,3 +16,13 @@ Source bindings:
 - `production/nightglass-longform/chapter9/lead/notes/N9-11-P-gear-detail.png`: SHA-256 `f1125de194231071db7295dfe3ed349e4331e578117795a0026bdb4542b090f5`.
 
 Original preserved. No artwork call, crop modification or shared selection edit by this reviewer; this entry does not pre-approve an R1.
+
+## Sole R1 follow-up — 2026-09-10T23:44:59.304785+00:00
+
+Actually viewed the entire 1536×1024 R1. Source `production/nightglass-longform/chapter9/lead/candidates/N9-11-R1.png`, SHA-256 `978635819bb199e5413ad0b0ff0367c32934f1a0d21d683f6eaf0fa88bc2075b`. Independent verdict: PASS with badge-placement qualification.
+
+The exposed RIGHT upper sleeve is intact and the old LEFT upper tear is now visibly present beside the bag. The rigid LEFT hanging rod is gone. One long RIGHT sheath remains with an actually visible hollow mouth; one crescent stays drawn in the RIGHT glove, its round rear pommel exposed. Both boots remain on the departure floor and the empty LEFT glove stays clear. No strand or attack appears. One closed worn bag and one closed waist wallet persist.
+
+Duplicate badge count is fixed, but the retained single rectangular brass/red-cord badge is at RIGHT rear waist. The requested wallet-adjacent LEFT placement was not restored; record this location drift without claiming an exact placement repair. The extra near-arrival lamp is removed, leaving the blue approach clear with one prominent far anchor. Neris remains supported at the departure bench and Sera on ordinary rear access; receiver stays behind the zone.
+
+No further material blocker or justified texture finish found. Original P failures remain recorded; no additional call, crop or shared selection edit by this reviewer.

@@ -1,0 +1,47 @@
+{
+  "id": "N8-23-24-R1",
+  "tool": "image_gen.imagegen",
+  "status": "returned",
+  "phase": "repair",
+  "panels": [
+    "N8-23",
+    "N8-24"
+  ],
+  "args": {
+    "prompt": "Use case: precise-object-edit. Edit original two-tier page (reference1), sole material correction ONLY LOWER24 Aren's sheathed sword side. The one long black/brass scabbard now visible on image RIGHT beside his torn LEFT sleeve is on the WRONG anatomical LEFT hip. REMOVE that entire wrong LEFT-hip sheath and its sword, leaving ordinary trouser/hip contour. Place the SAME ONE long black/brass SHEATHED weapon at his anatomical RIGHT hip, which is image LEFT of his body in this front three-quarter pose, below his right belt side and behind/beside his empty right glove, hanging naturally down his RIGHT thigh. Use reference2 accepted17 RIGHT-hip construction as identity/equipment reference ONLY; do not copy its inside pose or floor. No duplicate weapon remains on image RIGHT. No drawn blade, no glowing line.\n\nPreserve all other lower24 facts: anatomical LEFT sleeve old tear at image RIGHT remains EXACTLY; RIGHT sleeve image LEFT stays INTACT. Same plum hair/checked shirt, two EMPTY black gloves, ONE closed cream waist wallet, redcord rectangular badge, ONE worn EMPTY gray bag/two brown harness straps, both boots on OUTSIDE dry paving. Same Edda inside open LEFT-swung hatch with two tied bluegray wraps still retained, Daro plain belt/no wallet/empty hands, Sera CLOSED ledger, same empty parked cart/gray pad/slack strap, same clear main RIGHT doorway and wet work interior. Do not move any person, floor, cart, hatch, bundle or camera. Preserve entire UPPER23 unchanged, including Edda thoughtful cheek-rest and Daro. No new tear, extra pouch, collar, prop, text or balloon. Keep whole portrait page and source drawing style. Only lower24 sole-sheath laterality correction.\n",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter8/relay-return/candidates/N8-23-24-P.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter8/relay-return/crops/N8-17.png"
+    ]
+  },
+  "arguments_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter8/relay-return/requests/N8-23-24-R1.json",
+  "prompt_sha256": "cea5e2a4c6e1522458976d97f767a0857a00a827aa3a446bbdf5783a0cc2a975",
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter8/relay-return/candidates/N8-23-24-P.png",
+      "sha256": "e57b19e02a5872b76dcf465c379901c67b92414446713ed17fe891831154aa19"
+    },
+    {
+      "path": "production/nightglass-longform/chapter8/relay-return/crops/N8-17.png",
+      "sha256": "47f13eeb774e284918ff3c1562ea2ef7a35839f50aadc4288566733c33aee72a"
+    }
+  ],
+  "before_art_dependency": {
+    "gate": "research/nightglass-longform/CHAPTER8-PRODUCTION-GATE.json",
+    "script_sha256": "0a3d3a441efd5017d84347c2e5849c514f313a00f6bfdb0df898cd93ea1982fc",
+    "gate_sha256": "1eb2e36cfc6d334a8dcb05fbfda1acb861ad2023a2e88b102c4683dbf0456f6e",
+    "preceding_zip_sha256": "4e4c9b5da7ae3daf82288f5de1f836cc0faa2af803f111586d57bc8ae737d34e",
+    "actual_reference_review": "Editorial worker actually viewed each reference before this call; source roles/current state recorded in prompt."
+  },
+  "model_snapshot": null,
+  "seed": null,
+  "billing": null,
+  "owner_approval": null,
+  "invoked": true,
+  "submitted_utc": "2026-09-10T19:49:44.301102+00:00",
+  "returned_utc": "2026-09-10T19:51:18.162714+00:00",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a087d0-79fb-7773-a518-8fe460c84ddc/exec-407581fe-8a92-460a-9cb2-3aea576a3d71.png",
+  "path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter8/relay-return/candidates/N8-23-24-R1.png",
+  "sha256": "a2df96d06071717df013adbcc6decebf9b47b3541a7a62784c8eb3153d381a73",
+  "raw_return_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter8/relay-return/calls/N8-23-24-R1-tool-return.json"
+}

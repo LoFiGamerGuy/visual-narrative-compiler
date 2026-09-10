@@ -1,0 +1,3 @@
+# Future29 read-only mechanical reference review
+
+Actually viewed WHOLE selected N7-20-P1536×1024 during25 dependency wait. SHA256555a20c935730db3a8ceab704e289099ff6704162f8a135c8bef3731c5c08047. Shows Daro both handle grips, rigid bed modestly lifted about wheel axle, visible feet clear/two wheel construction with far wheel partly occluded; no independent full far-wheel contact proof. Previous chapter's box/cream slip/stair/board are HISTORICAL and forbidden future cargo. Any later reference use is mechanical handle-lift/cart construction ONLY; actual selected N8-28 two-wrap load and washhouse forecourt will override old cargo/site. Never use rejected N7-21R1 floating-wheel image. This review makes no call or29 selection.

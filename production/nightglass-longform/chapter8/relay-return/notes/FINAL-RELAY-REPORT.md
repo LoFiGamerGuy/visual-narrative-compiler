@@ -1,0 +1,17 @@
+# Chapter8 relay production: panels15–32
+
+All18 panel proposals are complete in `../selected-records.json`, with full native provenance, exact crop coordinates and hashes. Parent actually reviewed all selected whole natives and full derivatives, including critical supported hatch transfer, secured two-bundle load, rolling state and owner return. No official script, shared selection, reader or gate edits were made by this worker. Full editable-lettering/continuous chapter reading remains a separate gate.
+
+19 actual image calls returned: 11 primary and8 sole repairs, zero pending/failed tool calls/finishes. Scope ceiling24, five unused; no rollover authorization. The seventh local call reached original cumulative320, followed by an explicit pause and parent's recorded checkpoint c26c6b9b…4959 before the next call. At this worker's final return, original lifetime count was332; parent may subsequently invoke its separately assigned scenes. Original per-unit caps were not reset.
+
+The scene shows continuing opposed staff traffic, return of the unsuccessful doorway load, owner opening her own mending hatch, two separate supported bundle transfers, both secured on cart, an ordinary short roll and stopped passing space, then both closed wraps back on the dry owner bench with the cart visibly empty. No external customer delivery, opened wrapping, new force or earned qualification is asserted.
+
+Retained material qualifications:
+
+-16 selects only the existing-camera silent supported-contact insert from R1. Full R1 had a new wrong RIGHT elbow tear and is preserved/rejected as a whole. Entire erroneous upper arm is outside the insert; the far receiving glove is partly hidden.17 separately proves both boots on inside dry floor.
+-24 places Aren to the right of the hatch, with continuous outside access to the left cart. This differs from literal planned between-hatch-and-cart standing placement.25's bag construction is bulkier, with a prominent rolled cloth attachment; no extra delivery cargo or capacity is inferred.
+-29 actually conveys rolling with two gripped shafts, grounded wheel rims and post clearance, but higher handle mounts and nearly level bed do not demonstrate literal unchanged28 corner geometry rotating rigidly. Parent and independent assets accept this disclosed construction drift. It shows trough-side movement, not a measured straight approach.
+-30 restores daylight but its sole repair also removes an original near parking post. That absence is visible, not occluded. Two wheel contacts, lowered handle ends and remaining far post still provide ordinary static support. Later reference conditioning returns to original28 parked construction rather than canonizing the missing post.
+-31 rear/left bundle base meets sill; foreground base is partly covered by glove.32 clearly shows both closed wraps on wooden bench and empty cart through hatch, with lower bodies outside frame. Interior furnishings/bench perspective are not exact floorplan proof.
+
+Every original generated default file, project native and raw image payload has matching bytes. All19 exact prompts/arguments/reference hashes, original per-unit caps and all18 derivative pixel crops passed `FINAL-PRESERVATION-CHECK.json`. Model snapshot, seed, billing and owner approval remain unknown/null rather than fabricated. Raw semantic JSON preserves returned image payload/output hint; original transport whitespace is not asserted.

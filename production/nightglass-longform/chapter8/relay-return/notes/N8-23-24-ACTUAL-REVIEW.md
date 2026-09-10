@@ -1,0 +1,5 @@
+# N8-23–24 actual review
+
+Primary e57b19e0: upper23 owner thoughtful cheek-rest/conditional look to Daro, both wraps behind open hatch and separate staff work passed. Lower24 had wrong anatomicalLEFT sheath/viewerRIGHT beside correct LEFT sleeve tear; sole R1 a2df96d0 moves one sheath to RIGHT/viewerLEFT and removes wrong tube. Actual full return and gear detail confirm LEFT tear retained and RIGHT intact, not healed by mistake. Both full recommended crops actually viewed; retain original23 plus repair24.
+
+24 all outside visitor boots grounded, Aren emptygloves/onewallet/emptywornbag, empty parkedcart/pad/slackstrap, Edda still owns bothwraps inside. Aren stands to the outside RIGHT of hatch rather than literally between hatch and LEFT cart; clear continuous outside paving allows working transition, no newroute/loadedcrossing claim. Edda feet hiddenbywall, earlier inside support retained. No further correction warranted.9calls returned/0pending after approved320 checkpoint, lifetime322; await root actual24gate before25.

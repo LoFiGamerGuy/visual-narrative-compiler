@@ -1,3 +1,5 @@
+COMPLETED: dark-state gate received; one primary returned and recommended for15–17. See REVIEW.md and integrity.json. The following is preserved pre-call planning, not current status.
+
 # Shade work15–17: waiting for dark-state dependency
 
 Current actual image-tool calls: ZERO. Root assigned bounded ownership15–17 after opening01–05. Do not submit until selected13/14 lamp-off/animal-departure states are received and actually inspected. Selected06 and07–08 natives have been viewed, as have the original local beacon crop, current harness, and Rusk reference.

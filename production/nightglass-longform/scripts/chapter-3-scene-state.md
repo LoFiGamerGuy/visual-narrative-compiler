@@ -32,3 +32,9 @@ Lead owns shared selections and geography/action dependency gates. Workers own d
 
 
 Selected lower-control construction: N3-11/12-R1 fixes the gray conduit to one small branch box RIGHT of a tall grille-front pump cabinet. Pump has a warm amber light behind grille and stays on.11 working lever extends HORIZONTALLY RIGHT from its pivot; a small brass parked lock below is separate from the working lever.12 OFF lever is VERTICAL with a brass padlock through its bottom eye, and Pell holds the separate key.24 must use this same lower box, remove lock from lever, and restore HORIZONTAL RIGHT position. Do not infer an up/down convention from earlier prompt drafts. Exact references in chapter3/service-controls/references/records.json and lower-cabinet-control-from-N3-12.png.
+
+
+Selected18v2R1/19R1 actual transfer: highoutboardview exposes airgap andclearfront-leftlanding before/left ofunexpected centralraisedsocket. Retainandavoid thatsocket. Correctanchor is restoredREARblackLAMPUPRIGHT, notfront/rightcorner/shortleftpost.19R1 contacts its visiblefrontshaft at HIGHERpointbesidelowerlanternbracket ABOVEbackrail (unobscured, samefixedsupport), ratherthanintendedlowshaft.20mustpreservethisACTUALpoint andshowbothboots-supportedstopbeforefixture, sameRIGHTpommel/noattack. Endpointheight is acceptednoncausalvariation, notnewpowerorforcedtargetsubstitution. Wholeline/metalcontact actuallyinspected bylead+editorial; source/currentposes control20.
+
+
+20 settled-arrival v2: after19 correct pommel-to-rear-lamp-post transfer,20 now occurs after release AND sheathing, before unpacking. No active line in20 or later repair. Both soles on original right-shelf front-left clear strip, one socket avoided, gap retained. Do not claim visible active Hold in this chapter; previous chapters demonstrate it.21 remains ordinary shade handoff. Rejected20P/R1 are not references.

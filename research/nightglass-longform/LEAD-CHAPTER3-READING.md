@@ -28,3 +28,15 @@ Lead then inspected native11–12R1: actual same lower cabinet and gray conduit,
 ## First14 continuous lettered checkpoint
 
 Lead actually viewed all three full-size composites in `reader-checks/chapter3-first14-reviewed/inspection/`, nine sequential390px viewports of all14 selected panels. Snapshot `a2284c26292eb9339615217d5a1d15b694d2851868ca19cff14f6b95db997395`.11's two statements clearly separate observed supply from Sera's lamp-only authorization;12 shows the physical padlock/key and continuing warm pump light;13 then reveals the actual dark lamp and missing collar reflection before14 departure. The named11Sera and14Aren bands preserve attribution without hiding control hardware or pretending a precise tiny-face tail. All copy remains legible and the earlier paid-round/carrying-agreement cause is retained. No central causal failure found. Chapter incomplete status explicitly marks15–40 unavailable at this immutable checkpoint.
+
+
+## Ordinary shade work15–17
+
+Lead inspected selected three-tier native and all three actual390 lettered captures in `reader-checks/chapter3-shade-lettering/`. Mounted old cone15, two visibly different pieces on board16, and only new compact slotted shroud entering the gray bag17 form a clear custody chain. Old cone and heavy tools stay in Rusk's brown brass-corner case. Rusk's hands-only16 insert uses a named band, while15Pell and17Aren tails identify actual faces and leave objects visible. Gray bag's decorative front fastening differs from earlier but it remains one gray canvas bag; no extra capacity or duplicate object. The guide pane is small/partly rail-occluded15, with lamp/collar geometry established earlier and later install still required. No material reading failure found.
+
+
+Lead actual continuous reading through19: viewed all three full-size composites in chapter3-first19-reviewed/inspection, comprising twelve ordered390px captures. All spoken copy legible, names on deliberately tailless bands unambiguous,18 physical gap/19 correct force contact readable. Warm paid-route opening develops into observed lamp branch and humane ray departure without repeated exposition.15–17 distinguish old cone from new narrow-slot part and bag/tool custody. No20 selected; failed20P/R1 excluded.
+
+Settled-arrival v2 revision: independent editorial confirms19 established transfer →20 later released/sheathed supported result →21 ordinary handoff coherent. Original exact script archived before-settled-arrival-v2-chapter-3. This is a genuine temporal/camera change, not a second local repair or claim that rejected blade-to-cable force was valid.
+
+20v2R1 selected after lead and independent actual inspection. New moment proves arrived support on original right shelf, release and sheathing before unpacking. Sole v2 repair moved sword to correct RIGHT hip; retained left thigh flat straps not second sword. Both supported soles, preserved gap, dark lamp, one avoided socket, empty lower car, closed bag and quiet face. Original20P/R1 remain rejected; no active Hold claim in20.

@@ -1,0 +1,30 @@
+# Lead Chapter 3 actual reading observations
+
+This is provisional production review, not owner preference or human acceptance. Chapter 3 remains incomplete until all40 selected lettered panels and the complete continuous reading are inspected.
+
+## First four selected panels:01,06–08
+
+Lead inspected each selected native and each actual390px lettered capture in `reader-checks/chapter3-opening-geography-lettering/`.01 establishes the next morning and Hessa's actual lower door beneath the corrected arrow, with one ordinary letter and Aren's retained two-shoulder kit. The warm expression and unchanged practical work make the previous chapter's reward concrete. The old gray strap roll appears on the opposite bag side; this minor placement variation does not alter load or duplicate the strap. The bounded repair already corrected material sleeve/sheath drift; no further correction requested.
+
+06's wide geography remains legible at phone width: upper protected observers, fixed supported shelf/physical cyan lantern, empty small goods car below and separate intact public stair. The exact lamp/collar details become clearer in08 rather than requiring readers to decipher every fitting in the wide view.07 introduces one modest ray outside the rail.08 visibly connects its beak tip with the intact reflective collar; Pell's flinch and Aren's observation distinguish their reactions. All three are supported and Aren's hands remain unarmed on the rail. No attack, damage or implication of Chapter1's cause is added. The sole08 external balloon reads clearly without covering faces, lamp or contact.
+
+The ray's broad faceted translucent wings preserve material and city depth; they do not currently warrant a texture-finishing invocation. Important contact and expressions remain readable. Actual isolated lamp state must precede13/14 cue-loss/departure; no dependent generation should bypass selected12.
+
+
+## Morning exchanges02–05 and public/service separation09–10
+
+Lead actually viewed selected02–03R1 and04–05P natives. Dain receives one ordinary letter after the knock; Rusk gives one tied outgoing packet, with yesterday's received cream letter retained beside a hinge.04 Aren separates an already earned coin into a personal savings packet; Ossa observes rather than duplicating payment and the emptied bag/signed receipt explain the completed round.05 the money is stowed before a single pointing hand attends to the white agreed carrying order. The aged maintenance copy is one unbound paper, distinct from the yellow petition folder retained at Office. Neither a room key nor new capability appears.
+
+Actual39002/03 final lettered captures and09 corrected attribution capture were read: Dain's quiet gratitude and Rusk/Aren recurring-time promise are correctly attributed and leave letter/packet/kept-envelope visible.09 places Sera's instruction above her head with the corrected tail, and the passing worker's intact stair remains clear. Native10 depicts only capped-old-feed versus enclosed separate conduit observation, lamp still on, Pell's hands on lid/ledge and Sera comparing the old paper; its lettering is pending at this checkpoint.
+
+
+## First10 continuous and isolated-lamp natives11–14
+
+Lead actually read all seven sequential390 viewports of first10 using both full-size composites in `reader-checks/chapter3-first10-reviewed/inspection/`. All current copy, including04 earned-room savings/05 prior carrying fee and10 old-feed distinction, remains legible and correctly attributed.05's named tailless Aren band avoids an incorrect four-person-table tail. Beginning links/premise and incomplete status are honest.
+
+Lead then inspected native11–12R1: actual same lower cabinet and gray conduit, horizontal-right working lever11 versus vertical locked lever12, pump warm indicator on throughout, separate key retained by Pell.11 has parked brass lock below, not threaded through the working lever; do not claim all hardware was removed.12 lock visibly restrains lever. This selected exact construction governs24. Native13–14P shows the physical beacon dark and silver collar without its cyan reflection, same modest ray pausing with air gap then turning/departing right unharmed. The public/window lamps stay warm and goods car remains stationary below.14 is wider than requested and the proposed sunpatch is not distinct; the actual quiet departure/city image still serves the beat without a causal defect. No repair or finish justified.11–14 editable lettering review is forthcoming.
+
+
+## First14 continuous lettered checkpoint
+
+Lead actually viewed all three full-size composites in `reader-checks/chapter3-first14-reviewed/inspection/`, nine sequential390px viewports of all14 selected panels. Snapshot `a2284c26292eb9339615217d5a1d15b694d2851868ca19cff14f6b95db997395`.11's two statements clearly separate observed supply from Sera's lamp-only authorization;12 shows the physical padlock/key and continuing warm pump light;13 then reveals the actual dark lamp and missing collar reflection before14 departure. The named11Sera and14Aren bands preserve attribution without hiding control hardware or pretending a precise tiny-face tail. All copy remains legible and the earlier paid-round/carrying-agreement cause is retained. No central causal failure found. Chapter incomplete status explicitly marks15–40 unavailable at this immutable checkpoint.

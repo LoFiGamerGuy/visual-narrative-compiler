@@ -2,6 +2,8 @@
 
 Read-only production proposal against final40-panel shared script SHA256 `44002f8efe4fcb186611080f91d2d8833c8e60b8b839a04864e994ec0d425eff`. No shared script, assignment, selection or artwork changed. Start only after lead accepts the complete Chapter2 reading gate and preserves that chapter. These are proposed bounded assignments, not a request for new budget or a claim that work has started.
 
+Lead's subsequent assignment overrides the proposed table where different: assets already owns01–05; lead establishes06 and produces07–08; editorial owns09–12 in `chapter3/service-controls/` only after inspecting selected06. This can run alongside lead07–08 because09–12 do not show fauna. Selected12 must supply the exact lower cabinet/control reference for24. Assets later15–17 waits for the dark-lamp state; editorial later29–32 waits for27 approval. All other table entries remain proposals until assigned.
+
 | Owner | Panels | Concrete responsibility | Must wait for selected evidence |
 |---|---|---|---|
 | Lead | 06–14 | Establish one beacon/lift/public-stair geography; light-following animal; trace separate supply, isolate lamp, observe departure | Chapter2 selected48/49 beacon exterior and retained kit; select06 geography before dependent close views |

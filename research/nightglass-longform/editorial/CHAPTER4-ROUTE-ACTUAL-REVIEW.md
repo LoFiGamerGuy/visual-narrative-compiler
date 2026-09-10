@@ -45,3 +45,9 @@ The closer rotated view makes the left wing look broader and crops most of the a
 Blade curves down-RIGHT in this projection rather than the planned down-left silhouette, in front of the wall. It is clear of his legs and shows no actual stone contact or attack. Guard ornament and upper-arm patch vary; these are appearance qualifications. No v2R1/finish recommended.24 must show the ordinary release/sheathing/stair continuation, and final continuous reading remains separate.
 
 Actual source SHA256 83bc556fea9c92d11d443c3dc0c08a6698cc9e12268bb6590288ef09b2bd5bbb. Old23P/R1 remain rejected with their force failures intact in the record.
+
+## Actual24 primary — ordinary descent
+
+Central continuation PASS after actual native inspection before25 production. Aren walks ordinary stairs visibly joining the lower quay/counter where Mern waits, both hands empty, no emitted line, one anatomical RIGHT sheathed weapon (viewer LEFT), old LEFT elbow tear (viewer RIGHT), RIGHT sleeve intact. Same moored low tan-canopy packet and one NAVY sack aboard; no Sera or Kiva at counter.
+
+Bag is mostly torso-occluded with gray roll projecting near front shoulder; buttoned ivory shirtfront is an appearance variation, not a new load. Stair flight looks longer than earlier projection, so no exact step-count claim. Upper anchor is outside crop; continuation is ordinary walking, not a claim that24 independently proves prior high attachment. No material reason for a repair. Source SHA256 a46744d50874acf292c6bde7c13bcef2f0661fac0aa89610cde697511df00383.

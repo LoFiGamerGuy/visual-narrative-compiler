@@ -37,3 +37,14 @@ All new speech is16px and outside the art.34’s named lower AREN band avoids a 
 27’s badge repair is now selected and actually confirmed: rectangular brass on the same red cord, no round substitution.33 preserves its original crop;34 uses the sole wallet repair.26 is the accurate earlier stair image and36 the accurate fee image with new day/copy;36 retains the held-wallet versus counter-resting pose qualification. Walking images are not claimed as static two-sole proofs.
 
 Source/copy/hash and applicable native crop pixels pass. All previous12 panel records, prior219 complete chapters, comparisons and every existing lettering override are exact. Preview29/47 remains incomplete, with12–18 and37–47 honestly absent. No full47 reading claimed. Browser errors/broken images/overflow are zero and all current copy balloons fit390px at16px.
+
+
+## Notice received and room chosen:12–14 and37–38
+
+PASS after actual five full selected-crop views, five individual390px phones and the corrected38 wrap, followed by all four continuous viewports through both original-size composites. Evidence `chapter6-notice-choice-reviewed/`, snapshot `0d73ae13102030da12d056c53b324875f447a0543c296e40b5bfeabe23053b06`. All final individual images byte-match the actual viewed versions.
+
+11–14 now completes the limited notice’s custody and effect: ordinary route, actual LEFT-to-Toma receipt, then Toma marks his own register with the GREEN beside it. Sera retains her distinct closed ledger.36–38 pays off the promised first-week conversation: Ossa offers the discussion, Aren chooses the bindery, and the stair/table staging supports both early work and continued belonging. No rent, key or lease occurs yet.
+
+37 lower AREN and38 lower OSSA use named tailless bands to protect attribution and hands.38 upper width was narrowed to remove the isolated final word while preserving exact copy. All39 current balloons are16px and fit390px; no browser errors, broken images or horizontal overflow.
+
+Retained qualifications:12 passes beside the green entrance before the unshown turn inside;14 has an extra GREEN cross-crease/ruling drift without exact signature-fidelity claim;37/38 worn bag contents are occluded and lower soles meet the frame edge. All prior29 panel records, previous219 complete chapter records/comparisons and existing overrides are exact. Preview34/47 remains incomplete, with15–18 and39–47 absent. This is a bounded reading, not a complete47 review.

@@ -1,0 +1,572 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-09-10T19:13:35.468809+00:00",
+  "completed_utc": "2026-09-10T19:13:37.613770+00:00",
+  "frozen_call_ids": [
+    "N8-03-04-P",
+    "N8-03-04-R1",
+    "N8-05-06-P",
+    "N8-05-06-R1",
+    "N8-07-P",
+    "N8-08-09-P",
+    "N8-10-11-P",
+    "N8-10-11-R1",
+    "N8-12-13-P",
+    "N8-14-P",
+    "N8-14-R1"
+  ],
+  "actual_new_calls_audited": 11,
+  "primaries": 7,
+  "repairs": 4,
+  "finishes": 0,
+  "pending_in_frozen_set": 0,
+  "references_checked": 27,
+  "calls": [
+    {
+      "id": "N8-03-04-P",
+      "status": "PASS",
+      "phase": "primary",
+      "call_record_sha256": "a98e51d628e3be827b292130d0a5d0471ba893624ebe0f4067fdf7bd9652360a",
+      "request_file_sha256": "945933d60b54b89f82f102c7ca325a85c1a86b73c607d65bc1b28ea7c6c1c4c5",
+      "prompt_sha256": "e195d0d1ec57d0d79ae3208b1363db002f552948fc8f574bb7b4491b7d81b9ae",
+      "native_sha256": "ab1414a4e68b84b84da4a836a847e22287746271045eab82c0c47b99197b4c36",
+      "raw_return_sha256": "45de7fe0c98c618acb9d0986e94306de58b4ba8779109822b9a25d962c38021d",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-02-R1.png",
+          "sha256": "a218cd22fc4871fc325642473999a222c886e0afed921ed66ed93e2529e29c33"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/references/empty-cart-pad-strap-from-N7-37.png",
+          "sha256": "bfa7107284ea7b04a80971be7eadba752701a3f682108d3082b6d34e02e9151a"
+        }
+      ],
+      "submitted_utc": "2026-09-10T18:19:49.213452+00:00",
+      "returned_utc": "2026-09-10T18:22:19.400738+00:00",
+      "default_native_decoded_raw_equal": true
+    },
+    {
+      "id": "N8-03-04-R1",
+      "status": "PASS",
+      "phase": "repair",
+      "call_record_sha256": "420a3b927f19e932c6eecbd84817c8658c1f1a9be113bf6f0bfea83bf9fb356b",
+      "request_file_sha256": "e4ffbafe618f561f691450111e9a4fb0f7f7f5a50c7db7caf74877e887bf08fc",
+      "prompt_sha256": "deb62509383aed7025926d73c938f011eb1ba866a0975f2fd36672dac0dba3c7",
+      "native_sha256": "f83c712fa0a7bdb720daf689749c560fc5e20a76c70bee90b5fe1a1c4339a2e6",
+      "raw_return_sha256": "21714abaed4d7656bc2b9dc87afbfaadb45edb257e34ba2c1984a19256b22e01",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-03-04-P.png",
+          "sha256": "ab1414a4e68b84b84da4a836a847e22287746271045eab82c0c47b99197b4c36"
+        },
+        {
+          "path": "production/nightglass-longform/chapter7/lead/candidates/N7-20-P.png",
+          "sha256": "555a20c935730db3a8ceab704e289099ff6704162f8a135c8bef3731c5c08047"
+        }
+      ],
+      "submitted_utc": "2026-09-10T18:27:18.042594+00:00",
+      "returned_utc": "2026-09-10T18:29:52.326158+00:00",
+      "default_native_decoded_raw_equal": true
+    },
+    {
+      "id": "N8-05-06-P",
+      "status": "PASS",
+      "phase": "primary",
+      "call_record_sha256": "73f569ba65780040288ce1758a68fa9acf9e3e0230f94d665f58c374ee4a8a74",
+      "request_file_sha256": "bbddd9cfc81f588b5b2b118bc63ccaaa51a4c12c49fef713516c7db4c3605bf8",
+      "prompt_sha256": "c7a7fab61b1ce6bbfe362402003d88faa683fac10823525aad1633b7095f74e2",
+      "native_sha256": "5018086caead8a279ab714c9724a5266731f176f8ea01f70eb6a495c8ccb4b96",
+      "raw_return_sha256": "95352bc05e4c3d5a2907a95c7095e626aaf8baf63b4d86c8de6a94211a0735ed",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-04.png",
+          "sha256": "e07c8089c4b248914b2571a5399b115b2f9ffa23a1f2514d3eacec10bab4e10f"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-02-R1.png",
+          "sha256": "a218cd22fc4871fc325642473999a222c886e0afed921ed66ed93e2529e29c33"
+        }
+      ],
+      "submitted_utc": "2026-09-10T18:40:58.957085+00:00",
+      "returned_utc": "2026-09-10T18:42:19.277684+00:00",
+      "default_native_decoded_raw_equal": true
+    },
+    {
+      "id": "N8-05-06-R1",
+      "status": "PASS",
+      "phase": "repair",
+      "call_record_sha256": "ed6382a4fc7bc31e6dc74ed428d093b6cacb3a54b41b02f1eb608714ad342930",
+      "request_file_sha256": "0235d0a5bd02e700da8ae6097d6d0195ca920d9c244d989997b14d1cc03beda5",
+      "prompt_sha256": "ad6ee724997a86871772656abb0a24921b761fc06242eee1559c21a53dc5e1df",
+      "native_sha256": "bfcc69d96263ca50a2df8ff63a274fa7836f377b0f5f9bc8a15cde24e5784e8f",
+      "raw_return_sha256": "5793865f9a94753f72bae6d7e181f615a11a9330b77eae5783e1a5800374b8a4",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-05-06-P.png",
+          "sha256": "5018086caead8a279ab714c9724a5266731f176f8ea01f70eb6a495c8ccb4b96"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-04.png",
+          "sha256": "e07c8089c4b248914b2571a5399b115b2f9ffa23a1f2514d3eacec10bab4e10f"
+        }
+      ],
+      "submitted_utc": "2026-09-10T18:43:59.538286+00:00",
+      "returned_utc": "2026-09-10T18:45:26.741648+00:00",
+      "default_native_decoded_raw_equal": true
+    },
+    {
+      "id": "N8-07-P",
+      "status": "PASS",
+      "phase": "primary",
+      "call_record_sha256": "cd3f00897b635efe22441e25f9555c301cb2aa2539b074473f98019f1f1bb905",
+      "request_file_sha256": "4efb8f93eecb7e7552173c0cb541e98550c3928e830e1a4ff9284ed6b5a3b720",
+      "prompt_sha256": "f2b44917b1b3919279970feeca91cc317f95fd3ef030e253fe8dc91a02f06064",
+      "native_sha256": "a06f630a5e89fdc036bfdea02171e123bdc72456da248248c830db65594b79c8",
+      "raw_return_sha256": "b9328af0b17602d0f1f5235c1e8f82f14ede030b0f67b306883df77eaf5fcb93",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-06.png",
+          "sha256": "ae42bc382f6c8d5ef627b6d4e35cadf8adb76ef07b7c6dc9cf8b26254fa48431"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-05.png",
+          "sha256": "725681ec2cfeba7671bf252695bb8964d6855abf69a1cdf47a9d2415812a6434"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-04.png",
+          "sha256": "e07c8089c4b248914b2571a5399b115b2f9ffa23a1f2514d3eacec10bab4e10f"
+        }
+      ],
+      "submitted_utc": "2026-09-10T18:47:23.957159+00:00",
+      "returned_utc": "2026-09-10T18:48:52.003579+00:00",
+      "default_native_decoded_raw_equal": true
+    },
+    {
+      "id": "N8-08-09-P",
+      "status": "PASS",
+      "phase": "primary",
+      "call_record_sha256": "16faba1e201f85fbaf4f06506d907b33b99d286b4fccd24e4a98d9883da66a86",
+      "request_file_sha256": "2a3bd25268c1a452940d7c47188bf2ed4ed1ccf93569021d990980cf051ee2ba",
+      "prompt_sha256": "a9869a2b279ac804ae618e6106e542f2e590691a62acb450aa41afc7beb35602",
+      "native_sha256": "89f4839cd583731568131e277cf948236f55db3af73668be0ba3b1eea1be3c13",
+      "raw_return_sha256": "b1ca48d997a5abc68a342df5024dcd60380e88ade2edd008fe277c84cdc12eb2",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-07-P.png",
+          "sha256": "a06f630a5e89fdc036bfdea02171e123bdc72456da248248c830db65594b79c8"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-05.png",
+          "sha256": "725681ec2cfeba7671bf252695bb8964d6855abf69a1cdf47a9d2415812a6434"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-02-R1.png",
+          "sha256": "a218cd22fc4871fc325642473999a222c886e0afed921ed66ed93e2529e29c33"
+        }
+      ],
+      "submitted_utc": "2026-09-10T18:49:54.171128+00:00",
+      "returned_utc": "2026-09-10T18:51:22.885134+00:00",
+      "default_native_decoded_raw_equal": true
+    },
+    {
+      "id": "N8-10-11-P",
+      "status": "PASS",
+      "phase": "primary",
+      "call_record_sha256": "867a941acec51027f562801479579a48e9a1f96873fcaa51d438f95212336a5d",
+      "request_file_sha256": "df6f82ddc47fa90c925057e99af9754abc999407a7fa4e09610906892176d42a",
+      "prompt_sha256": "b35857442db5093bf2d09e2374ba8fabf23361e4f25e8bba557c7e330c8daebb",
+      "native_sha256": "097a00ca5a60949d344994399031963ecce1ee10c9ee10c71cd418e1375b4342",
+      "raw_return_sha256": "a91b637e4f39fa507d0f96c87879ba4ccac93cd6b22eef7d05e1ace7475e67a7",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-09.png",
+          "sha256": "9ac0a0e0ab89967a8cf0449ad45acf561d3b8eb91d07b3e1efe6d87da0babbdb"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-07-P.png",
+          "sha256": "a06f630a5e89fdc036bfdea02171e123bdc72456da248248c830db65594b79c8"
+        }
+      ],
+      "submitted_utc": "2026-09-10T18:52:41.976354+00:00",
+      "returned_utc": "2026-09-10T18:54:08.916926+00:00",
+      "default_native_decoded_raw_equal": true
+    },
+    {
+      "id": "N8-10-11-R1",
+      "status": "PASS",
+      "phase": "repair",
+      "call_record_sha256": "3cc417ff241aa80038dc1ffa88bbef978de8a35b96ed4fb7fe1d502bdc3ac9d3",
+      "request_file_sha256": "47e8e4a139360a2e33bc600c91c35a6f4d289f1450e060a55c76f94336923c60",
+      "prompt_sha256": "87d8829e4b36453fcb12cf42e66b1882d797f63b8e5c4a994e9a94955b4be2f8",
+      "native_sha256": "31b773da7d698ac7e6b4991feca3fe226815881efef18c4a0057013c9125dabb",
+      "raw_return_sha256": "6a8cf029ca11c089332bb718462f58d3542886a1de55a56504d000b0ed41db14",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-10-11-P.png",
+          "sha256": "097a00ca5a60949d344994399031963ecce1ee10c9ee10c71cd418e1375b4342"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-04.png",
+          "sha256": "e07c8089c4b248914b2571a5399b115b2f9ffa23a1f2514d3eacec10bab4e10f"
+        }
+      ],
+      "submitted_utc": "2026-09-10T18:55:11.636451+00:00",
+      "returned_utc": "2026-09-10T18:56:37.955094+00:00",
+      "default_native_decoded_raw_equal": true
+    },
+    {
+      "id": "N8-12-13-P",
+      "status": "PASS",
+      "phase": "primary",
+      "call_record_sha256": "62420bc72d5dabb60ee46bb5cf92dcae7355532b4032892449dca838769e823e",
+      "request_file_sha256": "385f1648e3d3477e128d8867dd0010d58582af310bdeac84caddd45ef69b12af",
+      "prompt_sha256": "e33bb0f814e5fd7d637b0291aab16a73708b5b3c36a2f55ddc0ec65d2709f074",
+      "native_sha256": "43f77384fc3cc48c64c030e7e984ca75b28547503de86972a4766f4d81cf5238",
+      "raw_return_sha256": "869f1d16310c33135827d07dd32273c9775c7686d8bfab9b21a626aae2b89b4e",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-11-R1.png",
+          "sha256": "3126b4b5e513a60d37430d43b0d1189c55167a733cc2962bee84f64634182180"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-10.png",
+          "sha256": "e5290186d07ab824e73d05c159bf6be3725e8c467d45f5daf03a0050ece3eac9"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-04.png",
+          "sha256": "e07c8089c4b248914b2571a5399b115b2f9ffa23a1f2514d3eacec10bab4e10f"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-02-R1.png",
+          "sha256": "a218cd22fc4871fc325642473999a222c886e0afed921ed66ed93e2529e29c33"
+        }
+      ],
+      "submitted_utc": "2026-09-10T18:59:16.264034+00:00",
+      "returned_utc": "2026-09-10T19:01:09.902572+00:00",
+      "default_native_decoded_raw_equal": true
+    },
+    {
+      "id": "N8-14-P",
+      "status": "PASS",
+      "phase": "primary",
+      "call_record_sha256": "95917340a602e0c5f86e206b8b5e627b4c1a5630b664cdcf0fd8588c5867e0d6",
+      "request_file_sha256": "e6d4308c39bd397ba199d019594da95b533c419c21685dd6990c79e05af6d96d",
+      "prompt_sha256": "6a98812c1c08528d77d30f6ee656db6da45df7a220ee5e0112c9f48ba2054abd",
+      "native_sha256": "142e9335c82e34768f4e4e6de853bac9b61ad201ff9ef85a63cf888964178636",
+      "raw_return_sha256": "f0da732e9cb824ceaf32a6d1d5bea2bd742a5f07393cfb8413f715f8e0d6a9e8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-13.png",
+          "sha256": "78d4396af6d4480582d9a4c0dfc39b6cb9247abd109a64c75d75ad498935981d"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-10.png",
+          "sha256": "e5290186d07ab824e73d05c159bf6be3725e8c467d45f5daf03a0050ece3eac9"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-02-R1.png",
+          "sha256": "a218cd22fc4871fc325642473999a222c886e0afed921ed66ed93e2529e29c33"
+        }
+      ],
+      "submitted_utc": "2026-09-10T19:02:29.575912+00:00",
+      "returned_utc": "2026-09-10T19:05:04.995938+00:00",
+      "default_native_decoded_raw_equal": true
+    },
+    {
+      "id": "N8-14-R1",
+      "status": "PASS",
+      "phase": "repair",
+      "call_record_sha256": "b89a35bdd93f0ded2dbb3fa967ef547bc1a46880f5c90a02f9ba3eb33cd25076",
+      "request_file_sha256": "45890a6e47446a4280143ac3b5f4ba296ece86e86d3b9bb2dab29602e0468867",
+      "prompt_sha256": "3a1ec27e6260698461a7bcef1b0d576716f7961d8542e35243ead7dc918fae19",
+      "native_sha256": "d1902bc3f62699ce099c3653a8455fbe95e531d48c6195e9f0e2bab0d2d9d11a",
+      "raw_return_sha256": "95c63c47d5d5b48595a00989dab5814355dd714f28c712498f271577274cc051",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-14-P.png",
+          "sha256": "142e9335c82e34768f4e4e6de853bac9b61ad201ff9ef85a63cf888964178636"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/crops/N8-11-R1.png",
+          "sha256": "3126b4b5e513a60d37430d43b0d1189c55167a733cc2962bee84f64634182180"
+        }
+      ],
+      "submitted_utc": "2026-09-10T19:06:55.054002+00:00",
+      "returned_utc": "2026-09-10T19:08:31.555068+00:00",
+      "default_native_decoded_raw_equal": true
+    }
+  ],
+  "selected": [
+    {
+      "panel": "N8-03",
+      "attempt_id": "N8-03-04-R1",
+      "sha256": "ede01e19e87853d204f02d8dbe28359ef83eff263d3588f0ade9a3ecd332ee38",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-04",
+      "attempt_id": "N8-03-04-R1",
+      "sha256": "e07c8089c4b248914b2571a5399b115b2f9ffa23a1f2514d3eacec10bab4e10f",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-05",
+      "attempt_id": "N8-05-06-R1",
+      "sha256": "725681ec2cfeba7671bf252695bb8964d6855abf69a1cdf47a9d2415812a6434",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-06",
+      "attempt_id": "N8-05-06-R1",
+      "sha256": "ae42bc382f6c8d5ef627b6d4e35cadf8adb76ef07b7c6dc9cf8b26254fa48431",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-07",
+      "attempt_id": "N8-07-P",
+      "sha256": "a06f630a5e89fdc036bfdea02171e123bdc72456da248248c830db65594b79c8",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-08",
+      "attempt_id": "N8-08-09-P",
+      "sha256": "4c7c3557452860372bd5265e4b9910ccfcf87c2b408c69b56e15d11b371e54a1",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-09",
+      "attempt_id": "N8-08-09-P",
+      "sha256": "9ac0a0e0ab89967a8cf0449ad45acf561d3b8eb91d07b3e1efe6d87da0babbdb",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-10",
+      "attempt_id": "N8-10-11-P",
+      "sha256": "e5290186d07ab824e73d05c159bf6be3725e8c467d45f5daf03a0050ece3eac9",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-11",
+      "attempt_id": "N8-10-11-R1",
+      "sha256": "3126b4b5e513a60d37430d43b0d1189c55167a733cc2962bee84f64634182180",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-12",
+      "attempt_id": "N8-12-13-P",
+      "sha256": "57d29c4c05859c9d5847d263ffa90670d22d4e7ec70b2467da69bed5a7de25e4",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-13",
+      "attempt_id": "N8-12-13-P",
+      "sha256": "78d4396af6d4480582d9a4c0dfc39b6cb9247abd109a64c75d75ad498935981d",
+      "status": "PASS"
+    },
+    {
+      "panel": "N8-14",
+      "attempt_id": "N8-14-R1",
+      "sha256": "d1902bc3f62699ce099c3653a8455fbe95e531d48c6195e9f0e2bab0d2d9d11a",
+      "status": "PASS"
+    }
+  ],
+  "exact_selected_crops": [
+    {
+      "panel": "N8-03",
+      "path": "production/nightglass-longform/chapter8/lead/crops/N8-03.png",
+      "sha256": "ede01e19e87853d204f02d8dbe28359ef83eff263d3588f0ade9a3ecd332ee38",
+      "source_sha256": "f83c712fa0a7bdb720daf689749c560fc5e20a76c70bee90b5fe1a1c4339a2e6",
+      "box_xyxy": [
+        0,
+        0,
+        1024,
+        758
+      ],
+      "exact_unscaled_pixel_equivalence": true
+    },
+    {
+      "panel": "N8-04",
+      "path": "production/nightglass-longform/chapter8/lead/crops/N8-04.png",
+      "sha256": "e07c8089c4b248914b2571a5399b115b2f9ffa23a1f2514d3eacec10bab4e10f",
+      "source_sha256": "f83c712fa0a7bdb720daf689749c560fc5e20a76c70bee90b5fe1a1c4339a2e6",
+      "box_xyxy": [
+        0,
+        770,
+        1024,
+        1536
+      ],
+      "exact_unscaled_pixel_equivalence": true
+    },
+    {
+      "panel": "N8-05",
+      "path": "production/nightglass-longform/chapter8/lead/crops/N8-05.png",
+      "sha256": "725681ec2cfeba7671bf252695bb8964d6855abf69a1cdf47a9d2415812a6434",
+      "source_sha256": "bfcc69d96263ca50a2df8ff63a274fa7836f377b0f5f9bc8a15cde24e5784e8f",
+      "box_xyxy": [
+        0,
+        0,
+        1024,
+        684
+      ],
+      "exact_unscaled_pixel_equivalence": true
+    },
+    {
+      "panel": "N8-06",
+      "path": "production/nightglass-longform/chapter8/lead/crops/N8-06.png",
+      "sha256": "ae42bc382f6c8d5ef627b6d4e35cadf8adb76ef07b7c6dc9cf8b26254fa48431",
+      "source_sha256": "bfcc69d96263ca50a2df8ff63a274fa7836f377b0f5f9bc8a15cde24e5784e8f",
+      "box_xyxy": [
+        0,
+        698,
+        1024,
+        1536
+      ],
+      "exact_unscaled_pixel_equivalence": true
+    },
+    {
+      "panel": "N8-08",
+      "path": "production/nightglass-longform/chapter8/lead/crops/N8-08.png",
+      "sha256": "4c7c3557452860372bd5265e4b9910ccfcf87c2b408c69b56e15d11b371e54a1",
+      "source_sha256": "89f4839cd583731568131e277cf948236f55db3af73668be0ba3b1eea1be3c13",
+      "box_xyxy": [
+        0,
+        0,
+        1024,
+        762
+      ],
+      "exact_unscaled_pixel_equivalence": true
+    },
+    {
+      "panel": "N8-09",
+      "path": "production/nightglass-longform/chapter8/lead/crops/N8-09.png",
+      "sha256": "9ac0a0e0ab89967a8cf0449ad45acf561d3b8eb91d07b3e1efe6d87da0babbdb",
+      "source_sha256": "89f4839cd583731568131e277cf948236f55db3af73668be0ba3b1eea1be3c13",
+      "box_xyxy": [
+        0,
+        771,
+        1024,
+        1536
+      ],
+      "exact_unscaled_pixel_equivalence": true
+    },
+    {
+      "panel": "N8-10",
+      "path": "production/nightglass-longform/chapter8/lead/crops/N8-10.png",
+      "sha256": "e5290186d07ab824e73d05c159bf6be3725e8c467d45f5daf03a0050ece3eac9",
+      "source_sha256": "097a00ca5a60949d344994399031963ecce1ee10c9ee10c71cd418e1375b4342",
+      "box_xyxy": [
+        0,
+        0,
+        1024,
+        720
+      ],
+      "exact_unscaled_pixel_equivalence": true
+    },
+    {
+      "panel": "N8-11",
+      "path": "production/nightglass-longform/chapter8/lead/crops/N8-11-R1.png",
+      "sha256": "3126b4b5e513a60d37430d43b0d1189c55167a733cc2962bee84f64634182180",
+      "source_sha256": "31b773da7d698ac7e6b4991feca3fe226815881efef18c4a0057013c9125dabb",
+      "box_xyxy": [
+        0,
+        728,
+        1024,
+        1536
+      ],
+      "exact_unscaled_pixel_equivalence": true
+    },
+    {
+      "panel": "N8-12",
+      "path": "production/nightglass-longform/chapter8/lead/crops/N8-12.png",
+      "sha256": "57d29c4c05859c9d5847d263ffa90670d22d4e7ec70b2467da69bed5a7de25e4",
+      "source_sha256": "43f77384fc3cc48c64c030e7e984ca75b28547503de86972a4766f4d81cf5238",
+      "box_xyxy": [
+        0,
+        0,
+        1024,
+        780
+      ],
+      "exact_unscaled_pixel_equivalence": true
+    },
+    {
+      "panel": "N8-13",
+      "path": "production/nightglass-longform/chapter8/lead/crops/N8-13.png",
+      "sha256": "78d4396af6d4480582d9a4c0dfc39b6cb9247abd109a64c75d75ad498935981d",
+      "source_sha256": "43f77384fc3cc48c64c030e7e984ca75b28547503de86972a4766f4d81cf5238",
+      "box_xyxy": [
+        0,
+        798,
+        1024,
+        1536
+      ],
+      "exact_unscaled_pixel_equivalence": true
+    }
+  ],
+  "scope_metadata_counter_observation": {
+    "lead": {
+      "invoked": 13,
+      "returned": 13,
+      "pending": 0
+    },
+    "room-ending": {
+      "invoked": 2,
+      "returned": 2,
+      "pending": 0
+    },
+    "relay-return": {
+      "invoked": 1,
+      "returned": 0,
+      "pending": 1
+    }
+  },
+  "errors": [],
+  "request_digest_note": "Stored prompt digests verified; exact request JSON equals submitted args. Request-file SHA256 is newly computed audit evidence, not a claimed historical whole-request digest field.",
+  "timestamp_note": "Recorded local submitted/returned timestamps are ordered; no inference of unknown backend start or model metadata.",
+  "limits": "Preservation only. No renewed actual visual/phone/story acceptance.02/room counted only, not re-audited. Relay calls excluded even if started during audit. Failed native attempts remain intact.",
+  "shared_mutations": false,
+  "image_calls_by_audit": 0
+}

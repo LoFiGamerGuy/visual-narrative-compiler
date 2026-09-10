@@ -1,0 +1,5 @@
+# Chapter9 bay and first assessor scene
+
+02: Root actually viewed P/R1/fullsource and individual390 plus complete01–02 transition, snapshot2a564f008a1e478202fa336641cad542c9696c1d8b97020f2576621dc91071ff. SoleR1 removes wrongRIGHT sleeve hole/oldraggedhem and adds actualsamebay rearwalkingstrip/shallowjunction. Clearbluezone beforeoneprominentpost/offsetreceiver readable at390. Leftwalkingjoin behindAr; LEFTtear largelybag/bodyoccluded; rearwaistwallet projection notexactfrontmount proof. Primary rejected. No more repair/finish.
+
+03–04: Root actually viewed P/R1 and bothfulltiercrops. Primaryintroducedtwo sheaths in04; soleR1removesanatomicalLEFT/screensRIGHTduplicate, retainssingleRIGHT/screensLEFTsheath. ActualnewNeris recognizablematureface/shortcoils/silverforelock/rectglasses/petrolwaistcoat and warmmediumbrownlighting, notprecise darkcomplexionclaim. Hands and closedslateledger supported onbench, Seraownbrownclosed/ArhandsEMPTY. Feet cropped; conversationstill no nodanimationproof. SelectedfullR1tiers03[0,0,1024,719] and04[0,730,1024,1536], byte/pixelbindings adjacentCROPS.json; editable390checkpending. No finish warranted.

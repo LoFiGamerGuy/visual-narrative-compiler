@@ -1,0 +1,5 @@
+# Chapter9 packing and preparation: actual lead review
+
+07/08: Root actually viewed both original full tiers, individual390 and BOTH complete06–08 reading columns. PASS under explicit v5 RIGHT receiving/packing and LEFT rim support; not v4 compliance. One closed pouch transfers normally and rests inside one supported off-body bag, harness remains down. Exact snapshot82969af88b8de6f04acbbf8f00f8470ab4a0c1e6d6c542dacd4dc50e1eccdbaf. Original P and unsuccessful pair repair remain preserved; no cap reset.
+
+09/10: Root actually viewed both whole attempts and full R1 crops. Primary duplicated Sera09 and misplaced her above/on rail, placed10 on the wrong upper gallery, and added a near-zone lamp-post. Sole R1 corrects these: one Sera per tier on the same rear route,09 has visible supported walking feet;10 feet hidden by table. Single far-right anchor and clear blue mark retained. Aren checks worn harness and Neris keeps her closed slate ledger. No hidden packed-load or full footwear proof claimed. Assets independently agrees after actual whole/crop reading. Exact boxes/hashes in N9-09-10-CROPS.json;09/10 phone reading pending.

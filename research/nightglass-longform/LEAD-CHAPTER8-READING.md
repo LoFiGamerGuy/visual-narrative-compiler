@@ -112,3 +112,7 @@ Root and independent assets actually viewed wholeP81a49e78/R1001bc8b5: P FOURhan
 Root actually read39/40 final individual390 and BOTH38–40 original390 columns, readera0d3eae/snapshot0ddbac913c77989df3be4c7f23129e1be0968411d65e898149b6ca0737b27db4. Correct attribution and exact copy, departure EMPTYcart/TWOownerinside then stationary reflection clear; PASS with REAL40LEFTtear omission retained.
 
 Root actually viewed41 individual390 and BOTH40–41 original390 columns, reader611333e/snapshot6d550ae219702824cc1b38e7d5d2747546b4c8836e353b7b4e35927f9dcfbea3. Daro distinct independent nextjob/two-line speech clear, RIGHTwave/LEFTempty/cartstationary, Aren acknowledgment clearly named; PASS. Correct tear in41 does not erase visible omission40.
+
+
+## 42–43 final art acceptance
+Root and independent assets actually viewed whole256eef29/full42d70a227c/full4387bd3896 and exact43LEFTsleevedetail0a73ecc8.42 thoughtful gaze at TWOEMPTYgloves/SeraCLOSEDledger, correctLEFTtear/RIGHTintact/soleRIGHTsheath/ONEclosedwallet/redcordbadge.43 ONLYArSera on FOURsupportedboots beside ordinary bindery stairs; Sera small freehandgesture/CLOSEDledger; narrowraggedLEFTouter sleeve opening actually visible in detail, not40 omission. Stone/booksign/curtainfernwindow/darkmetalrail/woodhandrail/plainupperdoor plausiblyextend actual6 architecture, not exactlowerstepmeasurement. Primaryaccepted, no R1/finish needed. All45 artselected; full45 lettered phone reading stillpending, reviewed_complete remains1..7.

@@ -1,6 +1,6 @@
 # Chapter7 — A Place on the Round
 
-Complete provisional v5,40 story panels. Official v4 and the v5 proposal are preserved in the staging-revision history. V5 changes only21 to a stationary route check after the motion candidates reached their cap; exact dialogue and all other story panels remain unchanged. Lead promoted this bounded staging revision within the existing Chapter7 production gate; no new call allowance or owner approval is implied.
+Complete provisional v6,40 story panels. Exact previous scripts and proposals remain preserved. V5 made21 an explicit stationary route check; v6 changes only28 action/camera/state to pre-insertion pin-fit preparation after both insertion attempts failed. All dialogue and the other39 v5 panel objects remain unchanged. Lead and independent reader reviewed the bounded revision within the existing production gate; no additional call allowance, cap reset or owner approval is implied.
 
 ## N7-01
 
@@ -282,14 +282,14 @@ Aren steps out of Kiva’s working light and looks once toward the ordinary mark
 
 ## N7-28
 
-Kiva fits a pin into an unfinished hinge on the supported board. Aren watches her work from the clear aisle, hands empty.
+Kiva steadies an unfinished hinge on the returned, supported board and brings a loose pin near its barrel to check the fit before insertion. Aren watches her work from the clear aisle, hands empty.
 
 - **Kiva**: You brought this back. I can keep working.
 - **Kiva**: Let him finish his part.
 
-**Camera:** Useful cause in the foreground, restrained reassurance through occupation.
+**Camera:** The returned board supports a practical preparation step in the foreground; restrained reassurance through occupation, without claiming successful pin insertion.
 
-**Current state:** Returned board has visible value. This is not praise that replaces performance: Daro still owes actual receipt. No magically finished buyer batch or new commission payment. Aren does not touch her private records.
+**Current state:** Returned board has visible value for Kiva’s ongoing work. The pin is still loose at this preparation moment; neither coaxial alignment nor completed insertion is demonstrated. This is not praise that replaces performance: Daro still owes actual receipt. No magically finished buyer batch or new commission payment. Aren does not touch her private records.
 
 ## N7-29
 

@@ -8245,7 +8245,7 @@
       "title": "Where the Replies Wait",
       "premise": "At Ninth Store, Aren accepts one waiting reply. Its recipient has already made a choice in the silence.",
       "script_path": "production/nightglass-longform/scripts/chapter-5.json",
-      "script_sha256": "85a1b046e95d2705424a1bad278cdc6e463bf17ee3d77eb7a0df1b159105f933",
+      "script_sha256": "a4a4a29d1fb252c04ac1eb9e572ade70c4c7f11556c9da9302b2c6b01cc3d5dd",
       "panels": [
         {
           "id": "N5-01",
@@ -8351,56 +8351,42 @@
           ],
           "lettering": [
             {
-              "position": "above",
-              "x": 0.025,
-              "y": 0,
-              "w": 0.66,
-              "target": [
-                0.15,
-                0.31
-              ],
               "speaker": "Kiva",
-              "text": "To Venn at the bindery. He pays the crate fee."
-            },
-            {
-              "position": "below",
-              "x": 0.25,
+              "text": "To Venn at the bindery. He pays the crate fee.",
+              "position": "above",
+              "x": 0.06,
               "y": 0,
-              "w": 0.72,
+              "w": 0.88,
               "target": [
-                0.49,
-                0.2
+                0.5,
+                0.5
               ],
               "name_cue": true,
               "no_tail": true,
+              "caption": false,
+              "card": false
+            },
+            {
               "speaker": "Aren",
-              "text": "I’ll bring your barrow back."
+              "text": "I’ll bring your barrow back.",
+              "position": "below",
+              "x": 0.06,
+              "y": 0,
+              "w": 0.88,
+              "target": [
+                0.5,
+                0.5
+              ],
+              "name_cue": true,
+              "no_tail": true,
+              "caption": false,
+              "card": false
             }
           ],
-          "lettering_reviewed": true,
-          "available": true,
+          "lettering_reviewed": false,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/crate-bindery/crops/N5-02.png",
-          "sha256": "3112231181eec626a20c7ef97062d5683f35e0e72d17d8ac247e940fe35cf83d",
-          "width": 1024,
-          "height": 727,
-          "attempt_id": "N5-02-03-P",
-          "crop": {
-            "source_path": "production/nightglass-longform/chapter5/crate-bindery/candidates/N5-02-03-P.png",
-            "source_sha256": "7ea0a58c220c2e411e9f153373816fbbed6a93c288dbd5ac5ec5d7ab2ca7479a",
-            "source_dimensions": [
-              1024,
-              1536
-            ],
-            "box_xyxy": [
-              0,
-              0,
-              1024,
-              727
-            ],
-            "operation": "lossless rectangular PNG crop; no scaling or retouch"
-          }
+          "gap_after": 28
         },
         {
           "id": "N5-03",
@@ -8408,29 +8394,9 @@
           "copy": [],
           "lettering": [],
           "lettering_reviewed": true,
-          "available": true,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/crate-bindery/crops/N5-03.png",
-          "sha256": "0a6fb893c0aee5078336c5becc6a953d302877f49673030094006f504ae37627",
-          "width": 1024,
-          "height": 799,
-          "attempt_id": "N5-02-03-P",
-          "crop": {
-            "source_path": "production/nightglass-longform/chapter5/crate-bindery/candidates/N5-02-03-P.png",
-            "source_sha256": "7ea0a58c220c2e411e9f153373816fbbed6a93c288dbd5ac5ec5d7ab2ca7479a",
-            "source_dimensions": [
-              1024,
-              1536
-            ],
-            "box_xyxy": [
-              0,
-              737,
-              1024,
-              1536
-            ],
-            "operation": "lossless rectangular PNG crop; no scaling or retouch"
-          }
+          "gap_after": 28
         },
         {
           "id": "N5-04",
@@ -8443,42 +8409,26 @@
           ],
           "lettering": [
             {
-              "position": "above",
-              "x": 0.25,
-              "y": 0,
-              "w": 0.72,
-              "target": [
-                0.8,
-                0.23
-              ],
               "speaker": "Venn",
-              "text": "The carrying fee. Thank you."
+              "text": "The carrying fee. Thank you.",
+              "position": "above",
+              "x": 0.06,
+              "y": 0,
+              "w": 0.88,
+              "target": [
+                0.5,
+                0.5
+              ],
+              "name_cue": true,
+              "no_tail": true,
+              "caption": false,
+              "card": false
             }
           ],
-          "lettering_reviewed": true,
-          "available": true,
+          "lettering_reviewed": false,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/crate-bindery/crops/N5-04.png",
-          "sha256": "0f4ea43eb17b76b8e014ae38132c514108d4715bec0765c598fecf45488ad6ac",
-          "width": 1024,
-          "height": 652,
-          "attempt_id": "N5-04-05-R1",
-          "crop": {
-            "source_path": "production/nightglass-longform/chapter5/crate-bindery/candidates/N5-04-05-R1.png",
-            "source_sha256": "15c4d767b7e1da53dab0511e4e86dd5baacf85d3af567d07daa2bb5fc2709705",
-            "source_dimensions": [
-              1024,
-              1536
-            ],
-            "box_xyxy": [
-              0,
-              0,
-              1024,
-              652
-            ],
-            "operation": "lossless rectangular PNG crop; no scaling or retouch"
-          }
+          "gap_after": 28
         },
         {
           "id": "N5-05",
@@ -8495,58 +8445,42 @@
           ],
           "lettering": [
             {
+              "speaker": "Venn",
+              "text": "I can show you the room tomorrow, after closing.",
               "position": "above",
-              "x": 0.08,
+              "x": 0.06,
               "y": 0,
-              "w": 0.78,
+              "w": 0.88,
               "target": [
-                0.77,
-                0.45
+                0.5,
+                0.5
               ],
               "name_cue": true,
               "no_tail": true,
-              "speaker": "Venn",
-              "text": "I can show you the room tomorrow, after closing."
+              "caption": false,
+              "card": false
             },
             {
+              "speaker": "Aren",
+              "text": "I’ll come with Kiva.",
               "position": "below",
-              "x": 0.025,
+              "x": 0.06,
               "y": 0,
-              "w": 0.69,
+              "w": 0.88,
               "target": [
-                0.3,
-                0.24
+                0.5,
+                0.5
               ],
               "name_cue": true,
               "no_tail": true,
-              "speaker": "Aren",
-              "text": "I’ll come with Kiva."
+              "caption": false,
+              "card": false
             }
           ],
-          "lettering_reviewed": true,
-          "available": true,
+          "lettering_reviewed": false,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/crate-bindery/crops/N5-05.png",
-          "sha256": "4a25186e9f93c8db0f2b67c2d4eb92138b96f820caa7f4ecac0d5ef5246e9817",
-          "width": 1024,
-          "height": 878,
-          "attempt_id": "N5-04-05-R1",
-          "crop": {
-            "source_path": "production/nightglass-longform/chapter5/crate-bindery/candidates/N5-04-05-R1.png",
-            "source_sha256": "15c4d767b7e1da53dab0511e4e86dd5baacf85d3af567d07daa2bb5fc2709705",
-            "source_dimensions": [
-              1024,
-              1536
-            ],
-            "box_xyxy": [
-              0,
-              658,
-              1024,
-              1536
-            ],
-            "operation": "lossless rectangular PNG crop; no scaling or retouch"
-          }
+          "gap_after": 28
         },
         {
           "id": "N5-06",
@@ -8559,27 +8493,26 @@
           ],
           "lettering": [
             {
-              "position": "above",
-              "x": 0.025,
-              "y": 0,
-              "w": 0.7,
-              "target": [
-                0.24,
-                0.28
-              ],
               "speaker": "Kiva",
-              "text": "Tomorrow after closing. I’ll come with you."
+              "text": "Tomorrow after closing. I’ll come with you.",
+              "position": "above",
+              "x": 0.06,
+              "y": 0,
+              "w": 0.88,
+              "target": [
+                0.5,
+                0.5
+              ],
+              "name_cue": true,
+              "no_tail": true,
+              "caption": false,
+              "card": false
             }
           ],
-          "lettering_reviewed": true,
-          "available": true,
+          "lettering_reviewed": false,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/crate-bindery/candidates/N5-06-P.png",
-          "sha256": "9066132b8b03f50ef56b05f4e679de7b73e16650f88cbfffd71d3428a38d54a1",
-          "width": 1536,
-          "height": 1024,
-          "attempt_id": "N5-06-P"
+          "gap_after": 28
         },
         {
           "id": "N5-07",
@@ -8592,29 +8525,26 @@
           ],
           "lettering": [
             {
+              "speaker": "Caption",
+              "text": "Ninth Store.",
               "position": "above",
-              "x": 0.05,
+              "x": 0.06,
               "y": 0,
-              "w": 0.9,
+              "w": 0.88,
               "target": [
                 0.5,
                 0.5
               ],
-              "caption": true,
+              "name_cue": false,
               "no_tail": true,
-              "speaker": "Caption",
-              "text": "Ninth Store."
+              "caption": true,
+              "card": false
             }
           ],
-          "lettering_reviewed": true,
-          "available": true,
+          "lettering_reviewed": false,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/lead/candidates/N5-07-P.png",
-          "sha256": "6a646bc23b5d6857527129ab215e5c03689b1e270d48ade47fca5cc41df64d2b",
-          "width": 1536,
-          "height": 1024,
-          "attempt_id": "N5-07-P"
+          "gap_after": 28
         },
         {
           "id": "N5-08",
@@ -8631,48 +8561,46 @@
           ],
           "lettering": [
             {
+              "speaker": "Sera",
+              "text": "Mern sent us.",
               "position": "above",
-              "x": 0.025,
+              "x": 0.06,
               "y": 0,
-              "w": 0.57,
+              "w": 0.88,
               "target": [
-                -0.1,
-                0.4
+                0.5,
+                0.5
               ],
               "name_cue": true,
               "no_tail": true,
-              "offscreen": true,
-              "speaker": "Sera",
-              "text": "Mern sent us."
+              "caption": false,
+              "card": false
             },
             {
+              "speaker": "Toma",
+              "text": "Then you found the right stack.",
               "position": "below",
-              "x": 0.18,
+              "x": 0.06,
               "y": 0,
-              "w": 0.79,
+              "w": 0.88,
               "target": [
-                0.6,
-                0.3
+                0.5,
+                0.5
               ],
               "name_cue": true,
               "no_tail": true,
-              "speaker": "Toma",
-              "text": "Then you found the right stack."
+              "caption": false,
+              "card": false
             }
           ],
-          "lettering_reviewed": true,
-          "available": true,
+          "lettering_reviewed": false,
+          "available": false,
           "reuse": null,
-          "gap_after": 80,
-          "source": "production/nightglass-longform/chapter5/lead/candidates/N5-08-P.png",
-          "sha256": "9456ae73a31b1bba601982f3154bef2b2004c025d9710f722d648c9da2ea8453",
-          "width": 1448,
-          "height": 1086,
-          "attempt_id": "N5-08-P"
+          "gap_after": 80
         },
         {
           "id": "N5-09",
-          "alt": "Toma’s RIGHT finger indicates the external workplace line on Ilen’s already-signed collection request beside the intact cream/VIOLET reply. Sera observes entirely off frame with her own ledger closed; the short insert emphasizes the existing papers and hand.",
+          "alt": "Toma lays Ilen’s already-signed collection request beside the one intact cream/VIOLET reply. His finger indicates its external current workplace line; Sera observes while keeping her own ledger closed.",
           "copy": [
             {
               "speaker": "Toma",
@@ -8681,49 +8609,26 @@
           ],
           "lettering": [
             {
+              "speaker": "Toma",
+              "text": "Ilen asked yesterday: send hers to the west drying loft.",
               "position": "above",
-              "x": 0.05,
+              "x": 0.06,
               "y": 0,
-              "w": 0.75,
+              "w": 0.88,
               "target": [
                 0.5,
-                -0.2
+                0.5
               ],
               "name_cue": true,
               "no_tail": true,
-              "speaker": "Toma",
-              "text": "Ilen asked yesterday: send hers to the west drying loft."
+              "caption": false,
+              "card": false
             }
           ],
-          "lettering_reviewed": true,
-          "available": true,
-          "reuse": {
-            "panel": "N5-08",
-            "path": "production/nightglass-longform/chapter5/lead/crops/N5-09.png",
-            "sha256": "b07177a83f7178edfe5897af7905ea534b30e9677db860ada45006c0a647edb0",
-            "reason": "Root and independent editorial actually viewed whole08 and full lossless09 crop. Accurate planned external-record insert: RIGHT finger on signed WHITE request beside separate intact CLOSED CREAM/VIOLET reply, same two hands/table, no custody change. Indistinct raster marks are not claimed as a legible workplace address; exact workplace comes from editable dialogue. Sera observes off-frame. Useful tighter emphasis without a new render."
-          },
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/lead/crops/N5-09.png",
-          "sha256": "b07177a83f7178edfe5897af7905ea534b30e9677db860ada45006c0a647edb0",
-          "width": 830,
-          "height": 310,
-          "attempt_id": "N5-08-P-detail-N5-09",
-          "crop": {
-            "source_path": "production/nightglass-longform/chapter5/lead/candidates/N5-08-P.png",
-            "source_sha256": "9456ae73a31b1bba601982f3154bef2b2004c025d9710f722d648c9da2ea8453",
-            "source_dimensions": [
-              1448,
-              1086
-            ],
-            "box_xyxy": [
-              430,
-              700,
-              1260,
-              1010
-            ],
-            "operation": "lossless rectangular PNG crop; no scaling or retouch"
-          }
+          "lettering_reviewed": false,
+          "available": false,
+          "reuse": null,
+          "gap_after": 28
         },
         {
           "id": "N5-10",
@@ -8740,41 +8645,42 @@
           ],
           "lettering": [
             {
-              "position": "above",
-              "x": 0.2,
-              "y": 0,
-              "w": 0.77,
-              "target": [
-                0.85,
-                0.24
-              ],
               "speaker": "Toma",
-              "text": "We receive the redirects. We have no workplace round."
-            },
-            {
-              "position": "below",
-              "x": 0.025,
+              "text": "We receive the redirects. We have no workplace round.",
+              "position": "above",
+              "x": 0.06,
               "y": 0,
-              "w": 0.59,
+              "w": 0.88,
               "target": [
-                0.25,
-                0.19
+                0.5,
+                0.5
               ],
               "name_cue": true,
               "no_tail": true,
+              "caption": false,
+              "card": false
+            },
+            {
               "speaker": "Aren",
-              "text": "I can take hers."
+              "text": "I can take hers.",
+              "position": "below",
+              "x": 0.06,
+              "y": 0,
+              "w": 0.88,
+              "target": [
+                0.5,
+                0.5
+              ],
+              "name_cue": true,
+              "no_tail": true,
+              "caption": false,
+              "card": false
             }
           ],
-          "lettering_reviewed": true,
-          "available": true,
+          "lettering_reviewed": false,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/lead/candidates/N5-10-P.png",
-          "sha256": "db72a88e80e57727d45f588e85b3c443acf654c0010051224523d34a2d883709",
-          "width": 1536,
-          "height": 1024,
-          "attempt_id": "N5-10-P"
+          "gap_after": 28
         },
         {
           "id": "N5-11",
@@ -8787,27 +8693,26 @@
           ],
           "lettering": [
             {
-              "position": "above",
-              "x": 0.18,
-              "y": 0,
-              "w": 0.79,
-              "target": [
-                0.85,
-                0.25
-              ],
               "speaker": "Toma",
-              "text": "The ordinary carrying fee when you bring her receipt."
+              "text": "The ordinary carrying fee when you bring her receipt.",
+              "position": "above",
+              "x": 0.06,
+              "y": 0,
+              "w": 0.88,
+              "target": [
+                0.5,
+                0.5
+              ],
+              "name_cue": true,
+              "no_tail": true,
+              "caption": false,
+              "card": false
             }
           ],
-          "lettering_reviewed": true,
-          "available": true,
+          "lettering_reviewed": false,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/lead/candidates/N5-11-P.png",
-          "sha256": "6dcf540a4b9debfeaf1c0ba4fe6289b6c4612b9a64c8987200a92657bc816ebe",
-          "width": 1448,
-          "height": 1086,
-          "attempt_id": "N5-11-P"
+          "gap_after": 28
         },
         {
           "id": "N5-12",
@@ -8824,41 +8729,42 @@
           ],
           "lettering": [
             {
+              "speaker": "Sera",
+              "text": "I’ll get the current direction while you deliver.",
               "position": "above",
-              "x": 0.09,
+              "x": 0.06,
               "y": 0,
-              "w": 0.8,
+              "w": 0.88,
               "target": [
                 0.5,
-                0.34
-              ],
-              "speaker": "Sera",
-              "text": "I’ll get the current direction while you deliver."
-            },
-            {
-              "position": "below",
-              "x": 0.025,
-              "y": 0,
-              "w": 0.64,
-              "target": [
-                0.23,
-                0.2
+                0.5
               ],
               "name_cue": true,
               "no_tail": true,
+              "caption": false,
+              "card": false
+            },
+            {
               "speaker": "Aren",
-              "text": "I’ll meet you here."
+              "text": "I’ll meet you here.",
+              "position": "below",
+              "x": 0.06,
+              "y": 0,
+              "w": 0.88,
+              "target": [
+                0.5,
+                0.5
+              ],
+              "name_cue": true,
+              "no_tail": true,
+              "caption": false,
+              "card": false
             }
           ],
-          "lettering_reviewed": true,
-          "available": true,
+          "lettering_reviewed": false,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/lead/candidates/N5-12-P.png",
-          "sha256": "2856bc926c774ad422adffe6bb065903a1eabb344df1d9bc31ca501a75d33cdb",
-          "width": 1536,
-          "height": 1024,
-          "attempt_id": "N5-12-P"
+          "gap_after": 28
         },
         {
           "id": "N5-13",
@@ -8866,14 +8772,9 @@
           "copy": [],
           "lettering": [],
           "lettering_reviewed": true,
-          "available": true,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/lead/candidates/N5-13-R1.png",
-          "sha256": "01fda974ae94c03466316cccb9bc5d62086a95e0869c2edeb06cbe0b11c7284a",
-          "width": 1122,
-          "height": 1402,
-          "attempt_id": "N5-13-R1"
+          "gap_after": 28
         },
         {
           "id": "N5-14",
@@ -8881,29 +8782,9 @@
           "copy": [],
           "lettering": [],
           "lettering_reviewed": true,
-          "available": true,
+          "available": false,
           "reuse": null,
-          "gap_after": 28,
-          "source": "production/nightglass-longform/chapter5/ilen-establishing/crops/N5-14.png",
-          "sha256": "0d6bfaf540ed17a605feb260737518ab90f33d5256d1293d8082ce54d45704e6",
-          "width": 1448,
-          "height": 1086,
-          "attempt_id": "N5-14-P",
-          "crop": {
-            "source_path": "production/nightglass-longform/chapter5/ilen-establishing/candidates/N5-14-P.png",
-            "source_sha256": "0d6bfaf540ed17a605feb260737518ab90f33d5256d1293d8082ce54d45704e6",
-            "source_dimensions": [
-              1448,
-              1086
-            ],
-            "box_xyxy": [
-              0,
-              0,
-              1448,
-              1086
-            ],
-            "operation": "whole native frame copied unchanged"
-          }
+          "gap_after": 28
         },
         {
           "id": "N5-15",
@@ -9702,7 +9583,7 @@
           "gap_after": 28
         }
       ],
-      "available": 14,
+      "available": 1,
       "total": 42,
       "complete": false
     }

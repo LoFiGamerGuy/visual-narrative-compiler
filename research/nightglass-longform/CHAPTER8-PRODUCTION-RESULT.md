@@ -13,3 +13,7 @@ Remaining defects:40's exposed LEFT upper sleeve visibly omits the old tear, not
 Actual reading reports: LEAD-CHAPTER8-FULL-READING.md; reader-checks/chapter8-full-review/ACTUAL-FULL-READING.md; production/nightglass-longform/chapter8/relay-return/notes/FINAL-CHAPTER8-EDITORIAL-REVIEW.md. Detailed source/crop and individualphone notes remain in LEAD-CHAPTER8-READING.md and corresponding reader/assets reports. This is provisional development completion, not owner acceptance or publication. All earlier deliveries remain immutable.
 
 Final completion integration: reviewed_complete1–8, final snapshotc4f33de4fa9e76f2eb06a93255f59fca32839867635d44d0eb864cba7e617eaa. Root ACTUALLY viewed final390 header and ending: eight chapter links/title/premise clear, preview warning gone, End of Chapter8 and relative return/review links clear. Headerd8a1b6cc/end374b3aef hash checks match; status-only source proof retains all45 panel records and prior306/comparison/overrides/selections. Reader independently agrees PASS. Portable Eight-v1 build next; no package verification claim yet.
+
+## Portable milestone completed
+
+EightChapters-v1 build and fresh strict verification exited0; all64 actual delivery views passed.351 Nightglass panels /22 offline routes. ZIP SHA40a887be91b99164e87ed7dba85b82bdf16fe013464d6c2a95b6bcdfec92de1f. See assets/package/EIGHTCHAPTER-DELIVERY-RECEIPT.json for exact bindings; preserved earlier pending entries describe chronology, not current status.

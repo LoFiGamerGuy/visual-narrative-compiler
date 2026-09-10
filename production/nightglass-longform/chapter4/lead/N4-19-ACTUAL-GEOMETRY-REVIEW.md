@@ -1,0 +1,5 @@
+# Actual19R1 geometry gate
+
+Lead actually viewed wholeR1+exactdestinationdetail; independenteditorial/assetsbothactualgeometryPASS. StairfootvisiblyjoinsLOWERshorewalkwaytoMern/mainpacket, extrabackgroundboatremoved. OriginalRIGHTL-shapedtopstripshallowerthanP: onlycompactside-by-sideTWOboots onfrontLEFTtopbehindfirstriser; no broadfore/aftlunge/wallcap/stairtread/replacementfloor. FRONTMOSTsourcefacinggateopens20→outboardLEFTmouth; HIGHblackpostcontactmustclearhalfwallbackANDupperhorizontalguardbar. TinyrearArenleftbeltblack/brasssliverremainsidleappearancequalification, notperfectsheathplacementclaim; correctRIGHTdrawfuture21required. SoleR1spent/no further19repair. Primary/allnativespreserved.
+
+Both independent reviewers actually viewed fullnative and exact destination crop after user reset usage. Constraints are concrete limits for20–24, not a claim19 already shows actual force or boot contact. Root appended matching state constraints to20–23 BEFORE their art, preserving prior fullscript pair. Source/data/actual19remain unchanged.

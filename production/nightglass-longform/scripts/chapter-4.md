@@ -196,11 +196,11 @@ State: Noon packet/third-bell relationship introduced7 and clarified here once. 
 
 ## N4-19
 
-Kiva shows Aren and Sera the long public ramp, with its dogleg around occupied stalls and its ordinary barrows and walkers, then the short gap between two fixed market sorting landings. The nearer landing opens from her service door; the farther landing has one ordinary stair flight down to the dispatch counter on the next lower terrace.
+Kiva shows Aren and Sera the long public ramp, with its dogleg around the occupied workshop footprint and stalls and its ordinary barrows and walkers, then the short gap between two fixed market sorting landings. The nearer landing opens from her rear workshop service door, behind the occupied shop footprint; the farther landing is the head of the existing ordinary stair shown at the quay, one flight down to the same dispatch counter on the next lower terrace.
 
 Camera: high readable route comparison: long usable ramp versus two fixed ledges and short quay stair
 
-State: The ramp remains usable and is Sera's route. The short transfer saves that specific detour with a modest bag; it is not required because a bridge broke. Both landings are fixed stone/iron structures, not boat parts, hanging crates or movable bell hardware. Show source LEFT/destination RIGHT and clear air gap, supported perimeter and access. The quay is ONE ordinary stair flight below this shop/service level; distant city depth is background, not the transfer drop.
+State: The ramp remains usable and is Sera's route. The short transfer saves that specific detour with a modest bag; it is not required because a bridge broke. Both landings are fixed stone/iron structures, not boat parts, hanging crates or movable bell hardware. Show source LEFT/destination RIGHT and clear air gap, supported perimeter and access. The quay is ONE ordinary stair flight below this shop/service level; distant city depth is background, not the transfer drop. Before-art spatial clarification from actual18: the service gap is behind the workshop, not a new break in its public awning frontage. Keep the existing stair/public access open; visually show the longer public dogleg around the occupied shop footprint. One existing stair/counter/boat only. Destination has an open gap-facing mouth and original clear standing strip with side/back guards; fixed iron upright source-facing contact is unobstructed beyond the strip. No unshown destination gate opening.
 
 Silent.
 
@@ -210,7 +210,7 @@ Kiva opens the ordinary service gate onto her fixed source landing and points to
 
 Camera: one authorized local access cue with precise immovable target
 
-State: Kiva controls this workshop service landing. No barred upper license gate crossed, no general permission invented. Anchor is SOLID FIXED METAL UPRIGHT, not boat, movable bell, suspension cable or cargo. Source and destination have clear standing room, no unexplained center socket.
+State: Kiva controls this workshop service landing. No barred upper license gate crossed, no general permission invented. Anchor is SOLID FIXED METAL UPRIGHT, not boat, movable bell, suspension cable or cargo. Source and destination have clear standing room, no unexplained center socket. Actual19R1 staging: open the FRONTMOST facing source gate and point to the upright source-facing shaft HIGH ABOVE both the masonry halfwall and its upper horizontal guard bar. Preserve the clear outboard body/line corridor.
 
 - Kiva: That upright is part of the wall. The stair beyond it goes to the quay.
 
@@ -220,7 +220,7 @@ Aren stands with both boots on the broad LEFT source landing, one small closed g
 
 Camera: clear setup before force: both supports, modest load and correct rear terminal
 
-State: ONE sword drawnRIGHT, empty sheathRIGHT hip. No line yet. LEFT elbow tear/RIGHT intact. Destination RIGHT has a clear landing strip and short stair to quay. This is not a new range or force upgrade; angle and distance must be plausible for the already established ability.
+State: ONE sword drawnRIGHT, empty sheathRIGHT hip. No line yet. LEFT elbow tear/RIGHT intact. Destination RIGHT has a clear landing strip and short stair to quay. This is not a new range or force upgrade; angle and distance must be plausible for the already established ability. Use the actual19R1 FRONTMOST now-open source threshold; high target on the exposed shaft ABOVE the halfwall AND upper guard bar. The existing RIGHT destination is a narrow L-shaped top strip, not a broad replacement floor.
 
 Silent.
 
@@ -230,7 +230,7 @@ A single cyan line runs from the round REAR POMMEL of the sword in Aren's RIGHT 
 
 Camera: individual force panel with both actual endpoints visible
 
-State: One pommel→fixed-metal path only, not blade tip/cable/boat. Pull moves Aren and his carried light bag, not structures. No attack, extra limb, cargo lift or passenger. Preserve exact source/destination geography from19–21.
+State: One pommel→fixed-metal path only, not blade tip/cable/boat. Pull moves Aren and his carried light bag, not structures. No attack, extra limb, cargo lift or passenger. Preserve exact source/destination geography from19–21. The one visible strand and outboard body route must clear the rear masonry bridge, halfwall AND horizontal guard bar; contact stays on the high exposed source-facing black shaft established20. Do not use a low base contact.
 
 Silent.
 
@@ -238,9 +238,9 @@ Silent.
 
 Aren reaches the clear destination strip and concentrates on Hold: both boot soles have made supported contact on the original fixed RIGHT landing, knees flexed, with the one cyan rear-pommel line still attached to the same upright. He is braking, not swinging or striking.
 
-Camera: individual supported braking moment, boots and fixed contact visible together
+Camera: Reviewed camera v2: closer outboard side-three-quarter supported full-body view, compact soles and both force endpoints visible; controlled point-down weapon makes upper rear pommel unobstructed
 
-State: Existing Hold I only: sustained concentration brakes the pull; no attack while braking and no range/force increase. Actual line endpoint stays on the same immovable upright. No floor spanning the air gap or invented secondary landing. Keep reply secured in closed bag.
+State: Existing Hold I only: sustained concentration brakes the pull; no attack while braking and no range/force increase. Actual line endpoint stays on the same immovable upright. No floor spanning the air gap or invented secondary landing. Keep reply secured in closed bag. Actual19R1 destination supports a compact stop: BOTH boot soles side by side on the ORIGINAL FRONT-LEFT L-shaped TOP paving behind the first stair riser, knees flexed; no broad fore/aft lunge, wall-cap support, stair-tread substitution or newly widened platform. After capped23P/R1 force-origin failures, before-art independent review approves a genuinely closer outboard side-three-quarter camera. Preserve the same original compact top-floor contact area behind first riser. RIGHT arm extends into clear air; naturally turn grip so ROUND REAR POMMEL is ABOVE fist and guard/curved blade hang BELOW, tip DOWN-LEFT into clear gap air away from legs, stone and rail. One strand from upper rear pommel to SAME high solid shaft; no swing, attack, reverse joint, extra power or widened floor. Helpers may be outside closer frame. Newcamera bounded oneP and atmostoneR1; previousP/R1 remain rejected and preserved.
 
 - Aren: Hold.
 
@@ -419,4 +419,3 @@ Camera: world invitation and a modest lasting change, city inhabited at human an
 State: Wins intact: closure copy actually delivered, sealed commission answer accepted onto noon packet, client holds receipt, agreed fee paid, usable care-of promise, market-day collection offer and room introduction. Buyer result remains unknown, morning post continues, one RIGHT sheathed sword/LEFT tear/same constrained abilities. No evening/night jump or new disaster to cancel the chapter.
 
 Silent.
-

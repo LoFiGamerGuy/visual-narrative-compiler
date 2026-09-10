@@ -24,3 +24,16 @@ The two market lines distinguish familiar collection/returns from Sera’s limit
 Retained qualifications:20’s stone exterior landing is the access authority;22’s short wooden stair glimpse is not exact matching geometry.24’s extra gray bag loops are decorative variation, not a new bag or load.06’s cropped lower feet are not full-sole support proof. No rent, key transfer, binding lease or guaranteed hold occurs in this visit.
 
 The reader is12/47 and incomplete: contiguous01–06, gap07–18, separate19–24, later25–47 absent. Prior firstfour records, all219 completed chapter records and comparisons are exactly preserved. Browser reports no broken images, page errors or horizontal overflow; all15 current copy balloons are16px and within390px. This bounded review does not claim a complete Chapter6 reading.
+
+
+## Office direction and working week:07–11 and25–36
+
+PASS after actual17 selected-image reviews, all17 individual390px captures, corrected34/36 wrap captures, and all10 bounded continuous viewports through three original-size composites. Evidence: `chapter6-office-week-reviewed/`, snapshot `7d78f4304b878ba3a16abb4d92b0af9e64d31143270b35d1ab5b07af4164a0a1`. All final individual images byte-match the versions actually inspected.
+
+Office06–11 preserves the limited two-stop observation, current direction’s authority, replacement signing and Aren’s actual GREEN-notice receipt. It does not yet show Toma receiving it. Week24–36 turns the room wish into a measured passage of fifth, sixth and seventh paid mornings. Ilen’s business order and Kiva’s retained order lead visibly back into supported work; her next collection remains after the morning post. The exact-copy captions make these separate days legible rather than implying multiple unmarked rounds on one morning.
+
+All new speech is16px and outside the art.34’s named lower AREN band avoids a tail toward his hand or the papers.34’s question width and36’s caption width were adjusted after the first phone pass to remove single-word last lines; copy and art stayed exact. The wide28/29 images remain readable at390, although29’s small overlapping papers do not independently prove the whole sheet. Both preserve Ilen’s private drawer closed and keep Aren outside their framing.
+
+27’s badge repair is now selected and actually confirmed: rectangular brass on the same red cord, no round substitution.33 preserves its original crop;34 uses the sole wallet repair.26 is the accurate earlier stair image and36 the accurate fee image with new day/copy;36 retains the held-wallet versus counter-resting pose qualification. Walking images are not claimed as static two-sole proofs.
+
+Source/copy/hash and applicable native crop pixels pass. All previous12 panel records, prior219 complete chapters, comparisons and every existing lettering override are exact. Preview29/47 remains incomplete, with12–18 and37–47 honestly absent. No full47 reading claimed. Browser errors/broken images/overflow are zero and all current copy balloons fit390px at16px.

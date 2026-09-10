@@ -1,0 +1,56 @@
+# Current state — Chapter4 complete, fresh portable package next
+
+User reset usage and instructed continue. Autonomous sustained work and subagents remain authorized by HANDOFF.md. Persistent goal has no token budget; tool reports usageLimited although execution works. Do not duplicate the goal or falsely complete it. Initial three chapters were a milestone, not a stop instruction. Complete and verify Chapter4, then assess the next consecutive chapter.
+
+## Isolation and tools
+
+Only mutate `/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110`, branch `autonomous/nightglass-longform-20260909-2110`, base4611831b8ca660c5ad682c0ad8f0f1b617c94cf3, latest commit09e0863 (readable through31). Later ending work is uncommitted. Preserve original/pilot worktrees, Downloads, ignored natives and prior ZIPs. Root alone owns shared selected.json. All required initial source reading and skill instructions already applied; do not redo discovery.
+
+Python `/tmp/nightglass-longform-env/bin/python`; browser `/tmp/nightglass-pilot-reader-env/bin/python`, `LD_LIBRARY_PATH=/tmp/nightglass-pilot-browser-libs/usr/lib/x86_64-linux-gnu`. Build `production/nightglass-longform/reader/build.py`; canonical count `production/nightglass-longform/reconcile_calls.py`.
+
+## Resources and current call
+
+178 returned at last reconciliation; final N4-39-40-P submitted by assets afterward (179 actual submitted, one pending,141 remain original320 if unchanged). Do not duplicate or retry the worker call. No root image cell. Initial delivery136 returned, Chapter4 currently42 returned plus this pending primary. Chapter4 planning ceiling70 additional within initial allowance; no new tranche. One primary, at most one targeted R1 and one justified source-only texture finish per image; never reset caps. Native original bytes/exact args/reference hashes/submission times retained. Unknown model/billing and owner approval remain null; no direct paid external spend.
+
+## Completed initial delivery
+
+Five revised16-panel pilots, bounded17-call comparison (A7/B7/C3), other four continuation outlines complete. Nightglass Ch1=48, Ch2=49, Ch3=40,137 total; all selected natives/lettered panels/full continuous390 readings passed lead and independent review. reviewed_complete=[1,2,3]. Entry docs/nightglass-longform/index.html.
+
+Immutable `production/nightglass-longform/package/output/` ZIPs:
+- Nightglass-Chapter1-v1.zip,1247564411 bytes, SHA b7de350e1cbe09a3cf5835f1be247491f518ce8ea4edb3bc520263fd893c6579.
+- Nightglass-ThreeChapters-v1.zip,1925098837 bytes, SHA563786a5cb5e3ddec1249d264717c6aa5bce43d9d2bbc3e6fd02ef58a96cba93. Fresh complete manifest/CRC/native checks and17 actual offline390 routes PASS137+80+18 panels, no required missing assets/errors/overflow/network.656 historical missing citations disclosed. Root/agents inspected actual captures and supplementary internal historical-dialog scroll. Report assets/package/THREECHAPTER-DELIVERY-REVIEW.md. No further initial-package work needed.
+
+## Chapter4 source and reading status
+
+The Address That Answered,40-panel complete script `scripts/chapter-4.json/.md` reviewed before art, current post23v2 script SHA64e377a030f79a23300d60aa97c3f9be7941b7571cc0b6c375b878c13087d103. Original scripts archived before each genuine camera revision. Scene-state has actual17–38 update; following4–6 arc is `production/nightglass-longform/scripts/FOLLOWING-ARC-4-6.md`.
+
+Selected01–38. Root actually viewed every selected native/full crop and important rejected attempts. Root/reader actual individual390 panels01–34 and complete sequential chunks through34. Reader deliberately waits ALL35–40 native selections, then batches their lettering/individual checks and FULL continuous40 reading. Do not claim35+ phone-read or full4 review yet. Latest through34 captures `reader-checks/chapter4-client-receipt-lettering/`, snapshot412212b06424fab006c37703c5ea80a15f2e861767fe37429eabec707d771f03. All prior1–3 source/copy unchanged. First14 full sequence additionally read by editorial. Full lead record LEAD-CHAPTER4-READING.md; historical details archived in before-final-chapter4-reading-CURRENT-STATE.md.
+
+Central19–24 force chain passes actual native and phone reading. Original23P/R1 failed pommel endpoint and remain capped/rejected. Independently reviewed before-art23v2 changes camera/point-down blade and solves upper ROUND REAR POMMEL→high fixed shaft while two compact soles stand on original stair-head top. Close perspective is not proof of identical measured footprint or off-frame gap. No stronger force.24 is later ordinary released descent. Other minor costume/fitting/background details remain candidly qualified; no cosmetic rerender campaign.
+
+## Current custody and gains
+
+Aren adult navy-black hair/ivory jacket/OLD LEFT elbow tear/RIGHT intact, black clothes/gloves, ONE anatomical RIGHT sheathed crescent, one brass waist badge/red cord, CREAM savings wallet. One mediumGRAY bag, ONE broad front compartment, two BROWN padded shoulder straps+hipbelt, old GRAY strap rolled on side. Bag often torso-occluded, not proof it vanished. Sera adult auburn bob/burgundy coat/own brown ledger. Kiva adult short straight black hair/copper hoops/TEAL shirt/UMBER apron, no courier bag. Mern short cropped silver hair/clean-shaven/navy waistcoat/palegray shirt, own large operational book.
+
+Ossa keeps original large official reply/open BLUE envelope at Lower Post. WHITE closure copy delivered Kiva stays under BRASS hinge with OLD small refusal slip and CLOSED wood hinge crate. Kiva TAN/GREEN-sealed commission acceptance received small upper-left external care-of label without covering recipient marks; Mern accepts25 and dispatches27–28. It is now aboard departed packet in one NAVY sack, not returned or buyer-confirmed. SMALL WHITE dispatch receipt went Aren LEFT27, stayed29, was packed into CLOSED cream wallet by30, returned Kiva33 and stays her records. Not separately visible among records36, no transfer back shown. Mern large book stays quay; Sera records Toma/Ninth Store in her own smaller ledger31, closes it afterward.
+
+35/36R1 selected native SHA00fc781ce3b9ce282f57fc2a7a742a5187f3b20c1076d1f3941282f0674d6608: agreed modest letter fee already paid, Aren RIGHT coin into OPEN tabletop cream wallet/LEFT stabilizes; repair removes duplicate closed waist wallet35.36 later reclosed wallet, empty hands, private market-day collection offer after Lower Post. Savings retained, no arbitrary sum/bonus/key.
+
+37/38R1 selected native SHA9d8d1b36f63e45f90c718faaaba1765c65c4a2686095e74bb33157c6181e04cb; crops37 c67001cd83d8aa28309ce3e92a35c27b515bd02bc98184467017e89ec692493e,38 6229ad66af3ad1fe9ded71a006aa114eef2dc5f6612d443c99bdfab487e614c0. Root actualP/R1/full crops read: Kiva points to bindery door/books/upstairs cream-curtain window/fernbox; restrained hope38. Sole repair removes wrongly copied Kiva bag and extra LEFT tubes, correct RIGHT sheath37 retained/outside38 closeframe. Wallet/badge/LEFT tear/RIGHT intact persist. Introduction/viewing only, no tenancy or key. Ossa earlier sorting-hall room is a separate option; first-week condition has not elapsed.
+
+Final39–40 pending: shared ordinary public bridge homeward, Sera own ledger closed and bounded Ninth Store/Toma tomorrow AFTER morningpost; empty gray bag/current kit/closed savings wallet, distant departing packet, actual bindery landmark. No new force, buyer response, key, week jump or cancellation of gains.
+
+## Agents and exact next actions
+
+Assets RUNNING final39/40 in `chapter4/return-ending/`; worker records are `notes/selected-records.json` DICT selected, unlike quay root-level LIST. Root must view returned whole native and both full crops, then merge exact records/hash after actual review. Agent owns at most sole R1 if material failure and final concise provenance/crop audit.
+Reader IDLE: once all40 selected, followup_task to letter/check35–40 then capture/read ALL continuous40 at390, preserve exact copy/source proof and prior1–3. Root view all six individual phones and every complete continuous capture/composite at readable scale. Editorial IDLE: independent full40 actual reading when final captures available. Do not infer reading from automated checks.
+After full reading, address actual material issues within caps, update final actual state/progression/review and reviewed_complete add4, build final reader. NEW `pack.py build --version Nightglass-FourChapters-v1 --milestone fourchapters`, no source writes until source-snapshot-frozen. Fresh verify_package.py extraction checks18 actual routes,177 Nightglass+80 pilot+18 comparison panels; inspect actual captures. Existing packager already supports/tested fourchapters. Preserve old ZIPs, checkpoint local commit. Then assess earned Chapter5 full script from readable4 and actual day/recipient/release authority;5/6 currently outlines only. Do not stop at this milestone or falsely complete persistent goal.
+
+All40 now selected after root actual39/40 whole primary and full tier crop inspection. NativeSHA49077710377adc8e533fd7ff31638448b666aebe2bfbfb4f72bc8b68ddaa9ef8. No final repair. Reader released for35–40 lettering and complete continuous390 read; reviewed_complete still[1,2,3]. Canonical total179 returned/0 pending/141 remain original320 after final primary.
+
+
+FINAL READING GATE: Root, reader and independent editorial each actually read all25 viewports/all7 original-size full-review composites. Snapshotdabe433e27cd66caace5fc725da8fbc387cca4d2885b248782f78f119e263696. Exact40 source/copy/native crops and browser checks PASS. All individual40 actually read. reviewed_complete now[1,2,3,4], rebuilt177 complete/zero source issues. Reader doing only final status/header/footer/nav check, then source freeze. Canonical179 returned=113P+66R,0pending/failed/finishes,141remain. Chapter4 alone43=28P+15R. New CHAPTER4-PRODUCTION-RESULT.md records completion and candid comfortable-deadline/repeated-counter/occlusion limits. ELAPSED-TIME-AND-ROOM-OFFERS.md establishes only TWO recurring morning rounds after schedule acceptance by4; next5 would be THIRD, not fullweek. Next build Nightglass-FourChapters-v1/fourchapters, fresh verify18 routes/177+80+18, inspect captures, preserve prior ZIPs and local checkpoint; then earned5 full script.
+
+Final status-only check PASS reader and root actual header/end/navigation-return captures. Snapshot ef86189199de3b0617248b38ba3ee55ab1e06b612eafb5c69ab814101b3821e9 differs from full-review ONLY by4 complete false→true; all story/copy unchanged. All agents hold source writes. Fourchapter package build now, no writes until frozen event.
+
+Source snapshot frozen successfully for Nightglass-FourChapters-v1:5208 files,2372166869 source bytes. Root pack.py exec session83949 continues ZIP creation from frozen copy. Source writes may resume without altering that snapshot. Fresh extraction/18-route verification and actual capture review remain. Root final source checkpoint next; no Chapter5 art yet. Read-only editorial concept review supports one signed-release waiting reply, recipient agency and changed belief without undoing prior job choice; complete deferred crate by ordinary borrowed barrow in compact opening, actual bindery proprietor receives/pays and offers later viewing, return empty barrow before Ninth Store.

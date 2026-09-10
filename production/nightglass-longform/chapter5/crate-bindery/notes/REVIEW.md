@@ -1,0 +1,17 @@
+# Chapter5 crate and bindery02–06
+
+Five panels recommended after actual returned native/full selected crop inspection. Four built-in image calls returned: three primaries and one sole targeted structural repair. No pending calls, tool failures or texture finishes. All originals and attempts preserved; no shared selections edited.
+
+| Panels | Recommendation | Actual inspection |
+| --- | --- | --- |
+|02–03|N5-02-03-P|One closed brass-bound wooden crate stays on a clearly supporting two-wheel barrow. Aren uses both handles, Kiva accepts the job and points, Sera keeps her own closed ledger.03 shows both wheel contacts on paving and ordinary movement.|
+|04–05|N5-04-05-R1|Crate received inside Venn's bindery; empty barrow remains outside. The primary duplicated the closed waist wallet in04 beside the valid open table wallet and omitted it in05. Sole R1 removed04's duplicate and restored05's one closed cream wallet. Coin hands and all story staging preserved.|
+|06|N5-06-P, whole1536×1024 native|Empty barrow returned to Kiva with one bare hand on its handle. Aren and Sera turn onto the ordinary street; his hands and worn gray bag are empty, wallet closed, equipment correct. Crate does not return from Venn.|
+
+Venn's first actual appearance establishes a slender older brown man, bald, with neat silver moustache, round wire glasses and plum apron over cream rolled sleeves. He tends unfinished bindings, then offers a future viewing through the already-established door/window/fern-box sightline. `references/venn-identity-from-N5-04.png` preserves the exact selected face and work clothes; `references/records.json` binds its box and SHA to04–05R1. The second exact reference crop preserves05's empty barrow for06.
+
+Current custody and limits remain clear: Kiva's large closure under hinge and small records stay her bench; no tan-green acceptance or buyer response returns. The borrowed barrow is returned before Ninth Store; agreed crate earnings remain with Aren. One right sheath, old left elbow tear, intact right sleeve and single red-cord waist badge persist. Venn's viewing is tomorrow after closing, not a key, tenancy or price; exact dialogue stays outside the raster.
+
+Framing qualifications:02 wheel bottoms lie below its crop, while03 proves grounded two-wheel support.03 is a low front-three-quarter view rather than a pure side profile; the wallet is partly forearm-occluded.04's empty barrow itself is outside the closer view, with05 establishing it visibly empty. Venn's warm brown skin is recorded from the actual rendering rather than claimed as an exact color measurement.06 retains a dark grip-like shape under Kiva's bare fingers; the detail shows no extra wrist/arm or competing custody. Selected06 foot tips meet the canvas edge. Minor workshop hardware and surface weave vary; no perfect inventory claim for off-frame details.
+
+`notes/selected-records.json` contains five direct-schema recommendations. All four panel crops and two reference crops are lossless native rectangles. `notes/integrity.json` verifies originals/native/raw base64, exact prompt and reference hashes, selected file hashes and crop pixels. Submitted UTC is recorded before each invocation; returned UTC is local preservation time, not provider timing telemetry. Model snapshot, seed and billing remain unknown. Phone lettering/full reading and final selection remain lead/reader responsibilities, not claimed by this art report.

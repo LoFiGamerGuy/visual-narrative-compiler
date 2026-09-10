@@ -1,0 +1,7 @@
+# Chapter 7 reader baseline
+
+These three files are exact copies made before the first Chapter 7 reader build. `baseline-hashes.json` binds all bytes: six completed chapters / 266 story panels, 18 comparison panels, all 217 existing lettering overrides, and all 254 selected records (other completed panels use accurate reuse).
+
+Existing chapter-generic capture helpers need no modification. After the integrator releases accepted sources and editable lettering is ready, use `capture_panels.py <new-folder> N7-01 ...` for individual 390px figures. Reuse the existing bounded segment workflow for incremental reading, with chapter route `#chapter-7` and explicit start/end IDs. Capture the complete chapter only after all 40 actual panels are available: `capture.py chapter chapter7-full-review chapter-7`, then `inspection_sheets.py chapter7-full-review`.
+
+`check_preservation.py <capture-folder> [--prior <earlier-capture-folder>]` verifies frozen source/copy and baseline preservation. Folders are relative to reader-checks. It writes only the supplied capture folder's `source-copy-check.json`, refuses an existing receipt, and makes no visual verdict. Actual native/individual/continuous reading, browser receipt checks and their honest scope must be recorded separately after viewing. Root alone owns completion status. Do not run a reader build until accepted art is released; missing panels remain incomplete.

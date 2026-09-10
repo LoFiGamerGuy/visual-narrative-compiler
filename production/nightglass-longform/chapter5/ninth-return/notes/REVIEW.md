@@ -1,0 +1,17 @@
+# Ninth Store return34–38
+
+Five panels recommended after actual native/full selected crop inspection. Four built-in calls returned: three primaries and one sole structural repair, zero pending/failures/finishes. Actual33 was inspected and bound before34; each returned unit was inspected before the next. No shared script/selection mutations.
+
+| Panel | Recommended source | Actual result |
+| --- | --- | --- |
+|34|N5-34-P whole1536×1024|Ordinary stair approach to the established open green Ninth Store. Sera remains inside with her own closed ledger; Toma retains originals. Aren returns empty-handed with closed worn bag and wallet.|
+|35|Upper ORIGINAL N5-35-36-P crop|One small WHITE signed receipt transfers from Aren's LEFT glove to Toma's bare hand through actual contact. RIGHT glove empty on table; rust outgoing letter stays closed bag.|
+|36|Lower N5-35-36-R1 crop|The primary duplicated a cream waist wallet beside the valid held closing wallet. Sole R1 removes the waist duplicate; one wallet closes in both gloves, while Toma files the same small receipt with his larger original request.|
+|37|Upper N5-37-38-P crop|One pale LIGHT-BLUE operational copy passes Toma→Sera; her own CLOSED brown ledger remains separately held. Original white request and small signed receipt stay in Toma's open file.|
+|38|Lower N5-37-38-P crop|Outside the same green store, Sera holds her CLOSED own brown ledger with the copy already inside. No loose blue sheet. Aren's rust reply remains in his closed bag, hands empty and wallet closed; Toma remains at his desk behind.|
+
+The actual plum hair/pale checked garment, old left tear/intact right sleeve, right sheath and recurring gear are carried forward, with no cosmetic palette regeneration. No family-letter contents are shared, no cream/violet personal original returns, and no route correction or villain accusation is visually fabricated. The exact copy remains outside the raster. The operational copy records grounds to ask for a bounded change, not completed citywide success.
+
+Qualified details:34 uses grounded rear forefoot/rolling heel support and a raised leading boot by the riser, not two flat feet; the far LEFT tear is mostly occluded in the RIGHT-facing view. The foreground stair approach joins the established shallow porch; no second office floor.36's removed duplicate leaves an ordinary dark belt tab, not a second cream wallet. Some badge/gear is naturally hidden by the closer framing.37 Sera receives with her nearer RIGHT hand and holds the ledger with LEFT, opposite the proposed prompt hands but consistent with the hand-neutral authoritative script and single-sheet custody. Certificate/request marks are indistinct artwork, not claimed as legible record text. Repeated archive stock envelopes are background stock, not another foreground entrusted letter.
+
+`notes/selected-records.json` contains the five direct recommendations.35 deliberately retains original-primary pixels even though36 uses the repaired source. Four full tier crops and two detail references are lossless native rectangles. `notes/integrity.json` checks all original/native/raw-return/prompt/reference chains, selected hashes and crop pixels. All attempts preserved; unknown model snapshot/seed/billing remain null. Return timestamp is local preservation time. Lead owns independent final selection and continuous phone review; this report does not claim either from hashes alone.

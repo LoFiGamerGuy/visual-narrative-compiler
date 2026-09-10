@@ -1,3 +1,7 @@
+# Actual color qualification (supersedes literal palette claims below)
+
+Selected Chapter5 02 onward already shows plum-purple hair and a pale lavender checked, buttoned garment; reused01/N3-04 shows darker navy hair and a plain open ivory jacket. Actual Chapter4 ending40 already has purple/checked clothing, while earlier4-04 retains navy/pink highlights and an open pale jacket. This is accumulated visual drift, not literal navy/ivory fidelity or an in-story wardrobe change. Root and editorial acknowledge it; preserve all selected artwork/attempts without cosmetic retroactive generation. Continued panels follow actual current selected sources. Exact historical prompts and approved script remain preserved as authored.
+
 # Chapter5 scene state — approved plan, update from actual selected images
 
 CURRENT LATERALITY AUTHORITY: Seated21/23/25 face IMAGE-LEFT, anatomicalLEFT near; prior nearRIGHT descriptions below are historical errors and superseded. SelectedsoleR1s shownearLEFToldtear, remove visiblewrongLEFTsheath, soleRIGHTweaponfar-sideoccluded. Selected22P and28R1 faceIMAGE-RIGHT with anatomicalRIGHT near: intactnearRIGHTsleeve and nearRIGHTsheath correct. Preserve original22/24/26crops.27/28R1daylightrestored; no night/timejump. Current all01–28native selected. No actor or letter custody changed by corrections.

@@ -1,6 +1,6 @@
-# Chapter7 v4 — state, route and production preparation
+# Chapter7 v5 — state, route and production preparation
 
-Provisional40-panel manuscript only. Final candidate: `chapter-7-draft-v4.json/.md`. V1(43panels), v2(40panels) and v3(40panels) remain unchanged; revision receipts explain each bounded change. No image calls, shared-source changes, new rank or budget allocation. Lead must review the whole script; Chapter6 fresh portable verification and a finite Chapter7 production gate remain prerequisites.
+Complete provisional40-panel production manuscript. Prior v1–v4 drafts and the exact v5 proposal remain preserved. The verified six-chapter delivery and existing finite Chapter7 production gate authorized this chapter; the v5 promotion receipt records only the bounded21 stationary-staging revision, with all40copy and other39panels unchanged. No new rank, owner approval, tranche or per-image retry allowance.
 
 **Clock and work.** Two mornings after6: ninth recurring paid round has just finished. The eighth passed in the stated interval. Ninth/tenth days remain within the weekly tenancy paid on seventh day. Kiva's first scheduled market-day collection happens after Lower Post. This is a modest local set already in preparation for established customer Rusk; the larger buyer commission is still in its jig. Old Venn crate and returned borrowed barrow stay completed history. Aren's key begins inside his one wallet; room access, wages and existing routes remain earned.
 
@@ -21,7 +21,7 @@ A → B → C is on foot. C → D → E is the wheeled leg. Daro's cart NEVER cl
 - Before3: Daro has already brought packing stock up on foot; empty cart waits at C.
 -12–17: Aren carries box on board A→B→C; Daro walks with pad. Board is set on C's ledge, actual box handoff occurs there, then box is strapped on padded cart.
 -18–20: Aren chooses C→B→A with EMPTY board. Daro takes box/cart C→D→E.
--21–25: Reader follows Daro's actual trip and Rusk's receipt. Aren does not watch or know the outcome remotely.
+-21–25: Reader follows Daro's actual trip and Rusk's receipt. Aren does not watch or know the outcome remotely. Panel21 is now a brief stationary route check on D: both wheels supported, nearest parking foot down and handles lowered. Actual departure20, changed public lane21 and rear-yard arrival22 establish ordinary travel;21 alone does not prove continuous rolling. Original21P is the proposed source;21R1 remains rejected for its floating far wheel. Both attempts and the spent one-primary/one-repair cap are preserved.
 -26–29: Board returns to Kiva and supports her next pin-fitting work; Aren waits after completing his own leg.
 -30–33: Daro returns empty cart E→D→C, PARKS it, then goes ON FOOT C→B→A with signed slip. Both are paid at A.
 -34–37: Aren and Daro have walked down B to C again; notebook/schedule conversation occurs beside cart there. Daro leaves with his own empty cart along D.

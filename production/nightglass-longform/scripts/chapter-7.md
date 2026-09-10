@@ -1,6 +1,6 @@
 # Chapter7 — A Place on the Round
 
-Complete provisional v4,40 story panels. V1, v2 and v3 preserved. V4 only clarifies existing Rusk identity and the prospective washhouse pickup. This manuscript is not an artwork, budget or owner-approval gate.
+Complete provisional v5,40 story panels. Official v4 and the v5 proposal are preserved in the staging-revision history. V5 changes only21 to a stationary route check after the motion candidates reached their cap; exact dialogue and all other story panels remain unchanged. Lead promoted this bounded staging revision within the existing Chapter7 production gate; no new call allowance or owner approval is implied.
 
 ## N7-01
 
@@ -212,13 +212,13 @@ Aren turns toward the ordinary steps carrying only the empty board. Daro begins 
 
 ## N7-21
 
-Daro guides the loaded cart around the long public ramp, both wheels on its broad paving. Ordinary pedestrians have space to pass; Rusk’s workshop roof and ordinary rear lane lie ahead.
+On the long public ramp, Daro briefly pauses the loaded cart to check the workshop approach ahead. Both wheels meet the broad paving; the nearest parking foot is down and the handles are lowered. Ordinary pedestrians have space to pass; the workshop district and ordinary rear lane lie ahead.
 
 *Silent.*
 
-**Camera:** City journey from the peer’s viewpoint, material route depth and inhabited scale.
+**Camera:** Wide inhabited route check from the peer’s viewpoint: a stationary moment during the ordinary journey, not proof of rolling mechanics.
 
-**Current state:** Actual cart trip toward Lower Post workshop district, not instantaneous arrival or a newly direct lift. ONE closed box/one external slip secured; no additional consignments secretly added. Daro uses his own physical work and route knowledge.
+**Current state:** Daro has reached this public lane after the departure in20 and will arrive at the rear yard in22. Travel is ordinary and location-based, not instantaneous or a newly direct lift. ONE closed box/one external slip remains secured; no additional consignments. This still shows the cart paused with its near rest foot down, not continuous wheel motion or a new force.
 
 ## N7-22
 

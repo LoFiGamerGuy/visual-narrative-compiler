@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "bounded_ids": [
+    "N8-02-P",
+    "N8-02-R1"
+  ],
+  "calls": [
+    {
+      "id": "N8-02-P",
+      "phase": "primary",
+      "native_sha256": "35bae7d35cb05380254ad6a1c2d9a02dbb1ddecbd0d9e6a7ac9537945ec3cd80",
+      "call_record_sha256": "ddf0406c984e7d409ae55796318234a813fa2f80c7fc49aef6ea505f3119045c",
+      "args_sha256": "9928a9abda51cc3d35d241dfd7c38a445e9396d96ef498631dece0cc24601e1e",
+      "raw_return_sha256": "07dddbb2984567db874b650715f28578e411fb9acd49dc2ed3b1072fad406836",
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter7/relay-return/crops/N7-37.png",
+          "sha256": "82f77ab72d64393c51400e27c39d67a918d438a62b53d34e7ac1ed1dbe2a0a3a"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/references/sera-front-closed-ledger-from-N6-11.png",
+          "sha256": "6848d4bdd03a218cce723f0530a2fdbb233c9cb940f031d5bec90f114bc3df7d"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/references/daro-identity-from-N7-03.png",
+          "sha256": "4a06b0ee1cef90fba6f5cff376693f69d036945de2d62341763e3d087d3d5fc0"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/references/empty-cart-pad-strap-from-N7-37.png",
+          "sha256": "bfa7107284ea7b04a80971be7eadba752701a3f682108d3082b6d34e02e9151a"
+        }
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "status": "PASS_PRESERVATION"
+    },
+    {
+      "id": "N8-02-R1",
+      "phase": "repair",
+      "native_sha256": "a218cd22fc4871fc325642473999a222c886e0afed921ed66ed93e2529e29c33",
+      "call_record_sha256": "87dcb72bd2a7552e5ec6f7ea1c7f7e8e457ab1a0afd5cc960cb6fc8dcc41b633",
+      "args_sha256": "61a869549503672b089892451cf61af2b2a233a4a1f04932faeb3a206380a9d1",
+      "raw_return_sha256": "49da20dab247035f18a3c489ab2d7b5a0286db61f6cf0dd8790ddbf038fd8d7a",
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/lead/candidates/N8-02-P.png",
+          "sha256": "35bae7d35cb05380254ad6a1c2d9a02dbb1ddecbd0d9e6a7ac9537945ec3cd80"
+        }
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "status": "PASS_PRESERVATION"
+    }
+  ],
+  "reference_hashes_verified": 5,
+  "count": 2,
+  "primaries": 1,
+  "repairs": 1,
+  "excluded": "All root03+ and other scopes; no new visual acceptance implied.",
+  "actual_image_calls_by_audit": 0,
+  "shared_mutations": false
+}

@@ -1,0 +1,9 @@
+# Seven-chapter extracted dialog review
+
+PASS after actually viewing all six complete original390×844 dialog captures from the fresh SevenChapters-v2 extraction. ZIP SHA `4e4c9b5da7ae3daf82288f5de1f836cc0faa2af803f111586d57bc8ae737d34e`; final verifier receipt SHA `5a40f954a05737ff0f75d70c6977a30abb6a5a5b7c1f5e91f8e2380f22145d11`. Every capture hash and exact dialog metrics are in the adjacent JSON.
+
+Options top/middle/end show different real internal positions0/18403/36806, with78 loaded images at each position. Anchors positions0/1502/3004 show the nine-image library. No broken image, horizontal overflow or missing link is reported. Both close controls passed the existing browser check and remain visibly available in the captures. Artwork, labels and links are readable; the historical compact adjacent link styling is retained. These are genuine dialog-scroll captures, not repeated page-top views.
+
+The unchanged strict verifier passed21routes,7269 manifest files,306 Nightglass panels,80 revised pilot panels and18 comparison panels, with zero page errors/network requests. Actual ZIP entries total7270 including the manifest;3 explicit same-file alias records map to one actual lowercase Daro reference, with no case-colliding manifest entries. Failedv1 ZIP/extraction/logs remain preserved and are not treated as a successful delivery.
+
+This review covers six samples and the recorded image-load/close checks, not renewed native acceptance of all78 options/nine anchors or a new full306-panel reading. Root owns21 chapter samples and reader owns34 remaining regular samples. SEVENCHAPTER-CAPTURE-INDEX.json lists all61 exact images and assignments. No ZIP, extraction, source reader or artwork changed; no duplicate browser run. Build and verification pipeline have both finished, zero pending jobs.

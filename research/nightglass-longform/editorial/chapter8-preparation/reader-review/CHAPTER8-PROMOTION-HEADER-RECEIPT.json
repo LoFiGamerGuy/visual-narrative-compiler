@@ -1,0 +1,70 @@
+{
+  "verdict": "PASS administrative-only promotion",
+  "source_json_sha256": "f7000a614d9a9a1f69585c7b568c4de48f1769778e54eff295e6395b1d8d4778",
+  "promotion_json_sha256": "0a3d3a441efd5017d84347c2e5849c514f313a00f6bfdb0df898cd93ea1982fc",
+  "all45_panel_objects_exact": true,
+  "all53_copy_entries_exact": true,
+  "all_other_metadata_exact": true,
+  "json_delta_only": "status",
+  "text_checks": [
+    {
+      "source": "chapter-8-draft-v2.md",
+      "destination": "chapter-8.md",
+      "source_sha256": "e44a8aa688372b92b461e3f395a6088d30159cab42395d46cfbbe7409ba8d140",
+      "destination_sha256": "6db7f99dbc50ced4cb70f1f4b2ee99d08cbdf2ba4f4365bf789fe1295c385c17",
+      "actual_diff_matches_receipt": true,
+      "changed_line_ranges_zero_based": [
+        [
+          "replace",
+          2,
+          3,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "source": "chapter-8-state-route-v2.md",
+      "destination": "chapter-8-state-route.md",
+      "source_sha256": "63b6bc8f4110441fc7117073e13fb0fdb65636105b6247adb7e50c519d0d600d",
+      "destination_sha256": "a6ac89fc424189ffed5a04d32ec463726e3bc74985aac2e8137e8e6a331fe24a",
+      "actual_diff_matches_receipt": true,
+      "changed_line_ranges_zero_based": [
+        [
+          "replace",
+          2,
+          3,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "source": "PROVISIONAL-PRODUCTION-ORDER-v2.md",
+      "destination": "CHAPTER8-PRODUCTION-ORDER.md",
+      "source_sha256": "1b08e8f3d47c385bd3f8a2d79b21761ad82114de0288c828cbfc74fa0a249fda",
+      "destination_sha256": "e8db4d249e8c13524cf00ebdc5743df535815838cc80ea9b9e177f43f86b76b9",
+      "actual_diff_matches_receipt": true,
+      "changed_line_ranges_zero_based": [
+        [
+          "replace",
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          "replace",
+          43,
+          44,
+          43,
+          44
+        ]
+      ]
+    }
+  ],
+  "promotion_receipt_sha256": "854ddc286ac1473d572b348d8051132d9ed74420de7f3bf9a5ffe004ea4af8ad",
+  "actual_diff_review_complete": true,
+  "official_writes": false,
+  "image_calls": 0
+}

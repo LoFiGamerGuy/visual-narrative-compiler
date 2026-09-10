@@ -1,0 +1,69 @@
+{
+  "fixture_only": true,
+  "real_art_or_call_records_touched": false,
+  "helper_sha256": "02263b135ed2b42a2f1747cefade4c6d27a3aed72c498742aaf5e0ef05c159c2",
+  "results": [
+    {
+      "case": "orphan-raw",
+      "pass": true,
+      "exit_code": 1,
+      "all_fixture_files_unchanged": true,
+      "candidate_exists": false,
+      "raw_exists": true
+    },
+    {
+      "case": "bad-metadata-length",
+      "pass": true,
+      "exit_code": 1,
+      "all_fixture_files_unchanged": true,
+      "candidate_exists": false,
+      "raw_exists": false
+    },
+    {
+      "case": "bad-output-hint-type",
+      "pass": true,
+      "exit_code": 1,
+      "all_fixture_files_unchanged": true,
+      "candidate_exists": false,
+      "raw_exists": false
+    },
+    {
+      "case": "wrong-call-id",
+      "pass": true,
+      "exit_code": 1,
+      "all_fixture_files_unchanged": true,
+      "candidate_exists": false,
+      "raw_exists": false
+    },
+    {
+      "case": "wrong-call-status",
+      "pass": true,
+      "exit_code": 1,
+      "all_fixture_files_unchanged": true,
+      "candidate_exists": false,
+      "raw_exists": false
+    },
+    {
+      "case": "candidate-only",
+      "pass": true,
+      "exit_code": 1,
+      "all_fixture_files_unchanged": true,
+      "candidate_exists": true,
+      "raw_exists": false
+    },
+    {
+      "case": "ordinary-return",
+      "pass": true,
+      "exit_code": 0,
+      "candidate_source_raw_bytes_exact": true,
+      "call_status": "returned",
+      "native_sha256": "7292291c8eceb133867b184a6869671a9afb28aaaaa9485a177dc0c82cdd6695"
+    },
+    {
+      "case": "repeat-return",
+      "pass": true,
+      "exit_code": 1,
+      "all_fixture_files_unchanged": true
+    }
+  ]
+}

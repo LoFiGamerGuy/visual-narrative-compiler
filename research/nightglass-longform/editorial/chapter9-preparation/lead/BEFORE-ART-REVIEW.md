@@ -1,0 +1,13 @@
+# Chapter9 before-art lead reading
+
+PASS: complete42-panel A Measured Route v4. Root read the complete v1 sequence, all v2/v3 changes and all14 v4 staging/state changes; independent fullv3 assets and reader reviews passed, then targetedv4 checks preserve the exact34 copy entries. Chapter9 has42 final story beats; supports and alternate attempts do not count toward that total.
+
+Aren wants evidence that he is ready for upper work. A one-bell unpaid assessment offers a narrow supervised light-transfer endorsement, then an optional quarter-bell letter carry gives it actual paid use. Neris has her own remaining desks and work schedule. Sera witnesses rather than coaching or assessing; practice and paid recipients control their own availability. Brief doubt, practical praise, leaking-window humor, earned pay and an unhurried shared view vary the procedural tone.
+
+Physics: lower broad arrival deck, clear blue mark BEFORE fixed anchor, short airborne interval, BOTH boots supported for Hold. Explicitly end TensionLine while Hold remains and feet support him, then release Hold; no indefinite prelaunch pause, new rank/skill, attack or invented new range. Line has only two meaningful endpoints, RIGHT rear pommel and one fixed post brass band. Receiver already across at offset table before launch; Neris and Sera use the ordinary walkway.
+
+Custody: amber practice pouch moves owner bench→bag→practice receiver tray. Separate blue sealed letter is offered with destination/time/price before receipt, remains in one bag, goes to West clerk. Three coppers go into the one detached left-held wallet, then wallet closes and reattaches; key remains unseen inside. No duplicate counter bag, wallet or weapon. Gate staff admit all three specifically, including escorted visitor Sera; Neris returns them to the gate attendant before leaving for her own work. They use the staffed outward route.
+
+Art priorities: establish Neris in her actual work scene and reuse that selected identity. Establish usable deck geometry02 before contact-heavy11–16. Vary close acting and supported prop handling against geography. Preserve current old LEFT upper-sleeve tear/RIGHT intact. Long dialogue03–06/26 must have deliberate external16px lettering space; never render quoted script text into art. No finish by default. Reuse prior bounded per-original-unit repair limits and explicitly keep rejected attempts.
+
+Eight-chapter weaknesses remain recorded: procedural repetition and qualified cart/bag/tear inconsistencies. Chapter9 does not conceal them; its newly observed assessment and paid opportunity supply an earned next event. No owner approval, commercial acceptance or art-success claim.

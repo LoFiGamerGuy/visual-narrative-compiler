@@ -100,3 +100,15 @@ Root actually viewed whole38P/R1 and R1 wallet detail; assets6eabc0c independent
 Root actually re-viewed final37 individual390 and BOTH near-overlapping36–37 columns from readercf4d29c/snapshot32567ea2ab33df3ef1648049296a58c177a3f5bf7c77c839129e6cb1f2d43d84: paid time including stopped attempt clear, coin contact and prior witness note unobscured; PASS. Columns overlap by all but13px, not distinct whole chapter coverage.
 
 Root actually viewed38 final individual390 and full37–38 single original390 viewport from reader702cf14/snapshot30d7a4d4144f8002a2e8604d0eebc371ea19320f84b2594cf657df30e689c580. Edda short reply attributed by clear tail, distinct second fee, single open wallet/empty waist/RIGHTglove preserved without lettering overlap. PASS; prior36 tail is context only.
+
+
+## 39 departure and40 stopped reflection — bounded mixed selection
+Root and assets actually viewed wholeP5005015c/R160e5767a and full tier crops. P39 wrong Aren cart operator plus spare far-right shaft fails. R139 corrects Daro BOTHbare held handles, Aren EMPTYgloves, ONEclosedreattachedwallet, SeraCLOSEDledger, EddaTWOreturnedwraps/pouchinside. Both wheel rims reach paving (near rim at bottom edge), posts clear; same higher-mount construction drift as29, not exact original rigid tilt proof.39 oldfarLEFTupper arm partly overlaps Daro; tear uncertain.
+R140 deletes BOTH original lowered handles despite preserve-bottom instruction; reject it and retain originalP40 fulltier.40P visible LEFT upper sleeve is substantially exposed yet intact: REAL persistent-damage omission, not hidden tear or healedcanon. Core stationary conversation/empty cart/custody/fees remain coherent. Sole original repair spent, no R2 or disguised finish. Carry actual LEFT tear from24 into41; do not expand to evade unresolved central action.39R1 crop4beb48d9/40Pcropf69db73e exact rectangles recorded, no content-hiding crop.
+
+
+## 41 stationary farewell
+Root and independent assets actually viewed wholeP81a49e78/R1001bc8b5: P FOURhandles failed. SoleR1 removes TWOraisedrearduplicates, leaves TWOloweredfront handles, emptycart/graypad/ONEslackstrap, groundednearwheel/post/farwheelgroundplane. Daro RIGHTwaves/LEFTemptybesidethigh, bothcharacters remain supported; farDaro bootpartlycartoccluded/farhandlecapframeedge. Aren oldLEFTtear restored from actual24reference, RIGHTintact/RIGHTsheath/oneclosedwallet/redcordbadge, SeraCLOSEDledger. No onehandrolling or completeinventoryclaim. WholeR1selected.
+Root actually read39/40 final individual390 and BOTH38–40 original390 columns, readera0d3eae/snapshot0ddbac913c77989df3be4c7f23129e1be0968411d65e898149b6ca0737b27db4. Correct attribution and exact copy, departure EMPTYcart/TWOownerinside then stationary reflection clear; PASS with REAL40LEFTtear omission retained.
+
+Root actually viewed41 individual390 and BOTH40–41 original390 columns, reader611333e/snapshot6d550ae219702824cc1b38e7d5d2747546b4c8836e353b7b4e35927f9dcfbea3. Daro distinct independent nextjob/two-line speech clear, RIGHTwave/LEFTempty/cartstationary, Aren acknowledgment clearly named; PASS. Correct tear in41 does not erase visible omission40.

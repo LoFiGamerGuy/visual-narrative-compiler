@@ -78,7 +78,36 @@ def json_paths(root, value):
             yield relative
 
 def collect(root):
-    files=set(); missing=[]; archival=[]; reader_edges=[]
+    files=set(); missing=[]; archival=[]; reader_edges=[]; aliases=[]
+    spellings={}; directory_names={}
+    def remember(relative):
+        previous=spellings.get(relative.casefold())
+        if previous is not None and previous!=relative:
+            raise RuntimeError(f'Case-colliding source files are not portable: {previous}, {relative}')
+        spellings[relative.casefold()]=relative
+        files.add(relative)
+    def canonical_file(relative):
+        canonical=spellings.get(relative.casefold())
+        if canonical is None:
+            # Dependencies outside seed roots also need their actual directory
+            # spelling. Path.resolve() does not correct case on mounted NTFS.
+            parent=root
+            for part in Path(relative).parts:
+                if parent not in directory_names:
+                    directory_names[parent]=os.listdir(parent)
+                names=directory_names[parent]
+                matches=[name for name in names if name.casefold()==part.casefold()]
+                if part in matches:
+                    name=part
+                elif len(matches)==1:
+                    name=matches[0]
+                else:
+                    raise RuntimeError(f'Cannot identify canonical source spelling: {relative}')
+                parent=parent/name
+            canonical=parent.relative_to(root).as_posix()
+        if canonical!=relative and not (root/relative).samefile(root/canonical):
+            raise RuntimeError(f'Case alias is not the same source file: {relative}, {canonical}')
+        return canonical
     for folder in SEED_ROOTS:
         # Old deliveries/extractions are excluded from this snapshot. Prune
         # their directories before walking, rather than visiting every old
@@ -93,9 +122,9 @@ def collect(root):
                 if allowed(relative) and path.is_file():
                     if path.is_symlink():
                         raise RuntimeError(f'Symlink refused: {path}')
-                    files.add(relative)
+                    remember(relative)
     for relative in EXTRA_FILES:
-        if (root/relative).is_file(): files.add(relative)
+        if (root/relative).is_file(): remember(canonical_file(relative))
     pending=list(sorted(files)); checked=set()
     while pending:
         relative=pending.pop()
@@ -122,14 +151,21 @@ def collect(root):
             if not allowed(target): continue
             if (root/target).is_file():
                 if (root/target).is_symlink(): raise RuntimeError(f'Symlink dependency refused: {target}')
-                if target not in files: files.add(target);pending.append(target)
+                canonical=canonical_file(target)
+                if canonical!=target:
+                    aliases.append({'from':relative,'path':target,'canonical_path':canonical,
+                                    'same_file_verified':True,'sha256':digest(root/canonical),
+                                    'bytes':(root/canonical).stat().st_size})
+                target=canonical
+                if target not in files: remember(target);pending.append(target)
             else:
                 record={'from':relative,'path':target}
                 if is_reader or relative.startswith(('production/nightglass-longform/','production/pilots-reading-v2/')):
                     missing.append(record)
                 else: archival.append(record)
     return dict(files=sorted(files),required_missing=missing,archival_missing=archival,
-                reader_edges=reader_edges,total_bytes=sum((root/f).stat().st_size for f in files))
+                reader_edges=reader_edges,case_aliases=sorted(aliases,key=lambda r:(r['from'],r['path'])),
+                total_bytes=sum((root/f).stat().st_size for f in files))
 
 def gate(root,milestone):
     snapshot=json.loads((root/'production/nightglass-longform/reader/snapshot.json').read_text())
@@ -174,6 +210,7 @@ def build(root,version,milestone,output):
             if digest(root/record['path'])!=record['sha256']: raise RuntimeError(f'Source changed during snapshot: {record["path"]}')
         again=collect(root)
         if again['files']!=plan['files']: raise RuntimeError('Source dependency inventory changed during snapshot')
+        if again['case_aliases']!=plan['case_aliases']: raise RuntimeError('Source case aliases changed during snapshot')
         print(json.dumps({'event':'source-snapshot-frozen','version':version,'files':len(records),'source_bytes':plan['total_bytes'],'target':str(target)}),flush=True)
         (target/'START-HERE.html').write_text(starter(version,milestone,chapters),encoding='utf-8')
         (target/'OPEN-COMIC.cmd').write_bytes(b'@echo off\r\nstart "" "%~dp0START-HERE.html"\r\n')
@@ -185,6 +222,7 @@ def build(root,version,milestone,output):
         manifest={'schema':'NightglassOfflinePackage/1','version':version,'milestone':milestone,
                   'chapters':chapters,'files':sorted(records,key=lambda r:r['path']),
                   'required_missing':[],'archival_missing':plan['archival_missing'],
+                  'case_aliases':plan['case_aliases'],
                   'native_bytes_policy':'Unchanged native tool-return PNGs plus separately marked pixel crops; regular copies only.',
                   'zip_policy':'Sorted entries, fixed timestamp, deflate level 6; unchanged inputs and label reproduce ZIP bytes.'}
         (target/'PACKAGE-MANIFEST.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')

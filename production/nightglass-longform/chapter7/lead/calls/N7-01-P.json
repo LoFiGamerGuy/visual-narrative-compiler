@@ -1,0 +1,50 @@
+{
+  "id": "N7-01-P",
+  "tool": "image_gen.imagegen",
+  "status": "returned",
+  "phase": "primary",
+  "panels": [
+    "N7-01"
+  ],
+  "args": {
+    "prompt": "Use case: illustration-story. Asset type: editable-lettered vertical comic art layer.\nInput1: full Lower Post reference for place and offbody bag. Input2: Ossa identity/site crop. Input3: current Aren identity/equipment crop, not its walking pose or worn-harness state.\n\nCreate ONE new finished narrative illustration for Nightglass Courier, Chapter7 panel01. Intended portrait comic panel, approximately1024\u00d71536. Preserve the attached sources' own rich clean anime drawing, warm working light, luminous inhabited stone city, expressive adult faces and selective crisp detail. Keep large surfaces calm; patterned clothing is an existing design, not a reason to add grain to everything.\n\nThis is a new morning at the SAME Lower Post counter. Compose a warm medium view of Aren and Ossa after his recurring morning round. Aren is finishing an ordinary task: his LEFT black glove supports his ONE cream wallet while his RIGHT glove closes its flap. The wallet is now CLOSED or at the final moment of the flap seating. The earned coins and one room key are already concealed inside. No coin-transfer action or exposed key. His waist has NO second wallet. Ossa is finishing her ordinary sorting nearby, looking toward him with familiar ease; her hands belong to her sorting work or rest on the supported counter.\n\nUse the full Lower Post source for this precise location, Ossa, the ONE empty gray bag resting on the counter and its two slack brown padded shoulder straps/hip belt. The bag stays OFF Aren. His shoulders and torso have no worn bag harness. Use the solo current Aren crop only for his face, plum hair, amber eyes, lavender CHECKED buttoned shirt over a black high neck, black gloves/trousers, old tear on his anatomical LEFT upper sleeve and intact RIGHT sleeve. Keep the single long black/brass sheath on his anatomical RIGHT hip and the rectangular brass courier badge on its RED cord. His weapon remains sheathed. A source's walking pose or worn harness is not this panel's action.\n\nOssa remains the same silver-haired woman with a thick side braid, pale working blouse and indigo apron, as in her cropped identity reference. Establish grounded body positions and a continuous wooden counter, paper cubbies and the familiar open public-stair entrance at the side. Show only today's uncomplicated current work. No Sera, Daro, Kiva, shipment box, delivery receipt, new power or later scene.\n\nThe new composition should make wallet closure, bare shoulders and the separately resting bag readable at390px. Preserve space around faces and the wallet contact for editable lettering placed afterward. Render NO letters, captions, balloons, watermarks, panel numbers or interface elements in the art. Exact external copy for composition only: caption \u201cTwo mornings later. Ninth round complete.\u201d; Ossa \u201cGive Kiva my morning.\u201d\n",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter6/lead/candidates/N6-01-P.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/references/ossa-site-from-N6-01.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/references/aren-current-from-N6-31.png"
+    ]
+  },
+  "arguments_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/requests/N7-01-P.json",
+  "prompt_sha256": "cd0b02b47f25754f20f61653620e1c289ba03896067c6d07f5fcd48addf4b630",
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter6/lead/candidates/N6-01-P.png",
+      "sha256": "9823e6c996e99e476453019bff78766c5068595bc03f04f74a31cc93dd9a6bf6"
+    },
+    {
+      "path": "production/nightglass-longform/chapter7/lead/references/ossa-site-from-N6-01.png",
+      "sha256": "32b70c5a52ba247bb131e1f2d9c2fc34965831f38d1b30e10db660b175316f92"
+    },
+    {
+      "path": "production/nightglass-longform/chapter7/lead/references/aren-current-from-N6-31.png",
+      "sha256": "71d6a4c0ee2886add030eabdb07277fea909ee742f051a0a2b16c09cbc9a8d54"
+    }
+  ],
+  "before_art_dependency": {
+    "gate": "research/nightglass-longform/CHAPTER7-PRODUCTION-GATE.json",
+    "script_sha256": "25719f56be09a5ff0e61725b65ff4cdf442c3294e624a9f72f4013d20a6725bb",
+    "preceding_zip_sha256": "054c78ed5be07ce4e0de16138ab80f4c9265174777ea94074c08f91c6129c66b",
+    "actual_reference_review": "Lead actually viewed each reference before this call; source roles/current state recorded in prompt."
+  },
+  "model_snapshot": null,
+  "seed": null,
+  "billing": null,
+  "owner_approval": null,
+  "invoked": true,
+  "submitted_utc": "2026-09-10T14:07:47.417286+00:00",
+  "returned_utc": "2026-09-10T14:13:36.214578+00:00",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-34bbf7ba-19ac-46b0-9612-b33a86cfcd41.png",
+  "path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/candidates/N7-01-P.png",
+  "sha256": "7939fcbc2e56061e70ef5da9e9d0ec110ff1f04a35f09a13dcebb991f2409758",
+  "raw_return_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/calls/N7-01-P-tool-return.json"
+}

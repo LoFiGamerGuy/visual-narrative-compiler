@@ -7,9 +7,11 @@ Use the standard-library packager from the repository root:
 ```bash
 python production/nightglass-longform/package/pack.py plan --plan-report research/nightglass-longform/assets/package/dependency-plan.json
 python production/nightglass-longform/package/pack.py build --version Nightglass-Chapter1-v1 --milestone chapter1
+python production/nightglass-longform/package/pack.py build --version Nightglass-ThreeChapters-v1 --milestone threechapters
+python production/nightglass-longform/package/pack.py build --version Nightglass-FourChapters-v1 --milestone fourchapters
 ```
 
-Build after the integrator marks Chapter 1 complete in the reviewed reader snapshot. Use `--milestone threechapters` and a new version for the later delivery. Existing versions are never overwritten. `trial` explicitly labels an incomplete snapshot and is not needed for the planned checkpoints. The default ignored destination is `production/nightglass-longform/package/output/`.
+Build each milestone only after the integrator marks its required chapters complete in the reviewed reader snapshot: `chapter1` requires Chapter 1, `threechapters` requires Chapters 1–3, and `fourchapters` requires Chapters 1–4. Every required chapter must exist, be reviewed complete, and have all its artwork available. The four-chapter starter is labeled “Four-chapter development delivery”. Use a new version for each delivery; existing versions are never overwritten. `trial` explicitly labels an incomplete snapshot and is not needed for the planned checkpoints. The default ignored destination is `production/nightglass-longform/package/output/`.
 
 Each build checks free space, copies regular files, hashes both sides, rechecks the entire included source set against changes during staging, writes an exact manifest, and creates a ZIP with sorted entries and fixed timestamps. An interrupted or invalid build remains marked failed; use another version. SHA-256 and CRC establish byte preservation, not visual approval. Never change selected art or reader state from the packager.
 

@@ -51,7 +51,8 @@ for sp in sorted((ROOT/'production/nightglass-longform/scripts').glob('chapter-*
  if not re.fullmatch(r'chapter-\d+\.json',sp.name):continue
  s=json.loads(sp.read_text());panels=[]
  for p in s['panels']:
-  pp=pilots.get(p.get('reuse'));r=selected.get(p['id']);sr=source_record(r,p['id']) if r else ({k:pp[k] for k in ['source','sha256','width','height','attempt_id']} if pp else None)
+  reuse=p.get('reuse');pp=pilots.get(reuse) if isinstance(reuse,str) else None
+  r=selected.get(p['id']);sr=source_record(r,p['id']) if r else ({k:pp[k] for k in ['source','sha256','width','height','attempt_id']} if pp else None)
   lettering,reviewed=letters_for(p,pp if not r else None,source_sha=sr['sha256'] if sr else None)
   panels.append(dict(id=p['id'],alt=re.sub(r'^(?:New storyboard:|Explicit storyboard revision \d+:)\s*', '', p['action']),copy=p['copy'],lettering=lettering,lettering_reviewed=reviewed,available=sr is not None,reuse=p.get('reuse'),gap_after=gap_after(s['chapter'],p['id']),**(sr or {})))
  count=sum(p['available'] for p in panels);complete=count==len(panels) and s['chapter'] in selection.get('reviewed_complete',[]) and all(p['lettering_reviewed'] for p in panels)

@@ -1,0 +1,9 @@
+# N4-07–14 quiet maker sequence — preparation only
+
+Owned namespace: chapter4/maker-introduction. Four short two-tier pages planned:07/08,09/10,11/12,13/14. No image tool call has been made or recorded as submitted. All draft prompts are explicitly unsubmitted; final exact args will be constructed only after actual selected05/06 source inspection and lead release. Each page has one primary and at most one material structural repair. No speculative finish pass.
+
+Dependencies are sequential because document states change: one folded closure-copy handoff08, unfolded/read09, large sheet set down/small refusal raised10, promise11, open crate comparison12, wallet choice13, crate closed14. TAN envelope/DARK GREEN round seal originate07, remain shut through14 and have NO new care-of label until lead15/16. Letter is still Kiva custody through14, gray bag empty after08. Select and inspect each predecessor before the next call; native source bytes, exact args/ref hashes, attempts and full-tier crop records will be preserved.
+
+Before first generation inspect actual selected05 market and06 Kiva/bench/crate; do not infer identity from the written design. Request/use actual selected02 folded closure-copy source if ready; otherwise use already viewed earlier folded white enclosure reference only for the same paper form, never import blue envelope. Source placement constraints will be adapted to actual selected06 geometry in final prompts. No shared selection/script mutation.
+
+Primary risk: pages contain three distinct papers with different sizes/custody. Keep only necessary hands/actions prominent. Names and exact dialogue remain editable reader lettering;07/11/13 copy may need outside-art bands.11 badge stays attached near waist. No mechanical/action hardware scene is added here. Send selected07/08 immediately for root inspection and authoritative tan-green envelope reference; send14 state to root for15/16 onward work.

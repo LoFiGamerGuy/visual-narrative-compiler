@@ -1,6 +1,6 @@
 # Nightglass development delivery — working status
 
-Read locally at `docs/nightglass-longform/index.html`. The portable Chapter1 milestone is already verified in `production/nightglass-longform/package/output/Nightglass-Chapter1-v1.zip`; the required three-chapter package is next for build and fresh verification.
+Read locally at `docs/nightglass-longform/index.html`. The portable Chapter1 milestone is already verified in `production/nightglass-longform/package/output/Nightglass-Chapter1-v1.zip`; the required three-chapter package is now freshly verified as `Nightglass-ThreeChapters-v1.zip` (1925098837bytes; SHA256563786a5cb5e3ddec1249d264717c6aa5bce43d9d2bbc3e6fd02ef58a96cba93). All17 actual offline phone routes passed with no missing required assets or browser errors.
 
 The five revised opening stories are complete, and Nightglass now has complete48- and49-panel consecutive chapters. Chapter3 is COMPLETE40/40 after lead, reader and independent editorial each actually read all24 fresh continuous390px viewports. The full three-chapter reading edition is137panels (48+49+40). The receipt, paid rest and Bell Basin hook are delivered; human acceptance remains unclaimed.
 
@@ -12,4 +12,4 @@ Remaining weaknesses: visual equipment trim and some garment details drift. Seve
 
 All owner ratings/approval remain blank. Built-in model and billing metadata remain unknown; recorded direct external spend is zero. At this three-chapter checkpoint,136built-in invocations returned:85primaries and51structural repairs, no texture finishes or failed submissions.184remain within the initial320ceiling. Exact records live in production/nightglass-longform/generation-accounting.json. Every actual submission, rejected native, selected source and exact reference binding is retained; Git ignores large assets but the portable packager includes them from the filesystem.
 
-Next required gates: final status-only reader check, then build and freshly verify Nightglass-ThreeChapters-v1 itself. Then outline the following three-chapter arc and produce its next chapter sequentially under the existing autonomous authorization. The initial milestone is not a stopping instruction.
+The initial delivery is complete and preserved. All49 portable captures were actually inspected across lead and reader, with4 supplementary internal-dialog scroll views completing archival-reader visual coverage. The following4–6 arc and complete40-panel Chapter4 script passed exact independent review; Chapter4 sequential production continues under the existing authorization and allowance. The initial milestone is not a stopping instruction.

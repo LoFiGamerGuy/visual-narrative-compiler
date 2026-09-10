@@ -1,17 +1,17 @@
 {
   "schema": "NightglassGenerationAccounting/1",
-  "milestone": "Chapters1\u20133 complete and full390-reading-reviewed; initial portable delivery verification pending",
+  "milestone": "Initial three-chapter portable delivery verified; complete Chapter4 script reviewed and sequential art underway",
   "tranche": "initial",
   "invocation_ceiling": 320,
-  "actual_invocations": 136,
-  "remaining_allowance": 184,
+  "actual_invocations": 146,
+  "remaining_allowance": 174,
   "phase_counts": {
-    "primary": 85,
-    "structural_repair": 51
+    "primary": 92,
+    "structural_repair": 54
   },
   "texture_finishes": 0,
   "failed_submissions": 0,
-  "pending_invocations": 0,
+  "pending_invocations": 1,
   "direct_paid_external_spend": 0,
   "built_in_model": null,
   "built_in_billing": null,
@@ -23,7 +23,8 @@
     "dedicated_new_panels": 32,
     "chapter2_selected": 49,
     "chapter3_selected": 40,
-    "nightglass_complete_total": 137
+    "nightglass_complete_total": 137,
+    "chapter4_selected": 8
   },
   "records": [
     {
@@ -616,28 +617,28 @@
     },
     {
       "record": "production/nightglass-longform/chapter3/ending/calls/N3-38-39-P.json",
-      "record_sha256": "3ff964f354c0a361b661a275edaa21f2be6f17f7e9027d115f1ed08e572fdeb5",
+      "record_sha256": "2d2622f748581897d9576552b8e97e1568754ce0e3b51b9dff8c2bac922251ff",
       "attempt_id": "N3-38-39-P",
       "phase": "primary",
       "recorded_status": "returned"
     },
     {
       "record": "production/nightglass-longform/chapter3/ending/calls/N3-38-39-R1.json",
-      "record_sha256": "94800a71d2e5a3a0efecc98e4abb68de77256d191492f880fe6384346a8e9bc9",
+      "record_sha256": "30310a4b5cced1bdc37095bc97f1f89555db46b5992e604713e42bad98399c03",
       "attempt_id": "N3-38-39-R1",
       "phase": "structural_repair",
       "recorded_status": "returned"
     },
     {
       "record": "production/nightglass-longform/chapter3/ending/calls/N3-40-P.json",
-      "record_sha256": "bc0aa213cc216d9c5c6ee08dd72fc753b3b9167fa6872cfd89ab354507e0544c",
+      "record_sha256": "0687ee13a6a7ecfa731902f7bad3c149ba6e22d63039a2378389124b01f516cc",
       "attempt_id": "N3-40-P",
       "phase": "primary",
       "recorded_status": "returned"
     },
     {
       "record": "production/nightglass-longform/chapter3/ending/calls/N3-40-R1.json",
-      "record_sha256": "ad7dfed9bd9bb59cffa31247e18652d46cf9cad604e68faae10cb5725ff1dbcd",
+      "record_sha256": "c8595e0c01530848085c0e98105e86a7983dbc4bfdcd35af550e0e9adc741d0f",
       "attempt_id": "N3-40-R1",
       "phase": "structural_repair",
       "recorded_status": "returned"
@@ -977,6 +978,83 @@
       "attempt_id": "N3-15-17-P",
       "phase": "primary",
       "recorded_status": "returned"
+    },
+    {
+      "record": "production/nightglass-longform/chapter4/lead/calls/N4-04-05-P.json",
+      "record_sha256": "6941b9d2cfef4283bec59dea67a85848bcdde1230203a07e09a6e4f028027b64",
+      "attempt_id": "N4-04-05-P",
+      "phase": "primary",
+      "recorded_status": "returned"
+    },
+    {
+      "record": "production/nightglass-longform/chapter4/lead/calls/N4-04-05-R1.json",
+      "record_sha256": "7bb04133fcf4adb7c24208e5e8c466048bd39e6c82959e9b51ea8709b67214c1",
+      "attempt_id": "N4-04-05-R1",
+      "phase": "structural_repair",
+      "recorded_status": "returned"
+    },
+    {
+      "record": "production/nightglass-longform/chapter4/lead/calls/N4-04-05-v2-P.json",
+      "record_sha256": "357d0e058babf8ffea45a5baf07d202b292bd2e10ac1ee768b9b01841c5fb40c",
+      "attempt_id": "N4-04-05-v2-P",
+      "phase": "primary",
+      "recorded_status": "returned"
+    },
+    {
+      "record": "production/nightglass-longform/chapter4/lead/calls/N4-06-P.json",
+      "record_sha256": "bd786eedf42ff01aafc1e716677a87be312428a773a6ccb297c8f971aca02474",
+      "attempt_id": "N4-06-P",
+      "phase": "primary",
+      "recorded_status": "returned"
+    },
+    {
+      "record": "production/nightglass-longform/chapter4/maker-introduction/calls/N4-07-08-P.json",
+      "record_sha256": "423247302ade91fc8213390eaf2791a90cde350c0e357ecb61a65e1343ff6b0f",
+      "attempt_id": "N4-07-08-P",
+      "phase": "primary",
+      "recorded_status": "returned"
+    },
+    {
+      "record": "production/nightglass-longform/chapter4/maker-introduction/calls/N4-07-08-R1.json",
+      "record_sha256": "dc4c1d6394f42316f9cc9a8be40ecbb604b7d4470284daee11d316b0043c5a04",
+      "attempt_id": "N4-07-08-R1",
+      "phase": "structural_repair",
+      "recorded_status": "returned"
+    },
+    {
+      "record": "production/nightglass-longform/chapter4/maker-introduction/calls/N4-09-10-P.json",
+      "record_sha256": "1667057bd81c27416be3f3675aae9dda64e9a03a7199a6f6119dc6c8f307e4a2",
+      "attempt_id": "N4-09-10-P",
+      "phase": "primary",
+      "recorded_status": "submitted"
+    },
+    {
+      "record": "production/nightglass-longform/chapter4/opening/calls/N4-02-03-P.json",
+      "record_sha256": "9d63284c22157a2b88f9206970d92fd17bce669f879086d770aff6970aef210c",
+      "attempt_id": "N4-02-03-P",
+      "phase": "primary",
+      "recorded_status": "returned"
+    },
+    {
+      "record": "production/nightglass-longform/chapter4/opening/calls/N4-02-03-R1.json",
+      "record_sha256": "638c872f3aa729f35520f7801ee6cfb756e58a3b8c8d7c3ccf5d76ef2b5fffa6",
+      "attempt_id": "N4-02-03-R1",
+      "phase": "structural_repair",
+      "recorded_status": "returned"
+    },
+    {
+      "record": "production/nightglass-longform/chapter4/opening/calls/N4-03-v2-P.json",
+      "record_sha256": "b7eed4ad1727dd8bb83451853bd032bd30ac04814c4b828f0e75ff03d01132a7",
+      "attempt_id": "N4-03-v2-P",
+      "phase": "primary",
+      "recorded_status": "returned"
     }
-  ]
+  ],
+  "follow_on_checkpoint": {
+    "initial_delivery_calls_returned": 136,
+    "remaining_at_chapter4_start": 184,
+    "chapter4_planning_ceiling_additional": 70,
+    "new_tranche": false,
+    "scope": "Chapter4 complete40 panels plus following5\u20136 outlines; final four-chapter portable verification"
+  }
 }

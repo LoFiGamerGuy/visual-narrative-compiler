@@ -14,7 +14,7 @@ for p in sorted((root/'calls').glob('*.json')):
  checked.append({'id':r['id'],'sha256':r['sha256'],'dimensions':list(Image.open(native).size),'status':'PASS'})
 selected=json.loads((b/'production/nightglass-longform/selected.json').read_text())['selected'];crops=[]
 for name,r in selected.items():
- if not name.startswith('N5-') or '/lead/' not in r['path']:continue
+ if not name.startswith('N6-') or '/lead/' not in r['path']:continue
  target=b/r['path'];assert sha(target)==r['sha256']
  if r.get('crop'):
   c=r['crop'];source=b/c['source_path'];assert sha(source)==c['source_sha256'];a=Image.open(source).crop(c['box_xyxy']).convert('RGBA');v=Image.open(target).convert('RGBA');assert a.size==v.size and ImageChops.difference(a,v).getbbox() is None;crops.append(name)

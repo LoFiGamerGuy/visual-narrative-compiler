@@ -1,0 +1,11 @@
+# Lead Chapter8 running actual review
+
+01: root actually re-viewed whole7-01native before reuse; exact new01 individual390 and both opening390 viewports (a2385ba2snapshot/inspection-1) PASS. New tenth caption and longer Ossa line are readable, tail points to her, faces/wallet/hand contacts clear. Wallet reattachment/key visibility not claimed. Only1/45 frozen preview at that capture.
+
+02: root actually viewed fullP35bae7d3 andsoleR1a218cd22. P had oldtear wronglyRIGHT; R1 restoresLEFTtowardSera andhealsRIGHT. Three cast/books/wornbag/onewallet/RIGHTsheath/emptyparkedcart/lowerlanding retained,6boots supported. Independenteditorial agreesPASS with small/hightear projection and torso-occludedbag qualification. FullR1selected; actuallettered390stillpending.
+
+44–45: root actually viewed fullP6719055e andR1906df41a, full44crop andboth45framingproposals. R1upper44 restoresLEFTtear andONEclearclosedflapwallet/keydesk/offwaist, offbodybag/harness/GLOVESfloor/barehands/standingSeraopenDOOR/closedledger. Bootbottoms outside44tier, nofullsoleproof. R1lower45 introducedwrongRIGHTtear andisrejected. Original45P lower hadintactRIGHT/clearbarehands/Sera but creamdeskobjectbook-like. Exactoriginal45P intimatecrop[80,522,1220,934] keeps theactualendingaction/faces/handsonledge/open-door edge/Seraownledger whileallcreamobject/key are BELOWframe. Existingintimatecamera supports thisaccurateframing; actualwallet/keyestablished44retainedoffframe45. Allfailedfullsources/reviewcrops remainpreserved; noR2/finish/pixelrecombination. Selected44R1fulltier17a10a05…8231 and45originalintimate3829d39f…951d. Actuallettered390pending.
+
+03–04P currentlyunderreview, NOTselected: seeleadnativeandinspectioncrops. Apparent drybenchflooriswet; cartmechanics requireactualreview beforeanydependent05. No complete8claim.
+
+Actual phone follow-up: root viewed final02/44/45 individual390PNG and BOTH original-size composites (opening01–02 two viewports; ending44–45 one with explicit03–43 gap), snapshotf0e2e1ade8bd286cc94855a4fdb9fcbc4171fff1bf6e89d42b206f3ffeaeb0fd/readerc7672b8. PASS exact copy/tails/namedSera response, no meaningful face/hand obstruction.44 is a shallow silentwide, tinywallet/key not independent390proof;45 closecrop retains intimateaction/ledger/rightsheathpiece but wallet/key/floor/LEFTtear outsideframe. No complete8readingclaim.

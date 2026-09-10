@@ -78,22 +78,33 @@ async def browse(root, output, chromium):
         page.on('request', lambda request: network.append(request.url) if request.url.startswith(('http://','https://')) else None)
         await page.route('http://**/*', lambda route: route.abort())
         await page.route('https://**/*', lambda route: route.abort())
-        async def inspect(label):
+        async def inspect(label, expected_modal_images=None):
             await page.wait_for_timeout(250)
-            # Trigger native lazy-loading throughout the actual extracted reader.
-            height = await page.evaluate('document.documentElement.scrollHeight')
-            for y in range(0,height,760):
-                await page.evaluate('(y)=>window.scrollTo(0,y)',y)
-                await page.wait_for_timeout(20)
-            # Explicitly load offscreen archive modal images for dependency QA.
-            await page.evaluate("document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager')")
-            await page.wait_for_function('Array.from(document.images).every(i=>i.complete)',timeout=60000)
-            await page.evaluate('window.scrollTo(0,0)')
-            data = await page.evaluate('''() => ({title:document.title, images:document.images.length,
-              broken:Array.from(document.images).filter(i=>!i.naturalWidth).map(i=>i.src),
-              horizontalOverflow:document.documentElement.scrollWidth>innerWidth,
-              hrefs:Array.from(document.querySelectorAll('a[href]')).map(a=>a.href),
-              height:document.documentElement.scrollHeight, figures:document.querySelectorAll('figure').length})''')
+            modal = None
+            if expected_modal_images is not None:
+                modal = page.locator('dialog[open]')
+                await modal.wait_for(state='visible')
+                await modal.evaluate("d=>d.querySelectorAll('img').forEach(i=>i.loading='eager')")
+                await page.wait_for_function('Array.from(document.querySelectorAll("dialog[open] img")).every(i=>i.complete)',timeout=60000)
+                data = await modal.evaluate('''d => ({title:document.title, images:d.querySelectorAll('img').length,
+                  broken:Array.from(d.querySelectorAll('img')).filter(i=>!i.naturalWidth).map(i=>i.src),
+                  horizontalOverflow:d.scrollWidth>d.clientWidth+1,
+                  hrefs:Array.from(d.querySelectorAll('a[href]')).map(a=>a.href),
+                  height:d.scrollHeight, figures:d.querySelectorAll('figure').length})''')
+            else:
+                # Trigger native lazy-loading throughout the actual extracted reader.
+                height = await page.evaluate('document.documentElement.scrollHeight')
+                for y in range(0,height,760):
+                    await page.evaluate('(y)=>window.scrollTo(0,y)',y)
+                    await page.wait_for_timeout(20)
+                await page.evaluate("document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager')")
+                await page.wait_for_function('Array.from(document.images).every(i=>i.complete)',timeout=60000)
+                await page.evaluate('window.scrollTo(0,0)')
+                data = await page.evaluate('''() => ({title:document.title, images:document.images.length,
+                  broken:Array.from(document.images).filter(i=>!i.naturalWidth).map(i=>i.src),
+                  horizontalOverflow:document.documentElement.scrollWidth>innerWidth,
+                  hrefs:Array.from(document.querySelectorAll('a[href]')).map(a=>a.href),
+                  height:document.documentElement.scrollHeight, figures:document.querySelectorAll('figure').length})''')
             missing = []
             for href in data.pop('hrefs'):
                 parsed = urlsplit(href)
@@ -106,27 +117,55 @@ async def browse(root, output, chromium):
             expected=expected_figures.get(label)
             data.update(route=label,missing_links=missing,expected_figures=expected,
                         wrong_panel_count=expected is not None and data['figures']!=expected)
-            await page.screenshot(path=str(shots/(label+'-top.png')))
-            if data['height']>1688:
-                await page.evaluate('(y)=>window.scrollTo(0,y)',data['height']//2)
-                await page.screenshot(path=str(shots/(label+'-middle.png')))
-                await page.evaluate('(y)=>window.scrollTo(0,y)',data['height'])
-                await page.screenshot(path=str(shots/(label+'-end.png')))
+            if modal is not None:
+                captures = []
+                for stage, fraction in [('top',0),('middle',.5),('end',1)]:
+                    await modal.evaluate('(d,f)=>d.scrollTop=(d.scrollHeight-d.clientHeight)*f',fraction)
+                    await page.wait_for_timeout(150)
+                    metrics = await modal.evaluate('''d=>({id:d.id,scrollTop:d.scrollTop,
+                      scrollHeight:d.scrollHeight,clientHeight:d.clientHeight,
+                      images:d.querySelectorAll('img').length,
+                      broken:Array.from(d.querySelectorAll('img')).filter(i=>!i.naturalWidth).map(i=>i.src),
+                      horizontalOverflow:d.scrollWidth>d.clientWidth+1})''')
+                    filename = label+'-'+stage+'.png'
+                    await page.screenshot(path=str(shots/filename))
+                    captures.append(dict(file=filename,**metrics))
+                offsets = [c['scrollTop'] for c in captures]
+                maximum = captures[-1]['scrollHeight']-captures[-1]['clientHeight']
+                scroll_ok = offsets[0]==0 and abs(offsets[-1]-maximum)<=1
+                if maximum>1:
+                    scroll_ok = scroll_ok and 0<offsets[1]<offsets[2]
+                await modal.locator('[data-close]').first.click()
+                data.update(expected_modal_images=expected_modal_images,
+                            wrong_modal_count=data['images']!=expected_modal_images,
+                            modal_captures=captures,modal_scrolling_worked=scroll_ok,
+                            modal_close_worked=await page.locator('dialog[open]').count()==0)
+            else:
+                await page.screenshot(path=str(shots/(label+'-top.png')))
+                if data['height']>1688:
+                    await page.evaluate('(y)=>window.scrollTo(0,y)',data['height']//2)
+                    await page.screenshot(path=str(shots/(label+'-middle.png')))
+                    await page.evaluate('(y)=>window.scrollTo(0,y)',data['height'])
+                    await page.screenshot(path=str(shots/(label+'-end.png')))
             results.append(data)
         for label, relative in routes:
             path, _, fragment = relative.partition('#')
             await page.goto((root/path).as_uri()+('#'+fragment if fragment else ''), wait_until='load')
             await inspect(label)
         # Actual historical archive UI creates its image/source links on demand.
-        for selector,label in [('#open-options','historical-options'),('#open-anchors','historical-anchors')]:
+        for selector,label,count in [('#open-options','historical-options',78),('#open-anchors','historical-anchors',9)]:
             await page.goto((root/'docs/pilot-chapters/index.html').as_uri(),wait_until='load')
             await page.locator('#mode-all').click()
             await page.locator(selector).click()
-            await inspect(label)
+            await inspect(label,expected_modal_images=count)
         await browser.close()
-    failed = bool(errors or network or any(r['broken'] or r['horizontalOverflow'] or r['missing_links'] or r['wrong_panel_count'] for r in results))
+    failed = bool(errors or network or any(r['broken'] or r['horizontalOverflow'] or r['missing_links'] or r['wrong_panel_count']
+                  or r.get('wrong_modal_count',False) or not r.get('modal_scrolling_worked',True)
+                  or not r.get('modal_close_worked',True)
+                  or any(c['broken'] or c['horizontalOverflow'] or c['images']!=r['expected_modal_images']
+                         for c in r.get('modal_captures',[])) for r in results))
     return {'viewport':[390,844],'transport':'file:// from newly extracted delivery ZIP',
-            'image_check':'Scroll reading pages; eagerly load offscreen archive modal images for dependency QA.',
+            'image_check':'Scroll reading pages unchanged; load archive dialog images and capture actual internal top/middle/end with offsets and close checks.',
             'routes':results,'page_errors':errors,'network_requests':network,'passed':not failed}
 
 

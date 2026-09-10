@@ -1,6 +1,6 @@
 # Chapter9 — A Measured Route
 
-Complete reviewed42-panel v5 script. Explicit staging revision07/08: Aren receives and packs with his RIGHT glove, LEFT steadies the bag. All34 dialogue/caption entries and the other40 panels remain exact. This uses the consistent original P pair after its one bounded repair failed07; no invocation or repair limits reset. Owner approval remains unknown.
+Complete reviewed42-panel script, promoted from preserved v4 after verified Eight-v1 delivery. All42 story beats and34 exact copy entries unchanged; bounded Chapter9 production only. Owner approval remains unknown.
 
 **Premise:** Aren returns to ask what upper work he can qualify for. Neris offers a bounded controlled-transfer assessment of the control and judgment his work has taught him.
 

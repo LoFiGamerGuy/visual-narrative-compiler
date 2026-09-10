@@ -1,6 +1,6 @@
-# Chapter9 v5 — state, route and original production units
+# Chapter9 v4 — state, route and original production units
 
-Active script `production/nightglass-longform/scripts/chapter-9.json` SHA256 `3d5edd34793982345cb0d62428250c475c6f9cc63cbf47e2ad4eb31803a07c51`. Explicit four-field07/08 staging revision uses RIGHT receiving/packing and LEFT rim support; all34 exact copy entries and other40 panels remain unchanged. The separate CHAPTER9-PRODUCTION-GATE.json retains the same finite72-call release and original-unit repair caps. Previous v4 files and failed repair remain preserved in lead/notes/script-revision-v5/.
+Promoted state map for Chapter9; the separate CHAPTER9-PRODUCTION-GATE.json governs the finite art release. Frozen JSON `chapter-9-draft-v4.json` SHA256 `bf25b5e60a1988b58f48a4f16ca395109324c3eac985b582c4d3c8a0a39ad409`. All42 panels/34 exact copy entries remain the reviewed v4. Root owns eventual official gate and selections.
 
 ## Clock and retained life
 
@@ -26,8 +26,8 @@ H: outer upper-intake issue bench reached from G, OUTSIDE I: staffed upper gate.
 
 ## Custody and equipment schedule
 
--06 ONE small CLOSED AMBER cloth practice pouch tied BLACK cord, declared light wood practice weight, belongs assessment service. No customer/private contents.07 NerisRIGHT→ArenRIGHT over dry bench, LEFT glove at empty bag rim.
--07–08 bag OPEN/OFF body on bench; ALL harness with bag.08 RIGHT glove places the amber pouch inside while LEFT steadies the rim.09–19 bag CLOSED/WORN, SAME pouch/load; wallet closed at waist.
+-06 ONE small CLOSED AMBER cloth practice pouch tied BLACK cord, declared light wood practice weight, belongs assessment service. No customer/private contents.07 NerisRIGHT→ArenLEFT over dry bench, RIGHT glove at empty bag rim.
+-07–08 bag OPEN/OFF body on bench; ALL harness with bag.08 amber pouch goes inside.09–19 bag CLOSED/WORN, SAME pouch/load; wallet closed at waist.
 -17 receiver busy at F;18 Neris arrives via G with own ledger;19 actual invitation.20 bag OFF/OPEN on dry handover bench only after support/release/sheathing/invitation.21 ArenLEFT→attendantRIGHT pouch, RIGHT empty bag rim;22 pouch retained in practice tray. Bag EMPTY, reclosed/reworn before23. Practice pouch never becomes paid cargo.
 -24 competency entered Neris ledger: supervised light-transfer work. Rank1/TensionLineI/HoldI unchanged. Actual route admission separately authorized25–30 for one optional job.
 -26 actual BLUE flat sealed letter with ONE IVORY round seal at H; West desk destination/ordinary escorted route/quarter-bell/THREE-copper fee stated.27 Aren accepts before custody; bag OPEN/OFF on issue bench.

@@ -1,6 +1,6 @@
-# Chapter9 v5 — state, route and original production units
+# Chapter9 v4 — state, route and original production units
 
-Active script `production/nightglass-longform/scripts/chapter-9.json` SHA256 `3d5edd34793982345cb0d62428250c475c6f9cc63cbf47e2ad4eb31803a07c51`. Explicit four-field07/08 staging revision uses RIGHT receiving/packing and LEFT rim support; all34 exact copy entries and other40 panels remain unchanged. The separate CHAPTER9-PRODUCTION-GATE.json retains the same finite72-call release and original-unit repair caps. Previous v4 files and failed repair remain preserved in lead/notes/script-revision-v5/.
+Promoted state map for Chapter9; the separate CHAPTER9-PRODUCTION-GATE.json governs the finite art release. Frozen JSON `chapter-9-draft-v4.json` SHA256 `bf25b5e60a1988b58f48a4f16ca395109324c3eac985b582c4d3c8a0a39ad409`. All42 panels/34 exact copy entries remain the reviewed v4. Root owns eventual official gate and selections.
 
 ## Clock and retained life
 

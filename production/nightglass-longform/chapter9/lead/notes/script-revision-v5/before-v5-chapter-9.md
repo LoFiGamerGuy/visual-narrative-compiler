@@ -1,6 +1,6 @@
 # Chapter9 — A Measured Route
 
-Complete reviewed42-panel v5 script. Explicit staging revision07/08: Aren receives and packs with his RIGHT glove, LEFT steadies the bag. All34 dialogue/caption entries and the other40 panels remain exact. This uses the consistent original P pair after its one bounded repair failed07; no invocation or repair limits reset. Owner approval remains unknown.
+Complete reviewed42-panel script, promoted from preserved v4 after verified Eight-v1 delivery. All42 story beats and34 exact copy entries unchanged; bounded Chapter9 production only. Owner approval remains unknown.
 
 **Premise:** Aren returns to ask what upper work he can qualify for. Neris offers a bounded controlled-transfer assessment of the control and judgment his work has taught him.
 
@@ -71,23 +71,23 @@ Neris places ONE small CLOSED amber cloth pouch tied with BLACK cord on the dry 
 
 ## N9-07
 
-With Aren’s EMPTY gray bag already open on the bench and harness fully OFF his shoulders, Neris’s RIGHT bare hand passes the one tied amber pouch into his RIGHT glove. His LEFT glove rests on the empty bag rim.
+With Aren’s EMPTY gray bag already open on the bench and harness fully OFF his shoulders, Neris’s RIGHT bare hand passes the one tied amber pouch into his LEFT glove. His RIGHT glove rests on the empty bag rim.
 
 *Silent.*
 
 **Camera:** Simple supported owner-to-carrier contact, load and single bag visible.
 
-**Current state:** Terms and safe reset conditions already agreed. ONE amber/black-tied pouch NerisRIGHT→ArenRIGHT; his LEFT glove steadies the empty bag rim. Bench supports bag; all brown harness straps lie with bag, none duplicated on body. Wallet closed at waist/key inside, sole RIGHT sheath, old LEFT tear/RIGHT intact. Sera remains a witness with her own closed brown ledger. This completes the seven-panel setup.
+**Current state:** Terms and safe reset conditions already agreed. ONE amber/black-tied pouch Neris→Aren. Bench supports bag; all brown harness straps lie with bag, none duplicated on body. Wallet closed at waist/key inside, sole RIGHT sheath, old LEFT tear/RIGHT intact. Sera remains a witness with her own closed brown ledger. This completes the seven-panel setup.
 
 ## N9-08
 
-Aren lowers the ONE tied amber pouch into the open gray bag with his RIGHT glove while his LEFT steadies the rim. Neris’s empty hands are clear of the opening.
+Aren lowers the ONE tied amber pouch into the open gray bag. Neris’s empty hands are clear of the opening.
 
 *Silent.*
 
 **Camera:** Quiet insert of amber cloth inside gray bag, with black tie intact and no other parcel.
 
-**Current state:** Same one practice load goes inside his one personal bag; no second bag or hidden heavier load. RIGHT glove places pouch, LEFT steadies rim. Pouch remains closed. Wallet/key at waist, weapon sheathed. Bag still supported OFF body on bench.
+**Current state:** Same one practice load goes inside his one personal bag; no second bag or hidden heavier load. LEFT glove places pouch, RIGHT steadies rim. Pouch remains closed. Wallet/key at waist, weapon sheathed. Bag still supported OFF body on bench.
 
 ## N9-09
 

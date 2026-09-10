@@ -1,0 +1,11 @@
+# Chapter9 v5 proposed ordinary packing staging
+
+Independent actual whole-native review of both N9-07-08-P and its sole R1: the primary shows Neris RIGHT bare hand→Aren RIGHT receiving glove, with Aren LEFT on the empty bag rim. The original lower tier continues with that same RIGHT glove placing the ONE closed amber/black-tied pouch into the same supported open bag. Neris’s other hand rests on the bench; Sera retains her closed brown ledger. Harness is off Aren and lies with the bag. Current near LEFT upper-sleeve tear and intact other sleeve are readable in the upper frame; no contradictory weapon or second load appears. Lower close framing does not prove feet or every waist fitting.
+
+The repair did not achieve the requested pair: upper07 still uses RIGHT, while lower08 switches to LEFT. Do not call that a successful hand-role repair. Recommend BOTH ORIGINAL PRIMARY tiers under this explicit proposal. Both complete native attempts remain preserved; no image crop or selection is created by this manuscript proposal.
+
+This is ordinary packing with no action or skill restriction tied to the receiving hand. The pouch remains closed and unique; authorization and custody occur in the same order. Bag closure/refitting follows before09, and this does not constrain the later20 unpacking hand. No extra event, hidden hand switch or force capability is needed to use both primary tiers.
+
+Exactly four JSON fields change:07/08 action and current_state. All42 beats,34 exact editable copy entries, both cameras, all other40 panel objects, reuse values and every top-level field—including status and reading_premise—are unchanged. Matching MD is produced by those same four literal substitutions; its existing header remains unchanged. Compact state proposal changes only the07/08 custody sentences. Filename/this note identify these as UNPROMOTED proposals; retained v4 headers are historical, not a gate claim.
+
+The original07–08 unit has spent ONE primary and its sole R1. Both remain counted and preserved. This proposal authorizes no new call, reset, source finish or shared selection. Root must independently review and promote before using the revised staging. No official script, state, gate, reader or shared selected files changed; no image generation invoked.

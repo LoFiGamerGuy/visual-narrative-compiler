@@ -80,11 +80,20 @@ def json_paths(root, value):
 def collect(root):
     files=set(); missing=[]; archival=[]; reader_edges=[]
     for folder in SEED_ROOTS:
-        for path in (root/folder).rglob('*'):
-            if path.is_file() and allowed(path.relative_to(root).as_posix()):
-                if path.is_symlink():
-                    raise RuntimeError(f'Symlink refused: {path}')
-                files.add(path.relative_to(root).as_posix())
+        # Old deliveries/extractions are excluded from this snapshot. Prune
+        # their directories before walking, rather than visiting every old
+        # file and rejecting it afterward (especially costly on mounted NTFS).
+        for directory, directories, names in os.walk(root/folder, followlinks=False):
+            parent=Path(directory)
+            directories[:]=[name for name in directories
+                            if name not in BLOCK_PARTS and not name.startswith('.')
+                            and not ((parent/name).relative_to(root).as_posix()+'/').startswith((*BUILD_PREFIXES,REPORT_PREFIX))]
+            for name in names:
+                path=parent/name;relative=path.relative_to(root).as_posix()
+                if allowed(relative) and path.is_file():
+                    if path.is_symlink():
+                        raise RuntimeError(f'Symlink refused: {path}')
+                    files.add(relative)
     for relative in EXTRA_FILES:
         if (root/relative).is_file(): files.add(relative)
     pending=list(sorted(files)); checked=set()

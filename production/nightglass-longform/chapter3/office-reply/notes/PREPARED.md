@@ -13,3 +13,8 @@ Proposed units: two-tier29–30 (report and substantive decision), then two-tier
 32: one sealed cream envelope with a plain blue seal has transferred to Aren. His LEFT fingers finish lowering that same envelope into the open empty gray bag on counter; RIGHT hand may steady bag, sword remains sheathed. Sera has finished the dispatch signature and her own ledger is closed beside the register, a clear end state rather than three simultaneous actions. These static staging choices should be reflected in final frozen action wording before art if lead accepts; exact copy/inventory unchanged. One envelope inside bag, no ballast/outgoing packet/yellow folder.
 
 Maret retains short dark curls, round glasses, moss-green vest and cream blouse. Keep personal warmth and tired satisfaction; this is the neighbors' official answer, not an interface-only rank reward. Preserve all native attempts, exact arguments/ref hashes and independent reading gate once authorized.
+
+
+## Envelope staging now frozen
+
+Read the authoritative31/32 actions and compared with before-envelope-static-staging archive: only31/32 changed, all40 panels and all copy unchanged.31 now explicitly shows two folded sheets already inside one open cream envelope, flap lowering and one blue seal ready;32 shows that seal finished and Aren's LEFT fingers lowering the single envelope into the bag, with Sera's witnessing already finished and ledger closed. These are no longer merely proposals. Prepared snapshot updated and prior snapshot preserved. Generation remains held pending selected25–28.24 has been lead-selected; no direct fauna response is claimed from24 because no ray is visible there.

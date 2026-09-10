@@ -194,10 +194,11 @@ Aren: Please keep that one.
 Ossa: I intend to.
 
 ## N3-38 · warm medium earned rest, gloves laid down and untouched meal awaiting him
-Sera pays the previously agreed survey carrying fee against the completed order. Aren sets the earned coins beside his morning savings packet, then removes his gloves and sits at the sorting table as Ossa serves a simple late meal.
+The agreed survey carrying fee has been paid against the completed order. Its earned coins lie in a stable small pile beside Aren’s retained morning savings packet. With his gloves already removed on the table and the harness and empty gray bag unbuckled on his chair, Aren sits with bare hands at rest as Ossa places a simple late meal before him. Sera closes the completed order beside them.
 State: Two distinct Chapter3 paid jobs: recurring morning round and agreed survey carrying task. No arbitrary sum or XP. Money stays Aren, part saved toward room. Harness unbuckled and hung on chair with empty bag; sword sheathed at right hip, no active power. Room/key not yet acquired; no week-long time jump.
 Sera: Carrying work complete.
 Aren: Then I can sit for this one.
+Revision: Routine static ending staging before art, independently proposed by assets: completed payment/removed gloves/unbuckled harness already elapsed, one visible meal placement and earned seated rest. Same agreed fee, retained savings, no new room/key or arbitrary coin sum. Late meal remains same daylight day.
 
 ## N3-39 · close two independent documents and serious listening faces; meal remains in scene
 While Aren eats, Sera unfolds the certified old closure copy from the delivered envelope. Its second entry names Bell Basin. Rusk places a recent ordinary workshop invoice beside it, pointing to the same place in its return line.
@@ -205,8 +206,9 @@ State: Older closure instruction is the same enclosure introduced at office, not
 Sera: This instruction closes Bell Basin too.
 Rusk: I bought hinges there last month.
 
-## N3-40 · tall extreme-wide with intimate table foreground and repaired local circuit below; larger city beyond
-Final tall frame: the local goods car waits level at the open postal hatch, its shielded beacon throwing only a narrow cyan guide. Above, Aren sits among the neighbors in warm light with his saved wages beside the meal. Beyond their window the vast city has many other occupied lights; the closed instruction lies open on their table.
-State: Victories intact: paid recurring round, retained harness/Hold/badge/manual route, inspected local mail circuit, actual official reply/current-door correction, earned rest and room savings. Next bounded investigation is a delivery to Bell Basin, not a villain hunt or simultaneous new universe. No claim of human acceptance or permanent owner canon.
+## N3-40 · tall high view of the same Lower Post room: intimate shared table foreground, one opened lower receiving hatch and empty stopped car beyond/lower in frame, larger daylight city beyond; no second post room or duplicate low beacon
+Final tall frame from a high camera inside the SAME Lower Post hall: Aren sits among the neighbors at their warm table in the foreground, with his saved wages beside the meal and the old closure copy open among them. Through the one opened receiving hatch beyond, the EMPTY goods car waits level at the same lower stop, appearing lower in the frame because of the viewpoint. The vast city beyond holds many other occupied lights. The repaired upper beacon remains where established, outside this lower-room view unless a true existing upper sightline fits the composition.
+State: Victories intact: paid recurring round, retained harness/Hold/badge/manual route, inspected local mail circuit, actual official reply/current-door correction, earned rest and room savings. This is the SAME late meal/daylight day as38, not a new floor or overnight jump. Local guide continues operating as established24–26; do not relocate its UPPER beacon to the lower hatch just to show a glow. Next bounded investigation is a delivery to Bell Basin, not a villain hunt or simultaneous new universe. No claim of human acceptance or permanent owner canon.
 Aren: Then we take them a copy. After the morning post.
+Revision: Routine final camera clarification before art, independently proposed by assets: spatial word above means table foreground/hatch lower in the frame, not a second upper post hall. Prefer off-frame established UPPER beacon to an invented lower duplicate. Same ending copy and retained local payoff.
 

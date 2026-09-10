@@ -1,6 +1,6 @@
 # Chapter 3 — available artwork reading notes
 
-Current reviewed sequence: first 23 of 40 panels. All fourteen continuous 390px viewports were actually read in order using four original-size composites in `chapter3-first23-reviewed/inspection/`. Source/copy proof and immutable snapshot are preserved alongside the browser receipt. The first twenty panel records remain exactly unchanged from their earlier captured edition. Chapter 3 remains incomplete; the live optical test is not yet available in this reviewed snapshot.
+Current reviewed sequence: first 32 of 40 panels. All nineteen continuous 390px viewports were actually read in order using five original-size composites in `chapter3-first32-reviewed/inspection/`. Source/copy proof and immutable snapshot are preserved alongside the clean browser receipt. The prior twenty-eight story images, copy and lettering remain unchanged; panel 22 gained only native crop provenance fields, explicitly recorded in the new proof. Chapter 3 remains incomplete.
 
 Initial four-panel review: 01 and 06–08. Viewed the full selected natives and each actual lettered crop at 390px. Evidence is in `chapter3-opening-geography-lettering/` and the source-bound `chapter3-first4-reviewed/` snapshot. Missing story spans remain explicit gaps; no complete Chapter 3 reading is claimed.
 
@@ -67,3 +67,35 @@ The available sequence now carries the limited shade load through a supported se
 Actually inspected selected 24 native and its full-height 390px capture in `chapter3-live-test/`. Pell is at the same lower cabinet; the working lever points horizontally, the open padlock/key stays in his other hand, and the amber pump indicator stays lit. Three colleagues watch from the upper guardrail. The empty goods car remains clearly at the lower landing. A narrow cyan band occupies the framed guide below the lit lamp while the separate silver collar remains neutral rather than cyan. These distinct states remain readable at phone size without added copy.
 
 The image supports confined guide illumination and an unlit collar. It does not demonstrate an exact ray from the dark upper hood slot: the band visually starts below the lantern, and the guide is longer than in the prior installation view. Small parked brass hardware remains below the horizontal lever. No ray is visible in this frame, so a fauna reaction or distant non-approach is not directly established by this image alone. These limits are recorded without inventing optical detail in lettering. The first twenty-three panel records, Chapters 1/2 and comparison remain exactly unchanged. The current live-test delta is reviewed; the previous full continuous proof remains first twenty-three.
+
+## Empty ascent and loaded descent: individual 25–26 review
+
+Viewed both selected repair natives, then the actual 390px pair in `chapter3-empty-loaded-test/`. In 25 the empty car floor aligns with the upper loading ledge and four observers remain behind the rail in daylight. In 26 the same car travels alone between the upper and lower landings, carrying one open gray bag with one tan tied test bundle. Aren’s empty harness remains visible above; no passenger, sword line or extra load appears. Exact caption and speech remain external; the tail identifies Aren’s upper central figure without covering the fixed collar or car.
+
+The caption explicitly introduces a light test load. The visible bundle is workshop ballast of mail-load scale, not entrusted mail; the following return to Rusk custody is still to be reviewed. The single collar now stays at the upper landmark beside the hood, with uninterrupted cable below. Its precise height differs from earlier views, so no exact-height continuity claim is made. No new material reader blocker in this pair. First twenty-four panel records remain unchanged; no new full continuous capture was required for this delta.
+
+## Test completion and reopened hatch: 27–28 plus first-twenty-eight reading
+
+Viewed the complete selected 27–28 repair native, both actual 390px lettered panels in `chapter3-receiving-hatch-lettering/`, then all seventeen viewports of the first twenty-eight. The one ballast bundle returns to Rusk’s case beside the retained old hood/tools, the gray bag is visibly empty, and Sera signs the local scope. Her upper-center tail identifies the signing figure while leaving custody contacts clear.
+
+At the receiving hatch, Hessa’s packet stays on Ossa’s counter and the car beyond is empty. Hessa, Dain and Ossa’s three lines remain exact and 16px in the correct reading order. Hessa speaks above her central figure; Dain’s lower-left named band avoids an ambiguous long tail; Ossa answers at lower right. The ordinary neighbors’ practical benefit is warm and readable after the technical test.
+
+The full sequence now shows restored limited illumination, an empty ascent, one restrained test load, removal of that ballast, signed local scope and the reopened hatch. No magic moves the car; earlier wages, room savings and the registered route remain intact. No new central causal or attribution blocker found. The following office/reply sequence is not yet part of this captured reading.
+
+## Report and first substantive reply: individual 29–30 review
+
+Viewed the selected full native and both actual lettered 390px panels in `chapter3-office-report-lettering/`. The midday caption makes the office transition explicit. Sera’s report/retained-part sketch lies beside the current register while she keeps her ledger; Maret then reads the first substantive petition decision from a new white sheet. Yellow folders stay in the office archive tray, and Aren’s gray back bag remains present. Longer exact spoken copy stays 16px, with tails identifying Sera’s central position and Maret’s left position. Hands, report, reply and the characters’ quiet reactions remain unobscured. No new material blocker found in this pair.
+
+Provenance qualification: since the first-twenty-eight snapshot, panel 22’s crop record gained its missing native source path, source SHA256 and native dimensions. Verified the added source hash. All prior story image bytes, copy, lettering and crop coordinates remain unchanged; strict full-record equality is therefore false only for this metadata addition. Chapters 1/2 and the comparison records remain exactly unchanged. The earlier captured proof is preserved rather than rewritten.
+
+## Entrusted reply and first-thirty-two reading
+
+Viewed actual selected 31 primary tier and 32 repaired tier at native resolution, each lettered 390px panel in `chapter3-reply-packing-lettering/`, then all nineteen continuous first-thirty-two viewports. One cream envelope holds the folded reply/enclosure in 31, with one blue seal ready beside it. In 32 the sealed same envelope is controlled by Aren’s LEFT fingers as it enters his previously empty bag; the RIGHT hand may also touch its upper edge, so exclusive left-only contact is not claimed. Sera’s ledger stays closed and the yellow archive stays with the office. Exact copy remains 16px and correctly attributed to Maret then Aren; hands, seal and bag mouth stay clear.
+
+The full available sequence makes the limited local test lead to a useful receiving hatch and a substantive decision restoring witnessed addresses. Maret’s enclosed-history line preserves an unresolved question without taking away that gain. Aren accepts a single defined delivery and responds with familiar competence. No new central story or attribution blocker found. The next return/delivery and final reveal remain absent from this snapshot. Independent editorial was notified of these captures for its own continuous read.
+
+## Return delivery: silent 33–34 transition
+
+Viewed both selected repaired natives and the actual 390px continuous pair in `chapter3-return-delivery/continuous-33-34.png`. The closed bag rides alone at the upper loading stop while Aren remains supported behind its gate with an empty harness and hands. The visible rising stair establishes ordinary access rather than proving the descent by itself. In 34 the adjoining doorway and stair rising away from the lower hall make walking arrival intelligible; the car is now empty at the receiving hatch, and the open gray bag rests on the fixed counter. One cream envelope with its blue seal remains visibly inside. Neither hand has transferred it to Ossa yet.
+
+The two silent panels clearly distinguish the courier’s walking route from the mail’s tested machinery, preserve the RIGHT sheath and intact RIGHT sleeve/old LEFT tear, and continue the entrusted reply without extra contents. Bag trim/loop details vary without changing load. No central transition blocker found at 390px. First thirty-two records, Chapters 1/2 and the comparison remain exactly unchanged.

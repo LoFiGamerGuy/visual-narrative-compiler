@@ -1,3 +1,5 @@
+COMPLETED: root gate passed; six calls returned, all four panels recommended. See REVIEW.md and integrity.json. Preserved planning below is historical, not current status.
+
 # Lift tests25–28: dependency-gated preparation
 
 Zero image invocations. Complete authoritative40-panel script/current scene-state read; selected06,18v2R1,20v2R1,12lowercabinet,16newshade,17bag, Hessa01, Dain02 and Ossa45 actually inspected. Exact preparatory hashes in inspected-prerequisites.json. Do not generate until lead sends selected24 actual lower restore and editorial sends selected22 installed shade plus23 intact collar. They are not yet selected at preparation time. Bound exact call references only after viewing those dependencies; source paths/hashes must be actual, not guessed future output names.

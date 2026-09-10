@@ -48,3 +48,14 @@ PASS after actual five full selected-crop views, five individual390px phones and
 37 lower AREN and38 lower OSSA use named tailless bands to protect attribution and hands.38 upper width was narrowed to remove the isolated final word while preserving exact copy. All39 current balloons are16px and fit390px; no browser errors, broken images or horizontal overflow.
 
 Retained qualifications:12 passes beside the green entrance before the unshown turn inside;14 has an extra GREEN cross-crease/ruling drift without exact signature-fidelity claim;37/38 worn bag contents are occluded and lower soles meet the frame edge. All prior29 panel records, previous219 complete chapter records/comparisons and existing overrides are exact. Preview34/47 remains incomplete, with15–18 and39–47 absent. This is a bounded reading, not a complete47 review.
+
+
+## Mail released, rent paid and door opened:15 and39–43
+
+PASS after actual six full native views, all six individual390px phones, and all four continuous viewports through two original-size composites. Evidence `chapter6-rent-access-reviewed/`, snapshot `244d3454ae70690403864d722731d6cb2d4f561c3c8763cafcb5d0e3523a7912`. Final phones byte-match the actually inspected provisional versions.
+
+14–15 makes the applied direction cause a supported release of one tied brown batch. The batch is still being guided into the bag; closure and Lower Post arrival are not shown yet.38–43 follows continued welcome with a later seventh-day bindery visit, actual rent payment, weekly acceptance in Venn’s own book, key receipt and use at the supported landing. The order makes this paid access, not a free room or permanent ownership.
+
+All five new copy bands remain16px outside art, with correct speaker directions and visible hands.42’s key is small at390 but its transfer and the following lock action remain readable; no exact key-tooth/profile claim.43 is a full landscape native with the slight inherited door gap, not proof of an initially fully closed door.15’s extra thigh badge and43’s duplicate wallet were repaired before these selections; the correct single props remain.
+
+All prior34 full panel records, completed219 chapter records/comparisons and previous overrides remain exact. All44 current balloons fit390px at16px, no browser errors/broken images/overflow, all source/copy and applicable crop-pixel checks pass. Preview40/47 stays incomplete:16–18 and44–47 missing. No full47 read claimed.

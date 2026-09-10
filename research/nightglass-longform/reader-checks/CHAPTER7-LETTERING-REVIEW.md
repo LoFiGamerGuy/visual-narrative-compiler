@@ -43,3 +43,12 @@ Prior10 Chapter7 records,266 earlier panels/comparisons and all prior overrides 
 Kiva steadies the supported board as Aren takes opposing end edges, then both workers walk away with their separate objects. The silent departure and cart-padding frames give action room after the negotiation.13 daylight, RIGHT-held pad, level two-handed board and ordinary steps remain visible.14 keeps box/board with Aren while Daro unfolds the pad on his parked cart; no premature cargo transfer. The outside turn belongs to the broad straight stairs' lower corner, not an invented dogleg.
 
 All25 copy elements are16px/in bounds and browser checks pass. Prior13 Chapter7 records,266/comparison records and all prior overrides remain exact. Four crop sources/hashes/pixels and exact copy pass. Fingers grip board edges rather than passing through cutouts; opposite handle/waist details are occluded, and one cart wheel is partially hidden by its bed. The fixed ledge remains above cart-bed height. These are bounded visibility/staging qualifications, not claims of exact hidden geometry. Only01–14 plus separate38–40 are available. Root owns completion; no full40 reading claimed.
+
+
+## Supported relay and loaded cart batch
+
+**20/40 available, incomplete.** Snapshot `f5013f8c39992acfd0e50a32a6c79e9126fae2afa36c1e8584592e32aacafad5`, `chapter7-relay-reviewed/`. Actually viewed entire15/16R1, both full crops, whole17R1, all three individual390 panels and all two sequential14–17 views through the original-size composite. Final individual bytes equal inspected versions. No lettering correction needed.
+
+The load first rests on the fixed stone ledge while Daro prepares his pad/strap, then both workers visibly hold opposite box end handles. Daro repeats the agreed return condition before the silent loaded-cart result: box on pad, fastened strap, slip retained, empty board on ledge and Aren's empty hands. Text stays clear of every contact. The ledge remains above the cart bed; no flush sliding transfer is claimed.
+
+All28 copy elements read at16px/in bounds and browser checks pass. Prior17 Chapter7 records,266/comparisons and every prior override remain exact; new source/copy/crop pixels pass.17's stationary support legs are more prominent than previous cart views and the opposite wheel is partly hidden; this frame cannot prove their clearance during later motion. No exact support-leg count or dragging claim is made. Current status represents contiguous01–17 plus separate38–40, not a full40 reading or completed chapter.

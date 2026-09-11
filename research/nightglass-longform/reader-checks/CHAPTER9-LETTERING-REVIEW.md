@@ -111,3 +111,9 @@ Mixed source selection is explicit: primary28 wrong receiving hand remains rejec
 Actually viewed full selected29P/30R1, both individual390 layouts (final bytes identical) and one complete original39028–30 viewport. The one intact blue/ivory letter is inside the supported bag; gloves close it, then30 worn harness/empty hands follows ordinary refitting. Exact Neris one-assignment/under-supervision/West-desk authorization fits two16px lines with clear tail before actual attendant at latch. PASS snapshot `1d5c8dc7ccbe1cf09a8003602c0def847bdc13008dc603c69e118da624e89252`; bindings in `chapter9-authorization-reviewed/actual-review.json`.
 
 29 shows closure in progress, not final zipper state; rear bag body is occluded in frontal30. Feet outside frames do not prove passage. Mixed primary/repair sources preserved explicitly;30 restored LEFT tear does not erase older18 omission. Prior28/full351/comparison18/302 old overrides/339 records exact.30/42 incomplete, admission/delivery/pay remain ahead.
+
+## All-three admission — silent31/32
+
+Actually viewed both full primary crops, both individual390 layouts (final bytes identical) and BOTH complete original39030–32 columns. Specific authorization precedes actual open staffed gate admission of all three; Neris stays beside Aren and Sera follows through the inhabited ordinary corridor. Both official copy arrays are empty, so no admission speech was invented. PASS snapshot `e410c9d474d30de5951e6a0e69a48289263bfc717033890467dea4ecaeec8f90`; bindings in `chapter9-admission-reviewed/actual-review.json`.
+
+Some leading boots meet crop edge; moving gait is not full stationary-sole proof. Small LEFT tear is native-visible, not microscopic390 proof; rear bag/key/fittings hidden. Prior30/full351/comparison18/302 old overrides/339 records exact.32/42 incomplete, delivery/payment ahead.

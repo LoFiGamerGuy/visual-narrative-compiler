@@ -105,3 +105,9 @@ Seal is small at390; no microscopic detail claim. Rear bag/waist wallet occluded
 Actually viewed full selected27P/28R1 crops, revised27 individual390 and unchanged28 individual390 (final bytes matching), and BOTH original-size26–28 columns.27 exact acceptance stays16px/two lines, with a narrower balloon for shorter wrap; clock glance precedes28 actual Neris RIGHT→Aren LEFT letter transfer, RIGHT steady rim, one empty off-body supported bag. Visible single closed wallet/RIGHT sheath/LEFT tear retained. PASS snapshot `cdbaac029d1bdf5291b338e5f2afb5db4d223807d5de4e0ef2d370296d924b30`; bindings in `chapter9-acceptance-reviewed/actual-review.json`.
 
 Mixed source selection is explicit: primary28 wrong receiving hand remains rejected/preserved. Clock is an availability cue, not exact timestamp proof; feet/key not visible. Prior26/full351/comparison18/302 old overrides/339 records exact.28/42 incomplete, no admission/delivery/payment yet.
+
+## Packed letter and staffed authorization — 29/30
+
+Actually viewed full selected29P/30R1, both individual390 layouts (final bytes identical) and one complete original39028–30 viewport. The one intact blue/ivory letter is inside the supported bag; gloves close it, then30 worn harness/empty hands follows ordinary refitting. Exact Neris one-assignment/under-supervision/West-desk authorization fits two16px lines with clear tail before actual attendant at latch. PASS snapshot `1d5c8dc7ccbe1cf09a8003602c0def847bdc13008dc603c69e118da624e89252`; bindings in `chapter9-authorization-reviewed/actual-review.json`.
+
+29 shows closure in progress, not final zipper state; rear bag body is occluded in frontal30. Feet outside frames do not prove passage. Mixed primary/repair sources preserved explicitly;30 restored LEFT tear does not erase older18 omission. Prior28/full351/comparison18/302 old overrides/339 records exact.30/42 incomplete, admission/delivery/pay remain ahead.

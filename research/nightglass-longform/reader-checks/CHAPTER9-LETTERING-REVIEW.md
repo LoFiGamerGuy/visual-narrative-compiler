@@ -93,3 +93,9 @@ Closer frames do not independently show sole contacts; earlier supported release
 ## Result23/24 and complete first24 reading
 
 Actually viewed full23/24 R1 crops, both individual390 (final bytes equal), BOTH result22–24 columns and ALL13 fresh continuous01–24 viewports via all4 original-size composites. Qualified PASS snapshot `43d78d9b9a901bf269c1d39de506c6b503b25f26842a0dc36775871b65fb1449`; detailed actual findings/bindings in `chapter9-assessment-first24-reviewed/ACTUAL-FIRST24-READING.md` and `actual-review.json`.23 named NERIS lower reply avoids false tail;24 two-line exact endorsement protects actual writing. Complete assessment progression and personal payoff read; procedural setup and existing source limitations retained. Prior22/full351/comparison18/302 old overrides/339 records exact.24/42 remains incomplete.
+
+## Optional paid carry — 25/26
+
+Actually viewed both full primary wide crops, both individual390 layouts (final bytes identical) and BOTH original-size24–26 columns. Complete exact16px terms retain optional one-carry authority, escorted corridor/destination, one letter, another quarter bell and three coppers paid at West. Named NERIS lower fee band avoids a false tail toward the letter or gate staff. Wide short images retain staffed gate and untouched blue/ivory sealed letter on outer counter. PASS snapshot `08fb2ef2c1203a94e3f259219cf59f16cd5b610e08a1033737c0752ad501901e`; bindings in `chapter9-offer-reviewed/actual-review.json`.
+
+Seal is small at390; no microscopic detail claim. Rear bag/waist wallet occluded, full feet outside frame. Prior24 and351 earlier panels/18 comparisons/302 old overrides/339 records exact.26/42 incomplete: acceptance, admission and payment not yet shown.

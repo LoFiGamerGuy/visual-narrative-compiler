@@ -123,3 +123,9 @@ Some leading boots meet crop edge; moving gait is not full stationary-sole proof
 Actually viewed both full primary crops, original33/revised34 individual390 layouts (matching final bytes), and BOTH original-size32–34 columns. Exact Aren observation followed by named NERIS dry reply gives a brief human perspective; no new leak problem is introduced. Widened34 clerk balloon only to avoid lone “please”; exact invitation is one16px line with clerk-directed tail and clear empty tray. PASS snapshot `0ffdb8120be13efffac4077f480e1250732533d0318adbb627c5240c580eacab`; bindings in `chapter9-west-desk-reviewed/actual-review.json`.
 
 Two views differ40px due segment length, all content covered. Short wide art does not independently prove fine sleeve/key/rearbag details at390. Prior32/full351/comparison18/302 old overrides/339 records exact.34/42 incomplete, no handover/pay yet.
+
+## Delivered and received — 35/36
+
+Actually viewed full selected35P/36R1, both individual390 layouts (final bytes identical) and BOTH original-size34–36 columns. Invitation precedes shared sealed-letter contact, then recipient tray retention.35 silent;36 exact Clerk “West desk. Received.” and named NERIS “That is the whole carry.” both16px and correctly attributed. Qualified PASS snapshot `dd5b12ebf0523284edf24a28d4700d95f8de8e02879ace000eded6e3590fccf0`; bindings in `chapter9-received-reviewed/actual-review.json`.
+
+35 RIGHT rim forearm partly hidden by Neris remains plausible occlusion, not a full trace claim.36 gray top covers former black open mouth, exact zipper is arm-occluded. Prior34/full351/comparison18/302 old overrides/339 records exact.36/42 incomplete; delivery done in story but payment/ending not yet shown.

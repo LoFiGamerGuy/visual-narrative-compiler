@@ -1,0 +1,41 @@
+{
+  "id": "N9-19-20-R1",
+  "tool": "image_gen.imagegen",
+  "status": "returned",
+  "phase": "repair",
+  "panels": [
+    "N9-19",
+    "N9-20"
+  ],
+  "args": {
+    "prompt": "Use case: precise-object-edit. One tiny targeted continuity correction in the supplied TWO-panel source N9-19-20-P. Preserve its full1024x1536 canvas, exact gutter, all compositions, people, expressions, hands, props and bottom panel.\nChange ONLY TOP19 Aren's exposed near upper sleeve: this is his anatomical RIGHT arm on SCREEN RIGHT of his back, directly above the sole RIGHT-hip sheath. The conspicuous exposed skin hole near the shoulder is WRONG. Restore that small region to continuous intact lavender checked cloth matching the surrounding shirt. His RIGHT upper sleeve must have no tear. The old LEFT upper-sleeve tear is far-side/hidden in this top rear angle; do not add a new visible hole elsewhere.\nBOTTOM20 is already correct: preserve the visible old LEFT upper-sleeve tear on screen-right in the frontal view, LEFT black glove lifting ONE CLOSED amber pouch with BLACK tie, RIGHT black glove steadying open bag rim, ALL harness straps down with ONE off-body supported bag, bare shoulders, sole RIGHT sheathed weapon and receiver's hands clear. Do not edit, mirror or swap anything in the bottom panel.\nKeep top receiver's same EMPTY inviting palm, tray safely aside, Aren's closed WORN bag/two brown straps/hipbelt, one closed cream wallet/one red-cord badge/one RIGHT sheathed weapon/both empty gloves and blue-floor context. Both witnesses retain their own CLOSED books, brown for Sera/slate-blue for Neris. No active line, unpacking in top, opened pouch, handover in bottom, extra sheath or changed action. No text, balloons, labels, arrows, beauty pass or surface redesign. Only fix the incorrect RIGHT sleeve hole in TOP19.\n",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter9/lead/candidates/N9-19-20-P.png"
+    ]
+  },
+  "arguments_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter9/lead/requests/N9-19-20-R1.json",
+  "prompt_sha256": "860f6b64fa473362019fc4e4de3f14c9911030e6e06bd09bf2d4950659d73a38",
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter9/lead/candidates/N9-19-20-P.png",
+      "sha256": "185fe36b5744818281b39ba669a40a4c23987385500f736e8821401d83f52e1c"
+    }
+  ],
+  "before_art_dependency": {
+    "gate": "research/nightglass-longform/CHAPTER9-PRODUCTION-GATE.json",
+    "script_sha256": "3d5edd34793982345cb0d62428250c475c6f9cc63cbf47e2ad4eb31803a07c51",
+    "preceding_zip_sha256": "40a887be91b99164e87ed7dba85b82bdf16fe013464d6c2a95b6bcdfec92de1f",
+    "actual_reference_review": "Scope worker actually viewed each reference before this call; source roles/current state recorded in prompt."
+  },
+  "model_snapshot": null,
+  "seed": null,
+  "billing": null,
+  "owner_approval": null,
+  "invoked": true,
+  "submitted_utc": "2026-09-11T00:11:42.119788+00:00",
+  "returned_utc": "2026-09-11T00:13:19.013931+00:00",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-a99f9b9b-7500-4f55-8573-62f7858699a6.png",
+  "path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter9/lead/candidates/N9-19-20-R1.png",
+  "sha256": "e95419c625e8bc26eeddb6851e674ba172513d5686f24715afe574ea0ba403e6",
+  "raw_return_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter9/lead/calls/N9-19-20-R1-tool-return.json"
+}

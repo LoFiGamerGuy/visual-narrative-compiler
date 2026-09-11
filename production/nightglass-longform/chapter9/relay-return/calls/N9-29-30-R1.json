@@ -1,0 +1,46 @@
+{
+  "id": "N9-29-30-R1",
+  "tool": "image_gen.imagegen",
+  "status": "returned",
+  "phase": "repair",
+  "panels": [
+    "N9-29",
+    "N9-30"
+  ],
+  "args": {
+    "prompt": "Use case precise-object-edit. Edit ONLY the missing old sleeve tear in LOWER tier30 of the first reference. Preserve the ENTIRE UPPER tier29 unchanged. Second reference is the actual current LEFT upper-sleeve damage authority, not a new composition or pose.\nIn LOWER tier30, Aren is the plum-haired man in lavender checked shirt at center, front threequarter. Restore his EXISTING ragged skin-showing tear on his anatomical LEFT UPPER SLEEVE, the exposed upper arm on IMAGE RIGHT between his left shoulder and elbow. It is the sleeve beside the gray/brown bag strap and ABOVE the glove that hangs at image right. Match the small irregular torn opening/visible brown skin from actual reference2. RIGHT upper sleeve on image LEFT MUST REMAIN INTACT. This is one old tear only, not a new elbow hole or two tears.\nPreserve absolutely all other lower30 content: same anatomy/pose/empty gloves/ONE closed cream waist wallet/red cord badge/ONE long RIGHT sheathed sword/imageLEFT, two WORN brown straps/closed gray bag behind body, Neris closed own slate-blue ledger and modest speaking gesture, Sera own closed brown ledger, same female gate attendant hand on brass latch, gate STILL CLOSED, daylight stone hall. Do not add bags, tubes, extra weapons, letters, hands, money or paper. Keep upper29 actual single sealed blue envelope INSIDE supported off-body bag and two closing gloves completely unchanged. No text or speech balloons. Source-preserving local cloth correction only, no style pass or restaging.\n",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter9/relay-return/candidates/N9-29-30-P.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter9/lead/crops/N9-09-R1.png"
+    ]
+  },
+  "arguments_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter9/relay-return/requests/N9-29-30-R1.json",
+  "prompt_sha256": "0b988ea3266760913c6cdf406e3dd93d5d14aaf331be8a82dbae8c7e58ef9f63",
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter9/relay-return/candidates/N9-29-30-P.png",
+      "sha256": "d69f1fa971e1544ed29acfc53674ad078c160130943f83bc118a3fcd24628761"
+    },
+    {
+      "path": "production/nightglass-longform/chapter9/lead/crops/N9-09-R1.png",
+      "sha256": "42a2f238b3766538994126941db3fa9ba95c080584e5ba9271329b317755c826"
+    }
+  ],
+  "before_art_dependency": {
+    "gate": "research/nightglass-longform/CHAPTER9-PRODUCTION-GATE.json",
+    "script_sha256": "3d5edd34793982345cb0d62428250c475c6f9cc63cbf47e2ad4eb31803a07c51",
+    "preceding_zip_sha256": "40a887be91b99164e87ed7dba85b82bdf16fe013464d6c2a95b6bcdfec92de1f",
+    "actual_reference_review": "Scope worker actually viewed each reference before this call; source roles/current state recorded in prompt."
+  },
+  "model_snapshot": null,
+  "seed": null,
+  "billing": null,
+  "owner_approval": null,
+  "invoked": true,
+  "submitted_utc": "2026-09-11T00:44:09.693848+00:00",
+  "returned_utc": "2026-09-11T00:45:27.451955+00:00",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a087d0-79fb-7773-a518-8fe460c84ddc/exec-138187e4-38fc-4f03-813a-81c0bdec9214.png",
+  "path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter9/relay-return/candidates/N9-29-30-R1.png",
+  "sha256": "531773990b595c9b0fec7261579b150462164df4ae616573a0148c5d28405a48",
+  "raw_return_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter9/relay-return/calls/N9-29-30-R1-tool-return.json"
+}

@@ -1,0 +1,131 @@
+{
+  "record_type": "RenderRecord",
+  "schema_version": "BorrowedDownRenderRecord/1.0",
+  "product": "OpenAI built-in ImageGen in Codex",
+  "tool": "image_gen",
+  "target_chapter": "CH03",
+  "sequence": "CH03-S05",
+  "target_panel_ids": [
+    "CH03-S05-P01",
+    "CH03-S05-P02",
+    "CH03-S05-P03",
+    "CH03-S05-P04",
+    "CH03-S05-P05"
+  ],
+  "exact_prompt": "Use case: illustration-story\nAsset type: five selected comic panels in one deterministic sequence sheet for CH03 CH03-S05\nPrimary request: Create a text-free 3-by-2 comic grid. The first five cells are the chronological story sequence below. The sixth cell is a quiet environment-only aftermath motif, never a duplicate character panel.\nScene/backdrop: two stacked streets turning in opposite directions in Veyr, a gravity-rationed city built beside a continent-high vertical ocean.\nCharacters: Mae Nox, fictional adult woman age 41, tall and broad-shouldered, dark brown skin, one blunt black wedge braid to shoulder blades, ochre work coat, teal rope harness, heavy split-toe boots, practical mature proportions; Dax Pell, fictional adult man age 38, lean, copper-brown skin, silver-black asymmetrical curl crest leaning left, narrow moustache, coral half-cape, charcoal wrap trousers, yellow barometer gauntlet, practical mature proportions.\nNon-human subjects: none.\nStyle/medium: pressure-print comic: bold woodcut-like dry-brush black edges, flat imperfect off-register oxidized teal, warning coral and acid-yellow risograph inks on warm fibrous paper; angular adult proportions, large readable hands, graphic negative-space force paths, simplified backgrounds except for functional machinery, one dominant value break per cell.\nColor palette: deep teal and coral with acid yellow only for charged saltglass and clues.\nComposition/framing: exact clean 3-column by 2-row grid with strong black gutters; one readable moment per cell; varied camera distance; phone-readable silhouettes; the first five cells must read left-to-right top row then left-to-right bottom row.\nChronological cells:\nCell 1: Establish two stacked streets turning in opposite directions; show mae, dax, fictional_adult_inspectors; make geography and current load direction obvious.\nCell 2: Intent: clear the final crossings before the next lean; show the responsible adult initiating a concrete step.\nCell 3: Constraint becomes physical and visible: Mae cannot carry on her injured side.\nCell 4: Causal action: the inspectors take her load under explicit instruction while Dax counterwalks the cradle; show footing, contact, rope or mechanism tension, and force direction.\nCell 5: Consequence and remaining state: Mae accepts distributed labor and the group reaches the sea rib; nothing resets between cells.\nIrreversible state already in force: official_forecast_disproved, mae_accepts_dax_forecast, south_hook_rib_cracked, mae_right_glove_torn, mae_pull_knot_charged, mae_pull_knot_spent, dax_wanted, public_witnesses_wrong_down, tavi_joins_investigation, engine_alarm_active, weight_diversion_proven, south_hook_knows_diversion, dax_cape_hem_scorched, anchor_heart_stolen, south_hook_detachment_ordered, mae_named_compromised, anchor_heart_shared_carry_protocol, south_hook_food_stores_reduced, mae_learns_dax_withheld_route_risk, mae_right_sleeve_torn, mae_ribs_bruised, supplies_lost, inspectors_owe_mae.\nNew state that must visibly persist after this sequence: inspectors_share_anchor_heart_load.\nLettering clearance: cell 1 reserve normalized rectangle [0.05, 0.05, 0.4, 0.19] as low-detail negative space; cell 2 reserve normalized rectangle [0.61, 0.06, 0.94, 0.19] as low-detail negative space; cell 3 reserve normalized rectangle [0.05, 0.05, 0.45, 0.2] as low-detail negative space; cell 4 reserve normalized rectangle [0.69, 0.74, 0.91, 0.88] as low-detail negative space; cell 5 reserve normalized rectangle [0.05, 0.05, 0.3, 0.17] as low-detail negative space.\nConstraints: all humans are explicitly fictional adults with unambiguously mature proportions and practical non-sexualized clothing; exact named-character hair, silhouette, wardrobe damage, injuries and equipment persist; coherent anatomy; readable hands; visible physical cause and effect; no spontaneous healing; no extra people unless the cell explicitly calls for a fictional-adult crowd; no glamor posing.\nAvoid: any text, letters, numbers, labels, captions, speech balloons, sound-effect text, logos, signatures, watermarks, floating UI, children, child-coded features, young-looking adults, sexual content, gratuitous gore, real-person likeness, third-party characters, named-artist imitation, glossy 3D, soft clear-line watercolor.",
+  "prompt_sha256": "054362391d049cb32e4cf6c505d561b4054a9d927ffa956d44f62b6e4ad54106",
+  "input_references": [
+    {
+      "id": "pressure_print_style_anchor",
+      "file": "experiments/reimaginings/borrowed-down/style-probes/pressure-print.png",
+      "sha256": "7d1fce3bd4d7ca1a9a3ddb6a30057a2efefd71cf57c5bfa4e2bbfaa5949edaf3"
+    },
+    {
+      "id": "mae_dax_character_anchor",
+      "file": "experiments/reimaginings/borrowed-down/references/mae-dax-character-anchor.png",
+      "sha256": "6682513568d2ad5acdcb5999357c66cfcf479916dc93eef00942538f80aad177"
+    }
+  ],
+  "output_file": "experiments/reimaginings/borrowed-down/chapters/ch03/sequence-sheets/ch03-s05.png",
+  "output_sha256": "0f34994bca4ea4133ba689742903651d6173d814786e5ecc476ee4948004efd3",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "elapsed_seconds": 253.127,
+  "model": null,
+  "model_snapshot": null,
+  "endpoint": null,
+  "provider_request_id": null,
+  "usage": null,
+  "monetary_cost_usd": null,
+  "deterministic_seed": null,
+  "crop_method": "3x2 equal cells, first five selected",
+  "crop_coordinates": [
+    {
+      "panel_id": "CH03-S05-P01",
+      "crop_coordinates": [
+        8,
+        8,
+        504,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH03-S05-P02",
+      "crop_coordinates": [
+        520,
+        8,
+        1016,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH03-S05-P03",
+      "crop_coordinates": [
+        1032,
+        8,
+        1528,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH03-S05-P04",
+      "crop_coordinates": [
+        8,
+        520,
+        504,
+        1016
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH03-S05-P05",
+      "crop_coordinates": [
+        520,
+        520,
+        1016,
+        1016
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    }
+  ],
+  "candidate_files": [
+    {
+      "panel_id": "CH03-S05-P01",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch03/panels/ch03-s05-p01.png",
+      "sha256": "b83fd6becf91e24b1579f441b9ced20400099bf4d3a8a216721c8a296efc4bf3"
+    },
+    {
+      "panel_id": "CH03-S05-P02",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch03/panels/ch03-s05-p02.png",
+      "sha256": "36a16d1f6f811053934973cb85bf40cbbda58057391593e77972a590d71ed12b"
+    },
+    {
+      "panel_id": "CH03-S05-P03",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch03/panels/ch03-s05-p03.png",
+      "sha256": "9999f28ed358a1efe3270b5db591fca54664f20ccae4a9e754b1a887bc29b446"
+    },
+    {
+      "panel_id": "CH03-S05-P04",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch03/panels/ch03-s05-p04.png",
+      "sha256": "8eaf67a8e022a5754d1e50dee041b6fc90f2ac5986d620b70f7938ed76c4a1c7"
+    },
+    {
+      "panel_id": "CH03-S05-P05",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch03/panels/ch03-s05-p05.png",
+      "sha256": "cf2549a2cc88173c1753548151ec622eb6df181d0954e944b322f2b3b37f0721"
+    }
+  ],
+  "agent_review_status": "PASS",
+  "failure_classes": [],
+  "human_review_state": "owner_review_pending",
+  "human_review_minutes": null,
+  "acceptance_state": "unaccepted",
+  "commercial_clearance_state": "commercially_uncleared",
+  "exact_production_base_state": "not_an_exact_production_base",
+  "reproducibility_state": "non_reproducible_unless_proven"
+}

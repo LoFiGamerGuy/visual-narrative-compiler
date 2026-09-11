@@ -1,0 +1,131 @@
+{
+  "record_type": "RenderRecord",
+  "schema_version": "BorrowedDownRenderRecord/1.0",
+  "product": "OpenAI built-in ImageGen in Codex",
+  "tool": "image_gen",
+  "target_chapter": "CH04",
+  "sequence": "CH04-S03",
+  "target_panel_ids": [
+    "CH04-S03-P01",
+    "CH04-S03-P02",
+    "CH04-S03-P03",
+    "CH04-S03-P04",
+    "CH04-S03-P05"
+  ],
+  "exact_prompt": "Use case: illustration-story\nAsset type: five selected comic panels in one deterministic sequence sheet for CH04 CH04-S03\nPrimary request: Create a text-free 3-by-2 comic grid. The first five cells are the chronological story sequence below. The sixth cell is a quiet environment-only aftermath motif, never a duplicate character panel.\nScene/backdrop: Council pressure lab hidden in the rib in Veyr, a gravity-rationed city built beside a continent-high vertical ocean.\nCharacters: Mae Nox, fictional adult woman age 41, tall and broad-shouldered, dark brown skin, one blunt black wedge braid to shoulder blades, ochre work coat, teal rope harness, heavy split-toe boots, practical mature proportions; Dax Pell, fictional adult man age 38, lean, copper-brown skin, silver-black asymmetrical curl crest leaning left, narrow moustache, coral half-cape, charcoal wrap trousers, yellow barometer gauntlet, practical mature proportions.\nNon-human subjects: glass_skate.\nStyle/medium: pressure-print comic: bold woodcut-like dry-brush black edges, flat imperfect off-register oxidized teal, warning coral and acid-yellow risograph inks on warm fibrous paper; angular adult proportions, large readable hands, graphic negative-space force paths, simplified backgrounds except for functional machinery, one dominant value break per cell.\nColor palette: deep teal and coral with acid yellow only for charged saltglass and clues.\nComposition/framing: exact clean 3-column by 2-row grid with strong black gutters; one readable moment per cell; varied camera distance; phone-readable silhouettes; the first five cells must read left-to-right top row then left-to-right bottom row.\nChronological cells:\nCell 1: Establish Council pressure lab hidden in the rib; show mae, dax, glass_skate; make geography and current load direction obvious.\nCell 2: Intent: inspect the tag apparatus; show the responsible adult initiating a concrete step.\nCell 3: Constraint becomes physical and visible: automatic clamps close on motion.\nCell 4: Causal action: Mae uses a dropped bolt to trigger each clamp while Dax crawls the quiet path; show footing, contact, rope or mechanism tension, and force direction.\nCell 5: Consequence and remaining state: they find drained saltglass sacs and living capture records; nothing resets between cells.\nIrreversible state already in force: official_forecast_disproved, mae_accepts_dax_forecast, south_hook_rib_cracked, mae_right_glove_torn, mae_pull_knot_charged, mae_pull_knot_spent, dax_wanted, public_witnesses_wrong_down, tavi_joins_investigation, engine_alarm_active, weight_diversion_proven, south_hook_knows_diversion, dax_cape_hem_scorched, anchor_heart_stolen, south_hook_detachment_ordered, mae_named_compromised, anchor_heart_shared_carry_protocol, south_hook_food_stores_reduced, mae_learns_dax_withheld_route_risk, mae_right_sleeve_torn, mae_ribs_bruised, supplies_lost, inspectors_owe_mae, inspectors_share_anchor_heart_load, tagged_glass_skate_discovered, mae_compression_wrap, dax_cape_lining_cut, maintenance_gill_crossed.\nNew state that must visibly persist after this sequence: council_pressure_harvest_proven.\nLettering clearance: cell 1 reserve normalized rectangle [0.05, 0.05, 0.41, 0.19] as low-detail negative space; cell 2 reserve normalized rectangle [0.48, 0.05, 0.95, 0.21] as low-detail negative space; cell 3 reserve normalized rectangle [0.05, 0.73, 0.34, 0.89] as low-detail negative space; cell 4 reserve normalized rectangle [0.57, 0.74, 0.94, 0.9] as low-detail negative space; cell 5 reserve normalized rectangle [0.05, 0.05, 0.3, 0.17] as low-detail negative space.\nConstraints: all humans are explicitly fictional adults with unambiguously mature proportions and practical non-sexualized clothing; exact named-character hair, silhouette, wardrobe damage, injuries and equipment persist; coherent anatomy; readable hands; visible physical cause and effect; no spontaneous healing; no extra people unless the cell explicitly calls for a fictional-adult crowd; no glamor posing.\nAvoid: any text, letters, numbers, labels, captions, speech balloons, sound-effect text, logos, signatures, watermarks, floating UI, children, child-coded features, young-looking adults, sexual content, gratuitous gore, real-person likeness, third-party characters, named-artist imitation, glossy 3D, soft clear-line watercolor.",
+  "prompt_sha256": "94f9de086f89e27caab7b0a028710d1441a5adcd6b1fabf9aed2e2aa513a6f28",
+  "input_references": [
+    {
+      "id": "pressure_print_style_anchor",
+      "file": "experiments/reimaginings/borrowed-down/style-probes/pressure-print.png",
+      "sha256": "7d1fce3bd4d7ca1a9a3ddb6a30057a2efefd71cf57c5bfa4e2bbfaa5949edaf3"
+    },
+    {
+      "id": "mae_dax_character_anchor",
+      "file": "experiments/reimaginings/borrowed-down/references/mae-dax-character-anchor.png",
+      "sha256": "6682513568d2ad5acdcb5999357c66cfcf479916dc93eef00942538f80aad177"
+    }
+  ],
+  "output_file": "experiments/reimaginings/borrowed-down/chapters/ch04/sequence-sheets/ch04-s03.png",
+  "output_sha256": "f447454ffe8ca38355c24b0ab9b5a4c71c168ef487b2d0f53afa63b6bf93cffe",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "elapsed_seconds": 254.505,
+  "model": null,
+  "model_snapshot": null,
+  "endpoint": null,
+  "provider_request_id": null,
+  "usage": null,
+  "monetary_cost_usd": null,
+  "deterministic_seed": null,
+  "crop_method": "3x2 equal cells, first five selected",
+  "crop_coordinates": [
+    {
+      "panel_id": "CH04-S03-P01",
+      "crop_coordinates": [
+        8,
+        8,
+        504,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH04-S03-P02",
+      "crop_coordinates": [
+        520,
+        8,
+        1016,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH04-S03-P03",
+      "crop_coordinates": [
+        1032,
+        8,
+        1528,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH04-S03-P04",
+      "crop_coordinates": [
+        8,
+        520,
+        504,
+        1016
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH04-S03-P05",
+      "crop_coordinates": [
+        520,
+        520,
+        1016,
+        1016
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    }
+  ],
+  "candidate_files": [
+    {
+      "panel_id": "CH04-S03-P01",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch04/panels/ch04-s03-p01.png",
+      "sha256": "6e610f37ff5bf4c63f70939ba2e79b132eab613b3eedc6da3da0c57372d3516c"
+    },
+    {
+      "panel_id": "CH04-S03-P02",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch04/panels/ch04-s03-p02.png",
+      "sha256": "b97b5cdc64f54483ef3b750f2df26486ae4e934b9841cb275c8e15d6dd165b55"
+    },
+    {
+      "panel_id": "CH04-S03-P03",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch04/panels/ch04-s03-p03.png",
+      "sha256": "82e2310a806ae3f29e1478d3b2df64dac2e8aff2724b1f3625be2072f6ef2cb0"
+    },
+    {
+      "panel_id": "CH04-S03-P04",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch04/panels/ch04-s03-p04.png",
+      "sha256": "f972bfc0759dd1facab22996f7e6367a825fdca63f1e4f4c763428af4dc9d38e"
+    },
+    {
+      "panel_id": "CH04-S03-P05",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch04/panels/ch04-s03-p05.png",
+      "sha256": "d4f7a437d7c50990050f4d1bddd117c7ee4d4a48d48e033e5c9fb0f94fae9b2b"
+    }
+  ],
+  "agent_review_status": "PASS",
+  "failure_classes": [],
+  "human_review_state": "owner_review_pending",
+  "human_review_minutes": null,
+  "acceptance_state": "unaccepted",
+  "commercial_clearance_state": "commercially_uncleared",
+  "exact_production_base_state": "not_an_exact_production_base",
+  "reproducibility_state": "non_reproducible_unless_proven"
+}

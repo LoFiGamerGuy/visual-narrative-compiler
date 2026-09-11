@@ -1,0 +1,131 @@
+{
+  "record_type": "RenderRecord",
+  "schema_version": "BorrowedDownRenderRecord/1.0",
+  "product": "OpenAI built-in ImageGen in Codex",
+  "tool": "image_gen",
+  "target_chapter": "CH03",
+  "sequence": "CH03-S02",
+  "target_panel_ids": [
+    "CH03-S02-P01",
+    "CH03-S02-P02",
+    "CH03-S02-P03",
+    "CH03-S02-P04",
+    "CH03-S02-P05"
+  ],
+  "exact_prompt": "Use case: illustration-story\nAsset type: five selected comic panels in one deterministic sequence sheet for CH03 CH03-S02\nPrimary request: Create a text-free 3-by-2 comic grid. The first five cells are the chronological story sequence below. The sixth cell is a quiet environment-only aftermath motif, never a duplicate character panel.\nScene/backdrop: second street, market stalls sliding east in Veyr, a gravity-rationed city built beside a continent-high vertical ocean.\nCharacters: Mae Nox, fictional adult woman age 41, tall and broad-shouldered, dark brown skin, one blunt black wedge braid to shoulder blades, ochre work coat, teal rope harness, heavy split-toe boots, practical mature proportions; Dax Pell, fictional adult man age 38, lean, copper-brown skin, silver-black asymmetrical curl crest leaning left, narrow moustache, coral half-cape, charcoal wrap trousers, yellow barometer gauntlet, practical mature proportions.\nNon-human subjects: none.\nStyle/medium: pressure-print comic: bold woodcut-like dry-brush black edges, flat imperfect off-register oxidized teal, warning coral and acid-yellow risograph inks on warm fibrous paper; angular adult proportions, large readable hands, graphic negative-space force paths, simplified backgrounds except for functional machinery, one dominant value break per cell.\nColor palette: deep teal and coral with acid yellow only for charged saltglass and clues.\nComposition/framing: exact clean 3-column by 2-row grid with strong black gutters; one readable moment per cell; varied camera distance; phone-readable silhouettes; the first five cells must read left-to-right top row then left-to-right bottom row.\nChronological cells:\nCell 1: Establish second street, market stalls sliding east; show mae, dax, fictional_adult_merchants; make geography and current load direction obvious.\nCell 2: Intent: reach the fixed arcade; show the responsible adult initiating a concrete step.\nCell 3: Constraint becomes physical and visible: barrels accelerate across wet stone.\nCell 4: Causal action: Dax angles awnings into brakes while Mae anchors the cradle behind a fountain; show footing, contact, rope or mechanism tension, and force direction.\nCell 5: Consequence and remaining state: merchants escape but food stores spill into the sea; nothing resets between cells.\nIrreversible state already in force: official_forecast_disproved, mae_accepts_dax_forecast, south_hook_rib_cracked, mae_right_glove_torn, mae_pull_knot_charged, mae_pull_knot_spent, dax_wanted, public_witnesses_wrong_down, tavi_joins_investigation, engine_alarm_active, weight_diversion_proven, south_hook_knows_diversion, dax_cape_hem_scorched, anchor_heart_stolen, south_hook_detachment_ordered, mae_named_compromised, anchor_heart_shared_carry_protocol.\nNew state that must visibly persist after this sequence: south_hook_food_stores_reduced.\nLettering clearance: cell 1 reserve normalized rectangle [0.05, 0.05, 0.43, 0.19] as low-detail negative space; cell 2 reserve normalized rectangle [0.56, 0.06, 0.94, 0.19] as low-detail negative space; cell 3 reserve normalized rectangle [0.05, 0.73, 0.39, 0.91] as low-detail negative space; cell 4 reserve normalized rectangle [0.49, 0.05, 0.95, 0.21] as low-detail negative space; cell 5 reserve normalized rectangle [0.05, 0.05, 0.3, 0.17] as low-detail negative space.\nConstraints: all humans are explicitly fictional adults with unambiguously mature proportions and practical non-sexualized clothing; exact named-character hair, silhouette, wardrobe damage, injuries and equipment persist; coherent anatomy; readable hands; visible physical cause and effect; no spontaneous healing; no extra people unless the cell explicitly calls for a fictional-adult crowd; no glamor posing.\nAvoid: any text, letters, numbers, labels, captions, speech balloons, sound-effect text, logos, signatures, watermarks, floating UI, children, child-coded features, young-looking adults, sexual content, gratuitous gore, real-person likeness, third-party characters, named-artist imitation, glossy 3D, soft clear-line watercolor.",
+  "prompt_sha256": "0c7f6b11ed6a79e39ffc6bdc8b98fa3633bc1468770deda8e6c3877ee32a34bb",
+  "input_references": [
+    {
+      "id": "pressure_print_style_anchor",
+      "file": "experiments/reimaginings/borrowed-down/style-probes/pressure-print.png",
+      "sha256": "7d1fce3bd4d7ca1a9a3ddb6a30057a2efefd71cf57c5bfa4e2bbfaa5949edaf3"
+    },
+    {
+      "id": "mae_dax_character_anchor",
+      "file": "experiments/reimaginings/borrowed-down/references/mae-dax-character-anchor.png",
+      "sha256": "6682513568d2ad5acdcb5999357c66cfcf479916dc93eef00942538f80aad177"
+    }
+  ],
+  "output_file": "experiments/reimaginings/borrowed-down/chapters/ch03/sequence-sheets/ch03-s02.png",
+  "output_sha256": "5dd0c96121e3086005dd320515023d35ae2e284ad4cf5e2ab7f19481ac414745",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "elapsed_seconds": 255.293,
+  "model": null,
+  "model_snapshot": null,
+  "endpoint": null,
+  "provider_request_id": null,
+  "usage": null,
+  "monetary_cost_usd": null,
+  "deterministic_seed": null,
+  "crop_method": "3x2 equal cells, first five selected",
+  "crop_coordinates": [
+    {
+      "panel_id": "CH03-S02-P01",
+      "crop_coordinates": [
+        8,
+        8,
+        504,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH03-S02-P02",
+      "crop_coordinates": [
+        520,
+        8,
+        1016,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH03-S02-P03",
+      "crop_coordinates": [
+        1032,
+        8,
+        1528,
+        504
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH03-S02-P04",
+      "crop_coordinates": [
+        8,
+        520,
+        504,
+        1016
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    },
+    {
+      "panel_id": "CH03-S02-P05",
+      "crop_coordinates": [
+        520,
+        520,
+        1016,
+        1016
+      ],
+      "crop_method": "deterministic 3x2 equal-cell crop with 8px inward trim"
+    }
+  ],
+  "candidate_files": [
+    {
+      "panel_id": "CH03-S02-P01",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch03/panels/ch03-s02-p01.png",
+      "sha256": "ac476539c8eb56846032f8c175a758ea51f50edf06b22b69ea6465d48d874e92"
+    },
+    {
+      "panel_id": "CH03-S02-P02",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch03/panels/ch03-s02-p02.png",
+      "sha256": "98dc1b62a4eed7752e734f098ef011b44635a12b1fb683fbc3392381749ea6a3"
+    },
+    {
+      "panel_id": "CH03-S02-P03",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch03/panels/ch03-s02-p03.png",
+      "sha256": "cba58ddefb5b46b8b45188e122b463ec539b27aaf87545bce763f5d2af455145"
+    },
+    {
+      "panel_id": "CH03-S02-P04",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch03/panels/ch03-s02-p04.png",
+      "sha256": "3c6a8f2c2b4c99de8d204f44a4d2425f6de45c94cc967396d960843127a09e80"
+    },
+    {
+      "panel_id": "CH03-S02-P05",
+      "file": "experiments/reimaginings/borrowed-down/chapters/ch03/panels/ch03-s02-p05.png",
+      "sha256": "d5c30d0c9ba7d59a1bbdcfb3276aa7400c20ca7e59f46ef661e2b974bb17cb4f"
+    }
+  ],
+  "agent_review_status": "PASS",
+  "failure_classes": [],
+  "human_review_state": "owner_review_pending",
+  "human_review_minutes": null,
+  "acceptance_state": "unaccepted",
+  "commercial_clearance_state": "commercially_uncleared",
+  "exact_production_base_state": "not_an_exact_production_base",
+  "reproducibility_state": "non_reproducible_unless_proven"
+}

@@ -170,7 +170,7 @@ def collect(root):
 def gate(root,milestone):
     snapshot=json.loads((root/'production/nightglass-longform/reader/snapshot.json').read_text())
     chapters=[{key:c.get(key) for key in ('number','title','available','total','complete')} for c in snapshot['chapters']]
-    required={'trial':[], 'chapter1':[1], 'threechapters':[1,2,3], 'fourchapters':[1,2,3,4], 'fivechapters':[1,2,3,4,5], 'sixchapters':[1,2,3,4,5,6], 'sevenchapters':[1,2,3,4,5,6,7], 'eightchapters':[1,2,3,4,5,6,7,8]}[milestone]
+    required={'trial':[], 'chapter1':[1], 'threechapters':[1,2,3], 'fourchapters':[1,2,3,4], 'fivechapters':[1,2,3,4,5], 'sixchapters':[1,2,3,4,5,6], 'sevenchapters':[1,2,3,4,5,6,7], 'eightchapters':[1,2,3,4,5,6,7,8], 'ninechapters':[1,2,3,4,5,6,7,8,9]}[milestone]
     for number in required:
         chapter=next((c for c in snapshot['chapters'] if c['number']==number),None)
         if not chapter or not chapter.get('complete') or chapter['available']!=chapter['total']:
@@ -181,7 +181,7 @@ def gate(root,milestone):
     return chapters
 
 def starter(version,milestone,chapters):
-    label={'trial':'TRIAL — moving production snapshot','chapter1':'Chapter 1 milestone; later chapters may be drafts','threechapters':'Three-chapter development delivery','fourchapters':'Four-chapter development delivery','fivechapters':'Five-chapter development delivery','sixchapters':'Six-chapter development delivery','sevenchapters':'Seven-chapter development delivery','eightchapters':'Eight-chapter development delivery'}[milestone]
+    label={'trial':'TRIAL — moving production snapshot','chapter1':'Chapter 1 milestone; later chapters may be drafts','threechapters':'Three-chapter development delivery','fourchapters':'Four-chapter development delivery','fivechapters':'Five-chapter development delivery','sixchapters':'Six-chapter development delivery','sevenchapters':'Seven-chapter development delivery','eightchapters':'Eight-chapter development delivery','ninechapters':'Nine-chapter development delivery'}[milestone]
     items=''.join(f"<li>Chapter {c['number']}: {html.escape(c['title'])} — {c['available']}/{c['total']} illustrated panels; {'reviewed complete' if c['complete'] else 'incomplete preview'}</li>" for c in chapters)
     return f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Nightglass Courier — Start here</title><style>body{{margin:3rem auto;padding:0 1.2rem;max-width:42rem;background:#0b1625;color:#f7f2e8;font:18px/1.55 Georgia,serif}}a{{color:#9ee4ed}}li{{margin:.6rem 0}}small{{color:#bdc9d4}}</style><h1>Nightglass Courier</h1><p>{html.escape(label)}</p><p><a href="docs/nightglass-longform/index.html">Read Nightglass Courier →</a></p><p><a href="docs/pilots-reading-v2/index.html">Read the five revised opening stories →</a></p><ul>{items}</ul><p><a href="docs/nightglass-longform/comparison.html">Six-beat continuity comparison</a> · <a href="docs/pilot-chapters/index.html">Preserved original pilots and nine-path library</a></p><p><a href="docs/nightglass-longform/review.html">Edition notes and native sources</a> · <a href="PACKAGE-STATUS.md">Package scope</a> · <a href="PACKAGE-MANIFEST.json">Exact file inventory</a></p><small>Version {html.escape(version)}. Open locally; no server, installation or internet is needed. Extract the ZIP before reading. This development edition does not claim human acceptance or publication.</small></html>'''
 
@@ -247,7 +247,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command',choices=['plan','build'])
     parser.add_argument('--source',type=Path,default=Path(__file__).resolve().parents[3])
-    parser.add_argument('--version');parser.add_argument('--milestone',choices=['trial','chapter1','threechapters','fourchapters','fivechapters','sixchapters','sevenchapters','eightchapters'],default='trial')
+    parser.add_argument('--version');parser.add_argument('--milestone',choices=['trial','chapter1','threechapters','fourchapters','fivechapters','sixchapters','sevenchapters','eightchapters','ninechapters'],default='trial')
     parser.add_argument('--output',type=Path);parser.add_argument('--plan-report',type=Path)
     args=parser.parse_args();root=args.source.resolve()
     if args.command=='plan':

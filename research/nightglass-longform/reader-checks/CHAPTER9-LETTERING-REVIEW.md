@@ -99,3 +99,9 @@ Actually viewed full23/24 R1 crops, both individual390 (final bytes equal), BOTH
 Actually viewed both full primary wide crops, both individual390 layouts (final bytes identical) and BOTH original-size24–26 columns. Complete exact16px terms retain optional one-carry authority, escorted corridor/destination, one letter, another quarter bell and three coppers paid at West. Named NERIS lower fee band avoids a false tail toward the letter or gate staff. Wide short images retain staffed gate and untouched blue/ivory sealed letter on outer counter. PASS snapshot `08fb2ef2c1203a94e3f259219cf59f16cd5b610e08a1033737c0752ad501901e`; bindings in `chapter9-offer-reviewed/actual-review.json`.
 
 Seal is small at390; no microscopic detail claim. Rear bag/waist wallet occluded, full feet outside frame. Prior24 and351 earlier panels/18 comparisons/302 old overrides/339 records exact.26/42 incomplete: acceptance, admission and payment not yet shown.
+
+## Acceptance before custody — 27/28
+
+Actually viewed full selected27P/28R1 crops, revised27 individual390 and unchanged28 individual390 (final bytes matching), and BOTH original-size26–28 columns.27 exact acceptance stays16px/two lines, with a narrower balloon for shorter wrap; clock glance precedes28 actual Neris RIGHT→Aren LEFT letter transfer, RIGHT steady rim, one empty off-body supported bag. Visible single closed wallet/RIGHT sheath/LEFT tear retained. PASS snapshot `cdbaac029d1bdf5291b338e5f2afb5db4d223807d5de4e0ef2d370296d924b30`; bindings in `chapter9-acceptance-reviewed/actual-review.json`.
+
+Mixed source selection is explicit: primary28 wrong receiving hand remains rejected/preserved. Clock is an availability cue, not exact timestamp proof; feet/key not visible. Prior26/full351/comparison18/302 old overrides/339 records exact.28/42 incomplete, no admission/delivery/payment yet.

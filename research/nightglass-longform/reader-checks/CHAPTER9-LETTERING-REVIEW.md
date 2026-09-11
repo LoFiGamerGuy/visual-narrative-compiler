@@ -135,3 +135,9 @@ Actually viewed full selected35P/36R1, both individual390 layouts (final bytes i
 Actually viewed both full primary crops, both individual390 layouts (final bytes identical) and BOTH original-size36–38 columns.37 three native discs (two at mouth/one clerk RIGHT fingers) enter Aren LEFT-held open wallet, RIGHT empty/no waist duplicate;38 single closed wallet reattached and blue letter still clerk tray. Exact fee and pleasure dialogue stays16px, clear speaker tails and named SERA lower band; hands/expressions unobscured. PASS snapshot `92bfd5a476fcfae08ac07b20a37addc53d4aa69cf2a682e92266440984345263`; bindings in `chapter9-payment-reviewed/actual-review.json`.
 
 Three-disc fine count is clearer in native; phone supports visible payment without denomination markings/new balance claim. Existing appearance qualifications retained. Prior36/full351/comparison18/302 old overrides/339 records exact.38/42 incomplete, exit/ending not yet read.
+
+## Work finished, future hours — 39/40
+
+Actually viewed full selected39R1/40P crops, both individual390 layouts (final bytes identical) and BOTH original-size38–40 columns. Neris keeps her own work; the three reach the established staffed outward gate. Aren asks for another assignment and receives a conditional available-hours reply, not a promise. Exact16px copy/tails plus named lower NERIS band are clear. PASS snapshot `e566108bd0942dbc11bb857a1693baab875b00afc2c41bfc1d5ee44127cd7df7`; bindings in `chapter9-outward-reviewed/actual-review.json`.
+
+Small39 LEFT tear is present; no restoration claim. Root’s original-vs-repair comparison found it in both, not independently repeated here. Cropped boots/hidden rear bag limit whole-body detail claims. Prior38/full351/comparison18/302 old overrides/339 records exact.40/42 incomplete, actual final departure still forthcoming.

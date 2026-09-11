@@ -129,3 +129,9 @@ Two views differ40px due segment length, all content covered. Short wide art doe
 Actually viewed full selected35P/36R1, both individual390 layouts (final bytes identical) and BOTH original-size34–36 columns. Invitation precedes shared sealed-letter contact, then recipient tray retention.35 silent;36 exact Clerk “West desk. Received.” and named NERIS “That is the whole carry.” both16px and correctly attributed. Qualified PASS snapshot `dd5b12ebf0523284edf24a28d4700d95f8de8e02879ace000eded6e3590fccf0`; bindings in `chapter9-received-reviewed/actual-review.json`.
 
 35 RIGHT rim forearm partly hidden by Neris remains plausible occlusion, not a full trace claim.36 gray top covers former black open mouth, exact zipper is arm-occluded. Prior34/full351/comparison18/302 old overrides/339 records exact.36/42 incomplete; delivery done in story but payment/ending not yet shown.
+
+## Agreed payment and pleasure — 37/38
+
+Actually viewed both full primary crops, both individual390 layouts (final bytes identical) and BOTH original-size36–38 columns.37 three native discs (two at mouth/one clerk RIGHT fingers) enter Aren LEFT-held open wallet, RIGHT empty/no waist duplicate;38 single closed wallet reattached and blue letter still clerk tray. Exact fee and pleasure dialogue stays16px, clear speaker tails and named SERA lower band; hands/expressions unobscured. PASS snapshot `92bfd5a476fcfae08ac07b20a37addc53d4aa69cf2a682e92266440984345263`; bindings in `chapter9-payment-reviewed/actual-review.json`.
+
+Three-disc fine count is clearer in native; phone supports visible payment without denomination markings/new balance claim. Existing appearance qualifications retained. Prior36/full351/comparison18/302 old overrides/339 records exact.38/42 incomplete, exit/ending not yet read.

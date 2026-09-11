@@ -1,0 +1,803 @@
+window.VR_COMPARISON_DATA = {
+  "schema": "VisualRefinementReader/1",
+  "experiment_id": "VR-20260907-01",
+  "mode": "comparison",
+  "plan_sha256": "58aa1149fa0199b48728739ef9fb843b45257798158d3dfdeaeadbc98b163b68",
+  "source_bindings": [
+    {
+      "id": "01-A",
+      "attempt_id": "01-A-P",
+      "sha256": "c174a146dba0aa46a50fcc69e9bd517af334e9a1a134dc4428467903beef3ea3"
+    },
+    {
+      "id": "01-B",
+      "attempt_id": "01-B-P",
+      "sha256": "580ffe063d717849c0023625053090ee776b17c2d9f10518875392b1f92bd593"
+    },
+    {
+      "id": "02-A",
+      "attempt_id": "02-A-P",
+      "sha256": "c36655c936c5a75d6c3e3d3c8fa69753ad30eaed5dd7dc34f2ca5805d0270782"
+    },
+    {
+      "id": "02-B",
+      "attempt_id": "02-B-P",
+      "sha256": "dd109a9edb2203d561e3c61e47b91418223ce86d0ca1dbf9316949dd7d50130e"
+    },
+    {
+      "id": "05-A",
+      "attempt_id": "05-A-P",
+      "sha256": "5c11c9bb2434f6b10c8ea4251c188e8b4025a78df800b227c953cd54464689d8"
+    },
+    {
+      "id": "05-B",
+      "attempt_id": "05-B-P",
+      "sha256": "0dbfe5b24f223ff45ee8302dc1dcccffbb937462c678da927bb0f46cf2953b84"
+    },
+    {
+      "id": "06-A",
+      "attempt_id": "06-A-P",
+      "sha256": "4e281acbc2a2d82165fb10db06317205c282a5e749a75d912a354fa8b4788abc"
+    },
+    {
+      "id": "06-B",
+      "attempt_id": "06-B-P",
+      "sha256": "153e4a30029967651d7e84ac4dee9206825e4755b83b9f543a20149166ab98ef"
+    },
+    {
+      "id": "13-A",
+      "attempt_id": "13-A-P",
+      "sha256": "1eef55431a03ff0b8874db6c1f3a984e915fae4267b5889c8a69df4df9f25af5"
+    },
+    {
+      "id": "13-B",
+      "attempt_id": "13-B-P",
+      "sha256": "e26d248195b5ae2187df23a4da5ce14175af19849cb0ccdfd2dd51dd775a9742"
+    },
+    {
+      "id": "15-A",
+      "attempt_id": "15-A-P",
+      "sha256": "39b652a85b3527a9c9b70c83f5333dddfa46d1bbe2a9cb8babc5297e90be70a4"
+    },
+    {
+      "id": "15-B",
+      "attempt_id": "15-B-P",
+      "sha256": "a53a2330962a9b9a20d47f24ac4598df3a8e0add0bee16d44515a838937ad47e"
+    },
+    {
+      "id": "17-A",
+      "attempt_id": "17-A-P",
+      "sha256": "a1d4097ec4ed9ab971b6c842396e1452cdce42528cce2d9917030b8f286dcaa0"
+    },
+    {
+      "id": "17-B",
+      "attempt_id": "17-B-P",
+      "sha256": "eada671ba90651740febc5852ad8bb42bb6024edbfbc589a037a3eb6ef4aff2b"
+    },
+    {
+      "id": "18-A",
+      "attempt_id": "18-A-R",
+      "sha256": "0cbbc6e6e36099d7f46a98ad586b3cb99c4f28e496a575789cb7de1830783b4c"
+    },
+    {
+      "id": "18-B",
+      "attempt_id": "18-B-R",
+      "sha256": "c0a65a637d4c8ecc475781760025a1e1a2ebd71bef0b625d7edfe02148ac2578"
+    },
+    {
+      "id": "19-A",
+      "attempt_id": "19-A-R",
+      "sha256": "4a64f9791f484c29fa2b11eb88342f4bf70e5a92107810002e228ba5c5b0faaa"
+    },
+    {
+      "id": "19-B",
+      "attempt_id": "19-B-R",
+      "sha256": "9cc973b474151a81c28877d4b2a984a46d2308fb4fac268b483a3d98f6cd9473"
+    },
+    {
+      "id": "X1",
+      "attempt_id": "X1-P",
+      "sha256": "48a4206beb7df92a2bd6d385e90c3aed662ea1a0bb7654a362dc2b9390970009"
+    },
+    {
+      "id": "X2",
+      "attempt_id": "X2-P",
+      "sha256": "b730449123a993f55ad0624ef394636eb9705f0d02f6ab957a89547841803226"
+    }
+  ],
+  "styles": [
+    {
+      "id": "01",
+      "title": "Nightglass Courier",
+      "display_style": "Clean action manhwa",
+      "rendering": "Precise tapered digital contours, elegant stylized adult faces, crisp two-step cel shadows, smooth broad color areas and restrained cool edge light. Prioritize line economy and dark-versus-light clothing shapes. No extra neon architecture.",
+      "palette": "Cool blue-gray, ivory, plum and muted magenta costume accents.",
+      "reference": {
+        "path": "production/visual-refinement/references/01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/references/01.png"
+      }
+    },
+    {
+      "id": "02",
+      "title": "Sunbreak Lancer",
+      "display_style": "Warm outlined adventure painting",
+      "rendering": "Lively hand-drawn comic contours and warm opaque painted color planes, expressive eyebrows and clear athletic posing. Mild broad paper/paint texture within forms; keep sky and masonry quiet. Match the actual warm outlined reference, not photoreal rendering.",
+      "palette": "Warm cream stone, clear blue-gray water, plum and magenta costumes, sunny skin tones.",
+      "reference": {
+        "path": "production/visual-refinement/references/02.png",
+        "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/references/02.png"
+      }
+    },
+    {
+      "id": "05",
+      "title": "Iron Orchard",
+      "display_style": "Textured painted adventure",
+      "rendering": "Robust adult anatomical drawing, sculptural angular facial planes, matte opaque painted shapes, selective broad dry-paint edge character. Preserve handmade paint masses, but no rusty scrap texture on every surface and no decorative machinery.",
+      "palette": "Muted olive and blue-gray setting, cream clothing and plum/magenta accents; warm skin.",
+      "reference": {
+        "path": "production/visual-refinement/references/05.png",
+        "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/references/05.png"
+      }
+    },
+    {
+      "id": "06",
+      "title": "Floodline Detective",
+      "display_style": "Graphic brush-ink noir",
+      "rendering": "Large decisive brush-ink black masses against quiet white shapes, selective dry-brush edge and gray facial modeling only where needed. Rugged expressive mark construction, accurate distinct faces. Preserve white channels separating body, creature and background.",
+      "palette": "Black, white, gray and one restrained hot-pink accent on plum/magenta garment zones only.",
+      "reference": {
+        "path": "production/visual-refinement/references/06.png",
+        "sha256": "b515ac0588e2ab4f1e86bdf89e439c3d5374706580681d192b7155105878a818",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/references/06.png"
+      }
+    },
+    {
+      "id": "13",
+      "title": "Red Current",
+      "display_style": "Angular action manga",
+      "rendering": "Sharp precise muscular manga contours, tapered angular hatch clusters limited to form shadows, graphic white areas and black clothing masses. Expressive adult eyes and brows. No surrounding speed-line storm in these calm controlled poses.",
+      "palette": "Black, white, gray with vermilion as the only spot color on plum/magenta garment zones.",
+      "reference": {
+        "path": "production/visual-refinement/references/13.png",
+        "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/references/13.png"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Cathedral Engine",
+      "display_style": "Controlled copperplate engraving",
+      "rendering": "Authentic fine engraved contour and orderly crosshatch following volume, line-density sculpted faces and tailored clothing, restrained ornamental craft. Keep broad unhatched or lightly hatched negative space behind silhouettes. Do not substitute sepia digital painting or fill everything with equal dense hatch.",
+      "palette": "Warm parchment, black engraved ink and restrained aged-brass value accents. Map garment colors to distinct stable light/dark values.",
+      "reference": {
+        "path": "production/visual-refinement/references/15.png",
+        "sha256": "573a89b565d5e2ec8fab13624be9a27d2d9f2b09e7d611acbeec9563d4672542",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/references/15.png"
+      }
+    },
+    {
+      "id": "17",
+      "title": "Hollow Cartographer",
+      "display_style": "Soft clear-line adventure comic",
+      "rendering": "Clean rounded expressive adult contour drawing, readable stylized noses and brows, gentle planar shading and warm flat color organization. Sparse intelligible masonry seams, generous quiet color areas. Not hyperreal or thick caricature.",
+      "palette": "Warm terracotta-gray stone, pale blue-gray water, ivory, plum and muted magenta clothing.",
+      "reference": {
+        "path": "production/visual-refinement/references/17.png",
+        "sha256": "54ecdd57259ff8edb221496d133548fdc2a1957a524a5d784760863111759180",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/references/17.png"
+      }
+    },
+    {
+      "id": "18",
+      "title": "Soft Thunder",
+      "display_style": "Bold animation cartoon",
+      "rendering": "Bold changing contour weight, clear adult cartoon shape rhythm, large expressive faces and brows, simple grouped cel shadows. Exaggerate gesture and face within the retained slender male or powerful plus-size mature female silhouettes, never turn either into a child or change their hair/wardrobe.",
+      "palette": "Clean clear blue-gray water, warm ivory stone, plum/magenta clothing accents and warm skin.",
+      "reference": {
+        "path": "production/visual-refinement/references/18.png",
+        "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/references/18.png"
+      }
+    },
+    {
+      "id": "19",
+      "title": "Black Petal",
+      "display_style": "Refined fashion-horror illustration",
+      "rendering": "Refined nearly realistic fashion facial drawing, razor-clean fine contours, silky restrained value gradients, elegant graphic black shapes and sparse surreal detail. Beautiful recognizable adult facial structure. Preserve facial specificity; do not replace the man with the split-haired reference model, and do not slim the woman.",
+      "palette": "Bone white, soft slate gray, black, plum and deep muted magenta accents. Restrained daylight, no luminous particles.",
+      "reference": {
+        "path": "production/visual-refinement/references/19.png",
+        "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/references/19.png"
+      }
+    }
+  ],
+  "characters": [
+    {
+      "id": "A",
+      "title": "Velvet Duelist / Iven",
+      "source_direction": "04",
+      "description": "Retained adult male27 character, long delicate oval face, wine-red tied hair, slender dancer build; simplified plum waistcoat and ivory poet sleeves.",
+      "subject": "Iven, the adult male27 from the LEFT side of the shared cast sheet: slim elegant dancer build, long oval face, delicate nose, violet eyes, long wine-red hair loosely tied low, small pearl earring. Ivory poet sleeves, plain plum waistcoat, high-waisted slim black trousers and plain black boots. Friendly raised-brow half-smile, no beard. No weapon or extra jewelry.",
+      "pose": "LEFT portrait: waist-up three-quarter view, friendly raised-brow half-smile. RIGHT scene: complete full body standing relaxed on the near canal ledge, face turned toward the creature, one open palm offered toward it across a clearly visible gap, other arm relaxed. Both feet fully visible."
+    },
+    {
+      "id": "B",
+      "title": "Tidewalker / Mara",
+      "source_direction": "16",
+      "description": "Retained adult female38 character, broad mature joyful face, powerful plus-size body, blue-black braid; simplified ivory vest and magenta trousers.",
+      "subject": "Mara, the adult woman38 from the RIGHT side of the shared cast sheet: powerful plus-size body with broad waist and strong limbs, warm brown skin, broad nose, full lips, thick blue-black braid, expressive mature face. Plain ivory ceramic cropped vest, high-waisted loose magenta trousers, wrapped sandals and one simple blue upper-arm band. Delighted confident open smile. Do not slim her waist or make her young. No weapon or extra jewelry.",
+      "pose": "LEFT portrait: waist-up three-quarter view, delighted confident open smile. RIGHT scene: complete full body in a planted wide stance on the near canal ledge, one hand resting naturally on the circular iron handwheel rim on its post, the other open toward the creature across a visible gap. Both feet fully visible."
+    }
+  ],
+  "prior_star_ids": [
+    "01",
+    "02",
+    "05",
+    "06",
+    "13",
+    "15",
+    "17",
+    "18",
+    "19"
+  ],
+  "review_notes_sha256": "923cd5076b91a796d4b499aae2ffda265a697d96ad5e295c9553902c250b0bcf",
+  "entries": [
+    {
+      "id": "01-A",
+      "kind": "controlled",
+      "style_id": "01",
+      "character_id": "A",
+      "title": "Nightglass Courier · Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "01-A-P",
+        "path": "production/visual-refinement/candidates/01-A-P.png",
+        "sha256": "c174a146dba0aa46a50fcc69e9bd517af334e9a1a134dc4428467903beef3ea3",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/01-A-P.png"
+      },
+      "ai_observations": [
+        "Iven remains recognizable by his refined long face, tied wine hair and slender build.",
+        "Recognizable clean illustration, but much fine painted construction carries over from the common setup; Nightglass transfer is partial.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "01-B",
+      "kind": "controlled",
+      "style_id": "01",
+      "character_id": "B",
+      "title": "Nightglass Courier · Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "01-B-P",
+        "path": "production/visual-refinement/candidates/01-B-P.png",
+        "sha256": "580ffe063d717849c0023625053090ee776b17c2d9f10518875392b1f92bd593",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/01-B-P.png"
+      },
+      "ai_observations": [
+        "Mara remains a recognizable mature broad-faced adult with strong limbs; the torso is more fitted than the original16 reference, and the vest reads more like cloth than ceramic.",
+        "Recognizable clean illustration, but much fine painted construction carries over from the common setup; Nightglass transfer is partial.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "02-A",
+      "kind": "controlled",
+      "style_id": "02",
+      "character_id": "A",
+      "title": "Sunbreak Lancer · Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "02-A-P",
+        "path": "production/visual-refinement/candidates/02-A-P.png",
+        "sha256": "c36655c936c5a75d6c3e3d3c8fa69753ad30eaed5dd7dc34f2ca5805d0270782",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/02-A-P.png"
+      },
+      "ai_observations": [
+        "Iven remains recognizable by his refined long face, tied wine hair and slender build.",
+        "Warm outlined painting is visible and holds together at phone size. Facial construction still overlaps the neutral/01 group.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "02-B",
+      "kind": "controlled",
+      "style_id": "02",
+      "character_id": "B",
+      "title": "Sunbreak Lancer · Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "02-B-P",
+        "path": "production/visual-refinement/candidates/02-B-P.png",
+        "sha256": "dd109a9edb2203d561e3c61e47b91418223ce86d0ca1dbf9316949dd7d50130e",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/02-B-P.png"
+      },
+      "ai_observations": [
+        "Mara remains a recognizable mature broad-faced adult with strong limbs; the torso is more fitted than the original16 reference, and the vest reads more like cloth than ceramic.",
+        "Warm outlined painting is visible and holds together at phone size. Facial construction still overlaps the neutral/01 group.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "05-A",
+      "kind": "controlled",
+      "style_id": "05",
+      "character_id": "A",
+      "title": "Iron Orchard · Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "05-A-P",
+        "path": "production/visual-refinement/candidates/05-A-P.png",
+        "sha256": "5c11c9bb2434f6b10c8ea4251c188e8b4025a78df800b227c953cd54464689d8",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/05-A-P.png"
+      },
+      "ai_observations": [
+        "Iven remains recognizable by his refined long face, tied wine hair and slender build.",
+        "Matte paint transfer is visible. Rough dark grain reduces body/wheel/background separation at phone size.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "05-B",
+      "kind": "controlled",
+      "style_id": "05",
+      "character_id": "B",
+      "title": "Iron Orchard · Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "05-B-P",
+        "path": "production/visual-refinement/candidates/05-B-P.png",
+        "sha256": "0dbfe5b24f223ff45ee8302dc1dcccffbb937462c678da927bb0f46cf2953b84",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/05-B-P.png"
+      },
+      "ai_observations": [
+        "Mara remains a recognizable mature broad-faced adult with strong limbs; the torso is more fitted than the original16 reference, and the vest reads more like cloth than ceramic.",
+        "Matte paint transfer is visible. Rough dark grain reduces body/wheel/background separation at phone size.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "06-A",
+      "kind": "controlled",
+      "style_id": "06",
+      "character_id": "A",
+      "title": "Floodline Detective · Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "06-A-P",
+        "path": "production/visual-refinement/candidates/06-A-P.png",
+        "sha256": "4e281acbc2a2d82165fb10db06317205c282a5e749a75d912a354fa8b4788abc",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/06-A-P.png"
+      },
+      "ai_observations": [
+        "Iven remains recognizable by his refined long face, tied wine hair and slender build.",
+        "Brush-ink masses are distinct, but broken water/paving marks add noise. The creature does not fully obey the limited-palette treatment.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "06-B",
+      "kind": "controlled",
+      "style_id": "06",
+      "character_id": "B",
+      "title": "Floodline Detective · Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "06-B-P",
+        "path": "production/visual-refinement/candidates/06-B-P.png",
+        "sha256": "153e4a30029967651d7e84ac4dee9206825e4755b83b9f543a20149166ab98ef",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/06-B-P.png"
+      },
+      "ai_observations": [
+        "Mara remains a recognizable mature broad-faced adult with strong limbs; the torso is more fitted than the original16 reference, and the vest reads more like cloth than ceramic.",
+        "Brush-ink masses are distinct, but broken water/paving marks add noise. The creature does not fully obey the limited-palette treatment.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "13-A",
+      "kind": "controlled",
+      "style_id": "13",
+      "character_id": "A",
+      "title": "Red Current · Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "13-A-P",
+        "path": "production/visual-refinement/candidates/13-A-P.png",
+        "sha256": "1eef55431a03ff0b8874db6c1f3a984e915fae4267b5889c8a69df4df9f25af5",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/13-A-P.png"
+      },
+      "ai_observations": [
+        "Iven remains recognizable by his refined long face, tied wine hair and slender build.",
+        "Precise tapered form hatching is distinct from06 brushwork and reads clearly in broad white groups. Palette limits are not fully followed.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "13-B",
+      "kind": "controlled",
+      "style_id": "13",
+      "character_id": "B",
+      "title": "Red Current · Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "13-B-P",
+        "path": "production/visual-refinement/candidates/13-B-P.png",
+        "sha256": "e26d248195b5ae2187df23a4da5ce14175af19849cb0ccdfd2dd51dd775a9742",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/13-B-P.png"
+      },
+      "ai_observations": [
+        "Mara remains a recognizable mature broad-faced adult with strong limbs; the torso is more fitted than the original16 reference, and the vest reads more like cloth than ceramic.",
+        "Precise tapered form hatching is distinct from06 brushwork and reads clearly in broad white groups. Palette limits are not fully followed.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "15-A",
+      "kind": "controlled",
+      "style_id": "15",
+      "character_id": "A",
+      "title": "Cathedral Engine · Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "15-A-P",
+        "path": "production/visual-refinement/candidates/15-A-P.png",
+        "sha256": "39b652a85b3527a9c9b70c83f5333dddfa46d1bbe2a9cb8babc5297e90be70a4",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/15-A-P.png"
+      },
+      "ai_observations": [
+        "Iven remains recognizable by his refined long face, tied wine hair and slender build.",
+        "Curved and crossed engraving lines actually model forms. At phone width fine craft becomes warm tone and loses some small-scale separation; the result is more colored than the intended ink/parchment treatment.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "15-B",
+      "kind": "controlled",
+      "style_id": "15",
+      "character_id": "B",
+      "title": "Cathedral Engine · Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "15-B-P",
+        "path": "production/visual-refinement/candidates/15-B-P.png",
+        "sha256": "a53a2330962a9b9a20d47f24ac4598df3a8e0add0bee16d44515a838937ad47e",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/15-B-P.png"
+      },
+      "ai_observations": [
+        "Mara remains a recognizable mature broad-faced adult with strong limbs; the torso is more fitted than the original16 reference, and the vest reads more like cloth than ceramic.",
+        "Curved and crossed engraving lines actually model forms. At phone width fine craft becomes warm tone and loses some small-scale separation; the result is more colored than the intended ink/parchment treatment.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "17-A",
+      "kind": "controlled",
+      "style_id": "17",
+      "character_id": "A",
+      "title": "Hollow Cartographer · Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "17-A-P",
+        "path": "production/visual-refinement/candidates/17-A-P.png",
+        "sha256": "a1d4097ec4ed9ab971b6c842396e1452cdce42528cce2d9917030b8f286dcaa0",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/17-A-P.png"
+      },
+      "ai_observations": [
+        "Iven remains recognizable by his refined long face, tied wine hair and slender build.",
+        "Broad clear fields are calm at phone size. Faces remain only modestly differentiated from the shared neutral illustration.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "17-B",
+      "kind": "controlled",
+      "style_id": "17",
+      "character_id": "B",
+      "title": "Hollow Cartographer · Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "17-B-P",
+        "path": "production/visual-refinement/candidates/17-B-P.png",
+        "sha256": "eada671ba90651740febc5852ad8bb42bb6024edbfbc589a037a3eb6ef4aff2b",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/17-B-P.png"
+      },
+      "ai_observations": [
+        "Mara remains a recognizable mature broad-faced adult with strong limbs; the torso is more fitted than the original16 reference, and the vest reads more like cloth than ceramic.",
+        "Broad clear fields are calm at phone size. Faces remain only modestly differentiated from the shared neutral illustration.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "18-A",
+      "kind": "controlled",
+      "style_id": "18",
+      "character_id": "A",
+      "title": "Soft Thunder · Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "18-A-R",
+        "path": "production/visual-refinement/candidates/18-A-R.png",
+        "sha256": "0cbbc6e6e36099d7f46a98ad586b3cb99c4f28e496a575789cb7de1830783b4c",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/18-A-R.png"
+      },
+      "repair": {
+        "before": {
+          "attempt_id": "18-A-P",
+          "path": "production/visual-refinement/candidates/18-A-P.png",
+          "sha256": "7532460a648360f66239efa06ca298c33cae02883101b593fb168db96fe5c6e6",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/candidates/18-A-P.png"
+        },
+        "after": {
+          "attempt_id": "18-A-R",
+          "path": "production/visual-refinement/candidates/18-A-R.png",
+          "sha256": "0cbbc6e6e36099d7f46a98ad586b3cb99c4f28e496a575789cb7de1830783b4c",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/candidates/18-A-R.png"
+        },
+        "reason": "Primary retains shared fine painted-comic construction instead of the original bold western animation cartoon18 rendering. This retries the failed treatment transfer; primary geometry and framing limitations remain disclosed.",
+        "conditioning_notice": "The repair uses revised reference conditioning. This is not an identical-input experiment.",
+        "record_path": "production/visual-refinement/calls/18-A-R.json",
+        "record_sha256": "2851454eb9f47fb1a79e8549f0ef13110fd507869e8269a65e86dfb443a8e3fb"
+      },
+      "ai_observations": [
+        "Iven remains recognizable by his refined long face, tied wine hair and slender build.",
+        "The repair creates materially bolder contours, grouped hair and cartoon facial shapes. The creature remains more mottled than the cast. This used revised conditioning, not identical inputs.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "18-B",
+      "kind": "controlled",
+      "style_id": "18",
+      "character_id": "B",
+      "title": "Soft Thunder · Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "18-B-R",
+        "path": "production/visual-refinement/candidates/18-B-R.png",
+        "sha256": "c0a65a637d4c8ecc475781760025a1e1a2ebd71bef0b625d7edfe02148ac2578",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/18-B-R.png"
+      },
+      "repair": {
+        "before": {
+          "attempt_id": "18-B-P",
+          "path": "production/visual-refinement/candidates/18-B-P.png",
+          "sha256": "071104c62b6b0df914bbb443574122bb6fd07079aee37db01cc971ee6f0c4223",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/candidates/18-B-P.png"
+        },
+        "after": {
+          "attempt_id": "18-B-R",
+          "path": "production/visual-refinement/candidates/18-B-R.png",
+          "sha256": "c0a65a637d4c8ecc475781760025a1e1a2ebd71bef0b625d7edfe02148ac2578",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/candidates/18-B-R.png"
+        },
+        "reason": "Primary retains shared fine painted-comic construction instead of the original bold western animation cartoon18 rendering. This retries the failed treatment transfer; primary geometry and framing limitations remain disclosed.",
+        "conditioning_notice": "The repair uses revised reference conditioning. This is not an identical-input experiment.",
+        "record_path": "production/visual-refinement/calls/18-B-R.json",
+        "record_sha256": "daa8d858eee9a83a75cef15e35c3ad947bc3654fd84bea772f2e034ade66c866"
+      },
+      "ai_observations": [
+        "Mara remains a recognizable mature broad-faced adult with strong limbs; the torso is more fitted than the original16 reference, and the vest reads more like cloth than ceramic.",
+        "The repair creates materially bolder contours, grouped hair and cartoon facial shapes. The creature remains more mottled than the cast. This used revised conditioning, not identical inputs.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Required hand-on-wheel contact fails: the wheel-side hand remains at the hip, including in the style-only repair.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "19-A",
+      "kind": "controlled",
+      "style_id": "19",
+      "character_id": "A",
+      "title": "Black Petal · Velvet Duelist / Iven",
+      "caption": "Same A character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "19-A-R",
+        "path": "production/visual-refinement/candidates/19-A-R.png",
+        "sha256": "4a64f9791f484c29fa2b11eb88342f4bf70e5a92107810002e228ba5c5b0faaa",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/19-A-R.png"
+      },
+      "repair": {
+        "before": {
+          "attempt_id": "19-A-P",
+          "path": "production/visual-refinement/candidates/19-A-P.png",
+          "sha256": "03625d89244173db742ba921d09e1d3d7d41b4deb11a82229f75b35868d4b657",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/candidates/19-A-P.png"
+        },
+        "after": {
+          "attempt_id": "19-A-R",
+          "path": "production/visual-refinement/candidates/19-A-R.png",
+          "sha256": "4a64f9791f484c29fa2b11eb88342f4bf70e5a92107810002e228ba5c5b0faaa",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/candidates/19-A-R.png"
+        },
+        "reason": "Primary retains shared fine painted-comic construction instead of the original near-realistic refined fashion19 rendering. This retries the failed treatment transfer; primary geometry and framing limitations remain disclosed.",
+        "conditioning_notice": "The repair uses revised reference conditioning. This is not an identical-input experiment.",
+        "record_path": "production/visual-refinement/calls/19-A-R.json",
+        "record_sha256": "ff9fc71cde0b199327f337c277ed1e6ea96773e6bc233b361bb553e984279c26"
+      },
+      "ai_observations": [
+        "Iven remains recognizable by his refined long face, tied wine hair and slender build.",
+        "The repair adds smoother face/material modeling closer to the original fashion reference. It is still a partial transfer, with darker small-scale separation. This used revised conditioning, not identical inputs.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "19-B",
+      "kind": "controlled",
+      "style_id": "19",
+      "character_id": "B",
+      "title": "Black Petal · Tidewalker / Mara",
+      "caption": "Same B character, pose, creature and canal brief; drawing treatment and declared palette vary.",
+      "candidate": {
+        "attempt_id": "19-B-R",
+        "path": "production/visual-refinement/candidates/19-B-R.png",
+        "sha256": "9cc973b474151a81c28877d4b2a984a46d2308fb4fac268b483a3d98f6cd9473",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/19-B-R.png"
+      },
+      "repair": {
+        "before": {
+          "attempt_id": "19-B-P",
+          "path": "production/visual-refinement/candidates/19-B-P.png",
+          "sha256": "336218640ceca2879f438c7d804737567768d6d63cb4b1eca8d03cf1d31bbf94",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/candidates/19-B-P.png"
+        },
+        "after": {
+          "attempt_id": "19-B-R",
+          "path": "production/visual-refinement/candidates/19-B-R.png",
+          "sha256": "9cc973b474151a81c28877d4b2a984a46d2308fb4fac268b483a3d98f6cd9473",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/candidates/19-B-R.png"
+        },
+        "reason": "Primary retains shared fine painted-comic construction instead of the original near-realistic refined fashion19 rendering. This retries the failed treatment transfer; primary geometry and framing limitations remain disclosed.",
+        "conditioning_notice": "The repair uses revised reference conditioning. This is not an identical-input experiment.",
+        "record_path": "production/visual-refinement/calls/19-B-R.json",
+        "record_sha256": "0c10e9c1efa864b46daf2166ddb8e12018b64e87567fb4978b885b30f913a8cd"
+      },
+      "ai_observations": [
+        "Mara remains a recognizable mature broad-faced adult with strong limbs; the torso is more fitted than the original16 reference, and the vest reads more like cloth than ceramic.",
+        "The repair adds smoother face/material modeling closer to the original fashion reference. It is still a partial transfer, with darker small-scale separation. This used revised conditioning, not identical inputs.",
+        "The creature is cropped at the right edge; a complete silhouette and exact four-tentacle anatomy are not established. Wheel design, scale and landing placement also drift between boards.",
+        "Large portraits read at phone size. Tiny scene faces and finger topology need enlargement; owner visual comfort remains unknown."
+      ]
+    },
+    {
+      "id": "X1",
+      "kind": "exploratory",
+      "title": "Moonward keeper × Hollow / Floodline",
+      "style_id": "17",
+      "source_direction": "11",
+      "caption": "Character11 in17 clear-line rendering with06 broad canal architecture and dark shape grouping. Exploratory mix; outside controlled ranking.",
+      "candidate": {
+        "attempt_id": "X1-P",
+        "path": "production/visual-refinement/candidates/X1-P.png",
+        "sha256": "48a4206beb7df92a2bd6d385e90c3aed662ea1a0bb7654a362dc2b9390970009",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/X1-P.png"
+      },
+      "ai_observations": [
+        "Retains the older keeper character in a quieter warm clear-line/canal mixture; broad adult face and sturdy build remain readable.",
+        "The creature/world and rendering also change, so this exploratory mix cannot rank the nine controlled directions.",
+        "This is a proposed component combination, not owner approval or a new production cast."
+      ]
+    },
+    {
+      "id": "X2",
+      "kind": "exploratory",
+      "title": "Astral tailor × Black Petal / Nightglass",
+      "style_id": "19",
+      "source_direction": "14",
+      "caption": "Character14 in19 refined facial rendering with01 economical cel-shadow grouping and one19 orchid creature. Exploratory mix; outside controlled ranking.",
+      "candidate": {
+        "attempt_id": "X2-P",
+        "path": "production/visual-refinement/candidates/X2-P.png",
+        "sha256": "b730449123a993f55ad0624ef394636eb9705f0d02f6ab957a89547841803226",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/candidates/X2-P.png"
+      },
+      "ai_observations": [
+        "Retains the lavender-haired tailor character with more restrained coat shapes, quiet canal space and a single orchid creature.",
+        "The result is an exploratory19/01 mixture, not a controlled test of one rendering variable.",
+        "Character identity, costume simplification and creature detail still need owner judgment; no new owner preference is assumed."
+      ]
+    }
+  ],
+  "plan_path": "production/visual-refinement/comparison-plan.json",
+  "dataset_sha256": "b49eb70d68d7790aae6b3c0412df1df8359c45d665390f4663eb6b47b294783f",
+  "available_count": 20,
+  "total_count": 20,
+  "owner_approval": null,
+  "production_accepted": false,
+  "study_details_available": true,
+  "results_available": true
+};

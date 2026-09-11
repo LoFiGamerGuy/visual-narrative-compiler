@@ -1,0 +1,42 @@
+{
+  "id": "Q03",
+  "attempt_id": "Q03-F1",
+  "phase": "texture",
+  "budget_amendment_path": "production/scale-conflict/budget-amendment-01.json",
+  "budget_amendment_sha256": "cc8abb28fbaa9596ce3cc1f74d2f4dcf989375f6616887534c0320b4bf966902",
+  "category": "sequence",
+  "retry_of": "Q03-P",
+  "retry_reason": "Dense tiny hide scales, wet paving glitter and masonry grain compete with precise band-cut contact.",
+  "evidence_path": "production/scale-conflict/edit-specs-10.json",
+  "evidence_sha256": "6a9f59f252b5d71dd6ddba646dda23ad2a4b3e61ad293c1776486f8049d2c9a1",
+  "prompt_path": "production/scale-conflict/prompts/Q03-F1.txt",
+  "prompt_sha256": "a45e3c88cd8056ea4ebfaadf7c31a4f91b9ff5e06e9cbf62f9db3de11d2c2d41",
+  "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+  "references": [
+    {
+      "path": "production/scale-conflict/candidates/Q03-P.png",
+      "sha256": "00f3a033d57f7ad112ac2cee3e31a3b6f3f853bbf1c14827a6824e1cffeb6fcc",
+      "role": "Sole exact edit source; preserve all content except the specified texture change"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 14:35:24 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/candidates/Q03-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 14:48:37 UTC"
+  },
+  "status": "failed-no-artwork-returned",
+  "error": "image generation failed: http 503 Service Unavailable: upstream connect error or disconnect/reset before headers; connection termination",
+  "returned_artwork": null,
+  "recording_note": "Failure observed from functions cell932; original request metadata retained. No successful image was returned by this service invocation."
+}

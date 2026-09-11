@@ -1,0 +1,39 @@
+{
+  "utc": "2026-09-10T19:22:20.201553+00:00",
+  "status": "PASS_CLI_AND_INCOMPLETE_GATE_REJECTION_ONLY",
+  "chapter8_observed": [
+    16,
+    45,
+    false
+  ],
+  "help_includes_eightchapters": true,
+  "command": [
+    "/usr/bin/python",
+    "-B",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/package/pack.py",
+    "build",
+    "--source",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110",
+    "--version",
+    "Nightglass-EightChapters-v1",
+    "--milestone",
+    "eightchapters",
+    "--output",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/package/output"
+  ],
+  "exit_code": 1,
+  "stderr": "Traceback (most recent call last):\n  File \"/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/package/pack.py\", line 262, in <module>\n    if __name__=='__main__': main()\n                             ^^^^^^\n  File \"/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/package/pack.py\", line 260, in main\n    print(json.dumps(build(root,args.version,args.milestone,(args.output or root/'production/nightglass-longform/package/output').resolve()),indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/package/pack.py\", line 190, in build\n    chapters=gate(root,milestone); plan=collect(root)\n             ^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/package/pack.py\", line 177, in gate\n    raise RuntimeError(f'Chapter {number} is not a complete reviewed reader snapshot')\nRuntimeError: Chapter 8 is not a complete reviewed reader snapshot\n",
+  "stdout": "",
+  "version_paths_absent_after_rejection": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/package/output/Nightglass-EightChapters-v1",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/package/output/Nightglass-EightChapters-v1.zip",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/package/output/Nightglass-EightChapters-v1-build.json",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/package/output/Nightglass-EightChapters-v1-verification"
+  ],
+  "starter_label_check": true,
+  "pack_sha256": "8c17ed6c33adb717929586229d93fae952c82e6474237782aea804a123183f17",
+  "strict_verifier_unchanged_sha256": "51839fa317168db31114a4191c861da496f0735ad06e03b867511018df71054b",
+  "actual_freeze": false,
+  "zip_created": false,
+  "browser_run": false
+}

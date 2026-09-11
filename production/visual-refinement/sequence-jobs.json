@@ -1,0 +1,528 @@
+{
+  "schema": "RefinementJobs/1",
+  "experiment_id": "VR-20260907-01",
+  "jobs": [
+    {
+      "id": "13-P01",
+      "attempt_id": "13-P01-P",
+      "phase": "sequence",
+      "style_id": "13",
+      "panel_id": "P01",
+      "prompt_path": "production/visual-refinement/prompts/13-P01-P.txt",
+      "prompt_sha256": "34ddd8392f631d28e539820a9080d6f0667988085320cc5e5b25ba00d68c9c11",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P01-open-palm.png",
+          "sha256": "0f7d48577035ee5dd99ed3541c891a3c69965f9b0ccb56ea0e51c7d56057375e"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-A-P.png",
+          "sha256": "1eef55431a03ff0b8874db6c1f3a984e915fae4267b5889c8a69df4df9f25af5"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-B-P.png",
+          "sha256": "e26d248195b5ae2187df23a4da5ce14175af19849cb0ccdfd2dd51dd775a9742"
+        }
+      ],
+      "requested_aspect_ratio": "3:2",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P01"
+      }
+    },
+    {
+      "id": "13-P02",
+      "attempt_id": "13-P02-P",
+      "phase": "sequence",
+      "style_id": "13",
+      "panel_id": "P02",
+      "prompt_path": "production/visual-refinement/prompts/13-P02-P.txt",
+      "prompt_sha256": "7ce74293a8ad82a16d8017df95bf7f6b6255a0f007702987cb401c7ccc23f2da",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P02.png",
+          "sha256": "dd0f370d7f3dd50ac2583dc6a0078ffeea5503aaa60c100eda18b495963af52c"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-A-P.png",
+          "sha256": "1eef55431a03ff0b8874db6c1f3a984e915fae4267b5889c8a69df4df9f25af5"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-B-P.png",
+          "sha256": "e26d248195b5ae2187df23a4da5ce14175af19849cb0ccdfd2dd51dd775a9742"
+        }
+      ],
+      "requested_aspect_ratio": "1:1",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P02"
+      }
+    },
+    {
+      "id": "13-P03",
+      "attempt_id": "13-P03-P",
+      "phase": "sequence",
+      "style_id": "13",
+      "panel_id": "P03",
+      "prompt_path": "production/visual-refinement/prompts/13-P03-P.txt",
+      "prompt_sha256": "6b40af2fe92c2db23ec1bf2e679f120913f22028b58b4f90b8dd713bc3ceac11",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P03.png",
+          "sha256": "6514957b850b766e4e84e193bfccd179f8158d04bf103168409bbda5cc3b5911"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-A-P.png",
+          "sha256": "1eef55431a03ff0b8874db6c1f3a984e915fae4267b5889c8a69df4df9f25af5"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-B-P.png",
+          "sha256": "e26d248195b5ae2187df23a4da5ce14175af19849cb0ccdfd2dd51dd775a9742"
+        }
+      ],
+      "requested_aspect_ratio": "4:3",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P03"
+      }
+    },
+    {
+      "id": "13-P04",
+      "attempt_id": "13-P04-P",
+      "phase": "sequence",
+      "style_id": "13",
+      "panel_id": "P04",
+      "prompt_path": "production/visual-refinement/prompts/13-P04-P.txt",
+      "prompt_sha256": "310cf7354b910b43df572a8e2b6f8ebe8e7dea4b1bfa769b12b294558295e6c3",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P04.png",
+          "sha256": "892d36ea501c6713629a487c801697f48f18de6e3e8b02cd7fd11c8777477d50"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-A-P.png",
+          "sha256": "1eef55431a03ff0b8874db6c1f3a984e915fae4267b5889c8a69df4df9f25af5"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-B-P.png",
+          "sha256": "e26d248195b5ae2187df23a4da5ce14175af19849cb0ccdfd2dd51dd775a9742"
+        }
+      ],
+      "requested_aspect_ratio": "4:5",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P04"
+      }
+    },
+    {
+      "id": "13-P05",
+      "attempt_id": "13-P05-P",
+      "phase": "sequence",
+      "style_id": "13",
+      "panel_id": "P05",
+      "prompt_path": "production/visual-refinement/prompts/13-P05-P.txt",
+      "prompt_sha256": "f07cba969d5d95ee8a221664c34df1721d8f7a55ccdbb1f78dedec768ec8b731",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P05-clearance.png",
+          "sha256": "1db7757d0f6e4ec952bb90e50cda06890d6ec0459c72b2fd38cee23ee2e26635"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-A-P.png",
+          "sha256": "1eef55431a03ff0b8874db6c1f3a984e915fae4267b5889c8a69df4df9f25af5"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-B-P.png",
+          "sha256": "e26d248195b5ae2187df23a4da5ce14175af19849cb0ccdfd2dd51dd775a9742"
+        }
+      ],
+      "requested_aspect_ratio": "3:2",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P05"
+      }
+    },
+    {
+      "id": "13-P06",
+      "attempt_id": "13-P06-P",
+      "phase": "sequence",
+      "style_id": "13",
+      "panel_id": "P06",
+      "prompt_path": "production/visual-refinement/prompts/13-P06-P.txt",
+      "prompt_sha256": "2ab430d04d99989b9dd65b1f06898f21ed289891c6adc637a5e21db1e0e27273",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P06.png",
+          "sha256": "331e6fe09f2e2323db63d84604e02b7cb43cdfc17db30a3bdf1826fb63e790b6"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-A-P.png",
+          "sha256": "1eef55431a03ff0b8874db6c1f3a984e915fae4267b5889c8a69df4df9f25af5"
+        },
+        {
+          "path": "production/visual-refinement/candidates/13-B-P.png",
+          "sha256": "e26d248195b5ae2187df23a4da5ce14175af19849cb0ccdfd2dd51dd775a9742"
+        }
+      ],
+      "requested_aspect_ratio": "4:3",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P06"
+      }
+    },
+    {
+      "id": "18-P01",
+      "attempt_id": "18-P01-P",
+      "phase": "sequence",
+      "style_id": "18",
+      "panel_id": "P01",
+      "prompt_path": "production/visual-refinement/prompts/18-P01-P.txt",
+      "prompt_sha256": "f64d6a1de67a8b4c8c37c5377322e9b7dbea29336c1a40f964661d837c2a4433",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P01-open-palm.png",
+          "sha256": "0f7d48577035ee5dd99ed3541c891a3c69965f9b0ccb56ea0e51c7d56057375e"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-A-R.png",
+          "sha256": "0cbbc6e6e36099d7f46a98ad586b3cb99c4f28e496a575789cb7de1830783b4c"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-B-R.png",
+          "sha256": "c0a65a637d4c8ecc475781760025a1e1a2ebd71bef0b625d7edfe02148ac2578"
+        }
+      ],
+      "requested_aspect_ratio": "3:2",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P01"
+      }
+    },
+    {
+      "id": "18-P02",
+      "attempt_id": "18-P02-P",
+      "phase": "sequence",
+      "style_id": "18",
+      "panel_id": "P02",
+      "prompt_path": "production/visual-refinement/prompts/18-P02-P.txt",
+      "prompt_sha256": "6fcea1ecb3e35ff62ff14bc73e0d2f69d740c38c2302300a0f4eb8696a5df38c",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P02.png",
+          "sha256": "dd0f370d7f3dd50ac2583dc6a0078ffeea5503aaa60c100eda18b495963af52c"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-A-R.png",
+          "sha256": "0cbbc6e6e36099d7f46a98ad586b3cb99c4f28e496a575789cb7de1830783b4c"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-B-R.png",
+          "sha256": "c0a65a637d4c8ecc475781760025a1e1a2ebd71bef0b625d7edfe02148ac2578"
+        }
+      ],
+      "requested_aspect_ratio": "1:1",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P02"
+      }
+    },
+    {
+      "id": "18-P03",
+      "attempt_id": "18-P03-P",
+      "phase": "sequence",
+      "style_id": "18",
+      "panel_id": "P03",
+      "prompt_path": "production/visual-refinement/prompts/18-P03-P.txt",
+      "prompt_sha256": "7cfa099467fe1968437a1f68a77242af3f70b7501754d23a40839422242e5ec1",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P03.png",
+          "sha256": "6514957b850b766e4e84e193bfccd179f8158d04bf103168409bbda5cc3b5911"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-A-R.png",
+          "sha256": "0cbbc6e6e36099d7f46a98ad586b3cb99c4f28e496a575789cb7de1830783b4c"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-B-R.png",
+          "sha256": "c0a65a637d4c8ecc475781760025a1e1a2ebd71bef0b625d7edfe02148ac2578"
+        }
+      ],
+      "requested_aspect_ratio": "4:3",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P03"
+      }
+    },
+    {
+      "id": "18-P04",
+      "attempt_id": "18-P04-P",
+      "phase": "sequence",
+      "style_id": "18",
+      "panel_id": "P04",
+      "prompt_path": "production/visual-refinement/prompts/18-P04-P.txt",
+      "prompt_sha256": "79b32d0927505323e80388100416d0852bffe515c7eee9ee36f23ded8a90b5bc",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P04.png",
+          "sha256": "892d36ea501c6713629a487c801697f48f18de6e3e8b02cd7fd11c8777477d50"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-A-R.png",
+          "sha256": "0cbbc6e6e36099d7f46a98ad586b3cb99c4f28e496a575789cb7de1830783b4c"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-B-R.png",
+          "sha256": "c0a65a637d4c8ecc475781760025a1e1a2ebd71bef0b625d7edfe02148ac2578"
+        }
+      ],
+      "requested_aspect_ratio": "4:5",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P04"
+      }
+    },
+    {
+      "id": "18-P05",
+      "attempt_id": "18-P05-P",
+      "phase": "sequence",
+      "style_id": "18",
+      "panel_id": "P05",
+      "prompt_path": "production/visual-refinement/prompts/18-P05-P.txt",
+      "prompt_sha256": "4d4814002a80e19ce6f24aead27a57936ff4236ab28de0e2356e8aee689486e2",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P05-clearance.png",
+          "sha256": "1db7757d0f6e4ec952bb90e50cda06890d6ec0459c72b2fd38cee23ee2e26635"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-A-R.png",
+          "sha256": "0cbbc6e6e36099d7f46a98ad586b3cb99c4f28e496a575789cb7de1830783b4c"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-B-R.png",
+          "sha256": "c0a65a637d4c8ecc475781760025a1e1a2ebd71bef0b625d7edfe02148ac2578"
+        }
+      ],
+      "requested_aspect_ratio": "3:2",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P05"
+      }
+    },
+    {
+      "id": "18-P06",
+      "attempt_id": "18-P06-P",
+      "phase": "sequence",
+      "style_id": "18",
+      "panel_id": "P06",
+      "prompt_path": "production/visual-refinement/prompts/18-P06-P.txt",
+      "prompt_sha256": "09d736de738ed63d5dda5f997839c7d7c0e3f16970e59e53ced9fe9aa17b3445",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P06.png",
+          "sha256": "331e6fe09f2e2323db63d84604e02b7cb43cdfc17db30a3bdf1826fb63e790b6"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-A-R.png",
+          "sha256": "0cbbc6e6e36099d7f46a98ad586b3cb99c4f28e496a575789cb7de1830783b4c"
+        },
+        {
+          "path": "production/visual-refinement/candidates/18-B-R.png",
+          "sha256": "c0a65a637d4c8ecc475781760025a1e1a2ebd71bef0b625d7edfe02148ac2578"
+        }
+      ],
+      "requested_aspect_ratio": "4:3",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P06"
+      }
+    },
+    {
+      "id": "19-P01",
+      "attempt_id": "19-P01-P",
+      "phase": "sequence",
+      "style_id": "19",
+      "panel_id": "P01",
+      "prompt_path": "production/visual-refinement/prompts/19-P01-P.txt",
+      "prompt_sha256": "00b9124d22afc12c2d6bfe134130d68e03e778fbf13daa3f7b4f3e1cc0b83610",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P01-open-palm.png",
+          "sha256": "0f7d48577035ee5dd99ed3541c891a3c69965f9b0ccb56ea0e51c7d56057375e"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-A-R.png",
+          "sha256": "4a64f9791f484c29fa2b11eb88342f4bf70e5a92107810002e228ba5c5b0faaa"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-B-R.png",
+          "sha256": "9cc973b474151a81c28877d4b2a984a46d2308fb4fac268b483a3d98f6cd9473"
+        }
+      ],
+      "requested_aspect_ratio": "3:2",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P01"
+      }
+    },
+    {
+      "id": "19-P02",
+      "attempt_id": "19-P02-P",
+      "phase": "sequence",
+      "style_id": "19",
+      "panel_id": "P02",
+      "prompt_path": "production/visual-refinement/prompts/19-P02-P.txt",
+      "prompt_sha256": "d611fa6168116766e62aeec225f1a775fe1d0dda2c10d0766cdfb7e5e8d3ba97",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P02.png",
+          "sha256": "dd0f370d7f3dd50ac2583dc6a0078ffeea5503aaa60c100eda18b495963af52c"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-A-R.png",
+          "sha256": "4a64f9791f484c29fa2b11eb88342f4bf70e5a92107810002e228ba5c5b0faaa"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-B-R.png",
+          "sha256": "9cc973b474151a81c28877d4b2a984a46d2308fb4fac268b483a3d98f6cd9473"
+        }
+      ],
+      "requested_aspect_ratio": "1:1",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P02"
+      }
+    },
+    {
+      "id": "19-P03",
+      "attempt_id": "19-P03-P",
+      "phase": "sequence",
+      "style_id": "19",
+      "panel_id": "P03",
+      "prompt_path": "production/visual-refinement/prompts/19-P03-P.txt",
+      "prompt_sha256": "a0dccf8926d29080f1ca7491ed6218aaaedfbf59601cda514b6f0f3f3859f054",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P03.png",
+          "sha256": "6514957b850b766e4e84e193bfccd179f8158d04bf103168409bbda5cc3b5911"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-A-R.png",
+          "sha256": "4a64f9791f484c29fa2b11eb88342f4bf70e5a92107810002e228ba5c5b0faaa"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-B-R.png",
+          "sha256": "9cc973b474151a81c28877d4b2a984a46d2308fb4fac268b483a3d98f6cd9473"
+        }
+      ],
+      "requested_aspect_ratio": "4:3",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P03"
+      }
+    },
+    {
+      "id": "19-P04",
+      "attempt_id": "19-P04-P",
+      "phase": "sequence",
+      "style_id": "19",
+      "panel_id": "P04",
+      "prompt_path": "production/visual-refinement/prompts/19-P04-P.txt",
+      "prompt_sha256": "775b10c82acaee35e69b975d429adcb83715ec7480b30d6be220ab67f6d1152d",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P04.png",
+          "sha256": "892d36ea501c6713629a487c801697f48f18de6e3e8b02cd7fd11c8777477d50"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-A-R.png",
+          "sha256": "4a64f9791f484c29fa2b11eb88342f4bf70e5a92107810002e228ba5c5b0faaa"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-B-R.png",
+          "sha256": "9cc973b474151a81c28877d4b2a984a46d2308fb4fac268b483a3d98f6cd9473"
+        }
+      ],
+      "requested_aspect_ratio": "4:5",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P04"
+      }
+    },
+    {
+      "id": "19-P05",
+      "attempt_id": "19-P05-P",
+      "phase": "sequence",
+      "style_id": "19",
+      "panel_id": "P05",
+      "prompt_path": "production/visual-refinement/prompts/19-P05-P.txt",
+      "prompt_sha256": "ae85ed245ccce51c944d6a9a79cca7ce405ea6898109e2d4be39da916b7e877b",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P05-clearance.png",
+          "sha256": "1db7757d0f6e4ec952bb90e50cda06890d6ec0459c72b2fd38cee23ee2e26635"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-A-R.png",
+          "sha256": "4a64f9791f484c29fa2b11eb88342f4bf70e5a92107810002e228ba5c5b0faaa"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-B-R.png",
+          "sha256": "9cc973b474151a81c28877d4b2a984a46d2308fb4fac268b483a3d98f6cd9473"
+        }
+      ],
+      "requested_aspect_ratio": "3:2",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P05"
+      }
+    },
+    {
+      "id": "19-P06",
+      "attempt_id": "19-P06-P",
+      "phase": "sequence",
+      "style_id": "19",
+      "panel_id": "P06",
+      "prompt_path": "production/visual-refinement/prompts/19-P06-P.txt",
+      "prompt_sha256": "0f66d344839ddc57585b0f1f3d82724c4453e903d99a533fb88386c3f06de405",
+      "references": [
+        {
+          "path": "production/visual-refinement/sequence-design/shot-controls/v5/P06.png",
+          "sha256": "331e6fe09f2e2323db63d84604e02b7cb43cdfc17db30a3bdf1826fb63e790b6"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-A-R.png",
+          "sha256": "4a64f9791f484c29fa2b11eb88342f4bf70e5a92107810002e228ba5c5b0faaa"
+        },
+        {
+          "path": "production/visual-refinement/candidates/19-B-R.png",
+          "sha256": "9cc973b474151a81c28877d4b2a984a46d2308fb4fac268b483a3d98f6cd9473"
+        }
+      ],
+      "requested_aspect_ratio": "4:3",
+      "copy_source": {
+        "path": "production/visual-refinement/sequence-plan.json",
+        "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+        "panel_id": "P06"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "status": "PASS_PRESERVATION_AND_QUALIFIED_CROP_DELIVERY",
+  "actual_calls": 2,
+  "primaries": 1,
+  "repairs": 1,
+  "finishes": 0,
+  "support_calls": 0,
+  "failed_returns": 0,
+  "pending": 0,
+  "scope_ceiling": 3,
+  "unused_finish_not_required": 1,
+  "original_structural_cap_spent": true,
+  "calls": [
+    {
+      "id": "N8-44-45-P",
+      "phase": "primary",
+      "native_sha256": "6719055e98996c4d274537bfd86bf774895529a832b2e8026e91e037f67c33f0",
+      "call_record_sha256": "159479deba43f563f63da62f46de1f37f953ef34ec2bda491607f9f456ec1de5",
+      "args_sha256": "bccbb9161057d2069149446e018e3611591df302cfff39236678c9eec9d3692a",
+      "raw_return_sha256": "98505176cbef0c8efc69c3e339b7b01495d1b76236794ec84c72aced142ab5d2",
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter7/room-ending/candidates/N7-38-P.png",
+          "sha256": "4b48bd35fc52b612a58d5bf005d955f7541a007f4928e56d5060734073807aaf"
+        },
+        {
+          "path": "production/nightglass-longform/chapter8/lead/references/sera-front-closed-ledger-from-N6-11.png",
+          "sha256": "6848d4bdd03a218cce723f0530a2fdbb233c9cb940f031d5bec90f114bc3df7d"
+        }
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "status": "PASS_PRESERVATION"
+    },
+    {
+      "id": "N8-44-45-R1",
+      "phase": "repair",
+      "native_sha256": "906df41a16b28c6a4ee2d24fb4cfddeeb7ba928b0f479387b071e02ffde13727",
+      "call_record_sha256": "52c292e63242b2725da8338a80581437a568309053f685805710b2529bdd1bb7",
+      "args_sha256": "6d25271a079dd93c20baf1256f7b47a23907950d6152cb1ea85ad55f64123209",
+      "raw_return_sha256": "c0cb03eab72194871dfe62ea8d2f10a7d1fba038165a648f5c45dece5ce763c1",
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter8/room-ending/candidates/N8-44-45-P.png",
+          "sha256": "6719055e98996c4d274537bfd86bf774895529a832b2e8026e91e037f67c33f0"
+        }
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "status": "PASS_PRESERVATION"
+    }
+  ],
+  "selected_hashes_verified": 2,
+  "exact_lossless_crops_verified": [
+    "production/nightglass-longform/chapter8/room-ending/crops/N8-44.png",
+    "production/nightglass-longform/chapter8/room-ending/crops/N8-45.png",
+    "production/nightglass-longform/chapter8/room-ending/references/upper-left-sleeve-P.png",
+    "production/nightglass-longform/chapter8/room-ending/references/upper-wallet-key-P.png",
+    "production/nightglass-longform/chapter8/room-ending/references/lower-wallet-key-P.png",
+    "production/nightglass-longform/chapter8/room-ending/crops/N8-45-P-review.png",
+    "production/nightglass-longform/chapter8/room-ending/crops/N8-45-R1-review.png",
+    "production/nightglass-longform/chapter8/room-ending/crops/N8-45-fullwidth-tight-review.png",
+    "production/nightglass-longform/chapter8/room-ending/crops/N8-45-intimate-review.png"
+  ],
+  "visual_limits": "44R1 accepted;45 originalP intimate crop accepted with wallet/key whollyoffframe. Full45P bookobject and full45R1 erroneousRIGHTtear remain failed and preserved. No claim crop repaired source.",
+  "shared_selection_mutated": false,
+  "unknown_metadata_null": true
+}

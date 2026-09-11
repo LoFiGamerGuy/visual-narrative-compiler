@@ -1,0 +1,34 @@
+{
+  "verdict": "PASS narrow v4 correction after actual full40 v3 reading",
+  "v3_sha256": "569560cc485e029ca7d0f02f66c97ec136c59ef92bd4060b419c143cadc1cc2b",
+  "v4_sha256": "25719f56be09a5ff0e61725b65ff4cdf442c3294e624a9f72f4013d20a6725bb",
+  "v3_md_sha256": "9c3c2650f018dda2985df19d95cfdb0a7076e61366d0b097c7ef3ed21ab1941e",
+  "v4_md_sha256": "95ac41423cffd2f1fe11dce4f14ce511e7ba8878b31ad5225d29a9e9d9780b42",
+  "v3_map_sha256": "a2c05b15a56d7c0c41d400a795482e1fe71dc8d7ed1c637a6124d3556237118a",
+  "v4_map_sha256": "40b6a65011317030067d4650e80b616580c8154a0c64e262bca1aebeeae67894",
+  "changed_panel_fields": {
+    "N7-22": [
+      "current_state"
+    ],
+    "N7-35": [
+      "current_state"
+    ],
+    "N7-36": [
+      "camera",
+      "copy",
+      "current_state"
+    ],
+    "N7-37": [
+      "copy",
+      "current_state"
+    ],
+    "N7-40": [
+      "copy",
+      "current_state"
+    ]
+  },
+  "all40_actions_and_order_exactly_unchanged": true,
+  "other35_full_panel_records_exactly_unchanged": true,
+  "other_top_level_fields_unchanged_except_status": true,
+  "actual_scope": "Read all40 v3 panels and whole v3 state/route map; then actually inspected exact JSON field differences plus entire Markdown and map diffs for v4. No redundant full40 reread; no art review claimed."
+}

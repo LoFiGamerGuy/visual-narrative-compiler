@@ -1,0 +1,23 @@
+{
+  "schema": "SystemStateLedger/1.0",
+  "entity_id": "char-elian",
+  "initial": {"level":3,"xp":60,"next_threshold":100,"unspent_points":0,"stats":{"force":6,"step":8,"sense":9,"guard":5},"hp":{"current":44,"max":52},"qi":{"current":31,"max":40},"class":"Salvager","cultivation":"Breath Seed I","skills":["Fault Sight I"],"inventory":{"Spark Talisman":1,"Iron Seal":2},"equipped":{"weapon":"Hooked Shortblade","body":"Frayed Salvager Coat"},"quest":"ACTIVE","dungeon":"Hollow Meridian / Ember Vault"},
+  "transactions": [
+    {"panel_id":"el-pilot-s01-p009","type":"resource_cost","resource":"qi","amount":-12,"before":31,"after":19,"provenance":"Fault Sight I activation"},
+    {"panel_id":"el-pilot-s01-p011","type":"damage","resource":"hp","amount":-22,"before":44,"after":22,"provenance":"Belljaw forelimb impact","status_added":"Cracked Rib"},
+    {"panel_id":"el-pilot-s01-p013","type":"consume","item":"Spark Talisman","amount":-1,"before":1,"after":0,"provenance":"voluntary inventory decision"},
+    {"panel_id":"el-pilot-s01-p013","type":"resource_gain","resource":"qi","amount":14,"before":19,"after":33,"provenance":"Spark Talisman"},
+    {"panel_id":"el-pilot-s01-p014","type":"breakthrough_cost","resource":"qi","amount":-30,"before":33,"after":3,"provenance":"Breath Seed II pattern"},
+    {"panel_id":"el-pilot-s01-p014","type":"cultivation_advance","from":"Breath Seed I","to":"Breath Seed II","qi_max_before":40,"qi_max_after":48,"qi_restoration":8,"qi_before":3,"qi_after":11,"provenance":"danger insight + Spark Talisman catalyst"},
+    {"panel_id":"el-pilot-s01-p014","type":"skill_acquire","skill":"Fault Step I","cost_qi":8,"cooldown_seconds":8,"provenance":"Breath Seed II compatibility unlock"},
+    {"panel_id":"el-pilot-s01-p014","type":"status_tick","resource":"hp","amount":-1,"before":22,"after":21,"provenance":"Overburn tick 1/2"},
+    {"panel_id":"el-pilot-s01-p015","type":"resource_cost","resource":"qi","amount":-8,"before":11,"after":3,"provenance":"Fault Step I activation"},
+    {"panel_id":"el-pilot-s01-p015","type":"status_tick","resource":"hp","amount":-1,"before":21,"after":20,"provenance":"Overburn tick 2/2"},
+    {"panel_id":"el-pilot-s01-p016","type":"xp_gain","amount":85,"before":60,"threshold":100,"carry_after_level":45,"new_threshold":140,"provenance":"Belljaw Warden kill share"},
+    {"panel_id":"el-pilot-s01-p016","type":"level_up","from":3,"to":4,"hp_max_before":52,"hp_max_after":56,"unspent_points_gained":1,"provenance":"XP threshold crossed"},
+    {"panel_id":"el-pilot-s01-p016","type":"loot_gain","item":"Cinder-Key","rarity":"Rare","amount":1,"before":0,"after":1,"provenance":"Belljaw Warden boss drop"},
+    {"panel_id":"el-pilot-s01-p016","type":"quest_update","from":"ACTIVE","to":"COMPLETED","provenance":"boss defeated and one bridge anchor intact"},
+    {"panel_id":"el-pilot-s01-p016","type":"class_unlock","options":["Faultline Adept","Kiln Appraiser"],"selection":"PENDING","provenance":"Cinder-Key + quest completion"}
+  ],
+  "final": {"level":4,"xp":45,"next_threshold":140,"unspent_points":1,"stats":{"force":6,"step":8,"sense":9,"guard":5},"hp":{"current":20,"max":56},"qi":{"current":3,"max":48},"class":"Salvager","class_options_unlocked":["Faultline Adept","Kiln Appraiser"],"cultivation":"Breath Seed II","skills":["Fault Sight I","Fault Step I"],"statuses":["Cracked Rib"],"inventory":{"Spark Talisman":0,"Iron Seal":2,"Cinder-Key":1},"equipped":{"weapon":"Hooked Shortblade","body":"Frayed Salvager Coat"},"quest":"COMPLETED","dungeon":"Hollow Meridian / Ember Vault cleared"}
+}

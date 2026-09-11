@@ -1,0 +1,42 @@
+{
+  "schema": "AnchorReturnProgressiveQA/1",
+  "dataset_sha256": "18613dc1b01c7e2653b528f97de8c1ca2d6be672924da33b88a96417ca48a94f",
+  "available_compositions": 6,
+  "support_sheets": 3,
+  "history_attempts": 17,
+  "desktop_comparisons": 8,
+  "browser_checks": 84,
+  "viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      1000
+    ]
+  ],
+  "capture_root": "research/anchor-return/reader/phone-captures/progressive-01",
+  "browser_receipt": "research/anchor-return/reader/local/progressive-01-qa/receipt.json",
+  "visual_inspection": [
+    "NG-SHEET P/R desktop: both whole images, traceable attempt labels and separate source records.",
+    "NG-SHEET R phone: whole sheet visible above exact source records.",
+    "FL01 P/F desktop: both whole images at matched width; original history order was lexical F then P.",
+    "HC01 phone: full native image at360x240, collapsed brief, available blank response controls."
+  ],
+  "later_ui_changes": [
+    "History will be ordered P/R1/F1 in the next build.",
+    "Normal card label now says Standalone or Sequence panel; redundant See description limitation is hidden."
+  ],
+  "limitations": [
+    "No story sequence artworks are present in this snapshot.",
+    "HC01-F1 was not yet registered.",
+    "Actual image observations here assess presentation only, not art or owner acceptance."
+  ],
+  "source_snapshot_verified": true,
+  "preferences_unchanged": true
+}

@@ -1,0 +1,29 @@
+{
+  "candidate_id": "C00011",
+  "image_sha256": "3dbe62f349735fc6a6ad39979af9ac43d51bdb49d6f9c9f96e612c29c66acf97",
+  "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+  "reviewer": "independent-ai-visual-review",
+  "method": "Read frozen plan and original identity/environment references; viewed each selected original candidate separately before making observations. Did not read generation prompts, boards, old art, root conclusions or other review artifacts. No numeric quality scores.",
+  "checks": {
+    "actors": {
+      "verdict": "pass",
+      "observation": "Only one airborne Nera and one Odo are present, with plausible human limbs. The creature has three feet visibly down beneath her."
+    },
+    "event": {
+      "verdict": "fail",
+      "observation": "The cyan arc supports a vault and accent, but the machine's side-sweep is absent: its three legs are planted. The obstacle that the airborne brake is supposed to beat is not visible. The raised shutter is clear, but Odo's leading stride points toward the lower-left while the exit is right. A redirected eastward movement is not clearly depicted."
+    },
+    "contact": {
+      "verdict": "fail",
+      "observation": "The supposed evasive relation to the sweep is absent: all three machine feet are down. The image shows height above the body, not a clear halted vault above a sweeping limb."
+    },
+    "props": {
+      "verdict": "fail",
+      "observation": "Nera holds two disconnected clean-ended wooden rods before the specified P12 break. This changes the staff state early or duplicates the prop. Odo correctly holds the only clearly visible amber flask upright."
+    },
+    "state": {
+      "verdict": "fail",
+      "observation": "Nera holds two disconnected clean-ended wooden rods before the specified P12 break. This changes the staff state early or duplicates the prop. Odo correctly holds the only clearly visible amber flask upright. Numerical resources and unlock wording are not assessed from this unlettered raster."
+    }
+  }
+}

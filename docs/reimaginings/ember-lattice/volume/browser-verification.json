@@ -1,0 +1,60 @@
+{
+  "schema": "BrowserVerification/1.0",
+  "verified_at": "2026-09-04T10:05:24-04:00",
+  "browser": "Chrome extension browser",
+  "served_url": "http://127.0.0.1:8765/docs/reimaginings/ember-lattice/volume/index.html",
+  "status": "PASS",
+  "checks": {
+    "hub_rendered": true,
+    "chapter_01_phone_reader": {
+      "panel_stacks": 24,
+      "source_images": 24,
+      "overlay_images": 24,
+      "broken_images": 0
+    },
+    "phone_viewport": {
+      "requested_width": 390,
+      "document_client_width": 375,
+      "document_scroll_width": 375,
+      "first_panel_width": 375,
+      "horizontal_page_overflow": false
+    },
+    "chapter_next_navigation": {
+      "from": "ch01",
+      "to": "ch02",
+      "resulting_title": "CH02 · Choose the Crack",
+      "broken_images": 0
+    },
+    "compact_review": {
+      "chapter": "ch02",
+      "panel_stacks": 24,
+      "broken_images": 0
+    },
+    "diagnostics": {
+      "chapter": "ch03",
+      "safe_zone_links": 24,
+      "layered_review_stacks": 28,
+      "broken_images": 0
+    },
+    "progression": {
+      "chapter_sections": 10,
+      "transaction_rows": 215
+    },
+    "continuous_read": {
+      "chapter_sections": 10,
+      "panel_stacks": 240,
+      "source_images": 240,
+      "overlay_images": 240
+    },
+    "repair_comparison": {
+      "diagnostic_images": 2,
+      "loaded_images": 2
+    },
+    "console_warnings_or_errors": 0
+  },
+  "browser_discovered_issue_and_fix": {
+    "issue": "Chromium suppresses external raster dependencies when an SVG is embedded through an img element, leaving only the SVG lettering visible.",
+    "fix": "Every embedded reader/review surface now layers the ignored source raster beneath its deterministic tracked SVG overlay; direct SVG pages retain their standalone external-raster view.",
+    "retest": "PASS"
+  }
+}

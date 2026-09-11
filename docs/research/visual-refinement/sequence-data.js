@@ -1,0 +1,1001 @@
+window.VR_SEQUENCE_DATA = {
+  "schema": "VisualRefinementReader/1",
+  "experiment_id": "VR-20260907-01",
+  "mode": "sequence",
+  "plan_sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+  "source_bindings": [
+    {
+      "id": "13-P01",
+      "attempt_id": "13-P01-P",
+      "sha256": "c3d0aace102f870ee0eb1271cda2472fbb64392a11a75bc7d3257b3bcad03b14"
+    },
+    {
+      "id": "13-P02",
+      "attempt_id": "13-P02-R",
+      "sha256": "34812a3b036f40d47aad1c861f4ea99e447e2b635bd2d861af51b5e5f7b0f5e9"
+    },
+    {
+      "id": "13-P03",
+      "attempt_id": "13-P03-P",
+      "sha256": "ea83f42157a1075e48fe41d0891bf6a581119addd45cb9bc1b4000b330c201ef"
+    },
+    {
+      "id": "13-P04",
+      "attempt_id": "13-P04-P",
+      "sha256": "e19d085a45ddc7bded9a0b3056497b05cf0262be8545626b3ac36b3dada8fb93"
+    },
+    {
+      "id": "13-P05",
+      "attempt_id": "13-P05-R",
+      "sha256": "4b1f260ec6a6086de5dbb53dc292953f5ce45188ec18443df8b3d1ae095538bd"
+    },
+    {
+      "id": "13-P06",
+      "attempt_id": "13-P06-P",
+      "sha256": "248f2e5ddc42015ddfad85e903ce018c0a3cf54c998299cc101d5ee5221f774a"
+    },
+    {
+      "id": "18-P01",
+      "attempt_id": "18-P01-P",
+      "sha256": "f25f062550af88109b3ff4482ca06f4e34052ae559575fcd1f3f079a852b90cb"
+    },
+    {
+      "id": "18-P02",
+      "attempt_id": "18-P02-P",
+      "sha256": "59706ddf765251595d0a6b704f5d1dc4ab9918ef268c3006a1a487a520759eba"
+    },
+    {
+      "id": "18-P03",
+      "attempt_id": "18-P03-R",
+      "sha256": "83f506a732590dbee90efd1ed837d9a767a8b2352bc14003a12b16cb33fc1eed"
+    },
+    {
+      "id": "18-P04",
+      "attempt_id": "18-P04-R",
+      "sha256": "abfaf06867af34d7081bd862c69c09b0fef2df5f04ccebc0638fecefdc519812"
+    },
+    {
+      "id": "18-P05",
+      "attempt_id": "18-P05-P",
+      "sha256": "17a622fce77e777e280bdc39126b38d3c0666a6472dc0d3f7dac30c77f2ef23b"
+    },
+    {
+      "id": "18-P06",
+      "attempt_id": "18-P06-P",
+      "sha256": "bbac0382a4407f44a1f5f814f2dfac73c37e5583d5d3832d0e705945515a4829"
+    },
+    {
+      "id": "19-P01",
+      "attempt_id": "19-P01-P",
+      "sha256": "ccad07fe80ff480f71251bfe6acd9f5b647b794684720b95d5830444e46fc540"
+    },
+    {
+      "id": "19-P02",
+      "attempt_id": "19-P02-R",
+      "sha256": "d873577d67a5d84be8bac4b1745f2491b1c9f609b484d2314a7f3b220f2db1e5"
+    },
+    {
+      "id": "19-P03",
+      "attempt_id": "19-P03-P",
+      "sha256": "3fca2e49cc900afa2681e7b3f9422a968a53d236f9e81be56c4f36d3794e8b3f"
+    },
+    {
+      "id": "19-P04",
+      "attempt_id": "19-P04-P",
+      "sha256": "196dec9e2f7bfc21e8d4667f8889bd404fdb838808f617a671394f2de71f08b7"
+    },
+    {
+      "id": "19-P05",
+      "attempt_id": "19-P05-R",
+      "sha256": "74bf188166f45978d67404b64d25ce4d20cbe403a98acf0f42b137512ef7e6f5"
+    },
+    {
+      "id": "19-P06",
+      "attempt_id": "19-P06-P",
+      "sha256": "a238ee0492a56f76a66cb83caaf68826e1609c7ce85abe672e2914a428f22c33"
+    }
+  ],
+  "styles": [
+    {
+      "id": "13",
+      "title": "Red Current",
+      "selection_basis": "The primary pair demonstrates precise manga hatching with clear white grouping and readable adult identities. It supplies the action-comic linework comparison."
+    },
+    {
+      "id": "18",
+      "title": "Soft Thunder",
+      "selection_basis": "The repaired pair materially recovers bolder cartoon contour, hair grouping and facial shapes. Sequence guides will separately test hand contact that failed in18-B; this is not accepted anatomy or action evidence."
+    },
+    {
+      "id": "19",
+      "title": "Black Petal",
+      "selection_basis": "The repaired pair materially improves smooth refined facial/material modeling, giving a contrasting fashion-oriented treatment. The sequence tests whether its darker values preserve acting and action clarity."
+    }
+  ],
+  "panels": [
+    {
+      "id": "P01",
+      "title": "The expert",
+      "story": "Iven steps toward the handwheel with an easy raised-brow smile. Mara waits beside him. The calm creature faces the closed gate from upstream.",
+      "copy": [
+        {
+          "id": "P01-L01",
+          "speaker": "IVEN",
+          "text": "I know this gate.",
+          "kind": "dialogue"
+        }
+      ],
+      "target_height_at392": 261,
+      "aspect_ratio": "3:2",
+      "shot": "Wide eye-level establishment, full bodies and all four creature tentacles visible.",
+      "camera": {
+        "location": [
+          -4.9,
+          -7.8,
+          3.25
+        ],
+        "target": [
+          -0.65,
+          0.55,
+          1.1
+        ],
+        "lens_mm": 43
+      },
+      "blocking": {
+        "iven": [
+          -1.3,
+          -1.0,
+          0.35
+        ],
+        "mara": [
+          -2.2,
+          -0.9,
+          0.35
+        ],
+        "creature": [
+          -2.8,
+          1.2,
+          0
+        ]
+      },
+      "required_visible": [
+        "Both adults, complete feet on dry ledge",
+        "One waiting pony-scale creature with four broad tentacles",
+        "Closed gate seated at waterline inside one broad arch",
+        "Handwheel with one intact short wooden grip at3 o’clock"
+      ],
+      "action": "Iven takes one small step toward wheel; right hand remains empty and open. Mara looks from him to the creature.",
+      "expression": "Iven friendly confidence; Mara patient mild doubt; creature calm.",
+      "continuity": "No broken wood. Equal calm water level on both sides. Nothing already passes beneath the gate."
+    },
+    {
+      "id": "P02",
+      "title": "A little force",
+      "story": "Iven braces the iron rim with his left hand and pulls the wooden grip with his right. His confident smile tightens; the gate does not move.",
+      "copy": [
+        {
+          "id": "P02-L01",
+          "speaker": "IVEN",
+          "text": "Just a little—",
+          "kind": "dialogue"
+        }
+      ],
+      "target_height_at392": 392,
+      "aspect_ratio": "1:1",
+      "shot": "Medium three-quarter south-side view, Iven from upper thighs through face plus entire wheel.",
+      "camera": {
+        "location": [
+          -2.8,
+          -4.0,
+          2.5
+        ],
+        "target": [
+          -0.85,
+          -0.55,
+          1.58
+        ],
+        "lens_mm": 58
+      },
+      "blocking": {
+        "iven": [
+          -1.05,
+          -0.95,
+          0.35
+        ],
+        "mara": [
+          -2.2,
+          -0.9,
+          0.35
+        ],
+        "creature": [
+          -2.8,
+          1.2,
+          0
+        ]
+      },
+      "required_visible": [
+        "Iven anatomical LEFT hand visibly bracing iron rim at10 o’clock",
+        "Iven anatomical RIGHT hand wrapped around intact wooden grip at3 o’clock",
+        "Single continuous wooden grip from rim to right fist",
+        "Iven face, shoulder origins and wheel mounting"
+      ],
+      "action": "Left shoulder/arm leads to iron rim; right shoulder/arm leads to wooden grip. The grip is pulled outward toward the south camera, not turned yet.",
+      "expression": "Iven strained smile, pursed concentration; a sliver of Mara may watch from frame left.",
+      "continuity": "Gate fully closed, wheel orientation unchanged. No separate wooden fragment or pre-existing crack gap."
+    },
+    {
+      "id": "P03",
+      "title": "The snap",
+      "story": "The wooden grip breaks. Iven’s left hand stays on the iron rim while his right hand recoils with the detached long piece. His eyes widen. A short wooden stub remains fixed to the same rim point.",
+      "copy": [
+        {
+          "id": "P03-L01",
+          "speaker": "",
+          "text": "KRAK",
+          "kind": "sfx"
+        }
+      ],
+      "target_height_at392": 294,
+      "aspect_ratio": "4:3",
+      "shot": "Tight three-quarter detail of both hands, rim, clear break gap and Iven’s startled eyes/upper face.",
+      "camera": {
+        "location": [
+          -2.15,
+          -3.1,
+          2.23
+        ],
+        "target": [
+          -0.76,
+          -0.67,
+          1.66
+        ],
+        "lens_mm": 72
+      },
+      "blocking": {
+        "iven": [
+          -1.05,
+          -0.95,
+          0.35
+        ],
+        "mara": [
+          -2.2,
+          -0.9,
+          0.35
+        ],
+        "creature": [
+          -2.8,
+          1.2,
+          0
+        ]
+      },
+      "required_visible": [
+        "Exactly two wooden pieces:0.05m mounted stub and0.13m detached remnant",
+        "Visible air gap between matching jagged ends, not a merely drawn seam",
+        "Left fingers still around iron rim at10 o’clock",
+        "Right fist and detached remnant visibly separate from wheel",
+        "Traceable sleeve origins and startled Iven eyes"
+      ],
+      "action": "The right fist recoils southward and slightly upward. Stub stays at3 o’clock. Show one clean snapped joint; no spray of loose splinters that could be mistaken for extra fragments.",
+      "expression": "Iven startled embarrassment; his boast visibly collapses.",
+      "continuity": "Gate remains closed; wheel has not rotated. Remnant stays in anatomical right hand thereafter."
+    },
+    {
+      "id": "P04",
+      "title": "Use the rim",
+      "story": "Iven has stepped aside with the broken grip. Mara plants a wide stance and turns the iron rim with both hands. The gate begins to rise; the creature still waits upstream.",
+      "copy": [
+        {
+          "id": "P04-L01",
+          "speaker": "MARA",
+          "text": "Use the wheel.",
+          "kind": "dialogue"
+        }
+      ],
+      "target_height_at392": 490,
+      "aspect_ratio": "4:5",
+      "shot": "Low-to-eye-level full-body action view of Mara, both planted sandals, wheel and lifting gate in one frame.",
+      "camera": {
+        "location": [
+          -3.6,
+          -5.5,
+          2.45
+        ],
+        "target": [
+          -0.62,
+          -0.12,
+          1.25
+        ],
+        "lens_mm": 45
+      },
+      "blocking": {
+        "iven": [
+          -1.9,
+          -1.12,
+          0.35
+        ],
+        "mara": [
+          -0.85,
+          -0.96,
+          0.35
+        ],
+        "creature": [
+          -2.8,
+          1.2,
+          0
+        ]
+      },
+      "required_visible": [
+        "Mara’s complete powerful plus-size body, grounded wide stance and both sandals",
+        "Both palms/fingers touching opposite iron rim positions, not wooden stub",
+        "Wheel has turned45° clockwise viewed from south; stub at4:30",
+        "Gate bottom visibly lifted0.75m from waterline",
+        "Iven clear at frame left with right-hand wooden remnant",
+        "Creature still upstream, not beneath half-open gate"
+      ],
+      "action": "Mara leans through a clear hip-and-shoulder twist, turning clockwise. Her left hand is near9 o’clock and right near2 o’clock at this depicted instant; neither hand uses the wooden stub.",
+      "expression": "Mara focused, matter-of-fact effort; Iven sheepish, watching.",
+      "continuity": "Mid-action state only: total quarter-turn is not complete. No extra lever or new gate. Water level unchanged; only a few small ripples."
+    },
+    {
+      "id": "P05",
+      "title": "A clear passage",
+      "story": "The gate is fully raised. The creature has passed downstream. Mara has walked around the south pier and rests one open palm gently on its near shell edge as it glides by. Iven still holds the remnant.",
+      "copy": [],
+      "target_height_at392": 261,
+      "aspect_ratio": "3:2",
+      "shot": "Wide south-side view, same travel direction asP01, all of creature and clear opening visible.",
+      "camera": {
+        "location": [
+          -3.8,
+          -8.0,
+          3.1
+        ],
+        "target": [
+          0.45,
+          0.65,
+          1.05
+        ],
+        "lens_mm": 40
+      },
+      "blocking": {
+        "iven": [
+          -1.4,
+          -1.05,
+          0.35
+        ],
+        "mara": [
+          1.45,
+          -0.22,
+          0.35
+        ],
+        "creature": [
+          1.85,
+          1.2,
+          0
+        ]
+      },
+      "required_visible": [
+        "Gate fully raised with1.5m clear opening and visible water beneath",
+        "Wheel at90° clockwise; fixed short stub now at6 o’clock",
+        "All four broad creature tentacles completely downstream of gate",
+        "Mara’s feet on ledge, open anatomical LEFT palm gently touching near shell edge",
+        "Iven and his right-hand remnant still present at frame left"
+      ],
+      "action": "Creature travels left-to-right; Mara touches shell at[1.65,.55,.92] without pulling it or standing in water. Its nearest tentacle remains in canal. Passage follows the wheel action.",
+      "expression": "Mara soft satisfied smile; creature calm and receptive; Iven subdued.",
+      "continuity": "Opening remains raised. Creature is the same size/design and has not duplicated. No new wound, wet-clothing gag, loose wood or extra prop."
+    },
+    {
+      "id": "P06",
+      "title": "Credit where due",
+      "story": "Iven joins Mara downstream and displays the broken grip in his right hand with a small defensive smile. Mara answers with one raised brow. The gate remains raised behind them; the creature continues rightward.",
+      "copy": [
+        {
+          "id": "P06-L01",
+          "speaker": "IVEN",
+          "text": "I loosened it.",
+          "kind": "dialogue"
+        },
+        {
+          "id": "P06-L02",
+          "speaker": "MARA",
+          "text": "Obviously.",
+          "kind": "dialogue"
+        }
+      ],
+      "target_height_at392": 294,
+      "aspect_ratio": "4:3",
+      "shot": "Medium two-shot, faces and right-hand remnant prominent; open gate readable in the quiet gap behind the adults.",
+      "camera": {
+        "location": [
+          -1.75,
+          -4.8,
+          2.2
+        ],
+        "target": [
+          0.95,
+          -0.48,
+          1.68
+        ],
+        "lens_mm": 55
+      },
+      "blocking": {
+        "iven": [
+          0.55,
+          -0.86,
+          0.35
+        ],
+        "mara": [
+          1.35,
+          -0.44,
+          0.35
+        ],
+        "creature": [
+          3.3,
+          1.2,
+          0
+        ]
+      },
+      "required_visible": [
+        "Iven’s refined adult face and Mara’s broad adult face, different readable expressions",
+        "Same0.13m detached wooden remnant displayed in Iven anatomical RIGHT hand",
+        "Open gate remains visible behind the adults; no reclosed barrier",
+        "Mara stands relaxed with empty hands; creature may be partly visible exiting frame right"
+      ],
+      "action": "Iven raises the remnant only to chest height; left hand empty. Mara turns her head toward him without taking the wood.",
+      "expression": "Iven sheepish self-justification; Mara deadpan raised brow, slight amused mouth.",
+      "continuity": "No repaired crank, replacement wheel, identity/costume change or owner-favorite implication."
+    }
+  ],
+  "route_observations": [
+    {
+      "style_id": "13",
+      "observations": [
+        "Fine manga hatching and pale background grouping keep silhouettes and the larger acting shots legible at phone width. This is AI technical review, not your comfort preference.",
+        "The repair adds the missing crank grip and improves the complete right-facing creature shot. Hand ownership, wheel scale/mounting, changed gate shape and final-panel prop restoration remain inconsistent. No production acceptance."
+      ],
+      "source_bindings": {
+        "13-P01": {
+          "attempt_id": "13-P01-P",
+          "sha256": "c3d0aace102f870ee0eb1271cda2472fbb64392a11a75bc7d3257b3bcad03b14"
+        },
+        "13-P02": {
+          "attempt_id": "13-P02-R",
+          "sha256": "34812a3b036f40d47aad1c861f4ea99e447e2b635bd2d861af51b5e5f7b0f5e9"
+        },
+        "13-P03": {
+          "attempt_id": "13-P03-P",
+          "sha256": "ea83f42157a1075e48fe41d0891bf6a581119addd45cb9bc1b4000b330c201ef"
+        },
+        "13-P04": {
+          "attempt_id": "13-P04-P",
+          "sha256": "e19d085a45ddc7bded9a0b3056497b05cf0262be8545626b3ac36b3dada8fb93"
+        },
+        "13-P05": {
+          "attempt_id": "13-P05-R",
+          "sha256": "4b1f260ec6a6086de5dbb53dc292953f5ce45188ec18443df8b3d1ae095538bd"
+        },
+        "13-P06": {
+          "attempt_id": "13-P06-P",
+          "sha256": "248f2e5ddc42015ddfad85e903ce018c0a3cf54c998299cc101d5ee5221f774a"
+        }
+      }
+    },
+    {
+      "style_id": "18",
+      "observations": [
+        "Bold contours, warm color separation and exaggerated adult expressions give this review the clearest small-scale acting arc. Your visual comfort remains an independent choice.",
+        "Repairs remove the third wood fragment and invented lever. Hand switching, intact-looking broken parts, early creature passage, a tipped final wheel and extra lower barrier still contradict the frozen story. No production acceptance.",
+        "Saturated sky and cloud texture still compete with the figures; clear acting does not establish sustained visual comfort."
+      ],
+      "source_bindings": {
+        "18-P01": {
+          "attempt_id": "18-P01-P",
+          "sha256": "f25f062550af88109b3ff4482ca06f4e34052ae559575fcd1f3f079a852b90cb"
+        },
+        "18-P02": {
+          "attempt_id": "18-P02-P",
+          "sha256": "59706ddf765251595d0a6b704f5d1dc4ab9918ef268c3006a1a487a520759eba"
+        },
+        "18-P03": {
+          "attempt_id": "18-P03-R",
+          "sha256": "83f506a732590dbee90efd1ed837d9a767a8b2352bc14003a12b16cb33fc1eed"
+        },
+        "18-P04": {
+          "attempt_id": "18-P04-R",
+          "sha256": "abfaf06867af34d7081bd862c69c09b0fef2df5f04ccebc0638fecefdc519812"
+        },
+        "18-P05": {
+          "attempt_id": "18-P05-P",
+          "sha256": "17a622fce77e777e280bdc39126b38d3c0666a6472dc0d3f7dac30c77f2ef23b"
+        },
+        "18-P06": {
+          "attempt_id": "18-P06-P",
+          "sha256": "bbac0382a4407f44a1f5f814f2dfac73c37e5583d5d3832d0e705945515a4829"
+        }
+      }
+    },
+    {
+      "style_id": "19",
+      "observations": [
+        "Refined smooth face modeling persists and works best in the larger reaction shots. Darker wide shots compress face, wheel and background separation at phone size; this is a comfort risk observation, not a report of human eye strain.",
+        "Repairs remove a duplicated crank and provide dry support under both Mara feet. Left-held remnants, left-facing creature travel, mounting changes and intact-looking final props remain. No production acceptance."
+      ],
+      "source_bindings": {
+        "19-P01": {
+          "attempt_id": "19-P01-P",
+          "sha256": "ccad07fe80ff480f71251bfe6acd9f5b647b794684720b95d5830444e46fc540"
+        },
+        "19-P02": {
+          "attempt_id": "19-P02-R",
+          "sha256": "d873577d67a5d84be8bac4b1745f2491b1c9f609b484d2314a7f3b220f2db1e5"
+        },
+        "19-P03": {
+          "attempt_id": "19-P03-P",
+          "sha256": "3fca2e49cc900afa2681e7b3f9422a968a53d236f9e81be56c4f36d3794e8b3f"
+        },
+        "19-P04": {
+          "attempt_id": "19-P04-P",
+          "sha256": "196dec9e2f7bfc21e8d4667f8889bd404fdb838808f617a671394f2de71f08b7"
+        },
+        "19-P05": {
+          "attempt_id": "19-P05-R",
+          "sha256": "74bf188166f45978d67404b64d25ce4d20cbe403a98acf0f42b137512ef7e6f5"
+        },
+        "19-P06": {
+          "attempt_id": "19-P06-P",
+          "sha256": "a238ee0492a56f76a66cb83caaf68826e1609c7ce85abe672e2914a428f22c33"
+        }
+      }
+    }
+  ],
+  "review_notes_sha256": "6856a42e1d6d73313c1b895b13406ef3ee1199cb6f1cf8a52f476ca8ed0525c7",
+  "entries": [
+    {
+      "id": "13-P01",
+      "kind": "sequence",
+      "style_id": "13",
+      "panel_id": "P01",
+      "candidate": {
+        "attempt_id": "13-P01-P",
+        "path": "production/visual-refinement/sequence-candidates/13-P01-P.png",
+        "sha256": "c3d0aace102f870ee0eb1271cda2472fbb64392a11a75bc7d3257b3bcad03b14",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/sequence-candidates/13-P01-P.png"
+      },
+      "ai_observations": [
+        "Adult identities, dry feet and closed gate read clearly. Creature faces left at screen-right and is cropped; intended rightward upstream staging is not established."
+      ]
+    },
+    {
+      "id": "13-P02",
+      "kind": "sequence",
+      "style_id": "13",
+      "panel_id": "P02",
+      "candidate": {
+        "attempt_id": "13-P02-R",
+        "path": "production/visual-refinement/sequence-candidates/13-P02-R.png",
+        "sha256": "34812a3b036f40d47aad1c861f4ea99e447e2b635bd2d861af51b5e5f7b0f5e9",
+        "width": 1254,
+        "height": 1254,
+        "src": "../../../production/visual-refinement/sequence-candidates/13-P02-R.png"
+      },
+      "repair": {
+        "before": {
+          "attempt_id": "13-P02-P",
+          "path": "production/visual-refinement/sequence-candidates/13-P02-P.png",
+          "sha256": "1c88d7b0706fd62fb7229813bbd5aba8442eb6b0b5be1a22c43d0c241ca4ce9a",
+          "width": 1254,
+          "height": 1254,
+          "src": "../../../production/visual-refinement/sequence-candidates/13-P02-P.png"
+        },
+        "after": {
+          "attempt_id": "13-P02-R",
+          "path": "production/visual-refinement/sequence-candidates/13-P02-R.png",
+          "sha256": "34812a3b036f40d47aad1c861f4ea99e447e2b635bd2d861af51b5e5f7b0f5e9",
+          "width": 1254,
+          "height": 1254,
+          "src": "../../../production/visual-refinement/sequence-candidates/13-P02-R.png"
+        },
+        "reason": "Both hands grip iron and leave the wooden crank untouched, removing the cause of the snap.",
+        "conditioning_notice": "The repair uses revised reference conditioning. This is not an identical-input experiment.",
+        "record_path": "production/visual-refinement/calls/13-P02-R.json",
+        "record_sha256": "015a96a38895215084c4ad8faaa568fda91c38b15b305d9bbda7bc8f74eb0590"
+      },
+      "ai_observations": [
+        "Required contact materially improves: near right hand wraps one wooden grip, far hand braces iron. Wheel stays oversized relative to neighboring shots and grip appears connected near the hub/spoke rather than clearly prescribed outer-rim3o-clock."
+      ]
+    },
+    {
+      "id": "13-P03",
+      "kind": "sequence",
+      "style_id": "13",
+      "panel_id": "P03",
+      "candidate": {
+        "attempt_id": "13-P03-P",
+        "path": "production/visual-refinement/sequence-candidates/13-P03-P.png",
+        "sha256": "ea83f42157a1075e48fe41d0891bf6a581119addd45cb9bc1b4000b330c201ef",
+        "width": 1448,
+        "height": 1086,
+        "src": "../../../production/visual-refinement/sequence-candidates/13-P03-P.png"
+      },
+      "ai_observations": [
+        "Startled acting and a held broken piece separated from a mounted jagged stub are legible. Wood is a much thicker baton than the previous crank."
+      ]
+    },
+    {
+      "id": "13-P04",
+      "kind": "sequence",
+      "style_id": "13",
+      "panel_id": "P04",
+      "candidate": {
+        "attempt_id": "13-P04-P",
+        "path": "production/visual-refinement/sequence-candidates/13-P04-P.png",
+        "sha256": "e19d085a45ddc7bded9a0b3056497b05cf0262be8545626b3ac36b3dada8fb93",
+        "width": 1122,
+        "height": 1402,
+        "src": "../../../production/visual-refinement/sequence-candidates/13-P04-P.png"
+      },
+      "ai_observations": [
+        "Mara has grounded weight and two rim contacts. Creature is already beneath the lifting gate; mounted wood appears smooth and long again."
+      ]
+    },
+    {
+      "id": "13-P05",
+      "kind": "sequence",
+      "style_id": "13",
+      "panel_id": "P05",
+      "candidate": {
+        "attempt_id": "13-P05-R",
+        "path": "production/visual-refinement/sequence-candidates/13-P05-R.png",
+        "sha256": "4b1f260ec6a6086de5dbb53dc292953f5ce45188ec18443df8b3d1ae095538bd",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/sequence-candidates/13-P05-R.png"
+      },
+      "repair": {
+        "before": {
+          "attempt_id": "13-P05-P",
+          "path": "production/visual-refinement/sequence-candidates/13-P05-P.png",
+          "sha256": "9cf70175ff921f7bc4376e96f51be95130c8aa759a19ff4c0a332a2e3d5d9bf4",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/sequence-candidates/13-P05-P.png"
+        },
+        "after": {
+          "attempt_id": "13-P05-R",
+          "path": "production/visual-refinement/sequence-candidates/13-P05-R.png",
+          "sha256": "4b1f260ec6a6086de5dbb53dc292953f5ce45188ec18443df8b3d1ae095538bd",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/sequence-candidates/13-P05-R.png"
+        },
+        "reason": "Iven holds two wood pieces; creature travels backward and gate staging changes during the passage beat.",
+        "conditioning_notice": "The repair uses revised reference conditioning. This is not an identical-input experiment.",
+        "record_path": "production/visual-refinement/calls/13-P05-R.json",
+        "record_sha256": "6bfc1a3b7d11b6a163be0216e4420ee3d45c385ea5ca72cc6d93d697d5f3f19a"
+      },
+      "ai_observations": [
+        "Extra held piece removed and complete creature now faces right with four separated trailing appendages. Iven retains wood in anatomical LEFT hand, contrary to the prompt. Rectangular gate framing remains; near palm contact and downstream relationship only partly resolved."
+      ]
+    },
+    {
+      "id": "13-P06",
+      "kind": "sequence",
+      "style_id": "13",
+      "panel_id": "P06",
+      "candidate": {
+        "attempt_id": "13-P06-P",
+        "path": "production/visual-refinement/sequence-candidates/13-P06-P.png",
+        "sha256": "248f2e5ddc42015ddfad85e903ce018c0a3cf54c998299cc101d5ee5221f774a",
+        "width": 1448,
+        "height": 1086,
+        "src": "../../../production/visual-refinement/sequence-candidates/13-P06-P.png"
+      },
+      "ai_observations": [
+        "Two distinct facial reactions support the exchange. Wheel changes into a horizontal configuration; intact-looking handles replace broken wood. Creature returns near the gate facing left."
+      ]
+    },
+    {
+      "id": "18-P01",
+      "kind": "sequence",
+      "style_id": "18",
+      "panel_id": "P01",
+      "candidate": {
+        "attempt_id": "18-P01-P",
+        "path": "production/visual-refinement/sequence-candidates/18-P01-P.png",
+        "sha256": "f25f062550af88109b3ff4482ca06f4e34052ae559575fcd1f3f079a852b90cb",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/sequence-candidates/18-P01-P.png"
+      },
+      "ai_observations": [
+        "Warm cartoon outlines and expressive faces persist. Creature at right faces left and is cropped; exact four appendages not demonstrated."
+      ]
+    },
+    {
+      "id": "18-P02",
+      "kind": "sequence",
+      "style_id": "18",
+      "panel_id": "P02",
+      "candidate": {
+        "attempt_id": "18-P02-P",
+        "path": "production/visual-refinement/sequence-candidates/18-P02-P.png",
+        "sha256": "59706ddf765251595d0a6b704f5d1dc4ab9918ef268c3006a1a487a520759eba",
+        "width": 1254,
+        "height": 1254,
+        "src": "../../../production/visual-refinement/sequence-candidates/18-P02-P.png"
+      },
+      "ai_observations": [
+        "Effort and one crank contact read at a glance, but independent sleeve tracing identifies inverted prescribed hand ownership."
+      ]
+    },
+    {
+      "id": "18-P03",
+      "kind": "sequence",
+      "style_id": "18",
+      "panel_id": "P03",
+      "candidate": {
+        "attempt_id": "18-P03-R",
+        "path": "production/visual-refinement/sequence-candidates/18-P03-R.png",
+        "sha256": "83f506a732590dbee90efd1ed837d9a767a8b2352bc14003a12b16cb33fc1eed",
+        "width": 1448,
+        "height": 1086,
+        "src": "../../../production/visual-refinement/sequence-candidates/18-P03-R.png"
+      },
+      "repair": {
+        "before": {
+          "attempt_id": "18-P03-P",
+          "path": "production/visual-refinement/sequence-candidates/18-P03-P.png",
+          "sha256": "af35eb811519be6900483a9ddf2380fcdfe496eb96abe6af6004ff333c312ad7",
+          "width": 1448,
+          "height": 1086,
+          "src": "../../../production/visual-refinement/sequence-candidates/18-P03-P.png"
+        },
+        "after": {
+          "attempt_id": "18-P03-R",
+          "path": "production/visual-refinement/sequence-candidates/18-P03-R.png",
+          "sha256": "83f506a732590dbee90efd1ed837d9a767a8b2352bc14003a12b16cb33fc1eed",
+          "width": 1448,
+          "height": 1086,
+          "src": "../../../production/visual-refinement/sequence-candidates/18-P03-R.png"
+        },
+        "reason": "An extra long airborne wood segment makes three pieces instead of the frozen two-piece break.",
+        "conditioning_notice": "The repair uses revised reference conditioning. This is not an identical-input experiment.",
+        "record_path": "production/visual-refinement/calls/18-P03-R.json",
+        "record_sha256": "cf7441438a1552f49aeda5bb780abaef7c857d2206269aea9ced6b7c1dcf08af"
+      },
+      "ai_observations": [
+        "Extra airborne third wood segment removed. Two-piece break and startled adult faces remain. Wood proportions still differ across adjacent shots; no claim of exact measured dimensions."
+      ]
+    },
+    {
+      "id": "18-P04",
+      "kind": "sequence",
+      "style_id": "18",
+      "panel_id": "P04",
+      "candidate": {
+        "attempt_id": "18-P04-R",
+        "path": "production/visual-refinement/sequence-candidates/18-P04-R.png",
+        "sha256": "abfaf06867af34d7081bd862c69c09b0fef2df5f04ccebc0638fecefdc519812",
+        "width": 1122,
+        "height": 1402,
+        "src": "../../../production/visual-refinement/sequence-candidates/18-P04-R.png"
+      },
+      "repair": {
+        "before": {
+          "attempt_id": "18-P04-P",
+          "path": "production/visual-refinement/sequence-candidates/18-P04-P.png",
+          "sha256": "70972f53eccac1bd13bad62d41e4a4dd2c802b4acf3a8a7d7e72be2f518f831e",
+          "width": 1122,
+          "height": 1402,
+          "src": "../../../production/visual-refinement/sequence-candidates/18-P04-P.png"
+        },
+        "after": {
+          "attempt_id": "18-P04-R",
+          "path": "production/visual-refinement/sequence-candidates/18-P04-R.png",
+          "sha256": "abfaf06867af34d7081bd862c69c09b0fef2df5f04ccebc0638fecefdc519812",
+          "width": 1122,
+          "height": 1402,
+          "src": "../../../production/visual-refinement/sequence-candidates/18-P04-R.png"
+        },
+        "reason": "Mara grips an invented long horizontal lever outside the wheel instead of opposite rim points.",
+        "conditioning_notice": "The repair uses revised reference conditioning. This is not an identical-input experiment.",
+        "record_path": "production/visual-refinement/calls/18-P04-R.json",
+        "record_sha256": "9f6fd9c103fdc54dbf4115dca252c0ea49f7efcaaf393ae170afdf4d40a35560"
+      },
+      "ai_observations": [
+        "Long horizontal lever removed and both hands now contact rim. Planted full body and bold cartoon treatment retained. Creature remains at gate too early; mounted and held pieces still resemble finished capped objects."
+      ]
+    },
+    {
+      "id": "18-P05",
+      "kind": "sequence",
+      "style_id": "18",
+      "panel_id": "P05",
+      "candidate": {
+        "attempt_id": "18-P05-P",
+        "path": "production/visual-refinement/sequence-candidates/18-P05-P.png",
+        "sha256": "17a622fce77e777e280bdc39126b38d3c0666a6472dc0d3f7dac30c77f2ef23b",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/sequence-candidates/18-P05-P.png"
+      },
+      "ai_observations": [
+        "Rightward creature and dry planted feet are stronger here. Four broad appendages are visibly separated. The held and mounted pieces look finished again; palm touches dome rather than shell edge."
+      ]
+    },
+    {
+      "id": "18-P06",
+      "kind": "sequence",
+      "style_id": "18",
+      "panel_id": "P06",
+      "candidate": {
+        "attempt_id": "18-P06-P",
+        "path": "production/visual-refinement/sequence-candidates/18-P06-P.png",
+        "sha256": "bbac0382a4407f44a1f5f814f2dfac73c37e5583d5d3832d0e705945515a4829",
+        "width": 1448,
+        "height": 1086,
+        "src": "../../../production/visual-refinement/sequence-candidates/18-P06-P.png"
+      },
+      "ai_observations": [
+        "Sheepish versus amused faces read. Wheel becomes horizontal, held prop looks intact, and additional gate leaves appear below the raised barrier. Creature faces back left."
+      ]
+    },
+    {
+      "id": "19-P01",
+      "kind": "sequence",
+      "style_id": "19",
+      "panel_id": "P01",
+      "candidate": {
+        "attempt_id": "19-P01-P",
+        "path": "production/visual-refinement/sequence-candidates/19-P01-P.png",
+        "sha256": "ccad07fe80ff480f71251bfe6acd9f5b647b794684720b95d5830444e46fc540",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/sequence-candidates/19-P01-P.png"
+      },
+      "ai_observations": [
+        "Refined smooth modeling persists with darker values. Full adult bodies read; creature cropped and facing left, upstream traversal unclear."
+      ]
+    },
+    {
+      "id": "19-P02",
+      "kind": "sequence",
+      "style_id": "19",
+      "panel_id": "P02",
+      "candidate": {
+        "attempt_id": "19-P02-R",
+        "path": "production/visual-refinement/sequence-candidates/19-P02-R.png",
+        "sha256": "d873577d67a5d84be8bac4b1745f2491b1c9f609b484d2314a7f3b220f2db1e5",
+        "width": 1254,
+        "height": 1254,
+        "src": "../../../production/visual-refinement/sequence-candidates/19-P02-R.png"
+      },
+      "repair": {
+        "before": {
+          "attempt_id": "19-P02-P",
+          "path": "production/visual-refinement/sequence-candidates/19-P02-P.png",
+          "sha256": "b930ba2187f591fb9d4905689f1bca881a03513def38164b0c759af0a43367a6",
+          "width": 1254,
+          "height": 1254,
+          "src": "../../../production/visual-refinement/sequence-candidates/19-P02-P.png"
+        },
+        "after": {
+          "attempt_id": "19-P02-R",
+          "path": "production/visual-refinement/sequence-candidates/19-P02-R.png",
+          "sha256": "d873577d67a5d84be8bac4b1745f2491b1c9f609b484d2314a7f3b220f2db1e5",
+          "width": 1254,
+          "height": 1254,
+          "src": "../../../production/visual-refinement/sequence-candidates/19-P02-R.png"
+        },
+        "reason": "Two full wooden handles appear, one held in each hand, instead of one crank and one rim brace.",
+        "conditioning_notice": "The repair uses revised reference conditioning. This is not an identical-input experiment.",
+        "record_path": "production/visual-refinement/calls/19-P02-R.json",
+        "record_sha256": "3eb10c2e389bed60928663a7c8becbb26141971a9783804c9e614a35dc56ea93"
+      },
+      "ai_observations": [
+        "Invented second handle removed. One hand contacts wood and other touches bare rim; face/style preserved. Grip sits lower/inward versus frozen rim position and later remnant ownership/size still differs."
+      ]
+    },
+    {
+      "id": "19-P03",
+      "kind": "sequence",
+      "style_id": "19",
+      "panel_id": "P03",
+      "candidate": {
+        "attempt_id": "19-P03-P",
+        "path": "production/visual-refinement/sequence-candidates/19-P03-P.png",
+        "sha256": "3fca2e49cc900afa2681e7b3f9422a968a53d236f9e81be56c4f36d3794e8b3f",
+        "width": 1448,
+        "height": 1086,
+        "src": "../../../production/visual-refinement/sequence-candidates/19-P03-P.png"
+      },
+      "ai_observations": [
+        "Clear snapped ends and surprised face. Independent sleeve tracing identifies left-held remnant instead of prescribed right; scale increases across break."
+      ]
+    },
+    {
+      "id": "19-P04",
+      "kind": "sequence",
+      "style_id": "19",
+      "panel_id": "P04",
+      "candidate": {
+        "attempt_id": "19-P04-P",
+        "path": "production/visual-refinement/sequence-candidates/19-P04-P.png",
+        "sha256": "196dec9e2f7bfc21e8d4667f8889bd404fdb838808f617a671394f2de71f08b7",
+        "width": 1122,
+        "height": 1402,
+        "src": "../../../production/visual-refinement/sequence-candidates/19-P04-P.png"
+      },
+      "ai_observations": [
+        "Mara leans into wheel; near sandal partly covered by base/edge. Creature already under gate; mounted wood looks like an unbroken grip."
+      ]
+    },
+    {
+      "id": "19-P05",
+      "kind": "sequence",
+      "style_id": "19",
+      "panel_id": "P05",
+      "candidate": {
+        "attempt_id": "19-P05-R",
+        "path": "production/visual-refinement/sequence-candidates/19-P05-R.png",
+        "sha256": "74bf188166f45978d67404b64d25ce4d20cbe403a98acf0f42b137512ef7e6f5",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../../production/visual-refinement/sequence-candidates/19-P05-R.png"
+      },
+      "repair": {
+        "before": {
+          "attempt_id": "19-P05-P",
+          "path": "production/visual-refinement/sequence-candidates/19-P05-P.png",
+          "sha256": "a2f2ada6db7bc6c7138ec095d3eb88026b198899df8499b1c7404c65e1c3fb14",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/sequence-candidates/19-P05-P.png"
+        },
+        "after": {
+          "attempt_id": "19-P05-R",
+          "path": "production/visual-refinement/sequence-candidates/19-P05-R.png",
+          "sha256": "74bf188166f45978d67404b64d25ce4d20cbe403a98acf0f42b137512ef7e6f5",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../../production/visual-refinement/sequence-candidates/19-P05-R.png"
+        },
+        "reason": "Mara appears unsupported over canal water; Iven holds two wood pieces and creature travel reverses.",
+        "conditioning_notice": "The repair uses revised reference conditioning. This is not an identical-input experiment.",
+        "record_path": "production/visual-refinement/calls/19-P05-R.json",
+        "record_sha256": "528e3240c10c2cf23a5d3809dcfdb6e44292927c7f88b03eb2ce70966505c1db"
+      },
+      "ai_observations": [
+        "Connected dry stone support added under both Mara feet and extra held wood removed. Iven retains LEFT-hand piece, creature still faces left, and mounted grip orientation/state remains wrong. No second retry."
+      ]
+    },
+    {
+      "id": "19-P06",
+      "kind": "sequence",
+      "style_id": "19",
+      "panel_id": "P06",
+      "candidate": {
+        "attempt_id": "19-P06-P",
+        "path": "production/visual-refinement/sequence-candidates/19-P06-P.png",
+        "sha256": "a238ee0492a56f76a66cb83caaf68826e1609c7ce85abe672e2914a428f22c33",
+        "width": 1448,
+        "height": 1086,
+        "src": "../../../production/visual-refinement/sequence-candidates/19-P06-P.png"
+      },
+      "ai_observations": [
+        "Faces carry the final exchange at native size, though values are dark. Remnant and mounted crank look finished; creature again near gate facing left."
+      ]
+    }
+  ],
+  "plan_path": "production/visual-refinement/sequence-plan.json",
+  "dataset_sha256": "a5c96d8028d0b92d7f87682965f5533d0ed468ee7e197de60bfdc7d85ea6650e",
+  "available_count": 18,
+  "total_count": 18,
+  "owner_approval": null,
+  "production_accepted": false,
+  "study_details_available": true,
+  "results_available": true
+};

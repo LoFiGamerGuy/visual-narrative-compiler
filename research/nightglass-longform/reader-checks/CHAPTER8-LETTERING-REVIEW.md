@@ -1,0 +1,179 @@
+# Chapter8 editable lettering review
+
+First available opening: PASS, 1 of45 panels; Chapter8 remains incomplete. Snapshot `a2385ba2f89a35381c3cdd5f7ef7acc7d48a4b35deded3217cb58d360a0ba5d0`.
+
+Actually viewed the entire final N8-01 phone image and both sequential opening viewports at their original390px size. The longer Ossa line has its own wider balloon and balances two lines at16px. Its directional tail indicates Ossa; faces, hands, held wallet and sorting action stay clear. The caption establishes the tenth round. The title, premise, chapter navigation, beginning gap and explicit incomplete notice fit without overflow. The final individual differs in bytes from the provisional capture and was directly viewed separately; no byte-identity claim is made.
+
+The whole N7-01 source depicts closing the held wallet above the counter; it does not prove fastening at the waist or the hidden room key. Reattachment before02 is the authorized script state. No later art, whole Chapter8 reading, or completion is claimed.
+
+`chapter8-opening-reviewed/source-copy-check.json` verifies exact current copy/source, all306 previous chapter records, all18 comparison records, all257 prior overrides and all294 prior selected records unchanged. Baseline selection was copied from frozen7 commit2f21110 because root had already added8-01; that provenance is explicit. Browser capture reports no errors, broken images or horizontal overflow.
+
+Evidence: `chapter8-opening-reviewed/N8-01.png`, `opening-01/read-01.png`, `read-02.png`, original-size `inspection-1.jpg`, and bound `actual-review.json`. Only the new panel layout was added; previous lettering and pacing remain exact.
+
+## Opening meeting and separate room sample —4/45
+
+PASS after actual full native/crop views, allthree individual390 panels02/44/45 and allthree sequential sample viewports (two opening01–02; one room44–45). Snapshot `f0e2e1ade8bd286cc94855a4fdb9fcbc4171fff1bf6e89d42b206f3ffeaeb0fd`. Allthree final individuals are byte-identical to their actually viewed final layouts. Daro’s top tail indicates him; named tailless Sera bands avoid pointing toward feet or window hands. Narrowing/repositioning only45’s first balloon removed a one-word final line without changing copy. Spoken type remains16px.
+
+44 is a shallow silent wide: room and separate floor/desk belongings remain legible, while the tiny key is not strong phone evidence and boot bottoms lie outside the crop.45 protects both faces and bare ledge hands; its intact nearRIGHT sleeve is visible, while the farLEFTtear, desk wallet/key and floor belongings are outside frame. Those omitted belongings are established in44, not falsely repaired in45.02’s small tear/far cartwheel remain limited at390; the cart is parked, not rolling.
+
+The explicit03–43 artwork gap is visible above the separate ending sample. No whole Chapter8 read is claimed. Source/copy proof passes4/45, previousN8-01 whole record exact, all306 prior story/18comparison records and257 prior overrides/294 prior selected records exact. Browser errors, broken images and overflow remain zero. Evidence folder `chapter8-meeting-room-reviewed`, source-copy and actual-review receipts bind all captures.
+
+## Ordinary travel and washhouse approach —6/45 available,01–04 contiguous
+
+PASS after actually viewing both selected full crops, both individual390 phone images and allthree opening01–04 continuous viewports at original390px size. Snapshot `6ba17f4d62a52abbfe1ca7a7343a2bd7232abdfadd3afbc3d9067573d10e1d87`. Both final individuals are byte-identical to the actually inspected provisional images.03/04 remain silent, with no added copy or overlays.
+
+03 gives credible ordinary forward pulling after the parked meeting: Daro holds both handles, the cart stays empty, visible leading parking feet are raised and the near wheel is grounded. The far wheel remains occluded; no complete contact/count proof is claimed.04 clearly establishes the closed hatch beside the broad sill doorway, bench-side matte dry strip against the reflective wet work lane, and the trough on continuous paving. The subtle material boundary is less distinct atphone than fullnative; no dimensional or hydraulic claim. These two silent panels advance place and provide a welcome change after conversation.
+
+Allthree original-size columns in `chapter8-approach-reviewed/opening-01-04/inspection-1.jpg` were read, with the individual03/04 images separately inspected. This is only the contiguous opening; independent44/45 remain separate samples and05–43 are absent. Source/copy proof passes6/45 with the previousfour Chapter8 records,306 earlier story records,18 comparisons,257 prior overrides and294 prior selected records exact. Zero browser errors, broken images or overflow.
+
+## Edda and the continuing washhouse work —9/45 available,01–07 contiguous
+
+PASS after actual full05/06 selected-crop and07 native inspection, allthree individual390 final layouts, and allthree original-size04–07 continuous viewports. Snapshot `afd4dbd1d5ba05d102cdac1da36dd6929a5caa16a9b8315d6d72dcd269d8c7bb`. Both long speeches initially ended on single-word lines; narrower06/07 balloons now give balanced three-line copy at16px. Exact text remains unchanged.05/07 tails indicate Edda,06 top Daro, and06’s lower Edda reply uses a named tailless band. Hands, faces, stack and threshold traffic stay clear. Final individual bytes exactly match their actually viewed final layouts.
+
+The sequence grounds first-bell preference in real work: dry-side instruction, visit introduction, then outgoing empty basket, inward waiting tub and continued washing beyond. The cart remains empty and parked left of the passage. This is a visit, not accepted cargo. The caption marks second bell clearly. Actual wicker basket/raised working bench, partly occluded visitor boots, outgoing rearfoot and far tubhand remain qualified; no exact bench dimensions, complete crossing or two-hand tub grip proof.
+
+Allthree columns in `chapter8-workflow-reviewed/workflow-04-07/inspection-1.jpg` were actually read; the last pair differs22px because of the final clamp and is intentionally preserved. Source/copy proof passes9/45, allsix previous Chapter8 records and previous306 story/18comparison/257overrides/294selected exact. No errors, broken images or horizontal overflow.08–43 remain absent;44/45 are separate samples, not a complete chapter.
+
+## Honest limit, trial load and sill —13/45 available,01–11 contiguous
+
+PASS after actual full08–11 selected crops, allfour individual390 final layouts and allthree07–11 continuous viewports at original390px size. Snapshot `b831c6b7e58139329cac1ef0034b4beac3d5738912be62d35da6fe069a09ddbd`. Final individual bytes exactly match the inspected layouts.08’s Aren tail and two-line refusal remain clear.09’s Edda question aboveart followed by namedAREN/EDDA bands preserves the three-part exchange without covering faces, apronstack or emptyhands.10’s two-line owner/trial speech points toward Edda;11 uses a namedDARO band rather than a distant tail through the door. No exact-copy changes.
+
+The sequence clearly retains LowerPost priority while opening a practical conversation. Exactlytwo closed tied testwraps remain with Edda; no cargo transfer or openedcustomer goods is implied.11’s cart remains outside the intact sill with separation visible and a matte dry area under Edda. Hidden six-apron counts, occluded feet/gear and exactbench dimensions are not independently proved;08 regularizedLEFTtear shape retains its anatomical side.
+
+Allthree original-size columns in `chapter8-limit-load-reviewed/limit-load-07-11/inspection-1.jpg` were actually read. The earlier `chapter8-honest-limit-reviewed` capture is explicitly interim: root’s10/11 selections arrived during that build, before their lettering review. Its bytes remain preserved, and the currentcombined snapshot supplies the final verdict. Source/copy proof passes13/45 with allnine previous Chapter8 records and all306 earlier story/18comparison/257overrides/294selected exact. Zero browser errors/brokenimages/overflow. Independent44/45 remain separate;12–43 missing, no fullchapter claim.
+
+## The paid, bounded trial —16/45 available,01–14 contiguous
+
+PASS after actual full12/13 crop and14R1 whole-native inspection, allthree final390 individual layouts and allthree11–14 original-size continuous viewports. Snapshot `77fdbe42b8b5959e2df8e05d0cc3678f6a7e5609f184914e102a1454b6b49779`. Final individual bytes match the inspected final layouts.13’s top one-word ending was rebalanced into three lines;14’s lower one-word ending was rebalanced into two. No copy edits or omissions.
+
+12 distinguishes Aren’s possible carry from Sera’s observation. Both13 Edda lines are complete and legible: oneout-and-back to the trough, BOTH bundles back on the bench, payment EACH even if the attempt stops.14 keeps Daro’s third-bell job and Aren’s stop/return condition explicit. NamedDARO/AREN bands avoid false tails through the hatch or toward the loweredhandle. Edda’s load and supported dry area, faces, hands and cart remain unobscured. No custody transfer or open-endedjob acceptance occurs.
+
+Actual14 barehand-to-loweredhandle contact reads, while partialboot/farLEFTtear/gear occlusions and unmeasuredforecourt distance remain qualified. Allthree columns of `chapter8-trial-terms-reviewed/trial-terms-11-14/inspection-1.jpg` were actually read. Source/copy proof passes16/45, all13 previous Chapter8 records and old306story/18comparison/257overrides/294selected exact; no browser errors, brokenimages or overflow.15–43 absent,44/45 separate: no completechapter claim.
+
+## Ongoing work and supported first contact —18/45 available,01–16 contiguous
+
+PASS after actual entire15crop and666×29216insert inspection, bothindividual390 final layouts and bothoriginal-size14–16 continuous viewports. Snapshot `89ba082df8d14c5d25746f9f537d859bd9b3fa730ec8052a4a6f74590cb3f3ac`. Final individuals are byte-identical to the viewed layouts.15’s exacttwo-line Sera speech keeps normalwork running, with directional attribution towardSera and no coveredfaces/hands.16 stays silent and scales normally to390×171; no enlargement or newderivative was needed.
+
+Both closed tied wraps remain wholly visible in16. FIRSTbase rests onwood, SECOND staysseparate; Edda’s two barehands and Aren’s nearreceivingglove read clearly. His farforearm continues behindFIRST, but far glove/fingers are occluded. This is supported contact, not four independently visiblehands or freecarry proof. The fullR1’s wrongRIGHTupperarm tear stays rejected: this exactcontactcrop excludes it and does not claim garmentrepair. Faces/upperarms/feet/floor are outofframe;17 must show actualinside drysupport. Daro outside15frame and farLEFTtear/bagocclusion retain previousqualifications.
+
+Both columns in `chapter8-supported-contact-reviewed/supported-contact-14-16/inspection-1.jpg` were actually read.14consent→15normalwork→16supportedcontact flows clearly. Source/copy proof passes18/45 with all16previous Chapter8 records and all306earlierstory/18comparisons/257overrides/294selected exact; no browsererrors, brokenimages oroverflow.17–43 absent,44/45 separate; no fullchapter verdict.
+
+## Dry inside support after the handoff —19/45 available,01–17 contiguous
+
+PASS after actual whole17frame, individual390 and BOTH15–17 original-size continuous viewports. Snapshot `9326f214e1886e3fbc6d9fd363d791a127b771ac51d6b39cc931e05678342c14`. Silent17’s finalindividual is byte-identical to the inspected provisional. Bothboots clearly rest on matteDRYINSIDE floor beforethemain sill. Oneclosedwrap is heldbytwoactualgloves; the second stayswithEdda onbench. This fullbodyview supplies the supportcontext deliberatelyexcluded by16’s contactinsert, without implying loadedcrossing or magic.
+
+The15normalwork→16supportedcontact→17insidepause progression reads cleanly. Reconstructedrearwoodsurfaces remain qualified as ordinaryfurnishings rather than exactreconstruction; Darooutsideframing and partialemptycart do not establishallparkingwheels.17 does not retroactivelyrepair or prove the rejectedwhole16wardrobe. Bothcolumns in `chapter8-inside-support-reviewed/inside-support-15-17/inspection-1.jpg` were actuallyread. Source/copyproof passes19/45, all18previous Chapter8records and old306story/18comparisons/257overrides/294selected exact; zero browsererrors, brokenimages oroverflow.18–43absent and44/45 separate; no completechapter claim.
+
+## Notice the obstruction and return the load —21/45 available,01–19 contiguous
+
+PASS after actual full18/19selectedcrops, bothindividual390 and BOTH17–19original-size continuous viewports. Snapshot `1ac84c3d10aea432003937b5294e09c4b5fb13a24c45747ae1611a14e94b2e81`. Bothfinalindividuals byte-identical to the viewed layouts.18’s exact one-line speech at16px points toAren and leaves faces, gloves, floor and trafficclear. He staysinside withFIRST; outgoingbasket and inwardwaiting tubworker occupy the samemainopening.19’s reverseinsideview showsbothclosedwraps backonEdda’s bench, twoEMPTYArengloves and theworker leavingtowardvisiblecity.
+
+The17pause→18recognition→19return sequence reads without implyingloadedcrossing, collision or newbarrier. Activework conflict does not measurewidth or prove nobodycouldeverpass.19Eddalowerboots arebenchoccluded; original19P remainsselected, with no falsepixelidentity claim aboutthe repairedlower. Bothcolumns in `chapter8-doorway-stop-reviewed/doorway-stop-17-19/inspection-1.jpg` actuallyread. Source/copyproof passes21/45, all19previousChapter8records and old306story/18comparisons/257overrides/294selected exact; zero browsererrors/brokenimages/overflow.20–43missing and44/45separate, no fullchapter verdict.
+
+## Recognize the need and ask about the existing hatch —24/45 available,01–22 contiguous
+
+PASS after actual full20–22selectedcrops, allthree finalindividual390layouts and BOTH19–22original-size continuous views. Snapshot `b6400fb4869680533b67fae07fcf1836823c5807281f15edb9552ecfa8b877fd`. Finalindividuals byte-identical to viewed finalversions.21’s lone“bench?” and22’s lone“here.” endings were removed throughwidth adjustments only; exactcopy preserved.20AREN and22DARO lowernamedbands avoid tails towardobjects. Topdirections identifyEdda/Daro withoutcoveringsmallfaces orhatch.
+
+The progression is clear: returnedownerload, recognition of staffneed, Daro askingaboutthe existingCLOSEDhatch, thenEddaopeningherownLEFTleaf frominside. MainRIGHTdoor/staffpath staysseparate, and bothwrapsremainownerinside. Knownmendinguse/basketlimit plus smallwrap/outsidecartproposal remainfullylegible. No newhole, measuredwidth, loadedhandoff or futureconsignmentacceptance is claimed.22wall hidesEddafloor/boots; its smallbundleoutlines arelessdistinct than20’s clearpair and full22native, retainedwithoutfalsepixelclaims.
+
+Bothcolumns in `chapter8-existing-hatch-reviewed/existing-hatch-19-22/inspection-1.jpg` were actuallyread. Source/copyproof passes24/45, all21previousChapter8records andold306story/18comparisons/257overrides/294selected exact; zero browsererrors/brokenimages/overflow.23–43absent,44/45separate: no fullchapter verdict.
+
+## Conditional agreement and outside preparation —26/45 available,01–24 contiguous
+
+PASS after actual full23/24selectedcrops, bothindividual390 and BOTH22–24original-size continuousviews. Snapshot `91b853779e5b21d7fdb39d351b7dbb9e1c0d0d43b4d874cef9edb792435d78aa`. Finalindividuals byte-identical to the inspectedlayouts.23’s exactconditional statement fits two16pxlines, clearlyattributedtoEdda andprotectingcheekrest/expression/openhatch/twoownerwraps.24 remains silent withemptyArgloves, supportedoutsidefigures andemptyparkedcart; nohandoff occurs.
+
+22proposal→23conditionalpermission→24outsidepreparation reads coherently. ActualAren standsRIGHTofhatch ratherthanliterallybetweenhatch andLEFTcart; continuousclearpaving connects workpositions. Edda lowerbody/floorremainbehindwall,23cheekresttowardDaro isordinaryposevariation, andtinygarment details arestronger atnative. No personthroughhatch orfuturejobacceptance claim. Bothcolumns of `chapter8-conditional-method-reviewed/conditional-method-22-24/inspection-1.jpg` actuallyread. Source/copyproof passes26/45, all24previousChapter8records and old306story/18comparisons/257overrides/294selected exact; zero browsererrors/brokenimages/overflow.25–43absent,44/45separate: no fullchapter verdict.
+
+## First supported hatch handoff —27/45 available,01–25 contiguous
+
+PASS after actual whole25nativecopy, silentindividual390normalfit and the singleoriginal-size24–25continuous viewport (includingpreceding23tail). Snapshot `0569d20f7db16c1b71233b5850bbfa8a86615b8b07dd3b4e67d665670b3bd12a`. Finalindividual byte-identical to inspectedprovisional. At390×261 the FIRSTclosedwrap restsflat onstone, Edda’s two barehands and Aren’s two gloves arevisible, andSECOND staysinside. No lettering/enlargement needed. Outsideempty24setup→supported25handoff reads withoutpersonthroughhatch orloadinpersonalbag.
+
+Explicitcontinuitydeviation: the visiblebag isbulkier warmgray/brown withprominentattachedgrayfabricroll, not independentlythe exactearlierconstruction. The roll isnot eithertrialbundle. RIGHTweapon/frontcreamwallet arefar-sideoccluded andboots/flooroutside25framing;24suppliesoutsidecontext, not hiddengearproof. The original390column in `chapter8-hatch-handoff-reviewed/hatch-handoff-24-25/inspection-1.jpg` actuallyread. Source/copyproof passes27/45 with all26previousChapter8records andold306story/18comparisons/257overrides/294selected exact, zero browsererrors/brokenimages/overflow.26–43missing,44/45separate, no fullchapter verdict.
+
+## Place the first, carry the second —29/45 available,01–27 contiguous
+
+PASS after actual full26/27crops, bothindividual390finallayouts and thesingleoriginal-size25–27continuousviewport. Snapshot `a6d662d43104acd5c8dbd85902e5d9133e74aa9b1e1b9a5e28d3b0d51addc00e`. Finalindividuals byte-identical to the viewedversions.26silentFIRSTflatpad/twogloves plusSECONDownerinside reads atnormal390×128.27retainsFIRSTpad andSECONDtwoheldgloves, owneremptyhands andSLACKstrap. Daro’s exact16pxinstruction nowbalancedtwolines, single“clear.”ending removed bywidthonly; tail towardDaro, noartcovered.
+
+25contact→26placement→27secondcarry keeps exactlyTWOtestwraps distinct, with noearlystrapping, rolling ornewcargo. Personalbagroll remainsseparate fromtrialload. Wideframing excludesfeet/fullwheelcontacts;26exposedforearms/glove-lengthvariation retained andfrontwallet occluded, notmissing. Smallownerhands stronger atnative; hatch/custodychange readableatphone. Originalcolumn `chapter8-two-wrap-loading-reviewed/two-wrap-loading-25-27/inspection-1.jpg` actuallyread, including24tail. Source/copyproof passes29/45 withall27previousChapter8records andold306story/18comparisons/257overrides/294selected exact; zero browsererrors/brokenimages/overflow.28–43missing,44/45separate, no fullchapter verdict.
+
+## Secure both wraps before movement —30/45 available,01–28 contiguous
+
+PASS after actual whole28nativecopy, silentindividual390normalfit andsingleoriginal-size27–28readingviewport (also25tail/26). Snapshot `887ba026973000424f4b407c51938905dc06ddc9ca377889a9946278db8451a5`. Finalindividual byte-identical to inspectedprovisional. ONEbrown retainingband runsvisibly overBOTHbundle tops/seam anddowncartside, distinctfromtwo bluegraycloth ties. Daro’s twobarehands checkbuckle; ArenhandsEMPTY; bothwrapsclosedsidebyside.27secondheld→28bothpad/belt reads. No text/imagechange needed.
+
+Exactshortbuckle/endthreading underhands isnot independentlyproved. Bedparkingposts andlongloweredhandles arestationarysupport, notrollingclearanceproof. Bagconstructiondeviation remainsqualified, noextraownerload orcapacityclaim. Originalcolumn `chapter8-secured-load-reviewed/secured-load-27-28/inspection-1.jpg` actuallyread. Source/copyproof passes30/45, all29previousChapter8records andold306story/18comparisons/257overrides/294selected exact; zero browsererrors/brokenimages/overflow.29–43missing,44/45separate,no completechapter verdict.
+
+## Ordinary rolling, with construction drift —31/45 available,01–29 contiguous
+
+QualifiedPASS after actual whole29nativecopy, silentindividual390 andsingleoriginal-size28–29readingviewport (also27). Snapshot `e3513e8581a744263f27971b851b0fd091b5d77279c14c160764ea02c7aabf7c`. Finalindividual byte-identical to inspectedprovisional. Twoactualgrippedshafts, bothwheelrims meetingtheirpavingplanes andairunderbothrigidposts give ordinarymovement atphone. TWOclosedwraps/ONEcrossbelt remain, noextra freeshaft/levitation/passenger.28securedparked→29ordinarypull reads.
+
+Explicitconstructiondrift: handleattachments areHIGHER andbednearlylevel, NOT proof of28’s originallower-mount mechanism rotatingrigidlyabouttheaxle. Actualtravel isbesidetrough towardnear/rightforecourt, notastraightapproachvector;30muststop atSAMEboundary. Farwheelcontact remainsperspective-dependent andpostclearance tinyatphone; no measuredangles/clearance claim. Originalcolumn `chapter8-ordinary-roll-reviewed/ordinary-roll-28-29/inspection-1.jpg` actuallyread. Source/copyproof passes31/45, all30previousChapter8records andold306story/18comparisons/257overrides/294selected exact; zero browsererrors/brokenimages/overflow.30–43missing,44/45separate,no fullchapter verdict.
+
+## Stop at the same trough boundary —32/45 available,01–30 contiguous
+
+QualifiedPASS after actual whole30nativecopy, individual390 andsingleoriginal-size29–30readingviewport (also28tail). Snapshot `ade06dc22969dc72da047f181128dcf3c102e2c9b6357bf75ad166edad7c8afa`. Finalindividual byte-identical to inspectedprovisional. SAMEtrough/daylight andpedestrianpassing remain clear, TWOwrapsclosed/secured andownerathatch. Daro’s exacttwo-line16pxspeech/tail identifieshim withoutcoveringfaces orsupport.29ordinaryroll→30loweredhandles/stop reads aslocalpassingtest, notdelivery ortravelbeyondboundary.
+
+Explicitconstructiondrift: originalNEARparkingpost isvisiblyABSENT, notoccluded orfaithfullypreserved. Remainingtwo wheelcontacts/two plantedhandleends/farpost giveobservableordinarysupport; no wholechassis/metricreconstruction claim. Original390column `chapter8-trough-stop-reviewed/trough-stop-29-30/inspection-1.jpg` actuallyread. Source/copyproof passes32/45 with all31previousChapter8records andold306story/18comparisons/257overrides/294selected exact; zero browsererrors/brokenimages/overflow.31–43missing,44/45separate,no fullchapter verdict.
+
+
+## Return both test wraps to their owner — 34/45 available, 01–32 contiguous
+
+PASS after actual full selected 31/32 crop inspection, both individual 390px layouts and both original-size continuous 30–32 viewports. Snapshot `bc5034126ab1808ad1c4d906326ee5d1aa01c1d65eb7d757740b0e01f316ae01`. Final individual bytes exactly match the viewed layouts. Silent31 shows the first wrap meeting the fixed stone sill with four visible hands; the second remains on the cart pad beside the slack strap. In32 both closed wraps are back on the wooden owner bench under Edda’s two hands, while the empty gray cart pad and slack strap remain visible through the hatch. Her exact two-line 16px result and tail are clear without covering face, hands or load. No copy/layout correction was needed.
+
+31’s rear/left base visibly meets stone; its foreground glove hides the front base, so entire-base contact is not claimed. Feet and full cart hardware remain outside this crop. The bulkier gray-brown personal bag/attached roll remains a disclosed construction deviation, separate from trial cargo; far-side weapon/wallet occlusion is not independent gear proof.32’s additional furnishings do not establish an exact interior floor plan. Closed-wrap condition is external observation, not proof of unseen contents or successful future jobs.
+
+Both original390 columns in `chapter8-owner-return-reviewed/owner-return-30-32/inspection-1.jpg` were actually read. The stop→supported return→owner result progression is coherent. Source/copy proof passes34/45 with all32 previous Chapter8 records and old306 story/18 comparison/257 overrides/294 selections exact; zero browser errors, broken images or overflow.33–43 remain absent and44/45 separate; no complete-chapter claim.
+
+
+## Agree a limited collection method — 36/45 available, 01–34 contiguous
+
+PASS after actual full selected33/34 crops, both individual390 layouts and both original-size32–34 continuous viewports. Snapshot `41d1f9dbaea75969a6d71e46f2dfcdd2739fb8338ae480dcc7627ef4040e85b4`. Final individual bytes match the actually viewed layouts.33’s owner-present agreed handover and no unattended stack condition are complete.34’s Aren balloon was narrowed to three balanced16px lines without changing copy; Edda’s named tailless lower reply avoids an arm/object-pointing tail and protects cheek-rest, empty glove and retained goods.
+
+The completed trial leads to a limited method/window agreement: after Lower Post, second-to-third bell, small dry bundles and Edda’s actual handover. No unspecified next consignment is accepted. Both wraps remain owner-inside, cart empty and Sera’s own ledger closed.33 hides Edda’s lower-body support and most far-side RIGHT sheath;34 shows the raised empty RIGHT glove, not the later rest moment. Its closed cream wallet is clear, while the full bundle pair is established33 rather than independently in the closer34 frame. Personal bag construction drift remains qualified.
+
+Both columns of `chapter8-collection-terms-reviewed/collection-terms-32-34/inspection-1.jpg` were actually read. Source/copy proof passes36/45 with all34 previous Chapter8 records and old306 story/18 comparison/257 overrides/294 selections exact; zero browser errors, broken images or overflow.35–43 remain absent and44/45 separate; no complete-chapter verdict.
+
+
+## Peer terms and a restrained observation — 38/45 available, 01–36 contiguous
+
+PASS after actual full selected35/36 crops, both exact final individual390 files and both original-size34–36 continuous viewports. Snapshot `4a118488c449391329e4dea5bd77c2ea138bd18c5b6a9e388fd4732920d6754c`.35’s provisional tail pointed toward the wall lamp, so Daro now has a named tailless top band. Aren’s reply was narrowed into two balanced16px lines, removing the lone“price.” ending. All exact copy is unchanged.36 final bytes differ from its first provisional after the upstream35 layout change; both exact final individual files were directly viewed and match second-provisional bytes.
+
+Daro’s supported crouch and bare hand on the lowered shaft remain clear while his independent destination/hours/price boundary reads. Near shaft junction is behind his body, not independently proved.36’s single ledger is visibly V-open with pale pages at390, left support and right pen near the leaf. Exact nib contact is partly finger/cover occluded, not claimed microscopically. Sera’s two-part observed note protects hands/book and produces no permission slip, rank or certificate. Both wraps remain with Edda and cart empty. Owner lower-body support and RIGHT sheath remain occluded/outside frame; earlier personal bag construction drift persists.
+
+Both original390 columns of `chapter8-peer-observation-reviewed/peer-observation-34-36/inspection-1.jpg` were actually read. Source/copy proof passes38/45 with all36 previous Chapter8 records and old306 story/18 comparison/257 overrides/294 selections exact; zero browser errors, broken images or overflow.37–43 absent and44/45 separate; no full-chapter verdict.
+
+
+## Pay Daro for the agreed trial — 39/45 available, 01–37 contiguous
+
+PASS after actual whole37 source, individual390 and both original-size36–37 continuous viewports. Snapshot `32567ea2ab33df3ef1648049296a58c177a3f5bf7c77c839129e6cb1f2d43d84`. Final individual bytes match the viewed provisional. Edda’s RIGHT-hand coins visibly meet Daro’s LEFT palm; his RIGHT hand stays empty. Open mulberry pouch, two retained owner wraps and empty cart remain clear. Her exact two-line16px speech acknowledges that the stopped attempt counted; no copy or layout correction needed.36’s open observation ledger becomes Sera’s closed retained book in37, while Aren’s own waist wallet remains closed.
+
+No fee amount, denomination or hidden inventory is proved. Aren’s small background wallet is narrower/vertical in appearance, retained as a qualification. Both original390 columns in `chapter8-daro-fee-reviewed/daro-fee-36-37/inspection-1.jpg` were actually read; they differ by only13px because the857px segment barely exceeds the844px viewport, not distinct story sections. Source/copy proof passes39/45 with all38 previous Chapter8 records and old306 story/18 comparison/257 overrides/294 selections exact; zero browser errors, broken images or overflow.38–43 absent and44/45 separate; no full-chapter verdict.
+
+
+## Aren’s separate trial payment — 40/45 available, 01–38 contiguous
+
+PASS after actual whole selected38R1, individual390 and the single full37–38 original-size viewport, including36’s tail. Snapshot `30d7a4d4144f8002a2e8604d0eebc371ea19320f84b2594cf657df30e689c580`. Final individual bytes match the viewed provisional. Edda’s RIGHT-hand coins enter ONE open cream wallet held in Aren’s LEFT glove; no waist duplicate and his RIGHT glove empty. Exact short speech and tail identify Edda without covering faces, wallet or contact. No lettering correction needed.
+
+The consecutive payments remain distinct fees for their agreed trial time. Daro’s fee is already secured, Sera keeps her closed ledger, both returned wraps stay with Edda and cart empty. Far LEFT upper tear is torso-occluded, not visibly restored; lower contacts outside frame, RIGHT sleeve intact and RIGHT sheath visible. No loose key, unseen key proof, exact fee amount or denomination claim. The original390 column of `chapter8-aren-fee-reviewed/aren-fee-37-38/inspection-1.jpg` was actually read. Source/copy proof passes40/45 with all39 previous Chapter8 records and old306 story/18 comparison/257 overrides/294 selections exact; zero browser errors, broken images or overflow.39–43 absent and44/45 separate; no full-chapter verdict.
+
+
+## Paid departure and honest reflection — 42/45 available, 01–40 contiguous
+
+QualifiedPASS after actual entire selected39R1/40P crops, both individual390 layouts and both original-size38–40 continuous viewports. Snapshot `0ddbac913c77989df3be4c7f23129e1be0968411d65e898149b6ca0737b27db4`. Final individuals match viewed provisional bytes.39 shows Daro’s two bare grips, Aren empty hands/closed waist wallet, owner-retained wraps and empty cart. Exact Edda/Aren exchange uses a top directional tail and named lower response.40 Aren’s top tail and named Daro reply keep the quiet recognition clear without covering faces, hands or parked two handles. No lettering correction needed.
+
+Candid material appearance limitation:40 visibly OMITS the old anatomical LEFT upper sleeve tear on exposed checked cloth. It is not occluded, restored or repaired; persistent damage continuity is weak.39’s outer upper arm partly overlaps Daro, so its old tear is not independently proved. Ordinary rolling in39 retains higher-handle construction drift, not faithful rigid tilt; near wheel meets paving at the lower image edge. These limitations do not obscure the paid local outcome or stopped conversation. Sera keeps her closed ledger and no new consignment is accepted.
+
+Both original390 columns in `chapter8-departure-reflection-reviewed/departure-reflection-38-40/inspection-1.jpg` were actually read. Source/copy proof passes42/45 with all40 previous Chapter8 records and old306 story/18 comparison/257 overrides/294 selections exact; zero browser errors, broken images or overflow.41–43 absent and44/45 separate; no full-chapter verdict.
+
+
+## A stationary farewell before Daro’s next job — 43/45 available, 01–41 contiguous
+
+PASS after actual whole41R1, individual390 and both original-size40–41 continuous viewports. Snapshot `6d550ae219702824cc1b38e7d5d2747546b4c8836e353b7b4e35927f9dcfbea3`. Final individual bytes match the viewed provisional. Daro’s RIGHT farewell and empty LEFT hand accompany a grounded empty cart with TWO lowered shafts; no one-handed rolling is implied. His exact two-line speech and Aren’s named short reply remain clear without covering gestures or support.41 shows the LEFT upper tear again with RIGHT sleeve intact and closed waist wallet; this does not erase40’s documented missing-tear frame.
+
+Daro’s far boot is partly cart-occluded and far handle tip at the image edge, not proof of every contact. Cart construction still varies from older lower mounting, and worn bag remains partly hidden. Both original390 columns of `chapter8-daro-farewell-reviewed/daro-farewell-40-41/inspection-1.jpg` were actually read. Source/copy proof passes43/45 with all42 previous Chapter8 records and old306 story/18 comparison/257 overrides/294 selections exact; zero browser errors, broken images or overflow.42/43 missing and44/45 separate; no full-chapter verdict.
+
+
+## Complete45-panel reading and final inquiry
+
+Qualified PASS after actual fresh all26 sequential390 viewports in seven original-size composites, final42/43 individual layouts and all three41–45 transition views. Snapshot `92a897878d554d112ca9cb597cf25330f13f793ef0ca8851a7ff0b488b3fd1e4`. Full verdict, six handoff questions, pacing critique and candid appearance/geometry limitations: `chapter8-full-review/ACTUAL-FULL-READING.md` and hash-bound `actual-reading-review.json`.43 uses a named Sera top band to avoid a sign-pointing/distant tail; exact copy remains unchanged. The observed trial, owner return, two fees, retained Lower Post/room, Daro’s independent job and next-day assessment inquiry all read.
+
+All45 sources/copy and all prior43 Chapter8 records/old306 story/18comparison/257overrides/294selected records pass preservation. All53 copy elements16px and inside390. Current completion status remains false until root’s final gate; no metadata change by this worker.

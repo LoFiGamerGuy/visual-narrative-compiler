@@ -1,0 +1,29 @@
+{
+  "id": "N3-20-v2-R1",
+  "status": "returned",
+  "phase": "structural_repair",
+  "repair_of": "N3-20-v2-P",
+  "tool": "built-in image_gen",
+  "model": null,
+  "cost": null,
+  "panels": [
+    "N3-20"
+  ],
+  "args": {
+    "prompt": "Use case: precise-object-edit. ONE targeted structural repair of this source panel. Preserve the entire image except the WRONG HIP placement of the sheathed sword. Aren faces the viewer here: his anatomical RIGHT side is on the VIEWER LEFT. Currently the scabbard is wrongly beside his torn LEFT sleeve on viewer right. Remove that LEFT-hip scabbard/hilt completely, restore the underlying trousers naturally, and put the SAME single sheathed crescent at his anatomical RIGHT hip on VIEWER LEFT, alongside the INTACT sleeve. Same handle and brass-ended dark scabbard, properly attached to his existing belt, blade fully inside. No drawn or duplicate sword. Do not mirror the image or character. Do not move the old LEFT elbow tear: it correctly stays on VIEWER RIGHT. Keep RIGHT sleeve intact on viewer left. Keep both empty gloved hands anatomically unchanged, body/face/pose/feet unchanged. Preserve both boot soles supported on the actual right destination shelf, exposed air gap left, ONE central socket behind him, same dark side-hung lamp on rear black upright, closed gray back bag/two broad brown straps/hip belt, badge and red cord, empty stationary car below. NO cyan line or glow. No new floor, hand, post, load, weapon or people. Same quiet settled arrival after release and sheathing, before unpacking. No text or balloons. This is only a weapon-side correction, not a redraw of the scene or a texture pass.",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter3/lead/candidates/N3-20-v2-P.png"
+    ]
+  },
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter3/lead/candidates/N3-20-v2-P.png",
+      "sha256": "3a9395468283eae49e857001f5754f4a91f3cf8bdd35bbef6e7601d5540d381a"
+    }
+  ],
+  "reason": "Primary support/time/state correct but anatomical LEFT hip sword. Sole v2 structural repair moves same fully sheathed sword to RIGHT hip, preserves correct LEFT tear and everything else.",
+  "native": "production/nightglass-longform/chapter3/lead/candidates/N3-20-v2-R1.png",
+  "sha256": "af02d67f002f92991d8563fcdbc2fb9033cfb3d8d8d414a7f93d803a2bf66a49",
+  "tool_native": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-0026b683-2da3-4287-ae29-6af47526a828.png",
+  "inspection": "Lead actual view: both soles on correct original RIGHT destination shelf, gap preserved, one socket avoided, same dark rear lamp/carEMPTY. RIGHT hip now owns one brass-ended sheathed sword; wrong long brass-ended left sword gone, some old flat thigh straps remain. Correct LEFT tear/right intact/empty hands/closed back bag/lineOFF. Tentative select pending independent final review; no second repair permitted."
+}

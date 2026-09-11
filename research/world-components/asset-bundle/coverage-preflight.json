@@ -1,0 +1,15 @@
+{
+  "schema": "WorldComponentBundleCoverage/1",
+  "pass": true,
+  "tracked_and_untracked_source_files": 225,
+  "archive_files": 391,
+  "missing_source_files": [],
+  "launcher_mapping": "research/world-components/asset-bundle/START_HERE.cmd -> archive root START_HERE.cmd",
+  "scope": [
+    "production/world-components/",
+    "research/world-components/",
+    "docs/world-components/"
+  ],
+  "excluded": "Runtime/scratch/local caches and original tool directories; root ACTIVE_PIPELINE.md is a repository index, not required by the standalone study. Archive receipts are emitted after freeze and accompany the ZIP.",
+  "portable_dependencies": "Reader builder resolves its root from parents[3]; archive helper from HERE.parents[2]. Relative source bindings are included. Preservation checker is original-workspace audit tooling, not required for portable viewing or rebuild."
+}

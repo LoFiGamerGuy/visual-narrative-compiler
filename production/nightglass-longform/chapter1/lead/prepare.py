@@ -1,0 +1,16 @@
+import json,hashlib,sys
+from pathlib import Path
+r=Path(__file__).resolve().parents[4];d=Path(__file__).parent
+job=sys.argv[1]
+s=json.loads((r/'production/nightglass-longform/scripts/chapter-1.json').read_text())['panels']
+config={
+ 'aftermath':([35,36,37],['production/pilot-chapters/references/anchor-01.png','production/pilot-chapters/candidates/NG-SHEET-P.png','production/nightglass-longform/comparison/A/candidates/A-N1-34-R1.png'],'Three wide horizontal tiers stacked vertically, crisp narrow dark gutters. Frame1 close left-profile Aren rueful face and torn LEFT elbow: sword ALREADY SHEATHED outside crop, hands out of crop. Frame2 very tight object insert: TWO gloved hands holding BLACK silver broken-circle envelope at chest, left elbow torn cloth at left edge. Frame3 wide passage: Aren lifts latch LEFT hand, blade sheathed, envelope hidden, Pell and Sera descend through open wicket. Sera adult slim woman short dark auburn-red bob in practical burgundy coat with ledger; Pell older gray-haired mustard work jacket. Source3 supplies exact current tear and landing only. Do NOT show any cyan line in these three frames. Empty left-hand glove shape must never become extra limb.'),
+ 'rescue16':([16],['production/pilot-chapters/references/anchor-01.png','production/pilot-chapters/candidates/NG-SHEET-P.png'],'ONE WIDE HORIZONTAL panel, close physical contact and both separate endpoints. Dramatic actual huge transparent glass ray outside suspended car roof, Aren braces against lower beak. The line is an EXTERNAL TETHER from round pommel BEHIND anatomical RIGHT fist up-right to fixed metal post at higher ledge. The crescent cutting blade in front of that fist touches beak down-left, the line and beak cannot overlap. Left hand braces roof. Show Pell mustardcoat inside open hatch behind him. Keep only these people. Ivory hem snags/torn, sleeves intact.'),
+}
+ids,refs,extra=config[job];paths=[r/x for x in refs]
+prompt='''Use case: illustration-story. Nightglass Courier sequential comic artwork; preserve elegant appealing adult anime cast, fine controlled ink drawing, inhabited vertical navy-blue night city with warm amber windows. Reference1 is the original drawing/world benchmark, reference2 stable cast/gear only (no spare characters, ray or rigs unless action requires), reference3 if provided is observed state only, not a request to repeat its composition. Aren: slim black-haired adult, ivory waist jacket over black high-neck, black trousers and gloves, red waistcord. One crescent short sword, one ring at rear pommel. Rich through composition/depth and selective detail, broad calm shapes on cloth/stone, avoid pervasive speckle. NO TEXT, NO SPEECH BUBBLES, NO LOGO. Upper quiet negative area for later editable copy in each frame, without shrinking characters. '''+extra+'\n'
+for i in ids:
+ p=s[i-1];prompt+=f"Story frame {i}: {p['action']}\nCURRENT STATE: {p['current_state']}\nCamera: {p['camera']}\n"
+args=dict(prompt=prompt,referenced_image_paths=[str(x) for x in paths]);rec=dict(id=job+'-P',status='prepared',tool='built-in image_gen',model=None,cost=None,panels=[f'N1-{x:02}' for x in ids],args=args,references=[dict(path=str(p.relative_to(r)),sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in paths])
+(d/'calls'/f'{job}-P.json').write_text(json.dumps(rec,indent=2))
+print(json.dumps(args))

@@ -1,0 +1,6 @@
+{
+  "status": "preserved initial fixture assertion failure; helper correctly rejected case clash",
+  "cause": "On the Windows-mounted filesystem, Path.exists for lowercase production also observes existing uppercase Production, so the assertion incorrectly assumed case-sensitive lookup.",
+  "fix": "Assert exact retained directory entry spelling and that no descendants were extracted.",
+  "production_archive_created": false
+}

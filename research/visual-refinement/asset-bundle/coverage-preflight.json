@@ -1,0 +1,43 @@
+{
+  "schema": "PortableSourceCoveragePreflight/1",
+  "at_utc": "2026-09-07T17:42:53.666370+00:00",
+  "status": "pass",
+  "scope": [
+    "production/visual-refinement",
+    "research/visual-refinement",
+    "docs/research/visual-refinement"
+  ],
+  "command": "git ls-files -z --cached --others --exclude-standard -- production/visual-refinement research/visual-refinement docs/research/visual-refinement",
+  "trackable_file_count": 259,
+  "same_path_covered_count": 256,
+  "explicit_exceptions": {
+    "research/visual-refinement/asset-bundle/archive-receipt.json": "External final ZIP receipt; written after archive to avoid recursive archive hash. Prior v2 copy preserved inlocal/final-v2 and replaced after v3 verifies.",
+    "research/visual-refinement/asset-bundle/verification.json": "External post-build verification receipt; written after archive/fresh rebuild. Prior v2 copy preserved inlocal/final-v2.",
+    "research/visual-refinement/asset-bundle/START_HERE.cmd": "Mapped byte-identically to archive root START_HERE.cmd for Windows extraction entry point."
+  },
+  "missing_unexplained": [],
+  "mjs_included": [
+    "production/visual-refinement/sequence-design/shot-controls/render_svg.mjs",
+    "research/visual-refinement/independent-review/cdp.mjs",
+    "research/visual-refinement/reader/browser_qa.mjs",
+    "research/visual-refinement/reader/notes_qa.mjs",
+    "research/visual-refinement/sequence-design/actual-review/capture_phone.mjs",
+    "research/visual-refinement/sequence-design/actual-review/capture_phone_repairs.mjs"
+  ],
+  "config_basenames_included": [
+    "docs/research/visual-refinement/.gitattributes",
+    "docs/research/visual-refinement/.gitignore",
+    "production/visual-refinement/.gitattributes",
+    "production/visual-refinement/.gitignore",
+    "production/visual-refinement/sequence-design/shot-controls/.gitignore",
+    "research/visual-refinement/.gitattributes",
+    "research/visual-refinement/.gitignore",
+    "research/visual-refinement/asset-bundle/.gitignore",
+    "research/visual-refinement/sequence-design/actual-review/.gitignore",
+    "research/visual-refinement/sequence-design/shot-controls/.gitignore"
+  ],
+  "native_generation_count": 50,
+  "copied_reference_count": 13,
+  "helper_sha256": "c137618830c8c6f470974b5a748f5449f1473a3cf76285b55671e635e59e587a",
+  "additional_payload": "Ignored native PNGs/current experiment raster copies; all source-bound in final manifest. Asset-bundle local runtime/archive/restorations intentionally excluded."
+}

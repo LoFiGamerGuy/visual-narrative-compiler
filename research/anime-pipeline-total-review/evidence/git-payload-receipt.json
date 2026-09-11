@@ -1,0 +1,106 @@
+{
+  "schema": "PayloadGitReceipt/1",
+  "verified_utc": "2026-09-07T02:55:52.393314+00:00",
+  "source_commit": "99cb5e9e37c211965a01213a6f7af7103aee8cf3",
+  "payload_commit": "083f87d0acc5cedf29ff274921f162f12144fde0",
+  "remote_payload_head": "083f87d0acc5cedf29ff274921f162f12144fde0",
+  "payload_parity": true,
+  "branch": "autonomous/anime-pipeline-total-review-20260907-014149",
+  "protected_ref_deltas": {
+    "refs/heads/autonomous/anime-pipeline-total-review-20260906-211925": {
+      "before": "99cb5e9e37c211965a01213a6f7af7103aee8cf3",
+      "after": "9e2fff7b03672073316c4413cdd1d08ceed58be7"
+    },
+    "refs/heads/autonomous/anime-pipeline-total-review-20260907-014149": {
+      "before": null,
+      "after": "083f87d0acc5cedf29ff274921f162f12144fde0"
+    },
+    "refs/remotes/origin/autonomous/anime-pipeline-total-review-20260906-211925": {
+      "before": null,
+      "after": "9e2fff7b03672073316c4413cdd1d08ceed58be7"
+    },
+    "refs/remotes/origin/autonomous/anime-pipeline-total-review-20260907-014149": {
+      "before": null,
+      "after": "083f87d0acc5cedf29ff274921f162f12144fde0"
+    }
+  },
+  "post_payload_push_protected_head_status_checks": [
+    {
+      "name": "anime-pipeline",
+      "head": "40e7940016ea3c3966752b61f55a931f91a13ac7",
+      "head_unchanged": true,
+      "status_unchanged": true,
+      "current_status_sha256": "851907612f236d603ff4595331d159c949f3cf823fb04befa1a752fa83720a59",
+      "authorized_incident": false
+    },
+    {
+      "name": "anime-pipeline-ember-lattice-editorial-gear-20260904",
+      "head": "99cb5e9e37c211965a01213a6f7af7103aee8cf3",
+      "head_unchanged": true,
+      "status_unchanged": true,
+      "current_status_sha256": "63b4f38b6af283f5da9ed6174b8f41433e0c809c0ecfa5344a72343b33ccae58",
+      "authorized_incident": false
+    },
+    {
+      "name": "anime-pipeline-ember-lattice-premium-rd-20260904-150943",
+      "head": "fb10c87f974db4e02d8166b80b9489ef47af8f40",
+      "head_unchanged": true,
+      "status_unchanged": true,
+      "current_status_sha256": "ba2c2a1c1b2a1d04c81ac1889b0f202f919ec062e54e876e5dd5279438b2550d",
+      "authorized_incident": false
+    },
+    {
+      "name": "anime-pipeline-litrpg-manhwa-20260904-001211",
+      "head": "023330e8b62335d27fee4d7369e2a0201a0e22d6",
+      "head_unchanged": true,
+      "status_unchanged": true,
+      "current_status_sha256": "26b2847bdcfb10373de367b212a4b185b3e4ebfb396b426bf629505f5db1ed06",
+      "authorized_incident": false
+    },
+    {
+      "name": "anime-pipeline-reimagining",
+      "head": "40e7940016ea3c3966752b61f55a931f91a13ac7",
+      "head_unchanged": true,
+      "status_unchanged": true,
+      "current_status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "authorized_incident": false
+    },
+    {
+      "name": "anime-pipeline-reimagining-20260903",
+      "head": "fa6650a4f8e51e7d1138ea2c207fd560411f023a",
+      "head_unchanged": true,
+      "status_unchanged": true,
+      "current_status_sha256": "d57611cf3f8d72a104c3362a313a0e565e1673725d7e17f527051612ddd697d9",
+      "authorized_incident": false
+    },
+    {
+      "name": "anime-pipeline-reimagining-clean-webtoon-20260903-213010",
+      "head": "d1cfa464be3508809b2a6c7150ef0b29262772ca",
+      "head_unchanged": true,
+      "status_unchanged": true,
+      "current_status_sha256": "b4e2b66b72c98bbb2217925340b6048b2b4c366adf761822a7f16875ec556699",
+      "authorized_incident": false
+    },
+    {
+      "name": "anime-pipeline-total-review-20260905-092558",
+      "head": "99cb5e9e37c211965a01213a6f7af7103aee8cf3",
+      "head_unchanged": true,
+      "status_unchanged": true,
+      "current_status_sha256": "4040017002d757a82fa042c712bc80406bb20568940d0731436176cf1d917ec3",
+      "authorized_incident": false
+    },
+    {
+      "name": "anime-pipeline-total-review-20260906-211925",
+      "head": "9e2fff7b03672073316c4413cdd1d08ceed58be7",
+      "head_unchanged": false,
+      "status_unchanged": false,
+      "current_status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "authorized_incident": true
+    }
+  ],
+  "protected_full_file_comparison": "protected-state-comparison-handoff.json",
+  "strict_preservation_pass": false,
+  "authorized_exception": "preservation-exception-disposition.json",
+  "final_delivery_commit": "The enclosing receipt commit, resolved by git rev-parse HEAD. Exact final SHA/parity is in final owner handoff and local ignored .scratch/handoff-final.json; this payload receipt does not claim to hash itself.",
+  "paid_cloud_spend_usd": 0
+}

@@ -1,0 +1,1 @@
+V03-F1 was frozen in edits-02-jobs.json against V03-P but never called. A structural correction was subsequently required. Its exact unused prompt is retained here; the executed F1, if generated, references V03-R1 through the later edits-05 job. The old job retains its original intended path and embedded exact prompt. No generation attempt was discarded.

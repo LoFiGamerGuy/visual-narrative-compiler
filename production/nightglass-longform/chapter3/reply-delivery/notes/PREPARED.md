@@ -1,0 +1,15 @@
+# Reply delivery35–37 preparation
+
+Read exact authoritative35–37 actions/copy/state. No central script defect found: sealed reply arrives35; reply and still-folded enclosure are separate on Ossa table36; only delivery receipt returns Aren37, official reply stays Lower Post. The local payoff survives the later closure hook. Generation held until selected34 proves actual bag/counter arrival.
+
+Plan35–36 coherent pair, then37 single after the pair is selected. More space for36's four distinct faces than35's intimate two-person handoff. No generation yet.
+
+Viewed references: selected32 exact cream envelope/blue seal detail; Chapter3 opening03 Rusk workshop identity, opening04 Ossa/Aren/table identity; selected28 Ossa/Hessa/Dain and newly usable wood receiving hatch. Latest34 will govern the immediate lower counter/bag/custody geometry. Use newer Rusk gray hair/mustard shirt/blue apron from selected27/21 as current appearance; do not confuse him with Pell's gray hair/mustard coat/black straps.
+
+35: one still-sealed cream envelope with the same triangular flap/plain blue circular seal transfers from Aren to Ossa's two supporting hands over her sorting counter. Aren's gray bag is now empty on the same counter; no yellow folder or black Chapter1 offer appears. Ossa is the silver-braided older woman in gray blouse/indigo apron, not Maret or the earlier silver-bun recipient. Neighbors wait in the warm hall. No opening yet, no duplicate envelope.
+
+36: settled reading moment after ordinary opening. Ossa reads the unfolded substantive reply on table; Rusk, Hessa and Dain lean toward it with sincere relief. Four distinct faces: Rusk older gray/wavy hair, beard, mustard shirt/blue apron; Hessa brown skin/dreadlocks/red outer wrap; Dain bald/dark robe; Ossa silver braid/indigo apron. The ONE opened cream envelope remains on table with its blue seal visibly disturbed/opened. The closure-copy enclosure stays folded partly UNDER that envelope, never opened/read. Reply is separate, larger unfolded white sheet. No visible district names or additional incoming letter; Rusk's line means his daughter can write to his recognized address. Aren can remain outside this close four-person camera.
+
+37: use the handoff instant after signing. Ossa's one palm visibly keeps the larger original reply on her table while her other hand passes one smaller narrow already-signed receipt toward Aren's anatomicalLEFT hand. Both two-person faces and the separate retained reply must be readable. Aren's cream wallet stays with him; no simultaneous receiving-and-wallet-stowing needed. Opened cream envelope and still-folded enclosure stay with Ossa; receiving hatch remains open behind her. RIGHT sword sheathed/lineOFF, no new gear. Exact warm copy stays outside raster. Keep receipt distinct from substantive reply by size and placement, not generated labels.
+
+The requests can be prepared after34 selection from these already reviewed states; do not reference a pre-arrival bag image as proof of35 geography. Preserve all attempts/refs and normal bounded per-image caps.

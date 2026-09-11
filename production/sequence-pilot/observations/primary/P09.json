@@ -1,0 +1,29 @@
+{
+  "candidate_id": "C00009",
+  "image_sha256": "dffeab0c51dd9f766d5dd2301b78e9a201de58afb7f686dd51ec5cde80fdd731",
+  "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+  "reviewer": "independent-ai-visual-review",
+  "method": "Read frozen plan and original identity/environment references; viewed each selected original candidate separately before making observations. Did not read generation prompts, boards, old art, root conclusions or other review artifacts. No numeric quality scores.",
+  "checks": {
+    "actors": {
+      "verdict": "pass",
+      "observation": "There are two adults and three machine limbs. The long horizontal appendage can be traced back to the machine body and does not form an extra limb."
+    },
+    "event": {
+      "verdict": "fail",
+      "observation": "The new target is clearly Odo, but the required pivot around the previously blocked foot is not demonstrated. Nera's staff continues diagonally toward empty water at the right and no visible contact preserves the earlier foot restraint."
+    },
+    "contact": {
+      "verdict": "fail",
+      "observation": "The side limb reaches toward Odo, but no visible staff-to-foot contact preserves the pivot anchor from P08. The staff tip instead extends toward open water."
+    },
+    "props": {
+      "verdict": "pass",
+      "observation": "The bottle remains on Nera's sling and she holds one intact staff. Odo has no bottle yet."
+    },
+    "state": {
+      "verdict": "fail",
+      "observation": "The new target is clearly Odo, but the required pivot around the previously blocked foot is not demonstrated. Nera's staff continues diagonally toward empty water at the right and no visible contact preserves the earlier foot restraint. The bottle remains on Nera's sling and she holds one intact staff. Odo has no bottle yet. Numerical resources and unlock wording are not assessed from this unlettered raster."
+    }
+  }
+}

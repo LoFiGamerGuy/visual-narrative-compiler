@@ -1,0 +1,147 @@
+{
+  "raw": "production/structural-pilot/candidates/C00011-cd2b17c39141d6ab.png",
+  "raw_sha256": "cd2b17c39141d6abe83c85dc5b8b53eb96b72dad2bcb869d27503873cddc925d",
+  "raw_contract_failures": [
+    "RGB baked checkerboard instead of alpha",
+    "Recentered actors and mismatched far-left grip pose"
+  ],
+  "actors": {
+    "nera": {
+      "region": [
+        [
+          730,
+          220
+        ],
+        [
+          994,
+          220
+        ],
+        [
+          995,
+          462
+        ],
+        [
+          1080,
+          468
+        ],
+        [
+          1080,
+          535
+        ],
+        [
+          995,
+          541
+        ],
+        [
+          996,
+          700
+        ],
+        [
+          1050,
+          996
+        ],
+        [
+          730,
+          996
+        ]
+      ],
+      "points": [
+        [
+          909,
+          304
+        ],
+        [
+          1044,
+          497
+        ],
+        [
+          961,
+          913
+        ]
+      ],
+      "targets": [
+        "nera.head",
+        "nera.right_hand",
+        "nera.right_ankle"
+      ],
+      "matrix": [
+        0.5930461768658472,
+        0.0989765721331685,
+        -0.04715665221186229,
+        0.3742909987669537,
+        231.17664750135094,
+        270.05583230579595
+      ]
+    },
+    "odo": {
+      "region": [
+        [
+          998,
+          193
+        ],
+        [
+          1300,
+          193
+        ],
+        [
+          1300,
+          1000
+        ],
+        [
+          997,
+          1000
+        ],
+        [
+          984,
+          549
+        ],
+        [
+          1009,
+          536
+        ],
+        [
+          1069,
+          534
+        ],
+        [
+          1080,
+          491
+        ],
+        [
+          1010,
+          455
+        ]
+      ],
+      "points": [
+        [
+          1106,
+          270
+        ],
+        [
+          1170,
+          547
+        ],
+        [
+          1184,
+          903
+        ]
+      ],
+      "targets": [
+        "odo.head",
+        "odo.right_hand",
+        "odo.right_ankle"
+      ],
+      "matrix": [
+        0.712648894530835,
+        0.5903929969321925,
+        -0.07617158573997472,
+        0.3121474664127755,
+        100.79665079868926,
+        -303.67447053845297
+      ]
+    }
+  },
+  "fixed_geometry": "v8",
+  "generation_calls": 0,
+  "method": "Explicit chroma-neutral background key and polygon masks; independently affine register actors to head/right-hand/right-ankle; conventionally draw far-left forearm to fixed staff grip."
+}

@@ -1,0 +1,140 @@
+{
+  "schema": "CombatDepthInputFailureBrowserQA/1",
+  "dataset_sha256": "05c289ef04e0a8930dd4a1c5b03e4e22e474376a6a734a2657e392952cc3f541",
+  "data_sha256": "b87ea4081db086642bf4b6bf970e46d26937fec28047ecdb1c93a7c30d6094ec",
+  "views": [
+    {
+      "label": "Input validation rejected · no artwork returned",
+      "text": "Input validation rejected · no artwork returnedW06-P · separate service invocation`referenced_image_paths` must contain at most 5 pathsThis failed request produced no image and is not an artwork or a response target.Failed request recordSHA-256 30030f340408701eccb25f9975530f634868194c83df785746b17710b76965f4Raw tool-error outputSHA-256 2dd6907e0941faf5f436d6e73b7a66878d3428b74cfb9aeb0643f094deb3ce1eOriginal failed promptSHA-256 7b6c74bd8c967bfa0b7bd4797df017fc1dcaba0a0afb24ace57cdaa4c04fd8eaFrozen failed planSHA-256 095b68a3fc8282b03ece27d8ddd403a5b2bfecdde1fbeac75e5b11038a683944The later request changed its inputs from six references to five. This is separate from an unchanged transport retry.Original reference 1Original reference 2Original reference 3Original reference 4Original reference 5Original reference 6Revised five-reference requestNo artwork returned: the built-in tool rejected six paths. Remove only redundant W01 geography image, retain exact three cast identities plus W05 collapse/W04 ice route, and renumber reference labels. Same creative brief; one existing no-art retry slot consumed.",
+      "links": [
+        {
+          "label": "Failed request record",
+          "path": "../../production/combat-depth/input-validation-failures/W06-P.json"
+        },
+        {
+          "label": "Raw tool-error output",
+          "path": "../../production/combat-depth/input-validation-failures/W06-P-tool-output.json"
+        },
+        {
+          "label": "Original failed prompt",
+          "path": "../../production/combat-depth/prompts/W06-P.txt"
+        },
+        {
+          "label": "Frozen failed plan",
+          "path": "../../production/combat-depth/plan-history/plan-v6.json"
+        },
+        {
+          "label": "Original reference 1",
+          "path": "../../production/combat-depth/references/neris.png"
+        },
+        {
+          "label": "Original reference 2",
+          "path": "../../production/combat-depth/references/kellan.png"
+        },
+        {
+          "label": "Original reference 3",
+          "path": "../../production/combat-depth/references/ilyra.png"
+        },
+        {
+          "label": "Original reference 4",
+          "path": "../../production/combat-depth/candidates/W05-P.png"
+        },
+        {
+          "label": "Original reference 5",
+          "path": "../../production/combat-depth/candidates/W01-F1.png"
+        },
+        {
+          "label": "Original reference 6",
+          "path": "../../production/combat-depth/candidates/W04-F1.png"
+        },
+        {
+          "label": "Revised five-reference request",
+          "path": "../../production/combat-depth/calls/W06-P.json"
+        }
+      ],
+      "images": 2,
+      "no_failed_image": true,
+      "no_failed_choices": true,
+      "overflow": false,
+      "width": 390,
+      "screenshots": [
+        {
+          "path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/research/combat-depth/reader/phone-captures/input-failure-W06-390-top-e92248c5.png",
+          "sha256": "fb7922fdd2a88e83bbf8ec0053e1333bd6ccf19ade9f1e0e45b1966c7dd5d8f9"
+        },
+        {
+          "path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/research/combat-depth/reader/phone-captures/input-failure-W06-390-links-e92248c5.png",
+          "sha256": "62d8eb6e7915b06d283d8626b976c17d7cf6d7cb75a36541689ad54db226b061"
+        }
+      ]
+    },
+    {
+      "label": "Input validation rejected · no artwork returned",
+      "text": "Input validation rejected · no artwork returnedW06-P · separate service invocation`referenced_image_paths` must contain at most 5 pathsThis failed request produced no image and is not an artwork or a response target.Failed request recordSHA-256 30030f340408701eccb25f9975530f634868194c83df785746b17710b76965f4Raw tool-error outputSHA-256 2dd6907e0941faf5f436d6e73b7a66878d3428b74cfb9aeb0643f094deb3ce1eOriginal failed promptSHA-256 7b6c74bd8c967bfa0b7bd4797df017fc1dcaba0a0afb24ace57cdaa4c04fd8eaFrozen failed planSHA-256 095b68a3fc8282b03ece27d8ddd403a5b2bfecdde1fbeac75e5b11038a683944The later request changed its inputs from six references to five. This is separate from an unchanged transport retry.Original reference 1Original reference 2Original reference 3Original reference 4Original reference 5Original reference 6Revised five-reference requestNo artwork returned: the built-in tool rejected six paths. Remove only redundant W01 geography image, retain exact three cast identities plus W05 collapse/W04 ice route, and renumber reference labels. Same creative brief; one existing no-art retry slot consumed.",
+      "links": [
+        {
+          "label": "Failed request record",
+          "path": "../../production/combat-depth/input-validation-failures/W06-P.json"
+        },
+        {
+          "label": "Raw tool-error output",
+          "path": "../../production/combat-depth/input-validation-failures/W06-P-tool-output.json"
+        },
+        {
+          "label": "Original failed prompt",
+          "path": "../../production/combat-depth/prompts/W06-P.txt"
+        },
+        {
+          "label": "Frozen failed plan",
+          "path": "../../production/combat-depth/plan-history/plan-v6.json"
+        },
+        {
+          "label": "Original reference 1",
+          "path": "../../production/combat-depth/references/neris.png"
+        },
+        {
+          "label": "Original reference 2",
+          "path": "../../production/combat-depth/references/kellan.png"
+        },
+        {
+          "label": "Original reference 3",
+          "path": "../../production/combat-depth/references/ilyra.png"
+        },
+        {
+          "label": "Original reference 4",
+          "path": "../../production/combat-depth/candidates/W05-P.png"
+        },
+        {
+          "label": "Original reference 5",
+          "path": "../../production/combat-depth/candidates/W01-F1.png"
+        },
+        {
+          "label": "Original reference 6",
+          "path": "../../production/combat-depth/candidates/W04-F1.png"
+        },
+        {
+          "label": "Revised five-reference request",
+          "path": "../../production/combat-depth/calls/W06-P.json"
+        }
+      ],
+      "images": 2,
+      "no_failed_image": true,
+      "no_failed_choices": true,
+      "overflow": false,
+      "width": 1440,
+      "screenshots": [
+        {
+          "path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/research/combat-depth/reader/phone-captures/input-failure-W06-1440-top-e92248c5.png",
+          "sha256": "9819df96f50dee0d48a0ee5459b393290f94ba363571a0bd1a184ef7d83e5ffa"
+        },
+        {
+          "path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/research/combat-depth/reader/phone-captures/input-failure-W06-1440-links-e92248c5.png",
+          "sha256": "e56170f789c9c7fe7d10712141e42bd57a2184ae7ca313798a709a71866c71cd"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "choices_unchanged": true,
+  "pass": true
+}

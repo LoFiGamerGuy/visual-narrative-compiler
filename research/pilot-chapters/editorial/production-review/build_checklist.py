@@ -1,0 +1,97 @@
+from pathlib import Path
+import json,hashlib
+OUT=Path(__file__).parent;R=OUT.parents[3]
+rows={
+'NG':[
+'City-scale promise: slim sleeved Aren genuinely tiny; ray distant, no active line.',
+'Qualifying delivery endpoint clearly beyond gate; Sera is entry inspector, not recipient.',
+'Beak bends suspension coupling; empty text beat explains the mechanical threat.',
+'Pell visibly stranded below Aren; Sera speaks off panel, no extra inspector in car.',
+'Unopened wallet given away before courier turns to rescue; a real choice, not completed delivery.',
+'One visible pommel/metal-post tether; rooted stance, not a hip attachment.',
+'Same tether from roof to upper bridge; Pell still harnessed below hatch.',
+'Ray releases cable and threatens hero; deliberate major scale change.',
+'Right blade catches beak; close contact and strain, first hem tear only now.',
+'Taut line, right-hand blade, beak deflection and hatch clearance make command earned.',
+'Pell keeps worn harness; only safety tether unclipped. One left-forearm clasp, no duplicate swords.',
+'Adults pulled to bridge; empty car drops separately. This is visible rescue resolution.',
+'Both adults supported safely; shut gate shows cost before it is explained.',
+'Unstamped wallet returned, disappointment and anger survive rescue success.',
+'Black sealed envelope is addressed to Aren by dialogue; do not require generated address label.',
+'A descending route, small hero and intact mystery establish series engine, not another fight pose.'
+],
+'BP':[
+'Beautiful glasshouse and small Ilyra establish elegant unease, not a battlefield.',
+'Hopeful recognition; public label stays anonymous Voice, inside.',
+'Root weight jams room threshold; repeated sentence accompanies empty bloom center.',
+'Living Neris visible behind glass; voice bait and real person are distinct.',
+'Flower face stays fixed while rooted; Ilyra begins deliberate flank.',
+'Whole foot lifted, door pressure releases; no voice in silent beat.',
+'Root replanted; raised petal, exact repeated sentence and test question create suspicion.',
+'Petal catches rear hem now; right saber and left guard remain owned.',
+'Ilyra chooses evidence/living person; acting supports disillusion rather than mere pose.',
+'Blade visibly short of intact root; no premature sever.',
+'Air gap between severed ends and heavy falling flower; stump now loose.',
+'Boot moves loose stump aside; Neris opens weight-jammed door and exits.',
+'Spilled packet and guarded left hand: grounded clue recovery, no brother manifestation.',
+'Button and packet are clear; Neris identifies nursery verbally, no unreadable prop text needed.',
+'Neither character declares brother alive from inadequate evidence.',
+'Resolved immediate captivity plus distant second bay; hopeful investigation, not restored false reunion.'
+],
+'ST':[
+'Caravan/ram geography and small heroine establish travel ambition.',
+'Mara offers seat for bell; Tavi’s window joke is character desire.',
+'Bell near sensitive ear; correct circle-right/crescent-left.',
+'Both boots and contained right charge readable before failure.',
+'Mouth wedge causes airborne recoil; existing right charge gone.',
+'Left palm plus right boot land; first left chip, no extra attacking ram leap.',
+'Ear wince next to bell visibly supports Tavi’s inference.',
+'Turquoise cloth fully detached, cream belt left in place; peaceful posture is a tactic.',
+'Ram voluntarily lowers bell within reach; mutual bargain has visible acceptance.',
+'Large bell and detached cloth permit plausible padded clapper; no waist tether.',
+'Padded bell transferred to peg; tiny right charge grounded.',
+'Short controlled puff rings padded bell; relaxed creature ears are result.',
+'Mara gets bell, ram offers back: both sides of bargain visibly paid.',
+'Awkward actual climb and helpful boot support earn joke.',
+'Handshake and impatient mount seal partnership; no sudden sacrifice lesson.',
+'Small rider/caravan entering wide country delivers independent travel-series invitation.'
+],
+'RC':[
+'Small contender beneath vast trial bridges; gauntlets uncharged/unmarked.',
+'Key establishes objective and rivalry; key remains Vexa’s until win.',
+'Right black plate and warning create deliberate risk; no early debt mark.',
+'Crossing boundary commits Ren to trial; one shark attack lane.',
+'Right bracer blocks fin physically and begins loading; left glove does not steal action.',
+'Body driven backward with skidding feet; vest tear begins now.',
+'One stored charge and strained body justify limited counter.',
+'Single predator returns; scale/anticipation gives pause before payoff.',
+'Grounded hip/shoulder preparation; right loaded, left guard.',
+'Right fist/jaw contact visibly deforms folded jaw plane; no wrong-side equipment swap.',
+'Shark displaced clear of bridge; spent plate; Vexa’s call explicitly off panel.',
+'Key actually earned and transferred to left hand; protagonist wins.',
+'First right wrist debt band and numb fingers; no left mark or glowing UI.',
+'Forced grin cracks; Vexa distinguishes temporary numbness from debt.',
+'Distant lender remains mysterious, not claimed explained by an arbitrary silhouette.',
+'Ascending winner with key and impaired marked arm carries both success and cost.'
+],
+'FL':[
+'Dry high ledge versus black canal is legible before it becomes tactical.',
+'Wet coat and Ada’s anger establish missing-person case; Corin imperfectly dismissive.',
+'One isolated wet footprint on broad dry slab, not decorative texture.',
+'Sheltered still pocket separate from flowing canal; left hand uncovered.',
+'One Lio imprint confined to pool; no present-day duplicate or extra full ghost.',
+'Ripple visibly erases imprint; spoken inference stays narrower than evidence.',
+'Large eel remains connected to canal; detective and witness on dry ledge.',
+'Mouth reaches lip but trunk cannot climb, establishing exploitable limitation.',
+'Lio sleeve/hand and wet boot identify victim and explain isolated print.',
+'C-head at near corner has upper-shoulder and lower-curve contacts; far exit clear.',
+'Pole physically holds jaws apart; both grips and feet braced, Ada off panel.',
+'Ada pulls victim through far clear opening; C-head keeps both countercontacts.',
+'All three safe before pole release; eel falls into canal, no teleporting victim.',
+'Living coughing victim and key are visible; case rescue genuinely resolved.',
+'Lio partial hand transfers key to Corin left palm; key/lock shape match, no invented labels.',
+'Safe family leaves while detective faces institution; culprit/motive remain open, not falsely solved.'
+]}
+d={'schema':'PilotEditorialPanelWatchlist/1','plan_sha256':hashlib.sha256((R/'production/pilot-chapters/plan.json').read_bytes()).hexdigest(),'purpose':'Compact story-state checkpoints for the script author reviewing actual native/lettered results. Complements independent art rubric; not a prediction or owner preference.','panels':[{'id':c+f'{i:02}','story_checkpoint':t,'actual_review_status':'pending'} for c,items in rows.items() for i,t in enumerate(items,1)],'chapter_reader_checks':['Read each complete lettered chapter at phone width in its actual order; record start/end and interruptions rather than using script word count as reader time.','Check balloon order and attribution against visible faces and off-panel voices. Anonymous BP opening voice must remain anonymous.','After reading, state desire, choice, immediate consequence and unresolved hook from what is actually visible.','Record where dialogue claims unavailable anatomy, clues, effect or setting; do not repair such gaps with prose or inferred canon.','Separate visual/lettering legibility from subjective interest in continuing each series.']}
+assert len(d['panels'])==80
+(OUT/'panel-story-checklist.json').write_text(json.dumps(d,indent=2)+'\n')

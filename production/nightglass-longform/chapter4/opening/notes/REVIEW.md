@@ -1,0 +1,29 @@
+# Chapter 4 opening02–03 actual native review
+
+Recommended: N4-02-03-R1 for both panels, after viewing the complete returned native, both exact panel crops and both document detail crops. This is contributor art review; editable lettering and actual390 reader review remain the reader/lead gate.
+
+Read the complete approved40-panel Markdown and editorial review; checked every JSON action, camera, current state and exact copy against the read Markdown before submission. Panel01 receives no new call. Exact assigned02–03 script snapshot is PREPARED-STATE.json.
+
+Primary: warm, coherent cast and lived-in counter/workshop, correct LEFT-hand paper transfer and empty gray bag. Material failure: an extra folded white insert remained inside the old blue envelope despite the new handoff. Sole R1 removed that duplicate. Actual repaired envelope-detail inspection shows an empty exposed interior, open flap and preserved blue wafer. The single refolded white closure copy remains shared by Ossa and Aren's LEFT glove, visibly folded and without the earlier receipt's signature. The larger unfolded reply remains under Ossa's other palm. No tan-green commission letter has appeared.
+
+Panel03 keeps Rusk inside his familiar workshop, pointing toward the ordinary public path; his one invoice stays flat on his own bench among hinges/tools. Aren and Sera are paused at departure with warm expressions. Sera holds her own closed ledger; Aren's closed gray bag is refastened to the existing padded kit. No new paper, parcel, loose invoice or original blue envelope travels visibly. The copy's custody inside the closed bag is established by the prior handoff and exact copy, not a see-through effect.
+
+Qualifications: panel02 uses the established camera of the prior counter transaction, with a new folded-copy handoff rather than a new viewpoint. Panel03 frames at thigh height rather than proving full boot contact; its ordinary continuous paved doorway is visible and no gap/force action is implied. Aren's far hand and some harness/hip details are occluded by the rear-side framing. Existing left-side jacket damage remains stylized: lower-tier dark upper-sleeve opening and ragged hem follow the actual workshop reference, while the top right sleeve is intact. No additional repair is justified. Documents have blank folds rather than readable raster text; their status and exact dialogue belong to editable lettering. The savings packet remains off-frame and no new payment is invented.
+
+Two image-tool calls total: one primary, one targeted structural repair; both returned successfully. No finish, failure, pending call or additional scope. All primary/repair native bytes, generated originals, full returned data, exact requests and reference hashes are retained. Model snapshot, seed and billing are not exposed and remain null. No shared selected manifest was edited; notes/selected-records.json contains lead integration recommendations.
+
+## Independent orientation verdict supersedes the lower-panel recommendation
+
+Root and independent editorial actual inspection found lower03's scabbard on anatomical LEFT. The visible dark upper-sleeve rectangle is an old patch, not the required LEFT elbow tear; my provisional far-hip interpretation was incorrect. N4-03 from BOTH P and R1 is rejected. N4-02 remains independently accepted with correct document custody. The earlier contributor review above is preserved as history, not final lower-panel approval. No R2 is permitted; both failed03 images and crops remain intact. Root is reviewing a genuine new front-facing departure composition before authorizing any new03 primary. Current selected-records.json now recommends02 only and explicitly records03 under not_selected.
+
+## Genuine front-camera03 revision2 actual primary review
+
+Read the exact newly frozen03 action/camera/current state and explicit independent before-art PASS. Archived frozen snapshot/gate records bind that revision. Generated a new single frontal departure; used accepted frontal02 for Aren/style and separate actually viewed Sera/Rusk identity crops excluding the rejected Aren pose. This was not a second repair of the rear page.
+
+N4-03-v2-P actual complete native: unequivocal ONE RIGHT sheath projects at viewerLEFT, attached to his RIGHT belt; RIGHT sleeve is intact and LEFT elbow opening visible at viewerRIGHT. Aren's two gloved hands are empty; Sera carries her closed ledger. Rusk stays in the workshop behind, points out toward the route, with one invoice retained flat on his bench. Front-facing warm departure is materially different from the rejected rear framing. No new letters/parcel/blue envelope or force effect. The gray bag is naturally hidden by Aren's torso while both padded straps and broad hipbelt establish the worn kit.
+
+Qualifications: extra small frayed opening persists lower on the LEFT forearm; it is not new damage to the RIGHT sleeve. Image ends around thigh height rather than showing requested boots, so this view does not independently demonstrate sole contact, though ordinary fixed paving is visible and no leap/gap is involved. No new structural repair is recommended for these details. Whole native source is recommended rather than overwriting the preserved old03 crop. Root actual review is a separate pending gate at this writing.
+
+Updated scoped total: THREE calls, TWO primaries across the original pair and genuinely revised03, ONE sole pair repair; zero tool failures/finishes/pending. Original03P/R1 remain rejected and preserved. Technical integrity checks pass all three native/original/raw/args/reference chains and all six derived panel/identity/detail crops.
+
+Root subsequently actually viewed03-v2-P and confirmed PASS: correct RIGHT sheath/LEFT elbow tear, RIGHT sleeve intact. Extra LEFT forearm fray is recorded as minor and is not a repair target. Whole native integration is lead-owned; no new03 repair call.

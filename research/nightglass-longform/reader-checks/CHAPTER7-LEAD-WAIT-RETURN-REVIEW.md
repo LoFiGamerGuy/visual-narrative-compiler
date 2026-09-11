@@ -1,0 +1,5 @@
+# Lead actual waiting and foot-return reading
+
+Root actually viewed all three individual390 captures28–30 and the original-size sheet containing all three sequential390 views26–30. Snapshotb12d394525f314a61f50493f015cd04a4b8d257564924c7a4cb4488503424e8e. PASS exact copy, clear Kiva attribution in the second named continuation band, returned-board usefulness, Aren's choice to sit with empty hands and clear aisle, then Daro's ordinary on-foot return with the single signed slip in LEFT. No cart or shipped box moves upstairs. Gear repair30 remains effective atphone size.
+
+The narrower v6 action remains a preparation moment: pin near the hinge barrel, not proved insertion or completed buyer commission. This tradeoff leaves the useful board and ongoing work legible without an unsupported mechanical claim. Lower parked empty cart and key inside closed wallet are continuing state, not independently visible inventory. Root now actually viewed33 individual selected panels and their bounded continuous segments; no full40 review is claimed.

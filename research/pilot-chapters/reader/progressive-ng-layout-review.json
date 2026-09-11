@@ -1,0 +1,61 @@
+{
+  "schema": "PilotChaptersProgressiveLayoutReview/1",
+  "experiment_id": "PC-20260909-01",
+  "dataset_sha256": "1c091a3efa5ef3dced7aa81c9094a91b98bf24deb9bb06fb01c798383932289c",
+  "new_panels": [
+    "NG07",
+    "NG08",
+    "NG10",
+    "NG11",
+    "NG13",
+    "NG16"
+  ],
+  "new_texture_edits": [
+    "NG09-F1",
+    "NG12-F1",
+    "ST02-F1",
+    "FL05-F1"
+  ],
+  "available_NG": 14,
+  "missing_NG": [
+    "NG14",
+    "NG15"
+  ],
+  "actual_phone_review": true,
+  "receipts": [
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/progressive-ng-v1/native-history/receipt.json",
+      "sha256": "4e6aa1b25c798cced09b6d25409ee3182c10ee2ba8d50a440b0a9c9eaebf09a6"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/progressive-ng-v1/finish-comparisons/receipt.json",
+      "sha256": "80eab87b3230c83272d82e24ef3e51c3e61f7e5af192a040fba458f42f156443"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/progressive-ng-v1/chapter-panels/receipt.json",
+      "sha256": "37da2aeb9af666afd7d444ac8e7bb60733a24b51aabd12a93679350aeaf5824a"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/progressive-ng-v2/corrected-panels/receipt.json",
+      "sha256": "4759ad2e206af536fc66bc83961e9ef00754c45cb54002c1175ccb8f8e58f569"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/progressive-ng-v2/incremental-qa.json",
+      "sha256": "0700d05d789e59dec241cb78f83fc36ba52a1c2071b080b871a56c4c6b4d6a88"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/progressive-ng-v2/chapters/receipt.json",
+      "sha256": "a10089d060f25a197ab618cd669c3b96d835ac1c53d16c9dfefebfa502215a55"
+    }
+  ],
+  "fixes": [
+    "NG07 Pell/Aren attribution clarified and right reply moved off cyan tether endpoint.",
+    "NG11 upper boxes narrowed to expose right tether; foreground clasp/face untouched.",
+    "NG13 Pell/Aren labels prevent attributing reply to silent Sera."
+  ],
+  "unchanged_overlays": [
+    "NG08 and NG16 framing shows all source; NG10 speech already clears action."
+  ],
+  "finish_layout_readiness": "All four F1 native phone frames retain relevant subject/quiet-region placements. Selected sources remain R1; source-bound overlays must be rebound and checked after parent selection.",
+  "limits": "14/16 is not a complete pilot reading; no complete-story approval inferred."
+}

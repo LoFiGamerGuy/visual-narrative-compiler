@@ -1,0 +1,5 @@
+# Selected34 to ending custody check
+
+Actual selected34-R1 viewed: cream envelope with one blue seal remains inside single open gray bag on fixed LowerPost counter. Ossa has not yet received it. Car is empty stopped lower outside the same open sliding hatch; ordinary stairs rise away through the side doorway. Aren has one RIGHTsheath, LEFTtear/RIGHTintactsleeve, worn familiar harness. Existing selected lower view is strong reference for final samehall/hatch framing, without invented lowerbeacon/collar or upperroom.
+
+No contradiction with prepared38–40, provided the already-scripted35–37 are actually selected first:35 envelope transfersOssa/bagempty;36 reply opened/read whileclosurecopy remainsfolded;37 originalreply staysOssa/receiptreturnsArenLEFT thenwallet.38 stablepaidfee+retainedmorningplainpacket, glovesoff/rest and harness+EMPTYbagchair;39 sameclosurecopy first unfolded beside Ruskrecenthingeinvoice;40 sameLowerhall/EMPTYcar/daylight. Never import34sealed envelope back into bag38 orduplicate reply afterdelivery. No newmoney/roomkey, no earlyBellBasinreveal. Pending35–37 inspection remains binding. No image calls made.

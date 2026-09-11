@@ -1,0 +1,1 @@
+Exact completed-eight baseline before Chapter9 live reader build. Snapshot/overrides copied from current completed edition; selections are exact frozen-delivery c7fc0ca bytes, checked against every corresponding current record. All351 prior story records and comparisons must remain exact; helper does not claim visual inspection.

@@ -1,0 +1,37 @@
+{
+  "id": "BP-SHEET",
+  "attempt_id": "BP-SHEET-R1",
+  "phase": "repair",
+  "category": "BP",
+  "retry_of": "BP-SHEET-P",
+  "retry_reason": "Actual native and phone inspection show the silver forearm guard on anatomical RIGHT, the same arm that holds the saber; planned defensive LEFT is bare. Fix before conditioning16panels.",
+  "evidence_path": "research/pilot-chapters/support-repair-evidence.json",
+  "evidence_sha256": "d4250b7840a82887473df4b58cdba793f6446e34465662c6b1d117085ce5bf52",
+  "prompt_path": "production/pilot-chapters/prompts/BP-SHEET-R1.txt",
+  "prompt_sha256": "5da860ee4b8a2abc00e388af10de80069e7293e56ab79c4c6a7cef0762c0f7ce",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/candidates/BP-SHEET-P.png",
+      "sha256": "9b466d3cdf43234ff299aca3da57970c5a46bb9dc4cf43ea4c95ea405ee7f450",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 13:48:38 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-pilot-chapters-20260909-1310/production/pilot-chapters/candidates/BP-SHEET-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 13:50:28 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-626b4855-7073-45e9-8de1-7252c369328f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

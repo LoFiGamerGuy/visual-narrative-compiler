@@ -1,0 +1,21 @@
+{
+  "id": "ST04",
+  "attempt_id": "ST04-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "ST04-P",
+  "retry_reason": "New aftermath has excessive speckled wear on skin, armor, hammer and floor despite an appealing laugh. Root actual native inspected; targeted source-only finishing, all structural caveats retained.",
+  "evidence_path": "research/encounter-lab/finish-evidence-02.json",
+  "evidence_sha256": "2dac8c04e36a4f0b5942eb3ebcd8a41916dcebb16b7cad8e52f7c6caf7b6ca66",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: Exact adult laugh, eye expression, crouched Tavi and seated Bellguard silhouettes, all hands/legs, continuous upright turquoise hammer shaft, existing chipped orange face, absent magic ring, windmill setting..\nFocus the simplification on: All-over skin speckles, armor weathering, tiny ground stones/strokes, repeated chips and clouds; preserve meaningful hammer chip and warm drawn material differences..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/encounter-lab/prompts/ST04-F1.txt",
+  "prompt_sha256": "2f907519bec486ca04ec9f987fc5d5c632a4e50ae9722f951ef5a93dbf7f0638",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/ST04-P.png",
+      "sha256": "43df49fa4cfa872b6a30346bd69fe2c59c68d53892975606be6eab153a8be3b8",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

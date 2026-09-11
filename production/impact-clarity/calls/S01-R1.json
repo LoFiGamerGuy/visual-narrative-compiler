@@ -1,0 +1,37 @@
+{
+  "id": "S01",
+  "attempt_id": "S01-R1",
+  "phase": "repair",
+  "category": "giant",
+  "retry_of": "S01-P",
+  "retry_reason": "Native and matched-phone review: the visible forefoot remains planted, cropped high torso hides the global stance collapse; dust does not establish lost support.",
+  "evidence_path": "production/impact-clarity/edit-specs-01.json",
+  "evidence_sha256": "fd0fe152379c41cc02ace4612c84a9c36f52c94fafce96115bb6954c8cc36a53",
+  "prompt_path": "production/impact-clarity/prompts/S01-R1.txt",
+  "prompt_sha256": "b62626d1dc726a3d1843a8dd766a0dbf3fba5891dfef44feefac997a6b782f57",
+  "plan_sha256": "18bff45c944a9e948d14c17dad988a4867e14a5a9de6d5d1d2e64a122410e46b",
+  "references": [
+    {
+      "path": "production/impact-clarity/candidates/S01-P.png",
+      "sha256": "b00804da921e8f311489e4e65497b1bbe8712e06b603dee57cbc779a40121889",
+      "role": "Exact edit source; preserve all content except specified repair change"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 03:14:54 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-impact-clarity-20260909-0245/production/impact-clarity/candidates/S01-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 03:15:46 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-d497c9ec-1ff9-4d87-99c4-812357aad286.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

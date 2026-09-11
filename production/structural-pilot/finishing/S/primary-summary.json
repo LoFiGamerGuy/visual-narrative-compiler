@@ -1,0 +1,99 @@
+{
+  "schema": "RouteSPrimarySummary/1",
+  "experiment": "SC-20260907-01",
+  "at_utc": "2026-09-07T07:11:22.045435+00:00",
+  "panels": [
+    {
+      "panel": "P09",
+      "png": "production/structural-pilot/finishing/S/P09/F01-v4/P09-F01-v4.png",
+      "svg": "production/structural-pilot/finishing/S/P09/F01-v4/P09-F01-v4.svg",
+      "png_sha256": "bc2b6ebd47e29bc09b7d73ab3e622574a88de474562004058fd2c71cd6546866",
+      "svg_sha256": "ac2734936bbd6edfb188cacc49cad4815feab44b551345e32f675ad37b90cde4",
+      "dimensions": [
+        1170,
+        900
+      ],
+      "elapsed_seconds": 480.633763,
+      "visible_limitations": [
+        "Two separate source-drawn fists grip fixed staff; exact original rod tip touches fixed toe and sweeping limb remains.",
+        "Conventional forearm shapes with cloned source cloth remain stiffer than original actor drawing.",
+        "Far arm origin passes under cape; explicit exposed forearm preserves local continuity but needs reader review.",
+        "Fixed background is visibly diagrammatic beside detailed source actors.",
+        "Source flask color peeks beneath near upper arm; source matte defects may survive.",
+        "No premium-art or semantic acceptance claimed."
+      ],
+      "accepted": false
+    },
+    {
+      "panel": "P11",
+      "png": "production/structural-pilot/finishing/S/P11/F01-v3/P11-F01-v3.png",
+      "svg": "production/structural-pilot/finishing/S/P11/F01-v3/P11-F01-v3.svg",
+      "png_sha256": "48b9ae132369bbaa233c8a9c5bc6755db375097770245caa3f22f33ce5dad6dd",
+      "svg_sha256": "7c84964e2fcf283336bfd25bc8e96f271030afddfe00365fa3f4495870e83745",
+      "dimensions": [
+        1170,
+        1500
+      ],
+      "elapsed_seconds": 737.489052,
+      "visible_limitations": [
+        "The flat architectural control remains much simpler than the detailed actor drawing; no premium-art acceptance is claimed.",
+        "Selected hand anchors align; free limb positions retain generated anatomy and are not a full rig match.",
+        "Nera's staff terminates near the raised shutter plane and needs action/occlusion review.",
+        "Effects remain visibly diagrammatic angular guide strokes.",
+        "Minute edge matte remnants may survive; no automatic alpha check proves visual cleanliness."
+      ],
+      "accepted": false
+    },
+    {
+      "panel": "P13",
+      "png": "production/structural-pilot/finishing/S/P13/F01-v4/P13-F01-v4.png",
+      "svg": "production/structural-pilot/finishing/S/P13/F01-v4/P13-F01-v4.svg",
+      "png_sha256": "47be8e4b8c64788073de93ff669980a89f04b8adc0d06ec2733954efb900a693",
+      "svg_sha256": "c8900f7e8ad43b607abc38d62ff2cfd329898c81f5ee6c85f0ea804f02a52248",
+      "dimensions": [
+        1170,
+        1080
+      ],
+      "elapsed_seconds": 377.378792,
+      "visible_limitations": [
+        "Exactly three fixed limbs and one physical shutter pinch remain readable.",
+        "Small adult figures and coarse structural background still have distinct drawing finishes.",
+        "Source right wound preserved over conventional supporting palm; source anatomy drives shoulder laterality.",
+        "Far left staff hand and Odo support sleeve remain schematic vector patches.",
+        "Matte specks persist around injury and snapped end; source pose registration does not equal every joint anchor.",
+        "No finished-art acceptance claimed."
+      ],
+      "accepted": false
+    },
+    {
+      "panel": "P14",
+      "png": "production/structural-pilot/finishing/S/P14/F01-v4/P14-F01-v4.png",
+      "svg": "production/structural-pilot/finishing/S/P14/F01-v4/P14-F01-v4.svg",
+      "png_sha256": "745f151025dc1f8be69950997820def9a1c89bab6b6711b0905e2034deaf23a6",
+      "svg_sha256": "bab295f97ce97dc9d1ca929f13d57bd0278c94c0e5e1a47b48be1ed1344f8697",
+      "dimensions": [
+        1170,
+        1320
+      ],
+      "elapsed_seconds": 995.707304,
+      "visible_limitations": [
+        "Right injured near arm and supporting hand preserve source connected anatomy and expressive faces.",
+        "Replacement left forearm remains conspicuously flat vector art; source hand matte looks fragmented around fixed staff.",
+        "Odo flask hand matte has small gaps and a mismatched cuff; held vial geometry remains fixed.",
+        "Conventional source-cloned trousers have conspicuous boundaries and a residual checkerboard sliver.",
+        "This is a bounded structural composition proof, not accepted finished art."
+      ],
+      "accepted": false
+    }
+  ],
+  "primary_elapsed_seconds": 2591.208911,
+  "primary_allowance_seconds": 4800,
+  "later_correction_rounds_used": 0,
+  "generation_calls_by_finishing_author": 0,
+  "direct_spend_usd": 0,
+  "human_artist_hours": null,
+  "fixed_control": "production/structural-pilot/control/v8",
+  "acceptance": "All four are reviewable bounded composition proofs; none is accepted as finished art.",
+  "raw_contract_failure": "All four selected S raw sources are RGB with a painted checkerboard, not native transparent actor layers. P11/P14 contain unwanted props; P09/P13 required local pose corrections.",
+  "method": "Conventional chroma-neutral matting, source-coordinate masks, affine/similarity placement, native hand crops, cloned costume texture, explicit vector local limbs, frozen mesh face projection and same-pass prop occlusion masks. No image generation or generative inpainting."
+}

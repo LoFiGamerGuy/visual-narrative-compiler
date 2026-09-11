@@ -1,0 +1,111 @@
+{
+  "chapter": "CH01",
+  "panels": 24,
+  "sequences": 4,
+  "artifacts": [
+    {
+      "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/ch01-phone-preview.png",
+      "sha256": "9aebeaeb020965ab8b133dc6cedeac7b7564616b6b23f57416fdce2b363eb881",
+      "dimensions": [
+        390,
+        6991
+      ]
+    },
+    {
+      "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/ch01-reading-draft.png",
+      "sha256": "e99c3bb03a73b576a8371c61f02f49aa1e01aa9ebdcc62cd684319f8203d5b7f",
+      "dimensions": [
+        960,
+        17208
+      ]
+    },
+    {
+      "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/review/ch01-contact-sheet.png",
+      "sha256": "7e4c4f770757594f3d7505dd86828393ef4f300ebe77b606693efe0fa9825f53",
+      "dimensions": [
+        1120,
+        1864
+      ]
+    },
+    {
+      "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/review/ch01-compact-lettered-review.png",
+      "sha256": "f37e06234808f01b07c57e0be1adcc382c92cafbc5139a9cb8d96a6b388fb64a",
+      "dimensions": [
+        1120,
+        1864
+      ]
+    },
+    {
+      "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/review/ch01-grayscale-review.png",
+      "sha256": "d13107b558c01ccdef2d302e804ab39033d87c336257af68e6f16bfa0dd9e397",
+      "dimensions": [
+        1120,
+        1864
+      ]
+    },
+    {
+      "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/review/ch01-density-map.png",
+      "sha256": "c67bfb19493f3437f80cfdc656acf8e9fd7029ffbc1a43b99c60c06010d946f7",
+      "dimensions": [
+        1120,
+        1864
+      ]
+    },
+    {
+      "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/review/ch01-safe-zone-review.png",
+      "sha256": "31ff301a43df8596ffc56d7cf8b8852113663277c2083bc6760f872a7c7b6218",
+      "dimensions": [
+        1120,
+        1864
+      ]
+    }
+  ],
+  "phone_width": 390,
+  "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+  "generated_source_text_free": true,
+  "variable_scroll_cadence": {
+    "leading_gutter_pixels": 72,
+    "gutter_after_pixels": [
+      42,
+      42,
+      42,
+      28,
+      72,
+      132,
+      42,
+      42,
+      42,
+      28,
+      72,
+      132,
+      42,
+      42,
+      42,
+      28,
+      72,
+      132,
+      42,
+      42,
+      42,
+      28,
+      72,
+      132
+    ],
+    "roles": {
+      "opening_objective_escalation": 42,
+      "action": 28,
+      "choice": 72,
+      "consequence_sequence_breath": 132
+    }
+  },
+  "metric_review_status_totals": {
+    "PASS": 7,
+    "WARN": 17
+  },
+  "metric_failure_classes": {
+    "edge_density_above_pilot_class": 8,
+    "high_frequency_occupancy_above_pilot_class": 9,
+    "global_entropy_above_pilot_class": 7,
+    "focal_luminance_proxy_below_pilot": 10
+  }
+}

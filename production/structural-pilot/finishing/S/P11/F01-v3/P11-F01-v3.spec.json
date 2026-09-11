@@ -1,0 +1,71 @@
+{
+  "id": "SC-20260907-01-S-P11-F01-v3",
+  "description": "Conventional actor matting and independent affine placement over fixed editable Blender architecture/threat/props. Unaccepted candidate. No generated environment or prop may replace control geometry.",
+  "width": 1170,
+  "height": 1500,
+  "output_svg": "production/structural-pilot/finishing/S/P11/F01-v3/P11-F01-v3.svg",
+  "matte": "#faf7ec",
+  "layers": [
+    {
+      "id": "fixed-architecture",
+      "path": "production/structural-pilot/control/v8/P11-background.png",
+      "kind": "fixed-original-geometry"
+    },
+    {
+      "id": "fixed-sentinel-silhouette-ink",
+      "path": "production/structural-pilot/finishing/S/P11/F01-v2/sentinel-ink.png",
+      "kind": "conventional-3px-outline-from-fixed-alpha"
+    },
+    {
+      "id": "fixed-three-leg-sentinel",
+      "path": "production/structural-pilot/control/v8/P11-sentinel.png",
+      "kind": "fixed-original-geometry"
+    },
+    {
+      "id": "fixed-kite-projected-face-shading",
+      "svg": "<polygon points=\"705.505,649.127 709.718,872.657 838.721,765.866\" fill=\"#707789\" stroke=\"#1d222c\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<polygon points=\"705.505,649.127 571.541,769.621 709.718,872.657\" fill=\"#404751\" stroke=\"#1d222c\" stroke-width=\"3\" stroke-linejoin=\"round\"/>",
+      "kind": "editable-vector-facets-projected-from-frozen-mesh"
+    },
+    {
+      "id": "fixed-single-gill",
+      "path": "production/structural-pilot/finishing/S/P11/F01-v2/gill-only.png",
+      "kind": "original-fixed-gill-pixels"
+    },
+    {
+      "id": "fixed-joint-ink-rings",
+      "svg": "<circle cx=\"619.85\" cy=\"978.01\" r=\"19\" fill=\"none\" stroke=\"#343e50\" stroke-width=\"2.2\"/>\n<circle cx=\"549.67\" cy=\"1004.81\" r=\"19\" fill=\"none\" stroke=\"#343e50\" stroke-width=\"2.2\"/>\n<circle cx=\"802.77\" cy=\"924.4\" r=\"17\" fill=\"none\" stroke=\"#343e50\" stroke-width=\"2.2\"/>",
+      "kind": "editable-vector-lines-at-frozen-joint-centers"
+    },
+    {
+      "id": "fixed-staff-flask-cable",
+      "path": "production/structural-pilot/control/v8/P11-props.png",
+      "kind": "fixed-original-geometry"
+    },
+    {
+      "id": "fixed-action-vectors",
+      "path": "production/structural-pilot/control/v8/P11-effects.png",
+      "kind": "fixed-original-geometry"
+    },
+    {
+      "id": "nera-generated-actor",
+      "kind": "explicit-color-key-mask-and-independent-affine",
+      "path": "production/structural-pilot/finishing/S/P11/F01/nera-matte.png",
+      "width": 1106,
+      "height": 1422,
+      "transform": "matrix(0.671332429 0.021836979 0.089920166 0.786792272 145.714080313 109.041646974)"
+    },
+    {
+      "id": "odo-generated-actor",
+      "kind": "explicit-color-key-mask-and-independent-affine",
+      "path": "production/structural-pilot/finishing/S/P11/F01-v3/odo-matte.png",
+      "width": 1106,
+      "height": 1422,
+      "transform": "matrix(0.693351531 0.017460529 -0.030972507 0.690970884 123.977557925 271.849522247)"
+    },
+    {
+      "id": "fixed-shutter-partition",
+      "path": "production/structural-pilot/control/v8/P11-foreground.png",
+      "kind": "fixed-original-geometry"
+    }
+  ]
+}

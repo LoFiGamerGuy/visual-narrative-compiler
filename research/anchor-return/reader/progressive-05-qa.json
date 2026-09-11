@@ -1,0 +1,44 @@
+{
+  "schema": "AnchorReturnProgressiveQA/1",
+  "dataset_sha256": "e2772eeeb6e58638cdb37530689d628a723c313ed833e637da9949e02302d3bd",
+  "data_json_sha256": "f4478800b55361a56957e84276206aa8b7a86d0b217ddc16d93d3ee713795bc9",
+  "available_compositions": 30,
+  "registered_attempts": 57,
+  "captured_phone_attempts": 28,
+  "matched_desktop_pairs": 14,
+  "scope": [
+    "NG01",
+    "NG02",
+    "NG04",
+    "NG05",
+    "NG07",
+    "NG08",
+    "BP01",
+    "BP02",
+    "BP03",
+    "BP04",
+    "BP05",
+    "BP06",
+    "BP07",
+    "BP08"
+  ],
+  "receipts": {
+    "history": {
+      "path": "research/anchor-return/reader/phone-captures/progressive-05/history/receipt.json",
+      "sha256": "2a6a41922cd2d6fa5c8d2095db06b6cfc0b8ab82ed2a3652e305af486ba4125d",
+      "count": 28
+    },
+    "comparisons": {
+      "path": "research/anchor-return/reader/phone-captures/progressive-05/comparisons/receipt.json",
+      "sha256": "fbe98fb4d54b1b8849e93983612319a3a12c6b10c825cb691b3ac6e3da70331f",
+      "count": 14
+    }
+  },
+  "whole_images_fit": true,
+  "preferences_unchanged": true,
+  "limitations": [
+    "Dataset identity matches progressive04 because selected images are unchanged; expanded history is bound by the differing data.json/data.js hashes.",
+    "Actual semantic review remains separate; this records source-matched presentation.",
+    "Later ST finishes, NG06 finish and last repairs are outside this snapshot."
+  ]
+}

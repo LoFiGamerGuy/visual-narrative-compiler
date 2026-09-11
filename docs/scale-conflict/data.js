@@ -1,0 +1,1998 @@
+window.SCALE_CONFLICT_DATA = {
+  "schema": "ScaleConflictReader/1",
+  "experiment_id": "SC-20260908-01",
+  "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+  "source_bindings": [
+    {
+      "id": "V01",
+      "attempt_id": "V01-F1",
+      "sha256": "95da356824c75f61e93b356e68458887ca54a7783ee185dda21f83b50b9dfd96"
+    },
+    {
+      "id": "V02",
+      "attempt_id": "V02-F1",
+      "sha256": "4e388ff9cba3cebbd91d419ce2d0e98167ac6ebd659f15ac4d3851542e22e69e"
+    },
+    {
+      "id": "V03",
+      "attempt_id": "V03-F1",
+      "sha256": "641252f554a0e89c054179bb5568c6e7966b3bd649724a3b863ffb8c29309c0b"
+    },
+    {
+      "id": "V04",
+      "attempt_id": "V04-F1",
+      "sha256": "69fad6d2b87b20f4a598da363dc6a1a319d9315c376e8696b7bbf57fe5c865bb"
+    },
+    {
+      "id": "V05",
+      "attempt_id": "V05-F1",
+      "sha256": "1642ebaad73285052de78195f3241121d21104632a29d4b5143105db2c1e3d2a"
+    },
+    {
+      "id": "V06",
+      "attempt_id": "V06-F1",
+      "sha256": "16cc0845ef8eeaf3e1d264be3d669b90443f270a0e15d1aa7c7c668ed3045df6"
+    },
+    {
+      "id": "T01",
+      "attempt_id": "T01-F1",
+      "sha256": "38135f4e5948960e7cba5ca1804ab865f76d5bb3faea906e67895382d9a565a2"
+    },
+    {
+      "id": "T02",
+      "attempt_id": "T02-F1",
+      "sha256": "21115820ef1255d0ec7fb4947c95420bceaf24dbdfd37347d33b35b356b90f6f"
+    },
+    {
+      "id": "T03",
+      "attempt_id": "T03-P",
+      "sha256": "e0c94a8862ac7240e8474874f61d1b26ff0c1fd3aba71c9cfcf1f449a0aa4c53"
+    },
+    {
+      "id": "T04",
+      "attempt_id": "T04-F1",
+      "sha256": "dbb4fcd4d7ccfbe0f52b9f91986cf801c3aef67eb409158c09dc030e6154228d"
+    },
+    {
+      "id": "T05",
+      "attempt_id": "T05-F1",
+      "sha256": "91185e6c71128b8dd16d6d21273ee9cbe970de066b16d99d41579f06e9076db6"
+    },
+    {
+      "id": "T06",
+      "attempt_id": "T06-P",
+      "sha256": "dd64d46eaf522f01bd069461e896ec16bd4e1a0024678c0d3edf7956a51d9139"
+    },
+    {
+      "id": "A01",
+      "attempt_id": "A01-F1",
+      "sha256": "bc1ba2c59f064731f3bbe66381d22d95746f30e00df4330e82eef0b21a45e30c"
+    },
+    {
+      "id": "A02",
+      "attempt_id": "A02-F1",
+      "sha256": "12b584d3ee3e2d24982e805b18b3adc3df5b36eea549994ba09eebeacc205465"
+    },
+    {
+      "id": "A03",
+      "attempt_id": "A03-F1",
+      "sha256": "9e790538cebe73daa6b7cb27c561f73b74d5647065a09687c5a8c0aa48ca5fca"
+    },
+    {
+      "id": "A04",
+      "attempt_id": "A04-F1",
+      "sha256": "b37fb736710aea708602eb668c8e11b3d860f9fd4705f4c03753aab6703a2886"
+    },
+    {
+      "id": "A05",
+      "attempt_id": "A05-F1",
+      "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55"
+    },
+    {
+      "id": "A06",
+      "attempt_id": "A06-F1",
+      "sha256": "3e60924c6d8b9c8aef703d69e60094567fad2264c93cf60a1eb51edee0332c42"
+    },
+    {
+      "id": "A07",
+      "attempt_id": "A07-F1",
+      "sha256": "61676a35461957306a7b9a457f2b81c04be3604a60170be58554ba2f73b34ca2"
+    },
+    {
+      "id": "A08",
+      "attempt_id": "A08-F1",
+      "sha256": "5707e4ff8b433c71ceb085acfc5d2dba056eaea90ecbe5300ab25acbe564a117"
+    },
+    {
+      "id": "Q01",
+      "attempt_id": "Q01-F1",
+      "sha256": "b6f84c4530a028ace0090303421fefabadf88a78cda43d74b811bbb3f534181b"
+    },
+    {
+      "id": "Q02",
+      "attempt_id": "Q02-F1",
+      "sha256": "bb7a8acc86fb08fdd51032d30636f77997047b7d55812a34903fec6279f47f79"
+    },
+    {
+      "id": "Q03",
+      "attempt_id": "Q03-F1",
+      "sha256": "83057ee3609f78f7feee31490439ec94f8f775d6097d31cc7b52649f1210da0c"
+    },
+    {
+      "id": "Q04",
+      "attempt_id": "Q04-F1",
+      "sha256": "0ac84773fb4492f33166ddda468aec4698afb3417df24aea10c1054d7c076f3a"
+    }
+  ],
+  "dataset_sha256": "5064c970acc9777859d13bd8248359efa01747502e27422c8443247d22b09202",
+  "categories": [
+    {
+      "id": "vista",
+      "title": "Vistas",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "character",
+        "setting",
+        "creature",
+        "action",
+        "power",
+        "texture",
+        "recognition"
+      ]
+    },
+    {
+      "id": "ensemble",
+      "title": "Ensembles",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "character",
+        "setting",
+        "creature",
+        "action",
+        "power",
+        "texture",
+        "recognition"
+      ]
+    },
+    {
+      "id": "ability",
+      "title": "Abilities",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "character",
+        "setting",
+        "creature",
+        "action",
+        "power",
+        "texture",
+        "recognition"
+      ]
+    },
+    {
+      "id": "sequence",
+      "title": "Scene chain",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "character",
+        "setting",
+        "creature",
+        "action",
+        "power",
+        "texture",
+        "recognition"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "V01",
+      "title": "The Gate Below the Clouds",
+      "category": "vista",
+      "scale": "extreme-wide",
+      "subjects": [
+        "riven",
+        "neris"
+      ],
+      "story_path": "arrival",
+      "caption": "A city big enough to make two fighters feel like arrivals again.",
+      "brief": "Extreme-wide rear three-quarter view from a high causeway. Riven and Neris are SMALL complete figures, about 8 percent of image height, separated against a broad pale approach road at lower center. Their silver hair/petrol cropped jacket/saber and ivory shoulder cape/teal tunic/crescent shield distinguish them without face close-ups. They walk toward Vesper Reach: an immense vertical inhabited city whose vast open ring gate bridges a gulf beneath cloud level. Huge connected charcoal façades, pale structural ribs, sparse grouped cyan windows, a few clear bridges; foreground/middle/distant planes. Cool early dawn with a warm strip inside the gate. Let architecture occupy most of the frame. No giant foreground hero, portrait inset or texture carpet.",
+      "references": [
+        "riven",
+        "neris"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/V01-F1.png",
+        "sha256": "95da356824c75f61e93b356e68458887ca54a7783ee185dda21f83b50b9dfd96",
+        "attempt_id": "V01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/V01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/V01-F1.png",
+          "sha256": "95da356824c75f61e93b356e68458887ca54a7783ee185dda21f83b50b9dfd96",
+          "attempt_id": "V01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V01-F1.png",
+          "call_path": "production/scale-conflict/calls/V01-F1.json",
+          "call_sha256": "8bc01552e5af8afd4953e293c84289b6c025f8853260cec53210e8d9dadc0060",
+          "retry_of": "V01-R1",
+          "retry_reason": "Gate masonry, clouds and causeway retain dense fine grain after framing repair."
+        },
+        {
+          "path": "production/scale-conflict/candidates/V01-P.png",
+          "sha256": "768120275acc6ba08c4fd2469ef0a903b39d25e978416600049461c196fff216",
+          "attempt_id": "V01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V01-P.png",
+          "call_path": "production/scale-conflict/calls/V01-P.json",
+          "call_sha256": "afd91d1dc1da0461a6b6ee88172fd3a33d83e2dbfbc2cffd43c6b0f628840769"
+        },
+        {
+          "path": "production/scale-conflict/candidates/V01-R1.png",
+          "sha256": "24f4925ad5b76086883ab7cd4cd866439fd94bea1b18a61fd1c40e4c190f55f6",
+          "attempt_id": "V01-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V01-R1.png",
+          "call_path": "production/scale-conflict/calls/V01-R1.json",
+          "call_sha256": "1bcd3492ee1cc9a4d210ad1be37f650785b25d1a18447729a05768481a549ba9",
+          "retry_of": "V01-P",
+          "retry_reason": "The two travelers occupy about a quarter of the frame height instead of the planned extreme-wide 8 percent; the user explicitly requested tiny recognizable characters entering a giant city."
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Quieter causeway, city faces and cloud masses retain tiny travelers and gate scale. Broad reflections remain lively without stone speckle. Minor banner/detail redraws; silhouette-based recognition only."
+      ]
+    },
+    {
+      "id": "V02",
+      "title": "A Road Across the Sleeper",
+      "category": "vista",
+      "scale": "aerial-wide",
+      "subjects": [
+        "riven",
+        "kellan"
+      ],
+      "story_path": "arrival",
+      "caption": "What looked like a ridge takes its first breath.",
+      "brief": "Very high oblique aerial view, looking down across a vast living slate-backed leviathan half submerged in a clear teal inland sea. A narrow old causeway runs over a broad smooth section of its back toward distant inhabited towers. SMALL Riven and Kellan, each about 6 percent of frame height, stand apart on the pale causeway; identify silver/petrol/saber versus black curls/sand cobalt coat/straight sword. A single enormous eye opens below and to the side of their path. Broad dark hide plates and coherent pale shoreline shapes, calm water reflection bands, immense organic scale, no dense scales or rubble. This is discovery, no attack or random particle magic.",
+      "references": [
+        "riven",
+        "kellan"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/V02-F1.png",
+        "sha256": "4e388ff9cba3cebbd91d419ce2d0e98167ac6ebd659f15ac4d3851542e22e69e",
+        "attempt_id": "V02-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/V02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/V02-F1.png",
+          "sha256": "4e388ff9cba3cebbd91d419ce2d0e98167ac6ebd659f15ac4d3851542e22e69e",
+          "attempt_id": "V02-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V02-F1.png",
+          "call_path": "production/scale-conflict/calls/V02-F1.json",
+          "call_sha256": "49c9e75ef50f354f64925efe64d9e20b59922396d155842f4c7d4e8c043806a9",
+          "retry_of": "V02-P",
+          "retry_reason": "Native and phone inspection show dense hide striations and a water mosaic competing with the otherwise strong giant-eye and tiny-travelers composition."
+        },
+        {
+          "path": "production/scale-conflict/candidates/V02-P.png",
+          "sha256": "5b998d05b9da19ba8084701356b6db213629b2b7a97703d539760fcf76c849f4",
+          "attempt_id": "V02-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V02-P.png",
+          "call_path": "production/scale-conflict/calls/V02-P.json",
+          "call_sha256": "6c39093bc554e6d7ec4ce7a0c7f64cea6b960f2e4f61de6da48a68c3d4b5894a"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Broad slate hide and grouped water reflections are materially calmer; eye, bridge and two tiny adults retained. Some mottling remains, but giant scale is convincing."
+      ]
+    },
+    {
+      "id": "V03",
+      "title": "The River Overhead",
+      "category": "vista",
+      "scale": "vertical-wide",
+      "subjects": [
+        "riven"
+      ],
+      "story_path": "arrival",
+      "caption": "The city carries its river above the street.",
+      "brief": "Portrait vertical composition looking up through an enormous open-bottom aqueduct district. Riven is a small complete three-quarter figure at the bottom, roughly 10 percent of picture height, staring upward with saber sheathed at his hip. Above him a single wide suspended river passes between massive pale arches; the transparent underside shows a few enormous soft fish silhouettes. Dark inhabited platforms and a broad shaft of late afternoon light establish miles of depth. Character remains identifiable through silver hair, cropped petrol coat, dark trousers and saber silhouette; no portrait inset. Calm large stone and water forms, a specific usable stair toward the river edge.",
+      "references": [
+        "riven"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/V03-F1.png",
+        "sha256": "641252f554a0e89c054179bb5568c6e7966b3bd649724a3b863ffb8c29309c0b",
+        "attempt_id": "V03-F1",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/scale-conflict/candidates/V03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/V03-F1.png",
+          "sha256": "641252f554a0e89c054179bb5568c6e7966b3bd649724a3b863ffb8c29309c0b",
+          "attempt_id": "V03-F1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/scale-conflict/candidates/V03-F1.png",
+          "call_path": "production/scale-conflict/calls/V03-F1.json",
+          "call_sha256": "c89cc6c06484ac4a3db2508978c38738c064cd8322cd130401391f6ec72b2df0",
+          "retry_of": "V03-R1",
+          "retry_reason": "Aqueduct water ripples and facade grain compete with tiny Riven and overhead river."
+        },
+        {
+          "path": "production/scale-conflict/candidates/V03-P.png",
+          "sha256": "069b71ffbbcfc80b683361a04ed01db8f23d426a13662dc304763b2aa9e17b5c",
+          "attempt_id": "V03-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/scale-conflict/candidates/V03-P.png",
+          "call_path": "production/scale-conflict/calls/V03-P.json",
+          "call_sha256": "3e3107bea5c9e3ad4a1211ec6a313ff3e8491de30a5a4897927d85b59c930f5a"
+        },
+        {
+          "path": "production/scale-conflict/candidates/V03-R1.png",
+          "sha256": "0552e80b4b79ac25c5e0b9c2b3c90f39e8e2eeed3f0538be682dd539a9088ad0",
+          "attempt_id": "V03-R1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/scale-conflict/candidates/V03-R1.png",
+          "call_path": "production/scale-conflict/calls/V03-R1.json",
+          "call_sha256": "4ca737a8f345054f2e9d5a0bb998ac6a67f1960963027edea194de77e4641dd8",
+          "retry_of": "V03-P",
+          "retry_reason": "Native and phone review show Riven about24–25 percent of the tall canvas rather than the planned10 percent; independent primary batch02 confirms this framing failure."
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Broad pale architecture and calmer blue river retain fish, tiny Riven and extreme upward composition. Some regular water pattern remains, but overall visual rest substantially improved. Terrace footing ambiguity and approximately 5 percent actor scale inherited."
+      ]
+    },
+    {
+      "id": "V04",
+      "title": "The Orchard Above the Drop",
+      "category": "vista",
+      "scale": "wide",
+      "subjects": [
+        "neris",
+        "kellan"
+      ],
+      "story_path": "arrival",
+      "caption": "A place worth defending needs room for an ordinary morning.",
+      "brief": "Broad sunlit horizontal view of terraced gardens cantilevered over a huge city gulf. Neris and Kellan are complete figures about 14 percent of frame height, walking together along a pale terrace path with weapons carried safely, white/teal/crescent against sand/cobalt/straight blade. A small flock of wide-winged pale seed gliders grazes among a few sweeping orchard tree masses. Warm cream stone, dusty green foliage, cool shadow depths and quiet red fruit clusters; far inhabited towers visible through the open edge. Convey ease and character chemistry, not posed combat. Group foliage and stone into large designed shapes; no individual-leaf carpet.",
+      "references": [
+        "neris",
+        "kellan"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/V04-F1.png",
+        "sha256": "69fad6d2b87b20f4a598da363dc6a1a319d9315c376e8696b7bbf57fe5c865bb",
+        "attempt_id": "V04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/V04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/V04-F1.png",
+          "sha256": "69fad6d2b87b20f4a598da363dc6a1a319d9315c376e8696b7bbf57fe5c865bb",
+          "attempt_id": "V04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V04-F1.png",
+          "call_path": "production/scale-conflict/calls/V04-F1.json",
+          "call_sha256": "feb399810176285ceef65abefd301a39a39bc7f65488667c2f4fa40a47c8dc8e",
+          "retry_of": "V04-R1",
+          "retry_reason": "Framing repair establishes small walkers; dense leaves, bark, dapple and stone mottling dominate the image."
+        },
+        {
+          "path": "production/scale-conflict/candidates/V04-P.png",
+          "sha256": "144ff70ce0eedf6bc65d4004717b4e5fc8644d0e18cca682e4a1e3390117c8ee",
+          "attempt_id": "V04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V04-P.png",
+          "call_path": "production/scale-conflict/calls/V04-P.json",
+          "call_sha256": "7910f350a08c1f390e8bbd5466b0c64c94b3b5c48eabadd56dd76fa9f1fc338b"
+        },
+        {
+          "path": "production/scale-conflict/candidates/V04-R1.png",
+          "sha256": "36e424da762d81dae06c486614f4580ab3251bb7d7e8a1a56bebea1fe25aec0c",
+          "attempt_id": "V04-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V04-R1.png",
+          "call_path": "production/scale-conflict/calls/V04-R1.json",
+          "call_sha256": "bae32d90a49a657bc041fc1048937df10a6b508e47acef36978e9bb6fb344f6d",
+          "retry_of": "V04-P",
+          "retry_reason": "Native and actual phone inspection show the orchard adults around54–58 percent height rather than14, the largest vista framing miss; independent primary-V04 review recommends structure before finishing."
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Broad canopy and dapple shapes create a much calmer warm world while preserving small walkers, birds and terrace depth. Foreground softened foliage is inherited; no new identity or framing failure seen."
+      ]
+    },
+    {
+      "id": "V05",
+      "title": "Under the Bell of Teeth",
+      "category": "vista",
+      "scale": "extreme-wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "bellmaw"
+      ],
+      "story_path": "fracture",
+      "caption": "The thing beneath the bridge is large enough to answer the city.",
+      "brief": "Extreme-wide threat reveal inside the open lower basin of Vesper Reach. Riven and Neris, SMALL at about 7 percent height, stand on a pale bridge in the lower left with clear separate silhouettes. Across the basin towers the Bellmaw: an immense four-legged organic predator, long weight-bearing forelegs, lower powerful hindlegs, low wedge face beneath a broad smooth black mantle, pale throat pouch like the underside of a deep-sea ray, one long heavy tail. Its open mouth is a broad dark crescent with a few great pale teeth; not a humanoid, not a machine. One massive forefoot rests beside a bridge pier to prove scale. City arches are dwarfed by its back. Quiet dark plates, no mosaic cracks. Side-lit evening with pale water and violet shadow masses. Mouth is open but no beam yet. One coherent panoramic scene.",
+      "references": [
+        "riven",
+        "neris"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/V05-F1.png",
+        "sha256": "1642ebaad73285052de78195f3241121d21104632a29d4b5143105db2c1e3d2a",
+        "attempt_id": "V05-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/V05-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/V05-F1.png",
+          "sha256": "1642ebaad73285052de78195f3241121d21104632a29d4b5143105db2c1e3d2a",
+          "attempt_id": "V05-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V05-F1.png",
+          "call_path": "production/scale-conflict/calls/V05-F1.json",
+          "call_sha256": "e31a7de4419c7f136c9c6d22e31e6f9a045c25e381f6eaa63b72500d460971a6",
+          "retry_of": "V05-P",
+          "retry_reason": "The immense four-legged threat reads well, but native skin/fur-like striations, throat creases, rock texture and wet glitter are pervasive and would carry into linked creature scenes."
+        },
+        {
+          "path": "production/scale-conflict/candidates/V05-P.png",
+          "sha256": "f14c7c26588eeb05c573708b8b96608799e97d07d81df90fc1ef89d89a862fd7",
+          "attempt_id": "V05-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V05-P.png",
+          "call_path": "production/scale-conflict/calls/V05-P.json",
+          "call_sha256": "6d8d17e81bc5e13bfd64e8ac9a2eda7515ae38f11ac8c209c7e917885a2436e1"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Major surface improvement: broad black mantle and pale throat retain weight, four grounded limbs, giant scale and two adults. Clear new creature identity."
+      ]
+    },
+    {
+      "id": "V06",
+      "title": "The City Moves at Dawn",
+      "category": "vista",
+      "scale": "extreme-wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "ilyra"
+      ],
+      "story_path": "fracture",
+      "caption": "A victory can still leave a city moving beneath your feet.",
+      "brief": "An immense wide sunrise panorama after a district shift. Riven, Neris and Ilyra stand as three SMALL distinct adults, 8 percent picture height, on an intact observation shelf overlooking a whole inhabited district sliding slowly sideways across an enormous smooth fault. Separation is shown by two broad architectural masses and a single luminous cyan seam, not rubble chaos. The moving district carries bridges, gardens and canal levels; warm dawn touches its edges. Identify silver/petrol/saber, brown/ivory shoulders/crescent and copper bob/burgundy/ivory long lance. They face different parts of the problem with wary body language; no celebration, no canon ending.",
+      "references": [
+        "riven",
+        "neris",
+        "@A05"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/V06-F1.png",
+        "sha256": "16cc0845ef8eeaf3e1d264be3d669b90443f270a0e15d1aa7c7c668ed3045df6",
+        "attempt_id": "V06-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/V06-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/V06-F1.png",
+          "sha256": "16cc0845ef8eeaf3e1d264be3d669b90443f270a0e15d1aa7c7c668ed3045df6",
+          "attempt_id": "V06-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V06-F1.png",
+          "call_path": "production/scale-conflict/calls/V06-F1.json",
+          "call_sha256": "5e1a11f6cbb4b1403c811e9774b39ceff626d9048869c625914a960aa06bf69e",
+          "retry_of": "V06-P",
+          "retry_reason": "Dense city windows, foliage and wet terrace grain distract from moving district and three witnesses."
+        },
+        {
+          "path": "production/scale-conflict/candidates/V06-P.png",
+          "sha256": "39b50f91d7d791b881ad8c2d674a84c562f8cb9ce1cddbc0c390eb3f63f63330",
+          "attempt_id": "V06-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/V06-P.png",
+          "call_path": "production/scale-conflict/calls/V06-P.json",
+          "call_sha256": "a92548458902e03a4122ef7f78680b7d4cedb13d6395991b6719880c8cdf1276"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Broad city faces, canopy groups and quieter foreground preserve immense moving district, wheels/rail and three recognizable costume silhouettes. Some architectural detail reinterpreted; figure scale remains far larger than 8 percent target."
+      ]
+    },
+    {
+      "id": "T01",
+      "title": "Three at the Threshold",
+      "category": "ensemble",
+      "scale": "medium-wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "ilyra"
+      ],
+      "story_path": "arrival",
+      "caption": "The gatekeeper offers passage on terms they cannot yet accept.",
+      "brief": "Complete mid-distance three-person confrontation on a wide quiet gate stair. Riven and Neris stand together on the lower left, Ilyra alone one step higher at right with Axis Lance planted beside her. Figures are about 30 percent of height with space around each full weapon and feet. Riven wears a restrained crooked smile; Neris assesses the guard without flinching; Ilyra is cool, regal and unimpressed. A huge partially open pale gate frames far city depth. Early morning amber light against clean blue shadows. No attacking yet, no duplicated faces or copied reference panel layout.",
+      "references": [
+        "riven",
+        "neris",
+        "@A05"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/T01-F1.png",
+        "sha256": "38135f4e5948960e7cba5ca1804ab865f76d5bb3faea906e67895382d9a565a2",
+        "attempt_id": "T01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/T01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/T01-F1.png",
+          "sha256": "38135f4e5948960e7cba5ca1804ab865f76d5bb3faea906e67895382d9a565a2",
+          "attempt_id": "T01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T01-F1.png",
+          "call_path": "production/scale-conflict/calls/T01-F1.json",
+          "call_sha256": "b280143133bb05dfd11d51c6334c426da584aa0434dc1ba47fe02ddf78c4704f",
+          "retry_of": "T01-P",
+          "retry_reason": "Dense staircase stipple and facade grain compete with three character silhouettes."
+        },
+        {
+          "path": "production/scale-conflict/candidates/T01-P.png",
+          "sha256": "761ef73f0b51d6c7380097f578af9753c9539099dea2dee7b09d612737ceca10",
+          "attempt_id": "T01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T01-P.png",
+          "call_path": "production/scale-conflict/calls/T01-P.json",
+          "call_sha256": "da0ce55cc77934b7d49d8f607d5f4d241d53361c4a9a6cfcac9d75d23ffd100d"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Major calmer stair and wall surfaces; the three central faces and signature equipment remain clear. City depth retained. Actor scale remains far closer than requested, and background guards are retained rather than silently removed."
+      ]
+    },
+    {
+      "id": "T02",
+      "title": "The Price of Stillness",
+      "category": "ensemble",
+      "scale": "medium-wide",
+      "subjects": [
+        "kellan",
+        "ilyra"
+      ],
+      "story_path": "fracture",
+      "caption": "Holding one district still means choosing what moves instead.",
+      "brief": "An inhabited elevated canal exchange with five clearly separated adults: Kellan at left, Ilyra at right, and three adult residents listening farther back under a broad arch. Kellan gestures angrily with his EMPTY free hand while holding the lowered sword safely in the other; Ilyra keeps her lance vertical and points her gaze toward the district beyond. Main figures 35 percent height, supporting adults smaller and distinct, no overlapping faces or hands. One broad cracked expansion joint separates two paving slabs; distant homes across water motivate the argument. Flat overcast light, restrained burgundy, sand and cool stone colors. No holographic maps, text, floating UI or particle display.",
+      "references": [
+        "kellan",
+        "@A05"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/T02-F1.png",
+        "sha256": "21115820ef1255d0ec7fb4947c95420bceaf24dbdfd37347d33b35b356b90f6f",
+        "attempt_id": "T02-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/T02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/T02-F1.png",
+          "sha256": "21115820ef1255d0ec7fb4947c95420bceaf24dbdfd37347d33b35b356b90f6f",
+          "attempt_id": "T02-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T02-F1.png",
+          "call_path": "production/scale-conflict/calls/T02-F1.json",
+          "call_sha256": "f37cd2f690ca9d8eecc72f5dc68c09f547808cc7d0051ef0e8b3f4acf4ce492e",
+          "retry_of": "T02-P",
+          "retry_reason": "Wet paving reflection glitter and building microtexture compete with facial acting."
+        },
+        {
+          "path": "production/scale-conflict/candidates/T02-P.png",
+          "sha256": "023548a59970273480503292158a12cb7139d88bf58cfc89aa46e7872d4f762a",
+          "attempt_id": "T02-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T02-P.png",
+          "call_path": "production/scale-conflict/calls/T02-P.json",
+          "call_sha256": "5d12d5322e229c3b4b61ee1328755cda5ee4b0add8cc36fa0821219d1b5a4966"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Calmer floor, water and masonry preserve exact five adults, argumentative expressions and signature implements. No new structural break seen; inherited closer framing and narrow-looking Kellan blade remain."
+      ]
+    },
+    {
+      "id": "T03",
+      "title": "Crossed Lines on the Canal",
+      "category": "ensemble",
+      "scale": "medium-wide",
+      "subjects": [
+        "riven",
+        "kellan"
+      ],
+      "story_path": "fracture",
+      "caption": "One opening is enough if both fighters can read it.",
+      "brief": "Crisp lateral four-adult fight on a broad canal bridge: Riven at left parries one adult masked guard’s spear at an explicit single blade-shaft contact; Kellan at right ducks a SECOND distinct adult guard’s horizontal spear, his sword low and clear as he steps inside its reach. Two separated action lanes, all combatants complete about 38 percent height, full spear tips within frame. A broad low bridge rail and still water fix geography. One sharp contact accent only at Riven’s actual parry; no general sparks or motion blur. Clear hands gripping real hilts, no blade gripped by fingers. Pale side light keeps dark costumes apart.",
+      "references": [
+        "riven",
+        "kellan"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/T03-P.png",
+        "sha256": "e0c94a8862ac7240e8474874f61d1b26ff0c1fd3aba71c9cfcf1f449a0aa4c53",
+        "attempt_id": "T03-P",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/T03-P.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/T03-F1.png",
+          "sha256": "b5b9389f57c62a952aa40628a30a520933555f8fc0761ac92d43652594c89c93",
+          "attempt_id": "T03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T03-F1.png",
+          "call_path": "production/scale-conflict/calls/T03-F1.json",
+          "call_sha256": "cc2a97f9465a58bc323d27b0c9f4e05f2a73409aa6124ad471cc3f46367276d5",
+          "retry_of": "T03-R1",
+          "retry_reason": "Structural edit removes the upper abrupt kink, but dense wet paving glitter and facade grain remain."
+        },
+        {
+          "path": "production/scale-conflict/candidates/T03-P.png",
+          "sha256": "e0c94a8862ac7240e8474874f61d1b26ff0c1fd3aba71c9cfcf1f449a0aa4c53",
+          "attempt_id": "T03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T03-P.png",
+          "call_path": "production/scale-conflict/calls/T03-P.json",
+          "call_sha256": "3d9bc815eeca0add31c54a397295511930c3f8c6ada86a2a28805e67eb0c4e07"
+        },
+        {
+          "path": "production/scale-conflict/candidates/T03-R1.png",
+          "sha256": "173e2fdb1ff2ba18196a472c0df99c5a44052ba16c53d72bbead6a03cc715186",
+          "attempt_id": "T03-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T03-R1.png",
+          "call_path": "production/scale-conflict/calls/T03-R1.json",
+          "call_sha256": "1b35d7def23a5a974c718163bfaf9245735db6242a6f02ef77097fe6cd70d37b",
+          "retry_of": "T03-P",
+          "retry_reason": "Native inspection of the left parry shows an abrupt kink/branch-like change in the saber at the spark, with ambiguous alignment of the attacking spear. Crisp weapon construction is central to the requested fight clarity."
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Two distinct combat lanes and Kellan duck read well. Riven left saber bends sharply at crossing into a V-like construction; enemy spear alignment ambiguous. Outer guards cropped despite complete-figure brief. Wet paving and windows add visual noise.",
+        "The R1 repair smooths the blade but loses a convincing blade-to-gripping-hand connection; F1 inherits it. Display reverted to this flawed primary. Both attempted improvements remain in history; the repair is not successful."
+      ]
+    },
+    {
+      "id": "T04",
+      "title": "A Hand Before the Fall",
+      "category": "ensemble",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "neris"
+      ],
+      "story_path": "fracture",
+      "caption": "Power matters when somebody else has run out of ground.",
+      "brief": "A steep three-quarter view of a separated elevated transit platform. Neris braces on the intact near edge, her shield carried on her outer arm, and firmly grips one adult passenger’s wrist with her free hand as that passenger steps across a short visible gap. Riven stands farther along the intact ledge guiding two more adult passengers toward safety with his saber sheathed. Five adults total, distinct poses, main figures around 25 percent height. Empty city gulf below, broad pale platform slabs and one tilted rail reveal danger without flying debris. The rescue contact is visible and believable; no extra hands, no bridge magically completed already.",
+      "references": [
+        "riven",
+        "neris"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/T04-F1.png",
+        "sha256": "dbb4fcd4d7ccfbe0f52b9f91986cf801c3aef67eb409158c09dc030e6154228d",
+        "attempt_id": "T04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/T04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/T04-F1.png",
+          "sha256": "dbb4fcd4d7ccfbe0f52b9f91986cf801c3aef67eb409158c09dc030e6154228d",
+          "attempt_id": "T04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T04-F1.png",
+          "call_path": "production/scale-conflict/calls/T04-F1.json",
+          "call_sha256": "006505510f6ccf774fab6ff3eb084383446c96db2643514462e3176046ffd2ab",
+          "retry_of": "T04-P",
+          "retry_reason": "Fine slab grain and distant window field compete with rescue contact and gulf."
+        },
+        {
+          "path": "production/scale-conflict/candidates/T04-P.png",
+          "sha256": "4332553fbb98187473e3ad184f60df03fdd47ee4931f952b138f044dddcdeaf1",
+          "attempt_id": "T04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T04-P.png",
+          "call_path": "production/scale-conflict/calls/T04-P.json",
+          "call_sha256": "e462275209929be3b10d01b9900fbea49c087671ffa1eae9265e8ad98b77d877"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Much calmer slabs, metal supports and distant city preserve all six adults, handclasp and narrow rail footing. Rescue and enormous gulf now read more clearly. Participant count and crossing geometry still differ from planned design."
+      ]
+    },
+    {
+      "id": "T05",
+      "title": "The Ground Takes Sides",
+      "category": "ensemble",
+      "scale": "medium-wide",
+      "subjects": [
+        "neris",
+        "ilyra"
+      ],
+      "story_path": "fracture",
+      "caption": "A defender who trusts her footing meets someone who can turn it.",
+      "brief": "Two-adult duel with complete bodies and weapons at 45 percent height. Ilyra on the right plants the butt of her Axis Lance into a flat pale stone slab; one broad translucent violet rectangular plane spreads low across that slab. Neris on the left braces her crescent shield, one boot still planted on ordinary stone outside the plane while her other leg is pulled sideways inside it; her body visibly strains against changed weight. No airborne rubble field, no double crescent or missing lance endpoint. Side view makes the boundary, lance source and unequal footing legible. Huge quiet training court with a distant city wall.",
+      "references": [
+        "neris",
+        "@A05"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "Ilyra plants her Axis Lance in stone and turns the direction of weight inside one broad bounded plane.",
+        "limitation": "The planted lance anchors the effect; she must remain within reach, and allies inside the plane are affected too.",
+        "growth": [
+          "Tilt a small attack corridor, then redirect a giant limb or falling district at greater physical cost."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/T05-F1.png",
+        "sha256": "91185e6c71128b8dd16d6d21273ee9cbe970de066b16d99d41579f06e9076db6",
+        "attempt_id": "T05-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/T05-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/T05-F1.png",
+          "sha256": "91185e6c71128b8dd16d6d21273ee9cbe970de066b16d99d41579f06e9076db6",
+          "attempt_id": "T05-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T05-F1.png",
+          "call_path": "production/scale-conflict/calls/T05-F1.json",
+          "call_sha256": "cab36819b86bd903e4948938f35311b5ac253e2fad58c4205cbf21b14291daf2",
+          "retry_of": "T05-P",
+          "retry_reason": "Fine wet-floor texture and violet internal ripples obscure the simple ability boundary."
+        },
+        {
+          "path": "production/scale-conflict/candidates/T05-P.png",
+          "sha256": "937a88b26b6d023e2c2ccfb8c95d9cfd5a64e36e1fa886b7c5bee0bf4a14b071",
+          "attempt_id": "T05-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T05-P.png",
+          "call_path": "production/scale-conflict/calls/T05-P.json",
+          "call_sha256": "f1611b06ed67588ffb83d0bce5cf8da5a624e7a38a047ae910fde222f1416fcb"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Large quiet paving reflections and simple violet boundary substantially reduce surface competition at native and phone size. Faces and both grip systems preserved. Background becomes somewhat warmer; lateral gravity consequence still absent, so this is surface improvement only."
+      ]
+    },
+    {
+      "id": "T06",
+      "title": "Nobody Calls It Fear",
+      "category": "ensemble",
+      "scale": "close",
+      "subjects": [
+        "riven",
+        "neris",
+        "kellan"
+      ],
+      "story_path": "fracture",
+      "caption": "The joke lands because all three know how close it was.",
+      "brief": "Intimate candid three-adult chest-up scene at a sheltered low wall after conflict, no portrait sheet. Riven left leans back with a small exhausted crooked smile; Neris center gives him a skeptical sideways look; Kellan right laughs breathlessly, black curls tousled. Keep three distinctive faces, hairlines and costume collars: silver/petrol, brown/ivory shoulder cape/teal, black curls/sand cobalt. Hands are few and visible resting naturally, weapons set safely below the crop rather than entering faces. Broad dusk city lights far behind, clean facial planes and specific expressions; no all-over scratches, glamorous beauty-filter replacement faces or generic serious stare.",
+      "references": [
+        "riven",
+        "neris",
+        "kellan"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/T06-P.png",
+        "sha256": "dd64d46eaf522f01bd069461e896ec16bd4e1a0024678c0d3edf7956a51d9139",
+        "attempt_id": "T06-P",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/T06-P.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/T06-P.png",
+          "sha256": "dd64d46eaf522f01bd069461e896ec16bd4e1a0024678c0d3edf7956a51d9139",
+          "attempt_id": "T06-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/T06-P.png",
+          "call_path": "production/scale-conflict/calls/T06-P.json",
+          "call_sha256": "d4f6c40cd23c8b31694beebf5d0047cb3185d31e1be82d7f742bc5494795d529"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Strong intimate adult group acting: Riven crooked smile, Neris side glance, Kellan laughing. Faces differentiated although Neris jaw and brow read more angular than original. Chest/waist crop intentional; night waterfront grain secondary to faces."
+      ]
+    },
+    {
+      "id": "A01",
+      "title": "The Inch That Matters",
+      "category": "ability",
+      "scale": "close",
+      "subjects": [
+        "riven"
+      ],
+      "story_path": "fracture",
+      "caption": "His blade wins the angle before his power buys the distance.",
+      "brief": "Dynamic close three-quarter action shot of Riven from thighs up at about 75 percent of picture height. His narrow saber meets an adult armored opponent’s straight blade at ONE clear contact in front of them, both real hilt grips visible behind their guards. Riven’s silver-haired face is sharp and intent, eyes looking along the opponent’s opening. A small cyan seam begins on the nearby wall edge behind him, not a giant portal or aura. Opponent shown enough to understand resistance, face partly guarded, no extra weapons. Broad calm charcoal wall and pale side light. Crisp anatomy and contact, no motion blur, no blanket speed lines.",
+      "references": [
+        "riven"
+      ],
+      "power": {
+        "name": "Borrowed Horizon",
+        "description": "A saber stroke opens a short seam between two visible edges; Riven steps across the missing distance.",
+        "limitation": "Both ends must be visible and the exit must support his weight; one seam at a time.",
+        "growth": [
+          "Move an ally through a held seam, then redirect a committed attack through a carefully placed exit."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/A01-F1.png",
+        "sha256": "bc1ba2c59f064731f3bbe66381d22d95746f30e00df4330e82eef0b21a45e30c",
+        "attempt_id": "A01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/A01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/A01-F1.png",
+          "sha256": "bc1ba2c59f064731f3bbe66381d22d95746f30e00df4330e82eef0b21a45e30c",
+          "attempt_id": "A01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A01-F1.png",
+          "call_path": "production/scale-conflict/calls/A01-F1.json",
+          "call_sha256": "f34db32bd739b6faf84610e95f93ff793722880fc7565a8bba73dd9a8186d84a",
+          "retry_of": "A01-P",
+          "retry_reason": "Enemy armor and masonry contain fine repeated grain around a strong close parry."
+        },
+        {
+          "path": "production/scale-conflict/candidates/A01-P.png",
+          "sha256": "51ea37069f0468c45a99cf214e1af9b19ab4b7f9fc585b388d138d437bf9c961",
+          "attempt_id": "A01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A01-P.png",
+          "call_path": "production/scale-conflict/calls/A01-P.json",
+          "call_sha256": "c0849cd01d4039f340aa7f9bad87c33c4b0dd73302c85a07af31c651888d54b5"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Broad dark enemy armor and calmer wall/paving preserve appealing close Riven face, both grips and blade crossing. Selective highlights retain metal character. No new contact/anatomy defect seen at native scale."
+      ]
+    },
+    {
+      "id": "A02",
+      "title": "A Step Through the Wrong Distance",
+      "category": "ability",
+      "scale": "medium",
+      "subjects": [
+        "riven"
+      ],
+      "story_path": "fracture",
+      "caption": "The exit is chosen before the enemy commits.",
+      "brief": "One complete Riven at 45 percent image height stepping out from the far end of a single narrow cyan spatial seam along a broken stone doorway, emerging to the SIDE of an enormous forelimb sweeping past the doorway’s original position. The connected seam is a restrained kink of space between two visible masonry edges, not two glowing circular portals or duplicate Riven bodies. His lead boot reaches real dry stone, saber held clear and ready; the huge creature limb crosses his abandoned approach behind. Show the safe exit and dangerous missed sweep in a readable oblique composition. Broad simple stone planes, clear claws and no debris cloud.",
+      "references": [
+        "riven"
+      ],
+      "power": {
+        "name": "Borrowed Horizon",
+        "description": "A saber stroke opens a short seam between two visible edges; Riven steps across the missing distance.",
+        "limitation": "Both ends must be visible and the exit must support his weight; one seam at a time.",
+        "growth": [
+          "Move an ally through a held seam, then redirect a committed attack through a carefully placed exit."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/A02-F1.png",
+        "sha256": "12b584d3ee3e2d24982e805b18b3adc3df5b36eea549994ba09eebeacc205465",
+        "attempt_id": "A02-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/A02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/A02-F1.png",
+          "sha256": "12b584d3ee3e2d24982e805b18b3adc3df5b36eea549994ba09eebeacc205465",
+          "attempt_id": "A02-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A02-F1.png",
+          "call_path": "production/scale-conflict/calls/A02-F1.json",
+          "call_sha256": "d0965b5204419897d7fc8b13443a9c9d2b91444a3608db53c8ba1a5d68a9b7fd",
+          "retry_of": "A02-P",
+          "retry_reason": "Dense reptile scale network and stone grain dominate the giant-limb action."
+        },
+        {
+          "path": "production/scale-conflict/candidates/A02-P.png",
+          "sha256": "264551a791c0f758b55115aaa324ddd52c161e0ea006492d9e2d75b7bdcf65f9",
+          "attempt_id": "A02-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A02-P.png",
+          "call_path": "production/scale-conflict/calls/A02-P.json",
+          "call_sha256": "0c44e2b6a7850dffcdcc6cf8c69174a450cbc319d1088e1566609f068d95a319"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Large organic hide planes remove most repeating tiny scales; stone calmer, Riven face/grip/boot and claw arrangement retained. Higher creature highlights alter local material feel somewhat. Single visible portal slit still fails to fully explain two-endpoint power."
+      ]
+    },
+    {
+      "id": "A03",
+      "title": "Return to Sender",
+      "category": "ability",
+      "scale": "medium",
+      "subjects": [
+        "neris"
+      ],
+      "story_path": "fracture",
+      "caption": "A pressure front becomes one devastating step forward.",
+      "brief": "Side-on decisive shield strike. Neris lunges from a visibly planted rear boot, driving the OUTER navy face of her one solid crescent shield into the chest plate of a large adult armored foe. Her forearm approaches the shield from its REAR side, connected to the rear handle; show her bent elbow behind it, never a hand on the enemy-facing surface. One broad compressed pale pressure crescent releases from the contact, pushing the foe backward with feet losing purchase. Complete Neris 60 percent height, complete shield and opponent, no gore or particle storm. A quiet broad stone court and one long cast shadow.",
+      "references": [
+        "neris"
+      ],
+      "power": {
+        "name": "Quiet Harbor",
+        "description": "Neris catches one pressure front against her braced crescent shield and returns it through a shield drive.",
+        "limitation": "She must brace and face it; a broken stance or open flank spills the stored force.",
+        "growth": [
+          "A momentary still pocket for a team; later a precisely aimed return of a colossal pressure front."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/A03-F1.png",
+        "sha256": "9e790538cebe73daa6b7cb27c561f73b74d5647065a09687c5a8c0aa48ca5fca",
+        "attempt_id": "A03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/A03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/A03-F1.png",
+          "sha256": "9e790538cebe73daa6b7cb27c561f73b74d5647065a09687c5a8c0aa48ca5fca",
+          "attempt_id": "A03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A03-F1.png",
+          "call_path": "production/scale-conflict/calls/A03-F1.json",
+          "call_sha256": "8cada6f8f53ee4fb14c4323c37612a8498404eb57417c285b2761b7c19fde95d",
+          "retry_of": "A03-P",
+          "retry_reason": "Dense armor microtexture, stone pores and water flecks compete with shield counter."
+        },
+        {
+          "path": "production/scale-conflict/candidates/A03-P.png",
+          "sha256": "aa8a8fdee522e43d23370716b3268a37a11aa77ba5e06489e74c0a294a671daf",
+          "attempt_id": "A03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A03-P.png",
+          "call_path": "production/scale-conflict/calls/A03-P.json",
+          "call_sha256": "5c786e03a266f2a7add0fe5ce2ff7699c46ee79985d447c893f0c6d1136fdd57"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Calmer dark armor and reflections preserve rear shield grip, pressure arc and recoil; foot placements broadly retained. Visible air gap means direct shield strike remains unproven. Surface gain does not fix that action limitation."
+      ]
+    },
+    {
+      "id": "A04",
+      "title": "Winter Has an Edge",
+      "category": "ability",
+      "scale": "medium",
+      "subjects": [
+        "kellan"
+      ],
+      "story_path": "fracture",
+      "caption": "The water becomes a weapon exactly where his blade passes.",
+      "brief": "Low lateral view of Kellan in a committed two-hand sword stroke, all fingers around the hilt behind the oval guard. The blade’s lower tip is visibly touching a shallow continuous water channel. Immediately along the completed stroke behind that contact rises ONE smooth opaque pale-blue ice wedge, catching a lunging four-legged small black armored predator under its chest and lifting it off its charging line. Source water, blade contact, growing wedge and displaced animal read in one glance. Complete Kellan around 55 percent height and complete beast, three broad reflections rather than splashing glitter. No distant dry-air ice, icicle forest or random snow.",
+      "references": [
+        "kellan"
+      ],
+      "power": {
+        "name": "Deep Winter",
+        "description": "Kellan draws a continuous blade stroke through existing water, raising a directed ice restraint or ramp from its path.",
+        "limitation": "Needs connected water and blade contact; cannot freeze dry air or distant targets.",
+        "growth": [
+          "Sculpt stronger flowing water into a temporary bridge, then redirect a larger charge with its shape."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/A04-F1.png",
+        "sha256": "b37fb736710aea708602eb668c8e11b3d860f9fd4705f4c03753aab6703a2886",
+        "attempt_id": "A04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/A04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/A04-F1.png",
+          "sha256": "b37fb736710aea708602eb668c8e11b3d860f9fd4705f4c03753aab6703a2886",
+          "attempt_id": "A04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A04-F1.png",
+          "call_path": "production/scale-conflict/calls/A04-F1.json",
+          "call_sha256": "7bea6aa9764897d20b818aab64907ed75663aafed3984c2b9bc8efa1e9b70054",
+          "retry_of": "A04-P",
+          "retry_reason": "Native view shows dense granular ice striations, splash flecks, wet paving glitter and cloud marks competing with the clear contact-based counter; independent native batch 01 agrees."
+        },
+        {
+          "path": "production/scale-conflict/candidates/A04-P.png",
+          "sha256": "72bec0cea6db9b84edb9370c6eba8b33c4c2b39b51abbb9603b78b490857a232",
+          "attempt_id": "A04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A04-P.png",
+          "call_path": "production/scale-conflict/calls/A04-P.json",
+          "call_sha256": "eda994038b5fbe523d81101bb67dd27050dc3153d14ad2e4b71cefe7d3a75e3e"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Strongly calmer solid ice planes and broad water bands retain Kellan, hilt grips, blade endpoint, raised beast and clear counter.",
+        "The edit adds a bright moon absent from the primary, so not every backdrop detail is preserved; the original stays in history. Some large ice facet shapes remain."
+      ]
+    },
+    {
+      "id": "A05",
+      "title": "The Woman Who Tilted the Rain",
+      "category": "ability",
+      "scale": "full-figure",
+      "subjects": [
+        "ilyra"
+      ],
+      "story_path": "arrival",
+      "caption": "She does not stop the storm. She changes where down is.",
+      "brief": "Design one NEW original adult woman Ilyra Vale, age34, pale complexion, striking angular face, straight narrow brows, amber eyes and a blunt copper-red chin-length bob with one side tucked behind ear. Regal measured expression, tall lean powerful build. Burgundy fitted combat coat with a single broad ivory shoulder mantle, black trousers and solid boots. Signature Axis Lance: a complete long straight ivory shaft, dark middle grip and one broad dark triangular spearhead with a bronze edge; no floating pieces, extra tips or filigree. In a new full-body scene she plants the blunt butt on stone beside her and holds the middle securely in one hand; other hand open at waist. Her figure about65 percent height. On ONE side of the shaft a broad translucent violet plane makes a coherent sheet of rain curve sideways; the other side falls straight. Source and consequence legible through large water shapes, no dense raindrop speckles. Massive open city balcony, distant storm, crisp adult face. Use supplied reference for drawing finish only; do not copy its subjects, shields, snow or composition. One single landscape illustration, no reference sheet, no portrait inset.",
+      "references": [
+        "finish"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "Ilyra plants her Axis Lance in stone and turns the direction of weight inside one broad bounded plane.",
+        "limitation": "The planted lance anchors the effect; she must remain within reach, and allies inside the plane are affected too.",
+        "growth": [
+          "Tilt a small attack corridor, then redirect a giant limb or falling district at greater physical cost."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/A05-F1.png",
+        "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+        "attempt_id": "A05-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/A05-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/A05-F1.png",
+          "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+          "attempt_id": "A05-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A05-F1.png",
+          "call_path": "production/scale-conflict/calls/A05-F1.json",
+          "call_sha256": "ff9437b7ef379b26c5579fe5c5e7ff190f3b83d1961f8983ab19a21809f958ac",
+          "retry_of": "A05-P",
+          "retry_reason": "The rival has a clear distinctive design and planted lance, but the rain field, violet sheet scratches, paving glitter and cloud texture are very dense; independent native batch 01 agrees."
+        },
+        {
+          "path": "production/scale-conflict/candidates/A05-P.png",
+          "sha256": "879c33d688c84ca716a01ff13bbd1665b093bb00092c7cc8bddc0ef2c72f4c3f",
+          "attempt_id": "A05-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A05-P.png",
+          "call_path": "production/scale-conflict/calls/A05-P.json",
+          "call_sha256": "7628b93dc739861f3d24f8dcc774b88e76898a79af5a73a7610325369281daaf"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Broad violet curtain, grouped clouds and much less rain preserve the rival face, costume, planted lance and original background adults.",
+        "The effect is still ambiguous between rain deflection and changed gravity; surface success does not prove the mechanism. Reflections retain some mottling."
+      ]
+    },
+    {
+      "id": "A06",
+      "title": "An Answer to a Giant",
+      "category": "ability",
+      "scale": "wide",
+      "subjects": [
+        "ilyra",
+        "bellmaw"
+      ],
+      "story_path": "fracture",
+      "caption": "She cannot lift the beast. She can make one planted foot betray it.",
+      "brief": "Wide side view with Ilyra SMALL at 16 percent frame height on a pale bridge end, full Axis Lance planted beside her. Bellmaw towers across the right of the frame, one immense forefoot loaded onto a broad flat stone shelf. ONE low violet plane runs from the lance base beneath that forefoot only; the enormous foreleg visibly tilts sideways as its weight is redirected, while the other three legs brace outside the plane. Its low wedge head swings in surprise, not a weightless levitation pose. Quiet opaque black mantle and pale throat; huge city piers scale it. One clear source/affected region/consequence, no rune circles or particle storm.",
+      "references": [
+        "@A05",
+        "@V05"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "Ilyra plants her Axis Lance in stone and turns the direction of weight inside one broad bounded plane.",
+        "limitation": "The planted lance anchors the effect; she must remain within reach, and allies inside the plane are affected too.",
+        "growth": [
+          "Tilt a small attack corridor, then redirect a giant limb or falling district at greater physical cost."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/A06-F1.png",
+        "sha256": "3e60924c6d8b9c8aef703d69e60094567fad2264c93cf60a1eb51edee0332c42",
+        "attempt_id": "A06-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/A06-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/A06-F1.png",
+          "sha256": "3e60924c6d8b9c8aef703d69e60094567fad2264c93cf60a1eb51edee0332c42",
+          "attempt_id": "A06-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A06-F1.png",
+          "call_path": "production/scale-conflict/calls/A06-F1.json",
+          "call_sha256": "6e62e1c93d4166c16611678b61f483f0a58823f9456548ca255c6c702c485c36",
+          "retry_of": "A06-P",
+          "retry_reason": "Dense spray flecks, stone pores and water reflections compete with giant weight and bounded violet plane."
+        },
+        {
+          "path": "production/scale-conflict/candidates/A06-P.png",
+          "sha256": "384a72201d3c5b7d59d6baabbb9669ff808cafa611860b44e7d8693a89d6af70",
+          "attempt_id": "A06-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A06-P.png",
+          "call_path": "production/scale-conflict/calls/A06-P.json",
+          "call_sha256": "5b9dd591facc24de7a890e107752e868cc296da4c69ad3d67e1298a8ea322087"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Broad hide and simplified splash masses improve giant silhouette and plane-to-paw readability. Small Ilyra, lance and four-leg construction retained. Moon visible in source is removed/reinterpreted in cloud background; gravity still resembles a rising force ramp."
+      ]
+    },
+    {
+      "id": "A07",
+      "title": "The Borrowed Opening",
+      "category": "ability",
+      "scale": "medium-wide",
+      "subjects": [
+        "riven",
+        "neris"
+      ],
+      "story_path": "fracture",
+      "caption": "Her defense makes the space his next attack needs.",
+      "brief": "Dynamic two-adult team counter in a broad city passage. Neris crouches on the left with her crescent shield angled upward, its rear grip and bent arm correctly behind it. A single broad white sonic pressure ribbon strikes the outer shield face and is redirected over both heads. Riven lunges low from beside her at right, saber held forward through the visibly protected quiet wedge under that ribbon toward one distant armored attacker. Two distinct bodies and complete weapons, approximately40 percent height; no sword passing through Neris or duplicated motion bodies. Mouth of a distant horn implement identifies enemy source. Smooth stone and restrained cyan/violet light, one readable combined maneuver.",
+      "references": [
+        "riven",
+        "neris"
+      ],
+      "power": {
+        "name": "Quiet Harbor",
+        "description": "Neris catches one pressure front against her braced crescent shield and returns it through a shield drive.",
+        "limitation": "She must brace and face it; a broken stance or open flank spills the stored force.",
+        "growth": [
+          "A momentary still pocket for a team; later a precisely aimed return of a colossal pressure front."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/A07-F1.png",
+        "sha256": "61676a35461957306a7b9a457f2b81c04be3604a60170be58554ba2f73b34ca2",
+        "attempt_id": "A07-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/A07-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/A07-F1.png",
+          "sha256": "61676a35461957306a7b9a457f2b81c04be3604a60170be58554ba2f73b34ca2",
+          "attempt_id": "A07-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A07-F1.png",
+          "call_path": "production/scale-conflict/calls/A07-F1.json",
+          "call_sha256": "e665dd3a3ba0aabb680779190a83f5c745d040e383d03772619d2919e9ffc08a",
+          "retry_of": "A07-P",
+          "retry_reason": "White-pressure ribbon contains dense strands and spray glitter; wet paving adds noise."
+        },
+        {
+          "path": "production/scale-conflict/candidates/A07-P.png",
+          "sha256": "8be3d6abd987d24b2111fca6f80dcac225c241d7a54d0c49ac7d63606604bd02",
+          "attempt_id": "A07-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/A07-P.png",
+          "call_path": "production/scale-conflict/calls/A07-P.json",
+          "call_sha256": "996dba4aa8bf6eeb63b35cc0ab505a2e6b5e70f6424408c8d3da2fe5016522f3"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Pressure ribbon and floor markedly calmer; two foreground faces, rear shield grip and saber hilt preserved. Six participants and Neris crop remain. Ribbon still terminates at upper rim without a clearly separate outgoing deflection path; do not claim full counter mechanics."
+      ]
+    },
+    {
+      "id": "A08",
+      "title": "The River Becomes a Road",
+      "category": "ability",
+      "scale": "vertical-wide",
+      "subjects": [
+        "kellan"
+      ],
+      "story_path": "fracture",
+      "caption": "The same narrow stroke now carries somebody home.",
+      "brief": "Portrait composition looking down a vertical city gorge. Kellan, a complete small adult about18 percent of picture height, kneels on the near broad canal lip and drags the blade tip through a stream spilling into the gap. Behind the contact, one continuous pale-blue frozen ramp curves across toward a lower far landing where two adult residents wait safely. His hands grip the hilt, never the blade. Unfrozen water still flows beside the new road. Huge broad stone supports and calm deep-blue void show risk; distant architecture sparse and purposeful. Depict one credible experimental crossing, not a completed continent-wide ice spell.",
+      "references": [
+        "kellan"
+      ],
+      "power": {
+        "name": "Deep Winter",
+        "description": "Kellan draws a continuous blade stroke through existing water, raising a directed ice restraint or ramp from its path.",
+        "limitation": "Needs connected water and blade contact; cannot freeze dry air or distant targets.",
+        "growth": [
+          "Sculpt stronger flowing water into a temporary bridge, then redirect a larger charge with its shape."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/A08-F1.png",
+        "sha256": "5707e4ff8b433c71ceb085acfc5d2dba056eaea90ecbe5300ab25acbe564a117",
+        "attempt_id": "A08-F1",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/scale-conflict/candidates/A08-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/A08-F1.png",
+          "sha256": "5707e4ff8b433c71ceb085acfc5d2dba056eaea90ecbe5300ab25acbe564a117",
+          "attempt_id": "A08-F1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/scale-conflict/candidates/A08-F1.png",
+          "call_path": "production/scale-conflict/calls/A08-F1.json",
+          "call_sha256": "0575dff04250830f01f11b0fd96b3e2b952f6084ee532a148d4bf871d43d3d63",
+          "retry_of": "A08-P",
+          "retry_reason": "Dense ice mesh and hundreds of falling water glints dominate the vertical gulf."
+        },
+        {
+          "path": "production/scale-conflict/candidates/A08-P.png",
+          "sha256": "42eb118093800009f0aec1bd89941b7b0fa2beb703f6c5795f03e0957b91bf75",
+          "attempt_id": "A08-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/scale-conflict/candidates/A08-P.png",
+          "call_path": "production/scale-conflict/calls/A08-P.json",
+          "call_sha256": "29f20368423995df064f2c6f38e493b9ac0ddee21d2f72a33b572b06f2963797"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Broader ice facets and grouped water retain blade-to-water contact, both landing adults and the complete vertical crossing. Remaining water ripples and ice pattern are finer than the calmest finishes; construction and scale remain readable."
+      ]
+    },
+    {
+      "id": "Q01",
+      "title": "Underbridge — The First Note",
+      "category": "sequence",
+      "scale": "extreme-wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "bellmaw"
+      ],
+      "story_path": "underbridge",
+      "caption": "The bridge is the only way out; the creature has already found them.",
+      "brief": "First beat of a four-image encounter. Wide lateral basin view: an intact pale bridge crosses left to right, anchored to a square support at LEFT and a huge round arch at RIGHT. Riven and Neris are two SMALL distinct complete adults 10 percent height on the LEFT end, Bellmaw fills the RIGHT basin beyond the bridge with all four limbs plausible and huge pale throat beginning to swell. Its mouth faces left along bridge direction. A single broad dark restraint band runs from the creature’s nearest front ankle to the right arch; no ornamental chain web. Cool twilight, flat calm water, clean broad black mantle, meaningful scale architecture. No attack beam yet.",
+      "references": [
+        "riven",
+        "neris",
+        "@V05"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/Q01-F1.png",
+        "sha256": "b6f84c4530a028ace0090303421fefabadf88a78cda43d74b811bbb3f534181b",
+        "attempt_id": "Q01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/Q01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/Q01-F1.png",
+          "sha256": "b6f84c4530a028ace0090303421fefabadf88a78cda43d74b811bbb3f534181b",
+          "attempt_id": "Q01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/Q01-F1.png",
+          "call_path": "production/scale-conflict/calls/Q01-F1.json",
+          "call_sha256": "98b9e9975261a86ca6e0e22db9fbeebac142f0d586449d317dbb43f804353014",
+          "retry_of": "Q01-P",
+          "retry_reason": "Dense water reflection flecks and masonry grain persist even with clean Bellmaw reference."
+        },
+        {
+          "path": "production/scale-conflict/candidates/Q01-P.png",
+          "sha256": "fa2a859c257f289577bdb06920f450d05f2933c652fd124a84ca62b3fed8e40e",
+          "attempt_id": "Q01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/Q01-P.png",
+          "call_path": "production/scale-conflict/calls/Q01-P.json",
+          "call_sha256": "4243b8fc6554042b51777a834bad6d8995b36376ca323d2cc2852b3baee231d8"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Much calmer water reflection ribbons and masonry planes retain two tiny actors, four-legged Bellmaw and the single visible restraint band. Broad left/right encounter geography and restraint relationship are retained; exact arch proportions vary across the sequence."
+      ]
+    },
+    {
+      "id": "Q02",
+      "title": "Underbridge — Hold the Line",
+      "category": "sequence",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "neris",
+        "bellmaw"
+      ],
+      "story_path": "underbridge",
+      "caption": "She catches the first note while he watches the restraint.",
+      "brief": "Second beat, same pale bridge, square LEFT support and round RIGHT arch, same Bellmaw right facing left. Closer lateral framing: Neris braced on the left with proper REAR shield grip, shield outer face aimed RIGHT toward monster. One broad pale horizontal pressure front from the beast’s clearly open mouth on right strikes the shield and divides around a quiet wedge behind Neris. Riven crouches just behind her left, looking toward the dark restraint on the creature’s near front ankle. Complete adult silhouettes around40 percent height, no surface glitter or particle spray. Preserve bridge intact and geography, one shield, one saber, no reversed sides.",
+      "references": [
+        "@Q01",
+        "neris",
+        "riven"
+      ],
+      "power": {
+        "name": "Quiet Harbor",
+        "description": "Neris catches one pressure front against her braced crescent shield and returns it through a shield drive.",
+        "limitation": "She must brace and face it; a broken stance or open flank spills the stored force.",
+        "growth": [
+          "A momentary still pocket for a team; later a precisely aimed return of a colossal pressure front."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/Q02-F1.png",
+        "sha256": "bb7a8acc86fb08fdd51032d30636f77997047b7d55812a34903fec6279f47f79",
+        "attempt_id": "Q02-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/Q02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/Q02-F1.png",
+          "sha256": "bb7a8acc86fb08fdd51032d30636f77997047b7d55812a34903fec6279f47f79",
+          "attempt_id": "Q02-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/Q02-F1.png",
+          "call_path": "production/scale-conflict/calls/Q02-F1.json",
+          "call_sha256": "8ff38570e240f346228e832026c6812a7599435b3737791f147979f5104c73db",
+          "retry_of": "Q02-P",
+          "retry_reason": "Water reflections and masonry still show repeated microtexture around a clear shield defense."
+        },
+        {
+          "path": "production/scale-conflict/candidates/Q02-P.png",
+          "sha256": "1d40112371d27191f66be5f79cd098c86217305e61445c01ca5d92dc21458fe5",
+          "attempt_id": "Q02-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/Q02-P.png",
+          "call_path": "production/scale-conflict/calls/Q02-P.json",
+          "call_sha256": "e150a61bfae79a6c0bb58fbe22ed9163ff07c89708349b89cbeb5eceaa2a28f6"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Calmer water, stone and hide retain two adults, rear shield grip, mouth pressure front and the protected quiet wedge. Broad encounter geography holds; exact bridge geometry varies from other sequence images."
+      ]
+    },
+    {
+      "id": "Q03",
+      "title": "Underbridge — Cut the Tether",
+      "category": "sequence",
+      "scale": "close",
+      "subjects": [
+        "riven",
+        "bellmaw"
+      ],
+      "story_path": "underbridge",
+      "caption": "The strongest strike is aimed at what keeps the monster trapped.",
+      "brief": "Third beat, close oblique decisive contact at the Bellmaw’s near FRONT ANKLE beside the round RIGHT bridge arch. Riven is one complete figure around65 percent height, silver hair/petrol coat, both boots on the intact pale arch footing, saber cutting ONE taut broad dark restraint band at an explicit visible contact. The band has two newly separated thick ends springing apart, one still around ankle, other attached to arch; no gore and no sword entering flesh. Huge opaque dark living foot dwarfs him. A narrow fading cyan seam lies along the footing behind his heel, suggesting how he reached it without a duplicate body. Preserve one connected saber and correct grip; restrained cut accent, clean calm shapes.",
+      "references": [
+        "riven",
+        "@Q01"
+      ],
+      "power": {
+        "name": "Borrowed Horizon",
+        "description": "A saber stroke opens a short seam between two visible edges; Riven steps across the missing distance.",
+        "limitation": "Both ends must be visible and the exit must support his weight; one seam at a time.",
+        "growth": [
+          "Move an ally through a held seam, then redirect a committed attack through a carefully placed exit."
+        ]
+      },
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/Q03-F1.png",
+        "sha256": "83057ee3609f78f7feee31490439ec94f8f775d6097d31cc7b52649f1210da0c",
+        "attempt_id": "Q03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/Q03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/Q03-F1.png",
+          "sha256": "83057ee3609f78f7feee31490439ec94f8f775d6097d31cc7b52649f1210da0c",
+          "attempt_id": "Q03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/Q03-F1.png",
+          "call_path": "production/scale-conflict/calls/Q03-F1.json",
+          "call_sha256": "1f0f7dc78c02ffc2e68ebf599e9c6b440042a6d22106ef39186057bbc28388a8",
+          "retry_of": "Q03-P",
+          "retry_reason": "Dense tiny hide scales, wet paving glitter and masonry grain compete with precise band-cut contact."
+        },
+        {
+          "path": "production/scale-conflict/candidates/Q03-P.png",
+          "sha256": "00f3a033d57f7ad112ac2cee3e31a3b6f3f853bbf1c14827a6824e1cffeb6fcc",
+          "attempt_id": "Q03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/Q03-P.png",
+          "call_path": "production/scale-conflict/calls/Q03-P.json",
+          "call_sha256": "7f0d29e0191fcfb2278dfe0be9a5abfd4297f60435c29ff8090283110f0771c1"
+        }
+      ],
+      "service_failures": [
+        {
+          "attempt_id": "Q03-F1",
+          "status": "failed-no-artwork-returned",
+          "error": "image generation failed: http 503 Service Unavailable: upstream connect error or disconnect/reset before headers; connection termination",
+          "record_path": "production/scale-conflict/transport-failures/Q03-F1-service-call-01.json",
+          "record_sha256": "a7a742699422374788f4025f0495bfd6a9decb3d373baa5c781b4f1fd6fbd396",
+          "tool_output_path": "production/scale-conflict/transport-failures/Q03-F1-service-call-01-tool-output.json",
+          "tool_output_sha256": "52e134bb1a6af4cab6901e15e2930f03a5c478342b879ebce775349bad1d3640",
+          "prompt_path": "production/scale-conflict/prompts/Q03-F1.txt",
+          "prompt_sha256": "a45e3c88cd8056ea4ebfaadf7c31a4f91b9ff5e06e9cbf62f9db3de11d2c2d41",
+          "retry_of": "Q03-P",
+          "references": [
+            {
+              "path": "production/scale-conflict/candidates/Q03-P.png",
+              "sha256": "00f3a033d57f7ad112ac2cee3e31a3b6f3f853bbf1c14827a6824e1cffeb6fcc",
+              "role": "Sole exact edit source; preserve all content except the specified texture change"
+            }
+          ]
+        }
+      ],
+      "ai_observations": [
+        "Native source-preserving finish reduces repeated hide marks and wet paving detail while retaining appealing Riven face, two gripping hands, saber-to-severed-band contact, two strap ends and giant forefoot. Thin cyan line behind heel suggests an exit but does not show both traversal endpoints. Some wall and water detail remains finer than the calmest scenes."
+      ]
+    },
+    {
+      "id": "Q04",
+      "title": "Underbridge — A Different Enemy",
+      "category": "sequence",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "bellmaw"
+      ],
+      "story_path": "underbridge",
+      "caption": "Freed, the creature turns away. The city’s mechanisms keep pulling.",
+      "brief": "Fourth beat, wide elevated view from the same LEFT bridge end looking across to the round RIGHT arch. Riven and Neris stand together SMALL 12 percent height on the intact pale bridge, recognizable by silver/petrol/saber and ivory shoulder cape/teal/crescent. The huge four-legged Bellmaw now turns AWAY to the far right into the basin, mouth closed; a short severed dark band remains at its near front ankle and the matching loose end hangs from the round arch. No corpse, celebration or repaired band. In the far background a whole dark city district begins shifting across one cyan seam, implying the next problem. Warm first dawn above quiet blue water. Large clean masses, no dust cloud.",
+      "references": [
+        "riven",
+        "neris",
+        "@Q01"
+      ],
+      "power": null,
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/scale-conflict/candidates/Q04-F1.png",
+        "sha256": "0ac84773fb4492f33166ddda468aec4698afb3417df24aea10c1054d7c076f3a",
+        "attempt_id": "Q04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/scale-conflict/candidates/Q04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/scale-conflict/candidates/Q04-F1.png",
+          "sha256": "0ac84773fb4492f33166ddda468aec4698afb3417df24aea10c1054d7c076f3a",
+          "attempt_id": "Q04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/Q04-F1.png",
+          "call_path": "production/scale-conflict/calls/Q04-F1.json",
+          "call_sha256": "2b787da06b79d888c20227aecfa1cf809fcf56a8052584fab7045e69a9f72524",
+          "retry_of": "Q04-P",
+          "retry_reason": "Fine water reflection mesh and distant window/stone marks compete with quiet aftermath."
+        },
+        {
+          "path": "production/scale-conflict/candidates/Q04-P.png",
+          "sha256": "1f017749dec676305befa31cc508281b4454e08f0e299dc74e22cd1f0e330c58",
+          "attempt_id": "Q04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/scale-conflict/candidates/Q04-P.png",
+          "call_path": "production/scale-conflict/calls/Q04-P.json",
+          "call_sha256": "88c48e28def482bd8e3599226e1bb191a071cf13990f85b350ed32d9fef9b646"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Calmer water and architecture preserve the turning creature with closed mouth, two adults on the left and dangling wall strap on the right. Free ankle end remains less clear; exact bridge proportions and lighting vary."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "nightglass",
+      "title": "Original full Nightglass Courier",
+      "path": "production/scale-conflict/references/nightglass.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/references/01.png",
+      "role": "Original benchmark only; not selected canon",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/scale-conflict/references/nightglass.png"
+    },
+    {
+      "id": "riven",
+      "title": "Riven — prior identity reference",
+      "path": "production/scale-conflict/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/candidates/T03-P.png",
+      "role": "Named identity and/or broad calm drawing finish only; never copy composition",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/scale-conflict/references/riven.png"
+    },
+    {
+      "id": "neris",
+      "title": "Neris — prior identity reference",
+      "path": "production/scale-conflict/references/neris.png",
+      "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/candidates/C01-P.png",
+      "role": "Named identity and/or broad calm drawing finish only; never copy composition",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/scale-conflict/references/neris.png"
+    },
+    {
+      "id": "kellan",
+      "title": "Kellan — prior identity reference",
+      "path": "production/scale-conflict/references/kellan.png",
+      "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/candidates/C02-P.png",
+      "role": "Named identity and/or broad calm drawing finish only; never copy composition",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/scale-conflict/references/kellan.png"
+    },
+    {
+      "id": "finish",
+      "title": "Approved texture approach — Snow Shelter",
+      "path": "production/scale-conflict/references/finish.png",
+      "sha256": "c9c663aadcb544715a4dadbed62395c5b12252cfe2d15f56b9ad0c0177c7bed9",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/candidates/S05-R1.png",
+      "role": "Named identity and/or broad calm drawing finish only; never copy composition",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/scale-conflict/references/finish.png"
+    },
+    {
+      "id": "creature-finish",
+      "title": "Refined Rift Hound",
+      "path": "production/scale-conflict/references/creature-finish.png",
+      "sha256": "98a640c4141125e405872d5d0801a645f84b484c3801dd99d999cb469129ebdc",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/candidates/T04-P.png",
+      "role": "Named identity and/or broad calm drawing finish only; never copy composition",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/scale-conflict/references/creature-finish.png"
+    }
+  ],
+  "previous": {
+    "label": "Exact prior CE selections; independent of new blank choices",
+    "sha256": "9e459455fffb729aac13a8c3384d6b0b4d4f6f025c6a032d29a912cf0d5acee4",
+    "path": "production/scale-conflict/previous/ce-selection.json",
+    "download_src": "../../production/scale-conflict/previous/ce-selection.json",
+    "export": {
+      "schema": "CombatExplorationChoices/1",
+      "experiment_id": "CE-20260908-01",
+      "dataset_sha256": "48cbeb3a6ce661756ec0e570866621977fe25443ad9c769ced144505f1d6cffd",
+      "plan_sha256": "6a9d99c1b41be18d7b6692272bce4c090a974d3a47531b9ae62f0bc3aebf323b",
+      "source_bindings": [
+        {
+          "id": "01-C1",
+          "attempt_id": "01-C1-P",
+          "sha256": "901f0609451fbbbd5a53181aedb9f9ed1ca23fadfd7ffeea3f55d56cb5f12820"
+        },
+        {
+          "id": "01-C2",
+          "attempt_id": "01-C2-P",
+          "sha256": "cab2e3ac8d3f9cf75450b935783bb130dfb268881c9c8c547cd4784e648e7c41"
+        },
+        {
+          "id": "02-C1",
+          "attempt_id": "02-C1-R1",
+          "sha256": "9a64f6aef6c45cf1a87fa665a9e29bb1a9d51e66ee2af409bd7ec670aa3d1c68"
+        },
+        {
+          "id": "02-C2",
+          "attempt_id": "02-C2-P",
+          "sha256": "b888b04ad3fbce4ec5d8c20b2338de67f69a7fed40980f099c2a968554bf70fa"
+        },
+        {
+          "id": "05-C1",
+          "attempt_id": "05-C1-P",
+          "sha256": "fa1e93b4dfb72f7149901c2a943a291bb6fca784caa719ec00cb9d313f977b68"
+        },
+        {
+          "id": "05-C2",
+          "attempt_id": "05-C2-P",
+          "sha256": "0eba7131599f3e9dbb3dbef02e56c6319a3544c2320cf75da3bcf097ef0bdcd6"
+        },
+        {
+          "id": "06-C1",
+          "attempt_id": "06-C1-P",
+          "sha256": "fe4907eb44c6a2249c08f2f7cdd55d4ea6314bc744abc968bf5f6d9c7aadc7b9"
+        },
+        {
+          "id": "06-C2",
+          "attempt_id": "06-C2-P",
+          "sha256": "e7da8a6aa738c7cad1f807724d29bfe6dde857d08cabb9e70ce004035bafeb86"
+        },
+        {
+          "id": "13-C1",
+          "attempt_id": "13-C1-P",
+          "sha256": "c9e7a84c3c732bf5e9f9eaef25eccdcd83f370a3db39d4cb1b4f31526fe13571"
+        },
+        {
+          "id": "13-C2",
+          "attempt_id": "13-C2-P",
+          "sha256": "bbd0549eeddcda00f6c33a0b34c851a521a8f13a20ad86c93928eca4a77d3b4c"
+        },
+        {
+          "id": "15-C1",
+          "attempt_id": "15-C1-P",
+          "sha256": "fe6c43e17ecfa6bd8845b16ddc88a112c6e351562cc2bc3b022dba6df7bec17b"
+        },
+        {
+          "id": "15-C2",
+          "attempt_id": "15-C2-P",
+          "sha256": "b70a14a6e8f03353eb83f0a3c5f95c7f9b08a9659986e91cbfc618e623d28f95"
+        },
+        {
+          "id": "17-C1",
+          "attempt_id": "17-C1-P",
+          "sha256": "401e327a2d8f35d90aeb522b7f98810ffcb1b06d1f1389352b8440e841e0a067"
+        },
+        {
+          "id": "17-C2",
+          "attempt_id": "17-C2-P",
+          "sha256": "ba028c8589df253f7d494bb33ee0c447cd9ab9bfe4091fa25c65c259440d4e2d"
+        },
+        {
+          "id": "18-C1",
+          "attempt_id": "18-C1-P",
+          "sha256": "ec160981c21a03bd144417b893639968cab19fa50e80d4f30b29e0b1120e93c4"
+        },
+        {
+          "id": "18-C2",
+          "attempt_id": "18-C2-P",
+          "sha256": "f14945415f9dfd5d6c502c1def4c615e38700af62cfaed5217249a365923360d"
+        },
+        {
+          "id": "19-C1",
+          "attempt_id": "19-C1-R1",
+          "sha256": "29249e504545d6e8052ee64b9a5cd0ce1752321fbd29dbeb7383227c464c2b89"
+        },
+        {
+          "id": "19-C2",
+          "attempt_id": "19-C2-P",
+          "sha256": "ceb9ab8195d28bd8b9df035c1f452570e857a10924c46411a534b4c5a3e72a3c"
+        }
+      ],
+      "exported_at": "2026-09-08T02:10:01.570Z",
+      "choices": {
+        "01-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "01-C2": {
+          "character": "unsure",
+          "style": "like",
+          "weapon": "dislike",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": false
+        },
+        "02-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "02-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "05-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "05-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "06-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "06-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "13-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "13-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "15-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "15-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "17-C1": {
+          "character": "dislike",
+          "style": "like",
+          "weapon": "like",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "17-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "dislike",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "18-C1": {
+          "character": "dislike",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "18-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "19-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "19-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        }
+      }
+    }
+  },
+  "available_count": 24,
+  "total_count": 24,
+  "owner_approval": null,
+  "review_notes_sha256": "38c1064e441f1ab0e50dcf8721c6262d0f3fc55ae527efc42922dd28069be756",
+  "report_links": [
+    {
+      "label": "Study details",
+      "path": "../../research/scale-conflict/START_HERE.md"
+    },
+    {
+      "label": "Results & observations",
+      "path": "../../research/scale-conflict/RESULTS.md"
+    }
+  ]
+};

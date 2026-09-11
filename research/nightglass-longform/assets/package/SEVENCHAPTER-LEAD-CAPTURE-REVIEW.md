@@ -1,0 +1,7 @@
+# SevenChapters-v2 — lead actual extracted chapter captures
+
+PASS: root actually viewed all21 original390×844 screenshots, top/middle/end of each Chapter1–7, from the fresh v2 ZIP extraction. ZIP4e4c9b5d…7d34e /manifestff93067d…e3c97, exact individual capture hashes in the companion JSON.
+
+All seven title/premise/navigation states fit the phone width. Chapters1–6 show the correct next-chapter link; Chapter7 finishes with End of Chapter7 and return links, without an incomplete-preview banner. The visible editable dialogue/captions and attribution remain readable, and the sampled artwork loads without visible horizontal clipping or placeholders. The new Chapter7 opening states the ninth round; its middle preserves the distinct transfer/departure and stationary route-check staging, and its ending retains the room and the next owner-side washhouse visit.
+
+This is an actual portable route-sample check, not a new full306-panel read. Earlier complete chapter, native/crop and individual390/fullcontinuous reviews remain separately bound. Viewport-edge cuts of adjacent panels or balloons are normal for these samples. Tiny foot-clearance/native handling proof, old minor gear projections, and the explicit7-21stationary/7-28pre-insertion qualifications remain unchanged. No artwork correction is requested by these captures. Overall delivery still requires final browser results and the independent other-page/modal actual reviews. AI review is not owner acceptance.

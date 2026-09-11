@@ -1,0 +1,47 @@
+{
+  "id": "S03",
+  "attempt_id": "S03-P",
+  "phase": "primary",
+  "category": "scene",
+  "prompt_path": "production/nightglass-refinement/prompts/S03-P.txt",
+  "prompt_sha256": "ea5a31e275fab196fd5aa7acf591aa8744016a643aab7c96c9ccfc7cd0400a9d",
+  "plan_sha256": "bbf9219ce672e5b23959cffc01f9baab0e90e71fbdc8cf508a40a248afd7d653",
+  "texture_gate_sha256": "7a436cfce30ea0537dcdfb6a2ab6b78d244e961ceaa32489f8bbe8bfefb5e2dc",
+  "references": [
+    {
+      "path": "production/nightglass-refinement/references/02.png",
+      "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+      "role": "Original comparison DRAWING TREATMENT ONLY, with calmer surface interiors. Never copy this reference character, creature, scenery, equipment or composition."
+    },
+    {
+      "path": "production/nightglass-refinement/candidates/C03-P.png",
+      "sha256": "0071872b2bf1c5107da2750f1a719efc62b0490f6b8be8b74ec9483caacf03b5",
+      "role": "C03 Elowen Marr: exact newly designed subject/object reference. Preserve recognizable construction and identity in a genuinely new pose/action. Equipment reference defines object only, never copy its cropped display hands."
+    },
+    {
+      "path": "production/nightglass-refinement/candidates/G03-R1.png",
+      "sha256": "3b7ee79852bfd8538a0f625e5983d4c0909cd4bad361b7d16425c15ae0f4b3df",
+      "role": "G03 Daystring: exact newly designed subject/object reference. Preserve recognizable construction and identity in a genuinely new pose/action. Equipment reference defines object only, never copy its cropped display hands."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 10:59:44 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/references/02.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/candidates/C03-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-refinement-20260908-1015/production/nightglass-refinement/candidates/G03-R1.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 11:02:00 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-e0a43d34-cc40-4467-8e99-b33f9538525e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-e0a43d34-cc40-4467-8e99-b33f9538525e.png"
+}

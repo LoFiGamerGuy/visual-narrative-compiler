@@ -1,0 +1,29 @@
+{
+  "candidate_id": "C00007",
+  "image_sha256": "50cf51e957eb708f8e4727c77ba91e7903edd273e69bf593d37e39cc3c102c12",
+  "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+  "reviewer": "independent-ai-visual-review",
+  "method": "Read frozen plan and original identity/environment references; viewed each selected original candidate separately before making observations. Did not read generation prompts, boards, old art, root conclusions or other review artifacts. No numeric quality scores.",
+  "checks": {
+    "actors": {
+      "verdict": "pass",
+      "observation": "Both adults and the machine preserve recognizable identities and plausible visible limb counts."
+    },
+    "event": {
+      "verdict": "fail",
+      "observation": "A forward-reaching limb and splash communicate a right-to-left attack. A small gap remains between foot and wood, keeping this distinguishable from the following contact. Nera's boots now stand in open water in front of the raised ridge, although P06 planted her on that ridge. The attack is occurring in front of, rather than clearly crossing, the established dry route."
+    },
+    "contact": {
+      "verdict": "pass",
+      "observation": "The attacking foot approaches but does not yet visibly touch the staff, distinguishing attack from the later counter."
+    },
+    "props": {
+      "verdict": "pass",
+      "observation": "The flask remains capped and upright on Nera's chest and the staff remains intact. No extra bottle or body is visible."
+    },
+    "state": {
+      "verdict": "fail",
+      "observation": "Nera's boots now stand in open water in front of the raised ridge, although P06 planted her on that ridge. The attack is occurring in front of, rather than clearly crossing, the established dry route. The flask remains capped and upright on Nera's chest and the staff remains intact. No extra bottle or body is visible. Numerical resources and unlock wording are not assessed from this unlettered raster."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "NG16",
+  "attempt_id": "NG16-P",
+  "phase": "primary",
+  "category": "NG",
+  "retry_of": null,
+  "retry_reason": null,
+  "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nInspected reference qualification for visible subjects only: none\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Aren stands at a descending stair into the fog, black envelope in LEFT hand, right sword sheathed; far below, a dark doorway lights cyan.\nCurrent physical state (authoritative): Safe bridge behind; torn jacket hem retained; no active tether; new address opens a future route, no resolution claimed for city mystery.\nSpecial visual element, only if specified: none\nCamera and framing: Long rear three-quarter, Aren under 20% frame height; vast lower-city descent. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 25% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+  "prompt_path": "production/pilot-chapters/prompts/NG16-P.txt",
+  "prompt_sha256": "c4bca81ca38aee8ff4388f47f6a6927bf10578304b63b55a0a81f78737b8defa",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/references/anchor-01.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+    },
+    {
+      "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+      "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+      "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+    }
+  ],
+  "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+  "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+}

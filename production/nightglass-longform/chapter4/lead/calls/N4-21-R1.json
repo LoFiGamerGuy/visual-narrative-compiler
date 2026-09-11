@@ -1,0 +1,38 @@
+{
+  "id": "N4-21-R1",
+  "status": "returned",
+  "phase": "targeted_repair",
+  "tool": "built-in image_gen",
+  "model": null,
+  "cost": null,
+  "panels": [
+    "N4-21"
+  ],
+  "submitted_utc": "2026-09-10T05:16:36.195646+00:00",
+  "args": {
+    "prompt": "Use case: precise-object-edit. Edit IMAGE1 only, preserving its entire portrait composition. IMAGE2 is the actual existing courier BAG AND HARNESS reference only, not a pose or scene reference. Correct ONE observed equipment continuity defect: replace the undersized little brown pouch on Aren's back in IMAGE1 with his established medium large GRAY rectangular courier bag shown in IMAGE2. Match IMAGE2 actual charcoal-gray broad rectangular body, broad flap, front compartment construction, brass fittings, rounded top handle, rolled OLD NARROW GRAY strap at its side, and TWO broad BROWN PADDED shoulder straps plus waist/hip harness. Scale bag realistically from just below shoulders down to near waist, occupying most of his back width, as IMAGE2. The bag is CLOSED, containing one ordinary sealed letter; no exposed letter or second bag. Preserve the existing brass rectangle on RED cord at his WAIST, no badge on the bag.\nChange ONLY bag size/design/color and its harness. Keep Aren's exact head/face, adult proportions, jacket and old LEFT elbow tear, intact RIGHT sleeve, two arms, EMPTY LEFT hand, RIGHT hand holding ONE drawn crescent with its exposed ROUND REAR POMMEL, and EMPTY RIGHT hip sheath. Preserve BOTH boots planted exactly on the LEFT source paving, all body pose and spacing, no jump yet. Keep Kiva safely behind, Sera with closed ledger, gate already swung inboard, clear air gap, narrow original RIGHT L-shaped top landing, descending stairs, masonry halfwall, upper guard bar and high fixed black shaft EXACTLY. Do not widen landing, move any boot, add floor, shift people or change the camera. NO cyan strand, glow trail, contact effect, text or balloons. Keep native sharpness, daylight, expressive adult anime style and all protected functional geometry.",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter4/lead/candidates/N4-21-P.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter4/lead/references/current-gray-bag-from-N3-02.png"
+    ]
+  },
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter4/lead/candidates/N4-21-P.png",
+      "sha256": "3636e16e738f6f03e16ff1184e70bdd95f55a4bc296b5d8ca0431a24b8cfd9eb"
+    },
+    {
+      "path": "production/nightglass-longform/chapter4/lead/references/current-gray-bag-from-N3-02.png",
+      "sha256": "d6ed4ebc900381d8e3ebd5d7cfbd9495712fb41f747a5928b97520c65c8d7362"
+    }
+  ],
+  "observed_failure": "21P medium gray courier bag shrank to small brown pouch; restore actual viewed N3-02 bag, preserve supported preparation and all geography. Sole R1.",
+  "native": "production/nightglass-longform/chapter4/lead/candidates/N4-21-R1.png",
+  "sha256": "d73fae4ae863b491b2ee2ce9fdf9c17f84af6e26187ff236a3e2868852be8307",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "tool_native": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-7de1e29d-c131-47e3-8eac-beda508d3b28.png",
+  "inspection": "Lead actually viewed returned native: gray broad rectangular bag/current front compartment/handle/two padded brown shoulders/rolled gray strap restored; supported boots, right crescent/rear pommel/empty right sheath/empty left hand, clear gate/lane and original geometry preserved. Bag has one broad front compartment matching actual N3-02 reference, not invented two-pocket requirement. No strand. Independent check pending."
+}

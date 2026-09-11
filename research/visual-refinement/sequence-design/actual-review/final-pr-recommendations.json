@@ -1,0 +1,255 @@
+{
+  "schema": "FinalSequencePRRecommendation/1",
+  "at_utc": "2026-09-07T17:26:02.479617+00:00",
+  "reviewer": "Sequence/control author; independent actual-image assessment before lead repair verdict; not blind to authored intent.",
+  "lead_repair_verdict_seen": false,
+  "reviewed_native_repairs": 6,
+  "preserved_primary_reviews": [
+    "native-first10.json",
+    "native-remaining8.json",
+    "primary-review-and-repair-priorities.json"
+  ],
+  "repair_comparisons": [
+    {
+      "attempt_id": "13-P02-R",
+      "sha256": "34812a3b036f40d47aad1c861f4ea99e447e2b635bd2d861af51b5e5f7b0f5e9",
+      "path": "production/visual-refinement/sequence-candidates/13-P02-R.png",
+      "primary_sha256": "1c88d7b0706fd62fb7229813bbd5aba8442eb6b0b5be1a22c43d0c241ca4ce9a",
+      "target_result": "Improved: near anatomical right hand now visibly wraps the single wooden crank; far left hand braces bare upper rim.",
+      "remaining": [
+        "Left brace is upper-right around2o-clock, not prescribed10o-clock.",
+        "Wheel size/mounting and wood scale still drift relative toP01/P03; the later oversized broken piece remains."
+      ],
+      "recommendation": "R over P; qualifies causal contact, not complete continuity"
+    },
+    {
+      "attempt_id": "13-P05-R",
+      "sha256": "4b1f260ec6a6086de5dbb53dc292953f5ce45188ec18443df8b3d1ae095538bd",
+      "path": "production/visual-refinement/sequence-candidates/13-P05-R.png",
+      "primary_sha256": "9cf70175ff921f7bc4376e96f51be95130c8aa759a19ff4c0a332a2e3d5d9bf4",
+      "target_result": "Improved: extra lower held piece removed; creature now faces right with four separately visible broad trailing limbs and an open left shell-touch palm.",
+      "remaining": [
+        "The surviving wood is held in Iven anatomical LEFT hand; near right hand hangs empty. Thus duplicate removal did not recover prescribed ownership.",
+        "Rectangular overhead opening still replaces the earlier arch configuration.",
+        "Creature appears hovering high above water; exact downstream relation remains approximate rather than established by matched geography."
+      ],
+      "recommendation": "R over P; duplicate/count/travel improvement with explicit left-hand failure"
+    },
+    {
+      "attempt_id": "18-P03-R",
+      "sha256": "83f506a732590dbee90efd1ed837d9a767a8b2352bc14003a12b16cb33fc1eed",
+      "path": "production/visual-refinement/sequence-candidates/18-P03-R.png",
+      "primary_sha256": "af35eb811519be6900483a9ddf2380fcdfe496eb96abe6af6004ff333c312ad7",
+      "target_result": "Improved: floating third segment is gone. One right-held remnant and one mounted jagged stump remain, separated by clear gap; surprise is retained.",
+      "remaining": [
+        "Mounted stump and remnant still look substantially thicker/longer than the prior intact crank.",
+        "P02\u2019s anatomical left crank hand still switches to right remnant hand across the cut."
+      ],
+      "recommendation": "R over P; clear two-piece break improvement"
+    },
+    {
+      "attempt_id": "18-P04-R",
+      "sha256": "abfaf06867af34d7081bd862c69c09b0fef2df5f04ccebc0638fecefdc519812",
+      "path": "production/visual-refinement/sequence-candidates/18-P04-R.png",
+      "primary_sha256": "70972f53eccac1bd13bad62d41e4a4dd2c802b4acf3a8a7d7e72be2f518f831e",
+      "target_result": "Improved: long invented side lever is removed and both hands directly grip the iron rim; planted full-body action preserved.",
+      "remaining": [
+        "Mounted lower-right wooden part still looks long/intact rather than small matching broken stub.",
+        "Creature still occupies the raised opening, and clearance reads near/full rather than a waiting mid-lift beat.",
+        "Iven\u2019s capped held part does not match jagged breakP03."
+      ],
+      "recommendation": "R over P; direct-rim-action improvement, persistent state failures"
+    },
+    {
+      "attempt_id": "19-P02-R",
+      "sha256": "d873577d67a5d84be8bac4b1745f2491b1c9f609b484d2314a7f3b220f2db1e5",
+      "path": "production/visual-refinement/sequence-candidates/19-P02-R.png",
+      "primary_sha256": "b930ba2187f591fb9d4905689f1bca881a03513def38164b0c759af0a43367a6",
+      "target_result": "Improved: only one wood grip remains; near anatomical right hand holds it and far left palm braces the upper bare rim.",
+      "remaining": [
+        "Mount/contact location is low/interior and not clearly the prescribed3o-clock rim crank; left brace is upper-right rather than10o-clock.",
+        "AdjacentP03 still switches remnant to anatomical left hand; intact/broken scale and geometry remain mismatched."
+      ],
+      "recommendation": "R over P; duplication removed but mechanism remains qualified"
+    },
+    {
+      "attempt_id": "19-P05-R",
+      "path": "production/visual-refinement/sequence-candidates/19-P05-R.png",
+      "sha256": "74bf188166f45978d67404b64d25ce4d20cbe403a98acf0f42b137512ef7e6f5",
+      "primary_sha256": "a2f2ada6db7bc6c7138ec095d3eb88026b198899df8499b1c7404c65e1c3fb14",
+      "target_result": "Improved: both Mara sandals now rest visibly on a continuous dry stone ledge; extra lower wood piece removed; gentle open left-palm shell contact retained. Four distinct broad tentacles are much easier to count.",
+      "remaining": [
+        "Only held remnant remains in Iven anatomical LEFT hand; near right hand is empty.",
+        "Creature still faces screen-left, so the prescribed rightward travel is not demonstrated.",
+        "Wood is small/smooth compared with the large jaggedP03 part; mounted grip remains on right side rather than a six-o-clock broken stub."
+      ],
+      "recommendation": "R over P for repaired grounding and duplicate removal; not complete state compliance"
+    }
+  ],
+  "recommended_selection": [
+    {
+      "id": "13-P01",
+      "attempt_id": "13-P01-P",
+      "path": "production/visual-refinement/sequence-candidates/13-P01-P.png",
+      "sha256": "c3d0aace102f870ee0eb1271cda2472fbb64392a11a75bc7d3257b3bcad03b14",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "13-P02",
+      "attempt_id": "13-P02-R",
+      "path": "production/visual-refinement/sequence-candidates/13-P02-R.png",
+      "sha256": "34812a3b036f40d47aad1c861f4ea99e447e2b635bd2d861af51b5e5f7b0f5e9",
+      "choice_basis": "Repair improves its targeted hard defect; remaining faults retained in report"
+    },
+    {
+      "id": "13-P03",
+      "attempt_id": "13-P03-P",
+      "path": "production/visual-refinement/sequence-candidates/13-P03-P.png",
+      "sha256": "ea83f42157a1075e48fe41d0891bf6a581119addd45cb9bc1b4000b330c201ef",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "13-P04",
+      "attempt_id": "13-P04-P",
+      "path": "production/visual-refinement/sequence-candidates/13-P04-P.png",
+      "sha256": "e19d085a45ddc7bded9a0b3056497b05cf0262be8545626b3ac36b3dada8fb93",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "13-P05",
+      "attempt_id": "13-P05-R",
+      "path": "production/visual-refinement/sequence-candidates/13-P05-R.png",
+      "sha256": "4b1f260ec6a6086de5dbb53dc292953f5ce45188ec18443df8b3d1ae095538bd",
+      "choice_basis": "Repair improves its targeted hard defect; remaining faults retained in report"
+    },
+    {
+      "id": "13-P06",
+      "attempt_id": "13-P06-P",
+      "path": "production/visual-refinement/sequence-candidates/13-P06-P.png",
+      "sha256": "248f2e5ddc42015ddfad85e903ce018c0a3cf54c998299cc101d5ee5221f774a",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "18-P01",
+      "attempt_id": "18-P01-P",
+      "path": "production/visual-refinement/sequence-candidates/18-P01-P.png",
+      "sha256": "f25f062550af88109b3ff4482ca06f4e34052ae559575fcd1f3f079a852b90cb",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "18-P02",
+      "attempt_id": "18-P02-P",
+      "path": "production/visual-refinement/sequence-candidates/18-P02-P.png",
+      "sha256": "59706ddf765251595d0a6b704f5d1dc4ab9918ef268c3006a1a487a520759eba",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "18-P03",
+      "attempt_id": "18-P03-R",
+      "path": "production/visual-refinement/sequence-candidates/18-P03-R.png",
+      "sha256": "83f506a732590dbee90efd1ed837d9a767a8b2352bc14003a12b16cb33fc1eed",
+      "choice_basis": "Repair improves its targeted hard defect; remaining faults retained in report"
+    },
+    {
+      "id": "18-P04",
+      "attempt_id": "18-P04-R",
+      "path": "production/visual-refinement/sequence-candidates/18-P04-R.png",
+      "sha256": "abfaf06867af34d7081bd862c69c09b0fef2df5f04ccebc0638fecefdc519812",
+      "choice_basis": "Repair improves its targeted hard defect; remaining faults retained in report"
+    },
+    {
+      "id": "18-P05",
+      "attempt_id": "18-P05-P",
+      "path": "production/visual-refinement/sequence-candidates/18-P05-P.png",
+      "sha256": "17a622fce77e777e280bdc39126b38d3c0666a6472dc0d3f7dac30c77f2ef23b",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "18-P06",
+      "attempt_id": "18-P06-P",
+      "path": "production/visual-refinement/sequence-candidates/18-P06-P.png",
+      "sha256": "bbac0382a4407f44a1f5f814f2dfac73c37e5583d5d3832d0e705945515a4829",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "19-P01",
+      "attempt_id": "19-P01-P",
+      "path": "production/visual-refinement/sequence-candidates/19-P01-P.png",
+      "sha256": "ccad07fe80ff480f71251bfe6acd9f5b647b794684720b95d5830444e46fc540",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "19-P02",
+      "attempt_id": "19-P02-R",
+      "path": "production/visual-refinement/sequence-candidates/19-P02-R.png",
+      "sha256": "d873577d67a5d84be8bac4b1745f2491b1c9f609b484d2314a7f3b220f2db1e5",
+      "choice_basis": "Repair improves its targeted hard defect; remaining faults retained in report"
+    },
+    {
+      "id": "19-P03",
+      "attempt_id": "19-P03-P",
+      "path": "production/visual-refinement/sequence-candidates/19-P03-P.png",
+      "sha256": "3fca2e49cc900afa2681e7b3f9422a968a53d236f9e81be56c4f36d3794e8b3f",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "19-P04",
+      "attempt_id": "19-P04-P",
+      "path": "production/visual-refinement/sequence-candidates/19-P04-P.png",
+      "sha256": "196dec9e2f7bfc21e8d4667f8889bd404fdb838808f617a671394f2de71f08b7",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    },
+    {
+      "id": "19-P05",
+      "attempt_id": "19-P05-R",
+      "path": "production/visual-refinement/sequence-candidates/19-P05-R.png",
+      "sha256": "74bf188166f45978d67404b64d25ce4d20cbe403a98acf0f42b137512ef7e6f5",
+      "choice_basis": "Repair improves its targeted hard defect; remaining faults retained in report"
+    },
+    {
+      "id": "19-P06",
+      "attempt_id": "19-P06-P",
+      "path": "production/visual-refinement/sequence-candidates/19-P06-P.png",
+      "sha256": "a238ee0492a56f76a66cb83caaf68826e1609c7ce85abe672e2914a428f22c33",
+      "choice_basis": "Only preserved primary exists for this panel; displayed for study, not accepted production"
+    }
+  ],
+  "selected_repairs": 6,
+  "selected_primaries": 12,
+  "phone_review": {
+    "dataset_sha256": "a5c96d8028d0b92d7f87682965f5533d0ed468ee7e197de60bfdc7d85ea6650e",
+    "viewport": [
+      392,
+      900
+    ],
+    "actual_image_width": 347,
+    "mode": "Read story; response/provenance controls hidden by current UI default",
+    "evidence": "research/visual-refinement/sequence-design/actual-review/repair-phone/",
+    "method": "Opened all nine consecutive two-panel screenshots and all three full continuous reader screenshots; full pages confirm the entire exact copy including final Obviously. Sources decoded before capture; no saved reader/art mutation.",
+    "result": "All three broad boast\u2192break\u2192Mara-turn\u2192creature-contact\u2192dry-joke arcs can be followed. Repair improvements remain visible at phone width. Removing response tools from normal reading improves pacing, but does not resolve image contradictions."
+  },
+  "remaining_by_treatment": {
+    "13": [
+      "P02R now supplies the missing causal wood grip, but P03 held wood is still much larger/thicker than previous crank.",
+      "P04 creature enters gate too early and mounted grip looks restored.",
+      "P05R changes held remnant to left hand, architecture to a rectangular overhead frame, and creature facing to right; P06 changes creature facing back left and wheel toward horizontal with intact-looking grip.",
+      "The same physical gate position, wheel scale and four-tentacle count are not sustained across all six."
+    ],
+    "18": [
+      "P02 anatomical left crank hand switches to right-hand remnant inP03R.",
+      "P03R restores exactly two pieces andP04R direct rim contact, but mounted stub/held-part shape and size still drift; gate clearance/creature position are too advanced duringP04.",
+      "P06 remnant switches to left, wheel tips horizontal and regrows an upright grip; a second low closed barrier appears beneath the raised gate.",
+      "P05 rightward creature is followed by left-facingP06 creature; whole four-limb count is not sustained."
+    ],
+    "19": [
+      "P02R removes duplicated handle but mounting position is ambiguous andP03 still switches wood to anatomical left hand.",
+      "P04 changes remnant back to right and restores a smooth mounted grip;P05R/P06 hold remnant in left again.",
+      "P05R fixes dry footing and duplicate held wood, but creature remains left-facing; precise passage/size continuity is weak.",
+      "Dark values reduce small prop and facial-action readability at phone width relative to18."
+    ]
+  },
+  "route_conclusion": "Select all six repairs as the better bounded study variants. None of the three complete sequences passes the frozen mechanics/continuity contract. Story readability, identity retention and localized repair success are demonstrated; reliable irreversible prop/gate/hand/travel continuity is not.",
+  "further_raster_calls": "None authorized; generation closed at50 experiment calls. Preserve allP/R sources and report unresolved failures.",
+  "owner_art_acceptance": null,
+  "production_accepted": false
+}

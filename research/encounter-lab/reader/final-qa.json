@@ -1,0 +1,92 @@
+{
+  "schema": "EncounterLabFinalReaderQA/1",
+  "pass": true,
+  "dataset_sha256": "fd6e01be11a6a552e0e21a1cbc976e72bcd7bee57f78857edff8d526fca2f093",
+  "displayed_panels": 24,
+  "retained_native_attempts": 48,
+  "source_finish_pairs": 18,
+  "selected_finishes": 16,
+  "explicit_retained_display_choices": {
+    "NG03": "NG03-R1",
+    "X03": "X03-P"
+  },
+  "browser_checks": 142,
+  "checked_source_bindings": 248,
+  "widths": [
+    390,
+    1024,
+    1440
+  ],
+  "source_hashes": {
+    "index.html": "4cf2bcc03e316f5ee0b7970d61ac8fa8201df854e52a702b5e92ee0f0092c2a4",
+    "app.js": "a3e942f4853534569ffa05662cffe1f48222c7cb657989878ae18fe2d0a8e04b",
+    "preferences.js": "4adb64a6690ea318be4cbeba024be0a6441dfd4694ab3da1aa9fc16cc16453c7",
+    "style.css": "87a6356cb867faf242e3011b6875b3af37bacc06a2143508ca164128d24a070c",
+    "data.js": "345e2d1aec05f989147d3fb69b1c8b6b33f7f9cb611e8ddb0194453582310c2f",
+    "data.json": "64c9c3765216ca70b7bd94c09ab3560ee9922c5689059d5aadeb5bad74bb954f"
+  },
+  "receipts": [
+    {
+      "path": "research/encounter-lab/reader/phone-captures/fd6e01be11a6/receipt.json",
+      "sha256": "8129e38a95ebe7fd16247da1226e829fa772ad07ba88d82fb00b0e90b112ee91"
+    },
+    {
+      "path": "research/encounter-lab/reader/phone-captures/fd6e01be11a6/sequences/receipt.json",
+      "sha256": "b3722a94b4ce46fb6327eb0bd5a53f4eabed782cbcf86fcb159a0c809415e0b2"
+    },
+    {
+      "path": "research/encounter-lab/reader/phone-captures/fd6e01be11a6/history/receipt.json",
+      "sha256": "dbe861881de381f8e4552680ebd4cb2f76b8a4ff5ee865180f816df502d91dd6"
+    },
+    {
+      "path": "research/encounter-lab/reader/phone-captures/fd6e01be11a6/source-check.json",
+      "sha256": "ee48038e1164d4987455d51c58d19c40a064be8c8cb3c9d62fa386ed1a0ee42d"
+    },
+    {
+      "path": "research/encounter-lab/reader/phone-captures/fd6e01be11a6/finish-pairs.json",
+      "sha256": "04b742b511d23286dd57aa200fc2310a269e37665064dc33170316abd97b5a0b"
+    }
+  ],
+  "actual_visual_checks": [
+    "Viewed all five final complete uncaptioned strips at390px: NG, BP, IO, ST and SB.",
+    "All four panels in each encounter retain full source framing, original aspect and intended order.",
+    "All48 history image rectangles clear the sticky header and fit inside phone viewport; full source/F pairs available independently."
+  ],
+  "history_frame_checks_pass": true,
+  "preferences_unchanged": true,
+  "limitations": [
+    "These are display and source-integrity checks, not a declaration that every grip, power, contact or continuity detail is successful.",
+    "The selected NG03-R1 and X03-P retain explicit structural/damage evidence; their unselected F1 attempts remain in history.",
+    "Original incomplete and pre-finishing captures, including the corrected earlier history capture defect, remain preserved."
+  ],
+  "latest_browser_receipt": {
+    "path": "research/encounter-lab/reader/local/final-browser-qa-notes-v2/receipt.json",
+    "sha256": "eeaf9c346a7228952379a1be00c54dc8176d08bb165dc38c2042337b7c7fe5a1"
+  },
+  "preserved_previous_summary": {
+    "path": "research/encounter-lab/reader/final-qa-before-note-update.json",
+    "sha256": "28f88159ba3cff3641da9126d8ed85737cc2abccf3f1e04140a53032278f0516"
+  },
+  "notes_reconciliation": {
+    "schema": "EncounterLabNotesReconciliation/1",
+    "pass": true,
+    "dataset_sha256": "fd6e01be11a6a552e0e21a1cbc976e72bcd7bee57f78857edff8d526fca2f093",
+    "unchanged_display_bindings": 24,
+    "unchanged_history_attempts": 48,
+    "checked_native_call_prompt_reference_bindings": 248,
+    "only_note_fields_changed": [
+      "/entries/2/ai_observations/2",
+      "/entries/3/ai_observations/1",
+      "/entries/20/ai_observations/1",
+      "/review_notes_sha256"
+    ],
+    "capture_time_snapshot_path": "research/encounter-lab/reader/phone-captures/fd6e01be11a6/data-snapshot.json",
+    "capture_time_snapshot_sha256": "05605932c191dcc4124140aaa7905b8cc268c2e7bdce0e352a2a49a723976b3b",
+    "current_snapshot_path": "research/encounter-lab/reader/local/final-notes-reconciliation-v2/data-snapshot.json",
+    "current_snapshot_sha256": "64c9c3765216ca70b7bd94c09ab3560ee9922c5689059d5aadeb5bad74bb954f",
+    "current_review_notes_sha256": "aa256c54c53d8ba8c637666e43f17f713b1ed2cab25c756bab7c97f92d83c755",
+    "reused_captures_policy": "Image captures remain evidence for exact unchanged images; their original data/code hashes describe capture time. New browser QA and this receipt bind updated note bytes separately."
+  },
+  "notes_reconciliation_receipt_sha256": "a4fa00a176e53ee652f997b8bca1d8ccffb2686fb2ca8cf8ca456fa5590cb582",
+  "capture_time_distinction": "The existing phone captures and their receipts retain original capture-time data hashes. Exact24 selected and48 history image bindings are unchanged. This updated summary binds the three changed AI note strings and latest reader data/code separately."
+}

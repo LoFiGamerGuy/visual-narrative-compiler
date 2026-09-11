@@ -1,0 +1,21 @@
+{
+  "id": "ST06",
+  "attempt_id": "ST06-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "ST06-R1",
+  "retry_reason": "Native R1 creates much clearer cheek compression and visible glove chip but fails handedness repair. Dense floor chips, small wool lobes and hill details still warrant sole-source surface finish with impact protected.",
+  "evidence_path": "research/anchor-return/encounter-finish-evidence-03.json",
+  "evidence_sha256": "163f70f09bb5ca9ba0ed352cbbf4798c655c9710934b0de9944f00321d252e15",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: The newly deep concave orange cheek dent exactly enclosing the punching knuckles, displaced cream muzzle and tilted surprised face; complete four ram legs. Preserve circle punch and chipped crescent guard exactly in their current source positions, even though arm sides are imperfect. Preserve two bracing boots, torso rotation and precise contact..\nFocus the simplification on: Quiet chalk-floor mottling into broad matte cream planes, group hillside/cloud/wool tiny marks into fewer rounded painted masses and simplify armor scratches while preserving the crescent chip. Retain vibrant playful paint and face expression. The cheek indentation is structural impact, not texture: do not round it back out or hide it with glow..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/anchor-return/prompts/ST06-F1.txt",
+  "prompt_sha256": "5bee85c24797123b40b0c7da2c1f01ede3cf4f29a98e14f8867cfb787bdce4e1",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/ST06-R1.png",
+      "sha256": "60107451958e8a2e8fcf088fc7cd1e7841445adbefaa222ead685f59728d58fa",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

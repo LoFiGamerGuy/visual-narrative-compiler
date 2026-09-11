@@ -1,0 +1,59 @@
+{
+  "schema": "AssetBundleValidation/1",
+  "at_utc": "2026-09-07T07:39:02.130342+00:00",
+  "archive_sha256": "14caa4b1b284c83e9406e1f74825122df929657bacd26da4e24825a420e7382e",
+  "archive_bytes": 525081219,
+  "all_archive_members_verified": true,
+  "full_empty_target_restore": {
+    "target": "research/structural-pilot/asset-bundle/local/restore-proof",
+    "verified_members": 613,
+    "written_assets": 613,
+    "identical_skipped": 0
+  },
+  "deterministic_rebuild": {
+    "archive": "research/structural-pilot/asset-bundle/local/rebuilt-assets.zip",
+    "same_archive_sha256": "14caa4b1b284c83e9406e1f74825122df929657bacd26da4e24825a420e7382e",
+    "verified": true
+  },
+  "safety_self_test": [
+    "different collision rejected before any asset writes",
+    "identical existing file skipped",
+    "missing file restored",
+    "repeat restoration wrote nothing",
+    "path traversal rejected",
+    "incorrect archive hash rejected",
+    "existing non-directory parent rejected before writes"
+  ],
+  "reader_binary_coverage": [
+    {
+      "reader": "reader",
+      "bindings_at_check": 22,
+      "missing_assets": [],
+      "mismatched_hashes": [],
+      "metadata_sha256_at_check": "7a22ba2b92f5bacfa4c0b0be53f81e301ff1ad902942ad834b326dd890d8245b",
+      "metadata_is_not_in_archive": true
+    },
+    {
+      "reader": "correction-reader",
+      "bindings_at_check": 17,
+      "missing_assets": [],
+      "mismatched_hashes": [],
+      "metadata_sha256_at_check": "a148f3fc7a45693bce523dbce5034209c44ba92c33cae9db86a6c6c7125a3009",
+      "metadata_is_not_in_archive": true
+    }
+  ],
+  "counts": {
+    "png": 590,
+    "blend": 9,
+    "preserved_inline_json": 7,
+    "preserved_inline_svg": 7
+  },
+  "ordinary_json_and_reader_code_in_archive": false,
+  "full_restored_target_repeat_preflight": {
+    "verified_members": 613,
+    "identical_existing_skipped": 613,
+    "missing_assets": 0,
+    "written_assets": 0
+  },
+  "packaging_script_sha256": "e8c5b686eb5da69ac0bb703a29391aef094a6345ecc00229e4ef11a257707bcc"
+}

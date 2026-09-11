@@ -1,0 +1,13 @@
+# Maker introduction07–14 actual observations
+
+Six actual built-in imagegen returns: four primaries, two sole structural repairs, zero finishes/tool failures. Exact args, reference hashes, all original/copied native bytes and semantic raw returns preserved and verified. Prepared drafts are explicitly unsubmitted; requests/calls record the actual tool arguments. No shared selection or script was edited.
+
+Selected07P/08R1:07 defines Kiva’s one TAN envelope with round GREEN/olive wafer and a separate small refusal slip.08 transfers the existing folded WHITE closure copy from Aren LEFT to Kiva, RIGHT glove holds the open EMPTY gray bag rim. Primary wrongly swapped sleeve damage to RIGHT; soleR1 restores LEFT old hole and intactRIGHT.07 original tier preserved as selection. The seal reads warm olive-green/brassy under daylight, accepted by lead; no color-polish call. Kiva’s hinge remains held at bench level as she considers the deadline, an ordinary moment variation.
+
+Selected09/10R1: distinct large unfolded WHITE closure read09; large page down and small refusal slip raised10. TAN/GREEN acceptance remains closed on bench. Primary put sheath on anatomicalLEFT and duplicated waistbadge/cord on bag. SoleR1 removes both errors; one waistbadge remains, RIGHT sheath naturally mostly occluded behindKiva with a small correct-side sliver, no full exposure claim. OldLEFTtear retained. Customer/occupiedmarket makes the dry closure reaction understandable.
+
+Selected11/12P without repair: promise with badge still attached nearwaist; closedSera ledger, all papers settledbench. Genuine openwoodenhingecrate comparison to separate small letter. RIGHT sheath/LEFT tear correct.11 RIGHT cuff rolls above wrist; ordinary exposed forearm is not a second tear. Existing belt pouch renders gray/brown; no new carriedbag or replacement wallet is inferred.
+
+Selected13/14P without repair: actual small CLOSED CREAM wallet under Aren glove13 communicates savings; crateopen.14 samecrateCLOSED underKivahand, ArenLEFT points to one intacttan-greenletter. WHITE unfoldedclosure is held at corner by brasshinge; smallrefusal beside. Letter not yet packed or externally relabeled. Graybag remains openempty. Darker belt pouch remains separate from recognizable creamwallet; no duplicated envelope inhand. Exact14 paper/crate detail references were handed to assets for15–18 after independent inspection/root release.
+
+Every selected tier was actually inspected at native and390px derivative size. Calm surfaces did not justify finishes. This is contributor image review, not owner acceptance or a completed lettered Chapter4 reading. The lead independently reviews/integrates selections and the reader owns exactcopy/attribution/continuous captures.

@@ -1,0 +1,6 @@
+{
+  "audit_harness_initial_assertion": "N5-07-P auxiliary TXT did not exactly equal canonical submitted prompt",
+  "investigated_scope": "all Chapter5 request JSON/TXT pairs",
+  "actual_result": "Only N5-07-P and N5-08-P TXT files contain one additional trailing newline. Canonical request JSON, embedded call args and recorded submitted prompt hashes agree exactly.",
+  "resolution": "Audit permits only this exact one-extra-LF auxiliary variation and records it per call; original files are preserved unchanged. No native or canonical submitted-argument mutation or generation occurred."
+}

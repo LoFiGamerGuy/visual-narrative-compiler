@@ -1,0 +1,93 @@
+[
+  {
+    "id": "D02",
+    "attempt_id": "D02-P",
+    "phase": "primary",
+    "category": "duel",
+    "prompt_path": "production/combat-depth/prompts/D02-P.txt",
+    "prompt_sha256": "bf09fbdb9c67a0d7d36818852fd16cc48365a73c1ebc6308e61b26a543eb4e94",
+    "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+    "references": [
+      {
+        "path": "production/combat-depth/references/riven.png",
+        "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+        "role": "Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/references/ilyra.png",
+        "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+        "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/candidates/D01-R1.png",
+        "sha256": "8bc873bda86ff90ce1b9297d9475fff413330dcc123d080515278fbbdac4c1f0",
+        "role": "Exact recurring subject/place reference from D01; use named identities/creature and relevant geography only, not its composition or surface noise."
+      }
+    ],
+    "prompt": "Use case: illustration-story.\nNew original progression-fantasy scene: First contact. Landscape 1536x1024, single complete composition.\nCAMERA AND ACTION PRIORITY: Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. A forceful first exchange seen from south: Ilyra on RIGHT lunges LEFT with a two-handed spear thrust aimed past Riven\u2019s upper torso. Riven on LEFT plants a bent front leg and parries the continuous ivory shaft with his right-held cyan-edged saber at one explicit crossing. One continuous saber from hilt to tip; hands on grips, no hand clutching blade. Both complete bodies and loaded feet, dynamic diagonals against upright architecture. A single short contact accent, not a spark cloud. The near miss and physical effort must read.\nInput images:\nImage 1: Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 2: Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 3: Exact recurring subject/place reference from D01; use named identities/creature and relevant geography only, not its composition or surface noise.\nDrawing treatment: deliberate original Nightglass action-comic illustration with appealing precisely drawn adult faces, confident selective contours, designed hair locks, rich angular silhouettes and broad opaque material planes with restrained soft modeling. Let mood and light follow THIS new setting. Calm material interiors, grouped highlights, mostly unmarked stone and fabric; purposeful details prove depth and function. Not glossy 3D, blur, airbrush, flat vector shapes or a grainy texture overlay. No all-over crack networks, tiny facets, etched ornament, hundreds of equal strands, glitter reflections, fleck storm or generic aura. A large world must remain inhabited and sophisticated while its surfaces give the eye rest.\nAll combatants and visible bystanders are adults; recurring identities and complexion follow the supplied references. Create cast variety through faces, builds and fighting styles. Visceral impact comes from loaded bodies, recoil, forceful contact, expression and consequences, not visual noise.\nPersistent state for this moment: {\"mantle\": \"intact\", \"riven_left_sleeve\": \"intact\"}. Do not heal or reset earlier damage within this fight.\nKeep the specified camera distance; a tiny figure stays small without any enlarged face insert. Recurring adults recognizable by silhouette/costume/weapon in wide shots and by distinctive face/expression in close shots. One newly composed scene only, no panels, portrait divider, collage, text, diagram arrows, HUD, logos, watermark or copied franchise design. Precise anatomy and functional grips; concentrate detail at faces and actual contacts.\n"
+  },
+  {
+    "id": "G02",
+    "attempt_id": "G02-P",
+    "phase": "primary",
+    "category": "squad",
+    "prompt_path": "production/combat-depth/prompts/G02-P.txt",
+    "prompt_sha256": "5df1ec84beb68a6fd28a77bcd04bf957ae6d5169ab658f477fcd711cfac293c4",
+    "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+    "references": [
+      {
+        "path": "production/combat-depth/references/riven.png",
+        "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+        "role": "Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/references/neris.png",
+        "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+        "role": "Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/references/kellan.png",
+        "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+        "role": "Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/candidates/G01-P.png",
+        "sha256": "79ca49e8969202979f9c20c43c4585bc91184ff36152674c3a785018e0f08b96",
+        "role": "Exact recurring subject/place reference from G01; use named identities/creature and relevant geography only, not its composition or surface noise."
+      },
+      {
+        "path": "production/combat-depth/references/shield.png",
+        "sha256": "bb7a8acc86fb08fdd51032d30636f77997047b7d55812a34903fec6279f47f79",
+        "role": "Rear shield grip and coherent force contact example Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      }
+    ],
+    "prompt": "Use case: illustration-story.\nNew original progression-fantasy scene: A pocket inside the blow. Landscape 1536x1024, single complete composition.\nCAMERA AND ACTION PRIORITY: Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. The horn bearer on RIGHT fires one broad compressed-air front LEFT. Neris braces complete feet on LEFT, rear-gripped crescent shield facing source; pressure visibly meets the shield\u2019s outer face and divides around a quiet lee holding both Riven and Kellan. Distinct expressions: Neris strain, Riven watching flanker, Kellan looking to the gutter. Keep enemy positions coherent from first panel. Broad effects with a clear source, contact and empty shelter; no full-screen white explosion.\nInput images:\nImage 1: Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 2: Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 3: Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 4: Exact recurring subject/place reference from G01; use named identities/creature and relevant geography only, not its composition or surface noise.\nImage 5: Rear shield grip and coherent force contact example Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nDrawing treatment: deliberate original Nightglass action-comic illustration with appealing precisely drawn adult faces, confident selective contours, designed hair locks, rich angular silhouettes and broad opaque material planes with restrained soft modeling. Let mood and light follow THIS new setting. Calm material interiors, grouped highlights, mostly unmarked stone and fabric; purposeful details prove depth and function. Not glossy 3D, blur, airbrush, flat vector shapes or a grainy texture overlay. No all-over crack networks, tiny facets, etched ornament, hundreds of equal strands, glitter reflections, fleck storm or generic aura. A large world must remain inhabited and sophisticated while its surfaces give the eye rest.\nPower context, do not letter or illustrate future levels simultaneously: A braced crescent shield catches one pressure front, then returns a focused pulse. Limitation: It needs stable footing and the front facing the source. A flank strike spills the load.\nAll combatants and visible bystanders are adults; recurring identities and complexion follow the supplied references. Create cast variety through faces, builds and fighting styles. Visceral impact comes from loaded bodies, recoil, forceful contact, expression and consequences, not visual noise.\nPersistent state for this moment: {\"shield\": \"intact; loaded\", \"water\": \"flowing\", \"horn\": \"firing\"}. Do not heal or reset earlier damage within this fight.\nKeep the specified camera distance; a tiny figure stays small without any enlarged face insert. Recurring adults recognizable by silhouette/costume/weapon in wide shots and by distinctive face/expression in close shots. One newly composed scene only, no panels, portrait divider, collage, text, diagram arrows, HUD, logos, watermark or copied franchise design. Precise anatomy and functional grips; concentrate detail at faces and actual contacts.\n"
+  },
+  {
+    "id": "W02",
+    "attempt_id": "W02-P",
+    "phase": "primary",
+    "category": "war",
+    "prompt_path": "production/combat-depth/prompts/W02-P.txt",
+    "prompt_sha256": "58e4728e6d4c34d3975a1f874ef7cff3f52292453426e4801a6c44ec30e81df0",
+    "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+    "references": [
+      {
+        "path": "production/combat-depth/references/neris.png",
+        "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+        "role": "Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/candidates/W01-R1.png",
+        "sha256": "55bff1022e73019202a267656c8cf97f7c8fc68d47b522cf9c5acba228be8ed6",
+        "role": "Exact recurring subject/place reference from W01; use named identities/creature and relevant geography only, not its composition or surface noise."
+      },
+      {
+        "path": "production/combat-depth/references/shield.png",
+        "sha256": "bb7a8acc86fb08fdd51032d30636f77997047b7d55812a34903fec6279f47f79",
+        "role": "Rear shield grip and coherent force contact example Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      }
+    ],
+    "prompt": "Use case: illustration-story.\nNew original progression-fantasy scene: A formation folds. Landscape 1536x1024, single complete composition.\nCAMERA AND ACTION PRIORITY: Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Low wide from behind defenders LEFT toward the RIGHT siege beast. Its clearly open brass-collared mouth emits one broad compressed-air lane onto the main bridge. Front-rank adult shields buckle backward, planted boots skid and bodies recoil in a few legible silhouettes, not a pile of dismemberment. Neris smaller in foreground braces her crescent shield correctly from the rear to catch the surviving front. Keep a calm edge of the scene to show where pressure is absent. Physical deformation and recoil carry impact; one broad dust mass at feet, no thousands of sparks.\nInput images:\nImage 1: Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 2: Exact recurring subject/place reference from W01; use named identities/creature and relevant geography only, not its composition or surface noise.\nImage 3: Rear shield grip and coherent force contact example Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nDrawing treatment: deliberate original Nightglass action-comic illustration with appealing precisely drawn adult faces, confident selective contours, designed hair locks, rich angular silhouettes and broad opaque material planes with restrained soft modeling. Let mood and light follow THIS new setting. Calm material interiors, grouped highlights, mostly unmarked stone and fabric; purposeful details prove depth and function. Not glossy 3D, blur, airbrush, flat vector shapes or a grainy texture overlay. No all-over crack networks, tiny facets, etched ornament, hundreds of equal strands, glitter reflections, fleck storm or generic aura. A large world must remain inhabited and sophisticated while its surfaces give the eye rest.\nPower context, do not letter or illustrate future levels simultaneously: A braced crescent shield catches one pressure front, then returns a focused pulse. Limitation: It needs stable footing and the front facing the source. A flank strike spills the load.\nAll combatants and visible bystanders are adults; recurring identities and complexion follow the supplied references. Create cast variety through faces, builds and fighting styles. Visceral impact comes from loaded bodies, recoil, forceful contact, expression and consequences, not visual noise.\nPersistent state for this moment: {\"bridge\": \"intact\", \"siege_beast\": \"mouth pressure firing\"}. Do not heal or reset earlier damage within this fight.\nKeep the specified camera distance; a tiny figure stays small without any enlarged face insert. Recurring adults recognizable by silhouette/costume/weapon in wide shots and by distinctive face/expression in close shots. One newly composed scene only, no panels, portrait divider, collage, text, diagram arrows, HUD, logos, watermark or copied franchise design. Precise anatomy and functional grips; concentrate detail at faces and actual contacts.\n"
+  }
+]

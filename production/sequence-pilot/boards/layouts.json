@@ -1,0 +1,959 @@
+{
+  "schema": "PilotStoryboardLayouts/1",
+  "plan_sha256": "b31533e87ee23fbf8739fda72a65d1fe9d78c98956ae1c95385bec1ed05f05b6",
+  "authorship": "Original code-native SVG authored for this pilot; no imported art or inherited board drawings.",
+  "status": "DRAFT_LAYOUT_EXPECTATIONS; NOT_HUMAN_APPROVED; NOT_FINAL_ART",
+  "diagram_conventions": {
+    "nera": "yellow cape, long adult proportions",
+    "odo": "broad blue jacket, silver hair",
+    "sentinel": "slate kite body, exactly three leg paths, violet gill",
+    "dashed_blue_arrow": "motion expectation, not extra body",
+    "cyan_bars": "Air Brake halt accent",
+    "pale_outlined_rectangle": "reserved blank lettering margin, not final balloon",
+    "separate_group_ids": [
+      "background",
+      "threat",
+      "actors",
+      "props",
+      "effects"
+    ]
+  },
+  "panels": [
+    {
+      "panel": 1,
+      "file": "p01.svg",
+      "camera": "close",
+      "width": 390,
+      "height": 320,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "nera": {
+          "crown": [
+            0.5385,
+            0.3563
+          ],
+          "scale": 4.1,
+          "pose": "stand",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.4333,
+            0.3306,
+            0.2103,
+            0.2947
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [
+        [
+          0.0462,
+          0.0563,
+          0.4359,
+          0.225
+        ]
+      ],
+      "offscreen_or_cropped": [
+        "Odo with sealed flask",
+        "Nera intact staff",
+        "wrist charge display",
+        "closed east shutter"
+      ],
+      "deliberate_choices": [
+        "Mature face and cape close-up; lower body deliberately cropped. Exit light is screen-right."
+      ],
+      "beat": "Nera steadies a trembling breath, looking toward the exit light.",
+      "continuity_contract": "Both adults west of closed exit; flask upright in Odo\u2019s hand; staff intact; charge3.",
+      "sha256": "62914275948905b2b01408a6609dca24cf2164ae207f456aa47bc53e62592503"
+    },
+    {
+      "panel": 2,
+      "file": "p02.svg",
+      "camera": "two-shot",
+      "width": 390,
+      "height": 380,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "odo": {
+          "crown": [
+            0.3026,
+            0.3947
+          ],
+          "scale": 1.65,
+          "pose": "offer",
+          "rotation_degrees": 0
+        },
+        "nera": {
+          "crown": [
+            0.6795,
+            0.3947
+          ],
+          "scale": 1.65,
+          "pose": "receive",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.2603,
+            0.3861,
+            0.0846,
+            0.0999
+          ]
+        },
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.6372,
+            0.3861,
+            0.0846,
+            0.0999
+          ]
+        },
+        {
+          "kind": "flask handoff",
+          "rect": [
+            0.4282,
+            0.5158,
+            0.1974,
+            0.1737
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [
+        [
+          0.0436,
+          0.0474,
+          0.4641,
+          0.2395
+        ],
+        [
+          0.541,
+          0.1237,
+          0.4231,
+          0.2
+        ]
+      ],
+      "offscreen_or_cropped": [],
+      "deliberate_choices": [
+        "One flask at the shared handoff; Odo left, Nera right. Both west of closed exit."
+      ],
+      "beat": "Odo offers Nera the sealed flask; she asks him to hold the exit.",
+      "continuity_contract": "Flask transfers Odo\u2192Nera without opening; Odo turns toward door release.",
+      "sha256": "f3f1ebd99a562cacebee26b2ff6122e33628bf10d26da489c224b907baaeec12"
+    },
+    {
+      "panel": 3,
+      "file": "p03.svg",
+      "camera": "wide",
+      "width": 390,
+      "height": 240,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "odo": {
+          "crown": [
+            0.1872,
+            0.5625
+          ],
+          "scale": 0.62,
+          "pose": "release",
+          "rotation_degrees": 0
+        },
+        "nera": {
+          "crown": [
+            0.3385,
+            0.55
+          ],
+          "scale": 0.65,
+          "pose": "stand",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.1713,
+            0.5573,
+            0.0318,
+            0.0594
+          ]
+        },
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.3218,
+            0.5446,
+            0.0333,
+            0.0623
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [],
+      "offscreen_or_cropped": [],
+      "deliberate_choices": [
+        "No visible monster. Left pillar release connects overhead to right shutter. Long free cord hangs at west pillar."
+      ],
+      "beat": "Wide gallery: west entry left, shallow water center, exit shutter right, overhead dark recess. No monster visible.",
+      "continuity_contract": "Camera remains south of movement axis; exit screen-right. Adult positions and dry stepping ridge clear. Shutter release is on WEST pillar, linked by overhead cable to EAST shutter; no unexplained teleport to the exit.",
+      "sha256": "ee0a34366dbcd36b82801fb3bab534c7af04b5cc7d8ff1af97b18eebb58f3e31"
+    },
+    {
+      "panel": 4,
+      "file": "p04.svg",
+      "camera": "insert",
+      "width": 390,
+      "height": 180,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {},
+      "protected_zones_expected": [
+        {
+          "kind": "wrist hand and inert display",
+          "rect": [
+            0.2846,
+            0.5222,
+            0.3231,
+            0.4167
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [
+        [
+          0.0436,
+          0.0833,
+          0.9051,
+          0.35
+        ]
+      ],
+      "offscreen_or_cropped": [
+        "adult faces",
+        "Odo",
+        "whole gallery"
+      ],
+      "deliberate_choices": [
+        "Display is blank for live UI overlay in reserved upper margin. Flask and intact staff are insert detail, not duplicated in another hand."
+      ],
+      "beat": "Wrist display establishes three charges and one of two verified counters needed to unlock Air Brake; Nera checks flask/staff.",
+      "continuity_contract": "No activation or resource change. UI occupies clear margin, not hand/face.",
+      "sha256": "f91f58ae789c398ee7d57d8390097f23b18552d1fa5d373c8e37746f3b12d218"
+    },
+    {
+      "panel": 5,
+      "file": "p05.svg",
+      "camera": "vertical reveal",
+      "width": 390,
+      "height": 850,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "odo": {
+          "crown": [
+            0.1718,
+            0.7671
+          ],
+          "scale": 0.8,
+          "pose": "release",
+          "rotation_degrees": 0
+        },
+        "nera": {
+          "crown": [
+            0.3256,
+            0.7659
+          ],
+          "scale": 0.9,
+          "pose": "stand",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.1513,
+            0.7652,
+            0.041,
+            0.0216
+          ]
+        },
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.3026,
+            0.7638,
+            0.0462,
+            0.0244
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [],
+      "offscreen_or_cropped": [],
+      "deliberate_choices": [
+        "Long visual descent: dark overhead recess, kite body, exactly three unfurling legs, small west-side adults. Sentinel blocks east route; no attack contact yet."
+      ],
+      "beat": "A slate kite-bodied three-legged sentinel unfolds from the overhead recess into the east route.",
+      "continuity_contract": "Reveal top-to-bottom; sentinel east/right, adults west/left; exit occluded by threat.",
+      "sha256": "8a6bcdd9b34230245dc0d97dcb0e47141b27845b596d313dbde71b3362a0b475"
+    },
+    {
+      "panel": 6,
+      "file": "p06.svg",
+      "camera": "medium",
+      "width": 390,
+      "height": 240,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "odo": {
+          "crown": [
+            0.1564,
+            0.4125
+          ],
+          "scale": 0.86,
+          "pose": "release",
+          "rotation_degrees": 0
+        },
+        "nera": {
+          "crown": [
+            0.3872,
+            0.4167
+          ],
+          "scale": 0.91,
+          "pose": "plant",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.1344,
+            0.4053,
+            0.0441,
+            0.0824
+          ]
+        },
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.3638,
+            0.4091,
+            0.0467,
+            0.0872
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [
+        [
+          0.2308,
+          0.0625,
+          0.5744,
+          0.2583
+        ]
+      ],
+      "offscreen_or_cropped": [],
+      "deliberate_choices": [
+        "Staff lowers across the forefoot path without touching yet. Odo reaches west release."
+      ],
+      "beat": "Nera plants on the dry ridge and lowers the staff; Odo reaches the shutter release from the west side.",
+      "continuity_contract": "No attack yet; flask fixed to Nera\u2019s chest sling, lid upright.",
+      "sha256": "2e8aaed82b9c43e6180ddace844628646899e2ab1003f4c0da8031d4f2ec252f"
+    },
+    {
+      "panel": 7,
+      "file": "p07.svg",
+      "camera": "wide action",
+      "width": 390,
+      "height": 300,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "odo": {
+          "crown": [
+            0.141,
+            0.4867
+          ],
+          "scale": 0.85,
+          "pose": "release",
+          "rotation_degrees": 0
+        },
+        "nera": {
+          "crown": [
+            0.3667,
+            0.5133
+          ],
+          "scale": 0.93,
+          "pose": "crouch",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.1192,
+            0.481,
+            0.0436,
+            0.0652
+          ]
+        },
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.3428,
+            0.5071,
+            0.0477,
+            0.0713
+          ]
+        },
+        {
+          "kind": "forefoot approach",
+          "rect": [
+            0.4897,
+            0.7067,
+            0.1179,
+            0.1567
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [
+        [
+          0.6385,
+          0.0733,
+          0.3205,
+          0.16
+        ]
+      ],
+      "offscreen_or_cropped": [],
+      "deliberate_choices": [
+        "Right-to-left lunge. Forefoot still separated from staff by a small visible gap; contact is next panel."
+      ],
+      "beat": "Sentinel lunges right-to-left; forefoot line crosses the ridge and splashes water.",
+      "continuity_contract": "Clear silhouette, trajectory and target; no teleport or body doubling.",
+      "sha256": "f9c0b29fcd6db501eecf6d28c5829fb2a046681c2e57c95fe107eeac09bf3b08"
+    },
+    {
+      "panel": 8,
+      "file": "p08.svg",
+      "camera": "contact",
+      "width": 390,
+      "height": 340,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "nera": {
+          "crown": [
+            0.2744,
+            0.4735
+          ],
+          "scale": 1.3,
+          "pose": "crouch",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.241,
+            0.4659,
+            0.0667,
+            0.0879
+          ]
+        },
+        {
+          "kind": "staff forefoot contact",
+          "rect": [
+            0.4308,
+            0.6794,
+            0.1205,
+            0.1353
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [
+        [
+          0.0385,
+          0.0471,
+          0.9154,
+          0.2676
+        ]
+      ],
+      "offscreen_or_cropped": [
+        "Odo remains at west release",
+        "full third sentinel leg cropped right"
+      ],
+      "deliberate_choices": [
+        "Staff/forefoot contact center is (190,254). Bent knees oppose leftward force; violet gill remains active. UI overlay must show 3 to 2 and second-counter unlock."
+      ],
+      "beat": "Nera spends one pulse to brake the forefoot with her staff; bent knees and staff compression show force.",
+      "continuity_contract": "Foot/staff contact visible. Flask remains upright. This is a temporary stop, not victory. This verified counter completes the two-counter requirement; Air Brake unlocks and stays available.",
+      "sha256": "3b9308b88116a4c798ec0062cebca24afabf653cacc5137dca00e6b11583d082"
+    },
+    {
+      "panel": 9,
+      "file": "p09.svg",
+      "camera": "wide action",
+      "width": 390,
+      "height": 300,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "odo": {
+          "crown": [
+            0.1538,
+            0.4967
+          ],
+          "scale": 0.83,
+          "pose": "release",
+          "rotation_degrees": 0
+        },
+        "nera": {
+          "crown": [
+            0.4231,
+            0.5567
+          ],
+          "scale": 0.81,
+          "pose": "crouch",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.1326,
+            0.4911,
+            0.0426,
+            0.0636
+          ]
+        },
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.4023,
+            0.5513,
+            0.0415,
+            0.0621
+          ]
+        },
+        {
+          "kind": "new side-leg threat to Odo",
+          "rect": [
+            0.2077,
+            0.53,
+            0.3667,
+            0.1367
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [],
+      "offscreen_or_cropped": [],
+      "deliberate_choices": [
+        "Pivot around still blocked forefoot; a DIFFERENT leg extends toward Odo on west pillar. A curved vector makes reversal distinct from first lunge."
+      ],
+      "beat": "The sentinel pivots around the blocked foot, sweeping its side limb toward Odo at the release.",
+      "continuity_contract": "New vector threatens partner; original exit geography re-established. Nera\u2019s first answer is insufficient.",
+      "sha256": "b92c085a60515f020b704360e48766bc34b83a41bef461f45b24ebea73a00665"
+    },
+    {
+      "panel": 10,
+      "file": "p10.svg",
+      "camera": "two-shot",
+      "width": 390,
+      "height": 360,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "odo": {
+          "crown": [
+            0.2026,
+            0.5028
+          ],
+          "scale": 1.28,
+          "pose": "catch",
+          "rotation_degrees": 0
+        },
+        "nera": {
+          "crown": [
+            0.7179,
+            0.5167
+          ],
+          "scale": 1.22,
+          "pose": "toss",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.1697,
+            0.4957,
+            0.0656,
+            0.0818
+          ]
+        },
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.6867,
+            0.5099,
+            0.0626,
+            0.0779
+          ]
+        },
+        {
+          "kind": "single flask trajectory",
+          "rect": [
+            0.3308,
+            0.3944,
+            0.2385,
+            0.1611
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [
+        [
+          0.5385,
+          0.0528,
+          0.4179,
+          0.1667
+        ],
+        [
+          0.0513,
+          0.2528,
+          0.3128,
+          0.1611
+        ]
+      ],
+      "offscreen_or_cropped": [
+        "sentinel side-leg sweep outside close two-shot",
+        "flask temporarily airborne before Odo receives"
+      ],
+      "deliberate_choices": [
+        "One flask only, cap upward on arc Nera right to Odo left. Nera sling empty. Odo left hand remains assigned release cord; right catches."
+      ],
+      "beat": "Nera tosses the sealed flask toward Odo\u2019s free hand; reciprocal eyelines make the timing clear.",
+      "continuity_contract": "One flask follows one visible arc; Odo receives it upright. No duplicate flask.",
+      "sha256": "5365e9a66b5a61b8666927e67f8a4e8d799a3a6b0a1652e2aa3bdfe288a04230"
+    },
+    {
+      "panel": 11,
+      "file": "p11.svg",
+      "camera": "vertical action",
+      "width": 390,
+      "height": 500,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "nera": {
+          "crown": [
+            0.5615,
+            0.376
+          ],
+          "scale": 1.05,
+          "pose": "vault",
+          "rotation_degrees": -18
+        },
+        "odo": {
+          "crown": [
+            0.2846,
+            0.662
+          ],
+          "scale": 0.84,
+          "pose": "run",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.2631,
+            0.6586,
+            0.0431,
+            0.0386
+          ]
+        },
+        {
+          "kind": "vault body and brake accent",
+          "rect": [
+            0.4385,
+            0.334,
+            0.2744,
+            0.236
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [
+        [
+          0.0513,
+          0.036,
+          0.8923,
+          0.136
+        ]
+      ],
+      "offscreen_or_cropped": [],
+      "deliberate_choices": [
+        "Only one Nera body. Dashed trajectory rises from west, stalls at cyan braking bars, then redirects down-right. Odo carries upright flask and continuous release cord, starts east. Shutter visibly raised."
+      ],
+      "beat": "Nera uses newly unlocked Air Brake to halt her vault above the sweep, then redirect toward contact; Odo pulls the west release cable to raise the east shutter.",
+      "continuity_contract": "One body and a continuous arc with a visible braking accent; no teleport or duplicate body. Exit rises; Odo begins moving east with flask.",
+      "sha256": "1ab12713963ab478443641a59e186194245709a3202244549a29b95a0605fe2e"
+    },
+    {
+      "panel": 12,
+      "file": "p12.svg",
+      "camera": "impact",
+      "width": 390,
+      "height": 550,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "nera": {
+          "crown": [
+            0.4897,
+            0.5073
+          ],
+          "scale": 1.34,
+          "pose": "strike",
+          "rotation_degrees": 0
+        },
+        "odo": {
+          "crown": [
+            0.9051,
+            0.6909
+          ],
+          "scale": 0.72,
+          "pose": "run",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.4554,
+            0.5024,
+            0.0687,
+            0.056
+          ]
+        },
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.8867,
+            0.6883,
+            0.0369,
+            0.0301
+          ]
+        },
+        {
+          "kind": "broken staff joint impact and scraped hand",
+          "rect": [
+            0.5795,
+            0.5873,
+            0.1692,
+            0.1273
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [
+        [
+          0.0462,
+          0.0364,
+          0.3641,
+          0.1127
+        ]
+      ],
+      "offscreen_or_cropped": [],
+      "deliberate_choices": [
+        "ONE contact at forelimb joint (257,360), exposed between two staff pieces. Small red scrape on Nera right hand; no cloud hides contact. Odo slips through screen-right opening, flask upright, cord continuous."
+      ],
+      "beat": "Nera\u2019s staff strikes the sentinel forelimb joint as the shutter opens. The staff breaks at the contact, scraping her hand.",
+      "continuity_contract": "One visible contact point, counterforce, deformation and broken staff; no effect cloud hiding the event. Odo slips through the raised opening behind the staff strike, flask upright; both adults are moving east.",
+      "sha256": "cf4d79a96ee2e505cd68cbbfebb362845d59a1026ca3a75b70b05ab1aa05e0c8"
+    },
+    {
+      "panel": 13,
+      "file": "p13.svg",
+      "camera": "wide aftermath",
+      "width": 390,
+      "height": 360,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "nera": {
+          "crown": [
+            0.6436,
+            0.4944
+          ],
+          "scale": 0.97,
+          "pose": "hurt",
+          "rotation_degrees": 0
+        },
+        "odo": {
+          "crown": [
+            0.8513,
+            0.4722
+          ],
+          "scale": 1.04,
+          "pose": "receive",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.6187,
+            0.4891,
+            0.0497,
+            0.062
+          ]
+        },
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.8246,
+            0.4664,
+            0.0533,
+            0.0664
+          ]
+        },
+        {
+          "kind": "shutter pinning living foreleg",
+          "rect": [
+            0.4231,
+            0.7361,
+            0.1231,
+            0.1083
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [],
+      "offscreen_or_cropped": [],
+      "deliberate_choices": [
+        "Camera moves east with adults while preserving west-left/east-right axis. Door is now screen center, both adults to its RIGHT. Living violet-gill sentinel remains left; foreleg pinned under bottom edge. Free cord falls slack on east floor."
+      ],
+      "beat": "Beyond the opening, Odo releases the cord so the shutter drops behind both adults and pins the sentinel foreleg on the west side. Nera holds the broken staff.",
+      "continuity_contract": "Shutter now lowered with foreleg caught under its bottom edge; threat remains alive/west. Both adults east; flask in Odo hand, staff broken, scraped hand, charge1, Air Brake unlocked.",
+      "sha256": "993e85e2e00fc32eb8993d2ec17f389862c50c1a87f8586b1d28bfe80b4195ab"
+    },
+    {
+      "panel": 14,
+      "file": "p14.svg",
+      "camera": "close two-shot",
+      "width": 390,
+      "height": 440,
+      "coordinate_system": "normalized [x,y,width,height], origin top-left",
+      "evidence_class": "EXPECTED_STORYBOARD_LAYOUT_NOT_OBSERVED_GENERATED_ART",
+      "actor_positions": {
+        "nera": {
+          "crown": [
+            0.359,
+            0.3932
+          ],
+          "scale": 1.9,
+          "pose": "hurt",
+          "rotation_degrees": 0
+        },
+        "odo": {
+          "crown": [
+            0.7051,
+            0.3705
+          ],
+          "scale": 1.97,
+          "pose": "receive",
+          "rotation_degrees": 0
+        }
+      },
+      "protected_zones_expected": [
+        {
+          "kind": "face",
+          "actor": "nera",
+          "rect": [
+            0.3103,
+            0.3845,
+            0.0974,
+            0.0993
+          ]
+        },
+        {
+          "kind": "face",
+          "actor": "odo",
+          "rect": [
+            0.6546,
+            0.3615,
+            0.101,
+            0.103
+          ]
+        },
+        {
+          "kind": "steadied scraped hand",
+          "rect": [
+            0.4154,
+            0.5341,
+            0.159,
+            0.0955
+          ]
+        }
+      ],
+      "reserved_lettering_zones": [
+        [
+          0.5231,
+          0.0432,
+          0.4282,
+          0.1409
+        ],
+        [
+          0.0641,
+          0.2091,
+          0.3667,
+          0.1273
+        ]
+      ],
+      "offscreen_or_cropped": [
+        "second loose broken staff piece on prior-panel east floor",
+        "living sentinel west beyond closed shutter",
+        "wrist charge display"
+      ],
+      "deliberate_choices": [
+        "Odo steadies Nera scraped hand at shared center; separate outer hand holds one sealed upright flask. Nera retains short broken staff. Final charge1 state remains recorded, not automatically inferred from cropped wrist."
+      ],
+      "beat": "Beyond the door Odo steadies Nera\u2019s scraped hand beside the sealed flask. They breathe, then turn toward the next passage.",
+      "continuity_contract": "Hold consequence and relationship after spectacle; same injury, broken staff, flask and charge1 remain.",
+      "sha256": "cbbb03ed57d982679849b299cf00b1bf562a2c5ce43663252b930521b5262422"
+    }
+  ]
+}

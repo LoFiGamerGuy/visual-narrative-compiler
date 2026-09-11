@@ -1,0 +1,21 @@
+{
+  "id": "IO04",
+  "attempt_id": "IO04-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "IO04-P",
+  "retry_reason": "Afternath ground and orange-metal weathering are densely mottled over nearly every surface. Root native inspected; source-only finish retains structural caveats.",
+  "evidence_path": "research/encounter-lab/finish-evidence-03.json",
+  "evidence_sha256": "09d3683eed3ede05cc33a21fb1ec1a254131e548e52abbb47e96ea343e660bc4",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: Orren smile and two resting hands with left injury, cleaver across thighs, full collapsed boar and exact existing limb construction, actual shoulder damage, green grille/steam and canal geometry..\nFocus the simplification on: Tiny ground strokes, rust flecks, equal-weight leaves and cloud flecks, clothing microfacets. Preserve intended broad brush character, body damage and single steam puff..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/encounter-lab/prompts/IO04-F1.txt",
+  "prompt_sha256": "8a98cf36c1afae37a88552db5f515acd121324bd9ace597ddd87bc877ba984b9",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/IO04-P.png",
+      "sha256": "35e429e8f0a01b79c501d5c67aee9eb6388c8c305834a867fdbe0c922864684a",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

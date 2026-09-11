@@ -1,0 +1,71 @@
+{
+  "schema": "BlackPetalCoverReuse/1",
+  "packaged_utc": "2026-09-07T14:25:49.516220+00:00",
+  "study_id": "VD-20260907-01",
+  "direction": "19 Black Petal",
+  "historical_tool": "image_gen.imagegen",
+  "historical_model": null,
+  "historical_snapshot": null,
+  "historical_seed": null,
+  "historical_usage": null,
+  "historical_billing_allocation": null,
+  "historical_direct_paid_usd": 0,
+  "current_tool_available_in_this_session": true,
+  "recipient_account_access_verified": false,
+  "current_documentation": {
+    "url": "https://learn.chatgpt.com/docs/image-generation",
+    "checked_date": "2026-09-07",
+    "documented_builtin_model": "gpt-image-2",
+    "does_not_identify_historical_call_snapshot": true
+  },
+  "workflow": [
+    {
+      "attempt_id": "VD19-P",
+      "prompt_file": "original-prompt.txt",
+      "input_images": []
+    },
+    {
+      "attempt_id": "VD19-R",
+      "prompt_file": "corrective-edit-prompt.txt",
+      "input_images": [
+        "black-petal-original.png"
+      ],
+      "reason": "Remove accidentally generated signature-like artifact; original retained"
+    }
+  ],
+  "images": [
+    {
+      "attempt_id": "VD19-P",
+      "kit_file": "black-petal-original.png",
+      "project_path": "production/visual-directions/candidates/19-primary.png",
+      "sha256": "2c4067fda0233b8a8ac8bd11e91337a28535c2f92ab1630be75f5d6102aafe1a",
+      "width": 1536,
+      "height": 1024,
+      "started": {
+        "current_time": "2026-09-07 12:58:27 UTC"
+      },
+      "finished": {
+        "current_time": "2026-09-07 13:02:12 UTC"
+      },
+      "source_tool_original_verified": true
+    },
+    {
+      "attempt_id": "VD19-R",
+      "kit_file": "black-petal-reference.png",
+      "project_path": "production/visual-directions/candidates/19-retry.png",
+      "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+      "width": 1536,
+      "height": 1024,
+      "started": {
+        "current_time": "2026-09-07 13:10:03 UTC"
+      },
+      "finished": {
+        "current_time": "2026-09-07 13:10:55 UTC"
+      },
+      "source_tool_original_verified": true
+    }
+  ],
+  "new_cover_generations": 0,
+  "cover_template_status": "untested adaptation with book-specific fields open",
+  "exact_replay_guaranteed": false
+}

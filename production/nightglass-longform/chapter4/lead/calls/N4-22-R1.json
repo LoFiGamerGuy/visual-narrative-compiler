@@ -1,0 +1,33 @@
+{
+  "id": "N4-22-R1",
+  "status": "returned",
+  "phase": "targeted_repair",
+  "tool": "built-in image_gen",
+  "model": null,
+  "cost": null,
+  "panels": [
+    "N4-22"
+  ],
+  "submitted_utc": "2026-09-10T05:23:43.017577+00:00",
+  "args": {
+    "prompt": "Use case: precise-object-edit. Edit this exact SINGLE portrait panel. Correct the cyan force attachment ONLY, with the minimal right-wrist/sword angle adjustment needed to keep it readable. The current line incorrectly begins at the sword's blade/guard. Completely REMOVE that old blade-connected cyan line. The small bright ROUND BLUE-RIMMED TERMINAL hanging BELOW Aren's RIGHT fist is the actual REAR POMMEL: the new SINGLE cyan strand must visibly START AT THE CENTER OF THAT ROUND TERMINAL, immediately below the fist, then run through clear air up-right to the SAME existing HIGH black fixed shaft contact point. There must be a visibly unbroken connection at the round terminal and no strand from the blade, guard, glove or tip.\nSlightly rotate only the crescent sword in the SAME RIGHT hand so its silver crescent blade angles UP-LEFT, away from the up-right strand path. Keep one correct blade/grip/round rear pommel unit and the same right fist. The entire new line must remain visibly separate from the blade; do not leave part of the old line, add a fork or hide the start behind the hand. Its other endpoint is the existing high fixed BLACK metal shaft above the upper rail and bell bracket. Keep that exact endpoint and all metal/wall architecture in place. ONE cyan line total, no extra arc or trail.\nPreserve Aren's exact airborne body/legs/two boots, head/expression, empty LEFT hand, ONE EMPTY anatomicalRIGHT sheath, closed GRAY broad rectangular bag with broad front compartment and brown padded harness/rolled gray strap, LEFT jacket tear/RIGHT intact. Preserve Kiva and Sera, the opened LEFT gate, original LEFT paving, clear gap, narrow RIGHT original L-shaped landing strip and ordinary descending stairs, halfwall/rails, all positions/camera/daylight/style. No ground contact or attack, new floor, extra gear, text or balloons. Do not change any other part of the scene.",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter4/lead/candidates/N4-22-P.png"
+    ]
+  },
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter4/lead/candidates/N4-22-P.png",
+      "sha256": "40226707e721f4e164757e045049412fcb29c48fc92287c58772c0d64c9c1f70"
+    }
+  ],
+  "observed_failure": "Actual22P cyan attaches blade/guard instead of visible rearroundpommel; onlyR1 reroute and minimal weapon angle for clear onepath.",
+  "native": "production/nightglass-longform/chapter4/lead/candidates/N4-22-R1.png",
+  "sha256": "38850cfd1518ebd9793faa51017bd1e37ab8039bcf7d28986281cdc6211101b4",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "tool_native": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-c174bb70-5f8c-48cc-ad59-ae73a8c00b05.png",
+  "inspection": "Lead actually viewed wholeR1: one uninterrupted cyan strand visibly begins at ROUND REAR POMMEL below RIGHT fist, ends on high source-facing BLACK shaft above guard/bell. Blade now angled up-left clear of line. Bothboots airborne, body at beginning of rightward transfer with feet trailing over source-side air, not falsely completedmidgap/landing. Same closedGRAYbag/rightemptysheath/LEFTempty/LEFTtearRIGHTintact/safeKiva&Sera. Geometry originalrightLtop/stair retained. SoleR1 fixes central force endpoint; independentcheck pending."
+}

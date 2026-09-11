@@ -1,0 +1,62 @@
+{
+  "id": "S06",
+  "attempt_id": "S06-P",
+  "phase": "primary",
+  "category": "scene",
+  "prompt_path": "production/world-combat/prompts/S06-P.txt",
+  "prompt_sha256": "605200a7e78a5afa85ee4a147df00ea477c968e4ac9811d6f5062dbd02998eb0",
+  "references": [
+    {
+      "path": "production/world-combat/references/01.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original full drawing-treatment and integrated atmosphere reference ONLY. Never copy its character, creature, weapon or layout."
+    },
+    {
+      "path": "production/world-combat/candidates/C01-P.png",
+      "sha256": "6776b7769c246b0d476e18d60614b7fb199bc58c7eb8e9b0568112cfe1835234",
+      "role": "New recurring character identity/design reference C01 Riven Hale. Preserve recognizable design, change composition/action as requested."
+    },
+    {
+      "path": "production/world-combat/candidates/C02-P.png",
+      "sha256": "1d81611437996af93a4f5904cc80223e3ef98eb128306338f71cf2fb656bb605",
+      "role": "New recurring character identity/design reference C02 Senn Ardent. Preserve recognizable design, change composition/action as requested."
+    },
+    {
+      "path": "production/world-combat/candidates/G01-P.png",
+      "sha256": "bb042777a74f429dc31741e509c8ce2589369fbf3b0b59acb66c52f6bfd464bf",
+      "role": "New recurring equipment identity/design reference G01 Seam Saber. Preserve recognizable design, change composition/action as requested. Equipment reference defines the object only, never its cropped display-hand pose; follow the new entry grip and stance."
+    },
+    {
+      "path": "production/world-combat/candidates/G02-P.png",
+      "sha256": "0c88fcc341cccb5212a23854741039156b7767ff2df9f6b97a08538c6087ff83",
+      "role": "New recurring equipment identity/design reference G02 Crownfall Lance. Preserve recognizable design, change composition/action as requested. Equipment reference defines the object only, never its cropped display-hand pose; follow the new entry grip and stance."
+    },
+    {
+      "path": "production/world-combat/candidates/M02-P.png",
+      "sha256": "ff4b4615d7f6ac6984bbe8958082bf8031bc0be9ac8fb903f106982e1cd43026",
+      "role": "New recurring monster identity/design reference M02 Hollow Regent. Preserve recognizable design, change composition/action as requested."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 03:56:21 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-world-combat-20260908-0300/production/world-combat/references/01.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-world-combat-20260908-0300/production/world-combat/candidates/C01-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-world-combat-20260908-0300/production/world-combat/candidates/C02-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-world-combat-20260908-0300/production/world-combat/candidates/G01-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-world-combat-20260908-0300/production/world-combat/candidates/G02-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-world-combat-20260908-0300/production/world-combat/candidates/M02-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "status": "rejected-before-generation",
+  "error": "`referenced_image_paths` must contain at most 5 paths",
+  "native_image_returned": false,
+  "primary_generations_consumed": 0
+}

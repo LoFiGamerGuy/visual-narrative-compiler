@@ -1,0 +1,64 @@
+{
+  "kind": "unpromoted Chapter9 v5 ordinary-packing proposal",
+  "created_utc": "2026-09-10T23:17:33.412552+00:00",
+  "source_sha256": {
+    "production/nightglass-longform/scripts/chapter-9.json": "bb758dad0d73fc8b402aedf781ccbb70632f18cb57e7c7038f79f60472ebce31",
+    "production/nightglass-longform/scripts/chapter-9.md": "e8a9a198cf2cfc821b5bf2f4326f29c03e0f2428b885f5d55589507c26c1cd9c",
+    "production/nightglass-longform/scripts/chapter-9-state-route.md": "e4b4e70b934ea58b2af04e64cfe9f1e651c42f6b1fb8b21fa13b5c6744bc9b4b"
+  },
+  "actual_whole_natives_inspected": {
+    "production/nightglass-longform/chapter9/lead/candidates/N9-07-08-P.png": "3449269db1a01cd3950f3a1fa2873eb750c7be0bf8fe6145b03b4d77272dbad5",
+    "production/nightglass-longform/chapter9/lead/candidates/N9-07-08-R1.png": "a54a64e5c1b388d21c5cb571f166e0c30b23bc4816965f3b31159c3b2f8d4300"
+  },
+  "recommended_source_for_07_and_08": "N9-07-08-P.png",
+  "repair_result": "07 hand role still RIGHT;08 switched LEFT; not accepted as consistent requested repair",
+  "deltas": [
+    {
+      "panel": 7,
+      "field": "action",
+      "before": "With Aren’s EMPTY gray bag already open on the bench and harness fully OFF his shoulders, Neris’s RIGHT bare hand passes the one tied amber pouch into his LEFT glove. His RIGHT glove rests on the empty bag rim.",
+      "after": "With Aren’s EMPTY gray bag already open on the bench and harness fully OFF his shoulders, Neris’s RIGHT bare hand passes the one tied amber pouch into his RIGHT glove. His LEFT glove rests on the empty bag rim."
+    },
+    {
+      "panel": 7,
+      "field": "current_state",
+      "before": "Terms and safe reset conditions already agreed. ONE amber/black-tied pouch Neris→Aren. Bench supports bag; all brown harness straps lie with bag, none duplicated on body. Wallet closed at waist/key inside, sole RIGHT sheath, old LEFT tear/RIGHT intact. Sera remains a witness with her own closed brown ledger. This completes the seven-panel setup.",
+      "after": "Terms and safe reset conditions already agreed. ONE amber/black-tied pouch NerisRIGHT→ArenRIGHT; his LEFT glove steadies the empty bag rim. Bench supports bag; all brown harness straps lie with bag, none duplicated on body. Wallet closed at waist/key inside, sole RIGHT sheath, old LEFT tear/RIGHT intact. Sera remains a witness with her own closed brown ledger. This completes the seven-panel setup."
+    },
+    {
+      "panel": 8,
+      "field": "action",
+      "before": "Aren lowers the ONE tied amber pouch into the open gray bag. Neris’s empty hands are clear of the opening.",
+      "after": "Aren lowers the ONE tied amber pouch into the open gray bag with his RIGHT glove while his LEFT steadies the rim. Neris’s empty hands are clear of the opening."
+    },
+    {
+      "panel": 8,
+      "field": "current_state",
+      "before": "Same one practice load goes inside his one personal bag; no second bag or hidden heavier load. LEFT glove places pouch, RIGHT steadies rim. Pouch remains closed. Wallet/key at waist, weapon sheathed. Bag still supported OFF body on bench.",
+      "after": "Same one practice load goes inside his one personal bag; no second bag or hidden heavier load. RIGHT glove places pouch, LEFT steadies rim. Pouch remains closed. Wallet/key at waist, weapon sheathed. Bag still supported OFF body on bench."
+    }
+  ],
+  "validation": {
+    "panels": 42,
+    "copy_entries": 34,
+    "copy_unchanged": true,
+    "other_40_panel_objects_exact": true,
+    "all_top_level_fields_exact": true,
+    "json_md_all_action_camera_state_and_copy_text_match": true,
+    "md_only_four_literal_field_substitutions": true,
+    "official_source_bytes_unchanged": true,
+    "new_image_calls": 0,
+    "original_unit_calls_spent": 2,
+    "cap_reset": false
+  },
+  "files": {
+    "REVISION-REVIEW.md": "80763f4c20d38cd76bb8c179280f76dc8efacbeeec53dc3a98316521bf8d5781",
+    "before-v5-chapter-9-state-route.md": "e4b4e70b934ea58b2af04e64cfe9f1e651c42f6b1fb8b21fa13b5c6744bc9b4b",
+    "before-v5-chapter-9.json": "bb758dad0d73fc8b402aedf781ccbb70632f18cb57e7c7038f79f60472ebce31",
+    "before-v5-chapter-9.md": "e8a9a198cf2cfc821b5bf2f4326f29c03e0f2428b885f5d55589507c26c1cd9c",
+    "chapter-9-state-route-v5-proposed.md": "ae62329278994f2f9279638b8ee264002c6bd4527660b40e245106b0dacf7a92",
+    "chapter-9-v5-proposed.json": "b2972aa0faebd0b26a32add435ab9c6bf67b634adde2eea264de1c6bd755a32d",
+    "chapter-9-v5-proposed.md": "dfe1d9e3ad6d45ead65cfa2d75dee0e49c892e98e2c702a734c8565c2384d7b3",
+    "make_proposal.py": "08b3a9498722032a600226f48c87797d0250306a7405b200f600ae87fb100435"
+  }
+}

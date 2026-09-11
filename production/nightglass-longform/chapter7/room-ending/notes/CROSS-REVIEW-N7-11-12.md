@@ -1,0 +1,7 @@
+# Independent actual collection/departure review and new-chain audit
+
+PASS after actually viewing entire11–12 native and both entire full crops against approved11/12. Aren grips opposing short board edges with TWO gloved hands; Kiva steadies the near long edge with her bare hand, and the closed box base remains supported on the board over her bench. Board cutouts are visible but fingers do not literally pass through them. The observed end-edge grip supplies the required ordinary support.
+
+12 carries the same level board, one closed fitted box, two catches and one external cream slip with BOTH Aren hands on an ordinary public walkway. Daro carries only the folded pad under his RIGHT arm, LEFT hand empty; he has not received shipment custody yet. Kiva resumes her supported work behind. Whole feet show ordinary supported walking rather than every sole flat simultaneously. The opposite box handle and portions of waist gear are occluded; no hidden-detail proof is claimed. No material repair recommended.
+
+Bounded provenance PASS for08-09P/10P/10R1/11-12P only: four default-original/native/raw-two-field/exact-args/prompt/reference chains, five selected hashes and four exact unscaled crop pixel comparisons. Original10P remains preserved; sole10R1 points to that primary. Earlier five-chain audit was not repeated and concurrent13–14 was excluded. No root/shared records or art were edited; no image calls. Exact receipt: CROSS-AUDIT-ROOT-08-12.json.

@@ -1,0 +1,10 @@
+{
+  "schema": "PortableBundleCoverageFailure/1",
+  "at_utc": "2026-09-07T17:42:50.808636+00:00",
+  "preserved_attempt": "research/visual-refinement/asset-bundle/local/final-v2",
+  "viewer_verification": "Passed all356 members/fresh restore/both reader rebuilds; not sufficient for complete source delivery.",
+  "root_cause": "Extension whitelist omitted.mjs and skipped dotfile configuration basenames, so editable CDP/render/browser QA reproduction scripts and native ignore/line-ending policy were absent.",
+  "fix": "Include.mjs; include exact.gitignore/.gitattributes basenames; compare all Git-trackable files in three new namespaces against proposed archive members beforev3.",
+  "source_art_modified": false,
+  "replacement": "research/visual-refinement/asset-bundle/local/final-v3"
+}

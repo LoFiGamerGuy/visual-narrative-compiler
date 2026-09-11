@@ -1,0 +1,42 @@
+{
+  "schema": "EncounterLabProgressiveReaderQA/1",
+  "pass": true,
+  "dataset_sha256": "7ccf3b812b6f1efd39e68bd1c5edeb257227af37fb5c3069865263d9b214be62",
+  "available_panels": 11,
+  "retained_native_attempts": 15,
+  "browser_checks": 116,
+  "viewport_widths": [
+    390,
+    1024,
+    1440
+  ],
+  "receipts": [
+    {
+      "path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/receipt.json",
+      "sha256": "124e854595617291cc69a0adbfa397b97bc9a1675428713c3463e694220525eb"
+    },
+    {
+      "path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/sequences/receipt.json",
+      "sha256": "0950c439a67b6c5f88fac60c9d78a1a78e3c28e9a8250c0c17ab66120dc3e6f9"
+    },
+    {
+      "path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/history-v2/receipt.json",
+      "sha256": "4083c25147ae82945b576e887baa77ad37177ff5832c9ceff60237e034458ad9"
+    },
+    {
+      "path": "research/encounter-lab/reader/phone-captures/7ccf3b812b6f/capture-correction.json",
+      "sha256": "008ece1c356e44536bece3eb36dc5540193089fd090c01e23a8be26a7533f328"
+    }
+  ],
+  "actual_visual_checks": [
+    "All five four-slot sequence strips viewed at 390px; selected panels retain source framing and intended order, incomplete slots explicit.",
+    "Displayed IO02 and SB02 phone captures viewed; whole portrait panels fit before their captions.",
+    "Corrected BP01-R1 history capture viewed; whole native frame clears sticky modal header."
+  ],
+  "preserved_capture_failure": "history/ first pass cropped tops under sticky header; preserved with correction record. Use history-v2/.",
+  "preferences_unchanged": true,
+  "limits": [
+    "Only11/24 panels are present; no complete encounter or finished-art success is inferred.",
+    "Captures provide actual phone texture/action evidence for independent art review, without owner preference or canon selection."
+  ]
+}

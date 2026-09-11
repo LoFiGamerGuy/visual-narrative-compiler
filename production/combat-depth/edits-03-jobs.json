@@ -1,0 +1,23 @@
+[
+  {
+    "id": "D03",
+    "attempt_id": "D03-R1",
+    "phase": "structural",
+    "category": "duel",
+    "retry_of": "D03-P",
+    "retry_reason": "Independent and root native inspection finds saber arm reads anatomicalLEFT rather than requiredRIGHT, before persistent left-forearm injury. Cloth cut also reads after-contact.",
+    "evidence_path": "production/combat-depth/edit-specs-03.json",
+    "evidence_sha256": "7875fa0f8519a8cd514056f9211269e8c68be4f1f04dbfc449e7085cd018588f",
+    "prompt_path": "production/combat-depth/prompts/D03-R1.txt",
+    "prompt_sha256": "bcf5c78da614e81e0ba97ccd68d9916c24a551b5d9f7aec663039d22c42407a9",
+    "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+    "references": [
+      {
+        "path": "production/combat-depth/candidates/D03-P.png",
+        "sha256": "1e84df13c347c3b18b98ff504ca470ecbea580f6963cf46b90a753bb59e08c93",
+        "role": "Exact edit source; preserve all content except the specified structural change"
+      }
+    ],
+    "prompt": "Use case: precise-object-edit. Correct ONLY the specified composition or structural failure in this exact source image. Keep its drawing treatment and other content consistent; this is not a texture-finishing pass.\nCorrect only Riven\u2019s upper-body and weapon-arm choreography so the saber is unmistakably in HIS ANATOMICAL RIGHT HAND, with a continuous visible right shoulder\u2013upper arm\u2013elbow\u2013wrist\u2013gripping hand chain. Adjust his torso turn and the right elbow position as needed to show the RIGHT arm making the riposte; his LEFT arm is the free trailing balancing arm. Do not merely move a glove while leaving it attached to the wrong shoulder, and do not mirror the whole scene. Keep Riven on LEFT and Ilyra on RIGHT, same faces, expressions, identities, lower-body stances, costumes, background/camera/light and single connected weapons. Let the right-hand saber tip just meet the OUTER ivory mantle edge at Ilyra shoulder, cleanly clipping a SMALL distinct triangular notch with ONE separated triangular cloth scrap immediately beside it. Her arm is intact and withdrawing safely beyond the edge. Keep her anger/surprise and right-held lance; no blood or bodystab. Do not add extra arms, extra swords, larger costume damage or change the camera. This is structural contact/handedness correction only, not texture finishing.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  }
+]

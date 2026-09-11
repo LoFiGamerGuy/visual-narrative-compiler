@@ -1,0 +1,18 @@
+# Chapter7 lead actual review — complete reading passed
+
+All40 panels now have selected artwork, actual full native/crop review, individual390 reading and complete23-view continuous reading. Root, reader and independent assets reviewer pass the complete sequence. See LEAD-CHAPTER7-FULL-READING.md for the final integrated verdict; the seven-chapter portable package remains next. Earlier bounded review details below are preserved as production history.
+
+The current readable causal chain is: Kiva authorizes Daro and agrees the fee split before custody; Aren carries the closed box on a board down ordinary stairs; both support its transfer to Daro's padded cart; Aren returns the empty board while Daro makes the ordinary journey; actual Rusk takes the box, tests a hinge and returns one signed slip; Kiva uses the returned board for unfinished work; Aren chooses to wait; Daro returns on foot with the signed slip. Neither the cart nor the shipped box goes upstairs. The quiet room ending retains his paid home and proposes a specific future pickup visit, and the completed payment and workmate conversation now connect that ending to the local delivery.
+
+Two explicit storyboard revisions preserve honesty after image caps were spent.21 is a stationary public-route check under v5, not rolling proof; the rejected R1 floating-wheel attempt remains preserved.28 is pre-insertion pin-fit preparation under v6, not successful coaxial insertion; both P and soleR1 failed that original mechanical claim, and originalP serves the earlier preparation moment. All dialogue remains exact. The changes retain the ordinary trip and returned-board usefulness without claiming failed mechanics passed.
+
+Material visibility qualifications remain:20 farwheel is occluded and tiny rest-foot clearance is native-detail evidence;25 does not show the tested hinge's final placement or all five visibly reinserted;29 creamwallet is partially occluded;30 shows supported heel/toe stride and adjacent step levels rather than all soles flat on one paver. The lower empty cart is outside30 frame. Minor far straps, pocket tabs, warmer light and exact unseen inventory are not independent evidence or reasons for cosmetic retries. Gear repairs retained one wallet, one worn bag, red-cord badge, sole RIGHT sheath and old LEFT sleeve tear; all rejected sources remain preserved.
+
+Actual phone review records:
+
+- Initial01–17/38–40 reviews and source observations: preserved LEAD-CHAPTER7-READING-through-initial24.md; exact11–14 snapshot9809a306b9d369d367e13b090ab8960e73c7a890b01b246ec7f124d971d4fad5 had all4 individuals/all3 sequential10–14 views actually read, reader47fb6a3. Latest20 snapshotf5013f8c39992acfd0e50a32a6c79e9126fae2afa36c1e8584592e32aacafad5 actually read3 individuals/all2 sequential14–17 views.
+- 18/19/26/27 plus all3 bounded17–19/26–27 views: reader-checks/CHAPTER7-LEAD-HESITATION-RETURN-REVIEW.md, snapshotd8aa5957a9ae22a30662c2588a2ed85a025cdae5518d341ef4fa32b5b5096375.
+- 20–25 plus all4 bounded19–25 views: reader-checks/CHAPTER7-LEAD-JOURNEY-DELIVERY-REVIEW.md, snapshot4495c874ae3635a0149c2164f562c780b0fe39e294dd80e023d2ddb7797e4f78. Root reopened all6 final captures after commitfc2c8cd.
+- 28–30 plus all3 bounded26–30 views: reader-checks/CHAPTER7-LEAD-WAIT-RETURN-REVIEW.md, snapshotb12d394525f314a61f50493f015cd04a4b8d257564924c7a4cb4488503424e8e, reader16d10a5.
+
+These are AI production reviews, not owner acceptance. Prior six complete chapters, pilots and immutable packages remain preserved. Final last4/full40 actual reading passed; next is final completion-state verification and portable packaging.

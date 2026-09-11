@@ -1,0 +1,40 @@
+{
+  "id": "N3-33-P",
+  "status": "returned",
+  "phase": "primary",
+  "tool": "built-in image_gen",
+  "model": null,
+  "cost": null,
+  "panels": [
+    "N3-33"
+  ],
+  "args": {
+    "prompt": "Use case: illustration-story. ONE finished wide landscape anime comic panel, Nightglass33. No text, balloons, logos or extra panels. This is the FIRST real mail dispatch after the supervised two-stop goods lift test. Render ONE quiet completed instant AFTER loading, BEFORE departure.\nReference1 is exact UPPER loading-car construction: black iron/brass frame, wood sides, grated floor aligned with fixed stone loading ledge LEFT; narrow shielded cyan lamp/guide on fixed LEFT upright, ONE thick suspension cable RIGHT with neutral silver collar remaining at UPPER lamp height. Preserve this geometry and daylight. Reference2 is current adult Aren and the ONE gray canvas bag, not its office setting or open-bag pose. Reference3 provides Aren full-body RIGHT-sheathed sword, ordinary empty-handed posture and brown two-shoulder-pad harness; do not copy its tiny workshelf destination.\nComposition: car at RIGHT and broad ordinary fixed stone loading landing at LEFT in the same shot. ONE CLOSED gray rectangular canvas courier bag with two front buckles rests alone near the center of the car floor; its sealed cream envelope is fully inside and INVISIBLE. The car contains NO person, ballast or tools. Its side loading gate between bag and fixed landing is visibly CLOSED and latched. Aren stands entirely on the broad FIXED LEFT landing behind that gate, both boots visibly supported on stone. His two gloved hands are relaxed and EMPTY, shoulders wear the EMPTY brown two-padded-strap carrying harness and hip belt; absolutely no bag on his back or second bag. His gaze is on the bag he has entrusted to the car. Show the public stone stair descending along the wall behind/left of Aren, with ordinary protective railing and clear step treads: he will use this stair to meet his mail below. No gap jumping here.\nAren: slim adult, navy-black tousled hair, ivory waist jacket with ragged lower hem, existing anatomical LEFT elbow tear, anatomical RIGHT sleeve intact; black high-neck shirt/trousers/gloves, brown padded harness and hip belt, brass badge on red waist cord. ONE sword remains sheathed anatomical RIGHT hip, no drawn blade, no cyan pommel line. Prefer a three-quarter back view toward the car so EMPTY back harness is clear. Do not add a backpack-shaped harness. No other cast needed in this shot.\nEstablished luminous DAYLIGHT city, pale blue sky and distant stone bridges. Controlled anime ink and selective broad shading consistent with reference images, simple readable foreground surfaces. The small steady cyan beacon illuminates its framed guide BELOW; separate silver collar stays neutral, no new light or magic. Prioritize supported courier separate from mail-only car, one CLOSED bag, latched side gate, visible ordinary descending stair. Do not move the car or collar downward yet.",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter3/lead/references/upper-loading-car-from-N3-25.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter3/office-reply/crops/N3-32.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter3/lead/candidates/N3-20-v2-R1.png"
+    ]
+  },
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter3/lead/references/upper-loading-car-from-N3-25.png",
+      "sha256": "61aa8be38e006925132d39d84d2e5cc4ab8d69fd5f28a442bba14719c344b48d"
+    },
+    {
+      "path": "production/nightglass-longform/chapter3/office-reply/crops/N3-32.png",
+      "sha256": "bab15ab21249f13990f6a18f4ffe61455b5b439adb4154297fee32a52a207600"
+    },
+    {
+      "path": "production/nightglass-longform/chapter3/lead/candidates/N3-20-v2-R1.png",
+      "sha256": "af02d67f002f92991d8563fcdbc2fb9033cfb3d8d8d414a7f93d803a2bf66a49"
+    }
+  ],
+  "dependency_gate": "31P/32R1 selected after actual root native/ref view; tested upper car25R1 selected.",
+  "reason": "One completed loading instant from already approved33 action; separate supported human/mail travel.",
+  "submitted_at": "2026-09-10T02:11:12.683276+00:00",
+  "native": "production/nightglass-longform/chapter3/lead/candidates/N3-33-P.png",
+  "sha256": "47703f36910697da31036569773e1f6127946f6ed8df352aef50b4a1beffb12e",
+  "tool_native": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-9c538eba-2df1-4fc3-a16b-a2c183a77d43.png",
+  "inspection": "Actual primary supports courier on fixed landing, one closed bag alone in upper car, closed side gate, empty harness/RIGHT sheathed. Material continuity: tear mistakenly RIGHT visible elbow and both sleeves rolled; stairs only ascend. Sole R1 targets sleeve sidedness/full length and descending route."
+}

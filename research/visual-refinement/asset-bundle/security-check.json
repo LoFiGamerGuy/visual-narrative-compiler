@@ -1,0 +1,27 @@
+{
+  "checks": [
+    "clash preflight",
+    "exact missing restore",
+    "identical skip/idempotence",
+    "unsafe path ../escape",
+    "unsafe path production/visual-refinement/../escape",
+    "unsafe path other/a.png",
+    "unsafe path production/visual-refinement/AUX.txt",
+    "unsafe path production\\visual-refinement\\a",
+    "unsafe path /absolute",
+    "duplicate case collision",
+    "size limit",
+    "archive hash mismatch",
+    "target symlink",
+    "parent file",
+    "duplicate archive",
+    "symlink archive",
+    "unexpected member"
+  ],
+  "fixture_directory": "research/visual-refinement/asset-bundle/local/security-fixtures-0afm3vcg",
+  "production_archive_created": false,
+  "status": "pass",
+  "helper_sha256": "b43c1969be6cd085f95214f362dfc322148a8d67b0925717cdd38b4597c7243f",
+  "final_art_and_gallery_freeze": "pending lead declaration",
+  "scope": "Only small task-owned fixtures used; no production archive created."
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "PortableBundleIntegrationFailure/1",
+  "at_utc": "2026-09-07T17:37:48.043462+00:00",
+  "preserved_attempt": "research/visual-refinement/asset-bundle/local/final-v1",
+  "stage": "After archive hash/member verification and fresh restoration, before receipt publication",
+  "error": "CalledProcessError exit2: relative builder path was prefixed by the relative restoration directory again after subprocess cwd changed.",
+  "root_cause": "create accepted a relative --out, then rebuild_check passed target/research/... as a relative subprocess argument while using target as cwd.",
+  "fix": "Resolve root/out to absolute paths at create entry and resolve target before building the subprocess command.",
+  "focused_check": {
+    "rebuild": "pass",
+    "exact_data_files": [
+      "comparison-data.json",
+      "comparison-data.js",
+      "sequence-data.json",
+      "sequence-data.js"
+    ],
+    "builder_output": "{\"mode\": \"comparison\", \"available\": 20, \"total\": 20, \"dataset_sha256\": \"b49eb70d68d7790aae6b3c0412df1df8359c45d665390f4663eb6b47b294783f\"}\n{\"mode\": \"sequence\", \"available\": 18, \"total\": 18, \"dataset_sha256\": \"a5c96d8028d0b92d7f87682965f5533d0ed468ee7e197de60bfdc7d85ea6650e\"}"
+  },
+  "focused_check_source": "Existing preserved final-v1 restoration; no new archive needed for this focused test.",
+  "helper_sha256": "db50a2fefe15174a52bcb76f5e90baf88e13e5fbef106dfae641f2eaf2e42af1",
+  "next_archive": "research/visual-refinement/asset-bundle/local/final-v2/visual-refinement-portable.zip",
+  "source_art_modified": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "D01",
+  "attempt_id": "D01-P",
+  "phase": "primary",
+  "category": "duel",
+  "prompt_path": "production/combat-depth/prompts/D01-P.txt",
+  "prompt_sha256": "048cffe289f42999fec952c3d8167e195d9e05ab59361272dd5dc885b867b36b",
+  "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+  "references": [
+    {
+      "path": "production/combat-depth/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "role": "Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/ilyra.png",
+      "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+      "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/nightglass.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original full Nightglass; drawing and world benchmark, not cast selection Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "research/combat-depth/controls/v1/map-duel.png",
+      "sha256": "2ce6c20cea0843abfe291cbe77a7f788e18e5cd1f3ddf2d360775a3ef5f028d9",
+      "role": "Original code-native top-down geometry/actor-location control only. North top, west left, east right; triangular bottom symbol is camera. Do not draw diagram symbols, text, vectors or this schematic treatment in final art. Use actual identity refs for faces/costumes/weapons. This is a spatial/control guide only: do not copy diagram rendering, colors, labels or arrows into the artwork. Translate a top-down plan into the camera requested by the scene brief; do not adopt a map camera unless this scene explicitly calls for it.",
+      "control_source_path": "research/combat-depth/controls/v1/map-duel.svg",
+      "control_source_sha256": "74342de9f2c180120e945723b40fad5415f6fe73c020ff69e59bd3e90e17369c"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 23:27:28 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/riven.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/ilyra.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/nightglass.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/research/combat-depth/controls/v1/map-duel.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 23:29:34 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-2a605a0a-86d6-49b1-b7d0-522bb7270681.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

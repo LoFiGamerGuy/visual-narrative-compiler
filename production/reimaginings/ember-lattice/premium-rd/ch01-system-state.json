@@ -1,0 +1,476 @@
+{
+  "schema": "SystemStateLedger/2.0-premium",
+  "story_slug": "ember-lattice",
+  "chapter": "ch01",
+  "edition": "premium-rd",
+  "timeline": "00:00–00:18",
+  "panel_plan": "production/reimaginings/ember-lattice/premium-rd/ch01-comic-panel-plan.json",
+  "plan_panel_count": 52,
+  "continuity_policy": "Panel timing and prose are expanded; every approved CH01 transaction amount, prerequisite, provenance, opening value, and closing value is unchanged.",
+  "initial": {
+    "entity_id": "char-elian",
+    "level": 3,
+    "xp": 60,
+    "next_threshold": 100,
+    "unspent_points": 0,
+    "stats": {
+      "force": 6,
+      "step": 8,
+      "sense": 9,
+      "guard": 5
+    },
+    "hp": {
+      "current": 44,
+      "max": 52
+    },
+    "qi": {
+      "current": 31,
+      "max": 40
+    },
+    "class": "Salvager",
+    "class_history": [
+      "Salvager"
+    ],
+    "cultivation": "Breath Seed I",
+    "cultivation_history": [
+      "Breath Seed I"
+    ],
+    "skills": {
+      "fault-sight": {
+        "name": "Fault Sight",
+        "rank": 1,
+        "cost": 12,
+        "resource": "Qi",
+        "cooldown_seconds": 20,
+        "duration_seconds": 6,
+        "condition": "one verified stress line",
+        "source": "damaged survey lens training"
+      }
+    },
+    "statuses": [],
+    "injuries": [],
+    "equipment": {
+      "main_hand": "Hooked Shortblade",
+      "body": "Frayed Salvager Coat",
+      "utility": null
+    },
+    "inventory_capacity": {
+      "slots": 6,
+      "weight": 10
+    },
+    "inventory": {
+      "spark-talisman": {
+        "name": "Spark Talisman",
+        "quantity": 1,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "starting salvage"
+      },
+      "iron-seal": {
+        "name": "Iron Seal",
+        "quantity": 2,
+        "rarity": "Common",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "starting salvage"
+      }
+    },
+    "currency": {
+      "brass_marks": 12
+    },
+    "quests": {
+      "bridge-that-bites": "ACTIVE"
+    },
+    "dungeon": {
+      "zone": "Ember Vault",
+      "cleared": []
+    },
+    "boss_credit": [],
+    "factions": {
+      "Free Delvers": 0,
+      "Ash Crown": 0
+    },
+    "party_trust": 3,
+    "party": {
+      "char-mira": {
+        "level": 5,
+        "class": "Bastion Lancer",
+        "skills": {
+          "rampart-thrust": 2
+        },
+        "equipment": {
+          "shield": "Ivory Split Shield",
+          "main_hand": "Dark-Teal Spear"
+        },
+        "injuries": []
+      },
+      "char-orin": null,
+      "char-sable": null
+    },
+    "irreversible": []
+  },
+  "transactions": [
+    {
+      "transaction_id": "tx-001-fault-sight",
+      "panel_id": "el-pr-ch01-s02-p021",
+      "type": "resource",
+      "resource": "qi",
+      "amount": -12,
+      "before": 31,
+      "after": 19,
+      "provenance": "Fault Sight I activation"
+    },
+    {
+      "transaction_id": "tx-002-hp-impact",
+      "panel_id": "el-pr-ch01-s02-p028",
+      "type": "resource",
+      "resource": "hp",
+      "amount": -22,
+      "before": 44,
+      "after": 22,
+      "provenance": "Belljaw forelimb impact"
+    },
+    {
+      "transaction_id": "tx-003-cracked-rib",
+      "panel_id": "el-pr-ch01-s02-p028",
+      "type": "status_add",
+      "status": "Cracked Rib",
+      "bucket": "injuries",
+      "provenance": "Belljaw impact"
+    },
+    {
+      "transaction_id": "tx-004-consume-spark",
+      "panel_id": "el-pr-ch01-s03-p034",
+      "type": "item_consume",
+      "item_id": "spark-talisman",
+      "name": "Spark Talisman",
+      "amount": -1,
+      "before": 1,
+      "after": 0,
+      "provenance": "voluntary catalyst sacrifice"
+    },
+    {
+      "transaction_id": "tx-005-spark-qi",
+      "panel_id": "el-pr-ch01-s03-p034",
+      "type": "resource",
+      "resource": "qi",
+      "amount": 14,
+      "before": 19,
+      "after": 33,
+      "provenance": "Spark Talisman"
+    },
+    {
+      "transaction_id": "tx-006-breath-pattern",
+      "panel_id": "el-pr-ch01-s03-p036",
+      "type": "resource",
+      "resource": "qi",
+      "amount": -30,
+      "before": 33,
+      "after": 3,
+      "provenance": "Breath Seed II pattern"
+    },
+    {
+      "transaction_id": "tx-007-qi-capacity",
+      "panel_id": "el-pr-ch01-s03-p037",
+      "type": "resource_max",
+      "resource": "qi",
+      "max_before": 40,
+      "max_after": 48,
+      "current_before": 3,
+      "current_after": 11,
+      "restore": 8,
+      "provenance": "danger insight plus Spark Talisman"
+    },
+    {
+      "transaction_id": "tx-008-seed-two",
+      "panel_id": "el-pr-ch01-s03-p037",
+      "type": "cultivation_advance",
+      "before": "Breath Seed I",
+      "after": "Breath Seed II",
+      "provenance": "danger insight plus Spark Talisman"
+    },
+    {
+      "transaction_id": "tx-009-fault-step-unlock",
+      "panel_id": "el-pr-ch01-s03-p037",
+      "type": "skill_change",
+      "skill_id": "fault-step",
+      "before": null,
+      "after": {
+        "name": "Fault Step",
+        "rank": 1,
+        "cost": 8,
+        "resource": "Qi",
+        "cooldown_seconds": 8,
+        "condition": "one acceleration burst along verified fault",
+        "source": "Breath Seed II compatibility"
+      },
+      "provenance": "Breath Seed II compatibility"
+    },
+    {
+      "transaction_id": "tx-010-overburn-one",
+      "panel_id": "el-pr-ch01-s03-p038",
+      "type": "resource",
+      "resource": "hp",
+      "amount": -1,
+      "before": 22,
+      "after": 21,
+      "provenance": "Overburn tick 1/2"
+    },
+    {
+      "transaction_id": "tx-011-fault-step-cost",
+      "panel_id": "el-pr-ch01-s04-p042",
+      "type": "resource",
+      "resource": "qi",
+      "amount": -8,
+      "before": 11,
+      "after": 3,
+      "provenance": "Fault Step I"
+    },
+    {
+      "transaction_id": "tx-012-overburn-two",
+      "panel_id": "el-pr-ch01-s04-p045",
+      "type": "resource",
+      "resource": "hp",
+      "amount": -1,
+      "before": 21,
+      "after": 20,
+      "provenance": "Overburn tick 2/2"
+    },
+    {
+      "transaction_id": "tx-013-xp-level",
+      "panel_id": "el-pr-ch01-s05-p048",
+      "type": "xp_gain",
+      "amount": 85,
+      "level_before": 3,
+      "xp_before": 60,
+      "level_after": 4,
+      "xp_after": 45,
+      "next_threshold": 140,
+      "level_events": [
+        {
+          "from": 3,
+          "to": 4,
+          "threshold": 100,
+          "hp_max_gain": 4,
+          "qi_max_gain": 0,
+          "point_gain": 1
+        }
+      ],
+      "provenance": "Belljaw Warden kill share"
+    },
+    {
+      "transaction_id": "tx-014-cinder-key",
+      "panel_id": "el-pr-ch01-s05-p048",
+      "type": "item_gain",
+      "item_id": "cinder-key",
+      "name": "Cinder-Key",
+      "rarity": "Rare",
+      "weight": 1,
+      "amount": 1,
+      "before": 0,
+      "after": 1,
+      "condition": "intact",
+      "provenance": "Belljaw Warden boss drop"
+    },
+    {
+      "transaction_id": "tx-015-bridge-quest",
+      "panel_id": "el-pr-ch01-s05-p048",
+      "type": "quest_state",
+      "quest_id": "bridge-that-bites",
+      "before": "ACTIVE",
+      "after": "COMPLETED",
+      "provenance": "boss defeated and anchor preserved"
+    },
+    {
+      "transaction_id": "tx-016-bridge-irreversible",
+      "panel_id": "el-pr-ch01-s05-p048",
+      "type": "irreversible",
+      "flag": "Belljaw Warden defeated; one bridge anchor intact",
+      "provenance": "verified clear"
+    },
+    {
+      "transaction_id": "tx-017-class-quest-offer",
+      "panel_id": "el-pr-ch01-s05-p051",
+      "type": "quest_state",
+      "quest_id": "choose-the-crack",
+      "before": null,
+      "after": "OFFERED",
+      "provenance": "Cinder-Key class terminal"
+    }
+  ],
+  "final": {
+    "entity_id": "char-elian",
+    "level": 4,
+    "xp": 45,
+    "next_threshold": 140,
+    "unspent_points": 1,
+    "stats": {
+      "force": 6,
+      "step": 8,
+      "sense": 9,
+      "guard": 5
+    },
+    "hp": {
+      "current": 20,
+      "max": 56
+    },
+    "qi": {
+      "current": 3,
+      "max": 48
+    },
+    "class": "Salvager",
+    "class_history": [
+      "Salvager"
+    ],
+    "cultivation": "Breath Seed II",
+    "cultivation_history": [
+      "Breath Seed I",
+      "Breath Seed II"
+    ],
+    "skills": {
+      "fault-sight": {
+        "name": "Fault Sight",
+        "rank": 1,
+        "cost": 12,
+        "resource": "Qi",
+        "cooldown_seconds": 20,
+        "duration_seconds": 6,
+        "condition": "one verified stress line",
+        "source": "damaged survey lens training"
+      },
+      "fault-step": {
+        "name": "Fault Step",
+        "rank": 1,
+        "cost": 8,
+        "resource": "Qi",
+        "cooldown_seconds": 8,
+        "condition": "one acceleration burst along verified fault",
+        "source": "Breath Seed II compatibility"
+      }
+    },
+    "statuses": [],
+    "injuries": [
+      "Cracked Rib"
+    ],
+    "equipment": {
+      "main_hand": "Hooked Shortblade",
+      "body": "Frayed Salvager Coat",
+      "utility": null
+    },
+    "inventory_capacity": {
+      "slots": 6,
+      "weight": 10
+    },
+    "inventory": {
+      "spark-talisman": {
+        "name": "Spark Talisman",
+        "quantity": 0,
+        "rarity": "Tempered",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "starting salvage"
+      },
+      "iron-seal": {
+        "name": "Iron Seal",
+        "quantity": 2,
+        "rarity": "Common",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "starting salvage"
+      },
+      "cinder-key": {
+        "name": "Cinder-Key",
+        "quantity": 1,
+        "rarity": "Rare",
+        "weight": 1,
+        "condition": "intact",
+        "provenance": "Belljaw Warden boss drop"
+      }
+    },
+    "currency": {
+      "brass_marks": 12
+    },
+    "quests": {
+      "bridge-that-bites": "COMPLETED",
+      "choose-the-crack": "OFFERED"
+    },
+    "dungeon": {
+      "zone": "Ember Vault",
+      "cleared": [
+        "Ember Vault bridge"
+      ]
+    },
+    "boss_credit": [
+      "Belljaw Warden"
+    ],
+    "factions": {
+      "Free Delvers": 0,
+      "Ash Crown": 0
+    },
+    "party_trust": 3,
+    "party": {
+      "char-mira": {
+        "level": 5,
+        "class": "Bastion Lancer",
+        "skills": {
+          "rampart-thrust": 2
+        },
+        "equipment": {
+          "shield": "Ivory Split Shield",
+          "main_hand": "Dark-Teal Spear"
+        },
+        "injuries": []
+      },
+      "char-orin": null,
+      "char-sable": null
+    },
+    "irreversible": [
+      "Belljaw Warden defeated; one bridge anchor intact"
+    ]
+  },
+  "validation_equations": {
+    "qi_current": "31 - 12 + 14 - 30 + 8 - 8 = 3",
+    "qi_max": "40 + 8 = 48",
+    "hp_current": "44 - 22 - 1 - 1 = 20",
+    "hp_max": "52 + 4 = 56",
+    "xp_carry": "60 + 85 - 100 = 45 at Level 4; next threshold 140",
+    "unspent_points": "0 + 1 = 1",
+    "spark_talisman": "1 - 1 = 0",
+    "iron_seal": "2 + 0 = 2",
+    "cinder_key": "0 + 1 = 1",
+    "class": "Salvager remains unchanged; selection occurs in CH02",
+    "party_and_factions": "party trust 3, Free Delvers 0, Ash Crown 0: no CH01 deltas"
+  },
+  "downstream_handoff": {
+    "must_equal_existing_ch02_initial": true,
+    "next_chapter_required_values": {
+      "level": 4,
+      "xp": 45,
+      "next_threshold": 140,
+      "hp": {
+        "current": 20,
+        "max": 56
+      },
+      "qi": {
+        "current": 3,
+        "max": 48
+      },
+      "class": "Salvager",
+      "cultivation": "Breath Seed II",
+      "unspent_points": 1,
+      "injuries": [
+        "Cracked Rib"
+      ],
+      "inventory_quantities": {
+        "spark-talisman": 0,
+        "iron-seal": 2,
+        "cinder-key": 1
+      },
+      "quests": {
+        "bridge-that-bites": "COMPLETED",
+        "choose-the-crack": "OFFERED"
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "V01",
+    "attempt_id": "V01-F1",
+    "phase": "texture",
+    "budget_amendment_path": "production/scale-conflict/budget-amendment-01.json",
+    "budget_amendment_sha256": "cc8abb28fbaa9596ce3cc1f74d2f4dcf989375f6616887534c0320b4bf966902",
+    "category": "vista",
+    "retry_of": "V01-R1",
+    "retry_reason": "Gate masonry, clouds and causeway retain dense fine grain after framing repair.",
+    "evidence_path": "production/scale-conflict/edit-specs-05.json",
+    "evidence_sha256": "6f9404face537f2b775e39660051c8878c5ac05387dcd5cc5977acce978d6c64",
+    "prompt_path": "production/scale-conflict/prompts/V01-F1.txt",
+    "prompt_sha256": "d94d20db1dde0d7fbf44c22580d749561b861993a034859fad6af97cc2c394d4",
+    "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+    "references": [
+      {
+        "path": "production/scale-conflict/candidates/V01-R1.png",
+        "sha256": "24f4925ad5b76086883ab7cd4cd866439fd94bea1b18a61fd1c40e4c190f55f6",
+        "role": "Sole exact edit source; preserve all content except the specified texture change"
+      }
+    ],
+    "prompt": "Use case: style-transfer. Redraw ONLY THE SURFACE FINISH of the supplied exact image. Preserve its composition, camera distance, subjects, faces, hairlines, expression, costume, anatomy, weapon construction and handling, scale, spatial relationships, action and lighting mood. Substantially reduce distracting repetitive microtexture. Replace it with broad deliberate opaque light/shadow shapes, calm material interiors and selective crisp accents at faces, functional contacts and meaningful boundaries. Retain material differences, depth, inhabited scale and sophisticated drawing. This is a drawn surface redraw, not blur, denoise, low resolution, airbrush, plastic 3D, flat vectors or removal of the world. No new details to compensate.\nKeep the two travelers exactly this tiny size. Group the cloud forms and city masonry into broad painted planes; simplify tiny stone speckle, pavement grain and equal window detail. Retain the immense circular gate, depth, banners and cyan seam.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  },
+  {
+    "id": "V03",
+    "attempt_id": "V03-F1",
+    "phase": "texture",
+    "budget_amendment_path": "production/scale-conflict/budget-amendment-01.json",
+    "budget_amendment_sha256": "cc8abb28fbaa9596ce3cc1f74d2f4dcf989375f6616887534c0320b4bf966902",
+    "category": "vista",
+    "retry_of": "V03-R1",
+    "retry_reason": "Aqueduct water ripples and facade grain compete with tiny Riven and overhead river.",
+    "evidence_path": "production/scale-conflict/edit-specs-05.json",
+    "evidence_sha256": "6f9404face537f2b775e39660051c8878c5ac05387dcd5cc5977acce978d6c64",
+    "prompt_path": "production/scale-conflict/prompts/V03-F1.txt",
+    "prompt_sha256": "062b1071eb80ee99e9e98d7549a94f526367c29ecf19c8de6762ba1874c9cb88",
+    "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+    "references": [
+      {
+        "path": "production/scale-conflict/candidates/V03-R1.png",
+        "sha256": "0552e80b4b79ac25c5e0b9c2b3c90f39e8e2eeed3f0538be682dd539a9088ad0",
+        "role": "Sole exact edit source; preserve all content except the specified texture change"
+      }
+    ],
+    "prompt": "Use case: style-transfer. Redraw ONLY THE SURFACE FINISH of the supplied exact image. Preserve its composition, camera distance, subjects, faces, hairlines, expression, costume, anatomy, weapon construction and handling, scale, spatial relationships, action and lighting mood. Substantially reduce distracting repetitive microtexture. Replace it with broad deliberate opaque light/shadow shapes, calm material interiors and selective crisp accents at faces, functional contacts and meaningful boundaries. Retain material differences, depth, inhabited scale and sophisticated drawing. This is a drawn surface redraw, not blur, denoise, low resolution, airbrush, plastic 3D, flat vectors or removal of the world. No new details to compensate.\nKeep Riven exactly this small on the same terrace; do not enlarge him. Simplify the river into broad translucent blue bands, retain fish silhouettes and river depth. Group distant architectural faces, leave selective readable windows, remove all-over ripple web and masonry grain.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  },
+  {
+    "id": "Q01",
+    "attempt_id": "Q01-F1",
+    "phase": "texture",
+    "budget_amendment_path": "production/scale-conflict/budget-amendment-01.json",
+    "budget_amendment_sha256": "cc8abb28fbaa9596ce3cc1f74d2f4dcf989375f6616887534c0320b4bf966902",
+    "category": "sequence",
+    "retry_of": "Q01-P",
+    "retry_reason": "Dense water reflection flecks and masonry grain persist even with clean Bellmaw reference.",
+    "evidence_path": "production/scale-conflict/edit-specs-05.json",
+    "evidence_sha256": "6f9404face537f2b775e39660051c8878c5ac05387dcd5cc5977acce978d6c64",
+    "prompt_path": "production/scale-conflict/prompts/Q01-F1.txt",
+    "prompt_sha256": "4a6c0ef98b9702414ce1f4aae69794196bbd1d32fb98b0be1f90777ecc19c466",
+    "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+    "references": [
+      {
+        "path": "production/scale-conflict/candidates/Q01-P.png",
+        "sha256": "fa2a859c257f289577bdb06920f450d05f2933c652fd124a84ca62b3fed8e40e",
+        "role": "Sole exact edit source; preserve all content except the specified texture change"
+      }
+    ],
+    "prompt": "Use case: style-transfer. Redraw ONLY THE SURFACE FINISH of the supplied exact image. Preserve its composition, camera distance, subjects, faces, hairlines, expression, costume, anatomy, weapon construction and handling, scale, spatial relationships, action and lighting mood. Substantially reduce distracting repetitive microtexture. Replace it with broad deliberate opaque light/shadow shapes, calm material interiors and selective crisp accents at faces, functional contacts and meaningful boundaries. Retain material differences, depth, inhabited scale and sophisticated drawing. This is a drawn surface redraw, not blur, denoise, low resolution, airbrush, plastic 3D, flat vectors or removal of the world. No new details to compensate.\nPreserve the two tiny travelers, four-legged giant, open throat, ankle band connection, every bridge support and exact scene geography. Replace hundreds of water flecks with broad calm reflection bands; simplify masonry and creature surface into quiet drawn planes. Keep a clear band and limb silhouette for the later story sequence.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  },
+  {
+    "id": "A02",
+    "attempt_id": "A02-F1",
+    "phase": "texture",
+    "budget_amendment_path": "production/scale-conflict/budget-amendment-01.json",
+    "budget_amendment_sha256": "cc8abb28fbaa9596ce3cc1f74d2f4dcf989375f6616887534c0320b4bf966902",
+    "category": "ability",
+    "retry_of": "A02-P",
+    "retry_reason": "Dense reptile scale network and stone grain dominate the giant-limb action.",
+    "evidence_path": "production/scale-conflict/edit-specs-05.json",
+    "evidence_sha256": "6f9404face537f2b775e39660051c8878c5ac05387dcd5cc5977acce978d6c64",
+    "prompt_path": "production/scale-conflict/prompts/A02-F1.txt",
+    "prompt_sha256": "339ea2226307928e8d9ec2899ab87678ae33b008af67aa571deec1fe311b6a02",
+    "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+    "references": [
+      {
+        "path": "production/scale-conflict/candidates/A02-P.png",
+        "sha256": "264551a791c0f758b55115aaa324ddd52c161e0ea006492d9e2d75b7bdcf65f9",
+        "role": "Sole exact edit source; preserve all content except the specified texture change"
+      }
+    ],
+    "prompt": "Use case: style-transfer. Redraw ONLY THE SURFACE FINISH of the supplied exact image. Preserve its composition, camera distance, subjects, faces, hairlines, expression, costume, anatomy, weapon construction and handling, scale, spatial relationships, action and lighting mood. Substantially reduce distracting repetitive microtexture. Replace it with broad deliberate opaque light/shadow shapes, calm material interiors and selective crisp accents at faces, functional contacts and meaningful boundaries. Retain material differences, depth, inhabited scale and sophisticated drawing. This is a drawn surface redraw, not blur, denoise, low resolution, airbrush, plastic 3D, flat vectors or removal of the world. No new details to compensate.\nPreserve Riven face, saber and grip, leading boot, giant sweeping limb, clear claws and single cyan seam. Turn dense repetitive creature scales into broad modeled organic planes with selective folds at joints. Remove tiny stone pores and chips; keep meaningful masonry joints, lighting and depth.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  }
+]

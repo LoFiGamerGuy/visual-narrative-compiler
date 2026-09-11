@@ -1,0 +1,7 @@
+# Independent actual07 geography and bounded preservation check
+
+PASS after actually viewing entire07 native against approved07. A single empty low rectangular cart has two wheels, two forward handles and visible ordinary parking support on the lower landing. Broad straight stone stairs connect blue-awning upper market to that landing. Clear paving continues around the wall end into the curved ramp at image RIGHT. No invented gap, lift or cart on stairs appears.
+
+The stair is a straight flight with a generous outside lower corner, not a midflight dogleg. Later movement must use this actual geometry. The stone ledge is the top of a raised boundary wall, noticeably above the cart bed: do not claim a flush equal-height slide. Ordinary supported handling and subsequent lifting/setdown must respect those real heights. A small coiled strap/fitting is visible on the cart, but its securing geometry is not fully established by this wide view. Rear-yard continuation beyond the visible curve remains later new geography, not already inspected.
+
+Separate read-only provenance audit PASS for exactly five root primaries01/03/04-05/06/07: default original/native SHA identity, exact two-field raw return bytes, canonical arguments/prompt/hash, all reference hashes, returned status/local timestamps and null unknown fields. No root records were edited. This is not a new visual review of01/06 or an audit of concurrent later calls. Root received07 geometry verdict promptly; exact audit receipt is CROSS-AUDIT-ROOT-FIRST-FIVE.json.

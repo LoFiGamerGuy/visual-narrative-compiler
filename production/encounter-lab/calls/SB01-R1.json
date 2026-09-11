@@ -1,0 +1,36 @@
+{
+  "id": "SB01",
+  "attempt_id": "SB01-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "source_attempt_id": "SB01-P",
+  "reason": "Actual native SB01 incorrectly shows burning torn red cape in setup, before low-feint damage in SB02.",
+  "evidence_path": "research/encounter-lab/repair-first-evidence.json",
+  "prompt_path": "production/encounter-lab/prompts/SB01-R1.txt",
+  "prompt_sha256": "bb50a3ac3dd6fbe64cac1d31d756f8eb6bc7abdbc2f32bbbe06da237c9a5843b",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/SB01-P.png",
+      "sha256": "ae6f55755b756e5a6159e2fc439be39e6e57c91400232429369ed7b5046a2089",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 04:54:14 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/SB01-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 04:55:37 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-ee6f4323-adaa-4f29-8b63-981557136044.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

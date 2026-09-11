@@ -1,0 +1,185 @@
+{
+  "schema": "StrategyDecisionMatrix/1",
+  "primary": "B",
+  "fallback": "C, conditional on A/B capability failure and real skilled capacity; if A wins fair pilot, keep A instead",
+  "ranking_limits": "Ordinal decision judgments, not probabilities or measured market outcomes. C visual ceiling assumes capable humans; D unknown is not proof intrinsically worse. No invented chance percentages.",
+  "strategies": [
+    {
+      "id": "A",
+      "name": "Refine latest hybrid",
+      "retain": "Ember canon, current full-frame renderer, most compatible plates, SVG/state/hashes",
+      "replace": "Wrong-beat plates, defective lettering, acceptance logic; selective grading/pacing",
+      "discard": "Preset superiority claims and unsupported source bindings",
+      "quality_ceiling": "Useful visible gains plausible; sustained premium sequence ceiling unproven",
+      "owner_fit": "Moderate, supported by pilot enthusiasm but weakened by repeated dissatisfaction",
+      "evidence": [
+        "Owner CandidateB approval",
+        "P012/P017/P037 direct repairable mismatches",
+        "Matched typography improvement"
+      ],
+      "unknowns": [
+        "How many existing plates need replacement",
+        "Whether targeted repair fixes acting cheaply"
+      ],
+      "pilot": "Best current renderer on same frozen14-beat sequence; no reuse unless exact beat is met",
+      "roles": "Editor/action reviewer, art selector/repairer, letterer, production engineer",
+      "tooling": "Keep current generator; add actual annotation and rendered-glyph review",
+      "iteration": "One selection/repair cycle after storyboard review",
+      "human_hours_estimate": [
+        24,
+        52
+      ],
+      "spend": "$0 incremental during this audit; future external labor/cloud unpriced and unauthorized",
+      "risks": "Retained fused plates limit edits; temptation to repeat late-stage cosmetic fixes",
+      "rights": "Existing source/model/reference clearance remains unresolved",
+      "reversibility": "High: replace selected revisions without changing canon",
+      "leading_indicators": "Zero wrong-beat bindings; readable exchange; actual owner preference",
+      "kill": "One allowed repair cannot resolve essential action/state/lettering failures, or sequence remains unpreferred",
+      "scale": "All shared pilot gates pass and actual correction hours fit ceiling",
+      "opportunity_cost": "Could consume another cycle preserving unsuitable imagery"
+    },
+    {
+      "id": "B",
+      "name": "Modular replacement with storyboard-led source selection",
+      "retain": "Provisional Ember world/cast/progression, valid IDs/hashes/state/nullable records, editable SVG and readers",
+      "replace": "Late mapping of finished plates with approved thumbnails and source-to-beat contracts; comparison route adds separable character/background/line/effect finishing",
+      "discard": "Requirement to reuse current imagery; synthetic quality/protection/scenario evidence",
+      "quality_ceiling": "Highest useful next uncertainty reduction; premium capability plausible but unproven",
+      "owner_fit": "Best current decision fit: respects approved premise while addressing demonstrated stage failures",
+      "evidence": [
+        "Exact incompatible source prompts for5 cases",
+        "Current architecture permits new raster/layer sources",
+        "Professional revision-before-finish evidence"
+      ],
+      "unknowns": [
+        "Renderer fidelity under correct layouts",
+        "Benefit/cost of separable clean shapes and manual corrections",
+        "Human skill availability"
+      ],
+      "pilot": "Two routes on frozen14 beats: best-current directed baseline versus materially different controlled-layer route; optional human-first third only if staffed",
+      "roles": "Story/action editor, storyboard/character artist, finishing artist or skilled equivalent, letterer, two independent human readers",
+      "tooling": "Editable thumbnails/model sheets; layout-conditioned asset/layer intake; semantic acceptance before rendering/lettering",
+      "iteration": "Freeze \u2192 rough correction \u2192 one candidate \u2192 at most one hard-failure retry \u2192 bounded finishing \u2192 blind sequence review",
+      "human_hours_estimate": [
+        34,
+        74
+      ],
+      "spend": "$0 audit; if skilled human time is unavailable, stop at plan/rough proof; no purchase implied",
+      "risks": "Can become an expensive hidden C rebuild; cleaner finish alone may not appeal",
+      "rights": "Keep only assets with documented permitted use; no current route declared commercially cleared",
+      "reversibility": "High: current sources and story remain intact, routes share manifests",
+      "leading_indicators": "Correct event art, increased attention hierarchy, easier specific edits, preferred complete reader",
+      "kill": "No decisive preference or unacceptable correction burden after frozen attempts; no extra beauty loop",
+      "scale": "Shared semantic/phone gates, independent+owner win, timed follow-on proof",
+      "opportunity_cost": "Setup time exceeds A, but tests selection and editability instead of polishing wrong plates"
+    },
+    {
+      "id": "C",
+      "name": "Human-directed hybrid rebuild",
+      "retain": "Useful canon and narrow engineering core only as assets merit",
+      "replace": "Creative production spine with conventional thumbnails/model sheets/layout/line/color/finishing and accountable human approval",
+      "discard": "Automation as default owner of artistic acceptance; fused full-frame generation where it obstructs edits",
+      "quality_ceiling": "Potentially highest with capable artists and editorial direction; not demonstrated here",
+      "owner_fit": "Promising long-term fit if staffed; uncertain practical availability",
+      "evidence": [
+        "Industry workflow sources",
+        "Current correction/acting/mapping failures",
+        "No direct fair route test"
+      ],
+      "unknowns": [
+        "Actual artist performance/hours/cost",
+        "Whether AI adds any verified advantage",
+        "Sustainable staffing"
+      ],
+      "pilot": "Same14 beats with human-first layouts and corrections; generation only for isolated advantageous tasks",
+      "roles": "Experienced sequential artist/action director, color/finish, letterer/editor, reviewers",
+      "tooling": "Conventional layered art tools; simple3D if useful; generation optional",
+      "iteration": "Rough approval then line/acting revision before rendering; one scoped finishing round",
+      "human_hours_estimate": [
+        46,
+        102
+      ],
+      "spend": "Unpriced; $0 means existing authorized human capacity only, no hiring/payment authorized",
+      "risks": "Skill/time dependency; labor cost and availability; no guarantee new management creates great art",
+      "rights": "Human creation clarifies process but still requires font/asset/source licenses",
+      "reversibility": "Medium: preserve masters and source records, avoid training/buildout until proof",
+      "leading_indicators": "Specific editorial correction succeeds without collateral redraw; two-reader comprehension and owner appeal",
+      "kill": "No skilled capacity or costs exceed agreed future budget; pilot does not beat cheaper route",
+      "scale": "Same quality gates plus measured capacity and buffer on two later episodes",
+      "opportunity_cost": "Highest setup/labor burden among retained-story approaches"
+    },
+    {
+      "id": "D",
+      "name": "Greenfield story and visual restart",
+      "retain": "Only proven engineering lessons and safety/provenance practices",
+      "replace": "Premise/cast/art direction/production topology via new original pilot",
+      "discard": "Obligation to preserve Ember canon or source art",
+      "quality_ceiling": "Unbounded in principle, no evidence of a better realized ceiling",
+      "owner_fit": "Unknown; current dissatisfaction does not establish rejection of premise",
+      "evidence": [
+        "Current prompt permits restart",
+        "Earlier repeated new stories did not remove production problems",
+        "Explicit positive Ember direction approval"
+      ],
+      "unknowns": [
+        "New premise preference",
+        "New creative team/visual identity",
+        "Same technical failure recurrence"
+      ],
+      "pilot": "Only after route-controlled evidence isolates story rejection: compare two short original premise hooks using same proven craft route",
+      "roles": "Development editor, writer, concept/sequence artist, all C production responsibilities",
+      "tooling": "No speculative new stack before approved roughs",
+      "iteration": "8\u201320h estimated premise/cast exploration in addition to chosen route pilot",
+      "human_hours_estimate": [
+        54,
+        122
+      ],
+      "spend": "Unpriced and no paid authority; estimate combines C46\u2013102 plus8\u201320 exploration",
+      "risks": "Restarts diagnosis; loses approved strengths and repeats bottleneck under new title",
+      "rights": "Fresh characters reduce carry-over ambiguity, not automatic clearance of tools/assets",
+      "reversibility": "Medium-low creatively; preserve all prior work so technical rollback remains possible",
+      "leading_indicators": "Owner prefers new premise when art route is held constant",
+      "kill": "New title inherits same visual mismatch or lacks stronger hook",
+      "scale": "New premise preference plus all same route/capacity/rights gates",
+      "opportunity_cost": "Largest loss of useful canon and additional concept cycle before pipeline proof"
+    }
+  ],
+  "rankings": {
+    "best_expected_visual_quality_if_skilled_roles_available": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ],
+    "quality_per_effort_for_next_decision": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ],
+    "lowest_immediate_execution_risk": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "fastest_credible_proof": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "long_term_production_system": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ],
+    "fit_to_recorded_owner_taste_and_prior_approval": [
+      "B",
+      "C",
+      "A",
+      "D"
+    ]
+  }
+}

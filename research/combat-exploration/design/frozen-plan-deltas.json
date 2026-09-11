@@ -1,0 +1,464 @@
+{
+  "schema": "CombatDraftFrozenDelta/1",
+  "source_draft": "concepts-draft.json",
+  "source_draft_sha256": "7fd57ac5745e8de1227c5cc0fe612e4c1b36ba16e638ffcce05445830a83e43e",
+  "frozen_plan_path": "production/combat-exploration/combat-plan.json",
+  "frozen_plan_sha256": "6a9d99c1b41be18d7b6692272bce4c090a974d3a47531b9ae62f0bc3aebf323b",
+  "classification": "Exact value changes preserved. All entries adapt long weapon description into weapon_visual and concise reader copy. Substantive lead revisions enlarge/rename Rook weapon to Faultbreaker and diversify Eris, Vey, Ketz and Silas power/progression. These are authorized frozen inputs, not output defects. Original authored draft files remain unchanged.",
+  "entries": [
+    {
+      "id": "01-C1",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Hushline",
+            "description": "Chisel-point sword. One straight black single-edge blade with a squared oblique tip and one narrow open slot near its base, a short white guard and a single dark grip. Solid continuous blade around the slot; no floating fragments. Grip/contact: One hand closes around the grip behind the guard; entire blade and tip visible."
+          },
+          "frozen": {
+            "name": "Hushline",
+            "description": "A black chisel-point sword with a cyan-lit slot and white guard."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Chisel-point sword. One straight black single-edge blade with a squared oblique tip and one narrow open slot near its base, a short white guard and a single dark grip. Solid continuous blade around the slot; no floating fragments. Grip/contact: One hand closes around the grip behind the guard; entire blade and tip visible."
+        }
+      }
+    },
+    {
+      "id": "01-C2",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Mass Gate",
+            "description": "Frame-headed war hammer. One CLOSED rectangular black frame head with a cyan inner edge and a single uninterrupted shaft attaching to the middle of its lower outer bar. The frame opening remains empty: no central strut, extra handle or second head. Grip/contact: One hand around the continuous shaft below the head, full head and shaft end visible."
+          },
+          "frozen": {
+            "name": "Mass Gate",
+            "description": "A massive rectangular war hammer with an empty cyan-edged frame."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Frame-headed war hammer. One CLOSED rectangular black frame head with a cyan inner edge and a single uninterrupted shaft attaching to the middle of its lower outer bar. The frame opening remains empty: no central strut, extra handle or second head. Grip/contact: One hand around the continuous shaft below the head, full head and shaft end visible."
+        }
+      }
+    },
+    {
+      "id": "02-C1",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Sunwheel",
+            "description": "Handheld circular blade. One broad brass-edged green circular blade with one straight internal handgrip across its center; one ring only, no orbiting duplicates or detachable wedges. Grip/contact: Fingers visibly curl around the internal crossbar without touching the cutting rim."
+          },
+          "frozen": {
+            "name": "Sunwheel",
+            "description": "A brass-edged circular throwing blade with a protected central grip."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Handheld circular blade. One broad brass-edged green circular blade with one straight internal handgrip across its center; one ring only, no orbiting duplicates or detachable wedges. Grip/contact: Fingers visibly curl around the internal crossbar without touching the cutting rim."
+        }
+      }
+    },
+    {
+      "id": "02-C2",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Gale Tooth",
+            "description": "Broad falchion. One large green-backed asymmetric blade with a broad forward-curving cutting edge, blunt squared heel and short red grip. No separate hook, saw teeth or extra edge floating beside it. Grip/contact: One firm fist at the red handle, blade begins beyond a simple brass guard."
+          },
+          "frozen": {
+            "name": "Gale Tooth",
+            "description": "A broad green-backed falchion built for committed air-cutting swings."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Broad falchion. One large green-backed asymmetric blade with a broad forward-curving cutting edge, blunt squared heel and short red grip. No separate hook, saw teeth or extra edge floating beside it. Grip/contact: One firm fist at the red handle, blade begins beyond a simple brass guard."
+        }
+      }
+    },
+    {
+      "id": "05-C1",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Furnace Glaive",
+            "description": "Heavy polearm. One long dark wooden shaft ending in a broad rust-red crescent axe blade backed by one compact rectangular vent housing. A single head, one continuous shaft, no attached chains or extra tools. Grip/contact: Two hands separated along the same straight shaft, fingers wrapping across its axis."
+          },
+          "frozen": {
+            "name": "Furnace Glaive",
+            "description": "A heavy rust-red glaive with a heat-storing vent behind its blade."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Heavy polearm. One long dark wooden shaft ending in a broad rust-red crescent axe blade backed by one compact rectangular vent housing. A single head, one continuous shaft, no attached chains or extra tools. Grip/contact: Two hands separated along the same straight shaft, fingers wrapping across its axis."
+        }
+      }
+    },
+    {
+      "id": "05-C2",
+      "changes": {
+        "current_power_cue": {
+          "draft": "One narrow amber mark on a barb; no bound opponent or second harpoon.",
+          "frozen": "One amber brand glows inside a single barb; no quarry or spirit drawn."
+        },
+        "power": {
+          "draft": {
+            "name": "Fixed Point",
+            "description": "Pins the position of one object or joint touched by the harpoon tip. Limit: The tether must remain intact; pinning a stronger mass drags her toward it rather than granting infinite strength."
+          },
+          "frozen": {
+            "name": "Quarry Brand",
+            "description": "A harpoon wound marks a monster\u2019s spirit, letting the tether pursue its true body through disguises. A stronger quarry can still drag her off her feet."
+          }
+        },
+        "progression": {
+          "draft": [
+            "Hold one limb or sliding object for a heartbeat.",
+            "Transfer the pin along the taut tether.",
+            "Briefly lock three contacted joints in a single target's motion chain."
+          ],
+          "frozen": [
+            "Expose one marked monster through an illusion.",
+            "Strip a layer of enchanted armor by pulling on its spirit brand.",
+            "Bind a defeated great beast\u2019s pursuit instinct into the harpoon, letting her hunt targets across broken terrain."
+          ]
+        },
+        "weapon": {
+          "draft": {
+            "name": "Latch Fang",
+            "description": "Tethered combat harpoon. One slim steel harpoon with two broad backward-facing barbs and a blue grip; one attached short heavy chain ending in a single rust anchor ring. Harpoon, chain and ring are one integrated weapon, never an extra held object. Grip/contact: One hand around the blue shaft grip, chain attaches visibly to its butt and remains continuous."
+          },
+          "frozen": {
+            "name": "Latch Fang",
+            "description": "A barbed harpoon joined to a heavy chain and anchor ring."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Tethered combat harpoon. One slim steel harpoon with two broad backward-facing barbs and a blue grip; one attached short heavy chain ending in a single rust anchor ring. Harpoon, chain and ring are one integrated weapon, never an extra held object. Grip/contact: One hand around the blue shaft grip, chain attaches visibly to its butt and remains continuous."
+        }
+      }
+    },
+    {
+      "id": "06-C1",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Mute Thorn",
+            "description": "Heavy triangular stiletto. One long triangular black blade with a thick central spine, a short flat white guard and plain black grip; a single pink slit at the base. No sheath or second knife. Grip/contact: One hand encloses the grip behind the white guard, index finger stays away from the blade."
+          },
+          "frozen": {
+            "name": "Mute Thorn",
+            "description": "A triangular black stiletto with a white guard and pink throat."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Heavy triangular stiletto. One long triangular black blade with a thick central spine, a short flat white guard and plain black grip; a single pink slit at the base. No sheath or second knife. Grip/contact: One hand encloses the grip behind the white guard, index finger stays away from the blade."
+        }
+      }
+    },
+    {
+      "id": "06-C2",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Night Door",
+            "description": "Striking shield. One tall black six-sided shield, broad across the shoulders and tapering to a blunt lower point, with one thick white edge and a single narrow pink line across the upper face. Solid plate, no coffin lid or extra hinged panels. Grip/contact: One forearm behind the shield, one clear internal grip; no second shield or weapon."
+          },
+          "frozen": {
+            "name": "Night Door",
+            "description": "A tall striking shield with a white edge and narrow pink seam."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Striking shield. One tall black six-sided shield, broad across the shoulders and tapering to a blunt lower point, with one thick white edge and a single narrow pink line across the upper face. Solid plate, no coffin lid or extra hinged panels. Grip/contact: One forearm behind the shield, one clear internal grip; no second shield or weapon."
+        }
+      }
+    },
+    {
+      "id": "13-C1",
+      "changes": {
+        "current_power_cue": {
+          "draft": "A small red pressure stroke along the staff bend, not a second pole.",
+          "frozen": "One short red lightning-shaped crack of light follows the staff bend; no duplicate staff or lightning cloud."
+        },
+        "power": {
+          "draft": {
+            "name": "Elastic Counter",
+            "description": "Stores one deflected blow as elastic force in the staff. Limit: He must spend stored force before the next incompatible impact or the staff twists out of his control."
+          },
+          "frozen": {
+            "name": "Storm Rebound",
+            "description": "Stores an intercepted blow as lightning inside the staff, then spends it on a sudden counter or vault. Holding too much charge ruins his control."
+          }
+        },
+        "progression": {
+          "draft": [
+            "Return a blocked strike with one stronger counter.",
+            "Redirect the stored force through a pole-vault step.",
+            "Chain three controlled rebounds without touching down between them."
+          ],
+          "frozen": [
+            "Electrify one returned staff strike.",
+            "Vault on a short lightning step between two grounded contacts.",
+            "Chain three aerial thunder counters before the stored charge burns out."
+          ]
+        },
+        "weapon": {
+          "draft": {
+            "name": "Rebound Rod",
+            "description": "Elastic combat staff. One black staff with broad white end caps and a single long red center grip; one gentle controlled bend through the shaft under load, not a broken segmented pole. Grip/contact: Both hands wrap the same uninterrupted shaft at separated positions."
+          },
+          "frozen": {
+            "name": "Rebound Rod",
+            "description": "An elastic combat staff with white end caps and a red central grip."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Elastic combat staff. One black staff with broad white end caps and a single long red center grip; one gentle controlled bend through the shaft under load, not a broken segmented pole. Grip/contact: Both hands wrap the same uninterrupted shaft at separated positions."
+        }
+      }
+    },
+    {
+      "id": "13-C2",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Counter Moon",
+            "description": "Single bladed tonfa. One broad black crescent-like forearm blade with a red reinforced spine and one perpendicular short white side grip. It is held beside the forearm, not fused to skin; one weapon, no matching second tonfa. Grip/contact: Fist visibly wraps the perpendicular handle, blade lies outside the forearm with a small clear gap."
+          },
+          "frozen": {
+            "name": "Counter Moon",
+            "description": "A single curved forearm blade held by its perpendicular side handle."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Single bladed tonfa. One broad black crescent-like forearm blade with a red reinforced spine and one perpendicular short white side grip. It is held beside the forearm, not fused to skin; one weapon, no matching second tonfa. Grip/contact: Fist visibly wraps the perpendicular handle, blade lies outside the forearm with a small clear gap."
+        }
+      }
+    },
+    {
+      "id": "15-C1",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Votive Star",
+            "description": "Resonant mace. One large closed octagonal bronze head with eight broad flat faces, three deep parallel resonance grooves and a single dark shaft with a plain grip. No floating halo, loose clapper or spike forest. Grip/contact: One hand around the shaft below a single small guard collar; head attaches continuously."
+          },
+          "frozen": {
+            "name": "Votive Star",
+            "description": "An octagonal bronze mace with deep resonance grooves."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Resonant mace. One large closed octagonal bronze head with eight broad flat faces, three deep parallel resonance grooves and a single dark shaft with a plain grip. No floating halo, loose clapper or spike forest. Grip/contact: One hand around the shaft below a single small guard collar; head attaches continuously."
+        }
+      }
+    },
+    {
+      "id": "15-C2",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Arc Choir",
+            "description": "War bow. One tall curved bronze bow with three broad oval cutouts distributed in each solid limb, one continuous taut dark string and one central black grip. All cutouts remain inside the bow silhouette, no additional floating rings. Grip/contact: One hand around the center grip, other fingers resting on the same visible string."
+          },
+          "frozen": {
+            "name": "Arc Choir",
+            "description": "A bronze war bow whose carved limbs amplify vibration shots."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "War bow. One tall curved bronze bow with three broad oval cutouts distributed in each solid limb, one continuous taut dark string and one central black grip. All cutouts remain inside the bow silhouette, no additional floating rings. Grip/contact: One hand around the center grip, other fingers resting on the same visible string."
+        }
+      }
+    },
+    {
+      "id": "17-C1",
+      "changes": {
+        "current_power_cue": {
+          "draft": "One small pale seam under the pick head, confined to a plain stone at his feet.",
+          "frozen": "One very small pale fracture-shaped glint on the cutting beak; no rubble scene."
+        },
+        "pose": {
+          "draft": "One boot on a low plain stone, the other firmly on the ground; pick held across one outside shoulder from a single clear grip, head completely visible.",
+          "frozen": "Low grounded forward battle stance, one hand carrying the heavy war pick outside his shoulder, hooked beak facing away from his neck; the free fist is ready beside his ribs. Both armored boots on plain ground."
+        },
+        "weapon": {
+          "draft": {
+            "name": "Fault Pick",
+            "description": "Combat pick. One short stout mint shaft with a cream hooked pick head on one side and a broad blunt terracotta counterweight on the other. One unified head and one grip; no climbing-tool inventory. Grip/contact: One hand closes around the shaft below its head, cutting hook faces away from his neck."
+          },
+          "frozen": {
+            "name": "Faultbreaker",
+            "description": "An oversized hooked war pick with a heavy balancing plate."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "One oversized fantasy war pick: a stout dark mint shaft supporting a shoulder-width cream beaked blade with a long downward cutting hook, opposed by one broad terracotta armored counterweight plate. A single unified head and one wrapped grip. It reads as a formidable armor-piercing battlefield weapon, not a small climbing or mining tool. One hand wraps the shaft below the head; complete beak, counterweight and shaft end remain visible."
+        }
+      }
+    },
+    {
+      "id": "17-C2",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Span Sling",
+            "description": "Large forked sling-bow. One shoulder-high cream Y frame with two mint outer limbs, one broad terracotta elastic band joining the two tips through a central pouch holding a single smooth stone. Frame, band, pouch and stone are one loaded weapon, not separate floating objects. Grip/contact: One hand grips the base of the Y; other visibly pinches the connected pouch, all band attachments visible."
+          },
+          "frozen": {
+            "name": "Span Sling",
+            "description": "A shoulder-high sling-bow that launches a single stone."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Large forked sling-bow. One shoulder-high cream Y frame with two mint outer limbs, one broad terracotta elastic band joining the two tips through a central pouch holding a single smooth stone. Frame, band, pouch and stone are one loaded weapon, not separate floating objects. Grip/contact: One hand grips the base of the Y; other visibly pinches the connected pouch, all band attachments visible."
+        }
+      }
+    },
+    {
+      "id": "18-C1",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Low Tide",
+            "description": "Anchor-shaped war weapon. One heavy cream anchor head with exactly two broad blunt outward hooks, a short turquoise shaft and one closed orange ring at its butt. One continuous weapon, no attached chain or separate hammer head. Grip/contact: One hand on the turquoise shaft; both hooked ends and the single butt ring fully visible."
+          },
+          "frozen": {
+            "name": "Low Tide",
+            "description": "A massive two-hook anchor weapon with a short shaft and closed butt ring."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Anchor-shaped war weapon. One heavy cream anchor head with exactly two broad blunt outward hooks, a short turquoise shaft and one closed orange ring at its butt. One continuous weapon, no attached chain or separate hammer head. Grip/contact: One hand on the turquoise shaft; both hooked ends and the single butt ring fully visible."
+        }
+      }
+    },
+    {
+      "id": "18-C2",
+      "changes": {
+        "current_power_cue": {
+          "draft": "One orange panel catches a warm highlight; no duplicated ball to illustrate motion.",
+          "frozen": "One orange panel seam on the ball lights with a tiny electric glint; no duplicate ball."
+        },
+        "power": {
+          "draft": {
+            "name": "Late Rebound",
+            "description": "Delays the rebound of one weapon impact, then releases it at a different moment. Limit: Stored rebound returns through her own handle if the chain is slack at release."
+          },
+          "frozen": {
+            "name": "Thunder Echo",
+            "description": "The flail seals thunder inside its ball and releases a second shock after impact. She must keep the chain controlled or take the returning shock herself."
+          }
+        },
+        "progression": {
+          "draft": [
+            "Make one apparent miss rebound late.",
+            "Choose the angle of a single rebound.",
+            "Chain three delayed ricochets with controlled body movement."
+          ],
+          "frozen": [
+            "Add a delayed thunderclap to one strike.",
+            "Guide one sonic ricochet around a guard.",
+            "Build a three-impact thunder rhythm that shatters a boss\u2019s defensive stance."
+          ]
+        },
+        "weapon": {
+          "draft": {
+            "name": "Afterbell",
+            "description": "Single-ball flail. One cream spherical head with three broad orange armor panels, a short chain of exactly three large closed links and one turquoise handle. One ball only; no spikes, extra chain tails or orbiting copies. Grip/contact: One hand wraps the handle, chain visibly attaches to handle and ball at opposite ends."
+          },
+          "frozen": {
+            "name": "Afterbell",
+            "description": "A single armored flail ball joined to its handle by three heavy links."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Single-ball flail. One cream spherical head with three broad orange armor panels, a short chain of exactly three large closed links and one turquoise handle. One ball only; no spikes, extra chain tails or orbiting copies. Grip/contact: One hand wraps the handle, chain visibly attaches to handle and ball at opposite ends."
+        }
+      }
+    },
+    {
+      "id": "19-C1",
+      "changes": {
+        "current_power_cue": {
+          "draft": "One clean offset shadow at his boots, not a second human silhouette.",
+          "frozen": "One faint crimson light inside the ivory blade root; no summoned figure, monster or second shadow-person."
+        },
+        "power": {
+          "draft": {
+            "name": "Severed Shadow",
+            "description": "Cuts a moving shadow free for one heartbeat, interrupting the motion it mirrors. Limit: Needs a coherent cast shadow; diffuse light and multiple moving lights make the effect unreliable."
+          },
+          "frozen": {
+            "name": "Last Requiem",
+            "description": "The scythe catches the last combat instinct of a defeated spirit and lends it to its wielder. Each borrowed instinct pushes against his own judgment."
+          }
+        },
+        "progression": {
+          "draft": [
+            "Delay one limb's movement after a shadow contact.",
+            "Bind a single joint through its shadow for a breath.",
+            "Exchange his position with his own cast shadow over a short distance."
+          ],
+          "frozen": [
+            "Borrow one spectral enemy\u2019s final evasive step.",
+            "Call one bound spirit to repeat a single protective strike.",
+            "Forge a pact with a great spectral beast whose power changes the scythe and his fighting form."
+          ]
+        },
+        "weapon": {
+          "draft": {
+            "name": "Morrow Hook",
+            "description": "Scythe. One matte black long shaft with a single broad ivory inward-curving blade and one thin crimson seam at the blade root; no flowers, branching thorns, floating petals or second blade. Grip/contact: One hand clearly around the shaft below the head; full continuous shaft and complete blade framed."
+          },
+          "frozen": {
+            "name": "Morrow Hook",
+            "description": "A long black scythe with an ivory blade and crimson seam."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Scythe. One matte black long shaft with a single broad ivory inward-curving blade and one thin crimson seam at the blade root; no flowers, branching thorns, floating petals or second blade. Grip/contact: One hand clearly around the shaft below the head; full continuous shaft and complete blade framed."
+        }
+      }
+    },
+    {
+      "id": "19-C2",
+      "changes": {
+        "weapon": {
+          "draft": {
+            "name": "Mercy Seam",
+            "description": "Long dueling foil. One very thin straight silver blade with a single crimson line along its center, a solid black teardrop guard and one plain white grip. No thread coils, multiple blades or floating needle swarm. Grip/contact: One closed hand behind the guard, wrist aligned to the single continuous blade."
+          },
+          "frozen": {
+            "name": "Mercy Seam",
+            "description": "A slender silver dueling blade with a black teardrop guard."
+          }
+        },
+        "weapon_visual": {
+          "draft": null,
+          "frozen": "Long dueling foil. One very thin straight silver blade with a single crimson line along its center, a solid black teardrop guard and one plain white grip. No thread coils, multiple blades or floating needle swarm. Grip/contact: One closed hand behind the guard, wrist aligned to the single continuous blade."
+        }
+      }
+    }
+  ]
+}

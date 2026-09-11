@@ -1,0 +1,34 @@
+# Independent native batch06
+
+Prefer G03-R1 for real shoulder contact and separated weapons, with damage-chain limits retained. D04 conveys rightward body/water motion but changes staging/timing and hides the damage marker. W03 is the strongest remaining structural repair candidate: paw/ground impact does not demonstrate a foreknee counterstrike. Phone pending.
+
+## D04-P
+
+SHA256 `da593056c1b681e23e0f9560b8acb28beab29c905c50309e85f02602e1fec3c5`. Gravity direction is more concretely readable than prior barrier-like examples, but staging and persistent-marker failures remain. Surface pass cannot mend them. Rank below W03 for the final structural slot.
+
+- Ilyra visibly plants a continuous upright lance butt at a violet floor contact with her right hand; no upright energy wall or ramp. Riven body inclines sharply toward actual right masonry, boots trail left and water sweeps/splashes in the same rightward direction. Thin violet line stays on the floor. This supports changed down direction through body/material, with ordinary vertical rain and distant falling water outside the affected area.
+- Ilyra stands LEFT rather than specified RIGHT/downstage; Riven is already at the RIGHT wall with his free left hand visibly touching it, rather than left/center accelerating toward it. This is an important staging reset and premature hand contact relative to D05/D06. Court square left steps, right wall/arch and foreground drain remain recognizable.
+- Riven right hand retains continuous saber behind him, left sleeve appears intact, no blood/localized wall-impact crater yet. Ilyra ivory shoulder mantle looks small and largely intact; the prior ragged notch is not distinctly visible from this reversed view. Treat marker persistence as unverified, not silently restored or definitely healed.
+- Her stance lies along the floor boundary; the image does not define the entire narrow strip or cleanly isolated vertical gutter stream outside it. Much water is a splash along floor rather than an unambiguous horizontally falling ribbon, but actor-plus-water rightward motion is meaningful evidence.
+- Two adult identities and alert/off-balance acting remain clear. Wet-floor sparkles, water spray and city/cloud texture remain busy. Source-only F1 may calm these while keeping direction and contact; it must not claim to move Ilyra, withdraw Riven hand or restore the hidden notch.
+
+## W03-P
+
+SHA256 `48aafdc5687ca16594a91cf903f15196ffcbe83ec710417c561b2d213eac21ac`. Strongest candidate for the remaining R1: show one outgoing pulse hitting the actual nearest foreknee and buckling it rather than a ground/paw impact. Hold F1 until adjudicated.
+
+- Neris rear-gripped crescent and planted wide stance face RIGHT toward huge creature. Kellan sand/curly/steel blade and Ilyra burgundy/lance remain behind her; no Riven. Recognizable snout/eye/bridle/rider construction persists; mouth has no visible outgoing stream.
+- Bright pressure arcs spread from/around the shield toward the nearest limb, but the major debris/contact zone is the planted forepaw and shattered ground. No clearly isolated ring/impact at the foreknee joint. The nearest foreleg reads as a long loaded diagonal reaching down, not an unmistakably buckled knee with a dropping shoulder.
+- The image can reasonably read as beast stomping forward into a shield defense. That counter-reading is the strongest failure: caption cannot prove a returned pulse caused knee collapse. Giant scale, formation cover and Neris effort are nevertheless effective.
+- Other leg paths are partly obscured by troops/body; exact compensating four-leg load is not certifiable. Main bridge remains intact aside from local ground debris; left gate/right army and lower populated route remain. One joint hit and its consequence should be the focal repair, not more particles.
+- Heavy hide grain, masonry/window detail, dust and many small fragments compete. Surface restraint is justified later but cannot move the effect to the joint or bend the leg.
+
+## G03-R1
+
+SHA256 `8f9413760b095784d445815b01a92bf80034a0a7635716f54d93a83d876c3d54`. Prefer R1 for visible shoulder-pommel contact and independent weapons. The complete pressure/stone damage chain remains partial; no full semantic pass.
+
+- A distinct rounded pommel at the end of the attacker held sword now visibly meets the exposed top/outside of Neris shoulder, with small contact accents. His gloved hand wraps the adjacent hilt and the blade runs up/right away from bodies. Shield no longer hides the contact; this materially fixes the primary source-target problem.
+- Kellan now has two bare hands enclosed around one own hilt behind a guard and one continuous broad unlit steel blade angled down/right. Riven separately holds a cyan saber pointing off upper-left. Clear spatial separation removes the prior near-collinear/shared-weapon ambiguity. Neris own-side rear shield grip remains.
+- Neris kneeling loss of stance, strained adult face and Riven/Kellan recoil remain, with two close armored attackers and horn bearer. Upper shield damage and exploded left masonry persist. No new ice, no duplicated hero.
+- The incoming horn bands continue leftward; a separate shield-to-pier return spill remains difficult to isolate. Several fragments float near damaged upper rim but no single stone-to-rim contact is visibly resolved. Pier destruction is still much larger than one chipped corner. These inherited cause/damage precision limits are not fixed by the two clear repair gains.
+- Surface density remains high in wet paving, spray, rubble and city. Eligible for source-only F1 after adjudication; preserve exposed contact, all own-hand-to-weapon paths and damage while simplifying detail.
+

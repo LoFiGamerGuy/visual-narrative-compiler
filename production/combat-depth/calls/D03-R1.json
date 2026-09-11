@@ -1,0 +1,37 @@
+{
+  "id": "D03",
+  "attempt_id": "D03-R1",
+  "phase": "structural",
+  "category": "duel",
+  "retry_of": "D03-P",
+  "retry_reason": "Independent and root native inspection finds saber arm reads anatomicalLEFT rather than requiredRIGHT, before persistent left-forearm injury. Cloth cut also reads after-contact.",
+  "evidence_path": "production/combat-depth/edit-specs-03.json",
+  "evidence_sha256": "7875fa0f8519a8cd514056f9211269e8c68be4f1f04dbfc449e7085cd018588f",
+  "prompt_path": "production/combat-depth/prompts/D03-R1.txt",
+  "prompt_sha256": "bcf5c78da614e81e0ba97ccd68d9916c24a551b5d9f7aec663039d22c42407a9",
+  "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+  "references": [
+    {
+      "path": "production/combat-depth/candidates/D03-P.png",
+      "sha256": "1e84df13c347c3b18b98ff504ca470ecbea580f6963cf46b90a753bb59e08c93",
+      "role": "Exact edit source; preserve all content except the specified structural change"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 23:59:36 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/D03-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 00:00:11 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-d1875060-bd90-4836-af76-9c1b9073e825.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

@@ -1,0 +1,428 @@
+[
+  {
+    "id": "NG01",
+    "attempt_id": "NG01-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nGlass ray: Single immense navy translucent glass-wing ray, broad crescent wings, cyan circular sensory lights, narrow central beak, one long tail. Living alien animal; no humanoid face. Equipment: none\nInspected reference qualification for visible subjects only: none\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Aren crosses a thin high bridge toward a small warm-lit upper-route gate; a distant ray arcs between inhabited towers.\nCurrent physical state (authoritative): Aren jacket intact; sword sheathed at right hip; dispatch wallet sealed; no line.\nSpecial visual element, only if specified: none\nCamera and framing: Extreme-wide high diagonal; Aren under 12% frame height, city layers dominant. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG01-P.txt",
+    "prompt_sha256": "714a23e6f193622d83e135d374a99524cec7695ee683026210ca6afb70dc809e",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG02",
+    "attempt_id": "NG02-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nSera Voss: Light-skinned square-faced woman, copper chin-length bob, burgundy tailored ankle-length coat, black trousers and boots. City route inspector, dry wit rather than antagonist. Equipment: Simple black short spear carried upright when present; no use in this pilot.\nInspected reference qualification for visible subjects only: Sera keeps the long burgundy coat variant shown in the inspected sheet.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: At the gate Sera indicates the lit delivery-intake booth far BEYOND the turnstile. Aren holds his sealed wallet; his smile is hopeful but guarded. Sera checks entry, not delivery completion.\nCurrent physical state (authoritative): Both on stable bridge; no creature nearby; no power or damage.\nSpecial visual element, only if specified: none\nCamera and framing: Intimate eye-level two-shot, chest-up. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG02-P.txt",
+    "prompt_sha256": "4f4febcd308d4141ebb493e2a3e9ac40178b2e686d83f833e7eb30d4fbc7ef75",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG03",
+    "attempt_id": "NG03-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nGlass ray: Single immense navy translucent glass-wing ray, broad crescent wings, cyan circular sensory lights, narrow central beak, one long tail. Living alien animal; no humanoid face. Equipment: none\nInspected reference qualification for visible subjects only: none\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: A glass beak clamps the maintenance lift’s suspension coupling below the bridge; one thick cable bends under its bite.\nCurrent physical state (authoritative): Lift remains attached but skewed; Pell inside, hands on rail; ray beak intact.\nSpecial visual element, only if specified: none\nCamera and framing: Tight mechanical/creature insert; beak, coupling and cable clearly separate. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG03-P.txt",
+    "prompt_sha256": "576c11fb0fc328d5eb81a5b87a663d44a67cff237bdf9803ea15457542ef9e79",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG04",
+    "attempt_id": "NG04-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nPell: Light-skinned older man with short gray hair, stubble, mustard maintenance jacket and charcoal trousers, broad work harness. Equipment: Harness attached to lift rail until transfer.\nGlass ray: Single immense navy translucent glass-wing ray, broad crescent wings, cyan circular sensory lights, narrow central beak, one long tail. Living alien animal; no humanoid face. Equipment: none\nInspected reference qualification for visible subjects only: Pell wears only his mustard jacket and body harness; omit the tall external rig beside him in the sheet.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Pell’s car hangs tilted below the walkway. Aren turns away from the gate toward his shout.\nCurrent physical state (authoritative): Single taut suspension cable holds lift; Pell still harnessed; Aren on bridge above.\nSpecial visual element, only if specified: none\nCamera and framing: Wide vertical geography: Aren upper right, car lower left, ray outside car. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 25% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG04-P.txt",
+    "prompt_sha256": "d2d96d58379fb31d991ad589e702c0f630d6e102290d0baf5009f2d7aaa964b4",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG05",
+    "attempt_id": "NG05-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nSera Voss: Light-skinned square-faced woman, copper chin-length bob, burgundy tailored ankle-length coat, black trousers and boots. City route inspector, dry wit rather than antagonist. Equipment: Simple black short spear carried upright when present; no use in this pilot.\nInspected reference qualification for visible subjects only: Sera keeps the long burgundy coat variant shown in the inspected sheet.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Aren places the sealed dispatch wallet on Sera’s open palm and draws his crescent with the right hand.\nCurrent physical state (authoritative): Wallet transferred unopened to Sera; sword right hand; jacket intact; no line.\nSpecial visual element, only if specified: none\nCamera and framing: Close hands and Aren’s determined face; no ray or floor detail. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG05-P.txt",
+    "prompt_sha256": "aad2b28e39b4b9fd490c30ffd326c37522ff2f812f0c627199e19ad0ae72cec8",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG06",
+    "attempt_id": "NG06-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nInspected reference qualification for visible subjects only: none\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Aren crouches at the bridge edge and attaches his pommel line to the heavy post behind his right shoulder.\nCurrent physical state (authoritative): One taut line from right sword pommel to visible post; both boots braced on bridge; lift below out of frame.\nSpecial visual element, only if specified: none\nCamera and framing: Low medium side, complete boots and both line endpoints. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG06-P.txt",
+    "prompt_sha256": "25e465d028d7d8269fb8c469804d63e7577a04e824f4a7a1034de46ea3379df5",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG07",
+    "attempt_id": "NG07-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nPell: Light-skinned older man with short gray hair, stubble, mustard maintenance jacket and charcoal trousers, broad work harness. Equipment: Harness attached to lift rail until transfer.\nInspected reference qualification for visible subjects only: Pell wears only his mustard jacket and body harness; omit the tall external rig beside him in the sheet.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Aren descends onto the tilted lift roof, a taut line climbing from pommel to the bridge anchor above-right. Pell looks up through the open hatch.\nCurrent physical state (authoritative): Aren on roof, both boots spread; line holds him toward upper post; Pell harness still clipped. Jacket intact.\nSpecial visual element, only if specified: none\nCamera and framing: High oblique wide with clear upper anchor, lift and adult size contrast. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG07-P.txt",
+    "prompt_sha256": "95ca2587433fe26659b628bc10dafa06e2f35af20ba38a5c9045fee400dde7cf",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG08",
+    "attempt_id": "NG08-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nGlass ray: Single immense navy translucent glass-wing ray, broad crescent wings, cyan circular sensory lights, narrow central beak, one long tail. Living alien animal; no humanoid face. Equipment: none\nInspected reference qualification for visible subjects only: none\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: The ray releases the coupling and turns its beak toward Aren on the roof; its immense wing blots out the upper city.\nCurrent physical state (authoritative): Cable still supports car; ray beak intact; Aren right sword between beak and hatch, left arm free.\nSpecial visual element, only if specified: none\nCamera and framing: Low extreme-wide threat scale, Aren under 18% frame height; one focal cyan eye. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG08-P.txt",
+    "prompt_sha256": "22d32a2f92fe9a0db27ec51a7c831312c9ee5ed3acb346f2fc83d8fc5533b236",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG09",
+    "attempt_id": "NG09-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nGlass ray: Single immense navy translucent glass-wing ray, broad crescent wings, cyan circular sensory lights, narrow central beak, one long tail. Living alien animal; no humanoid face. Equipment: none\nInspected reference qualification for visible subjects only: none\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Aren’s right crescent edge catches the lower side of the closing beak; his bent elbow and twisted torso absorb contact.\nCurrent physical state (authoritative): One blade/beak contact; left boot planted, right boot sliding; line taut to upper-right post; jacket hem snagged on roof lip and torn now.\nSpecial visual element, only if specified: none\nCamera and framing: Very close oblique contact with readable face, hand, hilt and beak; crop boots, hem and anchor deliberately. Adjacent wide frames establish those persistent states; no effect burst covering contact. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG09-P.txt",
+    "prompt_sha256": "cb7980b2c63ec8a9f62423d7972f9a4cbeb1ad86df43fe801c244165c10f5a00",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG10",
+    "attempt_id": "NG10-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. LANDSCAPE image, requested 1536x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\nReference 3 is ONLY an editable geometry/contact schematic. Preserve its useful force/contact relationships but draw the specified camera, realistic anatomy, faces and medium from references 1–2. Never render its labels, stick figures, colored debug shapes or diagram background. Bridge anchor → sword pommel; one blade/beak contact; boots braced on lift roof. Composition schematic only; preserve specified cast anatomy.\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nGlass ray: Single immense navy translucent glass-wing ray, broad crescent wings, cyan circular sensory lights, narrow central beak, one long tail. Living alien animal; no humanoid face. Equipment: none\nInspected reference qualification for visible subjects only: none\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: He leans away from the upper anchor; the taut pommel line pulls the hooked blade up-right, tipping the beak away from Pell’s hatch.\nCurrent physical state (authoritative): Right hand owns blade throughout; contact maintained; both boots braced, beak visibly deflected, jacket hem torn.\nSpecial visual element, only if specified: none\nCamera and framing: Wide side showing anchor-to-pommel line and blade-to-beak chain. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 51% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG10-P.txt",
+    "prompt_sha256": "39fd76bdcea55d40ca211f4c51edfdd4ee301f9415e5719f7905f4ca57a25e4c",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      },
+      {
+        "path": "production/pilot-chapters/controls/NG10.png",
+        "sha256": "0f0003dad890a3f34914a1687d3b885cbf696e93da2c93678fb38cd561bf0f29",
+        "role": "Bridge anchor → sword pommel; one blade/beak contact; boots braced on lift roof. Composition schematic only; preserve specified cast anatomy."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG11",
+    "attempt_id": "NG11-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nPell: Light-skinned older man with short gray hair, stubble, mustard maintenance jacket and charcoal trousers, broad work harness. Equipment: Harness attached to lift rail until transfer.\nGlass ray: Single immense navy translucent glass-wing ray, broad crescent wings, cyan circular sensory lights, narrow central beak, one long tail. Living alien animal; no humanoid face. Equipment: none\nInspected reference qualification for visible subjects only: Pell wears only his mustard jacket and body harness; omit the tall external rig beside him in the sheet.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: With the ray’s mouth deflected outside the roof, Pell climbs through the hatch and grips Aren’s free LEFT forearm.\nCurrent physical state (authoritative): Pell unclips the harness SAFETY TETHER from the lift rail; tether hangs in car but harness remains WORN around his body. Pell clear of hatch; right sword disengaged; line still to upper post.\nSpecial visual element, only if specified: none\nCamera and framing: Medium human contact; clasp and both shoulders unambiguous. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG11-P.txt",
+    "prompt_sha256": "9bcf31d802430617319e24bbcb117bab6e2814cb281c33bd85b2c942e112a2fe",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG12",
+    "attempt_id": "NG12-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\nReference 3 is ONLY an editable geometry/contact schematic. Preserve its useful force/contact relationships but draw the specified camera, realistic anatomy, faces and medium from references 1–2. Never render its labels, stick figures, colored debug shapes or diagram background. One airborne pair linked by forearm clasp, one pommel line to bridge, separate empty falling lift. Camera must keep adults small.\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nPell: Light-skinned older man with short gray hair, stubble, mustard maintenance jacket and charcoal trousers, broad work harness. Equipment: Harness attached to lift rail until transfer.\nInspected reference qualification for visible subjects only: Pell wears only his mustard jacket and body harness; omit the tall external rig beside him in the sheet.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: The line pulls Aren and Pell diagonally up-right toward the bridge; empty lift drops lower-left when its cable finally parts.\nCurrent physical state (authoritative): Both people airborne together with one forearm clasp; right pommel tether taut to bridge post; empty lift separate below. Torn hem persists.\nSpecial visual element, only if specified: none\nCamera and framing: Extreme-wide vertical rescue, both humans small against city; clear three destinations. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG12-P.txt",
+    "prompt_sha256": "3f06e4be70b9738506e03f75ffba32ba9f710a86dd3b08f47fa8188947f2dfd7",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      },
+      {
+        "path": "production/pilot-chapters/controls/NG12-v2.png",
+        "sha256": "a0e101a148d49c79dfad9b0b6ae321e21e62e5fd82983829e35565530cf6e32a",
+        "role": "One airborne pair linked by forearm clasp, one pommel line to bridge, separate empty falling lift. Camera must keep adults small."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG13",
+    "attempt_id": "NG13-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nPell: Light-skinned older man with short gray hair, stubble, mustard maintenance jacket and charcoal trousers, broad work harness. Equipment: Harness attached to lift rail until transfer.\nSera Voss: Light-skinned square-faced woman, copper chin-length bob, burgundy tailored ankle-length coat, black trousers and boots. City route inspector, dry wit rather than antagonist. Equipment: Simple black short spear carried upright when present; no use in this pilot.\nInspected reference qualification for visible subjects only: Pell wears only his mustard jacket and body harness; omit the tall external rig beside him in the sheet. Sera keeps the long burgundy coat variant shown in the inspected sheet.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Aren and Pell sprawl safely on the bridge, Sera gripping Pell’s harness shoulder; Aren’s sword rests in his right hand beside him.\nCurrent physical state (authoritative): Both rescued adults supported by dry deck; line slack; no new wounds. Gate visibly shut behind Sera.\nSpecial visual element, only if specified: none\nCamera and framing: Ground-level medium three-person aftermath with quiet surface. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG13-P.txt",
+    "prompt_sha256": "f765ed887340c7df2ccc01be98d281831ca9439bae7c72eac43926042d01d0af",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG14",
+    "attempt_id": "NG14-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nSera Voss: Light-skinned square-faced woman, copper chin-length bob, burgundy tailored ankle-length coat, black trousers and boots. City route inspector, dry wit rather than antagonist. Equipment: Simple black short spear carried upright when present; no use in this pilot.\nInspected reference qualification for visible subjects only: Sera keeps the long burgundy coat variant shown in the inspected sheet.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Sera returns the unstamped sealed wallet. Aren stares at the closed gate over her shoulder.\nCurrent physical state (authoritative): Wallet remains unopened; jacket hem torn; right sword sheathed; no active power.\nSpecial visual element, only if specified: none\nCamera and framing: Close face and rejected wallet, city reduced to broad shapes. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG14-P.txt",
+    "prompt_sha256": "20b39da9b8ae05feeda2bd92d8a270677ea88649c745f17e910adad1c4065084",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG15",
+    "attempt_id": "NG15-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nPell: Light-skinned older man with short gray hair, stubble, mustard maintenance jacket and charcoal trousers, broad work harness. Equipment: Harness attached to lift rail until transfer.\nInspected reference qualification for visible subjects only: Pell wears only his mustard jacket and body harness; omit the tall external rig beside him in the sheet.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Pell offers a second small black envelope with a simple silver broken-circle seal. No generated address lettering is required; Pell identifies the addressee in dialogue.\nCurrent physical state (authoritative): Original wallet on belt; new black envelope intact in Pell’s hand. All safely on bridge.\nSpecial visual element, only if specified: none\nCamera and framing: Tactile close envelope and hands; enough quiet area for label and speech. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG15-P.txt",
+    "prompt_sha256": "268cb4e85d2b2a06882032513c406458f05527194df4ab1cd645bb692bca03ef",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  },
+  {
+    "id": "NG16",
+    "attempt_id": "NG16-P",
+    "phase": "primary",
+    "category": "NG",
+    "retry_of": null,
+    "retry_reason": null,
+    "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. PORTRAIT image, requested 1024x1536.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nAren Vale: Light-skinned adult man, slim athletic build, narrow appealing face, gray eyes, swept midnight hair. Tailored ivory waist-length jacket WITH long sleeves over fitted black high-neck top, black slim trousers, plain boots and one red courier cord. Closer to original full Nightglass elegance; distinct provisional adaptation, not automatic original cast selection. Equipment: One solid silver crescent-edge short sword, black straight hilt, cyan pommel ring; RIGHT hand always. Flat sealed cream dispatch wallet on belt.\nInspected reference qualification for visible subjects only: none\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Aren stands at a descending stair into the fog, black envelope in LEFT hand, right sword sheathed; far below, a dark doorway lights cyan.\nCurrent physical state (authoritative): Safe bridge behind; torn jacket hem retained; no active tether; new address opens a future route, no resolution claimed for city mystery.\nSpecial visual element, only if specified: none\nCamera and framing: Long rear three-quarter, Aren under 20% frame height; vast lower-city descent. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 25% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+    "prompt_path": "production/pilot-chapters/prompts/NG16-P.txt",
+    "prompt_sha256": "c4bca81ca38aee8ff4388f47f6a6927bf10578304b63b55a0a81f78737b8defa",
+    "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+    "references": [
+      {
+        "path": "production/pilot-chapters/references/anchor-01.png",
+        "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+        "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+      },
+      {
+        "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+        "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+        "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+      }
+    ],
+    "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+    "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+  }
+]

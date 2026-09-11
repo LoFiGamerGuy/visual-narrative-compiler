@@ -1,0 +1,17 @@
+# Doorsteps 20–25 — actual art observations
+
+## Hessa20–22
+
+Primary and sole structural repair returned. Selected N2-20-22-R1. The primary established distinct Hessa, old shuttered upper door versus actual open lower home, ordinary connected steps, Sera correction and warm roll; it incorrectly gave Aren the roll in his RIGHT hand and softened/healed the LEFT elbow tear in earlier tiers. R1 preserves geography and faces while making the LEFT forearm continuous across torso to the roll, RIGHT hand hanging free, and LEFT elbow tear visible in all three tiers. Hessa’s RIGHT hand signs at shelf, LEFT offers roll. Same gray satchel has yellow folder front sleeve, narrow LEFT strap in20/21, and floor/step support with slack strap in22.
+
+Actually viewed full native and390-wide art-only page. Upper/lower door distinction survives phone scale, as do the simple signature/roll contacts. Fine garment damage is tiny in wide20; full-native confirms presence. Bag is supported on broad threshold step in22 rather than lowest pavement, still clearly unloaded from Aren’s shoulder. Hessa’s wrap skirt/apron is a new incidental lower costume accessory; rust cardigan, blue blouse, dark skin and short twists are stable. No texture finish: broad shapes are calm, face/contact focus remains clear.
+
+Exact selected crop boxes/source hashes in selected-records.json and crops/hessa-crop-records.json. Hessa-reference-from-N2-21.png preserves character for laterChapter3 use. crops/phone-art-N2-20-22-R1.png is a resized inspection-only whole-page preview, never a selected story source. Native copies and complete semantic tool responses retained beside exact arguments/refSHA. Owner approval is not claimed.
+
+## Dain23–25
+
+Primary returned with a clear quiet knuckle tap beside unused heavy bell and a sound two-task Dain handoff/signature. Bottom Sera incorrectly had three hands: one holding loose sheet, one writing, one supporting ledger. Sole structural R1 removes the extra sheet-holding hand. Final Sera has exactly two connected arms/hands, RIGHT writes and LEFT supports open ledger. The separate collected sheet/clip is no longer independently distinguishable against the ledger pages; custody is carried by the preceding witnessed signature and Sera’s retained ledger, not claimed as a clearly visible clip. Top/middle essential contacts and character/damage state survive.
+
+Selected N2-23-25-R1 after actual full-native output inspection, close primary-versus-repair Sera hand crops, and390 art-only page. Dain is a distinct shaved-head adult in charcoal robe, sleep-tired but courteous. Aren’s knuckles stay away from bell rope; he hands an ordinary cream envelope with RIGHT hand while Dain signs RIGHT and accepts LEFT. No child or sleeping person shown. Quiet household is offscreen. All gray bags remain floor-supported; yellow folder visible in front sleeve; LEFT elbow tear and hem damage persist. There is no power use. No surface finish needed.
+
+Selected story crop boxes/source hashes in selected-records.json and crops/dain-crop-records.json; Dain-reference-from-N2-23.png preserved for Chapter3. phone-art and inspection-Sera files are inspection-only derivatives, not selected story sources. All4native returns preserved:2primaries,2structuralrepairs,0finish,0failure,0pending. Native bytes/SHA, exact submitted args, actual reference SHA, semantic full tool response and original output path preserved per call. No shared selected.json changes made by this worker. Independent lead/lettered review remains separate from these author observations.

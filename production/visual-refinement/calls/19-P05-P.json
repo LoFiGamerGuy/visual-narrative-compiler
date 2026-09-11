@@ -1,0 +1,49 @@
+{
+  "id": "19-P05",
+  "attempt_id": "19-P05-P",
+  "phase": "sequence",
+  "style_id": "19",
+  "panel_id": "P05",
+  "prompt_path": "production/visual-refinement/prompts/19-P05-P.txt",
+  "prompt_sha256": "ae85ed245ccce51c944d6a9a79cca7ce405ea6898109e2d4be39da916b7e877b",
+  "references": [
+    {
+      "path": "production/visual-refinement/sequence-design/shot-controls/v5/P05-clearance.png",
+      "sha256": "1db7757d0f6e4ec952bb90e50cda06890d6ec0459c72b2fd38cee23ee2e26635"
+    },
+    {
+      "path": "production/visual-refinement/candidates/19-A-R.png",
+      "sha256": "4a64f9791f484c29fa2b11eb88342f4bf70e5a92107810002e228ba5c5b0faaa"
+    },
+    {
+      "path": "production/visual-refinement/candidates/19-B-R.png",
+      "sha256": "9cc973b474151a81c28877d4b2a984a46d2308fb4fac268b483a3d98f6cd9473"
+    }
+  ],
+  "requested_aspect_ratio": "3:2",
+  "copy_source": {
+    "path": "production/visual-refinement/sequence-plan.json",
+    "sha256": "939db98c448122c75fee0db48c655fbb880ded9e9f0b52c35090c4ccc59a1648",
+    "panel_id": "P05"
+  },
+  "started": {
+    "current_time": "2026-09-07 17:04:38 UTC"
+  },
+  "finished": {
+    "current_time": "2026-09-07 17:07:43 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-refinement-20260907-1600/production/visual-refinement/sequence-design/shot-controls/v5/P05-clearance.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-refinement-20260907-1600/production/visual-refinement/candidates/19-A-R.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-refinement-20260907-1600/production/visual-refinement/candidates/19-B-R.png"
+  ],
+  "tool": "builtin image_gen",
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-93c24ee0-f462-48ec-b807-1f380628377b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "source_path": "/home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-93c24ee0-f462-48ec-b807-1f380628377b.png"
+}

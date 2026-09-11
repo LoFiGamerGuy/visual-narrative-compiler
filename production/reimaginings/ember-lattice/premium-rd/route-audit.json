@@ -1,0 +1,1210 @@
+{
+  "schema": "EmberLatticePremiumRouteAudit/1.0",
+  "audit_date": "2026-09-04",
+  "timezone": "America/New_York",
+  "workspace": "C:\\AgentWorkspaces\\anime-pipeline-ember-lattice-premium-rd-20260904-150943",
+  "scope": "Premium original vertical-scroll action-manhwa R&D for Ember Lattice",
+  "method": {
+    "web_sources": "Official and primary technical sources only",
+    "local_inspection": "Read-only command, filesystem, package, registry, process, model-header/metadata, hash, and loopback GET endpoint inspection",
+    "observed_direct_spend_usd": 0.0,
+    "network_mutations": [],
+    "paid_api_calls": [],
+    "generation_jobs_queued": [],
+    "installs_or_downloads": [],
+    "credentials_requested_or_printed": [],
+    "protected_runtime_mutations": [],
+    "legal_notice": "Technical audit only, not legal advice. Publisher model cards and repository licenses do not independently establish chain of title."
+  },
+  "status_legend": {
+    "available_authorized": "Callable now within the present task and preservation rules",
+    "ready_local": "All required local pieces observed and execution does not require a blocked protected runtime",
+    "available_read_only": "Installed or live, but generation was not authorized because it would use protected paths or unresolved dependencies",
+    "partial": "Some components are usable; material capabilities are absent or gated",
+    "blocked": "Requires credentials, payment authority, installation/download, or other missing authority",
+    "not_ready": "A possible future route lacking the data, cleared model, or production validation required now"
+  },
+  "environment": {
+    "os_family": "Windows",
+    "gpu": {
+      "name": "NVIDIA GeForce RTX 5090 Laptop GPU",
+      "driver": "616.56",
+      "compute_capability": "12.0",
+      "vram_total_mib": 24463,
+      "vram_free_mib_at_observation": 22654
+    },
+    "global_runtime": {
+      "python": {
+        "version": "3.14.6",
+        "executable": "C:\\Users\\gosne\\AppData\\Local\\Programs\\Python\\Python314\\python.exe"
+      },
+      "node": "24.19.0",
+      "npm": "11.17.0",
+      "packages_observed": {
+        "Pillow": "12.3.0",
+        "numpy": "2.5.1",
+        "openai": "1.109.1",
+        "onnxruntime": "1.28.0"
+      },
+      "packages_not_observed": [
+        "torch",
+        "diffusers",
+        "opencv-python",
+        "mediapipe",
+        "scikit-image"
+      ]
+    },
+    "executables": {
+      "edge": {
+        "present": true,
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "152.0.4191.62"
+      },
+      "chrome": {
+        "present": true,
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "151.0.7922.174"
+      },
+      "blender": {
+        "present": false
+      },
+      "ffmpeg": {
+        "present_on_path": false
+      },
+      "imagemagick": {
+        "present_on_path": false
+      }
+    },
+    "fonts": {
+      "repository_ttf_or_otf_count": 0,
+      "current_svg_font_request": "Arial",
+      "embedded": false,
+      "risk": "Exact glyph metrics and rendering are not portable across machines until a licensed font file and renderer are pinned."
+    },
+    "credential_environment_name_audit": {
+      "relevant_names_found": [],
+      "interpretation": "No relevant key variable name was found in the inspected process environment. This does not inspect or rule out external secret stores or signed-in product sessions."
+    }
+  },
+  "protected_comfy_runtime": {
+    "status": "available_read_only",
+    "root": "C:\\AgentWorkspaces\\anime-pipeline\\ComfyUI",
+    "endpoint": "http://127.0.0.1:8188",
+    "transport_scope": "loopback",
+    "inspection_endpoints": [
+      "/system_stats",
+      "/object_info"
+    ],
+    "prompt_or_queue_endpoints_used": [],
+    "comfyui_version": "0.33.0",
+    "comfyui_git_commit": "82f839f5e737d8bfce480872ba05e5a430f2526f",
+    "frontend_version": "1.49.6",
+    "templates_version": "0.11.44",
+    "python_version": "3.14.6",
+    "torch_version": "2.12.0.dev20260408+cu128",
+    "deployment": "local-git",
+    "packages_observed": {
+      "numpy": "2.5.2",
+      "opencv-python-headless": "5.0.0.93",
+      "Pillow": "12.3.0",
+      "safetensors": "0.8.0",
+      "scikit-image": "0.26.0",
+      "segment-anything": "1.0",
+      "transformers": "5.15.1"
+    },
+    "packages_not_observed": [
+      "diffusers",
+      "mediapipe",
+      "ultralytics",
+      "insightface"
+    ],
+    "custom_node_commits": {
+      "comfyui_controlnet_aux": "e8b689a513c3e6b63edc44066560ca5919c0576e",
+      "ComfyUI_IPAdapter_plus": "a0f451a5113cf9becb0847b92884cb10cbdec0ef",
+      "ComfyUI-Frame-Interpolation": "26545cc2dd95bc3d27f056016300673bdeee78f5",
+      "ComfyUI-GGUF": "6ea2651e7df66d7585f6ffee804b20e92fb38b8a",
+      "ComfyUI-Impact-Pack": "429d0159ad429e64d2b3916e6e7be9c22d025c3c",
+      "ComfyUI-Impact-Subpack": "50c7b71a6a224734cc9b21963c6d1926816a97f1",
+      "ComfyUI-Inpaint-CropAndStitch": "606e2b4fd83fc44e1f0b403e1f076501db8c3749",
+      "ComfyUI-Manager": "f39cbd56fecae0b27a446c0cd450cd591f3a8bea",
+      "ComfyUI-VideoHelperSuite": "4ee72c065db22c9d96c2427954dc69e7b908444b"
+    },
+    "observed_capability_nodes": [
+      "KSampler",
+      "ControlNetApply",
+      "ControlNetApplyAdvanced",
+      "Canny",
+      "OpenPose",
+      "DepthAnything",
+      "ZoeDepth",
+      "MiDaS",
+      "AnimeLineArt",
+      "LineArt",
+      "IPAdapterAdvanced",
+      "IPAdapterBatch",
+      "IPAdapterStyleComposition",
+      "InpaintCropImproved",
+      "InpaintStitchImproved",
+      "FluxKontextMultiReferenceLatentMethod",
+      "TrainLoraNode"
+    ],
+    "observed_missing_ready_weights_or_scorers": [
+      "learned pose annotator weights",
+      "learned depth annotator weights",
+      "learned line-art annotator weights",
+      "GroundingDINO",
+      "DINO similarity",
+      "OCR model",
+      "InsightFace model",
+      "local detector/SAM weight"
+    ],
+    "execution_blocker": "The live runtime, cache, temp, user state, model paths, and output paths are inside the protected original checkout. No generation was submitted. Create an isolated runtime/output configuration and verify protected-state hashes before execution."
+  },
+  "local_model_artifacts": [
+    {
+      "id": "flux2-klein-4b-fp8",
+      "bytes": 4070624520,
+      "sha256": "97ed34fe0567e436200f2faee3939b88f2b5d99f8af2a4dc16532c4245c0ccb6",
+      "stated_license": "Apache-2.0",
+      "evidence": "Local license/readme plus official BFL Klein documentation",
+      "commercial_clearance": "not_cleared_as_stack",
+      "note": "The checkpoint's stated license is permissive, but the exact VAE in the executable stack has conflicting non-commercial provenance metadata."
+    },
+    {
+      "id": "qwen-3-0.6b-base-encoder",
+      "bytes": 1192135096,
+      "sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+      "stated_license": "not_resolved_in_this_audit",
+      "commercial_clearance": "unresolved"
+    },
+    {
+      "id": "flux2-vae",
+      "bytes": 336213556,
+      "sha256": "d64f3a68e1cc4f9f4e29b6e0da38a0204fe9a49f2d4053f0ec1fa1ca02f9c4b5",
+      "stated_license": "conflicting_local_metadata",
+      "commercial_clearance": "blocked",
+      "note": "Adjacent source_artifacts metadata names FLUX.2-dev and flux-1-dev-non-commercial-license. Exact provenance and authorization must be resolved before commercial use."
+    },
+    {
+      "id": "illustrious-xl-v2.0",
+      "bytes": 6938040674,
+      "sha256": "c2a1a3eaa13d4c107dc7e00c3fe830cab427aa026362740ea094745b3422a331",
+      "stated_license": "creativeml-openrail-m",
+      "evidence": "Exact hash matches publisher-hosted artifact",
+      "commercial_clearance": "unresolved_full_chain"
+    },
+    {
+      "id": "xinsir-controlnet-union-sdxl-promax",
+      "bytes": 2513342408,
+      "sha256": "9fae2e50cb431bfcbe05822b59ec2228df545ef27f711dea8949e9f4ed9f7cdc",
+      "stated_license": "Apache-2.0",
+      "evidence": "Publisher model card",
+      "commercial_clearance": "unresolved_full_chain"
+    },
+    {
+      "id": "ip-adapter-plus-sdxl-vit-h",
+      "bytes": 847517512,
+      "sha256": "3f5062b8400c94b7159665b21ba5c62acdcd7682262743d7f2aefedef00e6581",
+      "stated_license": "Apache-2.0",
+      "evidence": "Exact hash matches publisher-hosted artifact",
+      "commercial_clearance": "unresolved_full_chain"
+    },
+    {
+      "id": "clip-vit-h-image-encoder",
+      "bytes": 2528373448,
+      "sha256": "6ca9667da1ca9e0b0f75e46bb030f7e011f44f86cbfb8d5a36590fcd7507b030",
+      "stated_license": "not_resolved_in_this_audit",
+      "commercial_clearance": "unresolved"
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "openai-built-in-imagegen",
+      "label": "Built-in OpenAI image generation and editing tool",
+      "category": "hosted_generation",
+      "status": "available_authorized",
+      "actually_available": true,
+      "used_during_route_audit": false,
+      "authorization": {
+        "user_api_key_required": false,
+        "separate_install_required": false,
+        "explicit_spend_authority_required_for_this_surface": false,
+        "entitlement_or_credit_accounting_visible": false
+      },
+      "capabilities": [
+        "text-to-image",
+        "edit with local image references",
+        "edit with recent conversation image references",
+        "multiple reference inputs subject to tool limits"
+      ],
+      "recommended_uses": [
+        "fresh isolated character reference sheets",
+        "fresh environment and monster references",
+        "text-free benchmark panels",
+        "localized correction of strong candidates"
+      ],
+      "hardware": "Hosted; no local GPU requirement exposed",
+      "api": {
+        "public_endpoint_exposed": false,
+        "backing_model": null,
+        "model_snapshot": null,
+        "seed_parameter_exposed": false,
+        "request_id_exposed": false,
+        "usage_exposed": false
+      },
+      "reproducibility": {
+        "grade": "low_to_medium",
+        "bit_exact_expected": false,
+        "record": [
+          "tool identifier",
+          "full prompt and prompt hash",
+          "ordered reference paths and hashes",
+          "edit lineage",
+          "timestamps",
+          "output hash"
+        ],
+        "unknown_fields_must_remain_null": [
+          "backing_model",
+          "snapshot",
+          "seed",
+          "request_id",
+          "usage",
+          "metered_cost"
+        ]
+      },
+      "cost": {
+        "observed_direct_cost_usd": 0.0,
+        "marginal_cost": "not exposed by tool",
+        "product_entitlement_cost": "unknown"
+      },
+      "license_and_rights": {
+        "governing_terms": "Applicable OpenAI account terms and Service Terms",
+        "requirements": [
+          "owned or licensed input references",
+          "human output review",
+          "third-party rights and similarity review",
+          "no prior-worktree references",
+          "no living-artist imitation or real-person likeness dependence"
+        ]
+      },
+      "limitations": [
+        "No exposed seed or snapshot",
+        "Character continuity, exact composition, typography, and complex prompts can fail",
+        "Masks are prompt-guided rather than guaranteed pixel boundaries",
+        "Cost telemetry is unavailable on this surface"
+      ],
+      "disposition": "Primary art candidate for the 24-case bakeoff; pair with deterministic compositor."
+    },
+    {
+      "route_id": "openai-gpt-image-2-api",
+      "label": "OpenAI GPT-Image-2 API",
+      "category": "hosted_generation_api",
+      "status": "blocked",
+      "actually_available": false,
+      "used_during_route_audit": false,
+      "blockers": [
+        "No OpenAI API credential name found in inspected environment",
+        "No authority to create/use paid credentials or incur charges"
+      ],
+      "installed_client": {
+        "package": "openai",
+        "version": "1.109.1"
+      },
+      "api": {
+        "model": "gpt-image-2",
+        "pinned_snapshot": "gpt-image-2-2026-04-21",
+        "endpoints": [
+          "/v1/images/generations",
+          "/v1/images/edits",
+          "/v1/responses"
+        ],
+        "free_tier_supported": false,
+        "documented_seed_parameter_found": false
+      },
+      "capabilities": [
+        "generation",
+        "editing",
+        "multiple image inputs",
+        "high input fidelity",
+        "mask-guided editing",
+        "flexible dimensions"
+      ],
+      "reproducibility": {
+        "grade": "medium",
+        "bit_exact_expected": false,
+        "record": [
+          "pinned snapshot",
+          "endpoint",
+          "prompt and hash",
+          "ordered input hashes",
+          "mask hash",
+          "size and quality",
+          "request identifier if returned",
+          "usage",
+          "output hash"
+        ]
+      },
+      "cost": {
+        "currency": "USD",
+        "as_of": "2026-09-04",
+        "image_input_per_million_tokens": 8.0,
+        "cached_image_input_per_million_tokens": 2.0,
+        "image_output_per_million_tokens": 30.0,
+        "text_input_per_million_tokens": 5.0,
+        "cached_text_input_per_million_tokens": 1.25,
+        "observed_direct_cost_usd": 0.0,
+        "note": "Per-panel cost depends on returned token usage."
+      },
+      "hardware": "Hosted",
+      "disposition": "Do not call without credentials and explicit spend authorization. If later authorized, use the pinned snapshot and capture returned usage."
+    },
+    {
+      "route_id": "bfl-flux2-hosted-api",
+      "label": "Black Forest Labs hosted FLUX.2 API",
+      "category": "hosted_generation_api",
+      "status": "blocked",
+      "actually_available": false,
+      "used_during_route_audit": false,
+      "blockers": [
+        "No BFL API credential name found in inspected environment",
+        "BFL requires an account, credits, and API key",
+        "No authority to purchase credits or incur charges"
+      ],
+      "api": {
+        "preferred_reproducibility_mode": "fixed non-preview endpoint",
+        "preview_endpoint_warning": "BFL documents that preview endpoints may be updated",
+        "reference_limits": {
+          "klein_4b": 4,
+          "higher_hosted_routes": "up to 8 by API depending on model"
+        }
+      },
+      "reproducibility": {
+        "grade": "medium",
+        "bit_exact_expected": false,
+        "record": [
+          "exact endpoint/model",
+          "prompt",
+          "ordered reference hashes",
+          "dimensions",
+          "seed if exposed by chosen endpoint",
+          "request and polling identifiers",
+          "latency",
+          "billed credits",
+          "output hash"
+        ]
+      },
+      "cost": {
+        "currency": "USD",
+        "as_of": "2026-09-04",
+        "klein_4b_from_per_image": 0.014,
+        "klein_9b_from_per_image": 0.015,
+        "pro_text_to_image_from_per_image": 0.03,
+        "pro_editing_from_per_image": 0.045,
+        "max_from_per_image": 0.07,
+        "flex_from_per_image": 0.06,
+        "observed_direct_cost_usd": 0.0
+      },
+      "license_and_rights": {
+        "summary": "BFL states hosted API outputs include commercial-use rights under applicable API terms; input rights and other third-party rights remain the user's responsibility.",
+        "requires_terms_recheck_at_use": true
+      },
+      "hardware": "Hosted",
+      "disposition": "Documented premium alternative, but unavailable for this task."
+    },
+    {
+      "route_id": "local-comfy-flux2-klein-4b",
+      "label": "Local ComfyUI with FLUX.2 Klein 4B FP8",
+      "category": "local_generation",
+      "status": "available_read_only",
+      "actually_available": true,
+      "used_during_route_audit": false,
+      "hardware": {
+        "estimated_vram_requirement": "approximately 13 GB per BFL documentation",
+        "observed_vram_total_mib": 24463,
+        "fit": true
+      },
+      "capabilities": [
+        "local text-to-image",
+        "seed-controlled graph execution",
+        "up to four references in official Klein guidance",
+        "experimental Comfy multi-reference node detected"
+      ],
+      "blockers": [
+        "Live runtime and output/cache paths are in protected original checkout",
+        "Exact local VAE provenance metadata references a non-commercial FLUX dev license",
+        "Text encoder and complete component chain not cleared",
+        "No isolated benchmark graph has been run"
+      ],
+      "reproducibility": {
+        "grade_if_isolated": "high",
+        "bit_exact_cross_version_or_hardware": false,
+        "required_record": [
+          "Comfy commit",
+          "custom-node commits",
+          "Python/PyTorch/CUDA versions",
+          "workflow JSON and hash",
+          "all model hashes",
+          "seed",
+          "sampler/scheduler/steps/CFG",
+          "dimensions",
+          "reference hashes",
+          "output hash"
+        ]
+      },
+      "cost": {
+        "endpoint_cost_usd": 0.0,
+        "cost_types": [
+          "local electricity",
+          "GPU time",
+          "operator time"
+        ]
+      },
+      "license_and_rights": {
+        "checkpoint_stated_license": "Apache-2.0",
+        "full_stack_clearance": "blocked",
+        "blocking_component": "flux2-vae provenance/license conflict"
+      },
+      "disposition": "Do not use commercially or queue in the protected runtime. Re-audit after an isolated output/runtime setup and exact component-chain clearance."
+    },
+    {
+      "route_id": "local-comfy-sdxl-control-ipadapter",
+      "label": "Local ComfyUI with Illustrious XL v2, Xinsir union ControlNet, and IP-Adapter Plus SDXL",
+      "category": "local_generation_controlled",
+      "status": "available_read_only",
+      "actually_available": true,
+      "used_during_route_audit": false,
+      "hardware": {
+        "observed_vram_total_mib": 24463,
+        "fit": true
+      },
+      "capabilities": [
+        "anime-oriented SDXL generation",
+        "seed-controlled graph execution",
+        "Canny control",
+        "externally supplied pose/depth/line-art controls",
+        "IP-Adapter image prompting",
+        "inpainting and mask workflows"
+      ],
+      "offline_ready_controls": [
+        "Canny",
+        "manually supplied control maps"
+      ],
+      "not_offline_ready_controls": [
+        "learned OpenPose preprocessing",
+        "learned DensePose preprocessing",
+        "learned depth preprocessing",
+        "learned line-art/anime-line-art preprocessing"
+      ],
+      "blockers": [
+        "Live runtime and output/cache paths are in protected original checkout",
+        "Full base-model, VAE, encoder, adapter, and reference chain has not been commercially cleared",
+        "Learned annotator weights are absent and would require download",
+        "No isolated 24-case run"
+      ],
+      "reproducibility": {
+        "grade_if_isolated": "high",
+        "bit_exact_cross_version_or_hardware": false,
+        "required_record": [
+          "workflow and hashes",
+          "all artifact hashes",
+          "custom-node commits",
+          "seed and sampler parameters",
+          "control-map generation method and hashes",
+          "reference order and strength",
+          "output hash"
+        ]
+      },
+      "cost": {
+        "endpoint_cost_usd": 0.0,
+        "cost_types": [
+          "local electricity",
+          "GPU time",
+          "operator time"
+        ]
+      },
+      "license_and_rights": {
+        "base_model_publisher_statement": "CreativeML Open RAIL-M",
+        "controlnet_publisher_statement": "Apache-2.0",
+        "ip_adapter_publisher_statement": "Apache-2.0",
+        "full_stack_clearance": "unresolved"
+      },
+      "disposition": "Internal R&D candidate after isolation; not cleared for final commercial assets."
+    },
+    {
+      "route_id": "direct-python-diffusers",
+      "label": "Direct Python Diffusers pipelines",
+      "category": "local_generation_scripted",
+      "status": "blocked",
+      "actually_available": false,
+      "used_during_route_audit": false,
+      "blockers": [
+        "diffusers package absent globally",
+        "diffusers package absent in protected Comfy venv",
+        "No install/download authority"
+      ],
+      "potential_capabilities": [
+        "FLUX.2 Klein reference conditioning",
+        "ControlNet",
+        "IP-Adapter",
+        "inpaint/control pipelines",
+        "explicit torch Generator and seed"
+      ],
+      "reproducibility": {
+        "grade_if_installed_and_pinned": "high",
+        "bit_exact_cross_version_or_hardware": false,
+        "official_caveat": "Diffusers does not guarantee exact reproducibility across releases or platforms."
+      },
+      "cost": {
+        "endpoint_cost_usd": 0.0,
+        "install_and_compute_cost": "not incurred"
+      },
+      "disposition": "Do not install in this task. If later authorized, use a new locked environment outside protected worktrees."
+    },
+    {
+      "route_id": "control-preprocessors-pose-depth-lineart",
+      "label": "Automatic pose, depth, and line-art control-map extraction",
+      "category": "local_preprocessing",
+      "status": "partial",
+      "actually_available": false,
+      "used_during_route_audit": false,
+      "registered_nodes_present": true,
+      "required_weights_present": false,
+      "available_subroute": {
+        "id": "native-canny",
+        "status": "available_read_only",
+        "learned_weight_required": false
+      },
+      "blockers": [
+        "Pose/depth/line-art annotator weights absent",
+        "Invoking the nodes may lazy-download models",
+        "No download authority",
+        "Runtime remains in protected checkout"
+      ],
+      "reproducibility": {
+        "grade_if_present": "high",
+        "required_record": [
+          "annotator name/version/hash",
+          "input hash",
+          "resolution and thresholds",
+          "output control-map hash"
+        ]
+      },
+      "disposition": "Use native Canny or manually authored/cleared maps only. Do not invoke absent learned preprocessors."
+    },
+    {
+      "route_id": "multi-reference-conditioning",
+      "label": "Fresh multi-reference image conditioning",
+      "category": "generation_conditioning",
+      "status": "partial",
+      "actually_available": true,
+      "used_during_route_audit": false,
+      "available_surfaces": [
+        {
+          "route_id": "openai-built-in-imagegen",
+          "status": "available_authorized",
+          "input_mechanism": "local image paths or recent conversation images",
+          "documented_backend_limit": null
+        },
+        {
+          "route_id": "local-comfy-flux2-klein-4b",
+          "status": "available_read_only",
+          "publisher_documented_limit": 4,
+          "note": "An experimental Comfy multi-reference latent node is registered."
+        },
+        {
+          "route_id": "local-comfy-sdxl-control-ipadapter",
+          "status": "available_read_only",
+          "input_mechanism": "IP-Adapter batch/style/composition nodes"
+        }
+      ],
+      "reference_contract": [
+        "Use only fresh isolated Ember Lattice references",
+        "Hash and preserve reference order",
+        "Assign each reference one role: identity, costume/equipment, environment/creature, or pose/composition",
+        "Test one-, two-, and three-reference variants rather than assuming more is better",
+        "Record conditioning strength where exposed",
+        "Reject conflict-driven age, identity, costume, equipment, or style drift"
+      ],
+      "prohibited_inputs": [
+        "prior-worktree images",
+        "unrelated character LoRAs",
+        "unlicensed real-person or artist-style references"
+      ],
+      "reproducibility": {
+        "grade": "surface_dependent",
+        "required_record": [
+          "ordered reference identifiers and hashes",
+          "role per reference",
+          "conditioning strength",
+          "surface/model/workflow",
+          "seed when exposed",
+          "output hash"
+        ]
+      },
+      "cost": {
+        "built_in_surface": "not exposed",
+        "local_endpoint_cost_usd": 0.0
+      },
+      "disposition": "Benchmark on the authorized built-in route now. Local FLUX/IP-Adapter variants remain gated by protected-runtime and model-chain findings."
+    },
+    {
+      "route_id": "blender-2d-3d-staging",
+      "label": "Blender Grease Pencil and 3D staging",
+      "category": "local_layout_and_control",
+      "status": "blocked",
+      "actually_available": false,
+      "used_during_route_audit": false,
+      "blockers": [
+        "Blender executable absent from PATH",
+        "No common-program or uninstall-registry Blender install found",
+        "No install/download authority"
+      ],
+      "potential_capabilities": [
+        "repeatable camera and perspective",
+        "kiln-rib/platform/bridge proxy set",
+        "Grease Pencil storyboarding",
+        "depth and normal passes",
+        "object masks and View Layers",
+        "action contact and scale blocking"
+      ],
+      "hardware": {
+        "observed_vram_total_mib": 24463,
+        "official_recommended_vram_gb": 8,
+        "fit": true
+      },
+      "reproducibility": {
+        "grade_if_installed": "high",
+        "required_record": [
+          "Blender version",
+          ".blend hash",
+          "asset hashes",
+          "camera matrix and focal length",
+          "object transforms",
+          "render engine/settings",
+          "pass hashes"
+        ]
+      },
+      "license_and_rights": {
+        "application_license": "GPL",
+        "output_summary": "Blender states creator artwork remains the creator's; third-party assets and add-ons require separate review."
+      },
+      "cost": {
+        "license_fee_usd": 0.0,
+        "install_and_compute_cost": "not incurred"
+      },
+      "disposition": "High-value future architecture/action-control route; unavailable in this task."
+    },
+    {
+      "route_id": "character-or-style-lora-training",
+      "label": "Fresh Ember Lattice character/style LoRA training",
+      "category": "local_training",
+      "status": "not_ready",
+      "actually_available": false,
+      "used_during_route_audit": false,
+      "observed_trainer": {
+        "node": "TrainLoraNode",
+        "stability": "experimental"
+      },
+      "blockers": [
+        "No fresh owned Ember Lattice training dataset",
+        "No cleared training-base workflow",
+        "Detected local Klein artifact is an inference/distilled FP8 route rather than the preferred base-training setup",
+        "Protected runtime is not an isolated training environment"
+      ],
+      "prohibited_inputs": [
+        "sigrid_v1 LoRA",
+        "soren_v1 LoRA",
+        "any prior-worktree image or adapter"
+      ],
+      "future_requirements": [
+        "publisher-approved base and complete license chain",
+        "fresh owned deduplicated dataset and holdout set",
+        "data/caption/provenance hashes",
+        "isolated runtime and outputs",
+        "pinned trainer and dependency versions",
+        "seed, shuffle order, optimizer, rank, alpha, buckets, steps",
+        "24-case benchmark against non-LoRA route"
+      ],
+      "reproducibility": {
+        "grade_if_fully_pinned": "medium_to_high",
+        "bit_exact_cross_version_or_hardware": false
+      },
+      "cost": {
+        "endpoint_cost_usd": 0.0,
+        "material_costs": [
+          "dataset creation and cleanup",
+          "GPU training time",
+          "validation and retraining"
+        ]
+      },
+      "disposition": "Defer. Existing unrelated LoRAs must never be reused."
+    },
+    {
+      "route_id": "local-inpainting-and-masked-repair",
+      "label": "Local inpainting, crop/stitch, and masked repair",
+      "category": "local_editing",
+      "status": "available_read_only",
+      "actually_available": true,
+      "used_during_route_audit": false,
+      "observed_nodes": [
+        "InpaintCropImproved",
+        "InpaintStitchImproved",
+        "mask utilities",
+        "ControlNet and KSampler nodes"
+      ],
+      "recommended_defects": [
+        "hands and grips",
+        "prop and costume hardware",
+        "contact seams",
+        "small face correction",
+        "background contamination"
+      ],
+      "blockers": [
+        "Protected live runtime/output paths",
+        "Underlying model chain not commercially cleared",
+        "No isolated repair workflow benchmark"
+      ],
+      "reproducibility": {
+        "grade_if_isolated": "medium_to_high",
+        "required_record": [
+          "parent output hash",
+          "crop coordinates",
+          "mask hash",
+          "prompt and negative prompt",
+          "denoise strength",
+          "seed",
+          "model/workflow hashes",
+          "result hash"
+        ]
+      },
+      "cost": {
+        "endpoint_cost_usd": 0.0,
+        "cost_types": [
+          "local compute",
+          "operator review"
+        ]
+      },
+      "disposition": "Use only after runtime isolation and component clearance; built-in OpenAI edit is the presently authorized correction surface."
+    },
+    {
+      "route_id": "deterministic-layered-compositor",
+      "label": "Repository-native SVG, HTML, and Pillow compositing",
+      "category": "deterministic_compositing",
+      "status": "ready_local",
+      "actually_available": true,
+      "used_during_route_audit": false,
+      "observed_components": [
+        "deterministic SVG balloons and captions",
+        "system UI cards",
+        "SFX layers",
+        "safe-zone SVGs",
+        "hash utilities",
+        "contact sheets",
+        "grayscale outputs",
+        "action strips",
+        "responsive HTML review hub"
+      ],
+      "hardware": "CPU; browser rasterization optionally uses installed Edge or Chrome",
+      "api": {
+        "required": false
+      },
+      "reproducibility": {
+        "grade": "high",
+        "svg_source_bit_exact": true,
+        "raster_bit_exact_without_renderer_font_pin": false,
+        "required_record": [
+          "source-art hash",
+          "text-data hash",
+          "SVG/HTML/CSS hashes",
+          "Python and Pillow versions",
+          "renderer executable/version",
+          "viewport and DPR",
+          "font file and license hashes",
+          "output hash"
+        ]
+      },
+      "cost": {
+        "direct_cost_usd": 0.0
+      },
+      "license_and_rights": {
+        "code_and_asset_terms": "Repository terms and each included asset/font license apply",
+        "font_blocker": "Arial is referenced but not embedded; replace with approved repository-bundled font before portable release."
+      },
+      "limitations": [
+        "Current font is not bundled",
+        "Browser raster output depends on renderer/font",
+        "Layer geometry cannot repair defective underlying art"
+      ],
+      "disposition": "Production-ready and mandatory for lettering, UI, SFX, safe zones, and publication packaging."
+    },
+    {
+      "route_id": "professional-lettering-and-system-ui",
+      "label": "Professional deterministic lettering, SFX, and LitRPG system UI",
+      "category": "editorial_design",
+      "status": "ready_local",
+      "actually_available": true,
+      "used_during_route_audit": false,
+      "rules": [
+        "No generated text in source art",
+        "Editable text stored separately",
+        "Reading order, owner, tail target, safe zone, and collision metadata per object",
+        "Distinct stable tokens for Status, Skill, Quest, Item, Inventory, XP, Level, Enemy, Dungeon/Floor, Cultivation, and Faction",
+        "No state communicated by color alone",
+        "Grayscale and thumbnail proof",
+        "Conservative WCAG contrast target: 4.5:1 normal text, 3:1 large text"
+      ],
+      "reproducibility": {
+        "grade": "high_after_font_pin",
+        "current_grade": "medium_to_high",
+        "current_risk": "Unembedded Arial and renderer-dependent glyph metrics"
+      },
+      "cost": {
+        "direct_cost_usd": 0.0,
+        "cost_types": [
+          "lettering and editorial labor"
+        ]
+      },
+      "disposition": "Use for every final panel; approve and bundle a licensed font before release."
+    },
+    {
+      "route_id": "automated-visual-evaluation",
+      "label": "Automated mechanical, visual-regression, and triage evaluation",
+      "category": "quality_assurance",
+      "status": "partial",
+      "actually_available": true,
+      "used_during_route_audit": false,
+      "ready_checks": [
+        "file existence and decode",
+        "dimensions and aspect",
+        "alpha and blankness",
+        "SHA-256",
+        "border/clipping heuristics",
+        "duplicate or near-duplicate warnings",
+        "palette and grayscale checks",
+        "safe-zone and layer-geometry collision checks",
+        "edge-density or entropy warning",
+        "annotated continuity ledger checks"
+      ],
+      "not_ready_checks": [
+        "calibrated character identity scoring",
+        "anime-reliable anatomy approval",
+        "automatic pose landmark scoring",
+        "automatic hand landmark scoring",
+        "OCR enforcement",
+        "DINO or CLIP semantic scoring",
+        "automatic action-contact approval"
+      ],
+      "missing_dependencies_or_models": [
+        "MediaPipe package and task models",
+        "InsightFace model",
+        "DINO/CLIP scorer",
+        "OCR model",
+        "calibrated Ember Lattice validation set"
+      ],
+      "reproducibility": {
+        "grade_for_explicit_metrics": "high",
+        "requirements": [
+          "metric implementation hash",
+          "package versions",
+          "input hashes",
+          "explicit thresholds",
+          "stored raw metric outputs"
+        ]
+      },
+      "cost": {
+        "direct_cost_usd": 0.0
+      },
+      "hard_rule": "Automation may flag/reject and prioritize review; it may not approve identity, anatomy, contact, action geography, lettering safety, or premium quality without human inspection.",
+      "disposition": "Use deterministic checks for triage and regressions; keep human review as the hard gate."
+    },
+    {
+      "route_id": "webtoon-story-and-episode-development",
+      "label": "Structured premium webtoon story and episode development",
+      "category": "narrative_production",
+      "status": "ready_local",
+      "actually_available": true,
+      "used_during_route_audit": false,
+      "required_ledgers": [
+        "season spine",
+        "episode objective and relationship turn",
+        "reveal",
+        "injury",
+        "equipment",
+        "inventory/economy",
+        "faction",
+        "cultivation/progression",
+        "location and action geography",
+        "lighting/time",
+        "unresolved questions"
+      ],
+      "episode_rules": [
+        "One external objective",
+        "One relationship turn",
+        "One progression or economy delta",
+        "One final-scroll question or reversal",
+        "Two to four visible system moments",
+        "Action establishes topology, initiates, contacts, shows consequence, updates geography, and pays off",
+        "Mobile-first vertical rhythm and readable type",
+        "Maintain a publication buffer and correction telemetry"
+      ],
+      "platform_constraints": {
+        "publishing_performed": false,
+        "live_dashboard_required_before_release": true,
+        "content_rating_and_questionnaire_required": true,
+        "scheduling_and_preview_documented": true
+      },
+      "reproducibility": {
+        "grade": "high",
+        "record": [
+          "versioned scripts and ledgers",
+          "panel identifiers",
+          "change history",
+          "artifact hashes",
+          "review decisions"
+        ]
+      },
+      "cost": {
+        "direct_cost_usd": 0.0,
+        "cost_types": [
+          "writing",
+          "editing",
+          "continuity review",
+          "publication operations"
+        ]
+      },
+      "disposition": "Production-ready; use as the source of truth from which prompts and UI are compiled."
+    }
+  ],
+  "capability_matrix": {
+    "fresh_reference_generation": [
+      "openai-built-in-imagegen"
+    ],
+    "fresh_source_art_benchmark_now": [
+      "openai-built-in-imagegen"
+    ],
+    "multi_reference_conditioning": [
+      "multi-reference-conditioning"
+    ],
+    "hosted_paid_alternatives_blocked": [
+      "openai-gpt-image-2-api",
+      "bfl-flux2-hosted-api"
+    ],
+    "local_generation_detected_but_gated": [
+      "local-comfy-flux2-klein-4b",
+      "local-comfy-sdxl-control-ipadapter",
+      "local-inpainting-and-masked-repair"
+    ],
+    "local_structural_control_ready": [
+      "native Canny",
+      "manually authored control maps"
+    ],
+    "local_structural_control_not_ready": [
+      "automatic pose",
+      "automatic depth",
+      "automatic line art",
+      "Blender passes"
+    ],
+    "production_ready_deterministic_layers": [
+      "deterministic-layered-compositor",
+      "professional-lettering-and-system-ui"
+    ],
+    "qa_ready_only_for_triage": [
+      "automated-visual-evaluation"
+    ],
+    "narrative_ready": [
+      "webtoon-story-and-episode-development"
+    ]
+  },
+  "recommendation": {
+    "architecture": "Hybrid: built-in generated/edited text-free art plus deterministic SVG/HTML/Pillow lettering, UI, SFX, safe zones, and publication packaging",
+    "art_route_status": "Provisional until full 24-case bakeoff is scored",
+    "primary_art_candidate": "openai-built-in-imagegen",
+    "mandatory_downstream_routes": [
+      "deterministic-layered-compositor",
+      "professional-lettering-and-system-ui",
+      "automated-visual-evaluation",
+      "webtoon-story-and-episode-development"
+    ],
+    "future_research_candidates_after_gates": [
+      "local-comfy-flux2-klein-4b",
+      "local-comfy-sdxl-control-ipadapter",
+      "local-inpainting-and-masked-repair",
+      "blender-2d-3d-staging",
+      "character-or-style-lora-training"
+    ],
+    "selection_rule": "Score complete 24-case sets using median, fifth percentile, absolute weakest case, correction success, failure rate, time, cost, and sustained sequential quality. Any unresolved hard failure in identity, anatomy, action geography/contact, or lettering-safe composition disqualifies a route regardless of median.",
+    "isolation_rule": "No fresh reference or production asset may originate from a prior worktree. No local job may run against protected cache/temp/output/user paths."
+  },
+  "sources": [
+    {
+      "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
+      "accessed": "2026-09-04",
+      "authority": "OpenAI"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/image-generation",
+      "accessed": "2026-09-04",
+      "authority": "OpenAI"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "accessed": "2026-09-04",
+      "authority": "OpenAI"
+    },
+    {
+      "url": "https://openai.com/policies/service-terms/",
+      "accessed": "2026-09-04",
+      "authority": "OpenAI"
+    },
+    {
+      "url": "https://cdn.openai.com/osa/openai-services-agreement.pdf",
+      "accessed": "2026-09-04",
+      "authority": "OpenAI"
+    },
+    {
+      "url": "https://bfl.ai/models/flux-2-klein",
+      "accessed": "2026-09-04",
+      "authority": "Black Forest Labs"
+    },
+    {
+      "url": "https://docs.bfl.ai/flux_2/flux2_overview",
+      "accessed": "2026-09-04",
+      "authority": "Black Forest Labs"
+    },
+    {
+      "url": "https://docs.bfl.ai/quick_start/pricing",
+      "accessed": "2026-09-04",
+      "authority": "Black Forest Labs"
+    },
+    {
+      "url": "https://docs.bfl.ai/quick_start/get_started",
+      "accessed": "2026-09-04",
+      "authority": "Black Forest Labs"
+    },
+    {
+      "url": "https://docs.bfl.ai/quick_start/generating_images",
+      "accessed": "2026-09-04",
+      "authority": "Black Forest Labs"
+    },
+    {
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "accessed": "2026-09-04",
+      "authority": "Comfy-Org"
+    },
+    {
+      "url": "https://docs.comfy.org/tutorials/controlnet/controlnet",
+      "accessed": "2026-09-04",
+      "authority": "Comfy-Org"
+    },
+    {
+      "url": "https://docs.comfy.org/tutorials/utility/preprocessors",
+      "accessed": "2026-09-04",
+      "authority": "Comfy-Org"
+    },
+    {
+      "url": "https://huggingface.co/docs/diffusers/api/pipelines/flux2",
+      "accessed": "2026-09-04",
+      "authority": "Hugging Face"
+    },
+    {
+      "url": "https://huggingface.co/docs/diffusers/using-diffusers/ip_adapter",
+      "accessed": "2026-09-04",
+      "authority": "Hugging Face"
+    },
+    {
+      "url": "https://huggingface.co/docs/diffusers/main/using-diffusers/reusing_seeds",
+      "accessed": "2026-09-04",
+      "authority": "Hugging Face"
+    },
+    {
+      "url": "https://docs.bfl.ai/flux_2/flux2_klein_training",
+      "accessed": "2026-09-04",
+      "authority": "Black Forest Labs"
+    },
+    {
+      "url": "https://help.bfl.ai/articles/9272590838-self-serve-dev-license-overview-pricing",
+      "accessed": "2026-09-04",
+      "authority": "Black Forest Labs"
+    },
+    {
+      "url": "https://huggingface.co/OnomaAIResearch/Illustrious-XL-v2.0",
+      "accessed": "2026-09-04",
+      "authority": "Model publisher"
+    },
+    {
+      "url": "https://huggingface.co/xinsir/controlnet-union-sdxl-1.0",
+      "accessed": "2026-09-04",
+      "authority": "Model publisher"
+    },
+    {
+      "url": "https://huggingface.co/h94/IP-Adapter",
+      "accessed": "2026-09-04",
+      "authority": "Model publisher"
+    },
+    {
+      "url": "https://docs.blender.org/manual/en/latest/video_editing/storyboarding/index.html",
+      "accessed": "2026-09-04",
+      "authority": "Blender Foundation"
+    },
+    {
+      "url": "https://docs.blender.org/manual/en/latest/render/layers/introduction.html",
+      "accessed": "2026-09-04",
+      "authority": "Blender Foundation"
+    },
+    {
+      "url": "https://www.blender.org/about/license/",
+      "accessed": "2026-09-04",
+      "authority": "Blender Foundation"
+    },
+    {
+      "url": "https://www.blender.org/download/requirements/",
+      "accessed": "2026-09-04",
+      "authority": "Blender Foundation"
+    },
+    {
+      "url": "https://www.blender.org/releases/4-5/",
+      "accessed": "2026-09-04",
+      "authority": "Blender Foundation"
+    },
+    {
+      "url": "https://www.w3.org/TR/SVG2/text.html",
+      "accessed": "2026-09-04",
+      "authority": "W3C"
+    },
+    {
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "accessed": "2026-09-04",
+      "authority": "W3C"
+    },
+    {
+      "url": "https://openfontlicense.org/",
+      "accessed": "2026-09-04",
+      "authority": "SIL"
+    },
+    {
+      "url": "https://scikit-image.org/docs/stable/api/skimage.metrics.html",
+      "accessed": "2026-09-04",
+      "authority": "scikit-image project"
+    },
+    {
+      "url": "https://ai.google.dev/edge/api/mediapipe/python/mp/tasks/vision/PoseLandmarkerResult",
+      "accessed": "2026-09-04",
+      "authority": "Google"
+    },
+    {
+      "url": "https://ai.google.dev/edge/api/mediapipe/python/mp/tasks/vision/HandLandmarkerResult",
+      "accessed": "2026-09-04",
+      "authority": "Google"
+    },
+    {
+      "url": "https://webtooncanvas.zendesk.com/hc/en-us/articles/18556588863380-How-do-I-start-publishing-on-CANVAS",
+      "accessed": "2026-09-04",
+      "authority": "WEBTOON CANVAS"
+    },
+    {
+      "url": "https://webtooncanvas.zendesk.com/hc/en-us/articles/29555016331924-Content-Review",
+      "accessed": "2026-09-04",
+      "authority": "WEBTOON CANVAS"
+    }
+  ]
+}

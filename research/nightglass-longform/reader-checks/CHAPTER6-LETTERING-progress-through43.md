@@ -1,0 +1,61 @@
+# Chapter 6 — first opening panel reviewed
+
+PASS for selected N6-01 after actually viewing its full native, individual 390px panel and both continuous opening viewports in `chapter6-opening-preview/`. Snapshot SHA-256: `6cdc7857e99c82174602b243a26c6d3a7f466bb256c80abbe9240d4cde69b7f4`. Source/copy proof verifies the selected native and exact authoritative/rendered copy, all prior 219 panels and complete five-chapter records, comparisons and existing lettering overrides unchanged. The full 47-panel script retains SHA-256 `aeea4046b2f138dcebad3e27b0cc5cf4d4b241c3a02fcc27337977e80d6f3204`.
+
+The title and premise introduce a possible room and Aren’s wish to finish his first week. The caption explicitly establishes the fourth paid morning, while Ossa’s question recalls the after-closing bindery appointment. The one open cream wallet is held in Aren’s anatomical left hand above the counter rather than resting there, with the right adding a coin; no waist duplicate appears. One closed gray bag and its slack brown harness rest on the counter, leaving his shoulders bare. The old left tear, intact right sleeve and sole right sheath remain visible. Current plum-purple/checked appearance follows the acknowledged actual prior selection, not an invented restoration.
+
+All copy is exact and 16px. Ossa’s upper tail is directed toward her, and Aren’s named tailless lower band avoids pointing at the wallet. Faces, payment contact and bag remain uncovered. The two overlapping 390px opening viewports cover title/premise and complete first panel, with no later artwork shown. Browser checks found one loaded image, no errors, broken images or horizontal overflow. The reader correctly says incomplete 1/47; the other 46 panels have no selected image sources. Existing 80px pause after the opener is unchanged. No source selection or completion gate was edited by this reviewer; next actual panels await release.
+
+## First four panels — receiving choice and witnessed approach
+
+PASS after actually viewing the new 02–04 full selected natives/crops, all four individual 390px panels, and all three fresh opening viewports in order through the original-size composite in `chapter6-first4-reviewed/inspection/`. Snapshot SHA-256: `8df0757f7b4ffb4b41aac0e5f05330b29339f8c2299ea9fd08d5a45f5d09b9db`. Exact proof binds the source/copy and applicable crop pixels; first 01, all previous 219 full five-chapter records and comparisons remain unchanged. The full 47-panel script remains unchanged. This preview is incomplete 4/47, with no selected art supplied for later panels.
+
+The fourth morning’s paid work leads promptly back to Ilen, whose departing answer is confirmed without claiming receipt by her daughter. Her choice of the loft as a receiving stop belongs to her, and her left hand continues supporting the paper frame while her right indicates the dry board. Sera retains her closed ledger until the next panel, where she records only the visible public approach and actual door. No private correspondence or loose light-blue copy reappears. The early personal visit keeps this opening connected to the prior chapter’s consequence.
+
+Panel 02 uses the original primary crop unchanged. Panel 03 uses the sole repair that healed an erroneous near-right sleeve opening before selection: the right-facing view now has an intact near anatomical right sleeve and visible right sheath, with the old left tear naturally hidden on the far side. In 04 Sera’s boots stand on adjacent tread heights with actual support; Aren’s boots are also supported. The claim stays local to this witnessed stair, not citywide access. All copy is exact and 16px, with clear upper speaker tails and no covered hands, faces, writing or steps. The three-view capture overlaps at the boundaries and ends at 04, with no missing coverage or later art. Browser checks show four loaded images and no errors, broken images or horizontal overflow. No new material reading blocker appeared.
+
+
+## Market route and separate room visit: panels05–06 and19–24
+
+PASS after actual native/crop and eight individual390px inspections, followed by all five bounded continuous viewports read in order through both original-size composites. Exact snapshot `a7d00a4b7b975f893203f027c1f130b11dff426b846a02dc503abeb3e1453cc2` and source/copy/crop-pixel proof are in `chapter6-market-room-reviewed/`. Final individual captures are byte-identical to the actually inspected provisional captures.
+
+The two market lines distinguish familiar collection/returns from Sera’s limited two-stop observation. The room sequence gives the entry and furnishing reveal two silent panels, then makes the weekly terms, Aren’s voluntary wait and desire for quiet clear. All speech remains16px outside the art. Named tailless AREN/VENN in23 and KIVA in24 avoid misleading tails while preserving expressions. No copy or artwork was changed.
+
+Retained qualifications:20’s stone exterior landing is the access authority;22’s short wooden stair glimpse is not exact matching geometry.24’s extra gray bag loops are decorative variation, not a new bag or load.06’s cropped lower feet are not full-sole support proof. No rent, key transfer, binding lease or guaranteed hold occurs in this visit.
+
+The reader is12/47 and incomplete: contiguous01–06, gap07–18, separate19–24, later25–47 absent. Prior firstfour records, all219 completed chapter records and comparisons are exactly preserved. Browser reports no broken images, page errors or horizontal overflow; all15 current copy balloons are16px and within390px. This bounded review does not claim a complete Chapter6 reading.
+
+
+## Office direction and working week:07–11 and25–36
+
+PASS after actual17 selected-image reviews, all17 individual390px captures, corrected34/36 wrap captures, and all10 bounded continuous viewports through three original-size composites. Evidence: `chapter6-office-week-reviewed/`, snapshot `7d78f4304b878ba3a16abb4d92b0af9e64d31143270b35d1ab5b07af4164a0a1`. All final individual images byte-match the versions actually inspected.
+
+Office06–11 preserves the limited two-stop observation, current direction’s authority, replacement signing and Aren’s actual GREEN-notice receipt. It does not yet show Toma receiving it. Week24–36 turns the room wish into a measured passage of fifth, sixth and seventh paid mornings. Ilen’s business order and Kiva’s retained order lead visibly back into supported work; her next collection remains after the morning post. The exact-copy captions make these separate days legible rather than implying multiple unmarked rounds on one morning.
+
+All new speech is16px and outside the art.34’s named lower AREN band avoids a tail toward his hand or the papers.34’s question width and36’s caption width were adjusted after the first phone pass to remove single-word last lines; copy and art stayed exact. The wide28/29 images remain readable at390, although29’s small overlapping papers do not independently prove the whole sheet. Both preserve Ilen’s private drawer closed and keep Aren outside their framing.
+
+27’s badge repair is now selected and actually confirmed: rectangular brass on the same red cord, no round substitution.33 preserves its original crop;34 uses the sole wallet repair.26 is the accurate earlier stair image and36 the accurate fee image with new day/copy;36 retains the held-wallet versus counter-resting pose qualification. Walking images are not claimed as static two-sole proofs.
+
+Source/copy/hash and applicable native crop pixels pass. All previous12 panel records, prior219 complete chapters, comparisons and every existing lettering override are exact. Preview29/47 remains incomplete, with12–18 and37–47 honestly absent. No full47 reading claimed. Browser errors/broken images/overflow are zero and all current copy balloons fit390px at16px.
+
+
+## Notice received and room chosen:12–14 and37–38
+
+PASS after actual five full selected-crop views, five individual390px phones and the corrected38 wrap, followed by all four continuous viewports through both original-size composites. Evidence `chapter6-notice-choice-reviewed/`, snapshot `0d73ae13102030da12d056c53b324875f447a0543c296e40b5bfeabe23053b06`. All final individual images byte-match the actual viewed versions.
+
+11–14 now completes the limited notice’s custody and effect: ordinary route, actual LEFT-to-Toma receipt, then Toma marks his own register with the GREEN beside it. Sera retains her distinct closed ledger.36–38 pays off the promised first-week conversation: Ossa offers the discussion, Aren chooses the bindery, and the stair/table staging supports both early work and continued belonging. No rent, key or lease occurs yet.
+
+37 lower AREN and38 lower OSSA use named tailless bands to protect attribution and hands.38 upper width was narrowed to remove the isolated final word while preserving exact copy. All39 current balloons are16px and fit390px; no browser errors, broken images or horizontal overflow.
+
+Retained qualifications:12 passes beside the green entrance before the unshown turn inside;14 has an extra GREEN cross-crease/ruling drift without exact signature-fidelity claim;37/38 worn bag contents are occluded and lower soles meet the frame edge. All prior29 panel records, previous219 complete chapter records/comparisons and existing overrides are exact. Preview34/47 remains incomplete, with15–18 and39–47 absent. This is a bounded reading, not a complete47 review.
+
+
+## Mail released, rent paid and door opened:15 and39–43
+
+PASS after actual six full native views, all six individual390px phones, and all four continuous viewports through two original-size composites. Evidence `chapter6-rent-access-reviewed/`, snapshot `244d3454ae70690403864d722731d6cb2d4f561c3c8763cafcb5d0e3523a7912`. Final phones byte-match the actually inspected provisional versions.
+
+14–15 makes the applied direction cause a supported release of one tied brown batch. The batch is still being guided into the bag; closure and Lower Post arrival are not shown yet.38–43 follows continued welcome with a later seventh-day bindery visit, actual rent payment, weekly acceptance in Venn’s own book, key receipt and use at the supported landing. The order makes this paid access, not a free room or permanent ownership.
+
+All five new copy bands remain16px outside art, with correct speaker directions and visible hands.42’s key is small at390 but its transfer and the following lock action remain readable; no exact key-tooth/profile claim.43 is a full landscape native with the slight inherited door gap, not proof of an initially fully closed door.15’s extra thigh badge and43’s duplicate wallet were repaired before these selections; the correct single props remain.
+
+All prior34 full panel records, completed219 chapter records/comparisons and previous overrides remain exact. All44 current balloons fit390px at16px, no browser errors/broken images/overflow, all source/copy and applicable crop-pixel checks pass. Preview40/47 stays incomplete:16–18 and44–47 missing. No full47 read claimed.

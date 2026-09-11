@@ -1,0 +1,57 @@
+{
+  "id": "NG03",
+  "attempt_id": "NG03-P",
+  "phase": "primary",
+  "category": "encounter",
+  "prompt_path": "production/encounter-lab/prompts/NG03-P.txt",
+  "prompt_sha256": "b2e58211302061455251a6d00ff39b05f7bfbbdd2789f41b1af6b7cb68e86be4",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/NG01-P.png",
+      "sha256": "699accafe21ad90f18b043691559ce0a5f9e0d1ddb9ec83b2a477f0645852394",
+      "role": "Actual earlier new encounter frame NG01; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+    },
+    {
+      "path": "production/encounter-lab/candidates/NG02-P.png",
+      "sha256": "8f519faafe4fec022c61719f0831999f7c8169784db60e9a28a6d649fa470198",
+      "role": "Actual earlier new encounter frame NG02; preserve identity, equipment, creature construction, geography and persistent state. New action and camera."
+    },
+    {
+      "path": "production/encounter-lab/references/ng-recent.png",
+      "sha256": "f3a5f714c8990d7f78f05cb4e9d9e0429dfa94ef9d27f96458bd3dd0676b73ed",
+      "role": "Riven identity and current drawing/impact treatment; create new choreography."
+    },
+    {
+      "path": "production/encounter-lab/references/nightglass.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original full Nightglass; drawing and world benchmark, not cast selection"
+    },
+    {
+      "path": "production/encounter-lab/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "role": "Recurring adult identity and saber construction only"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 04:57:16 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/NG01-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/NG02-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/references/ng-recent.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/references/nightglass.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/references/riven.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 04:58:10 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-e40390cc-c0ae-4247-991a-25186dc47809.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

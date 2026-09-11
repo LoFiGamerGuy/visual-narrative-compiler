@@ -1,0 +1,15 @@
+COMPLETED: dark-state gate received; one primary returned and recommended for15–17. See REVIEW.md and integrity.json. The following is preserved pre-call planning, not current status.
+
+# Shade work15–17: waiting for dark-state dependency
+
+Current actual image-tool calls: ZERO. Root assigned bounded ownership15–17 after opening01–05. Do not submit until selected13/14 lamp-off/animal-departure states are received and actually inspected. Selected06 and07–08 natives have been viewed, as have the original local beacon crop, current harness, and Rusk reference.
+
+Proposed one coherent three-tier page:15 medium supported shade/collar/guide-pane alignment and Rusk arriving;16 close portable board with exactly two distinct old/new metal pieces;17 medium load choice, only new shade entering empty gray bag, removed old shade already secured in Rusk's heavy tool case. If actual layout cannot preserve the objects and supports, use the bounded observed structural repair, not broad alternatives or beauty variations. No texture finish absent actual surface need.
+
+Actual old hood in06/07–08 is a large curved black quarter-cone side piece beside the SMALL physical lantern; it is not the lantern's entire body. Original recognizable lamp has domed hood, glass cylinder/body, dark bottom housing and vertical mounting support. New ordinary metal shade must fit that fixture with a narrow downward slot. Do not invent a new glowing orb, weapon or armor reward. Lamp OFF throughout15–17; no glowing cyan strip or active line, no ray after departure. Collar/cable intact/stationary, all feet on supported walkway/board area, never lift car.
+
+Object continuity:15 old loose shade still at isolated lamp,16 removed old shade retained on board next to one new replacement,17 old shade leaves board into Rusk's tool case and stays there. New replacement alone goes in Aren's empty gray bag. No simultaneous duplicate old shade on board and in case. No mail, yellow folder, black offer or extra tools in Aren bag. Rusk carries ordinary tool case up visible stair from workshop. Ossa remains at Lower Post.
+
+Action simplification:17 Aren's hipbelt adjustment has completed before the visible packing moment; one hand places new shade, other supports bag flap on a fixed surface. Rusk's old part is already secured beside tools as he closes the case. Avoid showing separate handoff, packing, belt adjustment and case refusal with extra hands. Small headshake/actual dialogue carries limit choice. Harness no capacity/force upgrade, right sword sheathed, left elbow and hem tears unchanged.
+
+References to bind after dark-state gate: original anchor01; selected06 fixed geography; selected13/14 exact OFF lamp; selected old-hood/collar detail from actual07–08 or13/14; Rusk exact character crop (exclude letter scene prop); worn harness37/38. Use only reference roles needed for one scene and preserve exact native paths/hashes.

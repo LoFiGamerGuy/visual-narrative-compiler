@@ -1,0 +1,116 @@
+{
+  "record_type": "RenderRecord",
+  "schema_version": "CityKeepsOathsRenderRecord/1.0",
+  "request_id": "CH06-S01-G01",
+  "exact_prompt": "Use case: illustration-story\nAsset type: text-free three-panel vertical continuity strip for CH06 CH06-S01 group 1\nInput images: Image 1 is the registered clean-cinematic style anchor; Image 2 is the registered Sola progression sheet when Sola appears; Image 3 is the registered supporting-adult sheet when Tarin, Kesin, or Serac appears. Use only for original identity, wardrobe state, contour, palette, and equipment continuity.\nPrimary request: Create one portrait canvas divided into exactly three stacked chronological comic frames with clean narrow gutters. Each frame is a distinct story moment, not a montage.\nScene/backdrop: simple shelter workshop before the hearing in Caelune, an original city of pearl-stone crescent districts suspended above a deep blue cloud sea by living luminous roads.\nCharacters: Sola Merrow, fictional adult woman age 38, tall athletic working build and mature proportions, warm brown skin, long dark auburn hair in a low segmented braid with one silver forelock, deep navy practical pathwright coat with ivory piping, ochre scarf, slate trousers and boots; copper oath bracer until broken; never sexualized; Tarin Kest, fictional adult man age 45, broad mature build, deep umber skin, short tightly curled black hair silver at both temples, pearl-gray practical warden coat over muted teal layers, dark trousers and boots; long ivory spear-key until broken; never sexualized; Kesin Or, fictional adult nonbinary archivist age 52, compact mature build, light olive skin, shaved head, round amber spectacles, plum-gray layered archive jacket, ink-dark gloves and satchel; never sexualized.\nNon-human subjects: none.\nStyle/medium: original clean cinematic fantasy-webtoon illustration; crisp controlled dark-navy contours; limited internal linework; smooth cel shading with restrained painterly gradients; clean skin, hair, fabric, stone and metal shapes; mature adult proportions; strong foreground/midground/background value separation; pearl stone, midnight blue and cool cyan with selective warm gold oathlight; generous negative space; one dominant focal subject; restrained luminous accents; emotionally legible faces; no texture fog.\nComposition/framing: top-to-bottom chronology; one dominant focal subject and no more than two competing actions per frame; simple low-detail backgrounds except when the frame establishes geography; large readable gestures and silhouettes; naturally quiet open areas, but never draw a box for text.\nChronological frames:\nFrame 1: Establish simple shelter workshop before the hearing with sola, tarin, kesin; make current geography and emotional condition immediately legible.\nFrame 2: Concrete objective: Prepare evidence and practical clothing for Sola's injured arm; show an adult initiating a specific next step.\nFrame 3: Escalation becomes visible: The splint prevents her from wearing the intact long coat.\nIrreversible visible state already in force: tarin_badge_surrendered, sola_tarin_kesin_declared_obstructors, sola_rejects_defensive_bureaucracy, sola_unlocks_hold_chord, sola_career_pledged_to_truthful_repair, serac_knows_sola_can_listen, sola_refuses_serac_obedience_oath, sola_left_forearm_lattice_fracture, sola_hold_chord_destabilized, sola_left_arm_splinted, sola_navy_coat_left_sleeve_cut, tarin_spear_bent, sola_unlocks_span_chord, sola_declared_enemy_of_continuity.\nNew state introduced by this sequence and visible when causally reached: sola_short_field_coat, sola_rank_pins_removed, sola_ivory_forearm_brace.\nConstraints: all humans are explicitly fictional adults with unmistakably mature proportions; preserve named identity, hair, clothing, injury, equipment, and relationship state; coherent hands and anatomy; clear cause and effect; disciplined light; at most one cyan-gold oath effect per frame; source art contains no final lettering.\nAvoid: any text, letters, numbers, captions, speech balloons, empty caption rectangles, blank placards, logos, signatures, watermarks, floating interface, children, child-coded or young-looking adults, sexualized clothing or framing, real-person likeness, third-party characters, title-specific designs, named-artist imitation, woodcut marks, dry brush, risograph, paper grain, hatching, crosshatching, grunge, muddy palette, equal detail everywhere, crowded machinery, multiple competing effects, generic glossy 3D.\n",
+  "prompt_sha256": "d93c0bda4686781eae0370bc677f84d689a45220299ed473e906f9d537d05b68",
+  "target_chapter": "CH06",
+  "target_sequence": "CH06-S01",
+  "target_panel_ids": [
+    "CH06-S01-P01",
+    "CH06-S01-P02",
+    "CH06-S01-P03"
+  ],
+  "input_references": [
+    {
+      "id": "clean-cinematic-style-anchor-v1",
+      "file": "experiments/reimaginings/the-city-keeps-oaths/style-probes/candidate-a.png",
+      "sha256": "2e25477c600dbe4d39d6e14c2f0fd9ac10e8aa6569194941597a1585a662d7cb"
+    },
+    {
+      "id": "sola-progression-sheet-v1",
+      "file": "experiments/reimaginings/the-city-keeps-oaths/references/sola-progression-sheet-v1.png",
+      "sha256": "71eae182d2d76887977468a774da3d88f5ac056ac7e02de0219b2221e743add0"
+    },
+    {
+      "id": "supporting-adults-sheet-v1",
+      "file": "experiments/reimaginings/the-city-keeps-oaths/references/supporting-adults-sheet-v1.png",
+      "sha256": "9963ac789a2bec27ffdf96dcc30ba5512a27a5e2204d5bd9e3ebab2381a8ff5e"
+    }
+  ],
+  "output_path": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/source-strips/ch06-s01-g01.png",
+  "output_sha256": "a8395e5fe17fdd7288a9caf71e3245c92501df06c275b7cf6d7122050523114a",
+  "dimensions": [
+    954,
+    1649
+  ],
+  "measured_elapsed_seconds": 69.338,
+  "product": "OpenAI built-in ImageGen in Codex",
+  "tool": "image_gen",
+  "model": null,
+  "endpoint": null,
+  "provider_request_id": null,
+  "usage": null,
+  "monetary_cost_usd": null,
+  "deterministic_seed": null,
+  "extraction_method": "equal vertical thirds",
+  "crop_coordinates": [
+    {
+      "panel_id": "CH06-S01-P01",
+      "crop_coordinates": [
+        4,
+        4,
+        950,
+        546
+      ],
+      "method": "equal vertical thirds with four-pixel inward trim"
+    },
+    {
+      "panel_id": "CH06-S01-P02",
+      "crop_coordinates": [
+        4,
+        554,
+        950,
+        1095
+      ],
+      "method": "equal vertical thirds with four-pixel inward trim"
+    },
+    {
+      "panel_id": "CH06-S01-P03",
+      "crop_coordinates": [
+        4,
+        1103,
+        950,
+        1645
+      ],
+      "method": "equal vertical thirds with four-pixel inward trim"
+    }
+  ],
+  "candidate_paths_and_hashes": [
+    {
+      "panel_id": "CH06-S01-P01",
+      "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/panels/ch06-s01-p01.png",
+      "sha256": "5a17570434f0cf2af0d0aae213834de7d6eb103a9d7f83b88a8b00c84f7bce20",
+      "dimensions": [
+        946,
+        542
+      ]
+    },
+    {
+      "panel_id": "CH06-S01-P02",
+      "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/panels/ch06-s01-p02.png",
+      "sha256": "df30af8ed79f98b8aae0c1c84191e201d2b47d7d668ea5c55032244601993b8e",
+      "dimensions": [
+        946,
+        541
+      ]
+    },
+    {
+      "panel_id": "CH06-S01-P03",
+      "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/panels/ch06-s01-p03.png",
+      "sha256": "e391155fea4ca6cf9bb8d39dc481926d34706dafea6b53b49b1e7e592a304ded",
+      "dimensions": [
+        946,
+        542
+      ]
+    }
+  ],
+  "review_status": "PASS",
+  "failure_classes": [],
+  "human_review_state": "owner_review_pending",
+  "acceptance_state": "unaccepted",
+  "commercial_clearance_state": "commercially_uncleared",
+  "production_base_state": "not_an_exact_production_base",
+  "reproducibility_state": "non_reproducible_unless_proven",
+  "recorded_utc": "2026-09-04T02:47:28.273327+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "N7-13-14-P",
+  "tool": "image_gen.imagegen",
+  "status": "returned",
+  "phase": "primary",
+  "panels": [
+    "N7-13",
+    "N7-14"
+  ],
+  "args": {
+    "prompt": "Use case: illustration-story. Create ONE finished vertical Nightglass Courier comic art page approximately1024x1536 with EXACTLY TWO full landscape panels stacked top/bottom, narrow straight light gutter, no inset/third panel/text/balloons. Each full tier will be cropped losslessly.\nReference1 accepted07 defines ACTUAL geography/cart: broad STRAIGHT stone stair flight from upperblueawningmarket down to fixed LOWERlanding, generous OUTSIDE LOWERcorner, one raised stone wall-cap ledge beside ONE parked compact two-wheel cart; smooth paved ramp continues around right end of wall. Do not invent a midflight dogleg or move cart onto stairs. Reference2 accepted12 defines exact two adults/current clothing/loadedboard + Daro RIGHTarm foldedgraypad. Reference3 accepted10R1 defines exact closedbox/twofrontcatches/ONEcream landscape slip held under central BROWN exteriorloop and brassfoldingshortendhandles.\nTOP N7-13: side-oblique FULL-BODY working view near the lower portion of the SAME broad stone stair flight. Aren pauses with both feet securely on a broad ordinary tread, holding the carryingBOARD perfectly LEVEL in BOTH BLACK-GLOVED HANDS at its opposing short-end grips/edges. ONEclosedbox rests fullyflat centered on board, cream slip retained. Daro stands ONE TREAD BELOW him in the clear stair aisle, grayfoldedpad still under anatomicalRIGHTarm, indicating the generous OUTSIDE LOWER corner/clear wide part of the turn with his emptyLEFT hand. Both faces visible, feet supported, no floating or rushing. Show enough broad stair width and lowerlanding to make his practical advice understandable: the inner wall corner would catch a long board, the wide outer approach is clear. Actual stair is a straight flight, the turn is only at the LOWER landing. Cart may be off bottom/rightframe but NEVERabove or onstairs. No cargo passes hands here.\nBOTTOM N7-14: wide FULL-BODY lowerlanding view moments later. Aren has completed the SAME last steps and stands fully on fixedlowerlanding, still holding ONEbox on the LEVELboard in BOTHglovedhands, no box oncartyet. Beside him, Daro bends at waist beside his SAME STATIONARY EMPTY cart and unfolds that ONEgrayfabricpad onto the barewoodbed with both ordinaryBAREhands. The cloth is partway opened, lower portion supported onbed, upperedge inhis hands; no duplicate foldedpad underarm now. Cart TWOlarge darkspokedwheels and small forwardrestinglegs remain planted on flatlanding. TWOparallelwoodhandles extend into safeclearaisle. ONEloosebrownsecuringstrap lies cleared to bededge; it is not fastened over emptyair. SAMEraisedstonewallcapledge stands besidecart at waistheight, visibly ABOVE lowcartbed, no equalheightslide. Boardandbox have NOT been set onledgeyet (nextpanel). Steps behind continue to recognizable upperblueawning; smoothpavedramp aroundwallend remainsclear. No wheels onstairs, gap, cliffload or lift. Show complete human feet/cartwheels/support.\nAren plumhair/ambereyes/lavenderCHECKEDbuttonedshirt overblackhighneck, old anatomicalLEFTuppersleevetear/RIGHTintact, blackgloves/trousers/boots, ONEgraybagWORN/twoBROWNpaddedstraps+hipbelt, ONEclosedcreamwaistwallet/keyconcealed, soleRIGHTblack/brasssheath/rectBRASSbadgeREDcord. Daro olivebrownadult/blackshortLOWKNOT/clean-shaven/denimBLUEcoat/BRICKneckcloth/creamundershirt/charcoaltrousers/barehands/no badgeweaponbag. No Kiva/Sera/Rusk foreground. The cargo is exactlyONEclosedwoodbox with TWOcatches/ONEcentralbrownloopandcreamslip, on ONEseparateflatboard/twoendcutouts; no extraboxes or loosehinges, no paidoutcome or powers.\nPreserve expressive faces, luminous warm-city anime style, calm broad shapes and meaningful physical contacts at390px. ExternalTOP Daro line for compositiononly, DO NOT DRAW TEXT: \u201cUse the outside turn. The inside catches the board.\u201d BOTTOM silent.\n",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/candidates/N7-07-P.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/crops/N7-12.png",
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/candidates/N7-10-R1.png"
+    ]
+  },
+  "arguments_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/requests/N7-13-14-P.json",
+  "prompt_sha256": "5c901ce8c3162a9e10724a7fc3561db9f14c3ea0a38667b56bf5de8bc7d62f25",
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter7/lead/candidates/N7-07-P.png",
+      "sha256": "ea404e46b68c6c8d7aaeb7edf54d2484d34418ef858757414f762f5685e0256e"
+    },
+    {
+      "path": "production/nightglass-longform/chapter7/lead/crops/N7-12.png",
+      "sha256": "ee29d00bdba79f02e255ba6b4e16e85fbfe3d5b3bbdee123ef09be53b5cbdb62"
+    },
+    {
+      "path": "production/nightglass-longform/chapter7/lead/candidates/N7-10-R1.png",
+      "sha256": "9ca50f9d9c9c760e3a4ddc73d4998cd45756c9f3ecd8e41b54981bc46b635c30"
+    }
+  ],
+  "before_art_dependency": {
+    "gate": "research/nightglass-longform/CHAPTER7-PRODUCTION-GATE.json",
+    "script_sha256": "25719f56be09a5ff0e61725b65ff4cdf442c3294e624a9f72f4013d20a6725bb",
+    "preceding_zip_sha256": "054c78ed5be07ce4e0de16138ab80f4c9265174777ea94074c08f91c6129c66b",
+    "actual_reference_review": "Lead actually viewed each reference before this call; source roles/current state recorded in prompt."
+  },
+  "model_snapshot": null,
+  "seed": null,
+  "billing": null,
+  "owner_approval": null,
+  "invoked": true,
+  "submitted_utc": "2026-09-10T14:59:09.677996+00:00",
+  "returned_utc": "2026-09-10T15:02:39.998946+00:00",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-8ef32f66-5be9-470e-b9d1-18b72be5b8ee.png",
+  "path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/candidates/N7-13-14-P.png",
+  "sha256": "45e51ec3ae763cf601850e629f7d187f96f056ad752cc7e3be8854f25f2beb54",
+  "raw_return_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/calls/N7-13-14-P-tool-return.json"
+}

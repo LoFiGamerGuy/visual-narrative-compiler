@@ -1,0 +1,11 @@
+from pathlib import Path
+from PIL import Image,ImageDraw
+import json
+R=Path(__file__).resolve().parents[4];B=R/'production/structural-pilot/finishing/S/P09';O=B/'F01-v2';O.mkdir();s=json.loads((B/'F01/P09-F01.spec.json').read_text());s['id']='SC-20260907-01-S-P09-F01-v2';s['output_svg']=str((O/'P09-F01-v2.svg').relative_to(R))
+facets=json.loads((B/'F01/kite-facets.json').read_text());s['layers'].insert(3,dict(id='fixed-kite-projected-facets',svg=facets['svg'],kind='frozen-Blender-face-projection'))
+th=Image.open(R/'production/structural-pilot/control/v8/P09-sentinel.png').convert('RGBA');th.putdata([(r,g,b,a if r-g>35 and b-g>35 else 0) for r,g,b,a in th.getdata()]);th.save(O/'gill-only.png');s['layers'].insert(4,dict(id='fixed-violet-slit',path=str((O/'gill-only.png').relative_to(R))))
+for l in s['layers']:
+ if l['id']=='two-connected-conventional-forearms':l['svg']='<path d="M508 490 L525 499 L535 531 L562 565 L555 581 L545 578 L516 540 L510 520 Z" fill="#30333a" stroke="#171a20" stroke-width="2"/><path d="M516 500 L528 534 L548 559 L544 566 L520 540" fill="#474a51"/><path d="M596 531 L614 532 L626 588 L619 602 L608 596 L606 576 Z" fill="#30333a" stroke="#171a20" stroke-width="2"/><path d="M604 538 L609 540 L620 580 L615 585 Z" fill="#474a51"/>'
+props=Image.open(R/'production/structural-pilot/control/v8/P09-props.png').convert('RGBA');m=Image.new('L',props.size);ImageDraw.Draw(m).polygon([(500,550),(667,607),(665,618),(498,562)],fill=255);m.putdata([min(a,b) for a,b in zip(m.getdata(),props.getchannel('A').getdata())]);props.putalpha(m);props.save(O/'fixed-staff-front-occlusion.png');m.save(O/'fixed-staff-front-occlusion-mask.png')
+i=next(i for i,l in enumerate(s['layers']) if l['id']=='two-gripping-hands-at-fixed-rod-anchors');s['layers'].insert(i,dict(id='same-fixed-staff-over-torso-under-fingers',path=str((O/'fixed-staff-front-occlusion.png').relative_to(R)),kind='fixed-prop-visibility-mask'))
+(O/'P09-F01-v2.spec.json').write_text(json.dumps(s,indent=2)+'\n');(O/'revision-receipt.json').write_text(json.dumps({'fixed_geometry_changed':False,'methods':['Exact frozen kite mesh face shading and original slit','Extend conventional forearms to visible source upper-arm cuts','Keep entire exact rod visible in front of torso and under both fists via same-pass visibility mask'],'generation_calls':0},indent=2)+'\n')

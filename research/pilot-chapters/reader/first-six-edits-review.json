@@ -1,0 +1,40 @@
+{
+  "schema": "PilotChaptersProgressiveReaderReview/1",
+  "experiment_id": "PC-20260909-01",
+  "scope": "Six first-panel edits before author display selection",
+  "capture_receipts": [
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/first-six-edits-v1/history/receipt.json",
+      "sha256": "cef58626f4fba9c26ca8c273ba222ce305fb85138bd4e40418a413d9aac84917"
+    },
+    {
+      "path": "research/pilot-chapters/reader/phone-captures/first-six-edits-v2/comparisons/receipt.json",
+      "sha256": "5958c99903ac6b09511c2132e221aab33d0a2c8d523a0ac59c85d57d3ddc201c"
+    }
+  ],
+  "history_attempts": 12,
+  "desktop_pairs": 6,
+  "actual_images_viewed": [
+    "NG01-F1",
+    "NG02-F1",
+    "NG09-R1",
+    "NG12-R1",
+    "ST02-R1",
+    "FL05-R1"
+  ],
+  "layout_findings": [
+    "NG02-F1 retains source cast positions; existing speaker-label arrangement remains appropriate.",
+    "NG09-R1 retains adjacent head/background zone for compact single balloon.",
+    "ST02-R1 retains source cast positions and opens more sky; named attribution remains suitable without crossed tails.",
+    "NG01-F1,NG12-R1,FL05-R1 have no frozen text."
+  ],
+  "preserved_failure": {
+    "output_directory": "research/pilot-chapters/reader/phone-captures/first-six-edits-v1/comparisons",
+    "error": "Comparison image crop/aspect failure NG01",
+    "cause": "Desktop portrait comparison used full column width, pushing image beyond viewport bottom.",
+    "fix": "Desktop history images now fit at max65vh, auto width and original aspect; phone layout unchanged.",
+    "verified": "All6 desktop source/edit comparisons fully visible; representative NG01 actually inspected."
+  },
+  "display_selection_unchanged": true,
+  "remaining": "Apply source-bound overlays only after selected-source mapping, then inspect real lettered phone rendering."
+}

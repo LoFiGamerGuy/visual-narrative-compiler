@@ -1,0 +1,5880 @@
+window.ANCHOR_RETURN_DATA = {
+  "schema": "AnchorReturnReader/1",
+  "experiment_id": "AR-20260909-01",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "source_bindings": [
+    {
+      "id": "NG01",
+      "attempt_id": "NG01-F1",
+      "sha256": "546ada3dc2bfa5857417c4c5804d4abc659eda20a0d88201e138fb1ab0d89452"
+    },
+    {
+      "id": "NG02",
+      "attempt_id": "NG02-F1",
+      "sha256": "30e2237b35690ed3b74f16c9128742ab2a40abe8c40dd6c6624493502ef5328c"
+    },
+    {
+      "id": "NG03",
+      "attempt_id": "NG03-F1",
+      "sha256": "5d7c642df6b9029ee80f723ac0fbc534513626aac0a56e545665b38ce9f6cc05"
+    },
+    {
+      "id": "NG04",
+      "attempt_id": "NG04-F1",
+      "sha256": "a15782af9e06b05fe9e13120db8bf232c7bc9ead2eb8fb232b66fb5db4454c7b"
+    },
+    {
+      "id": "NG05",
+      "attempt_id": "NG05-F1",
+      "sha256": "cc84eab80ba4960a920df78185e33f2757b5d75701e73d998407cf18e1f0a045"
+    },
+    {
+      "id": "NG06",
+      "attempt_id": "NG06-F1",
+      "sha256": "1264effd80191fec307b1f5516e10eca2913facfa16d0b718376265920f62cee"
+    },
+    {
+      "id": "NG07",
+      "attempt_id": "NG07-F1",
+      "sha256": "e0df1894da3dd69d03ac7e6bdeb61d43fc73fdca674faa09fd72d6b86f1fcaeb"
+    },
+    {
+      "id": "NG08",
+      "attempt_id": "NG08-F1",
+      "sha256": "a9fcbc58b412b1665a4b7dde38f22d6a4867bd37b4fb6d2ba9b7330c6f4335b6"
+    },
+    {
+      "id": "BP01",
+      "attempt_id": "BP01-F1",
+      "sha256": "504a8e276325960cd26b7a08b43765ed8d91a38bd19ac24f8dae0261f52bcd0a"
+    },
+    {
+      "id": "BP02",
+      "attempt_id": "BP02-F1",
+      "sha256": "c6f93c07f6bc6a519a6f68526fed3aacff1b35cc309a120b8b8c289e90606c39"
+    },
+    {
+      "id": "BP03",
+      "attempt_id": "BP03-F1",
+      "sha256": "5353f6879288004abc49808e79a4c2cc4d87a9ae367a3d223fc7342b29a5f084"
+    },
+    {
+      "id": "BP04",
+      "attempt_id": "BP04-F1",
+      "sha256": "0a569f428761ecb8f7d5d87ad16bbc719ee0c5cdaa4cfaa9a7459122e60565c0"
+    },
+    {
+      "id": "BP05",
+      "attempt_id": "BP05-F1",
+      "sha256": "ec64e36d1c31f64b35c67266a7f215a5fd521874019a57a4d3c30d40d71048de"
+    },
+    {
+      "id": "BP06",
+      "attempt_id": "BP06-F1",
+      "sha256": "f08fa09b6bb5618de21e98f3386a4af16125c76f9fe1dc1e9d3c3dd42d794d62"
+    },
+    {
+      "id": "BP07",
+      "attempt_id": "BP07-F1",
+      "sha256": "c316213e3027ac3b4efda1362d52cf1382ff77b8a3e2b28f3c47f15b9494faf4"
+    },
+    {
+      "id": "BP08",
+      "attempt_id": "BP08-F1",
+      "sha256": "9d17c658072a0b305c026410e66a41af09de873c1dbe3bf5740ca0c30e5f0e9b"
+    },
+    {
+      "id": "ST01",
+      "attempt_id": "ST01-F1",
+      "sha256": "69a24f85081da80bea103707e248878ad4cdbd66ad9f3a9b6b6d4011cdc5c3b8"
+    },
+    {
+      "id": "ST02",
+      "attempt_id": "ST02-F1",
+      "sha256": "f59e8a15b95015994e1132e402f489431cd9465c8c3ae1187fe2056eed5de5b1"
+    },
+    {
+      "id": "ST03",
+      "attempt_id": "ST03-F1",
+      "sha256": "201b06490f46e62953753a79f5201e3b19b8dd89f591cdce3f5fbdb8c17754e4"
+    },
+    {
+      "id": "ST04",
+      "attempt_id": "ST04-F1",
+      "sha256": "11f486d0e5931866f9f1c106ee84b7a0afe4233d322a5fc3da4319155335f4c3"
+    },
+    {
+      "id": "ST05",
+      "attempt_id": "ST05-F1",
+      "sha256": "6d6fec644279c15b82a11033643c0c634dddc6ae85691b941e8cba5363714a73"
+    },
+    {
+      "id": "ST06",
+      "attempt_id": "ST06-F1",
+      "sha256": "d7c50665168d61e96ab9794a59426129555e4931f5755e22eeec2add04031f78"
+    },
+    {
+      "id": "ST07",
+      "attempt_id": "ST07-F1",
+      "sha256": "097a45e8878d5a216b2ee87a8d54352c987c223108d9f8a3d14cecfd76cb328a"
+    },
+    {
+      "id": "ST08",
+      "attempt_id": "ST08-F1",
+      "sha256": "d918a734c81ceb7ccd1a714b2c50522abed4f621c6da2eb4b57843d5b2f69da1"
+    },
+    {
+      "id": "SB01",
+      "attempt_id": "SB01-F1",
+      "sha256": "ca4c41ca46ed5ebfbe2a515046749a9da3fc62c4ac12f2afb47bd36b5eaa9e94"
+    },
+    {
+      "id": "IO01",
+      "attempt_id": "IO01-F1",
+      "sha256": "803b01c3bed52c200ffffdb5a2296d62ee39e27568282e2ded739c6c3a47ac80"
+    },
+    {
+      "id": "FL01",
+      "attempt_id": "FL01-F1",
+      "sha256": "2061812d71ca1c6c0d93af3101818a27e554c1609b56da2997dd5211ff9040f4"
+    },
+    {
+      "id": "RC01",
+      "attempt_id": "RC01-F1",
+      "sha256": "1bc5ce848d90083bde3091294dab0fd41abf9a97c583068855b28e10988748fb"
+    },
+    {
+      "id": "CE01",
+      "attempt_id": "CE01-P",
+      "sha256": "637f7858931a3d3f89c3f04add2199401eea990c90a92fc95055d69dc2ad2f59"
+    },
+    {
+      "id": "HC01",
+      "attempt_id": "HC01-F1",
+      "sha256": "6f979a29eb16b951085357a08fac84d504f518bc83092d32e70d672eb48ab80f"
+    }
+  ],
+  "process_bindings": [
+    {
+      "id": "NG-SHEET",
+      "attempt_id": "NG-SHEET-R1",
+      "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10"
+    },
+    {
+      "id": "BP-SHEET",
+      "attempt_id": "BP-SHEET-R1",
+      "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e"
+    },
+    {
+      "id": "ST-SHEET",
+      "attempt_id": "ST-SHEET-R1",
+      "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b"
+    },
+    {
+      "id": "BP01-CONTROL",
+      "sha256": "3fcd01bccc60934c85dee36d49590d39f54903830ce3aa204da8f05be08e9d49",
+      "source_sha256": "e9f271d242aa681d1e58ea44e93565ba21949b47301c09413231c132b841dca6"
+    },
+    {
+      "id": "BP02-CONTROL",
+      "sha256": "4812bc1748d71768f2820349e0248cc507b26ac7873eb120c06b71f99fe05412",
+      "source_sha256": "2b0dbc679975cc3c6bcd2e9e7eb65f715cdadb48be4c1d5e0e083aa79b926fe6"
+    },
+    {
+      "id": "BP03-CONTROL",
+      "sha256": "9828762fd8cecd8fe1c2330950c3842d1912bdb8015db94faf8719090c2b8fc2",
+      "source_sha256": "2030c3043cf07e1572c2ed336b5c0811374e96ea6589bd025cb9d5320a4a7f4c"
+    },
+    {
+      "id": "BP04-CONTROL",
+      "sha256": "fb66633a9d43653b11d01bf92571c7268ba9198445f7d7d9e71114510fcbe181",
+      "source_sha256": "bfabdd4e4f408c48e75b0aede977dbe571f884bb7080d10bc567f35bd7ced2b9"
+    },
+    {
+      "id": "BP05-CONTROL",
+      "sha256": "6dcde3fc2a5479995e4b3139c9c16c23d8e1505714c31821b7b99d1a81ef6017",
+      "source_sha256": "53944284a6d8ed540a3a6b45fa4ec5233da8b40021b60df4175f46d299cc3bc0"
+    },
+    {
+      "id": "BP06-CONTROL",
+      "sha256": "b3ba1410bbc60f0a72b23fc348ed95c7823472ccb7175ac63a419fd8e31c70cf",
+      "source_sha256": "c59ec3863d398db3c09b451bf6ab7483ca7ea7370d1946a6e3439cd43e0b9d94"
+    },
+    {
+      "id": "BP07-CONTROL",
+      "sha256": "e0f41bb002fbc171a5961ded951c3429ff07661464a61f6698d82ed834b1a5cf",
+      "source_sha256": "a8082422f8294f44655ad8e549372602c0c5cb042e9980d8d3ce8af1e0183dde"
+    },
+    {
+      "id": "BP08-CONTROL",
+      "sha256": "993082b3a173f6ad292c608adc82f47acf8470b8413c6c1111e3d5e01dbfbdbf",
+      "source_sha256": "cfd7f11a7632ae84224196050f39cdd4fd2ea016ecf5fbdd826808a31f4da459"
+    },
+    {
+      "id": "NG01-CONTROL",
+      "sha256": "82e8c723849b45efadfa9d0d0700a125bb1e86e4deb2d0cac476ad81422695e4",
+      "source_sha256": "30e37451fd8d059ff71b10ca9c15462193d05842b7a6fe3473029f27cfc82bca"
+    },
+    {
+      "id": "NG02-CONTROL",
+      "sha256": "7e4794f1ac954cbd4ed53387282c18173fd93f559bc8f160ab9dde8eec59033e",
+      "source_sha256": "5e7c62baada31cd8c709ebd524a6ac6320b7fe5a5b7acc2d5c7e96943b48f0ce"
+    },
+    {
+      "id": "NG03-CONTROL",
+      "sha256": "7d81ba9afc38e0ff9e4c56e28734a178ea4913ff4253159bf4a33b241356d2a1",
+      "source_sha256": "c1448c484ac8028fc5855a8fa67845d1916cb26932612583fde22995cf03a71f"
+    },
+    {
+      "id": "NG04-CONTROL",
+      "sha256": "df8cf6555a857d6d2f4359c761e2f174a324b88202e221e45d59ee155fb0316a",
+      "source_sha256": "36818898ae939cdf36600ccdff00cf70bcce2a4e22a125db027031eae9d060a3"
+    },
+    {
+      "id": "NG05-CONTROL",
+      "sha256": "c4265d01069ebcc7928adbfabe8e4a4f57f14f043984278ec11a255d3ba4783b",
+      "source_sha256": "6d5295fec94744e72055a4697632877d381c252bc935322c9534eda59cb5243c"
+    },
+    {
+      "id": "NG06-CONTROL",
+      "sha256": "f68200d1482561ed6507015b291f566f2d251651717edbd46765194ee7e3648f",
+      "source_sha256": "ff69918368419b4f29aad668a9713b278af5f02a28e9f8d72e7468c868f0114f"
+    },
+    {
+      "id": "NG07-CONTROL",
+      "sha256": "aec72b91b7c453c389ace12902b957b48ed122ab8b60692413a69bb9f6902a21",
+      "source_sha256": "0ba5a4045a22732997a3527e259ddff6fdcce4a96bc4623dbe5090b2caa223e2"
+    },
+    {
+      "id": "NG08-CONTROL",
+      "sha256": "91486a2408d22026740a8297146dcb3ea4f9780c067f71ca22c1088e87d13e42",
+      "source_sha256": "8edf0ebfda3eee466b6200cb3905651b64df5bfec7f3fffe173db025f7c56b5d"
+    },
+    {
+      "id": "ST01-CONTROL",
+      "sha256": "ca92bd7cf63ceb5a46ff8d98c1afca392332016f99c013a1a3dd7ebfa5addeb5",
+      "source_sha256": "4f30e79bf123c339df2ed90325e6b1e251742a167b13cd5fe049c0e50e628ed2"
+    },
+    {
+      "id": "ST02-CONTROL",
+      "sha256": "d1eb02ba602dc1112f36bb37f82edf0eacf1b76c3d63fe68bdb3b755745d9f71",
+      "source_sha256": "e5d27145bff581e739474e5aa15d243f2f3e98febb52b75f14f78364e2b7bf19"
+    },
+    {
+      "id": "ST03-CONTROL",
+      "sha256": "70fb6e0dea6ac5d5a7e482b5c2d7c09dc3e49fdfc48278a557cd4b102e34ccb4",
+      "source_sha256": "df0bc4b67473a4b63d3f69f7b14a56078c0f2f627e02698b8b4bcad86b967a60"
+    },
+    {
+      "id": "ST04-CONTROL",
+      "sha256": "f063c433ecfbb91b1767a5d6d8a8ac6d2f29cfeb5cdf30b488e200649685103f",
+      "source_sha256": "ad36e81c0bb470a84a52e9740b84837d1e1947f24315dce895d5fe2eaf900742"
+    },
+    {
+      "id": "ST05-CONTROL",
+      "sha256": "c06401264d50d3174e7f2cda7650df5b01777479f71db97e42a894c664d6126b",
+      "source_sha256": "ee465b4b0c2c427c21ff9d3a263112e592e2bbca08f5dcdaa7274e5018e1144b"
+    },
+    {
+      "id": "ST06-CONTROL",
+      "sha256": "4251055e04579e903ea2c5bff90619103ad14620bb59daa4431dcfeb31f171cd",
+      "source_sha256": "ba64735c99499836561894c7c3630359c899e54083151dbb2a3464862b3e115a"
+    },
+    {
+      "id": "ST07-CONTROL",
+      "sha256": "c984d7526aa38d3e21ba047999a81f8886344f924f85d996c1933f8731ad3ab0",
+      "source_sha256": "838118b9d2330d50bd8ced05b3a564262f038b9c0e9999b5fa2e918ee66853a3"
+    },
+    {
+      "id": "ST08-CONTROL",
+      "sha256": "e751f80fc1316fc245c098eec3c56fc72338a147b68c950c2b42fbcf79807576",
+      "source_sha256": "f848a152b10ae41f612597f305f3524019a1a3f5612e0dbd82435243348fd0da"
+    }
+  ],
+  "dataset_sha256": "b5f4941c5b1fb187135e53eea9244566d04d3315cf912bcf698f08742678b30c",
+  "categories": [
+    {
+      "id": "encounter",
+      "title": "Encounter",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "impact",
+        "movement",
+        "power",
+        "causality",
+        "anatomy",
+        "scale",
+        "ground",
+        "texture"
+      ]
+    },
+    {
+      "id": "anchor-study",
+      "title": "Anchor-Study",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "impact",
+        "movement",
+        "power",
+        "causality",
+        "anatomy",
+        "scale",
+        "ground",
+        "texture"
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "id": "NG",
+      "title": "The bridge that pulls back",
+      "entries": [
+        "NG01",
+        "NG02",
+        "NG03",
+        "NG04",
+        "NG05",
+        "NG06",
+        "NG07",
+        "NG08"
+      ],
+      "panel_ids": [
+        "NG01",
+        "NG02",
+        "NG03",
+        "NG04",
+        "NG05",
+        "NG06",
+        "NG07",
+        "NG08"
+      ],
+      "dimensions": [
+        "comprehension",
+        "continuity"
+      ]
+    },
+    {
+      "id": "BP",
+      "title": "When the flower takes root",
+      "entries": [
+        "BP01",
+        "BP02",
+        "BP03",
+        "BP04",
+        "BP05",
+        "BP06",
+        "BP07",
+        "BP08"
+      ],
+      "panel_ids": [
+        "BP01",
+        "BP02",
+        "BP03",
+        "BP04",
+        "BP05",
+        "BP06",
+        "BP07",
+        "BP08"
+      ],
+      "dimensions": [
+        "comprehension",
+        "continuity"
+      ]
+    },
+    {
+      "id": "ST",
+      "title": "Borrow a breath",
+      "entries": [
+        "ST01",
+        "ST02",
+        "ST03",
+        "ST04",
+        "ST05",
+        "ST06",
+        "ST07",
+        "ST08"
+      ],
+      "panel_ids": [
+        "ST01",
+        "ST02",
+        "ST03",
+        "ST04",
+        "ST05",
+        "ST06",
+        "ST07",
+        "ST08"
+      ],
+      "dimensions": [
+        "comprehension",
+        "continuity"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "NG01",
+      "title": "A city between them",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "NG",
+      "sequence_order": 1,
+      "beat": "setup",
+      "scale": "extreme wide high diagonal",
+      "drawing_direction": "Nightglass",
+      "anchor_id": "01",
+      "subjects": [
+        "Aren Vale",
+        "Sera Voss"
+      ],
+      "caption": "A city between them. Aren at left and Sera at right stand full figure several body lengths apart on the skybridge; her spear blocks the doorway. The distant giant glass-wing ray and city establish scale. Aren’s sword is in his RIGHT hand, no tether yet. Both have intact clothing and equipment.",
+      "brief": "Aren at left and Sera at right stand full figure several body lengths apart on the skybridge; her spear blocks the doorway. The distant giant glass-wing ray and city establish scale. Aren’s sword is in his RIGHT hand, no tether yet. Both have intact clothing and equipment.",
+      "current_state": "no damage; no tether",
+      "contact_contract": "two grounded adult silhouettes; separated weapons; lift left / doorway right",
+      "power": {
+        "name": "Tension Line",
+        "description": "The sword pommel casts one rigid-looking thin cyan tether to a metal anchor. It can pull along that line, never push; a slack curved line carries no force.",
+        "limitation": "Closing the distance makes the tether slack; pulling also loads Aren’s shoulder and stance.",
+        "growth": [
+          "Redirect the same pull around a new anchor while preserving momentum."
+        ]
+      },
+      "references": [
+        "01",
+        "NG-SHEET",
+        "NG01-CONTROL"
+      ],
+      "continuation_dependencies": [],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/NG01-F1.png",
+        "sha256": "546ada3dc2bfa5857417c4c5804d4abc659eda20a0d88201e138fb1ab0d89452",
+        "attempt_id": "NG01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/NG01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/NG01-P.png",
+          "sha256": "6c807b67a0b5a507415e747285f4f7d08036f3ea052057ef702d5de7e57771ef",
+          "attempt_id": "NG01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG01-P.png",
+          "prompt_path": "production/anchor-return/prompts/NG01-P.txt",
+          "prompt_sha256": "1cfbb6a20f1274d6769848991d3c3c9994b9147aef62e1002e14b3ed9bdc1ee6",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-01.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/NG-SHEET-R1.png",
+              "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/NG01.png",
+              "sha256": "82e8c723849b45efadfa9d0d0700a125bb1e86e4deb2d0cac476ad81422695e4",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG01-P.json",
+          "call_sha256": "e794d600c62b4444393584c696850e406d3d89cf60f7a6ccf2ae6d4b746b06c7",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/NG01-F1.png",
+          "sha256": "546ada3dc2bfa5857417c4c5804d4abc659eda20a0d88201e138fb1ab0d89452",
+          "attempt_id": "NG01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG01-F1.png",
+          "prompt_path": "production/anchor-return/prompts/NG01-F1.txt",
+          "prompt_sha256": "4b87cb148ba67f430ce2a30fd428846537e06ba1b10e46d363391666773789b2",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG01-P.png",
+              "sha256": "6c807b67a0b5a507415e747285f4f7d08036f3ea052057ef702d5de7e57771ef",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG01-F1.json",
+          "call_sha256": "bf80fb6d72800b9b91734070e94ec6ea3d4a043ee5fd4421503dce8e60ec5117",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG01-P",
+          "retry_reason": "Root native inspection: mottled reflective deck, many equally bright window/leaf speckles and fine ray facets compete with faces and contact; calmer source-preserving finish warranted.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "NG02",
+      "title": "Set the line",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "NG",
+      "sequence_order": 2,
+      "beat": "preparation",
+      "scale": "medium low side",
+      "drawing_direction": "Nightglass",
+      "anchor_id": "01",
+      "subjects": [
+        "Aren Vale",
+        "Sera Voss"
+      ],
+      "caption": "Set the line. Aren braces LEFT boot forward and RIGHT boot back, RIGHT sword hand close to waist. A thin straight cyan tether joins sword pommel to the metal rail post behind him at left. Sera at right advances behind a two-handed spear guard. Show the tether’s exact two endpoints and both boots.",
+      "brief": "Aren braces LEFT boot forward and RIGHT boot back, RIGHT sword hand close to waist. A thin straight cyan tether joins sword pommel to the metal rail post behind him at left. Sera at right advances behind a two-handed spear guard. Show the tether’s exact two endpoints and both boots.",
+      "current_state": "no damage; taut tether to left rail post",
+      "contact_contract": "sword pommel to left rail; both feet support",
+      "power": {
+        "name": "Tension Line",
+        "description": "The sword pommel casts one rigid-looking thin cyan tether to a metal anchor. It can pull along that line, never push; a slack curved line carries no force.",
+        "limitation": "Closing the distance makes the tether slack; pulling also loads Aren’s shoulder and stance.",
+        "growth": [
+          "Redirect the same pull around a new anchor while preserving momentum."
+        ]
+      },
+      "references": [
+        "01",
+        "NG-SHEET",
+        "NG02-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "NG01"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/NG02-F1.png",
+        "sha256": "30e2237b35690ed3b74f16c9128742ab2a40abe8c40dd6c6624493502ef5328c",
+        "attempt_id": "NG02-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/NG02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/NG02-P.png",
+          "sha256": "3f42f1352707516552453d37fe43bea5882d9dedf936eeb6d0d46742edf81f32",
+          "attempt_id": "NG02-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG02-P.png",
+          "prompt_path": "production/anchor-return/prompts/NG02-P.txt",
+          "prompt_sha256": "12c7c25713ea5631ff8873de34c5768263c625990612d8f59aaddf811378b547",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-01.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/NG-SHEET-R1.png",
+              "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/NG02.png",
+              "sha256": "7e4794f1ac954cbd4ed53387282c18173fd93f559bc8f160ab9dde8eec59033e",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG02-P.json",
+          "call_sha256": "ee008dd7017d98b96e7fa3a774f34980032e1586e732e63b856e9573845a58ea",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/NG02-F1.png",
+          "sha256": "30e2237b35690ed3b74f16c9128742ab2a40abe8c40dd6c6624493502ef5328c",
+          "attempt_id": "NG02-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG02-F1.png",
+          "prompt_path": "production/anchor-return/prompts/NG02-F1.txt",
+          "prompt_sha256": "10103f20e8bb9c812ea9702271809b219718c689a1c5d8c690b734c79e7f0351",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG02-P.png",
+              "sha256": "3f42f1352707516552453d37fe43bea5882d9dedf936eeb6d0d46742edf81f32",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG02-F1.json",
+          "call_sha256": "3fc4329f7f9b13c36cea0b31d41cef9c3bbe9909e26e3f7567cf819693f091fd",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG02-P",
+          "retry_reason": "Root native inspection: mottled reflective deck, many equally bright window/leaf speckles and fine ray facets compete with faces and contact; calmer source-preserving finish warranted.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "NG03",
+      "title": "Into the spear",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "NG",
+      "sequence_order": 3,
+      "beat": "commitment",
+      "scale": "wide low oblique",
+      "drawing_direction": "Nightglass",
+      "anchor_id": "01",
+      "subjects": [
+        "Aren Vale",
+        "Sera Voss"
+      ],
+      "caption": "Into the spear. Aren drives forward with his legs from left toward Sera at right, overcoming the backward tether rather than being propelled by it; sword cuts outward from RIGHT hand. Sera pivots, spear shaft intercepts the sword at one crisp contact in front of her torso; both hands grip the same shaft. Aren’s backward tether is stretched straight to the left rail. Show hip rotation, bent supporting knees and compressed expressions rather than a static crossed-weapon pose.",
+      "brief": "Aren drives forward with his legs from left toward Sera at right, overcoming the backward tether rather than being propelled by it; sword cuts outward from RIGHT hand. Sera pivots, spear shaft intercepts the sword at one crisp contact in front of her torso; both hands grip the same shaft. Aren’s backward tether is stretched straight to the left rail. Show hip rotation, bent supporting knees and compressed expressions rather than a static crossed-weapon pose.",
+      "current_state": "no damage; tether stretched",
+      "contact_contract": "one blade-to-shaft contact; Sera supports on rear foot",
+      "power": {
+        "name": "Tension Line",
+        "description": "The sword pommel casts one rigid-looking thin cyan tether to a metal anchor. It can pull along that line, never push; a slack curved line carries no force.",
+        "limitation": "Closing the distance makes the tether slack; pulling also loads Aren’s shoulder and stance.",
+        "growth": [
+          "Redirect the same pull around a new anchor while preserving momentum."
+        ]
+      },
+      "references": [
+        "01",
+        "NG-SHEET",
+        "NG03-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "NG02"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/NG03-F1.png",
+        "sha256": "5d7c642df6b9029ee80f723ac0fbc534513626aac0a56e545665b38ce9f6cc05",
+        "attempt_id": "NG03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/NG03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/NG03-P.png",
+          "sha256": "ff38a02c7a521c3cd43b3c051001d522aecfc149181ed25aecf1e698270a8f62",
+          "attempt_id": "NG03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG03-P.png",
+          "prompt_path": "production/anchor-return/prompts/NG03-P.txt",
+          "prompt_sha256": "10fce08529e98fbde8b89ca46c3b7809bb05c679b0283e86dd14b808035ec514",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-01.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/NG-SHEET-R1.png",
+              "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/NG03.png",
+              "sha256": "7d81ba9afc38e0ff9e4c56e28734a178ea4913ff4253159bf4a33b241356d2a1",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG03-P.json",
+          "call_sha256": "9143931d34e8f2d22ca7b8d8b7e9522894a07eeaf03292868fb94b1001aa2dc0",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/NG03-R1.png",
+          "sha256": "30ef826cb7a7764e6eb9952cf9b171a24c38644d740fb0d3819fd5d6ee5b1e4a",
+          "attempt_id": "NG03-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG03-R1.png",
+          "prompt_path": "production/anchor-return/prompts/NG03-R1.txt",
+          "prompt_sha256": "020b041455e64708d673385ae00f3880e07701d7011b402a67ad3d54a97e7746",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG03-P.png",
+              "sha256": "ff38a02c7a521c3cd43b3c051001d522aecfc149181ed25aecf1e698270a8f62",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG03-R1.json",
+          "call_sha256": "89c6a5691963090ddd65e46283a196e89a466c2b84444a80e17f7f09ae8786b1",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG03-P",
+          "retry_reason": "Root and independent transfer review: power line terminates at added hip ring instead of held sword pommel.",
+          "evidence": {
+            "path": "research/anchor-return/final-structural-evidence.json",
+            "recorded_sha256": "ee1e47352d6bf7326a0b0f507637618b410d20ff86bc4650346b9cfc297415c0",
+            "inspection_sha256": "ee1e47352d6bf7326a0b0f507637618b410d20ff86bc4650346b9cfc297415c0",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/anchor-return/candidates/NG03-F1.png",
+          "sha256": "5d7c642df6b9029ee80f723ac0fbc534513626aac0a56e545665b38ce9f6cc05",
+          "attempt_id": "NG03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG03-F1.png",
+          "prompt_path": "production/anchor-return/prompts/NG03-F1.txt",
+          "prompt_sha256": "04a2c3890a4dd95c7554da44eb332203281cbeb9892b9a4463da26c0fe9bc0e3",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG03-R1.png",
+              "sha256": "30ef826cb7a7764e6eb9952cf9b171a24c38644d740fb0d3819fd5d6ee5b1e4a",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG03-F1.json",
+          "call_sha256": "c048a11892f9256a28825ba8b7632b7a31129b60a082edb91f93cc494e7055bc",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG03-R1",
+          "retry_reason": "Native R1 fixes endpoint but still has busy scratched floor and foliage/window marks. Root and independent transfer audit confirm source endpoint improvement; finishing is surface-only.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-03.json",
+            "recorded_sha256": "163f70f09bb5ca9ba0ed352cbbf4798c655c9710934b0de9944f00321d252e15",
+            "inspection_sha256": "163f70f09bb5ca9ba0ed352cbbf4798c655c9710934b0de9944f00321d252e15",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "NG04",
+      "title": "Too close to pull",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "NG",
+      "sequence_order": 4,
+      "beat": "counter",
+      "scale": "close side at torso height",
+      "drawing_direction": "Nightglass",
+      "anchor_id": "01",
+      "subjects": [
+        "Aren Vale",
+        "Sera Voss"
+      ],
+      "caption": "Too close to pull. Sera steps hard inside Aren’s sword reach and drives the blunt spear shaft across his LEFT upper arm. His shoulder folds inward, face recoils; RIGHT sword hand remains outside her guard. The cyan tether sags in a clearly loose curve as he is crowded back toward its anchor. The off-white vest tears at the LEFT shoulder seam at this contact.",
+      "brief": "Sera steps hard inside Aren’s sword reach and drives the blunt spear shaft across his LEFT upper arm. His shoulder folds inward, face recoils; RIGHT sword hand remains outside her guard. The cyan tether sags in a clearly loose curve as he is crowded back toward its anchor. The off-white vest tears at the LEFT shoulder seam at this contact.",
+      "current_state": "fresh tear at LEFT shoulder; slack tether",
+      "contact_contract": "shaft against LEFT upper arm; right weapon hand traceable",
+      "power": {
+        "name": "Tension Line",
+        "description": "The sword pommel casts one rigid-looking thin cyan tether to a metal anchor. It can pull along that line, never push; a slack curved line carries no force.",
+        "limitation": "Closing the distance makes the tether slack; pulling also loads Aren’s shoulder and stance.",
+        "growth": [
+          "Redirect the same pull around a new anchor while preserving momentum."
+        ]
+      },
+      "references": [
+        "01",
+        "NG-SHEET",
+        "NG04-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "NG03"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/NG04-F1.png",
+        "sha256": "a15782af9e06b05fe9e13120db8bf232c7bc9ead2eb8fb232b66fb5db4454c7b",
+        "attempt_id": "NG04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/NG04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/NG04-P.png",
+          "sha256": "4d5e4acd6ab9168183e4d0192dfefa45e00f95941391f0d9fc459e93c1e648f3",
+          "attempt_id": "NG04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG04-P.png",
+          "prompt_path": "production/anchor-return/prompts/NG04-P.txt",
+          "prompt_sha256": "7e8e15524bb651f389aa5a1752629860d830cc5c0506e8696d1c32ba1439a254",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-01.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/NG-SHEET-R1.png",
+              "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/NG04.png",
+              "sha256": "df8cf6555a857d6d2f4359c761e2f174a324b88202e221e45d59ee155fb0316a",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG04-P.json",
+          "call_sha256": "3267816cdf2ddb17b24f60bee6435758a600e3111e92e21cc60055d531cfa8e7",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/NG04-F1.png",
+          "sha256": "a15782af9e06b05fe9e13120db8bf232c7bc9ead2eb8fb232b66fb5db4454c7b",
+          "attempt_id": "NG04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG04-F1.png",
+          "prompt_path": "production/anchor-return/prompts/NG04-F1.txt",
+          "prompt_sha256": "89e07d0034aeb2b2132a35a53e8fc067497e62a2df94bdb0e056b9faf579d93b",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG04-P.png",
+              "sha256": "4d5e4acd6ab9168183e4d0192dfefa45e00f95941391f0d9fc459e93c1e648f3",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG04-F1.json",
+          "call_sha256": "e0bb0a78bc8d83b3a3188bb92314a9f781057d30b10541b53db58816c30823f9",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG04-P",
+          "retry_reason": "Root native inspection: mottled reflective deck, many equally bright window/leaf speckles and fine ray facets compete with faces and contact; calmer source-preserving finish warranted.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "NG05",
+      "title": "Give her the line",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "NG",
+      "sequence_order": 5,
+      "beat": "adaptation",
+      "scale": "wide overhead diagonal",
+      "drawing_direction": "Nightglass",
+      "anchor_id": "01",
+      "subjects": [
+        "Aren Vale",
+        "Sera Voss"
+      ],
+      "caption": "Give her the line. Aren drops into a low turn under the spear and moves toward the right rail, RIGHT hand holding sword extended behind him; LEFT arm kept close to torn shoulder. A new straight cyan tether runs from sword pommel to the right rail post beside Sera. Sera is midway through a committed spear thrust past his former position, front foot far forward. No contact yet; show the changed line angle and gap.",
+      "brief": "Aren drops into a low turn under the spear and moves toward the right rail, RIGHT hand holding sword extended behind him; LEFT arm kept close to torn shoulder. A new straight cyan tether runs from sword pommel to the right rail post beside Sera. Sera is midway through a committed spear thrust past his former position, front foot far forward. No contact yet; show the changed line angle and gap.",
+      "current_state": "LEFT shoulder seam torn; tether reanchored right",
+      "contact_contract": "low planted pivot; missed spear clear of Aren; new right endpoint",
+      "power": {
+        "name": "Tension Line",
+        "description": "The sword pommel casts one rigid-looking thin cyan tether to a metal anchor. It can pull along that line, never push; a slack curved line carries no force.",
+        "limitation": "Closing the distance makes the tether slack; pulling also loads Aren’s shoulder and stance.",
+        "growth": [
+          "Redirect the same pull around a new anchor while preserving momentum."
+        ]
+      },
+      "references": [
+        "01",
+        "NG-SHEET",
+        "NG05-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "NG04"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/NG05-F1.png",
+        "sha256": "cc84eab80ba4960a920df78185e33f2757b5d75701e73d998407cf18e1f0a045",
+        "attempt_id": "NG05-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/NG05-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/NG05-P.png",
+          "sha256": "b99131690fa75d8b7aa093342918d2ec7adf093130a7f9a9380daaf30daee89d",
+          "attempt_id": "NG05-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG05-P.png",
+          "prompt_path": "production/anchor-return/prompts/NG05-P.txt",
+          "prompt_sha256": "b6499f30a89a9f5cbe747c20984125319157333b346f86d8067c6a501105da6e",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-01.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/NG-SHEET-R1.png",
+              "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/NG05.png",
+              "sha256": "c4265d01069ebcc7928adbfabe8e4a4f57f14f043984278ec11a255d3ba4783b",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG05-P.json",
+          "call_sha256": "41af104c66128048d11d7cdf3c16ef57eae481492789d7541ead200d045a3e24",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/NG05-F1.png",
+          "sha256": "cc84eab80ba4960a920df78185e33f2757b5d75701e73d998407cf18e1f0a045",
+          "attempt_id": "NG05-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG05-F1.png",
+          "prompt_path": "production/anchor-return/prompts/NG05-F1.txt",
+          "prompt_sha256": "0cc7002ef0fccc09d8dff360ce09bc3e0efc8422065821e10f7866550704424b",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG05-P.png",
+              "sha256": "b99131690fa75d8b7aa093342918d2ec7adf093130a7f9a9380daaf30daee89d",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG05-F1.json",
+          "call_sha256": "e5a67140e28d6e78f902ab95aa56332fcde037ad22c3a5f0ca4ed8622d12fbb1",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG05-P",
+          "retry_reason": "Root native inspection: mottled reflective deck, many equally bright window/leaf speckles and fine ray facets compete with faces and contact; calmer source-preserving finish warranted.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "NG06",
+      "title": "Pull across the stance",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "NG",
+      "sequence_order": 6,
+      "beat": "reversal",
+      "scale": "very low wide three-quarter",
+      "drawing_direction": "Nightglass",
+      "anchor_id": "01",
+      "subjects": [
+        "Aren Vale",
+        "Sera Voss"
+      ],
+      "caption": "Pull across the stance. Aren at left plants both boots and braces against the cyan tether pulling his RIGHT sword hand toward the right rail anchor. His solid sword edge hooks beneath the middle of Sera’s spear shaft at one clear contact; the pull rotates her shaft sideways and twists her shoulders across her planted front knee. Her rear heel lifts and face reacts, not a floating ragdoll. Aren’s LEFT shoulder seam remains torn. One small concentrated cyan contact accent, broad clean ground.",
+      "brief": "Aren at left plants both boots and braces against the cyan tether pulling his RIGHT sword hand toward the right rail anchor. His solid sword edge hooks beneath the middle of Sera’s spear shaft at one clear contact; the pull rotates her shaft sideways and twists her shoulders across her planted front knee. Her rear heel lifts and face reacts, not a floating ragdoll. Aren’s LEFT shoulder seam remains torn. One small concentrated cyan contact accent, broad clean ground.",
+      "current_state": "LEFT shoulder torn; taut tether; Sera losing balance",
+      "contact_contract": "sword under spear midpoint; lateral torque; rear heel lifting",
+      "power": {
+        "name": "Tension Line",
+        "description": "The sword pommel casts one rigid-looking thin cyan tether to a metal anchor. It can pull along that line, never push; a slack curved line carries no force.",
+        "limitation": "Closing the distance makes the tether slack; pulling also loads Aren’s shoulder and stance.",
+        "growth": [
+          "Redirect the same pull around a new anchor while preserving momentum."
+        ]
+      },
+      "references": [
+        "01",
+        "NG-SHEET",
+        "NG06-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "NG05"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/NG06-F1.png",
+        "sha256": "1264effd80191fec307b1f5516e10eca2913facfa16d0b718376265920f62cee",
+        "attempt_id": "NG06-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/NG06-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/NG06-P.png",
+          "sha256": "a98599a0c9bc41480b0837366cecedc81833168279336993d48b2d11bda39e99",
+          "attempt_id": "NG06-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG06-P.png",
+          "prompt_path": "production/anchor-return/prompts/NG06-P.txt",
+          "prompt_sha256": "7f2b07a15f3eb68818f3528be22002a450c793b277ee7137dab5dbeaaf6375d5",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-01.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/NG-SHEET-R1.png",
+              "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/NG06.png",
+              "sha256": "f68200d1482561ed6507015b291f566f2d251651717edbd46765194ee7e3648f",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG06-P.json",
+          "call_sha256": "dfc5b508f94b2143a93d3791714a54c0fa382392ce1783b582437de942b63c3a",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/NG06-R1.png",
+          "sha256": "eda3e14eb153dcdc5e68873e05d15fa41ad680f1e4bd38c7aa78dcae068935b1",
+          "attempt_id": "NG06-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG06-R1.png",
+          "prompt_path": "production/anchor-return/prompts/NG06-R1.txt",
+          "prompt_sha256": "a52fb009703de72a0eeef4696de3b5599389e3ca5c9738a269c857a645916411",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG06-P.png",
+              "sha256": "a98599a0c9bc41480b0837366cecedc81833168279336993d48b2d11bda39e99",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG06-R1.json",
+          "call_sha256": "1d16a0011ca840844582a4dd63c0e9d9f5b27231dfef5f7923db08dc017f829d",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG06-P",
+          "retry_reason": "Root and two independent native reviews see two separate swords/pommels, attacking LEFT hand despite intended single RIGHT weapon, and missing right-anchor tether. This breaks the decisive reversal. Repair weapon ownership, arm chain and causal line together; preserve the world and faces.",
+          "evidence": {
+            "path": "research/anchor-return/nightglass-structural-evidence.json",
+            "recorded_sha256": "6716c5bc7de522e5cbb02b9837a1ec5aa2da094da9e849c875967f30de04c27f",
+            "inspection_sha256": "6716c5bc7de522e5cbb02b9837a1ec5aa2da094da9e849c875967f30de04c27f",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/anchor-return/candidates/NG06-F1.png",
+          "sha256": "1264effd80191fec307b1f5516e10eca2913facfa16d0b718376265920f62cee",
+          "attempt_id": "NG06-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG06-F1.png",
+          "prompt_path": "production/anchor-return/prompts/NG06-F1.txt",
+          "prompt_sha256": "f2e0c0c1b52253916ddd59f6d948917ea1f4043e4514a231acb0da41e9a120f7",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG06-R1.png",
+              "sha256": "eda3e14eb153dcdc5e68873e05d15fa41ad680f1e4bd38c7aa78dcae068935b1",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG06-F1.json",
+          "call_sha256": "d00794221b556d2aa0f62b51d323e8806de879e6aeef250125e5bb3173c0f44d",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG06-R1",
+          "retry_reason": "R1 native review improves sword count and tether but keeps left attack; finish requested only for still grainy reflective floor and foliage/windows, with no claim to fix handedness.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-02.json",
+            "recorded_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "inspection_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "NG07",
+      "title": "Catch the price",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "NG",
+      "sequence_order": 7,
+      "beat": "recovery",
+      "scale": "medium intimate side",
+      "drawing_direction": "Nightglass",
+      "anchor_id": "01",
+      "subjects": [
+        "Aren Vale",
+        "Sera Voss"
+      ],
+      "caption": "Catch the price. Sera falls to one knee at right and catches herself with her left palm on the matte deck; spear remains in RIGHT hand pointing safely outward. Aren at left has slid into a kneel, RIGHT sword hand grounded beside his boot, LEFT arm tucked protectively against torn shoulder. Tether fades to a single short dim line at pommel; no action flare. Faces show effort and wary respect.",
+      "brief": "Sera falls to one knee at right and catches herself with her left palm on the matte deck; spear remains in RIGHT hand pointing safely outward. Aren at left has slid into a kneel, RIGHT sword hand grounded beside his boot, LEFT arm tucked protectively against torn shoulder. Tether fades to a single short dim line at pommel; no action flare. Faces show effort and wary respect.",
+      "current_state": "LEFT shoulder tear persists; tether spent; neither defeated",
+      "contact_contract": "each body has knee/foot/hand supports; complete owned weapons",
+      "power": {
+        "name": "Tension Line",
+        "description": "The sword pommel casts one rigid-looking thin cyan tether to a metal anchor. It can pull along that line, never push; a slack curved line carries no force.",
+        "limitation": "Closing the distance makes the tether slack; pulling also loads Aren’s shoulder and stance.",
+        "growth": [
+          "Redirect the same pull around a new anchor while preserving momentum."
+        ]
+      },
+      "references": [
+        "01",
+        "NG-SHEET",
+        "NG07-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "NG06"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/NG07-F1.png",
+        "sha256": "e0df1894da3dd69d03ac7e6bdeb61d43fc73fdca674faa09fd72d6b86f1fcaeb",
+        "attempt_id": "NG07-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/NG07-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/NG07-P.png",
+          "sha256": "e974d8a9f2fa86da3846c9b24e1ecb6d92f4bb9ab4df4b9ed99ab3dfd0f8111b",
+          "attempt_id": "NG07-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG07-P.png",
+          "prompt_path": "production/anchor-return/prompts/NG07-P.txt",
+          "prompt_sha256": "7ba675ec1a633ddb2b2577182527bb9b4d4d44d8ce8f5514867d095d9ac2a84b",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-01.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/NG-SHEET-R1.png",
+              "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/NG07.png",
+              "sha256": "aec72b91b7c453c389ace12902b957b48ed122ab8b60692413a69bb9f6902a21",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG07-P.json",
+          "call_sha256": "44ba6332eb8180691ca582a9dd407b617dcffc9892cb2731c8eef43c3c9aee43",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/NG07-F1.png",
+          "sha256": "e0df1894da3dd69d03ac7e6bdeb61d43fc73fdca674faa09fd72d6b86f1fcaeb",
+          "attempt_id": "NG07-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG07-F1.png",
+          "prompt_path": "production/anchor-return/prompts/NG07-F1.txt",
+          "prompt_sha256": "1b25b1d654ee5a472a8761532310690210490a4f05b24ffb55d497833bcee435",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG07-P.png",
+              "sha256": "e974d8a9f2fa86da3846c9b24e1ecb6d92f4bb9ab4df4b9ed99ab3dfd0f8111b",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG07-F1.json",
+          "call_sha256": "202bcf3c5051adfc47319909e560fc0a83fea04f5509f75e4a7aa024cbd6694c",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG07-P",
+          "retry_reason": "Root native inspection: mottled reflective deck, many equally bright window/leaf speckles and fine ray facets compete with faces and contact; calmer source-preserving finish warranted.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "NG08",
+      "title": "The next crossing",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "NG",
+      "sequence_order": 8,
+      "beat": "consequence",
+      "scale": "extreme wide rear three-quarter",
+      "drawing_direction": "Nightglass",
+      "anchor_id": "01",
+      "subjects": [
+        "Aren Vale",
+        "Sera Voss"
+      ],
+      "caption": "The next crossing. Aren and Sera now separated by the open doorway, both small but recognizable: off-white split vest/red cord versus burgundy coat/copper bob. Aren holds sword in RIGHT hand and guards torn LEFT shoulder; Sera leans on her intact spear. Huge quiet navy city and glass-wing ray behind them, distant people on lower bridges. No celebration, effects or repaired costume.",
+      "brief": "Aren and Sera now separated by the open doorway, both small but recognizable: off-white split vest/red cord versus burgundy coat/copper bob. Aren holds sword in RIGHT hand and guards torn LEFT shoulder; Sera leans on her intact spear. Huge quiet navy city and glass-wing ray behind them, distant people on lower bridges. No celebration, effects or repaired costume.",
+      "current_state": "LEFT shoulder tear persists; no tether",
+      "contact_contract": "quiet scale and silhouette identity; doorway remains right",
+      "power": {
+        "name": "Tension Line",
+        "description": "The sword pommel casts one rigid-looking thin cyan tether to a metal anchor. It can pull along that line, never push; a slack curved line carries no force.",
+        "limitation": "Closing the distance makes the tether slack; pulling also loads Aren’s shoulder and stance.",
+        "growth": [
+          "Redirect the same pull around a new anchor while preserving momentum."
+        ]
+      },
+      "references": [
+        "01",
+        "NG-SHEET",
+        "NG08-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "NG07"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/NG08-F1.png",
+        "sha256": "a9fcbc58b412b1665a4b7dde38f22d6a4867bd37b4fb6d2ba9b7330c6f4335b6",
+        "attempt_id": "NG08-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/NG08-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/NG08-P.png",
+          "sha256": "e0b11e5abeddbc8ada11aedb07cb6bcb3be227b374ab6b325f6da610381eca4b",
+          "attempt_id": "NG08-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG08-P.png",
+          "prompt_path": "production/anchor-return/prompts/NG08-P.txt",
+          "prompt_sha256": "ec9af196201ccb6267d5b646d2c699856d345cf29da7afb7ad08250920f0b9d5",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-01.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/NG-SHEET-R1.png",
+              "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/NG08.png",
+              "sha256": "91486a2408d22026740a8297146dcb3ea4f9780c067f71ca22c1088e87d13e42",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG08-P.json",
+          "call_sha256": "dca2a52de97be32663f6967175d871351f180d9677a64a4f0676167b0cbdbe90",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/NG08-F1.png",
+          "sha256": "a9fcbc58b412b1665a4b7dde38f22d6a4867bd37b4fb6d2ba9b7330c6f4335b6",
+          "attempt_id": "NG08-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG08-F1.png",
+          "prompt_path": "production/anchor-return/prompts/NG08-F1.txt",
+          "prompt_sha256": "f55ccc2bc5d2e319c157428ef6c507651fb6e031a1a621cc8f133afc437c2347",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG08-P.png",
+              "sha256": "e0b11e5abeddbc8ada11aedb07cb6bcb3be227b374ab6b325f6da610381eca4b",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG08-F1.json",
+          "call_sha256": "f80e342a90f01429ec4ec9e100c41a9229f4c33544af2220cf25dccd3ba164e5",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG08-P",
+          "retry_reason": "Root native inspection: mottled reflective deck, many equally bright window/leaf speckles and fine ray facets compete with faces and contact; calmer source-preserving finish warranted.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "BP01",
+      "title": "A bloom above the path",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "BP",
+      "sequence_order": 1,
+      "beat": "setup",
+      "scale": "extreme wide low",
+      "drawing_direction": "Black Petal",
+      "anchor_id": "19",
+      "subjects": [
+        "Ilyra Sen",
+        "The Mourning Bloom"
+      ],
+      "caption": "A bloom above the path. Ilyra stands small at left with saber in RIGHT hand, facing the enormous open Mourning Bloom hovering at right. Its thick root hangs above the floor, not planted. Pale doorway left, broken glass arch right, vast quiet maroon floor and luminous mist. Show elegant petal translucency and the oval empty center.",
+      "brief": "Ilyra stands small at left with saber in RIGHT hand, facing the enormous open Mourning Bloom hovering at right. Its thick root hangs above the floor, not planted. Pale doorway left, broken glass arch right, vast quiet maroon floor and luminous mist. Show elegant petal translucency and the oval empty center.",
+      "current_state": "coat and saber intact; root unplanted",
+      "contact_contract": "large creature versus grounded human; clear hovering gap",
+      "power": {
+        "name": "Root-Lock",
+        "description": "The bloom must plant its thick root to launch a heavy petal strike; it cannot turn while that root remains planted; it must lift and reset the root before changing its facing.",
+        "limitation": "Petals close into armor against frontal steel. The exposed weight-bearing root is vulnerable only while committed.",
+        "growth": [
+          "Ilyra learns to bait the planted strike and cut its support from the flank."
+        ]
+      },
+      "references": [
+        "19",
+        "BP-SHEET",
+        "BP01-CONTROL"
+      ],
+      "continuation_dependencies": [],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/BP01-F1.png",
+        "sha256": "504a8e276325960cd26b7a08b43765ed8d91a38bd19ac24f8dae0261f52bcd0a",
+        "attempt_id": "BP01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/BP01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/BP01-P.png",
+          "sha256": "425c0b0119d5bbcba951651d8abcc7983094e0b746b0765901bfb2593aa96dbb",
+          "attempt_id": "BP01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP01-P.png",
+          "prompt_path": "production/anchor-return/prompts/BP01-P.txt",
+          "prompt_sha256": "1b7c5984734e245ea938fe1b5d5253d416fced5f8eb2f272a1fc063375e7563e",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/BP-SHEET-R1.png",
+              "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/BP01.png",
+              "sha256": "3fcd01bccc60934c85dee36d49590d39f54903830ce3aa204da8f05be08e9d49",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP01-P.json",
+          "call_sha256": "64a693aee17f29887a686a535805eb1a406f896091f24f931018a6840a07083e",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/BP01-F1.png",
+          "sha256": "504a8e276325960cd26b7a08b43765ed8d91a38bd19ac24f8dae0261f52bcd0a",
+          "attempt_id": "BP01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP01-F1.png",
+          "prompt_path": "production/anchor-return/prompts/BP01-F1.txt",
+          "prompt_sha256": "80463390f328e214d44f386082eaf256820db6e0d2396789a7bfec64820ffb63",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/BP01-P.png",
+              "sha256": "425c0b0119d5bbcba951651d8abcc7983094e0b746b0765901bfb2593aa96dbb",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP01-F1.json",
+          "call_sha256": "7b6f20212a2bd9d29967b3c6fa42e48ddfc40ba5bdf156f1a9b0fa7424d9bacd",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "BP01-P",
+          "retry_reason": "Root native inspection: dense high-frequency maroon moss, petal veins, pinprick highlights and background vines overwhelm otherwise strong tailored character and flower silhouette.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "BP02",
+      "title": "Steel meets a closed flower",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "BP",
+      "sequence_order": 2,
+      "beat": "failed approach",
+      "scale": "medium close oblique",
+      "drawing_direction": "Black Petal",
+      "anchor_id": "19",
+      "subjects": [
+        "Ilyra Sen",
+        "The Mourning Bloom"
+      ],
+      "caption": "Steel meets a closed flower. Ilyra lunges from left and strikes the bloom’s front petals with her RIGHT saber. The broad petals fold together into one dark shield and the blade visibly skids across a single silver edge. Her face reads alarm, front knee bent, rear boot drives. No cut root, no cloak tear and no flying debris.",
+      "brief": "Ilyra lunges from left and strikes the bloom’s front petals with her RIGHT saber. The broad petals fold together into one dark shield and the blade visibly skids across a single silver edge. Her face reads alarm, front knee bent, rear boot drives. No cut root, no cloak tear and no flying debris.",
+      "current_state": "petals closed; intact coat; root hanging",
+      "contact_contract": "blade edge against closed petal; one planted lunging stance",
+      "power": {
+        "name": "Root-Lock",
+        "description": "The bloom must plant its thick root to launch a heavy petal strike; it cannot turn while that root remains planted; it must lift and reset the root before changing its facing.",
+        "limitation": "Petals close into armor against frontal steel. The exposed weight-bearing root is vulnerable only while committed.",
+        "growth": [
+          "Ilyra learns to bait the planted strike and cut its support from the flank."
+        ]
+      },
+      "references": [
+        "19",
+        "BP-SHEET",
+        "BP02-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "BP01"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/BP02-F1.png",
+        "sha256": "c6f93c07f6bc6a519a6f68526fed3aacff1b35cc309a120b8b8c289e90606c39",
+        "attempt_id": "BP02-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/BP02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/BP02-P.png",
+          "sha256": "6003ff0c23e08bf623069d56d7d6f77f3fbcbab1e8057ad506d4530d3c759b18",
+          "attempt_id": "BP02-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP02-P.png",
+          "prompt_path": "production/anchor-return/prompts/BP02-P.txt",
+          "prompt_sha256": "dfc718cf86f8cc6341da48cc0a6196c195531d3c7ad934afc991dbcf9c7c9050",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/BP-SHEET-R1.png",
+              "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/BP02.png",
+              "sha256": "4812bc1748d71768f2820349e0248cc507b26ac7873eb120c06b71f99fe05412",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP02-P.json",
+          "call_sha256": "c1d025a2eea82700a482858487c7ed2203af895952f59cb5e7ccc2fa1b17ee0b",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/BP02-F1.png",
+          "sha256": "c6f93c07f6bc6a519a6f68526fed3aacff1b35cc309a120b8b8c289e90606c39",
+          "attempt_id": "BP02-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP02-F1.png",
+          "prompt_path": "production/anchor-return/prompts/BP02-F1.txt",
+          "prompt_sha256": "8a072f0b1d6186f22292ebe3432b05599d506981e7944a272de437ad3ed4f515",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/BP02-P.png",
+              "sha256": "6003ff0c23e08bf623069d56d7d6f77f3fbcbab1e8057ad506d4530d3c759b18",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP02-F1.json",
+          "call_sha256": "9761188eda4b2666502620b93f3ebddf2b8253a55dde1999d849c7421b81a1ce",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "BP02-P",
+          "retry_reason": "Root native inspection: dense high-frequency maroon moss, petal veins, pinprick highlights and background vines overwhelm otherwise strong tailored character and flower silhouette.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "BP03",
+      "title": "The root takes weight",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "BP",
+      "sequence_order": 3,
+      "beat": "warning",
+      "scale": "wide side",
+      "drawing_direction": "Black Petal",
+      "anchor_id": "19",
+      "subjects": [
+        "Ilyra Sen",
+        "The Mourning Bloom"
+      ],
+      "caption": "The root takes weight. The bloom has planted its single thick root and wide thorn foot at right; the root bows under load. Petals open and draw backward to wind up a lateral sweeping strike. Ilyra retreats left, saber RIGHT, eyes on the planted root, both feet visible. A broad shadow explains the suspended mass, no attack streak yet.",
+      "brief": "The bloom has planted its single thick root and wide thorn foot at right; the root bows under load. Petals open and draw backward to wind up a lateral sweeping strike. Ilyra retreats left, saber RIGHT, eyes on the planted root, both feet visible. A broad shadow explains the suspended mass, no attack streak yet.",
+      "current_state": "root planted; petals winding up; intact coat",
+      "contact_contract": "single support root; one visible intended sweep direction",
+      "power": {
+        "name": "Root-Lock",
+        "description": "The bloom must plant its thick root to launch a heavy petal strike; it cannot turn while that root remains planted; it must lift and reset the root before changing its facing.",
+        "limitation": "Petals close into armor against frontal steel. The exposed weight-bearing root is vulnerable only while committed.",
+        "growth": [
+          "Ilyra learns to bait the planted strike and cut its support from the flank."
+        ]
+      },
+      "references": [
+        "19",
+        "BP-SHEET",
+        "BP03-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "BP02"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/BP03-F1.png",
+        "sha256": "5353f6879288004abc49808e79a4c2cc4d87a9ae367a3d223fc7342b29a5f084",
+        "attempt_id": "BP03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/BP03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/BP03-P.png",
+          "sha256": "76be4053690d5fd5a99765ea9505b310790dfc8c68f021421234444fcd72c9b7",
+          "attempt_id": "BP03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP03-P.png",
+          "prompt_path": "production/anchor-return/prompts/BP03-P.txt",
+          "prompt_sha256": "25b15a7f684d8e3e63a22a9080a16ced6b7aec6b62dd9f3bd0a3b2ab723f86c7",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/BP-SHEET-R1.png",
+              "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/BP03.png",
+              "sha256": "9828762fd8cecd8fe1c2330950c3842d1912bdb8015db94faf8719090c2b8fc2",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP03-P.json",
+          "call_sha256": "425efe19dd37b8d1b3072c1b78006e23bfddd84c30d29df068be193bce944e61",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/BP03-F1.png",
+          "sha256": "5353f6879288004abc49808e79a4c2cc4d87a9ae367a3d223fc7342b29a5f084",
+          "attempt_id": "BP03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP03-F1.png",
+          "prompt_path": "production/anchor-return/prompts/BP03-F1.txt",
+          "prompt_sha256": "eed707f7b927c811d071f6addea767f92c5e1adb0d9256a92da57007ec329f9f",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/BP03-P.png",
+              "sha256": "76be4053690d5fd5a99765ea9505b310790dfc8c68f021421234444fcd72c9b7",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP03-F1.json",
+          "call_sha256": "a4ff41e54acfa2101c56652c43c6c2a2a7c59d077efaf7675405105cf18412e9",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "BP03-P",
+          "retry_reason": "Root native inspection: dense high-frequency maroon moss, petal veins, pinprick highlights and background vines overwhelm otherwise strong tailored character and flower silhouette.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "BP04",
+      "title": "A door closes behind her",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "BP",
+      "sequence_order": 4,
+      "beat": "counter",
+      "scale": "close low diagonal",
+      "drawing_direction": "Black Petal",
+      "anchor_id": "19",
+      "subjects": [
+        "Ilyra Sen",
+        "The Mourning Bloom"
+      ],
+      "caption": "A door closes behind her. One broad petal edge sweeps past Ilyra’s back as she ducks and lunges forward toward the camera. It catches and tears the trailing LEFT coat tail; the torn black cloth remains attached with a clear missing triangular corner. Her RIGHT saber is held low ahead, LEFT silver guard protects her head. Creature root remains firmly planted in the background.",
+      "brief": "One broad petal edge sweeps past Ilyra’s back as she ducks and lunges forward toward the camera. It catches and tears the trailing LEFT coat tail; the torn black cloth remains attached with a clear missing triangular corner. Her RIGHT saber is held low ahead, LEFT silver guard protects her head. Creature root remains firmly planted in the background.",
+      "current_state": "LEFT coat tail newly torn; root planted",
+      "contact_contract": "petal-to-cloth contact; ducking continuous torso and limbs",
+      "power": {
+        "name": "Root-Lock",
+        "description": "The bloom must plant its thick root to launch a heavy petal strike; it cannot turn while that root remains planted; it must lift and reset the root before changing its facing.",
+        "limitation": "Petals close into armor against frontal steel. The exposed weight-bearing root is vulnerable only while committed.",
+        "growth": [
+          "Ilyra learns to bait the planted strike and cut its support from the flank."
+        ]
+      },
+      "references": [
+        "19",
+        "BP-SHEET",
+        "BP04-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "BP03"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/BP04-F1.png",
+        "sha256": "0a569f428761ecb8f7d5d87ad16bbc719ee0c5cdaa4cfaa9a7459122e60565c0",
+        "attempt_id": "BP04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/BP04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/BP04-P.png",
+          "sha256": "ffeb2adf9f1a32cdd356ea4ee5c0e4a9754cbb9a481a3f422be41f96455e217e",
+          "attempt_id": "BP04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP04-P.png",
+          "prompt_path": "production/anchor-return/prompts/BP04-P.txt",
+          "prompt_sha256": "609cf306611fc4b69e6dd43581de930a41400d61530e8364ccb2ebca34437666",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/BP-SHEET-R1.png",
+              "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/BP04.png",
+              "sha256": "fb66633a9d43653b11d01bf92571c7268ba9198445f7d7d9e71114510fcbe181",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP04-P.json",
+          "call_sha256": "e245b0721ccea6b99a43476aff7c54fab4b291e64b49bf9c7e91fc13ab6d9a45",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/BP04-F1.png",
+          "sha256": "0a569f428761ecb8f7d5d87ad16bbc719ee0c5cdaa4cfaa9a7459122e60565c0",
+          "attempt_id": "BP04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP04-F1.png",
+          "prompt_path": "production/anchor-return/prompts/BP04-F1.txt",
+          "prompt_sha256": "705119ee7a0e9812247796b8baa81274a253a68f3da9136bb652f566edd96da9",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/BP04-P.png",
+              "sha256": "ffeb2adf9f1a32cdd356ea4ee5c0e4a9754cbb9a481a3f422be41f96455e217e",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP04-F1.json",
+          "call_sha256": "11ca19c7bdd53a1448d6117a927352307c3af3fdf7413be3ab9f7987617acbf2",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "BP04-P",
+          "retry_reason": "Root native inspection: dense high-frequency maroon moss, petal veins, pinprick highlights and background vines overwhelm otherwise strong tailored character and flower silhouette.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "BP05",
+      "title": "Outside its turn",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "BP",
+      "sequence_order": 5,
+      "beat": "recognition",
+      "scale": "wide overhead",
+      "drawing_direction": "Black Petal",
+      "anchor_id": "19",
+      "subjects": [
+        "Ilyra Sen",
+        "The Mourning Bloom"
+      ],
+      "caption": "Outside its turn. Ilyra has reached the creature’s left flank near the pale doorway. She crouches with RIGHT saber beside her hip and torn LEFT coat tail visible. The planted bloom still points its closed front toward her old position at bottom-right and cannot rotate around its bowed root. Show a large open path from her to the exposed root, no attack contact.",
+      "brief": "Ilyra has reached the creature’s left flank near the pale doorway. She crouches with RIGHT saber beside her hip and torn LEFT coat tail visible. The planted bloom still points its closed front toward her old position at bottom-right and cannot rotate around its bowed root. Show a large open path from her to the exposed root, no attack contact.",
+      "current_state": "LEFT tail torn; root fixed; bloom facing old position",
+      "contact_contract": "clear facing mismatch and reachable exposed root",
+      "power": {
+        "name": "Root-Lock",
+        "description": "The bloom must plant its thick root to launch a heavy petal strike; it cannot turn while that root remains planted; it must lift and reset the root before changing its facing.",
+        "limitation": "Petals close into armor against frontal steel. The exposed weight-bearing root is vulnerable only while committed.",
+        "growth": [
+          "Ilyra learns to bait the planted strike and cut its support from the flank."
+        ]
+      },
+      "references": [
+        "19",
+        "BP-SHEET",
+        "BP05-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "BP04"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/BP05-F1.png",
+        "sha256": "ec64e36d1c31f64b35c67266a7f215a5fd521874019a57a4d3c30d40d71048de",
+        "attempt_id": "BP05-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/BP05-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/BP05-P.png",
+          "sha256": "1d5dfbf8d0896261a43d9d455d0d4f20b789fe959a3ccb91eacccce12e62efa9",
+          "attempt_id": "BP05-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP05-P.png",
+          "prompt_path": "production/anchor-return/prompts/BP05-P.txt",
+          "prompt_sha256": "6faabf9e5ecc76cc2bfdf182eb71ef24765a0132d5f93657a2956b4264b50c41",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/BP-SHEET-R1.png",
+              "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/BP05.png",
+              "sha256": "6dcde3fc2a5479995e4b3139c9c16c23d8e1505714c31821b7b99d1a81ef6017",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP05-P.json",
+          "call_sha256": "56b7a1846c877a53eedab6a856e5faaa0a432f0b99cfd3eb9f0c93e359301ae6",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/BP05-F1.png",
+          "sha256": "ec64e36d1c31f64b35c67266a7f215a5fd521874019a57a4d3c30d40d71048de",
+          "attempt_id": "BP05-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP05-F1.png",
+          "prompt_path": "production/anchor-return/prompts/BP05-F1.txt",
+          "prompt_sha256": "9d15dff81bc3eabc3f7b2a33c4486b4eecb5e12336fbad915ce113ebd3180600",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/BP05-P.png",
+              "sha256": "1d5dfbf8d0896261a43d9d455d0d4f20b789fe959a3ccb91eacccce12e62efa9",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP05-F1.json",
+          "call_sha256": "edf47d3463ad4fe0fa3a3c686895a9bff8b7620450223f3dda50b012bf32e892",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "BP05-P",
+          "retry_reason": "Root native inspection: dense high-frequency maroon moss, petal veins, pinprick highlights and background vines overwhelm otherwise strong tailored character and flower silhouette.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "BP06",
+      "title": "Commit to the opening",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "BP",
+      "sequence_order": 6,
+      "beat": "commitment",
+      "scale": "medium side near ground",
+      "drawing_direction": "Black Petal",
+      "anchor_id": "19",
+      "subjects": [
+        "Ilyra Sen",
+        "The Mourning Bloom"
+      ],
+      "caption": "Commit to the opening. Ilyra pushes from her rear boot into a low sliding lunge along the open flank. RIGHT hand drives the saber toward the thick root just above the planted thorn foot; LEFT forearm guard crosses close to ribs. Blade is a handspan short of contact. Bloom petals are still extended toward the wrong side. Torn LEFT coat tail streams backward as one broad cloth shape.",
+      "brief": "Ilyra pushes from her rear boot into a low sliding lunge along the open flank. RIGHT hand drives the saber toward the thick root just above the planted thorn foot; LEFT forearm guard crosses close to ribs. Blade is a handspan short of contact. Bloom petals are still extended toward the wrong side. Torn LEFT coat tail streams backward as one broad cloth shape.",
+      "current_state": "LEFT tail torn; root intact but exposed",
+      "contact_contract": "blade approaching root; supported slide, no severing yet",
+      "power": {
+        "name": "Root-Lock",
+        "description": "The bloom must plant its thick root to launch a heavy petal strike; it cannot turn while that root remains planted; it must lift and reset the root before changing its facing.",
+        "limitation": "Petals close into armor against frontal steel. The exposed weight-bearing root is vulnerable only while committed.",
+        "growth": [
+          "Ilyra learns to bait the planted strike and cut its support from the flank."
+        ]
+      },
+      "references": [
+        "19",
+        "BP-SHEET",
+        "BP06-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "BP05"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/BP06-F1.png",
+        "sha256": "f08fa09b6bb5618de21e98f3386a4af16125c76f9fe1dc1e9d3c3dd42d794d62",
+        "attempt_id": "BP06-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/BP06-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/BP06-P.png",
+          "sha256": "f54a13728ee340487298ba84a9bd03b8128a300f62bcdfba4218bd0b1f6a7553",
+          "attempt_id": "BP06-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP06-P.png",
+          "prompt_path": "production/anchor-return/prompts/BP06-P.txt",
+          "prompt_sha256": "7b391a59bcf3fb5ab730a871ef734c899007da14f0eea57db66b5286a1515786",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/BP-SHEET-R1.png",
+              "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/BP06.png",
+              "sha256": "b3ba1410bbc60f0a72b23fc348ed95c7823472ccb7175ac63a419fd8e31c70cf",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP06-P.json",
+          "call_sha256": "a58540fa89d3dfc9331cf5545a210a878f4f8af7ee7994d266e6b578d6cd0291",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/BP06-F1.png",
+          "sha256": "f08fa09b6bb5618de21e98f3386a4af16125c76f9fe1dc1e9d3c3dd42d794d62",
+          "attempt_id": "BP06-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP06-F1.png",
+          "prompt_path": "production/anchor-return/prompts/BP06-F1.txt",
+          "prompt_sha256": "1b06a0c7e73189806bec7ea4ab56ce1bfeacc89e2bf493c94923d4c61b779615",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/BP06-P.png",
+              "sha256": "f54a13728ee340487298ba84a9bd03b8128a300f62bcdfba4218bd0b1f6a7553",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP06-F1.json",
+          "call_sha256": "3bfd07ea4a39778c5ac2bb797a2b1b79ae25eb3064c8eeab2a0ceb66af6a6ef2",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "BP06-P",
+          "retry_reason": "Root native inspection: dense high-frequency maroon moss, petal veins, pinprick highlights and background vines overwhelm otherwise strong tailored character and flower silhouette.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "BP07",
+      "title": "Remove the support",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "BP",
+      "sequence_order": 7,
+      "beat": "reversal",
+      "scale": "wide low impact",
+      "drawing_direction": "Black Petal",
+      "anchor_id": "19",
+      "subjects": [
+        "Ilyra Sen",
+        "The Mourning Bloom"
+      ],
+      "caption": "Remove the support. The RIGHT saber has cut completely through the bloom’s single thick root just above the thorn foot. Show a clean readable gap between severed ends, planted stump below and creature body tilting heavily sideways above. Ilyra finishes the low cut with both boots skidding in one direction, torn LEFT coat tail behind. Broad petal mass buckles toward the floor, a few large maroon leaves displaced, no blood or confetti.",
+      "brief": "The RIGHT saber has cut completely through the bloom’s single thick root just above the thorn foot. Show a clean readable gap between severed ends, planted stump below and creature body tilting heavily sideways above. Ilyra finishes the low cut with both boots skidding in one direction, torn LEFT coat tail behind. Broad petal mass buckles toward the floor, a few large maroon leaves displaced, no blood or confetti.",
+      "current_state": "root severed; LEFT tail tear persists",
+      "contact_contract": "clean cut gap; heavy tilted center of mass; follow-through",
+      "power": {
+        "name": "Root-Lock",
+        "description": "The bloom must plant its thick root to launch a heavy petal strike; it cannot turn while that root remains planted; it must lift and reset the root before changing its facing.",
+        "limitation": "Petals close into armor against frontal steel. The exposed weight-bearing root is vulnerable only while committed.",
+        "growth": [
+          "Ilyra learns to bait the planted strike and cut its support from the flank."
+        ]
+      },
+      "references": [
+        "19",
+        "BP-SHEET",
+        "BP07-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "BP06"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/BP07-F1.png",
+        "sha256": "c316213e3027ac3b4efda1362d52cf1382ff77b8a3e2b28f3c47f15b9494faf4",
+        "attempt_id": "BP07-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/BP07-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/BP07-P.png",
+          "sha256": "0003d3e579d356e38f22b7ca57bec209d099f04d17b349b45a0fde08abe733a8",
+          "attempt_id": "BP07-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP07-P.png",
+          "prompt_path": "production/anchor-return/prompts/BP07-P.txt",
+          "prompt_sha256": "2253bfd1add9f9de1754c16c5443a08f34b0b81883bdf1506109e7dc8bb8aa8b",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/BP-SHEET-R1.png",
+              "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/BP07.png",
+              "sha256": "e0f41bb002fbc171a5961ded951c3429ff07661464a61f6698d82ed834b1a5cf",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP07-P.json",
+          "call_sha256": "77bb1cb5d05bbe7c1de3cacd05e02b4172bfc735b83e3c47cff66961f93d408d",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/BP07-F1.png",
+          "sha256": "c316213e3027ac3b4efda1362d52cf1382ff77b8a3e2b28f3c47f15b9494faf4",
+          "attempt_id": "BP07-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP07-F1.png",
+          "prompt_path": "production/anchor-return/prompts/BP07-F1.txt",
+          "prompt_sha256": "b30eca8cadabb50cd92546bcb88d63e3ae9399bfcabb7f84db616cd82377470d",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/BP07-P.png",
+              "sha256": "0003d3e579d356e38f22b7ca57bec209d099f04d17b349b45a0fde08abe733a8",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP07-F1.json",
+          "call_sha256": "cae3084a4efea335a0e55eca755768689d77ecea8e0ce77755729da30acc851d",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "BP07-P",
+          "retry_reason": "Root native inspection: dense high-frequency maroon moss, petal veins, pinprick highlights and background vines overwhelm otherwise strong tailored character and flower silhouette.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "BP08",
+      "title": "A living thing, fallen",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "BP",
+      "sequence_order": 8,
+      "beat": "consequence",
+      "scale": "wide quiet eye level",
+      "drawing_direction": "Black Petal",
+      "anchor_id": "19",
+      "subjects": [
+        "Ilyra Sen",
+        "The Mourning Bloom"
+      ],
+      "caption": "A living thing, fallen. Mourning Bloom rests collapsed on its side at right, broad translucent petals folded on the matte moss; the severed root stump remains upright nearby. Ilyra at left kneels with RIGHT saber tip resting on the ground and torn LEFT coat tail pooled behind. Her face is shaken, not triumphant. Pale doorway and broken arch retain geography; empty oval center still visible within folded petals.",
+      "brief": "Mourning Bloom rests collapsed on its side at right, broad translucent petals folded on the matte moss; the severed root stump remains upright nearby. Ilyra at left kneels with RIGHT saber tip resting on the ground and torn LEFT coat tail pooled behind. Her face is shaken, not triumphant. Pale doorway and broken arch retain geography; empty oval center still visible within folded petals.",
+      "current_state": "root severed; creature down; LEFT tail torn",
+      "contact_contract": "resting mass grounded; intact sword and anatomical arms",
+      "power": {
+        "name": "Root-Lock",
+        "description": "The bloom must plant its thick root to launch a heavy petal strike; it cannot turn while that root remains planted; it must lift and reset the root before changing its facing.",
+        "limitation": "Petals close into armor against frontal steel. The exposed weight-bearing root is vulnerable only while committed.",
+        "growth": [
+          "Ilyra learns to bait the planted strike and cut its support from the flank."
+        ]
+      },
+      "references": [
+        "19",
+        "BP-SHEET",
+        "BP08-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "BP07"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/BP08-F1.png",
+        "sha256": "9d17c658072a0b305c026410e66a41af09de873c1dbe3bf5740ca0c30e5f0e9b",
+        "attempt_id": "BP08-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/BP08-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/BP08-P.png",
+          "sha256": "94692afcbedfd73f6701772dbb829001ee328d3ce7aae4203bfec68a1e253a8f",
+          "attempt_id": "BP08-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP08-P.png",
+          "prompt_path": "production/anchor-return/prompts/BP08-P.txt",
+          "prompt_sha256": "4b2c4191a7274e90284d46c2fb4682498655de6c72a8b1392a41b6a3c083e3a1",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/BP-SHEET-R1.png",
+              "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/BP08.png",
+              "sha256": "993082b3a173f6ad292c608adc82f47acf8470b8413c6c1111e3d5e01dbfbdbf",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP08-P.json",
+          "call_sha256": "36c4a22701c55c09d533b1b77aed08b8855c8b9738836500d05ee5f0cbba2666",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/BP08-F1.png",
+          "sha256": "9d17c658072a0b305c026410e66a41af09de873c1dbe3bf5740ca0c30e5f0e9b",
+          "attempt_id": "BP08-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP08-F1.png",
+          "prompt_path": "production/anchor-return/prompts/BP08-F1.txt",
+          "prompt_sha256": "5b65ea2a9bcd2ea520ea34d95ecb20530ed0ece5c51d3d754bef41c14f1d1a02",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/BP08-P.png",
+              "sha256": "94692afcbedfd73f6701772dbb829001ee328d3ce7aae4203bfec68a1e253a8f",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP08-F1.json",
+          "call_sha256": "a88f76b3a34b8c4e365554a7ea57c5f34029b662febc174ffb703fd577722a82",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "BP08-P",
+          "retry_reason": "Root native inspection: dense high-frequency maroon moss, petal veins, pinprick highlights and background vines overwhelm otherwise strong tailored character and flower silhouette.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-01.json",
+            "recorded_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "inspection_sha256": "7140845a5dcc4c869b0006c0dcb147345f9d4661092c39dc573c331b2de34f96",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "ST01",
+      "title": "The ram owns the ridge",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "ST",
+      "sequence_order": 1,
+      "beat": "setup",
+      "scale": "extreme wide bright low",
+      "drawing_direction": "Soft Thunder",
+      "anchor_id": "18",
+      "subjects": [
+        "Tavi Ember",
+        "The Gale Ram"
+      ],
+      "caption": "The ram owns the ridge. Tavi stands at left facing the towering blue Gale Ram at right on the chalk ledge. Her RIGHT gauntlet circular pressure plate and LEFT cream crescent mark are visible. Four ram legs all clearly grounded, cheeks relaxed. Tiny windmills and green hills below establish size, playful menace and open air.",
+      "brief": "Tavi stands at left facing the towering blue Gale Ram at right on the chalk ledge. Her RIGHT gauntlet circular pressure plate and LEFT cream crescent mark are visible. Four ram legs all clearly grounded, cheeks relaxed. Tiny windmills and green hills below establish size, playful menace and open air.",
+      "current_state": "gauntlets intact and uncharged; ram relaxed",
+      "contact_contract": "two sizes; four ram feet; Tavi both boots",
+      "power": {
+        "name": "Stored Breath",
+        "description": "Tavi’s RIGHT gauntlet compresses one wind pulse while both boots brace on solid ground. Release drives a short broad air wedge through the fist and kicks her backward.",
+        "limitation": "It cannot charge while airborne; the recoil must be managed with her stance.",
+        "growth": [
+          "Turn the recoil into a controlled pivot and use the next landing to reload."
+        ]
+      },
+      "references": [
+        "18",
+        "ST-SHEET",
+        "ST01-CONTROL"
+      ],
+      "continuation_dependencies": [],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/ST01-F1.png",
+        "sha256": "69a24f85081da80bea103707e248878ad4cdbd66ad9f3a9b6b6d4011cdc5c3b8",
+        "attempt_id": "ST01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/ST01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/ST01-P.png",
+          "sha256": "1b8ebd2fbe5ba34e88a1ceea6477e22d92762e05bf2043a82878a28f62456407",
+          "attempt_id": "ST01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST01-P.png",
+          "prompt_path": "production/anchor-return/prompts/ST01-P.txt",
+          "prompt_sha256": "3cdcb29d9289e3fe05684298c98b2197d5fcc23c56aab2a3f0810056d7006386",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+              "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/ST01.png",
+              "sha256": "ca92bd7cf63ceb5a46ff8d98c1afca392332016f99c013a1a3dd7ebfa5addeb5",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST01-P.json",
+          "call_sha256": "59047ee2b4f55fe3224da19d95be82770d4bd89093e843a7a7ba6d367149067f",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST01-F1.png",
+          "sha256": "69a24f85081da80bea103707e248878ad4cdbd66ad9f3a9b6b6d4011cdc5c3b8",
+          "attempt_id": "ST01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST01-F1.png",
+          "prompt_path": "production/anchor-return/prompts/ST01-F1.txt",
+          "prompt_sha256": "f71f0b9ee911ec52fc3d1de257f0bf67621c4546e4ab5c0fa23d5ea6270d5d69",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/ST01-P.png",
+              "sha256": "1b8ebd2fbe5ba34e88a1ceea6477e22d92762e05bf2043a82878a28f62456407",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST01-F1.json",
+          "call_sha256": "79921b368db6e2bb5746cd418bd826e2baef5359e8c1a641e68d70b7d4371c1c",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "ST01-P",
+          "retry_reason": "Root native inspection: chalk floor has dense chip/mottle patterns; ram curls, cloud patches and hillside detail compete with expressive action. Preserve functional circle/crescent marks and visible damage.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-02.json",
+            "recorded_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "inspection_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "ST02",
+      "title": "Plant before the breath",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "ST",
+      "sequence_order": 2,
+      "beat": "preparation",
+      "scale": "medium low frontal three-quarter",
+      "drawing_direction": "Soft Thunder",
+      "anchor_id": "18",
+      "subjects": [
+        "Tavi Ember",
+        "The Gale Ram"
+      ],
+      "caption": "Plant before the breath. Tavi widens her stance, both boots flat, bends knees and draws RIGHT gauntlet to her ribs; its cream circle compresses a small clean white wind disk. LEFT crescent-marked glove guards her chin. Gale Ram in background puffs orange cheeks and lowers its head. Big expressive determined grin, no all-over aura.",
+      "brief": "Tavi widens her stance, both boots flat, bends knees and draws RIGHT gauntlet to her ribs; its cream circle compresses a small clean white wind disk. LEFT crescent-marked glove guards her chin. Gale Ram in background puffs orange cheeks and lowers its head. Big expressive determined grin, no all-over aura.",
+      "current_state": "RIGHT gauntlet charging; intact; ram inhales",
+      "contact_contract": "two braced boots; right pressure plate; left guard",
+      "power": {
+        "name": "Stored Breath",
+        "description": "Tavi’s RIGHT gauntlet compresses one wind pulse while both boots brace on solid ground. Release drives a short broad air wedge through the fist and kicks her backward.",
+        "limitation": "It cannot charge while airborne; the recoil must be managed with her stance.",
+        "growth": [
+          "Turn the recoil into a controlled pivot and use the next landing to reload."
+        ]
+      },
+      "references": [
+        "18",
+        "ST-SHEET",
+        "ST02-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "ST01"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/ST02-F1.png",
+        "sha256": "f59e8a15b95015994e1132e402f489431cd9465c8c3ae1187fe2056eed5de5b1",
+        "attempt_id": "ST02-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/ST02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/ST02-P.png",
+          "sha256": "e45b7c5be63e2b445c63dc17e27764b525d61ba8f9af27808b3eb2b564a08864",
+          "attempt_id": "ST02-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST02-P.png",
+          "prompt_path": "production/anchor-return/prompts/ST02-P.txt",
+          "prompt_sha256": "025abccec88705d070fa6802417b7d39813826c9e13425e913673200aa32f19a",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+              "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/ST02.png",
+              "sha256": "d1eb02ba602dc1112f36bb37f82edf0eacf1b76c3d63fe68bdb3b755745d9f71",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST02-P.json",
+          "call_sha256": "358871308deaf1d4672d610d1df8fd34a78bbe3618afa9e9c99b082df42a3401",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST02-F1.png",
+          "sha256": "f59e8a15b95015994e1132e402f489431cd9465c8c3ae1187fe2056eed5de5b1",
+          "attempt_id": "ST02-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST02-F1.png",
+          "prompt_path": "production/anchor-return/prompts/ST02-F1.txt",
+          "prompt_sha256": "602cdfdf3e3ffbea217cd9b928a861747b37d7a6d63e169ffccad8b17b128d96",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/ST02-P.png",
+              "sha256": "e45b7c5be63e2b445c63dc17e27764b525d61ba8f9af27808b3eb2b564a08864",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST02-F1.json",
+          "call_sha256": "d172a90c542f16abe93442544f523ba2cf82cea6e49756cecd8c9bf2076d0ad6",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "ST02-P",
+          "retry_reason": "Root native inspection: chalk floor has dense chip/mottle patterns; ram curls, cloud patches and hillside detail compete with expressive action. Preserve functional circle/crescent marks and visible damage.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-02.json",
+            "recorded_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "inspection_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "ST03",
+      "title": "The floor leaves her",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "ST",
+      "sequence_order": 3,
+      "beat": "counter",
+      "scale": "wide profile airborne",
+      "drawing_direction": "Soft Thunder",
+      "anchor_id": "18",
+      "subjects": [
+        "Tavi Ember",
+        "The Gale Ram"
+      ],
+      "caption": "The floor leaves her. Gale Ram exhales one broad pale wedge of wind from its mouth toward Tavi. Tavi is knocked backward into the air, knees tucked and mouth shocked open. RIGHT pressure disk visibly disappears, both gauntlets intact; LEFT crescent clearly remains on LEFT glove. Ram keeps four legs planted and inflated body tilts forward. Quiet background, one wind wedge.",
+      "brief": "Gale Ram exhales one broad pale wedge of wind from its mouth toward Tavi. Tavi is knocked backward into the air, knees tucked and mouth shocked open. RIGHT pressure disk visibly disappears, both gauntlets intact; LEFT crescent clearly remains on LEFT glove. Ram keeps four legs planted and inflated body tilts forward. Quiet background, one wind wedge.",
+      "current_state": "airborne; charge lost; equipment intact",
+      "contact_contract": "mouth-source wind to torso; no phantom support",
+      "power": {
+        "name": "Stored Breath",
+        "description": "Tavi’s RIGHT gauntlet compresses one wind pulse while both boots brace on solid ground. Release drives a short broad air wedge through the fist and kicks her backward.",
+        "limitation": "It cannot charge while airborne; the recoil must be managed with her stance.",
+        "growth": [
+          "Turn the recoil into a controlled pivot and use the next landing to reload."
+        ]
+      },
+      "references": [
+        "18",
+        "ST-SHEET",
+        "ST03-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "ST02"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/ST03-F1.png",
+        "sha256": "201b06490f46e62953753a79f5201e3b19b8dd89f591cdce3f5fbdb8c17754e4",
+        "attempt_id": "ST03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/ST03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/ST03-P.png",
+          "sha256": "1c774f8877ab30cd9ad92e5dcb5be8f26f9cb254f836e9cabaaece1f8748f646",
+          "attempt_id": "ST03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST03-P.png",
+          "prompt_path": "production/anchor-return/prompts/ST03-P.txt",
+          "prompt_sha256": "82709d44259cb2b9fdea204e065b6ad445599516f065346266fa5d053c0d4348",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+              "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/ST03.png",
+              "sha256": "70fb6e0dea6ac5d5a7e482b5c2d7c09dc3e49fdfc48278a557cd4b102e34ccb4",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST03-P.json",
+          "call_sha256": "d5e6af442bcef529a38dd4b2dcc8852d24ff0c73f39d700a38bfe07689794058",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST03-F1.png",
+          "sha256": "201b06490f46e62953753a79f5201e3b19b8dd89f591cdce3f5fbdb8c17754e4",
+          "attempt_id": "ST03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST03-F1.png",
+          "prompt_path": "production/anchor-return/prompts/ST03-F1.txt",
+          "prompt_sha256": "dbecec8d47b213814ccf19ac97064ac32f1254513bb4f50f0952cc57d72f5085",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/ST03-P.png",
+              "sha256": "1c774f8877ab30cd9ad92e5dcb5be8f26f9cb254f836e9cabaaece1f8748f646",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST03-F1.json",
+          "call_sha256": "a5646fb900f3093f6ba2d01ba643ac456f5c47139518df50241573d0c33bd428",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "ST03-P",
+          "retry_reason": "Root native inspection: chalk floor has dense chip/mottle patterns; ram curls, cloud patches and hillside detail compete with expressive action. Preserve functional circle/crescent marks and visible damage.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-02.json",
+            "recorded_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "inspection_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "ST04",
+      "title": "Make a landing",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "ST",
+      "sequence_order": 4,
+      "beat": "recovery",
+      "scale": "close low dynamic",
+      "drawing_direction": "Soft Thunder",
+      "anchor_id": "18",
+      "subjects": [
+        "Tavi Ember",
+        "The Gale Ram"
+      ],
+      "caption": "Make a landing. Tavi lands with her RIGHT boot scraping a broad chalk streak, LEFT boot coming down behind, hips turning to absorb the blow. LEFT crescent glove braces flat on ground and receives a large chip at its knuckle edge; RIGHT circular glove stays near chest. Face clenched, a single broad dust ribbon trails from her right boot. Ram blurred only by simplified distance, no surface grain.",
+      "brief": "Tavi lands with her RIGHT boot scraping a broad chalk streak, LEFT boot coming down behind, hips turning to absorb the blow. LEFT crescent glove braces flat on ground and receives a large chip at its knuckle edge; RIGHT circular glove stays near chest. Face clenched, a single broad dust ribbon trails from her right boot. Ram blurred only by simplified distance, no surface grain.",
+      "current_state": "LEFT crescent gauntlet newly chipped; RIGHT intact; no charge",
+      "contact_contract": "right foot + left hand support; true anatomical side",
+      "power": {
+        "name": "Stored Breath",
+        "description": "Tavi’s RIGHT gauntlet compresses one wind pulse while both boots brace on solid ground. Release drives a short broad air wedge through the fist and kicks her backward.",
+        "limitation": "It cannot charge while airborne; the recoil must be managed with her stance.",
+        "growth": [
+          "Turn the recoil into a controlled pivot and use the next landing to reload."
+        ]
+      },
+      "references": [
+        "18",
+        "ST-SHEET",
+        "ST04-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "ST03"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/ST04-F1.png",
+        "sha256": "11f486d0e5931866f9f1c106ee84b7a0afe4233d322a5fc3da4319155335f4c3",
+        "attempt_id": "ST04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/ST04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/ST04-P.png",
+          "sha256": "2c53e3144b4c5dca6a0ea4fa684460d7438d96adb0e1fd07366a7743c871fe83",
+          "attempt_id": "ST04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST04-P.png",
+          "prompt_path": "production/anchor-return/prompts/ST04-P.txt",
+          "prompt_sha256": "2079e0632b96428eddd3ad41cab583ced435e2b95ae7f08685d8455f4caae1f2",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+              "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/ST04.png",
+              "sha256": "f063c433ecfbb91b1767a5d6d8a8ac6d2f29cfeb5cdf30b488e200649685103f",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST04-P.json",
+          "call_sha256": "00a02e52026ed907036a400953d8ec80cb5d52d3350658c7216e85d8bf0dae54",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST04-F1.png",
+          "sha256": "11f486d0e5931866f9f1c106ee84b7a0afe4233d322a5fc3da4319155335f4c3",
+          "attempt_id": "ST04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST04-F1.png",
+          "prompt_path": "production/anchor-return/prompts/ST04-F1.txt",
+          "prompt_sha256": "206e0987c1991be4a519766ce0a775397172cf1d7543df9cb8d4c93f20d354a8",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/ST04-P.png",
+              "sha256": "2c53e3144b4c5dca6a0ea4fa684460d7438d96adb0e1fd07366a7743c871fe83",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST04-F1.json",
+          "call_sha256": "2eae1a3424f79042f218b9cc6e7d78d9cdd2f7dc14180df6d445f4c57d16e569",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "ST04-P",
+          "retry_reason": "Root native inspection: chalk floor has dense chip/mottle patterns; ram curls, cloud patches and hillside detail compete with expressive action. Preserve functional circle/crescent marks and visible damage.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-02.json",
+            "recorded_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "inspection_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "ST05",
+      "title": "An empty breath",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "ST",
+      "sequence_order": 5,
+      "beat": "opening",
+      "scale": "wide high oblique",
+      "drawing_direction": "Soft Thunder",
+      "anchor_id": "18",
+      "subjects": [
+        "Tavi Ember",
+        "The Gale Ram"
+      ],
+      "caption": "An empty breath. Ram’s cheeks are visibly deflated and mouth open as it finishes its long straight exhale toward Tavi’s old position. Tavi has pivoted beside its flank at left, both boots planted, RIGHT gauntlet at ribs rebuilding one small white pressure disk; chipped LEFT crescent glove guards face. Ram cannot immediately inhale again. Clear empty blast lane away from her.",
+      "brief": "Ram’s cheeks are visibly deflated and mouth open as it finishes its long straight exhale toward Tavi’s old position. Tavi has pivoted beside its flank at left, both boots planted, RIGHT gauntlet at ribs rebuilding one small white pressure disk; chipped LEFT crescent glove guards face. Ram cannot immediately inhale again. Clear empty blast lane away from her.",
+      "current_state": "LEFT chip persists; RIGHT recharging; ram exhale ending",
+      "contact_contract": "side position outside wind lane; both boots grounded",
+      "power": {
+        "name": "Stored Breath",
+        "description": "Tavi’s RIGHT gauntlet compresses one wind pulse while both boots brace on solid ground. Release drives a short broad air wedge through the fist and kicks her backward.",
+        "limitation": "It cannot charge while airborne; the recoil must be managed with her stance.",
+        "growth": [
+          "Turn the recoil into a controlled pivot and use the next landing to reload."
+        ]
+      },
+      "references": [
+        "18",
+        "ST-SHEET",
+        "ST05-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "ST04"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/ST05-F1.png",
+        "sha256": "6d6fec644279c15b82a11033643c0c634dddc6ae85691b941e8cba5363714a73",
+        "attempt_id": "ST05-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/ST05-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/ST05-P.png",
+          "sha256": "39182c92803fa2061638e3c881af9ef85bf37faa5d32c084d8c37feb80aafec7",
+          "attempt_id": "ST05-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST05-P.png",
+          "prompt_path": "production/anchor-return/prompts/ST05-P.txt",
+          "prompt_sha256": "a54493262b266299b9e3c3c26f4126a6b615089ad48b1bd80d512686e1893f3e",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+              "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/ST05.png",
+              "sha256": "c06401264d50d3174e7f2cda7650df5b01777479f71db97e42a894c664d6126b",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST05-P.json",
+          "call_sha256": "09c5174785781cac5e80c6974fe4519e3dd53e1061166f803c6b81657446b796",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST05-F1.png",
+          "sha256": "6d6fec644279c15b82a11033643c0c634dddc6ae85691b941e8cba5363714a73",
+          "attempt_id": "ST05-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST05-F1.png",
+          "prompt_path": "production/anchor-return/prompts/ST05-F1.txt",
+          "prompt_sha256": "7dd27ed8518f1be467a00e916e4948f52c7254e528bf39d428d0779108025a3a",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/ST05-P.png",
+              "sha256": "39182c92803fa2061638e3c881af9ef85bf37faa5d32c084d8c37feb80aafec7",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST05-F1.json",
+          "call_sha256": "88bbe3861b383d56f2eb9b5049a1e9f672a42d05a54efb1a1e1f954a9a951e17",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "ST05-P",
+          "retry_reason": "Root native inspection: chalk floor has dense chip/mottle patterns; ram curls, cloud patches and hillside detail compete with expressive action. Preserve functional circle/crescent marks and visible damage.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-02.json",
+            "recorded_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "inspection_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "ST06",
+      "title": "Hit the weight",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "ST",
+      "sequence_order": 6,
+      "beat": "reversal",
+      "scale": "very low close wide impact",
+      "drawing_direction": "Soft Thunder",
+      "anchor_id": "18",
+      "subjects": [
+        "Tavi Ember",
+        "The Gale Ram"
+      ],
+      "caption": "Hit the weight. Tavi’s RIGHT circular gauntlet drives into the Gale Ram’s lower cheek at one clear contact. Her forward boot remains planted, rear leg drives, hips and shoulders turn. One short broad white air wedge at the fist compresses the ram’s cheek and lifts its near front hoof; its eyes bulge, horns tilt with skull, four legs remain traceable. Chipped LEFT crescent glove stays tucked by Tavi’s ribs.",
+      "brief": "Tavi’s RIGHT circular gauntlet drives into the Gale Ram’s lower cheek at one clear contact. Her forward boot remains planted, rear leg drives, hips and shoulders turn. One short broad white air wedge at the fist compresses the ram’s cheek and lifts its near front hoof; its eyes bulge, horns tilt with skull, four legs remain traceable. Chipped LEFT crescent glove stays tucked by Tavi’s ribs.",
+      "current_state": "RIGHT pulse released; LEFT chip persists",
+      "contact_contract": "right fist-to-cheek compression; planted driving stance",
+      "power": {
+        "name": "Stored Breath",
+        "description": "Tavi’s RIGHT gauntlet compresses one wind pulse while both boots brace on solid ground. Release drives a short broad air wedge through the fist and kicks her backward.",
+        "limitation": "It cannot charge while airborne; the recoil must be managed with her stance.",
+        "growth": [
+          "Turn the recoil into a controlled pivot and use the next landing to reload."
+        ]
+      },
+      "references": [
+        "18",
+        "ST-SHEET",
+        "ST06-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "ST05"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/ST06-F1.png",
+        "sha256": "d7c50665168d61e96ab9794a59426129555e4931f5755e22eeec2add04031f78",
+        "attempt_id": "ST06-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/ST06-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/ST06-P.png",
+          "sha256": "2d31299e801875358e8bdbabe5dcef0385a44d9a8c4a5fe8f65f113b2132796e",
+          "attempt_id": "ST06-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST06-P.png",
+          "prompt_path": "production/anchor-return/prompts/ST06-P.txt",
+          "prompt_sha256": "e0f6f2dbf3a7ac14efae6cd98b8a54c6aabd9ced39e0c4e72c8e77071e5a36eb",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+              "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/ST06.png",
+              "sha256": "4251055e04579e903ea2c5bff90619103ad14620bb59daa4431dcfeb31f171cd",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST06-P.json",
+          "call_sha256": "3c5e5f8008c222e94534d87cfafa9999f919fa9d0a9008bd3ecc4cfbed98a265",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST06-R1.png",
+          "sha256": "60107451958e8a2e8fcf088fc7cd1e7841445adbefaa222ead685f59728d58fa",
+          "attempt_id": "ST06-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST06-R1.png",
+          "prompt_path": "production/anchor-return/prompts/ST06-R1.txt",
+          "prompt_sha256": "f53b88069b2019a095efcd0551014101857ac2e59d83fd509eddc816cd26ec45",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/ST06-P.png",
+              "sha256": "2d31299e801875358e8bdbabe5dcef0385a44d9a8c4a5fe8f65f113b2132796e",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST06-R1.json",
+          "call_sha256": "f300ffdd7eb58854bc9bb985f40d3466725241ba613ff488f9d61ca3a96202cc",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "ST06-P",
+          "retry_reason": "Root and independent transfer review: decisive circle punch uses anatomical left arm and restores undamaged opposite glove; contact lacks clear cheek compression.",
+          "evidence": {
+            "path": "research/anchor-return/final-structural-evidence.json",
+            "recorded_sha256": "ee1e47352d6bf7326a0b0f507637618b410d20ff86bc4650346b9cfc297415c0",
+            "inspection_sha256": "ee1e47352d6bf7326a0b0f507637618b410d20ff86bc4650346b9cfc297415c0",
+            "binding_status": "call-recorded hash"
+          }
+        },
+        {
+          "path": "production/anchor-return/candidates/ST06-F1.png",
+          "sha256": "d7c50665168d61e96ab9794a59426129555e4931f5755e22eeec2add04031f78",
+          "attempt_id": "ST06-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST06-F1.png",
+          "prompt_path": "production/anchor-return/prompts/ST06-F1.txt",
+          "prompt_sha256": "5bee85c24797123b40b0c7da2c1f01ede3cf4f29a98e14f8867cfb787bdce4e1",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/ST06-R1.png",
+              "sha256": "60107451958e8a2e8fcf088fc7cd1e7841445adbefaa222ead685f59728d58fa",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST06-F1.json",
+          "call_sha256": "db956ad2e0f42e54faf4b3de808350ca7145db99c48d133fb25e12c39842c9c3",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "ST06-R1",
+          "retry_reason": "Native R1 creates much clearer cheek compression and visible glove chip but fails handedness repair. Dense floor chips, small wool lobes and hill details still warrant sole-source surface finish with impact protected.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-03.json",
+            "recorded_sha256": "163f70f09bb5ca9ba0ed352cbbf4798c655c9710934b0de9944f00321d252e15",
+            "inspection_sha256": "163f70f09bb5ca9ba0ed352cbbf4798c655c9710934b0de9944f00321d252e15",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "ST07",
+      "title": "Ride the recoil",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "ST",
+      "sequence_order": 7,
+      "beat": "cost",
+      "scale": "wide diagonal",
+      "drawing_direction": "Soft Thunder",
+      "anchor_id": "18",
+      "subjects": [
+        "Tavi Ember",
+        "The Gale Ram"
+      ],
+      "caption": "Ride the recoil. The recoil sends Tavi sliding backward on both boots, knees bent, RIGHT glove pulled back from spent punch. Chipped LEFT crescent glove extends for balance. Ram stumbles sideways with forelegs crossing awkwardly but anatomically traceable, rear feet catching its mass; cheeks deflated and expression indignant. Two broad opposed movement arcs, no particles.",
+      "brief": "The recoil sends Tavi sliding backward on both boots, knees bent, RIGHT glove pulled back from spent punch. Chipped LEFT crescent glove extends for balance. Ram stumbles sideways with forelegs crossing awkwardly but anatomically traceable, rear feet catching its mass; cheeks deflated and expression indignant. Two broad opposed movement arcs, no particles.",
+      "current_state": "pulse spent; LEFT chip persists; ram off balance",
+      "contact_contract": "opposed recoil directions; grounded sliding feet",
+      "power": {
+        "name": "Stored Breath",
+        "description": "Tavi’s RIGHT gauntlet compresses one wind pulse while both boots brace on solid ground. Release drives a short broad air wedge through the fist and kicks her backward.",
+        "limitation": "It cannot charge while airborne; the recoil must be managed with her stance.",
+        "growth": [
+          "Turn the recoil into a controlled pivot and use the next landing to reload."
+        ]
+      },
+      "references": [
+        "18",
+        "ST-SHEET",
+        "ST07-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "ST06"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/ST07-F1.png",
+        "sha256": "097a45e8878d5a216b2ee87a8d54352c987c223108d9f8a3d14cecfd76cb328a",
+        "attempt_id": "ST07-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/ST07-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/ST07-P.png",
+          "sha256": "3c175a2e44164144b690e2df2f3eb935460d2bce4e6498e21334ebcd90392dc7",
+          "attempt_id": "ST07-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST07-P.png",
+          "prompt_path": "production/anchor-return/prompts/ST07-P.txt",
+          "prompt_sha256": "bc4ef14fc973e3c28b4755a304695769f8f571b1f99dcb23fabceb0b1bc9f511",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+              "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/ST07.png",
+              "sha256": "c984d7526aa38d3e21ba047999a81f8886344f924f85d996c1933f8731ad3ab0",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST07-P.json",
+          "call_sha256": "7042a15014825036c99069ec87c482b5eaecdbdb272d513d3a919a60a8a05eee",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST07-F1.png",
+          "sha256": "097a45e8878d5a216b2ee87a8d54352c987c223108d9f8a3d14cecfd76cb328a",
+          "attempt_id": "ST07-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST07-F1.png",
+          "prompt_path": "production/anchor-return/prompts/ST07-F1.txt",
+          "prompt_sha256": "6310673b7833a03d867f28b311494773ab0604a85b0f986843e65ff599ad7c77",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/ST07-P.png",
+              "sha256": "3c175a2e44164144b690e2df2f3eb935460d2bce4e6498e21334ebcd90392dc7",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST07-F1.json",
+          "call_sha256": "b704e54bbe0d6f0cbb59119d1d3fc41a108c348b7eb24e7b1aa638ae6b359594",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "ST07-P",
+          "retry_reason": "Root native inspection: chalk floor has dense chip/mottle patterns; ram curls, cloud patches and hillside detail compete with expressive action. Preserve functional circle/crescent marks and visible damage.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-02.json",
+            "recorded_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "inspection_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "ST08",
+      "title": "Nobody looks dignified",
+      "category": "encounter",
+      "group": "encounter",
+      "sequence_id": "ST",
+      "sequence_order": 8,
+      "beat": "consequence",
+      "scale": "medium warm eye level",
+      "drawing_direction": "Soft Thunder",
+      "anchor_id": "18",
+      "subjects": [
+        "Tavi Ember",
+        "The Gale Ram"
+      ],
+      "caption": "Nobody looks dignified. Tavi sits on the quiet chalk ledge laughing breathlessly, inspecting chipped LEFT crescent gauntlet with intact RIGHT glove. Gale Ram sits a few paces away with all four limbs naturally folded, flattened cheek and sulky raised eyebrow, clearly alive. Windmill hills and coral clouds return, no effects. Tavi still visibly an athletic adult, no childlike proportions.",
+      "brief": "Tavi sits on the quiet chalk ledge laughing breathlessly, inspecting chipped LEFT crescent gauntlet with intact RIGHT glove. Gale Ram sits a few paces away with all four limbs naturally folded, flattened cheek and sulky raised eyebrow, clearly alive. Windmill hills and coral clouds return, no effects. Tavi still visibly an athletic adult, no childlike proportions.",
+      "current_state": "LEFT chip persists; RIGHT intact; no charge; ram recovering",
+      "contact_contract": "quiet readable hands, resting ram anatomy, personality",
+      "power": {
+        "name": "Stored Breath",
+        "description": "Tavi’s RIGHT gauntlet compresses one wind pulse while both boots brace on solid ground. Release drives a short broad air wedge through the fist and kicks her backward.",
+        "limitation": "It cannot charge while airborne; the recoil must be managed with her stance.",
+        "growth": [
+          "Turn the recoil into a controlled pivot and use the next landing to reload."
+        ]
+      },
+      "references": [
+        "18",
+        "ST-SHEET",
+        "ST08-CONTROL"
+      ],
+      "continuation_dependencies": [
+        "ST07"
+      ],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/ST08-F1.png",
+        "sha256": "d918a734c81ceb7ccd1a714b2c50522abed4f621c6da2eb4b57843d5b2f69da1",
+        "attempt_id": "ST08-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/ST08-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/ST08-P.png",
+          "sha256": "6ce45579de7a02974069604196002a63e5fcf752a22c1c76d801a59d09d729dd",
+          "attempt_id": "ST08-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST08-P.png",
+          "prompt_path": "production/anchor-return/prompts/ST08-P.txt",
+          "prompt_sha256": "2d085663b9a41859ec3b711eee99fee80307a1fdd7dbf6185f183aef1a8bab90",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            },
+            {
+              "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+              "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+              "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+            },
+            {
+              "path": "production/anchor-return/controls/ST08.png",
+              "sha256": "e751f80fc1316fc245c098eec3c56fc72338a147b68c950c2b42fbcf79807576",
+              "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST08-P.json",
+          "call_sha256": "f2ed878f2f8366860a85a5cb663cedad9a3f3d493d364731e3c2fb9171906000",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST08-F1.png",
+          "sha256": "d918a734c81ceb7ccd1a714b2c50522abed4f621c6da2eb4b57843d5b2f69da1",
+          "attempt_id": "ST08-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST08-F1.png",
+          "prompt_path": "production/anchor-return/prompts/ST08-F1.txt",
+          "prompt_sha256": "c210a5c4518d01b6648b38e1c013f128abc74437e3733829769559e695470638",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/ST08-P.png",
+              "sha256": "6ce45579de7a02974069604196002a63e5fcf752a22c1c76d801a59d09d729dd",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST08-F1.json",
+          "call_sha256": "376f3a02285f698a7fc0dc11a297ba2c8795f09fba9129b5e244180acdf3891c",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "ST08-P",
+          "retry_reason": "Root native inspection: chalk floor has dense chip/mottle patterns; ram curls, cloud patches and hillside detail compete with expressive action. Preserve functional circle/crescent marks and visible damage.",
+          "evidence": {
+            "path": "research/anchor-return/encounter-finish-evidence-02.json",
+            "recorded_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "inspection_sha256": "2394d64988704e0ad5c11df69ccb8762ee2ce95194277b0dde5c63586fa3ae54",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "SB01",
+      "title": "Turn the sunlight",
+      "category": "anchor-study",
+      "group": "anchor-study",
+      "sequence_id": null,
+      "sequence_order": null,
+      "beat": "decisive moment",
+      "scale": "wide low rooftop diagonal",
+      "drawing_direction": "Sunbreak Lancer",
+      "anchor_id": "02",
+      "subjects": [
+        "Turn the sunlight"
+      ],
+      "caption": "Turn the sunlight. Sun Wedge: a spear can redirect a leap only while its blade catches direct sunlight; shade cancels it. Growth: choose the angle rather than increase glare.",
+      "brief": "A new light-skinned adult male lancer with a freckled long face, wavy auburn hair tied back, cream short battle cape over coral light armor and green fitted trousers vaults a broad blue-and-green spear across the shoulder of a huge mirror-glass feline lunging past him. His two hands grip a single complete shaft; one boot pushes from a cream rooftop edge, the other leg folds naturally. The spear’s broad sunlit blade projects one flat warm wedge that redirects the cat’s next leap toward an empty sail rather than distant pedestrians. Colorful suspended cloth sails and stacked cream city against azure sky. Cat built from a few large angular transparent planes, no tiny shattered facets.",
+      "current_state": "Standalone original moment; no prior cast or canon selected.",
+      "contact_contract": "Visible support, clear weapon construction and causal target reaction.",
+      "power": {
+        "name": "Sun Wedge",
+        "description": "Sun Wedge: a spear can redirect a leap only while its blade catches direct sunlight; shade cancels it. Growth: choose the angle rather than increase glare.",
+        "limitation": "See description.",
+        "growth": [
+          "See description."
+        ]
+      },
+      "references": [
+        "02"
+      ],
+      "continuation_dependencies": [],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/SB01-F1.png",
+        "sha256": "ca4c41ca46ed5ebfbe2a515046749a9da3fc62c4ac12f2afb47bd36b5eaa9e94",
+        "attempt_id": "SB01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/SB01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/SB01-P.png",
+          "sha256": "29d278a2bdfb79c00d58c76a66bd56df579d013aac949d447064573e4143596d",
+          "attempt_id": "SB01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/SB01-P.png",
+          "prompt_path": "production/anchor-return/prompts/SB01-P.txt",
+          "prompt_sha256": "68b691914bedc24ef30ea7d310905993bd4fcc9b4b0430d17f298c27f900844c",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-02.png",
+              "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/SB01-P.json",
+          "call_sha256": "9023eab50581efe88aaf8f6af745ae078c64c8e5e6c17c1824de7a74dd31f9ce",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/SB01-F1.png",
+          "sha256": "ca4c41ca46ed5ebfbe2a515046749a9da3fc62c4ac12f2afb47bd36b5eaa9e94",
+          "attempt_id": "SB01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/SB01-F1.png",
+          "prompt_path": "production/anchor-return/prompts/SB01-F1.txt",
+          "prompt_sha256": "5fc1eebbc318802015696d7d033cb88123c1715762729fde307fd5c68f745ce6",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/SB01-P.png",
+              "sha256": "29d278a2bdfb79c00d58c76a66bd56df579d013aac949d447064573e4143596d",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/SB01-F1.json",
+          "call_sha256": "38a6467452f1776d96c0cc3c8fab816d126012b77768760d48175f3020b50c03",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "SB01-P",
+          "retry_reason": "Actual native source inspected: distracting repeated surface marks compete with face/contact. Targeted source-preserving finishing preserves this direction’s own medium; no structural edits.",
+          "evidence": {
+            "path": "research/anchor-return/first-edit-evidence.json",
+            "recorded_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "inspection_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "IO01",
+      "title": "Brace the orchard gate",
+      "category": "anchor-study",
+      "group": "anchor-study",
+      "sequence_id": null,
+      "sequence_order": null,
+      "beat": "decisive moment",
+      "scale": "wide ground-level side",
+      "drawing_direction": "Iron Orchard",
+      "anchor_id": "05",
+      "subjects": [
+        "Brace the orchard gate"
+      ],
+      "caption": "Brace the orchard gate. Load Turn: gauntlets grip one joint and redirect weight only while her stance is braced; she cannot lift the machine outright. Growth: chain balance breaks.",
+      "brief": "A new imposing light-skinned adult woman age40 with strong brow, short silver undercut and warm dark eyes, ochre sleeveless padded combat coat, olive trousers and broad rust-red armored gauntlets braces one boot against a rail sleeper and catches the thick forelimb of a huge rust beetle-machine with both gauntlets. Her shoulder drives under its joint, twisting it sideways until the near leg buckles. A short broad combat cleaver remains sheathed at her hip, readable complete silhouette. Orchard rows, elevated rail truss and industrial gate recede in broad painted masses; dry matte earth, no grit speckle. Beetle has readable paired mechanical legs and a single green face lamp.",
+      "current_state": "Standalone original moment; no prior cast or canon selected.",
+      "contact_contract": "Visible support, clear weapon construction and causal target reaction.",
+      "power": {
+        "name": "Load Turn",
+        "description": "Load Turn: gauntlets grip one joint and redirect weight only while her stance is braced; she cannot lift the machine outright. Growth: chain balance breaks.",
+        "limitation": "See description.",
+        "growth": [
+          "See description."
+        ]
+      },
+      "references": [
+        "05"
+      ],
+      "continuation_dependencies": [],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/IO01-F1.png",
+        "sha256": "803b01c3bed52c200ffffdb5a2296d62ee39e27568282e2ded739c6c3a47ac80",
+        "attempt_id": "IO01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/IO01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/IO01-P.png",
+          "sha256": "0744fa4e671665e1a39a298245e3a1282cf0efec05ca9c5bc52be80d6a98baff",
+          "attempt_id": "IO01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/IO01-P.png",
+          "prompt_path": "production/anchor-return/prompts/IO01-P.txt",
+          "prompt_sha256": "e8c536bd308db0d9e4494cafe533f78a2e97b1893796e0705a6d3bfc947f5aa1",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-05.png",
+              "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/IO01-P.json",
+          "call_sha256": "873600d585b74aaae1402db7f905aec19e4ed483ec36b799d1c571f8a0771a0c",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/IO01-F1.png",
+          "sha256": "803b01c3bed52c200ffffdb5a2296d62ee39e27568282e2ded739c6c3a47ac80",
+          "attempt_id": "IO01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/IO01-F1.png",
+          "prompt_path": "production/anchor-return/prompts/IO01-F1.txt",
+          "prompt_sha256": "3d2ebbe528c77759ab8065d53a69315733891c851dc4bf690a2df06e02f49f50",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/IO01-P.png",
+              "sha256": "0744fa4e671665e1a39a298245e3a1282cf0efec05ca9c5bc52be80d6a98baff",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/IO01-F1.json",
+          "call_sha256": "1374d90d8536b0c53bac21279d1dd7b86a37ec2223179453599b44e80c167ab8",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "IO01-P",
+          "retry_reason": "Actual native source inspected: distracting repeated surface marks compete with face/contact. Targeted source-preserving finishing preserves this direction’s own medium; no structural edits.",
+          "evidence": {
+            "path": "research/anchor-return/first-edit-evidence.json",
+            "recorded_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "inspection_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "FL01",
+      "title": "Close the floodgate",
+      "category": "anchor-study",
+      "group": "anchor-study",
+      "sequence_id": null,
+      "sequence_order": null,
+      "beat": "decisive moment",
+      "scale": "extreme wide steep diagonal",
+      "drawing_direction": "Floodline Detective",
+      "anchor_id": "06",
+      "subjects": [
+        "Close the floodgate"
+      ],
+      "caption": "Close the floodgate. Hinge Bind: the hook locks a moving joint only at full extension; mistiming lets it close on the shaft. Growth: read the release rather than overpower the creature.",
+      "brief": "A new lean light-skinned adult woman age38 with severe cheekbones and short swept black hair, white high-collared short combat coat over black armor and high boots, drives a straightforward long hooked battle spear with both hands through the open hinge of an enormous black umbrella-serpent emerging from broad black floodwater. Both feet planted on a concrete gate ledge, torso twists under the load. The serpent’s broad umbrella ribs fold inward where the hook catches, white face recoils. One hot-pink rectangular gate signal only; stark monumental concrete arches and broad water blacks, sparse white ripples, no repetitive spray.",
+      "current_state": "Standalone original moment; no prior cast or canon selected.",
+      "contact_contract": "Visible support, clear weapon construction and causal target reaction.",
+      "power": {
+        "name": "Hinge Bind",
+        "description": "Hinge Bind: the hook locks a moving joint only at full extension; mistiming lets it close on the shaft. Growth: read the release rather than overpower the creature.",
+        "limitation": "See description.",
+        "growth": [
+          "See description."
+        ]
+      },
+      "references": [
+        "06"
+      ],
+      "continuation_dependencies": [],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/FL01-F1.png",
+        "sha256": "2061812d71ca1c6c0d93af3101818a27e554c1609b56da2997dd5211ff9040f4",
+        "attempt_id": "FL01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/FL01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/FL01-P.png",
+          "sha256": "d85f202efda5c9857907a08e9585784079f1e2b858a18bb85b3cde62efcc0e15",
+          "attempt_id": "FL01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/FL01-P.png",
+          "prompt_path": "production/anchor-return/prompts/FL01-P.txt",
+          "prompt_sha256": "a515d57f4d3739e1e2e539e19b1ed83c857236aa6a2f0c51c66086ceeab4ec0f",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-06.png",
+              "sha256": "b515ac0588e2ab4f1e86bdf89e439c3d5374706580681d192b7155105878a818",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/FL01-P.json",
+          "call_sha256": "2e202b983a38b9e78040ff0057e67bb775aa2e9668220b4c46482df8441d0694",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/FL01-F1.png",
+          "sha256": "2061812d71ca1c6c0d93af3101818a27e554c1609b56da2997dd5211ff9040f4",
+          "attempt_id": "FL01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/FL01-F1.png",
+          "prompt_path": "production/anchor-return/prompts/FL01-F1.txt",
+          "prompt_sha256": "44a9b696696b0dc7bccc780d8e35c60e2be99f3d1b7e370ca539aafe0d132722",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/FL01-P.png",
+              "sha256": "d85f202efda5c9857907a08e9585784079f1e2b858a18bb85b3cde62efcc0e15",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/FL01-F1.json",
+          "call_sha256": "1c56191f26d2059a44b6fe0ad559591c9f80a19c8294f7bd2b30302ea7050afa",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "FL01-P",
+          "retry_reason": "Actual native source inspected: distracting repeated surface marks compete with face/contact. Targeted source-preserving finishing preserves this direction’s own medium; no structural edits.",
+          "evidence": {
+            "path": "research/anchor-return/first-edit-evidence.json",
+            "recorded_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "inspection_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "RC01",
+      "title": "Break the spiral",
+      "category": "anchor-study",
+      "group": "anchor-study",
+      "sequence_id": null,
+      "sequence_order": null,
+      "beat": "decisive moment",
+      "scale": "wide extreme foreshortened manga angle",
+      "drawing_direction": "Red Current",
+      "anchor_id": "13",
+      "subjects": [
+        "Break the spiral"
+      ],
+      "caption": "Break the spiral. Rising Fault: the punch redirects an incoming downward force upward; weak against a stationary target. Growth: exploit faster threats with better timing.",
+      "brief": "A new light-skinned athletic adult man with an angular smiling face and long black hair in a compact braid, white sleeveless combat jacket over black fitted trousers, red rigid fighting gauntlets, punches a giant folded white ray-shark’s jaw upward as it dives through a concrete spiral ramp. His RIGHT fist visibly compresses the lower jaw at one contact, LEFT guards ribs, rear foot drives and front knee bends. Red is limited to gauntlets and one decisive impact wedge. The creature’s wings are broad black-and-white sheets with a few purposeful fold lines; distant ramp spirals give scale, no shard storm or all-over hatching.",
+      "current_state": "Standalone original moment; no prior cast or canon selected.",
+      "contact_contract": "Visible support, clear weapon construction and causal target reaction.",
+      "power": {
+        "name": "Rising Fault",
+        "description": "Rising Fault: the punch redirects an incoming downward force upward; weak against a stationary target. Growth: exploit faster threats with better timing.",
+        "limitation": "See description.",
+        "growth": [
+          "See description."
+        ]
+      },
+      "references": [
+        "13"
+      ],
+      "continuation_dependencies": [],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/RC01-F1.png",
+        "sha256": "1bc5ce848d90083bde3091294dab0fd41abf9a97c583068855b28e10988748fb",
+        "attempt_id": "RC01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/RC01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/RC01-P.png",
+          "sha256": "9ab280c334a433717b17a5b0df14400ea678f52e8683301e21519b18e1282793",
+          "attempt_id": "RC01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/RC01-P.png",
+          "prompt_path": "production/anchor-return/prompts/RC01-P.txt",
+          "prompt_sha256": "e0df7654981e86494052fa935c3c445cab1ebd54b3cc063f8944bce2f307dc90",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-13.png",
+              "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/RC01-P.json",
+          "call_sha256": "53b30240b208fb8aa247f25d50f1f977bdab9b9c78832b092307de16b9a7291a",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/RC01-F1.png",
+          "sha256": "1bc5ce848d90083bde3091294dab0fd41abf9a97c583068855b28e10988748fb",
+          "attempt_id": "RC01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/RC01-F1.png",
+          "prompt_path": "production/anchor-return/prompts/RC01-F1.txt",
+          "prompt_sha256": "2ee02378aa2d52c24341a001423aa02903e91d7d9c49a63e6c2d395e7cb06b19",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/RC01-P.png",
+              "sha256": "9ab280c334a433717b17a5b0df14400ea678f52e8683301e21519b18e1282793",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/RC01-F1.json",
+          "call_sha256": "d24296af90a7a5a82f6f9fbdf4c1aced189015e345986fad307bf40cb2c80df0",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "RC01-P",
+          "retry_reason": "Actual native source inspected: distracting repeated surface marks compete with face/contact. Targeted source-preserving finishing preserves this direction’s own medium; no structural edits.",
+          "evidence": {
+            "path": "research/anchor-return/first-edit-evidence.json",
+            "recorded_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "inspection_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "CE01",
+      "title": "Unseat the bell",
+      "category": "anchor-study",
+      "group": "anchor-study",
+      "sequence_id": null,
+      "sequence_order": null,
+      "beat": "decisive moment",
+      "scale": "wide low theatrical",
+      "drawing_direction": "Cathedral Engine",
+      "anchor_id": "15",
+      "subjects": [
+        "Unseat the bell"
+      ],
+      "caption": "Unseat the bell. Counterweight: shield catches a loaded leg while mace releases its hinge; it requires the enemy’s own step. Growth: interrupt several linked machines through their rhythm.",
+      "brief": "A new regal light-skinned adult woman age45 with an aquiline face, silver braid, dark fitted long coat with cream lapels and split riding skirt over trousers, holds a large plain brass round shield in LEFT hand and compact flanged war mace in RIGHT. She drives the shield beneath a giant walking bell engine’s bent front leg while striking its pivot with the mace; her knees bend and both boots brace. The bell tilts bodily and one leg lifts, not a weightless explosion. Vast engraved bell-city towers rise behind in pale atmospheric layers. Sepia line groups curve around brass forms; broad untouched parchment ground, no checkerboard or metallic glints.",
+      "current_state": "Standalone original moment; no prior cast or canon selected.",
+      "contact_contract": "Visible support, clear weapon construction and causal target reaction.",
+      "power": {
+        "name": "Counterweight",
+        "description": "Counterweight: shield catches a loaded leg while mace releases its hinge; it requires the enemy’s own step. Growth: interrupt several linked machines through their rhythm.",
+        "limitation": "See description.",
+        "growth": [
+          "See description."
+        ]
+      },
+      "references": [
+        "15"
+      ],
+      "continuation_dependencies": [],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/CE01-P.png",
+        "sha256": "637f7858931a3d3f89c3f04add2199401eea990c90a92fc95055d69dc2ad2f59",
+        "attempt_id": "CE01-P",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/CE01-P.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/CE01-P.png",
+          "sha256": "637f7858931a3d3f89c3f04add2199401eea990c90a92fc95055d69dc2ad2f59",
+          "attempt_id": "CE01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/CE01-P.png",
+          "prompt_path": "production/anchor-return/prompts/CE01-P.txt",
+          "prompt_sha256": "3411ee68b8d5717c1fc9c6046bcdbc5518fc586b934e2877aa34788f666d3fb8",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-15.png",
+              "sha256": "573a89b565d5e2ec8fab13624be9a27d2d9f2b09e7d611acbeec9563d4672542",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/CE01-P.json",
+          "call_sha256": "ca8833a6943a6872d0f44998a6528b4b38c12cfd80ebfe01a80608bd6126c7a0",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/CE01-F1.png",
+          "sha256": "f508cd254c66ada68ca3805c31d60b89aad2824f1f4f570ae2a482970228bcf3",
+          "attempt_id": "CE01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/CE01-F1.png",
+          "prompt_path": "production/anchor-return/prompts/CE01-F1.txt",
+          "prompt_sha256": "f17052c03c0fa713c3d8cb44cad22d146e24d2bcd55f0b85cda4ea1739718380",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/CE01-P.png",
+              "sha256": "637f7858931a3d3f89c3f04add2199401eea990c90a92fc95055d69dc2ad2f59",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/CE01-F1.json",
+          "call_sha256": "0e5ab582e04ac769c49e23cb86fe982b10109af3933472941f7394b5e2762bc1",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "CE01-P",
+          "retry_reason": "Actual native source inspected: distracting repeated surface marks compete with face/contact. Targeted source-preserving finishing preserves this direction’s own medium; no structural edits.",
+          "evidence": {
+            "path": "research/anchor-return/first-edit-evidence.json",
+            "recorded_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "inspection_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "HC01",
+      "title": "Hold the walking garden",
+      "category": "anchor-study",
+      "group": "anchor-study",
+      "sequence_id": null,
+      "sequence_order": null,
+      "beat": "decisive moment",
+      "scale": "extreme wide airy side",
+      "drawing_direction": "Hollow Cartographer",
+      "anchor_id": "17",
+      "subjects": [
+        "Hold the walking garden"
+      ],
+      "caption": "Hold the walking garden. Root Still: planted spear can halt a moving root briefly while both hands hold pressure; leaving the brace frees it. Growth: create safe passages through living terrain.",
+      "brief": "A new appealing light-skinned adult woman with a round determined face and a mass of warm brown curls, teal short cloak over cream light combat armor, orange sash and blue trousers, uses a plain long silver spear and small round teal forearm shield to pin a thick root-serpent against an aqueduct parapet. Both hands hold the spear; shield is strapped to LEFT forearm. Her feet brace on the salmon walkway, serpent neck bends visibly at spear pressure, no puncture gore. Beyond the enormous salmon arches, an immense walking garden tortoise carries a few trees and a small white tower through blue air; its long rootlike legs remain simple and readable. Spacious warm storybook flat colors, calm floor and thin even outlines.",
+      "current_state": "Standalone original moment; no prior cast or canon selected.",
+      "contact_contract": "Visible support, clear weapon construction and causal target reaction.",
+      "power": {
+        "name": "Root Still",
+        "description": "Root Still: planted spear can halt a moving root briefly while both hands hold pressure; leaving the brace frees it. Growth: create safe passages through living terrain.",
+        "limitation": "See description.",
+        "growth": [
+          "See description."
+        ]
+      },
+      "references": [
+        "17"
+      ],
+      "continuation_dependencies": [],
+      "paired_ids": [],
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/HC01-F1.png",
+        "sha256": "6f979a29eb16b951085357a08fac84d504f518bc83092d32e70d672eb48ab80f",
+        "attempt_id": "HC01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/HC01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/HC01-P.png",
+          "sha256": "3c3992b8849c708acffd5ffea92e451a569ab013ef97156f36ba4e94c4f8fa68",
+          "attempt_id": "HC01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/HC01-P.png",
+          "prompt_path": "production/anchor-return/prompts/HC01-P.txt",
+          "prompt_sha256": "19a644a530ba8d38c4ba1709ef63c6762586ae24ef684d79b23d51804335c42e",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-17.png",
+              "sha256": "54ecdd57259ff8edb221496d133548fdc2a1957a524a5d784760863111759180",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/HC01-P.json",
+          "call_sha256": "ffd0911b998f7ef118e25d5b2c4993877027b3e0186fb77a84dc62f5a5bb1dcc",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/HC01-F1.png",
+          "sha256": "6f979a29eb16b951085357a08fac84d504f518bc83092d32e70d672eb48ab80f",
+          "attempt_id": "HC01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/HC01-F1.png",
+          "prompt_path": "production/anchor-return/prompts/HC01-F1.txt",
+          "prompt_sha256": "44b8838bafb1bf51b2fddf21fc622691e7398e984705e1a959fd5163395183eb",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/HC01-P.png",
+              "sha256": "3c3992b8849c708acffd5ffea92e451a569ab013ef97156f36ba4e94c4f8fa68",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/HC01-F1.json",
+          "call_sha256": "32425e7a4ee194b7af64675ccd373f04a8d2ec71b595c15233b7fe0a0705b9a9",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "HC01-P",
+          "retry_reason": "Actual native source inspected: distracting repeated surface marks compete with face/contact. Targeted source-preserving finishing preserves this direction’s own medium; no structural edits.",
+          "evidence": {
+            "path": "research/anchor-return/first-edit-evidence.json",
+            "recorded_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "inspection_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    }
+  ],
+  "support_entries": [
+    {
+      "id": "NG-SHEET",
+      "title": "The bridge that pulls back — cast and equipment",
+      "category": "support",
+      "sequence_id": "NG",
+      "anchor_id": "01",
+      "brief": "Aren: light-skinned adult man age28, narrow angular face, gray eyes, swept midnight-blue hair with short side undercut; off-white sleeveless asymmetric knee-length split vest over fitted black high collar and tapered black trousers, a single red fastening cord at chest, slim black boots, NO plate armor. RIGHT hand carries one solid 60cm crescent-edged short sword, black straight hilt, small cyan ring in pommel. Sera: light-skinned adult woman age33, strong square face, short copper bob, burgundy sleeveless thigh-length combat coat, charcoal fitted trousers and boots, straightforward black spear with pale triangular steel point, held two-handed. Distinct mature faces and silhouettes.",
+      "owner_approval": null,
+      "caption": "Supplemental cast and equipment reference; separate from finished compositions.",
+      "subjects": [],
+      "power": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/NG-SHEET-R1.png",
+        "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10",
+        "attempt_id": "NG-SHEET-R1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/NG-SHEET-R1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/NG-SHEET-P.png",
+          "sha256": "f866ca7b7718e038d7466e442a67629b63dcda1bdbfd0a69622918a2e4a3b150",
+          "attempt_id": "NG-SHEET-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG-SHEET-P.png",
+          "prompt_path": "production/anchor-return/prompts/NG-SHEET-P.txt",
+          "prompt_sha256": "8cf17178de712b28e313f54fea25e32ab59be0942794913e2268ca21f9c0d7ea",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-01.png",
+              "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG-SHEET-P.json",
+          "call_sha256": "103a0fdd540656258a6a8747cb1f22de69eecf004ea464ae1eb2b1cc2f7d6545",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/NG-SHEET-R1.png",
+          "sha256": "228b3f0f4f46a1cdab61268b2e3babcbf1d770b5822bc522462cf1ac59b27b10",
+          "attempt_id": "NG-SHEET-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/NG-SHEET-R1.png",
+          "prompt_path": "production/anchor-return/prompts/NG-SHEET-R1.txt",
+          "prompt_sha256": "df215dd5385f51da30bc8c47085ff758bcaa0878b97c092325d79a580cd33a8c",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/NG-SHEET-P.png",
+              "sha256": "f866ca7b7718e038d7466e442a67629b63dcda1bdbfd0a69622918a2e4a3b150",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/NG-SHEET-R1.json",
+          "call_sha256": "b1d56c1335e870e02d85bc71521860a7c7f9000666d0db25de6fd8f524b40331",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "NG-SHEET-P",
+          "retry_reason": "Native sheet adds a wrist crescent blade and separate cyan wrist ring, competing with the sole sword-pommel power origin. Correct foundation before linked scenes.",
+          "evidence": {
+            "path": "research/anchor-return/first-edit-evidence.json",
+            "recorded_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "inspection_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "BP-SHEET",
+      "title": "When the flower takes root — cast and equipment",
+      "category": "support",
+      "sequence_id": "BP",
+      "anchor_id": "19",
+      "brief": "Ilyra: pale adult woman age30, elegant long oval face, narrow gray eyes, chin-length smooth dark-brown hair with one ivory underlayer visible at the nape; black fitted long split-tail coat, high white standing collar, dark pleated combat trousers, smooth silver LEFT forearm guard, slim black boots. RIGHT hand holds one slender silver single-edge saber with a simple open oval black guard; readable complete blade, no ornamental tangle. Mourning Bloom: enormous floating translucent charcoal flower, oval empty center, broad soft black petals with sparse silver edging; a long stout tapering black root descends to a single wide planted thorn foot when it attacks. No human mask, hands, ivory armor or bundles of threadlike roots. Its weight hangs above that root.",
+      "owner_approval": null,
+      "caption": "Supplemental cast and equipment reference; separate from finished compositions.",
+      "subjects": [],
+      "power": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/BP-SHEET-R1.png",
+        "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e",
+        "attempt_id": "BP-SHEET-R1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/BP-SHEET-R1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/BP-SHEET-P.png",
+          "sha256": "7cd6d69d862b707feeef2868e000a6e6b50b187aa2930ca4a89fd38b842dd42b",
+          "attempt_id": "BP-SHEET-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP-SHEET-P.png",
+          "prompt_path": "production/anchor-return/prompts/BP-SHEET-P.txt",
+          "prompt_sha256": "458d88d990441361e5a384882d9eb03a266484cbebd85d1acc3a91e24175f385",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-19.png",
+              "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP-SHEET-P.json",
+          "call_sha256": "1687904ac5bddc702ffac1f53eced8984fb2738a863567a1ba9966c9ed41c617",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/BP-SHEET-R1.png",
+          "sha256": "6fdbbcc07b58d1d09e93c94d942b6d14f94e931a0a6f10daca76dd9f341c088e",
+          "attempt_id": "BP-SHEET-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/BP-SHEET-R1.png",
+          "prompt_path": "production/anchor-return/prompts/BP-SHEET-R1.txt",
+          "prompt_sha256": "5648e2956f3bdb4e1eeb169e8a55cfdad559324de3969aeec8428872ca51af56",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/BP-SHEET-P.png",
+              "sha256": "7cd6d69d862b707feeef2868e000a6e6b50b187aa2930ca4a89fd38b842dd42b",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/BP-SHEET-R1.json",
+          "call_sha256": "05a3deec524d8da91f3e6c6f09bde50aa99f52a7fd463168b2020723c1db9510",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "BP-SHEET-P",
+          "retry_reason": "Native duplicate back view puts guard and sword on inconsistent anatomical sides, offering contradictory identity conditioning. Main front view is the usable reference.",
+          "evidence": {
+            "path": "research/anchor-return/first-edit-evidence.json",
+            "recorded_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "inspection_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    },
+    {
+      "id": "ST-SHEET",
+      "title": "Borrow a breath — cast and equipment",
+      "category": "support",
+      "sequence_id": "ST",
+      "anchor_id": "18",
+      "brief": "Tavi: light-skinned athletic adult woman age27, broad expressive face, large teal eyes, short curly coral hair tied into a high forward tuft, solid shoulders and powerful thighs; cropped turquoise sleeveless combat jacket over cream top, loose orange fighting trousers, red ankle wraps and broad cream boots. Paired rounded red combat gauntlets; LEFT gauntlet has a large cream crescent painted on its back, RIGHT gauntlet has a smooth cream circular pressure plate. Gale Ram: large living blue cloud ram, cream broad muzzle, orange circular cheeks, thick curled blue horns, four stout legs and one cloud tuft tail, readable animal construction; elastic body can squash, never duplicate legs. About twice Tavi’s standing height, expressive angry eyebrows, no armor.",
+      "owner_approval": null,
+      "caption": "Supplemental cast and equipment reference; separate from finished compositions.",
+      "subjects": [],
+      "power": null,
+      "candidate": {
+        "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+        "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+        "attempt_id": "ST-SHEET-R1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/anchor-return/candidates/ST-SHEET-R1.png"
+      },
+      "history": [
+        {
+          "path": "production/anchor-return/candidates/ST-SHEET-P.png",
+          "sha256": "4b35e7237b887bdde4f980f5942e16d6d6969d1ff593bb011f085f61bb3d76b4",
+          "attempt_id": "ST-SHEET-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST-SHEET-P.png",
+          "prompt_path": "production/anchor-return/prompts/ST-SHEET-P.txt",
+          "prompt_sha256": "04c6849d3def7e61e3eda10f2bf35e2bdc06345bcc82a19fbf55907093ef5479",
+          "references": [
+            {
+              "path": "production/anchor-return/references/anchor-18.png",
+              "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+              "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST-SHEET-P.json",
+          "call_sha256": "a710e869f93cf36a271939ec249d54dceb689f95ed701d348baed5bab2723209",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json"
+        },
+        {
+          "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+          "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+          "attempt_id": "ST-SHEET-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/anchor-return/candidates/ST-SHEET-R1.png",
+          "prompt_path": "production/anchor-return/prompts/ST-SHEET-R1.txt",
+          "prompt_sha256": "bdd4bc32a4d2c676b00417bfddf39e7609b5ef2e3b825f886535fd3f8f55b8e2",
+          "references": [
+            {
+              "path": "production/anchor-return/candidates/ST-SHEET-P.png",
+              "sha256": "4b35e7237b887bdde4f980f5942e16d6d6969d1ff593bb011f085f61bb3d76b4",
+              "role": "Sole source edit target; preserve all protected features named in prompt."
+            }
+          ],
+          "call_path": "production/anchor-return/calls/ST-SHEET-R1.json",
+          "call_sha256": "b1b23273b4a9cc68a21d5b414bb32d754459f71647e1fc1e0c2b797b87284327",
+          "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+          "plan_path": "production/anchor-return/plan.json",
+          "retry_of": "ST-SHEET-P",
+          "retry_reason": "Native main figure has crescent on anatomical RIGHT and circle on LEFT; hairstyle repeats the original rope-like locks instead of the new compact curls. Correct foundation before eight linked scenes.",
+          "evidence": {
+            "path": "research/anchor-return/first-edit-evidence.json",
+            "recorded_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "inspection_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+            "binding_status": "call-recorded hash"
+          }
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": []
+    }
+  ],
+  "controls": [
+    {
+      "id": "BP01-CONTROL",
+      "svg_path": "production/anchor-return/controls/BP01.svg",
+      "png_path": "production/anchor-return/controls/BP01.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "large creature versus grounded human; clear hovering gap",
+      "current_state": "coat and saber intact; root unplanted",
+      "camera": "extreme wide low",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          277.1,
+          642
+        ],
+        [
+          321.62,
+          642
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "ILYRA_RIGHT": [
+          286.76,
+          604.2
+        ],
+        "ILYRA_LEFT": [
+          324.14,
+          604.2
+        ]
+      },
+      "creature": {
+        "construction": "single flower body, oval empty center when open, exactly one thick root and one thorn foot",
+        "state": "hanging",
+        "end": [
+          830,
+          575
+        ],
+        "floor_y": 640
+      },
+      "limitations": "Botanical blocking volumes only, not final petal design; camera is schematic.",
+      "svg_sha256": "e9f271d242aa681d1e58ea44e93565ba21949b47301c09413231c132b841dca6",
+      "png_sha256": "3fcd01bccc60934c85dee36d49590d39f54903830ce3aa204da8f05be08e9d49",
+      "manifest_id": "BP01",
+      "path": "production/anchor-return/controls/BP01.png",
+      "sha256": "3fcd01bccc60934c85dee36d49590d39f54903830ce3aa204da8f05be08e9d49",
+      "source_path": "production/anchor-return/controls/BP01.svg",
+      "source_sha256": "e9f271d242aa681d1e58ea44e93565ba21949b47301c09413231c132b841dca6",
+      "title": "BP01-CONTROL",
+      "src": "../../production/anchor-return/controls/BP01.png",
+      "source_src": "../../production/anchor-return/controls/BP01.svg"
+    },
+    {
+      "id": "BP02-CONTROL",
+      "svg_path": "production/anchor-return/controls/BP02.svg",
+      "png_path": "production/anchor-return/controls/BP02.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "blade edge against closed petal; one planted lunging stance",
+      "current_state": "petals closed; intact coat; root hanging",
+      "camera": "medium close oblique",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          216,
+          639
+        ],
+        [
+          546,
+          647
+        ]
+      ],
+      "contact_points": [
+        [
+          684,
+          430
+        ]
+      ],
+      "anatomical_hands": {
+        "ILYRA_RIGHT": [
+          540,
+          429
+        ],
+        "ILYRA_LEFT": [
+          355,
+          450
+        ]
+      },
+      "creature": {
+        "construction": "single flower body, oval empty center when open, exactly one thick root and one thorn foot",
+        "state": "hanging; petals closed",
+        "end": [
+          865,
+          575
+        ]
+      },
+      "limitations": "Botanical blocking volumes only, not final petal design; camera is schematic.",
+      "svg_sha256": "2b0dbc679975cc3c6bcd2e9e7eb65f715cdadb48be4c1d5e0e083aa79b926fe6",
+      "png_sha256": "4812bc1748d71768f2820349e0248cc507b26ac7873eb120c06b71f99fe05412",
+      "manifest_id": "BP02",
+      "path": "production/anchor-return/controls/BP02.png",
+      "sha256": "4812bc1748d71768f2820349e0248cc507b26ac7873eb120c06b71f99fe05412",
+      "source_path": "production/anchor-return/controls/BP02.svg",
+      "source_sha256": "2b0dbc679975cc3c6bcd2e9e7eb65f715cdadb48be4c1d5e0e083aa79b926fe6",
+      "title": "BP02-CONTROL",
+      "src": "../../production/anchor-return/controls/BP02.png",
+      "source_src": "../../production/anchor-return/controls/BP02.svg"
+    },
+    {
+      "id": "BP03-CONTROL",
+      "svg_path": "production/anchor-return/controls/BP03.svg",
+      "png_path": "production/anchor-return/controls/BP03.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "single support root; one visible intended sweep direction",
+      "current_state": "root planted; petals winding up; intact coat",
+      "camera": "wide side",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          223,
+          643
+        ],
+        [
+          429,
+          643
+        ],
+        [
+          848,
+          640
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "ILYRA_RIGHT": [
+          325,
+          503
+        ],
+        "ILYRA_LEFT": [
+          402,
+          475
+        ]
+      },
+      "creature": {
+        "construction": "single flower body, oval empty center when open, exactly one thick root and one thorn foot",
+        "state": "planted, no turn until lifted",
+        "foot": [
+          848,
+          640
+        ]
+      },
+      "limitations": "Botanical blocking volumes only, not final petal design; camera is schematic.",
+      "svg_sha256": "2030c3043cf07e1572c2ed336b5c0811374e96ea6589bd025cb9d5320a4a7f4c",
+      "png_sha256": "9828762fd8cecd8fe1c2330950c3842d1912bdb8015db94faf8719090c2b8fc2",
+      "manifest_id": "BP03",
+      "path": "production/anchor-return/controls/BP03.png",
+      "sha256": "9828762fd8cecd8fe1c2330950c3842d1912bdb8015db94faf8719090c2b8fc2",
+      "source_path": "production/anchor-return/controls/BP03.svg",
+      "source_sha256": "2030c3043cf07e1572c2ed336b5c0811374e96ea6589bd025cb9d5320a4a7f4c",
+      "title": "BP03-CONTROL",
+      "src": "../../production/anchor-return/controls/BP03.png",
+      "source_src": "../../production/anchor-return/controls/BP03.svg"
+    },
+    {
+      "id": "BP04-CONTROL",
+      "svg_path": "production/anchor-return/controls/BP04.svg",
+      "png_path": "production/anchor-return/controls/BP04.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "petal-to-cloth contact; ducking continuous torso and limbs",
+      "current_state": "LEFT coat tail newly torn; root planted",
+      "camera": "close low diagonal",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          352,
+          658
+        ],
+        [
+          645,
+          648
+        ],
+        [
+          940,
+          640
+        ]
+      ],
+      "contact_points": [
+        [
+          500,
+          587
+        ]
+      ],
+      "anatomical_hands": {
+        "ILYRA_RIGHT": [
+          510,
+          513
+        ],
+        "ILYRA_LEFT": [
+          480,
+          336
+        ]
+      },
+      "creature": {
+        "construction": "single flower body, oval empty center when open, exactly one thick root and one thorn foot",
+        "state": "planted",
+        "foot": [
+          940,
+          640
+        ]
+      },
+      "limitations": "Botanical blocking volumes only, not final petal design; camera is schematic.",
+      "svg_sha256": "bfabdd4e4f408c48e75b0aede977dbe571f884bb7080d10bc567f35bd7ced2b9",
+      "png_sha256": "fb66633a9d43653b11d01bf92571c7268ba9198445f7d7d9e71114510fcbe181",
+      "manifest_id": "BP04",
+      "path": "production/anchor-return/controls/BP04.png",
+      "sha256": "fb66633a9d43653b11d01bf92571c7268ba9198445f7d7d9e71114510fcbe181",
+      "source_path": "production/anchor-return/controls/BP04.svg",
+      "source_sha256": "bfabdd4e4f408c48e75b0aede977dbe571f884bb7080d10bc567f35bd7ced2b9",
+      "title": "BP04-CONTROL",
+      "src": "../../production/anchor-return/controls/BP04.png",
+      "source_src": "../../production/anchor-return/controls/BP04.svg"
+    },
+    {
+      "id": "BP05-CONTROL",
+      "svg_path": "production/anchor-return/controls/BP05.svg",
+      "png_path": "production/anchor-return/controls/BP05.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "clear facing mismatch and reachable exposed root",
+      "current_state": "LEFT tail torn; root fixed; bloom facing old position",
+      "camera": "wide overhead",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          284,
+          594
+        ],
+        [
+          516,
+          571
+        ],
+        [
+          832,
+          640
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "ILYRA_RIGHT": [
+          423,
+          465
+        ],
+        "ILYRA_LEFT": [
+          468,
+          440
+        ]
+      },
+      "creature": {
+        "construction": "single flower body, oval empty center when open, exactly one thick root and one thorn foot",
+        "state": "planted; front faces former lower-right position",
+        "foot": [
+          832,
+          640
+        ]
+      },
+      "limitations": "Botanical blocking volumes only, not final petal design; camera is schematic.",
+      "svg_sha256": "53944284a6d8ed540a3a6b45fa4ec5233da8b40021b60df4175f46d299cc3bc0",
+      "png_sha256": "6dcde3fc2a5479995e4b3139c9c16c23d8e1505714c31821b7b99d1a81ef6017",
+      "manifest_id": "BP05",
+      "path": "production/anchor-return/controls/BP05.png",
+      "sha256": "6dcde3fc2a5479995e4b3139c9c16c23d8e1505714c31821b7b99d1a81ef6017",
+      "source_path": "production/anchor-return/controls/BP05.svg",
+      "source_sha256": "53944284a6d8ed540a3a6b45fa4ec5233da8b40021b60df4175f46d299cc3bc0",
+      "title": "BP05-CONTROL",
+      "src": "../../production/anchor-return/controls/BP05.png",
+      "source_src": "../../production/anchor-return/controls/BP05.svg"
+    },
+    {
+      "id": "BP06-CONTROL",
+      "svg_path": "production/anchor-return/controls/BP06.svg",
+      "png_path": "production/anchor-return/controls/BP06.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "blade approaching root; supported slide, no severing yet",
+      "current_state": "LEFT tail torn; root intact but exposed",
+      "camera": "medium side near ground",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          236,
+          654
+        ],
+        [
+          582,
+          654
+        ],
+        [
+          860,
+          640
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "ILYRA_RIGHT": [
+          607,
+          535
+        ],
+        "ILYRA_LEFT": [
+          481,
+          544
+        ]
+      },
+      "creature": {
+        "construction": "single flower body, oval empty center when open, exactly one thick root and one thorn foot",
+        "state": "intact, exposed; blade tip stops before root",
+        "foot": [
+          860,
+          640
+        ],
+        "blade_tip": [
+          810,
+          593
+        ]
+      },
+      "limitations": "Botanical blocking volumes only, not final petal design; camera is schematic.",
+      "svg_sha256": "c59ec3863d398db3c09b451bf6ab7483ca7ea7370d1946a6e3439cd43e0b9d94",
+      "png_sha256": "b3ba1410bbc60f0a72b23fc348ed95c7823472ccb7175ac63a419fd8e31c70cf",
+      "manifest_id": "BP06",
+      "path": "production/anchor-return/controls/BP06.png",
+      "sha256": "b3ba1410bbc60f0a72b23fc348ed95c7823472ccb7175ac63a419fd8e31c70cf",
+      "source_path": "production/anchor-return/controls/BP06.svg",
+      "source_sha256": "c59ec3863d398db3c09b451bf6ab7483ca7ea7370d1946a6e3439cd43e0b9d94",
+      "title": "BP06-CONTROL",
+      "src": "../../production/anchor-return/controls/BP06.png",
+      "source_src": "../../production/anchor-return/controls/BP06.svg"
+    },
+    {
+      "id": "BP07-CONTROL",
+      "svg_path": "production/anchor-return/controls/BP07.svg",
+      "png_path": "production/anchor-return/controls/BP07.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "clean cut gap; heavy tilted center of mass; follow-through",
+      "current_state": "root severed; LEFT tail tear persists",
+      "camera": "wide low impact",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          249,
+          650
+        ],
+        [
+          640,
+          649
+        ],
+        [
+          828,
+          640
+        ]
+      ],
+      "contact_points": [
+        [
+          853,
+          578
+        ]
+      ],
+      "anatomical_hands": {
+        "ILYRA_RIGHT": [
+          637,
+          531
+        ],
+        "ILYRA_LEFT": [
+          523,
+          534
+        ]
+      },
+      "creature": {
+        "construction": "single flower body, oval empty center when open, exactly one thick root and one thorn foot",
+        "state": "severed",
+        "stump_top": [
+          828,
+          600
+        ],
+        "upper_end": [
+          898,
+          550
+        ],
+        "gap_visible": true
+      },
+      "limitations": "Botanical blocking volumes only, not final petal design; camera is schematic.",
+      "svg_sha256": "a8082422f8294f44655ad8e549372602c0c5cb042e9980d8d3ce8af1e0183dde",
+      "png_sha256": "e0f41bb002fbc171a5961ded951c3429ff07661464a61f6698d82ed834b1a5cf",
+      "manifest_id": "BP07",
+      "path": "production/anchor-return/controls/BP07.png",
+      "sha256": "e0f41bb002fbc171a5961ded951c3429ff07661464a61f6698d82ed834b1a5cf",
+      "source_path": "production/anchor-return/controls/BP07.svg",
+      "source_sha256": "a8082422f8294f44655ad8e549372602c0c5cb042e9980d8d3ce8af1e0183dde",
+      "title": "BP07-CONTROL",
+      "src": "../../production/anchor-return/controls/BP07.png",
+      "source_src": "../../production/anchor-return/controls/BP07.svg"
+    },
+    {
+      "id": "BP08-CONTROL",
+      "svg_path": "production/anchor-return/controls/BP08.svg",
+      "png_path": "production/anchor-return/controls/BP08.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "resting mass grounded; intact sword and anatomical arms",
+      "current_state": "root severed; creature down; LEFT tail torn",
+      "camera": "wide quiet eye level",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          325,
+          659
+        ],
+        [
+          491,
+          664
+        ],
+        [
+          877,
+          690
+        ],
+        [
+          676,
+          655
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "ILYRA_RIGHT": [
+          433,
+          595
+        ],
+        "ILYRA_LEFT": [
+          436,
+          567
+        ]
+      },
+      "creature": {
+        "construction": "single flower body, oval empty center when open, exactly one thick root and one thorn foot",
+        "state": "fallen mass; separate stump",
+        "stump": [
+          676,
+          655
+        ]
+      },
+      "limitations": "Botanical blocking volumes only, not final petal design; camera is schematic.",
+      "svg_sha256": "cfd7f11a7632ae84224196050f39cdd4fd2ea016ecf5fbdd826808a31f4da459",
+      "png_sha256": "993082b3a173f6ad292c608adc82f47acf8470b8413c6c1111e3d5e01dbfbdbf",
+      "manifest_id": "BP08",
+      "path": "production/anchor-return/controls/BP08.png",
+      "sha256": "993082b3a173f6ad292c608adc82f47acf8470b8413c6c1111e3d5e01dbfbdbf",
+      "source_path": "production/anchor-return/controls/BP08.svg",
+      "source_sha256": "cfd7f11a7632ae84224196050f39cdd4fd2ea016ecf5fbdd826808a31f4da459",
+      "title": "BP08-CONTROL",
+      "src": "../../production/anchor-return/controls/BP08.png",
+      "source_src": "../../production/anchor-return/controls/BP08.svg"
+    },
+    {
+      "id": "NG01-CONTROL",
+      "svg_path": "production/anchor-return/controls/NG01.svg",
+      "png_path": "production/anchor-return/controls/NG01.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "two grounded adult silhouettes; separated weapons; lift left / doorway right",
+      "current_state": "no damage; no tether",
+      "camera": "extreme wide high diagonal",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          349.25,
+          606
+        ],
+        [
+          386.35,
+          606
+        ],
+        [
+          847.9,
+          643
+        ],
+        [
+          888.18,
+          643
+        ]
+      ],
+      "anatomical_hands": {
+        "A_RIGHT": [
+          357.3,
+          574.5
+        ],
+        "A_LEFT": [
+          388.45,
+          574.5
+        ],
+        "B_RIGHT": [
+          832,
+          589
+        ],
+        "B_LEFT": [
+          825,
+          614
+        ]
+      },
+      "weapon_ownership": "A right-hand sword; B two-handed spear except recovery single right hand",
+      "limitations": "Symbolic perspective and mannequin anatomy; control supports staging, not a final anatomy guarantee.",
+      "svg_sha256": "30e37451fd8d059ff71b10ca9c15462193d05842b7a6fe3473029f27cfc82bca",
+      "png_sha256": "82e8c723849b45efadfa9d0d0700a125bb1e86e4deb2d0cac476ad81422695e4",
+      "manifest_id": "NG01",
+      "path": "production/anchor-return/controls/NG01.png",
+      "sha256": "82e8c723849b45efadfa9d0d0700a125bb1e86e4deb2d0cac476ad81422695e4",
+      "source_path": "production/anchor-return/controls/NG01.svg",
+      "source_sha256": "30e37451fd8d059ff71b10ca9c15462193d05842b7a6fe3473029f27cfc82bca",
+      "title": "NG01-CONTROL",
+      "src": "../../production/anchor-return/controls/NG01.png",
+      "source_src": "../../production/anchor-return/controls/NG01.svg"
+    },
+    {
+      "id": "NG02-CONTROL",
+      "svg_path": "production/anchor-return/controls/NG02.svg",
+      "png_path": "production/anchor-return/controls/NG02.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "sword pommel to left rail; both feet support",
+      "current_state": "no damage; taut tether to left rail post",
+      "camera": "medium low side",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          262,
+          626
+        ],
+        [
+          488,
+          626
+        ],
+        [
+          800,
+          626
+        ],
+        [
+          946,
+          626
+        ]
+      ],
+      "anatomical_hands": {
+        "A_RIGHT": [
+          390,
+          430
+        ],
+        "A_LEFT": [
+          431,
+          430
+        ],
+        "B_RIGHT": [
+          749,
+          432
+        ],
+        "B_LEFT": [
+          833,
+          438
+        ]
+      },
+      "weapon_ownership": "A right-hand sword; B two-handed spear except recovery single right hand",
+      "limitations": "Symbolic perspective and mannequin anatomy; control supports staging, not a final anatomy guarantee.",
+      "svg_sha256": "5e7c62baada31cd8c709ebd524a6ac6320b7fe5a5b7acc2d5c7e96943b48f0ce",
+      "png_sha256": "7e4794f1ac954cbd4ed53387282c18173fd93f559bc8f160ab9dde8eec59033e",
+      "manifest_id": "NG02",
+      "path": "production/anchor-return/controls/NG02.png",
+      "sha256": "7e4794f1ac954cbd4ed53387282c18173fd93f559bc8f160ab9dde8eec59033e",
+      "source_path": "production/anchor-return/controls/NG02.svg",
+      "source_sha256": "5e7c62baada31cd8c709ebd524a6ac6320b7fe5a5b7acc2d5c7e96943b48f0ce",
+      "title": "NG02-CONTROL",
+      "src": "../../production/anchor-return/controls/NG02.png",
+      "source_src": "../../production/anchor-return/controls/NG02.svg"
+    },
+    {
+      "id": "NG03-CONTROL",
+      "svg_path": "production/anchor-return/controls/NG03.svg",
+      "png_path": "production/anchor-return/controls/NG03.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "one blade-to-shaft contact; Sera supports on rear foot",
+      "current_state": "no damage; tether stretched",
+      "camera": "wide low oblique",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          260,
+          608
+        ],
+        [
+          548,
+          626
+        ],
+        [
+          945,
+          625
+        ]
+      ],
+      "anatomical_hands": {
+        "A_RIGHT": [
+          544,
+          389
+        ],
+        "A_LEFT": [
+          352,
+          442
+        ],
+        "B_RIGHT": [
+          677,
+          413
+        ],
+        "B_LEFT": [
+          763,
+          466
+        ]
+      },
+      "weapon_ownership": "A right-hand sword; B two-handed spear except recovery single right hand",
+      "limitations": "Symbolic perspective and mannequin anatomy; control supports staging, not a final anatomy guarantee.",
+      "svg_sha256": "c1448c484ac8028fc5855a8fa67845d1916cb26932612583fde22995cf03a71f",
+      "png_sha256": "7d81ba9afc38e0ff9e4c56e28734a178ea4913ff4253159bf4a33b241356d2a1",
+      "manifest_id": "NG03",
+      "path": "production/anchor-return/controls/NG03.png",
+      "sha256": "7d81ba9afc38e0ff9e4c56e28734a178ea4913ff4253159bf4a33b241356d2a1",
+      "source_path": "production/anchor-return/controls/NG03.svg",
+      "source_sha256": "c1448c484ac8028fc5855a8fa67845d1916cb26932612583fde22995cf03a71f",
+      "title": "NG03-CONTROL",
+      "src": "../../production/anchor-return/controls/NG03.png",
+      "source_src": "../../production/anchor-return/controls/NG03.svg"
+    },
+    {
+      "id": "NG04-CONTROL",
+      "svg_path": "production/anchor-return/controls/NG04.svg",
+      "png_path": "production/anchor-return/controls/NG04.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "shaft against LEFT upper arm; right weapon hand traceable",
+      "current_state": "fresh tear at LEFT shoulder; slack tether",
+      "camera": "close side at torso height",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          320,
+          725
+        ],
+        [
+          545,
+          725
+        ],
+        [
+          547,
+          725
+        ],
+        [
+          857,
+          725
+        ]
+      ],
+      "anatomical_hands": {
+        "A_RIGHT": [
+          282,
+          452
+        ],
+        "A_LEFT": [
+          462,
+          448
+        ],
+        "B_RIGHT": [
+          513,
+          376
+        ],
+        "B_LEFT": [
+          660,
+          431
+        ]
+      },
+      "weapon_ownership": "A right-hand sword; B two-handed spear except recovery single right hand",
+      "limitations": "Symbolic perspective and mannequin anatomy; control supports staging, not a final anatomy guarantee.",
+      "svg_sha256": "36818898ae939cdf36600ccdff00cf70bcce2a4e22a125db027031eae9d060a3",
+      "png_sha256": "df8cf6555a857d6d2f4359c761e2f174a324b88202e221e45d59ee155fb0316a",
+      "manifest_id": "NG04",
+      "path": "production/anchor-return/controls/NG04.png",
+      "sha256": "df8cf6555a857d6d2f4359c761e2f174a324b88202e221e45d59ee155fb0316a",
+      "source_path": "production/anchor-return/controls/NG04.svg",
+      "source_sha256": "36818898ae939cdf36600ccdff00cf70bcce2a4e22a125db027031eae9d060a3",
+      "title": "NG04-CONTROL",
+      "src": "../../production/anchor-return/controls/NG04.png",
+      "source_src": "../../production/anchor-return/controls/NG04.svg"
+    },
+    {
+      "id": "NG05-CONTROL",
+      "svg_path": "production/anchor-return/controls/NG05.svg",
+      "png_path": "production/anchor-return/controls/NG05.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "low planted pivot; missed spear clear of Aren; new right endpoint",
+      "current_state": "LEFT shoulder seam torn; tether reanchored right",
+      "camera": "wide overhead diagonal",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          388,
+          683
+        ],
+        [
+          692,
+          673
+        ],
+        [
+          676,
+          484
+        ],
+        [
+          1012,
+          490
+        ]
+      ],
+      "anatomical_hands": {
+        "A_RIGHT": [
+          410,
+          482
+        ],
+        "A_LEFT": [
+          575,
+          559
+        ],
+        "B_RIGHT": [
+          652,
+          334
+        ],
+        "B_LEFT": [
+          755,
+          345
+        ]
+      },
+      "weapon_ownership": "A right-hand sword; B two-handed spear except recovery single right hand",
+      "limitations": "Symbolic perspective and mannequin anatomy; control supports staging, not a final anatomy guarantee.",
+      "svg_sha256": "6d5295fec94744e72055a4697632877d381c252bc935322c9534eda59cb5243c",
+      "png_sha256": "c4265d01069ebcc7928adbfabe8e4a4f57f14f043984278ec11a255d3ba4783b",
+      "manifest_id": "NG05",
+      "path": "production/anchor-return/controls/NG05.png",
+      "sha256": "c4265d01069ebcc7928adbfabe8e4a4f57f14f043984278ec11a255d3ba4783b",
+      "source_path": "production/anchor-return/controls/NG05.svg",
+      "source_sha256": "6d5295fec94744e72055a4697632877d381c252bc935322c9534eda59cb5243c",
+      "title": "NG05-CONTROL",
+      "src": "../../production/anchor-return/controls/NG05.png",
+      "source_src": "../../production/anchor-return/controls/NG05.svg"
+    },
+    {
+      "id": "NG06-CONTROL",
+      "svg_path": "production/anchor-return/controls/NG06.svg",
+      "png_path": "production/anchor-return/controls/NG06.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "sword under spear midpoint; lateral torque; rear heel lifting",
+      "current_state": "LEFT shoulder torn; taut tether; Sera losing balance",
+      "camera": "very low wide three-quarter",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          246,
+          635
+        ],
+        [
+          478,
+          638
+        ],
+        [
+          675,
+          643
+        ]
+      ],
+      "anatomical_hands": {
+        "A_RIGHT": [
+          494,
+          410
+        ],
+        "A_LEFT": [
+          364,
+          449
+        ],
+        "B_RIGHT": [
+          642,
+          411
+        ],
+        "B_LEFT": [
+          760,
+          457
+        ]
+      },
+      "weapon_ownership": "A right-hand sword; B two-handed spear except recovery single right hand",
+      "limitations": "Symbolic perspective and mannequin anatomy; control supports staging, not a final anatomy guarantee.",
+      "svg_sha256": "ff69918368419b4f29aad668a9713b278af5f02a28e9f8d72e7468c868f0114f",
+      "png_sha256": "f68200d1482561ed6507015b291f566f2d251651717edbd46765194ee7e3648f",
+      "manifest_id": "NG06",
+      "path": "production/anchor-return/controls/NG06.png",
+      "sha256": "f68200d1482561ed6507015b291f566f2d251651717edbd46765194ee7e3648f",
+      "source_path": "production/anchor-return/controls/NG06.svg",
+      "source_sha256": "ff69918368419b4f29aad668a9713b278af5f02a28e9f8d72e7468c868f0114f",
+      "title": "NG06-CONTROL",
+      "src": "../../production/anchor-return/controls/NG06.png",
+      "source_src": "../../production/anchor-return/controls/NG06.svg"
+    },
+    {
+      "id": "NG07-CONTROL",
+      "svg_path": "production/anchor-return/controls/NG07.svg",
+      "png_path": "production/anchor-return/controls/NG07.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "each body has knee/foot/hand supports; complete owned weapons",
+      "current_state": "LEFT shoulder tear persists; tether spent; neither defeated",
+      "camera": "medium intimate side",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          302,
+          633
+        ],
+        [
+          452,
+          644
+        ],
+        [
+          827,
+          632
+        ],
+        [
+          1009,
+          640
+        ],
+        [
+          788,
+          633
+        ]
+      ],
+      "anatomical_hands": {
+        "A_RIGHT": [
+          394,
+          622
+        ],
+        "A_LEFT": [
+          385,
+          477
+        ],
+        "B_RIGHT": [
+          918,
+          481
+        ],
+        "B_LEFT": [
+          788,
+          633
+        ]
+      },
+      "weapon_ownership": "A right-hand sword; B two-handed spear except recovery single right hand",
+      "limitations": "Symbolic perspective and mannequin anatomy; control supports staging, not a final anatomy guarantee.",
+      "svg_sha256": "0ba5a4045a22732997a3527e259ddff6fdcce4a96bc4623dbe5090b2caa223e2",
+      "png_sha256": "aec72b91b7c453c389ace12902b957b48ed122ab8b60692413a69bb9f6902a21",
+      "manifest_id": "NG07",
+      "path": "production/anchor-return/controls/NG07.png",
+      "sha256": "aec72b91b7c453c389ace12902b957b48ed122ab8b60692413a69bb9f6902a21",
+      "source_path": "production/anchor-return/controls/NG07.svg",
+      "source_sha256": "0ba5a4045a22732997a3527e259ddff6fdcce4a96bc4623dbe5090b2caa223e2",
+      "title": "NG07-CONTROL",
+      "src": "../../production/anchor-return/controls/NG07.png",
+      "source_src": "../../production/anchor-return/controls/NG07.svg"
+    },
+    {
+      "id": "NG08-CONTROL",
+      "svg_path": "production/anchor-return/controls/NG08.svg",
+      "png_path": "production/anchor-return/controls/NG08.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "quiet scale and silhouette identity; doorway remains right",
+      "current_state": "LEFT shoulder tear persists; no tether",
+      "camera": "extreme wide rear three-quarter",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          969.25,
+          666
+        ],
+        [
+          1006.35,
+          666
+        ],
+        [
+          1144.25,
+          672
+        ],
+        [
+          1181.35,
+          672
+        ]
+      ],
+      "anatomical_hands": {
+        "A_RIGHT": [
+          977.3,
+          634.5
+        ],
+        "A_LEFT": [
+          992,
+          608
+        ],
+        "B_RIGHT": [
+          1135,
+          615
+        ],
+        "B_LEFT": [
+          1128,
+          650
+        ]
+      },
+      "weapon_ownership": "A right-hand sword; B two-handed spear except recovery single right hand",
+      "limitations": "Symbolic perspective and mannequin anatomy; control supports staging, not a final anatomy guarantee.",
+      "svg_sha256": "8edf0ebfda3eee466b6200cb3905651b64df5bfec7f3fffe173db025f7c56b5d",
+      "png_sha256": "91486a2408d22026740a8297146dcb3ea4f9780c067f71ca22c1088e87d13e42",
+      "manifest_id": "NG08",
+      "path": "production/anchor-return/controls/NG08.png",
+      "sha256": "91486a2408d22026740a8297146dcb3ea4f9780c067f71ca22c1088e87d13e42",
+      "source_path": "production/anchor-return/controls/NG08.svg",
+      "source_sha256": "8edf0ebfda3eee466b6200cb3905651b64df5bfec7f3fffe173db025f7c56b5d",
+      "title": "NG08-CONTROL",
+      "src": "../../production/anchor-return/controls/NG08.png",
+      "source_src": "../../production/anchor-return/controls/NG08.svg"
+    },
+    {
+      "id": "ST01-CONTROL",
+      "svg_path": "production/anchor-return/controls/ST01.svg",
+      "png_path": "production/anchor-return/controls/ST01.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "two sizes; four ram feet; Tavi both boots",
+      "current_state": "gauntlets intact and uncharged; ram relaxed",
+      "camera": "extreme wide bright low",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          271.25,
+          652
+        ],
+        [
+          329.55,
+          652
+        ],
+        [
+          789.7,
+          616.35
+        ],
+        [
+          832.04,
+          598.1
+        ],
+        [
+          979.5,
+          616.35
+        ],
+        [
+          1021.84,
+          598.1
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "TAVI_RIGHT": [
+          292,
+          579
+        ],
+        "TAVI_LEFT": [
+          334,
+          578
+        ]
+      },
+      "gauntlets": {
+        "RIGHT": "cream circular pressure plate; intact",
+        "LEFT": "cream crescent; chipped only from04 onward",
+        "charge": false
+      },
+      "creature": {
+        "construction": "one blue ram body, two curled horns, exactly four continuous leg chains, one tuft tail",
+        "legs": 4,
+        "charge": "none",
+        "mouth": [
+          671.44,
+          446.99
+        ]
+      },
+      "limitations": "Schematic staging volumes; final anatomy and foreshortening require native artwork inspection.",
+      "svg_sha256": "4f30e79bf123c339df2ed90325e6b1e251742a167b13cd5fe049c0e50e628ed2",
+      "png_sha256": "ca92bd7cf63ceb5a46ff8d98c1afca392332016f99c013a1a3dd7ebfa5addeb5",
+      "manifest_id": "ST01",
+      "path": "production/anchor-return/controls/ST01.png",
+      "sha256": "ca92bd7cf63ceb5a46ff8d98c1afca392332016f99c013a1a3dd7ebfa5addeb5",
+      "source_path": "production/anchor-return/controls/ST01.svg",
+      "source_sha256": "4f30e79bf123c339df2ed90325e6b1e251742a167b13cd5fe049c0e50e628ed2",
+      "title": "ST01-CONTROL",
+      "src": "../../production/anchor-return/controls/ST01.png",
+      "source_src": "../../production/anchor-return/controls/ST01.svg"
+    },
+    {
+      "id": "ST02-CONTROL",
+      "svg_path": "production/anchor-return/controls/ST02.svg",
+      "png_path": "production/anchor-return/controls/ST02.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "two braced boots; right pressure plate; left guard",
+      "current_state": "RIGHT gauntlet charging; intact; ram inhales",
+      "camera": "medium low frontal three-quarter",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          259,
+          650
+        ],
+        [
+          520,
+          650
+        ],
+        [
+          880.3,
+          628.15
+        ],
+        [
+          913.36,
+          613.9
+        ],
+        [
+          1028.5,
+          628.15
+        ],
+        [
+          1061.56,
+          613.9
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "TAVI_RIGHT": [
+          377,
+          443
+        ],
+        "TAVI_LEFT": [
+          457,
+          305
+        ]
+      },
+      "gauntlets": {
+        "RIGHT": "cream circular pressure plate; intact",
+        "LEFT": "cream crescent; chipped only from04 onward",
+        "charge": true
+      },
+      "creature": {
+        "construction": "one blue ram body, two curled horns, exactly four continuous leg chains, one tuft tail",
+        "legs": 4,
+        "cheeks": "inflated",
+        "mouth": [
+          787.96,
+          495.91
+        ]
+      },
+      "limitations": "Schematic staging volumes; final anatomy and foreshortening require native artwork inspection.",
+      "svg_sha256": "e5d27145bff581e739474e5aa15d243f2f3e98febb52b75f14f78364e2b7bf19",
+      "png_sha256": "d1eb02ba602dc1112f36bb37f82edf0eacf1b76c3d63fe68bdb3b755745d9f71",
+      "manifest_id": "ST02",
+      "path": "production/anchor-return/controls/ST02.png",
+      "sha256": "d1eb02ba602dc1112f36bb37f82edf0eacf1b76c3d63fe68bdb3b755745d9f71",
+      "source_path": "production/anchor-return/controls/ST02.svg",
+      "source_sha256": "e5d27145bff581e739474e5aa15d243f2f3e98febb52b75f14f78364e2b7bf19",
+      "title": "ST02-CONTROL",
+      "src": "../../production/anchor-return/controls/ST02.png",
+      "source_src": "../../production/anchor-return/controls/ST02.svg"
+    },
+    {
+      "id": "ST03-CONTROL",
+      "svg_path": "production/anchor-return/controls/ST03.svg",
+      "png_path": "production/anchor-return/controls/ST03.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "mouth-source wind to torso; no phantom support",
+      "current_state": "airborne; charge lost; equipment intact",
+      "camera": "wide profile airborne",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          795.5,
+          618.25
+        ],
+        [
+          850.6,
+          594.5
+        ],
+        [
+          1042.5,
+          618.25
+        ],
+        [
+          1097.6,
+          594.5
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "TAVI_RIGHT": [
+          230,
+          319
+        ],
+        "TAVI_LEFT": [
+          472,
+          269
+        ]
+      },
+      "gauntlets": {
+        "RIGHT": "cream circular pressure plate; intact",
+        "LEFT": "cream crescent; chipped only from04 onward",
+        "charge": false
+      },
+      "creature": {
+        "construction": "one blue ram body, two curled horns, exactly four continuous leg chains, one tuft tail",
+        "legs": 4,
+        "mouth": [
+          641.5999999999999,
+          397.84999999999997
+        ],
+        "wind_target": [
+          371,
+          357
+        ],
+        "Tavi": "airborne; no charge halo"
+      },
+      "limitations": "Schematic staging volumes; final anatomy and foreshortening require native artwork inspection.",
+      "svg_sha256": "df0bc4b67473a4b63d3f69f7b14a56078c0f2f627e02698b8b4bcad86b967a60",
+      "png_sha256": "70fb6e0dea6ac5d5a7e482b5c2d7c09dc3e49fdfc48278a557cd4b102e34ccb4",
+      "manifest_id": "ST03",
+      "path": "production/anchor-return/controls/ST03.png",
+      "sha256": "70fb6e0dea6ac5d5a7e482b5c2d7c09dc3e49fdfc48278a557cd4b102e34ccb4",
+      "source_path": "production/anchor-return/controls/ST03.svg",
+      "source_sha256": "df0bc4b67473a4b63d3f69f7b14a56078c0f2f627e02698b8b4bcad86b967a60",
+      "title": "ST03-CONTROL",
+      "src": "../../production/anchor-return/controls/ST03.png",
+      "source_src": "../../production/anchor-return/controls/ST03.svg"
+    },
+    {
+      "id": "ST04-CONTROL",
+      "svg_path": "production/anchor-return/controls/ST04.svg",
+      "png_path": "production/anchor-return/controls/ST04.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "right foot + left hand support; true anatomical side",
+      "current_state": "LEFT crescent gauntlet newly chipped; RIGHT intact; no charge",
+      "camera": "close low dynamic",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          486,
+          652
+        ],
+        [
+          523,
+          633
+        ]
+      ],
+      "contact_points": [
+        [
+          523,
+          633
+        ]
+      ],
+      "anatomical_hands": {
+        "TAVI_RIGHT": [
+          484,
+          528
+        ],
+        "TAVI_LEFT": [
+          523,
+          633
+        ]
+      },
+      "gauntlets": {
+        "RIGHT": "cream circular pressure plate; intact",
+        "LEFT": "cream crescent; chipped only from04 onward",
+        "charge": false
+      },
+      "creature": {
+        "construction": "one blue ram body, two curled horns, exactly four continuous leg chains, one tuft tail",
+        "legs": 4,
+        "mouth": [
+          828.44,
+          496.24
+        ],
+        "hero_support": "right boot and left palm"
+      },
+      "limitations": "Schematic staging volumes; final anatomy and foreshortening require native artwork inspection.",
+      "svg_sha256": "ad36e81c0bb470a84a52e9740b84837d1e1947f24315dce895d5fe2eaf900742",
+      "png_sha256": "f063c433ecfbb91b1767a5d6d8a8ac6d2f29cfeb5cdf30b488e200649685103f",
+      "manifest_id": "ST04",
+      "path": "production/anchor-return/controls/ST04.png",
+      "sha256": "f063c433ecfbb91b1767a5d6d8a8ac6d2f29cfeb5cdf30b488e200649685103f",
+      "source_path": "production/anchor-return/controls/ST04.svg",
+      "source_sha256": "ad36e81c0bb470a84a52e9740b84837d1e1947f24315dce895d5fe2eaf900742",
+      "title": "ST04-CONTROL",
+      "src": "../../production/anchor-return/controls/ST04.png",
+      "source_src": "../../production/anchor-return/controls/ST04.svg"
+    },
+    {
+      "id": "ST05-CONTROL",
+      "svg_path": "production/anchor-return/controls/ST05.svg",
+      "png_path": "production/anchor-return/controls/ST05.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "side position outside wind lane; both boots grounded",
+      "current_state": "LEFT chip persists; RIGHT recharging; ram exhale ending",
+      "camera": "wide high oblique",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          297,
+          703
+        ],
+        [
+          524,
+          697
+        ],
+        [
+          750,
+          626
+        ],
+        [
+          796.4,
+          606
+        ],
+        [
+          958,
+          626
+        ],
+        [
+          1004.4,
+          606
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "TAVI_RIGHT": [
+          411,
+          576
+        ],
+        "TAVI_LEFT": [
+          472,
+          460
+        ]
+      },
+      "gauntlets": {
+        "RIGHT": "cream circular pressure plate; intact",
+        "LEFT": "cream crescent; chipped only from04 onward",
+        "charge": true
+      },
+      "creature": {
+        "construction": "one blue ram body, two curled horns, exactly four continuous leg chains, one tuft tail",
+        "legs": 4,
+        "mouth": [
+          620.4000000000001,
+          440.40000000000003
+        ],
+        "missed_wind_lane_end": [
+          223,
+          328
+        ],
+        "cheeks": "deflated"
+      },
+      "limitations": "Schematic staging volumes; final anatomy and foreshortening require native artwork inspection.",
+      "svg_sha256": "ee465b4b0c2c427c21ff9d3a263112e592e2bbca08f5dcdaa7274e5018e1144b",
+      "png_sha256": "c06401264d50d3174e7f2cda7650df5b01777479f71db97e42a894c664d6126b",
+      "manifest_id": "ST05",
+      "path": "production/anchor-return/controls/ST05.png",
+      "sha256": "c06401264d50d3174e7f2cda7650df5b01777479f71db97e42a894c664d6126b",
+      "source_path": "production/anchor-return/controls/ST05.svg",
+      "source_sha256": "ee465b4b0c2c427c21ff9d3a263112e592e2bbca08f5dcdaa7274e5018e1144b",
+      "title": "ST05-CONTROL",
+      "src": "../../production/anchor-return/controls/ST05.png",
+      "source_src": "../../production/anchor-return/controls/ST05.svg"
+    },
+    {
+      "id": "ST06-CONTROL",
+      "svg_path": "production/anchor-return/controls/ST06.svg",
+      "png_path": "production/anchor-return/controls/ST06.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "right fist-to-cheek compression; planted driving stance",
+      "current_state": "RIGHT pulse released; LEFT chip persists",
+      "camera": "very low close wide impact",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          357,
+          656
+        ],
+        [
+          712,
+          656
+        ],
+        [
+          806,
+          623
+        ],
+        [
+          1112,
+          655
+        ],
+        [
+          1154,
+          620
+        ]
+      ],
+      "contact_points": [
+        [
+          710,
+          412
+        ]
+      ],
+      "anatomical_hands": {
+        "TAVI_RIGHT": [
+          694,
+          412
+        ],
+        "TAVI_LEFT": [
+          581,
+          486
+        ]
+      },
+      "gauntlets": {
+        "RIGHT": "cream circular pressure plate; intact",
+        "LEFT": "cream crescent; chipped only from04 onward",
+        "charge": false
+      },
+      "creature": {
+        "construction": "one blue ram body, two curled horns, exactly four continuous leg chains, one tuft tail",
+        "legs": 4,
+        "mouth": [
+          689.1600000000001,
+          423.10999999999996
+        ],
+        "near_front_hoof": "lifted",
+        "fist_contact": [
+          710,
+          412
+        ]
+      },
+      "limitations": "Schematic staging volumes; final anatomy and foreshortening require native artwork inspection.",
+      "svg_sha256": "ba64735c99499836561894c7c3630359c899e54083151dbb2a3464862b3e115a",
+      "png_sha256": "4251055e04579e903ea2c5bff90619103ad14620bb59daa4431dcfeb31f171cd",
+      "manifest_id": "ST06",
+      "path": "production/anchor-return/controls/ST06.png",
+      "sha256": "4251055e04579e903ea2c5bff90619103ad14620bb59daa4431dcfeb31f171cd",
+      "source_path": "production/anchor-return/controls/ST06.svg",
+      "source_sha256": "ba64735c99499836561894c7c3630359c899e54083151dbb2a3464862b3e115a",
+      "title": "ST06-CONTROL",
+      "src": "../../production/anchor-return/controls/ST06.png",
+      "source_src": "../../production/anchor-return/controls/ST06.svg"
+    },
+    {
+      "id": "ST07-CONTROL",
+      "svg_path": "production/anchor-return/controls/ST07.svg",
+      "png_path": "production/anchor-return/controls/ST07.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "opposed recoil directions; grounded sliding feet",
+      "current_state": "pulse spent; LEFT chip persists; ram off balance",
+      "camera": "wide diagonal",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          235,
+          641
+        ],
+        [
+          481,
+          646
+        ],
+        [
+          1034,
+          650
+        ],
+        [
+          1103,
+          610
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "TAVI_RIGHT": [
+          340,
+          484
+        ],
+        "TAVI_LEFT": [
+          207,
+          402
+        ]
+      },
+      "gauntlets": {
+        "RIGHT": "cream circular pressure plate; intact",
+        "LEFT": "cream crescent; chipped only from04 onward",
+        "charge": false
+      },
+      "creature": {
+        "construction": "one blue ram body, two curled horns, exactly four continuous leg chains, one tuft tail",
+        "legs": 4,
+        "mouth": [
+          668.2,
+          421.7
+        ],
+        "front_legs": "crossing, separate dark far chain and pale near chain"
+      },
+      "limitations": "Schematic staging volumes; final anatomy and foreshortening require native artwork inspection.",
+      "svg_sha256": "838118b9d2330d50bd8ced05b3a564262f038b9c0e9999b5fa2e918ee66853a3",
+      "png_sha256": "c984d7526aa38d3e21ba047999a81f8886344f924f85d996c1933f8731ad3ab0",
+      "manifest_id": "ST07",
+      "path": "production/anchor-return/controls/ST07.png",
+      "sha256": "c984d7526aa38d3e21ba047999a81f8886344f924f85d996c1933f8731ad3ab0",
+      "source_path": "production/anchor-return/controls/ST07.svg",
+      "source_sha256": "838118b9d2330d50bd8ced05b3a564262f038b9c0e9999b5fa2e918ee66853a3",
+      "title": "ST07-CONTROL",
+      "src": "../../production/anchor-return/controls/ST07.png",
+      "source_src": "../../production/anchor-return/controls/ST07.svg"
+    },
+    {
+      "id": "ST08-CONTROL",
+      "svg_path": "production/anchor-return/controls/ST08.svg",
+      "png_path": "production/anchor-return/controls/ST08.png",
+      "width": 1200,
+      "height": 800,
+      "contact_contract": "quiet readable hands, resting ram anatomy, personality",
+      "current_state": "LEFT chip persists; RIGHT intact; no charge; ram recovering",
+      "camera": "medium warm eye level",
+      "source": "Original editable vector composition drawn from plan; no previous art or external image input",
+      "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+      "support_points": [
+        [
+          330,
+          606
+        ],
+        [
+          444,
+          675
+        ],
+        [
+          557,
+          657
+        ],
+        [
+          785,
+          660
+        ],
+        [
+          815,
+          620
+        ],
+        [
+          1024,
+          667
+        ],
+        [
+          1057,
+          632
+        ]
+      ],
+      "contact_points": [],
+      "anatomical_hands": {
+        "TAVI_RIGHT": [
+          404,
+          534
+        ],
+        "TAVI_LEFT": [
+          440,
+          503
+        ]
+      },
+      "gauntlets": {
+        "RIGHT": "cream circular pressure plate; intact",
+        "LEFT": "cream crescent; chipped only from04 onward",
+        "charge": false
+      },
+      "creature": {
+        "construction": "one blue ram body, two curled horns, exactly four continuous leg chains, one tuft tail",
+        "legs": 4,
+        "mouth": [
+          734.76,
+          602.21
+        ],
+        "resting": "all four limbs folded; no effects"
+      },
+      "limitations": "Schematic staging volumes; final anatomy and foreshortening require native artwork inspection.",
+      "svg_sha256": "f848a152b10ae41f612597f305f3524019a1a3f5612e0dbd82435243348fd0da",
+      "png_sha256": "e751f80fc1316fc245c098eec3c56fc72338a147b68c950c2b42fbcf79807576",
+      "manifest_id": "ST08",
+      "path": "production/anchor-return/controls/ST08.png",
+      "sha256": "e751f80fc1316fc245c098eec3c56fc72338a147b68c950c2b42fbcf79807576",
+      "source_path": "production/anchor-return/controls/ST08.svg",
+      "source_sha256": "f848a152b10ae41f612597f305f3524019a1a3f5612e0dbd82435243348fd0da",
+      "title": "ST08-CONTROL",
+      "src": "../../production/anchor-return/controls/ST08.png",
+      "source_src": "../../production/anchor-return/controls/ST08.svg"
+    }
+  ],
+  "references": [
+    {
+      "id": "01",
+      "title": "Nightglass",
+      "path": "production/anchor-return/references/anchor-01.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-directions-20260907-1230/production/visual-directions/candidates/01-primary.png",
+      "source_sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "prompt_path": "production/anchor-return/references/anchor-01-prompt.txt",
+      "prompt_sha256": "980e3f8a69872cd65913dcc401b4725804db06076267df750f4a18fe3d57bf62",
+      "role": "original drawing benchmark; no cast or canon approval",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/anchor-return/references/anchor-01.png"
+    },
+    {
+      "id": "02",
+      "title": "Sunbreak Lancer",
+      "path": "production/anchor-return/references/anchor-02.png",
+      "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-directions-20260907-1230/production/visual-directions/candidates/02-primary.png",
+      "source_sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+      "prompt_path": "production/anchor-return/references/anchor-02-prompt.txt",
+      "prompt_sha256": "58a5af549b14ae60c94ed305c8173ec76921077362280415afd609ce89c630f4",
+      "role": "original drawing benchmark; no cast or canon approval",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/anchor-return/references/anchor-02.png"
+    },
+    {
+      "id": "05",
+      "title": "Iron Orchard",
+      "path": "production/anchor-return/references/anchor-05.png",
+      "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-directions-20260907-1230/production/visual-directions/candidates/05-primary.png",
+      "source_sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+      "prompt_path": "production/anchor-return/references/anchor-05-prompt.txt",
+      "prompt_sha256": "b10e1720a5114702db23bdec9b22dcc096097f0bb2933a33826f8ac19ac04ca2",
+      "role": "original drawing benchmark; no cast or canon approval",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/anchor-return/references/anchor-05.png"
+    },
+    {
+      "id": "06",
+      "title": "Floodline Detective",
+      "path": "production/anchor-return/references/anchor-06.png",
+      "sha256": "b515ac0588e2ab4f1e86bdf89e439c3d5374706580681d192b7155105878a818",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-directions-20260907-1230/production/visual-directions/candidates/06-primary.png",
+      "source_sha256": "b515ac0588e2ab4f1e86bdf89e439c3d5374706580681d192b7155105878a818",
+      "prompt_path": "production/anchor-return/references/anchor-06-prompt.txt",
+      "prompt_sha256": "096a9e7dee5193d8295d01e3b24bd7888aeb9423a5f19d7e654d3ce32e6ff3de",
+      "role": "original drawing benchmark; no cast or canon approval",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/anchor-return/references/anchor-06.png"
+    },
+    {
+      "id": "13",
+      "title": "Red Current",
+      "path": "production/anchor-return/references/anchor-13.png",
+      "sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-directions-20260907-1230/production/visual-directions/candidates/13-primary.png",
+      "source_sha256": "42bdbabba8cc546c9a649f378978bd4ed7729c8db2842da00d10d8e152480d61",
+      "prompt_path": "production/anchor-return/references/anchor-13-prompt.txt",
+      "prompt_sha256": "b7827ebf98199bcd074e9fd118184bf530ccb4c2e412e63db7fb884de16dee26",
+      "role": "original drawing benchmark; no cast or canon approval",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/anchor-return/references/anchor-13.png"
+    },
+    {
+      "id": "15",
+      "title": "Cathedral Engine",
+      "path": "production/anchor-return/references/anchor-15.png",
+      "sha256": "573a89b565d5e2ec8fab13624be9a27d2d9f2b09e7d611acbeec9563d4672542",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-directions-20260907-1230/production/visual-directions/candidates/15-primary.png",
+      "source_sha256": "573a89b565d5e2ec8fab13624be9a27d2d9f2b09e7d611acbeec9563d4672542",
+      "prompt_path": "production/anchor-return/references/anchor-15-prompt.txt",
+      "prompt_sha256": "50d0df297e207554ac47938091ce408520f9f6d4491af883c6de57ec8df6ad76",
+      "role": "original drawing benchmark; no cast or canon approval",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/anchor-return/references/anchor-15.png"
+    },
+    {
+      "id": "17",
+      "title": "Hollow Cartographer",
+      "path": "production/anchor-return/references/anchor-17.png",
+      "sha256": "54ecdd57259ff8edb221496d133548fdc2a1957a524a5d784760863111759180",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-directions-20260907-1230/production/visual-directions/candidates/17-primary.png",
+      "source_sha256": "54ecdd57259ff8edb221496d133548fdc2a1957a524a5d784760863111759180",
+      "prompt_path": "production/anchor-return/references/anchor-17-prompt.txt",
+      "prompt_sha256": "de40e621e1f9bd5be1d69f2c5d6dfd5dfaa68336c6912347dd4d0c17e1a632b3",
+      "role": "original drawing benchmark; no cast or canon approval",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/anchor-return/references/anchor-17.png"
+    },
+    {
+      "id": "18",
+      "title": "Soft Thunder",
+      "path": "production/anchor-return/references/anchor-18.png",
+      "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-directions-20260907-1230/production/visual-directions/candidates/18-primary.png",
+      "source_sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+      "prompt_path": "production/anchor-return/references/anchor-18-prompt.txt",
+      "prompt_sha256": "513a0a873170f40a6bd7f76fcb838fe6f25b0841c76f9619999439e86638ce32",
+      "role": "original drawing benchmark; no cast or canon approval",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/anchor-return/references/anchor-18.png"
+    },
+    {
+      "id": "19",
+      "title": "Black Petal",
+      "path": "production/anchor-return/references/anchor-19.png",
+      "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-directions-20260907-1230/production/visual-directions/candidates/19-retry.png",
+      "source_sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+      "prompt_path": "production/anchor-return/references/anchor-19-prompt.txt",
+      "prompt_sha256": "418659f789e6761cd8490e88b62f44a402a259976f505f27622e59ae14fd4b76",
+      "role": "original drawing benchmark; no cast or canon approval",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/anchor-return/references/anchor-19.png"
+    }
+  ],
+  "plan_sources": [
+    {
+      "path": "production/anchor-return/plan.json",
+      "sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d"
+    }
+  ],
+  "previous": {
+    "label": "Earlier character choices",
+    "sha256": "9e459455fffb729aac13a8c3384d6b0b4d4f6f025c6a032d29a912cf0d5acee4",
+    "path": "production/anchor-return/previous/ce-selection.json",
+    "download_src": "../../production/anchor-return/previous/ce-selection.json",
+    "export": {
+      "schema": "CombatExplorationChoices/1",
+      "experiment_id": "CE-20260908-01",
+      "dataset_sha256": "48cbeb3a6ce661756ec0e570866621977fe25443ad9c769ced144505f1d6cffd",
+      "plan_sha256": "6a9d99c1b41be18d7b6692272bce4c090a974d3a47531b9ae62f0bc3aebf323b",
+      "source_bindings": [
+        {
+          "id": "01-C1",
+          "attempt_id": "01-C1-P",
+          "sha256": "901f0609451fbbbd5a53181aedb9f9ed1ca23fadfd7ffeea3f55d56cb5f12820"
+        },
+        {
+          "id": "01-C2",
+          "attempt_id": "01-C2-P",
+          "sha256": "cab2e3ac8d3f9cf75450b935783bb130dfb268881c9c8c547cd4784e648e7c41"
+        },
+        {
+          "id": "02-C1",
+          "attempt_id": "02-C1-R1",
+          "sha256": "9a64f6aef6c45cf1a87fa665a9e29bb1a9d51e66ee2af409bd7ec670aa3d1c68"
+        },
+        {
+          "id": "02-C2",
+          "attempt_id": "02-C2-P",
+          "sha256": "b888b04ad3fbce4ec5d8c20b2338de67f69a7fed40980f099c2a968554bf70fa"
+        },
+        {
+          "id": "05-C1",
+          "attempt_id": "05-C1-P",
+          "sha256": "fa1e93b4dfb72f7149901c2a943a291bb6fca784caa719ec00cb9d313f977b68"
+        },
+        {
+          "id": "05-C2",
+          "attempt_id": "05-C2-P",
+          "sha256": "0eba7131599f3e9dbb3dbef02e56c6319a3544c2320cf75da3bcf097ef0bdcd6"
+        },
+        {
+          "id": "06-C1",
+          "attempt_id": "06-C1-P",
+          "sha256": "fe4907eb44c6a2249c08f2f7cdd55d4ea6314bc744abc968bf5f6d9c7aadc7b9"
+        },
+        {
+          "id": "06-C2",
+          "attempt_id": "06-C2-P",
+          "sha256": "e7da8a6aa738c7cad1f807724d29bfe6dde857d08cabb9e70ce004035bafeb86"
+        },
+        {
+          "id": "13-C1",
+          "attempt_id": "13-C1-P",
+          "sha256": "c9e7a84c3c732bf5e9f9eaef25eccdcd83f370a3db39d4cb1b4f31526fe13571"
+        },
+        {
+          "id": "13-C2",
+          "attempt_id": "13-C2-P",
+          "sha256": "bbd0549eeddcda00f6c33a0b34c851a521a8f13a20ad86c93928eca4a77d3b4c"
+        },
+        {
+          "id": "15-C1",
+          "attempt_id": "15-C1-P",
+          "sha256": "fe6c43e17ecfa6bd8845b16ddc88a112c6e351562cc2bc3b022dba6df7bec17b"
+        },
+        {
+          "id": "15-C2",
+          "attempt_id": "15-C2-P",
+          "sha256": "b70a14a6e8f03353eb83f0a3c5f95c7f9b08a9659986e91cbfc618e623d28f95"
+        },
+        {
+          "id": "17-C1",
+          "attempt_id": "17-C1-P",
+          "sha256": "401e327a2d8f35d90aeb522b7f98810ffcb1b06d1f1389352b8440e841e0a067"
+        },
+        {
+          "id": "17-C2",
+          "attempt_id": "17-C2-P",
+          "sha256": "ba028c8589df253f7d494bb33ee0c447cd9ab9bfe4091fa25c65c259440d4e2d"
+        },
+        {
+          "id": "18-C1",
+          "attempt_id": "18-C1-P",
+          "sha256": "ec160981c21a03bd144417b893639968cab19fa50e80d4f30b29e0b1120e93c4"
+        },
+        {
+          "id": "18-C2",
+          "attempt_id": "18-C2-P",
+          "sha256": "f14945415f9dfd5d6c502c1def4c615e38700af62cfaed5217249a365923360d"
+        },
+        {
+          "id": "19-C1",
+          "attempt_id": "19-C1-R1",
+          "sha256": "29249e504545d6e8052ee64b9a5cd0ce1752321fbd29dbeb7383227c464c2b89"
+        },
+        {
+          "id": "19-C2",
+          "attempt_id": "19-C2-P",
+          "sha256": "ceb9ab8195d28bd8b9df035c1f452570e857a10924c46411a534b4c5a3e72a3c"
+        }
+      ],
+      "exported_at": "2026-09-08T02:10:01.570Z",
+      "choices": {
+        "01-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "01-C2": {
+          "character": "unsure",
+          "style": "like",
+          "weapon": "dislike",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": false
+        },
+        "02-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "02-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "05-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "05-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "06-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "06-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "13-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "13-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "15-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "15-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "17-C1": {
+          "character": "dislike",
+          "style": "like",
+          "weapon": "like",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "17-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "dislike",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "18-C1": {
+          "character": "dislike",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "18-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "19-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "19-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        }
+      }
+    }
+  },
+  "available_count": 30,
+  "total_count": 30,
+  "support_available_count": 3,
+  "support_total_count": 3,
+  "owner_approval": null,
+  "review_notes_sha256": null,
+  "report_links": [
+    {
+      "label": "Results & observations",
+      "path": "../../research/anchor-return/RESULTS.md"
+    },
+    {
+      "label": "How the study was made",
+      "path": "../../research/anchor-return/PIPELINE.md"
+    }
+  ]
+};

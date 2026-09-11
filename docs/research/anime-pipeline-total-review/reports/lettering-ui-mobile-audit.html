@@ -1,0 +1,95 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lettering, system UI and mobile audit · Pipeline review</title><link rel="stylesheet" href="../review.css"></head><body><a class="skip" href="#main">Skip to content</a><header><div class="eyebrow">Independent production audit · September 2026</div><nav aria-label="Review navigation"><a href="../index.html">Review hub</a><a href="executive-decision.html">Decision</a><a href="next-pilot-specification.html">Pilot plan</a><a href="../pilot-proof.html">Rough proof</a><a href="changed-files-and-integrity.html">Integrity</a></nav></header><main id="main" class="report"><p><a href="../../../../research/anime-pipeline-total-review/lettering-ui-mobile-audit.md">Markdown source</a></p><h1 id="lettering-system-ui-and-mobile-audit">Lettering, system UI and mobile audit</h1>
+<p><strong>The editorial pass makes text larger and some exchanges much easier to recover, but it does not establish finished lettering.</strong> Same-art comparison is essential: original P033 has overlapping utterances; the revision separates them, yet text still crosses curved balloon boundaries. Both improvement and remaining failure are visible. <a href="evidence/visual-review-b.html#b09-premium52-and-b10-editorial52-matched-comparison">Independent matched review</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/docs/reimaginings/ember-lattice/premium-rd/comparison/index.html">actual comparison reader</a>.</p>
+<h2 id="measured-change-on-the-same52-narrative-sources">Measured change on the same52 narrative sources</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Measurement</th>
+<th style="text-align: right;">Premium before</th>
+<th style="text-align: right;">Editorial after</th>
+<th>Limit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Source positions / distinct selected images</td>
+<td style="text-align: right;">52/52</td>
+<td style="text-align: right;">52/52</td>
+<td>12 after-images filtered;52 distinct is not52 correct story beats</td>
+</tr>
+<tr>
+<td>Text/SFX/UI units</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">59</td>
+<td>Units are not all balloons</td>
+</tr>
+<tr>
+<td>Actual SVG word-token total</td>
+<td style="text-align: right;">349</td>
+<td style="text-align: right;">308</td>
+<td>Includes SFX/UI and explicit tokenizer; not the volume’s3,821 authored dialogue count</td>
+</tr>
+<tr>
+<td>Median / maximum words per panel</td>
+<td style="text-align: right;">4/35</td>
+<td style="text-align: right;">4/27</td>
+<td>Words alone do not measure reading difficulty</td>
+</tr>
+<tr>
+<td>Median summed authored lettering rectangle area</td>
+<td style="text-align: right;">5.44%</td>
+<td style="text-align: right;">3.66%</td>
+<td>Sum can double-count overlaps; not actual balloon/glyph pixels</td>
+</tr>
+<tr>
+<td>Maximum authored rectangle area</td>
+<td style="text-align: right;">34.83%</td>
+<td style="text-align: right;">20.35%</td>
+<td>Smaller declared area can still overlap faces or spill copy</td>
+</tr>
+<tr>
+<td>Minimum rendered type at identical362px image width</td>
+<td style="text-align: right;">9.40px</td>
+<td style="text-align: right;">12.30px</td>
+<td>This isolates SVG change; prior actual mobile image width358px gives about9.30px minimum</td>
+</tr>
+<tr>
+<td>Median rendered type at362px</td>
+<td style="text-align: right;">10.50px</td>
+<td style="text-align: right;">14.49px</td>
+<td>Typeface/weight, contrast and containment still need visible review</td>
+</tr>
+<tr>
+<td>Silent panels / action-labelled panels</td>
+<td style="text-align: right;">15/24</td>
+<td style="text-align: right;">15/24</td>
+<td>Labels are authored; no inference all actions occur</td>
+</tr>
+</tbody>
+</table></div>
+<p>Computed from shipped overlays and manifests in <a href="../../../../research/anime-pipeline-total-review/evidence/structural-measurements.json">structural-measurements.json</a>. Current true390×844 mobile art width is362px after shell padding. Initial desktop-scrollbar stress width347px gave11.79px minimum UI; this is a narrower-browser stress result, not a claim the final true390px mobile minimum fails its12px floor.</p>
+<h2 id="direct-visible-findings">Direct visible findings</h2>
+<ul>
+<li><strong>P005:</strong> larger, shorter dialogue and smaller containers improve glance reading. First-line glyphs cross the sloping/curved upper contour. A rectangular fit test misses the actual balloon interior.</li>
+<li><strong>P033:</strong> old overlapping exchanges are substantially repaired. Four separated utterances still have contour crossings and weak/long tail paths. The selected seated art also contradicts the active threat state; a letterer cannot solve that source error.</li>
+<li><strong>P048:</strong> more readable reward strips with less empty space. The design remains primarily a report; value comes when the surrounding action makes the gain desirable.</li>
+<li><strong>P004/P051:</strong> UI occupies visible facial-performance space. Calling its declared box “negative space” does not make the source pixels empty.</li>
+<li><strong>P012/P049:</strong> upper lines visibly sit outside intended balloon boundaries. P034 UI text extends below its small dark rectangle.</li>
+<li><strong>Volume CH07/P016 and CH10 ending:</strong> large explanations/status summaries clip or compete with movement and faces. Repeated orange italic <code>SHINK</code> makes different material/action events sound and feel interchangeable.</li>
+</ul>
+<p>An image <code>naturalWidth&gt;0</code>, no console error and a12px font pass do not establish these visible facts. The pilot reader demonstrates an even stronger false pass: its SVG images load, yet nested source art is absent in the opened browser surface, leaving overlays against black. Source art still exists and is evaluated separately. <a href="evidence/visual-review-b.html#b06-ember-pilot-delivery-versus-source">Visual B pilot inspection</a>.</p>
+<h2 id="reading-order-tails-gutters-and-scale">Reading order, tails, gutters and scale</h2>
+<p>The older Borrowed bands identify speakers clearly but consume blank in-art parchment plus separate caption space. City’s short white speaker cards are more quickly readable, yet their geometry still hides faces and lacks expressive tail attribution. CH05 cadence has a valuable varied footprint and clear clues; external speech strips remain an unfinished lettering solution. These differences matter more than a branch label saying “clean” or “premium.”</p>
+<p>For editorial52, every source is1024×1536, rendered543px high. Most figure starts are610.72px apart, with34px inter-figure gap; the longer106px gaps provide a few pauses. Total32,639px is38.67 viewport heights including review chrome. This is continuous layout evidence, not a reading-time estimate. Detailed portrait canvases still give many inserts, conversations and impacts similar weight. Change the storyboard footprint and image hierarchy, not only the space between rectangles.</p>
+<p>The volume’s review navigation and end-state badges are useful for audit, but its opening reveals outcomes before the reader reaches the scene. Keep diagnostics and end-state summaries in an optional review surface; a production reader should allow the reveal to occur in sequence. Preserve navigation and source access for editors without making bookkeeping the opening experience.</p>
+<h2 id="lean-lettering-repair-specification">Lean lettering repair specification</h2>
+<ol>
+<li>Fix source-to-beat fidelity first; independently annotate actual faces, hands, contact, gear and speaker mouths before drawing balloons. Do not regenerate annotations to avoid text.</li>
+<li>Shape containers around readable line breaks and actual glyph bounds, including curved shoulders, not just normalized boxes. Use sufficient interior padding; avoid tails crossing copy or the wrong speaker.</li>
+<li>Render the <strong>same art</strong> with original/revised overlays at actual390px phone width and full size. A screenshot containing source pixels and lettering is the acceptance artifact.</li>
+<li>Preserve readable14px dialogue/12px UI project floors. When text does not fit, shorten/split or revise composition; do not use emergency shrinking. These floors are proposed project constraints, not universal platform standards.</li>
+<li>Give UI its own information hierarchy and distinctive original grammar: current choice/cost, then physical effect, then payoff. Full arithmetic stays in records. More menus remain possible when they serve a scene.</li>
+<li>Use SFX scale, placement and shape to describe force/material, not one default angled word stamped above a pose. Preserve separate editable SFX for localization.</li>
+<li>Add ordered transcript/speaker/SFX/action descriptions, keyboard navigation and focus. Raster/embedded-SVG text is not automatically accessible because the HTML shell validates.</li>
+</ol>
+<p>The frozen next-pilot proof includes+30/+50% copy expansion as artificial stress cases. Real localization remains untested and requires language review. Contrast must be measured against the actually composited balloon/backdrop; global palette values alone do not certify it. <a href="industry-research.html#lettering-localization-and-accessibility">Industry lettering/accessibility sources</a>, <a href="next-pilot-specification.html">next pilot</a>.</p></main><footer>Original analysis; no third-party comic panels redistributed. $0 incremental paid/cloud spend. AI reviews are not human acceptance. Source and rights limits remain explicit.</footer></body></html>

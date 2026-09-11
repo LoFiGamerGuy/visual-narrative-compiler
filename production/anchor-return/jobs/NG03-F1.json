@@ -1,0 +1,21 @@
+{
+  "id": "NG03",
+  "attempt_id": "NG03-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "NG03-R1",
+  "retry_reason": "Native R1 fixes endpoint but still has busy scratched floor and foliage/window marks. Root and independent transfer audit confirm source endpoint improvement; finishing is surface-only.",
+  "evidence_path": "research/anchor-return/encounter-finish-evidence-03.json",
+  "evidence_sha256": "163f70f09bb5ca9ba0ed352cbbf4798c655c9710934b0de9944f00321d252e15",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: The single cyan tether connecting the held sword pommel directly to the left post; no hip ring. Preserve exact contact, one sword, one spear, body support, intact pre-injury white vest and current handedness..\nFocus the simplification on: Scratched reflective bridge deck into broad matte planes, tiny leaf/window sparkle and ray microfacets into selective shapes. Keep fine anime ink, soft face modeling, inhabited deep navy city and cyan light hierarchy..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/anchor-return/prompts/NG03-F1.txt",
+  "prompt_sha256": "04a2c3890a4dd95c7554da44eb332203281cbeb9892b9a4463da26c0fe9bc0e3",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/NG03-R1.png",
+      "sha256": "30ef826cb7a7764e6eb9952cf9b171a24c38644d740fb0d3819fd5d6ee5b1e4a",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

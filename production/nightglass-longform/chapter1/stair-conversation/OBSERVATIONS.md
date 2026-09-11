@@ -1,0 +1,13 @@
+# Stair conversation: N1-24–30
+
+Five actual built-in imagegen calls returned: three primaries and two structural repairs. No failed submissions, no transport retries, no texture finishes. Model snapshot, seed and billing remain unknown. Every native tool return is retained, copied byte-for-byte and SHA-256 verified; each call record saves exact arguments and input reference hashes. Frozen script records the authoritative copy before generation.
+
+24–26P is selected: Pell visibly holds the sole black envelope and points at its seal, then keeps it in his left hand while pointing down the inhabited postal stair. Aren's ragged rear-left hem is present, sleeves intact and weapon sheathed. Sera is the adult auburn-haired woman from the cast sheet, with ledger and an explanatory gesture. Her ledger changes the planned arm but not any causal story action. The silver circle's break is subtle, and Pell acquires a small belt-ring accessory. No repair was spent on these minor differences.
+
+27–29P gives a clear physical card offered in conversation and a deliberate lower-option press; its extended digit reads as an index finger. R1, using that source alone, repairs the action to an anatomical left thumb above four curled fingers. Thumb pad contacts the lower choice region; faces, intact sleeve, single card and sheathed weapon stay intact. This is selected. The card does not contain generated writing; exact choice copy remains editable outside raster. Close framing keeps the already-torn hem outside the field of view rather than asserting it healed. The pommel shows a cyan band; there is no line or exposed blade.
+
+30P clearly establishes the target post/ring and separate inward tooth, but its gate only blocks half the stairs and the drop is shallow. R1 extends the closed barred gate across the full route and lowers the small target platform. Envelope remains with Pell, trio stands safely above, Aren's existing hem notch and intact sleeves remain visible. This is selected with a limitation: a metric three-metre height cannot be independently established from this perspective. The wide gate differs from the small wicket implied by the brief; its blocking purpose is visibly clear.
+
+The surfaces are already broad enough that a texture pass was not justified. Clothing retains purposeful seams/folds and stone keeps material/depth. No attempt is called owner-approved.
+
+`selected-records.json` supplies seven integrator source records. Six C-style tier derivatives preserve source hashes, exact XYXY crop rectangles and derivative hashes; the standalone geography image is used whole. Neither native page nor earlier attempt is overwritten. Lettered 390px sequence inspection follows in the reader evidence directory.

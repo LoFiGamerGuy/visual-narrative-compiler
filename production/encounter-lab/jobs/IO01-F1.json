@@ -1,0 +1,21 @@
+{
+  "id": "IO01",
+  "attempt_id": "IO01-F1",
+  "phase": "texture",
+  "category": "encounter",
+  "retry_of": "IO01-R1",
+  "retry_reason": "Corrected four-legged foundation preserves heavy design but all-over orange weathering, floor chips and repeated foliage marks compete at native and phone scale. Root actual native views and phone-captures/7ccf3b812b6f inspected; this is surface-only, not a claim to fix structural issues.",
+  "evidence_path": "research/encounter-lab/finish-evidence-01.json",
+  "evidence_sha256": "3761f68dfc613bbd083497621adc2631613e470487e0e3d1e275b0519746df25",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: Orren face, two grips and entire cleaver, tusk/blade contact, exact FOUR boar legs and their attachments/feet, whole opening armor, canal edge, oranges as grouped world cues, opaque warm brush style..\nFocus the simplification on: Repetitive rust flakes across boar/guards, paving microstrokes, equal-weight leaves/oranges, busy small cloud strokes. Retain broad patina and material colors without plastic smoothness..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/encounter-lab/prompts/IO01-F1.txt",
+  "prompt_sha256": "a4be6ac9f301386853689e08f3c5c3ba3b7856ad75776351a86c42bee5fd06f4",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/IO01-R1.png",
+      "sha256": "a26e03139520407581494fd9a78dbc5badc7f43257042b45db37d89721628614",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Interim capture preserved.10/11 were integrated by root during the build and had not yet received this worker’s lettering review. No final review/proof is claimed for this interim snapshot. Use chapter8-limit-load-reviewed for the final actual08–11 individual and07–11 continuous reading/source proof.

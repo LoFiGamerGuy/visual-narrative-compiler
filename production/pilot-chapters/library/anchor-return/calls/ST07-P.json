@@ -1,0 +1,44 @@
+{
+  "id": "ST07",
+  "attempt_id": "ST07-P",
+  "phase": "primary",
+  "prompt_path": "production/anchor-return/prompts/ST07-P.txt",
+  "prompt_sha256": "bc4ef14fc973e3c28b4755a304695769f8f571b1f99dcb23fabceb0b1bc9f511",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/references/anchor-18.png",
+      "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+      "role": "Original drawing treatment and world benchmark; not existing character identity or board layout"
+    },
+    {
+      "path": "production/anchor-return/candidates/ST-SHEET-R1.png",
+      "sha256": "6e90003442d119514113a1040658d8f87b8711e69a10fc8e7abcec079a21090b",
+      "role": "New cast/equipment identity reference only; draw a genuinely new composition"
+    },
+    {
+      "path": "production/anchor-return/controls/ST07.png",
+      "sha256": "c984d7526aa38d3e21ba047999a81f8886344f924f85d996c1933f8731ad3ab0",
+      "role": "Editable pose, support, contact and geography layout; staging only, never copy labels or diagram rendering"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 11:19:22 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-anchor-return-20260909-1030/production/anchor-return/references/anchor-18.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-anchor-return-20260909-1030/production/anchor-return/candidates/ST-SHEET-R1.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-anchor-return-20260909-1030/production/anchor-return/controls/ST07.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 11:21:16 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-c26cf5b4-6d5c-4b2a-8640-c3a07f121c66.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

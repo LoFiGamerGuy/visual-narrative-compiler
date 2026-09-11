@@ -1,0 +1,21 @@
+{
+  "id": "X01",
+  "attempt_id": "X01-F1",
+  "phase": "texture",
+  "category": "radical",
+  "retry_of": "X01-P",
+  "retry_reason": "Close-up has attractive faces and weapon danger but busy silver armor scratches and faceted black surfaces compete. Root native inspected; source-only finish retains structural caveats.",
+  "evidence_path": "research/encounter-lab/finish-evidence-03.json",
+  "evidence_sha256": "09d3683eed3ede05cc33a21fb1ec1a254131e548e52abbb47e96ea343e660bc4",
+  "prompt": "Edit the attached source image. Use it as the sole visual reference and preserve its own drawing or painting treatment, aspect ratio, framing, subject identity, expression, pose, silhouettes, object construction, spatial relationships, palette and lighting mood.\n\nRedraw the surface finish so the image feels calmer and more deliberate. Replace distracting repeated tiny marks with broad intentional light and shadow shapes inside the existing forms. Preserve depth, character appeal and differences between materials. Keep selective crisp accents on faces, important contours, meaningful seams and functional contacts. Keep purposeful environmental detail that explains the place and its scale.\n\nSimplify excess scratches, chips, crack networks, tiny facets, equal-weight hair strands, speckles and scattered glitter wherever they compete with the focal subject. Preserve intentional brushwork and stylistic texture that give this particular artwork its character. Do not add ornament or new detail to compensate. This is a drawn or painted surface redraw, not blur, denoise, low resolution, airbrushing, glossy 3D rendering, flat vector art or empty minimalism.\n\nEspecially preserve: Exact two faces, teeth/expression, hair silhouettes, blade/glaive bind, all hands/grips, cracked guard regions as currently drawn, camera proximity and cyan line..\nFocus the simplification on: Repeated armor scratches/microfacets, fine hair strands and backdrop marks. Keep broad metal planes, crisp faces and current weapon contact, not vector abstraction or pose changes..\n\nReturn one edited artwork, not a before/after composite. Do not add subjects, objects, text, labels or watermarks. Do not redesign the image.\n",
+  "prompt_path": "production/encounter-lab/prompts/X01-F1.txt",
+  "prompt_sha256": "2d60ad82370cf6d3680646c01b51e650544012d778e988762416a620ada033ec",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/X01-P.png",
+      "sha256": "2d7a5ddb96a7b377c044a53b745c753f839c9e3eee2ace797cdcd6d96f1e084c",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "EncounterLabInitialReaderReview/1",
+  "pass": true,
+  "dataset_sha256": "4bb4bf1ad13f8cca166cb795aeb41e09926a8f230a40cc3d57635ae5ce51fe69",
+  "available": 0,
+  "browser_checks": 92,
+  "widths": [
+    390,
+    1024,
+    1440
+  ],
+  "source_hashes": {
+    "index.html": "4cf2bcc03e316f5ee0b7970d61ac8fa8201df854e52a702b5e92ee0f0092c2a4",
+    "app.js": "3be6362b83d5619712c3334a56f88db02a3172afbb5d1a5b4bc817b593921af6",
+    "preferences.js": "4adb64a6690ea318be4cbeba024be0a6441dfd4694ab3da1aa9fc16cc16453c7",
+    "style.css": "87a6356cb867faf242e3011b6875b3af37bacc06a2143508ca164128d24a070c",
+    "data.js": "525e8fde576ae07287b6dafb265aab47d8d4384d6fadf31712b758ae70170273",
+    "data.json": "6acf9fd324b9b96e4bd97aa291a72c2967af325f5126590318823092aa960a52"
+  },
+  "pending_feedback_checks": {
+    "pass": true,
+    "panel": {
+      "ratingCount": 1056,
+      "allDisabled": true,
+      "referenceBoardLink": true
+    },
+    "sequence": {
+      "allDisabled": true,
+      "blank": true
+    },
+    "prior": {
+      "cards": 18,
+      "inputs": 0
+    }
+  },
+  "actual_viewed": [
+    "gallery-390.png",
+    "sequence-NG-390.png",
+    "gallery-1440.png",
+    "pending-sequence-feedback-390.png"
+  ],
+  "visual_observations": [
+    "Phone gallery and four-panel reading view fit without horizontal overflow.",
+    "Sequence selector and optional captions are visible; pending panels retain ordered IDs.",
+    "Sequence questions fit at phone width and remain disabled until all four images exist.",
+    "Earlier 18 character responses are read-only and separate; comparison board link resolves."
+  ],
+  "limits": [
+    "No artwork exists in this initial dataset; anatomy, action, continuity and finished-image reading remain unassessed."
+  ],
+  "local_receipt_path": "research/encounter-lab/reader/local/pending-0-qa/receipt.json",
+  "local_receipt_sha256": "ecc3746c3c0660b7f0e1b69eadf687b73986dae7be0aae04d90054feba056479"
+}

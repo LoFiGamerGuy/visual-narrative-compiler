@@ -1,0 +1,70 @@
+{
+  "id": "SC-20260907-01-S-P14-F02-v5-portable",
+  "width": 1170,
+  "height": 1320,
+  "output_svg": "production/structural-pilot/finishing/S/P14/F02-v5-portable/P14-F02-v5-portable.svg",
+  "layers": [
+    {
+      "id": "fixed-architecture",
+      "path": "production/structural-pilot/control/v8/P14-background.png"
+    },
+    {
+      "id": "fixed-partition",
+      "path": "production/structural-pilot/control/v8/P14-foreground.png"
+    },
+    {
+      "id": "source-trouser-interior-repair",
+      "path": "production/structural-pilot/finishing/S/P14/F02-v4/feathered-native-clothing-repair.png",
+      "width": 1193,
+      "height": 1318,
+      "transform": "matrix(1 0 0 1.05 -38.67 87.95)"
+    },
+    {
+      "id": "connected-source-pair",
+      "path": "production/structural-pilot/finishing/S/P14/F02-v4/pair-matte.png",
+      "width": 1193,
+      "height": 1318,
+      "transform": "matrix(1 0 0 1.05 -38.67 87.95)"
+    },
+    {
+      "id": "textured-left-forearm",
+      "svg": "<defs><clipPath id=\"narm\"><path d=\"M416 1000 Q439 991 453 1007 Q486 1033 498 1036 L642 1094 Q652 1102 655 1112 L647 1135 Q634 1142 620 1130 L461 1074 Q440 1062 429 1055 Z\"/></clipPath></defs><path d=\"M416 1000 Q439 991 453 1007 Q486 1033 498 1036 L642 1094 Q652 1102 655 1112 L647 1135 Q634 1142 620 1130 L461 1074 Q440 1062 429 1055 Z\" fill=\"#2d3037\" stroke=\"#191b20\" stroke-width=\"3\"/><g clip-path=\"url(#narm)\"><image href=\"../F02/nera-sleeve-source.png\" x=\"416\" y=\"995\" width=\"265\" height=\"99\" transform=\"rotate(21 435 1035)\" preserveAspectRatio=\"none\"/></g><path d=\"M445 1022 Q492 1054 558 1079 L615 1106 M460 1049 L492 1068 M559 1100 L580 1115\" stroke=\"#51525a\" stroke-width=\"2.1\" fill=\"none\"/><path d=\"M642 1081 L667 1098 L656 1133 L632 1116 Z\" fill=\"#272a30\" stroke=\"#15191e\" stroke-width=\"2.4\"/>",
+      "kind": "source-cloth-filled-explicit-vector-anatomy"
+    },
+    {
+      "id": "textured-right-forearm-cuff",
+      "svg": "<defs><clipPath id=\"oarm\"><path d=\"M1025 810 Q1060 831 1061 873 L1054 916 L1042 940 L1016 928 L1024 879 L1012 838 Z\"/></clipPath></defs><path d=\"M1025 810 Q1060 831 1061 873 L1054 916 L1042 940 L1016 928 L1024 879 L1012 838 Z\" fill=\"#254d8a\" stroke=\"#182633\" stroke-width=\"3\"/><image href=\"../F02/odo-sleeve-source.png\" x=\"1010\" y=\"807\" width=\"54\" height=\"136\" preserveAspectRatio=\"none\" clip-path=\"url(#oarm)\"/><path d=\"M1033 840 L1047 858 L1037 903\" fill=\"none\" stroke=\"#46689e\" stroke-width=\"2\"/><defs><clipPath id=\"ocuff\"><path d=\"M1021 905 L1054 917 L1042 944 L1011 929 Z\"/></clipPath></defs><path d=\"M1021 905 L1054 917 L1042 944 L1011 929 Z\" fill=\"#d4c5a4\" stroke=\"#24292a\" stroke-width=\"2.8\"/><image href=\"../F02/odo-cuff-source.png\" x=\"1010\" y=\"904\" width=\"46\" height=\"41\" preserveAspectRatio=\"none\" clip-path=\"url(#ocuff)\"/>",
+      "kind": "source-cloth-filled-explicit-vector-anatomy"
+    },
+    {
+      "id": "same-fixed-staff-contour",
+      "path": "production/structural-pilot/finishing/S/P14/F02-v2/staff-contour-ink.png"
+    },
+    {
+      "id": "same-fixed-flask-contour",
+      "path": "production/structural-pilot/finishing/S/P14/F02-v2/flask-contour-ink.png"
+    },
+    {
+      "id": "fixed-staff-texture-within-exact-alpha",
+      "svg": "<defs><mask id=\"rodmask\"><image href=\"../F02-v2/staff-exact-alpha.png\" width=\"1170\" height=\"1320\"/></mask><linearGradient id=\"wood\" gradientUnits=\"userSpaceOnUse\" x1=\"565\" y1=\"1149\" x2=\"603\" y2=\"1171\"><stop stop-color=\"#6e5036\"/><stop offset=\".27\" stop-color=\"#a17b51\"/><stop offset=\".7\" stop-color=\"#b1895c\"/><stop offset=\"1\" stop-color=\"#79593d\"/></linearGradient></defs><g mask=\"url(#rodmask)\"><rect width=\"1170\" height=\"1320\" fill=\"url(#wood)\"/><path d=\"M479 1400 L689 996 M462 1391 L672 987 M445 1382 L655 978\" stroke=\"#5c432e\" stroke-width=\"3\" opacity=\".75\" fill=\"none\"/><path d=\"M489 1395 Q525 1310 550 1268 L602 1172 Q624 1125 653 1082 L696 990 M481 1365 L531 1270 M559 1220 L584 1172 M611 1124 L638 1070\" stroke=\"#d1ab79\" stroke-width=\"2.5\" fill=\"none\"/><path d=\"M539 1283 Q556 1253 551 1244 Q544 1245 537 1267 Q532 1286 539 1283 Z M610 1150 L632 1107\" stroke=\"#755136\" stroke-width=\"2\" fill=\"none\"/></g>",
+      "kind": "conventional-material-drawing-clipped-to-frozen-prop"
+    },
+    {
+      "id": "fixed-flask-shading-within-exact-alpha",
+      "svg": "<defs><mask id=\"flaskmask\"><image href=\"../F02-v2/flask-exact-alpha.png\" width=\"1170\" height=\"1320\"/></mask><linearGradient id=\"amber\"><stop stop-color=\"#865623\"/><stop offset=\".23\" stop-color=\"#c9933c\"/><stop offset=\".57\" stop-color=\"#dfab55\"/><stop offset=\".84\" stop-color=\"#bd8634\"/><stop offset=\"1\" stop-color=\"#8c5f28\"/></linearGradient></defs><g mask=\"url(#flaskmask)\"><rect x=\"943\" y=\"772\" width=\"94\" height=\"162\" fill=\"url(#amber)\"/><rect x=\"942\" y=\"772\" width=\"97\" height=\"35\" fill=\"#d1c5a8\"/><path d=\"M942 798 Q988 812 1038 798 M945 917 Q988 929 1035 916\" stroke=\"#795d36\" stroke-width=\"2.3\" fill=\"none\"/><path d=\"M964 818 L964 899\" stroke=\"#f2c879\" stroke-width=\"5\" opacity=\".7\"/><path d=\"M954 779 L954 798 M964 778 L964 801 M975 776 L975 803 M987 775 L987 803 M999 776 L999 803 M1011 777 L1011 801 M1024 779 L1024 799\" stroke=\"#9c9077\" stroke-width=\"1.6\"/><path d=\"M949 810 L949 915 M1030 810 L1030 915\" stroke=\"#77572b\" stroke-width=\"2\" opacity=\".6\"/></g>",
+      "kind": "conventional-material-drawing-clipped-to-frozen-prop"
+    },
+    {
+      "id": "original-left-hand-registered-to-fixed-staff",
+      "path": "production/structural-pilot/finishing/S/P14/F02-v3/nera-left-source-hand.png",
+      "width": 85,
+      "height": 134,
+      "transform": "matrix(0.39453403211016974 0.8089146416692503 -0.8089146416692503 0.39453403211016974 639.6475077920463 1091.8709708337558)"
+    },
+    {
+      "id": "textured-right-palm-supports-fixed-flask-base",
+      "svg": "<defs><clipPath id=\"opalm\"><path d=\"M1028 925 Q1040 936 1027 951 L1008 965 Q991 976 973 964 L952 948 Q944 940 949 930 Q953 923 961 928 L978 935 L993 933 Q1000 929 1004 916 Q1008 903 1018 908 Q1027 914 1028 925 Z\"/></clipPath></defs><path d=\"M1028 925 Q1040 936 1027 951 L1008 965 Q991 976 973 964 L952 948 Q944 940 949 930 Q953 923 961 928 L978 935 L993 933 Q1000 929 1004 916 Q1008 903 1018 908 Q1027 914 1028 925 Z\" fill=\"#a97645\" stroke=\"#35261c\" stroke-width=\"2.8\"/><image href=\"../F02/odo-hand-skin-source.png\" x=\"945\" y=\"903\" width=\"97\" height=\"77\" preserveAspectRatio=\"none\" clip-path=\"url(#opalm)\"/><path d=\"M951 934 Q970 949 991 943 M957 945 Q975 960 999 949 M970 958 Q989 969 1007 957 M1007 916 Q1000 936 1010 941\" fill=\"none\" stroke=\"#61422a\" stroke-width=\"2.1\" stroke-linecap=\"round\"/><path d=\"M1012 912 Q1024 916 1021 931\" stroke=\"#cd9d63\" stroke-width=\"3\" fill=\"none\"/><path d=\"M950 932 Q954 930 958 935 L957 939 Q953 939 950 936 Z M957 943 L963 943 L965 948 L962 950 Z M970 954 L976 953 L980 957 L977 960 Z\" fill=\"#b38b5e\" stroke=\"#725335\" stroke-width=\"1\"/><path d=\"M1009 947 Q1003 954 991 956\" fill=\"none\" stroke=\"#795432\" stroke-width=\"1.3\"/>",
+      "kind": "source-skin-filled-explicit-vector-anatomy"
+    }
+  ]
+}

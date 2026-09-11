@@ -1,0 +1,537 @@
+{
+  "schema": "ImpactClarityPlan/1",
+  "experiment_id": "IC-20260909-01",
+  "title": "Nightglass \u2014 Force you can feel",
+  "expected_count": 16,
+  "provisional_story": "Sixteen independent peak-moment studies: eight core Nightglass, four radical Nightglass comparisons and four other liked drawing directions. Provisional subjects and powers, no selected canon.",
+  "scope_authorization": "Original approved eight plus four radical studies authorized by latest user steering, before generation.",
+  "budget": {
+    "primary": 16,
+    "structural_repairs": 4,
+    "texture_passes": 16,
+    "maximum_native_attempts": 36,
+    "transport_retries": 2,
+    "maximum_total": 38,
+    "per_image": "One P, at most one evidence-based R1 structural repair and one source-only F1 surface pass for observed competing detail. Maximum two unchanged no-art service retries, at most one per failed request. Maximum five references. Preserve every attempt; no allowance padding.",
+    "direct_paid_spend_usd": 0
+  },
+  "acceptance": {
+    "impact": "Force must alter body load, balance, contact or surrounding mass. Correct weapon grip alone is not exciting action.",
+    "ground": "Dry matte broad value shape by default; story-required water gets grouped reflections. Inspect ground separately at native and phone size.",
+    "texture": "Selective face/edge detail and broad interior planes. Source-only F1 preserves pose and causal effects.",
+    "preference": "Owner votes blank; reviews are observations, not owner approval.",
+    "radical": "Equal-width paired comparisons X01/M01 X02/V01 X03/A01 X04/S01; not single-variable experiments."
+  },
+  "prior_choices": {
+    "path": "production/impact-clarity/previous/ce-selection.json",
+    "sha256": "9e459455fffb729aac13a8c3384d6b0b4d4f6f025c6a032d29a912cf0d5acee4",
+    "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/previous/ce-selection.json",
+    "label": "Exact prior CE selections, separate from blank new choices"
+  },
+  "reference_library": [
+    {
+      "id": "nightglass",
+      "title": "Nightglass",
+      "path": "production/impact-clarity/references/nightglass.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/nightglass.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original full Nightglass; drawing and world benchmark, not cast selection"
+    },
+    {
+      "id": "riven",
+      "title": "Riven",
+      "path": "production/impact-clarity/references/riven.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "role": "Recurring adult identity and saber construction only"
+    },
+    {
+      "id": "neris",
+      "title": "Neris",
+      "path": "production/impact-clarity/references/neris.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/neris.png",
+      "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+      "role": "Recurring adult identity; rear shield grip must be correctly redrawn"
+    },
+    {
+      "id": "kellan",
+      "title": "Kellan",
+      "path": "production/impact-clarity/references/kellan.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/kellan.png",
+      "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+      "role": "Recurring adult identity and broad combat sword"
+    },
+    {
+      "id": "ilyra",
+      "title": "Ilyra",
+      "path": "production/impact-clarity/references/ilyra.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/ilyra.png",
+      "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+      "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier"
+    },
+    {
+      "id": "finish",
+      "title": "Finish",
+      "path": "production/impact-clarity/references/finish.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/finish.png",
+      "sha256": "bc1ba2c59f064731f3bbe66381d22d95746f30e00df4330e82eef0b21a45e30c",
+      "role": "Approved broad surfaces, contours and faces; not target composition"
+    },
+    {
+      "id": "style02",
+      "title": "Sunbreak Lancer original full anchor",
+      "path": "production/impact-clarity/references/style02.png",
+      "sha256": "68363053ab9ebc40e8e9d2322fbb5127f7e49d4235cc170c099ee4816ab6ca60",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-refinement-20260907-1600/production/visual-refinement/references/02.png",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+    },
+    {
+      "id": "style05",
+      "title": "Iron Orchard original full anchor",
+      "path": "production/impact-clarity/references/style05.png",
+      "sha256": "c6bd17a13b4b927a966da5fff3c0e37761c174d1716ae85e6e73b7b9241f966f",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-refinement-20260907-1600/production/visual-refinement/references/05.png",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+    },
+    {
+      "id": "style18",
+      "title": "Soft Thunder original full anchor",
+      "path": "production/impact-clarity/references/style18.png",
+      "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-refinement-20260907-1600/production/visual-refinement/references/18.png",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+    },
+    {
+      "id": "style19",
+      "title": "Black Petal original full anchor",
+      "path": "production/impact-clarity/references/style19.png",
+      "sha256": "4b9bc4303f514bcd315db4f89405e0b777dd227d79b82a1bdad9b139e1f7c363",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-refinement-20260907-1600/production/visual-refinement/references/19.png",
+      "role": "Original drawing treatment reference only. New identity and action; preserve this style rather than importing Nightglass rendering."
+    }
+  ],
+  "entries": [
+    {
+      "id": "M01",
+      "title": "Break the guard",
+      "category": "melee",
+      "scale": "low close",
+      "subjects": [
+        "riven"
+      ],
+      "paired_ids": [
+        "X01"
+      ],
+      "caption": "Riven drives through the guard before the counter can form.",
+      "brief": "A brutally committed close-range saber strike at the exact instant it knocks an armored duelist off balance. Riven lunges from low left, right hand driving his continuous cyan-edged saber into the opponent's raised dark sword, left arm thrown back for balance. His rear leg extends powerfully; hips and shoulders rotate together. The opponent's guard is driven into their own shoulder, torso folds sideways and both heels visibly leave the dry stone; their sword remains in their hand. Show the contact, target recoil, shocked face and whipping coat tails as the main story. Camera close and knee-high, diagonally through the clash, faces individually legible, full force-bearing arms. A compact white contact wedge and a few decisive directional ink strokes, no luminous cloud. Broad dark aqueduct pier behind, dry warm gray floor almost unmarked. Visceral non-gory impact, no wounds required.",
+      "power": {
+        "name": "Borrowed Beat",
+        "description": "A parry stores a fraction of incoming momentum for the next committed strike.",
+        "limitation": "Discharges on the next strike and cannot be held while retreating.",
+        "growth": "Redirect the stored impulse through a different angle."
+      },
+      "references": [
+        "riven",
+        "nightglass",
+        "finish"
+      ],
+      "group": "core",
+      "owner_approval": null
+    },
+    {
+      "id": "M02",
+      "title": "The shield becomes the strike",
+      "category": "melee",
+      "scale": "side medium",
+      "subjects": [
+        "neris"
+      ],
+      "caption": "Neris turns a blocked charge into an upward collision.",
+      "brief": "Explosive shield uppercut in a dry arched passage. Neris plants a bent leading leg and drives up from the hips, crescent shield securely rear-gripped on her left forearm, solid broad face toward a heavily armored adult marauder. The upper shield rim strikes beneath the marauder's breastplate, torso jackknifes backward, boots lifted cleanly from ground, open mouth gasping, weapon arm flung away. Neris's determined face remains exposed above her shoulder; free right hand clenched back for balance. Strong asymmetric opposing curves: her rising body, his backward recoil. Side-on three-quarter medium-wide camera shows both complete bodies and actual shield/rib contact. Ivory cape snaps down behind her. No gore or lightning, just a compressed pale impact shape and a broad directional dust wedge behind his departing heel. Floor a calm matte slab, walls broad midnight-blue shadow, side light warm.",
+      "power": {
+        "name": "Return Stroke",
+        "description": "A blocked frontal impulse is released through the next shield contact.",
+        "limitation": "The recoil still travels through her planted leg; a broken stance wastes it.",
+        "growth": "Split the return into a launch and a delayed braking pulse."
+      },
+      "references": [
+        "neris",
+        "nightglass",
+        "finish"
+      ],
+      "group": "core",
+      "paired_ids": [],
+      "owner_approval": null
+    },
+    {
+      "id": "V01",
+      "title": "Cut across the falling line",
+      "category": "movement",
+      "scale": "steep overhead wide",
+      "subjects": [
+        "riven"
+      ],
+      "paired_ids": [
+        "X02"
+      ],
+      "caption": "A sword-made step changes his direction while the spear is already committed.",
+      "brief": "Steep overhead view down an immense dry city stairwell, dizzying but clean architecture. Riven is one airborne figure in the upper foreground, horizontal diagonal leap across a gap between landings, right-hand saber extended back and left arm reaching forward. One narrow cyan plane behind his trailing boot is being kicked apart as a temporary foothold; a single bent ribbon-like motion stroke explains the abrupt change from downward fall into lateral acceleration. An enemy spearman on the lower landing has lunged into the space Riven just left, spear far beyond his balance, face turning up too late. Riven's silver hair, teal coat and concentrated grin remain readable despite foreshortening. Entire body and separate legs visible; no ghost copies. Cloak and hair stream opposite his actual movement. Broad landing shapes and deep open shaft, sparse distant balcony silhouettes; floor dry and nearly featureless. Capture extreme acceleration with pose and displaced cloth, not fullframe speedline texture.",
+      "power": {
+        "name": "Cross-Step",
+        "description": "A brief blade-made foothold lets him kick across an existing fall.",
+        "limitation": "Needs an already committed momentum; cannot hover or chain steps indefinitely.",
+        "growth": "Store a second turning angle for an aerial counter."
+      },
+      "references": [
+        "riven",
+        "nightglass",
+        "finish"
+      ],
+      "group": "core",
+      "owner_approval": null
+    },
+    {
+      "id": "V02",
+      "title": "Recoil ascent",
+      "category": "movement",
+      "scale": "low vertical diagonal",
+      "subjects": [
+        "kellan"
+      ],
+      "caption": "Kellan launches himself along the face of the wall as the strike lands below.",
+      "brief": "Ground-low upward view of a dry broken city gate, a dynamic full body Kellan rocketing diagonally up its broad wall. His broad sword is firmly held two-handed down behind him, point biting a single smooth slab of conjured ice projecting from the wall; the slab has just snapped at its base, recoiling like a bent spring and catapulting him out of reach. His body stretches along the launch direction, knees no longer planted, pale boots clear of the wall, sand coat streaming down. Below, an ogre's hammer hits the vacant launch point with a single large stone fragment kicked outward and a compact dust shape. The causal diagonal links broken spring, airborne Kellan and missed attack. Large foreground hammer/head mostly off to one side, not hiding the hero. Sparse tall arches and open blue sky. No sea, no slick paving, no particle swarm.",
+      "power": {
+        "name": "Recoil Ascent",
+        "description": "A sword-loaded ice spring converts one planted thrust into a violent launch.",
+        "limitation": "The launch is ballistic and the shattered spring cannot brake the landing.",
+        "growth": "Shape landing wedges that trade height for a controlled second attack."
+      },
+      "references": [
+        "kellan",
+        "nightglass",
+        "finish"
+      ],
+      "group": "core",
+      "paired_ids": [],
+      "owner_approval": null
+    },
+    {
+      "id": "A01",
+      "title": "The wall is down",
+      "category": "magic",
+      "scale": "wide lateral",
+      "subjects": [
+        "ilyra"
+      ],
+      "paired_ids": [
+        "X03"
+      ],
+      "caption": "Ilyra makes the far wall the direction of falling.",
+      "brief": "An unmistakable sideways gravity attack inside a vast dry rectangular gate hall. Ilyra low left lunges and drives the butt of her ivory lance into a small violet contact seam on the FLOOR, both hands clearly on shaft. Her burgundy coat and ivory mantle stream horizontally toward the right wall. Two armored adult attackers are being hurled bodily sideways toward that wall: fully airborne, legs trailing left, torsos violently twisting, one desperately extends arms to brace. One nearer attacker already collides shoulder-first against the right pier, spine curved and face compressed with shock; other follows behind separated. A dropped weapon and one big loose masonry block follow the same horizontal fall. Sparse violet line along the floor turns up the far wall, clearly defining new down, no luminous volume. Camera lateral wide enough to show caster, transport gap and target wall together; strongest contrast at the shoulder collision. Architecture broad planes, floor matte untextured, background in shadow, no rubble confetti.",
+      "power": {
+        "name": "Wallfall",
+        "description": "A lance-anchored zone makes a chosen wall the direction of gravity.",
+        "limitation": "She must maintain butt contact and brace against the same sideways pull.",
+        "growth": "Rotate the field during an enemy's committed jump."
+      },
+      "references": [
+        "ilyra",
+        "nightglass",
+        "finish"
+      ],
+      "group": "core",
+      "owner_approval": null
+    },
+    {
+      "id": "A02",
+      "title": "Shear the charge",
+      "category": "magic",
+      "scale": "ground close to wide depth",
+      "subjects": [
+        "kellan"
+      ],
+      "caption": "The enemy charge hits a rising edge that keeps moving.",
+      "brief": "Kellan in near-left foreground finishes a powerful two-handed downward sword stroke into a shallow narrow water channel crossing a otherwise DRY causeway. From the blade contact one enormous smooth blue-white ice wedge erupts diagonally toward the charging plated beast in middle right, visibly lifting and rolling the creature off its intended path. Beast is a four-legged dark armored wolf-bull, bulky chest and blunt crown horns: near foreleg lifted high, other foreleg folded away, shoulders twisted and rear feet skidding outside the new ice face. Show all four limbs as readable separate forms. The wedge is one clean asymmetrical mass, NOT dozens of crystal spikes, and has a clear growing leading edge at its contact with the beast. Kellan's shoulders/hips follow through, teeth clenched, broad blade continuous to hands. Low lens close to the sword, long diagonal depth to beast. Big dry walls and sky, one smooth water strip with a single reflected band; the rest matte. Sparse contact dust only.",
+      "power": {
+        "name": "Rising Shear",
+        "description": "A committed sword stroke freezes a moving wedge along a continuous water path.",
+        "limitation": "Dry gaps interrupt it, and the redirected mass can endanger allies.",
+        "growth": "Control the wedge's angle to launch, split or brake a charging threat."
+      },
+      "references": [
+        "kellan",
+        "nightglass",
+        "finish"
+      ],
+      "group": "core",
+      "paired_ids": [],
+      "owner_approval": null
+    },
+    {
+      "id": "S01",
+      "title": "Make the colossus kneel",
+      "category": "giant",
+      "scale": "very wide low",
+      "subjects": [
+        "neris",
+        "riven"
+      ],
+      "paired_ids": [
+        "X04"
+      ],
+      "caption": "The defenders redirect one step; the entire creature must answer.",
+      "brief": "A city-sized encounter at the instant a dark cathedral-armored quadruped loses its front support and crashes onto a bent forelimb. Very wide ground-level view, giant dominates upper two-thirds; recognizably tiny Neris at near-left (ivory cape and crescent shield, about one fifteenth giant shoulder height) braces low behind her shield. A huge descending forefoot has met the shield's pale curved force plane, redirected sideways rather than stopped by raw strength; forelimb folds inward, entire chest pitches down, opposing forefoot scrabbles wide. The head is visibly dropping toward the ground, hindquarters still high; show the whole body load changing. Riven is another tiny distinct silver/teal silhouette sprinting laterally toward exposed shoulder seam, saber right-handed. Buildings beneath torso and ordinary gate arch establish coherent scale. One displaced large stone slab and one broad compressed dust crescent mark impact, not a rubble storm. Matte dry plaza is a large uninterrupted value shape. Dusk cool shadows with warm sky; monumental clear silhouette, no ornate repeating armor texture.",
+      "power": {
+        "name": "Turn the Step",
+        "description": "Neris redirects a descending load just far enough to collapse the creature's stance.",
+        "limitation": "Needs a real oblique angle and a stable brace; cannot hold the giant in place.",
+        "growth": "A coordinated follow-up could lock the newly exposed joint."
+      },
+      "references": [
+        "neris",
+        "riven",
+        "nightglass",
+        "finish"
+      ],
+      "group": "core",
+      "owner_approval": null
+    },
+    {
+      "id": "S02",
+      "title": "Split the siege wave",
+      "category": "giant",
+      "scale": "extreme panoramic",
+      "subjects": [
+        "ilyra",
+        "kellan"
+      ],
+      "caption": "Two small defenders tear a passage through a threat that fills the valley.",
+      "brief": "Extreme wide panoramic view from a high dry city parapet, facing a titanic manta-like armored flying predator sweeping its low wing across an aqueduct to uproot a whole battalion. Ilyra and Kellan are small but recognizable foreground figures (burgundy/ivory lance silhouette versus sand/cobalt sword). Ilyra drives a lance-anchored violet plane obliquely across the incoming wing, redirecting it upward; Kellan violently pulls a broad smooth ice ramp from a narrow cistern spill to push a cluster of retreating adult defenders clear of the wing's path. Show tangible result: creature banking hard, asymmetric wings under torsion, one wingtip cleaving the AQUEDUCT behind the escape route, a few enormous arch sections falling into the gulf. The two heroes lean under strain in contrasting directions and remain separate. Keep original Nightglass creature appeal through sleek dark mass and sparse luminous apertures, but new creature and new encounter. Scale communicated through tiny soldiers, arch size and city depth; no oversized foreground humans. Vast calm blue sky, grouped skyline, dry matte parapet, large quiet shadow masses. Powerful sweeping diagonals and a clear escape opening, not clouds of particles.",
+      "power": {
+        "name": "Aperture Break",
+        "description": "A gravity deflection and rising ice ramp split an otherwise unavoidable sweep.",
+        "limitation": "Both users commit to fixed anchors while the wing continues moving.",
+        "growth": "Build a brief moving corridor against wider attacks."
+      },
+      "references": [
+        "ilyra",
+        "kellan",
+        "nightglass",
+        "finish"
+      ],
+      "group": "core",
+      "paired_ids": [],
+      "owner_approval": null
+    },
+    {
+      "id": "X01",
+      "title": "Black-cut impact",
+      "category": "radical",
+      "scale": "extreme contact close",
+      "subjects": [
+        "riven"
+      ],
+      "paired_ids": [
+        "M01"
+      ],
+      "caption": "Radical ink treatment: one collision owns the entire image.",
+      "brief": "RADICAL comparison to the saber guard-break concept, not a duplicate composition. Draw a ferocious hand-inked manga impact frame with huge intentional black shapes, ivory paper-white negative space and ONLY a selective cyan blade accent. Riven's recognizable silver-haired face snarls with commitment in lower-left; his RIGHT hand and continuous saber drive upward across the image into the opponent's guard, the opponent's upper torso violently corkscrews away upper-right, mouth open and sword arm thrown behind. Camera almost at the crossed blades, forearms foreshortened, heads separated; crop legs deliberately outside the composition instead of implying full-body anatomy. Collision slightly offcenter is a compact hard white cut amid black silhouette, a few long decisive brush speed strokes push outward. Exaggerate the anatomy's stretch and compression like a superb action keyframe while preserving sound shoulders/elbows/wrists, NOT glossy realistic rendering. Sparse broad architectural arch behind them dissolves into white. No hatch carpet, no tiny texture marks, no spark swarm, no floor reflections. Make the visual pause feel like the loudest hit in the chapter.",
+      "power": {
+        "name": "Borrowed Beat",
+        "description": "The same stored parry impulse tested through forceful ink exaggeration.",
+        "limitation": "Next-strike discharge; no indefinite charge.",
+        "growth": "Directional redirection."
+      },
+      "references": [
+        "riven",
+        "nightglass",
+        "finish"
+      ],
+      "group": "radical",
+      "owner_approval": null
+    },
+    {
+      "id": "X02",
+      "title": "Past the lens",
+      "category": "radical",
+      "scale": "extreme foreshortened near/far",
+      "subjects": [
+        "riven"
+      ],
+      "paired_ids": [
+        "V01"
+      ],
+      "caption": "Radical lens: acceleration nearly carries him through the viewer.",
+      "brief": "RADICAL extreme foreshortening of Riven's Cross-Step, new composition. Camera just beyond his destination, angled up the immense stair shaft. His leading boot is huge near lower-right lens but foot construction remains correct; silver-haired face and torso readable behind it at center, trailing leg kicks off a narrow cyan temporary plane far upper-left, long saber in RIGHT hand points safely back along his travel. Left arm thrown laterally for balance. One physically continuous airborne body, dynamic almost horizontal twist, coat flies behind. Enemy spearman tiny far behind in the shaft commits down the WRONG diagonal. Dramatic near/far distortion and thick-to-thin contour drawing, graphic navy shadow planes and ivory highlights, vivid but small cyan accents. Simplify most background into immense stair silhouettes and a pale gap. A few tapered directional strokes and one curved broken step explain a sudden near-camera launch; no fullframe blur, no extra limbs/ghost clones, no multitudes of streaks. Keep expressive face, intimidating speed and elegant Nightglass appeal.",
+      "power": {
+        "name": "Cross-Step",
+        "description": "The same turning foothold viewed almost along the flight path.",
+        "limitation": "A ballistic exit leaves little correction time.",
+        "growth": "Second-angle counterattack."
+      },
+      "references": [
+        "riven",
+        "nightglass",
+        "finish"
+      ],
+      "group": "radical",
+      "owner_approval": null
+    },
+    {
+      "id": "X03",
+      "title": "Gravity, drawn as absence",
+      "category": "radical",
+      "scale": "graphic tilted wide",
+      "subjects": [
+        "ilyra"
+      ],
+      "paired_ids": [
+        "A01"
+      ],
+      "caption": "Radical graphic magic: the empty shape becomes the dangerous part.",
+      "brief": "RADICAL graphic interpretation of Ilyra's Wallfall in a fresh tilted overhead hall composition. Create a striking limited-palette action illustration: midnight-black architecture, warm ivory negative space, burgundy coat, a single violet boundary. The gravity zone is an EMPTY sharp ivory diagonal wedge cut through the dark hall, without a glowing beam or texture. Ilyra at lower-left, copper bob recognizable, lance butt visibly anchored at wedge origin, body straining sideways. Two dark armored adult opponents tumble bodily across this open wedge toward a right-hand wall seen from above; one shoulders into that wall and bends hard around contact, the other spins feet-first behind him. Their separated silhouettes, trailing capes and loose sword all align with the same sideways fall. Use stark shape placement and long curved body gestures to sell power; do not rely on text/symbols or duplicate bodies. Ground and walls broad blank planes. Selective crisp face/hand accents, no hatching blanket. Deliberately depart from literal environment rendering while retaining Nightglass's appealing faces and controlled dark/light design.",
+      "power": {
+        "name": "Wallfall",
+        "description": "The same sideways gravity tested as graphic negative space.",
+        "limitation": "The caster remains subject to her own direction change.",
+        "growth": "Rotating boundaries."
+      },
+      "references": [
+        "ilyra",
+        "nightglass",
+        "finish"
+      ],
+      "group": "radical",
+      "owner_approval": null
+    },
+    {
+      "id": "X04",
+      "title": "One falling mountain",
+      "category": "radical",
+      "scale": "extreme distant silhouette",
+      "subjects": [
+        "neris",
+        "riven"
+      ],
+      "paired_ids": [
+        "S01"
+      ],
+      "caption": "Radical scale: a giant fall told through a few enormous shapes.",
+      "brief": "RADICAL distant silhouette treatment of the same redirected giant step, a genuinely new far camera across the city gorge. Monumental cathedral-armored quadruped in mid-collapse, its front shoulder and folded foreleg falling through a city gate while hindquarters rear high; off-balance spine forms an enormous diagonal. Neris and Riven are TINY but distinct ivory-crescent and silver/teal marks on a near terrace beneath the redirected foot, source of one pale curved deflection stroke. Show the whole giant well enough to understand its folded foreleg and gravity, head plummeting lower than its hips. City gate arches and miniature retreating defenders set massive scale. Drawing approaches a bold cinematic woodcut/cel hybrid: broad navy creature silhouette, copper sunset sky, cool ivory wall planes, a few crisp cyan accents. Destruction as several huge readable broken arch shapes and ONE broad dust bank pushed sideways; do not fill it with tiny debris/cracks/windows. Tiny characters must not inexplicably stand in foreground at giant size. The impact should feel tectonic through tilt, weight and architectural scale rather than visual noise. No lettering, no glossy 3D, no hatching carpet.",
+      "power": {
+        "name": "Turn the Step",
+        "description": "The same oblique shield redirection judged through distant mass and silhouette.",
+        "limitation": "A momentary loss of footing, not sustained domination.",
+        "growth": "Team follow-up on exposed joints."
+      },
+      "references": [
+        "neris",
+        "riven",
+        "nightglass",
+        "finish"
+      ],
+      "group": "radical",
+      "owner_approval": null
+    },
+    {
+      "id": "Y01",
+      "title": "Cut the thing that holds it upright",
+      "drawing_direction": "Black Petal",
+      "subjects": [
+        "mael"
+      ],
+      "scale": "low intimate horror encounter",
+      "caption": "Mael cuts the creature's supporting shadow; its body buckles a beat later.",
+      "brief": "NEW adult woman Mael,34, pale complexion, handsome broad cheekbones and strong straight nose, severe straight platinum shoulder-length hair, cool heavy-lidded eyes and clenched mouth. Long black high-neck split combat coat over bone-colored fitted torso armor and black trousers, flat silver boots; one long slender black war-estoc with ivory guard, held correctly in right hand. A refined fashion-horror action image in an abandoned glass conservatory with a pale open background. Mael slides into a deep extended low lunge across DRY matte bone paving and slashes through the single thick black shadow-tendon joining a towering predatory orchid creature's ankle to its shadow. The tendon visibly separates into two clean recoiling ends at the blade. Above her, the creature's supporting leg folds abruptly, tall hollow ivory mask pitches sideways and enormous black petal-like shoulder masses lash the OPPOSITE way with inertia. Long narrow limbs remain clearly jointed and countable, eerie exquisite construction rather than gore. Camera low near slash, full Mael silhouette with face visible, creature upper mass can loom beyond frame but critical leg/body fall readable. A single crimson cut line, no floating petal shower or background ivy carpet. Preserve Black Petal's sophisticated near-realistic facial treatment, thin selective line, silky restrained modeling, severe black/bone composition; no anime cyan glow. Ground and glass simple broad shapes, delicate detail concentrated face, blade contact and creature mask.",
+      "power": {
+        "name": "Last Support",
+        "description": "A contacted shadow tendon briefly carries the creature's real balance; cutting it steals one supporting step.",
+        "limitation": "Requires an exposed cast shadow and a committed physical cut.",
+        "growth": "Redirect the lost step rather than merely collapse it."
+      },
+      "references": [
+        "style19"
+      ],
+      "category": "style",
+      "group": "comparison",
+      "paired_ids": [],
+      "owner_approval": null
+    },
+    {
+      "id": "Y02",
+      "title": "Drive the iron beast sideways",
+      "drawing_direction": "Iron Orchard",
+      "subjects": [
+        "orren"
+      ],
+      "scale": "wide heavy collision",
+      "caption": "Orren's cleaver wedges under a charging jaw and turns the whole armored body.",
+      "brief": "NEW adult man Orren,41, fair weathered skin, broad square face, broken-looking strong nose, short swept red hair with pale temples, fierce tight grin, stocky powerful build. Olive asymmetric battle coat, cream shoulder plates, rust red bracers, dark trousers and broad boots. A huge blunt-backed single-edged combat cleaver, simple continuous blade and long two-hand grip. In an ochre industrial orchard aqueduct he commits a sweeping two-handed rising cut beneath a charging armored boar-machine's jaw. Cleaver catches under a broad jaw plate at a visibly compressed contact. His knees and hips drive up and across; the huge creature rolls sideways, near legs completely off ground, opposite tusk carving a single long groove at outer edge of path. Broad rust body plates and an opaque green glass throat, creature anatomy readable and mechanical joints functional without wire clutter. Low side camera shows the force chain cleaver\u2192jaw\u2192twisted whole torso, Orren's face and grounded legs. Iron Orchard drawing: sculptural faces, opaque purposeful brush planes and firm selective contours, warm rust/olive/denim/cream, tactile matte materials, slight intentional painterly edge texture only. NO blanket grain/scratches/pebbles. One broad dust wave and grouped citrus foliage distant, DRY nearly unmarked ochre path. New subject and combat equipment, no civilian tools.",
+      "power": {
+        "name": "Bearing Break",
+        "description": "The cleaver briefly locks a contacted armor plate to its striking direction, forcing the body behind it to turn.",
+        "limitation": "Only works while the blade remains wedged; a bad angle can wrench his arms.",
+        "growth": "Release the bearing at a chosen instant to throw larger opponents."
+      },
+      "references": [
+        "style05"
+      ],
+      "category": "style",
+      "group": "comparison",
+      "paired_ids": [],
+      "owner_approval": null
+    },
+    {
+      "id": "Y03",
+      "title": "The second hit arrives inside the first",
+      "drawing_direction": "Soft Thunder",
+      "subjects": [
+        "tavi"
+      ],
+      "scale": "extreme expressive medium",
+      "caption": "Tavi's hammer compresses the guard; the delayed thunder throws it apart.",
+      "brief": "NEW adult woman Tavi,29, light freckled skin, broad expressive adult face with prominent nose and huge defiant grin, short blond hair in a high forward swoop, powerful shoulders and long athletic legs. Turquoise sleeveless long battle tunic with orange waist sash, dark green trousers, large cream/orange armored boots. One large oval-headed cream combat hammer with plain turquoise two-hand shaft and one orange circular inset; no flail/chain or duplicate weapons. Bold expressive animation illustration with thick varied contours, broad modeled turquoise/orange/green/cream planes and joyful aggressive body rhythm, distinctly Soft Thunder rather than realistic anime. A full-body rising hammer swing hits a towering armored adversary's crossed arm guard. Tavi is dramatically stretched from grounded back boot through rotating hips to the hammer; defender's huge forearms compressed together at actual head contact while shoulders/face recoil and both knees lift uncontrollably, exaggerated but coherent joints. A hard-edged orange compressed wave nested just behind hammerface represents delayed internal shock about to open the guard; a few long graphic impact strokes, NO glowing ball/aura. Low diagonal camera, dry cream causeway, distant windmills as simple silhouettes. Make the image almost audible through squash-and-stretch and reaction. No confetti, grass stipple, floor reflections or all-over cloudy texture.",
+      "power": {
+        "name": "Second Knock",
+        "description": "A hammer strike plants a compressed thunder impulse that releases while the target is still resisting the first hit.",
+        "limitation": "The second pulse recoils through her grip if the hammer has not cleared the guard.",
+        "growth": "Vary the delay to interrupt different defensive rhythms."
+      },
+      "references": [
+        "style18"
+      ],
+      "category": "style",
+      "group": "comparison",
+      "paired_ids": [],
+      "owner_approval": null
+    },
+    {
+      "id": "Y04",
+      "title": "Turn the fire back through the gate",
+      "drawing_direction": "Sunbreak Lancer",
+      "subjects": [
+        "sera"
+      ],
+      "scale": "wide sweeping magic",
+      "caption": "Sera bends a charging fire front around her spear and sends it through the attacking line.",
+      "brief": "NEW adult woman Sera,35, fair warm skin, long angular face, wide intent dark eyes, straight black hair in a compact single braid, strong athletic build. Cobalt high-neck sleeveless battle tunic, cream lamellar waist/shoulder panels, one red split cape, brown fitted trousers and bronze shin armor. Long bronze broadleaf spear with one uninterrupted dark wooden shaft, both hands firmly gripping apart. Warm outlined painting with expressive adult face, lively dark-brown contours, broad sunlit ochre/red/blue shapes and restrained purposeful brush edges, actual Sunbreak Lancer treatment. A powerful wide lateral scene over dry whitewashed fortress terraces. She crouches and pivots through a lunging spear sweep, drawing a single curved thin mirror plane at spearhead height. A charging orange fire front from a distant adult armored caster hits the near face, visibly BENDS sharply around the spear's curve and returns as a broad clean flame tongue into the caster's own shield line. Adult enemies recoil backward, cloaks thrown away from impact, one shield visibly torn out of a hand. Source incoming arc and redirected outgoing arc separated by a calm blue-sky wedge so direction is clear. Flame as large designed orange/red ribbons with ivory core, no fire confetti or sparkle. All human scale consistent across terrace depth. Her cape/hips sell rotation, environment sunlit broad stone and sparse red awnings; dry ground nearly plain. No copied anchor character or faceted leopard.",
+      "power": {
+        "name": "Sunward Turn",
+        "description": "A spear-traced mirror redirects one continuous magical front along its curved surface.",
+        "limitation": "Needs a stable sweeping motion; discontinuous projectiles scatter instead.",
+        "growth": "Trade reflected power for a narrower safer return corridor."
+      },
+      "references": [
+        "style02"
+      ],
+      "category": "style",
+      "group": "comparison",
+      "paired_ids": [],
+      "owner_approval": null
+    }
+  ],
+  "scope_amendment": {
+    "path": "production/impact-clarity/scope-amendment-01.json",
+    "sha256": "cf8db91841a2697ec84d96408c4c3d531fcc20fa3448a7f07712a320d4516897"
+  }
+}

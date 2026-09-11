@@ -1,0 +1,21 @@
+{
+  "schema": "WorldComponentValidationTests/1",
+  "builder_tests": {
+    "passed": 17,
+    "command": "python research/world-components/reader/test_builder.py"
+  },
+  "preferences": {
+    "pass": true,
+    "atomic_rejections": 12,
+    "checks": [
+      "independent categories",
+      "mix collection",
+      "blank defaults",
+      "exact source binding",
+      "local persistence",
+      "dataset isolation",
+      "missing-art protection"
+    ]
+  },
+  "scope": "Final selected dataset and caption override; test fixtures excluded from delivery. Browser and native verification have separate source-bound receipts."
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "T03",
+    "attempt_id": "T03-F1",
+    "phase": "texture",
+    "budget_amendment_path": "production/scale-conflict/budget-amendment-01.json",
+    "budget_amendment_sha256": "cc8abb28fbaa9596ce3cc1f74d2f4dcf989375f6616887534c0320b4bf966902",
+    "category": "ensemble",
+    "retry_of": "T03-R1",
+    "retry_reason": "Structural edit removes the upper abrupt kink, but dense wet paving glitter and facade grain remain.",
+    "evidence_path": "production/scale-conflict/edit-specs-06.json",
+    "evidence_sha256": "384cb3c4cad3b5ee5a2e297ece3f77883990aa26f5a50f2d526afd3907c5f5d2",
+    "prompt_path": "production/scale-conflict/prompts/T03-F1.txt",
+    "prompt_sha256": "43433927bb2a76653fb371b16ac9708ce590a319cefb96afe12eda447039fe71",
+    "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+    "references": [
+      {
+        "path": "production/scale-conflict/candidates/T03-R1.png",
+        "sha256": "173e2fdb1ff2ba18196a472c0df99c5a44052ba16c53d72bbead6a03cc715186",
+        "role": "Sole exact edit source; preserve all content except the specified texture change"
+      }
+    ],
+    "prompt": "Use case: style-transfer. Redraw ONLY THE SURFACE FINISH of the supplied exact image. Preserve its composition, camera distance, subjects, faces, hairlines, expression, costume, anatomy, weapon construction and handling, scale, spatial relationships, action and lighting mood. Substantially reduce distracting repetitive microtexture. Replace it with broad deliberate opaque light/shadow shapes, calm material interiors and selective crisp accents at faces, functional contacts and meaningful boundaries. Retain material differences, depth, inhabited scale and sophisticated drawing. This is a drawn surface redraw, not blur, denoise, low resolution, airbrush, plastic 3D, flat vectors or removal of the world. No new details to compensate.\nKeep both combat lanes, every face, hand, weapon trajectory and contact exactly as supplied. Replace dense paving speckle and hundreds of reflection fragments with calm broad dark stone shapes and grouped reflection bands. Simplify distant window rhythm; preserve functional spear and saber boundaries, body overlaps and small contact spark.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  },
+  {
+    "id": "V04",
+    "attempt_id": "V04-F1",
+    "phase": "texture",
+    "budget_amendment_path": "production/scale-conflict/budget-amendment-01.json",
+    "budget_amendment_sha256": "cc8abb28fbaa9596ce3cc1f74d2f4dcf989375f6616887534c0320b4bf966902",
+    "category": "vista",
+    "retry_of": "V04-R1",
+    "retry_reason": "Framing repair establishes small walkers; dense leaves, bark, dapple and stone mottling dominate the image.",
+    "evidence_path": "production/scale-conflict/edit-specs-06.json",
+    "evidence_sha256": "384cb3c4cad3b5ee5a2e297ece3f77883990aa26f5a50f2d526afd3907c5f5d2",
+    "prompt_path": "production/scale-conflict/prompts/V04-F1.txt",
+    "prompt_sha256": "8f732ef2005e2d4714a26594974f6e8747a14d75afffa0e6f7e4402b330ec45b",
+    "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+    "references": [
+      {
+        "path": "production/scale-conflict/candidates/V04-R1.png",
+        "sha256": "36e424da762d81dae06c486614f4580ab3251bb7d7e8a1a56bebea1fe25aec0c",
+        "role": "Sole exact edit source; preserve all content except the specified texture change"
+      }
+    ],
+    "prompt": "Use case: style-transfer. Redraw ONLY THE SURFACE FINISH of the supplied exact image. Preserve its composition, camera distance, subjects, faces, hairlines, expression, costume, anatomy, weapon construction and handling, scale, spatial relationships, action and lighting mood. Substantially reduce distracting repetitive microtexture. Replace it with broad deliberate opaque light/shadow shapes, calm material interiors and selective crisp accents at faces, functional contacts and meaningful boundaries. Retain material differences, depth, inhabited scale and sophisticated drawing. This is a drawn surface redraw, not blur, denoise, low resolution, airbrush, plastic 3D, flat vectors or removal of the world. No new details to compensate.\nKeep the two walkers exactly this small and in this position, all city terraces, birds and warm daylight. Group leaves into broad green canopy shapes with a few crisp edge leaves and readable fruit; simplify bark marks and all-over pale stone stains. Broaden dappled light into purposeful shadow masses. Retain architectural depth and natural illustrated materials, no blurred foliage.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  }
+]

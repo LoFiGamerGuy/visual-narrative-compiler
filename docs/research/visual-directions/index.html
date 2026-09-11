@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Twenty possible worlds · Visual directions</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="gallery-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#gallery">Skip to the directions</a>
+  <header class="intro">
+    <div class="eyebrow"><span class="mark" aria-hidden="true">✳</span> Original visual exploration <span class="edition">01—20</span></div>
+    <h1>Twenty possible worlds.</h1>
+    <p class="lede">Find the character you want to follow. The drawing you want to see more of. Mix what you like across directions.</p>
+    <p class="subtle">Twenty independent concepts. Start anywhere, and keep the pieces you like.</p>
+  </header>
+  <main>
+    <section class="toolbar" aria-label="Gallery controls">
+      <div class="filters">
+        <label class="select-label" for="family">Browse <select id="family"><option value="">Every style family</option></select></label>
+        <button id="shortlist-filter" class="pill" aria-pressed="false">☆ Shortlist <span id="favorite-count">0</span></button>
+        <span id="visible-count" class="subtle count" aria-live="polite"></span><a class="overview-link" href="overview.html">All 20 at a glance ↗</a>
+      </div>
+      <div class="actions">
+        <button id="open-compare" class="primary" disabled>Compare <span id="compare-count">0</span>/4</button>
+        <details class="selection-menu"><summary>Save / load</summary><div class="menu-body"><p>Changes save in this browser. Export a portable copy to share or keep.</p><button id="export">Export selections</button><button id="import">Import selections</button><input id="import-file" type="file" accept="application/json,.json" hidden></div></details>
+      </div>
+    </section>
+    <div class="selection-strip"><span>Like components independently: <b>Character</b> · <b>Drawing style</b> · <b>World</b> · <b>Monster</b></span><span id="save-status" role="status">No preferences yet</span></div>
+    <p id="message" class="message" role="status" hidden></p>
+    <div id="gallery" class="gallery" tabindex="-1"></div>
+    <p id="empty" class="empty" hidden>No directions match this view. Try another style family or turn off the shortlist filter.</p>
+    <section class="mix-summary" aria-labelledby="mix-heading"><div><p class="eyebrow">Your building blocks</p><h2 id="mix-heading">A direction can be a mix.</h2><p class="subtle">Component likes are independent. Choose more than one, or leave any category open.</p></div><div id="mix-list"></div></section>
+  </main>
+  <footer><span>Original concepts · Visual direction study</span><span id="availability"></span><span>Explore freely; your favorites can mix across directions.</span><a href="../../../research/visual-directions/START_HERE.md">Study details</a></footer>
+  <aside id="compare-tray" class="compare-tray" aria-label="Selected comparison directions" hidden><span id="compare-tray-label"></span><button id="clear-compare">Clear</button><button id="tray-open-compare" class="primary" disabled>Compare</button></aside>
+  <dialog id="zoom-dialog" class="zoom-dialog" aria-labelledby="zoom-title"><div class="dialog-bar"><h2 id="zoom-title"></h2><div class="dialog-actions"><button id="zoom-toggle" aria-pressed="false">Native pixels</button><a id="native-link" target="_blank" rel="noopener">Open image ↗</a><button data-close="zoom-dialog" aria-label="Close image">Close ×</button></div></div><div id="zoom-stage" class="zoom-stage"></div><p class="zoom-help">Fit shows the complete board. Native pixels lets you scroll through the original image.</p></dialog>
+  <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-bar"><div><p class="eyebrow">Look across directions</p><h2 id="compare-title">Side by side</h2></div><button data-close="compare-dialog" aria-label="Close comparison">Close ×</button></div><p class="compare-help">Each complete board stays visible. On a phone, swipe horizontally to compare. Tap an image for native detail.</p><div id="compare-stage" class="compare-stage"></div></dialog>
+  <noscript><p>This local gallery needs JavaScript to show images and save selections.</p></noscript>
+</body>
+</html>

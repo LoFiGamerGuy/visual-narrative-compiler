@@ -1,0 +1,5 @@
+# N8-18–19 actual review
+
+Primary65e098bb preserved; upper18 central basket worker wrongly faced into washhouse, so intended opposed directions failed. Sole repair1560add7 turns only upper worker outward, keeps waiting outside tub worker facing in. Original19 reverse inside view already correctly shows exiting basket worker; retained whole original lower tier.
+
+Actually viewed entire primary/repair returns and both full proposed tier crops.18R1 passes: Aren BOTH boots inside matte dry floor BEFORE sill, first wrap TWOgloves, second Edda bench, oldLEFTtear/RIGHTintact/RIGHTsheath/onewallet; outward empty basket/inward waiting tub now distinguish work circuit. Right outer jamb frames single opening, no newly reintroduced center divider.19P BOTH tied wraps ownerbench, two empty Aren gloves withdrawn, passing worker toward visible exterior, no successful loaded crossing. This is observed shared-flow interruption, not metric proof that no one can ever fit in that doorway. All attempts/crops preserved. Local6returned0pending; next invocation reaches original320 and must pause.

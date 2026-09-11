@@ -1,0 +1,49 @@
+{
+  "id": "W02",
+  "attempt_id": "W02-R1",
+  "phase": "structural",
+  "category": "war",
+  "retry_of": "W02-P",
+  "retry_reason": "Independent and root native reviews found wrong silver-haired Riven instead of Kellan and severe siege-beast head identity drift into circular worm maw.",
+  "evidence_path": "production/combat-depth/edit-specs-02.json",
+  "evidence_sha256": "d2220995ea75d91ff0ddb65a9b0a1bf656615bb2bda84689a59d4347df5de6a3",
+  "prompt_path": "production/combat-depth/prompts/W02-R1.txt",
+  "prompt_sha256": "f1b7096ec978f56e06fb9304dc47eafb3f9ad7cb751a4d1d6ded6e73305c661d",
+  "plan_sha256": "32c3779a7978c352b785c54423ac6b99d18a86c70f76888b64066dbc56d79534",
+  "references": [
+    {
+      "path": "production/combat-depth/candidates/W02-P.png",
+      "sha256": "69afda397044469b10bb4853152e224ea48b7e48d8d5df6f1931959561d78f2a",
+      "role": "Exact edit source; preserve all content except the specified structural change"
+    },
+    {
+      "path": "production/combat-depth/references/kellan.png",
+      "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+      "role": "Kellan exact adult identity, black curls, sand/cobalt coat, pale boots and broad straight dark sword only."
+    },
+    {
+      "path": "production/combat-depth/candidates/W01-F1.png",
+      "sha256": "c7e62db365f50eb7974a43e1d017962a7bb6b298a703f078796f73b1b47020ea",
+      "role": "Established siege beast long angular snout, normal upper/lower jaws, four-legged organic anatomy and actual brass bridle/collar only. Do not change scene framing to this wide opening."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 23:55:45 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/W02-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/kellan.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/W01-F1.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 23:58:56 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-560d06be-7904-4a21-b5b4-d654c6428a2d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

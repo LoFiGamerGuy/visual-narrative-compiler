@@ -1,0 +1,59 @@
+{
+  "id": "G03",
+  "attempt_id": "G03-P",
+  "phase": "primary",
+  "category": "squad",
+  "prompt_path": "production/combat-depth/prompts/G03-P.txt",
+  "prompt_sha256": "f5ade9ae6e2097266bab2d7da6247ebca1070f88715fddea1dd73b3de9df5a45",
+  "plan_sha256": "32c3779a7978c352b785c54423ac6b99d18a86c70f76888b64066dbc56d79534",
+  "references": [
+    {
+      "path": "production/combat-depth/references/neris.png",
+      "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+      "role": "Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "role": "Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/kellan.png",
+      "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+      "role": "Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/candidates/G02-P.png",
+      "sha256": "ca468df917c9e69cb9699c5331f983a77a2cd7d82e870c080dd8bb9cb46bcb95",
+      "role": "Exact recurring subject/place reference from G02; use named identities/creature and relevant geography only, not its composition or surface noise."
+    },
+    {
+      "path": "research/combat-depth/controls/v4-sword-continuity/G03-sword-pommel.png",
+      "sha256": "6e4955e9ae9e3eb20a622cbc730cd5800aa83b34333bd52f5fef3e9001679bed",
+      "role": "Retained sword POMMEL from right contacts Neris outside shoulder; blade points upward/right away from her. Stored pressure spills left into empty pier above separate teammates; one stone hits shield upper rim. Original geometry-only conditioning, not final art/style/face reference; omit schematic arrows and markers from generated art. This is a spatial/control guide only: do not copy diagram rendering, colors, labels or arrows into the artwork. Translate a top-down plan into the camera requested by the scene brief; do not adopt a map camera unless this scene explicitly calls for it.",
+      "control_source_path": "research/combat-depth/controls/v4-sword-continuity/G03-sword-pommel.svg",
+      "control_source_sha256": "587c471be16a057ed0b198dfbcb30f58a3d59c27ae0f8836b88b0cb2e482a407"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 23:55:45 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/neris.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/riven.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/kellan.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/G02-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/research/combat-depth/controls/v4-sword-continuity/G03-sword-pommel.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 23:56:34 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-8372b4dd-310a-41de-b8d6-8efe516f8a72.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

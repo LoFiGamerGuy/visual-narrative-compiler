@@ -1,0 +1,23 @@
+[
+  {
+    "id": "D12",
+    "attempt_id": "D12-F1",
+    "phase": "texture",
+    "category": "duel",
+    "retry_of": "D12-P",
+    "retry_reason": "Actual native review of the final aftermath finds dense wet-paving, stone and trouser speckling; a sole-source quiet finish is warranted while preserving cost markers.",
+    "evidence_path": "research/combat-depth/finish-spec-12.json",
+    "evidence_sha256": "6eefb14a43900db575e8938f5b7978ed7a6d84e039c1be85a6ad5281b8d00506",
+    "prompt_path": "production/combat-depth/prompts/D12-F1.txt",
+    "prompt_sha256": "13e75150208a76e8072e3fdc4af3a1a14d7cc204f21797ece4584d2d0a9273af",
+    "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+    "references": [
+      {
+        "path": "production/combat-depth/candidates/D12-P.png",
+        "sha256": "382948f45d8fc7ddda37c0da46f8ec855ff79a1f6141968d9fb763599f79ad3c",
+        "role": "Exact edit source; preserve all content except the specified texture change"
+      }
+    ],
+    "prompt": "Use case: style-transfer. Redraw ONLY THE SURFACE FINISH of the supplied exact image. Preserve its composition, camera distance, subjects, faces, hairlines, expression, costume, anatomy, weapon construction and handling, scale, spatial relationships, action and lighting mood. Substantially reduce distracting repetitive microtexture. Replace it with broad deliberate opaque light/shadow shapes, calm material interiors and selective crisp accents at faces, functional contacts and meaningful boundaries. Retain material differences, depth, inhabited scale and sophisticated drawing. This is a drawn surface redraw, not blur, denoise, low resolution, airbrush, plastic 3D, flat vectors or removal of the world. No new details to compensate.\nCalm wet-paving sparkle, gritty masonry, city microdetail and repetitive trouser dirt specks using broad drawn material and dirt shapes. Preserve specific narrative damage: Riven actual torn left sleeve and blood/abrasion, Ilyra actual mantle hole, right-wall scar, all clothing wear and normal water draining. Keep exact seated/standing positions, faces, hands, weapons, lighting and open arch. Do not switch saber hands, heal damage, restore the old notch or introduce spectators. Retain a quiet but inhabited large world and crisp adult expressions.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  }
+]

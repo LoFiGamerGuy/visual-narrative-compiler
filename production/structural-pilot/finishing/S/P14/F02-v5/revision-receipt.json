@@ -1,0 +1,6 @@
+{
+  "actual_pixel_defect": "Applying clip-path on a rotated image also transformed its clipping coordinates, leaving an erroneous second forearm shape and a white triangular gap.",
+  "fix": "Move the fixed forearm clip to an outer untransformed group; rotate only the source cloth image. Close small forearm-origin gap.",
+  "generation_calls": 0,
+  "fixed_geometry_changed": false
+}

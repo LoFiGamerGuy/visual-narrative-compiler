@@ -1,0 +1,2577 @@
+window.COMBAT_DEPTH_DATA = {
+  "schema": "CombatDepthReader/1",
+  "experiment_id": "CD-20260908-01",
+  "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+  "source_bindings": [
+    {
+      "id": "D01",
+      "attempt_id": "D01-F1",
+      "sha256": "3ab9bededf3a40d4481e7cafc070f0b04d423524cf702b53e2370ea70dddb388"
+    },
+    {
+      "id": "D02",
+      "attempt_id": "D02-F1",
+      "sha256": "f05c893db66b56a86d4cc51c545b56135eb9dc5f5898ee47b1716c5a13632c69"
+    },
+    {
+      "id": "D03",
+      "attempt_id": "D03-F1",
+      "sha256": "f14e3620307287b9e15a77882af8009048c4aafcc82f79bd869358d3a3513751"
+    },
+    {
+      "id": "D04",
+      "attempt_id": "D04-F1",
+      "sha256": "e4886334b5c691865da775641538a51e3dfe4329ee0f6d58367e49468e424e64"
+    },
+    {
+      "id": "D05",
+      "attempt_id": "D05-F1",
+      "sha256": "c157d6da0ad40be3840ff061ab29c4691e2a1c783fcc383b09ba4cab24daf67c"
+    },
+    {
+      "id": "D06",
+      "attempt_id": "D06-F1",
+      "sha256": "d9eb93300761a711c62712759becb1688c207f75689a29454261bd84854138d1"
+    },
+    {
+      "id": "D07",
+      "attempt_id": "D07-F1",
+      "sha256": "617cf2bf6f65459c59142b71bfd113ed7b29dd9270a63d0dee490305fefbaca8"
+    },
+    {
+      "id": "D08",
+      "attempt_id": "D08-F1",
+      "sha256": "550e400141e74633aceaf84b0783f0a13fc98a16b6a2fd405a3ae7ab0ee2eb47"
+    },
+    {
+      "id": "D09",
+      "attempt_id": "D09-F1",
+      "sha256": "a968527b3030958e3cb5f447ded56cc3acc2ce1334c8e86ec1c708af8e74bb4c"
+    },
+    {
+      "id": "D10",
+      "attempt_id": "D10-F1",
+      "sha256": "563e983894b994a4d628070f31f150ddce17077082afa54a1227a1906ba7ab90"
+    },
+    {
+      "id": "D11",
+      "attempt_id": "D11-F1",
+      "sha256": "38745f8139838bf9f79fe1c4c4e9c1459ab50f7d1f853f907ac4b5edfcab4116"
+    },
+    {
+      "id": "D12",
+      "attempt_id": "D12-F1",
+      "sha256": "b90f709f0120497fef1a8e019383e5c59647d6316b799e0c7e29b624072daf70"
+    },
+    {
+      "id": "G01",
+      "attempt_id": "G01-F1",
+      "sha256": "efb24ee1d67a79816687bc33481006aa9a1e91761b4437bb6e329999c84b5a29"
+    },
+    {
+      "id": "G02",
+      "attempt_id": "G02-F1",
+      "sha256": "0cc02458e2247a9e529ce329514291edf4a158b879e212f74a2387af30a8d007"
+    },
+    {
+      "id": "G03",
+      "attempt_id": "G03-F1",
+      "sha256": "236e7fbff69941f8732ac412ba4099836ffaa1099f155a349adf484cd81caa59"
+    },
+    {
+      "id": "G04",
+      "attempt_id": "G04-F1",
+      "sha256": "973f8d6b69ff1a3c7e8bab8ef225e70d2ac5cebe1d01e7f8234dda4df4a9e35c"
+    },
+    {
+      "id": "G05",
+      "attempt_id": "G05-F1",
+      "sha256": "19488b524ffeef2421038b90311f8b2ff84b353766b01409de53b593fc81d5cf"
+    },
+    {
+      "id": "G06",
+      "attempt_id": "G06-F1",
+      "sha256": "2a7f3c9851fb46140f9f56189ab76c56663544050fdbfefec1f448b4d5224bb6"
+    },
+    {
+      "id": "W01",
+      "attempt_id": "W01-F1",
+      "sha256": "c7e62db365f50eb7974a43e1d017962a7bb6b298a703f078796f73b1b47020ea"
+    },
+    {
+      "id": "W02",
+      "attempt_id": "W02-F1",
+      "sha256": "7e5368f87affa7a60c14a8a97016e12d0710fe2ed6e4c908bf96e25a2612cae7"
+    },
+    {
+      "id": "W03",
+      "attempt_id": "W03-F1",
+      "sha256": "f5e8d53ca9cf3cedb1c758ababfbb656923fc4a68af4da113fff682a32710963"
+    },
+    {
+      "id": "W04",
+      "attempt_id": "W04-F1",
+      "sha256": "d3f2b7fe00577f67d8bcb6eb89e8d55522bdd1ad0fef56b4e612a2f00c794643"
+    },
+    {
+      "id": "W05",
+      "attempt_id": "W05-F1",
+      "sha256": "9e240c987ee537c80b43c91c3285b3db0dc918968d0b65940d46fabdf2cdb003"
+    },
+    {
+      "id": "W06",
+      "attempt_id": "W06-F1",
+      "sha256": "360dd131c5874396e46d06e9ecefcda54f2190a630d9ec0919b11b966687d1d3"
+    }
+  ],
+  "dataset_sha256": "7d50da6e380457e4ee25daea3b652797bf1fd9be374cd1a3dfbae4bd475502ad",
+  "categories": [
+    {
+      "id": "duel",
+      "title": "Duel",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "character",
+        "impact",
+        "power",
+        "causality",
+        "recognition",
+        "texture",
+        "setting"
+      ]
+    },
+    {
+      "id": "squad",
+      "title": "Group fight",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "character",
+        "impact",
+        "power",
+        "causality",
+        "recognition",
+        "texture",
+        "setting"
+      ]
+    },
+    {
+      "id": "war",
+      "title": "War",
+      "dimensions": [
+        "overall",
+        "drawing",
+        "character",
+        "impact",
+        "power",
+        "causality",
+        "recognition",
+        "texture",
+        "setting"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "D01",
+      "title": "The passage she will not yield",
+      "category": "duel",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "He needs the gate open. She believes opening it will kill everyone behind it.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Wide establishing shot, complete figures roughly18 percent height separated by a clear wet court. Riven LEFT has his cyan-edged saber in right hand, left hand free; Ilyra RIGHT holds her ivory lance obliquely in a mobile two-hand guard, butt not planted. Show the dry LEFT ledge and RIGHT wall ledge as real weight-supporting edges. Faces small but silhouettes attractive and distinct. Stillness before acceleration. No magic yet.",
+      "references": [
+        "riven",
+        "ilyra",
+        "nightglass",
+        "map-duel"
+      ],
+      "power": null,
+      "sequence_order": 1,
+      "state": {
+        "mantle": "intact",
+        "riven_left_sleeve": "intact",
+        "right_wall": "intact"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D01-F1.png",
+        "sha256": "3ab9bededf3a40d4481e7cafc070f0b04d423524cf702b53e2370ea70dddb388",
+        "attempt_id": "D01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D01-F1.png",
+          "sha256": "3ab9bededf3a40d4481e7cafc070f0b04d423524cf702b53e2370ea70dddb388",
+          "attempt_id": "D01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D01-F1.png",
+          "call_path": "production/combat-depth/calls/D01-F1.json",
+          "call_sha256": "df14d9b8faa373a34761dab6f979f21d5cb9e0d1f5a2bf3b5012d457bb57c2f8",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json",
+          "retry_of": "D01-R1",
+          "retry_reason": "Actual native inspection found repetitive high-contrast wet stone/water and distant surface marks competing with the subjects; structural observations preserved separately."
+        },
+        {
+          "path": "production/combat-depth/candidates/D01-P.png",
+          "sha256": "52745c5879e4acf3e46fffe250858dbae5303fd24e3b9a78043fd8ef0da55bd7",
+          "attempt_id": "D01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D01-P.png",
+          "call_path": "production/combat-depth/calls/D01-P.json",
+          "call_sha256": "bbbeb041d5dfce5c4656e02c8ff69f4f00612ee8e044b87e1bed5d727fd55176",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json"
+        },
+        {
+          "path": "production/combat-depth/candidates/D01-R1.png",
+          "sha256": "8bc873bda86ff90ce1b9297d9475fff413330dcc123d080515278fbbdac4c1f0",
+          "attempt_id": "D01-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D01-R1.png",
+          "call_path": "production/combat-depth/calls/D01-R1.json",
+          "call_sha256": "caea69fb049c9bc4e2155be668b0efca80b91b48cb61676cbabfa5ee0c86ec1f",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json",
+          "retry_of": "D01-P",
+          "retry_reason": "Primary puts the adults around40-45 percent of frame height instead of the planned18percent, limiting the establishing distance and later camera contrast."
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The two opponents and court geography read clearly. The repair restores plausible supported ledges; the finish calms the surfaces.",
+        "This is an establishing possibility, not an owner-selected cast or canonical location."
+      ]
+    },
+    {
+      "id": "D02",
+      "title": "First contact",
+      "category": "duel",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "Her reach is longer. He commits anyway.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. A forceful first exchange seen from south: Ilyra on RIGHT lunges LEFT with a two-handed spear thrust aimed past Riven’s upper torso. Riven on LEFT plants a bent front leg and parries the continuous ivory shaft with his right-held cyan-edged saber at one explicit crossing. One continuous saber from hilt to tip; hands on grips, no hand clutching blade. Both complete bodies and loaded feet, dynamic diagonals against upright architecture. A single short contact accent, not a spark cloud. The near miss and physical effort must read.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D01"
+      ],
+      "power": null,
+      "sequence_order": 2,
+      "state": {
+        "mantle": "intact",
+        "riven_left_sleeve": "intact"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D02-F1.png",
+        "sha256": "f05c893db66b56a86d4cc51c545b56135eb9dc5f5898ee47b1716c5a13632c69",
+        "attempt_id": "D02-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D02-F1.png",
+          "sha256": "f05c893db66b56a86d4cc51c545b56135eb9dc5f5898ee47b1716c5a13632c69",
+          "attempt_id": "D02-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D02-F1.png",
+          "call_path": "production/combat-depth/calls/D02-F1.json",
+          "call_sha256": "d00f795bbdecb1eecb097df9bd664d9fe8010f89d67923e1a228e00b7fd9f46b",
+          "plan_sha256": "32c3779a7978c352b785c54423ac6b99d18a86c70f76888b64066dbc56d79534",
+          "plan_path": "production/combat-depth/plan-history/plan-v3.json",
+          "retry_of": "D02-P",
+          "retry_reason": "Native root and independent reviews agree action/contact broadly reads but repetitive wet paving, pressure flecks and distant marks compete."
+        },
+        {
+          "path": "production/combat-depth/candidates/D02-P.png",
+          "sha256": "3d997861f18b421fb21b1a5ee45d3a4fdaee76cb07221718e48198782a1bb987",
+          "attempt_id": "D02-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D02-P.png",
+          "call_path": "production/combat-depth/calls/D02-P.json",
+          "call_sha256": "8a7440841e9bb2260db6403dca24d63d91ae4d4be01aa35dc5dd487df446c083",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The loaded parry and single weapon contact are readable. The quiet finish keeps the faces and contact prominent.",
+        "Weapon construction and exact hand contacts still benefit from native viewing rather than judging only the thumbnail."
+      ]
+    },
+    {
+      "id": "D03",
+      "title": "A price for the miss",
+      "category": "duel",
+      "scale": "close",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "He reaches her mantle before she gets her point back.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Tight side three-quarter on one fast riposte. Riven’s right-held saber passes outside Ilyra’s upper arm as she twists away; its tip cuts a small distinct triangular notch from the OUTER ivory mantle edge at her shoulder. One loose pale cloth scrap separates. Her arm remains intact; expression flashes anger and surprise. His face intent rather than posed. The lance remains a single held weapon, angled clear of the saber. New mantle notch is a persistent marker from now on. Show the cutting contact and body withdrawal, not a portrait with random cloth.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D02"
+      ],
+      "power": null,
+      "sequence_order": 3,
+      "state": {
+        "mantle": "notch introduced",
+        "riven_left_sleeve": "intact"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D03-F1.png",
+        "sha256": "f14e3620307287b9e15a77882af8009048c4aafcc82f79bd869358d3a3513751",
+        "attempt_id": "D03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D03-F1.png",
+          "sha256": "f14e3620307287b9e15a77882af8009048c4aafcc82f79bd869358d3a3513751",
+          "attempt_id": "D03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D03-F1.png",
+          "call_path": "production/combat-depth/calls/D03-F1.json",
+          "call_sha256": "12d7ac94c95f6190e1860f94b45d93380da26425a9f2ef44faf985ee482adb27",
+          "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+          "plan_path": "production/combat-depth/plan-history/plan-v4.json",
+          "retry_of": "D03-R1",
+          "retry_reason": "R1improvesrightarmstagingbutretainsclothcontactuncertainty; nativewetpaving, foldsandcitymarksremainbusy. Finishmustpreservepartialresult, notclaimstructuralrepair."
+        },
+        {
+          "path": "production/combat-depth/candidates/D03-P.png",
+          "sha256": "1e84df13c347c3b18b98ff504ca470ecbea580f6963cf46b90a753bb59e08c93",
+          "attempt_id": "D03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D03-P.png",
+          "call_path": "production/combat-depth/calls/D03-P.json",
+          "call_sha256": "d19bb3b0a7a20a789dce8b2e3db68a08476dbe75eec20d7953c860f7297340dc",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json"
+        },
+        {
+          "path": "production/combat-depth/candidates/D03-R1.png",
+          "sha256": "fcd6d4573c43d69697135bd3523ecbabf2df2284a20d834803f9f8c3a8c55eb8",
+          "attempt_id": "D03-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D03-R1.png",
+          "call_path": "production/combat-depth/calls/D03-R1.json",
+          "call_sha256": "7add70d5525448b9160fef875bae05e8345b58056d14c87449587f29b95f3e1c",
+          "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+          "plan_path": "production/combat-depth/plan-history/plan-v4.json",
+          "retry_of": "D03-P",
+          "retry_reason": "Independent and root native inspection finds saber arm reads anatomicalLEFT rather than requiredRIGHT, before persistent left-forearm injury. Cloth cut also reads after-contact."
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The repair improves the intended mantle-contact area; cloth damage is visible.",
+        "Blade-to-cloth separation and Riven’s arm/hand plausibility remain partial. Later panels do not reliably carry one exact small notch."
+      ]
+    },
+    {
+      "id": "D04",
+      "title": "The wall becomes down",
+      "category": "duel",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "She changes which direction his weight obeys.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Upright wide lateral camera. Ilyra RIGHT/downstage plants the lance BUTT into the floor, right hand gripping it; she stands outside a narrow affected strip. Riven LEFT/center is violently accelerated sideways toward the actual RIGHT stone wall, loaded boots scraping the floor, torso off balance. A ribbon of gutter water INSIDE the same strip falls horizontally RIGHT in the same vector while a small stream OUTSIDE it still drops vertically. Use only a thin violet floor boundary and contact at the planted butt; NO upright energy sheet, ramp or floating barrier. Gravity must be visible through body and water, with the wall established as destination. Retain Ilyra’s mantle notch.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D01",
+        "guide-D04",
+        "@D03"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "A planted Axis Lance turns the direction of weight inside one narrow ground strip.",
+        "limitation": "The butt must remain planted, the caster within reach and outside the strip; every loose body and water inside follows the same direction.",
+        "growth": [
+          "Turn a wider burden or collapsing structure at great strain; force direction must remain intelligible."
+        ]
+      },
+      "sequence_order": 4,
+      "state": {
+        "mantle": "notched",
+        "riven_left_sleeve": "intact",
+        "gravity": "east/right; butt planted"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D04-F1.png",
+        "sha256": "e4886334b5c691865da775641538a51e3dfe4329ee0f6d58367e49468e424e64",
+        "attempt_id": "D04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D04-F1.png",
+          "sha256": "e4886334b5c691865da775641538a51e3dfe4329ee0f6d58367e49468e424e64",
+          "attempt_id": "D04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D04-F1.png",
+          "call_path": "production/combat-depth/calls/D04-F1.json",
+          "call_sha256": "71bf8663b6052e9467746ffd0424bbc216fc817f8983faa6aae6f4c00a5b896e",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json",
+          "retry_of": "D04-P",
+          "retry_reason": "Actualnativeandphonefind repetitivewetstone/waterribbons competing; structuralstaging/timing deviations intentionallyretained andfutureplanreconciled."
+        },
+        {
+          "path": "production/combat-depth/candidates/D04-P.png",
+          "sha256": "da593056c1b681e23e0f9560b8acb28beab29c905c50309e85f02602e1fec3c5",
+          "attempt_id": "D04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D04-P.png",
+          "call_path": "production/combat-depth/calls/D04-P.json",
+          "call_sha256": "ca3602a8f5debe86d855a64d98d59965acdc02eece219a660a2be26ff25a0056",
+          "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+          "plan_path": "production/combat-depth/plan-history/plan-v4.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Body displacement and water direction make the gravity idea tangible.",
+        "Ilyra is on the left and Riven already braces the wall, earlier than intended. Later staging explicitly follows this actual result; the original mismatch is retained."
+      ]
+    },
+    {
+      "id": "D05",
+      "title": "No weightless hero",
+      "category": "duel",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "The wall hits harder than the weapon did.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. The attempted left-hand brace from the actual prior wide shot fails under continuing rightward gravity. Visceral impact at the RIGHT wall: Riven’s left forearm and shoulder strike the stone, knees collapsing sideways and face in a real pain grimace. His LEFT jacket sleeve splits at the forearm with a shallow abrasion and restrained blood mark, no exposed bone. Right hand keeps the connected saber away from his body and wall. One broad chipped wall patch marks impact; a few purposeful stone fragments rather than debris fog. Ilyra appears smaller at downstage/LEFT outside the strip, retaining her actual position from the prior wide reset, lance butt still planted, mantle notch retained. Gravity water still pulls right. Do not magically heal or glamour-pose the hit.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D04"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "A planted Axis Lance turns the direction of weight inside one narrow ground strip.",
+        "limitation": "The butt must remain planted, the caster within reach and outside the strip; every loose body and water inside follows the same direction.",
+        "growth": [
+          "Turn a wider burden or collapsing structure at great strain; force direction must remain intelligible."
+        ]
+      },
+      "sequence_order": 5,
+      "state": {
+        "mantle": "notched",
+        "riven_left_sleeve": "tear and abrasion introduced",
+        "right_wall": "impact patch introduced",
+        "gravity": "active"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D05-F1.png",
+        "sha256": "c157d6da0ad40be3840ff061ab29c4691e2a1c783fcc383b09ba4cab24daf67c",
+        "attempt_id": "D05-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D05-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D05-F1.png",
+          "sha256": "c157d6da0ad40be3840ff061ab29c4691e2a1c783fcc383b09ba4cab24daf67c",
+          "attempt_id": "D05-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D05-F1.png",
+          "call_path": "production/combat-depth/calls/D05-F1.json",
+          "call_sha256": "211f88ca1e835507a8d3cb9969d24f5cbc1b825723d002af6cbcd27a22bdad62",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json",
+          "retry_of": "D05-P",
+          "retry_reason": "Actualnative/phoneinspection andindependentreview identifyrepeatingsurface/particletexture; structuralfindingsretainedwithoutclaimingfinishfixes them."
+        },
+        {
+          "path": "production/combat-depth/candidates/D05-P.png",
+          "sha256": "28eb493e907dd77aa2b9d436721f076c67cd417a2d66f8165e5875ee4090f31e",
+          "attempt_id": "D05-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D05-P.png",
+          "call_path": "production/combat-depth/calls/D05-P.json",
+          "call_sha256": "c441620684434aa38aa425faef1e643ac45b0698671163b0b0c9913a444e98ae",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The left-arm abrasion, pained posture and damaged wall give the exchange a cost.",
+        "The finish is calmer but reduces horizontal force-direction spray. The image reads more as a failed-brace aftermath than a clear shoulder-impact instant."
+      ]
+    },
+    {
+      "id": "D06",
+      "title": "An edge he can still reach",
+      "category": "duel",
+      "scale": "close",
+      "subjects": [
+        "riven"
+      ],
+      "story_path": "duel",
+      "caption": "Pain leaves him one hand and one usable edge.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Close low view at the RIGHT wall. Riven’s bare/fingered left hand catches the real projecting ledge above the chipped impact patch; the left sleeve tear and abrasion are obvious. His right hand still grips the saber and draws a narrow cyan line along that ledge’s edge. Face strained, small blood mark on forearm, no new facial scar. Through the open court the dry raised LEFT pier ledge is visibly established as a reachable supported destination. Only one body. Do not turn the free hand into another sword grip. This is decision and setup before the crossing, not an attack.",
+      "references": [
+        "riven",
+        "@D05",
+        "@D01"
+      ],
+      "power": {
+        "name": "Borrowed Horizon — Held Threshold",
+        "description": "A saber stroke joins two visible supported edges for one short step.",
+        "limitation": "Only one joined pair; both edges must be visible and support a landing. The fighter must still commit to the exit.",
+        "growth": [
+          "Hold the exit for an ally or redirect a committed strike; a predicted exit remains dangerous."
+        ]
+      },
+      "sequence_order": 6,
+      "state": {
+        "riven_left_sleeve": "torn, abraded",
+        "right_wall": "chipped",
+        "gravity": "active"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D06-F1.png",
+        "sha256": "d9eb93300761a711c62712759becb1688c207f75689a29454261bd84854138d1",
+        "attempt_id": "D06-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D06-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D06-F1.png",
+          "sha256": "d9eb93300761a711c62712759becb1688c207f75689a29454261bd84854138d1",
+          "attempt_id": "D06-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D06-F1.png",
+          "call_path": "production/combat-depth/calls/D06-F1.json",
+          "call_sha256": "16128e0fd093e90f4a651d606b7fbf3e31e2d1a492890e23cdbb9d378b9edbce",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "D06-P",
+          "retry_reason": "Root native and independent native-batch09/phone-addendum07 identify competing repetitive surface texture; structural shortcomings explicitly retained."
+        },
+        {
+          "path": "production/combat-depth/candidates/D06-P.png",
+          "sha256": "b09480da4c2b9de2e437a73d554af8562dd7b928881a33618a3d53847b2410f6",
+          "attempt_id": "D06-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D06-P.png",
+          "call_path": "production/combat-depth/calls/D06-P.json",
+          "call_sha256": "077dbf9769e7db26fb37d7034af70326a20c1c5f0312620993342b6d80e8198e",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The left-hand ledge grasp, right saber and expressive face make the escape setup readable.",
+        "Ilyra has moved onto the destination ledge with her lance lifted, contradicting maintained gravity. The wound shifts toward the upper arm."
+      ]
+    },
+    {
+      "id": "D07",
+      "title": "The exit is not a victory",
+      "category": "duel",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "He escapes the pull. She is already reading the landing.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Wide reset showing BOTH real endpoint ledges in one coherent space. RIGHT wall ledge has one empty thin cyan opening beside the chipped patch; LEFT dry pier ledge has the matching thin opening and ONE Riven arriving into a bent-knee supported landing, complete body and boots. No duplicate Riven or translucent afterimage. Ilyra remains LEFT/downstage on the lower court with planted lance and mantle notch, looking sharply LEFT toward the exit. Left sleeve tear persists. Water still pulls right inside the bounded strip. The short displacement, landing and opponent’s prediction must read together.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D01",
+        "@D06",
+        "@D04"
+      ],
+      "power": {
+        "name": "Borrowed Horizon — Held Threshold",
+        "description": "A saber stroke joins two visible supported edges for one short step.",
+        "limitation": "Only one joined pair; both edges must be visible and support a landing. The fighter must still commit to the exit.",
+        "growth": [
+          "Hold the exit for an ally or redirect a committed strike; a predicted exit remains dangerous."
+        ]
+      },
+      "sequence_order": 7,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "entry": "right empty",
+        "exit": "left one body",
+        "gravity": "active"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D07-F1.png",
+        "sha256": "617cf2bf6f65459c59142b71bfd113ed7b29dd9270a63d0dee490305fefbaca8",
+        "attempt_id": "D07-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D07-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D07-F1.png",
+          "sha256": "617cf2bf6f65459c59142b71bfd113ed7b29dd9270a63d0dee490305fefbaca8",
+          "attempt_id": "D07-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D07-F1.png",
+          "call_path": "production/combat-depth/calls/D07-F1.json",
+          "call_sha256": "c1d24739f91d5248254915903c1974fa8fc778ddfefb0c2544a84d08b13ab6e7",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "D07-P",
+          "retry_reason": "Actual native review and independent native-batch10 identify strong repeating surface noise around readable figures; preserve noted action/continuity limitations."
+        },
+        {
+          "path": "production/combat-depth/candidates/D07-P.png",
+          "sha256": "69e6f0024b8fa8af65839493dd78c46a2a0bf16fd48ea1c5a3656492724262cd",
+          "attempt_id": "D07-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D07-P.png",
+          "call_path": "production/combat-depth/calls/D07-P.json",
+          "call_sha256": "a3d038d3a3af808020b5b5707d0c5f405be64a08500240733eac8b276983dbe3",
+          "plan_sha256": "095b68a3fc8282b03ece27d8ddd403a5b2bfecdde1fbeac75e5b11038a683944",
+          "plan_path": "production/combat-depth/plan-history/plan-v6.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "One Riven lands on a supported left ledge, with Ilyra watching below. The surface redraw gives the court room to breathe.",
+        "Three cyan marks make one paired transit ambiguous. Active gravity, the exact mantle notch and right-wall damage are not distinctly maintained."
+      ]
+    },
+    {
+      "id": "D08",
+      "title": "She was waiting there",
+      "category": "duel",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "Dropping the spell buys her a faster strike.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Ilyra withdraws the lance butt visibly clear of the floor and lunges from her nearby LEFT/downstage court position toward Riven’s raised LEFT-pier landing with a two-hand descending diagonal strike. Riven ducks down and inward under its path, wounded left sleeve close to torso, right-hand saber ready low. Water in the former strip now falls downward normally and violet boundary is fading. Mantle notch stays visible. Show full relevant limbs, near-miss space, loaded legs and sharp intent, not giant motion blur. She sacrifices gravity control for a physical counter.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D07"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "A planted Axis Lance turns the direction of weight inside one narrow ground strip.",
+        "limitation": "The butt must remain planted, the caster within reach and outside the strip; every loose body and water inside follows the same direction.",
+        "growth": [
+          "Turn a wider burden or collapsing structure at great strain; force direction must remain intelligible."
+        ]
+      },
+      "sequence_order": 8,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "ceased; butt raised"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D08-F1.png",
+        "sha256": "550e400141e74633aceaf84b0783f0a13fc98a16b6a2fd405a3ae7ab0ee2eb47",
+        "attempt_id": "D08-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D08-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D08-F1.png",
+          "sha256": "550e400141e74633aceaf84b0783f0a13fc98a16b6a2fd405a3ae7ab0ee2eb47",
+          "attempt_id": "D08-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D08-F1.png",
+          "call_path": "production/combat-depth/calls/D08-F1.json",
+          "call_sha256": "5450fb799e985106e6928cf1c8c13f7eb00d5d7a06d1a9a5ea52e548ec39a541",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "D08-P",
+          "retry_reason": "Root native review: precise expressive near-miss is surrounded by dense wet-floor sparkle, stone micrograin and splash specks."
+        },
+        {
+          "path": "production/combat-depth/candidates/D08-P.png",
+          "sha256": "897e0fab5cddb5c070fa55d850ac4d8b3acbf0e067189d6393c01cd01333d768",
+          "attempt_id": "D08-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D08-P.png",
+          "call_path": "production/combat-depth/calls/D08-P.json",
+          "call_sha256": "ae82bfd7fbf3d39e412ffd83867295425d28e6adaf62d0d8fc62dd1a8ef0b392",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The two-handed diagonal strike and low duck convey sharp intent and a readable near miss.",
+        "Both fighters are now on the lower floor without a shown descent. Riven bears weight on the wounded left hand; the planned protected injury is not preserved."
+      ]
+    },
+    {
+      "id": "D09",
+      "title": "Inside her reach",
+      "category": "duel",
+      "scale": "close",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "Neither weapon has room for a second mistake.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Close tight physical fencing at the LEFT pier, both expressive adult faces visible. Riven has stepped inside the lance’s long reach and presses his right-held continuous saber against the continuous shaft close to Ilyra’s dark grip. Their actual hands remain on their own handles. Clear compressed spacing, sweating brows and tense mouths; his injured left forearm stays protected rather than gripping a blade. Ilyra’s mantle notch and right-hand lance ownership persist. No magic, one crossing, avoid a nest of disconnected blades or fists.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D08"
+      ],
+      "power": null,
+      "sequence_order": 9,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "off"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D09-F1.png",
+        "sha256": "a968527b3030958e3cb5f447ded56cc3acc2ce1334c8e86ec1c708af8e74bb4c",
+        "attempt_id": "D09-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D09-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D09-F1.png",
+          "sha256": "a968527b3030958e3cb5f447ded56cc3acc2ce1334c8e86ec1c708af8e74bb4c",
+          "attempt_id": "D09-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D09-F1.png",
+          "call_path": "production/combat-depth/calls/D09-F1.json",
+          "call_sha256": "81e280e739d065d4c5cf2e50c1fecfeb2a30d19f70b87fa92647290de8fd20dd",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "D09-P",
+          "retry_reason": "Root inspected native: competing grainy pier, wet floor and sky around clear close faces; preserve unresolved weapon-hand ambiguity."
+        },
+        {
+          "path": "production/combat-depth/candidates/D09-P.png",
+          "sha256": "61704ad1c3d0cd1c1f2dfb6efeab099a5c1c233b1985cd3e093409711f76e400",
+          "attempt_id": "D09-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D09-P.png",
+          "call_path": "production/combat-depth/calls/D09-P.json",
+          "call_sha256": "4a1ce934407ce56aeff8e137ec67dbda5a3e803f02f9b319745fe2fecb44ffd7",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The close faces communicate strain and rivalry, and the bound weapons establish short range.",
+        "Riven appears to use his injured left hand for the saber while the right arm crosses behind Ilyra. Weapon ownership and exact hand separation are not reliable enough to call this a resolved fencing bind."
+      ]
+    },
+    {
+      "id": "D10",
+      "title": "Break the rule at its root",
+      "category": "duel",
+      "scale": "low-medium",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "He attacks the anchor instead of fighting the force.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Low three-quarter full-body action. Ilyra tries to replant her lance butt on the stone between the fighters. Riven kicks the LOW shaft just above its butt sideways with the sole/inside edge of his forward boot at one unmistakable contact; the butt has begun sliding off its planted point. He keeps the saber in right hand held away from the kick, left forearm injured and protected. Ilyra’s right hand retains the connected lance. Thin violet trace at the abandoned butt point fails to form a plane. Upright architecture and firm other feet, no levitation or sword under his foot. Mantle notch remains.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D09",
+        "guide-D10"
+      ],
+      "power": {
+        "name": "Anchorbreaker",
+        "description": "Read the planted source and break its physical contact before the field settles.",
+        "limitation": "Requires entering the caster’s weapon reach and risking a counter.",
+        "growth": [
+          "Recognize and interrupt more demanding anchored techniques without becoming immune to them."
+        ]
+      },
+      "sequence_order": 10,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "interrupted"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D10-F1.png",
+        "sha256": "563e983894b994a4d628070f31f150ddce17077082afa54a1227a1906ba7ab90",
+        "attempt_id": "D10-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D10-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D10-F1.png",
+          "sha256": "563e983894b994a4d628070f31f150ddce17077082afa54a1227a1906ba7ab90",
+          "attempt_id": "D10-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D10-F1.png",
+          "call_path": "production/combat-depth/calls/D10-F1.json",
+          "call_sha256": "68b3dd151495f2c07a84276cd464c683d1b76c8ac8cb00ebdd178843e175c586",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "D10-P",
+          "retry_reason": "Actual native review shows dense reflective floor and stone grain around a readable low-shaft kick; retain planted-butt and bystander limitations."
+        },
+        {
+          "path": "production/combat-depth/candidates/D10-P.png",
+          "sha256": "49e0a8ff2cc575c0b23d5c98ca2edb17894ac6c56c4df8ed3cd21f63735a84d5",
+          "attempt_id": "D10-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D10-P.png",
+          "call_path": "production/combat-depth/calls/D10-P.json",
+          "call_sha256": "b095134390f6927a0e6dc54ae03e326e7b5a0d6781b6c752210846d2b4b07016",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The low-shaft kick is readable, with separate right-hand saber and a protected left arm. The finish makes the contact easier to find.",
+        "The butt still appears planted over a violet floor spot, so displacement and spell release are not yet demonstrated. Incidental adult onlookers enter the previously two-person court."
+      ]
+    },
+    {
+      "id": "D11",
+      "title": "The opening costs him too",
+      "category": "duel",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "He uses the space he earned, not another burst of light.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. One decisive shoulder drive: Riven drives from the COURT SIDE toward the inner face of the nearby LEFT square pier. His right shoulder contacts Ilyra’s upper torso, with her back between that shoulder and the immediately adjacent pier face. The local camera must visibly align the drive INTO that pier surface, not away from it and not across the whole court. His right-held saber is angled clearly outward/down away from both bodies, not through her. Ilyra grips her intact lance angled aside, butt off the floor; her back and one shoulder meet the pier, face shocked and breath expelled. No simultaneous elaborate wrist-lock or throat stab. Wounded left forearm stays tucked; mantle notch persists. Weight, recoil and consequence, one controlled impact accent, no spark storm.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D10",
+        "@D01"
+      ],
+      "power": null,
+      "sequence_order": 11,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "gravity": "off"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D11-F1.png",
+        "sha256": "38745f8139838bf9f79fe1c4c4e9c1459ab50f7d1f853f907ac4b5edfcab4116",
+        "attempt_id": "D11-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D11-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D11-F1.png",
+          "sha256": "38745f8139838bf9f79fe1c4c4e9c1459ab50f7d1f853f907ac4b5edfcab4116",
+          "attempt_id": "D11-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D11-F1.png",
+          "call_path": "production/combat-depth/calls/D11-F1.json",
+          "call_sha256": "4b3b550899430f24c81d91ed0c46b46dcda85be59f966172291a2eba519eb0a6",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "D11-P",
+          "retry_reason": "Actual native review identifies busy stone and reflective paving around visible shoulder pressure; keep actual weapon handedness and sustained-pin interpretation."
+        },
+        {
+          "path": "production/combat-depth/candidates/D11-P.png",
+          "sha256": "64bcf38e888bfd013cc17b2214e66d502ac3075f3e422c897d6c7f12daed2456",
+          "attempt_id": "D11-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D11-P.png",
+          "call_path": "production/combat-depth/calls/D11-P.json",
+          "call_sha256": "e196dbe1e4c88cfaca9873119de25adb5e0151edb73c4937e570ded0a36fb2da",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The shoulder presses Ilyra against the left pier and her lance butt is visibly lifted, making close pressure and lost anchoring legible.",
+        "Riven again holds his saber with the injured left hand. The image reads as a sustained pin more than a sharp shoulder collision; incidental onlookers persist."
+      ]
+    },
+    {
+      "id": "D12",
+      "title": "A passage, not a cure",
+      "category": "duel",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "ilyra"
+      ],
+      "story_path": "duel",
+      "caption": "The gate is open. Neither of them is unhurt.",
+      "brief": "Duel court: WEST/LEFT square pier with a dry raised ledge; EAST/RIGHT arched wall and stone pier; wet central paving and near/south drain; far balustrade over the city gulf. Keep the east/west screen relationship from the south camera unless explicitly resetting with a wide view. Cool late afternoon. Only Riven and Ilyra are participants. Quiet medium-wide aftermath at the LEFT square pier, looking across the court toward the open RIGHT arch. Riven stands breathing hard with low right-hand saber and visibly torn/abraded LEFT forearm; his exhausted expression allows a trace of his crooked smile. Ilyra sits or leans against the pier, still holding her lance, mantle notch intact, alert and angry rather than unconscious. The chipped RIGHT wall patch remains; normal water drops into the drain, no active magic. Space beyond the open arch suggests the passage he won. Two adults only, no miraculous healed clothes or restored wall. Pause after the sustained exchange.",
+      "references": [
+        "riven",
+        "ilyra",
+        "@D11",
+        "@D01"
+      ],
+      "power": null,
+      "sequence_order": 12,
+      "state": {
+        "riven_left_sleeve": "torn",
+        "mantle": "notched",
+        "right_wall": "chipped",
+        "gravity": "off"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/D12-F1.png",
+        "sha256": "b90f709f0120497fef1a8e019383e5c59647d6316b799e0c7e29b624072daf70",
+        "attempt_id": "D12-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/D12-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/D12-F1.png",
+          "sha256": "b90f709f0120497fef1a8e019383e5c59647d6316b799e0c7e29b624072daf70",
+          "attempt_id": "D12-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D12-F1.png",
+          "call_path": "production/combat-depth/calls/D12-F1.json",
+          "call_sha256": "2c4fd239a672af3698316957b3798437467b235a606a57dd5e78dc11bdb847b1",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "D12-P",
+          "retry_reason": "Actual native review of the final aftermath finds dense wet-paving, stone and trouser speckling; a sole-source quiet finish is warranted while preserving cost markers."
+        },
+        {
+          "path": "production/combat-depth/candidates/D12-P.png",
+          "sha256": "382948f45d8fc7ddda37c0da46f8ec855ff79a1f6141968d9fb763599f79ad3c",
+          "attempt_id": "D12-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/D12-P.png",
+          "call_path": "production/combat-depth/calls/D12-P.json",
+          "call_sha256": "795a5d2b6666674073792264c8a114368cd90e5752a346efcb0525b25a94823c",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The seated and standing aftermath creates a clear release, with visible left-arm damage, retained weapons, normal draining water and a scarred right wall.",
+        "Riven still carries the saber in his injured left hand. Mantle damage has changed into a shoulder hole and incidental spectators disappear; the exact continuity markers drift."
+      ]
+    },
+    {
+      "id": "G01",
+      "title": "Three inside the choke",
+      "category": "squad",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "kellan"
+      ],
+      "story_path": "squad",
+      "caption": "The threat is in front of them. The failure will come from the side.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. Wide establishing complete heroes roughly22 percent height. Neris forward LEFT with crescent shield outer face RIGHT and hand/forearm on REAR grips, Riven and Kellan separated behind her. Two adult armored attackers advance from RIGHT, one central and one near the gutter. Behind them stands a heavy pressure-horn bearer with a single bronze chest-held horn aimed LEFT. Clear near gutter filled with flowing water, empty square pier behind heroes. No firing yet; establish lanes rather than a crowd tableau.",
+      "references": [
+        "riven",
+        "neris",
+        "kellan",
+        "map-squad"
+      ],
+      "power": null,
+      "sequence_order": 1,
+      "state": {
+        "shield": "intact",
+        "water": "flowing",
+        "horn": "ready"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/G01-F1.png",
+        "sha256": "efb24ee1d67a79816687bc33481006aa9a1e91761b4437bb6e329999c84b5a29",
+        "attempt_id": "G01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/G01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/G01-F1.png",
+          "sha256": "efb24ee1d67a79816687bc33481006aa9a1e91761b4437bb6e329999c84b5a29",
+          "attempt_id": "G01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G01-F1.png",
+          "call_path": "production/combat-depth/calls/G01-F1.json",
+          "call_sha256": "fdfe94c59f72ac851c1d47e5452a8e62e62a2232f4b9b4e76fa9586edd73a95d",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json",
+          "retry_of": "G01-P",
+          "retry_reason": "Actual native inspection found repetitive high-contrast wet stone/water and distant surface marks competing with the subjects; structural observations preserved separately."
+        },
+        {
+          "path": "production/combat-depth/candidates/G01-P.png",
+          "sha256": "79ca49e8969202979f9c20c43c4585bc91184ff36152674c3a785018e0f08b96",
+          "attempt_id": "G01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G01-P.png",
+          "call_path": "production/combat-depth/calls/G01-P.json",
+          "call_sha256": "ba1918e676c143dbc5d601fc246c8adc85493b62be68efeceae97794b029d264",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The three recurring heroes and opposing pressure source form a readable group setup.",
+        "The camera comes closer than planned and additional enemy silhouettes complicate the intended small encounter."
+      ]
+    },
+    {
+      "id": "G02",
+      "title": "A pocket inside the blow",
+      "category": "squad",
+      "scale": "medium",
+      "subjects": [
+        "riven",
+        "neris",
+        "kellan"
+      ],
+      "story_path": "squad",
+      "caption": "She catches the front and gives the others room to move.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. The horn bearer on RIGHT fires one broad compressed-air front LEFT. Neris braces complete feet on LEFT, rear-gripped crescent shield facing source; pressure visibly meets the shield’s outer face and divides around a quiet lee holding both Riven and Kellan. Distinct expressions: Neris strain, Riven watching flanker, Kellan looking to the gutter. Keep enemy positions coherent from first panel. Broad effects with a clear source, contact and empty shelter; no full-screen white explosion.",
+      "references": [
+        "riven",
+        "neris",
+        "kellan",
+        "@G01",
+        "shield"
+      ],
+      "power": {
+        "name": "Quiet Harbor — Rebound",
+        "description": "A braced crescent shield catches one pressure front, then returns a focused pulse.",
+        "limitation": "It needs stable footing and the front facing the source. A flank strike spills the load.",
+        "growth": [
+          "Protect a team in its lee, then return enough stored force to buckle a siege creature’s leg."
+        ]
+      },
+      "sequence_order": 2,
+      "state": {
+        "shield": "intact; loaded",
+        "water": "flowing",
+        "horn": "firing"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/G02-F1.png",
+        "sha256": "0cc02458e2247a9e529ce329514291edf4a158b879e212f74a2387af30a8d007",
+        "attempt_id": "G02-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/G02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/G02-F1.png",
+          "sha256": "0cc02458e2247a9e529ce329514291edf4a158b879e212f74a2387af30a8d007",
+          "attempt_id": "G02-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G02-F1.png",
+          "call_path": "production/combat-depth/calls/G02-F1.json",
+          "call_sha256": "669238ce7eac7c1d95f0f34b767881e48d1b491e62e62d44434634c5dab9d7bf",
+          "plan_sha256": "32c3779a7978c352b785c54423ac6b99d18a86c70f76888b64066dbc56d79534",
+          "plan_path": "production/combat-depth/plan-history/plan-v3.json",
+          "retry_of": "G02-P",
+          "retry_reason": "Native root and independent reviews agree action/contact broadly reads but repetitive wet paving, pressure flecks and distant marks compete."
+        },
+        {
+          "path": "production/combat-depth/candidates/G02-P.png",
+          "sha256": "ca468df917c9e69cb9699c5331f983a77a2cd7d82e870c080dd8bb9cb46bcb95",
+          "attempt_id": "G02-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G02-P.png",
+          "call_path": "production/combat-depth/calls/G02-P.json",
+          "call_sha256": "af98105f9b28728d52ad292490ff7af7389971b28ee031d182eb9bb2596dddf3",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The horn pressure reaches the correctly rear-held shield, with allies in the protected area.",
+        "This is the clearest setup for the shield’s directional limitation; later panels must preserve when that pressure is active."
+      ]
+    },
+    {
+      "id": "G03",
+      "title": "One shoulder outside the defense",
+      "category": "squad",
+      "scale": "medium",
+      "subjects": [
+        "neris",
+        "riven",
+        "kellan"
+      ],
+      "story_path": "squad",
+      "caption": "A flank strike breaks her stance and spills the stored force.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. The same near-gutter armored sword flanker drives the POMMEL of the already held sword against Neris’s unshielded OUTSIDE shoulder at a visible contact, rotating her off her stable stance. Keep the attacker hand wrapped around its own sword hilt, pommel visibly touching the outside shoulder, and blade directed upward and away from Neris and every other body. No new mace and no pommel through the gripping hand. Her crescent shield tilts; the loaded pressure spills backward LEFT into the previously empty square pier, leaving one chipped corner. One thrown stone fragment from that chipped pier strikes and visibly chips the shield UPPER rim; connect the new shield damage to this impact. Riven and Kellan recoil within clear separate silhouettes; no duplicate arms and no blast through teammates. Actual source/front/spill directions, rear grip retained, pressure horn farther RIGHT. This is a costly failure, not a triumphant shield pose.",
+      "references": [
+        "neris",
+        "riven",
+        "kellan",
+        "@G02",
+        "guide-G03"
+      ],
+      "power": {
+        "name": "Quiet Harbor — Rebound",
+        "description": "A braced crescent shield catches one pressure front, then returns a focused pulse.",
+        "limitation": "It needs stable footing and the front facing the source. A flank strike spills the load.",
+        "growth": [
+          "Protect a team in its lee, then return enough stored force to buckle a siege creature’s leg."
+        ]
+      },
+      "sequence_order": 3,
+      "state": {
+        "shield": "upper rim chip introduced; brace lost",
+        "pier": "chipped",
+        "horn": "firing"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/G03-F1.png",
+        "sha256": "236e7fbff69941f8732ac412ba4099836ffaa1099f155a349adf484cd81caa59",
+        "attempt_id": "G03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/G03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/G03-F1.png",
+          "sha256": "236e7fbff69941f8732ac412ba4099836ffaa1099f155a349adf484cd81caa59",
+          "attempt_id": "G03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G03-F1.png",
+          "call_path": "production/combat-depth/calls/G03-F1.json",
+          "call_sha256": "cfeae2ff6fa3b7380d37e2b0d9f3e8c8a9f2df2973ba2e7314f1a68705b16ede",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json",
+          "retry_of": "G03-R1",
+          "retry_reason": "Reviewed R1 improves actualshouldercontact and independentweaponownership; pervasivewetpaving/debris/fleckscompete."
+        },
+        {
+          "path": "production/combat-depth/candidates/G03-P.png",
+          "sha256": "36cbfe22b9e255c6613ffb311d71c1732aadf7139d8f86fe6d2e2ded37747a14",
+          "attempt_id": "G03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G03-P.png",
+          "call_path": "production/combat-depth/calls/G03-P.json",
+          "call_sha256": "9d371390a285c6d37ffc6b43c5876bb06cec86f845e568111b4be280924230c5",
+          "plan_sha256": "32c3779a7978c352b785c54423ac6b99d18a86c70f76888b64066dbc56d79534",
+          "plan_path": "production/combat-depth/plan-history/plan-v3.json"
+        },
+        {
+          "path": "production/combat-depth/candidates/G03-R1.png",
+          "sha256": "8f9413760b095784d445815b01a92bf80034a0a7635716f54d93a83d876c3d54",
+          "attempt_id": "G03-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G03-R1.png",
+          "call_path": "production/combat-depth/calls/G03-R1.json",
+          "call_sha256": "8b104a46ca1b23dd5e99d4e72543398594dd7f849468f14b0a1cf25372335a58",
+          "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+          "plan_path": "production/combat-depth/plan-history/plan-v4.json",
+          "retry_of": "G03-P",
+          "retry_reason": "Root and independent native inspection found hidden pommel/shoulder contact and Kellan apparently handling a cyan path connected to Riven weapon, losing independent sword construction."
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The repair makes the sword-pommel flank contact and Kellan’s separate weapon clearer.",
+        "The complete pressure-spill, pier-chip and shield-rim damage chain remains only partially legible."
+      ]
+    },
+    {
+      "id": "G04",
+      "title": "The floor catches the committed foot",
+      "category": "squad",
+      "scale": "low-medium",
+      "subjects": [
+        "kellan",
+        "neris"
+      ],
+      "story_path": "squad",
+      "caption": "He turns the attacker’s weight into the opening they need.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. Low oblique combat detail with enough body for stance. Kellan holds his broad straight sword correctly in both hands and presses its edge into the established flowing near gutter. One continuous low ice wedge grows from that contact under the flanker’s loaded forward boot. The attacker’s knee and torso tip forward over the trapped foot, the same held sword now pointing harmlessly downward away from every body. Neris recovers behind with chipped upper shield rim. Water continues on either side of the working edge. One clear blade-water-ice-foot chain, broad ice shapes, no cage or generic aura.",
+      "references": [
+        "kellan",
+        "neris",
+        "@G03",
+        "guide-G04"
+      ],
+      "power": {
+        "name": "Deep Winter — Riverturn",
+        "description": "A held sword edge shapes connected flowing water into a wedge or temporary route.",
+        "limitation": "Blade contact and continuous water are required; interrupt either and the working edge stops growing.",
+        "growth": [
+          "Turn an enemy’s committed weight against it or hold a retreat route for a formed column."
+        ]
+      },
+      "sequence_order": 4,
+      "state": {
+        "shield": "upper rim chipped",
+        "ice": "one wedge at flanker foot",
+        "horn": "firing"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/G04-F1.png",
+        "sha256": "973f8d6b69ff1a3c7e8bab8ef225e70d2ac5cebe1d01e7f8234dda4df4a9e35c",
+        "attempt_id": "G04-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/G04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/G04-F1.png",
+          "sha256": "973f8d6b69ff1a3c7e8bab8ef225e70d2ac5cebe1d01e7f8234dda4df4a9e35c",
+          "attempt_id": "G04-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G04-F1.png",
+          "call_path": "production/combat-depth/calls/G04-F1.json",
+          "call_sha256": "1c4b20da53d7a31838e1d9d9447605b30cad1f85faca1f4542b10c79d392034f",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json",
+          "retry_of": "G04-P",
+          "retry_reason": "Actualnative/phoneinspection andindependentreview identifyrepeatingsurface/particletexture; structuralfindingsretainedwithoutclaimingfinishfixes them."
+        },
+        {
+          "path": "production/combat-depth/candidates/G04-P.png",
+          "sha256": "9a62c96b8c211a21a3d84097ab1266efa8940cc05154101aa342dff8b76db7ca",
+          "attempt_id": "G04-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G04-P.png",
+          "call_path": "production/combat-depth/calls/G04-P.json",
+          "call_sha256": "db997217682fa95b051956f2dde2c6e4f32e3e6059e9c97b11aa6b441ea7e33d",
+          "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+          "plan_path": "production/combat-depth/plan-history/plan-v4.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "Kellan’s own two-hand grip connects sword, water, low ice wedge and the attacker’s loaded boot.",
+        "The horn is already visually silent before the following horn-cut payoff. The surface finish improves readability but does not fix that timing."
+      ]
+    },
+    {
+      "id": "G05",
+      "title": "Through the opening they made",
+      "category": "squad",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "kellan"
+      ],
+      "story_path": "squad",
+      "caption": "The counter reaches the source before the next note.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. Wide coordinated payoff retaining left/right gatehouse geography. Riven has moved from the sheltered LEFT edge through a short paired cyan seam onto a supported RIGHT ledge beside the horn bearer; only one Riven body. His right-held saber makes one clear cut through the horn’s exposed bronze throat, two separated instrument ends, no cut flesh. The bearer recoils and the pressure front dies at its source. LEFT/midground Kellan remains blade-to-gutter connected, flanker tipping over the low ice wedge, Neris with chipped shield recovering. Prioritize Riven/horn contact, keep teammates smaller, not three equally large action portraits.",
+      "references": [
+        "riven",
+        "neris",
+        "kellan",
+        "@G01",
+        "@G04"
+      ],
+      "power": {
+        "name": "Borrowed Horizon — Held Threshold",
+        "description": "A saber stroke joins two visible supported edges for one short step.",
+        "limitation": "Only one joined pair; both edges must be visible and support a landing. The fighter must still commit to the exit.",
+        "growth": [
+          "Hold the exit for an ally or redirect a committed strike; a predicted exit remains dangerous."
+        ]
+      },
+      "sequence_order": 5,
+      "state": {
+        "shield": "upper rim chipped",
+        "ice": "wedge persists",
+        "horn": "severed; pressure ceases"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/G05-F1.png",
+        "sha256": "19488b524ffeef2421038b90311f8b2ff84b353766b01409de53b593fc81d5cf",
+        "attempt_id": "G05-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/G05-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/G05-F1.png",
+          "sha256": "19488b524ffeef2421038b90311f8b2ff84b353766b01409de53b593fc81d5cf",
+          "attempt_id": "G05-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G05-F1.png",
+          "call_path": "production/combat-depth/calls/G05-F1.json",
+          "call_sha256": "86cc7f5814e8baaeb14ecff0c25c0c4ef252c821ecbef979627bb4c761f85d25",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "G05-P",
+          "retry_reason": "Root native and independent native-batch09/phone-addendum07 identify competing repetitive surface texture; structural shortcomings explicitly retained."
+        },
+        {
+          "path": "production/combat-depth/candidates/G05-P.png",
+          "sha256": "c2b351f10b3f9f91a701f08128478b9ed8a1975467bc641adda961a1a046e8c2",
+          "attempt_id": "G05-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G05-P.png",
+          "call_path": "production/combat-depth/calls/G05-P.json",
+          "call_sha256": "90d9160ed2ecdcb0640752ae89f3dab7148596f76dd02e43a888a15fe585c2e3",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The horn is visibly severed into two ends; the leap and strike create a strong local payoff.",
+        "Paired transit seams and Kellan’s maintained water contact are not shown. Enemy crowd count grows and Neris gains an incidental secondary blade."
+      ]
+    },
+    {
+      "id": "G06",
+      "title": "Hold it until we are through",
+      "category": "squad",
+      "scale": "wide",
+      "subjects": [
+        "riven",
+        "neris",
+        "kellan"
+      ],
+      "story_path": "squad",
+      "caption": "Winning the exchange is not the same as leaving together.",
+      "brief": "Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. Aftermath wide with changed positions: Riven guards the open RIGHT passage beside dropped severed horn; Neris moves toward him with the chipped upper rim visible; Kellan remains at the near gutter maintaining blade contact until she clears. Flanker down behind a persistent broad ice wedge, second attacker withdrawing rather than mysteriously vanished. Chipped LEFT pier remains, water and quiet exhausted faces. No new magic victory aura or healed shield. Show team dependency and a plausible exit route.",
+      "references": [
+        "riven",
+        "neris",
+        "kellan",
+        "@G05"
+      ],
+      "power": {
+        "name": "Deep Winter — Riverturn",
+        "description": "A held sword edge shapes connected flowing water into a wedge or temporary route.",
+        "limitation": "Blade contact and continuous water are required; interrupt either and the working edge stops growing.",
+        "growth": [
+          "Turn an enemy’s committed weight against it or hold a retreat route for a formed column."
+        ]
+      },
+      "sequence_order": 6,
+      "state": {
+        "shield": "upper rim chipped",
+        "ice": "wedge maintained",
+        "horn": "broken and silent"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/G06-F1.png",
+        "sha256": "2a7f3c9851fb46140f9f56189ab76c56663544050fdbfefec1f448b4d5224bb6",
+        "attempt_id": "G06-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/G06-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/G06-F1.png",
+          "sha256": "2a7f3c9851fb46140f9f56189ab76c56663544050fdbfefec1f448b4d5224bb6",
+          "attempt_id": "G06-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G06-F1.png",
+          "call_path": "production/combat-depth/calls/G06-F1.json",
+          "call_sha256": "afc2192a73a52fb1764da00dc540b3d7507d310e1cfa452ff8cc6e58643350e6",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "G06-P",
+          "retry_reason": "Actual native review and independent native-batch10 identify strong repeating surface noise around readable figures; preserve noted action/continuity limitations."
+        },
+        {
+          "path": "production/combat-depth/candidates/G06-P.png",
+          "sha256": "e987cc6c671cabc22c80c602484d96d6d76d61f290e8b31f6dc5ba27edb3c43d",
+          "attempt_id": "G06-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/G06-P.png",
+          "call_path": "production/combat-depth/calls/G06-P.json",
+          "call_sha256": "71b27bd07ecfb412523fcb86884997442d59fc1aebdafd9ed4e4c021604d2b2a",
+          "plan_sha256": "095b68a3fc8282b03ece27d8ddd403a5b2bfecdde1fbeac75e5b11038a683944",
+          "plan_path": "production/combat-depth/plan-history/plan-v6.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The broken horn and chipped shield persist, and the sword-water-ice connection returns.",
+        "The surviving opponent still contests the exit. This is regrouping under threat, not a completed escape; the ice has extended beyond the earlier local wedge."
+      ]
+    },
+    {
+      "id": "W01",
+      "title": "The line beneath the moving city",
+      "category": "war",
+      "scale": "extreme-wide",
+      "subjects": [
+        "neris",
+        "kellan",
+        "ilyra"
+      ],
+      "story_path": "war",
+      "caption": "They cannot win the whole field. They can keep one way home.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Extreme-wide high oblique composition: organized adult ranks advance from RIGHT behind a giant four-legged living siege beast with broad dark armor masses, long tail and one pale throat enclosed by a single brass mouth collar; this new variant has no arbitrary spikes or tiny scale carpet. LEFT open monumental gate shelters retreating adults. Neris, Kellan and Ilyra are three tiny distinct local defenders around6 percent height near the near bank: ivory/teal crescent, sand/cobalt sword, burgundy/ivory lance. Main stone bridge and lower parallel water edge both readable, count formations by broad masses rather than individual armor texture. Huge inhabited city overhead, no foreground portrait inset.",
+      "references": [
+        "neris",
+        "kellan",
+        "ilyra",
+        "map-war"
+      ],
+      "power": null,
+      "sequence_order": 1,
+      "state": {
+        "bridge": "intact",
+        "ice_route": "none",
+        "siege_beast": "upright"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/W01-F1.png",
+        "sha256": "c7e62db365f50eb7974a43e1d017962a7bb6b298a703f078796f73b1b47020ea",
+        "attempt_id": "W01-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/W01-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/W01-F1.png",
+          "sha256": "c7e62db365f50eb7974a43e1d017962a7bb6b298a703f078796f73b1b47020ea",
+          "attempt_id": "W01-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W01-F1.png",
+          "call_path": "production/combat-depth/calls/W01-F1.json",
+          "call_sha256": "9dd50e598d3b6f34a9ac5969e46f1d4a561ffe260513a366dbdd3f778c0b4ef5",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json",
+          "retry_of": "W01-R1",
+          "retry_reason": "Actual native inspection found repetitive high-contrast wet stone/water and distant surface marks competing with the subjects; structural observations preserved separately."
+        },
+        {
+          "path": "production/combat-depth/candidates/W01-P.png",
+          "sha256": "243f84a02e31e32b9372e8f0c312391caf32c2e0d90e04f5157f561c1ce34d6e",
+          "attempt_id": "W01-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W01-P.png",
+          "call_path": "production/combat-depth/calls/W01-P.json",
+          "call_sha256": "8306df2f0fad19e3784e1fc45e5b8297a6a93cddd3c0f75b2af09819681be1aa",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json"
+        },
+        {
+          "path": "production/combat-depth/candidates/W01-R1.png",
+          "sha256": "55bff1022e73019202a267656c8cf97f7c8fc68d47b522cf9c5acba228be8ed6",
+          "attempt_id": "W01-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W01-R1.png",
+          "call_path": "production/combat-depth/calls/W01-R1.json",
+          "call_sha256": "0efcf1f54bc3d096a81e48737074d30bc46785fdbad73fda02730d8c0f298cf1",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json",
+          "retry_of": "W01-P",
+          "retry_reason": "The occupied lower stone route has ambiguous bank/crossing geometry. A visible open-water gap is needed to establish why the later ice retreat route matters."
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The army, organic siege creature, bridge and distant city establish collective scale.",
+        "The route repair clarifies the lower dead end and water gap. Full alternate-route topology still needs testing across later views."
+      ]
+    },
+    {
+      "id": "W02",
+      "title": "A formation folds",
+      "category": "war",
+      "scale": "wide",
+      "subjects": [
+        "neris"
+      ],
+      "story_path": "war",
+      "caption": "One pressure lane is enough to break the front.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Low wide from behind defenders LEFT toward the RIGHT siege beast. Its clearly open brass-collared mouth emits one broad compressed-air lane onto the main bridge. Front-rank adult shields buckle backward, planted boots skid and bodies recoil in a few legible silhouettes, not a pile of dismemberment. Neris smaller in foreground braces her crescent shield correctly from the rear to catch the surviving front. Keep a calm edge of the scene to show where pressure is absent. Physical deformation and recoil carry impact; one broad dust mass at feet, no thousands of sparks.",
+      "references": [
+        "neris",
+        "@W01",
+        "shield"
+      ],
+      "power": {
+        "name": "Quiet Harbor — Rebound",
+        "description": "A braced crescent shield catches one pressure front, then returns a focused pulse.",
+        "limitation": "It needs stable footing and the front facing the source. A flank strike spills the load.",
+        "growth": [
+          "Protect a team in its lee, then return enough stored force to buckle a siege creature’s leg."
+        ]
+      },
+      "sequence_order": 2,
+      "state": {
+        "bridge": "intact",
+        "siege_beast": "mouth pressure firing"
+      },
+      "gap": "short",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/W02-F1.png",
+        "sha256": "7e5368f87affa7a60c14a8a97016e12d0710fe2ed6e4c908bf96e25a2612cae7",
+        "attempt_id": "W02-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/W02-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/W02-F1.png",
+          "sha256": "7e5368f87affa7a60c14a8a97016e12d0710fe2ed6e4c908bf96e25a2612cae7",
+          "attempt_id": "W02-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W02-F1.png",
+          "call_path": "production/combat-depth/calls/W02-F1.json",
+          "call_sha256": "1145798e5045cb98896181c29c6403df90707ec56f16eeff8f7fba5e2107c38b",
+          "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+          "plan_path": "production/combat-depth/plan-history/plan-v4.json",
+          "retry_of": "W02-R1",
+          "retry_reason": "Reviewed structuralR1 restorescorrectKellanandhingedjaw; remaining repetitivewater/stone/armor anddustcompete."
+        },
+        {
+          "path": "production/combat-depth/candidates/W02-P.png",
+          "sha256": "69afda397044469b10bb4853152e224ea48b7e48d8d5df6f1931959561d78f2a",
+          "attempt_id": "W02-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W02-P.png",
+          "call_path": "production/combat-depth/calls/W02-P.json",
+          "call_sha256": "8dc2685ed74ac2c8e50e450d23ac8b9feff5c1eefc2633c9a97d74e7e939cee1",
+          "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+          "plan_path": "production/combat-depth/plan-history/plan-v2.json"
+        },
+        {
+          "path": "production/combat-depth/candidates/W02-R1.png",
+          "sha256": "9adb21fc10d1b3505be109f44346282a5637ab9f7033cd60aa5158911ef2664e",
+          "attempt_id": "W02-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W02-R1.png",
+          "call_path": "production/combat-depth/calls/W02-R1.json",
+          "call_sha256": "c5e453a8316a897f6c819634497121b8fed06db4cf4b3ce9533d6f385ce78659",
+          "plan_sha256": "32c3779a7978c352b785c54423ac6b99d18a86c70f76888b64066dbc56d79534",
+          "plan_path": "production/combat-depth/plan-history/plan-v3.json",
+          "retry_of": "W02-P",
+          "retry_reason": "Independent and root native reviews found wrong silver-haired Riven instead of Kellan and severe siege-beast head identity drift into circular worm maw."
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The repaired recurring cast and snouted creature support a readable pressure attack against a formation.",
+        "Formation recoil is useful evidence of force; a bright effect alone would not demonstrate impact."
+      ]
+    },
+    {
+      "id": "W03",
+      "title": "Return the weight of an army",
+      "category": "war",
+      "scale": "wide",
+      "subjects": [
+        "neris"
+      ],
+      "story_path": "war",
+      "caption": "What nearly broke the line becomes the counterstrike.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Decisive low wide on Neris’s planted shield drive from LEFT. Her properly rear-held crescent returns one compact broad pressure pulse RIGHT directly into the siege beast’s nearest FOREKNEE, with a clear impact zone on the joint and its heavy leg visibly buckling. Massive shoulder drops, other weight-bearing legs compensate; creature remains four-legged, not a decorative explosion. Neris is small enough to show the huge size difference but her strained face/stance and weapon silhouette remain readable. Defending ranks have a quiet lee behind her. One outgoing pulse, mouth source no longer firing. Broad armor/hide planes and contact ring, not particle storm.",
+      "references": [
+        "neris",
+        "@W01",
+        "@W02"
+      ],
+      "power": {
+        "name": "Quiet Harbor — Rebound",
+        "description": "A braced crescent shield catches one pressure front, then returns a focused pulse.",
+        "limitation": "It needs stable footing and the front facing the source. A flank strike spills the load.",
+        "growth": [
+          "Protect a team in its lee, then return enough stored force to buckle a siege creature’s leg."
+        ]
+      },
+      "sequence_order": 3,
+      "state": {
+        "bridge": "intact",
+        "siege_beast": "foreknee buckled; pressure paused"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/W03-F1.png",
+        "sha256": "f5e8d53ca9cf3cedb1c758ababfbb656923fc4a68af4da113fff682a32710963",
+        "attempt_id": "W03-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/W03-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/W03-F1.png",
+          "sha256": "f5e8d53ca9cf3cedb1c758ababfbb656923fc4a68af4da113fff682a32710963",
+          "attempt_id": "W03-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W03-F1.png",
+          "call_path": "production/combat-depth/calls/W03-F1.json",
+          "call_sha256": "04385fc7f939114420e11c10f2e93a8cbbe92f092d7a61b009ed87c4102eb756",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json",
+          "retry_of": "W03-R1",
+          "retry_reason": "Actualnative/phoneinspection andindependentreview identifyrepeatingsurface/particletexture; structuralfindingsretainedwithoutclaimingfinishfixes them."
+        },
+        {
+          "path": "production/combat-depth/candidates/W03-P.png",
+          "sha256": "48aafdc5687ca16594a91cf903f15196ffcbe83ec710417c561b2d213eac21ac",
+          "attempt_id": "W03-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W03-P.png",
+          "call_path": "production/combat-depth/calls/W03-P.json",
+          "call_sha256": "9229fce6e517440f5e186a6b663ec4218072b3f725143d09e89213343e0d9160",
+          "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+          "plan_path": "production/combat-depth/plan-history/plan-v4.json"
+        },
+        {
+          "path": "production/combat-depth/candidates/W03-R1.png",
+          "sha256": "4000c853cd5c95bd0f718f461555afc39d913106ca517ff21997b0f9f7049b42",
+          "attempt_id": "W03-R1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W03-R1.png",
+          "call_path": "production/combat-depth/calls/W03-R1.json",
+          "call_sha256": "aadd1f9cc218dade436c348ec6fc27972353c098c25b993a478ca30d8995f98d",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json",
+          "retry_of": "W03-P",
+          "retry_reason": "Independent and root native review: pressure effect meets forepaw/ground and loaded extendedleg reads a stomp against defense, not the intended shield counter buckling foreknee."
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The repair moves the return strike to an elevated limb joint and unloads the forepaw.",
+        "The giant’s full shoulder drop and compensating body weight remain partial. The finish improves surface hierarchy without resolving the whole-body response."
+      ]
+    },
+    {
+      "id": "W04",
+      "title": "A river becomes the retreat",
+      "category": "war",
+      "scale": "vertical-wide",
+      "subjects": [
+        "kellan",
+        "neris"
+      ],
+      "story_path": "war",
+      "caption": "He holds a route for people who cannot cross as he does.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Tall vertical high-oblique view of the alternate lower canal edge. Kellan crouches at the safe LEFT bank, both hands correctly on broad sword hilt, edge touching connected rushing canal water. A continuous wide ice causeway rises from that contact and carries a coherent single retreating column of adults toward the safe open LEFT gate. Neris protects the far end, small but recognizable. Main stone bridge with damaged/low siege beast remains on the RIGHT in background as geography. Complete blade, real continuous route and landings; quiet broad ice bands rather than crystalline mesh. No disconnected floating steps or teleporting civilians.",
+      "references": [
+        "kellan",
+        "neris",
+        "@W01",
+        "@W03"
+      ],
+      "power": {
+        "name": "Deep Winter — Riverturn",
+        "description": "A held sword edge shapes connected flowing water into a wedge or temporary route.",
+        "limitation": "Blade contact and continuous water are required; interrupt either and the working edge stops growing.",
+        "growth": [
+          "Turn an enemy’s committed weight against it or hold a retreat route for a formed column."
+        ]
+      },
+      "sequence_order": 4,
+      "state": {
+        "bridge": "intact",
+        "ice_route": "continuous and occupied",
+        "siege_beast": "lowered behind"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/W04-F1.png",
+        "sha256": "d3f2b7fe00577f67d8bcb6eb89e8d55522bdd1ad0fef56b4e612a2f00c794643",
+        "attempt_id": "W04-F1",
+        "width": 1024,
+        "height": 1536,
+        "src": "../../production/combat-depth/candidates/W04-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/W04-F1.png",
+          "sha256": "d3f2b7fe00577f67d8bcb6eb89e8d55522bdd1ad0fef56b4e612a2f00c794643",
+          "attempt_id": "W04-F1",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/combat-depth/candidates/W04-F1.png",
+          "call_path": "production/combat-depth/calls/W04-F1.json",
+          "call_sha256": "5d03fe7188574633e32c7a7392db337093e7bf31dec4fc5a3fe812ccf4c9d823",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json",
+          "retry_of": "W04-P",
+          "retry_reason": "Actualnative/phoneinspection andindependentreview identifyrepeatingsurface/particletexture; structuralfindingsretainedwithoutclaimingfinishfixes them."
+        },
+        {
+          "path": "production/combat-depth/candidates/W04-P.png",
+          "sha256": "e69d3c1abaee825f702324c97af9b617373a18debd8d20f7d340c76ab81c3b2d",
+          "attempt_id": "W04-P",
+          "width": 1024,
+          "height": 1536,
+          "src": "../../production/combat-depth/candidates/W04-P.png",
+          "call_path": "production/combat-depth/calls/W04-P.json",
+          "call_sha256": "d287b372aed6e1585de48f717c1986162eac6be84471df6a9f43ff34c98ebc13",
+          "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+          "plan_path": "production/combat-depth/plan-history/plan-v4.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The tall view, connected occupied ice route and held blade-water contact communicate a collective retreat.",
+        "The safe gate connection is visible, but the opposite solid landing is not fully shown. The giant’s earlier joint injury is not clearly carried forward."
+      ]
+    },
+    {
+      "id": "W05",
+      "title": "The ground she chooses to lose",
+      "category": "war",
+      "scale": "wide",
+      "subjects": [
+        "ilyra",
+        "kellan",
+        "neris"
+      ],
+      "story_path": "war",
+      "caption": "She waits for the last crossing, then gives the bridge to the canal.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Upright wide action with a clear empty retreat gap: last adult has reached safe LEFT bank via the lower ice route, Kellan still holds blade contact there. Ilyra on safe LEFT stone plants her lance butt with right grip, outside a narrowly bounded part of the main bridge. She turns weight toward the open canal: the now EMPTY center bridge span tips SIDEWAYS/DOWN into the water in two or three huge coherent slabs, with falling water following that changed vector. Enemy reserve on RIGHT stops at the newly opening gap; no falling retreating civilians. Neris on LEFT turns to cover them. No violet wall, no rising force ramp, one thin floor boundary and severe physical strain. The bridge loss must be unmistakable and irreversible.",
+      "references": [
+        "ilyra",
+        "kellan",
+        "neris",
+        "@W01",
+        "@W04"
+      ],
+      "power": {
+        "name": "Downfall Writ",
+        "description": "A planted Axis Lance turns the direction of weight inside one narrow ground strip.",
+        "limitation": "The butt must remain planted, the caster within reach and outside the strip; every loose body and water inside follows the same direction.",
+        "growth": [
+          "Turn a wider burden or collapsing structure at great strain; force direction must remain intelligible."
+        ]
+      },
+      "sequence_order": 5,
+      "state": {
+        "bridge": "center pursuit span falling; new gap",
+        "ice_route": "cleared; still maintained",
+        "retreat": "last adult safe"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/W05-F1.png",
+        "sha256": "9e240c987ee537c80b43c91c3285b3db0dc918968d0b65940d46fabdf2cdb003",
+        "attempt_id": "W05-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/W05-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/W05-F1.png",
+          "sha256": "9e240c987ee537c80b43c91c3285b3db0dc918968d0b65940d46fabdf2cdb003",
+          "attempt_id": "W05-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W05-F1.png",
+          "call_path": "production/combat-depth/calls/W05-F1.json",
+          "call_sha256": "e9883419c4b0a169c32ef1b9a7072a4ae47724b2c2ec4eabc4537c758ddfb684",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "W05-P",
+          "retry_reason": "Root native and independent native-batch09/phone-addendum07 identify competing repetitive surface texture; structural shortcomings explicitly retained."
+        },
+        {
+          "path": "production/combat-depth/candidates/W05-P.png",
+          "sha256": "9284986ecb4da54451d0a730d41163b826567f99d96291e4d495380c39a3feeb",
+          "attempt_id": "W05-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W05-P.png",
+          "call_path": "production/combat-depth/calls/W05-P.json",
+          "call_sha256": "015433020e74abe748f6564f3853c580e9f9aa07b00ff342c01d7a26be7a30fa",
+          "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+          "plan_path": "production/combat-depth/plan-history/plan-v5.json"
+        }
+      ],
+      "service_failures": [],
+      "ai_observations": [
+        "The main bridge breaks into large falling slabs, leaving a clear lasting consequence.",
+        "The maintained ice route and exact gravity boundary are missing. Kellan’s blade appears above the water; the collapse reads more clearly than its complete magical cause."
+      ]
+    },
+    {
+      "id": "W06",
+      "title": "What victory leaves behind",
+      "category": "war",
+      "scale": "extreme-wide",
+      "subjects": [
+        "neris",
+        "kellan",
+        "ilyra"
+      ],
+      "story_path": "war",
+      "caption": "They saved the column and sacrificed the main road.",
+      "brief": "Independent siege test, not chronological after duel or squad. WEST/LEFT is a monumental open retreat gate and safe bank. EAST/RIGHT has the attacking army and an immense four-legged armored organic siege beast with one brass mouth collar. A broad bridge runs left/right over a deep canal. A parallel lower canal edge provides the alternate ice retreat route. Three recurring defenders: Neris, Kellan, Ilyra; no Riven in this test. Organized adult military ranks and a retreating adult column; no child figures. Pale dawn and restrained ochre banners distinguish this battlefield from the duel. Extreme-wide aftermath in warmer dawn. LEFT safe bank holds an organized exhausted adult column passing inside the monumental gate as it closes behind them, three tiny recognizable heroes at its edge: Neris leaning on crescent, Kellan lifting broad sword from water after the crossing, Ilyra kneeling beside upright lance. RIGHT attacking masses and lowered four-legged siege beast remain separated by a visibly MISSING main bridge center span, broad fallen slabs in the canal. The parallel ice route remains visible but is guarded at its safe end, with its working edge no longer growing after blade lift. Breaking the main span delayed heavy pursuit and bought retreat time; do not imply this alone prevents every enemy from taking the ice route. Big territory/scale/cost shapes, few purposeful faces in nearest survivors, quiet water and light. Do not restore the bridge, erase the enemy or end on a giant hero portrait.",
+      "references": [
+        "neris",
+        "kellan",
+        "ilyra",
+        "@W05",
+        "@W04"
+      ],
+      "power": null,
+      "sequence_order": 6,
+      "state": {
+        "bridge": "center span missing",
+        "ice_route": "growth stopped after clearance",
+        "siege_beast": "still present beyond gap",
+        "retreat": "column safe"
+      },
+      "gap": "long",
+      "owner_approval": null,
+      "candidate": {
+        "path": "production/combat-depth/candidates/W06-F1.png",
+        "sha256": "360dd131c5874396e46d06e9ecefcda54f2190a630d9ec0919b11b966687d1d3",
+        "attempt_id": "W06-F1",
+        "width": 1536,
+        "height": 1024,
+        "src": "../../production/combat-depth/candidates/W06-F1.png"
+      },
+      "history": [
+        {
+          "path": "production/combat-depth/candidates/W06-F1.png",
+          "sha256": "360dd131c5874396e46d06e9ecefcda54f2190a630d9ec0919b11b966687d1d3",
+          "attempt_id": "W06-F1",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W06-F1.png",
+          "call_path": "production/combat-depth/calls/W06-F1.json",
+          "call_sha256": "77bb9f1f63b5e17a76343686035e68a1df10882213210801402c8a5ede95e258",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json",
+          "retry_of": "W06-P",
+          "retry_reason": "Root inspected native: dense water, ice and distant architectural microtexture compete with readable bridge loss; actual retreat-state/scale limitations retained."
+        },
+        {
+          "path": "production/combat-depth/candidates/W06-P.png",
+          "sha256": "6d09ba2ab1db6e831a0fed91c7bb94b7ac23de2d28251a0d844ed259843e2672",
+          "attempt_id": "W06-P",
+          "width": 1536,
+          "height": 1024,
+          "src": "../../production/combat-depth/candidates/W06-P.png",
+          "call_path": "production/combat-depth/calls/W06-P.json",
+          "call_sha256": "e2e8d7a12d142e1e9dc29c6f9c7fbae7f0deb7017383f4649d4eb71478c71705",
+          "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+          "plan_path": "production/combat-depth/plan.json"
+        }
+      ],
+      "service_failures": [
+        {
+          "attempt_id": "W06-P",
+          "kind": "input-validation",
+          "status": "failed-no-artwork-returned",
+          "error": "`referenced_image_paths` must contain at most 5 paths",
+          "record_path": "production/combat-depth/input-validation-failures/W06-P.json",
+          "record_sha256": "30030f340408701eccb25f9975530f634868194c83df785746b17710b76965f4",
+          "tool_output_path": "production/combat-depth/input-validation-failures/W06-P-tool-output.json",
+          "tool_output_sha256": "2dd6907e0941faf5f436d6e73b7a66878d3428b74cfb9aeb0643f094deb3ce1e",
+          "prompt_path": "production/combat-depth/prompts/W06-P.txt",
+          "prompt_sha256": "7b6c74bd8c967bfa0b7bd4797df017fc1dcaba0a0afb24ace57cdaa4c04fd8ea",
+          "references": [
+            {
+              "path": "production/combat-depth/references/neris.png",
+              "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+              "role": "Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+            },
+            {
+              "path": "production/combat-depth/references/kellan.png",
+              "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+              "role": "Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+            },
+            {
+              "path": "production/combat-depth/references/ilyra.png",
+              "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+              "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+            },
+            {
+              "path": "production/combat-depth/candidates/W05-P.png",
+              "sha256": "9284986ecb4da54451d0a730d41163b826567f99d96291e4d495380c39a3feeb",
+              "role": "Exact recurring subject/place reference from W05; use named identities/creature and relevant geography only, not its composition or surface noise."
+            },
+            {
+              "path": "production/combat-depth/candidates/W01-F1.png",
+              "sha256": "c7e62db365f50eb7974a43e1d017962a7bb6b298a703f078796f73b1b47020ea",
+              "role": "Exact recurring subject/place reference from W01; use named identities/creature and relevant geography only, not its composition or surface noise."
+            },
+            {
+              "path": "production/combat-depth/candidates/W04-F1.png",
+              "sha256": "d3f2b7fe00577f67d8bcb6eb89e8d55522bdd1ad0fef56b4e612a2f00c794643",
+              "role": "Exact recurring subject/place reference from W04; use named identities/creature and relevant geography only, not its composition or surface noise."
+            }
+          ],
+          "plan_path": "production/combat-depth/plan-history/plan-v6.json",
+          "plan_sha256": "095b68a3fc8282b03ece27d8ddd403a5b2bfecdde1fbeac75e5b11038a683944",
+          "retry_request_path": "production/combat-depth/calls/W06-P.json",
+          "retry_request_sha256": "e2e8d7a12d142e1e9dc29c6f9c7fbae7f0deb7017383f4649d4eb71478c71705",
+          "retry_reason": "No artwork returned: the built-in tool rejected six paths. Remove only redundant W01 geography image, retain exact three cast identities plus W05 collapse/W04 ice route, and renumber reference labels. Same creative brief; one existing no-art retry slot consumed."
+        }
+      ],
+      "ai_observations": [
+        "The broken main span, remaining enemy and occupied ice route preserve the scale and cost of the retreat.",
+        "The heroes are large foreground figures rather than tiny figures in an extreme wide shot. People still cross, the gate is open and Kellan’s blade appears in water; this is an ongoing retreat, not the fully cleared aftermath requested."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "nightglass",
+      "title": "Nightglass",
+      "path": "production/combat-depth/references/nightglass.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/references/nightglass.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original full Nightglass; drawing and world benchmark, not cast selection",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/combat-depth/references/nightglass.png"
+    },
+    {
+      "id": "riven",
+      "title": "Riven",
+      "path": "production/combat-depth/references/riven.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "role": "Recurring adult identity and saber construction only",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/combat-depth/references/riven.png"
+    },
+    {
+      "id": "neris",
+      "title": "Neris",
+      "path": "production/combat-depth/references/neris.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/references/neris.png",
+      "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+      "role": "Recurring adult identity; rear shield grip must be correctly redrawn",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/combat-depth/references/neris.png"
+    },
+    {
+      "id": "kellan",
+      "title": "Kellan",
+      "path": "production/combat-depth/references/kellan.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/references/kellan.png",
+      "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+      "role": "Recurring adult identity and broad combat sword",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/combat-depth/references/kellan.png"
+    },
+    {
+      "id": "ilyra",
+      "title": "Ilyra",
+      "path": "production/combat-depth/references/ilyra.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/candidates/A05-F1.png",
+      "sha256": "214085572238ab09e91b028fdaae56aaa37d288eda12ae8492bdcd25b36dbd55",
+      "role": "Recurring adult identity and Axis Lance; do not copy ambiguous violet barrier",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/combat-depth/references/ilyra.png"
+    },
+    {
+      "id": "finish",
+      "title": "Finish",
+      "path": "production/combat-depth/references/finish.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/candidates/A01-F1.png",
+      "sha256": "bc1ba2c59f064731f3bbe66381d22d95746f30e00df4330e82eef0b21a45e30c",
+      "role": "Approved broad surfaces, contours and faces; not target composition",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/combat-depth/references/finish.png"
+    },
+    {
+      "id": "shield",
+      "title": "Shield",
+      "path": "production/combat-depth/references/shield.png",
+      "source_path": "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/candidates/Q02-F1.png",
+      "sha256": "bb7a8acc86fb08fdd51032d30636f77997047b7d55812a34903fec6279f47f79",
+      "role": "Rear shield grip and coherent force contact example",
+      "width": 1536,
+      "height": 1024,
+      "src": "../../production/combat-depth/references/shield.png"
+    }
+  ],
+  "controls": [
+    {
+      "id": "map-duel",
+      "path": "research/combat-depth/controls/v1/map-duel.png",
+      "sha256": "2ce6c20cea0843abfe291cbe77a7f788e18e5cd1f3ddf2d360775a3ef5f028d9",
+      "source_path": "research/combat-depth/controls/v1/map-duel.svg",
+      "source_sha256": "74342de9f2c180120e945723b40fad5415f6fe73c020ff69e59bd3e90e17369c",
+      "role": "Original code-native top-down geometry/actor-location control only. North top, west left, east right; triangular bottom symbol is camera. Do not draw diagram symbols, text, vectors or this schematic treatment in final art. Use actual identity refs for faces/costumes/weapons.",
+      "width": 1200,
+      "height": 800,
+      "src": "../../research/combat-depth/controls/v1/map-duel.png",
+      "title": "map-duel",
+      "kind": "blocking-guide",
+      "pending": false,
+      "source_src": "../../research/combat-depth/controls/v1/map-duel.svg"
+    },
+    {
+      "id": "map-squad",
+      "path": "research/combat-depth/controls/v2-guides/map-squad.png",
+      "sha256": "456c2d9155aba77f5b49d8e5f9a7c55d7bc660bee90acade125791500a232916",
+      "source_path": "research/combat-depth/controls/v2-guides/map-squad.svg",
+      "source_sha256": "1adb86652db8241e1ccca77a1b35655ac73d3352ff6955a4ffbc09161fc32ac5",
+      "role": "Original code-native top-down geometry/actor-location control only. North top, west left, east right; triangular bottom symbol is camera. Do not draw diagram symbols, text, vectors or this schematic treatment in final art. Use actual identity refs for faces/costumes/weapons.",
+      "width": 1200,
+      "height": 800,
+      "src": "../../research/combat-depth/controls/v2-guides/map-squad.png",
+      "title": "map-squad",
+      "kind": "blocking-guide",
+      "pending": false,
+      "source_src": "../../research/combat-depth/controls/v2-guides/map-squad.svg"
+    },
+    {
+      "id": "map-war",
+      "path": "research/combat-depth/controls/v2/map-war.png",
+      "sha256": "351cdeb93ba8583f3a32df5f38a99755434b9cb7f8ee66c4c49c7d1c21e8f1eb",
+      "source_path": "research/combat-depth/controls/v2/map-war.svg",
+      "source_sha256": "f436c892da54bc2c13aaf09c111ec537e6b3a3888c1da985afcd7cae8a3a3971",
+      "role": "Original code-native top-down geometry/actor-location control only. North top, west left, east right; triangular bottom symbol is camera. Do not draw diagram symbols, text, vectors or this schematic treatment in final art. Use actual identity refs for faces/costumes/weapons.",
+      "width": 1200,
+      "height": 800,
+      "src": "../../research/combat-depth/controls/v2/map-war.png",
+      "title": "map-war",
+      "kind": "blocking-guide",
+      "pending": false,
+      "source_src": "../../research/combat-depth/controls/v2/map-war.svg"
+    },
+    {
+      "id": "guide-D04",
+      "path": "research/combat-depth/controls/v2-guides/D04-gravity-east.png",
+      "source_path": "research/combat-depth/controls/v2-guides/D04-gravity-east.svg",
+      "role": "Upright camera; Riven accelerated east/right, Ilyra downstage/right with butt planted outside strip. Horizontal in-strip water versus vertical outside water. Schematic vectors are not final effects. Original geometry-only conditioning, not final art/style/face reference; omit schematic arrows and markers from generated art.",
+      "sha256": "4a785c3fc882ca8fdb8e3e330b0929798455ea04639ad0440badd71688bb95dd",
+      "source_sha256": "cc1633f7651273bb147c492cf326a7e1e3ebefc052f649d24a8548b6864abf48",
+      "width": 1200,
+      "height": 800,
+      "src": "../../research/combat-depth/controls/v2-guides/D04-gravity-east.png",
+      "title": "guide-D04",
+      "kind": "blocking-guide",
+      "pending": false,
+      "source_src": "../../research/combat-depth/controls/v2-guides/D04-gravity-east.svg"
+    },
+    {
+      "id": "guide-D10",
+      "path": "research/combat-depth/controls/v3-contact/D10-butt-kick.png",
+      "source_path": "research/combat-depth/controls/v3-contact/D10-butt-kick.svg",
+      "role": "Forward boot contacts low connected lance shaft above butt; right saber held away, left forearm protected. Right-wall scar and mantle notch persist. Original geometry-only conditioning, not final art/style/face reference; omit schematic arrows and markers from generated art.",
+      "sha256": "c26e394188a83ac4287bba455c7c3201b0addd37765515ca410799ca748ce6b1",
+      "source_sha256": "e7342f89fc17986c7664099c85609e15ddedb0e99b1e204eee6b26fb5aad4d3c",
+      "width": 1200,
+      "height": 800,
+      "src": "../../research/combat-depth/controls/v3-contact/D10-butt-kick.png",
+      "title": "guide-D10",
+      "kind": "blocking-guide",
+      "pending": false,
+      "source_src": "../../research/combat-depth/controls/v3-contact/D10-butt-kick.svg"
+    },
+    {
+      "id": "guide-G03",
+      "path": "research/combat-depth/controls/v4-sword-continuity/G03-sword-pommel.png",
+      "source_path": "research/combat-depth/controls/v4-sword-continuity/G03-sword-pommel.svg",
+      "role": "Retained sword POMMEL from right contacts Neris outside shoulder; blade points upward/right away from her. Stored pressure spills left into empty pier above separate teammates; one stone hits shield upper rim. Original geometry-only conditioning, not final art/style/face reference; omit schematic arrows and markers from generated art.",
+      "sha256": "6e4955e9ae9e3eb20a622cbc730cd5800aa83b34333bd52f5fef3e9001679bed",
+      "source_sha256": "587c471be16a057ed0b198dfbcb30f58a3d59c27ae0f8836b88b0cb2e482a407",
+      "width": 1200,
+      "height": 800,
+      "src": "../../research/combat-depth/controls/v4-sword-continuity/G03-sword-pommel.png",
+      "title": "guide-G03",
+      "kind": "blocking-guide",
+      "pending": false,
+      "source_src": "../../research/combat-depth/controls/v4-sword-continuity/G03-sword-pommel.svg"
+    },
+    {
+      "id": "guide-G04",
+      "path": "research/combat-depth/controls/v6-sword-clearance/G04-sword-water-foot-wedge.png",
+      "source_path": "research/combat-depth/controls/v6-sword-clearance/G04-sword-water-foot-wedge.svg",
+      "role": "Two hands on Kellan sword hilt; continuous source blade-water-ice-loaded-boot chain; attacker pitches forward/left, retaining his own sword pointed down and away with clear gap above water. Neris recovers behind with chipped shield. Use actual reference weapon proportions: diagram enemy sword is foreshortened for noncontact clarity. Original geometry-only conditioning, not final art/style/face reference; omit schematic markers.",
+      "sha256": "477f28fef21347a6433c57e7228bd5be5e37b66ce6ab2a6d162e3fd4bde01504",
+      "source_sha256": "c0e8eb7935ab9c1f9e431f8657d55e02c236bfd06298f7e3617196ccc999a304",
+      "width": 1200,
+      "height": 800,
+      "src": "../../research/combat-depth/controls/v6-sword-clearance/G04-sword-water-foot-wedge.png",
+      "title": "guide-G04",
+      "kind": "blocking-guide",
+      "pending": false,
+      "source_src": "../../research/combat-depth/controls/v6-sword-clearance/G04-sword-water-foot-wedge.svg"
+    }
+  ],
+  "control_manifest_sha256": "7715e678f720fb5f774883198705e134119626b172bfe4aee3a3fd9fbbde552b",
+  "plan_sources": [
+    {
+      "path": "production/combat-depth/plan.json",
+      "sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0"
+    },
+    {
+      "path": "production/combat-depth/plan-history/plan-v1.json",
+      "sha256": "fe1cd6c15a3ed3ce85efa94dda91f8fadb72fa8d44aedfc8d8b6de2523f65e18"
+    },
+    {
+      "path": "production/combat-depth/plan-history/plan-v2.json",
+      "sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605"
+    },
+    {
+      "path": "production/combat-depth/plan-history/plan-v3.json",
+      "sha256": "32c3779a7978c352b785c54423ac6b99d18a86c70f76888b64066dbc56d79534"
+    },
+    {
+      "path": "production/combat-depth/plan-history/plan-v4.json",
+      "sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552"
+    },
+    {
+      "path": "production/combat-depth/plan-history/plan-v5.json",
+      "sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6"
+    },
+    {
+      "path": "production/combat-depth/plan-history/plan-v6.json",
+      "sha256": "095b68a3fc8282b03ece27d8ddd403a5b2bfecdde1fbeac75e5b11038a683944"
+    }
+  ],
+  "previous": {
+    "label": "Exact prior CE selections; independent of new blank choices",
+    "sha256": "9e459455fffb729aac13a8c3384d6b0b4d4f6f025c6a032d29a912cf0d5acee4",
+    "path": "production/combat-depth/previous/ce-selection.json",
+    "download_src": "../../production/combat-depth/previous/ce-selection.json",
+    "export": {
+      "schema": "CombatExplorationChoices/1",
+      "experiment_id": "CE-20260908-01",
+      "dataset_sha256": "48cbeb3a6ce661756ec0e570866621977fe25443ad9c769ced144505f1d6cffd",
+      "plan_sha256": "6a9d99c1b41be18d7b6692272bce4c090a974d3a47531b9ae62f0bc3aebf323b",
+      "source_bindings": [
+        {
+          "id": "01-C1",
+          "attempt_id": "01-C1-P",
+          "sha256": "901f0609451fbbbd5a53181aedb9f9ed1ca23fadfd7ffeea3f55d56cb5f12820"
+        },
+        {
+          "id": "01-C2",
+          "attempt_id": "01-C2-P",
+          "sha256": "cab2e3ac8d3f9cf75450b935783bb130dfb268881c9c8c547cd4784e648e7c41"
+        },
+        {
+          "id": "02-C1",
+          "attempt_id": "02-C1-R1",
+          "sha256": "9a64f6aef6c45cf1a87fa665a9e29bb1a9d51e66ee2af409bd7ec670aa3d1c68"
+        },
+        {
+          "id": "02-C2",
+          "attempt_id": "02-C2-P",
+          "sha256": "b888b04ad3fbce4ec5d8c20b2338de67f69a7fed40980f099c2a968554bf70fa"
+        },
+        {
+          "id": "05-C1",
+          "attempt_id": "05-C1-P",
+          "sha256": "fa1e93b4dfb72f7149901c2a943a291bb6fca784caa719ec00cb9d313f977b68"
+        },
+        {
+          "id": "05-C2",
+          "attempt_id": "05-C2-P",
+          "sha256": "0eba7131599f3e9dbb3dbef02e56c6319a3544c2320cf75da3bcf097ef0bdcd6"
+        },
+        {
+          "id": "06-C1",
+          "attempt_id": "06-C1-P",
+          "sha256": "fe4907eb44c6a2249c08f2f7cdd55d4ea6314bc744abc968bf5f6d9c7aadc7b9"
+        },
+        {
+          "id": "06-C2",
+          "attempt_id": "06-C2-P",
+          "sha256": "e7da8a6aa738c7cad1f807724d29bfe6dde857d08cabb9e70ce004035bafeb86"
+        },
+        {
+          "id": "13-C1",
+          "attempt_id": "13-C1-P",
+          "sha256": "c9e7a84c3c732bf5e9f9eaef25eccdcd83f370a3db39d4cb1b4f31526fe13571"
+        },
+        {
+          "id": "13-C2",
+          "attempt_id": "13-C2-P",
+          "sha256": "bbd0549eeddcda00f6c33a0b34c851a521a8f13a20ad86c93928eca4a77d3b4c"
+        },
+        {
+          "id": "15-C1",
+          "attempt_id": "15-C1-P",
+          "sha256": "fe6c43e17ecfa6bd8845b16ddc88a112c6e351562cc2bc3b022dba6df7bec17b"
+        },
+        {
+          "id": "15-C2",
+          "attempt_id": "15-C2-P",
+          "sha256": "b70a14a6e8f03353eb83f0a3c5f95c7f9b08a9659986e91cbfc618e623d28f95"
+        },
+        {
+          "id": "17-C1",
+          "attempt_id": "17-C1-P",
+          "sha256": "401e327a2d8f35d90aeb522b7f98810ffcb1b06d1f1389352b8440e841e0a067"
+        },
+        {
+          "id": "17-C2",
+          "attempt_id": "17-C2-P",
+          "sha256": "ba028c8589df253f7d494bb33ee0c447cd9ab9bfe4091fa25c65c259440d4e2d"
+        },
+        {
+          "id": "18-C1",
+          "attempt_id": "18-C1-P",
+          "sha256": "ec160981c21a03bd144417b893639968cab19fa50e80d4f30b29e0b1120e93c4"
+        },
+        {
+          "id": "18-C2",
+          "attempt_id": "18-C2-P",
+          "sha256": "f14945415f9dfd5d6c502c1def4c615e38700af62cfaed5217249a365923360d"
+        },
+        {
+          "id": "19-C1",
+          "attempt_id": "19-C1-R1",
+          "sha256": "29249e504545d6e8052ee64b9a5cd0ce1752321fbd29dbeb7383227c464c2b89"
+        },
+        {
+          "id": "19-C2",
+          "attempt_id": "19-C2-P",
+          "sha256": "ceb9ab8195d28bd8b9df035c1f452570e857a10924c46411a534b4c5a3e72a3c"
+        }
+      ],
+      "exported_at": "2026-09-08T02:10:01.570Z",
+      "choices": {
+        "01-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "01-C2": {
+          "character": "unsure",
+          "style": "like",
+          "weapon": "dislike",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": false
+        },
+        "02-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "02-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "05-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "05-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "06-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "06-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "13-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "13-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "15-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "15-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "17-C1": {
+          "character": "dislike",
+          "style": "like",
+          "weapon": "like",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "17-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "dislike",
+          "power": "unsure",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "18-C1": {
+          "character": "dislike",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "18-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "19-C1": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        },
+        "19-C2": {
+          "character": "like",
+          "style": "like",
+          "weapon": "like",
+          "power": "like",
+          "comfort": null,
+          "note": "",
+          "shortlist": true
+        }
+      }
+    }
+  },
+  "available_count": 24,
+  "total_count": 24,
+  "owner_approval": null,
+  "review_notes_sha256": "595cac4421a78bde8d9e7e3f2f6f4f50faa837d741cd9042508bf1de41e7281a",
+  "report_links": [
+    {
+      "label": "Study details",
+      "path": "../../research/combat-depth/START_HERE.md"
+    },
+    {
+      "label": "Results & observations",
+      "path": "../../research/combat-depth/RESULTS.md"
+    }
+  ]
+};

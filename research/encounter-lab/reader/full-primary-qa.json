@@ -1,0 +1,38 @@
+{
+  "schema": "EncounterLabFullPrimaryReaderQA/1",
+  "pass": true,
+  "dataset_sha256": "0e4cd7d6d749ee55d29cca13b986c5ef6d76c13be1ca37fa40f5a0529e7382fc",
+  "displayed_panels": 24,
+  "retained_native_attempts": 32,
+  "browser_checks": 142,
+  "checked_source_bindings": 184,
+  "receipts": [
+    {
+      "path": "research/encounter-lab/reader/phone-captures/0e4cd7d6d749/receipt.json",
+      "sha256": "da6c265d70eb9cd0f4f9a64de3141b35be06c24777f253e72c1fdfd71148b20b"
+    },
+    {
+      "path": "research/encounter-lab/reader/phone-captures/0e4cd7d6d749/sequences/receipt.json",
+      "sha256": "5afe4baa9d16e74a50171b5a1aebbc29d11aba336deea966822e820754358d20"
+    },
+    {
+      "path": "research/encounter-lab/reader/phone-captures/0e4cd7d6d749/history/receipt.json",
+      "sha256": "2ba23041e0ad9287abf0464c063edf7d2b83d92d2a70356d45221d12f669395a"
+    },
+    {
+      "path": "research/encounter-lab/reader/phone-captures/0e4cd7d6d749/source-check.json",
+      "sha256": "83225b255260ff9c388a8a4d8ac82199271c35b8a55ceb6be7747e9b8508693a"
+    }
+  ],
+  "actual_visual_checks": [
+    "All five complete four-panel strips viewed: NG, BP, IO, ST and SB.",
+    "Phone strips retain whole native framing and show four panels in intended order; portrait beats occupy more scrolling height than landscape beats.",
+    "All32 history image bounds clear the sticky header and remain inside the phone viewport at native aspect ratio."
+  ],
+  "history_frame_checks_pass": true,
+  "preferences_unchanged": true,
+  "limits": [
+    "This is the complete pre-finishing display set, including structural-repair selections. Two delivered finishes are retained in history, not assumed selected.",
+    "Technical display checks do not establish anatomical accuracy, successful combat mechanics, owner approval or final art acceptance."
+  ]
+}

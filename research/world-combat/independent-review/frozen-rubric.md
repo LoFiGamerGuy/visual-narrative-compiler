@@ -1,0 +1,42 @@
+Independent pre-output art rubric — WC-20260908-01
+
+Frozen before the final design plan and before any new output inspection. This reviewer personally re-opened the original full01 Nightglass,02 Sunbreak and06 Floodline native boards and reviewed the preceding CE source-bound findings/selection mapping. No author preferred output verdict for this round has been supplied. The reviewer knows earlier studies and owner steering; independence is not blindness to that history.
+
+Authorized scope:24 primaries comprising6 full scenes,6 characters,4 gear,2 wildlife,2 monsters and4 abilities, with at most6 single retries and at most one retry per asset. Anticipated allocation18 Nightglass/3 Sunbreak/3 Floodline will be checked against the final frozen plan; unequal sampling cannot support an automatic comparative ranking. Only research/world-combat/independent-review is writable by this reviewer. Prior namespaces remain read-only.
+
+Owner evidence and limits
+
+Read the preserved CE export at production/world-combat/previous/selection.json. Its18 records mark every drawing style like. Character votes are15 like,2 dislike (17-C1,18-C1) and1 unsure (01-C2). Weapon votes are16 like and2 dislike (01-C2,17-C2). Power votes are14 like and4 unsure (01-C2,02-C1,17-C1,17-C2). All comfort fields are null and all notes empty. Shortlist is true for17 records, including some disliked dimensions, so it is not blanket character approval. Source-binding validation of that export is a separate root task; this rubric reports what the preserved file says.
+
+Root relayed the owner's original FULL Nightglass board as strongest benchmark. That preference is separate from an export which likes all styles without ranking them. Specific character/weapon/power reactions do not establish a universal dislike of heavy builds, all17 art or functional mechanics. In the prior round this reviewer found18-C1 technically strong and appealing, while the owner disliked its character and liked its weapon. Preserve that counterexample: reviewer taste cannot replace owner preference. No new votes, comfort verdict, canon or acceptance are inferred from older feedback.
+
+Primary art question
+
+Does the whole picture make the world, person, creature or action compelling to look at, with a coherent designed relationship among its parts? Correct limb counts alone cannot answer that. Assess focal appeal, mood, scale, material/light unity and visual interest first, then trace the significant relationships that make the image believable. Keep strengths and failures distinct rather than reducing them to one numerical quality score.
+
+Drawing benchmarks
+
+Nightglass01 — More than a blue palette or attractive pale face. The original combines crisp elegant character drawing, a layered monumental city, wet reflections, dark translucent creature planes, controlled cyan light and a huge readable creature silhouette. Vertical architecture and atmospheric depth make the creature/person scale exciting. Fine detail is organized around strong silhouettes and focal light. Preserve this complete visual ambition; a blank clean board or a generic glossy fantasy render is not automatically an adequate substitute.
+
+Sunbreak02 — Warm dark contour, angular outlined painted planes, lively adult faces, restrained surface texture and sunlit ochre/red/blue depth. Contrast should be supported by this actual drawing system and energetic spatial design, not merely warmer lighting over Nightglass faces.
+
+Floodline06 — Coarse dry-brush black/white mass, expressive facial planes, wet reflective negative space, selective pink and strong graphic depth. Avoid turning it into fine manga hatching or generic desaturated realism. Dense black marks may be intentional; the actor/action must still separate.
+
+Review dimensions
+
+- Integrated scene appeal: a memorable focal event or relationship, attractive drawing, mood and a reason to explore the image. Compare figure, creature and environment scale; depth, occlusion and illumination should place them together. Avoid the appearance of independent cutouts pasted in front of scenery. Rich density is allowed when organized; empty space is not inherently superior.
+- Character identity and charisma: distinctive adult face, hair/head silhouette, body proportions, costume and purposeful acting. Compare against anchors, preceding rejected/liked designs and sibling assets. Repeated identity across deliberately related scene/card assets is desirable; unauthorized reskinning is not. Record whether charisma comes from expression and stance or only a portrait close-up. Age metadata does not prove visual adulthood.
+- Creature design and life: readable whole-body organization, intentional limb/appendage count and attachment, distinctive material/ecological identity and behavior. Wildlife need not be cute and monsters need not be ugly. Judge the intended role and mood from the frozen brief and actual picture; do not infer aggression or relationship from species labels alone.
+- Action and contact: trace the visible cause, actor, weapon/ability and target. Weight, stance, direction and physical or explicitly magical connection should be understandable. Sparks or glow do not prove a grip, strike or support. Follow complete significant chains, strings, shafts and limbs; preserve uncertainty where occluded. Do not let irrelevant microscopic counting displace scene appeal.
+- Gear appeal and function: an evocative silhouette and material/ability identity plus understandable handling or combat use. A technically neat frame can still be unappealing, as the prior hammer vote demonstrates. Do not infer approval of a weapon from approval of its wielder, or vice versa.
+- Ability communication: distinguish a visible current action/effect and its target relation from written lore, power limits and future progression. An image can suggest growth potential but cannot prove multiple stages, successful choreography or human comprehension. Keep effect boundaries and ownership clear without demanding ordinary physics of a declared fantasy power.
+- Environment/geography: meaningful scale, routes, layers, ground/support and directional cues appropriate to the camera. Check recurring context where required. Full scenes need not be isolated catalog cards; deliberate cropping is judged against the frozen composition, not automatically rejected. Important actors, endpoints and margins should satisfy that asset's stated requirements.
+- Cohesion: consistent drawing language, materials, lighting, scale and identity across linked pieces. Do not conflate a correct guide, metadata or a plausible written explanation with correct final pixels. A style-label claim must be earned by contour, marks and shading.
+- Phone readability: inspect every actual native and source-bound390px rendering. Record face/creature silhouette, focal event and contact comprehension at the actual rendered art size. Small-detail loss, confusing relationships and visual overload are different findings. No comfort, fatigue or owner-comprehension result exists without actual feedback.
+- Novelty and coverage: respect frozen counts, roles, style assignments and identity rules; compare real pixels, not names. Do not convert a strong original into repeated new coats/hair colors on the same face. Any proposed reuse must be authorized in the frozen plan rather than assumed.
+
+Evidence and decision discipline
+
+Read the final frozen plan before candidates. Review native pixels before author preferred verdict, then actual phone views; disclose any unintended exposure. Bind every finding to asset ID, attempt ID, native SHA and phone evidence. Separate pre-output concerns from actual findings. Use concise concrete observations for drawing appeal, fidelity, novelty and technical relationships, with uncertainties and the strongest counterexample to the overall assessment.
+
+Preserve primary findings before any retry review. Scarce retries address a documented consequential defect, not an open-ended prettier variant. Compare returned pixels for intended gain and introduced regression: previous CE attempts fixed local details while breaking tether, bow, sling and tonfa connections. Do not certify a whole mechanism from one improved fragment. Selection, owner approval, production acceptance and future continuity are separate gates; do not change mappings unless explicitly assigned that authority.

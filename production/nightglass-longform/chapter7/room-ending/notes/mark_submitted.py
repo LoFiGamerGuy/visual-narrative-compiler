@@ -1,0 +1,3 @@
+from pathlib import Path
+import sys,json,datetime
+f=Path(__file__).resolve().parents[1];r=Path(__file__).resolve().parents[5];p=f/'calls'/f'{sys.argv[1]}.json';d=json.loads(p.read_text());assert d['status']=='prepared' and not d['invoked'];g=json.loads((r/'research/nightglass-longform/CHAPTER7-PRODUCTION-GATE.json').read_text());records=[json.loads(x.read_text()) for x in (f/'calls').glob('*.json') if not x.name.endswith('-tool-return.json')];assert sum(bool(x.get('invoked')) for x in records)<g['scope_ceilings']['room-ending'];d.update(status='submitted',invoked=True,submitted_utc=datetime.datetime.now(datetime.timezone.utc).isoformat());p.write_text(json.dumps(d,indent=2)+'\n')

@@ -1,0 +1,37 @@
+{
+  "id": "D01",
+  "attempt_id": "D01-F1",
+  "phase": "texture",
+  "category": "duel",
+  "retry_of": "D01-R1",
+  "retry_reason": "Actual native inspection found repetitive high-contrast wet stone/water and distant surface marks competing with the subjects; structural observations preserved separately.",
+  "evidence_path": "production/combat-depth/finish-specs-01.json",
+  "evidence_sha256": "9a93778823f5b64b38c5125fe37643bc96099e23dec19e01a5b9e3f1e7e492f8",
+  "prompt_path": "production/combat-depth/prompts/D01-F1.txt",
+  "prompt_sha256": "98c7678412f4a0b1e971438f810e895b74b0bd07c9237b0f07b877614480c9aa",
+  "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+  "references": [
+    {
+      "path": "production/combat-depth/candidates/D01-R1.png",
+      "sha256": "8bc873bda86ff90ce1b9297d9475fff413330dcc123d080515278fbbdac4c1f0",
+      "role": "Sole exact edit source; preserve all content except the specified texture change"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 23:50:34 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/D01-R1.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 23:51:17 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-a9142387-0b64-475e-a4b0-0fc99def6555.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

@@ -1,0 +1,13 @@
+# Plan/reference preflight — before outputs
+
+Frozen plan hash: `5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1`. All six native reference copies visually inspected and byte hashes verified. Original rubric remains unchanged. No new output inspected.
+
+The actual reference set offers calm face/costume planes but still carries wet-paving reflections, tiny city windows and some faceted creature skin. These residual details must not be treated as mandatory style features. Conversely, cyan window groups, bridge layering and a few reflections are useful inhabited-scale evidence; simplification should preserve those functions. Most identity sources are two-view sheets, so source layout or oversized foreground portraits must not leak into the new wide scenes. The source-only finish example contains two adults and snow: those are not permitted automatic imports into Ilyra or unrelated scenes.
+
+Riven’s silver hair/petrol cropped jacket/narrow cyan saber, Neris’s brown low knot/ivory shoulders/teal torso/dark crescent, and Kellan’s black curls/sand-cobalt jacket/pale boots/straight sword are distinct available distance cues. Ilyra’s copper bob/burgundy/ivory mantle/long ivory Axis Lance must establish a fourth identity in A05 before dependent appearances. Her weight-direction effect must have a planted source and a bounded affected plane; ordinary slanting rain alone would not prove Downfall Writ.
+
+Figure-height targets are preserved per image in the companion JSON. At 360×240 landscape phone art, 6–8% height means only about14–19px tall: face recognition is not credible at that scale, but separated color/silhouette/weapon cues can still succeed. Measure the actual intended actors rather than a decorative distant crowd. Do not excuse 25–40% foreground adults as an extreme-wide result simply because the city is large.
+
+Particular count/contact watchpoints: T02 has five adults, T03 has four in two separated fight lanes, T04 has five with a single visible rescue wrist grip. A03 and Q02 require a real rear shield grip; A04 and A08 require blade-to-existing-water contact. A02 uses one actor and a restrained connected seam, not duplicate bodies or two portals. A06 must redirect one loaded Bellmaw foreleg while three remain braced. Q01–Q04 preserve square left support, round right arch, initial beast-right orientation, one ankle restraint and its persistent severed ends; the final turn-away must not reset the band or bridge.
+
+Compare appeal and camera diversity across batches, but freeze observations per attempt before author output verdicts. No automatic additional generations, acceptance claims or selection writes follow from this preflight.

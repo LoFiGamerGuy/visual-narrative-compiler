@@ -1,0 +1,21 @@
+# Current state — complete, stopped at Chapter 9
+
+The authoritative final handoff is [FINAL-CHAPTER9-HANDOFF.md](FINAL-CHAPTER9-HANDOFF.md). It contains exact reader/package paths, all nine short story summaries, generation accounting, remaining defects, candid editorial assessment and three proposed improvements. The owner's updated bounded finish supersedes the original HANDOFF.md and all earlier indefinite-continuation instructions. Wait for the owner's reading/review. Do not start Chapter 10 artwork, another tranche or broad revisions.
+
+Chapter 9 is complete: 42 panels, editable lettering, all 22 consecutive phone views actually read by root/reader/editorial, and final completion header/end checks passed. Chapters 1–9 total 393 Nightglass panels. The five revised pilots retain 80 panels and the comparison retains 18.
+
+Nightglass-NineChapters-v1 build and fresh strict verification both exited 0. All 8,953 manifest entries match; ZIP contains 8,954 files, 3,958,388,084 bytes. All 23 offline routes passed with zero broken images, missing reader links, overflow, page errors or network requests. All 67 actual delivery screenshots passed (27 root / 34 reader / 6 assets). Historical 656 missing citation references and four same-file case aliases remain disclosed; required reader dependencies are complete.
+
+Reader: production/nightglass-longform/package/output/Nightglass-NineChapters-v1/START-HERE.html. ZIP: production/nightglass-longform/package/output/Nightglass-NineChapters-v1.zip. ZIP SHA256: 948d2571f5f5d193c61c41223679a41fdbd6a9dc8408a23eb7c691ea67969b5d. Verification SHA256: e0e3668f9ff5bf86c84bf4370e8dfe303ef63523e26525b381f852ced7101c59. [Delivery receipt](assets/package/NINECHAPTER-DELIVERY-RECEIPT.json) and [actual capture index](assets/package/NINECHAPTER-ACTUAL-CAPTURE-INDEX.json) bind the final evidence.
+
+Final art/source checkpoint fcaa3dc78087f5845e6196372ad9eca93b735b07; reader snapshot d5f82f459794b953c905c963f57831cadce443545ad2430705912c6773b5c8e9. The frozen package is immutable. Final review receipts and this handoff accompany it in the workspace; status documents inside the ZIP are build-time history.
+
+Generation accounting: longform run 382 returned calls = 252 primaries + 130 repairs, zero finishes/pending. Chapter 9 used 38 = 24 primaries + 14 repairs, of its 72-call ceiling; unused 34 are closed without transfer or cap reset. Separate inherited pilot baseline 135 = 85 primaries + 10 repairs + 40 finishes. Combined defined runs 517; not every older experiment. Model/seed/billing/owner approval remain unknown/null; direct paid external spend is zero. See CHAPTER9-RETURNED-CALLS.json for preserved call/source bindings.
+
+Only /mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110 was used for this isolated run, branch autonomous/nightglass-longform-20260909-2110. Original/pilot worktrees, Downloads, all default/native/raw attempts, old checkpoints and prior portable versions remain preserved. Ignored native files and excluded package/builds scratch remain on disk; do not delete them as cleanup. No merge, publication or paid external generation occurred.
+
+An already-developed Chapter 10 outline is preserved UNIMPLEMENTED in research/nightglass-longform/unimplemented/chapter10-preparation, with original scratch retained. No complete official manuscript, Chapter 10 artwork or new tranche was begun. All agents' useful delivery work is finished and the package pipeline has exited. No pending production job or further autonomous milestone remains.
+
+## Maintenance after delivery — 2026-09-11
+
+Cleanup phases1–2 are complete: 53.08 GB of verified duplicate/build/extraction copies removed; all distinct milestone ZIPs and the current reader remain. Current reader8953 manifest files and all67 final screenshots passed exact-byte checks. The partialSix-v1 build’s sole unique15,435-byte pack.py was preserved. Historical extraction paths in old receipts are retired, not current reader locations. See [cleanup result](WORKSPACE-CONSOLIDATION-RESULT-20260911.md) and its execution ledger. Phase3 awaits an external-drive or network destination for the eight olderZIPs (20.94 GB); Windows and WSL storage are both currently onC:. No story production resumes.

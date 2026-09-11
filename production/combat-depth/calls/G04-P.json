@@ -1,0 +1,53 @@
+{
+  "id": "G04",
+  "attempt_id": "G04-P",
+  "phase": "primary",
+  "category": "squad",
+  "prompt_path": "production/combat-depth/prompts/G04-P.txt",
+  "prompt_sha256": "21cc7af7e7ad4d91083986d233ac000d3e1764e81bc8c078e7805ade2df0351c",
+  "plan_sha256": "24bf1405e5815d0c936a55d530516fc80806a3979e34adf49e3633e880ad2552",
+  "references": [
+    {
+      "path": "production/combat-depth/references/kellan.png",
+      "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+      "role": "Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/references/neris.png",
+      "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+      "role": "Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/candidates/G03-R1.png",
+      "sha256": "8f9413760b095784d445815b01a92bf80034a0a7635716f54d93a83d876c3d54",
+      "role": "Exact recurring subject/place reference from G03; use named identities/creature and relevant geography only, not its composition or surface noise."
+    },
+    {
+      "path": "research/combat-depth/controls/v6-sword-clearance/G04-sword-water-foot-wedge.png",
+      "sha256": "477f28fef21347a6433c57e7228bd5be5e37b66ce6ab2a6d162e3fd4bde01504",
+      "role": "Two hands on Kellan sword hilt; continuous source blade-water-ice-loaded-boot chain; attacker pitches forward/left, retaining his own sword pointed down and away with clear gap above water. Neris recovers behind with chipped shield. Use actual reference weapon proportions: diagram enemy sword is foreshortened for noncontact clarity. Original geometry-only conditioning, not final art/style/face reference; omit schematic markers. This is a spatial/control guide only: do not copy diagram rendering, colors, labels or arrows into the artwork. Translate a top-down plan into the camera requested by the scene brief; do not adopt a map camera unless this scene explicitly calls for it.",
+      "control_source_path": "research/combat-depth/controls/v6-sword-clearance/G04-sword-water-foot-wedge.svg",
+      "control_source_sha256": "c0e8eb7935ab9c1f9e431f8657d55e02c236bfd06298f7e3617196ccc999a304"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 00:12:46 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/kellan.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/neris.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/G03-R1.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/research/combat-depth/controls/v6-sword-clearance/G04-sword-water-foot-wedge.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 00:14:32 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-1b3d2255-79f4-43ae-926c-82fe338c6537.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

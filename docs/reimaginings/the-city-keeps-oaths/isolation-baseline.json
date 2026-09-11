@@ -1,0 +1,826 @@
+{
+  "captured_utc": "2026-09-04T01:45:00.581645+00:00",
+  "protected_baseline": "40e7940016ea3c3966752b61f55a931f91a13ac7",
+  "new_worktree": "C:\\AgentWorkspaces\\anime-pipeline-reimagining-clean-webtoon-20260903-213010",
+  "new_branch": "autonomous/ten-chapter-clean-webtoon-20260903-213010",
+  "worktree_porcelain": "worktree C:/AgentWorkspaces/anime-pipeline\nHEAD 40e7940016ea3c3966752b61f55a931f91a13ac7\nbranch refs/heads/main\n\nworktree C:/AgentWorkspaces/anime-pipeline-reimagining\nHEAD 40e7940016ea3c3966752b61f55a931f91a13ac7\nbranch refs/heads/autonomous/ten-chapter-reimagining\n\nworktree C:/AgentWorkspaces/anime-pipeline-reimagining-20260903\nHEAD fa6650a4f8e51e7d1138ea2c207fd560411f023a\nbranch refs/heads/autonomous/ten-chapter-reimagining-20260903\n\nworktree C:/AgentWorkspaces/anime-pipeline-reimagining-clean-webtoon-20260903-213010\nHEAD 40e7940016ea3c3966752b61f55a931f91a13ac7\nbranch refs/heads/autonomous/ten-chapter-clean-webtoon-20260903-213010",
+  "refs": "refs/heads/autonomous/ten-chapter-clean-webtoon-20260903-213010\t40e7940016ea3c3966752b61f55a931f91a13ac7\nrefs/heads/autonomous/ten-chapter-reimagining\t40e7940016ea3c3966752b61f55a931f91a13ac7\nrefs/heads/autonomous/ten-chapter-reimagining-20260903\tfa6650a4f8e51e7d1138ea2c207fd560411f023a\nrefs/heads/main\t40e7940016ea3c3966752b61f55a931f91a13ac7\nrefs/remotes/origin/autonomous/ten-chapter-reimagining-20260903\tfa6650a4f8e51e7d1138ea2c207fd560411f023a\nrefs/remotes/origin/main\t40e7940016ea3c3966752b61f55a931f91a13ac7",
+  "protected_worktrees": [
+    {
+      "path": "C:\\AgentWorkspaces\\anime-pipeline",
+      "head": "40e7940016ea3c3966752b61f55a931f91a13ac7",
+      "branch": "main",
+      "status": "# branch.oid 40e7940016ea3c3966752b61f55a931f91a13ac7\n# branch.head main\n# branch.upstream origin/main\n# branch.ab +0 -0\n? GITIGNORE_RECOMMENDED.txt\n? assets/stages/kitchen-table-stage-v1.blend\n? assets/stages/kitchen-table-stage-v1.obj\n? assets/stages/kitchen-table-stage-v2-neutral-anchors.blend\n? assets/stages/kitchen-table-stage-v2-neutral-anchors.obj\n? batch_generate.py\n? benchmarks/case-bundles/actor-matte-g07-v1.json\n? benchmarks/case-bundles/baseline_legacy-v1.json\n? benchmarks/case-bundles/flux2-klein-geometry-proxy-g07-v1.json\n? benchmarks/case-bundles/geometry-proxy-g07-v1.json\n? benchmarks/case-bundles/sequential-inpaint-g07-v1.json\n? benchmarks/case-bundles/sequential-inpaint-v1.json\n? garden/action.py\n? garden/action2.py\n? garden/backup.ps1\n? garden/backup2.ps1\n? garden/batch.json\n? garden/batch10.json\n? garden/batch11.json\n? garden/batch12.json\n? garden/batch13.json\n? garden/batch14.json\n? garden/batch2.json\n? garden/batch3.json\n? garden/batch4.json\n? garden/batch5.json\n? garden/batch6.json\n? garden/batch7.json\n? garden/batch8.json\n? garden/batch9.json\n? garden/build.py\n? garden/build11.py\n? garden/build12.py\n? garden/build13.py\n? garden/build14.py\n? garden/build2.py\n? garden/build3.py\n? garden/build4.py\n? garden/build5.py\n? garden/build6.py\n? garden/build7.py\n? garden/build8.py\n? garden/build9.py\n? garden/build_close.py\n? garden/build_close2.py\n? garden/build_duo.py\n? garden/build_duo2.py\n? garden/build_loratest.py\n? garden/build_page_assets.py\n? garden/build_page_region.py\n? garden/build_prog_lora.py\n? garden/build_rooms.py\n? garden/canon.py\n? garden/cast.py\n? garden/cast2.py\n? garden/cast3.py\n? garden/cast4.py\n? garden/cast5.py\n? garden/chain_launch.cmd\n? garden/chain_train.ps1\n? garden/close.json\n? garden/close2.json\n? garden/deploy_lora.ps1\n? garden/dl_anima_diffusers.py\n? garden/dl_illust.ps1\n? garden/dl_via_curl.py\n? garden/dlstat.ps1\n? garden/duo.json\n? garden/duo2.json\n? garden/facecrop.py\n? garden/facecrop2.py\n? garden/gen.py\n? garden/gen2.py\n? garden/gen3.py\n? garden/install_nodes.ps1\n? garden/launch_comfy.ps1\n? garden/launch_dl.ps1\n? garden/launch_sigrid.ps1\n? garden/loratest.json\n? garden/make_page01.py\n? garden/make_page02.py\n? garden/make_page03.py\n? garden/mkdataset.py\n? garden/page01.json\n? garden/pageregion.json\n? garden/panelcomp.py\n? garden/powers.py\n? garden/powers2.py\n? garden/powers3.py\n? garden/probe_curl.ps1\n? garden/probe_dl.ps1\n? garden/probe_files.ps1\n? garden/probe_net.ps1\n? garden/probe_nodes.py\n? garden/procs.ps1\n? garden/progA.json\n? garden/progB.json\n? garden/rooms.json\n? garden/rooms_def.py\n? garden/run_calibrate.py\n? garden/run_close.ps1\n? garden/run_close2.ps1\n? garden/run_duo.ps1\n? garden/run_duo2.ps1\n? garden/run_loratest.ps1\n? garden/run_page.ps1\n? garden/run_prog.ps1\n? garden/run_region.ps1\n? garden/run_rooms.ps1\n? garden/scenes.py\n? garden/sortcrops.py\n? garden/sortrefs.py\n? garden/stage.py\n? garden/start_comfy.cmd\n? garden/status.ps1\n? garden/status2.ps1\n? garden/status3.ps1\n? garden/status4.ps1\n? garden/status5.ps1\n? garden/stop_dl.ps1\n? garden/style.py\n? garden/styles3.py\n? garden/styles6.py\n? garden/test1.json\n? garden/train_sigrid.yaml\n? garden/train_soren.yaml\n? garden/voidfx.py\n? get_ipadapter.cmd\n? latest-prompt-9-3-2026-2127.txt\n? new-prompt.txt\n? run_batch.cmd\n? run_comfy.cmd\n? trainer/README.md\n? trainer/SHOOT_GUIDE.md\n? trainer/finalize.py\n? trainer/install_trainer.cmd\n? trainer/prep_photos.py\n? trainer/prepared/000_lioncub.png\n? trainer/prepared/000_lioncub.txt\n? trainer/prepared/001_lioncub.png\n? trainer/prepared/001_lioncub.txt\n? trainer/prepared/002_lioncub.png\n? trainer/prepared/002_lioncub.txt\n? trainer/prepared/003_lioncub.png\n? trainer/prepared/003_lioncub.txt\n? trainer/prepared/004_lioncub.png\n? trainer/prepared/004_lioncub.txt\n? trainer/prepared/005_lioncub.png\n? trainer/prepared/005_lioncub.txt\n? trainer/prepared/006_lioncub.png\n? trainer/prepared/006_lioncub.txt\n? trainer/prepared/007_lioncub.png\n? trainer/prepared/007_lioncub.txt\n? trainer/prepared/008_lioncub.png\n? trainer/prepared/008_lioncub.txt\n? trainer/prepared/009_lioncub.png\n? trainer/prepared/009_lioncub.txt\n? trainer/stage_dataset.cmd\n? trainer/train_lora.cmd"
+    },
+    {
+      "path": "C:\\AgentWorkspaces\\anime-pipeline-reimagining",
+      "head": "40e7940016ea3c3966752b61f55a931f91a13ac7",
+      "branch": "autonomous/ten-chapter-reimagining",
+      "status": "# branch.oid 40e7940016ea3c3966752b61f55a931f91a13ac7\n# branch.head autonomous/ten-chapter-reimagining"
+    },
+    {
+      "path": "C:\\AgentWorkspaces\\anime-pipeline-reimagining-20260903",
+      "head": "fa6650a4f8e51e7d1138ea2c207fd560411f023a",
+      "branch": "autonomous/ten-chapter-reimagining-20260903",
+      "status": "# branch.oid fa6650a4f8e51e7d1138ea2c207fd560411f023a\n# branch.head autonomous/ten-chapter-reimagining-20260903\n# branch.upstream origin/autonomous/ten-chapter-reimagining-20260903\n# branch.ab +0 -0"
+    }
+  ],
+  "original_untracked_count": 159,
+  "original_untracked_files": [
+    {
+      "path": "GITIGNORE_RECOMMENDED.txt",
+      "bytes": 407,
+      "sha256": "2bb459da9e6a533f6f618349e862ac4d593eb24ab0c134d681876d9528544f33"
+    },
+    {
+      "path": "assets/stages/kitchen-table-stage-v1.blend",
+      "bytes": 96977,
+      "sha256": "20cfdc7eefd5077152aed1c7eaccfdca9ec16daa8732b69eb40d3b4fc10779cd"
+    },
+    {
+      "path": "assets/stages/kitchen-table-stage-v1.obj",
+      "bytes": 786,
+      "sha256": "20904fc8ddcaf561227a227a95eac3f2181744196da0f8e70da98df81c69effa"
+    },
+    {
+      "path": "assets/stages/kitchen-table-stage-v2-neutral-anchors.blend",
+      "bytes": 97067,
+      "sha256": "04e59e183addfcf2fe386f80afdaadbda1ff4ebe8f94bf7260db53383e481df6"
+    },
+    {
+      "path": "assets/stages/kitchen-table-stage-v2-neutral-anchors.obj",
+      "bytes": 789,
+      "sha256": "4a42b2ae7a4eaaa1eedc893c51e18fedf7448078c8e843be79a4e270463f5532"
+    },
+    {
+      "path": "batch_generate.py",
+      "bytes": 11278,
+      "sha256": "e86dc8814498b0bdaaec520bcdc7dfd080117332944079cd08e3a9cf6404a1a8"
+    },
+    {
+      "path": "benchmarks/case-bundles/actor-matte-g07-v1.json",
+      "bytes": 1083,
+      "sha256": "7c07e3231efaaa65fab0c4f5893c4bbe236b2f2d7ca17aeb490c2e6e695575c8"
+    },
+    {
+      "path": "benchmarks/case-bundles/baseline_legacy-v1.json",
+      "bytes": 1311,
+      "sha256": "a9511d26b74aa9c0a37a4b22b2d98d58ebf6d0e8c54f61c4d150d5b6ff89b5a6"
+    },
+    {
+      "path": "benchmarks/case-bundles/flux2-klein-geometry-proxy-g07-v1.json",
+      "bytes": 846,
+      "sha256": "c83f2a3928b242cf721d72256bdcf19c60b341c31d5871a1bb696d51be338cf6"
+    },
+    {
+      "path": "benchmarks/case-bundles/geometry-proxy-g07-v1.json",
+      "bytes": 625,
+      "sha256": "e9b5ae03916f87e7ef9b1e0628e933d8e741d5636c4eb2c847aeaf2b80018ea4"
+    },
+    {
+      "path": "benchmarks/case-bundles/sequential-inpaint-g07-v1.json",
+      "bytes": 1168,
+      "sha256": "bdf80e36f6717a2342c67dd3580a26d418269897ecc1c90b8cda836343c37890"
+    },
+    {
+      "path": "benchmarks/case-bundles/sequential-inpaint-v1.json",
+      "bytes": 1215,
+      "sha256": "9c46c02445ad4380157c0267daf51d373ed8eedc7c9e75180d95ba36e564ff53"
+    },
+    {
+      "path": "garden/action.py",
+      "bytes": 3441,
+      "sha256": "ae04d95ecf6c412e0aec32de12bb310577187cf2d7073c3b90fcd137eff01fb2"
+    },
+    {
+      "path": "garden/action2.py",
+      "bytes": 4350,
+      "sha256": "69179a5050ed48f2e4a492bd4249249e8bb50eb3efd8dff3ad4a96a5ce98a661"
+    },
+    {
+      "path": "garden/backup.ps1",
+      "bytes": 1486,
+      "sha256": "e443417dcf5527bd54a28e23a7b46cd655f8fc78d39b80f64bb15b40707ce6c9"
+    },
+    {
+      "path": "garden/backup2.ps1",
+      "bytes": 1200,
+      "sha256": "88bfc88ac970b485bd12b53669d727171966383618244ee8a9849a0940023764"
+    },
+    {
+      "path": "garden/batch.json",
+      "bytes": 13748,
+      "sha256": "7c4d6a7a803babfd4fdad10b3cb7099b7d09640a4a559490913c948a572ba158"
+    },
+    {
+      "path": "garden/batch10.json",
+      "bytes": 5758,
+      "sha256": "736d8f2e53c7061cee660b4fc78c39efad7af4483b43e997f53548f0d3df11f0"
+    },
+    {
+      "path": "garden/batch11.json",
+      "bytes": 27733,
+      "sha256": "6be84f9602983497d080d7bf0f97cc911c75fbc676284d66e27ba65e740c8733"
+    },
+    {
+      "path": "garden/batch12.json",
+      "bytes": 22697,
+      "sha256": "696b9523cc940c0585e4c68c30d6cd1543529076c6d17f4055cd450874a5e0a3"
+    },
+    {
+      "path": "garden/batch13.json",
+      "bytes": 33031,
+      "sha256": "3cc46e800701fd42a72149f8dae64266b068049f2e3c988d7643b08b07839e60"
+    },
+    {
+      "path": "garden/batch14.json",
+      "bytes": 24817,
+      "sha256": "c738e7938aa88151ce0c0fca3009281ecf264e7bbd580694d19b26bc9431e081"
+    },
+    {
+      "path": "garden/batch2.json",
+      "bytes": 18809,
+      "sha256": "c64a1f6579f02ed4f5270b4be542583a8cc2262560baf8c67e0fccf8fc1a487c"
+    },
+    {
+      "path": "garden/batch3.json",
+      "bytes": 20401,
+      "sha256": "857ee433c8ed714678f598c329bd253de521a3d8229d7536e2b83d903d079d07"
+    },
+    {
+      "path": "garden/batch4.json",
+      "bytes": 61218,
+      "sha256": "5ce6d9dd7060fa5e0fa18011aadc91a0b69f0d13e92535c8f6970f0ef994d30c"
+    },
+    {
+      "path": "garden/batch5.json",
+      "bytes": 68796,
+      "sha256": "4bec305213685c7bbf0e0253b5958a86cb2b26a05d5ccc652ae5058d561dcf27"
+    },
+    {
+      "path": "garden/batch6.json",
+      "bytes": 45603,
+      "sha256": "c1cc756fd470e54012d1aa8865454a771757adc2dbc79b8c3b614e02c11e3b43"
+    },
+    {
+      "path": "garden/batch7.json",
+      "bytes": 39368,
+      "sha256": "701a0bc55bd803585fe412c259818ce070067d54228be70c29454f71d1452a1c"
+    },
+    {
+      "path": "garden/batch8.json",
+      "bytes": 20735,
+      "sha256": "c4ab793ca47347d1b24ad91be0654f9be08fedcf68bb82ca2728c47e0714644c"
+    },
+    {
+      "path": "garden/batch9.json",
+      "bytes": 5429,
+      "sha256": "26ea6c3441240ff25665c33ca5fb4fa5d3e27363682b8d302fd56ff74b15e56d"
+    },
+    {
+      "path": "garden/build.py",
+      "bytes": 2776,
+      "sha256": "594583736052f444b7c2f751f333d72271f2dbfadffd49c04ab2889b6666913e"
+    },
+    {
+      "path": "garden/build11.py",
+      "bytes": 965,
+      "sha256": "bd6c2cf0f0ecf0012e8797370e0486e127e657780434927f4d19dc84e58e8f1a"
+    },
+    {
+      "path": "garden/build12.py",
+      "bytes": 1502,
+      "sha256": "163bcbb5fbf345f2823f4f1dcd387eefd2cdadbcf5d74790447289db4f689dc7"
+    },
+    {
+      "path": "garden/build13.py",
+      "bytes": 1744,
+      "sha256": "0284320b301c0ac734357198effee81386b36f5bbbb22f1441ac045645d07cdc"
+    },
+    {
+      "path": "garden/build14.py",
+      "bytes": 4416,
+      "sha256": "b3ff9cb7a598cf78a3d25e5c785101cd7dfcc790da839ac71b0f3922ab811e6c"
+    },
+    {
+      "path": "garden/build2.py",
+      "bytes": 2431,
+      "sha256": "dee27b398de417add276190b581973968b8f58711368fd66098f0bd1cb170c6e"
+    },
+    {
+      "path": "garden/build3.py",
+      "bytes": 1110,
+      "sha256": "4c4b0332c742db4ee5139ef620437d0ee923dff3b3f6dc8ad117f6410c877e63"
+    },
+    {
+      "path": "garden/build4.py",
+      "bytes": 1049,
+      "sha256": "7422016a2892d3388b4c6b95df33b7eb4e40262119d7fdc92dafd36d0c5743fe"
+    },
+    {
+      "path": "garden/build5.py",
+      "bytes": 1065,
+      "sha256": "0adf5bbacdfa666de21ac5baa9e86469d233747b8486d4bffdcdbe8024e4e89c"
+    },
+    {
+      "path": "garden/build6.py",
+      "bytes": 1258,
+      "sha256": "d9f6801552b5b5cc9304f3fbd0f33b638b74b50625bae0ac45e5435c404d9d7f"
+    },
+    {
+      "path": "garden/build7.py",
+      "bytes": 1635,
+      "sha256": "939b2cf86f792453297e2ff759487ee73b47be47ce8732ad685c0bf6ba51af7b"
+    },
+    {
+      "path": "garden/build8.py",
+      "bytes": 1718,
+      "sha256": "62460601f8154f72f059fffc8cdd3c6ce76fac7a4c4836d5345045b6a94c8675"
+    },
+    {
+      "path": "garden/build9.py",
+      "bytes": 1831,
+      "sha256": "87e885515603357c07ddc301684a10d94b1078dcabbb63fa2ac309ecaa61dc9f"
+    },
+    {
+      "path": "garden/build_close.py",
+      "bytes": 2650,
+      "sha256": "104c36369369b1ad48dc2173f40f41a1575f291b1db7728f918c6b479cd94e54"
+    },
+    {
+      "path": "garden/build_close2.py",
+      "bytes": 3137,
+      "sha256": "9ff4c40f6de0871f3593b9a00ebb8f2ed2412ef84a95e35d63ea2d85ca19a604"
+    },
+    {
+      "path": "garden/build_duo.py",
+      "bytes": 3301,
+      "sha256": "d1565ea5bf18d730b2c7257d44e06078db17b1b39110ec9d7a196ba9ea0b1a16"
+    },
+    {
+      "path": "garden/build_duo2.py",
+      "bytes": 4503,
+      "sha256": "60ab7b526624068b5884b1a502268b7b679257950a7addfdace6555c538f90cc"
+    },
+    {
+      "path": "garden/build_loratest.py",
+      "bytes": 2506,
+      "sha256": "3935b8c28a98c440aa0d0642c215e1280247a035fb5dea732e7caaef4ce2d67a"
+    },
+    {
+      "path": "garden/build_page_assets.py",
+      "bytes": 7345,
+      "sha256": "aab9ac5feb68e6b386938202108d7999d0dad2e8e1cf70e4aa89427f00542b9e"
+    },
+    {
+      "path": "garden/build_page_region.py",
+      "bytes": 4886,
+      "sha256": "53d7baa5e9d07ffebc2c32e001ae60ae2425fb4b084005a31c0a4cc44e15c5da"
+    },
+    {
+      "path": "garden/build_prog_lora.py",
+      "bytes": 2569,
+      "sha256": "9523cb28f34b5bd7c36bd6d27a4f1077d08dc554904a345061a01554e5ec0e4c"
+    },
+    {
+      "path": "garden/build_rooms.py",
+      "bytes": 2942,
+      "sha256": "ca35fae7c3fb7410ab3b01496b4e37b2ac7f810e94c7ac4fa903d0759c6dc05a"
+    },
+    {
+      "path": "garden/canon.py",
+      "bytes": 6792,
+      "sha256": "5b452fa8427e881d998396c70bb5cb30605b800afd7d0dad2b1f8f08400a48bb"
+    },
+    {
+      "path": "garden/cast.py",
+      "bytes": 1297,
+      "sha256": "79e4ed2156797d89e85096208d09c3e8804bc41f420539310fe97b78a6a17cb3"
+    },
+    {
+      "path": "garden/cast2.py",
+      "bytes": 3879,
+      "sha256": "9acf532cfb9ac2a256cbe5e5c344fa08c57099d15b4a6df7b9e885f638aed6ab"
+    },
+    {
+      "path": "garden/cast3.py",
+      "bytes": 3460,
+      "sha256": "6cdc32d76ebffd810da83050a3fd29643c37e5ed87a996fdbf74f3216940805a"
+    },
+    {
+      "path": "garden/cast4.py",
+      "bytes": 2809,
+      "sha256": "88f17a5c9f5401e0954a7aca9c35c9b93067ba7552f1e6d63dceb34a639636da"
+    },
+    {
+      "path": "garden/cast5.py",
+      "bytes": 3125,
+      "sha256": "f1886e711653ee22a6b0baebeef2feca553a610bca4b83a7d45b1d055ab2e077"
+    },
+    {
+      "path": "garden/chain_launch.cmd",
+      "bytes": 155,
+      "sha256": "e5ce5ec2a1b16eb80be5caacfe9515de89daedf66fecfd5135914a708e1eecc5"
+    },
+    {
+      "path": "garden/chain_train.ps1",
+      "bytes": 855,
+      "sha256": "20d8422f367f680afe4b9934d0a1cbb3b22c7f5edbeec35e3a1e3137ef061de1"
+    },
+    {
+      "path": "garden/close.json",
+      "bytes": 8587,
+      "sha256": "737b79721c8d89dd80036e7d6e47bdec92c9d94f503d7d241648df60386e7600"
+    },
+    {
+      "path": "garden/close2.json",
+      "bytes": 8107,
+      "sha256": "d8e9d33fdba5b106ca702968f892fc23ef6420c142f1bf2801b1463405b26891"
+    },
+    {
+      "path": "garden/deploy_lora.ps1",
+      "bytes": 868,
+      "sha256": "5ec2dac87be23ff887292b10132c842b646f526cf92d2d0d210f1594291470c6"
+    },
+    {
+      "path": "garden/dl_anima_diffusers.py",
+      "bytes": 813,
+      "sha256": "2e42c9ca4b0d88ff76033d2b72a05d4d34f4515e5e98aa27a4ba9d9eedcdaa16"
+    },
+    {
+      "path": "garden/dl_illust.ps1",
+      "bytes": 1854,
+      "sha256": "73ba725da9f0331ad19198236d8ab48b328e6489593fb6766fdaf0dc073abe52"
+    },
+    {
+      "path": "garden/dl_via_curl.py",
+      "bytes": 1690,
+      "sha256": "96311e7086374d2f64c7f0f8f933332efbde7b9d5f5ff6c381e48f505fc92fb0"
+    },
+    {
+      "path": "garden/dlstat.ps1",
+      "bytes": 489,
+      "sha256": "994af20c3b68af6d17f4ef4d8aacffdad37ec4f208c6513fe62ab0200a25a103"
+    },
+    {
+      "path": "garden/duo.json",
+      "bytes": 7451,
+      "sha256": "59018f2ab4e877959c13dde6765be4311692f0d61bff94004bc7fa826ff73521"
+    },
+    {
+      "path": "garden/duo2.json",
+      "bytes": 10923,
+      "sha256": "15005819609809bd48987ca27176ba0522e1f9512f49f8b96218aae4825886a7"
+    },
+    {
+      "path": "garden/facecrop.py",
+      "bytes": 3399,
+      "sha256": "6425f5f047a8247b3c2d74e128b4657a6e76d14baabd947c5daa4dea027e87cb"
+    },
+    {
+      "path": "garden/facecrop2.py",
+      "bytes": 3428,
+      "sha256": "7a893f9d8cd9e8cdee2315037daf71b797f00fbb0f615f8569a7d453a13cb59d"
+    },
+    {
+      "path": "garden/gen.py",
+      "bytes": 3521,
+      "sha256": "102dc17dcfc3d384472defaba84c850d45455bee6c4d3aaf98dfadcbb5c655a8"
+    },
+    {
+      "path": "garden/gen2.py",
+      "bytes": 4246,
+      "sha256": "35c6c5fa3ad78ec6db18500e55762a947bf02b392206c505c2ed30a4e6a3dfc3"
+    },
+    {
+      "path": "garden/gen3.py",
+      "bytes": 6979,
+      "sha256": "004298df5b022e54b9cea9eaddd93a63280ea7aad02ac2316bbe92d8891a5db8"
+    },
+    {
+      "path": "garden/install_nodes.ps1",
+      "bytes": 1424,
+      "sha256": "7c31da88dcaf525f10f6a3be522b866ec861a87f46edc18afcf4e22067ea09be"
+    },
+    {
+      "path": "garden/launch_comfy.ps1",
+      "bytes": 374,
+      "sha256": "605201e1dc0ce13569181248dc9fd83339318c17683812d9284cb32010f8adc3"
+    },
+    {
+      "path": "garden/launch_dl.ps1",
+      "bytes": 337,
+      "sha256": "79a5285f809259fb012a295e4c3e29c56be91625f1be4b1cb59717948de1fdaf"
+    },
+    {
+      "path": "garden/launch_sigrid.ps1",
+      "bytes": 389,
+      "sha256": "8989bbcba875ef84a4506ee7cebc4deccaefecc2f700ef7ae495ba470fe267ab"
+    },
+    {
+      "path": "garden/loratest.json",
+      "bytes": 13043,
+      "sha256": "7e223a478e265f0a1de90981f5fd06bfc09fc4766e4c947446b7ca3c5927ab13"
+    },
+    {
+      "path": "garden/make_page01.py",
+      "bytes": 2974,
+      "sha256": "1c2d13c951a8a7bf1272bf1c167614c4321b73463b76947a1f04a840ada2f694"
+    },
+    {
+      "path": "garden/make_page02.py",
+      "bytes": 3815,
+      "sha256": "f9a679397d7d6b60082824305b5e282394e7a2ced889b7d74635060da1008187"
+    },
+    {
+      "path": "garden/make_page03.py",
+      "bytes": 3070,
+      "sha256": "6e4b9290608acd745a26f91a64e924e54c1ee785439c1fb2f32f7a7bffadb736"
+    },
+    {
+      "path": "garden/mkdataset.py",
+      "bytes": 2648,
+      "sha256": "fec50cd0fa8c89bac0cbb762a52deae4033b735e50ee41fc9bfc96c5ec94a1b2"
+    },
+    {
+      "path": "garden/page01.json",
+      "bytes": 25175,
+      "sha256": "1f2a07581c0feeef93357e15a8eea9c35bb524aa7541833f6e58c1f7017c41d5"
+    },
+    {
+      "path": "garden/pageregion.json",
+      "bytes": 13319,
+      "sha256": "0e4cb1240306dc39340993b90cf75dba73c27c01e265193c2661ae0ee00d5406"
+    },
+    {
+      "path": "garden/panelcomp.py",
+      "bytes": 4566,
+      "sha256": "9ebad9496990f2c3a11b6800260aa42a2279f1deba5d07ebad27b764a044eda6"
+    },
+    {
+      "path": "garden/powers.py",
+      "bytes": 3058,
+      "sha256": "4acb110ae359a2d9e10abdebc72b11156380372e5489b6bbe88179cc43f92e67"
+    },
+    {
+      "path": "garden/powers2.py",
+      "bytes": 5063,
+      "sha256": "7be984a04559ff1c0206538b7284c2788aae3ee5573f8e9d5ddfc901bb65e8ef"
+    },
+    {
+      "path": "garden/powers3.py",
+      "bytes": 3799,
+      "sha256": "b1137127563f26ef7630547803491d244165d5f02ab2c7f96064ae84eb01f13e"
+    },
+    {
+      "path": "garden/probe_curl.ps1",
+      "bytes": 824,
+      "sha256": "81d7674eca2c96dffd9bc06ce2d8f9fde02c717568caa0a3b5b3369688f2bcc3"
+    },
+    {
+      "path": "garden/probe_dl.ps1",
+      "bytes": 731,
+      "sha256": "dcbd9917a533b35b00697fe11dd7425990d0711ea56d56212e1ec8c3e62f9ee1"
+    },
+    {
+      "path": "garden/probe_files.ps1",
+      "bytes": 378,
+      "sha256": "add82ccfe90ef0452abfc9fb2044ca03c7b5d610ecf7b426911c369847e7b7be"
+    },
+    {
+      "path": "garden/probe_net.ps1",
+      "bytes": 552,
+      "sha256": "d524dba1b5cc30c12923abcfe9361a916095cc2976ebc6a4faa303772a64c098"
+    },
+    {
+      "path": "garden/probe_nodes.py",
+      "bytes": 1040,
+      "sha256": "07c8599243f840c7d53cfb9114452e3c9f204327f133e8fdffa2c04e9992a915"
+    },
+    {
+      "path": "garden/procs.ps1",
+      "bytes": 346,
+      "sha256": "462e0be7935914fee60a14aa677083e33b80af353576eca18351c664cca5fda5"
+    },
+    {
+      "path": "garden/progA.json",
+      "bytes": 6704,
+      "sha256": "598e8bff63d231e74aca7538db4595a28cbcf97a7ffc4867223b12ccd779ddb8"
+    },
+    {
+      "path": "garden/progB.json",
+      "bytes": 6704,
+      "sha256": "3e062eace24a22ea7987a0bb6bda5a097cdf1a063f26ddf98de7b9057071c5b0"
+    },
+    {
+      "path": "garden/rooms.json",
+      "bytes": 5309,
+      "sha256": "d46f2d4b5fe490a457e88d4f405ff9475393f08f4b19dc27c616844d3a65d0ad"
+    },
+    {
+      "path": "garden/rooms_def.py",
+      "bytes": 2689,
+      "sha256": "00826ed2d0a1895cf39909af439ccb0a03f25a95b44b6aed99c0d1de89eecdc9"
+    },
+    {
+      "path": "garden/run_calibrate.py",
+      "bytes": 450,
+      "sha256": "dc84ba954d66c800b831c6f25030259585ad4153895dde5fdb35bd572ff2c46a"
+    },
+    {
+      "path": "garden/run_close.ps1",
+      "bytes": 396,
+      "sha256": "677d9533927c387c31087dccee1b8c5b9941a1c2102f689a49550823ff27f2cf"
+    },
+    {
+      "path": "garden/run_close2.ps1",
+      "bytes": 398,
+      "sha256": "d1085ace21557ba4f87196bdd9cd856c5aacf5d3a4e2d68d1ad8971980c16fbc"
+    },
+    {
+      "path": "garden/run_duo.ps1",
+      "bytes": 380,
+      "sha256": "c10f58a8cd8463464324f73bff4fb8a12429bfdc924b61e1982265bd59e9136e"
+    },
+    {
+      "path": "garden/run_duo2.ps1",
+      "bytes": 386,
+      "sha256": "22d2c805de77c9e4063d05f9960ece4a941fddfe383c4c1bd809ca6d509bb9b3"
+    },
+    {
+      "path": "garden/run_loratest.ps1",
+      "bytes": 474,
+      "sha256": "75d20434d82e6dd3ede0e6afab1d05eb9ce80f1abdb7ef55c0e1c0e92eb96af7"
+    },
+    {
+      "path": "garden/run_page.ps1",
+      "bytes": 410,
+      "sha256": "b25dc3b625ede82c87357fe212982d754f9be84ce2fe142ad34d93e41f366ef9"
+    },
+    {
+      "path": "garden/run_prog.ps1",
+      "bytes": 537,
+      "sha256": "3b742bcee2656821d3475a3a9826404ab8202a26eda300d04ec129e737a4fc4c"
+    },
+    {
+      "path": "garden/run_region.ps1",
+      "bytes": 426,
+      "sha256": "21b0d95c8f7d3799214782fb3a1b5fbb23847fbd416d29713a46ff1683e80313"
+    },
+    {
+      "path": "garden/run_rooms.ps1",
+      "bytes": 392,
+      "sha256": "cf9ac0586b3bc9b3ec41d50366076b0fc696abf19da64a273bd0bd5f39716ba8"
+    },
+    {
+      "path": "garden/scenes.py",
+      "bytes": 4456,
+      "sha256": "eaeb242980990562e187b832cda85e91206031f5e15e653aef978d09abab54cc"
+    },
+    {
+      "path": "garden/sortcrops.py",
+      "bytes": 1304,
+      "sha256": "a247bcd6e4dcfd0700c4f66810da44612dc09b5e332d822df80c4661ea318eef"
+    },
+    {
+      "path": "garden/sortrefs.py",
+      "bytes": 1917,
+      "sha256": "c977f3a31501f569ae472e6584bde90310ad2c73bed2b6d7b49f199da4cbf3e8"
+    },
+    {
+      "path": "garden/stage.py",
+      "bytes": 7234,
+      "sha256": "e8fa92419957da2c69a6ddf1da513a63d7e6800653b6cfabac083093da71e3c8"
+    },
+    {
+      "path": "garden/start_comfy.cmd",
+      "bytes": 200,
+      "sha256": "3cb565d6281d93e4c5f9440c745ad0a499e2cccd1bc1808d8862ebedde447e39"
+    },
+    {
+      "path": "garden/status.ps1",
+      "bytes": 921,
+      "sha256": "7641e73afc792a06e0627a77c2afc7ee9b5e6d79e8be7d8dc6857c0d8a6ae8a5"
+    },
+    {
+      "path": "garden/status2.ps1",
+      "bytes": 621,
+      "sha256": "a72c07a3bcda265a679e8b74659ba8ed3a0b34daf5515363df405c570546bd8c"
+    },
+    {
+      "path": "garden/status3.ps1",
+      "bytes": 490,
+      "sha256": "c9fa8c9862422eb9e7775fc6dd1ac6281ab8ab746df871230030b70137242b9f"
+    },
+    {
+      "path": "garden/status4.ps1",
+      "bytes": 460,
+      "sha256": "f62e2a4655ed741912b3e60f5f5576efac61501390b1c16869bde1a1e09ff478"
+    },
+    {
+      "path": "garden/status5.ps1",
+      "bytes": 427,
+      "sha256": "d5099683d157715e4eceb6e0a8a032c0118942f39ebe88216edd0612bba81e02"
+    },
+    {
+      "path": "garden/stop_dl.ps1",
+      "bytes": 718,
+      "sha256": "87fe94fe826b2c4b21de62a87ea14904983a28f578c08d2df875bf806129e3c8"
+    },
+    {
+      "path": "garden/style.py",
+      "bytes": 1780,
+      "sha256": "23b9b90f42bbc58f7f8c045b708048d124f7a3ed289ac78e881ba4615ba1763f"
+    },
+    {
+      "path": "garden/styles3.py",
+      "bytes": 2354,
+      "sha256": "64d5d6118d748f5246d15b642be46b29710d3ee42b034e2e442d70613e031dcc"
+    },
+    {
+      "path": "garden/styles6.py",
+      "bytes": 3157,
+      "sha256": "85f7f9708faf8c456e11b92795c5c8e9d2f39cb878ff51514274d87630b5f012"
+    },
+    {
+      "path": "garden/test1.json",
+      "bytes": 3197,
+      "sha256": "3a089a8780b3a3f1f2f4df21b23f3c0aad86614b6c9be078c03f6a6fa4601e3f"
+    },
+    {
+      "path": "garden/train_sigrid.yaml",
+      "bytes": 2311,
+      "sha256": "92ebc20425be1af7bb2620efdf20b4f331ef02bb002c3959d6841a2cc9fc4755"
+    },
+    {
+      "path": "garden/train_soren.yaml",
+      "bytes": 2518,
+      "sha256": "426cebd3ffbb4523038d1a84942af6c6d2a36f40113054a649e8734b3c1cbdba"
+    },
+    {
+      "path": "garden/voidfx.py",
+      "bytes": 6961,
+      "sha256": "0fb10ec0d89bbeb950cf8bf09fcac4189d431099ce0979c43510f90e4f73673f"
+    },
+    {
+      "path": "get_ipadapter.cmd",
+      "bytes": 1893,
+      "sha256": "b971c3c53141fe98c3f31ce8ebb41eb1d391828613d1c9ddf1b549c1825c7c18"
+    },
+    {
+      "path": "latest-prompt-9-3-2026-2127.txt",
+      "bytes": 28314,
+      "sha256": "1f750f8147e39e4f94b505268c79ac43fd510ec1b4a64ab7d070fe9b95a34812"
+    },
+    {
+      "path": "new-prompt.txt",
+      "bytes": 30981,
+      "sha256": "59d31610f0a668f1a2b088200832636357f46855f119bc91790d0d82287f736b"
+    },
+    {
+      "path": "run_batch.cmd",
+      "bytes": 1571,
+      "sha256": "fbb27a17ab45828d7197977c9c01cab37636b62962668f5a2b4cfca7b30afe98"
+    },
+    {
+      "path": "run_comfy.cmd",
+      "bytes": 821,
+      "sha256": "e90453dc13402f77b0f7d3a237b8145e71f5fb954292aad347ed45e5afb0ab59"
+    },
+    {
+      "path": "trainer/README.md",
+      "bytes": 3595,
+      "sha256": "08f5376c5f35c7aecbbb0a455f6d4782d385fe097c14a56982ec433a88c16730"
+    },
+    {
+      "path": "trainer/SHOOT_GUIDE.md",
+      "bytes": 4062,
+      "sha256": "0dbc9867adc4d6052631db8162645f0748deeb24598de44b5c5acf959bed9133"
+    },
+    {
+      "path": "trainer/finalize.py",
+      "bytes": 2277,
+      "sha256": "83c54a48dd688b079cf6f292d127e5bd23d87812ef3c64c22d59501e60825317"
+    },
+    {
+      "path": "trainer/install_trainer.cmd",
+      "bytes": 2013,
+      "sha256": "1036c745aa4682248b19dcdbac8710e9d3c1ebcb1fa95cfdfc3e5a1e827b5bb3"
+    },
+    {
+      "path": "trainer/prep_photos.py",
+      "bytes": 10532,
+      "sha256": "fa1c6b520b7d36ae9485ed2f16ad458ec7f19105feb969e77db7fa9d3924e23f"
+    },
+    {
+      "path": "trainer/prepared/000_lioncub.png",
+      "bytes": 464084,
+      "sha256": "5a850cd235978725e6dce085474c4cfae0d2f4734acb847682308223bf0d731a"
+    },
+    {
+      "path": "trainer/prepared/000_lioncub.txt",
+      "bytes": 59,
+      "sha256": "252b45a952eabee357721b0729b4ac8bd7dc42551fda82e9594d6f24557843e9"
+    },
+    {
+      "path": "trainer/prepared/001_lioncub.png",
+      "bytes": 553904,
+      "sha256": "f786778fc96b03e048ce87467e555505aea4e0bd5bf3109a8835463397eee1c5"
+    },
+    {
+      "path": "trainer/prepared/001_lioncub.txt",
+      "bytes": 65,
+      "sha256": "39c26d4c2b037d00f274fc5aec4c44e4fb18a1c5812b1795177effe39a1cf01c"
+    },
+    {
+      "path": "trainer/prepared/002_lioncub.png",
+      "bytes": 431196,
+      "sha256": "24348237b2c2a06e9b643a3c7615a0089f1f1a5b3bc766f56961b7f524c80120"
+    },
+    {
+      "path": "trainer/prepared/002_lioncub.txt",
+      "bytes": 59,
+      "sha256": "252b45a952eabee357721b0729b4ac8bd7dc42551fda82e9594d6f24557843e9"
+    },
+    {
+      "path": "trainer/prepared/003_lioncub.png",
+      "bytes": 292251,
+      "sha256": "7072086ae30e0e5e669eed8452db2be34671be8ae6a54ca34b3428dd76926f36"
+    },
+    {
+      "path": "trainer/prepared/003_lioncub.txt",
+      "bytes": 57,
+      "sha256": "a8d9b244c4650db8f0c5a37ba8832768f818d8c0c14016dcf9da068dc1574020"
+    },
+    {
+      "path": "trainer/prepared/004_lioncub.png",
+      "bytes": 583806,
+      "sha256": "8f8677249b33276298c4ec6c877a4413fbe51767a5137500845c003a7b0eef02"
+    },
+    {
+      "path": "trainer/prepared/004_lioncub.txt",
+      "bytes": 66,
+      "sha256": "6fa04414012bab604aef5baf16c0895b32c219b1b7d312b260bde512c5c051ca"
+    },
+    {
+      "path": "trainer/prepared/005_lioncub.png",
+      "bytes": 408538,
+      "sha256": "bb83d8f23c08ed94c941380879d1a73cf57b5b4d1eeb1955c90d217fbd3c4ea9"
+    },
+    {
+      "path": "trainer/prepared/005_lioncub.txt",
+      "bytes": 48,
+      "sha256": "93f870981d6473e6a0f9bc8e1bd90f50ed231f095bc013d723ba505368baea7f"
+    },
+    {
+      "path": "trainer/prepared/006_lioncub.png",
+      "bytes": 409585,
+      "sha256": "03d147b7d9ac4602fe7ce7d23d00938b950fab5b3712f672e33cf566cfa11a67"
+    },
+    {
+      "path": "trainer/prepared/006_lioncub.txt",
+      "bytes": 59,
+      "sha256": "252b45a952eabee357721b0729b4ac8bd7dc42551fda82e9594d6f24557843e9"
+    },
+    {
+      "path": "trainer/prepared/007_lioncub.png",
+      "bytes": 583107,
+      "sha256": "1bff879d8ed815cb9f49be61d39f6af890b0ae76c56bba00db8c43c68b42583a"
+    },
+    {
+      "path": "trainer/prepared/007_lioncub.txt",
+      "bytes": 66,
+      "sha256": "6fa04414012bab604aef5baf16c0895b32c219b1b7d312b260bde512c5c051ca"
+    },
+    {
+      "path": "trainer/prepared/008_lioncub.png",
+      "bytes": 431534,
+      "sha256": "79515e3dd851b063b6270c89b5c3f2cc97ad497d274b378faca13b581efbaa49"
+    },
+    {
+      "path": "trainer/prepared/008_lioncub.txt",
+      "bytes": 59,
+      "sha256": "252b45a952eabee357721b0729b4ac8bd7dc42551fda82e9594d6f24557843e9"
+    },
+    {
+      "path": "trainer/prepared/009_lioncub.png",
+      "bytes": 393513,
+      "sha256": "928da2cd2bf5ec3f5187b18dfbc5c1f59b5842ccb4be2cdeb630bf43f962431d"
+    },
+    {
+      "path": "trainer/prepared/009_lioncub.txt",
+      "bytes": 56,
+      "sha256": "9679ced3e3fd4407db998bd00d3f286d0139d5b70651fad35d393fe4e18bcf59"
+    },
+    {
+      "path": "trainer/stage_dataset.cmd",
+      "bytes": 1436,
+      "sha256": "9829c2d4462ddc4c55ea0a26d9954f94ce2e78388c71f5493c679c9495c7cfe3"
+    },
+    {
+      "path": "trainer/train_lora.cmd",
+      "bytes": 3011,
+      "sha256": "a8b774dc672639b4594984667dcd22b97391df1f8edcfde784aaaba9beea6a5b"
+    }
+  ]
+}

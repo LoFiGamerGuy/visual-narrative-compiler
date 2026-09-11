@@ -1,0 +1,9 @@
+# N9-12 and N9-13 actual lead review
+
+12 primary f3c04536862cdf45d3e52713b998aa023da1b44a1342e0f25acaefcdb2dffe50 selected whole. Root actually viewed whole and exact [65,655,450,860] foot detail: front/right sole clearly supported, rear/left heel lifted and toe contact foreground-lamp occluded, not a complete two-sole proof. Brief braced push-off is coherent with11 and following flight; no prolonged stationary Hold claim. ONE strand joins exposed rear RIGHT pommel to source-facing brass band, separate blade/empty LEFT/current closed worn load. Assets agrees. No repair or texture finish needed.
+
+Root ACTUALLY read individual12 at390 and ONE full11–12 column including prior10 tail, snapshotbb4077a7066f945a19e4ee00f132dea7f53f8ede05f8d955712a36f5485b7aef: PASS with same rear-contact limitation.
+
+13 primary7a8cef2437b6630f22e34e739d4409159966d936d8445337a0e3bc5946d8f8c8 actual whole reviewed: force/airborne body coherent, but both boots remain over gap and lowest sole below arrival lip. Rejected for required completed edge clearance. Sole R1 99de00eaec08a546cd2b6c02cb5256abd0d23437bf2943b85ea6ea5324f4223a actual whole viewed, selected: body shifted right/up, both boots visibly over original arrival floor and clear its solid edge; same deck outline and no bridge, ample braking floor. RIGHT force/empty LEFT/one worn load retained. Sera position slightly changes on same supported rear route; no duplicate or teleport. This is flight, not supported Hold.13 phone review pending. No texture finish warranted.
+
+Root ACTUALLY read13 individual390 and ONE complete12–13 column also showing11, snapshota769f5b20885b2afb71b8373a7815b61e02133a458ad32f0dd1ec10d53186112: PASS. Both boots clear floor in flight, same original geography; no supported-stop claim until14. Assets independently passed13R1.

@@ -1,0 +1,552 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pipeline inventory and experiment genealogy · Pipeline review</title><link rel="stylesheet" href="../review.css"></head><body><a class="skip" href="#main">Skip to content</a><header><div class="eyebrow">Independent production audit · September 2026</div><nav aria-label="Review navigation"><a href="../index.html">Review hub</a><a href="executive-decision.html">Decision</a><a href="next-pilot-specification.html">Pilot plan</a><a href="../pilot-proof.html">Rough proof</a><a href="changed-files-and-integrity.html">Integrity</a></nav></header><main id="main" class="report"><p><a href="../../../../research/anime-pipeline-total-review/pipeline-inventory.md">Markdown source</a></p><h1 id="pipeline-inventory-and-experiment-genealogy">Pipeline inventory and experiment genealogy</h1>
+<p>This inventory identifies <strong>20 materially distinct mechanism families</strong>, with style variants and repairs nested under their parent route. It discovers nine protected worktrees and 274 root output/result/run-manifest families. Branch creation alone is not a production advance. The two pre-existing total-review worktrees contain review attempts; the unused <code>anime-pipeline-reimagining</code> worktree remains at the same head as main. Neither creates another comic pipeline.</p>
+<p>The machine-readable <a href="../../../../research/anime-pipeline-total-review/pipeline-inventory.json">inventory</a> resolves every requested field for every family, including unknown provider metadata, acceptance limits, inputs, selection, repair, inheritance and an eight-stage map. <a href="../../../../research/anime-pipeline-total-review/evidence/reader-paths.json">Reader paths</a> links 39 existing local reading surfaces. Paths are linked into protected trees; their art is not copied. <a href="../../../../research/anime-pipeline-total-review/evidence/technical-measurements.json">Technical measurements</a> independently verifies source and code claims. Availability is not a claim that the archivist visually reviewed every artifact. Visual findings and scored judgments belong in the independent visual audit.</p>
+<p><strong>Rights scope:</strong> legacy likeness/model cautions are not evidence those inputs fed every later original route. Route-specific input descriptions govern; no cross-route private-reference use is inferred.</p>
+<h2 id="exact-worktree-coordinates">Exact worktree coordinates</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Protected worktree</th>
+<th>Branch</th>
+<th>Head</th>
+<th>Commit timestamp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="file:///mnt/c/AgentWorkspaces/anime-pipeline">anime-pipeline</a></td>
+<td><code>main</code></td>
+<td><code>40e7940016ea3c3966752b61f55a931f91a13ac7</code></td>
+<td>2026-09-03T17:07:10-04:00</td>
+</tr>
+<tr>
+<td><a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904">anime-pipeline-ember-lattice-editorial-gear-20260904</a></td>
+<td><code>autonomous/ember-lattice-editorial-gear-20260904</code></td>
+<td><code>99cb5e9e37c211965a01213a6f7af7103aee8cf3</code></td>
+<td>2026-09-04T23:31:46-04:00</td>
+</tr>
+<tr>
+<td><a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-premium-rd-20260904-150943">anime-pipeline-ember-lattice-premium-rd-20260904-150943</a></td>
+<td><code>autonomous/ember-lattice-premium-rd-20260904-150943</code></td>
+<td><code>fb10c87f974db4e02d8166b80b9489ef47af8f40</code></td>
+<td>2026-09-04T21:37:08-04:00</td>
+</tr>
+<tr>
+<td><a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-litrpg-manhwa-20260904-001211">anime-pipeline-litrpg-manhwa-20260904-001211</a></td>
+<td><code>autonomous/ten-chapter-litrpg-manhwa-20260904-001211</code></td>
+<td><code>023330e8b62335d27fee4d7369e2a0201a0e22d6</code></td>
+<td>2026-09-04T10:12:21-04:00</td>
+</tr>
+<tr>
+<td><a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-reimagining">anime-pipeline-reimagining</a></td>
+<td><code>autonomous/ten-chapter-reimagining</code></td>
+<td><code>40e7940016ea3c3966752b61f55a931f91a13ac7</code></td>
+<td>2026-09-03T17:07:10-04:00</td>
+</tr>
+<tr>
+<td><a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-reimagining-20260903">anime-pipeline-reimagining-20260903</a></td>
+<td><code>autonomous/ten-chapter-reimagining-20260903</code></td>
+<td><code>fa6650a4f8e51e7d1138ea2c207fd560411f023a</code></td>
+<td>2026-09-03T20:10:51-04:00</td>
+</tr>
+<tr>
+<td><a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-reimagining-clean-webtoon-20260903-213010">anime-pipeline-reimagining-clean-webtoon-20260903-213010</a></td>
+<td><code>autonomous/ten-chapter-clean-webtoon-20260903-213010</code></td>
+<td><code>d1cfa464be3508809b2a6c7150ef0b29262772ca</code></td>
+<td>2026-09-03T23:53:11-04:00</td>
+</tr>
+<tr>
+<td><a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-total-review-20260905-092558">anime-pipeline-total-review-20260905-092558</a></td>
+<td><code>autonomous/anime-pipeline-total-review-20260905-092558</code></td>
+<td><code>99cb5e9e37c211965a01213a6f7af7103aee8cf3</code></td>
+<td>2026-09-04T23:31:46-04:00</td>
+</tr>
+<tr>
+<td><a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-total-review-20260906-211925">anime-pipeline-total-review-20260906-211925</a></td>
+<td><code>autonomous/anime-pipeline-total-review-20260906-211925</code></td>
+<td><code>99cb5e9e37c211965a01213a6f7af7103aee8cf3</code></td>
+<td>2026-09-04T23:31:46-04:00</td>
+</tr>
+</tbody>
+</table></div>
+<p>The integrity lead owns before/after statuses and protected-ref proof. Heads above were independently read with <code>GIT_OPTIONAL_LOCKS=0</code> and explicit Windows-worktree git-dir/work-tree paths. All worktree dates are commit dates, not automatically first generation dates.</p>
+<h2 id="chronological-genealogy">Chronological genealogy</h2>
+<pre><code class="language-text">Garden/Anima + global LoRAs
+ ├─ regional text masks (global LoRA effect remains)
+ ├─ separate actor plates → Pillow composite → calibrated 2D stage
+ │                                          └─ OBJ/Blender fictional controls
+ └─ sequential per-character inpaint → set-change limitations
+Fictional controls
+ ├─ local FLUX.2 Klein proxy tests
+ ├─ Illustrious/Xinsir masked repair matrices
+ └─ G07 four-provider API bakeoff → deterministic patch/boundary controls
+North Garden in-product ImageGen sequences
+ └─ CH05 r1–r6 + six style arms + reference ablations
+     └─ selected semantic/cadence hybrid → CH06–CH13 320 candidates
+Borrowed Down: 3×2 five-selected-cell sheet + outside-art Pillow lettering
+ └─ City Keeps Oaths: three-panel vertical strips + inline Pillow lettering
+     └─ Ember Lattice: approved16-panel Candidate B pilot
+         └─ ten chapters /240 panels /numeric system + SVG lettering
+             └─ premium24-case fresh/refined art benchmark
+                 └─ unique52-panel Chapter1
+                     └─ same52 editorial lettering/12 filtered plates + gear/cast bible
+</code></pre>
+<p>Arrows express conceptual inheritance; Borrowed Down and City are independent git branches from earlier coordinates rather than a claim that every arrow is a Git parent. <code>pipeline-inventory.json</code> contains exact branch heads. The dormant local routes, provider controls and failed masks are evidence, not interchangeable alternatives already proven on premium story art.</p>
+<h2 id="what-physically-changed-at-each-stage">What physically changed at each stage</h2>
+<p>| Stage | Local legacy | Borrowed / City | Ember pilot and volume | Premium / editorial |
+|---|---|---|---|
+| Narrative | Canon, gauntlet, then chapter plans | New premises; force/irreversible state | Numerical progression and adult-cast contract | Refined52-panel opening; item/future-cast expansion |
+| Layout | Prompt poses or calibrated plate geometry | Fixed five-selected-cell sheet / three-panel strip | Mainly individual tall source panels | Individual portrait plates, story correspondence and reuse selected |
+| Identity | Global LoRAs, regional text, per-actor passes | Shared generated sheets + repeated text | Candidate B and equipment/character anchors | Multi-reference source generation; no editable recurring actor rig |
+| Spatial control | 2D horizon/occluders; diagnostic3D | Strip-local prompt geography | Text camera/space/equipment directives | Same; wrappers do not create camera continuity |
+| Selection | Explicit failing mechanisms and agent triage | PASS/WARN with bounded hard repair | Chapter bulk-marked agent review | Fixed workflow rubric vectors and after-the-fact coverage labels |
+| Repair | Inpaint or deterministic mask composite | Whole sequence/single cell or text-only moves | Single nonvertical-source retry | Subject removal;12 median-filter blends; no line reconstruction |
+| Lettering | Pillow | Outside-art band / inline Pillow | Editable SVG dialogue + Brass Ledger | Rewritten59 units, typed zones and exceptions |
+| Reader | PNG composites/phone derivatives | Chapter PNGs plus local review hubs | Continuous/chapter HTML with SVG overlays | Raster leaf + SVG lettering; wrappers bypassed |
+| Validation | Schemas/hash/masks/state | Same plus density probes | State arithmetic, fit, duplicate sources | Strict geometry/source-hash gates; quality scores still circular |</p>
+<h2 id="complete-family-cards">Complete family cards</h2>
+<h3 id="legacy-north-garden-gardens-anchor">legacy — North Garden / Garden’s Anchor</h3>
+<p>2026-08-31 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"stage_a_cases": 12, "stage_a_generations": 24, "stage_a_accepted": 0}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Test whether local anime generation with recurring identity adapters can meet semantic panel assertions.</li>
+<li><strong>Generation route:</strong> Local ComfyUI Anima; gen.py names anima-aesthetic-v1.1, qwen_3_06b_base encoder, qwen_image_vae, er_sde/simple sampler; gen2 adds model-only LoRA chain.</li>
+<li><strong>Inputs/reference strategy:</strong> Legacy fictional-role prompts and locally held Soren/Sigrid identity LoRAs; some historical LoRA provenance involves adult likeness, which is not cleared or reusable under the current new-art boundary.</li>
+<li><strong>Prompt architecture:</strong> Positive/negative prompt plus seed/CFG/size; global LoRAs.</li>
+<li><strong>Identity:</strong> Repeated text contracts and optional global LoRAs.</li>
+<li><strong>Spatial continuity:</strong> Prompted room and pose, later composite/stage correction.</li>
+<li><strong>Panel planning:</strong> Batch story jobs and frozen 12-case semantic gauntlet.</li>
+<li><strong>Selection/rejection and documented failures:</strong> 24 baseline cases agent triaged; zero accepted; two G11 cases fail subject-count/adult-only contract.</li>
+<li><strong>Repair:</strong> Retried prompts/LoRA weights in numbered garden build/cast/style jobs.</li>
+<li><strong>Lettering/SFX/UI:</strong> Separate deterministic Pillow page scripts; no generated prose intended.</li>
+<li><strong>Build and reader:</strong> ComfyUI/output, r2–r7stage, pagecomp families.</li>
+<li><strong>Validation/review:</strong> 12 cases×2 seeds, 903.79 seconds; agent triage, human time null.</li>
+<li><strong>Owner response:</strong> No specific owner judgment found for this mechanism.</li>
+<li><strong>Inherited lesson:</strong> Character contracts, deterministic panels and failure taxonomy.</li>
+<li><strong>Evidence of page improvement:</strong> Identity documentation improved; benchmark failures prevent claiming production capability.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/garden/gen.py">gen.py</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/garden/gen2.py">gen2.py</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/baseline_legacy_stage_a_20260831.json">baseline_legacy_stage_a_20260831.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="regional-north-garden-regional-conditioning">regional — North Garden regional conditioning</h3>
+<p>2026-08-31 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"comparison_planned_panels": 4, "accepted": null}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Separate two identities spatially without separate model loading.</li>
+<li><strong>Generation route:</strong> ComfyUI Anima + global LoRAs + ConditioningSetMask/ConditioningCombine.</li>
+<li><strong>Inputs/reference strategy:</strong> Legacy fictional-role prompts and locally held Soren/Sigrid identity LoRAs; some historical LoRA provenance involves adult likeness, which is not cleared or reusable under the current new-art boundary.</li>
+<li><strong>Prompt architecture:</strong> Base scene plus regional text masks; percentage-area approach replaced after latent-dimension IndexError.</li>
+<li><strong>Identity:</strong> LoRA chain remains global; text conditioning is regional, not masked LoRA weights.</li>
+<li><strong>Spatial continuity:</strong> Image-coordinate rectangles.</li>
+<li><strong>Panel planning:</strong> Same four page01 beats provide local contrast with composite method.</li>
+<li><strong>Selection/rejection and documented failures:</strong> Two-character interference/posing remained a diagnostic concern; no production acceptance count established.</li>
+<li><strong>Repair:</strong> Regional mask route and adjusted prompt/weights.</li>
+<li><strong>Lettering/SFX/UI:</strong> Local Pillow page assembly.</li>
+<li><strong>Build and reader:</strong> pageregion jobs and plate comparisons.</li>
+<li><strong>Validation/review:</strong> Mechanical graph evidence; pixel/identity review required.</li>
+<li><strong>Owner response:</strong> Legacy script comments record owner dissatisfaction with staging and blended/posed duos.</li>
+<li><strong>Inherited lesson:</strong> Lesson that global LoRA effect differs from regional text conditioning.</li>
+<li><strong>Evidence of page improvement:</strong> Material mechanism change, no proven reader preference.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/garden/gen3.py">gen3.py</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/garden/build_page_region.py">build_page_region.py</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/garden/pageregion.json">pageregion.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="matte-north-garden-actor-matte-pillow-composite">matte — North Garden actor matte + Pillow composite</h3>
+<p>2026-08-31 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"pagecomp_panels": 4, "pagecomp2_panels": 4, "pagecomp3_panels": 4, "g07_control_cases": 2, "g07_diffusion_generations": 0}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Preserve separate actor identities and backgrounds via compositing.</li>
+<li><strong>Generation route:</strong> Generated individual flat plates, keyed alpha; Pillow grade, ink edge, contact shadow, deterministic layer assembly.</li>
+<li><strong>Inputs/reference strategy:</strong> Legacy fictional-role prompts and locally held Soren/Sigrid identity LoRAs; some historical LoRA provenance involves adult likeness, which is not cleared or reusable under the current new-art boundary. Individual actor plates against keyed background.</li>
+<li><strong>Prompt architecture:</strong> Single-character requests plus independent background requests.</li>
+<li><strong>Identity:</strong> Separate raster actors avoid simultaneous LoRA interference.</li>
+<li><strong>Spatial continuity:</strong> Depth-sorted pastes; originally figure height as panel fraction.</li>
+<li><strong>Panel planning:</strong> Four panel01/02/03 variants.</li>
+<li><strong>Selection/rejection and documented failures:</strong> G07 actor matte control kept &gt;91% exterior pixels but 0/2 seated-at-table assertions passed; plates embedded furniture.</li>
+<li><strong>Repair:</strong> Cutout, grade, shadow and edge; alpha-only control distinguishes separability from pose asset quality.</li>
+<li><strong>Lettering/SFX/UI:</strong> Pillow text/page assembly with deterministic fonts and wraps.</li>
+<li><strong>Build and reader:</strong> pagecomp/pagecomp2/pagecomp3 and actor-matte controls.</li>
+<li><strong>Validation/review:</strong> Per-pixel unchanged region checks; agent triage; no human final acceptance.</li>
+<li><strong>Owner response:</strong> Four CH01 panels internally accepted by Codex only; not human review.</li>
+<li><strong>Inherited lesson:</strong> Separation of source art, composition and acceptance; pinned panel revisions.</li>
+<li><strong>Evidence of page improvement:</strong> Source preservation demonstrable, furniture/contact weakness unresolved.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/garden/panelcomp.py">panelcomp.py</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/garden/make_page03.py">make_page03.py</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/actor_matte_g07_controls_20260831.json">actor_matte_g07_controls_20260831.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/production/accepted/ch01-kitchen-sequence-v1.json">ch01-kitchen-sequence-v1.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="stage-north-garden-calibrated-stage-obj-blender">stage — North Garden calibrated stage / OBJ / Blender</h3>
+<p>2026-08-31–2026-09-01 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"archival_selected_panels": 4, "production_chapters_completed_by_blender": 0}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Fix feet, scale, occlusion and camera grounding.</li>
+<li><strong>Generation route:</strong> Pillow calibrated 2D room geometry; primitive OBJ; recorded Blender import/calibration and kitchen control bundles.</li>
+<li><strong>Inputs/reference strategy:</strong> Room plates, horizon/camera-height metadata, occluder masks, fictional colored proxy geometry.</li>
+<li><strong>Prompt architecture:</strong> Adapter-neutral SpatialStageSpec and explicit role IDs.</li>
+<li><strong>Identity:</strong> Geometry/proxies intentionally do not prove identity.</li>
+<li><strong>Spatial continuity:</strong> Physical-height projection from horizon; depth sorting; furniture re-composition; canonical geometry kept distinct from renderable calibration proxies.</li>
+<li><strong>Panel planning:</strong> ComicPanelPlan→spatial intent→stage controls.</li>
+<li><strong>Selection/rejection and documented failures:</strong> Four archive kitchen panels internally accepted; proxy geometry remains non-final art.</li>
+<li><strong>Repair:</strong> Adjust stage/calibration; stage controls must not be called actors.</li>
+<li><strong>Lettering/SFX/UI:</strong> Pillow derivative assembly, later separate lettering.</li>
+<li><strong>Build and reader:</strong> calib and Blender control outputs; page03 archival4.</li>
+<li><strong>Validation/review:</strong> Stage-object/camera/hash checks and visual calibration; not final character quality.</li>
+<li><strong>Owner response:</strong> Owner staging complaint preserved in garden/stage.py: people appeared on tables and out of scale.</li>
+<li><strong>Inherited lesson:</strong> Explicit separation of spatial authority and renderer control.</li>
+<li><strong>Evidence of page improvement:</strong> Corrects known scale/occlusion cause; no premium action-sequence proof.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/garden/stage.py">stage.py</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/architecture/overview.md">overview.md</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/blender_kitchen_stage_calibration_20260901.json">blender_kitchen_stage_calibration_20260901.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/blender_kitchen_control_bundle_v2_20260901.json">blender_kitchen_control_bundle_v2_20260901.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="sequential-inpaint-north-garden-per-character-sequential-inpaint">sequential-inpaint — North Garden per-character sequential inpaint</h3>
+<p>2026-08-31 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"p07_generations": 4, "g07_generations": 8, "production_accepted": 0}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Bind roles by generating one target actor per pass.</li>
+<li><strong>Generation route:</strong> Local sequential masked Anima/LoRA inpainting.</li>
+<li><strong>Inputs/reference strategy:</strong> Legacy fictional-role prompts and locally held Soren/Sigrid identity LoRAs; some historical LoRA provenance involves adult likeness, which is not cleared or reusable under the current new-art boundary. Legacy2D plate and actor target masks.</li>
+<li><strong>Prompt architecture:</strong> Two passes per seed, current target role explicit.</li>
+<li><strong>Identity:</strong> Per-character pass isolation.</li>
+<li><strong>Spatial continuity:</strong> Broad masks include set content.</li>
+<li><strong>Panel planning:</strong> P07 and G07a/b preflight; not frozen full StageA.</li>
+<li><strong>Selection/rejection and documented failures:</strong> P07 1 mechanical success/2 seeds; G07 only2/4 blocking assertion passes despite4/4 provisional role binding.</li>
+<li><strong>Repair:</strong> Per-character masked regeneration; zero-mask reconstruction control.</li>
+<li><strong>Lettering/SFX/UI:</strong> Not an independent finished lettering route.</li>
+<li><strong>Build and reader:</strong> Preserved preflight outputs/results.</li>
+<li><strong>Validation/review:</strong> Mask no-change diagnostics and hard assertions; zero production accepted.</li>
+<li><strong>Owner response:</strong> No specific owner judgment found for this mechanism.</li>
+<li><strong>Inherited lesson:</strong> Target-local edit must prove set preservation, not only role identity.</li>
+<li><strong>Evidence of page improvement:</strong> Role isolation improved in tiny preflight; set-redraw confound persists.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/sequential_inpaint_p07_smoke_20260831.json">sequential_inpaint_p07_smoke_20260831.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/sequential_inpaint_g07_controls_20260831.json">sequential_inpaint_g07_controls_20260831.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="local-proxy-north-garden-local-flux2-klein-proxy-controls">local-proxy — North Garden local FLUX.2 Klein proxy controls</h3>
+<p>2026-09-01 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"smoke_runs": 3, "smoke_proxy_assertion_passes": 2, "production_accepted": 0}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Test controllable local composition and target changes with nonprivate geometry.</li>
+<li><strong>Generation route:</strong> FLUX.2 Klein4B local; geometry tokens, tile proxies and Blender controls.</li>
+<li><strong>Inputs/reference strategy:</strong> Fictional color-role geometry, no identity references.</li>
+<li><strong>Prompt architecture:</strong> Independent seed pairs, target-change and no-change prompts.</li>
+<li><strong>Identity:</strong> Role color/count substitutes only; no human identity evidence.</li>
+<li><strong>Spatial continuity:</strong> Geometry images and control tiles.</li>
+<li><strong>Panel planning:</strong> G07a/b mechanisms; no authored chapter.</li>
+<li><strong>Selection/rejection and documented failures:</strong> Observed duplication and no-change restyling; not accepted production art.</li>
+<li><strong>Repair:</strong> Reference/control variants.</li>
+<li><strong>Lettering/SFX/UI:</strong> Diagnostic labels only.</li>
+<li><strong>Build and reader:</strong> geometry_proxy and geometry_proxy_tiles, Blender outputs.</li>
+<li><strong>Validation/review:</strong> Measured drift and injected proxy defects; sensor explicitly non-gating.</li>
+<li><strong>Owner response:</strong> No specific owner judgment found for this mechanism.</li>
+<li><strong>Inherited lesson:</strong> No-change and semantic controls, cautious sensor scope.</li>
+<li><strong>Evidence of page improvement:</strong> Engineering information; does not demonstrate rendered sequential craft.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/flux2_klein_geometry_proxy_g07_smoke_20260901.json">flux2_klein_geometry_proxy_g07_smoke_20260901.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/flux2_klein_blender_kitchen_control_nochange_20260901.json">flux2_klein_blender_kitchen_control_nochange_20260901.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/proxy_tile_qa_injections_20260901.json">proxy_tile_qa_injections_20260901.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="illustrious-north-garden-illustrious-xinsir-local-repair-matrix">illustrious — North Garden Illustrious / Xinsir local repair matrix</h3>
+<p>2026-09-01 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"production_accepted": 0, "generation_count": null}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Find local masked target edit that preserves exterior and desired change.</li>
+<li><strong>Generation route:</strong> Illustrious XLv2 masked proxy edit; Xinsir repaint ControlNet strength/denoise matrices and replication.</li>
+<li><strong>Inputs/reference strategy:</strong> Fictional Blender kitchen role proxies and masks.</li>
+<li><strong>Prompt architecture:</strong> Target change/no-change across strength and denoise settings.</li>
+<li><strong>Identity:</strong> Colored proxy roles only.</li>
+<li><strong>Spatial continuity:</strong> Masked/ControlNet proxy conditioning; exterior compositing.</li>
+<li><strong>Panel planning:</strong> Small mechanism matrix, not narrative chapter.</li>
+<li><strong>Selection/rejection and documented failures:</strong> Exterior preservation passed where target semantics failed; replicated route remained unreliable.</li>
+<li><strong>Repair:</strong> Strength/denoise variations and artifact-path correction.</li>
+<li><strong>Lettering/SFX/UI:</strong> None for finished reader.</li>
+<li><strong>Build and reader:</strong> illustrious_xl_v2_* output families.</li>
+<li><strong>Validation/review:</strong> Target/no-change checks, repeated trials; no production selection.</li>
+<li><strong>Owner response:</strong> No specific owner judgment found for this mechanism.</li>
+<li><strong>Inherited lesson:</strong> Negative evidence against assuming local controls are ready.</li>
+<li><strong>Evidence of page improvement:</strong> No sequential page improvement demonstrated.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/illustrious_xl_v2_masked_proxy_edit_20260901.json">illustrious_xl_v2_masked_proxy_edit_20260901.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/illustrious_xl_v2_xinsir_repaint_replication_20260901.json">illustrious_xl_v2_xinsir_repaint_replication_20260901.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/illustrious_xl_v2_xinsir_repaint_strength_matrix_20260901.json">illustrious_xl_v2_xinsir_repaint_strength_matrix_20260901.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="frontier-g07-north-garden-g07-provider-bakeoff">frontier-g07 — North Garden G07 provider bakeoff</h3>
+<p>2026-09-01 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"executed_provider_arms": 4, "required_candidates": 16, "formal_timed_decisions_completed": 0, "formal_timed_decisions_required": 20, "historical_documented_cost_usd": 1.057377}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Compare frontier target-change/no-change mechanisms using identical fictional controls.</li>
+<li><strong>Generation route:</strong> Recorded OpenAI GPT Image2, Gemini3.1 Flash Image, xAI Grok Imagine2, BFL FLUX.2 Pro APIs; managed Qwen route planned only.</li>
+<li><strong>Inputs/reference strategy:</strong> Original colored Blender proxies; four tasks per API arm.</li>
+<li><strong>Prompt architecture:</strong> Two independent requests, target change, no-change.</li>
+<li><strong>Identity:</strong> Proxy role binding, not faces/costumes.</li>
+<li><strong>Spatial continuity:</strong> Shared fictional control plate.</li>
+<li><strong>Panel planning:</strong> G07 engineering harness.</li>
+<li><strong>Selection/rejection and documented failures:</strong> 16 required candidates; no semantic premium-art or acceptance result.</li>
+<li><strong>Repair:</strong> OpenAI selected for bounded mechanism hardening; transport failures preserved.</li>
+<li><strong>Lettering/SFX/UI:</strong> None beyond diagnostic labels.</li>
+<li><strong>Build and reader:</strong> Four provider output families and blinded review packet.</li>
+<li><strong>Validation/review:</strong> Drift/structural agent triage; timed20 decisions absent despite positive owner qualitative review.</li>
+<li><strong>Owner response:</strong> Owner G07 qualitative approval recorded; exact input/production/commercial gates remained separate.</li>
+<li><strong>Inherited lesson:</strong> Nullable metadata, exact costs where exposed, blind packet structure.</li>
+<li><strong>Evidence of page improvement:</strong> Mechanism discrimination; not a professional page comparison.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/research/g07-provider-bakeoff-comparison-20260901.md">g07-provider-bakeoff-comparison-20260901.md</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/production/decisions/ng-decision-owner-visual-direction-r2.json">ng-decision-owner-visual-direction-r2.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/renderer-bakeoffs/g07-fictional-bakeoff-r1.json">g07-fictional-bakeoff-r1.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="repair-boundary-north-garden-deterministic-repair-boundary-and-topology">repair-boundary — North Garden deterministic repair boundary and topology</h3>
+<p>2026-09-01–2026-09-03 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"g07_hardening_additional_provider_calls": 0, "g07_hardening_exterior_changed_fraction": 0.0, "nochange_byte_identical": true}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Bound edits to authorized pixel regions and prove preservation.</li>
+<li><strong>Generation route:</strong> Existing provider candidate + deterministic mask compositor; adaptive boundary/mask/causal shape controls.</li>
+<li><strong>Inputs/reference strategy:</strong> Pinned original geometry or approved candidate and explicit masks; no new renderer call for byte-copy no-change.</li>
+<li><strong>Prompt architecture:</strong> Target patch instructions and source/mask hashes.</li>
+<li><strong>Identity:</strong> No new identity method.</li>
+<li><strong>Spatial continuity:</strong> Exterior unchanged by compositing; mask interior semantics independently unresolved.</li>
+<li><strong>Panel planning:</strong> G07→CH05 P036/P044 readiness and P033–P038 boundary tests.</li>
+<li><strong>Selection/rejection and documented failures:</strong> Mechanical PASS does not promote real narrative edit; exact base/mask gates remain.</li>
+<li><strong>Repair:</strong> Native candidate versus deterministic stitched result distinguished; disconnected/holed mask stress.</li>
+<li><strong>Lettering/SFX/UI:</strong> Later lettering collision boundaries.</li>
+<li><strong>Build and reader:</strong> openai_targeted_repair_* and topology stress families.</li>
+<li><strong>Validation/review:</strong> Pixel exterior equality; injection tests; hash gates; agent-only acceptance.</li>
+<li><strong>Owner response:</strong> No specific owner judgment found for this mechanism.</li>
+<li><strong>Inherited lesson:</strong> Localized repair provenance and non-target hash proof.</li>
+<li><strong>Evidence of page improvement:</strong> Strong file/pixel preservation; cannot guarantee visual seams, target correctness or action.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/experiments/results/openai-targeted-repair-hardening-r1.json">openai-targeted-repair-hardening-r1.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/adr/ADR-0013-native-repair-and-deterministic-exterior-compositing-are-separate-assertions.md">ADR-0013-native-repair-and-deterministic-exterior-compositing-are-separate-assertions.md</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="ng03-05-north-garden-hosted-sequential-generation">ng03-05 — North Garden hosted sequential generation</h3>
+<p>2026-09-01–2026-09-03 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"ch03_panels": 3, "ch04_panels": 3, "ch05_panel_positions_per_assembly": 50, "ch05_assembly_revisions": 6}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Use in-product generated sequences and strong anchors for readable narrative.</li>
+<li><strong>Generation route:</strong> Built-in ImageGen; CH03/CH04 three-panel drafts and CH05 five-panel strips plus targeted repairs.</li>
+<li><strong>Inputs/reference strategy:</strong> Three authorized fictional adult art hashes for composition, Sigrid face, dual identity/action.</li>
+<li><strong>Prompt architecture:</strong> ComicPanelPlan→exact sequence prompts; crop manifests.</li>
+<li><strong>Identity:</strong> Repeated role contracts and prior generated anchor sheets.</li>
+<li><strong>Spatial continuity:</strong> Text staging and selected compositions, not shared3D final scene.</li>
+<li><strong>Panel planning:</strong> CH03/04 plans3 each; CH05 50 ordered panels.</li>
+<li><strong>Selection/rejection and documented failures:</strong> CH05 drafts r1–r6 repair selected narrative/prop ambiguities; candidate review only.</li>
+<li><strong>Repair:</strong> Panel-specific replacements, immutable revisions.</li>
+<li><strong>Lettering/SFX/UI:</strong> Separate local lettering, transparent/outside-art experiments.</li>
+<li><strong>Build and reader:</strong> Chapter PNG phone/native/contact surfaces.</li>
+<li><strong>Validation/review:</strong> Hard assertions, exact prompts/RenderRecords; null provider fields; owner qualitative direction.</li>
+<li><strong>Owner response:</strong> 2026-09-01 approval of script/contact sheet/direction; final candidates unaccepted.</li>
+<li><strong>Inherited lesson:</strong> Sequence generation, references, revisions and full phone review.</li>
+<li><strong>Evidence of page improvement:</strong> Owner liked four-panel character direction, requested lower density/more exciting causal action.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/production/comic/run-manifests/ch05-complete-chapter-assembly-manifest-r6.json">ch05-complete-chapter-assembly-manifest-r6.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/research/ch05-final-model-license-provenance-audit-r1.md">ch05-final-model-license-provenance-audit-r1.md</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/research/ch05-visual-direction-assessment-20260901.md">ch05-visual-direction-assessment-20260901.md</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="ng05-routes-north-garden-ch05-six-route-stylecadence-experiments">ng05-routes — North Garden CH05 six-route style/cadence experiments</h3>
+<p>2026-09-02–2026-09-03 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"complete_visual_arms": 6, "positions_per_arm": 50, "arm_panel_positions": 300, "unique_generation_count": null}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Find cleaner sequential visual language with matched chapter coverage.</li>
+<li><strong>Generation route:</strong> Same in-product generation route with r6 graphic-painterly, alternate graphic, premium cel, clear-line watercolor, flat graphic gouache, reduced-palette text control; style variants not six independent providers.</li>
+<li><strong>Inputs/reference strategy:</strong> Authorized fictional adult reference hashes; S01/S11 ablations and P005/P006 attribution control.</li>
+<li><strong>Prompt architecture:</strong> Same50-panel brief with changed style/reference directives.</li>
+<li><strong>Identity:</strong> Anchor reuse can preserve both identity and unwanted rendering traits.</li>
+<li><strong>Spatial continuity:</strong> Prompted camera/geometry; variant route boundary continuity.</li>
+<li><strong>Panel planning:</strong> Full50 positions each; ablations isolate limited factors.</li>
+<li><strong>Selection/rejection and documented failures:</strong> Selected semantic hybrid/cadence retains failures and warnings; no calibrated owner ranking.</li>
+<li><strong>Repair:</strong> Targeted premium-cel repair trio; selected-route recombination.</li>
+<li><strong>Lettering/SFX/UI:</strong> Matched local lettering, outside-art/transparency/width sensitivity.</li>
+<li><strong>Build and reader:</strong> All50 six-route sheets, phone comparisons and long scrolls.</li>
+<li><strong>Validation/review:</strong> Density entropy/edge/HF metrics explicitly non-aesthetic; matched pair stochastic limits.</li>
+<li><strong>Owner response:</strong> No specific owner judgment found for this mechanism.</li>
+<li><strong>Inherited lesson:</strong> Variable cadence and selected semantic backbone.</li>
+<li><strong>Evidence of page improvement:</strong> Full-set comparisons and counterexamples improved diagnosis; predictive owner preference unproven.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/research/ch05-six-route-owner-review-handoff-r1.md">ch05-six-route-owner-review-handoff-r1.md</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/research/evidence/ch05-s01-flat-gouache-reference-ablation-comparison-r1.json">ch05-s01-flat-gouache-reference-ablation-comparison-r1.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/research/evidence/ch05-p005-p006-route-attribution-control-r1.json">ch05-p005-p006-route-attribution-control-r1.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="ng06-13-north-garden-house-route-extension-and-lettering">ng06-13 — North Garden house-route extension and lettering</h3>
+<p>2026-09-03 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"chapters": 8, "sequences": 64, "panels": 320, "triage_pass": 296, "triage_warn": 5, "triage_fail": 19}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Carry progression, injury/gear and selected house route through eight chapters.</li>
+<li><strong>Generation route:</strong> Built-in ImageGen five-panel strips + deterministic crops/lettering.</li>
+<li><strong>Inputs/reference strategy:</strong> Three authorized fictional anchors, accumulated continuity state.</li>
+<li><strong>Prompt architecture:</strong> Chapter pair prompt manifests; eight five-panel groups per chapter.</li>
+<li><strong>Identity:</strong> Adult Soren/Sigrid contracts; newcomers prompt-based.</li>
+<li><strong>Spatial continuity:</strong> Sequence geography and carried gear/injury text.</li>
+<li><strong>Panel planning:</strong> 8×40 plans, progression arc and irreversible state.</li>
+<li><strong>Selection/rejection and documented failures:</strong> 296 PASS/5 WARN/19 FAIL provisional candidate triage; human accepted0.</li>
+<li><strong>Repair:</strong> CH12–13 shoulder-state targeted hardening; failed candidates remain diagnostic.</li>
+<li><strong>Lettering/SFX/UI:</strong> Local lettered PNG complete/phone readers.</li>
+<li><strong>Build and reader:</strong> CH06–13 progression and local-lettering review packets.</li>
+<li><strong>Validation/review:</strong> State carry, contact/prose/identity flags and output ledgers.</li>
+<li><strong>Owner response:</strong> No specific owner judgment found for this mechanism.</li>
+<li><strong>Inherited lesson:</strong> Progression and irreversible-state carry; chapter-scale production habits.</li>
+<li><strong>Evidence of page improvement:</strong> Long-form continuity infrastructure grows;19 hard visual failures in review draft contradict mature-production readiness.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/research/ch06-ch13-progression-review-handoff-r1.md">ch06-ch13-progression-review-handoff-r1.md</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/production/comic/run-manifests/ch06-default-house-route-execution-r1.json">ch06-default-house-route-execution-r1.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="borrowed-borrowed-down">borrowed — Borrowed Down</h3>
+<p>2026-09-03 · <code>autonomous/ten-chapter-reimagining-20260903</code> · <code>fa6650a4f8e51e7d1138ea2c207fd560411f023a</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"chapters": 10, "sequences": 60, "panels": 300, "lettering_entries": 300, "requests_total": 67, "requests_sequence_and_repair": 62, "style_probes": 4, "reference_requests": 1, "summed_request_latency_seconds": 15939.808}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Replace premise and visual identity while retaining continuity/force-state engineering.</li>
+<li><strong>Generation route:</strong> Built-in ImageGen 3×2 sheets, first five cells selected; Pillow cropping and outside-art lettering.</li>
+<li><strong>Inputs/reference strategy:</strong> Original adult cast/style anchor, character reference; chapter palette and irreversible state.</li>
+<li><strong>Prompt architecture:</strong> Six five-beat sheets/chapter; full sheet generated, equal-cell crop8px inward.</li>
+<li><strong>Identity:</strong> Text invariants plus shared reference image.</li>
+<li><strong>Spatial continuity:</strong> Scene prose, force-before/action/after, no reusable layout/model scene.</li>
+<li><strong>Panel planning:</strong> ComicPanelPlan force states and fixed role/density sequence.</li>
+<li><strong>Selection/rejection and documented failures:</strong> 34 PASS/26 WARN sequences;10 identity/cape drift warnings and16 general review warnings;2 hard failures repaired.</li>
+<li><strong>Repair:</strong> CH08 spent-knot whole sequence; CH10 keelback single cell; non-target hashes checked.</li>
+<li><strong>Lettering/SFX/UI:</strong> Deterministic Pillow bands outside artwork; blank source safe rectangles remain.</li>
+<li><strong>Build and reader:</strong> 10 chapter PNG readers and ignored HTML hub/progression/showcase.</li>
+<li><strong>Validation/review:</strong> Structure/reconciliation/tests4; preserved originals; agent review.</li>
+<li><strong>Owner response:</strong> Included in owner’s later explicit diagnosis of earlier failed attempts; no final volume acceptance found.</li>
+<li><strong>Inherited lesson:</strong> Force-state planning, local repair isolation, null provider fields.</li>
+<li><strong>Evidence of page improvement:</strong> Completed breadth/isolated corrections, but next owner prompt rejects busy painterly look/lettering/genre execution.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-reimagining-20260903/docs/reimaginings/borrowed-down/FINAL_AUDIT.md">FINAL_AUDIT.md</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-reimagining-20260903/src/reimaginings/borrowed_down/pipeline.py">pipeline.py</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-reimagining-20260903/production/reimaginings/borrowed-down/volume-manifest.json">volume-manifest.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="city-the-city-keeps-oaths">city — The City Keeps Oaths</h3>
+<p>2026-09-03 · <code>autonomous/ten-chapter-clean-webtoon-20260903-213010</code> · <code>d1cfa464be3508809b2a6c7150ef0b29262772ca</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"chapters": 10, "sequences": 40, "panels": 240, "requests_total": 91, "requests_production": 80, "pilot_requests": 9, "reference_requests": 2, "metric_warn_panels": 186, "lettering_repairs": 7, "summed_request_latency_seconds": 28172.185}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Cleaner cinematic webtoon via smaller request groups and mobile lettering.</li>
+<li><strong>Generation route:</strong> Built-in ImageGen three-panel vertical strips, two strips per six-panel sequence; Pillow inline balloons.</li>
+<li><strong>Inputs/reference strategy:</strong> Two fictional adult reference assets and selected clean-cinematic style anchor.</li>
+<li><strong>Prompt architecture:</strong> Individual/two/three-panel pilot87/91/94 internal scores; three-panel topology locked.</li>
+<li><strong>Identity:</strong> Reference conditioning, prompt state.</li>
+<li><strong>Spatial continuity:</strong> Strip-local continuity with declared density and per-beat camera.</li>
+<li><strong>Panel planning:</strong> 4×6 beats/chapter; fixed16low5moderate3high planning budget.</li>
+<li><strong>Selection/rejection and documented failures:</strong> 29 PASS/11 WARN sequences;186/240 metric WARN;7 hard lettering clearances fixed.</li>
+<li><strong>Repair:</strong> Deterministic lettering safe-zone relocation; source pixels unchanged.</li>
+<li><strong>Lettering/SFX/UI:</strong> Pillow balloons/captions/SFX in normalized zones.</li>
+<li><strong>Build and reader:</strong> 10 complete PNG readers, viewer HTML, phone/grayscale/density/safe-zone diagnostics.</li>
+<li><strong>Validation/review:</strong> 6 source tests, pilot-relative metrics/manual agent phone review.</li>
+<li><strong>Owner response:</strong> Explicit later owner diagnosis: busy/painterly, weak force/spectacle, unattractive lettering and absent concrete LitRPG.</li>
+<li><strong>Inherited lesson:</strong> Smaller panels, density calibration, bounded typography corrections.</li>
+<li><strong>Evidence of page improvement:</strong> Real topology/collision improvement but owner explicitly rejected final generic/busy visual and genre result.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-reimagining-clean-webtoon-20260903-213010/docs/reimaginings/the-city-keeps-oaths/FINAL_AUDIT.md">FINAL_AUDIT.md</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-reimagining-clean-webtoon-20260903-213010/docs/reimaginings/the-city-keeps-oaths/adr/ADR-003-production-topology.md">ADR-003-production-topology.md</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-reimagining-clean-webtoon-20260903-213010/src/reimaginings/the_city_keeps_oaths/pipeline.py">pipeline.py</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="ember-pilot-ember-lattice-candidate-b-pilot">ember-pilot — Ember Lattice Candidate B pilot</h3>
+<p>2026-09-04 · <code>autonomous/ten-chapter-litrpg-manhwa-20260904-001211</code> · <code>023330e8b62335d27fee4d7369e2a0201a0e22d6</code> · owner-approved pilot and direction; commercial clearance false.</p>
+<p><strong>Counts:</strong> <code>{"pilot_panels": 16, "style_candidates": 3, "internal_style_scores": {"a": 91, "b": 96, "c": 85}}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Prove owner genre/cast/cleaner-action visual contract before volume.</li>
+<li><strong>Generation route:</strong> In-product ImageGen style probes and16 single critical-panel pilot sources; SVG lettering.</li>
+<li><strong>Inputs/reference strategy:</strong> Original adult Elian/Mira/world anchors and CandidateB.</li>
+<li><strong>Prompt architecture:</strong> Clean contour/cel-value/limited palette; explicit levels XP skills and adult complexion contracts.</li>
+<li><strong>Identity:</strong> Character/equipment registry plus generated sheets.</li>
+<li><strong>Spatial continuity:</strong> Prompted Ember Vault bridge and equipment constraints.</li>
+<li><strong>Panel planning:</strong> 16-panel substantial pilot with density/action/UI allocation.</li>
+<li><strong>Selection/rejection and documented failures:</strong> A91/B96/C85 agent style scores; owner explicitly approvesB and pilot.</li>
+<li><strong>Repair:</strong> Lettering v2 changes required by owner before PhaseB.</li>
+<li><strong>Lettering/SFX/UI:</strong> Organic SVG balloons; outlined open copy; narrow Brass Ledger UI.</li>
+<li><strong>Build and reader:</strong> Pilot index/reader/safe-zones HTML.</li>
+<li><strong>Validation/review:</strong> Owner approval record strong for direction, not commercial clearance.</li>
+<li><strong>Owner response:</strong> “great selection; art and candidate B are amazing”; asks wording, less occlusion and more menus/XP/skills.</li>
+<li><strong>Inherited lesson:</strong> Approved premise/cast/palette; deterministic SVG and numeric progression.</li>
+<li><strong>Evidence of page improvement:</strong> Explicit positive owner preference forB; substantial on-page/system improvement plausible, full comparative scores elsewhere.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-litrpg-manhwa-20260904-001211/production/reimaginings/ember-lattice/owner-approval.json">owner-approval.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-litrpg-manhwa-20260904-001211/production/reimaginings/ember-lattice/style-evaluation.json">style-evaluation.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-litrpg-manhwa-20260904-001211/docs/reimaginings/ember-lattice/adr/ADR-EL002-owner-approval-and-lettering-v2.md">ADR-EL002-owner-approval-and-lettering-v2.md</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="ember-volume-ember-lattice-ten-chapter-production">ember-volume — Ember Lattice ten-chapter production</h3>
+<p>2026-09-04 · <code>autonomous/ten-chapter-litrpg-manhwa-20260904-001211</code> · <code>023330e8b62335d27fee4d7369e2a0201a0e22d6</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"chapters": 10, "panels": 240, "new_requests": 225, "new_selected_sources": 224, "pilot_reuse": 16, "diagnostics": 1, "dialogue_words": 3821, "action_panels_authored": 108, "system_moments_authored": 41}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Scale approved pilot with numeric progression and causal combat.</li>
+<li><strong>Generation route:</strong> 224 new selected individual sources +16 reused pilot;1 localized retry; ImageGen + SVG.</li>
+<li><strong>Inputs/reference strategy:</strong> Hash-pinned CandidateB plus character/equipment/environment refs.</li>
+<li><strong>Prompt architecture:</strong> One panel per exact scene beat, subject contracts, no prose/UI, safe-zone instruction.</li>
+<li><strong>Identity:</strong> Adult character/equipment contracts and reference assets.</li>
+<li><strong>Spatial continuity:</strong> Text camera/bridge/dungeon staging; no canonical rendered scene.</li>
+<li><strong>Panel planning:</strong> 10×24 authored plans,108 action labels,41 meaningful system moments.</li>
+<li><strong>Selection/rejection and documented failures:</strong> 225 new requests→224 agent PASS+1 nonvertical diagnostic; chapter bulk review utility applies same note to rows.</li>
+<li><strong>Repair:</strong> One nonvertical panel replacement; preserved original and non-target hashes.</li>
+<li><strong>Lettering/SFX/UI:</strong> Local SVG balloons/open text/system UI v2; source separated.</li>
+<li><strong>Build and reader:</strong> Volume read-all, chapter full/compact/action/diagnostics, repair/progression hubs.</li>
+<li><strong>Validation/review:</strong> State arithmetic PASS,299 lettering fit checks,100 overlap-pair checks,5136 link checks; labels not artistry.</li>
+<li><strong>Owner response:</strong> Premium prompt recognizesB, characters/system/visual identity approved and volume complete; does not assert every panel visually final.</li>
+<li><strong>Inherited lesson:</strong> System state/gear world and source registry; volume treated as development draft in premium.</li>
+<li><strong>Evidence of page improvement:</strong> Concrete LitRPG and volume breadth improve; owner’s later quality gap persists.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-litrpg-manhwa-20260904-001211/production/reimaginings/ember-lattice/volume/generation-reconciliation.json">generation-reconciliation.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-litrpg-manhwa-20260904-001211/production/reimaginings/ember-lattice/volume/volume-validation.json">volume-validation.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-litrpg-manhwa-20260904-001211/src/reimaginings/ember_lattice/mark_art_review.py">mark_art_review.py</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="premium24-ember-lattice-premium24-benchmark">premium24 — Ember Lattice premium24 benchmark</h3>
+<p>2026-09-04 · <code>autonomous/ember-lattice-premium-rd-20260904-150943</code> · <code>fb10c87f974db4e02d8166b80b9489ef47af8f40</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"benchmark_panels": 24, "workflow_positions": 72, "asset_records": 76, "render_records": 76, "fresh_benchmark_requests": 24, "benchmark_edits": 4, "reference_calls": 3}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Compare baseline, fresh reference-conditioned art, and correction+SVG hybrid.</li>
+<li><strong>Generation route:</strong> 24 fresh ImageGen benchmark sources,4 targeted edits,3 fresh reference calls; deterministic SVG wrapper/lettering.</li>
+<li><strong>Inputs/reference strategy:</strong> Fresh isolated fictional Elian/Mira/Belljaw/Vault refs; archived24 CandidateB baseline plates.</li>
+<li><strong>Prompt architecture:</strong> 24 scenario briefs with no text and shared visual constraints.</li>
+<li><strong>Identity:</strong> Multi-reference generation; exact wardrobe/weapon/state instructions.</li>
+<li><strong>Spatial continuity:</strong> Rendered plate scenes, no separated controllable character/background geometry.</li>
+<li><strong>Panel planning:</strong> 24 scenario/action benchmark; all route labels attached to same plan but historical baseline not freshly same-brief rendered.</li>
+<li><strong>Selection/rejection and documented failures:</strong> 72 scored positions; hybrid chosen via fixed workflow score vectors;4 repairs.</li>
+<li><strong>Repair:</strong> Smallest requested subject/equipment fixes; wrapper grade and reservations bypassed in actual reader.</li>
+<li><strong>Lettering/SFX/UI:</strong> SVG organic balloons/SFX/Brass Ledger; shared deterministic overlay machinery.</li>
+<li><strong>Build and reader:</strong> benchmark-suite full/phone/compact/action/comparison; output hash ledger.</li>
+<li><strong>Validation/review:</strong> Schema,hash,scenario count,&gt;=6 action IDs,median/weakest-winner requirements; template scores invalidate route ranking as independent evidence.</li>
+<li><strong>Owner response:</strong> Premium objective authorized autonomous aesthetic choice; no additional owner checkpoint required in that task.</li>
+<li><strong>Inherited lesson:</strong> Modular standard-library compositor, record validation,24 fresh sources and repairs.</li>
+<li><strong>Evidence of page improvement:</strong> Separates lettering/repair and exposes failures; numeric victory is not a fair independent comparison.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-premium-rd-20260904-150943/production/reimaginings/ember-lattice/premium-rd/benchmark-manifest.json">benchmark-manifest.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-premium-rd-20260904-150943/src/reimaginings/ember_lattice/premium_rd/integrate.py">integrate.py</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-premium-rd-20260904-150943/production/reimaginings/ember-lattice/premium-rd/generation-session-timing.json">generation-session-timing.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="premium52-ember-lattice-unique52-chapter1">premium52 — Ember Lattice unique52 Chapter1</h3>
+<p>2026-09-04 · <code>autonomous/ember-lattice-premium-rd-20260904-150943</code> · <code>fb10c87f974db4e02d8166b80b9489ef47af8f40</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"chapters": 1, "panels": 52, "new_story_sources": 28, "reused_benchmark_sources": 24, "story_targeted_edits": 2, "asset_records": 158, "render_records": 158, "lettering_units": 57, "baseline_unique_art": 24}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Expand premium script to52 unique selected art sources and stronger opening.</li>
+<li><strong>Generation route:</strong> 24 reused benchmark sources+28 new unique story sources;2 targeted subject-removal edits; SVG reader.</li>
+<li><strong>Inputs/reference strategy:</strong> Premium original refs and benchmark art where story correspondence chosen.</li>
+<li><strong>Prompt architecture:</strong> Per-story scene prompts, exact equipment/monster rules.</li>
+<li><strong>Identity:</strong> Same multi-reference method.</li>
+<li><strong>Spatial continuity:</strong> Text staging, not shared controllable scene.</li>
+<li><strong>Panel planning:</strong> 52 unique selected plates;52 baseline positions mapped to24 old plates.</li>
+<li><strong>Selection/rejection and documented failures:</strong> 52 raw and52 hybrid unique hashes, but score vectors copied;2 premature boss-reveal failures repaired.</li>
+<li><strong>Repair:</strong> Targeted remove-creature edits at two panels; preserved raw failures.</li>
+<li><strong>Lettering/SFX/UI:</strong> 57 SVG lettering units; portrait1024×1536 frame format.</li>
+<li><strong>Build and reader:</strong> 52-panel phone/full/compact/action/comparison/failures site.</li>
+<li><strong>Validation/review:</strong> 158 asset/RenderRecords,0 unresolved hard failures in historic build; generated score/scenario limits.</li>
+<li><strong>Owner response:</strong> Editorial prompt accepts baseline architecture while explicitly requests better lettering and removal of busy-filter look.</li>
+<li><strong>Inherited lesson:</strong> 52 unique plates,story/system and layer separation.</li>
+<li><strong>Evidence of page improvement:</strong> Source reuse within selected52 removed; baseline comparator repeats art and is not causal control.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-premium-rd-20260904-150943/production/reimaginings/ember-lattice/premium-rd/ch01-manifest.json">ch01-manifest.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-premium-rd-20260904-150943/production/reimaginings/ember-lattice/premium-rd/ch01-generation-spec.json">ch01-generation-spec.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-premium-rd-20260904-150943/src/reimaginings/ember_lattice/premium_rd/render.py">render.py</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="editorial52-ember-lattice-letteringclean-artgearfuture-cast">editorial52 — Ember Lattice lettering/clean-art/gear/future-cast</h3>
+<p>2026-09-04 · <code>autonomous/ember-lattice-editorial-gear-20260904</code> · <code>99cb5e9e37c211965a01213a6f7af7103aee8cf3</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"chapters": 1, "panels": 52, "source_art_unique": 52, "lettering_units": 59, "clean_art_repairs": 12, "asset_records": 170, "render_records": 170, "items": 60, "evolution_chains": 12, "chain_stages": 36, "future_characters": 12, "future_factions": 8}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Improve same52 chapter lettering/noise and original gear/future cast.</li>
+<li><strong>Generation route:</strong> Same raster route;12 deterministic median-blend corrections; rewritten59 SVG lettering units; authored gear/cast concepts.</li>
+<li><strong>Inputs/reference strategy:</strong> Protected premium sources read then isolated local selected copies/derivatives.</li>
+<li><strong>Prompt architecture:</strong> Generation spec adds exact negative space after existing art; does not prove source reserved it before rendering.</li>
+<li><strong>Identity:</strong> Approved identities retained; future12 original adults and item silhouettes authored.</li>
+<li><strong>Spatial continuity:</strong> Same source staging; generic protected boxes fit around text.</li>
+<li><strong>Panel planning:</strong> Same52 story beats; world-design expansion not52 new panels.</li>
+<li><strong>Selection/rejection and documented failures:</strong> 12 declared noise failures all marked repaired; final quality89.095 identical per hybrid panel from templated score updates.</li>
+<li><strong>Repair:</strong> MedianFilter3 blend, no line redraw; lettering copy/shape/geometry changed.</li>
+<li><strong>Lettering/SFX/UI:</strong> 59 units; smaller organic balloons,open Ledger deltas,caption/SFX/tails; explicit exceptions.</li>
+<li><strong>Build and reader:</strong> Same52 readers, matched original/revised lettering, clean-art diagnostics,gear/future-cast pages.</li>
+<li><strong>Validation/review:</strong> 11 premium test methods; geometric boxes/type/duplicate-source/noise gates; independent image annotation absent.</li>
+<li><strong>Owner response:</strong> Current total-review prompt: still unlike desired Tower of God/Solo Leveling experience; improve vs rebuild vs restart unresolved.</li>
+<li><strong>Inherited lesson:</strong> Current approved source commit for total review; no new volume authorized.</li>
+<li><strong>Evidence of page improvement:</strong> Editable copy and12 texture reductions are real; zero collisions/89.095 scores overstate independent quality proof.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/src/reimaginings/ember_lattice/premium_rd/editorial.py">editorial.py</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/production/reimaginings/ember-lattice/premium-rd/ch01-clean-art-audit.json">ch01-clean-art-audit.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/production/reimaginings/ember-lattice/premium-rd/gear-item-bible.json">gear-item-bible.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/production/reimaginings/ember-lattice/premium-rd/future-cast-bible.json">future-cast-bible.json</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h3 id="harnesses-cross-pipeline-evidencecompilerreview-infrastructure">harnesses — Cross-pipeline evidence/compiler/review infrastructure</h3>
+<p>2026-08-31–2026-09-03 · <code>main</code> · <code>40e7940016ea3c3966752b61f55a931f91a13ac7</code> · historical research candidate.</p>
+<p><strong>Counts:</strong> <code>{"modules": 603, "physical_lines": 76613, "validate_prefixed_modules": 317, "accepted_records": 1, "internally_accepted_panels": 4}</code>.</p>
+<ul>
+<li><strong>Hypothesis:</strong> Separate intent/execution/acceptance and prevent silent state mutations.</li>
+<li><strong>Generation route:</strong> 603 Python modules; schemas,hard assertions,RenderRecords,ledgers,immutable revisions,mask controls,review surfaces.</li>
+<li><strong>Inputs/reference strategy:</strong> Canon,story state,plans,stage controls and hash-pinned outputs.</li>
+<li><strong>Prompt architecture:</strong> Prompt compilers record exact string/hash and references.</li>
+<li><strong>Identity:</strong> Identity contracts separate from actual visual evidence.</li>
+<li><strong>Spatial continuity:</strong> Stage/geometry/control classes are expressly limited.</li>
+<li><strong>Panel planning:</strong> NarrativeIntent→ComicPanelPlan; AnimationShotPlan/E-Conte declared absent/unimplemented.</li>
+<li><strong>Selection/rejection and documented failures:</strong> Acceptance namespace contains1 internal Codex-accepted4-panel record; owner direction is separate.</li>
+<li><strong>Repair:</strong> Immutable revisions and deterministic masks with corruption-injection validators.</li>
+<li><strong>Lettering/SFX/UI:</strong> Separate lettering plans and page composites.</li>
+<li><strong>Build and reader:</strong> PNG/HTML review packets and handoff link surfaces.</li>
+<li><strong>Validation/review:</strong> 317 validate-prefixed modules; mutation blocks,absence gates,hash chains; no universal quality predictor.</li>
+<li><strong>Owner response:</strong> No specific owner judgment found for this mechanism.</li>
+<li><strong>Inherited lesson:</strong> Reimagining scripts retain principles but mostly fork implementations; premium adds actual small shared modules.</li>
+<li><strong>Evidence of page improvement:</strong> Preservation and auditability improve; infrastructure correctness cannot substitute for reading quality.</li>
+<li><strong>Strongest evidence:</strong> <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/architecture/overview.md">overview.md</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/production/accepted/ch01-kitchen-sequence-v1.json">ch01-kitchen-sequence-v1.json</a>, <a href="file:///mnt/c/AgentWorkspaces/anime-pipeline/docs/research/benchmark-history.md">benchmark-history.md</a></li>
+<li><strong>Reproducibility/rights:</strong> Deterministic assembly can be repeated with exact source pixels, environment and fonts; upstream generation/review acceptance and commercial clearance are separate. Local model/license stack and legacy adult-likeness training provenance are unresolved; no private datasets inspected. In-product provider aliases are not backend metadata.</li>
+</ul>
+<h2 id="discovery-and-completeness-boundaries">Discovery and completeness boundaries</h2>
+<p>The JSON additionally enumerates <strong>4,266 exact file paths and byte sizes across 20 reimagining namespace roots</strong> (production, docs, experiment art and authored bibles in the five materially active story worktrees). These counts include inherited copies, raw failures and derivatives; they are not generation totals.</p>
+<p>All discovered root <code>experiments/outputs</code>, <code>experiments/review-packets</code>, <code>experiments/results</code>, run-manifests, repair-readiness, layout-control and continuity families are enumerated with paths and directory counts in the JSON, including controlled actor captures, matte/alpha controls, geometry tile QA, Blender bundles, local repair matrices, proxy mask/boundary stress, source attributions, reference ablations, six-route comparisons, phone-lettering rehearsals and chapter progression. Legacy <code>actstage</code>, <code>calib</code>, <code>garden-work</code>, <code>lorastage</code>, <code>loratest_stage</code>, <code>pagecomp*</code>, <code>pw*stage</code>, <code>r*stage</code> and <code>voidtest</code> are indexed separately. This prevents the current Ember branch from hiding earlier materially different routes.</p>
+<p>The inventory does not treat third-party vendor trees, model weights or private training/reference photographs as comics. Their protected-state preservation is recorded by the integrity lead; their contents are neither needed nor redistributed. Historical source-art caches are ignored, so a fresh checkout alone cannot reproduce the readers. Provider aliases and orchestration IDs remain distinct from backend model/seed/request metadata. Actual paid historical G07 use is not erased by subsequent in-product <code>$0 direct spend</code> records.</p>
+<p>A 170-row RenderRecord collection is not 170 generation attempts: it includes52 baseline bindings,52 raw bindings,52 hybrid bindings and14 diagnostic bindings. Fifty-two unique SVG hashes are not enough to prove unique source art; the current editorial52 also has52 distinct leaf-art hashes, independently checked against52 existing rasters with0 missing and0 hash mismatches.</p></main><footer>Original analysis; no third-party comic panels redistributed. $0 incremental paid/cloud spend. AI reviews are not human acceptance. Source and rights limits remain explicit.</footer></body></html>

@@ -1,0 +1,21 @@
+{
+  "id": "NG03",
+  "attempt_id": "NG03-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "retry_of": "NG03-P",
+  "retry_reason": "Root and independent transfer review: power line terminates at added hip ring instead of held sword pommel.",
+  "evidence_path": "research/anchor-return/final-structural-evidence.json",
+  "evidence_sha256": "ee1e47352d6bf7326a0b0f507637618b410d20ff86bc4650346b9cfc297415c0",
+  "prompt": "Edit this source image only. Preserve the original fine anime drawing, faces, identities, clothing, framing, complete bodies, city atmosphere and sword-versus-spear action. Correct one concrete power-source error: remove the separate luminous ring attached to the man's hip/back. The single cyan tension tether must connect directly to the cyan ring at the butt end of the sword handle in his RIGHT gripping hand, and continue as one uninterrupted straight taut line backward to the metal post on the left of the image. Move no other objects. Show the source endpoint unmistakably at the held sword pommel behind his gripping knuckles, not belt, back, wrist or scabbard. Preserve his single curved sword, her single two-hand spear, intact pre-injury vest and clear leg-driven forward lean. Do not add a second line or weapon. Return one corrected original composition.\n",
+  "prompt_path": "production/anchor-return/prompts/NG03-R1.txt",
+  "prompt_sha256": "020b041455e64708d673385ae00f3880e07701d7011b402a67ad3d54a97e7746",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/NG03-P.png",
+      "sha256": "ff38a02c7a521c3cd43b3c051001d522aecfc149181ed25aecf1e698270a8f62",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

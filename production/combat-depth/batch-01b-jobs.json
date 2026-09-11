@@ -1,0 +1,36 @@
+[
+  {
+    "id": "G01",
+    "attempt_id": "G01-P",
+    "phase": "primary",
+    "category": "squad",
+    "prompt_path": "production/combat-depth/prompts/G01-P.txt",
+    "prompt_sha256": "efa39a28ff23b4207200b9248697f4999263fc8c9ced7b3e04edcb640bb720c4",
+    "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+    "references": [
+      {
+        "path": "production/combat-depth/references/riven.png",
+        "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+        "role": "Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/references/neris.png",
+        "sha256": "35df13baad9ffafb46afc9940d3c2e30e6887485a2fb4ca567fa11a4dbc80954",
+        "role": "Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "production/combat-depth/references/kellan.png",
+        "sha256": "1b86bef58943a4ab79fbb8edde3ef1b6306a153033a338a81baef778a48c9350",
+        "role": "Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+      },
+      {
+        "path": "research/combat-depth/controls/v2-guides/map-squad.png",
+        "sha256": "456c2d9155aba77f5b49d8e5f9a7c55d7bc660bee90acade125791500a232916",
+        "role": "Original code-native top-down geometry/actor-location control only. North top, west left, east right; triangular bottom symbol is camera. Do not draw diagram symbols, text, vectors or this schematic treatment in final art. Use actual identity refs for faces/costumes/weapons. This is a spatial/control guide only: do not copy diagram rendering, colors, labels or arrows into the artwork. Translate a top-down plan into the camera requested by the scene brief; do not adopt a map camera unless this scene explicitly calls for it.",
+        "control_source_path": "research/combat-depth/controls/v2-guides/map-squad.svg",
+        "control_source_sha256": "1adb86652db8241e1ccca77a1b35655ac73d3352ff6955a4ffbc09161fc32ac5"
+      }
+    ],
+    "prompt": "Use case: illustration-story.\nNew original progression-fantasy scene: Three inside the choke. Landscape 1536x1024, single complete composition.\nCAMERA AND ACTION PRIORITY: Independent squad test, not chronological after the duel. Gatehouse: heroes defend WEST/LEFT, invaders come from EAST/RIGHT. A shallow continuous water gutter runs along the near edge. Square pier behind the defenders, open passage behind attackers. Three heroes: Riven, Neris, Kellan. Two close armored attackers and one larger pressure-horn bearer behind them; distant shapes may be indistinct but no duplicated hero. All combatants adults. Wide establishing complete heroes roughly22 percent height. Neris forward LEFT with crescent shield outer face RIGHT and hand/forearm on REAR grips, Riven and Kellan separated behind her. Two adult armored attackers advance from RIGHT, one central and one near the gutter. Behind them stands a heavy pressure-horn bearer with a single bronze chest-held horn aimed LEFT. Clear near gutter filled with flowing water, empty square pier behind heroes. No firing yet; establish lanes rather than a crowd tableau.\nInput images:\nImage 1: Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 2: Recurring adult identity; rear shield grip must be correctly redrawn Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 3: Recurring adult identity and broad combat sword Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset.\nImage 4: Original code-native top-down geometry/actor-location control only. North top, west left, east right; triangular bottom symbol is camera. Do not draw diagram symbols, text, vectors or this schematic treatment in final art. Use actual identity refs for faces/costumes/weapons. This is a spatial/control guide only: do not copy diagram rendering, colors, labels or arrows into the artwork. Translate a top-down plan into the camera requested by the scene brief; do not adopt a map camera unless this scene explicitly calls for it.\nDrawing treatment: deliberate original Nightglass action-comic illustration with appealing precisely drawn adult faces, confident selective contours, designed hair locks, rich angular silhouettes and broad opaque material planes with restrained soft modeling. Let mood and light follow THIS new setting. Calm material interiors, grouped highlights, mostly unmarked stone and fabric; purposeful details prove depth and function. Not glossy 3D, blur, airbrush, flat vector shapes or a grainy texture overlay. No all-over crack networks, tiny facets, etched ornament, hundreds of equal strands, glitter reflections, fleck storm or generic aura. A large world must remain inhabited and sophisticated while its surfaces give the eye rest.\nAll combatants and visible bystanders are adults; recurring identities and complexion follow the supplied references. Create cast variety through faces, builds and fighting styles. Visceral impact comes from loaded bodies, recoil, forceful contact, expression and consequences, not visual noise.\nPersistent state for this moment: {\"shield\": \"intact\", \"water\": \"flowing\", \"horn\": \"ready\"}. Do not heal or reset earlier damage within this fight.\nKeep the specified camera distance; a tiny figure stays small without any enlarged face insert. Recurring adults recognizable by silhouette/costume/weapon in wide shots and by distinctive face/expression in close shots. One newly composed scene only, no panels, portrait divider, collage, text, diagram arrows, HUD, logos, watermark or copied franchise design. Precise anatomy and functional grips; concentrate detail at faces and actual contacts.\n"
+  }
+]

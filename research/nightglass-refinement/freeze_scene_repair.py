@@ -1,0 +1,12 @@
+from pathlib import Path
+import json,hashlib
+R=Path(__file__).resolve().parents[2];P=R/'production/nightglass-refinement';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+c=next(c for c in json.loads((P/'candidates.json').read_text())['candidates'] if c['attempt_id']=='S01-P')
+prompt='''Edit this exact scene, preserving the two adult identities, camera, magnificent dawn arch, complete silhouettes and the same weapons. Output one native1536x1024 landscape3:2 image.
+CRITICAL HANDLING REPAIR: The ponytailed woman Senn on the left must actually HOLD her lance. In the input both her hands hang empty while the lance floats. Bend her nearer arm slightly and close its gloved hand visibly around the continuous dark lance shaft at hip height. Reposition the SAME full lance into that real grip: shaft extends diagonally from upper-left behind her shoulder through the closed fist toward the pale spearhead down-right beside her calf. Show the actual fingers wrapping shaft, not resting beside it. Both weapon endpoints remain inside frame. No sling, floating shaft, extra hand or second lance. Keep Riven and his saber unchanged.
+SURFACE REPAIR: Retain the beautiful huge arch and salt-flat depth but group the repetitive small salt chips, grain and reflection flecks into large calm pale shelves and broad reflected-light bands. Keep a few meaningful shelf edges, long shadows, precise faces and architecture silhouette. No blur or empty terrain; preserve deliberate drawing and depth. Do not add texture elsewhere to compensate.
+No text, labels, panels or diagram arrows.
+'''
+p=P/'prompts/S01-R1.txt';assert not p.exists();p.write_text(prompt)
+j={'id':'S01','attempt_id':'S01-R1','phase':'repair','category':'scene','retry_of':'S01-P','retry_reason':'Both Senn hands hang empty while lance has no clear support; restore actual wrapped grip. Persistent salt-chip/reflection noise also needs grouped broad surfaces. Preserve scene scale and identities.','review_evidence':'research/nightglass-refinement/independent-review/primary-batch-02.json','review_sha256':sha(R/'research/nightglass-refinement/independent-review/primary-batch-02.json'),'prompt_path':p.relative_to(R).as_posix(),'prompt_sha256':sha(p),'references':[{'path':c['path'],'sha256':c['sha256'],'role':'Exact scene edit target, preserve composition and both adults; repair actual lance grip and group terrain surface marks.'}],'prompt':prompt}
+o=P/'scene-repair-jobs.json';assert not o.exists();o.write_text(json.dumps([j],indent=2)+'\n');print(sha(o))

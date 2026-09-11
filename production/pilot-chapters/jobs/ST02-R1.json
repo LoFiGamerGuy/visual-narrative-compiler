@@ -1,0 +1,21 @@
+{
+  "id": "ST02",
+  "attempt_id": "ST02-R1",
+  "phase": "repair",
+  "category": "ST",
+  "retry_of": "ST02-P",
+  "retry_reason": "Actual native image places the retrieval objective bell on the nearby fence, contradicting its location on distant ram before retrieval.",
+  "evidence_path": "research/pilot-chapters/first-panel-edit-spec.json",
+  "evidence_sha256": "786132f0f9ba9aae330eaf8edb69a21c6319059e341d58195a38b27b900ebdcd",
+  "prompt": "Edit this sole source Soft Thunder conversation panel, preserving both wonderful adult faces/expressions, Tavi's long coral rope-curl hair and distinct RIGHT circle/LEFT crescent red gauntlets, Mara's silver braid and ochre poncho, both poses, warm hand-painted shapes and exact square framing. Correct the location of the signal bell. REMOVE the large brass bell and hanger assembly currently hanging on the nearby upper-right fence post; this empty post may remain plain wood. Mara's existing pointing finger should indicate the distant pasture beyond the fence. Place a small readable blue cloud-wool ram far in that pasture, with cream face, blue swept horns, four grounded legs, and the SAME brass bell visibly strapped to one horn. It is the bell they must retrieve; there is NO second bell anywhere. Keep the ram distant and subordinate so it does not cover the characters or make a new crowded composition. Preserve the quiet upper sky for editable speech; no balloons/text. Do not change the two women, gauntlet symbols, clothing, fence lean, camera or medium. This is a narrow story-prop correction, not a texture redesign. Return one corrected panel.\n",
+  "prompt_path": "production/pilot-chapters/prompts/ST02-R1.txt",
+  "prompt_sha256": "c1cebb5e8c1979ec1edfd089ccf70f9ba8ab06ce2302e4cf5b99215debe6b10e",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/candidates/ST02-P.png",
+      "sha256": "96ed58d87655c74f9e179286ec1b371fcda27244ff4028cedbd7de92d7b0c99d",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

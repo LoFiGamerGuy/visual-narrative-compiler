@@ -1,0 +1,21 @@
+{
+  "id": "BP-SHEET",
+  "attempt_id": "BP-SHEET-R1",
+  "phase": "repair",
+  "category": "support",
+  "retry_of": "BP-SHEET-P",
+  "retry_reason": "Native duplicate back view puts guard and sword on inconsistent anatomical sides, offering contradictory identity conditioning. Main front view is the usable reference.",
+  "evidence_path": "research/anchor-return/first-edit-evidence.json",
+  "evidence_sha256": "90367e31a5d792f31707c39c53e93904a631834c55260429d18dac4ad986ece6",
+  "prompt": "Edit this cast sheet using the attached source alone. Keep the LEFTMOST FRONT-VIEW woman exactly: same compelling adult face, soft drawing, short dark hair, black tailored coat, pale white collar, RIGHT hand holding the saber at viewer left, silver guard on anatomical LEFT forearm at viewer right. Remove the entire duplicate BACK-VIEW woman in the middle. Remove the two floating glove/gauntlet detail inserts above the center. Leave quiet neutral ground in those areas; do not add a new pose or replacement objects. Keep the complete single saber detail and the entire flowering creature at right with its oval void, broad translucent petals and one thick root terminating in a thorn foot; it remains a neutral unplanted reference pose with a visible gap under the foot. Preserve all remaining silhouettes, faces, material qualities and colors. One clean corrected cast reference sheet, no lettering or new ornament.\n",
+  "prompt_path": "production/anchor-return/prompts/BP-SHEET-R1.txt",
+  "prompt_sha256": "5648e2956f3bdb4e1eeb169e8a55cfdad559324de3969aeec8428872ca51af56",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/BP-SHEET-P.png",
+      "sha256": "7cd6d69d862b707feeef2868e000a6e6b50b187aa2930ca4a89fd38b842dd42b",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

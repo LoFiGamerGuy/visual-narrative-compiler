@@ -52,3 +52,57 @@ outputs/generated/
 # Their hashes/provenance may be referenced by tracked evidence, but the files
 # themselves remain local until an explicit safe-source review says otherwise.
 experiments/
+
+# Impact clarity native assets travel in the verified portable bundle
+/production/impact-clarity/candidates/*.png
+/production/impact-clarity/references/*.png
+/research/impact-clarity/**/local/
+/research/impact-clarity/local/
+/.scratch/
+/research/impact-clarity/**/__pycache__/
+/research/impact-clarity/**/.scratch/
+
+# Encounter lab scoped native and runtime assets
+/production/encounter-lab/candidates/*.png
+/production/encounter-lab/references/*.png
+/research/encounter-lab/**/local/
+/research/encounter-lab/local/
+/research/encounter-lab/**/.scratch/
+/research/encounter-lab/**/__pycache__/
+
+/docs/encounter-lab/reference-comparison/assets/our-art/*.png
+
+# Anchor return native assets and task runtime travel in portable bundle
+/production/anchor-return/candidates/*.png
+/production/anchor-return/references/*.png
+/production/anchor-return/controls/*.png
+/research/anchor-return/**/local/
+/research/anchor-return/local/
+/research/anchor-return/**/.scratch/
+/research/anchor-return/**/__pycache__/
+
+# Pilot chapters: native assets ship in verified portable ZIP
+production/pilot-chapters/**/*.png
+research/pilot-chapters/**/local/
+research/pilot-chapters/**/.scratch/
+research/pilot-chapters/**/__pycache__/
+research/pilot-chapters/**/*.png
+
+# Nightglass longform native art, captures and large image-bearing tool returns
+# are preserved locally and included by the verified portable packager.
+production/nightglass-longform/**/*.png
+production/nightglass-longform/**/*.jpg
+production/nightglass-longform/**/*-tool-return.json
+production/nightglass-longform/**/*.response.json
+production/nightglass-longform/comparison/C/calls/*-return.json
+research/nightglass-longform/**/*.png
+research/nightglass-longform/**/*.jpg
+production/nightglass-longform/package/output/
+research/nightglass-longform/assets/package/**/extracted/
+
+# Consolidated local assets and temporary worktrees are not public source.
+/archive/workspace-variants/
+/.worktrees/
+/research/workspace-consolidation-20260911/*.sqlite3*
+/research/workspace-consolidation-20260911/execution.jsonl*
+/research/workspace-consolidation-20260911/preservation-map.jsonl.gz

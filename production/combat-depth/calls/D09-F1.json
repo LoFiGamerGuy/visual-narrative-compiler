@@ -1,0 +1,37 @@
+{
+  "id": "D09",
+  "attempt_id": "D09-F1",
+  "phase": "texture",
+  "category": "duel",
+  "retry_of": "D09-P",
+  "retry_reason": "Root inspected native: competing grainy pier, wet floor and sky around clear close faces; preserve unresolved weapon-hand ambiguity.",
+  "evidence_path": "research/combat-depth/finish-spec-09.json",
+  "evidence_sha256": "3521635975c7116ee352ed1db1dd8d8dd182ef343d62b1a90a9307e1226ee993",
+  "prompt_path": "production/combat-depth/prompts/D09-F1.txt",
+  "prompt_sha256": "f0a315919470bf9cbfa87f9a7dcd26766256113c2151bc3e89ef49e68561f8a0",
+  "plan_sha256": "ef94cf6015afcc1fcbe3ed6fb85feea0029cd6ae6877c253ab89ebc1fa2e64e0",
+  "references": [
+    {
+      "path": "production/combat-depth/candidates/D09-P.png",
+      "sha256": "61704ad1c3d0cd1c1f2dfb6efeab099a5c1c233b1985cd3e093409711f76e400",
+      "role": "Exact edit source; preserve all content except the specified texture change"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 00:56:47 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/D09-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 00:58:39 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-11780b11-3282-42e7-8faa-3c7355263199.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

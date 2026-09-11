@@ -1,0 +1,33 @@
+# Independent native batch 02
+
+Frozen before phone inspection or root preferred output verdict. Known repair targets/provisional mappings prevent a fully blinded review. Original primary report unchanged.
+
+## D01-R1
+
+Source SHA256 `8bc873bda86ff90ce1b9297d9475fff413330dcc123d080515278fbbdac4c1f0`. Prefer R1 over P as wider establishment; approximate framing target remains slightly exceeded. Eligible for surface-only F1.
+
+- Material framing gain: Riven roughly23% and Ilyra21% native height versus about45%/39% in P. The large empty court, left square-pier steps, right arched wall, far balustrade and near grated drain remain clear. Riven is still slightly larger than the18–22% repair target and both exceed original18%.
+- Exactly two adults retain silver/petrol and copper/burgundy/ivory identity silhouettes. Riven right-held continuous cyan saber and free left hand persist. Ilyra retains two separated hands on a continuous lance, tip upper left and butt lower right clear of floor. No introduced injury, mantle notch, localized impact patch or active magic is visible.
+- Smaller faces lose portrait-level acting, as expected for establishment; alert opposing stances and unoccupied interval provide anticipation. Strong city depth remains. Exact future right-wall grasp projection is still less specific than the left stepped ledge.
+- Wet paving, glittering reflections, cloud speckles, tiny lit windows and masonry still compete strongly. F1 should simplify these without erasing support ledges, floor/drain geometry, adult silhouettes or continuous weapons.
+
+## W01-R1
+
+Source SHA256 `55bff1022e73019202a267656c8cf97f7c8fc68d47b522cf9c5acba228be8ed6`. Prefer R1: explicit lower-route water gap is a useful topology gain; retain creature/hardware and small-face limitations. Eligible for F1.
+
+- The right-bank lower masonry walkway now has a plainly visible left terminal edge, with open canal water extending toward the left abutment. Unlike P, its far continuation no longer disappears ambiguously beneath the bridge. This makes a later new crossing more legible; it does not itself establish a built ice route or exact landing elevations.
+- Main bridge, open left gate, retreat column, right hostile ranks, three small separated defenders and huge left-facing quadruped remain. Three hero color/weapon silhouettes read around8–10% frame height, still above planned6%; facial acting and exact grips are too small to certify.
+- Four plausible leg paths and the long tail remain, with feet partly obscured by ranks. Closed head, elaborate bronze bridle, straps/chains and rider-filled wooden battlements persist rather than the simple one-collar creature prescription. Future mouth opening must preserve this actual head and throat construction.
+- Strong city/army scale and left-versus-right organization survive the edit. No visible main-bridge gap, ice or new damage is introduced. Dense soldiers, stone, glittering water and layered armor still require surface restraint; do not remove necessary ranks, load-bearing legs or the new water gap.
+
+## G01-P
+
+Source SHA256 `79ca49e8969202979f9c20c43c4585bc91184ff36152674c3a785018e0f08b96`. Useful adult/shield anchor but failed wide framing and future flanker-weapon continuity need explicit adjudication before F1. Do not label surface work a choreography repair.
+
+- Three distinct adults: silver-haired Riven left rear, mature brown-haired Neris in front, curly-haired sand-coated Kellan rear center. Neris hand encloses the shield rear handle on her own side; curved outer face points toward right attackers. Intact crescent rim and uninjured actors are clear. Riven saber and Kellan broad sword have continuous own-hand-to-blade paths.
+- Camera is substantially closer than complete heroes roughly22%: Neris around47%, Riven36%, Kellan27%. Leftmost Riven foot touches the crop edge, and the near-gutter enemy is cut by the right border. This is a medium ensemble confrontation, not the planned distant establishment.
+- Two close armored attackers and one large horn bearer are distinguishable; distant helmet shapes do not repeat heroes. Both close attackers visibly hold long bladed swords, including the near-gutter flanker. The planned G03 compact mace would therefore be an unexplained weapon change if copied forward without an explicit decision.
+- Horn is already raised near the bearer face/upper chest rather than clearly held down at chest level; it points left without firing. Neris faces the threat; Riven and Kellan crouch ready. Strong individual faces and silhouettes are the strongest counterexample to the framing failure.
+- Near-edge flowing gutter, left square pier and upper-level combat platform are clear. Behind the enemies, city/background is visible but the specific open retreat passage is not distinctly framed. Night moon/cool lantern contrast is coherent within this image; later squad frames should preserve it.
+- Wet floor glints, churning water streaks, masonry and distant windows are busy. Broad character faces/material blocks already work. F1 may calm background and water only after structural disposition; it cannot change enemy weapon, actor scale or passage layout.
+

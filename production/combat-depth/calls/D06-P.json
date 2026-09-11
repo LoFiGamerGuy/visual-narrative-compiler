@@ -1,0 +1,45 @@
+{
+  "id": "D06",
+  "attempt_id": "D06-P",
+  "phase": "primary",
+  "category": "duel",
+  "prompt_path": "production/combat-depth/prompts/D06-P.txt",
+  "prompt_sha256": "9d3cb41a82afd38bae4106042f8ee0aef2c3e881057848110474ec88c95eae3d",
+  "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+  "references": [
+    {
+      "path": "production/combat-depth/references/riven.png",
+      "sha256": "6be7239a1d5d44df7d7f2cb66dbe494d5935e04341babbdf97c4d1e08e99114b",
+      "role": "Recurring adult identity and saber construction only Use only the specified identity/drawing/construction traits. Make a genuinely new composition/action; no reference-sheet divider or portrait inset."
+    },
+    {
+      "path": "production/combat-depth/candidates/D05-P.png",
+      "sha256": "28eb493e907dd77aa2b9d436721f076c67cd417a2d66f8165e5875ee4090f31e",
+      "role": "Exact recurring subject/place reference from D05; use named identities/creature and relevant geography only, not its composition or surface noise."
+    },
+    {
+      "path": "production/combat-depth/candidates/D01-F1.png",
+      "sha256": "3ab9bededf3a40d4481e7cafc070f0b04d423524cf702b53e2370ea70dddb388",
+      "role": "Exact recurring subject/place reference from D01; use named identities/creature and relevant geography only, not its composition or surface noise."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 00:24:08 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/references/riven.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/D05-P.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-combat-depth-20260908-2310/production/combat-depth/candidates/D01-F1.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 00:27:29 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-dc96dcc2-b24e-47df-888f-4e88f999e25a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

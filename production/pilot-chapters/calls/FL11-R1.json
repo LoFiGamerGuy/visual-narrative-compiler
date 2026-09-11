@@ -1,0 +1,37 @@
+{
+  "id": "FL11",
+  "attempt_id": "FL11-R1",
+  "phase": "repair",
+  "category": "FL",
+  "retry_of": "FL11-P",
+  "retry_reason": "Root native review of FL11-P: two stacked C hooks replace the single C head and obscure how the pole holds the jaw open. Adjacent FL10/12 have a single head; FL12 rescue itself reads clearly.",
+  "evidence_path": "research/pilot-chapters/third-structural-spec.json",
+  "evidence_sha256": "1a6bb46c7dcedd198ca86780001929a2d4dc9cd21d31d9304da916f5c834ef34",
+  "prompt_path": "production/pilot-chapters/prompts/FL11-R1.txt",
+  "prompt_sha256": "4f26c9b8395f89b552d2cd2d6113bf725b90b0b6fd03092d2f23f54b8469d036",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/candidates/FL11-P.png",
+      "sha256": "5cffbd6e6ab8aeb289af62c52b6a55f124c24be08ad6ca6a99163ca126a1da64",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 15:01:43 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-pilot-chapters-20260909-1310/production/pilot-chapters/candidates/FL11-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 15:04:12 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-cd19a0ae-46d9-4ceb-9c42-538ae5213277.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

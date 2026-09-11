@@ -1,0 +1,37 @@
+{
+  "id": "ST06",
+  "attempt_id": "ST06-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "retry_of": "ST06-P",
+  "retry_reason": "Root and independent transfer review: decisive circle punch uses anatomical left arm and restores undamaged opposite glove; contact lacks clear cheek compression.",
+  "evidence_path": "research/anchor-return/final-structural-evidence.json",
+  "evidence_sha256": "ee1e47352d6bf7326a0b0f507637618b410d20ff86bc4650346b9cfc297415c0",
+  "prompt_path": "production/anchor-return/prompts/ST06-R1.txt",
+  "prompt_sha256": "f53b88069b2019a095efcd0551014101857ac2e59d83fd509eddc816cd26ec45",
+  "plan_sha256": "07e8542e91af926b50a0f9251053de67a73bbb081e373d422440bdb7b582673d",
+  "references": [
+    {
+      "path": "production/anchor-return/candidates/ST06-P.png",
+      "sha256": "2d31299e801875358e8bdbabe5dcef0385a44d9a8c4a5fe8f65f113b2132796e",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 11:32:01 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-anchor-return-20260909-1030/production/anchor-return/candidates/ST06-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 11:34:39 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-c1369381-c8cb-4547-a6a6-8c2824f191ed.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

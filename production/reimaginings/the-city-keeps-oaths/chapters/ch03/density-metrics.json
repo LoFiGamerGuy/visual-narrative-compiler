@@ -1,0 +1,454 @@
+{
+  "chapter": "CH03",
+  "calibration": {
+    "schema": "CityKeepsOathsPilotDensityCalibration/1.0",
+    "selected_source": "experiments/reimaginings/the-city-keeps-oaths/pilot/three-strip-01.png",
+    "selected_source_sha256": "9b73e191d7ba8a55b7b9da4be1f64fcd962b40189f576ddef6646bc7df6b4477",
+    "phone_width": 390,
+    "observed_selected_frames": [
+      {
+        "frame": 1,
+        "edge_density": 0.106143,
+        "global_entropy": 6.175926,
+        "local_entropy_mean": 4.893661,
+        "high_frequency_occupancy": 0.125494,
+        "focal_luminance_separation": 0.067714
+      },
+      {
+        "frame": 2,
+        "edge_density": 0.113769,
+        "global_entropy": 5.924726,
+        "local_entropy_mean": 5.100538,
+        "high_frequency_occupancy": 0.126536,
+        "focal_luminance_separation": 0.026346
+      },
+      {
+        "frame": 3,
+        "edge_density": 0.150868,
+        "global_entropy": 6.268291,
+        "local_entropy_mean": 5.428358,
+        "high_frequency_occupancy": 0.185657,
+        "focal_luminance_separation": 0.078488
+      }
+    ],
+    "material_deviation_flags": {
+      "low": {
+        "edge_density_max": 0.14,
+        "high_frequency_occupancy_max": 0.17,
+        "global_entropy_max": 6.7
+      },
+      "moderate": {
+        "edge_density_max": 0.2,
+        "high_frequency_occupancy_max": 0.24,
+        "global_entropy_max": 7.1
+      },
+      "high": {
+        "edge_density_max": 0.28,
+        "high_frequency_occupancy_max": 0.32,
+        "global_entropy_max": 7.5
+      },
+      "all": {
+        "focal_luminance_separation_min": 0.015
+      }
+    },
+    "interpretation": "Bounds are pilot-relative review flags, not universal beauty thresholds. Any phone-confusing panel fails regardless of metrics."
+  },
+  "panels": [
+    {
+      "panel_id": "CH03-S01-P01",
+      "planned_density": "high",
+      "edge_density": 0.223716,
+      "global_entropy": 7.308951,
+      "local_entropy_mean": 5.867078,
+      "high_frequency_occupancy": 0.311703,
+      "focal_luminance_separation": 0.015407,
+      "luminance_stddev": 0.190982,
+      "review_status": "PASS",
+      "failure_classes": []
+    },
+    {
+      "panel_id": "CH03-S01-P02",
+      "planned_density": "low",
+      "edge_density": 0.209327,
+      "global_entropy": 7.076921,
+      "local_entropy_mean": 5.831027,
+      "high_frequency_occupancy": 0.275054,
+      "focal_luminance_separation": 0.060637,
+      "luminance_stddev": 0.153219,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S01-P03",
+      "planned_density": "low",
+      "edge_density": 0.192392,
+      "global_entropy": 6.834165,
+      "local_entropy_mean": 5.664548,
+      "high_frequency_occupancy": 0.246285,
+      "focal_luminance_separation": 0.003721,
+      "luminance_stddev": 0.124964,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class",
+        "focal_luminance_proxy_below_pilot"
+      ]
+    },
+    {
+      "panel_id": "CH03-S01-P04",
+      "planned_density": "low",
+      "edge_density": 0.229308,
+      "global_entropy": 6.975699,
+      "local_entropy_mean": 5.776299,
+      "high_frequency_occupancy": 0.331354,
+      "focal_luminance_separation": 0.062682,
+      "luminance_stddev": 0.157383,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S01-P05",
+      "planned_density": "moderate",
+      "edge_density": 0.212435,
+      "global_entropy": 6.968811,
+      "local_entropy_mean": 5.62435,
+      "high_frequency_occupancy": 0.280975,
+      "focal_luminance_separation": 0.106253,
+      "luminance_stddev": 0.140114,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S01-P06",
+      "planned_density": "low",
+      "edge_density": 0.170984,
+      "global_entropy": 6.282933,
+      "local_entropy_mean": 5.297798,
+      "high_frequency_occupancy": 0.220114,
+      "focal_luminance_separation": 0.043909,
+      "luminance_stddev": 0.100712,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S02-P01",
+      "planned_density": "moderate",
+      "edge_density": 0.180163,
+      "global_entropy": 6.773653,
+      "local_entropy_mean": 5.624404,
+      "high_frequency_occupancy": 0.242726,
+      "focal_luminance_separation": 0.021532,
+      "luminance_stddev": 0.122669,
+      "review_status": "WARN",
+      "failure_classes": [
+        "high_frequency_occupancy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S02-P02",
+      "planned_density": "low",
+      "edge_density": 0.176294,
+      "global_entropy": 6.882776,
+      "local_entropy_mean": 5.732764,
+      "high_frequency_occupancy": 0.226355,
+      "focal_luminance_separation": 0.056989,
+      "luminance_stddev": 0.134107,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S02-P03",
+      "planned_density": "low",
+      "edge_density": 0.167268,
+      "global_entropy": 6.572698,
+      "local_entropy_mean": 5.477795,
+      "high_frequency_occupancy": 0.204583,
+      "focal_luminance_separation": 0.028877,
+      "luminance_stddev": 0.107602,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S02-P04",
+      "planned_density": "low",
+      "edge_density": 0.163905,
+      "global_entropy": 6.222639,
+      "local_entropy_mean": 5.290591,
+      "high_frequency_occupancy": 0.202874,
+      "focal_luminance_separation": 0.033722,
+      "luminance_stddev": 0.091138,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S02-P05",
+      "planned_density": "high",
+      "edge_density": 0.150333,
+      "global_entropy": 6.103194,
+      "local_entropy_mean": 5.005922,
+      "high_frequency_occupancy": 0.160054,
+      "focal_luminance_separation": 0.033538,
+      "luminance_stddev": 0.078483,
+      "review_status": "PASS",
+      "failure_classes": []
+    },
+    {
+      "panel_id": "CH03-S02-P06",
+      "planned_density": "low",
+      "edge_density": 0.172537,
+      "global_entropy": 6.427318,
+      "local_entropy_mean": 5.392189,
+      "high_frequency_occupancy": 0.200423,
+      "focal_luminance_separation": 0.049351,
+      "luminance_stddev": 0.099681,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S03-P01",
+      "planned_density": "low",
+      "edge_density": 0.171288,
+      "global_entropy": 6.600593,
+      "local_entropy_mean": 5.660811,
+      "high_frequency_occupancy": 0.224955,
+      "focal_luminance_separation": 0.059755,
+      "luminance_stddev": 0.119672,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S03-P02",
+      "planned_density": "moderate",
+      "edge_density": 0.187696,
+      "global_entropy": 6.842336,
+      "local_entropy_mean": 5.651006,
+      "high_frequency_occupancy": 0.226139,
+      "focal_luminance_separation": 0.076003,
+      "luminance_stddev": 0.134943,
+      "review_status": "PASS",
+      "failure_classes": []
+    },
+    {
+      "panel_id": "CH03-S03-P03",
+      "planned_density": "low",
+      "edge_density": 0.206349,
+      "global_entropy": 7.023608,
+      "local_entropy_mean": 5.875369,
+      "high_frequency_occupancy": 0.276059,
+      "focal_luminance_separation": 0.034884,
+      "luminance_stddev": 0.152647,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S03-P04",
+      "planned_density": "low",
+      "edge_density": 0.181281,
+      "global_entropy": 6.62916,
+      "local_entropy_mean": 5.472516,
+      "high_frequency_occupancy": 0.237353,
+      "focal_luminance_separation": 0.082988,
+      "luminance_stddev": 0.131203,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S03-P05",
+      "planned_density": "low",
+      "edge_density": 0.157819,
+      "global_entropy": 7.072778,
+      "local_entropy_mean": 5.686951,
+      "high_frequency_occupancy": 0.212633,
+      "focal_luminance_separation": 0.034714,
+      "luminance_stddev": 0.160664,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S03-P06",
+      "planned_density": "moderate",
+      "edge_density": 0.193266,
+      "global_entropy": 6.867314,
+      "local_entropy_mean": 5.884045,
+      "high_frequency_occupancy": 0.273589,
+      "focal_luminance_separation": 0.053935,
+      "luminance_stddev": 0.143423,
+      "review_status": "WARN",
+      "failure_classes": [
+        "high_frequency_occupancy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S04-P01",
+      "planned_density": "high",
+      "edge_density": 0.186221,
+      "global_entropy": 6.999268,
+      "local_entropy_mean": 5.637879,
+      "high_frequency_occupancy": 0.234301,
+      "focal_luminance_separation": 0.024546,
+      "luminance_stddev": 0.148576,
+      "review_status": "PASS",
+      "failure_classes": []
+    },
+    {
+      "panel_id": "CH03-S04-P02",
+      "planned_density": "low",
+      "edge_density": 0.20309,
+      "global_entropy": 6.831884,
+      "local_entropy_mean": 5.685964,
+      "high_frequency_occupancy": 0.267643,
+      "focal_luminance_separation": 0.041836,
+      "luminance_stddev": 0.126833,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S04-P03",
+      "planned_density": "low",
+      "edge_density": 0.163436,
+      "global_entropy": 7.09601,
+      "local_entropy_mean": 5.673227,
+      "high_frequency_occupancy": 0.199361,
+      "focal_luminance_separation": 0.008615,
+      "luminance_stddev": 0.162779,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class",
+        "focal_luminance_proxy_below_pilot"
+      ]
+    },
+    {
+      "panel_id": "CH03-S04-P04",
+      "planned_density": "low",
+      "edge_density": 0.213196,
+      "global_entropy": 7.307279,
+      "local_entropy_mean": 5.968634,
+      "high_frequency_occupancy": 0.297605,
+      "focal_luminance_separation": 0.100338,
+      "luminance_stddev": 0.203824,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class"
+      ]
+    },
+    {
+      "panel_id": "CH03-S04-P05",
+      "planned_density": "moderate",
+      "edge_density": 0.183789,
+      "global_entropy": 7.330421,
+      "local_entropy_mean": 5.665992,
+      "high_frequency_occupancy": 0.243167,
+      "focal_luminance_separation": 0.013867,
+      "luminance_stddev": 0.190828,
+      "review_status": "WARN",
+      "failure_classes": [
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class",
+        "focal_luminance_proxy_below_pilot"
+      ]
+    },
+    {
+      "panel_id": "CH03-S04-P06",
+      "planned_density": "low",
+      "edge_density": 0.193933,
+      "global_entropy": 7.452355,
+      "local_entropy_mean": 5.928291,
+      "high_frequency_occupancy": 0.255124,
+      "focal_luminance_separation": 0.043546,
+      "luminance_stddev": 0.21547,
+      "review_status": "WARN",
+      "failure_classes": [
+        "edge_density_above_pilot_class",
+        "high_frequency_occupancy_above_pilot_class",
+        "global_entropy_above_pilot_class"
+      ]
+    }
+  ],
+  "rhythm": [
+    "high",
+    "low",
+    "low",
+    "low",
+    "moderate",
+    "low",
+    "moderate",
+    "low",
+    "low",
+    "low",
+    "high",
+    "low",
+    "low",
+    "moderate",
+    "low",
+    "low",
+    "low",
+    "moderate",
+    "high",
+    "low",
+    "low",
+    "low",
+    "moderate",
+    "low"
+  ],
+  "status_totals": {
+    "PASS": 4,
+    "WARN": 20
+  },
+  "failure_classes": {
+    "edge_density_above_pilot_class": 17,
+    "high_frequency_occupancy_above_pilot_class": 20,
+    "global_entropy_above_pilot_class": 11,
+    "focal_luminance_proxy_below_pilot": 3
+  },
+  "manual_review_required_for_flags": true
+}

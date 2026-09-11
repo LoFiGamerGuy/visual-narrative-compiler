@@ -1,0 +1,33 @@
+{
+  "attempt_id": "A00010",
+  "panel": "P09",
+  "route": "G",
+  "prompt": "Use case: illustration-story. Transform the first input, a newly authored original 3D scene guide, into original finished comic art. Input 1 controls camera, composition, placements and contact; input 2 is a newly generated original cast reference controlling adult identities and economical ink/cel drawing, NOT poses. Do not reproduce extra reference studies or robots/mannequins. Nera is a31-year-old lean female courier with warm brown skin, mature long angular face, short black curls, straw-yellow asymmetric rain cape, charcoal practical clothes and boots. Odo is a38-year-old broad male keeper with tan skin, cropped silver hair, ultramarine work jacket and cream cuffs. Both are fictional mature adults, no real likeness. Deliberate energetic tapered ink, appealing adult faces, controlled broad two-tone shadows, sharp silhouettes, motivated expressive posture. Palette: warm ivory stone, cool slate shadows, charcoal ink, straw cape, ultramarine jacket and violet threat slit; tiny cyan braking accents only where required. No global sepia, dense distressed textures, fog, spark clouds, photorealism, glossy3D, decorative armor or generic ornamental detail. Keep action contact and faces clear. No lettering, captions, SFX words, UI, symbols resembling writing, watermark, page borders or balloons. Preserve all story events and object ownership. No named artist, comic or franchise imitation.\n\nCanvas aspect ratio 1170:900; match the full guide frame and normalized actor placements.\nPANEL P09. The sentinel pivots around the very same restrained forefoot while its separate side leg sweeps left toward Odo at the west release. Nera keeps both boots on the dry ridge and braces the ONE intact staff against that fixed foot; one capped flask is upright in her chest sling. Odo has one hand on the west cord and his other hand free. The east shutter is closed. Exactly three sentinel limbs: anchored foreleg, leftward sweeping side leg, rear supporting leg. Do not turn the sweep into a fourth appendage. No injury yet.\n\nOutput ONE complete finished illustrated panel. Preserve the guide camera and framing, the full gallery architecture and actor/threat silhouettes, exact contact and layer order. Replace simple geometry with coherent economical drawn forms. Sentinel is an original slate kite body with one narrow violet gill slit and exactly three articulated legs. Keep the ridge, west release, overhead cable and east shutter visibly connected where in frame. This is a full-frame instruction-conditioned render; do not copy guide arrows as diagram lines. Translate force into economical drawn motion accents. No multi-panel page or contact sheet.\n\nTARGETED HARD-FAILURE CORRECTION: The guide staff ends precisely at x0.564,y0.681 against the sentinel forefoot. Its opposite end is x0.431,y0.618. Do not extend the staff beyond this foot to the far-right floor or merely cross the shin. Show compressed wood-to-metal contact at the endpoint and the toe planted against dry ridge. Nera BOTH hands visibly grip this one shaft at x0.475,y0.639 and x0.528,y0.663; expose her left bent forearm outside cape. Her sealed flask belongs upright at FRONT chest sling, not diagonally on her back. Keep the separate side leg sweeping left at Odo and exactly three limbs total. Keep fixed camera and dry ridge.\n",
+  "prompt_path": "prompts/P09-G-retry.txt",
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-structural-20260907-054652/production/structural-pilot/control/v8/P09-full.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-structural-20260907-054652/production/structural-pilot/reference-assets/cast-primary.png"
+  ],
+  "references": [
+    {
+      "id": "cast",
+      "path": "reference-assets/cast-primary.png",
+      "sha256": "caa17ee5555e1a902963bc8ed3cd58482f52e1b08701623046b3178fa6d8ad05",
+      "rights_status": "original-created-for-pilot",
+      "original": true
+    },
+    {
+      "id": "guide-P09-079c92f642cc",
+      "path": "control/v8/P09-full.png",
+      "sha256": "079c92f642cca5db33d50b9ef71e036923f13cceba9dd7afa36af639414c489b",
+      "rights_status": "original-created-for-pilot",
+      "original": true
+    }
+  ],
+  "status": "reserved",
+  "provider_model": null,
+  "seed": null,
+  "usage": null,
+  "billing_allocation": null,
+  "direct_spend_usd": 0
+}

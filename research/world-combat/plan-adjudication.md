@@ -1,0 +1,3 @@
+# Production plan changes before any generation
+
+Preserved the author draft. The production freeze adds a basalt-forest combat scene and a buried interior so environments differ materially. Ability studies use new cameras/actions: evasive counterstep, an already-kneeling weight target, and a low ground-shock upgrade rather than repeating three scene compositions. The Regent gains a tall raised neck, lower hindquarters and broad hoof-like feet to separate it from the squat hound. Gear includes cropped adult grip context for scale; owner-facing descriptions omit mechanical negative prompts. All names, connections and progression remain proposals.

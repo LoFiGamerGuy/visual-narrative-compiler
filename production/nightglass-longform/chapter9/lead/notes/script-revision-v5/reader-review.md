@@ -1,0 +1,9 @@
+# Independent targeted Chapter9 v5 reader review
+
+PASS the explicit ordinary-packing revision, not v4 hand-role compliance. Proposal JSON SHA256 `b2972aa0faebd0b26a32add435ab9c6bf67b634adde2eea264de1c6bd755a32d`.
+
+Actually viewed both full original07/08 crops. Neris’s RIGHT bare hand passes one tied amber pouch into Aren’s RIGHT glove; his LEFT steadies the open empty bag rim. The second panel maintains those roles as the same closed pouch goes inside the supported bag. The two-panel custody/action is readable and coherent. No change to RIGHT weapon use, force endpoints, load identity, authority or exact copy follows from this ordinary handling choice. The original primary did not meet v4’s LEFT-receive/LEFT-place staging; that failure must remain preserved.
+
+Independently checked the exact proposal against its frozen official archive: only07/08 action and current_state change (four fields), all34 copy entries and all other40 panel objects/top-level metadata remain exact. All42 JSON action/camera/state and copy entries match Markdown; Markdown differs only by the four literal field substitutions. The state map changes only two corresponding packing/custody lines. Initial fixture comparison used unordered key iteration and was corrected to deterministic sorting; the successful assertions verify the actual four-field set.
+
+08 does not independently prove full gear or boots outside its close frame. This review covers the requested full original crops and targeted script diff; it does not claim an R1 native inspection or fresh whole-chapter visual read. On promotion, update the administrative v4/history wording to identify this staging change; no additional story or copy revision is requested. No official script, selection, reader or image bytes changed here. `reader-review.json` binds the exact inputs and findings.

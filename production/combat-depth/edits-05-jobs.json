@@ -1,0 +1,23 @@
+[
+  {
+    "id": "W03",
+    "attempt_id": "W03-R1",
+    "phase": "structural",
+    "category": "war",
+    "retry_of": "W03-P",
+    "retry_reason": "Independent and root native review: pressure effect meets forepaw/ground and loaded extendedleg reads a stomp against defense, not the intended shield counter buckling foreknee.",
+    "evidence_path": "production/combat-depth/edit-specs-05.json",
+    "evidence_sha256": "34e5d4b6c0fe1554002a8101935dc2bde56ce6ee4d5099744cc53b705919cb3f",
+    "prompt_path": "production/combat-depth/prompts/W03-R1.txt",
+    "prompt_sha256": "4de3ea2e58a02e266d8b56c0a36da3a4d225d4280fa58664697cf5072e8c7292",
+    "plan_sha256": "099913ad2b92473e15c0ef2cbf198f6add455f1bea352847423349903ecb14d6",
+    "references": [
+      {
+        "path": "production/combat-depth/candidates/W03-P.png",
+        "sha256": "48aafdc5687ca16594a91cf903f15196ffcbe83ec710417c561b2d213eac21ac",
+        "role": "Exact edit source; preserve all content except the specified structural change"
+      }
+    ],
+    "prompt": "Use case: precise-object-edit. Correct ONLY the specified composition or structural failure in this exact source image. Keep its drawing treatment and other content consistent; this is not a texture-finishing pass.\nCorrect ONLY the central action of the siege beast nearest FORELEG and the shield-to-leg pressure path. Neris LEFT is returning a blow, not blocking a stomp. Show ONE narrow broad pressure pulse leaving her outer crescent face and travelling RIGHT into the nearest foreleg JOINT ABOVE the bridge surface. Put the clear impact/contact ring on the side of that joint, visibly elevated well above its toes and paving. The struck foreleg folds sharply at that joint UNDER its chest, with forefoot lifted/unloaded rather than planted and stomping. The massive shoulder on that side drops; the OTHER foreleg remains distinctly weight-bearing to catch the body, hindlegs compensate. Exactly the existing four limbs with coherent shoulder-elbow/wrist/foot chains; no new limb or severed leg. Remove the misleading ground-explosion at the prior nearest forepaw; a few dislodged stones are okay but the dominant impact must be at the elevated bending JOINT. Keep Neris actual face/costume/reargrip/braced feet and size, existing Kellan/Ilyra and military ranks, giant longsnout/head/bridle/backplatform, bridge/city/lowerwatergap, dawn and camera. Mouth no longer emits any attack. Read recoil and loss of support in the creature, not its attack. This is structural force/joint correction, not surface simplification.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  }
+]

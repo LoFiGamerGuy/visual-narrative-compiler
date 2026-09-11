@@ -1,0 +1,15 @@
+Independent frozen-plan watchlist — before candidate inspection
+
+Read combat-plan.json and the shared full prompt constraints, then checked every exact primary prompt line against the shared constraints and its plan entry. All18 prompts contain the same presentation/art/negative constraints and no unmatched additional requirement. Plan SHA256:6a9d99c1b41be18d7b6692272bce4c090a974d3a47531b9ae62f0bc3aebf323b. This adds brief-specific watch points without changing the already frozen rubric or predicting output success.
+
+The plan supplies varied weapon families rather than18 sword variants: chisel sword, frame hammer, ring blade, falchion, heavy polearm, tethered harpoon, stiletto, striking shield, staff, bladed tonfa, mace, bow, war pick, sling-bow, anchor, flail, scythe and foil. Actual identity and desirability still require pixels; labels alone do not establish an exciting weapon.
+
+Highest mechanical ambiguities to inspect:01-C2 empty frame head and uninterrupted shaft;02-C1 fingers on the ring's protected crossbar;05-C1 two grips on one shaft;05-C2 harpoon-chain-ring continuity;06-C2 shield's visible internal grip;13-C1 one gently bent staff;13-C2 perpendicular tonfa grip and gap from forearm;15-C2 continuous bowstring and cutouts;17-C2 connected band/pouch with one stone;18-C1 two anchor hooks/one butt ring;18-C2 one ball/three links. These are significant weapon identity/contact details. Do not let fine counts outweigh face, overall combat appeal or a clearly successful distinctive silhouette.
+
+Novelty watch:13-C1's young wiry prominent-eared male construction could echo the rejected13-C2 civilian despite changed hair and weapon; compare actual facial planes and body identity.18-C2's narrow exuberant rival could echo the rejected18-C2 climber despite violet hair and different costume.19-C1 is again a beautiful slender dark-haired male, so changed hairstyle/costume alone must not stand in for a new face. Broad01-C2 and18-C1 should remain distinct from one another and the preceding heavyweight characters. These are intent-stage overlap risks, not findings against unseen images.
+
+Several written powers share storing, delaying or returning a strike. Their limits and combat instruments differ; record whether actual visual character/weapon identity makes the pair memorable. One quiet power cue cannot demonstrate the promised multi-stage progression. Do not criticize a calm board for omitting future attacks that its prompt expressly forbids.
+
+The two-view layout provides an expression close-up but also creates an identity-matching test: hairline, face construction, complexion, costume neckline and major armor should agree. Full-body expression may be less detailed, but should not become a different age or person. The weapon belongs only in the full-body view. A portrait close-up can support facial appeal while the action figure still fails a grip or loses its weapon tip; record both.
+
+No candidate inspected when this watchlist was written; no author preferred output verdict supplied. Owner approval remains unknown.

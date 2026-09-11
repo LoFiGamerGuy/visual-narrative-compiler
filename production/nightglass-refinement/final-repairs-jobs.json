@@ -1,0 +1,42 @@
+[
+  {
+    "id": "A04",
+    "attempt_id": "A04-R1",
+    "phase": "repair",
+    "category": "ability",
+    "retry_of": "A04-P",
+    "retry_reason": "Shield grip hardware appears on the creature/contact side while Neris reaches from the other side; correct functional front/rear relationship and calm excessive rear spray and skin texture.",
+    "review_evidence": "research/nightglass-refinement/independent-review/final-primary-repair-priorities.json",
+    "review_sha256": "ec2a81f8383bb6e656c786e4322452ef34708610e440cb1b634eb0565f0f3cc8",
+    "prompt_path": "production/nightglass-refinement/prompts/A04-R1.txt",
+    "prompt_sha256": "9d166debfed76ec87fd821017f7e4f8bd6802907f4d5898fd6c5229d7f52548f",
+    "references": [
+      {
+        "path": "production/nightglass-refinement/candidates/A04-P.png",
+        "sha256": "4824fd19469d23ef2c7b8f019eccf071fdb989ed3a55ff45001c7fb3ac122e0c",
+        "role": "Exact primary edit target; preserve all specified identities, layout and useful action while repairing the evidenced local relationship/surface treatment."
+      }
+    ],
+    "prompt": "Use case: targeted illustration edit. Output one native1536x1024 landscape3:2 artwork.\nRepair this exact action illustration. Keep the same adult Neris, face, costume, full grounded stance, same Basin Toad and same crescent Stillwall identity.\nCRITICAL: rebuild the SHIELD AND FOREARM RELATIONSHIP so it physically works. The shield's solid navy FRONT faces LEFT into the toad chest. Its rear grip/mount faces RIGHT toward Neris. Her connected forearm and gloved hand end at that rear grip, entirely on HER side of the solid shield. Her arm must never pass through the shield. Show the shield somewhat edge-on if necessary to make front contacting chest and back receiving hand unambiguous. The toad chest touches the shield FRONT, never the hand or mounting hardware. Keep one attached arm, one shield, one real grip. Preserve the full crescent silhouette and pale rim, not a rectangular replacement.\nPreserve the toad recoiling with one near forefoot lifted and coherent other limbs. Show restrained compressed pressure only at the actual shield/chest contact.\nALSO REDRAW THE SURFACE FINISH: remove the huge decorative wave/spray wall behind the toad. Keep only one low broad residual water trail along the ground, clearly spent. Redraw skin as broad opaque indigo and pale living forms with selective large folds at joints; erase the pervasive small mottling, scratches and vein/crack networks. Ground and water have large calm value shapes and a few meaningful edges. Keep the sophisticated drawn face, creature weight, warm/cool light and deep architecture. No blur, flat plastic body, texture substituted elsewhere, glitter flecks, dust or big aura.\nUse the supplied actual primary as the only exact edit reference; do not reproduce a comparison composite.\n"
+  },
+  {
+    "id": "S05",
+    "attempt_id": "S05-R1",
+    "phase": "repair",
+    "category": "scene",
+    "retry_of": "S05-P",
+    "retry_reason": "Excellent shield brace and two-adult acting are undermined by dense snow spray, sharp flecks and crag texture across most of frame. Preserve subjects/action and materially group surfaces.",
+    "review_evidence": "research/nightglass-refinement/independent-review/final-primary-repair-priorities.json",
+    "review_sha256": "ec2a81f8383bb6e656c786e4322452ef34708610e440cb1b634eb0565f0f3cc8",
+    "prompt_path": "production/nightglass-refinement/prompts/S05-R1.txt",
+    "prompt_sha256": "679d4361a6f34843eb25e7d8e702df7b17f3e554dbf96deba41f5bb11829b60c",
+    "references": [
+      {
+        "path": "production/nightglass-refinement/candidates/S05-P.png",
+        "sha256": "b17ff7da2f93fe26547b8c5cbee24fc0a1f181a53b342fa46a736336d0d3bf91",
+        "role": "Exact primary edit target; preserve all specified identities, layout and useful action while repairing the evidenced local relationship/surface treatment."
+      }
+    ],
+    "prompt": "Use case: targeted illustration edit. Output one native1536x1024 landscape3:2 artwork.\nRedraw the SURFACE FINISH of this exact scene as deliberate premium clean action-comic illustration. Preserve the exact composition, Neris face/hair/costume/stance, her correct connected shield grip and full crescent shield, and Dax crouched behind her with the SAME RIGHT gauntlet inactive. Keep the expressive protection-and-trust moment, snowy pass, arch/city depth and shield's calm lee.\nSUBSTANTIAL TEXTURE RELIEF IS THE TASK. Replace the dense snowfleck/spray storm on the right with one broad graceful opaque-white wind-and-snow stream bending around the shield, shaped by a few large soft light/shadow planes. A small number of selective edge accents can show direction, but no cloud of tiny dots, streaks, shards or grain. Keep the protected wedge behind the shield clear. Draw snowbanks as broad smooth pale forms, rocky ridges as large connected dark planes, architecture as purposeful grouped masses. Remove repeated little white caps, crack networks, pebbles, etched crags and scattered window glitter. Let generous quiet areas coexist with precisely drawn adult faces and functional shield edges.\nRetain convincing physical depth and weather force without high-frequency texture. This is a full drawn redraw, not blur, denoise, low resolution, flat vectors, plastic rendering or deletion of the world. Keep major meaningful structures and all attached limbs. No new character, extra weapon, snow particles crossing the faces, text, panels or watermarks.\nUse the supplied actual primary as the only exact edit reference; do not reproduce a comparison composite.\n"
+  }
+]

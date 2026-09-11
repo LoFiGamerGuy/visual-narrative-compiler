@@ -1,0 +1,21 @@
+{
+  "id": "RC-SHEET",
+  "attempt_id": "RC-SHEET-R1",
+  "phase": "repair",
+  "category": "RC",
+  "retry_of": "RC-SHEET-P",
+  "retry_reason": "Actual native/phone show the right black plate emitting a bright red-white charged bar. Opening story requires an uncharged reference to avoid premature power state.",
+  "evidence_path": "research/pilot-chapters/support-repair-evidence.json",
+  "evidence_sha256": "d4250b7840a82887473df4b58cdba793f6446e34465662c6b1d117085ce5bf52",
+  "prompt": "Edit this exact cast sheet using it as the sole source. Change only the energy state of the leftmost man\u2019s anatomical RIGHT gauntlet, the forward red gauntlet on viewer-left: its broad central black plate must be DARK, UNLIT matte black, with no bright red-white bar, emissive light or charged glow. Preserve the gauntlet geometry and its red armor surrounding the plate, his fist and arm pose, face, braid, clothing and anatomy. Preserve the woman, key, giant angular shark and all diagram-scale silhouettes, pen hatching, black/white/red drawing treatment, framing and every other object. Keep both wrists unmarked and intact. Do not alter design or smooth away the intentional ink medium. No text, labels or new elements. Return one corrected native sheet.\n",
+  "prompt_path": "production/pilot-chapters/prompts/RC-SHEET-R1.txt",
+  "prompt_sha256": "6bf790b9eb50b85a024154cb110c890cb64c0761ab27c409a5265117160f945d",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/candidates/RC-SHEET-P.png",
+      "sha256": "a42b9a53c379bec7727dae0c96908ed86a3955d2eb3c3e25fb5a8b177a7bb221",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "FL04",
+  "attempt_id": "FL04-P",
+  "phase": "primary",
+  "category": "FL",
+  "retry_of": null,
+  "retry_reason": null,
+  "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Strong black brush masses, scraped white edges and controlled grayscale planes, limited hot-magenta institutional lights. Graphic ink narrative with selective rough marks. Preserve Adult face character, monumental flood infrastructure, black umbrella-segment creature and dry wit under genuine threat. Avoid Glossy leather everywhere, repetitive white water sparkles, polished wet mirror floor, decorative ink splatter over clues.\nWorld context: Monumental concrete floodworks. Dry elevated inspection ledge on LEFT, black canal two meters below RIGHT; one broad spillway gap and a tall locked sluice with a magenta signal panel. Water uses large black/white shape groups.\nVISIBLE subjects in this panel ONLY:\nCorin Vey: Light-skinned adult man, lean strong build, angular tired face, short black hair with gray temple, faint stubble. Off-white long coat over charcoal high-neck shirt and belted black combat trousers; flat black boots. Equipment: One long straight iron ward-pole with a broad simple solid C-shaped head: upper shoulder can prop an upper jaw while lower curve catches lower lip. No moving mechanism. Held in both hands when fighting. Small plain black notebook kept inside coat.\nAda Marr: Light-skinned adult woman with short blunt blond hair, blunt expressive face, dark hooded rain cape over gray knit top, pale practical trousers and black boots. Direct, angry sister. Equipment: Her missing brother’s dark work coat folded over one arm.\nInspected reference qualification for visible subjects only: Corin currently has a BARE LEFT hand and a plain black glove on his RIGHT hand.\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: Corin notices a sheltered, perfectly still water pocket inside a concrete recess beside the footprint. He removes one glove.\nCurrent physical state (authoritative): Pole laid safely on ledge; LEFT hand bare, pool still; no imprint yet; Ada standing behind.\nSpecial visual element, only if specified: none\nCamera and framing: Medium crouched discovery, small sheltered pool and black canal clearly distinct. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nReserve the upper 35% of the image as calm, broad in-world background for later speech balloons. Keep ALL faces, hands, important contact and clue details BELOW that zone. Do not draw balloons or text; the blank space will receive editable lettering.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+  "prompt_path": "production/pilot-chapters/prompts/FL04-P.txt",
+  "prompt_sha256": "91dd8fba0f63e2b2caa2f3236744f159a5c4f61f014f612f07c68dd8fac93b1a",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/references/anchor-06.png",
+      "sha256": "b515ac0588e2ab4f1e86bdf89e439c3d5374706580681d192b7155105878a818",
+      "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+    },
+    {
+      "path": "production/pilot-chapters/candidates/FL-SHEET-P.png",
+      "sha256": "6191a6d2c4a880594f61ce611120df2cdae74e7ab8ca8ae1fa67c810c76f94c8",
+      "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+    }
+  ],
+  "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+  "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+}

@@ -1,0 +1,34 @@
+# Chapter 5 — complete 42-panel reading review
+
+PASS for the current complete story reading. I actually read every one of the 24 fresh sequential 390 × 844 viewports in order across all six original-size composites in `chapter5-full-review/inspection/`. All 42 individual panels are preserved alongside them. The final native and 390px meal panel were inspected immediately before the full capture. No new material custody, attribution, causality or support blocker appeared. This is a production reading verdict, not owner acceptance or a claim of perfect visual continuity.
+
+Frozen snapshot SHA-256: `6be353a9a79ef7e39def3490de560ad61690424c2b2cf82a49a781d73b5b0875`. `chapter5-full-review/source-copy-proof.json` verifies every selected source hash, authoritative/rendered copy and applicable native crop hash/pixels, plus all 72 captured image hashes. All previous 01–41 records and completed chapters 1–4/comparisons remain exact. The browser loaded all 42 images with no errors, broken images or horizontal overflow; all dialogue/captions are 16px and within phone bounds. The final end-clamped view overlaps the preceding ending without omitting coverage. The frozen header/footer still correctly reflect the pending completion gate; root must mark completion after the other actual reads, followed by a status-only check.
+
+## What the full reading establishes
+
+- **Who wants what:** Aren wants reliable paid work and a possible place to live; Ilen wants to understand an overdue reply while keeping control of her work and response; Sera seeks a specific operational record needed to request a routing change.
+- **Why care:** The returned borrowed barrow and arranged room viewing make Aren’s ordinary obligations personal. Ilen first appears as a skilled worker, then reveals that she missed her daughter’s opening because she believed she was unwanted. The missed date stays missed.
+- **What causes the outcome:** A named signed request releases one letter, Aren delivers it and returns its separate signed slip, and Ilen chooses to read after finishing her immediate work. Her volunteered disclosure changes her belief. She writes and prepays a new answer, which Aren actually entrusts to Lower Post. Sera receives an operational copy from Toma’s retained originals.
+- **What changes:** One overdue delivery is complete, one new reply has entered ordinary post, and a current direction plus a completed delivery now support asking Route Closures for a particular change. Neither officials nor the daughter have answered that next step.
+- **Reward and cost:** Morning, crate and carrying earnings remain retained; the barrow is returned, tomorrow’s room viewing is concrete, and the closing meal offers earned rest. Ilen keeps her next-season job and the cost of the missed opening, while choosing a possible rest-day visit. No key, lease, week-long jump, bonus or guaranteed reconciliation is invented.
+- **Why read next:** There is a specific unresolved routing request, a possible reply between mother and daughter, and an appointment to see a room. These are consequences of the day’s work rather than a newly introduced emergency.
+
+## Readability and custody
+
+The chapter changes pace from the short paid crate trip into a quieter recipient scene. Ilen’s work, dry hands, signed slip and private reading make her control over the encounter legible. Aren completes the delivery before choosing to wait and never interprets her family news for her. The long middle stays coherent, though repeated loft and counter compositions remain a pacing limitation; this is a deliberate quiet episode rather than a visual-action climax.
+
+The received cream envelope with violet closure, the small signed white delivery slip, the new rust envelope with ivory seal/blue prepaid mark, and the pale-blue operational copy remain distinguishable. The original correspondence stays Ilen; the signed receipt stays Toma’s file; the new rust reply reaches Ossa’s outgoing tray; the operational copy goes into Sera’s own ledger. The final meal retains one closed wallet beside removed gloves, bare meal hands, the single sheathed weapon on Aren’s right hip and the empty bag/harness beside the chair. Ossa’s tray and Sera’s closed book remain present.
+
+Editable balloons stay outside the raster and clear of contacts, faces and papers. Named tailless bands resolve distant or off-frame speakers without pointing at objects; the lower Ossa band in 40 avoids the mail tray. Exact copy is unchanged. The final 42 is silent as scripted, so no lettering was added to the meal image.
+
+## Retained limitations and correction history
+
+The old side approval for seated 21/23/25 was an inspection error. A left-facing seated figure exposes anatomical LEFT; those primaries wrongly showed an intact sleeve and left sheath. Preserved sole-R1 replacements restore the torn left sleeve and remove that sheath, leaving the correct right weapon far-side hidden. This full reading uses those corrected images. Slightly high 23 and wider 25 tears remain qualified. All earlier source/capture/proof evidence and its explicit supersession are preserved, including `CHAPTER5-LETTERING-progress-through26-superseded-side-assessment.md`.
+
+The visible later Aren palette is plum-magenta hair and pale checked clothing, not literal navy/plain ivory prose. The ongoing drift is acknowledged rather than called a restoration. Dry cabinet/board extensions and the larger 41 drawer perspective do not prove the initial 14 furniture footprint. Some walking boots, hands, elbows, sheaths and packed contents are cropped or occluded; the reviews state the visible evidence instead of claiming exact hidden geometry. The 42 bag’s gray loop/fittings vary. These retained limitations do not confuse the observed work, custody, personal choice or closing reward in this edition.
+
+The previous running partial-review report is preserved as `CHAPTER5-LETTERING-progress-through41.md`. No chapter-5 artwork was generated by this reader reviewer, and no shared selection/script/completion gate was modified.
+
+## Final completion status
+
+After root, reader and independent editorial full-reading passes, root marked all five chapters reviewed complete. The final status-only build and actual 390px header/end inspection pass in `chapter5-final/`. Final snapshot SHA-256: `7fcfa6b99c2f991853bd38762e647c742b7b626305b3b05cd58ad9274ffc9c37`. Exact proof shows the only change from the frozen full42 reading snapshot is Chapter 5’s completion flag, false to true. Every panel/source/copy/lettering record and all earlier chapter/comparison data remain unchanged. All five chapters total 219 story panels. The header has no development notice and the footer reads “End of Chapter 5”; title, premise, five chapter links, final meal and return/review links are visible. The full reading was not redundantly repeated. This completes the reader production gate, with owner acceptance still separate.

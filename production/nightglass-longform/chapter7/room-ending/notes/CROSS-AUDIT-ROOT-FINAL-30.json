@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "audited_utc": "2026-09-10T16:27:37.880862+00:00",
+  "bounded_ids": [
+    "N7-30-P",
+    "N7-30-R1"
+  ],
+  "chains": [
+    {
+      "id": "N7-30-P",
+      "status": "PASS",
+      "phase": "primary",
+      "native_sha256": "f57900da0aeab78bfa32bc2174bce2f41954b4449413453a9fd1d7eb203ff210",
+      "default_path": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-1eb8e784-2ef5-43cd-b46d-cf0d54d74467.png",
+      "call_record_sha256": "97e28636828bd0af857398935b30f10f1f49764b7dbbf6965e78e5e39d2413c5",
+      "args_sha256": "0f5f36c539ef15816d73714e19e7bc12222d1e0b6220a01d9535887b809301a6",
+      "raw_return_sha256": "8a3deb23d827e159c624b9556fb0f3dd9261000b612d8465a946232af470dca2",
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter7/lead/crops/N7-29.png",
+          "sha256": "dc60b0a8b1a29d682fd99f25ce220a9764224a6cc06b1b4484d3508e5e776c09"
+        },
+        {
+          "path": "production/nightglass-longform/chapter7/lead/references/Daro-identity-from-N7-03.png",
+          "sha256": "4a06b0ee1cef90fba6f5cff376693f69d036945de2d62341763e3d087d3d5fc0"
+        },
+        {
+          "path": "production/nightglass-longform/chapter7/relay-return/references/signed-cream-slip-from-N7-25.png",
+          "sha256": "c8c9a410fa5ad5f01a2bd599d8606e0cb5d2ef5edf8cc88a60539a7ab890e0a8"
+        },
+        {
+          "path": "production/nightglass-longform/chapter7/lead/candidates/N7-07-P.png",
+          "sha256": "ea404e46b68c6c8d7aaeb7edf54d2484d34418ef858757414f762f5685e0256e"
+        }
+      ],
+      "local_submitted_utc": "2026-09-10T16:07:47.489666+00:00",
+      "local_returned_utc": "2026-09-10T16:09:15.356627+00:00",
+      "original_script_dependency_sha256": "3a83846acb3663ea1f6d05bb2426531276a02c9ac326364327347ae4e697ef50"
+    },
+    {
+      "id": "N7-30-R1",
+      "status": "PASS",
+      "phase": "repair",
+      "native_sha256": "99c7aeb35f389be8cdc3e3bf3a1757a815e0c76b4df8dcf9623a9cdda6c51811",
+      "default_path": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-0e9dfefb-9f8c-442a-b179-f8512a653e35.png",
+      "call_record_sha256": "e068b3214affa05d7b5fd94c5306b8401a37e33a03a5b25c8d35d812a89bf783",
+      "args_sha256": "30060dd23851583b339dea53230717c4e9fdbbe7055646a5f180de010db8d041",
+      "raw_return_sha256": "0f27ce688dceb3e20a092ae9c7bcca646d92c1dfb5119ea45c1a68c1a3b0ab56",
+      "references": [
+        {
+          "path": "production/nightglass-longform/chapter7/lead/candidates/N7-30-P.png",
+          "sha256": "f57900da0aeab78bfa32bc2174bce2f41954b4449413453a9fd1d7eb203ff210"
+        }
+      ],
+      "local_submitted_utc": "2026-09-10T16:12:24.492022+00:00",
+      "local_returned_utc": "2026-09-10T16:13:50.667904+00:00",
+      "original_script_dependency_sha256": "3a83846acb3663ea1f6d05bb2426531276a02c9ac326364327347ae4e697ef50"
+    }
+  ],
+  "count": 2,
+  "primaries": 1,
+  "repairs": 1,
+  "reference_hashes_verified": 5,
+  "canonical_root_count_reconciled": 23,
+  "canonical_root_ids": [
+    "N7-01-P",
+    "N7-03-P",
+    "N7-04-05-P",
+    "N7-06-P",
+    "N7-07-P",
+    "N7-08-09-P",
+    "N7-10-P",
+    "N7-10-R1",
+    "N7-11-12-P",
+    "N7-13-14-P",
+    "N7-13-14-R1",
+    "N7-15-16-P",
+    "N7-15-16-R1",
+    "N7-17-P",
+    "N7-17-R1",
+    "N7-18-19-P",
+    "N7-18-19-R1",
+    "N7-20-P",
+    "N7-26-27-P",
+    "N7-28-29-P",
+    "N7-28-29-R1",
+    "N7-30-P",
+    "N7-30-R1"
+  ],
+  "prior21_not_rehashed": true,
+  "null_unknown_metadata_preserved": true,
+  "scope_note": "Only N7-30-P/R1 rehashed. No relay, room or later reader acceptance inferred. Local timestamps are not provider telemetry. Both original and sole repair remain intact.",
+  "image_calls": 0,
+  "shared_mutations": false
+}

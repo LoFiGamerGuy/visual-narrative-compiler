@@ -1,0 +1,40 @@
+{
+  "id": "N7-30-R1",
+  "tool": "image_gen.imagegen",
+  "status": "returned",
+  "phase": "repair",
+  "panels": [
+    "N7-30"
+  ],
+  "args": {
+    "prompt": "Use case: precise-object-edit. Make a narrowly targeted CURRENT GEAR correction to the supplied complete panel30. Keep the camera, entire scene, faces, poses, hands, receipt, staircase, boot supports, daylight and all other pixels as close to source as possible.\nActual defect: Aren (plum-haired man at LEFT of image) has an unwanted short dark green/black vertical tube with brass border at his anatomical LEFT waist, around image x348\u2013377,y415\u2013487. Remove this entire extra tube and its fittings; naturally restore the shirt/waist/black trousers behind it. Keep his ONE genuine long black/brass sheathed weapon at anatomical RIGHT hip, at far image LEFT behind his arm, completely unchanged. Do not remove or relocate that long right-hip sheath.\nRestore Aren's ONE small closed CREAM leather waist wallet on his belt at his anatomical RIGHT-front waist, image aroundx228,y449\u2013492, immediately to the LEFT of the belt buckle in the image. It is a short rectangular flat cream pouch with a closed flap, securely belt-attached, separate from the rectangular brass badge on RED cord atimagex340,y488. Preserve that badge and its red cord exactly. The key stays INSIDE the closed wallet, unseen. No second pouch, tube or new hook.\nPreserve both BLACK GLOVED hands empty. The small tan strip below Aren's left gloved hand by his outer thigh can be simplified into the existing trouser pocket seam; do not let it become another hanging weapon or handheld object. Keep existing trouser pockets, not a new belt inventory.\nEverything else fixed: old anatomical LEFT upper sleeve tear/matte exposed skin, RIGHT sleeve intact, same ONE gray backpack WORN/twoBROWNstraps. Daro with same ONE signed landscape CREAM slip in his anatomical LEFT hand, RIGHT empty, same supported foot return. Aren rising beside same low bench, Kiva looking up from her supported unfinished work. No cart/box upstairs, no extra people, no lettering or new panel. This is the original panel's sole structural gear repair, not a texture pass or restaging.\n",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/candidates/N7-30-P.png"
+    ]
+  },
+  "arguments_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/requests/N7-30-R1.json",
+  "prompt_sha256": "f26a6ca74ddd2ee0ada2dfce3148c1f46fe4a3216b3e4dc6a0582583c55c7d5e",
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter7/lead/candidates/N7-30-P.png",
+      "sha256": "f57900da0aeab78bfa32bc2174bce2f41954b4449413453a9fd1d7eb203ff210"
+    }
+  ],
+  "before_art_dependency": {
+    "gate": "research/nightglass-longform/CHAPTER7-PRODUCTION-GATE.json",
+    "script_sha256": "3a83846acb3663ea1f6d05bb2426531276a02c9ac326364327347ae4e697ef50",
+    "preceding_zip_sha256": "054c78ed5be07ce4e0de16138ab80f4c9265174777ea94074c08f91c6129c66b",
+    "actual_reference_review": "Lead actually viewed each reference before this call; source roles/current state recorded in prompt."
+  },
+  "model_snapshot": null,
+  "seed": null,
+  "billing": null,
+  "owner_approval": null,
+  "invoked": true,
+  "submitted_utc": "2026-09-10T16:12:24.492022+00:00",
+  "returned_utc": "2026-09-10T16:13:50.667904+00:00",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-0e9dfefb-9f8c-442a-b179-f8512a653e35.png",
+  "path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/candidates/N7-30-R1.png",
+  "sha256": "99c7aeb35f389be8cdc3e3bf3a1757a815e0c76b4df8dcf9623a9cdda6c51811",
+  "raw_return_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/calls/N7-30-R1-tool-return.json"
+}

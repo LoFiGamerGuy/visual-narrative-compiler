@@ -1,0 +1,40 @@
+{
+  "id": "N7-10-R1",
+  "tool": "image_gen.imagegen",
+  "status": "returned",
+  "phase": "repair",
+  "panels": [
+    "N7-10"
+  ],
+  "args": {
+    "prompt": "Use case: precise-object-edit. Edit the supplied N7-10 primary ONLY to correct the fitted wooden box's extra front fitting. Keep the entire exact scene, dimensions, crop, drawing, lighting, anatomy, two working bare hands, one CLOSED wooden shipment box, one underlying carrying board with two end cutout grips, ONE cream slip held under the central BROWN retaining loop, and the unfinished work jig behind.\nObserved defect: the long FRONT wall currently has THREE hanging brass latch fittings: one under each working hand and an EXTRA narrow brass latch near the far RIGHT edge. The established box has EXACTLY TWO front catches.\nREMOVE ONLY the EXTRA narrow vertical brass latch at the far RIGHT of the long front wall (around x1178,y576 in this1536x1024 source). Fill its small location with matching uninterrupted original wooden front-wall grain/plane. The two front catches beneath Kiva's two hands remain unchanged, one left and one right of the central brown loop/slip. Do not remove either working-hand catch. Do not add another latch, screw array, badge or handle onto the long front wall.\nKeep the visible broad BRASS FOLDING carrying handle on the LEFT short END wall intact. The opposite short end is outside this view/foreshortened, so do not invent its handle on the front wall. Preserve the established end-handle construction where visible.\nKeep the single cream slip blank and externally retained under the brown loop, the box completely closed/no hinges outside, both hands naturally contacting the two correct catches, entire board supported on the same workbench, and all source surfaces/poses exactly as they are. This is one local structural fitting correction, not a texture pass or new composition. No text, no balloons.\n",
+    "referenced_image_paths": [
+      "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/candidates/N7-10-P.png"
+    ]
+  },
+  "arguments_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/requests/N7-10-R1.json",
+  "prompt_sha256": "6f99ef3a929b82bf3401833e2221033a082936185bf0d933872ccf7251bb27af",
+  "references": [
+    {
+      "path": "production/nightglass-longform/chapter7/lead/candidates/N7-10-P.png",
+      "sha256": "5ca42592e9b9f7996c95ee82c046c8eb2ba935f99c35c4f90d31cb14c6698000"
+    }
+  ],
+  "before_art_dependency": {
+    "gate": "research/nightglass-longform/CHAPTER7-PRODUCTION-GATE.json",
+    "script_sha256": "25719f56be09a5ff0e61725b65ff4cdf442c3294e624a9f72f4013d20a6725bb",
+    "preceding_zip_sha256": "054c78ed5be07ce4e0de16138ab80f4c9265174777ea94074c08f91c6129c66b",
+    "actual_reference_review": "Lead actually viewed each reference before this call; source roles/current state recorded in prompt."
+  },
+  "model_snapshot": null,
+  "seed": null,
+  "billing": null,
+  "owner_approval": null,
+  "invoked": true,
+  "submitted_utc": "2026-09-10T14:51:27.338531+00:00",
+  "returned_utc": "2026-09-10T14:54:01.186931+00:00",
+  "source_path": "/home/gosnerp/.codex/generated_images/01a087c9-57e2-7381-b09f-1f1db66b53d2/exec-0cf5f42b-521a-4fe9-8be1-d04e104956b3.png",
+  "path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/candidates/N7-10-R1.png",
+  "sha256": "9ca50f9d9c9c760e3a4ddc73d4998cd45756c9f3ecd8e41b54981bc46b635c30",
+  "raw_return_path": "/mnt/c/AgentWorkspaces/anime-pipeline-nightglass-longform-20260909-2110/production/nightglass-longform/chapter7/lead/calls/N7-10-R1-tool-return.json"
+}

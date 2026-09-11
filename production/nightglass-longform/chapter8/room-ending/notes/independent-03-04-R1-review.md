@@ -1,0 +1,9 @@
+# Independent actual N8-03–04 R1 review
+
+PASS with visibility limits. I actually viewed the entire repaired native, both exact inspection crops, and both full panel crops at original size. Native SHA-256: `f83c712fa0a7bdb720daf689749c560fc5e20a76c70bee90b5fe1a1c4339a2e6`. The accompanying JSON binds all five viewed files and the authoritative script.
+
+03 repairs the material cart orientation issue: Daro pulls forward holding two raised handles at the same leading end as the visible parking feet. Each visible foot now has clear air above the paving; the near wheel meets the ground. The far wheel is occluded behind the cart/body geometry, so this is a credible supported rolling pose, not independently visible proof of both wheel contacts. The empty padded bed and loose brown strap remain legible, with no new cargo. The three current characters, Sera’s closed ledger, Aren’s worn kit and empty hands retain the intended ordinary departure. No material new defect is apparent; this framing does not establish a complete garment inventory.
+
+04 repairs the material standing-area issue: matte flagstones are now visible beneath and immediately in front of the left bench, distinct from the glossy wet right work lane. The fixed closed hatch, adjacent broad main doorway/water sill, outside trough and continuous forecourt remain coherent. The dry strip supports subsequent dry bench staging; it is not a measured clearance or hydraulic claim. No actor or future load is prematurely introduced.
+
+Both requested structural corrections are demonstrated in actual pixels. No further image call or finish is warranted from this review; the original sole R1 is spent. This review proposes acceptance to the lead and does not edit shared selection or assert owner approval. These are native/crop observations, not a new phone-reader pass. All source artwork remains unchanged.

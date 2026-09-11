@@ -1,0 +1,37 @@
+{
+  "id": "V01",
+  "attempt_id": "V01-R1",
+  "phase": "structural",
+  "category": "vista",
+  "retry_of": "V01-P",
+  "retry_reason": "The two travelers occupy about a quarter of the frame height instead of the planned extreme-wide 8 percent; the user explicitly requested tiny recognizable characters entering a giant city.",
+  "evidence_path": "production/scale-conflict/edit-specs-01.json",
+  "evidence_sha256": "c6a79fac0d01d4d76a7ef1d6c52cfc30c83a47cd8cd1d77b187a1a368ae0af45",
+  "prompt_path": "production/scale-conflict/prompts/V01-R1.txt",
+  "prompt_sha256": "196ad2f5aa7b7f3bf52399093afa241a4552cb1396a9118ad8bf22512d1aee33",
+  "plan_sha256": "5363411389f92be06ff4004142dde7d0cea496ec47b7b44fd64efdeb81de0ff1",
+  "references": [
+    {
+      "path": "production/scale-conflict/candidates/V01-P.png",
+      "sha256": "768120275acc6ba08c4fd2469ef0a903b39d25e978416600049461c196fff216",
+      "role": "Sole exact edit source; preserve all content except the specified structural change"
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-08 13:40:31 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-scale-conflict-20260908/production/scale-conflict/candidates/V01-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-08 13:43:22 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-63cc7ab8-1de0-4e85-8256-a024585dc872.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

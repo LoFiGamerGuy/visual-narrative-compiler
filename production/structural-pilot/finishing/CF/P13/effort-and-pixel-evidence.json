@@ -1,0 +1,65 @@
+{
+  "schema": "ConventionalCorrectionEvidence/1",
+  "experiment_id": "CF-20260907-02",
+  "panel": "P13",
+  "source_path": "production/structural-pilot/candidates/C00006-7bcaae7ecfd93780.png",
+  "source_sha256": "7bcaae7ecfd937805a8db1b4bed00eab40e42d601734f263e38a30831bac345f",
+  "versions": [
+    {
+      "id": "CF-P13-F01",
+      "png": "production/structural-pilot/finishing/CF/P13/P13-F01.png",
+      "sha256": "85f5102d857e7b50c09602621ff38f39216ccebe432934e86109b29fcc508074",
+      "svg_sha256": "3bf97a3ce7f33dc8b2482fa2fbdb1e64c7ab8d9ece5f045731f7d78680cf0e00",
+      "changed_pixel_bbox_xyxy": [
+        621,
+        790,
+        706,
+        883
+      ],
+      "changed_pixels": 2403,
+      "all_pixels_outside_bbox_identical": true,
+      "status": "draft-unaccepted"
+    },
+    {
+      "id": "CF-P13-F02",
+      "png": "production/structural-pilot/finishing/CF/P13/P13-F02.png",
+      "sha256": "72db9f96a5149dd7a5ce9c3fb630dd11f64142e1c363949587d8ada45967370c",
+      "svg_sha256": "72f8a44b8728b185ad7f102b1ca84e0d3f0eaabadafa92dea44f4362944f1522",
+      "changed_pixel_bbox_xyxy": [
+        636,
+        807,
+        691,
+        858
+      ],
+      "changed_pixels": 1139,
+      "all_pixels_outside_bbox_identical": true,
+      "status": "draft-unaccepted"
+    }
+  ],
+  "mechanism": "Original raster embedded unchanged under explicit editable SVG paths; local value/ink only. No synthesis, inpainting or added limb. Rasterized in Chromium151 through task-local browser port9351.",
+  "primary_agent_wall_seconds": 195,
+  "correction_agent_wall_seconds": 25,
+  "total_agent_wall_seconds": 220,
+  "intervals_utc": {
+    "primary": [
+      "2026-09-07T06:40:11Z",
+      "2026-09-07T06:43:26Z"
+    ],
+    "correction": [
+      "2026-09-07T06:43:26Z",
+      "2026-09-07T06:43:51Z"
+    ]
+  },
+  "time_attribution": "Agent wall time including local inspection and authoring; not human artist labor. Report writing and reader integration excluded.",
+  "metadata_erratum": "F02 spec contains a mistyped correction_started_utc of06:44:05Z. Tool clock immediately before F02 authoring returned06:43:26UTC; correct observed interval is recorded here. Original spec/SVG/receipt retained without rewriting bound evidence.",
+  "correction_trigger": "Actual F01 native crop showed overly long uniform bright lip and opaque toe planes reading as a vector attachment against textured art. F02 shortens/breaks the contour and allows source texture through.",
+  "author_observation": "F02 is better integrated than F01 and more clearly outlines the toe/flange occlusion at native crop. At390px the corrected area occupies about16\u00d715px and change is subtle; this does not establish a meaningful comprehension gain. Original source already suggested a trapped limb.",
+  "recommended_candidate_for_independent_comparison": "CF-P13-F02",
+  "no_further_correction_allowance_remaining": true,
+  "semantic_acceptance": null,
+  "artistic_acceptance": null,
+  "independent_review_pending": true,
+  "human_labor_claimed": false,
+  "generated_calls": 0,
+  "direct_spend_usd": 0
+}

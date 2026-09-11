@@ -1,0 +1,105 @@
+{
+  "schema": "ControlAuthorWorkRecord/1",
+  "experiment": "SC-20260907-01",
+  "author_role": "AI implementation author; not a skilled human artist or independent acceptance reviewer",
+  "started_utc": "2026-09-07T05:47:46+00:00",
+  "completed_utc": "2026-09-07T06:19:33.157188+00:00",
+  "elapsed_agent_authoring_seconds": 1907.16,
+  "human_labor_hours": null,
+  "generative_image_calls": 0,
+  "direct_paid_spend_usd": 0,
+  "runtime_executable": "Existing Windows Blender 5.2.1 LTS, build 9e2066aef7ef",
+  "render_runs": [
+    {
+      "path": "v1/render-record-P09.json",
+      "start_epoch": 1788760408.0706408,
+      "elapsed_seconds": 1.52,
+      "panel_count": 1,
+      "png_pass_count": 1
+    },
+    {
+      "path": "v2/render-record-all.json",
+      "start_epoch": 1788760479.639158,
+      "elapsed_seconds": 7.27,
+      "panel_count": 7,
+      "png_pass_count": 49
+    },
+    {
+      "path": "v3/render-record-all.json",
+      "start_epoch": 1788760633.975712,
+      "elapsed_seconds": 7.32,
+      "panel_count": 7,
+      "png_pass_count": 49
+    },
+    {
+      "path": "v4/render-record-all.json",
+      "start_epoch": 1788760775.2082431,
+      "elapsed_seconds": 7.15,
+      "panel_count": 7,
+      "png_pass_count": 49
+    },
+    {
+      "path": "v5/render-record-all.json",
+      "start_epoch": 1788760997.515588,
+      "elapsed_seconds": 7.18,
+      "panel_count": 7,
+      "png_pass_count": 49
+    },
+    {
+      "path": "v6/render-record-P11.json",
+      "start_epoch": 1788761074.8614473,
+      "elapsed_seconds": 1.7,
+      "panel_count": 1,
+      "png_pass_count": 7
+    },
+    {
+      "path": "v7/render-record-all.json",
+      "start_epoch": 1788761367.4367268,
+      "elapsed_seconds": 7.11,
+      "panel_count": 7,
+      "png_pass_count": 49
+    },
+    {
+      "path": "v8/render-record-all.json",
+      "start_epoch": 1788761495.8129141,
+      "elapsed_seconds": 7.06,
+      "panel_count": 7,
+      "png_pass_count": 49
+    },
+    {
+      "path": "v9/render-record-P12.json",
+      "start_epoch": 1788761739.5937145,
+      "elapsed_seconds": 1.69,
+      "panel_count": 1,
+      "png_pass_count": 7
+    }
+  ],
+  "pngs_preserved": 309,
+  "full_guide_plates_preserved": 45,
+  "selected_frozen_version": "v8",
+  "selected_panels": [
+    "P09",
+    "P11",
+    "P13",
+    "P14"
+  ],
+  "supplemental_p12_correction": "v9; not silently promoted over frozen v8",
+  "verification_failures_preserved": [
+    {
+      "evidence": "verification-v5v6.json",
+      "detail": "Staff metric lengths were not locked; an overbroad P08 Odo-hand framing check flagged the intentional close-shot crop. Canonical length control implemented in v7."
+    },
+    {
+      "evidence": "inspect_blend-v1.py",
+      "detail": "First mesh-inspection script read unevaluated inactive-scene bounds and raised IndexError before writing a report. Corrected by activating/updating each scene; final actual mesh/alpha inspection completed."
+    }
+  ],
+  "visible_limitations": [
+    "Coarse actor geometry does not demonstrate finished drawing, adult facial appeal or final anatomy.",
+    "P12 v8 fracture appears nearly continuous at an occluding joint. v9 exposes discarded-fragment separation, but exact retained-tip/joint overlap remains partially occluded.",
+    "P13 foreground partition partially occludes Nera's far torso. Hands/face/held remnant remain visible.",
+    "A thin coincident-surface seam remains on the jamb/partition intersection; it is not a texture reference.",
+    "Final compositing must retain foreground partition occlusion; isolated alpha layers do not enforce ordering by themselves."
+  ],
+  "blind_status": "Implementation author; not blinded. Agent-list tool exposed the independent baseline critique during feasibility."
+}

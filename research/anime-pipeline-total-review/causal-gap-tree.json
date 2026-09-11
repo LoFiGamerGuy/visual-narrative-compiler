@@ -1,0 +1,120 @@
+{
+  "schema": "CausalGapTree/1",
+  "evidence_order": "phone reader > full panels > matched tests > owner records > measurements > scripts > claims",
+  "path": [
+    "reader experience",
+    "assembly",
+    "lettering/UI",
+    "selected art",
+    "generation/repair",
+    "prompt/reference",
+    "panel plan",
+    "story/sequence",
+    "architecture",
+    "validation/incentives"
+  ],
+  "nodes": [
+    {
+      "id": "C1",
+      "symptom": "Story events change or happen before their cause",
+      "severity": "critical",
+      "frequency": "5 confirmed high-information cases in52; not an exhaustive failure rate",
+      "evidence": [
+        "P012",
+        "P017",
+        "P029",
+        "P033",
+        "P037",
+        "evidence/technical-measurements.json"
+      ],
+      "earliest_stage": "selection and benchmark-to-chapter mapping",
+      "cause": "24 existing benchmark sources were assigned to revised chapter beats; some exact original requests contradict cast, body state or timing.",
+      "competing_hypothesis": "Generator disobeyed a correct story prompt.",
+      "disposition": "Not primary for these five: original source requests already describe the incompatible event. Other newly generated failures remain possible.",
+      "remedy": "Storyboard-led source binding, independent semantic rejection and replacement of incompatible plates.",
+      "proof": "Neutral14 panel source-to-beat review; zero unexplained actor/state/time/contact contradictions."
+    },
+    {
+      "id": "C2",
+      "symptom": "Excellent PASS scores coexist with visibly broken sequences",
+      "severity": "critical",
+      "frequency": "52/52 hybrid rows share the same quality vector",
+      "evidence": [
+        "integrate.py criteria_scores",
+        "editorial.py uniform scores",
+        "validation-goodhart-audit.md"
+      ],
+      "earliest_stage": "validation and acceptance authority",
+      "cause": "Workflow score presets, round-robin scenario tags and protected rectangles chosen around lettering replace independent observations.",
+      "competing_hypothesis": "Only rubric weights are miscalibrated.",
+      "disposition": "Changing weights cannot rescue non-observational inputs.",
+      "remedy": "Remove computed quality presets from decisions; independently freeze annotations and review actual phone sequence.",
+      "proof": "Historical false-pass cases rejected despite valid hashes/JSON; two blind human reviews plus owner preference."
+    },
+    {
+      "id": "C3",
+      "symptom": "Large speech is readable in isolation but spills out of balloons or hides meaning",
+      "severity": "high",
+      "frequency": "Confirmed P004/P005/P012/P033/P034 and matched sample; population count not established",
+      "evidence": [
+        "lettering-ui-mobile-audit.md",
+        "evidence/structural-measurements.json"
+      ],
+      "earliest_stage": "lettering layout and source composition",
+      "cause": "Type grew while curved container geometry and real-image protected regions were not jointly reviewed; authored boxes are not actual quiet space.",
+      "competing_hypothesis": "Font size alone is too small.",
+      "disposition": "Current actual362px minimum12.30px is above UI floor; visual containment/attribution still fails. Prior minimum was smaller.",
+      "remedy": "Fit glyphs to real balloon interiors, real mouth targets and fixed image annotations; split/rewrite before shrinking.",
+      "proof": "Zero visible glyph/body overflow or essential-feature occlusion at390; +30/+50percent copy stress with no smaller type."
+    },
+    {
+      "id": "C4",
+      "symptom": "Many panels feel like similarly finished dark fantasy illustrations",
+      "severity": "high",
+      "frequency": "35/52 declared low density but52 identical1024x1536 sources; visual sampling shows texture across quiet/action beats",
+      "evidence": [
+        "visual-sequential-audit.md",
+        "evidence/deterministic-measurements.json",
+        "evidence/structural-measurements.json"
+      ],
+      "earliest_stage": "storyboard, composition and rendering brief",
+      "cause": "Full-frame asset production and repeated surface/lighting hierarchy give each beat comparable visual weight; median filtering cannot redesign shapes or acting.",
+      "competing_hypothesis": "All dense/painterly art is inferior.",
+      "disposition": "Rejected: licensed later TOG and strong repository stills demonstrate useful detailed art. Density must serve attention and contrast.",
+      "remedy": "Variable shot footprint, simpler backgrounds in emotional/action beats, explicit color script and selective detail; test cleaner separable route against well-directed current renderer.",
+      "proof": "Blind review recognizes intended attention order and quiet/spectacle contrast; no proxy-only art threshold."
+    },
+    {
+      "id": "C5",
+      "symptom": "Coherent systems do not reliably create attachment or urgent action",
+      "severity": "medium-high",
+      "frequency": "Recurring in sampled early/late episodes; audience preference hypothesis, not survey result",
+      "evidence": [
+        "story-progression-action-audit.md",
+        "owner-feedback-ledger.md"
+      ],
+      "earliest_stage": "episode editorial and performance",
+      "cause": "Theme and numerical reconciliation are clearer than personal stakes, expressive range and reward felt through action. Serious technical dialogue often replaces chemistry.",
+      "competing_hypothesis": "Ember premise intrinsically lacks appeal.",
+      "disposition": "Unproven; owner strongly liked pilot and fault-reading/shared-cost engine supports original tactics.",
+      "remedy": "Keep premise provisional; stage one relationship pressure and one capability change visibly, with state exposition only at decision/consequence.",
+      "proof": "After route isolation, an Ember micro-opening is preferred/understood by owner and independent readers; story reset only after controlled rejection."
+    },
+    {
+      "id": "C6",
+      "symptom": "Large engineering surface produces limited visible quality returns",
+      "severity": "medium",
+      "frequency": "603 legacy modules/76613 physical lines/317 validate modules in scoped count",
+      "evidence": [
+        "technical-pipeline-audit.md"
+      ],
+      "earliest_stage": "production architecture and incentives",
+      "cause": "Hypothesis: copied evidence/validation machinery and record milestones may displace sequence-level revision. Actual time allocation and causal direction were not measured; difficult art may instead have prompted more machinery.",
+      "competing_hypothesis": "All infrastructure is wasted.",
+      "disposition": "Rejected: hashes, preservation, nullable provenance, state ledgers, editable SVG and failure injection solve real problems.",
+      "remedy": "Retain small proven core; consolidate only when pilot demands it, allocate explicit editorial correction time.",
+      "proof": "Accepted-sequence quality and human correction hours, not module/report count, control scale.",
+      "evidence_status": "Organizational hypothesis, not observed displacement"
+    }
+  ]
+}

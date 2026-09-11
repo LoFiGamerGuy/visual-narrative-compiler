@@ -1,0 +1,43 @@
+{
+  "id": "ST02",
+  "attempt_id": "ST02-P",
+  "phase": "primary",
+  "category": "ST",
+  "retry_of": null,
+  "retry_reason": null,
+  "prompt_path": "production/pilot-chapters/prompts/ST02-P.txt",
+  "prompt_sha256": "1f7c6da3c7e1ea50213af4200898e2da3b4318e2516ca763209ddc45f12bd91b",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/references/anchor-18.png",
+      "sha256": "b75df6fbd5a78d683f303c73dbfdf544cfad479742cfd8513f9617d4a645be54",
+      "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+    },
+    {
+      "path": "production/pilot-chapters/candidates/ST-SHEET-P.png",
+      "sha256": "9b7f23b17a9221ac0a6b35b603c369ec0430b9d5403696fda8bc995fb90e8739",
+      "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+    }
+  ],
+  "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+  "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51",
+  "started": {
+    "current_time": "2026-09-09 13:54:52 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-pilot-chapters-20260909-1310/production/pilot-chapters/references/anchor-18.png",
+    "/mnt/c/AgentWorkspaces/anime-pipeline-pilot-chapters-20260909-1310/production/pilot-chapters/candidates/ST-SHEET-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 13:56:27 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-2fdcd36d-bb27-401e-b40a-30952d1191e9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

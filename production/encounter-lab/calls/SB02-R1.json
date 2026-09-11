@@ -1,0 +1,37 @@
+{
+  "id": "SB02",
+  "attempt_id": "SB02-R1",
+  "phase": "repair",
+  "category": "encounter",
+  "retry_of": "SB02-P",
+  "retry_reason": "Root and independent native inspection show a new second spearhead contacting low pulse and active high flame, breaking the intended failed high guard and equipment continuity. Sixth and final structural repair.",
+  "evidence_path": "research/encounter-lab/repair-causality-evidence.json",
+  "evidence_sha256": "15485b205738241ed484b75a5ee9066abf6933dc494a373884f1fd98318bb4b4",
+  "prompt_path": "production/encounter-lab/prompts/SB02-R1.txt",
+  "prompt_sha256": "22e13a08f5c06f33c0e7a8d721bae9fb98e2f44105c244cea984ff15ed4633ea",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "references": [
+    {
+      "path": "production/encounter-lab/candidates/SB02-P.png",
+      "sha256": "78845bc7814155eab92bb7ba58f1eb7994b3f0f4d42f3d4b0d4697ef7dd6fcc0",
+      "role": "Sole source edit target; preserve all protected features named in prompt."
+    }
+  ],
+  "started": {
+    "current_time": "2026-09-09 05:04:13 UTC"
+  },
+  "referenced_image_paths": [
+    "/mnt/c/AgentWorkspaces/anime-pipeline-encounter-lab-20260909-0430/production/encounter-lab/candidates/SB02-P.png"
+  ],
+  "tool": "builtin image_gen",
+  "model": null,
+  "snapshot": null,
+  "seed": null,
+  "usage": null,
+  "billing": null,
+  "direct_paid_spend_usd": 0,
+  "finished": {
+    "current_time": "2026-09-09 05:05:37 UTC"
+  },
+  "output_hint": "Generated images are saved to /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce as /home/gosnerp/.codex/generated_images/01a07a5a-9b5b-73d3-9f18-0a5bceea88ce/exec-8a65bbfe-5429-49f0-88c1-7f9a1a4b0262.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

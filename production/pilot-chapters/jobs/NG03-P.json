@@ -1,0 +1,26 @@
+{
+  "id": "NG03",
+  "attempt_id": "NG03-P",
+  "phase": "primary",
+  "category": "NG",
+  "retry_of": null,
+  "retry_reason": null,
+  "prompt": "Use case: illustration-story. Draw ONE NEW finished webcomic panel, not a poster, collage, split board or multiple panels. SQUARE image, requested 1024x1024.\nReference 1 is the original drawing/world benchmark. Reference 2 supplies only our newly inspected cast identities, clothing and equipment. Compose the completely new moment described below. Do not reproduce either reference's framing or add its absent characters.\n\nDrawing treatment: Thin controlled anime contours, elegant facial planes, angular dark hair, tailored pale jacket against black clothing; luminous glass translucency against layered inhabited navy architecture. Preserve The integrated invitation of face, creature, city and night atmosphere; inhabited balconies and quiet cyan windows. Avoid Bodybuilder armor, uniform low-angle full-body shots, wet reflective pavement, citywide speckle and a ray inserted behind every close-up.\nWorld context: Layered vertical city at blue night. Upper admission gate on RIGHT, maintenance lift below LEFT side of same bridge, thick black metal anchor posts. Warm human windows, distant hanging gardens.\nVISIBLE subjects in this panel ONLY:\nGlass ray: Single immense navy translucent glass-wing ray, broad crescent wings, cyan circular sensory lights, narrow central beak, one long tail. Living alien animal; no humanoid face. Equipment: none\nInspected reference qualification for visible subjects only: none\nVisibility/cropping constraints: Only the subjects above, framed as specified below.\nONE current moment: A glass beak clamps the maintenance lift’s suspension coupling below the bridge; one thick cable bends under its bite.\nCurrent physical state (authoritative): Lift remains attached but skewed; Pell inside, hands on rail; ray beak intact.\nSpecial visual element, only if specified: none\nCamera and framing: Tight mechanical/creature insert; beak, coupling and cable clearly separate. Respect actual subject-to-frame size, especially extreme wides. Do not enlarge a distant person into a medium shot.\nThis is a silent story beat. Use the whole image deliberately; no arbitrary text band.\nDraw acting with a specific expression and body intention. For contact, show the physical source/contact/target and its immediate reaction. For a clasp or weapon, make shoulder-elbow-wrist-hand-object ownership legible. Keep supports, scale and visible limb anatomy sound. Do not add later injuries, additional duplicates, alternate weapons, generic glows or undescribed consequences.\nSurface design: matte quiet ground, broad deliberate light and shadow shapes, selective purposeful architecture. Group foliage, hair and material marks. Keep medium-defining directional ink/brushwork; avoid pervasive microtexture, repeated tiny facets, flooring crack networks, mirror floors and reflection glitter. Preserve richness through faces, composition and world depth.\nNo text of any kind, no speech balloons, no glyphs, no captions, no SFX lettering, no UI, no signatures, no watermark, no frame. Exact dialogue will be added separately. Return only the new artwork.\n",
+  "prompt_path": "production/pilot-chapters/prompts/NG03-P.txt",
+  "prompt_sha256": "576c11fb0fc328d5eb81a5b87a663d44a67cff237bdf9803ea15457542ef9e79",
+  "plan_sha256": "e2f7ea47f7f91eb7b603ae86a86fe4e5b9f1abd0c30084dd953b4182a5f06daf",
+  "references": [
+    {
+      "path": "production/pilot-chapters/references/anchor-01.png",
+      "sha256": "da8c2a058b785aefe078144159d5591a5abed6e654e9e6bd5f3d90ecdd0f7d33",
+      "role": "Original drawing/world benchmark. Preserve its particular drawing treatment, not its board layout."
+    },
+    {
+      "path": "production/pilot-chapters/candidates/NG-SHEET-P.png",
+      "sha256": "09b7fcca7236a6be54dd88a558476bea80dd19b11b9efaaa6f6bedc695754122",
+      "role": "New inspected cast identity and equipment reference only. Its neutral layout is not this panel composition."
+    }
+  ],
+  "qualifications_path": "production/pilot-chapters/reference-qualifications.json",
+  "qualifications_sha256": "0f7610351b0d0bb7e6c94b2812a6ea95f152eaeb140ad7eb1da72daf6527dc51"
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "Chapter6 build/package support only; no reader rebuild, selection mutation, art or ZIP creation",
+  "script_sha256": "aeea4046b2f138dcebad3e27b0cc5cf4d4b241c3a02fcc27337977e80d6f3204",
+  "script_panels": 47,
+  "changes": [
+    "pack.py sixchapters gate requires1\u20136",
+    "Six-chapter development delivery starter and CLIchoice",
+    "README documents five/six chapter commands and gates"
+  ],
+  "reader_change": "None needed: existing numbered-script discovery, source validation, editable lettering defaults and completion gate support6 incrementally. Wait for first selected art release before actual build.",
+  "checks": [
+    "trial: gate and starter exactly preserve prior behavior",
+    "chapter1: gate and starter exactly preserve prior behavior",
+    "threechapters: gate and starter exactly preserve prior behavior",
+    "fourchapters: gate and starter exactly preserve prior behavior",
+    "fivechapters: gate and starter exactly preserve prior behavior",
+    "sixchapters refuses current snapshot with missing6",
+    "temporary metadata-only gate fixtures: zero/partial/unreviewed/mismatched6 refuse; complete47/47 fixture passes; no artwork or ZIP fabricated",
+    "all47 authoritative Chapter6 copy records pass existing standalone default-lettering helper; spoken copy stays unreviewed; no builder execution/output writes",
+    "reader discovery and final completion gate already chapter-dynamic; source_record only accepts selected existing files with matching hashes",
+    "219-panel fivechapter snapshot/data/overrides unchanged; final snapshot SHA preserved"
+  ],
+  "preserved_reader_files": {
+    "docs/nightglass-longform/data.js": "53fa4435da3cf22cc841602cb924a5f90f030c87b1faf7b363990bf1b24a02f4",
+    "production/nightglass-longform/reader/snapshot.json": "7fcfa6b99c2f991853bd38762e647c742b7b626305b3b05cd58ad9274ffc9c37",
+    "production/nightglass-longform/reader/lettering-overrides.json": "ee8eaedab26a15f64ca167872b85399c98471f89fcec788b6f2a6e6e6fdcb724"
+  },
+  "verifier": "Existing verifier enumerates available chapters dynamically; expected20 routes with six available chapters, including archive modal routes. Not executed against a nonexistent sixchapter artifact."
+}

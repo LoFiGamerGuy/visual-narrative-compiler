@@ -1,0 +1,179 @@
+{
+  "schema": "StructuralReaderLayoutPatch/1",
+  "experiment_id": "CF-20260907-02",
+  "route_id": "G",
+  "input_path": "production/structural-pilot/reader-patches/CF-reader-input.json",
+  "input_sha256_before": "abb21d06ca77af250b665a6d013223d8426f6ff285814cc503c0f27956579df9",
+  "draft_sha256": "8c1ad72e1ad837b6ef2239886842f5f7d4241e95b7dd68f78805c3be05c3e735",
+  "plan_sha256": "1cfcac890c3ee2f2577611d8f3e9720945d182b4f496a88f06662c5af07fe54f",
+  "changes": [
+    {
+      "panel": "P14",
+      "candidate_id": "C00012",
+      "candidate_sha256": "bfbb5df4ac945f0841e33a07e3157b2447980850aa1fbec7f7bb55670d7347cc",
+      "before_lettering": [
+        {
+          "id": "P14-L01",
+          "kind": "dialogue",
+          "speaker": "ODO",
+          "text": "Steady.",
+          "shape": "rounded",
+          "x": 0.445,
+          "y": 0.08,
+          "w": 0.22,
+          "h": 0.105,
+          "font_size": 16,
+          "tail": {
+            "x": 0.666,
+            "y": 0.242
+          }
+        },
+        {
+          "id": "P14-L02",
+          "kind": "dialogue",
+          "speaker": "NERA",
+          "text": "I am.",
+          "shape": "rounded",
+          "x": 0.395,
+          "y": 0.29,
+          "w": 0.16,
+          "h": 0.1,
+          "font_size": 16,
+          "tail": {
+            "x": 0.378,
+            "y": 0.32
+          }
+        }
+      ],
+      "after_lettering": [
+        {
+          "id": "P14-L01",
+          "text": "Steady.",
+          "kind": "dialogue",
+          "speaker": "ODO",
+          "shape": "rounded",
+          "x": 0.445,
+          "y": 0.08,
+          "w": 0.22,
+          "h": 0.105,
+          "font_size": 16,
+          "tail": {
+            "x": 0.666,
+            "y": 0.242
+          }
+        },
+        {
+          "id": "P14-L02",
+          "text": "I am.",
+          "kind": "dialogue",
+          "speaker": "NERA",
+          "shape": "rounded",
+          "x": 0.43,
+          "y": 0.205,
+          "w": 0.17,
+          "h": 0.105,
+          "font_size": 16,
+          "tail": {
+            "x": 0.385,
+            "y": 0.34
+          }
+        }
+      ],
+      "before_protected_regions": [
+        {
+          "id": "P14-nera-face",
+          "label": "Nera visible face",
+          "x": 0.25531575201492684,
+          "y": 0.251,
+          "w": 0.11684921230307577,
+          "h": 0.108
+        },
+        {
+          "id": "P14-odo-face",
+          "label": "Odo visible face",
+          "x": 0.6797680189278088,
+          "y": 0.155,
+          "w": 0.15579894973743436,
+          "h": 0.123
+        },
+        {
+          "id": "P14-injury-support",
+          "label": "Joined hands with right-hand injury",
+          "x": 0.4680412410795007,
+          "y": 0.562,
+          "w": 0.09288014311270125,
+          "h": 0.12
+        },
+        {
+          "id": "P14-flask",
+          "label": "Capped container held by Odo",
+          "x": 0.7866301190682286,
+          "y": 0.595,
+          "w": 0.0828930309500452,
+          "h": 0.114
+        },
+        {
+          "id": "P14-left-staff",
+          "label": "Nera left hand gripping short broken staff",
+          "x": 0.053576086329274665,
+          "y": 0.776,
+          "w": 0.13782214784465346,
+          "h": 0.175
+        }
+      ],
+      "after_protected_regions": [
+        {
+          "id": "P14-nera-face",
+          "label": "Nera visible face",
+          "x": 0.25531575201492684,
+          "y": 0.251,
+          "w": 0.11684921230307577,
+          "h": 0.108
+        },
+        {
+          "id": "P14-odo-face",
+          "label": "Odo visible face",
+          "x": 0.6797680189278088,
+          "y": 0.155,
+          "w": 0.15579894973743436,
+          "h": 0.123
+        },
+        {
+          "id": "P14-injury-support",
+          "label": "Joined hands with right-hand injury",
+          "x": 0.4680412410795007,
+          "y": 0.562,
+          "w": 0.09288014311270125,
+          "h": 0.12
+        },
+        {
+          "id": "P14-flask",
+          "label": "Capped container held by Odo",
+          "x": 0.7866301190682286,
+          "y": 0.595,
+          "w": 0.0828930309500452,
+          "h": 0.114
+        },
+        {
+          "id": "P14-left-staff",
+          "label": "Nera left hand gripping short broken staff",
+          "x": 0.053576086329274665,
+          "y": 0.776,
+          "w": 0.13782214784465346,
+          "h": 0.175
+        }
+      ]
+    }
+  ],
+  "browser_notes_preserved_only": 0,
+  "notes_policy": "Retained in immutable draft snapshot only; never applied as semantic checks, identity verification or acceptance.",
+  "context_unchanged": true,
+  "status": "draft-unaccepted",
+  "production_eligible": false,
+  "applied": true,
+  "input_sha256_after": "cea9701e48ed5a9666dfe81a8ae71494f4a5a4b6705b87b6b403baabe9e2dbf1",
+  "snapshot_path": "production/structural-pilot/layout-history/20260907T072010.086157Z-abb21d06ca77-8c1ad72e1ad8",
+  "reader": "docs/research/structural-pilot/correction-reader/index.html",
+  "reader_data_sha256": "51ba8884a3bc986402636dcbda641ba7b75cf264aa71de4614c65a19fb7d62bb",
+  "rebuild_completed": true
+}

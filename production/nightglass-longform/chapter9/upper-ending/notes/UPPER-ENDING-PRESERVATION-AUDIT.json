@@ -1,0 +1,140 @@
+{
+  "scope": "ONLY four Chapter9 upper-ending calls and four selected crops",
+  "verdict": "PASS",
+  "counts": {
+    "calls": 4,
+    "primary": 2,
+    "repair": 2,
+    "finish": 0,
+    "pending": 0,
+    "original_units": 2,
+    "selected_crops": 4
+  },
+  "ceilings": "Each original pair has exactly one primary and one repair; no reset or extra call found in this scoped canonical directory.",
+  "calls": [
+    {
+      "id": "N9-39-40-P",
+      "phase": "primary",
+      "status": "returned",
+      "native_sha256": "51da1cbfeafd0c44329040142dd3f629a87ccd157e8677bc999e11e4246432fb",
+      "default_native_raw_bytes_equal": true,
+      "request_file_sha256": "e6b82d48d8f33cdd8c6af241e64a523cbf9dd36a6cc28d4c55b2c700f211ad1b",
+      "call_record_sha256": "077770b0b036c03d3540c4971f54e696e28c46d2df63bf3ac1e86955a670b041",
+      "raw_return_sha256": "81ed4d70becc493db248ef9987bc8b6a577f5a59c94a11039a1e1c1e0b7cf937",
+      "reference_count": 3,
+      "reference_bindings_match": true,
+      "exact_args_prompt_match": true,
+      "unknown_metadata_null": true,
+      "submitted_utc": "2026-09-11T01:18:23.507588+00:00",
+      "returned_utc": "2026-09-11T01:19:49.486211+00:00"
+    },
+    {
+      "id": "N9-39-40-R1",
+      "phase": "repair",
+      "status": "returned",
+      "native_sha256": "2a54ec205cb49bb13a0115a4449b1fb1fc6f0d16d660986b7c95c9891c46026d",
+      "default_native_raw_bytes_equal": true,
+      "request_file_sha256": "05bc076bbfe01b79619aead101cdaeaaf7589e17daa8ea420ef5d76523c13779",
+      "call_record_sha256": "5c6725ed0495d02d53c8ff1d2b3a5e1a5bfd91be729c47edca4885aaacfdcc7d",
+      "raw_return_sha256": "c207630cd86509f7ce7da7e1fa07fa5b06cf30b032fe5cc7a4795061e2093583",
+      "reference_count": 1,
+      "reference_bindings_match": true,
+      "exact_args_prompt_match": true,
+      "unknown_metadata_null": true,
+      "submitted_utc": "2026-09-11T01:20:22.685960+00:00",
+      "returned_utc": "2026-09-11T01:21:39.811843+00:00"
+    },
+    {
+      "id": "N9-41-42-P",
+      "phase": "primary",
+      "status": "returned",
+      "native_sha256": "96fad27ee10246167faa15694dd86187de7a0b1529306323e89eb592c149380c",
+      "default_native_raw_bytes_equal": true,
+      "request_file_sha256": "734592749122d1e9355936e86896b2da3714b9768504e2e2684a184f377d5575",
+      "call_record_sha256": "6f1a2d08432aaa867cc34d15ac0cdccf5580463ac29e138d555081ab29835df0",
+      "raw_return_sha256": "314ef576d2f0cda42006b9469bf86505b79da8f6826e8c031fb53e753294b6ad",
+      "reference_count": 2,
+      "reference_bindings_match": true,
+      "exact_args_prompt_match": true,
+      "unknown_metadata_null": true,
+      "submitted_utc": "2026-09-11T01:26:06.854009+00:00",
+      "returned_utc": "2026-09-11T01:28:11.415509+00:00"
+    },
+    {
+      "id": "N9-41-42-R1",
+      "phase": "repair",
+      "status": "returned",
+      "native_sha256": "68aabfc8feed7340678aa76d6bc86a4c78d5a3ae76d27fc056ccd18833fe23aa",
+      "default_native_raw_bytes_equal": true,
+      "request_file_sha256": "953d788a842a2222d6e3e3dc0d875cc7e9e96c791092c682779234adbe19bcf2",
+      "call_record_sha256": "ec66a328d2f1291b98f84df42d2ad413bf5743410c8d45dac22d1e270c8da5f0",
+      "raw_return_sha256": "ccc38a085721c3dabd793a85faed9755fc50ae07c80eb2e59b0a9ce981968d75",
+      "reference_count": 1,
+      "reference_bindings_match": true,
+      "exact_args_prompt_match": true,
+      "unknown_metadata_null": true,
+      "submitted_utc": "2026-09-11T01:28:48.972479+00:00",
+      "returned_utc": "2026-09-11T01:31:17.990624+00:00"
+    }
+  ],
+  "crops": [
+    {
+      "panel": "N9-39",
+      "path": "production/nightglass-longform/chapter9/upper-ending/crops/N9-39-R1.png",
+      "source_sha256": "2a54ec205cb49bb13a0115a4449b1fb1fc6f0d16d660986b7c95c9891c46026d",
+      "sha256": "99512f65cbc38769c62201e6acc12dc4de1d7b8c0186ebd01c2e2ba2ebeb5e6a",
+      "box_xyxy": [
+        0,
+        0,
+        1024,
+        725
+      ],
+      "exact_pixel_equality": true
+    },
+    {
+      "panel": "N9-40",
+      "path": "production/nightglass-longform/chapter9/upper-ending/crops/N9-40-P.png",
+      "source_sha256": "51da1cbfeafd0c44329040142dd3f629a87ccd157e8677bc999e11e4246432fb",
+      "sha256": "eaf882a78b876da920fb1979f9314c99de1b2c26136bf609529b6f8f3d6ceb2a",
+      "box_xyxy": [
+        0,
+        734,
+        1024,
+        1536
+      ],
+      "exact_pixel_equality": true
+    },
+    {
+      "panel": "N9-41",
+      "path": "production/nightglass-longform/chapter9/upper-ending/crops/N9-41-P.png",
+      "source_sha256": "96fad27ee10246167faa15694dd86187de7a0b1529306323e89eb592c149380c",
+      "sha256": "f6232806f5ca8a5848877beae8278c1d6ed195e1eae3ef7d5906f538329f560d",
+      "box_xyxy": [
+        0,
+        0,
+        1024,
+        717
+      ],
+      "exact_pixel_equality": true
+    },
+    {
+      "panel": "N9-42",
+      "path": "production/nightglass-longform/chapter9/upper-ending/crops/N9-42-R1.png",
+      "source_sha256": "68aabfc8feed7340678aa76d6bc86a4c78d5a3ae76d27fc056ccd18833fe23aa",
+      "sha256": "d3918ea7b01d77797600f555ed0d7d2fb36b4892cec773f06a10a442b615f7aa",
+      "box_xyxy": [
+        0,
+        723,
+        1024,
+        1536
+      ],
+      "exact_pixel_equality": true
+    }
+  ],
+  "limits": [
+    "Byte equality proves preservation of stored default image/native/raw payload, not inaccessible backend metadata.",
+    "Recorded submission/return timestamps have valid order; independent network timing is not inferred.",
+    "Visual verdicts are separately recorded; preservation does not turn failed primary anatomy or wardrobe into a pass.",
+    "Root owns the chapter-wide 38-call/24P/14R ledger; this audit covers only four ending calls."
+  ]
+}

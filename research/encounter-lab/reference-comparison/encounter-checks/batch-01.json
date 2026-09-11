@@ -1,0 +1,117 @@
+{
+  "schema": "EncounterReferenceCraftReview/1",
+  "reviewed_at": "2026-09-09T05:03:06.226582+00:00",
+  "scope": "Independent ST/SB native craft review only; no generation, display changes or mutation of frozen comparison board.",
+  "plan_path": "production/encounter-lab/plan.json",
+  "plan_sha256": "afd2ec4862337b36c09517f98f18e49c4c4e1ab5e85958203c00f58bb50bb9f0",
+  "attempts": [
+    {
+      "attempt_id": "ST01-P",
+      "path": "production/encounter-lab/candidates/ST01-P.png",
+      "sha256": "1747b7823732bfd734bd59674a95750ed80aa87ddec8cff43f89a3d2a16c741d",
+      "inspection": "Actual complete native image via view_image detail original",
+      "observations": [
+        "Strong adult expression, two grips and grounded opposing stances communicate a loaded first contact.",
+        "Cream hammer rim/side meets the bracer; the flat orange striking face is turned toward the viewer. Orange chip remains visible.",
+        "Marked foreground arm reads as Bellguard anatomical right; the plan specifies left."
+      ],
+      "limitations_and_failures": [
+        "Side mismatch undermines continuity into ST02, even though the local contact is readable.",
+        "Small floor mottling and armor facets are present; no reflection carpet."
+      ],
+      "verdict": "Reviewable action; anatomical-side and striking-surface caveats.",
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "ST01-R1",
+      "path": "production/encounter-lab/candidates/ST01-R1.png",
+      "sha256": "c307a97815ad8c896d4795c708839756921590a5baa84d9d5f31e8edd7d366f5",
+      "inspection": "Actual complete native image via view_image detail original",
+      "observations": [
+        "Same readable loaded contact, grin, separate legs and continuous turquoise shaft are preserved.",
+        "The ring now wraps further around the raised guard, but the elbow/upper-arm chain still does not clearly cross the chest from the anatomical left shoulder.",
+        "Floor appears broader and quieter than primary; no glossy repaint."
+      ],
+      "limitations_and_failures": [
+        "Cannot certify left-arm repair: the foreground marked arm still visually reads as the right-side arm. This is an anatomical tracing uncertainty, not proof of an extra limb.",
+        "The cream rim still contacts the guard instead of flat orange striking face."
+      ],
+      "verdict": "Partial/local improvement; requested side repair remains unverified.",
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "ST02-P",
+      "path": "production/encounter-lab/candidates/ST02-P.png",
+      "sha256": "b2380aa2f237aabcb339c674499398d556bb6450d35f6f995c747adb12857009",
+      "inspection": "Actual complete native image via view_image detail original",
+      "observations": [
+        "Strong close foreshortened threat: huge unmarked fist passes above Tavi, whose expression changes from grin to concentration.",
+        "Marked rear arm clearly reads as anatomical left, with right arm extended in the punch. Two hammer grips, one continuous shaft and chipped orange face remain readable.",
+        "The low crouch, near knee and separate rear foot provide a coherent evasion path."
+      ],
+      "limitations_and_failures": [
+        "Compared with ST01 primary/repair, the ring seems to change anatomical side; primary-to-repair topology remains ambiguous.",
+        "Hammer chip has enlarged and cream head cracking increased; plausible development but exact damage continuity is not preserved.",
+        "Ground and armor contain more small mottled marks than the quieter ST01 repair; keep any finish source-preserving."
+      ],
+      "verdict": "Locally strong counter/evasion beat; sequence side/damage caveats.",
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "SB01-P",
+      "path": "production/encounter-lab/candidates/SB01-P.png",
+      "sha256": "ae6f55755b756e5a6159e2fc439be39e6e57c91400232429369ed7b5046a2089",
+      "inspection": "Actual complete native image via view_image detail original",
+      "observations": [
+        "Source palm, connected incoming orange path, bronze spearhead contact and upward turn are readable.",
+        "Two hand grips and separate full-body stances remain clear in warm outlined drawing."
+      ],
+      "limitations_and_failures": [
+        "Cape is already burned despite setup occurring before damage in beat2.",
+        "Fire edge has many flame tongues; still a single dominant path rather than a particle cloud."
+      ],
+      "verdict": "Premature damage makes setup continuity fail.",
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "SB01-R1",
+      "path": "production/encounter-lab/candidates/SB01-R1.png",
+      "sha256": "b71280d338dfb93c4fbd285393d8acf68f5fe77c3317b08e225cb13fb1e25ddf",
+      "inspection": "Actual complete native image via view_image detail original",
+      "observations": [
+        "Cape restored to whole red cloth; source, bronze contact, upward fire turn, faces and two grips preserved.",
+        "Broad cream floor, strong cool/warm costume contrast and distinct Sunbreak drawing remain."
+      ],
+      "limitations_and_failures": [
+        "The leading turn continues beyond frame, so its full endpoint is not shown; acceptable for setup, not proof of a return-path resolution."
+      ],
+      "verdict": "Observed cape-timing repair succeeds without a newly obvious structural regression.",
+      "owner_approval": null
+    },
+    {
+      "attempt_id": "SB02-P",
+      "path": "production/encounter-lab/candidates/SB02-P.png",
+      "sha256": "78845bc7814155eab92bb7ba58f1eb7994b3f0f4d42f3d4b0d4697ef7dd6fcc0",
+      "inspection": "Actual complete native image via view_image detail original",
+      "observations": [
+        "Expressive face, twisting torso and low charred cape communicate a dangerous counter and cost.",
+        "Caster and open palm remain visible at left; warm drawing and recognizable costumes continue."
+      ],
+      "limitations_and_failures": [
+        "A second bronze pointed spearhead appears at the lower shaft end, in addition to the upper-right head. This changes the previously single-head weapon.",
+        "Both upper and lower heads appear to contact active fire. High fire has not faded; low defense is already touching the pulse instead of missing under a raised point.",
+        "Incoming low pulse is hidden behind torso/cape for much of its route; the large foreground flame may read as already passing the fighter.",
+        "Floor small mottling has returned somewhat, although broad shadow hierarchy survives."
+      ],
+      "verdict": "Structural and causal repair warranted; do not treat visual excitement as successful beat2.",
+      "owner_approval": null
+    }
+  ],
+  "cross_frame_priority": [
+    "Keep the orange mark on one traceable anatomical arm; verify chains from shoulders rather than screen-left labels.",
+    "Keep a single spearhead, and separate missed defense in beat2 from actual contact reversal in beat3.",
+    "Damage should begin at the intended event and persist; avoid preloading a future charred cape into setup.",
+    "Use tight threat gaps and body interruption while preserving quiet matte floors."
+  ],
+  "taste_limit": "These observations concern readability and craft, not evidence that the owner likes any image."
+}

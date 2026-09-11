@@ -1,0 +1,44 @@
+[
+  {
+    "id": "D01",
+    "attempt_id": "D01-R1",
+    "phase": "structural",
+    "category": "duel",
+    "retry_of": "D01-P",
+    "retry_reason": "Primary puts the adults around40-45 percent of frame height instead of the planned18percent, limiting the establishing distance and later camera contrast.",
+    "evidence_path": "production/combat-depth/edit-specs-01.json",
+    "evidence_sha256": "7564194efba5565e7edd741c747473f6611a24e6de46d36c82b13f5c36133483",
+    "prompt_path": "production/combat-depth/prompts/D01-R1.txt",
+    "prompt_sha256": "5569fed572074a5451e26fa34e1c2a67afc094479ae69e1581bfa283fbe2890b",
+    "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+    "references": [
+      {
+        "path": "production/combat-depth/candidates/D01-P.png",
+        "sha256": "52745c5879e4acf3e46fffe250858dbae5303fd24e3b9a78043fd8ef0da55bd7",
+        "role": "Sole exact edit source; preserve all content except the specified structural change"
+      }
+    ],
+    "prompt": "Use case: precise-object-edit. Correct ONLY the specified composition or structural failure in this exact source image. Keep its drawing treatment and other content consistent; this is not a texture-finishing pass.\nCorrect ONLY the establishing camera scale. Recompose as a wider view of this same court so BOTH complete adults are approximately18-22 percent of image height, standing farther across the wet court. Retain Riven on LEFT, silver hair/petrol jacket, right-held connected saber and free left hand. Retain Ilyra on RIGHT, copper bob/burgundy/ivory mantle and continuous two-hand lance with butt off floor. Preserve their faces/identities and opposed alert guards. Keep the LEFT square pier and dry raised step ledge, RIGHT arched wall and its ledge, far balustrade and near water drain recognizable as the same actual court. Keep the same afternoon lighting and city identity, no enlarged portrait inset. Do not add people, magic, damage or change weapon designs. This is a camera/framing correction, not a surface simplification; retain broad architectural relationships.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  },
+  {
+    "id": "W01",
+    "attempt_id": "W01-R1",
+    "phase": "structural",
+    "category": "war",
+    "retry_of": "W01-P",
+    "retry_reason": "The occupied lower stone route has ambiguous bank/crossing geometry. A visible open-water gap is needed to establish why the later ice retreat route matters.",
+    "evidence_path": "production/combat-depth/edit-specs-01.json",
+    "evidence_sha256": "7564194efba5565e7edd741c747473f6611a24e6de46d36c82b13f5c36133483",
+    "prompt_path": "production/combat-depth/prompts/W01-R1.txt",
+    "prompt_sha256": "6ef6349670e53987f551b2fd82985a462b8f5da6c8fc914d694351698a7183d9",
+    "plan_sha256": "faef8a39110b551ac3e6b08aab985ef70135aff2fceba9da1cfc57fcce90f605",
+    "references": [
+      {
+        "path": "production/combat-depth/candidates/W01-P.png",
+        "sha256": "243f84a02e31e32b9372e8f0c312391caf32c2e0d90e04f5157f561c1ce34d6e",
+        "role": "Sole exact edit source; preserve all content except the specified structural change"
+      }
+    ],
+    "prompt": "Use case: precise-object-edit. Correct ONLY the specified composition or structural failure in this exact source image. Keep its drawing treatment and other content consistent; this is not a texture-finishing pass.\nClarify ONLY the LOWER CANAL ROUTE beneath the large main bridge. The occupied narrow stone path at the bottom/right must become an unambiguous RIGHT-BANK DEAD-END LEDGE, ending clearly before a BROAD VISIBLE OPEN-WATER GAP to the safe LEFT bank. Keep its adults safely on the right-bank ledge, awaiting a new crossing. There must be NO existing lower stone bridge spanning that gap, and no hidden continuous crossing beneath the main arches. Show the two lower bank/ledge endpoints distinctly so later ice can join them. Keep the LARGE MAIN STONE BRIDGE completely intact and every adult/crowd on its TOP, the three small recognizable heroes on its left section, open LEFT gate, RIGHT army, enormous four-legged armored siege beast with its mouth collar/platform, city, lighting and main supports. No ice, new magic, collapse or new alternate crossing now. Maintain the same wide composition/native dimensions and original drawing treatment. This corrects only route topology, not surface finish.\nUse this supplied actual image as the ONLY edit reference. Return one new native artwork with the same aspect ratio, not a comparison, panel layout, collage, text, diagram, watermark or annotated explanation.\n"
+  }
+]

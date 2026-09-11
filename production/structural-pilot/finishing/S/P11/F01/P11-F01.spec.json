@@ -1,0 +1,51 @@
+{
+  "id": "SC-20260907-01-S-P11-F01",
+  "description": "Conventional actor matting and independent affine placement over fixed editable Blender architecture/threat/props. Unaccepted candidate. No generated environment or prop may replace control geometry.",
+  "width": 1170,
+  "height": 1500,
+  "output_svg": "production/structural-pilot/finishing/S/P11/F01/P11-F01.svg",
+  "matte": "#faf7ec",
+  "layers": [
+    {
+      "id": "fixed-architecture",
+      "path": "production/structural-pilot/control/v8/P11-background.png",
+      "kind": "fixed-original-geometry"
+    },
+    {
+      "id": "fixed-three-leg-sentinel",
+      "path": "production/structural-pilot/control/v8/P11-sentinel.png",
+      "kind": "fixed-original-geometry"
+    },
+    {
+      "id": "fixed-staff-flask-cable",
+      "path": "production/structural-pilot/control/v8/P11-props.png",
+      "kind": "fixed-original-geometry"
+    },
+    {
+      "id": "fixed-action-vectors",
+      "path": "production/structural-pilot/control/v8/P11-effects.png",
+      "kind": "fixed-original-geometry"
+    },
+    {
+      "id": "nera-generated-actor",
+      "kind": "explicit-color-key-mask-and-independent-affine",
+      "path": "production/structural-pilot/finishing/S/P11/F01/nera-matte.png",
+      "width": 1106,
+      "height": 1422,
+      "transform": "matrix(0.671332429 0.021836979 0.089920166 0.786792272 145.714080313 109.041646974)"
+    },
+    {
+      "id": "odo-generated-actor",
+      "kind": "explicit-color-key-mask-and-independent-affine",
+      "path": "production/structural-pilot/finishing/S/P11/F01/odo-matte.png",
+      "width": 1106,
+      "height": 1422,
+      "transform": "matrix(0.693351531 0.017460529 -0.030972507 0.690970884 123.977557925 271.849522247)"
+    },
+    {
+      "id": "fixed-shutter-partition",
+      "path": "production/structural-pilot/control/v8/P11-foreground.png",
+      "kind": "fixed-original-geometry"
+    }
+  ]
+}

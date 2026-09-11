@@ -146,3 +146,8 @@ Small39 LEFT tear is present; no restoration claim. Root’s original-vs-repair 
 ## Final41/42 and complete fresh42 reading
 
 Snapshot `8e45b5abd0669443695c146f9b4cf074cbb3241c42300c5ea4802d722b80a54e`; `chapter9-egress-reviewed/` and `chapter9-full-review/`. Exact41 two voices fit at16px, named SERA lower band;42 silent. Actually viewed both selected full crops, both individual390 layouts, BOTH40–42 columns and ALL22 fresh whole-chapter viewports through ALL6 original-size composites. Qualified PASS: actual limited competence becomes one paid carry and ordinary escorted exit, with no further assignment granted. All42 source/copy/pixel bindings and previous40/full old baseline exact. Final42 compact bag/hidden farLEFT sleeve and prior18 real tear omission retained; no cosmetic correction or false hidden-detail claim. Root gate remains1..8 pending independent reviews. Full verdict and all image hashes in `chapter9-full-review/ACTUAL-FULL-READING.md` and `actual-review.json`.
+
+
+## Final completion status
+
+After root promoted reviewed_complete1–9, rebuilt and ACTUALLY viewed `chapter9-final/header.png` and `end.png`. Snapshot `d5f82f459794b953c905c963f57831cadce443545ad2430705912c6773b5c8e9`; only chapter9.complete changes from frozen complete-reading edition. All42 records/34 speech entries/old351/comparisons and every override remain exact. Nine navigation links, no development banner, End of Chapter9 and valid return links pass; clicked8→9 with45→42 figures, zero browser or source issues. `chapter9-final/source-copy-proof.json` binds actual screenshots and checks. Reader is settled and held for package source freeze.

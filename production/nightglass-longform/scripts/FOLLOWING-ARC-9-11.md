@@ -1,6 +1,6 @@
 # Provisional continuation9–11 — a qualification that has to be lived
 
-Read existing FOLLOWING-ARC-4-6, FOLLOWING-ARC-7-9 and current PROGRESSION before this proposal. This is a provisional development outline, not approved canon, a full10/11 script or image authorization. Chapter9's competence and paid carry remain planned v4 outcomes until actual production/reading proves them.
+Read existing FOLLOWING-ARC-4-6, FOLLOWING-ARC-7-9 and current PROGRESSION before this proposal. This is a provisional development outline, not approved canon, a full10/11 script or image authorization. Chapter9's competence, single paid carry and controlled outward passage are now realized in the actual42-panel reading, independently passed by root/reader/editorial. Chapters10/11 remain provisional, with no art authorization from this outline alone.
 
 **9 — A Measured Route.** Pay off the missed route-intake question with the precisely defined no-fee/one-bell controlled-transfer assessment and one separately accepted supervised upper letter carry. Keep the useful gain at recognized competence plus that specific completed assignment, no new force or numerical rank. End with earned pleasure and actual outward passage rather than another promise to ask about a test.
 

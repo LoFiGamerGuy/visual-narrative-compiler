@@ -1,0 +1,11 @@
+# Chapter9 upper-ending dependencies
+
+Root owns only original units39–40 and41–42 under existing gate6-call ceiling (one primary, at most one repair and one justified source-only texture finish per original pair). No generation before actual selected38 payment-secured result. No cap reset, no return to another scope for more repairs.
+
+Official script v5 SHA3d5edd34793982345cb0d62428250c475c6f9cc63cbf47e2ad4eb31803a07c51 and gate a196896866484e3f270af08011f34c002f14b78415ad33f24065dc09945841cb already bind prepare_call.py. Read39–42 actual action/current_state/copy before drafting; done at this checkpoint. Exact copy stays editable outside raster. No extra statements about permits or a next booking.
+
+Before39–40: actually inspect selected38 full native/crop, current closed worn empty gray bag/one closed reattached wallet/RIGHT sheath/LEFT tear and separate closed ledgers. Inspect selected31 gate-attendant/open gate and32 ordinary corridor reference before including. Carry forward the established bright daylight; no sunset or implied time jump. Gate attendant is darkbrown lowbun/navy vest with gold trim/ivory shirt/dark skirt/barehands, distinct from dustyrose/charcoal West clerk. Neris must guide BOTH visitors from West to the gate-attendant-controlled public-facing exit gallery before continuing her own work.40 visibly contains attendant and ordinary outward path. Future work remains conditional on hours and a specific need.
+
+Before41–42: actually inspect selected40 completed escort and its real exit layout.41 has only Aren/Sera at guarded view, with attendant nearby and staffed outward gate on return path; Neris own slate ledger leaves with her for remaining work.42 actually lets both visitors through that staffed gate onto ordinary supported perimeter path. Do not invent unlimited upper access or off-panel shortcut. Same day/paid week, lower paid post and room retained. AMBER stays practice receiver; BLUE stays West; exactly three earned coppers/key secured in sole wallet. Empty gloves/no active force/no new rank or gear.
+
+Use existing helpers. Preserve every returned default/native/raw immediately. Only exact rectangular crops; root and independent assets actually review whole and full crops, reader/root actual390 and consecutive read before final chapter completion. No build until all42 actual reading and accounting finished.

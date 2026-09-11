@@ -117,3 +117,9 @@ Actually viewed full selected29P/30R1, both individual390 layouts (final bytes i
 Actually viewed both full primary crops, both individual390 layouts (final bytes identical) and BOTH complete original39030–32 columns. Specific authorization precedes actual open staffed gate admission of all three; Neris stays beside Aren and Sera follows through the inhabited ordinary corridor. Both official copy arrays are empty, so no admission speech was invented. PASS snapshot `e410c9d474d30de5951e6a0e69a48289263bfc717033890467dea4ecaeec8f90`; bindings in `chapter9-admission-reviewed/actual-review.json`.
 
 Some leading boots meet crop edge; moving gait is not full stationary-sole proof. Small LEFT tear is native-visible, not microscopic390 proof; rear bag/key/fittings hidden. Prior30/full351/comparison18/302 old overrides/339 records exact.32/42 incomplete, delivery/payment ahead.
+
+## Windows, then West desk — 33/34
+
+Actually viewed both full primary crops, original33/revised34 individual390 layouts (matching final bytes), and BOTH original-size32–34 columns. Exact Aren observation followed by named NERIS dry reply gives a brief human perspective; no new leak problem is introduced. Widened34 clerk balloon only to avoid lone “please”; exact invitation is one16px line with clerk-directed tail and clear empty tray. PASS snapshot `0ffdb8120be13efffac4077f480e1250732533d0318adbb627c5240c580eacab`; bindings in `chapter9-west-desk-reviewed/actual-review.json`.
+
+Two views differ40px due segment length, all content covered. Short wide art does not independently prove fine sleeve/key/rearbag details at390. Prior32/full351/comparison18/302 old overrides/339 records exact.34/42 incomplete, no handover/pay yet.

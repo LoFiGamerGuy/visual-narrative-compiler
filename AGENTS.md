@@ -1,5 +1,15 @@
 # Narrative-art texture preference
 
+## Workspace organization
+
+Use this consolidated `anime-pipeline` directory as the working root. Start with
+`WORKSPACE-INDEX.md` and `START-HERE.html`. The former sibling checkouts are
+preserved through Git branches and the local consolidation inventory; do not
+recreate them just to read old work. Run `python scripts/serve_library.py --open`
+for historical galleries. Keep any necessary temporary worktrees inside
+`.worktrees/` and retire them after their unique output has been preserved.
+Current and historical story directions remain independent.
+
 For future artwork in this pipeline, read `docs/texture-refinement-kit/skill/texture-refinement/SKILL.md` and use its texture-refinement method when surfaces become too busy. The owner strongly endorsed this change on 2026-09-08 and requested ongoing reuse. Preserve richness through composition, design, depth and selective detail; avoid pervasive microtexture. Use a separate source-preserving redraw when needed, rather than relying only on initial-generation adjectives. Do not spend a generation on an already calm image.
 
 The original full Nightglass Courier remains the leading overall reference unless the user changes direction. The reusable surface method also applies to other drawing treatments without imposing Nightglass subjects or palette. Texture-process approval does not select cast, gear, powers or canon and does not fill unanswered preferences.

@@ -99,3 +99,10 @@ research/nightglass-longform/**/*.png
 research/nightglass-longform/**/*.jpg
 production/nightglass-longform/package/output/
 research/nightglass-longform/assets/package/**/extracted/
+
+# Consolidated local assets and temporary worktrees are not public source.
+/archive/workspace-variants/
+/.worktrees/
+/research/workspace-consolidation-20260911/*.sqlite3*
+/research/workspace-consolidation-20260911/execution.jsonl*
+/research/workspace-consolidation-20260911/preservation-map.jsonl.gz

@@ -1,0 +1,1988 @@
+{
+  "chapters": [
+    {
+      "chapter": "CH01",
+      "assembly": {
+        "chapter": "CH01",
+        "panels": 24,
+        "sequences": 4,
+        "artifacts": [
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/ch01-phone-preview.png",
+            "sha256": "9aebeaeb020965ab8b133dc6cedeac7b7564616b6b23f57416fdce2b363eb881",
+            "dimensions": [
+              390,
+              6991
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/ch01-reading-draft.png",
+            "sha256": "e99c3bb03a73b576a8371c61f02f49aa1e01aa9ebdcc62cd684319f8203d5b7f",
+            "dimensions": [
+              960,
+              17208
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/review/ch01-contact-sheet.png",
+            "sha256": "7e4c4f770757594f3d7505dd86828393ef4f300ebe77b606693efe0fa9825f53",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/review/ch01-compact-lettered-review.png",
+            "sha256": "f37e06234808f01b07c57e0be1adcc382c92cafbc5139a9cb8d96a6b388fb64a",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/review/ch01-grayscale-review.png",
+            "sha256": "d13107b558c01ccdef2d302e804ab39033d87c336257af68e6f16bfa0dd9e397",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/review/ch01-density-map.png",
+            "sha256": "c67bfb19493f3437f80cfdc656acf8e9fd7029ffbc1a43b99c60c06010d946f7",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch01/review/ch01-safe-zone-review.png",
+            "sha256": "31ff301a43df8596ffc56d7cf8b8852113663277c2083bc6760f872a7c7b6218",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          }
+        ],
+        "phone_width": 390,
+        "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+        "generated_source_text_free": true,
+        "variable_scroll_cadence": {
+          "leading_gutter_pixels": 72,
+          "gutter_after_pixels": [
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132
+          ],
+          "roles": {
+            "opening_objective_escalation": 42,
+            "action": 28,
+            "choice": 72,
+            "consequence_sequence_breath": 132
+          }
+        },
+        "metric_review_status_totals": {
+          "PASS": 7,
+          "WARN": 17
+        },
+        "metric_failure_classes": {
+          "edge_density_above_pilot_class": 8,
+          "high_frequency_occupancy_above_pilot_class": 9,
+          "global_entropy_above_pilot_class": 7,
+          "focal_luminance_proxy_below_pilot": 10
+        }
+      },
+      "metric_status_totals": {
+        "PASS": 7,
+        "WARN": 17
+      },
+      "metric_failure_classes": {
+        "edge_density_above_pilot_class": 8,
+        "high_frequency_occupancy_above_pilot_class": 9,
+        "global_entropy_above_pilot_class": 7,
+        "focal_luminance_proxy_below_pilot": 10
+      },
+      "manual_review": {
+        "chapter": "CH01",
+        "reviewer": "root-agent visual inspection",
+        "phone_width": 390,
+        "overall_status": "PASS",
+        "sequence_reviews": [
+          {
+            "sequence": "CH01-S01",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Sola identity, bare-hand investigation, road pulse, close-up emotion, and road geography read chronologically without lettering."
+          },
+          {
+            "sequence": "CH01-S02",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Adult evacuation, pylon failure, tool-versus-person choice, and aftermath are legible; Tarin remains mature and recognizable."
+          },
+          {
+            "sequence": "CH01-S03",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Quiet two-person blocking, spear-key, rejected light, confession gesture, and response preserve relationship causality."
+          },
+          {
+            "sequence": "CH01-S04",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Stranded residents, cable failure, spoken choice, witness line, and downward clue read clearly; no generated text or blank boxes."
+          }
+        ],
+        "taxonomy": {
+          "role_identity": "PASS",
+          "adult_appearance": "PASS",
+          "facial_stability": "PASS",
+          "hair_stability": "PASS",
+          "wardrobe_continuity": "PASS",
+          "equipment_continuity": "PASS",
+          "injury_continuity": "PASS",
+          "creature_anatomy": "PASS",
+          "emotional_clarity": "PASS",
+          "relationship_behavior": "PASS",
+          "action_causality": "PASS",
+          "geography": "PASS",
+          "silhouette": "PASS",
+          "value_hierarchy": "PASS",
+          "focal_clarity": "PASS",
+          "effect_restraint": "PASS",
+          "background_density": "WARN",
+          "phone_readability": "PASS",
+          "lettering_clearance": "PASS",
+          "progression_state": "PASS",
+          "chapter_pacing": "PASS",
+          "cross_chapter_consequences": "PASS",
+          "originality": "PASS"
+        },
+        "warns": [
+          {
+            "failure_class": "metric_density_above_pilot_in_story_readable_panels",
+            "disposition": "retain WARN; manual phone inspection finds clear focal hierarchy and no adjacent spectacle overload; no repair trigger"
+          }
+        ],
+        "hard_repair_required": false
+      }
+    },
+    {
+      "chapter": "CH02",
+      "assembly": {
+        "chapter": "CH02",
+        "panels": 24,
+        "sequences": 4,
+        "artifacts": [
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch02/ch02-phone-preview.png",
+            "sha256": "f633ddfd92e42131c375b0f203e179c90626017a0dcd24ab642c604a6dd08228",
+            "dimensions": [
+              390,
+              6567
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch02/ch02-reading-draft.png",
+            "sha256": "be3f53089a343669b85aba217e76bc8a2f406df865336d02cc0aa6dd6ff14357",
+            "dimensions": [
+              960,
+              16164
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch02/review/ch02-contact-sheet.png",
+            "sha256": "f0c66d03dcaff02e8d730e5dd70bc5e3315a095d39d864c10c47da37dc32afac",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch02/review/ch02-compact-lettered-review.png",
+            "sha256": "78f465c295bd4abcf06c35a0bb51570327d3326ed05a5021730cf9a26521a305",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch02/review/ch02-grayscale-review.png",
+            "sha256": "f5bf0571b792e0643db0b1eb91426fad569b8e820fa3e9aa81289b07adaff8c4",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch02/review/ch02-density-map.png",
+            "sha256": "d531537d6a6087f1e5b9358798f4d163ab0991b9d41462d0e702c3d0a87efd3c",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch02/review/ch02-safe-zone-review.png",
+            "sha256": "4632736683b6f0f56ae5e1681fba7da61f6ab1a18d8ceeb23efef52927222c9e",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          }
+        ],
+        "phone_width": 390,
+        "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+        "generated_source_text_free": true,
+        "variable_scroll_cadence": {
+          "leading_gutter_pixels": 72,
+          "gutter_after_pixels": [
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132
+          ],
+          "roles": {
+            "opening_objective_escalation": 42,
+            "action": 28,
+            "choice": 72,
+            "consequence_sequence_breath": 132
+          }
+        },
+        "metric_review_status_totals": {
+          "PASS": 9,
+          "WARN": 15
+        },
+        "metric_failure_classes": {
+          "edge_density_above_pilot_class": 14,
+          "high_frequency_occupancy_above_pilot_class": 15,
+          "global_entropy_above_pilot_class": 12,
+          "focal_luminance_proxy_below_pilot": 5
+        }
+      },
+      "metric_status_totals": {
+        "PASS": 9,
+        "WARN": 15
+      },
+      "metric_failure_classes": {
+        "edge_density_above_pilot_class": 14,
+        "high_frequency_occupancy_above_pilot_class": 15,
+        "global_entropy_above_pilot_class": 12,
+        "focal_luminance_proxy_below_pilot": 5
+      },
+      "manual_review": {
+        "chapter": "CH02",
+        "reviewer": "produce_ch02_ch04 agent visual inspection",
+        "phone_width": 390,
+        "overall_status": "WARN",
+        "sequence_reviews": [
+          {
+            "sequence": "CH02-S01",
+            "status": "WARN",
+            "failure_classes": [
+              "lettering_encroaches_character_head"
+            ],
+            "evidence": "The predawn bridge, promise test, stranded resident, hand-led return, and stabilized line read chronologically at phone width. In P05 the local balloon encroaches on Sola's hairline/upper head, although her gesture and expression remain understandable."
+          },
+          {
+            "sequence": "CH02-S02",
+            "status": "WARN",
+            "failure_classes": [
+              "metric_density_above_pilot_in_story_readable_panels"
+            ],
+            "evidence": "Archive geography, Kesin's role, missing-record discovery, reactive rubbing, bracer refusal, and mapped descent remain clear at 390 px. Fine archive structure raises density proxies across the sequence but does not collapse the focal trio or causal hand actions."
+          },
+          {
+            "sequence": "CH02-S03",
+            "status": "WARN",
+            "failure_classes": [
+              "metric_density_above_pilot_in_story_readable_panels",
+              "sfx_encroaches_character_head"
+            ],
+            "evidence": "The descending stair, negotiated terms, Tarin's commitment, responding mark, and group alignment read in order. Several architectural frames exceed pilot density flags while retaining silhouette separation; P16's TING sits over Tarin's forehead but does not obscure the key joined-hands action."
+          },
+          {
+            "sequence": "CH02-S04",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The dark underway, floor pulses, Sola's listening choice, pattern analysis, close emotional beat, and Lower Crescent destination are immediately readable with restrained effects and clean phone-scale hierarchy."
+          }
+        ],
+        "taxonomy": {
+          "role_identity": "PASS",
+          "adult_appearance": "PASS",
+          "facial_stability": "PASS",
+          "hair_stability": "PASS",
+          "wardrobe_continuity": "PASS",
+          "equipment_continuity": "PASS",
+          "injury_continuity": "PASS",
+          "creature_anatomy": "PASS",
+          "emotional_clarity": "PASS",
+          "relationship_behavior": "PASS",
+          "action_causality": "PASS",
+          "geography": "PASS",
+          "silhouette": "PASS",
+          "value_hierarchy": "PASS",
+          "focal_clarity": "PASS",
+          "effect_restraint": "PASS",
+          "background_density": "WARN",
+          "phone_readability": "PASS",
+          "lettering_clearance": "WARN",
+          "progression_state": "PASS",
+          "chapter_pacing": "PASS",
+          "cross_chapter_consequences": "PASS",
+          "originality": "PASS"
+        },
+        "warns": [
+          {
+            "failure_class": "metric_density_above_pilot_in_story_readable_panels",
+            "disposition": "retain WARN; archive and stair detail exceed calibrated proxies, but direct 390 px inspection shows clear focal adults and readable causal beats; no hard repair trigger"
+          },
+          {
+            "failure_class": "lettering_encroaches_character_head",
+            "disposition": "retain WARN; P05 balloon reaches Sola's upper head but does not hide her eyes, hand, or story action"
+          },
+          {
+            "failure_class": "sfx_encroaches_character_head",
+            "disposition": "retain WARN; P16 SFX overlaps Tarin's forehead while the joined-hands progression beat remains clear"
+          }
+        ],
+        "hard_repair_required": false
+      }
+    },
+    {
+      "chapter": "CH03",
+      "assembly": {
+        "chapter": "CH03",
+        "panels": 24,
+        "sequences": 4,
+        "artifacts": [
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch03/ch03-phone-preview.png",
+            "sha256": "7f887e1255386d6eb0c6a8cf069fc8061f5f4036e5dc71de1ed26514b911eba9",
+            "dimensions": [
+              390,
+              6924
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch03/ch03-reading-draft.png",
+            "sha256": "6101d44a6997fc31191c460bb8e24c93123b4540920157fda085d62569a4666e",
+            "dimensions": [
+              960,
+              17044
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch03/review/ch03-contact-sheet.png",
+            "sha256": "1447222670be9c2dd588b1fd6a59b6c2a888b3a9ccaff0824964b4a95b777bf5",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch03/review/ch03-compact-lettered-review.png",
+            "sha256": "ec020e181a9306106df216c55f9b533b7451755a0cfd695e10e9c70d79012d58",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch03/review/ch03-grayscale-review.png",
+            "sha256": "36cac93039885db655c564cfbcf0df707b6df27fe81efa36ebde97f541d8bd9c",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch03/review/ch03-density-map.png",
+            "sha256": "8656b7280d2a91325bf7d7fef71441ed90b814a892ce1c71fd38b7bf6905f7b9",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch03/review/ch03-safe-zone-review.png",
+            "sha256": "b813665e3cdc7ba62967f1678b1bf38026e9435d79630bc95569947c984d4ccb",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          }
+        ],
+        "phone_width": 390,
+        "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+        "generated_source_text_free": true,
+        "variable_scroll_cadence": {
+          "leading_gutter_pixels": 72,
+          "gutter_after_pixels": [
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132
+          ],
+          "roles": {
+            "opening_objective_escalation": 42,
+            "action": 28,
+            "choice": 72,
+            "consequence_sequence_breath": 132
+          }
+        },
+        "metric_review_status_totals": {
+          "PASS": 4,
+          "WARN": 20
+        },
+        "metric_failure_classes": {
+          "edge_density_above_pilot_class": 17,
+          "high_frequency_occupancy_above_pilot_class": 20,
+          "global_entropy_above_pilot_class": 11,
+          "focal_luminance_proxy_below_pilot": 3
+        }
+      },
+      "metric_status_totals": {
+        "PASS": 4,
+        "WARN": 20
+      },
+      "metric_failure_classes": {
+        "edge_density_above_pilot_class": 17,
+        "high_frequency_occupancy_above_pilot_class": 20,
+        "global_entropy_above_pilot_class": 11,
+        "focal_luminance_proxy_below_pilot": 3
+      },
+      "manual_review": {
+        "chapter": "CH03",
+        "reviewer": "produce_ch02_ch04 agent visual inspection; root-agent post-repair inspection",
+        "phone_width": 390,
+        "overall_status": "WARN",
+        "sequence_reviews": [
+          {
+            "sequence": "CH03-S01",
+            "status": "WARN",
+            "failure_classes": [
+              "metric_density_above_pilot_in_story_readable_panels",
+              "lettering_encroaches_character_head"
+            ],
+            "evidence": "The warden confrontation, Tarin's deadline, badge decision, opened barrier, and invitation read clearly at phone width. Dense civic architecture remains subordinate to the adults, but balloons in P02 and P05 encroach on heads."
+          },
+          {
+            "sequence": "CH03-S02",
+            "status": "WARN",
+            "failure_classes": [
+              "metric_density_above_pilot_in_story_readable_panels",
+              "lettering_encroaches_character_head"
+            ],
+            "evidence": "Lower Crescent residents, dry marker, first-marker search, testimony, and under-square activation retain clear causal order and adult identity. P07-P08 lettering crowds upper character space without breaking the action."
+          },
+          {
+            "sequence": "CH03-S03",
+            "status": "WARN",
+            "failure_classes": [
+              "metric_density_above_pilot_in_story_readable_panels"
+            ],
+            "evidence": "The public consent ritual and witness-chain progression are visually legible. Post-repair inspection confirms P17's relocated balloon clears Sola's eyes, expression, oathlit forearm, and deciding gesture."
+          },
+          {
+            "sequence": "CH03-S04",
+            "status": "WARN",
+            "failure_classes": [
+              "metric_density_above_pilot_in_story_readable_panels"
+            ],
+            "evidence": "Sunset pull, western-gap clue, Magistrate Dain reveal, snapped line, mutual recognition, and Serac's terms are coherent. Post-repair inspection confirms P19 and P23 lettering clears faces and primary gestures."
+          }
+        ],
+        "taxonomy": {
+          "role_identity": "PASS",
+          "adult_appearance": "PASS",
+          "facial_stability": "PASS",
+          "hair_stability": "PASS",
+          "wardrobe_continuity": "PASS",
+          "equipment_continuity": "PASS",
+          "injury_continuity": "PASS",
+          "creature_anatomy": "PASS",
+          "emotional_clarity": "PASS",
+          "relationship_behavior": "PASS",
+          "action_causality": "PASS",
+          "geography": "PASS",
+          "silhouette": "PASS",
+          "value_hierarchy": "PASS",
+          "focal_clarity": "PASS",
+          "effect_restraint": "PASS",
+          "background_density": "WARN",
+          "phone_readability": "PASS",
+          "lettering_clearance": "PASS",
+          "progression_state": "PASS",
+          "chapter_pacing": "PASS",
+          "cross_chapter_consequences": "PASS",
+          "originality": "PASS"
+        },
+        "warns": [
+          {
+            "failure_class": "metric_density_above_pilot_in_story_readable_panels",
+            "disposition": "retain WARN; 20 metric flags are concentrated in detailed civic panels, while direct 390 px inspection preserves focal hierarchy, silhouettes, and causal reading"
+          },
+          {
+            "failure_class": "lettering_encroaches_character_head",
+            "disposition": "retain WARN where eyes and expressions remain visible; include in later localized lettering pass"
+          }
+        ],
+        "fails": [],
+        "repairs": [
+          {
+            "failure_class": "lettering_obscures_eyes_or_expression",
+            "panels": [
+              "CH03-S03-P05",
+              "CH03-S04-P01",
+              "CH03-S04-P05"
+            ],
+            "result": "PASS after localized deterministic safe-zone relocation; source art unchanged",
+            "comparison": "experiments/reimaginings/the-city-keeps-oaths/repairs/lettering-wave/ch03-before-after.png"
+          }
+        ],
+        "hard_repair_required": false
+      }
+    },
+    {
+      "chapter": "CH04",
+      "assembly": {
+        "chapter": "CH04",
+        "panels": 24,
+        "sequences": 4,
+        "artifacts": [
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch04/ch04-phone-preview.png",
+            "sha256": "68181c9b0ac132c582517fa086d975987f931fa8c053675759b2b0055e42566a",
+            "dimensions": [
+              390,
+              6936
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch04/ch04-reading-draft.png",
+            "sha256": "320255e23deb947be28ee31762e0d67063ab137916080c195996ec53e5a71d7e",
+            "dimensions": [
+              960,
+              17072
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch04/review/ch04-contact-sheet.png",
+            "sha256": "49f98ceb07fb27bc1d0369955ca1a7ed765e2b0853ec2f5e3a6a8cb87bd1716f",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch04/review/ch04-compact-lettered-review.png",
+            "sha256": "5484f99d3fa747ce62af6d85fbb3d271417779caea693a819fe2c707ea254a59",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch04/review/ch04-grayscale-review.png",
+            "sha256": "5d74fa52a271d95e71d19071febb908dc0a2aa63d5209b00cdd9d68edd1d61b2",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch04/review/ch04-density-map.png",
+            "sha256": "e161593c2994baded19aa2a1670ccebe6beb5fb7b19569de5e4a7dcdb51d7b82",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch04/review/ch04-safe-zone-review.png",
+            "sha256": "127c5630fa4737a6ae92707d5ace2433dae07889ffca8d1cf15b549caf751ae4",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          }
+        ],
+        "phone_width": 390,
+        "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+        "generated_source_text_free": true,
+        "variable_scroll_cadence": {
+          "leading_gutter_pixels": 72,
+          "gutter_after_pixels": [
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132
+          ],
+          "roles": {
+            "opening_objective_escalation": 42,
+            "action": 28,
+            "choice": 72,
+            "consequence_sequence_breath": 132
+          }
+        },
+        "metric_review_status_totals": {
+          "PASS": 8,
+          "WARN": 16
+        },
+        "metric_failure_classes": {
+          "edge_density_above_pilot_class": 13,
+          "high_frequency_occupancy_above_pilot_class": 11,
+          "global_entropy_above_pilot_class": 7,
+          "focal_luminance_proxy_below_pilot": 2
+        }
+      },
+      "metric_status_totals": {
+        "PASS": 8,
+        "WARN": 16
+      },
+      "metric_failure_classes": {
+        "edge_density_above_pilot_class": 13,
+        "high_frequency_occupancy_above_pilot_class": 11,
+        "global_entropy_above_pilot_class": 7,
+        "focal_luminance_proxy_below_pilot": 2
+      },
+      "manual_review": {
+        "chapter": "CH04",
+        "reviewer": "produce_ch02_ch04 agent visual inspection; root-agent post-repair inspection",
+        "phone_width": 390,
+        "overall_status": "WARN",
+        "sequence_reviews": [
+          {
+            "sequence": "CH04-S01",
+            "status": "WARN",
+            "failure_classes": [
+              "metric_density_above_pilot_in_story_readable_panels",
+              "lettering_encroaches_character_head"
+            ],
+            "evidence": "Serac's repair offer, Sola's demand for terms, map exchange, vow refusal, feeding ink, and vanished door read as a clean negotiation. P01 and P05 balloons crowd Sola's upper head, but the expressions and hand-driven terms remain intelligible."
+          },
+          {
+            "sequence": "CH04-S02",
+            "status": "WARN",
+            "failure_classes": [
+              "metric_density_above_pilot_in_story_readable_panels"
+            ],
+            "evidence": "Wall seam, crystalline barrier, map memory, exit opening, and completed-vow clue have clear geography and causal progression. Post-repair inspection confirms P11's relocated balloon clears Kesin's eyes, expression, and the luminous map-hand action."
+          },
+          {
+            "sequence": "CH04-S03",
+            "status": "WARN",
+            "failure_classes": [
+              "metric_density_above_pilot_in_story_readable_panels",
+              "lettering_encroaches_character_head"
+            ],
+            "evidence": "Archive chamber, vow count, escalating burn, forced break, and Sola's refusal to proceed unnamed remain readable at 390 px. Effects are bright but localized; P14 and P17 balloons encroach on upper heads without fully hiding the focal actions."
+          },
+          {
+            "sequence": "CH04-S04",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The painful mark, Tarin and Kesin's aid, visible burn injury, bandaging, recorded refusal, mature defiance, and departure preserve irreversible state. Post-repair inspection confirms P19, P20, and P22 lettering clears all eyes, expressions, bandaging, and causal hand actions."
+          }
+        ],
+        "taxonomy": {
+          "role_identity": "PASS",
+          "adult_appearance": "PASS",
+          "facial_stability": "PASS",
+          "hair_stability": "PASS",
+          "wardrobe_continuity": "PASS",
+          "equipment_continuity": "PASS",
+          "injury_continuity": "PASS",
+          "creature_anatomy": "PASS",
+          "emotional_clarity": "PASS",
+          "relationship_behavior": "PASS",
+          "action_causality": "PASS",
+          "geography": "PASS",
+          "silhouette": "PASS",
+          "value_hierarchy": "PASS",
+          "focal_clarity": "PASS",
+          "effect_restraint": "PASS",
+          "background_density": "WARN",
+          "phone_readability": "PASS",
+          "lettering_clearance": "PASS",
+          "progression_state": "PASS",
+          "chapter_pacing": "PASS",
+          "cross_chapter_consequences": "PASS",
+          "originality": "PASS"
+        },
+        "warns": [
+          {
+            "failure_class": "metric_density_above_pilot_in_story_readable_panels",
+            "disposition": "retain WARN; 16 calibrated metric flags do not correspond to phone confusion under direct inspection; focal adults, map, seam, mark, and injury remain distinct"
+          },
+          {
+            "failure_class": "lettering_encroaches_character_head",
+            "disposition": "retain WARN where eyes and expressions remain visible; include in later localized lettering pass"
+          }
+        ],
+        "fails": [],
+        "repairs": [
+          {
+            "failure_class": "lettering_obscures_eyes_or_expression",
+            "panels": [
+              "CH04-S02-P05",
+              "CH04-S04-P01",
+              "CH04-S04-P02",
+              "CH04-S04-P04"
+            ],
+            "result": "PASS after localized deterministic safe-zone relocation; source art unchanged",
+            "comparison": "experiments/reimaginings/the-city-keeps-oaths/repairs/lettering-wave/ch04-before-after.png"
+          }
+        ],
+        "hard_repair_required": false
+      }
+    },
+    {
+      "chapter": "CH05",
+      "assembly": {
+        "chapter": "CH05",
+        "panels": 24,
+        "sequences": 4,
+        "artifacts": [
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch05/ch05-phone-preview.png",
+            "sha256": "f9da1bdabbb5796445b197d66d0b0359cbd8816804707fdf33a56c14b67fee7b",
+            "dimensions": [
+              390,
+              6766
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch05/ch05-reading-draft.png",
+            "sha256": "e1f92bc5a0524026e08d18b5bef497fc16e4c0080a7b17227cdcc533932ac7c6",
+            "dimensions": [
+              960,
+              16654
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch05/review/ch05-contact-sheet.png",
+            "sha256": "bf1e56948d046618682a4acf69902725a9036f162411a8df5046275318446c57",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch05/review/ch05-compact-lettered-review.png",
+            "sha256": "a64f3751fd0e23df7cef9128568f74242d4d2699216a3272c74fac328d24e5f0",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch05/review/ch05-grayscale-review.png",
+            "sha256": "62b3b8723e4db8b83b3c1d8521beb7fae9bad28221170487a0f26a4a41268673",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch05/review/ch05-density-map.png",
+            "sha256": "dafa66a88ca229ed78ebe5471357c662c1589b4ef66897497d6425c126e46c4b",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch05/review/ch05-safe-zone-review.png",
+            "sha256": "83338f055542e495383fdb77650f28f2af6d7ea5bddb0b70e5fe66b924620dae",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          }
+        ],
+        "phone_width": 390,
+        "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+        "generated_source_text_free": true,
+        "variable_scroll_cadence": {
+          "leading_gutter_pixels": 72,
+          "gutter_after_pixels": [
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132
+          ],
+          "roles": {
+            "opening_objective_escalation": 42,
+            "action": 28,
+            "choice": 72,
+            "consequence_sequence_breath": 132
+          }
+        },
+        "metric_review_status_totals": {
+          "WARN": 19,
+          "PASS": 5
+        },
+        "metric_failure_classes": {
+          "high_frequency_occupancy_above_pilot_class": 17,
+          "edge_density_above_pilot_class": 13,
+          "global_entropy_above_pilot_class": 9,
+          "focal_luminance_proxy_below_pilot": 6
+        }
+      },
+      "metric_status_totals": {
+        "WARN": 19,
+        "PASS": 5
+      },
+      "metric_failure_classes": {
+        "high_frequency_occupancy_above_pilot_class": 17,
+        "edge_density_above_pilot_class": 13,
+        "global_entropy_above_pilot_class": 9,
+        "focal_luminance_proxy_below_pilot": 6
+      },
+      "manual_review": {
+        "chapter": "CH05",
+        "reviewer": "produce-ch05-ch07 agent visual inspection",
+        "phone_width": 390,
+        "overall_status": "PASS",
+        "sequence_reviews": [
+          {
+            "sequence": "CH05-S01",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Mature Sola, Tarin, Kesin, and resident-steward identities remain legible; public terms, refusal, delegated veto, and steward leadership read chronologically without source lettering."
+          },
+          {
+            "sequence": "CH05-S02",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The broken road, narrowing route, stalled convoy, spear intervention, abandoned supplies, and successful crossing have clear geography and causal staging at phone width."
+          },
+          {
+            "sequence": "CH05-S03",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The final gap and isolated piers establish scale; separately owned adult vows visibly combine into one restrained Span chord, preserving progression and relationship behavior."
+          },
+          {
+            "sequence": "CH05-S04",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The terrace confrontation, citywide draw, public warning, road fractures, and Serac declaration remain readable; all figures are visibly mature adults and effects stay subordinate to focal action."
+          }
+        ],
+        "taxonomy": {
+          "role_identity": "PASS",
+          "adult_appearance": "PASS",
+          "facial_stability": "PASS",
+          "hair_stability": "PASS",
+          "wardrobe_continuity": "PASS",
+          "equipment_continuity": "PASS",
+          "injury_continuity": "PASS",
+          "creature_anatomy": "PASS",
+          "emotional_clarity": "PASS",
+          "relationship_behavior": "PASS",
+          "action_causality": "PASS",
+          "geography": "PASS",
+          "silhouette": "PASS",
+          "value_hierarchy": "PASS",
+          "focal_clarity": "PASS",
+          "effect_restraint": "PASS",
+          "background_density": "WARN",
+          "phone_readability": "PASS",
+          "lettering_clearance": "PASS",
+          "progression_state": "PASS",
+          "chapter_pacing": "PASS",
+          "cross_chapter_consequences": "PASS",
+          "originality": "PASS"
+        },
+        "warns": [
+          {
+            "failure_class": "metric_density_above_pilot_in_story_readable_panels",
+            "disposition": "retain WARN; manual inspection of source contact, compact lettered review, and 390px preview finds clear focal hierarchy, readable silhouettes, and no adjacent spectacle overload; no repair trigger"
+          }
+        ],
+        "hard_repair_required": false
+      }
+    },
+    {
+      "chapter": "CH06",
+      "assembly": {
+        "chapter": "CH06",
+        "panels": 24,
+        "sequences": 4,
+        "artifacts": [
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/ch06-phone-preview.png",
+            "sha256": "866efc2165b2dc566a89a272bc577e1c3a80d81c54c1d3af6e681ecff148281d",
+            "dimensions": [
+              390,
+              6473
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/ch06-reading-draft.png",
+            "sha256": "98c1f369de29f96cccfac93e0419efe29dc69224da589df28b8f62d8675cdd0b",
+            "dimensions": [
+              960,
+              15933
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/review/ch06-contact-sheet.png",
+            "sha256": "1f8f11c6802af03d8f89798b115b3373c6fe6e5db01d35d787d1be57ea5ad4eb",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/review/ch06-compact-lettered-review.png",
+            "sha256": "6441a474f4c74b320880c9cf689d4c28434a771eb41125305705eee2cae2622e",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/review/ch06-grayscale-review.png",
+            "sha256": "dd2b40fbe3ddb0f762cc648d02d5d0ae0652dc74cf1e89b7953fcee34bb489ce",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/review/ch06-density-map.png",
+            "sha256": "bd7049b0405386d6656c7a245e990507cdf3c87171a8e572da054d82e72008c0",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch06/review/ch06-safe-zone-review.png",
+            "sha256": "872b677dad2d41d9786d8d5000df048e7f3feca1c8685c0cd60c58f93f004e15",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          }
+        ],
+        "phone_width": 390,
+        "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+        "generated_source_text_free": true,
+        "variable_scroll_cadence": {
+          "leading_gutter_pixels": 72,
+          "gutter_after_pixels": [
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132
+          ],
+          "roles": {
+            "opening_objective_escalation": 42,
+            "action": 28,
+            "choice": 72,
+            "consequence_sequence_breath": 132
+          }
+        },
+        "metric_review_status_totals": {
+          "PASS": 4,
+          "WARN": 20
+        },
+        "metric_failure_classes": {
+          "edge_density_above_pilot_class": 14,
+          "high_frequency_occupancy_above_pilot_class": 17,
+          "focal_luminance_proxy_below_pilot": 7,
+          "global_entropy_above_pilot_class": 7
+        }
+      },
+      "metric_status_totals": {
+        "PASS": 4,
+        "WARN": 20
+      },
+      "metric_failure_classes": {
+        "edge_density_above_pilot_class": 14,
+        "high_frequency_occupancy_above_pilot_class": 17,
+        "focal_luminance_proxy_below_pilot": 7,
+        "global_entropy_above_pilot_class": 7
+      },
+      "manual_review": {
+        "chapter": "CH06",
+        "reviewer": "produce-ch05-ch07 agent visual inspection",
+        "phone_width": 390,
+        "overall_status": "PASS",
+        "sequence_reviews": [
+          {
+            "sequence": "CH06-S01",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The refuge-room treatment sequence preserves Sola's mature identity, cut left sleeve, splinted/fractured forearm, Tarin's bent spear, and the cast's quiet relationship beat with clear close-up emotion."
+          },
+          {
+            "sequence": "CH06-S02",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Serac's public hearing, resident testimony, competing positions, Sola's listening choice, and divided-chamber consequence stage clearly with stable adult identities and readable crowd geography."
+          },
+          {
+            "sequence": "CH06-S03",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The empty witness field, Sola's contact and diagnosis, detained wardens, Varo-seal reveal, and arrest order read as discrete causal beats; the single cyan-gold effect remains restrained."
+          },
+          {
+            "sequence": "CH06-S04",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Tarin's arrest, refusal to discard a district, Outer Lantern destruction, Sola relinquishing Hold, and the decision to free witnesses are legible at phone width and preserve irreversible state."
+          }
+        ],
+        "taxonomy": {
+          "role_identity": "PASS",
+          "adult_appearance": "PASS",
+          "facial_stability": "PASS",
+          "hair_stability": "PASS",
+          "wardrobe_continuity": "PASS",
+          "equipment_continuity": "PASS",
+          "injury_continuity": "PASS",
+          "creature_anatomy": "PASS",
+          "emotional_clarity": "PASS",
+          "relationship_behavior": "PASS",
+          "action_causality": "PASS",
+          "geography": "PASS",
+          "silhouette": "PASS",
+          "value_hierarchy": "PASS",
+          "focal_clarity": "PASS",
+          "effect_restraint": "PASS",
+          "background_density": "WARN",
+          "phone_readability": "PASS",
+          "lettering_clearance": "PASS",
+          "progression_state": "PASS",
+          "chapter_pacing": "PASS",
+          "cross_chapter_consequences": "PASS",
+          "originality": "PASS"
+        },
+        "warns": [
+          {
+            "failure_class": "metric_density_above_pilot_in_story_readable_panels",
+            "disposition": "retain WARN; the source contact, compact lettered review, and 390px preview retain distinct silhouettes, value hierarchy, causal action, and clear lettering despite proxy excursions; no repair trigger"
+          }
+        ],
+        "hard_repair_required": false
+      }
+    },
+    {
+      "chapter": "CH07",
+      "assembly": {
+        "chapter": "CH07",
+        "panels": 24,
+        "sequences": 4,
+        "artifacts": [
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch07/ch07-phone-preview.png",
+            "sha256": "f58c415ee163a202fb1f1d960280bf7164e71cf17795845110b42ec34047cbbb",
+            "dimensions": [
+              390,
+              6873
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch07/ch07-reading-draft.png",
+            "sha256": "cb8f23e1b993d3c2acd5b89b2398cd058448bf5878af3879d16e292d2e47897a",
+            "dimensions": [
+              960,
+              16919
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch07/review/ch07-contact-sheet.png",
+            "sha256": "7cb7c8fb1d9dd2e399a91ebe4c0fda56a4fd43f2f646050f5c8b81d171801a5c",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch07/review/ch07-compact-lettered-review.png",
+            "sha256": "189170469d3eb96639c46bccd551315e82cd20299f89b37bf496405e1ce797a9",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch07/review/ch07-grayscale-review.png",
+            "sha256": "6fbc423881b5f18a8949080c227c2de3d64be95e40b6cf235ce62c8ced621037",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch07/review/ch07-density-map.png",
+            "sha256": "aa79999be90e55c776ad2aa86ecf551d7bbaa754712a903ba8eb5971c413a73a",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch07/review/ch07-safe-zone-review.png",
+            "sha256": "99881f38122cc022dcbe9d772b181b9b3a973cdca809d7cac838a4edbed9073c",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          }
+        ],
+        "phone_width": 390,
+        "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+        "generated_source_text_free": true,
+        "variable_scroll_cadence": {
+          "leading_gutter_pixels": 72,
+          "gutter_after_pixels": [
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132
+          ],
+          "roles": {
+            "opening_objective_escalation": 42,
+            "action": 28,
+            "choice": 72,
+            "consequence_sequence_breath": 132
+          }
+        },
+        "metric_review_status_totals": {
+          "PASS": 3,
+          "WARN": 21
+        },
+        "metric_failure_classes": {
+          "edge_density_above_pilot_class": 16,
+          "high_frequency_occupancy_above_pilot_class": 19,
+          "global_entropy_above_pilot_class": 13,
+          "focal_luminance_proxy_below_pilot": 5
+        }
+      },
+      "metric_status_totals": {
+        "PASS": 3,
+        "WARN": 21
+      },
+      "metric_failure_classes": {
+        "edge_density_above_pilot_class": 16,
+        "high_frequency_occupancy_above_pilot_class": 19,
+        "global_entropy_above_pilot_class": 13,
+        "focal_luminance_proxy_below_pilot": 5
+      },
+      "manual_review": {
+        "chapter": "CH07",
+        "reviewer": "produce-ch05-ch07 agent visual inspection",
+        "phone_width": 390,
+        "overall_status": "PASS",
+        "sequence_reviews": [
+          {
+            "sequence": "CH07-S01",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The sealed witness level, steward-operated mechanism, three-door reveal, practical work, and group decision read top-to-bottom with stable mature-adult identities and clear negative-space staging."
+          },
+          {
+            "sequence": "CH07-S02",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Varo's badge exchange, Tarin's statement, door surge, Sola shielding Varo, and recovery have clear hand contact and body direction; the injury wrap and adult appearances remain legible at phone width."
+          },
+          {
+            "sequence": "CH07-S03",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The exposed approach, keyed seam, warden attack, timed brace, spear break, and seated key read as discrete causal beats; action silhouettes and the restrained cyan-gold seal effect remain clear."
+          },
+          {
+            "sequence": "CH07-S04",
+            "status": "WARN",
+            "failure_classes": [
+              "tarin_bent_spear_geometry_inconsistently_visible"
+            ],
+            "evidence": "Serac's confession, shared map, visible oath-light cost, Sola's boundary, and Serac's departure are emotionally and geographically clear. Tarin's previously bent spear reads near-straight in one group view, a localized equipment-continuity ambiguity that does not obscure the story."
+          }
+        ],
+        "taxonomy": {
+          "role_identity": "PASS",
+          "adult_appearance": "PASS",
+          "facial_stability": "PASS",
+          "hair_stability": "PASS",
+          "wardrobe_continuity": "PASS",
+          "equipment_continuity": "WARN",
+          "injury_continuity": "PASS",
+          "creature_anatomy": "PASS",
+          "emotional_clarity": "PASS",
+          "relationship_behavior": "PASS",
+          "action_causality": "PASS",
+          "geography": "PASS",
+          "silhouette": "PASS",
+          "value_hierarchy": "PASS",
+          "focal_clarity": "PASS",
+          "effect_restraint": "PASS",
+          "background_density": "WARN",
+          "phone_readability": "PASS",
+          "lettering_clearance": "PASS",
+          "progression_state": "PASS",
+          "chapter_pacing": "PASS",
+          "cross_chapter_consequences": "WARN",
+          "originality": "PASS"
+        },
+        "warns": [
+          {
+            "failure_class": "tarin_bent_spear_geometry_inconsistently_visible",
+            "disposition": "retain WARN; localized group-view ambiguity only, while the earlier break action and equipment consequence remain explicit and phone-readable; no hard repair trigger"
+          },
+          {
+            "failure_class": "metric_density_above_pilot_in_story_readable_panels",
+            "disposition": "retain WARN; manual inspection of source contact, compact lettered review, and 390px preview finds strong silhouettes, clear panel entry points, restrained effects, and readable lettering; no repair trigger"
+          }
+        ],
+        "hard_repair_required": false
+      }
+    },
+    {
+      "chapter": "CH08",
+      "assembly": {
+        "chapter": "CH08",
+        "panels": 24,
+        "sequences": 4,
+        "artifacts": [
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch08/ch08-phone-preview.png",
+            "sha256": "6ac7ee8a3e070fc074ad01c3c5d6d7388c9be0b6b1aea678093e85c2348e8101",
+            "dimensions": [
+              390,
+              7116
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch08/ch08-reading-draft.png",
+            "sha256": "c4acd82696c2175627c22a41116fd479d592b77f5349e9f8715bc2d25d23e2dd",
+            "dimensions": [
+              960,
+              17517
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch08/review/ch08-contact-sheet.png",
+            "sha256": "6dc5ea25f914650130cefac3535aa6031550767ee4a3c6f7ddc9432713d55e09",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch08/review/ch08-compact-lettered-review.png",
+            "sha256": "8d2a469d38fb527feca88bcd672ba0a582f9e74e37eb59cc1bcfcebe3fa50228",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch08/review/ch08-grayscale-review.png",
+            "sha256": "99bb790ced4c4765ee3e18ee01ff882bc48d47dd7730d5872ec17921ea4c3dce",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch08/review/ch08-density-map.png",
+            "sha256": "4edfe3685228006de4022852fbca23c789faac630f378ab5386a55204351daf3",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch08/review/ch08-safe-zone-review.png",
+            "sha256": "e2eb2cf4c2a759374af51d851414a3921ac891eae4d086cc83b88bc14be12395",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          }
+        ],
+        "phone_width": 390,
+        "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+        "generated_source_text_free": true,
+        "variable_scroll_cadence": {
+          "leading_gutter_pixels": 72,
+          "gutter_after_pixels": [
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132
+          ],
+          "roles": {
+            "opening_objective_escalation": 42,
+            "action": 28,
+            "choice": 72,
+            "consequence_sequence_breath": 132
+          }
+        },
+        "metric_review_status_totals": {
+          "WARN": 19,
+          "PASS": 5
+        },
+        "metric_failure_classes": {
+          "focal_luminance_proxy_below_pilot": 5,
+          "edge_density_above_pilot_class": 15,
+          "high_frequency_occupancy_above_pilot_class": 16,
+          "global_entropy_above_pilot_class": 7
+        }
+      },
+      "metric_status_totals": {
+        "WARN": 19,
+        "PASS": 5
+      },
+      "metric_failure_classes": {
+        "focal_luminance_proxy_below_pilot": 5,
+        "edge_density_above_pilot_class": 15,
+        "high_frequency_occupancy_above_pilot_class": 16,
+        "global_entropy_above_pilot_class": 7
+      },
+      "manual_review": {
+        "chapter": "CH08",
+        "reviewer": "produce_ch08_ch10-agent visual inspection",
+        "phone_width": 390,
+        "overall_status": "PASS",
+        "sequence_reviews": [
+          {
+            "sequence": "CH08-S01",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The abandoned school, three mature adult roles, sealed lesson, Sola's tested promises, identity-vow realization, and marked cost read chronologically; the injured left arm and broken equipment state remain visible."
+          },
+          {
+            "sequence": "CH08-S02",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The luminous-tree bench creates a quiet low-detail beat; Tarin's two spear halves, Sola's fear of losing her office, and the unconditional partnership choice remain emotionally and causally clear at phone width."
+          },
+          {
+            "sequence": "CH08-S03",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The mill threshold, relinquished office, bracer break, and release of bound vows progress through readable gestures and a single restrained oathlight effect; local lettering stays clear of faces and hands."
+          },
+          {
+            "sequence": "CH08-S04",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The exposed city-wide dependency, concealed support, one-night limit, and Serac's one-will counterposition read as a clean closing turn with strong vertical geography and mature silhouettes."
+          }
+        ],
+        "taxonomy": {
+          "role_identity": "PASS",
+          "adult_appearance": "PASS",
+          "facial_stability": "PASS",
+          "hair_stability": "PASS",
+          "wardrobe_continuity": "PASS",
+          "equipment_continuity": "PASS",
+          "injury_continuity": "PASS",
+          "creature_anatomy": "PASS",
+          "emotional_clarity": "PASS",
+          "relationship_behavior": "PASS",
+          "action_causality": "PASS",
+          "geography": "PASS",
+          "silhouette": "PASS",
+          "value_hierarchy": "PASS",
+          "focal_clarity": "PASS",
+          "effect_restraint": "PASS",
+          "background_density": "WARN",
+          "phone_readability": "PASS",
+          "lettering_clearance": "PASS",
+          "progression_state": "PASS",
+          "chapter_pacing": "PASS",
+          "cross_chapter_consequences": "PASS",
+          "originality": "PASS"
+        },
+        "warns": [
+          {
+            "failure_class": "metric_density_above_pilot_in_story_readable_panels",
+            "disposition": "retain WARN; source contact, compact lettered review, and 390px scroll inspection show stable focal hierarchy, readable silhouettes, and quiet relief in CH08-S02; metric proxy does not establish a hard phone-readability failure"
+          }
+        ],
+        "hard_repair_required": false
+      }
+    },
+    {
+      "chapter": "CH09",
+      "assembly": {
+        "chapter": "CH09",
+        "panels": 24,
+        "sequences": 4,
+        "artifacts": [
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch09/ch09-phone-preview.png",
+            "sha256": "ecd012a41c4810f8ed86c8aa7cf7ab67fbdbb77d9955d4b01962fbbfab9e9590",
+            "dimensions": [
+              390,
+              6991
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch09/ch09-reading-draft.png",
+            "sha256": "b1cb4c4e778b9f4d4acfb93e079b60997b8efbedbedc95fc69105e236a6b3222",
+            "dimensions": [
+              960,
+              17208
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch09/review/ch09-contact-sheet.png",
+            "sha256": "3e2320a2a668e1255489bca86177b0ef6d7a9b4057cd0f1bfc0248bdc452f6c4",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch09/review/ch09-compact-lettered-review.png",
+            "sha256": "4d60d6d660f53c32e4eb8bc0126a3d0eaac6a2d21d8bb960e67869bbf5e27dc5",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch09/review/ch09-grayscale-review.png",
+            "sha256": "6c4c8c3a62464ea282328d46fbeee3afe799423b606cedc1d7e14f8a61c3d8d1",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch09/review/ch09-density-map.png",
+            "sha256": "fad4996836e5d6e757c134b184b58e54ceda9ae20466947fbbfde403328b40df",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch09/review/ch09-safe-zone-review.png",
+            "sha256": "7ba76b742edd2af7f18153001f8a3d3af2dd1bf584d4318e999011fb9253d3f9",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          }
+        ],
+        "phone_width": 390,
+        "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+        "generated_source_text_free": true,
+        "variable_scroll_cadence": {
+          "leading_gutter_pixels": 72,
+          "gutter_after_pixels": [
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132
+          ],
+          "roles": {
+            "opening_objective_escalation": 42,
+            "action": 28,
+            "choice": 72,
+            "consequence_sequence_breath": 132
+          }
+        },
+        "metric_review_status_totals": {
+          "PASS": 7,
+          "WARN": 17
+        },
+        "metric_failure_classes": {
+          "edge_density_above_pilot_class": 16,
+          "high_frequency_occupancy_above_pilot_class": 16,
+          "global_entropy_above_pilot_class": 5,
+          "focal_luminance_proxy_below_pilot": 7
+        }
+      },
+      "metric_status_totals": {
+        "PASS": 7,
+        "WARN": 17
+      },
+      "metric_failure_classes": {
+        "edge_density_above_pilot_class": 16,
+        "high_frequency_occupancy_above_pilot_class": 16,
+        "global_entropy_above_pilot_class": 5,
+        "focal_luminance_proxy_below_pilot": 7
+      },
+      "manual_review": {
+        "chapter": "CH09",
+        "reviewer": "produce_ch08_ch10-agent visual inspection",
+        "phone_width": 390,
+        "overall_status": "PASS",
+        "sequence_reviews": [
+          {
+            "sequence": "CH09-S01",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The civic gathering, dangerous unbounded promises, Sever intervention, bounded-term teaching, and witnessed commitments read in order with clear adult roles, gestures, and public geography."
+          },
+          {
+            "sequence": "CH09-S02",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The forge sequence cleanly transforms Tarin's shattered spear into a chorus fork; hands, tool contact, emotional restraint, and the rejection of weaponized authority remain legible at phone width."
+          },
+          {
+            "sequence": "CH09-S03",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The missing district, attempted circuit closure, Sola's reinjury strain, held place, and answering signal form a clear causal chain with restrained effects and preserved injury state."
+          },
+          {
+            "sequence": "CH09-S04",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Outer Lantern's survival, district consent, distributed Chorus, Tarin's guidance, and Sola's non-ownership principle resolve in a readable progression reveal and closing witness beat."
+          }
+        ],
+        "taxonomy": {
+          "role_identity": "PASS",
+          "adult_appearance": "PASS",
+          "facial_stability": "PASS",
+          "hair_stability": "PASS",
+          "wardrobe_continuity": "PASS",
+          "equipment_continuity": "PASS",
+          "injury_continuity": "PASS",
+          "creature_anatomy": "PASS",
+          "emotional_clarity": "PASS",
+          "relationship_behavior": "PASS",
+          "action_causality": "PASS",
+          "geography": "PASS",
+          "silhouette": "PASS",
+          "value_hierarchy": "PASS",
+          "focal_clarity": "PASS",
+          "effect_restraint": "PASS",
+          "background_density": "WARN",
+          "phone_readability": "PASS",
+          "lettering_clearance": "PASS",
+          "progression_state": "PASS",
+          "chapter_pacing": "PASS",
+          "cross_chapter_consequences": "PASS",
+          "originality": "PASS"
+        },
+        "warns": [
+          {
+            "failure_class": "metric_density_above_pilot_in_story_readable_panels",
+            "disposition": "retain WARN; direct review of source contact, compact lettering, and 390px scroll shows clear entries, silhouettes, and scene breaks despite elevated edge/high-frequency proxies; no hard repair trigger"
+          }
+        ],
+        "hard_repair_required": false
+      }
+    },
+    {
+      "chapter": "CH10",
+      "assembly": {
+        "chapter": "CH10",
+        "panels": 24,
+        "sequences": 4,
+        "artifacts": [
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch10/ch10-phone-preview.png",
+            "sha256": "40bc8b35341bfd9df0bea8a0a74e7e0fde655657352bebab2c2511de54444728",
+            "dimensions": [
+              390,
+              6643
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch10/ch10-reading-draft.png",
+            "sha256": "f2a682051ac55b806e23c891ab0fa404d7e8d22dba141f4eea438ae549247815",
+            "dimensions": [
+              960,
+              16352
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch10/review/ch10-contact-sheet.png",
+            "sha256": "eba07f6d8867e64c8a353b7ae11992e4e0b2dcfa24ddd0944053133676f1cecc",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch10/review/ch10-compact-lettered-review.png",
+            "sha256": "01b81a7020717b5277c26cac96871796af7dd3ed605375a6eb2db9d00755e26f",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch10/review/ch10-grayscale-review.png",
+            "sha256": "f91b31b1e3779688f6f9f81b417869e4848fa53d7443953b9615357d44cd429e",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch10/review/ch10-density-map.png",
+            "sha256": "7ca5138e482920109c22010cbb043f36e18c5bb1df35c7ade4488a9c69786027",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          },
+          {
+            "file": "experiments/reimaginings/the-city-keeps-oaths/chapters/ch10/review/ch10-safe-zone-review.png",
+            "sha256": "971c6938e694cf110af98a414029d9043fdcbd253ce32af269c460eee1223a51",
+            "dimensions": [
+              1120,
+              1864
+            ]
+          }
+        ],
+        "phone_width": 390,
+        "lettering_method": "deterministic local balloons and captions in normalized [left,top,right,bottom] safe zones",
+        "generated_source_text_free": true,
+        "variable_scroll_cadence": {
+          "leading_gutter_pixels": 72,
+          "gutter_after_pixels": [
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132,
+            42,
+            42,
+            42,
+            28,
+            72,
+            132
+          ],
+          "roles": {
+            "opening_objective_escalation": 42,
+            "action": 28,
+            "choice": 72,
+            "consequence_sequence_breath": 132
+          }
+        },
+        "metric_review_status_totals": {
+          "PASS": 2,
+          "WARN": 22
+        },
+        "metric_failure_classes": {
+          "edge_density_above_pilot_class": 18,
+          "high_frequency_occupancy_above_pilot_class": 20,
+          "global_entropy_above_pilot_class": 20,
+          "focal_luminance_proxy_below_pilot": 4
+        }
+      },
+      "metric_status_totals": {
+        "PASS": 2,
+        "WARN": 22
+      },
+      "metric_failure_classes": {
+        "edge_density_above_pilot_class": 18,
+        "high_frequency_occupancy_above_pilot_class": 20,
+        "global_entropy_above_pilot_class": 20,
+        "focal_luminance_proxy_below_pilot": 4
+      },
+      "manual_review": {
+        "chapter": "CH10",
+        "reviewer": "produce_ch08_ch10-agent visual inspection",
+        "phone_width": 390,
+        "overall_status": "PASS",
+        "sequence_reviews": [
+          {
+            "sequence": "CH10-S01",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "The descent, three-plane count, fractured-road traversal, Sola's bounded hold, and entry to the covenant chamber form a clear action chain with readable force direction and adult silhouettes."
+          },
+          {
+            "sequence": "CH10-S02",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Serac's single-will claim, extracted-vow mantle, Sever cuts, preserved truthful center, and loss of borrowed authority read coherently; the effect remains focal rather than obscuring anatomy."
+          },
+          {
+            "sequence": "CH10-S03",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Open white disc space separates the legal climax from surrounding spectacle; Kesin's plural-witness finding, Tarin's carried responses, Sola's withdrawal terms, acceptance, and Serac's submission remain legible at phone width."
+          },
+          {
+            "sequence": "CH10-S04",
+            "status": "PASS",
+            "failure_classes": [],
+            "evidence": "Sunrise, distributed duties, uneven shared strain, stabilization, revoked authority, and the answering distant road provide a complete volume resolution plus a clear next-volume vector."
+          }
+        ],
+        "taxonomy": {
+          "role_identity": "PASS",
+          "adult_appearance": "PASS",
+          "facial_stability": "PASS",
+          "hair_stability": "PASS",
+          "wardrobe_continuity": "PASS",
+          "equipment_continuity": "PASS",
+          "injury_continuity": "PASS",
+          "creature_anatomy": "PASS",
+          "emotional_clarity": "PASS",
+          "relationship_behavior": "PASS",
+          "action_causality": "PASS",
+          "geography": "PASS",
+          "silhouette": "PASS",
+          "value_hierarchy": "PASS",
+          "focal_clarity": "PASS",
+          "effect_restraint": "PASS",
+          "background_density": "WARN",
+          "phone_readability": "PASS",
+          "lettering_clearance": "PASS",
+          "progression_state": "PASS",
+          "chapter_pacing": "PASS",
+          "cross_chapter_consequences": "PASS",
+          "originality": "PASS"
+        },
+        "warns": [
+          {
+            "failure_class": "metric_density_above_pilot_in_climax_but_story_readable",
+            "disposition": "retain WARN; automated edge, high-frequency, and entropy proxies rise during the earned climax, while direct contact-sheet, compact-lettering, and 390px scroll inspection show clear focal subjects, white-space relief in CH10-S03, and no adjacent unreadable action; no hard repair trigger"
+          }
+        ],
+        "hard_repair_required": false
+      }
+    }
+  ],
+  "manual_sequence_status_totals": {
+    "PASS": 29,
+    "WARN": 11
+  },
+  "manual_failure_classes": {
+    "metric_density_above_pilot_in_story_readable_panels": 9,
+    "lettering_encroaches_character_head": 3,
+    "sfx_encroaches_character_head": 1,
+    "tarin_bent_spear_geometry_inconsistently_visible": 1,
+    "metric_density_above_pilot_in_climax_but_story_readable": 1
+  },
+  "panel_metric_status_totals": {
+    "PASS": 54,
+    "WARN": 186
+  },
+  "metric_failure_classes": {
+    "edge_density_above_pilot_class": 144,
+    "high_frequency_occupancy_above_pilot_class": 160,
+    "global_entropy_above_pilot_class": 98,
+    "focal_luminance_proxy_below_pilot": 54
+  },
+  "manual_taxonomy": "production/reimaginings/the-city-keeps-oaths/review-taxonomy.json",
+  "progression_hub": {
+    "file": "experiments/reimaginings/the-city-keeps-oaths/volume-review/progression-hub.png",
+    "sha256": "5827655f3d3c02c69ddef5e5b0f02d078edba025e66fed5979de1ee8e6e1c494"
+  },
+  "strongest_panels": {
+    "file": "experiments/reimaginings/the-city-keeps-oaths/volume-review/strongest-panels.png",
+    "sha256": "bec75909bc70bd9f92f5806da61a86a5f5575a6c485d544aeba8a903cee4fcaf"
+  }
+}

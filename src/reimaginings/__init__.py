@@ -1,1 +1,1 @@
-"""Isolated reimagining pipelines."""
+"""Independent visual-narrative reimaginings."""

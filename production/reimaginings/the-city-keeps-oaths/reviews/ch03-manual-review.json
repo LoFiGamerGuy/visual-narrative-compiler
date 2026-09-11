@@ -1,0 +1,17 @@
+{
+  "chapter":"CH03","reviewer":"produce_ch02_ch04 agent visual inspection; root-agent post-repair inspection","phone_width":390,"overall_status":"WARN",
+  "sequence_reviews":[
+    {"sequence":"CH03-S01","status":"WARN","failure_classes":["metric_density_above_pilot_in_story_readable_panels","lettering_encroaches_character_head"],"evidence":"The warden confrontation, Tarin's deadline, badge decision, opened barrier, and invitation read clearly at phone width. Dense civic architecture remains subordinate to the adults, but balloons in P02 and P05 encroach on heads."},
+    {"sequence":"CH03-S02","status":"WARN","failure_classes":["metric_density_above_pilot_in_story_readable_panels","lettering_encroaches_character_head"],"evidence":"Lower Crescent residents, dry marker, first-marker search, testimony, and under-square activation retain clear causal order and adult identity. P07-P08 lettering crowds upper character space without breaking the action."},
+    {"sequence":"CH03-S03","status":"WARN","failure_classes":["metric_density_above_pilot_in_story_readable_panels"],"evidence":"The public consent ritual and witness-chain progression are visually legible. Post-repair inspection confirms P17's relocated balloon clears Sola's eyes, expression, oathlit forearm, and deciding gesture."},
+    {"sequence":"CH03-S04","status":"WARN","failure_classes":["metric_density_above_pilot_in_story_readable_panels"],"evidence":"Sunset pull, western-gap clue, Magistrate Dain reveal, snapped line, mutual recognition, and Serac's terms are coherent. Post-repair inspection confirms P19 and P23 lettering clears faces and primary gestures."}
+  ],
+  "taxonomy":{"role_identity":"PASS","adult_appearance":"PASS","facial_stability":"PASS","hair_stability":"PASS","wardrobe_continuity":"PASS","equipment_continuity":"PASS","injury_continuity":"PASS","creature_anatomy":"PASS","emotional_clarity":"PASS","relationship_behavior":"PASS","action_causality":"PASS","geography":"PASS","silhouette":"PASS","value_hierarchy":"PASS","focal_clarity":"PASS","effect_restraint":"PASS","background_density":"WARN","phone_readability":"PASS","lettering_clearance":"PASS","progression_state":"PASS","chapter_pacing":"PASS","cross_chapter_consequences":"PASS","originality":"PASS"},
+  "warns":[
+    {"failure_class":"metric_density_above_pilot_in_story_readable_panels","disposition":"retain WARN; 20 metric flags are concentrated in detailed civic panels, while direct 390 px inspection preserves focal hierarchy, silhouettes, and causal reading"},
+    {"failure_class":"lettering_encroaches_character_head","disposition":"retain WARN where eyes and expressions remain visible; include in later localized lettering pass"}
+  ],
+  "fails":[],
+  "repairs":[{"failure_class":"lettering_obscures_eyes_or_expression","panels":["CH03-S03-P05","CH03-S04-P01","CH03-S04-P05"],"result":"PASS after localized deterministic safe-zone relocation; source art unchanged","comparison":"experiments/reimaginings/the-city-keeps-oaths/repairs/lettering-wave/ch03-before-after.png"}],
+  "hard_repair_required":false
+}

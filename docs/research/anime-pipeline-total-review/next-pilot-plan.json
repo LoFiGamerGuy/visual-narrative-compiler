@@ -1,0 +1,26 @@
+{
+  "schema": "NextPilotPlan/1.0",
+  "name": "14-panel storyboard-first bakeoff",
+  "payload": "ember-optional-or-neutral",
+  "panel_count": 14,
+  "hypotheses": ["H1_storyboard_raises_causality", "H2_human_correction_beats_denoise", "H3_ember_premise_not_blocking"],
+  "routes": ["current-hybrid-control", "storyboard-first-modular", "optional-human-line-cleanup"],
+  "attempt_budget": {"primary_per_panel_per_route": 1, "hard_fail_retry": 1, "beauty_variants": 0},
+  "spend_usd": 0,
+  "phone_width_px": 390,
+  "min_dialogue_css_px": 14,
+  "rubric_id": "anime-pipeline-total-review-common-rubric-v1",
+  "pass_requires": [
+    "blind_reviewers_prefer_route2_or_3_on_sequential_and_action_by_1_point",
+    "owner_prefers_same",
+    "action_beats_share_one_stage",
+    "no_extra_digits",
+    "human_minutes_non_null"
+  ],
+  "kill": [
+    "layouts_ignored_on_more_than_3_of_14",
+    "owner_prefers_control",
+    "owner_will_not_review"
+  ],
+  "approval_authorizes": "one_16_to_40_panel_episode_not_ten_chapters"
+}

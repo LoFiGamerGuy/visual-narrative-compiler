@@ -1,0 +1,466 @@
+{
+  "rubric_id": "anime-pipeline-total-review-common-rubric-v1",
+  "reviewers": [
+    "visual-a",
+    "visual-b"
+  ],
+  "disagreement_threshold": 2,
+  "disagreements_ge_2": [
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "reader_impact",
+      "dimension": "emotional_engagement",
+      "a": 3,
+      "b": 1,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "high",
+      "a_justification": "Observation: p08 and page01_p08 carry actual blocking \u2014 Soren withdrawn, Sigrid watching, space between them. More acted than Ember scowls. Limited to one mood (estrangement).",
+      "b_justification": "No faces, no acting. Would stop a serial reader immediately. Cited: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/ch01_strip.jpg`."
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "sequential_storytelling",
+      "dimension": "spatial_continuity",
+      "a": 1,
+      "b": 3,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: wood stove vs brick fireplace, door placement, shelf walls, and table geometry change across four 'same kitchen' frames. The set is not locked.",
+      "b_justification": "Kitchen table geography holds. Geometry proxy is cubes, not a room. Cited: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/ch01_strip.jpg`."
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "sequential_storytelling",
+      "dimension": "acting_and_reaction_clarity",
+      "a": 3,
+      "b": 1,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "high",
+      "a_justification": "Observation: not-looking, chin-on-hand, seated slump are readable. No dialogue to confirm the argument, but body language is the strongest in the corpus for quiet scenes.",
+      "b_justification": "Faceless discs on ch01_strip.jpg and ch02_strip.jpg cannot act or react; the argument is carried only by balloons. That would stop a serial reader even though the previz sequences an idea. Evidence: `C:/AgentWorkspaces/anime-pipeline/garden"
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "sequential_storytelling",
+      "dimension": "vertical_pacing",
+      "a": 0,
+      "b": 2,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: landscape 3:2-ish frames, no vertical reader, no gutters. Dimension cannot function as a webtoon scroll.",
+      "b_justification": "Designed as a phone strip, but empty beige cards stall the scroll. Cited: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/ch01_strip.jpg`."
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "art_direction",
+      "dimension": "anatomy_and_hands",
+      "a": 3,
+      "b": 1,
+      "delta": 2,
+      "a_confidence": "medium",
+      "b_confidence": "medium",
+      "a_justification": "Observation: no sausage-hand disaster like Ember p013. Hands holding lantern/laptop are simplified ink, acceptable. Limited poses.",
+      "b_justification": "Previz figures on ch01_strip.jpg have no hands to judge. Action stills in action_warm.jpg are simplified posters, not constructed anatomy in sequence. Evidence: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/ch01_strip.jpg`."
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "art_direction",
+      "dimension": "line_and_shape_confidence",
+      "a": 4,
+      "b": 2,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: ink contour and black grouping look like a chosen drawing method. Stronger line confidence than Ember cel-paint or City airbrush.",
+      "b_justification": "r4_action.jpg ink/manhwa rows have poster confidence; kitchen previz is flat geometry. No locked line method across the inspectable set. Evidence: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/r4_action.jpg`."
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "art_direction",
+      "dimension": "value_hierarchy",
+      "a": 4,
+      "b": 2,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: lamp/fire vs unlit wood is a real value plan. Characters sit in light. This is the best value work inspected.",
+      "b_justification": "ch01_strip.jpg uses lamp-orange against brown darks, readable as a night interior. Action boards in r4_action.jpg blow value for spectacle and do not share that plan. Evidence: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/"
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "art_direction",
+      "dimension": "absence_of_generic_ai_painting_signatures",
+      "a": 3,
+      "b": 1,
+      "delta": 2,
+      "a_confidence": "medium",
+      "b_confidence": "high",
+      "a_justification": "Observation: ink method avoids the prestige-dungeon face. Residual AI: room mutation, slightly plastic faces, actstage webtoon coat-man is generic. Not clean of the medium.",
+      "b_justification": "Preset-lane style transfer (90s anime / bright webtoon / watercolor). Cited: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/sigrid_r3.jpg`."
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "genre_machinery",
+      "dimension": "system_clarity",
+      "a": 0,
+      "b": 2,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: no status, XP, class, or system UI on inspected pages.",
+      "b_justification": "Terminal dumps are visible, not taught. Cited: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/ch01_sheet.jpg`."
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "genre_machinery",
+      "dimension": "balance_between_system_information_and_drama",
+      "a": 0,
+      "b": 2,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: no system information to balance.",
+      "b_justification": "Terminal dumps on ch01_strip.jpg interrupt the kitchen argument rather than serving it. Drama is discs plus balloons; system text is a paste-in. Evidence: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/ch01_strip.jpg`."
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "lettering_and_mobile",
+      "dimension": "balloon_shape_and_placement",
+      "a": 0,
+      "b": 2,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: no balloons on accepted rasters.",
+      "b_justification": "Simple rounded speech balloons are present on the faceless previz in ch01_sheet.jpg; they are not absent. They are amateur comic-UI parked around discs, not production lettering on painted serial art (none exists in production/accepted). Ev"
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "lettering_and_mobile",
+      "dimension": "tail_attribution",
+      "a": 0,
+      "b": 2,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: no tails.",
+      "b_justification": "Tails exist on discs; attribution is geometric, not acted. Cited: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/ch01_sheet.jpg`."
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "lettering_and_mobile",
+      "dimension": "type_hierarchy",
+      "a": 0,
+      "b": 2,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: no type on art.",
+      "b_justification": "ch01_strip.jpg mixes balloon copy, captions, and terminal dump type without a designed hierarchy. Readable as a graphic essay, not as serial lettering. Evidence: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/ch01_strip.jpg`"
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "lettering_and_mobile",
+      "dimension": "system_ui_distinction_and_originality",
+      "a": 0,
+      "b": 3,
+      "delta": 3,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: no system UI, HUD, or interface chrome on the inspected North Garden pages.",
+      "b_justification": "Terminal-as-system is more original than Ember's parallelograms; still amateur as a serial UI. Cited: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/ch01_sheet.jpg`."
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "lettering_and_mobile",
+      "dimension": "scroll_rhythm_and_loading_experience",
+      "a": 0,
+      "b": 2,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "low",
+      "a_justification": "Observation: no HTML scroll stack for these rasters.",
+      "b_justification": "ch01_strip.jpg is a vertical phone-shaped stack, which is the right machine. Rhythm is broken by repeated empty cards and terminal pastes; no HTML reader was inspected for this pipeline. Evidence: `C:/AgentWorkspaces/anime-pipeline/garden-w"
+    },
+    {
+      "pipeline": "north-garden-legacy-local",
+      "category": "lettering_and_mobile",
+      "dimension": "localization_resilience",
+      "a": 0,
+      "b": 3,
+      "delta": 3,
+      "a_confidence": "high",
+      "b_confidence": "medium",
+      "a_justification": "Observation: no separable lettering layer on the accepted pages.",
+      "b_justification": "Simple bubbles and terminal blocks could be re-set. Inference from layout, not a loc pass. Cited: `C:/AgentWorkspaces/anime-pipeline/garden-work/northgarden/out/ch01_sheet.jpg`."
+    },
+    {
+      "pipeline": "ember-lattice-ten-chapter-volume",
+      "category": "reader_impact",
+      "dimension": "curiosity_and_chapter_end_propulsion",
+      "a": 2,
+      "b": 4,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "high",
+      "a_justification": "Observation: CH10 p024 is a group poster into an orange door. CH04 p018 (Sable wins) is the actual curiosity still. Most chapter ends on the contact sheets are standing-in-architecture.",
+      "b_justification": "CH01 p024 (collapsed Belljaw) and CH08 p024 (key-glow between faces) ask a next floor. Phone reader end-state (LV 4) supports the cliff. Evidence: `C:/AgentWorkspaces/anime-pipeline-litrpg-manhwa-20260904-001211/experiments/reimaginings/emb"
+    },
+    {
+      "pipeline": "ember-lattice-ten-chapter-volume",
+      "category": "sequential_storytelling",
+      "dimension": "vertical_pacing",
+      "a": 2,
+      "b": 4,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "high",
+      "a_justification": "Observation: phone column stacks equal full-bleed illustrations with 12px gutters. No short/tall beats. Sticky nav eats height.",
+      "b_justification": "Portrait plates and 430px phone reader are the right machine. Cited: `C:/AgentWorkspaces/anime-pipeline-total-review-20260906-211925/docs/reimaginings/ember-lattice/volume/assets/volume.css`."
+    },
+    {
+      "pipeline": "ember-lattice-ten-chapter-volume",
+      "category": "sequential_storytelling",
+      "dimension": "visual_economy",
+      "a": 1,
+      "b": 3,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "high",
+      "a_justification": "Observation: every panel is a complete painting. Stone cracks everywhere. No speed-panel, no silhouette panel, no rest.",
+      "b_justification": "p002.png leaves a reserved UI corner instead of filling the plate. Economy is designed in the better stills and abandoned in busy CH04/CH08 middles. Evidence: `C:/AgentWorkspaces/anime-pipeline-litrpg-manhwa-20260904-001211/experiments/reim"
+    },
+    {
+      "pipeline": "ember-lattice-ten-chapter-volume",
+      "category": "art_direction",
+      "dimension": "value_hierarchy",
+      "a": 2,
+      "b": 4,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "high",
+      "a_justification": "Observation: ember orange pops. Mid-gray stone often swallows figures. Cream-field p007 is ironically clearer.",
+      "b_justification": "Vault blacks with ember orange in p001.png and CH08 p013.png keep the read. Value is one of the volume\u2019s professional traits. Evidence: `C:/AgentWorkspaces/anime-pipeline-litrpg-manhwa-20260904-001211/experiments/reimaginings/ember-lattice/"
+    },
+    {
+      "pipeline": "ember-lattice-ten-chapter-volume",
+      "category": "art_direction",
+      "dimension": "environment_integration",
+      "a": 2,
+      "b": 4,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "high",
+      "a_justification": "Observation: p001 integrates. p007 cutouts and p010 sky do not. People often look placed on dungeons.",
+      "b_justification": "Figures stand on chain bricks in p001.png and on the cylinder platform in CH08 p013.png with occlusion that usually works. Integration is strong when geography is not broken. Evidence: `C:/AgentWorkspaces/anime-pipeline-litrpg-manhwa-202609"
+    },
+    {
+      "pipeline": "ember-lattice-premium-rd-52-panel",
+      "category": "sequential_storytelling",
+      "dimension": "quiet_spectacle_contrast",
+      "a": 2,
+      "b": 4,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "high",
+      "a_justification": "Observation: chain macro vs p026 impact. Quiet is still highly rendered.",
+      "b_justification": "p002.png (one chain) versus p036.png (full-body lattice) is high-contrast on purpose. Contrast is a peak-still strength. Evidence: `C:/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-latti"
+    },
+    {
+      "pipeline": "ember-lattice-editorial-gear-hybrid",
+      "category": "reader_impact",
+      "dimension": "opening_hook",
+      "a": 2,
+      "b": 4,
+      "delta": 2,
+      "a_confidence": "medium",
+      "b_confidence": "high",
+      "a_justification": "Observation: editorial pages sampled are mid-fight/clean-art, not a new open. Hook is inherited from the 52-panel sequence they denoise.",
+      "b_justification": "p002.png plus hybrid GONNNG (el-pr-ch01-s01-p002.svg) is a hook that combines a peak still with a sound label. The still does the work. Evidence: `C:/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimagini"
+    },
+    {
+      "pipeline": "ember-lattice-editorial-gear-hybrid",
+      "category": "reader_impact",
+      "dimension": "memorability",
+      "a": 2,
+      "b": 4,
+      "delta": 2,
+      "a_confidence": "high",
+      "b_confidence": "high",
+      "a_justification": "Observation: p044 contact is memorable because of staging, shared with unique. Editorial memorability is 'less noise,' not a new image.",
+      "b_justification": "The chain still and p044 ankle split stay memorable. Hybrid lettering is not what one remembers. Evidence: `C:/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-uniqu"
+    },
+    {
+      "pipeline": "ember-lattice-editorial-gear-hybrid",
+      "category": "sequential_storytelling",
+      "dimension": "quiet_spectacle_contrast",
+      "a": 2,
+      "b": 4,
+      "delta": 2,
+      "a_confidence": "medium",
+      "b_confidence": "high",
+      "a_justification": "Observation: sampled editorial frames are combat/craft, not quiet. Failures text says p046 was a quiet verification clean.",
+      "b_justification": "p002.png versus p036.png contrast survives clean-art. Contrast is still in the stills. Evidence: `C:/AgentWorkspaces/anime-pipeline-ember-lattice-editorial-gear-20260904/experiments/reimaginings/ember-lattice/premium-rd/ch01-unique/p002.png"
+    }
+  ],
+  "disagreement_count": 25,
+  "category_means": [
+    {
+      "pipeline": "north-garden-legacy-local",
+      "visual_a": {
+        "reader_impact": 2.33,
+        "sequential_storytelling": 1.44,
+        "art_direction": 2.82,
+        "genre_machinery": 0.5,
+        "lettering_and_mobile": 0.33,
+        "production_fitness": 2.0
+      },
+      "visual_b": {
+        "reader_impact": 1.67,
+        "sequential_storytelling": 2.0,
+        "art_direction": 1.73,
+        "genre_machinery": 1.5,
+        "lettering_and_mobile": 2.11,
+        "production_fitness": 2.1
+      }
+    },
+    {
+      "pipeline": "borrowed-down",
+      "visual_a": {
+        "reader_impact": 3.33,
+        "sequential_storytelling": 2.89,
+        "art_direction": 3.27,
+        "genre_machinery": 2.33,
+        "lettering_and_mobile": 1.67,
+        "production_fitness": 2.4
+      },
+      "visual_b": {
+        "reader_impact": 3.67,
+        "sequential_storytelling": 2.78,
+        "art_direction": 3.27,
+        "genre_machinery": 2.5,
+        "lettering_and_mobile": 1.67,
+        "production_fitness": 2.4
+      }
+    },
+    {
+      "pipeline": "the-city-keeps-oaths",
+      "visual_a": {
+        "reader_impact": 2.83,
+        "sequential_storytelling": 2.11,
+        "art_direction": 2.55,
+        "genre_machinery": 2.0,
+        "lettering_and_mobile": 2.22,
+        "production_fitness": 2.4
+      },
+      "visual_b": {
+        "reader_impact": 2.83,
+        "sequential_storytelling": 2.33,
+        "art_direction": 2.36,
+        "genre_machinery": 2.5,
+        "lettering_and_mobile": 2.33,
+        "production_fitness": 2.5
+      }
+    },
+    {
+      "pipeline": "ember-lattice-ten-chapter-volume",
+      "visual_a": {
+        "reader_impact": 2.5,
+        "sequential_storytelling": 1.78,
+        "art_direction": 2.27,
+        "genre_machinery": 2.17,
+        "lettering_and_mobile": 2.0,
+        "production_fitness": 2.1
+      },
+      "visual_b": {
+        "reader_impact": 3.75,
+        "sequential_storytelling": 3.0,
+        "art_direction": 3.36,
+        "genre_machinery": 3.0,
+        "lettering_and_mobile": 2.44,
+        "production_fitness": 2.7
+      }
+    },
+    {
+      "pipeline": "ember-lattice-premium-rd-52-panel",
+      "visual_a": {
+        "reader_impact": 2.67,
+        "sequential_storytelling": 2.33,
+        "art_direction": 2.55,
+        "genre_machinery": 2.67,
+        "lettering_and_mobile": 2.89,
+        "production_fitness": 2.1
+      },
+      "visual_b": {
+        "reader_impact": 3.5,
+        "sequential_storytelling": 2.89,
+        "art_direction": 2.64,
+        "genre_machinery": 3.0,
+        "lettering_and_mobile": 2.67,
+        "production_fitness": 2.2
+      }
+    },
+    {
+      "pipeline": "ember-lattice-editorial-gear-hybrid",
+      "visual_a": {
+        "reader_impact": 2.17,
+        "sequential_storytelling": 2.33,
+        "art_direction": 2.55,
+        "genre_machinery": 2.33,
+        "lettering_and_mobile": 2.67,
+        "production_fitness": 2.2
+      },
+      "visual_b": {
+        "reader_impact": 3.5,
+        "sequential_storytelling": 2.94,
+        "art_direction": 2.73,
+        "genre_machinery": 3.0,
+        "lettering_and_mobile": 2.78,
+        "production_fitness": 2.7
+      }
+    }
+  ],
+  "weighted_totals_after_all_categories_visible": [
+    {
+      "pipeline": "north-garden-legacy-local",
+      "visual_a_weighted": 1.69,
+      "visual_b_weighted": 1.85,
+      "midpoint": 1.77
+    },
+    {
+      "pipeline": "borrowed-down",
+      "visual_a_weighted": 2.76,
+      "visual_b_weighted": 2.82,
+      "midpoint": 2.79
+    },
+    {
+      "pipeline": "the-city-keeps-oaths",
+      "visual_a_weighted": 2.38,
+      "visual_b_weighted": 2.48,
+      "midpoint": 2.43
+    },
+    {
+      "pipeline": "ember-lattice-ten-chapter-volume",
+      "visual_a_weighted": 2.14,
+      "visual_b_weighted": 3.11,
+      "midpoint": 2.62
+    },
+    {
+      "pipeline": "ember-lattice-premium-rd-52-panel",
+      "visual_a_weighted": 2.53,
+      "visual_b_weighted": 2.86,
+      "midpoint": 2.69
+    },
+    {
+      "pipeline": "ember-lattice-editorial-gear-hybrid",
+      "visual_a_weighted": 2.37,
+      "visual_b_weighted": 2.97,
+      "midpoint": 2.67
+    }
+  ],
+  "note": "Weighted totals support, not replace, diagnosis. Disagreements of 2+ points are preserved, not averaged away."
+}

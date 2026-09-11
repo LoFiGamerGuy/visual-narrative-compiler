@@ -1,0 +1,128 @@
+{
+  "id": "anime-pipeline-total-review-common-rubric-v1",
+  "version": "1.0.0",
+  "frozen_at": "2026-09-06T21:20:00-04:00",
+  "frozen_before_scoring": true,
+  "protocol": {
+    "scale": "0-5 integer with optional .5 only when evidence is mixed inside a single dimension",
+    "anchors": {
+      "0": "Absent or actively unreadable. The dimension cannot function.",
+      "1": "Amateur or broken. Frequent failures that would stop a serial reader.",
+      "2": "Below professional serial standard. Occasional readable beats, but the dimension would not survive platform editorial.",
+      "3": "Competent and functional. A working serial, but not competitive with the owner's named reference bar.",
+      "4": "Strong professional serial. Would not embarrass a mid-tier licensed platform title on this dimension.",
+      "5": "Competitive with the high-level transferable craft of the owner's named bar (Tower of God, Solo Leveling) without imitating those titles."
+    },
+    "confidence": ["low", "medium", "high"],
+    "independent_reviewers": ["visual-a", "visual-b"],
+    "rules": [
+      "Do not calculate a single total until every category is scored.",
+      "Copyrighted comparables: score only dimensions supportable from licensed public samples and cited analysis; otherwise mark not_assessed.",
+      "Owner rejection outranks internal rubric scores.",
+      "File integrity, hash continuity, and schema PASS do not raise sequential-art scores.",
+      "Each score must cite evidence paths. Inference must be labeled.",
+      "Reviewer A and Reviewer B must not see each other's scores before writing.",
+      "Disagreement of 2 or more points on any dimension is preserved, not averaged away."
+    ]
+  },
+  "weights": {
+    "note": "Weights may support, not replace, diagnosis. Applied only after all category results are visible.",
+    "reader_impact": 0.20,
+    "sequential_storytelling": 0.22,
+    "art_direction": 0.20,
+    "genre_machinery": 0.12,
+    "lettering_and_mobile": 0.14,
+    "production_fitness": 0.12
+  },
+  "categories": {
+    "reader_impact": {
+      "dimensions": [
+        "immediate_genre_legibility",
+        "opening_hook",
+        "emotional_engagement",
+        "curiosity_and_chapter_end_propulsion",
+        "memorability",
+        "desire_to_continue_reading"
+      ]
+    },
+    "sequential_storytelling": {
+      "dimensions": [
+        "panel_to_panel_causality",
+        "spatial_continuity",
+        "acting_and_reaction_clarity",
+        "shot_and_rhythm_variation",
+        "vertical_pacing",
+        "quiet_spectacle_contrast",
+        "action_choreography",
+        "impact_and_aftermath",
+        "visual_economy"
+      ]
+    },
+    "art_direction": {
+      "dimensions": [
+        "character_appeal",
+        "distinctive_silhouettes",
+        "face_hair_costume_consistency",
+        "anatomy_and_hands",
+        "line_and_shape_confidence",
+        "value_hierarchy",
+        "color_script",
+        "environment_integration",
+        "monster_and_gear_design",
+        "controlled_detail",
+        "absence_of_generic_ai_painting_signatures"
+      ]
+    },
+    "genre_machinery": {
+      "dimensions": [
+        "system_clarity",
+        "progression_satisfaction",
+        "combat_application_of_progression",
+        "items_gear_skills_with_meaningful_choices",
+        "understandable_stakes_and_constraints",
+        "balance_between_system_information_and_drama"
+      ]
+    },
+    "lettering_and_mobile": {
+      "dimensions": [
+        "balloon_shape_and_placement",
+        "tail_attribution",
+        "type_hierarchy",
+        "sfx_integration",
+        "system_ui_distinction_and_originality",
+        "negative_space_planning",
+        "phone_readability",
+        "scroll_rhythm_and_loading_experience",
+        "localization_resilience"
+      ]
+    },
+    "production_fitness": {
+      "dimensions": [
+        "repeatability",
+        "editability",
+        "art_directability",
+        "correction_cost",
+        "identity_and_continuity_control",
+        "throughput",
+        "sustainable_human_review_load",
+        "reproducibility",
+        "rights_provenance_confidence",
+        "maintainability"
+      ]
+    }
+  },
+  "pipelines_in_scope": [
+    "north-garden-legacy-local",
+    "borrowed-down",
+    "the-city-keeps-oaths",
+    "ember-lattice-ten-chapter-volume",
+    "ember-lattice-premium-rd-52-panel",
+    "ember-lattice-editorial-gear-hybrid"
+  ],
+  "comparables_in_scope": [
+    "tower-of-god",
+    "solo-leveling",
+    "the-beginning-after-the-end",
+    "omniscient-reader"
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "schema": "ValidationToReaderValueMap/1.0",
+  "review_id": "anime-pipeline-total-review-20260906-211925",
+  "role": "generation-and-pipeline-engineer",
+  "access_date": "2026-09-06",
+  "source_commit": "99cb5e9e37c211965a01213a6f7af7103aee8cf3",
+  "direct_paid_spend_usd": 0,
+  "art_scored": false,
+  "historical_spend_quoted": {
+    "g07_bakeoff_cost_ledger_r1": {
+      "path": "docs/research/evidence/g07-bakeoff-cost-ledger-r1.json",
+      "committed_actual_cost_usd": "1.057377",
+      "held_reservations_usd": "0.000000",
+      "available_usd": "98.942623",
+      "approved_aggregate_cap_usd": "100.000000"
+    },
+    "ch05_production_cost_ledger_r37": {
+      "path": "docs/research/evidence/ch05-production-cost-ledger-r37.json",
+      "state": "DISABLED_NO_PRODUCTION_SPEND_OR_UPLOAD_AUTHORITY",
+      "committed_actual_cost_usd": "0.000000",
+      "paid_spend_usd": "0.000000",
+      "human_review_minutes": null,
+      "accepted": 0,
+      "built_in_monetary_cost_usd": null
+    },
+    "production_time_cost_ledger_md": {
+      "path": "docs/research/production-time-cost-ledger.md",
+      "local_generations": 79,
+      "local_renderer_seconds": 2568.448,
+      "g07_committed_usd": 1.057377,
+      "production_accepted_outputs": 0
+    },
+    "ember_volume_validation": {
+      "path": "production/reimaginings/ember-lattice/volume/volume-validation.json",
+      "direct_paid_cloud_spend_usd": 0
+    }
+  },
+  "unknown_provider_fields": {
+    "g07_openai_api": {
+      "model": "gpt-image-2-2026-04-21",
+      "endpoint": "https://api.openai.com/v1/images/edits",
+      "provider_request_id": "recorded-on-committed-rows",
+      "usage": "recorded-on-committed-rows",
+      "monetary_cost_usd": "usage_rate_reconciliation_estimate",
+      "deterministic_seed": null
+    },
+    "ch05_openai_builtin_imagegen": {
+      "model": null,
+      "endpoint": null,
+      "provider_request_id": null,
+      "usage": null,
+      "monetary_cost_usd": null,
+      "deterministic_seed": null,
+      "tool": "openai_builtin_imagegen_in_codex",
+      "note": "Codex exec ids are explicitly not provider request ids"
+    },
+    "ember_volume_recorder": {
+      "model": "imagegen-default",
+      "endpoint": "built-in-image_gen",
+      "usage": null,
+      "monetary_cost": 0,
+      "seed": null,
+      "note": "model/endpoint are local aliases; backend snapshot unknown. monetary_cost 0 is convention, not an invoice."
+    }
+  },
+  "reproducibility_limitation": {
+    "experiments_gitignored": true,
+    "tracked_experiments_files": 0,
+    "experiments_directory_in_this_worktree": false,
+    "garden_directory_in_this_worktree": false,
+    "comfyui_directory_in_this_worktree": false,
+    "consequence": "Many readers and validators reference missing rasters in a clean checkout. Tracked PASS JSON is not live proof that images exist.",
+    "gitignore": ".gitignore line experiments/"
+  },
+  "code_inventory": {
+    "north_garden_py_modules": 603,
+    "validate_star_modules": 317,
+    "compile_star_modules": 125,
+    "build_star_modules": 61,
+    "production_cost_ledger_modules": 43,
+    "pytest_style_suites_in_this_worktree": [
+      "src/reimaginings/ember_lattice/premium_rd/tests/test_premium_rd.py"
+    ]
+  },
+  "rows": [
+    {
+      "id": "schema-validation-production-records",
+      "current_validation": "Linked StoryState / AssetRegistry / SceneBeat / ComicPanelPlan / edition / spatial-contract schema and ID wiring",
+      "files": [
+        "src/north_garden/validate_production_records.py",
+        "docs/architecture/overview.md"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "Tracked JSON records parse, share story_state_id, declare comic-only plans, spatial_mode in {grounded,cheated,2d_only}, and selected revision hashes match files that exist at validation time.",
+      "what_it_does_not_prove": "Narrative quality, identity, that CH02 human review happened, or that later CH05/Ember chapters exist as readable comics.",
+      "false_pass_example": "CH02 review has human_review_status not_yet_performed while every selected panel assertion value is pass (validate_production_records.py).",
+      "false_fail_risk": "Missing historical import PNG under a revision path fails the whole CH01/CH02 record set even if the story JSON is intact.",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "schema-validation-complete-chapter-manifest",
+      "current_validation": "CH05CompleteChapterProductionManifest schema, allowlist, service nulls, lettering_safe object, continuity dict, non-promotion flags",
+      "files": [
+        "src/north_garden/validate_ch05_complete_chapter.py",
+        "scripts/validate-ch05-complete-chapter.ps1"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "Manifest shape, 50 canonical panel ids, prompt SHA matches prompt_text, references are the three allowlisted hashes, generated art is gitignored, PNG IHDR matches recorded size, unavailable provider fields are null, accepted/commercially_cleared/exact_production_base are false.",
+      "what_it_does_not_prove": "That hair, wardrobe, roles, or lettering-safe zones are true in pixels. lettering_safe.zones is compared to ComicPanelPlan, not to the raster.",
+      "false_pass_example": "continuity.hair must equal the HAIR constant on every row; a swapped-hair drawing with the copied dict still passes.",
+      "false_fail_risk": "Clean checkout without experiments/ fails because artifacts must exist. Also fails if a generated PNG is accidentally tracked.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "schema-validation-premium-rd-manifest",
+      "current_validation": "PremiumBenchmarkManifest/1.0 plus optional LetteringPlan/2.0 strict editorial",
+      "files": [
+        "src/reimaginings/ember_lattice/premium_rd/model.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "Required keys, workflow uniqueness, asset hashes if verify_assets, prompt_hash, panel order, scenario enum membership, lettering box geometry, phone_font from font_scale, protected-zone overlap math, action_sequence length, failure/repair wiring.",
+      "what_it_does_not_prove": "That protected_zones cover real faces/hands, that scenario tags match depicted beats, or that rubric numbers came from looking at art.",
+      "false_pass_example": "author_template assigns REQUIRED_SCENARIOS by index modulo; a blank beat still covers the checklist.",
+      "false_fail_risk": "verify_assets=True fails in clean checkout when rasters are gitignored; verify_assets=False can PASS a site the reader cannot see.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "source-output-hashing",
+      "current_validation": "SHA-256 of prompts, references, rasters, SVGs, ledgers, and assembly manifests",
+      "files": [
+        "src/north_garden/split_ch05_sequence_strips.py",
+        "src/north_garden/apply_ch05_complete_chapter_repairs.py",
+        "src/reimaginings/ember_lattice/audit_volume.py",
+        "src/reimaginings/ember_lattice/record_generated_panel.py",
+        "src/reimaginings/ember_lattice/premium_rd/audit.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "The file on disk is the file named in the record. Repair swaps are byte-exact. Prompt text was not edited after hashing.",
+      "what_it_does_not_prove": "Correct subject, seed reproducibility, or that the hashed file is satisfying art.",
+      "false_pass_example": "A fully wrong but hash-pinned strip crop passes split_ch05_sequence_strips and assembly.",
+      "false_fail_risk": "Line-ending or PNG recompress changes bytes and fails closed (intended). Clean checkout missing experiments/ fails.",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "duplicate-art-detection",
+      "current_validation": "Exact SHA-256 collision across Ember sources; CH01 DCT phash Hamming <=6 advisory",
+      "files": [
+        "src/reimaginings/ember_lattice/audit_volume.py",
+        "src/north_garden/chapter_lint.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "No two Ember selected sources are byte-identical. CH01 near-duplicate phash is reported but not gating (threshold_state UNCALIBRATED_ADVISORY_ONLY).",
+      "what_it_does_not_prove": "That adjacent panels are distinct shots. Strip siblings and lightly edited retries will not match exact SHA.",
+      "false_pass_example": "Two panels that differ by a few pixels or crop pass Ember exact-hash. CH01 near-duplicates only advisory.",
+      "false_fail_risk": "Intentional reused pilot sources would fail Ember if the same file were registered twice; CH01 P001-P016 reuse is path-separated so it does not collide.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "protected-zone-collision",
+      "current_validation": "Lettering boxes must not overlap typed protected_zones; zones required under LetteringPlan/2.0",
+      "files": [
+        "src/reimaginings/ember_lattice/premium_rd/model.py",
+        "src/reimaginings/ember_lattice/premium_rd/editorial.py",
+        "src/reimaginings/ember_lattice/premium_rd/render.py"
+      ],
+      "pipeline_stage": "deterministic-svg-composition",
+      "what_it_actually_proves": "Authored lettering rectangles do not intersect authored protected rectangles (plus diagnostic overlay can draw them).",
+      "what_it_does_not_prove": "That a face, hand, weapon, or injury actually occupies that rectangle. _protected_zones picks among three fractional boxes that miss negative space.",
+      "false_pass_example": "Face drawn in a lettering slot while face_eyes zone sits on empty mid-panel; collision test still PASS.",
+      "false_fail_risk": "A correctly placed balloon that overlaps a heuristically chosen unused zone fails strict editorial.",
+      "disposition": "modify",
+      "error_role": "introduced",
+      "goodharted": true
+    },
+    {
+      "id": "lettering-density",
+      "current_validation": "Balloon area, total lettering area, balloon count, spoken-word caps, Ember density enum counts",
+      "files": [
+        "src/reimaginings/ember_lattice/premium_rd/model.py",
+        "src/reimaginings/ember_lattice/audit_volume.py",
+        "src/reimaginings/ember_lattice/author_volume.py",
+        "src/reimaginings/ember_lattice/build_volume.py"
+      ],
+      "pipeline_stage": "deterministic-svg-composition",
+      "what_it_actually_proves": "Authored boxes and word counts stay under numeric caps (or an exception flag is set). Ember volume density dict equals {low:159, moderate:60, high:21}.",
+      "what_it_does_not_prove": "Optical density of the drawing, occlusion after SVG expansion, or that low-density panels are visually quiet.",
+      "false_pass_example": "author_volume.py assigns density from HIGH_ORDERS/MODERATE_ORDERS then audit_volume.py recounts the same labels. Planned-low rendered-busy is only a 25% warn threshold using a failure_class string, not pixels.",
+      "false_fail_risk": "A readable 29-word climax without lettering_exception fails strict editorial. Ember IoU>0.08 after expansion can fail two honest stacked UI+balloon layouts.",
+      "disposition": "modify",
+      "error_role": "amplified",
+      "goodharted": true
+    },
+    {
+      "id": "phone-type-thresholds",
+      "current_validation": "font_size * 390 / raster_width >= 13 or 14 (Ember); font_scale * 390 >= 14/12 (premium-rd)",
+      "files": [
+        "src/reimaginings/ember_lattice/audit_volume.py",
+        "src/reimaginings/ember_lattice/premium_rd/model.py",
+        "src/north_garden/build_ch05_lettering_width_copy_sensitivity.py"
+      ],
+      "pipeline_stage": "deterministic-svg-composition",
+      "what_it_actually_proves": "The authored SVG font-size formula meets a px floor at 390 CSS pixels.",
+      "what_it_does_not_prove": "Actual glyph size after wrap/stroke, contrast on the art, or that default Pillow fonts in CH05 overlays are readable.",
+      "false_pass_example": "Stroke-outlined open text can still vanish on ivory art while phone_type is 14.0. CH05 width/copy sweep uses the same formula on review cards, not shipped lettering.",
+      "false_fail_risk": "Slightly smaller authored scale on a dense UI block fails despite being the intended hierarchy.",
+      "disposition": "modify",
+      "error_role": "documented",
+      "goodharted": true
+    },
+    {
+      "id": "state-arithmetic",
+      "current_validation": "SystemStateLedger/2.0 chapter chain, XP thresholds, inventory non-negative, hardcoded final stats",
+      "files": [
+        "src/reimaginings/ember_lattice/author_system_state.py",
+        "production/reimaginings/ember-lattice/volume/system-state-validation.json"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "The Python ledger is internally consistent: chapter N initial == N-1 final, no negative stacks, final level 8 / xp 295 / HP 8/83 / Qi 14/90 / factions / skills match the constants in the same file.",
+      "what_it_does_not_prove": "That any panel's Brass Ledger overlay shows those numbers, or that the story depicts the transaction.",
+      "false_pass_example": "validate_collection expected dict is authored by run_chapter in the same module; the test cannot catch a jointly wrong story+ledger.",
+      "false_fail_risk": "A legitimate story change that forgets to edit LEVEL_GROWTH/THRESHOLDS fails closed (useful) but looks like a production incident.",
+      "disposition": "modify",
+      "error_role": "amplified",
+      "goodharted": true
+    },
+    {
+      "id": "irreversible-state-continuity",
+      "current_validation": "irreversible[] flags appended per chapter; consumed items must be quantity 0 at end; class/cultivation history unique",
+      "files": [
+        "src/reimaginings/ember_lattice/author_system_state.py",
+        "C:\\AgentWorkspaces\\anime-pipeline-reimagining-clean-webtoon-20260903-213010\\src\\reimaginings\\the_city_keeps_oaths\\pipeline.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "Named flags were appended and listed consumed items are zero. City pipeline checks state_before == previous state_after string lists.",
+      "what_it_does_not_prove": "Visual persistence of scars, broken gear, spent keys, or sealed doors. irreversible() does not prevent later code from granting the same item again unless a later check lists it.",
+      "false_pass_example": "CH04 records Sable owns Verdigris Seal with no reward; a later panel can still draw the party holding a seal if the prompt forgets it — ledger still PASS.",
+      "false_fail_risk": "City string-list mismatch on whitespace/order fails a chapter even if the narrative state is equivalent.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "action-sequence-assertions",
+      "current_validation": "At least one action_sequence with >=6 panels; CH05 cross-panel gate phrases; Ember ACTION_ORDERS count == 108",
+      "files": [
+        "src/reimaginings/ember_lattice/premium_rd/model.py",
+        "src/north_garden/compile_ch05_cross_panel_semantic_gates.py",
+        "src/north_garden/validate_ch05_cross_panel_semantic_gates.py",
+        "src/reimaginings/ember_lattice/audit_volume.py"
+      ],
+      "pipeline_stage": "prompt-compilation",
+      "what_it_actually_proves": "Tags, counts, and required English phrases exist in plans/prompts. Gate contract summary is 8 gates / 13 panels / 15 phrases.",
+      "what_it_does_not_prove": "Geography, contact, or aftermath in the drawing. validate_ch05_cross_panel_semantic_gates boundary text says it does not establish visual compliance.",
+      "false_pass_example": "P036 prompt contains 'one continuous plank visibly connects both adult grips' while agent triage historically WARNed that the path was obscured — prompt gate still PASS.",
+      "false_fail_risk": "A better rewrite that drops a frozen phrase fails the prompt gate even if the new panel is clearer.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "complexion-identity-contracts",
+      "current_validation": "Prompt substring contracts for fair/light complexion, hair, wardrobe; CH05 character assertion lint; Phase B hardcoded complexion PASS",
+      "files": [
+        "src/reimaginings/ember_lattice/author_volume.py",
+        "src/north_garden/compile_ch05_character_assertions_and_prompt_lint.py",
+        "src/north_garden/validate_ch05_complete_chapter.py",
+        "src/reimaginings/ember_lattice/write_phase_b_audits.py",
+        "src/north_garden/build_ch05_manual_continuity_atlas.py"
+      ],
+      "pipeline_stage": "prompt-compilation",
+      "what_it_actually_proves": "The prompt or JSON contract contains the words. 26 CH05 prompts contain required tokens. Manual atlas records 0 identity inferences.",
+      "what_it_does_not_prove": "Rendered complexion, hair color, or role order. compile_ch05_character_assertions_and_prompt_lint.py states this explicitly.",
+      "false_pass_example": "write_phase_b_audits.py finding 'Elian and Mira remain fair/light-complexioned' is a constant string after review_status check. P036 identity-conflict is handled by a prompt sentence, not a pixel test.",
+      "false_fail_risk": "A valid prompt rephrase that drops an exact token ('pale oatmeal work coat') fails lint.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "clean-art-noise-metrics",
+      "current_validation": "Entropy/luma/edge/high-frequency on downscaled grayscale; median-filter delta; CLEAN_ART_FAILURES enum",
+      "files": [
+        "src/reimaginings/ember_lattice/audit_volume.py",
+        "src/reimaginings/ember_lattice/premium_rd/editorial.py",
+        "src/reimaginings/ember_lattice/premium_rd/model.py",
+        "C:\\AgentWorkspaces\\anime-pipeline-reimagining-clean-webtoon-20260903-213010\\src\\reimaginings\\the_city_keeps_oaths\\pipeline.py"
+      ],
+      "pipeline_stage": "raster-selection",
+      "what_it_actually_proves": "A 128px or 256px proxy is not nearly blank (Ember entropy>=3.5, luma_std>=12) and optional median-delta / orange-pixel ratios were recorded. Unresolved CLEAN_ART_FAILURES fail the premium bundle.",
+      "what_it_does_not_prove": "Line confidence, absence of generic AI texture, or that a 'low' panel is simply composed. City ceilings vs pilot class are the same proxy family.",
+      "false_pass_example": "_clean_plate blends MedianFilter(3) until median_delta falls, then status REPAIRED. Grainy but narrative-empty splash still beats entropy floor.",
+      "false_fail_risk": "A correctly quiet low-density panel with large flats can trip entropy/luma floors (Ember) or a clean graphic style can trip City high-frequency ceilings.",
+      "disposition": "modify",
+      "error_role": "amplified",
+      "goodharted": true
+    },
+    {
+      "id": "rubric-scoring",
+      "current_validation": "PremiumRubric/1.0 complete 0-5 scores per criterion, weights sum to 1, winner must match recommendation and beat baseline median",
+      "files": [
+        "src/reimaginings/ember_lattice/premium_rd/model.py",
+        "src/reimaginings/ember_lattice/premium_rd/author.py",
+        "src/reimaginings/ember_lattice/premium_rd/tests/test_premium_rd.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "Every workflow/panel has a full score vector in range, and the selected workflow is the numeric winner among eligible (zero hard_failures) rows.",
+      "what_it_does_not_prove": "That scores correspond to looking at the panel. Tests assign 4.2 vs 3.1 uniformly.",
+      "false_pass_example": "author_template writes score 0 with evidence AUTHOR REQUIRED; filling 4s everywhere produces a winner without craft review.",
+      "false_fail_risk": "A human-preferred hybrid that loses median by 0.01 fails the bundle even if weakest-panel is better, unless hard_failures are gamed.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "hard-failure-policy",
+      "current_validation": "HARD_FAILURES set; unresolved OPEN hard failures counted; quality_gate FAIL if unresolved != 0; Ember HARD_FAIL_PRESERVED_DIAGNOSTIC; comic_input_gate fail-closed",
+      "files": [
+        "src/reimaginings/ember_lattice/premium_rd/model.py",
+        "src/reimaginings/ember_lattice/premium_rd/audit.py",
+        "src/reimaginings/ember_lattice/prepare_panel_repair.py",
+        "src/north_garden/comic_input_gate.py"
+      ],
+      "pipeline_stage": "repair",
+      "what_it_actually_proves": "Named classes exist; OPEN members block premium quality_gate; Ember keeps one landscape diagnostic and a retry row; production repair cannot proceed without timed human acceptance and approved base.",
+      "what_it_does_not_prove": "That IDENTITY_FAILURE was visually judged. Empty hard_failures plus REVIEWED_PASS is enough. comic_input_gate has 0 real approved bases, so it never ran on complete-chapter art.",
+      "false_pass_example": "mark_art_review.py cannot express a per-panel hard fail inside a chapter; everything pending becomes REVIEWED_PASS. Premium tests attach HARD_FAIL_PRESERVED_DIAGNOSTIC to a duplicate asset while the active variant is PASS.",
+      "false_fail_risk": "Synthetic fixture records are explicitly not approvable (comic_input_gate) — intended. Mis-labeling a limitation as IDENTITY_FAILURE blocks the gate.",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "html-link-and-build-ledger",
+      "current_validation": "HTML/SVG href existence; PremiumBuildLedger path/hash/size; Ember volume hrefs",
+      "files": [
+        "src/reimaginings/ember_lattice/premium_rd/audit.py",
+        "src/reimaginings/ember_lattice/audit_volume.py",
+        "src/north_garden/validate_ch05_owner_review_index.py",
+        "src/north_garden/compile_ch05_review_artifact_link_manifest.py"
+      ],
+      "pipeline_stage": "build-architecture",
+      "what_it_actually_proves": "Premium-rd: every local link resolves and ledger files match sha/bytes. Ember volume: missing review hrefs are warnings, not errors. CH05 owner index: counted links and hashes match the packet.",
+      "what_it_does_not_prove": "That the image decoded as the intended panel, lazy-load worked in a browser, or lettering overlay aligned.",
+      "false_pass_example": "audit_volume.py writes status PASS with warnings for unresolved local review links. Tracked volume-validation.json has WARN 0 from a raster-present run; clean checkout HTML still 404s experiments/ paths.",
+      "false_fail_risk": "premium_rd audit_links fails closed on any broken href — correct for a ship gate, noisy if a diagnostic folder is incomplete.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "browser-qa",
+      "current_validation": "Manual Chromium session notes: decoded image counts, no overflow, console empty, a few lettering fixes",
+      "files": [
+        "docs/reimaginings/ember-lattice/premium-rd/browser-qa.md",
+        "src/reimaginings/ember_lattice/premium_rd/integrate.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "On 2026-09-04, a connected Chrome session at 127.0.0.1:8878 decoded 104/104 phone reader images, reported no horizontal overflow, and recorded four lettering corrections.",
+      "what_it_does_not_prove": "Seed reproducibility, license, identity, or that this worktree can repeat the session (rasters gitignored). The doc's own scope note says this.",
+      "false_pass_example": "104 healthy images include muddy or identity-drifted plates; decode count cannot fail them.",
+      "false_fail_risk": "Lazy-load timing or a different viewport could mark incomplete images even if files exist.",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": true
+    },
+    {
+      "id": "owner-approval-state",
+      "current_validation": "OwnerApprovalRecord/1.0; per-request owner_approval PENDING; CH05 review.decision cannot be accepted",
+      "files": [
+        "production/reimaginings/ember-lattice/owner-approval.json",
+        "src/reimaginings/ember_lattice/author_volume.py",
+        "src/north_garden/validate_ch05_complete_chapter.py",
+        "src/north_garden/comic_input_gate.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "Pilot style Candidate B was owner-approved 2026-09-04; commercial_clearance false; volume requests remain owner_approval PENDING; CH05 rows cannot claim accepted true.",
+      "what_it_does_not_prove": "Volume or chapter acceptance. Pilot approval is routinely treated as visual lock in prompts ('matching the registered Candidate B anchor').",
+      "false_pass_example": "A reader seeing owner-approval.json APPROVED may think the 240-panel volume is accepted; generation-requests still PENDING.",
+      "false_fail_risk": "Validators that require accepted false will fail if an owner later accepts for real unless schemas grow an edition state — intended friction.",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "prompt-compilation-ch05-strips",
+      "current_validation": "11 sequence prompts cover 50 plans; style-line splice; gate phrases appended",
+      "files": [
+        "src/north_garden/compile_ch05_complete_chapter_premium_cel_prompt_manifest.py",
+        "src/north_garden/compile_ch05_complete_chapter_assembly.py",
+        "src/north_garden/validate_ch05_complete_chapter_route_execution.py"
+      ],
+      "pipeline_stage": "prompt-compilation",
+      "what_it_actually_proves": "Each arm has 11 sequences, canonical panel_range list, prompt SHA, and three-reference allowlist.",
+      "what_it_does_not_prove": "That a strip contains five separable beats or that crops land on those beats.",
+      "false_pass_example": "A strip with fused panels still matches prompt SHA and execution hash.",
+      "false_fail_risk": "Re-wrapping Style/medium without the expected prefix raises ValueError (compiler, not reader).",
+      "disposition": "modify",
+      "error_role": "introduced",
+      "goodharted": false
+    },
+    {
+      "id": "prompt-compilation-ember-volume",
+      "current_validation": "Per-panel exact_prompt + prompt_hash; 224 new requests + 16 pilot reuse + 1 retry",
+      "files": [
+        "src/reimaginings/ember_lattice/author_volume.py",
+        "src/reimaginings/ember_lattice/audit_volume.py"
+      ],
+      "pipeline_stage": "prompt-compilation",
+      "what_it_actually_proves": "prompt_hash matches exact_prompt bytes; request count 225; CH01 1-16 skipped as source_reuse.",
+      "what_it_does_not_prove": "That named_subjects() found the right cast (substring of beat), or that camera modulo is a useful shot.",
+      "false_pass_example": "A beat that says 'the party' expands CHAPTER_CAST; a beat that says 'he' without Elian may omit the subject contract (CH01 P018 prompt in generation-requests.json has empty subject_contract).",
+      "false_fail_risk": "Editing a prompt without updating stored hash fails audit (intended).",
+      "disposition": "modify",
+      "error_role": "introduced",
+      "goodharted": false
+    },
+    {
+      "id": "reference-conditioning",
+      "current_validation": "CH05 three-hash allowlist; Ember four-id cap; G07 two public controls",
+      "files": [
+        "src/north_garden/validate_ch05_complete_chapter.py",
+        "src/reimaginings/ember_lattice/author_volume.py",
+        "src/north_garden/bfl_flux2_bakeoff.py",
+        "public-controls/g07a-no-change-r1.png"
+      ],
+      "pipeline_stage": "reference-conditioning",
+      "what_it_actually_proves": "Only listed hashes may be uploaded/attached. BFL stays fictional-controls-only. Ledger r37: 92 uses / 3 unique CH05 hashes.",
+      "what_it_does_not_prove": "Identity lock. P036 is known conflicting and is still in the allowlist as composition-only.",
+      "false_pass_example": "Every complete-chapter panel may attach P050/P040/P036; validator only checks membership in ALLOWLIST.",
+      "false_fail_risk": "A new better identity sheet with a new hash is rejected until ALLOWLIST is edited (fail-closed, good) but encourages over-reuse of the three files.",
+      "disposition": "modify",
+      "error_role": "amplified",
+      "goodharted": true
+    },
+    {
+      "id": "local-comfy-lora-baseline",
+      "current_validation": "baseline_legacy records, model inventory hashes, Comfy availability, Stage-A 24-case wrapper",
+      "files": [
+        "src/north_garden/baseline_legacy.py",
+        "C:\\AgentWorkspaces\\anime-pipeline\\garden\\gen3.py",
+        "src/north_garden/sequential_inpaint.py"
+      ],
+      "pipeline_stage": "local-comfy-lora",
+      "what_it_actually_proves": "If ComfyUI and garden/ exist, a request/attempt pair can be recorded with seeds, LoRA list, and output SHA. sequential_inpaint measures collateral change, not quality.",
+      "what_it_does_not_prove": "Regional LoRA isolation (gen3.py states LoRAs are global). This worktree cannot run the path (garden/ and ComfyUI/ absent).",
+      "false_pass_example": "Dry-run writes status planned without generating art. Historical 24/24 Stage A completions with 0 accepted still look like a finished benchmark in GOAL.md.",
+      "false_fail_risk": "assert_comfy_available fails if 127.0.0.1:8188 is down — expected, but easy to confuse with renderer-quality failure.",
+      "disposition": "retain",
+      "error_role": "introduced",
+      "goodharted": false
+    },
+    {
+      "id": "in-product-imagegen-registration",
+      "current_validation": "Copy from Codex generated_images or local path; refuse overwrite; record null service fields",
+      "files": [
+        "src/north_garden/register_ch05_overnight_candidate.py",
+        "src/reimaginings/ember_lattice/record_generated_panel.py",
+        "src/north_garden/compile_ch05_complete_chapter_premium_cel_execution_manifest.py"
+      ],
+      "pipeline_stage": "in-product-image-generation",
+      "what_it_actually_proves": "A PNG was ingested to a planned path with measured elapsed (CH05) or elapsed_seconds (Ember), dimensions, and hash. CH05 refuses to clobber different bytes.",
+      "what_it_does_not_prove": "Provider model, seed, cost, or that the image matches the prompt. Ember labels model imagegen-default.",
+      "false_pass_example": "Registering a wrong PNG that happens to be the planned destination's first copy is permanent; no visual check.",
+      "false_fail_risk": "Source outside ~/.codex/generated_images is rejected (CH05) even for a legitimate local replay.",
+      "disposition": "modify",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "raster-selection-gutter-crop",
+      "current_validation": "Bright/dark row clusters must equal panel_count-1; hash-pinned boxes; optional MANUAL_GUTTER_OVERRIDES",
+      "files": [
+        "src/north_garden/compile_ch05_complete_chapter_alt_graphic_crop_manifest.py",
+        "src/north_garden/compile_ch05_complete_chapter_premium_cel_crop_manifest.py",
+        "src/north_garden/split_ch05_sequence_strips.py"
+      ],
+      "pipeline_stage": "raster-selection",
+      "what_it_actually_proves": "The detector found the expected number of near-white or near-black bars, or a pinned override was used (flat-gouache: 1).",
+      "what_it_does_not_prove": "That each crop is one story beat. Fused drawings with a white bar still crop.",
+      "false_pass_example": "A model that paints decorative white gutters to match the prompt's implied strip layout satisfies the detector.",
+      "false_fail_risk": "A good strip without high-contrast bars raises expected N-1 gutters, blocking the arm until a manual override is added.",
+      "disposition": "modify",
+      "error_role": "amplified",
+      "goodharted": true
+    },
+    {
+      "id": "raster-selection-agent-triage",
+      "current_validation": "Non-gating CH05 agent triage PASS/WARN table",
+      "files": [
+        "src/north_garden/compile_ch05_complete_chapter_agent_triage.py"
+      ],
+      "pipeline_stage": "raster-selection",
+      "what_it_actually_proves": "Assembly panel ids match plans; warning dict applied; fail count is always 0; human_reviewed 0.",
+      "what_it_does_not_prove": "Role binding, hair, lettering clearance, or phone readability. Those checks are constants.",
+      "false_pass_example": "r6 sets repaired_pass_count=7 and leaves only P032 WARN by deleting keys from WARNINGS, not by re-inspecting pixels.",
+      "false_fail_risk": "None for FAIL (unreachable). Mis-keyed panel_id silently PASSes.",
+      "disposition": "remove",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "raster-selection-chapter-mark-review",
+      "current_validation": "Chapter batch mark REVIEWED_PASS",
+      "files": [
+        "src/reimaginings/ember_lattice/mark_art_review.py"
+      ],
+      "pipeline_stage": "raster-selection",
+      "what_it_actually_proves": "Exactly 24 (or 8 for ch01 remainder) rows were GENERATED_PENDING_REVIEW and are now REVIEWED_PASS with one notes string.",
+      "what_it_does_not_prove": "Per-panel inspection. Mixed quality cannot be represented.",
+      "false_pass_example": "audit_volume.py then requires review_status in {REVIEWED_PASS, HARD_FAIL_PRESERVED_DIAGNOSTIC}; the batch flip satisfies it.",
+      "false_fail_risk": "A chapter with 23 pending + 1 unexpected status aborts the whole mark.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "repair-hash-swap-ch05",
+      "current_validation": "Targeted repair manifest replaces N assembly sources by hash",
+      "files": [
+        "src/north_garden/apply_ch05_complete_chapter_repairs.py"
+      ],
+      "pipeline_stage": "repair",
+      "what_it_actually_proves": "Named panels were replaced with files whose hash/dimensions match the repair record; other entries untouched in the written assembly.",
+      "what_it_does_not_prove": "The repair_class is visually true, or that unchanged panels were re-checked.",
+      "false_pass_example": "Replacing P001 with any  hash-matching PNG labeled departure_vector compiles r2.",
+      "false_fail_risk": "Source assembly hash mismatch fail-closed if someone reformats JSON (intended).",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "repair-ember-orientation-retry",
+      "current_validation": "Preserve landscape hard fail; insert tall retry; snapshot non-targets",
+      "files": [
+        "src/reimaginings/ember_lattice/prepare_panel_repair.py",
+        "src/reimaginings/ember_lattice/verify_repair_snapshot.py",
+        "src/reimaginings/ember_lattice/audit_volume.py"
+      ],
+      "pipeline_stage": "repair",
+      "what_it_actually_proves": "CH03 P007 r1 is diagnostic non_vertical_source; r2 is a different request; other outputs' hashes unchanged if files exist.",
+      "what_it_does_not_prove": "The retry is the same story moment or a better drawing — only that it is taller than wide if it later passes the dimension check.",
+      "false_pass_example": "A tall but unrelated image at p007.png plus unchanged neighbors PASSes repair-validation.json.",
+      "false_fail_risk": "verify_repair_snapshot fails in clean checkout because non-target paths are under experiments/.",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "repair-p036-mask-research",
+      "current_validation": "Scale-aware boundary selector, topology, exterior-zero, lettering-zero, 16px/5px profiles",
+      "files": [
+        "src/north_garden/validate_scale_aware_boundary_selector.py",
+        "src/north_garden/validate_ch05_p036_causal_shape_control.py",
+        "src/north_garden/preflight_openai_p036_submission.py",
+        "config/scale-aware-repair-boundary-selector-contract-r2.json"
+      ],
+      "pipeline_stage": "repair",
+      "what_it_actually_proves": "Abstract mask math on synthetic/control images: exterior and lettering pixels unchanged; selected widths meet predeclared numeric rules. Real P036 still blocked (no approved base/mask/authority/reservation).",
+      "what_it_does_not_prove": "Seam quality on story art. ADR text already limits this to mechanics.",
+      "false_pass_example": "0% exterior change on a rectangular control is not an acceptable seam (GOAL.md records this).",
+      "false_fail_risk": "Topology tests on disconnected/holed controls do not apply as production profiles (explicitly non-profile).",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "deterministic-svg-expansion",
+      "current_validation": "Lettering SVG built from units; overflow grows the box toward mid-frame",
+      "files": [
+        "src/reimaginings/ember_lattice/build_volume.py",
+        "src/reimaginings/ember_lattice/premium_rd/render.py"
+      ],
+      "pipeline_stage": "deterministic-svg-composition",
+      "what_it_actually_proves": "Given a source PNG size, overlay SVG is a pure function of units. HTML layers overlay separately from art.",
+      "what_it_does_not_prove": "No occlusion of faces after expansion. Missing PNG still yields well-formed SVG.",
+      "false_pass_example": "Needed height > authored box expands into the focal half; audit then uses effective_box so fit PASSes.",
+      "false_fail_risk": "Contact sheet / render_svg raise if source missing — live build fails; tracked HTML remains.",
+      "disposition": "modify",
+      "error_role": "amplified",
+      "goodharted": true
+    },
+    {
+      "id": "volume-validation-snapshot",
+      "current_validation": "Tracked VolumeValidation/1.0 PASS, 224/1, 0 errors",
+      "files": [
+        "production/reimaginings/ember-lattice/volume/volume-validation.json",
+        "src/reimaginings/ember_lattice/audit_volume.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "A past run on a machine with rasters reported PASS. JSON is internally consistent with that claim.",
+      "what_it_does_not_prove": "That this checkout can show 240 panels. experiments/ is gitignored and absent here.",
+      "false_pass_example": "Git status clean + volume-validation.json PASS while HTML img src points at missing experiments/reimaginings/ember-lattice/volume/ch01/source/p017.png.",
+      "false_fail_risk": "Re-running audit_volume.py now would FAIL on missing sources — the live tool is harsher than the tracked snapshot.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "phase-b-audit-markdown",
+      "current_validation": "Four markdown audits with hardcoded PASS findings",
+      "files": [
+        "src/reimaginings/ember_lattice/write_phase_b_audits.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "All generation-requests are REVIEWED_PASS or diagnostic; density/action totals can be summed from dialogue-and-density-metrics.json.",
+      "what_it_does_not_prove": "Complexion, fight causality, eye-strain, or phone occlusion. Those lines are string literals.",
+      "false_pass_example": "Finding 'PASS — Elian and Mira remain fair/light-complexioned...' is not computed from pixels.",
+      "false_fail_risk": "Any request not yet batch-marked blocks the whole Phase B packet.",
+      "disposition": "remove",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "hardening-release-gates",
+      "current_validation": "Pinned core suite N/N plus extension validators; mutation rejection; $0 activity",
+      "files": [
+        "src/north_garden/validate_hardening_release.py",
+        "src/north_garden/validate_hardening_release_r2.py",
+        "src/north_garden/validate_hardening_release_r5.py",
+        "src/north_garden/validate_ch05_instrumentation_suite.py"
+      ],
+      "pipeline_stage": "build-architecture",
+      "what_it_actually_proves": "Listed local scripts still exit 0 and the gate JSON still matches. Network/provider/upload/cost fields remain zero in the gate record.",
+      "what_it_does_not_prove": "Art, identity, or that CH05 is executable. Boundaries array already says passing does not create human review or acceptance.",
+      "false_pass_example": "44 core + 8 extensions = 52/52 while GOAL.md records 0/50 accepted and 0/20 G07 human decisions.",
+      "false_fail_risk": "stdout last-line identity and check-count pinning fail if a validator prints an extra warning — process fragility, not reader value.",
+      "disposition": "modify",
+      "error_role": "documented",
+      "goodharted": true
+    },
+    {
+      "id": "cost-ledger-append-only",
+      "current_validation": "ch05-production-cost-ledger r1 through r37 each with a validator",
+      "files": [
+        "src/north_garden/compile_ch05_production_cost_ledger_r37.py",
+        "src/north_garden/validate_ch05_production_cost_ledger_r37.py",
+        "docs/research/evidence/ch05-production-cost-ledger-r37.json"
+      ],
+      "pipeline_stage": "build-architecture",
+      "what_it_actually_proves": "Append-only accounting: this revision added two local zero-cost milestones; committed USD still 0.000000; human minutes null.",
+      "what_it_does_not_prove": "Built-in ImageGen is free (monetary_cost_usd is null). Production fitness. 124 local milestones are not 124 reader improvements.",
+      "false_pass_example": "Appending ch05_overnight_closeout_release_r1 with external_cost_usd 0.000000 is a documentation event scored as ledger health.",
+      "false_fail_risk": "Editing r36 bytes breaks the supersedes hash chain (intended for forensics, costly for maintainers).",
+      "disposition": "modify",
+      "error_role": "documented",
+      "goodharted": true
+    },
+    {
+      "id": "comic-input-gate-and-journals",
+      "current_validation": "Base raster / mask approval, timed minutes, journal chain, budget binding, RenderRecord v2",
+      "files": [
+        "src/north_garden/comic_input_gate.py",
+        "src/north_garden/submission_journal.py",
+        "src/north_garden/comic_run_ledger.py",
+        "src/north_garden/render_record.py",
+        "src/north_garden/review_session.py"
+      ],
+      "pipeline_stage": "repair",
+      "what_it_actually_proves": "Illegal transitions, hash tampers, missing minutes, synthetic fixtures, and unknown provider outcomes cannot be promoted. Strong crash-safety for paid submit.",
+      "what_it_does_not_prove": "Any real CH05 panel used this path (approved bases 0). Does not improve ImageGen quality.",
+      "false_pass_example": "A full synthetic lifecycle can PASS validators in fixture mode while real ledgers stay BASE_APPROVAL_PENDING.",
+      "false_fail_risk": "High — by design. Missing human_minutes blocks approval.",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "g07-blinded-review-and-rollup",
+      "current_validation": "16 candidates, 20 timed decisions required, provider-hidden packets, fail-closed rollup",
+      "files": [
+        "src/north_garden/validate_g07_blinded_review.py",
+        "src/north_garden/validate_g07_review_rollup.py",
+        "src/north_garden/validate_g07_evidence_vault.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "Packet hashes, no identity leak in presentation, 0/20 decisions, null minutes, candidates unaccepted. Vault pins 19 provider records + 16 candidates if local bytes exist.",
+      "what_it_does_not_prove": "Which renderer is better for a serial. Human arm results remain null (ADR-0039).",
+      "false_pass_example": "Engineering closeout can be 12/12 complete while G07 stays 0/20 (GOAL.md / ADR-0082).",
+      "false_fail_risk": "Vault validator fails without ignored local archive — same experiments/ limitation.",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "chapter-lint-nongating",
+      "current_validation": "Unique ids, reading order, asset hashes, uncalibrated phash, not_assessable balloons",
+      "files": [
+        "src/north_garden/chapter_lint.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "Edition selection is complete and files hash. Explicitly gating=false. Limitation string: passing does not establish identity or acceptance.",
+      "what_it_does_not_prove": "Lettering, identity, set continuity.",
+      "false_pass_example": "summary.fail==0 with not_assessable==1 and advisory==1 still prints as a successful lint.",
+      "false_fail_risk": "Missing accepted_asset file fails (correct).",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "semantic-graph-fixture",
+      "current_validation": "Complete-chapter ComicPanelPlan authoring contract on a 6-panel synthetic graph",
+      "files": [
+        "src/north_garden/validate_complete_chapter_semantic_graph.py",
+        "src/north_garden/compile_complete_chapter_comicpanelplan_authoring_contract.py"
+      ],
+      "pipeline_stage": "prompt-compilation",
+      "what_it_actually_proves": "A future graph schema forbids prompt/output/provider keys and requires continuity categories on a fixture.",
+      "what_it_does_not_prove": "That CH05's real 50 plans satisfy a live semantic graph of footprints/tin/map (those are separate phrase gates).",
+      "false_pass_example": "Fixture plans copy the same shared_state in and out; the test never sees a dropped prop.",
+      "false_fail_risk": "Adding a real prompt field to a plan for debugging would fail FORBIDDEN_KEYS.",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    },
+    {
+      "id": "sibling-borrowed-down-validate-all",
+      "current_validation": "300 panels / 60 sequence prompts / 30 letters per chapter, 24-word cap, prompt hash",
+      "files": [
+        "C:\\AgentWorkspaces\\anime-pipeline-reimagining-20260903\\src\\reimaginings\\borrowed_down\\pipeline.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "Compiled JSON counts and hashes. Silence rows have no text. Safe-zone boxes are well-formed.",
+      "what_it_does_not_prove": "Raster identity or that 5-cell sequence generation produced five beats.",
+      "false_pass_example": "validate_all does not open PNGs for identity; a full volume of wrong stills PASSes if JSON is well-formed.",
+      "false_fail_risk": "Word count >24 fails a panel even if the extra words are necessary climax copy.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "sibling-city-validate-all",
+      "current_validation": "240/80/240 counts, density budget 16/5/3, no adjacent highs, <=4 refs, entropy ceilings, state edge lists",
+      "files": [
+        "C:\\AgentWorkspaces\\anime-pipeline-reimagining-clean-webtoon-20260903-213010\\src\\reimaginings\\the_city_keeps_oaths\\pipeline.py"
+      ],
+      "pipeline_stage": "validation",
+      "what_it_actually_proves": "Plan metadata matches a density pattern and reference registry hashes. Optional pixel proxies vs pilot ceilings.",
+      "what_it_does_not_prove": "Craft. Entropy flags are the same Goodhart class as Ember audit_volume.",
+      "false_pass_example": "DENSITY_PATTERN is a repeating list assigned at authoring; validate_all recounts it.",
+      "false_fail_risk": "Clean low-detail panels can exceed or under-run pilot entropy depending on ceiling direction; high-frequency occupancy is resize-sensitive.",
+      "disposition": "modify",
+      "error_role": "hidden",
+      "goodharted": true
+    },
+    {
+      "id": "lion-cub-batch-and-trainer",
+      "current_validation": "Not a comic QA gate; training QC is human contact-sheet plus blur/size heuristics",
+      "files": [
+        "C:\\AgentWorkspaces\\anime-pipeline\\batch_generate.py",
+        "C:\\AgentWorkspaces\\anime-pipeline\\trainer\\README.md",
+        "C:\\AgentWorkspaces\\anime-pipeline\\trainer\\prep_photos.py"
+      ],
+      "pipeline_stage": "local-comfy-lora",
+      "what_it_actually_proves": "A separate mascot pipeline exists: real photos → LoRA on the same checkpoint used to generate. README records that synthetic-then-LoRA was circular and failed.",
+      "what_it_does_not_prove": "Anything about Soren/Sigrid or Ember casts. That lesson was not imported into the comic routes.",
+      "false_pass_example": "N/A for serial reader value.",
+      "false_fail_risk": "N/A.",
+      "disposition": "retain",
+      "error_role": "documented",
+      "goodharted": false
+    }
+  ],
+  "disposition_counts": {
+    "retain": 14,
+    "modify": 25,
+    "remove": 2
+  },
+  "highest_leverage_false_passes": [
+    "tracked volume-validation.json PASS without experiments/ rasters",
+    "mark_art_review.py chapter-wide REVIEWED_PASS",
+    "compile_ch05_complete_chapter_agent_triage.py hardcoded PASS/WARN",
+    "validate_ch05_cross_panel_semantic_gates.py prompt phrases vs pixels",
+    "audit_volume.py lettering fit after box expansion",
+    "write_phase_b_audits.py hardcoded complexion/causality PASS",
+    "hardening N/N checks as production-fitness proxy"
+  ]
+}
